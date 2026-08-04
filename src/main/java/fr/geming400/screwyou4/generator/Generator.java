@@ -7,6 +7,7 @@ import fr.geming400.screwyou4.Utils;
 import io.github.classgraph.ClassGraph;
 import io.github.classgraph.ClassInfo;
 import io.github.classgraph.ScanResult;
+import jdk.jfr.Event;
 import org.apache.commons.lang3.time.StopWatch;
 import org.jetbrains.annotations.Nullable;
 import org.jspecify.annotations.NonNull;
@@ -22,17 +23,23 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.*;
+import java.util.concurrent.atomic.AtomicInteger;
+import java.util.concurrent.atomic.AtomicLong;
 
 public class Generator {
     private static final boolean TEST_MODE = false;
+    private static final ClassLoader CLASS_LOADER = ClassLoaderUtil.getClassLoader(Generator.class);
 
     private static final String MINECRAFT_PACKAGE = "net.minecraft";
     private static final String MOD_PACKAGE = "fr.geming400.screwyou4";
 
     private final Path mixinFolder;
+    private final Path resourceFolder;
+    private final Map<String, List<SerializedMethod>> foundMethods = new HashMap<>();
 
-    Generator(Path mixinFolder) {
+    Generator(Path mixinFolder, Path resourceFolder) {
         this.mixinFolder = mixinFolder;
+        this.resourceFolder = resourceFolder;
     }
 
     private String injectMethod(Method method) {
@@ -41,12 +48,12 @@ public class Generator {
         CallbackInfoType callbackInfoType = getCallbackInfoType(method);
 
         // We need to do this because mixins like private functions
-        String modifierString = Modifier.toString(method.getModifiers())
-                .replace("public", "private")
-                .replace("protected", "private");
+        String modifierString = Modifier.isStatic(method.getModifiers())
+                ? " static"
+                : "";
 
         lines.addLine("    @Inject(at = @At(\"HEAD\"), method = \"%s\", cancellable = true)".formatted(Utils.getMixinSignature(method)));
-        lines.addLine("    %s void %s(%s info) {".formatted(modifierString, method.getName(), callbackInfoType.getClassName(method)));
+        lines.addLine("    private%s void %s_%s(%s info) {".formatted(modifierString, method.getName(), Utils.getSafeUniqueMethodID(method), callbackInfoType.getObjectClassName()));
         lines.addLine("        if (!ScrewYou4.isMethodAlive(%sL))".formatted(Utils.getUniqueMethodID(method)));
         lines.addLine("            %s;".formatted(callbackInfoType.getCancelCall("info", "null")));
 //        lines.addLine("        } else {");
@@ -58,19 +65,28 @@ public class Generator {
         return lines.joinLines();
     }
 
+    @Nullable
     private List<String> getMixinContent(Class<?> clazz) throws IOException, URISyntaxException {
-        if (!isClassMixinable(clazz))
-            return List.of();
-
-        ClassLoader classLoader = ClassLoaderUtil.getClassLoader(Generator.class);
+        if (!canMixinClass(clazz))
+            return null;
 
         StringBuilder mixinContent = new StringBuilder();
-        for (Method method : clazz.getDeclaredMethods())
-            mixinContent.append(this.injectMethod(method));
+        for (Method method : clazz.getDeclaredMethods()) {
+            if (canMixinMethod(method)) {
+                this.foundMethods.get(clazz.getName())
+                        .add(new SerializedMethod(Utils.getMixinSignature(method), Utils.getUniqueMethodID(method)));
 
-        URI templateMixinFile = Objects.requireNonNull(classLoader.getResource("TemplateMixin.java")).toURI();
+                mixinContent.append(this.injectMethod(method));
+            }
+        }
+
+        if (Arrays.stream(clazz.getDeclaredMethods()).noneMatch(Generator::canMixinMethod)) {
+            return null;
+        }
+
+        URI templateMixinFile = Objects.requireNonNull(CLASS_LOADER.getResource("TemplateMixin.java")).toURI();
         String templateContent = Files.readString(Paths.get(templateMixinFile)).formatted(
-                clazz.getName(),
+                clazz.getTypeName().replace("$", "."),
                 getMixinClassName(clazz),
                 mixinContent.toString()
         );
@@ -78,16 +94,39 @@ public class Generator {
         return LineArrayList.fromString(templateContent);
     }
 
-    private Path createFile(Class<?> clazz) {
+    private boolean createFile(Class<?> clazz) {
         try {
             Path mixinFilePath = Paths.get(this.mixinFolder.toString(), getMixinFileName(clazz));
-            Path file = Files.createFile(mixinFilePath);
-            Files.write(file, this.getMixinContent(clazz));
 
-            return file;
+            if (Files.exists(mixinFilePath)) {
+                ScrewYou4.LOGGER.warn("Mixin already exists for class {}. Ignoring.", clazz);
+                return false;
+            } else {
+                this.foundMethods.put(clazz.getName(), new ArrayList<>());
+
+                List<String> content = this.getMixinContent(clazz);
+                if (content != null) {
+                    Path file = Files.createFile(mixinFilePath);
+                    Files.write(file, content);
+                }
+
+                return content != null;
+            }
         } catch (Exception e) {
             //noinspection StringConcatenationArgumentToLogCall
             ScrewYou4.LOGGER.error("Got an error while trying to create file " + getMixinFileName(clazz), e);
+            return false;
+        }
+    }
+
+    public MixinConfig getMixinConfig() {
+        try {
+            Path path = this.resourceFolder.resolve("screw-you-4.mixins.json");
+            String mixinConfig = Files.readString(path);
+
+            return new MixinConfig(path, mixinConfig);
+        } catch (IOException e) {
+            ScrewYou4.LOGGER.error("Got an error while trying to parse mixin config", e);
             throw new RuntimeException(e);
         }
     }
@@ -100,15 +139,19 @@ public class Generator {
         Set<Class<?>> mcClasses = getAllMinecraftClasses(true);
         ScrewYou4.LOGGER.info("Found {} classes", mcClasses.size());
 
+        AtomicInteger mixinedClassesCount = new AtomicInteger();
         JsonArray registeredMixins = new JsonArray();
         mcClasses.forEach(clazz -> {
-            this.createFile(clazz);
-            registeredMixins.add(clazz.getSimpleName());
+            if (this.createFile(clazz)) {
+                mixinedClassesCount.addAndGet(1);
+                registeredMixins.add(getMixinClassName(clazz));
+            }
         });
 
-        ScrewYou4.LOGGER.info("Finished creating all mixins ! Now adding them to the config");
+        ScrewYou4.LOGGER.info("Finished creating all mixins ! Now adding them to the mixin config + taking a snapshot");
 
-        MixinConfig mixinConfig = getMixinConfig();
+        // Mixin config adder
+        MixinConfig mixinConfig = this.getMixinConfig();
         JsonObject mixinJsonConfig = mixinConfig.asJson();
 
         mixinJsonConfig.add("mixins", registeredMixins);
@@ -120,23 +163,24 @@ public class Generator {
             throw new RuntimeException(e);
         }
 
-        stopWatch.stop();
-        ScrewYou4.LOGGER.info("Finished process in {} !", stopWatch.getDuration());
-    }
-
-    public static MixinConfig getMixinConfig() {
-        ClassLoader classLoader = ClassLoaderUtil.getClassLoader(Generator.class);
-
         try {
-            URI mixinConfigPath = Objects.requireNonNull(classLoader.getResource("screw-you-4.mixins.json")).toURI();
-            Path path = Paths.get(mixinConfigPath);
-            String mixinConfig = Files.readString(path);
+            // Snapshot thingy idk
+            Path foundClassesFiles = this.resourceFolder.resolve("foundMethods.json");
 
-            return new MixinConfig(path, mixinConfig);
-        } catch (IOException | URISyntaxException e) {
-            ScrewYou4.LOGGER.error("Got an error while trying to parse mixin config", e);
+            Files.writeString(foundClassesFiles, new Gson().toJson(this.foundMethods));
+        } catch (IOException e) {
+            ScrewYou4.LOGGER.error("Caught an error while trying to read foundMethods.json file");
             throw new RuntimeException(e);
         }
+
+        stopWatch.stop();
+        ScrewYou4.LOGGER.info("Finished process in {} seconds !", stopWatch.getDuration().getSeconds());
+
+        AtomicLong mixinedMethodsCount = new AtomicLong();
+        this.foundMethods.forEach((clazz, methods) ->
+                mixinedMethodsCount.addAndGet(methods.size()));
+
+        ScrewYou4.LOGGER.info("Mixined {} classes, {} methods, with a {}% mixin rate", mixinedClassesCount, mixinedMethodsCount, ((double) mixinedClassesCount.get() / mcClasses.size()) * 100);
     }
 
     public static Set<Class<?>> getAllMinecraftClasses(boolean checkForMixinability) {
@@ -148,7 +192,7 @@ public class Generator {
         try (ScanResult scanResult = classGraph.scan()) {
             for (ClassInfo classInfo : scanResult.getAllClasses()) {
                 Class<?> clazz = classInfo.loadClass();
-                if (checkForMixinability && isClassMixinable(clazz)) {
+                if (checkForMixinability && canMixinClass(clazz)) {
                    res.add(clazz);
 
                    if (TEST_MODE)
@@ -169,16 +213,42 @@ public class Generator {
     }
 
     private static String getMixinClassName(Class<?> clazz) {
-        return clazz.getSimpleName() + "Mixin";
+        return clazz.getSimpleName() + Utils.getSafeUniqueClassID(clazz) + "Mixin";
     }
 
     private static String getMixinFileName(Class<?> clazz) {
         return getMixinClassName(clazz) + ".java";
     }
 
-    private static boolean isClassMixinable(Class<?> clazz) {
+    private static boolean canMixinClass(Class<?> clazz) {
         int modifiers = clazz.getModifiers();
-        return !clazz.isHidden() && !clazz.isLocalClass() && !Modifier.isAbstract(modifiers);
+
+        return !clazz.isHidden()
+                && !clazz.isLocalClass()
+                && !Modifier.isAbstract(modifiers)
+                && Modifier.isPublic(modifiers)
+                && !Utils.isPrivateOrHasPrivateEnclosingClass(clazz)
+                && !Event.class.isAssignableFrom(clazz);
+    }
+
+    private static boolean canMixinMethod(Method method) {
+        boolean hasPrivateType = !Modifier.isPublic(method.getModifiers()) || !Modifier.isPublic(method.getReturnType().getModifiers());
+        for (Class<?> parameter : method.getParameterTypes()) {
+            if (hasPrivateType)
+                break;
+
+            hasPrivateType = !Modifier.isPublic(method.getModifiers());
+        }
+
+        return !Utils.isLambda(method) && !hasPrivateType;
+    }
+
+    private static boolean shouldUseGenericObjectType(Method method) {
+        if (Utils.isPrivateOrHasPrivateEnclosingClass(method.getReturnType())) {
+            return true;
+        }
+
+        return Utils.hasDefaultAccessibleConstructor(method.getReturnType());
     }
 
     private enum CallbackInfoType {
@@ -201,9 +271,42 @@ public class Generator {
                     : "%s.cancel()".formatted(callbackInfoVar);
         }
 
-        public String getClassName(Method method) {
+        public String getObjectClassName() {
             return this.hasReturnType
-                    ? this.clazz.getSimpleName() + "<%s>".formatted(Utils.getSimpleNameWithPackage(method.getReturnType()))
+                    ? this.clazz.getSimpleName() + "<Object>"
+                    : this.clazz.getSimpleName();
+        }
+
+        public String getClassName(Method method) {
+            Class<?> returnType = method.getReturnType();
+
+            String genericType = returnType.getTypeName().replace("$", ".");
+
+            if (Utils.hasDefaultAccessibleConstructor(method.getReturnType())) {
+                genericType = "Object";
+            } else {
+                // Remapping them to their boxed values
+                if (returnType == byte.class) {
+                    genericType = Byte.class.getTypeName();
+                } else if (returnType == char.class) {
+                    genericType = Character.class.getTypeName();
+                } else if (returnType == short.class) {
+                    genericType = Short.class.getTypeName();
+                } else if (returnType == int.class) {
+                    genericType = Integer.class.getTypeName();
+                } else if (returnType == long.class) {
+                    genericType = Long.class.getTypeName();
+                } else if (returnType == float.class) {
+                    genericType = Float.class.getTypeName();
+                } else if (returnType == double.class) {
+                    genericType = Double.class.getTypeName();
+                } else if (returnType == boolean.class) {
+                    genericType = Boolean.class.getTypeName();
+                }
+            }
+
+            return this.hasReturnType
+                    ? this.clazz.getSimpleName() + "<%s>".formatted(genericType)
                     : this.clazz.getSimpleName();
         }
     }
@@ -228,4 +331,9 @@ public class Generator {
             this.write(gson.toJson(jsonElement));
         }
     }
+
+    public record SerializedMethod(
+            String signature,
+            long uniqueID
+    ) {}
 }

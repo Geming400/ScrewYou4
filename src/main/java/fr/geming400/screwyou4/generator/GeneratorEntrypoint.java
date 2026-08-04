@@ -12,16 +12,32 @@ class GeneratorEntrypoint {
     private GeneratorEntrypoint() {}
 
     static void main(String[] args) {
-        if (args.length == 1) {
+        if (args.length == 2) {
             try {
                 Path mixinPath = Path.of(args[0]);
+                Path resourcePath = Path.of(args[1]);
                 ScrewYou4.LOGGER.info("Mixin folder is {}", mixinPath);
+                ScrewYou4.LOGGER.info("Resource folder is {}", resourcePath);
 
                 if (Files.exists(mixinPath)) {
-                    ScrewYou4.LOGGER.info("Now starting generation of mixins !");
+                    ScrewYou4.LOGGER.info("Cleaning mixin folders");
                     FileUtils.cleanDirectory(mixinPath.toFile());
+                    if (!FileUtils.isEmptyDirectory(mixinPath.toFile())) {
+                        ScrewYou4.LOGGER.warn("Failed to clean mixin directory ! Will delete its content in an alternative way");
 
-                    new Generator(mixinPath).generate();
+                        ScrewYou4.LOGGER.info("Deleting mixin folder");
+                        FileUtils.deleteDirectory(mixinPath.toFile());
+
+                        ScrewYou4.LOGGER.info("Recreating mixin folder");
+                        FileUtils.createParentDirectories(mixinPath.toFile());
+
+                        if (!FileUtils.isEmptyDirectory(mixinPath.toFile())) {
+                            ScrewYou4.LOGGER.error("Mixin folder is still not empty after trying 2nd method ! Exiting");
+                            throw new RuntimeException("Failed to clean directory %s after 2 tries".formatted(mixinPath));
+                        }
+                    }
+
+                    new Generator(mixinPath, resourcePath).generate();
                 } else {
                     ScrewYou4.LOGGER.error("Path {} doesn't exist !", mixinPath.toAbsolutePath());
                 }
@@ -32,7 +48,7 @@ class GeneratorEntrypoint {
                 throw new RuntimeException(e);
             }
         } else {
-            ScrewYou4.LOGGER.error("You are required to add 1 path argument: the mixin folder");
+            ScrewYou4.LOGGER.error("You are required to add 2 path arguments: the mixin folder and the resource folder");
         }
     }
 }

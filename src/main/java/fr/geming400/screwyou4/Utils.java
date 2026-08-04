@@ -1,5 +1,6 @@
 package fr.geming400.screwyou4;
 
+import org.jetbrains.annotations.Nullable;
 import org.objectweb.asm.Type;
 
 import java.lang.reflect.Constructor;
@@ -17,8 +18,15 @@ public class Utils {
                 && !Modifier.isPrivate(modifiers);
     }
 
+    public static boolean isPackagePrivate(Class<?> clazz) {
+        int modifiers = clazz.getModifiers();
+        return !Modifier.isPublic(modifiers)
+                && !Modifier.isProtected(modifiers)
+                && !Modifier.isPrivate(modifiers);
+    }
+
     public static boolean hasDefaultAccessibleConstructor(Class<?> clazz) {
-        if (Modifier.isAbstract(clazz.getModifiers()))
+        if (Modifier.isAbstract(clazz.getModifiers()) || clazz.isPrimitive())
             return false;
 
         Constructor<?>[] constructors = clazz.getConstructors();
@@ -30,8 +38,22 @@ public class Utils {
         return false;
     }
 
+    public static long getUniqueClassID(Class<?> clazz) {
+        return Objects.hash(clazz.getName(), clazz.getPackageName(), clazz.getModifiers());
+    }
+
+    public static String getSafeUniqueClassID(Class<?> clazz) {
+        String id = String.valueOf(getUniqueClassID(clazz));
+        return id.replace("-", "_");
+    }
+
     public static long getUniqueMethodID(Method method) {
-        return Objects.hash(Type.getMethodDescriptor(method), method.getModifiers(), method.getDeclaringClass().getName());
+        return Objects.hash(Type.getMethodDescriptor(method), method.getModifiers(), getUniqueClassID(method.getDeclaringClass()));
+    }
+
+    public static String getSafeUniqueMethodID(Method method) {
+        String id = String.valueOf(getUniqueMethodID(method));
+        return id.replace("-", "_");
     }
 
     public static String getMixinSignature(Method method) {
@@ -42,7 +64,17 @@ public class Utils {
         return clazz.equals(Void.TYPE);
     }
 
-    public static String getSimpleNameWithPackage(Class<?> clazz) {
-        return clazz.getPackageName() + "." + clazz.getSimpleName();
+    public static boolean isLambda(Method method) {
+        // Hacky way to check if a given method
+        // is a lambda, but it works
+        return getMixinSignature(method).contains("lambda$");
+    }
+
+    public static boolean isPrivateOrHasPrivateEnclosingClass(@Nullable Class<?> clazz) {
+        if (clazz == null) {
+            return false;
+        } else {
+            return !Modifier.isPublic(clazz.getModifiers()) || isPrivateOrHasPrivateEnclosingClass(clazz.getEnclosingClass());
+        }
     }
 }
