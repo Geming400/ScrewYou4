@@ -1,5 +1,8 @@
 package fr.geming400.screwyou4;
 
+import com.google.gson.Gson;
+import com.google.gson.reflect.TypeToken;
+import com.ibm.icu.impl.ClassLoaderUtil;
 import fr.geming400.screwyou4.generator.Generator;
 import net.fabricmc.api.ModInitializer;
 
@@ -10,8 +13,13 @@ import net.minecraft.util.RandomSource;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import java.io.IOException;
 import java.lang.reflect.Method;
+import java.net.URISyntaxException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.util.*;
+import java.util.concurrent.atomic.AtomicLong;
 
 public class ScrewYou4 implements ModInitializer {
 	public static final String MOD_ID = "screw-you-4";
@@ -21,8 +29,11 @@ public class ScrewYou4 implements ModInitializer {
 	// That way, it's clear which mod wrote info, warnings, and errors.
 	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 
+	public static Map<String, List<Generator.SerializedMethod>> METHODS_BY_CLASS;
 	public static final SequencedSet<Long> METHODS = new LinkedHashSet<>();
 	public static final SequencedSet<Long> KILLED_METHODS = new LinkedHashSet<>();
+
+	private static final ClassLoader CLASS_LOADER = ClassLoaderUtil.getClassLoader(ScrewYou4.class);
 
 	@Override
 	public void onInitialize() {
@@ -31,37 +42,59 @@ public class ScrewYou4 implements ModInitializer {
 		// Proceed with mild caution.
 
 		LOGGER.info("Hello from the mod that will Screw You (4) !");
-		this.computeClasses();
+		this.setMethodsFromPrecomputedFile();
 
 		ServerPlayerEvents.AFTER_RESPAWN.register((oldPlayer, newPlayer, alive) -> {
-			List<Long> aliveMethods = getAliveMethods();
-			RandomSource random = newPlayer.getRandom();
-
-			long toKill = aliveMethods.get(random.nextInt(aliveMethods.size() - 1));
-			killMethod(toKill);
+			Generator.SerializedMethod toKill = getRandomMethod(newPlayer.getRandom());
+			killMethod(toKill.uniqueID());
 
 			LOGGER.info("Killed method {}", toKill);
 		});
 	}
 
-	private void computeClasses() {
-		Thread thread = new Thread(() -> {
-			LOGGER.info("Finding Minecraft classes...");
-			Set<Class<?>> classes = Generator.getAllMinecraftClasses(false);
-			LOGGER.info("Found {} classes !", classes.size());
+	private void setMethodsFromPrecomputedFile() {
+		LOGGER.info("Reading found methods file");
 
-			for (Class<?> clazz : classes) {
-				for (Method method : clazz.getDeclaredMethods()) {
-					if (!Utils.isPackagePrivate(method))
-						METHODS.add(Utils.getUniqueMethodID(method));
-				}
-			}
+		try {
+			String rawFoundMethods = Files.readString(
+					Paths.get(
+							Objects.requireNonNull(CLASS_LOADER.getResource("foundMethods.json")).toURI()
+					)
+			);
 
-			LOGGER.info("Found {} methods !", METHODS.size());
-        });
+			Map<String, List<Generator.SerializedMethod>> foundMethods = new Gson().fromJson(rawFoundMethods, new TypeToken<>() {});
+			METHODS_BY_CLASS = foundMethods;
 
-		thread.setName("Class computation thread");
-		thread.start();
+			AtomicLong foundClassesCount = new AtomicLong();
+			AtomicLong foundMethodsCount = new AtomicLong();
+			foundMethods.forEach((clazz, methods) -> {
+				foundClassesCount.addAndGet(1);
+				foundMethodsCount.addAndGet(methods.size());
+
+				METHODS.addAll(methods
+						.stream()
+						.map(Generator.SerializedMethod::uniqueID)
+						.toList());
+			});
+
+			LOGGER.info("Found {} classes and {} methods from precomputed 'foundMethods.json' file !", foundClassesCount, foundMethodsCount);
+		} catch (URISyntaxException | IOException e) {
+			LOGGER.error("Got an error while trying to read foundMethods.json", e);
+		}
+	}
+
+	public static List<Generator.SerializedMethod> getAllSerializedMethods() {
+		List<Generator.SerializedMethod> res = new ArrayList<>();
+		METHODS_BY_CLASS.forEach((clazz, methods) ->
+				res.addAll(methods)
+		);
+
+		return res;
+	}
+
+	public static Generator.SerializedMethod getRandomMethod(RandomSource rng) {
+		List<Generator.SerializedMethod> serializedMethods = getAllSerializedMethods();
+		return serializedMethods.get(rng.nextInt(serializedMethods.size() - 1));
 	}
 
 	public static List<Long> getAliveMethods() {
