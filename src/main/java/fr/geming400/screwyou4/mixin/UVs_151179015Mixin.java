@@ -31,14 +31,20 @@ public class UVs_151179015Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "maxU()F", cancellable = true)
-    private void maxU_189438377(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(189438377L))
+    @Inject(at = @At("HEAD"), method = "getVertexU(I)F", cancellable = true)
+    private void getVertexU_1365080610(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1365080610L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "minV()F", cancellable = true)
-    private void minV_189438377(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "getVertexV(I)F", cancellable = true)
+    private void getVertexV_1365080610(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1365080610L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "maxU()F", cancellable = true)
+    private void maxU_189438377(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(189438377L))
             info.setReturnValue(null);
     }
@@ -49,15 +55,9 @@ public class UVs_151179015Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getVertexU(I)F", cancellable = true)
-    private void getVertexU_1365080610(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1365080610L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getVertexV(I)F", cancellable = true)
-    private void getVertexV_1365080610(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1365080610L))
+    @Inject(at = @At("HEAD"), method = "minV()F", cancellable = true)
+    private void minV_189438377(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(189438377L))
             info.setReturnValue(null);
     }
 

@@ -31,14 +31,14 @@ public class CombatEntry_874871232Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "fallDistance()F", cancellable = true)
-    private void fallDistance_913130594(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "damage()F", cancellable = true)
+    private void damage_913130594(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(913130594L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "damage()F", cancellable = true)
-    private void damage_913130594(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "fallDistance()F", cancellable = true)
+    private void fallDistance_913130594(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(913130594L))
             info.setReturnValue(null);
     }

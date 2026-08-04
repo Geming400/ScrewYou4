@@ -55,15 +55,15 @@ public class SingleInputSet682399722Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "selectByInput(Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/world/item/crafting/SelectableRecipe$SingleInputSet;", cancellable = true)
-    private void selectByInput_965711125(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(965711125L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "acceptsInput(Lnet/minecraft/world/item/ItemStack;)Z", cancellable = true)
     private void acceptsInput__1878032442(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1878032442L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "selectByInput(Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/world/item/crafting/SelectableRecipe$SingleInputSet;", cancellable = true)
+    private void selectByInput_965711125(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(965711125L))
             info.setReturnValue(null);
     }
 

@@ -43,26 +43,14 @@ public class Ints1259475787Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "matchesSqr(J)Z", cancellable = true)
-    private void matchesSqr__1820647172(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1820647172L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "boundsSqr()Lnet/minecraft/advancements/predicates/MinMaxBounds$Bounds;", cancellable = true)
-    private void boundsSqr__76328664(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-76328664L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "atMost(I)Lnet/minecraft/advancements/predicates/MinMaxBounds$Ints;", cancellable = true)
     private static void atMost_1962511306(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1962511306L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "atLeast(I)Lnet/minecraft/advancements/predicates/MinMaxBounds$Ints;", cancellable = true)
-    private static void atLeast_1962511306(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "exactly(I)Lnet/minecraft/advancements/predicates/MinMaxBounds$Ints;", cancellable = true)
+    private static void exactly_1962511306(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1962511306L))
             info.setReturnValue(null);
     }
@@ -73,9 +61,21 @@ public class Ints1259475787Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "exactly(I)Lnet/minecraft/advancements/predicates/MinMaxBounds$Ints;", cancellable = true)
-    private static void exactly_1962511306(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "atLeast(I)Lnet/minecraft/advancements/predicates/MinMaxBounds$Ints;", cancellable = true)
+    private static void atLeast_1962511306(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1962511306L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "boundsSqr()Lnet/minecraft/advancements/predicates/MinMaxBounds$Bounds;", cancellable = true)
+    private void boundsSqr__76328664(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-76328664L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "matchesSqr(J)Z", cancellable = true)
+    private void matchesSqr__1820647172(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1820647172L))
             info.setReturnValue(null);
     }
 

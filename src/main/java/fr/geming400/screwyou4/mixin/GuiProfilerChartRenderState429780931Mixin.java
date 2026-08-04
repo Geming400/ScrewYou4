@@ -61,15 +61,15 @@ public class GuiProfilerChartRenderState429780931Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "chartData()Ljava/util/List;", cancellable = true)
-    private void chartData_2056117747(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2056117747L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "scissorArea()Lnet/minecraft/client/gui/navigation/ScreenRectangle;", cancellable = true)
     private void scissorArea_1604806235(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1604806235L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "chartData()Ljava/util/List;", cancellable = true)
+    private void chartData_2056117747(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2056117747L))
             info.setReturnValue(null);
     }
 

@@ -13,6 +13,12 @@ public class RotationSegment2067751751Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "convertToDirection(I)Ljava/util/Optional;", cancellable = true)
+    private static void convertToDirection__1382004524(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1382004524L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "convertToSegment(F)I", cancellable = true)
     private static void convertToSegment__1016081381(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1016081381L))
@@ -22,12 +28,6 @@ public class RotationSegment2067751751Mixin {
     @Inject(at = @At("HEAD"), method = "convertToSegment(Lnet/minecraft/core/Direction;)I", cancellable = true)
     private static void convertToSegment_947813425(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(947813425L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "convertToDirection(I)Ljava/util/Optional;", cancellable = true)
-    private static void convertToDirection__1382004524(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1382004524L))
             info.setReturnValue(null);
     }
 

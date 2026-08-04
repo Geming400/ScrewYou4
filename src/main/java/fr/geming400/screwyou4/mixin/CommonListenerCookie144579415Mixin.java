@@ -43,15 +43,15 @@ public class CommonListenerCookie144579415Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "createInitial(Lcom/mojang/authlib/GameProfile;Z)Lnet/minecraft/server/network/CommonListenerCookie;", cancellable = true)
-    private static void createInitial__876486360(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-876486360L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "clientInformation()Lnet/minecraft/server/level/ClientInformation;", cancellable = true)
     private void clientInformation__787310265(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-787310265L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "createInitial(Lcom/mojang/authlib/GameProfile;Z)Lnet/minecraft/server/network/CommonListenerCookie;", cancellable = true)
+    private static void createInitial__876486360(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-876486360L))
             info.setReturnValue(null);
     }
 

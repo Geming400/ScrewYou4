@@ -37,9 +37,9 @@ public class ContextScoreboardNameProvider_1205087263Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getScoreHolder(Lnet/minecraft/world/level/storage/loot/LootContext;)Lnet/minecraft/world/scores/ScoreHolder;", cancellable = true)
-    private void getScoreHolder__1922463124(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1922463124L))
+    @Inject(at = @At("HEAD"), method = "getReferencedContextParams()Ljava/util/Set;", cancellable = true)
+    private void getReferencedContextParams__623948224(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-623948224L))
             info.setReturnValue(null);
     }
 
@@ -49,9 +49,9 @@ public class ContextScoreboardNameProvider_1205087263Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getReferencedContextParams()Ljava/util/Set;", cancellable = true)
-    private void getReferencedContextParams__623948224(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-623948224L))
+    @Inject(at = @At("HEAD"), method = "getScoreHolder(Lnet/minecraft/world/level/storage/loot/LootContext;)Lnet/minecraft/world/scores/ScoreHolder;", cancellable = true)
+    private void getScoreHolder__1922463124(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1922463124L))
             info.setReturnValue(null);
     }
 

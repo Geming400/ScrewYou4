@@ -7,9 +7,9 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.client.resources.sounds.SoundEventRegistration.class)
 public class SoundEventRegistration970764054Mixin {
-        @Inject(at = @At("HEAD"), method = "getSubtitle()Ljava/lang/String;", cancellable = true)
-    private void getSubtitle__164696417(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-164696417L))
+        @Inject(at = @At("HEAD"), method = "getSounds()Ljava/util/List;", cancellable = true)
+    private void getSounds__1697866426(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1697866426L))
             info.setReturnValue(null);
     }
 
@@ -19,9 +19,9 @@ public class SoundEventRegistration970764054Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getSounds()Ljava/util/List;", cancellable = true)
-    private void getSounds__1697866426(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1697866426L))
+    @Inject(at = @At("HEAD"), method = "getSubtitle()Ljava/lang/String;", cancellable = true)
+    private void getSubtitle__164696417(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-164696417L))
             info.setReturnValue(null);
     }
 

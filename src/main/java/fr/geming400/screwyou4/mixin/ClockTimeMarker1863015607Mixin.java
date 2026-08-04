@@ -49,15 +49,15 @@ public class ClockTimeMarker1863015607Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getRepetitionCount(J)J", cancellable = true)
-    private void getRepetitionCount__1217122728(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1217122728L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "showInCommands()Z", cancellable = true)
     private void showInCommands_1901294190(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1901294190L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getRepetitionCount(J)J", cancellable = true)
+    private void getRepetitionCount__1217122728(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1217122728L))
             info.setReturnValue(null);
     }
 

@@ -19,14 +19,14 @@ public class ArmPose_1766099441Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "isTwoHanded()Z", cancellable = true)
-    private void isTwoHanded_1804378023(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "affectsOffhandPose()Z", cancellable = true)
+    private void affectsOffhandPose_1804378023(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1804378023L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "affectsOffhandPose()Z", cancellable = true)
-    private void affectsOffhandPose_1804378023(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "isTwoHanded()Z", cancellable = true)
+    private void isTwoHanded_1804378023(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1804378023L))
             info.setReturnValue(null);
     }

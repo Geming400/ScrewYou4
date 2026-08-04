@@ -31,15 +31,15 @@ public class ClientboundTagQueryPacket_1045396037Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "isSkippable()Z", cancellable = true)
-    private void isSkippable_1083674619(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1083674619L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getTransactionId()I", cancellable = true)
     private void getTransactionId_1083658282(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1083658282L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isSkippable()Z", cancellable = true)
+    private void isSkippable_1083674619(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1083674619L))
             info.setReturnValue(null);
     }
 

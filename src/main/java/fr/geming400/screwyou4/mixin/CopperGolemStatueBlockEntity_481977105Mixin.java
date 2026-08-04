@@ -25,16 +25,16 @@ public class CopperGolemStatueBlockEntity_481977105Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "createStatue(Lnet/minecraft/world/entity/animal/golem/CopperGolem;)V", cancellable = true)
-    private void createStatue__825393694(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-825393694L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "removeStatue(Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/entity/animal/golem/CopperGolem;", cancellable = true)
     private void removeStatue__295646645(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-295646645L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "createStatue(Lnet/minecraft/world/entity/animal/golem/CopperGolem;)V", cancellable = true)
+    private void createStatue__825393694(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-825393694L))
+            info.cancel();
     }
 
 

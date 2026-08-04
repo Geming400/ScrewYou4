@@ -37,14 +37,14 @@ public class BlockEventData_517585879Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "paramA()I", cancellable = true)
-    private void paramA_555848124(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "paramB()I", cancellable = true)
+    private void paramB_555848124(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(555848124L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "paramB()I", cancellable = true)
-    private void paramB_555848124(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "paramA()I", cancellable = true)
+    private void paramA_555848124(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(555848124L))
             info.setReturnValue(null);
     }

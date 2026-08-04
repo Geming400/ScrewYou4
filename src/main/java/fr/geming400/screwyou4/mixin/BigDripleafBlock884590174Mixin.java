@@ -13,6 +13,12 @@ public class BigDripleafBlock884590174Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "placeWithRandomHeight(Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/util/RandomSource;Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/Direction;)V", cancellable = true)
+    private static void placeWithRandomHeight_900354353(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(900354353L))
+            info.cancel();
+    }
+
     @Inject(at = @At("HEAD"), method = "getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
     private void getStateForPlacement__374009593(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-374009593L))
@@ -35,12 +41,6 @@ public class BigDripleafBlock884590174Mixin {
     private void isBonemealSuccess__1088322969(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1088322969L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "placeWithRandomHeight(Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/util/RandomSource;Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/Direction;)V", cancellable = true)
-    private static void placeWithRandomHeight_900354353(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(900354353L))
-            info.cancel();
     }
 
 

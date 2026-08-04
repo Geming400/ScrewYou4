@@ -13,22 +13,28 @@ public class EnderDragon423178669Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getSoundSource()Lnet/minecraft/sounds/SoundSource;", cancellable = true)
-    private void getSoundSource__1869869304(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1869869304L))
+    @Inject(at = @At("HEAD"), method = "getSubEntities()[Lnet/minecraft/world/entity/boss/enderdragon/EnderDragonPart;", cancellable = true)
+    private void getSubEntities_1718664421(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1718664421L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "canUsePortal(Z)Z", cancellable = true)
-    private void canUsePortal_1652799342(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1652799342L))
+    @Inject(at = @At("HEAD"), method = "getPhaseManager()Lnet/minecraft/world/entity/boss/enderdragon/phases/EnderDragonPhaseManager;", cancellable = true)
+    private void getPhaseManager_302479018(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(302479018L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "recreateFromPacket(Lnet/minecraft/network/protocol/game/ClientboundAddEntityPacket;)V", cancellable = true)
-    private void recreateFromPacket__765610021(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-765610021L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "getFightOrigin()Lnet/minecraft/core/BlockPos;", cancellable = true)
+    private void getFightOrigin__1470208210(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1470208210L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "createAttributes()Lnet/minecraft/world/entity/ai/attributes/AttributeSupplier$Builder;", cancellable = true)
+    private static void createAttributes__277039776(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-277039776L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "checkDespawn()V", cancellable = true)
@@ -37,46 +43,10 @@ public class EnderDragon423178669Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "onSyncedDataUpdated(Lnet/minecraft/network/syncher/EntityDataAccessor;)V", cancellable = true)
-    private void onSyncedDataUpdated_2068928113(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(2068928113L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "aiStep()V", cancellable = true)
-    private void aiStep_461453408(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(461453408L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "hurtServer(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/damagesource/DamageSource;F)Z", cancellable = true)
-    private void hurtServer__26251662(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-26251662L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "canAttack(Lnet/minecraft/world/entity/LivingEntity;)Z", cancellable = true)
-    private void canAttack_744845844(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(744845844L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "addEffect(Lnet/minecraft/world/effect/MobEffectInstance;Lnet/minecraft/world/entity/Entity;)Z", cancellable = true)
-    private void addEffect_583863783(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(583863783L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "hurt(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/boss/enderdragon/EnderDragonPart;Lnet/minecraft/world/damagesource/DamageSource;F)Z", cancellable = true)
     private void hurt_1511499156(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1511499156L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "knockback(DDDLnet/minecraft/world/damagesource/DamageSource;F)V", cancellable = true)
-    private void knockback_1114941457(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1114941457L))
-            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "isPickable()Z", cancellable = true)
@@ -97,27 +67,57 @@ public class EnderDragon423178669Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "createAttributes()Lnet/minecraft/world/entity/ai/attributes/AttributeSupplier$Builder;", cancellable = true)
-    private static void createAttributes__277039776(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-277039776L))
+    @Inject(at = @At("HEAD"), method = "aiStep()V", cancellable = true)
+    private void aiStep_461453408(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(461453408L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "hurtServer(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/damagesource/DamageSource;F)Z", cancellable = true)
+    private void hurtServer__26251662(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-26251662L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getSubEntities()[Lnet/minecraft/world/entity/boss/enderdragon/EnderDragonPart;", cancellable = true)
-    private void getSubEntities_1718664421(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1718664421L))
+    @Inject(at = @At("HEAD"), method = "knockback(DDDLnet/minecraft/world/damagesource/DamageSource;F)V", cancellable = true)
+    private void knockback_1114941457(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1114941457L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "canAttack(Lnet/minecraft/world/entity/LivingEntity;)Z", cancellable = true)
+    private void canAttack_744845844(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(744845844L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getFightOrigin()Lnet/minecraft/core/BlockPos;", cancellable = true)
-    private void getFightOrigin__1470208210(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1470208210L))
+    @Inject(at = @At("HEAD"), method = "addEffect(Lnet/minecraft/world/effect/MobEffectInstance;Lnet/minecraft/world/entity/Entity;)Z", cancellable = true)
+    private void addEffect_583863783(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(583863783L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getPhaseManager()Lnet/minecraft/world/entity/boss/enderdragon/phases/EnderDragonPhaseManager;", cancellable = true)
-    private void getPhaseManager_302479018(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(302479018L))
+    @Inject(at = @At("HEAD"), method = "onSyncedDataUpdated(Lnet/minecraft/network/syncher/EntityDataAccessor;)V", cancellable = true)
+    private void onSyncedDataUpdated_2068928113(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(2068928113L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getSoundSource()Lnet/minecraft/sounds/SoundSource;", cancellable = true)
+    private void getSoundSource__1869869304(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1869869304L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "recreateFromPacket(Lnet/minecraft/network/protocol/game/ClientboundAddEntityPacket;)V", cancellable = true)
+    private void recreateFromPacket__765610021(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-765610021L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "canUsePortal(Z)Z", cancellable = true)
+    private void canUsePortal_1652799342(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1652799342L))
             info.setReturnValue(null);
     }
 
@@ -145,9 +145,15 @@ public class EnderDragon423178669Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getHeadLookVector(F)Lnet/minecraft/world/phys/Vec3;", cancellable = true)
-    private void getHeadLookVector__1846640868(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1846640868L))
+    @Inject(at = @At("HEAD"), method = "findClosestNode(DDD)I", cancellable = true)
+    private void findClosestNode__647240697(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-647240697L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "findClosestNode()I", cancellable = true)
+    private void findClosestNode_461440915(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(461440915L))
             info.setReturnValue(null);
     }
 
@@ -157,15 +163,9 @@ public class EnderDragon423178669Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "findClosestNode()I", cancellable = true)
-    private void findClosestNode_461440915(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(461440915L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "findClosestNode(DDD)I", cancellable = true)
-    private void findClosestNode__647240697(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-647240697L))
+    @Inject(at = @At("HEAD"), method = "getHeadLookVector(F)Lnet/minecraft/world/phys/Vec3;", cancellable = true)
+    private void getHeadLookVector__1846640868(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1846640868L))
             info.setReturnValue(null);
     }
 

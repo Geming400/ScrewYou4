@@ -19,14 +19,14 @@ public class CloudRenderer_223641366Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "endFrame()V", cancellable = true)
-    private void endFrame_261916104(CallbackInfo info) {
+    @Inject(at = @At("HEAD"), method = "markForRebuild()V", cancellable = true)
+    private void markForRebuild_261916104(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(261916104L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "markForRebuild()V", cancellable = true)
-    private void markForRebuild_261916104(CallbackInfo info) {
+    @Inject(at = @At("HEAD"), method = "endFrame()V", cancellable = true)
+    private void endFrame_261916104(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(261916104L))
             info.cancel();
     }

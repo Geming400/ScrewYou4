@@ -109,15 +109,15 @@ public class LongArrayTag_606901185Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "addTag(ILnet/minecraft/nbt/Tag;)Z", cancellable = true)
-    private void addTag__1941850594(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "setTag(ILnet/minecraft/nbt/Tag;)Z", cancellable = true)
+    private void setTag__1941850594(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1941850594L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "asLongArray()Ljava/util/Optional;", cancellable = true)
-    private void asLongArray_852362606(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(852362606L))
+    @Inject(at = @At("HEAD"), method = "addTag(ILnet/minecraft/nbt/Tag;)Z", cancellable = true)
+    private void addTag__1941850594(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1941850594L))
             info.setReturnValue(null);
     }
 
@@ -127,9 +127,9 @@ public class LongArrayTag_606901185Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "setTag(ILnet/minecraft/nbt/Tag;)Z", cancellable = true)
-    private void setTag__1941850594(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1941850594L))
+    @Inject(at = @At("HEAD"), method = "asLongArray()Ljava/util/Optional;", cancellable = true)
+    private void asLongArray_852362606(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(852362606L))
             info.setReturnValue(null);
     }
 

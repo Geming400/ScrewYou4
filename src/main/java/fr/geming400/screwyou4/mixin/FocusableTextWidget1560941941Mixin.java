@@ -25,9 +25,21 @@ public class FocusableTextWidget1560941941Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "getHeight()I", cancellable = true)
+    private void getHeight_1599204187(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1599204187L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "getWidth()I", cancellable = true)
     private void getWidth_1599204187(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1599204187L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "keyPressed(Lnet/minecraft/client/input/KeyEvent;)Z", cancellable = true)
+    private void keyPressed_644306227(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(644306227L))
             info.setReturnValue(null);
     }
 
@@ -37,9 +49,15 @@ public class FocusableTextWidget1560941941Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "setNarrateMessage(Z)V", cancellable = true)
-    private void setNarrateMessage__1504408526(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1504408526L))
+    @Inject(at = @At("HEAD"), method = "getPadding()I", cancellable = true)
+    private void getPadding_1599204187(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1599204187L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "updateWidth()V", cancellable = true)
+    private void updateWidth_1599216680(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1599216680L))
             info.cancel();
     }
 
@@ -55,15 +73,9 @@ public class FocusableTextWidget1560941941Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "updateWidth()V", cancellable = true)
-    private void updateWidth_1599216680(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1599216680L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "playDownSound(Lnet/minecraft/client/sounds/SoundManager;)V", cancellable = true)
-    private void playDownSound_1307752062(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1307752062L))
+    @Inject(at = @At("HEAD"), method = "setNarrateMessage(Z)V", cancellable = true)
+    private void setNarrateMessage__1504408526(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1504408526L))
             info.cancel();
     }
 
@@ -73,22 +85,10 @@ public class FocusableTextWidget1560941941Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getPadding()I", cancellable = true)
-    private void getPadding_1599204187(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1599204187L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getHeight()I", cancellable = true)
-    private void getHeight_1599204187(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1599204187L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "keyPressed(Lnet/minecraft/client/input/KeyEvent;)Z", cancellable = true)
-    private void keyPressed_644306227(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(644306227L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "playDownSound(Lnet/minecraft/client/sounds/SoundManager;)V", cancellable = true)
+    private void playDownSound_1307752062(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1307752062L))
+            info.cancel();
     }
 
 

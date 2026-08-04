@@ -43,15 +43,15 @@ public class MaterialAssetGroup1395562582Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "overrides()Ljava/util/Map;", cancellable = true)
-    private void overrides__609061058(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-609061058L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "assetId(Lnet/minecraft/resources/ResourceKey;)Lnet/minecraft/world/item/equipment/trim/MaterialAssetGroup$AssetInfo;", cancellable = true)
     private void assetId__167924977(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-167924977L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "overrides()Ljava/util/Map;", cancellable = true)
+    private void overrides__609061058(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-609061058L))
             info.setReturnValue(null);
     }
 

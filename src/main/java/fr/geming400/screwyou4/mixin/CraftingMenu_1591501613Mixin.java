@@ -13,15 +13,27 @@ public class CraftingMenu_1591501613Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "getInputGridSlots()Ljava/util/List;", cancellable = true)
+    private void getInputGridSlots__1077128868(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1077128868L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "getRecipeBookType()Lnet/minecraft/world/inventory/RecipeBookType;", cancellable = true)
     private void getRecipeBookType__2046307611(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2046307611L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getInputGridSlots()Ljava/util/List;", cancellable = true)
-    private void getInputGridSlots__1077128868(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1077128868L))
+    @Inject(at = @At("HEAD"), method = "stillValid(Lnet/minecraft/world/entity/player/Player;)Z", cancellable = true)
+    private void stillValid__1762860194(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1762860194L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "canTakeItemForPickAll(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/inventory/Slot;)Z", cancellable = true)
+    private void canTakeItemForPickAll__1450969643(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1450969643L))
             info.setReturnValue(null);
     }
 
@@ -41,18 +53,6 @@ public class CraftingMenu_1591501613Mixin {
     private void slotsChanged__1169712442(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1169712442L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "canTakeItemForPickAll(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/inventory/Slot;)Z", cancellable = true)
-    private void canTakeItemForPickAll__1450969643(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1450969643L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "stillValid(Lnet/minecraft/world/entity/player/Player;)Z", cancellable = true)
-    private void stillValid__1762860194(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1762860194L))
-            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "beginPlacingRecipe()V", cancellable = true)

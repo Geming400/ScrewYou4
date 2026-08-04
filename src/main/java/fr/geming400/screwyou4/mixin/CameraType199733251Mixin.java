@@ -25,15 +25,15 @@ public class CameraType199733251Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "isFirstPerson()Z", cancellable = true)
-    private void isFirstPerson_238011834(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(238011834L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "cycle()Lnet/minecraft/client/CameraType;", cancellable = true)
     private void cycle__1998288712(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1998288712L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isFirstPerson()Z", cancellable = true)
+    private void isFirstPerson_238011834(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(238011834L))
             info.setReturnValue(null);
     }
 

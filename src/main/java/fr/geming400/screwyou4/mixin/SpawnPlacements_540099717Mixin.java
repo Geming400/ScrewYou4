@@ -13,15 +13,15 @@ public class SpawnPlacements_540099717Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "checkSpawnRules(Lnet/minecraft/world/entity/EntityType;Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)Z", cancellable = true)
-    private static void checkSpawnRules__1245277351(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1245277351L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "isSpawnPositionOk(Lnet/minecraft/world/entity/EntityType;Lnet/minecraft/world/level/LevelReader;Lnet/minecraft/core/BlockPos;)Z", cancellable = true)
     private static void isSpawnPositionOk_1214606554(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1214606554L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getPlacementType(Lnet/minecraft/world/entity/EntityType;)Lnet/minecraft/world/entity/SpawnPlacementType;", cancellable = true)
+    private static void getPlacementType__21485376(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-21485376L))
             info.setReturnValue(null);
     }
 
@@ -31,9 +31,9 @@ public class SpawnPlacements_540099717Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getPlacementType(Lnet/minecraft/world/entity/EntityType;)Lnet/minecraft/world/entity/SpawnPlacementType;", cancellable = true)
-    private static void getPlacementType__21485376(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-21485376L))
+    @Inject(at = @At("HEAD"), method = "checkSpawnRules(Lnet/minecraft/world/entity/EntityType;Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)Z", cancellable = true)
+    private static void checkSpawnRules__1245277351(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1245277351L))
             info.setReturnValue(null);
     }
 

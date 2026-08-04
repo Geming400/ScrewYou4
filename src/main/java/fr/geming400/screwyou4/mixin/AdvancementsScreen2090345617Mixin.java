@@ -25,44 +25,14 @@ public class AdvancementsScreen2090345617Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "onSelectedTabChanged(Lnet/minecraft/advancements/AdvancementHolder;)V", cancellable = true)
-    private void onSelectedTabChanged_1066342351(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1066342351L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "getAdvancementWidget(Lnet/minecraft/advancements/AdvancementNode;)Lnet/minecraft/client/gui/screens/advancements/AdvancementWidget;", cancellable = true)
-    private void getAdvancementWidget__1638463050(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1638463050L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "extractWindow(Lnet/minecraft/client/gui/GuiGraphicsExtractor;II)V", cancellable = true)
-    private void extractWindow__989447847(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-989447847L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "onUpdateAdvancementProgress(Lnet/minecraft/advancements/AdvancementNode;Lnet/minecraft/advancements/AdvancementProgress;)V", cancellable = true)
-    private void onUpdateAdvancementProgress__33013789(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-33013789L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "onAddAdvancementTask(Lnet/minecraft/advancements/AdvancementNode;)V", cancellable = true)
-    private void onAddAdvancementTask__162744775(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-162744775L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "onRemoveAdvancementTask(Lnet/minecraft/advancements/AdvancementNode;)V", cancellable = true)
     private void onRemoveAdvancementTask__162744775(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-162744775L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "onRemoveAdvancementRoot(Lnet/minecraft/advancements/AdvancementNode;)V", cancellable = true)
-    private void onRemoveAdvancementRoot__162744775(CallbackInfo info) {
+    @Inject(at = @At("HEAD"), method = "onAddAdvancementTask(Lnet/minecraft/advancements/AdvancementNode;)V", cancellable = true)
+    private void onAddAdvancementTask__162744775(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-162744775L))
             info.cancel();
     }
@@ -73,10 +43,28 @@ public class AdvancementsScreen2090345617Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "onRemoveAdvancementRoot(Lnet/minecraft/advancements/AdvancementNode;)V", cancellable = true)
+    private void onRemoveAdvancementRoot__162744775(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-162744775L))
+            info.cancel();
+    }
+
     @Inject(at = @At("HEAD"), method = "onAdvancementsCleared()V", cancellable = true)
     private void onAdvancementsCleared_2128620356(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(2128620356L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "onUpdateAdvancementProgress(Lnet/minecraft/advancements/AdvancementNode;Lnet/minecraft/advancements/AdvancementProgress;)V", cancellable = true)
+    private void onUpdateAdvancementProgress__33013789(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-33013789L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "keyPressed(Lnet/minecraft/client/input/KeyEvent;)Z", cancellable = true)
+    private void keyPressed_1173709903(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1173709903L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIF)V", cancellable = true)
@@ -85,21 +73,27 @@ public class AdvancementsScreen2090345617Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "mouseReleased(Lnet/minecraft/client/input/MouseButtonEvent;)Z", cancellable = true)
-    private void mouseReleased__1980999385(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1980999385L))
+    @Inject(at = @At("HEAD"), method = "getAdvancementWidget(Lnet/minecraft/advancements/AdvancementNode;)Lnet/minecraft/client/gui/screens/advancements/AdvancementWidget;", cancellable = true)
+    private void getAdvancementWidget__1638463050(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1638463050L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "onSelectedTabChanged(Lnet/minecraft/advancements/AdvancementHolder;)V", cancellable = true)
+    private void onSelectedTabChanged_1066342351(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1066342351L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "extractWindow(Lnet/minecraft/client/gui/GuiGraphicsExtractor;II)V", cancellable = true)
+    private void extractWindow__989447847(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-989447847L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "mouseScrolled(DDDD)Z", cancellable = true)
     private void mouseScrolled__1004710072(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1004710072L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "mouseClicked(Lnet/minecraft/client/input/MouseButtonEvent;Z)Z", cancellable = true)
-    private void mouseClicked_475686739(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(475686739L))
             info.setReturnValue(null);
     }
 
@@ -109,9 +103,15 @@ public class AdvancementsScreen2090345617Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "keyPressed(Lnet/minecraft/client/input/KeyEvent;)Z", cancellable = true)
-    private void keyPressed_1173709903(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1173709903L))
+    @Inject(at = @At("HEAD"), method = "mouseReleased(Lnet/minecraft/client/input/MouseButtonEvent;)Z", cancellable = true)
+    private void mouseReleased__1980999385(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1980999385L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "mouseClicked(Lnet/minecraft/client/input/MouseButtonEvent;Z)Z", cancellable = true)
+    private void mouseClicked_475686739(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(475686739L))
             info.setReturnValue(null);
     }
 

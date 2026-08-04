@@ -7,9 +7,9 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.client.gui.screens.inventory.tooltip.ClientBundleTooltip.class)
 public class ClientBundleTooltip542840488Mixin {
-        @Inject(at = @At("HEAD"), method = "showTooltipWithItemInHand()Z", cancellable = true)
-    private void showTooltipWithItemInHand_581119071(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(581119071L))
+        @Inject(at = @At("HEAD"), method = "getHeight(Lnet/minecraft/client/gui/Font;)I", cancellable = true)
+    private void getHeight__427945230(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-427945230L))
             info.setReturnValue(null);
     }
 
@@ -25,9 +25,9 @@ public class ClientBundleTooltip542840488Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getHeight(Lnet/minecraft/client/gui/Font;)I", cancellable = true)
-    private void getHeight__427945230(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-427945230L))
+    @Inject(at = @At("HEAD"), method = "showTooltipWithItemInHand()Z", cancellable = true)
+    private void showTooltipWithItemInHand_581119071(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(581119071L))
             info.setReturnValue(null);
     }
 

@@ -43,18 +43,6 @@ public class InclusiveRange_1653793785Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "minInclusive()Ljava/lang/Comparable;", cancellable = true)
-    private void minInclusive__381660776(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-381660776L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "maxInclusive()Ljava/lang/Comparable;", cancellable = true)
-    private void maxInclusive__381660776(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-381660776L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "codec(Lcom/mojang/serialization/Codec;)Lcom/mojang/serialization/Codec;", cancellable = true)
     private static void codec_2137471759(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2137471759L))
@@ -70,6 +58,18 @@ public class InclusiveRange_1653793785Mixin {
     @Inject(at = @At("HEAD"), method = "isValueInRange(Ljava/lang/Comparable;)Z", cancellable = true)
     private void isValueInRange_402673296(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(402673296L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "minInclusive()Ljava/lang/Comparable;", cancellable = true)
+    private void minInclusive__381660776(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-381660776L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "maxInclusive()Ljava/lang/Comparable;", cancellable = true)
+    private void maxInclusive__381660776(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-381660776L))
             info.setReturnValue(null);
     }
 

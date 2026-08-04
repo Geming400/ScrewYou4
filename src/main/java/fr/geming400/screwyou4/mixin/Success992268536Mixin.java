@@ -25,21 +25,9 @@ public class Success992268536Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "withoutItem()Lnet/minecraft/world/InteractionResult$Success;", cancellable = true)
-    private void withoutItem_706227423(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(706227423L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "swingSource()Lnet/minecraft/world/InteractionResult$SwingSource;", cancellable = true)
-    private void swingSource_334232553(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(334232553L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "heldItemTransformedTo(Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/world/InteractionResult$Success;", cancellable = true)
-    private void heldItemTransformedTo__541391292(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-541391292L))
+    @Inject(at = @At("HEAD"), method = "consumesAction()Z", cancellable = true)
+    private void consumesAction_1030547119(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1030547119L))
             info.setReturnValue(null);
     }
 
@@ -49,15 +37,27 @@ public class Success992268536Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "consumesAction()Z", cancellable = true)
-    private void consumesAction_1030547119(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1030547119L))
+    @Inject(at = @At("HEAD"), method = "heldItemTransformedTo(Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/world/InteractionResult$Success;", cancellable = true)
+    private void heldItemTransformedTo__541391292(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-541391292L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "wasItemInteraction()Z", cancellable = true)
     private void wasItemInteraction_1030547119(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1030547119L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "withoutItem()Lnet/minecraft/world/InteractionResult$Success;", cancellable = true)
+    private void withoutItem_706227423(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(706227423L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "swingSource()Lnet/minecraft/world/InteractionResult$SwingSource;", cancellable = true)
+    private void swingSource_334232553(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(334232553L))
             info.setReturnValue(null);
     }
 

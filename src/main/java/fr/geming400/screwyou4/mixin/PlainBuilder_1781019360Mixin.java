@@ -19,15 +19,15 @@ public class PlainBuilder_1781019360Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "addFeature(ILnet/minecraft/core/Holder;)Lnet/minecraft/world/level/biome/BiomeGenerationSettings$PlainBuilder;", cancellable = true)
-    private void addFeature_1796794162(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1796794162L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "addFeature(Lnet/minecraft/world/level/levelgen/GenerationStep$Decoration;Lnet/minecraft/core/Holder;)Lnet/minecraft/world/level/biome/BiomeGenerationSettings$PlainBuilder;", cancellable = true)
     private void addFeature__1136025889(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1136025889L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "addFeature(ILnet/minecraft/core/Holder;)Lnet/minecraft/world/level/biome/BiomeGenerationSettings$PlainBuilder;", cancellable = true)
+    private void addFeature_1796794162(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1796794162L))
             info.setReturnValue(null);
     }
 

@@ -7,16 +7,16 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.world.level.levelgen.structure.structures.RuinedPortalPiece.class)
 public class RuinedPortalPiece_1505069875Mixin {
-        @Inject(at = @At("HEAD"), method = "getHeightMapType(Lnet/minecraft/world/level/levelgen/structure/structures/RuinedPortalPiece$VerticalPlacement;)Lnet/minecraft/world/level/levelgen/Heightmap$Types;", cancellable = true)
-    private static void getHeightMapType__1449000488(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1449000488L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "postProcess(Lnet/minecraft/world/level/WorldGenLevel;Lnet/minecraft/world/level/StructureManager;Lnet/minecraft/world/level/chunk/ChunkGenerator;Lnet/minecraft/util/RandomSource;Lnet/minecraft/world/level/levelgen/structure/BoundingBox;Lnet/minecraft/world/level/ChunkPos;Lnet/minecraft/core/BlockPos;)V", cancellable = true)
+        @Inject(at = @At("HEAD"), method = "postProcess(Lnet/minecraft/world/level/WorldGenLevel;Lnet/minecraft/world/level/StructureManager;Lnet/minecraft/world/level/chunk/ChunkGenerator;Lnet/minecraft/util/RandomSource;Lnet/minecraft/world/level/levelgen/structure/BoundingBox;Lnet/minecraft/world/level/ChunkPos;Lnet/minecraft/core/BlockPos;)V", cancellable = true)
     private void postProcess__715353069(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-715353069L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getHeightMapType(Lnet/minecraft/world/level/levelgen/structure/structures/RuinedPortalPiece$VerticalPlacement;)Lnet/minecraft/world/level/levelgen/Heightmap$Types;", cancellable = true)
+    private static void getHeightMapType__1449000488(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1449000488L))
+            info.setReturnValue(null);
     }
 
 

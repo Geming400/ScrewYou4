@@ -55,15 +55,15 @@ public class TriggerInstance_853616009Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "fallAfterExplosion(Lnet/minecraft/advancements/predicates/DistancePredicate;Lnet/minecraft/advancements/predicates/entity/EntityPredicate$Builder;)Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
-    private static void fallAfterExplosion_1924674452(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1924674452L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "player()Ljava/util/Optional;", cancellable = true)
     private void player_1099077430(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1099077430L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "fallAfterExplosion(Lnet/minecraft/advancements/predicates/DistancePredicate;Lnet/minecraft/advancements/predicates/entity/EntityPredicate$Builder;)Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
+    private static void fallAfterExplosion_1924674452(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1924674452L))
             info.setReturnValue(null);
     }
 

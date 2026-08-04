@@ -13,6 +13,12 @@ public class ShulkerModel_1539345593Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "createBoxLayer()Lnet/minecraft/client/model/geom/builders/LayerDefinition;", cancellable = true)
+    private static void createBoxLayer_825213428(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(825213428L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "setupAnim(Lnet/minecraft/client/renderer/entity/state/ShulkerRenderState;)V", cancellable = true)
     private void setupAnim__15087291(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-15087291L))
@@ -23,12 +29,6 @@ public class ShulkerModel_1539345593Mixin {
     private void setupAnim__1369984825(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1369984825L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "createBoxLayer()Lnet/minecraft/client/model/geom/builders/LayerDefinition;", cancellable = true)
-    private static void createBoxLayer_825213428(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(825213428L))
-            info.setReturnValue(null);
     }
 
 

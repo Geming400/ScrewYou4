@@ -19,14 +19,26 @@ public class TrialSpawnerState_2070915487Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "hasSpinningMob()Z", cancellable = true)
-    private void hasSpinningMob_2109194069(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2109194069L))
+    @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
+    private void getSerializedName_935455015(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(935455015L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "isCapableOfSpawning()Z", cancellable = true)
-    private void isCapableOfSpawning_2109194069(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "lightLevel()I", cancellable = true)
+    private void lightLevel_2109177732(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2109177732L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "emitParticles(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Z)V", cancellable = true)
+    private void emitParticles_1999974070(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1999974070L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "hasSpinningMob()Z", cancellable = true)
+    private void hasSpinningMob_2109194069(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2109194069L))
             info.setReturnValue(null);
     }
@@ -37,21 +49,9 @@ public class TrialSpawnerState_2070915487Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
-    private void getSerializedName_935455015(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(935455015L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "emitParticles(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Z)V", cancellable = true)
-    private void emitParticles_1999974070(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1999974070L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "lightLevel()I", cancellable = true)
-    private void lightLevel_2109177732(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2109177732L))
+    @Inject(at = @At("HEAD"), method = "isCapableOfSpawning()Z", cancellable = true)
+    private void isCapableOfSpawning_2109194069(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2109194069L))
             info.setReturnValue(null);
     }
 

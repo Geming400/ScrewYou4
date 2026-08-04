@@ -37,8 +37,14 @@ public class GlyphRenderTypes_1331232369Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "createForColorTexture(Lnet/minecraft/resources/Identifier;)Lnet/minecraft/client/gui/font/GlyphRenderTypes;", cancellable = true)
-    private static void createForColorTexture_888362139(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "seeThrough()Lnet/minecraft/client/renderer/rendertype/RenderType;", cancellable = true)
+    private void seeThrough__1879155231(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1879155231L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "createForGrayscaleTexture(Lnet/minecraft/resources/Identifier;)Lnet/minecraft/client/gui/font/GlyphRenderTypes;", cancellable = true)
+    private static void createForGrayscaleTexture_888362139(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(888362139L))
             info.setReturnValue(null);
     }
@@ -49,21 +55,15 @@ public class GlyphRenderTypes_1331232369Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "createForGrayscaleTexture(Lnet/minecraft/resources/Identifier;)Lnet/minecraft/client/gui/font/GlyphRenderTypes;", cancellable = true)
-    private static void createForGrayscaleTexture_888362139(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(888362139L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "polygonOffset()Lnet/minecraft/client/renderer/rendertype/RenderType;", cancellable = true)
     private void polygonOffset__1879155231(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1879155231L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "seeThrough()Lnet/minecraft/client/renderer/rendertype/RenderType;", cancellable = true)
-    private void seeThrough__1879155231(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1879155231L))
+    @Inject(at = @At("HEAD"), method = "createForColorTexture(Lnet/minecraft/resources/Identifier;)Lnet/minecraft/client/gui/font/GlyphRenderTypes;", cancellable = true)
+    private static void createForColorTexture_888362139(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(888362139L))
             info.setReturnValue(null);
     }
 

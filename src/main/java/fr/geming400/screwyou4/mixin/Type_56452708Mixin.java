@@ -25,8 +25,20 @@ public class Type_56452708Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getPlanksState()Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
-    private void getPlanksState_2055661137(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
+    private void getSerializedName__1079007764(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1079007764L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "byId(I)Lnet/minecraft/world/level/levelgen/structure/structures/MineshaftStructure$Type;", cancellable = true)
+    private static void byId_479510354(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(479510354L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getFenceState()Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
+    private void getFenceState_2055661137(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2055661137L))
             info.setReturnValue(null);
     }
@@ -37,21 +49,9 @@ public class Type_56452708Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getFenceState()Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
-    private void getFenceState_2055661137(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "getPlanksState()Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
+    private void getPlanksState_2055661137(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2055661137L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
-    private void getSerializedName__1079007764(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1079007764L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "byId(I)Lnet/minecraft/world/level/levelgen/structure/structures/MineshaftStructure$Type;", cancellable = true)
-    private static void byId_479510354(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(479510354L))
             info.setReturnValue(null);
     }
 

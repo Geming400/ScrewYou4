@@ -31,15 +31,15 @@ public class OperationArgument_1482953514Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getExamples()Ljava/util/Collection;", cancellable = true)
-    private void getExamples__330694759(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-330694759L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getOperation(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/commands/arguments/OperationArgument$Operation;", cancellable = true)
     private static void getOperation__1931380720(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1931380720L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getExamples()Ljava/util/Collection;", cancellable = true)
+    private void getExamples__330694759(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-330694759L))
             info.setReturnValue(null);
     }
 

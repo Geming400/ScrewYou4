@@ -43,9 +43,15 @@ public class ServerboundSetJigsawBlockPacket_221660897Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getFinalState()Ljava/lang/String;", cancellable = true)
-    private void getFinalState__913799575(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-913799575L))
+    @Inject(at = @At("HEAD"), method = "getJoint()Lnet/minecraft/world/level/block/entity/JigsawBlockEntity$JointType;", cancellable = true)
+    private void getJoint_1698530189(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1698530189L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getPos()Lnet/minecraft/core/BlockPos;", cancellable = true)
+    private void getPos__1671725983(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1671725983L))
             info.setReturnValue(null);
     }
 
@@ -61,15 +67,9 @@ public class ServerboundSetJigsawBlockPacket_221660897Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getJoint()Lnet/minecraft/world/level/block/entity/JigsawBlockEntity$JointType;", cancellable = true)
-    private void getJoint_1698530189(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1698530189L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getPos()Lnet/minecraft/core/BlockPos;", cancellable = true)
-    private void getPos__1671725983(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1671725983L))
+    @Inject(at = @At("HEAD"), method = "getFinalState()Ljava/lang/String;", cancellable = true)
+    private void getFinalState__913799575(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-913799575L))
             info.setReturnValue(null);
     }
 

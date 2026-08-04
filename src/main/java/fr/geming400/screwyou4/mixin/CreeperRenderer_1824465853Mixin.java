@@ -7,15 +7,15 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.client.renderer.entity.CreeperRenderer.class)
 public class CreeperRenderer_1824465853Mixin {
-        @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/CreeperRenderState;", cancellable = true)
-    private void createRenderState_1951728581(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1951728581L))
+        @Inject(at = @At("HEAD"), method = "getTextureLocation(Lnet/minecraft/client/renderer/entity/state/CreeperRenderState;)Lnet/minecraft/resources/Identifier;", cancellable = true)
+    private void getTextureLocation_1673425255(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1673425255L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/EntityRenderState;", cancellable = true)
-    private void createRenderState_1235829408(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1235829408L))
+    @Inject(at = @At("HEAD"), method = "getTextureLocation(Lnet/minecraft/client/renderer/entity/state/LivingEntityRenderState;)Lnet/minecraft/resources/Identifier;", cancellable = true)
+    private void getTextureLocation__467864811(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-467864811L))
             info.setReturnValue(null);
     }
 
@@ -37,15 +37,15 @@ public class CreeperRenderer_1824465853Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getTextureLocation(Lnet/minecraft/client/renderer/entity/state/CreeperRenderState;)Lnet/minecraft/resources/Identifier;", cancellable = true)
-    private void getTextureLocation_1673425255(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1673425255L))
+    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/EntityRenderState;", cancellable = true)
+    private void createRenderState_1235829408(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1235829408L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getTextureLocation(Lnet/minecraft/client/renderer/entity/state/LivingEntityRenderState;)Lnet/minecraft/resources/Identifier;", cancellable = true)
-    private void getTextureLocation__467864811(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-467864811L))
+    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/CreeperRenderState;", cancellable = true)
+    private void createRenderState_1951728581(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1951728581L))
             info.setReturnValue(null);
     }
 

@@ -43,16 +43,16 @@ public class Pattern1763291604Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "addToTooltip(Lnet/minecraft/world/item/Item$TooltipContext;Ljava/util/function/Consumer;Lnet/minecraft/world/item/TooltipFlag;Lnet/minecraft/core/component/DataComponentGetter;)V", cancellable = true)
-    private void addToTooltip__779426786(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-779426786L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "getPackedId()I", cancellable = true)
     private void getPackedId_1801553850(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1801553850L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "addToTooltip(Lnet/minecraft/world/item/Item$TooltipContext;Ljava/util/function/Consumer;Lnet/minecraft/world/item/TooltipFlag;Lnet/minecraft/core/component/DataComponentGetter;)V", cancellable = true)
+    private void addToTooltip__779426786(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-779426786L))
+            info.cancel();
     }
 
 

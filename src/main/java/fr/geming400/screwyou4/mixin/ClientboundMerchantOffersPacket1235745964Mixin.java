@@ -25,20 +25,14 @@ public class ClientboundMerchantOffersPacket1235745964Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getOffers()Lnet/minecraft/world/item/trading/MerchantOffers;", cancellable = true)
-    private void getOffers_432434648(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(432434648L))
+    @Inject(at = @At("HEAD"), method = "getVillagerXp()I", cancellable = true)
+    private void getVillagerXp_1274008210(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1274008210L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "canRestock()Z", cancellable = true)
-    private void canRestock_1274024547(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1274024547L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getContainerId()I", cancellable = true)
-    private void getContainerId_1274008210(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "getVillagerLevel()I", cancellable = true)
+    private void getVillagerLevel_1274008210(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1274008210L))
             info.setReturnValue(null);
     }
@@ -49,15 +43,21 @@ public class ClientboundMerchantOffersPacket1235745964Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getVillagerLevel()I", cancellable = true)
-    private void getVillagerLevel_1274008210(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "getContainerId()I", cancellable = true)
+    private void getContainerId_1274008210(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1274008210L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getVillagerXp()I", cancellable = true)
-    private void getVillagerXp_1274008210(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1274008210L))
+    @Inject(at = @At("HEAD"), method = "canRestock()Z", cancellable = true)
+    private void canRestock_1274024547(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1274024547L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getOffers()Lnet/minecraft/world/item/trading/MerchantOffers;", cancellable = true)
+    private void getOffers_432434648(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(432434648L))
             info.setReturnValue(null);
     }
 

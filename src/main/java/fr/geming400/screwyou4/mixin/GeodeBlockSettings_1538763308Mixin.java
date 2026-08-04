@@ -31,8 +31,26 @@ public class GeodeBlockSettings_1538763308Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "outerLayerProvider()Lnet/minecraft/world/level/levelgen/feature/stateproviders/BlockStateProvider;", cancellable = true)
+    private void outerLayerProvider__393943194(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-393943194L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "innerPlacements()Ljava/util/List;", cancellable = true)
+    private void innerPlacements__1129867173(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1129867173L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "invalidBlocks()Lnet/minecraft/core/HolderSet;", cancellable = true)
     private void invalidBlocks__1136250945(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1136250945L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "cannotReplace()Lnet/minecraft/core/HolderSet;", cancellable = true)
+    private void cannotReplace__1136250945(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1136250945L))
             info.setReturnValue(null);
     }
@@ -49,27 +67,9 @@ public class GeodeBlockSettings_1538763308Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "outerLayerProvider()Lnet/minecraft/world/level/levelgen/feature/stateproviders/BlockStateProvider;", cancellable = true)
-    private void outerLayerProvider__393943194(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-393943194L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "fillingProvider()Lnet/minecraft/world/level/levelgen/feature/stateproviders/BlockStateProvider;", cancellable = true)
     private void fillingProvider__393943194(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-393943194L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "innerPlacements()Ljava/util/List;", cancellable = true)
-    private void innerPlacements__1129867173(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1129867173L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "cannotReplace()Lnet/minecraft/core/HolderSet;", cancellable = true)
-    private void cannotReplace__1136250945(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1136250945L))
             info.setReturnValue(null);
     }
 

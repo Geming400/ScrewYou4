@@ -31,15 +31,15 @@ public class EntityEffects901325981Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
-    private void codec__1657787591(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1657787591L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "effects()Ljava/util/List;", cancellable = true)
     private void effects__1767304499(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1767304499L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
+    private void codec__1657787591(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1657787591L))
             info.setReturnValue(null);
     }
 

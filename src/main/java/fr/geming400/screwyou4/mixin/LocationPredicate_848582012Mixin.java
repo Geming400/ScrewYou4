@@ -43,18 +43,6 @@ public class LocationPredicate_848582012Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "fluid()Ljava/util/Optional;", cancellable = true)
-    private void fluid_1094043433(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1094043433L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "light()Ljava/util/Optional;", cancellable = true)
-    private void light_1094043433(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1094043433L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "biomes()Ljava/util/Optional;", cancellable = true)
     private void biomes_1094043433(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1094043433L))
@@ -81,6 +69,18 @@ public class LocationPredicate_848582012Mixin {
 
     @Inject(at = @At("HEAD"), method = "smokey()Ljava/util/Optional;", cancellable = true)
     private void smokey_1094043433(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1094043433L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "light()Ljava/util/Optional;", cancellable = true)
+    private void light_1094043433(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1094043433L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "fluid()Ljava/util/Optional;", cancellable = true)
+    private void fluid_1094043433(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1094043433L))
             info.setReturnValue(null);
     }

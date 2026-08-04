@@ -13,15 +13,15 @@ public class FoliageAttachment_1755627994Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "doubleTrunk()Z", cancellable = true)
-    private void doubleTrunk_1793906576(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1793906576L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "radiusOffset()I", cancellable = true)
     private void radiusOffset_1793890239(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1793890239L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "doubleTrunk()Z", cancellable = true)
+    private void doubleTrunk_1793906576(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1793906576L))
             info.setReturnValue(null);
     }
 

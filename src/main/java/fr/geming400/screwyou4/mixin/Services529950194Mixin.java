@@ -37,12 +37,6 @@ public class Services529950194Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "sessionService()Lcom/mojang/authlib/minecraft/MinecraftSessionService;", cancellable = true)
-    private void sessionService_595108503(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(595108503L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "profileKeySignatureValidator()Lnet/minecraft/util/SignatureValidator;", cancellable = true)
     private void profileKeySignatureValidator_2019902723(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2019902723L))
@@ -55,9 +49,15 @@ public class Services529950194Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "nameToIdCache()Lnet/minecraft/server/players/UserNameToIdResolver;", cancellable = true)
-    private void nameToIdCache_1601817583(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1601817583L))
+    @Inject(at = @At("HEAD"), method = "sessionService()Lcom/mojang/authlib/minecraft/MinecraftSessionService;", cancellable = true)
+    private void sessionService_595108503(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(595108503L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "profileRepository()Lcom/mojang/authlib/GameProfileRepository;", cancellable = true)
+    private void profileRepository_976773152(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(976773152L))
             info.setReturnValue(null);
     }
 
@@ -67,9 +67,9 @@ public class Services529950194Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "profileRepository()Lcom/mojang/authlib/GameProfileRepository;", cancellable = true)
-    private void profileRepository_976773152(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(976773152L))
+    @Inject(at = @At("HEAD"), method = "nameToIdCache()Lnet/minecraft/server/players/UserNameToIdResolver;", cancellable = true)
+    private void nameToIdCache_1601817583(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1601817583L))
             info.setReturnValue(null);
     }
 

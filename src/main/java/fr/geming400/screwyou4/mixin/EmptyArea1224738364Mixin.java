@@ -49,18 +49,6 @@ public class EmptyArea1224738364Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "activeRight()F", cancellable = true)
-    private void activeRight_1262997727(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1262997727L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "activeBottom()F", cancellable = true)
-    private void activeBottom_1262997727(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1262997727L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "height()F", cancellable = true)
     private void height_1262997727(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1262997727L))
@@ -73,14 +61,26 @@ public class EmptyArea1224738364Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "ascent()F", cancellable = true)
+    private void ascent_1262997727(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1262997727L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "activeLeft()F", cancellable = true)
     private void activeLeft_1262997727(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1262997727L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "ascent()F", cancellable = true)
-    private void ascent_1262997727(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "activeRight()F", cancellable = true)
+    private void activeRight_1262997727(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1262997727L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "activeBottom()F", cancellable = true)
+    private void activeBottom_1262997727(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1262997727L))
             info.setReturnValue(null);
     }

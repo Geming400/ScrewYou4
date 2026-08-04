@@ -37,36 +37,6 @@ public class CreativeModeTab812506933Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getDisplayItems()Ljava/util/Collection;", cancellable = true)
-    private void getDisplayItems__1001141339(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1001141339L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isAlignedRight()Z", cancellable = true)
-    private void isAlignedRight_850785516(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(850785516L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getIconItem()Lnet/minecraft/world/item/ItemStack;", cancellable = true)
-    private void getIconItem_1335925593(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1335925593L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getBackgroundTexture()Lnet/minecraft/resources/Identifier;", cancellable = true)
-    private void getBackgroundTexture__1630559620(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1630559620L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "shouldDisplay()Z", cancellable = true)
-    private void shouldDisplay_850785516(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(850785516L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "showTitle()Z", cancellable = true)
     private void showTitle_850785516(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(850785516L))
@@ -85,6 +55,36 @@ public class CreativeModeTab812506933Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "getDisplayItems()Ljava/util/Collection;", cancellable = true)
+    private void getDisplayItems__1001141339(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1001141339L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getBackgroundTexture()Lnet/minecraft/resources/Identifier;", cancellable = true)
+    private void getBackgroundTexture__1630559620(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1630559620L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getIconItem()Lnet/minecraft/world/item/ItemStack;", cancellable = true)
+    private void getIconItem_1335925593(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1335925593L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isAlignedRight()Z", cancellable = true)
+    private void isAlignedRight_850785516(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(850785516L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "shouldDisplay()Z", cancellable = true)
+    private void shouldDisplay_850785516(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(850785516L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "createTextureLocation(Ljava/lang/String;)Lnet/minecraft/resources/Identifier;", cancellable = true)
     private static void createTextureLocation__606422230(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-606422230L))
@@ -97,16 +97,16 @@ public class CreativeModeTab812506933Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "buildContents(Lnet/minecraft/world/item/CreativeModeTab$ItemDisplayParameters;)V", cancellable = true)
-    private void buildContents_1401072874(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1401072874L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "getSearchTabDisplayItems()Ljava/util/Collection;", cancellable = true)
     private void getSearchTabDisplayItems__1001141339(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1001141339L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "buildContents(Lnet/minecraft/world/item/CreativeModeTab$ItemDisplayParameters;)V", cancellable = true)
+    private void buildContents_1401072874(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1401072874L))
+            info.cancel();
     }
 
 

@@ -19,16 +19,10 @@ public class CampfireRenderer26918876Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/blockentity/state/BlockEntityRenderState;", cancellable = true)
-    private void createRenderState_1160891302(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1160891302L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/blockentity/state/CampfireRenderState;", cancellable = true)
-    private void createRenderState__1305542827(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1305542827L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/level/block/entity/BlockEntity;Lnet/minecraft/client/renderer/blockentity/state/BlockEntityRenderState;FLnet/minecraft/world/phys/Vec3;Lnet/minecraft/client/renderer/feature/ModelFeatureRenderer$CrumblingOverlay;)V", cancellable = true)
+    private void extractRenderState_1044007738(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1044007738L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/level/block/entity/CampfireBlockEntity;Lnet/minecraft/client/renderer/blockentity/state/CampfireRenderState;FLnet/minecraft/world/phys/Vec3;Lnet/minecraft/client/renderer/feature/ModelFeatureRenderer$CrumblingOverlay;)V", cancellable = true)
@@ -37,10 +31,16 @@ public class CampfireRenderer26918876Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/level/block/entity/BlockEntity;Lnet/minecraft/client/renderer/blockentity/state/BlockEntityRenderState;FLnet/minecraft/world/phys/Vec3;Lnet/minecraft/client/renderer/feature/ModelFeatureRenderer$CrumblingOverlay;)V", cancellable = true)
-    private void extractRenderState_1044007738(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1044007738L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/blockentity/state/CampfireRenderState;", cancellable = true)
+    private void createRenderState__1305542827(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1305542827L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/blockentity/state/BlockEntityRenderState;", cancellable = true)
+    private void createRenderState_1160891302(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1160891302L))
+            info.setReturnValue(null);
     }
 
 

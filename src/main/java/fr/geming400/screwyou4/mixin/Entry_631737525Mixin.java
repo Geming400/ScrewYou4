@@ -49,9 +49,9 @@ public class Entry_631737525Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "showHat()Z", cancellable = true)
-    private void showHat_670016107(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(670016107L))
+    @Inject(at = @At("HEAD"), method = "chatSession()Lnet/minecraft/network/chat/RemoteChatSession$Data;", cancellable = true)
+    private void chatSession__1187079520(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1187079520L))
             info.setReturnValue(null);
     }
 
@@ -61,9 +61,9 @@ public class Entry_631737525Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "chatSession()Lnet/minecraft/network/chat/RemoteChatSession$Data;", cancellable = true)
-    private void chatSession__1187079520(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1187079520L))
+    @Inject(at = @At("HEAD"), method = "listOrder()I", cancellable = true)
+    private void listOrder_669999770(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(669999770L))
             info.setReturnValue(null);
     }
 
@@ -73,9 +73,9 @@ public class Entry_631737525Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "listOrder()I", cancellable = true)
-    private void listOrder_669999770(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(669999770L))
+    @Inject(at = @At("HEAD"), method = "showHat()Z", cancellable = true)
+    private void showHat_670016107(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(670016107L))
             info.setReturnValue(null);
     }
 

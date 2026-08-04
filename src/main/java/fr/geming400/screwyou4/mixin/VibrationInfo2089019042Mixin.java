@@ -61,15 +61,15 @@ public class VibrationInfo2089019042Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "projectileOwnerUuid()Ljava/util/UUID;", cancellable = true)
-    private void projectileOwnerUuid__1794813771(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1794813771L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getProjectileOwner(Lnet/minecraft/server/level/ServerLevel;)Ljava/util/Optional;", cancellable = true)
     private void getProjectileOwner_888216287(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(888216287L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "projectileOwnerUuid()Ljava/util/UUID;", cancellable = true)
+    private void projectileOwnerUuid__1794813771(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1794813771L))
             info.setReturnValue(null);
     }
 

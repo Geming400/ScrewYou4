@@ -43,14 +43,14 @@ public class TargetPoint_105674678Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "weirdness()J", cancellable = true)
-    private void weirdness_143937884(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "continentalness()J", cancellable = true)
+    private void continentalness_143937884(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(143937884L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "continentalness()J", cancellable = true)
-    private void continentalness_143937884(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "weirdness()J", cancellable = true)
+    private void weirdness_143937884(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(143937884L))
             info.setReturnValue(null);
     }

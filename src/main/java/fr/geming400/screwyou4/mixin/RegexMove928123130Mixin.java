@@ -31,15 +31,15 @@ public class RegexMove928123130Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "fromPattern()Ljava/util/regex/Pattern;", cancellable = true)
-    private void fromPattern__162342346(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-162342346L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "toReplacement()Ljava/lang/String;", cancellable = true)
     private void toReplacement__207337341(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-207337341L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "fromPattern()Ljava/util/regex/Pattern;", cancellable = true)
+    private void fromPattern__162342346(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-162342346L))
             info.setReturnValue(null);
     }
 

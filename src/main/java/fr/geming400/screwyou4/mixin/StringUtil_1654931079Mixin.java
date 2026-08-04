@@ -31,9 +31,39 @@ public class StringUtil_1654931079Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "trimChatMessage(Ljava/lang/String;)Ljava/lang/String;", cancellable = true)
+    private static void trimChatMessage__1427294147(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1427294147L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isValidPlayerName(Ljava/lang/String;)Z", cancellable = true)
+    private static void isValidPlayerName__1487670977(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1487670977L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "formatTickDuration(IF)Ljava/lang/String;", cancellable = true)
     private static void formatTickDuration_1795515402(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1795515402L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "filterText(Ljava/lang/String;)Ljava/lang/String;", cancellable = true)
+    private static void filterText__1427294147(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1427294147L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "filterText(Ljava/lang/String;Z)Ljava/lang/String;", cancellable = true)
+    private static void filterText__273329721(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-273329721L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "stripColor(Ljava/lang/String;)Ljava/lang/String;", cancellable = true)
+    private static void stripColor__1427294147(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1427294147L))
             info.setReturnValue(null);
     }
 
@@ -51,36 +81,6 @@ public class StringUtil_1654931079Mixin {
 
     @Inject(at = @At("HEAD"), method = "endsWithNewLine(Ljava/lang/String;)Z", cancellable = true)
     private static void endsWithNewLine__1487670977(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1487670977L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "stripColor(Ljava/lang/String;)Ljava/lang/String;", cancellable = true)
-    private static void stripColor__1427294147(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1427294147L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "filterText(Ljava/lang/String;)Ljava/lang/String;", cancellable = true)
-    private static void filterText__1427294147(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1427294147L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "filterText(Ljava/lang/String;Z)Ljava/lang/String;", cancellable = true)
-    private static void filterText__273329721(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-273329721L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "trimChatMessage(Ljava/lang/String;)Ljava/lang/String;", cancellable = true)
-    private static void trimChatMessage__1427294147(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1427294147L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isValidPlayerName(Ljava/lang/String;)Z", cancellable = true)
-    private static void isValidPlayerName__1487670977(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1487670977L))
             info.setReturnValue(null);
     }

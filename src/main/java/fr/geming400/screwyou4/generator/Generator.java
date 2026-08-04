@@ -74,7 +74,7 @@ public class Generator {
         for (Method method : clazz.getDeclaredMethods()) {
             if (canMixinMethod(method)) {
                 this.foundMethods.get(clazz.getName())
-                        .add(new SerializedMethod(Utils.getMixinSignature(method), Utils.getUniqueMethodID(method)));
+                        .add(new SerializedMethod(Utils.getMixinSignature(method), method.getDeclaringClass().getTypeName(), Utils.getUniqueMethodID(method)));
 
                 mixinContent.append(this.injectMethod(method));
             }
@@ -334,6 +334,7 @@ public class Generator {
 
     public record SerializedMethod(
             String signature,
+            String className,
             long uniqueID
     ) {}
 }

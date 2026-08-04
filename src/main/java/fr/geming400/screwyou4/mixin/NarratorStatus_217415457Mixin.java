@@ -31,12 +31,6 @@ public class NarratorStatus_217415457Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "shouldNarrateSystemOrChat()Z", cancellable = true)
-    private void shouldNarrateSystemOrChat_255694039(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(255694039L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "shouldNarrateSystem()Z", cancellable = true)
     private void shouldNarrateSystem_255694039(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(255694039L))
@@ -45,6 +39,12 @@ public class NarratorStatus_217415457Mixin {
 
     @Inject(at = @At("HEAD"), method = "shouldNarrateChat()Z", cancellable = true)
     private void shouldNarrateChat_255694039(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(255694039L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "shouldNarrateSystemOrChat()Z", cancellable = true)
+    private void shouldNarrateSystemOrChat_255694039(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(255694039L))
             info.setReturnValue(null);
     }

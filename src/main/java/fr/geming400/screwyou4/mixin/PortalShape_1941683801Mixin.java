@@ -25,9 +25,9 @@ public class PortalShape_1941683801Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "findPortalShape(Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/core/BlockPos;Ljava/util/function/Predicate;Lnet/minecraft/core/Direction$Axis;)Ljava/util/Optional;", cancellable = true)
-    private static void findPortalShape__1518210524(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1518210524L))
+    @Inject(at = @At("HEAD"), method = "findEmptyPortalShape(Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/Direction$Axis;)Ljava/util/Optional;", cancellable = true)
+    private static void findEmptyPortalShape_1496002773(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1496002773L))
             info.setReturnValue(null);
     }
 
@@ -37,9 +37,9 @@ public class PortalShape_1941683801Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "findEmptyPortalShape(Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/Direction$Axis;)Ljava/util/Optional;", cancellable = true)
-    private static void findEmptyPortalShape_1496002773(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1496002773L))
+    @Inject(at = @At("HEAD"), method = "findPortalShape(Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/core/BlockPos;Ljava/util/function/Predicate;Lnet/minecraft/core/Direction$Axis;)Ljava/util/Optional;", cancellable = true)
+    private static void findPortalShape__1518210524(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1518210524L))
             info.setReturnValue(null);
     }
 

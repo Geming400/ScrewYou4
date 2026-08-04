@@ -25,16 +25,16 @@ public class DirectJoinServerScreen712659018Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIF)V", cancellable = true)
-    private void extractRenderState__247028354(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-247028354L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "keyPressed(Lnet/minecraft/client/input/KeyEvent;)Z", cancellable = true)
     private void keyPressed__203976696(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-203976696L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIF)V", cancellable = true)
+    private void extractRenderState__247028354(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-247028354L))
+            info.cancel();
     }
 
 

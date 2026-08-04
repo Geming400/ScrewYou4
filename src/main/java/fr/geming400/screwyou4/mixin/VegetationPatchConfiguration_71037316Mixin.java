@@ -31,48 +31,6 @@ public class VegetationPatchConfiguration_71037316Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "vegetationFeature()Lnet/minecraft/core/Holder;", cancellable = true)
-    private void vegetationFeature_1619913087(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1619913087L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "groundState()Lnet/minecraft/world/level/levelgen/feature/stateproviders/BlockStateProvider;", cancellable = true)
-    private void groundState__1861669186(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1861669186L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "extraEdgeColumnChance()F", cancellable = true)
-    private void extraEdgeColumnChance_109296678(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(109296678L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "extraBottomBlockChance()F", cancellable = true)
-    private void extraBottomBlockChance_109296678(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(109296678L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "verticalRange()I", cancellable = true)
-    private void verticalRange_109299561(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(109299561L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "vegetationChance()F", cancellable = true)
-    private void vegetationChance_109296678(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(109296678L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "replaceable()Lnet/minecraft/core/HolderSet;", cancellable = true)
-    private void replaceable_1690990359(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1690990359L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "surface()Lnet/minecraft/world/level/levelgen/placement/CaveSurface;", cancellable = true)
     private void surface__837817310(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-837817310L))
@@ -82,6 +40,48 @@ public class VegetationPatchConfiguration_71037316Mixin {
     @Inject(at = @At("HEAD"), method = "xzRadius()Lnet/minecraft/util/valueproviders/IntProvider;", cancellable = true)
     private void xzRadius_1896317708(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1896317708L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "replaceable()Lnet/minecraft/core/HolderSet;", cancellable = true)
+    private void replaceable_1690990359(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1690990359L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "extraEdgeColumnChance()F", cancellable = true)
+    private void extraEdgeColumnChance_109296678(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(109296678L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "groundState()Lnet/minecraft/world/level/levelgen/feature/stateproviders/BlockStateProvider;", cancellable = true)
+    private void groundState__1861669186(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1861669186L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "vegetationFeature()Lnet/minecraft/core/Holder;", cancellable = true)
+    private void vegetationFeature_1619913087(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1619913087L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "verticalRange()I", cancellable = true)
+    private void verticalRange_109299561(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(109299561L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "extraBottomBlockChance()F", cancellable = true)
+    private void extraBottomBlockChance_109296678(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(109296678L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "vegetationChance()F", cancellable = true)
+    private void vegetationChance_109296678(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(109296678L))
             info.setReturnValue(null);
     }
 

@@ -97,18 +97,6 @@ public class StringTag_37974101Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "escapeWithoutQuotes(Ljava/lang/String;)Ljava/lang/String;", cancellable = true)
-    private static void escapeWithoutQuotes_1250716171(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1250716171L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "escapeWithoutQuotes(Ljava/lang/String;Ljava/lang/StringBuilder;)V", cancellable = true)
-    private static void escapeWithoutQuotes_847619542(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(847619542L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "quoteAndEscape(Ljava/lang/String;)Ljava/lang/String;", cancellable = true)
     private static void quoteAndEscape_1250716171(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1250716171L))
@@ -119,6 +107,18 @@ public class StringTag_37974101Mixin {
     private static void quoteAndEscape_847619542(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(847619542L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "escapeWithoutQuotes(Ljava/lang/String;Ljava/lang/StringBuilder;)V", cancellable = true)
+    private static void escapeWithoutQuotes_847619542(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(847619542L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "escapeWithoutQuotes(Ljava/lang/String;)Ljava/lang/String;", cancellable = true)
+    private static void escapeWithoutQuotes_1250716171(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1250716171L))
+            info.setReturnValue(null);
     }
 
 

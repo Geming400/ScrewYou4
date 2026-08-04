@@ -37,12 +37,6 @@ public class FilteredText1573395704Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "passThrough(Ljava/lang/String;)Lnet/minecraft/server/network/FilteredText;", cancellable = true)
-    private static void passThrough__701930495(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-701930495L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "isFiltered()Z", cancellable = true)
     private void isFiltered_1611674287(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1611674287L))
@@ -64,6 +58,12 @@ public class FilteredText1573395704Mixin {
     @Inject(at = @At("HEAD"), method = "filteredOrEmpty()Ljava/lang/String;", cancellable = true)
     private void filteredOrEmpty_437935233(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(437935233L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "passThrough(Ljava/lang/String;)Lnet/minecraft/server/network/FilteredText;", cancellable = true)
+    private static void passThrough__701930495(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-701930495L))
             info.setReturnValue(null);
     }
 

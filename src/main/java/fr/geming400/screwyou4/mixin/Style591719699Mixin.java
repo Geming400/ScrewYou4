@@ -31,69 +31,9 @@ public class Style591719699Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "withoutShadow()Lnet/minecraft/network/chat/Style;", cancellable = true)
-    private void withoutShadow_282113010(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(282113010L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getColor()Lnet/minecraft/network/chat/TextColor;", cancellable = true)
-    private void getColor__1983109683(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1983109683L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "withHoverEvent(Lnet/minecraft/network/chat/HoverEvent;)Lnet/minecraft/network/chat/Style;", cancellable = true)
     private void withHoverEvent_1371647451(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1371647451L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getHoverEvent()Lnet/minecraft/network/chat/HoverEvent;", cancellable = true)
-    private void getHoverEvent_1606127031(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1606127031L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "withUnderlined(Ljava/lang/Boolean;)Lnet/minecraft/network/chat/Style;", cancellable = true)
-    private void withUnderlined_369984207(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(369984207L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "applyFormats([Lnet/minecraft/ChatFormatting;)Lnet/minecraft/network/chat/Style;", cancellable = true)
-    private void applyFormats__626741367(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-626741367L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "applyFormat(Lnet/minecraft/ChatFormatting;)Lnet/minecraft/network/chat/Style;", cancellable = true)
-    private void applyFormat__67310348(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-67310348L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isObfuscated()Z", cancellable = true)
-    private void isObfuscated_629998282(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(629998282L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "withInsertion(Ljava/lang/String;)Lnet/minecraft/network/chat/Style;", cancellable = true)
-    private void withInsertion__1240841944(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1240841944L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getClickEvent()Lnet/minecraft/network/chat/ClickEvent;", cancellable = true)
-    private void getClickEvent_436764163(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(436764163L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getInsertion()Ljava/lang/String;", cancellable = true)
-    private void getInsertion__543740772(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-543740772L))
             info.setReturnValue(null);
     }
 
@@ -103,9 +43,27 @@ public class Style591719699Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "withBold(Ljava/lang/Boolean;)Lnet/minecraft/network/chat/Style;", cancellable = true)
+    private void withBold_369984207(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(369984207L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "withItalic(Ljava/lang/Boolean;)Lnet/minecraft/network/chat/Style;", cancellable = true)
+    private void withItalic_369984207(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(369984207L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "withFont(Lnet/minecraft/network/chat/FontDescription;)Lnet/minecraft/network/chat/Style;", cancellable = true)
     private void withFont_2143335182(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2143335182L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getColor()Lnet/minecraft/network/chat/TextColor;", cancellable = true)
+    private void getColor__1983109683(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1983109683L))
             info.setReturnValue(null);
     }
 
@@ -127,12 +85,6 @@ public class Style591719699Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "applyLegacyFormat(Lnet/minecraft/ChatFormatting;)Lnet/minecraft/network/chat/Style;", cancellable = true)
-    private void applyLegacyFormat__67310348(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-67310348L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "withShadowColor(I)Lnet/minecraft/network/chat/Style;", cancellable = true)
     private void withShadowColor_77432473(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(77432473L))
@@ -145,9 +97,9 @@ public class Style591719699Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "isStrikethrough()Z", cancellable = true)
-    private void isStrikethrough_629998282(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(629998282L))
+    @Inject(at = @At("HEAD"), method = "withObfuscated(Ljava/lang/Boolean;)Lnet/minecraft/network/chat/Style;", cancellable = true)
+    private void withObfuscated_369984207(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(369984207L))
             info.setReturnValue(null);
     }
 
@@ -163,14 +115,56 @@ public class Style591719699Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "withObfuscated(Ljava/lang/Boolean;)Lnet/minecraft/network/chat/Style;", cancellable = true)
-    private void withObfuscated_369984207(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "applyLegacyFormat(Lnet/minecraft/ChatFormatting;)Lnet/minecraft/network/chat/Style;", cancellable = true)
+    private void applyLegacyFormat__67310348(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-67310348L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isStrikethrough()Z", cancellable = true)
+    private void isStrikethrough_629998282(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(629998282L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "withInsertion(Ljava/lang/String;)Lnet/minecraft/network/chat/Style;", cancellable = true)
+    private void withInsertion__1240841944(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1240841944L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isObfuscated()Z", cancellable = true)
+    private void isObfuscated_629998282(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(629998282L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getInsertion()Ljava/lang/String;", cancellable = true)
+    private void getInsertion__543740772(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-543740772L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getClickEvent()Lnet/minecraft/network/chat/ClickEvent;", cancellable = true)
+    private void getClickEvent_436764163(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(436764163L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getHoverEvent()Lnet/minecraft/network/chat/HoverEvent;", cancellable = true)
+    private void getHoverEvent_1606127031(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1606127031L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "withUnderlined(Ljava/lang/Boolean;)Lnet/minecraft/network/chat/Style;", cancellable = true)
+    private void withUnderlined_369984207(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(369984207L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "isBold()Z", cancellable = true)
-    private void isBold_629998282(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "isItalic()Z", cancellable = true)
+    private void isItalic_629998282(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(629998282L))
             info.setReturnValue(null);
     }
@@ -181,21 +175,27 @@ public class Style591719699Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "isItalic()Z", cancellable = true)
-    private void isItalic_629998282(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "isBold()Z", cancellable = true)
+    private void isBold_629998282(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(629998282L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "withBold(Ljava/lang/Boolean;)Lnet/minecraft/network/chat/Style;", cancellable = true)
-    private void withBold_369984207(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(369984207L))
+    @Inject(at = @At("HEAD"), method = "withoutShadow()Lnet/minecraft/network/chat/Style;", cancellable = true)
+    private void withoutShadow_282113010(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(282113010L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "withItalic(Ljava/lang/Boolean;)Lnet/minecraft/network/chat/Style;", cancellable = true)
-    private void withItalic_369984207(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(369984207L))
+    @Inject(at = @At("HEAD"), method = "applyFormats([Lnet/minecraft/ChatFormatting;)Lnet/minecraft/network/chat/Style;", cancellable = true)
+    private void applyFormats__626741367(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-626741367L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "applyFormat(Lnet/minecraft/ChatFormatting;)Lnet/minecraft/network/chat/Style;", cancellable = true)
+    private void applyFormat__67310348(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-67310348L))
             info.setReturnValue(null);
     }
 

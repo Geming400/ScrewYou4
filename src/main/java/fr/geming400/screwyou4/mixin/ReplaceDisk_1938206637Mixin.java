@@ -55,15 +55,15 @@ public class ReplaceDisk_1938206637Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "blockState()Lnet/minecraft/world/level/levelgen/feature/stateproviders/BlockStateProvider;", cancellable = true)
-    private void blockState_5500135(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(5500135L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "height()Lnet/minecraft/world/item/enchantment/LevelBasedValue;", cancellable = true)
     private void height_2070286235(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2070286235L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "blockState()Lnet/minecraft/world/level/levelgen/feature/stateproviders/BlockStateProvider;", cancellable = true)
+    private void blockState_5500135(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(5500135L))
             info.setReturnValue(null);
     }
 

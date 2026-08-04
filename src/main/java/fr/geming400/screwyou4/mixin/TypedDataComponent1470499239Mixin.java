@@ -43,16 +43,16 @@ public class TypedDataComponent1470499239Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "applyTo(Lnet/minecraft/core/component/PatchedDataComponentMap;)V", cancellable = true)
-    private void applyTo_954168167(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(954168167L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "createUnchecked(Lnet/minecraft/core/component/DataComponentType;Ljava/lang/Object;)Lnet/minecraft/core/component/TypedDataComponent;", cancellable = true)
     private static void createUnchecked__1069817064(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1069817064L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "applyTo(Lnet/minecraft/core/component/PatchedDataComponentMap;)V", cancellable = true)
+    private void applyTo_954168167(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(954168167L))
+            info.cancel();
     }
 
 

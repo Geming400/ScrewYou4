@@ -43,15 +43,15 @@ public class TriggerInstance170471465Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "changedDimensionFrom(Lnet/minecraft/resources/ResourceKey;)Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
-    private static void changedDimensionFrom_332752148(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(332752148L))
+    @Inject(at = @At("HEAD"), method = "player()Ljava/util/Optional;", cancellable = true)
+    private void player_415932887(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(415932887L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "changedDimension()Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
-    private static void changedDimension_1444222864(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1444222864L))
+    @Inject(at = @At("HEAD"), method = "changedDimensionFrom(Lnet/minecraft/resources/ResourceKey;)Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
+    private static void changedDimensionFrom_332752148(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(332752148L))
             info.setReturnValue(null);
     }
 
@@ -61,15 +61,15 @@ public class TriggerInstance170471465Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "changedDimensionTo(Lnet/minecraft/resources/ResourceKey;)Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
-    private static void changedDimensionTo_332752148(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(332752148L))
+    @Inject(at = @At("HEAD"), method = "changedDimension()Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
+    private static void changedDimension_1444222864(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1444222864L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "player()Ljava/util/Optional;", cancellable = true)
-    private void player_415932887(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(415932887L))
+    @Inject(at = @At("HEAD"), method = "changedDimensionTo(Lnet/minecraft/resources/ResourceKey;)Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
+    private static void changedDimensionTo_332752148(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(332752148L))
             info.setReturnValue(null);
     }
 

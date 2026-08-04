@@ -49,12 +49,6 @@ public class MetricSampler1704790698Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getSampler()Ljava/util/function/DoubleSupplier;", cancellable = true)
-    private void getSampler__201338790(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-201338790L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "onFinished()V", cancellable = true)
     private void onFinished_1743065437(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1743065437L))
@@ -67,16 +61,16 @@ public class MetricSampler1704790698Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "getSampler()Ljava/util/function/DoubleSupplier;", cancellable = true)
+    private void getSampler__201338790(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-201338790L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "onEndTick(I)V", cancellable = true)
     private void onEndTick__1376259626(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1376259626L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "samplingPhase()Lnet/minecraft/util/profiling/metrics/MetricSampler$SamplingPhase;", cancellable = true)
-    private void samplingPhase_979664414(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(979664414L))
-            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "triggersThreshold()Z", cancellable = true)
@@ -89,6 +83,12 @@ public class MetricSampler1704790698Mixin {
     private void onStartTick_1743065437(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1743065437L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "samplingPhase()Lnet/minecraft/util/profiling/metrics/MetricSampler$SamplingPhase;", cancellable = true)
+    private void samplingPhase_979664414(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(979664414L))
+            info.setReturnValue(null);
     }
 
 

@@ -49,8 +49,8 @@ public class ByState1757424311Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "unaffected()Ljava/lang/Object;", cancellable = true)
-    private void unaffected__678350766(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "exposed()Ljava/lang/Object;", cancellable = true)
+    private void exposed__678350766(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-678350766L))
             info.setReturnValue(null);
     }
@@ -67,8 +67,8 @@ public class ByState1757424311Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "exposed()Ljava/lang/Object;", cancellable = true)
-    private void exposed__678350766(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "unaffected()Ljava/lang/Object;", cancellable = true)
+    private void unaffected__678350766(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-678350766L))
             info.setReturnValue(null);
     }

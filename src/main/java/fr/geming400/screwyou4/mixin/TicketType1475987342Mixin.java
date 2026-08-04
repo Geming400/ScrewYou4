@@ -37,18 +37,6 @@ public class TicketType1475987342Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "shouldKeepDimensionActive()Z", cancellable = true)
-    private void shouldKeepDimensionActive_1514265925(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1514265925L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "canExpireIfUnloaded()Z", cancellable = true)
-    private void canExpireIfUnloaded_1514265925(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1514265925L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "doesSimulate()Z", cancellable = true)
     private void doesSimulate_1514265925(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1514265925L))
@@ -69,6 +57,18 @@ public class TicketType1475987342Mixin {
 
     @Inject(at = @At("HEAD"), method = "persist()Z", cancellable = true)
     private void persist_1514265925(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1514265925L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "shouldKeepDimensionActive()Z", cancellable = true)
+    private void shouldKeepDimensionActive_1514265925(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1514265925L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "canExpireIfUnloaded()Z", cancellable = true)
+    private void canExpireIfUnloaded_1514265925(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1514265925L))
             info.setReturnValue(null);
     }

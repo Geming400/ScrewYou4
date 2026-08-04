@@ -13,6 +13,12 @@ public class GuardianModel1271435722Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "createElderGuardianLayer()Lnet/minecraft/client/model/geom/builders/LayerDefinition;", cancellable = true)
+    private static void createElderGuardianLayer_557303558(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(557303558L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "setupAnim(Ljava/lang/Object;)V", cancellable = true)
     private void setupAnim__1637894695(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1637894695L))
@@ -23,12 +29,6 @@ public class GuardianModel1271435722Mixin {
     private void setupAnim_1216487952(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1216487952L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "createElderGuardianLayer()Lnet/minecraft/client/model/geom/builders/LayerDefinition;", cancellable = true)
-    private static void createElderGuardianLayer_557303558(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(557303558L))
-            info.setReturnValue(null);
     }
 
 

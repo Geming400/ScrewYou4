@@ -7,15 +7,15 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.world.level.block.JigsawBlock.class)
 public class JigsawBlock_1653614882Mixin {
-        @Inject(at = @At("HEAD"), method = "getFrontFacing(Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/core/Direction;", cancellable = true)
-    private static void getFrontFacing_784486869(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(784486869L))
+        @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
+    private void codec__905498691(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-905498691L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
-    private void codec__905498691(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-905498691L))
+    @Inject(at = @At("HEAD"), method = "getFrontFacing(Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/core/Direction;", cancellable = true)
+    private static void getFrontFacing_784486869(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(784486869L))
             info.setReturnValue(null);
     }
 
@@ -25,9 +25,9 @@ public class JigsawBlock_1653614882Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
-    private void getStateForPlacement_395015114(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(395015114L))
+    @Inject(at = @At("HEAD"), method = "getTopFacing(Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/core/Direction;", cancellable = true)
+    private static void getTopFacing_784486869(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(784486869L))
             info.setReturnValue(null);
     }
 
@@ -37,9 +37,9 @@ public class JigsawBlock_1653614882Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getTopFacing(Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/core/Direction;", cancellable = true)
-    private static void getTopFacing_784486869(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(784486869L))
+    @Inject(at = @At("HEAD"), method = "getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
+    private void getStateForPlacement_395015114(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(395015114L))
             info.setReturnValue(null);
     }
 

@@ -37,6 +37,24 @@ public class LevelDirectory2067132037Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "iconFile()Ljava/nio/file/Path;", cancellable = true)
+    private void iconFile_932768355(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(932768355L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "lockFile()Ljava/nio/file/Path;", cancellable = true)
+    private void lockFile_932768355(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(932768355L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "oldDataFile()Ljava/nio/file/Path;", cancellable = true)
+    private void oldDataFile_932768355(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(932768355L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "directoryName()Ljava/lang/String;", cancellable = true)
     private void directoryName_931671566(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(931671566L))
@@ -49,27 +67,9 @@ public class LevelDirectory2067132037Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "oldDataFile()Ljava/nio/file/Path;", cancellable = true)
-    private void oldDataFile_932768355(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(932768355L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "rawDataFile(Ljava/time/ZonedDateTime;)Ljava/nio/file/Path;", cancellable = true)
     private void rawDataFile_1649964138(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1649964138L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "iconFile()Ljava/nio/file/Path;", cancellable = true)
-    private void iconFile_932768355(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(932768355L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "lockFile()Ljava/nio/file/Path;", cancellable = true)
-    private void lockFile_932768355(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(932768355L))
             info.setReturnValue(null);
     }
 

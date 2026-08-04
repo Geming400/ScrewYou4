@@ -19,9 +19,33 @@ public class SnbtPrinterTagVisitor_1011695981Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "visitEnd(Lnet/minecraft/nbt/EndTag;)V", cancellable = true)
-    private void visitEnd_60527084(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(60527084L))
+    @Inject(at = @At("HEAD"), method = "visitByteArray(Lnet/minecraft/nbt/ByteArrayTag;)V", cancellable = true)
+    private void visitByteArray_1112556162(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1112556162L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "visitDouble(Lnet/minecraft/nbt/DoubleTag;)V", cancellable = true)
+    private void visitDouble_1545947920(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1545947920L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "visitIntArray(Lnet/minecraft/nbt/IntArrayTag;)V", cancellable = true)
+    private void visitIntArray__896051159(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-896051159L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "visitCompound(Lnet/minecraft/nbt/CompoundTag;)V", cancellable = true)
+    private void visitCompound_1572604202(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1572604202L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "visitLongArray(Lnet/minecraft/nbt/LongArrayTag;)V", cancellable = true)
+    private void visitLongArray_1104632206(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1104632206L))
             info.cancel();
     }
 
@@ -37,15 +61,9 @@ public class SnbtPrinterTagVisitor_1011695981Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "visitShort(Lnet/minecraft/nbt/ShortTag;)V", cancellable = true)
-    private void visitShort__655189427(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-655189427L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "visitList(Lnet/minecraft/nbt/ListTag;)V", cancellable = true)
-    private void visitList_1294330013(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1294330013L))
+    @Inject(at = @At("HEAD"), method = "visitEnd(Lnet/minecraft/nbt/EndTag;)V", cancellable = true)
+    private void visitEnd_60527084(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(60527084L))
             info.cancel();
     }
 
@@ -67,33 +85,15 @@ public class SnbtPrinterTagVisitor_1011695981Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "visitLongArray(Lnet/minecraft/nbt/LongArrayTag;)V", cancellable = true)
-    private void visitLongArray_1104632206(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1104632206L))
+    @Inject(at = @At("HEAD"), method = "visitList(Lnet/minecraft/nbt/ListTag;)V", cancellable = true)
+    private void visitList_1294330013(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1294330013L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "visitDouble(Lnet/minecraft/nbt/DoubleTag;)V", cancellable = true)
-    private void visitDouble_1545947920(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1545947920L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "visitIntArray(Lnet/minecraft/nbt/IntArrayTag;)V", cancellable = true)
-    private void visitIntArray__896051159(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-896051159L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "visitByteArray(Lnet/minecraft/nbt/ByteArrayTag;)V", cancellable = true)
-    private void visitByteArray_1112556162(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1112556162L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "visitCompound(Lnet/minecraft/nbt/CompoundTag;)V", cancellable = true)
-    private void visitCompound_1572604202(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1572604202L))
+    @Inject(at = @At("HEAD"), method = "visitShort(Lnet/minecraft/nbt/ShortTag;)V", cancellable = true)
+    private void visitShort__655189427(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-655189427L))
             info.cancel();
     }
 

@@ -37,15 +37,15 @@ public class ConstantValue1697898831Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
-    private void codec__861214741(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-861214741L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "exactly(F)Lnet/minecraft/world/level/storage/loot/providers/number/ConstantValue;", cancellable = true)
     private static void exactly__15300074(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-15300074L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
+    private void codec__861214741(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-861214741L))
             info.setReturnValue(null);
     }
 

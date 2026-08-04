@@ -37,9 +37,33 @@ public class LootContext_1433872359Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "hasParameter(Lnet/minecraft/util/context/ContextKey;)Z", cancellable = true)
-    private void hasParameter__594973077(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-594973077L))
+    @Inject(at = @At("HEAD"), method = "getLuck()F", cancellable = true)
+    private void getLuck_1472131721(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1472131721L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "pushVisitedElement(Lnet/minecraft/world/level/storage/loot/LootContext$VisitedEntry;)Z", cancellable = true)
+    private void pushVisitedElement__1030035656(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1030035656L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "createVisitedEntry(Lnet/minecraft/world/level/storage/loot/LootTable;)Lnet/minecraft/world/level/storage/loot/LootContext$VisitedEntry;", cancellable = true)
+    private static void createVisitedEntry_1887526214(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1887526214L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "createVisitedEntry(Lnet/minecraft/world/level/storage/loot/predicates/LootItemCondition;)Lnet/minecraft/world/level/storage/loot/LootContext$VisitedEntry;", cancellable = true)
+    private static void createVisitedEntry_1200371737(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1200371737L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "createVisitedEntry(Lnet/minecraft/world/level/storage/loot/functions/LootItemFunction;)Lnet/minecraft/world/level/storage/loot/LootContext$VisitedEntry;", cancellable = true)
+    private static void createVisitedEntry__1070432161(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1070432161L))
             info.setReturnValue(null);
     }
 
@@ -55,39 +79,15 @@ public class LootContext_1433872359Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "hasParameter(Lnet/minecraft/util/context/ContextKey;)Z", cancellable = true)
+    private void hasParameter__594973077(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-594973077L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "getResolver()Lnet/minecraft/core/HolderGetter$Provider;", cancellable = true)
     private void getResolver__1794544686(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1794544686L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getLuck()F", cancellable = true)
-    private void getLuck_1472131721(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1472131721L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "createVisitedEntry(Lnet/minecraft/world/level/storage/loot/functions/LootItemFunction;)Lnet/minecraft/world/level/storage/loot/LootContext$VisitedEntry;", cancellable = true)
-    private static void createVisitedEntry__1070432161(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1070432161L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "createVisitedEntry(Lnet/minecraft/world/level/storage/loot/predicates/LootItemCondition;)Lnet/minecraft/world/level/storage/loot/LootContext$VisitedEntry;", cancellable = true)
-    private static void createVisitedEntry_1200371737(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1200371737L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "createVisitedEntry(Lnet/minecraft/world/level/storage/loot/LootTable;)Lnet/minecraft/world/level/storage/loot/LootContext$VisitedEntry;", cancellable = true)
-    private static void createVisitedEntry_1887526214(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1887526214L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "pushVisitedElement(Lnet/minecraft/world/level/storage/loot/LootContext$VisitedEntry;)Z", cancellable = true)
-    private void pushVisitedElement__1030035656(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1030035656L))
             info.setReturnValue(null);
     }
 

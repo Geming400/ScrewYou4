@@ -31,6 +31,12 @@ public class PoiRecord105690413Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "getFreeTickets()I", cancellable = true)
+    private void getFreeTickets_143952659(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(143952659L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "getPoiType()Lnet/minecraft/core/Holder;", cancellable = true)
     private void getPoiType_1654566185(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1654566185L))
@@ -40,12 +46,6 @@ public class PoiRecord105690413Mixin {
     @Inject(at = @At("HEAD"), method = "isOccupied()Z", cancellable = true)
     private void isOccupied_143968996(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(143968996L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getFreeTickets()I", cancellable = true)
-    private void getFreeTickets_143952659(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(143952659L))
             info.setReturnValue(null);
     }
 

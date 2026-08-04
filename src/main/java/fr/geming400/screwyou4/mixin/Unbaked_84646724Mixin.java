@@ -37,6 +37,12 @@ public class Unbaked_84646724Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "resolveDependencies(Lnet/minecraft/client/resources/model/ResolvableModel$Resolver;)V", cancellable = true)
+    private void resolveDependencies_34852793(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(34852793L))
+            info.cancel();
+    }
+
     @Inject(at = @At("HEAD"), method = "models()Ljava/util/List;", cancellable = true)
     private void models_1710983539(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1710983539L))
@@ -47,12 +53,6 @@ public class Unbaked_84646724Mixin {
     private void bake_1518241624(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1518241624L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "resolveDependencies(Lnet/minecraft/client/resources/model/ResolvableModel$Resolver;)V", cancellable = true)
-    private void resolveDependencies_34852793(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(34852793L))
-            info.cancel();
     }
 
 

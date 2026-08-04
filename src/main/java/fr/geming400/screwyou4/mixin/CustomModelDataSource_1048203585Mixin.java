@@ -37,15 +37,15 @@ public class CustomModelDataSource_1048203585Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "calculate(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/client/multiplayer/ClientLevel;Lnet/minecraft/world/entity/LivingEntity;)I", cancellable = true)
-    private void calculate_391890358(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(391890358L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "defaultColor()I", cancellable = true)
     private void defaultColor_1086465830(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1086465830L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "calculate(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/client/multiplayer/ClientLevel;Lnet/minecraft/world/entity/LivingEntity;)I", cancellable = true)
+    private void calculate_391890358(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(391890358L))
             info.setReturnValue(null);
     }
 

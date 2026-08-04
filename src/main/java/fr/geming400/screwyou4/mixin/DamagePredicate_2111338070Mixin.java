@@ -31,12 +31,6 @@ public class DamagePredicate_2111338070Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "damage()Lnet/minecraft/advancements/predicates/MinMaxBounds$Ints;", cancellable = true)
-    private void damage_1960103011(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1960103011L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "durability(Lnet/minecraft/advancements/predicates/MinMaxBounds$Ints;)Lnet/minecraft/core/component/predicates/DamagePredicate;", cancellable = true)
     private static void durability__506889521(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-506889521L))
@@ -45,6 +39,12 @@ public class DamagePredicate_2111338070Mixin {
 
     @Inject(at = @At("HEAD"), method = "durability()Lnet/minecraft/advancements/predicates/MinMaxBounds$Ints;", cancellable = true)
     private void durability_1960103011(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1960103011L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "damage()Lnet/minecraft/advancements/predicates/MinMaxBounds$Ints;", cancellable = true)
+    private void damage_1960103011(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1960103011L))
             info.setReturnValue(null);
     }

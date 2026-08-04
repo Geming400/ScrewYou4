@@ -43,15 +43,15 @@ public class Wrench_1702033670Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "torque()D", cancellable = true)
-    private void torque_1740291110(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1740291110L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "torqueFromForce(Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/world/phys/Vec3;)D", cancellable = true)
     private static void torqueFromForce__1055392866(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1055392866L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "torque()D", cancellable = true)
+    private void torque_1740291110(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1740291110L))
             info.setReturnValue(null);
     }
 

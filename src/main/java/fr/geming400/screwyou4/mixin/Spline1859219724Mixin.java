@@ -37,18 +37,6 @@ public class Spline1859219724Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "fillArray([DLnet/minecraft/world/level/levelgen/DensityFunction$ContextProvider;)V", cancellable = true)
-    private void fillArray__1871354366(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1871354366L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "mapChildren(Lnet/minecraft/world/level/levelgen/DensityFunction$Visitor;)Lnet/minecraft/world/level/levelgen/DensityFunction;", cancellable = true)
-    private void mapChildren__264545739(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-264545739L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "minValue()D", cancellable = true)
     private void minValue_1897477165(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1897477165L))
@@ -65,6 +53,18 @@ public class Spline1859219724Mixin {
     private void spline__1721344808(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1721344808L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "mapChildren(Lnet/minecraft/world/level/levelgen/DensityFunction$Visitor;)Lnet/minecraft/world/level/levelgen/DensityFunction;", cancellable = true)
+    private void mapChildren__264545739(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-264545739L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "fillArray([DLnet/minecraft/world/level/levelgen/DensityFunction$ContextProvider;)V", cancellable = true)
+    private void fillArray__1871354366(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1871354366L))
+            info.cancel();
     }
 
 

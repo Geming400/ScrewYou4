@@ -7,7 +7,13 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.world.level.biome.OverworldBiomeBuilder.class)
 public class OverworldBiomeBuilder2137693275Mixin {
-        @Inject(at = @At("HEAD"), method = "spawnTarget()Ljava/util/List;", cancellable = true)
+        @Inject(at = @At("HEAD"), method = "getDebugStringForHumidity(D)Ljava/lang/String;", cancellable = true)
+    private void getDebugStringForHumidity__1977796752(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1977796752L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "spawnTarget()Ljava/util/List;", cancellable = true)
     private void spawnTarget__530937205(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-530937205L))
             info.setReturnValue(null);
@@ -19,15 +25,15 @@ public class OverworldBiomeBuilder2137693275Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getDebugStringForHumidity(D)Ljava/lang/String;", cancellable = true)
-    private void getDebugStringForHumidity__1977796752(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1977796752L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "isDeepDarkRegion(Lnet/minecraft/world/level/levelgen/DensityFunction;Lnet/minecraft/world/level/levelgen/DensityFunction;Lnet/minecraft/world/level/levelgen/DensityFunction$FunctionContext;)Z", cancellable = true)
     private static void isDeepDarkRegion__50573991(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-50573991L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getWeirdnessThresholds()[Lnet/minecraft/world/level/biome/Climate$Parameter;", cancellable = true)
+    private void getWeirdnessThresholds__748543321(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-748543321L))
             info.setReturnValue(null);
     }
 
@@ -49,15 +55,9 @@ public class OverworldBiomeBuilder2137693275Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getWeirdnessThresholds()[Lnet/minecraft/world/level/biome/Climate$Parameter;", cancellable = true)
-    private void getWeirdnessThresholds__748543321(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "getContinentalnessThresholds()[Lnet/minecraft/world/level/biome/Climate$Parameter;", cancellable = true)
+    private void getContinentalnessThresholds__748543321(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-748543321L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getDebugStringForContinentalness(D)Ljava/lang/String;", cancellable = true)
-    private void getDebugStringForContinentalness__1977796752(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1977796752L))
             info.setReturnValue(null);
     }
 
@@ -67,21 +67,21 @@ public class OverworldBiomeBuilder2137693275Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getDebugStringForPeaksAndValleys(D)Ljava/lang/String;", cancellable = true)
-    private static void getDebugStringForPeaksAndValleys__1977796504(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1977796504L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getPeaksAndValleysThresholds()[Lnet/minecraft/world/level/biome/Climate$Parameter;", cancellable = true)
     private void getPeaksAndValleysThresholds__748543321(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-748543321L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getContinentalnessThresholds()[Lnet/minecraft/world/level/biome/Climate$Parameter;", cancellable = true)
-    private void getContinentalnessThresholds__748543321(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-748543321L))
+    @Inject(at = @At("HEAD"), method = "getDebugStringForPeaksAndValleys(D)Ljava/lang/String;", cancellable = true)
+    private static void getDebugStringForPeaksAndValleys__1977796504(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1977796504L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getDebugStringForContinentalness(D)Ljava/lang/String;", cancellable = true)
+    private void getDebugStringForContinentalness__1977796752(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1977796752L))
             info.setReturnValue(null);
     }
 

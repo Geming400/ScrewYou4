@@ -13,9 +13,9 @@ public class LecternBlockEntity_1041485233Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getBook()Lnet/minecraft/world/item/ItemStack;", cancellable = true)
-    private void getBook_1564903892(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1564903892L))
+    @Inject(at = @At("HEAD"), method = "hasBook()Z", cancellable = true)
+    private void hasBook_1079763815(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1079763815L))
             info.setReturnValue(null);
     }
 
@@ -25,9 +25,9 @@ public class LecternBlockEntity_1041485233Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "hasBook()Z", cancellable = true)
-    private void hasBook_1079763815(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1079763815L))
+    @Inject(at = @At("HEAD"), method = "getBook()Lnet/minecraft/world/item/ItemStack;", cancellable = true)
+    private void getBook_1564903892(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1564903892L))
             info.setReturnValue(null);
     }
 
@@ -35,18 +35,6 @@ public class LecternBlockEntity_1041485233Mixin {
     private void createMenu__943886134(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-943886134L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getRedstoneSignal()I", cancellable = true)
-    private void getRedstoneSignal_1079747478(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1079747478L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "clearContent()V", cancellable = true)
-    private void clearContent_1079759971(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1079759971L))
-            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "setBook(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/player/Player;)V", cancellable = true)
@@ -61,9 +49,21 @@ public class LecternBlockEntity_1041485233Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "getRedstoneSignal()I", cancellable = true)
+    private void getRedstoneSignal_1079747478(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1079747478L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "preRemoveSideEffects(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)V", cancellable = true)
     private void preRemoveSideEffects__1477224346(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1477224346L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "clearContent()V", cancellable = true)
+    private void clearContent_1079759971(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1079759971L))
             info.cancel();
     }
 

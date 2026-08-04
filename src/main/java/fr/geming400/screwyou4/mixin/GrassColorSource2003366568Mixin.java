@@ -31,8 +31,8 @@ public class GrassColorSource2003366568Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "downfall()F", cancellable = true)
-    private void downfall_2041625931(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "temperature()F", cancellable = true)
+    private void temperature_2041625931(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2041625931L))
             info.setReturnValue(null);
     }
@@ -43,8 +43,8 @@ public class GrassColorSource2003366568Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "temperature()F", cancellable = true)
-    private void temperature_2041625931(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "downfall()F", cancellable = true)
+    private void downfall_2041625931(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2041625931L))
             info.setReturnValue(null);
     }

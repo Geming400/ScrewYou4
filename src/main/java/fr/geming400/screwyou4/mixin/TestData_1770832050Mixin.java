@@ -73,12 +73,6 @@ public class TestData_1770832050Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "manualOnly()Z", cancellable = true)
-    private void manualOnly_1809110632(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1809110632L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "setupTicks()I", cancellable = true)
     private void setupTicks_1809094295(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1809094295L))
@@ -87,6 +81,12 @@ public class TestData_1770832050Mixin {
 
     @Inject(at = @At("HEAD"), method = "skyAccess()Z", cancellable = true)
     private void skyAccess_1809110632(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1809110632L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "manualOnly()Z", cancellable = true)
+    private void manualOnly_1809110632(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1809110632L))
             info.setReturnValue(null);
     }

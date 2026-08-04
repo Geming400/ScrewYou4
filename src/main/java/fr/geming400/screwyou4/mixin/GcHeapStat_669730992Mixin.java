@@ -43,15 +43,15 @@ public class GcHeapStat_669730992Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "timing()Lnet/minecraft/util/profiling/jfr/stats/GcHeapStat$Timing;", cancellable = true)
-    private void timing__1297729002(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1297729002L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "heapUsed()J", cancellable = true)
     private void heapUsed_707994198(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(707994198L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "timing()Lnet/minecraft/util/profiling/jfr/stats/GcHeapStat$Timing;", cancellable = true)
+    private void timing__1297729002(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1297729002L))
             info.setReturnValue(null);
     }
 

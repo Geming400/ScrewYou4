@@ -49,26 +49,26 @@ public class LocalCoordinates1553604656Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getRotation(Lnet/minecraft/commands/CommandSourceStack;)Lnet/minecraft/world/phys/Vec2;", cancellable = true)
-    private void getRotation__377718132(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-377718132L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "forwards()D", cancellable = true)
     private void forwards_1591862097(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1591862097L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "isXRelative()Z", cancellable = true)
-    private void isXRelative_1591883239(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1591883239L))
+    @Inject(at = @At("HEAD"), method = "getRotation(Lnet/minecraft/commands/CommandSourceStack;)Lnet/minecraft/world/phys/Vec2;", cancellable = true)
+    private void getRotation__377718132(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-377718132L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "isYRelative()Z", cancellable = true)
     private void isYRelative_1591883239(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1591883239L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isXRelative()Z", cancellable = true)
+    private void isXRelative_1591883239(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1591883239L))
             info.setReturnValue(null);
     }

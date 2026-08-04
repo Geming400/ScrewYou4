@@ -7,15 +7,9 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.world.entity.monster.Witch.class)
 public class Witch_974358279Mixin {
-        @Inject(at = @At("HEAD"), method = "handleEntityEvent(B)V", cancellable = true)
-    private void handleEntityEvent__2113156693(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-2113156693L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "aiStep()V", cancellable = true)
-    private void aiStep_1012633017(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1012633017L))
+        @Inject(at = @At("HEAD"), method = "performRangedAttack(Lnet/minecraft/world/entity/LivingEntity;F)V", cancellable = true)
+    private void performRangedAttack__1914350849(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1914350849L))
             info.cancel();
     }
 
@@ -25,16 +19,16 @@ public class Witch_974358279Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "canBeLeader()Z", cancellable = true)
-    private void canBeLeader_1012636861(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1012636861L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "aiStep()V", cancellable = true)
+    private void aiStep_1012633017(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1012633017L))
+            info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getCelebrateSound()Lnet/minecraft/sounds/SoundEvent;", cancellable = true)
-    private void getCelebrateSound_2064571176(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2064571176L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "handleEntityEvent(B)V", cancellable = true)
+    private void handleEntityEvent__2113156693(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-2113156693L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "applyRaidBuffs(Lnet/minecraft/server/level/ServerLevel;IZ)V", cancellable = true)
@@ -43,8 +37,14 @@ public class Witch_974358279Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "isDrinkingPotion()Z", cancellable = true)
-    private void isDrinkingPotion_1012636861(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "getCelebrateSound()Lnet/minecraft/sounds/SoundEvent;", cancellable = true)
+    private void getCelebrateSound_2064571176(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2064571176L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "canBeLeader()Z", cancellable = true)
+    private void canBeLeader_1012636861(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1012636861L))
             info.setReturnValue(null);
     }
@@ -55,10 +55,10 @@ public class Witch_974358279Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "performRangedAttack(Lnet/minecraft/world/entity/LivingEntity;F)V", cancellable = true)
-    private void performRangedAttack__1914350849(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1914350849L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "isDrinkingPotion()Z", cancellable = true)
+    private void isDrinkingPotion_1012636861(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1012636861L))
+            info.setReturnValue(null);
     }
 
 

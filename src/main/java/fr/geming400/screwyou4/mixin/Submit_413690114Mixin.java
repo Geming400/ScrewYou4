@@ -25,15 +25,15 @@ public class Submit_413690114Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "particles()Lnet/minecraft/client/renderer/state/level/QuadParticleRenderState;", cancellable = true)
-    private void particles__547334820(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-547334820L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "translucent()Z", cancellable = true)
     private void translucent_451968696(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(451968696L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "particles()Lnet/minecraft/client/renderer/state/level/QuadParticleRenderState;", cancellable = true)
+    private void particles__547334820(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-547334820L))
             info.setReturnValue(null);
     }
 

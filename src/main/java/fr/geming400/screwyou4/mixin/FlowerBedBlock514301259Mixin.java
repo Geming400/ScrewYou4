@@ -31,15 +31,21 @@ public class FlowerBedBlock514301259Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "canBeReplaced(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/item/context/BlockPlaceContext;)Z", cancellable = true)
-    private void canBeReplaced__231902058(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-231902058L))
+    @Inject(at = @At("HEAD"), method = "getShapeHeight()D", cancellable = true)
+    private void getShapeHeight_552558700(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(552558700L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getSegmentAmountProperty()Lnet/minecraft/world/level/block/state/properties/IntegerProperty;", cancellable = true)
     private void getSegmentAmountProperty_1220004422(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1220004422L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "canBeReplaced(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/item/context/BlockPlaceContext;)Z", cancellable = true)
+    private void canBeReplaced__231902058(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-231902058L))
             info.setReturnValue(null);
     }
 
@@ -64,12 +70,6 @@ public class FlowerBedBlock514301259Mixin {
     @Inject(at = @At("HEAD"), method = "isBonemealSuccess(Lnet/minecraft/world/level/Level;Lnet/minecraft/util/RandomSource;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Z", cancellable = true)
     private void isBonemealSuccess__1458611884(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1458611884L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getShapeHeight()D", cancellable = true)
-    private void getShapeHeight_552558700(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(552558700L))
             info.setReturnValue(null);
     }
 

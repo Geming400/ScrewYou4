@@ -19,16 +19,28 @@ public class TestInstanceRenderer_1242357012Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/blockentity/state/BlockEntityRenderState;", cancellable = true)
-    private void createRenderState__1918637859(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1918637859L))
+    @Inject(at = @At("HEAD"), method = "getViewDistance()I", cancellable = true)
+    private void getViewDistance_1280619257(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1280619257L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/blockentity/state/TestInstanceRenderState;", cancellable = true)
-    private void createRenderState_1333997980(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1333997980L))
+    @Inject(at = @At("HEAD"), method = "shouldRenderOffScreen()Z", cancellable = true)
+    private void shouldRenderOffScreen_1280635594(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1280635594L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/level/block/entity/BlockEntity;Lnet/minecraft/client/renderer/blockentity/state/BlockEntityRenderState;FLnet/minecraft/world/phys/Vec3;Lnet/minecraft/client/renderer/feature/ModelFeatureRenderer$CrumblingOverlay;)V", cancellable = true)
+    private void extractRenderState__2035521423(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-2035521423L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/level/block/entity/TestInstanceBlockEntity;Lnet/minecraft/client/renderer/blockentity/state/TestInstanceRenderState;FLnet/minecraft/world/phys/Vec3;Lnet/minecraft/client/renderer/feature/ModelFeatureRenderer$CrumblingOverlay;)V", cancellable = true)
+    private void extractRenderState_1705691873(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1705691873L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "shouldRender(Lnet/minecraft/world/level/block/entity/BlockEntity;Lnet/minecraft/world/phys/Vec3;)Z", cancellable = true)
@@ -43,27 +55,15 @@ public class TestInstanceRenderer_1242357012Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/level/block/entity/TestInstanceBlockEntity;Lnet/minecraft/client/renderer/blockentity/state/TestInstanceRenderState;FLnet/minecraft/world/phys/Vec3;Lnet/minecraft/client/renderer/feature/ModelFeatureRenderer$CrumblingOverlay;)V", cancellable = true)
-    private void extractRenderState_1705691873(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1705691873L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/level/block/entity/BlockEntity;Lnet/minecraft/client/renderer/blockentity/state/BlockEntityRenderState;FLnet/minecraft/world/phys/Vec3;Lnet/minecraft/client/renderer/feature/ModelFeatureRenderer$CrumblingOverlay;)V", cancellable = true)
-    private void extractRenderState__2035521423(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-2035521423L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "shouldRenderOffScreen()Z", cancellable = true)
-    private void shouldRenderOffScreen_1280635594(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1280635594L))
+    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/blockentity/state/TestInstanceRenderState;", cancellable = true)
+    private void createRenderState_1333997980(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1333997980L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getViewDistance()I", cancellable = true)
-    private void getViewDistance_1280619257(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1280619257L))
+    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/blockentity/state/BlockEntityRenderState;", cancellable = true)
+    private void createRenderState__1918637859(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1918637859L))
             info.setReturnValue(null);
     }
 

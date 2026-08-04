@@ -43,15 +43,15 @@ public class WeatherCheck1138748548Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "isThundering()Ljava/util/Optional;", cancellable = true)
-    private void isThundering_1384209970(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1384209970L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "weather()Lnet/minecraft/world/level/storage/loot/predicates/WeatherCheck$Builder;", cancellable = true)
     private static void weather_817181251(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(817181251L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isThundering()Ljava/util/Optional;", cancellable = true)
+    private void isThundering_1384209970(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1384209970L))
             info.setReturnValue(null);
     }
 

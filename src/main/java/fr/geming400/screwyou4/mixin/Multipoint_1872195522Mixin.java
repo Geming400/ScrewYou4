@@ -55,27 +55,27 @@ public class Multipoint_1872195522Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "sample(Lnet/minecraft/util/CubicSpline$Multipoint;Ljava/lang/Object;)F", cancellable = true)
-    private static void sample__1807777610(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1807777610L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "coordinate()Lnet/minecraft/util/BoundedFloatFunction;", cancellable = true)
     private void coordinate__1186052107(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1186052107L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "mapCoordinates(Ljava/util/function/UnaryOperator;)Lnet/minecraft/util/CubicSpline;", cancellable = true)
-    private void mapCoordinates__1170160934(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1170160934L))
+    @Inject(at = @At("HEAD"), method = "sample(Lnet/minecraft/util/CubicSpline$Multipoint;Ljava/lang/Object;)F", cancellable = true)
+    private static void sample__1807777610(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1807777610L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "parityString()Ljava/lang/String;", cancellable = true)
     private void parityString_736735050(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(736735050L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "mapCoordinates(Ljava/util/function/UnaryOperator;)Lnet/minecraft/util/CubicSpline;", cancellable = true)
+    private void mapCoordinates__1170160934(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1170160934L))
             info.setReturnValue(null);
     }
 

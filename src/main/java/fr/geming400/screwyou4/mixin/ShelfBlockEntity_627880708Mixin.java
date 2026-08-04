@@ -19,15 +19,9 @@ public class ShelfBlockEntity_627880708Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getVisualRotationYInDegrees()F", cancellable = true)
-    private void getVisualRotationYInDegrees_666140070(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(666140070L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "stillValid(Lnet/minecraft/world/entity/player/Player;)Z", cancellable = true)
-    private void stillValid_1568486197(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1568486197L))
+    @Inject(at = @At("HEAD"), method = "getAlignItemsToBottom()Z", cancellable = true)
+    private void getAlignItemsToBottom_666159290(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(666159290L))
             info.setReturnValue(null);
     }
 
@@ -37,10 +31,10 @@ public class ShelfBlockEntity_627880708Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "setChanged()V", cancellable = true)
-    private void setChanged_666155446(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(666155446L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "stillValid(Lnet/minecraft/world/entity/player/Player;)Z", cancellable = true)
+    private void stillValid_1568486197(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1568486197L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "setChanged(Lnet/minecraft/core/Holder$Reference;)V", cancellable = true)
@@ -49,15 +43,15 @@ public class ShelfBlockEntity_627880708Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getUpdateTag(Lnet/minecraft/core/HolderLookup$Provider;)Lnet/minecraft/nbt/CompoundTag;", cancellable = true)
-    private void getUpdateTag__538740841(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-538740841L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "setChanged()V", cancellable = true)
+    private void setChanged_666155446(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(666155446L))
+            info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getAlignItemsToBottom()Z", cancellable = true)
-    private void getAlignItemsToBottom_666159290(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(666159290L))
+    @Inject(at = @At("HEAD"), method = "getVisualRotationYInDegrees()F", cancellable = true)
+    private void getVisualRotationYInDegrees_666140070(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(666140070L))
             info.setReturnValue(null);
     }
 
@@ -67,15 +61,21 @@ public class ShelfBlockEntity_627880708Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getUpdatePacket()Lnet/minecraft/network/protocol/Packet;", cancellable = true)
-    private void getUpdatePacket__386672355(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-386672355L))
+    @Inject(at = @At("HEAD"), method = "getUpdateTag(Lnet/minecraft/core/HolderLookup$Provider;)Lnet/minecraft/nbt/CompoundTag;", cancellable = true)
+    private void getUpdateTag__538740841(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-538740841L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getUpdatePacket()Lnet/minecraft/network/protocol/game/ClientboundBlockEntityDataPacket;", cancellable = true)
     private void getUpdatePacket__368971065(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-368971065L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getUpdatePacket()Lnet/minecraft/network/protocol/Packet;", cancellable = true)
+    private void getUpdatePacket__386672355(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-386672355L))
             info.setReturnValue(null);
     }
 

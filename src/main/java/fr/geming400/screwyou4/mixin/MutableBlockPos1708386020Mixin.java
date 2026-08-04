@@ -145,21 +145,15 @@ public class MutableBlockPos1708386020Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "setWithOffset(Lnet/minecraft/core/Vec3i;Lnet/minecraft/core/Direction;)Lnet/minecraft/core/BlockPos$MutableBlockPos;", cancellable = true)
-    private void setWithOffset_1494802121(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1494802121L))
+    @Inject(at = @At("HEAD"), method = "setX(I)Lnet/minecraft/core/BlockPos$MutableBlockPos;", cancellable = true)
+    private void setX_1510622133(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1510622133L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "setWithOffset(Lnet/minecraft/core/Vec3i;III)Lnet/minecraft/core/BlockPos$MutableBlockPos;", cancellable = true)
-    private void setWithOffset_723096372(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(723096372L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "setWithOffset(Lnet/minecraft/core/Vec3i;Lnet/minecraft/core/Vec3i;)Lnet/minecraft/core/BlockPos$MutableBlockPos;", cancellable = true)
-    private void setWithOffset_821000446(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(821000446L))
+    @Inject(at = @At("HEAD"), method = "setX(I)Lnet/minecraft/core/Vec3i;", cancellable = true)
+    private void setX__1450322997(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1450322997L))
             info.setReturnValue(null);
     }
 
@@ -187,14 +181,8 @@ public class MutableBlockPos1708386020Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "setX(I)Lnet/minecraft/core/BlockPos$MutableBlockPos;", cancellable = true)
-    private void setX_1510622133(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1510622133L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "setX(I)Lnet/minecraft/core/Vec3i;", cancellable = true)
-    private void setX__1450322997(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "north(I)Lnet/minecraft/core/Vec3i;", cancellable = true)
+    private void north__1450322997(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1450322997L))
             info.setReturnValue(null);
     }
@@ -205,21 +193,9 @@ public class MutableBlockPos1708386020Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "north(I)Lnet/minecraft/core/Vec3i;", cancellable = true)
-    private void north__1450322997(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "west(I)Lnet/minecraft/core/Vec3i;", cancellable = true)
+    private void west__1450322997(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1450322997L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "south(I)Lnet/minecraft/core/Vec3i;", cancellable = true)
-    private void south__1450322997(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1450322997L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "south()Lnet/minecraft/core/Vec3i;", cancellable = true)
-    private void south_1324116516(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1324116516L))
             info.setReturnValue(null);
     }
 
@@ -229,8 +205,14 @@ public class MutableBlockPos1708386020Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "west(I)Lnet/minecraft/core/Vec3i;", cancellable = true)
-    private void west__1450322997(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "south()Lnet/minecraft/core/Vec3i;", cancellable = true)
+    private void south_1324116516(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1324116516L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "south(I)Lnet/minecraft/core/Vec3i;", cancellable = true)
+    private void south__1450322997(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1450322997L))
             info.setReturnValue(null);
     }
@@ -253,9 +235,21 @@ public class MutableBlockPos1708386020Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "below(I)Lnet/minecraft/core/Vec3i;", cancellable = true)
-    private void below__1450322997(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1450322997L))
+    @Inject(at = @At("HEAD"), method = "setWithOffset(Lnet/minecraft/core/Vec3i;III)Lnet/minecraft/core/BlockPos$MutableBlockPos;", cancellable = true)
+    private void setWithOffset_723096372(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(723096372L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "setWithOffset(Lnet/minecraft/core/Vec3i;Lnet/minecraft/core/Direction;)Lnet/minecraft/core/BlockPos$MutableBlockPos;", cancellable = true)
+    private void setWithOffset_1494802121(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1494802121L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "setWithOffset(Lnet/minecraft/core/Vec3i;Lnet/minecraft/core/Vec3i;)Lnet/minecraft/core/BlockPos$MutableBlockPos;", cancellable = true)
+    private void setWithOffset_821000446(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(821000446L))
             info.setReturnValue(null);
     }
 
@@ -265,8 +259,8 @@ public class MutableBlockPos1708386020Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "above(I)Lnet/minecraft/core/Vec3i;", cancellable = true)
-    private void above__1450322997(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "below(I)Lnet/minecraft/core/Vec3i;", cancellable = true)
+    private void below__1450322997(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1450322997L))
             info.setReturnValue(null);
     }
@@ -274,6 +268,12 @@ public class MutableBlockPos1708386020Mixin {
     @Inject(at = @At("HEAD"), method = "above()Lnet/minecraft/core/Vec3i;", cancellable = true)
     private void above_1324116516(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1324116516L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "above(I)Lnet/minecraft/core/Vec3i;", cancellable = true)
+    private void above__1450322997(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1450322997L))
             info.setReturnValue(null);
     }
 

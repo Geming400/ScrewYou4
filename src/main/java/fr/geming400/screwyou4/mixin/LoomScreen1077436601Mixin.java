@@ -13,27 +13,27 @@ public class LoomScreen1077436601Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "mouseReleased(Lnet/minecraft/client/input/MouseButtonEvent;)Z", cancellable = true)
-    private void mouseReleased_1301058895(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1301058895L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "mouseScrolled(DDDD)Z", cancellable = true)
     private void mouseScrolled__2017619088(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2017619088L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "mouseClicked(Lnet/minecraft/client/input/MouseButtonEvent;Z)Z", cancellable = true)
-    private void mouseClicked__537222277(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-537222277L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "mouseDragged(Lnet/minecraft/client/input/MouseButtonEvent;DD)Z", cancellable = true)
     private void mouseDragged_1955444751(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1955444751L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "mouseReleased(Lnet/minecraft/client/input/MouseButtonEvent;)Z", cancellable = true)
+    private void mouseReleased_1301058895(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1301058895L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "mouseClicked(Lnet/minecraft/client/input/MouseButtonEvent;Z)Z", cancellable = true)
+    private void mouseClicked__537222277(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-537222277L))
             info.setReturnValue(null);
     }
 

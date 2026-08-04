@@ -49,15 +49,15 @@ public class MouseButtonEvent446433199Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "button()I", cancellable = true)
-    private void button_484695445(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(484695445L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "buttonInfo()Lnet/minecraft/client/input/MouseButtonInfo;", cancellable = true)
     private void buttonInfo__371708307(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-371708307L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "button()I", cancellable = true)
+    private void button_484695445(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(484695445L))
             info.setReturnValue(null);
     }
 

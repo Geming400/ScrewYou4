@@ -31,12 +31,6 @@ public class ManagementServer_1411902644Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "scheduleHeartbeat(Lnet/minecraft/server/notifications/NotificationManager;J)Z", cancellable = true)
-    private void scheduleHeartbeat_1799317400(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1799317400L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "onConnected(Lnet/minecraft/server/jsonrpc/Connection;)V", cancellable = true)
     private void onConnected__1351638827(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1351638827L))
@@ -53,6 +47,12 @@ public class ManagementServer_1411902644Mixin {
     private void startWithTls_973827150(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(973827150L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "scheduleHeartbeat(Lnet/minecraft/server/notifications/NotificationManager;J)Z", cancellable = true)
+    private void scheduleHeartbeat_1799317400(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1799317400L))
+            info.setReturnValue(null);
     }
 
 

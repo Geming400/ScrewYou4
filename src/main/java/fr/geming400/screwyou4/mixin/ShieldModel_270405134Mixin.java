@@ -13,15 +13,15 @@ public class ShieldModel_270405134Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "createLayer()Lnet/minecraft/client/model/geom/builders/LayerDefinition;", cancellable = true)
-    private static void createLayer__443727031(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-443727031L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "plate()Lnet/minecraft/client/model/geom/ModelPart;", cancellable = true)
     private void plate_1795628018(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1795628018L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "createLayer()Lnet/minecraft/client/model/geom/builders/LayerDefinition;", cancellable = true)
+    private static void createLayer__443727031(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-443727031L))
             info.setReturnValue(null);
     }
 

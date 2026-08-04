@@ -25,15 +25,15 @@ public class ExplosionCondition_1657856314Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "survivesExplosion()Lnet/minecraft/world/level/storage/loot/predicates/LootItemCondition$Builder;", cancellable = true)
-    private static void survivesExplosion__723748582(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-723748582L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getReferencedContextParams()Ljava/util/Set;", cancellable = true)
     private void getReferencedContextParams__171179173(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-171179173L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "survivesExplosion()Lnet/minecraft/world/level/storage/loot/predicates/LootItemCondition$Builder;", cancellable = true)
+    private static void survivesExplosion__723748582(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-723748582L))
             info.setReturnValue(null);
     }
 

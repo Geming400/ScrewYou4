@@ -55,15 +55,15 @@ public class SavedTick_1090750426Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "codec(Lcom/mojang/serialization/Codec;)Lcom/mojang/serialization/Codec;", cancellable = true)
-    private static void codec_1574428400(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1574428400L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "unpack(JJ)Lnet/minecraft/world/ticks/ScheduledTick;", cancellable = true)
     private void unpack__50003427(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-50003427L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "codec(Lcom/mojang/serialization/Codec;)Lcom/mojang/serialization/Codec;", cancellable = true)
+    private static void codec_1574428400(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1574428400L))
             info.setReturnValue(null);
     }
 

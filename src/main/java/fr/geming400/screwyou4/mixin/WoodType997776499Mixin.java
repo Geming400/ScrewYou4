@@ -55,14 +55,14 @@ public class WoodType997776499Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "fenceGateOpen()Lnet/minecraft/sounds/SoundEvent;", cancellable = true)
-    private void fenceGateOpen_2087989397(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "fenceGateClose()Lnet/minecraft/sounds/SoundEvent;", cancellable = true)
+    private void fenceGateClose_2087989397(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2087989397L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "fenceGateClose()Lnet/minecraft/sounds/SoundEvent;", cancellable = true)
-    private void fenceGateClose_2087989397(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "fenceGateOpen()Lnet/minecraft/sounds/SoundEvent;", cancellable = true)
+    private void fenceGateOpen_2087989397(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2087989397L))
             info.setReturnValue(null);
     }

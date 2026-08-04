@@ -37,15 +37,9 @@ public class PlacementUtils558471276Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "inlinePlaced(Lnet/minecraft/world/level/levelgen/feature/Feature;Lnet/minecraft/world/level/levelgen/feature/configurations/FeatureConfiguration;[Lnet/minecraft/world/level/levelgen/placement/PlacementModifier;)Lnet/minecraft/core/Holder;", cancellable = true)
-    private static void inlinePlaced_496837785(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(496837785L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "inlinePlaced(Lnet/minecraft/core/Holder;[Lnet/minecraft/world/level/levelgen/placement/PlacementModifier;)Lnet/minecraft/core/Holder;", cancellable = true)
-    private static void inlinePlaced__92631968(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-92631968L))
+    @Inject(at = @At("HEAD"), method = "createKey(Ljava/lang/String;)Lnet/minecraft/resources/ResourceKey;", cancellable = true)
+    private static void createKey__1244524129(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1244524129L))
             info.setReturnValue(null);
     }
 
@@ -61,15 +55,21 @@ public class PlacementUtils558471276Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "countExtra(IFI)Lnet/minecraft/world/level/levelgen/placement/PlacementModifier;", cancellable = true)
-    private static void countExtra__1934162293(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1934162293L))
+    @Inject(at = @At("HEAD"), method = "inlinePlaced(Lnet/minecraft/world/level/levelgen/feature/Feature;Lnet/minecraft/world/level/levelgen/feature/configurations/FeatureConfiguration;[Lnet/minecraft/world/level/levelgen/placement/PlacementModifier;)Lnet/minecraft/core/Holder;", cancellable = true)
+    private static void inlinePlaced_496837785(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(496837785L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "createKey(Ljava/lang/String;)Lnet/minecraft/resources/ResourceKey;", cancellable = true)
-    private static void createKey__1244524129(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1244524129L))
+    @Inject(at = @At("HEAD"), method = "inlinePlaced(Lnet/minecraft/core/Holder;[Lnet/minecraft/world/level/levelgen/placement/PlacementModifier;)Lnet/minecraft/core/Holder;", cancellable = true)
+    private static void inlinePlaced__92631968(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-92631968L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "countExtra(IFI)Lnet/minecraft/world/level/levelgen/placement/PlacementModifier;", cancellable = true)
+    private static void countExtra__1934162293(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1934162293L))
             info.setReturnValue(null);
     }
 

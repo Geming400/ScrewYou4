@@ -55,8 +55,20 @@ public class Packed481241096Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "darkenScreen()Z", cancellable = true)
-    private void darkenScreen_519519679(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "overlay()Lnet/minecraft/world/BossEvent$BossBarOverlay;", cancellable = true)
+    private void overlay__1253035356(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1253035356L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "players()Ljava/util/Set;", cancellable = true)
+    private void players__1347794390(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1347794390L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "playBossMusic()Z", cancellable = true)
+    private void playBossMusic_519519679(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(519519679L))
             info.setReturnValue(null);
     }
@@ -67,21 +79,9 @@ public class Packed481241096Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "playBossMusic()Z", cancellable = true)
-    private void playBossMusic_519519679(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "darkenScreen()Z", cancellable = true)
+    private void darkenScreen_519519679(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(519519679L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "players()Ljava/util/Set;", cancellable = true)
-    private void players__1347794390(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1347794390L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "overlay()Lnet/minecraft/world/BossEvent$BossBarOverlay;", cancellable = true)
-    private void overlay__1253035356(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1253035356L))
             info.setReturnValue(null);
     }
 

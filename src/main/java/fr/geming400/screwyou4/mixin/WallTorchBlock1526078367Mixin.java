@@ -13,12 +13,6 @@ public class WallTorchBlock1526078367Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "animateTick(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)V", cancellable = true)
-    private void animateTick_1403476286(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1403476286L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
     private void codec__1033035205(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1033035205L))
@@ -29,6 +23,12 @@ public class WallTorchBlock1526078367Mixin {
     private static void canSurvive_682682818(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(682682818L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "animateTick(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)V", cancellable = true)
+    private void animateTick_1403476286(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1403476286L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)

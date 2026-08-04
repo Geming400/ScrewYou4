@@ -31,15 +31,33 @@ public class Sound_1661152415Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getPitch()Lnet/minecraft/util/valueproviders/SampledFloat;", cancellable = true)
-    private void getPitch_421824581(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(421824581L))
+    @Inject(at = @At("HEAD"), method = "getWeight()I", cancellable = true)
+    private void getWeight_1699414660(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1699414660L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getVolume()Lnet/minecraft/util/valueproviders/SampledFloat;", cancellable = true)
-    private void getVolume_421824581(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(421824581L))
+    @Inject(at = @At("HEAD"), method = "preloadIfRequired(Lnet/minecraft/client/sounds/SoundEngine;)V", cancellable = true)
+    private void preloadIfRequired_1617608594(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1617608594L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "shouldPreload()Z", cancellable = true)
+    private void shouldPreload_1699430997(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1699430997L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getAttenuationDistance()I", cancellable = true)
+    private void getAttenuationDistance_1699414660(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1699414660L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "shouldStream()Z", cancellable = true)
+    private void shouldStream_1699430997(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1699430997L))
             info.setReturnValue(null);
     }
 
@@ -55,33 +73,15 @@ public class Sound_1661152415Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "shouldStream()Z", cancellable = true)
-    private void shouldStream_1699430997(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1699430997L))
+    @Inject(at = @At("HEAD"), method = "getVolume()Lnet/minecraft/util/valueproviders/SampledFloat;", cancellable = true)
+    private void getVolume_421824581(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(421824581L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "shouldPreload()Z", cancellable = true)
-    private void shouldPreload_1699430997(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1699430997L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "preloadIfRequired(Lnet/minecraft/client/sounds/SoundEngine;)V", cancellable = true)
-    private void preloadIfRequired_1617608594(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1617608594L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "getAttenuationDistance()I", cancellable = true)
-    private void getAttenuationDistance_1699414660(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1699414660L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getWeight()I", cancellable = true)
-    private void getWeight_1699414660(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1699414660L))
+    @Inject(at = @At("HEAD"), method = "getPitch()Lnet/minecraft/util/valueproviders/SampledFloat;", cancellable = true)
+    private void getPitch_421824581(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(421824581L))
             info.setReturnValue(null);
     }
 

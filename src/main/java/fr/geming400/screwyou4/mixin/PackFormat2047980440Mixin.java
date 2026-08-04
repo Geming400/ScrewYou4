@@ -67,9 +67,9 @@ public class PackFormat2047980440Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "packCodec(Lnet/minecraft/server/packs/PackType;)Lcom/mojang/serialization/MapCodec;", cancellable = true)
-    private static void packCodec__662692317(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-662692317L))
+    @Inject(at = @At("HEAD"), method = "lastPreMinorVersion(Lnet/minecraft/server/packs/PackType;)I", cancellable = true)
+    private static void lastPreMinorVersion__655107283(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-655107283L))
             info.setReturnValue(null);
     }
 
@@ -79,9 +79,9 @@ public class PackFormat2047980440Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "lastPreMinorVersion(Lnet/minecraft/server/packs/PackType;)I", cancellable = true)
-    private static void lastPreMinorVersion__655107283(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-655107283L))
+    @Inject(at = @At("HEAD"), method = "packCodec(Lnet/minecraft/server/packs/PackType;)Lcom/mojang/serialization/MapCodec;", cancellable = true)
+    private static void packCodec__662692317(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-662692317L))
             info.setReturnValue(null);
     }
 

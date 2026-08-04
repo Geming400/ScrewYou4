@@ -49,9 +49,15 @@ public class ExplodeEffect1104060276Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "createFire()Z", cancellable = true)
-    private void createFire_1142338859(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1142338859L))
+    @Inject(at = @At("HEAD"), method = "blockParticles()Lnet/minecraft/util/random/WeightedList;", cancellable = true)
+    private void blockParticles_597576410(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(597576410L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "blockInteraction()Lnet/minecraft/world/level/Level$ExplosionInteraction;", cancellable = true)
+    private void blockInteraction__509820727(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-509820727L))
             info.setReturnValue(null);
     }
 
@@ -67,27 +73,9 @@ public class ExplodeEffect1104060276Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "blockParticles()Lnet/minecraft/util/random/WeightedList;", cancellable = true)
-    private void blockParticles_597576410(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(597576410L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "blockInteraction()Lnet/minecraft/world/level/Level$ExplosionInteraction;", cancellable = true)
-    private void blockInteraction__509820727(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-509820727L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "smallParticle()Lnet/minecraft/core/particles/ParticleOptions;", cancellable = true)
-    private void smallParticle__964900792(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-964900792L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "largeParticle()Lnet/minecraft/core/particles/ParticleOptions;", cancellable = true)
-    private void largeParticle__964900792(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-964900792L))
+    @Inject(at = @At("HEAD"), method = "createFire()Z", cancellable = true)
+    private void createFire_1142338859(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1142338859L))
             info.setReturnValue(null);
     }
 
@@ -97,15 +85,27 @@ public class ExplodeEffect1104060276Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "attributeToUser()Z", cancellable = true)
-    private void attributeToUser_1142338859(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1142338859L))
+    @Inject(at = @At("HEAD"), method = "smallParticle()Lnet/minecraft/core/particles/ParticleOptions;", cancellable = true)
+    private void smallParticle__964900792(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-964900792L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "immuneBlocks()Ljava/util/Optional;", cancellable = true)
     private void immuneBlocks_1349521698(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1349521698L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "largeParticle()Lnet/minecraft/core/particles/ParticleOptions;", cancellable = true)
+    private void largeParticle__964900792(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-964900792L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "attributeToUser()Z", cancellable = true)
+    private void attributeToUser_1142338859(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1142338859L))
             info.setReturnValue(null);
     }
 

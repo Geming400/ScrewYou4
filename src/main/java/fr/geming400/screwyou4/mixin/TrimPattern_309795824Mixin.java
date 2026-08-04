@@ -31,15 +31,15 @@ public class TrimPattern_309795824Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "assetId()Lnet/minecraft/resources/Identifier;", cancellable = true)
-    private void assetId__2133270730(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2133270730L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "decal()Z", cancellable = true)
     private void decal_348074406(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(348074406L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "assetId()Lnet/minecraft/resources/Identifier;", cancellable = true)
+    private void assetId__2133270730(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2133270730L))
             info.setReturnValue(null);
     }
 

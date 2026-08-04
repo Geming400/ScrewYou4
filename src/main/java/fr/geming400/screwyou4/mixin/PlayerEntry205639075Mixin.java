@@ -13,9 +13,9 @@ public class PlayerEntry205639075Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getPlayerId()Ljava/util/UUID;", cancellable = true)
-    private void getPlayerId_616773558(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(616773558L))
+    @Inject(at = @At("HEAD"), method = "isChatReportable()Z", cancellable = true)
+    private void isChatReportable_243917658(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(243917658L))
             info.setReturnValue(null);
     }
 
@@ -25,21 +25,21 @@ public class PlayerEntry205639075Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getPlayerName()Ljava/lang/String;", cancellable = true)
-    private void getPlayerName__929821396(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-929821396L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "hasRecentMessages()Z", cancellable = true)
     private void hasRecentMessages_243917658(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(243917658L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "isChatReportable()Z", cancellable = true)
-    private void isChatReportable_243917658(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(243917658L))
+    @Inject(at = @At("HEAD"), method = "getPlayerId()Ljava/util/UUID;", cancellable = true)
+    private void getPlayerId_616773558(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(616773558L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getPlayerName()Ljava/lang/String;", cancellable = true)
+    private void getPlayerName__929821396(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-929821396L))
             info.setReturnValue(null);
     }
 
@@ -61,10 +61,10 @@ public class PlayerEntry205639075Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "narratables()Ljava/util/List;", cancellable = true)
-    private void narratables_1831975891(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1831975891L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "setRemoved(Z)V", cancellable = true)
+    private void setRemoved_1435255904(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1435255904L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "isRemoved()Z", cancellable = true)
@@ -73,10 +73,10 @@ public class PlayerEntry205639075Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "setRemoved(Z)V", cancellable = true)
-    private void setRemoved_1435255904(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1435255904L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "narratables()Ljava/util/List;", cancellable = true)
+    private void narratables_1831975891(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1831975891L))
+            info.setReturnValue(null);
     }
 
 

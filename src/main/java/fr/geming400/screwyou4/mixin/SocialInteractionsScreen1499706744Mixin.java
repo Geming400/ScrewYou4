@@ -31,21 +31,9 @@ public class SocialInteractionsScreen1499706744Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "extractBackground(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIF)V", cancellable = true)
-    private void extractBackground_540019372(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(540019372L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "getNarrationMessage()Lnet/minecraft/network/chat/Component;", cancellable = true)
-    private void getNarrationMessage__677202421(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-677202421L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isPauseScreen()Z", cancellable = true)
-    private void isPauseScreen_1537985327(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1537985327L))
+    @Inject(at = @At("HEAD"), method = "keyPressed(Lnet/minecraft/client/input/KeyEvent;)Z", cancellable = true)
+    private void keyPressed_583071030(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(583071030L))
             info.setReturnValue(null);
     }
 
@@ -55,9 +43,21 @@ public class SocialInteractionsScreen1499706744Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "keyPressed(Lnet/minecraft/client/input/KeyEvent;)Z", cancellable = true)
-    private void keyPressed_583071030(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(583071030L))
+    @Inject(at = @At("HEAD"), method = "isPauseScreen()Z", cancellable = true)
+    private void isPauseScreen_1537985327(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1537985327L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "extractBackground(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIF)V", cancellable = true)
+    private void extractBackground_540019372(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(540019372L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getNarrationMessage()Lnet/minecraft/network/chat/Component;", cancellable = true)
+    private void getNarrationMessage__677202421(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-677202421L))
             info.setReturnValue(null);
     }
 

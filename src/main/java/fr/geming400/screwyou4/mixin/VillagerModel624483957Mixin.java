@@ -25,18 +25,6 @@ public class VillagerModel624483957Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "setupAnim(Ljava/lang/Object;)V", cancellable = true)
-    private void setupAnim_2010120836(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(2010120836L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "setupAnim(Lnet/minecraft/client/renderer/entity/state/VillagerRenderState;)V", cancellable = true)
-    private void setupAnim__359359376(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-359359376L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "createBodyModel()Lnet/minecraft/client/model/geom/builders/MeshDefinition;", cancellable = true)
     private static void createBodyModel__2053784041(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2053784041L))
@@ -47,6 +35,18 @@ public class VillagerModel624483957Mixin {
     private static void createNoHatModel__2053784041(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2053784041L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "setupAnim(Ljava/lang/Object;)V", cancellable = true)
+    private void setupAnim_2010120836(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(2010120836L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "setupAnim(Lnet/minecraft/client/renderer/entity/state/VillagerRenderState;)V", cancellable = true)
+    private void setupAnim__359359376(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-359359376L))
+            info.cancel();
     }
 
 

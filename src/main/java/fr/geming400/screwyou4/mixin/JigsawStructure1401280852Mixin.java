@@ -13,15 +13,15 @@ public class JigsawStructure1401280852Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getPoolAliases()Ljava/util/List;", cancellable = true)
-    private void getPoolAliases__1267349628(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1267349628L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getStartPool()Lnet/minecraft/core/Holder;", cancellable = true)
     private void getStartPool__1344810672(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1344810672L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getPoolAliases()Ljava/util/List;", cancellable = true)
+    private void getPoolAliases__1267349628(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1267349628L))
             info.setReturnValue(null);
     }
 

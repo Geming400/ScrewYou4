@@ -31,30 +31,6 @@ public class UnitDouble_1408976615Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "toSliderValue(Ljava/lang/Double;)D", cancellable = true)
-    private void toSliderValue__1841044911(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1841044911L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "toSliderValue(Ljava/lang/Object;)D", cancellable = true)
-    private void toSliderValue__1500371101(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1500371101L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "fromSliderValue(D)Ljava/lang/Double;", cancellable = true)
-    private void fromSliderValue_971583035(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(971583035L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "fromSliderValue(D)Ljava/lang/Object;", cancellable = true)
-    private void fromSliderValue_288268237(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(288268237L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "xmap(Ljava/util/function/DoubleFunction;Ljava/util/function/ToDoubleFunction;)Lnet/minecraft/client/OptionInstance$SliderableValueSet;", cancellable = true)
     private void xmap__1120147335(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1120147335L))
@@ -64,6 +40,30 @@ public class UnitDouble_1408976615Mixin {
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/Codec;", cancellable = true)
     private void codec_1017010988(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1017010988L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "fromSliderValue(D)Ljava/lang/Object;", cancellable = true)
+    private void fromSliderValue_288268237(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(288268237L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "fromSliderValue(D)Ljava/lang/Double;", cancellable = true)
+    private void fromSliderValue_971583035(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(971583035L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "toSliderValue(Ljava/lang/Double;)D", cancellable = true)
+    private void toSliderValue__1841044911(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1841044911L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "toSliderValue(Ljava/lang/Object;)D", cancellable = true)
+    private void toSliderValue__1500371101(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1500371101L))
             info.setReturnValue(null);
     }
 

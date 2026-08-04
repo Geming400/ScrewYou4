@@ -25,14 +25,14 @@ public class PigSoundSet1748797675Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "hurtSound()Lnet/minecraft/core/Holder;", cancellable = true)
-    private void hurtSound__997293849(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "deathSound()Lnet/minecraft/core/Holder;", cancellable = true)
+    private void deathSound__997293849(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-997293849L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "deathSound()Lnet/minecraft/core/Holder;", cancellable = true)
-    private void deathSound__997293849(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "hurtSound()Lnet/minecraft/core/Holder;", cancellable = true)
+    private void hurtSound__997293849(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-997293849L))
             info.setReturnValue(null);
     }

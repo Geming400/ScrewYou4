@@ -19,14 +19,14 @@ public class BackupStatus406638112Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "shouldBackup()Z", cancellable = true)
-    private void shouldBackup_444916695(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "isSevere()Z", cancellable = true)
+    private void isSevere_444916695(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(444916695L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "isSevere()Z", cancellable = true)
-    private void isSevere_444916695(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "shouldBackup()Z", cancellable = true)
+    private void shouldBackup_444916695(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(444916695L))
             info.setReturnValue(null);
     }

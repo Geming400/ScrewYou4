@@ -49,12 +49,6 @@ public class TriggerInstance243070220Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "player()Ljava/util/Optional;", cancellable = true)
-    private void player_488531642(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(488531642L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "fishedItem(Ljava/util/Optional;Ljava/util/Optional;Ljava/util/Optional;)Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
     private static void fishedItem__813697344(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-813697344L))
@@ -63,6 +57,12 @@ public class TriggerInstance243070220Mixin {
 
     @Inject(at = @At("HEAD"), method = "rod()Ljava/util/Optional;", cancellable = true)
     private void rod_488531642(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(488531642L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "player()Ljava/util/Optional;", cancellable = true)
+    private void player_488531642(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(488531642L))
             info.setReturnValue(null);
     }

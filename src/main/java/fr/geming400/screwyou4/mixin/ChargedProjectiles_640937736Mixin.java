@@ -49,15 +49,15 @@ public class ChargedProjectiles_640937736Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "itemCopies()Ljava/util/List;", cancellable = true)
-    private void itemCopies__2027692745(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2027692745L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "ofNonEmpty(Ljava/util/List;)Lnet/minecraft/world/item/component/ChargedProjectiles;", cancellable = true)
     private static void ofNonEmpty_1763269949(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1763269949L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "itemCopies()Ljava/util/List;", cancellable = true)
+    private void itemCopies__2027692745(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2027692745L))
             info.setReturnValue(null);
     }
 

@@ -61,15 +61,15 @@ public class Advancement_313474142Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "requirements()Lnet/minecraft/advancements/AdvancementRequirements;", cancellable = true)
-    private void requirements__1270563325(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1270563325L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "sendsTelemetryEvent()Z", cancellable = true)
     private void sendsTelemetryEvent_351752724(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(351752724L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "requirements()Lnet/minecraft/advancements/AdvancementRequirements;", cancellable = true)
+    private void requirements__1270563325(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1270563325L))
             info.setReturnValue(null);
     }
 

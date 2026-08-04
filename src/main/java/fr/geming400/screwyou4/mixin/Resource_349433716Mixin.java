@@ -31,15 +31,15 @@ public class Resource_349433716Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "sourcePackId()Ljava/lang/String;", cancellable = true)
-    private void sourcePackId__786026756(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-786026756L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "knownPackInfo()Ljava/util/Optional;", cancellable = true)
     private void knownPackInfo_594895137(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(594895137L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "sourcePackId()Ljava/lang/String;", cancellable = true)
+    private void sourcePackId__786026756(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-786026756L))
             info.setReturnValue(null);
     }
 

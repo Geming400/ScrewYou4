@@ -31,21 +31,15 @@ public class TrapezoidInt1107653263Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "minInclusive()I", cancellable = true)
-    private void minInclusive_1145915509(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1145915509L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "maxInclusive()I", cancellable = true)
-    private void maxInclusive_1145915509(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1145915509L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
     private void codec__1451460309(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1451460309L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "sample(Lnet/minecraft/util/RandomSource;)I", cancellable = true)
+    private void sample__599374315(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-599374315L))
             info.setReturnValue(null);
     }
 
@@ -55,9 +49,15 @@ public class TrapezoidInt1107653263Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "sample(Lnet/minecraft/util/RandomSource;)I", cancellable = true)
-    private void sample__599374315(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-599374315L))
+    @Inject(at = @At("HEAD"), method = "minInclusive()I", cancellable = true)
+    private void minInclusive_1145915509(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1145915509L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "maxInclusive()I", cancellable = true)
+    private void maxInclusive_1145915509(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1145915509L))
             info.setReturnValue(null);
     }
 

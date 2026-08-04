@@ -37,15 +37,15 @@ public class AdvancementRewards2136239448Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "recipes()Ljava/util/List;", cancellable = true)
-    private void recipes__532391032(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-532391032L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "experience()I", cancellable = true)
     private void experience__2120465602(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2120465602L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "recipes()Ljava/util/List;", cancellable = true)
+    private void recipes__532391032(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-532391032L))
             info.setReturnValue(null);
     }
 

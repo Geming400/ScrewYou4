@@ -25,26 +25,26 @@ public class EmptyBlockGetter_808322499Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getBlockState(Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
-    private void getBlockState_1206948444(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1206948444L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getBlockEntity(Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/block/entity/BlockEntity;", cancellable = true)
     private void getBlockEntity_805983290(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(805983290L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getMinY()I", cancellable = true)
-    private void getMinY_846584744(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(846584744L))
+    @Inject(at = @At("HEAD"), method = "getBlockState(Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
+    private void getBlockState_1206948444(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1206948444L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getHeight()I", cancellable = true)
     private void getHeight_846584744(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(846584744L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getMinY()I", cancellable = true)
+    private void getMinY_846584744(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(846584744L))
             info.setReturnValue(null);
     }

@@ -25,22 +25,28 @@ public class PrimedTnt723008839Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "getFuse()I", cancellable = true)
+    private void getFuse_761271085(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(761271085L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "getBlockState()Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
     private void getBlockState__1572750027(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1572750027L))
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "setBlockState(Lnet/minecraft/world/level/block/state/BlockState;)V", cancellable = true)
+    private void setBlockState_577716009(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(577716009L))
+            info.cancel();
+    }
+
     @Inject(at = @At("HEAD"), method = "restoreFrom(Lnet/minecraft/world/entity/Entity;)V", cancellable = true)
     private void restoreFrom_271284179(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(271284179L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "hurtServer(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/damagesource/DamageSource;F)Z", cancellable = true)
-    private void hurtServer_273579004(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(273579004L))
-            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "isPickable()Z", cancellable = true)
@@ -55,15 +61,9 @@ public class PrimedTnt723008839Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "setBlockState(Lnet/minecraft/world/level/block/state/BlockState;)V", cancellable = true)
-    private void setBlockState_577716009(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(577716009L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "getFuse()I", cancellable = true)
-    private void getFuse_761271085(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(761271085L))
+    @Inject(at = @At("HEAD"), method = "hurtServer(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/damagesource/DamageSource;F)Z", cancellable = true)
+    private void hurtServer_273579004(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(273579004L))
             info.setReturnValue(null);
     }
 

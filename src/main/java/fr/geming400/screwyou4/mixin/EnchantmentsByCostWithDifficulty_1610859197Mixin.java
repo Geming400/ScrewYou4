@@ -31,26 +31,26 @@ public class EnchantmentsByCostWithDifficulty_1610859197Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "enchant(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/enchantment/ItemEnchantments$Mutable;Lnet/minecraft/util/RandomSource;Lnet/minecraft/world/DifficultyInstance;)V", cancellable = true)
-    private void enchant__843245569(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-843245569L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
     private void codec__948254376(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-948254376L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "minCost()I", cancellable = true)
-    private void minCost_1649121442(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1649121442L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "enchant(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/enchantment/ItemEnchantments$Mutable;Lnet/minecraft/util/RandomSource;Lnet/minecraft/world/DifficultyInstance;)V", cancellable = true)
+    private void enchant__843245569(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-843245569L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "maxCostSpan()I", cancellable = true)
     private void maxCostSpan_1649121442(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1649121442L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "minCost()I", cancellable = true)
+    private void minCost_1649121442(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1649121442L))
             info.setReturnValue(null);
     }

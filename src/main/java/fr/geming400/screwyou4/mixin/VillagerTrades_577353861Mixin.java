@@ -49,6 +49,12 @@ public class VillagerTrades_577353861Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "villagerTypeRestriction(Lnet/minecraft/core/HolderSet;)Ljava/util/Optional;", cancellable = true)
+    private static void villagerTypeRestriction__694640587(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-694640587L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "villagerTypeHolderSet(Lnet/minecraft/core/HolderGetter;Lnet/minecraft/resources/ResourceKey;)Lnet/minecraft/core/HolderSet;", cancellable = true)
     private static void villagerTypeHolderSet_736598160(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(736598160L))
@@ -58,12 +64,6 @@ public class VillagerTrades_577353861Mixin {
     @Inject(at = @At("HEAD"), method = "villagerTypeHolderSet(Lnet/minecraft/core/HolderGetter;Ljava/util/List;)Lnet/minecraft/core/HolderSet;", cancellable = true)
     private static void villagerTypeHolderSet__1180171269(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1180171269L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "villagerTypeRestriction(Lnet/minecraft/core/HolderSet;)Ljava/util/Optional;", cancellable = true)
-    private static void villagerTypeRestriction__694640587(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-694640587L))
             info.setReturnValue(null);
     }
 

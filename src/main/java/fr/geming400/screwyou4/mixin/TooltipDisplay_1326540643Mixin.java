@@ -25,15 +25,9 @@ public class TooltipDisplay_1326540643Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "withHidden(Lnet/minecraft/core/component/DataComponentType;Z)Lnet/minecraft/world/item/component/TooltipDisplay;", cancellable = true)
-    private void withHidden__1632875548(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1632875548L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "shows(Lnet/minecraft/core/component/DataComponentType;)Z", cancellable = true)
-    private void shows_1967957097(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1967957097L))
+    @Inject(at = @At("HEAD"), method = "hiddenComponents()Ljava/util/SequencedSet;", cancellable = true)
+    private void hiddenComponents__839275279(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-839275279L))
             info.setReturnValue(null);
     }
 
@@ -43,9 +37,15 @@ public class TooltipDisplay_1326540643Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "hiddenComponents()Ljava/util/SequencedSet;", cancellable = true)
-    private void hiddenComponents__839275279(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-839275279L))
+    @Inject(at = @At("HEAD"), method = "withHidden(Lnet/minecraft/core/component/DataComponentType;Z)Lnet/minecraft/world/item/component/TooltipDisplay;", cancellable = true)
+    private void withHidden__1632875548(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1632875548L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "shows(Lnet/minecraft/core/component/DataComponentType;)Z", cancellable = true)
+    private void shows_1967957097(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1967957097L))
             info.setReturnValue(null);
     }
 

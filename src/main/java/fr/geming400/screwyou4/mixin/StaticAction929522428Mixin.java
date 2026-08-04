@@ -31,15 +31,15 @@ public class StaticAction929522428Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "createAction(Ljava/util/Map;)Ljava/util/Optional;", cancellable = true)
-    private void createAction__1977744497(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1977744497L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
     private void codec__1629591144(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1629591144L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "createAction(Ljava/util/Map;)Ljava/util/Optional;", cancellable = true)
+    private void createAction__1977744497(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1977744497L))
             info.setReturnValue(null);
     }
 

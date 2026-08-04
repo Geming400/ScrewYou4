@@ -31,15 +31,15 @@ public class WorldTypeEntry2144380776Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "describePreset()Lnet/minecraft/network/chat/Component;", cancellable = true)
-    private void describePreset__32528389(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-32528389L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "isAmplified()Z", cancellable = true)
     private void isAmplified__2112307937(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2112307937L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "describePreset()Lnet/minecraft/network/chat/Component;", cancellable = true)
+    private void describePreset__32528389(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-32528389L))
             info.setReturnValue(null);
     }
 

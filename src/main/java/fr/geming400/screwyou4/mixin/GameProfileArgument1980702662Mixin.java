@@ -43,15 +43,15 @@ public class GameProfileArgument1980702662Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getExamples()Ljava/util/Collection;", cancellable = true)
-    private void getExamples_167054390(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(167054390L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getGameProfiles(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Ljava/util/Collection;", cancellable = true)
     private static void getGameProfiles__492299030(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-492299030L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getExamples()Ljava/util/Collection;", cancellable = true)
+    private void getExamples_167054390(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(167054390L))
             info.setReturnValue(null);
     }
 

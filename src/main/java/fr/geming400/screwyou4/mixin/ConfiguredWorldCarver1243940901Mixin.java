@@ -31,15 +31,15 @@ public class ConfiguredWorldCarver1243940901Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "worldCarver()Lnet/minecraft/world/level/levelgen/carver/WorldCarver;", cancellable = true)
-    private void worldCarver__1898027807(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1898027807L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "isStartChunk(Lnet/minecraft/util/RandomSource;)Z", cancellable = true)
     private void isStartChunk__463070340(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-463070340L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "worldCarver()Lnet/minecraft/world/level/levelgen/carver/WorldCarver;", cancellable = true)
+    private void worldCarver__1898027807(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1898027807L))
             info.setReturnValue(null);
     }
 

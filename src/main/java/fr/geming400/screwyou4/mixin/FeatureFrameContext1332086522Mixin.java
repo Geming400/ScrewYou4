@@ -37,12 +37,6 @@ public class FeatureFrameContext1332086522Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "textureManager()Lnet/minecraft/client/renderer/texture/TextureManager;", cancellable = true)
-    private void textureManager__1789250842(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1789250842L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "blockColors()Lnet/minecraft/client/color/block/BlockColors;", cancellable = true)
     private void blockColors_1246764329(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1246764329L))
@@ -55,12 +49,6 @@ public class FeatureFrameContext1332086522Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "lightmap()Lcom/mojang/blaze3d/textures/GpuTextureView;", cancellable = true)
-    private void lightmap__1068528088(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1068528088L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "stagedVertexBuffer()Lnet/minecraft/client/renderer/StagedVertexBuffer;", cancellable = true)
     private void stagedVertexBuffer_962159394(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(962159394L))
@@ -70,6 +58,18 @@ public class FeatureFrameContext1332086522Mixin {
     @Inject(at = @At("HEAD"), method = "blockStateModelSet()Lnet/minecraft/client/renderer/block/BlockStateModelSet;", cancellable = true)
     private void blockStateModelSet__1141331411(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1141331411L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "textureManager()Lnet/minecraft/client/renderer/texture/TextureManager;", cancellable = true)
+    private void textureManager__1789250842(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1789250842L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "lightmap()Lcom/mojang/blaze3d/textures/GpuTextureView;", cancellable = true)
+    private void lightmap__1068528088(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1068528088L))
             info.setReturnValue(null);
     }
 

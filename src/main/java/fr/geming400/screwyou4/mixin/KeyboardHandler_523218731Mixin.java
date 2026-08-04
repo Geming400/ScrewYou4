@@ -19,12 +19,6 @@ public class KeyboardHandler_523218731Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "setClipboard(Ljava/lang/String;)V", cancellable = true)
-    private void setClipboard_1675579879(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1675579879L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "getClipboard()Ljava/lang/String;", cancellable = true)
     private void getClipboard__612241741(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-612241741L))
@@ -40,6 +34,12 @@ public class KeyboardHandler_523218731Mixin {
     @Inject(at = @At("HEAD"), method = "resubmitLastPreeditEvent(Lnet/minecraft/client/gui/components/events/GuiEventListener;)V", cancellable = true)
     private void resubmitLastPreeditEvent__1655518464(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1655518464L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "setClipboard(Ljava/lang/String;)V", cancellable = true)
+    private void setClipboard_1675579879(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1675579879L))
             info.cancel();
     }
 

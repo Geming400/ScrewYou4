@@ -13,16 +13,16 @@ public class WeightedVariants1272973257Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "collectParts(Lnet/minecraft/util/RandomSource;Ljava/util/List;)V", cancellable = true)
-    private void collectParts_267900621(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(267900621L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "materialFlags()I", cancellable = true)
     private void materialFlags_1311235503(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1311235503L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "collectParts(Lnet/minecraft/util/RandomSource;Ljava/util/List;)V", cancellable = true)
+    private void collectParts_267900621(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(267900621L))
+            info.cancel();
     }
 
 

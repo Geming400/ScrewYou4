@@ -25,6 +25,18 @@ public class LevelLoadingScreen751592204Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIF)V", cancellable = true)
+    private void extractRenderState__208095168(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-208095168L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "isPauseScreen()Z", cancellable = true)
+    private void isPauseScreen_789870787(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(789870787L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "extractBackground(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIF)V", cancellable = true)
     private void extractBackground__208095168(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-208095168L))
@@ -41,18 +53,6 @@ public class LevelLoadingScreen751592204Mixin {
     private void shouldCloseOnEsc_789870787(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(789870787L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isPauseScreen()Z", cancellable = true)
-    private void isPauseScreen_789870787(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(789870787L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIF)V", cancellable = true)
-    private void extractRenderState__208095168(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-208095168L))
-            info.cancel();
     }
 
 

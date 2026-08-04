@@ -37,12 +37,6 @@ public class ModelRenderProperties_973438156Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "usesBlockLight()Z", cancellable = true)
-    private void usesBlockLight_1011716738(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1011716738L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "applyToLayer(Lnet/minecraft/client/renderer/item/ItemStackRenderState$LayerRenderState;Lnet/minecraft/world/item/ItemDisplayContext;)V", cancellable = true)
     private void applyToLayer_569763043(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(569763043L))
@@ -52,6 +46,12 @@ public class ModelRenderProperties_973438156Mixin {
     @Inject(at = @At("HEAD"), method = "fromResolvedModel(Lnet/minecraft/client/resources/model/ModelBaker;Lnet/minecraft/client/resources/model/ResolvedModel;Lnet/minecraft/client/resources/model/sprite/TextureSlots;)Lnet/minecraft/client/renderer/item/ModelRenderProperties;", cancellable = true)
     private static void fromResolvedModel__1339876689(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1339876689L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "usesBlockLight()Z", cancellable = true)
+    private void usesBlockLight_1011716738(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1011716738L))
             info.setReturnValue(null);
     }
 

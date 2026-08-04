@@ -37,24 +37,6 @@ public class AltEnum_14325252Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "valueSetter()Lnet/minecraft/client/OptionInstance$CycleableValueSet$ValueSetter;", cancellable = true)
-    private void valueSetter_1181630196(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1181630196L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "valueListSupplier()Lnet/minecraft/client/gui/components/CycleButton$ValueListSupplier;", cancellable = true)
-    private void valueListSupplier__2001910611(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2001910611L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "altCondition()Ljava/util/function/BooleanSupplier;", cancellable = true)
-    private void altCondition_451071572(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(451071572L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/Codec;", cancellable = true)
     private void codec__377640375(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-377640375L))
@@ -64,6 +46,24 @@ public class AltEnum_14325252Mixin {
     @Inject(at = @At("HEAD"), method = "altValues()Ljava/util/List;", cancellable = true)
     private void altValues_1640662067(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1640662067L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "valueListSupplier()Lnet/minecraft/client/gui/components/CycleButton$ValueListSupplier;", cancellable = true)
+    private void valueListSupplier__2001910611(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2001910611L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "valueSetter()Lnet/minecraft/client/OptionInstance$CycleableValueSet$ValueSetter;", cancellable = true)
+    private void valueSetter_1181630196(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1181630196L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "altCondition()Ljava/util/function/BooleanSupplier;", cancellable = true)
+    private void altCondition_451071572(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(451071572L))
             info.setReturnValue(null);
     }
 

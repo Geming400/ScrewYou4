@@ -49,6 +49,24 @@ public class PartPose1977340990Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "xRot()F", cancellable = true)
+    private void xRot_2015600353(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2015600353L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "rotation(FFF)Lnet/minecraft/client/model/geom/PartPose;", cancellable = true)
+    private static void rotation_1106314733(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1106314733L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "yRot()F", cancellable = true)
+    private void yRot_2015600353(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2015600353L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "offsetAndRotation(FFFFFF)Lnet/minecraft/client/model/geom/PartPose;", cancellable = true)
     private static void offsetAndRotation__363413469(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-363413469L))
@@ -61,33 +79,9 @@ public class PartPose1977340990Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "xRot()F", cancellable = true)
-    private void xRot_2015600353(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2015600353L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "yRot()F", cancellable = true)
-    private void yRot_2015600353(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2015600353L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "rotation(FFF)Lnet/minecraft/client/model/geom/PartPose;", cancellable = true)
-    private static void rotation_1106314733(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1106314733L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "zRot()F", cancellable = true)
     private void zRot_2015600353(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2015600353L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "translated(FFF)Lnet/minecraft/client/model/geom/PartPose;", cancellable = true)
-    private void translated_1106314485(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1106314485L))
             info.setReturnValue(null);
     }
 
@@ -103,20 +97,26 @@ public class PartPose1977340990Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "translated(FFF)Lnet/minecraft/client/model/geom/PartPose;", cancellable = true)
+    private void translated_1106314485(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1106314485L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "xScale()F", cancellable = true)
     private void xScale_2015600353(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2015600353L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "zScale()F", cancellable = true)
-    private void zScale_2015600353(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "yScale()F", cancellable = true)
+    private void yScale_2015600353(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2015600353L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "yScale()F", cancellable = true)
-    private void yScale_2015600353(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "zScale()F", cancellable = true)
+    private void zScale_2015600353(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2015600353L))
             info.setReturnValue(null);
     }

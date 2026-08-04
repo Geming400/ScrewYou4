@@ -85,16 +85,16 @@ public class GameRuleMap_1312609616Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "setFromIf(Lnet/minecraft/world/level/gamerules/GameRuleMap;Ljava/util/function/Predicate;)V", cancellable = true)
-    private void setFromIf_1397468960(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1397468960L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "withOther(Lnet/minecraft/world/level/gamerules/GameRuleMap;)Lnet/minecraft/world/level/gamerules/GameRuleMap;", cancellable = true)
     private void withOther_971416538(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(971416538L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "setFromIf(Lnet/minecraft/world/level/gamerules/GameRuleMap;Ljava/util/function/Predicate;)V", cancellable = true)
+    private void setFromIf_1397468960(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1397468960L))
+            info.cancel();
     }
 
 

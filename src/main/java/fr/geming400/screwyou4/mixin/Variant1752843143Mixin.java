@@ -31,12 +31,6 @@ public class Variant1752843143Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "bake(Lnet/minecraft/client/resources/model/ModelBaker;)Lnet/minecraft/client/renderer/block/dispatch/BlockStateModelPart;", cancellable = true)
-    private void bake_1377809709(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1377809709L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "modelLocation()Lnet/minecraft/resources/Identifier;", cancellable = true)
     private void modelLocation__690223410(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-690223410L))
@@ -55,15 +49,9 @@ public class Variant1752843143Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "withYRot(Lcom/mojang/math/Quadrant;)Lnet/minecraft/client/renderer/block/dispatch/Variant;", cancellable = true)
-    private void withYRot__2001678708(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2001678708L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "withXRot(Lcom/mojang/math/Quadrant;)Lnet/minecraft/client/renderer/block/dispatch/Variant;", cancellable = true)
-    private void withXRot__2001678708(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2001678708L))
+    @Inject(at = @At("HEAD"), method = "withState(Lnet/minecraft/client/renderer/block/dispatch/Variant$SimpleModelState;)Lnet/minecraft/client/renderer/block/dispatch/Variant;", cancellable = true)
+    private void withState_423410688(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(423410688L))
             info.setReturnValue(null);
     }
 
@@ -73,15 +61,21 @@ public class Variant1752843143Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "withState(Lnet/minecraft/client/renderer/block/dispatch/Variant$SimpleModelState;)Lnet/minecraft/client/renderer/block/dispatch/Variant;", cancellable = true)
-    private void withState_423410688(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(423410688L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "withModel(Lnet/minecraft/resources/Identifier;)Lnet/minecraft/client/renderer/block/dispatch/Variant;", cancellable = true)
     private void withModel__1335106305(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1335106305L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "withXRot(Lcom/mojang/math/Quadrant;)Lnet/minecraft/client/renderer/block/dispatch/Variant;", cancellable = true)
+    private void withXRot__2001678708(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2001678708L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "withYRot(Lcom/mojang/math/Quadrant;)Lnet/minecraft/client/renderer/block/dispatch/Variant;", cancellable = true)
+    private void withYRot__2001678708(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2001678708L))
             info.setReturnValue(null);
     }
 
@@ -89,6 +83,12 @@ public class Variant1752843143Mixin {
     private void resolveDependencies_1703049213(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1703049213L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "bake(Lnet/minecraft/client/resources/model/ModelBaker;)Lnet/minecraft/client/renderer/block/dispatch/BlockStateModelPart;", cancellable = true)
+    private void bake_1377809709(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1377809709L))
+            info.setReturnValue(null);
     }
 
 

@@ -19,15 +19,15 @@ public class ItemCombinerMenuSlotDefinition_2053804952Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getResultSlot()Lnet/minecraft/world/inventory/ItemCombinerMenuSlotDefinition$SlotDefinition;", cancellable = true)
-    private void getResultSlot__2053509920(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2053509920L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getSlots()Ljava/util/List;", cancellable = true)
     private void getSlots__614825529(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-614825529L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getResultSlot()Lnet/minecraft/world/inventory/ItemCombinerMenuSlotDefinition$SlotDefinition;", cancellable = true)
+    private void getResultSlot__2053509920(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2053509920L))
             info.setReturnValue(null);
     }
 

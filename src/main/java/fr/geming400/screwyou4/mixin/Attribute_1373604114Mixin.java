@@ -13,27 +13,15 @@ public class Attribute_1373604114Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getDescriptionId()Ljava/lang/String;", cancellable = true)
-    private void getDescriptionId_238143642(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(238143642L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getStyle(Z)Lnet/minecraft/ChatFormatting;", cancellable = true)
-    private void getStyle__290068732(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-290068732L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "sanitizeValue(D)D", cancellable = true)
-    private void sanitizeValue__1712081114(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1712081114L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "isClientSyncable()Z", cancellable = true)
     private void isClientSyncable_1411882696(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1411882696L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "setSyncable(Z)Lnet/minecraft/world/entity/ai/attributes/Attribute;", cancellable = true)
+    private void setSyncable_536015141(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(536015141L))
             info.setReturnValue(null);
     }
 
@@ -43,9 +31,21 @@ public class Attribute_1373604114Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "setSyncable(Z)Lnet/minecraft/world/entity/ai/attributes/Attribute;", cancellable = true)
-    private void setSyncable_536015141(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(536015141L))
+    @Inject(at = @At("HEAD"), method = "getStyle(Z)Lnet/minecraft/ChatFormatting;", cancellable = true)
+    private void getStyle__290068732(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-290068732L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getDescriptionId()Ljava/lang/String;", cancellable = true)
+    private void getDescriptionId_238143642(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(238143642L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "sanitizeValue(D)D", cancellable = true)
+    private void sanitizeValue__1712081114(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1712081114L))
             info.setReturnValue(null);
     }
 

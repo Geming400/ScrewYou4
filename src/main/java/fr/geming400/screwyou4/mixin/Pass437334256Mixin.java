@@ -31,15 +31,9 @@ public class Pass437334256Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "referencedTargets()Ljava/util/stream/Stream;", cancellable = true)
-    private void referencedTargets_226627941(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(226627941L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "vertexShaderId()Lnet/minecraft/resources/Identifier;", cancellable = true)
-    private void vertexShaderId__2005732297(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2005732297L))
+    @Inject(at = @At("HEAD"), method = "uniforms()Ljava/util/Map;", cancellable = true)
+    private void uniforms__1567289384(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1567289384L))
             info.setReturnValue(null);
     }
 
@@ -49,15 +43,21 @@ public class Pass437334256Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "outputTarget()Lnet/minecraft/resources/Identifier;", cancellable = true)
-    private void outputTarget__2005732297(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "vertexShaderId()Lnet/minecraft/resources/Identifier;", cancellable = true)
+    private void vertexShaderId__2005732297(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2005732297L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "uniforms()Ljava/util/Map;", cancellable = true)
-    private void uniforms__1567289384(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1567289384L))
+    @Inject(at = @At("HEAD"), method = "referencedTargets()Ljava/util/stream/Stream;", cancellable = true)
+    private void referencedTargets_226627941(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(226627941L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "outputTarget()Lnet/minecraft/resources/Identifier;", cancellable = true)
+    private void outputTarget__2005732297(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2005732297L))
             info.setReturnValue(null);
     }
 

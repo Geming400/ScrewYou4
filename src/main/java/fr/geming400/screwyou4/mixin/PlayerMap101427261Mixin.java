@@ -31,14 +31,14 @@ public class PlayerMap101427261Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "ignorePlayer(Lnet/minecraft/server/level/ServerPlayer;)V", cancellable = true)
-    private void ignorePlayer__668134592(CallbackInfo info) {
+    @Inject(at = @At("HEAD"), method = "unIgnorePlayer(Lnet/minecraft/server/level/ServerPlayer;)V", cancellable = true)
+    private void unIgnorePlayer__668134592(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-668134592L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "unIgnorePlayer(Lnet/minecraft/server/level/ServerPlayer;)V", cancellable = true)
-    private void unIgnorePlayer__668134592(CallbackInfo info) {
+    @Inject(at = @At("HEAD"), method = "ignorePlayer(Lnet/minecraft/server/level/ServerPlayer;)V", cancellable = true)
+    private void ignorePlayer__668134592(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-668134592L))
             info.cancel();
     }

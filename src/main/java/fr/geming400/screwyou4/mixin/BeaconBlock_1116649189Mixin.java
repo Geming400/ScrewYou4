@@ -7,15 +7,15 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.world.level.block.BeaconBlock.class)
 public class BeaconBlock_1116649189Mixin {
-        @Inject(at = @At("HEAD"), method = "getColor()Lnet/minecraft/world/item/DyeColor;", cancellable = true)
-    private void getColor__1743009878(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1743009878L))
+        @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
+    private void codec__1442464384(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1442464384L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
-    private void codec__1442464384(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1442464384L))
+    @Inject(at = @At("HEAD"), method = "getColor()Lnet/minecraft/world/item/DyeColor;", cancellable = true)
+    private void getColor__1743009878(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1743009878L))
             info.setReturnValue(null);
     }
 

@@ -37,15 +37,15 @@ public class Repeated434484540Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "minRepetitions()I", cancellable = true)
-    private void minRepetitions_472746786(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(472746786L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "listName()Lnet/minecraft/util/parsing/packrat/Atom;", cancellable = true)
     private void listName_1750467476(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1750467476L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "minRepetitions()I", cancellable = true)
+    private void minRepetitions_472746786(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(472746786L))
             info.setReturnValue(null);
     }
 

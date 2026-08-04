@@ -31,9 +31,9 @@ public class PoiType_1998422874Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "matchingStates()Ljava/util/Set;", cancellable = true)
-    private void matchingStates_169387387(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(169387387L))
+    @Inject(at = @At("HEAD"), method = "maxTickets()I", cancellable = true)
+    private void maxTickets_2036685119(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2036685119L))
             info.setReturnValue(null);
     }
 
@@ -43,9 +43,9 @@ public class PoiType_1998422874Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "maxTickets()I", cancellable = true)
-    private void maxTickets_2036685119(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2036685119L))
+    @Inject(at = @At("HEAD"), method = "matchingStates()Ljava/util/Set;", cancellable = true)
+    private void matchingStates_169387387(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(169387387L))
             info.setReturnValue(null);
     }
 

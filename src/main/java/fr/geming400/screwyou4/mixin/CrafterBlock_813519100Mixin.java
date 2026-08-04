@@ -13,15 +13,15 @@ public class CrafterBlock_813519100Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getPotentialResults(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/item/crafting/CraftingInput;)Ljava/util/Optional;", cancellable = true)
-    private static void getPotentialResults_1332727169(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1332727169L))
+    @Inject(at = @At("HEAD"), method = "getTicker(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/entity/BlockEntityType;)Lnet/minecraft/world/level/block/entity/BlockEntityTicker;", cancellable = true)
+    private void getTicker__1139948244(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1139948244L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
-    private void getStateForPlacement__445080668(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-445080668L))
+    @Inject(at = @At("HEAD"), method = "getPotentialResults(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/item/crafting/CraftingInput;)Ljava/util/Optional;", cancellable = true)
+    private static void getPotentialResults_1332727169(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1332727169L))
             info.setReturnValue(null);
     }
 
@@ -31,9 +31,9 @@ public class CrafterBlock_813519100Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getTicker(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/entity/BlockEntityType;)Lnet/minecraft/world/level/block/entity/BlockEntityTicker;", cancellable = true)
-    private void getTicker__1139948244(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1139948244L))
+    @Inject(at = @At("HEAD"), method = "getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
+    private void getStateForPlacement__445080668(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-445080668L))
             info.setReturnValue(null);
     }
 

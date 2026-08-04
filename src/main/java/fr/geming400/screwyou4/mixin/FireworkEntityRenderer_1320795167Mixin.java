@@ -19,18 +19,6 @@ public class FireworkEntityRenderer_1320795167Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/EntityRenderState;", cancellable = true)
-    private void createRenderState_732158722(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(732158722L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/FireworkRocketRenderState;", cancellable = true)
-    private void createRenderState_931346010(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(931346010L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/entity/projectile/FireworkRocketEntity;Lnet/minecraft/client/renderer/entity/state/FireworkRocketRenderState;F)V", cancellable = true)
     private void extractRenderState_830097316(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(830097316L))
@@ -41,6 +29,18 @@ public class FireworkEntityRenderer_1320795167Mixin {
     private void extractRenderState_1547914185(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1547914185L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/EntityRenderState;", cancellable = true)
+    private void createRenderState_732158722(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(732158722L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/FireworkRocketRenderState;", cancellable = true)
+    private void createRenderState_931346010(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(931346010L))
+            info.setReturnValue(null);
     }
 
 

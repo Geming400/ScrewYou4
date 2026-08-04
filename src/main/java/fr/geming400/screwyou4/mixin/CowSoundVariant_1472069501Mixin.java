@@ -25,14 +25,14 @@ public class CowSoundVariant_1472069501Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "hurtSound()Lnet/minecraft/core/Holder;", cancellable = true)
-    private void hurtSound__1274022024(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "deathSound()Lnet/minecraft/core/Holder;", cancellable = true)
+    private void deathSound__1274022024(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1274022024L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "deathSound()Lnet/minecraft/core/Holder;", cancellable = true)
-    private void deathSound__1274022024(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "hurtSound()Lnet/minecraft/core/Holder;", cancellable = true)
+    private void hurtSound__1274022024(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1274022024L))
             info.setReturnValue(null);
     }

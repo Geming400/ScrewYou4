@@ -19,21 +19,15 @@ public class Checkbox593874045Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "extractContents(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIF)V", cancellable = true)
-    private void extractContents__365813327(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-365813327L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "selected()Z", cancellable = true)
     private void selected_632152628(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(632152628L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "updateWidgetNarration(Lnet/minecraft/client/gui/narration/NarrationElementOutput;)V", cancellable = true)
-    private void updateWidgetNarration_1855533531(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1855533531L))
+    @Inject(at = @At("HEAD"), method = "extractContents(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIF)V", cancellable = true)
+    private void extractContents__365813327(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-365813327L))
             info.cancel();
     }
 
@@ -47,6 +41,12 @@ public class Checkbox593874045Mixin {
     private static void getBoxSize__376911425(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-376911425L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "updateWidgetNarration(Lnet/minecraft/client/gui/narration/NarrationElementOutput;)V", cancellable = true)
+    private void updateWidgetNarration_1855533531(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1855533531L))
+            info.cancel();
     }
 
 

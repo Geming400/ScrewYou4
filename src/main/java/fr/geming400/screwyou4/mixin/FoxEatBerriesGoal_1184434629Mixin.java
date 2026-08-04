@@ -25,15 +25,15 @@ public class FoxEatBerriesGoal_1184434629Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "acceptedDistance()D", cancellable = true)
-    private void acceptedDistance_1222692069(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1222692069L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "shouldRecalculatePath()Z", cancellable = true)
     private void shouldRecalculatePath_1222713211(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1222713211L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "acceptedDistance()D", cancellable = true)
+    private void acceptedDistance_1222692069(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1222692069L))
             info.setReturnValue(null);
     }
 

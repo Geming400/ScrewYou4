@@ -31,9 +31,9 @@ public class Unbaked_30795183Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "texture()Lnet/minecraft/resources/Identifier;", cancellable = true)
-    private void texture_1882695925(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1882695925L))
+    @Inject(at = @At("HEAD"), method = "chestType()Lnet/minecraft/world/level/block/state/properties/ChestType;", cancellable = true)
+    private void chestType_1067567297(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1067567297L))
             info.setReturnValue(null);
     }
 
@@ -49,15 +49,15 @@ public class Unbaked_30795183Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "openness()F", cancellable = true)
-    private void openness_69054545(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(69054545L))
+    @Inject(at = @At("HEAD"), method = "texture()Lnet/minecraft/resources/Identifier;", cancellable = true)
+    private void texture_1882695925(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1882695925L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "chestType()Lnet/minecraft/world/level/block/state/properties/ChestType;", cancellable = true)
-    private void chestType_1067567297(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1067567297L))
+    @Inject(at = @At("HEAD"), method = "openness()F", cancellable = true)
+    private void openness_69054545(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(69054545L))
             info.setReturnValue(null);
     }
 

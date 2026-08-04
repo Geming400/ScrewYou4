@@ -25,15 +25,15 @@ public class ChickenRenderer1797151690Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/EntityRenderState;", cancellable = true)
-    private void createRenderState_1208515246(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1208515246L))
+    @Inject(at = @At("HEAD"), method = "getTextureLocation(Lnet/minecraft/client/renderer/entity/state/LivingEntityRenderState;)Lnet/minecraft/resources/Identifier;", cancellable = true)
+    private void getTextureLocation__495178973(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-495178973L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/ChickenRenderState;", cancellable = true)
-    private void createRenderState_422092762(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(422092762L))
+    @Inject(at = @At("HEAD"), method = "getTextureLocation(Lnet/minecraft/client/renderer/entity/state/ChickenRenderState;)Lnet/minecraft/resources/Identifier;", cancellable = true)
+    private void getTextureLocation_1654263246(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1654263246L))
             info.setReturnValue(null);
     }
 
@@ -55,15 +55,15 @@ public class ChickenRenderer1797151690Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getTextureLocation(Lnet/minecraft/client/renderer/entity/state/ChickenRenderState;)Lnet/minecraft/resources/Identifier;", cancellable = true)
-    private void getTextureLocation_1654263246(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1654263246L))
+    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/EntityRenderState;", cancellable = true)
+    private void createRenderState_1208515246(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1208515246L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getTextureLocation(Lnet/minecraft/client/renderer/entity/state/LivingEntityRenderState;)Lnet/minecraft/resources/Identifier;", cancellable = true)
-    private void getTextureLocation__495178973(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-495178973L))
+    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/ChickenRenderState;", cancellable = true)
+    private void createRenderState_422092762(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(422092762L))
             info.setReturnValue(null);
     }
 

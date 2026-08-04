@@ -19,16 +19,16 @@ public class EntityStorage_1410843222Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "storeEntities(Lnet/minecraft/world/level/entity/ChunkEntities;)V", cancellable = true)
-    private void storeEntities_1059478681(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1059478681L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "loadEntities(Lnet/minecraft/world/level/ChunkPos;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
     private void loadEntities__1496057082(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1496057082L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "storeEntities(Lnet/minecraft/world/level/entity/ChunkEntities;)V", cancellable = true)
+    private void storeEntities_1059478681(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1059478681L))
+            info.cancel();
     }
 
 

@@ -31,9 +31,9 @@ public class MangroveRootPlacement1168873868Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "muddyRootsProvider()Lnet/minecraft/world/level/levelgen/feature/stateproviders/BlockStateProvider;", cancellable = true)
-    private void muddyRootsProvider__763832633(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-763832633L))
+    @Inject(at = @At("HEAD"), method = "randomSkewChance()F", cancellable = true)
+    private void randomSkewChance_1207133231(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1207133231L))
             info.setReturnValue(null);
     }
 
@@ -43,15 +43,15 @@ public class MangroveRootPlacement1168873868Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "randomSkewChance()F", cancellable = true)
-    private void randomSkewChance_1207133231(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1207133231L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "canGrowThrough()Lnet/minecraft/core/HolderSet;", cancellable = true)
     private void canGrowThrough__1506140384(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1506140384L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "muddyRootsProvider()Lnet/minecraft/world/level/levelgen/feature/stateproviders/BlockStateProvider;", cancellable = true)
+    private void muddyRootsProvider__763832633(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-763832633L))
             info.setReturnValue(null);
     }
 

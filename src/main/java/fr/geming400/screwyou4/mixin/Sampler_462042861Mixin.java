@@ -43,14 +43,20 @@ public class Sampler_462042861Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "erosion()Lnet/minecraft/world/level/levelgen/DensityFunction;", cancellable = true)
-    private void erosion_1941082529(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1941082529L))
+    @Inject(at = @At("HEAD"), method = "spawnTarget()Ljava/util/List;", cancellable = true)
+    private void spawnTarget_2088379676(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2088379676L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "weirdness()Lnet/minecraft/world/level/levelgen/DensityFunction;", cancellable = true)
-    private void weirdness_1941082529(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "findSpawnPosition()Lnet/minecraft/core/BlockPos;", cancellable = true)
+    private void findSpawnPosition__1431344019(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1431344019L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "erosion()Lnet/minecraft/world/level/levelgen/DensityFunction;", cancellable = true)
+    private void erosion_1941082529(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1941082529L))
             info.setReturnValue(null);
     }
@@ -61,21 +67,15 @@ public class Sampler_462042861Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "findSpawnPosition()Lnet/minecraft/core/BlockPos;", cancellable = true)
-    private void findSpawnPosition__1431344019(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1431344019L))
+    @Inject(at = @At("HEAD"), method = "weirdness()Lnet/minecraft/world/level/levelgen/DensityFunction;", cancellable = true)
+    private void weirdness_1941082529(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1941082529L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "humidity()Lnet/minecraft/world/level/levelgen/DensityFunction;", cancellable = true)
     private void humidity_1941082529(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1941082529L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "spawnTarget()Ljava/util/List;", cancellable = true)
-    private void spawnTarget_2088379676(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2088379676L))
             info.setReturnValue(null);
     }
 

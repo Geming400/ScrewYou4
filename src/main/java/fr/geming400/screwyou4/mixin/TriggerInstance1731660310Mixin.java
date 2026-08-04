@@ -43,6 +43,12 @@ public class TriggerInstance1731660310Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "player()Ljava/util/Optional;", cancellable = true)
+    private void player_1977121732(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1977121732L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "rideEntityInLava(Lnet/minecraft/advancements/predicates/entity/EntityPredicate$Builder;Lnet/minecraft/advancements/predicates/DistancePredicate;)Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
     private static void rideEntityInLava__532011912(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-532011912L))
@@ -58,12 +64,6 @@ public class TriggerInstance1731660310Mixin {
     @Inject(at = @At("HEAD"), method = "travelledThroughNether(Lnet/minecraft/advancements/predicates/DistancePredicate;)Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
     private static void travelledThroughNether_43924093(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(43924093L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "player()Ljava/util/Optional;", cancellable = true)
-    private void player_1977121732(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1977121732L))
             info.setReturnValue(null);
     }
 

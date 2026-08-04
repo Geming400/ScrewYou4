@@ -43,15 +43,9 @@ public class TriggerInstance913153691Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "tradedWithVillager(Lnet/minecraft/advancements/predicates/entity/EntityPredicate$Builder;)Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
-    private static void tradedWithVillager__789830745(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-789830745L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "tradedWithVillager()Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
-    private static void tradedWithVillager__2108062206(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2108062206L))
+    @Inject(at = @At("HEAD"), method = "villager()Ljava/util/Optional;", cancellable = true)
+    private void villager_1158615113(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1158615113L))
             info.setReturnValue(null);
     }
 
@@ -61,9 +55,15 @@ public class TriggerInstance913153691Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "villager()Ljava/util/Optional;", cancellable = true)
-    private void villager_1158615113(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1158615113L))
+    @Inject(at = @At("HEAD"), method = "tradedWithVillager()Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
+    private static void tradedWithVillager__2108062206(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2108062206L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "tradedWithVillager(Lnet/minecraft/advancements/predicates/entity/EntityPredicate$Builder;)Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
+    private static void tradedWithVillager__789830745(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-789830745L))
             info.setReturnValue(null);
     }
 

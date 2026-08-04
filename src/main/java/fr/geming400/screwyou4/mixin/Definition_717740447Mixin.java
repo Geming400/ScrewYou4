@@ -43,12 +43,6 @@ public class Definition_717740447Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "codepointGrid()[[I", cancellable = true)
-    private void codepointGrid__1176171420(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1176171420L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "height()I", cancellable = true)
     private void height_756002692(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(756002692L))
@@ -58,6 +52,12 @@ public class Definition_717740447Mixin {
     @Inject(at = @At("HEAD"), method = "ascent()I", cancellable = true)
     private void ascent_756002692(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(756002692L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "codepointGrid()[[I", cancellable = true)
+    private void codepointGrid__1176171420(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1176171420L))
             info.setReturnValue(null);
     }
 

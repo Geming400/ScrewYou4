@@ -13,9 +13,9 @@ public class PlayerChunkSender1787141267Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "sendNextChunks(Lnet/minecraft/server/level/ServerPlayer;)V", cancellable = true)
-    private void sendNextChunks_1017579414(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1017579414L))
+    @Inject(at = @At("HEAD"), method = "onChunkBatchReceivedByClient(F)V", cancellable = true)
+    private void onChunkBatchReceivedByClient__1296679620(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1296679620L))
             info.cancel();
     }
 
@@ -25,15 +25,15 @@ public class PlayerChunkSender1787141267Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "onChunkBatchReceivedByClient(F)V", cancellable = true)
-    private void onChunkBatchReceivedByClient__1296679620(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1296679620L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "markChunkPendingToSend(Lnet/minecraft/world/level/chunk/LevelChunk;)V", cancellable = true)
     private void markChunkPendingToSend_424074798(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(424074798L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "sendNextChunks(Lnet/minecraft/server/level/ServerPlayer;)V", cancellable = true)
+    private void sendNextChunks_1017579414(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1017579414L))
             info.cancel();
     }
 

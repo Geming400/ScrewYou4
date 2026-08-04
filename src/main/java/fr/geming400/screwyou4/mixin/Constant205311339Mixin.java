@@ -43,15 +43,15 @@ public class Constant205311339Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "mapCoordinates(Ljava/util/function/UnaryOperator;)Lnet/minecraft/util/CubicSpline;", cancellable = true)
-    private void mapCoordinates_1457922180(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1457922180L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "parityString()Ljava/lang/String;", cancellable = true)
     private void parityString__930149132(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-930149132L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "mapCoordinates(Ljava/util/function/UnaryOperator;)Lnet/minecraft/util/CubicSpline;", cancellable = true)
+    private void mapCoordinates_1457922180(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1457922180L))
             info.setReturnValue(null);
     }
 

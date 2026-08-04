@@ -13,15 +13,15 @@ public class AreaEffectCloud870127689Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getOwner()Lnet/minecraft/world/entity/LivingEntity;", cancellable = true)
-    private void getOwner_137889574(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(137889574L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getOwner()Lnet/minecraft/world/entity/Entity;", cancellable = true)
     private void getOwner__1595822193(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1595822193L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getOwner()Lnet/minecraft/world/entity/LivingEntity;", cancellable = true)
+    private void getOwner_137889574(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(137889574L))
             info.setReturnValue(null);
     }
 
@@ -43,75 +43,9 @@ public class AreaEffectCloud870127689Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getDimensions(Lnet/minecraft/world/entity/Pose;)Lnet/minecraft/world/entity/EntityDimensions;", cancellable = true)
-    private void getDimensions__372518355(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-372518355L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "refreshDimensions()V", cancellable = true)
-    private void refreshDimensions_908402428(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(908402428L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "getPistonPushReaction()Lnet/minecraft/world/level/material/PushReaction;", cancellable = true)
-    private void getPistonPushReaction__1533960770(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1533960770L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "onSyncedDataUpdated(Lnet/minecraft/network/syncher/EntityDataAccessor;)V", cancellable = true)
-    private void onSyncedDataUpdated__1779090163(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1779090163L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "hurtServer(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/damagesource/DamageSource;F)Z", cancellable = true)
-    private void hurtServer_420697854(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(420697854L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "addEffect(Lnet/minecraft/world/effect/MobEffectInstance;)V", cancellable = true)
-    private void addEffect_1025995922(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1025995922L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "getParticle()Lnet/minecraft/core/particles/ParticleOptions;", cancellable = true)
-    private void getParticle__1198833379(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1198833379L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getRadius()F", cancellable = true)
-    private void getRadius_908387052(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(908387052L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isWaiting()Z", cancellable = true)
-    private void isWaiting_908406272(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(908406272L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "setRadius(F)V", cancellable = true)
-    private void setRadius_2081274098(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(2081274098L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "setPotionDurationScale(F)V", cancellable = true)
-    private void setPotionDurationScale_2081274098(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(2081274098L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "setCustomParticle(Lnet/minecraft/core/particles/ParticleOptions;)V", cancellable = true)
-    private void setCustomParticle__694145775(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-694145775L))
+    @Inject(at = @At("HEAD"), method = "setDuration(I)V", cancellable = true)
+    private void setDuration_2084044661(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(2084044661L))
             info.cancel();
     }
 
@@ -121,8 +55,20 @@ public class AreaEffectCloud870127689Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "setDuration(I)V", cancellable = true)
-    private void setDuration_2084044661(CallbackInfo info) {
+    @Inject(at = @At("HEAD"), method = "setCustomParticle(Lnet/minecraft/core/particles/ParticleOptions;)V", cancellable = true)
+    private void setCustomParticle__694145775(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-694145775L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getRadiusOnUse()F", cancellable = true)
+    private void getRadiusOnUse_908387052(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(908387052L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "setDurationOnUse(I)V", cancellable = true)
+    private void setDurationOnUse_2084044661(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(2084044661L))
             info.cancel();
     }
@@ -139,16 +85,10 @@ public class AreaEffectCloud870127689Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getRadiusOnUse()F", cancellable = true)
-    private void getRadiusOnUse_908387052(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(908387052L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getRadiusPerTick()F", cancellable = true)
-    private void getRadiusPerTick_908387052(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(908387052L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "setPotionDurationScale(F)V", cancellable = true)
+    private void setPotionDurationScale_2081274098(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(2081274098L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "getWaitTime()I", cancellable = true)
@@ -169,9 +109,69 @@ public class AreaEffectCloud870127689Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "setDurationOnUse(I)V", cancellable = true)
-    private void setDurationOnUse_2084044661(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(2084044661L))
+    @Inject(at = @At("HEAD"), method = "getRadiusPerTick()F", cancellable = true)
+    private void getRadiusPerTick_908387052(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(908387052L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getParticle()Lnet/minecraft/core/particles/ParticleOptions;", cancellable = true)
+    private void getParticle__1198833379(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1198833379L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getRadius()F", cancellable = true)
+    private void getRadius_908387052(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(908387052L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getPistonPushReaction()Lnet/minecraft/world/level/material/PushReaction;", cancellable = true)
+    private void getPistonPushReaction__1533960770(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1533960770L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "hurtServer(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/damagesource/DamageSource;F)Z", cancellable = true)
+    private void hurtServer_420697854(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(420697854L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "addEffect(Lnet/minecraft/world/effect/MobEffectInstance;)V", cancellable = true)
+    private void addEffect_1025995922(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1025995922L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "onSyncedDataUpdated(Lnet/minecraft/network/syncher/EntityDataAccessor;)V", cancellable = true)
+    private void onSyncedDataUpdated__1779090163(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1779090163L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "refreshDimensions()V", cancellable = true)
+    private void refreshDimensions_908402428(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(908402428L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getDimensions(Lnet/minecraft/world/entity/Pose;)Lnet/minecraft/world/entity/EntityDimensions;", cancellable = true)
+    private void getDimensions__372518355(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-372518355L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isWaiting()Z", cancellable = true)
+    private void isWaiting_908406272(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(908406272L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "setRadius(F)V", cancellable = true)
+    private void setRadius_2081274098(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(2081274098L))
             info.cancel();
     }
 

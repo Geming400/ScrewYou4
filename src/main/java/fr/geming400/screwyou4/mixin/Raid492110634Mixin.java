@@ -37,9 +37,15 @@ public class Raid492110634Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getBannerComponentPatch(Lnet/minecraft/core/HolderGetter;)Lnet/minecraft/core/component/DataComponentPatch;", cancellable = true)
-    private static void getBannerComponentPatch_3045703(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(3045703L))
+    @Inject(at = @At("HEAD"), method = "isBetweenWaves()Z", cancellable = true)
+    private void isBetweenWaves_530389217(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(530389217L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "hasFirstWaveSpawned()Z", cancellable = true)
+    private void hasFirstWaveSpawned_530389217(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(530389217L))
             info.setReturnValue(null);
     }
 
@@ -49,87 +55,15 @@ public class Raid492110634Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "getBannerComponentPatch(Lnet/minecraft/core/HolderGetter;)Lnet/minecraft/core/component/DataComponentPatch;", cancellable = true)
+    private static void getBannerComponentPatch_3045703(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(3045703L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "getOminousBannerTemplate(Lnet/minecraft/core/HolderGetter;)Lnet/minecraft/world/item/ItemStackTemplate;", cancellable = true)
     private static void getOminousBannerTemplate_2100783976(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2100783976L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getAllRaiders()Ljava/util/Set;", cancellable = true)
-    private void getAllRaiders__1336924852(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1336924852L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getMaxRaidOmenLevel()I", cancellable = true)
-    private void getMaxRaidOmenLevel_530372880(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(530372880L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getRaidOmenLevel()I", cancellable = true)
-    private void getRaidOmenLevel_530372880(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(530372880L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "setRaidOmenLevel(I)V", cancellable = true)
-    private void setRaidOmenLevel_1706027606(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1706027606L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "getGroupsSpawned()I", cancellable = true)
-    private void getGroupsSpawned_530372880(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(530372880L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getTotalRaidersAlive()I", cancellable = true)
-    private void getTotalRaidersAlive_530372880(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(530372880L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getTotalHealth()F", cancellable = true)
-    private void getTotalHealth_530369997(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(530369997L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getOminousBannerInstance(Lnet/minecraft/core/HolderGetter;)Lnet/minecraft/world/item/ItemStack;", cancellable = true)
-    private static void getOminousBannerInstance__1569541822(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1569541822L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getHealthOfLivingRaiders()F", cancellable = true)
-    private void getHealthOfLivingRaiders_530369997(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(530369997L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "addWaveMob(Lnet/minecraft/server/level/ServerLevel;ILnet/minecraft/world/entity/raid/Raider;Z)Z", cancellable = true)
-    private void addWaveMob_1446736021(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1446736021L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getLeader(I)Lnet/minecraft/world/entity/raid/Raider;", cancellable = true)
-    private void getLeader__210005346(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-210005346L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "setLeader(ILnet/minecraft/world/entity/raid/Raider;)V", cancellable = true)
-    private void setLeader_319661988(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(319661988L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "isVictory()Z", cancellable = true)
-    private void isVictory_530389217(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(530389217L))
             info.setReturnValue(null);
     }
 
@@ -151,9 +85,81 @@ public class Raid492110634Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "removeFromRaid(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/raid/Raider;Z)V", cancellable = true)
-    private void removeFromRaid_354825896(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(354825896L))
+    @Inject(at = @At("HEAD"), method = "getLeader(I)Lnet/minecraft/world/entity/raid/Raider;", cancellable = true)
+    private void getLeader__210005346(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-210005346L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "setLeader(ILnet/minecraft/world/entity/raid/Raider;)V", cancellable = true)
+    private void setLeader_319661988(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(319661988L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "addWaveMob(Lnet/minecraft/server/level/ServerLevel;ILnet/minecraft/world/entity/raid/Raider;Z)Z", cancellable = true)
+    private void addWaveMob_1446736021(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1446736021L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "setRaidOmenLevel(I)V", cancellable = true)
+    private void setRaidOmenLevel_1706027606(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1706027606L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getAllRaiders()Ljava/util/Set;", cancellable = true)
+    private void getAllRaiders__1336924852(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1336924852L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getMaxRaidOmenLevel()I", cancellable = true)
+    private void getMaxRaidOmenLevel_530372880(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(530372880L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getRaidOmenLevel()I", cancellable = true)
+    private void getRaidOmenLevel_530372880(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(530372880L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getTotalHealth()F", cancellable = true)
+    private void getTotalHealth_530369997(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(530369997L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getGroupsSpawned()I", cancellable = true)
+    private void getGroupsSpawned_530372880(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(530372880L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getHealthOfLivingRaiders()F", cancellable = true)
+    private void getHealthOfLivingRaiders_530369997(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(530369997L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getOminousBannerInstance(Lnet/minecraft/core/HolderGetter;)Lnet/minecraft/world/item/ItemStack;", cancellable = true)
+    private static void getOminousBannerInstance__1569541822(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1569541822L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getTotalRaidersAlive()I", cancellable = true)
+    private void getTotalRaidersAlive_530372880(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(530372880L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "removeLeader(I)V", cancellable = true)
+    private void removeLeader_1706027606(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1706027606L))
             info.cancel();
     }
 
@@ -163,9 +169,9 @@ public class Raid492110634Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "removeLeader(I)V", cancellable = true)
-    private void removeLeader_1706027606(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1706027606L))
+    @Inject(at = @At("HEAD"), method = "removeFromRaid(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/raid/Raider;Z)V", cancellable = true)
+    private void removeFromRaid_354825896(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(354825896L))
             info.cancel();
     }
 
@@ -173,12 +179,6 @@ public class Raid492110634Mixin {
     private void updateBossbar_530385373(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(530385373L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "absorbRaidOmen(Lnet/minecraft/server/level/ServerPlayer;)Z", cancellable = true)
-    private void absorbRaidOmen__277447375(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-277447375L))
-            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getEnchantOdds()F", cancellable = true)
@@ -193,15 +193,15 @@ public class Raid492110634Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "hasFirstWaveSpawned()Z", cancellable = true)
-    private void hasFirstWaveSpawned_530389217(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "isVictory()Z", cancellable = true)
+    private void isVictory_530389217(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(530389217L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "isBetweenWaves()Z", cancellable = true)
-    private void isBetweenWaves_530389217(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(530389217L))
+    @Inject(at = @At("HEAD"), method = "absorbRaidOmen(Lnet/minecraft/server/level/ServerPlayer;)Z", cancellable = true)
+    private void absorbRaidOmen__277447375(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-277447375L))
             info.setReturnValue(null);
     }
 

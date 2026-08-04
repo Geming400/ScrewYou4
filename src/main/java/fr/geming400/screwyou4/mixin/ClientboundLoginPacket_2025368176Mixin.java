@@ -49,15 +49,51 @@ public class ClientboundLoginPacket_2025368176Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "chunkRadius()I", cancellable = true)
+    private void chunkRadius_2063630421(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2063630421L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "enforcesSecureChat()Z", cancellable = true)
+    private void enforcesSecureChat_2063646758(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2063646758L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "commonPlayerSpawnInfo()Lnet/minecraft/network/protocol/game/CommonPlayerSpawnInfo;", cancellable = true)
+    private void commonPlayerSpawnInfo_1320178417(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1320178417L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "showDeathScreen()Z", cancellable = true)
+    private void showDeathScreen_2063646758(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2063646758L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "doLimitedCrafting()Z", cancellable = true)
+    private void doLimitedCrafting_2063646758(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2063646758L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "simulationDistance()I", cancellable = true)
     private void simulationDistance_2063630421(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2063630421L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "reducedDebugInfo()Z", cancellable = true)
-    private void reducedDebugInfo_2063646758(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "hardcore()Z", cancellable = true)
+    private void hardcore_2063646758(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2063646758L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "maxPlayers()I", cancellable = true)
+    private void maxPlayers_2063630421(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2063630421L))
             info.setReturnValue(null);
     }
 
@@ -73,45 +109,9 @@ public class ClientboundLoginPacket_2025368176Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "hardcore()Z", cancellable = true)
-    private void hardcore_2063646758(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "reducedDebugInfo()Z", cancellable = true)
+    private void reducedDebugInfo_2063646758(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2063646758L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "chunkRadius()I", cancellable = true)
-    private void chunkRadius_2063630421(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2063630421L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "showDeathScreen()Z", cancellable = true)
-    private void showDeathScreen_2063646758(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2063646758L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "commonPlayerSpawnInfo()Lnet/minecraft/network/protocol/game/CommonPlayerSpawnInfo;", cancellable = true)
-    private void commonPlayerSpawnInfo_1320178417(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1320178417L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "doLimitedCrafting()Z", cancellable = true)
-    private void doLimitedCrafting_2063646758(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2063646758L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "enforcesSecureChat()Z", cancellable = true)
-    private void enforcesSecureChat_2063646758(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2063646758L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "maxPlayers()I", cancellable = true)
-    private void maxPlayers_2063630421(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2063630421L))
             info.setReturnValue(null);
     }
 

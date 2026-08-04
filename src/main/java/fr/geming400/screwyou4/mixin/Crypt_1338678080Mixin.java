@@ -13,12 +13,6 @@ public class Crypt_1338678080Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "byteToPublicKey([B)Ljava/security/PublicKey;", cancellable = true)
-    private static void byteToPublicKey_438117902(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(438117902L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "stringToPemRsaPrivateKey(Ljava/lang/String;)Ljava/security/PrivateKey;", cancellable = true)
     private static void stringToPemRsaPrivateKey__194490979(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-194490979L))
@@ -49,12 +43,6 @@ public class Crypt_1338678080Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "decryptUsingKey(Ljava/security/Key;[B)[B", cancellable = true)
-    private static void decryptUsingKey__1421831556(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1421831556L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "encryptUsingKey(Ljava/security/Key;[B)[B", cancellable = true)
     private static void encryptUsingKey__1421831556(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1421831556L))
@@ -67,15 +55,27 @@ public class Crypt_1338678080Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "pemRsaPrivateKeyToString(Ljava/security/PrivateKey;)Ljava/lang/String;", cancellable = true)
-    private static void pemRsaPrivateKeyToString__2006755857(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2006755857L))
+    @Inject(at = @At("HEAD"), method = "decryptUsingKey(Ljava/security/Key;[B)[B", cancellable = true)
+    private static void decryptUsingKey__1421831556(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1421831556L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "rsaPublicKeyToString(Ljava/security/PublicKey;)Ljava/lang/String;", cancellable = true)
     private static void rsaPublicKeyToString__2124713987(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2124713987L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "pemRsaPrivateKeyToString(Ljava/security/PrivateKey;)Ljava/lang/String;", cancellable = true)
+    private static void pemRsaPrivateKeyToString__2006755857(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2006755857L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "byteToPublicKey([B)Ljava/security/PublicKey;", cancellable = true)
+    private static void byteToPublicKey_438117902(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(438117902L))
             info.setReturnValue(null);
     }
 

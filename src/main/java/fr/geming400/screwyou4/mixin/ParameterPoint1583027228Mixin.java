@@ -49,14 +49,14 @@ public class ParameterPoint1583027228Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "weirdness()Lnet/minecraft/world/level/biome/Climate$Parameter;", cancellable = true)
-    private void weirdness_1059231553(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "continentalness()Lnet/minecraft/world/level/biome/Climate$Parameter;", cancellable = true)
+    private void continentalness_1059231553(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1059231553L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "continentalness()Lnet/minecraft/world/level/biome/Climate$Parameter;", cancellable = true)
-    private void continentalness_1059231553(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "weirdness()Lnet/minecraft/world/level/biome/Climate$Parameter;", cancellable = true)
+    private void weirdness_1059231553(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1059231553L))
             info.setReturnValue(null);
     }

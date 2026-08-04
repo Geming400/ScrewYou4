@@ -13,8 +13,8 @@ public class Cursor3D_663331885Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "nextX()I", cancellable = true)
-    private void nextX_701594130(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "nextY()I", cancellable = true)
+    private void nextY_701594130(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(701594130L))
             info.setReturnValue(null);
     }
@@ -25,8 +25,8 @@ public class Cursor3D_663331885Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "nextY()I", cancellable = true)
-    private void nextY_701594130(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "nextX()I", cancellable = true)
+    private void nextX_701594130(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(701594130L))
             info.setReturnValue(null);
     }

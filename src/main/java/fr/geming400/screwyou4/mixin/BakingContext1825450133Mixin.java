@@ -31,21 +31,9 @@ public class BakingContext1825450133Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "sprites()Lnet/minecraft/client/resources/model/sprite/SpriteGetter;", cancellable = true)
-    private void sprites__1424349335(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1424349335L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "entityModelSet()Lnet/minecraft/client/model/geom/EntityModelSet;", cancellable = true)
     private void entityModelSet_41006186(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(41006186L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "contextSwapper()Lnet/minecraft/util/RegistryContextSwapper;", cancellable = true)
-    private void contextSwapper_623936456(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(623936456L))
             info.setReturnValue(null);
     }
 
@@ -55,15 +43,27 @@ public class BakingContext1825450133Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "missingItemModel(Lorg/joml/Matrix4fc;)Lnet/minecraft/client/renderer/item/MissingItemModel;", cancellable = true)
-    private void missingItemModel_250788616(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(250788616L))
+    @Inject(at = @At("HEAD"), method = "contextSwapper()Lnet/minecraft/util/RegistryContextSwapper;", cancellable = true)
+    private void contextSwapper_623936456(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(623936456L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "missingItemModel()Lnet/minecraft/client/renderer/item/MissingItemModel;", cancellable = true)
     private void missingItemModel__803675671(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-803675671L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "missingItemModel(Lorg/joml/Matrix4fc;)Lnet/minecraft/client/renderer/item/MissingItemModel;", cancellable = true)
+    private void missingItemModel_250788616(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(250788616L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "sprites()Lnet/minecraft/client/resources/model/sprite/SpriteGetter;", cancellable = true)
+    private void sprites__1424349335(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1424349335L))
             info.setReturnValue(null);
     }
 

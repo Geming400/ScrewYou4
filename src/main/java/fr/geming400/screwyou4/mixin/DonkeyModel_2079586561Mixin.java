@@ -7,14 +7,14 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.client.model.animal.equine.DonkeyModel.class)
 public class DonkeyModel_2079586561Mixin {
-        @Inject(at = @At("HEAD"), method = "createSaddleLayer(F)Lnet/minecraft/client/model/geom/builders/LayerDefinition;", cancellable = true)
-    private static void createSaddleLayer__1088361210(CallbackInfoReturnable<Object> info) {
+        @Inject(at = @At("HEAD"), method = "createBodyLayer(F)Lnet/minecraft/client/model/geom/builders/LayerDefinition;", cancellable = true)
+    private static void createBodyLayer__1088361210(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1088361210L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "createBodyLayer(F)Lnet/minecraft/client/model/geom/builders/LayerDefinition;", cancellable = true)
-    private static void createBodyLayer__1088361210(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "createSaddleLayer(F)Lnet/minecraft/client/model/geom/builders/LayerDefinition;", cancellable = true)
+    private static void createSaddleLayer__1088361210(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1088361210L))
             info.setReturnValue(null);
     }

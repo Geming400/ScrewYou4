@@ -43,6 +43,12 @@ public class Line1945947318Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "getTagIconLeft(Lnet/minecraft/client/gui/Font;)I", cancellable = true)
+    private void getTagIconLeft_975161600(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(975161600L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "addedTime()I", cancellable = true)
     private void addedTime_1984209564(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1984209564L))
@@ -52,12 +58,6 @@ public class Line1945947318Mixin {
     @Inject(at = @At("HEAD"), method = "endOfEntry()Z", cancellable = true)
     private void endOfEntry_1984225901(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1984225901L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getTagIconLeft(Lnet/minecraft/client/gui/Font;)I", cancellable = true)
-    private void getTagIconLeft_975161600(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(975161600L))
             info.setReturnValue(null);
     }
 

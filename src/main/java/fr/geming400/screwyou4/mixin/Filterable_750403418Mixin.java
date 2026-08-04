@@ -55,12 +55,6 @@ public class Filterable_750403418Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "passThrough(Ljava/lang/Object;)Lnet/minecraft/server/network/Filterable;", cancellable = true)
-    private static void passThrough_633897286(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(633897286L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "filtered()Ljava/util/Optional;", cancellable = true)
     private void filtered_995864839(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(995864839L))
@@ -70,6 +64,12 @@ public class Filterable_750403418Mixin {
     @Inject(at = @At("HEAD"), method = "codec(Lcom/mojang/serialization/Codec;)Lcom/mojang/serialization/Codec;", cancellable = true)
     private static void codec_1234081392(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1234081392L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "passThrough(Ljava/lang/Object;)Lnet/minecraft/server/network/Filterable;", cancellable = true)
+    private static void passThrough_633897286(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(633897286L))
             info.setReturnValue(null);
     }
 

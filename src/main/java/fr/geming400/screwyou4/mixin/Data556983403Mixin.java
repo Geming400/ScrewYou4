@@ -37,6 +37,12 @@ public class Data556983403Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "expiresAt()Ljava/time/Instant;", cancellable = true)
+    private void expiresAt_1654217603(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1654217603L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "hasExpired(Ljava/time/Duration;)Z", cancellable = true)
     private void hasExpired__208349400(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-208349400L))
@@ -46,12 +52,6 @@ public class Data556983403Mixin {
     @Inject(at = @At("HEAD"), method = "hasExpired()Z", cancellable = true)
     private void hasExpired_595261986(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(595261986L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "expiresAt()Ljava/time/Instant;", cancellable = true)
-    private void expiresAt_1654217603(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1654217603L))
             info.setReturnValue(null);
     }
 

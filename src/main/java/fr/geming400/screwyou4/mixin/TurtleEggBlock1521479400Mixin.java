@@ -13,15 +13,15 @@ public class TurtleEggBlock1521479400Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "fallOn(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/Entity;D)V", cancellable = true)
-    private void fallOn__1399683060(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1399683060L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "stepOn(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/entity/Entity;)V", cancellable = true)
     private void stepOn_836281024(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(836281024L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "fallOn(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/Entity;D)V", cancellable = true)
+    private void fallOn__1399683060(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1399683060L))
             info.cancel();
     }
 
@@ -37,15 +37,15 @@ public class TurtleEggBlock1521479400Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
-    private void getStateForPlacement_262879633(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(262879633L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "isSand(Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)Z", cancellable = true)
     private static void isSand_943950672(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(943950672L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
+    private void getStateForPlacement_262879633(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(262879633L))
             info.setReturnValue(null);
     }
 

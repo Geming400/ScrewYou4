@@ -37,6 +37,12 @@ public class AdvancementTabType_811172303Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "getHeight()I", cancellable = true)
+    private void getHeight_849434548(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(849434548L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "getWidth()I", cancellable = true)
     private void getWidth_849434548(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(849434548L))
@@ -49,21 +55,15 @@ public class AdvancementTabType_811172303Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "isMouseOver(IIIDD)Z", cancellable = true)
-    private void isMouseOver__804275938(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-804275938L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "extractIcon(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIILnet/minecraft/world/item/ItemStack;)V", cancellable = true)
     private void extractIcon_438549930(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(438549930L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getHeight()I", cancellable = true)
-    private void getHeight_849434548(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(849434548L))
+    @Inject(at = @At("HEAD"), method = "isMouseOver(IIIDD)Z", cancellable = true)
+    private void isMouseOver__804275938(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-804275938L))
             info.setReturnValue(null);
     }
 

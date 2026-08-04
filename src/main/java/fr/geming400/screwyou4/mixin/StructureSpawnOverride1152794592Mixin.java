@@ -25,15 +25,15 @@ public class StructureSpawnOverride1152794592Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "spawns()Lnet/minecraft/util/random/WeightedList;", cancellable = true)
-    private void spawns_646310726(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(646310726L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "boundingBox()Lnet/minecraft/world/level/levelgen/structure/StructureSpawnOverride$BoundingBoxType;", cancellable = true)
     private void boundingBox__2133230032(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2133230032L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "spawns()Lnet/minecraft/util/random/WeightedList;", cancellable = true)
+    private void spawns_646310726(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(646310726L))
             info.setReturnValue(null);
     }
 

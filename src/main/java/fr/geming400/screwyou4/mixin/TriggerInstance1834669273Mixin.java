@@ -43,18 +43,6 @@ public class TriggerInstance1834669273Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "gotEffectsFrom(Lnet/minecraft/advancements/predicates/entity/EntityPredicate$Builder;)Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
-    private static void gotEffectsFrom_131684837(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(131684837L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "player()Ljava/util/Optional;", cancellable = true)
-    private void player_2080130695(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2080130695L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "effects()Ljava/util/Optional;", cancellable = true)
     private void effects_2080130695(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2080130695L))
@@ -64,6 +52,18 @@ public class TriggerInstance1834669273Mixin {
     @Inject(at = @At("HEAD"), method = "hasEffects(Lnet/minecraft/advancements/predicates/MobEffectsPredicate$Builder;)Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
     private static void hasEffects_1431756726(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1431756726L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "player()Ljava/util/Optional;", cancellable = true)
+    private void player_2080130695(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2080130695L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "gotEffectsFrom(Lnet/minecraft/advancements/predicates/entity/EntityPredicate$Builder;)Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
+    private static void gotEffectsFrom_131684837(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(131684837L))
             info.setReturnValue(null);
     }
 

@@ -37,15 +37,15 @@ public class Enum643981157Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "valueListSupplier()Lnet/minecraft/client/gui/components/CycleButton$ValueListSupplier;", cancellable = true)
-    private void valueListSupplier__1372254705(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1372254705L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/Codec;", cancellable = true)
     private void codec_252015531(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(252015531L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "valueListSupplier()Lnet/minecraft/client/gui/components/CycleButton$ValueListSupplier;", cancellable = true)
+    private void valueListSupplier__1372254705(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1372254705L))
             info.setReturnValue(null);
     }
 

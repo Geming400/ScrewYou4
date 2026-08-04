@@ -43,9 +43,9 @@ public class Parameters41054467Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "playerPrefix()Lnet/minecraft/network/chat/Component;", cancellable = true)
-    private void playerPrefix__2135854698(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2135854698L))
+    @Inject(at = @At("HEAD"), method = "collisionRule()Lnet/minecraft/world/scores/Team$CollisionRule;", cancellable = true)
+    private void collisionRule__236026749(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-236026749L))
             info.setReturnValue(null);
     }
 
@@ -55,15 +55,15 @@ public class Parameters41054467Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "playerSuffix()Lnet/minecraft/network/chat/Component;", cancellable = true)
-    private void playerSuffix__2135854698(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "playerPrefix()Lnet/minecraft/network/chat/Component;", cancellable = true)
+    private void playerPrefix__2135854698(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2135854698L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "collisionRule()Lnet/minecraft/world/scores/Team$CollisionRule;", cancellable = true)
-    private void collisionRule__236026749(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-236026749L))
+    @Inject(at = @At("HEAD"), method = "playerSuffix()Lnet/minecraft/network/chat/Component;", cancellable = true)
+    private void playerSuffix__2135854698(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2135854698L))
             info.setReturnValue(null);
     }
 

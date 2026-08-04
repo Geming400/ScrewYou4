@@ -37,15 +37,15 @@ public class UserBanList_115098444Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getUserList()[Ljava/lang/String;", cancellable = true)
-    private void getUserList_1465131725(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1465131725L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "isBanned(Lnet/minecraft/server/players/NameAndId;)Z", cancellable = true)
     private void isBanned_920305119(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(920305119L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getUserList()[Ljava/lang/String;", cancellable = true)
+    private void getUserList_1465131725(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1465131725L))
             info.setReturnValue(null);
     }
 

@@ -25,15 +25,15 @@ public class Builder_432630792Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "overrideDispenseEvent(I)Lnet/minecraft/world/item/ProjectileItem$DispenseConfig$Builder;", cancellable = true)
-    private void overrideDispenseEvent__1005667543(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1005667543L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "uncertainty(F)Lnet/minecraft/world/item/ProjectileItem$DispenseConfig$Builder;", cancellable = true)
     private void uncertainty__289094132(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-289094132L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "overrideDispenseEvent(I)Lnet/minecraft/world/item/ProjectileItem$DispenseConfig$Builder;", cancellable = true)
+    private void overrideDispenseEvent__1005667543(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1005667543L))
             info.setReturnValue(null);
     }
 

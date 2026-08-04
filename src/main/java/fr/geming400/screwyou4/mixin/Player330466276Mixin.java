@@ -43,6 +43,12 @@ public class Player330466276Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "toHeadingComponent()Lnet/minecraft/network/chat/Component;", cancellable = true)
+    private void toHeadingComponent__1846442889(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1846442889L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "toNarrationComponent()Lnet/minecraft/network/chat/Component;", cancellable = true)
     private void toNarrationComponent__1846442889(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1846442889L))
@@ -55,15 +61,9 @@ public class Player330466276Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "toHeadingComponent()Lnet/minecraft/network/chat/Component;", cancellable = true)
-    private void toHeadingComponent__1846442889(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1846442889L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "profileId()Ljava/util/UUID;", cancellable = true)
-    private void profileId_741600759(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(741600759L))
+    @Inject(at = @At("HEAD"), method = "trustLevel()Lnet/minecraft/client/multiplayer/chat/ChatTrustLevel;", cancellable = true)
+    private void trustLevel_1828448956(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1828448956L))
             info.setReturnValue(null);
     }
 
@@ -73,9 +73,9 @@ public class Player330466276Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "trustLevel()Lnet/minecraft/client/multiplayer/chat/ChatTrustLevel;", cancellable = true)
-    private void trustLevel_1828448956(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1828448956L))
+    @Inject(at = @At("HEAD"), method = "profileId()Ljava/util/UUID;", cancellable = true)
+    private void profileId_741600759(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(741600759L))
             info.setReturnValue(null);
     }
 

@@ -49,15 +49,15 @@ public class Rotation1925326290Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getRotated(Lnet/minecraft/world/level/block/Rotation;)Lnet/minecraft/world/level/block/Rotation;", cancellable = true)
-    private void getRotated_1597706737(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1597706737L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getShuffled(Lnet/minecraft/util/RandomSource;)Ljava/util/List;", cancellable = true)
     private static void getShuffled_1881809754(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1881809754L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getRotated(Lnet/minecraft/world/level/block/Rotation;)Lnet/minecraft/world/level/block/Rotation;", cancellable = true)
+    private void getRotated_1597706737(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1597706737L))
             info.setReturnValue(null);
     }
 

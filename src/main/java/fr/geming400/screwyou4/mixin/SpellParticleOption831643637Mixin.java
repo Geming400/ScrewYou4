@@ -31,8 +31,8 @@ public class SpellParticleOption831643637Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getBlue()F", cancellable = true)
-    private void getBlue_869903000(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "getPower()F", cancellable = true)
+    private void getPower_869903000(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(869903000L))
             info.setReturnValue(null);
     }
@@ -43,14 +43,14 @@ public class SpellParticleOption831643637Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getGreen()F", cancellable = true)
-    private void getGreen_869903000(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "getBlue()F", cancellable = true)
+    private void getBlue_869903000(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(869903000L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getPower()F", cancellable = true)
-    private void getPower_869903000(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "getGreen()F", cancellable = true)
+    private void getGreen_869903000(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(869903000L))
             info.setReturnValue(null);
     }

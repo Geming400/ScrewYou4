@@ -7,15 +7,15 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.world.entity.boss.wither.WitherBoss.class)
 public class WitherBoss_1945964544Mixin {
-        @Inject(at = @At("HEAD"), method = "canBeAffected(Lnet/minecraft/world/effect/MobEffectInstance;)Z", cancellable = true)
-    private void canBeAffected_2101836620(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2101836620L))
-            info.setReturnValue(null);
+        @Inject(at = @At("HEAD"), method = "performRangedAttack(Lnet/minecraft/world/entity/LivingEntity;F)V", cancellable = true)
+    private void performRangedAttack__942744584(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-942744584L))
+            info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "canUsePortal(Z)Z", cancellable = true)
-    private void canUsePortal__1119382080(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1119382080L))
+    @Inject(at = @At("HEAD"), method = "createAttributes()Lnet/minecraft/world/entity/ai/attributes/AttributeSupplier$Builder;", cancellable = true)
+    private static void createAttributes_1245746098(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1245746098L))
             info.setReturnValue(null);
     }
 
@@ -49,9 +49,21 @@ public class WitherBoss_1945964544Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "isPowered()Z", cancellable = true)
-    private void isPowered_1984243126(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1984243126L))
+    @Inject(at = @At("HEAD"), method = "getInvulnerableTicks()I", cancellable = true)
+    private void getInvulnerableTicks_1984226789(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1984226789L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getHeadYRots()[F", cancellable = true)
+    private void getHeadYRots__1163164279(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1163164279L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getHeadXRots()[F", cancellable = true)
+    private void getHeadXRots__1163164279(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1163164279L))
             info.setReturnValue(null);
     }
 
@@ -73,33 +85,33 @@ public class WitherBoss_1945964544Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "createAttributes()Lnet/minecraft/world/entity/ai/attributes/AttributeSupplier$Builder;", cancellable = true)
-    private static void createAttributes_1245746098(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1245746098L))
+    @Inject(at = @At("HEAD"), method = "isPowered()Z", cancellable = true)
+    private void isPowered_1984243126(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1984243126L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getInvulnerableTicks()I", cancellable = true)
-    private void getInvulnerableTicks_1984226789(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1984226789L))
+    @Inject(at = @At("HEAD"), method = "canBeAffected(Lnet/minecraft/world/effect/MobEffectInstance;)Z", cancellable = true)
+    private void canBeAffected_2101836620(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2101836620L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getHeadYRots()[F", cancellable = true)
-    private void getHeadYRots__1163164279(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1163164279L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getHeadXRots()[F", cancellable = true)
-    private void getHeadXRots__1163164279(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1163164279L))
+    @Inject(at = @At("HEAD"), method = "canUsePortal(Z)Z", cancellable = true)
+    private void canUsePortal__1119382080(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1119382080L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "canDestroy(Lnet/minecraft/world/level/block/state/BlockState;)Z", cancellable = true)
     private static void canDestroy_1800675805(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1800675805L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getAlternativeTarget(I)I", cancellable = true)
+    private void getAlternativeTarget__1135098274(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1135098274L))
             info.setReturnValue(null);
     }
 
@@ -118,18 +130,6 @@ public class WitherBoss_1945964544Mixin {
     @Inject(at = @At("HEAD"), method = "makeInvulnerable()V", cancellable = true)
     private void makeInvulnerable_1984239282(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1984239282L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "getAlternativeTarget(I)I", cancellable = true)
-    private void getAlternativeTarget__1135098274(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1135098274L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "performRangedAttack(Lnet/minecraft/world/entity/LivingEntity;F)V", cancellable = true)
-    private void performRangedAttack__942744584(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-942744584L))
             info.cancel();
     }
 

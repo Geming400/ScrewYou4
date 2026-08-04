@@ -19,6 +19,30 @@ public class MinecraftServerSettingsServiceImpl1224913386Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "getViewDistance()I", cancellable = true)
+    private void getViewDistance_1263175632(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1263175632L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "setMotd(Ljava/lang/String;Lnet/minecraft/server/jsonrpc/methods/ClientInfo;)Ljava/lang/String;", cancellable = true)
+    private void setMotd__332688346(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-332688346L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isAutoSave()Z", cancellable = true)
+    private void isAutoSave_1263191969(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1263191969L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getMotd()Ljava/lang/String;", cancellable = true)
+    private void getMotd_89452915(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(89452915L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "getGameMode()Lnet/minecraft/world/level/GameType;", cancellable = true)
     private void getGameMode__170532912(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-170532912L))
@@ -31,14 +55,32 @@ public class MinecraftServerSettingsServiceImpl1224913386Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getMotd()Ljava/lang/String;", cancellable = true)
-    private void getMotd_89452915(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(89452915L))
+    @Inject(at = @At("HEAD"), method = "getPauseWhenEmptySeconds()I", cancellable = true)
+    private void getPauseWhenEmptySeconds_1263175632(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1263175632L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getViewDistance()I", cancellable = true)
-    private void getViewDistance_1263175632(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "getPlayerIdleTimeout()I", cancellable = true)
+    private void getPlayerIdleTimeout_1263175632(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1263175632L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getSpawnProtectionRadius()I", cancellable = true)
+    private void getSpawnProtectionRadius_1263175632(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1263175632L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getOperatorUserPermissions()Lnet/minecraft/server/permissions/LevelBasedPermissionSet;", cancellable = true)
+    private void getOperatorUserPermissions_2038019799(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2038019799L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getStatusHeartbeatInterval()I", cancellable = true)
+    private void getStatusHeartbeatInterval_1263175632(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1263175632L))
             info.setReturnValue(null);
     }
@@ -61,14 +103,20 @@ public class MinecraftServerSettingsServiceImpl1224913386Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "isUsingWhitelist()Z", cancellable = true)
+    private void isUsingWhitelist_1263191969(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1263191969L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "setSimulationDistance(ILnet/minecraft/server/jsonrpc/methods/ClientInfo;)I", cancellable = true)
     private void setSimulationDistance_378863662(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(378863662L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "isUsingWhitelist()Z", cancellable = true)
-    private void isUsingWhitelist_1263191969(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "isEnforceWhitelist()Z", cancellable = true)
+    private void isEnforceWhitelist_1263191969(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1263191969L))
             info.setReturnValue(null);
     }
@@ -97,26 +145,8 @@ public class MinecraftServerSettingsServiceImpl1224913386Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "isEnforceWhitelist()Z", cancellable = true)
-    private void isEnforceWhitelist_1263191969(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1263191969L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "setEnforceWhitelist(ZLnet/minecraft/server/jsonrpc/methods/ClientInfo;)Z", cancellable = true)
-    private void setEnforceWhitelist__764893042(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-764893042L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "setUsingWhitelist(ZLnet/minecraft/server/jsonrpc/methods/ClientInfo;)Z", cancellable = true)
     private void setUsingWhitelist__764893042(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-764893042L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "setAutoSave(ZLnet/minecraft/server/jsonrpc/methods/ClientInfo;)Z", cancellable = true)
-    private void setAutoSave__764893042(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-764893042L))
             info.setReturnValue(null);
     }
@@ -127,21 +157,15 @@ public class MinecraftServerSettingsServiceImpl1224913386Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "setMotd(Ljava/lang/String;Lnet/minecraft/server/jsonrpc/methods/ClientInfo;)Ljava/lang/String;", cancellable = true)
-    private void setMotd__332688346(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-332688346L))
+    @Inject(at = @At("HEAD"), method = "setAutoSave(ZLnet/minecraft/server/jsonrpc/methods/ClientInfo;)Z", cancellable = true)
+    private void setAutoSave__764893042(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-764893042L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "isAutoSave()Z", cancellable = true)
-    private void isAutoSave_1263191969(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1263191969L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "setEntityBroadcastRangePercentage(ILnet/minecraft/server/jsonrpc/methods/ClientInfo;)I", cancellable = true)
-    private void setEntityBroadcastRangePercentage_378863662(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(378863662L))
+    @Inject(at = @At("HEAD"), method = "setEnforceWhitelist(ZLnet/minecraft/server/jsonrpc/methods/ClientInfo;)Z", cancellable = true)
+    private void setEnforceWhitelist__764893042(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-764893042L))
             info.setReturnValue(null);
     }
 
@@ -151,50 +175,8 @@ public class MinecraftServerSettingsServiceImpl1224913386Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "forceGameMode()Z", cancellable = true)
-    private void forceGameMode_1263191969(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1263191969L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "setRepliesToStatus(ZLnet/minecraft/server/jsonrpc/methods/ClientInfo;)Z", cancellable = true)
-    private void setRepliesToStatus__764893042(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-764893042L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "setAllowFlight(ZLnet/minecraft/server/jsonrpc/methods/ClientInfo;)Z", cancellable = true)
-    private void setAllowFlight__764893042(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-764893042L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "setMaxPlayers(ILnet/minecraft/server/jsonrpc/methods/ClientInfo;)I", cancellable = true)
-    private void setMaxPlayers_378863662(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(378863662L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "setForceGameMode(ZLnet/minecraft/server/jsonrpc/methods/ClientInfo;)Z", cancellable = true)
-    private void setForceGameMode__764893042(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-764893042L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "setSpawnProtectionRadius(ILnet/minecraft/server/jsonrpc/methods/ClientInfo;)I", cancellable = true)
-    private void setSpawnProtectionRadius_378863662(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(378863662L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "setAcceptsTransfers(ZLnet/minecraft/server/jsonrpc/methods/ClientInfo;)Z", cancellable = true)
-    private void setAcceptsTransfers__764893042(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-764893042L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "setPauseWhenEmptySeconds(ILnet/minecraft/server/jsonrpc/methods/ClientInfo;)I", cancellable = true)
-    private void setPauseWhenEmptySeconds_378863662(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "setEntityBroadcastRangePercentage(ILnet/minecraft/server/jsonrpc/methods/ClientInfo;)I", cancellable = true)
+    private void setEntityBroadcastRangePercentage_378863662(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(378863662L))
             info.setReturnValue(null);
     }
@@ -211,39 +193,57 @@ public class MinecraftServerSettingsServiceImpl1224913386Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "setForceGameMode(ZLnet/minecraft/server/jsonrpc/methods/ClientInfo;)Z", cancellable = true)
+    private void setForceGameMode__764893042(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-764893042L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "setOperatorUserPermissions(Lnet/minecraft/server/permissions/LevelBasedPermissionSet;Lnet/minecraft/server/jsonrpc/methods/ClientInfo;)Lnet/minecraft/server/permissions/LevelBasedPermissionSet;", cancellable = true)
     private void setOperatorUserPermissions__2026629394(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2026629394L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getPlayerIdleTimeout()I", cancellable = true)
-    private void getPlayerIdleTimeout_1263175632(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1263175632L))
+    @Inject(at = @At("HEAD"), method = "setAllowFlight(ZLnet/minecraft/server/jsonrpc/methods/ClientInfo;)Z", cancellable = true)
+    private void setAllowFlight__764893042(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-764893042L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getStatusHeartbeatInterval()I", cancellable = true)
-    private void getStatusHeartbeatInterval_1263175632(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1263175632L))
+    @Inject(at = @At("HEAD"), method = "setSpawnProtectionRadius(ILnet/minecraft/server/jsonrpc/methods/ClientInfo;)I", cancellable = true)
+    private void setSpawnProtectionRadius_378863662(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(378863662L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getSpawnProtectionRadius()I", cancellable = true)
-    private void getSpawnProtectionRadius_1263175632(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1263175632L))
+    @Inject(at = @At("HEAD"), method = "setRepliesToStatus(ZLnet/minecraft/server/jsonrpc/methods/ClientInfo;)Z", cancellable = true)
+    private void setRepliesToStatus__764893042(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-764893042L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getOperatorUserPermissions()Lnet/minecraft/server/permissions/LevelBasedPermissionSet;", cancellable = true)
-    private void getOperatorUserPermissions_2038019799(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2038019799L))
+    @Inject(at = @At("HEAD"), method = "setPauseWhenEmptySeconds(ILnet/minecraft/server/jsonrpc/methods/ClientInfo;)I", cancellable = true)
+    private void setPauseWhenEmptySeconds_378863662(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(378863662L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getPauseWhenEmptySeconds()I", cancellable = true)
-    private void getPauseWhenEmptySeconds_1263175632(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1263175632L))
+    @Inject(at = @At("HEAD"), method = "forceGameMode()Z", cancellable = true)
+    private void forceGameMode_1263191969(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1263191969L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "setMaxPlayers(ILnet/minecraft/server/jsonrpc/methods/ClientInfo;)I", cancellable = true)
+    private void setMaxPlayers_378863662(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(378863662L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "setAcceptsTransfers(ZLnet/minecraft/server/jsonrpc/methods/ClientInfo;)Z", cancellable = true)
+    private void setAcceptsTransfers__764893042(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-764893042L))
             info.setReturnValue(null);
     }
 

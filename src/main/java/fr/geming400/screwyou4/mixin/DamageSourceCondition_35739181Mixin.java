@@ -25,15 +25,15 @@ public class DamageSourceCondition_35739181Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "test(Ljava/lang/Object;)Z", cancellable = true)
-    private void test_1421379903(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1421379903L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "test(Lnet/minecraft/world/level/storage/loot/LootContext;)Z", cancellable = true)
     private void test_1953757378(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1953757378L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "test(Ljava/lang/Object;)Z", cancellable = true)
+    private void test_1421379903(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1421379903L))
             info.setReturnValue(null);
     }
 
@@ -49,15 +49,15 @@ public class DamageSourceCondition_35739181Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "hasDamageSource(Lnet/minecraft/advancements/predicates/DamageSourcePredicate$Builder;)Lnet/minecraft/world/level/storage/loot/predicates/LootItemCondition$Builder;", cancellable = true)
-    private static void hasDamageSource__279612469(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-279612469L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getReferencedContextParams()Ljava/util/Set;", cancellable = true)
     private void getReferencedContextParams__1793296306(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1793296306L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "hasDamageSource(Lnet/minecraft/advancements/predicates/DamageSourcePredicate$Builder;)Lnet/minecraft/world/level/storage/loot/predicates/LootItemCondition$Builder;", cancellable = true)
+    private static void hasDamageSource__279612469(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-279612469L))
             info.setReturnValue(null);
     }
 

@@ -43,15 +43,15 @@ public class TriggerInstance_475203576Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "summonedEntity(Lnet/minecraft/advancements/predicates/entity/EntityPredicate$Builder;)Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
-    private static void summonedEntity__1227780861(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1227780861L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "player()Ljava/util/Optional;", cancellable = true)
     private void player_720664997(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(720664997L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "summonedEntity(Lnet/minecraft/advancements/predicates/entity/EntityPredicate$Builder;)Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
+    private static void summonedEntity__1227780861(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1227780861L))
             info.setReturnValue(null);
     }
 

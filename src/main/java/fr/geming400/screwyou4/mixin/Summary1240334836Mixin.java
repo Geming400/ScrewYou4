@@ -31,15 +31,15 @@ public class Summary1240334836Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "totalBytes()J", cancellable = true)
-    private void totalBytes_1278598043(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1278598043L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "bytesPerSecond()D", cancellable = true)
     private void bytesPerSecond_1278592277(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1278592277L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "totalBytes()J", cancellable = true)
+    private void totalBytes_1278598043(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1278598043L))
             info.setReturnValue(null);
     }
 

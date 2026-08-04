@@ -43,15 +43,15 @@ public class Entry_699128082Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "custom(Lnet/minecraft/network/chat/Component;Ljava/net/URI;)Lnet/minecraft/server/ServerLinks$Entry;", cancellable = true)
-    private static void custom__501159115(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-501159115L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "knownType(Lnet/minecraft/server/ServerLinks$KnownLinkType;Ljava/net/URI;)Lnet/minecraft/server/ServerLinks$Entry;", cancellable = true)
     private static void knownType_1208972683(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1208972683L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "custom(Lnet/minecraft/network/chat/Component;Ljava/net/URI;)Lnet/minecraft/server/ServerLinks$Entry;", cancellable = true)
+    private static void custom__501159115(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-501159115L))
             info.setReturnValue(null);
     }
 

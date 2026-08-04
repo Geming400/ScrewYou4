@@ -25,16 +25,16 @@ public class Static_1859911710Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "addToTooltip(Lnet/minecraft/world/item/Item$TooltipContext;Ljava/util/function/Consumer;Lnet/minecraft/world/item/TooltipFlag;Lnet/minecraft/core/component/DataComponentGetter;)V", cancellable = true)
-    private void addToTooltip__682806681(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-682806681L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "resolveProfile(Lnet/minecraft/server/players/ProfileResolver;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
     private void resolveProfile_835636421(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(835636421L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "addToTooltip(Lnet/minecraft/world/item/Item$TooltipContext;Ljava/util/function/Consumer;Lnet/minecraft/world/item/TooltipFlag;Lnet/minecraft/core/component/DataComponentGetter;)V", cancellable = true)
+    private void addToTooltip__682806681(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-682806681L))
+            info.cancel();
     }
 
 

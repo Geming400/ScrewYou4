@@ -43,15 +43,15 @@ public class ConditionalEffect550147993Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "codec(Lcom/mojang/serialization/Codec;)Lcom/mojang/serialization/Codec;", cancellable = true)
-    private static void codec_1033825968(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1033825968L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "effect()Ljava/lang/Object;", cancellable = true)
     private void effect__1885627084(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1885627084L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "codec(Lcom/mojang/serialization/Codec;)Lcom/mojang/serialization/Codec;", cancellable = true)
+    private static void codec_1033825968(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1033825968L))
             info.setReturnValue(null);
     }
 

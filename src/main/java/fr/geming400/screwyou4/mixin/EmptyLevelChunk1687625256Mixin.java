@@ -19,15 +19,15 @@ public class EmptyLevelChunk1687625256Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getBlockState(Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
-    private void getBlockState_2086251202(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2086251202L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getBlockEntity(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/chunk/LevelChunk$EntityCreationType;)Lnet/minecraft/world/level/block/entity/BlockEntity;", cancellable = true)
     private void getBlockEntity_1222200426(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1222200426L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getBlockState(Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
+    private void getBlockState_2086251202(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2086251202L))
             info.setReturnValue(null);
     }
 
@@ -37,16 +37,16 @@ public class EmptyLevelChunk1687625256Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "setBlockState(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;I)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
-    private void setBlockState_1749622784(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1749622784L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getFullStatus()Lnet/minecraft/server/level/FullChunkStatus;", cancellable = true)
     private void getFullStatus_234033513(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(234033513L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "setBlockEntity(Lnet/minecraft/world/level/block/entity/BlockEntity;)V", cancellable = true)
+    private void setBlockEntity_1403928488(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1403928488L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "addAndRegisterBlockEntity(Lnet/minecraft/world/level/block/entity/BlockEntity;)V", cancellable = true)
@@ -61,10 +61,10 @@ public class EmptyLevelChunk1687625256Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "setBlockEntity(Lnet/minecraft/world/level/block/entity/BlockEntity;)V", cancellable = true)
-    private void setBlockEntity_1403928488(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1403928488L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "setBlockState(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;I)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
+    private void setBlockState_1749622784(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1749622784L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getNoiseBiome(III)Lnet/minecraft/core/Holder;", cancellable = true)

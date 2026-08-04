@@ -13,6 +13,12 @@ public class MushroomBlock1292541127Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "growMushroom(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/util/RandomSource;)Z", cancellable = true)
+    private void growMushroom__1062974388(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1062974388L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "isValidBonemealTarget(Lnet/minecraft/world/level/LevelReader;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Z", cancellable = true)
     private void isValidBonemealTarget_1337220885(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1337220885L))
@@ -28,12 +34,6 @@ public class MushroomBlock1292541127Mixin {
     @Inject(at = @At("HEAD"), method = "isBonemealSuccess(Lnet/minecraft/world/level/Level;Lnet/minecraft/util/RandomSource;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Z", cancellable = true)
     private void isBonemealSuccess__680372016(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-680372016L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "growMushroom(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/util/RandomSource;)Z", cancellable = true)
-    private void growMushroom__1062974388(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1062974388L))
             info.setReturnValue(null);
     }
 

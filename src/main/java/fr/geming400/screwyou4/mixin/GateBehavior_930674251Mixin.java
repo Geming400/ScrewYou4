@@ -25,10 +25,10 @@ public class GateBehavior_930674251Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "doStop(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/LivingEntity;J)V", cancellable = true)
-    private void doStop_8122056(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(8122056L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "getRequiredMemories()Ljava/util/Set;", cancellable = true)
+    private void getRequiredMemories__898361236(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-898361236L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "tickOrStop(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/LivingEntity;J)V", cancellable = true)
@@ -37,10 +37,10 @@ public class GateBehavior_930674251Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getRequiredMemories()Ljava/util/Set;", cancellable = true)
-    private void getRequiredMemories__898361236(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-898361236L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "doStop(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/LivingEntity;J)V", cancellable = true)
+    private void doStop_8122056(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(8122056L))
+            info.cancel();
     }
 
 

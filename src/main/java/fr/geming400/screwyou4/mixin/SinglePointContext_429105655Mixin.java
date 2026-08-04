@@ -25,14 +25,14 @@ public class SinglePointContext_429105655Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "blockZ()I", cancellable = true)
-    private void blockZ_467367900(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "blockX()I", cancellable = true)
+    private void blockX_467367900(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(467367900L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "blockX()I", cancellable = true)
-    private void blockX_467367900(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "blockZ()I", cancellable = true)
+    private void blockZ_467367900(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(467367900L))
             info.setReturnValue(null);
     }

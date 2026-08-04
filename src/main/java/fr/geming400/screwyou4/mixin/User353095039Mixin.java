@@ -19,27 +19,27 @@ public class User353095039Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getAccessToken()Ljava/lang/String;", cancellable = true)
-    private void getAccessToken__782365432(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-782365432L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getProfileId()Ljava/util/UUID;", cancellable = true)
-    private void getProfileId_764229522(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(764229522L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getClientId()Ljava/util/Optional;", cancellable = true)
     private void getClientId_598556461(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(598556461L))
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "getAccessToken()Ljava/lang/String;", cancellable = true)
+    private void getAccessToken__782365432(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-782365432L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "getXuid()Ljava/util/Optional;", cancellable = true)
     private void getXuid_598556461(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(598556461L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getProfileId()Ljava/util/UUID;", cancellable = true)
+    private void getProfileId_764229522(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(764229522L))
             info.setReturnValue(null);
     }
 

@@ -61,15 +61,15 @@ public class EntityReference1312718442Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getEntity(Lnet/minecraft/world/level/Level;Ljava/lang/Class;)Lnet/minecraft/world/level/entity/UniquelyIdentifyable;", cancellable = true)
-    private void getEntity__412925538(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-412925538L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getEntity(Lnet/minecraft/world/entity/EntityReference;Lnet/minecraft/world/level/Level;)Lnet/minecraft/world/entity/Entity;", cancellable = true)
     private static void getEntity__722186731(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-722186731L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getEntity(Lnet/minecraft/world/level/Level;Ljava/lang/Class;)Lnet/minecraft/world/level/entity/UniquelyIdentifyable;", cancellable = true)
+    private void getEntity__412925538(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-412925538L))
             info.setReturnValue(null);
     }
 
@@ -79,9 +79,9 @@ public class EntityReference1312718442Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getLivingEntity(Lnet/minecraft/world/entity/EntityReference;Lnet/minecraft/world/level/Level;)Lnet/minecraft/world/entity/LivingEntity;", cancellable = true)
-    private static void getLivingEntity_2070267820(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2070267820L))
+    @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/Codec;", cancellable = true)
+    private static void codec_920753064(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(920753064L))
             info.setReturnValue(null);
     }
 
@@ -91,9 +91,9 @@ public class EntityReference1312718442Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/Codec;", cancellable = true)
-    private static void codec_920753064(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(920753064L))
+    @Inject(at = @At("HEAD"), method = "readWithOldOwnerConversion(Lnet/minecraft/world/level/storage/ValueInput;Ljava/lang/String;Lnet/minecraft/world/level/Level;)Lnet/minecraft/world/entity/EntityReference;", cancellable = true)
+    private static void readWithOldOwnerConversion_1547566596(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1547566596L))
             info.setReturnValue(null);
     }
 
@@ -103,15 +103,15 @@ public class EntityReference1312718442Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "streamCodec()Lnet/minecraft/network/codec/StreamCodec;", cancellable = true)
-    private static void streamCodec__1721248482(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1721248482L))
+    @Inject(at = @At("HEAD"), method = "getLivingEntity(Lnet/minecraft/world/entity/EntityReference;Lnet/minecraft/world/level/Level;)Lnet/minecraft/world/entity/LivingEntity;", cancellable = true)
+    private static void getLivingEntity_2070267820(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2070267820L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "readWithOldOwnerConversion(Lnet/minecraft/world/level/storage/ValueInput;Ljava/lang/String;Lnet/minecraft/world/level/Level;)Lnet/minecraft/world/entity/EntityReference;", cancellable = true)
-    private static void readWithOldOwnerConversion_1547566596(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1547566596L))
+    @Inject(at = @At("HEAD"), method = "streamCodec()Lnet/minecraft/network/codec/StreamCodec;", cancellable = true)
+    private static void streamCodec__1721248482(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1721248482L))
             info.setReturnValue(null);
     }
 

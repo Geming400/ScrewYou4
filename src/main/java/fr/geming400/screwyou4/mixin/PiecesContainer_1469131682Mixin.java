@@ -49,15 +49,15 @@ public class PiecesContainer_1469131682Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "isInsidePiece(Lnet/minecraft/core/BlockPos;)Z", cancellable = true)
-    private void isInsidePiece_1637902124(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1637902124L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "calculateBoundingBox()Lnet/minecraft/world/level/levelgen/structure/BoundingBox;", cancellable = true)
     private void calculateBoundingBox_1639279467(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1639279467L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isInsidePiece(Lnet/minecraft/core/BlockPos;)Z", cancellable = true)
+    private void isInsidePiece_1637902124(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1637902124L))
             info.setReturnValue(null);
     }
 

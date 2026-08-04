@@ -55,12 +55,6 @@ public class Simple_949525830Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "packVersion(Lnet/minecraft/server/packs/PackType;)Lnet/minecraft/server/packs/metadata/pack/PackFormat;", cancellable = true)
-    private void packVersion_46108781(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(46108781L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "resourcePackVersion()Lnet/minecraft/server/packs/metadata/pack/PackFormat;", cancellable = true)
     private void resourcePackVersion__1833411274(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1833411274L))
@@ -70,6 +64,12 @@ public class Simple_949525830Mixin {
     @Inject(at = @At("HEAD"), method = "datapackVersion()Lnet/minecraft/server/packs/metadata/pack/PackFormat;", cancellable = true)
     private void datapackVersion__1833411274(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1833411274L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "packVersion(Lnet/minecraft/server/packs/PackType;)Lnet/minecraft/server/packs/metadata/pack/PackFormat;", cancellable = true)
+    private void packVersion_46108781(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(46108781L))
             info.setReturnValue(null);
     }
 

@@ -31,15 +31,15 @@ public class HexColorArgument855168207Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getExamples()Ljava/util/Collection;", cancellable = true)
-    private void getExamples__958480065(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-958480065L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getHexColor(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Ljava/lang/Integer;", cancellable = true)
     private static void getHexColor_543061093(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(543061093L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getExamples()Ljava/util/Collection;", cancellable = true)
+    private void getExamples__958480065(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-958480065L))
             info.setReturnValue(null);
     }
 

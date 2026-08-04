@@ -25,15 +25,15 @@ public class State_1128358947Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "ticks()F", cancellable = true)
-    private void ticks_1166618309(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1166618309L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "shakeDirection()Lnet/minecraft/core/Direction;", cancellable = true)
     private void shakeDirection_365503661(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(365503661L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "ticks()F", cancellable = true)
+    private void ticks_1166618309(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1166618309L))
             info.setReturnValue(null);
     }
 

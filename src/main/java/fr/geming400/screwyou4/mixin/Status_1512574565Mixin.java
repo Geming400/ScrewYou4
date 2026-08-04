@@ -19,15 +19,15 @@ public class Status_1512574565Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "byIndex(I)Lnet/minecraft/world/level/block/entity/TestInstanceBlockEntity$Status;", cancellable = true)
-    private static void byIndex_821623646(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(821623646L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName_377114093(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(377114093L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "byIndex(I)Lnet/minecraft/world/level/block/entity/TestInstanceBlockEntity$Status;", cancellable = true)
+    private static void byIndex_821623646(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(821623646L))
             info.setReturnValue(null);
     }
 

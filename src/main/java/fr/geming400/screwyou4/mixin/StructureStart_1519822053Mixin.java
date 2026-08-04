@@ -19,18 +19,6 @@ public class StructureStart_1519822053Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "canBeReferenced()Z", cancellable = true)
-    private void canBeReferenced_1558100635(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1558100635L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getReferences()I", cancellable = true)
-    private void getReferences_1558084298(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1558084298L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "addReference()V", cancellable = true)
     private void addReference_1558096791(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1558096791L))
@@ -40,6 +28,12 @@ public class StructureStart_1519822053Mixin {
     @Inject(at = @At("HEAD"), method = "getBoundingBox()Lnet/minecraft/world/level/levelgen/structure/BoundingBox;", cancellable = true)
     private void getBoundingBox_1689969838(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1689969838L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getChunkPos()Lnet/minecraft/world/level/ChunkPos;", cancellable = true)
+    private void getChunkPos_630723215(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(630723215L))
             info.setReturnValue(null);
     }
 
@@ -55,21 +49,27 @@ public class StructureStart_1519822053Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getPieces()Ljava/util/List;", cancellable = true)
-    private void getPieces__1148808428(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1148808428L))
+    @Inject(at = @At("HEAD"), method = "getReferences()I", cancellable = true)
+    private void getReferences_1558084298(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1558084298L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getChunkPos()Lnet/minecraft/world/level/ChunkPos;", cancellable = true)
-    private void getChunkPos_630723215(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(630723215L))
+    @Inject(at = @At("HEAD"), method = "canBeReferenced()Z", cancellable = true)
+    private void canBeReferenced_1558100635(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1558100635L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "loadStaticStart(Lnet/minecraft/world/level/levelgen/structure/pieces/StructurePieceSerializationContext;Lnet/minecraft/nbt/CompoundTag;J)Lnet/minecraft/world/level/levelgen/structure/StructureStart;", cancellable = true)
     private static void loadStaticStart__1567943285(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1567943285L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getPieces()Ljava/util/List;", cancellable = true)
+    private void getPieces__1148808428(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1148808428L))
             info.setReturnValue(null);
     }
 

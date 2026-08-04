@@ -19,6 +19,12 @@ public class Builder_718474348Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "textWidth(I)Lnet/minecraft/client/gui/components/FocusableTextWidget$Builder;", cancellable = true)
+    private void textWidth__1121100605(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1121100605L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "alwaysShowBorder(Z)Lnet/minecraft/client/gui/components/FocusableTextWidget$Builder;", cancellable = true)
     private void alwaysShowBorder__1013455788(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1013455788L))
@@ -28,12 +34,6 @@ public class Builder_718474348Mixin {
     @Inject(at = @At("HEAD"), method = "backgroundFill(Lnet/minecraft/client/gui/components/FocusableTextWidget$BackgroundFill;)Lnet/minecraft/client/gui/components/FocusableTextWidget$Builder;", cancellable = true)
     private void backgroundFill_22365202(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(22365202L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "textWidth(I)Lnet/minecraft/client/gui/components/FocusableTextWidget$Builder;", cancellable = true)
-    private void textWidth__1121100605(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1121100605L))
             info.setReturnValue(null);
     }
 

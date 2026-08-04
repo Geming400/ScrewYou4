@@ -43,15 +43,15 @@ public class SimpleModelState2039567285Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "uvLock()Z", cancellable = true)
-    private void uvLock_2077845868(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2077845868L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "withUvLock(Z)Lnet/minecraft/client/renderer/block/dispatch/Variant$SimpleModelState;", cancellable = true)
     private void withUvLock__1519745325(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1519745325L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "withZ(Lcom/mojang/math/Quadrant;)Lnet/minecraft/client/renderer/block/dispatch/Variant$SimpleModelState;", cancellable = true)
+    private void withZ_1195486948(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1195486948L))
             info.setReturnValue(null);
     }
 
@@ -67,15 +67,15 @@ public class SimpleModelState2039567285Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "withZ(Lcom/mojang/math/Quadrant;)Lnet/minecraft/client/renderer/block/dispatch/Variant$SimpleModelState;", cancellable = true)
-    private void withZ_1195486948(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1195486948L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "asModelState()Lnet/minecraft/client/renderer/block/dispatch/ModelState;", cancellable = true)
     private void asModelState__1531166566(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1531166566L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "uvLock()Z", cancellable = true)
+    private void uvLock_2077845868(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2077845868L))
             info.setReturnValue(null);
     }
 

@@ -31,15 +31,15 @@ public class BlockBreakingRenderState2062886895Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "blockState()Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
-    private void blockState__232871971(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-232871971L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "blockPos()Lnet/minecraft/core/BlockPos;", cancellable = true)
     private void blockPos_169500016(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(169500016L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "blockState()Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
+    private void blockState__232871971(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-232871971L))
             info.setReturnValue(null);
     }
 

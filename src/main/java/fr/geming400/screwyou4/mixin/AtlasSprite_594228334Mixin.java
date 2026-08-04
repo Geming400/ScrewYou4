@@ -31,6 +31,12 @@ public class AtlasSprite_594228334Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "sprite()Lnet/minecraft/resources/Identifier;", cancellable = true)
+    private void sprite__1848838220(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1848838220L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "fontDescription()Lnet/minecraft/network/chat/FontDescription;", cancellable = true)
     private void fontDescription__465832304(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-465832304L))
@@ -40,12 +46,6 @@ public class AtlasSprite_594228334Mixin {
     @Inject(at = @At("HEAD"), method = "defaultFallback()Ljava/lang/String;", cancellable = true)
     private void defaultFallback__541232138(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-541232138L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "sprite()Lnet/minecraft/resources/Identifier;", cancellable = true)
-    private void sprite__1848838220(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1848838220L))
             info.setReturnValue(null);
     }
 

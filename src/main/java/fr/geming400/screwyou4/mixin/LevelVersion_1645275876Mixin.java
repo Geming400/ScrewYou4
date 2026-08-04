@@ -19,9 +19,9 @@ public class LevelVersion_1645275876Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "minecraftVersion()Lnet/minecraft/world/level/storage/DataVersion;", cancellable = true)
-    private void minecraftVersion__565602551(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-565602551L))
+    @Inject(at = @At("HEAD"), method = "lastPlayed()J", cancellable = true)
+    private void lastPlayed_1683539082(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1683539082L))
             info.setReturnValue(null);
     }
 
@@ -31,9 +31,9 @@ public class LevelVersion_1645275876Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "lastPlayed()J", cancellable = true)
-    private void lastPlayed_1683539082(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1683539082L))
+    @Inject(at = @At("HEAD"), method = "minecraftVersion()Lnet/minecraft/world/level/storage/DataVersion;", cancellable = true)
+    private void minecraftVersion__565602551(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-565602551L))
             info.setReturnValue(null);
     }
 

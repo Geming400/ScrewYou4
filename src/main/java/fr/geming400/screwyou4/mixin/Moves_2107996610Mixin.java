@@ -25,8 +25,8 @@ public class Moves_2107996610Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "copiedFiles()Ljava/util/List;", cancellable = true)
-    private void copiedFiles__560633871(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "directories()Ljava/util/List;", cancellable = true)
+    private void directories__560633871(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-560633871L))
             info.setReturnValue(null);
     }
@@ -37,8 +37,8 @@ public class Moves_2107996610Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "directories()Ljava/util/List;", cancellable = true)
-    private void directories__560633871(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "copiedFiles()Ljava/util/List;", cancellable = true)
+    private void copiedFiles__560633871(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-560633871L))
             info.setReturnValue(null);
     }

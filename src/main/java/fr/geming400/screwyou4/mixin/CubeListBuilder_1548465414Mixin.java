@@ -13,6 +13,12 @@ public class CubeListBuilder_1548465414Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "getCubes()Ljava/util/List;", cancellable = true)
+    private void getCubes__1120165067(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1120165067L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "mirror()Lnet/minecraft/client/model/geom/builders/CubeListBuilder;", cancellable = true)
     private void mirror__93662555(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-93662555L))
@@ -25,21 +31,15 @@ public class CubeListBuilder_1548465414Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "addBox(FFFFFFLnet/minecraft/client/model/geom/builders/CubeDeformation;FF)Lnet/minecraft/client/model/geom/builders/CubeListBuilder;", cancellable = true)
-    private void addBox__1892788777(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1892788777L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "addBox(FFFFFFZ)Lnet/minecraft/client/model/geom/builders/CubeListBuilder;", cancellable = true)
     private void addBox__210426341(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-210426341L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "addBox(Ljava/lang/String;FFFFFFLnet/minecraft/client/model/geom/builders/CubeDeformation;)Lnet/minecraft/client/model/geom/builders/CubeListBuilder;", cancellable = true)
-    private void addBox__549819315(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-549819315L))
+    @Inject(at = @At("HEAD"), method = "addBox(FFFFFFLnet/minecraft/client/model/geom/builders/CubeDeformation;FF)Lnet/minecraft/client/model/geom/builders/CubeListBuilder;", cancellable = true)
+    private void addBox__1892788777(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1892788777L))
             info.setReturnValue(null);
     }
 
@@ -52,6 +52,12 @@ public class CubeListBuilder_1548465414Mixin {
     @Inject(at = @At("HEAD"), method = "addBox(Ljava/lang/String;FFFFFF)Lnet/minecraft/client/model/geom/builders/CubeListBuilder;", cancellable = true)
     private void addBox_1875999003(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1875999003L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "addBox(Ljava/lang/String;FFFIIILnet/minecraft/client/model/geom/builders/CubeDeformation;II)Lnet/minecraft/client/model/geom/builders/CubeListBuilder;", cancellable = true)
+    private void addBox__1555825430(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1555825430L))
             info.setReturnValue(null);
     }
 
@@ -73,21 +79,15 @@ public class CubeListBuilder_1548465414Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "addBox(Ljava/lang/String;FFFIIILnet/minecraft/client/model/geom/builders/CubeDeformation;II)Lnet/minecraft/client/model/geom/builders/CubeListBuilder;", cancellable = true)
-    private void addBox__1555825430(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1555825430L))
+    @Inject(at = @At("HEAD"), method = "addBox(Ljava/lang/String;FFFFFFLnet/minecraft/client/model/geom/builders/CubeDeformation;)Lnet/minecraft/client/model/geom/builders/CubeListBuilder;", cancellable = true)
+    private void addBox__549819315(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-549819315L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "texOffs(II)Lnet/minecraft/client/model/geom/builders/CubeListBuilder;", cancellable = true)
     private void texOffs_1233946501(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1233946501L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getCubes()Ljava/util/List;", cancellable = true)
-    private void getCubes__1120165067(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1120165067L))
             info.setReturnValue(null);
     }
 

@@ -13,9 +13,9 @@ public class Font_403186071Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "width(Ljava/lang/String;)I", cancellable = true)
-    private void width_1555534726(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1555534726L))
+    @Inject(at = @At("HEAD"), method = "width(Lnet/minecraft/network/chat/FormattedText;)I", cancellable = true)
+    private void width_358177284(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(358177284L))
             info.setReturnValue(null);
     }
 
@@ -25,27 +25,33 @@ public class Font_403186071Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "width(Lnet/minecraft/network/chat/FormattedText;)I", cancellable = true)
-    private void width_358177284(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(358177284L))
+    @Inject(at = @At("HEAD"), method = "width(Ljava/lang/String;)I", cancellable = true)
+    private void width_1555534726(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1555534726L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "wordWrapHeight(Lnet/minecraft/network/chat/FormattedText;I)I", cancellable = true)
-    private void wordWrapHeight__964311443(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-964311443L))
+    @Inject(at = @At("HEAD"), method = "bidirectionalShaping(Ljava/lang/String;)Ljava/lang/String;", cancellable = true)
+    private void bidirectionalShaping_1615927893(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1615927893L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "prepare8xTextOutline(Lnet/minecraft/util/FormattedCharSequence;FFI)Lnet/minecraft/client/gui/Font$PreparedText;", cancellable = true)
-    private void prepare8xTextOutline__1090543675(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1090543675L))
+    @Inject(at = @At("HEAD"), method = "isBidirectional()Z", cancellable = true)
+    private void isBidirectional_441464653(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(441464653L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "substrByWidth(Lnet/minecraft/network/chat/FormattedText;I)Lnet/minecraft/network/chat/FormattedText;", cancellable = true)
-    private void substrByWidth_89745484(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(89745484L))
+    @Inject(at = @At("HEAD"), method = "prepareText(Lnet/minecraft/util/FormattedCharSequence;FFIZZI)Lnet/minecraft/client/gui/Font$PreparedText;", cancellable = true)
+    private void prepareText_1455397428(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1455397428L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "prepareText(Ljava/lang/String;FFIZI)Lnet/minecraft/client/gui/Font$PreparedText;", cancellable = true)
+    private void prepareText__1916377589(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1916377589L))
             info.setReturnValue(null);
     }
 
@@ -61,39 +67,33 @@ public class Font_403186071Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "substrByWidth(Lnet/minecraft/network/chat/FormattedText;I)Lnet/minecraft/network/chat/FormattedText;", cancellable = true)
+    private void substrByWidth_89745484(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(89745484L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "wordWrapHeight(Lnet/minecraft/network/chat/FormattedText;I)I", cancellable = true)
+    private void wordWrapHeight__964311443(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-964311443L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "splitIgnoringLanguage(Lnet/minecraft/network/chat/FormattedText;I)Ljava/util/List;", cancellable = true)
     private void splitIgnoringLanguage__151101259(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-151101259L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "isBidirectional()Z", cancellable = true)
-    private void isBidirectional_441464653(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(441464653L))
+    @Inject(at = @At("HEAD"), method = "prepare8xTextOutline(Lnet/minecraft/util/FormattedCharSequence;FFI)Lnet/minecraft/client/gui/Font$PreparedText;", cancellable = true)
+    private void prepare8xTextOutline__1090543675(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1090543675L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getSplitter()Lnet/minecraft/client/StringSplitter;", cancellable = true)
     private void getSplitter_1987835954(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1987835954L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "prepareText(Ljava/lang/String;FFIZI)Lnet/minecraft/client/gui/Font$PreparedText;", cancellable = true)
-    private void prepareText__1916377589(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1916377589L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "prepareText(Lnet/minecraft/util/FormattedCharSequence;FFIZZI)Lnet/minecraft/client/gui/Font$PreparedText;", cancellable = true)
-    private void prepareText_1455397428(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1455397428L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "bidirectionalShaping(Ljava/lang/String;)Ljava/lang/String;", cancellable = true)
-    private void bidirectionalShaping_1615927893(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1615927893L))
             info.setReturnValue(null);
     }
 

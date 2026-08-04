@@ -73,12 +73,6 @@ public class ActivityData_1138217843Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "createPriorityPairs(ILcom/google/common/collect/ImmutableList;)Lcom/google/common/collect/ImmutableList;", cancellable = true)
-    private static void createPriorityPairs_2088509614(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2088509614L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "memoriesToEraseWhenStopped()Ljava/util/Set;", cancellable = true)
     private void memoriesToEraseWhenStopped__690817644(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-690817644L))
@@ -88,6 +82,12 @@ public class ActivityData_1138217843Mixin {
     @Inject(at = @At("HEAD"), method = "behaviorPriorityPairs()Lcom/google/common/collect/ImmutableList;", cancellable = true)
     private void behaviorPriorityPairs_2105996375(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2105996375L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "createPriorityPairs(ILcom/google/common/collect/ImmutableList;)Lcom/google/common/collect/ImmutableList;", cancellable = true)
+    private static void createPriorityPairs_2088509614(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2088509614L))
             info.setReturnValue(null);
     }
 

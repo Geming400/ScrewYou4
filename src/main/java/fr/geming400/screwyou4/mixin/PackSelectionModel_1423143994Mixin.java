@@ -13,16 +13,16 @@ public class PackSelectionModel_1423143994Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "findNewPacks()V", cancellable = true)
-    private void findNewPacks_1461418732(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1461418732L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "getUnselected()Ljava/util/stream/Stream;", cancellable = true)
     private void getUnselected_1212437678(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1212437678L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "findNewPacks()V", cancellable = true)
+    private void findNewPacks_1461418732(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1461418732L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "getSelected()Ljava/util/stream/Stream;", cancellable = true)

@@ -37,6 +37,12 @@ public class PaintingVariant_1542221789Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "area()I", cancellable = true)
+    private void area_1580484034(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1580484034L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "assetId()Lnet/minecraft/resources/Identifier;", cancellable = true)
     private void assetId__900844765(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-900844765L))
@@ -45,12 +51,6 @@ public class PaintingVariant_1542221789Mixin {
 
     @Inject(at = @At("HEAD"), method = "height()I", cancellable = true)
     private void height_1580484034(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1580484034L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "area()I", cancellable = true)
-    private void area_1580484034(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1580484034L))
             info.setReturnValue(null);
     }

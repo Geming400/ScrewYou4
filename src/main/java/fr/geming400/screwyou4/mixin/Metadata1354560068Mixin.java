@@ -37,15 +37,15 @@ public class Metadata1354560068Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "requestedFeatures()Lnet/minecraft/world/flag/FeatureFlagSet;", cancellable = true)
-    private void requestedFeatures_2019380566(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2019380566L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "overlays()Ljava/util/List;", cancellable = true)
     private void overlays__1314070412(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1314070412L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "requestedFeatures()Lnet/minecraft/world/flag/FeatureFlagSet;", cancellable = true)
+    private void requestedFeatures_2019380566(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2019380566L))
             info.setReturnValue(null);
     }
 

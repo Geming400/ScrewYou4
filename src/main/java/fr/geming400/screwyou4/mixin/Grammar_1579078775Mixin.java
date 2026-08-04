@@ -43,15 +43,15 @@ public class Grammar_1579078775Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "parseForCommands(Lcom/mojang/brigadier/StringReader;)Ljava/lang/Object;", cancellable = true)
-    private void parseForCommands_1285568071(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1285568071L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "parseForSuggestions(Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
     private void parseForSuggestions_1769520418(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1769520418L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "parseForCommands(Lcom/mojang/brigadier/StringReader;)Ljava/lang/Object;", cancellable = true)
+    private void parseForCommands_1285568071(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1285568071L))
             info.setReturnValue(null);
     }
 

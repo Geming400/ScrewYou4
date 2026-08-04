@@ -25,14 +25,14 @@ public class SignTransformations_1692086415Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "backText()Lcom/mojang/math/Transformation;", cancellable = true)
-    private void backText__1824896453(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "frontText()Lcom/mojang/math/Transformation;", cancellable = true)
+    private void frontText__1824896453(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1824896453L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "frontText()Lcom/mojang/math/Transformation;", cancellable = true)
-    private void frontText__1824896453(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "backText()Lcom/mojang/math/Transformation;", cancellable = true)
+    private void backText__1824896453(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1824896453L))
             info.setReturnValue(null);
     }

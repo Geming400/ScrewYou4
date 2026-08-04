@@ -25,8 +25,20 @@ public class ExecuteInfo1734473319Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "firstIndex()I", cancellable = true)
-    private void firstIndex_1772735565(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "indexType()Lcom/mojang/blaze3d/IndexType;", cancellable = true)
+    private void indexType__1231608492(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1231608492L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "baseVertex()I", cancellable = true)
+    private void baseVertex_1772735565(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1772735565L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "indexCount()I", cancellable = true)
+    private void indexCount_1772735565(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1772735565L))
             info.setReturnValue(null);
     }
@@ -43,20 +55,8 @@ public class ExecuteInfo1734473319Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "indexCount()I", cancellable = true)
-    private void indexCount_1772735565(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1772735565L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "indexType()Lcom/mojang/blaze3d/IndexType;", cancellable = true)
-    private void indexType__1231608492(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1231608492L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "baseVertex()I", cancellable = true)
-    private void baseVertex_1772735565(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "firstIndex()I", cancellable = true)
+    private void firstIndex_1772735565(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1772735565L))
             info.setReturnValue(null);
     }

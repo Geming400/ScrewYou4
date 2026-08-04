@@ -37,20 +37,8 @@ public class BlockOutlineRenderState_824388568Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "highContrast()Z", cancellable = true)
-    private void highContrast_862667150(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(862667150L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "collisionShape()Lnet/minecraft/world/phys/shapes/VoxelShape;", cancellable = true)
     private void collisionShape__1057281351(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1057281351L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "interactionShape()Lnet/minecraft/world/phys/shapes/VoxelShape;", cancellable = true)
-    private void interactionShape__1057281351(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1057281351L))
             info.setReturnValue(null);
     }
@@ -61,9 +49,21 @@ public class BlockOutlineRenderState_824388568Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "interactionShape()Lnet/minecraft/world/phys/shapes/VoxelShape;", cancellable = true)
+    private void interactionShape__1057281351(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1057281351L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "occlusionShape()Lnet/minecraft/world/phys/shapes/VoxelShape;", cancellable = true)
     private void occlusionShape__1057281351(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1057281351L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "highContrast()Z", cancellable = true)
+    private void highContrast_862667150(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(862667150L))
             info.setReturnValue(null);
     }
 

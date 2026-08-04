@@ -49,15 +49,15 @@ public class ClientboundLevelParticlesPacket_1880654666Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getMaxSpeed()F", cancellable = true)
-    private void getMaxSpeed_1918914028(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1918914028L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "isOverrideLimiter()Z", cancellable = true)
     private void isOverrideLimiter_1918933248(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1918933248L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getMaxSpeed()F", cancellable = true)
+    private void getMaxSpeed_1918914028(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1918914028L))
             info.setReturnValue(null);
     }
 
@@ -73,6 +73,12 @@ public class ClientboundLevelParticlesPacket_1880654666Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "getZDist()F", cancellable = true)
+    private void getZDist_1918914028(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1918914028L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "getYDist()F", cancellable = true)
     private void getYDist_1918914028(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1918914028L))
@@ -81,12 +87,6 @@ public class ClientboundLevelParticlesPacket_1880654666Mixin {
 
     @Inject(at = @At("HEAD"), method = "getXDist()F", cancellable = true)
     private void getXDist_1918914028(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1918914028L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getZDist()F", cancellable = true)
-    private void getZDist_1918914028(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1918914028L))
             info.setReturnValue(null);
     }

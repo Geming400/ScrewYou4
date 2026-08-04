@@ -13,15 +13,15 @@ public class WardenAi1528320815Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "updateActivity(Lnet/minecraft/world/entity/ai/Brain;)V", cancellable = true)
-    private static void updateActivity__307644985(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-307644985L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "setDigCooldown(Lnet/minecraft/world/entity/LivingEntity;)V", cancellable = true)
     private static void setDigCooldown_1849984394(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1849984394L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "updateActivity(Lnet/minecraft/world/entity/ai/Brain;)V", cancellable = true)
+    private static void updateActivity__307644985(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-307644985L))
             info.cancel();
     }
 

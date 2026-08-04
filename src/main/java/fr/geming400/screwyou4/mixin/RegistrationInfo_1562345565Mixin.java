@@ -25,15 +25,15 @@ public class RegistrationInfo_1562345565Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "lifecycle()Lcom/mojang/serialization/Lifecycle;", cancellable = true)
-    private void lifecycle_530957134(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(530957134L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "knownPackInfo()Ljava/util/Optional;", cancellable = true)
     private void knownPackInfo_1807806986(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1807806986L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "lifecycle()Lcom/mojang/serialization/Lifecycle;", cancellable = true)
+    private void lifecycle_530957134(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(530957134L))
             info.setReturnValue(null);
     }
 

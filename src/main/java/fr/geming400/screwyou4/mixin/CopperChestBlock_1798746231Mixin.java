@@ -19,15 +19,9 @@ public class CopperChestBlock_1798746231Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
-    private void getStateForPlacement_540146463(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(540146463L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isWaxed()Z", cancellable = true)
-    private void isWaxed_1837024813(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1837024813L))
+    @Inject(at = @At("HEAD"), method = "chestCanConnectTo(Lnet/minecraft/world/level/block/state/BlockState;)Z", cancellable = true)
+    private void chestCanConnectTo_1653457244(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1653457244L))
             info.setReturnValue(null);
     }
 
@@ -43,15 +37,21 @@ public class CopperChestBlock_1798746231Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "chestCanConnectTo(Lnet/minecraft/world/level/block/state/BlockState;)Z", cancellable = true)
-    private void chestCanConnectTo_1653457244(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "shouldChangedStateKeepBlockEntity(Lnet/minecraft/world/level/block/state/BlockState;)Z", cancellable = true)
+    private void shouldChangedStateKeepBlockEntity_1653457244(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1653457244L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "shouldChangedStateKeepBlockEntity(Lnet/minecraft/world/level/block/state/BlockState;)Z", cancellable = true)
-    private void shouldChangedStateKeepBlockEntity_1653457244(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1653457244L))
+    @Inject(at = @At("HEAD"), method = "isWaxed()Z", cancellable = true)
+    private void isWaxed_1837024813(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1837024813L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
+    private void getStateForPlacement_540146463(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(540146463L))
             info.setReturnValue(null);
     }
 

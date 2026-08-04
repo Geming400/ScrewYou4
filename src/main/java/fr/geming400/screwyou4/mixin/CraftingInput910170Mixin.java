@@ -73,15 +73,15 @@ public class CraftingInput910170Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "ofPositioned(IILjava/util/List;)Lnet/minecraft/world/item/crafting/CraftingInput$Positioned;", cancellable = true)
-    private static void ofPositioned_1484342057(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1484342057L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "ingredientCount()I", cancellable = true)
     private void ingredientCount_39172416(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(39172416L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "ofPositioned(IILjava/util/List;)Lnet/minecraft/world/item/crafting/CraftingInput$Positioned;", cancellable = true)
+    private static void ofPositioned_1484342057(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1484342057L))
             info.setReturnValue(null);
     }
 

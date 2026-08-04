@@ -25,15 +25,15 @@ public class SegmentedAnglePrecision2074192559Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "isSameAxis(II)Z", cancellable = true)
-    private void isSameAxis_1078316934(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1078316934L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "toDegreesWithTurns(I)F", cancellable = true)
     private void toDegreesWithTurns__1006873141(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1006873141L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "fromDegreesWithTurns(F)I", cancellable = true)
+    private void fromDegreesWithTurns__1009640821(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1009640821L))
             info.setReturnValue(null);
     }
 
@@ -49,9 +49,9 @@ public class SegmentedAnglePrecision2074192559Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "fromDegreesWithTurns(F)I", cancellable = true)
-    private void fromDegreesWithTurns__1009640821(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1009640821L))
+    @Inject(at = @At("HEAD"), method = "isSameAxis(II)Z", cancellable = true)
+    private void isSameAxis_1078316934(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1078316934L))
             info.setReturnValue(null);
     }
 

@@ -13,27 +13,27 @@ public class CopyComponentsFunction_629063215Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "copyComponentsFromEntity(Lnet/minecraft/util/context/ContextKey;)Lnet/minecraft/world/level/storage/loot/functions/CopyComponentsFunction$Builder;", cancellable = true)
-    private static void copyComponentsFromEntity_1144040403(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1144040403L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
     private void codec__1930050358(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1930050358L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "copyComponentsFromBlockEntity(Lnet/minecraft/util/context/ContextKey;)Lnet/minecraft/world/level/storage/loot/functions/CopyComponentsFunction$Builder;", cancellable = true)
-    private static void copyComponentsFromBlockEntity_1144040403(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "getReferencedContextParams()Ljava/util/Set;", cancellable = true)
+    private void getReferencedContextParams__1199972272(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1199972272L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "copyComponentsFromEntity(Lnet/minecraft/util/context/ContextKey;)Lnet/minecraft/world/level/storage/loot/functions/CopyComponentsFunction$Builder;", cancellable = true)
+    private static void copyComponentsFromEntity_1144040403(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1144040403L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getReferencedContextParams()Ljava/util/Set;", cancellable = true)
-    private void getReferencedContextParams__1199972272(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1199972272L))
+    @Inject(at = @At("HEAD"), method = "copyComponentsFromBlockEntity(Lnet/minecraft/util/context/ContextKey;)Lnet/minecraft/world/level/storage/loot/functions/CopyComponentsFunction$Builder;", cancellable = true)
+    private static void copyComponentsFromBlockEntity_1144040403(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1144040403L))
             info.setReturnValue(null);
     }
 

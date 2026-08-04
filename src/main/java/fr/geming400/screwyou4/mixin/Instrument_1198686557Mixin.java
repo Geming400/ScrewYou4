@@ -37,15 +37,15 @@ public class Instrument_1198686557Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "soundEvent()Lnet/minecraft/core/Holder;", cancellable = true)
-    private void soundEvent__1547404968(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1547404968L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "useDuration()F", cancellable = true)
     private void useDuration_1236945919(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1236945919L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "soundEvent()Lnet/minecraft/core/Holder;", cancellable = true)
+    private void soundEvent__1547404968(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1547404968L))
             info.setReturnValue(null);
     }
 

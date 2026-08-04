@@ -13,9 +13,9 @@ public class RecipeBookTabButton1590130402Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "updateVisibility(Lnet/minecraft/client/ClientRecipeBook;)Z", cancellable = true)
-    private void updateVisibility__844363970(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-844363970L))
+    @Inject(at = @At("HEAD"), method = "getCategory()Lnet/minecraft/world/item/crafting/ExtendedRecipeBookCategory;", cancellable = true)
+    private void getCategory__329793792(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-329793792L))
             info.setReturnValue(null);
     }
 
@@ -25,21 +25,21 @@ public class RecipeBookTabButton1590130402Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "extractContents(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIF)V", cancellable = true)
-    private void extractContents_630443030(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(630443030L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "getCategory()Lnet/minecraft/world/item/crafting/ExtendedRecipeBookCategory;", cancellable = true)
-    private void getCategory__329793792(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-329793792L))
+    @Inject(at = @At("HEAD"), method = "updateVisibility(Lnet/minecraft/client/ClientRecipeBook;)Z", cancellable = true)
+    private void updateVisibility__844363970(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-844363970L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "unselect()V", cancellable = true)
     private void unselect_1628405141(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1628405141L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "extractContents(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIF)V", cancellable = true)
+    private void extractContents_630443030(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(630443030L))
             info.cancel();
     }
 

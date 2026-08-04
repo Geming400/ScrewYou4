@@ -31,8 +31,14 @@ public class DialogListDialog_751658454Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "buttonWidth()I", cancellable = true)
-    private void buttonWidth_789920699(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
+    private void codec__1807455119(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1807455119L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "columns()I", cancellable = true)
+    private void columns_789920699(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(789920699L))
             info.setReturnValue(null);
     }
@@ -49,14 +55,8 @@ public class DialogListDialog_751658454Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
-    private void codec__1807455119(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1807455119L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "columns()I", cancellable = true)
-    private void columns_789920699(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "buttonWidth()I", cancellable = true)
+    private void buttonWidth_789920699(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(789920699L))
             info.setReturnValue(null);
     }

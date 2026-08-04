@@ -49,9 +49,9 @@ public class TriggerInstance172525629Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "thrownItemPickedUpByPlayer(Ljava/util/Optional;Ljava/util/Optional;Ljava/util/Optional;)Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
-    private static void thrownItemPickedUpByPlayer__884241935(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-884241935L))
+    @Inject(at = @At("HEAD"), method = "player()Ljava/util/Optional;", cancellable = true)
+    private void player_417987051(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(417987051L))
             info.setReturnValue(null);
     }
 
@@ -61,9 +61,9 @@ public class TriggerInstance172525629Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "player()Ljava/util/Optional;", cancellable = true)
-    private void player_417987051(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(417987051L))
+    @Inject(at = @At("HEAD"), method = "thrownItemPickedUpByPlayer(Ljava/util/Optional;Ljava/util/Optional;Ljava/util/Optional;)Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
+    private static void thrownItemPickedUpByPlayer__884241935(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-884241935L))
             info.setReturnValue(null);
     }
 

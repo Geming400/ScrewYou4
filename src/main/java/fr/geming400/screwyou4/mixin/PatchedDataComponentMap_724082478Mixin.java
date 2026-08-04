@@ -79,27 +79,27 @@ public class PatchedDataComponentMap_724082478Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "toImmutableMap()Lnet/minecraft/core/component/DataComponentMap;", cancellable = true)
-    private void toImmutableMap_1927887418(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1927887418L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "hasNonDefault(Lnet/minecraft/core/component/DataComponentType;)Z", cancellable = true)
     private void hasNonDefault_1365498932(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1365498932L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "asPatch()Lnet/minecraft/core/component/DataComponentPatch;", cancellable = true)
-    private void asPatch__1001092146(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1001092146L))
+    @Inject(at = @At("HEAD"), method = "toImmutableMap()Lnet/minecraft/core/component/DataComponentMap;", cancellable = true)
+    private void toImmutableMap_1927887418(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1927887418L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "fromPatch(Lnet/minecraft/core/component/DataComponentMap;Lnet/minecraft/core/component/DataComponentPatch;)Lnet/minecraft/core/component/PatchedDataComponentMap;", cancellable = true)
-    private static void fromPatch_36854045(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(36854045L))
+    @Inject(at = @At("HEAD"), method = "restorePatch(Lnet/minecraft/core/component/DataComponentPatch;)V", cancellable = true)
+    private void restorePatch__1742592940(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1742592940L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "asPatch()Lnet/minecraft/core/component/DataComponentPatch;", cancellable = true)
+    private void asPatch__1001092146(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1001092146L))
             info.setReturnValue(null);
     }
 
@@ -115,10 +115,10 @@ public class PatchedDataComponentMap_724082478Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "restorePatch(Lnet/minecraft/core/component/DataComponentPatch;)V", cancellable = true)
-    private void restorePatch__1742592940(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1742592940L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "fromPatch(Lnet/minecraft/core/component/DataComponentMap;Lnet/minecraft/core/component/DataComponentPatch;)Lnet/minecraft/core/component/PatchedDataComponentMap;", cancellable = true)
+    private static void fromPatch_36854045(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(36854045L))
+            info.setReturnValue(null);
     }
 
 

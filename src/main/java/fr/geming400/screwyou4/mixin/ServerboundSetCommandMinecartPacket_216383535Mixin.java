@@ -25,6 +25,12 @@ public class ServerboundSetCommandMinecartPacket_216383535Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "getCommand()Ljava/lang/String;", cancellable = true)
+    private void getCommand__919076937(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-919076937L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "getCommandBlock(Lnet/minecraft/world/level/Level;)Lnet/minecraft/world/level/BaseCommandBlock;", cancellable = true)
     private void getCommandBlock_810683198(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(810683198L))
@@ -34,12 +40,6 @@ public class ServerboundSetCommandMinecartPacket_216383535Mixin {
     @Inject(at = @At("HEAD"), method = "isTrackOutput()Z", cancellable = true)
     private void isTrackOutput_254662117(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(254662117L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getCommand()Ljava/lang/String;", cancellable = true)
-    private void getCommand__919076937(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-919076937L))
             info.setReturnValue(null);
     }
 

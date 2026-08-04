@@ -67,15 +67,15 @@ public class DataComponentExactPredicate1934824685Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "asPatch()Lnet/minecraft/core/component/DataComponentPatch;", cancellable = true)
-    private void asPatch_209650062(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(209650062L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "alwaysMatches()Z", cancellable = true)
     private void alwaysMatches_1973103268(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1973103268L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "asPatch()Lnet/minecraft/core/component/DataComponentPatch;", cancellable = true)
+    private void asPatch_209650062(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(209650062L))
             info.setReturnValue(null);
     }
 

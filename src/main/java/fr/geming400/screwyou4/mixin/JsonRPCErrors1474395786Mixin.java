@@ -25,15 +25,15 @@ public class JsonRPCErrors1474395786Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "createWithUnknownId(Ljava/lang/String;)Lcom/google/gson/JsonObject;", cancellable = true)
-    private void createWithUnknownId_53190699(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(53190699L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "createWithoutData(Lcom/google/gson/JsonElement;)Lcom/google/gson/JsonObject;", cancellable = true)
     private void createWithoutData__43746442(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-43746442L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "createWithUnknownId(Ljava/lang/String;)Lcom/google/gson/JsonObject;", cancellable = true)
+    private void createWithUnknownId_53190699(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(53190699L))
             info.setReturnValue(null);
     }
 

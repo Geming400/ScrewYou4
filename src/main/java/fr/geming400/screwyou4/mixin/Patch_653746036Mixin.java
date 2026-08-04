@@ -43,14 +43,14 @@ public class Patch_653746036Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "elytra()Ljava/util/Optional;", cancellable = true)
-    private void elytra_899207457(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "cape()Ljava/util/Optional;", cancellable = true)
+    private void cape_899207457(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(899207457L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "cape()Ljava/util/Optional;", cancellable = true)
-    private void cape_899207457(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "elytra()Ljava/util/Optional;", cancellable = true)
+    private void elytra_899207457(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(899207457L))
             info.setReturnValue(null);
     }

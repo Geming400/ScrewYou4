@@ -13,15 +13,15 @@ public class CowModel390678702Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "createBaseCowModel()Lnet/minecraft/client/model/geom/builders/MeshDefinition;", cancellable = true)
-    private static void createBaseCowModel_2007378000(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2007378000L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "createBodyLayer()Lnet/minecraft/client/model/geom/builders/LayerDefinition;", cancellable = true)
     private static void createBodyLayer__323453462(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-323453462L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "createBaseCowModel()Lnet/minecraft/client/model/geom/builders/MeshDefinition;", cancellable = true)
+    private static void createBaseCowModel_2007378000(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2007378000L))
             info.setReturnValue(null);
     }
 

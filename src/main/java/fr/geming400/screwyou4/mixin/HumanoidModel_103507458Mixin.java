@@ -37,6 +37,12 @@ public class HumanoidModel_103507458Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "getArm(Lnet/minecraft/world/entity/HumanoidArm;)Lnet/minecraft/client/model/geom/ModelPart;", cancellable = true)
+    private void getArm_1937622737(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1937622737L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "setupAnim(Ljava/lang/Object;)V", cancellable = true)
     private void setupAnim_1489144336(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1489144336L))
@@ -52,12 +58,6 @@ public class HumanoidModel_103507458Mixin {
     @Inject(at = @At("HEAD"), method = "createMesh(Lnet/minecraft/client/model/geom/builders/CubeDeformation;F)Lnet/minecraft/client/model/geom/builders/MeshDefinition;", cancellable = true)
     private static void createMesh__295004085(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-295004085L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getArm(Lnet/minecraft/world/entity/HumanoidArm;)Lnet/minecraft/client/model/geom/ModelPart;", cancellable = true)
-    private void getArm_1937622737(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1937622737L))
             info.setReturnValue(null);
     }
 

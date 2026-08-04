@@ -31,15 +31,15 @@ public class EnvironmentAttributeCheck_708324671Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "test(Lnet/minecraft/world/level/storage/loot/LootContext;)Z", cancellable = true)
-    private void test__1668624428(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1668624428L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "test(Ljava/lang/Object;)Z", cancellable = true)
     private void test_2093965393(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2093965393L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "test(Lnet/minecraft/world/level/storage/loot/LootContext;)Z", cancellable = true)
+    private void test__1668624428(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1668624428L))
             info.setReturnValue(null);
     }
 
@@ -55,15 +55,15 @@ public class EnvironmentAttributeCheck_708324671Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "environmentAttribute(Lnet/minecraft/world/attribute/EnvironmentAttribute;Ljava/lang/Object;)Lnet/minecraft/world/level/storage/loot/predicates/LootItemCondition$Builder;", cancellable = true)
-    private static void environmentAttribute__1552324899(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1552324899L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getReferencedContextParams()Ljava/util/Set;", cancellable = true)
     private void getReferencedContextParams__1120710816(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1120710816L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "environmentAttribute(Lnet/minecraft/world/attribute/EnvironmentAttribute;Ljava/lang/Object;)Lnet/minecraft/world/level/storage/loot/predicates/LootItemCondition$Builder;", cancellable = true)
+    private static void environmentAttribute__1552324899(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1552324899L))
             info.setReturnValue(null);
     }
 

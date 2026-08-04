@@ -43,15 +43,15 @@ public class MissingModels1570782175Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "bake(Lnet/minecraft/client/resources/model/ResolvedModel;Lnet/minecraft/client/resources/model/sprite/MaterialBaker;Lnet/minecraft/client/resources/model/ModelBaker$Interner;)Lnet/minecraft/client/resources/model/ModelBakery$MissingModels;", cancellable = true)
-    private static void bake_398084771(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(398084771L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "blockPart()Lnet/minecraft/client/renderer/block/dispatch/BlockStateModelPart;", cancellable = true)
     private void blockPart__1961354388(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1961354388L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "bake(Lnet/minecraft/client/resources/model/ResolvedModel;Lnet/minecraft/client/resources/model/sprite/MaterialBaker;Lnet/minecraft/client/resources/model/ModelBaker$Interner;)Lnet/minecraft/client/resources/model/ModelBakery$MissingModels;", cancellable = true)
+    private static void bake_398084771(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(398084771L))
             info.setReturnValue(null);
     }
 

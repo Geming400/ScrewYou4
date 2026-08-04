@@ -7,7 +7,13 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.world.level.block.EndGatewayBlock.class)
 public class EndGatewayBlock2104712534Mixin {
-        @Inject(at = @At("HEAD"), method = "getPortalDestination(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/Entity;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/portal/TeleportTransition;", cancellable = true)
+        @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
+    private void codec__454401038(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-454401038L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getPortalDestination(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/Entity;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/portal/TeleportTransition;", cancellable = true)
     private void getPortalDestination__1353931105(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1353931105L))
             info.setReturnValue(null);
@@ -17,12 +23,6 @@ public class EndGatewayBlock2104712534Mixin {
     private void animateTick_1982110453(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1982110453L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
-    private void codec__454401038(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-454401038L))
-            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "newBlockEntity(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/entity/BlockEntity;", cancellable = true)

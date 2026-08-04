@@ -25,9 +25,9 @@ public class BlockPatternMatch_97017597Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getWidth()I", cancellable = true)
-    private void getWidth_135279842(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(135279842L))
+    @Inject(at = @At("HEAD"), method = "getUp()Lnet/minecraft/core/Direction;", cancellable = true)
+    private void getUp__665837689(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-665837689L))
             info.setReturnValue(null);
     }
 
@@ -37,8 +37,14 @@ public class BlockPatternMatch_97017597Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getUp()Lnet/minecraft/core/Direction;", cancellable = true)
-    private void getUp__665837689(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "getWidth()I", cancellable = true)
+    private void getWidth_135279842(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(135279842L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getForwards()Lnet/minecraft/core/Direction;", cancellable = true)
+    private void getForwards__665837689(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-665837689L))
             info.setReturnValue(null);
     }
@@ -46,12 +52,6 @@ public class BlockPatternMatch_97017597Mixin {
     @Inject(at = @At("HEAD"), method = "getFrontTopLeft()Lnet/minecraft/core/BlockPos;", cancellable = true)
     private void getFrontTopLeft__1796369283(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1796369283L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getForwards()Lnet/minecraft/core/Direction;", cancellable = true)
-    private void getForwards__665837689(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-665837689L))
             info.setReturnValue(null);
     }
 

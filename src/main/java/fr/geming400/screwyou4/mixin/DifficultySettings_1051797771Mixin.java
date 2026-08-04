@@ -25,8 +25,8 @@ public class DifficultySettings_1051797771Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "locked()Z", cancellable = true)
-    private void locked_1090076353(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "hardcore()Z", cancellable = true)
+    private void hardcore_1090076353(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1090076353L))
             info.setReturnValue(null);
     }
@@ -37,8 +37,8 @@ public class DifficultySettings_1051797771Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "hardcore()Z", cancellable = true)
-    private void hardcore_1090076353(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "locked()Z", cancellable = true)
+    private void locked_1090076353(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1090076353L))
             info.setReturnValue(null);
     }

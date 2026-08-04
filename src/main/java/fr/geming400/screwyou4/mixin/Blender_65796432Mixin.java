@@ -25,9 +25,15 @@ public class Blender_65796432Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "makeOldChunkDistanceGetter(Lnet/minecraft/world/level/levelgen/blending/BlendingData;Ljava/util/Map;)Lnet/minecraft/world/level/levelgen/blending/Blender$DistanceGetter;", cancellable = true)
-    private static void makeOldChunkDistanceGetter__1689450854(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1689450854L))
+    @Inject(at = @At("HEAD"), method = "addAroundOldChunksCarvingMaskFilter(Lnet/minecraft/world/level/WorldGenLevel;Lnet/minecraft/world/level/chunk/ProtoChunk;)V", cancellable = true)
+    private static void addAroundOldChunksCarvingMaskFilter__1137890125(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1137890125L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getBiomeResolver(Lnet/minecraft/world/level/biome/BiomeResolver;)Lnet/minecraft/world/level/biome/BiomeResolver;", cancellable = true)
+    private void getBiomeResolver_683914676(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(683914676L))
             info.setReturnValue(null);
     }
 
@@ -37,22 +43,16 @@ public class Blender_65796432Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getBiomeResolver(Lnet/minecraft/world/level/biome/BiomeResolver;)Lnet/minecraft/world/level/biome/BiomeResolver;", cancellable = true)
-    private void getBiomeResolver_683914676(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(683914676L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "blendOffsetAndFactor(II)Lnet/minecraft/world/level/levelgen/blending/Blender$BlendingOutput;", cancellable = true)
     private void blendOffsetAndFactor__1915616050(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1915616050L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "addAroundOldChunksCarvingMaskFilter(Lnet/minecraft/world/level/WorldGenLevel;Lnet/minecraft/world/level/chunk/ProtoChunk;)V", cancellable = true)
-    private static void addAroundOldChunksCarvingMaskFilter__1137890125(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1137890125L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "makeOldChunkDistanceGetter(Lnet/minecraft/world/level/levelgen/blending/BlendingData;Ljava/util/Map;)Lnet/minecraft/world/level/levelgen/blending/Blender$DistanceGetter;", cancellable = true)
+    private static void makeOldChunkDistanceGetter__1689450854(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1689450854L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "generateBorderTicks(Lnet/minecraft/server/level/WorldGenRegion;Lnet/minecraft/world/level/chunk/ChunkAccess;)V", cancellable = true)

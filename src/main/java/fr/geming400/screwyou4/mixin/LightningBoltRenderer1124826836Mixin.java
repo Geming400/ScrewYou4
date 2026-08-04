@@ -19,18 +19,6 @@ public class LightningBoltRenderer1124826836Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/EntityRenderState;", cancellable = true)
-    private void createRenderState_536190392(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(536190392L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/LightningBoltRenderState;", cancellable = true)
-    private void createRenderState__1046469010(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1046469010L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/client/renderer/entity/state/EntityRenderState;F)V", cancellable = true)
     private void extractRenderState_1351945855(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1351945855L))
@@ -41,6 +29,18 @@ public class LightningBoltRenderer1124826836Mixin {
     private void extractRenderState__1056435653(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1056435653L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/LightningBoltRenderState;", cancellable = true)
+    private void createRenderState__1046469010(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1046469010L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/EntityRenderState;", cancellable = true)
+    private void createRenderState_536190392(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(536190392L))
+            info.setReturnValue(null);
     }
 
 

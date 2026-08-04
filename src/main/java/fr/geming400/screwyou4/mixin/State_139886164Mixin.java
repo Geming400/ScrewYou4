@@ -37,14 +37,14 @@ public class State_139886164Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "preparationNanos()Ljava/util/concurrent/atomic/AtomicLong;", cancellable = true)
-    private void preparationNanos__1176330578(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "reloadNanos()Ljava/util/concurrent/atomic/AtomicLong;", cancellable = true)
+    private void reloadNanos__1176330578(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1176330578L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "reloadNanos()Ljava/util/concurrent/atomic/AtomicLong;", cancellable = true)
-    private void reloadNanos__1176330578(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "preparationNanos()Ljava/util/concurrent/atomic/AtomicLong;", cancellable = true)
+    private void preparationNanos__1176330578(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1176330578L))
             info.setReturnValue(null);
     }

@@ -43,18 +43,6 @@ public class CommonPlayerSpawnInfo_741118625Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "dimensionType()Lnet/minecraft/core/Holder;", cancellable = true)
-    private void dimensionType__2004972900(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2004972900L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "portalCooldown()I", cancellable = true)
-    private void portalCooldown_779380870(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(779380870L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "gameType()Lnet/minecraft/world/level/GameType;", cancellable = true)
     private void gameType__654327674(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-654327674L))
@@ -79,14 +67,26 @@ public class CommonPlayerSpawnInfo_741118625Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "seaLevel()I", cancellable = true)
+    private void seaLevel_779380870(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(779380870L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "isFlat()Z", cancellable = true)
     private void isFlat_779397207(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(779397207L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "seaLevel()I", cancellable = true)
-    private void seaLevel_779380870(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "dimensionType()Lnet/minecraft/core/Holder;", cancellable = true)
+    private void dimensionType__2004972900(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2004972900L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "portalCooldown()I", cancellable = true)
+    private void portalCooldown_779380870(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(779380870L))
             info.setReturnValue(null);
     }

@@ -67,20 +67,8 @@ public class WrappedGoal484832394Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "canBeReplacedBy(Lnet/minecraft/world/entity/ai/goal/WrappedGoal;)Z", cancellable = true)
-    private void canBeReplacedBy_765519560(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(765519560L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getGoal()Lnet/minecraft/world/entity/ai/goal/Goal;", cancellable = true)
-    private void getGoal__1201115541(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1201115541L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isInterruptable()Z", cancellable = true)
-    private void isInterruptable_523110977(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "canContinueToUse()Z", cancellable = true)
+    private void canContinueToUse_523110977(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(523110977L))
             info.setReturnValue(null);
     }
@@ -91,9 +79,21 @@ public class WrappedGoal484832394Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "canContinueToUse()Z", cancellable = true)
-    private void canContinueToUse_523110977(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "isInterruptable()Z", cancellable = true)
+    private void isInterruptable_523110977(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(523110977L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "canBeReplacedBy(Lnet/minecraft/world/entity/ai/goal/WrappedGoal;)Z", cancellable = true)
+    private void canBeReplacedBy_765519560(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(765519560L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getGoal()Lnet/minecraft/world/entity/ai/goal/Goal;", cancellable = true)
+    private void getGoal__1201115541(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1201115541L))
             info.setReturnValue(null);
     }
 

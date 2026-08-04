@@ -31,15 +31,15 @@ public class FileSystemCapabilities_1596346655Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "hardLinks()Z", cancellable = true)
-    private void hardLinks_1634625237(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1634625237L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getMoveOptions()[Ljava/nio/file/CopyOption;", cancellable = true)
     private void getMoveOptions_1313692208(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1313692208L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "hardLinks()Z", cancellable = true)
+    private void hardLinks_1634625237(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1634625237L))
             info.setReturnValue(null);
     }
 

@@ -25,9 +25,27 @@ public class VaultConfig1152652790Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "lootTable()Lnet/minecraft/resources/ResourceKey;", cancellable = true)
+    private void lootTable_1961144103(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1961144103L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "entitySelector()Lnet/minecraft/world/level/block/entity/trialspawner/PlayerDetector$EntitySelector;", cancellable = true)
+    private void entitySelector__1722008790(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1722008790L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "playerDetector()Lnet/minecraft/world/level/block/entity/trialspawner/PlayerDetector;", cancellable = true)
     private void playerDetector_1071707886(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1071707886L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "overrideLootTableToDisplay()Ljava/util/Optional;", cancellable = true)
+    private void overrideLootTableToDisplay_1398114212(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1398114212L))
             info.setReturnValue(null);
     }
 
@@ -43,27 +61,9 @@ public class VaultConfig1152652790Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "overrideLootTableToDisplay()Ljava/util/Optional;", cancellable = true)
-    private void overrideLootTableToDisplay_1398114212(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1398114212L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "lootTable()Lnet/minecraft/resources/ResourceKey;", cancellable = true)
-    private void lootTable_1961144103(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1961144103L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "keyItem()Lnet/minecraft/world/item/ItemStack;", cancellable = true)
     private void keyItem_1676071450(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1676071450L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "entitySelector()Lnet/minecraft/world/level/block/entity/trialspawner/PlayerDetector$EntitySelector;", cancellable = true)
-    private void entitySelector__1722008790(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1722008790L))
             info.setReturnValue(null);
     }
 

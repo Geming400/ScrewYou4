@@ -13,9 +13,9 @@ public class ChiseledBookShelfBlockEntity_101351558Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getMaxStackSize()I", cancellable = true)
-    private void getMaxStackSize_139613803(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(139613803L))
+    @Inject(at = @At("HEAD"), method = "getItems()Lnet/minecraft/core/NonNullList;", cancellable = true)
+    private void getItems__1068810563(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1068810563L))
             info.setReturnValue(null);
     }
 
@@ -31,15 +31,9 @@ public class ChiseledBookShelfBlockEntity_101351558Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getItems()Lnet/minecraft/core/NonNullList;", cancellable = true)
-    private void getItems__1068810563(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1068810563L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "acceptsItemType(Lnet/minecraft/world/item/ItemStack;)Z", cancellable = true)
-    private void acceptsItemType_1835886689(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1835886689L))
+    @Inject(at = @At("HEAD"), method = "getMaxStackSize()I", cancellable = true)
+    private void getMaxStackSize_139613803(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(139613803L))
             info.setReturnValue(null);
     }
 
@@ -52,6 +46,12 @@ public class ChiseledBookShelfBlockEntity_101351558Mixin {
     @Inject(at = @At("HEAD"), method = "getLastInteractedSlot()I", cancellable = true)
     private void getLastInteractedSlot_139613803(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(139613803L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "acceptsItemType(Lnet/minecraft/world/item/ItemStack;)Z", cancellable = true)
+    private void acceptsItemType_1835886689(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1835886689L))
             info.setReturnValue(null);
     }
 

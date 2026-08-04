@@ -25,45 +25,15 @@ public class ChunkMap1356664135Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "sendToTrackingPlayers(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/network/protocol/Packet;)V", cancellable = true)
-    private void sendToTrackingPlayers_139913006(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(139913006L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "getPlayers(Lnet/minecraft/world/level/ChunkPos;Z)Ljava/util/List;", cancellable = true)
-    private void getPlayers__1345250279(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1345250279L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getStorageName()Ljava/lang/String;", cancellable = true)
-    private void getStorageName_221203664(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(221203664L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "hasWork()Z", cancellable = true)
     private void hasWork_1394942718(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1394942718L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "applyStep(Lnet/minecraft/server/level/GenerationChunkHolder;Lnet/minecraft/world/level/chunk/status/ChunkStep;Lnet/minecraft/util/StaticCache2D;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
-    private void applyStep_1899261660(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1899261660L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "resendBiomesForChunks(Ljava/util/List;)V", cancellable = true)
-    private void resendBiomesForChunks_577445547(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(577445547L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "anyPlayerCloseEnoughForSpawning(Lnet/minecraft/world/level/ChunkPos;)Z", cancellable = true)
-    private void anyPlayerCloseEnoughForSpawning__1423417110(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1423417110L))
+    @Inject(at = @At("HEAD"), method = "getPlayers(Lnet/minecraft/world/level/ChunkPos;Z)Ljava/util/List;", cancellable = true)
+    private void getPlayers__1345250279(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1345250279L))
             info.setReturnValue(null);
     }
 
@@ -73,9 +43,27 @@ public class ChunkMap1356664135Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "anyPlayerCloseEnoughForSpawning(Lnet/minecraft/world/level/ChunkPos;)Z", cancellable = true)
+    private void anyPlayerCloseEnoughForSpawning__1423417110(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1423417110L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "debugFuturesAndCreateReportedException(Ljava/lang/IllegalStateException;Ljava/lang/String;)Lnet/minecraft/ReportedException;", cancellable = true)
     private void debugFuturesAndCreateReportedException_1076212548(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1076212548L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "sendToTrackingPlayers(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/network/protocol/Packet;)V", cancellable = true)
+    private void sendToTrackingPlayers_139913006(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(139913006L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "applyStep(Lnet/minecraft/server/level/GenerationChunkHolder;Lnet/minecraft/world/level/chunk/status/ChunkStep;Lnet/minecraft/util/StaticCache2D;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
+    private void applyStep_1899261660(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1899261660L))
             info.setReturnValue(null);
     }
 
@@ -85,14 +73,8 @@ public class ChunkMap1356664135Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "releaseGeneration(Lnet/minecraft/server/level/GenerationChunkHolder;)V", cancellable = true)
-    private void releaseGeneration_235666123(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(235666123L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "prepareEntityTickingChunk(Lnet/minecraft/server/level/ChunkHolder;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
-    private void prepareEntityTickingChunk_1135816427(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "prepareTickingChunk(Lnet/minecraft/server/level/ChunkHolder;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
+    private void prepareTickingChunk_1135816427(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1135816427L))
             info.setReturnValue(null);
     }
@@ -103,16 +85,22 @@ public class ChunkMap1356664135Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "prepareEntityTickingChunk(Lnet/minecraft/server/level/ChunkHolder;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
+    private void prepareEntityTickingChunk_1135816427(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1135816427L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "getChunkToSend(J)Lnet/minecraft/world/level/chunk/LevelChunk;", cancellable = true)
     private void getChunkToSend__1606029900(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1606029900L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "prepareTickingChunk(Lnet/minecraft/server/level/ChunkHolder;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
-    private void prepareTickingChunk_1135816427(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1135816427L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "releaseGeneration(Lnet/minecraft/server/level/GenerationChunkHolder;)V", cancellable = true)
+    private void releaseGeneration_235666123(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(235666123L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "scheduleGenerationTask(Lnet/minecraft/world/level/chunk/status/ChunkStatus;Lnet/minecraft/world/level/ChunkPos;)Lnet/minecraft/server/level/ChunkGenerationTask;", cancellable = true)
@@ -145,34 +133,16 @@ public class ChunkMap1356664135Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "runGenerationTasks()V", cancellable = true)
+    private void runGenerationTasks_1394938874(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1394938874L))
+            info.cancel();
+    }
+
     @Inject(at = @At("HEAD"), method = "getChunkDebugData(Lnet/minecraft/world/level/ChunkPos;)Ljava/lang/String;", cancellable = true)
     private void getChunkDebugData_1424630884(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1424630884L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "forEachBlockTickingChunk(Ljava/util/function/Consumer;)V", cancellable = true)
-    private void forEachBlockTickingChunk_2037680548(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(2037680548L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "isTrackedByAnyPlayer(Lnet/minecraft/world/entity/Entity;)Z", cancellable = true)
-    private void isTrackedByAnyPlayer_904943319(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(904943319L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "collectSpawningChunks(Ljava/util/List;)V", cancellable = true)
-    private void collectSpawningChunks_577445547(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(577445547L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "forEachReadyToSendChunk(Ljava/util/function/Consumer;)V", cancellable = true)
-    private void forEachReadyToSendChunk_2037680548(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(2037680548L))
-            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "anyPlayerCloseEnoughTo(Lnet/minecraft/core/BlockPos;I)Z", cancellable = true)
@@ -181,10 +151,28 @@ public class ChunkMap1356664135Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "runGenerationTasks()V", cancellable = true)
-    private void runGenerationTasks_1394938874(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1394938874L))
+    @Inject(at = @At("HEAD"), method = "isTrackedByAnyPlayer(Lnet/minecraft/world/entity/Entity;)Z", cancellable = true)
+    private void isTrackedByAnyPlayer_904943319(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(904943319L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "waitForLightBeforeSending(Lnet/minecraft/world/level/ChunkPos;I)V", cancellable = true)
+    private void waitForLightBeforeSending_1100772359(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1100772359L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "collectSpawningChunks(Ljava/util/List;)V", cancellable = true)
+    private void collectSpawningChunks_577445547(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(577445547L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "hasEntityWithId(I)Z", cancellable = true)
+    private void hasEntityWithId__1724382345(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1724382345L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "forEachEntityTrackedBy(Lnet/minecraft/server/level/ServerPlayer;Ljava/util/function/Consumer;)V", cancellable = true)
@@ -193,9 +181,21 @@ public class ChunkMap1356664135Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "waitForLightBeforeSending(Lnet/minecraft/world/level/ChunkPos;I)V", cancellable = true)
-    private void waitForLightBeforeSending_1100772359(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1100772359L))
+    @Inject(at = @At("HEAD"), method = "forEachBlockTickingChunk(Ljava/util/function/Consumer;)V", cancellable = true)
+    private void forEachBlockTickingChunk_2037680548(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(2037680548L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getPlayersCloseForSpawning(Lnet/minecraft/world/level/ChunkPos;)Ljava/util/List;", cancellable = true)
+    private void getPlayersCloseForSpawning__1480546293(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1480546293L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "forEachReadyToSendChunk(Ljava/util/function/Consumer;)V", cancellable = true)
+    private void forEachReadyToSendChunk_2037680548(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(2037680548L))
             info.cancel();
     }
 
@@ -205,16 +205,16 @@ public class ChunkMap1356664135Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getPlayersCloseForSpawning(Lnet/minecraft/world/level/ChunkPos;)Ljava/util/List;", cancellable = true)
-    private void getPlayersCloseForSpawning__1480546293(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1480546293L))
+    @Inject(at = @At("HEAD"), method = "getStorageName()Ljava/lang/String;", cancellable = true)
+    private void getStorageName_221203664(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(221203664L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "hasEntityWithId(I)Z", cancellable = true)
-    private void hasEntityWithId__1724382345(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1724382345L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "resendBiomesForChunks(Ljava/util/List;)V", cancellable = true)
+    private void resendBiomesForChunks_577445547(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(577445547L))
+            info.cancel();
     }
 
 

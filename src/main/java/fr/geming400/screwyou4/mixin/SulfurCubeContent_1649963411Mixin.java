@@ -31,16 +31,16 @@ public class SulfurCubeContent_1649963411Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "addToTooltip(Lnet/minecraft/world/item/Item$TooltipContext;Ljava/util/function/Consumer;Lnet/minecraft/world/item/TooltipFlag;Lnet/minecraft/core/component/DataComponentGetter;)V", cancellable = true)
-    private void addToTooltip__892754980(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-892754980L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "absorbedBlockItemStack()Lnet/minecraft/world/item/ItemStackTemplate;", cancellable = true)
     private void absorbedBlockItemStack__891116580(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-891116580L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "addToTooltip(Lnet/minecraft/world/item/Item$TooltipContext;Ljava/util/function/Consumer;Lnet/minecraft/world/item/TooltipFlag;Lnet/minecraft/core/component/DataComponentGetter;)V", cancellable = true)
+    private void addToTooltip__892754980(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-892754980L))
+            info.cancel();
     }
 
 

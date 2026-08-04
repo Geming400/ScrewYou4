@@ -13,9 +13,15 @@ public class BlockStateParser_505155379Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "fillSuggestions(Lnet/minecraft/core/HolderLookup;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;ZZ)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
-    private static void fillSuggestions_223646337(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(223646337L))
+    @Inject(at = @At("HEAD"), method = "parseForTesting(Lnet/minecraft/core/HolderLookup;Lcom/mojang/brigadier/StringReader;Z)Lcom/mojang/datafixers/util/Either;", cancellable = true)
+    private static void parseForTesting_91922742(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(91922742L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "parseForTesting(Lnet/minecraft/core/HolderLookup;Ljava/lang/String;Z)Lcom/mojang/datafixers/util/Either;", cancellable = true)
+    private static void parseForTesting__522914260(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-522914260L))
             info.setReturnValue(null);
     }
 
@@ -31,15 +37,9 @@ public class BlockStateParser_505155379Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "parseForTesting(Lnet/minecraft/core/HolderLookup;Lcom/mojang/brigadier/StringReader;Z)Lcom/mojang/datafixers/util/Either;", cancellable = true)
-    private static void parseForTesting_91922742(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(91922742L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "parseForTesting(Lnet/minecraft/core/HolderLookup;Ljava/lang/String;Z)Lcom/mojang/datafixers/util/Either;", cancellable = true)
-    private static void parseForTesting__522914260(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-522914260L))
+    @Inject(at = @At("HEAD"), method = "fillSuggestions(Lnet/minecraft/core/HolderLookup;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;ZZ)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
+    private static void fillSuggestions_223646337(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(223646337L))
             info.setReturnValue(null);
     }
 

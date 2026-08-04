@@ -31,9 +31,9 @@ public class NoOpProfiler_1956476109Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "onPacketReceived(Lnet/minecraft/network/ConnectionProtocol;Lnet/minecraft/network/protocol/PacketType;Ljava/net/SocketAddress;I)V", cancellable = true)
-    private void onPacketReceived_1926212028(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1926212028L))
+    @Inject(at = @At("HEAD"), method = "onClientTick(I)V", cancellable = true)
+    private void onClientTick__1124574216(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1124574216L))
             info.cancel();
     }
 
@@ -43,9 +43,9 @@ public class NoOpProfiler_1956476109Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "onClientTick(I)V", cancellable = true)
-    private void onClientTick__1124574216(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1124574216L))
+    @Inject(at = @At("HEAD"), method = "onPacketReceived(Lnet/minecraft/network/ConnectionProtocol;Lnet/minecraft/network/protocol/PacketType;Ljava/net/SocketAddress;I)V", cancellable = true)
+    private void onPacketReceived_1926212028(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1926212028L))
             info.cancel();
     }
 
@@ -67,8 +67,8 @@ public class NoOpProfiler_1956476109Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "onRegionFileRead(Lnet/minecraft/world/level/chunk/storage/RegionStorageInfo;Lnet/minecraft/world/level/ChunkPos;Lnet/minecraft/world/level/chunk/storage/RegionFileVersion;I)V", cancellable = true)
-    private void onRegionFileRead_263556631(CallbackInfo info) {
+    @Inject(at = @At("HEAD"), method = "onRegionFileWrite(Lnet/minecraft/world/level/chunk/storage/RegionStorageInfo;Lnet/minecraft/world/level/ChunkPos;Lnet/minecraft/world/level/chunk/storage/RegionFileVersion;I)V", cancellable = true)
+    private void onRegionFileWrite_263556631(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(263556631L))
             info.cancel();
     }
@@ -79,8 +79,8 @@ public class NoOpProfiler_1956476109Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "onRegionFileWrite(Lnet/minecraft/world/level/chunk/storage/RegionStorageInfo;Lnet/minecraft/world/level/ChunkPos;Lnet/minecraft/world/level/chunk/storage/RegionFileVersion;I)V", cancellable = true)
-    private void onRegionFileWrite_263556631(CallbackInfo info) {
+    @Inject(at = @At("HEAD"), method = "onRegionFileRead(Lnet/minecraft/world/level/chunk/storage/RegionStorageInfo;Lnet/minecraft/world/level/ChunkPos;Lnet/minecraft/world/level/chunk/storage/RegionFileVersion;I)V", cancellable = true)
+    private void onRegionFileRead_263556631(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(263556631L))
             info.cancel();
     }

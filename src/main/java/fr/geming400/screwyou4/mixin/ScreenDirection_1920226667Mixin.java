@@ -37,15 +37,15 @@ public class ScreenDirection_1920226667Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "coordinateValueComparator()Lit/unimi/dsi/fastutil/ints/IntComparator;", cancellable = true)
-    private void coordinateValueComparator_693058569(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(693058569L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getOpposite()Lnet/minecraft/client/gui/navigation/ScreenDirection;", cancellable = true)
     private void getOpposite_1365538802(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1365538802L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "coordinateValueComparator()Lit/unimi/dsi/fastutil/ints/IntComparator;", cancellable = true)
+    private void coordinateValueComparator_693058569(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(693058569L))
             info.setReturnValue(null);
     }
 

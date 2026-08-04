@@ -31,9 +31,15 @@ public class ReportingContext1852352597Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "hasDraftReport()Z", cancellable = true)
-    private void hasDraftReport_1890631180(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1890631180L))
+    @Inject(at = @At("HEAD"), method = "sender()Lnet/minecraft/client/multiplayer/chat/report/AbuseReportSender;", cancellable = true)
+    private void sender__2065194531(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2065194531L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "chatLog()Lnet/minecraft/client/multiplayer/chat/ChatLog;", cancellable = true)
+    private void chatLog__998576513(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-998576513L))
             info.setReturnValue(null);
     }
 
@@ -43,15 +49,9 @@ public class ReportingContext1852352597Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "chatLog()Lnet/minecraft/client/multiplayer/chat/ChatLog;", cancellable = true)
-    private void chatLog__998576513(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-998576513L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "sender()Lnet/minecraft/client/multiplayer/chat/report/AbuseReportSender;", cancellable = true)
-    private void sender__2065194531(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2065194531L))
+    @Inject(at = @At("HEAD"), method = "hasDraftReport()Z", cancellable = true)
+    private void hasDraftReport_1890631180(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1890631180L))
             info.setReturnValue(null);
     }
 

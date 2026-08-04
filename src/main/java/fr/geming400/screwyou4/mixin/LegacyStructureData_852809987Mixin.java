@@ -31,16 +31,16 @@ public class LegacyStructureData_852809987Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "starts()Ljava/util/Map;", cancellable = true)
-    private void starts__1151813654(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1151813654L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "addIndex(Ljava/lang/String;J)V", cancellable = true)
     private void addIndex__2050376475(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-2050376475L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "starts()Ljava/util/Map;", cancellable = true)
+    private void starts__1151813654(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1151813654L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "addStart(Ljava/lang/String;Lcom/mojang/serialization/Dynamic;)V", cancellable = true)

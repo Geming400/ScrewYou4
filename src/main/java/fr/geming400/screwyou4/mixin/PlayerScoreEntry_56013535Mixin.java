@@ -49,6 +49,12 @@ public class PlayerScoreEntry_56013535Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "numberFormatOverride()Lnet/minecraft/network/chat/numbers/NumberFormat;", cancellable = true)
+    private void numberFormatOverride_1020338523(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1020338523L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "formatValue(Lnet/minecraft/network/chat/numbers/NumberFormat;)Lnet/minecraft/network/chat/MutableComponent;", cancellable = true)
     private void formatValue_1403107769(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1403107769L))
@@ -58,12 +64,6 @@ public class PlayerScoreEntry_56013535Mixin {
     @Inject(at = @At("HEAD"), method = "ownerName()Lnet/minecraft/network/chat/Component;", cancellable = true)
     private void ownerName__2120895631(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2120895631L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "numberFormatOverride()Lnet/minecraft/network/chat/numbers/NumberFormat;", cancellable = true)
-    private void numberFormatOverride_1020338523(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1020338523L))
             info.setReturnValue(null);
     }
 

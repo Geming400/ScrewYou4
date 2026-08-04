@@ -49,12 +49,6 @@ public class ScheduledTick_2078496564Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "triggerTick()J", cancellable = true)
-    private void triggerTick_2116759770(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2116759770L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "toSavedTick(J)Lnet/minecraft/world/ticks/SavedTick;", cancellable = true)
     private void toSavedTick__271327081(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-271327081L))
@@ -63,6 +57,12 @@ public class ScheduledTick_2078496564Mixin {
 
     @Inject(at = @At("HEAD"), method = "subTickOrder()J", cancellable = true)
     private void subTickOrder_2116759770(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2116759770L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "triggerTick()J", cancellable = true)
+    private void triggerTick_2116759770(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2116759770L))
             info.setReturnValue(null);
     }

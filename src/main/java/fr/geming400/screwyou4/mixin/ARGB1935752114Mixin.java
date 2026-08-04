@@ -13,15 +13,15 @@ public class ARGB1935752114Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "color(FI)I", cancellable = true)
-    private static void color_853972947(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(853972947L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "color(III)I", cancellable = true)
     private static void color_1155647465(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1155647465L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "color(FI)I", cancellable = true)
+    private static void color_853972947(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(853972947L))
             info.setReturnValue(null);
     }
 
@@ -55,6 +55,18 @@ public class ARGB1935752114Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "white(I)I", cancellable = true)
+    private static void white__1145310455(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1145310455L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "white(F)I", cancellable = true)
+    private static void white__1148081018(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1148081018L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "blue(I)I", cancellable = true)
     private static void blue__1145310455(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1145310455L))
@@ -79,74 +91,20 @@ public class ARGB1935752114Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "white(F)I", cancellable = true)
-    private static void white__1148081018(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1148081018L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "white(I)I", cancellable = true)
-    private static void white__1145310455(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1145310455L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "srgbLerp(FII)I", cancellable = true)
-    private static void srgbLerp__1506863578(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1506863578L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "opaque(I)I", cancellable = true)
-    private static void opaque__1145310455(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1145310455L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "colorFromFloat(FFFF)I", cancellable = true)
     private static void colorFromFloat__134553584(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-134553584L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "setVector4fFromARGB32(Lorg/joml/Vector4f;I)Lorg/joml/Vector4f;", cancellable = true)
-    private static void setVector4fFromARGB32__1356330608(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1356330608L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "setBrightness(IF)I", cancellable = true)
-    private static void setBrightness_937089837(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(937089837L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "alpha(I)I", cancellable = true)
-    private static void alpha__1145310455(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1145310455L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "vector3fFromRGB24(I)Lorg/joml/Vector3f;", cancellable = true)
-    private static void vector3fFromRGB24_1141414833(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1141414833L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "vector4fFromARGB32(I)Lorg/joml/Vector4f;", cancellable = true)
-    private static void vector4fFromARGB32_1142338354(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1142338354L))
+    @Inject(at = @At("HEAD"), method = "redFloat(I)F", cancellable = true)
+    private static void redFloat__1145313338(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1145313338L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "greenFloat(I)F", cancellable = true)
     private static void greenFloat__1145313338(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1145313338L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "redFloat(I)F", cancellable = true)
-    private static void redFloat__1145313338(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1145313338L))
             info.setReturnValue(null);
     }
@@ -157,9 +115,9 @@ public class ARGB1935752114Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "scaleRGB(IFFF)I", cancellable = true)
-    private static void scaleRGB_798910125(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(798910125L))
+    @Inject(at = @At("HEAD"), method = "scaleRGB(IF)I", cancellable = true)
+    private static void scaleRGB_937089837(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(937089837L))
             info.setReturnValue(null);
     }
 
@@ -169,9 +127,9 @@ public class ARGB1935752114Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "scaleRGB(IF)I", cancellable = true)
-    private static void scaleRGB_937089837(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(937089837L))
+    @Inject(at = @At("HEAD"), method = "scaleRGB(IFFF)I", cancellable = true)
+    private static void scaleRGB_798910125(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(798910125L))
             info.setReturnValue(null);
     }
 
@@ -193,9 +151,21 @@ public class ARGB1935752114Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "srgbToLinearChannel(I)F", cancellable = true)
-    private static void srgbToLinearChannel__1145313338(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1145313338L))
+    @Inject(at = @At("HEAD"), method = "alpha(I)I", cancellable = true)
+    private static void alpha__1145310455(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1145310455L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "srgbLerp(FII)I", cancellable = true)
+    private static void srgbLerp__1506863578(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1506863578L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "opaque(I)I", cancellable = true)
+    private static void opaque__1145310455(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1145310455L))
             info.setReturnValue(null);
     }
 
@@ -205,27 +175,51 @@ public class ARGB1935752114Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "srgbToLinearChannel(I)F", cancellable = true)
+    private static void srgbToLinearChannel__1145313338(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1145313338L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "transparent(I)I", cancellable = true)
     private static void transparent__1145310455(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1145310455L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "multiplyAlpha(IF)I", cancellable = true)
-    private static void multiplyAlpha_937089837(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "vector3fFromRGB24(I)Lorg/joml/Vector3f;", cancellable = true)
+    private static void vector3fFromRGB24_1141414833(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1141414833L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "vector4fFromARGB32(I)Lorg/joml/Vector4f;", cancellable = true)
+    private static void vector4fFromARGB32_1142338354(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1142338354L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "setVector4fFromARGB32(Lorg/joml/Vector4f;I)Lorg/joml/Vector4f;", cancellable = true)
+    private static void setVector4fFromARGB32__1356330608(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1356330608L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "setBrightness(IF)I", cancellable = true)
+    private static void setBrightness_937089837(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(937089837L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "toABGR(I)I", cancellable = true)
-    private static void toABGR__1145310455(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1145310455L))
+    @Inject(at = @At("HEAD"), method = "subtractRgb(II)I", cancellable = true)
+    private static void subtractRgb_939860400(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(939860400L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "linearLerp(FII)I", cancellable = true)
-    private static void linearLerp__1506863578(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1506863578L))
+    @Inject(at = @At("HEAD"), method = "as8BitChannel(F)I", cancellable = true)
+    private static void as8BitChannel__1148081018(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1148081018L))
             info.setReturnValue(null);
     }
 
@@ -247,21 +241,27 @@ public class ARGB1935752114Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "linearLerp(FII)I", cancellable = true)
+    private static void linearLerp__1506863578(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1506863578L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "fromABGR(I)I", cancellable = true)
     private static void fromABGR__1145310455(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1145310455L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "as8BitChannel(F)I", cancellable = true)
-    private static void as8BitChannel__1148081018(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1148081018L))
+    @Inject(at = @At("HEAD"), method = "toABGR(I)I", cancellable = true)
+    private static void toABGR__1145310455(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1145310455L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "subtractRgb(II)I", cancellable = true)
-    private static void subtractRgb_939860400(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(939860400L))
+    @Inject(at = @At("HEAD"), method = "multiplyAlpha(IF)I", cancellable = true)
+    private static void multiplyAlpha_937089837(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(937089837L))
             info.setReturnValue(null);
     }
 

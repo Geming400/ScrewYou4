@@ -25,9 +25,9 @@ public class LookControl1785459856Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "setLookAt(Lnet/minecraft/world/entity/Entity;FF)V", cancellable = true)
-    private void setLookAt__2037064804(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-2037064804L))
+    @Inject(at = @At("HEAD"), method = "setLookAt(DDDFF)V", cancellable = true)
+    private void setLookAt_409782647(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(409782647L))
             info.cancel();
     }
 
@@ -37,26 +37,26 @@ public class LookControl1785459856Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "setLookAt(Lnet/minecraft/world/entity/Entity;FF)V", cancellable = true)
+    private void setLookAt__2037064804(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-2037064804L))
+            info.cancel();
+    }
+
     @Inject(at = @At("HEAD"), method = "setLookAt(Lnet/minecraft/world/entity/Entity;)V", cancellable = true)
     private void setLookAt_1333735196(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1333735196L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "setLookAt(DDDFF)V", cancellable = true)
-    private void setLookAt_409782647(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(409782647L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "getWantedY()D", cancellable = true)
-    private void getWantedY_1823717297(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "getWantedX()D", cancellable = true)
+    private void getWantedX_1823717297(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1823717297L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getWantedX()D", cancellable = true)
-    private void getWantedX_1823717297(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "getWantedY()D", cancellable = true)
+    private void getWantedY_1823717297(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1823717297L))
             info.setReturnValue(null);
     }

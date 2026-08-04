@@ -7,9 +7,21 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.gizmos.SimpleGizmoCollector.GizmoInstance.class)
 public class GizmoInstance1664645776Mixin {
-        @Inject(at = @At("HEAD"), method = "isAlwaysOnTop()Z", cancellable = true)
-    private void isAlwaysOnTop_1702924359(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1702924359L))
+        @Inject(at = @At("HEAD"), method = "gizmo()Lnet/minecraft/gizmos/Gizmo;", cancellable = true)
+    private void gizmo__1208314330(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1208314330L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "setAlwaysOnTop()Lnet/minecraft/gizmos/GizmoProperties;", cancellable = true)
+    private void setAlwaysOnTop__2139707469(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2139707469L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "fadeOut()Lnet/minecraft/gizmos/GizmoProperties;", cancellable = true)
+    private void fadeOut__2139707469(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2139707469L))
             info.setReturnValue(null);
     }
 
@@ -19,15 +31,9 @@ public class GizmoInstance1664645776Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "gizmo()Lnet/minecraft/gizmos/Gizmo;", cancellable = true)
-    private void gizmo__1208314330(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1208314330L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "setAlwaysOnTop()Lnet/minecraft/gizmos/GizmoProperties;", cancellable = true)
-    private void setAlwaysOnTop__2139707469(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2139707469L))
+    @Inject(at = @At("HEAD"), method = "isAlwaysOnTop()Z", cancellable = true)
+    private void isAlwaysOnTop_1702924359(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1702924359L))
             info.setReturnValue(null);
     }
 
@@ -40,12 +46,6 @@ public class GizmoInstance1664645776Mixin {
     @Inject(at = @At("HEAD"), method = "persistForMillis(I)Lnet/minecraft/gizmos/GizmoProperties;", cancellable = true)
     private void persistForMillis_1186713306(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1186713306L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "fadeOut()Lnet/minecraft/gizmos/GizmoProperties;", cancellable = true)
-    private void fadeOut__2139707469(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2139707469L))
             info.setReturnValue(null);
     }
 

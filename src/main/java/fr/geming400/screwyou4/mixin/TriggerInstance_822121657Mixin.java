@@ -37,6 +37,12 @@ public class TriggerInstance_822121657Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "player()Ljava/util/Optional;", cancellable = true)
+    private void player_1067583078(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1067583078L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "shotCrossbow(Lnet/minecraft/core/HolderGetter;Lnet/minecraft/world/level/ItemLike;)Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
     private static void shotCrossbow__183142644(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-183142644L))
@@ -46,12 +52,6 @@ public class TriggerInstance_822121657Mixin {
     @Inject(at = @At("HEAD"), method = "shotCrossbow(Ljava/util/Optional;)Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
     private static void shotCrossbow__436749042(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-436749042L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "player()Ljava/util/Optional;", cancellable = true)
-    private void player_1067583078(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1067583078L))
             info.setReturnValue(null);
     }
 

@@ -19,16 +19,16 @@ public class PistonBaseBlock_1498914411Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
-    private void getStateForPlacement_240314643(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(240314643L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "setPlacedBy(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;)V", cancellable = true)
     private void setPlacedBy__1068620738(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1068620738L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
+    private void getStateForPlacement_240314643(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(240314643L))
+            info.setReturnValue(null);
     }
 
 

@@ -19,15 +19,15 @@ public class StackedContents_2091745485Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "tryPickAll(Ljava/util/List;ILnet/minecraft/world/entity/player/StackedContents$Output;)I", cancellable = true)
-    private void tryPickAll_1053455378(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1053455378L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "tryPick(Ljava/util/List;ILnet/minecraft/world/entity/player/StackedContents$Output;)Z", cancellable = true)
     private void tryPick_1053471715(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1053471715L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "tryPickAll(Ljava/util/List;ILnet/minecraft/world/entity/player/StackedContents$Output;)I", cancellable = true)
+    private void tryPickAll_1053455378(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1053455378L))
             info.setReturnValue(null);
     }
 

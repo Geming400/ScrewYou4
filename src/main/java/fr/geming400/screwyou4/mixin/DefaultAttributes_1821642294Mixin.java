@@ -13,15 +13,15 @@ public class DefaultAttributes_1821642294Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getSupplier(Lnet/minecraft/world/entity/EntityType;)Lnet/minecraft/world/entity/ai/attributes/AttributeSupplier;", cancellable = true)
-    private static void getSupplier_2072505344(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2072505344L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "hasSupplier(Lnet/minecraft/world/entity/EntityType;)Z", cancellable = true)
     private static void hasSupplier_1605716643(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1605716643L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getSupplier(Lnet/minecraft/world/entity/EntityType;)Lnet/minecraft/world/entity/ai/attributes/AttributeSupplier;", cancellable = true)
+    private static void getSupplier_2072505344(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2072505344L))
             info.setReturnValue(null);
     }
 

@@ -55,6 +55,12 @@ public class TriggerInstance997732087Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "player()Ljava/util/Optional;", cancellable = true)
+    private void player_1243193509(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1243193509L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "bredAnimals(Lnet/minecraft/advancements/predicates/entity/EntityPredicate$Builder;)Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
     private static void bredAnimals__705252349(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-705252349L))
@@ -70,12 +76,6 @@ public class TriggerInstance997732087Mixin {
     @Inject(at = @At("HEAD"), method = "bredAnimals()Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
     private static void bredAnimals__2023483810(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2023483810L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "player()Ljava/util/Optional;", cancellable = true)
-    private void player_1243193509(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1243193509L))
             info.setReturnValue(null);
     }
 

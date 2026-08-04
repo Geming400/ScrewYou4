@@ -19,18 +19,6 @@ public class WitherSkullRenderer_1293327489Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/WitherSkullRenderState;", cancellable = true)
-    private void createRenderState__622502203(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-622502203L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/EntityRenderState;", cancellable = true)
-    private void createRenderState_704691044(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(704691044L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/entity/projectile/hurtingprojectile/WitherSkull;Lnet/minecraft/client/renderer/entity/state/WitherSkullRenderState;F)V", cancellable = true)
     private void extractRenderState__639184196(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-639184196L))
@@ -46,6 +34,18 @@ public class WitherSkullRenderer_1293327489Mixin {
     @Inject(at = @At("HEAD"), method = "createSkullLayer()Lnet/minecraft/client/model/geom/builders/LayerDefinition;", cancellable = true)
     private static void createSkullLayer_579195324(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(579195324L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/WitherSkullRenderState;", cancellable = true)
+    private void createRenderState__622502203(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-622502203L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/EntityRenderState;", cancellable = true)
+    private void createRenderState_704691044(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(704691044L))
             info.setReturnValue(null);
     }
 

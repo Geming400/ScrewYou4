@@ -19,15 +19,15 @@ public class JointType1048987193Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getTranslatedName()Lnet/minecraft/network/chat/Component;", cancellable = true)
-    private void getTranslatedName__1127921972(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1127921972L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName__86473278(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-86473278L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getTranslatedName()Lnet/minecraft/network/chat/Component;", cancellable = true)
+    private void getTranslatedName__1127921972(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1127921972L))
             info.setReturnValue(null);
     }
 

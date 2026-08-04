@@ -19,12 +19,6 @@ public class BeehiveBlockEntity1940928692Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "registerDebugValues(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/util/debug/DebugValueSource$Registration;)V", cancellable = true)
-    private void registerDebugValues__1125761512(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1125761512L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "setChanged()V", cancellable = true)
     private void setChanged_1979203431(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1979203431L))
@@ -37,15 +31,15 @@ public class BeehiveBlockEntity1940928692Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "isSedated()Z", cancellable = true)
-    private void isSedated_1979207275(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1979207275L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "registerDebugValues(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/util/debug/DebugValueSource$Registration;)V", cancellable = true)
+    private void registerDebugValues__1125761512(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1125761512L))
+            info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "isFireNearby()Z", cancellable = true)
-    private void isFireNearby_1979207275(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1979207275L))
+    @Inject(at = @At("HEAD"), method = "getHoneyLevel(Lnet/minecraft/world/level/block/state/BlockState;)I", cancellable = true)
+    private static void getHoneyLevel_1795623617(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1795623617L))
             info.setReturnValue(null);
     }
 
@@ -55,10 +49,22 @@ public class BeehiveBlockEntity1940928692Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getHoneyLevel(Lnet/minecraft/world/level/block/state/BlockState;)I", cancellable = true)
-    private static void getHoneyLevel_1795623617(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1795623617L))
+    @Inject(at = @At("HEAD"), method = "emptyAllLivingFromHive(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/entity/BeehiveBlockEntity$BeeReleaseStatus;)V", cancellable = true)
+    private void emptyAllLivingFromHive__372408303(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-372408303L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "isSedated()Z", cancellable = true)
+    private void isSedated_1979207275(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1979207275L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "addOccupant(Lnet/minecraft/world/entity/animal/bee/Bee;)V", cancellable = true)
+    private void addOccupant__866730655(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-866730655L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "serverTick(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/entity/BeehiveBlockEntity;)V", cancellable = true)
@@ -67,21 +73,15 @@ public class BeehiveBlockEntity1940928692Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "emptyAllLivingFromHive(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/entity/BeehiveBlockEntity$BeeReleaseStatus;)V", cancellable = true)
-    private void emptyAllLivingFromHive__372408303(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-372408303L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "isFireNearby()Z", cancellable = true)
+    private void isFireNearby_1979207275(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1979207275L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "storeBee(Lnet/minecraft/world/level/block/entity/BeehiveBlockEntity$Occupant;)V", cancellable = true)
     private void storeBee_1605026209(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1605026209L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "addOccupant(Lnet/minecraft/world/entity/animal/bee/Bee;)V", cancellable = true)
-    private void addOccupant__866730655(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-866730655L))
             info.cancel();
     }
 

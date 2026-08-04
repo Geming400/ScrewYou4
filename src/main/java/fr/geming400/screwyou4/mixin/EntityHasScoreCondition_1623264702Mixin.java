@@ -25,15 +25,15 @@ public class EntityHasScoreCondition_1623264702Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "test(Ljava/lang/Object;)Z", cancellable = true)
-    private void test__1286061872(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1286061872L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "test(Lnet/minecraft/world/level/storage/loot/LootContext;)Z", cancellable = true)
     private void test__753684397(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-753684397L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "test(Ljava/lang/Object;)Z", cancellable = true)
+    private void test__1286061872(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1286061872L))
             info.setReturnValue(null);
     }
 
@@ -41,12 +41,6 @@ public class EntityHasScoreCondition_1623264702Mixin {
     private void validate__1095071904(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1095071904L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "entityTarget()Lnet/minecraft/world/level/storage/loot/LootContext$EntityTarget;", cancellable = true)
-    private void entityTarget_1113260505(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1113260505L))
-            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
@@ -61,15 +55,21 @@ public class EntityHasScoreCondition_1623264702Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "getReferencedContextParams()Ljava/util/Set;", cancellable = true)
+    private void getReferencedContextParams__205770785(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-205770785L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "hasScores(Lnet/minecraft/world/level/storage/loot/LootContext$EntityTarget;)Lnet/minecraft/world/level/storage/loot/predicates/EntityHasScoreCondition$Builder;", cancellable = true)
     private static void hasScores__2064005363(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2064005363L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getReferencedContextParams()Ljava/util/Set;", cancellable = true)
-    private void getReferencedContextParams__205770785(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-205770785L))
+    @Inject(at = @At("HEAD"), method = "entityTarget()Lnet/minecraft/world/level/storage/loot/LootContext$EntityTarget;", cancellable = true)
+    private void entityTarget_1113260505(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1113260505L))
             info.setReturnValue(null);
     }
 

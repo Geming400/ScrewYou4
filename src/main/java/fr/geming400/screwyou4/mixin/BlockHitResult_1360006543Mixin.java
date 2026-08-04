@@ -19,21 +19,27 @@ public class BlockHitResult_1360006543Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "hitBorder()Lnet/minecraft/world/phys/BlockHitResult;", cancellable = true)
-    private void hitBorder__1618023965(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1618023965L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "withPosition(Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/phys/BlockHitResult;", cancellable = true)
-    private void withPosition__1355764809(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1355764809L))
+    @Inject(at = @At("HEAD"), method = "withDirection(Lnet/minecraft/core/Direction;)Lnet/minecraft/world/phys/BlockHitResult;", cancellable = true)
+    private void withDirection__1172426769(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1172426769L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getBlockPos()Lnet/minecraft/core/BlockPos;", cancellable = true)
     private void getBlockPos__533380337(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-533380337L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "miss(Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/core/Direction;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/phys/BlockHitResult;", cancellable = true)
+    private static void miss_1823361175(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1823361175L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "withPosition(Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/phys/BlockHitResult;", cancellable = true)
+    private void withPosition__1355764809(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1355764809L))
             info.setReturnValue(null);
     }
 
@@ -49,15 +55,9 @@ public class BlockHitResult_1360006543Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "withDirection(Lnet/minecraft/core/Direction;)Lnet/minecraft/world/phys/BlockHitResult;", cancellable = true)
-    private void withDirection__1172426769(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1172426769L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "miss(Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/core/Direction;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/phys/BlockHitResult;", cancellable = true)
-    private static void miss_1823361175(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1823361175L))
+    @Inject(at = @At("HEAD"), method = "hitBorder()Lnet/minecraft/world/phys/BlockHitResult;", cancellable = true)
+    private void hitBorder__1618023965(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1618023965L))
             info.setReturnValue(null);
     }
 

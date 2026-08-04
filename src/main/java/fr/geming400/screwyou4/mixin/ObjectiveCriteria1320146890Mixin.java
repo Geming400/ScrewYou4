@@ -31,12 +31,6 @@ public class ObjectiveCriteria1320146890Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getDefaultRenderType()Lnet/minecraft/world/scores/criteria/ObjectiveCriteria$RenderType;", cancellable = true)
-    private void getDefaultRenderType__299423223(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-299423223L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "registerCustom(Ljava/lang/String;)Lnet/minecraft/world/scores/criteria/ObjectiveCriteria;", cancellable = true)
     private static void registerCustom_2064682379(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2064682379L))
@@ -46,6 +40,12 @@ public class ObjectiveCriteria1320146890Mixin {
     @Inject(at = @At("HEAD"), method = "registerCustom(Ljava/lang/String;ZLnet/minecraft/world/scores/criteria/ObjectiveCriteria$RenderType;)Lnet/minecraft/world/scores/criteria/ObjectiveCriteria;", cancellable = true)
     private static void registerCustom_496832897(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(496832897L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getDefaultRenderType()Lnet/minecraft/world/scores/criteria/ObjectiveCriteria$RenderType;", cancellable = true)
+    private void getDefaultRenderType__299423223(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-299423223L))
             info.setReturnValue(null);
     }
 

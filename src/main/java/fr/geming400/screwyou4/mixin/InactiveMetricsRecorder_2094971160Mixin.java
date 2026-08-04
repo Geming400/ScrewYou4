@@ -31,8 +31,8 @@ public class InactiveMetricsRecorder_2094971160Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "startTick()V", cancellable = true)
-    private void startTick_2133245898(CallbackInfo info) {
+    @Inject(at = @At("HEAD"), method = "sampleDuringExtract()V", cancellable = true)
+    private void sampleDuringExtract_2133245898(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(2133245898L))
             info.cancel();
     }
@@ -43,8 +43,8 @@ public class InactiveMetricsRecorder_2094971160Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "sampleDuringExtract()V", cancellable = true)
-    private void sampleDuringExtract_2133245898(CallbackInfo info) {
+    @Inject(at = @At("HEAD"), method = "startTick()V", cancellable = true)
+    private void startTick_2133245898(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(2133245898L))
             info.cancel();
     }

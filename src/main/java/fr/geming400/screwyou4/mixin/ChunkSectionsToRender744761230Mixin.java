@@ -25,15 +25,15 @@ public class ChunkSectionsToRender744761230Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "textureView()Lcom/mojang/blaze3d/textures/GpuTextureView;", cancellable = true)
-    private void textureView__1655853380(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1655853380L))
+    @Inject(at = @At("HEAD"), method = "maxIndicesRequired()I", cancellable = true)
+    private void maxIndicesRequired_783023476(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(783023476L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "chunkSectionInfos()[Lcom/mojang/blaze3d/buffers/GpuBufferSlice;", cancellable = true)
-    private void chunkSectionInfos_1862472332(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1862472332L))
+    @Inject(at = @At("HEAD"), method = "drawGroupsPerLayer()Ljava/util/EnumMap;", cancellable = true)
+    private void drawGroupsPerLayer_1635001687(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1635001687L))
             info.setReturnValue(null);
     }
 
@@ -43,15 +43,15 @@ public class ChunkSectionsToRender744761230Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "drawGroupsPerLayer()Ljava/util/EnumMap;", cancellable = true)
-    private void drawGroupsPerLayer_1635001687(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1635001687L))
+    @Inject(at = @At("HEAD"), method = "chunkSectionInfos()[Lcom/mojang/blaze3d/buffers/GpuBufferSlice;", cancellable = true)
+    private void chunkSectionInfos_1862472332(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1862472332L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "maxIndicesRequired()I", cancellable = true)
-    private void maxIndicesRequired_783023476(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(783023476L))
+    @Inject(at = @At("HEAD"), method = "textureView()Lcom/mojang/blaze3d/textures/GpuTextureView;", cancellable = true)
+    private void textureView__1655853380(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1655853380L))
             info.setReturnValue(null);
     }
 

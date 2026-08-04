@@ -19,15 +19,9 @@ public class OS_510275168Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "openUri(Ljava/lang/String;)V", cancellable = true)
-    private void openUri_1662636316(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1662636316L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "openUri(Ljava/net/URI;)V", cancellable = true)
-    private void openUri_721274932(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(721274932L))
+    @Inject(at = @At("HEAD"), method = "openPath(Ljava/nio/file/Path;)V", cancellable = true)
+    private void openPath_2117561969(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(2117561969L))
             info.cancel();
     }
 
@@ -37,9 +31,15 @@ public class OS_510275168Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "openPath(Ljava/nio/file/Path;)V", cancellable = true)
-    private void openPath_2117561969(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(2117561969L))
+    @Inject(at = @At("HEAD"), method = "openUri(Ljava/net/URI;)V", cancellable = true)
+    private void openUri_721274932(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(721274932L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "openUri(Ljava/lang/String;)V", cancellable = true)
+    private void openUri_1662636316(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1662636316L))
             info.cancel();
     }
 

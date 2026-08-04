@@ -37,16 +37,16 @@ public class FoodProperties_404639721Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "nutrition()I", cancellable = true)
-    private void nutrition_442901966(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(442901966L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "onConsume(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/component/Consumable;)V", cancellable = true)
     private void onConsume__1783603316(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1783603316L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "nutrition()I", cancellable = true)
+    private void nutrition_442901966(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(442901966L))
+            info.setReturnValue(null);
     }
 
 

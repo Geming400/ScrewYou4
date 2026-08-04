@@ -13,12 +13,6 @@ public class StairBlock_1448777400Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
-    private void getStateForPlacement_190177632(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(190177632L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getExplosionResistance()F", cancellable = true)
     private void getExplosionResistance_1487036762(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1487036762L))
@@ -28,6 +22,12 @@ public class StairBlock_1448777400Mixin {
     @Inject(at = @At("HEAD"), method = "isStairs(Lnet/minecraft/world/level/block/state/BlockState;)Z", cancellable = true)
     private static void isStairs_1303488661(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1303488661L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
+    private void getStateForPlacement_190177632(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(190177632L))
             info.setReturnValue(null);
     }
 

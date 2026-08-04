@@ -31,18 +31,6 @@ public class PreeditEvent1300836985Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "toFormattedText(Lnet/minecraft/network/chat/Style;)Lnet/minecraft/network/chat/MutableComponent;", cancellable = true)
-    private void toFormattedText_2129895396(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2129895396L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "caretPosition()I", cancellable = true)
-    private void caretPosition_1339099231(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1339099231L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "focusedBlock()I", cancellable = true)
     private void focusedBlock_1339099231(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1339099231L))
@@ -58,6 +46,18 @@ public class PreeditEvent1300836985Mixin {
     @Inject(at = @At("HEAD"), method = "fullText()Ljava/lang/String;", cancellable = true)
     private void fullText_165376514(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(165376514L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "toFormattedText(Lnet/minecraft/network/chat/Style;)Lnet/minecraft/network/chat/MutableComponent;", cancellable = true)
+    private void toFormattedText_2129895396(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2129895396L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "caretPosition()I", cancellable = true)
+    private void caretPosition_1339099231(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1339099231L))
             info.setReturnValue(null);
     }
 

@@ -37,9 +37,9 @@ public class TriggerInstance_928296477Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "channeledLightning([Lnet/minecraft/advancements/predicates/entity/EntityPredicate$Builder;)Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
-    private static void channeledLightning__1420373325(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1420373325L))
+    @Inject(at = @At("HEAD"), method = "victims()Ljava/util/List;", cancellable = true)
+    private void victims__1740334004(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1740334004L))
             info.setReturnValue(null);
     }
 
@@ -49,9 +49,9 @@ public class TriggerInstance_928296477Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "victims()Ljava/util/List;", cancellable = true)
-    private void victims__1740334004(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1740334004L))
+    @Inject(at = @At("HEAD"), method = "channeledLightning([Lnet/minecraft/advancements/predicates/entity/EntityPredicate$Builder;)Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
+    private static void channeledLightning__1420373325(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1420373325L))
             info.setReturnValue(null);
     }
 

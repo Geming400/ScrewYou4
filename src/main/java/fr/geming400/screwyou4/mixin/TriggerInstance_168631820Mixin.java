@@ -43,15 +43,15 @@ public class TriggerInstance_168631820Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "enchantedItem()Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
-    private static void enchantedItem_1442383218(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1442383218L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "player()Ljava/util/Optional;", cancellable = true)
     private void player_414093241(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(414093241L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "enchantedItem()Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
+    private static void enchantedItem_1442383218(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1442383218L))
             info.setReturnValue(null);
     }
 

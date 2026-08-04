@@ -133,22 +133,22 @@ public class CopyOnWriteFileSystem_386611224Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "hardLinkFiles(Ljava/util/List;)V", cancellable = true)
-    private static void hardLinkFiles__392607117(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-392607117L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "tryRevertMoves(Ljava/util/List;[Ljava/nio/file/CopyOption;)Ljava/util/List;", cancellable = true)
     private static void tryRevertMoves__1366291925(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1366291925L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "backingFileSystem()Ljava/nio/file/FileSystem;", cancellable = true)
-    private void backingFileSystem__1192673265(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1192673265L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "hardLinkFiles(Ljava/util/List;)V", cancellable = true)
+    private static void hardLinkFiles__392607117(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-392607117L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "moveFiles(Ljava/util/List;)V", cancellable = true)
+    private static void moveFiles__392607117(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-392607117L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "tmpDirectory()Ljava/nio/file/Path;", cancellable = true)
@@ -157,10 +157,10 @@ public class CopyOnWriteFileSystem_386611224Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "moveFiles(Ljava/util/List;)V", cancellable = true)
-    private static void moveFiles__392607117(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-392607117L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "backingFileSystem()Ljava/nio/file/FileSystem;", cancellable = true)
+    private void backingFileSystem__1192673265(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1192673265L))
+            info.setReturnValue(null);
     }
 
 

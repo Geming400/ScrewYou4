@@ -37,18 +37,6 @@ public class ServerboundSetCommandBlockPacket789264851Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "isConditional()Z", cancellable = true)
-    private void isConditional_827543434(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(827543434L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isTrackOutput()Z", cancellable = true)
-    private void isTrackOutput_827543434(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(827543434L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getCommand()Ljava/lang/String;", cancellable = true)
     private void getCommand__346195620(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-346195620L))
@@ -58,6 +46,18 @@ public class ServerboundSetCommandBlockPacket789264851Mixin {
     @Inject(at = @At("HEAD"), method = "getPos()Lnet/minecraft/core/BlockPos;", cancellable = true)
     private void getPos__1104122028(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1104122028L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isTrackOutput()Z", cancellable = true)
+    private void isTrackOutput_827543434(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(827543434L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isConditional()Z", cancellable = true)
+    private void isConditional_827543434(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(827543434L))
             info.setReturnValue(null);
     }
 

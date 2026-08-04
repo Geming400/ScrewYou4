@@ -43,15 +43,15 @@ public class LazyEnum431840121Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "valueListSupplier()Lnet/minecraft/client/gui/components/CycleButton$ValueListSupplier;", cancellable = true)
-    private void valueListSupplier__1584395741(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1584395741L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/Codec;", cancellable = true)
     private void codec_39874495(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(39874495L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "valueListSupplier()Lnet/minecraft/client/gui/components/CycleButton$ValueListSupplier;", cancellable = true)
+    private void valueListSupplier__1584395741(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1584395741L))
             info.setReturnValue(null);
     }
 

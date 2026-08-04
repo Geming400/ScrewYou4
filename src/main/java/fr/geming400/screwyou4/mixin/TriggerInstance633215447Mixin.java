@@ -31,9 +31,9 @@ public class TriggerInstance633215447Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "brewedPotion()Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
-    private static void brewedPotion_1906966846(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1906966846L))
+    @Inject(at = @At("HEAD"), method = "potion()Ljava/util/Optional;", cancellable = true)
+    private void potion_878676869(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(878676869L))
             info.setReturnValue(null);
     }
 
@@ -43,9 +43,9 @@ public class TriggerInstance633215447Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "potion()Ljava/util/Optional;", cancellable = true)
-    private void potion_878676869(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(878676869L))
+    @Inject(at = @At("HEAD"), method = "brewedPotion()Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
+    private static void brewedPotion_1906966846(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1906966846L))
             info.setReturnValue(null);
     }
 

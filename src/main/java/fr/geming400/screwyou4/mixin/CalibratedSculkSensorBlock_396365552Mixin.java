@@ -19,15 +19,21 @@ public class CalibratedSculkSensorBlock_396365552Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "getSignal(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/Direction;)I", cancellable = true)
+    private void getSignal_563419721(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(563419721L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "mirror(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/Mirror;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
     private void mirror_1921290620(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1921290620L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getSignal(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/Direction;)I", cancellable = true)
-    private void getSignal_563419721(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(563419721L))
+    @Inject(at = @At("HEAD"), method = "getActiveTicks()I", cancellable = true)
+    private void getActiveTicks_434627797(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(434627797L))
             info.setReturnValue(null);
     }
 
@@ -37,21 +43,15 @@ public class CalibratedSculkSensorBlock_396365552Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
-    private void getStateForPlacement__862234216(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-862234216L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getTicker(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/entity/BlockEntityType;)Lnet/minecraft/world/level/block/entity/BlockEntityTicker;", cancellable = true)
     private void getTicker__1557101792(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1557101792L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getActiveTicks()I", cancellable = true)
-    private void getActiveTicks_434627797(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(434627797L))
+    @Inject(at = @At("HEAD"), method = "getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
+    private void getStateForPlacement__862234216(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-862234216L))
             info.setReturnValue(null);
     }
 

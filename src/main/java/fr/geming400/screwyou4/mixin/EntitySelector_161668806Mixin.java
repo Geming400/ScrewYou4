@@ -13,14 +13,38 @@ public class EntitySelector_161668806Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "isWorldLimited()Z", cancellable = true)
+    private void isWorldLimited_199947388(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(199947388L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "usesSelector()Z", cancellable = true)
+    private void usesSelector_199947388(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(199947388L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "findSingleEntity(Lnet/minecraft/commands/CommandSourceStack;)Lnet/minecraft/world/entity/Entity;", cancellable = true)
     private void findSingleEntity__182184435(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-182184435L))
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "getMaxResults()I", cancellable = true)
+    private void getMaxResults_199931051(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(199931051L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "findEntities(Lnet/minecraft/commands/CommandSourceStack;)Ljava/util/List;", cancellable = true)
     private void findEntities_1804720243(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1804720243L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "findPlayers(Lnet/minecraft/commands/CommandSourceStack;)Ljava/util/List;", cancellable = true)
+    private void findPlayers_1804720243(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1804720243L))
             info.setReturnValue(null);
     }
@@ -37,32 +61,8 @@ public class EntitySelector_161668806Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "findPlayers(Lnet/minecraft/commands/CommandSourceStack;)Ljava/util/List;", cancellable = true)
-    private void findPlayers_1804720243(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1804720243L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "isSelfSelector()Z", cancellable = true)
     private void isSelfSelector_199947388(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(199947388L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getMaxResults()I", cancellable = true)
-    private void getMaxResults_199931051(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(199931051L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isWorldLimited()Z", cancellable = true)
-    private void isWorldLimited_199947388(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(199947388L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "usesSelector()Z", cancellable = true)
-    private void usesSelector_199947388(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(199947388L))
             info.setReturnValue(null);
     }

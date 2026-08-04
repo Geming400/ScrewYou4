@@ -13,21 +13,27 @@ public class DriedGhastBlock_2089879080Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "animateTick(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)V", cancellable = true)
-    private void animateTick_1967276998(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1967276998L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
     private void codec__469234493(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-469234493L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
-    private void getStateForPlacement_831279312(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(831279312L))
+    @Inject(at = @At("HEAD"), method = "isPathfindable(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/pathfinder/PathComputationType;)Z", cancellable = true)
+    private void isPathfindable_317545608(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(317545608L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "animateTick(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)V", cancellable = true)
+    private void animateTick_1967276998(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1967276998L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getHydrationLevel(Lnet/minecraft/world/level/block/state/BlockState;)I", cancellable = true)
+    private void getHydrationLevel_1944573756(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1944573756L))
             info.setReturnValue(null);
     }
 
@@ -37,21 +43,15 @@ public class DriedGhastBlock_2089879080Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
+    private void getStateForPlacement_831279312(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(831279312L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "placeLiquid(Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/material/FluidState;)Z", cancellable = true)
     private void placeLiquid_1499662503(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1499662503L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getHydrationLevel(Lnet/minecraft/world/level/block/state/BlockState;)I", cancellable = true)
-    private void getHydrationLevel_1944573756(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1944573756L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isPathfindable(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/pathfinder/PathComputationType;)Z", cancellable = true)
-    private void isPathfindable_317545608(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(317545608L))
             info.setReturnValue(null);
     }
 

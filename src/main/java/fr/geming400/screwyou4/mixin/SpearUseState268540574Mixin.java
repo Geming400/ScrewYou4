@@ -13,10 +13,10 @@ public class SpearUseState268540574Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "startEngagement(I)V", cancellable = true)
-    private void startEngagement_1482457546(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1482457546L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "notEngagedYet()Z", cancellable = true)
+    private void notEngagedYet_306819157(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(306819157L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "tickAndCheckEngagement()Z", cancellable = true)
@@ -25,10 +25,10 @@ public class SpearUseState268540574Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "notEngagedYet()Z", cancellable = true)
-    private void notEngagedYet_306819157(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(306819157L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "startEngagement(I)V", cancellable = true)
+    private void startEngagement_1482457546(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1482457546L))
+            info.cancel();
     }
 
 

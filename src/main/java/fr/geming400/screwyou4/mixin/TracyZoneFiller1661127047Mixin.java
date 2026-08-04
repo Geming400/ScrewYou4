@@ -37,8 +37,8 @@ public class TracyZoneFiller1661127047Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "startTick()V", cancellable = true)
-    private void startTick_1699401786(CallbackInfo info) {
+    @Inject(at = @At("HEAD"), method = "endTick()V", cancellable = true)
+    private void endTick_1699401786(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1699401786L))
             info.cancel();
     }
@@ -55,21 +55,9 @@ public class TracyZoneFiller1661127047Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "endTick()V", cancellable = true)
-    private void endTick_1699401786(CallbackInfo info) {
+    @Inject(at = @At("HEAD"), method = "startTick()V", cancellable = true)
+    private void startTick_1699401786(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1699401786L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "markForCharting(Lnet/minecraft/util/profiling/metrics/MetricCategory;)V", cancellable = true)
-    private void markForCharting_1443189397(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1443189397L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "addZoneText(Ljava/lang/String;)V", cancellable = true)
-    private void addZoneText__1481479100(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1481479100L))
             info.cancel();
     }
 
@@ -79,9 +67,21 @@ public class TracyZoneFiller1661127047Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "markForCharting(Lnet/minecraft/util/profiling/metrics/MetricCategory;)V", cancellable = true)
+    private void markForCharting_1443189397(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1443189397L))
+            info.cancel();
+    }
+
     @Inject(at = @At("HEAD"), method = "addZoneValue(J)V", cancellable = true)
     private void addZoneValue__1418999756(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1418999756L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "addZoneText(Ljava/lang/String;)V", cancellable = true)
+    private void addZoneText__1481479100(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1481479100L))
             info.cancel();
     }
 

@@ -25,16 +25,16 @@ public class SectionStorage1643990976Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "prefetch(Lnet/minecraft/world/level/ChunkPos;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
-    private void prefetch__1262909327(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1262909327L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "flushAll()V", cancellable = true)
     private void flushAll_1682265715(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1682265715L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "prefetch(Lnet/minecraft/world/level/ChunkPos;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
+    private void prefetch__1262909327(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1262909327L))
+            info.setReturnValue(null);
     }
 
 

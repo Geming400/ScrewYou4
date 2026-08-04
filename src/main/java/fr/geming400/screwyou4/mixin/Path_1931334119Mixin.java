@@ -43,16 +43,16 @@ public class Path_1931334119Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "leafComponent()Lnet/minecraft/client/gui/components/events/GuiEventListener;", cancellable = true)
-    private void leafComponent_2017370742(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2017370742L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "applyFocus(Z)V", cancellable = true)
     private void applyFocus__1134016349(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1134016349L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "leafComponent()Lnet/minecraft/client/gui/components/events/GuiEventListener;", cancellable = true)
+    private void leafComponent_2017370742(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2017370742L))
+            info.setReturnValue(null);
     }
 
 

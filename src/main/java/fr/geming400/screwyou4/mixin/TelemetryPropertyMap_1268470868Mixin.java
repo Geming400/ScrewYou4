@@ -25,15 +25,15 @@ public class TelemetryPropertyMap_1268470868Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "createCodec(Ljava/util/List;)Lcom/mojang/serialization/MapCodec;", cancellable = true)
-    private static void createCodec__1003324840(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1003324840L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "propertySet()Ljava/util/Set;", cancellable = true)
     private void propertySet__560564619(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-560564619L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "createCodec(Ljava/util/List;)Lcom/mojang/serialization/MapCodec;", cancellable = true)
+    private static void createCodec__1003324840(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1003324840L))
             info.setReturnValue(null);
     }
 

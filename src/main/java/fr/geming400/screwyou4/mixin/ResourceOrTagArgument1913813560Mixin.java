@@ -25,9 +25,9 @@ public class ResourceOrTagArgument1913813560Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getExamples()Ljava/util/Collection;", cancellable = true)
-    private void getExamples_100165288(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(100165288L))
+    @Inject(at = @At("HEAD"), method = "getResourceOrTag(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;Lnet/minecraft/resources/ResourceKey;)Lnet/minecraft/commands/arguments/ResourceOrTagArgument$Result;", cancellable = true)
+    private static void getResourceOrTag__2084707155(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2084707155L))
             info.setReturnValue(null);
     }
 
@@ -37,9 +37,9 @@ public class ResourceOrTagArgument1913813560Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getResourceOrTag(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;Lnet/minecraft/resources/ResourceKey;)Lnet/minecraft/commands/arguments/ResourceOrTagArgument$Result;", cancellable = true)
-    private static void getResourceOrTag__2084707155(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2084707155L))
+    @Inject(at = @At("HEAD"), method = "getExamples()Ljava/util/Collection;", cancellable = true)
+    private void getExamples_100165288(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(100165288L))
             info.setReturnValue(null);
     }
 

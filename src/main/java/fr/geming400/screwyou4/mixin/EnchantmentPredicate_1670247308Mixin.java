@@ -31,15 +31,15 @@ public class EnchantmentPredicate_1670247308Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "enchantments()Ljava/util/Optional;", cancellable = true)
-    private void enchantments_1915708729(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1915708729L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "containedIn(Lnet/minecraft/world/item/enchantment/ItemEnchantments;)Z", cancellable = true)
     private void containedIn__1654821753(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1654821753L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "enchantments()Ljava/util/Optional;", cancellable = true)
+    private void enchantments_1915708729(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1915708729L))
             info.setReturnValue(null);
     }
 

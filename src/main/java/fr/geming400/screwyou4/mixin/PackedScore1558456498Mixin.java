@@ -31,15 +31,15 @@ public class PackedScore1558456498Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "objective()Ljava/lang/String;", cancellable = true)
-    private void objective_422996027(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(422996027L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "score()Lnet/minecraft/world/scores/Score$Packed;", cancellable = true)
     private void score__1539191793(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1539191793L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "objective()Ljava/lang/String;", cancellable = true)
+    private void objective_422996027(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(422996027L))
             info.setReturnValue(null);
     }
 

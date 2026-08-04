@@ -31,12 +31,6 @@ public class TriggerInstance1634826041Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "lootTableUsed(Lnet/minecraft/resources/ResourceKey;)Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
-    private static void lootTableUsed_1797106724(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1797106724L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "lootTable()Lnet/minecraft/resources/ResourceKey;", cancellable = true)
     private void lootTable__1851649942(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1851649942L))
@@ -46,6 +40,12 @@ public class TriggerInstance1634826041Mixin {
     @Inject(at = @At("HEAD"), method = "player()Ljava/util/Optional;", cancellable = true)
     private void player_1880287463(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1880287463L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "lootTableUsed(Lnet/minecraft/resources/ResourceKey;)Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
+    private static void lootTableUsed_1797106724(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1797106724L))
             info.setReturnValue(null);
     }
 

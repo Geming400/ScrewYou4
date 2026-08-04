@@ -31,15 +31,15 @@ public class ListenerInfo638432420Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "recipient()Lnet/minecraft/world/level/gameevent/GameEventListener;", cancellable = true)
-    private void recipient_1175344623(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1175344623L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "gameEvent()Lnet/minecraft/core/Holder;", cancellable = true)
     private void gameEvent__2107659104(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2107659104L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "recipient()Lnet/minecraft/world/level/gameevent/GameEventListener;", cancellable = true)
+    private void recipient_1175344623(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1175344623L))
             info.setReturnValue(null);
     }
 

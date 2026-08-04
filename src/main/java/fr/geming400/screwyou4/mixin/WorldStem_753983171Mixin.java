@@ -43,15 +43,15 @@ public class WorldStem_753983171Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "worldDataAndGenSettings()Lnet/minecraft/world/level/storage/LevelDataAndDimensions$WorldDataAndGenSettings;", cancellable = true)
-    private void worldDataAndGenSettings_1004037526(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1004037526L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "registries()Lnet/minecraft/core/LayeredRegistryAccess;", cancellable = true)
     private void registries__1108037061(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1108037061L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "worldDataAndGenSettings()Lnet/minecraft/world/level/storage/LevelDataAndDimensions$WorldDataAndGenSettings;", cancellable = true)
+    private void worldDataAndGenSettings_1004037526(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1004037526L))
             info.setReturnValue(null);
     }
 

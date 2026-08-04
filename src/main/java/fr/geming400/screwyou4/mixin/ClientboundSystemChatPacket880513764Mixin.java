@@ -49,14 +49,14 @@ public class ClientboundSystemChatPacket880513764Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "isSkippable()Z", cancellable = true)
-    private void isSkippable_918792347(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "overlay()Z", cancellable = true)
+    private void overlay_918792347(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(918792347L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "overlay()Z", cancellable = true)
-    private void overlay_918792347(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "isSkippable()Z", cancellable = true)
+    private void isSkippable_918792347(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(918792347L))
             info.setReturnValue(null);
     }

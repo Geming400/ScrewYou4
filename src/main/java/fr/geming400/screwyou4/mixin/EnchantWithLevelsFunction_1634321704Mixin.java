@@ -25,15 +25,15 @@ public class EnchantWithLevelsFunction_1634321704Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "enchantWithLevels(Lnet/minecraft/core/HolderLookup$Provider;Lnet/minecraft/world/level/storage/loot/providers/number/NumberProvider;)Lnet/minecraft/world/level/storage/loot/functions/EnchantWithLevelsFunction$Builder;", cancellable = true)
-    private static void enchantWithLevels__1152219604(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1152219604L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getReferencedContextParams()Ljava/util/Set;", cancellable = true)
     private void getReferencedContextParams__194713783(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-194713783L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "enchantWithLevels(Lnet/minecraft/core/HolderLookup$Provider;Lnet/minecraft/world/level/storage/loot/providers/number/NumberProvider;)Lnet/minecraft/world/level/storage/loot/functions/EnchantWithLevelsFunction$Builder;", cancellable = true)
+    private static void enchantWithLevels__1152219604(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1152219604L))
             info.setReturnValue(null);
     }
 

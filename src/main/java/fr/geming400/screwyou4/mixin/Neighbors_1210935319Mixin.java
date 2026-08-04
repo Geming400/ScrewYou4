@@ -67,15 +67,15 @@ public class Neighbors_1210935319Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "facing()Lnet/minecraft/core/Direction;", cancellable = true)
-    private void facing_448080033(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(448080033L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "center()Lnet/minecraft/core/BlockPos;", cancellable = true)
     private void center__682451561(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-682451561L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "facing()Lnet/minecraft/core/Direction;", cancellable = true)
+    private void facing_448080033(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(448080033L))
             info.setReturnValue(null);
     }
 

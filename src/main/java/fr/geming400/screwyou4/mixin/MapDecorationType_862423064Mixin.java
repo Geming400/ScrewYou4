@@ -25,8 +25,14 @@ public class MapDecorationType_862423064Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "hasMapColor()Z", cancellable = true)
-    private void hasMapColor_900701646(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "assetId()Lnet/minecraft/resources/Identifier;", cancellable = true)
+    private void assetId__1580643490(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1580643490L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "explorationMapElement()Z", cancellable = true)
+    private void explorationMapElement_900701646(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(900701646L))
             info.setReturnValue(null);
     }
@@ -37,27 +43,21 @@ public class MapDecorationType_862423064Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "explorationMapElement()Z", cancellable = true)
-    private void explorationMapElement_900701646(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "hasMapColor()Z", cancellable = true)
+    private void hasMapColor_900701646(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(900701646L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "assetId()Lnet/minecraft/resources/Identifier;", cancellable = true)
-    private void assetId__1580643490(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1580643490L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "mapColor()I", cancellable = true)
-    private void mapColor_900685309(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(900685309L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "trackCount()Z", cancellable = true)
     private void trackCount_900701646(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(900701646L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "mapColor()I", cancellable = true)
+    private void mapColor_900685309(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(900685309L))
             info.setReturnValue(null);
     }
 

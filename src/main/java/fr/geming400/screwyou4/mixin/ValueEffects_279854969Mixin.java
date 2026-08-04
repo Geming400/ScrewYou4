@@ -31,15 +31,15 @@ public class ValueEffects_279854969Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
-    private void codec_2015708692(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2015708692L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "effects()Ljava/util/List;", cancellable = true)
     private void effects_1906191784(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1906191784L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
+    private void codec_2015708692(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2015708692L))
             info.setReturnValue(null);
     }
 

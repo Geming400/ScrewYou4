@@ -25,6 +25,12 @@ public class Noop_377453359Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "incrementRunningFileFixer()V", cancellable = true)
+    private void incrementRunningFileFixer_415728097(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(415728097L))
+            info.cancel();
+    }
+
     @Inject(at = @At("HEAD"), method = "setApplicableFixerAmount(I)V", cancellable = true)
     private void setApplicableFixerAmount_1591370330(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1591370330L))
@@ -37,12 +43,6 @@ public class Noop_377453359Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "incrementRunningFileFixer()V", cancellable = true)
-    private void incrementRunningFileFixer_415728097(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(415728097L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "incrementFinishedOperations()V", cancellable = true)
     private void incrementFinishedOperations_415728097(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(415728097L))
@@ -52,6 +52,18 @@ public class Noop_377453359Mixin {
     @Inject(at = @At("HEAD"), method = "incrementFinishedOperationsBy(I)V", cancellable = true)
     private void incrementFinishedOperationsBy_1591370330(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1591370330L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "incrementConverted()V", cancellable = true)
+    private void incrementConverted_415728097(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(415728097L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "incrementSkipped()V", cancellable = true)
+    private void incrementSkipped_415728097(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(415728097L))
             info.cancel();
     }
 
@@ -70,18 +82,6 @@ public class Noop_377453359Mixin {
     @Inject(at = @At("HEAD"), method = "addTotalChunks(I)V", cancellable = true)
     private void addTotalChunks_1591370330(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1591370330L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "incrementConverted()V", cancellable = true)
-    private void incrementConverted_415728097(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(415728097L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "incrementSkipped()V", cancellable = true)
-    private void incrementSkipped_415728097(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(415728097L))
             info.cancel();
     }
 

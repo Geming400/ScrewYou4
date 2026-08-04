@@ -19,9 +19,21 @@ public class DragonLandingPhase_1915536153Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "doClientTick()V", cancellable = true)
+    private void doClientTick_1953810891(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1953810891L))
+            info.cancel();
+    }
+
     @Inject(at = @At("HEAD"), method = "getFlyTargetLocation()Lnet/minecraft/world/phys/Vec3;", cancellable = true)
     private void getFlyTargetLocation__1281701615(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1281701615L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getTurnSpeed()F", cancellable = true)
+    private void getTurnSpeed_1953795515(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1953795515L))
             info.setReturnValue(null);
     }
 
@@ -33,18 +45,6 @@ public class DragonLandingPhase_1915536153Mixin {
 
     @Inject(at = @At("HEAD"), method = "getFlySpeed()F", cancellable = true)
     private void getFlySpeed_1953795515(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1953795515L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "doClientTick()V", cancellable = true)
-    private void doClientTick_1953810891(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1953810891L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "getTurnSpeed()F", cancellable = true)
-    private void getTurnSpeed_1953795515(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1953795515L))
             info.setReturnValue(null);
     }

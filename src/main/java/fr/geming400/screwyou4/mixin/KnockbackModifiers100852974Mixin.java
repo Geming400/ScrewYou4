@@ -25,14 +25,14 @@ public class KnockbackModifiers100852974Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "verticalPower()F", cancellable = true)
-    private void verticalPower_139112337(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "horizontalPower()F", cancellable = true)
+    private void horizontalPower_139112337(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(139112337L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "horizontalPower()F", cancellable = true)
-    private void horizontalPower_139112337(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "verticalPower()F", cancellable = true)
+    private void verticalPower_139112337(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(139112337L))
             info.setReturnValue(null);
     }

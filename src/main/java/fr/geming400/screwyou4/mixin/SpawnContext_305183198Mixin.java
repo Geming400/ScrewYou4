@@ -43,15 +43,15 @@ public class SpawnContext_305183198Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "environmentAttributes()Lnet/minecraft/world/attribute/EnvironmentAttributeReader;", cancellable = true)
-    private void environmentAttributes_2058791163(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2058791163L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "biome()Lnet/minecraft/core/Holder;", cancellable = true)
     private void biome_1854058969(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1854058969L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "environmentAttributes()Lnet/minecraft/world/attribute/EnvironmentAttributeReader;", cancellable = true)
+    private void environmentAttributes_2058791163(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2058791163L))
             info.setReturnValue(null);
     }
 

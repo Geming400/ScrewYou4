@@ -31,15 +31,15 @@ public class Enchantment_73491943Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "definition(Lnet/minecraft/core/HolderSet;Lnet/minecraft/core/HolderSet;IILnet/minecraft/world/item/enchantment/Enchantment$Cost;Lnet/minecraft/world/item/enchantment/Enchantment$Cost;I[Lnet/minecraft/world/entity/EquipmentSlotGroup;)Lnet/minecraft/world/item/enchantment/Enchantment$EnchantmentDefinition;", cancellable = true)
-    private static void definition_265128133(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(265128133L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "definition(Lnet/minecraft/core/HolderSet;IILnet/minecraft/world/item/enchantment/Enchantment$Cost;Lnet/minecraft/world/item/enchantment/Enchantment$Cost;I[Lnet/minecraft/world/entity/EquipmentSlotGroup;)Lnet/minecraft/world/item/enchantment/Enchantment$EnchantmentDefinition;", cancellable = true)
     private static void definition__361237584(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-361237584L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "definition(Lnet/minecraft/core/HolderSet;Lnet/minecraft/core/HolderSet;IILnet/minecraft/world/item/enchantment/Enchantment$Cost;Lnet/minecraft/world/item/enchantment/Enchantment$Cost;I[Lnet/minecraft/world/entity/EquipmentSlotGroup;)Lnet/minecraft/world/item/enchantment/Enchantment$EnchantmentDefinition;", cancellable = true)
+    private static void definition_265128133(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(265128133L))
             info.setReturnValue(null);
     }
 
@@ -52,12 +52,6 @@ public class Enchantment_73491943Mixin {
     @Inject(at = @At("HEAD"), method = "description()Lnet/minecraft/network/chat/Component;", cancellable = true)
     private void description__2103417223(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2103417223L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getFullname(Lnet/minecraft/core/Holder;I)Lnet/minecraft/network/chat/Component;", cancellable = true)
-    private static void getFullname__484472025(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-484472025L))
             info.setReturnValue(null);
     }
 
@@ -79,45 +73,15 @@ public class Enchantment_73491943Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "runLocationChangedEffects(Lnet/minecraft/server/level/ServerLevel;ILnet/minecraft/world/item/enchantment/EnchantedItemInUse;Lnet/minecraft/world/entity/LivingEntity;)V", cancellable = true)
-    private void runLocationChangedEffects__197574444(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-197574444L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "effects()Lnet/minecraft/core/component/DataComponentMap;", cancellable = true)
+    private void effects_1277296883(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1277296883L))
+            info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "modifyKnockback(Lnet/minecraft/server/level/ServerLevel;ILnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/damagesource/DamageSource;Lorg/apache/commons/lang3/mutable/MutableFloat;)V", cancellable = true)
-    private void modifyKnockback_1232619613(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1232619613L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "applyEffects(Ljava/util/List;Lnet/minecraft/world/level/storage/loot/LootContext;Lnet/minecraft/world/item/enchantment/Enchantment$GenericAction;)V", cancellable = true)
-    private static void applyEffects__980655085(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-980655085L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "applyEffects(Ljava/util/List;Lnet/minecraft/world/level/storage/loot/LootContext;Lorg/apache/commons/lang3/mutable/MutableFloat;Lnet/minecraft/world/item/enchantment/Enchantment$FloatAction;)V", cancellable = true)
-    private static void applyEffects__1510701185(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1510701185L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "modifyDamage(Lnet/minecraft/server/level/ServerLevel;ILnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/damagesource/DamageSource;Lorg/apache/commons/lang3/mutable/MutableFloat;)V", cancellable = true)
-    private void modifyDamage_1232619613(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1232619613L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "stopLocationBasedEffects(ILnet/minecraft/world/item/enchantment/EnchantedItemInUse;Lnet/minecraft/world/entity/LivingEntity;)V", cancellable = true)
-    private void stopLocationBasedEffects__1048939451(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1048939451L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "isImmuneToDamage(Lnet/minecraft/server/level/ServerLevel;ILnet/minecraft/world/entity/Entity;Lnet/minecraft/world/damagesource/DamageSource;)Z", cancellable = true)
-    private void isImmuneToDamage_2076753733(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2076753733L))
+    @Inject(at = @At("HEAD"), method = "getWeight()I", cancellable = true)
+    private void getWeight_111754188(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(111754188L))
             info.setReturnValue(null);
     }
 
@@ -133,21 +97,51 @@ public class Enchantment_73491943Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "effects()Lnet/minecraft/core/component/DataComponentMap;", cancellable = true)
-    private void effects_1277296883(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1277296883L))
+    @Inject(at = @At("HEAD"), method = "getFullname(Lnet/minecraft/core/Holder;I)Lnet/minecraft/network/chat/Component;", cancellable = true)
+    private static void getFullname__484472025(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-484472025L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getWeight()I", cancellable = true)
-    private void getWeight_111754188(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(111754188L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "runLocationChangedEffects(Lnet/minecraft/server/level/ServerLevel;ILnet/minecraft/world/item/enchantment/EnchantedItemInUse;Lnet/minecraft/world/entity/LivingEntity;)V", cancellable = true)
+    private void runLocationChangedEffects__197574444(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-197574444L))
+            info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "canEnchant(Lnet/minecraft/world/item/ItemStack;)Z", cancellable = true)
-    private void canEnchant_1808027074(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1808027074L))
+    @Inject(at = @At("HEAD"), method = "applyEffects(Ljava/util/List;Lnet/minecraft/world/level/storage/loot/LootContext;Lnet/minecraft/world/item/enchantment/Enchantment$GenericAction;)V", cancellable = true)
+    private static void applyEffects__980655085(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-980655085L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "applyEffects(Ljava/util/List;Lnet/minecraft/world/level/storage/loot/LootContext;Lorg/apache/commons/lang3/mutable/MutableFloat;Lnet/minecraft/world/item/enchantment/Enchantment$FloatAction;)V", cancellable = true)
+    private static void applyEffects__1510701185(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1510701185L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "modifyKnockback(Lnet/minecraft/server/level/ServerLevel;ILnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/damagesource/DamageSource;Lorg/apache/commons/lang3/mutable/MutableFloat;)V", cancellable = true)
+    private void modifyKnockback_1232619613(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1232619613L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "stopLocationBasedEffects(ILnet/minecraft/world/item/enchantment/EnchantedItemInUse;Lnet/minecraft/world/entity/LivingEntity;)V", cancellable = true)
+    private void stopLocationBasedEffects__1048939451(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1048939451L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "modifyDamage(Lnet/minecraft/server/level/ServerLevel;ILnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/damagesource/DamageSource;Lorg/apache/commons/lang3/mutable/MutableFloat;)V", cancellable = true)
+    private void modifyDamage_1232619613(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1232619613L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "isImmuneToDamage(Lnet/minecraft/server/level/ServerLevel;ILnet/minecraft/world/entity/Entity;Lnet/minecraft/world/damagesource/DamageSource;)Z", cancellable = true)
+    private void isImmuneToDamage_2076753733(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2076753733L))
             info.setReturnValue(null);
     }
 
@@ -157,69 +151,15 @@ public class Enchantment_73491943Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "modifyDurabilityToRepairFromXp(Lnet/minecraft/server/level/ServerLevel;ILnet/minecraft/world/item/ItemStack;Lorg/apache/commons/lang3/mutable/MutableFloat;)V", cancellable = true)
-    private void modifyDurabilityToRepairFromXp_110313469(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(110313469L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "areCompatible(Lnet/minecraft/core/Holder;Lnet/minecraft/core/Holder;)Z", cancellable = true)
-    private static void areCompatible_970265397(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(970265397L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getAnvilCost()I", cancellable = true)
-    private void getAnvilCost_111754188(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(111754188L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isPrimaryItem(Lnet/minecraft/world/item/ItemStack;)Z", cancellable = true)
-    private void isPrimaryItem_1808027074(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1808027074L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "modifyFallBasedDamage(Lnet/minecraft/server/level/ServerLevel;ILnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/damagesource/DamageSource;Lorg/apache/commons/lang3/mutable/MutableFloat;)V", cancellable = true)
     private void modifyFallBasedDamage_1232619613(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1232619613L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getEffects(Lnet/minecraft/core/component/DataComponentType;)Ljava/util/List;", cancellable = true)
-    private void getEffects_861971142(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(861971142L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getMinCost(I)I", cancellable = true)
-    private void getMinCost_1287396421(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1287396421L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getMaxCost(I)I", cancellable = true)
-    private void getMaxCost_1287396421(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1287396421L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "onProjectileSpawned(Lnet/minecraft/server/level/ServerLevel;ILnet/minecraft/world/item/enchantment/EnchantedItemInUse;Lnet/minecraft/world/entity/Entity;)V", cancellable = true)
-    private void onProjectileSpawned_1951731261(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1951731261L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "itemContext(Lnet/minecraft/server/level/ServerLevel;ILnet/minecraft/world/item/ItemInstance;)Lnet/minecraft/world/level/storage/loot/LootContext;", cancellable = true)
-    private static void itemContext_807314112(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(807314112L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "exclusiveSet()Lnet/minecraft/core/HolderSet;", cancellable = true)
-    private void exclusiveSet_1693444986(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1693444986L))
+    @Inject(at = @At("HEAD"), method = "dynamicCost(II)Lnet/minecraft/world/item/enchantment/Enchantment$Cost;", cancellable = true)
+    private static void dynamicCost_236464165(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(236464165L))
             info.setReturnValue(null);
     }
 
@@ -229,34 +169,34 @@ public class Enchantment_73491943Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "dynamicCost(II)Lnet/minecraft/world/item/enchantment/Enchantment$Cost;", cancellable = true)
-    private static void dynamicCost_236464165(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(236464165L))
+    @Inject(at = @At("HEAD"), method = "damageContext(Lnet/minecraft/server/level/ServerLevel;ILnet/minecraft/world/entity/Entity;Lnet/minecraft/world/damagesource/DamageSource;)Lnet/minecraft/world/level/storage/loot/LootContext;", cancellable = true)
+    private static void damageContext_100081044(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(100081044L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "modifyEntityFilteredValue(Lnet/minecraft/core/component/DataComponentType;Lnet/minecraft/server/level/ServerLevel;ILnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/Entity;Lorg/apache/commons/lang3/mutable/MutableFloat;)V", cancellable = true)
-    private void modifyEntityFilteredValue_1389681630(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1389681630L))
+    @Inject(at = @At("HEAD"), method = "modifyDurabilityChange(Lnet/minecraft/server/level/ServerLevel;ILnet/minecraft/world/item/ItemStack;Lorg/apache/commons/lang3/mutable/MutableFloat;)V", cancellable = true)
+    private void modifyDurabilityChange_110313469(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(110313469L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "modifyPiercingCount(Lnet/minecraft/server/level/ServerLevel;ILnet/minecraft/world/item/ItemStack;Lorg/apache/commons/lang3/mutable/MutableFloat;)V", cancellable = true)
+    private void modifyPiercingCount_110313469(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(110313469L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getSupportedItems()Lnet/minecraft/core/HolderSet;", cancellable = true)
+    private void getSupportedItems_1693444986(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1693444986L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "isSupportedItem(Lnet/minecraft/world/item/ItemStack;)Z", cancellable = true)
     private void isSupportedItem_1808027074(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1808027074L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "modifyCrossbowChargeTime(Lnet/minecraft/util/RandomSource;ILorg/apache/commons/lang3/mutable/MutableFloat;)V", cancellable = true)
-    private void modifyCrossbowChargeTime__1461745007(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1461745007L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "modifyDamageFilteredValue(Lnet/minecraft/core/component/DataComponentType;Lnet/minecraft/server/level/ServerLevel;ILnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/damagesource/DamageSource;Lorg/apache/commons/lang3/mutable/MutableFloat;)V", cancellable = true)
-    private void modifyDamageFilteredValue_509928861(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(509928861L))
-            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "modifyDamageProtection(Lnet/minecraft/server/level/ServerLevel;ILnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/damagesource/DamageSource;Lorg/apache/commons/lang3/mutable/MutableFloat;)V", cancellable = true)
@@ -277,22 +217,16 @@ public class Enchantment_73491943Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "modifyArmorEffectivness(Lnet/minecraft/server/level/ServerLevel;ILnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/damagesource/DamageSource;Lorg/apache/commons/lang3/mutable/MutableFloat;)V", cancellable = true)
-    private void modifyArmorEffectivness_1232619613(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1232619613L))
+    @Inject(at = @At("HEAD"), method = "modifyBlockExperience(Lnet/minecraft/server/level/ServerLevel;ILnet/minecraft/world/item/ItemStack;Lorg/apache/commons/lang3/mutable/MutableFloat;)V", cancellable = true)
+    private void modifyBlockExperience_110313469(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(110313469L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "modifyProjectileSpread(Lnet/minecraft/server/level/ServerLevel;ILnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/Entity;Lorg/apache/commons/lang3/mutable/MutableFloat;)V", cancellable = true)
-    private void modifyProjectileSpread__436999362(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-436999362L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "doPostPiercingAttack(Lnet/minecraft/server/level/ServerLevel;ILnet/minecraft/world/item/enchantment/EnchantedItemInUse;Lnet/minecraft/world/entity/Entity;)V", cancellable = true)
-    private void doPostPiercingAttack_1951731261(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1951731261L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "getSlotItems(Lnet/minecraft/world/entity/LivingEntity;)Ljava/util/Map;", cancellable = true)
+    private void getSlotItems_84999038(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(84999038L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "modifyMobExperience(Lnet/minecraft/server/level/ServerLevel;ILnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/Entity;Lorg/apache/commons/lang3/mutable/MutableFloat;)V", cancellable = true)
@@ -301,16 +235,16 @@ public class Enchantment_73491943Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "modifyProjectileCount(Lnet/minecraft/server/level/ServerLevel;ILnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/Entity;Lorg/apache/commons/lang3/mutable/MutableFloat;)V", cancellable = true)
-    private void modifyProjectileCount__436999362(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-436999362L))
+    @Inject(at = @At("HEAD"), method = "modifyEntityFilteredValue(Lnet/minecraft/core/component/DataComponentType;Lnet/minecraft/server/level/ServerLevel;ILnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/Entity;Lorg/apache/commons/lang3/mutable/MutableFloat;)V", cancellable = true)
+    private void modifyEntityFilteredValue_1389681630(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1389681630L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "modifyPiercingCount(Lnet/minecraft/server/level/ServerLevel;ILnet/minecraft/world/item/ItemStack;Lorg/apache/commons/lang3/mutable/MutableFloat;)V", cancellable = true)
-    private void modifyPiercingCount_110313469(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(110313469L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "exclusiveSet()Lnet/minecraft/core/HolderSet;", cancellable = true)
+    private void exclusiveSet_1693444986(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1693444986L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "modifyUnfilteredValue(Lnet/minecraft/core/component/DataComponentType;Lnet/minecraft/util/RandomSource;ILorg/apache/commons/lang3/mutable/MutableFloat;)V", cancellable = true)
@@ -325,39 +259,9 @@ public class Enchantment_73491943Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getSlotItems(Lnet/minecraft/world/entity/LivingEntity;)Ljava/util/Map;", cancellable = true)
-    private void getSlotItems_84999038(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(84999038L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "doPostAttack(Lnet/minecraft/world/item/enchantment/TargetedConditionalEffect;Lnet/minecraft/server/level/ServerLevel;ILnet/minecraft/world/item/enchantment/EnchantedItemInUse;Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/damagesource/DamageSource;)V", cancellable = true)
-    private static void doPostAttack_509580817(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(509580817L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "doPostAttack(Lnet/minecraft/server/level/ServerLevel;ILnet/minecraft/world/item/enchantment/EnchantedItemInUse;Lnet/minecraft/world/item/enchantment/EnchantmentTarget;Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/damagesource/DamageSource;)V", cancellable = true)
-    private void doPostAttack__1679493960(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1679493960L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "blockHitContext(Lnet/minecraft/server/level/ServerLevel;ILnet/minecraft/world/entity/Entity;Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/storage/loot/LootContext;", cancellable = true)
-    private static void blockHitContext__1274741326(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1274741326L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "modifyBlockExperience(Lnet/minecraft/server/level/ServerLevel;ILnet/minecraft/world/item/ItemStack;Lorg/apache/commons/lang3/mutable/MutableFloat;)V", cancellable = true)
-    private void modifyBlockExperience_110313469(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(110313469L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "damageContext(Lnet/minecraft/server/level/ServerLevel;ILnet/minecraft/world/entity/Entity;Lnet/minecraft/world/damagesource/DamageSource;)Lnet/minecraft/world/level/storage/loot/LootContext;", cancellable = true)
-    private static void damageContext_100081044(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(100081044L))
+    @Inject(at = @At("HEAD"), method = "matchingSlot(Lnet/minecraft/world/entity/EquipmentSlot;)Z", cancellable = true)
+    private void matchingSlot_1068859803(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1068859803L))
             info.setReturnValue(null);
     }
 
@@ -367,21 +271,75 @@ public class Enchantment_73491943Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getSupportedItems()Lnet/minecraft/core/HolderSet;", cancellable = true)
-    private void getSupportedItems_1693444986(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1693444986L))
+    @Inject(at = @At("HEAD"), method = "doPostPiercingAttack(Lnet/minecraft/server/level/ServerLevel;ILnet/minecraft/world/item/enchantment/EnchantedItemInUse;Lnet/minecraft/world/entity/Entity;)V", cancellable = true)
+    private void doPostPiercingAttack_1951731261(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1951731261L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "modifyDamageFilteredValue(Lnet/minecraft/core/component/DataComponentType;Lnet/minecraft/server/level/ServerLevel;ILnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/damagesource/DamageSource;Lorg/apache/commons/lang3/mutable/MutableFloat;)V", cancellable = true)
+    private void modifyDamageFilteredValue_509928861(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(509928861L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "modifyProjectileCount(Lnet/minecraft/server/level/ServerLevel;ILnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/Entity;Lorg/apache/commons/lang3/mutable/MutableFloat;)V", cancellable = true)
+    private void modifyProjectileCount__436999362(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-436999362L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "modifyCrossbowChargeTime(Lnet/minecraft/util/RandomSource;ILorg/apache/commons/lang3/mutable/MutableFloat;)V", cancellable = true)
+    private void modifyCrossbowChargeTime__1461745007(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1461745007L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "doPostAttack(Lnet/minecraft/server/level/ServerLevel;ILnet/minecraft/world/item/enchantment/EnchantedItemInUse;Lnet/minecraft/world/item/enchantment/EnchantmentTarget;Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/damagesource/DamageSource;)V", cancellable = true)
+    private void doPostAttack__1679493960(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1679493960L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "doPostAttack(Lnet/minecraft/world/item/enchantment/TargetedConditionalEffect;Lnet/minecraft/server/level/ServerLevel;ILnet/minecraft/world/item/enchantment/EnchantedItemInUse;Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/damagesource/DamageSource;)V", cancellable = true)
+    private static void doPostAttack_509580817(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(509580817L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "modifyArmorEffectivness(Lnet/minecraft/server/level/ServerLevel;ILnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/damagesource/DamageSource;Lorg/apache/commons/lang3/mutable/MutableFloat;)V", cancellable = true)
+    private void modifyArmorEffectivness_1232619613(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1232619613L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "modifyProjectileSpread(Lnet/minecraft/server/level/ServerLevel;ILnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/Entity;Lorg/apache/commons/lang3/mutable/MutableFloat;)V", cancellable = true)
+    private void modifyProjectileSpread__436999362(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-436999362L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "blockHitContext(Lnet/minecraft/server/level/ServerLevel;ILnet/minecraft/world/entity/Entity;Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/storage/loot/LootContext;", cancellable = true)
+    private static void blockHitContext__1274741326(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1274741326L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "matchingSlot(Lnet/minecraft/world/entity/EquipmentSlot;)Z", cancellable = true)
-    private void matchingSlot_1068859803(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1068859803L))
+    @Inject(at = @At("HEAD"), method = "canEnchant(Lnet/minecraft/world/item/ItemStack;)Z", cancellable = true)
+    private void canEnchant_1808027074(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1808027074L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "modifyDurabilityChange(Lnet/minecraft/server/level/ServerLevel;ILnet/minecraft/world/item/ItemStack;Lorg/apache/commons/lang3/mutable/MutableFloat;)V", cancellable = true)
-    private void modifyDurabilityChange_110313469(CallbackInfo info) {
+    @Inject(at = @At("HEAD"), method = "modifyDurabilityToRepairFromXp(Lnet/minecraft/server/level/ServerLevel;ILnet/minecraft/world/item/ItemStack;Lorg/apache/commons/lang3/mutable/MutableFloat;)V", cancellable = true)
+    private void modifyDurabilityToRepairFromXp_110313469(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(110313469L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "modifyTridentReturnToOwnerAcceleration(Lnet/minecraft/server/level/ServerLevel;ILnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/Entity;Lorg/apache/commons/lang3/mutable/MutableFloat;)V", cancellable = true)
+    private void modifyTridentReturnToOwnerAcceleration__436999362(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-436999362L))
             info.cancel();
     }
 
@@ -391,10 +349,52 @@ public class Enchantment_73491943Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "modifyTridentReturnToOwnerAcceleration(Lnet/minecraft/server/level/ServerLevel;ILnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/Entity;Lorg/apache/commons/lang3/mutable/MutableFloat;)V", cancellable = true)
-    private void modifyTridentReturnToOwnerAcceleration__436999362(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-436999362L))
+    @Inject(at = @At("HEAD"), method = "getEffects(Lnet/minecraft/core/component/DataComponentType;)Ljava/util/List;", cancellable = true)
+    private void getEffects_861971142(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(861971142L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getMaxCost(I)I", cancellable = true)
+    private void getMaxCost_1287396421(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1287396421L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getMinCost(I)I", cancellable = true)
+    private void getMinCost_1287396421(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1287396421L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "itemContext(Lnet/minecraft/server/level/ServerLevel;ILnet/minecraft/world/item/ItemInstance;)Lnet/minecraft/world/level/storage/loot/LootContext;", cancellable = true)
+    private static void itemContext_807314112(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(807314112L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "onProjectileSpawned(Lnet/minecraft/server/level/ServerLevel;ILnet/minecraft/world/item/enchantment/EnchantedItemInUse;Lnet/minecraft/world/entity/Entity;)V", cancellable = true)
+    private void onProjectileSpawned_1951731261(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1951731261L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "areCompatible(Lnet/minecraft/core/Holder;Lnet/minecraft/core/Holder;)Z", cancellable = true)
+    private static void areCompatible_970265397(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(970265397L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getAnvilCost()I", cancellable = true)
+    private void getAnvilCost_111754188(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(111754188L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isPrimaryItem(Lnet/minecraft/world/item/ItemStack;)Z", cancellable = true)
+    private void isPrimaryItem_1808027074(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1808027074L))
+            info.setReturnValue(null);
     }
 
 

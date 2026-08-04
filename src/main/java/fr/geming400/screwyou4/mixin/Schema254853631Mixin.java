@@ -73,6 +73,12 @@ public class Schema254853631Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "arrayOf(Lnet/minecraft/server/jsonrpc/api/Schema;Lcom/mojang/serialization/Codec;)Lnet/minecraft/server/jsonrpc/api/Schema;", cancellable = true)
+    private static void arrayOf__530675623(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-530675623L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/Codec;", cancellable = true)
     private void codec__137111995(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-137111995L))
@@ -85,9 +91,9 @@ public class Schema254853631Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "arrayOf(Lnet/minecraft/server/jsonrpc/api/Schema;Lcom/mojang/serialization/Codec;)Lnet/minecraft/server/jsonrpc/api/Schema;", cancellable = true)
-    private static void arrayOf__530675623(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-530675623L))
+    @Inject(at = @At("HEAD"), method = "ofTypes(Ljava/util/List;Lcom/mojang/serialization/Codec;)Lnet/minecraft/server/jsonrpc/api/Schema;", cancellable = true)
+    private static void ofTypes_1379426547(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1379426547L))
             info.setReturnValue(null);
     }
 
@@ -97,20 +103,20 @@ public class Schema254853631Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "enumValues()Ljava/util/List;", cancellable = true)
-    private void enumValues_1881190447(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1881190447L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "typedCodec()Lcom/mojang/serialization/Codec;", cancellable = true)
     private static void typedCodec__137111747(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-137111747L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "ofTypes(Ljava/util/List;Lcom/mojang/serialization/Codec;)Lnet/minecraft/server/jsonrpc/api/Schema;", cancellable = true)
-    private static void ofTypes_1379426547(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "enumValues()Ljava/util/List;", cancellable = true)
+    private void enumValues_1881190447(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1881190447L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "ofEnum(Ljava/util/List;Lcom/mojang/serialization/Codec;)Lnet/minecraft/server/jsonrpc/api/Schema;", cancellable = true)
+    private static void ofEnum_1379426547(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1379426547L))
             info.setReturnValue(null);
     }
@@ -124,12 +130,6 @@ public class Schema254853631Mixin {
     @Inject(at = @At("HEAD"), method = "ofEnum(Ljava/util/function/Supplier;)Lnet/minecraft/server/jsonrpc/api/Schema;", cancellable = true)
     private static void ofEnum_1324543631(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1324543631L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "ofEnum(Ljava/util/List;Lcom/mojang/serialization/Codec;)Lnet/minecraft/server/jsonrpc/api/Schema;", cancellable = true)
-    private static void ofEnum_1379426547(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1379426547L))
             info.setReturnValue(null);
     }
 

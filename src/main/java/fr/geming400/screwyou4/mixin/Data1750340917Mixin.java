@@ -13,22 +13,10 @@ public class Data1750340917Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "setReloadVibrationParticle(Z)V", cancellable = true)
-    private void setReloadVibrationParticle__1315009550(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1315009550L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "getCurrentVibration()Lnet/minecraft/world/level/gameevent/vibrations/VibrationInfo;", cancellable = true)
     private void getCurrentVibration_1081967118(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1081967118L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "setCurrentVibration(Lnet/minecraft/world/level/gameevent/vibrations/VibrationInfo;)V", cancellable = true)
-    private void setCurrentVibration__1924934974(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1924934974L))
-            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "decrementTravelTime()V", cancellable = true)
@@ -43,9 +31,21 @@ public class Data1750340917Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "setReloadVibrationParticle(Z)V", cancellable = true)
+    private void setReloadVibrationParticle__1315009550(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1315009550L))
+            info.cancel();
+    }
+
     @Inject(at = @At("HEAD"), method = "setTravelTimeInTicks(I)V", cancellable = true)
     private void setTravelTimeInTicks__1330709407(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1330709407L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "setCurrentVibration(Lnet/minecraft/world/level/gameevent/vibrations/VibrationInfo;)V", cancellable = true)
+    private void setCurrentVibration__1924934974(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1924934974L))
             info.cancel();
     }
 

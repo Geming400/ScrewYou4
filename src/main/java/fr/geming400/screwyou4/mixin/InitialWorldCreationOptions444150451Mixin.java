@@ -25,9 +25,9 @@ public class InitialWorldCreationOptions444150451Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "gameRuleOverwrites()Lnet/minecraft/world/level/gamerules/GameRuleMap;", cancellable = true)
-    private void gameRuleOverwrites__709502097(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-709502097L))
+    @Inject(at = @At("HEAD"), method = "flatLevelPreset()Lnet/minecraft/resources/ResourceKey;", cancellable = true)
+    private void flatLevelPreset_1252641764(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1252641764L))
             info.setReturnValue(null);
     }
 
@@ -37,9 +37,9 @@ public class InitialWorldCreationOptions444150451Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "flatLevelPreset()Lnet/minecraft/resources/ResourceKey;", cancellable = true)
-    private void flatLevelPreset_1252641764(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1252641764L))
+    @Inject(at = @At("HEAD"), method = "gameRuleOverwrites()Lnet/minecraft/world/level/gamerules/GameRuleMap;", cancellable = true)
+    private void gameRuleOverwrites__709502097(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-709502097L))
             info.setReturnValue(null);
     }
 

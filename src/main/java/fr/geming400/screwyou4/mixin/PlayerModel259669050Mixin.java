@@ -7,15 +7,21 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.client.model.player.PlayerModel.class)
 public class PlayerModel259669050Mixin {
-        @Inject(at = @At("HEAD"), method = "translateToHand(Lnet/minecraft/client/renderer/entity/state/EntityRenderState;Lnet/minecraft/world/entity/HumanoidArm;Lcom/mojang/blaze3d/vertex/PoseStack;)V", cancellable = true)
-    private void translateToHand__1725423555(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1725423555L))
-            info.cancel();
+        @Inject(at = @At("HEAD"), method = "getRandomBodyPart(Lnet/minecraft/util/RandomSource;)Lnet/minecraft/client/model/geom/ModelPart;", cancellable = true)
+    private void getRandomBodyPart_2142584767(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2142584767L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "translateToHand(Lnet/minecraft/client/renderer/entity/state/AvatarRenderState;Lnet/minecraft/world/entity/HumanoidArm;Lcom/mojang/blaze3d/vertex/PoseStack;)V", cancellable = true)
     private void translateToHand__952486201(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-952486201L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "translateToHand(Lnet/minecraft/client/renderer/entity/state/EntityRenderState;Lnet/minecraft/world/entity/HumanoidArm;Lcom/mojang/blaze3d/vertex/PoseStack;)V", cancellable = true)
+    private void translateToHand__1725423555(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1725423555L))
             info.cancel();
     }
 
@@ -31,27 +37,21 @@ public class PlayerModel259669050Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "setupAnim(Ljava/lang/Object;)V", cancellable = true)
-    private void setupAnim_1645305929(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1645305929L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "setupAnim(Lnet/minecraft/client/renderer/entity/state/AvatarRenderState;)V", cancellable = true)
     private void setupAnim_686456520(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(686456520L))
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "setupAnim(Ljava/lang/Object;)V", cancellable = true)
+    private void setupAnim_1645305929(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1645305929L))
+            info.cancel();
+    }
+
     @Inject(at = @At("HEAD"), method = "createMesh(Lnet/minecraft/client/model/geom/builders/CubeDeformation;Z)Lnet/minecraft/client/model/geom/builders/MeshDefinition;", cancellable = true)
     private static void createMesh__1997932392(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1997932392L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getRandomBodyPart(Lnet/minecraft/util/RandomSource;)Lnet/minecraft/client/model/geom/ModelPart;", cancellable = true)
-    private void getRandomBodyPart_2142584767(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2142584767L))
             info.setReturnValue(null);
     }
 

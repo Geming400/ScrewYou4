@@ -13,14 +13,14 @@ public class GameTestAssertPosException_1949335257Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getAbsolutePos()Lnet/minecraft/core/BlockPos;", cancellable = true)
-    private void getAbsolutePos_55948377(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "getRelativePos()Lnet/minecraft/core/BlockPos;", cancellable = true)
+    private void getRelativePos_55948377(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(55948377L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getRelativePos()Lnet/minecraft/core/BlockPos;", cancellable = true)
-    private void getRelativePos_55948377(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "getAbsolutePos()Lnet/minecraft/core/BlockPos;", cancellable = true)
+    private void getAbsolutePos_55948377(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(55948377L))
             info.setReturnValue(null);
     }

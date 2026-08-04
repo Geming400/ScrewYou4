@@ -13,15 +13,15 @@ public class Builder_1187304658Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "setEasing(Lnet/minecraft/util/EasingType;)Lnet/minecraft/util/KeyframeTrack$Builder;", cancellable = true)
-    private void setEasing_1524760203(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1524760203L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "addKeyframe(ILjava/lang/Object;)Lnet/minecraft/util/KeyframeTrack$Builder;", cancellable = true)
     private void addKeyframe__724370257(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-724370257L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "setEasing(Lnet/minecraft/util/EasingType;)Lnet/minecraft/util/KeyframeTrack$Builder;", cancellable = true)
+    private void setEasing_1524760203(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1524760203L))
             info.setReturnValue(null);
     }
 

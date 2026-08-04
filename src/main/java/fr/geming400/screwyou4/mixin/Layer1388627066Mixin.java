@@ -25,12 +25,6 @@ public class Layer1388627066Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "pipeline()Lcom/mojang/blaze3d/pipeline/RenderPipeline;", cancellable = true)
-    private void pipeline__1908932018(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1908932018L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "translucent()Z", cancellable = true)
     private void translucent_1426905649(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1426905649L))
@@ -46,6 +40,12 @@ public class Layer1388627066Mixin {
     @Inject(at = @At("HEAD"), method = "bySprite(Lnet/minecraft/client/renderer/texture/TextureAtlasSprite;)Lnet/minecraft/client/particle/SingleQuadParticle$Layer;", cancellable = true)
     private static void bySprite__883480837(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-883480837L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "pipeline()Lcom/mojang/blaze3d/pipeline/RenderPipeline;", cancellable = true)
+    private void pipeline__1908932018(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1908932018L))
             info.setReturnValue(null);
     }
 

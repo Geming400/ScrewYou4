@@ -31,33 +31,9 @@ public class BeaconBlockEntity_1785098306Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "setCustomName(Lnet/minecraft/network/chat/Component;)V", cancellable = true)
-    private void setCustomName__116080632(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-116080632L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "getCustomName()Lnet/minecraft/network/chat/Component;", cancellable = true)
-    private void getCustomName__391810860(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-391810860L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "playSound(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/sounds/SoundEvent;)V", cancellable = true)
     private static void playSound_490075644(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(490075644L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "getUpdateTag(Lnet/minecraft/core/HolderLookup$Provider;)Lnet/minecraft/nbt/CompoundTag;", cancellable = true)
-    private void getUpdateTag_618476757(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(618476757L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "setRemoved()V", cancellable = true)
-    private void setRemoved_1823373044(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1823373044L))
             info.cancel();
     }
 
@@ -73,9 +49,33 @@ public class BeaconBlockEntity_1785098306Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getUpdatePacket()Lnet/minecraft/network/protocol/Packet;", cancellable = true)
-    private void getUpdatePacket_770545243(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(770545243L))
+    @Inject(at = @At("HEAD"), method = "getUpdateTag(Lnet/minecraft/core/HolderLookup$Provider;)Lnet/minecraft/nbt/CompoundTag;", cancellable = true)
+    private void getUpdateTag_618476757(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(618476757L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "setCustomName(Lnet/minecraft/network/chat/Component;)V", cancellable = true)
+    private void setCustomName__116080632(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-116080632L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getCustomName()Lnet/minecraft/network/chat/Component;", cancellable = true)
+    private void getCustomName__391810860(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-391810860L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "setRemoved()V", cancellable = true)
+    private void setRemoved_1823373044(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1823373044L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "createMenu(ILnet/minecraft/world/entity/player/Inventory;Lnet/minecraft/world/entity/player/Player;)Lnet/minecraft/world/inventory/AbstractContainerMenu;", cancellable = true)
+    private void createMenu__200273061(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-200273061L))
             info.setReturnValue(null);
     }
 
@@ -85,9 +85,9 @@ public class BeaconBlockEntity_1785098306Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "createMenu(ILnet/minecraft/world/entity/player/Inventory;Lnet/minecraft/world/entity/player/Player;)Lnet/minecraft/world/inventory/AbstractContainerMenu;", cancellable = true)
-    private void createMenu__200273061(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-200273061L))
+    @Inject(at = @At("HEAD"), method = "getUpdatePacket()Lnet/minecraft/network/protocol/Packet;", cancellable = true)
+    private void getUpdatePacket_770545243(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(770545243L))
             info.setReturnValue(null);
     }
 

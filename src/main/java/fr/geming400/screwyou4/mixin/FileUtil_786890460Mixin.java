@@ -19,9 +19,9 @@ public class FileUtil_786890460Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "findAvailableName(Ljava/nio/file/Path;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;", cancellable = true)
-    private static void findAvailableName_255554633(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(255554633L))
+    @Inject(at = @At("HEAD"), method = "getFullResourcePath(Ljava/lang/String;)Ljava/lang/String;", cancellable = true)
+    private static void getFullResourcePath_1999632530(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1999632530L))
             info.setReturnValue(null);
     }
 
@@ -31,22 +31,10 @@ public class FileUtil_786890460Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getFullResourcePath(Ljava/lang/String;)Ljava/lang/String;", cancellable = true)
-    private static void getFullResourcePath_1999632530(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1999632530L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isValidPathSegment(Ljava/lang/String;)Z", cancellable = true)
-    private static void isValidPathSegment_1939255700(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1939255700L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isPathPartPortable(Ljava/lang/String;)Z", cancellable = true)
-    private static void isPathPartPortable_1939255700(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1939255700L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "validatePath([Ljava/lang/String;)V", cancellable = true)
+    private static void validatePath__1682535205(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1682535205L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "decomposePath(Ljava/lang/String;)Lcom/mojang/serialization/DataResult;", cancellable = true)
@@ -55,10 +43,10 @@ public class FileUtil_786890460Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "validatePath([Ljava/lang/String;)V", cancellable = true)
-    private static void validatePath__1682535205(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1682535205L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "findAvailableName(Ljava/nio/file/Path;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;", cancellable = true)
+    private static void findAvailableName_255554633(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(255554633L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "isEmptyPath(Ljava/nio/file/Path;)Z", cancellable = true)
@@ -76,6 +64,18 @@ public class FileUtil_786890460Mixin {
     @Inject(at = @At("HEAD"), method = "normalizeResourcePath(Ljava/lang/String;)Ljava/lang/String;", cancellable = true)
     private static void normalizeResourcePath_1999632530(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1999632530L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isPathPartPortable(Ljava/lang/String;)Z", cancellable = true)
+    private static void isPathPartPortable_1939255700(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1939255700L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isValidPathSegment(Ljava/lang/String;)Z", cancellable = true)
+    private static void isValidPathSegment_1939255700(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1939255700L))
             info.setReturnValue(null);
     }
 

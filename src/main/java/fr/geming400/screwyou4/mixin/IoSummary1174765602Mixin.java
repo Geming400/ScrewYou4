@@ -13,15 +13,15 @@ public class IoSummary1174765602Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getSizePerSecond()D", cancellable = true)
-    private void getSizePerSecond_1213023043(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1213023043L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getTotalSize()J", cancellable = true)
     private void getTotalSize_1213028809(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1213028809L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getSizePerSecond()D", cancellable = true)
+    private void getSizePerSecond_1213023043(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1213023043L))
             info.setReturnValue(null);
     }
 

@@ -25,18 +25,6 @@ public class Range1195566605Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getFloor()Ljava/util/OptionalInt;", cancellable = true)
-    private void getFloor__975005182(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-975005182L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getCeiling()Ljava/util/OptionalInt;", cancellable = true)
-    private void getCeiling__975005182(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-975005182L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getHeight()Ljava/util/OptionalInt;", cancellable = true)
     private void getHeight__975005182(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-975005182L))
@@ -46,6 +34,18 @@ public class Range1195566605Mixin {
     @Inject(at = @At("HEAD"), method = "height()I", cancellable = true)
     private void height_1233828851(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1233828851L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getFloor()Ljava/util/OptionalInt;", cancellable = true)
+    private void getFloor__975005182(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-975005182L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getCeiling()Ljava/util/OptionalInt;", cancellable = true)
+    private void getCeiling__975005182(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-975005182L))
             info.setReturnValue(null);
     }
 

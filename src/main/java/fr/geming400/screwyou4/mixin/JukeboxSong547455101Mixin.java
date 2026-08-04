@@ -43,12 +43,6 @@ public class JukeboxSong547455101Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "fromStack(Lnet/minecraft/world/item/ItemStack;)Ljava/util/Optional;", cancellable = true)
-    private static void fromStack__1406739234(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1406739234L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "comparatorOutput()I", cancellable = true)
     private void comparatorOutput_585717347(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(585717347L))
@@ -64,6 +58,12 @@ public class JukeboxSong547455101Mixin {
     @Inject(at = @At("HEAD"), method = "hasFinished(J)Z", cancellable = true)
     private void hasFinished_1762299438(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1762299438L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "fromStack(Lnet/minecraft/world/item/ItemStack;)Ljava/util/Optional;", cancellable = true)
+    private static void fromStack__1406739234(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1406739234L))
             info.setReturnValue(null);
     }
 

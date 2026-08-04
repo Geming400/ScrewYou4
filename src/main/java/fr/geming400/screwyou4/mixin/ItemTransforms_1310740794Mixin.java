@@ -43,26 +43,14 @@ public class ItemTransforms_1310740794Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "ground()Lnet/minecraft/client/resources/model/cuboid/ItemTransform;", cancellable = true)
-    private void ground_496663321(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(496663321L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "gui()Lnet/minecraft/client/resources/model/cuboid/ItemTransform;", cancellable = true)
-    private void gui_496663321(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "thirdPersonRightHand()Lnet/minecraft/client/resources/model/cuboid/ItemTransform;", cancellable = true)
+    private void thirdPersonRightHand_496663321(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(496663321L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "firstPersonRightHand()Lnet/minecraft/client/resources/model/cuboid/ItemTransform;", cancellable = true)
     private void firstPersonRightHand_496663321(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(496663321L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "fixedFromBottom()Lnet/minecraft/client/resources/model/cuboid/ItemTransform;", cancellable = true)
-    private void fixedFromBottom_496663321(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(496663321L))
             info.setReturnValue(null);
     }
@@ -79,8 +67,20 @@ public class ItemTransforms_1310740794Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "thirdPersonRightHand()Lnet/minecraft/client/resources/model/cuboid/ItemTransform;", cancellable = true)
-    private void thirdPersonRightHand_496663321(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "fixedFromBottom()Lnet/minecraft/client/resources/model/cuboid/ItemTransform;", cancellable = true)
+    private void fixedFromBottom_496663321(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(496663321L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "gui()Lnet/minecraft/client/resources/model/cuboid/ItemTransform;", cancellable = true)
+    private void gui_496663321(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(496663321L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "ground()Lnet/minecraft/client/resources/model/cuboid/ItemTransform;", cancellable = true)
+    private void ground_496663321(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(496663321L))
             info.setReturnValue(null);
     }

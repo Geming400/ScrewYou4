@@ -13,21 +13,27 @@ public class Bat_1034542393Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getVoicePitch()F", cancellable = true)
-    private void getVoicePitch_1072801755(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1072801755L))
+    @Inject(at = @At("HEAD"), method = "getAmbientSound()Lnet/minecraft/sounds/SoundEvent;", cancellable = true)
+    private void getAmbientSound_2124755290(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2124755290L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "checkBatSpawnRules(Lnet/minecraft/world/entity/EntityType;Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)Z", cancellable = true)
+    private static void checkBatSpawnRules_192278698(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(192278698L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "createAttributes()Lnet/minecraft/world/entity/ai/attributes/AttributeSupplier$Builder;", cancellable = true)
+    private static void createAttributes_334323947(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(334323947L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "isIgnoringBlockTriggers()Z", cancellable = true)
     private void isIgnoringBlockTriggers_1072820975(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1072820975L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "hurtServer(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/damagesource/DamageSource;F)Z", cancellable = true)
-    private void hurtServer_585112061(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(585112061L))
             info.setReturnValue(null);
     }
 
@@ -49,9 +55,15 @@ public class Bat_1034542393Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "createAttributes()Lnet/minecraft/world/entity/ai/attributes/AttributeSupplier$Builder;", cancellable = true)
-    private static void createAttributes_334323947(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(334323947L))
+    @Inject(at = @At("HEAD"), method = "hurtServer(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/damagesource/DamageSource;F)Z", cancellable = true)
+    private void hurtServer_585112061(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(585112061L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getVoicePitch()F", cancellable = true)
+    private void getVoicePitch_1072801755(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1072801755L))
             info.setReturnValue(null);
     }
 
@@ -59,18 +71,6 @@ public class Bat_1034542393Mixin {
     private void setResting__2030808075(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-2030808075L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "getAmbientSound()Lnet/minecraft/sounds/SoundEvent;", cancellable = true)
-    private void getAmbientSound_2124755290(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2124755290L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "checkBatSpawnRules(Lnet/minecraft/world/entity/EntityType;Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)Z", cancellable = true)
-    private static void checkBatSpawnRules_192278698(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(192278698L))
-            info.setReturnValue(null);
     }
 
 

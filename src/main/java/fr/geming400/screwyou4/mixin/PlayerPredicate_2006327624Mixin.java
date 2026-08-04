@@ -67,15 +67,15 @@ public class PlayerPredicate_2006327624Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "recipes()Lit/unimi/dsi/fastutil/objects/Object2BooleanMap;", cancellable = true)
-    private void recipes__1668896172(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1668896172L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "food()Lnet/minecraft/advancements/predicates/FoodPredicate;", cancellable = true)
     private void food_909822557(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(909822557L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "recipes()Lit/unimi/dsi/fastutil/objects/Object2BooleanMap;", cancellable = true)
+    private void recipes__1668896172(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1668896172L))
             info.setReturnValue(null);
     }
 

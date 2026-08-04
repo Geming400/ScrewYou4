@@ -25,27 +25,21 @@ public class Submit1581413668Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "overlayCoords()I", cancellable = true)
-    private void overlayCoords_1619675914(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1619675914L))
+    @Inject(at = @At("HEAD"), method = "tintLayers()[I", cancellable = true)
+    private void tintLayers__1527712271(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1527712271L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "lightCoords()I", cancellable = true)
-    private void lightCoords_1619675914(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1619675914L))
+    @Inject(at = @At("HEAD"), method = "quads()Ljava/util/List;", cancellable = true)
+    private void quads__1087216812(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1087216812L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "outlineColor()I", cancellable = true)
-    private void outlineColor_1619675914(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1619675914L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "pose()Lcom/mojang/blaze3d/vertex/PoseStack$Pose;", cancellable = true)
-    private void pose__507906732(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-507906732L))
+    @Inject(at = @At("HEAD"), method = "foilType()Lnet/minecraft/client/renderer/item/ItemStackRenderState$FoilType;", cancellable = true)
+    private void foilType__322194898(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-322194898L))
             info.setReturnValue(null);
     }
 
@@ -61,33 +55,39 @@ public class Submit1581413668Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "quads()Ljava/util/List;", cancellable = true)
-    private void quads__1087216812(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1087216812L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "tintLayers()[I", cancellable = true)
-    private void tintLayers__1527712271(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1527712271L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "foilType()Lnet/minecraft/client/renderer/item/ItemStackRenderState$FoilType;", cancellable = true)
-    private void foilType__322194898(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-322194898L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "distanceToCameraSq()F", cancellable = true)
     private void distanceToCameraSq_1619673031(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1619673031L))
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "overlayCoords()I", cancellable = true)
+    private void overlayCoords_1619675914(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1619675914L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "outlineColor()I", cancellable = true)
+    private void outlineColor_1619675914(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1619675914L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "lightCoords()I", cancellable = true)
+    private void lightCoords_1619675914(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1619675914L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "featureType()Lnet/minecraft/client/renderer/feature/FeatureRendererType;", cancellable = true)
     private void featureType__1682470102(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1682470102L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "pose()Lcom/mojang/blaze3d/vertex/PoseStack$Pose;", cancellable = true)
+    private void pose__507906732(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-507906732L))
             info.setReturnValue(null);
     }
 

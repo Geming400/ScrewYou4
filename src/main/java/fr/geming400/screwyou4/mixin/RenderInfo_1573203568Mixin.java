@@ -25,15 +25,15 @@ public class RenderInfo_1573203568Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "textureView()Lcom/mojang/blaze3d/textures/GpuTextureView;", cancellable = true)
-    private void textureView__827411043(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-827411043L))
+    @Inject(at = @At("HEAD"), method = "glyphRenderTypes()Lnet/minecraft/client/gui/font/GlyphRenderTypes;", cancellable = true)
+    private void glyphRenderTypes__2043043542(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2043043542L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "playerSkin()Lnet/minecraft/world/entity/player/PlayerSkin;", cancellable = true)
-    private void playerSkin__79116692(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-79116692L))
+    @Inject(at = @At("HEAD"), method = "textureView()Lcom/mojang/blaze3d/textures/GpuTextureView;", cancellable = true)
+    private void textureView__827411043(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-827411043L))
             info.setReturnValue(null);
     }
 
@@ -43,9 +43,9 @@ public class RenderInfo_1573203568Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "glyphRenderTypes()Lnet/minecraft/client/gui/font/GlyphRenderTypes;", cancellable = true)
-    private void glyphRenderTypes__2043043542(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2043043542L))
+    @Inject(at = @At("HEAD"), method = "playerSkin()Lnet/minecraft/world/entity/player/PlayerSkin;", cancellable = true)
+    private void playerSkin__79116692(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-79116692L))
             info.setReturnValue(null);
     }
 

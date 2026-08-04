@@ -13,14 +13,14 @@ public class RichStyling_1382753684Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "numberStyle()Lnet/minecraft/network/chat/Style;", cancellable = true)
-    private void numberStyle_1073146994(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "stringStyle()Lnet/minecraft/network/chat/Style;", cancellable = true)
+    private void stringStyle_1073146994(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1073146994L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "stringStyle()Lnet/minecraft/network/chat/Style;", cancellable = true)
-    private void stringStyle_1073146994(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "numberStyle()Lnet/minecraft/network/chat/Style;", cancellable = true)
+    private void numberStyle_1073146994(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1073146994L))
             info.setReturnValue(null);
     }

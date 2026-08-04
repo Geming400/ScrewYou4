@@ -61,8 +61,8 @@ public class RotatingSectionStorage1793555458Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "minY()I", cancellable = true)
-    private void minY_1831817704(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "maxY()I", cancellable = true)
+    private void maxY_1831817704(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1831817704L))
             info.setReturnValue(null);
     }
@@ -73,8 +73,8 @@ public class RotatingSectionStorage1793555458Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "maxY()I", cancellable = true)
-    private void maxY_1831817704(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "minY()I", cancellable = true)
+    private void minY_1831817704(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1831817704L))
             info.setReturnValue(null);
     }

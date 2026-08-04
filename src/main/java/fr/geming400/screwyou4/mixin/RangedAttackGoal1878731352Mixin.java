@@ -25,14 +25,14 @@ public class RangedAttackGoal1878731352Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "requiresUpdateEveryTick()Z", cancellable = true)
-    private void requiresUpdateEveryTick_1917009935(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "canContinueToUse()Z", cancellable = true)
+    private void canContinueToUse_1917009935(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1917009935L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "canContinueToUse()Z", cancellable = true)
-    private void canContinueToUse_1917009935(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "requiresUpdateEveryTick()Z", cancellable = true)
+    private void requiresUpdateEveryTick_1917009935(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1917009935L))
             info.setReturnValue(null);
     }

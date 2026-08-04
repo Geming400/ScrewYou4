@@ -43,15 +43,15 @@ public class TargetedConditionalEffect_1698111607Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "codec(Lcom/mojang/serialization/Codec;)Lcom/mojang/serialization/Codec;", cancellable = true)
-    private static void codec__2113177715(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2113177715L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "effect()Ljava/lang/Object;", cancellable = true)
     private void effect__737663471(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-737663471L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "codec(Lcom/mojang/serialization/Codec;)Lcom/mojang/serialization/Codec;", cancellable = true)
+    private static void codec__2113177715(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2113177715L))
             info.setReturnValue(null);
     }
 
@@ -61,15 +61,15 @@ public class TargetedConditionalEffect_1698111607Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "enchanted()Lnet/minecraft/world/item/enchantment/EnchantmentTarget;", cancellable = true)
-    private void enchanted__113674465(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-113674465L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "equipmentDropsCodec(Lcom/mojang/serialization/Codec;)Lcom/mojang/serialization/Codec;", cancellable = true)
     private static void equipmentDropsCodec__2113177715(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2113177715L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "enchanted()Lnet/minecraft/world/item/enchantment/EnchantmentTarget;", cancellable = true)
+    private void enchanted__113674465(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-113674465L))
             info.setReturnValue(null);
     }
 

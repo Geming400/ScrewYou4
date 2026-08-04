@@ -13,14 +13,14 @@ public class FileFixStats_1808025707Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "finishedOperations()I", cancellable = true)
-    private void finishedOperations_1846287952(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "totalOperations()I", cancellable = true)
+    private void totalOperations_1846287952(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1846287952L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "totalOperations()I", cancellable = true)
-    private void totalOperations_1846287952(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "finishedOperations()I", cancellable = true)
+    private void finishedOperations_1846287952(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1846287952L))
             info.setReturnValue(null);
     }

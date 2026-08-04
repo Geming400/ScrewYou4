@@ -13,15 +13,15 @@ public class Builder1902639364Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "setComposite(Lnet/minecraft/advancements/predicates/MinMaxBounds$Ints;)Lnet/minecraft/advancements/predicates/LightPredicate$Builder;", cancellable = true)
-    private void setComposite__1732821778(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1732821778L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "light()Lnet/minecraft/advancements/predicates/LightPredicate$Builder;", cancellable = true)
     private static void light_1110090215(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1110090215L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "setComposite(Lnet/minecraft/advancements/predicates/MinMaxBounds$Ints;)Lnet/minecraft/advancements/predicates/LightPredicate$Builder;", cancellable = true)
+    private void setComposite__1732821778(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1732821778L))
             info.setReturnValue(null);
     }
 

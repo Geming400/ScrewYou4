@@ -25,12 +25,6 @@ public class State526322423Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "forAnimation(FFFF)Lnet/minecraft/client/model/object/book/BookModel$State;", cancellable = true)
-    private static void forAnimation__1484807940(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1484807940L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "pageFlip1()F", cancellable = true)
     private void pageFlip1_564581786(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(564581786L))
@@ -46,6 +40,12 @@ public class State526322423Mixin {
     @Inject(at = @At("HEAD"), method = "openness()F", cancellable = true)
     private void openness_564581786(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(564581786L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "forAnimation(FFFF)Lnet/minecraft/client/model/object/book/BookModel$State;", cancellable = true)
+    private static void forAnimation__1484807940(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1484807940L))
             info.setReturnValue(null);
     }
 

@@ -7,9 +7,9 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.server.players.OldUsersConverter.class)
 public class OldUsersConverter_2025957199Mixin {
-        @Inject(at = @At("HEAD"), method = "convertIpBanlist(Lnet/minecraft/server/MinecraftServer;)Z", cancellable = true)
-    private static void convertIpBanlist__526770764(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-526770764L))
+        @Inject(at = @At("HEAD"), method = "convertMobOwnerIfNecessary(Lnet/minecraft/server/MinecraftServer;Ljava/lang/String;)Ljava/util/UUID;", cancellable = true)
+    private static void convertMobOwnerIfNecessary_248468536(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(248468536L))
             info.setReturnValue(null);
     }
 
@@ -25,14 +25,14 @@ public class OldUsersConverter_2025957199Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "convertUserBanlist(Lnet/minecraft/server/MinecraftServer;)Z", cancellable = true)
-    private static void convertUserBanlist__526770764(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "convertIpBanlist(Lnet/minecraft/server/MinecraftServer;)Z", cancellable = true)
+    private static void convertIpBanlist__526770764(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-526770764L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "convertOpsList(Lnet/minecraft/server/MinecraftServer;)Z", cancellable = true)
-    private static void convertOpsList__526770764(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "convertUserBanlist(Lnet/minecraft/server/MinecraftServer;)Z", cancellable = true)
+    private static void convertUserBanlist__526770764(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-526770764L))
             info.setReturnValue(null);
     }
@@ -43,9 +43,9 @@ public class OldUsersConverter_2025957199Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "convertMobOwnerIfNecessary(Lnet/minecraft/server/MinecraftServer;Ljava/lang/String;)Ljava/util/UUID;", cancellable = true)
-    private static void convertMobOwnerIfNecessary_248468536(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(248468536L))
+    @Inject(at = @At("HEAD"), method = "convertOpsList(Lnet/minecraft/server/MinecraftServer;)Z", cancellable = true)
+    private static void convertOpsList__526770764(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-526770764L))
             info.setReturnValue(null);
     }
 

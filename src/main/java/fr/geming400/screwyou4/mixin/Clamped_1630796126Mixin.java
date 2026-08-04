@@ -43,15 +43,15 @@ public class Clamped_1630796126Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "calculate(I)F", cancellable = true)
-    private void calculate__1450269575(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1450269575L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
     private void codec__928317447(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-928317447L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "calculate(I)F", cancellable = true)
+    private void calculate__1450269575(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1450269575L))
             info.setReturnValue(null);
     }
 

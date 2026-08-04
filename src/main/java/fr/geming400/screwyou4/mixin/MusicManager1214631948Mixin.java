@@ -19,12 +19,6 @@ public class MusicManager1214631948Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "showNowPlayingToastIfNeeded()V", cancellable = true)
-    private void showNowPlayingToastIfNeeded_1252906687(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1252906687L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "getCurrentMusicTranslationKey()Ljava/lang/String;", cancellable = true)
     private void getCurrentMusicTranslationKey_79171477(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(79171477L))
@@ -43,9 +37,9 @@ public class MusicManager1214631948Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "startPlaying(Lnet/minecraft/sounds/Music;)V", cancellable = true)
-    private void startPlaying_1218945312(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1218945312L))
+    @Inject(at = @At("HEAD"), method = "showNowPlayingToastIfNeeded()V", cancellable = true)
+    private void showNowPlayingToastIfNeeded_1252906687(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1252906687L))
             info.cancel();
     }
 
@@ -53,6 +47,12 @@ public class MusicManager1214631948Mixin {
     private void isPlayingMusic_1218949156(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1218949156L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "startPlaying(Lnet/minecraft/sounds/Music;)V", cancellable = true)
+    private void startPlaying_1218945312(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1218945312L))
+            info.cancel();
     }
 
 

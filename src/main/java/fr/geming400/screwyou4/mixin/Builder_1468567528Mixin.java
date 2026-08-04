@@ -13,14 +13,8 @@ public class Builder_1468567528Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "addLayers(Lnet/minecraft/client/resources/model/EquipmentClientInfo$LayerType;[Lnet/minecraft/client/resources/model/EquipmentClientInfo$Layer;)Lnet/minecraft/client/resources/model/EquipmentClientInfo$Builder;", cancellable = true)
-    private void addLayers__981579534(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-981579534L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "addMainHumanoidLayer(Lnet/minecraft/resources/Identifier;Z)Lnet/minecraft/client/resources/model/EquipmentClientInfo$Builder;", cancellable = true)
-    private void addMainHumanoidLayer__2021658795(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "addHumanoidLayers(Lnet/minecraft/resources/Identifier;Z)Lnet/minecraft/client/resources/model/EquipmentClientInfo$Builder;", cancellable = true)
+    private void addHumanoidLayers__2021658795(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2021658795L))
             info.setReturnValue(null);
     }
@@ -31,9 +25,15 @@ public class Builder_1468567528Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "addHumanoidLayers(Lnet/minecraft/resources/Identifier;Z)Lnet/minecraft/client/resources/model/EquipmentClientInfo$Builder;", cancellable = true)
-    private void addHumanoidLayers__2021658795(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "addMainHumanoidLayer(Lnet/minecraft/resources/Identifier;Z)Lnet/minecraft/client/resources/model/EquipmentClientInfo$Builder;", cancellable = true)
+    private void addMainHumanoidLayer__2021658795(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2021658795L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "addLayers(Lnet/minecraft/client/resources/model/EquipmentClientInfo$LayerType;[Lnet/minecraft/client/resources/model/EquipmentClientInfo$Layer;)Lnet/minecraft/client/resources/model/EquipmentClientInfo$Builder;", cancellable = true)
+    private void addLayers__981579534(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-981579534L))
             info.setReturnValue(null);
     }
 

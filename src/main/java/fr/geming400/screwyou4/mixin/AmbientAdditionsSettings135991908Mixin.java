@@ -25,15 +25,15 @@ public class AmbientAdditionsSettings135991908Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "soundEvent()Lnet/minecraft/core/Holder;", cancellable = true)
-    private void soundEvent_1684867680(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1684867680L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "tickChance()D", cancellable = true)
     private void tickChance_174249349(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(174249349L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "soundEvent()Lnet/minecraft/core/Holder;", cancellable = true)
+    private void soundEvent_1684867680(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1684867680L))
             info.setReturnValue(null);
     }
 

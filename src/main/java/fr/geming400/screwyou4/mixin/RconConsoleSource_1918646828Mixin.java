@@ -37,16 +37,16 @@ public class RconConsoleSource_1918646828Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "prepareForCommand()V", cancellable = true)
-    private void prepareForCommand_1956921566(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1956921566L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "getCommandResponse()Ljava/lang/String;", cancellable = true)
     private void getCommandResponse_783186356(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(783186356L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "prepareForCommand()V", cancellable = true)
+    private void prepareForCommand_1956921566(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1956921566L))
+            info.cancel();
     }
 
 

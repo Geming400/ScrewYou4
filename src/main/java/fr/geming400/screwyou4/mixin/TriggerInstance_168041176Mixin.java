@@ -25,15 +25,15 @@ public class TriggerInstance_168041176Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "playerStartsRiding(Lnet/minecraft/advancements/predicates/entity/EntityPredicate$Builder;)Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
-    private static void playerStartsRiding__1534943261(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1534943261L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "player()Ljava/util/Optional;", cancellable = true)
     private void player_413502597(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(413502597L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "playerStartsRiding(Lnet/minecraft/advancements/predicates/entity/EntityPredicate$Builder;)Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
+    private static void playerStartsRiding__1534943261(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1534943261L))
             info.setReturnValue(null);
     }
 

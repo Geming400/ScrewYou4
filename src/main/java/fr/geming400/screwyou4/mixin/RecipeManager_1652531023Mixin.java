@@ -13,9 +13,9 @@ public class RecipeManager_1652531023Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getRecipes()Ljava/util/Collection;", cancellable = true)
-    private void getRecipes__161117250(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-161117250L))
+    @Inject(at = @At("HEAD"), method = "propertySet(Lnet/minecraft/resources/ResourceKey;)Lnet/minecraft/world/item/crafting/RecipePropertySet;", cancellable = true)
+    private void propertySet_839096441(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(839096441L))
             info.setReturnValue(null);
     }
 
@@ -25,9 +25,15 @@ public class RecipeManager_1652531023Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "propertySet(Lnet/minecraft/resources/ResourceKey;)Lnet/minecraft/world/item/crafting/RecipePropertySet;", cancellable = true)
-    private void propertySet_839096441(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(839096441L))
+    @Inject(at = @At("HEAD"), method = "getRecipes()Ljava/util/Collection;", cancellable = true)
+    private void getRecipes__161117250(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-161117250L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getRecipeFromDisplay(Lnet/minecraft/world/item/crafting/display/RecipeDisplayId;)Lnet/minecraft/world/item/crafting/RecipeManager$ServerDisplayInfo;", cancellable = true)
+    private void getRecipeFromDisplay__1228910045(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1228910045L))
             info.setReturnValue(null);
     }
 
@@ -43,15 +49,9 @@ public class RecipeManager_1652531023Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "finalizeRecipeLoading(Lnet/minecraft/world/flag/FeatureFlagSet;)V", cancellable = true)
-    private void finalizeRecipeLoading_222757798(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(222757798L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "getRecipeFromDisplay(Lnet/minecraft/world/item/crafting/display/RecipeDisplayId;)Lnet/minecraft/world/item/crafting/RecipeManager$ServerDisplayInfo;", cancellable = true)
-    private void getRecipeFromDisplay__1228910045(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1228910045L))
+    @Inject(at = @At("HEAD"), method = "createCheck(Lnet/minecraft/world/item/crafting/RecipeType;)Lnet/minecraft/world/item/crafting/RecipeManager$CachedCheck;", cancellable = true)
+    private static void createCheck__2088940784(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2088940784L))
             info.setReturnValue(null);
     }
 
@@ -61,10 +61,10 @@ public class RecipeManager_1652531023Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getRecipeFor(Lnet/minecraft/world/item/crafting/RecipeType;Lnet/minecraft/world/item/crafting/RecipeInput;Lnet/minecraft/world/level/Level;Lnet/minecraft/resources/ResourceKey;)Ljava/util/Optional;", cancellable = true)
-    private void getRecipeFor__2024902033(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2024902033L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "finalizeRecipeLoading(Lnet/minecraft/world/flag/FeatureFlagSet;)V", cancellable = true)
+    private void finalizeRecipeLoading_222757798(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(222757798L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "getRecipeFor(Lnet/minecraft/world/item/crafting/RecipeType;Lnet/minecraft/world/item/crafting/RecipeInput;Lnet/minecraft/world/level/Level;)Ljava/util/Optional;", cancellable = true)
@@ -79,9 +79,9 @@ public class RecipeManager_1652531023Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "createCheck(Lnet/minecraft/world/item/crafting/RecipeType;)Lnet/minecraft/world/item/crafting/RecipeManager$CachedCheck;", cancellable = true)
-    private static void createCheck__2088940784(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2088940784L))
+    @Inject(at = @At("HEAD"), method = "getRecipeFor(Lnet/minecraft/world/item/crafting/RecipeType;Lnet/minecraft/world/item/crafting/RecipeInput;Lnet/minecraft/world/level/Level;Lnet/minecraft/resources/ResourceKey;)Ljava/util/Optional;", cancellable = true)
+    private void getRecipeFor__2024902033(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2024902033L))
             info.setReturnValue(null);
     }
 

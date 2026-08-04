@@ -19,12 +19,6 @@ public class SharedConstants_1541575108Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "tryDetectVersion()V", cancellable = true)
-    private static void tryDetectVersion_1579850094(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1579850094L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "debugVoidTerrain(Lnet/minecraft/world/level/ChunkPos;)Z", cancellable = true)
     private static void debugVoidTerrain__1238505890(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1238505890L))
@@ -35,6 +29,12 @@ public class SharedConstants_1541575108Mixin {
     private static void getCurrentVersion_2106263567(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2106263567L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "tryDetectVersion()V", cancellable = true)
+    private static void tryDetectVersion_1579850094(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1579850094L))
+            info.cancel();
     }
 
 

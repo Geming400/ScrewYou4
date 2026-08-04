@@ -25,6 +25,12 @@ public class Packed_187419375Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "nextSpawnData()Ljava/util/Optional;", cancellable = true)
+    private void nextSpawnData_432880796(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(432880796L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "nextMobSpawnsAt()J", cancellable = true)
     private void nextMobSpawnsAt_225682581(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(225682581L))
@@ -37,9 +43,9 @@ public class Packed_187419375Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "ejectingLootTable()Ljava/util/Optional;", cancellable = true)
-    private void ejectingLootTable_432880796(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(432880796L))
+    @Inject(at = @At("HEAD"), method = "detectedPlayers()Ljava/util/Set;", cancellable = true)
+    private void detectedPlayers__1641616112(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1641616112L))
             info.setReturnValue(null);
     }
 
@@ -49,20 +55,14 @@ public class Packed_187419375Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "detectedPlayers()Ljava/util/Set;", cancellable = true)
-    private void detectedPlayers__1641616112(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1641616112L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "totalMobsSpawned()I", cancellable = true)
     private void totalMobsSpawned_225681620(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(225681620L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "nextSpawnData()Ljava/util/Optional;", cancellable = true)
-    private void nextSpawnData_432880796(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "ejectingLootTable()Ljava/util/Optional;", cancellable = true)
+    private void ejectingLootTable_432880796(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(432880796L))
             info.setReturnValue(null);
     }

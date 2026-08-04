@@ -43,9 +43,9 @@ public class ChatTypeDecoration697522028Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "translationKey()Ljava/lang/String;", cancellable = true)
-    private void translationKey__437938443(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-437938443L))
+    @Inject(at = @At("HEAD"), method = "teamMessage(Ljava/lang/String;)Lnet/minecraft/network/chat/ChatTypeDecoration;", cancellable = true)
+    private static void teamMessage__2071586354(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2071586354L))
             info.setReturnValue(null);
     }
 
@@ -61,9 +61,9 @@ public class ChatTypeDecoration697522028Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "teamMessage(Ljava/lang/String;)Lnet/minecraft/network/chat/ChatTypeDecoration;", cancellable = true)
-    private static void teamMessage__2071586354(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2071586354L))
+    @Inject(at = @At("HEAD"), method = "translationKey()Ljava/lang/String;", cancellable = true)
+    private void translationKey__437938443(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-437938443L))
             info.setReturnValue(null);
     }
 

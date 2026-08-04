@@ -13,9 +13,15 @@ public class ExecutionContext864164189Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "profiler()Lnet/minecraft/util/profiling/ProfilerFiller;", cancellable = true)
-    private void profiler__1950760026(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1950760026L))
+    @Inject(at = @At("HEAD"), method = "queueNext(Lnet/minecraft/commands/execution/CommandQueueEntry;)V", cancellable = true)
+    private void queueNext_561987389(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(561987389L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "forkLimit()I", cancellable = true)
+    private void forkLimit_902426435(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(902426435L))
             info.setReturnValue(null);
     }
 
@@ -31,16 +37,10 @@ public class ExecutionContext864164189Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "forkLimit()I", cancellable = true)
-    private void forkLimit_902426435(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(902426435L))
+    @Inject(at = @At("HEAD"), method = "profiler()Lnet/minecraft/util/profiling/ProfilerFiller;", cancellable = true)
+    private void profiler__1950760026(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1950760026L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "queueNext(Lnet/minecraft/commands/execution/CommandQueueEntry;)V", cancellable = true)
-    private void queueNext_561987389(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(561987389L))
-            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "queueInitialCommandExecution(Lnet/minecraft/commands/execution/ExecutionContext;Ljava/lang/String;Lcom/mojang/brigadier/context/ContextChain;Lnet/minecraft/commands/ExecutionCommandSource;Lnet/minecraft/commands/CommandResultCallback;)V", cancellable = true)
@@ -49,8 +49,8 @@ public class ExecutionContext864164189Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "runCommandQueue()V", cancellable = true)
-    private void runCommandQueue_902438928(CallbackInfo info) {
+    @Inject(at = @At("HEAD"), method = "incrementCost()V", cancellable = true)
+    private void incrementCost_902438928(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(902438928L))
             info.cancel();
     }
@@ -73,8 +73,8 @@ public class ExecutionContext864164189Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "incrementCost()V", cancellable = true)
-    private void incrementCost_902438928(CallbackInfo info) {
+    @Inject(at = @At("HEAD"), method = "runCommandQueue()V", cancellable = true)
+    private void runCommandQueue_902438928(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(902438928L))
             info.cancel();
     }

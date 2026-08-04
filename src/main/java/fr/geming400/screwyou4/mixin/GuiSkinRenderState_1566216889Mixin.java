@@ -61,20 +61,26 @@ public class GuiSkinRenderState_1566216889Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "playerModel()Lnet/minecraft/client/model/Model$Simple;", cancellable = true)
-    private void playerModel__1610519783(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1610519783L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "texture()Lnet/minecraft/resources/Identifier;", cancellable = true)
     private void texture__876849665(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-876849665L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "rotationX()F", cancellable = true)
-    private void rotationX_1604476251(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "scissorArea()Lnet/minecraft/client/gui/navigation/ScreenRectangle;", cancellable = true)
+    private void scissorArea__1553725104(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1553725104L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "playerModel()Lnet/minecraft/client/model/Model$Simple;", cancellable = true)
+    private void playerModel__1610519783(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1610519783L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "rotationY()F", cancellable = true)
+    private void rotationY_1604476251(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1604476251L))
             info.setReturnValue(null);
     }
@@ -85,15 +91,9 @@ public class GuiSkinRenderState_1566216889Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "rotationY()F", cancellable = true)
-    private void rotationY_1604476251(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "rotationX()F", cancellable = true)
+    private void rotationX_1604476251(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1604476251L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "scissorArea()Lnet/minecraft/client/gui/navigation/ScreenRectangle;", cancellable = true)
-    private void scissorArea__1553725104(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1553725104L))
             info.setReturnValue(null);
     }
 

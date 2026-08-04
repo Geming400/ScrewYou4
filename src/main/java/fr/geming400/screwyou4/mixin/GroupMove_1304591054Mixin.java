@@ -31,15 +31,15 @@ public class GroupMove_1304591054Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "fromTo()Ljava/util/Map;", cancellable = true)
-    private void fromTo__700032587(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-700032587L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "fixers()Ljava/util/List;", cancellable = true)
     private void fixers__1364039427(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1364039427L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "fromTo()Ljava/util/Map;", cancellable = true)
+    private void fromTo__700032587(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-700032587L))
             info.setReturnValue(null);
     }
 

@@ -49,15 +49,15 @@ public class TriggerInstance1288839692Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "destroyedBeeNest(Lnet/minecraft/world/level/block/Block;Lnet/minecraft/advancements/predicates/ItemPredicate$Builder;Lnet/minecraft/advancements/predicates/MinMaxBounds$Ints;)Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
-    private static void destroyedBeeNest_97336085(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(97336085L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "player()Ljava/util/Optional;", cancellable = true)
     private void player_1534301114(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1534301114L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "destroyedBeeNest(Lnet/minecraft/world/level/block/Block;Lnet/minecraft/advancements/predicates/ItemPredicate$Builder;Lnet/minecraft/advancements/predicates/MinMaxBounds$Ints;)Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
+    private static void destroyedBeeNest_97336085(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(97336085L))
             info.setReturnValue(null);
     }
 

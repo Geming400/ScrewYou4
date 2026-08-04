@@ -31,15 +31,15 @@ public class Rigid_259226738Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "groundLevelDelta()I", cancellable = true)
-    private void groundLevelDelta_297488983(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(297488983L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "terrainAdjustment()Lnet/minecraft/world/level/levelgen/structure/TerrainAdjustment;", cancellable = true)
     private void terrainAdjustment_471382880(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(471382880L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "groundLevelDelta()I", cancellable = true)
+    private void groundLevelDelta_297488983(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(297488983L))
             info.setReturnValue(null);
     }
 

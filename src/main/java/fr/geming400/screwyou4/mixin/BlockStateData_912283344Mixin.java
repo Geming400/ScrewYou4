@@ -13,15 +13,15 @@ public class BlockStateData_912283344Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "upgradeBlock(Ljava/lang/String;)Ljava/lang/String;", cancellable = true)
-    private static void upgradeBlock_2125025414(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2125025414L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "upgradeBlock(I)Ljava/lang/String;", cancellable = true)
     private static void upgradeBlock__508585993(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-508585993L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "upgradeBlock(Ljava/lang/String;)Ljava/lang/String;", cancellable = true)
+    private static void upgradeBlock_2125025414(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2125025414L))
             info.setReturnValue(null);
     }
 

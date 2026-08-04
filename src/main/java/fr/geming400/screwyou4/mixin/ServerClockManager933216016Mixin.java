@@ -25,24 +25,6 @@ public class ServerClockManager933216016Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "setTotalTicks(Lnet/minecraft/core/Holder;J)V", cancellable = true)
-    private void setTotalTicks_1657628622(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1657628622L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "createFullSyncPacket()Lnet/minecraft/network/protocol/game/ClientboundSetTimePacket;", cancellable = true)
-    private void createFullSyncPacket_151332799(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(151332799L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "moveToTimeMarker(Lnet/minecraft/core/Holder;Lnet/minecraft/resources/ResourceKey;)Z", cancellable = true)
-    private void moveToTimeMarker__735306020(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-735306020L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "setRate(Lnet/minecraft/core/Holder;F)V", cancellable = true)
     private void setRate_1653934538(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1653934538L))
@@ -58,6 +40,24 @@ public class ServerClockManager933216016Mixin {
     @Inject(at = @At("HEAD"), method = "addTicks(Lnet/minecraft/core/Holder;I)V", cancellable = true)
     private void addTicks_1656705101(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1656705101L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "createFullSyncPacket()Lnet/minecraft/network/protocol/game/ClientboundSetTimePacket;", cancellable = true)
+    private void createFullSyncPacket_151332799(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(151332799L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "moveToTimeMarker(Lnet/minecraft/core/Holder;Lnet/minecraft/resources/ResourceKey;)Z", cancellable = true)
+    private void moveToTimeMarker__735306020(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-735306020L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "setTotalTicks(Lnet/minecraft/core/Holder;J)V", cancellable = true)
+    private void setTotalTicks_1657628622(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1657628622L))
             info.cancel();
     }
 

@@ -7,9 +7,15 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.client.gui.screens.inventory.InventoryScreen.class)
 public class InventoryScreen33509530Mixin {
-        @Inject(at = @At("HEAD"), method = "containerTick()V", cancellable = true)
-    private void containerTick_71784269(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(71784269L))
+        @Inject(at = @At("HEAD"), method = "extractEntityInInventoryFollowsMouse(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIIIIFFFLnet/minecraft/world/entity/LivingEntity;)V", cancellable = true)
+    private static void extractEntityInInventoryFollowsMouse__978243165(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-978243165L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIF)V", cancellable = true)
+    private void extractRenderState__926177842(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-926177842L))
             info.cancel();
     }
 
@@ -25,9 +31,9 @@ public class InventoryScreen33509530Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIF)V", cancellable = true)
-    private void extractRenderState__926177842(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-926177842L))
+    @Inject(at = @At("HEAD"), method = "containerTick()V", cancellable = true)
+    private void containerTick_71784269(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(71784269L))
             info.cancel();
     }
 
@@ -35,12 +41,6 @@ public class InventoryScreen33509530Mixin {
     private void mouseReleased_257131824(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(257131824L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "extractEntityInInventoryFollowsMouse(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIIIIFFFLnet/minecraft/world/entity/LivingEntity;)V", cancellable = true)
-    private static void extractEntityInInventoryFollowsMouse__978243165(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-978243165L))
-            info.cancel();
     }
 
 

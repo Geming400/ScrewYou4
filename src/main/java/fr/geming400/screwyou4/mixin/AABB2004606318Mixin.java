@@ -139,27 +139,81 @@ public class AABB2004606318Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "setMinX(D)Lnet/minecraft/world/phys/AABB;", cancellable = true)
-    private void setMinX__1939594598(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1939594598L))
+    @Inject(at = @At("HEAD"), method = "unitCubeFromLowerCorner(Lnet/minecraft/world/phys/Vec3;)Lnet/minecraft/world/phys/AABB;", cancellable = true)
+    private static void unitCubeFromLowerCorner_1175874730(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1175874730L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "setMinZ(D)Lnet/minecraft/world/phys/AABB;", cancellable = true)
-    private void setMinZ__1939594598(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1939594598L))
+    @Inject(at = @At("HEAD"), method = "getMaxPosition()Lnet/minecraft/world/phys/Vec3;", cancellable = true)
+    private void getMaxPosition__1192631449(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1192631449L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "setMaxZ(D)Lnet/minecraft/world/phys/AABB;", cancellable = true)
-    private void setMaxZ__1939594598(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1939594598L))
+    @Inject(at = @At("HEAD"), method = "getMinPosition()Lnet/minecraft/world/phys/Vec3;", cancellable = true)
+    private void getMinPosition__1192631449(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1192631449L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "setMaxX(D)Lnet/minecraft/world/phys/AABB;", cancellable = true)
-    private void setMaxX__1939594598(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1939594598L))
+    @Inject(at = @At("HEAD"), method = "hasNaN()Z", cancellable = true)
+    private void hasNaN_2042884901(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2042884901L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getXsize()D", cancellable = true)
+    private void getXsize_2042863759(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2042863759L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getCenter()Lnet/minecraft/world/phys/Vec3;", cancellable = true)
+    private void getCenter__1192631449(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1192631449L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getYsize()D", cancellable = true)
+    private void getYsize_2042863759(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2042863759L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getZsize()D", cancellable = true)
+    private void getZsize_2042863759(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2042863759L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "clip(DDDDDDLnet/minecraft/world/phys/Vec3;Lnet/minecraft/world/phys/Vec3;)Ljava/util/Optional;", cancellable = true)
+    private static void clip__846612972(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-846612972L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "clip(Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/world/phys/Vec3;)Ljava/util/Optional;", cancellable = true)
+    private void clip_1886814364(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1886814364L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "clip(Ljava/lang/Iterable;Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/phys/BlockHitResult;", cancellable = true)
+    private static void clip_1052711718(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1052711718L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "distanceToSqr(Lnet/minecraft/world/phys/Vec3;)D", cancellable = true)
+    private void distanceToSqr__1922642277(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1922642277L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "distanceToSqr(Lnet/minecraft/world/phys/AABB;)D", cancellable = true)
+    private void distanceToSqr_269120026(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(269120026L))
             info.setReturnValue(null);
     }
 
@@ -178,18 +232,6 @@ public class AABB2004606318Mixin {
     @Inject(at = @At("HEAD"), method = "collidedAlongVector(Lnet/minecraft/world/phys/Vec3;Ljava/util/List;)Z", cancellable = true)
     private void collidedAlongVector_75994082(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(75994082L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "distanceToSqr(Lnet/minecraft/world/phys/AABB;)D", cancellable = true)
-    private void distanceToSqr_269120026(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(269120026L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "distanceToSqr(Lnet/minecraft/world/phys/Vec3;)D", cancellable = true)
-    private void distanceToSqr__1922642277(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1922642277L))
             info.setReturnValue(null);
     }
 
@@ -217,21 +259,9 @@ public class AABB2004606318Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "clip(Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/world/phys/Vec3;)Ljava/util/Optional;", cancellable = true)
-    private void clip_1886814364(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1886814364L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "clip(Ljava/lang/Iterable;Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/phys/BlockHitResult;", cancellable = true)
-    private static void clip_1052711718(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1052711718L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "clip(DDDDDDLnet/minecraft/world/phys/Vec3;Lnet/minecraft/world/phys/Vec3;)Ljava/util/Optional;", cancellable = true)
-    private static void clip__846612972(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-846612972L))
+    @Inject(at = @At("HEAD"), method = "encapsulatingFullBlocks(Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/phys/AABB;", cancellable = true)
+    private static void encapsulatingFullBlocks__1049707490(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1049707490L))
             info.setReturnValue(null);
     }
 
@@ -247,57 +277,27 @@ public class AABB2004606318Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getYsize()D", cancellable = true)
-    private void getYsize_2042863759(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2042863759L))
+    @Inject(at = @At("HEAD"), method = "setMinX(D)Lnet/minecraft/world/phys/AABB;", cancellable = true)
+    private void setMinX__1939594598(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1939594598L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getZsize()D", cancellable = true)
-    private void getZsize_2042863759(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2042863759L))
+    @Inject(at = @At("HEAD"), method = "setMaxZ(D)Lnet/minecraft/world/phys/AABB;", cancellable = true)
+    private void setMaxZ__1939594598(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1939594598L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getCenter()Lnet/minecraft/world/phys/Vec3;", cancellable = true)
-    private void getCenter__1192631449(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1192631449L))
+    @Inject(at = @At("HEAD"), method = "setMinZ(D)Lnet/minecraft/world/phys/AABB;", cancellable = true)
+    private void setMinZ__1939594598(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1939594598L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getXsize()D", cancellable = true)
-    private void getXsize_2042863759(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2042863759L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "hasNaN()Z", cancellable = true)
-    private void hasNaN_2042884901(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2042884901L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "unitCubeFromLowerCorner(Lnet/minecraft/world/phys/Vec3;)Lnet/minecraft/world/phys/AABB;", cancellable = true)
-    private static void unitCubeFromLowerCorner_1175874730(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1175874730L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getMinPosition()Lnet/minecraft/world/phys/Vec3;", cancellable = true)
-    private void getMinPosition__1192631449(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1192631449L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getMaxPosition()Lnet/minecraft/world/phys/Vec3;", cancellable = true)
-    private void getMaxPosition__1192631449(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1192631449L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "encapsulatingFullBlocks(Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/phys/AABB;", cancellable = true)
-    private static void encapsulatingFullBlocks__1049707490(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1049707490L))
+    @Inject(at = @At("HEAD"), method = "setMaxX(D)Lnet/minecraft/world/phys/AABB;", cancellable = true)
+    private void setMaxX__1939594598(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1939594598L))
             info.setReturnValue(null);
     }
 

@@ -37,14 +37,14 @@ public class PacketIdentification_1785940150Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "packetId()Ljava/lang/String;", cancellable = true)
-    private void packetId_650479678(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "protocolId()Ljava/lang/String;", cancellable = true)
+    private void protocolId_650479678(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(650479678L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "protocolId()Ljava/lang/String;", cancellable = true)
-    private void protocolId_650479678(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "packetId()Ljava/lang/String;", cancellable = true)
+    private void packetId_650479678(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(650479678L))
             info.setReturnValue(null);
     }

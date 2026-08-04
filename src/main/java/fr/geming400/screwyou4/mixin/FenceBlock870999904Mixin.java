@@ -13,15 +13,15 @@ public class FenceBlock870999904Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
-    private void getStateForPlacement__387599863(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-387599863L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "connectsTo(Lnet/minecraft/world/level/block/state/BlockState;ZLnet/minecraft/core/Direction;)Z", cancellable = true)
     private void connectsTo_1779261598(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1779261598L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
+    private void getStateForPlacement__387599863(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-387599863L))
             info.setReturnValue(null);
     }
 

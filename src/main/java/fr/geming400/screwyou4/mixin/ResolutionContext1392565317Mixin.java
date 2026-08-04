@@ -55,15 +55,15 @@ public class ResolutionContext1392565317Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "objectInfoValidator()Ljava/util/function/Predicate;", cancellable = true)
-    private void objectInfoValidator_742680339(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(742680339L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "defaultScoreboardEntity()Lnet/minecraft/world/entity/Entity;", cancellable = true)
     private void defaultScoreboardEntity__1073513525(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1073513525L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "objectInfoValidator()Ljava/util/function/Predicate;", cancellable = true)
+    private void objectInfoValidator_742680339(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(742680339L))
             info.setReturnValue(null);
     }
 

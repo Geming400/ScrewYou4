@@ -13,16 +13,16 @@ public class AllayAi_2014539085Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "hearNoteblock(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/core/BlockPos;)V", cancellable = true)
-    private static void hearNoteblock_379366939(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(379366939L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "getLikedPlayer(Lnet/minecraft/world/entity/LivingEntity;)Ljava/util/Optional;", cancellable = true)
     private static void getLikedPlayer_801101634(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(801101634L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "hearNoteblock(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/core/BlockPos;)V", cancellable = true)
+    private static void hearNoteblock_379366939(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(379366939L))
+            info.cancel();
     }
 
 

@@ -25,15 +25,15 @@ public class WorldLoadEvent_1644353262Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "setServerBrand(Ljava/lang/String;)V", cancellable = true)
-    private void setServerBrand__1498252886(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1498252886L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "addProperties(Lnet/minecraft/client/telemetry/TelemetryPropertyMap$Builder;)V", cancellable = true)
     private void addProperties__1123704980(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1123704980L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "setServerBrand(Ljava/lang/String;)V", cancellable = true)
+    private void setServerBrand__1498252886(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1498252886L))
             info.cancel();
     }
 

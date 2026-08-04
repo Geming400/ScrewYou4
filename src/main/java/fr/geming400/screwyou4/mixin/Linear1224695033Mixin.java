@@ -31,15 +31,15 @@ public class Linear1224695033Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "calculate(I)F", cancellable = true)
-    private void calculate__1856370667(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1856370667L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
     private void codec__1334418539(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1334418539L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "calculate(I)F", cancellable = true)
+    private void calculate__1856370667(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1856370667L))
             info.setReturnValue(null);
     }
 

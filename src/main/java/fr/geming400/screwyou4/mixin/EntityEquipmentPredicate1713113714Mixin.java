@@ -49,14 +49,20 @@ public class EntityEquipmentPredicate1713113714Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "captainPredicate(Lnet/minecraft/core/HolderGetter;Lnet/minecraft/core/HolderGetter;)Lnet/minecraft/advancements/predicates/entity/EntityEquipmentPredicate;", cancellable = true)
-    private static void captainPredicate_1908347937(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1908347937L))
+    @Inject(at = @At("HEAD"), method = "legs()Ljava/util/Optional;", cancellable = true)
+    private void legs_1958575136(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1958575136L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "legs()Ljava/util/Optional;", cancellable = true)
-    private void legs_1958575136(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "offhand()Ljava/util/Optional;", cancellable = true)
+    private void offhand_1958575136(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1958575136L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "chest()Ljava/util/Optional;", cancellable = true)
+    private void chest_1958575136(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1958575136L))
             info.setReturnValue(null);
     }
@@ -73,15 +79,9 @@ public class EntityEquipmentPredicate1713113714Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "offhand()Ljava/util/Optional;", cancellable = true)
-    private void offhand_1958575136(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1958575136L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "chest()Ljava/util/Optional;", cancellable = true)
-    private void chest_1958575136(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1958575136L))
+    @Inject(at = @At("HEAD"), method = "captainPredicate(Lnet/minecraft/core/HolderGetter;Lnet/minecraft/core/HolderGetter;)Lnet/minecraft/advancements/predicates/entity/EntityEquipmentPredicate;", cancellable = true)
+    private static void captainPredicate_1908347937(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1908347937L))
             info.setReturnValue(null);
     }
 

@@ -19,10 +19,28 @@ public class CropBlock_1266365681Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "getStateForAge(I)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
+    private void getStateForAge__1789044347(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1789044347L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "isMaxAge(Lnet/minecraft/world/level/block/state/BlockState;)Z", cancellable = true)
     private void isMaxAge_1121077190(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1121077190L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getMaxAge()I", cancellable = true)
+    private void getMaxAge_1304627926(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1304627926L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "growCrops(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)V", cancellable = true)
+    private void growCrops__803539497(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-803539497L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "isValidBonemealTarget(Lnet/minecraft/world/level/LevelReader;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Z", cancellable = true)
@@ -40,24 +58,6 @@ public class CropBlock_1266365681Mixin {
     @Inject(at = @At("HEAD"), method = "isBonemealSuccess(Lnet/minecraft/world/level/Level;Lnet/minecraft/util/RandomSource;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Z", cancellable = true)
     private void isBonemealSuccess__706547463(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-706547463L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getMaxAge()I", cancellable = true)
-    private void getMaxAge_1304627926(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1304627926L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "growCrops(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)V", cancellable = true)
-    private void growCrops__803539497(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-803539497L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "getStateForAge(I)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
-    private void getStateForAge__1789044347(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1789044347L))
             info.setReturnValue(null);
     }
 

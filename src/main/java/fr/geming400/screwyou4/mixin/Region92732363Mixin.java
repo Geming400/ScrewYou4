@@ -43,15 +43,15 @@ public class Region92732363Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "height()D", cancellable = true)
-    private void height_130989804(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(130989804L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "sprite()Lnet/minecraft/resources/Identifier;", cancellable = true)
     private void sprite_1944633106(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1944633106L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "height()D", cancellable = true)
+    private void height_130989804(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(130989804L))
             info.setReturnValue(null);
     }
 

@@ -43,9 +43,9 @@ public class TriggerInstance307706602Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "tamedAnimal(Lnet/minecraft/advancements/predicates/entity/EntityPredicate$Builder;)Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
-    private static void tamedAnimal__1395277834(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1395277834L))
+    @Inject(at = @At("HEAD"), method = "player()Ljava/util/Optional;", cancellable = true)
+    private void player_553168024(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(553168024L))
             info.setReturnValue(null);
     }
 
@@ -55,9 +55,9 @@ public class TriggerInstance307706602Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "player()Ljava/util/Optional;", cancellable = true)
-    private void player_553168024(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(553168024L))
+    @Inject(at = @At("HEAD"), method = "tamedAnimal(Lnet/minecraft/advancements/predicates/entity/EntityPredicate$Builder;)Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
+    private static void tamedAnimal__1395277834(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1395277834L))
             info.setReturnValue(null);
     }
 

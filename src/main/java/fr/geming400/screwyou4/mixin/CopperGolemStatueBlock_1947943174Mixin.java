@@ -19,6 +19,12 @@ public class CopperGolemStatueBlock_1947943174Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "shouldChangedStateKeepBlockEntity(Lnet/minecraft/world/level/block/state/BlockState;)Z", cancellable = true)
+    private void shouldChangedStateKeepBlockEntity_1802654187(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1802654187L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "newBlockEntity(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/entity/BlockEntity;", cancellable = true)
     private void newBlockEntity_362465518(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(362465518L))
@@ -28,12 +34,6 @@ public class CopperGolemStatueBlock_1947943174Mixin {
     @Inject(at = @At("HEAD"), method = "getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
     private void getStateForPlacement_689343406(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(689343406L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "shouldChangedStateKeepBlockEntity(Lnet/minecraft/world/level/block/state/BlockState;)Z", cancellable = true)
-    private void shouldChangedStateKeepBlockEntity_1802654187(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1802654187L))
             info.setReturnValue(null);
     }
 

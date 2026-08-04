@@ -19,9 +19,9 @@ public class Variant153425900Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getPrefixedRecipeGroup(Ljava/lang/String;)Ljava/lang/String;", cancellable = true)
-    private void getPrefixedRecipeGroup_1366167723(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1366167723L))
+    @Inject(at = @At("HEAD"), method = "getBaseVariantForCrafting()Lnet/minecraft/data/BlockFamily$Variant;", cancellable = true)
+    private void getBaseVariantForCrafting__1482418087(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1482418087L))
             info.setReturnValue(null);
     }
 
@@ -31,9 +31,9 @@ public class Variant153425900Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getBaseVariantForCrafting()Lnet/minecraft/data/BlockFamily$Variant;", cancellable = true)
-    private void getBaseVariantForCrafting__1482418087(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1482418087L))
+    @Inject(at = @At("HEAD"), method = "getPrefixedRecipeGroup(Ljava/lang/String;)Ljava/lang/String;", cancellable = true)
+    private void getPrefixedRecipeGroup_1366167723(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1366167723L))
             info.setReturnValue(null);
     }
 

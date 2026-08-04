@@ -37,15 +37,15 @@ public class Builder_1643830628Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "onValueChange(Lnet/minecraft/client/gui/components/Checkbox$OnValueChange;)Lnet/minecraft/client/gui/components/Checkbox$Builder;", cancellable = true)
-    private void onValueChange__2098587991(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2098587991L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "tooltip(Lnet/minecraft/client/gui/components/Tooltip;)Lnet/minecraft/client/gui/components/Checkbox$Builder;", cancellable = true)
     private void tooltip__1092111943(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1092111943L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "onValueChange(Lnet/minecraft/client/gui/components/Checkbox$OnValueChange;)Lnet/minecraft/client/gui/components/Checkbox$Builder;", cancellable = true)
+    private void onValueChange__2098587991(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2098587991L))
             info.setReturnValue(null);
     }
 

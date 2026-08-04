@@ -25,14 +25,14 @@ public class BlendingOutput_1684975832Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "blendingOffset()D", cancellable = true)
-    private void blendingOffset_1723233272(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "alpha()D", cancellable = true)
+    private void alpha_1723233272(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1723233272L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "alpha()D", cancellable = true)
-    private void alpha_1723233272(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "blendingOffset()D", cancellable = true)
+    private void blendingOffset_1723233272(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1723233272L))
             info.setReturnValue(null);
     }

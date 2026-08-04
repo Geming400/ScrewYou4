@@ -31,16 +31,16 @@ public class Leaf_2042724590Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "leafComponent()Lnet/minecraft/client/gui/components/events/GuiEventListener;", cancellable = true)
-    private void leafComponent_2128761213(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2128761213L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "applyFocus(Z)V", cancellable = true)
     private void applyFocus__1022625878(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1022625878L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "leafComponent()Lnet/minecraft/client/gui/components/events/GuiEventListener;", cancellable = true)
+    private void leafComponent_2128761213(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2128761213L))
+            info.setReturnValue(null);
     }
 
 

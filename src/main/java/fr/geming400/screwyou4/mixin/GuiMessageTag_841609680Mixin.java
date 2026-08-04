@@ -37,33 +37,15 @@ public class GuiMessageTag_841609680Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "systemSinglePlayer()Lnet/minecraft/client/multiplayer/chat/GuiMessageTag;", cancellable = true)
-    private static void systemSinglePlayer_281102095(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "chatNotSecure()Lnet/minecraft/client/multiplayer/chat/GuiMessageTag;", cancellable = true)
+    private static void chatNotSecure_281102095(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(281102095L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "icon()Lnet/minecraft/client/multiplayer/chat/GuiMessageTag$Icon;", cancellable = true)
-    private void icon_1382319868(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1382319868L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "logTag()Ljava/lang/String;", cancellable = true)
-    private void logTag__293850792(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-293850792L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "indicatorColor()I", cancellable = true)
     private void indicatorColor_879871925(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(879871925L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "chatNotSecure()Lnet/minecraft/client/multiplayer/chat/GuiMessageTag;", cancellable = true)
-    private static void chatNotSecure_281102095(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(281102095L))
             info.setReturnValue(null);
     }
 
@@ -76,6 +58,24 @@ public class GuiMessageTag_841609680Mixin {
     @Inject(at = @At("HEAD"), method = "chatError()Lnet/minecraft/client/multiplayer/chat/GuiMessageTag;", cancellable = true)
     private static void chatError_281102095(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(281102095L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "icon()Lnet/minecraft/client/multiplayer/chat/GuiMessageTag$Icon;", cancellable = true)
+    private void icon_1382319868(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1382319868L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "systemSinglePlayer()Lnet/minecraft/client/multiplayer/chat/GuiMessageTag;", cancellable = true)
+    private static void systemSinglePlayer_281102095(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(281102095L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "logTag()Ljava/lang/String;", cancellable = true)
+    private void logTag__293850792(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-293850792L))
             info.setReturnValue(null);
     }
 

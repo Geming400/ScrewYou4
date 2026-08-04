@@ -43,15 +43,9 @@ public class TriggerInstance1282161647Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "changedDurability(Ljava/util/Optional;Lnet/minecraft/advancements/predicates/MinMaxBounds$Ints;)Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
-    private static void changedDurability_1253195560(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1253195560L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "changedDurability(Ljava/util/Optional;Ljava/util/Optional;Lnet/minecraft/advancements/predicates/MinMaxBounds$Ints;)Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
-    private static void changedDurability__1339411815(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1339411815L))
+    @Inject(at = @At("HEAD"), method = "durability()Lnet/minecraft/advancements/predicates/MinMaxBounds$Ints;", cancellable = true)
+    private void durability_1130926589(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1130926589L))
             info.setReturnValue(null);
     }
 
@@ -61,9 +55,15 @@ public class TriggerInstance1282161647Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "durability()Lnet/minecraft/advancements/predicates/MinMaxBounds$Ints;", cancellable = true)
-    private void durability_1130926589(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1130926589L))
+    @Inject(at = @At("HEAD"), method = "changedDurability(Ljava/util/Optional;Lnet/minecraft/advancements/predicates/MinMaxBounds$Ints;)Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
+    private static void changedDurability_1253195560(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1253195560L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "changedDurability(Ljava/util/Optional;Ljava/util/Optional;Lnet/minecraft/advancements/predicates/MinMaxBounds$Ints;)Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
+    private static void changedDurability__1339411815(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1339411815L))
             info.setReturnValue(null);
     }
 

@@ -43,14 +43,14 @@ public class ServerboundSelectBundleItemPacket_1949656362Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "selectedItemIndex()I", cancellable = true)
-    private void selectedItemIndex_1987918607(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "slotId()I", cancellable = true)
+    private void slotId_1987918607(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1987918607L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "slotId()I", cancellable = true)
-    private void slotId_1987918607(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "selectedItemIndex()I", cancellable = true)
+    private void selectedItemIndex_1987918607(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1987918607L))
             info.setReturnValue(null);
     }

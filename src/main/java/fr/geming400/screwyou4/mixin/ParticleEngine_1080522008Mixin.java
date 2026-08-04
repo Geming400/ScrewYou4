@@ -43,12 +43,6 @@ public class ParticleEngine_1080522008Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "countParticles()Ljava/lang/String;", cancellable = true)
-    private void countParticles__54938464(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-54938464L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "createParticle(Lnet/minecraft/core/particles/ParticleOptions;DDDDDD)Lnet/minecraft/client/particle/Particle;", cancellable = true)
     private void createParticle__421985903(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-421985903L))
@@ -65,6 +59,12 @@ public class ParticleEngine_1080522008Mixin {
     private void createTrackingEmitter__2065765896(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-2065765896L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "countParticles()Ljava/lang/String;", cancellable = true)
+    private void countParticles__54938464(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-54938464L))
+            info.setReturnValue(null);
     }
 
 

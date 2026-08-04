@@ -61,15 +61,15 @@ public class ClientboundTeleportEntityPacket_69195989Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "teleport(ILnet/minecraft/world/entity/PositionMoveRotation;Ljava/util/Set;Z)Lnet/minecraft/network/protocol/game/ClientboundTeleportEntityPacket;", cancellable = true)
-    private static void teleport__2005165374(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2005165374L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "relatives()Ljava/util/Set;", cancellable = true)
     private void relatives__1759839498(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1759839498L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "teleport(ILnet/minecraft/world/entity/PositionMoveRotation;Ljava/util/Set;Z)Lnet/minecraft/network/protocol/game/ClientboundTeleportEntityPacket;", cancellable = true)
+    private static void teleport__2005165374(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2005165374L))
             info.setReturnValue(null);
     }
 

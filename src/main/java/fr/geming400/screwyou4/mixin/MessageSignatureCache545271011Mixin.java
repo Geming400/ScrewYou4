@@ -19,15 +19,15 @@ public class MessageSignatureCache545271011Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "createDefault()Lnet/minecraft/network/chat/MessageSignatureCache;", cancellable = true)
-    private static void createDefault__993219878(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-993219878L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "unpack(I)Lnet/minecraft/network/chat/MessageSignature;", cancellable = true)
     private void unpack__1986943187(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1986943187L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "createDefault()Lnet/minecraft/network/chat/MessageSignatureCache;", cancellable = true)
+    private static void createDefault__993219878(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-993219878L))
             info.setReturnValue(null);
     }
 

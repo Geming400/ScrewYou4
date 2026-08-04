@@ -13,16 +13,22 @@ public class ReloadableServerResources_1198636063Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "getAdvancements()Lnet/minecraft/server/ServerAdvancementManager;", cancellable = true)
+    private void getAdvancements_1409646618(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1409646618L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "getCommands()Lnet/minecraft/commands/Commands;", cancellable = true)
     private void getCommands__484763673(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-484763673L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getAdvancements()Lnet/minecraft/server/ServerAdvancementManager;", cancellable = true)
-    private void getAdvancements_1409646618(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1409646618L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "updateComponentsAndStaticRegistryTags()V", cancellable = true)
+    private void updateComponentsAndStaticRegistryTags_1236910801(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1236910801L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "getRecipeManager()Lnet/minecraft/world/item/crafting/RecipeManager;", cancellable = true)
@@ -47,12 +53,6 @@ public class ReloadableServerResources_1198636063Mixin {
     private static void loadResources__1385571300(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1385571300L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "updateComponentsAndStaticRegistryTags()V", cancellable = true)
-    private void updateComponentsAndStaticRegistryTags_1236910801(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1236910801L))
-            info.cancel();
     }
 
 

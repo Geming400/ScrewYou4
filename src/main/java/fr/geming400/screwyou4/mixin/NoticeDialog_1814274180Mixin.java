@@ -37,12 +37,6 @@ public class NoticeDialog_1814274180Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "mainActions()Ljava/util/List;", cancellable = true)
-    private void mainActions__854356301(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-854356301L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
     private void codec__744839393(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-744839393L))
@@ -52,6 +46,12 @@ public class NoticeDialog_1814274180Mixin {
     @Inject(at = @At("HEAD"), method = "onCancel()Ljava/util/Optional;", cancellable = true)
     private void onCancel_2059735601(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2059735601L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "mainActions()Ljava/util/List;", cancellable = true)
+    private void mainActions__854356301(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-854356301L))
             info.setReturnValue(null);
     }
 

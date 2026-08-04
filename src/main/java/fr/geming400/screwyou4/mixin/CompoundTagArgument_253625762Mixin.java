@@ -19,9 +19,9 @@ public class CompoundTagArgument_253625762Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getExamples()Ljava/util/Collection;", cancellable = true)
-    private void getExamples__1560022511(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1560022511L))
+    @Inject(at = @At("HEAD"), method = "getCompoundTag(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/nbt/CompoundTag;", cancellable = true)
+    private static void getCompoundTag__1513933035(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1513933035L))
             info.setReturnValue(null);
     }
 
@@ -31,9 +31,9 @@ public class CompoundTagArgument_253625762Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getCompoundTag(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/nbt/CompoundTag;", cancellable = true)
-    private static void getCompoundTag__1513933035(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1513933035L))
+    @Inject(at = @At("HEAD"), method = "getExamples()Ljava/util/Collection;", cancellable = true)
+    private void getExamples__1560022511(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1560022511L))
             info.setReturnValue(null);
     }
 

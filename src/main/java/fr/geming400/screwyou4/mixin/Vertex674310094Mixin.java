@@ -61,12 +61,6 @@ public class Vertex674310094Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "worldY()F", cancellable = true)
-    private void worldY_712569457(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(712569457L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "worldZ()F", cancellable = true)
     private void worldZ_712569457(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(712569457L))
@@ -75,6 +69,12 @@ public class Vertex674310094Mixin {
 
     @Inject(at = @At("HEAD"), method = "worldX()F", cancellable = true)
     private void worldX_712569457(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(712569457L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "worldY()F", cancellable = true)
+    private void worldY_712569457(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(712569457L))
             info.setReturnValue(null);
     }

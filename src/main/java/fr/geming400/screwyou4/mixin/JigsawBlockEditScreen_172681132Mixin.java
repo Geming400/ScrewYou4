@@ -19,9 +19,9 @@ public class JigsawBlockEditScreen_172681132Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "isValidIdentifier(Ljava/lang/String;)Z", cancellable = true)
-    private static void isValidIdentifier_1325046372(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1325046372L))
+    @Inject(at = @At("HEAD"), method = "keyPressed(Lnet/minecraft/client/input/KeyEvent;)Z", cancellable = true)
+    private void keyPressed__743954583(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-743954583L))
             info.setReturnValue(null);
     }
 
@@ -37,9 +37,9 @@ public class JigsawBlockEditScreen_172681132Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "keyPressed(Lnet/minecraft/client/input/KeyEvent;)Z", cancellable = true)
-    private void keyPressed__743954583(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-743954583L))
+    @Inject(at = @At("HEAD"), method = "isValidIdentifier(Ljava/lang/String;)Z", cancellable = true)
+    private static void isValidIdentifier_1325046372(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1325046372L))
             info.setReturnValue(null);
     }
 

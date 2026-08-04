@@ -31,15 +31,15 @@ public class TeamColor682277960Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "displaySlot()Lnet/minecraft/world/scores/DisplaySlot;", cancellable = true)
-    private void displaySlot__1644078573(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1644078573L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "rgb()I", cancellable = true)
     private void rgb_720540206(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(720540206L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "displaySlot()Lnet/minecraft/world/scores/DisplaySlot;", cancellable = true)
+    private void displaySlot__1644078573(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1644078573L))
             info.setReturnValue(null);
     }
 

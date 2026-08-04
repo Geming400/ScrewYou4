@@ -31,9 +31,9 @@ public class MusicToastDisplayState_311786731Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "renderToast()Z", cancellable = true)
-    private void renderToast_350065313(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(350065313L))
+    @Inject(at = @At("HEAD"), method = "tooltip()Lnet/minecraft/network/chat/Component;", cancellable = true)
+    private void tooltip__1865122435(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1865122435L))
             info.setReturnValue(null);
     }
 
@@ -43,9 +43,9 @@ public class MusicToastDisplayState_311786731Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "tooltip()Lnet/minecraft/network/chat/Component;", cancellable = true)
-    private void tooltip__1865122435(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1865122435L))
+    @Inject(at = @At("HEAD"), method = "renderToast()Z", cancellable = true)
+    private void renderToast_350065313(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(350065313L))
             info.setReturnValue(null);
     }
 

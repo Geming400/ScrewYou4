@@ -37,9 +37,45 @@ public class Equippable_989315626Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "canBeSheared()Z", cancellable = true)
+    private void canBeSheared_1027594208(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1027594208L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "shearingSound()Lnet/minecraft/core/Holder;", cancellable = true)
+    private void shearingSound__1756775899(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1756775899L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "assetId()Ljava/util/Optional;", cancellable = true)
+    private void assetId_1234777047(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1234777047L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "cameraOverlay()Ljava/util/Optional;", cancellable = true)
     private void cameraOverlay_1234777047(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1234777047L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "harness(Lnet/minecraft/world/item/DyeColor;)Lnet/minecraft/world/item/equipment/Equippable;", cancellable = true)
+    private static void harness__1777272744(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1777272744L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "equipSound()Lnet/minecraft/core/Holder;", cancellable = true)
+    private void equipSound__1756775899(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1756775899L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "saddle()Lnet/minecraft/world/item/equipment/Equippable;", cancellable = true)
+    private static void saddle_1752278783(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1752278783L))
             info.setReturnValue(null);
     }
 
@@ -61,26 +97,26 @@ public class Equippable_989315626Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "assetId()Ljava/util/Optional;", cancellable = true)
-    private void assetId_1234777047(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "equipOnTarget(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/world/InteractionResult;", cancellable = true)
+    private void equipOnTarget_615568745(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(615568745L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "equipOnInteract()Z", cancellable = true)
+    private void equipOnInteract_1027594208(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1027594208L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "allowedEntities()Ljava/util/Optional;", cancellable = true)
+    private void allowedEntities_1234777047(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1234777047L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "saddle()Lnet/minecraft/world/item/equipment/Equippable;", cancellable = true)
-    private static void saddle_1752278783(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1752278783L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "equipSound()Lnet/minecraft/core/Holder;", cancellable = true)
-    private void equipSound__1756775899(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1756775899L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "harness(Lnet/minecraft/world/item/DyeColor;)Lnet/minecraft/world/item/equipment/Equippable;", cancellable = true)
-    private static void harness__1777272744(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "llamaSwag(Lnet/minecraft/world/item/DyeColor;)Lnet/minecraft/world/item/equipment/Equippable;", cancellable = true)
+    private static void llamaSwag__1777272744(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1777272744L))
             info.setReturnValue(null);
     }
@@ -94,42 +130,6 @@ public class Equippable_989315626Mixin {
     @Inject(at = @At("HEAD"), method = "swapWithEquipmentSlot(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/player/Player;)Lnet/minecraft/world/InteractionResult;", cancellable = true)
     private void swapWithEquipmentSlot__1791699697(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1791699697L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "equipOnInteract()Z", cancellable = true)
-    private void equipOnInteract_1027594208(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1027594208L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "equipOnTarget(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/world/InteractionResult;", cancellable = true)
-    private void equipOnTarget_615568745(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(615568745L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "llamaSwag(Lnet/minecraft/world/item/DyeColor;)Lnet/minecraft/world/item/equipment/Equippable;", cancellable = true)
-    private static void llamaSwag__1777272744(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1777272744L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "shearingSound()Lnet/minecraft/core/Holder;", cancellable = true)
-    private void shearingSound__1756775899(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1756775899L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "canBeSheared()Z", cancellable = true)
-    private void canBeSheared_1027594208(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1027594208L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "allowedEntities()Ljava/util/Optional;", cancellable = true)
-    private void allowedEntities_1234777047(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1234777047L))
             info.setReturnValue(null);
     }
 

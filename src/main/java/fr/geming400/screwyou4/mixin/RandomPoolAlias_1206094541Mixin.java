@@ -37,12 +37,6 @@ public class RandomPoolAlias_1206094541Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "forEachResolved(Lnet/minecraft/util/RandomSource;Ljava/util/function/BiConsumer;)V", cancellable = true)
-    private void forEachResolved_379110722(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(379110722L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
     private void codec__1353019032(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1353019032L))
@@ -53,6 +47,12 @@ public class RandomPoolAlias_1206094541Mixin {
     private void allTargets_995388225(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(995388225L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "forEachResolved(Lnet/minecraft/util/RandomSource;Ljava/util/function/BiConsumer;)V", cancellable = true)
+    private void forEachResolved_379110722(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(379110722L))
+            info.cancel();
     }
 
 

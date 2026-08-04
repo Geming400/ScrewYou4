@@ -37,15 +37,15 @@ public class Lookup_2005453298Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "calculate(I)F", cancellable = true)
-    private void calculate__1075612403(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1075612403L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
     private void codec__553660275(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-553660275L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "calculate(I)F", cancellable = true)
+    private void calculate__1075612403(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1075612403L))
             info.setReturnValue(null);
     }
 

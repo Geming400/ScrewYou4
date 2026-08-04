@@ -19,16 +19,16 @@ public class TestBlockEditScreen_1620775805Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "isPauseScreen()Z", cancellable = true)
-    private void isPauseScreen_1659054387(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1659054387L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIF)V", cancellable = true)
     private void extractRenderState_661088432(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(661088432L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "isPauseScreen()Z", cancellable = true)
+    private void isPauseScreen_1659054387(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1659054387L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "isInGameUi()Z", cancellable = true)

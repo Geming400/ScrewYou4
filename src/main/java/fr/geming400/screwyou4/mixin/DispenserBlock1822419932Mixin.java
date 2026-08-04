@@ -13,15 +13,15 @@ public class DispenserBlock1822419932Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "registerProjectileBehavior(Lnet/minecraft/world/level/ItemLike;)V", cancellable = true)
-    private static void registerProjectileBehavior__1124882768(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1124882768L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "registerBehavior(Lnet/minecraft/world/level/ItemLike;Lnet/minecraft/core/dispenser/DispenseItemBehavior;)V", cancellable = true)
     private static void registerBehavior__69406307(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-69406307L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "registerProjectileBehavior(Lnet/minecraft/world/level/ItemLike;)V", cancellable = true)
+    private static void registerProjectileBehavior__1124882768(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1124882768L))
             info.cancel();
     }
 

@@ -13,12 +13,6 @@ public class TransientEntitySectionManager_148278809Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getEntityGetter()Lnet/minecraft/world/level/entity/LevelEntityGetter;", cancellable = true)
-    private void getEntityGetter__852967164(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-852967164L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "gatherStats()Ljava/lang/String;", cancellable = true)
     private void gatherStats__987181663(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-987181663L))
@@ -35,6 +29,12 @@ public class TransientEntitySectionManager_148278809Mixin {
     private void startTicking_1663161015(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1663161015L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getEntityGetter()Lnet/minecraft/world/level/entity/LevelEntityGetter;", cancellable = true)
+    private void getEntityGetter__852967164(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-852967164L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "addEntity(Lnet/minecraft/world/level/entity/EntityAccess;)V", cancellable = true)

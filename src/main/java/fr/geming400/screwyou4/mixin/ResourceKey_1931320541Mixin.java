@@ -49,12 +49,6 @@ public class ResourceKey_1931320541Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "registryKey()Lnet/minecraft/resources/ResourceKey;", cancellable = true)
-    private void registryKey__1555155443(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1555155443L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "codec(Lnet/minecraft/resources/ResourceKey;)Lcom/mojang/serialization/Codec;", cancellable = true)
     private static void codec_331844886(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(331844886L))
@@ -64,6 +58,12 @@ public class ResourceKey_1931320541Mixin {
     @Inject(at = @At("HEAD"), method = "isFor(Lnet/minecraft/resources/ResourceKey;)Z", cancellable = true)
     private void isFor_2118993687(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2118993687L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "registryKey()Lnet/minecraft/resources/ResourceKey;", cancellable = true)
+    private void registryKey__1555155443(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1555155443L))
             info.setReturnValue(null);
     }
 

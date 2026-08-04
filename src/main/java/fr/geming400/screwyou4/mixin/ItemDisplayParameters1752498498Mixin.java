@@ -31,12 +31,6 @@ public class ItemDisplayParameters1752498498Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "enabledFeatures()Lnet/minecraft/world/flag/FeatureFlagSet;", cancellable = true)
-    private void enabledFeatures__1877648300(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1877648300L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "holders()Lnet/minecraft/core/HolderLookup$Provider;", cancellable = true)
     private void holders_1439291165(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1439291165L))
@@ -46,6 +40,12 @@ public class ItemDisplayParameters1752498498Mixin {
     @Inject(at = @At("HEAD"), method = "needsUpdate(Lnet/minecraft/world/flag/FeatureFlagSet;ZLnet/minecraft/core/HolderLookup$Provider;)Z", cancellable = true)
     private void needsUpdate__244012902(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-244012902L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "enabledFeatures()Lnet/minecraft/world/flag/FeatureFlagSet;", cancellable = true)
+    private void enabledFeatures__1877648300(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1877648300L))
             info.setReturnValue(null);
     }
 

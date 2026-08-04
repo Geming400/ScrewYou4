@@ -43,9 +43,9 @@ public class Packed1188844904Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "players()Ljava/util/List;", cancellable = true)
-    private void players__1479785576(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1479785576L))
+    @Inject(at = @At("HEAD"), method = "collisionRule()Lnet/minecraft/world/scores/Team$CollisionRule;", cancellable = true)
+    private void collisionRule_911763688(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(911763688L))
             info.setReturnValue(null);
     }
 
@@ -55,14 +55,14 @@ public class Packed1188844904Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "collisionRule()Lnet/minecraft/world/scores/Team$CollisionRule;", cancellable = true)
-    private void collisionRule_911763688(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(911763688L))
+    @Inject(at = @At("HEAD"), method = "players()Ljava/util/List;", cancellable = true)
+    private void players__1479785576(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1479785576L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "memberNamePrefix()Lnet/minecraft/network/chat/Component;", cancellable = true)
-    private void memberNamePrefix__988064261(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "memberNameSuffix()Lnet/minecraft/network/chat/Component;", cancellable = true)
+    private void memberNameSuffix__988064261(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-988064261L))
             info.setReturnValue(null);
     }
@@ -73,20 +73,20 @@ public class Packed1188844904Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "allowFriendlyFire()Z", cancellable = true)
-    private void allowFriendlyFire_1227123487(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1227123487L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "seeFriendlyInvisibles()Z", cancellable = true)
     private void seeFriendlyInvisibles_1227123487(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1227123487L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "memberNameSuffix()Lnet/minecraft/network/chat/Component;", cancellable = true)
-    private void memberNameSuffix__988064261(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "allowFriendlyFire()Z", cancellable = true)
+    private void allowFriendlyFire_1227123487(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1227123487L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "memberNamePrefix()Lnet/minecraft/network/chat/Component;", cancellable = true)
+    private void memberNamePrefix__988064261(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-988064261L))
             info.setReturnValue(null);
     }

@@ -55,12 +55,6 @@ public class ComponentUtils_1235954290Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "wrapInSquareBrackets(Lnet/minecraft/network/chat/Component;)Lnet/minecraft/network/chat/MutableComponent;", cancellable = true)
-    private static void wrapInSquareBrackets__1315967992(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1315967992L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "mergeStyles(Lnet/minecraft/network/chat/Component;Lnet/minecraft/network/chat/Style;)Lnet/minecraft/network/chat/Component;", cancellable = true)
     private static void mergeStyles__1818797944(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1818797944L))
@@ -73,9 +67,15 @@ public class ComponentUtils_1235954290Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "fromMessage(Lcom/mojang/brigadier/Message;)Lnet/minecraft/network/chat/Component;", cancellable = true)
-    private static void fromMessage__1475631429(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1475631429L))
+    @Inject(at = @At("HEAD"), method = "wrapInSquareBrackets(Lnet/minecraft/network/chat/Component;)Lnet/minecraft/network/chat/MutableComponent;", cancellable = true)
+    private static void wrapInSquareBrackets__1315967992(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1315967992L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "copyOnClickText(Ljava/lang/String;)Lnet/minecraft/network/chat/MutableComponent;", cancellable = true)
+    private static void copyOnClickText_1054418430(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1054418430L))
             info.setReturnValue(null);
     }
 
@@ -85,9 +85,9 @@ public class ComponentUtils_1235954290Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "copyOnClickText(Ljava/lang/String;)Lnet/minecraft/network/chat/MutableComponent;", cancellable = true)
-    private static void copyOnClickText_1054418430(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1054418430L))
+    @Inject(at = @At("HEAD"), method = "fromMessage(Lcom/mojang/brigadier/Message;)Lnet/minecraft/network/chat/Component;", cancellable = true)
+    private static void fromMessage__1475631429(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1475631429L))
             info.setReturnValue(null);
     }
 

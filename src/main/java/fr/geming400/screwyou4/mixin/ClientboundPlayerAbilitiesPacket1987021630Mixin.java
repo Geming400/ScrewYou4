@@ -25,26 +25,8 @@ public class ClientboundPlayerAbilitiesPacket1987021630Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "isInvulnerable()Z", cancellable = true)
-    private void isInvulnerable_2025300213(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2025300213L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getFlyingSpeed()F", cancellable = true)
-    private void getFlyingSpeed_2025280993(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2025280993L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "isFlying()Z", cancellable = true)
     private void isFlying_2025300213(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2025300213L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "canInstabuild()Z", cancellable = true)
-    private void canInstabuild_2025300213(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2025300213L))
             info.setReturnValue(null);
     }
@@ -55,8 +37,26 @@ public class ClientboundPlayerAbilitiesPacket1987021630Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "canInstabuild()Z", cancellable = true)
+    private void canInstabuild_2025300213(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2025300213L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "canFly()Z", cancellable = true)
     private void canFly_2025300213(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2025300213L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getFlyingSpeed()F", cancellable = true)
+    private void getFlyingSpeed_2025280993(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2025280993L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isInvulnerable()Z", cancellable = true)
+    private void isInvulnerable_2025300213(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2025300213L))
             info.setReturnValue(null);
     }

@@ -25,15 +25,15 @@ public class Connection_1041426876Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "channelActive(Lio/netty/channel/ChannelHandlerContext;)V", cancellable = true)
-    private void channelActive__1656926921(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1656926921L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "exceptionCaught(Lio/netty/channel/ChannelHandlerContext;Ljava/lang/Throwable;)V", cancellable = true)
     private void exceptionCaught__989584208(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-989584208L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "channelActive(Lio/netty/channel/ChannelHandlerContext;)V", cancellable = true)
+    private void channelActive__1656926921(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1656926921L))
             info.cancel();
     }
 
@@ -43,9 +43,9 @@ public class Connection_1041426876Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "dispatchIncomingRequest(Ljava/lang/String;Lcom/google/gson/JsonElement;)Lcom/google/gson/JsonElement;", cancellable = true)
-    private void dispatchIncomingRequest_1920892444(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1920892444L))
+    @Inject(at = @At("HEAD"), method = "sendRequest(Lnet/minecraft/core/Holder$Reference;Ljava/lang/Object;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
+    private void sendRequest_1098184724(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1098184724L))
             info.setReturnValue(null);
     }
 
@@ -55,9 +55,9 @@ public class Connection_1041426876Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "sendRequest(Lnet/minecraft/core/Holder$Reference;Ljava/lang/Object;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
-    private void sendRequest_1098184724(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1098184724L))
+    @Inject(at = @At("HEAD"), method = "dispatchIncomingRequest(Ljava/lang/String;Lcom/google/gson/JsonElement;)Lcom/google/gson/JsonElement;", cancellable = true)
+    private void dispatchIncomingRequest_1920892444(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1920892444L))
             info.setReturnValue(null);
     }
 

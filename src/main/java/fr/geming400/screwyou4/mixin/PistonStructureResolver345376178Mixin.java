@@ -13,8 +13,8 @@ public class PistonStructureResolver345376178Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getToPush()Ljava/util/List;", cancellable = true)
-    private void getToPush_1971712994(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "getToDestroy()Ljava/util/List;", cancellable = true)
+    private void getToDestroy_1971712994(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1971712994L))
             info.setReturnValue(null);
     }
@@ -25,8 +25,8 @@ public class PistonStructureResolver345376178Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getToDestroy()Ljava/util/List;", cancellable = true)
-    private void getToDestroy_1971712994(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "getToPush()Ljava/util/List;", cancellable = true)
+    private void getToPush_1971712994(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1971712994L))
             info.setReturnValue(null);
     }

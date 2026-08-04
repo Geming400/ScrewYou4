@@ -37,14 +37,8 @@ public class TriggerInstance_284184044Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "curedZombieVillager()Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
-    private static void curedZombieVillager_1557935442(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1557935442L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "player()Ljava/util/Optional;", cancellable = true)
-    private void player_529645465(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "villager()Ljava/util/Optional;", cancellable = true)
+    private void villager_529645465(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(529645465L))
             info.setReturnValue(null);
     }
@@ -55,9 +49,15 @@ public class TriggerInstance_284184044Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "villager()Ljava/util/Optional;", cancellable = true)
-    private void villager_529645465(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "player()Ljava/util/Optional;", cancellable = true)
+    private void player_529645465(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(529645465L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "curedZombieVillager()Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
+    private static void curedZombieVillager_1557935442(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1557935442L))
             info.setReturnValue(null);
     }
 

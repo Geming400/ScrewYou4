@@ -7,9 +7,9 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.world.entity.ai.attributes.RangedAttribute.class)
 public class RangedAttribute_838148057Mixin {
-        @Inject(at = @At("HEAD"), method = "sanitizeValue(D)D", cancellable = true)
-    private void sanitizeValue_2047430125(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2047430125L))
+        @Inject(at = @At("HEAD"), method = "getMinValue()D", cancellable = true)
+    private void getMinValue_876405497(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(876405497L))
             info.setReturnValue(null);
     }
 
@@ -19,9 +19,9 @@ public class RangedAttribute_838148057Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getMinValue()D", cancellable = true)
-    private void getMinValue_876405497(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(876405497L))
+    @Inject(at = @At("HEAD"), method = "sanitizeValue(D)D", cancellable = true)
+    private void sanitizeValue_2047430125(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2047430125L))
             info.setReturnValue(null);
     }
 

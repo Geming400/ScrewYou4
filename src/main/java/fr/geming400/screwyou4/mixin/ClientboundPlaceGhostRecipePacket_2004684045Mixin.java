@@ -43,15 +43,15 @@ public class ClientboundPlaceGhostRecipePacket_2004684045Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "containerId()I", cancellable = true)
-    private void containerId_2042946290(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2042946290L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "recipeDisplay()Lnet/minecraft/world/item/crafting/display/RecipeDisplay;", cancellable = true)
     private void recipeDisplay_575736651(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(575736651L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "containerId()I", cancellable = true)
+    private void containerId_2042946290(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2042946290L))
             info.setReturnValue(null);
     }
 

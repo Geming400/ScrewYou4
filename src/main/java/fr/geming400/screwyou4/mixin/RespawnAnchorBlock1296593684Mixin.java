@@ -7,9 +7,9 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.world.level.block.RespawnAnchorBlock.class)
 public class RespawnAnchorBlock1296593684Mixin {
-        @Inject(at = @At("HEAD"), method = "findStandUpPosition(Lnet/minecraft/world/entity/EntityType;Lnet/minecraft/world/level/CollisionGetter;Lnet/minecraft/core/BlockPos;)Ljava/util/Optional;", cancellable = true)
-    private static void findStandUpPosition__70713219(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-70713219L))
+        @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
+    private void codec__1262519888(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1262519888L))
             info.setReturnValue(null);
     }
 
@@ -19,9 +19,15 @@ public class RespawnAnchorBlock1296593684Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
-    private void codec__1262519888(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1262519888L))
+    @Inject(at = @At("HEAD"), method = "findStandUpPosition(Lnet/minecraft/world/entity/EntityType;Lnet/minecraft/world/level/CollisionGetter;Lnet/minecraft/core/BlockPos;)Ljava/util/Optional;", cancellable = true)
+    private static void findStandUpPosition__70713219(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-70713219L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getScaledChargeLevel(Lnet/minecraft/world/level/block/state/BlockState;I)I", cancellable = true)
+    private static void getScaledChargeLevel_1114871068(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1114871068L))
             info.setReturnValue(null);
     }
 
@@ -35,12 +41,6 @@ public class RespawnAnchorBlock1296593684Mixin {
     private static void charge_988392140(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(988392140L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "getScaledChargeLevel(Lnet/minecraft/world/level/block/state/BlockState;I)I", cancellable = true)
-    private static void getScaledChargeLevel_1114871068(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1114871068L))
-            info.setReturnValue(null);
     }
 
 

@@ -79,8 +79,8 @@ public class BlockBox509741018Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "sizeX()I", cancellable = true)
-    private void sizeX_548003264(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "sizeZ()I", cancellable = true)
+    private void sizeZ_548003264(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(548003264L))
             info.setReturnValue(null);
     }
@@ -91,9 +91,9 @@ public class BlockBox509741018Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "extend(Lnet/minecraft/core/Direction;I)Lnet/minecraft/core/BlockBox;", cancellable = true)
-    private void extend_69965041(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(69965041L))
+    @Inject(at = @At("HEAD"), method = "sizeX()I", cancellable = true)
+    private void sizeX_548003264(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(548003264L))
             info.setReturnValue(null);
     }
 
@@ -103,9 +103,9 @@ public class BlockBox509741018Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "sizeZ()I", cancellable = true)
-    private void sizeZ_548003264(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(548003264L))
+    @Inject(at = @At("HEAD"), method = "extend(Lnet/minecraft/core/Direction;I)Lnet/minecraft/core/BlockBox;", cancellable = true)
+    private void extend_69965041(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(69965041L))
             info.setReturnValue(null);
     }
 

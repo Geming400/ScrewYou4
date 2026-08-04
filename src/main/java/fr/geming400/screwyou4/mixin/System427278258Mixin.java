@@ -43,15 +43,15 @@ public class System427278258Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "canReport(Ljava/util/UUID;)Z", cancellable = true)
-    private void canReport_69726013(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(69726013L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "timeStamp()Ljava/time/Instant;", cancellable = true)
     private void timeStamp_1524512458(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1524512458L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "canReport(Ljava/util/UUID;)Z", cancellable = true)
+    private void canReport_69726013(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(69726013L))
             info.setReturnValue(null);
     }
 

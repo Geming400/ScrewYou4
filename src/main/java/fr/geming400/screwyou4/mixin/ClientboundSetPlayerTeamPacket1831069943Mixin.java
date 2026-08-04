@@ -37,18 +37,6 @@ public class ClientboundSetPlayerTeamPacket1831069943Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "createRemovePacket(Lnet/minecraft/world/scores/PlayerTeam;)Lnet/minecraft/network/protocol/game/ClientboundSetPlayerTeamPacket;", cancellable = true)
-    private static void createRemovePacket_1586155121(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1586155121L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "createPlayerPacket(Lnet/minecraft/world/scores/PlayerTeam;Ljava/lang/String;Lnet/minecraft/network/protocol/game/ClientboundSetPlayerTeamPacket$Action;)Lnet/minecraft/network/protocol/game/ClientboundSetPlayerTeamPacket;", cancellable = true)
-    private static void createPlayerPacket__210943258(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-210943258L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getTeamAction()Lnet/minecraft/network/protocol/game/ClientboundSetPlayerTeamPacket$Action;", cancellable = true)
     private void getTeamAction_1199841809(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1199841809L))
@@ -64,6 +52,18 @@ public class ClientboundSetPlayerTeamPacket1831069943Mixin {
     @Inject(at = @At("HEAD"), method = "getPlayers()Ljava/util/Collection;", cancellable = true)
     private void getPlayers_17421671(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(17421671L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "createRemovePacket(Lnet/minecraft/world/scores/PlayerTeam;)Lnet/minecraft/network/protocol/game/ClientboundSetPlayerTeamPacket;", cancellable = true)
+    private static void createRemovePacket_1586155121(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1586155121L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "createPlayerPacket(Lnet/minecraft/world/scores/PlayerTeam;Ljava/lang/String;Lnet/minecraft/network/protocol/game/ClientboundSetPlayerTeamPacket$Action;)Lnet/minecraft/network/protocol/game/ClientboundSetPlayerTeamPacket;", cancellable = true)
+    private static void createPlayerPacket__210943258(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-210943258L))
             info.setReturnValue(null);
     }
 

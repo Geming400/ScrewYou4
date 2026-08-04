@@ -25,16 +25,16 @@ public class Mutable_132757580Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "toggleSelectedItem(I)V", cancellable = true)
-    private void toggleSelectedItem_1346674551(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1346674551L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "tryInsert(Lnet/minecraft/world/item/ItemStack;)I", cancellable = true)
     private void tryInsert_1867276374(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1867276374L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "toggleSelectedItem(I)V", cancellable = true)
+    private void toggleSelectedItem_1346674551(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1346674551L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "removeOne()Lnet/minecraft/world/item/ItemStack;", cancellable = true)

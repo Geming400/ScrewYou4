@@ -43,15 +43,15 @@ public class ClientboundDebugSamplePacket_1855416252Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "sample()[J", cancellable = true)
-    private void sample__1253708727(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1253708727L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "debugSampleType()Lnet/minecraft/util/debugchart/RemoteDebugSampleType;", cancellable = true)
     private void debugSampleType__1678458823(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1678458823L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "sample()[J", cancellable = true)
+    private void sample__1253708727(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1253708727L))
             info.setReturnValue(null);
     }
 

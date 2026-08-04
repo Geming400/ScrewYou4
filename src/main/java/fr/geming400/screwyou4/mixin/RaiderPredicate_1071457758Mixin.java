@@ -31,14 +31,14 @@ public class RaiderPredicate_1071457758Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "hasRaid()Z", cancellable = true)
-    private void hasRaid_1109736340(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "isCaptain()Z", cancellable = true)
+    private void isCaptain_1109736340(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1109736340L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "isCaptain()Z", cancellable = true)
-    private void isCaptain_1109736340(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "hasRaid()Z", cancellable = true)
+    private void hasRaid_1109736340(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1109736340L))
             info.setReturnValue(null);
     }

@@ -25,6 +25,24 @@ public class WorldSelectionList731448764Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "setSelected(Lnet/minecraft/client/gui/components/AbstractSelectionList$Entry;)V", cancellable = true)
+    private void setSelected__1706041499(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1706041499L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "setSelected(Lnet/minecraft/client/gui/screens/worldselection/WorldSelectionList$Entry;)V", cancellable = true)
+    private void setSelected_1388149679(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1388149679L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getScreen()Lnet/minecraft/client/gui/screens/Screen;", cancellable = true)
+    private void getScreen__1718301304(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1718301304L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "reloadWorldList()V", cancellable = true)
     private void reloadWorldList_769723503(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(769723503L))
@@ -37,15 +55,9 @@ public class WorldSelectionList731448764Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "setSelected(Lnet/minecraft/client/gui/screens/worldselection/WorldSelectionList$Entry;)V", cancellable = true)
-    private void setSelected_1388149679(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1388149679L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "setSelected(Lnet/minecraft/client/gui/components/AbstractSelectionList$Entry;)V", cancellable = true)
-    private void setSelected__1706041499(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1706041499L))
+    @Inject(at = @At("HEAD"), method = "extractWidgetRenderState(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIF)V", cancellable = true)
+    private void extractWidgetRenderState__228238608(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-228238608L))
             info.cancel();
     }
 
@@ -53,18 +65,6 @@ public class WorldSelectionList731448764Mixin {
     private void updateWidgetNarration_1993108250(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1993108250L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "extractWidgetRenderState(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIF)V", cancellable = true)
-    private void extractWidgetRenderState__228238608(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-228238608L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "getScreen()Lnet/minecraft/client/gui/screens/Screen;", cancellable = true)
-    private void getScreen__1718301304(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1718301304L))
-            info.setReturnValue(null);
     }
 
 

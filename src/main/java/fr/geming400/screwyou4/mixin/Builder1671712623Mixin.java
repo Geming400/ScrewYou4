@@ -37,15 +37,15 @@ public class Builder1671712623Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "isReported(I)Z", cancellable = true)
-    private void isReported__1409333857(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1409333857L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "hasContent()Z", cancellable = true)
     private void hasContent_1709991206(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1709991206L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isReported(I)Z", cancellable = true)
+    private void isReported__1409333857(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1409333857L))
             info.setReturnValue(null);
     }
 

@@ -7,8 +7,8 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.world.entity.monster.Blaze.class)
 public class Blaze1931923764Mixin {
-        @Inject(at = @At("HEAD"), method = "isSensitiveToWater()Z", cancellable = true)
-    private void isSensitiveToWater_1970202347(CallbackInfoReturnable<Object> info) {
+        @Inject(at = @At("HEAD"), method = "isOnFire()Z", cancellable = true)
+    private void isOnFire_1970202347(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1970202347L))
             info.setReturnValue(null);
     }
@@ -19,9 +19,9 @@ public class Blaze1931923764Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "isOnFire()Z", cancellable = true)
-    private void isOnFire_1970202347(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1970202347L))
+    @Inject(at = @At("HEAD"), method = "createAttributes()Lnet/minecraft/world/entity/ai/attributes/AttributeSupplier$Builder;", cancellable = true)
+    private static void createAttributes_1231705319(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1231705319L))
             info.setReturnValue(null);
     }
 
@@ -31,9 +31,9 @@ public class Blaze1931923764Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "createAttributes()Lnet/minecraft/world/entity/ai/attributes/AttributeSupplier$Builder;", cancellable = true)
-    private static void createAttributes_1231705319(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1231705319L))
+    @Inject(at = @At("HEAD"), method = "isSensitiveToWater()Z", cancellable = true)
+    private void isSensitiveToWater_1970202347(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1970202347L))
             info.setReturnValue(null);
     }
 

@@ -13,9 +13,9 @@ public class BlockColors1672808527Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "createDefault()Lnet/minecraft/client/color/block/BlockColors;", cancellable = true)
-    private static void createDefault_1587486582(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1587486582L))
+    @Inject(at = @At("HEAD"), method = "getTintSource(Lnet/minecraft/world/level/block/state/BlockState;I)Lnet/minecraft/client/color/block/BlockTintSource;", cancellable = true)
+    private void getTintSource_1709832782(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1709832782L))
             info.setReturnValue(null);
     }
 
@@ -31,9 +31,9 @@ public class BlockColors1672808527Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getTintSource(Lnet/minecraft/world/level/block/state/BlockState;I)Lnet/minecraft/client/color/block/BlockTintSource;", cancellable = true)
-    private void getTintSource_1709832782(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1709832782L))
+    @Inject(at = @At("HEAD"), method = "createDefault()Lnet/minecraft/client/color/block/BlockColors;", cancellable = true)
+    private static void createDefault_1587486582(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1587486582L))
             info.setReturnValue(null);
     }
 

@@ -25,6 +25,18 @@ public class Configuration_1037434365Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "fluid()Lnet/minecraft/world/level/levelgen/feature/stateproviders/BlockStateProvider;", cancellable = true)
+    private void fluid__895272137(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-895272137L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "barrier()Lnet/minecraft/world/level/levelgen/feature/stateproviders/BlockStateProvider;", cancellable = true)
+    private void barrier__895272137(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-895272137L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "canReplaceWithBarrier()Lnet/minecraft/world/level/levelgen/blockpredicates/BlockPredicate;", cancellable = true)
     private void canReplaceWithBarrier_1070202953(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1070202953L))
@@ -40,18 +52,6 @@ public class Configuration_1037434365Mixin {
     @Inject(at = @At("HEAD"), method = "canReplaceWithAirOrFluid()Lnet/minecraft/world/level/levelgen/blockpredicates/BlockPredicate;", cancellable = true)
     private void canReplaceWithAirOrFluid_1070202953(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1070202953L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "fluid()Lnet/minecraft/world/level/levelgen/feature/stateproviders/BlockStateProvider;", cancellable = true)
-    private void fluid__895272137(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-895272137L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "barrier()Lnet/minecraft/world/level/levelgen/feature/stateproviders/BlockStateProvider;", cancellable = true)
-    private void barrier__895272137(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-895272137L))
             info.setReturnValue(null);
     }
 

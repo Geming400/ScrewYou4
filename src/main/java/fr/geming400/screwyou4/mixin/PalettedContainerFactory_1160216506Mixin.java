@@ -55,15 +55,15 @@ public class PalettedContainerFactory_1160216506Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "blockStatesContainerCodec()Lcom/mojang/serialization/Codec;", cancellable = true)
-    private void blockStatesContainerCodec_768250879(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(768250879L))
+    @Inject(at = @At("HEAD"), method = "blockStatesStrategy()Lnet/minecraft/world/level/chunk/Strategy;", cancellable = true)
+    private void blockStatesStrategy__1334614090(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1334614090L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "biomeStrategy()Lnet/minecraft/world/level/chunk/Strategy;", cancellable = true)
-    private void biomeStrategy__1334614090(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1334614090L))
+    @Inject(at = @At("HEAD"), method = "blockStatesContainerCodec()Lcom/mojang/serialization/Codec;", cancellable = true)
+    private void blockStatesContainerCodec_768250879(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(768250879L))
             info.setReturnValue(null);
     }
 
@@ -73,8 +73,8 @@ public class PalettedContainerFactory_1160216506Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "blockStatesStrategy()Lnet/minecraft/world/level/chunk/Strategy;", cancellable = true)
-    private void blockStatesStrategy__1334614090(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "biomeStrategy()Lnet/minecraft/world/level/chunk/Strategy;", cancellable = true)
+    private void biomeStrategy__1334614090(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1334614090L))
             info.setReturnValue(null);
     }

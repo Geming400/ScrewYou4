@@ -25,15 +25,15 @@ public class ClientboundAddEntityPacket513809531Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/PacketListener;)V", cancellable = true)
-    private void handle_1191878444(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1191878444L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/protocol/game/ClientGamePacketListener;)V", cancellable = true)
     private void handle_711317065(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(711317065L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/PacketListener;)V", cancellable = true)
+    private void handle_1191878444(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1191878444L))
             info.cancel();
     }
 
@@ -61,18 +61,6 @@ public class ClientboundAddEntityPacket513809531Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getYHeadRot()F", cancellable = true)
-    private void getYHeadRot_552068894(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(552068894L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getMovement()Lnet/minecraft/world/phys/Vec3;", cancellable = true)
-    private void getMovement_1611539060(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1611539060L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getUUID()Ljava/util/UUID;", cancellable = true)
     private void getUUID_924944014(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(924944014L))
@@ -88,6 +76,18 @@ public class ClientboundAddEntityPacket513809531Mixin {
     @Inject(at = @At("HEAD"), method = "getXRot()F", cancellable = true)
     private void getXRot_552068894(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(552068894L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getYHeadRot()F", cancellable = true)
+    private void getYHeadRot_552068894(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(552068894L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getMovement()Lnet/minecraft/world/phys/Vec3;", cancellable = true)
+    private void getMovement_1611539060(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1611539060L))
             info.setReturnValue(null);
     }
 

@@ -49,18 +49,6 @@ public class GameRule_1680630542Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getCommandResult(Ljava/lang/Object;)I", cancellable = true)
-    private void getCommandResult__1228841329(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1228841329L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getDescriptionId()Ljava/lang/String;", cancellable = true)
-    private void getDescriptionId_545170070(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(545170070L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "deserialize(Ljava/lang/String;)Lcom/mojang/serialization/DataResult;", cancellable = true)
     private void deserialize_1619604998(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1619604998L))
@@ -85,10 +73,10 @@ public class GameRule_1680630542Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "callVisitor(Lnet/minecraft/world/level/gamerules/GameRuleTypeVisitor;)V", cancellable = true)
-    private void callVisitor__624928233(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-624928233L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "getDescriptionId()Ljava/lang/String;", cancellable = true)
+    private void getDescriptionId_545170070(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(545170070L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "gameRuleType()Lnet/minecraft/world/level/gamerules/GameRuleType;", cancellable = true)
@@ -97,9 +85,21 @@ public class GameRule_1680630542Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "callVisitor(Lnet/minecraft/world/level/gamerules/GameRuleTypeVisitor;)V", cancellable = true)
+    private void callVisitor__624928233(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-624928233L))
+            info.cancel();
+    }
+
     @Inject(at = @At("HEAD"), method = "getIdentifierWithFallback()Lnet/minecraft/resources/Identifier;", cancellable = true)
     private void getIdentifierWithFallback__762436012(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-762436012L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getCommandResult(Ljava/lang/Object;)I", cancellable = true)
+    private void getCommandResult__1228841329(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1228841329L))
             info.setReturnValue(null);
     }
 

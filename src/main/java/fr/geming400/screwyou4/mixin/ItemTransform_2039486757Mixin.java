@@ -37,14 +37,14 @@ public class ItemTransform_2039486757Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "translation()Lorg/joml/Vector3fc;", cancellable = true)
-    private void translation__1709535835(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "rotation()Lorg/joml/Vector3fc;", cancellable = true)
+    private void rotation__1709535835(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1709535835L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "rotation()Lorg/joml/Vector3fc;", cancellable = true)
-    private void rotation__1709535835(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "translation()Lorg/joml/Vector3fc;", cancellable = true)
+    private void translation__1709535835(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1709535835L))
             info.setReturnValue(null);
     }

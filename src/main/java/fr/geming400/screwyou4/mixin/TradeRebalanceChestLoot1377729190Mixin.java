@@ -37,8 +37,14 @@ public class TradeRebalanceChestLoot1377729190Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "desertPyramidLootTable()Lnet/minecraft/world/level/storage/loot/LootTable$Builder;", cancellable = true)
-    private void desertPyramidLootTable_644351054(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "pillagerOutpostLootTable()Lnet/minecraft/world/level/storage/loot/LootTable$Builder;", cancellable = true)
+    private void pillagerOutpostLootTable_644351054(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(644351054L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "jungleTempleLootTable()Lnet/minecraft/world/level/storage/loot/LootTable$Builder;", cancellable = true)
+    private void jungleTempleLootTable_644351054(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(644351054L))
             info.setReturnValue(null);
     }
@@ -49,14 +55,8 @@ public class TradeRebalanceChestLoot1377729190Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "pillagerOutpostLootTable()Lnet/minecraft/world/level/storage/loot/LootTable$Builder;", cancellable = true)
-    private void pillagerOutpostLootTable_644351054(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(644351054L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "jungleTempleLootTable()Lnet/minecraft/world/level/storage/loot/LootTable$Builder;", cancellable = true)
-    private void jungleTempleLootTable_644351054(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "desertPyramidLootTable()Lnet/minecraft/world/level/storage/loot/LootTable$Builder;", cancellable = true)
+    private void desertPyramidLootTable_644351054(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(644351054L))
             info.setReturnValue(null);
     }

@@ -31,12 +31,6 @@ public class AdvancementTab_296782905Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "extractContents(Lnet/minecraft/client/gui/GuiGraphicsExtractor;II)V", cancellable = true)
-    private void extractContents_1511956736(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1511956736L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "getRootNode()Lnet/minecraft/advancements/AdvancementNode;", cancellable = true)
     private void getRootNode__1235104724(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1235104724L))
@@ -49,52 +43,10 @@ public class AdvancementTab_296782905Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "isMouseOver(IIDD)Z", cancellable = true)
-    private void isMouseOver_1763362703(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1763362703L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "scroll(DD)V", cancellable = true)
-    private void scroll__846859925(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-846859925L))
+    @Inject(at = @At("HEAD"), method = "extractTab(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIIIZ)V", cancellable = true)
+    private void extractTab_715232672(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(715232672L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "extractIcon(Lnet/minecraft/client/gui/GuiGraphicsExtractor;II)V", cancellable = true)
-    private void extractIcon_1511956736(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1511956736L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "extractTooltips(Lnet/minecraft/client/gui/GuiGraphicsExtractor;II)V", cancellable = true)
-    private void extractTooltips_1511956736(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1511956736L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "addAdvancement(Lnet/minecraft/advancements/AdvancementNode;)V", cancellable = true)
-    private void addAdvancement__1956307488(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1956307488L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "canScrollHorizontally()Z", cancellable = true)
-    private void canScrollHorizontally_335061487(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(335061487L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "canScrollVertically()Z", cancellable = true)
-    private void canScrollVertically_335061487(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(335061487L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getWidget(Lnet/minecraft/advancements/AdvancementHolder;)Lnet/minecraft/client/gui/screens/advancements/AdvancementWidget;", cancellable = true)
-    private void getWidget__2024135949(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2024135949L))
-            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getScreen()Lnet/minecraft/client/gui/screens/advancements/AdvancementsScreen;", cancellable = true)
@@ -109,10 +61,58 @@ public class AdvancementTab_296782905Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "extractTab(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIIIZ)V", cancellable = true)
-    private void extractTab_715232672(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(715232672L))
+    @Inject(at = @At("HEAD"), method = "getWidget(Lnet/minecraft/advancements/AdvancementHolder;)Lnet/minecraft/client/gui/screens/advancements/AdvancementWidget;", cancellable = true)
+    private void getWidget__2024135949(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2024135949L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "extractContents(Lnet/minecraft/client/gui/GuiGraphicsExtractor;II)V", cancellable = true)
+    private void extractContents_1511956736(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1511956736L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "scroll(DD)V", cancellable = true)
+    private void scroll__846859925(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-846859925L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "canScrollVertically()Z", cancellable = true)
+    private void canScrollVertically_335061487(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(335061487L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "extractTooltips(Lnet/minecraft/client/gui/GuiGraphicsExtractor;II)V", cancellable = true)
+    private void extractTooltips_1511956736(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1511956736L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "canScrollHorizontally()Z", cancellable = true)
+    private void canScrollHorizontally_335061487(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(335061487L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "addAdvancement(Lnet/minecraft/advancements/AdvancementNode;)V", cancellable = true)
+    private void addAdvancement__1956307488(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1956307488L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "extractIcon(Lnet/minecraft/client/gui/GuiGraphicsExtractor;II)V", cancellable = true)
+    private void extractIcon_1511956736(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1511956736L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "isMouseOver(IIDD)Z", cancellable = true)
+    private void isMouseOver_1763362703(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1763362703L))
+            info.setReturnValue(null);
     }
 
 

@@ -79,14 +79,14 @@ public class WorldCoordinates_739632279Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "isXRelative()Z", cancellable = true)
-    private void isXRelative_777910861(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "isYRelative()Z", cancellable = true)
+    private void isYRelative_777910861(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(777910861L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "isYRelative()Z", cancellable = true)
-    private void isYRelative_777910861(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "isXRelative()Z", cancellable = true)
+    private void isXRelative_777910861(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(777910861L))
             info.setReturnValue(null);
     }

@@ -43,9 +43,9 @@ public class ClientboundSoundEntityPacket770209577Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getPitch()F", cancellable = true)
-    private void getPitch_808468940(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(808468940L))
+    @Inject(at = @At("HEAD"), method = "getSound()Lnet/minecraft/core/Holder;", cancellable = true)
+    private void getSound__1975881947(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1975881947L))
             info.setReturnValue(null);
     }
 
@@ -55,9 +55,9 @@ public class ClientboundSoundEntityPacket770209577Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getSound()Lnet/minecraft/core/Holder;", cancellable = true)
-    private void getSound__1975881947(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1975881947L))
+    @Inject(at = @At("HEAD"), method = "getPitch()F", cancellable = true)
+    private void getPitch_808468940(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(808468940L))
             info.setReturnValue(null);
     }
 

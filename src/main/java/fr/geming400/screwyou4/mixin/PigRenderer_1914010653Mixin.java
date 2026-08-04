@@ -25,16 +25,22 @@ public class PigRenderer_1914010653Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/EntityRenderState;", cancellable = true)
-    private void createRenderState_1325374208(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1325374208L))
+    @Inject(at = @At("HEAD"), method = "getTextureLocation(Lnet/minecraft/client/renderer/entity/state/LivingEntityRenderState;)Lnet/minecraft/resources/Identifier;", cancellable = true)
+    private void getTextureLocation__378320011(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-378320011L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/PigRenderState;", cancellable = true)
-    private void createRenderState__771401019(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-771401019L))
+    @Inject(at = @At("HEAD"), method = "getTextureLocation(Lnet/minecraft/client/renderer/entity/state/PigRenderState;)Lnet/minecraft/resources/Identifier;", cancellable = true)
+    private void getTextureLocation_373062311(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(373062311L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/client/renderer/entity/state/LivingEntityRenderState;F)V", cancellable = true)
+    private void extractRenderState__1361092441(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1361092441L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/client/renderer/entity/state/EntityRenderState;F)V", cancellable = true)
@@ -49,21 +55,15 @@ public class PigRenderer_1914010653Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/client/renderer/entity/state/LivingEntityRenderState;F)V", cancellable = true)
-    private void extractRenderState__1361092441(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1361092441L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "getTextureLocation(Lnet/minecraft/client/renderer/entity/state/LivingEntityRenderState;)Lnet/minecraft/resources/Identifier;", cancellable = true)
-    private void getTextureLocation__378320011(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-378320011L))
+    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/PigRenderState;", cancellable = true)
+    private void createRenderState__771401019(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-771401019L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getTextureLocation(Lnet/minecraft/client/renderer/entity/state/PigRenderState;)Lnet/minecraft/resources/Identifier;", cancellable = true)
-    private void getTextureLocation_373062311(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(373062311L))
+    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/EntityRenderState;", cancellable = true)
+    private void createRenderState_1325374208(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1325374208L))
             info.setReturnValue(null);
     }
 

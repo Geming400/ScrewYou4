@@ -13,6 +13,18 @@ public class PackEntry2086974796Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "getPackId()Ljava/lang/String;", cancellable = true)
+    private void getPackId_951514325(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(951514325L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "keyPressed(Lnet/minecraft/client/input/KeyEvent;)Z", cancellable = true)
+    private void keyPressed_1170339082(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1170339082L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "extractContent(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIZF)V", cancellable = true)
     private void extractContent__1296317440(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1296317440L))
@@ -34,18 +46,6 @@ public class PackEntry2086974796Mixin {
     @Inject(at = @At("HEAD"), method = "shouldTakeFocusAfterInteraction()Z", cancellable = true)
     private void shouldTakeFocusAfterInteraction_2125253379(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2125253379L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "keyPressed(Lnet/minecraft/client/input/KeyEvent;)Z", cancellable = true)
-    private void keyPressed_1170339082(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1170339082L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getPackId()Ljava/lang/String;", cancellable = true)
-    private void getPackId_951514325(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(951514325L))
             info.setReturnValue(null);
     }
 

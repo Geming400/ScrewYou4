@@ -13,21 +13,15 @@ public class ObjectiveCriteriaArgument201827815Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "parse(Lcom/mojang/brigadier/StringReader;)Ljava/lang/Object;", cancellable = true)
-    private void parse__91553928(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-91553928L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "parse(Lcom/mojang/brigadier/StringReader;)Lnet/minecraft/world/scores/criteria/ObjectiveCriteria;", cancellable = true)
     private void parse__301426768(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-301426768L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "criteria()Lnet/minecraft/commands/arguments/ObjectiveCriteriaArgument;", cancellable = true)
-    private static void criteria_1120241636(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1120241636L))
+    @Inject(at = @At("HEAD"), method = "parse(Lcom/mojang/brigadier/StringReader;)Ljava/lang/Object;", cancellable = true)
+    private void parse__91553928(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-91553928L))
             info.setReturnValue(null);
     }
 
@@ -37,15 +31,21 @@ public class ObjectiveCriteriaArgument201827815Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getExamples()Ljava/util/Collection;", cancellable = true)
-    private void getExamples__1611820457(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1611820457L))
+    @Inject(at = @At("HEAD"), method = "criteria()Lnet/minecraft/commands/arguments/ObjectiveCriteriaArgument;", cancellable = true)
+    private static void criteria_1120241636(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1120241636L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getCriteria(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/world/scores/criteria/ObjectiveCriteria;", cancellable = true)
     private static void getCriteria_830554850(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(830554850L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getExamples()Ljava/util/Collection;", cancellable = true)
+    private void getExamples__1611820457(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1611820457L))
             info.setReturnValue(null);
     }
 

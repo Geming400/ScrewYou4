@@ -25,10 +25,22 @@ public class TropicalFish1470353136Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "finalizeSpawn(Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData;", cancellable = true)
-    private void finalizeSpawn__975882222(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-975882222L))
+    @Inject(at = @At("HEAD"), method = "isMaxGroupSizeReached(I)Z", cancellable = true)
+    private void isMaxGroupSizeReached__1610693344(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1610693344L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getBucketItemStack()Lnet/minecraft/world/item/ItemStack;", cancellable = true)
+    private void getBucketItemStack_1993771796(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1993771796L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "saveToBucketTag(Lnet/minecraft/world/item/ItemStack;)V", cancellable = true)
+    private void saveToBucketTag__1090082872(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1090082872L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "getBaseColor()Lnet/minecraft/world/item/DyeColor;", cancellable = true)
@@ -55,9 +67,9 @@ public class TropicalFish1470353136Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getPredefinedName(I)Ljava/lang/String;", cancellable = true)
-    private static void getPredefinedName_49483800(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(49483800L))
+    @Inject(at = @At("HEAD"), method = "finalizeSpawn(Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData;", cancellable = true)
+    private void finalizeSpawn__975882222(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-975882222L))
             info.setReturnValue(null);
     }
 
@@ -67,21 +79,9 @@ public class TropicalFish1470353136Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "isMaxGroupSizeReached(I)Z", cancellable = true)
-    private void isMaxGroupSizeReached__1610693344(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1610693344L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "saveToBucketTag(Lnet/minecraft/world/item/ItemStack;)V", cancellable = true)
-    private void saveToBucketTag__1090082872(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1090082872L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "getBucketItemStack()Lnet/minecraft/world/item/ItemStack;", cancellable = true)
-    private void getBucketItemStack_1993771796(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1993771796L))
+    @Inject(at = @At("HEAD"), method = "getPredefinedName(I)Ljava/lang/String;", cancellable = true)
+    private static void getPredefinedName_49483800(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(49483800L))
             info.setReturnValue(null);
     }
 

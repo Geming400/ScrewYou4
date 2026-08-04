@@ -25,15 +25,15 @@ public class SetItemDamageFunction_1066812498Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "setDamage(Lnet/minecraft/world/level/storage/loot/providers/number/NumberProvider;Z)Lnet/minecraft/world/level/storage/loot/functions/LootItemConditionalFunction$Builder;", cancellable = true)
-    private static void setDamage_79447921(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(79447921L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "setDamage(Lnet/minecraft/world/level/storage/loot/providers/number/NumberProvider;)Lnet/minecraft/world/level/storage/loot/functions/LootItemConditionalFunction$Builder;", cancellable = true)
     private static void setDamage__439683403(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-439683403L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "setDamage(Lnet/minecraft/world/level/storage/loot/providers/number/NumberProvider;Z)Lnet/minecraft/world/level/storage/loot/functions/LootItemConditionalFunction$Builder;", cancellable = true)
+    private static void setDamage_79447921(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(79447921L))
             info.setReturnValue(null);
     }
 

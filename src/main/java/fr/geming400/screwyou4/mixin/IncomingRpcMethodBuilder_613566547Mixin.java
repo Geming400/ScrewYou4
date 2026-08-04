@@ -37,8 +37,8 @@ public class IncomingRpcMethodBuilder_613566547Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "undiscoverable()Lnet/minecraft/server/jsonrpc/IncomingRpcMethod$IncomingRpcMethodBuilder;", cancellable = true)
-    private void undiscoverable_1905425517(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "allowPreServerInit()Lnet/minecraft/server/jsonrpc/IncomingRpcMethod$IncomingRpcMethodBuilder;", cancellable = true)
+    private void allowPreServerInit_1905425517(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1905425517L))
             info.setReturnValue(null);
     }
@@ -49,8 +49,8 @@ public class IncomingRpcMethodBuilder_613566547Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "allowPreServerInit()Lnet/minecraft/server/jsonrpc/IncomingRpcMethod$IncomingRpcMethodBuilder;", cancellable = true)
-    private void allowPreServerInit_1905425517(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "undiscoverable()Lnet/minecraft/server/jsonrpc/IncomingRpcMethod$IncomingRpcMethodBuilder;", cancellable = true)
+    private void undiscoverable_1905425517(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1905425517L))
             info.setReturnValue(null);
     }

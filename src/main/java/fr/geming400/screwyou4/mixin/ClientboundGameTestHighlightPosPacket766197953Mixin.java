@@ -43,14 +43,14 @@ public class ClientboundGameTestHighlightPosPacket766197953Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "relativePos()Lnet/minecraft/core/BlockPos;", cancellable = true)
-    private void relativePos__1127188926(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "absolutePos()Lnet/minecraft/core/BlockPos;", cancellable = true)
+    private void absolutePos__1127188926(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1127188926L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "absolutePos()Lnet/minecraft/core/BlockPos;", cancellable = true)
-    private void absolutePos__1127188926(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "relativePos()Lnet/minecraft/core/BlockPos;", cancellable = true)
+    private void relativePos__1127188926(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1127188926L))
             info.setReturnValue(null);
     }

@@ -13,14 +13,14 @@ public class ChainedJsonException1404167883Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "setFilenameAndFlush(Ljava/lang/String;)V", cancellable = true)
-    private void setFilenameAndFlush__1738438264(CallbackInfo info) {
+    @Inject(at = @At("HEAD"), method = "prependJsonKey(Ljava/lang/String;)V", cancellable = true)
+    private void prependJsonKey__1738438264(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1738438264L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "prependJsonKey(Ljava/lang/String;)V", cancellable = true)
-    private void prependJsonKey__1738438264(CallbackInfo info) {
+    @Inject(at = @At("HEAD"), method = "setFilenameAndFlush(Ljava/lang/String;)V", cancellable = true)
+    private void setFilenameAndFlush__1738438264(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1738438264L))
             info.cancel();
     }

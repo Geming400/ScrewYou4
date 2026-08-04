@@ -55,9 +55,9 @@ public class ClientboundDamageEventPacket_1706278702Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "sourcePosition()Ljava/util/Optional;", cancellable = true)
-    private void sourcePosition_1951740123(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1951740123L))
+    @Inject(at = @At("HEAD"), method = "entityId()I", cancellable = true)
+    private void entityId_1744540947(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1744540947L))
             info.setReturnValue(null);
     }
 
@@ -73,9 +73,9 @@ public class ClientboundDamageEventPacket_1706278702Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "entityId()I", cancellable = true)
-    private void entityId_1744540947(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1744540947L))
+    @Inject(at = @At("HEAD"), method = "sourcePosition()Ljava/util/Optional;", cancellable = true)
+    private void sourcePosition_1951740123(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1951740123L))
             info.setReturnValue(null);
     }
 

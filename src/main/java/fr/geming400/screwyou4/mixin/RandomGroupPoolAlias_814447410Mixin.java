@@ -31,12 +31,6 @@ public class RandomGroupPoolAlias_814447410Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "forEachResolved(Lnet/minecraft/util/RandomSource;Ljava/util/function/BiConsumer;)V", cancellable = true)
-    private void forEachResolved__12536409(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-12536409L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
     private void codec__1744666163(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1744666163L))
@@ -47,6 +41,12 @@ public class RandomGroupPoolAlias_814447410Mixin {
     private void allTargets_603741094(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(603741094L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "forEachResolved(Lnet/minecraft/util/RandomSource;Ljava/util/function/BiConsumer;)V", cancellable = true)
+    private void forEachResolved__12536409(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-12536409L))
+            info.cancel();
     }
 
 

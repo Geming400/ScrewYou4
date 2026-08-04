@@ -25,12 +25,6 @@ public class ServerboundSignUpdatePacket192870427Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "isFrontText()Z", cancellable = true)
-    private void isFrontText_231149010(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(231149010L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getLines()[Ljava/lang/String;", cancellable = true)
     private void getLines_1542903709(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1542903709L))
@@ -40,6 +34,12 @@ public class ServerboundSignUpdatePacket192870427Mixin {
     @Inject(at = @At("HEAD"), method = "getPos()Lnet/minecraft/core/BlockPos;", cancellable = true)
     private void getPos__1700516452(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1700516452L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isFrontText()Z", cancellable = true)
+    private void isFrontText_231149010(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(231149010L))
             info.setReturnValue(null);
     }
 

@@ -49,15 +49,9 @@ public class TriggerInstance1108264852Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "equipmentSheared(Ljava/util/Optional;Lnet/minecraft/advancements/predicates/ItemPredicate$Builder;Ljava/util/Optional;)Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
-    private static void equipmentSheared_1528009922(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1528009922L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "equipmentSheared(Lnet/minecraft/advancements/predicates/ItemPredicate$Builder;Ljava/util/Optional;)Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
-    private static void equipmentSheared_580174289(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(580174289L))
+    @Inject(at = @At("HEAD"), method = "player()Ljava/util/Optional;", cancellable = true)
+    private void player_1353726274(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1353726274L))
             info.setReturnValue(null);
     }
 
@@ -73,9 +67,15 @@ public class TriggerInstance1108264852Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "player()Ljava/util/Optional;", cancellable = true)
-    private void player_1353726274(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1353726274L))
+    @Inject(at = @At("HEAD"), method = "equipmentSheared(Ljava/util/Optional;Lnet/minecraft/advancements/predicates/ItemPredicate$Builder;Ljava/util/Optional;)Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
+    private static void equipmentSheared_1528009922(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1528009922L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "equipmentSheared(Lnet/minecraft/advancements/predicates/ItemPredicate$Builder;Ljava/util/Optional;)Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
+    private static void equipmentSheared_580174289(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(580174289L))
             info.setReturnValue(null);
     }
 

@@ -7,15 +7,15 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.world.level.block.FlowerBlock.class)
 public class FlowerBlock_1133518044Mixin {
-        @Inject(at = @At("HEAD"), method = "getSuspiciousEffects()Lnet/minecraft/world/item/component/SuspiciousStewEffects;", cancellable = true)
-    private void getSuspiciousEffects__196556588(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-196556588L))
+        @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
+    private void codec__1425595529(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1425595529L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
-    private void codec__1425595529(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1425595529L))
+    @Inject(at = @At("HEAD"), method = "getSuspiciousEffects()Lnet/minecraft/world/item/component/SuspiciousStewEffects;", cancellable = true)
+    private void getSuspiciousEffects__196556588(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-196556588L))
             info.setReturnValue(null);
     }
 

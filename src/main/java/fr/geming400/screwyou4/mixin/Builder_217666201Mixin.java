@@ -43,15 +43,15 @@ public class Builder_217666201Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "addRecipe(Lnet/minecraft/resources/ResourceKey;)Lnet/minecraft/advancements/AdvancementRewards$Builder;", cancellable = true)
-    private void addRecipe__1096043811(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1096043811L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "experience(I)Lnet/minecraft/advancements/AdvancementRewards$Builder;", cancellable = true)
     private static void experience__800696822(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-800696822L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "addRecipe(Lnet/minecraft/resources/ResourceKey;)Lnet/minecraft/advancements/AdvancementRewards$Builder;", cancellable = true)
+    private void addRecipe__1096043811(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1096043811L))
             info.setReturnValue(null);
     }
 

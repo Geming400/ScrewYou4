@@ -13,6 +13,18 @@ public class OverlayRecipeComponent1115414281Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "isVisible()Z", cancellable = true)
+    private void isVisible_1153692864(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1153692864L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isFocused()Z", cancellable = true)
+    private void isFocused_1153692864(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1153692864L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "getLastRecipeClicked()Lnet/minecraft/world/item/crafting/display/RecipeDisplayId;", cancellable = true)
     private void getLastRecipeClicked__2021126995(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2021126995L))
@@ -25,28 +37,16 @@ public class OverlayRecipeComponent1115414281Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "setFocused(Z)V", cancellable = true)
+    private void setFocused__1949936186(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1949936186L))
+            info.cancel();
+    }
+
     @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIF)V", cancellable = true)
     private void extractRenderState_155726909(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(155726909L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "mouseClicked(Lnet/minecraft/client/input/MouseButtonEvent;Z)Z", cancellable = true)
-    private void mouseClicked__499244597(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-499244597L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isMouseOver(DD)Z", cancellable = true)
-    private void isMouseOver__28224704(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-28224704L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isVisible()Z", cancellable = true)
-    private void isVisible_1153692864(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1153692864L))
-            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "setVisible(Z)V", cancellable = true)
@@ -55,15 +55,15 @@ public class OverlayRecipeComponent1115414281Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "setFocused(Z)V", cancellable = true)
-    private void setFocused__1949936186(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1949936186L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "isMouseOver(DD)Z", cancellable = true)
+    private void isMouseOver__28224704(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-28224704L))
+            info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "isFocused()Z", cancellable = true)
-    private void isFocused_1153692864(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1153692864L))
+    @Inject(at = @At("HEAD"), method = "mouseClicked(Lnet/minecraft/client/input/MouseButtonEvent;Z)Z", cancellable = true)
+    private void mouseClicked__499244597(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-499244597L))
             info.setReturnValue(null);
     }
 

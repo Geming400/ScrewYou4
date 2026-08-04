@@ -31,14 +31,14 @@ public class SpawnData_371342937Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getEntityToSpawn()Lnet/minecraft/nbt/CompoundTag;", cancellable = true)
-    private void getEntityToSpawn__1198879984(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1198879984L))
+    @Inject(at = @At("HEAD"), method = "getCustomSpawnRules()Ljava/util/Optional;", cancellable = true)
+    private void getCustomSpawnRules_616804358(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(616804358L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getCustomSpawnRules()Ljava/util/Optional;", cancellable = true)
-    private void getCustomSpawnRules_616804358(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "getEquipment()Ljava/util/Optional;", cancellable = true)
+    private void getEquipment_616804358(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(616804358L))
             info.setReturnValue(null);
     }
@@ -49,15 +49,15 @@ public class SpawnData_371342937Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "entityToSpawn()Lnet/minecraft/nbt/CompoundTag;", cancellable = true)
-    private void entityToSpawn__1198879984(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "getEntityToSpawn()Lnet/minecraft/nbt/CompoundTag;", cancellable = true)
+    private void getEntityToSpawn__1198879984(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1198879984L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getEquipment()Ljava/util/Optional;", cancellable = true)
-    private void getEquipment_616804358(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(616804358L))
+    @Inject(at = @At("HEAD"), method = "entityToSpawn()Lnet/minecraft/nbt/CompoundTag;", cancellable = true)
+    private void entityToSpawn__1198879984(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1198879984L))
             info.setReturnValue(null);
     }
 

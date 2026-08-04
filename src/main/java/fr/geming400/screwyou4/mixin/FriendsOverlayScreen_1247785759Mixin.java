@@ -31,6 +31,18 @@ public class FriendsOverlayScreen_1247785759Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "keyPressed(Lnet/minecraft/client/input/KeyEvent;)Z", cancellable = true)
+    private void keyPressed_331150044(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(331150044L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "extractBackground(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIF)V", cancellable = true)
+    private void extractBackground_288098386(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(288098386L))
+            info.cancel();
+    }
+
     @Inject(at = @At("HEAD"), method = "refreshLists()V", cancellable = true)
     private void refreshLists_1286060497(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1286060497L))
@@ -49,21 +61,9 @@ public class FriendsOverlayScreen_1247785759Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "extractBackground(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIF)V", cancellable = true)
-    private void extractBackground_288098386(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(288098386L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "mouseClicked(Lnet/minecraft/client/input/MouseButtonEvent;Z)Z", cancellable = true)
     private void mouseClicked__366873120(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-366873120L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "keyPressed(Lnet/minecraft/client/input/KeyEvent;)Z", cancellable = true)
-    private void keyPressed_331150044(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(331150044L))
             info.setReturnValue(null);
     }
 

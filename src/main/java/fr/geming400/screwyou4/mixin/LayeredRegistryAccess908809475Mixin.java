@@ -19,9 +19,9 @@ public class LayeredRegistryAccess908809475Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "replaceFrom(Ljava/lang/Object;[Lnet/minecraft/core/RegistryAccess$Frozen;)Lnet/minecraft/core/LayeredRegistryAccess;", cancellable = true)
-    private void replaceFrom__941391899(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-941391899L))
+    @Inject(at = @At("HEAD"), method = "getAccessForLoading(Ljava/lang/Object;)Lnet/minecraft/core/RegistryAccess$Frozen;", cancellable = true)
+    private void getAccessForLoading__201028050(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-201028050L))
             info.setReturnValue(null);
     }
 
@@ -31,9 +31,9 @@ public class LayeredRegistryAccess908809475Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getAccessForLoading(Ljava/lang/Object;)Lnet/minecraft/core/RegistryAccess$Frozen;", cancellable = true)
-    private void getAccessForLoading__201028050(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-201028050L))
+    @Inject(at = @At("HEAD"), method = "replaceFrom(Ljava/lang/Object;[Lnet/minecraft/core/RegistryAccess$Frozen;)Lnet/minecraft/core/LayeredRegistryAccess;", cancellable = true)
+    private void replaceFrom__941391899(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-941391899L))
             info.setReturnValue(null);
     }
 

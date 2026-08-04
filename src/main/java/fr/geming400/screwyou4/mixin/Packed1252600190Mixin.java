@@ -25,27 +25,15 @@ public class Packed1252600190Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "mayBuild()Z", cancellable = true)
-    private void mayBuild_1290878773(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1290878773L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "invulnerable()Z", cancellable = true)
-    private void invulnerable_1290878773(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1290878773L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "flying()Z", cancellable = true)
     private void flying_1290878773(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1290878773L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "flyingSpeed()F", cancellable = true)
-    private void flyingSpeed_1290859553(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1290859553L))
+    @Inject(at = @At("HEAD"), method = "mayBuild()Z", cancellable = true)
+    private void mayBuild_1290878773(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1290878773L))
             info.setReturnValue(null);
     }
 
@@ -58,6 +46,18 @@ public class Packed1252600190Mixin {
     @Inject(at = @At("HEAD"), method = "walkingSpeed()F", cancellable = true)
     private void walkingSpeed_1290859553(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1290859553L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "flyingSpeed()F", cancellable = true)
+    private void flyingSpeed_1290859553(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1290859553L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "invulnerable()Z", cancellable = true)
+    private void invulnerable_1290878773(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1290878773L))
             info.setReturnValue(null);
     }
 

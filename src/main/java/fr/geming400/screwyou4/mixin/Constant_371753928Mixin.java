@@ -31,15 +31,15 @@ public class Constant_371753928Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "calculate(I)F", cancellable = true)
-    private void calculate_1585655523(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1585655523L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
     private void codec_2107607651(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2107607651L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "calculate(I)F", cancellable = true)
+    private void calculate_1585655523(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1585655523L))
             info.setReturnValue(null);
     }
 

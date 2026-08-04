@@ -25,15 +25,15 @@ public class BiomeSpecialEffects_909290389Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "foliageColorOverride()Ljava/util/Optional;", cancellable = true)
-    private void foliageColorOverride_1154751810(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "grassColorOverride()Ljava/util/Optional;", cancellable = true)
+    private void grassColorOverride_1154751810(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1154751810L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "grassColorModifier()Lnet/minecraft/world/level/biome/BiomeSpecialEffects$GrassColorModifier;", cancellable = true)
-    private void grassColorModifier_1463079064(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1463079064L))
+    @Inject(at = @At("HEAD"), method = "foliageColorOverride()Ljava/util/Optional;", cancellable = true)
+    private void foliageColorOverride_1154751810(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1154751810L))
             info.setReturnValue(null);
     }
 
@@ -43,9 +43,9 @@ public class BiomeSpecialEffects_909290389Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "grassColorOverride()Ljava/util/Optional;", cancellable = true)
-    private void grassColorOverride_1154751810(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1154751810L))
+    @Inject(at = @At("HEAD"), method = "grassColorModifier()Lnet/minecraft/world/level/biome/BiomeSpecialEffects$GrassColorModifier;", cancellable = true)
+    private void grassColorModifier_1463079064(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1463079064L))
             info.setReturnValue(null);
     }
 

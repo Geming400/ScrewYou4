@@ -19,27 +19,9 @@ public class MushroomCow2131169381Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getDefaultDimensions(Lnet/minecraft/world/entity/Pose;)Lnet/minecraft/world/entity/EntityDimensions;", cancellable = true)
-    private void getDefaultDimensions_888523337(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(888523337L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "thunderHit(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/LightningBolt;)V", cancellable = true)
-    private void thunderHit_1201149364(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1201149364L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "shear(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/sounds/SoundSource;Lnet/minecraft/world/item/ItemStack;)V", cancellable = true)
-    private void shear__1686174806(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1686174806L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "readyForShearing()Z", cancellable = true)
-    private void readyForShearing__2125519332(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2125519332L))
+    @Inject(at = @At("HEAD"), method = "mobInteract(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResult;", cancellable = true)
+    private void mobInteract__546972073(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-546972073L))
             info.setReturnValue(null);
     }
 
@@ -61,15 +43,33 @@ public class MushroomCow2131169381Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "mobInteract(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResult;", cancellable = true)
-    private void mobInteract__546972073(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-546972073L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "checkMushroomSpawnRules(Lnet/minecraft/world/entity/EntityType;Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)Z", cancellable = true)
     private static void checkMushroomSpawnRules_1288905687(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1288905687L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "thunderHit(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/LightningBolt;)V", cancellable = true)
+    private void thunderHit_1201149364(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1201149364L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getDefaultDimensions(Lnet/minecraft/world/entity/Pose;)Lnet/minecraft/world/entity/EntityDimensions;", cancellable = true)
+    private void getDefaultDimensions_888523337(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(888523337L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "shear(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/sounds/SoundSource;Lnet/minecraft/world/item/ItemStack;)V", cancellable = true)
+    private void shear__1686174806(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1686174806L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "readyForShearing()Z", cancellable = true)
+    private void readyForShearing__2125519332(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2125519332L))
             info.setReturnValue(null);
     }
 

@@ -25,15 +25,15 @@ public class BatchResult_1288752602Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "failed()Ljava/util/Set;", cancellable = true)
-    private void failed__540282885(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-540282885L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "downloaded()Ljava/util/Map;", cancellable = true)
     private void downloaded__715871039(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-715871039L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "failed()Ljava/util/Set;", cancellable = true)
+    private void failed__540282885(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-540282885L))
             info.setReturnValue(null);
     }
 

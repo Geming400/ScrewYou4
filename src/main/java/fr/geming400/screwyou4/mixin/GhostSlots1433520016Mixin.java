@@ -13,15 +13,15 @@ public class GhostSlots1433520016Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "extractTooltip(Lnet/minecraft/client/gui/GuiGraphicsExtractor;Lnet/minecraft/client/Minecraft;IILnet/minecraft/world/inventory/Slot;)V", cancellable = true)
-    private void extractTooltip_2024877719(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(2024877719L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/client/gui/GuiGraphicsExtractor;Lnet/minecraft/client/Minecraft;Z)V", cancellable = true)
     private void extractRenderState__1828223482(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1828223482L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "extractTooltip(Lnet/minecraft/client/gui/GuiGraphicsExtractor;Lnet/minecraft/client/Minecraft;IILnet/minecraft/world/inventory/Slot;)V", cancellable = true)
+    private void extractTooltip_2024877719(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(2024877719L))
             info.cancel();
     }
 

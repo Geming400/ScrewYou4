@@ -31,6 +31,12 @@ public class EnchantmentsByCost_1956965310Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
+    private void codec__602148263(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-602148263L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "cost()Lnet/minecraft/util/valueproviders/IntProvider;", cancellable = true)
     private void cost__512721594(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-512721594L))
@@ -41,12 +47,6 @@ public class EnchantmentsByCost_1956965310Mixin {
     private void enchant__497139456(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-497139456L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
-    private void codec__602148263(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-602148263L))
-            info.setReturnValue(null);
     }
 
 

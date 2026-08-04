@@ -55,15 +55,15 @@ public class Fail1875619624Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getError()Ljava/lang/String;", cancellable = true)
-    private void getError_740159153(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(740159153L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "ifSuccess(Ljava/util/function/Consumer;)Lnet/minecraft/server/level/ChunkResult;", cancellable = true)
     private void ifSuccess__429192955(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-429192955L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getError()Ljava/lang/String;", cancellable = true)
+    private void getError_740159153(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(740159153L))
             info.setReturnValue(null);
     }
 

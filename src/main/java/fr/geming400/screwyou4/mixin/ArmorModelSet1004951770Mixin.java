@@ -49,14 +49,14 @@ public class ArmorModelSet1004951770Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "feet()Ljava/lang/Object;", cancellable = true)
-    private void feet__1430823307(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "chest()Ljava/lang/Object;", cancellable = true)
+    private void chest__1430823307(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1430823307L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "chest()Ljava/lang/Object;", cancellable = true)
-    private void chest__1430823307(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "feet()Ljava/lang/Object;", cancellable = true)
+    private void feet__1430823307(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1430823307L))
             info.setReturnValue(null);
     }

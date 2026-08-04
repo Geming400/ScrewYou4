@@ -37,16 +37,16 @@ public class SingleEnchantment1493561905Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "enchant(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/enchantment/ItemEnchantments$Mutable;Lnet/minecraft/util/RandomSource;Lnet/minecraft/world/DifficultyInstance;)V", cancellable = true)
-    private void enchant__960542860(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-960542860L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
     private void codec__1065551667(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1065551667L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "enchant(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/enchantment/ItemEnchantments$Mutable;Lnet/minecraft/util/RandomSource;Lnet/minecraft/world/DifficultyInstance;)V", cancellable = true)
+    private void enchant__960542860(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-960542860L))
+            info.cancel();
     }
 
 

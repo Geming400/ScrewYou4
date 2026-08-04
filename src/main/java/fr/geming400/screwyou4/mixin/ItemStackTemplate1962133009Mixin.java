@@ -67,12 +67,6 @@ public class ItemStackTemplate1962133009Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "fromNonEmptyStack(Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/world/item/ItemStackTemplate;", cancellable = true)
-    private static void fromNonEmptyStack_650060302(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(650060302L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "typeHolder()Lnet/minecraft/core/Holder;", cancellable = true)
     private void typeHolder__783958515(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-783958515L))
@@ -82,6 +76,12 @@ public class ItemStackTemplate1962133009Mixin {
     @Inject(at = @At("HEAD"), method = "withCount(I)Lnet/minecraft/world/item/ItemStackTemplate;", cancellable = true)
     private void withCount_1042081346(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1042081346L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "fromNonEmptyStack(Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/world/item/ItemStackTemplate;", cancellable = true)
+    private static void fromNonEmptyStack_650060302(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(650060302L))
             info.setReturnValue(null);
     }
 

@@ -49,15 +49,15 @@ public class ServerboundInteractPacket1541913147Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "entityId()I", cancellable = true)
-    private void entityId_1580175393(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1580175393L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "hand()Lnet/minecraft/world/InteractionHand;", cancellable = true)
     private void hand__1899065425(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1899065425L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "entityId()I", cancellable = true)
+    private void entityId_1580175393(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1580175393L))
             info.setReturnValue(null);
     }
 

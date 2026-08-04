@@ -43,15 +43,15 @@ public class ThreadAllocationStat299936818Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "totalBytes()J", cancellable = true)
-    private void totalBytes_338200025(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(338200025L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "summary(Ljava/util/List;)Lnet/minecraft/util/profiling/jfr/stats/ThreadAllocationStat$Summary;", cancellable = true)
     private static void summary_865438996(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(865438996L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "totalBytes()J", cancellable = true)
+    private void totalBytes_338200025(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(338200025L))
             info.setReturnValue(null);
     }
 

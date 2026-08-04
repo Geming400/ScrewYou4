@@ -31,9 +31,9 @@ public class LifetimeAlpha1200731439Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "startAtNormalizedAge()F", cancellable = true)
-    private void startAtNormalizedAge_1238990802(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1238990802L))
+    @Inject(at = @At("HEAD"), method = "currentAlphaForAge(IIF)F", cancellable = true)
+    private void currentAlphaForAge_417853096(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(417853096L))
             info.setReturnValue(null);
     }
 
@@ -43,8 +43,8 @@ public class LifetimeAlpha1200731439Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "startAlpha()F", cancellable = true)
-    private void startAlpha_1238990802(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "startAtNormalizedAge()F", cancellable = true)
+    private void startAtNormalizedAge_1238990802(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1238990802L))
             info.setReturnValue(null);
     }
@@ -55,9 +55,9 @@ public class LifetimeAlpha1200731439Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "currentAlphaForAge(IIF)F", cancellable = true)
-    private void currentAlphaForAge_417853096(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(417853096L))
+    @Inject(at = @At("HEAD"), method = "startAlpha()F", cancellable = true)
+    private void startAlpha_1238990802(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1238990802L))
             info.setReturnValue(null);
     }
 

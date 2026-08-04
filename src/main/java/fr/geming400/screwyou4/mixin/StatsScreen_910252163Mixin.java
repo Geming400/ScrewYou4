@@ -13,16 +13,16 @@ public class StatsScreen_910252163Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIF)V", cancellable = true)
-    private void extractRenderState__49435210(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-49435210L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "keyPressed(Lnet/minecraft/client/input/KeyEvent;)Z", cancellable = true)
     private void keyPressed__6383552(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-6383552L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIF)V", cancellable = true)
+    private void extractRenderState__49435210(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-49435210L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "onStatsUpdated()V", cancellable = true)

@@ -25,15 +25,15 @@ public class Piece_201876308Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "boundingBox()Lnet/minecraft/world/level/levelgen/structure/BoundingBox;", cancellable = true)
-    private void boundingBox_372024093(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(372024093L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "isStart()Z", cancellable = true)
     private void isStart_240154890(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(240154890L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "boundingBox()Lnet/minecraft/world/level/levelgen/structure/BoundingBox;", cancellable = true)
+    private void boundingBox_372024093(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(372024093L))
             info.setReturnValue(null);
     }
 

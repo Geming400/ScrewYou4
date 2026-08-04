@@ -37,15 +37,15 @@ public class TextColor613286488Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "formatValue()Ljava/lang/String;", cancellable = true)
-    private void formatValue__522173487(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-522173487L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "fromLegacyFormat(Lnet/minecraft/ChatFormatting;)Lnet/minecraft/network/chat/TextColor;", cancellable = true)
     private static void fromLegacyFormat_597238796(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(597238796L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "formatValue()Ljava/lang/String;", cancellable = true)
+    private void formatValue__522173487(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-522173487L))
             info.setReturnValue(null);
     }
 

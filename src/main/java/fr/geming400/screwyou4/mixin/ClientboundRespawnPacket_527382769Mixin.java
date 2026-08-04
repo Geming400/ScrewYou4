@@ -49,15 +49,15 @@ public class ClientboundRespawnPacket_527382769Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "shouldKeep(B)Z", cancellable = true)
-    private void shouldKeep_1734838937(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1734838937L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "dataToKeep()B", cancellable = true)
     private void dataToKeep_565638287(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(565638287L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "shouldKeep(B)Z", cancellable = true)
+    private void shouldKeep_1734838937(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1734838937L))
             info.setReturnValue(null);
     }
 

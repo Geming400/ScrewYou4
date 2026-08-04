@@ -13,8 +13,8 @@ public class QuartPos543516721Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "toBlock(I)I", cancellable = true)
-    private static void toBlock_1757421448(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "fromSection(I)I", cancellable = true)
+    private static void fromSection_1757421448(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1757421448L))
             info.setReturnValue(null);
     }
@@ -25,14 +25,14 @@ public class QuartPos543516721Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "quartLocal(I)I", cancellable = true)
-    private static void quartLocal_1757421448(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "toBlock(I)I", cancellable = true)
+    private static void toBlock_1757421448(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1757421448L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "fromSection(I)I", cancellable = true)
-    private static void fromSection_1757421448(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "quartLocal(I)I", cancellable = true)
+    private static void quartLocal_1757421448(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1757421448L))
             info.setReturnValue(null);
     }

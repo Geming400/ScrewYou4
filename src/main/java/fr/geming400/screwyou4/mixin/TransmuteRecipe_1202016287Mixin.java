@@ -7,15 +7,15 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.world.item.crafting.TransmuteRecipe.class)
 public class TransmuteRecipe_1202016287Mixin {
-        @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/world/item/crafting/CraftingInput;Lnet/minecraft/world/level/Level;)Z", cancellable = true)
-    private void matches__1424767469(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1424767469L))
+        @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/world/item/crafting/RecipeInput;Lnet/minecraft/world/level/Level;)Z", cancellable = true)
+    private void matches__1023373049(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1023373049L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/world/item/crafting/RecipeInput;Lnet/minecraft/world/level/Level;)Z", cancellable = true)
-    private void matches__1023373049(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1023373049L))
+    @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/world/item/crafting/CraftingInput;Lnet/minecraft/world/level/Level;)Z", cancellable = true)
+    private void matches__1424767469(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1424767469L))
             info.setReturnValue(null);
     }
 
@@ -43,15 +43,15 @@ public class TransmuteRecipe_1202016287Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "createWithOriginalComponents(Lnet/minecraft/world/item/ItemStackTemplate;Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/world/item/ItemStack;", cancellable = true)
-    private static void createWithOriginalComponents__1349685558(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1349685558L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "createWithOriginalComponents(Lnet/minecraft/world/item/ItemStackTemplate;Lnet/minecraft/world/item/ItemStack;I)Lnet/minecraft/world/item/ItemStack;", cancellable = true)
     private static void createWithOriginalComponents_1756471953(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1756471953L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "createWithOriginalComponents(Lnet/minecraft/world/item/ItemStackTemplate;Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/world/item/ItemStack;", cancellable = true)
+    private static void createWithOriginalComponents__1349685558(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1349685558L))
             info.setReturnValue(null);
     }
 

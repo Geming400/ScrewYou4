@@ -7,15 +7,15 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.world.entity.ai.util.AirAndWaterRandomPos.class)
 public class AirAndWaterRandomPos2060125279Mixin {
-        @Inject(at = @At("HEAD"), method = "getPos(Lnet/minecraft/world/entity/PathfinderMob;IIIDDD)Lnet/minecraft/world/phys/Vec3;", cancellable = true)
-    private static void getPos__87110176(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-87110176L))
+        @Inject(at = @At("HEAD"), method = "generateRandomPos(Lnet/minecraft/world/entity/PathfinderMob;IIIDDDZ)Lnet/minecraft/core/BlockPos;", cancellable = true)
+    private static void generateRandomPos__1737931950(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1737931950L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "generateRandomPos(Lnet/minecraft/world/entity/PathfinderMob;IIIDDDZ)Lnet/minecraft/core/BlockPos;", cancellable = true)
-    private static void generateRandomPos__1737931950(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1737931950L))
+    @Inject(at = @At("HEAD"), method = "getPos(Lnet/minecraft/world/entity/PathfinderMob;IIIDDD)Lnet/minecraft/world/phys/Vec3;", cancellable = true)
+    private static void getPos__87110176(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-87110176L))
             info.setReturnValue(null);
     }
 

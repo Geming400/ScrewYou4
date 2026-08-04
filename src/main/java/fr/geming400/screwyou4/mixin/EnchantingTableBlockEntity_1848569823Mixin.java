@@ -13,6 +13,12 @@ public class EnchantingTableBlockEntity_1848569823Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "removeComponentsFromTag(Lnet/minecraft/world/level/storage/ValueOutput;)V", cancellable = true)
+    private void removeComponentsFromTag_629438470(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(629438470L))
+            info.cancel();
+    }
+
     @Inject(at = @At("HEAD"), method = "setCustomName(Lnet/minecraft/network/chat/Component;)V", cancellable = true)
     private void setCustomName__52609115(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-52609115L))
@@ -23,12 +29,6 @@ public class EnchantingTableBlockEntity_1848569823Mixin {
     private void getCustomName__328339343(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-328339343L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "removeComponentsFromTag(Lnet/minecraft/world/level/storage/ValueOutput;)V", cancellable = true)
-    private void removeComponentsFromTag_629438470(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(629438470L))
-            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "bookAnimationTick(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/entity/EnchantingTableBlockEntity;)V", cancellable = true)

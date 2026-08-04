@@ -19,12 +19,6 @@ public class FileFixOperations_1230764617Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "applyInFolders(Lnet/minecraft/util/filefix/access/FileRelation;Ljava/util/List;)Lnet/minecraft/util/filefix/operations/ApplyInFolders;", cancellable = true)
-    private static void applyInFolders__996912996(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-996912996L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "moveSimple(Ljava/lang/String;)Lnet/minecraft/util/filefix/operations/Move;", cancellable = true)
     private static void moveSimple_952213823(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(952213823L))
@@ -40,6 +34,12 @@ public class FileFixOperations_1230764617Mixin {
     @Inject(at = @At("HEAD"), method = "moveRegex(Ljava/lang/String;Ljava/lang/String;)Lnet/minecraft/util/filefix/operations/RegexMove;", cancellable = true)
     private static void moveRegex_663299060(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(663299060L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "applyInFolders(Lnet/minecraft/util/filefix/access/FileRelation;Ljava/util/List;)Lnet/minecraft/util/filefix/operations/ApplyInFolders;", cancellable = true)
+    private static void applyInFolders__996912996(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-996912996L))
             info.setReturnValue(null);
     }
 

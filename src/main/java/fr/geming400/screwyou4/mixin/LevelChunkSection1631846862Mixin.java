@@ -37,12 +37,6 @@ public class LevelChunkSection1631846862Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "readBiomes(Lnet/minecraft/network/FriendlyByteBuf;)V", cancellable = true)
-    private void readBiomes_1278353741(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1278353741L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "getFluidState(III)Lnet/minecraft/world/level/material/FluidState;", cancellable = true)
     private void getFluidState_1694242968(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1694242968L))
@@ -55,9 +49,9 @@ public class LevelChunkSection1631846862Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getSerializedSize()I", cancellable = true)
-    private void getSerializedSize_1670109108(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1670109108L))
+    @Inject(at = @At("HEAD"), method = "getStates()Lnet/minecraft/world/level/chunk/PalettedContainer;", cancellable = true)
+    private void getStates_137098008(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(137098008L))
             info.setReturnValue(null);
     }
 
@@ -85,9 +79,15 @@ public class LevelChunkSection1631846862Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getStates()Lnet/minecraft/world/level/chunk/PalettedContainer;", cancellable = true)
-    private void getStates_137098008(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(137098008L))
+    @Inject(at = @At("HEAD"), method = "getSerializedSize()I", cancellable = true)
+    private void getSerializedSize_1670109108(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1670109108L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isRandomlyTicking()Z", cancellable = true)
+    private void isRandomlyTicking_1670125445(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1670125445L))
             info.setReturnValue(null);
     }
 
@@ -97,21 +97,33 @@ public class LevelChunkSection1631846862Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "maybeHas(Ljava/util/function/Predicate;)Z", cancellable = true)
+    private void maybeHas_1702207252(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1702207252L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "fillBiomesFromNoise(Lnet/minecraft/world/level/biome/BiomeResolver;Lnet/minecraft/world/level/biome/Climate$Sampler;III)V", cancellable = true)
     private void fillBiomesFromNoise__1718975299(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1718975299L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "isRandomlyTicking()Z", cancellable = true)
-    private void isRandomlyTicking_1670125445(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "recalcBlockCounts()V", cancellable = true)
+    private void recalcBlockCounts_1670121601(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1670121601L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "isRandomlyTickingBlocks()Z", cancellable = true)
+    private void isRandomlyTickingBlocks_1670125445(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1670125445L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "maybeHas(Ljava/util/function/Predicate;)Z", cancellable = true)
-    private void maybeHas_1702207252(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1702207252L))
+    @Inject(at = @At("HEAD"), method = "isRandomlyTickingFluids()Z", cancellable = true)
+    private void isRandomlyTickingFluids_1670125445(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1670125445L))
             info.setReturnValue(null);
     }
 
@@ -121,22 +133,10 @@ public class LevelChunkSection1631846862Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "isRandomlyTickingBlocks()Z", cancellable = true)
-    private void isRandomlyTickingBlocks_1670125445(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1670125445L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "recalcBlockCounts()V", cancellable = true)
-    private void recalcBlockCounts_1670121601(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1670121601L))
+    @Inject(at = @At("HEAD"), method = "readBiomes(Lnet/minecraft/network/FriendlyByteBuf;)V", cancellable = true)
+    private void readBiomes_1278353741(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1278353741L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "isRandomlyTickingFluids()Z", cancellable = true)
-    private void isRandomlyTickingFluids_1670125445(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1670125445L))
-            info.setReturnValue(null);
     }
 
 

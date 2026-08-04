@@ -37,9 +37,9 @@ public class IntRange1975635250Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "applyValueImmediately()Z", cancellable = true)
-    private void applyValueImmediately_2013913833(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2013913833L))
+    @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/Codec;", cancellable = true)
+    private void codec_1583669624(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1583669624L))
             info.setReturnValue(null);
     }
 
@@ -55,9 +55,9 @@ public class IntRange1975635250Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/Codec;", cancellable = true)
-    private void codec_1583669624(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1583669624L))
+    @Inject(at = @At("HEAD"), method = "applyValueImmediately()Z", cancellable = true)
+    private void applyValueImmediately_2013913833(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2013913833L))
             info.setReturnValue(null);
     }
 

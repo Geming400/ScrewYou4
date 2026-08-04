@@ -19,9 +19,15 @@ public class RandomState1313600112Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "router()Lnet/minecraft/world/level/levelgen/NoiseRouter;", cancellable = true)
-    private void router_157596194(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(157596194L))
+    @Inject(at = @At("HEAD"), method = "getOrCreateRandomFactory(Lnet/minecraft/resources/Identifier;)Lnet/minecraft/world/level/levelgen/PositionalRandomFactory;", cancellable = true)
+    private void getOrCreateRandomFactory__1408970870(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1408970870L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "sampler()Lnet/minecraft/world/level/biome/Climate$Sampler;", cancellable = true)
+    private void sampler_1749185046(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1749185046L))
             info.setReturnValue(null);
     }
 
@@ -43,15 +49,9 @@ public class RandomState1313600112Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "sampler()Lnet/minecraft/world/level/biome/Climate$Sampler;", cancellable = true)
-    private void sampler_1749185046(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1749185046L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getOrCreateRandomFactory(Lnet/minecraft/resources/Identifier;)Lnet/minecraft/world/level/levelgen/PositionalRandomFactory;", cancellable = true)
-    private void getOrCreateRandomFactory__1408970870(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1408970870L))
+    @Inject(at = @At("HEAD"), method = "router()Lnet/minecraft/world/level/levelgen/NoiseRouter;", cancellable = true)
+    private void router_157596194(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(157596194L))
             info.setReturnValue(null);
     }
 

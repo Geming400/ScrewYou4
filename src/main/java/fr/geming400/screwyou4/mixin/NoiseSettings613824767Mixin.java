@@ -31,6 +31,24 @@ public class NoiseSettings613824767Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "minY()I", cancellable = true)
+    private void minY_652087013(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(652087013L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "height()I", cancellable = true)
+    private void height_652087013(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(652087013L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "clampToHeightAccessor(Lnet/minecraft/world/level/LevelHeightAccessor;)Lnet/minecraft/world/level/levelgen/NoiseSettings;", cancellable = true)
+    private void clampToHeightAccessor__2088661450(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2088661450L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "getCellHeight()I", cancellable = true)
     private void getCellHeight_652087013(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(652087013L))
@@ -43,12 +61,6 @@ public class NoiseSettings613824767Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "clampToHeightAccessor(Lnet/minecraft/world/level/LevelHeightAccessor;)Lnet/minecraft/world/level/levelgen/NoiseSettings;", cancellable = true)
-    private void clampToHeightAccessor__2088661450(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2088661450L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "noiseSizeHorizontal()I", cancellable = true)
     private void noiseSizeHorizontal_652087013(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(652087013L))
@@ -57,18 +69,6 @@ public class NoiseSettings613824767Mixin {
 
     @Inject(at = @At("HEAD"), method = "noiseSizeVertical()I", cancellable = true)
     private void noiseSizeVertical_652087013(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(652087013L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "minY()I", cancellable = true)
-    private void minY_652087013(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(652087013L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "height()I", cancellable = true)
-    private void height_652087013(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(652087013L))
             info.setReturnValue(null);
     }

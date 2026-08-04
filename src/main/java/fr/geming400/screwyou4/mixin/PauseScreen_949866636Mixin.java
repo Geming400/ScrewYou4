@@ -19,10 +19,10 @@ public class PauseScreen_949866636Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "extractBackground(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIF)V", cancellable = true)
-    private void extractBackground__9820737(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-9820737L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "showsPauseMenu()Z", cancellable = true)
+    private void showsPauseMenu_988145218(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(988145218L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIF)V", cancellable = true)
@@ -31,10 +31,10 @@ public class PauseScreen_949866636Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "showsPauseMenu()Z", cancellable = true)
-    private void showsPauseMenu_988145218(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(988145218L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "extractBackground(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIF)V", cancellable = true)
+    private void extractBackground__9820737(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-9820737L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "rendersNowPlayingToast()Z", cancellable = true)

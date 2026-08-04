@@ -25,15 +25,15 @@ public class PostChainConfig_494373051Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "internalTargets()Ljava/util/Map;", cancellable = true)
-    private void internalTargets__1510250590(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1510250590L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "passes()Ljava/util/List;", cancellable = true)
     private void passes_2120709866(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2120709866L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "internalTargets()Ljava/util/Map;", cancellable = true)
+    private void internalTargets__1510250590(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1510250590L))
             info.setReturnValue(null);
     }
 

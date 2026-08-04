@@ -13,15 +13,15 @@ public class RangeSlotSource794802632Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "provide(Lnet/minecraft/world/level/storage/loot/LootContext;)Lnet/minecraft/world/item/slot/SlotCollection;", cancellable = true)
-    private void provide__1471409691(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1471409691L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getReferencedContextParams()Ljava/util/Set;", cancellable = true)
     private void getReferencedContextParams__1034232854(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1034232854L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "provide(Lnet/minecraft/world/level/storage/loot/LootContext;)Lnet/minecraft/world/item/slot/SlotCollection;", cancellable = true)
+    private void provide__1471409691(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1471409691L))
             info.setReturnValue(null);
     }
 

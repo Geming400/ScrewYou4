@@ -37,14 +37,14 @@ public class TextRenderState1813814087Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "textOpacity()Lnet/minecraft/world/entity/Display$IntInterpolator;", cancellable = true)
-    private void textOpacity__130211812(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "backgroundColor()Lnet/minecraft/world/entity/Display$IntInterpolator;", cancellable = true)
+    private void backgroundColor__130211812(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-130211812L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "backgroundColor()Lnet/minecraft/world/entity/Display$IntInterpolator;", cancellable = true)
-    private void backgroundColor__130211812(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "textOpacity()Lnet/minecraft/world/entity/Display$IntInterpolator;", cancellable = true)
+    private void textOpacity__130211812(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-130211812L))
             info.setReturnValue(null);
     }

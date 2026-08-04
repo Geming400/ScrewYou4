@@ -55,12 +55,6 @@ public class Vec3_1654933363Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "add(Lnet/minecraft/world/phys/Vec3;)Lnet/minecraft/world/phys/Vec3;", cancellable = true)
-    private void add__950378889(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-950378889L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "add(DDD)Lnet/minecraft/world/phys/Vec3;", cancellable = true)
     private void add_839837407(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(839837407L))
@@ -70,6 +64,12 @@ public class Vec3_1654933363Mixin {
     @Inject(at = @At("HEAD"), method = "add(D)Lnet/minecraft/world/phys/Vec3;", cancellable = true)
     private void add_229119327(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(229119327L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "add(Lnet/minecraft/world/phys/Vec3;)Lnet/minecraft/world/phys/Vec3;", cancellable = true)
+    private void add__950378889(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-950378889L))
             info.setReturnValue(null);
     }
 
@@ -103,15 +103,15 @@ public class Vec3_1654933363Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "multiply(Lnet/minecraft/world/phys/Vec3;)Lnet/minecraft/world/phys/Vec3;", cancellable = true)
-    private void multiply__950378889(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-950378889L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "multiply(DDD)Lnet/minecraft/world/phys/Vec3;", cancellable = true)
     private void multiply_839837407(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(839837407L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "multiply(Lnet/minecraft/world/phys/Vec3;)Lnet/minecraft/world/phys/Vec3;", cancellable = true)
+    private void multiply__950378889(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-950378889L))
             info.setReturnValue(null);
     }
 
@@ -151,9 +151,129 @@ public class Vec3_1654933363Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "offsetRandom(Lnet/minecraft/util/RandomSource;F)Lnet/minecraft/world/phys/Vec3;", cancellable = true)
-    private void offsetRandom_296280897(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(296280897L))
+    @Inject(at = @At("HEAD"), method = "atCenterOf(Lnet/minecraft/core/Vec3i;)Lnet/minecraft/world/phys/Vec3;", cancellable = true)
+    private static void atCenterOf_480695780(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(480695780L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "horizontal()Lnet/minecraft/world/phys/Vec3;", cancellable = true)
+    private void horizontal__1542304405(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1542304405L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "upFromBottomCenterOf(Lnet/minecraft/core/Vec3i;D)Lnet/minecraft/world/phys/Vec3;", cancellable = true)
+    private static void upFromBottomCenterOf__1482391818(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1482391818L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "toVector3f()Lorg/joml/Vector3f;", cancellable = true)
+    private void toVector3f_1118343744(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1118343744L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "atLowerCornerWithOffset(Lnet/minecraft/core/Vec3i;DDD)Lnet/minecraft/world/phys/Vec3;", cancellable = true)
+    private static void atLowerCornerWithOffset_1049863350(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1049863350L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "cross(Lnet/minecraft/world/phys/Vec3;)Lnet/minecraft/world/phys/Vec3;", cancellable = true)
+    private void cross__950378889(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-950378889L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "atLowerCornerOf(Lnet/minecraft/core/Vec3i;)Lnet/minecraft/world/phys/Vec3;", cancellable = true)
+    private static void atLowerCornerOf_480695780(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(480695780L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "xRot(F)Lnet/minecraft/world/phys/Vec3;", cancellable = true)
+    private void xRot__614886175(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-614886175L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "rotation()Lnet/minecraft/world/phys/Vec2;", cancellable = true)
+    private void rotation__1542334196(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1542334196L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "yRot(F)Lnet/minecraft/world/phys/Vec3;", cancellable = true)
+    private void yRot__614886175(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-614886175L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "lerp(Lnet/minecraft/world/phys/Vec3;D)Lnet/minecraft/world/phys/Vec3;", cancellable = true)
+    private void lerp_1398941139(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1398941139L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "distanceToSqr(DDD)D", cancellable = true)
+    private void distanceToSqr_584509191(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(584509191L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "distanceToSqr(Lnet/minecraft/world/phys/Vec3;)D", cancellable = true)
+    private void distanceToSqr_2022652063(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2022652063L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "directionFromRotation(FF)Lnet/minecraft/world/phys/Vec3;", cancellable = true)
+    private static void directionFromRotation__1929691869(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1929691869L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "directionFromRotation(Lnet/minecraft/world/phys/Vec2;)Lnet/minecraft/world/phys/Vec3;", cancellable = true)
+    private static void directionFromRotation_1394288400(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1394288400L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "distanceTo(Lnet/minecraft/world/phys/Vec3;)D", cancellable = true)
+    private void distanceTo_2022652063(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2022652063L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "lengthSqr()D", cancellable = true)
+    private void lengthSqr_1693190803(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1693190803L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "closerThan(Lnet/minecraft/world/phys/Vec3;DD)Z", cancellable = true)
+    private void closerThan__704014667(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-704014667L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "closerThan(Lnet/minecraft/core/Position;D)Z", cancellable = true)
+    private void closerThan_1718085099(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1718085099L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "zRot(F)Lnet/minecraft/world/phys/Vec3;", cancellable = true)
+    private void zRot__614886175(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-614886175L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "vectorTo(Lnet/minecraft/world/phys/Vec3;)Lnet/minecraft/world/phys/Vec3;", cancellable = true)
+    private void vectorTo__950378889(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-950378889L))
             info.setReturnValue(null);
     }
 
@@ -175,123 +295,9 @@ public class Vec3_1654933363Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "directionFromRotation(Lnet/minecraft/world/phys/Vec2;)Lnet/minecraft/world/phys/Vec3;", cancellable = true)
-    private static void directionFromRotation_1394288400(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1394288400L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "directionFromRotation(FF)Lnet/minecraft/world/phys/Vec3;", cancellable = true)
-    private static void directionFromRotation__1929691869(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1929691869L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "distanceToSqr(DDD)D", cancellable = true)
-    private void distanceToSqr_584509191(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(584509191L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "distanceToSqr(Lnet/minecraft/world/phys/Vec3;)D", cancellable = true)
-    private void distanceToSqr_2022652063(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2022652063L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "atCenterOf(Lnet/minecraft/core/Vec3i;)Lnet/minecraft/world/phys/Vec3;", cancellable = true)
-    private static void atCenterOf_480695780(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(480695780L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "horizontal()Lnet/minecraft/world/phys/Vec3;", cancellable = true)
-    private void horizontal__1542304405(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1542304405L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "cross(Lnet/minecraft/world/phys/Vec3;)Lnet/minecraft/world/phys/Vec3;", cancellable = true)
-    private void cross__950378889(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "addLocalCoordinates(Lnet/minecraft/world/phys/Vec3;)Lnet/minecraft/world/phys/Vec3;", cancellable = true)
+    private void addLocalCoordinates__950378889(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-950378889L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "vectorTo(Lnet/minecraft/world/phys/Vec3;)Lnet/minecraft/world/phys/Vec3;", cancellable = true)
-    private void vectorTo__950378889(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-950378889L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "distanceTo(Lnet/minecraft/world/phys/Vec3;)D", cancellable = true)
-    private void distanceTo_2022652063(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2022652063L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "closerThan(Lnet/minecraft/world/phys/Vec3;DD)Z", cancellable = true)
-    private void closerThan__704014667(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-704014667L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "closerThan(Lnet/minecraft/core/Position;D)Z", cancellable = true)
-    private void closerThan_1718085099(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1718085099L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "lengthSqr()D", cancellable = true)
-    private void lengthSqr_1693190803(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1693190803L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "xRot(F)Lnet/minecraft/world/phys/Vec3;", cancellable = true)
-    private void xRot__614886175(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-614886175L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "yRot(F)Lnet/minecraft/world/phys/Vec3;", cancellable = true)
-    private void yRot__614886175(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-614886175L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "rotation()Lnet/minecraft/world/phys/Vec2;", cancellable = true)
-    private void rotation__1542334196(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1542334196L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "lerp(Lnet/minecraft/world/phys/Vec3;D)Lnet/minecraft/world/phys/Vec3;", cancellable = true)
-    private void lerp_1398941139(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1398941139L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "zRot(F)Lnet/minecraft/world/phys/Vec3;", cancellable = true)
-    private void zRot__614886175(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-614886175L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "toVector3f()Lorg/joml/Vector3f;", cancellable = true)
-    private void toVector3f_1118343744(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1118343744L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "atLowerCornerWithOffset(Lnet/minecraft/core/Vec3i;DDD)Lnet/minecraft/world/phys/Vec3;", cancellable = true)
-    private static void atLowerCornerWithOffset_1049863350(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1049863350L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "atLowerCornerOf(Lnet/minecraft/core/Vec3i;)Lnet/minecraft/world/phys/Vec3;", cancellable = true)
-    private static void atLowerCornerOf_480695780(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(480695780L))
             info.setReturnValue(null);
     }
 
@@ -301,9 +307,15 @@ public class Vec3_1654933363Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "rotateClockwise90()Lnet/minecraft/world/phys/Vec3;", cancellable = true)
-    private void rotateClockwise90__1542304405(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1542304405L))
+    @Inject(at = @At("HEAD"), method = "offsetRandomXZ(Lnet/minecraft/util/RandomSource;F)Lnet/minecraft/world/phys/Vec3;", cancellable = true)
+    private void offsetRandomXZ_296280897(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(296280897L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "offsetRandom(Lnet/minecraft/util/RandomSource;F)Lnet/minecraft/world/phys/Vec3;", cancellable = true)
+    private void offsetRandom_296280897(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(296280897L))
             info.setReturnValue(null);
     }
 
@@ -313,21 +325,9 @@ public class Vec3_1654933363Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "offsetRandomXZ(Lnet/minecraft/util/RandomSource;F)Lnet/minecraft/world/phys/Vec3;", cancellable = true)
-    private void offsetRandomXZ_296280897(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(296280897L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "addLocalCoordinates(Lnet/minecraft/world/phys/Vec3;)Lnet/minecraft/world/phys/Vec3;", cancellable = true)
-    private void addLocalCoordinates__950378889(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-950378889L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "upFromBottomCenterOf(Lnet/minecraft/core/Vec3i;D)Lnet/minecraft/world/phys/Vec3;", cancellable = true)
-    private static void upFromBottomCenterOf__1482391818(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1482391818L))
+    @Inject(at = @At("HEAD"), method = "rotateClockwise90()Lnet/minecraft/world/phys/Vec3;", cancellable = true)
+    private void rotateClockwise90__1542304405(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1542304405L))
             info.setReturnValue(null);
     }
 

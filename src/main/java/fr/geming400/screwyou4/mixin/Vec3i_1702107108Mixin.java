@@ -103,15 +103,33 @@ public class Vec3i_1702107108Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "relative(Lnet/minecraft/core/Direction;I)Lnet/minecraft/core/Vec3i;", cancellable = true)
+    private void relative__1551788010(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1551788010L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "relative(Lnet/minecraft/core/Direction$Axis;I)Lnet/minecraft/core/Vec3i;", cancellable = true)
     private void relative__157380417(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-157380417L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "relative(Lnet/minecraft/core/Direction;I)Lnet/minecraft/core/Vec3i;", cancellable = true)
-    private void relative__1551788010(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1551788010L))
+    @Inject(at = @At("HEAD"), method = "distSqr(Lnet/minecraft/core/Vec3i;)D", cancellable = true)
+    private void distSqr_84003397(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(84003397L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "distToCenterSqr(DDD)D", cancellable = true)
+    private void distToCenterSqr_631682936(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(631682936L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "distToCenterSqr(Lnet/minecraft/core/Position;)D", cancellable = true)
+    private void distToCenterSqr__236270730(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-236270730L))
             info.setReturnValue(null);
     }
 
@@ -127,8 +145,14 @@ public class Vec3i_1702107108Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "south(I)Lnet/minecraft/core/Vec3i;", cancellable = true)
-    private void south__1456730870(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "west()Lnet/minecraft/core/Vec3i;", cancellable = true)
+    private void west_1317708643(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1317708643L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "west(I)Lnet/minecraft/core/Vec3i;", cancellable = true)
+    private void west__1456730870(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1456730870L))
             info.setReturnValue(null);
     }
@@ -139,14 +163,8 @@ public class Vec3i_1702107108Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "west()Lnet/minecraft/core/Vec3i;", cancellable = true)
-    private void west_1317708643(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1317708643L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "west(I)Lnet/minecraft/core/Vec3i;", cancellable = true)
-    private void west__1456730870(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "south(I)Lnet/minecraft/core/Vec3i;", cancellable = true)
+    private void south__1456730870(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1456730870L))
             info.setReturnValue(null);
     }
@@ -181,15 +199,15 @@ public class Vec3i_1702107108Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "above(I)Lnet/minecraft/core/Vec3i;", cancellable = true)
-    private void above__1456730870(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1456730870L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "above()Lnet/minecraft/core/Vec3i;", cancellable = true)
     private void above_1317708643(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1317708643L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "above(I)Lnet/minecraft/core/Vec3i;", cancellable = true)
+    private void above__1456730870(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1456730870L))
             info.setReturnValue(null);
     }
 
@@ -199,39 +217,9 @@ public class Vec3i_1702107108Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "distToCenterSqr(DDD)D", cancellable = true)
-    private void distToCenterSqr_631682936(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(631682936L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "distToCenterSqr(Lnet/minecraft/core/Position;)D", cancellable = true)
-    private void distToCenterSqr__236270730(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-236270730L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "distSqr(Lnet/minecraft/core/Vec3i;)D", cancellable = true)
-    private void distSqr_84003397(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(84003397L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "toMutable()Lorg/joml/Vector3i;", cancellable = true)
-    private void toMutable_1165606862(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1165606862L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "distManhattan(Lnet/minecraft/core/Vec3i;)I", cancellable = true)
-    private void distManhattan_84008202(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "distChessboard(Lnet/minecraft/core/Vec3i;)I", cancellable = true)
+    private void distChessboard_84008202(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(84008202L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "closerToCenterThan(Lnet/minecraft/core/Position;D)Z", cancellable = true)
-    private void closerToCenterThan_1765258844(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1765258844L))
             info.setReturnValue(null);
     }
 
@@ -241,15 +229,27 @@ public class Vec3i_1702107108Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "distChessboard(Lnet/minecraft/core/Vec3i;)I", cancellable = true)
-    private void distChessboard_84008202(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "distToLowCornerSqr(DDD)D", cancellable = true)
+    private void distToLowCornerSqr_631682936(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(631682936L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "closerToCenterThan(Lnet/minecraft/core/Position;D)Z", cancellable = true)
+    private void closerToCenterThan_1765258844(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1765258844L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "distManhattan(Lnet/minecraft/core/Vec3i;)I", cancellable = true)
+    private void distManhattan_84008202(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(84008202L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "distToLowCornerSqr(DDD)D", cancellable = true)
-    private void distToLowCornerSqr_631682936(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(631682936L))
+    @Inject(at = @At("HEAD"), method = "toMutable()Lorg/joml/Vector3i;", cancellable = true)
+    private void toMutable_1165606862(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1165606862L))
             info.setReturnValue(null);
     }
 

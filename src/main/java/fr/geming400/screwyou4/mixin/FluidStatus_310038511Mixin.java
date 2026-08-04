@@ -31,15 +31,15 @@ public class FluidStatus_310038511Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "fluidLevel()I", cancellable = true)
-    private void fluidLevel_348300756(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(348300756L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "fluidType()Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
     private void fluidType__1985720356(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1985720356L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "fluidLevel()I", cancellable = true)
+    private void fluidLevel_348300756(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(348300756L))
             info.setReturnValue(null);
     }
 

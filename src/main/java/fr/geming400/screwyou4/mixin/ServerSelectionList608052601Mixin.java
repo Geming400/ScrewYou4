@@ -25,12 +25,6 @@ public class ServerSelectionList608052601Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getRowWidth()I", cancellable = true)
-    private void getRowWidth_646314847(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(646314847L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "setSelected(Lnet/minecraft/client/gui/screens/multiplayer/ServerSelectionList$Entry;)V", cancellable = true)
     private void setSelected__1792692537(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1792692537L))
@@ -41,6 +35,12 @@ public class ServerSelectionList608052601Mixin {
     private void setSelected__1829437662(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1829437662L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getRowWidth()I", cancellable = true)
+    private void getRowWidth_646314847(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(646314847L))
+            info.setReturnValue(null);
     }
 
 

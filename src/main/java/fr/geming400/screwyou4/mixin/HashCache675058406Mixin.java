@@ -7,13 +7,7 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.data.HashCache.class)
 public class HashCache675058406Mixin {
-        @Inject(at = @At("HEAD"), method = "generateUpdate(Ljava/lang/String;Lnet/minecraft/data/HashCache$UpdateFunction;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
-    private void generateUpdate__590113160(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-590113160L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "applyUpdate(Lnet/minecraft/data/HashCache$UpdateResult;)V", cancellable = true)
+        @Inject(at = @At("HEAD"), method = "applyUpdate(Lnet/minecraft/data/HashCache$UpdateResult;)V", cancellable = true)
     private void applyUpdate_2106113257(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(2106113257L))
             info.cancel();
@@ -28,6 +22,12 @@ public class HashCache675058406Mixin {
     @Inject(at = @At("HEAD"), method = "shouldRunInThisVersion(Ljava/lang/String;)Z", cancellable = true)
     private void shouldRunInThisVersion_1827423399(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1827423399L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "generateUpdate(Ljava/lang/String;Lnet/minecraft/data/HashCache$UpdateFunction;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
+    private void generateUpdate__590113160(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-590113160L))
             info.setReturnValue(null);
     }
 

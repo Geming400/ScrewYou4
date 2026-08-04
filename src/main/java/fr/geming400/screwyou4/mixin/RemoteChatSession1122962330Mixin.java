@@ -31,24 +31,6 @@ public class RemoteChatSession1122962330Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "createMessageDecoder(Ljava/util/UUID;)Lnet/minecraft/network/chat/SignedMessageChain$Decoder;", cancellable = true)
-    private void createMessageDecoder__363725030(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-363725030L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "profilePublicKey()Lnet/minecraft/world/entity/player/ProfilePublicKey;", cancellable = true)
-    private void profilePublicKey_27391016(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(27391016L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "hasExpired()Z", cancellable = true)
-    private void hasExpired_1161240913(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1161240913L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "createMessageValidator(Ljava/time/Duration;)Lnet/minecraft/network/chat/SignedMessageValidator;", cancellable = true)
     private void createMessageValidator__1103573477(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1103573477L))
@@ -58,6 +40,24 @@ public class RemoteChatSession1122962330Mixin {
     @Inject(at = @At("HEAD"), method = "asData()Lnet/minecraft/network/chat/RemoteChatSession$Data;", cancellable = true)
     private void asData__695854714(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-695854714L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "profilePublicKey()Lnet/minecraft/world/entity/player/ProfilePublicKey;", cancellable = true)
+    private void profilePublicKey_27391016(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(27391016L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "createMessageDecoder(Ljava/util/UUID;)Lnet/minecraft/network/chat/SignedMessageChain$Decoder;", cancellable = true)
+    private void createMessageDecoder__363725030(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-363725030L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "hasExpired()Z", cancellable = true)
+    private void hasExpired_1161240913(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1161240913L))
             info.setReturnValue(null);
     }
 

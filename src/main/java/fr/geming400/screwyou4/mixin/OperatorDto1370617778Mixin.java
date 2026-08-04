@@ -31,15 +31,15 @@ public class OperatorDto1370617778Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "permissionLevel()Ljava/util/Optional;", cancellable = true)
-    private void permissionLevel_1616079200(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1616079200L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "player()Lnet/minecraft/server/jsonrpc/api/PlayerDto;", cancellable = true)
     private void player_527932641(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(527932641L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "permissionLevel()Ljava/util/Optional;", cancellable = true)
+    private void permissionLevel_1616079200(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1616079200L))
             info.setReturnValue(null);
     }
 

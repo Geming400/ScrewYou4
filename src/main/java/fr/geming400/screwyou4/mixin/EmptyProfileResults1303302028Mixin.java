@@ -19,12 +19,6 @@ public class EmptyProfileResults1303302028Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getEndTimeNano()J", cancellable = true)
-    private void getEndTimeNano_1341565235(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1341565235L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getEndTimeTicks()I", cancellable = true)
     private void getEndTimeTicks_1341564274(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1341564274L))
@@ -46,6 +40,12 @@ public class EmptyProfileResults1303302028Mixin {
     @Inject(at = @At("HEAD"), method = "getStartTimeTicks()I", cancellable = true)
     private void getStartTimeTicks_1341564274(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1341564274L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getEndTimeNano()J", cancellable = true)
+    private void getEndTimeNano_1341565235(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1341565235L))
             info.setReturnValue(null);
     }
 

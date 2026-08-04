@@ -19,27 +19,15 @@ public class SignText_1783739328Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "setMessage(ILnet/minecraft/network/chat/Component;Lnet/minecraft/network/chat/Component;)Lnet/minecraft/world/level/block/entity/SignText;", cancellable = true)
-    private void setMessage__1235189684(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1235189684L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "setMessage(ILnet/minecraft/network/chat/Component;)Lnet/minecraft/world/level/block/entity/SignText;", cancellable = true)
     private void setMessage_218902776(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(218902776L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "hasGlowingText()Z", cancellable = true)
-    private void hasGlowingText_1822017910(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1822017910L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getColor()Lnet/minecraft/world/item/DyeColor;", cancellable = true)
-    private void getColor__1075919739(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1075919739L))
+    @Inject(at = @At("HEAD"), method = "setMessage(ILnet/minecraft/network/chat/Component;Lnet/minecraft/network/chat/Component;)Lnet/minecraft/world/level/block/entity/SignText;", cancellable = true)
+    private void setMessage__1235189684(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1235189684L))
             info.setReturnValue(null);
     }
 
@@ -49,9 +37,21 @@ public class SignText_1783739328Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "hasAnyClickCommands(Lnet/minecraft/world/entity/player/Player;)Z", cancellable = true)
-    private void hasAnyClickCommands__1570622479(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1570622479L))
+    @Inject(at = @At("HEAD"), method = "getColor()Lnet/minecraft/world/item/DyeColor;", cancellable = true)
+    private void getColor__1075919739(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1075919739L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "hasGlowingText()Z", cancellable = true)
+    private void hasGlowingText_1822017910(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1822017910L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getMessages(Z)[Lnet/minecraft/network/chat/Component;", cancellable = true)
+    private void getMessages_1966061141(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1966061141L))
             info.setReturnValue(null);
     }
 
@@ -61,15 +61,15 @@ public class SignText_1783739328Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "setHasGlowingText(Z)Lnet/minecraft/world/level/block/entity/SignText;", cancellable = true)
-    private void setHasGlowingText_826035253(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(826035253L))
+    @Inject(at = @At("HEAD"), method = "hasAnyClickCommands(Lnet/minecraft/world/entity/player/Player;)Z", cancellable = true)
+    private void hasAnyClickCommands__1570622479(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1570622479L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getMessages(Z)[Lnet/minecraft/network/chat/Component;", cancellable = true)
-    private void getMessages_1966061141(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1966061141L))
+    @Inject(at = @At("HEAD"), method = "setHasGlowingText(Z)Lnet/minecraft/world/level/block/entity/SignText;", cancellable = true)
+    private void setHasGlowingText_826035253(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(826035253L))
             info.setReturnValue(null);
     }
 

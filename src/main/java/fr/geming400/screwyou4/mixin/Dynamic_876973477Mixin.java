@@ -25,16 +25,16 @@ public class Dynamic_876973477Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "addToTooltip(Lnet/minecraft/world/item/Item$TooltipContext;Ljava/util/function/Consumer;Lnet/minecraft/world/item/TooltipFlag;Lnet/minecraft/core/component/DataComponentGetter;)V", cancellable = true)
-    private void addToTooltip__1665744914(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1665744914L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "resolveProfile(Lnet/minecraft/server/players/ProfileResolver;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
     private void resolveProfile__147301812(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-147301812L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "addToTooltip(Lnet/minecraft/world/item/Item$TooltipContext;Ljava/util/function/Consumer;Lnet/minecraft/world/item/TooltipFlag;Lnet/minecraft/core/component/DataComponentGetter;)V", cancellable = true)
+    private void addToTooltip__1665744914(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1665744914L))
+            info.cancel();
     }
 
 

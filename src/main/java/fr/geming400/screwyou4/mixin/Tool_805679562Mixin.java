@@ -37,9 +37,9 @@ public class Tool_805679562Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "isCorrectForDrops(Lnet/minecraft/world/level/block/state/BlockState;)Z", cancellable = true)
-    private void isCorrectForDrops_660390575(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(660390575L))
+    @Inject(at = @At("HEAD"), method = "defaultMiningSpeed()F", cancellable = true)
+    private void defaultMiningSpeed_843938924(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(843938924L))
             info.setReturnValue(null);
     }
 
@@ -55,9 +55,9 @@ public class Tool_805679562Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "defaultMiningSpeed()F", cancellable = true)
-    private void defaultMiningSpeed_843938924(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(843938924L))
+    @Inject(at = @At("HEAD"), method = "isCorrectForDrops(Lnet/minecraft/world/level/block/state/BlockState;)Z", cancellable = true)
+    private void isCorrectForDrops_660390575(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(660390575L))
             info.setReturnValue(null);
     }
 

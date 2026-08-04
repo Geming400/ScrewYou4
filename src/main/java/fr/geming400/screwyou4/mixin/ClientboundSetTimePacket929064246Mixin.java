@@ -43,15 +43,15 @@ public class ClientboundSetTimePacket929064246Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "gameTime()J", cancellable = true)
-    private void gameTime_967327453(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(967327453L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "clockUpdates()Ljava/util/Map;", cancellable = true)
     private void clockUpdates__1075559394(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1075559394L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "gameTime()J", cancellable = true)
+    private void gameTime_967327453(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(967327453L))
             info.setReturnValue(null);
     }
 

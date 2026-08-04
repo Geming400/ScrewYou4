@@ -43,21 +43,15 @@ public class CustomBossEvent527403950Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "removePlayer(Lnet/minecraft/server/level/ServerPlayer;)V", cancellable = true)
-    private void removePlayer__242157903(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-242157903L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "setMax(I)V", cancellable = true)
     private void setMax_1741320922(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1741320922L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "setDirty()V", cancellable = true)
-    private void setDirty_565678689(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(565678689L))
+    @Inject(at = @At("HEAD"), method = "removePlayer(Lnet/minecraft/server/level/ServerPlayer;)V", cancellable = true)
+    private void removePlayer__242157903(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-242157903L))
             info.cancel();
     }
 
@@ -67,15 +61,9 @@ public class CustomBossEvent527403950Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "onPlayerDisconnect(Lnet/minecraft/server/level/ServerPlayer;)V", cancellable = true)
-    private void onPlayerDisconnect__242157903(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-242157903L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "onPlayerConnect(Lnet/minecraft/server/level/ServerPlayer;)V", cancellable = true)
-    private void onPlayerConnect__242157903(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-242157903L))
+    @Inject(at = @At("HEAD"), method = "setDirty()V", cancellable = true)
+    private void setDirty_565678689(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(565678689L))
             info.cancel();
     }
 
@@ -94,6 +82,18 @@ public class CustomBossEvent527403950Mixin {
     @Inject(at = @At("HEAD"), method = "removeAllPlayers()V", cancellable = true)
     private void removeAllPlayers_565678689(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(565678689L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "onPlayerConnect(Lnet/minecraft/server/level/ServerPlayer;)V", cancellable = true)
+    private void onPlayerConnect__242157903(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-242157903L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "onPlayerDisconnect(Lnet/minecraft/server/level/ServerPlayer;)V", cancellable = true)
+    private void onPlayerDisconnect__242157903(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-242157903L))
             info.cancel();
     }
 

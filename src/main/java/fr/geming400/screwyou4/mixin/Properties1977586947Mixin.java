@@ -25,9 +25,9 @@ public class Properties1977586947Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "swapAnimationScale()F", cancellable = true)
-    private void swapAnimationScale_2015846310(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2015846310L))
+    @Inject(at = @At("HEAD"), method = "oversizedInGui()Z", cancellable = true)
+    private void oversizedInGui_2015865530(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2015865530L))
             info.setReturnValue(null);
     }
 
@@ -37,9 +37,9 @@ public class Properties1977586947Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "oversizedInGui()Z", cancellable = true)
-    private void oversizedInGui_2015865530(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2015865530L))
+    @Inject(at = @At("HEAD"), method = "swapAnimationScale()F", cancellable = true)
+    private void swapAnimationScale_2015846310(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2015846310L))
             info.setReturnValue(null);
     }
 

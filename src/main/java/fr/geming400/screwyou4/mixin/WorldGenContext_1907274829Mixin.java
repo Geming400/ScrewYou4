@@ -37,6 +37,12 @@ public class WorldGenContext_1907274829Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "mainThreadExecutor()Ljava/util/concurrent/Executor;", cancellable = true)
+    private void mainThreadExecutor_1600972229(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1600972229L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "structureManager()Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplateManager;", cancellable = true)
     private void structureManager__263882505(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-263882505L))
@@ -46,12 +52,6 @@ public class WorldGenContext_1907274829Mixin {
     @Inject(at = @At("HEAD"), method = "lightEngine()Lnet/minecraft/server/level/ThreadedLevelLightEngine;", cancellable = true)
     private void lightEngine_995751696(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(995751696L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "mainThreadExecutor()Ljava/util/concurrent/Executor;", cancellable = true)
-    private void mainThreadExecutor_1600972229(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1600972229L))
             info.setReturnValue(null);
     }
 

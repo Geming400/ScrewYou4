@@ -37,15 +37,15 @@ public class ClientItem1398269794Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "withRegistrySwapper(Lnet/minecraft/util/RegistryContextSwapper;)Lnet/minecraft/client/renderer/item/ClientItem;", cancellable = true)
-    private void withRegistrySwapper_829342350(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(829342350L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "registrySwapper()Lnet/minecraft/util/RegistryContextSwapper;", cancellable = true)
     private void registrySwapper_196756117(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(196756117L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "withRegistrySwapper(Lnet/minecraft/util/RegistryContextSwapper;)Lnet/minecraft/client/renderer/item/ClientItem;", cancellable = true)
+    private void withRegistrySwapper_829342350(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(829342350L))
             info.setReturnValue(null);
     }
 

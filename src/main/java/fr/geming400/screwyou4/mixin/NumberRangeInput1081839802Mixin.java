@@ -49,15 +49,15 @@ public class NumberRangeInput1081839802Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "computeLabel(Ljava/lang/String;)Lnet/minecraft/network/chat/Component;", cancellable = true)
-    private void computeLabel__446786685(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-446786685L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "labelFormat()Ljava/lang/String;", cancellable = true)
     private void labelFormat__53620669(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-53620669L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "computeLabel(Ljava/lang/String;)Lnet/minecraft/network/chat/Component;", cancellable = true)
+    private void computeLabel__446786685(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-446786685L))
             info.setReturnValue(null);
     }
 

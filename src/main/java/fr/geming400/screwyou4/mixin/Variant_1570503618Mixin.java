@@ -43,14 +43,14 @@ public class Variant_1570503618Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getRareSpawnVariant(Lnet/minecraft/util/RandomSource;)Lnet/minecraft/world/entity/animal/axolotl/Axolotl$Variant;", cancellable = true)
-    private static void getRareSpawnVariant_379314813(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "getCommonSpawnVariant(Lnet/minecraft/util/RandomSource;)Lnet/minecraft/world/entity/animal/axolotl/Axolotl$Variant;", cancellable = true)
+    private static void getCommonSpawnVariant_379314813(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(379314813L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getCommonSpawnVariant(Lnet/minecraft/util/RandomSource;)Lnet/minecraft/world/entity/animal/axolotl/Axolotl$Variant;", cancellable = true)
-    private static void getCommonSpawnVariant_379314813(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "getRareSpawnVariant(Lnet/minecraft/util/RandomSource;)Lnet/minecraft/world/entity/animal/axolotl/Axolotl$Variant;", cancellable = true)
+    private static void getRareSpawnVariant_379314813(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(379314813L))
             info.setReturnValue(null);
     }

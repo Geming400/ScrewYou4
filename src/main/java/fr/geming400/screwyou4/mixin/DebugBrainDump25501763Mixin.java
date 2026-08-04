@@ -43,51 +43,9 @@ public class DebugBrainDump25501763Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "health()F", cancellable = true)
-    private void health_63761126(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(63761126L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "maxHealth()F", cancellable = true)
-    private void maxHealth_63761126(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(63761126L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "inventory()Ljava/lang/String;", cancellable = true)
     private void inventory__1109958708(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1109958708L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "pois()Ljava/util/Set;", cancellable = true)
-    private void pois__1803533723(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1803533723L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "behaviors()Ljava/util/List;", cancellable = true)
-    private void behaviors_1651838579(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1651838579L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "memories()Ljava/util/List;", cancellable = true)
-    private void memories_1651838579(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1651838579L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "profession()Ljava/lang/String;", cancellable = true)
-    private void profession__1109958708(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1109958708L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "activities()Ljava/util/List;", cancellable = true)
-    private void activities_1651838579(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1651838579L))
             info.setReturnValue(null);
     }
 
@@ -109,9 +67,39 @@ public class DebugBrainDump25501763Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "pois()Ljava/util/Set;", cancellable = true)
+    private void pois__1803533723(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1803533723L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "memories()Ljava/util/List;", cancellable = true)
+    private void memories_1651838579(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1651838579L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "hasPoi(Lnet/minecraft/core/BlockPos;)Z", cancellable = true)
     private void hasPoi_194272206(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(194272206L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "activities()Ljava/util/List;", cancellable = true)
+    private void activities_1651838579(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1651838579L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "profession()Ljava/lang/String;", cancellable = true)
+    private void profession__1109958708(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1109958708L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "behaviors()Ljava/util/List;", cancellable = true)
+    private void behaviors_1651838579(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1651838579L))
             info.setReturnValue(null);
     }
 
@@ -124,6 +112,18 @@ public class DebugBrainDump25501763Mixin {
     @Inject(at = @At("HEAD"), method = "hasPotentialPoi(Lnet/minecraft/core/BlockPos;)Z", cancellable = true)
     private void hasPotentialPoi_194272206(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(194272206L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "maxHealth()F", cancellable = true)
+    private void maxHealth_63761126(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(63761126L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "health()F", cancellable = true)
+    private void health_63761126(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(63761126L))
             info.setReturnValue(null);
     }
 

@@ -7,10 +7,10 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.client.gui.screens.inventory.BookSignScreen.class)
 public class BookSignScreen_250720546Mixin {
-        @Inject(at = @At("HEAD"), method = "extractBackground(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIF)V", cancellable = true)
-    private void extractBackground__708966827(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-708966827L))
-            info.cancel();
+        @Inject(at = @At("HEAD"), method = "keyPressed(Lnet/minecraft/client/input/KeyEvent;)Z", cancellable = true)
+    private void keyPressed__665915169(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-665915169L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIF)V", cancellable = true)
@@ -19,15 +19,15 @@ public class BookSignScreen_250720546Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "extractBackground(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIF)V", cancellable = true)
+    private void extractBackground__708966827(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-708966827L))
+            info.cancel();
+    }
+
     @Inject(at = @At("HEAD"), method = "isInGameUi()Z", cancellable = true)
     private void isInGameUi_288999128(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(288999128L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "keyPressed(Lnet/minecraft/client/input/KeyEvent;)Z", cancellable = true)
-    private void keyPressed__665915169(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-665915169L))
             info.setReturnValue(null);
     }
 

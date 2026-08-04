@@ -19,15 +19,15 @@ public class BlockModelLighter248228985Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "enableCaching()V", cancellable = true)
-    private static void enableCaching_286503972(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(286503972L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "prepareQuadFlat(Lnet/minecraft/client/renderer/block/BlockAndTintGetter;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/BlockPos;ILnet/minecraft/client/resources/model/geometry/BakedQuad;Lcom/mojang/blaze3d/vertex/QuadInstance;)V", cancellable = true)
     private void prepareQuadFlat_492641868(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(492641868L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "enableCaching()V", cancellable = true)
+    private static void enableCaching_286503972(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(286503972L))
             info.cancel();
     }
 

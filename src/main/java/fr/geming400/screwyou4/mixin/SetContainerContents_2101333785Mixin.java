@@ -19,15 +19,15 @@ public class SetContainerContents_2101333785Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "setContents(Lnet/minecraft/world/level/storage/loot/ContainerComponentManipulator;)Lnet/minecraft/world/level/storage/loot/functions/SetContainerContents$Builder;", cancellable = true)
-    private static void setContents_1388300397(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1388300397L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
     private void codec__457779788(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-457779788L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "setContents(Lnet/minecraft/world/level/storage/loot/ContainerComponentManipulator;)Lnet/minecraft/world/level/storage/loot/functions/SetContainerContents$Builder;", cancellable = true)
+    private static void setContents_1388300397(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1388300397L))
             info.setReturnValue(null);
     }
 

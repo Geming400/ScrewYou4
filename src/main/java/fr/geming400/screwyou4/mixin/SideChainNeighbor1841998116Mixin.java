@@ -61,6 +61,12 @@ public class SideChainNeighbor1841998116Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "connectToTheLeft()V", cancellable = true)
+    private void connectToTheLeft_1880272855(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1880272855L))
+            info.cancel();
+    }
+
     @Inject(at = @At("HEAD"), method = "connectsTowards(Lnet/minecraft/world/level/block/state/properties/SideChainPart;)Z", cancellable = true)
     private void connectsTowards__1462584947(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1462584947L))
@@ -75,12 +81,6 @@ public class SideChainNeighbor1841998116Mixin {
 
     @Inject(at = @At("HEAD"), method = "disconnectFromRight()V", cancellable = true)
     private void disconnectFromRight_1880272855(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1880272855L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "connectToTheLeft()V", cancellable = true)
-    private void connectToTheLeft_1880272855(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1880272855L))
             info.cancel();
     }

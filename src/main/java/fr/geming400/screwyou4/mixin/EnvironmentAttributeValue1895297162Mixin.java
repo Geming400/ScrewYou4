@@ -43,15 +43,15 @@ public class EnvironmentAttributeValue1895297162Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "forEnvironmentAttribute(Lnet/minecraft/world/attribute/EnvironmentAttribute;)Lnet/minecraft/world/level/storage/loot/providers/number/EnvironmentAttributeValue;", cancellable = true)
-    private static void forEnvironmentAttribute_937775778(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(937775778L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getReferencedContextParams()Ljava/util/Set;", cancellable = true)
     private void getReferencedContextParams_66261676(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(66261676L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "forEnvironmentAttribute(Lnet/minecraft/world/attribute/EnvironmentAttribute;)Lnet/minecraft/world/level/storage/loot/providers/number/EnvironmentAttributeValue;", cancellable = true)
+    private static void forEnvironmentAttribute_937775778(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(937775778L))
             info.setReturnValue(null);
     }
 

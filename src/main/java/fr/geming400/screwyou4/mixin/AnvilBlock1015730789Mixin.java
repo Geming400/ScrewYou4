@@ -7,15 +7,15 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.world.level.block.AnvilBlock.class)
 public class AnvilBlock1015730789Mixin {
-        @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
-    private void codec__1543382783(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1543382783L))
+        @Inject(at = @At("HEAD"), method = "damage(Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
+    private static void damage_678180860(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(678180860L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "damage(Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
-    private static void damage_678180860(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(678180860L))
+    @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
+    private void codec__1543382783(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1543382783L))
             info.setReturnValue(null);
     }
 

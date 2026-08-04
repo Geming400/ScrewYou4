@@ -7,15 +7,15 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.world.level.block.grower.TreeGrower.class)
 public class TreeGrower_1830992374Mixin {
-        @Inject(at = @At("HEAD"), method = "growTree(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/level/chunk/ChunkGenerator;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/util/RandomSource;)Z", cancellable = true)
-    private void growTree_1634555365(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1634555365L))
+        @Inject(at = @At("HEAD"), method = "getMinimumHeight(Lnet/minecraft/server/level/ServerLevel;)Ljava/util/OptionalInt;", cancellable = true)
+    private void getMinimumHeight_1116237051(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1116237051L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getMinimumHeight(Lnet/minecraft/server/level/ServerLevel;)Ljava/util/OptionalInt;", cancellable = true)
-    private void getMinimumHeight_1116237051(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1116237051L))
+    @Inject(at = @At("HEAD"), method = "growTree(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/level/chunk/ChunkGenerator;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/util/RandomSource;)Z", cancellable = true)
+    private void growTree_1634555365(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1634555365L))
             info.setReturnValue(null);
     }
 

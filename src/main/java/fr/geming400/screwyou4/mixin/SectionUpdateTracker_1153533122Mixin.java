@@ -13,16 +13,16 @@ public class SectionUpdateTracker_1153533122Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "hasAllNeighbors(Lnet/minecraft/client/multiplayer/ClientLevel;J)Z", cancellable = true)
-    private void hasAllNeighbors_982586135(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(982586135L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "repositionCamera(Lnet/minecraft/core/SectionPos;)V", cancellable = true)
     private void repositionCamera_64739744(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(64739744L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "hasAllNeighbors(Lnet/minecraft/client/multiplayer/ClientLevel;J)Z", cancellable = true)
+    private void hasAllNeighbors_982586135(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(982586135L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getDirtyState(J)Lnet/minecraft/client/SectionUpdateTracker$SectionDirtyState;", cancellable = true)

@@ -25,14 +25,26 @@ public class SpeleothemConfiguration42920590Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "chanceOfTallerGeneration()F", cancellable = true)
-    private void chanceOfTallerGeneration_81179953(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(81179953L))
+    @Inject(at = @At("HEAD"), method = "replaceableBlocks()Lnet/minecraft/core/HolderSet;", cancellable = true)
+    private void replaceableBlocks_1662873634(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1662873634L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "baseBlock()Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
+    private void baseBlock_2042129020(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2042129020L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "chanceOfDirectionalSpread()F", cancellable = true)
     private void chanceOfDirectionalSpread_81179953(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(81179953L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "chanceOfTallerGeneration()F", cancellable = true)
+    private void chanceOfTallerGeneration_81179953(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(81179953L))
             info.setReturnValue(null);
     }
@@ -52,18 +64,6 @@ public class SpeleothemConfiguration42920590Mixin {
     @Inject(at = @At("HEAD"), method = "pointedBlock()Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
     private void pointedBlock_2042129020(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2042129020L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "baseBlock()Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
-    private void baseBlock_2042129020(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2042129020L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "replaceableBlocks()Lnet/minecraft/core/HolderSet;", cancellable = true)
-    private void replaceableBlocks_1662873634(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1662873634L))
             info.setReturnValue(null);
     }
 

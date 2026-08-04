@@ -13,15 +13,15 @@ public class DispenserBlockEntity950157649Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "insertItem(Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/world/item/ItemStack;", cancellable = true)
-    private void insertItem_903614768(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(903614768L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getRandomSlot(Lnet/minecraft/util/RandomSource;)I", cancellable = true)
     private void getRandomSlot__756869929(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-756869929L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "insertItem(Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/world/item/ItemStack;", cancellable = true)
+    private void insertItem_903614768(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(903614768L))
             info.setReturnValue(null);
     }
 

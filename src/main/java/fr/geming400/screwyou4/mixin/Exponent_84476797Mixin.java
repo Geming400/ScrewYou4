@@ -37,15 +37,15 @@ public class Exponent_84476797Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "calculate(I)F", cancellable = true)
-    private void calculate_1298378392(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1298378392L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
     private void codec_1820330520(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1820330520L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "calculate(I)F", cancellable = true)
+    private void calculate_1298378392(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1298378392L))
             info.setReturnValue(null);
     }
 

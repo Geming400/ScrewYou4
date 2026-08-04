@@ -37,12 +37,6 @@ public class DirectPoolAlias_1402738099Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "forEachResolved(Lnet/minecraft/util/RandomSource;Ljava/util/function/BiConsumer;)V", cancellable = true)
-    private void forEachResolved_575754280(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(575754280L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
     private void codec__1156375474(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1156375474L))
@@ -53,6 +47,12 @@ public class DirectPoolAlias_1402738099Mixin {
     private void allTargets_1192031783(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1192031783L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "forEachResolved(Lnet/minecraft/util/RandomSource;Ljava/util/function/BiConsumer;)V", cancellable = true)
+    private void forEachResolved_575754280(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(575754280L))
+            info.cancel();
     }
 
 

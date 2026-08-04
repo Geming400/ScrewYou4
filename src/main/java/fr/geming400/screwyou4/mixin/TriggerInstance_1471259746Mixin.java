@@ -43,15 +43,15 @@ public class TriggerInstance_1471259746Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "player()Ljava/util/Optional;", cancellable = true)
-    private void player_1716721167(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1716721167L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "levitated(Lnet/minecraft/advancements/predicates/DistancePredicate;)Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
     private static void levitated__216476472(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-216476472L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "player()Ljava/util/Optional;", cancellable = true)
+    private void player_1716721167(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1716721167L))
             info.setReturnValue(null);
     }
 

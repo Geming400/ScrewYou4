@@ -7,15 +7,15 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.util.ParticleUtils.class)
 public class ParticleUtils1075868637Mixin {
-        @Inject(at = @At("HEAD"), method = "spawnParticlesOnBlockFaces(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/particles/ParticleOptions;Lnet/minecraft/util/valueproviders/IntProvider;)V", cancellable = true)
-    private static void spawnParticlesOnBlockFaces__2026182582(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-2026182582L))
+        @Inject(at = @At("HEAD"), method = "spawnParticlesOnBlockFace(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/particles/ParticleOptions;Lnet/minecraft/util/valueproviders/IntProvider;Lnet/minecraft/core/Direction;Ljava/util/function/Supplier;D)V", cancellable = true)
+    private static void spawnParticlesOnBlockFace__1816226250(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1816226250L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "spawnParticlesOnBlockFace(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/particles/ParticleOptions;Lnet/minecraft/util/valueproviders/IntProvider;Lnet/minecraft/core/Direction;Ljava/util/function/Supplier;D)V", cancellable = true)
-    private static void spawnParticlesOnBlockFace__1816226250(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1816226250L))
+    @Inject(at = @At("HEAD"), method = "spawnParticleInBlock(Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/core/BlockPos;ILnet/minecraft/core/particles/ParticleOptions;)V", cancellable = true)
+    private static void spawnParticleInBlock_333618666(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(333618666L))
             info.cancel();
     }
 
@@ -31,9 +31,9 @@ public class ParticleUtils1075868637Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "spawnParticleInBlock(Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/core/BlockPos;ILnet/minecraft/core/particles/ParticleOptions;)V", cancellable = true)
-    private static void spawnParticleInBlock_333618666(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(333618666L))
+    @Inject(at = @At("HEAD"), method = "spawnParticlesOnBlockFaces(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/particles/ParticleOptions;Lnet/minecraft/util/valueproviders/IntProvider;)V", cancellable = true)
+    private static void spawnParticlesOnBlockFaces__2026182582(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-2026182582L))
             info.cancel();
     }
 

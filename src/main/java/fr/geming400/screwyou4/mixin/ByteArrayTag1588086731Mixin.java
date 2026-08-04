@@ -109,6 +109,12 @@ public class ByteArrayTag1588086731Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "setTag(ILnet/minecraft/nbt/Tag;)Z", cancellable = true)
+    private void setTag__960665047(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-960665047L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "addTag(ILnet/minecraft/nbt/Tag;)Z", cancellable = true)
     private void addTag__960665047(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-960665047L))
@@ -118,12 +124,6 @@ public class ByteArrayTag1588086731Mixin {
     @Inject(at = @At("HEAD"), method = "getAsByteArray()[B", cancellable = true)
     private void getAsByteArray__1521045935(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1521045935L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "setTag(ILnet/minecraft/nbt/Tag;)Z", cancellable = true)
-    private void setTag__960665047(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-960665047L))
             info.setReturnValue(null);
     }
 

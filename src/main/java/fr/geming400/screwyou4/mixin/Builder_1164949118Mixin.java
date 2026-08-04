@@ -37,6 +37,36 @@ public class Builder_1164949118Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "customFenceGate(Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/data/BlockFamily$Builder;", cancellable = true)
+    private void customFenceGate_2032519628(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2032519628L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "customFence(Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/data/BlockFamily$Builder;", cancellable = true)
+    private void customFence_2032519628(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2032519628L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "customHangingSign(Lnet/minecraft/world/level/block/Block;Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/data/BlockFamily$Builder;", cancellable = true)
+    private void customHangingSign_1143830804(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1143830804L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "hangingSign(Lnet/minecraft/world/level/block/Block;Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/data/BlockFamily$Builder;", cancellable = true)
+    private void hangingSign_1143830804(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1143830804L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "pressurePlate(Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/data/BlockFamily$Builder;", cancellable = true)
+    private void pressurePlate_2032519628(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2032519628L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "door(Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/data/BlockFamily$Builder;", cancellable = true)
     private void door_2032519628(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2032519628L))
@@ -45,6 +75,24 @@ public class Builder_1164949118Mixin {
 
     @Inject(at = @At("HEAD"), method = "trapdoor(Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/data/BlockFamily$Builder;", cancellable = true)
     private void trapdoor_2032519628(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2032519628L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "button(Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/data/BlockFamily$Builder;", cancellable = true)
+    private void button_2032519628(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2032519628L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "cut(Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/data/BlockFamily$Builder;", cancellable = true)
+    private void cut_2032519628(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2032519628L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "fenceGate(Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/data/BlockFamily$Builder;", cancellable = true)
+    private void fenceGate_2032519628(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2032519628L))
             info.setReturnValue(null);
     }
@@ -67,98 +115,20 @@ public class Builder_1164949118Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "fenceGate(Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/data/BlockFamily$Builder;", cancellable = true)
-    private void fenceGate_2032519628(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "bricks(Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/data/BlockFamily$Builder;", cancellable = true)
+    private void bricks_2032519628(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2032519628L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "customHangingSign(Lnet/minecraft/world/level/block/Block;Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/data/BlockFamily$Builder;", cancellable = true)
-    private void customHangingSign_1143830804(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1143830804L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "customFence(Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/data/BlockFamily$Builder;", cancellable = true)
-    private void customFence_2032519628(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "mosaic(Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/data/BlockFamily$Builder;", cancellable = true)
+    private void mosaic_2032519628(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2032519628L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "hangingSign(Lnet/minecraft/world/level/block/Block;Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/data/BlockFamily$Builder;", cancellable = true)
-    private void hangingSign_1143830804(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1143830804L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "pressurePlate(Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/data/BlockFamily$Builder;", cancellable = true)
-    private void pressurePlate_2032519628(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2032519628L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "customFenceGate(Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/data/BlockFamily$Builder;", cancellable = true)
-    private void customFenceGate_2032519628(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2032519628L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "button(Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/data/BlockFamily$Builder;", cancellable = true)
-    private void button_2032519628(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2032519628L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "cut(Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/data/BlockFamily$Builder;", cancellable = true)
-    private void cut_2032519628(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2032519628L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "generateStonecutterRecipe()Lnet/minecraft/data/BlockFamily$Builder;", cancellable = true)
-    private void generateStonecutterRecipe_1609660436(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1609660436L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "dontGenerateModel()Lnet/minecraft/data/BlockFamily$Builder;", cancellable = true)
-    private void dontGenerateModel_1609660436(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1609660436L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "recipeGroupPrefix(Ljava/lang/String;)Lnet/minecraft/data/BlockFamily$Builder;", cancellable = true)
-    private void recipeGroupPrefix_1839056074(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1839056074L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "strippedLog(Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/data/BlockFamily$Builder;", cancellable = true)
-    private void strippedLog_2032519628(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2032519628L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "recipeUnlockedBy(Ljava/lang/String;)Lnet/minecraft/data/BlockFamily$Builder;", cancellable = true)
-    private void recipeUnlockedBy_1839056074(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1839056074L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "dontGenerateCraftingRecipe()Lnet/minecraft/data/BlockFamily$Builder;", cancellable = true)
-    private void dontGenerateCraftingRecipe_1609660436(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1609660436L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "dontGenerateSmeltingRecipe()Lnet/minecraft/data/BlockFamily$Builder;", cancellable = true)
-    private void dontGenerateSmeltingRecipe_1609660436(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1609660436L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "tiles(Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/data/BlockFamily$Builder;", cancellable = true)
-    private void tiles_2032519628(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "polished(Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/data/BlockFamily$Builder;", cancellable = true)
+    private void polished_2032519628(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2032519628L))
             info.setReturnValue(null);
     }
@@ -169,8 +139,8 @@ public class Builder_1164949118Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "bricks(Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/data/BlockFamily$Builder;", cancellable = true)
-    private void bricks_2032519628(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "tiles(Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/data/BlockFamily$Builder;", cancellable = true)
+    private void tiles_2032519628(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2032519628L))
             info.setReturnValue(null);
     }
@@ -187,15 +157,45 @@ public class Builder_1164949118Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "mosaic(Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/data/BlockFamily$Builder;", cancellable = true)
-    private void mosaic_2032519628(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "dontGenerateModel()Lnet/minecraft/data/BlockFamily$Builder;", cancellable = true)
+    private void dontGenerateModel_1609660436(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1609660436L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "recipeGroupPrefix(Ljava/lang/String;)Lnet/minecraft/data/BlockFamily$Builder;", cancellable = true)
+    private void recipeGroupPrefix_1839056074(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1839056074L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "recipeUnlockedBy(Ljava/lang/String;)Lnet/minecraft/data/BlockFamily$Builder;", cancellable = true)
+    private void recipeUnlockedBy_1839056074(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1839056074L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "generateStonecutterRecipe()Lnet/minecraft/data/BlockFamily$Builder;", cancellable = true)
+    private void generateStonecutterRecipe_1609660436(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1609660436L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "strippedLog(Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/data/BlockFamily$Builder;", cancellable = true)
+    private void strippedLog_2032519628(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2032519628L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "polished(Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/data/BlockFamily$Builder;", cancellable = true)
-    private void polished_2032519628(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2032519628L))
+    @Inject(at = @At("HEAD"), method = "dontGenerateCraftingRecipe()Lnet/minecraft/data/BlockFamily$Builder;", cancellable = true)
+    private void dontGenerateCraftingRecipe_1609660436(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1609660436L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "dontGenerateSmeltingRecipe()Lnet/minecraft/data/BlockFamily$Builder;", cancellable = true)
+    private void dontGenerateSmeltingRecipe_1609660436(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1609660436L))
             info.setReturnValue(null);
     }
 

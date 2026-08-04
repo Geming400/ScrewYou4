@@ -49,15 +49,15 @@ public class ClientboundDisguisedChatPacket807393636Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "isSkippable()Z", cancellable = true)
-    private void isSkippable_845672219(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(845672219L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "chatType()Lnet/minecraft/network/chat/ChatType$Bound;", cancellable = true)
     private void chatType_1420552346(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1420552346L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isSkippable()Z", cancellable = true)
+    private void isSkippable_845672219(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(845672219L))
             info.setReturnValue(null);
     }
 

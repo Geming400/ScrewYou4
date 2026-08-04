@@ -31,6 +31,18 @@ public class RemoteFriendListUpdateHandler1899327937Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "removeUpdateListener(Ljava/lang/Runnable;)V", cancellable = true)
+    private void removeUpdateListener__938897678(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-938897678L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "addUpdateListener(Ljava/lang/Runnable;)V", cancellable = true)
+    private void addUpdateListener__938897678(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-938897678L))
+            info.cancel();
+    }
+
     @Inject(at = @At("HEAD"), method = "getLatestFriendData()Lcom/mojang/authlib/yggdrasil/response/FriendData;", cancellable = true)
     private void getLatestFriendData__1459873715(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1459873715L))
@@ -41,18 +53,6 @@ public class RemoteFriendListUpdateHandler1899327937Mixin {
     private void forceUpdate__682264098(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-682264098L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "addUpdateListener(Ljava/lang/Runnable;)V", cancellable = true)
-    private void addUpdateListener__938897678(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-938897678L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "removeUpdateListener(Ljava/lang/Runnable;)V", cancellable = true)
-    private void removeUpdateListener__938897678(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-938897678L))
-            info.cancel();
     }
 
 

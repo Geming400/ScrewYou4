@@ -37,14 +37,14 @@ public class CardinalLighting_258201634Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "north()F", cancellable = true)
-    private void north_296460996(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(296460996L))
+    @Inject(at = @At("HEAD"), method = "byFace(Lnet/minecraft/core/Direction;)F", cancellable = true)
+    private void byFace__861739824(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-861739824L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "south()F", cancellable = true)
-    private void south_296460996(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "north()F", cancellable = true)
+    private void north_296460996(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(296460996L))
             info.setReturnValue(null);
     }
@@ -55,15 +55,15 @@ public class CardinalLighting_258201634Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "east()F", cancellable = true)
-    private void east_296460996(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "south()F", cancellable = true)
+    private void south_296460996(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(296460996L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "byFace(Lnet/minecraft/core/Direction;)F", cancellable = true)
-    private void byFace__861739824(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-861739824L))
+    @Inject(at = @At("HEAD"), method = "east()F", cancellable = true)
+    private void east_296460996(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(296460996L))
             info.setReturnValue(null);
     }
 

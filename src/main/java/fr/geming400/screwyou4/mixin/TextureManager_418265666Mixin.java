@@ -43,16 +43,16 @@ public class TextureManager_418265666Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getTexture(Lnet/minecraft/resources/Identifier;)Lnet/minecraft/client/renderer/texture/AbstractTexture;", cancellable = true)
-    private void getTexture__528605980(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-528605980L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "registerAndLoad(Lnet/minecraft/resources/Identifier;Lnet/minecraft/client/renderer/texture/ReloadableTexture;)V", cancellable = true)
     private void registerAndLoad__217398805(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-217398805L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getTexture(Lnet/minecraft/resources/Identifier;)Lnet/minecraft/client/renderer/texture/AbstractTexture;", cancellable = true)
+    private void getTexture__528605980(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-528605980L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "registerForNextReload(Lnet/minecraft/resources/Identifier;)V", cancellable = true)

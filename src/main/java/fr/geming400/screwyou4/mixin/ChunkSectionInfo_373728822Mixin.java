@@ -49,9 +49,9 @@ public class ChunkSectionInfo_373728822Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "visibility()F", cancellable = true)
-    private void visibility_411988184(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(411988184L))
+    @Inject(at = @At("HEAD"), method = "modelView()Lorg/joml/Matrix4fc;", cancellable = true)
+    private void modelView_2116703059(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2116703059L))
             info.setReturnValue(null);
     }
 
@@ -67,9 +67,9 @@ public class ChunkSectionInfo_373728822Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "modelView()Lorg/joml/Matrix4fc;", cancellable = true)
-    private void modelView_2116703059(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2116703059L))
+    @Inject(at = @At("HEAD"), method = "visibility()F", cancellable = true)
+    private void visibility_411988184(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(411988184L))
             info.setReturnValue(null);
     }
 

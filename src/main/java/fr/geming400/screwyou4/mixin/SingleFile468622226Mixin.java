@@ -37,15 +37,15 @@ public class SingleFile468622226Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "spriteId()Ljava/util/Optional;", cancellable = true)
-    private void spriteId_714083648(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(714083648L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "resourceId()Lnet/minecraft/resources/Identifier;", cancellable = true)
     private void resourceId__1974444327(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1974444327L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "spriteId()Ljava/util/Optional;", cancellable = true)
+    private void spriteId_714083648(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(714083648L))
             info.setReturnValue(null);
     }
 

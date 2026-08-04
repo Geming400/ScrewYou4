@@ -25,6 +25,12 @@ public class OnlineServerEntry_254673839Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "keyPressed(Lnet/minecraft/client/input/KeyEvent;)Z", cancellable = true)
+    private void keyPressed__661961876(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-661961876L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "extractContent(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIZF)V", cancellable = true)
     private void extractContent_1166348898(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1166348898L))
@@ -46,12 +52,6 @@ public class OnlineServerEntry_254673839Mixin {
     @Inject(at = @At("HEAD"), method = "mouseClicked(Lnet/minecraft/client/input/MouseButtonEvent;Z)Z", cancellable = true)
     private void mouseClicked__1359985040(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1359985040L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "keyPressed(Lnet/minecraft/client/input/KeyEvent;)Z", cancellable = true)
-    private void keyPressed__661961876(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-661961876L))
             info.setReturnValue(null);
     }
 

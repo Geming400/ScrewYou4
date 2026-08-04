@@ -13,16 +13,16 @@ public class ChestLidController1205131064Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "tickLid()V", cancellable = true)
-    private void tickLid_1243405803(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1243405803L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "getOpenness(F)F", cancellable = true)
     private void getOpenness__1878705199(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1878705199L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "tickLid()V", cancellable = true)
+    private void tickLid_1243405803(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1243405803L))
+            info.cancel();
     }
 
 

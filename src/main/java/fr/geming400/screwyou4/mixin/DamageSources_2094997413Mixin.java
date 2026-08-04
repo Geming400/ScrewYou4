@@ -49,6 +49,24 @@ public class DamageSources_2094997413Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "onFire()Lnet/minecraft/world/damagesource/DamageSource;", cancellable = true)
+    private void onFire__621534550(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-621534550L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "fallingBlock(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/world/damagesource/DamageSource;", cancellable = true)
+    private void fallingBlock_2091418307(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2091418307L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "campfire()Lnet/minecraft/world/damagesource/DamageSource;", cancellable = true)
+    private void campfire__621534550(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-621534550L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "explosion(Lnet/minecraft/world/level/Explosion;)Lnet/minecraft/world/damagesource/DamageSource;", cancellable = true)
     private void explosion_749643560(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(749643560L))
@@ -61,21 +79,21 @@ public class DamageSources_2094997413Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "outOfBorder()Lnet/minecraft/world/damagesource/DamageSource;", cancellable = true)
-    private void outOfBorder__621534550(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "fall()Lnet/minecraft/world/damagesource/DamageSource;", cancellable = true)
+    private void fall__621534550(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-621534550L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "fellOutOfWorld()Lnet/minecraft/world/damagesource/DamageSource;", cancellable = true)
-    private void fellOutOfWorld__621534550(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-621534550L))
+    @Inject(at = @At("HEAD"), method = "playerAttack(Lnet/minecraft/world/entity/player/Player;)Lnet/minecraft/world/damagesource/DamageSource;", cancellable = true)
+    private void playerAttack_943943141(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(943943141L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "flyIntoWall()Lnet/minecraft/world/damagesource/DamageSource;", cancellable = true)
-    private void flyIntoWall__621534550(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-621534550L))
+    @Inject(at = @At("HEAD"), method = "windCharge(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/entity/LivingEntity;)Lnet/minecraft/world/damagesource/DamageSource;", cancellable = true)
+    private void windCharge_1353902433(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1353902433L))
             info.setReturnValue(null);
     }
 
@@ -85,32 +103,8 @@ public class DamageSources_2094997413Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "genericKill()Lnet/minecraft/world/damagesource/DamageSource;", cancellable = true)
-    private void genericKill__621534550(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-621534550L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "onFire()Lnet/minecraft/world/damagesource/DamageSource;", cancellable = true)
-    private void onFire__621534550(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-621534550L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "campfire()Lnet/minecraft/world/damagesource/DamageSource;", cancellable = true)
-    private void campfire__621534550(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-621534550L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "inWall()Lnet/minecraft/world/damagesource/DamageSource;", cancellable = true)
-    private void inWall__621534550(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-621534550L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "drown()Lnet/minecraft/world/damagesource/DamageSource;", cancellable = true)
-    private void drown__621534550(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "cramming()Lnet/minecraft/world/damagesource/DamageSource;", cancellable = true)
+    private void cramming__621534550(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-621534550L))
             info.setReturnValue(null);
     }
@@ -121,27 +115,9 @@ public class DamageSources_2094997413Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "cramming()Lnet/minecraft/world/damagesource/DamageSource;", cancellable = true)
-    private void cramming__621534550(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-621534550L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "lava()Lnet/minecraft/world/damagesource/DamageSource;", cancellable = true)
     private void lava__621534550(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-621534550L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "cactus()Lnet/minecraft/world/damagesource/DamageSource;", cancellable = true)
-    private void cactus__621534550(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-621534550L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "windCharge(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/entity/LivingEntity;)Lnet/minecraft/world/damagesource/DamageSource;", cancellable = true)
-    private void windCharge_1353902433(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1353902433L))
             info.setReturnValue(null);
     }
 
@@ -163,20 +139,44 @@ public class DamageSources_2094997413Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "playerAttack(Lnet/minecraft/world/entity/player/Player;)Lnet/minecraft/world/damagesource/DamageSource;", cancellable = true)
-    private void playerAttack_943943141(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(943943141L))
+    @Inject(at = @At("HEAD"), method = "inWall()Lnet/minecraft/world/damagesource/DamageSource;", cancellable = true)
+    private void inWall__621534550(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-621534550L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "fallingBlock(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/world/damagesource/DamageSource;", cancellable = true)
-    private void fallingBlock_2091418307(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2091418307L))
+    @Inject(at = @At("HEAD"), method = "drown()Lnet/minecraft/world/damagesource/DamageSource;", cancellable = true)
+    private void drown__621534550(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-621534550L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "fall()Lnet/minecraft/world/damagesource/DamageSource;", cancellable = true)
-    private void fall__621534550(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "genericKill()Lnet/minecraft/world/damagesource/DamageSource;", cancellable = true)
+    private void genericKill__621534550(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-621534550L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "outOfBorder()Lnet/minecraft/world/damagesource/DamageSource;", cancellable = true)
+    private void outOfBorder__621534550(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-621534550L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "fellOutOfWorld()Lnet/minecraft/world/damagesource/DamageSource;", cancellable = true)
+    private void fellOutOfWorld__621534550(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-621534550L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "flyIntoWall()Lnet/minecraft/world/damagesource/DamageSource;", cancellable = true)
+    private void flyIntoWall__621534550(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-621534550L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "enderPearl()Lnet/minecraft/world/damagesource/DamageSource;", cancellable = true)
+    private void enderPearl__621534550(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-621534550L))
             info.setReturnValue(null);
     }
@@ -205,15 +205,9 @@ public class DamageSources_2094997413Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "enderPearl()Lnet/minecraft/world/damagesource/DamageSource;", cancellable = true)
-    private void enderPearl__621534550(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "cactus()Lnet/minecraft/world/damagesource/DamageSource;", cancellable = true)
+    private void cactus__621534550(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-621534550L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "thorns(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/world/damagesource/DamageSource;", cancellable = true)
-    private void thorns_2091418307(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2091418307L))
             info.setReturnValue(null);
     }
 
@@ -223,8 +217,8 @@ public class DamageSources_2094997413Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "inFire()Lnet/minecraft/world/damagesource/DamageSource;", cancellable = true)
-    private void inFire__621534550(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "dryOut()Lnet/minecraft/world/damagesource/DamageSource;", cancellable = true)
+    private void dryOut__621534550(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-621534550L))
             info.setReturnValue(null);
     }
@@ -235,14 +229,26 @@ public class DamageSources_2094997413Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "dryOut()Lnet/minecraft/world/damagesource/DamageSource;", cancellable = true)
-    private void dryOut__621534550(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-621534550L))
+    @Inject(at = @At("HEAD"), method = "fireball(Lnet/minecraft/world/entity/projectile/hurtingprojectile/Fireball;Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/world/damagesource/DamageSource;", cancellable = true)
+    private void fireball_741475783(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(741475783L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "stalagmite()Lnet/minecraft/world/damagesource/DamageSource;", cancellable = true)
-    private void stalagmite__621534550(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "sonicBoom(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/world/damagesource/DamageSource;", cancellable = true)
+    private void sonicBoom_2091418307(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2091418307L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "thorns(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/world/damagesource/DamageSource;", cancellable = true)
+    private void thorns_2091418307(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2091418307L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "inFire()Lnet/minecraft/world/damagesource/DamageSource;", cancellable = true)
+    private void inFire__621534550(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-621534550L))
             info.setReturnValue(null);
     }
@@ -253,15 +259,9 @@ public class DamageSources_2094997413Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "sonicBoom(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/world/damagesource/DamageSource;", cancellable = true)
-    private void sonicBoom_2091418307(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2091418307L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "fireball(Lnet/minecraft/world/entity/projectile/hurtingprojectile/Fireball;Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/world/damagesource/DamageSource;", cancellable = true)
-    private void fireball_741475783(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(741475783L))
+    @Inject(at = @At("HEAD"), method = "stalagmite()Lnet/minecraft/world/damagesource/DamageSource;", cancellable = true)
+    private void stalagmite__621534550(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-621534550L))
             info.setReturnValue(null);
     }
 
@@ -271,15 +271,15 @@ public class DamageSources_2094997413Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "sweetBerryBush()Lnet/minecraft/world/damagesource/DamageSource;", cancellable = true)
-    private void sweetBerryBush__621534550(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-621534550L))
+    @Inject(at = @At("HEAD"), method = "mobProjectile(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/entity/LivingEntity;)Lnet/minecraft/world/damagesource/DamageSource;", cancellable = true)
+    private void mobProjectile_1353902433(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1353902433L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "witherSkull(Lnet/minecraft/world/entity/projectile/hurtingprojectile/WitherSkull;Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/world/damagesource/DamageSource;", cancellable = true)
-    private void witherSkull_1792618296(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1792618296L))
+    @Inject(at = @At("HEAD"), method = "indirectMagic(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/world/damagesource/DamageSource;", cancellable = true)
+    private void indirectMagic__305880054(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-305880054L))
             info.setReturnValue(null);
     }
 
@@ -289,9 +289,9 @@ public class DamageSources_2094997413Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "indirectMagic(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/world/damagesource/DamageSource;", cancellable = true)
-    private void indirectMagic__305880054(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-305880054L))
+    @Inject(at = @At("HEAD"), method = "sweetBerryBush()Lnet/minecraft/world/damagesource/DamageSource;", cancellable = true)
+    private void sweetBerryBush__621534550(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-621534550L))
             info.setReturnValue(null);
     }
 
@@ -307,9 +307,9 @@ public class DamageSources_2094997413Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "mobProjectile(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/entity/LivingEntity;)Lnet/minecraft/world/damagesource/DamageSource;", cancellable = true)
-    private void mobProjectile_1353902433(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1353902433L))
+    @Inject(at = @At("HEAD"), method = "witherSkull(Lnet/minecraft/world/entity/projectile/hurtingprojectile/WitherSkull;Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/world/damagesource/DamageSource;", cancellable = true)
+    private void witherSkull_1792618296(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1792618296L))
             info.setReturnValue(null);
     }
 

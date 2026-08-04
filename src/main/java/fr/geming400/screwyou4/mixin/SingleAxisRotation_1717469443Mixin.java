@@ -31,15 +31,15 @@ public class SingleAxisRotation_1717469443Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "angle()F", cancellable = true)
-    private void angle_1755728805(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1755728805L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "axis()Lnet/minecraft/core/Direction$Axis;", cancellable = true)
     private void axis__1028489308(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1028489308L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "angle()F", cancellable = true)
+    private void angle_1755728805(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1755728805L))
             info.setReturnValue(null);
     }
 

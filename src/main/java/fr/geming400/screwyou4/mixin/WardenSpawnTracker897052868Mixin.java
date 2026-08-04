@@ -19,16 +19,16 @@ public class WardenSpawnTracker897052868Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "setWarningLevel(I)V", cancellable = true)
-    private void setWarningLevel_2110969840(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(2110969840L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "tryWarn(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;Lnet/minecraft/server/level/ServerPlayer;)Ljava/util/OptionalInt;", cancellable = true)
     private static void tryWarn__397999106(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-397999106L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "setWarningLevel(I)V", cancellable = true)
+    private void setWarningLevel_2110969840(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(2110969840L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "getWarningLevel()I", cancellable = true)

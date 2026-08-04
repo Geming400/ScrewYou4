@@ -43,15 +43,15 @@ public class Vec3Argument_758048244Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getExamples()Ljava/util/Collection;", cancellable = true)
-    private void getExamples__1055600029(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1055600029L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getCoordinates(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/commands/arguments/coordinates/Coordinates;", cancellable = true)
     private static void getCoordinates__1632924838(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1632924838L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getExamples()Ljava/util/Collection;", cancellable = true)
+    private void getExamples__1055600029(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1055600029L))
             info.setReturnValue(null);
     }
 

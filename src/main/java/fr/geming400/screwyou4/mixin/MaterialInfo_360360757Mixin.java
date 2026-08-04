@@ -43,21 +43,9 @@ public class MaterialInfo_360360757Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "sprite()Lnet/minecraft/client/renderer/texture/TextureAtlasSprite;", cancellable = true)
-    private void sprite__1630645059(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1630645059L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "itemRenderType()Lnet/minecraft/client/renderer/rendertype/RenderType;", cancellable = true)
-    private void itemRenderType_1444940453(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1444940453L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "lightEmission()I", cancellable = true)
-    private void lightEmission_398623002(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(398623002L))
+    @Inject(at = @At("HEAD"), method = "isTinted()Z", cancellable = true)
+    private void isTinted_398639339(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(398639339L))
             info.setReturnValue(null);
     }
 
@@ -73,9 +61,21 @@ public class MaterialInfo_360360757Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "isTinted()Z", cancellable = true)
-    private void isTinted_398639339(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(398639339L))
+    @Inject(at = @At("HEAD"), method = "itemRenderType()Lnet/minecraft/client/renderer/rendertype/RenderType;", cancellable = true)
+    private void itemRenderType_1444940453(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1444940453L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "lightEmission()I", cancellable = true)
+    private void lightEmission_398623002(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(398623002L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "sprite()Lnet/minecraft/client/renderer/texture/TextureAtlasSprite;", cancellable = true)
+    private void sprite__1630645059(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1630645059L))
             info.setReturnValue(null);
     }
 

@@ -55,15 +55,15 @@ public class DataLayer2046976121Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "isDefinitelyFilledWith(I)Z", cancellable = true)
-    private void isDefinitelyFilledWith__1034070359(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1034070359L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "isDefinitelyHomogenous()Z", cancellable = true)
     private void isDefinitelyHomogenous_2085254704(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2085254704L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isDefinitelyFilledWith(I)Z", cancellable = true)
+    private void isDefinitelyFilledWith__1034070359(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1034070359L))
             info.setReturnValue(null);
     }
 

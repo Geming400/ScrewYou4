@@ -31,12 +31,6 @@ public class Builder110404917Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "withOptionalParameter(Lnet/minecraft/util/context/ContextKey;Ljava/lang/Object;)Lnet/minecraft/world/level/storage/loot/LootParams$Builder;", cancellable = true)
-    private void withOptionalParameter__2013467097(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2013467097L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getOptionalParameter(Lnet/minecraft/util/context/ContextKey;)Ljava/lang/Object;", cancellable = true)
     private void getOptionalParameter_1705340866(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1705340866L))
@@ -46,6 +40,12 @@ public class Builder110404917Mixin {
     @Inject(at = @At("HEAD"), method = "withLuck(F)Lnet/minecraft/world/level/storage/loot/LootParams$Builder;", cancellable = true)
     private void withLuck__1025678797(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1025678797L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "withOptionalParameter(Lnet/minecraft/util/context/ContextKey;Ljava/lang/Object;)Lnet/minecraft/world/level/storage/loot/LootParams$Builder;", cancellable = true)
+    private void withOptionalParameter__2013467097(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2013467097L))
             info.setReturnValue(null);
     }
 

@@ -19,16 +19,10 @@ public class VaultRenderer_2021003033Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/blockentity/state/BlockEntityRenderState;", cancellable = true)
-    private void createRenderState__1139991838(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1139991838L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/blockentity/state/VaultRenderState;", cancellable = true)
-    private void createRenderState_1792307204(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1792307204L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/level/block/entity/BlockEntity;Lnet/minecraft/client/renderer/blockentity/state/BlockEntityRenderState;FLnet/minecraft/world/phys/Vec3;Lnet/minecraft/client/renderer/feature/ModelFeatureRenderer$CrumblingOverlay;)V", cancellable = true)
+    private void extractRenderState__1256875402(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1256875402L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/level/block/entity/vault/VaultBlockEntity;Lnet/minecraft/client/renderer/blockentity/state/VaultRenderState;FLnet/minecraft/world/phys/Vec3;Lnet/minecraft/client/renderer/feature/ModelFeatureRenderer$CrumblingOverlay;)V", cancellable = true)
@@ -37,10 +31,16 @@ public class VaultRenderer_2021003033Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/level/block/entity/BlockEntity;Lnet/minecraft/client/renderer/blockentity/state/BlockEntityRenderState;FLnet/minecraft/world/phys/Vec3;Lnet/minecraft/client/renderer/feature/ModelFeatureRenderer$CrumblingOverlay;)V", cancellable = true)
-    private void extractRenderState__1256875402(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1256875402L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/blockentity/state/VaultRenderState;", cancellable = true)
+    private void createRenderState_1792307204(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1792307204L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/blockentity/state/BlockEntityRenderState;", cancellable = true)
+    private void createRenderState__1139991838(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1139991838L))
+            info.setReturnValue(null);
     }
 
 

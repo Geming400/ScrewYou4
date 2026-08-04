@@ -37,15 +37,15 @@ public class Instance1437872808Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "point(Ljava/lang/Object;)Lcom/mojang/datafixers/kinds/App;", cancellable = true)
-    private void point_1124011772(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1124011772L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "point(Ljava/util/function/Supplier;Ljava/lang/Object;)Lnet/minecraft/world/entity/ai/behavior/declarative/BehaviorBuilder;", cancellable = true)
     private void point__706563853(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-706563853L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "point(Ljava/lang/Object;)Lcom/mojang/datafixers/kinds/App;", cancellable = true)
+    private void point_1124011772(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1124011772L))
             info.setReturnValue(null);
     }
 
@@ -73,27 +73,15 @@ public class Instance1437872808Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "ap4(Lcom/mojang/datafixers/kinds/App;Lcom/mojang/datafixers/kinds/App;Lcom/mojang/datafixers/kinds/App;Lcom/mojang/datafixers/kinds/App;Lcom/mojang/datafixers/kinds/App;)Lnet/minecraft/world/entity/ai/behavior/declarative/BehaviorBuilder;", cancellable = true)
-    private void ap4_1279049464(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1279049464L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "ap4(Lcom/mojang/datafixers/kinds/App;Lcom/mojang/datafixers/kinds/App;Lcom/mojang/datafixers/kinds/App;Lcom/mojang/datafixers/kinds/App;Lcom/mojang/datafixers/kinds/App;)Lcom/mojang/datafixers/kinds/App;", cancellable = true)
     private void ap4__1739220053(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1739220053L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "ap2(Lcom/mojang/datafixers/kinds/App;Lcom/mojang/datafixers/kinds/App;Lcom/mojang/datafixers/kinds/App;)Lcom/mojang/datafixers/kinds/App;", cancellable = true)
-    private void ap2_67085579(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(67085579L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "ap2(Lcom/mojang/datafixers/kinds/App;Lcom/mojang/datafixers/kinds/App;Lcom/mojang/datafixers/kinds/App;)Lnet/minecraft/world/entity/ai/behavior/declarative/BehaviorBuilder;", cancellable = true)
-    private void ap2_1090730392(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1090730392L))
+    @Inject(at = @At("HEAD"), method = "ap4(Lcom/mojang/datafixers/kinds/App;Lcom/mojang/datafixers/kinds/App;Lcom/mojang/datafixers/kinds/App;Lcom/mojang/datafixers/kinds/App;Lcom/mojang/datafixers/kinds/App;)Lnet/minecraft/world/entity/ai/behavior/declarative/BehaviorBuilder;", cancellable = true)
+    private void ap4_1279049464(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1279049464L))
             info.setReturnValue(null);
     }
 
@@ -103,15 +91,27 @@ public class Instance1437872808Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "ap3(Lcom/mojang/datafixers/kinds/App;Lcom/mojang/datafixers/kinds/App;Lcom/mojang/datafixers/kinds/App;Lcom/mojang/datafixers/kinds/App;)Lnet/minecraft/world/entity/ai/behavior/declarative/BehaviorBuilder;", cancellable = true)
+    private void ap3__1673362845(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1673362845L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "ap3(Lcom/mojang/datafixers/kinds/App;Lcom/mojang/datafixers/kinds/App;Lcom/mojang/datafixers/kinds/App;Lcom/mojang/datafixers/kinds/App;)Lcom/mojang/datafixers/kinds/App;", cancellable = true)
     private void ap3_1624546336(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1624546336L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "ap3(Lcom/mojang/datafixers/kinds/App;Lcom/mojang/datafixers/kinds/App;Lcom/mojang/datafixers/kinds/App;Lcom/mojang/datafixers/kinds/App;)Lnet/minecraft/world/entity/ai/behavior/declarative/BehaviorBuilder;", cancellable = true)
-    private void ap3__1673362845(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1673362845L))
+    @Inject(at = @At("HEAD"), method = "ap2(Lcom/mojang/datafixers/kinds/App;Lcom/mojang/datafixers/kinds/App;Lcom/mojang/datafixers/kinds/App;)Lnet/minecraft/world/entity/ai/behavior/declarative/BehaviorBuilder;", cancellable = true)
+    private void ap2_1090730392(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1090730392L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "ap2(Lcom/mojang/datafixers/kinds/App;Lcom/mojang/datafixers/kinds/App;Lcom/mojang/datafixers/kinds/App;)Lcom/mojang/datafixers/kinds/App;", cancellable = true)
+    private void ap2_67085579(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(67085579L))
             info.setReturnValue(null);
     }
 

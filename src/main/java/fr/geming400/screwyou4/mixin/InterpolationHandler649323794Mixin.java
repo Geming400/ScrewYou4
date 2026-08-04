@@ -25,15 +25,9 @@ public class InterpolationHandler649323794Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "hasActiveInterpolation()Z", cancellable = true)
-    private void hasActiveInterpolation_687602377(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(687602377L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "interpolateTo(Lnet/minecraft/world/phys/Vec3;FF)V", cancellable = true)
-    private void interpolateTo__1650522735(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1650522735L))
+    @Inject(at = @At("HEAD"), method = "setInterpolationLength(I)V", cancellable = true)
+    private void setInterpolationLength_1863240766(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1863240766L))
             info.cancel();
     }
 
@@ -49,10 +43,16 @@ public class InterpolationHandler649323794Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "setInterpolationLength(I)V", cancellable = true)
-    private void setInterpolationLength_1863240766(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1863240766L))
+    @Inject(at = @At("HEAD"), method = "interpolateTo(Lnet/minecraft/world/phys/Vec3;FF)V", cancellable = true)
+    private void interpolateTo__1650522735(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1650522735L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "hasActiveInterpolation()Z", cancellable = true)
+    private void hasActiveInterpolation_687602377(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(687602377L))
+            info.setReturnValue(null);
     }
 
 

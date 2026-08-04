@@ -67,104 +67,20 @@ public class Direction1733274561Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getRotation()Lorg/joml/Quaternionf;", cancellable = true)
-    private void getRotation_419694631(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(419694631L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName_597814090(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(597814090L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "axisStepOrder(Lnet/minecraft/world/phys/Vec3;)Lcom/google/common/collect/ImmutableList;", cancellable = true)
-    private static void axisStepOrder_1960705962(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1960705962L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getApproximateNearest(FFF)Lnet/minecraft/core/Direction;", cancellable = true)
-    private static void getApproximateNearest_1582779854(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1582779854L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getApproximateNearest(Lnet/minecraft/world/phys/Vec3;)Lnet/minecraft/core/Direction;", cancellable = true)
-    private static void getApproximateNearest_1543703224(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1543703224L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getApproximateNearest(DDD)Lnet/minecraft/core/Direction;", cancellable = true)
-    private static void getApproximateNearest_770168144(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(770168144L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getAxisDirection()Lnet/minecraft/core/Direction$AxisDirection;", cancellable = true)
-    private void getAxisDirection__1504761998(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1504761998L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getOpposite()Lnet/minecraft/core/Direction;", cancellable = true)
-    private void getOpposite_970419276(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(970419276L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getAxis()Lnet/minecraft/core/Direction$Axis;", cancellable = true)
-    private void getAxis__1012684189(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1012684189L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "fromYRot(D)Lnet/minecraft/core/Direction;", cancellable = true)
-    private static void fromYRot__80816432(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-80816432L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "toYRot()F", cancellable = true)
-    private void toYRot_1771533924(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1771533924L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getYRot(Lnet/minecraft/core/Direction;)F", cancellable = true)
-    private static void getYRot_613333352(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(613333352L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getUnitVec3f()Lorg/joml/Vector3fc;", cancellable = true)
-    private void getUnitVec3f__2015748030(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2015748030L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "get3DDataValue()I", cancellable = true)
-    private void get3DDataValue_1771536807(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "getStepZ()I", cancellable = true)
+    private void getStepZ_1771536807(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1771536807L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "from3DDataValue(I)Lnet/minecraft/core/Direction;", cancellable = true)
-    private static void from3DDataValue_751676267(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(751676267L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getStepX()I", cancellable = true)
     private void getStepX_1771536807(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1771536807L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getStepZ()I", cancellable = true)
-    private void getStepZ_1771536807(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1771536807L))
             info.setReturnValue(null);
     }
@@ -187,15 +103,15 @@ public class Direction1733274561Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getClockWise()Lnet/minecraft/core/Direction;", cancellable = true)
-    private void getClockWise_970419276(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(970419276L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getClockWise(Lnet/minecraft/core/Direction$Axis;)Lnet/minecraft/core/Direction;", cancellable = true)
     private void getClockWise__620474249(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-620474249L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getClockWise()Lnet/minecraft/core/Direction;", cancellable = true)
+    private void getClockWise_970419276(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(970419276L))
             info.setReturnValue(null);
     }
 
@@ -205,15 +121,87 @@ public class Direction1733274561Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getNearest(Lnet/minecraft/core/Vec3i;Lnet/minecraft/core/Direction;)Lnet/minecraft/core/Direction;", cancellable = true)
-    private static void getNearest_134662871(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(134662871L))
+    @Inject(at = @At("HEAD"), method = "get3DDataValue()I", cancellable = true)
+    private void get3DDataValue_1771536807(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1771536807L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getNearest(IIILnet/minecraft/core/Direction;)Lnet/minecraft/core/Direction;", cancellable = true)
-    private static void getNearest__159689281(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-159689281L))
+    @Inject(at = @At("HEAD"), method = "from3DDataValue(I)Lnet/minecraft/core/Direction;", cancellable = true)
+    private static void from3DDataValue_751676267(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(751676267L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "toYRot()F", cancellable = true)
+    private void toYRot_1771533924(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1771533924L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getYRot(Lnet/minecraft/core/Direction;)F", cancellable = true)
+    private static void getYRot_613333352(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(613333352L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getUnitVec3f()Lorg/joml/Vector3fc;", cancellable = true)
+    private void getUnitVec3f__2015748030(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2015748030L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "axisStepOrder(Lnet/minecraft/world/phys/Vec3;)Lcom/google/common/collect/ImmutableList;", cancellable = true)
+    private static void axisStepOrder_1960705962(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1960705962L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getApproximateNearest(FFF)Lnet/minecraft/core/Direction;", cancellable = true)
+    private static void getApproximateNearest_1582779854(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1582779854L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getApproximateNearest(DDD)Lnet/minecraft/core/Direction;", cancellable = true)
+    private static void getApproximateNearest_770168144(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(770168144L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getApproximateNearest(Lnet/minecraft/world/phys/Vec3;)Lnet/minecraft/core/Direction;", cancellable = true)
+    private static void getApproximateNearest_1543703224(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1543703224L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getOpposite()Lnet/minecraft/core/Direction;", cancellable = true)
+    private void getOpposite_970419276(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(970419276L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getAxisDirection()Lnet/minecraft/core/Direction$AxisDirection;", cancellable = true)
+    private void getAxisDirection__1504761998(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1504761998L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getAxis()Lnet/minecraft/core/Direction$Axis;", cancellable = true)
+    private void getAxis__1012684189(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1012684189L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "fromYRot(D)Lnet/minecraft/core/Direction;", cancellable = true)
+    private static void fromYRot__80816432(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-80816432L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getRotation()Lorg/joml/Quaternionf;", cancellable = true)
+    private void getRotation_419694631(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(419694631L))
             info.setReturnValue(null);
     }
 
@@ -223,15 +211,15 @@ public class Direction1733274561Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getCounterClockWise()Lnet/minecraft/core/Direction;", cancellable = true)
-    private void getCounterClockWise_970419276(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(970419276L))
+    @Inject(at = @At("HEAD"), method = "allShuffled(Lnet/minecraft/util/RandomSource;)Ljava/util/Collection;", cancellable = true)
+    private static void allShuffled__884908151(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-884908151L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getCounterClockWise(Lnet/minecraft/core/Direction$Axis;)Lnet/minecraft/core/Direction;", cancellable = true)
-    private void getCounterClockWise__620474249(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-620474249L))
+    @Inject(at = @At("HEAD"), method = "isFacingAngle(F)Z", cancellable = true)
+    private void isFacingAngle__1350542482(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1350542482L))
             info.setReturnValue(null);
     }
 
@@ -247,21 +235,33 @@ public class Direction1733274561Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "getCounterClockWise()Lnet/minecraft/core/Direction;", cancellable = true)
+    private void getCounterClockWise_970419276(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(970419276L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getCounterClockWise(Lnet/minecraft/core/Direction$Axis;)Lnet/minecraft/core/Direction;", cancellable = true)
+    private void getCounterClockWise__620474249(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-620474249L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "orderedByNearest(Lnet/minecraft/world/entity/Entity;)[Lnet/minecraft/core/Direction;", cancellable = true)
     private static void orderedByNearest_1673105878(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1673105878L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "allShuffled(Lnet/minecraft/util/RandomSource;)Ljava/util/Collection;", cancellable = true)
-    private static void allShuffled__884908151(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-884908151L))
+    @Inject(at = @At("HEAD"), method = "getNearest(Lnet/minecraft/core/Vec3i;Lnet/minecraft/core/Direction;)Lnet/minecraft/core/Direction;", cancellable = true)
+    private static void getNearest_134662871(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(134662871L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "isFacingAngle(F)Z", cancellable = true)
-    private void isFacingAngle__1350542482(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1350542482L))
+    @Inject(at = @At("HEAD"), method = "getNearest(IIILnet/minecraft/core/Direction;)Lnet/minecraft/core/Direction;", cancellable = true)
+    private static void getNearest__159689281(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-159689281L))
             info.setReturnValue(null);
     }
 

@@ -25,26 +25,14 @@ public class Properties_1765501768Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "replaceWithBlackstone()Z", cancellable = true)
-    private void replaceWithBlackstone_1803780350(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1803780350L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "cold()Z", cancellable = true)
     private void cold_1803780350(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1803780350L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "vines()Z", cancellable = true)
-    private void vines_1803780350(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1803780350L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "overgrown()Z", cancellable = true)
-    private void overgrown_1803780350(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "replaceWithBlackstone()Z", cancellable = true)
+    private void replaceWithBlackstone_1803780350(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1803780350L))
             info.setReturnValue(null);
     }
@@ -58,6 +46,18 @@ public class Properties_1765501768Mixin {
     @Inject(at = @At("HEAD"), method = "mossiness()F", cancellable = true)
     private void mossiness_1803761130(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1803761130L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "overgrown()Z", cancellable = true)
+    private void overgrown_1803780350(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1803780350L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "vines()Z", cancellable = true)
+    private void vines_1803780350(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1803780350L))
             info.setReturnValue(null);
     }
 

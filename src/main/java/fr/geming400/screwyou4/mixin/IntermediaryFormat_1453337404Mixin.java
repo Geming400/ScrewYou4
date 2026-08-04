@@ -55,15 +55,15 @@ public class IntermediaryFormat_1453337404Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "fromRange(Lnet/minecraft/util/InclusiveRange;I)Lnet/minecraft/server/packs/metadata/pack/PackFormat$IntermediaryFormat;", cancellable = true)
-    private static void fromRange_1145793342(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1145793342L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "effectiveMinMajorVersion()I", cancellable = true)
     private void effectiveMinMajorVersion_1491599649(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1491599649L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "fromRange(Lnet/minecraft/util/InclusiveRange;I)Lnet/minecraft/server/packs/metadata/pack/PackFormat$IntermediaryFormat;", cancellable = true)
+    private static void fromRange_1145793342(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1145793342L))
             info.setReturnValue(null);
     }
 

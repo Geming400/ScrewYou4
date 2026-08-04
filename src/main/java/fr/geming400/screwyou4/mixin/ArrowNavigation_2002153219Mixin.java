@@ -37,15 +37,15 @@ public class ArrowNavigation_2002153219Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "previousFocus()Lnet/minecraft/client/gui/navigation/ScreenRectangle;", cancellable = true)
-    private void previousFocus__1117788774(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1117788774L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getVerticalDirectionForInitialFocus()Lnet/minecraft/client/gui/navigation/ScreenDirection;", cancellable = true)
     private void getVerticalDirectionForInitialFocus_1447465354(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1447465354L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "previousFocus()Lnet/minecraft/client/gui/navigation/ScreenRectangle;", cancellable = true)
+    private void previousFocus__1117788774(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1117788774L))
             info.setReturnValue(null);
     }
 

@@ -25,8 +25,14 @@ public class ShadowPiece_1500814964Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "relativeX()F", cancellable = true)
-    private void relativeX_1539074326(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "shapeBelow()Lnet/minecraft/world/phys/shapes/VoxelShape;", cancellable = true)
+    private void shapeBelow__380854955(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-380854955L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "alpha()F", cancellable = true)
+    private void alpha_1539074326(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1539074326L))
             info.setReturnValue(null);
     }
@@ -43,15 +49,9 @@ public class ShadowPiece_1500814964Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "alpha()F", cancellable = true)
-    private void alpha_1539074326(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "relativeX()F", cancellable = true)
+    private void relativeX_1539074326(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1539074326L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "shapeBelow()Lnet/minecraft/world/phys/shapes/VoxelShape;", cancellable = true)
-    private void shapeBelow__380854955(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-380854955L))
             info.setReturnValue(null);
     }
 

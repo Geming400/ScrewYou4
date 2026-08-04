@@ -19,21 +19,33 @@ public class TickRateManager2122967714Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "isEntityFrozen(Lnet/minecraft/world/entity/Entity;)Z", cancellable = true)
-    private void isEntityFrozen_1671246898(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1671246898L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "runsNormally()Z", cancellable = true)
     private void runsNormally__2133720999(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2133720999L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "millisecondsPerTick()F", cancellable = true)
-    private void millisecondsPerTick__2133740219(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2133740219L))
+    @Inject(at = @At("HEAD"), method = "setTickRate(F)V", cancellable = true)
+    private void setTickRate__960853173(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-960853173L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "setFrozenTicksToRun(I)V", cancellable = true)
+    private void setFrozenTicksToRun__958082610(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-958082610L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "setFrozen(Z)V", cancellable = true)
+    private void setFrozen__942382753(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-942382753L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "isEntityFrozen(Lnet/minecraft/world/entity/Entity;)Z", cancellable = true)
+    private void isEntityFrozen_1671246898(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1671246898L))
             info.setReturnValue(null);
     }
 
@@ -55,22 +67,10 @@ public class TickRateManager2122967714Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "setTickRate(F)V", cancellable = true)
-    private void setTickRate__960853173(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-960853173L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "setFrozenTicksToRun(I)V", cancellable = true)
-    private void setFrozenTicksToRun__958082610(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-958082610L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "setFrozen(Z)V", cancellable = true)
-    private void setFrozen__942382753(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-942382753L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "millisecondsPerTick()F", cancellable = true)
+    private void millisecondsPerTick__2133740219(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2133740219L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "nanosecondsPerTick()J", cancellable = true)

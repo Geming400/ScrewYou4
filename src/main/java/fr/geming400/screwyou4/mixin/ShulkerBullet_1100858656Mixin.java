@@ -13,16 +13,16 @@ public class ShulkerBullet_1100858656Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getSoundSource()Lnet/minecraft/sounds/SoundSource;", cancellable = true)
-    private void getSoundSource__1192189318(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1192189318L))
+    @Inject(at = @At("HEAD"), method = "isOnFire()Z", cancellable = true)
+    private void isOnFire_1139137238(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1139137238L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "recreateFromPacket(Lnet/minecraft/network/protocol/game/ClientboundAddEntityPacket;)V", cancellable = true)
-    private void recreateFromPacket__87930035(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-87930035L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "getLightLevelDependentMagicValue()F", cancellable = true)
+    private void getLightLevelDependentMagicValue_1139118018(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1139118018L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "shouldRenderAtSqrDistance(D)Z", cancellable = true)
@@ -37,24 +37,6 @@ public class ShulkerBullet_1100858656Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getLightLevelDependentMagicValue()F", cancellable = true)
-    private void getLightLevelDependentMagicValue_1139118018(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1139118018L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isOnFire()Z", cancellable = true)
-    private void isOnFire_1139137238(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1139137238L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "hurtServer(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/damagesource/DamageSource;F)Z", cancellable = true)
-    private void hurtServer_651428324(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(651428324L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "isPickable()Z", cancellable = true)
     private void isPickable_1139137238(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1139137238L))
@@ -65,6 +47,24 @@ public class ShulkerBullet_1100858656Mixin {
     private void hurtClient_769189039(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(769189039L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "hurtServer(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/damagesource/DamageSource;F)Z", cancellable = true)
+    private void hurtServer_651428324(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(651428324L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getSoundSource()Lnet/minecraft/sounds/SoundSource;", cancellable = true)
+    private void getSoundSource__1192189318(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1192189318L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "recreateFromPacket(Lnet/minecraft/network/protocol/game/ClientboundAddEntityPacket;)V", cancellable = true)
+    private void recreateFromPacket__87930035(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-87930035L))
+            info.cancel();
     }
 
 

@@ -37,16 +37,16 @@ public class NormalNoise_1870895291Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "parityConfigString(Ljava/lang/StringBuilder;)V", cancellable = true)
-    private void parityConfigString__1356289522(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1356289522L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "createLegacyNetherBiome(Lnet/minecraft/util/RandomSource;Lnet/minecraft/world/level/levelgen/synth/NormalNoise$NoiseParameters;)Lnet/minecraft/world/level/levelgen/synth/NormalNoise;", cancellable = true)
     private static void createLegacyNetherBiome_1705570737(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1705570737L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "parityConfigString(Ljava/lang/StringBuilder;)V", cancellable = true)
+    private void parityConfigString__1356289522(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1356289522L))
+            info.cancel();
     }
 
 

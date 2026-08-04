@@ -13,6 +13,12 @@ public class Ray_480670534Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "getHeight()Ljava/util/OptionalInt;", cancellable = true)
+    private void getHeight__1689901254(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1689901254L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "getFloor()Ljava/util/OptionalInt;", cancellable = true)
     private void getFloor__1689901254(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1689901254L))
@@ -21,12 +27,6 @@ public class Ray_480670534Mixin {
 
     @Inject(at = @At("HEAD"), method = "getCeiling()Ljava/util/OptionalInt;", cancellable = true)
     private void getCeiling__1689901254(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1689901254L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getHeight()Ljava/util/OptionalInt;", cancellable = true)
-    private void getHeight__1689901254(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1689901254L))
             info.setReturnValue(null);
     }

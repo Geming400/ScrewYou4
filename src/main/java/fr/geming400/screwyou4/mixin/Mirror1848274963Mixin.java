@@ -25,15 +25,15 @@ public class Mirror1848274963Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getRotation(Lnet/minecraft/core/Direction;)Lnet/minecraft/world/level/block/Rotation;", cancellable = true)
-    private void getRotation_1278564793(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1278564793L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName_712814492(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(712814492L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "rotation()Lcom/mojang/math/OctahedralGroup;", cancellable = true)
+    private void rotation_911475399(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(911475399L))
             info.setReturnValue(null);
     }
 
@@ -49,9 +49,9 @@ public class Mirror1848274963Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "rotation()Lcom/mojang/math/OctahedralGroup;", cancellable = true)
-    private void rotation_911475399(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(911475399L))
+    @Inject(at = @At("HEAD"), method = "getRotation(Lnet/minecraft/core/Direction;)Lnet/minecraft/world/level/block/Rotation;", cancellable = true)
+    private void getRotation_1278564793(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1278564793L))
             info.setReturnValue(null);
     }
 

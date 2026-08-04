@@ -13,16 +13,16 @@ public class Evoker1390061842Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getCelebrateSound()Lnet/minecraft/sounds/SoundEvent;", cancellable = true)
-    private void getCelebrateSound__1814692556(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1814692556L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "applyRaidBuffs(Lnet/minecraft/server/level/ServerLevel;IZ)V", cancellable = true)
     private void applyRaidBuffs__1665941497(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1665941497L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getCelebrateSound()Lnet/minecraft/sounds/SoundEvent;", cancellable = true)
+    private void getCelebrateSound__1814692556(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1814692556L))
+            info.setReturnValue(null);
     }
 
 

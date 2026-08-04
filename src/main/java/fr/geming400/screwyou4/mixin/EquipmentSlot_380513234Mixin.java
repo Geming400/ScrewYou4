@@ -67,12 +67,6 @@ public class EquipmentSlot_380513234Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "isArmor()Z", cancellable = true)
-    private void isArmor_418791816(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(418791816L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "canIncreaseExperience()Z", cancellable = true)
     private void canIncreaseExperience_418791816(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(418791816L))
@@ -82,6 +76,12 @@ public class EquipmentSlot_380513234Mixin {
     @Inject(at = @At("HEAD"), method = "getFilterBit(I)I", cancellable = true)
     private void getFilterBit_1594417712(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1594417712L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isArmor()Z", cancellable = true)
+    private void isArmor_418791816(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(418791816L))
             info.setReturnValue(null);
     }
 

@@ -43,12 +43,6 @@ public class ItemBody146236917Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "showDecorations()Z", cancellable = true)
-    private void showDecorations_184515500(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(184515500L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "mapCodec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
     private void mapCodec_1882090641(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1882090641L))
@@ -58,6 +52,12 @@ public class ItemBody146236917Mixin {
     @Inject(at = @At("HEAD"), method = "height()I", cancellable = true)
     private void height_184499163(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(184499163L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "showDecorations()Z", cancellable = true)
+    private void showDecorations_184515500(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(184515500L))
             info.setReturnValue(null);
     }
 

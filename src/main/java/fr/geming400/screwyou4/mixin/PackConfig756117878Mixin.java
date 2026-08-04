@@ -25,6 +25,18 @@ public class PackConfig756117878Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "initMode()Z", cancellable = true)
+    private void initMode_794396461(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(794396461L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "safeMode()Z", cancellable = true)
+    private void safeMode_794396461(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(794396461L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "createResourceManager()Lcom/mojang/datafixers/util/Pair;", cancellable = true)
     private void createResourceManager_1610225432(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1610225432L))
@@ -37,21 +49,9 @@ public class PackConfig756117878Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "safeMode()Z", cancellable = true)
-    private void safeMode_794396461(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(794396461L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "initialDataConfig()Lnet/minecraft/world/level/WorldDataConfiguration;", cancellable = true)
     private void initialDataConfig_1673343790(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1673343790L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "initMode()Z", cancellable = true)
-    private void initMode_794396461(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(794396461L))
             info.setReturnValue(null);
     }
 

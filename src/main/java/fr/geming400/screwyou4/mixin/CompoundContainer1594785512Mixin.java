@@ -31,24 +31,6 @@ public class CompoundContainer1594785512Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "removeItemNoUpdate(I)Lnet/minecraft/world/item/ItemStack;", cancellable = true)
-    private void removeItemNoUpdate__1306263565(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1306263565L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getContainerSize()I", cancellable = true)
-    private void getContainerSize_1633047758(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1633047758L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getMaxStackSize()I", cancellable = true)
-    private void getMaxStackSize_1633047758(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1633047758L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "stillValid(Lnet/minecraft/world/entity/player/Player;)Z", cancellable = true)
     private void stillValid__1759576294(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1759576294L))
@@ -65,6 +47,24 @@ public class CompoundContainer1594785512Mixin {
     private void setChanged_1633060251(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1633060251L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getMaxStackSize()I", cancellable = true)
+    private void getMaxStackSize_1633047758(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1633047758L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getContainerSize()I", cancellable = true)
+    private void getContainerSize_1633047758(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1633047758L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "removeItemNoUpdate(I)Lnet/minecraft/world/item/ItemStack;", cancellable = true)
+    private void removeItemNoUpdate__1306263565(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1306263565L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "canPlaceItem(ILnet/minecraft/world/item/ItemStack;)Z", cancellable = true)

@@ -37,15 +37,15 @@ public class ClientboundHelloPacket_981461301Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getChallenge()[B", cancellable = true)
-    private void getChallenge__2127671366(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2127671366L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "shouldAuthenticate()Z", cancellable = true)
     private void shouldAuthenticate_1019739883(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1019739883L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getChallenge()[B", cancellable = true)
+    private void getChallenge__2127671366(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2127671366L))
             info.setReturnValue(null);
     }
 

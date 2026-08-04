@@ -31,15 +31,15 @@ public class StructureSettings_756882769Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "terrainAdaptation()Lnet/minecraft/world/level/levelgen/structure/TerrainAdjustment;", cancellable = true)
-    private void terrainAdaptation_969038911(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(969038911L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "biomes()Lnet/minecraft/core/HolderSet;", cancellable = true)
     private void biomes__1918131484(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1918131484L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "terrainAdaptation()Lnet/minecraft/world/level/levelgen/structure/TerrainAdjustment;", cancellable = true)
+    private void terrainAdaptation_969038911(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(969038911L))
             info.setReturnValue(null);
     }
 

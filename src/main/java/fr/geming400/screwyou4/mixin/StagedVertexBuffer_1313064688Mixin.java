@@ -13,26 +13,8 @@ public class StagedVertexBuffer_1313064688Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getExecuteInfo(Lnet/minecraft/client/renderer/StagedVertexBuffer$Draw;)Lnet/minecraft/client/renderer/StagedVertexBuffer$ExecuteInfo;", cancellable = true)
-    private void getExecuteInfo__1171810845(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1171810845L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getVertexBuilder(Lnet/minecraft/client/renderer/StagedVertexBuffer$Draw;)Lcom/mojang/blaze3d/vertex/VertexConsumer;", cancellable = true)
-    private void getVertexBuilder__84012850(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-84012850L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "endFrame()V", cancellable = true)
-    private void endFrame_1351339426(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1351339426L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "upload()V", cancellable = true)
-    private void upload_1351339426(CallbackInfo info) {
+    @Inject(at = @At("HEAD"), method = "endDraw()V", cancellable = true)
+    private void endDraw_1351339426(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1351339426L))
             info.cancel();
     }
@@ -49,10 +31,28 @@ public class StagedVertexBuffer_1313064688Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "endDraw()V", cancellable = true)
-    private void endDraw_1351339426(CallbackInfo info) {
+    @Inject(at = @At("HEAD"), method = "upload()V", cancellable = true)
+    private void upload_1351339426(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1351339426L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "endFrame()V", cancellable = true)
+    private void endFrame_1351339426(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1351339426L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getVertexBuilder(Lnet/minecraft/client/renderer/StagedVertexBuffer$Draw;)Lcom/mojang/blaze3d/vertex/VertexConsumer;", cancellable = true)
+    private void getVertexBuilder__84012850(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-84012850L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getExecuteInfo(Lnet/minecraft/client/renderer/StagedVertexBuffer$Draw;)Lnet/minecraft/client/renderer/StagedVertexBuffer$ExecuteInfo;", cancellable = true)
+    private void getExecuteInfo__1171810845(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1171810845L))
+            info.setReturnValue(null);
     }
 
 

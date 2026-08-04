@@ -19,18 +19,6 @@ public class PaintingRenderer297987547Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/PaintingRenderState;", cancellable = true)
-    private void createRenderState__1967275680(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1967275680L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/EntityRenderState;", cancellable = true)
-    private void createRenderState__290648897(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-290648897L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/client/renderer/entity/state/EntityRenderState;F)V", cancellable = true)
     private void extractRenderState_525106566(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(525106566L))
@@ -41,6 +29,18 @@ public class PaintingRenderer297987547Mixin {
     private void extractRenderState__677420302(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-677420302L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/EntityRenderState;", cancellable = true)
+    private void createRenderState__290648897(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-290648897L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/PaintingRenderState;", cancellable = true)
+    private void createRenderState__1967275680(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1967275680L))
+            info.setReturnValue(null);
     }
 
 

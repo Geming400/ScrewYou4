@@ -25,15 +25,15 @@ public class FlyNodeEvaluator2053331330Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getStart()Lnet/minecraft/world/level/pathfinder/Node;", cancellable = true)
-    private void getStart_560113820(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(560113820L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getPathType(Lnet/minecraft/world/level/pathfinder/PathfindingContext;III)Lnet/minecraft/world/level/pathfinder/PathType;", cancellable = true)
     private void getPathType_1114804820(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1114804820L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getStart()Lnet/minecraft/world/level/pathfinder/Node;", cancellable = true)
+    private void getStart_560113820(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(560113820L))
             info.setReturnValue(null);
     }
 

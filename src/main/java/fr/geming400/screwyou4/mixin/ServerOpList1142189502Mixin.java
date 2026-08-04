@@ -7,15 +7,15 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.server.players.ServerOpList.class)
 public class ServerOpList1142189502Mixin {
-        @Inject(at = @At("HEAD"), method = "remove(Lnet/minecraft/server/players/NameAndId;)Z", cancellable = true)
-    private void remove_1947396178(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1947396178L))
+        @Inject(at = @At("HEAD"), method = "remove(Ljava/lang/Object;)Z", cancellable = true)
+    private void remove__1767137071(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1767137071L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "remove(Ljava/lang/Object;)Z", cancellable = true)
-    private void remove__1767137071(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1767137071L))
+    @Inject(at = @At("HEAD"), method = "remove(Lnet/minecraft/server/players/NameAndId;)Z", cancellable = true)
+    private void remove_1947396178(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1947396178L))
             info.setReturnValue(null);
     }
 

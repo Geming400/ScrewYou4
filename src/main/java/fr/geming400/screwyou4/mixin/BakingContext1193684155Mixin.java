@@ -31,12 +31,6 @@ public class BakingContext1193684155Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "sprites()Lnet/minecraft/client/resources/model/sprite/SpriteGetter;", cancellable = true)
-    private void sprites__2056115313(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2056115313L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "entityModelSet()Lnet/minecraft/client/model/geom/EntityModelSet;", cancellable = true)
     private void entityModelSet__590759792(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-590759792L))
@@ -52,6 +46,12 @@ public class BakingContext1193684155Mixin {
     @Inject(at = @At("HEAD"), method = "modelGetter()Ljava/util/function/Function;", cancellable = true)
     private void modelGetter__732488592(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-732488592L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "sprites()Lnet/minecraft/client/resources/model/sprite/SpriteGetter;", cancellable = true)
+    private void sprites__2056115313(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2056115313L))
             info.setReturnValue(null);
     }
 

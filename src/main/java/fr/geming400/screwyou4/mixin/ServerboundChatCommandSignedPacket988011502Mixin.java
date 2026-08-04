@@ -55,9 +55,9 @@ public class ServerboundChatCommandSignedPacket988011502Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "timeStamp()Ljava/time/Instant;", cancellable = true)
-    private void timeStamp_2085245702(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2085245702L))
+    @Inject(at = @At("HEAD"), method = "argumentSignatures()Lnet/minecraft/commands/arguments/ArgumentSignatures;", cancellable = true)
+    private void argumentSignatures__1417833746(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1417833746L))
             info.setReturnValue(null);
     }
 
@@ -67,9 +67,9 @@ public class ServerboundChatCommandSignedPacket988011502Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "argumentSignatures()Lnet/minecraft/commands/arguments/ArgumentSignatures;", cancellable = true)
-    private void argumentSignatures__1417833746(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1417833746L))
+    @Inject(at = @At("HEAD"), method = "timeStamp()Ljava/time/Instant;", cancellable = true)
+    private void timeStamp_2085245702(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2085245702L))
             info.setReturnValue(null);
     }
 

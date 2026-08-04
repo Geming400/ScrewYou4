@@ -25,15 +25,15 @@ public class SectionDraw_682401471Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "indexCount()I", cancellable = true)
-    private void indexCount_720663716(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(720663716L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "indexType()Lcom/mojang/blaze3d/IndexType;", cancellable = true)
     private void indexType_2011286955(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2011286955L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "indexCount()I", cancellable = true)
+    private void indexCount_720663716(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(720663716L))
             info.setReturnValue(null);
     }
 

@@ -37,15 +37,15 @@ public class SpriteMapper1664471996Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "defaultNamespaceApply(Ljava/lang/String;)Lnet/minecraft/client/resources/model/sprite/SpriteId;", cancellable = true)
-    private void defaultNamespaceApply_1126309302(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1126309302L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "sheet()Lnet/minecraft/resources/Identifier;", cancellable = true)
     private void sheet__778594557(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-778594557L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "defaultNamespaceApply(Ljava/lang/String;)Lnet/minecraft/client/resources/model/sprite/SpriteId;", cancellable = true)
+    private void defaultNamespaceApply_1126309302(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1126309302L))
             info.setReturnValue(null);
     }
 

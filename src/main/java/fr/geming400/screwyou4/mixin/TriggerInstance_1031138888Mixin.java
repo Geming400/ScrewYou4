@@ -31,21 +31,9 @@ public class TriggerInstance_1031138888Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "entityHurtPlayer(Lnet/minecraft/advancements/predicates/DamagePredicate;)Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
-    private static void entityHurtPlayer_2028624616(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2028624616L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "entityHurtPlayer()Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
-    private static void entityHurtPlayer__1990077010(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1990077010L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "entityHurtPlayer(Lnet/minecraft/advancements/predicates/DamagePredicate$Builder;)Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
-    private static void entityHurtPlayer_2071630769(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2071630769L))
+    @Inject(at = @At("HEAD"), method = "damage()Ljava/util/Optional;", cancellable = true)
+    private void damage_1276600309(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1276600309L))
             info.setReturnValue(null);
     }
 
@@ -55,9 +43,21 @@ public class TriggerInstance_1031138888Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "damage()Ljava/util/Optional;", cancellable = true)
-    private void damage_1276600309(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1276600309L))
+    @Inject(at = @At("HEAD"), method = "entityHurtPlayer(Lnet/minecraft/advancements/predicates/DamagePredicate$Builder;)Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
+    private static void entityHurtPlayer_2071630769(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2071630769L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "entityHurtPlayer()Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
+    private static void entityHurtPlayer__1990077010(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1990077010L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "entityHurtPlayer(Lnet/minecraft/advancements/predicates/DamagePredicate;)Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
+    private static void entityHurtPlayer_2028624616(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2028624616L))
             info.setReturnValue(null);
     }
 

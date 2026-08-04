@@ -31,24 +31,6 @@ public class BlocksAttacks724306407Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "hurtBlockingItem(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/InteractionHand;F)V", cancellable = true)
-    private void hurtBlockingItem__1319739643(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1319739643L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "resolveBlockedDamage(Lnet/minecraft/world/damagesource/DamageSource;FD)F", cancellable = true)
-    private void resolveBlockedDamage_599972833(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(599972833L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "blockDelayTicks()I", cancellable = true)
-    private void blockDelayTicks_762568653(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(762568653L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "onBlocked(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/LivingEntity;)V", cancellable = true)
     private void onBlocked__1246029671(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1246029671L))
@@ -58,6 +40,36 @@ public class BlocksAttacks724306407Mixin {
     @Inject(at = @At("HEAD"), method = "bypassedBy()Ljava/util/Optional;", cancellable = true)
     private void bypassedBy_969767829(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(969767829L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "resolveBlockedDamage(Lnet/minecraft/world/damagesource/DamageSource;FD)F", cancellable = true)
+    private void resolveBlockedDamage_599972833(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(599972833L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "hurtBlockingItem(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/InteractionHand;F)V", cancellable = true)
+    private void hurtBlockingItem__1319739643(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1319739643L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "blockDelayTicks()I", cancellable = true)
+    private void blockDelayTicks_762568653(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(762568653L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "disableCooldownScale()F", cancellable = true)
+    private void disableCooldownScale_762565770(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(762565770L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "blockDelaySeconds()F", cancellable = true)
+    private void blockDelaySeconds_762565770(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(762565770L))
             info.setReturnValue(null);
     }
 
@@ -73,27 +85,15 @@ public class BlocksAttacks724306407Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "blockDelaySeconds()F", cancellable = true)
-    private void blockDelaySeconds_762565770(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(762565770L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "disableCooldownScale()F", cancellable = true)
-    private void disableCooldownScale_762565770(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(762565770L))
+    @Inject(at = @At("HEAD"), method = "blockSound()Ljava/util/Optional;", cancellable = true)
+    private void blockSound_969767829(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(969767829L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "itemDamage()Lnet/minecraft/world/item/component/BlocksAttacks$ItemDamageFunction;", cancellable = true)
     private void itemDamage_1453759733(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1453759733L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "blockSound()Ljava/util/Optional;", cancellable = true)
-    private void blockSound_969767829(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(969767829L))
             info.setReturnValue(null);
     }
 

@@ -31,15 +31,15 @@ public class SummonEntityEffect_9429737Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "entityTypes()Lnet/minecraft/core/HolderSet;", cancellable = true)
-    private void entityTypes_1629382780(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1629382780L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
     private void codec_1745283460(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1745283460L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "entityTypes()Lnet/minecraft/core/HolderSet;", cancellable = true)
+    private void entityTypes_1629382780(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1629382780L))
             info.setReturnValue(null);
     }
 

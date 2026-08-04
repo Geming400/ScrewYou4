@@ -13,15 +13,15 @@ public class SculkVeinBlock553180825Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getSpreader()Lnet/minecraft/world/level/block/MultifaceSpreader;", cancellable = true)
-    private void getSpreader_631123877(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(631123877L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "regrow(Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Ljava/util/Collection;)Z", cancellable = true)
     private static void regrow__840760876(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-840760876L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getSpreader()Lnet/minecraft/world/level/block/MultifaceSpreader;", cancellable = true)
+    private void getSpreader_631123877(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(631123877L))
             info.setReturnValue(null);
     }
 
@@ -37,15 +37,15 @@ public class SculkVeinBlock553180825Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getSameSpaceSpreader()Lnet/minecraft/world/level/block/MultifaceSpreader;", cancellable = true)
-    private void getSameSpaceSpreader_631123877(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(631123877L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "hasSubstrateAccess(Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/BlockPos;)Z", cancellable = true)
     private static void hasSubstrateAccess__1555250843(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1555250843L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getSameSpaceSpreader()Lnet/minecraft/world/level/block/MultifaceSpreader;", cancellable = true)
+    private void getSameSpaceSpreader_631123877(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(631123877L))
             info.setReturnValue(null);
     }
 

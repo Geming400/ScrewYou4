@@ -25,15 +25,15 @@ public class BannerPattern_500565082Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "translationKey()Ljava/lang/String;", cancellable = true)
-    private void translationKey__634895390(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-634895390L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "assetId()Lnet/minecraft/resources/Identifier;", cancellable = true)
     private void assetId__1942501472(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1942501472L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "translationKey()Ljava/lang/String;", cancellable = true)
+    private void translationKey__634895390(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-634895390L))
             info.setReturnValue(null);
     }
 

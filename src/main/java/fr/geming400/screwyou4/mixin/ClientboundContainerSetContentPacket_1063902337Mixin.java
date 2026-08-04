@@ -49,12 +49,6 @@ public class ClientboundContainerSetContentPacket_1063902337Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "carriedItem()Lnet/minecraft/world/item/ItemStack;", cancellable = true)
-    private void carriedItem_1587320996(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1587320996L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "stateId()I", cancellable = true)
     private void stateId_1102164582(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1102164582L))
@@ -64,6 +58,12 @@ public class ClientboundContainerSetContentPacket_1063902337Mixin {
     @Inject(at = @At("HEAD"), method = "containerId()I", cancellable = true)
     private void containerId_1102164582(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1102164582L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "carriedItem()Lnet/minecraft/world/item/ItemStack;", cancellable = true)
+    private void carriedItem_1587320996(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1587320996L))
             info.setReturnValue(null);
     }
 

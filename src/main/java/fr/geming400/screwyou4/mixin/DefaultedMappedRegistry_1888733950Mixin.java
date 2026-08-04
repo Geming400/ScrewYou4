@@ -43,6 +43,12 @@ public class DefaultedMappedRegistry_1888733950Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "getAny()Ljava/util/Optional;", cancellable = true)
+    private void getAny_2134195371(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2134195371L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "getDefaultKey()Lnet/minecraft/resources/Identifier;", cancellable = true)
     private void getDefaultKey__554332604(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-554332604L))
@@ -52,12 +58,6 @@ public class DefaultedMappedRegistry_1888733950Mixin {
     @Inject(at = @At("HEAD"), method = "byId(I)Ljava/lang/Object;", cancellable = true)
     private void byId__832450241(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-832450241L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getAny()Ljava/util/Optional;", cancellable = true)
-    private void getAny_2134195371(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2134195371L))
             info.setReturnValue(null);
     }
 

@@ -37,6 +37,12 @@ public class TriggerInstance130997348Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "player()Ljava/util/Optional;", cancellable = true)
+    private void player_376458770(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(376458770L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "constructedBeacon(Lnet/minecraft/advancements/predicates/MinMaxBounds$Ints;)Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
     private static void constructedBeacon_2040498604(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2040498604L))
@@ -46,12 +52,6 @@ public class TriggerInstance130997348Mixin {
     @Inject(at = @At("HEAD"), method = "constructedBeacon()Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
     private static void constructedBeacon_1404748747(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1404748747L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "player()Ljava/util/Optional;", cancellable = true)
-    private void player_376458770(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(376458770L))
             info.setReturnValue(null);
     }
 

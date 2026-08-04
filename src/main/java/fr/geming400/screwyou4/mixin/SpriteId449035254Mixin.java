@@ -25,14 +25,14 @@ public class SpriteId449035254Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "atlasLocation()Lnet/minecraft/resources/Identifier;", cancellable = true)
-    private void atlasLocation__1994031299(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "texture()Lnet/minecraft/resources/Identifier;", cancellable = true)
+    private void texture__1994031299(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1994031299L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "texture()Lnet/minecraft/resources/Identifier;", cancellable = true)
-    private void texture__1994031299(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "atlasLocation()Lnet/minecraft/resources/Identifier;", cancellable = true)
+    private void atlasLocation__1994031299(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1994031299L))
             info.setReturnValue(null);
     }

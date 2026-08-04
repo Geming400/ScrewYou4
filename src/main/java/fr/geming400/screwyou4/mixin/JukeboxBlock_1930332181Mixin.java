@@ -25,16 +25,16 @@ public class JukeboxBlock_1930332181Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "setPlacedBy(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;)V", cancellable = true)
-    private void setPlacedBy__637202968(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-637202968L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "getTicker(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/entity/BlockEntityType;)Lnet/minecraft/world/level/block/entity/BlockEntityTicker;", cancellable = true)
     private void getTicker__23135163(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-23135163L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "setPlacedBy(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;)V", cancellable = true)
+    private void setPlacedBy__637202968(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-637202968L))
+            info.cancel();
     }
 
 

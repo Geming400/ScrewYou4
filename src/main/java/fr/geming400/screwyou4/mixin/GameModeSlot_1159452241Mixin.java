@@ -13,15 +13,15 @@ public class GameModeSlot_1159452241Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "updateWidgetNarration(Lnet/minecraft/client/gui/narration/NarrationElementOutput;)V", cancellable = true)
-    private void updateWidgetNarration__1873855570(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1873855570L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "extractWidgetRenderState(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIF)V", cancellable = true)
     private void extractWidgetRenderState_199764868(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(199764868L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "updateWidgetNarration(Lnet/minecraft/client/gui/narration/NarrationElementOutput;)V", cancellable = true)
+    private void updateWidgetNarration__1873855570(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1873855570L))
             info.cancel();
     }
 

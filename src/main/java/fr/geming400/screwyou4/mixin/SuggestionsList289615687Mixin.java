@@ -13,15 +13,27 @@ public class SuggestionsList289615687Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "useSuggestion()V", cancellable = true)
-    private void useSuggestion_327890426(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(327890426L))
+    @Inject(at = @At("HEAD"), method = "cycle(I)V", cancellable = true)
+    private void cycle_1503532659(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1503532659L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "keyPressed(Lnet/minecraft/client/input/KeyEvent;)Z", cancellable = true)
+    private void keyPressed__627020027(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-627020027L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/client/gui/GuiGraphicsExtractor;II)V", cancellable = true)
     private void extractRenderState_1504789519(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1504789519L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "useSuggestion()V", cancellable = true)
+    private void useSuggestion_327890426(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(327890426L))
             info.cancel();
     }
 
@@ -34,18 +46,6 @@ public class SuggestionsList289615687Mixin {
     @Inject(at = @At("HEAD"), method = "mouseClicked(II)Z", cancellable = true)
     private void mouseClicked__706259938(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-706259938L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "cycle(I)V", cancellable = true)
-    private void cycle_1503532659(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1503532659L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "keyPressed(Lnet/minecraft/client/input/KeyEvent;)Z", cancellable = true)
-    private void keyPressed__627020027(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-627020027L))
             info.setReturnValue(null);
     }
 

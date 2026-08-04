@@ -25,14 +25,14 @@ public class BreathAirGoal863084943Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "isInterruptable()Z", cancellable = true)
-    private void isInterruptable_901363526(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "canContinueToUse()Z", cancellable = true)
+    private void canContinueToUse_901363526(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(901363526L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "canContinueToUse()Z", cancellable = true)
-    private void canContinueToUse_901363526(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "isInterruptable()Z", cancellable = true)
+    private void isInterruptable_901363526(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(901363526L))
             info.setReturnValue(null);
     }

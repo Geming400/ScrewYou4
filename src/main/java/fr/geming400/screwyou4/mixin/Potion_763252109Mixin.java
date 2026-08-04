@@ -31,15 +31,15 @@ public class Potion_763252109Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "calculate(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/client/multiplayer/ClientLevel;Lnet/minecraft/world/entity/LivingEntity;)I", cancellable = true)
-    private void calculate_106938882(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(106938882L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "defaultColor()I", cancellable = true)
     private void defaultColor_801514354(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(801514354L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "calculate(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/client/multiplayer/ClientLevel;Lnet/minecraft/world/entity/LivingEntity;)I", cancellable = true)
+    private void calculate_106938882(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(106938882L))
             info.setReturnValue(null);
     }
 

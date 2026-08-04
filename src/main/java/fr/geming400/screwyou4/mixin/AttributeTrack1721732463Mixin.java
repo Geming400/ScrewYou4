@@ -37,9 +37,9 @@ public class AttributeTrack1721732463Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "argumentTrack()Lnet/minecraft/util/KeyframeTrack;", cancellable = true)
-    private void argumentTrack_588338873(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(588338873L))
+    @Inject(at = @At("HEAD"), method = "bakeSampler(Lnet/minecraft/world/attribute/EnvironmentAttribute;Lnet/minecraft/core/Holder;Ljava/util/Optional;Lnet/minecraft/world/clock/ClockManager;)Lnet/minecraft/world/timeline/AttributeTrackSampler;", cancellable = true)
+    private void bakeSampler__1257653209(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1257653209L))
             info.setReturnValue(null);
     }
 
@@ -49,9 +49,9 @@ public class AttributeTrack1721732463Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "bakeSampler(Lnet/minecraft/world/attribute/EnvironmentAttribute;Lnet/minecraft/core/Holder;Ljava/util/Optional;Lnet/minecraft/world/clock/ClockManager;)Lnet/minecraft/world/timeline/AttributeTrackSampler;", cancellable = true)
-    private void bakeSampler__1257653209(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1257653209L))
+    @Inject(at = @At("HEAD"), method = "argumentTrack()Lnet/minecraft/util/KeyframeTrack;", cancellable = true)
+    private void argumentTrack_588338873(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(588338873L))
             info.setReturnValue(null);
     }
 

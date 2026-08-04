@@ -19,18 +19,6 @@ public class SculkSensorBlockEntity_1950389016Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getVibrationData()Lnet/minecraft/world/level/gameevent/vibrations/VibrationSystem$Data;", cancellable = true)
-    private void getVibrationData__1736729213(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1736729213L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getVibrationUser()Lnet/minecraft/world/level/gameevent/vibrations/VibrationSystem$User;", cancellable = true)
-    private void getVibrationUser_967909826(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(967909826L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getLastVibrationFrequency()I", cancellable = true)
     private void getLastVibrationFrequency_1988651261(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1988651261L))
@@ -45,6 +33,18 @@ public class SculkSensorBlockEntity_1950389016Mixin {
 
     @Inject(at = @At("HEAD"), method = "createVibrationUser()Lnet/minecraft/world/level/gameevent/vibrations/VibrationSystem$User;", cancellable = true)
     private void createVibrationUser_967909826(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(967909826L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getVibrationData()Lnet/minecraft/world/level/gameevent/vibrations/VibrationSystem$Data;", cancellable = true)
+    private void getVibrationData__1736729213(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1736729213L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getVibrationUser()Lnet/minecraft/world/level/gameevent/vibrations/VibrationSystem$User;", cancellable = true)
+    private void getVibrationUser_967909826(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(967909826L))
             info.setReturnValue(null);
     }

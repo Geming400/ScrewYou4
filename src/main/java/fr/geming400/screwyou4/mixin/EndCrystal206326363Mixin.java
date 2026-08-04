@@ -19,6 +19,18 @@ public class EndCrystal206326363Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "showsBottom()Z", cancellable = true)
+    private void showsBottom_244604946(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(244604946L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getBeamTarget()Lnet/minecraft/core/BlockPos;", cancellable = true)
+    private void getBeamTarget__1687060516(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1687060516L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "shouldRenderAtSqrDistance(D)Z", cancellable = true)
     private void shouldRenderAtSqrDistance_1415629574(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1415629574L))
@@ -28,12 +40,6 @@ public class EndCrystal206326363Mixin {
     @Inject(at = @At("HEAD"), method = "getPickResult()Lnet/minecraft/world/item/ItemStack;", cancellable = true)
     private void getPickResult_729745023(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(729745023L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "hurtServer(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/damagesource/DamageSource;F)Z", cancellable = true)
-    private void hurtServer__243103472(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-243103472L))
             info.setReturnValue(null);
     }
 
@@ -49,15 +55,9 @@ public class EndCrystal206326363Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "showsBottom()Z", cancellable = true)
-    private void showsBottom_244604946(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(244604946L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getBeamTarget()Lnet/minecraft/core/BlockPos;", cancellable = true)
-    private void getBeamTarget__1687060516(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1687060516L))
+    @Inject(at = @At("HEAD"), method = "hurtServer(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/damagesource/DamageSource;F)Z", cancellable = true)
+    private void hurtServer__243103472(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-243103472L))
             info.setReturnValue(null);
     }
 

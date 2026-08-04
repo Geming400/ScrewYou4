@@ -19,18 +19,6 @@ public class ShelfRenderer_1705638177Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/blockentity/state/BlockEntityRenderState;", cancellable = true)
-    private void createRenderState__1455356694(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1455356694L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/blockentity/state/ShelfRenderState;", cancellable = true)
-    private void createRenderState_1516811268(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1516811268L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/level/block/entity/BlockEntity;Lnet/minecraft/client/renderer/blockentity/state/BlockEntityRenderState;FLnet/minecraft/world/phys/Vec3;Lnet/minecraft/client/renderer/feature/ModelFeatureRenderer$CrumblingOverlay;)V", cancellable = true)
     private void extractRenderState__1572240258(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1572240258L))
@@ -41,6 +29,18 @@ public class ShelfRenderer_1705638177Mixin {
     private void extractRenderState_913408622(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(913408622L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/blockentity/state/ShelfRenderState;", cancellable = true)
+    private void createRenderState_1516811268(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1516811268L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/blockentity/state/BlockEntityRenderState;", cancellable = true)
+    private void createRenderState__1455356694(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1455356694L))
+            info.setReturnValue(null);
     }
 
 

@@ -31,15 +31,15 @@ public class DropChances2050426130Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "byEquipment(Lnet/minecraft/world/entity/EquipmentSlot;)F", cancellable = true)
-    private void byEquipment__1249192525(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1249192525L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "byEquipment()Ljava/util/Map;", cancellable = true)
     private void byEquipment_45802490(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(45802490L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "byEquipment(Lnet/minecraft/world/entity/EquipmentSlot;)F", cancellable = true)
+    private void byEquipment__1249192525(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1249192525L))
             info.setReturnValue(null);
     }
 

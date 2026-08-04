@@ -37,9 +37,9 @@ public class TextureInput_2073268786Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "height()I", cancellable = true)
-    private void height_2111531031(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2111531031L))
+    @Inject(at = @At("HEAD"), method = "bilinear()Z", cancellable = true)
+    private void bilinear_2111547368(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2111547368L))
             info.setReturnValue(null);
     }
 
@@ -55,9 +55,9 @@ public class TextureInput_2073268786Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "bilinear()Z", cancellable = true)
-    private void bilinear_2111547368(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2111547368L))
+    @Inject(at = @At("HEAD"), method = "height()I", cancellable = true)
+    private void height_2111531031(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2111531031L))
             info.setReturnValue(null);
     }
 

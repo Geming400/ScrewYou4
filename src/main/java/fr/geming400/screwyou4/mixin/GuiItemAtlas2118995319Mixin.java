@@ -13,9 +13,21 @@ public class GuiItemAtlas2118995319Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "endFrame()V", cancellable = true)
+    private void endFrame__2137697238(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-2137697238L))
+            info.cancel();
+    }
+
     @Inject(at = @At("HEAD"), method = "tryPrepareFor(Ljava/util/Set;)Z", cancellable = true)
     private void tryPrepareFor_1574918435(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1574918435L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "textureSize()I", cancellable = true)
+    private void textureSize__2137709731(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2137709731L))
             info.setReturnValue(null);
     }
 
@@ -29,18 +41,6 @@ public class GuiItemAtlas2118995319Mixin {
     private void getOrUpdate_325590912(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(325590912L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "textureSize()I", cancellable = true)
-    private void textureSize__2137709731(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2137709731L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "endFrame()V", cancellable = true)
-    private void endFrame__2137697238(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-2137697238L))
-            info.cancel();
     }
 
 

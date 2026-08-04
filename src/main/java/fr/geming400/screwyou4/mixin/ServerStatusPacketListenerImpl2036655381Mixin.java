@@ -7,16 +7,16 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.server.network.ServerStatusPacketListenerImpl.class)
 public class ServerStatusPacketListenerImpl2036655381Mixin {
-        @Inject(at = @At("HEAD"), method = "onDisconnect(Lnet/minecraft/network/DisconnectionDetails;)V", cancellable = true)
-    private void onDisconnect__51214932(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-51214932L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "isAcceptingMessages()Z", cancellable = true)
+        @Inject(at = @At("HEAD"), method = "isAcceptingMessages()Z", cancellable = true)
     private void isAcceptingMessages_2074933964(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2074933964L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "onDisconnect(Lnet/minecraft/network/DisconnectionDetails;)V", cancellable = true)
+    private void onDisconnect__51214932(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-51214932L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "handlePingRequest(Lnet/minecraft/network/protocol/ping/ServerboundPingRequestPacket;)V", cancellable = true)

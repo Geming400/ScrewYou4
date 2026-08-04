@@ -43,15 +43,15 @@ public class ModCheck_760323396Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "fullDescription()Ljava/lang/String;", cancellable = true)
-    private void fullDescription__375137076(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-375137076L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "identify(Ljava/lang/String;Ljava/util/function/Supplier;Ljava/lang/String;Ljava/lang/Class;)Lnet/minecraft/util/ModCheck;", cancellable = true)
     private static void identify__1816491649(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1816491649L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "fullDescription()Ljava/lang/String;", cancellable = true)
+    private void fullDescription__375137076(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-375137076L))
             info.setReturnValue(null);
     }
 

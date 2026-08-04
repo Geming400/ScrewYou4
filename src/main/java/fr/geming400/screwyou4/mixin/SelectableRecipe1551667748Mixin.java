@@ -31,15 +31,15 @@ public class SelectableRecipe1551667748Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "optionDisplay()Lnet/minecraft/world/item/crafting/display/SlotDisplay;", cancellable = true)
-    private void optionDisplay__2006345901(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2006345901L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "noRecipeCodec()Lnet/minecraft/network/codec/StreamCodec;", cancellable = true)
     private static void noRecipeCodec__1482299176(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1482299176L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "optionDisplay()Lnet/minecraft/world/item/crafting/display/SlotDisplay;", cancellable = true)
+    private void optionDisplay__2006345901(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2006345901L))
             info.setReturnValue(null);
     }
 

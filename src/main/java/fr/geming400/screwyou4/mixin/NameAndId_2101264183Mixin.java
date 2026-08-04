@@ -43,15 +43,15 @@ public class NameAndId_2101264183Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "createOffline(Ljava/lang/String;)Lnet/minecraft/server/players/NameAndId;", cancellable = true)
-    private static void createOffline_2012345664(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2012345664L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "fromJson(Lcom/google/gson/JsonObject;)Lnet/minecraft/server/players/NameAndId;", cancellable = true)
     private static void fromJson_2084070366(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2084070366L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "createOffline(Ljava/lang/String;)Lnet/minecraft/server/players/NameAndId;", cancellable = true)
+    private static void createOffline_2012345664(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2012345664L))
             info.setReturnValue(null);
     }
 

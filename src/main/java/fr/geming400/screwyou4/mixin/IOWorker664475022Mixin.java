@@ -25,15 +25,9 @@ public class IOWorker664475022Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "scanChunk(Lnet/minecraft/world/level/ChunkPos;Lnet/minecraft/nbt/StreamTagVisitor;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
-    private void scanChunk__1742430233(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1742430233L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "storageInfo()Lnet/minecraft/world/level/chunk/storage/RegionStorageInfo;", cancellable = true)
-    private void storageInfo__90301745(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-90301745L))
+    @Inject(at = @At("HEAD"), method = "loadAsync(Lnet/minecraft/world/level/ChunkPos;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
+    private void loadAsync_2052542015(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2052542015L))
             info.setReturnValue(null);
     }
 
@@ -49,9 +43,15 @@ public class IOWorker664475022Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "loadAsync(Lnet/minecraft/world/level/ChunkPos;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
-    private void loadAsync_2052542015(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2052542015L))
+    @Inject(at = @At("HEAD"), method = "storageInfo()Lnet/minecraft/world/level/chunk/storage/RegionStorageInfo;", cancellable = true)
+    private void storageInfo__90301745(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-90301745L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "scanChunk(Lnet/minecraft/world/level/ChunkPos;Lnet/minecraft/nbt/StreamTagVisitor;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
+    private void scanChunk__1742430233(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1742430233L))
             info.setReturnValue(null);
     }
 

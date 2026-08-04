@@ -31,21 +31,9 @@ public class Settings_1922219705Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "safeZone()D", cancellable = true)
-    private void safeZone_1960477145(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1960477145L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "lerpTarget()D", cancellable = true)
-    private void lerpTarget_1960477145(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1960477145L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "damagePerBlock()D", cancellable = true)
-    private void damagePerBlock_1960477145(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1960477145L))
+    @Inject(at = @At("HEAD"), method = "lerpTime()J", cancellable = true)
+    private void lerpTime_1960482911(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1960482911L))
             info.setReturnValue(null);
     }
 
@@ -67,14 +55,26 @@ public class Settings_1922219705Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "lerpTime()J", cancellable = true)
-    private void lerpTime_1960482911(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1960482911L))
+    @Inject(at = @At("HEAD"), method = "damagePerBlock()D", cancellable = true)
+    private void damagePerBlock_1960477145(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1960477145L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "centerZ()D", cancellable = true)
     private void centerZ_1960477145(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1960477145L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "lerpTarget()D", cancellable = true)
+    private void lerpTarget_1960477145(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1960477145L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "safeZone()D", cancellable = true)
+    private void safeZone_1960477145(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1960477145L))
             info.setReturnValue(null);
     }

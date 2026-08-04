@@ -37,9 +37,9 @@ public class TriggerInstance119051696Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "player()Ljava/util/Optional;", cancellable = true)
-    private void player_364513118(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(364513118L))
+    @Inject(at = @At("HEAD"), method = "usedItem(Lnet/minecraft/core/HolderGetter;Lnet/minecraft/world/level/ItemLike;)Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
+    private static void usedItem__886212604(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-886212604L))
             info.setReturnValue(null);
     }
 
@@ -55,9 +55,9 @@ public class TriggerInstance119051696Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "usedItem(Lnet/minecraft/core/HolderGetter;Lnet/minecraft/world/level/ItemLike;)Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
-    private static void usedItem__886212604(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-886212604L))
+    @Inject(at = @At("HEAD"), method = "player()Ljava/util/Optional;", cancellable = true)
+    private void player_364513118(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(364513118L))
             info.setReturnValue(null);
     }
 

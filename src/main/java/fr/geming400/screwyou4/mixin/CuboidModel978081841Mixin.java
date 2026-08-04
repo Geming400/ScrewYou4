@@ -43,12 +43,6 @@ public class CuboidModel978081841Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "ambientOcclusion()Ljava/lang/Boolean;", cancellable = true)
-    private void ambientOcclusion_1098170849(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1098170849L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "geometry()Lnet/minecraft/client/resources/model/geometry/UnbakedGeometry;", cancellable = true)
     private void geometry_1071962606(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1071962606L))
@@ -58,6 +52,12 @@ public class CuboidModel978081841Mixin {
     @Inject(at = @At("HEAD"), method = "guiLight()Lnet/minecraft/client/resources/model/UnbakedModel$GuiLight;", cancellable = true)
     private void guiLight__2039446697(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2039446697L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "ambientOcclusion()Ljava/lang/Boolean;", cancellable = true)
+    private void ambientOcclusion_1098170849(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1098170849L))
             info.setReturnValue(null);
     }
 

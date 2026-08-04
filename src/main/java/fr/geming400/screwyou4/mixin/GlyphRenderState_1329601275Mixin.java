@@ -31,15 +31,21 @@ public class GlyphRenderState_1329601275Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "textureSetup()Lnet/minecraft/client/gui/render/TextureSetup;", cancellable = true)
-    private void textureSetup_1920318705(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1920318705L))
+    @Inject(at = @At("HEAD"), method = "scissorArea()Lnet/minecraft/client/gui/navigation/ScreenRectangle;", cancellable = true)
+    private void scissorArea__1790340718(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1790340718L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "pose()Lorg/joml/Matrix3x2fc;", cancellable = true)
-    private void pose_1249212479(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1249212479L))
+    @Inject(at = @At("HEAD"), method = "buildVertices(Lcom/mojang/blaze3d/vertex/VertexConsumer;)V", cancellable = true)
+    private void buildVertices__1842310110(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1842310110L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "textureSetup()Lnet/minecraft/client/gui/render/TextureSetup;", cancellable = true)
+    private void textureSetup_1920318705(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1920318705L))
             info.setReturnValue(null);
     }
 
@@ -55,16 +61,10 @@ public class GlyphRenderState_1329601275Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "scissorArea()Lnet/minecraft/client/gui/navigation/ScreenRectangle;", cancellable = true)
-    private void scissorArea__1790340718(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1790340718L))
+    @Inject(at = @At("HEAD"), method = "pose()Lorg/joml/Matrix3x2fc;", cancellable = true)
+    private void pose_1249212479(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1249212479L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "buildVertices(Lcom/mojang/blaze3d/vertex/VertexConsumer;)V", cancellable = true)
-    private void buildVertices__1842310110(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1842310110L))
-            info.cancel();
     }
 
 

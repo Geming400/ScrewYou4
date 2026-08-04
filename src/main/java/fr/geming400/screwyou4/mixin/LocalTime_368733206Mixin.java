@@ -7,15 +7,15 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.client.renderer.item.properties.select.LocalTime.class)
 public class LocalTime_368733206Mixin {
-        @Inject(at = @At("HEAD"), method = "get(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/client/multiplayer/ClientLevel;Lnet/minecraft/world/entity/LivingEntity;ILnet/minecraft/world/item/ItemDisplayContext;)Ljava/lang/String;", cancellable = true)
-    private void get_732515067(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(732515067L))
+        @Inject(at = @At("HEAD"), method = "get(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/client/multiplayer/ClientLevel;Lnet/minecraft/world/entity/LivingEntity;ILnet/minecraft/world/item/ItemDisplayContext;)Ljava/lang/Object;", cancellable = true)
+    private void get__567670579(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-567670579L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "get(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/client/multiplayer/ClientLevel;Lnet/minecraft/world/entity/LivingEntity;ILnet/minecraft/world/item/ItemDisplayContext;)Ljava/lang/Object;", cancellable = true)
-    private void get__567670579(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-567670579L))
+    @Inject(at = @At("HEAD"), method = "get(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/client/multiplayer/ClientLevel;Lnet/minecraft/world/entity/LivingEntity;ILnet/minecraft/world/item/ItemDisplayContext;)Ljava/lang/String;", cancellable = true)
+    private void get_732515067(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(732515067L))
             info.setReturnValue(null);
     }
 

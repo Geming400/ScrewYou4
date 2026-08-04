@@ -25,14 +25,14 @@ public class Attributes1134975161Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "allowPreServerInit()Z", cancellable = true)
-    private void allowPreServerInit_1173253744(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "runOnMainThread()Z", cancellable = true)
+    private void runOnMainThread_1173253744(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1173253744L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "runOnMainThread()Z", cancellable = true)
-    private void runOnMainThread_1173253744(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "allowPreServerInit()Z", cancellable = true)
+    private void allowPreServerInit_1173253744(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1173253744L))
             info.setReturnValue(null);
     }

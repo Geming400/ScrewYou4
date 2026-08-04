@@ -37,14 +37,14 @@ public class ApplyMobEffect_1289375835Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "minDuration()Lnet/minecraft/world/item/enchantment/LevelBasedValue;", cancellable = true)
-    private void minDuration_1421455433(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "minAmplifier()Lnet/minecraft/world/item/enchantment/LevelBasedValue;", cancellable = true)
+    private void minAmplifier_1421455433(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1421455433L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "maxDuration()Lnet/minecraft/world/item/enchantment/LevelBasedValue;", cancellable = true)
-    private void maxDuration_1421455433(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "maxAmplifier()Lnet/minecraft/world/item/enchantment/LevelBasedValue;", cancellable = true)
+    private void maxAmplifier_1421455433(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1421455433L))
             info.setReturnValue(null);
     }
@@ -55,14 +55,14 @@ public class ApplyMobEffect_1289375835Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "maxAmplifier()Lnet/minecraft/world/item/enchantment/LevelBasedValue;", cancellable = true)
-    private void maxAmplifier_1421455433(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "minDuration()Lnet/minecraft/world/item/enchantment/LevelBasedValue;", cancellable = true)
+    private void minDuration_1421455433(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1421455433L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "minAmplifier()Lnet/minecraft/world/item/enchantment/LevelBasedValue;", cancellable = true)
-    private void minAmplifier_1421455433(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "maxDuration()Lnet/minecraft/world/item/enchantment/LevelBasedValue;", cancellable = true)
+    private void maxDuration_1421455433(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1421455433L))
             info.setReturnValue(null);
     }

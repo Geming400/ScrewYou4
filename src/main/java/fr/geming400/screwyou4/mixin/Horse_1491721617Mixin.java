@@ -19,33 +19,9 @@ public class Horse_1491721617Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getDefaultDimensions(Lnet/minecraft/world/entity/Pose;)Lnet/minecraft/world/entity/EntityDimensions;", cancellable = true)
-    private void getDefaultDimensions_249075572(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(249075572L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "canUseSlot(Lnet/minecraft/world/entity/EquipmentSlot;)Z", cancellable = true)
-    private void canUseSlot__1807877819(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1807877819L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "finalizeSpawn(Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData;", cancellable = true)
-    private void finalizeSpawn__954513742(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-954513742L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getMarkings()Lnet/minecraft/world/entity/animal/equine/Markings;", cancellable = true)
-    private void getMarkings__2110060330(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2110060330L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "canMate(Lnet/minecraft/world/entity/animal/Animal;)Z", cancellable = true)
-    private void canMate_2053785122(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2053785122L))
+    @Inject(at = @At("HEAD"), method = "mobInteract(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResult;", cancellable = true)
+    private void mobInteract__1186419838(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1186419838L))
             info.setReturnValue(null);
     }
 
@@ -55,9 +31,33 @@ public class Horse_1491721617Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "mobInteract(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResult;", cancellable = true)
-    private void mobInteract__1186419838(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1186419838L))
+    @Inject(at = @At("HEAD"), method = "getMarkings()Lnet/minecraft/world/entity/animal/equine/Markings;", cancellable = true)
+    private void getMarkings__2110060330(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2110060330L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "canUseSlot(Lnet/minecraft/world/entity/EquipmentSlot;)Z", cancellable = true)
+    private void canUseSlot__1807877819(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1807877819L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getDefaultDimensions(Lnet/minecraft/world/entity/Pose;)Lnet/minecraft/world/entity/EntityDimensions;", cancellable = true)
+    private void getDefaultDimensions_249075572(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(249075572L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "finalizeSpawn(Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData;", cancellable = true)
+    private void finalizeSpawn__954513742(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-954513742L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "canMate(Lnet/minecraft/world/entity/animal/Animal;)Z", cancellable = true)
+    private void canMate_2053785122(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2053785122L))
             info.setReturnValue(null);
     }
 

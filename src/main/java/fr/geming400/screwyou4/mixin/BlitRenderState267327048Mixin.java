@@ -85,24 +85,6 @@ public class BlitRenderState267327048Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "textureSetup()Lnet/minecraft/client/gui/render/TextureSetup;", cancellable = true)
-    private void textureSetup_858044479(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(858044479L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "pose()Lorg/joml/Matrix3x2fc;", cancellable = true)
-    private void pose_186938253(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(186938253L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "pipeline()Lcom/mojang/blaze3d/pipeline/RenderPipeline;", cancellable = true)
-    private void pipeline_1264735260(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1264735260L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "scissorArea()Lnet/minecraft/client/gui/navigation/ScreenRectangle;", cancellable = true)
     private void scissorArea_1442352352(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1442352352L))
@@ -113,6 +95,24 @@ public class BlitRenderState267327048Mixin {
     private void buildVertices_1390382960(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1390382960L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "textureSetup()Lnet/minecraft/client/gui/render/TextureSetup;", cancellable = true)
+    private void textureSetup_858044479(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(858044479L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "pipeline()Lcom/mojang/blaze3d/pipeline/RenderPipeline;", cancellable = true)
+    private void pipeline_1264735260(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1264735260L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "pose()Lorg/joml/Matrix3x2fc;", cancellable = true)
+    private void pose_186938253(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(186938253L))
+            info.setReturnValue(null);
     }
 
 

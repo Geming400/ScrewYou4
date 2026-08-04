@@ -55,16 +55,16 @@ public class PathPackResources1785062681Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "listPath(Ljava/lang/String;Ljava/nio/file/Path;Ljava/util/List;Lnet/minecraft/server/packs/PackResources$ResourceOutput;)V", cancellable = true)
-    private static void listPath_75958061(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(75958061L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "validatePath(Ljava/nio/file/Path;)Z", cancellable = true)
     private static void validatePath__902613721(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-902613721L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "listPath(Ljava/lang/String;Ljava/nio/file/Path;Ljava/util/List;Lnet/minecraft/server/packs/PackResources$ResourceOutput;)V", cancellable = true)
+    private static void listPath_75958061(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(75958061L))
+            info.cancel();
     }
 
 

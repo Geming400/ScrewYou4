@@ -31,12 +31,6 @@ public class CustomAll_1896749134Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "createAction(Ljava/util/Map;)Ljava/util/Optional;", cancellable = true)
-    private void createAction__1010517792(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1010517792L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
     private void codec__662364439(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-662364439L))
@@ -46,6 +40,12 @@ public class CustomAll_1896749134Mixin {
     @Inject(at = @At("HEAD"), method = "additions()Ljava/util/Optional;", cancellable = true)
     private void additions_2142210555(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2142210555L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "createAction(Ljava/util/Map;)Ljava/util/Optional;", cancellable = true)
+    private void createAction__1010517792(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1010517792L))
             info.setReturnValue(null);
     }
 

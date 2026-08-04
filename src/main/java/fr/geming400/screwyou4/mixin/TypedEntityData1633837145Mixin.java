@@ -55,16 +55,16 @@ public class TypedEntityData1633837145Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "copyTagWithoutId()Lnet/minecraft/nbt/CompoundTag;", cancellable = true)
+    private void copyTagWithoutId_63614225(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(63614225L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "streamCodec(Lnet/minecraft/network/codec/StreamCodec;)Lnet/minecraft/network/codec/StreamCodec;", cancellable = true)
     private static void streamCodec__636890660(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-636890660L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "addToTooltip(Lnet/minecraft/world/item/Item$TooltipContext;Ljava/util/function/Consumer;Lnet/minecraft/world/item/TooltipFlag;Lnet/minecraft/core/component/DataComponentGetter;)V", cancellable = true)
-    private void addToTooltip__908881245(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-908881245L))
-            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "loadInto(Lnet/minecraft/world/level/block/entity/BlockEntity;Lnet/minecraft/core/HolderLookup$Provider;)Z", cancellable = true)
@@ -79,10 +79,10 @@ public class TypedEntityData1633837145Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "copyTagWithoutId()Lnet/minecraft/nbt/CompoundTag;", cancellable = true)
-    private void copyTagWithoutId_63614225(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(63614225L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "addToTooltip(Lnet/minecraft/world/item/Item$TooltipContext;Ljava/util/function/Consumer;Lnet/minecraft/world/item/TooltipFlag;Lnet/minecraft/core/component/DataComponentGetter;)V", cancellable = true)
+    private void addToTooltip__908881245(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-908881245L))
+            info.cancel();
     }
 
 

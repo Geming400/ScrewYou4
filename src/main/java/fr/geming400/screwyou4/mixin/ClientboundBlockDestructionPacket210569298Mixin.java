@@ -31,15 +31,15 @@ public class ClientboundBlockDestructionPacket210569298Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getProgress()I", cancellable = true)
-    private void getProgress_248831544(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(248831544L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getPos()Lnet/minecraft/core/BlockPos;", cancellable = true)
     private void getPos__1682817581(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1682817581L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getProgress()I", cancellable = true)
+    private void getProgress_248831544(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(248831544L))
             info.setReturnValue(null);
     }
 

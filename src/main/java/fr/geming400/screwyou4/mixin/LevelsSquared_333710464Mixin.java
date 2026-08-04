@@ -31,15 +31,15 @@ public class LevelsSquared_333710464Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "calculate(I)F", cancellable = true)
-    private void calculate_1547612059(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1547612059L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
     private void codec_2069564187(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2069564187L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "calculate(I)F", cancellable = true)
+    private void calculate_1547612059(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1547612059L))
             info.setReturnValue(null);
     }
 

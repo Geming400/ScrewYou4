@@ -55,36 +55,6 @@ public class ColoredRectangleRenderState1594923760Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "textureSetup()Lnet/minecraft/client/gui/render/TextureSetup;", cancellable = true)
-    private void textureSetup__2109326105(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2109326105L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "pose()Lorg/joml/Matrix3x2fc;", cancellable = true)
-    private void pose_1514534965(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1514534965L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "col2()I", cancellable = true)
-    private void col2_1633186006(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1633186006L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "pipeline()Lcom/mojang/blaze3d/pipeline/RenderPipeline;", cancellable = true)
-    private void pipeline__1702635324(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1702635324L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "col1()I", cancellable = true)
-    private void col1_1633186006(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1633186006L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "scissorArea()Lnet/minecraft/client/gui/navigation/ScreenRectangle;", cancellable = true)
     private void scissorArea__1525018232(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1525018232L))
@@ -95,6 +65,36 @@ public class ColoredRectangleRenderState1594923760Mixin {
     private void buildVertices__1576987624(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1576987624L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "textureSetup()Lnet/minecraft/client/gui/render/TextureSetup;", cancellable = true)
+    private void textureSetup__2109326105(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2109326105L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "col2()I", cancellable = true)
+    private void col2_1633186006(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1633186006L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "col1()I", cancellable = true)
+    private void col1_1633186006(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1633186006L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "pipeline()Lcom/mojang/blaze3d/pipeline/RenderPipeline;", cancellable = true)
+    private void pipeline__1702635324(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1702635324L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "pose()Lorg/joml/Matrix3x2fc;", cancellable = true)
+    private void pose_1514534965(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1514534965L))
+            info.setReturnValue(null);
     }
 
 

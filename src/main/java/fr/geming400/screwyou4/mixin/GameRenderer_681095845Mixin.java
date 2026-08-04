@@ -49,9 +49,9 @@ public class GameRenderer_681095845Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "levelLightmap()Lcom/mojang/blaze3d/textures/GpuTextureView;", cancellable = true)
-    private void levelLightmap__1719518766(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1719518766L))
+    @Inject(at = @At("HEAD"), method = "overlayTexture()Lnet/minecraft/client/renderer/texture/OverlayTexture;", cancellable = true)
+    private void overlayTexture_921217879(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(921217879L))
             info.setReturnValue(null);
     }
 
@@ -79,6 +79,96 @@ public class GameRenderer_681095845Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "displayItemActivation(Lnet/minecraft/world/item/ItemStack;)V", cancellable = true)
+    private void displayItemActivation__1879340164(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1879340164L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "lighting()Lcom/mojang/blaze3d/platform/Lighting;", cancellable = true)
+    private void lighting__930018859(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-930018859L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "lightmap()Lcom/mojang/blaze3d/textures/GpuTextureView;", cancellable = true)
+    private void lightmap__1719518766(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1719518766L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "resetData()V", cancellable = true)
+    private void resetData_719370583(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(719370583L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "bossOverlayWorldDarkening(F)F", cancellable = true)
+    private void bossOverlayWorldDarkening_1892226877(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1892226877L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "renderBuffers()Lnet/minecraft/client/renderer/RenderBuffers;", cancellable = true)
+    private void renderBuffers_1947620455(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1947620455L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "nightVisionScale(Lnet/minecraft/world/entity/LivingEntity;F)F", cancellable = true)
+    private static void nightVisionScale_2087338885(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2087338885L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "projectPointToScreen(Lnet/minecraft/world/phys/Vec3;)Lnet/minecraft/world/phys/Vec3;", cancellable = true)
+    private void projectPointToScreen__1924216407(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1924216407L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "projectHorizonToScreen()D", cancellable = true)
+    private void projectHorizonToScreen_719353285(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(719353285L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "mainCamera()Lnet/minecraft/client/Camera;", cancellable = true)
+    private void mainCamera__1082056717(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1082056717L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "featureRenderDispatcher()Lnet/minecraft/client/renderer/feature/FeatureRenderDispatcher;", cancellable = true)
+    private void featureRenderDispatcher_1051730282(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1051730282L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "processBlurEffect()V", cancellable = true)
+    private void processBlurEffect_719370583(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(719370583L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "panorama()Lnet/minecraft/client/renderer/Panorama;", cancellable = true)
+    private void panorama__538409215(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-538409215L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "levelLightmap()Lcom/mojang/blaze3d/textures/GpuTextureView;", cancellable = true)
+    private void levelLightmap__1719518766(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1719518766L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "currentPostEffect()Lnet/minecraft/resources/Identifier;", cancellable = true)
+    private void currentPostEffect__1761970709(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1761970709L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "checkEntityPostEffect(Lnet/minecraft/world/entity/Entity;)V", cancellable = true)
     private void checkEntityPostEffect_229371184(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(229371184L))
@@ -97,105 +187,15 @@ public class GameRenderer_681095845Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "currentPostEffect()Lnet/minecraft/resources/Identifier;", cancellable = true)
-    private void currentPostEffect__1761970709(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1761970709L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "renderLevel(Lnet/minecraft/client/DeltaTracker;)V", cancellable = true)
-    private void renderLevel_1633359902(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1633359902L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "setRenderBlockOutline(Z)V", cancellable = true)
     private void setRenderBlockOutline_1910712673(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1910712673L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "overlayTexture()Lnet/minecraft/client/renderer/texture/OverlayTexture;", cancellable = true)
-    private void overlayTexture_921217879(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(921217879L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "panorama()Lnet/minecraft/client/renderer/Panorama;", cancellable = true)
-    private void panorama__538409215(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-538409215L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "featureRenderDispatcher()Lnet/minecraft/client/renderer/feature/FeatureRenderDispatcher;", cancellable = true)
-    private void featureRenderDispatcher_1051730282(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1051730282L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "processBlurEffect()V", cancellable = true)
-    private void processBlurEffect_719370583(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(719370583L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "mainCamera()Lnet/minecraft/client/Camera;", cancellable = true)
-    private void mainCamera__1082056717(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1082056717L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "resetData()V", cancellable = true)
-    private void resetData_719370583(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(719370583L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "lightmap()Lcom/mojang/blaze3d/textures/GpuTextureView;", cancellable = true)
-    private void lightmap__1719518766(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1719518766L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "lighting()Lcom/mojang/blaze3d/platform/Lighting;", cancellable = true)
-    private void lighting__930018859(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-930018859L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "renderBuffers()Lnet/minecraft/client/renderer/RenderBuffers;", cancellable = true)
-    private void renderBuffers_1947620455(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1947620455L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "bossOverlayWorldDarkening(F)F", cancellable = true)
-    private void bossOverlayWorldDarkening_1892226877(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1892226877L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "projectPointToScreen(Lnet/minecraft/world/phys/Vec3;)Lnet/minecraft/world/phys/Vec3;", cancellable = true)
-    private void projectPointToScreen__1924216407(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1924216407L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "nightVisionScale(Lnet/minecraft/world/entity/LivingEntity;F)F", cancellable = true)
-    private static void nightVisionScale_2087338885(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2087338885L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "projectHorizonToScreen()D", cancellable = true)
-    private void projectHorizonToScreen_719353285(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(719353285L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "displayItemActivation(Lnet/minecraft/world/item/ItemStack;)V", cancellable = true)
-    private void displayItemActivation__1879340164(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1879340164L))
+    @Inject(at = @At("HEAD"), method = "renderLevel(Lnet/minecraft/client/DeltaTracker;)V", cancellable = true)
+    private void renderLevel_1633359902(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1633359902L))
             info.cancel();
     }
 

@@ -37,14 +37,14 @@ public class VecDeltaCodec_974366076Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "encodeZ(Lnet/minecraft/world/phys/Vec3;)J", cancellable = true)
-    private void encodeZ_1342090542(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "encodeY(Lnet/minecraft/world/phys/Vec3;)J", cancellable = true)
+    private void encodeY_1342090542(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1342090542L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "encodeY(Lnet/minecraft/world/phys/Vec3;)J", cancellable = true)
-    private void encodeY_1342090542(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "encodeZ(Lnet/minecraft/world/phys/Vec3;)J", cancellable = true)
+    private void encodeZ_1342090542(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1342090542L))
             info.setReturnValue(null);
     }

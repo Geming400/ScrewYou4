@@ -31,15 +31,15 @@ public class WorldUpgrader_1732043270Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "dimensionProgress(Lnet/minecraft/resources/ResourceKey;)F", cancellable = true)
-    private void dimensionProgress_1919697196(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1919697196L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getConverted()I", cancellable = true)
     private void getConverted_1770305515(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1770305515L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getTotalProgress()F", cancellable = true)
+    private void getTotalProgress_1770302632(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1770302632L))
             info.setReturnValue(null);
     }
 
@@ -49,9 +49,9 @@ public class WorldUpgrader_1732043270Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getTotalProgress()F", cancellable = true)
-    private void getTotalProgress_1770302632(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1770302632L))
+    @Inject(at = @At("HEAD"), method = "dimensionProgress(Lnet/minecraft/resources/ResourceKey;)F", cancellable = true)
+    private void dimensionProgress_1919697196(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1919697196L))
             info.setReturnValue(null);
     }
 

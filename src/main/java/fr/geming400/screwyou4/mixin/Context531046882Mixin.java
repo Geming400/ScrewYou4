@@ -49,12 +49,6 @@ public class Context531046882Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "heightAccessor()Lnet/minecraft/world/level/LevelHeightAccessor;", cancellable = true)
-    private void heightAccessor_568267280(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(568267280L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "structureTemplateManager()Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplateManager;", cancellable = true)
     private void structureTemplateManager__1640110451(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1640110451L))
@@ -64,6 +58,12 @@ public class Context531046882Mixin {
     @Inject(at = @At("HEAD"), method = "chunkGenerator()Lnet/minecraft/world/level/chunk/ChunkGenerator;", cancellable = true)
     private void chunkGenerator__1265945524(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1265945524L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "heightAccessor()Lnet/minecraft/world/level/LevelHeightAccessor;", cancellable = true)
+    private void heightAccessor_568267280(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(568267280L))
             info.setReturnValue(null);
     }
 

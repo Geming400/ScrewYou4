@@ -19,16 +19,16 @@ public class VariantUtils1424382346Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "writeVariant(Lnet/minecraft/world/level/storage/ValueOutput;Lnet/minecraft/core/Holder;)V", cancellable = true)
-    private static void writeVariant__1608126865(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1608126865L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "readVariant(Lnet/minecraft/world/level/storage/ValueInput;Lnet/minecraft/resources/ResourceKey;)Ljava/util/Optional;", cancellable = true)
     private static void readVariant_375600274(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(375600274L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "writeVariant(Lnet/minecraft/world/level/storage/ValueOutput;Lnet/minecraft/core/Holder;)V", cancellable = true)
+    private static void writeVariant__1608126865(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1608126865L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "selectVariantToSpawn(Lnet/minecraft/world/entity/variant/SpawnContext;Lnet/minecraft/resources/ResourceKey;)Ljava/util/Optional;", cancellable = true)

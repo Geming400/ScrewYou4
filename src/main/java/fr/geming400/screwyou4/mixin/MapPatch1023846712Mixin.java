@@ -31,8 +31,14 @@ public class MapPatch1023846712Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "startX()I", cancellable = true)
-    private void startX_1062108958(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "applyToMap(Lnet/minecraft/world/level/saveddata/maps/MapItemSavedData;)V", cancellable = true)
+    private void applyToMap_967740290(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(967740290L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "startY()I", cancellable = true)
+    private void startY_1062108958(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1062108958L))
             info.setReturnValue(null);
     }
@@ -43,16 +49,10 @@ public class MapPatch1023846712Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "startY()I", cancellable = true)
-    private void startY_1062108958(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "startX()I", cancellable = true)
+    private void startX_1062108958(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1062108958L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "applyToMap(Lnet/minecraft/world/level/saveddata/maps/MapItemSavedData;)V", cancellable = true)
-    private void applyToMap_967740290(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(967740290L))
-            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "mapColors()[B", cancellable = true)

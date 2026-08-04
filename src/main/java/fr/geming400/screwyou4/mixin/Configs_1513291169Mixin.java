@@ -25,14 +25,14 @@ public class Configs_1513291169Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "shaderSources()Ljava/util/Map;", cancellable = true)
-    private void shaderSources__491332472(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "postChains()Ljava/util/Map;", cancellable = true)
+    private void postChains__491332472(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-491332472L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "postChains()Ljava/util/Map;", cancellable = true)
-    private void postChains__491332472(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "shaderSources()Ljava/util/Map;", cancellable = true)
+    private void shaderSources__491332472(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-491332472L))
             info.setReturnValue(null);
     }

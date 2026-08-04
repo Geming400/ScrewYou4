@@ -25,27 +25,15 @@ public class ShulkerBoxRenderer_1343698268Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/blockentity/state/ShulkerBoxRenderState;", cancellable = true)
-    private void createRenderState_587552924(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(587552924L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/blockentity/state/BlockEntityRenderState;", cancellable = true)
-    private void createRenderState__1817296603(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1817296603L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "modelTransform(Lnet/minecraft/core/Direction;)Lcom/mojang/math/Transformation;", cancellable = true)
     private static void modelTransform__145109900(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-145109900L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/level/block/entity/ShulkerBoxBlockEntity;Lnet/minecraft/client/renderer/blockentity/state/ShulkerBoxRenderState;FLnet/minecraft/world/phys/Vec3;Lnet/minecraft/client/renderer/feature/ModelFeatureRenderer$CrumblingOverlay;)V", cancellable = true)
-    private void extractRenderState_984350313(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(984350313L))
+    @Inject(at = @At("HEAD"), method = "getExtents(FLjava/util/function/Consumer;)V", cancellable = true)
+    private void getExtents__1270504574(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1270504574L))
             info.cancel();
     }
 
@@ -55,10 +43,22 @@ public class ShulkerBoxRenderer_1343698268Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getExtents(FLjava/util/function/Consumer;)V", cancellable = true)
-    private void getExtents__1270504574(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1270504574L))
+    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/level/block/entity/ShulkerBoxBlockEntity;Lnet/minecraft/client/renderer/blockentity/state/ShulkerBoxRenderState;FLnet/minecraft/world/phys/Vec3;Lnet/minecraft/client/renderer/feature/ModelFeatureRenderer$CrumblingOverlay;)V", cancellable = true)
+    private void extractRenderState_984350313(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(984350313L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/blockentity/state/BlockEntityRenderState;", cancellable = true)
+    private void createRenderState__1817296603(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1817296603L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/blockentity/state/ShulkerBoxRenderState;", cancellable = true)
+    private void createRenderState_587552924(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(587552924L))
+            info.setReturnValue(null);
     }
 
 

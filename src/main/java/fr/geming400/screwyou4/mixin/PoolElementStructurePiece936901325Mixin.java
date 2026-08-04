@@ -31,22 +31,22 @@ public class PoolElementStructurePiece936901325Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getRotation()Lnet/minecraft/world/level/block/Rotation;", cancellable = true)
-    private void getRotation__561420033(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-561420033L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "place(Lnet/minecraft/world/level/WorldGenLevel;Lnet/minecraft/world/level/StructureManager;Lnet/minecraft/world/level/chunk/ChunkGenerator;Lnet/minecraft/util/RandomSource;Lnet/minecraft/world/level/levelgen/structure/BoundingBox;Lnet/minecraft/core/BlockPos;Z)V", cancellable = true)
     private void place_1692995888(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1692995888L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getJunctions()Ljava/util/List;", cancellable = true)
-    private void getJunctions__1731729155(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1731729155L))
+    @Inject(at = @At("HEAD"), method = "getRotation()Lnet/minecraft/world/level/block/Rotation;", cancellable = true)
+    private void getRotation__561420033(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-561420033L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "postProcess(Lnet/minecraft/world/level/WorldGenLevel;Lnet/minecraft/world/level/StructureManager;Lnet/minecraft/world/level/chunk/ChunkGenerator;Lnet/minecraft/util/RandomSource;Lnet/minecraft/world/level/levelgen/structure/BoundingBox;Lnet/minecraft/world/level/ChunkPos;Lnet/minecraft/core/BlockPos;)V", cancellable = true)
+    private void postProcess__1283521618(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1283521618L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "getGroundLevelDelta()I", cancellable = true)
@@ -55,15 +55,15 @@ public class PoolElementStructurePiece936901325Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "getJunctions()Ljava/util/List;", cancellable = true)
+    private void getJunctions__1731729155(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1731729155L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "addJunction(Lnet/minecraft/world/level/levelgen/structure/pools/JigsawJunction;)V", cancellable = true)
     private void addJunction_1485815783(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1485815783L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "postProcess(Lnet/minecraft/world/level/WorldGenLevel;Lnet/minecraft/world/level/StructureManager;Lnet/minecraft/world/level/chunk/ChunkGenerator;Lnet/minecraft/util/RandomSource;Lnet/minecraft/world/level/levelgen/structure/BoundingBox;Lnet/minecraft/world/level/ChunkPos;Lnet/minecraft/core/BlockPos;)V", cancellable = true)
-    private void postProcess__1283521618(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1283521618L))
             info.cancel();
     }
 

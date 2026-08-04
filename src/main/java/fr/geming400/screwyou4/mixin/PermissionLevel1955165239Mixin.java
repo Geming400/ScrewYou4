@@ -31,15 +31,15 @@ public class PermissionLevel1955165239Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "isEqualOrHigherThan(Lnet/minecraft/server/permissions/PermissionLevel;)Z", cancellable = true)
-    private void isEqualOrHigherThan_867046347(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(867046347L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "byId(I)Lnet/minecraft/server/permissions/PermissionLevel;", cancellable = true)
     private static void byId_2013854706(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2013854706L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isEqualOrHigherThan(Lnet/minecraft/server/permissions/PermissionLevel;)Z", cancellable = true)
+    private void isEqualOrHigherThan_867046347(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(867046347L))
             info.setReturnValue(null);
     }
 

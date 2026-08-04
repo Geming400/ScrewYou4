@@ -43,15 +43,15 @@ public class ClientboundSetObjectivePacket_1513432860Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getRenderType()Lnet/minecraft/world/scores/criteria/ObjectiveCriteria$RenderType;", cancellable = true)
-    private void getRenderType__106137254(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-106137254L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getObjectiveName()Ljava/lang/String;", cancellable = true)
     private void getObjectiveName_377972388(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(377972388L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getRenderType()Lnet/minecraft/world/scores/criteria/ObjectiveCriteria$RenderType;", cancellable = true)
+    private void getRenderType__106137254(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-106137254L))
             info.setReturnValue(null);
     }
 

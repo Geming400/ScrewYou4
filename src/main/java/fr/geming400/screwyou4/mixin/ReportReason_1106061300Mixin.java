@@ -25,15 +25,15 @@ public class ReportReason_1106061300Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getIncompatibleCategories(Lnet/minecraft/client/multiplayer/chat/report/ReportType;)Ljava/util/List;", cancellable = true)
-    private static void getIncompatibleCategories_2095970875(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2095970875L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "title()Lnet/minecraft/network/chat/Component;", cancellable = true)
     private void title__1070847866(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1070847866L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getIncompatibleCategories(Lnet/minecraft/client/multiplayer/chat/report/ReportType;)Ljava/util/List;", cancellable = true)
+    private static void getIncompatibleCategories_2095970875(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2095970875L))
             info.setReturnValue(null);
     }
 

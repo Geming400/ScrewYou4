@@ -13,15 +13,15 @@ public class OceanMonumentStructure440327026Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "regeneratePiecesAfterLoad(Lnet/minecraft/world/level/ChunkPos;JLnet/minecraft/world/level/levelgen/structure/pieces/PiecesContainer;)Lnet/minecraft/world/level/levelgen/structure/pieces/PiecesContainer;", cancellable = true)
-    private static void regeneratePiecesAfterLoad_1969825293(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1969825293L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "findGenerationPoint(Lnet/minecraft/world/level/levelgen/structure/Structure$GenerationContext;)Ljava/util/Optional;", cancellable = true)
     private void findGenerationPoint_439658004(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(439658004L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "regeneratePiecesAfterLoad(Lnet/minecraft/world/level/ChunkPos;JLnet/minecraft/world/level/levelgen/structure/pieces/PiecesContainer;)Lnet/minecraft/world/level/levelgen/structure/pieces/PiecesContainer;", cancellable = true)
+    private static void regeneratePiecesAfterLoad_1969825293(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1969825293L))
             info.setReturnValue(null);
     }
 

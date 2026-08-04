@@ -31,9 +31,9 @@ public class ResourceSelectorArgument_591163500Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getExamples()Ljava/util/Collection;", cancellable = true)
-    private void getExamples__1222484773(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1222484773L))
+    @Inject(at = @At("HEAD"), method = "resourceSelector(Lnet/minecraft/commands/CommandBuildContext;Lnet/minecraft/resources/ResourceKey;)Lnet/minecraft/commands/arguments/ResourceSelectorArgument;", cancellable = true)
+    private static void resourceSelector_22619007(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(22619007L))
             info.setReturnValue(null);
     }
 
@@ -43,9 +43,9 @@ public class ResourceSelectorArgument_591163500Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "resourceSelector(Lnet/minecraft/commands/CommandBuildContext;Lnet/minecraft/resources/ResourceKey;)Lnet/minecraft/commands/arguments/ResourceSelectorArgument;", cancellable = true)
-    private static void resourceSelector_22619007(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(22619007L))
+    @Inject(at = @At("HEAD"), method = "getExamples()Ljava/util/Collection;", cancellable = true)
+    private void getExamples__1222484773(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1222484773L))
             info.setReturnValue(null);
     }
 

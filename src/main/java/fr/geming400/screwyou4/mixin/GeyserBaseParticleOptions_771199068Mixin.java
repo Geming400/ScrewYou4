@@ -43,15 +43,15 @@ public class GeyserBaseParticleOptions_771199068Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "burstImpulseBase()F", cancellable = true)
-    private void burstImpulseBase_809458430(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(809458430L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "waterBlocks()I", cancellable = true)
     private void waterBlocks_809461313(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(809461313L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "burstImpulseBase()F", cancellable = true)
+    private void burstImpulseBase_809458430(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(809458430L))
             info.setReturnValue(null);
     }
 

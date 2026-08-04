@@ -13,12 +13,6 @@ public class BlockDisplay_34006005Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "onSyncedDataUpdated(Lnet/minecraft/network/syncher/EntityDataAccessor;)V", cancellable = true)
-    private void onSyncedDataUpdated_1679755448(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1679755448L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "setBlockState(Lnet/minecraft/world/level/block/state/BlockState;)V", cancellable = true)
     private void setBlockState__111286330(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-111286330L))
@@ -29,6 +23,12 @@ public class BlockDisplay_34006005Mixin {
     private void blockRenderState__1881311486(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1881311486L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "onSyncedDataUpdated(Lnet/minecraft/network/syncher/EntityDataAccessor;)V", cancellable = true)
+    private void onSyncedDataUpdated_1679755448(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1679755448L))
+            info.cancel();
     }
 
 

@@ -31,20 +31,8 @@ public class Frustum416170996Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "pointInFrustum(DDD)Z", cancellable = true)
-    private void pointInFrustum__654232033(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-654232033L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getCamZ()D", cancellable = true)
     private void getCamZ_454428437(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(454428437L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getCamY()D", cancellable = true)
-    private void getCamY_454428437(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(454428437L))
             info.setReturnValue(null);
     }
@@ -55,9 +43,9 @@ public class Frustum416170996Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "offsetToFullyIncludeCameraCube(I)Lnet/minecraft/client/renderer/culling/Frustum;", cancellable = true)
-    private void offsetToFullyIncludeCameraCube__769009366(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-769009366L))
+    @Inject(at = @At("HEAD"), method = "getCamY()D", cancellable = true)
+    private void getCamY_454428437(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(454428437L))
             info.setReturnValue(null);
     }
 
@@ -70,6 +58,18 @@ public class Frustum416170996Mixin {
     @Inject(at = @At("HEAD"), method = "getFrustumPoints()[Lorg/joml/Vector4f;", cancellable = true)
     private void getFrustumPoints__378600086(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-378600086L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "offsetToFullyIncludeCameraCube(I)Lnet/minecraft/client/renderer/culling/Frustum;", cancellable = true)
+    private void offsetToFullyIncludeCameraCube__769009366(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-769009366L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "pointInFrustum(DDD)Z", cancellable = true)
+    private void pointInFrustum__654232033(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-654232033L))
             info.setReturnValue(null);
     }
 

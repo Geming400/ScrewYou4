@@ -43,15 +43,15 @@ public class ChainModifiers_1561426383Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "setReturn()Lnet/minecraft/commands/execution/ChainModifiers;", cancellable = true)
-    private void setReturn__1169357491(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1169357491L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "isReturn()Z", cancellable = true)
     private void isReturn_1599704965(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1599704965L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "setReturn()Lnet/minecraft/commands/execution/ChainModifiers;", cancellable = true)
+    private void setReturn__1169357491(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1169357491L))
             info.setReturnValue(null);
     }
 

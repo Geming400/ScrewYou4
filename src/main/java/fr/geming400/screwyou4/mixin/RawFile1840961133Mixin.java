@@ -43,15 +43,15 @@ public class RawFile1840961133Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "openChannel()Ljava/nio/channels/FileChannel;", cancellable = true)
-    private void openChannel_534943073(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(534943073L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "openReader()Ljava/io/Reader;", cancellable = true)
     private void openReader_1499235772(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1499235772L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "openChannel()Ljava/nio/channels/FileChannel;", cancellable = true)
+    private void openChannel_534943073(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(534943073L))
             info.setReturnValue(null);
     }
 

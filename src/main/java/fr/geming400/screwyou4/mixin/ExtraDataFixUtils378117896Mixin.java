@@ -43,6 +43,12 @@ public class ExtraDataFixUtils378117896Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "dyeColorIdToName(I)Ljava/lang/String;", cancellable = true)
+    private static void dyeColorIdToName__1042751440(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1042751440L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "patchSubType(Lcom/mojang/datafixers/types/Type;Lcom/mojang/datafixers/types/Type;Lcom/mojang/datafixers/types/Type;)Lcom/mojang/datafixers/types/Type;", cancellable = true)
     private static void patchSubType__2626549(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2626549L))
@@ -58,12 +64,6 @@ public class ExtraDataFixUtils378117896Mixin {
     @Inject(at = @At("HEAD"), method = "fixStringField(Lcom/mojang/serialization/Dynamic;Ljava/lang/String;Ljava/util/function/UnaryOperator;)Lcom/mojang/serialization/Dynamic;", cancellable = true)
     private static void fixStringField_625940738(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(625940738L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "dyeColorIdToName(I)Ljava/lang/String;", cancellable = true)
-    private static void dyeColorIdToName__1042751440(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1042751440L))
             info.setReturnValue(null);
     }
 

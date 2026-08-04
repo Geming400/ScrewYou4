@@ -19,15 +19,15 @@ public class VarLong_1387154987Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "hasContinuationBit(B)Z", cancellable = true)
-    private static void hasContinuationBit__1700355893(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1700355893L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getByteSize(J)I", cancellable = true)
     private static void getByteSize__1692984062(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1692984062L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "hasContinuationBit(B)Z", cancellable = true)
+    private static void hasContinuationBit__1700355893(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1700355893L))
             info.setReturnValue(null);
     }
 

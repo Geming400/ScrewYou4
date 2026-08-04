@@ -43,15 +43,15 @@ public class StringTemplate713759963Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "variables()Ljava/util/List;", cancellable = true)
-    private void variables__1954870517(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1954870517L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "isValidVariableName(Ljava/lang/String;)Z", cancellable = true)
     private static void isValidVariableName_1866125204(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1866125204L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "variables()Ljava/util/List;", cancellable = true)
+    private void variables__1954870517(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1954870517L))
             info.setReturnValue(null);
     }
 

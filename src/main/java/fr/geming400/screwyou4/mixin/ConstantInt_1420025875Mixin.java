@@ -37,18 +37,6 @@ public class ConstantInt_1420025875Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "minInclusive()I", cancellable = true)
-    private void minInclusive_1458288120(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1458288120L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "maxInclusive()I", cancellable = true)
-    private void maxInclusive_1458288120(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1458288120L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
     private void codec__1139087698(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1139087698L))
@@ -58,6 +46,18 @@ public class ConstantInt_1420025875Mixin {
     @Inject(at = @At("HEAD"), method = "sample(Lnet/minecraft/util/RandomSource;)I", cancellable = true)
     private void sample__287001704(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-287001704L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "minInclusive()I", cancellable = true)
+    private void minInclusive_1458288120(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1458288120L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "maxInclusive()I", cancellable = true)
+    private void maxInclusive_1458288120(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1458288120L))
             info.setReturnValue(null);
     }
 

@@ -31,15 +31,15 @@ public class Players1912414877Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "sample()Ljava/util/List;", cancellable = true)
-    private void sample__756215603(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-756215603L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "online()I", cancellable = true)
     private void online_1950677123(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1950677123L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "sample()Ljava/util/List;", cancellable = true)
+    private void sample__756215603(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-756215603L))
             info.setReturnValue(null);
     }
 

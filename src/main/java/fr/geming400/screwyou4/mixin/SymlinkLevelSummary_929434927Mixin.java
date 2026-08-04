@@ -31,21 +31,15 @@ public class SymlinkLevelSummary_929434927Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "canRecreate()Z", cancellable = true)
-    private void canRecreate_967713509(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(967713509L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "primaryActionMessage()Lnet/minecraft/network/chat/Component;", cancellable = true)
     private void primaryActionMessage__1247474239(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1247474239L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getLastPlayed()J", cancellable = true)
-    private void getLastPlayed_967698133(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(967698133L))
+    @Inject(at = @At("HEAD"), method = "canRecreate()Z", cancellable = true)
+    private void canRecreate_967713509(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(967713509L))
             info.setReturnValue(null);
     }
 
@@ -64,6 +58,12 @@ public class SymlinkLevelSummary_929434927Mixin {
     @Inject(at = @At("HEAD"), method = "canUpload()Z", cancellable = true)
     private void canUpload_967713509(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(967713509L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getLastPlayed()J", cancellable = true)
+    private void getLastPlayed_967698133(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(967698133L))
             info.setReturnValue(null);
     }
 

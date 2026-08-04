@@ -43,15 +43,15 @@ public class ClientboundChangeDifficultyPacket1042292744Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "locked()Z", cancellable = true)
-    private void locked_1080571327(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1080571327L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "difficulty()Lnet/minecraft/world/Difficulty;", cancellable = true)
     private void difficulty__29459926(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-29459926L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "locked()Z", cancellable = true)
+    private void locked_1080571327(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1080571327L))
             info.setReturnValue(null);
     }
 

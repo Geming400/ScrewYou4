@@ -25,15 +25,15 @@ public class DebugStructureInfo_415075270Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "boundingBox()Lnet/minecraft/world/level/levelgen/structure/BoundingBox;", cancellable = true)
-    private void boundingBox_585223055(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(585223055L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "pieces()Ljava/util/List;", cancellable = true)
     private void pieces_2041412085(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2041412085L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "boundingBox()Lnet/minecraft/world/level/levelgen/structure/BoundingBox;", cancellable = true)
+    private void boundingBox_585223055(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(585223055L))
             info.setReturnValue(null);
     }
 

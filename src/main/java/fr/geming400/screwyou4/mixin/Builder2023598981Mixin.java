@@ -49,9 +49,9 @@ public class Builder2023598981Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "components(Lnet/minecraft/core/component/DataComponentExactPredicate;)Lnet/minecraft/advancements/predicates/entity/EntityPredicate$Builder;", cancellable = true)
-    private void components_924355031(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(924355031L))
+    @Inject(at = @At("HEAD"), method = "components(Ljava/util/Map;)Lnet/minecraft/advancements/predicates/entity/EntityPredicate$Builder;", cancellable = true)
+    private void components__1978322610(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1978322610L))
             info.setReturnValue(null);
     }
 
@@ -61,9 +61,9 @@ public class Builder2023598981Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "components(Ljava/util/Map;)Lnet/minecraft/advancements/predicates/entity/EntityPredicate$Builder;", cancellable = true)
-    private void components__1978322610(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1978322610L))
+    @Inject(at = @At("HEAD"), method = "components(Lnet/minecraft/core/component/DataComponentExactPredicate;)Lnet/minecraft/advancements/predicates/entity/EntityPredicate$Builder;", cancellable = true)
+    private void components_924355031(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(924355031L))
             info.setReturnValue(null);
     }
 
@@ -73,39 +73,9 @@ public class Builder2023598981Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "movementAffectedBy(Lnet/minecraft/advancements/predicates/LocationPredicate$Builder;)Lnet/minecraft/advancements/predicates/entity/EntityPredicate$Builder;", cancellable = true)
-    private void movementAffectedBy__1746670592(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1746670592L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "targetedEntity(Lnet/minecraft/advancements/predicates/entity/EntityPredicate$Builder;)Lnet/minecraft/advancements/predicates/entity/EntityPredicate$Builder;", cancellable = true)
-    private void targetedEntity_960740964(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(960740964L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "fishingHook(Lnet/minecraft/advancements/predicates/entity/FishingHookPredicate;)Lnet/minecraft/advancements/predicates/entity/EntityPredicate$Builder;", cancellable = true)
-    private void fishingHook_334363005(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(334363005L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "periodicTick(I)Lnet/minecraft/advancements/predicates/entity/EntityPredicate$Builder;", cancellable = true)
-    private void periodicTick__432230192(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-432230192L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "lightingBolt(Lnet/minecraft/advancements/predicates/entity/LightningBoltPredicate;)Lnet/minecraft/advancements/predicates/entity/EntityPredicate$Builder;", cancellable = true)
-    private void lightingBolt_2083254091(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2083254091L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "cubeMob(Lnet/minecraft/advancements/predicates/entity/CubeMobPredicate;)Lnet/minecraft/advancements/predicates/entity/EntityPredicate$Builder;", cancellable = true)
-    private void cubeMob__2018021505(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2018021505L))
+    @Inject(at = @At("HEAD"), method = "effects(Lnet/minecraft/advancements/predicates/MobEffectsPredicate$Builder;)Lnet/minecraft/advancements/predicates/entity/EntityPredicate$Builder;", cancellable = true)
+    private void effects__1683604109(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1683604109L))
             info.setReturnValue(null);
     }
 
@@ -121,45 +91,27 @@ public class Builder2023598981Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "cubeMob(Lnet/minecraft/advancements/predicates/entity/CubeMobPredicate;)Lnet/minecraft/advancements/predicates/entity/EntityPredicate$Builder;", cancellable = true)
+    private void cubeMob__2018021505(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2018021505L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "located(Lnet/minecraft/advancements/predicates/LocationPredicate$Builder;)Lnet/minecraft/advancements/predicates/entity/EntityPredicate$Builder;", cancellable = true)
     private void located__1746670592(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1746670592L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "entityType(Lnet/minecraft/advancements/predicates/entity/EntityTypePredicate;)Lnet/minecraft/advancements/predicates/entity/EntityPredicate$Builder;", cancellable = true)
-    private void entityType__1883680333(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1883680333L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "sheep(Lnet/minecraft/advancements/predicates/entity/SheepPredicate;)Lnet/minecraft/advancements/predicates/entity/EntityPredicate$Builder;", cancellable = true)
-    private void sheep__1411389969(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1411389969L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "steppingOn(Lnet/minecraft/advancements/predicates/LocationPredicate$Builder;)Lnet/minecraft/advancements/predicates/entity/EntityPredicate$Builder;", cancellable = true)
-    private void steppingOn__1746670592(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1746670592L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "raider(Lnet/minecraft/advancements/predicates/entity/RaiderPredicate;)Lnet/minecraft/advancements/predicates/entity/EntityPredicate$Builder;", cancellable = true)
-    private void raider_913806585(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(913806585L))
+    @Inject(at = @At("HEAD"), method = "vehicle(Lnet/minecraft/advancements/predicates/entity/EntityPredicate$Builder;)Lnet/minecraft/advancements/predicates/entity/EntityPredicate$Builder;", cancellable = true)
+    private void vehicle_960740964(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(960740964L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "moving(Lnet/minecraft/advancements/predicates/entity/MovementPredicate;)Lnet/minecraft/advancements/predicates/entity/EntityPredicate$Builder;", cancellable = true)
     private void moving__871540159(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-871540159L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "vehicle(Lnet/minecraft/advancements/predicates/entity/EntityPredicate$Builder;)Lnet/minecraft/advancements/predicates/entity/EntityPredicate$Builder;", cancellable = true)
-    private void vehicle_960740964(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(960740964L))
             info.setReturnValue(null);
     }
 
@@ -175,9 +127,27 @@ public class Builder2023598981Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "player(Lnet/minecraft/advancements/predicates/entity/PlayerPredicate;)Lnet/minecraft/advancements/predicates/entity/EntityPredicate$Builder;", cancellable = true)
-    private void player__531369073(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-531369073L))
+    @Inject(at = @At("HEAD"), method = "steppingOn(Lnet/minecraft/advancements/predicates/LocationPredicate$Builder;)Lnet/minecraft/advancements/predicates/entity/EntityPredicate$Builder;", cancellable = true)
+    private void steppingOn__1746670592(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1746670592L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "sheep(Lnet/minecraft/advancements/predicates/entity/SheepPredicate;)Lnet/minecraft/advancements/predicates/entity/EntityPredicate$Builder;", cancellable = true)
+    private void sheep__1411389969(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1411389969L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "raider(Lnet/minecraft/advancements/predicates/entity/RaiderPredicate;)Lnet/minecraft/advancements/predicates/entity/EntityPredicate$Builder;", cancellable = true)
+    private void raider_913806585(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(913806585L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "entityType(Lnet/minecraft/advancements/predicates/entity/EntityTypePredicate;)Lnet/minecraft/advancements/predicates/entity/EntityPredicate$Builder;", cancellable = true)
+    private void entityType__1883680333(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1883680333L))
             info.setReturnValue(null);
     }
 
@@ -187,9 +157,39 @@ public class Builder2023598981Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "effects(Lnet/minecraft/advancements/predicates/MobEffectsPredicate$Builder;)Lnet/minecraft/advancements/predicates/entity/EntityPredicate$Builder;", cancellable = true)
-    private void effects__1683604109(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1683604109L))
+    @Inject(at = @At("HEAD"), method = "player(Lnet/minecraft/advancements/predicates/entity/PlayerPredicate;)Lnet/minecraft/advancements/predicates/entity/EntityPredicate$Builder;", cancellable = true)
+    private void player__531369073(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-531369073L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "movementAffectedBy(Lnet/minecraft/advancements/predicates/LocationPredicate$Builder;)Lnet/minecraft/advancements/predicates/entity/EntityPredicate$Builder;", cancellable = true)
+    private void movementAffectedBy__1746670592(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1746670592L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "targetedEntity(Lnet/minecraft/advancements/predicates/entity/EntityPredicate$Builder;)Lnet/minecraft/advancements/predicates/entity/EntityPredicate$Builder;", cancellable = true)
+    private void targetedEntity_960740964(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(960740964L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "lightingBolt(Lnet/minecraft/advancements/predicates/entity/LightningBoltPredicate;)Lnet/minecraft/advancements/predicates/entity/EntityPredicate$Builder;", cancellable = true)
+    private void lightingBolt_2083254091(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2083254091L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "fishingHook(Lnet/minecraft/advancements/predicates/entity/FishingHookPredicate;)Lnet/minecraft/advancements/predicates/entity/EntityPredicate$Builder;", cancellable = true)
+    private void fishingHook_334363005(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(334363005L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "periodicTick(I)Lnet/minecraft/advancements/predicates/entity/EntityPredicate$Builder;", cancellable = true)
+    private void periodicTick__432230192(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-432230192L))
             info.setReturnValue(null);
     }
 

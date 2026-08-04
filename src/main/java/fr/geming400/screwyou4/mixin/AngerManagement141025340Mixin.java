@@ -25,15 +25,15 @@ public class AngerManagement141025340Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getActiveEntity()Ljava/util/Optional;", cancellable = true)
-    private void getActiveEntity_386486762(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(386486762L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "increaseAnger(Lnet/minecraft/world/entity/Entity;I)I", cancellable = true)
     private void increaseAnger__950149662(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-950149662L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getActiveEntity()Ljava/util/Optional;", cancellable = true)
+    private void getActiveEntity_386486762(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(386486762L))
             info.setReturnValue(null);
     }
 

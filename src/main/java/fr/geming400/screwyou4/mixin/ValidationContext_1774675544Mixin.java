@@ -25,12 +25,6 @@ public class ValidationContext_1774675544Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "allowsReferences()Z", cancellable = true)
-    private void allowsReferences_1812954126(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1812954126L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "reportProblem(Lnet/minecraft/util/ProblemReporter$Problem;)V", cancellable = true)
     private void reportProblem__87580137(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-87580137L))
@@ -43,21 +37,15 @@ public class ValidationContext_1774675544Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "allowsReferences()Z", cancellable = true)
+    private void allowsReferences_1812954126(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1812954126L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "forIndexedField(Ljava/lang/String;I)Lnet/minecraft/world/level/storage/loot/ValidationContext;", cancellable = true)
     private void forIndexedField__1236231561(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1236231561L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "forMapField(Ljava/lang/String;Ljava/lang/String;)Lnet/minecraft/world/level/storage/loot/ValidationContext;", cancellable = true)
-    private void forMapField__1293261262(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1293261262L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "forChild(Lnet/minecraft/util/ProblemReporter$PathElement;)Lnet/minecraft/world/level/storage/loot/ValidationContext;", cancellable = true)
-    private void forChild_1227524049(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1227524049L))
             info.setReturnValue(null);
     }
 
@@ -67,10 +55,22 @@ public class ValidationContext_1774675544Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "forChild(Lnet/minecraft/util/ProblemReporter$PathElement;)Lnet/minecraft/world/level/storage/loot/ValidationContext;", cancellable = true)
+    private void forChild_1227524049(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1227524049L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "validateContextUsage(Lnet/minecraft/world/level/storage/loot/LootContextUser;)V", cancellable = true)
     private void validateContextUsage_242208478(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(242208478L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "forMapField(Ljava/lang/String;Ljava/lang/String;)Lnet/minecraft/world/level/storage/loot/ValidationContext;", cancellable = true)
+    private void forMapField__1293261262(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1293261262L))
+            info.setReturnValue(null);
     }
 
 

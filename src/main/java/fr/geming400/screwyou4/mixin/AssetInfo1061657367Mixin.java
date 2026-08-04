@@ -25,14 +25,14 @@ public class AssetInfo1061657367Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "angry()Lnet/minecraft/core/ClientAsset$ResourceTexture;", cancellable = true)
-    private void angry__190523853(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "wild()Lnet/minecraft/core/ClientAsset$ResourceTexture;", cancellable = true)
+    private void wild__190523853(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-190523853L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "wild()Lnet/minecraft/core/ClientAsset$ResourceTexture;", cancellable = true)
-    private void wild__190523853(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "angry()Lnet/minecraft/core/ClientAsset$ResourceTexture;", cancellable = true)
+    private void angry__190523853(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-190523853L))
             info.setReturnValue(null);
     }

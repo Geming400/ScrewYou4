@@ -13,22 +13,10 @@ public class RemotePlayer935029777Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "recreateFromPacket(Lnet/minecraft/network/protocol/game/ClientboundAddEntityPacket;)V", cancellable = true)
-    private void recreateFromPacket__253758913(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-253758913L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "shouldRenderAtSqrDistance(D)Z", cancellable = true)
     private void shouldRenderAtSqrDistance_2144332988(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2144332988L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "aiStep()V", cancellable = true)
-    private void aiStep_973304516(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(973304516L))
-            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "hurtClient(Lnet/minecraft/world/damagesource/DamageSource;)Z", cancellable = true)
@@ -40,6 +28,18 @@ public class RemotePlayer935029777Mixin {
     @Inject(at = @At("HEAD"), method = "lerpMotion(Lnet/minecraft/world/phys/Vec3;)V", cancellable = true)
     private void lerpMotion_1302765776(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1302765776L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "aiStep()V", cancellable = true)
+    private void aiStep_973304516(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(973304516L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "recreateFromPacket(Lnet/minecraft/network/protocol/game/ClientboundAddEntityPacket;)V", cancellable = true)
+    private void recreateFromPacket__253758913(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-253758913L))
             info.cancel();
     }
 

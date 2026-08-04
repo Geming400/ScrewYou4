@@ -31,15 +31,15 @@ public class CharacterEvent_170851907Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "codepointAsString()Ljava/lang/String;", cancellable = true)
-    private void codepointAsString__964608565(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-964608565L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "isAllowedChatCharacter()Z", cancellable = true)
     private void isAllowedChatCharacter_209130489(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(209130489L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "codepointAsString()Ljava/lang/String;", cancellable = true)
+    private void codepointAsString__964608565(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-964608565L))
             info.setReturnValue(null);
     }
 

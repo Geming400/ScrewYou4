@@ -25,15 +25,15 @@ public class ZombieNautilusRenderer_514559504Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/EntityRenderState;", cancellable = true)
-    private void createRenderState__74076941(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-74076941L))
+    @Inject(at = @At("HEAD"), method = "getTextureLocation(Lnet/minecraft/client/renderer/entity/state/NautilusRenderState;)Lnet/minecraft/resources/Identifier;", cancellable = true)
+    private void getTextureLocation_967685025(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(967685025L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/NautilusRenderState;", cancellable = true)
-    private void createRenderState_422457891(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(422457891L))
+    @Inject(at = @At("HEAD"), method = "getTextureLocation(Lnet/minecraft/client/renderer/entity/state/LivingEntityRenderState;)Lnet/minecraft/resources/Identifier;", cancellable = true)
+    private void getTextureLocation__1777771160(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1777771160L))
             info.setReturnValue(null);
     }
 
@@ -55,15 +55,15 @@ public class ZombieNautilusRenderer_514559504Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getTextureLocation(Lnet/minecraft/client/renderer/entity/state/LivingEntityRenderState;)Lnet/minecraft/resources/Identifier;", cancellable = true)
-    private void getTextureLocation__1777771160(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1777771160L))
+    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/NautilusRenderState;", cancellable = true)
+    private void createRenderState_422457891(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(422457891L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getTextureLocation(Lnet/minecraft/client/renderer/entity/state/NautilusRenderState;)Lnet/minecraft/resources/Identifier;", cancellable = true)
-    private void getTextureLocation_967685025(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(967685025L))
+    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/EntityRenderState;", cancellable = true)
+    private void createRenderState__74076941(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-74076941L))
             info.setReturnValue(null);
     }
 

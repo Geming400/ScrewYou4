@@ -79,6 +79,24 @@ public class ServerboundSetStructureBlockPacket302360811Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "getPos()Lnet/minecraft/core/BlockPos;", cancellable = true)
+    private void getPos__1591026068(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1591026068L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isShowBoundingBox()Z", cancellable = true)
+    private void isShowBoundingBox_340639394(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(340639394L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getUpdateType()Lnet/minecraft/world/level/block/entity/StructureBlockEntity$UpdateType;", cancellable = true)
+    private void getUpdateType__1415026851(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1415026851L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "isIgnoreEntities()Z", cancellable = true)
     private void isIgnoreEntities_340639394(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(340639394L))
@@ -91,26 +109,8 @@ public class ServerboundSetStructureBlockPacket302360811Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getPos()Lnet/minecraft/core/BlockPos;", cancellable = true)
-    private void getPos__1591026068(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1591026068L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "isShowAir()Z", cancellable = true)
     private void isShowAir_340639394(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(340639394L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getUpdateType()Lnet/minecraft/world/level/block/entity/StructureBlockEntity$UpdateType;", cancellable = true)
-    private void getUpdateType__1415026851(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1415026851L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isShowBoundingBox()Z", cancellable = true)
-    private void isShowBoundingBox_340639394(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(340639394L))
             info.setReturnValue(null);
     }

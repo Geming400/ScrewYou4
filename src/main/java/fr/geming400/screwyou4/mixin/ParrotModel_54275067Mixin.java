@@ -13,12 +13,6 @@ public class ParrotModel_54275067Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getPose(Lnet/minecraft/world/entity/animal/parrot/Parrot;)Lnet/minecraft/client/model/animal/parrot/ParrotModel$Pose;", cancellable = true)
-    private static void getPose__279100840(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-279100840L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "setupAnim(Ljava/lang/Object;)V", cancellable = true)
     private void setupAnim_1439911945(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1439911945L))
@@ -29,6 +23,12 @@ public class ParrotModel_54275067Mixin {
     private void setupAnim_497994949(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(497994949L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getPose(Lnet/minecraft/world/entity/animal/parrot/Parrot;)Lnet/minecraft/client/model/animal/parrot/ParrotModel$Pose;", cancellable = true)
+    private static void getPose__279100840(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-279100840L))
+            info.setReturnValue(null);
     }
 
 

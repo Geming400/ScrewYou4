@@ -13,10 +13,10 @@ public class MinecartSpawner599839303Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "handleEntityEvent(B)V", cancellable = true)
-    private void handleEntityEvent_1807291628(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1807291628L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "getSpawner()Lnet/minecraft/world/level/BaseSpawner;", cancellable = true)
+    private void getSpawner_1524921136(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1524921136L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getPickResult()Lnet/minecraft/world/item/ItemStack;", cancellable = true)
@@ -25,10 +25,10 @@ public class MinecartSpawner599839303Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getSpawner()Lnet/minecraft/world/level/BaseSpawner;", cancellable = true)
-    private void getSpawner_1524921136(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1524921136L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "handleEntityEvent(B)V", cancellable = true)
+    private void handleEntityEvent_1807291628(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1807291628L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "getDefaultDisplayBlockState()Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)

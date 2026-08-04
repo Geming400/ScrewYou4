@@ -43,6 +43,12 @@ public class BlockItem_187515086Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "updateCustomBlockEntityTag(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/item/ItemStack;)Z", cancellable = true)
+    private static void updateCustomBlockEntityTag__1626528501(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1626528501L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "registerBlocks(Ljava/util/Map;Lnet/minecraft/world/item/Item;)V", cancellable = true)
     private void registerBlocks_425831486(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(425831486L))
@@ -58,12 +64,6 @@ public class BlockItem_187515086Mixin {
     @Inject(at = @At("HEAD"), method = "updatePlacementContext(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/item/context/BlockPlaceContext;", cancellable = true)
     private void updatePlacementContext_1248723116(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1248723116L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "updateCustomBlockEntityTag(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/item/ItemStack;)Z", cancellable = true)
-    private static void updateCustomBlockEntityTag__1626528501(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1626528501L))
             info.setReturnValue(null);
     }
 

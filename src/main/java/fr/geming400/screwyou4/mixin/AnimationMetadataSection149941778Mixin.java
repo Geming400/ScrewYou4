@@ -31,12 +31,6 @@ public class AnimationMetadataSection149941778Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "frameHeight()Ljava/util/Optional;", cancellable = true)
-    private void frameHeight_395403200(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(395403200L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "frameWidth()Ljava/util/Optional;", cancellable = true)
     private void frameWidth_395403200(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(395403200L))
@@ -58,6 +52,12 @@ public class AnimationMetadataSection149941778Mixin {
     @Inject(at = @At("HEAD"), method = "calculateFrameSize(II)Lnet/minecraft/client/resources/metadata/animation/FrameSize;", cancellable = true)
     private void calculateFrameSize__2146048551(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2146048551L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "frameHeight()Ljava/util/Optional;", cancellable = true)
+    private void frameHeight_395403200(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(395403200L))
             info.setReturnValue(null);
     }
 

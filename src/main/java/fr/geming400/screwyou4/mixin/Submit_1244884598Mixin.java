@@ -25,12 +25,6 @@ public class Submit_1244884598Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "pose()Lorg/joml/Matrix4f;", cancellable = true)
-    private void pose__222922490(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-222922490L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "leashState()Lnet/minecraft/client/renderer/entity/state/EntityRenderState$LeashState;", cancellable = true)
     private void leashState__335034389(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-335034389L))
@@ -40,6 +34,12 @@ public class Submit_1244884598Mixin {
     @Inject(at = @At("HEAD"), method = "featureType()Lnet/minecraft/client/renderer/feature/FeatureRendererType;", cancellable = true)
     private void featureType__2018999173(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2018999173L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "pose()Lorg/joml/Matrix4f;", cancellable = true)
+    private void pose__222922490(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-222922490L))
             info.setReturnValue(null);
     }
 

@@ -37,9 +37,9 @@ public class Ingredient_159014287Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "of(Lnet/minecraft/core/HolderSet;)Lnet/minecraft/world/item/crafting/Ingredient;", cancellable = true)
-    private static void of_239401484(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(239401484L))
+    @Inject(at = @At("HEAD"), method = "of([Lnet/minecraft/world/level/ItemLike;)Lnet/minecraft/world/item/crafting/Ingredient;", cancellable = true)
+    private static void of__468717683(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-468717683L))
             info.setReturnValue(null);
     }
 
@@ -49,9 +49,9 @@ public class Ingredient_159014287Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "of([Lnet/minecraft/world/level/ItemLike;)Lnet/minecraft/world/item/crafting/Ingredient;", cancellable = true)
-    private static void of__468717683(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-468717683L))
+    @Inject(at = @At("HEAD"), method = "of(Lnet/minecraft/core/HolderSet;)Lnet/minecraft/world/item/crafting/Ingredient;", cancellable = true)
+    private static void of_239401484(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(239401484L))
             info.setReturnValue(null);
     }
 
@@ -73,9 +73,9 @@ public class Ingredient_159014287Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "acceptsItem(Lnet/minecraft/core/Holder;)Z", cancellable = true)
-    private void acceptsItem_1705493268(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1705493268L))
+    @Inject(at = @At("HEAD"), method = "testOptionalIngredient(Ljava/util/Optional;Lnet/minecraft/world/item/ItemStack;)Z", cancellable = true)
+    private static void testOptionalIngredient_1321801233(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1321801233L))
             info.setReturnValue(null);
     }
 
@@ -85,9 +85,9 @@ public class Ingredient_159014287Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "testOptionalIngredient(Ljava/util/Optional;Lnet/minecraft/world/item/ItemStack;)Z", cancellable = true)
-    private static void testOptionalIngredient_1321801233(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1321801233L))
+    @Inject(at = @At("HEAD"), method = "acceptsItem(Lnet/minecraft/core/Holder;)Z", cancellable = true)
+    private void acceptsItem_1705493268(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1705493268L))
             info.setReturnValue(null);
     }
 

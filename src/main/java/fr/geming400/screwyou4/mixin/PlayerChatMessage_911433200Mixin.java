@@ -91,45 +91,9 @@ public class PlayerChatMessage_911433200Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "removeSignature()Lnet/minecraft/network/chat/PlayerChatMessage;", cancellable = true)
-    private void removeSignature__835065103(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-835065103L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "describeSigned(Lnet/minecraft/network/chat/PlayerChatMessage;)Ljava/lang/String;", cancellable = true)
-    private static void describeSigned__629572083(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-629572083L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "sender()Ljava/util/UUID;", cancellable = true)
-    private void sender_1322567682(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1322567682L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "timeStamp()Ljava/time/Instant;", cancellable = true)
-    private void timeStamp_2008667399(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2008667399L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "unsignedContent()Lnet/minecraft/network/chat/Component;", cancellable = true)
-    private void unsignedContent__1265475966(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1265475966L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "hasExpiredClient(Ljava/time/Instant;)Z", cancellable = true)
-    private void hasExpiredClient_315225233(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(315225233L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "signedContent()Ljava/lang/String;", cancellable = true)
-    private void signedContent__224027272(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-224027272L))
+    @Inject(at = @At("HEAD"), method = "isFullyFiltered()Z", cancellable = true)
+    private void isFullyFiltered_949711782(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(949711782L))
             info.setReturnValue(null);
     }
 
@@ -139,21 +103,45 @@ public class PlayerChatMessage_911433200Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "hasExpiredClient(Ljava/time/Instant;)Z", cancellable = true)
+    private void hasExpiredClient_315225233(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(315225233L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "decoratedContent()Lnet/minecraft/network/chat/Component;", cancellable = true)
     private void decoratedContent__1265475966(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1265475966L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "isFullyFiltered()Z", cancellable = true)
-    private void isFullyFiltered_949711782(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(949711782L))
+    @Inject(at = @At("HEAD"), method = "signedContent()Ljava/lang/String;", cancellable = true)
+    private void signedContent__224027272(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-224027272L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "hasSignatureFrom(Ljava/util/UUID;)Z", cancellable = true)
     private void hasSignatureFrom_553880954(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(553880954L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "unsignedContent()Lnet/minecraft/network/chat/Component;", cancellable = true)
+    private void unsignedContent__1265475966(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1265475966L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "timeStamp()Ljava/time/Instant;", cancellable = true)
+    private void timeStamp_2008667399(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2008667399L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "sender()Ljava/util/UUID;", cancellable = true)
+    private void sender_1322567682(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1322567682L))
             info.setReturnValue(null);
     }
 
@@ -169,15 +157,27 @@ public class PlayerChatMessage_911433200Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "hasExpiredServer(Ljava/time/Instant;)Z", cancellable = true)
-    private void hasExpiredServer_315225233(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(315225233L))
+    @Inject(at = @At("HEAD"), method = "describeSigned(Lnet/minecraft/network/chat/PlayerChatMessage;)Ljava/lang/String;", cancellable = true)
+    private static void describeSigned__629572083(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-629572083L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "removeSignature()Lnet/minecraft/network/chat/PlayerChatMessage;", cancellable = true)
+    private void removeSignature__835065103(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-835065103L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "withUnsignedContent(Lnet/minecraft/network/chat/Component;)Lnet/minecraft/network/chat/PlayerChatMessage;", cancellable = true)
     private void withUnsignedContent__1001565603(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1001565603L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "hasExpiredServer(Ljava/time/Instant;)Z", cancellable = true)
+    private void hasExpiredServer_315225233(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(315225233L))
             info.setReturnValue(null);
     }
 

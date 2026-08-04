@@ -43,8 +43,8 @@ public class TriggerInstance_938773490Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "killingBlow()Ljava/util/Optional;", cancellable = true)
-    private void killingBlow_1184234911(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "player()Ljava/util/Optional;", cancellable = true)
+    private void player_1184234911(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1184234911L))
             info.setReturnValue(null);
     }
@@ -121,27 +121,27 @@ public class TriggerInstance_938773490Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "playerKilledEntity(Ljava/util/Optional;Lnet/minecraft/advancements/predicates/DamageSourcePredicate$Builder;)Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
-    private static void playerKilledEntity_1473113607(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1473113607L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "playerKilledEntity(Lnet/minecraft/advancements/predicates/entity/EntityPredicate$Builder;Lnet/minecraft/advancements/predicates/DamageSourcePredicate$Builder;)Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
     private static void playerKilledEntity__1729838319(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1729838319L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "playerKilledEntityNearSculkCatalyst()Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
-    private static void playerKilledEntityNearSculkCatalyst__2082442408(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2082442408L))
+    @Inject(at = @At("HEAD"), method = "playerKilledEntity(Ljava/util/Optional;Lnet/minecraft/advancements/predicates/DamageSourcePredicate$Builder;)Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
+    private static void playerKilledEntity_1473113607(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1473113607L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "player()Ljava/util/Optional;", cancellable = true)
-    private void player_1184234911(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "killingBlow()Ljava/util/Optional;", cancellable = true)
+    private void killingBlow_1184234911(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1184234911L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "playerKilledEntityNearSculkCatalyst()Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
+    private static void playerKilledEntityNearSculkCatalyst__2082442408(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2082442408L))
             info.setReturnValue(null);
     }
 

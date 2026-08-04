@@ -25,12 +25,6 @@ public class Transforms_1662747573Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "yOffset()F", cancellable = true)
-    private void yOffset_1701006935(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1701006935L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "horizontalScale()F", cancellable = true)
     private void horizontalScale_1701006935(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1701006935L))
@@ -39,6 +33,12 @@ public class Transforms_1662747573Mixin {
 
     @Inject(at = @At("HEAD"), method = "skullYOffset()F", cancellable = true)
     private void skullYOffset_1701006935(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1701006935L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "yOffset()F", cancellable = true)
+    private void yOffset_1701006935(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1701006935L))
             info.setReturnValue(null);
     }

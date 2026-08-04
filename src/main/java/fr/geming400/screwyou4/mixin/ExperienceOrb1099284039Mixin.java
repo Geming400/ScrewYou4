@@ -19,16 +19,28 @@ public class ExperienceOrb1099284039Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getSoundSource()Lnet/minecraft/sounds/SoundSource;", cancellable = true)
-    private void getSoundSource__1193763934(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1193763934L))
+    @Inject(at = @At("HEAD"), method = "award(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/phys/Vec3;I)V", cancellable = true)
+    private static void award_6707120(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(6707120L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getIcon()I", cancellable = true)
+    private void getIcon_1137546285(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1137546285L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getInterpolation()Lnet/minecraft/world/entity/InterpolationHandler;", cancellable = true)
-    private void getInterpolation_1955719626(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1955719626L))
+    @Inject(at = @At("HEAD"), method = "getExperienceValue(I)I", cancellable = true)
+    private static void getExperienceValue__1981778530(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1981778530L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "awardWithDirection(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/world/phys/Vec3;I)V", cancellable = true)
+    private static void awardWithDirection__190275590(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-190275590L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "playerTouch(Lnet/minecraft/world/entity/player/Player;)V", cancellable = true)
@@ -43,21 +55,9 @@ public class ExperienceOrb1099284039Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getBlockPosBelowThatAffectsMyMovement()Lnet/minecraft/core/BlockPos;", cancellable = true)
-    private void getBlockPosBelowThatAffectsMyMovement__794102840(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-794102840L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "award(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/phys/Vec3;I)V", cancellable = true)
-    private static void award_6707120(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(6707120L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "getIcon()I", cancellable = true)
-    private void getIcon_1137546285(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1137546285L))
+    @Inject(at = @At("HEAD"), method = "hurtClient(Lnet/minecraft/world/damagesource/DamageSource;)Z", cancellable = true)
+    private void hurtClient_767614919(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(767614919L))
             info.setReturnValue(null);
     }
 
@@ -67,21 +67,21 @@ public class ExperienceOrb1099284039Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "hurtClient(Lnet/minecraft/world/damagesource/DamageSource;)Z", cancellable = true)
-    private void hurtClient_767614919(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(767614919L))
+    @Inject(at = @At("HEAD"), method = "getBlockPosBelowThatAffectsMyMovement()Lnet/minecraft/core/BlockPos;", cancellable = true)
+    private void getBlockPosBelowThatAffectsMyMovement__794102840(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-794102840L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "awardWithDirection(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/world/phys/Vec3;I)V", cancellable = true)
-    private static void awardWithDirection__190275590(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-190275590L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "getSoundSource()Lnet/minecraft/sounds/SoundSource;", cancellable = true)
+    private void getSoundSource__1193763934(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1193763934L))
+            info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getExperienceValue(I)I", cancellable = true)
-    private static void getExperienceValue__1981778530(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1981778530L))
+    @Inject(at = @At("HEAD"), method = "getInterpolation()Lnet/minecraft/world/entity/InterpolationHandler;", cancellable = true)
+    private void getInterpolation_1955719626(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1955719626L))
             info.setReturnValue(null);
     }
 

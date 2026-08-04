@@ -31,24 +31,6 @@ public class SulfurCubeArchetype_279337763Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "explosion()Ljava/util/Optional;", cancellable = true)
-    private void explosion_524799184(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(524799184L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "attributeModifiers()Ljava/util/List;", cancellable = true)
-    private void attributeModifiers_1905674578(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1905674578L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "buoyant()Z", cancellable = true)
-    private void buoyant_317616345(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(317616345L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "contactDamage()Ljava/util/Optional;", cancellable = true)
     private void contactDamage_524799184(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(524799184L))
@@ -64,6 +46,24 @@ public class SulfurCubeArchetype_279337763Mixin {
     @Inject(at = @At("HEAD"), method = "knockbackModifiers()Lnet/minecraft/world/entity/SulfurCubeArchetype$KnockbackModifiers;", cancellable = true)
     private void knockbackModifiers__83192287(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-83192287L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "explosion()Ljava/util/Optional;", cancellable = true)
+    private void explosion_524799184(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(524799184L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "attributeModifiers()Ljava/util/List;", cancellable = true)
+    private void attributeModifiers_1905674578(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1905674578L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "buoyant()Z", cancellable = true)
+    private void buoyant_317616345(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(317616345L))
             info.setReturnValue(null);
     }
 

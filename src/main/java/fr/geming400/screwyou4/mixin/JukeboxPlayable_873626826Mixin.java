@@ -31,16 +31,16 @@ public class JukeboxPlayable_873626826Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "addToTooltip(Lnet/minecraft/world/item/Item$TooltipContext;Ljava/util/function/Consumer;Lnet/minecraft/world/item/TooltipFlag;Lnet/minecraft/core/component/DataComponentGetter;)V", cancellable = true)
-    private void addToTooltip__1669091565(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1669091565L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "tryInsertIntoJukebox(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/player/Player;)Lnet/minecraft/world/InteractionResult;", cancellable = true)
     private static void tryInsertIntoJukebox_1337195116(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1337195116L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "addToTooltip(Lnet/minecraft/world/item/Item$TooltipContext;Ljava/util/function/Consumer;Lnet/minecraft/world/item/TooltipFlag;Lnet/minecraft/core/component/DataComponentGetter;)V", cancellable = true)
+    private void addToTooltip__1669091565(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1669091565L))
+            info.cancel();
     }
 
 

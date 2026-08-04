@@ -49,14 +49,14 @@ public class PlayerSkin1317238144Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "elytra()Lnet/minecraft/core/ClientAsset$Texture;", cancellable = true)
-    private void elytra__2063156754(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "cape()Lnet/minecraft/core/ClientAsset$Texture;", cancellable = true)
+    private void cape__2063156754(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2063156754L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "cape()Lnet/minecraft/core/ClientAsset$Texture;", cancellable = true)
-    private void cape__2063156754(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "elytra()Lnet/minecraft/core/ClientAsset$Texture;", cancellable = true)
+    private void elytra__2063156754(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2063156754L))
             info.setReturnValue(null);
     }

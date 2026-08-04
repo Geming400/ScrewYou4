@@ -31,9 +31,15 @@ public class DeprecatedTranslationsInfo1412123561Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "renamed()Ljava/util/Map;", cancellable = true)
-    private void renamed__592500079(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-592500079L))
+    @Inject(at = @At("HEAD"), method = "loadFromDefaultResource()Lnet/minecraft/locale/DeprecatedTranslationsInfo;", cancellable = true)
+    private static void loadFromDefaultResource_438268833(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(438268833L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "loadFromJson(Ljava/io/InputStream;)Lnet/minecraft/locale/DeprecatedTranslationsInfo;", cancellable = true)
+    private static void loadFromJson_1766854186(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1766854186L))
             info.setReturnValue(null);
     }
 
@@ -43,21 +49,15 @@ public class DeprecatedTranslationsInfo1412123561Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "loadFromJson(Ljava/io/InputStream;)Lnet/minecraft/locale/DeprecatedTranslationsInfo;", cancellable = true)
-    private static void loadFromJson_1766854186(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1766854186L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "loadFromDefaultResource()Lnet/minecraft/locale/DeprecatedTranslationsInfo;", cancellable = true)
-    private static void loadFromDefaultResource_438268833(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(438268833L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "loadFromResource(Ljava/lang/String;)Lnet/minecraft/locale/DeprecatedTranslationsInfo;", cancellable = true)
     private static void loadFromResource_666833835(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(666833835L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "renamed()Ljava/util/Map;", cancellable = true)
+    private void renamed__592500079(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-592500079L))
             info.setReturnValue(null);
     }
 

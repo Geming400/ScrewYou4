@@ -19,8 +19,8 @@ public class LanServerPinger1465236365Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "parseAddress(Ljava/lang/String;)Ljava/lang/String;", cancellable = true)
-    private static void parseAddress__1616988860(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "parseMotd(Ljava/lang/String;)Ljava/lang/String;", cancellable = true)
+    private static void parseMotd__1616988860(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1616988860L))
             info.setReturnValue(null);
     }
@@ -31,8 +31,8 @@ public class LanServerPinger1465236365Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "parseMotd(Ljava/lang/String;)Ljava/lang/String;", cancellable = true)
-    private static void parseMotd__1616988860(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "parseAddress(Ljava/lang/String;)Ljava/lang/String;", cancellable = true)
+    private static void parseAddress__1616988860(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1616988860L))
             info.setReturnValue(null);
     }

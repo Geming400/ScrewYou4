@@ -37,33 +37,9 @@ public class LinearLayout1751836051Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getWidth()I", cancellable = true)
-    private void getWidth_1790098297(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1790098297L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "removeChildren()V", cancellable = true)
-    private void removeChildren_1790110790(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1790110790L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "visitChildren(Ljava/util/function/Consumer;)V", cancellable = true)
-    private void visitChildren__1862114832(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1862114832L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "defaultCellSetting()Lnet/minecraft/client/gui/layouts/LayoutSettings;", cancellable = true)
-    private void defaultCellSetting_1686856256(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1686856256L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "arrangeElements()V", cancellable = true)
-    private void arrangeElements_1790110790(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1790110790L))
+    @Inject(at = @At("HEAD"), method = "setX(I)V", cancellable = true)
+    private void setX__1329214273(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1329214273L))
             info.cancel();
     }
 
@@ -85,15 +61,15 @@ public class LinearLayout1751836051Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "setX(I)V", cancellable = true)
-    private void setX__1329214273(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1329214273L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "getHeight()I", cancellable = true)
+    private void getHeight_1790098297(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1790098297L))
+            info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "spacing(I)Lnet/minecraft/client/gui/layouts/LinearLayout;", cancellable = true)
-    private void spacing_703504055(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(703504055L))
+    @Inject(at = @At("HEAD"), method = "getWidth()I", cancellable = true)
+    private void getWidth_1790098297(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1790098297L))
             info.setReturnValue(null);
     }
 
@@ -103,10 +79,34 @@ public class LinearLayout1751836051Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getHeight()I", cancellable = true)
-    private void getHeight_1790098297(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1790098297L))
+    @Inject(at = @At("HEAD"), method = "spacing(I)Lnet/minecraft/client/gui/layouts/LinearLayout;", cancellable = true)
+    private void spacing_703504055(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(703504055L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "defaultCellSetting()Lnet/minecraft/client/gui/layouts/LayoutSettings;", cancellable = true)
+    private void defaultCellSetting_1686856256(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1686856256L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "arrangeElements()V", cancellable = true)
+    private void arrangeElements_1790110790(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1790110790L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "visitChildren(Ljava/util/function/Consumer;)V", cancellable = true)
+    private void visitChildren__1862114832(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1862114832L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "removeChildren()V", cancellable = true)
+    private void removeChildren_1790110790(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1790110790L))
+            info.cancel();
     }
 
 

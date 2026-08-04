@@ -25,60 +25,6 @@ public class Optionull733774066Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "isNullOrEmpty([I)Z", cancellable = true)
-    private static void isNullOrEmpty_253223407(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(253223407L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isNullOrEmpty([S)Z", cancellable = true)
-    private static void isNullOrEmpty_262458617(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(262458617L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isNullOrEmpty([B)Z", cancellable = true)
-    private static void isNullOrEmpty_246758760(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(246758760L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isNullOrEmpty([C)Z", cancellable = true)
-    private static void isNullOrEmpty_247682281(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(247682281L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isNullOrEmpty([J)Z", cancellable = true)
-    private static void isNullOrEmpty_254146928(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(254146928L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isNullOrEmpty([F)Z", cancellable = true)
-    private static void isNullOrEmpty_250452844(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(250452844L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isNullOrEmpty([D)Z", cancellable = true)
-    private static void isNullOrEmpty_248605802(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(248605802L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isNullOrEmpty([Z)Z", cancellable = true)
-    private static void isNullOrEmpty_268923264(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(268923264L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isNullOrEmpty([Ljava/lang/Object;)Z", cancellable = true)
-    private static void isNullOrEmpty__1502504952(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1502504952L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "mapOrDefault(Ljava/lang/Object;Ljava/util/function/Function;Ljava/lang/Object;)Ljava/lang/Object;", cancellable = true)
     private static void mapOrDefault__1148660995(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1148660995L))
@@ -94,6 +40,60 @@ public class Optionull733774066Mixin {
     @Inject(at = @At("HEAD"), method = "firstOrElse(Ljava/util/Collection;Ljava/util/function/Supplier;)Ljava/lang/Object;", cancellable = true)
     private static void firstOrElse__1368768926(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1368768926L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isNullOrEmpty([J)Z", cancellable = true)
+    private static void isNullOrEmpty_254146928(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(254146928L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isNullOrEmpty([I)Z", cancellable = true)
+    private static void isNullOrEmpty_253223407(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(253223407L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isNullOrEmpty([S)Z", cancellable = true)
+    private static void isNullOrEmpty_262458617(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(262458617L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isNullOrEmpty([F)Z", cancellable = true)
+    private static void isNullOrEmpty_250452844(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(250452844L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isNullOrEmpty([D)Z", cancellable = true)
+    private static void isNullOrEmpty_248605802(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(248605802L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isNullOrEmpty([Ljava/lang/Object;)Z", cancellable = true)
+    private static void isNullOrEmpty__1502504952(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1502504952L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isNullOrEmpty([Z)Z", cancellable = true)
+    private static void isNullOrEmpty_268923264(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(268923264L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isNullOrEmpty([B)Z", cancellable = true)
+    private static void isNullOrEmpty_246758760(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(246758760L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isNullOrEmpty([C)Z", cancellable = true)
+    private static void isNullOrEmpty_247682281(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(247682281L))
             info.setReturnValue(null);
     }
 

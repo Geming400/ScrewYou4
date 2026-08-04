@@ -43,14 +43,14 @@ public class JfrStatsResult_2093656366Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "fileReads()Lnet/minecraft/util/profiling/jfr/stats/FileIOStat$Summary;", cancellable = true)
-    private void fileReads__1344576818(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "fileWrites()Lnet/minecraft/util/profiling/jfr/stats/FileIOStat$Summary;", cancellable = true)
+    private void fileWrites__1344576818(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1344576818L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "fileWrites()Lnet/minecraft/util/profiling/jfr/stats/FileIOStat$Summary;", cancellable = true)
-    private void fileWrites__1344576818(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "fileReads()Lnet/minecraft/util/profiling/jfr/stats/FileIOStat$Summary;", cancellable = true)
+    private void fileReads__1344576818(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1344576818L))
             info.setReturnValue(null);
     }
@@ -58,18 +58,6 @@ public class JfrStatsResult_2093656366Mixin {
     @Inject(at = @At("HEAD"), method = "recordingStarted()Ljava/time/Instant;", cancellable = true)
     private void recordingStarted__1104076731(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1104076731L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "recordingEnded()Ljava/time/Instant;", cancellable = true)
-    private void recordingEnded__1104076731(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1104076731L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "chunkGenStats()Ljava/util/List;", cancellable = true)
-    private void chunkGenStats__574974115(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-574974115L))
             info.setReturnValue(null);
     }
 
@@ -85,6 +73,18 @@ public class JfrStatsResult_2093656366Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "recordingEnded()Ljava/time/Instant;", cancellable = true)
+    private void recordingEnded__1104076731(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1104076731L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "chunkGenStats()Ljava/util/List;", cancellable = true)
+    private void chunkGenStats__574974115(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-574974115L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "serverTickTimes()Ljava/util/List;", cancellable = true)
     private void serverTickTimes__574974115(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-574974115L))
@@ -97,33 +97,21 @@ public class JfrStatsResult_2093656366Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "heapSummary()Lnet/minecraft/util/profiling/jfr/stats/GcHeapStat$Summary;", cancellable = true)
-    private void heapSummary_107871432(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(107871432L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "threadAllocationSummary()Lnet/minecraft/util/profiling/jfr/stats/ThreadAllocationStat$Summary;", cancellable = true)
-    private void threadAllocationSummary_154814182(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(154814182L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "sentPacketsSummary()Lnet/minecraft/util/profiling/jfr/stats/IoSummary;", cancellable = true)
     private void sentPacketsSummary__608888090(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-608888090L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "recordingDuration()Ljava/time/Duration;", cancellable = true)
-    private void recordingDuration__938146190(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-938146190L))
+    @Inject(at = @At("HEAD"), method = "cpuLoadStats()Ljava/util/List;", cancellable = true)
+    private void cpuLoadStats__574974115(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-574974115L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "receivedPacketsSummary()Lnet/minecraft/util/profiling/jfr/stats/IoSummary;", cancellable = true)
-    private void receivedPacketsSummary__608888090(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-608888090L))
+    @Inject(at = @At("HEAD"), method = "heapSummary()Lnet/minecraft/util/profiling/jfr/stats/GcHeapStat$Summary;", cancellable = true)
+    private void heapSummary_107871432(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(107871432L))
             info.setReturnValue(null);
     }
 
@@ -133,9 +121,21 @@ public class JfrStatsResult_2093656366Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "cpuLoadStats()Ljava/util/List;", cancellable = true)
-    private void cpuLoadStats__574974115(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-574974115L))
+    @Inject(at = @At("HEAD"), method = "recordingDuration()Ljava/time/Duration;", cancellable = true)
+    private void recordingDuration__938146190(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-938146190L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "threadAllocationSummary()Lnet/minecraft/util/profiling/jfr/stats/ThreadAllocationStat$Summary;", cancellable = true)
+    private void threadAllocationSummary_154814182(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(154814182L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "receivedPacketsSummary()Lnet/minecraft/util/profiling/jfr/stats/IoSummary;", cancellable = true)
+    private void receivedPacketsSummary__608888090(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-608888090L))
             info.setReturnValue(null);
     }
 

@@ -43,15 +43,15 @@ public class TriggerInstance1214412790Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "entersBlock(Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
-    private static void entersBlock_1638215333(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1638215333L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "player()Ljava/util/Optional;", cancellable = true)
     private void player_1459874212(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1459874212L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "entersBlock(Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
+    private static void entersBlock_1638215333(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1638215333L))
             info.setReturnValue(null);
     }
 

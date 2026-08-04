@@ -49,9 +49,9 @@ public class EnchantmentAttributeEffect572449560Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getModifier(ILnet/minecraft/util/StringRepresentable;)Lnet/minecraft/world/entity/ai/attributes/AttributeModifier;", cancellable = true)
-    private void getModifier__548822321(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-548822321L))
+    @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
+    private void codec__1986664012(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1986664012L))
             info.setReturnValue(null);
     }
 
@@ -61,9 +61,9 @@ public class EnchantmentAttributeEffect572449560Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
-    private void codec__1986664012(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1986664012L))
+    @Inject(at = @At("HEAD"), method = "getModifier(ILnet/minecraft/util/StringRepresentable;)Lnet/minecraft/world/entity/ai/attributes/AttributeModifier;", cancellable = true)
+    private void getModifier__548822321(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-548822321L))
             info.setReturnValue(null);
     }
 

@@ -25,9 +25,9 @@ public class MossyCarpetBlock_348933425Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
-    private void getStateForPlacement__909666343(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-909666343L))
+    @Inject(at = @At("HEAD"), method = "makeShapes()Ljava/util/function/Function;", cancellable = true)
+    private void makeShapes__1577239323(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1577239323L))
             info.setReturnValue(null);
     }
 
@@ -35,6 +35,12 @@ public class MossyCarpetBlock_348933425Mixin {
     private void setPlacedBy_2076365572(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(2076365572L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
+    private void getStateForPlacement__909666343(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-909666343L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "isValidBonemealTarget(Lnet/minecraft/world/level/LevelReader;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Z", cancellable = true)
@@ -52,12 +58,6 @@ public class MossyCarpetBlock_348933425Mixin {
     @Inject(at = @At("HEAD"), method = "isBonemealSuccess(Lnet/minecraft/world/level/Level;Lnet/minecraft/util/RandomSource;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Z", cancellable = true)
     private void isBonemealSuccess__1623979719(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1623979719L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "makeShapes()Ljava/util/function/Function;", cancellable = true)
-    private void makeShapes__1577239323(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1577239323L))
             info.setReturnValue(null);
     }
 

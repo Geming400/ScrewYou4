@@ -43,15 +43,15 @@ public class MatchTool_619229825Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "toolMatches(Lnet/minecraft/advancements/predicates/ItemPredicate$Builder;)Lnet/minecraft/world/level/storage/loot/predicates/LootItemCondition$Builder;", cancellable = true)
-    private static void toolMatches_961488776(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(961488776L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
     private void codec__1939883748(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1939883748L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "toolMatches(Lnet/minecraft/advancements/predicates/ItemPredicate$Builder;)Lnet/minecraft/world/level/storage/loot/predicates/LootItemCondition$Builder;", cancellable = true)
+    private static void toolMatches_961488776(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(961488776L))
             info.setReturnValue(null);
     }
 

@@ -61,45 +61,21 @@ public class Path_143348515Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getEntityPosAtNode(Lnet/minecraft/world/entity/Entity;I)Lnet/minecraft/world/phys/Vec3;", cancellable = true)
-    private void getEntityPosAtNode_1195339995(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1195339995L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "setNextNodeIndex(I)V", cancellable = true)
-    private void setNextNodeIndex_1357265486(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1357265486L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "debugData()Lnet/minecraft/world/level/pathfinder/Path$DebugData;", cancellable = true)
     private void debugData__1138226112(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1138226112L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getNodeCount()I", cancellable = true)
-    private void getNodeCount_181610760(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(181610760L))
+    @Inject(at = @At("HEAD"), method = "getNextNode()Lnet/minecraft/world/level/pathfinder/Node;", cancellable = true)
+    private void getNextNode__1349868996(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1349868996L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getNextNodeIndex()I", cancellable = true)
-    private void getNextNodeIndex_181610760(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(181610760L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "canReach()Z", cancellable = true)
-    private void canReach_181627097(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(181627097L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getNextEntityPos(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/world/phys/Vec3;", cancellable = true)
-    private void getNextEntityPos__1866790092(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1866790092L))
+    @Inject(at = @At("HEAD"), method = "getPreviousNode()Lnet/minecraft/world/level/pathfinder/Node;", cancellable = true)
+    private void getPreviousNode__1349868996(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1349868996L))
             info.setReturnValue(null);
     }
 
@@ -115,33 +91,21 @@ public class Path_143348515Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "notStarted()Z", cancellable = true)
-    private void notStarted_181627097(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(181627097L))
+    @Inject(at = @At("HEAD"), method = "getNextEntityPos(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/world/phys/Vec3;", cancellable = true)
+    private void getNextEntityPos__1866790092(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1866790092L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getEndNode()Lnet/minecraft/world/level/pathfinder/Node;", cancellable = true)
-    private void getEndNode__1349868996(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1349868996L))
+    @Inject(at = @At("HEAD"), method = "getNextNodeIndex()I", cancellable = true)
+    private void getNextNodeIndex_181610760(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(181610760L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "sameAs(Lnet/minecraft/world/level/pathfinder/Path;)Z", cancellable = true)
-    private void sameAs__1849534973(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1849534973L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getNodePos(I)Lnet/minecraft/core/BlockPos;", cancellable = true)
-    private void getNodePos_1568041372(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1568041372L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getDistToTarget()F", cancellable = true)
-    private void getDistToTarget_181607877(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(181607877L))
+    @Inject(at = @At("HEAD"), method = "getNodeCount()I", cancellable = true)
+    private void getNodeCount_181610760(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(181610760L))
             info.setReturnValue(null);
     }
 
@@ -157,15 +121,51 @@ public class Path_143348515Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getPreviousNode()Lnet/minecraft/world/level/pathfinder/Node;", cancellable = true)
-    private void getPreviousNode__1349868996(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "canReach()Z", cancellable = true)
+    private void canReach_181627097(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(181627097L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "setNextNodeIndex(I)V", cancellable = true)
+    private void setNextNodeIndex_1357265486(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1357265486L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getEntityPosAtNode(Lnet/minecraft/world/entity/Entity;I)Lnet/minecraft/world/phys/Vec3;", cancellable = true)
+    private void getEntityPosAtNode_1195339995(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1195339995L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "notStarted()Z", cancellable = true)
+    private void notStarted_181627097(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(181627097L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getEndNode()Lnet/minecraft/world/level/pathfinder/Node;", cancellable = true)
+    private void getEndNode__1349868996(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1349868996L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getNextNode()Lnet/minecraft/world/level/pathfinder/Node;", cancellable = true)
-    private void getNextNode__1349868996(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1349868996L))
+    @Inject(at = @At("HEAD"), method = "getNodePos(I)Lnet/minecraft/core/BlockPos;", cancellable = true)
+    private void getNodePos_1568041372(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1568041372L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "sameAs(Lnet/minecraft/world/level/pathfinder/Path;)Z", cancellable = true)
+    private void sameAs__1849534973(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1849534973L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getDistToTarget()F", cancellable = true)
+    private void getDistToTarget_181607877(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(181607877L))
             info.setReturnValue(null);
     }
 

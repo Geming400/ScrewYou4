@@ -37,15 +37,15 @@ public class Summary1979924666Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "gcOverHead()F", cancellable = true)
-    private void gcOverHead_2018184029(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2018184029L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "totalGCs()I", cancellable = true)
     private void totalGCs_2018186912(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2018186912L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "gcOverHead()F", cancellable = true)
+    private void gcOverHead_2018184029(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2018184029L))
             info.setReturnValue(null);
     }
 

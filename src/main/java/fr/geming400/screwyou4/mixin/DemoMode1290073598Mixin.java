@@ -13,15 +13,15 @@ public class DemoMode1290073598Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "useItem(Lnet/minecraft/server/level/ServerPlayer;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResult;", cancellable = true)
-    private void useItem_421270663(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(421270663L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "useItemOn(Lnet/minecraft/server/level/ServerPlayer;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/InteractionHand;Lnet/minecraft/world/phys/BlockHitResult;)Lnet/minecraft/world/InteractionResult;", cancellable = true)
     private void useItemOn__2071483383(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2071483383L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "useItem(Lnet/minecraft/server/level/ServerPlayer;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResult;", cancellable = true)
+    private void useItem_421270663(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(421270663L))
             info.setReturnValue(null);
     }
 

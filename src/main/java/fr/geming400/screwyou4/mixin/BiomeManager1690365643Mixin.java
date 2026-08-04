@@ -13,6 +13,12 @@ public class BiomeManager1690365643Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "withDifferentSource(Lnet/minecraft/world/level/biome/BiomeManager$NoiseBiomeSource;)Lnet/minecraft/world/level/biome/BiomeManager;", cancellable = true)
+    private void withDifferentSource_1345258135(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1345258135L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "obfuscateSeed(J)J", cancellable = true)
     private static void obfuscateSeed__1389772444(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1389772444L))
@@ -25,21 +31,15 @@ public class BiomeManager1690365643Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getNoiseBiomeAtPosition(Lnet/minecraft/core/BlockPos;)Lnet/minecraft/core/Holder;", cancellable = true)
-    private void getNoiseBiomeAtPosition_1017621403(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1017621403L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getNoiseBiomeAtPosition(DDD)Lnet/minecraft/core/Holder;", cancellable = true)
     private void getNoiseBiomeAtPosition_832461371(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(832461371L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "withDifferentSource(Lnet/minecraft/world/level/biome/BiomeManager$NoiseBiomeSource;)Lnet/minecraft/world/level/biome/BiomeManager;", cancellable = true)
-    private void withDifferentSource_1345258135(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1345258135L))
+    @Inject(at = @At("HEAD"), method = "getNoiseBiomeAtPosition(Lnet/minecraft/core/BlockPos;)Lnet/minecraft/core/Holder;", cancellable = true)
+    private void getNoiseBiomeAtPosition_1017621403(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1017621403L))
             info.setReturnValue(null);
     }
 

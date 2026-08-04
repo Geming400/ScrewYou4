@@ -109,15 +109,15 @@ public class WeightedList2113806233Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "nonEmptyCodec(Lcom/mojang/serialization/Codec;)Lcom/mojang/serialization/Codec;", cancellable = true)
-    private static void nonEmptyCodec__1697483088(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1697483088L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "nonEmptyCodec(Lcom/mojang/serialization/MapCodec;)Lcom/mojang/serialization/Codec;", cancellable = true)
     private static void nonEmptyCodec_616896904(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(616896904L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "nonEmptyCodec(Lcom/mojang/serialization/Codec;)Lcom/mojang/serialization/Codec;", cancellable = true)
+    private static void nonEmptyCodec__1697483088(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1697483088L))
             info.setReturnValue(null);
     }
 

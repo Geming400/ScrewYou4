@@ -49,14 +49,14 @@ public class Unstitcher1945609125Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "yDivisor()D", cancellable = true)
-    private void yDivisor_1983866566(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "xDivisor()D", cancellable = true)
+    private void xDivisor_1983866566(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1983866566L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "xDivisor()D", cancellable = true)
-    private void xDivisor_1983866566(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "yDivisor()D", cancellable = true)
+    private void yDivisor_1983866566(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1983866566L))
             info.setReturnValue(null);
     }

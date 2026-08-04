@@ -13,15 +13,15 @@ public class Bootstrap1882718560Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "shutdownStdout()V", cancellable = true)
-    private static void shutdownStdout_1920993547(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1920993547L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "realStdoutPrintln(Ljava/lang/String;)V", cancellable = true)
     private static void realStdoutPrintln__1259887339(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1259887339L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "shutdownStdout()V", cancellable = true)
+    private static void shutdownStdout_1920993547(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1920993547L))
             info.cancel();
     }
 

@@ -31,14 +31,14 @@ public class Default_125359146Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "creative()Z", cancellable = true)
-    private void creative_163637728(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "isCreative()Z", cancellable = true)
+    private void isCreative_163637728(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(163637728L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "isCreative()Z", cancellable = true)
-    private void isCreative_163637728(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "creative()Z", cancellable = true)
+    private void creative_163637728(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(163637728L))
             info.setReturnValue(null);
     }

@@ -31,15 +31,15 @@ public class Projection1320723660Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getProcessors()Lcom/google/common/collect/ImmutableList;", cancellable = true)
-    private void getProcessors__2006465103(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2006465103L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName_185263189(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(185263189L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getProcessors()Lcom/google/common/collect/ImmutableList;", cancellable = true)
+    private void getProcessors__2006465103(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2006465103L))
             info.setReturnValue(null);
     }
 

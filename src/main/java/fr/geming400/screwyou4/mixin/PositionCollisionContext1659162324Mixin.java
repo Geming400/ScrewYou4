@@ -7,9 +7,9 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.world.phys.shapes.PositionCollisionContext.class)
 public class PositionCollisionContext1659162324Mixin {
-        @Inject(at = @At("HEAD"), method = "canStandOnFluid(Lnet/minecraft/world/level/material/FluidState;Lnet/minecraft/world/level/material/FluidState;)Z", cancellable = true)
-    private void canStandOnFluid__1220918261(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1220918261L))
+        @Inject(at = @At("HEAD"), method = "isHoldingItem(Lnet/minecraft/world/item/Item;)Z", cancellable = true)
+    private void isHoldingItem__1104918044(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1104918044L))
             info.setReturnValue(null);
     }
 
@@ -25,21 +25,21 @@ public class PositionCollisionContext1659162324Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "isHoldingItem(Lnet/minecraft/world/item/Item;)Z", cancellable = true)
-    private void isHoldingItem__1104918044(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1104918044L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isAbove(Lnet/minecraft/world/phys/shapes/VoxelShape;Lnet/minecraft/core/BlockPos;Z)Z", cancellable = true)
-    private void isAbove__1112334236(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1112334236L))
+    @Inject(at = @At("HEAD"), method = "canStandOnFluid(Lnet/minecraft/world/level/material/FluidState;Lnet/minecraft/world/level/material/FluidState;)Z", cancellable = true)
+    private void canStandOnFluid__1220918261(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1220918261L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "alwaysCollideWithFluid()Z", cancellable = true)
     private void alwaysCollideWithFluid_1697440907(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1697440907L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isAbove(Lnet/minecraft/world/phys/shapes/VoxelShape;Lnet/minecraft/core/BlockPos;Z)Z", cancellable = true)
+    private void isAbove__1112334236(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1112334236L))
             info.setReturnValue(null);
     }
 

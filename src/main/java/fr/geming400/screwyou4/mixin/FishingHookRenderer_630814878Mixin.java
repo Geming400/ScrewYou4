@@ -19,16 +19,22 @@ public class FishingHookRenderer_630814878Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/FishingHookRenderState;", cancellable = true)
-    private void createRenderState__837110459(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-837110459L))
+    @Inject(at = @At("HEAD"), method = "getHoldingArm(Lnet/minecraft/world/entity/player/Player;)Lnet/minecraft/world/entity/HumanoidArm;", cancellable = true)
+    private static void getHoldingArm_633995876(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(633995876L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/EntityRenderState;", cancellable = true)
-    private void createRenderState_42178433(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(42178433L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/entity/projectile/FishingHook;Lnet/minecraft/client/renderer/entity/state/FishingHookRenderState;F)V", cancellable = true)
+    private void extractRenderState_1306334848(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1306334848L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/client/renderer/entity/state/EntityRenderState;F)V", cancellable = true)
+    private void extractRenderState_857933896(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(857933896L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "shouldRender(Lnet/minecraft/world/entity/projectile/FishingHook;Lnet/minecraft/client/renderer/culling/Frustum;DDD)Z", cancellable = true)
@@ -43,21 +49,15 @@ public class FishingHookRenderer_630814878Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/client/renderer/entity/state/EntityRenderState;F)V", cancellable = true)
-    private void extractRenderState_857933896(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(857933896L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/FishingHookRenderState;", cancellable = true)
+    private void createRenderState__837110459(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-837110459L))
+            info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/entity/projectile/FishingHook;Lnet/minecraft/client/renderer/entity/state/FishingHookRenderState;F)V", cancellable = true)
-    private void extractRenderState_1306334848(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1306334848L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "getHoldingArm(Lnet/minecraft/world/entity/player/Player;)Lnet/minecraft/world/entity/HumanoidArm;", cancellable = true)
-    private static void getHoldingArm_633995876(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(633995876L))
+    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/EntityRenderState;", cancellable = true)
+    private void createRenderState_42178433(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(42178433L))
             info.setReturnValue(null);
     }
 

@@ -31,15 +31,15 @@ public class ClockNetworkState144803667Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "partialTick()F", cancellable = true)
-    private void partialTick_183063030(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(183063030L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "totalTicks()J", cancellable = true)
     private void totalTicks_183066874(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(183066874L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "partialTick()F", cancellable = true)
+    private void partialTick_183063030(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(183063030L))
             info.setReturnValue(null);
     }
 

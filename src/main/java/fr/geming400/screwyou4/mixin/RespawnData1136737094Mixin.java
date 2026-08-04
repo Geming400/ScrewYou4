@@ -43,9 +43,9 @@ public class RespawnData1136737094Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "pitch()F", cancellable = true)
-    private void pitch_1174996457(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1174996457L))
+    @Inject(at = @At("HEAD"), method = "globalPos()Lnet/minecraft/core/GlobalPos;", cancellable = true)
+    private void globalPos__1329115553(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1329115553L))
             info.setReturnValue(null);
     }
 
@@ -55,9 +55,9 @@ public class RespawnData1136737094Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "globalPos()Lnet/minecraft/core/GlobalPos;", cancellable = true)
-    private void globalPos__1329115553(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1329115553L))
+    @Inject(at = @At("HEAD"), method = "pitch()F", cancellable = true)
+    private void pitch_1174996457(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1174996457L))
             info.setReturnValue(null);
     }
 

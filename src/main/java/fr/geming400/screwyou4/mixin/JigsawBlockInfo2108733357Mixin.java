@@ -61,14 +61,14 @@ public class JigsawBlockInfo2108733357Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "selectionPriority()I", cancellable = true)
-    private void selectionPriority_2146995603(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "placementPriority()I", cancellable = true)
+    private void placementPriority_2146995603(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2146995603L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "placementPriority()I", cancellable = true)
-    private void placementPriority_2146995603(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "selectionPriority()I", cancellable = true)
+    private void selectionPriority_2146995603(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2146995603L))
             info.setReturnValue(null);
     }

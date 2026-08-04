@@ -25,15 +25,15 @@ public class TestBlockMode1582931296Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getDetailedMessage()Lnet/minecraft/network/chat/Component;", cancellable = true)
-    private void getDetailedMessage__593977869(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-593977869L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName_447470825(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(447470825L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getDetailedMessage()Lnet/minecraft/network/chat/Component;", cancellable = true)
+    private void getDetailedMessage__593977869(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-593977869L))
             info.setReturnValue(null);
     }
 

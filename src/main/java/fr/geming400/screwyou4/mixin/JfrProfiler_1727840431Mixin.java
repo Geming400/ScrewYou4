@@ -37,9 +37,9 @@ public class JfrProfiler_1727840431Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "onPacketReceived(Lnet/minecraft/network/ConnectionProtocol;Lnet/minecraft/network/protocol/PacketType;Ljava/net/SocketAddress;I)V", cancellable = true)
-    private void onPacketReceived_1697576350(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1697576350L))
+    @Inject(at = @At("HEAD"), method = "onClientTick(I)V", cancellable = true)
+    private void onClientTick__1353209894(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1353209894L))
             info.cancel();
     }
 
@@ -49,9 +49,9 @@ public class JfrProfiler_1727840431Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "onClientTick(I)V", cancellable = true)
-    private void onClientTick__1353209894(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1353209894L))
+    @Inject(at = @At("HEAD"), method = "onPacketReceived(Lnet/minecraft/network/ConnectionProtocol;Lnet/minecraft/network/protocol/PacketType;Ljava/net/SocketAddress;I)V", cancellable = true)
+    private void onPacketReceived_1697576350(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1697576350L))
             info.cancel();
     }
 
@@ -73,8 +73,8 @@ public class JfrProfiler_1727840431Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "onRegionFileRead(Lnet/minecraft/world/level/chunk/storage/RegionStorageInfo;Lnet/minecraft/world/level/ChunkPos;Lnet/minecraft/world/level/chunk/storage/RegionFileVersion;I)V", cancellable = true)
-    private void onRegionFileRead_34920953(CallbackInfo info) {
+    @Inject(at = @At("HEAD"), method = "onRegionFileWrite(Lnet/minecraft/world/level/chunk/storage/RegionStorageInfo;Lnet/minecraft/world/level/ChunkPos;Lnet/minecraft/world/level/chunk/storage/RegionFileVersion;I)V", cancellable = true)
+    private void onRegionFileWrite_34920953(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(34920953L))
             info.cancel();
     }
@@ -85,8 +85,8 @@ public class JfrProfiler_1727840431Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "onRegionFileWrite(Lnet/minecraft/world/level/chunk/storage/RegionStorageInfo;Lnet/minecraft/world/level/ChunkPos;Lnet/minecraft/world/level/chunk/storage/RegionFileVersion;I)V", cancellable = true)
-    private void onRegionFileWrite_34920953(CallbackInfo info) {
+    @Inject(at = @At("HEAD"), method = "onRegionFileRead(Lnet/minecraft/world/level/chunk/storage/RegionStorageInfo;Lnet/minecraft/world/level/ChunkPos;Lnet/minecraft/world/level/chunk/storage/RegionFileVersion;I)V", cancellable = true)
+    private void onRegionFileRead_34920953(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(34920953L))
             info.cancel();
     }

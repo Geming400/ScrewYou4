@@ -19,12 +19,6 @@ public class ClickableStyleFinder_407731423Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "acceptScrolling(Lnet/minecraft/network/chat/Component;IIIIILnet/minecraft/client/gui/ActiveTextCollector$Parameters;)V", cancellable = true)
-    private void acceptScrolling__491099413(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-491099413L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "defaultParameters(Lnet/minecraft/client/gui/ActiveTextCollector$Parameters;)V", cancellable = true)
     private void defaultParameters_1306654960(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1306654960L))
@@ -35,6 +29,12 @@ public class ClickableStyleFinder_407731423Mixin {
     private void defaultParameters_688629802(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(688629802L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "acceptScrolling(Lnet/minecraft/network/chat/Component;IIIIILnet/minecraft/client/gui/ActiveTextCollector$Parameters;)V", cancellable = true)
+    private void acceptScrolling__491099413(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-491099413L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "includeInsertions(Z)Lnet/minecraft/client/gui/ActiveTextCollector$ClickableStyleFinder;", cancellable = true)

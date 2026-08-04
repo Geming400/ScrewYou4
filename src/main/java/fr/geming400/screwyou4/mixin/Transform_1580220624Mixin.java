@@ -31,15 +31,9 @@ public class Transform_1580220624Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "textureMatrix()Lorg/joml/Matrix4fc;", cancellable = true)
-    private void textureMatrix__971772435(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "modelView()Lorg/joml/Matrix4fc;", cancellable = true)
+    private void modelView__971772435(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-971772435L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "modelOffset()Lorg/joml/Vector3fc;", cancellable = true)
-    private void modelOffset_2126165328(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2126165328L))
             info.setReturnValue(null);
     }
 
@@ -49,9 +43,15 @@ public class Transform_1580220624Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "modelView()Lorg/joml/Matrix4fc;", cancellable = true)
-    private void modelView__971772435(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "textureMatrix()Lorg/joml/Matrix4fc;", cancellable = true)
+    private void textureMatrix__971772435(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-971772435L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "modelOffset()Lorg/joml/Vector3fc;", cancellable = true)
+    private void modelOffset_2126165328(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2126165328L))
             info.setReturnValue(null);
     }
 

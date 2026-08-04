@@ -49,15 +49,15 @@ public class LootItemBlockStatePropertyCondition454973705Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "hasBlockStateProperties(Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/world/level/storage/loot/predicates/LootItemBlockStatePropertyCondition$Builder;", cancellable = true)
-    private static void hasBlockStateProperties__1942116533(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1942116533L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
     private void codec__2104139867(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2104139867L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "hasBlockStateProperties(Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/world/level/storage/loot/predicates/LootItemBlockStatePropertyCondition$Builder;", cancellable = true)
+    private static void hasBlockStateProperties__1942116533(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1942116533L))
             info.setReturnValue(null);
     }
 

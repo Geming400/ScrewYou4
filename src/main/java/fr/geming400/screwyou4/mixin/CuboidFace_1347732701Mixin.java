@@ -31,24 +31,6 @@ public class CuboidFace_1347732701Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "texture()Ljava/lang/String;", cancellable = true)
-    private void texture_212272229(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(212272229L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getV(Lnet/minecraft/client/resources/model/cuboid/CuboidFace$UVs;Lcom/mojang/math/Quadrant;I)F", cancellable = true)
-    private static void getV__1143248768(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1143248768L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "rotation()Lcom/mojang/math/Quadrant;", cancellable = true)
-    private void rotation__1272364938(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1272364938L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "tintIndex()I", cancellable = true)
     private void tintIndex_1385994946(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1385994946L))
@@ -61,9 +43,27 @@ public class CuboidFace_1347732701Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "texture()Ljava/lang/String;", cancellable = true)
+    private void texture_212272229(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(212272229L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "cullForDirection()Lnet/minecraft/core/Direction;", cancellable = true)
     private void cullForDirection_584877415(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(584877415L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "rotation()Lcom/mojang/math/Quadrant;", cancellable = true)
+    private void rotation__1272364938(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1272364938L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getV(Lnet/minecraft/client/resources/model/cuboid/CuboidFace$UVs;Lcom/mojang/math/Quadrant;I)F", cancellable = true)
+    private static void getV__1143248768(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1143248768L))
             info.setReturnValue(null);
     }
 

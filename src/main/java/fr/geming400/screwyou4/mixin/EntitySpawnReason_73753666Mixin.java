@@ -19,14 +19,14 @@ public class EntitySpawnReason_73753666Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "isSpawner(Lnet/minecraft/world/entity/EntitySpawnReason;)Z", cancellable = true)
-    private static void isSpawner__30760354(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "ignoresLightRequirements(Lnet/minecraft/world/entity/EntitySpawnReason;)Z", cancellable = true)
+    private static void ignoresLightRequirements__30760354(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-30760354L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "ignoresLightRequirements(Lnet/minecraft/world/entity/EntitySpawnReason;)Z", cancellable = true)
-    private static void ignoresLightRequirements__30760354(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "isSpawner(Lnet/minecraft/world/entity/EntitySpawnReason;)Z", cancellable = true)
+    private static void isSpawner__30760354(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-30760354L))
             info.setReturnValue(null);
     }

@@ -13,15 +13,15 @@ public class Builder_437467564Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "displayItems(Lnet/minecraft/world/item/CreativeModeTab$DisplayItemsGenerator;)Lnet/minecraft/world/item/CreativeModeTab$Builder;", cancellable = true)
-    private void displayItems__1047339548(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1047339548L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "title(Lnet/minecraft/network/chat/Component;)Lnet/minecraft/world/item/CreativeModeTab$Builder;", cancellable = true)
     private void title__1130517450(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1130517450L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "displayItems(Lnet/minecraft/world/item/CreativeModeTab$DisplayItemsGenerator;)Lnet/minecraft/world/item/CreativeModeTab$Builder;", cancellable = true)
+    private void displayItems__1047339548(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1047339548L))
             info.setReturnValue(null);
     }
 
@@ -37,9 +37,9 @@ public class Builder_437467564Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "alignedRight()Lnet/minecraft/world/item/CreativeModeTab$Builder;", cancellable = true)
-    private void alignedRight_1453578954(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1453578954L))
+    @Inject(at = @At("HEAD"), method = "backgroundTexture(Lnet/minecraft/resources/Identifier;)Lnet/minecraft/world/item/CreativeModeTab$Builder;", cancellable = true)
+    private void backgroundTexture_1641742146(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1641742146L))
             info.setReturnValue(null);
     }
 
@@ -49,9 +49,9 @@ public class Builder_437467564Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "backgroundTexture(Lnet/minecraft/resources/Identifier;)Lnet/minecraft/world/item/CreativeModeTab$Builder;", cancellable = true)
-    private void backgroundTexture_1641742146(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1641742146L))
+    @Inject(at = @At("HEAD"), method = "alignedRight()Lnet/minecraft/world/item/CreativeModeTab$Builder;", cancellable = true)
+    private void alignedRight_1453578954(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1453578954L))
             info.setReturnValue(null);
     }
 

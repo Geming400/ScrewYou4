@@ -43,18 +43,6 @@ public class HolderHolder_316430157Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "fillArray([DLnet/minecraft/world/level/levelgen/DensityFunction$ContextProvider;)V", cancellable = true)
-    private void fillArray_880823362(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(880823362L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "mapChildren(Lnet/minecraft/world/level/levelgen/DensityFunction$Visitor;)Lnet/minecraft/world/level/levelgen/DensityFunction;", cancellable = true)
-    private void mapChildren__1807335307(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1807335307L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "minValue()D", cancellable = true)
     private void minValue_354687597(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(354687597L))
@@ -65,6 +53,18 @@ public class HolderHolder_316430157Mixin {
     private void codec__1225855452(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1225855452L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "mapChildren(Lnet/minecraft/world/level/levelgen/DensityFunction$Visitor;)Lnet/minecraft/world/level/levelgen/DensityFunction;", cancellable = true)
+    private void mapChildren__1807335307(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1807335307L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "fillArray([DLnet/minecraft/world/level/levelgen/DensityFunction$ContextProvider;)V", cancellable = true)
+    private void fillArray_880823362(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(880823362L))
+            info.cancel();
     }
 
 

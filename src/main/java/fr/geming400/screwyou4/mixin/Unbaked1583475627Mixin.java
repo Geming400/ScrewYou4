@@ -31,15 +31,9 @@ public class Unbaked1583475627Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "bake(Lnet/minecraft/client/renderer/special/SpecialModelRenderer$BakingContext;)Lnet/minecraft/client/renderer/special/SpecialModelRenderer;", cancellable = true)
-    private void bake__104547233(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-104547233L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "bake(Lnet/minecraft/client/renderer/special/SpecialModelRenderer$BakingContext;)Lnet/minecraft/client/renderer/special/BookSpecialRenderer;", cancellable = true)
-    private void bake_1687455203(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1687455203L))
+    @Inject(at = @At("HEAD"), method = "page1()F", cancellable = true)
+    private void page1_1621734990(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1621734990L))
             info.setReturnValue(null);
     }
 
@@ -49,15 +43,21 @@ public class Unbaked1583475627Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "page1()F", cancellable = true)
-    private void page1_1621734990(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "openAngle()F", cancellable = true)
+    private void openAngle_1621734990(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1621734990L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "openAngle()F", cancellable = true)
-    private void openAngle_1621734990(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1621734990L))
+    @Inject(at = @At("HEAD"), method = "bake(Lnet/minecraft/client/renderer/special/SpecialModelRenderer$BakingContext;)Lnet/minecraft/client/renderer/special/SpecialModelRenderer;", cancellable = true)
+    private void bake__104547233(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-104547233L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "bake(Lnet/minecraft/client/renderer/special/SpecialModelRenderer$BakingContext;)Lnet/minecraft/client/renderer/special/BookSpecialRenderer;", cancellable = true)
+    private void bake_1687455203(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1687455203L))
             info.setReturnValue(null);
     }
 

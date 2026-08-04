@@ -43,15 +43,15 @@ public class DispenseConfig1193382129Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "overrideDispenseEvent()Ljava/util/OptionalInt;", cancellable = true)
-    private void overrideDispenseEvent__977189658(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-977189658L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "uncertainty()F", cancellable = true)
     private void uncertainty_1231641492(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1231641492L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "overrideDispenseEvent()Ljava/util/OptionalInt;", cancellable = true)
+    private void overrideDispenseEvent__977189658(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-977189658L))
             info.setReturnValue(null);
     }
 

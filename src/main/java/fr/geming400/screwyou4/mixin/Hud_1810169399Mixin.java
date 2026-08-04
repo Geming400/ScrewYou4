@@ -31,6 +31,54 @@ public class Hud_1810169399Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "registerReloadListeners(Lnet/minecraft/server/packs/resources/ReloadableResourceManager;)V", cancellable = true)
+    private void registerReloadListeners__274250301(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-274250301L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getDebugOverlay()Lnet/minecraft/client/gui/components/DebugScreenOverlay;", cancellable = true)
+    private void getDebugOverlay_963322430(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(963322430L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "setTitle(Lnet/minecraft/network/chat/Component;)V", cancellable = true)
+    private void setTitle__91009539(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-91009539L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getChat()Lnet/minecraft/client/gui/components/ChatComponent;", cancellable = true)
+    private void getChat__1389461718(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1389461718L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/client/gui/GuiGraphicsExtractor;Lnet/minecraft/client/DeltaTracker;)V", cancellable = true)
+    private void extractRenderState__2114201765(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-2114201765L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "extractSavingIndicator(Lnet/minecraft/client/gui/GuiGraphicsExtractor;Lnet/minecraft/client/DeltaTracker;)V", cancellable = true)
+    private void extractSavingIndicator__2114201765(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-2114201765L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "extractDeferredSubtitles()V", cancellable = true)
+    private void extractDeferredSubtitles_1848444137(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1848444137L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "extractDebugOverlay(Lnet/minecraft/client/gui/GuiGraphicsExtractor;)V", cancellable = true)
+    private void extractDebugOverlay_1122254110(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1122254110L))
+            info.cancel();
+    }
+
     @Inject(at = @At("HEAD"), method = "resetTitleTimes()V", cancellable = true)
     private void resetTitleTimes_1848444137(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1848444137L))
@@ -43,33 +91,9 @@ public class Hud_1810169399Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "clearTitles()V", cancellable = true)
-    private void clearTitles_1848444137(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1848444137L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "setNowPlaying(Lnet/minecraft/network/chat/Component;)V", cancellable = true)
     private void setNowPlaying__91009539(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-91009539L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "setSubtitle(Lnet/minecraft/network/chat/Component;)V", cancellable = true)
-    private void setSubtitle__91009539(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-91009539L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "getGuiTicks()I", cancellable = true)
-    private void getGuiTicks_1848431644(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1848431644L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "setOverlayMessage(Lnet/minecraft/network/chat/Component;Z)V", cancellable = true)
-    private void setOverlayMessage__1248702881(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1248702881L))
             info.cancel();
     }
 
@@ -79,58 +103,28 @@ public class Hud_1810169399Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "extractSavingIndicator(Lnet/minecraft/client/gui/GuiGraphicsExtractor;Lnet/minecraft/client/DeltaTracker;)V", cancellable = true)
-    private void extractSavingIndicator__2114201765(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-2114201765L))
+    @Inject(at = @At("HEAD"), method = "getGuiTicks()I", cancellable = true)
+    private void getGuiTicks_1848431644(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1848431644L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "setSubtitle(Lnet/minecraft/network/chat/Component;)V", cancellable = true)
+    private void setSubtitle__91009539(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-91009539L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "extractDebugOverlay(Lnet/minecraft/client/gui/GuiGraphicsExtractor;)V", cancellable = true)
-    private void extractDebugOverlay_1122254110(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1122254110L))
+    @Inject(at = @At("HEAD"), method = "setOverlayMessage(Lnet/minecraft/network/chat/Component;Z)V", cancellable = true)
+    private void setOverlayMessage__1248702881(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1248702881L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "extractDeferredSubtitles()V", cancellable = true)
-    private void extractDeferredSubtitles_1848444137(CallbackInfo info) {
+    @Inject(at = @At("HEAD"), method = "clearTitles()V", cancellable = true)
+    private void clearTitles_1848444137(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1848444137L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/client/gui/GuiGraphicsExtractor;Lnet/minecraft/client/DeltaTracker;)V", cancellable = true)
-    private void extractRenderState__2114201765(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-2114201765L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "getDebugOverlay()Lnet/minecraft/client/gui/components/DebugScreenOverlay;", cancellable = true)
-    private void getDebugOverlay_963322430(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(963322430L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "registerReloadListeners(Lnet/minecraft/server/packs/resources/ReloadableResourceManager;)V", cancellable = true)
-    private void registerReloadListeners__274250301(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-274250301L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "getSpectatorGui()Lnet/minecraft/client/gui/components/spectator/SpectatorGui;", cancellable = true)
-    private void getSpectatorGui_2135686179(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2135686179L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "onDisconnected()V", cancellable = true)
-    private void onDisconnected_1848444137(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1848444137L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "getBossOverlay()Lnet/minecraft/client/gui/components/BossHealthOverlay;", cancellable = true)
-    private void getBossOverlay__1328881528(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1328881528L))
-            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getFont()Lnet/minecraft/client/gui/Font;", cancellable = true)
@@ -151,16 +145,22 @@ public class Hud_1810169399Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getChat()Lnet/minecraft/client/gui/components/ChatComponent;", cancellable = true)
-    private void getChat__1389461718(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1389461718L))
+    @Inject(at = @At("HEAD"), method = "getSpectatorGui()Lnet/minecraft/client/gui/components/spectator/SpectatorGui;", cancellable = true)
+    private void getSpectatorGui_2135686179(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2135686179L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "setTitle(Lnet/minecraft/network/chat/Component;)V", cancellable = true)
-    private void setTitle__91009539(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-91009539L))
+    @Inject(at = @At("HEAD"), method = "onDisconnected()V", cancellable = true)
+    private void onDisconnected_1848444137(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1848444137L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getBossOverlay()Lnet/minecraft/client/gui/components/BossHealthOverlay;", cancellable = true)
+    private void getBossOverlay__1328881528(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1328881528L))
+            info.setReturnValue(null);
     }
 
 

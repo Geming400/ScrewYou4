@@ -7,10 +7,10 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.world.level.block.entity.vault.VaultClientData.class)
 public class VaultClientData823132665Mixin {
-        @Inject(at = @At("HEAD"), method = "updateDisplayItemSpin()V", cancellable = true)
-    private void updateDisplayItemSpin_861407404(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(861407404L))
-            info.cancel();
+        @Inject(at = @At("HEAD"), method = "currentSpin()F", cancellable = true)
+    private void currentSpin_861392028(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(861392028L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "previousSpin()F", cancellable = true)
@@ -19,10 +19,10 @@ public class VaultClientData823132665Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "currentSpin()F", cancellable = true)
-    private void currentSpin_861392028(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(861392028L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "updateDisplayItemSpin()V", cancellable = true)
+    private void updateDisplayItemSpin_861407404(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(861407404L))
+            info.cancel();
     }
 
 

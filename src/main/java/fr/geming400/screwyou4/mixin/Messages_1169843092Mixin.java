@@ -37,15 +37,15 @@ public class Messages_1169843092Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "forStatus(Lnet/minecraft/util/worldupdate/UpgradeProgress$Status;)Lnet/minecraft/network/chat/Component;", cancellable = true)
-    private void forStatus__2088560471(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2088560471L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "upgrading()Lnet/minecraft/network/chat/Component;", cancellable = true)
     private void upgrading__1007066074(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1007066074L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "forStatus(Lnet/minecraft/util/worldupdate/UpgradeProgress$Status;)Lnet/minecraft/network/chat/Component;", cancellable = true)
+    private void forStatus__2088560471(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2088560471L))
             info.setReturnValue(null);
     }
 

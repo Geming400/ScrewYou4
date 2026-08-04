@@ -13,9 +13,9 @@ public class StringDecomposer392009240Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "iterateBackwards(Ljava/lang/String;Lnet/minecraft/network/chat/Style;Lnet/minecraft/util/FormattedCharSink;)Z", cancellable = true)
-    private static void iterateBackwards__164725676(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-164725676L))
+    @Inject(at = @At("HEAD"), method = "iterateFormatted(Ljava/lang/String;ILnet/minecraft/network/chat/Style;Lnet/minecraft/util/FormattedCharSink;)Z", cancellable = true)
+    private static void iterateFormatted__670004999(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-670004999L))
             info.setReturnValue(null);
     }
 
@@ -37,9 +37,9 @@ public class StringDecomposer392009240Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "iterateFormatted(Ljava/lang/String;ILnet/minecraft/network/chat/Style;Lnet/minecraft/util/FormattedCharSink;)Z", cancellable = true)
-    private static void iterateFormatted__670004999(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-670004999L))
+    @Inject(at = @At("HEAD"), method = "iterateBackwards(Ljava/lang/String;Lnet/minecraft/network/chat/Style;Lnet/minecraft/util/FormattedCharSink;)Z", cancellable = true)
+    private static void iterateBackwards__164725676(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-164725676L))
             info.setReturnValue(null);
     }
 

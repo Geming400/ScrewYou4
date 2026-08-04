@@ -25,14 +25,8 @@ public class MerchantOffer_864245434Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "isOutOfStock()Z", cancellable = true)
-    private void isOutOfStock_902524016(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(902524016L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getBaseCostA()Lnet/minecraft/world/item/ItemStack;", cancellable = true)
-    private void getBaseCostA_1387664093(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "getCostA()Lnet/minecraft/world/item/ItemStack;", cancellable = true)
+    private void getCostA_1387664093(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1387664093L))
             info.setReturnValue(null);
     }
@@ -43,106 +37,16 @@ public class MerchantOffer_864245434Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getCostA()Lnet/minecraft/world/item/ItemStack;", cancellable = true)
-    private void getCostA_1387664093(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1387664093L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "resetUses()V", cancellable = true)
-    private void resetUses_902520172(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(902520172L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "getXp()I", cancellable = true)
-    private void getXp_902507679(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(902507679L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "assemble()Lnet/minecraft/world/item/ItemStack;", cancellable = true)
-    private void assemble_1387664093(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1387664093L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getItemCostA()Lnet/minecraft/world/item/trading/ItemCost;", cancellable = true)
-    private void getItemCostA_32376260(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(32376260L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getItemCostB()Ljava/util/Optional;", cancellable = true)
-    private void getItemCostB_1109706855(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1109706855L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getMaxUses()I", cancellable = true)
-    private void getMaxUses_902507679(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(902507679L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getUses()I", cancellable = true)
-    private void getUses_902507679(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(902507679L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getDemand()I", cancellable = true)
-    private void getDemand_902507679(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(902507679L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "resetSpecialPriceDiff()V", cancellable = true)
-    private void resetSpecialPriceDiff_902520172(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(902520172L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "updateDemand()V", cancellable = true)
-    private void updateDemand_902520172(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(902520172L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "needsRestock()Z", cancellable = true)
-    private void needsRestock_902524016(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "isOutOfStock()Z", cancellable = true)
+    private void isOutOfStock_902524016(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(902524016L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "addToSpecialPriceDiff(I)V", cancellable = true)
-    private void addToSpecialPriceDiff_2078162405(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(2078162405L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "getPriceMultiplier()F", cancellable = true)
-    private void getPriceMultiplier_902504796(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(902504796L))
+    @Inject(at = @At("HEAD"), method = "getBaseCostA()Lnet/minecraft/world/item/ItemStack;", cancellable = true)
+    private void getBaseCostA_1387664093(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1387664093L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "increaseUses()V", cancellable = true)
-    private void increaseUses_902520172(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(902520172L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "shouldRewardExp()Z", cancellable = true)
-    private void shouldRewardExp_902524016(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(902524016L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "setToOutOfStock()V", cancellable = true)
-    private void setToOutOfStock_902520172(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(902520172L))
-            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "setSpecialPriceDiff(I)V", cancellable = true)
@@ -163,9 +67,105 @@ public class MerchantOffer_864245434Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "setToOutOfStock()V", cancellable = true)
+    private void setToOutOfStock_902520172(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(902520172L))
+            info.cancel();
+    }
+
     @Inject(at = @At("HEAD"), method = "getSpecialPriceDiff()I", cancellable = true)
     private void getSpecialPriceDiff_902507679(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(902507679L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "assemble()Lnet/minecraft/world/item/ItemStack;", cancellable = true)
+    private void assemble_1387664093(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1387664093L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getXp()I", cancellable = true)
+    private void getXp_902507679(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(902507679L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "resetUses()V", cancellable = true)
+    private void resetUses_902520172(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(902520172L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "shouldRewardExp()Z", cancellable = true)
+    private void shouldRewardExp_902524016(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(902524016L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "updateDemand()V", cancellable = true)
+    private void updateDemand_902520172(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(902520172L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "addToSpecialPriceDiff(I)V", cancellable = true)
+    private void addToSpecialPriceDiff_2078162405(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(2078162405L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "resetSpecialPriceDiff()V", cancellable = true)
+    private void resetSpecialPriceDiff_902520172(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(902520172L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "needsRestock()Z", cancellable = true)
+    private void needsRestock_902524016(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(902524016L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getPriceMultiplier()F", cancellable = true)
+    private void getPriceMultiplier_902504796(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(902504796L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "increaseUses()V", cancellable = true)
+    private void increaseUses_902520172(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(902520172L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getDemand()I", cancellable = true)
+    private void getDemand_902507679(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(902507679L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getMaxUses()I", cancellable = true)
+    private void getMaxUses_902507679(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(902507679L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getUses()I", cancellable = true)
+    private void getUses_902507679(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(902507679L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getItemCostB()Ljava/util/Optional;", cancellable = true)
+    private void getItemCostB_1109706855(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1109706855L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getItemCostA()Lnet/minecraft/world/item/trading/ItemCost;", cancellable = true)
+    private void getItemCostA_32376260(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(32376260L))
             info.setReturnValue(null);
     }
 

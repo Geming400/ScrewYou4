@@ -13,6 +13,12 @@ public class BarrelBlockEntity_807924836Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "recheckOpen()V", cancellable = true)
+    private void recheckOpen_846199574(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(846199574L))
+            info.cancel();
+    }
+
     @Inject(at = @At("HEAD"), method = "getEntitiesWithContainerOpen()Ljava/util/List;", cancellable = true)
     private void getEntitiesWithContainerOpen__1860705645(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1860705645L))
@@ -28,12 +34,6 @@ public class BarrelBlockEntity_807924836Mixin {
     @Inject(at = @At("HEAD"), method = "startOpen(Lnet/minecraft/world/entity/ContainerUser;)V", cancellable = true)
     private void startOpen_139776468(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(139776468L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "recheckOpen()V", cancellable = true)
-    private void recheckOpen_846199574(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(846199574L))
             info.cancel();
     }
 

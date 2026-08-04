@@ -13,12 +13,6 @@ public class NetherBiomes_1336606603Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "netherWastes(Lnet/minecraft/core/HolderGetter;Lnet/minecraft/core/HolderGetter;)Lnet/minecraft/world/level/biome/Biome;", cancellable = true)
-    private static void netherWastes__2781551(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2781551L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "crimsonForest(Lnet/minecraft/core/HolderGetter;Lnet/minecraft/core/HolderGetter;)Lnet/minecraft/world/level/biome/Biome;", cancellable = true)
     private static void crimsonForest__2781551(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2781551L))
@@ -33,6 +27,12 @@ public class NetherBiomes_1336606603Mixin {
 
     @Inject(at = @At("HEAD"), method = "basaltDeltas(Lnet/minecraft/core/HolderGetter;Lnet/minecraft/core/HolderGetter;)Lnet/minecraft/world/level/biome/Biome;", cancellable = true)
     private static void basaltDeltas__2781551(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2781551L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "netherWastes(Lnet/minecraft/core/HolderGetter;Lnet/minecraft/core/HolderGetter;)Lnet/minecraft/world/level/biome/Biome;", cancellable = true)
+    private static void netherWastes__2781551(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2781551L))
             info.setReturnValue(null);
     }

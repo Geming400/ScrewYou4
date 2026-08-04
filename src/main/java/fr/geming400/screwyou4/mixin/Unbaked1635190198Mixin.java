@@ -31,16 +31,16 @@ public class Unbaked1635190198Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "bake(Lnet/minecraft/client/renderer/item/ItemModel$BakingContext;Lorg/joml/Matrix4fc;)Lnet/minecraft/client/renderer/item/ItemModel;", cancellable = true)
-    private void bake__1226182197(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1226182197L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "resolveDependencies(Lnet/minecraft/client/resources/model/ResolvableModel$Resolver;)V", cancellable = true)
     private void resolveDependencies_1585396268(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1585396268L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "bake(Lnet/minecraft/client/renderer/item/ItemModel$BakingContext;Lorg/joml/Matrix4fc;)Lnet/minecraft/client/renderer/item/ItemModel;", cancellable = true)
+    private void bake__1226182197(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1226182197L))
+            info.setReturnValue(null);
     }
 
 

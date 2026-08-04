@@ -43,15 +43,15 @@ public class Update_1000508038Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "verifyChecksum(Lnet/minecraft/network/chat/LastSeenMessages;)Z", cancellable = true)
-    private void verifyChecksum__1366293708(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1366293708L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "acknowledged()Ljava/util/BitSet;", cancellable = true)
     private void acknowledged_1393180830(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1393180830L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "verifyChecksum(Lnet/minecraft/network/chat/LastSeenMessages;)Z", cancellable = true)
+    private void verifyChecksum__1366293708(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1366293708L))
             info.setReturnValue(null);
     }
 

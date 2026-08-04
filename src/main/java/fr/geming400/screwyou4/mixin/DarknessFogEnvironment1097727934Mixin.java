@@ -13,15 +13,15 @@ public class DarknessFogEnvironment1097727934Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getModifiedDarkness(Lnet/minecraft/world/entity/LivingEntity;FF)F", cancellable = true)
-    private void getModifiedDarkness_1766672337(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1766672337L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getMobEffect()Lnet/minecraft/core/Holder;", cancellable = true)
     private void getMobEffect__1648363590(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1648363590L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getModifiedDarkness(Lnet/minecraft/world/entity/LivingEntity;FF)F", cancellable = true)
+    private void getModifiedDarkness_1766672337(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1766672337L))
             info.setReturnValue(null);
     }
 

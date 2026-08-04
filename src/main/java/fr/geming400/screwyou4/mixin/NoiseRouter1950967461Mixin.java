@@ -31,15 +31,21 @@ public class NoiseRouter1950967461Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "lavaNoise()Lnet/minecraft/world/level/levelgen/DensityFunction;", cancellable = true)
-    private void lavaNoise__864960166(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "temperature()Lnet/minecraft/world/level/levelgen/DensityFunction;", cancellable = true)
+    private void temperature__864960166(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-864960166L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "mapAll(Lnet/minecraft/world/level/levelgen/DensityFunction$Visitor;)Lnet/minecraft/world/level/levelgen/NoiseRouter;", cancellable = true)
-    private void mapAll_636819147(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(636819147L))
+    @Inject(at = @At("HEAD"), method = "vegetation()Lnet/minecraft/world/level/levelgen/DensityFunction;", cancellable = true)
+    private void vegetation__864960166(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-864960166L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "erosion()Lnet/minecraft/world/level/levelgen/DensityFunction;", cancellable = true)
+    private void erosion__864960166(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-864960166L))
             info.setReturnValue(null);
     }
 
@@ -73,20 +79,8 @@ public class NoiseRouter1950967461Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "temperature()Lnet/minecraft/world/level/levelgen/DensityFunction;", cancellable = true)
-    private void temperature__864960166(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-864960166L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "vegetation()Lnet/minecraft/world/level/levelgen/DensityFunction;", cancellable = true)
-    private void vegetation__864960166(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-864960166L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "erosion()Lnet/minecraft/world/level/levelgen/DensityFunction;", cancellable = true)
-    private void erosion__864960166(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "continents()Lnet/minecraft/world/level/levelgen/DensityFunction;", cancellable = true)
+    private void continents__864960166(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-864960166L))
             info.setReturnValue(null);
     }
@@ -97,8 +91,20 @@ public class NoiseRouter1950967461Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "continents()Lnet/minecraft/world/level/levelgen/DensityFunction;", cancellable = true)
-    private void continents__864960166(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "lavaNoise()Lnet/minecraft/world/level/levelgen/DensityFunction;", cancellable = true)
+    private void lavaNoise__864960166(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-864960166L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "mapAll(Lnet/minecraft/world/level/levelgen/DensityFunction$Visitor;)Lnet/minecraft/world/level/levelgen/NoiseRouter;", cancellable = true)
+    private void mapAll_636819147(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(636819147L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "veinToggle()Lnet/minecraft/world/level/levelgen/DensityFunction;", cancellable = true)
+    private void veinToggle__864960166(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-864960166L))
             info.setReturnValue(null);
     }
@@ -111,12 +117,6 @@ public class NoiseRouter1950967461Mixin {
 
     @Inject(at = @At("HEAD"), method = "veinGap()Lnet/minecraft/world/level/levelgen/DensityFunction;", cancellable = true)
     private void veinGap__864960166(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-864960166L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "veinToggle()Lnet/minecraft/world/level/levelgen/DensityFunction;", cancellable = true)
-    private void veinToggle__864960166(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-864960166L))
             info.setReturnValue(null);
     }

@@ -61,15 +61,15 @@ public class ClientboundSetScorePacket1307462093Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "score()I", cancellable = true)
-    private void score_1345724339(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1345724339L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "objectiveName()Ljava/lang/String;", cancellable = true)
     private void objectiveName_172001622(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(172001622L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "score()I", cancellable = true)
+    private void score_1345724339(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1345724339L))
             info.setReturnValue(null);
     }
 

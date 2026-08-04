@@ -19,6 +19,12 @@ public class Builder_612381122Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "setSearchRadius(I)Lnet/minecraft/world/level/storage/loot/functions/ExplorationMapFunction$Builder;", cancellable = true)
+    private void setSearchRadius__1730774645(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1730774645L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "setZoom(B)Lnet/minecraft/world/level/storage/loot/functions/ExplorationMapFunction$Builder;", cancellable = true)
     private void setZoom__1856013564(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1856013564L))
@@ -34,12 +40,6 @@ public class Builder_612381122Mixin {
     @Inject(at = @At("HEAD"), method = "setMapDecoration(Lnet/minecraft/core/Holder;)Lnet/minecraft/world/level/storage/loot/functions/ExplorationMapFunction$Builder;", cancellable = true)
     private void setMapDecoration_1035324641(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1035324641L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "setSearchRadius(I)Lnet/minecraft/world/level/storage/loot/functions/ExplorationMapFunction$Builder;", cancellable = true)
-    private void setSearchRadius__1730774645(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1730774645L))
             info.setReturnValue(null);
     }
 

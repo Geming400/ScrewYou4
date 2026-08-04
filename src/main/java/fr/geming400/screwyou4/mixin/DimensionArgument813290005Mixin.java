@@ -31,15 +31,15 @@ public class DimensionArgument813290005Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getExamples()Ljava/util/Collection;", cancellable = true)
-    private void getExamples__1000358267(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1000358267L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getDimension(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/server/level/ServerLevel;", cancellable = true)
     private static void getDimension__1894728167(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1894728167L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getExamples()Ljava/util/Collection;", cancellable = true)
+    private void getExamples__1000358267(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1000358267L))
             info.setReturnValue(null);
     }
 

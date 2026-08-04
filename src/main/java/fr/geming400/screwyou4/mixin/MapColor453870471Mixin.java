@@ -31,15 +31,15 @@ public class MapColor453870471Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "calculate(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/client/multiplayer/ClientLevel;Lnet/minecraft/world/entity/LivingEntity;)I", cancellable = true)
-    private void calculate__202442755(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-202442755L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "defaultColor()I", cancellable = true)
     private void defaultColor_492132717(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(492132717L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "calculate(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/client/multiplayer/ClientLevel;Lnet/minecraft/world/entity/LivingEntity;)I", cancellable = true)
+    private void calculate__202442755(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-202442755L))
             info.setReturnValue(null);
     }
 

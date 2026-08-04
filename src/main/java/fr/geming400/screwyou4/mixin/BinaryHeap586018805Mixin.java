@@ -49,16 +49,16 @@ public class BinaryHeap586018805Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "changeCost(Lnet/minecraft/world/level/pathfinder/Node;F)V", cancellable = true)
-    private void changeCost__663553839(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-663553839L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "getHeap()[Lnet/minecraft/world/level/pathfinder/Node;", cancellable = true)
     private void getHeap__2140513994(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2140513994L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "changeCost(Lnet/minecraft/world/level/pathfinder/Node;F)V", cancellable = true)
+    private void changeCost__663553839(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-663553839L))
+            info.cancel();
     }
 
 

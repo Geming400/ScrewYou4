@@ -79,8 +79,8 @@ public class HitboxRenderState1720520901Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "offsetX()F", cancellable = true)
-    private void offsetX_1758780264(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "offsetZ()F", cancellable = true)
+    private void offsetZ_1758780264(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1758780264L))
             info.setReturnValue(null);
     }
@@ -91,8 +91,8 @@ public class HitboxRenderState1720520901Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "offsetZ()F", cancellable = true)
-    private void offsetZ_1758780264(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "offsetX()F", cancellable = true)
+    private void offsetX_1758780264(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1758780264L))
             info.setReturnValue(null);
     }

@@ -13,6 +13,24 @@ public class LoomMenu647048818Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "getSelectedBannerPatternIndex()I", cancellable = true)
+    private void getSelectedBannerPatternIndex_685311064(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(685311064L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "stillValid(Lnet/minecraft/world/entity/player/Player;)Z", cancellable = true)
+    private void stillValid_1587654308(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1587654308L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getDyeSlot()Lnet/minecraft/world/inventory/Slot;", cancellable = true)
+    private void getDyeSlot__89859138(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-89859138L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "getResultSlot()Lnet/minecraft/world/inventory/Slot;", cancellable = true)
     private void getResultSlot__89859138(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-89859138L))
@@ -37,20 +55,8 @@ public class LoomMenu647048818Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getSelectablePatterns()Ljava/util/List;", cancellable = true)
-    private void getSelectablePatterns__2021581662(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2021581662L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getPatternSlot()Lnet/minecraft/world/inventory/Slot;", cancellable = true)
     private void getPatternSlot__89859138(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-89859138L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getBannerSlot()Lnet/minecraft/world/inventory/Slot;", cancellable = true)
-    private void getBannerSlot__89859138(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-89859138L))
             info.setReturnValue(null);
     }
@@ -61,21 +67,15 @@ public class LoomMenu647048818Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getDyeSlot()Lnet/minecraft/world/inventory/Slot;", cancellable = true)
-    private void getDyeSlot__89859138(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "getSelectablePatterns()Ljava/util/List;", cancellable = true)
+    private void getSelectablePatterns__2021581662(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2021581662L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getBannerSlot()Lnet/minecraft/world/inventory/Slot;", cancellable = true)
+    private void getBannerSlot__89859138(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-89859138L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "stillValid(Lnet/minecraft/world/entity/player/Player;)Z", cancellable = true)
-    private void stillValid_1587654308(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1587654308L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getSelectedBannerPatternIndex()I", cancellable = true)
-    private void getSelectedBannerPatternIndex_685311064(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(685311064L))
             info.setReturnValue(null);
     }
 

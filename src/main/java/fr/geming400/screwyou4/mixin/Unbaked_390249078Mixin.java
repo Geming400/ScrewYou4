@@ -43,9 +43,15 @@ public class Unbaked_390249078Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "onFalse()Lnet/minecraft/client/renderer/item/ItemModel$Unbaked;", cancellable = true)
-    private void onFalse_517368095(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(517368095L))
+    @Inject(at = @At("HEAD"), method = "resolveDependencies(Lnet/minecraft/client/resources/model/ResolvableModel$Resolver;)V", cancellable = true)
+    private void resolveDependencies_340455147(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(340455147L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "bake(Lnet/minecraft/client/renderer/item/ItemModel$BakingContext;Lorg/joml/Matrix4fc;)Lnet/minecraft/client/renderer/item/ItemModel;", cancellable = true)
+    private void bake_1823843978(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1823843978L))
             info.setReturnValue(null);
     }
 
@@ -55,16 +61,10 @@ public class Unbaked_390249078Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "bake(Lnet/minecraft/client/renderer/item/ItemModel$BakingContext;Lorg/joml/Matrix4fc;)Lnet/minecraft/client/renderer/item/ItemModel;", cancellable = true)
-    private void bake_1823843978(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1823843978L))
+    @Inject(at = @At("HEAD"), method = "onFalse()Lnet/minecraft/client/renderer/item/ItemModel$Unbaked;", cancellable = true)
+    private void onFalse_517368095(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(517368095L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "resolveDependencies(Lnet/minecraft/client/resources/model/ResolvableModel$Resolver;)V", cancellable = true)
-    private void resolveDependencies_340455147(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(340455147L))
-            info.cancel();
     }
 
 

@@ -13,10 +13,10 @@ public class MinecraftServerStateServiceImpl_1915469050Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "isReady()Z", cancellable = true)
-    private void isReady_1953747632(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1953747632L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "sendSystemMessage(Lnet/minecraft/network/chat/Component;Lnet/minecraft/server/jsonrpc/methods/ClientInfo;)V", cancellable = true)
+    private void sendSystemMessage__755013425(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-755013425L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "sendSystemMessage(Lnet/minecraft/network/chat/Component;ZLjava/util/Collection;Lnet/minecraft/server/jsonrpc/methods/ClientInfo;)V", cancellable = true)
@@ -25,10 +25,10 @@ public class MinecraftServerStateServiceImpl_1915469050Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "sendSystemMessage(Lnet/minecraft/network/chat/Component;Lnet/minecraft/server/jsonrpc/methods/ClientInfo;)V", cancellable = true)
-    private void sendSystemMessage__755013425(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-755013425L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "isReady()Z", cancellable = true)
+    private void isReady_1953747632(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1953747632L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "broadcastSystemMessage(Lnet/minecraft/network/chat/Component;ZLnet/minecraft/server/jsonrpc/methods/ClientInfo;)V", cancellable = true)

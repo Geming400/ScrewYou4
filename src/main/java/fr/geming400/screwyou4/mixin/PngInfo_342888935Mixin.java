@@ -37,15 +37,15 @@ public class PngInfo_342888935Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "height()I", cancellable = true)
-    private void height_381151180(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(381151180L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "fromBytes([B)Lnet/minecraft/util/PngInfo;", cancellable = true)
     private static void fromBytes_1862474567(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1862474567L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "height()I", cancellable = true)
+    private void height_381151180(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(381151180L))
             info.setReturnValue(null);
     }
 

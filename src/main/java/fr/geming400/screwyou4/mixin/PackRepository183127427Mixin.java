@@ -19,12 +19,6 @@ public class PackRepository183127427Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getRequestedFeatureFlags()Lnet/minecraft/world/flag/FeatureFlagSet;", cancellable = true)
-    private void getRequestedFeatureFlags_847947925(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(847947925L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getAvailableIds()Ljava/util/Collection;", cancellable = true)
     private void getAvailableIds__1630520845(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1630520845L))
@@ -37,15 +31,21 @@ public class PackRepository183127427Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "openAllSelected()Ljava/util/List;", cancellable = true)
-    private void openAllSelected_1809464243(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1809464243L))
+    @Inject(at = @At("HEAD"), method = "getRequestedFeatureFlags()Lnet/minecraft/world/flag/FeatureFlagSet;", cancellable = true)
+    private void getRequestedFeatureFlags_847947925(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(847947925L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getSelectedIds()Ljava/util/Collection;", cancellable = true)
-    private void getSelectedIds__1630520845(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1630520845L))
+    @Inject(at = @At("HEAD"), method = "isAbleToClearAnyPack()Z", cancellable = true)
+    private void isAbleToClearAnyPack_221406010(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(221406010L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "openAllSelected()Ljava/util/List;", cancellable = true)
+    private void openAllSelected_1809464243(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1809464243L))
             info.setReturnValue(null);
     }
 
@@ -55,21 +55,9 @@ public class PackRepository183127427Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "isAbleToClearAnyPack()Z", cancellable = true)
-    private void isAbleToClearAnyPack_221406010(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(221406010L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getSelectedPacks()Ljava/util/Collection;", cancellable = true)
-    private void getSelectedPacks__1630520845(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "getSelectedIds()Ljava/util/Collection;", cancellable = true)
+    private void getSelectedIds__1630520845(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1630520845L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "displayPackList(Ljava/util/Collection;)Ljava/lang/String;", cancellable = true)
-    private static void displayPackList_1474979443(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1474979443L))
             info.setReturnValue(null);
     }
 
@@ -88,6 +76,18 @@ public class PackRepository183127427Mixin {
     @Inject(at = @At("HEAD"), method = "removePack(Ljava/lang/String;)Z", cancellable = true)
     private void removePack_1335492420(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1335492420L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "displayPackList(Ljava/util/Collection;)Ljava/lang/String;", cancellable = true)
+    private static void displayPackList_1474979443(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1474979443L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getSelectedPacks()Ljava/util/Collection;", cancellable = true)
+    private void getSelectedPacks__1630520845(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1630520845L))
             info.setReturnValue(null);
     }
 

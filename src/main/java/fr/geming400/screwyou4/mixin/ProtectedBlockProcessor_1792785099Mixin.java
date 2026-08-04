@@ -31,15 +31,15 @@ public class ProtectedBlockProcessor_1792785099Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "cannotReplace()Lnet/minecraft/core/HolderSet;", cancellable = true)
-    private void cannotReplace__882229154(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-882229154L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
     private void codec__766328474(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-766328474L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "cannotReplace()Lnet/minecraft/core/HolderSet;", cancellable = true)
+    private void cannotReplace__882229154(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-882229154L))
             info.setReturnValue(null);
     }
 

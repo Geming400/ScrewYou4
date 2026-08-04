@@ -7,16 +7,16 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.world.level.block.PointedDripstoneBlock.class)
 public class PointedDripstoneBlock1304914974Mixin {
-        @Inject(at = @At("HEAD"), method = "animateTick(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)V", cancellable = true)
-    private void animateTick_1182312893(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1182312893L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
+        @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
     private void codec__1254198598(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1254198598L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "spawnDripParticle(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)V", cancellable = true)
+    private static void spawnDripParticle__764989955(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-764989955L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "fallOn(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/Entity;D)V", cancellable = true)
@@ -25,9 +25,9 @@ public class PointedDripstoneBlock1304914974Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "spawnDripParticle(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)V", cancellable = true)
-    private static void spawnDripParticle__764989955(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-764989955L))
+    @Inject(at = @At("HEAD"), method = "animateTick(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)V", cancellable = true)
+    private void animateTick_1182312893(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1182312893L))
             info.cancel();
     }
 

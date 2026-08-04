@@ -25,15 +25,15 @@ public class ShelfBlock1582432071Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "mirror(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/Mirror;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
-    private void mirror__1187610156(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1187610156L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getFacing(Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/core/Direction;", cancellable = true)
     private void getFacing_713303811(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(713303811L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "mirror(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/Mirror;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
+    private void mirror__1187610156(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1187610156L))
             info.setReturnValue(null);
     }
 
@@ -43,20 +43,14 @@ public class ShelfBlock1582432071Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
-    private void getStateForPlacement_323832304(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(323832304L))
+    @Inject(at = @At("HEAD"), method = "getColumns()I", cancellable = true)
+    private void getColumns_1620694317(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1620694317L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getRows()I", cancellable = true)
     private void getRows_1620694317(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1620694317L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getColumns()I", cancellable = true)
-    private void getColumns_1620694317(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1620694317L))
             info.setReturnValue(null);
     }
@@ -76,6 +70,12 @@ public class ShelfBlock1582432071Mixin {
     @Inject(at = @At("HEAD"), method = "getMaxChainLength()I", cancellable = true)
     private void getMaxChainLength_1620694317(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1620694317L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
+    private void getStateForPlacement_323832304(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(323832304L))
             info.setReturnValue(null);
     }
 

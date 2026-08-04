@@ -13,15 +13,15 @@ public class QuadCollection_308236015Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "hasMaterialFlag(I)Z", cancellable = true)
-    private void hasMaterialFlag_1522156830(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1522156830L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getQuads(Lnet/minecraft/core/Direction;)Ljava/util/List;", cancellable = true)
     private void getQuads__1182654062(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1182654062L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "hasMaterialFlag(I)Z", cancellable = true)
+    private void hasMaterialFlag_1522156830(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1522156830L))
             info.setReturnValue(null);
     }
 

@@ -13,9 +13,9 @@ public class ThrownTrident_1162733380Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getWeaponItem()Lnet/minecraft/world/item/ItemStack;", cancellable = true)
-    private void getWeaponItem_1686152039(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1686152039L))
+    @Inject(at = @At("HEAD"), method = "isFoil()Z", cancellable = true)
+    private void isFoil_1201011962(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1201011962L))
             info.setReturnValue(null);
     }
 
@@ -31,9 +31,9 @@ public class ThrownTrident_1162733380Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "isFoil()Z", cancellable = true)
-    private void isFoil_1201011962(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1201011962L))
+    @Inject(at = @At("HEAD"), method = "getWeaponItem()Lnet/minecraft/world/item/ItemStack;", cancellable = true)
+    private void getWeaponItem_1686152039(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1686152039L))
             info.setReturnValue(null);
     }
 

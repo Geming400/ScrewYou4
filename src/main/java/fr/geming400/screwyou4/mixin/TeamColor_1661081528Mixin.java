@@ -31,15 +31,15 @@ public class TeamColor_1661081528Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "calculate(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/client/multiplayer/ClientLevel;Lnet/minecraft/world/entity/LivingEntity;)I", cancellable = true)
-    private void calculate_1004768301(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1004768301L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "defaultColor()I", cancellable = true)
     private void defaultColor_1699343773(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1699343773L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "calculate(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/client/multiplayer/ClientLevel;Lnet/minecraft/world/entity/LivingEntity;)I", cancellable = true)
+    private void calculate_1004768301(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1004768301L))
             info.setReturnValue(null);
     }
 

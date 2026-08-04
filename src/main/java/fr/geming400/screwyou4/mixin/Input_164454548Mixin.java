@@ -55,14 +55,14 @@ public class Input_164454548Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "backward()Z", cancellable = true)
-    private void backward_202733130(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "sprint()Z", cancellable = true)
+    private void sprint_202733130(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(202733130L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "sprint()Z", cancellable = true)
-    private void sprint_202733130(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "backward()Z", cancellable = true)
+    private void backward_202733130(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(202733130L))
             info.setReturnValue(null);
     }

@@ -25,14 +25,14 @@ public class ChickenSoundSet_635833639Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "hurtSound()Lnet/minecraft/core/Holder;", cancellable = true)
-    private void hurtSound__2110257886(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "deathSound()Lnet/minecraft/core/Holder;", cancellable = true)
+    private void deathSound__2110257886(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2110257886L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "deathSound()Lnet/minecraft/core/Holder;", cancellable = true)
-    private void deathSound__2110257886(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "hurtSound()Lnet/minecraft/core/Holder;", cancellable = true)
+    private void hurtSound__2110257886(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2110257886L))
             info.setReturnValue(null);
     }

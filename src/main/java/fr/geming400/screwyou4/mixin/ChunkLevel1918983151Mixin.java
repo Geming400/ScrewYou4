@@ -37,15 +37,15 @@ public class ChunkLevel1918983151Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "isBlockTicking(I)Z", cancellable = true)
-    private static void isBlockTicking__1162063081(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1162063081L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "generationStatus(I)Lnet/minecraft/world/level/chunk/status/ChunkStatus;", cancellable = true)
     private static void generationStatus_2055937596(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2055937596L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isBlockTicking(I)Z", cancellable = true)
+    private static void isBlockTicking__1162063081(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1162063081L))
             info.setReturnValue(null);
     }
 

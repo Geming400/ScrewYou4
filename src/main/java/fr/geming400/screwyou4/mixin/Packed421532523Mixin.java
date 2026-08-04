@@ -25,14 +25,14 @@ public class Packed421532523Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "objectives()Ljava/util/List;", cancellable = true)
-    private void objectives_2047869339(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "scores()Ljava/util/List;", cancellable = true)
+    private void scores_2047869339(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2047869339L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "scores()Ljava/util/List;", cancellable = true)
-    private void scores_2047869339(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "objectives()Ljava/util/List;", cancellable = true)
+    private void objectives_2047869339(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2047869339L))
             info.setReturnValue(null);
     }

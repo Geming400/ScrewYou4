@@ -25,6 +25,12 @@ public class AdultAndBabyModelPair_441561582Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "babyModel()Lnet/minecraft/client/model/Model;", cancellable = true)
+    private void babyModel_1704002696(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1704002696L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "adultModel()Lnet/minecraft/client/model/Model;", cancellable = true)
     private void adultModel_1704002696(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1704002696L))
@@ -34,12 +40,6 @@ public class AdultAndBabyModelPair_441561582Mixin {
     @Inject(at = @At("HEAD"), method = "getModel(Z)Lnet/minecraft/client/model/Model;", cancellable = true)
     private void getModel__807780930(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-807780930L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "babyModel()Lnet/minecraft/client/model/Model;", cancellable = true)
-    private void babyModel_1704002696(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1704002696L))
             info.setReturnValue(null);
     }
 

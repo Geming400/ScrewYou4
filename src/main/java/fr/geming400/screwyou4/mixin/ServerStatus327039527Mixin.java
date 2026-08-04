@@ -37,15 +37,15 @@ public class ServerStatus327039527Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "players()Ljava/util/Optional;", cancellable = true)
-    private void players_572500949(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(572500949L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "enforcesSecureChat()Z", cancellable = true)
     private void enforcesSecureChat_365318110(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(365318110L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "players()Ljava/util/Optional;", cancellable = true)
+    private void players_572500949(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(572500949L))
             info.setReturnValue(null);
     }
 

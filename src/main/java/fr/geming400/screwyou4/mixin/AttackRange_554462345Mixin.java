@@ -37,15 +37,27 @@ public class AttackRange_554462345Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "defaultFor(Lnet/minecraft/world/entity/LivingEntity;)Lnet/minecraft/world/item/component/AttackRange;", cancellable = true)
-    private static void defaultFor_898243494(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(898243494L))
+    @Inject(at = @At("HEAD"), method = "effectiveMinRange(Lnet/minecraft/world/entity/Entity;)F", cancellable = true)
+    private void effectiveMinRange_102722308(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(102722308L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "effectiveMaxRange(Lnet/minecraft/world/entity/Entity;)F", cancellable = true)
+    private void effectiveMaxRange_102722308(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(102722308L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getClosesetHit(Lnet/minecraft/world/entity/Entity;FLjava/util/function/Predicate;)Lnet/minecraft/world/phys/HitResult;", cancellable = true)
     private void getClosesetHit_551385926(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(551385926L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "defaultFor(Lnet/minecraft/world/entity/LivingEntity;)Lnet/minecraft/world/item/component/AttackRange;", cancellable = true)
+    private static void defaultFor_898243494(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(898243494L))
             info.setReturnValue(null);
     }
 
@@ -57,6 +69,12 @@ public class AttackRange_554462345Mixin {
 
     @Inject(at = @At("HEAD"), method = "minCreativeReach()F", cancellable = true)
     private void minCreativeReach_592721707(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(592721707L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "maxReach()F", cancellable = true)
+    private void maxReach_592721707(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(592721707L))
             info.setReturnValue(null);
     }
@@ -73,27 +91,9 @@ public class AttackRange_554462345Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "maxReach()F", cancellable = true)
-    private void maxReach_592721707(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(592721707L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "hitboxMargin()F", cancellable = true)
     private void hitboxMargin_592721707(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(592721707L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "effectiveMaxRange(Lnet/minecraft/world/entity/Entity;)F", cancellable = true)
-    private void effectiveMaxRange_102722308(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(102722308L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "effectiveMinRange(Lnet/minecraft/world/entity/Entity;)F", cancellable = true)
-    private void effectiveMinRange_102722308(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(102722308L))
             info.setReturnValue(null);
     }
 

@@ -31,15 +31,9 @@ public class ServerFunctionManager_1643554204Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "replaceLibrary(Lnet/minecraft/server/ServerFunctionLibrary;)V", cancellable = true)
-    private void replaceLibrary__84200875(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-84200875L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "getDispatcher()Lcom/mojang/brigadier/CommandDispatcher;", cancellable = true)
-    private void getDispatcher_438504848(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(438504848L))
+    @Inject(at = @At("HEAD"), method = "getFunctionNames()Ljava/lang/Iterable;", cancellable = true)
+    private void getFunctionNames__366195485(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-366195485L))
             info.setReturnValue(null);
     }
 
@@ -49,15 +43,21 @@ public class ServerFunctionManager_1643554204Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getFunctionNames()Ljava/lang/Iterable;", cancellable = true)
-    private void getFunctionNames__366195485(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "getTagNames()Ljava/lang/Iterable;", cancellable = true)
+    private void getTagNames__366195485(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-366195485L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getTagNames()Ljava/lang/Iterable;", cancellable = true)
-    private void getTagNames__366195485(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-366195485L))
+    @Inject(at = @At("HEAD"), method = "replaceLibrary(Lnet/minecraft/server/ServerFunctionLibrary;)V", cancellable = true)
+    private void replaceLibrary__84200875(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-84200875L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getDispatcher()Lcom/mojang/brigadier/CommandDispatcher;", cancellable = true)
+    private void getDispatcher_438504848(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(438504848L))
             info.setReturnValue(null);
     }
 

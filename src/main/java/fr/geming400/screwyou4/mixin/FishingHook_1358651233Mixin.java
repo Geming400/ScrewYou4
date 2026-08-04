@@ -31,28 +31,22 @@ public class FishingHook_1358651233Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "handleEntityEvent(B)V", cancellable = true)
-    private void handleEntityEvent__1728863739(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1728863739L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "getInterpolation()Lnet/minecraft/world/entity/InterpolationHandler;", cancellable = true)
-    private void getInterpolation__2079880477(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2079880477L))
+    @Inject(at = @At("HEAD"), method = "getPlayerOwner()Lnet/minecraft/world/entity/player/Player;", cancellable = true)
+    private void getPlayerOwner_311564954(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(311564954L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "canUsePortal(Z)Z", cancellable = true)
-    private void canUsePortal__1706695391(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1706695391L))
+    @Inject(at = @At("HEAD"), method = "isOpenWaterFishing()Z", cancellable = true)
+    private void isOpenWaterFishing_1396929815(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1396929815L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "recreateFromPacket(Lnet/minecraft/network/protocol/game/ClientboundAddEntityPacket;)V", cancellable = true)
-    private void recreateFromPacket_169862542(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(169862542L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "getHookedIn()Lnet/minecraft/world/entity/Entity;", cancellable = true)
+    private void getHookedIn__1107427610(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1107427610L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "onClientRemoval()V", cancellable = true)
@@ -73,27 +67,33 @@ public class FishingHook_1358651233Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "isOpenWaterFishing()Z", cancellable = true)
-    private void isOpenWaterFishing_1396929815(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1396929815L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getHookedIn()Lnet/minecraft/world/entity/Entity;", cancellable = true)
-    private void getHookedIn__1107427610(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1107427610L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "onSyncedDataUpdated(Lnet/minecraft/network/syncher/EntityDataAccessor;)V", cancellable = true)
     private void onSyncedDataUpdated__1290566620(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1290566620L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getPlayerOwner()Lnet/minecraft/world/entity/player/Player;", cancellable = true)
-    private void getPlayerOwner_311564954(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(311564954L))
+    @Inject(at = @At("HEAD"), method = "handleEntityEvent(B)V", cancellable = true)
+    private void handleEntityEvent__1728863739(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1728863739L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getInterpolation()Lnet/minecraft/world/entity/InterpolationHandler;", cancellable = true)
+    private void getInterpolation__2079880477(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2079880477L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "recreateFromPacket(Lnet/minecraft/network/protocol/game/ClientboundAddEntityPacket;)V", cancellable = true)
+    private void recreateFromPacket_169862542(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(169862542L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "canUsePortal(Z)Z", cancellable = true)
+    private void canUsePortal__1706695391(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1706695391L))
             info.setReturnValue(null);
     }
 

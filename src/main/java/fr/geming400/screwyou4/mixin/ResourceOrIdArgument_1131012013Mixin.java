@@ -31,12 +31,6 @@ public class ResourceOrIdArgument_1131012013Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "dialog(Lnet/minecraft/commands/CommandBuildContext;)Lnet/minecraft/commands/arguments/ResourceOrIdArgument$DialogArgument;", cancellable = true)
-    private static void dialog_1145438824(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1145438824L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "listSuggestions(Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
     private void listSuggestions_1371935454(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1371935454L))
@@ -49,15 +43,9 @@ public class ResourceOrIdArgument_1131012013Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getExamples()Ljava/util/Collection;", cancellable = true)
-    private void getExamples__682636260(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-682636260L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "lootPredicate(Lnet/minecraft/commands/CommandBuildContext;)Lnet/minecraft/commands/arguments/ResourceOrIdArgument$LootPredicateArgument;", cancellable = true)
-    private static void lootPredicate_1466090305(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1466090305L))
+    @Inject(at = @At("HEAD"), method = "dialog(Lnet/minecraft/commands/CommandBuildContext;)Lnet/minecraft/commands/arguments/ResourceOrIdArgument$DialogArgument;", cancellable = true)
+    private static void dialog_1145438824(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1145438824L))
             info.setReturnValue(null);
     }
 
@@ -73,15 +61,27 @@ public class ResourceOrIdArgument_1131012013Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "createGrammar(Lnet/minecraft/resources/ResourceKey;Lcom/mojang/serialization/DynamicOps;)Lnet/minecraft/util/parsing/packrat/commands/Grammar;", cancellable = true)
-    private static void createGrammar_1192337855(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1192337855L))
+    @Inject(at = @At("HEAD"), method = "lootPredicate(Lnet/minecraft/commands/CommandBuildContext;)Lnet/minecraft/commands/arguments/ResourceOrIdArgument$LootPredicateArgument;", cancellable = true)
+    private static void lootPredicate_1466090305(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1466090305L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "lootModifier(Lnet/minecraft/commands/CommandBuildContext;)Lnet/minecraft/commands/arguments/ResourceOrIdArgument$LootModifierArgument;", cancellable = true)
     private static void lootModifier_1834836401(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1834836401L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "createGrammar(Lnet/minecraft/resources/ResourceKey;Lcom/mojang/serialization/DynamicOps;)Lnet/minecraft/util/parsing/packrat/commands/Grammar;", cancellable = true)
+    private static void createGrammar_1192337855(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1192337855L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getExamples()Ljava/util/Collection;", cancellable = true)
+    private void getExamples__682636260(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-682636260L))
             info.setReturnValue(null);
     }
 

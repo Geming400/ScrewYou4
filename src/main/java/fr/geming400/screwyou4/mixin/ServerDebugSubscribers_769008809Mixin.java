@@ -19,10 +19,10 @@ public class ServerDebugSubscribers_769008809Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "hasRequiredPermissions(Lnet/minecraft/server/level/ServerPlayer;)Z", cancellable = true)
-    private void hasRequiredPermissions__549201(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-549201L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "broadcastToAll(Lnet/minecraft/util/debug/DebugSubscription;Lnet/minecraft/network/protocol/Packet;)V", cancellable = true)
+    private void broadcastToAll_1534014772(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1534014772L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "enabledSubscriptions()Ljava/util/Set;", cancellable = true)
@@ -31,10 +31,10 @@ public class ServerDebugSubscribers_769008809Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "broadcastToAll(Lnet/minecraft/util/debug/DebugSubscription;Lnet/minecraft/network/protocol/Packet;)V", cancellable = true)
-    private void broadcastToAll_1534014772(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1534014772L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "hasRequiredPermissions(Lnet/minecraft/server/level/ServerPlayer;)Z", cancellable = true)
+    private void hasRequiredPermissions__549201(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-549201L))
+            info.setReturnValue(null);
     }
 
 

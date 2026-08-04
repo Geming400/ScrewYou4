@@ -43,24 +43,6 @@ public class AttributeType_901691752Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "modifierLibrary()Ljava/util/Map;", cancellable = true)
-    private void modifierLibrary__1102931889(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1102931889L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "spatialLerp()Lnet/minecraft/world/attribute/LerpFunction;", cancellable = true)
-    private void spatialLerp__1007022878(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1007022878L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "keyframeLerp()Lnet/minecraft/world/attribute/LerpFunction;", cancellable = true)
-    private void keyframeLerp__1007022878(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1007022878L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "ofNotInterpolated(Lcom/mojang/serialization/Codec;)Lnet/minecraft/world/attribute/AttributeType;", cancellable = true)
     private static void ofNotInterpolated_1977791288(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1977791288L))
@@ -73,10 +55,10 @@ public class AttributeType_901691752Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "stateChangeLerp()Lnet/minecraft/world/attribute/LerpFunction;", cancellable = true)
-    private void stateChangeLerp__1007022878(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1007022878L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "checkAllowedModifier(Lnet/minecraft/world/attribute/modifier/AttributeModifier;)V", cancellable = true)
+    private void checkAllowedModifier_2104548522(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(2104548522L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "partialTickLerp()Lnet/minecraft/world/attribute/LerpFunction;", cancellable = true)
@@ -85,10 +67,10 @@ public class AttributeType_901691752Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "checkAllowedModifier(Lnet/minecraft/world/attribute/modifier/AttributeModifier;)V", cancellable = true)
-    private void checkAllowedModifier_2104548522(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(2104548522L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "modifierLibrary()Ljava/util/Map;", cancellable = true)
+    private void modifierLibrary__1102931889(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1102931889L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "ofInterpolated(Lcom/mojang/serialization/Codec;Ljava/util/Map;Lnet/minecraft/world/attribute/LerpFunction;Lnet/minecraft/world/attribute/LerpFunction;Lnet/minecraft/util/ToFloatFunction;)Lnet/minecraft/world/attribute/AttributeType;", cancellable = true)
@@ -106,6 +88,24 @@ public class AttributeType_901691752Mixin {
     @Inject(at = @At("HEAD"), method = "modifierCodec()Lcom/mojang/serialization/Codec;", cancellable = true)
     private void modifierCodec_509726125(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(509726125L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "keyframeLerp()Lnet/minecraft/world/attribute/LerpFunction;", cancellable = true)
+    private void keyframeLerp__1007022878(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1007022878L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "spatialLerp()Lnet/minecraft/world/attribute/LerpFunction;", cancellable = true)
+    private void spatialLerp__1007022878(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1007022878L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "stateChangeLerp()Lnet/minecraft/world/attribute/LerpFunction;", cancellable = true)
+    private void stateChangeLerp__1007022878(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1007022878L))
             info.setReturnValue(null);
     }
 

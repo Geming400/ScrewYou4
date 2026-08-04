@@ -31,15 +31,15 @@ public class DataLoadContext15655466Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "datapackDimensions()Lnet/minecraft/core/RegistryAccess$Frozen;", cancellable = true)
-    private void datapackDimensions__233094799(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-233094799L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "datapackWorldgen()Lnet/minecraft/core/HolderLookup$Provider;", cancellable = true)
     private void datapackWorldgen__297551867(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-297551867L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "datapackDimensions()Lnet/minecraft/core/RegistryAccess$Frozen;", cancellable = true)
+    private void datapackDimensions__233094799(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-233094799L))
             info.setReturnValue(null);
     }
 

@@ -7,7 +7,13 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.world.inventory.SmithingMenu.class)
 public class SmithingMenu84851280Mixin {
-        @Inject(at = @At("HEAD"), method = "slotsChanged(Lnet/minecraft/world/Container;)V", cancellable = true)
+        @Inject(at = @At("HEAD"), method = "canTakeItemForPickAll(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/inventory/Slot;)Z", cancellable = true)
+    private void canTakeItemForPickAll_1337347321(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1337347321L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "slotsChanged(Lnet/minecraft/world/Container;)V", cancellable = true)
     private void slotsChanged_1618604522(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1618604522L))
             info.cancel();
@@ -16,12 +22,6 @@ public class SmithingMenu84851280Mixin {
     @Inject(at = @At("HEAD"), method = "hasRecipeError()Z", cancellable = true)
     private void hasRecipeError_123129863(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(123129863L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "canTakeItemForPickAll(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/inventory/Slot;)Z", cancellable = true)
-    private void canTakeItemForPickAll_1337347321(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1337347321L))
             info.setReturnValue(null);
     }
 

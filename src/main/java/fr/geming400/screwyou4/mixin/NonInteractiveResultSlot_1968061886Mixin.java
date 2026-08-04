@@ -13,9 +13,9 @@ public class NonInteractiveResultSlot_1968061886Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "isHighlightable()Z", cancellable = true)
-    private void isHighlightable_2006340468(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2006340468L))
+    @Inject(at = @At("HEAD"), method = "mayPlace(Lnet/minecraft/world/item/ItemStack;)Z", cancellable = true)
+    private void mayPlace__592370279(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-592370279L))
             info.setReturnValue(null);
     }
 
@@ -31,18 +31,6 @@ public class NonInteractiveResultSlot_1968061886Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "mayPlace(Lnet/minecraft/world/item/ItemStack;)Z", cancellable = true)
-    private void mayPlace__592370279(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-592370279L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "onTake(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/item/ItemStack;)V", cancellable = true)
-    private void onTake__1112596592(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1112596592L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "safeInsert(Lnet/minecraft/world/item/ItemStack;I)Lnet/minecraft/world/item/ItemStack;", cancellable = true)
     private void safeInsert__1421925779(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1421925779L))
@@ -55,15 +43,27 @@ public class NonInteractiveResultSlot_1968061886Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "safeTake(IILnet/minecraft/world/entity/player/Player;)Lnet/minecraft/world/item/ItemStack;", cancellable = true)
+    private void safeTake_1485236838(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1485236838L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "tryRemove(IILnet/minecraft/world/entity/player/Player;)Ljava/util/Optional;", cancellable = true)
     private void tryRemove__1037481488(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1037481488L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "safeTake(IILnet/minecraft/world/entity/player/Player;)Lnet/minecraft/world/item/ItemStack;", cancellable = true)
-    private void safeTake_1485236838(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1485236838L))
+    @Inject(at = @At("HEAD"), method = "onTake(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/item/ItemStack;)V", cancellable = true)
+    private void onTake__1112596592(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1112596592L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "isHighlightable()Z", cancellable = true)
+    private void isHighlightable_2006340468(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2006340468L))
             info.setReturnValue(null);
     }
 

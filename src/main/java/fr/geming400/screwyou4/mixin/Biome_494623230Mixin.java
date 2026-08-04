@@ -13,9 +13,9 @@ public class Biome_494623230Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getGenerationSettings()Lnet/minecraft/world/level/biome/BiomeGenerationSettings;", cancellable = true)
-    private void getGenerationSettings_1196657329(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1196657329L))
+    @Inject(at = @At("HEAD"), method = "hasPrecipitation()Z", cancellable = true)
+    private void hasPrecipitation_532901812(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(532901812L))
             info.setReturnValue(null);
     }
 
@@ -25,8 +25,14 @@ public class Biome_494623230Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getFoliageColor()I", cancellable = true)
-    private void getFoliageColor_532885475(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "getWaterColor()I", cancellable = true)
+    private void getWaterColor_532885475(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(532885475L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getDryFoliageColor()I", cancellable = true)
+    private void getDryFoliageColor_532885475(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(532885475L))
             info.setReturnValue(null);
     }
@@ -37,33 +43,9 @@ public class Biome_494623230Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getDryFoliageColor()I", cancellable = true)
-    private void getDryFoliageColor_532885475(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "getFoliageColor()I", cancellable = true)
+    private void getFoliageColor_532885475(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(532885475L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getWaterColor()I", cancellable = true)
-    private void getWaterColor_532885475(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(532885475L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "hasPrecipitation()Z", cancellable = true)
-    private void hasPrecipitation_532901812(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(532901812L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "shouldFreeze(Lnet/minecraft/world/level/LevelReader;Lnet/minecraft/core/BlockPos;Z)Z", cancellable = true)
-    private void shouldFreeze_708178262(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(708178262L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "shouldFreeze(Lnet/minecraft/world/level/LevelReader;Lnet/minecraft/core/BlockPos;)Z", cancellable = true)
-    private void shouldFreeze__608253156(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-608253156L))
             info.setReturnValue(null);
     }
 
@@ -85,15 +67,15 @@ public class Biome_494623230Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "coldEnoughToSnow(Lnet/minecraft/core/BlockPos;I)Z", cancellable = true)
-    private void coldEnoughToSnow_1458824409(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1458824409L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getSpecialEffects()Lnet/minecraft/world/level/biome/BiomeSpecialEffects;", cancellable = true)
     private void getSpecialEffects__1755282877(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1755282877L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "coldEnoughToSnow(Lnet/minecraft/core/BlockPos;I)Z", cancellable = true)
+    private void coldEnoughToSnow_1458824409(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1458824409L))
             info.setReturnValue(null);
     }
 
@@ -106,6 +88,24 @@ public class Biome_494623230Mixin {
     @Inject(at = @At("HEAD"), method = "shouldMeltFrozenOceanIcebergSlightly(Lnet/minecraft/core/BlockPos;I)Z", cancellable = true)
     private void shouldMeltFrozenOceanIcebergSlightly_1458824409(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1458824409L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "shouldFreeze(Lnet/minecraft/world/level/LevelReader;Lnet/minecraft/core/BlockPos;)Z", cancellable = true)
+    private void shouldFreeze__608253156(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-608253156L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "shouldFreeze(Lnet/minecraft/world/level/LevelReader;Lnet/minecraft/core/BlockPos;Z)Z", cancellable = true)
+    private void shouldFreeze_708178262(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(708178262L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getGenerationSettings()Lnet/minecraft/world/level/biome/BiomeGenerationSettings;", cancellable = true)
+    private void getGenerationSettings_1196657329(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1196657329L))
             info.setReturnValue(null);
     }
 

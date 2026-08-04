@@ -43,16 +43,16 @@ public class MessageArgument_1063830410Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getExamples()Ljava/util/Collection;", cancellable = true)
-    private void getExamples__749817863(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-749817863L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "resolveChatMessage(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;Ljava/util/function/Consumer;)V", cancellable = true)
     private static void resolveChatMessage__1032465254(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1032465254L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getExamples()Ljava/util/Collection;", cancellable = true)
+    private void getExamples__749817863(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-749817863L))
+            info.setReturnValue(null);
     }
 
 

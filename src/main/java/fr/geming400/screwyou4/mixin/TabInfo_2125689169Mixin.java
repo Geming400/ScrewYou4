@@ -31,15 +31,15 @@ public class TabInfo_2125689169Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "primaryIcon()Lnet/minecraft/world/item/ItemStack;", cancellable = true)
-    private void primaryIcon__1645859468(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1645859468L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "secondaryIcon()Ljava/util/Optional;", cancellable = true)
     private void secondaryIcon__1923816706(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1923816706L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "primaryIcon()Lnet/minecraft/world/item/ItemStack;", cancellable = true)
+    private void primaryIcon__1645859468(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1645859468L))
             info.setReturnValue(null);
     }
 

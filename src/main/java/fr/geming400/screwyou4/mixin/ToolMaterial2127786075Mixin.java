@@ -25,15 +25,15 @@ public class ToolMaterial2127786075Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "speed()F", cancellable = true)
-    private void speed__2128921858(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2128921858L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "durability()I", cancellable = true)
     private void durability__2128918975(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2128918975L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "speed()F", cancellable = true)
+    private void speed__2128921858(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2128921858L))
             info.setReturnValue(null);
     }
 
@@ -49,9 +49,9 @@ public class ToolMaterial2127786075Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "applyToolProperties(Lnet/minecraft/world/item/Item$Properties;Lnet/minecraft/tags/TagKey;FFF)Lnet/minecraft/world/item/Item$Properties;", cancellable = true)
-    private void applyToolProperties_459401940(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(459401940L))
+    @Inject(at = @At("HEAD"), method = "attackDamageBonus()F", cancellable = true)
+    private void attackDamageBonus__2128921858(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2128921858L))
             info.setReturnValue(null);
     }
 
@@ -67,9 +67,9 @@ public class ToolMaterial2127786075Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "attackDamageBonus()F", cancellable = true)
-    private void attackDamageBonus__2128921858(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2128921858L))
+    @Inject(at = @At("HEAD"), method = "applyToolProperties(Lnet/minecraft/world/item/Item$Properties;Lnet/minecraft/tags/TagKey;FFF)Lnet/minecraft/world/item/Item$Properties;", cancellable = true)
+    private void applyToolProperties_459401940(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(459401940L))
             info.setReturnValue(null);
     }
 

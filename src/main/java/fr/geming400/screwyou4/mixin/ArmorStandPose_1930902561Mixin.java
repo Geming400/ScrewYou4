@@ -37,14 +37,14 @@ public class ArmorStandPose_1930902561Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "rightArm()Lnet/minecraft/core/Rotations;", cancellable = true)
-    private void rightArm_1886654389(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "leftArm()Lnet/minecraft/core/Rotations;", cancellable = true)
+    private void leftArm_1886654389(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1886654389L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "leftArm()Lnet/minecraft/core/Rotations;", cancellable = true)
-    private void leftArm_1886654389(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "rightArm()Lnet/minecraft/core/Rotations;", cancellable = true)
+    private void rightArm_1886654389(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1886654389L))
             info.setReturnValue(null);
     }

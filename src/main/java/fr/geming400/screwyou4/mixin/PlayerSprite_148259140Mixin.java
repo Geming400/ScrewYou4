@@ -25,15 +25,15 @@ public class PlayerSprite_148259140Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "player()Lnet/minecraft/world/item/component/ResolvableProfile;", cancellable = true)
-    private void player_944464664(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(944464664L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
     private void codec_1884112863(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1884112863L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "player()Lnet/minecraft/world/item/component/ResolvableProfile;", cancellable = true)
+    private void player_944464664(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(944464664L))
             info.setReturnValue(null);
     }
 

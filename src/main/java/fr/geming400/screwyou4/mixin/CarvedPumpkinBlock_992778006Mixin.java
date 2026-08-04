@@ -13,9 +13,9 @@ public class CarvedPumpkinBlock_992778006Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
-    private void getStateForPlacement__265821762(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-265821762L))
+    @Inject(at = @At("HEAD"), method = "canSpawnGolem(Lnet/minecraft/world/level/LevelReader;Lnet/minecraft/core/BlockPos;)Z", cancellable = true)
+    private void canSpawnGolem__110098380(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-110098380L))
             info.setReturnValue(null);
     }
 
@@ -31,16 +31,16 @@ public class CarvedPumpkinBlock_992778006Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "canSpawnGolem(Lnet/minecraft/world/level/LevelReader;Lnet/minecraft/core/BlockPos;)Z", cancellable = true)
-    private void canSpawnGolem__110098380(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-110098380L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "replaceCopperBlockWithChest(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/level/block/state/pattern/BlockPattern$BlockPatternMatch;)V", cancellable = true)
     private void replaceCopperBlockWithChest__1791066422(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1791066422L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
+    private void getStateForPlacement__265821762(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-265821762L))
+            info.setReturnValue(null);
     }
 
 

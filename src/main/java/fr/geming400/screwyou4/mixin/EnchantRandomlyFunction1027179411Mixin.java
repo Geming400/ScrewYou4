@@ -13,27 +13,27 @@ public class EnchantRandomlyFunction1027179411Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "randomEnchantment()Lnet/minecraft/world/level/storage/loot/functions/EnchantRandomlyFunction$Builder;", cancellable = true)
-    private static void randomEnchantment_1197211724(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1197211724L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
     private void codec__1531934161(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1531934161L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "randomApplicableEnchantment(Lnet/minecraft/core/HolderLookup$Provider;)Lnet/minecraft/world/level/storage/loot/functions/EnchantRandomlyFunction$Builder;", cancellable = true)
-    private static void randomApplicableEnchantment__1233857808(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1233857808L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getReferencedContextParams()Ljava/util/Set;", cancellable = true)
     private void getReferencedContextParams__801856075(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-801856075L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "randomEnchantment()Lnet/minecraft/world/level/storage/loot/functions/EnchantRandomlyFunction$Builder;", cancellable = true)
+    private static void randomEnchantment_1197211724(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1197211724L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "randomApplicableEnchantment(Lnet/minecraft/core/HolderLookup$Provider;)Lnet/minecraft/world/level/storage/loot/functions/EnchantRandomlyFunction$Builder;", cancellable = true)
+    private static void randomApplicableEnchantment__1233857808(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1233857808L))
             info.setReturnValue(null);
     }
 

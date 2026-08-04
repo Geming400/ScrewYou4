@@ -7,8 +7,8 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.client.gui.screens.options.controls.KeyBindsList.class)
 public class KeyBindsList1078619969Mixin {
-        @Inject(at = @At("HEAD"), method = "refreshEntries()V", cancellable = true)
-    private void refreshEntries_1116894708(CallbackInfo info) {
+        @Inject(at = @At("HEAD"), method = "resetMappingAndUpdateButtons()V", cancellable = true)
+    private void resetMappingAndUpdateButtons_1116894708(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1116894708L))
             info.cancel();
     }
@@ -19,8 +19,8 @@ public class KeyBindsList1078619969Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "resetMappingAndUpdateButtons()V", cancellable = true)
-    private void resetMappingAndUpdateButtons_1116894708(CallbackInfo info) {
+    @Inject(at = @At("HEAD"), method = "refreshEntries()V", cancellable = true)
+    private void refreshEntries_1116894708(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1116894708L))
             info.cancel();
     }

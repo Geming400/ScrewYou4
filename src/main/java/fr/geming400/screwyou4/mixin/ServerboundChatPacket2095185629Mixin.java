@@ -61,15 +61,15 @@ public class ServerboundChatPacket2095185629Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "timeStamp()Ljava/time/Instant;", cancellable = true)
-    private void timeStamp__1102547467(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1102547467L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "lastSeenMessages()Lnet/minecraft/network/chat/LastSeenMessages$Update;", cancellable = true)
     private void lastSeenMessages_594614909(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(594614909L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "timeStamp()Ljava/time/Instant;", cancellable = true)
+    private void timeStamp__1102547467(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1102547467L))
             info.setReturnValue(null);
     }
 

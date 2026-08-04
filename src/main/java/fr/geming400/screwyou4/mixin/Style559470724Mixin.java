@@ -37,9 +37,9 @@ public class Style559470724Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "withScale(F)Lnet/minecraft/gizmos/TextGizmo$Style;", cancellable = true)
-    private void withScale_1525507620(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1525507620L))
+    @Inject(at = @At("HEAD"), method = "adjustLeft()Ljava/util/OptionalDouble;", cancellable = true)
+    private void adjustLeft_1196602593(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1196602593L))
             info.setReturnValue(null);
     }
 
@@ -61,9 +61,9 @@ public class Style559470724Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "adjustLeft()Ljava/util/OptionalDouble;", cancellable = true)
-    private void adjustLeft_1196602593(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1196602593L))
+    @Inject(at = @At("HEAD"), method = "withScale(F)Lnet/minecraft/gizmos/TextGizmo$Style;", cancellable = true)
+    private void withScale_1525507620(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1525507620L))
             info.setReturnValue(null);
     }
 

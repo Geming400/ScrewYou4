@@ -37,6 +37,18 @@ public class AttributeMap920057422Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "assignBaseValues(Lnet/minecraft/world/entity/ai/attributes/AttributeMap;)V", cancellable = true)
+    private void assignBaseValues_1811893516(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1811893516L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "assignAllValues(Lnet/minecraft/world/entity/ai/attributes/AttributeMap;)V", cancellable = true)
+    private void assignAllValues_1811893516(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1811893516L))
+            info.cancel();
+    }
+
     @Inject(at = @At("HEAD"), method = "removeAttributeModifiers(Lcom/google/common/collect/Multimap;)V", cancellable = true)
     private void removeAttributeModifiers_1507782508(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1507782508L))
@@ -55,14 +67,20 @@ public class AttributeMap920057422Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "assignAllValues(Lnet/minecraft/world/entity/ai/attributes/AttributeMap;)V", cancellable = true)
-    private void assignAllValues_1811893516(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1811893516L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "getSyncableAttributes()Ljava/util/Collection;", cancellable = true)
+    private void getSyncableAttributes__893590850(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-893590850L))
+            info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "assignBaseValues(Lnet/minecraft/world/entity/ai/attributes/AttributeMap;)V", cancellable = true)
-    private void assignBaseValues_1811893516(CallbackInfo info) {
+    @Inject(at = @At("HEAD"), method = "getAttributesToSync()Ljava/util/Set;", cancellable = true)
+    private void getAttributesToSync__908978064(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-908978064L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "assignPermanentModifiers(Lnet/minecraft/world/entity/ai/attributes/AttributeMap;)V", cancellable = true)
+    private void assignPermanentModifiers_1811893516(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1811893516L))
             info.cancel();
     }
@@ -73,34 +91,16 @@ public class AttributeMap920057422Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getModifierValue(Lnet/minecraft/core/Holder;Lnet/minecraft/resources/Identifier;)D", cancellable = true)
-    private void getModifierValue__1742656954(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1742656954L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "resetBaseValue(Lnet/minecraft/core/Holder;)Z", cancellable = true)
     private void resetBaseValue__1828430892(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1828430892L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getAttributesToSync()Ljava/util/Set;", cancellable = true)
-    private void getAttributesToSync__908978064(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-908978064L))
+    @Inject(at = @At("HEAD"), method = "getModifierValue(Lnet/minecraft/core/Holder;Lnet/minecraft/resources/Identifier;)D", cancellable = true)
+    private void getModifierValue__1742656954(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1742656954L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getSyncableAttributes()Ljava/util/Collection;", cancellable = true)
-    private void getSyncableAttributes__893590850(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-893590850L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "assignPermanentModifiers(Lnet/minecraft/world/entity/ai/attributes/AttributeMap;)V", cancellable = true)
-    private void assignPermanentModifiers_1811893516(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1811893516L))
-            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "addTransientAttributeModifiers(Lcom/google/common/collect/Multimap;)V", cancellable = true)

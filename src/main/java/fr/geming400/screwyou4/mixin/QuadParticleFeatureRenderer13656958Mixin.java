@@ -13,9 +13,9 @@ public class QuadParticleFeatureRenderer13656958Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "prepareGroup(Lnet/minecraft/client/renderer/feature/FeatureFrameContext;Ljava/util/List;Z)V", cancellable = true)
-    private void prepareGroup_874364566(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(874364566L))
+    @Inject(at = @At("HEAD"), method = "finishExecute(Lnet/minecraft/client/renderer/feature/FeatureFrameContext;)V", cancellable = true)
+    private void finishExecute__562975803(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-562975803L))
             info.cancel();
     }
 
@@ -25,9 +25,9 @@ public class QuadParticleFeatureRenderer13656958Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "finishExecute(Lnet/minecraft/client/renderer/feature/FeatureFrameContext;)V", cancellable = true)
-    private void finishExecute__562975803(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-562975803L))
+    @Inject(at = @At("HEAD"), method = "prepareGroup(Lnet/minecraft/client/renderer/feature/FeatureFrameContext;Ljava/util/List;Z)V", cancellable = true)
+    private void prepareGroup_874364566(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(874364566L))
             info.cancel();
     }
 

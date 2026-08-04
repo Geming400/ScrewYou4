@@ -37,12 +37,6 @@ public class TriggerInstance_1592562173Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "signalStrength()Lnet/minecraft/advancements/predicates/MinMaxBounds$Ints;", cancellable = true)
-    private void signalStrength_1441327114(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1441327114L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "player()Ljava/util/Optional;", cancellable = true)
     private void player_1838023594(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1838023594L))
@@ -58,6 +52,12 @@ public class TriggerInstance_1592562173Mixin {
     @Inject(at = @At("HEAD"), method = "targetHit(Lnet/minecraft/advancements/predicates/MinMaxBounds$Ints;Ljava/util/Optional;)Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
     private static void targetHit_656655795(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(656655795L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "signalStrength()Lnet/minecraft/advancements/predicates/MinMaxBounds$Ints;", cancellable = true)
+    private void signalStrength_1441327114(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1441327114L))
             info.setReturnValue(null);
     }
 

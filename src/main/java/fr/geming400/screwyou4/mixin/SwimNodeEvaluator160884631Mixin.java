@@ -25,6 +25,12 @@ public class SwimNodeEvaluator160884631Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "getPathType(Lnet/minecraft/world/level/pathfinder/PathfindingContext;III)Lnet/minecraft/world/level/pathfinder/PathType;", cancellable = true)
+    private void getPathType__777641879(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-777641879L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "getStart()Lnet/minecraft/world/level/pathfinder/Node;", cancellable = true)
     private void getStart__1332332879(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1332332879L))
@@ -34,12 +40,6 @@ public class SwimNodeEvaluator160884631Mixin {
     @Inject(at = @At("HEAD"), method = "getPathTypeOfMob(Lnet/minecraft/world/level/pathfinder/PathfindingContext;IIILnet/minecraft/world/entity/Mob;)Lnet/minecraft/world/level/pathfinder/PathType;", cancellable = true)
     private void getPathTypeOfMob_414221267(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(414221267L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getPathType(Lnet/minecraft/world/level/pathfinder/PathfindingContext;III)Lnet/minecraft/world/level/pathfinder/PathType;", cancellable = true)
-    private void getPathType__777641879(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-777641879L))
             info.setReturnValue(null);
     }
 

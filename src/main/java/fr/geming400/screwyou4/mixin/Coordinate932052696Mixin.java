@@ -49,15 +49,15 @@ public class Coordinate932052696Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "mapChildren(Lnet/minecraft/world/level/levelgen/DensityFunction$Visitor;)Lnet/minecraft/world/level/levelgen/DensityFunctions$Spline$Coordinate;", cancellable = true)
-    private void mapChildren__2038799577(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2038799577L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "minValue()F", cancellable = true)
     private void minValue_970312059(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(970312059L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "mapChildren(Lnet/minecraft/world/level/levelgen/DensityFunction$Visitor;)Lnet/minecraft/world/level/levelgen/DensityFunctions$Spline$Coordinate;", cancellable = true)
+    private void mapChildren__2038799577(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2038799577L))
             info.setReturnValue(null);
     }
 

@@ -25,42 +25,6 @@ public class BeaconRenderer_555827799Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/blockentity/state/BeaconRenderState;", cancellable = true)
-    private void createRenderState_1533154332(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1533154332L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/blockentity/state/BlockEntityRenderState;", cancellable = true)
-    private void createRenderState_1689800224(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1689800224L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "shouldRender(Lnet/minecraft/world/level/block/entity/BlockEntity;Lnet/minecraft/world/phys/Vec3;)Z", cancellable = true)
-    private void shouldRender_1702711724(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1702711724L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/level/block/entity/BlockEntity;Lnet/minecraft/client/renderer/blockentity/state/BlockEntityRenderState;FLnet/minecraft/world/phys/Vec3;Lnet/minecraft/client/renderer/feature/ModelFeatureRenderer$CrumblingOverlay;)V", cancellable = true)
-    private void extractRenderState_1572916660(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1572916660L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/level/block/entity/BlockEntity;Lnet/minecraft/client/renderer/blockentity/state/BeaconRenderState;FLnet/minecraft/world/phys/Vec3;Lnet/minecraft/client/renderer/feature/ModelFeatureRenderer$CrumblingOverlay;)V", cancellable = true)
-    private void extractRenderState__648137440(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-648137440L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "shouldRenderOffScreen()Z", cancellable = true)
-    private void shouldRenderOffScreen_594106381(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(594106381L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getViewDistance()I", cancellable = true)
     private void getViewDistance_594090044(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(594090044L))
@@ -71,6 +35,42 @@ public class BeaconRenderer_555827799Mixin {
     private static void submitBeaconBeam__797066862(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-797066862L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "shouldRenderOffScreen()Z", cancellable = true)
+    private void shouldRenderOffScreen_594106381(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(594106381L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/level/block/entity/BlockEntity;Lnet/minecraft/client/renderer/blockentity/state/BeaconRenderState;FLnet/minecraft/world/phys/Vec3;Lnet/minecraft/client/renderer/feature/ModelFeatureRenderer$CrumblingOverlay;)V", cancellable = true)
+    private void extractRenderState__648137440(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-648137440L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/level/block/entity/BlockEntity;Lnet/minecraft/client/renderer/blockentity/state/BlockEntityRenderState;FLnet/minecraft/world/phys/Vec3;Lnet/minecraft/client/renderer/feature/ModelFeatureRenderer$CrumblingOverlay;)V", cancellable = true)
+    private void extractRenderState_1572916660(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1572916660L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "shouldRender(Lnet/minecraft/world/level/block/entity/BlockEntity;Lnet/minecraft/world/phys/Vec3;)Z", cancellable = true)
+    private void shouldRender_1702711724(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1702711724L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/blockentity/state/BlockEntityRenderState;", cancellable = true)
+    private void createRenderState_1689800224(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1689800224L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/blockentity/state/BeaconRenderState;", cancellable = true)
+    private void createRenderState_1533154332(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1533154332L))
+            info.setReturnValue(null);
     }
 
 

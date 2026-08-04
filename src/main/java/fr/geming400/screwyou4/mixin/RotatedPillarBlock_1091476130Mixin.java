@@ -13,15 +13,15 @@ public class RotatedPillarBlock_1091476130Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
-    private void getStateForPlacement__167123638(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-167123638L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "rotatePillar(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/Rotation;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
     private static void rotatePillar_1566954469(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1566954469L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
+    private void getStateForPlacement__167123638(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-167123638L))
             info.setReturnValue(null);
     }
 

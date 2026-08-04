@@ -43,9 +43,9 @@ public class LootItemRandomChanceCondition275772651Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "chance()Lnet/minecraft/world/level/storage/loot/providers/number/NumberProvider;", cancellable = true)
-    private void chance__1387884995(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1387884995L))
+    @Inject(at = @At("HEAD"), method = "randomChance(Lnet/minecraft/world/level/storage/loot/providers/number/NumberProvider;)Lnet/minecraft/world/level/storage/loot/predicates/LootItemCondition$Builder;", cancellable = true)
+    private static void randomChance__568728417(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-568728417L))
             info.setReturnValue(null);
     }
 
@@ -55,9 +55,9 @@ public class LootItemRandomChanceCondition275772651Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "randomChance(Lnet/minecraft/world/level/storage/loot/providers/number/NumberProvider;)Lnet/minecraft/world/level/storage/loot/predicates/LootItemCondition$Builder;", cancellable = true)
-    private static void randomChance__568728417(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-568728417L))
+    @Inject(at = @At("HEAD"), method = "chance()Lnet/minecraft/world/level/storage/loot/providers/number/NumberProvider;", cancellable = true)
+    private void chance__1387884995(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1387884995L))
             info.setReturnValue(null);
     }
 

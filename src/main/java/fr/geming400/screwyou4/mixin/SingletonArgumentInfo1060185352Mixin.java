@@ -31,6 +31,18 @@ public class SingletonArgumentInfo1060185352Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "contextFree(Ljava/util/function/Supplier;)Lnet/minecraft/commands/synchronization/SingletonArgumentInfo;", cancellable = true)
+    private static void contextFree_167017702(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(167017702L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "contextAware(Ljava/util/function/Function;)Lnet/minecraft/commands/synchronization/SingletonArgumentInfo;", cancellable = true)
+    private static void contextAware__1733082126(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1733082126L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "serializeToJson(Lnet/minecraft/commands/synchronization/ArgumentTypeInfo$Template;Lcom/google/gson/JsonObject;)V", cancellable = true)
     private void serializeToJson_612630143(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(612630143L))
@@ -43,27 +55,15 @@ public class SingletonArgumentInfo1060185352Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "deserializeFromNetwork(Lnet/minecraft/network/FriendlyByteBuf;)Lnet/minecraft/commands/synchronization/SingletonArgumentInfo$Template;", cancellable = true)
-    private void deserializeFromNetwork_76388462(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(76388462L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "deserializeFromNetwork(Lnet/minecraft/network/FriendlyByteBuf;)Lnet/minecraft/commands/synchronization/ArgumentTypeInfo$Template;", cancellable = true)
     private void deserializeFromNetwork_600803923(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(600803923L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "contextFree(Ljava/util/function/Supplier;)Lnet/minecraft/commands/synchronization/SingletonArgumentInfo;", cancellable = true)
-    private static void contextFree_167017702(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(167017702L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "contextAware(Ljava/util/function/Function;)Lnet/minecraft/commands/synchronization/SingletonArgumentInfo;", cancellable = true)
-    private static void contextAware__1733082126(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1733082126L))
+    @Inject(at = @At("HEAD"), method = "deserializeFromNetwork(Lnet/minecraft/network/FriendlyByteBuf;)Lnet/minecraft/commands/synchronization/SingletonArgumentInfo$Template;", cancellable = true)
+    private void deserializeFromNetwork_76388462(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(76388462L))
             info.setReturnValue(null);
     }
 

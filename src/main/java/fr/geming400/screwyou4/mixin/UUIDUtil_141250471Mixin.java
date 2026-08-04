@@ -13,9 +13,9 @@ public class UUIDUtil_141250471Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "readUUID(Lcom/mojang/serialization/Dynamic;)Ljava/util/UUID;", cancellable = true)
-    private static void readUUID_1948441267(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1948441267L))
+    @Inject(at = @At("HEAD"), method = "uuidToByteArray(Ljava/util/UUID;)[B", cancellable = true)
+    private static void uuidToByteArray_1941231568(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1941231568L))
             info.setReturnValue(null);
     }
 
@@ -31,15 +31,15 @@ public class UUIDUtil_141250471Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "uuidToByteArray(Ljava/util/UUID;)[B", cancellable = true)
-    private static void uuidToByteArray_1941231568(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1941231568L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "createOfflineProfile(Ljava/lang/String;)Lcom/mojang/authlib/GameProfile;", cancellable = true)
     private static void createOfflineProfile_281415660(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(281415660L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "readUUID(Lcom/mojang/serialization/Dynamic;)Ljava/util/UUID;", cancellable = true)
+    private static void readUUID_1948441267(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1948441267L))
             info.setReturnValue(null);
     }
 

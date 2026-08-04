@@ -49,24 +49,6 @@ public class PerlinNoise_1641128136Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "parityConfigString(Ljava/lang/StringBuilder;)V", cancellable = true)
-    private void parityConfigString__1586056677(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1586056677L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "getOctaveNoise(I)Lnet/minecraft/world/level/levelgen/synth/ImprovedNoise;", cancellable = true)
-    private void getOctaveNoise_1701603048(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1701603048L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "maxBrokenValue(D)D", cancellable = true)
-    private void maxBrokenValue__1444557092(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1444557092L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "createLegacyForBlendedNoise(Lnet/minecraft/util/RandomSource;Ljava/util/stream/IntStream;)Lnet/minecraft/world/level/levelgen/synth/PerlinNoise;", cancellable = true)
     private static void createLegacyForBlendedNoise__566167534(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-566167534L))
@@ -77,6 +59,24 @@ public class PerlinNoise_1641128136Mixin {
     private static void createLegacyForLegacyNetherBiome__1076074614(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1076074614L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "maxBrokenValue(D)D", cancellable = true)
+    private void maxBrokenValue__1444557092(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1444557092L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getOctaveNoise(I)Lnet/minecraft/world/level/levelgen/synth/ImprovedNoise;", cancellable = true)
+    private void getOctaveNoise_1701603048(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1701603048L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "parityConfigString(Ljava/lang/StringBuilder;)V", cancellable = true)
+    private void parityConfigString__1586056677(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1586056677L))
+            info.cancel();
     }
 
 

@@ -37,9 +37,9 @@ public class KeyframeTrack_819748577Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "easingType()Lnet/minecraft/util/EasingType;", cancellable = true)
-    private void easingType__2054099322(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2054099322L))
+    @Inject(at = @At("HEAD"), method = "bakeSampler(Ljava/util/Optional;Lnet/minecraft/world/attribute/LerpFunction;)Lnet/minecraft/util/KeyframeTrackSampler;", cancellable = true)
+    private void bakeSampler_1947749867(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1947749867L))
             info.setReturnValue(null);
     }
 
@@ -49,9 +49,9 @@ public class KeyframeTrack_819748577Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "bakeSampler(Ljava/util/Optional;Lnet/minecraft/world/attribute/LerpFunction;)Lnet/minecraft/util/KeyframeTrackSampler;", cancellable = true)
-    private void bakeSampler_1947749867(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1947749867L))
+    @Inject(at = @At("HEAD"), method = "easingType()Lnet/minecraft/util/EasingType;", cancellable = true)
+    private void easingType__2054099322(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2054099322L))
             info.setReturnValue(null);
     }
 

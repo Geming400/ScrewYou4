@@ -43,14 +43,14 @@ public class BooleanInput_917621242Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "onFalse()Ljava/lang/String;", cancellable = true)
-    private void onFalse__217839230(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "onTrue()Ljava/lang/String;", cancellable = true)
+    private void onTrue__217839230(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-217839230L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "onTrue()Ljava/lang/String;", cancellable = true)
-    private void onTrue__217839230(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "onFalse()Ljava/lang/String;", cancellable = true)
+    private void onFalse__217839230(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-217839230L))
             info.setReturnValue(null);
     }

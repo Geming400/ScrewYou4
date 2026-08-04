@@ -31,27 +31,9 @@ public class CycleButton_142238134Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "onOffBuilder(Z)Lnet/minecraft/client/gui/components/CycleButton$Builder;", cancellable = true)
-    private static void onOffBuilder__616061087(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-616061087L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "booleanBuilder(Lnet/minecraft/network/chat/Component;Lnet/minecraft/network/chat/Component;Z)Lnet/minecraft/client/gui/components/CycleButton$Builder;", cancellable = true)
-    private static void booleanBuilder__960790215(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-960790215L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "mouseScrolled(DDDD)Z", cancellable = true)
-    private void mouseScrolled_1342149740(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1342149740L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "updateWidgetNarration(Lnet/minecraft/client/gui/narration/NarrationElementOutput;)V", cancellable = true)
-    private void updateWidgetNarration_1403897619(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1403897619L))
+    @Inject(at = @At("HEAD"), method = "resetValue()V", cancellable = true)
+    private void resetValue_180512872(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(180512872L))
             info.cancel();
     }
 
@@ -67,10 +49,28 @@ public class CycleButton_142238134Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "resetValue()V", cancellable = true)
-    private void resetValue_180512872(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(180512872L))
+    @Inject(at = @At("HEAD"), method = "booleanBuilder(Lnet/minecraft/network/chat/Component;Lnet/minecraft/network/chat/Component;Z)Lnet/minecraft/client/gui/components/CycleButton$Builder;", cancellable = true)
+    private static void booleanBuilder__960790215(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-960790215L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "onOffBuilder(Z)Lnet/minecraft/client/gui/components/CycleButton$Builder;", cancellable = true)
+    private static void onOffBuilder__616061087(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-616061087L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "updateWidgetNarration(Lnet/minecraft/client/gui/narration/NarrationElementOutput;)V", cancellable = true)
+    private void updateWidgetNarration_1403897619(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1403897619L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "mouseScrolled(DDDD)Z", cancellable = true)
+    private void mouseScrolled_1342149740(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1342149740L))
+            info.setReturnValue(null);
     }
 
 

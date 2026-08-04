@@ -19,9 +19,21 @@ public class ShulkerBoxBlockEntity_890803741Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "triggerEvent(II)Z", cancellable = true)
+    private void triggerEvent__105071885(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-105071885L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "getColor()Lnet/minecraft/world/item/DyeColor;", cancellable = true)
     private void getColor__1968855326(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1968855326L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getContainerSize()I", cancellable = true)
+    private void getContainerSize_929065986(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(929065986L))
             info.setReturnValue(null);
     }
 
@@ -31,28 +43,28 @@ public class ShulkerBoxBlockEntity_890803741Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "loadFromTag(Lnet/minecraft/world/level/storage/ValueInput;)V", cancellable = true)
-    private void loadFromTag_1122040373(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1122040373L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "getContainerSize()I", cancellable = true)
-    private void getContainerSize_929065986(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(929065986L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getBoundingBox(Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/phys/AABB;", cancellable = true)
     private void getBoundingBox_470651459(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(470651459L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "triggerEvent(II)Z", cancellable = true)
-    private void triggerEvent__105071885(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-105071885L))
+    @Inject(at = @At("HEAD"), method = "getAnimationStatus()Lnet/minecraft/world/level/block/entity/ShulkerBoxBlockEntity$AnimationStatus;", cancellable = true)
+    private void getAnimationStatus__1036420363(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1036420363L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "preRemoveSideEffects(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)V", cancellable = true)
+    private void preRemoveSideEffects__1627905838(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1627905838L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "loadFromTag(Lnet/minecraft/world/level/storage/ValueInput;)V", cancellable = true)
+    private void loadFromTag_1122040373(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1122040373L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "stopOpen(Lnet/minecraft/world/entity/ContainerUser;)V", cancellable = true)
@@ -67,12 +79,6 @@ public class ShulkerBoxBlockEntity_890803741Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "canPlaceItemThroughFace(ILnet/minecraft/world/item/ItemStack;Lnet/minecraft/core/Direction;)Z", cancellable = true)
-    private void canPlaceItemThroughFace__1943367811(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1943367811L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "canTakeItemThroughFace(ILnet/minecraft/world/item/ItemStack;Lnet/minecraft/core/Direction;)Z", cancellable = true)
     private void canTakeItemThroughFace__1943367811(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1943367811L))
@@ -85,16 +91,10 @@ public class ShulkerBoxBlockEntity_890803741Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getAnimationStatus()Lnet/minecraft/world/level/block/entity/ShulkerBoxBlockEntity$AnimationStatus;", cancellable = true)
-    private void getAnimationStatus__1036420363(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1036420363L))
+    @Inject(at = @At("HEAD"), method = "canPlaceItemThroughFace(ILnet/minecraft/world/item/ItemStack;Lnet/minecraft/core/Direction;)Z", cancellable = true)
+    private void canPlaceItemThroughFace__1943367811(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1943367811L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "preRemoveSideEffects(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)V", cancellable = true)
-    private void preRemoveSideEffects__1627905838(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1627905838L))
-            info.cancel();
     }
 
 

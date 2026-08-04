@@ -31,16 +31,40 @@ public class MultiLineEditBox773567054Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "preeditUpdated(Lnet/minecraft/client/input/PreeditEvent;)Z", cancellable = true)
+    private void preeditUpdated__986799654(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-986799654L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "setFocused(Z)V", cancellable = true)
+    private void setFocused_2003183883(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(2003183883L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "onClick(Lnet/minecraft/client/input/MouseButtonEvent;Z)V", cancellable = true)
+    private void onClick__841095668(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-841095668L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "keyPressed(Lnet/minecraft/client/input/KeyEvent;)Z", cancellable = true)
+    private void keyPressed__143068660(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-143068660L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "charTyped(Lnet/minecraft/client/input/CharacterEvent;)Z", cancellable = true)
+    private void charTyped__1313074410(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1313074410L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "getInnerHeight()I", cancellable = true)
     private void getInnerHeight_811829300(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(811829300L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "setValueListener(Ljava/util/function/Consumer;)V", cancellable = true)
-    private void setValueListener_1454583467(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1454583467L))
-            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "setCharacterLimit(I)V", cancellable = true)
@@ -55,40 +79,16 @@ public class MultiLineEditBox773567054Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "preeditUpdated(Lnet/minecraft/client/input/PreeditEvent;)Z", cancellable = true)
-    private void preeditUpdated__986799654(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-986799654L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "setValueListener(Ljava/util/function/Consumer;)V", cancellable = true)
+    private void setValueListener_1454583467(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1454583467L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "updateWidgetNarration(Lnet/minecraft/client/gui/narration/NarrationElementOutput;)V", cancellable = true)
     private void updateWidgetNarration_2035226540(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(2035226540L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "onClick(Lnet/minecraft/client/input/MouseButtonEvent;Z)V", cancellable = true)
-    private void onClick__841095668(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-841095668L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "setFocused(Z)V", cancellable = true)
-    private void setFocused_2003183883(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(2003183883L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "charTyped(Lnet/minecraft/client/input/CharacterEvent;)Z", cancellable = true)
-    private void charTyped__1313074410(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1313074410L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "keyPressed(Lnet/minecraft/client/input/KeyEvent;)Z", cancellable = true)
-    private void keyPressed__143068660(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-143068660L))
-            info.setReturnValue(null);
     }
 
 

@@ -31,15 +31,15 @@ public class CommandTemplate1202332455Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "createAction(Ljava/util/Map;)Ljava/util/Optional;", cancellable = true)
-    private void createAction__1704934470(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1704934470L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
     private void codec__1356781117(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1356781117L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "createAction(Ljava/util/Map;)Ljava/util/Optional;", cancellable = true)
+    private void createAction__1704934470(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1704934470L))
             info.setReturnValue(null);
     }
 

@@ -31,14 +31,14 @@ public class Variant1709714825Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "patternColor()Lnet/minecraft/world/item/DyeColor;", cancellable = true)
-    private void patternColor__1149944241(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "baseColor()Lnet/minecraft/world/item/DyeColor;", cancellable = true)
+    private void baseColor__1149944241(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1149944241L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "baseColor()Lnet/minecraft/world/item/DyeColor;", cancellable = true)
-    private void baseColor__1149944241(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "patternColor()Lnet/minecraft/world/item/DyeColor;", cancellable = true)
+    private void patternColor__1149944241(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1149944241L))
             info.setReturnValue(null);
     }

@@ -25,12 +25,6 @@ public class OverlayMetadataSection147017858Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "overlays()Ljava/util/List;", cancellable = true)
-    private void overlays_1773354674(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1773354674L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "forPackType(Lnet/minecraft/server/packs/PackType;)Lnet/minecraft/server/packs/metadata/MetadataSectionType;", cancellable = true)
     private static void forPackType__456469960(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-456469960L))
@@ -46,6 +40,12 @@ public class OverlayMetadataSection147017858Mixin {
     @Inject(at = @At("HEAD"), method = "overlaysForVersion(Lnet/minecraft/server/packs/metadata/pack/PackFormat;)Ljava/util/List;", cancellable = true)
     private void overlaysForVersion__1572891410(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1572891410L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "overlays()Ljava/util/List;", cancellable = true)
+    private void overlays_1773354674(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1773354674L))
             info.setReturnValue(null);
     }
 

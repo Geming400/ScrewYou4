@@ -25,15 +25,15 @@ public class Baked2142980620Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "sprite()Lnet/minecraft/client/renderer/texture/TextureAtlasSprite;", cancellable = true)
-    private void sprite_151974805(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(151974805L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "forceTranslucent()Z", cancellable = true)
     private void forceTranslucent__2113708093(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2113708093L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "sprite()Lnet/minecraft/client/renderer/texture/TextureAtlasSprite;", cancellable = true)
+    private void sprite_151974805(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(151974805L))
             info.setReturnValue(null);
     }
 

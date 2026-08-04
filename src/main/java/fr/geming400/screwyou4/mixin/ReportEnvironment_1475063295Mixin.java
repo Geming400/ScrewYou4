@@ -55,27 +55,27 @@ public class ReportEnvironment_1475063295Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "thirdParty(Ljava/lang/String;)Lnet/minecraft/client/multiplayer/chat/report/ReportEnvironment;", cancellable = true)
-    private static void thirdParty_1111998052(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1111998052L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "thirdPartyServerInfo()Lcom/mojang/authlib/yggdrasil/request/AbuseReportRequest$ThirdPartyServerInfo;", cancellable = true)
     private void thirdPartyServerInfo__1941604959(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1941604959L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "realmInfo()Lcom/mojang/authlib/yggdrasil/request/AbuseReportRequest$RealmInfo;", cancellable = true)
-    private void realmInfo_1804398048(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1804398048L))
+    @Inject(at = @At("HEAD"), method = "thirdParty(Ljava/lang/String;)Lnet/minecraft/client/multiplayer/chat/report/ReportEnvironment;", cancellable = true)
+    private static void thirdParty_1111998052(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1111998052L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "clientInfo()Lcom/mojang/authlib/yggdrasil/request/AbuseReportRequest$ClientInfo;", cancellable = true)
     private void clientInfo_1556561944(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1556561944L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "realmInfo()Lcom/mojang/authlib/yggdrasil/request/AbuseReportRequest$RealmInfo;", cancellable = true)
+    private void realmInfo_1804398048(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1804398048L))
             info.setReturnValue(null);
     }
 

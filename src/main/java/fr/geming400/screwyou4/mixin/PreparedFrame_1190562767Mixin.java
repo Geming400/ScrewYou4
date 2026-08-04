@@ -19,26 +19,20 @@ public class PreparedFrame_1190562767Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "hasAnyAlwaysOnTop()Z", cancellable = true)
-    private void hasAnyAlwaysOnTop_1228841349(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1228841349L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "hasAnyOutline()Z", cancellable = true)
-    private void hasAnyOutline_1228841349(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1228841349L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "executeSolid()V", cancellable = true)
-    private void executeSolid_1228837505(CallbackInfo info) {
+    @Inject(at = @At("HEAD"), method = "executeAlwaysOnTop()V", cancellable = true)
+    private void executeAlwaysOnTop_1228837505(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1228837505L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "executeAlwaysOnTop()V", cancellable = true)
-    private void executeAlwaysOnTop_1228837505(CallbackInfo info) {
+    @Inject(at = @At("HEAD"), method = "executeTranslucent()V", cancellable = true)
+    private void executeTranslucent_1228837505(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1228837505L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "executeSolid()V", cancellable = true)
+    private void executeSolid_1228837505(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1228837505L))
             info.cancel();
     }
@@ -49,10 +43,16 @@ public class PreparedFrame_1190562767Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "executeTranslucent()V", cancellable = true)
-    private void executeTranslucent_1228837505(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1228837505L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "hasAnyOutline()Z", cancellable = true)
+    private void hasAnyOutline_1228841349(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1228841349L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "hasAnyAlwaysOnTop()Z", cancellable = true)
+    private void hasAnyAlwaysOnTop_1228841349(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1228841349L))
+            info.setReturnValue(null);
     }
 
 

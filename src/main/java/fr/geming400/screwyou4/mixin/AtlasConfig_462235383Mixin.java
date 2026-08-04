@@ -31,15 +31,15 @@ public class AtlasConfig_462235383Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "additionalMetadata()Ljava/util/Set;", cancellable = true)
-    private void additionalMetadata__1366800104(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1366800104L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "createMipmaps()Z", cancellable = true)
     private void createMipmaps_500513965(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(500513965L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "additionalMetadata()Ljava/util/Set;", cancellable = true)
+    private void additionalMetadata__1366800104(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1366800104L))
             info.setReturnValue(null);
     }
 

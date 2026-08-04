@@ -25,9 +25,15 @@ public class FaviconTexture_150406001Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "textureLocation()Lnet/minecraft/resources/Identifier;", cancellable = true)
-    private void textureLocation_2002306743(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2002306743L))
+    @Inject(at = @At("HEAD"), method = "forWorld(Lnet/minecraft/client/renderer/texture/TextureManager;Ljava/lang/String;)Lnet/minecraft/client/gui/screens/FaviconTexture;", cancellable = true)
+    private static void forWorld__832937904(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-832937904L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "forServer(Lnet/minecraft/client/renderer/texture/TextureManager;Ljava/lang/String;)Lnet/minecraft/client/gui/screens/FaviconTexture;", cancellable = true)
+    private static void forServer__832937904(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-832937904L))
             info.setReturnValue(null);
     }
 
@@ -37,15 +43,9 @@ public class FaviconTexture_150406001Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "forServer(Lnet/minecraft/client/renderer/texture/TextureManager;Ljava/lang/String;)Lnet/minecraft/client/gui/screens/FaviconTexture;", cancellable = true)
-    private static void forServer__832937904(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-832937904L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "forWorld(Lnet/minecraft/client/renderer/texture/TextureManager;Ljava/lang/String;)Lnet/minecraft/client/gui/screens/FaviconTexture;", cancellable = true)
-    private static void forWorld__832937904(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-832937904L))
+    @Inject(at = @At("HEAD"), method = "textureLocation()Lnet/minecraft/resources/Identifier;", cancellable = true)
+    private void textureLocation_2002306743(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2002306743L))
             info.setReturnValue(null);
     }
 

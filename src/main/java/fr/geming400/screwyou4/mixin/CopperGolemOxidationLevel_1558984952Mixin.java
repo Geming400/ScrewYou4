@@ -31,9 +31,9 @@ public class CopperGolemOxidationLevel_1558984952Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "hurtSound()Lnet/minecraft/sounds/SoundEvent;", cancellable = true)
-    private void hurtSound__1645769447(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1645769447L))
+    @Inject(at = @At("HEAD"), method = "eyeTexture()Lnet/minecraft/resources/Identifier;", cancellable = true)
+    private void eyeTexture__884081602(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-884081602L))
             info.setReturnValue(null);
     }
 
@@ -43,9 +43,9 @@ public class CopperGolemOxidationLevel_1558984952Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "eyeTexture()Lnet/minecraft/resources/Identifier;", cancellable = true)
-    private void eyeTexture__884081602(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-884081602L))
+    @Inject(at = @At("HEAD"), method = "hurtSound()Lnet/minecraft/sounds/SoundEvent;", cancellable = true)
+    private void hurtSound__1645769447(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1645769447L))
             info.setReturnValue(null);
     }
 

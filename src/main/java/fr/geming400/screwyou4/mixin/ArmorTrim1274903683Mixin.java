@@ -37,16 +37,16 @@ public class ArmorTrim1274903683Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "addToTooltip(Lnet/minecraft/world/item/Item$TooltipContext;Ljava/util/function/Consumer;Lnet/minecraft/world/item/TooltipFlag;Lnet/minecraft/core/component/DataComponentGetter;)V", cancellable = true)
-    private void addToTooltip__1267814707(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1267814707L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "layerAssetId(Ljava/lang/String;Lnet/minecraft/resources/ResourceKey;)Lnet/minecraft/resources/Identifier;", cancellable = true)
     private void layerAssetId_1206574800(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1206574800L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "addToTooltip(Lnet/minecraft/world/item/Item$TooltipContext;Ljava/util/function/Consumer;Lnet/minecraft/world/item/TooltipFlag;Lnet/minecraft/core/component/DataComponentGetter;)V", cancellable = true)
+    private void addToTooltip__1267814707(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1267814707L))
+            info.cancel();
     }
 
 

@@ -25,15 +25,15 @@ public class MultiPackResourceManager_379835605Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "listResourceStacks(Ljava/lang/String;Ljava/util/function/Predicate;)Ljava/util/Map;", cancellable = true)
-    private void listResourceStacks_10390037(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(10390037L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "listPacks()Ljava/util/stream/Stream;", cancellable = true)
     private void listPacks_169129289(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(169129289L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getResourceStack(Lnet/minecraft/resources/Identifier;)Ljava/util/List;", cancellable = true)
+    private void getResourceStack_790726012(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(790726012L))
             info.setReturnValue(null);
     }
 
@@ -43,9 +43,9 @@ public class MultiPackResourceManager_379835605Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getResourceStack(Lnet/minecraft/resources/Identifier;)Ljava/util/List;", cancellable = true)
-    private void getResourceStack_790726012(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(790726012L))
+    @Inject(at = @At("HEAD"), method = "listResourceStacks(Ljava/lang/String;Ljava/util/function/Predicate;)Ljava/util/Map;", cancellable = true)
+    private void listResourceStacks_10390037(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(10390037L))
             info.setReturnValue(null);
     }
 

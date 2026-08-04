@@ -55,6 +55,12 @@ public class InputPredicate1712220865Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "sprint()Ljava/util/Optional;", cancellable = true)
+    private void sprint_1957682287(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1957682287L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "sneak()Ljava/util/Optional;", cancellable = true)
     private void sneak_1957682287(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1957682287L))
@@ -63,12 +69,6 @@ public class InputPredicate1712220865Mixin {
 
     @Inject(at = @At("HEAD"), method = "backward()Ljava/util/Optional;", cancellable = true)
     private void backward_1957682287(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1957682287L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "sprint()Ljava/util/Optional;", cancellable = true)
-    private void sprint_1957682287(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1957682287L))
             info.setReturnValue(null);
     }

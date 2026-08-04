@@ -55,16 +55,16 @@ public class LevelChunkTicks_118225857Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "setOnTickAdded(Ljava/util/function/BiConsumer;)V", cancellable = true)
-    private void setOnTickAdded__1619925034(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1619925034L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "hasScheduledTick(Lnet/minecraft/core/BlockPos;Ljava/lang/Object;)Z", cancellable = true)
     private void hasScheduledTick__1897787417(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1897787417L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "setOnTickAdded(Ljava/util/function/BiConsumer;)V", cancellable = true)
+    private void setOnTickAdded__1619925034(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1619925034L))
+            info.cancel();
     }
 
 

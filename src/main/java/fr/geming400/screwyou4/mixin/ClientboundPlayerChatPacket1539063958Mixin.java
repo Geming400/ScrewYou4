@@ -61,15 +61,9 @@ public class ClientboundPlayerChatPacket1539063958Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "isSkippable()Z", cancellable = true)
-    private void isSkippable_1577342541(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1577342541L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "sender()Ljava/util/UUID;", cancellable = true)
-    private void sender_1950198441(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1950198441L))
+    @Inject(at = @At("HEAD"), method = "globalIndex()I", cancellable = true)
+    private void globalIndex_1577326204(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1577326204L))
             info.setReturnValue(null);
     }
 
@@ -79,9 +73,15 @@ public class ClientboundPlayerChatPacket1539063958Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "globalIndex()I", cancellable = true)
-    private void globalIndex_1577326204(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1577326204L))
+    @Inject(at = @At("HEAD"), method = "sender()Ljava/util/UUID;", cancellable = true)
+    private void sender_1950198441(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1950198441L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "chatType()Lnet/minecraft/network/chat/ChatType$Bound;", cancellable = true)
+    private void chatType__2142744628(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2142744628L))
             info.setReturnValue(null);
     }
 
@@ -91,9 +91,9 @@ public class ClientboundPlayerChatPacket1539063958Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "chatType()Lnet/minecraft/network/chat/ChatType$Bound;", cancellable = true)
-    private void chatType__2142744628(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2142744628L))
+    @Inject(at = @At("HEAD"), method = "isSkippable()Z", cancellable = true)
+    private void isSkippable_1577342541(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1577342541L))
             info.setReturnValue(null);
     }
 

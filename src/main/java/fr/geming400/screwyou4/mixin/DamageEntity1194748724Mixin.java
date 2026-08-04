@@ -31,6 +31,12 @@ public class DamageEntity1194748724Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "maxDamage()Lnet/minecraft/world/item/enchantment/LevelBasedValue;", cancellable = true)
+    private void maxDamage_1326828323(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1326828323L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
     private void codec__1364364848(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1364364848L))
@@ -40,12 +46,6 @@ public class DamageEntity1194748724Mixin {
     @Inject(at = @At("HEAD"), method = "damageType()Lnet/minecraft/core/Holder;", cancellable = true)
     private void damageType__1551342800(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1551342800L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "maxDamage()Lnet/minecraft/world/item/enchantment/LevelBasedValue;", cancellable = true)
-    private void maxDamage_1326828323(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1326828323L))
             info.setReturnValue(null);
     }
 

@@ -19,8 +19,20 @@ public class VanillaPackResourcesBuilder_1183255876Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "setMetadata(Lnet/minecraft/server/packs/resources/ResourceMetadata;)Lnet/minecraft/server/packs/VanillaPackResourcesBuilder;", cancellable = true)
+    private void setMetadata__556384143(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-556384143L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "applyDevelopmentConfig()Lnet/minecraft/server/packs/VanillaPackResourcesBuilder;", cancellable = true)
     private void applyDevelopmentConfig_1651749428(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1651749428L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "pushJarResources()Lnet/minecraft/server/packs/VanillaPackResourcesBuilder;", cancellable = true)
+    private void pushJarResources_1651749428(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1651749428L))
             info.setReturnValue(null);
     }
@@ -28,18 +40,6 @@ public class VanillaPackResourcesBuilder_1183255876Mixin {
     @Inject(at = @At("HEAD"), method = "pushAssetPath(Lnet/minecraft/server/packs/PackType;Ljava/nio/file/Path;)Lnet/minecraft/server/packs/VanillaPackResourcesBuilder;", cancellable = true)
     private void pushAssetPath__355452706(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-355452706L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "setMetadata(Lnet/minecraft/server/packs/resources/ResourceMetadata;)Lnet/minecraft/server/packs/VanillaPackResourcesBuilder;", cancellable = true)
-    private void setMetadata__556384143(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-556384143L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "pushJarResources()Lnet/minecraft/server/packs/VanillaPackResourcesBuilder;", cancellable = true)
-    private void pushJarResources_1651749428(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1651749428L))
             info.setReturnValue(null);
     }
 

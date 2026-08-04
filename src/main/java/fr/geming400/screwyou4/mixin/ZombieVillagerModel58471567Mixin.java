@@ -25,15 +25,21 @@ public class ZombieVillagerModel58471567Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "createNoHatLayer()Lnet/minecraft/client/model/geom/builders/LayerDefinition;", cancellable = true)
+    private static void createNoHatLayer__655660597(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-655660597L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "createArmorLayerSet(Lnet/minecraft/client/model/geom/builders/CubeDeformation;Lnet/minecraft/client/model/geom/builders/CubeDeformation;)Lnet/minecraft/client/renderer/entity/ArmorModelSet;", cancellable = true)
+    private static void createArmorLayerSet__994145295(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-994145295L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "setupAnim(Lnet/minecraft/client/renderer/entity/state/HumanoidRenderState;)V", cancellable = true)
     private void setupAnim_1351797889(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1351797889L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "setupAnim(Ljava/lang/Object;)V", cancellable = true)
-    private void setupAnim_1444108446(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1444108446L))
             info.cancel();
     }
 
@@ -43,16 +49,10 @@ public class ZombieVillagerModel58471567Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "createArmorLayerSet(Lnet/minecraft/client/model/geom/builders/CubeDeformation;Lnet/minecraft/client/model/geom/builders/CubeDeformation;)Lnet/minecraft/client/renderer/entity/ArmorModelSet;", cancellable = true)
-    private static void createArmorLayerSet__994145295(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-994145295L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "createNoHatLayer()Lnet/minecraft/client/model/geom/builders/LayerDefinition;", cancellable = true)
-    private static void createNoHatLayer__655660597(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-655660597L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "setupAnim(Ljava/lang/Object;)V", cancellable = true)
+    private void setupAnim_1444108446(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1444108446L))
+            info.cancel();
     }
 
 

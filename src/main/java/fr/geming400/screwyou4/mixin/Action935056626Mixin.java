@@ -25,6 +25,12 @@ public class Action935056626Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "valueCodec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
+    private void valueCodec__1624056946(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1624056946L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "filterForSerialization(Lnet/minecraft/network/chat/ClickEvent$Action;)Lcom/mojang/serialization/DataResult;", cancellable = true)
     private static void filterForSerialization__1133580542(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1133580542L))
@@ -34,12 +40,6 @@ public class Action935056626Mixin {
     @Inject(at = @At("HEAD"), method = "isAllowedFromServer()Z", cancellable = true)
     private void isAllowedFromServer_973335209(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(973335209L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "valueCodec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
-    private void valueCodec__1624056946(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1624056946L))
             info.setReturnValue(null);
     }
 

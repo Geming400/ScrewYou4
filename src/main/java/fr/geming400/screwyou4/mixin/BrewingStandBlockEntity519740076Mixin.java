@@ -25,12 +25,6 @@ public class BrewingStandBlockEntity519740076Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "canPlaceItemThroughFace(ILnet/minecraft/world/item/ItemStack;Lnet/minecraft/core/Direction;)Z", cancellable = true)
-    private void canPlaceItemThroughFace_1980535821(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1980535821L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "canTakeItemThroughFace(ILnet/minecraft/world/item/ItemStack;Lnet/minecraft/core/Direction;)Z", cancellable = true)
     private void canTakeItemThroughFace_1980535821(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1980535821L))
@@ -40,6 +34,12 @@ public class BrewingStandBlockEntity519740076Mixin {
     @Inject(at = @At("HEAD"), method = "getSlotsForFace(Lnet/minecraft/core/Direction;)[I", cancellable = true)
     private void getSlotsForFace_161094381(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(161094381L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "canPlaceItemThroughFace(ILnet/minecraft/world/item/ItemStack;Lnet/minecraft/core/Direction;)Z", cancellable = true)
+    private void canPlaceItemThroughFace_1980535821(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1980535821L))
             info.setReturnValue(null);
     }
 

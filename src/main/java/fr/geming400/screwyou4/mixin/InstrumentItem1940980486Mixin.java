@@ -19,15 +19,15 @@ public class InstrumentItem1940980486Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getUseDuration(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/LivingEntity;)I", cancellable = true)
-    private void getUseDuration_1043799831(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1043799831L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getUseAnimation(Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/world/item/ItemUseAnimation;", cancellable = true)
     private void getUseAnimation__1794155276(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1794155276L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getUseDuration(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/LivingEntity;)I", cancellable = true)
+    private void getUseDuration_1043799831(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1043799831L))
             info.setReturnValue(null);
     }
 

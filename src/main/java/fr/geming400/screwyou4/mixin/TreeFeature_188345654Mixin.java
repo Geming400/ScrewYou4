@@ -13,8 +13,14 @@ public class TreeFeature_188345654Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "isAirOrLeaves(Lnet/minecraft/world/level/LevelSimulatedReader;Lnet/minecraft/core/BlockPos;)Z", cancellable = true)
-    private static void isAirOrLeaves__109628380(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "validTreePos(Lnet/minecraft/world/level/LevelSimulatedReader;Lnet/minecraft/core/BlockPos;)Z", cancellable = true)
+    private static void validTreePos__109628380(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-109628380L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isVine(Lnet/minecraft/world/level/LevelSimulatedReader;Lnet/minecraft/core/BlockPos;)Z", cancellable = true)
+    private static void isVine__109628380(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-109628380L))
             info.setReturnValue(null);
     }
@@ -25,14 +31,8 @@ public class TreeFeature_188345654Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "validTreePos(Lnet/minecraft/world/level/LevelSimulatedReader;Lnet/minecraft/core/BlockPos;)Z", cancellable = true)
-    private static void validTreePos__109628380(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-109628380L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isVine(Lnet/minecraft/world/level/LevelSimulatedReader;Lnet/minecraft/core/BlockPos;)Z", cancellable = true)
-    private static void isVine__109628380(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "isAirOrLeaves(Lnet/minecraft/world/level/LevelSimulatedReader;Lnet/minecraft/core/BlockPos;)Z", cancellable = true)
+    private static void isAirOrLeaves__109628380(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-109628380L))
             info.setReturnValue(null);
     }

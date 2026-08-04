@@ -85,36 +85,6 @@ public class TiledBlitRenderState444381190Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "textureSetup()Lnet/minecraft/client/gui/render/TextureSetup;", cancellable = true)
-    private void textureSetup_1035098621(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1035098621L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "pose()Lorg/joml/Matrix3x2f;", cancellable = true)
-    private void pose__1774980720(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1774980720L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "pipeline()Lcom/mojang/blaze3d/pipeline/RenderPipeline;", cancellable = true)
-    private void pipeline_1441789402(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1441789402L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "tileHeight()I", cancellable = true)
-    private void tileHeight_482643436(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(482643436L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "tileWidth()I", cancellable = true)
-    private void tileWidth_482643436(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(482643436L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "scissorArea()Lnet/minecraft/client/gui/navigation/ScreenRectangle;", cancellable = true)
     private void scissorArea_1619406494(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1619406494L))
@@ -125,6 +95,36 @@ public class TiledBlitRenderState444381190Mixin {
     private void buildVertices_1567437102(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1567437102L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "textureSetup()Lnet/minecraft/client/gui/render/TextureSetup;", cancellable = true)
+    private void textureSetup_1035098621(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1035098621L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "tileWidth()I", cancellable = true)
+    private void tileWidth_482643436(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(482643436L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "tileHeight()I", cancellable = true)
+    private void tileHeight_482643436(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(482643436L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "pipeline()Lcom/mojang/blaze3d/pipeline/RenderPipeline;", cancellable = true)
+    private void pipeline_1441789402(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1441789402L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "pose()Lorg/joml/Matrix3x2f;", cancellable = true)
+    private void pose__1774980720(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1774980720L))
+            info.setReturnValue(null);
     }
 
 

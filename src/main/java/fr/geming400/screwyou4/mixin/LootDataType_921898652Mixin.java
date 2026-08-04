@@ -31,6 +31,12 @@ public class LootDataType_921898652Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/Codec;", cancellable = true)
+    private void codec_529933025(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(529933025L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "registryKey()Lnet/minecraft/resources/ResourceKey;", cancellable = true)
     private void registryKey_1730389964(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1730389964L))
@@ -40,12 +46,6 @@ public class LootDataType_921898652Mixin {
     @Inject(at = @At("HEAD"), method = "contextGetter()Lnet/minecraft/world/level/storage/loot/LootDataType$ContextGetter;", cancellable = true)
     private void contextGetter__1803561594(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1803561594L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/Codec;", cancellable = true)
-    private void codec_529933025(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(529933025L))
             info.setReturnValue(null);
     }
 

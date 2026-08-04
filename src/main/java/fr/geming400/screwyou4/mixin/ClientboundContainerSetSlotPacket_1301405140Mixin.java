@@ -37,14 +37,14 @@ public class ClientboundContainerSetSlotPacket_1301405140Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getStateId()I", cancellable = true)
-    private void getStateId_1339667385(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "getContainerId()I", cancellable = true)
+    private void getContainerId_1339667385(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1339667385L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getContainerId()I", cancellable = true)
-    private void getContainerId_1339667385(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "getStateId()I", cancellable = true)
+    private void getStateId_1339667385(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1339667385L))
             info.setReturnValue(null);
     }

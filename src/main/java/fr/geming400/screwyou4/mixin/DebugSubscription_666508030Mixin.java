@@ -19,15 +19,9 @@ public class DebugSubscription_666508030Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "packUpdate(Ljava/lang/Object;)Lnet/minecraft/util/debug/DebugSubscription$Update;", cancellable = true)
-    private void packUpdate__2002335349(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2002335349L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "packEvent(Ljava/lang/Object;)Lnet/minecraft/util/debug/DebugSubscription$Event;", cancellable = true)
-    private void packEvent__602616226(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-602616226L))
+    @Inject(at = @At("HEAD"), method = "valueStreamCodec()Lnet/minecraft/network/codec/StreamCodec;", cancellable = true)
+    private void valueStreamCodec_1927508153(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1927508153L))
             info.setReturnValue(null);
     }
 
@@ -37,9 +31,15 @@ public class DebugSubscription_666508030Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "valueStreamCodec()Lnet/minecraft/network/codec/StreamCodec;", cancellable = true)
-    private void valueStreamCodec_1927508153(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1927508153L))
+    @Inject(at = @At("HEAD"), method = "packEvent(Ljava/lang/Object;)Lnet/minecraft/util/debug/DebugSubscription$Event;", cancellable = true)
+    private void packEvent__602616226(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-602616226L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "packUpdate(Ljava/lang/Object;)Lnet/minecraft/util/debug/DebugSubscription$Update;", cancellable = true)
+    private void packUpdate__2002335349(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2002335349L))
             info.setReturnValue(null);
     }
 

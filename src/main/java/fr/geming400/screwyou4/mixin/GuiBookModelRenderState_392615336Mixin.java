@@ -79,15 +79,15 @@ public class GuiBookModelRenderState_392615336Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "bookModel()Lnet/minecraft/client/model/object/book/BookModel;", cancellable = true)
-    private void bookModel_1439299297(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1439299297L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "scissorArea()Lnet/minecraft/client/gui/navigation/ScreenRectangle;", cancellable = true)
     private void scissorArea_1567640639(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1567640639L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "bookModel()Lnet/minecraft/client/model/object/book/BookModel;", cancellable = true)
+    private void bookModel_1439299297(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1439299297L))
             info.setReturnValue(null);
     }
 

@@ -7,15 +7,15 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.client.gui.screens.telemetry.TelemetryEventWidget.class)
 public class TelemetryEventWidget_2006634921Mixin {
-        @Inject(at = @At("HEAD"), method = "onOptInChanged(Z)V", cancellable = true)
-    private void onOptInChanged__1058715547(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1058715547L))
+        @Inject(at = @At("HEAD"), method = "setOnScrolledListener(Ljava/util/function/DoubleConsumer;)V", cancellable = true)
+    private void setOnScrolledListener_423792628(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(423792628L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "setOnScrolledListener(Ljava/util/function/DoubleConsumer;)V", cancellable = true)
-    private void setOnScrolledListener_423792628(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(423792628L))
+    @Inject(at = @At("HEAD"), method = "onOptInChanged(Z)V", cancellable = true)
+    private void onOptInChanged__1058715547(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1058715547L))
             info.cancel();
     }
 

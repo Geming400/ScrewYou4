@@ -37,15 +37,15 @@ public class UseCooldown382511732Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "ticks()I", cancellable = true)
-    private void ticks_420773978(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(420773978L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "cooldownGroup()Ljava/util/Optional;", cancellable = true)
     private void cooldownGroup_627973154(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(627973154L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "ticks()I", cancellable = true)
+    private void ticks_420773978(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(420773978L))
             info.setReturnValue(null);
     }
 

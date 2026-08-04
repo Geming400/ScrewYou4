@@ -31,15 +31,15 @@ public class AmbientSounds50119454Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "additions()Ljava/util/List;", cancellable = true)
-    private void additions_1676456270(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1676456270L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "mood()Ljava/util/Optional;", cancellable = true)
     private void mood_295580876(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(295580876L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "additions()Ljava/util/List;", cancellable = true)
+    private void additions_1676456270(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1676456270L))
             info.setReturnValue(null);
     }
 

@@ -19,15 +19,15 @@ public class VineBlock536328373Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
-    private void getStateForPlacement__722271394(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-722271394L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "isAcceptableNeighbour(Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/Direction;)Z", cancellable = true)
     private static void isAcceptableNeighbour_797216105(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(797216105L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
+    private void getStateForPlacement__722271394(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-722271394L))
             info.setReturnValue(null);
     }
 

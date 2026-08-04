@@ -49,15 +49,15 @@ public class ClientboundMoveMinecartPacket1615801825Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "entityId()I", cancellable = true)
-    private void entityId_1654064071(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1654064071L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "lerpSteps()Ljava/util/List;", cancellable = true)
     private void lerpSteps__1052828655(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1052828655L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "entityId()I", cancellable = true)
+    private void entityId_1654064071(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1654064071L))
             info.setReturnValue(null);
     }
 

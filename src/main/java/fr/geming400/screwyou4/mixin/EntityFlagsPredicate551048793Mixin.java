@@ -37,38 +37,8 @@ public class EntityFlagsPredicate551048793Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "isSprinting()Ljava/util/Optional;", cancellable = true)
-    private void isSprinting_796510215(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(796510215L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isCrouching()Ljava/util/Optional;", cancellable = true)
-    private void isCrouching_796510215(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(796510215L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isFallFlying()Ljava/util/Optional;", cancellable = true)
-    private void isFallFlying_796510215(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(796510215L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isOnGround()Ljava/util/Optional;", cancellable = true)
-    private void isOnGround_796510215(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(796510215L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isOnFire()Ljava/util/Optional;", cancellable = true)
-    private void isOnFire_796510215(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(796510215L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isSwimming()Ljava/util/Optional;", cancellable = true)
-    private void isSwimming_796510215(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "isInWater()Ljava/util/Optional;", cancellable = true)
+    private void isInWater_796510215(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(796510215L))
             info.setReturnValue(null);
     }
@@ -79,14 +49,44 @@ public class EntityFlagsPredicate551048793Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "isSwimming()Ljava/util/Optional;", cancellable = true)
+    private void isSwimming_796510215(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(796510215L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isOnFire()Ljava/util/Optional;", cancellable = true)
+    private void isOnFire_796510215(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(796510215L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "isFlying()Ljava/util/Optional;", cancellable = true)
     private void isFlying_796510215(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(796510215L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "isInWater()Ljava/util/Optional;", cancellable = true)
-    private void isInWater_796510215(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "isOnGround()Ljava/util/Optional;", cancellable = true)
+    private void isOnGround_796510215(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(796510215L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isFallFlying()Ljava/util/Optional;", cancellable = true)
+    private void isFallFlying_796510215(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(796510215L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isCrouching()Ljava/util/Optional;", cancellable = true)
+    private void isCrouching_796510215(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(796510215L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isSprinting()Ljava/util/Optional;", cancellable = true)
+    private void isSprinting_796510215(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(796510215L))
             info.setReturnValue(null);
     }

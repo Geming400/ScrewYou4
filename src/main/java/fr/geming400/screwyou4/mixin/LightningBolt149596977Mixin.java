@@ -25,18 +25,6 @@ public class LightningBolt149596977Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getSoundSource()Lnet/minecraft/sounds/SoundSource;", cancellable = true)
-    private void getSoundSource__2143450996(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2143450996L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "shouldRenderAtSqrDistance(D)Z", cancellable = true)
-    private void shouldRenderAtSqrDistance_1358900188(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1358900188L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getBlocksSetOnFire()I", cancellable = true)
     private void getBlocksSetOnFire_187859223(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(187859223L))
@@ -49,9 +37,21 @@ public class LightningBolt149596977Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "shouldRenderAtSqrDistance(D)Z", cancellable = true)
+    private void shouldRenderAtSqrDistance_1358900188(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1358900188L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "hurtServer(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/damagesource/DamageSource;F)Z", cancellable = true)
     private void hurtServer__299832858(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-299832858L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getSoundSource()Lnet/minecraft/sounds/SoundSource;", cancellable = true)
+    private void getSoundSource__2143450996(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2143450996L))
             info.setReturnValue(null);
     }
 

@@ -67,15 +67,15 @@ public class BundleContents687657946Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "itemCopyStream()Ljava/util/stream/Stream;", cancellable = true)
-    private void itemCopyStream_476951631(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(476951631L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "canItemBeInBundle(Lnet/minecraft/world/item/ItemStack;)Z", cancellable = true)
     private static void canItemBeInBundle__1872773970(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1872773970L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "itemCopyStream()Ljava/util/stream/Stream;", cancellable = true)
+    private void itemCopyStream_476951631(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(476951631L))
             info.setReturnValue(null);
     }
 

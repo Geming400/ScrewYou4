@@ -31,14 +31,14 @@ public class ClientboundTakeItemEntityPacket_1718996502Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getItemId()I", cancellable = true)
-    private void getItemId_1757258747(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "getAmount()I", cancellable = true)
+    private void getAmount_1757258747(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1757258747L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getAmount()I", cancellable = true)
-    private void getAmount_1757258747(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "getItemId()I", cancellable = true)
+    private void getItemId_1757258747(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1757258747L))
             info.setReturnValue(null);
     }

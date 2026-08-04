@@ -25,18 +25,6 @@ public class Submit_2134650996Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "outlineColor()I", cancellable = true)
-    private void outlineColor__2122054055(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2122054055L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "pose()Lorg/joml/Matrix4fc;", cancellable = true)
-    private void pose__417342063(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-417342063L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "movingBlockRenderState()Lnet/minecraft/client/renderer/block/MovingBlockRenderState;", cancellable = true)
     private void movingBlockRenderState_649497127(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(649497127L))
@@ -49,9 +37,21 @@ public class Submit_2134650996Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "outlineColor()I", cancellable = true)
+    private void outlineColor__2122054055(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2122054055L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "featureType()Lnet/minecraft/client/renderer/feature/FeatureRendererType;", cancellable = true)
     private void featureType__1129232775(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1129232775L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "pose()Lorg/joml/Matrix4fc;", cancellable = true)
+    private void pose__417342063(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-417342063L))
             info.setReturnValue(null);
     }
 

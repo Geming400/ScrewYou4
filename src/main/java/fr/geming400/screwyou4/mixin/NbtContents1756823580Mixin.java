@@ -55,15 +55,15 @@ public class NbtContents1756823580Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "interpreting()Z", cancellable = true)
-    private void interpreting_1795102163(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1795102163L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "nbtPath()Lnet/minecraft/util/CompilableString;", cancellable = true)
     private void nbtPath_1591367242(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1591367242L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "interpreting()Z", cancellable = true)
+    private void interpreting_1795102163(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1795102163L))
             info.setReturnValue(null);
     }
 

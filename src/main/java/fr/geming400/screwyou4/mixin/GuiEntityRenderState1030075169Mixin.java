@@ -61,21 +61,9 @@ public class GuiEntityRenderState1030075169Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "translation()Lorg/joml/Vector3fc;", cancellable = true)
-    private void translation_1576019874(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1576019874L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "overrideCameraAngle()Lorg/joml/Quaternionfc;", cancellable = true)
-    private void overrideCameraAngle__1035843318(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "rotation()Lorg/joml/Quaternionfc;", cancellable = true)
+    private void rotation__1035843318(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1035843318L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "renderState()Lnet/minecraft/client/renderer/entity/state/EntityRenderState;", cancellable = true)
-    private void renderState_441309765(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(441309765L))
             info.setReturnValue(null);
     }
 
@@ -85,8 +73,20 @@ public class GuiEntityRenderState1030075169Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "rotation()Lorg/joml/Quaternionfc;", cancellable = true)
-    private void rotation__1035843318(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "renderState()Lnet/minecraft/client/renderer/entity/state/EntityRenderState;", cancellable = true)
+    private void renderState_441309765(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(441309765L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "translation()Lorg/joml/Vector3fc;", cancellable = true)
+    private void translation_1576019874(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1576019874L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "overrideCameraAngle()Lorg/joml/Quaternionfc;", cancellable = true)
+    private void overrideCameraAngle__1035843318(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1035843318L))
             info.setReturnValue(null);
     }
