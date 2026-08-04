@@ -1,0 +1,17 @@
+package fr.geming400.screwyou4.mixin;
+
+import org.spongepowered.asm.mixin.*;
+import org.spongepowered.asm.mixin.injection.*;
+import org.spongepowered.asm.mixin.injection.callback.*;
+import fr.geming400.screwyou4.ScrewYou4;
+
+@Mixin(net.minecraft.resources.NetworkRegistryLoadTask.class)
+public class NetworkRegistryLoadTask481573928Mixin {
+        @Inject(at = @At("HEAD"), method = "load(Lnet/minecraft/resources/RegistryOps$RegistryInfoLookup;Ljava/util/concurrent/Executor;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
+    private void load_2123308214(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2123308214L))
+            info.setReturnValue(null);
+    }
+
+
+}

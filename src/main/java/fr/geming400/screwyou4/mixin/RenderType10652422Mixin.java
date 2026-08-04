@@ -1,0 +1,41 @@
+package fr.geming400.screwyou4.mixin;
+
+import org.spongepowered.asm.mixin.*;
+import org.spongepowered.asm.mixin.injection.*;
+import org.spongepowered.asm.mixin.injection.callback.*;
+import fr.geming400.screwyou4.ScrewYou4;
+
+@Mixin(net.minecraft.world.scores.criteria.ObjectiveCriteria.RenderType.class)
+public class RenderType10652422Mixin {
+        @Inject(at = @At("HEAD"), method = "values()[Lnet/minecraft/world/scores/criteria/ObjectiveCriteria$RenderType;", cancellable = true)
+    private static void values_2042382390(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2042382390L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/world/scores/criteria/ObjectiveCriteria$RenderType;", cancellable = true)
+    private static void valueOf_2137068403(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2137068403L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getId()Ljava/lang/String;", cancellable = true)
+    private void getId__1124808049(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1124808049L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
+    private void getSerializedName__1124808049(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1124808049L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "byId(Ljava/lang/String;)Lnet/minecraft/world/scores/criteria/ObjectiveCriteria$RenderType;", cancellable = true)
+    private static void byId_2137068403(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2137068403L))
+            info.setReturnValue(null);
+    }
+
+
+}

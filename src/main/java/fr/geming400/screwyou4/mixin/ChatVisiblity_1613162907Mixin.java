@@ -1,0 +1,29 @@
+package fr.geming400.screwyou4.mixin;
+
+import org.spongepowered.asm.mixin.*;
+import org.spongepowered.asm.mixin.injection.*;
+import org.spongepowered.asm.mixin.injection.callback.*;
+import fr.geming400.screwyou4.ScrewYou4;
+
+@Mixin(net.minecraft.world.entity.player.ChatVisiblity.class)
+public class ChatVisiblity_1613162907Mixin {
+        @Inject(at = @At("HEAD"), method = "values()[Lnet/minecraft/world/entity/player/ChatVisiblity;", cancellable = true)
+    private static void values_380483469(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(380483469L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/world/entity/player/ChatVisiblity;", cancellable = true)
+    private static void valueOf__1904691536(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1904691536L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "caption()Lnet/minecraft/network/chat/Component;", cancellable = true)
+    private void caption__563746259(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-563746259L))
+            info.setReturnValue(null);
+    }
+
+
+}

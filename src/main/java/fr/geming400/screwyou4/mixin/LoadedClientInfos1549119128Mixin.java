@@ -1,0 +1,35 @@
+package fr.geming400.screwyou4.mixin;
+
+import org.spongepowered.asm.mixin.*;
+import org.spongepowered.asm.mixin.injection.*;
+import org.spongepowered.asm.mixin.injection.callback.*;
+import fr.geming400.screwyou4.ScrewYou4;
+
+@Mixin(net.minecraft.client.resources.model.ClientItemInfoLoader.LoadedClientInfos.class)
+public class LoadedClientInfos1549119128Mixin {
+        @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
+    private void equals__1360335909(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1360335909L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
+    private void toString_413659153(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(413659153L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
+    private void hashCode_1587381870(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1587381870L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "contents()Ljava/util/Map;", cancellable = true)
+    private void contents__455504512(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-455504512L))
+            info.setReturnValue(null);
+    }
+
+
+}

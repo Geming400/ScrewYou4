@@ -1,0 +1,53 @@
+package fr.geming400.screwyou4.mixin;
+
+import org.spongepowered.asm.mixin.*;
+import org.spongepowered.asm.mixin.injection.*;
+import org.spongepowered.asm.mixin.injection.callback.*;
+import fr.geming400.screwyou4.ScrewYou4;
+
+@Mixin(net.minecraft.world.item.component.BlocksAttacks.ItemDamageFunction.class)
+public class ItemDamageFunction2089842207Mixin {
+        @Inject(at = @At("HEAD"), method = "base()F", cancellable = true)
+    private void base_2128101570(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2128101570L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
+    private void equals__819612830(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-819612830L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
+    private void toString_954382232(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(954382232L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
+    private void hashCode_2128104949(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2128104949L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "apply(F)I", cancellable = true)
+    private void apply__993991173(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-993991173L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "threshold()F", cancellable = true)
+    private void threshold_2128101570(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2128101570L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "factor()F", cancellable = true)
+    private void factor_2128101570(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2128101570L))
+            info.setReturnValue(null);
+    }
+
+
+}

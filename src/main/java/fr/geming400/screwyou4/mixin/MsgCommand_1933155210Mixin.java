@@ -1,0 +1,17 @@
+package fr.geming400.screwyou4.mixin;
+
+import org.spongepowered.asm.mixin.*;
+import org.spongepowered.asm.mixin.injection.*;
+import org.spongepowered.asm.mixin.injection.callback.*;
+import fr.geming400.screwyou4.ScrewYou4;
+
+@Mixin(net.minecraft.server.commands.MsgCommand.class)
+public class MsgCommand_1933155210Mixin {
+        @Inject(at = @At("HEAD"), method = "register(Lcom/mojang/brigadier/CommandDispatcher;)V", cancellable = true)
+    private static void register_989594986(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(989594986L))
+            info.cancel();
+    }
+
+
+}
