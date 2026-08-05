@@ -16,31 +16,31 @@ public class Constant_817710972Mixin {
     @Inject(at = @At("HEAD"), method = "value()I", cancellable = true)
     private void value_855973217(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(855973217L))
-            info.setReturnValue(null);
+            info.setReturnValue(2136333400);
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__2091744066(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2091744066L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__317749004(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-317749004L))
-            info.setReturnValue(null);
+            info.setReturnValue("I #D*mZQ5*藏u䇘mJOrbGj)u;ofJ<o`9;j4tH?W沊dk`h72hs}>V}fs]_k");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_855973713(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(855973713L))
-            info.setReturnValue(null);
+            info.setReturnValue(1957809911);
     }
 
     @Inject(at = @At("HEAD"), method = "calculate(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/client/multiplayer/ClientLevel;Lnet/minecraft/world/entity/LivingEntity;)I", cancellable = true)
     private void calculate_161397745(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(161397745L))
-            info.setReturnValue(null);
+            info.setReturnValue(-417296200);
     }
 
 

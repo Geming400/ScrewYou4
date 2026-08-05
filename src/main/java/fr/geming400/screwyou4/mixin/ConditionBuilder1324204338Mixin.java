@@ -22,13 +22,13 @@ public class ConditionBuilder1324204338Mixin {
     @Inject(at = @At("HEAD"), method = "term(Lnet/minecraft/world/level/block/state/properties/Property;Ljava/lang/Comparable;)Lnet/minecraft/client/data/models/blockstates/ConditionBuilder;", cancellable = true)
     private void term__1666668071(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1666668071L))
-            info.setReturnValue(null);
+            info.setReturnValue(new net.minecraft.client.data.models.blockstates.ConditionBuilder());
     }
 
     @Inject(at = @At("HEAD"), method = "negatedTerm(Lnet/minecraft/world/level/block/state/properties/Property;Ljava/lang/Comparable;)Lnet/minecraft/client/data/models/blockstates/ConditionBuilder;", cancellable = true)
     private void negatedTerm__1666668071(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1666668071L))
-            info.setReturnValue(null);
+            info.setReturnValue(new net.minecraft.client.data.models.blockstates.ConditionBuilder());
     }
 
 

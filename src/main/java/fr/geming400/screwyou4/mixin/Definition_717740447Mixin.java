@@ -10,25 +10,25 @@ public class Definition_717740447Mixin {
         @Inject(at = @At("HEAD"), method = "type()Lnet/minecraft/client/gui/font/providers/GlyphProviderType;", cancellable = true)
     private void type__1078790668(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1078790668L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.client.gui.font.providers.GlyphProviderType.REFERENCE);
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_2103252705(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2103252705L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__417719529(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-417719529L))
-            info.setReturnValue(null);
+            info.setReturnValue("ᘅ4dK({0뚖j|wp䫈7%9I#ᨑ^᙭wKp⿱SR쯁m6jQalOמ횺L3J-튽U}䓤_");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_756003188(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(756003188L))
-            info.setReturnValue(null);
+            info.setReturnValue(1095128840);
     }
 
     @Inject(at = @At("HEAD"), method = "file()Lnet/minecraft/resources/Identifier;", cancellable = true)
@@ -37,21 +37,21 @@ public class Definition_717740447Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "unpack()Lcom/mojang/datafixers/util/Either;", cancellable = true)
-    private void unpack_1541015733(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1541015733L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "ascent()I", cancellable = true)
+    private void ascent_756002692(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(756002692L))
+            info.setReturnValue(-203783447);
     }
 
     @Inject(at = @At("HEAD"), method = "height()I", cancellable = true)
     private void height_756002692(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(756002692L))
-            info.setReturnValue(null);
+            info.setReturnValue(-203783447);
     }
 
-    @Inject(at = @At("HEAD"), method = "ascent()I", cancellable = true)
-    private void ascent_756002692(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(756002692L))
+    @Inject(at = @At("HEAD"), method = "unpack()Lcom/mojang/datafixers/util/Either;", cancellable = true)
+    private void unpack_1541015733(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1541015733L))
             info.setReturnValue(null);
     }
 

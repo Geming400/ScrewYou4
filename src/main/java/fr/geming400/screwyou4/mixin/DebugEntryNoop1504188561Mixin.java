@@ -22,7 +22,7 @@ public class DebugEntryNoop1504188561Mixin {
     @Inject(at = @At("HEAD"), method = "isAllowed(Z)Z", cancellable = true)
     private void isAllowed__1561158062(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1561158062L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
 

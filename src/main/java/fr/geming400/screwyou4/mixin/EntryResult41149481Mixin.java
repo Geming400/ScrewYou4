@@ -16,7 +16,7 @@ public class EntryResult41149481Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/nbt/StreamTagVisitor$EntryResult;", cancellable = true)
     private static void valueOf_1870673571(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1870673571L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.nbt.StreamTagVisitor.EntryResult.ENTER);
     }
 
 

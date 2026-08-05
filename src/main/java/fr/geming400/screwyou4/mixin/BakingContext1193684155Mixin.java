@@ -10,19 +10,19 @@ public class BakingContext1193684155Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1715770882(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1715770882L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_58224180(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(58224180L))
-            info.setReturnValue(null);
+            info.setReturnValue("nl9+^p칽(3_?7+=8}d<蠮X>ds;7m)^_郠#ࠏK(俦7e2I@yw,>X;v6*{X&⩥X>G*昕+iu}1쓔3n^i){:doA]!)fzGzdC.><`{|");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1231946897(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1231946897L))
-            info.setReturnValue(null);
+            info.setReturnValue(-592188071);
     }
 
     @Inject(at = @At("HEAD"), method = "playerSkinRenderCache()Lnet/minecraft/client/renderer/PlayerSkinRenderCache;", cancellable = true)

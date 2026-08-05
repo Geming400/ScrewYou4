@@ -10,31 +10,31 @@ public class MobSpawnCost1971944472Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__937510565(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-937510565L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_836484497(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(836484497L))
-            info.setReturnValue(null);
+            info.setReturnValue("i챆cez3뫧f]돭n.)=|魞啳6WyjrlzQ[0|@o>/=Pﾠ᭎(WT)5冤5C]c0");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2010207214(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2010207214L))
-            info.setReturnValue(null);
+            info.setReturnValue(1312876029);
     }
 
     @Inject(at = @At("HEAD"), method = "energyBudget()D", cancellable = true)
     private void energyBudget_2010201913(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2010201913L))
-            info.setReturnValue(null);
+            info.setReturnValue(5.694072009944736E8D);
     }
 
     @Inject(at = @At("HEAD"), method = "charge()D", cancellable = true)
     private void charge_2010201913(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2010201913L))
-            info.setReturnValue(null);
+            info.setReturnValue(5.704058009944736E8D);
     }
 
 

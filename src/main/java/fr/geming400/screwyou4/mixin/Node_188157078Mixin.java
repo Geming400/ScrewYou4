@@ -10,18 +10,54 @@ public class Node_188157078Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_1573668840(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1573668840L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__947303394(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-947303394L))
-            info.setReturnValue(null);
+            info.setReturnValue("d{jEP髊s,ᛰ磉c 9j:asᤇ딏$L,M䥪hᙩ;o$g_e ,+lo6'=ra [DA6&j");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_226419323(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(226419323L))
+            info.setReturnValue(821340039);
+    }
+
+    @Inject(at = @At("HEAD"), method = "distanceToXZ(Lnet/minecraft/world/level/pathfinder/Node;)F", cancellable = true)
+    private void distanceToXZ__961340251(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-961340251L))
+            info.setReturnValue(8.692394E8F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "distanceToSqr(Lnet/minecraft/core/BlockPos;)F", cancellable = true)
+    private void distanceToSqr_356908300(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(356908300L))
+            info.setReturnValue(8.692394E8F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "distanceToSqr(Lnet/minecraft/world/level/pathfinder/Node;)F", cancellable = true)
+    private void distanceToSqr__961340251(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-961340251L))
+            info.setReturnValue(8.692394E8F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "distanceTo(Lnet/minecraft/world/level/pathfinder/Node;)F", cancellable = true)
+    private void distanceTo__961340251(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-961340251L))
+            info.setReturnValue(8.692394E8F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "distanceTo(Lnet/minecraft/core/BlockPos;)F", cancellable = true)
+    private void distanceTo_356908300(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(356908300L))
+            info.setReturnValue(8.692394E8F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "cloneAndMove(III)Lnet/minecraft/world/level/pathfinder/Node;", cancellable = true)
+    private void cloneAndMove__226733624(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-226733624L))
             info.setReturnValue(null);
     }
 
@@ -31,40 +67,16 @@ public class Node_188157078Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "asVec3()Lnet/minecraft/world/phys/Vec3;", cancellable = true)
-    private void asVec3_1285886606(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1285886606L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "cloneAndMove(III)Lnet/minecraft/world/level/pathfinder/Node;", cancellable = true)
-    private void cloneAndMove__226733624(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-226733624L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "distanceToSqr(Lnet/minecraft/core/BlockPos;)F", cancellable = true)
-    private void distanceToSqr_356908300(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "distanceManhattan(Lnet/minecraft/core/BlockPos;)F", cancellable = true)
+    private void distanceManhattan_356908300(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(356908300L))
-            info.setReturnValue(null);
+            info.setReturnValue(8.692394E8F);
     }
 
-    @Inject(at = @At("HEAD"), method = "distanceToSqr(Lnet/minecraft/world/level/pathfinder/Node;)F", cancellable = true)
-    private void distanceToSqr__961340251(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "distanceManhattan(Lnet/minecraft/world/level/pathfinder/Node;)F", cancellable = true)
+    private void distanceManhattan__961340251(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-961340251L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "distanceTo(Lnet/minecraft/core/BlockPos;)F", cancellable = true)
-    private void distanceTo_356908300(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(356908300L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "distanceTo(Lnet/minecraft/world/level/pathfinder/Node;)F", cancellable = true)
-    private void distanceTo__961340251(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-961340251L))
-            info.setReturnValue(null);
+            info.setReturnValue(8.692394E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "writeToStream(Lnet/minecraft/network/FriendlyByteBuf;)V", cancellable = true)
@@ -79,34 +91,22 @@ public class Node_188157078Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "distanceToXZ(Lnet/minecraft/world/level/pathfinder/Node;)F", cancellable = true)
-    private void distanceToXZ__961340251(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-961340251L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "distanceManhattan(Lnet/minecraft/world/level/pathfinder/Node;)F", cancellable = true)
-    private void distanceManhattan__961340251(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-961340251L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "distanceManhattan(Lnet/minecraft/core/BlockPos;)F", cancellable = true)
-    private void distanceManhattan_356908300(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(356908300L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "createHash(III)I", cancellable = true)
-    private static void createHash__591947572(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-591947572L))
+    @Inject(at = @At("HEAD"), method = "asVec3()Lnet/minecraft/world/phys/Vec3;", cancellable = true)
+    private void asVec3_1285886606(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1285886606L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "inOpenSet()Z", cancellable = true)
     private void inOpenSet_226435660(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(226435660L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "createHash(III)I", cancellable = true)
+    private static void createHash__591947572(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-591947572L))
+            info.setReturnValue(-861005427);
     }
 
 

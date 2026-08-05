@@ -10,61 +10,61 @@ public class FloatTag_1914364288Mixin {
         @Inject(at = @At("HEAD"), method = "value()F", cancellable = true)
     private void value_1952623650(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1952623650L))
-            info.setReturnValue(null);
+            info.setReturnValue(6.738888E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__995090750(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-995090750L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_778903816(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(778903816L))
-            info.setReturnValue(null);
+            info.setReturnValue("Kc*RtLﱕ難In3䭽):v9cYDq艶${P@>;F5,kAM>ciReq@O=iD7K/e/$TWI|H뾬fU률쁟2釧-t4U33S7GX[郄Z$l鄚(6Urj6b");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1952627029(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1952627029L))
-            info.setReturnValue(null);
+            info.setReturnValue(-809854486);
     }
 
     @Inject(at = @At("HEAD"), method = "byteValue()B", cancellable = true)
     private void byteValue_1952619806(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1952619806L))
-            info.setReturnValue(null);
+            info.setReturnValue(-111);
     }
 
     @Inject(at = @At("HEAD"), method = "shortValue()S", cancellable = true)
     private void shortValue_1952636143(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1952636143L))
-            info.setReturnValue(null);
+            info.setReturnValue((short) 22918);
     }
 
     @Inject(at = @At("HEAD"), method = "intValue()I", cancellable = true)
     private void intValue_1952626533(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1952626533L))
-            info.setReturnValue(null);
+            info.setReturnValue(2087704805);
     }
 
     @Inject(at = @At("HEAD"), method = "longValue()J", cancellable = true)
     private void longValue_1952627494(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1952627494L))
-            info.setReturnValue(null);
+            info.setReturnValue(-7187303470217328009L);
     }
 
     @Inject(at = @At("HEAD"), method = "floatValue()F", cancellable = true)
     private void floatValue_1952623650(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1952623650L))
-            info.setReturnValue(null);
+            info.setReturnValue(6.738888E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "doubleValue()D", cancellable = true)
     private void doubleValue_1952621728(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1952621728L))
-            info.setReturnValue(null);
+            info.setReturnValue(6.738888000028349E8D);
     }
 
     @Inject(at = @At("HEAD"), method = "valueOf(F)Lnet/minecraft/nbt/FloatTag;", cancellable = true)
@@ -88,7 +88,7 @@ public class FloatTag_1914364288Mixin {
     @Inject(at = @At("HEAD"), method = "getId()B", cancellable = true)
     private void getId_1952619806(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1952619806L))
-            info.setReturnValue(null);
+            info.setReturnValue(-111);
     }
 
     @Inject(at = @At("HEAD"), method = "accept(Lnet/minecraft/nbt/TagVisitor;)V", cancellable = true)
@@ -100,7 +100,7 @@ public class FloatTag_1914364288Mixin {
     @Inject(at = @At("HEAD"), method = "accept(Lnet/minecraft/nbt/StreamTagVisitor;)Lnet/minecraft/nbt/StreamTagVisitor$ValueResult;", cancellable = true)
     private void accept__400292396(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-400292396L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.nbt.StreamTagVisitor.ValueResult.CONTINUE);
     }
 
     @Inject(at = @At("HEAD"), method = "write(Ljava/io/DataOutput;)V", cancellable = true)
@@ -124,7 +124,7 @@ public class FloatTag_1914364288Mixin {
     @Inject(at = @At("HEAD"), method = "sizeInBytes()I", cancellable = true)
     private void sizeInBytes_1952626533(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1952626533L))
-            info.setReturnValue(null);
+            info.setReturnValue(2087704805);
     }
 
 

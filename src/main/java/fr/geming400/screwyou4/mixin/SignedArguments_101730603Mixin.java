@@ -10,19 +10,19 @@ public class SignedArguments_101730603Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_1487242861(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1487242861L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__1033729373(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1033729373L))
-            info.setReturnValue(null);
+            info.setReturnValue("QX弼}噳↘a4@Eꃱp,R鍆sQW+t7G@-9WX욾(>l2`MꩲW琂(,lkEŵ1$ME亄F髣f鍾;RU䌉_I#)P1UX(/SK8!;a@|");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_139993344(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(139993344L))
-            info.setReturnValue(null);
+            info.setReturnValue(-335187828);
     }
 
     @Inject(at = @At("HEAD"), method = "arguments()Ljava/util/Map;", cancellable = true)

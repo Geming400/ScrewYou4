@@ -22,25 +22,25 @@ public class ShapedRecipePattern_701334591Mixin {
     @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/world/item/crafting/CraftingInput;)Z", cancellable = true)
     private void matches__624427578(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-624427578L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "width()I", cancellable = true)
     private void width_739596836(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(739596836L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "height()I", cancellable = true)
-    private void height_739596836(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(739596836L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1179899614);
     }
 
     @Inject(at = @At("HEAD"), method = "ingredients()Ljava/util/List;", cancellable = true)
     private void ingredients__1967295890(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1967295890L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "height()I", cancellable = true)
+    private void height_739596836(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(739596836L))
+            info.setReturnValue(-1179899614);
     }
 
 

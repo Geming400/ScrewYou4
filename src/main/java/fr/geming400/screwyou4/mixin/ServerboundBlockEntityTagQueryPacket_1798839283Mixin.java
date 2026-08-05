@@ -25,16 +25,16 @@ public class ServerboundBlockEntityTagQueryPacket_1798839283Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getTransactionId()I", cancellable = true)
-    private void getTransactionId_1837101528(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1837101528L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getPos()Lnet/minecraft/core/BlockPos;", cancellable = true)
     private void getPos__94547597(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-94547597L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getTransactionId()I", cancellable = true)
+    private void getTransactionId_1837101528(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1837101528L))
+            info.setReturnValue(-808160631);
     }
 
 

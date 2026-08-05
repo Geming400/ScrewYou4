@@ -10,7 +10,7 @@ public class LoadingChunkTracker467752345Mixin {
         @Inject(at = @At("HEAD"), method = "runDistanceUpdates(I)I", cancellable = true)
     private void runDistanceUpdates_1681656824(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1681656824L))
-            info.setReturnValue(null);
+            info.setReturnValue(1033884381);
     }
 
 

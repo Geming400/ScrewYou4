@@ -10,7 +10,7 @@ public class Deserializer_760305460Mixin {
         @Inject(at = @At("HEAD"), method = "deserialize(Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Ljava/lang/Object;", cancellable = true)
     private void deserialize_1783012085(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1783012085L))
-            info.setReturnValue(null);
+            info.setReturnValue(new java.lang.Object());
     }
 
     @Inject(at = @At("HEAD"), method = "deserialize(Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Lnet/minecraft/client/resources/model/cuboid/CuboidModel;", cancellable = true)

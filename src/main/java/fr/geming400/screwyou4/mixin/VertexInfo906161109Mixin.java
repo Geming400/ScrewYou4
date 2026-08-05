@@ -10,43 +10,43 @@ public class VertexInfo906161109Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__2003293928(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2003293928L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__229298866(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-229298866L))
-            info.setReturnValue(null);
+            info.setReturnValue("q]쨻퇷AL^i");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_944423851(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(944423851L))
-            info.setReturnValue(null);
+            info.setReturnValue(-135092623);
     }
 
     @Inject(at = @At("HEAD"), method = "select(Lorg/joml/Vector3fc;Lorg/joml/Vector3fc;)Lorg/joml/Vector3f;", cancellable = true)
     private void select_820204327(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(820204327L))
-            info.setReturnValue(null);
+            info.setReturnValue(new org.joml.Vector3f());
     }
 
     @Inject(at = @At("HEAD"), method = "xFace()Lnet/minecraft/client/renderer/FaceInfo$Extent;", cancellable = true)
     private void xFace__499791246(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-499791246L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "zFace()Lnet/minecraft/client/renderer/FaceInfo$Extent;", cancellable = true)
-    private void zFace__499791246(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-499791246L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.client.renderer.FaceInfo.Extent.MAX_X);
     }
 
     @Inject(at = @At("HEAD"), method = "yFace()Lnet/minecraft/client/renderer/FaceInfo$Extent;", cancellable = true)
     private void yFace__499791246(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-499791246L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.client.renderer.FaceInfo.Extent.MAX_X);
+    }
+
+    @Inject(at = @At("HEAD"), method = "zFace()Lnet/minecraft/client/renderer/FaceInfo$Extent;", cancellable = true)
+    private void zFace__499791246(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-499791246L))
+            info.setReturnValue(net.minecraft.client.renderer.FaceInfo.Extent.MAX_X);
     }
 
 

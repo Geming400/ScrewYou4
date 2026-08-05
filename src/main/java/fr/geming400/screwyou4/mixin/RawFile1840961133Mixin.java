@@ -10,19 +10,19 @@ public class RawFile1840961133Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1068493904(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1068493904L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_705501158(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(705501158L))
-            info.setReturnValue(null);
+            info.setReturnValue("mqRP望q}k`Dbl2_S;訉uj/qy_PxXⱑrq7B@z_$ aaK9%NME%V';`㉮pRp _-RO(qE$nT7avꜦ_7g}C");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1879223875(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1879223875L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1745597358);
     }
 
     @Inject(at = @At("HEAD"), method = "compress()Lnet/minecraft/util/eventlog/EventLogDirectory$CompressedFile;", cancellable = true)

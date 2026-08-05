@@ -16,13 +16,13 @@ public class Type506825247Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/world/level/block/EyeblossomBlock$Type;", cancellable = true)
     private static void valueOf__1921672230(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1921672230L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.level.block.EyeblossomBlock.Type.CLOSED);
     }
 
     @Inject(at = @At("HEAD"), method = "transform()Lnet/minecraft/world/level/block/EyeblossomBlock$Type;", cancellable = true)
     private void transform__683621204(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-683621204L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.level.block.EyeblossomBlock.Type.CLOSED);
     }
 
     @Inject(at = @At("HEAD"), method = "state()Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
@@ -40,13 +40,13 @@ public class Type506825247Mixin {
     @Inject(at = @At("HEAD"), method = "fromBoolean(Z)Lnet/minecraft/world/level/block/EyeblossomBlock$Type;", cancellable = true)
     private static void fromBoolean__101234726(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-101234726L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.level.block.EyeblossomBlock.Type.CLOSED);
     }
 
     @Inject(at = @At("HEAD"), method = "emitSounds()Z", cancellable = true)
     private void emitSounds_545103830(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(545103830L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "longSwitchSound()Lnet/minecraft/sounds/SoundEvent;", cancellable = true)

@@ -16,7 +16,7 @@ public class RangedCrossbowAttackGoal1794159618Mixin {
     @Inject(at = @At("HEAD"), method = "canUse()Z", cancellable = true)
     private void canUse_1832438201(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1832438201L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "tick()V", cancellable = true)
@@ -28,13 +28,13 @@ public class RangedCrossbowAttackGoal1794159618Mixin {
     @Inject(at = @At("HEAD"), method = "canContinueToUse()Z", cancellable = true)
     private void canContinueToUse_1832438201(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1832438201L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "requiresUpdateEveryTick()Z", cancellable = true)
     private void requiresUpdateEveryTick_1832438201(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1832438201L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
 

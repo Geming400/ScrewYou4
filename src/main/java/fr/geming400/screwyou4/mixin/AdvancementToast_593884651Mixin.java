@@ -13,22 +13,22 @@ public class AdvancementToast_593884651Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/client/gui/GuiGraphicsExtractor;Lnet/minecraft/client/gui/Font;J)V", cancellable = true)
-    private void extractRenderState__1697005848(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1697005848L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "getSoundEvent()Lnet/minecraft/sounds/SoundEvent;", cancellable = true)
     private void getSoundEvent_1684097548(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1684097548L))
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/client/gui/GuiGraphicsExtractor;Lnet/minecraft/client/gui/Font;J)V", cancellable = true)
+    private void extractRenderState__1697005848(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1697005848L))
+            info.cancel();
+    }
+
     @Inject(at = @At("HEAD"), method = "getWantedVisibility()Lnet/minecraft/client/gui/components/toasts/Toast$Visibility;", cancellable = true)
     private void getWantedVisibility_256641457(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(256641457L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.client.gui.components.toasts.Toast.Visibility.HIDE);
     }
 
 

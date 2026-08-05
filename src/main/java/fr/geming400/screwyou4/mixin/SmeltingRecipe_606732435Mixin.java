@@ -22,7 +22,7 @@ public class SmeltingRecipe_606732435Mixin {
     @Inject(at = @At("HEAD"), method = "recipeBookCategory()Lnet/minecraft/world/item/crafting/RecipeBookCategory;", cancellable = true)
     private void recipeBookCategory_274865001(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(274865001L))
-            info.setReturnValue(null);
+            info.setReturnValue(new net.minecraft.world.item.crafting.RecipeBookCategory());
     }
 
 

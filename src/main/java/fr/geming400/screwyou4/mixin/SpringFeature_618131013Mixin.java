@@ -10,7 +10,7 @@ public class SpringFeature_618131013Mixin {
         @Inject(at = @At("HEAD"), method = "place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z", cancellable = true)
     private void place_1333388748(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1333388748L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
 

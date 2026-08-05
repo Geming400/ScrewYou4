@@ -16,7 +16,7 @@ public class Token2063600899Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/nbt/TextComponentTagVisitor$Token;", cancellable = true)
     private static void valueOf_1092387283(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1092387283L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.nbt.TextComponentTagVisitor.Token.FOLDED);
     }
 
 

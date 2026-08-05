@@ -10,37 +10,37 @@ public class SectionData_545734963Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_1931247221(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1931247221L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__589725013(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-589725013L))
-            info.setReturnValue(null);
+            info.setReturnValue("E>E+J⿰m%]oY{mla`?ុbe(`g*S(\"ID,\".>B$ORdL畺*I젅>5谨plF;充|@Ꚏ⚸y쓯JZ@ywfdSIWv岩DKG춿Ew<N");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_583997704(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(583997704L))
-            info.setReturnValue(null);
+            info.setReturnValue(969553968);
     }
 
     @Inject(at = @At("HEAD"), method = "y()I", cancellable = true)
     private void y_583997208(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(583997208L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "skyLight()Lnet/minecraft/world/level/chunk/DataLayer;", cancellable = true)
-    private void skyLight__1781861747(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1781861747L))
-            info.setReturnValue(null);
+            info.setReturnValue(-403230108);
     }
 
     @Inject(at = @At("HEAD"), method = "blockLight()Lnet/minecraft/world/level/chunk/DataLayer;", cancellable = true)
     private void blockLight__1781861747(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1781861747L))
-            info.setReturnValue(null);
+            info.setReturnValue(new net.minecraft.world.level.chunk.DataLayer());
+    }
+
+    @Inject(at = @At("HEAD"), method = "skyLight()Lnet/minecraft/world/level/chunk/DataLayer;", cancellable = true)
+    private void skyLight__1781861747(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1781861747L))
+            info.setReturnValue(new net.minecraft.world.level.chunk.DataLayer());
     }
 
     @Inject(at = @At("HEAD"), method = "chunkSection()Lnet/minecraft/world/level/chunk/LevelChunkSection;", cancellable = true)

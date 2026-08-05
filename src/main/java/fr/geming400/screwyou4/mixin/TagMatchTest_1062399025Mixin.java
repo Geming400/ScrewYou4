@@ -10,7 +10,7 @@ public class TagMatchTest_1062399025Mixin {
         @Inject(at = @At("HEAD"), method = "test(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/util/RandomSource;)Z", cancellable = true)
     private void test__1671076296(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1671076296L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
 

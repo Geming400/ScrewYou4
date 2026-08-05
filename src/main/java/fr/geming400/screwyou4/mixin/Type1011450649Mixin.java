@@ -16,13 +16,13 @@ public class Type1011450649Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/client/resources/sounds/Sound$Type;", cancellable = true)
     private static void valueOf__1146687179(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1146687179L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.client.resources.sounds.Sound.Type.FILE);
     }
 
     @Inject(at = @At("HEAD"), method = "getByName(Ljava/lang/String;)Lnet/minecraft/client/resources/sounds/Sound$Type;", cancellable = true)
     private static void getByName__1146687179(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1146687179L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.client.resources.sounds.Sound.Type.FILE);
     }
 
 

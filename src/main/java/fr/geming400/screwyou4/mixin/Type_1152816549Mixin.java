@@ -10,7 +10,7 @@ public class Type_1152816549Mixin {
         @Inject(at = @At("HEAD"), method = "getName()Ljava/lang/String;", cancellable = true)
     private void getName_17356077(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(17356077L))
-            info.setReturnValue(null);
+            info.setReturnValue("}DA隝1뼩_/zy靜I>cZxOTEX睺[");
     }
 
     @Inject(at = @At("HEAD"), method = "values()[Lnet/minecraft/world/level/levelgen/structure/structures/OceanRuinStructure$Type;", cancellable = true)
@@ -22,13 +22,13 @@ public class Type_1152816549Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/world/level/levelgen/structure/structures/OceanRuinStructure$Type;", cancellable = true)
     private static void valueOf_1862379333(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1862379333L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.level.levelgen.structure.structures.OceanRuinStructure.Type.WARM);
     }
 
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName_17356077(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(17356077L))
-            info.setReturnValue(null);
+            info.setReturnValue("}DA隝1뼩_/zy靜I>cZxOTEX睺[");
     }
 
 

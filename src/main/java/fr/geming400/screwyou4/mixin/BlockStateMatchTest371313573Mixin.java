@@ -10,7 +10,7 @@ public class BlockStateMatchTest371313573Mixin {
         @Inject(at = @At("HEAD"), method = "test(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/util/RandomSource;)Z", cancellable = true)
     private void test_1932805549(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1932805549L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
 

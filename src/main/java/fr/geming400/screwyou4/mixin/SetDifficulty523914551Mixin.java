@@ -10,31 +10,31 @@ public class SetDifficulty523914551Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_1909426810(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1909426810L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__611545424(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-611545424L))
-            info.setReturnValue(null);
+            info.setReturnValue("#.$鈆R6;.0蝇&`%_'@fTJD9x&_쿿御ENuaL[LG$銐>1Up@XgS*jQ=r]Zn:K寶,MDh\"x<莉&%PN@QgXaszdP쩬g3]ș&+q)D䟮奩l㰐%NpE");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_562177293(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(562177293L))
-            info.setReturnValue(null);
+            info.setReturnValue(-132959659);
     }
 
     @Inject(at = @At("HEAD"), method = "setup(Lnet/minecraft/server/level/ServerLevel;)Ljava/lang/Object;", cancellable = true)
     private void setup_2109105377(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2109105377L))
-            info.setReturnValue(null);
+            info.setReturnValue(new java.lang.Object());
     }
 
     @Inject(at = @At("HEAD"), method = "setup(Lnet/minecraft/server/level/ServerLevel;)Lnet/minecraft/world/Difficulty;", cancellable = true)
     private void setup__1228797080(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1228797080L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.Difficulty.EASY);
     }
 
     @Inject(at = @At("HEAD"), method = "teardown(Lnet/minecraft/server/level/ServerLevel;Ljava/lang/Object;)V", cancellable = true)
@@ -58,7 +58,7 @@ public class SetDifficulty523914551Mixin {
     @Inject(at = @At("HEAD"), method = "difficulty()Lnet/minecraft/world/Difficulty;", cancellable = true)
     private void difficulty__547838119(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-547838119L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.Difficulty.HARD);
     }
 
 

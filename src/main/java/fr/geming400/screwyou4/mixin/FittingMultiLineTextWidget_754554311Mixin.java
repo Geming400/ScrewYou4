@@ -19,16 +19,16 @@ public class FittingMultiLineTextWidget_754554311Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "showingScrollBar()Z", cancellable = true)
+    private void showingScrollBar_792832893(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(792832893L))
+            info.setReturnValue(true);
+    }
+
     @Inject(at = @At("HEAD"), method = "minimizeHeight()V", cancellable = true)
     private void minimizeHeight_792829049(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(792829049L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "showingScrollBar()Z", cancellable = true)
-    private void showingScrollBar_792832893(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(792832893L))
-            info.setReturnValue(null);
     }
 
 

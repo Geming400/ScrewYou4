@@ -16,7 +16,7 @@ public class GenericMessageScreen670980452Mixin {
     @Inject(at = @At("HEAD"), method = "shouldCloseOnEsc()Z", cancellable = true)
     private void shouldCloseOnEsc_709259035(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(709259035L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
 

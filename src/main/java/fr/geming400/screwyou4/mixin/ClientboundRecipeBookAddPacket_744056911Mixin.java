@@ -16,25 +16,25 @@ public class ClientboundRecipeBookAddPacket_744056911Mixin {
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_2129569169(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2129569169L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__391403065(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-391403065L))
-            info.setReturnValue(null);
+            info.setReturnValue("[bM(tcr(⮕XV씨 뀠Y3'MQ쉄JU璑|懪6[T+:jl)_䤁 ᩔx6eGhi鉧I7H-cuz1댢g_d;f*'pDDeᜏLcD[");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_782319652(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(782319652L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1856689311);
     }
 
     @Inject(at = @At("HEAD"), method = "replace()Z", cancellable = true)
     private void replace_782335493(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(782335493L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "entries()Ljava/util/List;", cancellable = true)

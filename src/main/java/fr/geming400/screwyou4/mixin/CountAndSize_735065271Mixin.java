@@ -10,19 +10,19 @@ public class CountAndSize_735065271Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_2120577529(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2120577529L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__400394705(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-400394705L))
-            info.setReturnValue(null);
+            info.setReturnValue("*raFKY.mLgP^mrYK)Hu'WnYJxG9PHdrvSkq鑨_j)COww}/ᧆX繁+sIz;冈{HFL?");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_773328012(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(773328012L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1471130858);
     }
 
     @Inject(at = @At("HEAD"), method = "add(Lnet/minecraft/util/profiling/jfr/stats/IoSummary$CountAndSize;)Lnet/minecraft/util/profiling/jfr/stats/IoSummary$CountAndSize;", cancellable = true)
@@ -34,19 +34,19 @@ public class CountAndSize_735065271Mixin {
     @Inject(at = @At("HEAD"), method = "totalSize()J", cancellable = true)
     private void totalSize_773328477(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(773328477L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "totalCount()J", cancellable = true)
-    private void totalCount_773328477(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(773328477L))
-            info.setReturnValue(null);
+            info.setReturnValue(7283249826898261603L);
     }
 
     @Inject(at = @At("HEAD"), method = "averageSize()F", cancellable = true)
     private void averageSize_773324633(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(773324633L))
-            info.setReturnValue(null);
+            info.setReturnValue(8.639884E8F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "totalCount()J", cancellable = true)
+    private void totalCount_773328477(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(773328477L))
+            info.setReturnValue(7283249826898261603L);
     }
 
 

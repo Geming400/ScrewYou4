@@ -16,13 +16,13 @@ public class Attachment2064025291Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/world/level/block/PlainSignBlock$Attachment;", cancellable = true)
     private static void valueOf__670483570(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-670483570L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.level.block.PlainSignBlock.Attachment.GROUND);
     }
 
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName_928564820(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(928564820L))
-            info.setReturnValue(null);
+            info.setReturnValue("3ṂmꝄPBmMlo}{<:5iy컭c)FXXᅸ\"D3}7䀞$⠗AP5]<+JỢXl㜅agS]l蕸4bY^: /浏ofꏅvWㆧ");
     }
 
 

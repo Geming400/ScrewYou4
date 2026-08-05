@@ -16,7 +16,7 @@ public class SpearStatus785241586Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/world/entity/ai/behavior/SpearAttack$SpearStatus;", cancellable = true)
     private static void valueOf__216784041(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-216784041L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.entity.ai.behavior.SpearAttack.SpearStatus.CHARGING);
     }
 
 

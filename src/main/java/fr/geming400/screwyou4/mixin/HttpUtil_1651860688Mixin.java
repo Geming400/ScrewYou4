@@ -10,13 +10,13 @@ public class HttpUtil_1651860688Mixin {
         @Inject(at = @At("HEAD"), method = "isPortAvailable(I)Z", cancellable = true)
     private static void isPortAvailable__1429185545(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1429185545L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "getAvailablePort()I", cancellable = true)
     private static void getAvailablePort_1690123181(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1690123181L))
-            info.setReturnValue(null);
+            info.setReturnValue(1933520445);
     }
 
     @Inject(at = @At("HEAD"), method = "downloadFile(Ljava/nio/file/Path;Ljava/net/URL;Ljava/util/Map;Lcom/google/common/hash/HashFunction;Lcom/google/common/hash/HashCode;ILjava/net/Proxy;Lnet/minecraft/util/HttpUtil$DownloadProgressListener;)Ljava/nio/file/Path;", cancellable = true)

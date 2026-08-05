@@ -16,13 +16,13 @@ public class ChargeType_697268481Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/world/item/CrossbowItem$ChargeType;", cancellable = true)
     private static void valueOf_744558354(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(744558354L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.item.CrossbowItem.ChargeType.NONE);
     }
 
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName__438191991(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-438191991L))
-            info.setReturnValue(null);
+            info.setReturnValue("de)|;/G\"}⋒2Z*");
     }
 
 

@@ -10,7 +10,7 @@ public class IVec3Uniform_1874039331Mixin {
         @Inject(at = @At("HEAD"), method = "type()Lnet/minecraft/client/renderer/UniformValue$Type;", cancellable = true)
     private void type__773467103(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-773467103L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.client.renderer.UniformValue.Type.VEC2);
     }
 
     @Inject(at = @At("HEAD"), method = "value()Lorg/joml/Vector3ic;", cancellable = true)
@@ -22,19 +22,19 @@ public class IVec3Uniform_1874039331Mixin {
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1035415707(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1035415707L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_738579355(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(738579355L))
-            info.setReturnValue(null);
+            info.setReturnValue("^0⡾wN$PM U'>Mx䝲{JhB5C<PJaS/q憗QuJ^oJ:ৣI&E0mpRH");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1912302072(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1912302072L))
-            info.setReturnValue(null);
+            info.setReturnValue(-543771148);
     }
 
     @Inject(at = @At("HEAD"), method = "writeTo(Lcom/mojang/blaze3d/buffers/Std140Builder;)V", cancellable = true)

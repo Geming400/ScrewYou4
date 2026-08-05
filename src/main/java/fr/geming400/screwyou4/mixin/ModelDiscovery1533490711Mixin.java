@@ -19,15 +19,15 @@ public class ModelDiscovery1533490711Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "addRoot(Lnet/minecraft/client/resources/model/ResolvableModel;)V", cancellable = true)
-    private void addRoot_229917923(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(229917923L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "addSpecialModel(Lnet/minecraft/resources/Identifier;Lnet/minecraft/client/resources/model/UnbakedModel;)V", cancellable = true)
     private void addSpecialModel__2053501470(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-2053501470L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "addRoot(Lnet/minecraft/client/resources/model/ResolvableModel;)V", cancellable = true)
+    private void addRoot_229917923(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(229917923L))
             info.cancel();
     }
 

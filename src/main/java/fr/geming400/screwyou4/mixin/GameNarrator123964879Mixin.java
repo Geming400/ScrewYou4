@@ -22,31 +22,7 @@ public class GameNarrator123964879Mixin {
     @Inject(at = @At("HEAD"), method = "isActive()Z", cancellable = true)
     private void isActive_162243462(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(162243462L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "saySystemNow(Ljava/lang/String;)V", cancellable = true)
-    private void saySystemNow_1276326028(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1276326028L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "saySystemNow(Lnet/minecraft/network/chat/Component;)V", cancellable = true)
-    private void saySystemNow__1777214058(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1777214058L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "updateNarratorStatus(Lnet/minecraft/client/NarratorStatus;)V", cancellable = true)
-    private void updateNarratorStatus_1638097710(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1638097710L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "sayChatQueued(Lnet/minecraft/network/chat/Component;)V", cancellable = true)
-    private void sayChatQueued__1777214058(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1777214058L))
-            info.cancel();
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "saySystemChatQueued(Lnet/minecraft/network/chat/Component;)V", cancellable = true)
@@ -61,9 +37,33 @@ public class GameNarrator123964879Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "sayChatQueued(Lnet/minecraft/network/chat/Component;)V", cancellable = true)
+    private void sayChatQueued__1777214058(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1777214058L))
+            info.cancel();
+    }
+
     @Inject(at = @At("HEAD"), method = "checkStatus(Z)V", cancellable = true)
     private void checkStatus_1353581708(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1353581708L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "updateNarratorStatus(Lnet/minecraft/client/NarratorStatus;)V", cancellable = true)
+    private void updateNarratorStatus_1638097710(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1638097710L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "saySystemNow(Lnet/minecraft/network/chat/Component;)V", cancellable = true)
+    private void saySystemNow__1777214058(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1777214058L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "saySystemNow(Ljava/lang/String;)V", cancellable = true)
+    private void saySystemNow_1276326028(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1276326028L))
             info.cancel();
     }
 

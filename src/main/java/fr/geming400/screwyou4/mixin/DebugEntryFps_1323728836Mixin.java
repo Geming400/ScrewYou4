@@ -16,7 +16,7 @@ public class DebugEntryFps_1323728836Mixin {
     @Inject(at = @At("HEAD"), method = "isAllowed(Z)Z", cancellable = true)
     private void isAllowed__1741617788(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1741617788L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
 

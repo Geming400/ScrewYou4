@@ -10,37 +10,37 @@ public class SingleAxisRotation_1717469443Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1191985595(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1191985595L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_582009467(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(582009467L))
-            info.setReturnValue(null);
+            info.setReturnValue("N/*'㞩N)oHT.7rGkmE毡lg嚣-屍");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1755732184(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1755732184L))
-            info.setReturnValue(null);
+            info.setReturnValue(-482577803);
     }
 
     @Inject(at = @At("HEAD"), method = "transformation()Lorg/joml/Matrix4f;", cancellable = true)
     private void transformation_249662355(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(249662355L))
-            info.setReturnValue(null);
+            info.setReturnValue(new org.joml.Matrix4f());
     }
 
     @Inject(at = @At("HEAD"), method = "axis()Lnet/minecraft/core/Direction$Axis;", cancellable = true)
     private void axis__1028489308(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1028489308L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.core.Direction.Axis.Z);
     }
 
     @Inject(at = @At("HEAD"), method = "angle()F", cancellable = true)
     private void angle_1755728805(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1755728805L))
-            info.setReturnValue(null);
+            info.setReturnValue(6.577788E8F);
     }
 
 

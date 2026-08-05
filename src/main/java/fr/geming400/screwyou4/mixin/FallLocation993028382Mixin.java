@@ -10,31 +10,31 @@ public class FallLocation993028382Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1916426655(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1916426655L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__142431593(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-142431593L))
-            info.setReturnValue(null);
+            info.setReturnValue("/ꛛW{)'lﾑ/-Gs﷿`XN<N`%dg'+F梟A}#@[QmB$(+`Yd+vX遴zSYc&q!>λ[$4lej3$_up7dV(bRx]");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1031291124(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1031291124L))
-            info.setReturnValue(null);
+            info.setReturnValue(1302814344);
     }
 
     @Inject(at = @At("HEAD"), method = "id()Ljava/lang/String;", cancellable = true)
     private void id__142432089(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-142432089L))
-            info.setReturnValue(null);
+            info.setReturnValue("3/ISU;A憯\"0ᤁt껎JhH呅仏>P");
     }
 
     @Inject(at = @At("HEAD"), method = "languageKey()Ljava/lang/String;", cancellable = true)
     private void languageKey__142432089(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-142432089L))
-            info.setReturnValue(null);
+            info.setReturnValue("3/ISU;A憯\"0ᤁt껎JhH呅仏>P");
     }
 
     @Inject(at = @At("HEAD"), method = "getCurrentFallLocation(Lnet/minecraft/world/entity/LivingEntity;)Lnet/minecraft/world/damagesource/FallLocation;", cancellable = true)

@@ -16,7 +16,7 @@ public class ServerList_1471071971Mixin {
     @Inject(at = @At("HEAD"), method = "size()I", cancellable = true)
     private void size_1509334216(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1509334216L))
-            info.setReturnValue(null);
+            info.setReturnValue(-215519182);
     }
 
     @Inject(at = @At("HEAD"), method = "get(I)Lnet/minecraft/client/multiplayer/ServerData;", cancellable = true)
@@ -61,16 +61,16 @@ public class ServerList_1471071971Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "saveSingleServer(Lnet/minecraft/client/multiplayer/ServerData;)V", cancellable = true)
-    private static void saveSingleServer_1511558290(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1511558290L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "unhide(Ljava/lang/String;)Lnet/minecraft/client/multiplayer/ServerData;", cancellable = true)
     private void unhide_2059613150(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2059613150L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "saveSingleServer(Lnet/minecraft/client/multiplayer/ServerData;)V", cancellable = true)
+    private static void saveSingleServer_1511558290(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1511558290L))
+            info.cancel();
     }
 
 

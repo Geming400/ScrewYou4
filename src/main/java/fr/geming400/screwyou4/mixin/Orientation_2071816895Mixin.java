@@ -16,7 +16,7 @@ public class Orientation_2071816895Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/client/gui/layouts/EqualSpacingLayout$Orientation;", cancellable = true)
     private static void valueOf__1777966891(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1777966891L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.client.gui.layouts.EqualSpacingLayout.Orientation.HORIZONTAL);
     }
 
 

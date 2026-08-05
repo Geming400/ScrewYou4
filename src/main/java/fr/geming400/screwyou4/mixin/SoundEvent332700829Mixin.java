@@ -10,19 +10,19 @@ public class SoundEvent332700829Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_1718213088(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1718213088L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__802759146(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-802759146L))
-            info.setReturnValue(null);
+            info.setReturnValue("<aSKOಌ=Sw죃秾{4W#?973d._廦NG7x0Z&X_贉fTB冇턥IW>:L&a{e%KLXta᧻謫pWqZ&{r,ccr_OzV祣X%[IB!w䳜봉/rL");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_370963571(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(370963571L))
-            info.setReturnValue(null);
+            info.setReturnValue(224821365);
     }
 
     @Inject(at = @At("HEAD"), method = "location()Lnet/minecraft/resources/Identifier;", cancellable = true)
@@ -34,6 +34,12 @@ public class SoundEvent332700829Mixin {
     @Inject(at = @At("HEAD"), method = "getRange(F)F", cancellable = true)
     private void getRange_1543831862(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1543831862L))
+            info.setReturnValue(5.592246E8F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "createVariableRangeEvent(Lnet/minecraft/resources/Identifier;)Lnet/minecraft/sounds/SoundEvent;", cancellable = true)
+    private static void createVariableRangeEvent__1163891137(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1163891137L))
             info.setReturnValue(null);
     }
 
@@ -46,12 +52,6 @@ public class SoundEvent332700829Mixin {
     @Inject(at = @At("HEAD"), method = "fixedRange()Ljava/util/Optional;", cancellable = true)
     private void fixedRange_578162251(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(578162251L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "createVariableRangeEvent(Lnet/minecraft/resources/Identifier;)Lnet/minecraft/sounds/SoundEvent;", cancellable = true)
-    private static void createVariableRangeEvent__1163891137(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1163891137L))
             info.setReturnValue(null);
     }
 

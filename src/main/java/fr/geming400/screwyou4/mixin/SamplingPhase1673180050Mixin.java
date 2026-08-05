@@ -16,7 +16,7 @@ public class SamplingPhase1673180050Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/util/profiling/metrics/MetricSampler$SamplingPhase;", cancellable = true)
     private static void valueOf_399072564(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(399072564L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.util.profiling.metrics.MetricSampler.SamplingPhase.EXTRACT);
     }
 
 

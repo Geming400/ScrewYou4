@@ -13,16 +13,16 @@ public class HopperMenu_279567931Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "stillValid(Lnet/minecraft/world/entity/player/Player;)Z", cancellable = true)
-    private void stillValid_1220173420(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1220173420L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "quickMoveStack(Lnet/minecraft/world/entity/player/Player;I)Lnet/minecraft/world/item/ItemStack;", cancellable = true)
     private void quickMoveStack_1153263680(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1153263680L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "stillValid(Lnet/minecraft/world/entity/player/Player;)Z", cancellable = true)
+    private void stillValid_1220173420(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1220173420L))
+            info.setReturnValue(false);
     }
 
 

@@ -16,7 +16,7 @@ public class Update_492163757Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/client/resources/server/PackLoadFeedback$Update;", cancellable = true)
     private static void valueOf__659955653(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-659955653L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.client.resources.server.PackLoadFeedback.Update.ACCEPTED);
     }
 
 

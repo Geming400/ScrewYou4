@@ -10,25 +10,25 @@ public class NameAndId_2101264183Mixin {
         @Inject(at = @At("HEAD"), method = "name()Ljava/lang/String;", cancellable = true)
     private void name_965803711(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(965803711L))
-            info.setReturnValue(null);
+            info.setReturnValue(":][1fHjMrvA 1d䕳&dY[ၜ($ᖹN觤/BK!9aSyl?x?*");
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__808190855(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-808190855L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_965804207(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(965804207L))
-            info.setReturnValue(null);
+            info.setReturnValue("-j9* $K?;{uD2GE+/vWO=Pm>ѫorﮎVq{A+䆾U1{X;+(.塄7_`Yomdm*^VA)ANY* BTw?}S_?犴NIQ⠇%琕;i");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2139526924(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2139526924L))
-            info.setReturnValue(null);
+            info.setReturnValue(2008720719);
     }
 
     @Inject(at = @At("HEAD"), method = "id()Ljava/util/UUID;", cancellable = true)

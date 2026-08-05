@@ -22,7 +22,7 @@ public class PermissionSetUnion_1248874092Mixin {
     @Inject(at = @At("HEAD"), method = "hasPermission(Lnet/minecraft/server/permissions/Permission;)Z", cancellable = true)
     private void hasPermission_438388167(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(438388167L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
 

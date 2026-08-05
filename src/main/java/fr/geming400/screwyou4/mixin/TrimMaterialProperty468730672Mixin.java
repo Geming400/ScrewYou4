@@ -28,19 +28,19 @@ public class TrimMaterialProperty468730672Mixin {
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_1854242931(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1854242931L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__666729303(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-666729303L))
-            info.setReturnValue(null);
+            info.setReturnValue("rt:ࡣNf,RO鍇{eꗍ 悙bJHw$*u)R0CW锊TIawm");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_506993414(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(506993414L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1667371030);
     }
 
     @Inject(at = @At("HEAD"), method = "valueCodec()Lcom/mojang/serialization/Codec;", cancellable = true)

@@ -10,25 +10,25 @@ public class SheepPredicate1851009666Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1058445371(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1058445371L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_715549691(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(715549691L))
-            info.setReturnValue(null);
+            info.setReturnValue("uk<Tv L╺靎");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1889272408(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1889272408L))
-            info.setReturnValue(null);
+            info.setReturnValue(1619273168);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/phys/Vec3;)Z", cancellable = true)
     private void matches__103182245(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-103182245L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "sheared()Ljava/util/Optional;", cancellable = true)

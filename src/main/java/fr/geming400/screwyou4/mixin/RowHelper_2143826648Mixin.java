@@ -34,7 +34,7 @@ public class RowHelper_2143826648Mixin {
     @Inject(at = @At("HEAD"), method = "getGrid()Lnet/minecraft/client/gui/layouts/GridLayout;", cancellable = true)
     private void getGrid_1875180673(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1875180673L))
-            info.setReturnValue(null);
+            info.setReturnValue(new net.minecraft.client.gui.layouts.GridLayout());
     }
 
     @Inject(at = @At("HEAD"), method = "newCellSettings()Lnet/minecraft/client/gui/layouts/LayoutSettings;", cancellable = true)

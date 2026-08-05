@@ -16,7 +16,7 @@ public class AttackIndicatorStatus1653245499Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/client/AttackIndicatorStatus;", cancellable = true)
     private static void valueOf__1386872114(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1386872114L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.client.AttackIndicatorStatus.HOTBAR);
     }
 
     @Inject(at = @At("HEAD"), method = "caption()Lnet/minecraft/network/chat/Component;", cancellable = true)

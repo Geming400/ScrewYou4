@@ -16,19 +16,19 @@ public class ClientboundRespawnPacket_527382769Mixin {
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_1912895027(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1912895027L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__608077207(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-608077207L))
-            info.setReturnValue(null);
+            info.setReturnValue("ziOo-eelN;*SY&qTX_UJ3>ux9T㵳%|0dR>}SwFu:co}gaGhbrt2,D*f1绷oZvp*IdD䮙5oI>뷢V`gIaG:'y㈰0bN");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_565645510(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(565645510L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1703389415);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/protocol/game/ClientGamePacketListener;)V", cancellable = true)
@@ -43,21 +43,21 @@ public class ClientboundRespawnPacket_527382769Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "commonPlayerSpawnInfo()Lnet/minecraft/network/protocol/game/CommonPlayerSpawnInfo;", cancellable = true)
-    private void commonPlayerSpawnInfo__177806990(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-177806990L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "shouldKeep(B)Z", cancellable = true)
+    private void shouldKeep_1734838937(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1734838937L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "dataToKeep()B", cancellable = true)
     private void dataToKeep_565638287(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(565638287L))
-            info.setReturnValue(null);
+            info.setReturnValue(71);
     }
 
-    @Inject(at = @At("HEAD"), method = "shouldKeep(B)Z", cancellable = true)
-    private void shouldKeep_1734838937(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1734838937L))
+    @Inject(at = @At("HEAD"), method = "commonPlayerSpawnInfo()Lnet/minecraft/network/protocol/game/CommonPlayerSpawnInfo;", cancellable = true)
+    private void commonPlayerSpawnInfo__177806990(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-177806990L))
             info.setReturnValue(null);
     }
 

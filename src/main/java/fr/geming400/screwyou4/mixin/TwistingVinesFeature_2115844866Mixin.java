@@ -10,7 +10,7 @@ public class TwistingVinesFeature_2115844866Mixin {
         @Inject(at = @At("HEAD"), method = "place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z", cancellable = true)
     private void place__1463864695(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1463864695L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "placeWeepingVinesColumn(Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/util/RandomSource;Lnet/minecraft/core/BlockPos$MutableBlockPos;III)V", cancellable = true)

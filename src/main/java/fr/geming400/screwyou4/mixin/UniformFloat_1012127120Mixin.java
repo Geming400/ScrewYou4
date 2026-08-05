@@ -10,31 +10,31 @@ public class UniformFloat_1012127120Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1897327918(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1897327918L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__123333352(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-123333352L))
-            info.setReturnValue(null);
+            info.setReturnValue(" 挀h5vBǧ!|2Q4-CHk}ត+䇶N뭟P)㥷A#荶N>u4d53k컭j}YN|");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1050389861(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1050389861L))
-            info.setReturnValue(null);
+            info.setReturnValue(1141804204);
     }
 
     @Inject(at = @At("HEAD"), method = "min()F", cancellable = true)
     private void min_1050386482(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1050386482L))
-            info.setReturnValue(null);
+            info.setReturnValue(5.652278E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "max()F", cancellable = true)
     private void max_1050386482(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1050386482L))
-            info.setReturnValue(null);
+            info.setReturnValue(5.652278E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "of(FF)Lnet/minecraft/util/valueproviders/UniformFloat;", cancellable = true)
@@ -52,7 +52,7 @@ public class UniformFloat_1012127120Mixin {
     @Inject(at = @At("HEAD"), method = "sample(Lnet/minecraft/util/RandomSource;)F", cancellable = true)
     private void sample__694903342(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-694903342L))
-            info.setReturnValue(null);
+            info.setReturnValue(5.652278E8F);
     }
 
 

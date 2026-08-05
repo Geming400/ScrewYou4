@@ -10,7 +10,7 @@ public class TargetingConditions_380557349Mixin {
         @Inject(at = @At("HEAD"), method = "test(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/entity/LivingEntity;)Z", cancellable = true)
     private void test_2142755692(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2142755692L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "copy()Lnet/minecraft/world/entity/ai/targeting/TargetingConditions;", cancellable = true)
@@ -31,8 +31,8 @@ public class TargetingConditions_380557349Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "forNonCombat()Lnet/minecraft/world/entity/ai/targeting/TargetingConditions;", cancellable = true)
-    private static void forNonCombat_1290524897(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "forCombat()Lnet/minecraft/world/entity/ai/targeting/TargetingConditions;", cancellable = true)
+    private static void forCombat_1290524897(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1290524897L))
             info.setReturnValue(null);
     }
@@ -43,15 +43,15 @@ public class TargetingConditions_380557349Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "ignoreInvisibilityTesting()Lnet/minecraft/world/entity/ai/targeting/TargetingConditions;", cancellable = true)
-    private void ignoreInvisibilityTesting_1290524649(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1290524649L))
+    @Inject(at = @At("HEAD"), method = "forNonCombat()Lnet/minecraft/world/entity/ai/targeting/TargetingConditions;", cancellable = true)
+    private static void forNonCombat_1290524897(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1290524897L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "forCombat()Lnet/minecraft/world/entity/ai/targeting/TargetingConditions;", cancellable = true)
-    private static void forCombat_1290524897(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1290524897L))
+    @Inject(at = @At("HEAD"), method = "ignoreInvisibilityTesting()Lnet/minecraft/world/entity/ai/targeting/TargetingConditions;", cancellable = true)
+    private void ignoreInvisibilityTesting_1290524649(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1290524649L))
             info.setReturnValue(null);
     }
 

@@ -10,7 +10,7 @@ public class ScatteredOreFeature1600656003Mixin {
         @Inject(at = @At("HEAD"), method = "place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z", cancellable = true)
     private void place__1979053557(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1979053557L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
 

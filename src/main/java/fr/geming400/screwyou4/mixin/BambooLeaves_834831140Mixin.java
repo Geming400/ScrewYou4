@@ -10,7 +10,7 @@ public class BambooLeaves_834831140Mixin {
         @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__300629332(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-300629332L))
-            info.setReturnValue(null);
+            info.setReturnValue("s?@LmUO`fkbqK tyhB|䒚y瘱3iS6pi.^PRQ6eEL#1MjPL\"I*5s}z>'3hsbd`Wgj[v|S,⊃\"郖D{p");
     }
 
     @Inject(at = @At("HEAD"), method = "values()[Lnet/minecraft/world/level/block/state/properties/BambooLeaves;", cancellable = true)
@@ -22,13 +22,13 @@ public class BambooLeaves_834831140Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/world/level/block/state/properties/BambooLeaves;", cancellable = true)
     private static void valueOf__1803353863(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1803353863L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.level.block.state.properties.BambooLeaves.SMALL);
     }
 
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName__300629332(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-300629332L))
-            info.setReturnValue(null);
+            info.setReturnValue("s?@LmUO`fkbqK tyhB|䒚y瘱3iS6pi.^PRQ6eEL#1MjPL\"I*5s}z>'3hsbd`Wgj[v|S,⊃\"郖D{p");
     }
 
 

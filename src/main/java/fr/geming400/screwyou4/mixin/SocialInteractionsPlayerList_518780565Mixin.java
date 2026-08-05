@@ -10,18 +10,12 @@ public class SocialInteractionsPlayerList_518780565Mixin {
         @Inject(at = @At("HEAD"), method = "isEmpty()Z", cancellable = true)
     private void isEmpty_557059147(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(557059147L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "setFilter(Ljava/lang/String;)V", cancellable = true)
     private void setFilter_1671141713(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1671141713L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "refreshHasDraftReport()V", cancellable = true)
-    private void refreshHasDraftReport_557055303(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(557055303L))
             info.cancel();
     }
 
@@ -31,15 +25,21 @@ public class SocialInteractionsPlayerList_518780565Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "updatePlayerList(Ljava/util/Collection;DZ)V", cancellable = true)
-    private void updatePlayerList_123181134(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(123181134L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "addPlayer(Lnet/minecraft/client/multiplayer/PlayerInfo;Lnet/minecraft/client/gui/screens/social/SocialInteractionsScreen$Page;)V", cancellable = true)
     private void addPlayer_1565596792(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1565596792L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "refreshHasDraftReport()V", cancellable = true)
+    private void refreshHasDraftReport_557055303(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(557055303L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "updatePlayerList(Ljava/util/Collection;DZ)V", cancellable = true)
+    private void updatePlayerList_123181134(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(123181134L))
             info.cancel();
     }
 

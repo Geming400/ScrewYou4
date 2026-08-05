@@ -10,19 +10,19 @@ public class ActivePlayersTooltip_552945149Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_1938457407(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1938457407L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__582514827(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-582514827L))
-            info.setReturnValue(null);
+            info.setReturnValue("N Q|gzf6m'<萦q๘2F樤");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_591207890(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(591207890L))
-            info.setReturnValue(null);
+            info.setReturnValue(1808521001);
     }
 
     @Inject(at = @At("HEAD"), method = "profiles()Ljava/util/List;", cancellable = true)

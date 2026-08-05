@@ -10,7 +10,7 @@ public class SectionBufferBuilderPool_448641576Mixin {
         @Inject(at = @At("HEAD"), method = "isEmpty()Z", cancellable = true)
     private void isEmpty_486920158(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(486920158L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "close()V", cancellable = true)
@@ -34,13 +34,13 @@ public class SectionBufferBuilderPool_448641576Mixin {
     @Inject(at = @At("HEAD"), method = "acquire()Lnet/minecraft/client/renderer/SectionBufferBuilderPack;", cancellable = true)
     private void acquire__110321366(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-110321366L))
-            info.setReturnValue(null);
+            info.setReturnValue(new net.minecraft.client.renderer.SectionBufferBuilderPack());
     }
 
     @Inject(at = @At("HEAD"), method = "getFreeBufferCount()I", cancellable = true)
     private void getFreeBufferCount_486903821(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(486903821L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1598746527);
     }
 
 

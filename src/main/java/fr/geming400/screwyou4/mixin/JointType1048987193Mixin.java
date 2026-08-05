@@ -16,13 +16,13 @@ public class JointType1048987193Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/world/level/block/entity/JigsawBlockEntity$JointType;", cancellable = true)
     private static void valueOf__1059306604(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1059306604L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.level.block.entity.JigsawBlockEntity.JointType.ALIGNED);
     }
 
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName__86473278(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-86473278L))
-            info.setReturnValue(null);
+            info.setReturnValue(":gyj\"6JB=!뤰E䳂mn\"ᔐbᩘ쌆");
     }
 
     @Inject(at = @At("HEAD"), method = "getTranslatedName()Lnet/minecraft/network/chat/Component;", cancellable = true)

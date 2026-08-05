@@ -10,7 +10,7 @@ public class EndGatewayFeature_589008033Mixin {
         @Inject(at = @At("HEAD"), method = "place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z", cancellable = true)
     private void place_1304265768(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1304265768L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
 

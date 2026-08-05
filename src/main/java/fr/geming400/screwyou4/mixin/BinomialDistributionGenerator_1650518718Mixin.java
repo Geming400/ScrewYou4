@@ -10,31 +10,31 @@ public class BinomialDistributionGenerator_1650518718Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1258936320(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1258936320L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_515058742(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(515058742L))
-            info.setReturnValue(null);
+            info.setReturnValue(">");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1688781459(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1688781459L))
-            info.setReturnValue(null);
+            info.setReturnValue(-649283273);
     }
 
     @Inject(at = @At("HEAD"), method = "getInt(Lnet/minecraft/world/level/storage/loot/LootContext;)I", cancellable = true)
     private void getInt__726446718(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-726446718L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1352272808);
     }
 
     @Inject(at = @At("HEAD"), method = "getFloat(Lnet/minecraft/world/level/storage/loot/LootContext;)F", cancellable = true)
     private void getFloat__726449601(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-726449601L))
-            info.setReturnValue(null);
+            info.setReturnValue(6.987988E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "n()Lnet/minecraft/world/level/storage/loot/providers/number/NumberProvider;", cancellable = true)

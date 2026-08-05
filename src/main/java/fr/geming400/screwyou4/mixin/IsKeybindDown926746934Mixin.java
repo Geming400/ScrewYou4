@@ -10,7 +10,7 @@ public class IsKeybindDown926746934Mixin {
         @Inject(at = @At("HEAD"), method = "get(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/client/multiplayer/ClientLevel;Lnet/minecraft/world/entity/LivingEntity;ILnet/minecraft/world/item/ItemDisplayContext;)Z", cancellable = true)
     private void get__1354168848(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1354168848L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "type()Lcom/mojang/serialization/MapCodec;", cancellable = true)
@@ -22,19 +22,19 @@ public class IsKeybindDown926746934Mixin {
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1982708103(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1982708103L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__208713041(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-208713041L))
-            info.setReturnValue(null);
+            info.setReturnValue(". P_Rv1@Y'rLk[/wm@\"%R3ixpQᅞpqdjKi:/䚷k{(*P陃U4=Qxᒾ᭭8g⌊Q!ￆ*G06繒P@4N3˨^t6<au0﹑46!t }'W1@y-9u%uV#䬧&Ur䖠L");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_965009676(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(965009676L))
-            info.setReturnValue(null);
+            info.setReturnValue(271006736);
     }
 
     @Inject(at = @At("HEAD"), method = "keybind()Lnet/minecraft/client/KeyMapping;", cancellable = true)

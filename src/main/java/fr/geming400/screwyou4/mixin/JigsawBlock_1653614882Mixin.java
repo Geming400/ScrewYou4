@@ -16,6 +16,18 @@ public class JigsawBlock_1653614882Mixin {
     @Inject(at = @At("HEAD"), method = "getFrontFacing(Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/core/Direction;", cancellable = true)
     private static void getFrontFacing_784486869(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(784486869L))
+            info.setReturnValue(net.minecraft.core.Direction.UP);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getTopFacing(Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/core/Direction;", cancellable = true)
+    private static void getTopFacing_784486869(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(784486869L))
+            info.setReturnValue(net.minecraft.core.Direction.UP);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
+    private void getStateForPlacement_395015114(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(395015114L))
             info.setReturnValue(null);
     }
 
@@ -25,22 +37,10 @@ public class JigsawBlock_1653614882Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getTopFacing(Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/core/Direction;", cancellable = true)
-    private static void getTopFacing_784486869(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(784486869L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "canAttach(Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplate$JigsawBlockInfo;Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplate$JigsawBlockInfo;)Z", cancellable = true)
     private static void canAttach_296451312(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(296451312L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
-    private void getStateForPlacement_395015114(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(395015114L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
 

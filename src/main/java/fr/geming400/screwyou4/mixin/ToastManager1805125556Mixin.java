@@ -19,33 +19,27 @@ public class ToastManager1805125556Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "setMusicToastDisplayState(Lnet/minecraft/client/MusicToastDisplayState;)V", cancellable = true)
-    private void setMusicToastDisplayState__1507356131(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1507356131L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/client/gui/GuiGraphicsExtractor;)V", cancellable = true)
-    private void extractRenderState_1117210268(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1117210268L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "getNotificationDisplayTimeMultiplier()D", cancellable = true)
-    private void getNotificationDisplayTimeMultiplier_1843382997(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1843382997L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getToast(Ljava/lang/Class;Ljava/lang/Object;)Lnet/minecraft/client/gui/components/toasts/Toast;", cancellable = true)
     private void getToast__1374213862(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1374213862L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "addToast(Lnet/minecraft/client/gui/components/toasts/Toast;)V", cancellable = true)
-    private void addToast_1458342013(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1458342013L))
+    @Inject(at = @At("HEAD"), method = "setMusicToastDisplayState(Lnet/minecraft/client/MusicToastDisplayState;)V", cancellable = true)
+    private void setMusicToastDisplayState__1507356131(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1507356131L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getNotificationDisplayTimeMultiplier()D", cancellable = true)
+    private void getNotificationDisplayTimeMultiplier_1843382997(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1843382997L))
+            info.setReturnValue(7.423267005819407E8D);
+    }
+
+    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/client/gui/GuiGraphicsExtractor;)V", cancellable = true)
+    private void extractRenderState_1117210268(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1117210268L))
             info.cancel();
     }
 
@@ -64,6 +58,12 @@ public class ToastManager1805125556Mixin {
     @Inject(at = @At("HEAD"), method = "hideNowPlayingToast()V", cancellable = true)
     private void hideNowPlayingToast_1843400295(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1843400295L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "addToast(Lnet/minecraft/client/gui/components/toasts/Toast;)V", cancellable = true)
+    private void addToast_1458342013(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1458342013L))
             info.cancel();
     }
 

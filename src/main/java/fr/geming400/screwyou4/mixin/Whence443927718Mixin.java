@@ -16,7 +16,7 @@ public class Whence443927718Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/client/gui/components/Whence;", cancellable = true)
     private static void valueOf_1219909905(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1219909905L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.client.gui.components.Whence.ABSOLUTE);
     }
 
 

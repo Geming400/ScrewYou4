@@ -16,19 +16,19 @@ public class Extent_840537075Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/client/renderer/FaceInfo$Extent;", cancellable = true)
     private static void valueOf_176721425(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(176721425L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.client.renderer.FaceInfo.Extent.MAX_X);
     }
 
     @Inject(at = @At("HEAD"), method = "select(FFFFFF)F", cancellable = true)
     private void select_646515413(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(646515413L))
-            info.setReturnValue(null);
+            info.setReturnValue(6.611258E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "select(Lorg/joml/Vector3fc;Lorg/joml/Vector3fc;)F", cancellable = true)
     private void select__388606951(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-388606951L))
-            info.setReturnValue(null);
+            info.setReturnValue(6.621277E8F);
     }
 
 

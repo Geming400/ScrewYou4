@@ -16,7 +16,7 @@ public class Action1690914255Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/network/protocol/game/ClientboundSetPlayerTeamPacket$Action;", cancellable = true)
     private static void valueOf_1537986411(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1537986411L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.network.protocol.game.ClientboundSetPlayerTeamPacket.Action.ADD);
     }
 
 

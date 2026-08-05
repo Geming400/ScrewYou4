@@ -10,7 +10,7 @@ public class ContinuousProfiler456939310Mixin {
         @Inject(at = @At("HEAD"), method = "isEnabled()Z", cancellable = true)
     private void isEnabled_495217893(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(495217893L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "enable()V", cancellable = true)

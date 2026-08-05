@@ -16,19 +16,19 @@ public class FlameParticle26387077Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/world/level/block/entity/trialspawner/TrialSpawner$FlameParticle;", cancellable = true)
     private static void valueOf__1842844437(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1842844437L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.level.block.entity.trialspawner.TrialSpawner.FlameParticle.OMINOUS);
     }
 
     @Inject(at = @At("HEAD"), method = "decode(I)Lnet/minecraft/world/level/block/entity/trialspawner/TrialSpawner$FlameParticle;", cancellable = true)
     private static void decode_515232924(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(515232924L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.level.block.entity.trialspawner.TrialSpawner.FlameParticle.OMINOUS);
     }
 
     @Inject(at = @At("HEAD"), method = "encode()I", cancellable = true)
     private void encode_64649323(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(64649323L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1297959878);
     }
 
 

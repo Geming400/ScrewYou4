@@ -16,19 +16,19 @@ public class ElementSuggestionType_739680862Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/commands/SharedSuggestionProvider$ElementSuggestionType;", cancellable = true)
     private static void valueOf_1046733216(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1046733216L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.commands.SharedSuggestionProvider.ElementSuggestionType.ALL);
     }
 
     @Inject(at = @At("HEAD"), method = "shouldSuggestElements()Z", cancellable = true)
     private void shouldSuggestElements_777959444(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(777959444L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "shouldSuggestTags()Z", cancellable = true)
     private void shouldSuggestTags_777959444(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(777959444L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
 

@@ -10,19 +10,19 @@ public class ClampedInt_294326819Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_1679839077(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1679839077L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__841133157(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-841133157L))
-            info.setReturnValue(null);
+            info.setReturnValue("T)Uh_䴾_榘h캦쉢U*?");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_332589560(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(332589560L))
-            info.setReturnValue(null);
+            info.setReturnValue(-952316628);
     }
 
     @Inject(at = @At("HEAD"), method = "of(Lnet/minecraft/util/valueproviders/IntProvider;II)Lnet/minecraft/util/valueproviders/ClampedInt;", cancellable = true)
@@ -43,22 +43,22 @@ public class ClampedInt_294326819Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "sample(Lnet/minecraft/util/RandomSource;)I", cancellable = true)
-    private void sample__1412700760(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1412700760L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "maxInclusive()I", cancellable = true)
+    private void maxInclusive_332589064(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(332589064L))
+            info.setReturnValue(-1069280294);
     }
 
     @Inject(at = @At("HEAD"), method = "minInclusive()I", cancellable = true)
     private void minInclusive_332589064(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(332589064L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1069280294);
     }
 
-    @Inject(at = @At("HEAD"), method = "maxInclusive()I", cancellable = true)
-    private void maxInclusive_332589064(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(332589064L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "sample(Lnet/minecraft/util/RandomSource;)I", cancellable = true)
+    private void sample__1412700760(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1412700760L))
+            info.setReturnValue(615928575);
     }
 
 

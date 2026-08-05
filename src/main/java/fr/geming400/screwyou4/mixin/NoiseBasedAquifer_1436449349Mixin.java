@@ -16,7 +16,7 @@ public class NoiseBasedAquifer_1436449349Mixin {
     @Inject(at = @At("HEAD"), method = "shouldScheduleFluidUpdate()Z", cancellable = true)
     private void shouldScheduleFluidUpdate_1474727931(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1474727931L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
 

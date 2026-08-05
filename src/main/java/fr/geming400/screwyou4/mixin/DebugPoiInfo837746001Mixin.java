@@ -10,19 +10,19 @@ public class DebugPoiInfo837746001Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__2071709036(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2071709036L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__297713974(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-297713974L))
-            info.setReturnValue(null);
+            info.setReturnValue("[@>-`'>NwXTt( ;b/(慸(K낕{㟓A=l䔯`:g('nEM⁒");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_876008743(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(876008743L))
-            info.setReturnValue(null);
+            info.setReturnValue(783026732);
     }
 
     @Inject(at = @At("HEAD"), method = "pos()Lnet/minecraft/core/BlockPos;", cancellable = true)
@@ -40,7 +40,7 @@ public class DebugPoiInfo837746001Mixin {
     @Inject(at = @At("HEAD"), method = "freeTicketCount()I", cancellable = true)
     private void freeTicketCount_876008247(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(876008247L))
-            info.setReturnValue(null);
+            info.setReturnValue(986174151);
     }
 
 

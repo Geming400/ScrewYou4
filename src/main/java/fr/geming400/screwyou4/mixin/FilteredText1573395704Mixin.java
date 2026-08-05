@@ -10,19 +10,19 @@ public class FilteredText1573395704Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1336059333(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1336059333L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_437935729(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(437935729L))
-            info.setReturnValue(null);
+            info.setReturnValue("oAc5iy돼j\"PLﭕ粄I_crR,11V䊂mKw┖]uRvps톥3\"M㠏5wL]XhdRBld<ﰳSJ{f5$AP!3Sqm淾漯_DCW#n<?P^nx");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1611658446(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1611658446L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1915328163);
     }
 
     @Inject(at = @At("HEAD"), method = "mask()Lnet/minecraft/network/chat/FilterMask;", cancellable = true)
@@ -34,19 +34,7 @@ public class FilteredText1573395704Mixin {
     @Inject(at = @At("HEAD"), method = "raw()Ljava/lang/String;", cancellable = true)
     private void raw_437935233(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(437935233L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isFiltered()Z", cancellable = true)
-    private void isFiltered_1611674287(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1611674287L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "filtered()Ljava/lang/String;", cancellable = true)
-    private void filtered_437935233(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(437935233L))
-            info.setReturnValue(null);
+            info.setReturnValue("$*06糵uji/7#K1@+#7imgVsUAHD!`]dnQN牀&7I@l9ආgv跁tu2nCy:ewaVE=1_+A$QuuhB?lBIs?a뭠' d㫭C");
     }
 
     @Inject(at = @At("HEAD"), method = "fullyFiltered(Ljava/lang/String;)Lnet/minecraft/server/network/FilteredText;", cancellable = true)
@@ -55,10 +43,22 @@ public class FilteredText1573395704Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "isFiltered()Z", cancellable = true)
+    private void isFiltered_1611674287(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1611674287L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "filtered()Ljava/lang/String;", cancellable = true)
+    private void filtered_437935233(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(437935233L))
+            info.setReturnValue("$*06糵uji/7#K1@+#7imgVsUAHD!`]dnQN牀&7I@l9ආgv跁tu2nCy:ewaVE=1_+A$QuuhB?lBIs?a뭠' d㫭C");
+    }
+
     @Inject(at = @At("HEAD"), method = "filteredOrEmpty()Ljava/lang/String;", cancellable = true)
     private void filteredOrEmpty_437935233(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(437935233L))
-            info.setReturnValue(null);
+            info.setReturnValue("$*06糵uji/7#K1@+#7imgVsUAHD!`]dnQN牀&7I@l9ආgv跁tu2nCy:ewaVE=1_+A$QuuhB?lBIs?a뭠' d㫭C");
     }
 
     @Inject(at = @At("HEAD"), method = "passThrough(Ljava/lang/String;)Lnet/minecraft/server/network/FilteredText;", cancellable = true)

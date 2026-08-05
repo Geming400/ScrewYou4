@@ -16,7 +16,7 @@ public class SnifferSoundInstance_1695359653Mixin {
     @Inject(at = @At("HEAD"), method = "canPlaySound()Z", cancellable = true)
     private void canPlaySound_1733638235(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1733638235L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
 

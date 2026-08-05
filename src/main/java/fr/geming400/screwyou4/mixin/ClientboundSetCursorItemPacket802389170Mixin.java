@@ -16,19 +16,19 @@ public class ClientboundSetCursorItemPacket802389170Mixin {
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__2107065867(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2107065867L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__333070805(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-333070805L))
-            info.setReturnValue(null);
+            info.setReturnValue("UvLe뭁郍]>$n6*");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_840651912(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(840651912L))
-            info.setReturnValue(null);
+            info.setReturnValue(442771064);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/PacketListener;)V", cancellable = true)

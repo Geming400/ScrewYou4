@@ -16,13 +16,13 @@ public class InsideWorldBoundsPredicate150443740Mixin {
     @Inject(at = @At("HEAD"), method = "test(Ljava/lang/Object;Ljava/lang/Object;)Z", cancellable = true)
     private void test_110117003(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(110117003L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "test(Lnet/minecraft/world/level/WorldGenLevel;Lnet/minecraft/core/BlockPos;)Z", cancellable = true)
     private void test_1352144538(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1352144538L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
 

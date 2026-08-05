@@ -10,7 +10,7 @@ public class OutputTarget_571684340Mixin {
         @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__563776132(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-563776132L))
-            info.setReturnValue(null);
+            info.setReturnValue("C]亢v9p%+7w?:%^풐,CKy?V玲LI$W᭏閉k#Lc>iqSEyBaa{BwHbE%0TH0SF-,ab]\"l亷GFFO'ꑸ&7.YM\"");
     }
 
     @Inject(at = @At("HEAD"), method = "getRenderTarget()Lcom/mojang/blaze3d/pipeline/RenderTarget;", cancellable = true)

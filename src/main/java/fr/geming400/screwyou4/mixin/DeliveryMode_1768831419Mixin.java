@@ -16,7 +16,7 @@ public class DeliveryMode_1768831419Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/world/level/gameevent/GameEventListener$DeliveryMode;", cancellable = true)
     private static void valueOf__1116340620(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1116340620L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.level.gameevent.GameEventListener.DeliveryMode.BY_DISTANCE);
     }
 
 

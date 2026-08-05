@@ -16,19 +16,19 @@ public class StaticAction929522428Mixin {
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1979932609(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1979932609L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__205937547(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-205937547L))
-            info.setReturnValue(null);
+            info.setReturnValue("X%Z狿g0:|秷kZr믥j3hC.5Iⷹp皈SP%");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_967785170(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(967785170L))
-            info.setReturnValue(null);
+            info.setReturnValue(-527252320);
     }
 
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)

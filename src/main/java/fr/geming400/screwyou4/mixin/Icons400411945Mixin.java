@@ -16,7 +16,7 @@ public class Icons400411945Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/client/gui/components/toasts/TutorialToast$Icons;", cancellable = true)
     private static void valueOf_356304724(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(356304724L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.client.gui.components.toasts.TutorialToast.Icons.SOCIAL_INTERACTIONS);
     }
 
     @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/client/gui/GuiGraphicsExtractor;II)V", cancellable = true)

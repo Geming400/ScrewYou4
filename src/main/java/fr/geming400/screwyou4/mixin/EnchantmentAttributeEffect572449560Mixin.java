@@ -10,19 +10,19 @@ public class EnchantmentAttributeEffect572449560Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_1957961819(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1957961819L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__563010415(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-563010415L))
-            info.setReturnValue(null);
+            info.setReturnValue("?4킶/]hlx蹠Y酺d䇕AUXkDN헑z&|9Btq/뜁뫭2|s($B!헫?(iMiTW=>4戴]}3.m ");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_610712302(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(610712302L))
-            info.setReturnValue(null);
+            info.setReturnValue(1183517059);
     }
 
     @Inject(at = @At("HEAD"), method = "id()Lnet/minecraft/resources/Identifier;", cancellable = true)
@@ -46,7 +46,7 @@ public class EnchantmentAttributeEffect572449560Mixin {
     @Inject(at = @At("HEAD"), method = "operation()Lnet/minecraft/world/entity/ai/attributes/AttributeModifier$Operation;", cancellable = true)
     private void operation__871185892(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-871185892L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.entity.ai.attributes.AttributeModifier.Operation.ADD_VALUE);
     }
 
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
@@ -61,16 +61,16 @@ public class EnchantmentAttributeEffect572449560Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getModifier(ILnet/minecraft/util/StringRepresentable;)Lnet/minecraft/world/entity/ai/attributes/AttributeModifier;", cancellable = true)
-    private void getModifier__548822321(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-548822321L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "onDeactivated(Lnet/minecraft/world/item/enchantment/EnchantedItemInUse;Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/phys/Vec3;I)V", cancellable = true)
     private void onDeactivated__654257516(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-654257516L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getModifier(ILnet/minecraft/util/StringRepresentable;)Lnet/minecraft/world/entity/ai/attributes/AttributeModifier;", cancellable = true)
+    private void getModifier__548822321(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-548822321L))
+            info.setReturnValue(null);
     }
 
 

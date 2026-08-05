@@ -16,7 +16,7 @@ public class QueryThreadGs4_1738961210Mixin {
     @Inject(at = @At("HEAD"), method = "start()Z", cancellable = true)
     private void start_1777239792(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1777239792L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "create(Lnet/minecraft/server/ServerInterface;)Lnet/minecraft/server/rcon/thread/QueryThreadGs4;", cancellable = true)

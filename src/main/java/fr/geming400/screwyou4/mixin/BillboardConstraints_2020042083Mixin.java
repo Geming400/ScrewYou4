@@ -16,13 +16,13 @@ public class BillboardConstraints_2020042083Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/world/entity/Display$BillboardConstraints;", cancellable = true)
     private static void valueOf_162522068(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(162522068L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.entity.Display.BillboardConstraints.CENTER);
     }
 
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName_884581611(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(884581611L))
-            info.setReturnValue(null);
+            info.setReturnValue("tNr揻h{sS内,_㻈%/t2♹젇P&q熧j듻4C");
     }
 
 

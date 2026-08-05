@@ -10,31 +10,31 @@ public class RegionStorageInfo1088013719Mixin {
         @Inject(at = @At("HEAD"), method = "type()Ljava/lang/String;", cancellable = true)
     private void type__47446752(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-47446752L))
-            info.setReturnValue(null);
+            info.setReturnValue("XXC癲OFZ'Yu\"iQ.@욶?%<ejꙢ%aᩉL+WDꅙꀆ洚rO7iQᑑ掺'ꫵKtT-Rd;A6@)5@腶嗀Z$ퟞk컗");
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1821441318(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1821441318L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__47446256(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-47446256L))
-            info.setReturnValue(null);
+            info.setReturnValue("9&㉴&#K&Pf.^^0v6");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1126276461(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1126276461L))
-            info.setReturnValue(null);
+            info.setReturnValue(733245415);
     }
 
     @Inject(at = @At("HEAD"), method = "level()Ljava/lang/String;", cancellable = true)
     private void level__47446752(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-47446752L))
-            info.setReturnValue(null);
+            info.setReturnValue("XXC癲OFZ'Yu\"iQ.@욶?%<ejꙢ%aᩉL+WDꅙꀆ洚rO7iQᑑ掺'ꫵKtT-Rd;A6@)5@腶嗀Z$ퟞk컗");
     }
 
     @Inject(at = @At("HEAD"), method = "dimension()Lnet/minecraft/resources/ResourceKey;", cancellable = true)

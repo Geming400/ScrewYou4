@@ -16,13 +16,13 @@ public class Precipitation1566515849Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/world/level/biome/Biome$Precipitation;", cancellable = true)
     private static void valueOf__1421800581(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1421800581L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.level.biome.Biome.Precipitation.SNOW);
     }
 
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName_431055378(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(431055378L))
-            info.setReturnValue(null);
+            info.setReturnValue(">SJu /q⬒j8.j&乯N");
     }
 
 

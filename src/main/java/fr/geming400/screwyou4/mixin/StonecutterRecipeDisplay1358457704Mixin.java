@@ -16,19 +16,19 @@ public class StonecutterRecipeDisplay1358457704Mixin {
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1550997333(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1550997333L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_222997729(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(222997729L))
-            info.setReturnValue(null);
+            info.setReturnValue("R0Nꜯ[^");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1396720446(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1396720446L))
-            info.setReturnValue(null);
+            info.setReturnValue(-936805802);
     }
 
     @Inject(at = @At("HEAD"), method = "result()Lnet/minecraft/world/item/crafting/display/SlotDisplay;", cancellable = true)

@@ -10,7 +10,7 @@ public class HotbarManager_1264318887Mixin {
         @Inject(at = @At("HEAD"), method = "get(I)Lnet/minecraft/client/player/inventory/Hotbar;", cancellable = true)
     private void get__1935671100(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1935671100L))
-            info.setReturnValue(null);
+            info.setReturnValue(new net.minecraft.client.player.inventory.Hotbar());
     }
 
     @Inject(at = @At("HEAD"), method = "save()V", cancellable = true)

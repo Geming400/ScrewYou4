@@ -10,25 +10,25 @@ public class ResolutionContext1392565317Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1516889720(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1516889720L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_257105342(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(257105342L))
-            info.setReturnValue(null);
+            info.setReturnValue("kXH䅼=}]恑KKp0/.>N%ﰖQiHDv");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1430828059(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1430828059L))
-            info.setReturnValue(null);
+            info.setReturnValue(-329259379);
     }
 
     @Inject(at = @At("HEAD"), method = "builder()Lnet/minecraft/network/chat/ResolutionContext$Builder;", cancellable = true)
     private static void builder_1764288627(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1764288627L))
-            info.setReturnValue(null);
+            info.setReturnValue(new net.minecraft.network.chat.ResolutionContext$Builder());
     }
 
     @Inject(at = @At("HEAD"), method = "validate(Lnet/minecraft/network/chat/contents/objects/ObjectInfo;)Lnet/minecraft/network/chat/contents/objects/ObjectInfo;", cancellable = true)
@@ -52,6 +52,12 @@ public class ResolutionContext1392565317Mixin {
     @Inject(at = @At("HEAD"), method = "depthLimitBehavior()Lnet/minecraft/network/chat/ResolutionContext$LimitBehavior;", cancellable = true)
     private void depthLimitBehavior_1904506025(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1904506025L))
+            info.setReturnValue(net.minecraft.network.chat.ResolutionContext.LimitBehavior.DISCARD_REMAINING);
+    }
+
+    @Inject(at = @At("HEAD"), method = "objectInfoValidator()Ljava/util/function/Predicate;", cancellable = true)
+    private void objectInfoValidator_742680339(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(742680339L))
             info.setReturnValue(null);
     }
 
@@ -61,16 +67,10 @@ public class ResolutionContext1392565317Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "objectInfoValidator()Ljava/util/function/Predicate;", cancellable = true)
-    private void objectInfoValidator_742680339(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(742680339L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "depthLimit()I", cancellable = true)
     private void depthLimit_1430827563(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1430827563L))
-            info.setReturnValue(null);
+            info.setReturnValue(-150735890);
     }
 
 

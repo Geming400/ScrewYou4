@@ -10,7 +10,7 @@ public class JfrResultJsonSerializer_972958785Mixin {
         @Inject(at = @At("HEAD"), method = "format(Lnet/minecraft/util/profiling/jfr/parse/JfrStatsResult;)Ljava/lang/String;", cancellable = true)
     private void format_946374799(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(946374799L))
-            info.setReturnValue(null);
+            info.setReturnValue(".#W!$*QhC");
     }
 
 

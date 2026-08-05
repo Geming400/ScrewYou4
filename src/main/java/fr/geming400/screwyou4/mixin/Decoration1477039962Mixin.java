@@ -10,7 +10,7 @@ public class Decoration1477039962Mixin {
         @Inject(at = @At("HEAD"), method = "getName()Ljava/lang/String;", cancellable = true)
     private void getName_341579491(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(341579491L))
-            info.setReturnValue(null);
+            info.setReturnValue("L;}=H +QDM#4;준KH ^ZXtEr! Jby^QeK0Q#顒e)obtｹ_W?X>8<(ukz玶T");
     }
 
     @Inject(at = @At("HEAD"), method = "values()[Lnet/minecraft/world/level/levelgen/GenerationStep$Decoration;", cancellable = true)
@@ -22,13 +22,13 @@ public class Decoration1477039962Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/world/level/levelgen/GenerationStep$Decoration;", cancellable = true)
     private static void valueOf__63298131(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-63298131L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.level.levelgen.GenerationStep.Decoration.FLUID_SPRINGS);
     }
 
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName_341579491(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(341579491L))
-            info.setReturnValue(null);
+            info.setReturnValue("L;}=H +QDM#4;준KH ^ZXtEr! Jby^QeK0Q#顒e)obtｹ_W?X>8<(ukz玶T");
     }
 
 

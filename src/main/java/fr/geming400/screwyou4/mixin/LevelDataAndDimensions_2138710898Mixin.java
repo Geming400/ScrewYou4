@@ -10,19 +10,19 @@ public class LevelDataAndDimensions_2138710898Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__770744140(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-770744140L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_1003250922(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1003250922L))
-            info.setReturnValue(null);
+            info.setReturnValue("(d糫WynN胀i>|ꗤ&84/ZujJX0=0╩c%o@XB5㓑ᕑfW?US8D<H7u+Z<Fb@.az _0IE4䭱:!");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__2117993657(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2117993657L))
-            info.setReturnValue(null);
+            info.setReturnValue(1830639917);
     }
 
     @Inject(at = @At("HEAD"), method = "dimensions()Lnet/minecraft/world/level/levelgen/WorldDimensions$Complete;", cancellable = true)

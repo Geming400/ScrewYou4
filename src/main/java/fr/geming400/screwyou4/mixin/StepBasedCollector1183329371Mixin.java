@@ -25,14 +25,14 @@ public class StepBasedCollector1183329371Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "runBefore(Lnet/minecraft/world/entity/InsideBlockEffectType;Ljava/util/function/Consumer;)V", cancellable = true)
-    private void runBefore__2130750710(CallbackInfo info) {
+    @Inject(at = @At("HEAD"), method = "runAfter(Lnet/minecraft/world/entity/InsideBlockEffectType;Ljava/util/function/Consumer;)V", cancellable = true)
+    private void runAfter__2130750710(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-2130750710L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "runAfter(Lnet/minecraft/world/entity/InsideBlockEffectType;Ljava/util/function/Consumer;)V", cancellable = true)
-    private void runAfter__2130750710(CallbackInfo info) {
+    @Inject(at = @At("HEAD"), method = "runBefore(Lnet/minecraft/world/entity/InsideBlockEffectType;Ljava/util/function/Consumer;)V", cancellable = true)
+    private void runBefore__2130750710(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-2130750710L))
             info.cancel();
     }

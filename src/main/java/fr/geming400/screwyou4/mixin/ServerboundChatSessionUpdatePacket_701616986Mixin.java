@@ -16,19 +16,19 @@ public class ServerboundChatSessionUpdatePacket_701616986Mixin {
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_2087129244(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2087129244L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__433842990(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-433842990L))
-            info.setReturnValue(null);
+            info.setReturnValue("o&C?줱pHvJNu1?Fc&He6'\"]._#鉮6z⤯esẊs'-EwP6)_E}]yⱒNan霽⣮kvW<Zf`4QI>P%@tᒬa");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_739879727(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(739879727L))
-            info.setReturnValue(null);
+            info.setReturnValue(-901337773);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/protocol/game/ServerGamePacketListener;)V", cancellable = true)

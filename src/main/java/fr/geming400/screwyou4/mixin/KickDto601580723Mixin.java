@@ -10,19 +10,19 @@ public class KickDto601580723Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_1987092982(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1987092982L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__533879252(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-533879252L))
-            info.setReturnValue(null);
+            info.setReturnValue("8udI;iQY6-:Tf`A>:xc'}yh탕4;Ki訹'ILw䔶h쵇");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_639843465(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(639843465L))
-            info.setReturnValue(null);
+            info.setReturnValue(1469862501);
     }
 
     @Inject(at = @At("HEAD"), method = "message()Ljava/util/Optional;", cancellable = true)

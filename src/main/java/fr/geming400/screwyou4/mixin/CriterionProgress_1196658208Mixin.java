@@ -10,13 +10,13 @@ public class CriterionProgress_1196658208Mixin {
         @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_61197736(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(61197736L))
-            info.setReturnValue(null);
+            info.setReturnValue("i^DN냬`䝔SG+F;ZDa\"fNAM_dUO_t\"J_Vp譥㍎avGa- dRHzRzh,hn2xR)+oj{=a(dk%J_e.AHA0ュ鹿㚂X}xh5Im{䮒:ྎ&O4ﶉQ");
     }
 
     @Inject(at = @At("HEAD"), method = "isDone()Z", cancellable = true)
     private void isDone_1234936790(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1234936790L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "grant()V", cancellable = true)
@@ -31,22 +31,22 @@ public class CriterionProgress_1196658208Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getObtained()Ljava/time/Instant;", cancellable = true)
-    private void getObtained__2001074889(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2001074889L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "serializeToNetwork(Lnet/minecraft/network/FriendlyByteBuf;)V", cancellable = true)
+    private void serializeToNetwork_843165086(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(843165086L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "fromNetwork(Lnet/minecraft/network/FriendlyByteBuf;)Lnet/minecraft/advancements/CriterionProgress;", cancellable = true)
     private static void fromNetwork__366044653(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-366044653L))
-            info.setReturnValue(null);
+            info.setReturnValue(new net.minecraft.advancements.CriterionProgress());
     }
 
-    @Inject(at = @At("HEAD"), method = "serializeToNetwork(Lnet/minecraft/network/FriendlyByteBuf;)V", cancellable = true)
-    private void serializeToNetwork_843165086(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(843165086L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "getObtained()Ljava/time/Instant;", cancellable = true)
+    private void getObtained__2001074889(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2001074889L))
+            info.setReturnValue(null);
     }
 
 

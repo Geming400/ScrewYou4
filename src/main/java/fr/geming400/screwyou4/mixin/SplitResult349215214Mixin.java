@@ -10,19 +10,19 @@ public class SplitResult349215214Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_1734727473(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1734727473L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__786244761(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-786244761L))
-            info.setReturnValue(null);
+            info.setReturnValue("91╎膀}/(J42s</d`큄CEG(`%`ey/m,栃Oj北G쥈hj)<y#6%CgSP$h*V4!tFqjb큷qR%]Cz8e$WIS粣UᮙR,BW`F\"nx");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_387477956(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(387477956L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1650879018);
     }
 
     @Inject(at = @At("HEAD"), method = "added()Lnet/minecraft/core/component/DataComponentMap;", cancellable = true)

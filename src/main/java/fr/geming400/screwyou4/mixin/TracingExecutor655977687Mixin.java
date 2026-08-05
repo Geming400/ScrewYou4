@@ -16,19 +16,19 @@ public class TracingExecutor655977687Mixin {
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_2041489946(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2041489946L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__479482288(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-479482288L))
-            info.setReturnValue(null);
+            info.setReturnValue("pq}A$H5lc}");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_694240429(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(694240429L))
-            info.setReturnValue(null);
+            info.setReturnValue(-912848930);
     }
 
     @Inject(at = @At("HEAD"), method = "execute(Ljava/lang/Runnable;)V", cancellable = true)

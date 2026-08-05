@@ -10,7 +10,7 @@ public class TemplateMirrorArgument1744119392Mixin {
         @Inject(at = @At("HEAD"), method = "getMirror(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/world/level/block/Mirror;", cancellable = true)
     private static void getMirror_123998245(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(123998245L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.level.block.Mirror.LEFT_RIGHT);
     }
 
     @Inject(at = @At("HEAD"), method = "templateMirror()Lnet/minecraft/commands/arguments/StringRepresentableArgument;", cancellable = true)

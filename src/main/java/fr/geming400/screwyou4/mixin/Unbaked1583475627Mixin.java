@@ -16,37 +16,19 @@ public class Unbaked1583475627Mixin {
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1325979410(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1325979410L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_448015652(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(448015652L))
-            info.setReturnValue(null);
+            info.setReturnValue("]JU*v칶皺");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1621738369(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1621738369L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "page1()F", cancellable = true)
-    private void page1_1621734990(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1621734990L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "page2()F", cancellable = true)
-    private void page2_1621734990(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1621734990L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "openAngle()F", cancellable = true)
-    private void openAngle_1621734990(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1621734990L))
-            info.setReturnValue(null);
+            info.setReturnValue(1222741259);
     }
 
     @Inject(at = @At("HEAD"), method = "bake(Lnet/minecraft/client/renderer/special/SpecialModelRenderer$BakingContext;)Lnet/minecraft/client/renderer/special/SpecialModelRenderer;", cancellable = true)
@@ -59,6 +41,24 @@ public class Unbaked1583475627Mixin {
     private void bake_1687455203(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1687455203L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "page1()F", cancellable = true)
+    private void page1_1621734990(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1621734990L))
+            info.setReturnValue(2.09582E7F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "page2()F", cancellable = true)
+    private void page2_1621734990(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1621734990L))
+            info.setReturnValue(2.09582E7F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "openAngle()F", cancellable = true)
+    private void openAngle_1621734990(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1621734990L))
+            info.setReturnValue(2.09582E7F);
     }
 
 

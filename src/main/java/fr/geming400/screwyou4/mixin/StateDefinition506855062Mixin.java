@@ -16,7 +16,7 @@ public class StateDefinition506855062Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__628605409(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-628605409L))
-            info.setReturnValue(null);
+            info.setReturnValue("7i\"d/M4QU!8H^0t");
     }
 
     @Inject(at = @At("HEAD"), method = "getProperties()Ljava/util/Collection;", cancellable = true)
@@ -43,16 +43,16 @@ public class StateDefinition506855062Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "isSingletonState()Z", cancellable = true)
-    private void isSingletonState_545133645(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(545133645L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "propertiesCodec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
     private void propertiesCodec__2052258510(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2052258510L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isSingletonState()Z", cancellable = true)
+    private void isSingletonState_545133645(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(545133645L))
+            info.setReturnValue(false);
     }
 
 

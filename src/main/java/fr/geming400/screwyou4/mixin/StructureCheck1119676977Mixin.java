@@ -22,7 +22,7 @@ public class StructureCheck1119676977Mixin {
     @Inject(at = @At("HEAD"), method = "checkStart(Lnet/minecraft/world/level/ChunkPos;Lnet/minecraft/world/level/levelgen/structure/Structure;Lnet/minecraft/world/level/levelgen/structure/placement/StructurePlacement;Z)Lnet/minecraft/world/level/levelgen/structure/StructureCheckResult;", cancellable = true)
     private void checkStart__479142211(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-479142211L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.level.levelgen.structure.StructureCheckResult.CHUNK_LOAD_NEEDED);
     }
 
 

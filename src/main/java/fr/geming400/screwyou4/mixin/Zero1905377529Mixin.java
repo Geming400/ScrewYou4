@@ -10,13 +10,13 @@ public class Zero1905377529Mixin {
         @Inject(at = @At("HEAD"), method = "test(Ljava/lang/Object;)Z", cancellable = true)
     private void test__1003949044(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1003949044L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "test(Ljava/lang/Iterable;)Z", cancellable = true)
     private void test__214660871(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-214660871L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "unpack()Ljava/util/List;", cancellable = true)

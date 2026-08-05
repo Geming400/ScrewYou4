@@ -10,7 +10,7 @@ public class BedPart96094422Mixin {
         @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__1039366049(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1039366049L))
-            info.setReturnValue(null);
+            info.setReturnValue("qq18쯕*OZ_I*$5F=\"IR$LW561&DzѬ⏨焮Pf7cCK阼髸MqXv");
     }
 
     @Inject(at = @At("HEAD"), method = "values()[Lnet/minecraft/world/level/block/state/properties/BedPart;", cancellable = true)
@@ -22,13 +22,13 @@ public class BedPart96094422Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/world/level/block/state/properties/BedPart;", cancellable = true)
     private static void valueOf_987965566(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(987965566L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.level.block.state.properties.BedPart.HEAD);
     }
 
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName__1039366049(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1039366049L))
-            info.setReturnValue(null);
+            info.setReturnValue("qq18쯕*OZ_I*$5F=\"IR$LW561&DzѬ⏨焮Pf7cCK阼髸MqXv");
     }
 
 

@@ -16,13 +16,13 @@ public class ExplosionInteraction_1296258985Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/world/level/Level$ExplosionInteraction;", cancellable = true)
     private static void valueOf__1555673045(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1555673045L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.level.Level.ExplosionInteraction.NONE);
     }
 
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName_160798513(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(160798513L))
-            info.setReturnValue(null);
+            info.setReturnValue("|꼺(UK>$cDO");
     }
 
 

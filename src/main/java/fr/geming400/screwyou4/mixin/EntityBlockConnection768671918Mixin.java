@@ -28,13 +28,13 @@ public class EntityBlockConnection768671918Mixin {
     @Inject(at = @At("HEAD"), method = "isBroken()Z", cancellable = true)
     private void isBroken_806950501(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(806950501L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "distanceManhattan()I", cancellable = true)
     private void distanceManhattan_806934164(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(806934164L))
-            info.setReturnValue(null);
+            info.setReturnValue(1921497740);
     }
 
 

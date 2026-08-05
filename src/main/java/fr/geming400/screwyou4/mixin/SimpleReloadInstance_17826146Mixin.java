@@ -10,7 +10,7 @@ public class SimpleReloadInstance_17826146Mixin {
         @Inject(at = @At("HEAD"), method = "done()Ljava/util/concurrent/CompletableFuture;", cancellable = true)
     private void done_1731201406(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1731201406L))
-            info.setReturnValue(null);
+            info.setReturnValue(new java.util.concurrent.CompletableFuture());
     }
 
     @Inject(at = @At("HEAD"), method = "of(Lnet/minecraft/server/packs/resources/ResourceManager;Ljava/util/List;Ljava/util/concurrent/Executor;Ljava/util/concurrent/Executor;Ljava/util/concurrent/CompletableFuture;)Lnet/minecraft/server/packs/resources/ReloadInstance;", cancellable = true)
@@ -28,7 +28,7 @@ public class SimpleReloadInstance_17826146Mixin {
     @Inject(at = @At("HEAD"), method = "getActualProgress()F", cancellable = true)
     private void getActualProgress_56085508(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(56085508L))
-            info.setReturnValue(null);
+            info.setReturnValue(7.890756E8F);
     }
 
 

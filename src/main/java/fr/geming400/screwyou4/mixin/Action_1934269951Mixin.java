@@ -16,7 +16,7 @@ public class Action_1934269951Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/network/protocol/game/ClientboundCustomChatCompletionsPacket$Action;", cancellable = true)
     private static void valueOf__713393752(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-713393752L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.network.protocol.game.ClientboundCustomChatCompletionsPacket.Action.ADD);
     }
 
 

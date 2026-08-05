@@ -10,7 +10,7 @@ public class RunningOnDifferentThreadException2119313676Mixin {
         @Inject(at = @At("HEAD"), method = "fillInStackTrace()Ljava/lang/Throwable;", cancellable = true)
     private void fillInStackTrace__1451968828(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1451968828L))
-            info.setReturnValue(null);
+            info.setReturnValue(new java.lang.Throwable());
     }
 
 

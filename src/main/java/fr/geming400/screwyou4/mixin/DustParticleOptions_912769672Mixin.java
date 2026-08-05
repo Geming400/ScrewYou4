@@ -16,7 +16,7 @@ public class DustParticleOptions_912769672Mixin {
     @Inject(at = @At("HEAD"), method = "getColor()Lorg/joml/Vector3f;", cancellable = true)
     private void getColor_376180053(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(376180053L))
-            info.setReturnValue(null);
+            info.setReturnValue(new org.joml.Vector3f());
     }
 
 

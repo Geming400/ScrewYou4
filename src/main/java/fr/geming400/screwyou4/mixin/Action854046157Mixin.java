@@ -16,7 +16,7 @@ public class Action854046157Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/network/protocol/game/ServerboundPlayerCommandPacket$Action;", cancellable = true)
     private static void valueOf_528011051(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(528011051L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.network.protocol.game.ServerboundPlayerCommandPacket.Action.START_SPRINTING);
     }
 
 

@@ -25,12 +25,6 @@ public class SingleItemRecipeBuilder2054740580Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "defaultId()Lnet/minecraft/resources/ResourceKey;", cancellable = true)
-    private void defaultId__1431735403(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1431735403L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "unlockedBy(Ljava/lang/String;Lnet/minecraft/advancements/triggers/Criterion;)Lnet/minecraft/data/recipes/RecipeBuilder;", cancellable = true)
     private void unlockedBy__184593528(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-184593528L))
@@ -40,6 +34,12 @@ public class SingleItemRecipeBuilder2054740580Mixin {
     @Inject(at = @At("HEAD"), method = "unlockedBy(Ljava/lang/String;Lnet/minecraft/advancements/triggers/Criterion;)Lnet/minecraft/data/recipes/SingleItemRecipeBuilder;", cancellable = true)
     private void unlockedBy_1451610979(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1451610979L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "defaultId()Lnet/minecraft/resources/ResourceKey;", cancellable = true)
+    private void defaultId__1431735403(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1431735403L))
             info.setReturnValue(null);
     }
 

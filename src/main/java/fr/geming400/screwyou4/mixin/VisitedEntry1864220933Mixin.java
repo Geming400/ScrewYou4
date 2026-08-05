@@ -22,19 +22,19 @@ public class VisitedEntry1864220933Mixin {
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1045234104(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1045234104L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_728760958(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(728760958L))
-            info.setReturnValue(null);
+            info.setReturnValue("DBj十䠊");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1902483675(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1902483675L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1315090934);
     }
 
 

@@ -10,19 +10,19 @@ public class BlockStateModelDispatcher_236403826Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_1621916084(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1621916084L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__899056150(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-899056150L))
-            info.setReturnValue(null);
+            info.setReturnValue("_ij^뜭cNJ狁vq[N*Ybq B&rn긳?ࣕg=q牶ZSQ> )I('rp");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_274666567(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(274666567L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1514662857);
     }
 
     @Inject(at = @At("HEAD"), method = "instantiate(Lnet/minecraft/world/level/block/state/StateDefinition;Ljava/util/function/Supplier;)Ljava/util/Map;", cancellable = true)

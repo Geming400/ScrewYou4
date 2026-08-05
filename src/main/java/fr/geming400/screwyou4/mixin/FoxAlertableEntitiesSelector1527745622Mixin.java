@@ -10,7 +10,7 @@ public class FoxAlertableEntitiesSelector1527745622Mixin {
         @Inject(at = @At("HEAD"), method = "test(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/server/level/ServerLevel;)Z", cancellable = true)
     private void test_1926102670(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1926102670L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
 

@@ -10,7 +10,7 @@ public class BlockPatternMatch_97017597Mixin {
         @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__1038442875(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1038442875L))
-            info.setReturnValue(null);
+            info.setReturnValue("!z$Y-&fﻱNg:#3mmw ;#b铄Z7GU匊u}Uhj4g^?A_椉`Kbnj-䥐摥Wni;*g'F弐扬'iX&e2c[%9*y唙uAK.Y&3D@.");
     }
 
     @Inject(at = @At("HEAD"), method = "getBlock(III)Lnet/minecraft/world/level/block/state/pattern/BlockInWorld;", cancellable = true)
@@ -22,31 +22,31 @@ public class BlockPatternMatch_97017597Mixin {
     @Inject(at = @At("HEAD"), method = "getDepth()I", cancellable = true)
     private void getDepth_135279842(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(135279842L))
-            info.setReturnValue(null);
+            info.setReturnValue(-764176946);
     }
 
     @Inject(at = @At("HEAD"), method = "getUp()Lnet/minecraft/core/Direction;", cancellable = true)
     private void getUp__665837689(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-665837689L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.core.Direction.EAST);
     }
 
     @Inject(at = @At("HEAD"), method = "getHeight()I", cancellable = true)
     private void getHeight_135279842(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(135279842L))
-            info.setReturnValue(null);
+            info.setReturnValue(-764176946);
     }
 
     @Inject(at = @At("HEAD"), method = "getWidth()I", cancellable = true)
     private void getWidth_135279842(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(135279842L))
-            info.setReturnValue(null);
+            info.setReturnValue(-764176946);
     }
 
     @Inject(at = @At("HEAD"), method = "getForwards()Lnet/minecraft/core/Direction;", cancellable = true)
     private void getForwards__665837689(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-665837689L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.core.Direction.EAST);
     }
 
     @Inject(at = @At("HEAD"), method = "getFrontTopLeft()Lnet/minecraft/core/BlockPos;", cancellable = true)

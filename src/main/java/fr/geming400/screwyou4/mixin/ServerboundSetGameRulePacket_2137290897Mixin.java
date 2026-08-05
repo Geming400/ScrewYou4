@@ -16,19 +16,19 @@ public class ServerboundSetGameRulePacket_2137290897Mixin {
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__772164141(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-772164141L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_1001830921(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1001830921L))
-            info.setReturnValue(null);
+            info.setReturnValue(")q\"Gjq&ToOꍩ}$Vq(!oF^GP|#nhJh");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__2119413658(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2119413658L))
-            info.setReturnValue(null);
+            info.setReturnValue(-2080787193);
     }
 
     @Inject(at = @At("HEAD"), method = "entries()Ljava/util/List;", cancellable = true)

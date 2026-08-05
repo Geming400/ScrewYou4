@@ -10,25 +10,25 @@ public class JukeboxPlayable_873626826Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__2035828212(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2035828212L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__261833150(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-261833150L))
-            info.setReturnValue(null);
+            info.setReturnValue("ATVL{K=q<麜+.m+y[h`#Ჵ6igKOEzvGO6'2囹j(3塰K=thDfO疳稿$CF&D");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_911889567(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(911889567L))
-            info.setReturnValue(null);
+            info.setReturnValue(-642710385);
     }
 
-    @Inject(at = @At("HEAD"), method = "song()Lnet/minecraft/core/Holder;", cancellable = true)
-    private void song__1872464699(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1872464699L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "addToTooltip(Lnet/minecraft/world/item/Item$TooltipContext;Ljava/util/function/Consumer;Lnet/minecraft/world/item/TooltipFlag;Lnet/minecraft/core/component/DataComponentGetter;)V", cancellable = true)
+    private void addToTooltip__1669091565(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1669091565L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "tryInsertIntoJukebox(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/player/Player;)Lnet/minecraft/world/InteractionResult;", cancellable = true)
@@ -37,10 +37,10 @@ public class JukeboxPlayable_873626826Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "addToTooltip(Lnet/minecraft/world/item/Item$TooltipContext;Ljava/util/function/Consumer;Lnet/minecraft/world/item/TooltipFlag;Lnet/minecraft/core/component/DataComponentGetter;)V", cancellable = true)
-    private void addToTooltip__1669091565(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1669091565L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "song()Lnet/minecraft/core/Holder;", cancellable = true)
+    private void song__1872464699(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1872464699L))
+            info.setReturnValue(null);
     }
 
 

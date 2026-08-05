@@ -16,13 +16,13 @@ public class PackType_934780241Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/server/packs/PackType;", cancellable = true)
     private static void valueOf_1506427766(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1506427766L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.server.packs.PackType.CLIENT_RESOURCES);
     }
 
     @Inject(at = @At("HEAD"), method = "getDirectory()Ljava/lang/String;", cancellable = true)
     private void getDirectory__200680231(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-200680231L))
-            info.setReturnValue(null);
+            info.setReturnValue("_褍cmr⭐Al㙿y[TO|&h ;n^磘 uw䴏Xzw4kfg+B^Wir-麖R0N'kzfTH6Q73.3qAW垲Dn/i7[pRb㾖䄄ཱུUL>uw<VS［3_]owX");
     }
 
 

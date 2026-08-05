@@ -10,25 +10,25 @@ public class RecursiveReferenceProblem1242471138Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1666983899(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1666983899L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_107011163(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(107011163L))
-            info.setReturnValue(null);
+            info.setReturnValue("TD65ﮙ6讔+yz3&}쉏O[^Ln{hA癹Zt;%졋_\"Z*+AUh'T炣dLQPr'U_CP庆澞[@nsA,씟밿vXSrM+Ct汚鿀9aE`+_-[aNbힱsU");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1280733880(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1280733880L))
-            info.setReturnValue(null);
+            info.setReturnValue(711868824);
     }
 
     @Inject(at = @At("HEAD"), method = "description()Ljava/lang/String;", cancellable = true)
     private void description_107010667(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(107010667L))
-            info.setReturnValue(null);
+            info.setReturnValue("稬2(QSKo}軛Y53g缔嬞c++:WqSguKBzJQ%");
     }
 
     @Inject(at = @At("HEAD"), method = "referenced()Lnet/minecraft/resources/ResourceKey;", cancellable = true)

@@ -25,9 +25,9 @@ public class GenericWaitingScreen1465731498Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "createWaiting(Lnet/minecraft/network/chat/Component;Lnet/minecraft/network/chat/Component;Ljava/lang/Runnable;)Lnet/minecraft/client/gui/screens/GenericWaitingScreen;", cancellable = true)
-    private static void createWaiting__1178253954(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1178253954L))
+    @Inject(at = @At("HEAD"), method = "createCompleted(Lnet/minecraft/network/chat/Component;Lnet/minecraft/network/chat/Component;Lnet/minecraft/network/chat/Component;Ljava/lang/Runnable;)Lnet/minecraft/client/gui/screens/GenericWaitingScreen;", cancellable = true)
+    private static void createCompleted_1997113234(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1997113234L))
             info.setReturnValue(null);
     }
 
@@ -37,9 +37,9 @@ public class GenericWaitingScreen1465731498Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "createCompleted(Lnet/minecraft/network/chat/Component;Lnet/minecraft/network/chat/Component;Lnet/minecraft/network/chat/Component;Ljava/lang/Runnable;)Lnet/minecraft/client/gui/screens/GenericWaitingScreen;", cancellable = true)
-    private static void createCompleted_1997113234(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1997113234L))
+    @Inject(at = @At("HEAD"), method = "createWaiting(Lnet/minecraft/network/chat/Component;Lnet/minecraft/network/chat/Component;Ljava/lang/Runnable;)Lnet/minecraft/client/gui/screens/GenericWaitingScreen;", cancellable = true)
+    private static void createWaiting__1178253954(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1178253954L))
             info.setReturnValue(null);
     }
 
@@ -52,7 +52,7 @@ public class GenericWaitingScreen1465731498Mixin {
     @Inject(at = @At("HEAD"), method = "shouldCloseOnEsc()Z", cancellable = true)
     private void shouldCloseOnEsc_1504010081(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1504010081L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
 

@@ -10,7 +10,7 @@ public class SkinManager_608279102Mixin {
         @Inject(at = @At("HEAD"), method = "get(Lcom/mojang/authlib/GameProfile;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
     private void get_1626322721(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1626322721L))
-            info.setReturnValue(null);
+            info.setReturnValue(new java.util.concurrent.CompletableFuture());
     }
 
     @Inject(at = @At("HEAD"), method = "createLookup(Lcom/mojang/authlib/GameProfile;Z)Ljava/util/function/Supplier;", cancellable = true)

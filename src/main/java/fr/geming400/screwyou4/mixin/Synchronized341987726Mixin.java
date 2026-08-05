@@ -10,7 +10,7 @@ public class Synchronized341987726Mixin {
         @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/world/item/ItemStack;)Z", cancellable = true)
     private void matches_2076522858(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2076522858L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "force(Lnet/minecraft/world/item/ItemStack;)V", cancellable = true)

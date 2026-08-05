@@ -16,7 +16,7 @@ public class Stage_581470206Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/server/level/progress/LevelLoadListener$Stage;", cancellable = true)
     private static void valueOf__70161590(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-70161590L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.server.level.progress.LevelLoadListener.Stage.START_SERVER);
     }
 
 

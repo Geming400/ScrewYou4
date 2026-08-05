@@ -10,13 +10,13 @@ public class StatsCounter355909041Mixin {
         @Inject(at = @At("HEAD"), method = "getValue(Lnet/minecraft/stats/StatType;Ljava/lang/Object;)I", cancellable = true)
     private void getValue_793527568(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(793527568L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1660385001);
     }
 
     @Inject(at = @At("HEAD"), method = "getValue(Lnet/minecraft/stats/Stat;)I", cancellable = true)
     private void getValue__1151551026(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1151551026L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1999864355);
     }
 
     @Inject(at = @At("HEAD"), method = "increment(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/stats/Stat;I)V", cancellable = true)

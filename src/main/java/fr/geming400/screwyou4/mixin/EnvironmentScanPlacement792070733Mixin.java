@@ -13,6 +13,12 @@ public class EnvironmentScanPlacement792070733Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "getPositions(Lnet/minecraft/world/level/levelgen/placement/PlacementContext;Lnet/minecraft/util/RandomSource;Lnet/minecraft/core/BlockPos;)Ljava/util/stream/Stream;", cancellable = true)
+    private void getPositions__1159509134(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1159509134L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "scanningFor(Lnet/minecraft/core/Direction;Lnet/minecraft/world/level/levelgen/blockpredicates/BlockPredicate;I)Lnet/minecraft/world/level/levelgen/placement/EnvironmentScanPlacement;", cancellable = true)
     private static void scanningFor_1589556264(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1589556264L))
@@ -22,12 +28,6 @@ public class EnvironmentScanPlacement792070733Mixin {
     @Inject(at = @At("HEAD"), method = "scanningFor(Lnet/minecraft/core/Direction;Lnet/minecraft/world/level/levelgen/blockpredicates/BlockPredicate;Lnet/minecraft/world/level/levelgen/blockpredicates/BlockPredicate;I)Lnet/minecraft/world/level/levelgen/placement/EnvironmentScanPlacement;", cancellable = true)
     private static void scanningFor__530110608(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-530110608L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getPositions(Lnet/minecraft/world/level/levelgen/placement/PlacementContext;Lnet/minecraft/util/RandomSource;Lnet/minecraft/core/BlockPos;)Ljava/util/stream/Stream;", cancellable = true)
-    private void getPositions__1159509134(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1159509134L))
             info.setReturnValue(null);
     }
 

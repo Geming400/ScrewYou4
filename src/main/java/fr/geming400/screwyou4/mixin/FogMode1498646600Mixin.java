@@ -16,7 +16,7 @@ public class FogMode1498646600Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/client/renderer/fog/FogRenderer$FogMode;", cancellable = true)
     private static void valueOf_106018813(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(106018813L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.client.renderer.fog.FogRenderer.FogMode.WORLD);
     }
 
 

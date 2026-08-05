@@ -16,7 +16,7 @@ public class KnownLinkType1988506355Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/server/ServerLinks$KnownLinkType;", cancellable = true)
     private static void valueOf__262130082(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-262130082L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.server.ServerLinks.KnownLinkType.FORUMS);
     }
 
     @Inject(at = @At("HEAD"), method = "create(Ljava/net/URI;)Lnet/minecraft/server/ServerLinks$Entry;", cancellable = true)

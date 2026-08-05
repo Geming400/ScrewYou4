@@ -10,19 +10,19 @@ public class ReplaceDisk_1938206637Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__971248401(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-971248401L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_802746661(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(802746661L))
-            info.setReturnValue(null);
+            info.setReturnValue("VN쐽U1RsyfI?HnK{7gwT.");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1976469378(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1976469378L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1288838708);
     }
 
     @Inject(at = @At("HEAD"), method = "apply(Lnet/minecraft/server/level/ServerLevel;ILnet/minecraft/world/item/enchantment/EnchantedItemInUse;Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/phys/Vec3;)V", cancellable = true)
@@ -43,15 +43,15 @@ public class ReplaceDisk_1938206637Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
-    private void codec__620906936(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-620906936L))
+    @Inject(at = @At("HEAD"), method = "triggerGameEvent()Ljava/util/Optional;", cancellable = true)
+    private void triggerGameEvent__2111299238(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2111299238L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "radius()Lnet/minecraft/world/item/enchantment/LevelBasedValue;", cancellable = true)
-    private void radius_2070286235(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2070286235L))
+    @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
+    private void codec__620906936(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-620906936L))
             info.setReturnValue(null);
     }
 
@@ -67,9 +67,9 @@ public class ReplaceDisk_1938206637Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "triggerGameEvent()Ljava/util/Optional;", cancellable = true)
-    private void triggerGameEvent__2111299238(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2111299238L))
+    @Inject(at = @At("HEAD"), method = "radius()Lnet/minecraft/world/item/enchantment/LevelBasedValue;", cancellable = true)
+    private void radius_2070286235(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2070286235L))
             info.setReturnValue(null);
     }
 

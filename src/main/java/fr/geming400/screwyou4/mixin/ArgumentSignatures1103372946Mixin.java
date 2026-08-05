@@ -10,19 +10,19 @@ public class ArgumentSignatures1103372946Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1806082091(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1806082091L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__32087029(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-32087029L))
-            info.setReturnValue(null);
+            info.setReturnValue("M2r<E]铺mo -%!d\"5c}3㽁avo' 觏n␃gy7r:W#>'ɾE&=h/e+Xꍜ+");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1141635688(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1141635688L))
-            info.setReturnValue(null);
+            info.setReturnValue(-794144437);
     }
 
     @Inject(at = @At("HEAD"), method = "write(Lnet/minecraft/network/FriendlyByteBuf;)V", cancellable = true)

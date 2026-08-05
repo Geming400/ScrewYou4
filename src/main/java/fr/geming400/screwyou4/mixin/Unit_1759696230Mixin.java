@@ -16,7 +16,7 @@ public class Unit_1759696230Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/util/Unit;", cancellable = true)
     private static void valueOf__1603674450(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1603674450L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.util.Unit.INSTANCE);
     }
 
 

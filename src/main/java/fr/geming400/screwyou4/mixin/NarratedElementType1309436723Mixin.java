@@ -16,7 +16,7 @@ public class NarratedElementType1309436723Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/client/gui/narration/NarratedElementType;", cancellable = true)
     private static void valueOf_434401743(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(434401743L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.client.gui.narration.NarratedElementType.TITLE);
     }
 
 

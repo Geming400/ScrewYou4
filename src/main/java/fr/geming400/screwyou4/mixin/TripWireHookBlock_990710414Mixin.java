@@ -13,10 +13,10 @@ public class TripWireHookBlock_990710414Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "calculateState(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;ZZILnet/minecraft/world/level/block/state/BlockState;)V", cancellable = true)
-    private static void calculateState_1007760044(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1007760044L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
+    private void getStateForPlacement__267889354(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-267889354L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "setPlacedBy(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;)V", cancellable = true)
@@ -25,10 +25,10 @@ public class TripWireHookBlock_990710414Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
-    private void getStateForPlacement__267889354(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-267889354L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "calculateState(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;ZZILnet/minecraft/world/level/block/state/BlockState;)V", cancellable = true)
+    private static void calculateState_1007760044(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1007760044L))
+            info.cancel();
     }
 
 

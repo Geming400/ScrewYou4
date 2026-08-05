@@ -34,13 +34,13 @@ public class FireworkEntityRenderer_1320795167Mixin {
     @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/EntityRenderState;", cancellable = true)
     private void createRenderState_732158722(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(732158722L))
-            info.setReturnValue(null);
+            info.setReturnValue(new net.minecraft.client.renderer.entity.state.EntityRenderState());
     }
 
     @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/FireworkRocketRenderState;", cancellable = true)
     private void createRenderState_931346010(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(931346010L))
-            info.setReturnValue(null);
+            info.setReturnValue(new net.minecraft.client.renderer.entity.state.FireworkRocketRenderState());
     }
 
 

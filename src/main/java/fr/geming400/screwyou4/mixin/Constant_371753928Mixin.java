@@ -10,25 +10,25 @@ public class Constant_371753928Mixin {
         @Inject(at = @At("HEAD"), method = "value()F", cancellable = true)
     private void value_410013290(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(410013290L))
-            info.setReturnValue(null);
+            info.setReturnValue(9.15149E7F);
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_1757266186(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1757266186L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__763706048(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-763706048L))
-            info.setReturnValue(null);
+            info.setReturnValue("P몳S9FD^IArྸ[9Bl뿿Ys&bTrl07;B\"`[<K_Z)醶\"npkBH|b냈RF妇멹]M廭h|T'䫂eP@M9J&Ly6");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_410016669(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(410016669L))
-            info.setReturnValue(null);
+            info.setReturnValue(-213908298);
     }
 
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
@@ -40,7 +40,7 @@ public class Constant_371753928Mixin {
     @Inject(at = @At("HEAD"), method = "calculate(I)F", cancellable = true)
     private void calculate_1585655523(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1585655523L))
-            info.setReturnValue(null);
+            info.setReturnValue(9.15149E7F);
     }
 
 

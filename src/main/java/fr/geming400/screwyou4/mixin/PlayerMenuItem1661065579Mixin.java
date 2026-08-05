@@ -16,7 +16,7 @@ public class PlayerMenuItem1661065579Mixin {
     @Inject(at = @At("HEAD"), method = "isEnabled()Z", cancellable = true)
     private void isEnabled_1699344162(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1699344162L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "selectItem(Lnet/minecraft/client/gui/spectator/SpectatorMenu;)V", cancellable = true)

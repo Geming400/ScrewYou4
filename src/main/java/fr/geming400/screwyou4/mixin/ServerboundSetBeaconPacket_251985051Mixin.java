@@ -16,19 +16,19 @@ public class ServerboundSetBeaconPacket_251985051Mixin {
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_1637497309(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1637497309L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__883474925(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-883474925L))
-            info.setReturnValue(null);
+            info.setReturnValue("eO!>_NG碱L*");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_290247792(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(290247792L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1597071853);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/PacketListener;)V", cancellable = true)

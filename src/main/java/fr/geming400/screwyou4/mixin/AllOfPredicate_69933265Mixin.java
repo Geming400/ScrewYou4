@@ -16,13 +16,13 @@ public class AllOfPredicate_69933265Mixin {
     @Inject(at = @At("HEAD"), method = "test(Ljava/lang/Object;Ljava/lang/Object;)Z", cancellable = true)
     private void test_29606527(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(29606527L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "test(Lnet/minecraft/world/level/WorldGenLevel;Lnet/minecraft/core/BlockPos;)Z", cancellable = true)
     private void test_1271634062(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1271634062L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
 

@@ -10,19 +10,19 @@ public class BlockRenderState_1418969723Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1490485315(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1490485315L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_283509747(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(283509747L))
-            info.setReturnValue(null);
+            info.setReturnValue("s[hdp)SAqrd鰸,0t");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1457232464(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1457232464L))
-            info.setReturnValue(null);
+            info.setReturnValue(972898106);
     }
 
     @Inject(at = @At("HEAD"), method = "blockState()Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)

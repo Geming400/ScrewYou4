@@ -28,7 +28,7 @@ public class ServerboundFinishConfigurationPacket1580034810Mixin {
     @Inject(at = @At("HEAD"), method = "isTerminal()Z", cancellable = true)
     private void isTerminal_1618313393(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1618313393L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
 

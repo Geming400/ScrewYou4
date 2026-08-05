@@ -10,7 +10,7 @@ public class KeyframeTrackSampler_741367535Mixin {
         @Inject(at = @At("HEAD"), method = "sample(J)Ljava/lang/Object;", cancellable = true)
     private void sample_277094351(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(277094351L))
-            info.setReturnValue(null);
+            info.setReturnValue(new java.lang.Object());
     }
 
 

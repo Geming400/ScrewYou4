@@ -16,7 +16,7 @@ public class DisplayMode1515897328Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/client/gui/components/ChatComponent$DisplayMode;", cancellable = true)
     private static void valueOf_1454303109(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1454303109L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.client.gui.components.ChatComponent.DisplayMode.BACKGROUND);
     }
 
 

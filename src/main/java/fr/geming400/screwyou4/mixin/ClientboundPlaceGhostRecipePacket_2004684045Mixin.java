@@ -16,19 +16,19 @@ public class ClientboundPlaceGhostRecipePacket_2004684045Mixin {
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__904770993(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-904770993L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_869224069(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(869224069L))
-            info.setReturnValue(null);
+            info.setReturnValue("Eo]");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2042946786(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2042946786L))
-            info.setReturnValue(null);
+            info.setReturnValue(656550025);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/PacketListener;)V", cancellable = true)
@@ -43,15 +43,15 @@ public class ClientboundPlaceGhostRecipePacket_2004684045Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "recipeDisplay()Lnet/minecraft/world/item/crafting/display/RecipeDisplay;", cancellable = true)
-    private void recipeDisplay_575736651(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(575736651L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "containerId()I", cancellable = true)
     private void containerId_2042946290(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2042946290L))
+            info.setReturnValue(859697444);
+    }
+
+    @Inject(at = @At("HEAD"), method = "recipeDisplay()Lnet/minecraft/world/item/crafting/display/RecipeDisplay;", cancellable = true)
+    private void recipeDisplay_575736651(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(575736651L))
             info.setReturnValue(null);
     }
 

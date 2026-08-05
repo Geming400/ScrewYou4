@@ -16,19 +16,19 @@ public class Direction138130229Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/util/datafix/fixes/ChunkPalettedStorageFix$Direction;", cancellable = true)
     private static void valueOf__2055050481(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2055050481L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.util.datafix.fixes.ChunkPalettedStorageFix.Direction.DOWN);
     }
 
     @Inject(at = @At("HEAD"), method = "getAxisDirection()Lnet/minecraft/util/datafix/fixes/ChunkPalettedStorageFix$Direction$AxisDirection;", cancellable = true)
     private void getAxisDirection_252884935(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(252884935L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.util.datafix.fixes.ChunkPalettedStorageFix.Direction.AxisDirection.NEGATIVE);
     }
 
     @Inject(at = @At("HEAD"), method = "getAxis()Lnet/minecraft/util/datafix/fixes/ChunkPalettedStorageFix$Direction$Axis;", cancellable = true)
     private void getAxis__494045226(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-494045226L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.util.datafix.fixes.ChunkPalettedStorageFix.Direction.Axis.Y);
     }
 
 

@@ -16,7 +16,7 @@ public class RecipeBookType_1877341165Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/world/inventory/RecipeBookType;", cancellable = true)
     private static void valueOf__1459433261(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1459433261L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.inventory.RecipeBookType.CRAFTING);
     }
 
 

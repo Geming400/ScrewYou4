@@ -13,12 +13,6 @@ public class ChunkGenerationTask1084254204Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getCenter()Lnet/minecraft/server/level/GenerationChunkHolder;", cancellable = true)
-    private void getCenter__1534307316(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1534307316L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "markForCancellation()V", cancellable = true)
     private void markForCancellation_1122528943(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1122528943L))
@@ -28,6 +22,12 @@ public class ChunkGenerationTask1084254204Mixin {
     @Inject(at = @At("HEAD"), method = "runUntilWait()Ljava/util/concurrent/CompletableFuture;", cancellable = true)
     private void runUntilWait__1497337831(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1497337831L))
+            info.setReturnValue(new java.util.concurrent.CompletableFuture());
+    }
+
+    @Inject(at = @At("HEAD"), method = "getCenter()Lnet/minecraft/server/level/GenerationChunkHolder;", cancellable = true)
+    private void getCenter__1534307316(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1534307316L))
             info.setReturnValue(null);
     }
 

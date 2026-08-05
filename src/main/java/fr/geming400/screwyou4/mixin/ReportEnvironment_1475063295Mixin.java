@@ -10,19 +10,19 @@ public class ReportEnvironment_1475063295Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1434391743(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1434391743L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_339603319(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(339603319L))
-            info.setReturnValue(null);
+            info.setReturnValue(">d|kbuYG:3xH2`jxk⩧NJo8ꧺ:!秡}|핣b2U3Z뭹#솕Tkꭸ 溑nuM$>JT");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1513326036(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1513326036L))
-            info.setReturnValue(null);
+            info.setReturnValue(1177734353);
     }
 
     @Inject(at = @At("HEAD"), method = "create(Lnet/minecraft/client/multiplayer/chat/report/ReportEnvironment$Server;)Lnet/minecraft/client/multiplayer/chat/report/ReportEnvironment;", cancellable = true)
@@ -52,13 +52,7 @@ public class ReportEnvironment_1475063295Mixin {
     @Inject(at = @At("HEAD"), method = "clientVersion()Ljava/lang/String;", cancellable = true)
     private void clientVersion_339602823(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(339602823L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "thirdPartyServerInfo()Lcom/mojang/authlib/yggdrasil/request/AbuseReportRequest$ThirdPartyServerInfo;", cancellable = true)
-    private void thirdPartyServerInfo__1941604959(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1941604959L))
-            info.setReturnValue(null);
+            info.setReturnValue("QgIlErfFGxOb1ꐢ╖@ya!%@0d Niꌖ6h竚R`+煉zx7&S{Fr귎)g璘!-kb)lRT뿘");
     }
 
     @Inject(at = @At("HEAD"), method = "thirdParty(Ljava/lang/String;)Lnet/minecraft/client/multiplayer/chat/report/ReportEnvironment;", cancellable = true)
@@ -70,6 +64,12 @@ public class ReportEnvironment_1475063295Mixin {
     @Inject(at = @At("HEAD"), method = "clientInfo()Lcom/mojang/authlib/yggdrasil/request/AbuseReportRequest$ClientInfo;", cancellable = true)
     private void clientInfo_1556561944(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1556561944L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "thirdPartyServerInfo()Lcom/mojang/authlib/yggdrasil/request/AbuseReportRequest$ThirdPartyServerInfo;", cancellable = true)
+    private void thirdPartyServerInfo__1941604959(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1941604959L))
             info.setReturnValue(null);
     }
 

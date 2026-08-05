@@ -10,7 +10,7 @@ public class LakeFeature2067665913Mixin {
         @Inject(at = @At("HEAD"), method = "place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z", cancellable = true)
     private void place__1512043647(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1512043647L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
 

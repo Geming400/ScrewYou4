@@ -19,6 +19,12 @@ public class DragonDeathPhase_1081737622Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "getFlySpeed()F", cancellable = true)
+    private void getFlySpeed_1119996984(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1119996984L))
+            info.setReturnValue(2.459866E8F);
+    }
+
     @Inject(at = @At("HEAD"), method = "doClientTick()V", cancellable = true)
     private void doClientTick_1120012360(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1120012360L))
@@ -35,12 +41,6 @@ public class DragonDeathPhase_1081737622Mixin {
     private void doServerTick_103328281(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(103328281L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "getFlySpeed()F", cancellable = true)
-    private void getFlySpeed_1119996984(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1119996984L))
-            info.setReturnValue(null);
     }
 
 

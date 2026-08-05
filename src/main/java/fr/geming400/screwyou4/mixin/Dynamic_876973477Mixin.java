@@ -16,19 +16,19 @@ public class Dynamic_876973477Mixin {
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__2032482057(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2032482057L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_915235722(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(915235722L))
-            info.setReturnValue(null);
+            info.setReturnValue(-597962797);
     }
 
     @Inject(at = @At("HEAD"), method = "resolveProfile(Lnet/minecraft/server/players/ProfileResolver;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
     private void resolveProfile__147301812(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-147301812L))
-            info.setReturnValue(null);
+            info.setReturnValue(new java.util.concurrent.CompletableFuture());
     }
 
     @Inject(at = @At("HEAD"), method = "addToTooltip(Lnet/minecraft/world/item/Item$TooltipContext;Ljava/util/function/Consumer;Lnet/minecraft/world/item/TooltipFlag;Lnet/minecraft/core/component/DataComponentGetter;)V", cancellable = true)

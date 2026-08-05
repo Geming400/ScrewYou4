@@ -22,7 +22,7 @@ public class GlobalPalette469119562Mixin {
     @Inject(at = @At("HEAD"), method = "getSize()I", cancellable = true)
     private void getSize_507381808(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(507381808L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1889790273);
     }
 
     @Inject(at = @At("HEAD"), method = "read(Lnet/minecraft/network/FriendlyByteBuf;Lnet/minecraft/core/IdMap;)V", cancellable = true)
@@ -31,28 +31,28 @@ public class GlobalPalette469119562Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "idFor(Ljava/lang/Object;Lnet/minecraft/world/level/chunk/PaletteResize;)I", cancellable = true)
-    private void idFor_113669946(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(113669946L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getSerializedSize(Lnet/minecraft/core/IdMap;)I", cancellable = true)
     private void getSerializedSize_1601929402(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1601929402L))
-            info.setReturnValue(null);
+            info.setReturnValue(-965965029);
     }
 
-    @Inject(at = @At("HEAD"), method = "maybeHas(Ljava/util/function/Predicate;)Z", cancellable = true)
-    private void maybeHas_539479952(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(539479952L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "idFor(Ljava/lang/Object;Lnet/minecraft/world/level/chunk/PaletteResize;)I", cancellable = true)
+    private void idFor_113669946(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(113669946L))
+            info.setReturnValue(1465896436);
     }
 
     @Inject(at = @At("HEAD"), method = "valueFor(I)Ljava/lang/Object;", cancellable = true)
     private void valueFor_2042902668(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2042902668L))
-            info.setReturnValue(null);
+            info.setReturnValue(new java.lang.Object());
+    }
+
+    @Inject(at = @At("HEAD"), method = "maybeHas(Ljava/util/function/Predicate;)Z", cancellable = true)
+    private void maybeHas_539479952(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(539479952L))
+            info.setReturnValue(false);
     }
 
 

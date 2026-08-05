@@ -7,22 +7,22 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.client.DeltaTracker.DefaultValue.class)
 public class DefaultValue_1455629810Mixin {
-        @Inject(at = @At("HEAD"), method = "getRealtimeDeltaTicks()F", cancellable = true)
-    private void getRealtimeDeltaTicks_1493889172(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1493889172L))
-            info.setReturnValue(null);
+        @Inject(at = @At("HEAD"), method = "getGameTimeDeltaPartialTick(Z)F", cancellable = true)
+    private void getGameTimeDeltaPartialTick__1609736034(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1609736034L))
+            info.setReturnValue(3.871653E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "getGameTimeDeltaTicks()F", cancellable = true)
     private void getGameTimeDeltaTicks_1493889172(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1493889172L))
-            info.setReturnValue(null);
+            info.setReturnValue(3.871653E8F);
     }
 
-    @Inject(at = @At("HEAD"), method = "getGameTimeDeltaPartialTick(Z)F", cancellable = true)
-    private void getGameTimeDeltaPartialTick__1609736034(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1609736034L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "getRealtimeDeltaTicks()F", cancellable = true)
+    private void getRealtimeDeltaTicks_1493889172(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1493889172L))
+            info.setReturnValue(3.871653E8F);
     }
 
 

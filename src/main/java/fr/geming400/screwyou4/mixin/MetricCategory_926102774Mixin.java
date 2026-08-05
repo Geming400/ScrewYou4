@@ -16,13 +16,13 @@ public class MetricCategory_926102774Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/util/profiling/metrics/MetricCategory;", cancellable = true)
     private static void valueOf_797303743(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(797303743L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.util.profiling.metrics.MetricCategory.PATH_FINDING);
     }
 
     @Inject(at = @At("HEAD"), method = "getDescription()Ljava/lang/String;", cancellable = true)
     private void getDescription__209357698(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-209357698L))
-            info.setReturnValue(null);
+            info.setReturnValue("'h");
     }
 
 

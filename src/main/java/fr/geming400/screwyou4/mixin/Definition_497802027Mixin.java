@@ -10,7 +10,7 @@ public class Definition_497802027Mixin {
         @Inject(at = @At("HEAD"), method = "type()Lnet/minecraft/client/gui/font/providers/GlyphProviderType;", cancellable = true)
     private void type__1298729088(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1298729088L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.client.gui.font.providers.GlyphProviderType.UNIHEX);
     }
 
     @Inject(at = @At("HEAD"), method = "unpack()Lcom/mojang/datafixers/util/Either;", cancellable = true)

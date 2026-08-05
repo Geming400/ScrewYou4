@@ -13,22 +13,22 @@ public class ReasonSelectionList_1521349132Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "setSelected(Lnet/minecraft/client/gui/components/AbstractSelectionList$Entry;)V", cancellable = true)
-    private void setSelected__916141132(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-916141132L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "setSelected(Lnet/minecraft/client/gui/screens/reporting/ReportReasonSelectionScreen$ReasonSelectionList$Entry;)V", cancellable = true)
     private void setSelected_2047216234(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(2047216234L))
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "setSelected(Lnet/minecraft/client/gui/components/AbstractSelectionList$Entry;)V", cancellable = true)
+    private void setSelected__916141132(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-916141132L))
+            info.cancel();
+    }
+
     @Inject(at = @At("HEAD"), method = "getRowWidth()I", cancellable = true)
     private void getRowWidth_1559611377(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1559611377L))
-            info.setReturnValue(null);
+            info.setReturnValue(1500208969);
     }
 
 

@@ -10,7 +10,7 @@ public class CauldronBlock1093472765Mixin {
         @Inject(at = @At("HEAD"), method = "isFull(Lnet/minecraft/world/level/block/state/BlockState;)Z", cancellable = true)
     private void isFull_948183779(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(948183779L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)

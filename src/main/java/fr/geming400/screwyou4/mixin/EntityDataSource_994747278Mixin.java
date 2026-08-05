@@ -10,19 +10,19 @@ public class EntityDataSource_994747278Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1914707760(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1914707760L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__140712698(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-140712698L))
-            info.setReturnValue(null);
+            info.setReturnValue("jDࠊ<.9B⥨ᕌ@싶bqX%g9X8I0h+ﻯ;{5DrD|䦕D.@SxO1,귇");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1033010019(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1033010019L))
-            info.setReturnValue(null);
+            info.setReturnValue(386570691);
     }
 
     @Inject(at = @At("HEAD"), method = "selector()Lnet/minecraft/util/CompilableString;", cancellable = true)

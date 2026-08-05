@@ -19,15 +19,15 @@ public class RotationArgument_468366293Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "rotation()Lnet/minecraft/commands/arguments/coordinates/RotationArgument;", cancellable = true)
-    private static void rotation__2142087915(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2142087915L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getRotation(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/commands/arguments/coordinates/Coordinates;", cancellable = true)
     private static void getRotation__1922606789(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1922606789L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "rotation()Lnet/minecraft/commands/arguments/coordinates/RotationArgument;", cancellable = true)
+    private static void rotation__2142087915(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2142087915L))
             info.setReturnValue(null);
     }
 

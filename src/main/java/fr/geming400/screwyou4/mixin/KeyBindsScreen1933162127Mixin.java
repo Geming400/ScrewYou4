@@ -10,7 +10,7 @@ public class KeyBindsScreen1933162127Mixin {
         @Inject(at = @At("HEAD"), method = "keyPressed(Lnet/minecraft/client/input/KeyEvent;)Z", cancellable = true)
     private void keyPressed_1016526413(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1016526413L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIF)V", cancellable = true)
@@ -22,7 +22,7 @@ public class KeyBindsScreen1933162127Mixin {
     @Inject(at = @At("HEAD"), method = "mouseClicked(Lnet/minecraft/client/input/MouseButtonEvent;Z)Z", cancellable = true)
     private void mouseClicked_318503249(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(318503249L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
 

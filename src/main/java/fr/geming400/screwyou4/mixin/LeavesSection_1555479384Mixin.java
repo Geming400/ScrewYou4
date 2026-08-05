@@ -10,13 +10,13 @@ public class LeavesSection_1555479384Mixin {
         @Inject(at = @At("HEAD"), method = "isLeaf(I)Z", cancellable = true)
     private void isLeaf__1525567097(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1525567097L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "isLog(I)Z", cancellable = true)
     private void isLog__1525567097(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1525567097L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
 

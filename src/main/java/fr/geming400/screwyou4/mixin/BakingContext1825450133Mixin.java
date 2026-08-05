@@ -10,19 +10,19 @@ public class BakingContext1825450133Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1084004904(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1084004904L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_689990158(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(689990158L))
-            info.setReturnValue(null);
+            info.setReturnValue("셏Qr]`埱╀DLmwsI)27Brh䶆?.A뎘sCwor");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1863712875(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1863712875L))
-            info.setReturnValue(null);
+            info.setReturnValue(1786904385);
     }
 
     @Inject(at = @At("HEAD"), method = "playerSkinRenderCache()Lnet/minecraft/client/renderer/PlayerSkinRenderCache;", cancellable = true)
@@ -34,12 +34,6 @@ public class BakingContext1825450133Mixin {
     @Inject(at = @At("HEAD"), method = "entityModelSet()Lnet/minecraft/client/model/geom/EntityModelSet;", cancellable = true)
     private void entityModelSet_41006186(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(41006186L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "blockModelBaker()Lnet/minecraft/client/resources/model/ModelBaker;", cancellable = true)
-    private void blockModelBaker_1326943817(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1326943817L))
             info.setReturnValue(null);
     }
 
@@ -58,6 +52,12 @@ public class BakingContext1825450133Mixin {
     @Inject(at = @At("HEAD"), method = "missingItemModel(Lorg/joml/Matrix4fc;)Lnet/minecraft/client/renderer/item/MissingItemModel;", cancellable = true)
     private void missingItemModel_250788616(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(250788616L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "blockModelBaker()Lnet/minecraft/client/resources/model/ModelBaker;", cancellable = true)
+    private void blockModelBaker_1326943817(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1326943817L))
             info.setReturnValue(null);
     }
 

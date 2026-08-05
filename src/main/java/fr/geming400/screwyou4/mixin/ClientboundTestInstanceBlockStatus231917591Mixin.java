@@ -22,19 +22,19 @@ public class ClientboundTestInstanceBlockStatus231917591Mixin {
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_1617429850(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1617429850L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__903542384(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-903542384L))
-            info.setReturnValue(null);
+            info.setReturnValue("xbR^T.Ck䍞WduY왤*Ϡ涖<䷦㦪3\"붑=SJb㵞Es");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_270180333(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(270180333L))
-            info.setReturnValue(null);
+            info.setReturnValue(1303572818);
     }
 
     @Inject(at = @At("HEAD"), method = "status()Lnet/minecraft/network/chat/Component;", cancellable = true)

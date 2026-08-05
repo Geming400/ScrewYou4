@@ -10,7 +10,7 @@ public class Append_919610037Mixin {
         @Inject(at = @At("HEAD"), method = "mode()Lnet/minecraft/world/level/storage/loot/functions/ListOperation$Type;", cancellable = true)
     private void mode__811470536(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-811470536L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.level.storage.loot.functions.ListOperation.Type.APPEND);
     }
 
     @Inject(at = @At("HEAD"), method = "apply(Ljava/util/List;Ljava/util/List;I)Ljava/util/List;", cancellable = true)

@@ -10,25 +10,25 @@ public class Type537496799Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_1923009058(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1923009058L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__597963672(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-597963672L))
-            info.setReturnValue(null);
+            info.setReturnValue("LE惖x");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_575759541(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(575759541L))
-            info.setReturnValue(null);
+            info.setReturnValue(1809682210);
     }
 
     @Inject(at = @At("HEAD"), method = "id()Ljava/lang/String;", cancellable = true)
     private void id__597963672(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-597963672L))
-            info.setReturnValue(null);
+            info.setReturnValue("LE惖x");
     }
 
 

@@ -10,7 +10,7 @@ public class Stopwatches_485212275Mixin {
         @Inject(at = @At("HEAD"), method = "remove(Lnet/minecraft/resources/Identifier;)Z", cancellable = true)
     private void remove__1009225039(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1009225039L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "get(Lnet/minecraft/resources/Identifier;)Lnet/minecraft/world/Stopwatch;", cancellable = true)
@@ -22,25 +22,25 @@ public class Stopwatches_485212275Mixin {
     @Inject(at = @At("HEAD"), method = "update(Lnet/minecraft/resources/Identifier;Ljava/util/function/UnaryOperator;)Z", cancellable = true)
     private void update_907403012(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(907403012L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "add(Lnet/minecraft/resources/Identifier;Lnet/minecraft/world/Stopwatch;)Z", cancellable = true)
     private void add__891170948(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-891170948L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "currentTime()J", cancellable = true)
     private static void currentTime_523475729(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(523475729L))
-            info.setReturnValue(null);
+            info.setReturnValue(3091594930083087511L);
     }
 
     @Inject(at = @At("HEAD"), method = "isDirty()Z", cancellable = true)
     private void isDirty_523490857(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(523490857L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "ids()Ljava/util/List;", cancellable = true)

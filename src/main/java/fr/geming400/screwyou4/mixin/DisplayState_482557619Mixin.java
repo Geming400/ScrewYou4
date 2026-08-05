@@ -16,7 +16,7 @@ public class DisplayState_482557619Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/client/gui/components/CycleButton$DisplayState;", cancellable = true)
     private static void valueOf__232485922(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-232485922L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.client.gui.components.CycleButton.DisplayState.VALUE);
     }
 
 

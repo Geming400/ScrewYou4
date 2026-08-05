@@ -10,19 +10,19 @@ public class ThreadAllocationStat299936818Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_1685449077(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1685449077L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__835523157(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-835523157L))
-            info.setReturnValue(null);
+            info.setReturnValue("4@䠅넒7r⩃0mg3㥄<<9ힳm$_>ndN*BGZ鏊Xzg쳱?EHꟸaP;#AUm[]i3GwE<jU0ys?Q*\"@Ohg$");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_338199560(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(338199560L))
-            info.setReturnValue(null);
+            info.setReturnValue(1939542192);
     }
 
     @Inject(at = @At("HEAD"), method = "from(Ljdk/jfr/consumer/RecordedEvent;)Lnet/minecraft/util/profiling/jfr/stats/ThreadAllocationStat;", cancellable = true)
@@ -40,18 +40,18 @@ public class ThreadAllocationStat299936818Mixin {
     @Inject(at = @At("HEAD"), method = "threadName()Ljava/lang/String;", cancellable = true)
     private void threadName__835523653(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-835523653L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "summary(Ljava/util/List;)Lnet/minecraft/util/profiling/jfr/stats/ThreadAllocationStat$Summary;", cancellable = true)
-    private static void summary_865438996(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(865438996L))
-            info.setReturnValue(null);
+            info.setReturnValue("L&<.@XLFxᆥ] ka0' >-g.m.vWevJ`fA");
     }
 
     @Inject(at = @At("HEAD"), method = "totalBytes()J", cancellable = true)
     private void totalBytes_338200025(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(338200025L))
+            info.setReturnValue(7253549824424566191L);
+    }
+
+    @Inject(at = @At("HEAD"), method = "summary(Ljava/util/List;)Lnet/minecraft/util/profiling/jfr/stats/ThreadAllocationStat$Summary;", cancellable = true)
+    private static void summary_865438996(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(865438996L))
             info.setReturnValue(null);
     }
 

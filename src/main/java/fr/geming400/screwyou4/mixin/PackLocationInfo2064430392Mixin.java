@@ -10,25 +10,25 @@ public class PackLocationInfo2064430392Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__845024645(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-845024645L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_928970417(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(928970417L))
-            info.setReturnValue(null);
+            info.setReturnValue("⧅c{RNc넇,rp6J]:穿H*a5");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2102693134(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2102693134L))
-            info.setReturnValue(null);
+            info.setReturnValue(899180792);
     }
 
     @Inject(at = @At("HEAD"), method = "id()Ljava/lang/String;", cancellable = true)
     private void id_928969921(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(928969921L))
-            info.setReturnValue(null);
+            info.setReturnValue("zRm_덁1aesZ1j$㝄ꗽ藡.r웴V&Os軛=#:Q`3uvF{`&㘿>{B0k茕X˚!9%!bMI7{qX}f<");
     }
 
     @Inject(at = @At("HEAD"), method = "source()Lnet/minecraft/server/packs/repository/PackSource;", cancellable = true)

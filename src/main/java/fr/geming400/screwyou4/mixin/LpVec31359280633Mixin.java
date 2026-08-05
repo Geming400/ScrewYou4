@@ -22,7 +22,7 @@ public class LpVec31359280633Mixin {
     @Inject(at = @At("HEAD"), method = "hasContinuationBit(I)Z", cancellable = true)
     private static void hasContinuationBit__1721765599(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1721765599L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
 

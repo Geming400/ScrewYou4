@@ -28,12 +28,30 @@ public class ChatScreen772583500Mixin {
     @Inject(at = @At("HEAD"), method = "keyPressed(Lnet/minecraft/client/input/KeyEvent;)Z", cancellable = true)
     private void keyPressed__144052214(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-144052214L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIF)V", cancellable = true)
     private void extractRenderState__187103872(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-187103872L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "mouseScrolled(DDDD)Z", cancellable = true)
+    private void mouseScrolled_1972495107(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1972495107L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "mouseClicked(Lnet/minecraft/client/input/MouseButtonEvent;Z)Z", cancellable = true)
+    private void mouseClicked__842075378(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-842075378L))
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "handleChatInput(Ljava/lang/String;Z)V", cancellable = true)
+    private void handleChatInput__2115826625(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-2115826625L))
             info.cancel();
     }
 
@@ -46,19 +64,13 @@ public class ChatScreen772583500Mixin {
     @Inject(at = @At("HEAD"), method = "normalizeChatMessage(Ljava/lang/String;)Ljava/lang/String;", cancellable = true)
     private void normalizeChatMessage_1985325323(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1985325323L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "handleChatInput(Ljava/lang/String;Z)V", cancellable = true)
-    private void handleChatInput__2115826625(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-2115826625L))
-            info.cancel();
+            info.setReturnValue("B!汧+e%3yB'D 3H$p荦ꀚR^䣡22-ෞ/X䣄W蒘&T44馱");
     }
 
     @Inject(at = @At("HEAD"), method = "isPauseScreen()Z", cancellable = true)
     private void isPauseScreen_810862083(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(810862083L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "extractBackground(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIF)V", cancellable = true)
@@ -67,28 +79,16 @@ public class ChatScreen772583500Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "isAllowedInPortal()Z", cancellable = true)
+    private void isAllowedInPortal_810862083(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(810862083L))
+            info.setReturnValue(true);
+    }
+
     @Inject(at = @At("HEAD"), method = "insertText(Ljava/lang/String;Z)V", cancellable = true)
     private void insertText__2115826625(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-2115826625L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "isAllowedInPortal()Z", cancellable = true)
-    private void isAllowedInPortal_810862083(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(810862083L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "mouseScrolled(DDDD)Z", cancellable = true)
-    private void mouseScrolled_1972495107(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1972495107L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "mouseClicked(Lnet/minecraft/client/input/MouseButtonEvent;Z)Z", cancellable = true)
-    private void mouseClicked__842075378(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-842075378L))
-            info.setReturnValue(null);
     }
 
 

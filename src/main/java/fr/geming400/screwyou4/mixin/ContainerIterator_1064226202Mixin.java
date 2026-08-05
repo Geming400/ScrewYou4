@@ -10,13 +10,13 @@ public class ContainerIterator_1064226202Mixin {
         @Inject(at = @At("HEAD"), method = "hasNext()Z", cancellable = true)
     private void hasNext_1102504784(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1102504784L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "next()Ljava/lang/Object;", cancellable = true)
     private void next__1371419916(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1371419916L))
-            info.setReturnValue(null);
+            info.setReturnValue(new java.lang.Object());
     }
 
     @Inject(at = @At("HEAD"), method = "next()Lnet/minecraft/world/item/ItemStack;", cancellable = true)

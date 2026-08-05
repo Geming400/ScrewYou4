@@ -16,7 +16,7 @@ public class ZombieRenderer_51628291Mixin {
     @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/EntityRenderState;", cancellable = true)
     private void createRenderState__537008154(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-537008154L))
-            info.setReturnValue(null);
+            info.setReturnValue(new net.minecraft.client.renderer.entity.state.EntityRenderState());
     }
 
 

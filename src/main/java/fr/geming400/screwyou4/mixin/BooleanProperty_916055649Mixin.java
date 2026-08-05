@@ -10,13 +10,13 @@ public class BooleanProperty_916055649Mixin {
         @Inject(at = @At("HEAD"), method = "getName(Ljava/lang/Boolean;)Ljava/lang/String;", cancellable = true)
     private void getName__1697362234(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1697362234L))
-            info.setReturnValue(null);
+            info.setReturnValue("[Vwiq䃟S8䒄鵢9wXA.ﺡT5f!pc&✼C降0A(58A+W`Ebtgwn綅3fz焬D阱鎂|)9ꁨᐅꬺZE");
     }
 
     @Inject(at = @At("HEAD"), method = "getName(Ljava/lang/Comparable;)Ljava/lang/String;", cancellable = true)
     private void getName__254605592(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-254605592L))
-            info.setReturnValue(null);
+            info.setReturnValue("M)Y^k྄m=Yx+0,벪1;kF_{ྮ+[賕@㾸]H橙YkGKq]sD)Vz4");
     }
 
     @Inject(at = @At("HEAD"), method = "getValue(Ljava/lang/String;)Ljava/util/Optional;", cancellable = true)
@@ -40,13 +40,13 @@ public class BooleanProperty_916055649Mixin {
     @Inject(at = @At("HEAD"), method = "getInternalIndex(Ljava/lang/Comparable;)I", cancellable = true)
     private void getInternalIndex__334952217(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-334952217L))
-            info.setReturnValue(null);
+            info.setReturnValue(-202623534);
     }
 
     @Inject(at = @At("HEAD"), method = "getInternalIndex(Ljava/lang/Boolean;)I", cancellable = true)
     private void getInternalIndex_1881139657(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1881139657L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1365974241);
     }
 
 

@@ -22,7 +22,7 @@ public class StructureBlockEditScreen_71039908Mixin {
     @Inject(at = @At("HEAD"), method = "keyPressed(Lnet/minecraft/client/input/KeyEvent;)Z", cancellable = true)
     private void keyPressed__845595807(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-845595807L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIF)V", cancellable = true)
@@ -34,13 +34,13 @@ public class StructureBlockEditScreen_71039908Mixin {
     @Inject(at = @At("HEAD"), method = "isPauseScreen()Z", cancellable = true)
     private void isPauseScreen_109318490(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(109318490L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "isInGameUi()Z", cancellable = true)
     private void isInGameUi_109318490(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(109318490L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
 

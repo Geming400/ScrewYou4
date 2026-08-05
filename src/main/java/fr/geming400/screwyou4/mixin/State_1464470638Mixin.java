@@ -16,13 +16,13 @@ public class State_1464470638Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/world/entity/animal/sniffer/Sniffer$State;", cancellable = true)
     private static void valueOf_1676103415(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1676103415L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.entity.animal.sniffer.Sniffer.State.RISING);
     }
 
     @Inject(at = @At("HEAD"), method = "id()I", cancellable = true)
     private void id_1502732883(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1502732883L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1894973694);
     }
 
 

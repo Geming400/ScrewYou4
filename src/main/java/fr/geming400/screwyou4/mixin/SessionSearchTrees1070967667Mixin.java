@@ -25,12 +25,6 @@ public class SessionSearchTrees1070967667Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "creativeTagSearch()Lnet/minecraft/client/searchtree/SearchTree;", cancellable = true)
-    private void creativeTagSearch_964267778(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(964267778L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "updateCreativeTooltips(Lnet/minecraft/core/HolderLookup$Provider;Ljava/util/List;)V", cancellable = true)
     private void updateCreativeTooltips_1829299635(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1829299635L))
@@ -47,6 +41,12 @@ public class SessionSearchTrees1070967667Mixin {
     private void updateCreativeTags_291749079(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(291749079L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "creativeTagSearch()Lnet/minecraft/client/searchtree/SearchTree;", cancellable = true)
+    private void creativeTagSearch_964267778(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(964267778L))
+            info.setReturnValue(null);
     }
 
 

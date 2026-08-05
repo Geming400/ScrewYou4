@@ -10,25 +10,25 @@ public class TargetedConditionalEffect_1698111607Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1211343431(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1211343431L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_562651631(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(562651631L))
-            info.setReturnValue(null);
+            info.setReturnValue("YR` [SY嶾x{&C");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1736374348(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1736374348L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1484900896);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/world/level/storage/loot/LootContext;)Z", cancellable = true)
     private void matches__678837492(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-678837492L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "validate(Lnet/minecraft/world/level/storage/loot/ValidationContext;)V", cancellable = true)
@@ -37,28 +37,16 @@ public class TargetedConditionalEffect_1698111607Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "requirements()Ljava/util/Optional;", cancellable = true)
-    private void requirements_1943573028(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1943573028L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "effect()Ljava/lang/Object;", cancellable = true)
-    private void effect__737663471(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-737663471L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "codec(Lcom/mojang/serialization/Codec;)Lcom/mojang/serialization/Codec;", cancellable = true)
     private static void codec__2113177715(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2113177715L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "affected()Lnet/minecraft/world/item/enchantment/EnchantmentTarget;", cancellable = true)
-    private void affected__113674465(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-113674465L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "effect()Ljava/lang/Object;", cancellable = true)
+    private void effect__737663471(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-737663471L))
+            info.setReturnValue(new java.lang.Object());
     }
 
     @Inject(at = @At("HEAD"), method = "equipmentDropsCodec(Lcom/mojang/serialization/Codec;)Lcom/mojang/serialization/Codec;", cancellable = true)
@@ -67,9 +55,21 @@ public class TargetedConditionalEffect_1698111607Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "affected()Lnet/minecraft/world/item/enchantment/EnchantmentTarget;", cancellable = true)
+    private void affected__113674465(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-113674465L))
+            info.setReturnValue(net.minecraft.world.item.enchantment.EnchantmentTarget.VICTIM);
+    }
+
     @Inject(at = @At("HEAD"), method = "enchanted()Lnet/minecraft/world/item/enchantment/EnchantmentTarget;", cancellable = true)
     private void enchanted__113674465(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-113674465L))
+            info.setReturnValue(net.minecraft.world.item.enchantment.EnchantmentTarget.VICTIM);
+    }
+
+    @Inject(at = @At("HEAD"), method = "requirements()Ljava/util/Optional;", cancellable = true)
+    private void requirements_1943573028(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1943573028L))
             info.setReturnValue(null);
     }
 

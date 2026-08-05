@@ -10,19 +10,19 @@ public class UnbakedSwitch_100397094Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_1485909352(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1485909352L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__1035062882(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1035062882L))
-            info.setReturnValue(null);
+            info.setReturnValue("X9]쐳\"iDB=W<O谮tz&%U,Yea/OzWhhtqssacp\"E@Y{[fcu2K&j#WY뻼69]2R.3Ekn뱕/jj`_nh\"4u!f貕;P");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_138659835(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(138659835L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1282121498);
     }
 
     @Inject(at = @At("HEAD"), method = "property()Lnet/minecraft/client/renderer/block/model/properties/select/SelectBlockModelProperty;", cancellable = true)

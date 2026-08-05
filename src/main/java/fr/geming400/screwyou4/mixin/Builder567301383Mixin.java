@@ -16,7 +16,7 @@ public class Builder567301383Mixin {
     @Inject(at = @At("HEAD"), method = "withEnchantment(Lnet/minecraft/core/Holder;Lnet/minecraft/world/level/storage/loot/providers/number/NumberProvider;)Lnet/minecraft/world/level/storage/loot/functions/SetEnchantmentsFunction$Builder;", cancellable = true)
     private void withEnchantment__508031183(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-508031183L))
-            info.setReturnValue(null);
+            info.setReturnValue(new net.minecraft.world.level.storage.loot.functions.SetEnchantmentsFunction$Builder());
     }
 
 

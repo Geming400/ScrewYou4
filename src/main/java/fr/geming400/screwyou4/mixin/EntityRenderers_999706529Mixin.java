@@ -16,7 +16,7 @@ public class EntityRenderers_999706529Mixin {
     @Inject(at = @At("HEAD"), method = "validateRegistrations()Z", cancellable = true)
     private static void validateRegistrations_1037985359(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1037985359L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "createEntityRenderers(Lnet/minecraft/client/renderer/entity/EntityRendererProvider$Context;)Ljava/util/Map;", cancellable = true)

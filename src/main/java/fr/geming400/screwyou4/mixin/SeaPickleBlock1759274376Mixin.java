@@ -13,12 +13,6 @@ public class SeaPickleBlock1759274376Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "isDead(Lnet/minecraft/world/level/block/state/BlockState;)Z", cancellable = true)
-    private static void isDead_1613985638(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1613985638L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
     private void getStateForPlacement_500674609(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(500674609L))
@@ -28,7 +22,13 @@ public class SeaPickleBlock1759274376Mixin {
     @Inject(at = @At("HEAD"), method = "isValidBonemealTarget(Lnet/minecraft/world/level/LevelReader;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Z", cancellable = true)
     private void isValidBonemealTarget_1803954134(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1803954134L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isBonemealSuccess(Lnet/minecraft/world/level/Level;Lnet/minecraft/util/RandomSource;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Z", cancellable = true)
+    private void isBonemealSuccess__213638767(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-213638767L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "performBonemeal(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/util/RandomSource;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)V", cancellable = true)
@@ -37,10 +37,10 @@ public class SeaPickleBlock1759274376Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "isBonemealSuccess(Lnet/minecraft/world/level/Level;Lnet/minecraft/util/RandomSource;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Z", cancellable = true)
-    private void isBonemealSuccess__213638767(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-213638767L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "isDead(Lnet/minecraft/world/level/block/state/BlockState;)Z", cancellable = true)
+    private static void isDead_1613985638(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1613985638L))
+            info.setReturnValue(true);
     }
 
 

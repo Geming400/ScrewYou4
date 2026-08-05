@@ -10,19 +10,19 @@ public class Result1641080695Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1268374342(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1268374342L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_505620720(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(505620720L))
-            info.setReturnValue(null);
+            info.setReturnValue("tu 㠔':xb?f縁Nz2t#E}8L");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1679343437(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1679343437L))
-            info.setReturnValue(null);
+            info.setReturnValue(1023069376);
     }
 
     @Inject(at = @At("HEAD"), method = "id()Ljava/util/UUID;", cancellable = true)
@@ -40,7 +40,7 @@ public class Result1641080695Mixin {
     @Inject(at = @At("HEAD"), method = "reportType()Lnet/minecraft/client/multiplayer/chat/report/ReportType;", cancellable = true)
     private void reportType__1992635772(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1992635772L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.client.multiplayer.chat.report.ReportType.CHAT);
     }
 
 

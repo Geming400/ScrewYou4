@@ -10,25 +10,25 @@ public class TextInput_679020833Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_2064533091(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2064533091L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__456439143(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-456439143L))
-            info.setReturnValue(null);
+            info.setReturnValue("]puG_;6a>rM'}@怘h蕯䬀jru924y=xe qK=$℃zO1ఖ6xyV9#㦺*Y1E6bh@n679Nk5jW5");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_717283574(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(717283574L))
-            info.setReturnValue(null);
+            info.setReturnValue(-416406046);
     }
 
     @Inject(at = @At("HEAD"), method = "width()I", cancellable = true)
     private void width_717283078(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(717283078L))
-            info.setReturnValue(null);
+            info.setReturnValue(293440350);
     }
 
     @Inject(at = @At("HEAD"), method = "label()Lnet/minecraft/network/chat/Component;", cancellable = true)
@@ -40,7 +40,7 @@ public class TextInput_679020833Mixin {
     @Inject(at = @At("HEAD"), method = "maxLength()I", cancellable = true)
     private void maxLength_717283078(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(717283078L))
-            info.setReturnValue(null);
+            info.setReturnValue(293440350);
     }
 
     @Inject(at = @At("HEAD"), method = "multiline()Ljava/util/Optional;", cancellable = true)
@@ -52,7 +52,7 @@ public class TextInput_679020833Mixin {
     @Inject(at = @At("HEAD"), method = "initial()Ljava/lang/String;", cancellable = true)
     private void initial__456439639(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-456439639L))
-            info.setReturnValue(null);
+            info.setReturnValue("{2a2䝎so'U'7O4fP|");
     }
 
     @Inject(at = @At("HEAD"), method = "mapCodec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
@@ -64,7 +64,7 @@ public class TextInput_679020833Mixin {
     @Inject(at = @At("HEAD"), method = "labelVisible()Z", cancellable = true)
     private void labelVisible_717299415(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(717299415L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
 

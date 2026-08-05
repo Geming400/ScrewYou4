@@ -10,13 +10,13 @@ public class LazyEnum431840121Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_1817352380(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1817352380L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__703619854(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-703619854L))
-            info.setReturnValue(null);
+            info.setReturnValue("ciV+.纽L豮顼8@TO{QT<V⁗;bs/3:^z6:%wHTh</ꝛq0xeAy*lnuq*-忍过\"푑|{0sHO9Qd]UQj娛/5P䤐mᄥk喔S{3QE\"+8>rkg纀s");
     }
 
     @Inject(at = @At("HEAD"), method = "values()Ljava/util/function/Supplier;", cancellable = true)
@@ -28,7 +28,7 @@ public class LazyEnum431840121Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_470102863(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(470102863L))
-            info.setReturnValue(null);
+            info.setReturnValue(169470736);
     }
 
     @Inject(at = @At("HEAD"), method = "validateValue()Ljava/util/function/Function;", cancellable = true)

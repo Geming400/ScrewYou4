@@ -13,10 +13,10 @@ public class LightningRodBlock_1096322206Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "onLightningStrike(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;)V", cancellable = true)
-    private void onLightningStrike_1363136644(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1363136644L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
+    private void getStateForPlacement__162277562(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-162277562L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "animateTick(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)V", cancellable = true)
@@ -25,10 +25,10 @@ public class LightningRodBlock_1096322206Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
-    private void getStateForPlacement__162277562(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-162277562L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "onLightningStrike(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;)V", cancellable = true)
+    private void onLightningStrike_1363136644(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1363136644L))
+            info.cancel();
     }
 
 

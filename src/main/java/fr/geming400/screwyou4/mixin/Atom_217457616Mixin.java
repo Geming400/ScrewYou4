@@ -10,19 +10,19 @@ public class Atom_217457616Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_1602969874(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1602969874L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__918002360(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-918002360L))
-            info.setReturnValue(null);
+            info.setReturnValue("6$PoTSy#ᛵ{+}v2&ᡊ['`:Jc$MQ@o厭mJ+M쥱co`fe¦1k>OnT");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_255720357(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(255720357L))
-            info.setReturnValue(null);
+            info.setReturnValue(-819287069);
     }
 
     @Inject(at = @At("HEAD"), method = "id()Lnet/minecraft/resources/Identifier;", cancellable = true)

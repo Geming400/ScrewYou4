@@ -10,7 +10,7 @@ public class LootPredicateArgument1183468195Mixin {
         @Inject(at = @At("HEAD"), method = "parse(Lcom/mojang/brigadier/StringReader;)Ljava/lang/Object;", cancellable = true)
     private void parse_890086452(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(890086452L))
-            info.setReturnValue(null);
+            info.setReturnValue(new java.lang.Object());
     }
 
 

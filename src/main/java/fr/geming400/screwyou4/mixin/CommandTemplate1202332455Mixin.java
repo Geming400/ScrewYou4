@@ -10,19 +10,19 @@ public class CommandTemplate1202332455Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1707122582(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1707122582L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_66872480(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(66872480L))
-            info.setReturnValue(null);
+            info.setReturnValue("futO0<隇ఈrM顦ta覫g(W&6kw䒎#b=P/_;mf切=h%(鏠7WvnืYZ2<k990E螒V-n,^Rp{OQk捵mbꐵqภR홁@oeꁔ瓺B燀=%_J2邙7꾯2+I㻔xy6ỷ");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1240595197(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1240595197L))
-            info.setReturnValue(null);
+            info.setReturnValue(1562834790);
     }
 
     @Inject(at = @At("HEAD"), method = "template()Lnet/minecraft/server/dialog/action/ParsedTemplate;", cancellable = true)

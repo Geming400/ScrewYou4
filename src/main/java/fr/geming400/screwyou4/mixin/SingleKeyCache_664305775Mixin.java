@@ -10,7 +10,7 @@ public class SingleKeyCache_664305775Mixin {
         @Inject(at = @At("HEAD"), method = "getValue(Ljava/lang/Object;)Ljava/lang/Object;", cancellable = true)
     private void getValue_676383725(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(676383725L))
-            info.setReturnValue(null);
+            info.setReturnValue(new java.lang.Object());
     }
 
 

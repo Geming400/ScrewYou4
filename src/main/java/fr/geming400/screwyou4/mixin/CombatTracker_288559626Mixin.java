@@ -10,7 +10,13 @@ public class CombatTracker_288559626Mixin {
         @Inject(at = @At("HEAD"), method = "getCombatDuration()I", cancellable = true)
     private void getCombatDuration_326821871(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(326821871L))
-            info.setReturnValue(null);
+            info.setReturnValue(9508545);
+    }
+
+    @Inject(at = @At("HEAD"), method = "recordDamage(Lnet/minecraft/world/damagesource/DamageSource;F)V", cancellable = true)
+    private void recordDamage__1378753543(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1378753543L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "recheckStatus()V", cancellable = true)
@@ -23,12 +29,6 @@ public class CombatTracker_288559626Mixin {
     private void getDeathMessage__1888349540(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1888349540L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "recordDamage(Lnet/minecraft/world/damagesource/DamageSource;F)V", cancellable = true)
-    private void recordDamage__1378753543(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1378753543L))
-            info.cancel();
     }
 
 

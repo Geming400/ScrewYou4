@@ -19,18 +19,6 @@ public class SpearAnimations1789947002Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "thirdPersonUseItem(Lnet/minecraft/client/renderer/entity/state/ArmedEntityRenderState;Lcom/mojang/blaze3d/vertex/PoseStack;FLnet/minecraft/world/entity/HumanoidArm;Lnet/minecraft/world/item/ItemStack;)V", cancellable = true)
-    private static void thirdPersonUseItem_1346561335(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1346561335L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "thirdPersonAttackItem(Lnet/minecraft/client/renderer/entity/state/ArmedEntityRenderState;Lcom/mojang/blaze3d/vertex/PoseStack;)V", cancellable = true)
-    private static void thirdPersonAttackItem__252665383(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-252665383L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "firstPersonUse(FLcom/mojang/blaze3d/vertex/PoseStack;FLnet/minecraft/world/entity/HumanoidArm;Lnet/minecraft/world/item/ItemStack;)V", cancellable = true)
     private static void firstPersonUse_163691841(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(163691841L))
@@ -40,6 +28,18 @@ public class SpearAnimations1789947002Mixin {
     @Inject(at = @At("HEAD"), method = "firstPersonAttack(FLcom/mojang/blaze3d/vertex/PoseStack;ILnet/minecraft/world/entity/HumanoidArm;)V", cancellable = true)
     private static void firstPersonAttack__1826561505(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1826561505L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "thirdPersonAttackItem(Lnet/minecraft/client/renderer/entity/state/ArmedEntityRenderState;Lcom/mojang/blaze3d/vertex/PoseStack;)V", cancellable = true)
+    private static void thirdPersonAttackItem__252665383(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-252665383L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "thirdPersonUseItem(Lnet/minecraft/client/renderer/entity/state/ArmedEntityRenderState;Lcom/mojang/blaze3d/vertex/PoseStack;FLnet/minecraft/world/entity/HumanoidArm;Lnet/minecraft/world/item/ItemStack;)V", cancellable = true)
+    private static void thirdPersonUseItem_1346561335(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1346561335L))
             info.cancel();
     }
 

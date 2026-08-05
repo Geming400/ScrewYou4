@@ -16,7 +16,7 @@ public class ChunkType_547368503Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/world/level/chunk/status/ChunkType;", cancellable = true)
     private static void valueOf_627774538(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(627774538L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.level.chunk.status.ChunkType.LEVELCHUNK);
     }
 
 

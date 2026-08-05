@@ -10,19 +10,19 @@ public class FlatLevelGeneratorPreset_1591917825Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1317537213(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1317537213L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_456457849(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(456457849L))
-            info.setReturnValue(null);
+            info.setReturnValue("∘Zo!( .F{,B+t{;Hᄛꩽ01)MQzR");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1630180566(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1630180566L))
-            info.setReturnValue(null);
+            info.setReturnValue(2113463474);
     }
 
     @Inject(at = @At("HEAD"), method = "settings()Lnet/minecraft/world/level/levelgen/flat/FlatLevelGeneratorSettings;", cancellable = true)

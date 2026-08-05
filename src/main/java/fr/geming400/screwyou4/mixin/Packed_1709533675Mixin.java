@@ -10,25 +10,25 @@ public class Packed_1709533675Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1199921363(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1199921363L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_574073699(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(574073699L))
-            info.setReturnValue(null);
+            info.setReturnValue("O/.(U8Jo딒`쓛n3㛠kkFw۪#k5^'䗌*1Y0_");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1747796416(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1747796416L))
-            info.setReturnValue(null);
+            info.setReturnValue(-509242603);
     }
 
     @Inject(at = @At("HEAD"), method = "id()I", cancellable = true)
     private void id_1747795920(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1747795920L))
-            info.setReturnValue(null);
+            info.setReturnValue(127733505);
     }
 
     @Inject(at = @At("HEAD"), method = "write(Lnet/minecraft/network/FriendlyByteBuf;Lnet/minecraft/network/chat/MessageSignature$Packed;)V", cancellable = true)
@@ -43,15 +43,15 @@ public class Packed_1709533675Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "unpack(Lnet/minecraft/network/chat/MessageSignatureCache;)Ljava/util/Optional;", cancellable = true)
-    private void unpack_554492824(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(554492824L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "fullSignature()Lnet/minecraft/network/chat/MessageSignature;", cancellable = true)
     private void fullSignature_465048891(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(465048891L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "unpack(Lnet/minecraft/network/chat/MessageSignatureCache;)Ljava/util/Optional;", cancellable = true)
+    private void unpack_554492824(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(554492824L))
             info.setReturnValue(null);
     }
 

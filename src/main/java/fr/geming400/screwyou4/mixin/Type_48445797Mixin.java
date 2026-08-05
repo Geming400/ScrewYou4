@@ -16,7 +16,7 @@ public class Type_48445797Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/client/multiplayer/ServerData$Type;", cancellable = true)
     private static void valueOf__1213124364(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1213124364L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.client.multiplayer.ServerData.Type.REALM);
     }
 
 

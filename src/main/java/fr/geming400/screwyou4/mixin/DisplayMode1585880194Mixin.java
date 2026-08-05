@@ -16,7 +16,7 @@ public class DisplayMode1585880194Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/client/gui/Font$DisplayMode;", cancellable = true)
     private static void valueOf_143096564(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(143096564L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.client.gui.Font.DisplayMode.NORMAL);
     }
 
 

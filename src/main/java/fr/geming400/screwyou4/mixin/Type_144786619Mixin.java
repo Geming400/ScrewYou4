@@ -16,13 +16,13 @@ public class Type_144786619Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/client/quickplay/QuickPlayLog$Type;", cancellable = true)
     private static void valueOf_145331545(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(145331545L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.client.quickplay.QuickPlayLog.Type.REALMS);
     }
 
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName__990673853(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-990673853L))
-            info.setReturnValue(null);
+            info.setReturnValue("ls}V$칬쮨k61V!q");
     }
 
 

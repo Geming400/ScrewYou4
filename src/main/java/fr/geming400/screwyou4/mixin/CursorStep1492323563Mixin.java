@@ -16,7 +16,7 @@ public class CursorStep1492323563Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/client/gui/font/TextFieldHelper$CursorStep;", cancellable = true)
     private static void valueOf_1744744960(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1744744960L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.client.gui.font.TextFieldHelper.CursorStep.CHARACTER);
     }
 
 

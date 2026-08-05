@@ -10,25 +10,25 @@ public class TriggerInstance_1259057403Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1650397635(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1650397635L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_123597427(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(123597427L))
-            info.setReturnValue(null);
+            info.setReturnValue(" )9^!a:쏱Qgd@@㮌TG䥣^wF!ge惘_GJozH>鍛ra@B낂e4P.ixCa䵰w\",ItjZ2钁mO;鬦#q.!w}SY㭫)㟄#0t施[");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1297320144(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1297320144L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1778183585);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(D)Z", cancellable = true)
     private void matches__1826606683(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1826606683L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "distance()Lnet/minecraft/advancements/predicates/MinMaxBounds$Doubles;", cancellable = true)

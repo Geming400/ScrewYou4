@@ -10,19 +10,19 @@ public class TriggerInstance_168041176Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_1553553434(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1553553434L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__967418800(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-967418800L))
-            info.setReturnValue(null);
+            info.setReturnValue("JM'ti;+to<j?Tg9\"stS");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_206303917(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(206303917L))
-            info.setReturnValue(null);
+            info.setReturnValue(-987394764);
     }
 
     @Inject(at = @At("HEAD"), method = "player()Ljava/util/Optional;", cancellable = true)

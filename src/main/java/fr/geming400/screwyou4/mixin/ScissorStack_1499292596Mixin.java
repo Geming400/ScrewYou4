@@ -28,7 +28,7 @@ public class ScissorStack_1499292596Mixin {
     @Inject(at = @At("HEAD"), method = "containsPoint(II)Z", cancellable = true)
     private void containsPoint_503416970(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(503416970L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
 

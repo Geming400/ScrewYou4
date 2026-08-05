@@ -31,15 +31,15 @@ public class FeaturePlaceContext2124662416Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "topFeature()Ljava/util/Optional;", cancellable = true)
-    private void topFeature__1924843458(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1924843458L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "chunkGenerator()Lnet/minecraft/world/level/chunk/ChunkGenerator;", cancellable = true)
     private void chunkGenerator_327670010(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(327670010L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "topFeature()Ljava/util/Optional;", cancellable = true)
+    private void topFeature__1924843458(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1924843458L))
             info.setReturnValue(null);
     }
 

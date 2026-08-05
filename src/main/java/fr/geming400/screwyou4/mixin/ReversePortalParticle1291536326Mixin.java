@@ -16,7 +16,7 @@ public class ReversePortalParticle1291536326Mixin {
     @Inject(at = @At("HEAD"), method = "getQuadSize(F)F", cancellable = true)
     private void getQuadSize__1792299937(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1792299937L))
-            info.setReturnValue(null);
+            info.setReturnValue(3.258973E8F);
     }
 
 

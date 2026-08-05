@@ -10,19 +10,19 @@ public class SpawnContext_305183198Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_1690695456(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1690695456L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__830276778(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-830276778L))
-            info.setReturnValue(null);
+            info.setReturnValue("\"D끁=`Xq4&HC&V@ẘ缙p8BuDR8cE&^lMILcwG썭D1უR@xjByX,_b:;4%z +6$`I+W/굜쯑_J콭J}!");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_343445939(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(343445939L))
-            info.setReturnValue(null);
+            info.setReturnValue(766491756);
     }
 
     @Inject(at = @At("HEAD"), method = "create(Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/entity/variant/SpawnContext;", cancellable = true)

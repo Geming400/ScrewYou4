@@ -28,19 +28,19 @@ public class ContextEntityType_2129508626Mixin {
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__779946412(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-779946412L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_994048650(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(994048650L))
-            info.setReturnValue(null);
+            info.setReturnValue("@W:q`>km@㭚Coeks醊ꒌr]*f6;u\"2\"Fh9T帧[]@");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__2127195929(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2127195929L))
-            info.setReturnValue(null);
+            info.setReturnValue(1434499923);
     }
 
     @Inject(at = @At("HEAD"), method = "valueCodec()Lcom/mojang/serialization/Codec;", cancellable = true)

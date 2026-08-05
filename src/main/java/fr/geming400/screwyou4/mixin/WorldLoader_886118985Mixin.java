@@ -10,7 +10,7 @@ public class WorldLoader_886118985Mixin {
         @Inject(at = @At("HEAD"), method = "load(Lnet/minecraft/server/WorldLoader$InitConfig;Lnet/minecraft/server/WorldLoader$WorldDataSupplier;Lnet/minecraft/server/WorldLoader$ResultFactory;Ljava/util/concurrent/Executor;Ljava/util/concurrent/Executor;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
     private static void load_80566296(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(80566296L))
-            info.setReturnValue(null);
+            info.setReturnValue(new java.util.concurrent.CompletableFuture());
     }
 
 

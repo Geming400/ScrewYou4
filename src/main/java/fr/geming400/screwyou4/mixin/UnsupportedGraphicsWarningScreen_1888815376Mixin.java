@@ -28,7 +28,7 @@ public class UnsupportedGraphicsWarningScreen_1888815376Mixin {
     @Inject(at = @At("HEAD"), method = "shouldCloseOnEsc()Z", cancellable = true)
     private void shouldCloseOnEsc_1927093958(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1927093958L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
 

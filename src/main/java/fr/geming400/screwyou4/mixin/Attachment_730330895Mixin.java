@@ -16,13 +16,13 @@ public class Attachment_730330895Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/world/level/block/HangingSignBlock$Attachment;", cancellable = true)
     private static void valueOf__2029873173(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2029873173L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.level.block.HangingSignBlock.Attachment.CEILING_MIDDLE);
     }
 
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName__405129577(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-405129577L))
-            info.setReturnValue(null);
+            info.setReturnValue("W7!zCTjiP!u@b*a_v斖NI_/#");
     }
 
 

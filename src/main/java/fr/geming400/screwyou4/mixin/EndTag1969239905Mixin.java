@@ -10,7 +10,7 @@ public class EndTag1969239905Mixin {
         @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_833779434(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(833779434L))
-            info.setReturnValue(null);
+            info.setReturnValue("!l@bpY1z南m6Z7`");
     }
 
     @Inject(at = @At("HEAD"), method = "copy()Lnet/minecraft/nbt/Tag;", cancellable = true)
@@ -28,7 +28,7 @@ public class EndTag1969239905Mixin {
     @Inject(at = @At("HEAD"), method = "getId()B", cancellable = true)
     private void getId_2007495424(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2007495424L))
-            info.setReturnValue(null);
+            info.setReturnValue(-76);
     }
 
     @Inject(at = @At("HEAD"), method = "accept(Lnet/minecraft/nbt/TagVisitor;)V", cancellable = true)
@@ -40,7 +40,7 @@ public class EndTag1969239905Mixin {
     @Inject(at = @At("HEAD"), method = "accept(Lnet/minecraft/nbt/StreamTagVisitor;)Lnet/minecraft/nbt/StreamTagVisitor$ValueResult;", cancellable = true)
     private void accept__345416778(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-345416778L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.nbt.StreamTagVisitor.ValueResult.CONTINUE);
     }
 
     @Inject(at = @At("HEAD"), method = "write(Ljava/io/DataOutput;)V", cancellable = true)
@@ -58,7 +58,7 @@ public class EndTag1969239905Mixin {
     @Inject(at = @At("HEAD"), method = "sizeInBytes()I", cancellable = true)
     private void sizeInBytes_2007502151(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2007502151L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1278222937);
     }
 
 

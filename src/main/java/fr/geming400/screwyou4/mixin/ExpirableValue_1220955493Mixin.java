@@ -16,19 +16,19 @@ public class ExpirableValue_1220955493Mixin {
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1688499545(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1688499545L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_85495021(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(85495021L))
-            info.setReturnValue(null);
+            info.setReturnValue("E{-+6dKj>wzv潇32sg^#뻸[m$j(*$,I&\"齊PH[东$ceV΄O.");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1259218234(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1259218234L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1361783955);
     }
 
     @Inject(at = @At("HEAD"), method = "of(Ljava/lang/Object;)Lnet/minecraft/world/entity/ai/memory/ExpirableValue;", cancellable = true)

@@ -16,19 +16,19 @@ public class ServerboundChunkBatchReceivedPacket_639308269Mixin {
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_2024820527(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2024820527L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__496151707(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-496151707L))
-            info.setReturnValue(null);
+            info.setReturnValue("HO3h+`3RF(ZxGN[R蔌2");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_677571010(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(677571010L))
-            info.setReturnValue(null);
+            info.setReturnValue(907274691);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/protocol/game/ServerGamePacketListener;)V", cancellable = true)
@@ -46,7 +46,7 @@ public class ServerboundChunkBatchReceivedPacket_639308269Mixin {
     @Inject(at = @At("HEAD"), method = "desiredChunksPerTick()F", cancellable = true)
     private void desiredChunksPerTick_677567631(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(677567631L))
-            info.setReturnValue(null);
+            info.setReturnValue(2.188303E8F);
     }
 
 

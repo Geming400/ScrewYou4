@@ -10,25 +10,25 @@ public class PlaySoundConsumeEffect_2136218036Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__773237002(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-773237002L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_1000758060(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1000758060L))
-            info.setReturnValue(null);
+            info.setReturnValue("痧帱爄JsY6H[햢R愰諶^=/Eb᰿0cGs$xJ:㻎Y泋p/@x&ซtrN(_='Xbw4m?k`移>Qcyid継T;;Mj-j=퍳^]( L166sYG0)OGAU[0a@H+_'");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__2120486519(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2120486519L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1322534100);
     }
 
     @Inject(at = @At("HEAD"), method = "apply(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/LivingEntity;)Z", cancellable = true)
     private void apply_2128905222(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2128905222L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "getType()Lnet/minecraft/world/item/consume_effects/ConsumeEffect$Type;", cancellable = true)

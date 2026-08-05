@@ -10,25 +10,25 @@ public class TagFile1577028152Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1332426885(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1332426885L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_441568177(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(441568177L))
-            info.setReturnValue(null);
+            info.setReturnValue("x`J]kRfi}Av'%i7J戳kG}@\"i義N>W&aL}");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1615290894(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1615290894L))
-            info.setReturnValue(null);
+            info.setReturnValue(2137234148);
     }
 
     @Inject(at = @At("HEAD"), method = "replace()Z", cancellable = true)
     private void replace_1615306735(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1615306735L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "entries()Ljava/util/List;", cancellable = true)

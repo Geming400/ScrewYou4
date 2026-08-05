@@ -16,7 +16,7 @@ public class MoveToSkySeeingSpot618776056Mixin {
     @Inject(at = @At("HEAD"), method = "hasNoBlocksAbove(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/core/BlockPos;)Z", cancellable = true)
     private static void hasNoBlocksAbove__1531293988(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1531293988L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
 

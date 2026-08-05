@@ -10,7 +10,7 @@ public class PistonStructureResolver345376178Mixin {
         @Inject(at = @At("HEAD"), method = "resolve()Z", cancellable = true)
     private void resolve_383654761(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(383654761L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "getToDestroy()Ljava/util/List;", cancellable = true)
@@ -22,7 +22,7 @@ public class PistonStructureResolver345376178Mixin {
     @Inject(at = @At("HEAD"), method = "getPushDirection()Lnet/minecraft/core/Direction;", cancellable = true)
     private void getPushDirection__417479107(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-417479107L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.core.Direction.SOUTH);
     }
 
     @Inject(at = @At("HEAD"), method = "getToPush()Ljava/util/List;", cancellable = true)

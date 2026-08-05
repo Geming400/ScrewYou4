@@ -10,19 +10,19 @@ public class Packed_1572120215Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1337334823(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1337334823L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_436660239(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(436660239L))
-            info.setReturnValue(null);
+            info.setReturnValue("TN>\"VuT/̈U+o}$5/亰,9uLW");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1610382956(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1610382956L))
-            info.setReturnValue(null);
+            info.setReturnValue(1607089765);
     }
 
     @Inject(at = @At("HEAD"), method = "write(Lnet/minecraft/network/FriendlyByteBuf;)V", cancellable = true)

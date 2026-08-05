@@ -10,25 +10,25 @@ public class Measurement_659353396Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_2044865654(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2044865654L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__476106580(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-476106580L))
-            info.setReturnValue(null);
+            info.setReturnValue("=,;M渳(XA<Ed(䑐c$n`硱uo쒳F]Hoeiv9:f.Kt;wgᚳ#q鳉V俀P;;g");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_697616137(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(697616137L))
-            info.setReturnValue(null);
+            info.setReturnValue(1797666430);
     }
 
     @Inject(at = @At("HEAD"), method = "millis()I", cancellable = true)
     private void millis_697615641(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(697615641L))
-            info.setReturnValue(null);
+            info.setReturnValue(2000813849);
     }
 
 

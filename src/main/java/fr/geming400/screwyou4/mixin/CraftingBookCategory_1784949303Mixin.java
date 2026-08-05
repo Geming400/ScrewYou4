@@ -16,13 +16,13 @@ public class CraftingBookCategory_1784949303Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/world/item/crafting/CraftingBookCategory;", cancellable = true)
     private static void valueOf__999658681(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-999658681L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.item.crafting.CraftingBookCategory.EQUIPMENT);
     }
 
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName_649488831(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(649488831L))
-            info.setReturnValue(null);
+            info.setReturnValue(";XZ%z否6g`ꥈqo$T2Z`Svr 2s@k[⌙nSA*B6LaⲦF䁖zD|LQ]T");
     }
 
 

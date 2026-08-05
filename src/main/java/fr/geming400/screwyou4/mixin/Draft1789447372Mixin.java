@@ -10,31 +10,31 @@ public class Draft1789447372Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1120007665(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1120007665L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_653987397(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(653987397L))
-            info.setReturnValue(null);
+            info.setReturnValue("` =)l\"lm");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1827710114(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1827710114L))
-            info.setReturnValue(null);
+            info.setReturnValue(626231454);
     }
 
     @Inject(at = @At("HEAD"), method = "text()Ljava/lang/String;", cancellable = true)
     private void text_653986901(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(653986901L))
-            info.setReturnValue(null);
+            info.setReturnValue("4dlR[g>& e*kF&5䐒7蛼");
     }
 
     @Inject(at = @At("HEAD"), method = "chatMethod()Lnet/minecraft/client/gui/components/ChatComponent$ChatMethod;", cancellable = true)
     private void chatMethod_861677101(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(861677101L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.client.gui.components.ChatComponent.ChatMethod.MESSAGE);
     }
 
 

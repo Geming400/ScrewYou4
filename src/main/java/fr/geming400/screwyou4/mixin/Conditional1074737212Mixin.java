@@ -10,19 +10,19 @@ public class Conditional1074737212Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1834717825(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1834717825L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__60722763(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-60722763L))
-            info.setReturnValue(null);
+            info.setReturnValue("XTxFYp0k༤Ts㪖KᲉr`7X뙕쒛JJ胈/K:$c@o>H;j<YK@yY뺇A");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1112999954(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1112999954L))
-            info.setReturnValue(null);
+            info.setReturnValue(808709362);
     }
 
     @Inject(at = @At("HEAD"), method = "filter()Lnet/minecraft/client/gui/font/FontOption$Filter;", cancellable = true)

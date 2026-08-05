@@ -7,13 +7,7 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.SystemReport.class)
 public class SystemReport191103609Mixin {
-        @Inject(at = @At("HEAD"), method = "toLineSeparatedString()Ljava/lang/String;", cancellable = true)
-    private void toLineSeparatedString__944356862(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-944356862L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "appendToCrashReportString(Ljava/lang/StringBuilder;)V", cancellable = true)
+        @Inject(at = @At("HEAD"), method = "appendToCrashReportString(Ljava/lang/StringBuilder;)V", cancellable = true)
     private void appendToCrashReportString_1258886093(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1258886093L))
             info.cancel();
@@ -22,7 +16,7 @@ public class SystemReport191103609Mixin {
     @Inject(at = @At("HEAD"), method = "sizeInMiB(J)F", cancellable = true)
     private static void sizeInMiB_1405928974(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1405928974L))
-            info.setReturnValue(null);
+            info.setReturnValue(9.23715E7F);
     }
 
     @Inject(at = @At("HEAD"), method = "setDetail(Ljava/lang/String;Ljava/lang/String;)V", cancellable = true)
@@ -35,6 +29,12 @@ public class SystemReport191103609Mixin {
     private void setDetail__1922557791(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1922557791L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "toLineSeparatedString()Ljava/lang/String;", cancellable = true)
+    private void toLineSeparatedString__944356862(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-944356862L))
+            info.setReturnValue("oj끥1|2 !-.䧡=W005aq,06N1//Z[Dr掆詈b旜ဏ,%e*dUEI⤻Y\"cණ*D'L'Fd$;C/v*Uh뎔.pC気U[M4뻐`ek");
     }
 
 

@@ -10,19 +10,19 @@ public class PotDecorations_943203980Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1966251058(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1966251058L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__192255996(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-192255996L))
-            info.setReturnValue(null);
+            info.setReturnValue("_\"M}n/N&W0좲﹦qQ4H?﮼8ꋿ\" ;XE*U;퐕f쓗 ={S䚾Y猈\"(V0{Uf$*p뿏r攭kmX@a%+\"仙");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_981466721(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(981466721L))
-            info.setReturnValue(null);
+            info.setReturnValue(219774444);
     }
 
     @Inject(at = @At("HEAD"), method = "left()Ljava/util/Optional;", cancellable = true)

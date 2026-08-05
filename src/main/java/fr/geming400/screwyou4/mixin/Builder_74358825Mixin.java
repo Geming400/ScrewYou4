@@ -16,7 +16,7 @@ public class Builder_74358825Mixin {
     @Inject(at = @At("HEAD"), method = "apply(Lnet/minecraft/world/level/storage/loot/functions/LootItemFunction$Builder;)Lnet/minecraft/world/level/storage/loot/LootTable$Builder;", cancellable = true)
     private void apply__1500307826(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1500307826L))
-            info.setReturnValue(null);
+            info.setReturnValue(new net.minecraft.world.level.storage.loot.LootTable$Builder());
     }
 
     @Inject(at = @At("HEAD"), method = "unwrap()Lnet/minecraft/world/level/storage/loot/LootTable$Builder;", cancellable = true)
@@ -40,18 +40,18 @@ public class Builder_74358825Mixin {
     @Inject(at = @At("HEAD"), method = "withPool(Lnet/minecraft/world/level/storage/loot/LootPool$Builder;)Lnet/minecraft/world/level/storage/loot/LootTable$Builder;", cancellable = true)
     private void withPool_1865314219(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1865314219L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "setParamSet(Lnet/minecraft/util/context/ContextKeySet;)Lnet/minecraft/world/level/storage/loot/LootTable$Builder;", cancellable = true)
-    private void setParamSet__988791014(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-988791014L))
-            info.setReturnValue(null);
+            info.setReturnValue(new net.minecraft.world.level.storage.loot.LootTable$Builder());
     }
 
     @Inject(at = @At("HEAD"), method = "setRandomSequence(Lnet/minecraft/resources/Identifier;)Lnet/minecraft/world/level/storage/loot/LootTable$Builder;", cancellable = true)
     private void setRandomSequence__593537464(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-593537464L))
+            info.setReturnValue(new net.minecraft.world.level.storage.loot.LootTable$Builder());
+    }
+
+    @Inject(at = @At("HEAD"), method = "setParamSet(Lnet/minecraft/util/context/ContextKeySet;)Lnet/minecraft/world/level/storage/loot/LootTable$Builder;", cancellable = true)
+    private void setParamSet__988791014(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-988791014L))
             info.setReturnValue(null);
     }
 

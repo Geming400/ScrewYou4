@@ -28,19 +28,19 @@ public class PoiSection1496873579Mixin {
     @Inject(at = @At("HEAD"), method = "release(Lnet/minecraft/core/BlockPos;)Z", cancellable = true)
     private void release_1665644022(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1665644022L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "exists(Lnet/minecraft/core/BlockPos;Ljava/util/function/Predicate;)Z", cancellable = true)
     private void exists__995601787(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-995601787L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "isValid()Z", cancellable = true)
     private void isValid_1535152162(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1535152162L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "refresh(Ljava/util/function/Consumer;)V", cancellable = true)
@@ -64,7 +64,7 @@ public class PoiSection1496873579Mixin {
     @Inject(at = @At("HEAD"), method = "getFreeTickets(Lnet/minecraft/core/BlockPos;)I", cancellable = true)
     private void getFreeTickets_1665627685(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1665627685L))
-            info.setReturnValue(null);
+            info.setReturnValue(-723254611);
     }
 
     @Inject(at = @At("HEAD"), method = "getDebugPoiInfo(Lnet/minecraft/core/BlockPos;)Ljava/util/Optional;", cancellable = true)

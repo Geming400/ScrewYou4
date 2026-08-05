@@ -10,25 +10,25 @@ public class Services_976029425Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1933425613(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1933425613L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__159430551(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-159430551L))
-            info.setReturnValue(null);
+            info.setReturnValue("k^{H/}甤vne偮#26']뾗㊄>ZMP)\"nၩ4ὡ<.NH-T꡴{q7hh:JgDt}!YlW陜Ḃ⹓yR)x⤲Li젞}#된VLdt!U$튖3匬>'QB䓘iM䩰");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1014292166(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1014292166L))
-            info.setReturnValue(null);
+            info.setReturnValue(1729052685);
     }
 
     @Inject(at = @At("HEAD"), method = "isEnabled()Z", cancellable = true)
     private void isEnabled_1014308007(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1014308007L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "environment()Lnet/minecraft/client/multiplayer/chat/report/ReportEnvironment;", cancellable = true)
@@ -40,18 +40,18 @@ public class Services_976029425Mixin {
     @Inject(at = @At("HEAD"), method = "send(Ljava/util/UUID;Lnet/minecraft/client/multiplayer/chat/report/ReportType;Lcom/mojang/authlib/minecraft/report/AbuseReport;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
     private void send_1769166148(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1769166148L))
+            info.setReturnValue(new java.util.concurrent.CompletableFuture());
+    }
+
+    @Inject(at = @At("HEAD"), method = "userApiService()Lcom/mojang/authlib/minecraft/UserApiService;", cancellable = true)
+    private void userApiService_2049629771(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2049629771L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "reportLimits()Lcom/mojang/authlib/minecraft/report/AbuseReportLimits;", cancellable = true)
     private void reportLimits__901006054(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-901006054L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "userApiService()Lcom/mojang/authlib/minecraft/UserApiService;", cancellable = true)
-    private void userApiService_2049629771(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2049629771L))
             info.setReturnValue(null);
     }
 

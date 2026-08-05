@@ -10,25 +10,25 @@ public class GuiBannerResultRenderState_248608293Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_1634120551(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1634120551L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__886851683(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-886851683L))
-            info.setReturnValue(null);
+            info.setReturnValue("u)d)fM㐁扏bVk?}伬H%;d%]Yv08㒪1_즊}<r툢&1%f1Po>FyoWQ\"H궑2胢^");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_286871034(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(286871034L))
-            info.setReturnValue(null);
+            info.setReturnValue(1486732591);
     }
 
     @Inject(at = @At("HEAD"), method = "scale()F", cancellable = true)
     private void scale_286867655(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(286867655L))
-            info.setReturnValue(null);
+            info.setReturnValue(3.48222E7F);
     }
 
     @Inject(at = @At("HEAD"), method = "bounds()Lnet/minecraft/client/gui/navigation/ScreenRectangle;", cancellable = true)
@@ -46,25 +46,31 @@ public class GuiBannerResultRenderState_248608293Mixin {
     @Inject(at = @At("HEAD"), method = "x1()I", cancellable = true)
     private void x1_286870538(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(286870538L))
-            info.setReturnValue(null);
+            info.setReturnValue(1369768926);
     }
 
     @Inject(at = @At("HEAD"), method = "y1()I", cancellable = true)
     private void y1_286870538(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(286870538L))
-            info.setReturnValue(null);
+            info.setReturnValue(1369768926);
     }
 
     @Inject(at = @At("HEAD"), method = "x0()I", cancellable = true)
     private void x0_286870538(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(286870538L))
-            info.setReturnValue(null);
+            info.setReturnValue(1369768926);
     }
 
     @Inject(at = @At("HEAD"), method = "y0()I", cancellable = true)
     private void y0_286870538(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(286870538L))
-            info.setReturnValue(null);
+            info.setReturnValue(1369768926);
+    }
+
+    @Inject(at = @At("HEAD"), method = "baseColor()Lnet/minecraft/world/item/DyeColor;", cancellable = true)
+    private void baseColor_1683916522(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1683916522L))
+            info.setReturnValue(net.minecraft.world.item.DyeColor.GREEN);
     }
 
     @Inject(at = @At("HEAD"), method = "scissorArea()Lnet/minecraft/client/gui/navigation/ScreenRectangle;", cancellable = true)
@@ -76,12 +82,6 @@ public class GuiBannerResultRenderState_248608293Mixin {
     @Inject(at = @At("HEAD"), method = "resultBannerPatterns()Lnet/minecraft/world/level/block/entity/BannerPatternLayers;", cancellable = true)
     private void resultBannerPatterns__1727629862(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1727629862L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "baseColor()Lnet/minecraft/world/item/DyeColor;", cancellable = true)
-    private void baseColor_1683916522(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1683916522L))
             info.setReturnValue(null);
     }
 

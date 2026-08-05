@@ -13,27 +13,9 @@ public class Builder1837884617Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "addDefaultLayers(Lnet/minecraft/world/level/Level;)Lnet/minecraft/world/attribute/EnvironmentAttributeSystem$Builder;", cancellable = true)
-    private void addDefaultLayers_1854701493(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1854701493L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "addTimeBasedLayer(Lnet/minecraft/world/attribute/EnvironmentAttribute;Lnet/minecraft/world/attribute/EnvironmentAttributeLayer$TimeBased;)Lnet/minecraft/world/attribute/EnvironmentAttributeSystem$Builder;", cancellable = true)
-    private void addTimeBasedLayer_189955093(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(189955093L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "addTimelineLayer(Lnet/minecraft/core/Holder;Lnet/minecraft/world/clock/ClockManager;)Lnet/minecraft/world/attribute/EnvironmentAttributeSystem$Builder;", cancellable = true)
-    private void addTimelineLayer__447822665(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-447822665L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "addPositionalLayer(Lnet/minecraft/world/attribute/EnvironmentAttribute;Lnet/minecraft/world/attribute/EnvironmentAttributeLayer$Positional;)Lnet/minecraft/world/attribute/EnvironmentAttributeSystem$Builder;", cancellable = true)
-    private void addPositionalLayer__441019577(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-441019577L))
+    @Inject(at = @At("HEAD"), method = "addConstantLayer(Lnet/minecraft/world/attribute/EnvironmentAttribute;Lnet/minecraft/world/attribute/EnvironmentAttributeLayer$Constant;)Lnet/minecraft/world/attribute/EnvironmentAttributeSystem$Builder;", cancellable = true)
+    private void addConstantLayer__1930638249(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1930638249L))
             info.setReturnValue(null);
     }
 
@@ -43,9 +25,27 @@ public class Builder1837884617Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "addConstantLayer(Lnet/minecraft/world/attribute/EnvironmentAttribute;Lnet/minecraft/world/attribute/EnvironmentAttributeLayer$Constant;)Lnet/minecraft/world/attribute/EnvironmentAttributeSystem$Builder;", cancellable = true)
-    private void addConstantLayer__1930638249(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1930638249L))
+    @Inject(at = @At("HEAD"), method = "addPositionalLayer(Lnet/minecraft/world/attribute/EnvironmentAttribute;Lnet/minecraft/world/attribute/EnvironmentAttributeLayer$Positional;)Lnet/minecraft/world/attribute/EnvironmentAttributeSystem$Builder;", cancellable = true)
+    private void addPositionalLayer__441019577(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-441019577L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "addDefaultLayers(Lnet/minecraft/world/level/Level;)Lnet/minecraft/world/attribute/EnvironmentAttributeSystem$Builder;", cancellable = true)
+    private void addDefaultLayers_1854701493(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1854701493L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "addTimelineLayer(Lnet/minecraft/core/Holder;Lnet/minecraft/world/clock/ClockManager;)Lnet/minecraft/world/attribute/EnvironmentAttributeSystem$Builder;", cancellable = true)
+    private void addTimelineLayer__447822665(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-447822665L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "addTimeBasedLayer(Lnet/minecraft/world/attribute/EnvironmentAttribute;Lnet/minecraft/world/attribute/EnvironmentAttributeLayer$TimeBased;)Lnet/minecraft/world/attribute/EnvironmentAttributeSystem$Builder;", cancellable = true)
+    private void addTimeBasedLayer_189955093(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(189955093L))
             info.setReturnValue(null);
     }
 

@@ -10,25 +10,25 @@ public class Beardifier_1858096369Mixin {
         @Inject(at = @At("HEAD"), method = "compute(Lnet/minecraft/world/level/levelgen/DensityFunction$FunctionContext;)D", cancellable = true)
     private void compute__1468839308(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1468839308L))
-            info.setReturnValue(null);
+            info.setReturnValue(3207400.19978783D);
     }
 
     @Inject(at = @At("HEAD"), method = "maxValue()D", cancellable = true)
     private void maxValue_1896353809(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1896353809L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "minValue()D", cancellable = true)
-    private void minValue_1896353809(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1896353809L))
-            info.setReturnValue(null);
+            info.setReturnValue(3207400.6394403214D);
     }
 
     @Inject(at = @At("HEAD"), method = "forStructuresInChunk(Lnet/minecraft/world/level/StructureManager;Lnet/minecraft/world/level/ChunkPos;)Lnet/minecraft/world/level/levelgen/Beardifier;", cancellable = true)
     private static void forStructuresInChunk_1421323553(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1421323553L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "minValue()D", cancellable = true)
+    private void minValue_1896353809(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1896353809L))
+            info.setReturnValue(3207400.6394403214D);
     }
 
     @Inject(at = @At("HEAD"), method = "fillArray([DLnet/minecraft/world/level/levelgen/DensityFunction$ContextProvider;)V", cancellable = true)

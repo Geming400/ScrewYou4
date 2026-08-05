@@ -16,7 +16,7 @@ public class SelectedGameMode_247213134Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/client/gui/screens/worldselection/WorldCreationUiState$SelectedGameMode;", cancellable = true)
     private static void valueOf_1615303956(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1615303956L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.client.gui.screens.worldselection.WorldCreationUiState.SelectedGameMode.DEBUG);
     }
 
     @Inject(at = @At("HEAD"), method = "getInfo()Lnet/minecraft/network/chat/Component;", cancellable = true)

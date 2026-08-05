@@ -10,7 +10,7 @@ public class UnderwaterMagmaFeature_263768828Mixin {
         @Inject(at = @At("HEAD"), method = "place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z", cancellable = true)
     private void place_979026563(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(979026563L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
 

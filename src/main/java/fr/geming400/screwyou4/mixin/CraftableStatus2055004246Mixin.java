@@ -16,7 +16,7 @@ public class CraftableStatus2055004246Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/client/gui/screens/recipebook/RecipeCollection$CraftableStatus;", cancellable = true)
     private static void valueOf_668058034(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(668058034L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.client.gui.screens.recipebook.RecipeCollection.CraftableStatus.NOT_CRAFTABLE);
     }
 
 

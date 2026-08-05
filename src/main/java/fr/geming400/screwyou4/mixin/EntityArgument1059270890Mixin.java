@@ -16,7 +16,7 @@ public class EntityArgument1059270890Mixin {
     @Inject(at = @At("HEAD"), method = "parse(Lcom/mojang/brigadier/StringReader;Ljava/lang/Object;)Ljava/lang/Object;", cancellable = true)
     private void parse__794857761(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-794857761L))
-            info.setReturnValue(null);
+            info.setReturnValue(new java.lang.Object());
     }
 
     @Inject(at = @At("HEAD"), method = "parse(Lcom/mojang/brigadier/StringReader;Ljava/lang/Object;)Lnet/minecraft/commands/arguments/selector/EntitySelector;", cancellable = true)
@@ -61,15 +61,27 @@ public class EntityArgument1059270890Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "listSuggestions(Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
-    private void listSuggestions_1300194332(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1300194332L))
+    @Inject(at = @At("HEAD"), method = "getOptionalEntities(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Ljava/util/Collection;", cancellable = true)
+    private static void getOptionalEntities__1413730802(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1413730802L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getPlayers(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Ljava/util/Collection;", cancellable = true)
-    private static void getPlayers__1413730802(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "getOptionalPlayers(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Ljava/util/Collection;", cancellable = true)
+    private static void getOptionalPlayers__1413730802(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1413730802L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "listSuggestions(Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
+    private void listSuggestions_1300194332(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1300194332L))
+            info.setReturnValue(new java.util.concurrent.CompletableFuture());
+    }
+
+    @Inject(at = @At("HEAD"), method = "getExamples()Ljava/util/Collection;", cancellable = true)
+    private void getExamples__754377382(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-754377382L))
             info.setReturnValue(null);
     }
 
@@ -85,20 +97,8 @@ public class EntityArgument1059270890Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getOptionalEntities(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Ljava/util/Collection;", cancellable = true)
-    private static void getOptionalEntities__1413730802(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1413730802L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getExamples()Ljava/util/Collection;", cancellable = true)
-    private void getExamples__754377382(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-754377382L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getOptionalPlayers(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Ljava/util/Collection;", cancellable = true)
-    private static void getOptionalPlayers__1413730802(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "getPlayers(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Ljava/util/Collection;", cancellable = true)
+    private static void getPlayers__1413730802(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1413730802L))
             info.setReturnValue(null);
     }

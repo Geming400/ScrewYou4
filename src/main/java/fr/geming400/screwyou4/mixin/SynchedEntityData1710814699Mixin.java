@@ -28,17 +28,11 @@ public class SynchedEntityData1710814699Mixin {
     @Inject(at = @At("HEAD"), method = "isDirty()Z", cancellable = true)
     private void isDirty_1749093282(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1749093282L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "assignValues(Ljava/util/List;)V", cancellable = true)
-    private void assignValues_931596111(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(931596111L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "getNonDefaultValues()Ljava/util/List;", cancellable = true)
-    private void getNonDefaultValues__957815781(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "packDirty()Ljava/util/List;", cancellable = true)
+    private void packDirty__957815781(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-957815781L))
             info.setReturnValue(null);
     }
@@ -49,10 +43,16 @@ public class SynchedEntityData1710814699Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "packDirty()Ljava/util/List;", cancellable = true)
-    private void packDirty__957815781(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "getNonDefaultValues()Ljava/util/List;", cancellable = true)
+    private void getNonDefaultValues__957815781(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-957815781L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "assignValues(Ljava/util/List;)V", cancellable = true)
+    private void assignValues_931596111(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(931596111L))
+            info.cancel();
     }
 
 

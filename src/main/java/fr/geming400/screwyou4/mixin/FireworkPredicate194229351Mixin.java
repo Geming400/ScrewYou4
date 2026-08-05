@@ -10,31 +10,31 @@ public class FireworkPredicate194229351Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_1579741610(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1579741610L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__941230624(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-941230624L))
-            info.setReturnValue(null);
+            info.setReturnValue("꛶妃g&LXH`0앤]SKX㟙(&m嵫,녭L0&nug D");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_232492093(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(232492093L))
-            info.setReturnValue(null);
+            info.setReturnValue(1296384680);
     }
 
     @Inject(at = @At("HEAD"), method = "test(Lnet/minecraft/world/item/component/FireworkExplosion;)Z", cancellable = true)
     private void test_2105867292(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2105867292L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "test(Ljava/lang/Object;)Z", cancellable = true)
     private void test_1579870074(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1579870074L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "shape()Ljava/util/Optional;", cancellable = true)

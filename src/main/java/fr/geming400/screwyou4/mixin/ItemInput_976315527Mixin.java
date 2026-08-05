@@ -10,19 +10,19 @@ public class ItemInput_976315527Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1933139511(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1933139511L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__159144449(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-159144449L))
-            info.setReturnValue(null);
+            info.setReturnValue("H) kG GbWꞔ6L)S5u+[[o嫄e}وDg[6꿢Y|:Gg5[#-zsIxB>7('ٗ+cEm}ꠒsM3!ox*2l']eY#uook@giҖnWeFẉc");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1014578268(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1014578268L))
-            info.setReturnValue(null);
+            info.setReturnValue(1894000197);
     }
 
     @Inject(at = @At("HEAD"), method = "item()Lnet/minecraft/core/Holder;", cancellable = true)

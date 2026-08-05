@@ -22,25 +22,25 @@ public class Shape_763642091Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/world/item/component/FireworkExplosion$Shape;", cancellable = true)
     private static void valueOf__1591619688(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1591619688L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.item.component.FireworkExplosion.Shape.SMALL_BALL);
     }
 
     @Inject(at = @At("HEAD"), method = "getId()I", cancellable = true)
     private void getId_801904336(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(801904336L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
-    private void getSerializedName__371818381(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-371818381L))
-            info.setReturnValue(null);
+            info.setReturnValue(94129272);
     }
 
     @Inject(at = @At("HEAD"), method = "byId(I)Lnet/minecraft/world/item/component/FireworkExplosion$Shape;", cancellable = true)
     private static void byId_876689865(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(876689865L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.item.component.FireworkExplosion.Shape.LARGE_BALL);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
+    private void getSerializedName__371818381(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-371818381L))
+            info.setReturnValue("'?]VNg+qXCv4MIG7gC#ts4ⷘ쳱n〜s");
     }
 
 

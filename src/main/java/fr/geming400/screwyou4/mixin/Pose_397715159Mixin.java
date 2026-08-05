@@ -16,19 +16,19 @@ public class Pose_397715159Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/world/level/block/CopperGolemStatueBlock$Pose;", cancellable = true)
     private static void valueOf__641335685(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-641335685L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.level.block.CopperGolemStatueBlock.Pose.SITTING);
     }
 
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName__737745313(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-737745313L))
-            info.setReturnValue(null);
+            info.setReturnValue("=m");
     }
 
     @Inject(at = @At("HEAD"), method = "getNextPose()Lnet/minecraft/world/level/block/CopperGolemStatueBlock$Pose;", cancellable = true)
     private void getNextPose_225975417(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(225975417L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.level.block.CopperGolemStatueBlock.Pose.SITTING);
     }
 
 

@@ -16,19 +16,19 @@ public class ConcentricRingsStructurePlacement2117928933Mixin {
     @Inject(at = @At("HEAD"), method = "count()I", cancellable = true)
     private void count__2138776117(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2138776117L))
-            info.setReturnValue(null);
+            info.setReturnValue(-2019175236);
     }
 
     @Inject(at = @At("HEAD"), method = "spread()I", cancellable = true)
     private void spread__2138776117(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2138776117L))
-            info.setReturnValue(null);
+            info.setReturnValue(-2019175236);
     }
 
     @Inject(at = @At("HEAD"), method = "distance()I", cancellable = true)
     private void distance__2138776117(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2138776117L))
-            info.setReturnValue(null);
+            info.setReturnValue(-2019175236);
     }
 
     @Inject(at = @At("HEAD"), method = "preferredBiomes()Lnet/minecraft/core/HolderSet;", cancellable = true)

@@ -13,26 +13,8 @@ public class ClientboundLightUpdatePacketData2064203040Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getBlockUpdates()Ljava/util/List;", cancellable = true)
-    private void getBlockUpdates__604427440(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-604427440L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getBlockYMask()Ljava/util/BitSet;", cancellable = true)
-    private void getBlockYMask__1838091463(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1838091463L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getSkyYMask()Ljava/util/BitSet;", cancellable = true)
     private void getSkyYMask__1838091463(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1838091463L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getEmptyBlockYMask()Ljava/util/BitSet;", cancellable = true)
-    private void getEmptyBlockYMask__1838091463(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1838091463L))
             info.setReturnValue(null);
     }
@@ -45,6 +27,24 @@ public class ClientboundLightUpdatePacketData2064203040Mixin {
 
     @Inject(at = @At("HEAD"), method = "getSkyUpdates()Ljava/util/List;", cancellable = true)
     private void getSkyUpdates__604427440(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-604427440L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getBlockYMask()Ljava/util/BitSet;", cancellable = true)
+    private void getBlockYMask__1838091463(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1838091463L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getEmptyBlockYMask()Ljava/util/BitSet;", cancellable = true)
+    private void getEmptyBlockYMask__1838091463(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1838091463L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getBlockUpdates()Ljava/util/List;", cancellable = true)
+    private void getBlockUpdates__604427440(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-604427440L))
             info.setReturnValue(null);
     }

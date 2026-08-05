@@ -25,6 +25,12 @@ public class DragonSittingFlamingPhase22638006Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "resetFlameCount()V", cancellable = true)
+    private void resetFlameCount_60912745(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(60912745L))
+            info.cancel();
+    }
+
     @Inject(at = @At("HEAD"), method = "doClientTick()V", cancellable = true)
     private void doClientTick_60912745(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(60912745L))
@@ -34,12 +40,6 @@ public class DragonSittingFlamingPhase22638006Mixin {
     @Inject(at = @At("HEAD"), method = "doServerTick(Lnet/minecraft/server/level/ServerLevel;)V", cancellable = true)
     private void doServerTick__955771334(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-955771334L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "resetFlameCount()V", cancellable = true)
-    private void resetFlameCount_60912745(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(60912745L))
             info.cancel();
     }
 

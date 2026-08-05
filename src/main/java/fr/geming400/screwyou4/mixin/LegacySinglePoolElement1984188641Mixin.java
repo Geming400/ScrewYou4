@@ -10,7 +10,7 @@ public class LegacySinglePoolElement1984188641Mixin {
         @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_848728170(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(848728170L))
-            info.setReturnValue(null);
+            info.setReturnValue("K>\"fdp(UbDp*$t3ꆢ");
     }
 
     @Inject(at = @At("HEAD"), method = "getType()Lnet/minecraft/world/level/levelgen/structure/pools/StructurePoolElementType;", cancellable = true)

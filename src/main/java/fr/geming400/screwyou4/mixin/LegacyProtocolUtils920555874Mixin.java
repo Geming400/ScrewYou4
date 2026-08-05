@@ -10,7 +10,7 @@ public class LegacyProtocolUtils920555874Mixin {
         @Inject(at = @At("HEAD"), method = "readLegacyString(Lio/netty/buffer/ByteBuf;)Ljava/lang/String;", cancellable = true)
     private static void readLegacyString_1539536638(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1539536638L))
-            info.setReturnValue(null);
+            info.setReturnValue("EA館9MHSo.fyxz_[b뿐ZJꑪ|[9&U/[KDA8;");
     }
 
     @Inject(at = @At("HEAD"), method = "writeLegacyString(Lio/netty/buffer/ByteBuf;Ljava/lang/String;)V", cancellable = true)

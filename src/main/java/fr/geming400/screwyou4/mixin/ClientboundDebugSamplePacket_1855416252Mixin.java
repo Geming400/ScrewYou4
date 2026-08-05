@@ -16,19 +16,19 @@ public class ClientboundDebugSamplePacket_1855416252Mixin {
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1054038786(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1054038786L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_719956276(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(719956276L))
-            info.setReturnValue(null);
+            info.setReturnValue("r&2?(S]{M!kkVkJ!eMh㴾አ琅y*X킏[=*阃2[y貯f⨻3:FU<OS7lX:");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1893678993(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1893678993L))
-            info.setReturnValue(null);
+            info.setReturnValue(12015528);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/protocol/game/ClientGamePacketListener;)V", cancellable = true)
@@ -43,16 +43,16 @@ public class ClientboundDebugSamplePacket_1855416252Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "debugSampleType()Lnet/minecraft/util/debugchart/RemoteDebugSampleType;", cancellable = true)
-    private void debugSampleType__1678458823(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1678458823L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "sample()[J", cancellable = true)
     private void sample__1253708727(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1253708727L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "debugSampleType()Lnet/minecraft/util/debugchart/RemoteDebugSampleType;", cancellable = true)
+    private void debugSampleType__1678458823(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1678458823L))
+            info.setReturnValue(net.minecraft.util.debugchart.RemoteDebugSampleType.TICK_TIME);
     }
 
 

@@ -16,13 +16,13 @@ public class AttachFace537216814Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/world/level/block/state/properties/AttachFace;", cancellable = true)
     private static void valueOf_353215346(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(353215346L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.level.block.state.properties.AttachFace.FLOOR);
     }
 
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName__598243657(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-598243657L))
-            info.setReturnValue(null);
+            info.setReturnValue("渌ZLzg䈇WLE@.ZHGBASV}hqjFwn2럐4QL0.^P0 ,B?䑨糦7Zw-]ᆒ>Tq[SH'|䊻%h=)2Uf1=盛H|lai 26;X@FឞRfw菟!aQCCtMv8");
     }
 
 

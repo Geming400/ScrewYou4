@@ -10,7 +10,7 @@ public class PlayerSpawnFinder795517202Mixin {
         @Inject(at = @At("HEAD"), method = "findSpawn(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
     private static void findSpawn_599500580(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(599500580L))
-            info.setReturnValue(null);
+            info.setReturnValue(new java.util.concurrent.CompletableFuture());
     }
 
     @Inject(at = @At("HEAD"), method = "getSpawnPosInChunk(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/level/ChunkPos;)Lnet/minecraft/core/BlockPos;", cancellable = true)

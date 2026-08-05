@@ -13,15 +13,15 @@ public class BlockFamilies_2100180799Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getAllFamilies()Ljava/util/stream/Stream;", cancellable = true)
-    private static void getAllFamilies_1889474731(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1889474731L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "familyBuilder(Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/data/BlockFamily$Builder;", cancellable = true)
     private static void familyBuilder__1327215739(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1327215739L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getAllFamilies()Ljava/util/stream/Stream;", cancellable = true)
+    private static void getAllFamilies_1889474731(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1889474731L))
             info.setReturnValue(null);
     }
 

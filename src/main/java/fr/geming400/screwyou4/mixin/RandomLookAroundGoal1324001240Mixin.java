@@ -16,7 +16,7 @@ public class RandomLookAroundGoal1324001240Mixin {
     @Inject(at = @At("HEAD"), method = "canUse()Z", cancellable = true)
     private void canUse_1362279823(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1362279823L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "tick()V", cancellable = true)
@@ -28,13 +28,13 @@ public class RandomLookAroundGoal1324001240Mixin {
     @Inject(at = @At("HEAD"), method = "canContinueToUse()Z", cancellable = true)
     private void canContinueToUse_1362279823(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1362279823L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "requiresUpdateEveryTick()Z", cancellable = true)
     private void requiresUpdateEveryTick_1362279823(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1362279823L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
 

@@ -16,7 +16,7 @@ public class EntityCreationType_935408415Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/world/level/chunk/LevelChunk$EntityCreationType;", cancellable = true)
     private static void valueOf__1980370517(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1980370517L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.level.chunk.LevelChunk.EntityCreationType.QUEUED);
     }
 
 

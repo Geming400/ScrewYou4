@@ -16,7 +16,7 @@ public class TagParseRule_634403073Mixin {
     @Inject(at = @At("HEAD"), method = "parse(Lnet/minecraft/util/parsing/packrat/ParseState;)Ljava/lang/Object;", cancellable = true)
     private void parse__449223267(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-449223267L))
-            info.setReturnValue(null);
+            info.setReturnValue(new java.lang.Object());
     }
 
 

@@ -10,25 +10,25 @@ public class TextureData9342051Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_1394854310(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1394854310L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__1126117924(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1126117924L))
-            info.setReturnValue(null);
+            info.setReturnValue("D;幂SPpxkd>]P[inagl䲓{C敻Ꚍ./7KE05훭b\"6exc⧵=d&VM䯦j7(恂뱠='锷bQ!,5l-_x/躮B");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_47604793(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(47604793L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1788066784);
     }
 
     @Inject(at = @At("HEAD"), method = "width()I", cancellable = true)
     private void width_47604297(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(47604297L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1609543294);
     }
 
     @Inject(at = @At("HEAD"), method = "cells()[J", cancellable = true)
@@ -40,7 +40,7 @@ public class TextureData9342051Mixin {
     @Inject(at = @At("HEAD"), method = "height()I", cancellable = true)
     private void height_47604297(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(47604297L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1609543294);
     }
 
 

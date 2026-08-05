@@ -7,15 +7,15 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.server.players.CachedUserNameToIdResolver.class)
 public class CachedUserNameToIdResolver_1881261904Mixin {
-        @Inject(at = @At("HEAD"), method = "get(Ljava/util/UUID;)Ljava/util/Optional;", cancellable = true)
-    private void get_1297090217(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1297090217L))
+        @Inject(at = @At("HEAD"), method = "get(Ljava/lang/String;)Ljava/util/Optional;", cancellable = true)
+    private void get__403669837(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-403669837L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "get(Ljava/lang/String;)Ljava/util/Optional;", cancellable = true)
-    private void get__403669837(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-403669837L))
+    @Inject(at = @At("HEAD"), method = "get(Ljava/util/UUID;)Ljava/util/Optional;", cancellable = true)
+    private void get_1297090217(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1297090217L))
             info.setReturnValue(null);
     }
 

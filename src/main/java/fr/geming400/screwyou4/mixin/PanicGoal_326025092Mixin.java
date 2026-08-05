@@ -22,19 +22,19 @@ public class PanicGoal_326025092Mixin {
     @Inject(at = @At("HEAD"), method = "canUse()Z", cancellable = true)
     private void canUse_364303674(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(364303674L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "isRunning()Z", cancellable = true)
     private void isRunning_364303674(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(364303674L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "canContinueToUse()Z", cancellable = true)
     private void canContinueToUse_364303674(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(364303674L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
 

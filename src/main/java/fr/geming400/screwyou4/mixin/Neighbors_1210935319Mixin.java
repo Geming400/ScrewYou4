@@ -16,19 +16,19 @@ public class Neighbors_1210935319Mixin {
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1698519719(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1698519719L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_75475343(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(75475343L))
-            info.setReturnValue(null);
+            info.setReturnValue("젧軳ᝇ觮nQ>z3b&vt㖬hp酚⚶N)⟜? PztN2p94Ok壥UEu䑩%d\"k蹶g䬽<Mᵨ1IioZ#*7t6+$2}2mfXawY(dCZ<E#?]Q&)g0EKRSZ5/54:");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1249198060(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1249198060L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1181651513);
     }
 
     @Inject(at = @At("HEAD"), method = "block()Lnet/minecraft/world/level/block/SideChainPartBlock;", cancellable = true)
@@ -76,7 +76,7 @@ public class Neighbors_1210935319Mixin {
     @Inject(at = @At("HEAD"), method = "facing()Lnet/minecraft/core/Direction;", cancellable = true)
     private void facing_448080033(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(448080033L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.core.Direction.DOWN);
     }
 
 

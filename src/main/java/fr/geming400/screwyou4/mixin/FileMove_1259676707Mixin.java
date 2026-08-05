@@ -10,19 +10,19 @@ public class FileMove_1259676707Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1649778331(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1649778331L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_124216731(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(124216731L))
-            info.setReturnValue(null);
+            info.setReturnValue("A*|K賰St<B>:*Or\"읐<|JoB蹷pn2GGrK&}:됖p䜸劶㾒$Fl+A>b/Rᜅ@+,쎕;ኈG]).︡㲜V=im,㔚sui");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1297939448(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1297939448L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1440686148);
     }
 
     @Inject(at = @At("HEAD"), method = "from()Ljava/nio/file/Path;", cancellable = true)

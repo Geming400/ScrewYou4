@@ -10,7 +10,7 @@ public class EuclideanGameEventListenerRegistry_599067383Mixin {
         @Inject(at = @At("HEAD"), method = "isEmpty()Z", cancellable = true)
     private void isEmpty_637345965(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(637345965L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "register(Lnet/minecraft/world/level/gameevent/GameEventListener;)V", cancellable = true)
@@ -28,7 +28,7 @@ public class EuclideanGameEventListenerRegistry_599067383Mixin {
     @Inject(at = @At("HEAD"), method = "visitInRangeListeners(Lnet/minecraft/core/Holder;Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/world/level/gameevent/GameEvent$Context;Lnet/minecraft/world/level/gameevent/GameEventListenerRegistry$ListenerVisitor;)Z", cancellable = true)
     private void visitInRangeListeners_461867598(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(461867598L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
 

@@ -16,7 +16,7 @@ public class Status217856558Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/world/entity/ai/behavior/Behavior$Status;", cancellable = true)
     private static void valueOf_80241623(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(80241623L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.entity.ai.behavior.Behavior.Status.RUNNING);
     }
 
 

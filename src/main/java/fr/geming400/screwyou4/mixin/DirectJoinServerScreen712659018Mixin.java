@@ -28,7 +28,7 @@ public class DirectJoinServerScreen712659018Mixin {
     @Inject(at = @At("HEAD"), method = "keyPressed(Lnet/minecraft/client/input/KeyEvent;)Z", cancellable = true)
     private void keyPressed__203976696(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-203976696L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIF)V", cancellable = true)

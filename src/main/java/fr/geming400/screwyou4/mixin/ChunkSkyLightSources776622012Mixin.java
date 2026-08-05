@@ -10,19 +10,19 @@ public class ChunkSkyLightSources776622012Mixin {
         @Inject(at = @At("HEAD"), method = "update(Lnet/minecraft/world/level/BlockGetter;III)Z", cancellable = true)
     private void update__1495200015(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1495200015L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "getLowestSourceY(II)I", cancellable = true)
     private void getLowestSourceY__219269950(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-219269950L))
-            info.setReturnValue(null);
+            info.setReturnValue(-170028816);
     }
 
     @Inject(at = @At("HEAD"), method = "getHighestLowestSourceY()I", cancellable = true)
     private void getHighestLowestSourceY_814884258(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(814884258L))
-            info.setReturnValue(null);
+            info.setReturnValue(110543833);
     }
 
     @Inject(at = @At("HEAD"), method = "fillFrom(Lnet/minecraft/world/level/chunk/ChunkAccess;)V", cancellable = true)

@@ -16,7 +16,7 @@ public class SlotState_1488759368Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/client/gui/render/DynamicAtlasAllocator$SlotState;", cancellable = true)
     private static void valueOf__909056364(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-909056364L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.client.gui.render.DynamicAtlasAllocator.SlotState.READY);
     }
 
 

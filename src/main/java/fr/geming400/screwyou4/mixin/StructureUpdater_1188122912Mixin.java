@@ -10,7 +10,7 @@ public class StructureUpdater_1188122912Mixin {
         @Inject(at = @At("HEAD"), method = "update(Ljava/lang/String;Lnet/minecraft/nbt/CompoundTag;)Lnet/minecraft/nbt/CompoundTag;", cancellable = true)
     private static void update__1538819376(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1538819376L))
-            info.setReturnValue(null);
+            info.setReturnValue(new net.minecraft.nbt.CompoundTag());
     }
 
     @Inject(at = @At("HEAD"), method = "apply(Ljava/lang/String;Lnet/minecraft/nbt/CompoundTag;)Lnet/minecraft/nbt/CompoundTag;", cancellable = true)

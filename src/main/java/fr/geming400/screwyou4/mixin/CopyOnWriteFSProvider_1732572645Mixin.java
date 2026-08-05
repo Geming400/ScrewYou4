@@ -10,7 +10,7 @@ public class CopyOnWriteFSProvider_1732572645Mixin {
         @Inject(at = @At("HEAD"), method = "isHidden(Ljava/nio/file/Path;)Z", cancellable = true)
     private void isHidden__955104006(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-955104006L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "copy(Ljava/nio/file/Path;Ljava/nio/file/Path;[Ljava/nio/file/CopyOption;)V", cancellable = true)
@@ -34,7 +34,7 @@ public class CopyOnWriteFSProvider_1732572645Mixin {
     @Inject(at = @At("HEAD"), method = "getScheme()Ljava/lang/String;", cancellable = true)
     private void getScheme_597112173(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(597112173L))
-            info.setReturnValue(null);
+            info.setReturnValue("Auk'z+,e-펕鸗$A,VwꝨ翽௫yh@t,^_G^5c4D轢c[g1￬'s7+OuKbk(/j,#qlD5!盹lI>5xI");
     }
 
     @Inject(at = @At("HEAD"), method = "getPath(Ljava/net/URI;)Ljava/nio/file/Path;", cancellable = true)
@@ -112,7 +112,7 @@ public class CopyOnWriteFSProvider_1732572645Mixin {
     @Inject(at = @At("HEAD"), method = "isSameFile(Ljava/nio/file/Path;Ljava/nio/file/Path;)Z", cancellable = true)
     private void isSameFile__343664423(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-343664423L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "setAttribute(Ljava/nio/file/Path;Ljava/lang/String;Ljava/lang/Object;[Ljava/nio/file/LinkOption;)V", cancellable = true)

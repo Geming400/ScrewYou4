@@ -10,6 +10,18 @@ public class EnderDragonPart_799977728Mixin {
         @Inject(at = @At("HEAD"), method = "is(Lnet/minecraft/world/entity/Entity;)Z", cancellable = true)
     private void is_348256911(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(348256911L))
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "hurtServer(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/damagesource/DamageSource;F)Z", cancellable = true)
+    private void hurtServer_350547892(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(350547892L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getDimensions(Lnet/minecraft/world/entity/Pose;)Lnet/minecraft/world/entity/EntityDimensions;", cancellable = true)
+    private void getDimensions__442668317(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-442668317L))
             info.setReturnValue(null);
     }
 
@@ -28,25 +40,13 @@ public class EnderDragonPart_799977728Mixin {
     @Inject(at = @At("HEAD"), method = "shouldBeSaved()Z", cancellable = true)
     private void shouldBeSaved_838256310(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(838256310L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "isPickable()Z", cancellable = true)
     private void isPickable_838256310(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(838256310L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "hurtServer(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/damagesource/DamageSource;F)Z", cancellable = true)
-    private void hurtServer_350547892(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(350547892L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getDimensions(Lnet/minecraft/world/entity/Pose;)Lnet/minecraft/world/entity/EntityDimensions;", cancellable = true)
-    private void getDimensions__442668317(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-442668317L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
 

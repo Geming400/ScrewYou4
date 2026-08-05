@@ -10,7 +10,7 @@ public class DiscreteCubeMerger148255526Mixin {
         @Inject(at = @At("HEAD"), method = "size()I", cancellable = true)
     private void size_186517772(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(186517772L))
-            info.setReturnValue(null);
+            info.setReturnValue(-712372227);
     }
 
     @Inject(at = @At("HEAD"), method = "getList()Lit/unimi/dsi/fastutil/doubles/DoubleList;", cancellable = true)
@@ -22,7 +22,7 @@ public class DiscreteCubeMerger148255526Mixin {
     @Inject(at = @At("HEAD"), method = "forMergedIndexes(Lnet/minecraft/world/phys/shapes/IndexMerger$IndexConsumer;)Z", cancellable = true)
     private void forMergedIndexes_921477845(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(921477845L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
 

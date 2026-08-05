@@ -16,7 +16,7 @@ public class ResetUniversalAngerTargetGoal979379521Mixin {
     @Inject(at = @At("HEAD"), method = "canUse()Z", cancellable = true)
     private void canUse_1017658104(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1017658104L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
 

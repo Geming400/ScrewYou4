@@ -10,25 +10,25 @@ public class RemoveBinomial2113606261Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__795848776(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-795848776L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_978146286(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(978146286L))
-            info.setReturnValue(null);
+            info.setReturnValue(">[/gk_⣄;Q䖎ꥸ:hdP]");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__2143098293(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2143098293L))
-            info.setReturnValue(null);
+            info.setReturnValue(1677560265);
     }
 
     @Inject(at = @At("HEAD"), method = "process(ILnet/minecraft/util/RandomSource;F)F", cancellable = true)
     private void process__1289769049(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1289769049L))
-            info.setReturnValue(null);
+            info.setReturnValue(2.67847E7F);
     }
 
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)

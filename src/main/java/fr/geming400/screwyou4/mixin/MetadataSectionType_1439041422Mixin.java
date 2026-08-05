@@ -10,25 +10,25 @@ public class MetadataSectionType_1439041422Mixin {
         @Inject(at = @At("HEAD"), method = "name()Ljava/lang/String;", cancellable = true)
     private void name_303580950(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(303580950L))
-            info.setReturnValue(null);
+            info.setReturnValue("(q;0r[Kv硙O㿪,>脆)ihjZ骇W.#Uq`lLz)nO\"vdRu\"M曮}19vrzygowW");
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1470413616(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1470413616L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_303581446(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(303581446L))
-            info.setReturnValue(null);
+            info.setReturnValue("?TLbXᳶ%O걀61ᶞ{Vfo縮lLZ2竖#@E╉郟9M1l.S.涫:N2s,78Zq#ၑC0f⚣'U^W>E^YV噈N46)4k!h娇]cB`:4YY^y0uWq/");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1477304163(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1477304163L))
-            info.setReturnValue(null);
+            info.setReturnValue(-987907177);
     }
 
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/Codec;", cancellable = true)

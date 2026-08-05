@@ -10,7 +10,7 @@ public class TheEndPortalBlockEntity533462796Mixin {
         @Inject(at = @At("HEAD"), method = "shouldRenderFace(Lnet/minecraft/core/Direction;)Z", cancellable = true)
     private void shouldRenderFace__586459441(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-586459441L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
 

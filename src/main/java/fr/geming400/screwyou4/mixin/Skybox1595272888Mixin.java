@@ -16,13 +16,13 @@ public class Skybox1595272888Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/world/level/dimension/DimensionType$Skybox;", cancellable = true)
     private static void valueOf_2048147681(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2048147681L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.level.dimension.DimensionType.Skybox.END);
     }
 
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName_459812417(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(459812417L))
-            info.setReturnValue(null);
+            info.setReturnValue("|@r8WTUTA젅(au0?J頰_J|ʿqm(DUHPQFQn|t[8^. ..i\"0fy%E쉚kO囄e.뵘>B1=MC坻|Cov-阩RW93jC<Uqv)wB쯽V=D|4ЇF]");
     }
 
 

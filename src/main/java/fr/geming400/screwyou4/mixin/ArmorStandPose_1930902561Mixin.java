@@ -10,19 +10,19 @@ public class ArmorStandPose_1930902561Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__978552477(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-978552477L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_795442585(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(795442585L))
-            info.setReturnValue(null);
+            info.setReturnValue("Wjt3jqAgayvm!Wj^>|DP袴3g{wuvꌟCzXh8");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1969165302(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1969165302L))
-            info.setReturnValue(null);
+            info.setReturnValue(1072427992);
     }
 
     @Inject(at = @At("HEAD"), method = "head()Lnet/minecraft/core/Rotations;", cancellable = true)
@@ -33,6 +33,12 @@ public class ArmorStandPose_1930902561Mixin {
 
     @Inject(at = @At("HEAD"), method = "body()Lnet/minecraft/core/Rotations;", cancellable = true)
     private void body_1886654389(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1886654389L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "rightLeg()Lnet/minecraft/core/Rotations;", cancellable = true)
+    private void rightLeg_1886654389(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1886654389L))
             info.setReturnValue(null);
     }
@@ -51,12 +57,6 @@ public class ArmorStandPose_1930902561Mixin {
 
     @Inject(at = @At("HEAD"), method = "leftLeg()Lnet/minecraft/core/Rotations;", cancellable = true)
     private void leftLeg_1886654389(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1886654389L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "rightLeg()Lnet/minecraft/core/Rotations;", cancellable = true)
-    private void rightLeg_1886654389(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1886654389L))
             info.setReturnValue(null);
     }

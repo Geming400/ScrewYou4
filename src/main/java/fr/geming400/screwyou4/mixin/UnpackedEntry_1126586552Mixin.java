@@ -10,25 +10,25 @@ public class UnpackedEntry_1126586552Mixin {
         @Inject(at = @At("HEAD"), method = "priority()I", cancellable = true)
     private void priority_1164848797(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1164848797L))
-            info.setReturnValue(null);
+            info.setReturnValue(-243848585);
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1782868486(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1782868486L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__8873424(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-8873424L))
-            info.setReturnValue(null);
+            info.setReturnValue("[&T&ETob:dIda3(䄞3;៕h>&sE}sW[?$T눙P堹Pꮷ㹺 }=%-j");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1164849293(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1164849293L))
-            info.setReturnValue(null);
+            info.setReturnValue(1128935490);
     }
 
     @Inject(at = @At("HEAD"), method = "entry()Ljava/lang/Object;", cancellable = true)

@@ -16,7 +16,7 @@ public class OffsetType1809420075Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/world/level/block/state/BlockBehaviour$OffsetType;", cancellable = true)
     private static void valueOf_2054229996(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2054229996L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.level.block.state.BlockBehaviour.OffsetType.XYZ);
     }
 
 

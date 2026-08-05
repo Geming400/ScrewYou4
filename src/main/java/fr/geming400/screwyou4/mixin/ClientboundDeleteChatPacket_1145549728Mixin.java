@@ -16,19 +16,19 @@ public class ClientboundDeleteChatPacket_1145549728Mixin {
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1763905310(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1763905310L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_10089752(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(10089752L))
-            info.setReturnValue(null);
+            info.setReturnValue("⧬yP᧲cp(lw*?t/'Ge#)Se@\"CꌾCOj'{LurA즨-W;Y<䥯dRa|");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1183812469(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1183812469L))
-            info.setReturnValue(null);
+            info.setReturnValue(57863521);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/protocol/game/ClientGamePacketListener;)V", cancellable = true)

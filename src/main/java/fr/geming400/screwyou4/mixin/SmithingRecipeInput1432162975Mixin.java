@@ -16,31 +16,31 @@ public class SmithingRecipeInput1432162975Mixin {
     @Inject(at = @At("HEAD"), method = "size()I", cancellable = true)
     private void size_1470425221(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1470425221L))
-            info.setReturnValue(null);
+            info.setReturnValue(1397726082);
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1477292062(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1477292062L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_296703000(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(296703000L))
-            info.setReturnValue(null);
+            info.setReturnValue("[}⍕,=钽]AyiDY2Y㪣!ቛp+[M}wT1C");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1470425717(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1470425717L))
-            info.setReturnValue(null);
+            info.setReturnValue(1120706874);
     }
 
     @Inject(at = @At("HEAD"), method = "isEmpty()Z", cancellable = true)
     private void isEmpty_1470441558(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1470441558L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "template()Lnet/minecraft/world/item/ItemStack;", cancellable = true)

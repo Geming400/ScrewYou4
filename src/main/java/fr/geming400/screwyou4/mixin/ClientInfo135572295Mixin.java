@@ -10,19 +10,19 @@ public class ClientInfo135572295Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_1521084554(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1521084554L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__999887680(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-999887680L))
-            info.setReturnValue(null);
+            info.setReturnValue("o(j_䣨l.JTﮘhf!*#yv7$o");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_173835037(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(173835037L))
-            info.setReturnValue(null);
+            info.setReturnValue(1878484913);
     }
 
     @Inject(at = @At("HEAD"), method = "of(Ljava/lang/Integer;)Lnet/minecraft/server/jsonrpc/methods/ClientInfo;", cancellable = true)

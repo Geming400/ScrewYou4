@@ -16,19 +16,19 @@ public class ClientboundPlayerRotationPacket439888060Mixin {
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_1825400319(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1825400319L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__695571915(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-695571915L))
-            info.setReturnValue(null);
+            info.setReturnValue("i}y.Mr-Tf{y;WbP)'uᖉ-es<FAk9:Yu၎n圮+m{sl靅截?sXv");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_478150802(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(478150802L))
-            info.setReturnValue(null);
+            info.setReturnValue(2047179695);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/PacketListener;)V", cancellable = true)
@@ -43,28 +43,28 @@ public class ClientboundPlayerRotationPacket439888060Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "xRot()F", cancellable = true)
-    private void xRot_478147423(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(478147423L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "yRot()F", cancellable = true)
-    private void yRot_478147423(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(478147423L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "relativeY()Z", cancellable = true)
     private void relativeY_478166643(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(478166643L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "relativeX()Z", cancellable = true)
     private void relativeX_478166643(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(478166643L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "xRot()F", cancellable = true)
+    private void xRot_478147423(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(478147423L))
+            info.setReturnValue(4.563125E8F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "yRot()F", cancellable = true)
+    private void yRot_478147423(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(478147423L))
+            info.setReturnValue(4.563125E8F);
     }
 
 

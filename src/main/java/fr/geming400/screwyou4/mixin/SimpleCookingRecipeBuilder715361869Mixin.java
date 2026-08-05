@@ -31,12 +31,6 @@ public class SimpleCookingRecipeBuilder715361869Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "defaultId()Lnet/minecraft/resources/ResourceKey;", cancellable = true)
-    private void defaultId_1523853182(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1523853182L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "unlockedBy(Ljava/lang/String;Lnet/minecraft/advancements/triggers/Criterion;)Lnet/minecraft/data/recipes/SimpleCookingRecipeBuilder;", cancellable = true)
     private void unlockedBy__1213396247(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1213396247L))
@@ -49,9 +43,15 @@ public class SimpleCookingRecipeBuilder715361869Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "smelting(Lnet/minecraft/world/item/crafting/Ingredient;Lnet/minecraft/data/recipes/RecipeCategory;Lnet/minecraft/world/item/crafting/CookingBookCategory;Lnet/minecraft/world/level/ItemLike;FI)Lnet/minecraft/data/recipes/SimpleCookingRecipeBuilder;", cancellable = true)
-    private static void smelting__960076679(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-960076679L))
+    @Inject(at = @At("HEAD"), method = "campfireCooking(Lnet/minecraft/world/item/crafting/Ingredient;Lnet/minecraft/data/recipes/RecipeCategory;Lnet/minecraft/world/level/ItemLike;FI)Lnet/minecraft/data/recipes/SimpleCookingRecipeBuilder;", cancellable = true)
+    private static void campfireCooking__1541123575(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1541123575L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "defaultId()Lnet/minecraft/resources/ResourceKey;", cancellable = true)
+    private void defaultId_1523853182(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1523853182L))
             info.setReturnValue(null);
     }
 
@@ -61,14 +61,14 @@ public class SimpleCookingRecipeBuilder715361869Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "smoking(Lnet/minecraft/world/item/crafting/Ingredient;Lnet/minecraft/data/recipes/RecipeCategory;Lnet/minecraft/world/level/ItemLike;FI)Lnet/minecraft/data/recipes/SimpleCookingRecipeBuilder;", cancellable = true)
-    private static void smoking__1541123575(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1541123575L))
+    @Inject(at = @At("HEAD"), method = "smelting(Lnet/minecraft/world/item/crafting/Ingredient;Lnet/minecraft/data/recipes/RecipeCategory;Lnet/minecraft/world/item/crafting/CookingBookCategory;Lnet/minecraft/world/level/ItemLike;FI)Lnet/minecraft/data/recipes/SimpleCookingRecipeBuilder;", cancellable = true)
+    private static void smelting__960076679(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-960076679L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "campfireCooking(Lnet/minecraft/world/item/crafting/Ingredient;Lnet/minecraft/data/recipes/RecipeCategory;Lnet/minecraft/world/level/ItemLike;FI)Lnet/minecraft/data/recipes/SimpleCookingRecipeBuilder;", cancellable = true)
-    private static void campfireCooking__1541123575(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "smoking(Lnet/minecraft/world/item/crafting/Ingredient;Lnet/minecraft/data/recipes/RecipeCategory;Lnet/minecraft/world/level/ItemLike;FI)Lnet/minecraft/data/recipes/SimpleCookingRecipeBuilder;", cancellable = true)
+    private static void smoking__1541123575(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1541123575L))
             info.setReturnValue(null);
     }

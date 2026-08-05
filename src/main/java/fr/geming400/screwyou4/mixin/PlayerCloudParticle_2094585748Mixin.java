@@ -22,7 +22,7 @@ public class PlayerCloudParticle_2094585748Mixin {
     @Inject(at = @At("HEAD"), method = "getQuadSize(F)F", cancellable = true)
     private void getQuadSize__989250516(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-989250516L))
-            info.setReturnValue(null);
+            info.setReturnValue(2.747342E8F);
     }
 
 

@@ -10,19 +10,19 @@ public class TradeCost526216947Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_1911729206(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1911729206L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__609243028(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-609243028L))
-            info.setReturnValue(null);
+            info.setReturnValue("@m9]h^K4NsU2⸝M<붭I)ｐ㨌g-婞 b잔ڋh)+/0-7Gqt㗘남иq)?MV䞍]'Rs`6zC∾tB");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_564479689(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(564479689L))
-            info.setReturnValue(null);
+            info.setReturnValue(-710684680);
     }
 
     @Inject(at = @At("HEAD"), method = "count()Lnet/minecraft/world/level/storage/loot/providers/number/NumberProvider;", cancellable = true)

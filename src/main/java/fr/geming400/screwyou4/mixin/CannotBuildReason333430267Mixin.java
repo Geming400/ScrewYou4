@@ -10,19 +10,19 @@ public class CannotBuildReason333430267Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_1718942526(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1718942526L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__802029708(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-802029708L))
-            info.setReturnValue(null);
+            info.setReturnValue("5!c|0|?3㉖_]直m,BlB寮m2E'ḧLek*L`r&D%m=6塏");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_371693009(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(371693009L))
-            info.setReturnValue(null);
+            info.setReturnValue(964340719);
     }
 
     @Inject(at = @At("HEAD"), method = "message()Lnet/minecraft/network/chat/Component;", cancellable = true)

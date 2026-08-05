@@ -13,12 +13,6 @@ public class DynamicTexture_903633656Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getPixels()Lcom/mojang/blaze3d/platform/NativeImage;", cancellable = true)
-    private void getPixels_1177416872(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1177416872L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "setPixels(Lcom/mojang/blaze3d/platform/NativeImage;)V", cancellable = true)
     private void setPixels_1644155438(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1644155438L))
@@ -35,6 +29,12 @@ public class DynamicTexture_903633656Mixin {
     private void dumpContents_1730847633(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1730847633L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getPixels()Lcom/mojang/blaze3d/platform/NativeImage;", cancellable = true)
+    private void getPixels_1177416872(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1177416872L))
+            info.setReturnValue(null);
     }
 
 

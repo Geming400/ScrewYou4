@@ -10,19 +10,19 @@ public class DataLoadContext15655466Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_1401167725(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1401167725L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__1119804509(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1119804509L))
-            info.setReturnValue(null);
+            info.setReturnValue("V0 -LᵫR\"&Zp^c3ꃰ﯂|DIGD'FVQ$1S[+byuc@Zj");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_53918208(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(53918208L))
-            info.setReturnValue(null);
+            info.setReturnValue(259298575);
     }
 
     @Inject(at = @At("HEAD"), method = "resources()Lnet/minecraft/server/packs/resources/ResourceManager;", cancellable = true)
@@ -31,15 +31,15 @@ public class DataLoadContext15655466Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "datapackWorldgen()Lnet/minecraft/core/HolderLookup$Provider;", cancellable = true)
-    private void datapackWorldgen__297551867(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-297551867L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "datapackDimensions()Lnet/minecraft/core/RegistryAccess$Frozen;", cancellable = true)
     private void datapackDimensions__233094799(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-233094799L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "datapackWorldgen()Lnet/minecraft/core/HolderLookup$Provider;", cancellable = true)
+    private void datapackWorldgen__297551867(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-297551867L))
             info.setReturnValue(null);
     }
 

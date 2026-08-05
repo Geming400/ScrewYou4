@@ -13,16 +13,16 @@ public class SculkShriekerBlock2118924462Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
+    private void getStateForPlacement_860324695(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(860324695L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "stepOn(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/entity/Entity;)V", cancellable = true)
     private void stepOn_1433726086(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1433726086L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "newBlockEntity(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/entity/BlockEntity;", cancellable = true)
-    private void newBlockEntity_533446807(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(533446807L))
-            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getTicker(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/entity/BlockEntityType;)Lnet/minecraft/world/level/block/entity/BlockEntityTicker;", cancellable = true)
@@ -31,9 +31,9 @@ public class SculkShriekerBlock2118924462Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
-    private void getStateForPlacement_860324695(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(860324695L))
+    @Inject(at = @At("HEAD"), method = "newBlockEntity(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/entity/BlockEntity;", cancellable = true)
+    private void newBlockEntity_533446807(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(533446807L))
             info.setReturnValue(null);
     }
 

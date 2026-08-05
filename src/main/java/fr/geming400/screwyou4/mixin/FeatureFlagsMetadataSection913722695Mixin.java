@@ -10,13 +10,13 @@ public class FeatureFlagsMetadataSection913722695Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1995732342(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1995732342L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__221737280(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-221737280L))
-            info.setReturnValue(null);
+            info.setReturnValue("{Fqoux%@s'糾⩰L끂{[r)1YqAcZ4CdFe>jzD*2k竢.qU48W;w8km*ᯔ&m0❬玊`rd>>Z:tyrG^QUꁉhNMz%^4ho(0jୟ8e{曹iᥰg|uXnBwdQ");
     }
 
     @Inject(at = @At("HEAD"), method = "flags()Lnet/minecraft/world/flag/FeatureFlagSet;", cancellable = true)
@@ -28,7 +28,7 @@ public class FeatureFlagsMetadataSection913722695Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_951985437(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(951985437L))
-            info.setReturnValue(null);
+            info.setReturnValue(1464368095);
     }
 
 

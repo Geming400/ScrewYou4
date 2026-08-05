@@ -16,13 +16,13 @@ public class TerrainAdjustment_1633581564Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/world/level/levelgen/structure/TerrainAdjustment;", cancellable = true)
     private static void valueOf__1998404456(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1998404456L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.level.levelgen.structure.TerrainAdjustment.ENCAPSULATE);
     }
 
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName_498121092(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(498121092L))
-            info.setReturnValue(null);
+            info.setReturnValue("=/bBv}Wzb5jNl츾E6㩞駨");
     }
 
 

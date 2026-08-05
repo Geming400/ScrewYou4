@@ -10,7 +10,7 @@ public class CarvingMask_637883842Mixin {
         @Inject(at = @At("HEAD"), method = "get(III)Z", cancellable = true)
     private void get__142204719(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-142204719L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toArray()[J", cancellable = true)

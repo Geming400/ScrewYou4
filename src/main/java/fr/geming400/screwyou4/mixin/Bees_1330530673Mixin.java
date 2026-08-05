@@ -10,19 +10,19 @@ public class Bees_1330530673Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1578924365(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1578924365L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_195070697(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(195070697L))
-            info.setReturnValue(null);
+            info.setReturnValue("螲㱤荦/`ᄲ?d{-(S^l%i緃弩D酂%똸{r`fLz@b堺0u_뙬[4tj&w.[깸[9gu涜-`7佤N@z*y}8Cl:)滆");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1368793414(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1368793414L))
-            info.setReturnValue(null);
+            info.setReturnValue(-634206725);
     }
 
     @Inject(at = @At("HEAD"), method = "bees()Ljava/util/List;", cancellable = true)

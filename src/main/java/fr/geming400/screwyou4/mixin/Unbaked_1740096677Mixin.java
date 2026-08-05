@@ -10,19 +10,19 @@ public class Unbaked_1740096677Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1169358361(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1169358361L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_604636701(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(604636701L))
-            info.setReturnValue(null);
+            info.setReturnValue("H !YbbX}h-9p⽎`kxayL厭6)쀫6NB>1ZPC$e:EX拕ࢌr+1BSCm^&RV");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1778359418(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1778359418L))
-            info.setReturnValue(null);
+            info.setReturnValue(1135412647);
     }
 
     @Inject(at = @At("HEAD"), method = "normal()Lnet/minecraft/client/renderer/block/model/BlockModel$Unbaked;", cancellable = true)
@@ -37,15 +37,15 @@ public class Unbaked_1740096677Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "custom()Lnet/minecraft/client/renderer/block/model/BlockModel$Unbaked;", cancellable = true)
-    private void custom_178089252(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(178089252L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "bake(Lnet/minecraft/client/renderer/block/model/BlockModel$BakingContext;Lorg/joml/Matrix4fc;)Lnet/minecraft/client/renderer/block/model/BlockModel;", cancellable = true)
     private void bake__1956780167(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1956780167L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "custom()Lnet/minecraft/client/renderer/block/model/BlockModel$Unbaked;", cancellable = true)
+    private void custom_178089252(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(178089252L))
             info.setReturnValue(null);
     }
 

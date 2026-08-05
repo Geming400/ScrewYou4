@@ -16,19 +16,19 @@ public class WithAnyPotion2108992419Mixin {
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__800462618(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-800462618L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_973532444(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(973532444L))
-            info.setReturnValue(null);
+            info.setReturnValue("T-pXꉢ⋟|a᭡@biYf疪J*6iA믝N쩢$vN⾔ᣫSJC表쓲哃#-s!UJ$w#Cuf>[E=Y✉n*T iU網.!5|sK5v|O9O#u>KT(");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2147255161(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2147255161L))
-            info.setReturnValue(null);
+            info.setReturnValue(-867397409);
     }
 
     @Inject(at = @At("HEAD"), method = "resolve(Lnet/minecraft/util/context/ContextMap;Lnet/minecraft/world/item/crafting/display/DisplayContentsFactory;)Ljava/util/stream/Stream;", cancellable = true)

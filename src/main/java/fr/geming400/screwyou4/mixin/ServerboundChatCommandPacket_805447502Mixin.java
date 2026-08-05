@@ -16,25 +16,25 @@ public class ServerboundChatCommandPacket_805447502Mixin {
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__2104007536(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2104007536L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__330012474(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-330012474L))
-            info.setReturnValue(null);
+            info.setReturnValue("*㔾zQL`W85!t?䦼㗦DEw5oEA9/莂Jv|LRZe%䦛ij`6");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_843710243(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(843710243L))
-            info.setReturnValue(null);
+            info.setReturnValue(1664081927);
     }
 
     @Inject(at = @At("HEAD"), method = "command()Ljava/lang/String;", cancellable = true)
     private void command__330012970(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-330012970L))
-            info.setReturnValue(null);
+            info.setReturnValue("q");
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/PacketListener;)V", cancellable = true)

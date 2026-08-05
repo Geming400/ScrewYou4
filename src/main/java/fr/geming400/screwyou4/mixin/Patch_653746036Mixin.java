@@ -10,19 +10,19 @@ public class Patch_653746036Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_2039258294(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2039258294L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__481713940(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-481713940L))
-            info.setReturnValue(null);
+            info.setReturnValue("XV]K_I)|2lSY苕x-^F+䀎ZheX%n<KmjC!픧w}.R6&m?mD)80o{fM7퀯P&雥4Q(.&Y䥢");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_692008777(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(692008777L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1540639354);
     }
 
     @Inject(at = @At("HEAD"), method = "create(Ljava/util/Optional;Ljava/util/Optional;Ljava/util/Optional;Ljava/util/Optional;)Lnet/minecraft/world/entity/player/PlayerSkin$Patch;", cancellable = true)

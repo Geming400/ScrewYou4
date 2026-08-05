@@ -10,13 +10,13 @@ public class PropertyValueList_1584115972Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1325339066(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1325339066L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_448655500(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(448655500L))
-            info.setReturnValue(null);
+            info.setReturnValue("|O");
     }
 
     @Inject(at = @At("HEAD"), method = "values()Ljava/util/List;", cancellable = true)
@@ -28,7 +28,7 @@ public class PropertyValueList_1584115972Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1622378713(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1622378713L))
-            info.setReturnValue(null);
+            info.setReturnValue(-977473473);
     }
 
     @Inject(at = @At("HEAD"), method = "of([Lnet/minecraft/world/level/block/state/properties/Property$Value;)Lnet/minecraft/client/data/models/blockstates/PropertyValueList;", cancellable = true)
@@ -40,7 +40,7 @@ public class PropertyValueList_1584115972Mixin {
     @Inject(at = @At("HEAD"), method = "getKey()Ljava/lang/String;", cancellable = true)
     private void getKey_448655500(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(448655500L))
-            info.setReturnValue(null);
+            info.setReturnValue("|O");
     }
 
     @Inject(at = @At("HEAD"), method = "extend(Lnet/minecraft/client/data/models/blockstates/PropertyValueList;)Lnet/minecraft/client/data/models/blockstates/PropertyValueList;", cancellable = true)

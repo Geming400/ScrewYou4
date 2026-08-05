@@ -31,22 +31,28 @@ public class Vex_2092693477Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getLightLevelDependentMagicValue()F", cancellable = true)
-    private void getLightLevelDependentMagicValue_2130952839(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2130952839L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "setLimitedLife(I)V", cancellable = true)
+    private void setLimitedLife__988356848(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-988356848L))
+            info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "createAttributes()Lnet/minecraft/world/entity/ai/attributes/AttributeSupplier$Builder;", cancellable = true)
-    private static void createAttributes_1392475031(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1392475031L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "setBoundOrigin(Lnet/minecraft/core/BlockPos;)V", cancellable = true)
+    private void setBoundOrigin__2033507221(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-2033507221L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "isCharging()Z", cancellable = true)
     private void isCharging_2130972059(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2130972059L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getLightLevelDependentMagicValue()F", cancellable = true)
+    private void getLightLevelDependentMagicValue_2130952839(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2130952839L))
+            info.setReturnValue(4.07613E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "restoreFrom(Lnet/minecraft/world/entity/Entity;)V", cancellable = true)
@@ -55,9 +61,9 @@ public class Vex_2092693477Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "isFlapping()Z", cancellable = true)
-    private void isFlapping_2130972059(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2130972059L))
+    @Inject(at = @At("HEAD"), method = "createAttributes()Lnet/minecraft/world/entity/ai/attributes/AttributeSupplier$Builder;", cancellable = true)
+    private static void createAttributes_1392475031(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1392475031L))
             info.setReturnValue(null);
     }
 
@@ -67,10 +73,10 @@ public class Vex_2092693477Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "finalizeSpawn(Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData;", cancellable = true)
-    private void finalizeSpawn__353541882(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-353541882L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "isFlapping()Z", cancellable = true)
+    private void isFlapping_2130972059(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2130972059L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "getBoundOrigin()Lnet/minecraft/core/BlockPos;", cancellable = true)
@@ -85,16 +91,10 @@ public class Vex_2092693477Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "setBoundOrigin(Lnet/minecraft/core/BlockPos;)V", cancellable = true)
-    private void setBoundOrigin__2033507221(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-2033507221L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "setLimitedLife(I)V", cancellable = true)
-    private void setLimitedLife__988356848(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-988356848L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "finalizeSpawn(Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData;", cancellable = true)
+    private void finalizeSpawn__353541882(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-353541882L))
+            info.setReturnValue(null);
     }
 
 

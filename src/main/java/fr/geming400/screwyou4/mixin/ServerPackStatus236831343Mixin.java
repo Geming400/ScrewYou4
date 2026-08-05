@@ -22,7 +22,7 @@ public class ServerPackStatus236831343Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/client/multiplayer/ServerData$ServerPackStatus;", cancellable = true)
     private static void valueOf__1641025493(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1641025493L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.client.multiplayer.ServerData.ServerPackStatus.ENABLED);
     }
 
 

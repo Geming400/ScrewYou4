@@ -13,15 +13,15 @@ public class ItemUtils_1434573872Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "createFilledResult(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/world/item/ItemStack;", cancellable = true)
-    private static void createFilledResult_640418470(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(640418470L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "createFilledResult(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/item/ItemStack;Z)Lnet/minecraft/world/item/ItemStack;", cancellable = true)
     private static void createFilledResult__284549370(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-284549370L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "createFilledResult(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/world/item/ItemStack;", cancellable = true)
+    private static void createFilledResult_640418470(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(640418470L))
             info.setReturnValue(null);
     }
 

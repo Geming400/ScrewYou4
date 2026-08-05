@@ -10,7 +10,7 @@ public class MangroveRootPlacer1949522828Mixin {
         @Inject(at = @At("HEAD"), method = "placeRoots(Lnet/minecraft/world/level/WorldGenLevel;Ljava/util/function/BiConsumer;Lnet/minecraft/util/RandomSource;Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/levelgen/feature/configurations/TreeConfiguration;)Z", cancellable = true)
     private void placeRoots_430271018(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(430271018L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
 

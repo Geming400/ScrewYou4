@@ -22,18 +22,18 @@ public class OptionsList_579384850Mixin {
     @Inject(at = @At("HEAD"), method = "getRowWidth()I", cancellable = true)
     private void getRowWidth_617647095(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(617647095L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "addHeader(Lnet/minecraft/network/chat/Component;)V", cancellable = true)
-    private void addHeader__1321794088(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1321794088L))
-            info.cancel();
+            info.setReturnValue(-1247667457);
     }
 
     @Inject(at = @At("HEAD"), method = "addSmall(Lnet/minecraft/client/gui/components/AbstractWidget;Lnet/minecraft/client/OptionInstance;Lnet/minecraft/client/gui/components/AbstractWidget;)V", cancellable = true)
     private void addSmall__1395699967(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1395699967L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "addSmall(Lnet/minecraft/client/gui/components/AbstractWidget;Lnet/minecraft/client/gui/components/AbstractWidget;)V", cancellable = true)
+    private void addSmall_649107052(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(649107052L))
             info.cancel();
     }
 
@@ -49,9 +49,9 @@ public class OptionsList_579384850Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "addSmall(Lnet/minecraft/client/gui/components/AbstractWidget;Lnet/minecraft/client/gui/components/AbstractWidget;)V", cancellable = true)
-    private void addSmall_649107052(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(649107052L))
+    @Inject(at = @At("HEAD"), method = "addHeader(Lnet/minecraft/network/chat/Component;)V", cancellable = true)
+    private void addHeader__1321794088(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1321794088L))
             info.cancel();
     }
 

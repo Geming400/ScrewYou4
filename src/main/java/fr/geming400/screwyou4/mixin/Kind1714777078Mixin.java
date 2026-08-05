@@ -16,7 +16,7 @@ public class Kind1714777078Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/core/Holder$Kind;", cancellable = true)
     private static void valueOf_1133107362(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1133107362L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.core.Holder.Kind.REFERENCE);
     }
 
 

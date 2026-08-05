@@ -16,7 +16,7 @@ public class Mode_1861671701Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/server/commands/SetBlockCommand$Mode;", cancellable = true)
     private static void valueOf_345268666(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(345268666L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.server.commands.SetBlockCommand.Mode.REPLACE);
     }
 
 

@@ -10,19 +10,19 @@ public class Filtered_1573775255Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1335679783(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1335679783L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_438315279(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(438315279L))
-            info.setReturnValue(null);
+            info.setReturnValue("");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1612037996(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1612037996L))
-            info.setReturnValue(null);
+            info.setReturnValue(1175475217);
     }
 
     @Inject(at = @At("HEAD"), method = "filter(Ljava/util/function/Predicate;)Lnet/minecraft/world/item/slot/SlotCollection;", cancellable = true)

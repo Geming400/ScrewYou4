@@ -16,7 +16,7 @@ public class Algorithm1481217482Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/world/level/levelgen/WorldgenRandom$Algorithm;", cancellable = true)
     private static void valueOf__369498147(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-369498147L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.level.levelgen.WorldgenRandom.Algorithm.XOROSHIRO);
     }
 
     @Inject(at = @At("HEAD"), method = "newInstance(J)Lnet/minecraft/util/RandomSource;", cancellable = true)

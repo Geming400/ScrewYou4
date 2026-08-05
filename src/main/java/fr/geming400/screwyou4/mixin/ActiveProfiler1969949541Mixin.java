@@ -10,7 +10,7 @@ public class ActiveProfiler1969949541Mixin {
         @Inject(at = @At("HEAD"), method = "getEntry(Ljava/lang/String;)Lnet/minecraft/util/profiling/ActiveProfiler$PathEntry;", cancellable = true)
     private void getEntry_1485742969(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1485742969L))
-            info.setReturnValue(null);
+            info.setReturnValue(new net.minecraft.util.profiling.ActiveProfiler$PathEntry());
     }
 
     @Inject(at = @At("HEAD"), method = "push(Ljava/util/function/Supplier;)V", cancellable = true)
@@ -27,6 +27,12 @@ public class ActiveProfiler1969949541Mixin {
 
     @Inject(at = @At("HEAD"), method = "pop()V", cancellable = true)
     private void pop_2008224280(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(2008224280L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "startTick()V", cancellable = true)
+    private void startTick_2008224280(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(2008224280L))
             info.cancel();
     }
@@ -49,9 +55,9 @@ public class ActiveProfiler1969949541Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "endTick()V", cancellable = true)
-    private void endTick_2008224280(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(2008224280L))
+    @Inject(at = @At("HEAD"), method = "popPush(Ljava/util/function/Supplier;)V", cancellable = true)
+    private void popPush_727533484(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(727533484L))
             info.cancel();
     }
 
@@ -61,14 +67,8 @@ public class ActiveProfiler1969949541Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "popPush(Ljava/util/function/Supplier;)V", cancellable = true)
-    private void popPush_727533484(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(727533484L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "startTick()V", cancellable = true)
-    private void startTick_2008224280(CallbackInfo info) {
+    @Inject(at = @At("HEAD"), method = "endTick()V", cancellable = true)
+    private void endTick_2008224280(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(2008224280L))
             info.cancel();
     }

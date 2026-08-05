@@ -16,19 +16,19 @@ public class ClientboundResourcePackPopPacket_953386241Mixin {
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1956068797(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1956068797L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__182073735(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-182073735L))
-            info.setReturnValue(null);
+            info.setReturnValue(" {&v讨uiE9+}<YAఊ?➸GjBXtB?krUow6CT퐤䞟鈑sc脖>):tO");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_991648982(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(991648982L))
-            info.setReturnValue(null);
+            info.setReturnValue(-483477386);
     }
 
     @Inject(at = @At("HEAD"), method = "id()Ljava/util/Optional;", cancellable = true)

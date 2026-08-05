@@ -16,7 +16,7 @@ public class ClientboundAnimatePacket1582523320Mixin {
     @Inject(at = @At("HEAD"), method = "getId()I", cancellable = true)
     private void getId_1620785566(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1620785566L))
-            info.setReturnValue(null);
+            info.setReturnValue(1158121070);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/PacketListener;)V", cancellable = true)
@@ -34,7 +34,7 @@ public class ClientboundAnimatePacket1582523320Mixin {
     @Inject(at = @At("HEAD"), method = "getAction()I", cancellable = true)
     private void getAction_1620785566(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1620785566L))
-            info.setReturnValue(null);
+            info.setReturnValue(1158121070);
     }
 
 

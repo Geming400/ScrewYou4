@@ -10,13 +10,13 @@ public class UnquotedStringParseRule1463101967Mixin {
         @Inject(at = @At("HEAD"), method = "parse(Lnet/minecraft/util/parsing/packrat/ParseState;)Ljava/lang/String;", cancellable = true)
     private void parse_1679661274(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1679661274L))
-            info.setReturnValue(null);
+            info.setReturnValue("/P>=7AsZtUd");
     }
 
     @Inject(at = @At("HEAD"), method = "parse(Lnet/minecraft/util/parsing/packrat/ParseState;)Ljava/lang/Object;", cancellable = true)
     private void parse_379475628(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(379475628L))
-            info.setReturnValue(null);
+            info.setReturnValue(new java.lang.Object());
     }
 
 

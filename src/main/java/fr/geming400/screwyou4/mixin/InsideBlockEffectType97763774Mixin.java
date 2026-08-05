@@ -16,7 +16,7 @@ public class InsideBlockEffectType97763774Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/world/entity/InsideBlockEffectType;", cancellable = true)
     private static void valueOf__900693799(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-900693799L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.entity.InsideBlockEffectType.EXTINGUISH);
     }
 
     @Inject(at = @At("HEAD"), method = "effect()Ljava/util/function/Consumer;", cancellable = true)

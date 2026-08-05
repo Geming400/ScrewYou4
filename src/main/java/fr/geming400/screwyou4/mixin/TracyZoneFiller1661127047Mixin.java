@@ -25,6 +25,12 @@ public class TracyZoneFiller1661127047Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "startTick()V", cancellable = true)
+    private void startTick_1699401786(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1699401786L))
+            info.cancel();
+    }
+
     @Inject(at = @At("HEAD"), method = "incrementCounter(Ljava/lang/String;I)V", cancellable = true)
     private void incrementCounter__1242982935(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1242982935L))
@@ -34,12 +40,6 @@ public class TracyZoneFiller1661127047Mixin {
     @Inject(at = @At("HEAD"), method = "incrementCounter(Ljava/util/function/Supplier;I)V", cancellable = true)
     private void incrementCounter_1828335007(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1828335007L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "endTick()V", cancellable = true)
-    private void endTick_1699401786(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1699401786L))
             info.cancel();
     }
 
@@ -55,15 +55,15 @@ public class TracyZoneFiller1661127047Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "startTick()V", cancellable = true)
-    private void startTick_1699401786(CallbackInfo info) {
+    @Inject(at = @At("HEAD"), method = "endTick()V", cancellable = true)
+    private void endTick_1699401786(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1699401786L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "setZoneColor(I)V", cancellable = true)
-    private void setZoneColor__1419923277(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1419923277L))
+    @Inject(at = @At("HEAD"), method = "addZoneValue(J)V", cancellable = true)
+    private void addZoneValue__1418999756(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1418999756L))
             info.cancel();
     }
 
@@ -73,9 +73,9 @@ public class TracyZoneFiller1661127047Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "addZoneValue(J)V", cancellable = true)
-    private void addZoneValue__1418999756(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1418999756L))
+    @Inject(at = @At("HEAD"), method = "setZoneColor(I)V", cancellable = true)
+    private void setZoneColor__1419923277(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1419923277L))
             info.cancel();
     }
 

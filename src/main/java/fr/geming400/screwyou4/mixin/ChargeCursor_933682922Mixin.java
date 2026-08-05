@@ -13,27 +13,27 @@ public class ChargeCursor_933682922Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "getCharge()I", cancellable = true)
+    private void getCharge_971945167(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(971945167L))
+            info.setReturnValue(265002674);
+    }
+
     @Inject(at = @At("HEAD"), method = "getPos()Lnet/minecraft/core/BlockPos;", cancellable = true)
     private void getPos__959703958(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-959703958L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getCharge()I", cancellable = true)
-    private void getCharge_971945167(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "getDecayDelay()I", cancellable = true)
+    private void getDecayDelay_971945167(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(971945167L))
-            info.setReturnValue(null);
+            info.setReturnValue(265002674);
     }
 
     @Inject(at = @At("HEAD"), method = "getFacingData()Ljava/util/Set;", cancellable = true)
     private void getFacingData__895352565(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-895352565L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getDecayDelay()I", cancellable = true)
-    private void getDecayDelay_971945167(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(971945167L))
             info.setReturnValue(null);
     }
 

@@ -16,19 +16,19 @@ public class ServerboundPlayerInputPacket2037867336Mixin {
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__871587701(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-871587701L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_902407361(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(902407361L))
-            info.setReturnValue(null);
+            info.setReturnValue("3⣬G2/z*a|znlꉡ(봾)5");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2076130078(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2076130078L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1741913574);
     }
 
     @Inject(at = @At("HEAD"), method = "input()Lnet/minecraft/world/entity/player/Input;", cancellable = true)

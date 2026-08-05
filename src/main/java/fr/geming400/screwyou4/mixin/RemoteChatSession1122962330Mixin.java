@@ -10,42 +10,24 @@ public class RemoteChatSession1122962330Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1786492707(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1786492707L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__12497645(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-12497645L))
-            info.setReturnValue(null);
+            info.setReturnValue("쁫)8#3o!bF⳪0c:LL꽚^WVI뎊&&WApxcV@yZKEMl^f_I");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1161225072(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1161225072L))
-            info.setReturnValue(null);
+            info.setReturnValue(-283316852);
     }
 
     @Inject(at = @At("HEAD"), method = "sessionId()Ljava/util/UUID;", cancellable = true)
     private void sessionId_1534096813(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1534096813L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "createMessageValidator(Ljava/time/Duration;)Lnet/minecraft/network/chat/SignedMessageValidator;", cancellable = true)
-    private void createMessageValidator__1103573477(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1103573477L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "asData()Lnet/minecraft/network/chat/RemoteChatSession$Data;", cancellable = true)
-    private void asData__695854714(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-695854714L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "profilePublicKey()Lnet/minecraft/world/entity/player/ProfilePublicKey;", cancellable = true)
-    private void profilePublicKey_27391016(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(27391016L))
             info.setReturnValue(null);
     }
 
@@ -55,9 +37,27 @@ public class RemoteChatSession1122962330Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "profilePublicKey()Lnet/minecraft/world/entity/player/ProfilePublicKey;", cancellable = true)
+    private void profilePublicKey_27391016(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(27391016L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "asData()Lnet/minecraft/network/chat/RemoteChatSession$Data;", cancellable = true)
+    private void asData__695854714(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-695854714L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "hasExpired()Z", cancellable = true)
     private void hasExpired_1161240913(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1161240913L))
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "createMessageValidator(Ljava/time/Duration;)Lnet/minecraft/network/chat/SignedMessageValidator;", cancellable = true)
+    private void createMessageValidator__1103573477(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1103573477L))
             info.setReturnValue(null);
     }
 

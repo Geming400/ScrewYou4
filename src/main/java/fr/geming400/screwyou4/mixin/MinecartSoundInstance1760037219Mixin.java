@@ -16,13 +16,13 @@ public class MinecartSoundInstance1760037219Mixin {
     @Inject(at = @At("HEAD"), method = "canStartSilent()Z", cancellable = true)
     private void canStartSilent_1798315802(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1798315802L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "canPlaySound()Z", cancellable = true)
     private void canPlaySound_1798315802(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1798315802L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
 

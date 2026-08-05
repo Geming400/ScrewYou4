@@ -10,25 +10,25 @@ public class Repeated434484540Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_1819996799(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1819996799L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__700975435(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-700975435L))
-            info.setReturnValue(null);
+            info.setReturnValue("ե㹷O?8(SꞭbh0Ng䍤g/$$mI)㝗Lgy吐9e kw「TW﮿I.2*PᆤM");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_472747282(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(472747282L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1842599798);
     }
 
     @Inject(at = @At("HEAD"), method = "parse(Lnet/minecraft/util/parsing/packrat/ParseState;Lnet/minecraft/util/parsing/packrat/Scope;Lnet/minecraft/util/parsing/packrat/Control;)Z", cancellable = true)
     private void parse_813270388(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(813270388L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "element()Lnet/minecraft/util/parsing/packrat/NamedRule;", cancellable = true)
@@ -46,7 +46,7 @@ public class Repeated434484540Mixin {
     @Inject(at = @At("HEAD"), method = "minRepetitions()I", cancellable = true)
     private void minRepetitions_472746786(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(472746786L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1663077308);
     }
 
 

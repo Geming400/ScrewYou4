@@ -25,16 +25,16 @@ public class PowerParticleOption505286098Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getPower()F", cancellable = true)
-    private void getPower_543545461(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(543545461L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "streamCodec(Lnet/minecraft/core/particles/ParticleType;)Lnet/minecraft/network/codec/StreamCodec;", cancellable = true)
     private static void streamCodec__137759809(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-137759809L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getPower()F", cancellable = true)
+    private void getPower_543545461(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(543545461L))
+            info.setReturnValue(7785100.5F);
     }
 
 

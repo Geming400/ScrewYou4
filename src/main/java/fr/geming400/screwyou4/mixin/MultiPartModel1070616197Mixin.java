@@ -13,16 +13,16 @@ public class MultiPartModel1070616197Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "materialFlags()I", cancellable = true)
-    private void materialFlags_1108878443(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1108878443L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "collectParts(Lnet/minecraft/util/RandomSource;Ljava/util/List;)V", cancellable = true)
     private void collectParts_65543561(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(65543561L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "materialFlags()I", cancellable = true)
+    private void materialFlags_1108878443(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1108878443L))
+            info.setReturnValue(63913340);
     }
 
 

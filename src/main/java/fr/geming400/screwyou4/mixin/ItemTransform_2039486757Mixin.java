@@ -10,19 +10,19 @@ public class ItemTransform_2039486757Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__869968281(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-869968281L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_904026781(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(904026781L))
-            info.setReturnValue(null);
+            info.setReturnValue("&荘3.NJ4r䈼cBI]:-6?U>9*<>绢9/fMkx%樌MtXknen;M<7l4EjLG/i4הּ쿚4)U'wlzW(h@aOT濣3o.=04wyWU)i7赗嬓O)g>-FHJw");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2077749498(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2077749498L))
-            info.setReturnValue(null);
+            info.setReturnValue(1248365528);
     }
 
     @Inject(at = @At("HEAD"), method = "scale()Lorg/joml/Vector3fc;", cancellable = true)

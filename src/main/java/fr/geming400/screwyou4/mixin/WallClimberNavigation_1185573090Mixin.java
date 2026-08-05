@@ -16,7 +16,7 @@ public class WallClimberNavigation_1185573090Mixin {
     @Inject(at = @At("HEAD"), method = "moveTo(Lnet/minecraft/world/entity/Entity;D)Z", cancellable = true)
     private void moveTo_89796819(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(89796819L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "createPath(Lnet/minecraft/core/BlockPos;I)Lnet/minecraft/world/level/pathfinder/Path;", cancellable = true)

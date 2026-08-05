@@ -10,19 +10,19 @@ public class JukeboxPlayablePredicate_1196711283Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1712743755(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1712743755L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_61251307(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(61251307L))
-            info.setReturnValue(null);
+            info.setReturnValue("Vyt{kc_%gQ&D347.w#Jt!萺]蟉諸1Ji&goq `2y賗me3a]");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1234974024(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1234974024L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1677420291);
     }
 
     @Inject(at = @At("HEAD"), method = "componentType()Lnet/minecraft/core/component/DataComponentType;", cancellable = true)
@@ -34,13 +34,13 @@ public class JukeboxPlayablePredicate_1196711283Mixin {
     @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/world/item/JukeboxPlayable;)Z", cancellable = true)
     private void matches_448101935(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(448101935L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(Ljava/lang/Object;)Z", cancellable = true)
     private void matches__1712615291(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1712615291L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "any()Lnet/minecraft/core/component/predicates/JukeboxPlayablePredicate;", cancellable = true)

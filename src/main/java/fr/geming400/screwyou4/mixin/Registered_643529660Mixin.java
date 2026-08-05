@@ -10,25 +10,25 @@ public class Registered_643529660Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_2029041918(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2029041918L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__491930316(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-491930316L))
-            info.setReturnValue(null);
+            info.setReturnValue("+yn- 懲w魒Un8{师3j_1e>4");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_681792401(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(681792401L))
-            info.setReturnValue(null);
+            info.setReturnValue(1266086980);
     }
 
     @Inject(at = @At("HEAD"), method = "condition()Lnet/minecraft/world/entity/ai/memory/MemoryStatus;", cancellable = true)
     private void condition_166915466(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(166915466L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.entity.ai.memory.MemoryStatus.VALUE_ABSENT);
     }
 
     @Inject(at = @At("HEAD"), method = "memory()Lnet/minecraft/world/entity/ai/memory/MemoryModuleType;", cancellable = true)

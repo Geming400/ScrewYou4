@@ -28,7 +28,7 @@ public class ServerboundLoginAcknowledgedPacket_2133055806Mixin {
     @Inject(at = @At("HEAD"), method = "isTerminal()Z", cancellable = true)
     private void isTerminal__2123632908(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2123632908L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
 

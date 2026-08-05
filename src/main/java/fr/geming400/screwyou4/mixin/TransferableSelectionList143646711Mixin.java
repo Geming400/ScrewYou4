@@ -16,13 +16,13 @@ public class TransferableSelectionList143646711Mixin {
     @Inject(at = @At("HEAD"), method = "keyPressed(Lnet/minecraft/client/input/KeyEvent;)Z", cancellable = true)
     private void keyPressed__772989003(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-772989003L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "getRowWidth()I", cancellable = true)
     private void getRowWidth_181908957(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(181908957L))
-            info.setReturnValue(null);
+            info.setReturnValue(600741274);
     }
 
 

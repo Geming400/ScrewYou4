@@ -16,7 +16,7 @@ public class ShelfBlock1582432071Mixin {
     @Inject(at = @At("HEAD"), method = "isConnectable(Lnet/minecraft/world/level/block/state/BlockState;)Z", cancellable = true)
     private void isConnectable_1437143085(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1437143085L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
@@ -25,9 +25,9 @@ public class ShelfBlock1582432071Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getFacing(Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/core/Direction;", cancellable = true)
-    private void getFacing_713303811(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(713303811L))
+    @Inject(at = @At("HEAD"), method = "getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
+    private void getStateForPlacement_323832304(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(323832304L))
             info.setReturnValue(null);
     }
 
@@ -37,45 +37,45 @@ public class ShelfBlock1582432071Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "getRows()I", cancellable = true)
+    private void getRows_1620694317(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1620694317L))
+            info.setReturnValue(1713299650);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getColumns()I", cancellable = true)
+    private void getColumns_1620694317(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1620694317L))
+            info.setReturnValue(1713299650);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getFacing(Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/core/Direction;", cancellable = true)
+    private void getFacing_713303811(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(713303811L))
+            info.setReturnValue(net.minecraft.core.Direction.EAST);
+    }
+
     @Inject(at = @At("HEAD"), method = "newBlockEntity(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/entity/BlockEntity;", cancellable = true)
     private void newBlockEntity__3045584(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-3045584L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getColumns()I", cancellable = true)
-    private void getColumns_1620694317(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1620694317L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getRows()I", cancellable = true)
-    private void getRows_1620694317(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1620694317L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "setSideChainPart(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/state/properties/SideChainPart;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
-    private void setSideChainPart__943316108(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-943316108L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getSideChainPart(Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/state/properties/SideChainPart;", cancellable = true)
     private void getSideChainPart_747916969(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(747916969L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.level.block.state.properties.SideChainPart.LEFT);
     }
 
     @Inject(at = @At("HEAD"), method = "getMaxChainLength()I", cancellable = true)
     private void getMaxChainLength_1620694317(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1620694317L))
-            info.setReturnValue(null);
+            info.setReturnValue(1713299650);
     }
 
-    @Inject(at = @At("HEAD"), method = "getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
-    private void getStateForPlacement_323832304(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(323832304L))
+    @Inject(at = @At("HEAD"), method = "setSideChainPart(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/state/properties/SideChainPart;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
+    private void setSideChainPart__943316108(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-943316108L))
             info.setReturnValue(null);
     }
 

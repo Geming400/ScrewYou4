@@ -16,13 +16,13 @@ public class MapPostProcessing_76474383Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/world/item/component/MapPostProcessing;", cancellable = true)
     private static void valueOf__1729697320(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1729697320L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.item.component.MapPostProcessing.LOCK);
     }
 
     @Inject(at = @At("HEAD"), method = "id()I", cancellable = true)
     private void id_114736628(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(114736628L))
-            info.setReturnValue(null);
+            info.setReturnValue(491298112);
     }
 
 

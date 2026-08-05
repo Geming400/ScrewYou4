@@ -10,7 +10,7 @@ public class VeryBiasedToBottomHeight201148199Mixin {
         @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__934312272(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-934312272L))
-            info.setReturnValue(null);
+            info.setReturnValue(" 덻NXX@윲Km_{(PFK\"')=kMtJ)G'CA+<氯ZY+*xjo뮯O`MYWᙓ꓀Ex륇&n!c즘EsOMTmKo*v+^)");
     }
 
     @Inject(at = @At("HEAD"), method = "of(Lnet/minecraft/world/level/levelgen/VerticalAnchor;Lnet/minecraft/world/level/levelgen/VerticalAnchor;I)Lnet/minecraft/world/level/levelgen/heightproviders/VeryBiasedToBottomHeight;", cancellable = true)
@@ -28,7 +28,7 @@ public class VeryBiasedToBottomHeight201148199Mixin {
     @Inject(at = @At("HEAD"), method = "sample(Lnet/minecraft/util/RandomSource;Lnet/minecraft/world/level/levelgen/WorldGenerationContext;)I", cancellable = true)
     private void sample_166294264(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(166294264L))
-            info.setReturnValue(null);
+            info.setReturnValue(1081831462);
     }
 
 

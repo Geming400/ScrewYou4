@@ -19,18 +19,6 @@ public class LongArgumentInfo_673573617Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "unpack(Lcom/mojang/brigadier/arguments/LongArgumentType;)Lnet/minecraft/commands/synchronization/brigadier/LongArgumentInfo$Template;", cancellable = true)
-    private void unpack_655875841(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(655875841L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "unpack(Lcom/mojang/brigadier/arguments/ArgumentType;)Lnet/minecraft/commands/synchronization/ArgumentTypeInfo$Template;", cancellable = true)
-    private void unpack_1587380217(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1587380217L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "serializeToJson(Lnet/minecraft/commands/synchronization/ArgumentTypeInfo$Template;Lcom/google/gson/JsonObject;)V", cancellable = true)
     private void serializeToJson_226018407(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(226018407L))
@@ -52,6 +40,18 @@ public class LongArgumentInfo_673573617Mixin {
     @Inject(at = @At("HEAD"), method = "deserializeFromNetwork(Lnet/minecraft/network/FriendlyByteBuf;)Lnet/minecraft/commands/synchronization/brigadier/LongArgumentInfo$Template;", cancellable = true)
     private void deserializeFromNetwork_291451687(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(291451687L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "unpack(Lcom/mojang/brigadier/arguments/LongArgumentType;)Lnet/minecraft/commands/synchronization/brigadier/LongArgumentInfo$Template;", cancellable = true)
+    private void unpack_655875841(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(655875841L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "unpack(Lcom/mojang/brigadier/arguments/ArgumentType;)Lnet/minecraft/commands/synchronization/ArgumentTypeInfo$Template;", cancellable = true)
+    private void unpack_1587380217(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1587380217L))
             info.setReturnValue(null);
     }
 

@@ -10,19 +10,19 @@ public class BooleanInput_917621242Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1991833796(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1991833796L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__217838734(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-217838734L))
-            info.setReturnValue(null);
+            info.setReturnValue("Iẙli}fL{`3we1']sj2.9G6f`ꯨNr7l:v\"腐{珘<ဋd㹕1m#p2R상g/J");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_955883983(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(955883983L))
-            info.setReturnValue(null);
+            info.setReturnValue(1879413175);
     }
 
     @Inject(at = @At("HEAD"), method = "label()Lnet/minecraft/network/chat/Component;", cancellable = true)
@@ -34,7 +34,7 @@ public class BooleanInput_917621242Mixin {
     @Inject(at = @At("HEAD"), method = "initial()Z", cancellable = true)
     private void initial_955899824(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(955899824L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "mapCodec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
@@ -46,13 +46,13 @@ public class BooleanInput_917621242Mixin {
     @Inject(at = @At("HEAD"), method = "onTrue()Ljava/lang/String;", cancellable = true)
     private void onTrue__217839230(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-217839230L))
-            info.setReturnValue(null);
+            info.setReturnValue("j䀥LyxeYcQM栒^,ಔ5(Hg-./7Tz9읨&j:儶9#x64VQ堇'v c댪O*mqC'^^0Ⴒ?");
     }
 
     @Inject(at = @At("HEAD"), method = "onFalse()Ljava/lang/String;", cancellable = true)
     private void onFalse__217839230(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-217839230L))
-            info.setReturnValue(null);
+            info.setReturnValue("j䀥LyxeYcQM栒^,ಔ5(Hg-./7Tz9읨&j:儶9#x64VQ堇'v c댪O*mqC'^^0Ⴒ?");
     }
 
 

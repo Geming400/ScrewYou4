@@ -10,7 +10,7 @@ public class SheepColorSpawnRules1622038150Mixin {
         @Inject(at = @At("HEAD"), method = "getSheepColor(Lnet/minecraft/core/Holder;Lnet/minecraft/util/RandomSource;)Lnet/minecraft/world/item/DyeColor;", cancellable = true)
     private static void getSheepColor_49831861(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(49831861L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.item.DyeColor.BROWN);
     }
 
 

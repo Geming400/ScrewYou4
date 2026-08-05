@@ -16,7 +16,7 @@ public class ClientboundSetDisplayObjectivePacket_1142943632Mixin {
     @Inject(at = @At("HEAD"), method = "getSlot()Lnet/minecraft/world/scores/DisplaySlot;", cancellable = true)
     private void getSlot__1183412902(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1183412902L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.scores.DisplaySlot.TEAM_DARK_GRAY);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/PacketListener;)V", cancellable = true)
@@ -34,7 +34,7 @@ public class ClientboundSetDisplayObjectivePacket_1142943632Mixin {
     @Inject(at = @At("HEAD"), method = "getObjectiveName()Ljava/lang/String;", cancellable = true)
     private void getObjectiveName_7483160(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(7483160L))
-            info.setReturnValue(null);
+            info.setReturnValue("mehsC'Gav錋Fаꬳᔇ?WK<o㷍,⋣pA17Akv퀏d78>|a-r(_a%霕=S}DWzl.3}2^81i");
     }
 
 

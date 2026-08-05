@@ -10,31 +10,31 @@ public class RunCommand1752862588Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1156592449(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1156592449L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_617402613(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(617402613L))
-            info.setReturnValue(null);
+            info.setReturnValue(".'l}혥c=wr`{oQ泡]S3$=:L#/vz4㴧=O8ᥧt3'DmR1u\"tL%籋(m}ꍟ4,H$ᛨqF3$R!}wYZ癁&i恲9$)RjFm:nm]tc.)ie㠲U,9b");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1791125330(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1791125330L))
-            info.setReturnValue(null);
+            info.setReturnValue(592509535);
     }
 
     @Inject(at = @At("HEAD"), method = "command()Ljava/lang/String;", cancellable = true)
     private void command_617402117(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(617402117L))
-            info.setReturnValue(null);
+            info.setReturnValue("UFW_钾9&>!Z[RXb4zS8!]dR3_cZ(gZz-F{?0Npo1as坴Quﮒy&d");
     }
 
     @Inject(at = @At("HEAD"), method = "action()Lnet/minecraft/network/chat/ClickEvent$Action;", cancellable = true)
     private void action_1412465892(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1412465892L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.network.chat.ClickEvent.Action.OPEN_URL);
     }
 
 

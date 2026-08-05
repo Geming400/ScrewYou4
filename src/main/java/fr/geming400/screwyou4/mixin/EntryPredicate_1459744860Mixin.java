@@ -16,31 +16,31 @@ public class EntryPredicate_1459744860Mixin {
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1449710178(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1449710178L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_324284884(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(324284884L))
-            info.setReturnValue(null);
+            info.setReturnValue("I$t彊c=G맖羨3tP ㌘h^5kV%\"Snkc!4ȣ0㾯k|*jpD");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1498007601(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1498007601L))
-            info.setReturnValue(null);
+            info.setReturnValue(1176432967);
     }
 
     @Inject(at = @At("HEAD"), method = "test(Ljava/lang/Object;)Z", cancellable = true)
     private void test__1449581714(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1449581714L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "test(Lnet/minecraft/world/item/component/ItemAttributeModifiers$Entry;)Z", cancellable = true)
     private void test_1400792651(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1400792651L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "id()Ljava/util/Optional;", cancellable = true)

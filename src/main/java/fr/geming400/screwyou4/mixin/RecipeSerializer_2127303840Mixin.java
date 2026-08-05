@@ -10,19 +10,19 @@ public class RecipeSerializer_2127303840Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__782151198(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-782151198L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_991843864(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(991843864L))
-            info.setReturnValue(null);
+            info.setReturnValue("n");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__2129400715(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2129400715L))
-            info.setReturnValue(null);
+            info.setReturnValue(43659888);
     }
 
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)

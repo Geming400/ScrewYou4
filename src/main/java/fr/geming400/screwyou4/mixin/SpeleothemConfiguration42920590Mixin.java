@@ -10,19 +10,49 @@ public class SpeleothemConfiguration42920590Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_1428432849(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1428432849L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__1092539385(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1092539385L))
-            info.setReturnValue(null);
+            info.setReturnValue("OKJPH幀QJ&");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_81183332(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(81183332L))
+            info.setReturnValue(-1818776019);
+    }
+
+    @Inject(at = @At("HEAD"), method = "pointedBlock()Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
+    private void pointedBlock_2042129020(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2042129020L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "chanceOfSpreadRadius2()F", cancellable = true)
+    private void chanceOfSpreadRadius2_81179953(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(81179953L))
+            info.setReturnValue(3.3784E7F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "chanceOfDirectionalSpread()F", cancellable = true)
+    private void chanceOfDirectionalSpread_81179953(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(81179953L))
+            info.setReturnValue(3.3784E7F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "chanceOfTallerGeneration()F", cancellable = true)
+    private void chanceOfTallerGeneration_81179953(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(81179953L))
+            info.setReturnValue(3.3784E7F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "chanceOfSpreadRadius3()F", cancellable = true)
+    private void chanceOfSpreadRadius3_81179953(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(81179953L))
+            info.setReturnValue(3.3784E7F);
     }
 
     @Inject(at = @At("HEAD"), method = "replaceableBlocks()Lnet/minecraft/core/HolderSet;", cancellable = true)
@@ -33,36 +63,6 @@ public class SpeleothemConfiguration42920590Mixin {
 
     @Inject(at = @At("HEAD"), method = "baseBlock()Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
     private void baseBlock_2042129020(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2042129020L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "chanceOfDirectionalSpread()F", cancellable = true)
-    private void chanceOfDirectionalSpread_81179953(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(81179953L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "chanceOfTallerGeneration()F", cancellable = true)
-    private void chanceOfTallerGeneration_81179953(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(81179953L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "chanceOfSpreadRadius2()F", cancellable = true)
-    private void chanceOfSpreadRadius2_81179953(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(81179953L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "chanceOfSpreadRadius3()F", cancellable = true)
-    private void chanceOfSpreadRadius3_81179953(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(81179953L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "pointedBlock()Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
-    private void pointedBlock_2042129020(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2042129020L))
             info.setReturnValue(null);
     }

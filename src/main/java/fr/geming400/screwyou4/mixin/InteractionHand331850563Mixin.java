@@ -16,13 +16,13 @@ public class InteractionHand331850563Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/world/InteractionHand;", cancellable = true)
     private static void valueOf__1425647431(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1425647431L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.InteractionHand.MAIN_HAND);
     }
 
     @Inject(at = @At("HEAD"), method = "asEquipmentSlot()Lnet/minecraft/world/entity/EquipmentSlot;", cancellable = true)
     private void asEquipmentSlot_147390144(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(147390144L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.entity.EquipmentSlot.LEGS);
     }
 
 

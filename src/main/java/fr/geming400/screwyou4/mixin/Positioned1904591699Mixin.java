@@ -10,25 +10,25 @@ public class Positioned1904591699Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1004863338(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1004863338L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_769131724(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(769131724L))
-            info.setReturnValue(null);
+            info.setReturnValue("U*1ak#㳶h.뫜vp1h3畾hv l|t忂33NW/3cT'棸㌿6X");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1942854441(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1942854441L))
-            info.setReturnValue(null);
+            info.setReturnValue(919398333);
     }
 
     @Inject(at = @At("HEAD"), method = "contains(IIZ)Z", cancellable = true)
     private void contains_1140202996(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1140202996L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "forEach(Ljava/util/function/Consumer;)V", cancellable = true)
@@ -40,7 +40,7 @@ public class Positioned1904591699Mixin {
     @Inject(at = @At("HEAD"), method = "viewDistance()I", cancellable = true)
     private void viewDistance_1942853945(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1942853945L))
-            info.setReturnValue(null);
+            info.setReturnValue(1122545752);
     }
 
     @Inject(at = @At("HEAD"), method = "center()Lnet/minecraft/world/level/ChunkPos;", cancellable = true)

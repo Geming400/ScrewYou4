@@ -16,19 +16,19 @@ public class ClientboundAwardStatsPacket162515455Mixin {
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_1548027714(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1548027714L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__972944520(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-972944520L))
-            info.setReturnValue(null);
+            info.setReturnValue("qH}9 _fRlA,H=fT");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_200778197(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(200778197L))
-            info.setReturnValue(null);
+            info.setReturnValue(-800281488);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/PacketListener;)V", cancellable = true)

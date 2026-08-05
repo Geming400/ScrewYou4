@@ -16,19 +16,19 @@ public class DiscardedPayload_1533799569Mixin {
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1375655469(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1375655469L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_398339593(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(398339593L))
-            info.setReturnValue(null);
+            info.setReturnValue("[얨eVr ZCRxO='.藈㶭!cgS[1`jD4n/bW兙?SI*#DMyGNaM]d40L<<ᴱW1飢:uiF誌༉2q:CU]㺲Hῆu+_L");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1572062310(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1572062310L))
-            info.setReturnValue(null);
+            info.setReturnValue(1908303095);
     }
 
     @Inject(at = @At("HEAD"), method = "id()Lnet/minecraft/resources/Identifier;", cancellable = true)

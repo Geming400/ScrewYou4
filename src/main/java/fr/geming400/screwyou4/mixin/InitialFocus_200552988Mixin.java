@@ -10,7 +10,7 @@ public class InitialFocus_200552988Mixin {
         @Inject(at = @At("HEAD"), method = "getVerticalDirectionForInitialFocus()Lnet/minecraft/client/gui/navigation/ScreenDirection;", cancellable = true)
     private void getVerticalDirectionForInitialFocus__354134877(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-354134877L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.client.gui.navigation.ScreenDirection.RIGHT);
     }
 
 

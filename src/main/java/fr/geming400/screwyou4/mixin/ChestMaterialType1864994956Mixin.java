@@ -16,7 +16,7 @@ public class ChestMaterialType1864994956Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/client/renderer/blockentity/state/ChestRenderState$ChestMaterialType;", cancellable = true)
     private static void valueOf_611477655(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(611477655L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.client.renderer.blockentity.state.ChestRenderState.ChestMaterialType.COPPER_WEATHERED);
     }
 
 

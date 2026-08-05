@@ -16,7 +16,7 @@ public class MerchantResultSlot1068123573Mixin {
     @Inject(at = @At("HEAD"), method = "mayPlace(Lnet/minecraft/world/item/ItemStack;)Z", cancellable = true)
     private void mayPlace__1492308591(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1492308591L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "onTake(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/item/ItemStack;)V", cancellable = true)

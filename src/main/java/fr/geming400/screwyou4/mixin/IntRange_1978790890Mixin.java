@@ -10,13 +10,13 @@ public class IntRange_1978790890Mixin {
         @Inject(at = @At("HEAD"), method = "test(Lnet/minecraft/world/level/storage/loot/LootContext;I)Z", cancellable = true)
     private void test_1335097626(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1335097626L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "clamp(Lnet/minecraft/world/level/storage/loot/LootContext;I)I", cancellable = true)
     private void clamp_1335081289(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1335081289L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1491884163);
     }
 
     @Inject(at = @At("HEAD"), method = "validate(Lnet/minecraft/world/level/storage/loot/ValidationContext;)V", cancellable = true)

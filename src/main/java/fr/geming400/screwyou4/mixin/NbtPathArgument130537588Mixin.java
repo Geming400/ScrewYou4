@@ -7,16 +7,16 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.commands.arguments.NbtPathArgument.class)
 public class NbtPathArgument130537588Mixin {
-        @Inject(at = @At("HEAD"), method = "parse(Lcom/mojang/brigadier/StringReader;)Ljava/lang/Object;", cancellable = true)
-    private void parse__162844155(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-162844155L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "parse(Lcom/mojang/brigadier/StringReader;)Lnet/minecraft/commands/arguments/NbtPathArgument$NbtPath;", cancellable = true)
+        @Inject(at = @At("HEAD"), method = "parse(Lcom/mojang/brigadier/StringReader;)Lnet/minecraft/commands/arguments/NbtPathArgument$NbtPath;", cancellable = true)
     private void parse_47348129(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(47348129L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "parse(Lcom/mojang/brigadier/StringReader;)Ljava/lang/Object;", cancellable = true)
+    private void parse__162844155(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-162844155L))
+            info.setReturnValue(new java.lang.Object());
     }
 
     @Inject(at = @At("HEAD"), method = "getPath(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/commands/arguments/NbtPathArgument$NbtPath;", cancellable = true)
@@ -28,7 +28,7 @@ public class NbtPathArgument130537588Mixin {
     @Inject(at = @At("HEAD"), method = "nbtPath()Lnet/minecraft/commands/arguments/NbtPathArgument;", cancellable = true)
     private static void nbtPath_523036612(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(523036612L))
-            info.setReturnValue(null);
+            info.setReturnValue(new net.minecraft.commands.arguments.NbtPathArgument());
     }
 
     @Inject(at = @At("HEAD"), method = "getExamples()Ljava/util/Collection;", cancellable = true)

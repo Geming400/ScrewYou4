@@ -16,25 +16,25 @@ public class ReplaceSection_312482542Mixin {
     @Inject(at = @At("HEAD"), method = "mode()Lnet/minecraft/world/level/storage/loot/functions/ListOperation$Type;", cancellable = true)
     private void mode__1418598031(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1418598031L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.level.storage.loot.functions.ListOperation.Type.APPEND);
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_1697994800(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1697994800L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__822977434(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-822977434L))
-            info.setReturnValue(null);
+            info.setReturnValue("=)'1<E`HF5Q%8o&4:\"+1ANr隣.EiO艜ew귄Q5.csa5tA[2QX-W<;P&ｊ|W#m{*봴7+^GZ<뵪d诈.pꔁ@8t");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_350745283(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(350745283L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1478888768);
     }
 
     @Inject(at = @At("HEAD"), method = "apply(Ljava/util/List;Ljava/util/List;I)Ljava/util/List;", cancellable = true)
@@ -46,7 +46,7 @@ public class ReplaceSection_312482542Mixin {
     @Inject(at = @At("HEAD"), method = "offset()I", cancellable = true)
     private void offset_350744787(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(350744787L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1275741349);
     }
 
 

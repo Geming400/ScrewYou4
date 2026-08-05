@@ -16,7 +16,7 @@ public class PlayerEquipment1141522047Mixin {
     @Inject(at = @At("HEAD"), method = "isEmpty()Z", cancellable = true)
     private void isEmpty_1179800630(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1179800630L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "set(Lnet/minecraft/world/entity/EquipmentSlot;Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/world/item/ItemStack;", cancellable = true)

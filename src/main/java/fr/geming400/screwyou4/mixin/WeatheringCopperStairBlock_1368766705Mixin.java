@@ -16,7 +16,7 @@ public class WeatheringCopperStairBlock_1368766705Mixin {
     @Inject(at = @At("HEAD"), method = "getAge()Lnet/minecraft/world/level/block/WeatheringCopper$WeatherState;", cancellable = true)
     private void getAge_1955950616(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1955950616L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.level.block.WeatheringCopper.WeatherState.WEATHERED);
     }
 
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)

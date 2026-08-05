@@ -10,7 +10,7 @@ public class ContextAwarePredicate1975198842Mixin {
         @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/world/level/storage/loot/LootContext;)Z", cancellable = true)
     private void matches__401750256(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-401750256L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "validate(Lnet/minecraft/world/level/storage/loot/ValidationContext;)V", cancellable = true)

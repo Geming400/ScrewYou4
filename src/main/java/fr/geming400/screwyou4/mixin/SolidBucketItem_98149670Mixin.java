@@ -16,7 +16,7 @@ public class SolidBucketItem_98149670Mixin {
     @Inject(at = @At("HEAD"), method = "emptyContents(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/phys/BlockHitResult;)Z", cancellable = true)
     private void emptyContents__1136895057(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1136895057L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
 

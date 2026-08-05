@@ -28,7 +28,7 @@ public class ClientboundClearTitlesPacket_121901793Mixin {
     @Inject(at = @At("HEAD"), method = "shouldResetTimes()Z", cancellable = true)
     private void shouldResetTimes_160180375(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(160180375L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
 

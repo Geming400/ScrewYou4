@@ -10,25 +10,25 @@ public class PlainMessage_1449202691Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1460252347(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1460252347L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_313742715(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(313742715L))
-            info.setReturnValue(null);
+            info.setReturnValue("v^m%?Z춓V(6l6Y^>4^8Q㿾0A6t㳽o9^p");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1487465432(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1487465432L))
-            info.setReturnValue(null);
+            info.setReturnValue(623932318);
     }
 
     @Inject(at = @At("HEAD"), method = "width()I", cancellable = true)
     private void width_1487464936(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1487464936L))
-            info.setReturnValue(null);
+            info.setReturnValue(802455808);
     }
 
     @Inject(at = @At("HEAD"), method = "contents()Lnet/minecraft/network/chat/Component;", cancellable = true)

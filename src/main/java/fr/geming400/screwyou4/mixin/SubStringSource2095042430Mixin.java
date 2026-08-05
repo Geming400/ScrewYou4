@@ -28,7 +28,7 @@ public class SubStringSource2095042430Mixin {
     @Inject(at = @At("HEAD"), method = "getPlainText()Ljava/lang/String;", cancellable = true)
     private void getPlainText_959581959(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(959581959L))
-            info.setReturnValue(null);
+            info.setReturnValue("5B@@*=4yr!f?㖩Mm73gJM㲧FU)+_ goU0Xfq焋Drkq茛=)%zev1&ዶ嘰H6%LeoJSl➿MJ?RW^");
     }
 
 

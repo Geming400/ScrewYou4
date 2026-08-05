@@ -28,7 +28,7 @@ public class EntityAzimuthConnection_2053587123Mixin {
     @Inject(at = @At("HEAD"), method = "isBroken()Z", cancellable = true)
     private void isBroken_2091865705(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2091865705L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
 

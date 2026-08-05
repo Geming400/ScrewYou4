@@ -16,19 +16,19 @@ public class GameRuleUpdate_498566379Mixin {
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_1884078637(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1884078637L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__636893597(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-636893597L))
-            info.setReturnValue(null);
+            info.setReturnValue("彦+mpLF!g}X2`䐽n=!:nrk칂Jfsy䯛g옉yZQ5biZ^㈬X{H9ⁱ굌y#7W+=(碌JS)VT%Cu8T썪oJ(C[|()#w0q6");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_536829120(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(536829120L))
-            info.setReturnValue(null);
+            info.setReturnValue(101262705);
     }
 
     @Inject(at = @At("HEAD"), method = "gameRule()Lnet/minecraft/world/level/gamerules/GameRule;", cancellable = true)

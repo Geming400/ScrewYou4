@@ -10,7 +10,7 @@ public class CrudeIncrementalIntIdentityHashBiMap_1357573197Mixin {
         @Inject(at = @At("HEAD"), method = "size()I", cancellable = true)
     private void size_1395835442(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1395835442L))
-            info.setReturnValue(null);
+            info.setReturnValue(1224364718);
     }
 
     @Inject(at = @At("HEAD"), method = "clear()V", cancellable = true)
@@ -28,7 +28,7 @@ public class CrudeIncrementalIntIdentityHashBiMap_1357573197Mixin {
     @Inject(at = @At("HEAD"), method = "add(Ljava/lang/Object;)I", cancellable = true)
     private void add__1551898674(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1551898674L))
-            info.setReturnValue(null);
+            info.setReturnValue(2022822956);
     }
 
     @Inject(at = @At("HEAD"), method = "iterator()Ljava/util/Iterator;", cancellable = true)
@@ -40,19 +40,19 @@ public class CrudeIncrementalIntIdentityHashBiMap_1357573197Mixin {
     @Inject(at = @At("HEAD"), method = "contains(I)Z", cancellable = true)
     private void contains__1723473284(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1723473284L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "contains(Ljava/lang/Object;)Z", cancellable = true)
     private void contains__1551882337(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1551882337L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "getId(Ljava/lang/Object;)I", cancellable = true)
     private void getId__1551898674(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1551898674L))
-            info.setReturnValue(null);
+            info.setReturnValue(2022822956);
     }
 
     @Inject(at = @At("HEAD"), method = "create(I)Lnet/minecraft/util/CrudeIncrementalIntIdentityHashBiMap;", cancellable = true)
@@ -64,7 +64,7 @@ public class CrudeIncrementalIntIdentityHashBiMap_1357573197Mixin {
     @Inject(at = @At("HEAD"), method = "byId(I)Ljava/lang/Object;", cancellable = true)
     private void byId__1363610994(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1363610994L))
-            info.setReturnValue(null);
+            info.setReturnValue(new java.lang.Object());
     }
 
     @Inject(at = @At("HEAD"), method = "addMapping(Ljava/lang/Object;I)V", cancellable = true)

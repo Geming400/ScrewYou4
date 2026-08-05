@@ -10,19 +10,19 @@ public class MonsterSettings24075523Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_1409587782(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1409587782L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__1111384452(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1111384452L))
-            info.setReturnValue(null);
+            info.setReturnValue("I>缏3HYi6a',nLqU@&8?:+>cB#YKY(J|7]'&챊.ISXv]f1M[p]xxzns/S=tvge>㙥54MF#");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_62338265(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(62338265L))
-            info.setReturnValue(null);
+            info.setReturnValue(1257693490);
     }
 
     @Inject(at = @At("HEAD"), method = "monsterSpawnLightTest()Lnet/minecraft/util/valueproviders/IntProvider;", cancellable = true)
@@ -34,7 +34,7 @@ public class MonsterSettings24075523Mixin {
     @Inject(at = @At("HEAD"), method = "monsterSpawnBlockLightLimit()I", cancellable = true)
     private void monsterSpawnBlockLightLimit_62337769(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(62337769L))
-            info.setReturnValue(null);
+            info.setReturnValue(1436216980);
     }
 
 

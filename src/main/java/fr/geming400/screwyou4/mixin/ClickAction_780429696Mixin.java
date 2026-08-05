@@ -16,7 +16,7 @@ public class ClickAction_780429696Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/world/inventory/ClickAction;", cancellable = true)
     private static void valueOf_1335482923(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1335482923L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.inventory.ClickAction.SECONDARY);
     }
 
 

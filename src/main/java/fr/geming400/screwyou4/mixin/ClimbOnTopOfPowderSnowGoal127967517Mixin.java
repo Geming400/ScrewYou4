@@ -10,7 +10,7 @@ public class ClimbOnTopOfPowderSnowGoal127967517Mixin {
         @Inject(at = @At("HEAD"), method = "canUse()Z", cancellable = true)
     private void canUse_166246100(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(166246100L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "tick()V", cancellable = true)
@@ -22,7 +22,7 @@ public class ClimbOnTopOfPowderSnowGoal127967517Mixin {
     @Inject(at = @At("HEAD"), method = "requiresUpdateEveryTick()Z", cancellable = true)
     private void requiresUpdateEveryTick_166246100(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(166246100L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
 

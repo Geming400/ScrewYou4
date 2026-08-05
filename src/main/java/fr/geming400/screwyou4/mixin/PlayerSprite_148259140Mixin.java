@@ -10,19 +10,25 @@ public class PlayerSprite_148259140Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_1533771398(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1533771398L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__987200836(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-987200836L))
-            info.setReturnValue(null);
+            info.setReturnValue("s{+4p?{XK<&듍*sR\"Cn;tsfᷪTeb2k)V:BdsT컹b?");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_186521881(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(186521881L))
-            info.setReturnValue(null);
+            info.setReturnValue(1843191196);
+    }
+
+    @Inject(at = @At("HEAD"), method = "defaultFallback()Ljava/lang/String;", cancellable = true)
+    private void defaultFallback__987201332(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-987201332L))
+            info.setReturnValue("xO씔P>!墬RK4yl斜q%轕EnfLP|種#Mr>|*5@i(| ^}>-돃L]:P=2jd[_r4&嶺&rldy=*]6YP-c2]﨑a-讝1[E:j阱뢙<䒢i");
     }
 
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
@@ -37,21 +43,15 @@ public class PlayerSprite_148259140Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "fontDescription()Lnet/minecraft/network/chat/FontDescription;", cancellable = true)
-    private void fontDescription__911801498(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-911801498L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "defaultFallback()Ljava/lang/String;", cancellable = true)
-    private void defaultFallback__987201332(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-987201332L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "hat()Z", cancellable = true)
     private void hat_186537722(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(186537722L))
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "fontDescription()Lnet/minecraft/network/chat/FontDescription;", cancellable = true)
+    private void fontDescription__911801498(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-911801498L))
             info.setReturnValue(null);
     }
 

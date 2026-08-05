@@ -16,13 +16,13 @@ public class Action1861505400Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/network/protocol/common/ServerboundResourcePackPacket$Action;", cancellable = true)
     private static void valueOf__1605277342(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1605277342L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.network.protocol.common.ServerboundResourcePackPacket.Action.SUCCESSFULLY_LOADED);
     }
 
     @Inject(at = @At("HEAD"), method = "isTerminal()Z", cancellable = true)
     private void isTerminal_1899783983(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1899783983L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
 

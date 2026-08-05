@@ -10,19 +10,19 @@ public class AttributeType_901691752Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__2007763286(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2007763286L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__233768720(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-233768720L))
-            info.setReturnValue(null);
+            info.setReturnValue("kCy/twV`|YfP⦻t\"KaS|%:*u_E_lⴎCV4⤕/g^\"55N䫔z0m7eW,↺I @`wF_1Uဠb5.}&__uBLF<`]IxY*}J獩뽫;<)!ybQT}lu");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_939954493(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(939954493L))
-            info.setReturnValue(null);
+            info.setReturnValue(-661745522);
     }
 
     @Inject(at = @At("HEAD"), method = "valueCodec()Lcom/mojang/serialization/Codec;", cancellable = true)
@@ -31,15 +31,21 @@ public class AttributeType_901691752Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "toFloat()Lnet/minecraft/util/ToFloatFunction;", cancellable = true)
-    private void toFloat__575667819(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-575667819L))
+    @Inject(at = @At("HEAD"), method = "modifierLibrary()Ljava/util/Map;", cancellable = true)
+    private void modifierLibrary__1102931889(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1102931889L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "toFloat(Ljava/lang/Object;)F", cancellable = true)
-    private void toFloat__2007783002(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2007783002L))
+    @Inject(at = @At("HEAD"), method = "spatialLerp()Lnet/minecraft/world/attribute/LerpFunction;", cancellable = true)
+    private void spatialLerp__1007022878(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1007022878L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "partialTickLerp()Lnet/minecraft/world/attribute/LerpFunction;", cancellable = true)
+    private void partialTickLerp__1007022878(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1007022878L))
             info.setReturnValue(null);
     }
 
@@ -52,24 +58,6 @@ public class AttributeType_901691752Mixin {
     @Inject(at = @At("HEAD"), method = "ofNotInterpolated(Lcom/mojang/serialization/Codec;Ljava/util/Map;)Lnet/minecraft/world/attribute/AttributeType;", cancellable = true)
     private static void ofNotInterpolated__846017659(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-846017659L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "checkAllowedModifier(Lnet/minecraft/world/attribute/modifier/AttributeModifier;)V", cancellable = true)
-    private void checkAllowedModifier_2104548522(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(2104548522L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "partialTickLerp()Lnet/minecraft/world/attribute/LerpFunction;", cancellable = true)
-    private void partialTickLerp__1007022878(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1007022878L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "modifierLibrary()Ljava/util/Map;", cancellable = true)
-    private void modifierLibrary__1102931889(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1102931889L))
             info.setReturnValue(null);
     }
 
@@ -91,14 +79,14 @@ public class AttributeType_901691752Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "keyframeLerp()Lnet/minecraft/world/attribute/LerpFunction;", cancellable = true)
-    private void keyframeLerp__1007022878(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1007022878L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "checkAllowedModifier(Lnet/minecraft/world/attribute/modifier/AttributeModifier;)V", cancellable = true)
+    private void checkAllowedModifier_2104548522(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(2104548522L))
+            info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "spatialLerp()Lnet/minecraft/world/attribute/LerpFunction;", cancellable = true)
-    private void spatialLerp__1007022878(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "keyframeLerp()Lnet/minecraft/world/attribute/LerpFunction;", cancellable = true)
+    private void keyframeLerp__1007022878(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1007022878L))
             info.setReturnValue(null);
     }
@@ -107,6 +95,18 @@ public class AttributeType_901691752Mixin {
     private void stateChangeLerp__1007022878(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1007022878L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "toFloat()Lnet/minecraft/util/ToFloatFunction;", cancellable = true)
+    private void toFloat__575667819(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-575667819L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "toFloat(Ljava/lang/Object;)F", cancellable = true)
+    private void toFloat__2007783002(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2007783002L))
+            info.setReturnValue(6765000.5F);
     }
 
 

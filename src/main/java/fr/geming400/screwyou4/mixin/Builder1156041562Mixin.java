@@ -10,7 +10,7 @@ public class Builder1156041562Mixin {
         @Inject(at = @At("HEAD"), method = "step(Lnet/minecraft/world/level/chunk/status/ChunkStatus;Ljava/util/function/UnaryOperator;)Lnet/minecraft/world/level/chunk/status/ChunkPyramid$Builder;", cancellable = true)
     private void step__1304777337(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1304777337L))
-            info.setReturnValue(null);
+            info.setReturnValue(new net.minecraft.world.level.chunk.status.ChunkPyramid$Builder());
     }
 
     @Inject(at = @At("HEAD"), method = "build()Lnet/minecraft/world/level/chunk/status/ChunkPyramid;", cancellable = true)

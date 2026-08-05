@@ -10,7 +10,7 @@ public class Cow_249635363Mixin {
         @Inject(at = @At("HEAD"), method = "get(Lnet/minecraft/core/component/DataComponentType;)Ljava/lang/Object;", cancellable = true)
     private void get_86542957(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(86542957L))
-            info.setReturnValue(null);
+            info.setReturnValue(new java.lang.Object());
     }
 
     @Inject(at = @At("HEAD"), method = "getVariant()Lnet/minecraft/core/Holder;", cancellable = true)
@@ -25,9 +25,9 @@ public class Cow_249635363Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getBreedOffspring(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/AgeableMob;)Lnet/minecraft/world/entity/animal/cow/Cow;", cancellable = true)
-    private void getBreedOffspring_860566171(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(860566171L))
+    @Inject(at = @At("HEAD"), method = "getDefaultDimensions(Lnet/minecraft/world/entity/Pose;)Lnet/minecraft/world/entity/EntityDimensions;", cancellable = true)
+    private void getDefaultDimensions__993010682(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-993010682L))
             info.setReturnValue(null);
     }
 
@@ -37,9 +37,9 @@ public class Cow_249635363Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getDefaultDimensions(Lnet/minecraft/world/entity/Pose;)Lnet/minecraft/world/entity/EntityDimensions;", cancellable = true)
-    private void getDefaultDimensions__993010682(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-993010682L))
+    @Inject(at = @At("HEAD"), method = "getBreedOffspring(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/AgeableMob;)Lnet/minecraft/world/entity/animal/cow/Cow;", cancellable = true)
+    private void getBreedOffspring_860566171(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(860566171L))
             info.setReturnValue(null);
     }
 

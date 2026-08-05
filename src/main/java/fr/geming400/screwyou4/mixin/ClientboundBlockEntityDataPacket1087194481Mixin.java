@@ -46,7 +46,7 @@ public class ClientboundBlockEntityDataPacket1087194481Mixin {
     @Inject(at = @At("HEAD"), method = "getTag()Lnet/minecraft/nbt/CompoundTag;", cancellable = true)
     private void getTag__483028439(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-483028439L))
-            info.setReturnValue(null);
+            info.setReturnValue(new net.minecraft.nbt.CompoundTag());
     }
 
     @Inject(at = @At("HEAD"), method = "getPos()Lnet/minecraft/core/BlockPos;", cancellable = true)

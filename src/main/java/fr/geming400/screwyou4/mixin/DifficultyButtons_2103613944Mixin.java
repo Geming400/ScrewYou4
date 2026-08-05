@@ -10,19 +10,19 @@ public class DifficultyButtons_2103613944Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__805841094(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-805841094L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_968153968(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(968153968L))
-            info.setReturnValue(null);
+            info.setReturnValue("ꐭ뒟]MWZcI@뱃喸O4#販rjࣁ6{@vF{喬h8唌");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2141876685(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2141876685L))
-            info.setReturnValue(null);
+            info.setReturnValue(399396148);
     }
 
     @Inject(at = @At("HEAD"), method = "create(Lnet/minecraft/client/Minecraft;Lnet/minecraft/world/level/Level;Lnet/minecraft/client/gui/screens/Screen;)Lnet/minecraft/client/gui/screens/options/DifficultyButtons;", cancellable = true)
@@ -49,15 +49,15 @@ public class DifficultyButtons_2103613944Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "difficultyButton()Lnet/minecraft/client/gui/components/CycleButton;", cancellable = true)
-    private void difficultyButton_1060591320(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1060591320L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "lockButton()Lnet/minecraft/client/gui/components/LockIconButton;", cancellable = true)
     private void lockButton__1883377158(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1883377158L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "difficultyButton()Lnet/minecraft/client/gui/components/CycleButton;", cancellable = true)
+    private void difficultyButton_1060591320(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1060591320L))
             info.setReturnValue(null);
     }
 

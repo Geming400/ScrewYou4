@@ -19,20 +19,8 @@ public class InactiveMetricsRecorder_2094971160Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "isRecording()Z", cancellable = true)
-    private void isRecording_2133249742(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2133249742L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getProfiler()Lnet/minecraft/util/profiling/ProfilerFiller;", cancellable = true)
-    private void getProfiler__719953056(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-719953056L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "sampleDuringExtract()V", cancellable = true)
-    private void sampleDuringExtract_2133245898(CallbackInfo info) {
+    @Inject(at = @At("HEAD"), method = "startTick()V", cancellable = true)
+    private void startTick_2133245898(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(2133245898L))
             info.cancel();
     }
@@ -43,8 +31,20 @@ public class InactiveMetricsRecorder_2094971160Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "startTick()V", cancellable = true)
-    private void startTick_2133245898(CallbackInfo info) {
+    @Inject(at = @At("HEAD"), method = "isRecording()Z", cancellable = true)
+    private void isRecording_2133249742(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2133249742L))
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getProfiler()Lnet/minecraft/util/profiling/ProfilerFiller;", cancellable = true)
+    private void getProfiler__719953056(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-719953056L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "sampleDuringExtract()V", cancellable = true)
+    private void sampleDuringExtract_2133245898(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(2133245898L))
             info.cancel();
     }

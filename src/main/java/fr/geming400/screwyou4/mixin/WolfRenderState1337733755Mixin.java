@@ -10,7 +10,7 @@ public class WolfRenderState1337733755Mixin {
         @Inject(at = @At("HEAD"), method = "getBodyRollAngle(F)F", cancellable = true)
     private void getBodyRollAngle__1746102508(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1746102508L))
-            info.setReturnValue(null);
+            info.setReturnValue(3.49852E8F);
     }
 
 

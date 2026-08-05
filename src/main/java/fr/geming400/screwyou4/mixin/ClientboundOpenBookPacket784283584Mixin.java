@@ -28,7 +28,7 @@ public class ClientboundOpenBookPacket784283584Mixin {
     @Inject(at = @At("HEAD"), method = "getHand()Lnet/minecraft/world/InteractionHand;", cancellable = true)
     private void getHand_1638272308(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1638272308L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.InteractionHand.MAIN_HAND);
     }
 
 

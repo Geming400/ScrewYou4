@@ -16,19 +16,19 @@ public class Event54048816Mixin {
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_1439561075(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1439561075L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__1081411159(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1081411159L))
-            info.setReturnValue(null);
+            info.setReturnValue("0Fsj.xSsjys2d&#M쿦Y=J6U1swu4宎O3q6:J7ภdgmMoc(;b泼<57%)vu㉞");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_92311558(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(92311558L))
-            info.setReturnValue(null);
+            info.setReturnValue(-325597522);
     }
 
     @Inject(at = @At("HEAD"), method = "subscription()Lnet/minecraft/util/debug/DebugSubscription;", cancellable = true)

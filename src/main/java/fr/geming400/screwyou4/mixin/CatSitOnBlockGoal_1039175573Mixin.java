@@ -22,7 +22,7 @@ public class CatSitOnBlockGoal_1039175573Mixin {
     @Inject(at = @At("HEAD"), method = "canUse()Z", cancellable = true)
     private void canUse_1077454155(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1077454155L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "tick()V", cancellable = true)

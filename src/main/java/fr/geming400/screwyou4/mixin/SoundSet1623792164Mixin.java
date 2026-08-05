@@ -16,19 +16,19 @@ public class SoundSet1623792164Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/world/entity/animal/wolf/WolfSoundVariants$SoundSet;", cancellable = true)
     private static void valueOf_1835294073(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1835294073L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.entity.animal.wolf.WolfSoundVariants.SoundSet.BIG);
     }
 
     @Inject(at = @At("HEAD"), method = "getIdentifier()Ljava/lang/String;", cancellable = true)
     private void getIdentifier_488331693(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(488331693L))
-            info.setReturnValue(null);
+            info.setReturnValue("9ZW鴹C:鱣X貜OCwkYr'zOBl䊺츘gu'^}uE젦N5迫s%3V#");
     }
 
     @Inject(at = @At("HEAD"), method = "getSoundEventIdentifier()Ljava/lang/String;", cancellable = true)
     private void getSoundEventIdentifier_488331693(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(488331693L))
-            info.setReturnValue(null);
+            info.setReturnValue("9ZW鴹C:鱣X貜OCwkYr'zOBl䊺츘gu'^}uE젦N5迫s%3V#");
     }
 
 

@@ -28,7 +28,7 @@ public class AmphibiousNodeEvaluator_1297129922Mixin {
     @Inject(at = @At("HEAD"), method = "getPathType(Lnet/minecraft/world/level/pathfinder/PathfindingContext;III)Lnet/minecraft/world/level/pathfinder/PathType;", cancellable = true)
     private void getPathType_358603411(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(358603411L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.level.pathfinder.PathType.WALKABLE);
     }
 
     @Inject(at = @At("HEAD"), method = "getStart()Lnet/minecraft/world/level/pathfinder/Node;", cancellable = true)
@@ -40,7 +40,7 @@ public class AmphibiousNodeEvaluator_1297129922Mixin {
     @Inject(at = @At("HEAD"), method = "getNeighbors([Lnet/minecraft/world/level/pathfinder/Node;Lnet/minecraft/world/level/pathfinder/Node;)I", cancellable = true)
     private void getNeighbors_648534738(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(648534738L))
-            info.setReturnValue(null);
+            info.setReturnValue(-848390076);
     }
 
 

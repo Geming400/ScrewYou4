@@ -10,7 +10,7 @@ public class AxolotlGroupData1315767873Mixin {
         @Inject(at = @At("HEAD"), method = "getVariant(Lnet/minecraft/util/RandomSource;)Lnet/minecraft/world/entity/animal/axolotl/Axolotl$Variant;", cancellable = true)
     private void getVariant_124578821(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(124578821L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.entity.animal.axolotl.Axolotl.Variant.WILD);
     }
 
 

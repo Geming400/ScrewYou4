@@ -10,7 +10,7 @@ public class DoorHingeSide1109440918Mixin {
         @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__26019553(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-26019553L))
-            info.setReturnValue(null);
+            info.setReturnValue("8&&a튃;6^vh!鳠tj&$*");
     }
 
     @Inject(at = @At("HEAD"), method = "values()[Lnet/minecraft/world/level/block/state/properties/DoorHingeSide;", cancellable = true)
@@ -22,13 +22,13 @@ public class DoorHingeSide1109440918Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/world/level/block/state/properties/DoorHingeSide;", cancellable = true)
     private static void valueOf__345125890(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-345125890L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.level.block.state.properties.DoorHingeSide.LEFT);
     }
 
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName__26019553(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-26019553L))
-            info.setReturnValue(null);
+            info.setReturnValue("8&&a튃;6^vh!鳠tj&$*");
     }
 
 

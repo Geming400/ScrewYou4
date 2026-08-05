@@ -16,25 +16,25 @@ public class AngleArgument_1568779454Mixin {
     @Inject(at = @At("HEAD"), method = "parse(Lcom/mojang/brigadier/StringReader;)Ljava/lang/Object;", cancellable = true)
     private void parse_1275397710(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1275397710L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getAngle(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)F", cancellable = true)
-    private static void getAngle_804817692(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(804817692L))
-            info.setReturnValue(null);
+            info.setReturnValue(new java.lang.Object());
     }
 
     @Inject(at = @At("HEAD"), method = "angle()Lnet/minecraft/commands/arguments/AngleArgument;", cancellable = true)
     private static void angle__1055460289(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1055460289L))
-            info.setReturnValue(null);
+            info.setReturnValue(new net.minecraft.commands.arguments.AngleArgument());
     }
 
     @Inject(at = @At("HEAD"), method = "getExamples()Ljava/util/Collection;", cancellable = true)
     private void getExamples__244868819(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-244868819L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getAngle(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)F", cancellable = true)
+    private static void getAngle_804817692(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(804817692L))
+            info.setReturnValue(9.16204E7F);
     }
 
 

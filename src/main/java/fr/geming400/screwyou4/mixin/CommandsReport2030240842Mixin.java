@@ -10,13 +10,13 @@ public class CommandsReport2030240842Mixin {
         @Inject(at = @At("HEAD"), method = "getName()Ljava/lang/String;", cancellable = true)
     private void getName_894780371(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(894780371L))
-            info.setReturnValue(null);
+            info.setReturnValue("_(Rᮩ/)>nM㪍aq\"l\"p-#{X<C lD`/;kt;LFw\"A|bD㓩uTj-%[+@Erg'M쬑e/h@=bK{+0");
     }
 
     @Inject(at = @At("HEAD"), method = "run(Lnet/minecraft/data/CachedOutput;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
     private void run__1538203996(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1538203996L))
-            info.setReturnValue(null);
+            info.setReturnValue(new java.util.concurrent.CompletableFuture());
     }
 
 

@@ -10,7 +10,7 @@ public class CropBlock_1266365681Mixin {
         @Inject(at = @At("HEAD"), method = "getAge(Lnet/minecraft/world/level/block/state/BlockState;)I", cancellable = true)
     private void getAge_1121060357(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1121060357L))
-            info.setReturnValue(null);
+            info.setReturnValue(279461818);
     }
 
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
@@ -28,13 +28,13 @@ public class CropBlock_1266365681Mixin {
     @Inject(at = @At("HEAD"), method = "isMaxAge(Lnet/minecraft/world/level/block/state/BlockState;)Z", cancellable = true)
     private void isMaxAge_1121077190(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1121077190L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "getMaxAge()I", cancellable = true)
     private void getMaxAge_1304627926(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1304627926L))
-            info.setReturnValue(null);
+            info.setReturnValue(-184071181);
     }
 
     @Inject(at = @At("HEAD"), method = "growCrops(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)V", cancellable = true)
@@ -46,19 +46,19 @@ public class CropBlock_1266365681Mixin {
     @Inject(at = @At("HEAD"), method = "isValidBonemealTarget(Lnet/minecraft/world/level/LevelReader;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Z", cancellable = true)
     private void isValidBonemealTarget_1311045438(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1311045438L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isBonemealSuccess(Lnet/minecraft/world/level/Level;Lnet/minecraft/util/RandomSource;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Z", cancellable = true)
+    private void isBonemealSuccess__706547463(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-706547463L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "performBonemeal(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/util/RandomSource;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)V", cancellable = true)
     private void performBonemeal__876600873(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-876600873L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "isBonemealSuccess(Lnet/minecraft/world/level/Level;Lnet/minecraft/util/RandomSource;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Z", cancellable = true)
-    private void isBonemealSuccess__706547463(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-706547463L))
-            info.setReturnValue(null);
     }
 
 

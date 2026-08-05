@@ -10,19 +10,19 @@ public class SavedDataType233436781Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_1618948544(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1618948544L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__902023690(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-902023690L))
-            info.setReturnValue(null);
+            info.setReturnValue("^+*酼ay9poT j@`쏸");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_271699027(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(271699027L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1930003882);
     }
 
     @Inject(at = @At("HEAD"), method = "constructor()Ljava/util/function/Supplier;", cancellable = true)
@@ -46,7 +46,7 @@ public class SavedDataType233436781Mixin {
     @Inject(at = @At("HEAD"), method = "dataFixType()Lnet/minecraft/util/datafix/DataFixTypes;", cancellable = true)
     private void dataFixType__806535962(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-806535962L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.util.datafix.DataFixTypes.DEBUG_PROFILE);
     }
 
 

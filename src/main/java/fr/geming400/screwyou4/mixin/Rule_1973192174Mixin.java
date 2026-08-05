@@ -10,19 +10,19 @@ public class Rule_1973192174Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__936262864(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-936262864L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_837732198(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(837732198L))
-            info.setReturnValue(null);
+            info.setReturnValue("/琤4MT{c鷫)rꮦ杮戅YඖA *f9:l<韩丛KwO*89?i'D!.S{Q$JW8j");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2011454915(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2011454915L))
-            info.setReturnValue(null);
+            info.setReturnValue(1259343898);
     }
 
     @Inject(at = @At("HEAD"), method = "blocks()Lnet/minecraft/core/HolderSet;", cancellable = true)
@@ -37,9 +37,9 @@ public class Rule_1973192174Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "minesAndDrops(Lnet/minecraft/core/HolderSet;F)Lnet/minecraft/world/item/component/Tool$Rule;", cancellable = true)
-    private static void minesAndDrops_2127642727(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2127642727L))
+    @Inject(at = @At("HEAD"), method = "deniesDrops(Lnet/minecraft/core/HolderSet;)Lnet/minecraft/world/item/component/Tool$Rule;", cancellable = true)
+    private static void deniesDrops__1778953261(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1778953261L))
             info.setReturnValue(null);
     }
 
@@ -49,15 +49,15 @@ public class Rule_1973192174Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "deniesDrops(Lnet/minecraft/core/HolderSet;)Lnet/minecraft/world/item/component/Tool$Rule;", cancellable = true)
-    private static void deniesDrops__1778953261(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1778953261L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "correctForDrops()Ljava/util/Optional;", cancellable = true)
     private void correctForDrops__2076313701(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2076313701L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "minesAndDrops(Lnet/minecraft/core/HolderSet;F)Lnet/minecraft/world/item/component/Tool$Rule;", cancellable = true)
+    private static void minesAndDrops_2127642727(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2127642727L))
             info.setReturnValue(null);
     }
 

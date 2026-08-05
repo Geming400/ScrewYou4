@@ -10,19 +10,19 @@ public class TextGizmo_1488970929Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1420484109(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1420484109L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_353510953(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(353510953L))
-            info.setReturnValue(null);
+            info.setReturnValue("D?}噿෬J㕇hY婷r<^&");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1527233670(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1527233670L))
-            info.setReturnValue(null);
+            info.setReturnValue(-2085821616);
     }
 
     @Inject(at = @At("HEAD"), method = "pos()Lnet/minecraft/world/phys/Vec3;", cancellable = true)
@@ -34,7 +34,7 @@ public class TextGizmo_1488970929Mixin {
     @Inject(at = @At("HEAD"), method = "text()Ljava/lang/String;", cancellable = true)
     private void text_353510457(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(353510457L))
-            info.setReturnValue(null);
+            info.setReturnValue("]&NfhtK!dQ$NJ1fy<ግ>ETE{s");
     }
 
     @Inject(at = @At("HEAD"), method = "style()Lnet/minecraft/gizmos/TextGizmo$Style;", cancellable = true)

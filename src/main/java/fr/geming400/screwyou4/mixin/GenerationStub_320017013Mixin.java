@@ -10,19 +10,19 @@ public class GenerationStub_320017013Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_1705529271(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1705529271L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__815442963(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-815442963L))
-            info.setReturnValue(null);
+            info.setReturnValue("JBZn?@ᰤw暒L*vm脒၈@AQ67zヺn]놂Wk(l쏃qN(uDFኇ%\"S|,");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_358279754(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(358279754L))
-            info.setReturnValue(null);
+            info.setReturnValue(652099766);
     }
 
     @Inject(at = @At("HEAD"), method = "position()Lnet/minecraft/core/BlockPos;", cancellable = true)
@@ -40,7 +40,7 @@ public class GenerationStub_320017013Mixin {
     @Inject(at = @At("HEAD"), method = "getPiecesBuilder()Lnet/minecraft/world/level/levelgen/structure/pieces/StructurePiecesBuilder;", cancellable = true)
     private void getPiecesBuilder_2019256280(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2019256280L))
-            info.setReturnValue(null);
+            info.setReturnValue(new net.minecraft.world.level.levelgen.structure.pieces.StructurePiecesBuilder());
     }
 
 

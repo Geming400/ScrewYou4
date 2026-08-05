@@ -16,13 +16,13 @@ public class UpgradeData_1316397288Mixin {
     @Inject(at = @At("HEAD"), method = "isEmpty()Z", cancellable = true)
     private void isEmpty_1354675870(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1354675870L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "write()Lnet/minecraft/nbt/CompoundTag;", cancellable = true)
     private void write__253825633(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-253825633L))
-            info.setReturnValue(null);
+            info.setReturnValue(new net.minecraft.nbt.CompoundTag());
     }
 
     @Inject(at = @At("HEAD"), method = "upgrade(Lnet/minecraft/world/level/chunk/LevelChunk;)V", cancellable = true)

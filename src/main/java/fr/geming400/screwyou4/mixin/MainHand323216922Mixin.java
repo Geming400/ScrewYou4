@@ -10,13 +10,13 @@ public class MainHand323216922Mixin {
         @Inject(at = @At("HEAD"), method = "get(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/client/multiplayer/ClientLevel;Lnet/minecraft/world/entity/LivingEntity;ILnet/minecraft/world/item/ItemDisplayContext;)Lnet/minecraft/world/entity/HumanoidArm;", cancellable = true)
     private void get__408065695(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-408065695L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.entity.HumanoidArm.LEFT);
     }
 
     @Inject(at = @At("HEAD"), method = "get(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/client/multiplayer/ClientLevel;Lnet/minecraft/world/entity/LivingEntity;ILnet/minecraft/world/item/ItemDisplayContext;)Ljava/lang/Object;", cancellable = true)
     private void get__613186862(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-613186862L))
-            info.setReturnValue(null);
+            info.setReturnValue(new java.lang.Object());
     }
 
     @Inject(at = @At("HEAD"), method = "type()Lnet/minecraft/client/renderer/item/properties/select/SelectItemModelProperty$Type;", cancellable = true)
@@ -28,19 +28,19 @@ public class MainHand323216922Mixin {
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_1708729181(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1708729181L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__812243053(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-812243053L))
-            info.setReturnValue(null);
+            info.setReturnValue("ab푌2G{^dWO87DFG4M]䔜d*x`괅Zu11 g%ꪥN9");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_361479664(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(361479664L))
-            info.setReturnValue(null);
+            info.setReturnValue(1277973301);
     }
 
     @Inject(at = @At("HEAD"), method = "valueCodec()Lcom/mojang/serialization/Codec;", cancellable = true)

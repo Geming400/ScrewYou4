@@ -10,7 +10,7 @@ public class IdDispatchCodec_2000988301Mixin {
         @Inject(at = @At("HEAD"), method = "decode(Ljava/lang/Object;)Ljava/lang/Object;", cancellable = true)
     private void decode_2013195211(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2013195211L))
-            info.setReturnValue(null);
+            info.setReturnValue(new java.lang.Object());
     }
 
     @Inject(at = @At("HEAD"), method = "decode(Lio/netty/buffer/ByteBuf;)Ljava/lang/Object;", cancellable = true)

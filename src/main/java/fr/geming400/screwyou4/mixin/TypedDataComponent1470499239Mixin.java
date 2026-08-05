@@ -22,19 +22,19 @@ public class TypedDataComponent1470499239Mixin {
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1438955798(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1438955798L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_335038768(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(335038768L))
-            info.setReturnValue(null);
+            info.setReturnValue("o$5H'AzC8N$F}=%!8GwEFtfGs:.Mᯟ}G拈o:cHp1 /sk@jdBhqkA8묞p%BjfˈL[{睖씛pƢ)qUr췎Qu㌢Y+눬|跫XvtKCQS/:땏ꄆA");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1508761981(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1508761981L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1356051708);
     }
 
     @Inject(at = @At("HEAD"), method = "encodeValue(Lcom/mojang/serialization/DynamicOps;)Lcom/mojang/serialization/DataResult;", cancellable = true)
@@ -43,16 +43,16 @@ public class TypedDataComponent1470499239Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "createUnchecked(Lnet/minecraft/core/component/DataComponentType;Ljava/lang/Object;)Lnet/minecraft/core/component/TypedDataComponent;", cancellable = true)
-    private static void createUnchecked__1069817064(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1069817064L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "applyTo(Lnet/minecraft/core/component/PatchedDataComponentMap;)V", cancellable = true)
     private void applyTo_954168167(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(954168167L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "createUnchecked(Lnet/minecraft/core/component/DataComponentType;Ljava/lang/Object;)Lnet/minecraft/core/component/TypedDataComponent;", cancellable = true)
+    private static void createUnchecked__1069817064(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1069817064L))
+            info.setReturnValue(null);
     }
 
 

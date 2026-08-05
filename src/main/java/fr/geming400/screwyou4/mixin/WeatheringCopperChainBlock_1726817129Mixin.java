@@ -16,7 +16,7 @@ public class WeatheringCopperChainBlock_1726817129Mixin {
     @Inject(at = @At("HEAD"), method = "getAge()Lnet/minecraft/world/level/block/WeatheringCopper$WeatherState;", cancellable = true)
     private void getAge__1980966256(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1980966256L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.level.block.WeatheringCopper.WeatherState.WEATHERED);
     }
 
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)

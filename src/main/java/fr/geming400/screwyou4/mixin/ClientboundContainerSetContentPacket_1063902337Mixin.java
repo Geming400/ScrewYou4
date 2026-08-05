@@ -16,19 +16,19 @@ public class ClientboundContainerSetContentPacket_1063902337Mixin {
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1845552701(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1845552701L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__71557639(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-71557639L))
-            info.setReturnValue(null);
+            info.setReturnValue("@쯂'튁'T 竍f+刼W'z'@");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1102165078(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1102165078L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1273554163);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/PacketListener;)V", cancellable = true)
@@ -49,22 +49,22 @@ public class ClientboundContainerSetContentPacket_1063902337Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "carriedItem()Lnet/minecraft/world/item/ItemStack;", cancellable = true)
+    private void carriedItem_1587320996(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1587320996L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "stateId()I", cancellable = true)
     private void stateId_1102164582(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1102164582L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1095030674);
     }
 
     @Inject(at = @At("HEAD"), method = "containerId()I", cancellable = true)
     private void containerId_1102164582(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1102164582L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "carriedItem()Lnet/minecraft/world/item/ItemStack;", cancellable = true)
-    private void carriedItem_1587320996(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1587320996L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1095030674);
     }
 
 

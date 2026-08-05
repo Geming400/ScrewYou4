@@ -10,7 +10,7 @@ public class SetOnceOptionState290496721Mixin {
         @Inject(at = @At("HEAD"), method = "canParse()Z", cancellable = true)
     private void canParse_328775304(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(328775304L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "markParsed()V", cancellable = true)

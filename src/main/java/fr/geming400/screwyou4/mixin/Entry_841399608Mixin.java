@@ -16,25 +16,25 @@ public class Entry_841399608Mixin {
     @Inject(at = @At("HEAD"), method = "name()Ljava/lang/String;", cancellable = true)
     private void name__294060864(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-294060864L))
-            info.setReturnValue(null);
+            info.setReturnValue(";D꺗L(.댨C䠑$Y`Mm3|qf$");
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__2068055430(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2068055430L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__294060368(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-294060368L))
-            info.setReturnValue(null);
+            info.setReturnValue("7V?夠X評S=놰Z#<L2=s*Qܗ;GXb:?n0<|DL6hJ/0;u輭⢎(\"伜?C+h(d^n],#U<OB%侟o:m卮^pv\"mX*p");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_879662349(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(879662349L))
-            info.setReturnValue(null);
+            info.setReturnValue(227936231);
     }
 
     @Inject(at = @At("HEAD"), method = "write(Lnet/minecraft/network/FriendlyByteBuf;)V", cancellable = true)

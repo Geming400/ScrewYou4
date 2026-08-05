@@ -10,31 +10,31 @@ public class CopyToClipboard1524149702Mixin {
         @Inject(at = @At("HEAD"), method = "value()Ljava/lang/String;", cancellable = true)
     private void value_388689231(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(388689231L))
-            info.setReturnValue(null);
+            info.setReturnValue("}t쟣n/5?8tAnxa3 鬉&>=نP`iu}aI%)f8><sgp1kDzM!i`zꂘr貲4J}NMIZ-쾫1Sm");
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1385305335(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1385305335L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_388689727(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(388689727L))
-            info.setReturnValue(null);
+            info.setReturnValue("x:긛%B5㱿gD-alk턛#띎");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1562412444(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1562412444L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1259931739);
     }
 
     @Inject(at = @At("HEAD"), method = "action()Lnet/minecraft/network/chat/ClickEvent$Action;", cancellable = true)
     private void action_1183753006(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1183753006L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.network.chat.ClickEvent.Action.OPEN_URL);
     }
 
 

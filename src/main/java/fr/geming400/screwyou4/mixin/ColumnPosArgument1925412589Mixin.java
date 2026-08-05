@@ -10,7 +10,7 @@ public class ColumnPosArgument1925412589Mixin {
         @Inject(at = @At("HEAD"), method = "parse(Lcom/mojang/brigadier/StringReader;)Ljava/lang/Object;", cancellable = true)
     private void parse_1632030846(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1632030846L))
-            info.setReturnValue(null);
+            info.setReturnValue(new java.lang.Object());
     }
 
     @Inject(at = @At("HEAD"), method = "parse(Lcom/mojang/brigadier/StringReader;)Lnet/minecraft/commands/arguments/coordinates/Coordinates;", cancellable = true)
@@ -19,22 +19,22 @@ public class ColumnPosArgument1925412589Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "listSuggestions(Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
-    private void listSuggestions__2128631265(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2128631265L))
+    @Inject(at = @At("HEAD"), method = "getColumnPos(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/server/level/ColumnPos;", cancellable = true)
+    private static void getColumnPos_547945908(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(547945908L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "columnPos()Lnet/minecraft/commands/arguments/coordinates/ColumnPosArgument;", cancellable = true)
     private static void columnPos__1754510120(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1754510120L))
-            info.setReturnValue(null);
+            info.setReturnValue(new net.minecraft.commands.arguments.coordinates.ColumnPosArgument());
     }
 
-    @Inject(at = @At("HEAD"), method = "getColumnPos(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/server/level/ColumnPos;", cancellable = true)
-    private static void getColumnPos_547945908(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(547945908L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "listSuggestions(Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
+    private void listSuggestions__2128631265(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2128631265L))
+            info.setReturnValue(new java.util.concurrent.CompletableFuture());
     }
 
     @Inject(at = @At("HEAD"), method = "getExamples()Ljava/util/Collection;", cancellable = true)

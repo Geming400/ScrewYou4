@@ -28,19 +28,19 @@ public class ClientboundMountScreenOpenPacket1723359142Mixin {
     @Inject(at = @At("HEAD"), method = "getInventoryColumns()I", cancellable = true)
     private void getInventoryColumns_1761621388(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1761621388L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getContainerId()I", cancellable = true)
-    private void getContainerId_1761621388(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1761621388L))
-            info.setReturnValue(null);
+            info.setReturnValue(1135275358);
     }
 
     @Inject(at = @At("HEAD"), method = "getEntityId()I", cancellable = true)
     private void getEntityId_1761621388(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1761621388L))
-            info.setReturnValue(null);
+            info.setReturnValue(1135275358);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getContainerId()I", cancellable = true)
+    private void getContainerId_1761621388(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1761621388L))
+            info.setReturnValue(1135275358);
     }
 
 

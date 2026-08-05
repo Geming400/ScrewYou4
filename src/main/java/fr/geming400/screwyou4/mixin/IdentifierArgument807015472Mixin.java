@@ -10,7 +10,7 @@ public class IdentifierArgument807015472Mixin {
         @Inject(at = @At("HEAD"), method = "id()Lnet/minecraft/commands/arguments/IdentifierArgument;", cancellable = true)
     private static void id_2098991162(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2098991162L))
-            info.setReturnValue(null);
+            info.setReturnValue(new net.minecraft.commands.arguments.IdentifierArgument());
     }
 
     @Inject(at = @At("HEAD"), method = "getId(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/resources/Identifier;", cancellable = true)
@@ -22,7 +22,7 @@ public class IdentifierArgument807015472Mixin {
     @Inject(at = @At("HEAD"), method = "parse(Lcom/mojang/brigadier/StringReader;)Ljava/lang/Object;", cancellable = true)
     private void parse_513633729(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(513633729L))
-            info.setReturnValue(null);
+            info.setReturnValue(new java.lang.Object());
     }
 
     @Inject(at = @At("HEAD"), method = "parse(Lcom/mojang/brigadier/StringReader;)Lnet/minecraft/resources/Identifier;", cancellable = true)

@@ -22,13 +22,13 @@ public class TheEndPortalRenderer_1300294501Mixin {
     @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/blockentity/state/EndPortalRenderState;", cancellable = true)
     private void createRenderState__1702836091(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1702836091L))
-            info.setReturnValue(null);
+            info.setReturnValue(new net.minecraft.client.renderer.blockentity.state.EndPortalRenderState());
     }
 
     @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/blockentity/state/BlockEntityRenderState;", cancellable = true)
     private void createRenderState__1860700370(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1860700370L))
-            info.setReturnValue(null);
+            info.setReturnValue(new net.minecraft.client.renderer.blockentity.state.BlockEntityRenderState());
     }
 
 

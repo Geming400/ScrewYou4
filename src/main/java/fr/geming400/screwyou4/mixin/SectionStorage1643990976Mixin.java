@@ -19,12 +19,6 @@ public class SectionStorage1643990976Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "hasWork()Z", cancellable = true)
-    private void hasWork_1682269559(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1682269559L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "flushAll()V", cancellable = true)
     private void flushAll_1682265715(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1682265715L))
@@ -35,6 +29,12 @@ public class SectionStorage1643990976Mixin {
     private void prefetch__1262909327(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1262909327L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "hasWork()Z", cancellable = true)
+    private void hasWork_1682269559(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1682269559L))
+            info.setReturnValue(true);
     }
 
 

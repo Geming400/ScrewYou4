@@ -16,19 +16,19 @@ public class FaceInfo_2016450879Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/client/renderer/FaceInfo;", cancellable = true)
     private static void valueOf__1686866605(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1686866605L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "fromFacing(Lnet/minecraft/core/Direction;)Lnet/minecraft/client/renderer/FaceInfo;", cancellable = true)
-    private static void fromFacing__932056815(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-932056815L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.client.renderer.FaceInfo.WEST);
     }
 
     @Inject(at = @At("HEAD"), method = "getVertexInfo(I)Lnet/minecraft/client/renderer/FaceInfo$VertexInfo;", cancellable = true)
     private void getVertexInfo__1854836020(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1854836020L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "fromFacing(Lnet/minecraft/core/Direction;)Lnet/minecraft/client/renderer/FaceInfo;", cancellable = true)
+    private static void fromFacing__932056815(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-932056815L))
+            info.setReturnValue(net.minecraft.client.renderer.FaceInfo.NORTH);
     }
 
 

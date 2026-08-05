@@ -16,19 +16,19 @@ public class ClientboundCodeOfConductPacket_196956625Mixin {
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_1582468883(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1582468883L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__938503351(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-938503351L))
-            info.setReturnValue(null);
+            info.setReturnValue("'Y]q)^d?1m;w3tOw>w쌏9x-/3ュ7뜼!{Zu^VmF");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_235219366(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(235219366L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1485960519);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/PacketListener;)V", cancellable = true)
@@ -46,7 +46,7 @@ public class ClientboundCodeOfConductPacket_196956625Mixin {
     @Inject(at = @At("HEAD"), method = "codeOfConduct()Ljava/lang/String;", cancellable = true)
     private void codeOfConduct__938503847(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-938503847L))
-            info.setReturnValue(null);
+            info.setReturnValue("Z?.!+7V<ie+c!`+x窝elro4Qu;h&횳*m雰XV$;AL|y0alhp");
     }
 
 

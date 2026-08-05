@@ -10,31 +10,31 @@ public class CrumblingOverlay1344642205Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1564812832(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1564812832L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_209182230(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(209182230L))
-            info.setReturnValue(null);
+            info.setReturnValue("pf蚈4=Zt㏀b2}iviL`D8us");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1382904947(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1382904947L))
-            info.setReturnValue(null);
+            info.setReturnValue(-834238450);
     }
 
     @Inject(at = @At("HEAD"), method = "progress()I", cancellable = true)
     private void progress_1382904451(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1382904451L))
-            info.setReturnValue(null);
+            info.setReturnValue(-557219242);
     }
 
     @Inject(at = @At("HEAD"), method = "cameraPose()Lcom/mojang/blaze3d/vertex/PoseStack$Pose;", cancellable = true)
     private void cameraPose__744678195(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-744678195L))
-            info.setReturnValue(null);
+            info.setReturnValue(new com.mojang.blaze3d.vertex.PoseStack$Pose());
     }
 
 

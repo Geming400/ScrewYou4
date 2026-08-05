@@ -16,13 +16,13 @@ public class ReportType2017120962Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/client/multiplayer/chat/report/ReportType;", cancellable = true)
     private static void valueOf_777039057(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(777039057L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.client.multiplayer.chat.report.ReportType.CHAT);
     }
 
     @Inject(at = @At("HEAD"), method = "backendName()Ljava/lang/String;", cancellable = true)
     private void backendName_881660491(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(881660491L))
-            info.setReturnValue(null);
+            info.setReturnValue("Vud缺$zdC=E쓿zp,Ejm1^i묗");
     }
 
 

@@ -16,19 +16,19 @@ public class ClientboundGameTestHighlightPosPacket766197953Mixin {
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__2143257084(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2143257084L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__369262022(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-369262022L))
-            info.setReturnValue(null);
+            info.setReturnValue("Gu10]b㥤+쬦Z*:0OC곕_.?籢z;EZ");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_804460695(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(804460695L))
-            info.setReturnValue(null);
+            info.setReturnValue(1993654072);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/PacketListener;)V", cancellable = true)
@@ -43,14 +43,14 @@ public class ClientboundGameTestHighlightPosPacket766197953Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "absolutePos()Lnet/minecraft/core/BlockPos;", cancellable = true)
-    private void absolutePos__1127188926(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "relativePos()Lnet/minecraft/core/BlockPos;", cancellable = true)
+    private void relativePos__1127188926(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1127188926L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "relativePos()Lnet/minecraft/core/BlockPos;", cancellable = true)
-    private void relativePos__1127188926(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "absolutePos()Lnet/minecraft/core/BlockPos;", cancellable = true)
+    private void absolutePos__1127188926(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1127188926L))
             info.setReturnValue(null);
     }

@@ -13,15 +13,15 @@ public class Builder_1468567528Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "addHumanoidLayers(Lnet/minecraft/resources/Identifier;Z)Lnet/minecraft/client/resources/model/EquipmentClientInfo$Builder;", cancellable = true)
-    private void addHumanoidLayers__2021658795(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2021658795L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "addHumanoidLayers(Lnet/minecraft/resources/Identifier;)Lnet/minecraft/client/resources/model/EquipmentClientInfo$Builder;", cancellable = true)
     private void addHumanoidLayers__888084465(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-888084465L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "addHumanoidLayers(Lnet/minecraft/resources/Identifier;Z)Lnet/minecraft/client/resources/model/EquipmentClientInfo$Builder;", cancellable = true)
+    private void addHumanoidLayers__2021658795(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2021658795L))
             info.setReturnValue(null);
     }
 

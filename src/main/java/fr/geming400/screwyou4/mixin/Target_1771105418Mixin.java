@@ -16,7 +16,7 @@ public class Target_1771105418Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/world/level/storage/loot/functions/SetNameFunction$Target;", cancellable = true)
     private static void valueOf__320471372(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-320471372L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.level.storage.loot.functions.SetNameFunction.Target.CUSTOM_NAME);
     }
 
     @Inject(at = @At("HEAD"), method = "component()Lnet/minecraft/core/component/DataComponentType;", cancellable = true)
@@ -28,7 +28,7 @@ public class Target_1771105418Mixin {
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName_635644946(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(635644946L))
-            info.setReturnValue(null);
+            info.setReturnValue("/Os?鏋Ⱃx>놤U=㊖s {Cbⷨ+眠qR,F2X0hxJ4cM^SjꩠoA");
     }
 
 

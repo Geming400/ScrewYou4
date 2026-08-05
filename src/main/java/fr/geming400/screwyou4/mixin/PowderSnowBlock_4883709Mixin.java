@@ -13,10 +13,10 @@ public class PowderSnowBlock_4883709Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getPickupSound()Ljava/util/Optional;", cancellable = true)
-    private void getPickupSound_250345130(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(250345130L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "canEntityWalkOnPowderSnow(Lnet/minecraft/world/entity/Entity;)Z", cancellable = true)
+    private static void canEntityWalkOnPowderSnow__446836860(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-446836860L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "fallOn(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/Entity;D)V", cancellable = true)
@@ -25,9 +25,9 @@ public class PowderSnowBlock_4883709Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "canEntityWalkOnPowderSnow(Lnet/minecraft/world/entity/Entity;)Z", cancellable = true)
-    private static void canEntityWalkOnPowderSnow__446836860(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-446836860L))
+    @Inject(at = @At("HEAD"), method = "getPickupSound()Ljava/util/Optional;", cancellable = true)
+    private void getPickupSound_250345130(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(250345130L))
             info.setReturnValue(null);
     }
 

@@ -16,25 +16,25 @@ public class UntrustedEntry1747586942Mixin {
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1161868095(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1161868095L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_612126967(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(612126967L))
-            info.setReturnValue(null);
+            info.setReturnValue("ZPu<57'醽n;쌺y=>=Hh]曭]%5M3WS忟IpYᴧP5翦1慺[7j^$摳t9큅");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1785849684(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1785849684L))
-            info.setReturnValue(null);
+            info.setReturnValue(-738948134);
     }
 
     @Inject(at = @At("HEAD"), method = "link()Ljava/lang/String;", cancellable = true)
     private void link_612126471(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(612126471L))
-            info.setReturnValue(null);
+            info.setReturnValue("#");
     }
 
 

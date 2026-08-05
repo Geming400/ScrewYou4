@@ -13,9 +13,9 @@ public class WorldPresets_2124988068Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "createTestWorldDimensions(Lnet/minecraft/core/HolderLookup$Provider;)Lnet/minecraft/world/level/levelgen/WorldDimensions;", cancellable = true)
-    private static void createTestWorldDimensions__1769171083(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1769171083L))
+    @Inject(at = @At("HEAD"), method = "getNormalOverworld(Lnet/minecraft/core/HolderLookup$Provider;)Lnet/minecraft/world/level/dimension/LevelStem;", cancellable = true)
+    private static void getNormalOverworld__1170286445(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1170286445L))
             info.setReturnValue(null);
     }
 
@@ -25,15 +25,15 @@ public class WorldPresets_2124988068Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "createNormalWorldDimensions(Lnet/minecraft/core/HolderLookup$Provider;)Lnet/minecraft/world/level/levelgen/WorldDimensions;", cancellable = true)
-    private static void createNormalWorldDimensions__1769171083(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "createTestWorldDimensions(Lnet/minecraft/core/HolderLookup$Provider;)Lnet/minecraft/world/level/levelgen/WorldDimensions;", cancellable = true)
+    private static void createTestWorldDimensions__1769171083(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1769171083L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getNormalOverworld(Lnet/minecraft/core/HolderLookup$Provider;)Lnet/minecraft/world/level/dimension/LevelStem;", cancellable = true)
-    private static void getNormalOverworld__1170286445(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1170286445L))
+    @Inject(at = @At("HEAD"), method = "createNormalWorldDimensions(Lnet/minecraft/core/HolderLookup$Provider;)Lnet/minecraft/world/level/levelgen/WorldDimensions;", cancellable = true)
+    private static void createNormalWorldDimensions__1769171083(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1769171083L))
             info.setReturnValue(null);
     }
 

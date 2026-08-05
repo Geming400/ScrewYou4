@@ -16,7 +16,7 @@ public class PitchDirection2026389686Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/world/waypoints/TrackedWaypoint$PitchDirection;", cancellable = true)
     private static void valueOf_1923146924(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1923146924L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.waypoints.TrackedWaypoint.PitchDirection.DOWN);
     }
 
 

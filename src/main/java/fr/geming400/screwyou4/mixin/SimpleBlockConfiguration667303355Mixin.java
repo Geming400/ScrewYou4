@@ -10,25 +10,25 @@ public class SimpleBlockConfiguration667303355Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_2052815614(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2052815614L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__468156620(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-468156620L))
-            info.setReturnValue(null);
+            info.setReturnValue("V<aC*Zfcy?颗赘,b8k尫%6%U'6∥F'e簾bFBh⥻UE8|G<;a4qSw-=KM+8*");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_705566097(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(705566097L))
-            info.setReturnValue(null);
+            info.setReturnValue(-637619746);
     }
 
     @Inject(at = @At("HEAD"), method = "scheduleTick()Z", cancellable = true)
     private void scheduleTick_705581938(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(705581938L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toPlace()Lnet/minecraft/world/level/levelgen/feature/stateproviders/BlockStateProvider;", cancellable = true)

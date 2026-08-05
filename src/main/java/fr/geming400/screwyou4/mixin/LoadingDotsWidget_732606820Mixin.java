@@ -10,7 +10,7 @@ public class LoadingDotsWidget_732606820Mixin {
         @Inject(at = @At("HEAD"), method = "isActive()Z", cancellable = true)
     private void isActive_770885402(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(770885402L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "playDownSound(Lnet/minecraft/client/sounds/SoundManager;)V", cancellable = true)

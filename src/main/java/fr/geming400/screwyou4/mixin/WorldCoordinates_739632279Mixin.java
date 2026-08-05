@@ -10,19 +10,19 @@ public class WorldCoordinates_739632279Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_2125144537(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2125144537L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__395827697(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-395827697L))
-            info.setReturnValue(null);
+            info.setReturnValue("b[*0専䴼<$<[B1ퟗ}6s#?[t腮:V\"vWwk*2%o6J$+cX4tk'p䪐[*a>'yF !ꁏS^V(Vf2[z;2BQ払슿M,F}0>Gj餩9zV;2ﱄz蛓#*/");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_777895020(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(777895020L))
-            info.setReturnValue(null);
+            info.setReturnValue(-333115092);
     }
 
     @Inject(at = @At("HEAD"), method = "x()Lnet/minecraft/commands/arguments/coordinates/WorldCoordinate;", cancellable = true)
@@ -79,22 +79,22 @@ public class WorldCoordinates_739632279Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "isYRelative()Z", cancellable = true)
-    private void isYRelative_777910861(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(777910861L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "isXRelative()Z", cancellable = true)
     private void isXRelative_777910861(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(777910861L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "isZRelative()Z", cancellable = true)
     private void isZRelative_777910861(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(777910861L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isYRelative()Z", cancellable = true)
+    private void isYRelative_777910861(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(777910861L))
+            info.setReturnValue(false);
     }
 
 

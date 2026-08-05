@@ -28,7 +28,7 @@ public class EnvironmentAttributeSystem128999338Mixin {
     @Inject(at = @At("HEAD"), method = "getDimensionValue(Lnet/minecraft/world/attribute/EnvironmentAttribute;)Ljava/lang/Object;", cancellable = true)
     private void getDimensionValue__650829853(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-650829853L))
-            info.setReturnValue(null);
+            info.setReturnValue(new java.lang.Object());
     }
 
 

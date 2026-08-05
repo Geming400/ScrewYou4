@@ -16,7 +16,7 @@ public class Level564513962Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/world/entity/Crackiness$Level;", cancellable = true)
     private static void valueOf__1078442705(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1078442705L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.entity.Crackiness.Level.LOW);
     }
 
 

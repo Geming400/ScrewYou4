@@ -16,13 +16,13 @@ public class Type_390748905Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/world/item/component/ItemAttributeModifiers$Display$Type;", cancellable = true)
     private static void valueOf__162642732(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-162642732L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.item.component.ItemAttributeModifiers.Display.Type.HIDDEN);
     }
 
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName__744711567(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-744711567L))
-            info.setReturnValue(null);
+            info.setReturnValue("㶛㞓%N乒K?jjGW%각4@{K_퍳IZbn4Vv<tE0]%_镭$LI=9Ᏹ{ꐼuKB⅊3㳜m0lE[>IR墪D8B;m,凎喕DtOqP8>4/H-#蠮N*4b6퓔*");
     }
 
 

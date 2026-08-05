@@ -10,7 +10,7 @@ public class RegistryFileCodec_1611496129Mixin {
         @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_476035657(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(476035657L))
-            info.setReturnValue(null);
+            info.setReturnValue("mV7");
     }
 
     @Inject(at = @At("HEAD"), method = "decode(Lcom/mojang/serialization/DynamicOps;Ljava/lang/Object;)Lcom/mojang/serialization/DataResult;", cancellable = true)

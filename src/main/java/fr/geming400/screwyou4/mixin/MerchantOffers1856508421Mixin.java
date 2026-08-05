@@ -10,7 +10,7 @@ public class MerchantOffers1856508421Mixin {
         @Inject(at = @At("HEAD"), method = "copy()Lnet/minecraft/world/item/trading/MerchantOffers;", cancellable = true)
     private void copy_1053197105(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1053197105L))
-            info.setReturnValue(null);
+            info.setReturnValue(new net.minecraft.world.item.trading.MerchantOffers());
     }
 
     @Inject(at = @At("HEAD"), method = "getRecipeFor(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/ItemStack;I)Lnet/minecraft/world/item/trading/MerchantOffer;", cancellable = true)

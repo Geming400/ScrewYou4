@@ -10,7 +10,7 @@ public class I18n_288289688Mixin {
         @Inject(at = @At("HEAD"), method = "get(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;", cancellable = true)
     private static void get_398335259(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(398335259L))
-            info.setReturnValue(null);
+            info.setReturnValue("p&J!躭=6o ..ao1>1[匄0b<=zF@YHwB#x{;全# 祛r-:Q'髴j{./J⪸*?h蜳*Es얊knEnMZtM?.h/ᗬ讻? /\"?Xh6ꌢuA\"낕)D9");
     }
 
 

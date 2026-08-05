@@ -16,7 +16,7 @@ public class Type807835337Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/client/renderer/entity/DonkeyRenderer$Type;", cancellable = true)
     private static void valueOf__1972688010(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1972688010L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.client.renderer.entity.DonkeyRenderer.Type.MULE);
     }
 
 

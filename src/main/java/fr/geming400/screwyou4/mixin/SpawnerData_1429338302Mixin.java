@@ -16,31 +16,31 @@ public class SpawnerData_1429338302Mixin {
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1480116736(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1480116736L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_293877830(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(293877830L))
-            info.setReturnValue(null);
+            info.setReturnValue("獡2B{}Zh`톣矹K쫷)@8{&");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1467601043(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1467601043L))
-            info.setReturnValue(null);
+            info.setReturnValue(1765769016);
     }
 
     @Inject(at = @At("HEAD"), method = "maxCount()I", cancellable = true)
     private void maxCount_1467600547(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1467600547L))
-            info.setReturnValue(null);
+            info.setReturnValue(368361011);
     }
 
     @Inject(at = @At("HEAD"), method = "minCount()I", cancellable = true)
     private void minCount_1467600547(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1467600547L))
-            info.setReturnValue(null);
+            info.setReturnValue(368361011);
     }
 
 

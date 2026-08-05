@@ -10,31 +10,31 @@ public class DamageSourcePredicate_1607986385Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1301468653(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1301468653L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_472526409(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(472526409L))
-            info.setReturnValue(null);
+            info.setReturnValue("0乌ٌ#y5|㹵M[x냑Z뮘C7?bk#`q稯)ox`S_ᶓ%;g.vs.");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1646249126(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1646249126L))
-            info.setReturnValue(null);
+            info.setReturnValue(-167539592);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/server/level/ServerPlayer;Lnet/minecraft/world/damagesource/DamageSource;)Z", cancellable = true)
     private void matches_161988112(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(161988112L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/world/damagesource/DamageSource;)Z", cancellable = true)
     private void matches_1077365989(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1077365989L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "isDirect()Ljava/util/Optional;", cancellable = true)

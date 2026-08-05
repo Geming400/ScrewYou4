@@ -10,7 +10,7 @@ public class FoliageColor_964200020Mixin {
         @Inject(at = @At("HEAD"), method = "get(DD)I", cancellable = true)
     private static void get__179455055(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-179455055L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1055238108);
     }
 
     @Inject(at = @At("HEAD"), method = "init([I)V", cancellable = true)

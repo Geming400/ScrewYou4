@@ -16,25 +16,25 @@ public class AddValue970362066Mixin {
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1939092971(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1939092971L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__165097909(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-165097909L))
-            info.setReturnValue(null);
+            info.setReturnValue("s8葍SXAt6_g[fbLN[l6*2,ઉD㮸Wtv=r!Hz*Uw]DKG*qSp&MACྫྷz9m.1TuE1<H<ẹ=fBK");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1008624808(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1008624808L))
-            info.setReturnValue(null);
+            info.setReturnValue(-2136942426);
     }
 
     @Inject(at = @At("HEAD"), method = "process(ILnet/minecraft/util/RandomSource;F)F", cancellable = true)
     private void process_1861954052(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1861954052L))
-            info.setReturnValue(null);
+            info.setReturnValue(5.605259E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)

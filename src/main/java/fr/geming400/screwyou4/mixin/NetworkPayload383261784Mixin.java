@@ -10,13 +10,13 @@ public class NetworkPayload383261784Mixin {
         @Inject(at = @At("HEAD"), method = "size()I", cancellable = true)
     private void size_421524030(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(421524030L))
-            info.setReturnValue(null);
+            info.setReturnValue(-781004118);
     }
 
     @Inject(at = @At("HEAD"), method = "isEmpty()Z", cancellable = true)
     private void isEmpty_421540367(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(421540367L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "resolve(Lnet/minecraft/core/Registry;)Lnet/minecraft/tags/TagLoader$LoadResult;", cancellable = true)

@@ -10,31 +10,31 @@ public class CustomSpawnRules_957009594Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1952445444(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1952445444L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__178450382(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-178450382L))
-            info.setReturnValue(null);
+            info.setReturnValue("@拔iO9崉瘏HeZ;≂EAC枓dl멨ꖔ#&f /to7撌");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_995272335(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(995272335L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isValidPosition(Lnet/minecraft/core/BlockPos;Lnet/minecraft/server/level/ServerLevel;)Z", cancellable = true)
-    private void isValidPosition_240863253(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(240863253L))
-            info.setReturnValue(null);
+            info.setReturnValue(1921429252);
     }
 
     @Inject(at = @At("HEAD"), method = "skyLightLimit()Lnet/minecraft/util/InclusiveRange;", cancellable = true)
     private void skyLightLimit_340018739(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(340018739L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isValidPosition(Lnet/minecraft/core/BlockPos;Lnet/minecraft/server/level/ServerLevel;)Z", cancellable = true)
+    private void isValidPosition_240863253(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(240863253L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "blockLightLimit()Lnet/minecraft/util/InclusiveRange;", cancellable = true)

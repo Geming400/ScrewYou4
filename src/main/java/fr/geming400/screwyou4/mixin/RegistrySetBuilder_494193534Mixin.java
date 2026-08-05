@@ -10,13 +10,13 @@ public class RegistrySetBuilder_494193534Mixin {
         @Inject(at = @At("HEAD"), method = "add(Lnet/minecraft/resources/ResourceKey;Lnet/minecraft/core/RegistrySetBuilder$RegistryBootstrap;)Lnet/minecraft/core/RegistrySetBuilder;", cancellable = true)
     private void add_998101475(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(998101475L))
-            info.setReturnValue(null);
+            info.setReturnValue(new net.minecraft.core.RegistrySetBuilder());
     }
 
     @Inject(at = @At("HEAD"), method = "add(Lnet/minecraft/resources/ResourceKey;Lcom/mojang/serialization/Lifecycle;Lnet/minecraft/core/RegistrySetBuilder$RegistryBootstrap;)Lnet/minecraft/core/RegistrySetBuilder;", cancellable = true)
     private void add__2037493744(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2037493744L))
-            info.setReturnValue(null);
+            info.setReturnValue(new net.minecraft.core.RegistrySetBuilder());
     }
 
     @Inject(at = @At("HEAD"), method = "build(Lnet/minecraft/core/RegistryAccess;)Lnet/minecraft/core/HolderLookup$Provider;", cancellable = true)

@@ -16,13 +16,13 @@ public class ServerType_1348376151Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/client/telemetry/TelemetryProperty$ServerType;", cancellable = true)
     private static void valueOf__1366118205(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1366118205L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.client.telemetry.TelemetryProperty.ServerType.REALM);
     }
 
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName_212915679(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(212915679L))
-            info.setReturnValue(null);
+            info.setReturnValue("IV2c;Lb웧<[/᭝P崃y蔣x浒耗{^\"捾Cp郗51%Aa3 갔4睬7^'OKD[Ix|>Nfg(?p㸞pkS2B?ld>@ cz[p韛-V(̥し%m[짽M|eK3sjP[6계");
     }
 
 

@@ -16,25 +16,25 @@ public class ClientboundPongResponsePacket_203180970Mixin {
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_1588693228(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1588693228L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__932279006(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-932279006L))
-            info.setReturnValue(null);
+            info.setReturnValue("!-'H7(q:ꭊW0hfEQq1qi3WQ?AiHhB疕");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_241443711(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(241443711L))
-            info.setReturnValue(null);
+            info.setReturnValue(463231122);
     }
 
     @Inject(at = @At("HEAD"), method = "time()J", cancellable = true)
     private void time_241444176(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(241444176L))
-            info.setReturnValue(null);
+            info.setReturnValue(-2060243040745098378L);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/PacketListener;)V", cancellable = true)

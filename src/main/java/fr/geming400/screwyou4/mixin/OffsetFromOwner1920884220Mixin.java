@@ -10,19 +10,19 @@ public class OffsetFromOwner1920884220Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__988570817(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-988570817L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_785424245(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(785424245L))
-            info.setReturnValue(null);
+            info.setReturnValue("aQ$}%[開9W+p0o^A<N3#yELNDNC)QH%y#*");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1959146962(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1959146962L))
-            info.setReturnValue(null);
+            info.setReturnValue(1461590613);
     }
 
     @Inject(at = @At("HEAD"), method = "position()Lnet/minecraft/world/phys/Vec3;", cancellable = true)
@@ -52,7 +52,7 @@ public class OffsetFromOwner1920884220Mixin {
     @Inject(at = @At("HEAD"), method = "getVisualRotationYInDegrees()F", cancellable = true)
     private void getVisualRotationYInDegrees_1959143583(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1959143583L))
-            info.setReturnValue(null);
+            info.setReturnValue(4.02413E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "asLivingEntity()Lnet/minecraft/world/entity/LivingEntity;", cancellable = true)

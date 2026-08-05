@@ -13,6 +13,12 @@ public class ComponentArgument1537487084Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "getRawComponent(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/network/chat/Component;", cancellable = true)
+    private static void getRawComponent_492259891(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(492259891L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "getResolvedComponent(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/network/chat/Component;", cancellable = true)
     private static void getResolvedComponent__759394046(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-759394046L))
@@ -28,12 +34,6 @@ public class ComponentArgument1537487084Mixin {
     @Inject(at = @At("HEAD"), method = "getExamples()Ljava/util/Collection;", cancellable = true)
     private void getExamples__276161188(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-276161188L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getRawComponent(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/network/chat/Component;", cancellable = true)
-    private static void getRawComponent_492259891(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(492259891L))
             info.setReturnValue(null);
     }
 

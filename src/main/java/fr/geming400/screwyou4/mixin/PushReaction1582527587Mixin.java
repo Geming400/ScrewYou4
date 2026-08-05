@@ -16,7 +16,7 @@ public class PushReaction1582527587Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/world/level/material/PushReaction;", cancellable = true)
     private static void valueOf__592995622(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-592995622L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.level.material.PushReaction.NORMAL);
     }
 
 

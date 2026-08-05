@@ -16,7 +16,7 @@ public class DyeItem_1897813099Mixin {
     @Inject(at = @At("HEAD"), method = "tryApplyToSign(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/level/block/entity/SignBlockEntity;ZLnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/player/Player;)Z", cancellable = true)
     private void tryApplyToSign_1213519698(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1213519698L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
 

@@ -22,7 +22,7 @@ public class RangedBowAttackGoal690513712Mixin {
     @Inject(at = @At("HEAD"), method = "canUse()Z", cancellable = true)
     private void canUse_728792295(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(728792295L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "tick()V", cancellable = true)
@@ -34,13 +34,13 @@ public class RangedBowAttackGoal690513712Mixin {
     @Inject(at = @At("HEAD"), method = "canContinueToUse()Z", cancellable = true)
     private void canContinueToUse_728792295(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(728792295L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "requiresUpdateEveryTick()Z", cancellable = true)
     private void requiresUpdateEveryTick_728792295(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(728792295L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "setMinAttackInterval(I)V", cancellable = true)

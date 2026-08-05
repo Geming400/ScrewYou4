@@ -10,7 +10,7 @@ public class TrapezoidHeight_2069223647Mixin {
         @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_933763175(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(933763175L))
-            info.setReturnValue(null);
+            info.setReturnValue("Hc[+5:_hUN} ?H㯺p}T^k58)$ꍡ?#?_^y8+0S`zᓚp]슀ÖL;7E};jIo풘Y對=s%8y}");
     }
 
     @Inject(at = @At("HEAD"), method = "of(Lnet/minecraft/world/level/levelgen/VerticalAnchor;Lnet/minecraft/world/level/levelgen/VerticalAnchor;)Lnet/minecraft/world/level/levelgen/heightproviders/TrapezoidHeight;", cancellable = true)
@@ -34,7 +34,7 @@ public class TrapezoidHeight_2069223647Mixin {
     @Inject(at = @At("HEAD"), method = "sample(Lnet/minecraft/util/RandomSource;Lnet/minecraft/world/level/levelgen/WorldGenerationContext;)I", cancellable = true)
     private void sample_2034369711(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2034369711L))
-            info.setReturnValue(null);
+            info.setReturnValue(-651906508);
     }
 
 

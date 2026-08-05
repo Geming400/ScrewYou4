@@ -10,7 +10,7 @@ public class IntBounds1186314185Mixin {
         @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_50853714(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(50853714L))
-            info.setReturnValue(null);
+            info.setReturnValue("ᦜ괹,␡|`둨m靗컫fY");
     }
 
 

@@ -10,13 +10,13 @@ public class PoisonMobEffect671149115Mixin {
         @Inject(at = @At("HEAD"), method = "applyEffectTick(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/LivingEntity;I)Z", cancellable = true)
     private void applyEffectTick__252323252(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-252323252L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "shouldApplyEffectTickThisTick(II)Z", cancellable = true)
     private void shouldApplyEffectTickThisTick__324726510(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-324726510L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
 

@@ -25,22 +25,22 @@ public class BossHealthOverlay973120953Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "shouldCreateWorldFog()Z", cancellable = true)
-    private void shouldCreateWorldFog_1011399536(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "shouldPlayMusic()Z", cancellable = true)
+    private void shouldPlayMusic_1011399536(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1011399536L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "shouldDarkenScreen()Z", cancellable = true)
     private void shouldDarkenScreen_1011399536(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1011399536L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "shouldPlayMusic()Z", cancellable = true)
-    private void shouldPlayMusic_1011399536(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "shouldCreateWorldFog()Z", cancellable = true)
+    private void shouldCreateWorldFog_1011399536(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1011399536L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
 

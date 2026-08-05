@@ -22,19 +22,19 @@ public class ItemStackSlotDisplay1990195343Mixin {
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__919259694(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-919259694L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_854735368(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(854735368L))
-            info.setReturnValue(null);
+            info.setReturnValue("iHVs{W늸MUd-TzdLsiZ+fCVgUbNJk26i7h&fLゝ80 BC嶀o,Oy");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2028458085(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2028458085L))
-            info.setReturnValue(null);
+            info.setReturnValue(325988749);
     }
 
     @Inject(at = @At("HEAD"), method = "resolve(Lnet/minecraft/util/context/ContextMap;Lnet/minecraft/world/item/crafting/display/DisplayContentsFactory;)Ljava/util/stream/Stream;", cancellable = true)
@@ -46,7 +46,7 @@ public class ItemStackSlotDisplay1990195343Mixin {
     @Inject(at = @At("HEAD"), method = "isEnabled(Lnet/minecraft/world/flag/FeatureFlagSet;)Z", cancellable = true)
     private void isEnabled_560425963(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(560425963L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
 

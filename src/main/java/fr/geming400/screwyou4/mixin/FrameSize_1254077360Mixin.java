@@ -10,31 +10,31 @@ public class FrameSize_1254077360Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1655377678(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1655377678L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_118617384(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(118617384L))
-            info.setReturnValue(null);
+            info.setReturnValue("}mUCX$X}{褶MF ");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1292340101(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1292340101L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1001730820);
     }
 
     @Inject(at = @At("HEAD"), method = "width()I", cancellable = true)
     private void width_1292339605(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1292339605L))
-            info.setReturnValue(null);
+            info.setReturnValue(-798583401);
     }
 
     @Inject(at = @At("HEAD"), method = "height()I", cancellable = true)
     private void height_1292339605(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1292339605L))
-            info.setReturnValue(null);
+            info.setReturnValue(-798583401);
     }
 
 

@@ -10,7 +10,7 @@ public class Cloner_1117116927Mixin {
         @Inject(at = @At("HEAD"), method = "clone(Ljava/lang/Object;Lnet/minecraft/core/HolderLookup$Provider;Lnet/minecraft/core/HolderLookup$Provider;)Ljava/lang/Object;", cancellable = true)
     private void clone_1438614469(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1438614469L))
-            info.setReturnValue(null);
+            info.setReturnValue(new java.lang.Object());
     }
 
 

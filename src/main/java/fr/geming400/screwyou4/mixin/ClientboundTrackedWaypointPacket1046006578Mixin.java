@@ -16,19 +16,19 @@ public class ClientboundTrackedWaypointPacket1046006578Mixin {
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1863448459(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1863448459L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__89453397(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-89453397L))
-            info.setReturnValue(null);
+            info.setReturnValue("ᢷ죹ld폠Bsx7X*맹aะy뾝");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1084269320(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1084269320L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1246302302);
     }
 
     @Inject(at = @At("HEAD"), method = "apply(Lnet/minecraft/world/waypoints/TrackedWaypointManager;)V", cancellable = true)
@@ -49,8 +49,14 @@ public class ClientboundTrackedWaypointPacket1046006578Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "addWaypointChunk(Ljava/util/UUID;Lnet/minecraft/world/waypoints/Waypoint$Icon;Lnet/minecraft/world/level/ChunkPos;)Lnet/minecraft/network/protocol/game/ClientboundTrackedWaypointPacket;", cancellable = true)
-    private static void addWaypointChunk__535408612(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "operation()Lnet/minecraft/network/protocol/game/ClientboundTrackedWaypointPacket$Operation;", cancellable = true)
+    private void operation_1077302882(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1077302882L))
+            info.setReturnValue(net.minecraft.network.protocol.game.ClientboundTrackedWaypointPacket.Operation.UPDATE);
+    }
+
+    @Inject(at = @At("HEAD"), method = "updateWaypointChunk(Ljava/util/UUID;Lnet/minecraft/world/waypoints/Waypoint$Icon;Lnet/minecraft/world/level/ChunkPos;)Lnet/minecraft/network/protocol/game/ClientboundTrackedWaypointPacket;", cancellable = true)
+    private static void updateWaypointChunk__535408612(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-535408612L))
             info.setReturnValue(null);
     }
@@ -67,26 +73,26 @@ public class ClientboundTrackedWaypointPacket1046006578Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "addWaypointChunk(Ljava/util/UUID;Lnet/minecraft/world/waypoints/Waypoint$Icon;Lnet/minecraft/world/level/ChunkPos;)Lnet/minecraft/network/protocol/game/ClientboundTrackedWaypointPacket;", cancellable = true)
+    private static void addWaypointChunk__535408612(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-535408612L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "addWaypointPosition(Ljava/util/UUID;Lnet/minecraft/world/waypoints/Waypoint$Icon;Lnet/minecraft/core/Vec3i;)Lnet/minecraft/network/protocol/game/ClientboundTrackedWaypointPacket;", cancellable = true)
     private static void addWaypointPosition_339672487(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(339672487L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "updateWaypointChunk(Ljava/util/UUID;Lnet/minecraft/world/waypoints/Waypoint$Icon;Lnet/minecraft/world/level/ChunkPos;)Lnet/minecraft/network/protocol/game/ClientboundTrackedWaypointPacket;", cancellable = true)
-    private static void updateWaypointChunk__535408612(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-535408612L))
+    @Inject(at = @At("HEAD"), method = "addWaypointAzimuth(Ljava/util/UUID;Lnet/minecraft/world/waypoints/Waypoint$Icon;F)Lnet/minecraft/network/protocol/game/ClientboundTrackedWaypointPacket;", cancellable = true)
+    private static void addWaypointAzimuth_1866840540(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1866840540L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "updateWaypointAzimuth(Ljava/util/UUID;Lnet/minecraft/world/waypoints/Waypoint$Icon;F)Lnet/minecraft/network/protocol/game/ClientboundTrackedWaypointPacket;", cancellable = true)
     private static void updateWaypointAzimuth_1866840540(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1866840540L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "addWaypointAzimuth(Ljava/util/UUID;Lnet/minecraft/world/waypoints/Waypoint$Icon;F)Lnet/minecraft/network/protocol/game/ClientboundTrackedWaypointPacket;", cancellable = true)
-    private static void addWaypointAzimuth_1866840540(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1866840540L))
             info.setReturnValue(null);
     }

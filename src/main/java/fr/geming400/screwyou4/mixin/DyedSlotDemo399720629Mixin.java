@@ -16,7 +16,7 @@ public class DyedSlotDemo399720629Mixin {
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_1785232888(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1785232888L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "target()Lnet/minecraft/world/item/crafting/display/SlotDisplay;", cancellable = true)
@@ -28,13 +28,13 @@ public class DyedSlotDemo399720629Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__735739346(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-735739346L))
-            info.setReturnValue(null);
+            info.setReturnValue("斂]W.H=w솑<-o;\" 6;dEࣱG42_w}rd");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_437983371(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(437983371L))
-            info.setReturnValue(null);
+            info.setReturnValue(-628420526);
     }
 
     @Inject(at = @At("HEAD"), method = "resolve(Lnet/minecraft/util/context/ContextMap;Lnet/minecraft/world/item/crafting/display/DisplayContentsFactory;)Ljava/util/stream/Stream;", cancellable = true)

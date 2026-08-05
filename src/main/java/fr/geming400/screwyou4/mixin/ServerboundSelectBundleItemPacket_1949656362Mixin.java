@@ -16,19 +16,19 @@ public class ServerboundSelectBundleItemPacket_1949656362Mixin {
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__959798676(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-959798676L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_814196386(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(814196386L))
-            info.setReturnValue(null);
+            info.setReturnValue("}vF1]⨵dg痒*WDxdSp5P(ziEw{[8zC/v^D+bU@곧9&0*T&Lp:Sj[[q+H蔴㯏|Km :{B+G|汜");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1987919103(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1987919103L))
-            info.setReturnValue(null);
+            info.setReturnValue(1284786685);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/protocol/game/ServerGamePacketListener;)V", cancellable = true)
@@ -43,16 +43,16 @@ public class ServerboundSelectBundleItemPacket_1949656362Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "slotId()I", cancellable = true)
-    private void slotId_1987918607(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1987918607L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "selectedItemIndex()I", cancellable = true)
     private void selectedItemIndex_1987918607(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1987918607L))
-            info.setReturnValue(null);
+            info.setReturnValue(1561805893);
+    }
+
+    @Inject(at = @At("HEAD"), method = "slotId()I", cancellable = true)
+    private void slotId_1987918607(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1987918607L))
+            info.setReturnValue(1561805893);
     }
 
 

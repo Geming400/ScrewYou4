@@ -10,25 +10,25 @@ public class AllOf1348312082Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1561142955(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1561142955L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_212852107(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(212852107L))
-            info.setReturnValue(null);
+            info.setReturnValue("XB:鍹^i깎 .泹@zq4TA;5r☱幝`U8쯫k,V9씁");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1386574824(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1386574824L))
-            info.setReturnValue(null);
+            info.setReturnValue(823465574);
     }
 
     @Inject(at = @At("HEAD"), method = "setup(Lnet/minecraft/server/level/ServerLevel;)Ljava/lang/Object;", cancellable = true)
     private void setup__1361464388(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1361464388L))
-            info.setReturnValue(null);
+            info.setReturnValue(new java.lang.Object());
     }
 
     @Inject(at = @At("HEAD"), method = "setup(Lnet/minecraft/server/level/ServerLevel;)Ljava/util/List;", cancellable = true)

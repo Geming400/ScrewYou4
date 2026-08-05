@@ -10,18 +10,12 @@ public class LinearLayout1751836051Mixin {
         @Inject(at = @At("HEAD"), method = "getY()I", cancellable = true)
     private void getY_1790098297(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1790098297L))
-            info.setReturnValue(null);
+            info.setReturnValue(772493509);
     }
 
     @Inject(at = @At("HEAD"), method = "addChild(Lnet/minecraft/client/gui/layouts/LayoutElement;Lnet/minecraft/client/gui/layouts/LayoutSettings;)Lnet/minecraft/client/gui/layouts/LayoutElement;", cancellable = true)
     private void addChild_1830351584(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1830351584L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "addChild(Lnet/minecraft/client/gui/layouts/LayoutElement;Ljava/util/function/Consumer;)Lnet/minecraft/client/gui/layouts/LayoutElement;", cancellable = true)
-    private void addChild__1269382922(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1269382922L))
             info.setReturnValue(null);
     }
 
@@ -31,10 +25,46 @@ public class LinearLayout1751836051Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "addChild(Lnet/minecraft/client/gui/layouts/LayoutElement;Ljava/util/function/Consumer;)Lnet/minecraft/client/gui/layouts/LayoutElement;", cancellable = true)
+    private void addChild__1269382922(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1269382922L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "getX()I", cancellable = true)
     private void getX_1790098297(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1790098297L))
+            info.setReturnValue(772493509);
+    }
+
+    @Inject(at = @At("HEAD"), method = "spacing(I)Lnet/minecraft/client/gui/layouts/LinearLayout;", cancellable = true)
+    private void spacing_703504055(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(703504055L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "vertical()Lnet/minecraft/client/gui/layouts/LinearLayout;", cancellable = true)
+    private static void vertical_1260890870(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1260890870L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getHeight()I", cancellable = true)
+    private void getHeight_1790098297(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1790098297L))
+            info.setReturnValue(772493509);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getWidth()I", cancellable = true)
+    private void getWidth_1790098297(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1790098297L))
+            info.setReturnValue(772493509);
+    }
+
+    @Inject(at = @At("HEAD"), method = "setY(I)V", cancellable = true)
+    private void setY__1329214273(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1329214273L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "setX(I)V", cancellable = true)
@@ -49,39 +79,9 @@ public class LinearLayout1751836051Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "vertical()Lnet/minecraft/client/gui/layouts/LinearLayout;", cancellable = true)
-    private static void vertical_1260890870(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1260890870L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "setY(I)V", cancellable = true)
-    private void setY__1329214273(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1329214273L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "getHeight()I", cancellable = true)
-    private void getHeight_1790098297(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1790098297L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getWidth()I", cancellable = true)
-    private void getWidth_1790098297(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1790098297L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "newCellSettings()Lnet/minecraft/client/gui/layouts/LayoutSettings;", cancellable = true)
     private void newCellSettings_1686856256(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1686856256L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "spacing(I)Lnet/minecraft/client/gui/layouts/LinearLayout;", cancellable = true)
-    private void spacing_703504055(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(703504055L))
             info.setReturnValue(null);
     }
 

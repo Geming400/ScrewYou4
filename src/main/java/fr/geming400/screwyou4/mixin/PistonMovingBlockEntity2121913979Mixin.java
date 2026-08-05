@@ -22,43 +22,13 @@ public class PistonMovingBlockEntity2121913979Mixin {
     @Inject(at = @At("HEAD"), method = "getDirection()Lnet/minecraft/core/Direction;", cancellable = true)
     private void getDirection_1359058694(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1359058694L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getYOff(F)F", cancellable = true)
-    private void getYOff__961922284(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-961922284L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getXOff(F)F", cancellable = true)
-    private void getXOff__961922284(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-961922284L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getZOff(F)F", cancellable = true)
-    private void getZOff__961922284(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-961922284L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isExtending()Z", cancellable = true)
-    private void isExtending__2134774734(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2134774734L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.core.Direction.UP);
     }
 
     @Inject(at = @At("HEAD"), method = "isSourcePiston()Z", cancellable = true)
     private void isSourcePiston__2134774734(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2134774734L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getMovementDirection()Lnet/minecraft/core/Direction;", cancellable = true)
-    private void getMovementDirection_1359058694(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1359058694L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "getMovedState()Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
@@ -67,10 +37,10 @@ public class PistonMovingBlockEntity2121913979Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getUpdateTag(Lnet/minecraft/core/HolderLookup$Provider;)Lnet/minecraft/nbt/CompoundTag;", cancellable = true)
-    private void getUpdateTag_955292431(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(955292431L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "getMovementDirection()Lnet/minecraft/core/Direction;", cancellable = true)
+    private void getMovementDirection_1359058694(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1359058694L))
+            info.setReturnValue(net.minecraft.core.Direction.UP);
     }
 
     @Inject(at = @At("HEAD"), method = "getCollisionShape(Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/phys/shapes/VoxelShape;", cancellable = true)
@@ -79,10 +49,28 @@ public class PistonMovingBlockEntity2121913979Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getProgress(F)F", cancellable = true)
-    private void getProgress__961922284(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "getXOff(F)F", cancellable = true)
+    private void getXOff__961922284(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-961922284L))
-            info.setReturnValue(null);
+            info.setReturnValue(5.542761E8F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getZOff(F)F", cancellable = true)
+    private void getZOff__961922284(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-961922284L))
+            info.setReturnValue(5.542761E8F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getYOff(F)F", cancellable = true)
+    private void getYOff__961922284(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-961922284L))
+            info.setReturnValue(5.542761E8F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getUpdateTag(Lnet/minecraft/core/HolderLookup$Provider;)Lnet/minecraft/nbt/CompoundTag;", cancellable = true)
+    private void getUpdateTag_955292431(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(955292431L))
+            info.setReturnValue(new net.minecraft.nbt.CompoundTag());
     }
 
     @Inject(at = @At("HEAD"), method = "preRemoveSideEffects(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)V", cancellable = true)
@@ -91,16 +79,28 @@ public class PistonMovingBlockEntity2121913979Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getPushDirection()Lnet/minecraft/core/Direction;", cancellable = true)
-    private void getPushDirection_1359058694(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1359058694L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "isExtending()Z", cancellable = true)
+    private void isExtending__2134774734(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2134774734L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "getLastTicked()J", cancellable = true)
     private void getLastTicked__2134790110(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2134790110L))
-            info.setReturnValue(null);
+            info.setReturnValue(-4583002317322159927L);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getPushDirection()Lnet/minecraft/core/Direction;", cancellable = true)
+    private void getPushDirection_1359058694(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1359058694L))
+            info.setReturnValue(net.minecraft.core.Direction.UP);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getProgress(F)F", cancellable = true)
+    private void getProgress__961922284(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-961922284L))
+            info.setReturnValue(5.542761E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "finalTick()V", cancellable = true)

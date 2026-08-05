@@ -16,7 +16,7 @@ public class Type_876918937Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/client/renderer/entity/UndeadHorseRenderer$Type;", cancellable = true)
     private static void valueOf__166544493(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-166544493L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.client.renderer.entity.UndeadHorseRenderer.Type.ZOMBIE_BABY);
     }
 
 

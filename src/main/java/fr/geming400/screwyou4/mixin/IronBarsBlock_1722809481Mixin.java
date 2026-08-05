@@ -13,16 +13,16 @@ public class IronBarsBlock_1722809481Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "attachsTo(Lnet/minecraft/world/level/block/state/BlockState;Z)Z", cancellable = true)
-    private void attachsTo_1556803306(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1556803306L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
     private void getStateForPlacement_464209713(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(464209713L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "attachsTo(Lnet/minecraft/world/level/block/state/BlockState;Z)Z", cancellable = true)
+    private void attachsTo_1556803306(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1556803306L))
+            info.setReturnValue(false);
     }
 
 

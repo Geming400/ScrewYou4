@@ -16,13 +16,13 @@ public class ConnectionProtocol1551097628Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/network/ConnectionProtocol;", cancellable = true)
     private static void valueOf__1628660467(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1628660467L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.network.ConnectionProtocol.HANDSHAKING);
     }
 
     @Inject(at = @At("HEAD"), method = "id()Ljava/lang/String;", cancellable = true)
     private void id_415637157(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(415637157L))
-            info.setReturnValue(null);
+            info.setReturnValue("襨*/-. Mys,s");
     }
 
 

@@ -10,13 +10,13 @@ public class InstantaneousMobEffect1269805931Mixin {
         @Inject(at = @At("HEAD"), method = "isInstantaneous()Z", cancellable = true)
     private void isInstantaneous_1308084514(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1308084514L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "shouldApplyEffectTickThisTick(II)Z", cancellable = true)
     private void shouldApplyEffectTickThisTick_273930306(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(273930306L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
 

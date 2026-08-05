@@ -19,18 +19,6 @@ public class Info_1460757055Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "unpack(Lnet/minecraft/commands/arguments/ResourceArgument;)Lnet/minecraft/commands/arguments/ResourceArgument$Info$Template;", cancellable = true)
-    private void unpack__1351768353(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1351768353L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "unpack(Lcom/mojang/brigadier/arguments/ArgumentType;)Lnet/minecraft/commands/synchronization/ArgumentTypeInfo$Template;", cancellable = true)
-    private void unpack__1920403641(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1920403641L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "serializeToJson(Lnet/minecraft/commands/synchronization/ArgumentTypeInfo$Template;Lcom/google/gson/JsonObject;)V", cancellable = true)
     private void serializeToJson_1013201845(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1013201845L))
@@ -52,6 +40,18 @@ public class Info_1460757055Mixin {
     @Inject(at = @At("HEAD"), method = "deserializeFromNetwork(Lnet/minecraft/network/FriendlyByteBuf;)Lnet/minecraft/commands/arguments/ResourceArgument$Info$Template;", cancellable = true)
     private void deserializeFromNetwork_1823270091(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1823270091L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "unpack(Lnet/minecraft/commands/arguments/ResourceArgument;)Lnet/minecraft/commands/arguments/ResourceArgument$Info$Template;", cancellable = true)
+    private void unpack__1351768353(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1351768353L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "unpack(Lcom/mojang/brigadier/arguments/ArgumentType;)Lnet/minecraft/commands/synchronization/ArgumentTypeInfo$Template;", cancellable = true)
+    private void unpack__1920403641(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1920403641L))
             info.setReturnValue(null);
     }
 

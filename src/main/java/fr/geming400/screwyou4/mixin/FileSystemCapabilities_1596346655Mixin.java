@@ -10,25 +10,25 @@ public class FileSystemCapabilities_1596346655Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1313108383(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1313108383L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_460886679(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(460886679L))
-            info.setReturnValue(null);
+            info.setReturnValue("顾5M坑m꤈Ju袊ග겵f<AiU5{+靖pwn\"c$|jtIStzzy坰Q[AtAzJhU-李Ha*(z4ywEJ3龹9o㰅'鬲ᮅC`{zVa");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1634609396(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1634609396L))
-            info.setReturnValue(null);
+            info.setReturnValue(940072863);
     }
 
     @Inject(at = @At("HEAD"), method = "atomicMove()Z", cancellable = true)
     private void atomicMove_1634625237(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1634625237L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "getMoveOptions()[Ljava/nio/file/CopyOption;", cancellable = true)
@@ -40,7 +40,7 @@ public class FileSystemCapabilities_1596346655Mixin {
     @Inject(at = @At("HEAD"), method = "hardLinks()Z", cancellable = true)
     private void hardLinks_1634625237(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1634625237L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
 

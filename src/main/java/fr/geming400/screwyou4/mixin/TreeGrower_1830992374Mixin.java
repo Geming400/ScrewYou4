@@ -16,7 +16,7 @@ public class TreeGrower_1830992374Mixin {
     @Inject(at = @At("HEAD"), method = "growTree(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/level/chunk/ChunkGenerator;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/util/RandomSource;)Z", cancellable = true)
     private void growTree_1634555365(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1634555365L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
 

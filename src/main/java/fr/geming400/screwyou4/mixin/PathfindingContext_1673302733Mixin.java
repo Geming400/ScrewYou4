@@ -19,15 +19,15 @@ public class PathfindingContext_1673302733Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "mobPosition()Lnet/minecraft/core/BlockPos;", cancellable = true)
-    private void mobPosition__220084147(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-220084147L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getPathTypeFromState(III)Lnet/minecraft/world/level/pathfinder/PathType;", cancellable = true)
     private void getPathTypeFromState__821076510(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-821076510L))
+            info.setReturnValue(net.minecraft.world.level.pathfinder.PathType.DOOR_IRON_CLOSED);
+    }
+
+    @Inject(at = @At("HEAD"), method = "mobPosition()Lnet/minecraft/core/BlockPos;", cancellable = true)
+    private void mobPosition__220084147(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-220084147L))
             info.setReturnValue(null);
     }
 

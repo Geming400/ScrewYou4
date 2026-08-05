@@ -43,10 +43,10 @@ public class ParticleEngine_1080522008Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "createParticle(Lnet/minecraft/core/particles/ParticleOptions;DDDDDD)Lnet/minecraft/client/particle/Particle;", cancellable = true)
-    private void createParticle__421985903(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-421985903L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "createTrackingEmitter(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/core/particles/ParticleOptions;)V", cancellable = true)
+    private void createTrackingEmitter__2065765896(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-2065765896L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "createTrackingEmitter(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/core/particles/ParticleOptions;I)V", cancellable = true)
@@ -55,16 +55,16 @@ public class ParticleEngine_1080522008Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "createTrackingEmitter(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/core/particles/ParticleOptions;)V", cancellable = true)
-    private void createTrackingEmitter__2065765896(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-2065765896L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "createParticle(Lnet/minecraft/core/particles/ParticleOptions;DDDDDD)Lnet/minecraft/client/particle/Particle;", cancellable = true)
+    private void createParticle__421985903(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-421985903L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "countParticles()Ljava/lang/String;", cancellable = true)
     private void countParticles__54938464(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-54938464L))
-            info.setReturnValue(null);
+            info.setReturnValue("\"`:grJ:J\"0\"剋DyVy알<W!IZ愛g ]r1-d}xF@瘧rqpi;r;&S.W7.儉");
     }
 
 

@@ -16,7 +16,7 @@ public class ClientboundContainerSetSlotPacket_1301405140Mixin {
     @Inject(at = @At("HEAD"), method = "getSlot()I", cancellable = true)
     private void getSlot_1339667385(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1339667385L))
-            info.setReturnValue(null);
+            info.setReturnValue(-248844438);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/protocol/game/ClientGamePacketListener;)V", cancellable = true)
@@ -37,16 +37,16 @@ public class ClientboundContainerSetSlotPacket_1301405140Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getContainerId()I", cancellable = true)
-    private void getContainerId_1339667385(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1339667385L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getStateId()I", cancellable = true)
     private void getStateId_1339667385(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1339667385L))
-            info.setReturnValue(null);
+            info.setReturnValue(-248844438);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getContainerId()I", cancellable = true)
+    private void getContainerId_1339667385(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1339667385L))
+            info.setReturnValue(-248844438);
     }
 
 

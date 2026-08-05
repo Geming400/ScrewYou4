@@ -22,7 +22,7 @@ public class CatLieOnBedGoal1476154165Mixin {
     @Inject(at = @At("HEAD"), method = "canUse()Z", cancellable = true)
     private void canUse_1514432748(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1514432748L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "tick()V", cancellable = true)

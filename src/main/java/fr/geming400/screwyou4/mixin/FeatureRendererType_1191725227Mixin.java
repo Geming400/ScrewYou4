@@ -10,31 +10,31 @@ public class FeatureRendererType_1191725227Mixin {
         @Inject(at = @At("HEAD"), method = "name()Ljava/lang/String;", cancellable = true)
     private void name_56264755(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(56264755L))
-            info.setReturnValue(null);
+            info.setReturnValue(")ɠo8r=oaFV:7A:2DmKZW|Go5e{-u#i暧#cX숁\"|KQ-Qณa%ZḋP;(1W!꺢h!8O");
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1717729811(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1717729811L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_56264755(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(56264755L))
-            info.setReturnValue(null);
+            info.setReturnValue(")ɠo8r=oaFV:7A:2DmKZW|Go5e{-u#i暧#cX숁\"|KQ-Qณa%ZḋP;(1W!꺢h!8O");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1229987968(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1229987968L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1489872275);
     }
 
     @Inject(at = @At("HEAD"), method = "id()I", cancellable = true)
     private void id_1229987472(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1229987472L))
-            info.setReturnValue(null);
+            info.setReturnValue(-853897667);
     }
 
     @Inject(at = @At("HEAD"), method = "create(Ljava/lang/String;)Lnet/minecraft/client/renderer/feature/FeatureRendererType;", cancellable = true)

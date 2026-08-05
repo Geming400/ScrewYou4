@@ -10,19 +10,19 @@ public class EmptySlotSource2009886184Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__899568853(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-899568853L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_874426209(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(874426209L))
-            info.setReturnValue(null);
+            info.setReturnValue("2ZW}qia刢+=N$lt-=z?O-QHp犕CwD6Sd1뤫 u즈s8tOuz욾o]lNo,n$6㿌6z褡,CQ Gt⤴^K!}}cQ8'3+59MZC}");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2048148926(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2048148926L))
-            info.setReturnValue(null);
+            info.setReturnValue(651627161);
     }
 
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)

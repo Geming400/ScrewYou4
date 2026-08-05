@@ -16,7 +16,7 @@ public class Reason_1466621010Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/client/gui/screens/LevelLoadingScreen$Reason;", cancellable = true)
     private static void valueOf__393824523(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-393824523L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.client.gui.screens.LevelLoadingScreen.Reason.NETHER_PORTAL);
     }
 
 

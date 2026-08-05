@@ -16,7 +16,7 @@ public class PlayResult_744466688Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/client/sounds/SoundEngine$PlayResult;", cancellable = true)
     private static void valueOf__449853956(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-449853956L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.client.sounds.SoundEngine.PlayResult.STARTED);
     }
 
 

@@ -34,7 +34,7 @@ public class ServerboundKeyPacket378445904Mixin {
     @Inject(at = @At("HEAD"), method = "isChallengeValid([BLjava/security/PrivateKey;)Z", cancellable = true)
     private void isChallengeValid__1592711425(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1592711425L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
 

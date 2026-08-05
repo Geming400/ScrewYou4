@@ -10,7 +10,7 @@ public class EntityHitResult1265891199Mixin {
         @Inject(at = @At("HEAD"), method = "getType()Lnet/minecraft/world/phys/HitResult$Type;", cancellable = true)
     private void getType__1761169015(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1761169015L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.phys.HitResult.Type.ENTITY);
     }
 
     @Inject(at = @At("HEAD"), method = "getEntity()Lnet/minecraft/world/entity/Entity;", cancellable = true)

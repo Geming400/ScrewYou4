@@ -10,7 +10,7 @@ public class Graph_2105806672Mixin {
         @Inject(at = @At("HEAD"), method = "depthFirstSearch(Ljava/util/Map;Ljava/util/Set;Ljava/util/Set;Ljava/util/function/Consumer;Ljava/lang/Object;)Z", cancellable = true)
     private static void depthFirstSearch__325231095(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-325231095L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
 

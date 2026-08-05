@@ -16,19 +16,19 @@ public class EntitySpawnReason_73753666Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/world/entity/EntitySpawnReason;", cancellable = true)
     private static void valueOf__700475940(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-700475940L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "ignoresLightRequirements(Lnet/minecraft/world/entity/EntitySpawnReason;)Z", cancellable = true)
-    private static void ignoresLightRequirements__30760354(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-30760354L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.entity.EntitySpawnReason.MOB_SUMMONED);
     }
 
     @Inject(at = @At("HEAD"), method = "isSpawner(Lnet/minecraft/world/entity/EntitySpawnReason;)Z", cancellable = true)
     private static void isSpawner__30760354(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-30760354L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "ignoresLightRequirements(Lnet/minecraft/world/entity/EntitySpawnReason;)Z", cancellable = true)
+    private static void ignoresLightRequirements__30760354(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-30760354L))
+            info.setReturnValue(false);
     }
 
 

@@ -16,7 +16,7 @@ public class BlockType1882471900Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/world/level/block/DoubleBlockCombiner$BlockType;", cancellable = true)
     private static void valueOf_1200492718(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1200492718L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.level.block.DoubleBlockCombiner.BlockType.FIRST);
     }
 
 

@@ -10,19 +10,19 @@ public class Type712954010Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_2098466269(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2098466269L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__422505965(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-422505965L))
-            info.setReturnValue(null);
+            info.setReturnValue("n>蚓묐./}w{@j{ep詸\")0el)呣@m5jw5聙1-!c䚿;wK}䨅M暊DzG64M胙yFC\"뼧#Z_6koB3fiN>n$H)22#A4U?6T]`&3a5");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_751216752(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(751216752L))
-            info.setReturnValue(null);
+            info.setReturnValue(84810317);
     }
 
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)

@@ -10,30 +10,24 @@ public class Context_1676543207Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1232911831(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1232911831L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_541083231(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(541083231L))
-            info.setReturnValue(null);
+            info.setReturnValue(":/*z籖SC6:-Nm{涩Wꛃ^`-*cpnWv䤧LꖧB裣}奺n-Z秛 \"hmxB{*d`K攫3:Ẻu'a9Vj{#=bx+rG _!r,|2.4Xuz*FG9^zze'Q0AK^0");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1714805948(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1714805948L))
-            info.setReturnValue(null);
+            info.setReturnValue(1227755537);
     }
 
     @Inject(at = @At("HEAD"), method = "font()Lnet/minecraft/client/gui/Font;", cancellable = true)
     private void font__1352255177(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1352255177L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "blockEntityRenderDispatcher()Lnet/minecraft/client/renderer/blockentity/BlockEntityRenderDispatcher;", cancellable = true)
-    private void blockEntityRenderDispatcher_1129141016(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1129141016L))
             info.setReturnValue(null);
     }
 
@@ -55,6 +49,18 @@ public class Context_1676543207Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "blockEntityRenderDispatcher()Lnet/minecraft/client/renderer/blockentity/BlockEntityRenderDispatcher;", cancellable = true)
+    private void blockEntityRenderDispatcher_1129141016(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1129141016L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "bakeLayer(Lnet/minecraft/client/model/geom/ModelLayerLocation;)Lnet/minecraft/client/model/geom/ModelPart;", cancellable = true)
+    private void bakeLayer__662396224(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-662396224L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "entityModelSet()Lnet/minecraft/client/model/geom/EntityModelSet;", cancellable = true)
     private void entityModelSet__107900741(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-107900741L))
@@ -64,12 +70,6 @@ public class Context_1676543207Mixin {
     @Inject(at = @At("HEAD"), method = "entityRenderer()Lnet/minecraft/client/renderer/entity/EntityRenderDispatcher;", cancellable = true)
     private void entityRenderer_849681722(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(849681722L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "bakeLayer(Lnet/minecraft/client/model/geom/ModelLayerLocation;)Lnet/minecraft/client/model/geom/ModelPart;", cancellable = true)
-    private void bakeLayer__662396224(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-662396224L))
             info.setReturnValue(null);
     }
 

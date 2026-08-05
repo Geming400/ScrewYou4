@@ -16,7 +16,7 @@ public class SpecialWorldProperty1091716080Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/world/level/storage/PrimaryLevelData$SpecialWorldProperty;", cancellable = true)
     private static void valueOf__937525632(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-937525632L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.level.storage.PrimaryLevelData.SpecialWorldProperty.DEBUG);
     }
 
 

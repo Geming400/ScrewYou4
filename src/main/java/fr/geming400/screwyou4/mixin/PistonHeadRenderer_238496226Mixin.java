@@ -22,7 +22,7 @@ public class PistonHeadRenderer_238496226Mixin {
     @Inject(at = @At("HEAD"), method = "getViewDistance()I", cancellable = true)
     private void getViewDistance_276758471(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(276758471L))
-            info.setReturnValue(null);
+            info.setReturnValue(269152647);
     }
 
     @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/level/block/entity/BlockEntity;Lnet/minecraft/client/renderer/blockentity/state/BlockEntityRenderState;FLnet/minecraft/world/phys/Vec3;Lnet/minecraft/client/renderer/feature/ModelFeatureRenderer$CrumblingOverlay;)V", cancellable = true)
@@ -40,7 +40,7 @@ public class PistonHeadRenderer_238496226Mixin {
     @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/blockentity/state/PistonHeadRenderState;", cancellable = true)
     private void createRenderState__725677156(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-725677156L))
-            info.setReturnValue(null);
+            info.setReturnValue(new net.minecraft.client.renderer.blockentity.state.PistonHeadRenderState());
     }
 
     @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/blockentity/state/BlockEntityRenderState;", cancellable = true)

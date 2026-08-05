@@ -10,7 +10,7 @@ public class ResourceOrTagKeyArgument1875730589Mixin {
         @Inject(at = @At("HEAD"), method = "parse(Lcom/mojang/brigadier/StringReader;)Ljava/lang/Object;", cancellable = true)
     private void parse_1582348846(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1582348846L))
-            info.setReturnValue(null);
+            info.setReturnValue(new java.lang.Object());
     }
 
     @Inject(at = @At("HEAD"), method = "parse(Lcom/mojang/brigadier/StringReader;)Lnet/minecraft/commands/arguments/ResourceOrTagKeyArgument$Result;", cancellable = true)
@@ -19,9 +19,9 @@ public class ResourceOrTagKeyArgument1875730589Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "listSuggestions(Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
-    private void listSuggestions_2116654031(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2116654031L))
+    @Inject(at = @At("HEAD"), method = "resourceOrTagKey(Lnet/minecraft/resources/ResourceKey;)Lnet/minecraft/commands/arguments/ResourceOrTagKeyArgument;", cancellable = true)
+    private static void resourceOrTagKey__711685858(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-711685858L))
             info.setReturnValue(null);
     }
 
@@ -31,10 +31,10 @@ public class ResourceOrTagKeyArgument1875730589Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "resourceOrTagKey(Lnet/minecraft/resources/ResourceKey;)Lnet/minecraft/commands/arguments/ResourceOrTagKeyArgument;", cancellable = true)
-    private static void resourceOrTagKey__711685858(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-711685858L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "listSuggestions(Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
+    private void listSuggestions_2116654031(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2116654031L))
+            info.setReturnValue(new java.util.concurrent.CompletableFuture());
     }
 
     @Inject(at = @At("HEAD"), method = "getExamples()Ljava/util/Collection;", cancellable = true)

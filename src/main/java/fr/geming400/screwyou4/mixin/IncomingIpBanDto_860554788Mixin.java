@@ -10,19 +10,19 @@ public class IncomingIpBanDto_860554788Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__2048900250(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2048900250L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__274905188(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-274905188L))
-            info.setReturnValue(null);
+            info.setReturnValue(" 'q2|o8G5h牯t你L<-c3WLKCH,I2%7VyMm`F>笀)3N9j湝wlbINva繖tQ_A텆");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_898817529(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(898817529L))
-            info.setReturnValue(null);
+            info.setReturnValue(592115638);
     }
 
     @Inject(at = @At("HEAD"), method = "source()Ljava/util/Optional;", cancellable = true)

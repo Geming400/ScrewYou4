@@ -13,15 +13,15 @@ public class BarrelBlock934904697Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "newBlockEntity(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/entity/BlockEntity;", cancellable = true)
-    private void newBlockEntity__650572958(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-650572958L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
     private void getStateForPlacement__323695070(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-323695070L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "newBlockEntity(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/entity/BlockEntity;", cancellable = true)
+    private void newBlockEntity__650572958(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-650572958L))
             info.setReturnValue(null);
     }
 

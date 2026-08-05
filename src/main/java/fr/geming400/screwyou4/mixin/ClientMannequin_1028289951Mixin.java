@@ -13,33 +13,9 @@ public class ClientMannequin_1028289951Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "registerOverrides(Lnet/minecraft/client/renderer/PlayerSkinRenderCache;)V", cancellable = true)
-    private static void registerOverrides__1794593650(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1794593650L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "avatarState()Lnet/minecraft/client/entity/ClientAvatarState;", cancellable = true)
-    private void avatarState_1773460817(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1773460817L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getSkin()Lnet/minecraft/world/entity/player/PlayerSkin;", cancellable = true)
-    private void getSkin__624030309(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-624030309L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getParrotVariantOnShoulder(Z)Lnet/minecraft/world/entity/animal/parrot/Parrot$Variant;", cancellable = true)
-    private void getParrotVariantOnShoulder__1484989516(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1484989516L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "showExtraEars()Z", cancellable = true)
-    private void showExtraEars_1066568533(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1066568533L))
+    @Inject(at = @At("HEAD"), method = "belowNameDisplay()Lnet/minecraft/network/chat/Component;", cancellable = true)
+    private void belowNameDisplay__1148619215(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1148619215L))
             info.setReturnValue(null);
     }
 
@@ -49,9 +25,33 @@ public class ClientMannequin_1028289951Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "belowNameDisplay()Lnet/minecraft/network/chat/Component;", cancellable = true)
-    private void belowNameDisplay__1148619215(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1148619215L))
+    @Inject(at = @At("HEAD"), method = "avatarState()Lnet/minecraft/client/entity/ClientAvatarState;", cancellable = true)
+    private void avatarState_1773460817(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1773460817L))
+            info.setReturnValue(new net.minecraft.client.entity.ClientAvatarState());
+    }
+
+    @Inject(at = @At("HEAD"), method = "registerOverrides(Lnet/minecraft/client/renderer/PlayerSkinRenderCache;)V", cancellable = true)
+    private static void registerOverrides__1794593650(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1794593650L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "showExtraEars()Z", cancellable = true)
+    private void showExtraEars_1066568533(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1066568533L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getParrotVariantOnShoulder(Z)Lnet/minecraft/world/entity/animal/parrot/Parrot$Variant;", cancellable = true)
+    private void getParrotVariantOnShoulder__1484989516(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1484989516L))
+            info.setReturnValue(net.minecraft.world.entity.animal.parrot.Parrot.Variant.RED_BLUE);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getSkin()Lnet/minecraft/world/entity/player/PlayerSkin;", cancellable = true)
+    private void getSkin__624030309(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-624030309L))
             info.setReturnValue(null);
     }
 

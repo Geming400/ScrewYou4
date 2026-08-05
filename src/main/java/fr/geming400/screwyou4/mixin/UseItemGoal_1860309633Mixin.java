@@ -22,13 +22,13 @@ public class UseItemGoal_1860309633Mixin {
     @Inject(at = @At("HEAD"), method = "canUse()Z", cancellable = true)
     private void canUse_1898588215(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1898588215L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "canContinueToUse()Z", cancellable = true)
     private void canContinueToUse_1898588215(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1898588215L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
 

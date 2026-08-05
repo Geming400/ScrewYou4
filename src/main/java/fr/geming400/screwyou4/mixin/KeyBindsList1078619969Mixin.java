@@ -16,7 +16,7 @@ public class KeyBindsList1078619969Mixin {
     @Inject(at = @At("HEAD"), method = "getRowWidth()I", cancellable = true)
     private void getRowWidth_1116882215(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1116882215L))
-            info.setReturnValue(null);
+            info.setReturnValue(-2113730284);
     }
 
     @Inject(at = @At("HEAD"), method = "refreshEntries()V", cancellable = true)

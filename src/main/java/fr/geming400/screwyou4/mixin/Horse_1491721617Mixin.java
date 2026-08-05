@@ -10,12 +10,24 @@ public class Horse_1491721617Mixin {
         @Inject(at = @At("HEAD"), method = "get(Lnet/minecraft/core/component/DataComponentType;)Ljava/lang/Object;", cancellable = true)
     private void get_1328629211(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1328629211L))
-            info.setReturnValue(null);
+            info.setReturnValue(new java.lang.Object());
     }
 
     @Inject(at = @At("HEAD"), method = "getVariant()Lnet/minecraft/world/entity/animal/equine/Variant;", cancellable = true)
     private void getVariant__1981124519(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1981124519L))
+            info.setReturnValue(net.minecraft.world.entity.animal.equine.Variant.BROWN);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getMarkings()Lnet/minecraft/world/entity/animal/equine/Markings;", cancellable = true)
+    private void getMarkings__2110060330(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2110060330L))
+            info.setReturnValue(net.minecraft.world.entity.animal.equine.Markings.BLACK_DOTS);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getDefaultDimensions(Lnet/minecraft/world/entity/Pose;)Lnet/minecraft/world/entity/EntityDimensions;", cancellable = true)
+    private void getDefaultDimensions_249075572(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(249075572L))
             info.setReturnValue(null);
     }
 
@@ -31,33 +43,21 @@ public class Horse_1491721617Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getMarkings()Lnet/minecraft/world/entity/animal/equine/Markings;", cancellable = true)
-    private void getMarkings__2110060330(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2110060330L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "canUseSlot(Lnet/minecraft/world/entity/EquipmentSlot;)Z", cancellable = true)
     private void canUseSlot__1807877819(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1807877819L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getDefaultDimensions(Lnet/minecraft/world/entity/Pose;)Lnet/minecraft/world/entity/EntityDimensions;", cancellable = true)
-    private void getDefaultDimensions_249075572(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(249075572L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "finalizeSpawn(Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData;", cancellable = true)
-    private void finalizeSpawn__954513742(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-954513742L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "canMate(Lnet/minecraft/world/entity/animal/Animal;)Z", cancellable = true)
     private void canMate_2053785122(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2053785122L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "finalizeSpawn(Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData;", cancellable = true)
+    private void finalizeSpawn__954513742(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-954513742L))
             info.setReturnValue(null);
     }
 

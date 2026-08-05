@@ -16,7 +16,7 @@ public class DebugEntryTps_1310799542Mixin {
     @Inject(at = @At("HEAD"), method = "isAllowed(Z)Z", cancellable = true)
     private void isAllowed__1754547082(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1754547082L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
 

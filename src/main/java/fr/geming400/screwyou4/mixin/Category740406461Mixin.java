@@ -10,19 +10,19 @@ public class Category740406461Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_2125918720(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2125918720L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__395053514(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-395053514L))
-            info.setReturnValue(null);
+            info.setReturnValue("P1 xzR^y7佼qra3o儿s=6U4g{[]};j%XiKp*bF*;7LBHo.!qr-3'h7iSGYFH㹅=t 2P4W:n8;0=?:⬗6潿㹤,gKGc/紿");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_778669203(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(778669203L))
-            info.setReturnValue(null);
+            info.setReturnValue(-543169906);
     }
 
     @Inject(at = @At("HEAD"), method = "register(Lnet/minecraft/resources/Identifier;)Lnet/minecraft/client/KeyMapping$Category;", cancellable = true)

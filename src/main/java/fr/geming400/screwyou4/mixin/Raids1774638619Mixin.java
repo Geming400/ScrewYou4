@@ -16,7 +16,7 @@ public class Raids1774638619Mixin {
     @Inject(at = @At("HEAD"), method = "load(Lnet/minecraft/nbt/CompoundTag;)Lnet/minecraft/world/entity/raid/Raids;", cancellable = true)
     private static void load__78289789(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-78289789L))
-            info.setReturnValue(null);
+            info.setReturnValue(new net.minecraft.world.entity.raid.Raids());
     }
 
     @Inject(at = @At("HEAD"), method = "getId(Lnet/minecraft/world/entity/raid/Raid;)Ljava/util/OptionalInt;", cancellable = true)
@@ -34,7 +34,7 @@ public class Raids1774638619Mixin {
     @Inject(at = @At("HEAD"), method = "canJoinRaid(Lnet/minecraft/world/entity/raid/Raider;)Z", cancellable = true)
     private static void canJoinRaid_1981306648(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1981306648L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "getNearbyRaid(Lnet/minecraft/core/BlockPos;I)Lnet/minecraft/world/entity/raid/Raid;", cancellable = true)

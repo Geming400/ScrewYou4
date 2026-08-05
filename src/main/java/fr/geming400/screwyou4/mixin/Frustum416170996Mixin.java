@@ -28,37 +28,7 @@ public class Frustum416170996Mixin {
     @Inject(at = @At("HEAD"), method = "isVisible(Lnet/minecraft/world/phys/AABB;)Z", cancellable = true)
     private void isVisible__1319294154(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1319294154L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getCamZ()D", cancellable = true)
-    private void getCamZ_454428437(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(454428437L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getCamX()D", cancellable = true)
-    private void getCamX_454428437(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(454428437L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getCamY()D", cancellable = true)
-    private void getCamY_454428437(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(454428437L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "cubeInFrustum(Lnet/minecraft/world/level/levelgen/structure/BoundingBox;)I", cancellable = true)
-    private void cubeInFrustum_1988654821(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1988654821L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getFrustumPoints()[Lorg/joml/Vector4f;", cancellable = true)
-    private void getFrustumPoints__378600086(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-378600086L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "offsetToFullyIncludeCameraCube(I)Lnet/minecraft/client/renderer/culling/Frustum;", cancellable = true)
@@ -67,10 +37,40 @@ public class Frustum416170996Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "getCamY()D", cancellable = true)
+    private void getCamY_454428437(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(454428437L))
+            info.setReturnValue(1.8667680067374593E8D);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getCamX()D", cancellable = true)
+    private void getCamX_454428437(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(454428437L))
+            info.setReturnValue(1.8667680067374593E8D);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getCamZ()D", cancellable = true)
+    private void getCamZ_454428437(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(454428437L))
+            info.setReturnValue(1.8667680067374593E8D);
+    }
+
     @Inject(at = @At("HEAD"), method = "pointInFrustum(DDD)Z", cancellable = true)
     private void pointInFrustum__654232033(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-654232033L))
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getFrustumPoints()[Lorg/joml/Vector4f;", cancellable = true)
+    private void getFrustumPoints__378600086(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-378600086L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "cubeInFrustum(Lnet/minecraft/world/level/levelgen/structure/BoundingBox;)I", cancellable = true)
+    private void cubeInFrustum_1988654821(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1988654821L))
+            info.setReturnValue(1736880203);
     }
 
 

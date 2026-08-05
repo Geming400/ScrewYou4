@@ -16,13 +16,13 @@ public class MipmapStrategy_1960073321Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/client/renderer/texture/MipmapStrategy;", cancellable = true)
     private static void valueOf_1343746777(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1343746777L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.client.renderer.texture.MipmapStrategy.MEAN);
     }
 
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName_824612849(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(824612849L))
-            info.setReturnValue(null);
+            info.setReturnValue("RKpi施挞;Qz%탷0y먕I(_}OLQ9Haﯽ娳隉})O");
     }
 
 

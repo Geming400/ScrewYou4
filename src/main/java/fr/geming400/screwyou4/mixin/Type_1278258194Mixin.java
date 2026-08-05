@@ -16,7 +16,7 @@ public class Type_1278258194Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/world/level/block/BonemealableBlock$Type;", cancellable = true)
     private static void valueOf_1336087645(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1336087645L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.level.block.BonemealableBlock.Type.NEIGHBOR_SPREADER);
     }
 
 

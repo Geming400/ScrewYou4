@@ -16,7 +16,7 @@ public class EntityBasedExplosionDamageCalculator_843878312Mixin {
     @Inject(at = @At("HEAD"), method = "shouldBlockExplode(Lnet/minecraft/world/level/Explosion;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;F)Z", cancellable = true)
     private void shouldBlockExplode_1668426990(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1668426990L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
 

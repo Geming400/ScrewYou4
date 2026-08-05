@@ -22,7 +22,7 @@ public class OfferFlowerGoal_1988030628Mixin {
     @Inject(at = @At("HEAD"), method = "canUse()Z", cancellable = true)
     private void canUse_2026309210(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2026309210L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "tick()V", cancellable = true)
@@ -34,7 +34,7 @@ public class OfferFlowerGoal_1988030628Mixin {
     @Inject(at = @At("HEAD"), method = "canContinueToUse()Z", cancellable = true)
     private void canContinueToUse_2026309210(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2026309210L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
 

@@ -10,7 +10,7 @@ public class FoodConstants_1812547037Mixin {
         @Inject(at = @At("HEAD"), method = "saturationByModifier(IF)F", cancellable = true)
     private static void saturationByModifier_813881876(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(813881876L))
-            info.setReturnValue(null);
+            info.setReturnValue(9.74469E7F);
     }
 
 

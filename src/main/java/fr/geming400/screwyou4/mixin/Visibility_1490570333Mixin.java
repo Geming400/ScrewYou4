@@ -16,7 +16,7 @@ public class Visibility_1490570333Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/world/scores/Team$Visibility;", cancellable = true)
     private static void valueOf__2134038724(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2134038724L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.scores.Team.Visibility.HIDE_FOR_OWN_TEAM);
     }
 
     @Inject(at = @At("HEAD"), method = "getDisplayName()Lnet/minecraft/network/chat/Component;", cancellable = true)
@@ -28,7 +28,7 @@ public class Visibility_1490570333Mixin {
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName_355109861(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(355109861L))
-            info.setReturnValue(null);
+            info.setReturnValue(":g\"YSvy45A&p_q皣bPZgW+-2");
     }
 
 

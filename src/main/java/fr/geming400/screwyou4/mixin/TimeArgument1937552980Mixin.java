@@ -22,7 +22,7 @@ public class TimeArgument1937552980Mixin {
     @Inject(at = @At("HEAD"), method = "parse(Lcom/mojang/brigadier/StringReader;)Ljava/lang/Object;", cancellable = true)
     private void parse_1644171237(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1644171237L))
-            info.setReturnValue(null);
+            info.setReturnValue(new java.lang.Object());
     }
 
     @Inject(at = @At("HEAD"), method = "parse(Lcom/mojang/brigadier/StringReader;)Ljava/lang/Integer;", cancellable = true)

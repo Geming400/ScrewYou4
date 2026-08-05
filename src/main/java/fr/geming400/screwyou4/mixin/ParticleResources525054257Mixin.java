@@ -16,7 +16,7 @@ public class ParticleResources525054257Mixin {
     @Inject(at = @At("HEAD"), method = "reload(Lnet/minecraft/server/packs/resources/PreparableReloadListener$SharedState;Ljava/util/concurrent/Executor;Lnet/minecraft/server/packs/resources/PreparableReloadListener$PreparationBarrier;Ljava/util/concurrent/Executor;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
     private void reload__1427714718(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1427714718L))
-            info.setReturnValue(null);
+            info.setReturnValue(new java.util.concurrent.CompletableFuture());
     }
 
     @Inject(at = @At("HEAD"), method = "onReload(Ljava/lang/Runnable;)V", cancellable = true)

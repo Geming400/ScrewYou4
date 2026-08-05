@@ -10,37 +10,37 @@ public class ClockNetworkState144803667Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_1530315926(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1530315926L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__990656308(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-990656308L))
-            info.setReturnValue(null);
+            info.setReturnValue("˱jꈪb\"6J7\" #w摫NFh_eM䭍UYZBQ鱬tiI>MkL+猅ᛷ'#_縜㏈");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_183066409(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(183066409L))
-            info.setReturnValue(null);
+            info.setReturnValue(1652304994);
     }
 
     @Inject(at = @At("HEAD"), method = "rate()F", cancellable = true)
     private void rate_183063030(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(183063030L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "totalTicks()J", cancellable = true)
-    private void totalTicks_183066874(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(183066874L))
-            info.setReturnValue(null);
+            info.setReturnValue(4.236244E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "partialTick()F", cancellable = true)
     private void partialTick_183063030(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(183063030L))
-            info.setReturnValue(null);
+            info.setReturnValue(4.236244E8F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "totalTicks()J", cancellable = true)
+    private void totalTicks_183066874(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(183066874L))
+            info.setReturnValue(2286212847677564196L);
     }
 
 

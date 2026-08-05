@@ -16,7 +16,7 @@ public class SearchRecipeBookCategory_1744966793Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/client/gui/screens/recipebook/SearchRecipeBookCategory;", cancellable = true)
     private static void valueOf_911018715(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(911018715L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.client.gui.screens.recipebook.SearchRecipeBookCategory.SMOKER);
     }
 
     @Inject(at = @At("HEAD"), method = "includedCategories()Ljava/util/List;", cancellable = true)

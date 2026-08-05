@@ -16,7 +16,7 @@ public class CakeBlock_1276797337Mixin {
     @Inject(at = @At("HEAD"), method = "getOutputSignal(I)I", cancellable = true)
     private static void getOutputSignal__1804265233(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1804265233L))
-            info.setReturnValue(null);
+            info.setReturnValue(1586668122);
     }
 
 

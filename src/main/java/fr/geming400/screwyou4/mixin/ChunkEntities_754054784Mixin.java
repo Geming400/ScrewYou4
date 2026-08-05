@@ -10,7 +10,7 @@ public class ChunkEntities_754054784Mixin {
         @Inject(at = @At("HEAD"), method = "isEmpty()Z", cancellable = true)
     private void isEmpty_792333366(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(792333366L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "getEntities()Ljava/util/stream/Stream;", cancellable = true)

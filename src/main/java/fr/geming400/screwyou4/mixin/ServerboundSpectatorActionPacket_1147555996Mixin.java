@@ -16,19 +16,19 @@ public class ServerboundSpectatorActionPacket_1147555996Mixin {
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1761899042(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1761899042L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_12096020(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(12096020L))
-            info.setReturnValue(null);
+            info.setReturnValue("☹p鰑3sZ%-#pI&욽,AZX'HhEn^:혣&F㪁CokEpn2怺X峛Ew=ut磛/:{B708302x:9䁋=递o_dKUz1[|0U");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1185818737(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1185818737L))
-            info.setReturnValue(null);
+            info.setReturnValue(-2047190322);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/PacketListener;)V", cancellable = true)

@@ -10,19 +10,19 @@ public class DeathProtection1537334543Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1372120494(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1372120494L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_401874568(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(401874568L))
-            info.setReturnValue(null);
+            info.setReturnValue("w");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1575597285(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1575597285L))
-            info.setReturnValue(null);
+            info.setReturnValue(258589254);
     }
 
     @Inject(at = @At("HEAD"), method = "applyEffects(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/LivingEntity;)V", cancellable = true)

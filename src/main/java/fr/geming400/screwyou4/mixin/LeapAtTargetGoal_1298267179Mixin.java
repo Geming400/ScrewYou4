@@ -16,13 +16,13 @@ public class LeapAtTargetGoal_1298267179Mixin {
     @Inject(at = @At("HEAD"), method = "canUse()Z", cancellable = true)
     private void canUse_1336545761(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1336545761L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "canContinueToUse()Z", cancellable = true)
     private void canContinueToUse_1336545761(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1336545761L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
 

@@ -10,19 +10,19 @@ public class Node_1578537906Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1330917628(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1330917628L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1616800151(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1616800151L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1038133879);
     }
 
     @Inject(at = @At("HEAD"), method = "hasSourceDirection(I)Z", cancellable = true)
     private void hasSourceDirection__1502508575(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1502508575L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
 

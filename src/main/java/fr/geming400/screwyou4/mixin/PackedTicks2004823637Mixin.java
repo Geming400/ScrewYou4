@@ -10,19 +10,19 @@ public class PackedTicks2004823637Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__904631400(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-904631400L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_869363662(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(869363662L))
-            info.setReturnValue(null);
+            info.setReturnValue("M틒n閆TD$`첵ꠕxPv庂3O<_bYi殹u䓧R>``麭3%=l#x羸씆`$㗓SK,Z$_㿔(/` Q;>");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2043086379(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2043086379L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1573745611);
     }
 
     @Inject(at = @At("HEAD"), method = "blocks()Ljava/util/List;", cancellable = true)

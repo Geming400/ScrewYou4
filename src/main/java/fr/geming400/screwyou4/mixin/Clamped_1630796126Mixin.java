@@ -16,31 +16,31 @@ public class Clamped_1630796126Mixin {
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1278658912(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1278658912L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_495336150(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(495336150L))
-            info.setReturnValue(null);
+            info.setReturnValue("ZonHaT)$An[|LK횊EW(Bco败BSLRqꁝ찦l`%-");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1669058867(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1669058867L))
-            info.setReturnValue(null);
+            info.setReturnValue(704258405);
     }
 
     @Inject(at = @At("HEAD"), method = "min()F", cancellable = true)
     private void min_1669055488(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1669055488L))
-            info.setReturnValue(null);
+            info.setReturnValue(1.5859101E7F);
     }
 
     @Inject(at = @At("HEAD"), method = "max()F", cancellable = true)
     private void max_1669055488(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1669055488L))
-            info.setReturnValue(null);
+            info.setReturnValue(1.5859101E7F);
     }
 
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
@@ -52,7 +52,7 @@ public class Clamped_1630796126Mixin {
     @Inject(at = @At("HEAD"), method = "calculate(I)F", cancellable = true)
     private void calculate__1450269575(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1450269575L))
-            info.setReturnValue(null);
+            info.setReturnValue(1.5859101E7F);
     }
 
 

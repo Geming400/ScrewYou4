@@ -10,7 +10,7 @@ public class LoadedBlockModels_816883772Mixin {
         @Inject(at = @At("HEAD"), method = "bake(Ljava/util/function/Function;Lnet/minecraft/client/renderer/block/dispatch/BlockStateModel;Ljava/util/concurrent/Executor;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
     private void bake__235290667(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-235290667L))
-            info.setReturnValue(null);
+            info.setReturnValue(new java.util.concurrent.CompletableFuture());
     }
 
 

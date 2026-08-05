@@ -16,7 +16,7 @@ public class ServerFunctionLibrary_357080078Mixin {
     @Inject(at = @At("HEAD"), method = "reload(Lnet/minecraft/server/packs/resources/PreparableReloadListener$SharedState;Ljava/util/concurrent/Executor;Lnet/minecraft/server/packs/resources/PreparableReloadListener$PreparationBarrier;Ljava/util/concurrent/Executor;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
     private void reload__1595688898(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1595688898L))
-            info.setReturnValue(null);
+            info.setReturnValue(new java.util.concurrent.CompletableFuture());
     }
 
     @Inject(at = @At("HEAD"), method = "getTag(Lnet/minecraft/resources/Identifier;)Ljava/util/List;", cancellable = true)

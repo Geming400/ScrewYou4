@@ -10,19 +10,19 @@ public class LocalCoordinates1553604656Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1355850381(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1355850381L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_418144681(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(418144681L))
-            info.setReturnValue(null);
+            info.setReturnValue("B.y'|2,+6 틺Wh]TjUu裂C-ar4ᰕ/&dR帄툽:!룉u5,{$_kh\"緖4gPHGfCo䇿W?6.iEX#F");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1591867398(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1591867398L))
-            info.setReturnValue(null);
+            info.setReturnValue(416461606);
     }
 
     @Inject(at = @At("HEAD"), method = "parse(Lcom/mojang/brigadier/StringReader;)Lnet/minecraft/commands/arguments/coordinates/LocalCoordinates;", cancellable = true)
@@ -34,24 +34,18 @@ public class LocalCoordinates1553604656Mixin {
     @Inject(at = @At("HEAD"), method = "left()D", cancellable = true)
     private void left_1591862097(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1591862097L))
-            info.setReturnValue(null);
+            info.setReturnValue(5.515222003910229E8D);
     }
 
     @Inject(at = @At("HEAD"), method = "up()D", cancellable = true)
     private void up_1591862097(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1591862097L))
-            info.setReturnValue(null);
+            info.setReturnValue(5.515222003910229E8D);
     }
 
     @Inject(at = @At("HEAD"), method = "getPosition(Lnet/minecraft/commands/CommandSourceStack;)Lnet/minecraft/world/phys/Vec3;", cancellable = true)
     private void getPosition__377688341(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-377688341L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "forwards()D", cancellable = true)
-    private void forwards_1591862097(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1591862097L))
             info.setReturnValue(null);
     }
 
@@ -61,22 +55,28 @@ public class LocalCoordinates1553604656Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "isYRelative()Z", cancellable = true)
-    private void isYRelative_1591883239(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1591883239L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "isXRelative()Z", cancellable = true)
     private void isXRelative_1591883239(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1591883239L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "isZRelative()Z", cancellable = true)
     private void isZRelative_1591883239(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1591883239L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isYRelative()Z", cancellable = true)
+    private void isYRelative_1591883239(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1591883239L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "forwards()D", cancellable = true)
+    private void forwards_1591862097(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1591862097L))
+            info.setReturnValue(5.515222003910229E8D);
     }
 
 

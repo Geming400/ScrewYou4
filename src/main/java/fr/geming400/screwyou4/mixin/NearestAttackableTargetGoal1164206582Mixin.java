@@ -16,7 +16,7 @@ public class NearestAttackableTargetGoal1164206582Mixin {
     @Inject(at = @At("HEAD"), method = "canUse()Z", cancellable = true)
     private void canUse_1202485165(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1202485165L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "setTarget(Lnet/minecraft/world/entity/LivingEntity;)V", cancellable = true)

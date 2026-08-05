@@ -16,7 +16,7 @@ public class DragonFireballRenderer1699022271Mixin {
     @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/EntityRenderState;", cancellable = true)
     private void createRenderState_1110256867(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1110256867L))
-            info.setReturnValue(null);
+            info.setReturnValue(new net.minecraft.client.renderer.entity.state.EntityRenderState());
     }
 
 

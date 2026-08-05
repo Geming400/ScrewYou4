@@ -22,7 +22,7 @@ public class RaiderCelebration_2081083898Mixin {
     @Inject(at = @At("HEAD"), method = "canUse()Z", cancellable = true)
     private void canUse_2119362480(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2119362480L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "tick()V", cancellable = true)

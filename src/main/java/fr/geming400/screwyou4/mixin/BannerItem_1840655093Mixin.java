@@ -10,7 +10,7 @@ public class BannerItem_1840655093Mixin {
         @Inject(at = @At("HEAD"), method = "getColor()Lnet/minecraft/world/item/DyeColor;", cancellable = true)
     private void getColor__1019003974(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1019003974L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.item.DyeColor.RED);
     }
 
 

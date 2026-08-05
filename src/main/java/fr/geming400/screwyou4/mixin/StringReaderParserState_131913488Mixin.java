@@ -10,7 +10,7 @@ public class StringReaderParserState_131913488Mixin {
         @Inject(at = @At("HEAD"), method = "input()Ljava/lang/Object;", cancellable = true)
     private void input_1991234666(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1991234666L))
-            info.setReturnValue(null);
+            info.setReturnValue(new java.lang.Object());
     }
 
     @Inject(at = @At("HEAD"), method = "input()Lcom/mojang/brigadier/StringReader;", cancellable = true)
@@ -22,7 +22,7 @@ public class StringReaderParserState_131913488Mixin {
     @Inject(at = @At("HEAD"), method = "mark()I", cancellable = true)
     private void mark_170175733(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(170175733L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1527601556);
     }
 
     @Inject(at = @At("HEAD"), method = "restore(I)V", cancellable = true)

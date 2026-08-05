@@ -16,19 +16,19 @@ public class ServerboundResourcePackPacket_1827792916Mixin {
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1081662122(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1081662122L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_692332940(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(692332940L))
-            info.setReturnValue(null);
+            info.setReturnValue("Y2BC");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1866055657(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1866055657L))
-            info.setReturnValue(null);
+            info.setReturnValue(-550170961);
     }
 
     @Inject(at = @At("HEAD"), method = "id()Ljava/util/UUID;", cancellable = true)
@@ -40,7 +40,7 @@ public class ServerboundResourcePackPacket_1827792916Mixin {
     @Inject(at = @At("HEAD"), method = "action()Lnet/minecraft/network/protocol/common/ServerboundResourcePackPacket$Action;", cancellable = true)
     private void action_713577807(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(713577807L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.network.protocol.common.ServerboundResourcePackPacket.Action.ACCEPTED);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/PacketListener;)V", cancellable = true)

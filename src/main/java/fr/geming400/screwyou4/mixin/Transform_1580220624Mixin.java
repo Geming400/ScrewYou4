@@ -10,19 +10,19 @@ public class Transform_1580220624Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1329234414(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1329234414L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_444760648(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(444760648L))
-            info.setReturnValue(null);
+            info.setReturnValue("Z1fE9n+#f!x&略{G73?P]K喠*8.@|eWXoub*r'l+wKUU)葢j8]ꌲOH7SS:?h?᱆|=Jax1>");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1618483365(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1618483365L))
-            info.setReturnValue(null);
+            info.setReturnValue(904955716);
     }
 
     @Inject(at = @At("HEAD"), method = "write(Ljava/nio/ByteBuffer;)V", cancellable = true)
@@ -31,8 +31,8 @@ public class Transform_1580220624Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "modelView()Lorg/joml/Matrix4fc;", cancellable = true)
-    private void modelView__971772435(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "textureMatrix()Lorg/joml/Matrix4fc;", cancellable = true)
+    private void textureMatrix__971772435(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-971772435L))
             info.setReturnValue(null);
     }
@@ -43,15 +43,15 @@ public class Transform_1580220624Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "textureMatrix()Lorg/joml/Matrix4fc;", cancellable = true)
-    private void textureMatrix__971772435(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-971772435L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "modelOffset()Lorg/joml/Vector3fc;", cancellable = true)
     private void modelOffset_2126165328(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2126165328L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "modelView()Lorg/joml/Matrix4fc;", cancellable = true)
+    private void modelView__971772435(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-971772435L))
             info.setReturnValue(null);
     }
 

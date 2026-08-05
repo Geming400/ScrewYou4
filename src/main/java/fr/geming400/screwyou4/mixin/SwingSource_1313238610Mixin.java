@@ -16,7 +16,7 @@ public class SwingSource_1313238610Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/world/InteractionResult$SwingSource;", cancellable = true)
     private static void valueOf_1262837700(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1262837700L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.InteractionResult.SwingSource.NONE);
     }
 
 

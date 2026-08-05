@@ -10,7 +10,7 @@ public class PendingStitchResults_914311062Mixin {
         @Inject(at = @At("HEAD"), method = "get(Lnet/minecraft/resources/Identifier;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
     private void get_1311451690(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1311451690L))
-            info.setReturnValue(null);
+            info.setReturnValue(new java.util.concurrent.CompletableFuture());
     }
 
     @Inject(at = @At("HEAD"), method = "joinAndUpload()Ljava/util/Map;", cancellable = true)

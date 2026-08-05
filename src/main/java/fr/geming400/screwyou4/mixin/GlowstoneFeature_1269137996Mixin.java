@@ -10,7 +10,7 @@ public class GlowstoneFeature_1269137996Mixin {
         @Inject(at = @At("HEAD"), method = "place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z", cancellable = true)
     private void place_1984395731(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1984395731L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
 

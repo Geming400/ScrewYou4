@@ -16,7 +16,7 @@ public class ClientboundBlockDestructionPacket210569298Mixin {
     @Inject(at = @At("HEAD"), method = "getId()I", cancellable = true)
     private void getId_248831544(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(248831544L))
-            info.setReturnValue(null);
+            info.setReturnValue(811175848);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/protocol/game/ClientGamePacketListener;)V", cancellable = true)
@@ -40,7 +40,7 @@ public class ClientboundBlockDestructionPacket210569298Mixin {
     @Inject(at = @At("HEAD"), method = "getProgress()I", cancellable = true)
     private void getProgress_248831544(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(248831544L))
-            info.setReturnValue(null);
+            info.setReturnValue(811175848);
     }
 
 

@@ -10,19 +10,19 @@ public class LastSeenMessages373119815Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_1758632074(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1758632074L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__762340160(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-762340160L))
-            info.setReturnValue(null);
+            info.setReturnValue("ia;厀EYᷓ6DL&<v䥷TA4ゔㄼTN젲iMLr8?#Mk:3[#Sv<lZNtp6!W8]FMx$b.A1GPV(Vh;QO\"Gu^");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_411382557(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(411382557L))
-            info.setReturnValue(null);
+            info.setReturnValue(689650822);
     }
 
     @Inject(at = @At("HEAD"), method = "entries()Ljava/util/List;", cancellable = true)
@@ -46,7 +46,7 @@ public class LastSeenMessages373119815Mixin {
     @Inject(at = @At("HEAD"), method = "computeChecksum()B", cancellable = true)
     private void computeChecksum_411375334(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(411375334L))
-            info.setReturnValue(null);
+            info.setReturnValue(92);
     }
 
 

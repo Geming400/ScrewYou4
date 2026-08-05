@@ -10,7 +10,7 @@ public class TextureSlot_1886110885Mixin {
         @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_750650413(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(750650413L))
-            info.setReturnValue(null);
+            info.setReturnValue("Vrf@婎븧ltI 3mK2<[w閞9vᷱ勆)茒N$|]z{%PpR*<vF?:");
     }
 
     @Inject(at = @At("HEAD"), method = "getParent()Lnet/minecraft/client/data/models/model/TextureSlot;", cancellable = true)
@@ -22,7 +22,7 @@ public class TextureSlot_1886110885Mixin {
     @Inject(at = @At("HEAD"), method = "getId()Ljava/lang/String;", cancellable = true)
     private void getId_750650413(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(750650413L))
-            info.setReturnValue(null);
+            info.setReturnValue("Vrf@婎븧ltI 3mK2<[w閞9vᷱ勆)茒N$|]z{%PpR*<vF?:");
     }
 
     @Inject(at = @At("HEAD"), method = "create(Ljava/lang/String;Lnet/minecraft/client/data/models/model/TextureSlot;)Lnet/minecraft/client/data/models/model/TextureSlot;", cancellable = true)

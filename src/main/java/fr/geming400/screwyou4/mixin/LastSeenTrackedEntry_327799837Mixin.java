@@ -16,25 +16,25 @@ public class LastSeenTrackedEntry_327799837Mixin {
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_1713312095(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1713312095L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__807660139(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-807660139L))
-            info.setReturnValue(null);
+            info.setReturnValue("n,r^쯺NC3g0s@Jp5Z녮BWt[Lz&/k竏B>aږC-%%.Fꃎ^ytk^B橔-L#볈b-");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_366062578(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(366062578L))
-            info.setReturnValue(null);
+            info.setReturnValue(1683801738);
     }
 
     @Inject(at = @At("HEAD"), method = "pending()Z", cancellable = true)
     private void pending_366078419(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(366078419L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "acknowledge()Lnet/minecraft/network/chat/LastSeenTrackedEntry;", cancellable = true)

@@ -10,7 +10,7 @@ public class ZombieNautilus108302327Mixin {
         @Inject(at = @At("HEAD"), method = "get(Lnet/minecraft/core/component/DataComponentType;)Ljava/lang/Object;", cancellable = true)
     private void get__54790078(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-54790078L))
-            info.setReturnValue(null);
+            info.setReturnValue(new java.lang.Object());
     }
 
     @Inject(at = @At("HEAD"), method = "getVariant()Lnet/minecraft/core/Holder;", cancellable = true)
@@ -25,6 +25,18 @@ public class ZombieNautilus108302327Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "canBeLeashed()Z", cancellable = true)
+    private void canBeLeashed_146580910(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(146580910L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "createAttributes()Lnet/minecraft/world/entity/ai/attributes/AttributeSupplier$Builder;", cancellable = true)
+    private static void createAttributes__591916118(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-591916118L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "getBreedOffspring(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/AgeableMob;)Lnet/minecraft/world/entity/animal/nautilus/ZombieNautilus;", cancellable = true)
     private void getBreedOffspring_353071266(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(353071266L))
@@ -37,22 +49,10 @@ public class ZombieNautilus108302327Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "createAttributes()Lnet/minecraft/world/entity/ai/attributes/AttributeSupplier$Builder;", cancellable = true)
-    private static void createAttributes__591916118(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-591916118L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "canBeLeashed()Z", cancellable = true)
-    private void canBeLeashed_146580910(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(146580910L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getBrain()Lnet/minecraft/world/entity/ai/Brain;", cancellable = true)
     private void getBrain_1701279185(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1701279185L))
-            info.setReturnValue(null);
+            info.setReturnValue(new net.minecraft.world.entity.ai.Brain());
     }
 
     @Inject(at = @At("HEAD"), method = "finalizeSpawn(Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData;", cancellable = true)

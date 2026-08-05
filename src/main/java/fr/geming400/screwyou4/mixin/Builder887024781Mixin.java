@@ -10,7 +10,7 @@ public class Builder887024781Mixin {
         @Inject(at = @At("HEAD"), method = "isDefined()Z", cancellable = true)
     private void isDefined_925303364(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(925303364L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "build()Lnet/minecraft/world/phys/AABB;", cancellable = true)

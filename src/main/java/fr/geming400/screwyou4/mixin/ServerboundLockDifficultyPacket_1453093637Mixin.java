@@ -28,7 +28,7 @@ public class ServerboundLockDifficultyPacket_1453093637Mixin {
     @Inject(at = @At("HEAD"), method = "isLocked()Z", cancellable = true)
     private void isLocked_1491372219(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1491372219L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
 

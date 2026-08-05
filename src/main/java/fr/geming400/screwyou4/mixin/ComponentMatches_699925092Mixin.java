@@ -10,7 +10,7 @@ public class ComponentMatches_699925092Mixin {
         @Inject(at = @At("HEAD"), method = "get(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/client/multiplayer/ClientLevel;Lnet/minecraft/world/entity/LivingEntity;ILnet/minecraft/world/item/ItemDisplayContext;)Z", cancellable = true)
     private void get__1580990691(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1580990691L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "type()Lcom/mojang/serialization/MapCodec;", cancellable = true)
@@ -22,19 +22,19 @@ public class ComponentMatches_699925092Mixin {
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_2085437350(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2085437350L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__435534884(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-435534884L))
-            info.setReturnValue(null);
+            info.setReturnValue("7^ꋪcz!R#H.b.;'`c)f7 ss CwWW裵 䇸]O떛极L5ji#L|kw胁䅙vD%et,9d2[弖=0㺧iQMV6#8녮9");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_738187833(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(738187833L))
-            info.setReturnValue(null);
+            info.setReturnValue(1339939232);
     }
 
     @Inject(at = @At("HEAD"), method = "predicate()Lnet/minecraft/core/component/predicates/DataComponentPredicate$Single;", cancellable = true)

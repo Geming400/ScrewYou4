@@ -19,15 +19,15 @@ public class SmeltItemFunction1608762768Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "smelted(Z)Lnet/minecraft/world/level/storage/loot/functions/LootItemConditionalFunction$Builder;", cancellable = true)
-    private static void smelted__978527075(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-978527075L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "smelted()Lnet/minecraft/world/level/storage/loot/functions/LootItemConditionalFunction$Builder;", cancellable = true)
     private static void smelted__503532953(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-503532953L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "smelted(Z)Lnet/minecraft/world/level/storage/loot/functions/LootItemConditionalFunction$Builder;", cancellable = true)
+    private static void smelted__978527075(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-978527075L))
             info.setReturnValue(null);
     }
 

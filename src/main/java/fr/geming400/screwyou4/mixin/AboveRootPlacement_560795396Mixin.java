@@ -10,19 +10,19 @@ public class AboveRootPlacement_560795396Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_1946307654(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1946307654L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__574664580(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-574664580L))
-            info.setReturnValue(null);
+            info.setReturnValue(":");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_599058137(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(599058137L))
-            info.setReturnValue(null);
+            info.setReturnValue(1750426518);
     }
 
     @Inject(at = @At("HEAD"), method = "aboveRootProvider()Lnet/minecraft/world/level/levelgen/feature/stateproviders/BlockStateProvider;", cancellable = true)
@@ -34,7 +34,7 @@ public class AboveRootPlacement_560795396Mixin {
     @Inject(at = @At("HEAD"), method = "aboveRootPlacementChance()F", cancellable = true)
     private void aboveRootPlacementChance_599054758(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(599054758L))
-            info.setReturnValue(null);
+            info.setReturnValue(5.858075E8F);
     }
 
 

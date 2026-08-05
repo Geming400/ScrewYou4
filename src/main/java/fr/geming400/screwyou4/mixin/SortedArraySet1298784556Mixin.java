@@ -10,25 +10,25 @@ public class SortedArraySet1298784556Mixin {
         @Inject(at = @At("HEAD"), method = "remove(Ljava/lang/Object;)Z", cancellable = true)
     private void remove__1610670977(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1610670977L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "size()I", cancellable = true)
     private void size_1337046802(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1337046802L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1892183849);
     }
 
     @Inject(at = @At("HEAD"), method = "get(Ljava/lang/Object;)Ljava/lang/Object;", cancellable = true)
     private void get_1310862507(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1310862507L))
-            info.setReturnValue(null);
+            info.setReturnValue(new java.lang.Object());
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1610670977(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1610670977L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "clear()V", cancellable = true)
@@ -40,7 +40,7 @@ public class SortedArraySet1298784556Mixin {
     @Inject(at = @At("HEAD"), method = "add(Ljava/lang/Object;)Z", cancellable = true)
     private void add__1610670977(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1610670977L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toArray()[Ljava/lang/Object;", cancellable = true)
@@ -64,19 +64,19 @@ public class SortedArraySet1298784556Mixin {
     @Inject(at = @At("HEAD"), method = "contains(Ljava/lang/Object;)Z", cancellable = true)
     private void contains__1610670977(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1610670977L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "last()Ljava/lang/Object;", cancellable = true)
     private void last__1136990521(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1136990521L))
-            info.setReturnValue(null);
+            info.setReturnValue(new java.lang.Object());
     }
 
     @Inject(at = @At("HEAD"), method = "first()Ljava/lang/Object;", cancellable = true)
     private void first__1136990521(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1136990521L))
-            info.setReturnValue(null);
+            info.setReturnValue(new java.lang.Object());
     }
 
     @Inject(at = @At("HEAD"), method = "create(Ljava/util/Comparator;)Lnet/minecraft/util/SortedArraySet;", cancellable = true)
@@ -106,7 +106,7 @@ public class SortedArraySet1298784556Mixin {
     @Inject(at = @At("HEAD"), method = "addOrGet(Ljava/lang/Object;)Ljava/lang/Object;", cancellable = true)
     private void addOrGet_1310862507(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1310862507L))
-            info.setReturnValue(null);
+            info.setReturnValue(new java.lang.Object());
     }
 
 

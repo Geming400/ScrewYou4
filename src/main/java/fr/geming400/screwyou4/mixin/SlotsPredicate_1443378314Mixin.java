@@ -10,25 +10,25 @@ public class SlotsPredicate_1443378314Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1466076724(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1466076724L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_307918338(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(307918338L))
-            info.setReturnValue(null);
+            info.setReturnValue("(%AQw03tA}ppg밤#Z3N}eu(竘u镍ూIX=L<dR>ursGi!RT:喹wfTVXiᛕW4a芝C있<>:㦢i`0ℊ.XE傶魭*L ,0,4:8읫?*,Z쓱v+ISm墐ty");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1481641055(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1481641055L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1289737836);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/world/entity/SlotProvider;)Z", cancellable = true)
     private void matches_1734937773(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1734937773L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "slots()Ljava/util/Map;", cancellable = true)

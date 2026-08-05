@@ -16,7 +16,7 @@ public class ServerOpListEntry_1432898494Mixin {
     @Inject(at = @At("HEAD"), method = "getBypassesPlayerLimit()Z", cancellable = true)
     private void getBypassesPlayerLimit_1471177076(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1471177076L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
 

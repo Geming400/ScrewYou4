@@ -10,36 +10,36 @@ public class PackedScore1558456498Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1350998539(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1350998539L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_422996523(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(422996523L))
-            info.setReturnValue(null);
+            info.setReturnValue("LkeylB.Z!殍|$N8陗ႊ}\"か*RD;g %");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1596719240(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1596719240L))
-            info.setReturnValue(null);
+            info.setReturnValue(2095315584);
     }
 
     @Inject(at = @At("HEAD"), method = "owner()Ljava/lang/String;", cancellable = true)
     private void owner_422996027(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(422996027L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "score()Lnet/minecraft/world/scores/Score$Packed;", cancellable = true)
-    private void score__1539191793(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1539191793L))
-            info.setReturnValue(null);
+            info.setReturnValue("!Q6C[l_q,'莶褭Cla梗|#]LlY&T)5:hG+VNU]");
     }
 
     @Inject(at = @At("HEAD"), method = "objective()Ljava/lang/String;", cancellable = true)
     private void objective_422996027(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(422996027L))
+            info.setReturnValue("!Q6C[l_q,'莶褭Cla梗|#]LlY&T)5:hG+VNU]");
+    }
+
+    @Inject(at = @At("HEAD"), method = "score()Lnet/minecraft/world/scores/Score$Packed;", cancellable = true)
+    private void score__1539191793(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1539191793L))
             info.setReturnValue(null);
     }
 

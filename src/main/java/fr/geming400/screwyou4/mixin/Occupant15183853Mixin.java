@@ -10,19 +10,19 @@ public class Occupant15183853Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_1400696112(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1400696112L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__1120276122(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1120276122L))
-            info.setReturnValue(null);
+            info.setReturnValue("䬐u쒵N$jU}7b_*xpᎪ|뱤HB1#-m3ch|AM(G\"<N6n1懎IpY覛&']TP_QU+xV甈UtL}7vKp@03)A]B6ok^");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_53446595(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(53446595L))
-            info.setReturnValue(null);
+            info.setReturnValue(868034214);
     }
 
     @Inject(at = @At("HEAD"), method = "of(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/world/level/block/entity/BeehiveBlockEntity$Occupant;", cancellable = true)
@@ -43,21 +43,21 @@ public class Occupant15183853Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "entityData()Lnet/minecraft/world/item/component/TypedEntityData;", cancellable = true)
-    private void entityData_309576737(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(309576737L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "minTicksInHive()I", cancellable = true)
+    private void minTicksInHive_53446099(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(53446099L))
+            info.setReturnValue(1071181634);
     }
 
     @Inject(at = @At("HEAD"), method = "ticksInHive()I", cancellable = true)
     private void ticksInHive_53446099(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(53446099L))
-            info.setReturnValue(null);
+            info.setReturnValue(1071181634);
     }
 
-    @Inject(at = @At("HEAD"), method = "minTicksInHive()I", cancellable = true)
-    private void minTicksInHive_53446099(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(53446099L))
+    @Inject(at = @At("HEAD"), method = "entityData()Lnet/minecraft/world/item/component/TypedEntityData;", cancellable = true)
+    private void entityData_309576737(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(309576737L))
             info.setReturnValue(null);
     }
 

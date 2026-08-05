@@ -22,7 +22,7 @@ public class FoxPounceGoal_76497351Mixin {
     @Inject(at = @At("HEAD"), method = "canUse()Z", cancellable = true)
     private void canUse_114775933(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(114775933L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "tick()V", cancellable = true)
@@ -31,16 +31,16 @@ public class FoxPounceGoal_76497351Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "canContinueToUse()Z", cancellable = true)
-    private void canContinueToUse_114775933(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(114775933L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "isInterruptable()Z", cancellable = true)
     private void isInterruptable_114775933(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(114775933L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "canContinueToUse()Z", cancellable = true)
+    private void canContinueToUse_114775933(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(114775933L))
+            info.setReturnValue(true);
     }
 
 

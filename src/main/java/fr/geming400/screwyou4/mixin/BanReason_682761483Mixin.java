@@ -16,7 +16,7 @@ public class BanReason_682761483Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/client/multiplayer/chat/report/BanReason;", cancellable = true)
     private static void valueOf_1783838204(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1783838204L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.client.multiplayer.chat.report.BanReason.NUDITY_OR_PORNOGRAPHY);
     }
 
     @Inject(at = @At("HEAD"), method = "title()Lnet/minecraft/network/chat/Component;", cancellable = true)
@@ -28,7 +28,7 @@ public class BanReason_682761483Mixin {
     @Inject(at = @At("HEAD"), method = "byId(I)Lnet/minecraft/client/multiplayer/chat/report/BanReason;", cancellable = true)
     private static void byId_1457086637(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1457086637L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.client.multiplayer.chat.report.BanReason.GENERIC_VIOLATION);
     }
 
 

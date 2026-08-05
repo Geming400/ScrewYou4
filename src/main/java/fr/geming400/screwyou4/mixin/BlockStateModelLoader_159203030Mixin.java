@@ -10,7 +10,7 @@ public class BlockStateModelLoader_159203030Mixin {
         @Inject(at = @At("HEAD"), method = "loadBlockStates(Lnet/minecraft/server/packs/resources/ResourceManager;Ljava/util/concurrent/Executor;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
     private static void loadBlockStates__1751311067(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1751311067L))
-            info.setReturnValue(null);
+            info.setReturnValue(new java.util.concurrent.CompletableFuture());
     }
 
 

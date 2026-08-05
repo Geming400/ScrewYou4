@@ -10,13 +10,13 @@ public class DispenserBlockEntity950157649Mixin {
         @Inject(at = @At("HEAD"), method = "getContainerSize()I", cancellable = true)
     private void getContainerSize_988419895(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(988419895L))
-            info.setReturnValue(null);
+            info.setReturnValue(1361849367);
     }
 
     @Inject(at = @At("HEAD"), method = "getRandomSlot(Lnet/minecraft/util/RandomSource;)I", cancellable = true)
     private void getRandomSlot__756869929(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-756869929L))
-            info.setReturnValue(null);
+            info.setReturnValue(1719129001);
     }
 
     @Inject(at = @At("HEAD"), method = "insertItem(Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/world/item/ItemStack;", cancellable = true)

@@ -16,7 +16,7 @@ public class ServerReconfigScreen1764658932Mixin {
     @Inject(at = @At("HEAD"), method = "shouldCloseOnEsc()Z", cancellable = true)
     private void shouldCloseOnEsc_1802937515(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1802937515L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
 

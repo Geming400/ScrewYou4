@@ -10,7 +10,7 @@ public class KelpFeature_1081200118Mixin {
         @Inject(at = @At("HEAD"), method = "place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z", cancellable = true)
     private void place_1796457853(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1796457853L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
 

@@ -16,13 +16,13 @@ public class JsonRPCErrors1474395786Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/server/jsonrpc/JsonRPCErrors;", cancellable = true)
     private static void valueOf_349046248(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(349046248L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.server.jsonrpc.JsonRPCErrors.INTERNAL_ERROR);
     }
 
     @Inject(at = @At("HEAD"), method = "create(Lcom/google/gson/JsonElement;Ljava/lang/String;)Lcom/google/gson/JsonObject;", cancellable = true)
     private void create__203437332(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-203437332L))
-            info.setReturnValue(null);
+            info.setReturnValue(new com.google.gson.JsonObject());
     }
 
     @Inject(at = @At("HEAD"), method = "createWithoutData(Lcom/google/gson/JsonElement;)Lcom/google/gson/JsonObject;", cancellable = true)
@@ -34,7 +34,7 @@ public class JsonRPCErrors1474395786Mixin {
     @Inject(at = @At("HEAD"), method = "createWithUnknownId(Ljava/lang/String;)Lcom/google/gson/JsonObject;", cancellable = true)
     private void createWithUnknownId_53190699(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(53190699L))
-            info.setReturnValue(null);
+            info.setReturnValue(new com.google.gson.JsonObject());
     }
 
 

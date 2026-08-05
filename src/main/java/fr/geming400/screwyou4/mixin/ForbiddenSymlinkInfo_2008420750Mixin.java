@@ -10,7 +10,7 @@ public class ForbiddenSymlinkInfo_2008420750Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__901034288(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-901034288L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "target()Ljava/nio/file/Path;", cancellable = true)
@@ -22,13 +22,13 @@ public class ForbiddenSymlinkInfo_2008420750Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_872960774(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(872960774L))
-            info.setReturnValue(null);
+            info.setReturnValue("堅u!,㼜X('?gg.Hpi}5ff᪠U2lY@oa>qsQ!뾠1B訨〚IK\"lⅵ+6-0WS;yyv[\"1 U*}t?&?V.iQwfy`v!(%@p");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2046683491(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2046683491L))
-            info.setReturnValue(null);
+            info.setReturnValue(1705122625);
     }
 
     @Inject(at = @At("HEAD"), method = "link()Ljava/nio/file/Path;", cancellable = true)

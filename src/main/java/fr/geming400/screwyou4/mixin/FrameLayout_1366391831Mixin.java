@@ -25,21 +25,15 @@ public class FrameLayout_1366391831Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "newChildLayoutSettings()Lnet/minecraft/client/gui/layouts/LayoutSettings;", cancellable = true)
-    private void newChildLayoutSettings_1301412035(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1301412035L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "defaultChildLayoutSetting()Lnet/minecraft/client/gui/layouts/LayoutSettings;", cancellable = true)
     private void defaultChildLayoutSetting_1301412035(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1301412035L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "setMinDimensions(II)Lnet/minecraft/client/gui/layouts/FrameLayout;", cancellable = true)
-    private void setMinDimensions_207515895(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(207515895L))
+    @Inject(at = @At("HEAD"), method = "newChildLayoutSettings()Lnet/minecraft/client/gui/layouts/LayoutSettings;", cancellable = true)
+    private void newChildLayoutSettings_1301412035(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1301412035L))
             info.setReturnValue(null);
     }
 
@@ -47,6 +41,12 @@ public class FrameLayout_1366391831Mixin {
     private static void alignInDimension_1962733798(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1962733798L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "setMinDimensions(II)Lnet/minecraft/client/gui/layouts/FrameLayout;", cancellable = true)
+    private void setMinDimensions_207515895(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(207515895L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "arrangeElements()V", cancellable = true)
@@ -67,28 +67,28 @@ public class FrameLayout_1366391831Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "setMinWidth(I)Lnet/minecraft/client/gui/layouts/FrameLayout;", cancellable = true)
-    private void setMinWidth_764902462(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(764902462L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "visitChildren(Ljava/util/function/Consumer;)V", cancellable = true)
     private void visitChildren_2047408243(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(2047408243L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "removeChildren()V", cancellable = true)
-    private void removeChildren_1404666569(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1404666569L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "setMinWidth(I)Lnet/minecraft/client/gui/layouts/FrameLayout;", cancellable = true)
+    private void setMinWidth_764902462(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(764902462L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "setMinHeight(I)Lnet/minecraft/client/gui/layouts/FrameLayout;", cancellable = true)
     private void setMinHeight_764902462(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(764902462L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "removeChildren()V", cancellable = true)
+    private void removeChildren_1404666569(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1404666569L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "alignInRectangle(Lnet/minecraft/client/gui/layouts/LayoutElement;Lnet/minecraft/client/gui/navigation/ScreenRectangle;FF)V", cancellable = true)

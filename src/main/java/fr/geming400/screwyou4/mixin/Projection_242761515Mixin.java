@@ -10,7 +10,7 @@ public class Projection_242761515Mixin {
         @Inject(at = @At("HEAD"), method = "width()F", cancellable = true)
     private void width_281020877(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(281020877L))
-            info.setReturnValue(null);
+            info.setReturnValue(1.011344E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "setSize(FF)V", cancellable = true)
@@ -19,21 +19,33 @@ public class Projection_242761515Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "fov()F", cancellable = true)
-    private void fov_281020877(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "height()F", cancellable = true)
+    private void height_281020877(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(281020877L))
-            info.setReturnValue(null);
+            info.setReturnValue(1.011344E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "zFar()F", cancellable = true)
     private void zFar_281020877(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(281020877L))
-            info.setReturnValue(null);
+            info.setReturnValue(1.011344E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "zNear()F", cancellable = true)
     private void zNear_281020877(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(281020877L))
+            info.setReturnValue(1.011344E8F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "fov()F", cancellable = true)
+    private void fov_281020877(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(281020877L))
+            info.setReturnValue(1.011344E8F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getMatrix(Lorg/joml/Matrix4f;)Lorg/joml/Matrix4f;", cancellable = true)
+    private void getMatrix_676504287(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(676504287L))
             info.setReturnValue(null);
     }
 
@@ -41,24 +53,6 @@ public class Projection_242761515Mixin {
     private void setupOrtho_531273831(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(531273831L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "height()F", cancellable = true)
-    private void height_281020877(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(281020877L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "invertY()Z", cancellable = true)
-    private void invertY_281040097(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(281040097L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getMatrix(Lorg/joml/Matrix4f;)Lorg/joml/Matrix4f;", cancellable = true)
-    private void getMatrix_676504287(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(676504287L))
-            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "setupPerspective(FFFFF)V", cancellable = true)
@@ -70,7 +64,13 @@ public class Projection_242761515Mixin {
     @Inject(at = @At("HEAD"), method = "getMatrixVersion()J", cancellable = true)
     private void getMatrixVersion_281024721(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(281024721L))
-            info.setReturnValue(null);
+            info.setReturnValue(5315113242667961685L);
+    }
+
+    @Inject(at = @At("HEAD"), method = "invertY()Z", cancellable = true)
+    private void invertY_281040097(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(281040097L))
+            info.setReturnValue(true);
     }
 
 

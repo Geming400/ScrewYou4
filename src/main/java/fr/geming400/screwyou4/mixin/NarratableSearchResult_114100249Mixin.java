@@ -10,31 +10,31 @@ public class NarratableSearchResult_114100249Mixin {
         @Inject(at = @At("HEAD"), method = "index()I", cancellable = true)
     private void index_152362494(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(152362494L))
-            info.setReturnValue(null);
+            info.setReturnValue(-478188245);
     }
 
     @Inject(at = @At("HEAD"), method = "priority()Lnet/minecraft/client/gui/narration/NarratableEntry$NarrationPriority;", cancellable = true)
     private void priority_945822339(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(945822339L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.client.gui.narration.NarratableEntry.NarrationPriority.HOVERED);
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_1499612507(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1499612507L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__1021359727(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1021359727L))
-            info.setReturnValue(null);
+            info.setReturnValue("+oyWBp$nXi4莈WX落|箅_BⵋTӚ/`9`iR'G_?44fr?yO<rB#D@w4ZW窡");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_152362990(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(152362990L))
-            info.setReturnValue(null);
+            info.setReturnValue(-681335664);
     }
 
     @Inject(at = @At("HEAD"), method = "entry()Lnet/minecraft/client/gui/narration/NarratableEntry;", cancellable = true)

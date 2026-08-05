@@ -10,7 +10,7 @@ public class RegistryPatchGenerator_2101544484Mixin {
         @Inject(at = @At("HEAD"), method = "createLookup(Ljava/util/concurrent/CompletableFuture;Lnet/minecraft/core/RegistrySetBuilder;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
     private static void createLookup_1040954545(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1040954545L))
-            info.setReturnValue(null);
+            info.setReturnValue(new java.util.concurrent.CompletableFuture());
     }
 
 

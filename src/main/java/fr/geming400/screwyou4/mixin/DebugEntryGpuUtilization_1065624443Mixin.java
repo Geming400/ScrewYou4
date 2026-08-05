@@ -16,7 +16,7 @@ public class DebugEntryGpuUtilization_1065624443Mixin {
     @Inject(at = @At("HEAD"), method = "isAllowed(Z)Z", cancellable = true)
     private void isAllowed__1999722181(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1999722181L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
 

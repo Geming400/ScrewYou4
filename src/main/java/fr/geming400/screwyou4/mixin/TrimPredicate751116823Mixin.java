@@ -10,19 +10,19 @@ public class TrimPredicate751116823Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_2136629082(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2136629082L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__384343152(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-384343152L))
-            info.setReturnValue(null);
+            info.setReturnValue(";叢g+eRX䔫 m킎 .Mjx_u脱CL}jᾐ");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_789379565(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(789379565L))
-            info.setReturnValue(null);
+            info.setReturnValue(2107368390);
     }
 
     @Inject(at = @At("HEAD"), method = "componentType()Lnet/minecraft/core/component/DataComponentType;", cancellable = true)
@@ -34,13 +34,13 @@ public class TrimPredicate751116823Mixin {
     @Inject(at = @At("HEAD"), method = "matches(Ljava/lang/Object;)Z", cancellable = true)
     private void matches_2136757546(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2136757546L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/world/item/equipment/trim/ArmorTrim;)Z", cancellable = true)
     private void matches__530561979(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-530561979L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "pattern()Ljava/util/Optional;", cancellable = true)

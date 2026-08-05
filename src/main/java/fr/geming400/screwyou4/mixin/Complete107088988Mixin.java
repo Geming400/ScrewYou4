@@ -10,19 +10,19 @@ public class Complete107088988Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_1492601247(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1492601247L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__1028370987(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1028370987L))
-            info.setReturnValue(null);
+            info.setReturnValue("^Y*vAJ_kG-:+8:tk赽3莈⍐<U{oHr盗M1@");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_145351730(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(145351730L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1202243753);
     }
 
     @Inject(at = @At("HEAD"), method = "dimensions()Lnet/minecraft/core/Registry;", cancellable = true)
@@ -31,9 +31,9 @@ public class Complete107088988Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "specialWorldProperty()Lnet/minecraft/world/level/storage/PrimaryLevelData$SpecialWorldProperty;", cancellable = true)
-    private void specialWorldProperty_1389077482(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1389077482L))
+    @Inject(at = @At("HEAD"), method = "lifecycle()Lcom/mojang/serialization/Lifecycle;", cancellable = true)
+    private void lifecycle__924299442(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-924299442L))
             info.setReturnValue(null);
     }
 
@@ -43,10 +43,10 @@ public class Complete107088988Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "lifecycle()Lcom/mojang/serialization/Lifecycle;", cancellable = true)
-    private void lifecycle__924299442(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-924299442L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "specialWorldProperty()Lnet/minecraft/world/level/storage/PrimaryLevelData$SpecialWorldProperty;", cancellable = true)
+    private void specialWorldProperty_1389077482(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1389077482L))
+            info.setReturnValue(net.minecraft.world.level.storage.PrimaryLevelData.SpecialWorldProperty.FLAT);
     }
 
 

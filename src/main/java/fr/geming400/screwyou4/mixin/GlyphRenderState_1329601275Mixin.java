@@ -10,24 +10,30 @@ public class GlyphRenderState_1329601275Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1579853763(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1579853763L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_194141299(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(194141299L))
-            info.setReturnValue(null);
+            info.setReturnValue("E/hE-yIc}n*w,Pz㐕tdl|zUWS3^)x?z;.rhx⢤o좇결$g18?#e搫/?Mp:G@");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1367864016(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1367864016L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1507819707);
     }
 
     @Inject(at = @At("HEAD"), method = "bounds()Lnet/minecraft/client/gui/navigation/ScreenRectangle;", cancellable = true)
     private void bounds__1790340718(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1790340718L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "pose()Lorg/joml/Matrix3x2fc;", cancellable = true)
+    private void pose_1249212479(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1249212479L))
             info.setReturnValue(null);
     }
 
@@ -58,12 +64,6 @@ public class GlyphRenderState_1329601275Mixin {
     @Inject(at = @At("HEAD"), method = "pipeline()Lcom/mojang/blaze3d/pipeline/RenderPipeline;", cancellable = true)
     private void pipeline__1967957810(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1967957810L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "pose()Lorg/joml/Matrix3x2fc;", cancellable = true)
-    private void pose_1249212479(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1249212479L))
             info.setReturnValue(null);
     }
 

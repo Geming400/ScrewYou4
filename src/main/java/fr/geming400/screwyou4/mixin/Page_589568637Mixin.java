@@ -16,7 +16,7 @@ public class Page_589568637Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/client/gui/screens/social/SocialInteractionsScreen$Page;", cancellable = true)
     private static void valueOf_1124928799(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1124928799L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.client.gui.screens.social.SocialInteractionsScreen.Page.HIDDEN);
     }
 
 

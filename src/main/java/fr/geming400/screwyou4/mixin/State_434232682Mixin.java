@@ -16,7 +16,7 @@ public class State_434232682Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/client/gui/screens/social/RemoteFriendListUpdateHandler$State;", cancellable = true)
     private static void valueOf__1068342887(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1068342887L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.client.gui.screens.social.RemoteFriendListUpdateHandler.State.SUCCESS);
     }
 
 

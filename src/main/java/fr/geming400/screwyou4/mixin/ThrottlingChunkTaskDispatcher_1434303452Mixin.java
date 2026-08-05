@@ -10,7 +10,7 @@ public class ThrottlingChunkTaskDispatcher_1434303452Mixin {
         @Inject(at = @At("HEAD"), method = "getDebugStatus()Ljava/lang/String;", cancellable = true)
     private void getDebugStatus_298842980(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(298842980L))
-            info.setReturnValue(null);
+            info.setReturnValue("9y03iS!㠝/a锨溣AJMB.FhoSx:1jsy}L3K◌c\"s龎!30w29⾳*6ꔾEO.rcpg`셂bN");
     }
 
 

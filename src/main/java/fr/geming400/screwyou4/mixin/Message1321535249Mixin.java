@@ -10,19 +10,19 @@ public class Message1321535249Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1587919788(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1587919788L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_186075274(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(186075274L))
-            info.setReturnValue(null);
+            info.setReturnValue("qg9A䦱ATU&wAૠkD;X^듷郋=)᧒l숂=PIfXmW;*aD,+=ᲈw+W&HF+愦;#'鬠9I텱v|m|ꗁiꦈ4:}Va9^&A]B牾p4%듯0[d㈓ᑩ27垻줈U");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1359797991(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1359797991L))
-            info.setReturnValue(null);
+            info.setReturnValue(993372300);
     }
 
     @Inject(at = @At("HEAD"), method = "parts()[Lnet/minecraft/commands/arguments/MessageArgument$Part;", cancellable = true)
@@ -34,7 +34,7 @@ public class Message1321535249Mixin {
     @Inject(at = @At("HEAD"), method = "text()Ljava/lang/String;", cancellable = true)
     private void text_186074778(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(186074778L))
-            info.setReturnValue(null);
+            info.setReturnValue("즱y");
     }
 
     @Inject(at = @At("HEAD"), method = "parseText(Lcom/mojang/brigadier/StringReader;Z)Lnet/minecraft/commands/arguments/MessageArgument$Message;", cancellable = true)

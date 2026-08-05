@@ -22,13 +22,13 @@ public class SitWhenOrderedToGoal_1784819175Mixin {
     @Inject(at = @At("HEAD"), method = "canUse()Z", cancellable = true)
     private void canUse_1823097757(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1823097757L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "canContinueToUse()Z", cancellable = true)
     private void canContinueToUse_1823097757(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1823097757L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
 

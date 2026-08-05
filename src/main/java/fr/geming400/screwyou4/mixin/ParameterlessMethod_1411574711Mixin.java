@@ -10,19 +10,19 @@ public class ParameterlessMethod_1411574711Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1497880327(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1497880327L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_276114735(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(276114735L))
-            info.setReturnValue(null);
+            info.setReturnValue("J\"cUYUxiEeM]L븶9좟IexL");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1449837452(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1449837452L))
-            info.setReturnValue(null);
+            info.setReturnValue(-149365186);
     }
 
     @Inject(at = @At("HEAD"), method = "apply(Lnet/minecraft/server/jsonrpc/internalapi/MinecraftApi;Lcom/google/gson/JsonElement;Lnet/minecraft/server/jsonrpc/methods/ClientInfo;)Lcom/google/gson/JsonElement;", cancellable = true)

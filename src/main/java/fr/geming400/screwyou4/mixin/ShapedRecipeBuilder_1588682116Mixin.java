@@ -31,39 +31,9 @@ public class ShapedRecipeBuilder_1588682116Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "defaultId()Lnet/minecraft/resources/ResourceKey;", cancellable = true)
-    private void defaultId__1897793868(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1897793868L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "shaped(Lnet/minecraft/core/HolderGetter;Lnet/minecraft/data/recipes/RecipeCategory;Lnet/minecraft/world/level/ItemLike;)Lnet/minecraft/data/recipes/ShapedRecipeBuilder;", cancellable = true)
-    private static void shaped__648591131(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-648591131L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "shaped(Lnet/minecraft/core/HolderGetter;Lnet/minecraft/data/recipes/RecipeCategory;Lnet/minecraft/world/level/ItemLike;I)Lnet/minecraft/data/recipes/ShapedRecipeBuilder;", cancellable = true)
-    private static void shaped_1776328214(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1776328214L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "define(Ljava/lang/Character;Lnet/minecraft/tags/TagKey;)Lnet/minecraft/data/recipes/ShapedRecipeBuilder;", cancellable = true)
-    private void define_269936404(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(269936404L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "define(Ljava/lang/Character;Lnet/minecraft/world/item/crafting/Ingredient;)Lnet/minecraft/data/recipes/ShapedRecipeBuilder;", cancellable = true)
-    private void define_248668548(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(248668548L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "define(Ljava/lang/Character;Lnet/minecraft/world/level/ItemLike;)Lnet/minecraft/data/recipes/ShapedRecipeBuilder;", cancellable = true)
-    private void define_554253815(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(554253815L))
+    @Inject(at = @At("HEAD"), method = "unlockedBy(Ljava/lang/String;Lnet/minecraft/advancements/triggers/Criterion;)Lnet/minecraft/data/recipes/ShapedRecipeBuilder;", cancellable = true)
+    private void unlockedBy_423442410(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(423442410L))
             info.setReturnValue(null);
     }
 
@@ -73,9 +43,39 @@ public class ShapedRecipeBuilder_1588682116Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "unlockedBy(Ljava/lang/String;Lnet/minecraft/advancements/triggers/Criterion;)Lnet/minecraft/data/recipes/ShapedRecipeBuilder;", cancellable = true)
-    private void unlockedBy_423442410(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(423442410L))
+    @Inject(at = @At("HEAD"), method = "shaped(Lnet/minecraft/core/HolderGetter;Lnet/minecraft/data/recipes/RecipeCategory;Lnet/minecraft/world/level/ItemLike;I)Lnet/minecraft/data/recipes/ShapedRecipeBuilder;", cancellable = true)
+    private static void shaped_1776328214(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1776328214L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "shaped(Lnet/minecraft/core/HolderGetter;Lnet/minecraft/data/recipes/RecipeCategory;Lnet/minecraft/world/level/ItemLike;)Lnet/minecraft/data/recipes/ShapedRecipeBuilder;", cancellable = true)
+    private static void shaped__648591131(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-648591131L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "defaultId()Lnet/minecraft/resources/ResourceKey;", cancellable = true)
+    private void defaultId__1897793868(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1897793868L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "define(Ljava/lang/Character;Lnet/minecraft/world/item/crafting/Ingredient;)Lnet/minecraft/data/recipes/ShapedRecipeBuilder;", cancellable = true)
+    private void define_248668548(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(248668548L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "define(Ljava/lang/Character;Lnet/minecraft/tags/TagKey;)Lnet/minecraft/data/recipes/ShapedRecipeBuilder;", cancellable = true)
+    private void define_269936404(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(269936404L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "define(Ljava/lang/Character;Lnet/minecraft/world/level/ItemLike;)Lnet/minecraft/data/recipes/ShapedRecipeBuilder;", cancellable = true)
+    private void define_554253815(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(554253815L))
             info.setReturnValue(null);
     }
 

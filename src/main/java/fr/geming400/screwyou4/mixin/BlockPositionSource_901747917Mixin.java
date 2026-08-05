@@ -10,19 +10,19 @@ public class BlockPositionSource_901747917Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__2007707121(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2007707121L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__233712059(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-233712059L))
-            info.setReturnValue(null);
+            info.setReturnValue("ꍦaf<魝4씜倥bHU(솨jD]'UKQ");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_940010658(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(940010658L))
-            info.setReturnValue(null);
+            info.setReturnValue(804387080);
     }
 
     @Inject(at = @At("HEAD"), method = "getType()Lnet/minecraft/world/level/gameevent/PositionSourceType;", cancellable = true)

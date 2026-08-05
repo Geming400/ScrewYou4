@@ -10,19 +10,19 @@ public class UserBanDto1649453857Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1260001180(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1260001180L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_513993882(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(513993882L))
-            info.setReturnValue(null);
+            info.setReturnValue("[ㅻ$VKWS㷰4Y丕4W'KݠJh#T2,.We&,Cff4Ⴗ뿏U[b挢MY/1E");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1687716599(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1687716599L))
-            info.setReturnValue(null);
+            info.setReturnValue(-6069135);
     }
 
     @Inject(at = @At("HEAD"), method = "from(Lnet/minecraft/server/players/UserBanListEntry;)Lnet/minecraft/server/jsonrpc/methods/BanlistService$UserBanDto;", cancellable = true)

@@ -16,7 +16,7 @@ public class TextOverflow_1801961688Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/client/gui/components/StringWidget$TextOverflow;", cancellable = true)
     private static void valueOf_1965953076(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1965953076L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.client.gui.components.StringWidget.TextOverflow.CLAMPED);
     }
 
 

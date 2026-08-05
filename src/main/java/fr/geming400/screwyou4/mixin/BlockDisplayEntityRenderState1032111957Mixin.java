@@ -10,7 +10,7 @@ public class BlockDisplayEntityRenderState1032111957Mixin {
         @Inject(at = @At("HEAD"), method = "hasSubState()Z", cancellable = true)
     private void hasSubState_1070390540(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1070390540L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
 

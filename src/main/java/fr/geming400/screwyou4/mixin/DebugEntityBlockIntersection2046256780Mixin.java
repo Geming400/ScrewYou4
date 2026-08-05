@@ -16,13 +16,13 @@ public class DebugEntityBlockIntersection2046256780Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/util/debug/DebugEntityBlockIntersection;", cancellable = true)
     private static void valueOf_1092417757(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1092417757L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.util.debug.DebugEntityBlockIntersection.IN_BLOCK);
     }
 
     @Inject(at = @At("HEAD"), method = "color()I", cancellable = true)
     private void color_2084519026(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2084519026L))
-            info.setReturnValue(null);
+            info.setReturnValue(1391179351);
     }
 
 

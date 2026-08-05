@@ -16,13 +16,13 @@ public class CacheableFunction_1311052186Mixin {
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1598403348(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1598403348L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1349314431(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1349314431L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1875729434);
     }
 
     @Inject(at = @At("HEAD"), method = "getId()Lnet/minecraft/resources/Identifier;", cancellable = true)

@@ -19,15 +19,15 @@ public class BrewingStandBlock_137424951Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "newBlockEntity(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/entity/BlockEntity;", cancellable = true)
-    private void newBlockEntity__1448052705(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1448052705L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getTicker(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/entity/BlockEntityType;)Lnet/minecraft/world/level/block/entity/BlockEntityTicker;", cancellable = true)
     private void getTicker__1816042393(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1816042393L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "newBlockEntity(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/entity/BlockEntity;", cancellable = true)
+    private void newBlockEntity__1448052705(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1448052705L))
             info.setReturnValue(null);
     }
 

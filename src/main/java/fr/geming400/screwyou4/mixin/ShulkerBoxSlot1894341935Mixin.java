@@ -10,7 +10,7 @@ public class ShulkerBoxSlot1894341935Mixin {
         @Inject(at = @At("HEAD"), method = "mayPlace(Lnet/minecraft/world/item/ItemStack;)Z", cancellable = true)
     private void mayPlace__666090229(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-666090229L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
 

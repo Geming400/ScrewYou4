@@ -16,19 +16,19 @@ public class InputType431474854Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/client/InputType;", cancellable = true)
     private static void valueOf__1892368594(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1892368594L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isMouse()Z", cancellable = true)
-    private void isMouse_469753437(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(469753437L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.client.InputType.KEYBOARD_ARROW);
     }
 
     @Inject(at = @At("HEAD"), method = "isKeyboard()Z", cancellable = true)
     private void isKeyboard_469753437(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(469753437L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isMouse()Z", cancellable = true)
+    private void isMouse_469753437(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(469753437L))
+            info.setReturnValue(true);
     }
 
 

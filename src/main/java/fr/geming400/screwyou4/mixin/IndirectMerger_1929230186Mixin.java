@@ -10,7 +10,7 @@ public class IndirectMerger_1929230186Mixin {
         @Inject(at = @At("HEAD"), method = "size()I", cancellable = true)
     private void size_1967492431(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1967492431L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1994028781);
     }
 
     @Inject(at = @At("HEAD"), method = "getList()Lit/unimi/dsi/fastutil/doubles/DoubleList;", cancellable = true)
@@ -22,7 +22,7 @@ public class IndirectMerger_1929230186Mixin {
     @Inject(at = @At("HEAD"), method = "forMergedIndexes(Lnet/minecraft/world/phys/shapes/IndexMerger$IndexConsumer;)Z", cancellable = true)
     private void forMergedIndexes__1592514792(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1592514792L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
 

@@ -16,7 +16,7 @@ public class Attenuation_118547244Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/client/resources/sounds/SoundInstance$Attenuation;", cancellable = true)
     private static void valueOf__481657320(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-481657320L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.client.resources.sounds.SoundInstance.Attenuation.NONE);
     }
 
 

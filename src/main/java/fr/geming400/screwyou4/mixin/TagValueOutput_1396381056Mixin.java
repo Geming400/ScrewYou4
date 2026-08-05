@@ -64,7 +64,7 @@ public class TagValueOutput_1396381056Mixin {
     @Inject(at = @At("HEAD"), method = "isEmpty()Z", cancellable = true)
     private void isEmpty_1434659638(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1434659638L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "list(Ljava/lang/String;Lcom/mojang/serialization/Codec;)Lnet/minecraft/world/level/storage/ValueOutput$TypedOutputList;", cancellable = true)
@@ -85,33 +85,27 @@ public class TagValueOutput_1396381056Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "putString(Ljava/lang/String;Ljava/lang/String;)V", cancellable = true)
-    private void putString__1966398010(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1966398010L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "buildResult()Lnet/minecraft/nbt/CompoundTag;", cancellable = true)
-    private void buildResult__173841865(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-173841865L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "createWithContext(Lnet/minecraft/util/ProblemReporter;Lnet/minecraft/core/HolderLookup$Provider;)Lnet/minecraft/world/level/storage/TagValueOutput;", cancellable = true)
     private static void createWithContext_78380441(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(78380441L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "childrenList(Ljava/lang/String;)Lnet/minecraft/world/level/storage/ValueOutput$ValueOutputList;", cancellable = true)
-    private void childrenList_1390576479(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1390576479L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "putString(Ljava/lang/String;Ljava/lang/String;)V", cancellable = true)
+    private void putString__1966398010(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1966398010L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "storeNullable(Ljava/lang/String;Lcom/mojang/serialization/Codec;Ljava/lang/Object;)V", cancellable = true)
     private void storeNullable__200034081(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-200034081L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "putIntArray(Ljava/lang/String;[I)V", cancellable = true)
+    private void putIntArray_2106009610(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(2106009610L))
             info.cancel();
     }
 
@@ -121,10 +115,16 @@ public class TagValueOutput_1396381056Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "putIntArray(Ljava/lang/String;[I)V", cancellable = true)
-    private void putIntArray_2106009610(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(2106009610L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "childrenList(Ljava/lang/String;)Lnet/minecraft/world/level/storage/ValueOutput$ValueOutputList;", cancellable = true)
+    private void childrenList_1390576479(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1390576479L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "buildResult()Lnet/minecraft/nbt/CompoundTag;", cancellable = true)
+    private void buildResult__173841865(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-173841865L))
+            info.setReturnValue(null);
     }
 
 

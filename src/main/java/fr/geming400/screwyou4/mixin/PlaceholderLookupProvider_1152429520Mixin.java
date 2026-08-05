@@ -19,16 +19,16 @@ public class PlaceholderLookupProvider_1152429520Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "hasRegisteredPlaceholders()Z", cancellable = true)
-    private void hasRegisteredPlaceholders_1190708102(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1190708102L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "createSwapper()Lnet/minecraft/util/RegistryContextSwapper;", cancellable = true)
     private void createSwapper__49084158(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-49084158L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "hasRegisteredPlaceholders()Z", cancellable = true)
+    private void hasRegisteredPlaceholders_1190708102(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1190708102L))
+            info.setReturnValue(false);
     }
 
 

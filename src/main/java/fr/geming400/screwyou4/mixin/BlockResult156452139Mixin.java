@@ -10,19 +10,19 @@ public class BlockResult156452139Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_1541964398(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1541964398L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__979007836(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-979007836L))
-            info.setReturnValue(null);
+            info.setReturnValue("}2%'JC)iQI7)\"濠Ow#H|l<'很 W=邀)(ӛqMHA`WO_&Ygʳ=bdi@'HE&qCUh #,in[n3");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_194714881(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(194714881L))
-            info.setReturnValue(null);
+            info.setReturnValue(422728553);
     }
 
     @Inject(at = @At("HEAD"), method = "properties()Ljava/util/Map;", cancellable = true)
@@ -34,7 +34,7 @@ public class BlockResult156452139Mixin {
     @Inject(at = @At("HEAD"), method = "nbt()Lnet/minecraft/nbt/CompoundTag;", cancellable = true)
     private void nbt__1413770781(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1413770781L))
-            info.setReturnValue(null);
+            info.setReturnValue(new net.minecraft.nbt.CompoundTag());
     }
 
     @Inject(at = @At("HEAD"), method = "blockState()Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)

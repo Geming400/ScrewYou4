@@ -10,36 +10,36 @@ public class Texture2087095830Mixin {
         @Inject(at = @At("HEAD"), method = "name()Ljava/lang/String;", cancellable = true)
     private void name_951635359(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(951635359L))
-            info.setReturnValue(null);
+            info.setReturnValue("C_v⸟6,F莯");
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__822359207(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-822359207L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_951635855(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(951635855L))
-            info.setReturnValue(null);
+            info.setReturnValue("nywNZiZ鲬*_,/%t@]DC?B98SG)7d<M[#g`pAH|vw%䰻r%><@,aJƼ삯?wb5וּᶷ?B㶵=va!7iJ塤oM賌yPઔG NB㧟xJ}gB`pU^ឰj,k[ 䖻|5");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2125358572(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2125358572L))
+            info.setReturnValue(346269835);
+    }
+
+    @Inject(at = @At("HEAD"), method = "sampler()Lcom/mojang/blaze3d/textures/GpuSampler;", cancellable = true)
+    private void sampler_1740317980(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1740317980L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "textureView()Lcom/mojang/blaze3d/textures/GpuTextureView;", cancellable = true)
     private void textureView__313518780(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-313518780L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "sampler()Lcom/mojang/blaze3d/textures/GpuSampler;", cancellable = true)
-    private void sampler_1740317980(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1740317980L))
             info.setReturnValue(null);
     }
 

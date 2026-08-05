@@ -13,9 +13,9 @@ public class MinecraftServerStateServiceImpl_1915469050Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "sendSystemMessage(Lnet/minecraft/network/chat/Component;Lnet/minecraft/server/jsonrpc/methods/ClientInfo;)V", cancellable = true)
-    private void sendSystemMessage__755013425(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-755013425L))
+    @Inject(at = @At("HEAD"), method = "broadcastSystemMessage(Lnet/minecraft/network/chat/Component;ZLnet/minecraft/server/jsonrpc/methods/ClientInfo;)V", cancellable = true)
+    private void broadcastSystemMessage_1423048877(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1423048877L))
             info.cancel();
     }
 
@@ -25,22 +25,22 @@ public class MinecraftServerStateServiceImpl_1915469050Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "sendSystemMessage(Lnet/minecraft/network/chat/Component;Lnet/minecraft/server/jsonrpc/methods/ClientInfo;)V", cancellable = true)
+    private void sendSystemMessage__755013425(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-755013425L))
+            info.cancel();
+    }
+
     @Inject(at = @At("HEAD"), method = "isReady()Z", cancellable = true)
     private void isReady_1953747632(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1953747632L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "broadcastSystemMessage(Lnet/minecraft/network/chat/Component;ZLnet/minecraft/server/jsonrpc/methods/ClientInfo;)V", cancellable = true)
-    private void broadcastSystemMessage_1423048877(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1423048877L))
-            info.cancel();
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "saveEverything(ZZZLnet/minecraft/server/jsonrpc/methods/ClientInfo;)Z", cancellable = true)
     private void saveEverything_1514464477(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1514464477L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
 

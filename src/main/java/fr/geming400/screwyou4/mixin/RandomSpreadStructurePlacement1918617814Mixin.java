@@ -16,25 +16,25 @@ public class RandomSpreadStructurePlacement1918617814Mixin {
     @Inject(at = @At("HEAD"), method = "spacing()I", cancellable = true)
     private void spacing_1956880060(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1956880060L))
-            info.setReturnValue(null);
+            info.setReturnValue(2059289706);
     }
 
     @Inject(at = @At("HEAD"), method = "separation()I", cancellable = true)
     private void separation_1956880060(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1956880060L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "spreadType()Lnet/minecraft/world/level/levelgen/structure/placement/RandomSpreadType;", cancellable = true)
-    private void spreadType_537646717(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(537646717L))
-            info.setReturnValue(null);
+            info.setReturnValue(2059289706);
     }
 
     @Inject(at = @At("HEAD"), method = "getPotentialStructureChunk(JII)Lnet/minecraft/world/level/ChunkPos;", cancellable = true)
     private void getPotentialStructureChunk__2023739481(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2023739481L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "spreadType()Lnet/minecraft/world/level/levelgen/structure/placement/RandomSpreadType;", cancellable = true)
+    private void spreadType_537646717(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(537646717L))
+            info.setReturnValue(net.minecraft.world.level.levelgen.structure.placement.RandomSpreadType.TRIANGULAR);
     }
 
 

@@ -10,7 +10,7 @@ public class Draw_1942968232Mixin {
         @Inject(at = @At("HEAD"), method = "isEmpty()Z", cancellable = true)
     private void isEmpty_1981246814(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1981246814L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
 

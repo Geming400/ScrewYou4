@@ -10,25 +10,25 @@ public class QuickPlayDisabled_464659681Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_1850171939(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1850171939L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__670800295(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-670800295L))
-            info.setReturnValue(null);
+            info.setReturnValue("t]&(X<UM6hxI0;&;L圙ZXma?>N{젬hᤷLir虛Zf9癩1W－磷z?5Sꌉ7rB'8H'<% =xYgxcru+");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_502922422(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(502922422L))
-            info.setReturnValue(null);
+            info.setReturnValue(-326314199);
     }
 
     @Inject(at = @At("HEAD"), method = "isEnabled()Z", cancellable = true)
     private void isEnabled_502938263(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(502938263L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
 

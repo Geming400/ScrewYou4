@@ -10,31 +10,31 @@ public class StructureCheck_446083581Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_1831595839(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1831595839L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__689376395(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-689376395L))
-            info.setReturnValue(null);
+            info.setReturnValue("y)gE<M6sX_Z郟DMW'Wco|Mj+Q;-ἱo헑鋬zH#췯QUkGᏸ>hVx<`$B2bKs+lDH^葈Q@*oP)_hKj|OS0V c%M[L祸?JFvz>㴃-ꁢ");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_484346322(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(484346322L))
-            info.setReturnValue(null);
+            info.setReturnValue(1504270415);
     }
 
     @Inject(at = @At("HEAD"), method = "test(Ljava/lang/Object;)Z", cancellable = true)
     private void test_1831724303(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1831724303L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "test(Lnet/minecraft/world/entity/variant/SpawnContext;)Z", cancellable = true)
     private void test_1422399889(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1422399889L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)

@@ -22,7 +22,7 @@ public class Block_402730254Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/world/level/ClipContext$Block;", cancellable = true)
     private static void valueOf_1471601319(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1471601319L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.level.ClipContext.Block.COLLIDER);
     }
 
 

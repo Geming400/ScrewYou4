@@ -10,7 +10,7 @@ public class StrollThroughVillageGoal_646930418Mixin {
         @Inject(at = @At("HEAD"), method = "canUse()Z", cancellable = true)
     private void canUse_685209000(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(685209000L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "tick()V", cancellable = true)
@@ -22,7 +22,7 @@ public class StrollThroughVillageGoal_646930418Mixin {
     @Inject(at = @At("HEAD"), method = "canContinueToUse()Z", cancellable = true)
     private void canContinueToUse_685209000(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(685209000L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
 

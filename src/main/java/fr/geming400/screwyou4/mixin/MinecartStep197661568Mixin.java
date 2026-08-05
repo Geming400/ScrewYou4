@@ -10,19 +10,19 @@ public class MinecartStep197661568Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_1583173827(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1583173827L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__937798407(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-937798407L))
-            info.setReturnValue(null);
+            info.setReturnValue("}j7t댌[2s5,u馞d;0:ᣋ0<YBFL!vὕVapF+윂y`=4yC(EqERq&z㟼xu뾌진?p缉팜Z\"cN.ib*kx{($㢍X涉");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_235924310(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(235924310L))
-            info.setReturnValue(null);
+            info.setReturnValue(-18877397);
     }
 
     @Inject(at = @At("HEAD"), method = "position()Lnet/minecraft/world/phys/Vec3;", cancellable = true)
@@ -34,7 +34,7 @@ public class MinecartStep197661568Mixin {
     @Inject(at = @At("HEAD"), method = "weight()F", cancellable = true)
     private void weight_235920931(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(235920931L))
-            info.setReturnValue(null);
+            info.setReturnValue(1.64211E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "movement()Lnet/minecraft/world/phys/Vec3;", cancellable = true)
@@ -46,13 +46,13 @@ public class MinecartStep197661568Mixin {
     @Inject(at = @At("HEAD"), method = "xRot()F", cancellable = true)
     private void xRot_235920931(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(235920931L))
-            info.setReturnValue(null);
+            info.setReturnValue(1.64211E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "yRot()F", cancellable = true)
     private void yRot_235920931(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(235920931L))
-            info.setReturnValue(null);
+            info.setReturnValue(1.64211E8F);
     }
 
 

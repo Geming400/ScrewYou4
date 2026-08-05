@@ -10,19 +10,19 @@ public class Fallsounds_573457055Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_1958969313(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1958969313L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__562002921(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-562002921L))
-            info.setReturnValue(null);
+            info.setReturnValue("rXwr蓾BzGIf缏빏q5!ᤧLDqQ!X땇e)6?Z젍f9=/zTp錈఼OfFSX.(Im,");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_611719796(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(611719796L))
-            info.setReturnValue(null);
+            info.setReturnValue(-927407413);
     }
 
     @Inject(at = @At("HEAD"), method = "big()Lnet/minecraft/sounds/SoundEvent;", cancellable = true)

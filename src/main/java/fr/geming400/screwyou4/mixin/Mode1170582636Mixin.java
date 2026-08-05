@@ -16,7 +16,7 @@ public class Mode1170582636Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/world/level/block/entity/CommandBlockEntity$Mode;", cancellable = true)
     private static void valueOf__717265548(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-717265548L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.level.block.entity.CommandBlockEntity.Mode.REDSTONE);
     }
 
 

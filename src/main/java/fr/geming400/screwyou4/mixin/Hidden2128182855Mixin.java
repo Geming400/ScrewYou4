@@ -10,25 +10,25 @@ public class Hidden2128182855Mixin {
         @Inject(at = @At("HEAD"), method = "type()Lnet/minecraft/world/item/component/ItemAttributeModifiers$Display$Type;", cancellable = true)
     private void type_2097246853(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2097246853L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.item.component.ItemAttributeModifiers.Display.Type.HIDDEN);
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__781272182(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-781272182L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_992722880(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(992722880L))
-            info.setReturnValue(null);
+            info.setReturnValue("/@=8SbuLI\"9鋫']㘌c閶97|盚|馬;L+崷?LX``U?v/F QJu,");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__2128521699(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2128521699L))
-            info.setReturnValue(null);
+            info.setReturnValue(313419340);
     }
 
     @Inject(at = @At("HEAD"), method = "apply(Ljava/util/function/Consumer;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/core/Holder;Lnet/minecraft/world/entity/ai/attributes/AttributeModifier;)V", cancellable = true)

@@ -16,7 +16,7 @@ public class Visibility137885909Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/client/gui/components/toasts/Toast$Visibility;", cancellable = true)
     private static void valueOf__1066668386(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1066668386L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.client.gui.components.toasts.Toast.Visibility.SHOW);
     }
 
     @Inject(at = @At("HEAD"), method = "playSound(Lnet/minecraft/client/sounds/SoundManager;)V", cancellable = true)

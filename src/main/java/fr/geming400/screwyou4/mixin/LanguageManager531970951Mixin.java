@@ -13,10 +13,10 @@ public class LanguageManager531970951Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getLanguages()Ljava/util/SortedMap;", cancellable = true)
-    private void getLanguages__1559817396(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1559817396L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "onResourceManagerReload(Lnet/minecraft/server/packs/resources/ResourceManager;)V", cancellable = true)
+    private void onResourceManagerReload_630992833(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(630992833L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "setSelected(Ljava/lang/String;)V", cancellable = true)
@@ -25,15 +25,15 @@ public class LanguageManager531970951Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "onResourceManagerReload(Lnet/minecraft/server/packs/resources/ResourceManager;)V", cancellable = true)
-    private void onResourceManagerReload_630992833(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(630992833L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "getSelected()Ljava/lang/String;", cancellable = true)
     private void getSelected__603489520(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-603489520L))
+            info.setReturnValue("]涎w頵z'");
+    }
+
+    @Inject(at = @At("HEAD"), method = "getLanguages()Ljava/util/SortedMap;", cancellable = true)
+    private void getLanguages__1559817396(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1559817396L))
             info.setReturnValue(null);
     }
 

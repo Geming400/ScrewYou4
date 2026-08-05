@@ -10,31 +10,31 @@ public class EncodeToFieldFailedProblem194927183Mixin {
         @Inject(at = @At("HEAD"), method = "name()Ljava/lang/String;", cancellable = true)
     private void name__940533288(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-940533288L))
-            info.setReturnValue(null);
+            info.setReturnValue("fN3`o㱃:햄INా#ꢋV唻38O*伱k(″Zx!xGbG9KH柦");
     }
 
     @Inject(at = @At("HEAD"), method = "value()Ljava/lang/Object;", cancellable = true)
     private void value_2054119402(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2054119402L))
-            info.setReturnValue(null);
+            info.setReturnValue(new java.lang.Object());
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_1580439442(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1580439442L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__940532792(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-940532792L))
-            info.setReturnValue(null);
+            info.setReturnValue("3g-ᎴD5쟼;ssKH]w=fA'J#khxLTyT#\",PB 0iIⰶI嗷KT6p;X)X*Z2MI66l*%bk-2릮'C+q$GE騔@O$緑 nh");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_233189925(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(233189925L))
-            info.setReturnValue(null);
+            info.setReturnValue(1714512029);
     }
 
     @Inject(at = @At("HEAD"), method = "error()Lcom/mojang/serialization/DataResult$Error;", cancellable = true)
@@ -46,7 +46,7 @@ public class EncodeToFieldFailedProblem194927183Mixin {
     @Inject(at = @At("HEAD"), method = "description()Ljava/lang/String;", cancellable = true)
     private void description__940533288(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-940533288L))
-            info.setReturnValue(null);
+            info.setReturnValue("fN3`o㱃:햄INా#ꢋV唻38O*伱k(″Zx!xGbG9KH柦");
     }
 
 

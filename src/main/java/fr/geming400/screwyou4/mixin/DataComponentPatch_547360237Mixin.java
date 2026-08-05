@@ -10,37 +10,37 @@ public class DataComponentPatch_547360237Mixin {
         @Inject(at = @At("HEAD"), method = "size()I", cancellable = true)
     private void size_585622482(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(585622482L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1690376629);
     }
 
     @Inject(at = @At("HEAD"), method = "get(Lnet/minecraft/core/component/DataComponentGetter;Lnet/minecraft/core/component/DataComponentType;)Ljava/lang/Object;", cancellable = true)
     private void get_312378296(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(312378296L))
-            info.setReturnValue(null);
+            info.setReturnValue(new java.lang.Object());
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_1932871999(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1932871999L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__588100235(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-588100235L))
-            info.setReturnValue(null);
+            info.setReturnValue("[h{Al=믾<_Uau`*n]_ !5Odh]征*B,Dhꡞ84`\"-gPC<b<0s^L瓑N5Hx}Aꞏm촚l<w=LL");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_585622482(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(585622482L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1690376629);
     }
 
     @Inject(at = @At("HEAD"), method = "isEmpty()Z", cancellable = true)
     private void isEmpty_585638819(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(585638819L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "split()Lnet/minecraft/core/component/DataComponentPatch$SplitResult;", cancellable = true)

@@ -7,13 +7,7 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.client.resources.sounds.SimpleSoundInstance.class)
 public class SimpleSoundInstance447308740Mixin {
-        @Inject(at = @At("HEAD"), method = "forMusic(Lnet/minecraft/sounds/SoundEvent;)Lnet/minecraft/client/resources/sounds/SimpleSoundInstance;", cancellable = true)
-    private static void forMusic__590164716(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-590164716L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "forUI(Lnet/minecraft/core/Holder;F)Lnet/minecraft/client/resources/sounds/SimpleSoundInstance;", cancellable = true)
+        @Inject(at = @At("HEAD"), method = "forUI(Lnet/minecraft/core/Holder;F)Lnet/minecraft/client/resources/sounds/SimpleSoundInstance;", cancellable = true)
     private static void forUI__1643836698(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1643836698L))
             info.setReturnValue(null);
@@ -31,14 +25,20 @@ public class SimpleSoundInstance447308740Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "forAmbientAddition(Lnet/minecraft/sounds/SoundEvent;)Lnet/minecraft/client/resources/sounds/SimpleSoundInstance;", cancellable = true)
+    private static void forAmbientAddition__590164716(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-590164716L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "forAmbientMood(Lnet/minecraft/sounds/SoundEvent;Lnet/minecraft/util/RandomSource;DDD)Lnet/minecraft/client/resources/sounds/SimpleSoundInstance;", cancellable = true)
     private static void forAmbientMood__1140752280(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1140752280L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "forAmbientAddition(Lnet/minecraft/sounds/SoundEvent;)Lnet/minecraft/client/resources/sounds/SimpleSoundInstance;", cancellable = true)
-    private static void forAmbientAddition__590164716(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "forMusic(Lnet/minecraft/sounds/SoundEvent;)Lnet/minecraft/client/resources/sounds/SimpleSoundInstance;", cancellable = true)
+    private static void forMusic__590164716(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-590164716L))
             info.setReturnValue(null);
     }

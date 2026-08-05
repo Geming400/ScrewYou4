@@ -28,19 +28,13 @@ public class Timeline_1693331375Mixin {
     @Inject(at = @At("HEAD"), method = "getTotalTicks(Lnet/minecraft/world/clock/ClockManager;)J", cancellable = true)
     private void getTotalTicks__611369677(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-611369677L))
-            info.setReturnValue(null);
+            info.setReturnValue(8605184002610933284L);
     }
 
     @Inject(at = @At("HEAD"), method = "getPeriodCount(Lnet/minecraft/world/clock/ClockManager;)I", cancellable = true)
     private void getPeriodCount__611370638(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-611370638L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "periodTicks()Ljava/util/Optional;", cancellable = true)
-    private void periodTicks_1938792796(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1938792796L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1870513473);
     }
 
     @Inject(at = @At("HEAD"), method = "validateRegistry(Lnet/minecraft/core/Registry;Ljava/util/Map;)V", cancellable = true)
@@ -49,10 +43,16 @@ public class Timeline_1693331375Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "periodTicks()Ljava/util/Optional;", cancellable = true)
+    private void periodTicks_1938792796(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1938792796L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "getCurrentTicks(Lnet/minecraft/world/clock/ClockManager;)J", cancellable = true)
     private void getCurrentTicks__611369677(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-611369677L))
-            info.setReturnValue(null);
+            info.setReturnValue(8605184002610933284L);
     }
 
     @Inject(at = @At("HEAD"), method = "registerTimeMarkers(Ljava/util/function/BiConsumer;)V", cancellable = true)

@@ -16,7 +16,7 @@ public class DataItem620568846Mixin {
     @Inject(at = @At("HEAD"), method = "getValue()Ljava/lang/Object;", cancellable = true)
     private void getValue__1815206231(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1815206231L))
-            info.setReturnValue(null);
+            info.setReturnValue(new java.lang.Object());
     }
 
     @Inject(at = @At("HEAD"), method = "setValue(Ljava/lang/Object;)V", cancellable = true)
@@ -34,7 +34,7 @@ public class DataItem620568846Mixin {
     @Inject(at = @At("HEAD"), method = "isDirty()Z", cancellable = true)
     private void isDirty_658847429(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(658847429L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "setDirty(Z)V", cancellable = true)
@@ -46,7 +46,7 @@ public class DataItem620568846Mixin {
     @Inject(at = @At("HEAD"), method = "isSetToDefault()Z", cancellable = true)
     private void isSetToDefault_658847429(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(658847429L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
 

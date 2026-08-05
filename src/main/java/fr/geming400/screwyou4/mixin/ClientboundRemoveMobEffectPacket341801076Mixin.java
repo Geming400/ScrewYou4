@@ -16,19 +16,19 @@ public class ClientboundRemoveMobEffectPacket341801076Mixin {
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_1727313335(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1727313335L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__793658899(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-793658899L))
-            info.setReturnValue(null);
+            info.setReturnValue("VV/O먣_艧(5뺾`!8sNY씱=}s[Ux7}jUM=l70\"ꂗ@,$eȴJ{2:ᓐ8Q슞L5W]kq霋姡}.A9");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_380063818(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(380063818L))
-            info.setReturnValue(null);
+            info.setReturnValue(719389491);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/protocol/game/ClientGamePacketListener;)V", cancellable = true)
@@ -58,7 +58,7 @@ public class ClientboundRemoveMobEffectPacket341801076Mixin {
     @Inject(at = @At("HEAD"), method = "entityId()I", cancellable = true)
     private void entityId_380063322(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(380063322L))
-            info.setReturnValue(null);
+            info.setReturnValue(-653394584);
     }
 
 

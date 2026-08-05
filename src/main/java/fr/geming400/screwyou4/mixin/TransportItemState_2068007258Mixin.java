@@ -16,7 +16,7 @@ public class TransportItemState_2068007258Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/world/entity/ai/behavior/TransportItemsBetweenContainers$TransportItemState;", cancellable = true)
     private static void valueOf__795995752(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-795995752L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.entity.ai.behavior.TransportItemsBetweenContainers.TransportItemState.QUEUING);
     }
 
 

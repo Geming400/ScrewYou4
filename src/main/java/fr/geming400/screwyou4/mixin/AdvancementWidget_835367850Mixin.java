@@ -10,7 +10,7 @@ public class AdvancementWidget_835367850Mixin {
         @Inject(at = @At("HEAD"), method = "getY()I", cancellable = true)
     private void getY_873630095(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(873630095L))
-            info.setReturnValue(null);
+            info.setReturnValue(-321736666);
     }
 
     @Inject(at = @At("HEAD"), method = "addChild(Lnet/minecraft/client/gui/screens/advancements/AdvancementWidget;)V", cancellable = true)
@@ -22,30 +22,30 @@ public class AdvancementWidget_835367850Mixin {
     @Inject(at = @At("HEAD"), method = "getX()I", cancellable = true)
     private void getX_873630095(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(873630095L))
-            info.setReturnValue(null);
+            info.setReturnValue(-321736666);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isMouseOver(IIII)Z", cancellable = true)
+    private void isMouseOver__1845256288(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1845256288L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "getWidth()I", cancellable = true)
     private void getWidth_873630095(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(873630095L))
-            info.setReturnValue(null);
+            info.setReturnValue(-321736666);
+    }
+
+    @Inject(at = @At("HEAD"), method = "setProgress(Lnet/minecraft/advancements/AdvancementProgress;)V", cancellable = true)
+    private void setProgress__2011569658(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-2011569658L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/client/gui/GuiGraphicsExtractor;II)V", cancellable = true)
     private void extractRenderState_2050541681(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(2050541681L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "extractConnectivity(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIZ)V", cancellable = true)
-    private void extractConnectivity__105849103(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-105849103L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "extractHover(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIFII)V", cancellable = true)
-    private void extractHover__1424393283(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1424393283L))
             info.cancel();
     }
 
@@ -55,16 +55,16 @@ public class AdvancementWidget_835367850Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "setProgress(Lnet/minecraft/advancements/AdvancementProgress;)V", cancellable = true)
-    private void setProgress__2011569658(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-2011569658L))
+    @Inject(at = @At("HEAD"), method = "extractHover(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIFII)V", cancellable = true)
+    private void extractHover__1424393283(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1424393283L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "isMouseOver(IIII)Z", cancellable = true)
-    private void isMouseOver__1845256288(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1845256288L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "extractConnectivity(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIZ)V", cancellable = true)
+    private void extractConnectivity__105849103(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-105849103L))
+            info.cancel();
     }
 
 

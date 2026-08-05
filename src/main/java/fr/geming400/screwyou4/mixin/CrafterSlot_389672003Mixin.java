@@ -10,7 +10,7 @@ public class CrafterSlot_389672003Mixin {
         @Inject(at = @At("HEAD"), method = "mayPlace(Lnet/minecraft/world/item/ItemStack;)Z", cancellable = true)
     private void mayPlace_2124207134(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2124207134L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "setChanged()V", cancellable = true)

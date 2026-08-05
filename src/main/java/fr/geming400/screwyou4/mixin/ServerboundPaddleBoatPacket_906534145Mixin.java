@@ -25,16 +25,16 @@ public class ServerboundPaddleBoatPacket_906534145Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getRight()Z", cancellable = true)
-    private void getRight_944812727(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(944812727L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getLeft()Z", cancellable = true)
     private void getLeft_944812727(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(944812727L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getRight()Z", cancellable = true)
+    private void getRight_944812727(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(944812727L))
+            info.setReturnValue(true);
     }
 
 

@@ -10,43 +10,43 @@ public class MouseButtonEvent446433199Mixin {
         @Inject(at = @At("HEAD"), method = "modifiers()I", cancellable = true)
     private void modifiers_484695445(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(484695445L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1548536975);
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_1831945458(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1831945458L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__689026776(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-689026776L))
-            info.setReturnValue(null);
+            info.setReturnValue("㡠愨iJt䇟Qo^&>q⏙7at퀌<Ota&q蓥{&k*");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_484695941(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(484695941L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1745683494);
     }
 
     @Inject(at = @At("HEAD"), method = "x()D", cancellable = true)
     private void x_484690640(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(484690640L))
-            info.setReturnValue(null);
+            info.setReturnValue(7.610766001143707E8D);
     }
 
     @Inject(at = @At("HEAD"), method = "input()I", cancellable = true)
     private void input_484695445(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(484695445L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1542536075);
     }
 
     @Inject(at = @At("HEAD"), method = "y()D", cancellable = true)
     private void y_484690640(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(484690640L))
-            info.setReturnValue(null);
+            info.setReturnValue(7.610766001143707E8D);
     }
 
     @Inject(at = @At("HEAD"), method = "buttonInfo()Lnet/minecraft/client/input/MouseButtonInfo;", cancellable = true)
@@ -58,7 +58,7 @@ public class MouseButtonEvent446433199Mixin {
     @Inject(at = @At("HEAD"), method = "button()I", cancellable = true)
     private void button_484695445(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(484695445L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1542536075);
     }
 
 

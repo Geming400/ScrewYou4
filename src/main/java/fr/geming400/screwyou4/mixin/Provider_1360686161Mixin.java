@@ -10,18 +10,24 @@ public class Provider_1360686161Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1548768877(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1548768877L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_225226185(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(225226185L))
-            info.setReturnValue(null);
+            info.setReturnValue("X@{[^!!snꈟ%|x%2rN'[P{쏞EEEkv?rT⡟G7+F^|'H&w^aI!pIⱉP,籀TaTC|Dl㼁nX썕EB䬈%y2ਚn;莜AfMUU4%vG");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1398948902(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1398948902L))
+            info.setReturnValue(1564493534);
+    }
+
+    @Inject(at = @At("HEAD"), method = "sprite()Lnet/minecraft/client/particle/SpriteSet;", cancellable = true)
+    private void sprite__218823920(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-218823920L))
             info.setReturnValue(null);
     }
 
@@ -34,12 +40,6 @@ public class Provider_1360686161Mixin {
     @Inject(at = @At("HEAD"), method = "createParticle(Lnet/minecraft/core/particles/ParticleOptions;Lnet/minecraft/client/multiplayer/ClientLevel;DDDDDDLnet/minecraft/util/RandomSource;)Lnet/minecraft/client/particle/Particle;", cancellable = true)
     private void createParticle__1073372689(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1073372689L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "sprite()Lnet/minecraft/client/particle/SpriteSet;", cancellable = true)
-    private void sprite__218823920(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-218823920L))
             info.setReturnValue(null);
     }
 

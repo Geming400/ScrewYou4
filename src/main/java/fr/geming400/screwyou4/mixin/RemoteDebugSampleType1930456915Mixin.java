@@ -16,7 +16,7 @@ public class RemoteDebugSampleType1930456915Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/util/debugchart/RemoteDebugSampleType;", cancellable = true)
     private static void valueOf__1781902381(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1781902381L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.util.debugchart.RemoteDebugSampleType.TICK_TIME);
     }
 
     @Inject(at = @At("HEAD"), method = "subscription()Lnet/minecraft/util/debug/DebugSubscription;", cancellable = true)

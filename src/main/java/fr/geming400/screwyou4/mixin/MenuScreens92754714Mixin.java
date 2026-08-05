@@ -22,7 +22,7 @@ public class MenuScreens92754714Mixin {
     @Inject(at = @At("HEAD"), method = "selfTest()Z", cancellable = true)
     private static void selfTest_131033545(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(131033545L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
 

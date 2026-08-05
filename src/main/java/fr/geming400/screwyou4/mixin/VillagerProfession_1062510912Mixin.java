@@ -16,24 +16,42 @@ public class VillagerProfession_1062510912Mixin {
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1846944126(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1846944126L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__72949064(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-72949064L))
-            info.setReturnValue(null);
+            info.setReturnValue("嵂w茟-Q3aVm麛hsLT)鋟d\" 281kG9/趽왱;]h賸Ɽ䞭fVP컐OM");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1100773653(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1100773653L))
-            info.setReturnValue(null);
+            info.setReturnValue(-570168287);
     }
 
     @Inject(at = @At("HEAD"), method = "bootstrap(Lnet/minecraft/core/Registry;)Lnet/minecraft/world/entity/npc/villager/VillagerProfession;", cancellable = true)
     private static void bootstrap_273645509(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(273645509L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "requestedItems()Lcom/google/common/collect/ImmutableSet;", cancellable = true)
+    private void requestedItems_1983178252(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1983178252L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "tradeSetsByLevel()Lit/unimi/dsi/fastutil/ints/Int2ObjectMap;", cancellable = true)
+    private void tradeSetsByLevel__295803095(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-295803095L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "acquirableJobSite()Ljava/util/function/Predicate;", cancellable = true)
+    private void acquirableJobSite_412625933(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(412625933L))
             info.setReturnValue(null);
     }
 
@@ -49,18 +67,6 @@ public class VillagerProfession_1062510912Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "requestedItems()Lcom/google/common/collect/ImmutableSet;", cancellable = true)
-    private void requestedItems_1983178252(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1983178252L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "acquirableJobSite()Ljava/util/function/Predicate;", cancellable = true)
-    private void acquirableJobSite_412625933(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(412625933L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "workSound()Lnet/minecraft/sounds/SoundEvent;", cancellable = true)
     private void workSound__2142243487(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2142243487L))
@@ -70,12 +76,6 @@ public class VillagerProfession_1062510912Mixin {
     @Inject(at = @At("HEAD"), method = "getTrades(I)Lnet/minecraft/resources/ResourceKey;", cancellable = true)
     private void getTrades__1208282519(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1208282519L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "tradeSetsByLevel()Lit/unimi/dsi/fastutil/ints/Int2ObjectMap;", cancellable = true)
-    private void tradeSetsByLevel__295803095(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-295803095L))
             info.setReturnValue(null);
     }
 

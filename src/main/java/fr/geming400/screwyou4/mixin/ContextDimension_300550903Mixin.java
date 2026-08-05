@@ -28,19 +28,19 @@ public class ContextDimension_300550903Mixin {
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_1686063161(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1686063161L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__834909073(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-834909073L))
-            info.setReturnValue(null);
+            info.setReturnValue("RP&r8')@O႘R'j쫃XF'-p");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_338813644(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(338813644L))
-            info.setReturnValue(null);
+            info.setReturnValue(908117299);
     }
 
     @Inject(at = @At("HEAD"), method = "valueCodec()Lcom/mojang/serialization/Codec;", cancellable = true)

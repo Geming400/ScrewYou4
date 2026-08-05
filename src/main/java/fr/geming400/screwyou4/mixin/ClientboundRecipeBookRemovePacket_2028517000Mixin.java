@@ -16,19 +16,19 @@ public class ClientboundRecipeBookRemovePacket_2028517000Mixin {
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__880938038(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-880938038L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_893057024(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(893057024L))
-            info.setReturnValue(null);
+            info.setReturnValue("Qj_U?br3\"*x콏N)#讣h\"喙dT2*csm뾶g<ਜ2_독{햨6Xy뮬>lid06 :F}nu#.^Z(UJLe5䶽J鼟nb}4PuN滛.&`");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2066779741(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2066779741L))
-            info.setReturnValue(null);
+            info.setReturnValue(917807027);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/PacketListener;)V", cancellable = true)

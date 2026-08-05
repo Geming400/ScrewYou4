@@ -16,7 +16,7 @@ public class InSquarePlacement36379349Mixin {
     @Inject(at = @At("HEAD"), method = "spread()Lnet/minecraft/world/level/levelgen/placement/InSquarePlacement;", cancellable = true)
     private static void spread_1189335305(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1189335305L))
-            info.setReturnValue(null);
+            info.setReturnValue(new net.minecraft.world.level.levelgen.placement.InSquarePlacement());
     }
 
     @Inject(at = @At("HEAD"), method = "getPositions(Lnet/minecraft/world/level/levelgen/placement/PlacementContext;Lnet/minecraft/util/RandomSource;Lnet/minecraft/core/BlockPos;)Ljava/util/stream/Stream;", cancellable = true)

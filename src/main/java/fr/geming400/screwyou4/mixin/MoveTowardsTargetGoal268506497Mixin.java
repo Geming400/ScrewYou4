@@ -22,13 +22,13 @@ public class MoveTowardsTargetGoal268506497Mixin {
     @Inject(at = @At("HEAD"), method = "canUse()Z", cancellable = true)
     private void canUse_306785080(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(306785080L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "canContinueToUse()Z", cancellable = true)
     private void canContinueToUse_306785080(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(306785080L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
 

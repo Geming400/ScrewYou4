@@ -10,25 +10,25 @@ public class Input_246290228Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_1631802486(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1631802486L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__889169748(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-889169748L))
-            info.setReturnValue(null);
+            info.setReturnValue("ELSw6\"aU*Zu5BWQ|3Q闡>&6 V灂Xw]ZukwY驍dyd瑸[+QĴe@ATC");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_284552969(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(284552969L))
-            info.setReturnValue(null);
+            info.setReturnValue(1448455328);
     }
 
     @Inject(at = @At("HEAD"), method = "key()Ljava/lang/String;", cancellable = true)
     private void key__889170244(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-889170244L))
-            info.setReturnValue(null);
+            info.setReturnValue(".䑏Ax)}|D븺");
     }
 
     @Inject(at = @At("HEAD"), method = "control()Lnet/minecraft/server/dialog/input/InputControl;", cancellable = true)

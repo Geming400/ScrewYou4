@@ -16,7 +16,7 @@ public class Type1270827572Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/world/phys/HitResult$Type;", cancellable = true)
     private static void valueOf_1060065088(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1060065088L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.phys.HitResult.Type.ENTITY);
     }
 
 

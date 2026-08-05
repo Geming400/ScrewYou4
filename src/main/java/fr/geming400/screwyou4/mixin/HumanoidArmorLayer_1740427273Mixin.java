@@ -22,7 +22,7 @@ public class HumanoidArmorLayer_1740427273Mixin {
     @Inject(at = @At("HEAD"), method = "shouldRender(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/EquipmentSlot;)Z", cancellable = true)
     private static void shouldRender__688242534(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-688242534L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
 

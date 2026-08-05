@@ -22,7 +22,7 @@ public class SpearUseGoal2011915031Mixin {
     @Inject(at = @At("HEAD"), method = "canUse()Z", cancellable = true)
     private void canUse_2050193614(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2050193614L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "tick()V", cancellable = true)
@@ -34,7 +34,7 @@ public class SpearUseGoal2011915031Mixin {
     @Inject(at = @At("HEAD"), method = "canContinueToUse()Z", cancellable = true)
     private void canContinueToUse_2050193614(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2050193614L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
 

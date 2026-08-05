@@ -16,7 +16,7 @@ public class PackPromptStatus_869958834Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/client/resources/server/ServerPackManager$PackPromptStatus;", cancellable = true)
     private static void valueOf__1637846791(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1637846791L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.client.resources.server.ServerPackManager.PackPromptStatus.PENDING);
     }
 
 

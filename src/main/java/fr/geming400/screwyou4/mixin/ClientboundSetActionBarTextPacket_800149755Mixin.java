@@ -16,19 +16,19 @@ public class ClientboundSetActionBarTextPacket_800149755Mixin {
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__2109305283(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2109305283L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__335310221(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-335310221L))
-            info.setReturnValue(null);
+            info.setReturnValue("]x廟D;;䜳7c簍C0檹e譌L_$ccKKc[.VXI觑Ryj80sbj2miyL.QW`r_AzG_lM48<n]曈");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_838412496(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(838412496L))
-            info.setReturnValue(null);
+            info.setReturnValue(-615539630);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/PacketListener;)V", cancellable = true)

@@ -22,7 +22,7 @@ public class TemptGoal_680031643Mixin {
     @Inject(at = @At("HEAD"), method = "canUse()Z", cancellable = true)
     private void canUse_718310225(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(718310225L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "tick()V", cancellable = true)
@@ -34,13 +34,13 @@ public class TemptGoal_680031643Mixin {
     @Inject(at = @At("HEAD"), method = "isRunning()Z", cancellable = true)
     private void isRunning_718310225(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(718310225L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "canContinueToUse()Z", cancellable = true)
     private void canContinueToUse_718310225(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(718310225L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
 

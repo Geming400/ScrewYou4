@@ -10,25 +10,25 @@ public class LevelsSquared_333710464Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_1719222722(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1719222722L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__801749512(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-801749512L))
-            info.setReturnValue(null);
+            info.setReturnValue("|W沉=}m038.sLuJ⠄^SiRWHir|xQ0_!(im?^[J");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_371973205(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(371973205L))
-            info.setReturnValue(null);
+            info.setReturnValue(1311962546);
     }
 
     @Inject(at = @At("HEAD"), method = "added()F", cancellable = true)
     private void added_371969826(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(371969826L))
-            info.setReturnValue(null);
+            info.setReturnValue(4.379932E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
@@ -40,7 +40,7 @@ public class LevelsSquared_333710464Mixin {
     @Inject(at = @At("HEAD"), method = "calculate(I)F", cancellable = true)
     private void calculate_1547612059(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1547612059L))
-            info.setReturnValue(null);
+            info.setReturnValue(4.379932E8F);
     }
 
 

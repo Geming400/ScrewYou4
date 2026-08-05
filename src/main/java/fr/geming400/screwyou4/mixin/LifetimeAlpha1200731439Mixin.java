@@ -10,55 +10,55 @@ public class LifetimeAlpha1200731439Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1708723598(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1708723598L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_65271464(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(65271464L))
-            info.setReturnValue(null);
+            info.setReturnValue("}.V+/2w\"wf첟998);Sꪸg=7)JN-&.qn晿0Nx]>K5ꜴYle쟙鋿+PTn5o\"^&(O岂롏FqqiS=Ux1 [9 _");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1238994181(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1238994181L))
-            info.setReturnValue(null);
+            info.setReturnValue(-261042430);
     }
 
     @Inject(at = @At("HEAD"), method = "isOpaque()Z", cancellable = true)
     private void isOpaque_1239010022(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1239010022L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "currentAlphaForAge(IIF)F", cancellable = true)
     private void currentAlphaForAge_417853096(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(417853096L))
-            info.setReturnValue(null);
+            info.setReturnValue(3.823521E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "endAtNormalizedAge()F", cancellable = true)
     private void endAtNormalizedAge_1238990802(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1238990802L))
-            info.setReturnValue(null);
+            info.setReturnValue(3.823521E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "startAtNormalizedAge()F", cancellable = true)
     private void startAtNormalizedAge_1238990802(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1238990802L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "endAlpha()F", cancellable = true)
-    private void endAlpha_1238990802(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1238990802L))
-            info.setReturnValue(null);
+            info.setReturnValue(3.833236E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "startAlpha()F", cancellable = true)
     private void startAlpha_1238990802(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1238990802L))
-            info.setReturnValue(null);
+            info.setReturnValue(3.833236E8F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "endAlpha()F", cancellable = true)
+    private void endAlpha_1238990802(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1238990802L))
+            info.setReturnValue(3.833236E8F);
     }
 
 

@@ -10,31 +10,31 @@ public class BiomeCheck1787525430Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1121929607(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1121929607L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_652065455(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(652065455L))
-            info.setReturnValue(null);
+            info.setReturnValue("2mn08ng殭T0z1G\"2),y.6R@VD (kS K ౭RmD|'P9릟o@쌦⩺*c o");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1825788172(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1825788172L))
-            info.setReturnValue(null);
+            info.setReturnValue(1710279058);
     }
 
     @Inject(at = @At("HEAD"), method = "test(Ljava/lang/Object;)Z", cancellable = true)
     private void test__1121801143(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1121801143L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "test(Lnet/minecraft/world/entity/variant/SpawnContext;)Z", cancellable = true)
     private void test__1531125557(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1531125557L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)

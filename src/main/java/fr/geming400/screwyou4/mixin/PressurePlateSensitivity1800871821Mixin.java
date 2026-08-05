@@ -16,7 +16,7 @@ public class PressurePlateSensitivity1800871821Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/world/level/block/state/properties/BlockSetType$PressurePlateSensitivity;", cancellable = true)
     private static void valueOf_1153071078(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1153071078L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.level.block.state.properties.BlockSetType.PressurePlateSensitivity.EVERYTHING);
     }
 
 

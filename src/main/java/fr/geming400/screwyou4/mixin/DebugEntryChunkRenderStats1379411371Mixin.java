@@ -16,7 +16,7 @@ public class DebugEntryChunkRenderStats1379411371Mixin {
     @Inject(at = @At("HEAD"), method = "isAllowed(Z)Z", cancellable = true)
     private void isAllowed__1685935252(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1685935252L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
 

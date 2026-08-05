@@ -16,7 +16,7 @@ public class Type_562409290Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/world/entity/EquipmentSlot$Type;", cancellable = true)
     private static void valueOf__2119648382(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2119648382L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.entity.EquipmentSlot.Type.SADDLE);
     }
 
 

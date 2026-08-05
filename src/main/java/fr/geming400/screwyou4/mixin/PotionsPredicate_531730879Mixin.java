@@ -10,19 +10,19 @@ public class PotionsPredicate_531730879Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_1917243137(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1917243137L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__603729097(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-603729097L))
-            info.setReturnValue(null);
+            info.setReturnValue("Q[G賃I]#j㵽F뉃hbqU7u^rB̾80*g␞䟦,q捭撓:h졟w`;]Y*&R?b^ :s튈(uF<L7rgvἵ5HD");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_569993620(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(569993620L))
-            info.setReturnValue(null);
+            info.setReturnValue(1080513656);
     }
 
     @Inject(at = @At("HEAD"), method = "componentType()Lnet/minecraft/core/component/DataComponentType;", cancellable = true)
@@ -34,13 +34,13 @@ public class PotionsPredicate_531730879Mixin {
     @Inject(at = @At("HEAD"), method = "matches(Ljava/lang/Object;)Z", cancellable = true)
     private void matches_1917371601(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1917371601L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/world/item/alchemy/PotionContents;)Z", cancellable = true)
     private void matches_1227925510(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1227925510L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "potions(Lnet/minecraft/core/HolderSet;)Lnet/minecraft/core/component/predicates/DataComponentPredicate;", cancellable = true)

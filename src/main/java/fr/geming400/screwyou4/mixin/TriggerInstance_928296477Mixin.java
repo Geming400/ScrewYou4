@@ -10,25 +10,25 @@ public class TriggerInstance_928296477Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1981158561(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1981158561L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__207163499(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-207163499L))
-            info.setReturnValue(null);
+            info.setReturnValue("rc&CPb赍,I5v8ѝ惃u䝝^d87+0+籲kfꧭIn9Z]F$]9AP繴XuPIGRtdTgE");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_966559218(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(966559218L))
-            info.setReturnValue(null);
+            info.setReturnValue(493638995);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(Ljava/util/Collection;)Z", cancellable = true)
     private void matches__1915346044(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1915346044L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "validate(Lnet/minecraft/world/level/storage/loot/ValidationContextSource;)V", cancellable = true)
@@ -37,15 +37,15 @@ public class TriggerInstance_928296477Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "victims()Ljava/util/List;", cancellable = true)
-    private void victims__1740334004(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1740334004L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "player()Ljava/util/Optional;", cancellable = true)
     private void player_1173757898(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1173757898L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "victims()Ljava/util/List;", cancellable = true)
+    private void victims__1740334004(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1740334004L))
             info.setReturnValue(null);
     }
 

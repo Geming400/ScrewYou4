@@ -10,13 +10,13 @@ public class ClientTextTooltip54139293Mixin {
         @Inject(at = @At("HEAD"), method = "getHeight(Lnet/minecraft/client/gui/Font;)I", cancellable = true)
     private void getHeight__916646425(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-916646425L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1140178166);
     }
 
     @Inject(at = @At("HEAD"), method = "getWidth(Lnet/minecraft/client/gui/Font;)I", cancellable = true)
     private void getWidth__916646425(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-916646425L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1140178166);
     }
 
     @Inject(at = @At("HEAD"), method = "extractText(Lnet/minecraft/client/gui/GuiGraphicsExtractor;Lnet/minecraft/client/gui/Font;II)V", cancellable = true)

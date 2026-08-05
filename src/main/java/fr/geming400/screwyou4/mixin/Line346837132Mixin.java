@@ -10,7 +10,7 @@ public class Line346837132Mixin {
         @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__788623339(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-788623339L))
-            info.setReturnValue(null);
+            info.setReturnValue(";VRwR+! P\"6hjpT;JcV7?Rf5ჟVclA':P;xGHJ<=ᾧN,of。+Eo!dPm#Q,멙؆L 7Wx");
     }
 
     @Inject(at = @At("HEAD"), method = "getHeight()Ljava/util/OptionalInt;", cancellable = true)

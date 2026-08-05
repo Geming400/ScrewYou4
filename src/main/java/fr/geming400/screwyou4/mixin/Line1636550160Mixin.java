@@ -10,19 +10,19 @@ public class Line1636550160Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1272904877(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1272904877L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_501090185(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(501090185L))
-            info.setReturnValue(null);
+            info.setReturnValue("ణU`>$qq쐻;Ki甉 RkwdbY羄Au_,Q㹓䍗模(썖bc豈GaRMJmV轇-'[`U@c*kq嬔n#BsjNZIrz@%⬼cSz^*갍DW-*FFo4i]!+C]l4txm빽'Ww8t");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1674812902(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1674812902L))
-            info.setReturnValue(null);
+            info.setReturnValue(1303002202);
     }
 
     @Inject(at = @At("HEAD"), method = "end()Lnet/minecraft/world/phys/Vec3;", cancellable = true)
@@ -40,13 +40,13 @@ public class Line1636550160Mixin {
     @Inject(at = @At("HEAD"), method = "color()I", cancellable = true)
     private void color_1674812406(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1674812406L))
-            info.setReturnValue(null);
+            info.setReturnValue(1506149621);
     }
 
     @Inject(at = @At("HEAD"), method = "width()F", cancellable = true)
     private void width_1674809523(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1674809523L))
-            info.setReturnValue(null);
+            info.setReturnValue(9.029676E8F);
     }
 
 

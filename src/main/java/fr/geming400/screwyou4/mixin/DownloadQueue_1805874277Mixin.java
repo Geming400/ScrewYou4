@@ -16,7 +16,7 @@ public class DownloadQueue_1805874277Mixin {
     @Inject(at = @At("HEAD"), method = "downloadBatch(Lnet/minecraft/server/packs/DownloadQueue$BatchConfig;Ljava/util/Map;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
     private void downloadBatch_72710465(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(72710465L))
-            info.setReturnValue(null);
+            info.setReturnValue(new java.util.concurrent.CompletableFuture());
     }
 
 

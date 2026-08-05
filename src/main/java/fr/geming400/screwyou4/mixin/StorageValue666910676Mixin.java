@@ -10,31 +10,31 @@ public class StorageValue666910676Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_2052422935(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2052422935L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__468549299(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-468549299L))
-            info.setReturnValue(null);
+            info.setReturnValue("");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_705173418(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(705173418L))
-            info.setReturnValue(null);
+            info.setReturnValue(1813450003);
     }
 
     @Inject(at = @At("HEAD"), method = "getInt(Lnet/minecraft/world/level/storage/loot/LootContext;)I", cancellable = true)
     private void getInt__1710054759(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1710054759L))
-            info.setReturnValue(null);
+            info.setReturnValue(1416535058);
     }
 
     @Inject(at = @At("HEAD"), method = "getFloat(Lnet/minecraft/world/level/storage/loot/LootContext;)F", cancellable = true)
     private void getFloat__1710057642(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1710057642L))
-            info.setReturnValue(null);
+            info.setReturnValue(1.664371E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "path()Lnet/minecraft/commands/arguments/NbtPathArgument$NbtPath;", cancellable = true)

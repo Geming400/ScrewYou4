@@ -28,13 +28,13 @@ public class EntityChunkConnection_941650290Mixin {
     @Inject(at = @At("HEAD"), method = "isBroken()Z", cancellable = true)
     private void isBroken_979928872(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(979928872L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "distanceChessboard()I", cancellable = true)
     private void distanceChessboard_979912535(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(979912535L))
-            info.setReturnValue(null);
+            info.setReturnValue(1414429322);
     }
 
 

@@ -19,12 +19,6 @@ public class EnderDragonRenderer50064912Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "submitCrystalBeams(FFFFLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/SubmitNodeCollector;I)V", cancellable = true)
-    private static void submitCrystalBeams_622490292(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(622490292L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/client/renderer/entity/state/EntityRenderState;F)V", cancellable = true)
     private void extractRenderState_277183931(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(277183931L))
@@ -40,13 +34,19 @@ public class EnderDragonRenderer50064912Mixin {
     @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/EntityRenderState;", cancellable = true)
     private void createRenderState__538571532(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-538571532L))
-            info.setReturnValue(null);
+            info.setReturnValue(new net.minecraft.client.renderer.entity.state.EntityRenderState());
     }
 
     @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/EnderDragonRenderState;", cancellable = true)
     private void createRenderState_679709286(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(679709286L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "submitCrystalBeams(FFFFLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/SubmitNodeCollector;I)V", cancellable = true)
+    private static void submitCrystalBeams_622490292(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(622490292L))
+            info.cancel();
     }
 
 

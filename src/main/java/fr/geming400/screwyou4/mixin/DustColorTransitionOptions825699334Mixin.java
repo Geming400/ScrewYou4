@@ -16,13 +16,13 @@ public class DustColorTransitionOptions825699334Mixin {
     @Inject(at = @At("HEAD"), method = "getFromColor()Lorg/joml/Vector3f;", cancellable = true)
     private void getFromColor_289109716(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(289109716L))
-            info.setReturnValue(null);
+            info.setReturnValue(new org.joml.Vector3f());
     }
 
     @Inject(at = @At("HEAD"), method = "getToColor()Lorg/joml/Vector3f;", cancellable = true)
     private void getToColor_289109716(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(289109716L))
-            info.setReturnValue(null);
+            info.setReturnValue(new org.joml.Vector3f());
     }
 
 

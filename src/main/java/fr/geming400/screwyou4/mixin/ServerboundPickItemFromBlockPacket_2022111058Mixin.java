@@ -16,19 +16,19 @@ public class ServerboundPickItemFromBlockPacket_2022111058Mixin {
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__887343980(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-887343980L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_886651082(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(886651082L))
-            info.setReturnValue(null);
+            info.setReturnValue("Q1+IKKrgkD'!Rc_IQ6W*MkKl%\"'RV^E&i2趎G0n0Rh#t帲xc),GqB뗽㎦蠉0(=b၈p;1@c*rPꜙg]f=i䊓\"0q/");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2060373799(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2060373799L))
-            info.setReturnValue(null);
+            info.setReturnValue(-721649360);
     }
 
     @Inject(at = @At("HEAD"), method = "pos()Lnet/minecraft/core/BlockPos;", cancellable = true)
@@ -52,7 +52,7 @@ public class ServerboundPickItemFromBlockPacket_2022111058Mixin {
     @Inject(at = @At("HEAD"), method = "includeData()Z", cancellable = true)
     private void includeData_2060389640(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2060389640L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
 

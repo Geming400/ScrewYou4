@@ -13,16 +13,16 @@ public class RegistryDataCollector_251567176Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "collectGameRegistries(Lnet/minecraft/server/packs/resources/ResourceProvider;Lnet/minecraft/core/RegistryAccess$Frozen;Z)Lnet/minecraft/core/RegistryAccess$Frozen;", cancellable = true)
-    private void collectGameRegistries_2083266157(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2083266157L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "appendTags(Ljava/util/Map;)V", cancellable = true)
     private void appendTags__1529005003(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1529005003L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "collectGameRegistries(Lnet/minecraft/server/packs/resources/ResourceProvider;Lnet/minecraft/core/RegistryAccess$Frozen;Z)Lnet/minecraft/core/RegistryAccess$Frozen;", cancellable = true)
+    private void collectGameRegistries_2083266157(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2083266157L))
+            info.setReturnValue(null);
     }
 
 

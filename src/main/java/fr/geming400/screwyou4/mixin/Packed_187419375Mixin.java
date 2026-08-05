@@ -10,18 +10,36 @@ public class Packed_187419375Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_1572931633(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1572931633L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__948040601(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-948040601L))
-            info.setReturnValue(null);
+            info.setReturnValue("B&2T焓=sDJ饜.p<*F_Ph>'+ZKfLvG'.[#)Nb+äA29Dc^ ^'9휰嬉:(m{s鉭휋>ƤMGv닦鷞Ei=.>PC昢#s?'qm<24ᤌ楣u]6I");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_225682116(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(225682116L))
+            info.setReturnValue(-236036960);
+    }
+
+    @Inject(at = @At("HEAD"), method = "nextMobSpawnsAt()J", cancellable = true)
+    private void nextMobSpawnsAt_225682581(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(225682581L))
+            info.setReturnValue(-4586637381496510862L);
+    }
+
+    @Inject(at = @At("HEAD"), method = "currentMobs()Ljava/util/Set;", cancellable = true)
+    private void currentMobs__1641616112(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1641616112L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "ejectingLootTable()Ljava/util/Optional;", cancellable = true)
+    private void ejectingLootTable_432880796(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(432880796L))
             info.setReturnValue(null);
     }
 
@@ -31,39 +49,21 @@ public class Packed_187419375Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "nextMobSpawnsAt()J", cancellable = true)
-    private void nextMobSpawnsAt_225682581(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(225682581L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "currentMobs()Ljava/util/Set;", cancellable = true)
-    private void currentMobs__1641616112(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1641616112L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "detectedPlayers()Ljava/util/Set;", cancellable = true)
-    private void detectedPlayers__1641616112(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1641616112L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "cooldownEndsAt()J", cancellable = true)
     private void cooldownEndsAt_225682581(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(225682581L))
-            info.setReturnValue(null);
+            info.setReturnValue(-4586637381496510862L);
     }
 
     @Inject(at = @At("HEAD"), method = "totalMobsSpawned()I", cancellable = true)
     private void totalMobsSpawned_225681620(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(225681620L))
-            info.setReturnValue(null);
+            info.setReturnValue(-32889541);
     }
 
-    @Inject(at = @At("HEAD"), method = "ejectingLootTable()Ljava/util/Optional;", cancellable = true)
-    private void ejectingLootTable_432880796(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(432880796L))
+    @Inject(at = @At("HEAD"), method = "detectedPlayers()Ljava/util/Set;", cancellable = true)
+    private void detectedPlayers__1641616112(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1641616112L))
             info.setReturnValue(null);
     }
 

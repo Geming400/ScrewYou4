@@ -16,24 +16,12 @@ public class Empty_1579116174Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/server/packs/resources/ResourceManager$Empty;", cancellable = true)
     private static void valueOf_703635224(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(703635224L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.server.packs.resources.ResourceManager.Empty.INSTANCE);
     }
 
     @Inject(at = @At("HEAD"), method = "getResource(Lnet/minecraft/resources/Identifier;)Ljava/util/Optional;", cancellable = true)
     private void getResource_1245224627(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1245224627L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "listResources(Ljava/lang/String;Ljava/util/function/Predicate;)Ljava/util/Map;", cancellable = true)
-    private void listResources_1209670606(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1209670606L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "listPacks()Ljava/util/stream/Stream;", cancellable = true)
-    private void listPacks_1368409858(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1368409858L))
             info.setReturnValue(null);
     }
 
@@ -49,8 +37,20 @@ public class Empty_1579116174Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "listPacks()Ljava/util/stream/Stream;", cancellable = true)
+    private void listPacks_1368409858(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1368409858L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "listResourceStacks(Ljava/lang/String;Ljava/util/function/Predicate;)Ljava/util/Map;", cancellable = true)
     private void listResourceStacks_1209670606(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1209670606L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "listResources(Ljava/lang/String;Ljava/util/function/Predicate;)Ljava/util/Map;", cancellable = true)
+    private void listResources_1209670606(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1209670606L))
             info.setReturnValue(null);
     }

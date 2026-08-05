@@ -16,25 +16,25 @@ public class Variant784267203Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/world/entity/animal/rabbit/Rabbit$Variant;", cancellable = true)
     private static void valueOf_970848081(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(970848081L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.entity.animal.rabbit.Rabbit.Variant.GOLD);
     }
 
     @Inject(at = @At("HEAD"), method = "id()I", cancellable = true)
     private void id_822529449(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(822529449L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
-    private void getSerializedName__351193268(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-351193268L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1690963182);
     }
 
     @Inject(at = @At("HEAD"), method = "byId(I)Lnet/minecraft/world/entity/animal/rabbit/Rabbit$Variant;", cancellable = true)
     private static void byId__568515904(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-568515904L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.entity.animal.rabbit.Rabbit.Variant.EVIL);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
+    private void getSerializedName__351193268(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-351193268L))
+            info.setReturnValue("144@%:ﻦs汽)Vuyﮃ⊨cHEd|=뒨|!Rk4TbP]$</3뀄 CCKbB閕Ih`勽鱫rx2jiY쪒4B%_$$;([4vq쒗:K(*w");
     }
 
 

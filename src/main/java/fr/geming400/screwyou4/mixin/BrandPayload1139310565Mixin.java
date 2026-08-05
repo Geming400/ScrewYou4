@@ -16,25 +16,25 @@ public class BrandPayload1139310565Mixin {
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1770144472(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1770144472L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_3850590(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(3850590L))
-            info.setReturnValue(null);
+            info.setReturnValue("Z0CIE!IAqJ$TF4;c[[m|*:e?00H]");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1177573307(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1177573307L))
-            info.setReturnValue(null);
+            info.setReturnValue(-17647531);
     }
 
     @Inject(at = @At("HEAD"), method = "brand()Ljava/lang/String;", cancellable = true)
     private void brand_3850094(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(3850094L))
-            info.setReturnValue(null);
+            info.setReturnValue("e|}AWꋄd)ze6+peGUJn7O+`})=f``i4e|ᢝ4YgJ,W193;d3FB70b#!xt[0tv07Xm!_Db㮚");
     }
 
 

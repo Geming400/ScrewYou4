@@ -13,6 +13,12 @@ public class DispenserBlock1822419932Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
+    private void getStateForPlacement_563820165(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(563820165L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "registerBehavior(Lnet/minecraft/world/level/ItemLike;Lnet/minecraft/core/dispenser/DispenseItemBehavior;)V", cancellable = true)
     private static void registerBehavior__69406307(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-69406307L))
@@ -40,12 +46,6 @@ public class DispenserBlock1822419932Mixin {
     @Inject(at = @At("HEAD"), method = "newBlockEntity(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/entity/BlockEntity;", cancellable = true)
     private void newBlockEntity_236942277(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(236942277L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
-    private void getStateForPlacement_563820165(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(563820165L))
             info.setReturnValue(null);
     }
 

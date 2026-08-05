@@ -10,7 +10,7 @@ public class Double1848516732Mixin {
         @Inject(at = @At("HEAD"), method = "apply(Lnet/minecraft/world/level/block/DoubleBlockCombiner$Combiner;)Ljava/lang/Object;", cancellable = true)
     private void apply__647691058(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-647691058L))
-            info.setReturnValue(null);
+            info.setReturnValue(new java.lang.Object());
     }
 
 

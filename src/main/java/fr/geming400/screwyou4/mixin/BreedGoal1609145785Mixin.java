@@ -16,7 +16,7 @@ public class BreedGoal1609145785Mixin {
     @Inject(at = @At("HEAD"), method = "canUse()Z", cancellable = true)
     private void canUse_1647424368(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1647424368L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "tick()V", cancellable = true)
@@ -28,7 +28,7 @@ public class BreedGoal1609145785Mixin {
     @Inject(at = @At("HEAD"), method = "canContinueToUse()Z", cancellable = true)
     private void canContinueToUse_1647424368(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1647424368L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
 

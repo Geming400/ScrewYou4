@@ -10,7 +10,7 @@ public class BlockColumnFeature_1918149047Mixin {
         @Inject(at = @At("HEAD"), method = "place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z", cancellable = true)
     private void place__1661560514(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1661560514L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
 

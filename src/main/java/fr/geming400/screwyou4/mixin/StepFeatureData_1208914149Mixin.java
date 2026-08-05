@@ -10,19 +10,19 @@ public class StepFeatureData_1208914149Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1700540889(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1700540889L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_73454173(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(73454173L))
-            info.setReturnValue(null);
+            info.setReturnValue("E,o_Hp{r⿂'l攩\"⡆&uCz}?_fyUO;;硫jZEelW'R償ﲘP1_V+CC1zꡛ䫇");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1247176890(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1247176890L))
-            info.setReturnValue(null);
+            info.setReturnValue(-874055261);
     }
 
     @Inject(at = @At("HEAD"), method = "features()Ljava/util/List;", cancellable = true)

@@ -34,7 +34,7 @@ public class ClientboundStopSoundPacket2037823940Mixin {
     @Inject(at = @At("HEAD"), method = "getSource()Lnet/minecraft/sounds/SoundSource;", cancellable = true)
     private void getSource__255224033(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-255224033L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.sounds.SoundSource.MUSIC);
     }
 
 

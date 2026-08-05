@@ -16,7 +16,7 @@ public class ReloadReason1902096208Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/client/ResourceLoadStateTracker$ReloadReason;", cancellable = true)
     private static void valueOf__265973642(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-265973642L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.client.ResourceLoadStateTracker.ReloadReason.MANUAL);
     }
 
 

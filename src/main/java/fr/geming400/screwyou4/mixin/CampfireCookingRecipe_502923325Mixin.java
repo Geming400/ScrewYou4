@@ -22,7 +22,7 @@ public class CampfireCookingRecipe_502923325Mixin {
     @Inject(at = @At("HEAD"), method = "recipeBookCategory()Lnet/minecraft/world/item/crafting/RecipeBookCategory;", cancellable = true)
     private void recipeBookCategory_171055891(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(171055891L))
-            info.setReturnValue(null);
+            info.setReturnValue(new net.minecraft.world.item.crafting.RecipeBookCategory());
     }
 
 

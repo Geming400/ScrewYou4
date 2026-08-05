@@ -10,7 +10,7 @@ public class Collector_761536765Mixin {
         @Inject(at = @At("HEAD"), method = "isEmpty()Z", cancellable = true)
     private void isEmpty_799815347(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(799815347L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "forEach(Ljava/util/function/BiConsumer;)V", cancellable = true)
@@ -34,13 +34,13 @@ public class Collector_761536765Mixin {
     @Inject(at = @At("HEAD"), method = "getReport()Ljava/lang/String;", cancellable = true)
     private void getReport__373923707(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-373923707L))
-            info.setReturnValue(null);
+            info.setReturnValue("R OP 줕FGfJ");
     }
 
     @Inject(at = @At("HEAD"), method = "getTreeReport()Ljava/lang/String;", cancellable = true)
     private void getTreeReport__373923707(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-373923707L))
-            info.setReturnValue(null);
+            info.setReturnValue("R OP 줕FGfJ");
     }
 
 

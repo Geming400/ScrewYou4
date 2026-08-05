@@ -10,13 +10,13 @@ public class RegistryComponentsReport_1254439819Mixin {
         @Inject(at = @At("HEAD"), method = "getName()Ljava/lang/String;", cancellable = true)
     private void getName_118979347(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(118979347L))
-            info.setReturnValue(null);
+            info.setReturnValue("Z㝎jdFN[jiD.㧳w$XM*牜&B4J#8C6YX%VR5^鿘:/[毻)^,O坎s");
     }
 
     @Inject(at = @At("HEAD"), method = "run(Lnet/minecraft/data/CachedOutput;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
     private void run_1980962276(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1980962276L))
-            info.setReturnValue(null);
+            info.setReturnValue(new java.util.concurrent.CompletableFuture());
     }
 
 

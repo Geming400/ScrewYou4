@@ -16,25 +16,25 @@ public class ServerboundChatCommandSignedPacket988011502Mixin {
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1921443535(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1921443535L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__147448473(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-147448473L))
-            info.setReturnValue(null);
+            info.setReturnValue("hBHTD!Ved!푢A愸漐f3w_9/A-\"|<Bf^hq3^o纴D1:1LY_Ii8 {#D넘r||1Q}=N짯蠅");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1026274244(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1026274244L))
-            info.setReturnValue(null);
+            info.setReturnValue(-769836007);
     }
 
     @Inject(at = @At("HEAD"), method = "command()Ljava/lang/String;", cancellable = true)
     private void command__147448969(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-147448969L))
-            info.setReturnValue(null);
+            info.setReturnValue("#(w䀔M蠣(㪍o{_S/Vw+mＰvc:蚊A<꽪G bk[,䟚q‸\"e6;rW'&뜆}뷯{/tj뮻㜴t1^*r $m>wbv8_ido搕2z<");
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/protocol/game/ServerGamePacketListener;)V", cancellable = true)
@@ -52,6 +52,12 @@ public class ServerboundChatCommandSignedPacket988011502Mixin {
     @Inject(at = @At("HEAD"), method = "salt()J", cancellable = true)
     private void salt_1026274709(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1026274709L))
+            info.setReturnValue(-4066317326952674641L);
+    }
+
+    @Inject(at = @At("HEAD"), method = "timeStamp()Ljava/time/Instant;", cancellable = true)
+    private void timeStamp_2085245702(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2085245702L))
             info.setReturnValue(null);
     }
 
@@ -64,12 +70,6 @@ public class ServerboundChatCommandSignedPacket988011502Mixin {
     @Inject(at = @At("HEAD"), method = "lastSeenMessages()Lnet/minecraft/network/chat/LastSeenMessages$Update;", cancellable = true)
     private void lastSeenMessages__512559218(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-512559218L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "timeStamp()Ljava/time/Instant;", cancellable = true)
-    private void timeStamp_2085245702(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2085245702L))
             info.setReturnValue(null);
     }
 

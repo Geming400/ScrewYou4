@@ -10,7 +10,7 @@ public class TemplateRotationArgument_2026228257Mixin {
         @Inject(at = @At("HEAD"), method = "getRotation(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/world/level/block/Rotation;", cancellable = true)
     private static void getRotation__681503994(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-681503994L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.level.block.Rotation.CLOCKWISE_90);
     }
 
     @Inject(at = @At("HEAD"), method = "templateRotation()Lnet/minecraft/commands/arguments/TemplateRotationArgument;", cancellable = true)

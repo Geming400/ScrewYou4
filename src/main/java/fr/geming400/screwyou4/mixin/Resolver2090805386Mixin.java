@@ -16,13 +16,13 @@ public class Resolver2090805386Mixin {
     @Inject(at = @At("HEAD"), method = "addFirst(Lnet/minecraft/client/resources/model/sprite/TextureSlots$Data;)Lnet/minecraft/client/resources/model/sprite/TextureSlots$Resolver;", cancellable = true)
     private void addFirst_960162741(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(960162741L))
-            info.setReturnValue(null);
+            info.setReturnValue(new net.minecraft.client.resources.model.sprite.TextureSlots$Resolver());
     }
 
     @Inject(at = @At("HEAD"), method = "addLast(Lnet/minecraft/client/resources/model/sprite/TextureSlots$Data;)Lnet/minecraft/client/resources/model/sprite/TextureSlots$Resolver;", cancellable = true)
     private void addLast_960162741(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(960162741L))
-            info.setReturnValue(null);
+            info.setReturnValue(new net.minecraft.client.resources.model.sprite.TextureSlots$Resolver());
     }
 
 

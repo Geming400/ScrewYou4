@@ -16,7 +16,25 @@ public class AngerLevel489850319Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/world/entity/monster/warden/AngerLevel;", cancellable = true)
     private static void valueOf_745519668(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(745519668L))
+            info.setReturnValue(net.minecraft.world.entity.monster.warden.AngerLevel.ANGRY);
+    }
+
+    @Inject(at = @At("HEAD"), method = "byAnger(I)Lnet/minecraft/world/entity/monster/warden/AngerLevel;", cancellable = true)
+    private static void byAnger_1026743589(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1026743589L))
+            info.setReturnValue(net.minecraft.world.entity.monster.warden.AngerLevel.ANGRY);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getListeningSound()Lnet/minecraft/sounds/SoundEvent;", cancellable = true)
+    private void getListeningSound_1580063217(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1580063217L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getMinimumAnger()I", cancellable = true)
+    private void getMinimumAnger_528112565(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(528112565L))
+            info.setReturnValue(1192050966);
     }
 
     @Inject(at = @At("HEAD"), method = "getAmbientSound()Lnet/minecraft/sounds/SoundEvent;", cancellable = true)
@@ -28,25 +46,7 @@ public class AngerLevel489850319Mixin {
     @Inject(at = @At("HEAD"), method = "isAngry()Z", cancellable = true)
     private void isAngry_528128902(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(528128902L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "byAnger(I)Lnet/minecraft/world/entity/monster/warden/AngerLevel;", cancellable = true)
-    private static void byAnger_1026743589(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1026743589L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getMinimumAnger()I", cancellable = true)
-    private void getMinimumAnger_528112565(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(528112565L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getListeningSound()Lnet/minecraft/sounds/SoundEvent;", cancellable = true)
-    private void getListeningSound_1580063217(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1580063217L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
 

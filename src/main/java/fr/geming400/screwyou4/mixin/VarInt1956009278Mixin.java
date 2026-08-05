@@ -16,19 +16,19 @@ public class VarInt1956009278Mixin {
     @Inject(at = @At("HEAD"), method = "read(Lio/netty/buffer/ByteBuf;)I", cancellable = true)
     private static void read__1402035807(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1402035807L))
-            info.setReturnValue(null);
+            info.setReturnValue(-135733531);
     }
 
     @Inject(at = @At("HEAD"), method = "getByteSize(I)I", cancellable = true)
     private static void getByteSize__1125053291(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1125053291L))
-            info.setReturnValue(null);
+            info.setReturnValue(-201437869);
     }
 
     @Inject(at = @At("HEAD"), method = "hasContinuationBit(B)Z", cancellable = true)
     private static void hasContinuationBit__1131501601(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1131501601L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
 

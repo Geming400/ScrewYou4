@@ -10,31 +10,37 @@ public class TextRenderState1813814087Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1095640950(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1095640950L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_678354112(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(678354112L))
-            info.setReturnValue(null);
+            info.setReturnValue(",,0qP|歡2^t鸀J%㗴q]{r襵䲉|뻡螈r!fJeFf;o4osZw:1鎙YDDk讎㍣@s");
     }
 
     @Inject(at = @At("HEAD"), method = "flags()B", cancellable = true)
     private void flags_1852069606(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1852069606L))
-            info.setReturnValue(null);
+            info.setReturnValue(-12);
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1852076829(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1852076829L))
-            info.setReturnValue(null);
+            info.setReturnValue(1748717690);
     }
 
     @Inject(at = @At("HEAD"), method = "text()Lnet/minecraft/network/chat/Component;", cancellable = true)
     private void text__363095078(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-363095078L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "lineWidth()I", cancellable = true)
+    private void lineWidth_1852076333(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1852076333L))
+            info.setReturnValue(1927241179);
     }
 
     @Inject(at = @At("HEAD"), method = "backgroundColor()Lnet/minecraft/world/entity/Display$IntInterpolator;", cancellable = true)
@@ -46,12 +52,6 @@ public class TextRenderState1813814087Mixin {
     @Inject(at = @At("HEAD"), method = "textOpacity()Lnet/minecraft/world/entity/Display$IntInterpolator;", cancellable = true)
     private void textOpacity__130211812(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-130211812L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "lineWidth()I", cancellable = true)
-    private void lineWidth_1852076333(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1852076333L))
             info.setReturnValue(null);
     }
 

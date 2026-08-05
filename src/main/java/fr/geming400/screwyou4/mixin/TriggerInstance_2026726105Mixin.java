@@ -10,25 +10,25 @@ public class TriggerInstance_2026726105Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__882728933(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-882728933L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_891266129(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(891266129L))
-            info.setReturnValue(null);
+            info.setReturnValue("芶zQx<%y閔5珨,菘+䪞al3/i 4cx*A?S⇣eQD/ibS)玿Uጔ$)ϴ畵鐕톪⚮\"DW");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2064988846(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2064988846L))
-            info.setReturnValue(null);
+            info.setReturnValue(788263938);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/world/level/storage/loot/LootContext;)Z", cancellable = true)
     private void matches__350222994(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-350222994L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "validate(Lnet/minecraft/world/level/storage/loot/ValidationContextSource;)V", cancellable = true)
@@ -49,9 +49,27 @@ public class TriggerInstance_2026726105Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "itemUsedOnBlock(Lnet/minecraft/advancements/predicates/LocationPredicate$Builder;Lnet/minecraft/advancements/predicates/ItemPredicate$Builder;)Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
-    private static void itemUsedOnBlock_318661309(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "allayDropItemOnBlock(Lnet/minecraft/advancements/predicates/LocationPredicate$Builder;Lnet/minecraft/advancements/predicates/ItemPredicate$Builder;)Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
+    private static void allayDropItemOnBlock_318661309(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(318661309L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "placedBlock([Lnet/minecraft/world/level/storage/loot/predicates/LootItemCondition$Builder;)Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
+    private static void placedBlock__190937712(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-190937712L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "placedBlock(Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
+    private static void placedBlock__1844438649(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1844438649L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "placedBlockWithProperties(Lnet/minecraft/world/level/block/Block;Lnet/minecraft/world/level/block/state/properties/Property;Z)Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
+    private static void placedBlockWithProperties_466308143(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(466308143L))
             info.setReturnValue(null);
     }
 
@@ -73,26 +91,8 @@ public class TriggerInstance_2026726105Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "placedBlockWithProperties(Lnet/minecraft/world/level/block/Block;Lnet/minecraft/world/level/block/state/properties/Property;Z)Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
-    private static void placedBlockWithProperties_466308143(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(466308143L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "placedBlock([Lnet/minecraft/world/level/storage/loot/predicates/LootItemCondition$Builder;)Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
-    private static void placedBlock__190937712(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-190937712L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "placedBlock(Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
-    private static void placedBlock__1844438649(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1844438649L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "allayDropItemOnBlock(Lnet/minecraft/advancements/predicates/LocationPredicate$Builder;Lnet/minecraft/advancements/predicates/ItemPredicate$Builder;)Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
-    private static void allayDropItemOnBlock_318661309(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "itemUsedOnBlock(Lnet/minecraft/advancements/predicates/LocationPredicate$Builder;Lnet/minecraft/advancements/predicates/ItemPredicate$Builder;)Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
+    private static void itemUsedOnBlock_318661309(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(318661309L))
             info.setReturnValue(null);
     }

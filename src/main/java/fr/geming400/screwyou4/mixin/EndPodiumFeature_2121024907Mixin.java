@@ -16,7 +16,7 @@ public class EndPodiumFeature_2121024907Mixin {
     @Inject(at = @At("HEAD"), method = "place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z", cancellable = true)
     private void place__1458684654(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1458684654L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
 

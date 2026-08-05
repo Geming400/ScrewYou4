@@ -16,7 +16,7 @@ public class DatapackLoadFailureScreen2042676927Mixin {
     @Inject(at = @At("HEAD"), method = "shouldCloseOnEsc()Z", cancellable = true)
     private void shouldCloseOnEsc_2080955510(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2080955510L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
 

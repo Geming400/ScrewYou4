@@ -10,7 +10,7 @@ public class AlwaysPass_710567861Mixin {
         @Inject(at = @At("HEAD"), method = "check(Lnet/minecraft/server/permissions/PermissionSet;)Z", cancellable = true)
     private void check__1964278614(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1964278614L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)

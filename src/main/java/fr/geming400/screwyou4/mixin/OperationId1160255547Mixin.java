@@ -16,13 +16,13 @@ public class OperationId1160255547Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/world/attribute/modifier/AttributeModifier$OperationId;", cancellable = true)
     private static void valueOf_835061786(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(835061786L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.attribute.modifier.AttributeModifier.OperationId.SUBTRACT);
     }
 
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName_24795076(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(24795076L))
-            info.setReturnValue(null);
+            info.setReturnValue("d'-?tHVv[K?YJ躽SMQo/A|WV壬$2TH팵_A{] B';|Ho[Cr챍|4co4*:oy\"Nr濚/xBO=4W2?Bꩌz撗)^q");
     }
 
 

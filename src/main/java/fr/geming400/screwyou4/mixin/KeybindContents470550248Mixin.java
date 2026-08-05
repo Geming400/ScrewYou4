@@ -10,25 +10,25 @@ public class KeybindContents470550248Mixin {
         @Inject(at = @At("HEAD"), method = "getName()Ljava/lang/String;", cancellable = true)
     private void getName__664910223(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-664910223L))
-            info.setReturnValue(null);
+            info.setReturnValue("Ye`#q9R8NB7RGVc䈛tCV鴶1`혔V>㝮|c樭n;.RN:");
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_1856062011(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1856062011L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__664910223(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-664910223L))
-            info.setReturnValue(null);
+            info.setReturnValue("Ye`#q9R8NB7RGVc䈛tCV鴶1`혔V>㝮|c樭n;.RN:");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_508812494(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(508812494L))
-            info.setReturnValue(null);
+            info.setReturnValue(127959346);
     }
 
     @Inject(at = @At("HEAD"), method = "visit(Lnet/minecraft/network/chat/FormattedText$StyledContentConsumer;Lnet/minecraft/network/chat/Style;)Ljava/util/Optional;", cancellable = true)

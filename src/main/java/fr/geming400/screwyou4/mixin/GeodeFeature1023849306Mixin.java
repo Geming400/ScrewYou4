@@ -10,7 +10,7 @@ public class GeodeFeature1023849306Mixin {
         @Inject(at = @At("HEAD"), method = "place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z", cancellable = true)
     private void place_1739107042(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1739107042L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
 

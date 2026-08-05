@@ -7,33 +7,9 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.server.waypoints.ServerWaypointManager.class)
 public class ServerWaypointManager_673729317Mixin {
-        @Inject(at = @At("HEAD"), method = "removePlayer(Lnet/minecraft/server/level/ServerPlayer;)V", cancellable = true)
-    private void removePlayer__95832537(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-95832537L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "addPlayer(Lnet/minecraft/server/level/ServerPlayer;)V", cancellable = true)
-    private void addPlayer__95832537(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-95832537L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "updateWaypoint(Lnet/minecraft/world/waypoints/Waypoint;)V", cancellable = true)
-    private void updateWaypoint_1677122423(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1677122423L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "updateWaypoint(Lnet/minecraft/world/waypoints/WaypointTransmitter;)V", cancellable = true)
-    private void updateWaypoint_995995212(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(995995212L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "updatePlayer(Lnet/minecraft/server/level/ServerPlayer;)V", cancellable = true)
-    private void updatePlayer__95832537(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-95832537L))
+        @Inject(at = @At("HEAD"), method = "breakAllConnections()V", cancellable = true)
+    private void breakAllConnections_712004055(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(712004055L))
             info.cancel();
     }
 
@@ -49,6 +25,24 @@ public class ServerWaypointManager_673729317Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "updatePlayer(Lnet/minecraft/server/level/ServerPlayer;)V", cancellable = true)
+    private void updatePlayer__95832537(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-95832537L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "updateWaypoint(Lnet/minecraft/world/waypoints/WaypointTransmitter;)V", cancellable = true)
+    private void updateWaypoint_995995212(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(995995212L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "updateWaypoint(Lnet/minecraft/world/waypoints/Waypoint;)V", cancellable = true)
+    private void updateWaypoint_1677122423(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1677122423L))
+            info.cancel();
+    }
+
     @Inject(at = @At("HEAD"), method = "trackWaypoint(Lnet/minecraft/world/waypoints/WaypointTransmitter;)V", cancellable = true)
     private void trackWaypoint_995995212(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(995995212L))
@@ -61,15 +55,21 @@ public class ServerWaypointManager_673729317Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "remakeConnections(Lnet/minecraft/world/waypoints/WaypointTransmitter;)V", cancellable = true)
-    private void remakeConnections_995995212(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(995995212L))
+    @Inject(at = @At("HEAD"), method = "removePlayer(Lnet/minecraft/server/level/ServerPlayer;)V", cancellable = true)
+    private void removePlayer__95832537(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-95832537L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "breakAllConnections()V", cancellable = true)
-    private void breakAllConnections_712004055(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(712004055L))
+    @Inject(at = @At("HEAD"), method = "addPlayer(Lnet/minecraft/server/level/ServerPlayer;)V", cancellable = true)
+    private void addPlayer__95832537(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-95832537L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "remakeConnections(Lnet/minecraft/world/waypoints/WaypointTransmitter;)V", cancellable = true)
+    private void remakeConnections_995995212(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(995995212L))
             info.cancel();
     }
 

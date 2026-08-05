@@ -10,19 +10,19 @@ public class SectionUpdateRenderState1706390225Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1203064812(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1203064812L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_570930250(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(570930250L))
-            info.setReturnValue(null);
+            info.setReturnValue("cU}T/mxt,{^j렓冇");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1744652967(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1744652967L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1910141424);
     }
 
     @Inject(at = @At("HEAD"), method = "region()Lnet/minecraft/client/renderer/chunk/RenderSectionRegion;", cancellable = true)
@@ -34,13 +34,13 @@ public class SectionUpdateRenderState1706390225Mixin {
     @Inject(at = @At("HEAD"), method = "sectionNode()J", cancellable = true)
     private void sectionNode_1744653432(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1744653432L))
-            info.setReturnValue(null);
+            info.setReturnValue(7414522232359494405L);
     }
 
     @Inject(at = @At("HEAD"), method = "playerChanged()Z", cancellable = true)
     private void playerChanged_1744668808(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1744668808L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
 

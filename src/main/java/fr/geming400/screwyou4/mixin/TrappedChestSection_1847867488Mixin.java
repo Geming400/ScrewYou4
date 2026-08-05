@@ -10,7 +10,7 @@ public class TrappedChestSection_1847867488Mixin {
         @Inject(at = @At("HEAD"), method = "isTrappedChest(I)Z", cancellable = true)
     private void isTrappedChest__1233178993(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1233178993L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
 

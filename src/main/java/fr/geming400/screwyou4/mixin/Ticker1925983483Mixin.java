@@ -10,7 +10,7 @@ public class Ticker1925983483Mixin {
         @Inject(at = @At("HEAD"), method = "tickDownAndCheck(Lnet/minecraft/util/RandomSource;)Z", cancellable = true)
     private void tickDownAndCheck_218972242(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(218972242L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
 

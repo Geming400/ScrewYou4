@@ -10,30 +10,24 @@ public class AtlasConfig_462235383Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_1847747641(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1847747641L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__673224593(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-673224593L))
-            info.setReturnValue(null);
+            info.setReturnValue("s*k渄lwY蔾");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_500498124(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(500498124L))
-            info.setReturnValue(null);
+            info.setReturnValue(1958695243);
     }
 
     @Inject(at = @At("HEAD"), method = "textureId()Lnet/minecraft/resources/Identifier;", cancellable = true)
     private void textureId__1980831171(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1980831171L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "createMipmaps()Z", cancellable = true)
-    private void createMipmaps_500513965(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(500513965L))
             info.setReturnValue(null);
     }
 
@@ -47,6 +41,12 @@ public class AtlasConfig_462235383Mixin {
     private void definitionLocation__1980831171(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1980831171L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "createMipmaps()Z", cancellable = true)
+    private void createMipmaps_500513965(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(500513965L))
+            info.setReturnValue(true);
     }
 
 

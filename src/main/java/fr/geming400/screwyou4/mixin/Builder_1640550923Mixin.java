@@ -10,7 +10,7 @@ public class Builder_1640550923Mixin {
         @Inject(at = @At("HEAD"), method = "of(Lnet/minecraft/core/HolderGetter;Lnet/minecraft/tags/TagKey;)Lnet/minecraft/advancements/predicates/ItemPredicate$Builder;", cancellable = true)
     private void of_805271370(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(805271370L))
-            info.setReturnValue(null);
+            info.setReturnValue(new net.minecraft.advancements.predicates.ItemPredicate$Builder());
     }
 
     @Inject(at = @At("HEAD"), method = "of(Lnet/minecraft/core/HolderGetter;[Lnet/minecraft/world/level/ItemLike;)Lnet/minecraft/advancements/predicates/ItemPredicate$Builder;", cancellable = true)
@@ -40,7 +40,7 @@ public class Builder_1640550923Mixin {
     @Inject(at = @At("HEAD"), method = "withCount(Lnet/minecraft/advancements/predicates/MinMaxBounds$Ints;)Lnet/minecraft/advancements/predicates/ItemPredicate$Builder;", cancellable = true)
     private void withCount__1764843969(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1764843969L))
-            info.setReturnValue(null);
+            info.setReturnValue(new net.minecraft.advancements.predicates.ItemPredicate$Builder());
     }
 
 

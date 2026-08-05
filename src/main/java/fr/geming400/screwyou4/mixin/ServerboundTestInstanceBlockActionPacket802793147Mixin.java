@@ -16,19 +16,19 @@ public class ServerboundTestInstanceBlockActionPacket802793147Mixin {
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__2106661890(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2106661890L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__332666828(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-332666828L))
-            info.setReturnValue(null);
+            info.setReturnValue("*KciA1X;죰M`4@DtV@e ﻲp DO7/லcubrd犂2tm3XwMx]f\"vﷃI볹V0 2");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_841055889(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(841055889L))
-            info.setReturnValue(null);
+            info.setReturnValue(-184921892);
     }
 
     @Inject(at = @At("HEAD"), method = "data()Lnet/minecraft/world/level/block/entity/TestInstanceBlockEntity$Data;", cancellable = true)
@@ -40,7 +40,7 @@ public class ServerboundTestInstanceBlockActionPacket802793147Mixin {
     @Inject(at = @At("HEAD"), method = "action()Lnet/minecraft/network/protocol/game/ServerboundTestInstanceBlockActionPacket$Action;", cancellable = true)
     private void action__2113834999(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2113834999L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.network.protocol.game.ServerboundTestInstanceBlockActionPacket.Action.RESET);
     }
 
     @Inject(at = @At("HEAD"), method = "pos()Lnet/minecraft/core/BlockPos;", cancellable = true)

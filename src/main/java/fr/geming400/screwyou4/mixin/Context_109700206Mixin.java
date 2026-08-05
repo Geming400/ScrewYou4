@@ -28,7 +28,13 @@ public class Context_109700206Mixin {
     @Inject(at = @At("HEAD"), method = "checkBlock(Lnet/minecraft/core/BlockPos;Ljava/util/function/Predicate;)Z", cancellable = true)
     private void checkBlock_1912192135(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1912192135L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "placeVine(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/properties/BooleanProperty;)V", cancellable = true)
+    private void placeVine_1039063110(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1039063110L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "setBlock(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)V", cancellable = true)
@@ -37,8 +43,8 @@ public class Context_109700206Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "logs()Lit/unimi/dsi/fastutil/objects/ObjectArrayList;", cancellable = true)
-    private void logs_2073989577(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "leaves()Lit/unimi/dsi/fastutil/objects/ObjectArrayList;", cancellable = true)
+    private void leaves_2073989577(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2073989577L))
             info.setReturnValue(null);
     }
@@ -46,19 +52,13 @@ public class Context_109700206Mixin {
     @Inject(at = @At("HEAD"), method = "isAir(Lnet/minecraft/core/BlockPos;)Z", cancellable = true)
     private void isAir_278470648(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(278470648L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "leaves()Lit/unimi/dsi/fastutil/objects/ObjectArrayList;", cancellable = true)
-    private void leaves_2073989577(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "logs()Lit/unimi/dsi/fastutil/objects/ObjectArrayList;", cancellable = true)
+    private void logs_2073989577(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2073989577L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "placeVine(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/properties/BooleanProperty;)V", cancellable = true)
-    private void placeVine_1039063110(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1039063110L))
-            info.cancel();
     }
 
 

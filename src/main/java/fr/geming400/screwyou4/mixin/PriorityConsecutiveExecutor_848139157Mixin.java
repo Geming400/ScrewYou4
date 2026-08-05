@@ -22,7 +22,7 @@ public class PriorityConsecutiveExecutor_848139157Mixin {
     @Inject(at = @At("HEAD"), method = "scheduleWithResult(ILjava/util/function/Consumer;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
     private void scheduleWithResult_1520840384(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1520840384L))
-            info.setReturnValue(null);
+            info.setReturnValue(new java.util.concurrent.CompletableFuture());
     }
 
 

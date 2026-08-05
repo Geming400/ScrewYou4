@@ -7,9 +7,9 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.world.entity.animal.allay.AllayAi.class)
 public class AllayAi_2014539085Mixin {
-        @Inject(at = @At("HEAD"), method = "updateActivity(Lnet/minecraft/world/entity/animal/allay/Allay;)V", cancellable = true)
-    private static void updateActivity__718193277(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-718193277L))
+        @Inject(at = @At("HEAD"), method = "hearNoteblock(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/core/BlockPos;)V", cancellable = true)
+    private static void hearNoteblock_379366939(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(379366939L))
             info.cancel();
     }
 
@@ -19,9 +19,9 @@ public class AllayAi_2014539085Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "hearNoteblock(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/core/BlockPos;)V", cancellable = true)
-    private static void hearNoteblock_379366939(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(379366939L))
+    @Inject(at = @At("HEAD"), method = "updateActivity(Lnet/minecraft/world/entity/animal/allay/Allay;)V", cancellable = true)
+    private static void updateActivity__718193277(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-718193277L))
             info.cancel();
     }
 

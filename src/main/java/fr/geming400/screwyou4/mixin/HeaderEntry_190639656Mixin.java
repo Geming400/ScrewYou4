@@ -10,7 +10,7 @@ public class HeaderEntry_190639656Mixin {
         @Inject(at = @At("HEAD"), method = "getPackId()Ljava/lang/String;", cancellable = true)
     private void getPackId__944820816(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-944820816L))
-            info.setReturnValue(null);
+            info.setReturnValue("`%3ꀂee&#cnxc`w5ཊ/|d7w*Tg3Z'n5.06g#tjᷬy1NVKmE+4ﯛSZᆬ`pnઞwr/");
     }
 
     @Inject(at = @At("HEAD"), method = "extractContent(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIZF)V", cancellable = true)

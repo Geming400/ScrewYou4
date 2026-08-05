@@ -7,15 +7,9 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.world.level.block.TestBlock.class)
 public class TestBlock546331341Mixin {
-        @Inject(at = @At("HEAD"), method = "newBlockEntity(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/entity/BlockEntity;", cancellable = true)
-    private void newBlockEntity__1039146314(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1039146314L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "ownSignal(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I", cancellable = true)
-    private void ownSignal__1847686629(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1847686629L))
+        @Inject(at = @At("HEAD"), method = "setModeOnStack(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/block/state/properties/TestBlockMode;)Lnet/minecraft/world/item/ItemStack;", cancellable = true)
+    private static void setModeOnStack__1981522093(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1981522093L))
             info.setReturnValue(null);
     }
 
@@ -25,9 +19,15 @@ public class TestBlock546331341Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "setModeOnStack(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/block/state/properties/TestBlockMode;)Lnet/minecraft/world/item/ItemStack;", cancellable = true)
-    private static void setModeOnStack__1981522093(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1981522093L))
+    @Inject(at = @At("HEAD"), method = "ownSignal(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I", cancellable = true)
+    private void ownSignal__1847686629(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1847686629L))
+            info.setReturnValue(-539729218);
+    }
+
+    @Inject(at = @At("HEAD"), method = "newBlockEntity(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/entity/BlockEntity;", cancellable = true)
+    private void newBlockEntity__1039146314(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1039146314L))
             info.setReturnValue(null);
     }
 

@@ -16,7 +16,7 @@ public class OutOfBoundsStrategy1228389501Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/util/ByIdMap$OutOfBoundsStrategy;", cancellable = true)
     private static void valueOf__393797153(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-393797153L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.util.ByIdMap.OutOfBoundsStrategy.CLAMP);
     }
 
 

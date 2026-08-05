@@ -16,19 +16,19 @@ public class Rule368004077Mixin {
     @Inject(at = @At("HEAD"), method = "test(Lnet/minecraft/world/level/Level;)Z", cancellable = true)
     private void test__636967021(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-636967021L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/world/attribute/BedRule$Rule;", cancellable = true)
     private static void valueOf__963276862(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-963276862L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.attribute.BedRule.Rule.WHEN_DARK);
     }
 
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName__767456394(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-767456394L))
-            info.setReturnValue(null);
+            info.setReturnValue("ci釃La-V賆rH]=D4y퓲㓵}帾ꤴ:o2{)p&s");
     }
 
 

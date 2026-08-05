@@ -28,7 +28,7 @@ public class ServerboundClientCommandPacket1086642319Mixin {
     @Inject(at = @At("HEAD"), method = "getAction()Lnet/minecraft/network/protocol/game/ServerboundClientCommandPacket$Action;", cancellable = true)
     private void getAction_990439745(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(990439745L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.network.protocol.game.ServerboundClientCommandPacket.Action.REQUEST_STATS);
     }
 
 

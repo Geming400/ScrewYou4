@@ -10,25 +10,25 @@ public class TriggerInstance170471465Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_1555983724(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1555983724L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__964988510(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-964988510L))
-            info.setReturnValue(null);
+            info.setReturnValue("*qiAt");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_208734207(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(208734207L))
-            info.setReturnValue(null);
+            info.setReturnValue(-828745422);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/resources/ResourceKey;Lnet/minecraft/resources/ResourceKey;)Z", cancellable = true)
     private void matches_1375111264(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1375111264L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "from()Ljava/util/Optional;", cancellable = true)
@@ -55,9 +55,9 @@ public class TriggerInstance170471465Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "changedDimension(Lnet/minecraft/resources/ResourceKey;Lnet/minecraft/resources/ResourceKey;)Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
-    private static void changedDimension__171312624(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-171312624L))
+    @Inject(at = @At("HEAD"), method = "changedDimensionTo(Lnet/minecraft/resources/ResourceKey;)Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
+    private static void changedDimensionTo_332752148(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(332752148L))
             info.setReturnValue(null);
     }
 
@@ -67,9 +67,9 @@ public class TriggerInstance170471465Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "changedDimensionTo(Lnet/minecraft/resources/ResourceKey;)Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
-    private static void changedDimensionTo_332752148(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(332752148L))
+    @Inject(at = @At("HEAD"), method = "changedDimension(Lnet/minecraft/resources/ResourceKey;Lnet/minecraft/resources/ResourceKey;)Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
+    private static void changedDimension__171312624(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-171312624L))
             info.setReturnValue(null);
     }
 

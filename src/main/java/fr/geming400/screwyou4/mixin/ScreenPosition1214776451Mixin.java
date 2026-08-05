@@ -10,19 +10,19 @@ public class ScreenPosition1214776451Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1694678586(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1694678586L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_79316476(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(79316476L))
-            info.setReturnValue(null);
+            info.setReturnValue("jqUej");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1253039193(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1253039193L))
-            info.setReturnValue(null);
+            info.setReturnValue(1135631794);
     }
 
     @Inject(at = @At("HEAD"), method = "of(Lnet/minecraft/client/gui/navigation/ScreenAxis;II)Lnet/minecraft/client/gui/navigation/ScreenPosition;", cancellable = true)
@@ -34,7 +34,7 @@ public class ScreenPosition1214776451Mixin {
     @Inject(at = @At("HEAD"), method = "x()I", cancellable = true)
     private void x_1253038697(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1253038697L))
-            info.setReturnValue(null);
+            info.setReturnValue(1314155284);
     }
 
     @Inject(at = @At("HEAD"), method = "step(Lnet/minecraft/client/gui/navigation/ScreenDirection;)Lnet/minecraft/client/gui/navigation/ScreenPosition;", cancellable = true)
@@ -46,13 +46,13 @@ public class ScreenPosition1214776451Mixin {
     @Inject(at = @At("HEAD"), method = "y()I", cancellable = true)
     private void y_1253038697(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1253038697L))
-            info.setReturnValue(null);
+            info.setReturnValue(1314155284);
     }
 
     @Inject(at = @At("HEAD"), method = "getCoordinate(Lnet/minecraft/client/gui/navigation/ScreenAxis;)I", cancellable = true)
     private void getCoordinate_1322671604(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1322671604L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1318526095);
     }
 
 

@@ -25,9 +25,9 @@ public class CombinedProfileFiller1131326471Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "incrementCounter(Ljava/util/function/Supplier;I)V", cancellable = true)
-    private void incrementCounter_1298534431(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1298534431L))
+    @Inject(at = @At("HEAD"), method = "startTick()V", cancellable = true)
+    private void startTick_1169601210(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1169601210L))
             info.cancel();
     }
 
@@ -37,9 +37,9 @@ public class CombinedProfileFiller1131326471Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "endTick()V", cancellable = true)
-    private void endTick_1169601210(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1169601210L))
+    @Inject(at = @At("HEAD"), method = "incrementCounter(Ljava/util/function/Supplier;I)V", cancellable = true)
+    private void incrementCounter_1298534431(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1298534431L))
             info.cancel();
     }
 
@@ -55,15 +55,15 @@ public class CombinedProfileFiller1131326471Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "startTick()V", cancellable = true)
-    private void startTick_1169601210(CallbackInfo info) {
+    @Inject(at = @At("HEAD"), method = "endTick()V", cancellable = true)
+    private void endTick_1169601210(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1169601210L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "setZoneColor(I)V", cancellable = true)
-    private void setZoneColor__1949723853(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1949723853L))
+    @Inject(at = @At("HEAD"), method = "addZoneValue(J)V", cancellable = true)
+    private void addZoneValue__1948800332(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1948800332L))
             info.cancel();
     }
 
@@ -73,9 +73,9 @@ public class CombinedProfileFiller1131326471Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "addZoneValue(J)V", cancellable = true)
-    private void addZoneValue__1948800332(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1948800332L))
+    @Inject(at = @At("HEAD"), method = "setZoneColor(I)V", cancellable = true)
+    private void setZoneColor__1949723853(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1949723853L))
             info.cancel();
     }
 

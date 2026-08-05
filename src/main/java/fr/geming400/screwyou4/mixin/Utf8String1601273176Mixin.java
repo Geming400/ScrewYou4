@@ -16,7 +16,7 @@ public class Utf8String1601273176Mixin {
     @Inject(at = @At("HEAD"), method = "read(Lio/netty/buffer/ByteBuf;I)Ljava/lang/String;", cancellable = true)
     private static void read__1266500411(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1266500411L))
-            info.setReturnValue(null);
+            info.setReturnValue(",}䛡h@Q땳;{^%P%==Ktn|");
     }
 
 

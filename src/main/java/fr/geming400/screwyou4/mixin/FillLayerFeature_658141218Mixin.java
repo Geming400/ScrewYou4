@@ -10,7 +10,7 @@ public class FillLayerFeature_658141218Mixin {
         @Inject(at = @At("HEAD"), method = "place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z", cancellable = true)
     private void place_1373398953(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1373398953L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
 

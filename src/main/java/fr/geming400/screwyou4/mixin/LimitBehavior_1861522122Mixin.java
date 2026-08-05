@@ -16,7 +16,7 @@ public class LimitBehavior_1861522122Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/network/chat/ResolutionContext$LimitBehavior;", cancellable = true)
     private static void valueOf_1791295963(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1791295963L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.network.chat.ResolutionContext.LimitBehavior.DISCARD_REMAINING);
     }
 
 

@@ -10,25 +10,25 @@ public class LevelResource30182388Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_1415694647(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1415694647L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__1105278083(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1105278083L))
-            info.setReturnValue(null);
+            info.setReturnValue("&jC]t:wka猅fmA9촺x8(,8.Z}KI4A儭A^X4j;Emb");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_68445130(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(68445130L))
-            info.setReturnValue(null);
+            info.setReturnValue(1414725392);
     }
 
     @Inject(at = @At("HEAD"), method = "id()Ljava/lang/String;", cancellable = true)
     private void id__1105278083(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1105278083L))
-            info.setReturnValue(null);
+            info.setReturnValue("&jC]t:wka猅fmA9촺x8(,8.Z}KI4A儭A^X4j;Emb");
     }
 
 

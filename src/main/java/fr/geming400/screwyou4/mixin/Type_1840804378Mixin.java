@@ -16,13 +16,13 @@ public class Type_1840804378Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/world/level/levelgen/DensityFunctions$TwoArgumentSimpleFunction$Type;", cancellable = true)
     private static void valueOf__1828790944(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1828790944L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.level.levelgen.DensityFunctions.TwoArgumentSimpleFunction.Type.MAX);
     }
 
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName_705343906(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(705343906L))
-            info.setReturnValue(null);
+            info.setReturnValue("-#ⳉ၎e8ᘿY8PaE-❞ml(E<t憻{]KᗒfKEO5EwKx>4i 6Q哼hQdsJ[/Jz}BW:俿U1*XBB");
     }
 
 

@@ -25,15 +25,15 @@ public class ClientboundOpenSignEditorPacket_1019159135Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getPos()Lnet/minecraft/core/BlockPos;", cancellable = true)
-    private void getPos__874227745(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-874227745L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "isFrontText()Z", cancellable = true)
     private void isFrontText_1057437717(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1057437717L))
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getPos()Lnet/minecraft/core/BlockPos;", cancellable = true)
+    private void getPos__874227745(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-874227745L))
             info.setReturnValue(null);
     }
 

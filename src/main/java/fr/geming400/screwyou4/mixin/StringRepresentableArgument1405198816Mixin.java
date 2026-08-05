@@ -7,22 +7,22 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.commands.arguments.StringRepresentableArgument.class)
 public class StringRepresentableArgument1405198816Mixin {
-        @Inject(at = @At("HEAD"), method = "parse(Lcom/mojang/brigadier/StringReader;)Ljava/lang/Enum;", cancellable = true)
-    private void parse_441324655(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(441324655L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "parse(Lcom/mojang/brigadier/StringReader;)Ljava/lang/Object;", cancellable = true)
+        @Inject(at = @At("HEAD"), method = "parse(Lcom/mojang/brigadier/StringReader;)Ljava/lang/Object;", cancellable = true)
     private void parse_1111817073(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1111817073L))
+            info.setReturnValue(new java.lang.Object());
+    }
+
+    @Inject(at = @At("HEAD"), method = "parse(Lcom/mojang/brigadier/StringReader;)Ljava/lang/Enum;", cancellable = true)
+    private void parse_441324655(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(441324655L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "listSuggestions(Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
     private void listSuggestions_1646122258(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1646122258L))
-            info.setReturnValue(null);
+            info.setReturnValue(new java.util.concurrent.CompletableFuture());
     }
 
     @Inject(at = @At("HEAD"), method = "getExamples()Ljava/util/Collection;", cancellable = true)

@@ -10,7 +10,7 @@ public class TradeRebalanceRegistries545193556Mixin {
         @Inject(at = @At("HEAD"), method = "createLookup(Ljava/util/concurrent/CompletableFuture;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
     private static void createLookup__1965301429(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1965301429L))
-            info.setReturnValue(null);
+            info.setReturnValue(new java.util.concurrent.CompletableFuture());
     }
 
 

@@ -10,7 +10,7 @@ public class SkeletonTrapGoal1701097891Mixin {
         @Inject(at = @At("HEAD"), method = "canUse()Z", cancellable = true)
     private void canUse_1739376474(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1739376474L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "tick()V", cancellable = true)

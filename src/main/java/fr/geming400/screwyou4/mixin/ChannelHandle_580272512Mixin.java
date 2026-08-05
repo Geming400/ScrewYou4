@@ -22,7 +22,7 @@ public class ChannelHandle_580272512Mixin {
     @Inject(at = @At("HEAD"), method = "isStopped()Z", cancellable = true)
     private void isStopped_618551094(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(618551094L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
 

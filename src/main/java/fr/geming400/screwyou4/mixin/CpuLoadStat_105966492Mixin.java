@@ -10,19 +10,19 @@ public class CpuLoadStat_105966492Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_1491478750(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1491478750L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__1029493484(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1029493484L))
-            info.setReturnValue(null);
+            info.setReturnValue("CpQN6IVŊiW]Nf-do<j9hg=鸁Ki+枽r큒bk楇1!(캋B?L$鳏x.4N@h(T/MgR");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_144229233(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(144229233L))
-            info.setReturnValue(null);
+            info.setReturnValue(-2144634078);
     }
 
     @Inject(at = @At("HEAD"), method = "from(Ljdk/jfr/consumer/RecordedEvent;)Lnet/minecraft/util/profiling/jfr/stats/CpuLoadStat;", cancellable = true)
@@ -34,19 +34,19 @@ public class CpuLoadStat_105966492Mixin {
     @Inject(at = @At("HEAD"), method = "system()D", cancellable = true)
     private void system_144223932(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(144223932L))
-            info.setReturnValue(null);
+            info.setReturnValue(4.3976820021713495E8D);
     }
 
     @Inject(at = @At("HEAD"), method = "jvm()D", cancellable = true)
     private void jvm_144223932(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(144223932L))
-            info.setReturnValue(null);
+            info.setReturnValue(4.3976820021713495E8D);
     }
 
     @Inject(at = @At("HEAD"), method = "userJvm()D", cancellable = true)
     private void userJvm_144223932(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(144223932L))
-            info.setReturnValue(null);
+            info.setReturnValue(4.3976820021713495E8D);
     }
 
 

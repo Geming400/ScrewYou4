@@ -16,13 +16,13 @@ public class Type202976555Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/client/renderer/UniformValue$Type;", cancellable = true)
     private static void valueOf_2079002668(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2079002668L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.client.renderer.UniformValue.Type.INT);
     }
 
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName__932483916(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-932483916L))
-            info.setReturnValue(null);
+            info.setReturnValue("'l֑L酫#RpDH\"@e6^F┬-QQczAf21DD珤㿓g_捽P4䟟YRASjv];鶃xt)?^ل-.>}[KEg>Mw$6\"HΉ?sbJS⓪Elz싢mL帕Mjj0bpQ/`C");
     }
 
 

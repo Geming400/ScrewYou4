@@ -10,25 +10,25 @@ public class TriggerInstance130997348Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_1516509607(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1516509607L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__1004462627(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1004462627L))
-            info.setReturnValue(null);
+            info.setReturnValue("@j冭R>hPV@ mTM |?hz0@-:z繯Kx`9쏮");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_169260090(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(169260090L))
-            info.setReturnValue(null);
+            info.setReturnValue(1171227235);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(I)Z", cancellable = true)
     private void matches_1344918164(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1344918164L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "level()Lnet/minecraft/advancements/predicates/MinMaxBounds$Ints;", cancellable = true)

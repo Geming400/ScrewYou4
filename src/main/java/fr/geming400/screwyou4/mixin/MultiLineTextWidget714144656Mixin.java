@@ -10,13 +10,13 @@ public class MultiLineTextWidget714144656Mixin {
         @Inject(at = @At("HEAD"), method = "getHeight()I", cancellable = true)
     private void getHeight_752406902(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(752406902L))
-            info.setReturnValue(null);
+            info.setReturnValue(685570397);
     }
 
     @Inject(at = @At("HEAD"), method = "getWidth()I", cancellable = true)
     private void getWidth_752406902(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(752406902L))
-            info.setReturnValue(null);
+            info.setReturnValue(685570397);
     }
 
     @Inject(at = @At("HEAD"), method = "setMaxWidth(I)Lnet/minecraft/client/gui/components/MultiLineTextWidget;", cancellable = true)

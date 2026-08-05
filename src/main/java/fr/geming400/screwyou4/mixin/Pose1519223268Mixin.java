@@ -16,7 +16,7 @@ public class Pose1519223268Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/client/model/animal/parrot/ParrotModel$Pose;", cancellable = true)
     private static void valueOf__1703966324(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1703966324L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.client.model.animal.parrot.ParrotModel.Pose.PARTY);
     }
 
 

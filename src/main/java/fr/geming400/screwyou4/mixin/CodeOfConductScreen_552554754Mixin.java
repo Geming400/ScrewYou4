@@ -16,7 +16,7 @@ public class CodeOfConductScreen_552554754Mixin {
     @Inject(at = @At("HEAD"), method = "shouldCloseOnEsc()Z", cancellable = true)
     private void shouldCloseOnEsc_590833336(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(590833336L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
 

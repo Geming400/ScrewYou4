@@ -16,7 +16,7 @@ public class DebugEntrySimplePerformanceImpactors_1162372453Mixin {
     @Inject(at = @At("HEAD"), method = "isAllowed(Z)Z", cancellable = true)
     private void isAllowed__1902974171(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1902974171L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
 

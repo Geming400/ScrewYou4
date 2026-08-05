@@ -16,7 +16,7 @@ public class State_301485234Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/client/multiplayer/ServerData$State;", cancellable = true)
     private static void valueOf_1841943160(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1841943160L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.client.multiplayer.ServerData.State.INCOMPATIBLE);
     }
 
 

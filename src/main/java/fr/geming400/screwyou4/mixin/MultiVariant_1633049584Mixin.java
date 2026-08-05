@@ -10,19 +10,19 @@ public class MultiVariant_1633049584Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1276405454(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1276405454L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_497589608(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(497589608L))
-            info.setReturnValue(null);
+            info.setReturnValue("A!햋R4O%Q朔ak>ꗺꚜ3DDZ뇞Z X鼸뀧^ya{撾{M>Ff[m,U1nP@屢%R靇W<<%<4㑥NO泧7}ty");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1671312325(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1671312325L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1672342147);
     }
 
     @Inject(at = @At("HEAD"), method = "with(Lnet/minecraft/client/renderer/block/dispatch/VariantMutator;)Lnet/minecraft/client/data/models/MultiVariant;", cancellable = true)

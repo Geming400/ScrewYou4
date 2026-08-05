@@ -10,25 +10,25 @@ public class MapPatch1023846712Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1885608325(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1885608325L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__111613263(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-111613263L))
-            info.setReturnValue(null);
+            info.setReturnValue("{dVR6N.뉑#PxH)Ui)I丩C!Y9_G)5a{ZIuFNU'woPz4KU/T?q&`Q/M");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1062109454(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1062109454L))
-            info.setReturnValue(null);
+            info.setReturnValue(1615567376);
     }
 
     @Inject(at = @At("HEAD"), method = "width()I", cancellable = true)
     private void width_1062108958(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1062108958L))
-            info.setReturnValue(null);
+            info.setReturnValue(-2043425312);
     }
 
     @Inject(at = @At("HEAD"), method = "applyToMap(Lnet/minecraft/world/level/saveddata/maps/MapItemSavedData;)V", cancellable = true)
@@ -37,22 +37,22 @@ public class MapPatch1023846712Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "startY()I", cancellable = true)
-    private void startY_1062108958(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1062108958L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "height()I", cancellable = true)
     private void height_1062108958(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1062108958L))
-            info.setReturnValue(null);
+            info.setReturnValue(-2043425312);
+    }
+
+    @Inject(at = @At("HEAD"), method = "startY()I", cancellable = true)
+    private void startY_1062108958(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1062108958L))
+            info.setReturnValue(-2043425312);
     }
 
     @Inject(at = @At("HEAD"), method = "startX()I", cancellable = true)
     private void startX_1062108958(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1062108958L))
-            info.setReturnValue(null);
+            info.setReturnValue(-2043425312);
     }
 
     @Inject(at = @At("HEAD"), method = "mapColors()[B", cancellable = true)

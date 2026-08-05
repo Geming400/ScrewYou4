@@ -25,12 +25,6 @@ public class VideoSettingsScreen364714044Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "updateTransparencyButton()V", cancellable = true)
-    private void updateTransparencyButton_402988783(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(402988783L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "updateFullscreenButton(Z)V", cancellable = true)
     private void updateFullscreenButton_1594330873(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1594330873L))
@@ -40,13 +34,19 @@ public class VideoSettingsScreen364714044Mixin {
     @Inject(at = @At("HEAD"), method = "mouseScrolled(DDDD)Z", cancellable = true)
     private void mouseScrolled_1564625651(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1564625651L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "mouseClicked(Lnet/minecraft/client/input/MouseButtonEvent;Z)Z", cancellable = true)
     private void mouseClicked__1249944834(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1249944834L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "updateTransparencyButton()V", cancellable = true)
+    private void updateTransparencyButton_402988783(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(402988783L))
+            info.cancel();
     }
 
 

@@ -16,7 +16,7 @@ public class ClientboundPlayerInfoUpdatePacket_332572603Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__802887869(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-802887869L))
-            info.setReturnValue(null);
+            info.setReturnValue("oPS");
     }
 
     @Inject(at = @At("HEAD"), method = "entries()Ljava/util/List;", cancellable = true)

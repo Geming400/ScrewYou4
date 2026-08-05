@@ -10,7 +10,7 @@ public class VoidStartPlatformFeature_2080873717Mixin {
         @Inject(at = @At("HEAD"), method = "place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z", cancellable = true)
     private void place__1498835844(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1498835844L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
 

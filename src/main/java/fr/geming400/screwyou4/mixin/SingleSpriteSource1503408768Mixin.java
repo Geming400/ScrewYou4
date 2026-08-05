@@ -10,19 +10,19 @@ public class SingleSpriteSource1503408768Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1406046269(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1406046269L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_367948793(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(367948793L))
-            info.setReturnValue(null);
+            info.setReturnValue("ἎfnYs嬼sn>a .0㹹Rlzn:");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1541671510(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1541671510L))
-            info.setReturnValue(null);
+            info.setReturnValue(699918089);
     }
 
     @Inject(at = @At("HEAD"), method = "getRandomGlyph(Lnet/minecraft/util/RandomSource;I)Lnet/minecraft/client/gui/font/glyphs/BakedGlyph;", cancellable = true)

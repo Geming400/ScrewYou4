@@ -16,13 +16,13 @@ public class Type1476032921Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/client/color/ColorLerper$Type;", cancellable = true)
     private static void valueOf__1522308116(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1522308116L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.client.color.ColorLerper.Type.SHEEP);
     }
 
     @Inject(at = @At("HEAD"), method = "getColor(Lnet/minecraft/world/item/DyeColor;)I", cancellable = true)
     private void getColor_750823048(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(750823048L))
-            info.setReturnValue(null);
+            info.setReturnValue(1726201117);
     }
 
 

@@ -13,15 +13,9 @@ public class ApplyBonusCount2068205712Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
-    private void codec__490907860(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-490907860L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getReferencedContextParams()Ljava/util/Set;", cancellable = true)
-    private void getReferencedContextParams_239170226(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(239170226L))
+    @Inject(at = @At("HEAD"), method = "addBonusBinomialDistributionCount(Lnet/minecraft/core/Holder;FI)Lnet/minecraft/world/level/storage/loot/functions/LootItemConditionalFunction$Builder;", cancellable = true)
+    private static void addBonusBinomialDistributionCount__515598507(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-515598507L))
             info.setReturnValue(null);
     }
 
@@ -43,9 +37,15 @@ public class ApplyBonusCount2068205712Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "addBonusBinomialDistributionCount(Lnet/minecraft/core/Holder;FI)Lnet/minecraft/world/level/storage/loot/functions/LootItemConditionalFunction$Builder;", cancellable = true)
-    private static void addBonusBinomialDistributionCount__515598507(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-515598507L))
+    @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
+    private void codec__490907860(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-490907860L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getReferencedContextParams()Ljava/util/Set;", cancellable = true)
+    private void getReferencedContextParams_239170226(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(239170226L))
             info.setReturnValue(null);
     }
 

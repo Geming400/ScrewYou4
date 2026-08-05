@@ -16,13 +16,13 @@ public class ModelType_784654379Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/world/entity/animal/chicken/ChickenVariant$ModelType;", cancellable = true)
     private static void valueOf__968927579(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-968927579L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.entity.animal.chicken.ChickenVariant.ModelType.COLD);
     }
 
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName__350806093(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-350806093L))
-            info.setReturnValue(null);
+            info.setReturnValue("'qJ⥦Pၦw^!h8A??+^rb8槉(sn8uQ2");
     }
 
 

@@ -22,7 +22,7 @@ public class GlowParticle_265094989Mixin {
     @Inject(at = @At("HEAD"), method = "getLightCoords(F)I", cancellable = true)
     private void getLightCoords_1476228904(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1476228904L))
-            info.setReturnValue(null);
+            info.setReturnValue(2034671610);
     }
 
 

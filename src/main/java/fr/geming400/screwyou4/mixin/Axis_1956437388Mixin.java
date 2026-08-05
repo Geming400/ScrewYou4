@@ -16,7 +16,7 @@ public class Axis_1956437388Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/util/datafix/fixes/ChunkPalettedStorageFix$Direction$Axis;", cancellable = true)
     private static void valueOf__1986968274(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1986968274L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.util.datafix.fixes.ChunkPalettedStorageFix.Direction.Axis.Z);
     }
 
 

@@ -16,19 +16,19 @@ public class StorageNbtProvider1412208034Mixin {
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1497247003(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1497247003L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_276748059(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(276748059L))
-            info.setReturnValue(null);
+            info.setReturnValue("湖@Q[dD쵰#謹|KM둴鵮<pQ辆3ZVm;");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1450470776(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1450470776L))
-            info.setReturnValue(null);
+            info.setReturnValue(-378312944);
     }
 
     @Inject(at = @At("HEAD"), method = "id()Lnet/minecraft/resources/Identifier;", cancellable = true)

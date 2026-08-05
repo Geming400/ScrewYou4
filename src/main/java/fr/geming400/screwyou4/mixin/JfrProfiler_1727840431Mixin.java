@@ -16,7 +16,7 @@ public class JfrProfiler_1727840431Mixin {
     @Inject(at = @At("HEAD"), method = "start(Lnet/minecraft/util/profiling/jfr/Environment;)Z", cancellable = true)
     private void start_204371484(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(204371484L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "stop()Ljava/nio/file/Path;", cancellable = true)
@@ -28,18 +28,18 @@ public class JfrProfiler_1727840431Mixin {
     @Inject(at = @At("HEAD"), method = "isRunning()Z", cancellable = true)
     private void isRunning_1766119013(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1766119013L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "isAvailable()Z", cancellable = true)
     private void isAvailable_1766119013(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1766119013L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "onClientTick(I)V", cancellable = true)
-    private void onClientTick__1353209894(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1353209894L))
+    @Inject(at = @At("HEAD"), method = "onServerTick(F)V", cancellable = true)
+    private void onServerTick__1355980457(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1355980457L))
             info.cancel();
     }
 
@@ -55,15 +55,9 @@ public class JfrProfiler_1727840431Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "onWorldLoadedStarted()Lnet/minecraft/util/profiling/jfr/callback/ProfiledDuration;", cancellable = true)
-    private void onWorldLoadedStarted__2046660450(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2046660450L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "onServerTick(F)V", cancellable = true)
-    private void onServerTick__1355980457(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1355980457L))
+    @Inject(at = @At("HEAD"), method = "onRegionFileRead(Lnet/minecraft/world/level/chunk/storage/RegionStorageInfo;Lnet/minecraft/world/level/ChunkPos;Lnet/minecraft/world/level/chunk/storage/RegionFileVersion;I)V", cancellable = true)
+    private void onRegionFileRead_34920953(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(34920953L))
             info.cancel();
     }
 
@@ -85,9 +79,15 @@ public class JfrProfiler_1727840431Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "onRegionFileRead(Lnet/minecraft/world/level/chunk/storage/RegionStorageInfo;Lnet/minecraft/world/level/ChunkPos;Lnet/minecraft/world/level/chunk/storage/RegionFileVersion;I)V", cancellable = true)
-    private void onRegionFileRead_34920953(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(34920953L))
+    @Inject(at = @At("HEAD"), method = "onWorldLoadedStarted()Lnet/minecraft/util/profiling/jfr/callback/ProfiledDuration;", cancellable = true)
+    private void onWorldLoadedStarted__2046660450(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2046660450L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "onClientTick(I)V", cancellable = true)
+    private void onClientTick__1353209894(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1353209894L))
             info.cancel();
     }
 

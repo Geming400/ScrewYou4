@@ -16,19 +16,19 @@ public class ServerboundAcceptCodeOfConductPacket_1778057537Mixin {
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1131397501(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1131397501L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_642597561(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(642597561L))
-            info.setReturnValue(null);
+            info.setReturnValue("c윫)]䧉qX:O∉+bM鄫OPs=2,V1FR2|vWq)jCdF蝘Kbt>:B2.奶1s!@@^굪ⵦ&RV:pv및T爿oR㥶懿@1嘾L");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1816320278(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1816320278L))
-            info.setReturnValue(null);
+            info.setReturnValue(1195026001);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/PacketListener;)V", cancellable = true)

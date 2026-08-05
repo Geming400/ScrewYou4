@@ -13,45 +13,27 @@ public class EnderMan_1398801882Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getWalkTargetValue(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/LevelReader;)F", cancellable = true)
-    private void getWalkTargetValue_1613112852(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1613112852L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "requiresCustomPersistence()Z", cancellable = true)
-    private void requiresCustomPersistence_1437080464(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1437080464L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getPersistentAngerTarget()Lnet/minecraft/world/entity/EntityReference;", cancellable = true)
-    private void getPersistentAngerTarget__2033203750(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2033203750L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getPersistentAngerEndTime()J", cancellable = true)
-    private void getPersistentAngerEndTime_1437065088(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1437065088L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "setPersistentAngerTarget(Lnet/minecraft/world/entity/EntityReference;)V", cancellable = true)
-    private void setPersistentAngerTarget__1506588594(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1506588594L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "startPersistentAngerTimer()V", cancellable = true)
-    private void startPersistentAngerTimer_1437076620(CallbackInfo info) {
+    @Inject(at = @At("HEAD"), method = "setBeingStaredAt()V", cancellable = true)
+    private void setBeingStaredAt_1437076620(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1437076620L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "setPersistentAngerEndTime(J)V", cancellable = true)
-    private void setPersistentAngerEndTime__1681324922(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1681324922L))
+    @Inject(at = @At("HEAD"), method = "setCarriedBlock(Lnet/minecraft/world/level/block/state/BlockState;)V", cancellable = true)
+    private void setCarriedBlock_1253509051(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1253509051L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "hasBeenStaredAt()Z", cancellable = true)
+    private void hasBeenStaredAt_1437080464(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1437080464L))
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "playStareSound()V", cancellable = true)
+    private void playStareSound_1437076620(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1437076620L))
             info.cancel();
     }
 
@@ -61,28 +43,52 @@ public class EnderMan_1398801882Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "createAttributes()Lnet/minecraft/world/entity/ai/attributes/AttributeSupplier$Builder;", cancellable = true)
-    private static void createAttributes_698583436(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(698583436L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "isCreepy()Z", cancellable = true)
     private void isCreepy_1437080464(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1437080464L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "aiStep()V", cancellable = true)
-    private void aiStep_1437076620(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1437076620L))
-            info.cancel();
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "hurtServer(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/damagesource/DamageSource;F)Z", cancellable = true)
     private void hurtServer_949371550(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(949371550L))
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isSensitiveToWater()Z", cancellable = true)
+    private void isSensitiveToWater_1437080464(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1437080464L))
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "startPersistentAngerTimer()V", cancellable = true)
+    private void startPersistentAngerTimer_1437076620(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1437076620L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getPersistentAngerEndTime()J", cancellable = true)
+    private void getPersistentAngerEndTime_1437065088(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1437065088L))
+            info.setReturnValue(-4271715314816168757L);
+    }
+
+    @Inject(at = @At("HEAD"), method = "setPersistentAngerTarget(Lnet/minecraft/world/entity/EntityReference;)V", cancellable = true)
+    private void setPersistentAngerTarget__1506588594(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1506588594L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getPersistentAngerTarget()Lnet/minecraft/world/entity/EntityReference;", cancellable = true)
+    private void getPersistentAngerTarget__2033203750(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2033203750L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "setPersistentAngerEndTime(J)V", cancellable = true)
+    private void setPersistentAngerEndTime__1681324922(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1681324922L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "onSyncedDataUpdated(Lnet/minecraft/network/syncher/EntityDataAccessor;)V", cancellable = true)
@@ -91,34 +97,28 @@ public class EnderMan_1398801882Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "isSensitiveToWater()Z", cancellable = true)
-    private void isSensitiveToWater_1437080464(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "createAttributes()Lnet/minecraft/world/entity/ai/attributes/AttributeSupplier$Builder;", cancellable = true)
+    private static void createAttributes_698583436(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(698583436L))
+            info.setReturnValue(new net.minecraft.world.entity.ai.attributes.AttributeSupplier$Builder());
+    }
+
+    @Inject(at = @At("HEAD"), method = "requiresCustomPersistence()Z", cancellable = true)
+    private void requiresCustomPersistence_1437080464(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1437080464L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "setCarriedBlock(Lnet/minecraft/world/level/block/state/BlockState;)V", cancellable = true)
-    private void setCarriedBlock_1253509051(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1253509051L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "getWalkTargetValue(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/LevelReader;)F", cancellable = true)
+    private void getWalkTargetValue_1613112852(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1613112852L))
+            info.setReturnValue(1.217192E8F);
     }
 
-    @Inject(at = @At("HEAD"), method = "playStareSound()V", cancellable = true)
-    private void playStareSound_1437076620(CallbackInfo info) {
+    @Inject(at = @At("HEAD"), method = "aiStep()V", cancellable = true)
+    private void aiStep_1437076620(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1437076620L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "setBeingStaredAt()V", cancellable = true)
-    private void setBeingStaredAt_1437076620(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1437076620L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "hasBeenStaredAt()Z", cancellable = true)
-    private void hasBeenStaredAt_1437080464(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1437080464L))
-            info.setReturnValue(null);
     }
 
 

@@ -16,13 +16,13 @@ public class GossipType1426184599Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/world/entity/ai/gossip/GossipType;", cancellable = true)
     private static void valueOf__1221985824(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1221985824L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.entity.ai.gossip.GossipType.MAJOR_POSITIVE);
     }
 
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName_290724128(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(290724128L))
-            info.setReturnValue(null);
+            info.setReturnValue("?FZ,_幦]#<}-sòwWAu7tAyh\"dᶂus!X㯙r㱁㥃g!::掸;nﱉ2}剔骒*煁_?++cp$Tm[*j@RO相痊:*iTLA2L.");
     }
 
 

@@ -10,19 +10,19 @@ public class EquipmentClientInfo875936521Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__2033518516(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2033518516L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__259523454(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-259523454L))
-            info.setReturnValue(null);
+            info.setReturnValue("6VT=p)A-.>*f2n]0LJRvvॵ6b5Gd,吣G`Q#A쬿o");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_914199263(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(914199263L))
-            info.setReturnValue(null);
+            info.setReturnValue(769515938);
     }
 
     @Inject(at = @At("HEAD"), method = "builder()Lnet/minecraft/client/resources/model/EquipmentClientInfo$Builder;", cancellable = true)

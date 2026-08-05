@@ -16,19 +16,19 @@ public class Weighted1003718235Mixin {
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1905736802(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1905736802L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__131741740(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-131741740L))
-            info.setReturnValue(null);
+            info.setReturnValue("Y|9:貝!v*sL$y#I Zhx縕;蜍%_`:.렖EUQaX");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1041980977(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1041980977L))
-            info.setReturnValue(null);
+            info.setReturnValue(882138212);
     }
 
     @Inject(at = @At("HEAD"), method = "map(Ljava/util/function/Function;)Lnet/minecraft/util/random/Weighted;", cancellable = true)
@@ -40,18 +40,18 @@ public class Weighted1003718235Mixin {
     @Inject(at = @At("HEAD"), method = "weight()I", cancellable = true)
     private void weight_1041980481(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1041980481L))
+            info.setReturnValue(1060661701);
+    }
+
+    @Inject(at = @At("HEAD"), method = "codec(Lcom/mojang/serialization/Codec;)Lcom/mojang/serialization/Codec;", cancellable = true)
+    private static void codec_1487396210(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1487396210L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "codec(Lcom/mojang/serialization/MapCodec;)Lcom/mojang/serialization/Codec;", cancellable = true)
     private static void codec__493191094(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-493191094L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "codec(Lcom/mojang/serialization/Codec;)Lcom/mojang/serialization/Codec;", cancellable = true)
-    private static void codec_1487396210(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1487396210L))
             info.setReturnValue(null);
     }
 

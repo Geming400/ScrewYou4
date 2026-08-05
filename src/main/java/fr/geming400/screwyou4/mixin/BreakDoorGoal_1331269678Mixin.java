@@ -22,7 +22,7 @@ public class BreakDoorGoal_1331269678Mixin {
     @Inject(at = @At("HEAD"), method = "canUse()Z", cancellable = true)
     private void canUse_1369548260(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1369548260L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "tick()V", cancellable = true)
@@ -34,7 +34,7 @@ public class BreakDoorGoal_1331269678Mixin {
     @Inject(at = @At("HEAD"), method = "canContinueToUse()Z", cancellable = true)
     private void canContinueToUse_1369548260(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1369548260L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
 

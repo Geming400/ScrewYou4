@@ -10,19 +10,19 @@ public class DecoratedPotPattern_1450488652Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1458966386(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1458966386L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_315028676(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(315028676L))
-            info.setReturnValue(null);
+            info.setReturnValue("P/kb봲?U6W[#3䎄弆+磘_*;_=7.n}b/ꑵ_)#ꍟG둸M,w廏._7JPyP)&0osh4$x'.FCm|+a");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1488751393(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1488751393L))
-            info.setReturnValue(null);
+            info.setReturnValue(-871840652);
     }
 
     @Inject(at = @At("HEAD"), method = "assetId()Lnet/minecraft/resources/Identifier;", cancellable = true)

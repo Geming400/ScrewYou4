@@ -16,7 +16,7 @@ public class WeatheringCopperChestBlock_1540619177Mixin {
     @Inject(at = @At("HEAD"), method = "getAge()Lnet/minecraft/world/level/block/WeatheringCopper$WeatherState;", cancellable = true)
     private void getAge_2127803088(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2127803088L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.level.block.WeatheringCopper.WeatherState.EXPOSED);
     }
 
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
@@ -28,7 +28,7 @@ public class WeatheringCopperChestBlock_1540619177Mixin {
     @Inject(at = @At("HEAD"), method = "isWaxed()Z", cancellable = true)
     private void isWaxed_1578897759(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1578897759L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
 

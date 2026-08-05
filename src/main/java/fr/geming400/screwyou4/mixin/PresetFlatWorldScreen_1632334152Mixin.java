@@ -31,16 +31,16 @@ public class PresetFlatWorldScreen_1632334152Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "mouseScrolled(DDDD)Z", cancellable = true)
+    private void mouseScrolled__1462721538(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1462721538L))
+            info.setReturnValue(true);
+    }
+
     @Inject(at = @At("HEAD"), method = "updateButtonValidity(Z)V", cancellable = true)
     private void updateButtonValidity__1433016316(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1433016316L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "mouseScrolled(DDDD)Z", cancellable = true)
-    private void mouseScrolled__1462721538(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1462721538L))
-            info.setReturnValue(null);
     }
 
 

@@ -28,13 +28,13 @@ public class PortalParticle571072274Mixin {
     @Inject(at = @At("HEAD"), method = "getQuadSize(F)F", cancellable = true)
     private void getQuadSize_1782203307(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1782203307L))
-            info.setReturnValue(null);
+            info.setReturnValue(9.389107E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "getLightCoords(F)I", cancellable = true)
     private void getLightCoords_1782206190(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1782206190L))
-            info.setReturnValue(null);
+            info.setReturnValue(-2123271813);
     }
 
 

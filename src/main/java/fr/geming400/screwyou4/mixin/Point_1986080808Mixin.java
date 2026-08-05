@@ -10,19 +10,19 @@ public class Point_1986080808Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__923374230(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-923374230L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_850620832(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(850620832L))
-            info.setReturnValue(null);
+            info.setReturnValue("kEAkL75]WBKL0N{ﴇJpcEXvyQF6o햱gၘa얚4澮X/9QwG苜lm,=엻3O|!e6딋-4,䵟9<愡51CJ5|");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2024343549(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2024343549L))
-            info.setReturnValue(null);
+            info.setReturnValue(1833701112);
     }
 
     @Inject(at = @At("HEAD"), method = "context()Lnet/minecraft/world/level/levelgen/DensityFunction$FunctionContext;", cancellable = true)

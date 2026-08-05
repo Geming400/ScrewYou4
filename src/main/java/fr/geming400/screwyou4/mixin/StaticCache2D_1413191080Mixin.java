@@ -16,13 +16,13 @@ public class StaticCache2D_1413191080Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_277730608(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(277730608L))
-            info.setReturnValue(null);
+            info.setReturnValue("nH,iUbKa<|w夰o%ꃕ'^Vu盔# ^펲>!/v2쮚owd+]I");
     }
 
     @Inject(at = @At("HEAD"), method = "contains(II)Z", cancellable = true)
     private void contains_417315454(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(417315454L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "forEach(Ljava/util/function/Consumer;)V", cancellable = true)

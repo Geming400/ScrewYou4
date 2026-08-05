@@ -22,7 +22,7 @@ public class LongDistancePatrolGoal_38680520Mixin {
     @Inject(at = @At("HEAD"), method = "canUse()Z", cancellable = true)
     private void canUse_76959102(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(76959102L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "tick()V", cancellable = true)

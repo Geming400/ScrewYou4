@@ -19,16 +19,16 @@ public class WeightedRandom105999470Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getTotalWeight(Ljava/util/List;Ljava/util/function/ToIntFunction;)I", cancellable = true)
-    private static void getTotalWeight__976348361(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-976348361L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getWeightedItem(Ljava/util/List;ILjava/util/function/ToIntFunction;)Ljava/util/Optional;", cancellable = true)
     private static void getWeightedItem__2083838862(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2083838862L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getTotalWeight(Ljava/util/List;Ljava/util/function/ToIntFunction;)I", cancellable = true)
+    private static void getTotalWeight__976348361(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-976348361L))
+            info.setReturnValue(916980136);
     }
 
 

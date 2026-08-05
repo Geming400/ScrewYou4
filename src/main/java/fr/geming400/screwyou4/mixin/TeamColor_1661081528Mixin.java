@@ -16,31 +16,31 @@ public class TeamColor_1661081528Mixin {
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1248373510(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1248373510L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_525621552(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(525621552L))
-            info.setReturnValue(null);
+            info.setReturnValue("5jcL涏梣@'mx∟td/7oo`Jd6`VGXm#,-=JR]4滘繞vX呲unE!U(({䙖킴7sBA}aM6স伯b[#`Mi돣윾Ce툪S|zDv5");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1699344269(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1699344269L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "defaultColor()I", cancellable = true)
-    private void defaultColor_1699343773(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1699343773L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1890876148);
     }
 
     @Inject(at = @At("HEAD"), method = "calculate(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/client/multiplayer/ClientLevel;Lnet/minecraft/world/entity/LivingEntity;)I", cancellable = true)
     private void calculate_1004768301(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1004768301L))
-            info.setReturnValue(null);
+            info.setReturnValue(68604525);
+    }
+
+    @Inject(at = @At("HEAD"), method = "defaultColor()I", cancellable = true)
+    private void defaultColor_1699343773(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1699343773L))
+            info.setReturnValue(-1687728729);
     }
 
 

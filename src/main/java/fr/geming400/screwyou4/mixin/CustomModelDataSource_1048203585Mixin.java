@@ -10,7 +10,7 @@ public class CustomModelDataSource_1048203585Mixin {
         @Inject(at = @At("HEAD"), method = "index()I", cancellable = true)
     private void index_1086465830(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1086465830L))
-            info.setReturnValue(null);
+            info.setReturnValue(1713309605);
     }
 
     @Inject(at = @At("HEAD"), method = "type()Lcom/mojang/serialization/MapCodec;", cancellable = true)
@@ -22,31 +22,31 @@ public class CustomModelDataSource_1048203585Mixin {
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1861251453(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1861251453L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__87256391(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-87256391L))
-            info.setReturnValue(null);
+            info.setReturnValue(";复v≢vꓝ,;䙈Lg5vq6佴ף]咯SZ{Q");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1086466326(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1086466326L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "defaultColor()I", cancellable = true)
-    private void defaultColor_1086465830(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1086465830L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1184249686);
     }
 
     @Inject(at = @At("HEAD"), method = "calculate(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/client/multiplayer/ClientLevel;Lnet/minecraft/world/entity/LivingEntity;)I", cancellable = true)
     private void calculate_391890358(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(391890358L))
-            info.setReturnValue(null);
+            info.setReturnValue(-514730491);
+    }
+
+    @Inject(at = @At("HEAD"), method = "defaultColor()I", cancellable = true)
+    private void defaultColor_1086465830(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1086465830L))
+            info.setReturnValue(1713309605);
     }
 
 

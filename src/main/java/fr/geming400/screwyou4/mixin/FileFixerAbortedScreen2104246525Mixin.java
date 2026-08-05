@@ -10,7 +10,7 @@ public class FileFixerAbortedScreen2104246525Mixin {
         @Inject(at = @At("HEAD"), method = "keyPressed(Lnet/minecraft/client/input/KeyEvent;)Z", cancellable = true)
     private void keyPressed_1187610811(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1187610811L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "getNarrationMessage()Lnet/minecraft/network/chat/Component;", cancellable = true)
@@ -22,7 +22,7 @@ public class FileFixerAbortedScreen2104246525Mixin {
     @Inject(at = @At("HEAD"), method = "shouldCloseOnEsc()Z", cancellable = true)
     private void shouldCloseOnEsc_2142525108(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2142525108L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
 

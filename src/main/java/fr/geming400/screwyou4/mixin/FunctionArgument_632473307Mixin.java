@@ -10,7 +10,7 @@ public class FunctionArgument_632473307Mixin {
         @Inject(at = @At("HEAD"), method = "parse(Lcom/mojang/brigadier/StringReader;)Ljava/lang/Object;", cancellable = true)
     private void parse_339091563(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(339091563L))
-            info.setReturnValue(null);
+            info.setReturnValue(new java.lang.Object());
     }
 
     @Inject(at = @At("HEAD"), method = "parse(Lcom/mojang/brigadier/StringReader;)Lnet/minecraft/commands/arguments/item/FunctionArgument$Result;", cancellable = true)
@@ -22,6 +22,12 @@ public class FunctionArgument_632473307Mixin {
     @Inject(at = @At("HEAD"), method = "functions()Lnet/minecraft/commands/arguments/item/FunctionArgument;", cancellable = true)
     private static void functions_331468795(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(331468795L))
+            info.setReturnValue(new net.minecraft.commands.arguments.item.FunctionArgument());
+    }
+
+    @Inject(at = @At("HEAD"), method = "getFunctionCollection(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lcom/mojang/datafixers/util/Pair;", cancellable = true)
+    private static void getFunctionCollection_825126968(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(825126968L))
             info.setReturnValue(null);
     }
 
@@ -33,12 +39,6 @@ public class FunctionArgument_632473307Mixin {
 
     @Inject(at = @At("HEAD"), method = "getFunctionOrTag(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lcom/mojang/datafixers/util/Pair;", cancellable = true)
     private static void getFunctionOrTag_825126968(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(825126968L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getFunctionCollection(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lcom/mojang/datafixers/util/Pair;", cancellable = true)
-    private static void getFunctionCollection_825126968(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(825126968L))
             info.setReturnValue(null);
     }

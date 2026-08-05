@@ -16,7 +16,7 @@ public class SpectatorPage279584976Mixin {
     @Inject(at = @At("HEAD"), method = "getSelectedSlot()I", cancellable = true)
     private void getSelectedSlot_317847222(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(317847222L))
-            info.setReturnValue(null);
+            info.setReturnValue(58910012);
     }
 
 

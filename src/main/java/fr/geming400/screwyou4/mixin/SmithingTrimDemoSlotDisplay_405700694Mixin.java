@@ -22,19 +22,19 @@ public class SmithingTrimDemoSlotDisplay_405700694Mixin {
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_1791212952(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1791212952L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__729759282(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-729759282L))
-            info.setReturnValue(null);
+            info.setReturnValue("vygPy䎛⎾>J!AV⍦#OE( y+ )xL");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_443963435(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(443963435L))
-            info.setReturnValue(null);
+            info.setReturnValue(2026337997);
     }
 
     @Inject(at = @At("HEAD"), method = "pattern()Lnet/minecraft/core/Holder;", cancellable = true)

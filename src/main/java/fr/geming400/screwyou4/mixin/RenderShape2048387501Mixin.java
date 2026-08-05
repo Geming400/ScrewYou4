@@ -16,7 +16,7 @@ public class RenderShape2048387501Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/world/level/block/RenderShape;", cancellable = true)
     private static void valueOf__565512634(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-565512634L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.level.block.RenderShape.MODEL);
     }
 
 

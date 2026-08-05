@@ -10,25 +10,25 @@ public class Limited2058138498Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__851316539(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-851316539L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_922678523(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(922678523L))
-            info.setReturnValue(null);
+            info.setReturnValue("嬺,j7iR");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2096401240(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2096401240L))
-            info.setReturnValue(null);
+            info.setReturnValue(169411440);
     }
 
     @Inject(at = @At("HEAD"), method = "limit()I", cancellable = true)
     private void limit_2096400744(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2096400744L))
-            info.setReturnValue(null);
+            info.setReturnValue(347934929);
     }
 
     @Inject(at = @At("HEAD"), method = "limit(I)Lnet/minecraft/world/item/slot/SlotCollection;", cancellable = true)

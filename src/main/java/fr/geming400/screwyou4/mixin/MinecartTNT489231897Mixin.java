@@ -19,52 +19,10 @@ public class MinecartTNT489231897Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getFuse()I", cancellable = true)
-    private void getFuse_527494143(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(527494143L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "isPrimed()Z", cancellable = true)
     private void isPrimed_527510480(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(527510480L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getBlockExplosionResistance(Lnet/minecraft/world/level/Explosion;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/material/FluidState;F)F", cancellable = true)
-    private void getBlockExplosionResistance_1951856916(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1951856916L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "shouldBlockExplode(Lnet/minecraft/world/level/Explosion;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;F)Z", cancellable = true)
-    private void shouldBlockExplode_1313780576(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1313780576L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getPickResult()Lnet/minecraft/world/item/ItemStack;", cancellable = true)
-    private void getPickResult_1012650557(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1012650557L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "hurtServer(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/damagesource/DamageSource;F)Z", cancellable = true)
-    private void hurtServer_39801566(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(39801566L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "causeFallDamage(DFLnet/minecraft/world/damagesource/DamageSource;)Z", cancellable = true)
-    private void causeFallDamage_11090919(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(11090919L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "handleEntityEvent(B)V", cancellable = true)
-    private void handleEntityEvent_1696684222(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1696684222L))
-            info.cancel();
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "primeFuse(Lnet/minecraft/world/damagesource/DamageSource;)V", cancellable = true)
@@ -73,10 +31,52 @@ public class MinecartTNT489231897Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "hurtServer(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/damagesource/DamageSource;F)Z", cancellable = true)
+    private void hurtServer_39801566(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(39801566L))
+            info.setReturnValue(false);
+    }
+
     @Inject(at = @At("HEAD"), method = "getDefaultDisplayBlockState()Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
     private void getDefaultDisplayBlockState__1806526969(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1806526969L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getBlockExplosionResistance(Lnet/minecraft/world/level/Explosion;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/material/FluidState;F)F", cancellable = true)
+    private void getBlockExplosionResistance_1951856916(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1951856916L))
+            info.setReturnValue(4.27516E7F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "causeFallDamage(DFLnet/minecraft/world/damagesource/DamageSource;)Z", cancellable = true)
+    private void causeFallDamage_11090919(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(11090919L))
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "handleEntityEvent(B)V", cancellable = true)
+    private void handleEntityEvent_1696684222(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1696684222L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "shouldBlockExplode(Lnet/minecraft/world/level/Explosion;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;F)Z", cancellable = true)
+    private void shouldBlockExplode_1313780576(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1313780576L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getPickResult()Lnet/minecraft/world/item/ItemStack;", cancellable = true)
+    private void getPickResult_1012650557(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1012650557L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getFuse()I", cancellable = true)
+    private void getFuse_527494143(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(527494143L))
+            info.setReturnValue(1148000426);
     }
 
     @Inject(at = @At("HEAD"), method = "activateMinecart(Lnet/minecraft/server/level/ServerLevel;IIIZ)V", cancellable = true)

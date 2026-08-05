@@ -28,7 +28,7 @@ public class ClientboundSetBorderWarningDelayPacket_1669491284Mixin {
     @Inject(at = @At("HEAD"), method = "getWarningDelay()I", cancellable = true)
     private void getWarningDelay_1707753529(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1707753529L))
-            info.setReturnValue(null);
+            info.setReturnValue(-2002815528);
     }
 
 

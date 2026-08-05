@@ -16,7 +16,7 @@ public class Relative_359033624Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/world/entity/Relative;", cancellable = true)
     private static void valueOf__1361171690(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1361171690L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.entity.Relative.Y);
     }
 
     @Inject(at = @At("HEAD"), method = "position(ZZZ)Ljava/util/Set;", cancellable = true)
@@ -40,18 +40,18 @@ public class Relative_359033624Mixin {
     @Inject(at = @At("HEAD"), method = "pack(Ljava/util/Set;)I", cancellable = true)
     private static void pack__185059350(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-185059350L))
+            info.setReturnValue(-856968888);
+    }
+
+    @Inject(at = @At("HEAD"), method = "rotation(ZZ)Ljava/util/Set;", cancellable = true)
+    private static void rotation_980705137(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(980705137L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "unpack(I)Ljava/util/Set;", cancellable = true)
     private static void unpack_1554097898(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1554097898L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "rotation(ZZ)Ljava/util/Set;", cancellable = true)
-    private static void rotation_980705137(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(980705137L))
             info.setReturnValue(null);
     }
 

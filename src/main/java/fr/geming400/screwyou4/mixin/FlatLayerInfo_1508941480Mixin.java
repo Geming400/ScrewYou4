@@ -10,6 +10,12 @@ public class FlatLayerInfo_1508941480Mixin {
         @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_373481008(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(373481008L))
+            info.setReturnValue("퐌=");
+    }
+
+    @Inject(at = @At("HEAD"), method = "heightLimited(I)Lnet/minecraft/world/level/levelgen/flat/FlatLayerInfo;", cancellable = true)
+    private void heightLimited_1258001773(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1258001773L))
             info.setReturnValue(null);
     }
 
@@ -22,13 +28,7 @@ public class FlatLayerInfo_1508941480Mixin {
     @Inject(at = @At("HEAD"), method = "getHeight()I", cancellable = true)
     private void getHeight_1547203725(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1547203725L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "heightLimited(I)Lnet/minecraft/world/level/levelgen/flat/FlatLayerInfo;", cancellable = true)
-    private void heightLimited_1258001773(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1258001773L))
-            info.setReturnValue(null);
+            info.setReturnValue(-296207241);
     }
 
 

@@ -10,25 +10,25 @@ public class RepeatedWithSeparator706259947Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_2091772206(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2091772206L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__429200028(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-429200028L))
-            info.setReturnValue(null);
+            info.setReturnValue(".饫烕A>O+)Ga)_(㺚BM*=p阽gm}_C2+CC?@ae)g88AmF#D");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_744522689(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(744522689L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1113629997);
     }
 
     @Inject(at = @At("HEAD"), method = "parse(Lnet/minecraft/util/parsing/packrat/ParseState;Lnet/minecraft/util/parsing/packrat/Scope;Lnet/minecraft/util/parsing/packrat/Control;)Z", cancellable = true)
     private void parse_1085045795(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1085045795L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "element()Lnet/minecraft/util/parsing/packrat/NamedRule;", cancellable = true)
@@ -52,13 +52,13 @@ public class RepeatedWithSeparator706259947Mixin {
     @Inject(at = @At("HEAD"), method = "minRepetitions()I", cancellable = true)
     private void minRepetitions_744522193(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(744522193L))
-            info.setReturnValue(null);
+            info.setReturnValue(-910482577);
     }
 
     @Inject(at = @At("HEAD"), method = "allowTrailingSeparator()Z", cancellable = true)
     private void allowTrailingSeparator_744538530(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(744538530L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
 

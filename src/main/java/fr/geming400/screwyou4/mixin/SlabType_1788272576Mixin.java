@@ -10,7 +10,7 @@ public class SlabType_1788272576Mixin {
         @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_652812104(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(652812104L))
-            info.setReturnValue(null);
+            info.setReturnValue("^1p6vK蔓&,P#|*MdR倫mH,jA>B+d鷺ⶫsRwn>7KChUHZD W{舐Pza}Vji}]D7U%k<[XNlG}JЄ芙qqQp1㮲e");
     }
 
     @Inject(at = @At("HEAD"), method = "values()[Lnet/minecraft/world/level/block/state/properties/SlabType;", cancellable = true)
@@ -22,13 +22,13 @@ public class SlabType_1788272576Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/world/level/block/state/properties/SlabType;", cancellable = true)
     private static void valueOf_1490191281(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1490191281L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.level.block.state.properties.SlabType.BOTTOM);
     }
 
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName_652812104(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(652812104L))
-            info.setReturnValue(null);
+            info.setReturnValue("^1p6vK蔓&,P#|*MdR倫mH,jA>B+d鷺ⶫsRwn>7KChUHZD W{舐Pza}Vji}]D7U%k<[XNlG}JЄ芙qqQp1㮲e");
     }
 
 

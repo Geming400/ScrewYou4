@@ -16,19 +16,19 @@ public class TelemetryEventInstance678125700Mixin {
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_2063637959(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2063637959L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__457334275(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-457334275L))
-            info.setReturnValue(null);
+            info.setReturnValue("愠!]$db'9恧<A䓙WKtsT`(|R|ck.ecr匌d++I5{(3 }1\"$7珊HP@6gNz#eT廍BF(k<&#{f+rh&※.挔L`7'5QNa7稹쉓[^");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_716388442(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(716388442L))
-            info.setReturnValue(null);
+            info.setReturnValue(896796227);
     }
 
     @Inject(at = @At("HEAD"), method = "properties()Lnet/minecraft/client/telemetry/TelemetryPropertyMap;", cancellable = true)

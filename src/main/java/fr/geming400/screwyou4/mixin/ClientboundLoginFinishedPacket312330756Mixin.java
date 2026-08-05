@@ -16,19 +16,19 @@ public class ClientboundLoginFinishedPacket312330756Mixin {
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_1697843015(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1697843015L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__823129219(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-823129219L))
-            info.setReturnValue(null);
+            info.setReturnValue("Y装`c3ꡞ0U▃릏Kw:歷qQf쒘M!#[mR?2C4z?(jP(#");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_350593498(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(350593498L))
-            info.setReturnValue(null);
+            info.setReturnValue(-340181667);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/protocol/login/ClientLoginPacketListener;)V", cancellable = true)
@@ -46,7 +46,7 @@ public class ClientboundLoginFinishedPacket312330756Mixin {
     @Inject(at = @At("HEAD"), method = "isTerminal()Z", cancellable = true)
     private void isTerminal_350609339(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(350609339L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "sessionId()Ljava/util/UUID;", cancellable = true)

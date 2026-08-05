@@ -10,7 +10,7 @@ public class EndSpikeFeature1490716189Mixin {
         @Inject(at = @At("HEAD"), method = "place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z", cancellable = true)
     private void place__2088993371(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2088993371L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "getSpikesForLevel(Lnet/minecraft/world/level/WorldGenLevel;)Ljava/util/List;", cancellable = true)

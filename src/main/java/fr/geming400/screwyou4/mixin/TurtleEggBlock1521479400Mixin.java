@@ -13,9 +13,15 @@ public class TurtleEggBlock1521479400Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "stepOn(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/entity/Entity;)V", cancellable = true)
-    private void stepOn_836281024(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(836281024L))
+    @Inject(at = @At("HEAD"), method = "getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
+    private void getStateForPlacement_262879633(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(262879633L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "playerDestroy(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/entity/BlockEntity;Lnet/minecraft/world/item/ItemStack;)V", cancellable = true)
+    private void playerDestroy_81736230(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(81736230L))
             info.cancel();
     }
 
@@ -25,28 +31,22 @@ public class TurtleEggBlock1521479400Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "playerDestroy(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/entity/BlockEntity;Lnet/minecraft/world/item/ItemStack;)V", cancellable = true)
-    private void playerDestroy_81736230(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(81736230L))
+    @Inject(at = @At("HEAD"), method = "stepOn(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/entity/Entity;)V", cancellable = true)
+    private void stepOn_836281024(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(836281024L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "onSand(Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)Z", cancellable = true)
     private static void onSand_943950672(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(943950672L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "isSand(Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)Z", cancellable = true)
     private static void isSand_943950672(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(943950672L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
-    private void getStateForPlacement_262879633(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(262879633L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
 

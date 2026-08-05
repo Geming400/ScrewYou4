@@ -10,7 +10,7 @@ public class SkinReportScreen_43177787Mixin {
         @Inject(at = @At("HEAD"), method = "mouseReleased(Lnet/minecraft/client/input/MouseButtonEvent;)Z", cancellable = true)
     private void mouseReleased_266800080(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(266800080L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
 

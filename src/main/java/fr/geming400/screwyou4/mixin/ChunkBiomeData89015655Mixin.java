@@ -10,19 +10,19 @@ public class ChunkBiomeData89015655Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_1474527914(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1474527914L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__1046444320(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1046444320L))
-            info.setReturnValue(null);
+            info.setReturnValue("`QQQ[tQs겑Ll|r>a3It쫡d2bpJjpJ!yfIe'q鋈U呢;{p6橶pVY&tqzK=簤0ZnS쯲M%/YchK#tq삊3_ùj]Jz'ABCO[tbAf");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_127278397(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(127278397L))
-            info.setReturnValue(null);
+            info.setReturnValue(1580131158);
     }
 
     @Inject(at = @At("HEAD"), method = "buffer()[B", cancellable = true)
@@ -43,16 +43,16 @@ public class ChunkBiomeData89015655Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getReadBuffer()Lnet/minecraft/network/FriendlyByteBuf;", cancellable = true)
-    private void getReadBuffer_1000058656(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1000058656L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "extractChunkData(Lnet/minecraft/network/FriendlyByteBuf;Lnet/minecraft/world/level/chunk/LevelChunk;)V", cancellable = true)
     private static void extractChunkData_101490374(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(101490374L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getReadBuffer()Lnet/minecraft/network/FriendlyByteBuf;", cancellable = true)
+    private void getReadBuffer_1000058656(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1000058656L))
+            info.setReturnValue(null);
     }
 
 

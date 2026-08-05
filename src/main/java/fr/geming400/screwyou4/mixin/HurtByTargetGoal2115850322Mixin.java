@@ -16,7 +16,7 @@ public class HurtByTargetGoal2115850322Mixin {
     @Inject(at = @At("HEAD"), method = "canUse()Z", cancellable = true)
     private void canUse__2140838391(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2140838391L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "setAlertOthers([Ljava/lang/Class;)Lnet/minecraft/world/entity/ai/goal/target/HurtByTargetGoal;", cancellable = true)

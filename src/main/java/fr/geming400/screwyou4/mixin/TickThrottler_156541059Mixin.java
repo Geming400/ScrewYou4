@@ -22,7 +22,7 @@ public class TickThrottler_156541059Mixin {
     @Inject(at = @At("HEAD"), method = "isUnderThreshold()Z", cancellable = true)
     private void isUnderThreshold_194819641(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(194819641L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
 

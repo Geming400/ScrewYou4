@@ -10,19 +10,19 @@ public class Layer906832712Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__2002622325(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2002622325L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__228627263(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-228627263L))
-            info.setReturnValue(null);
+            info.setReturnValue("OBF*:Jie⯷f|)-(栢p裍텽8ꔔ|N^˚!6Z4iSY-LSt辍IL2<8z^I2v@PI#|䑷'z녔WyO✨p6>y>nꗪx\"c`_Ga㺉r2맙%zM@꒸");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_945095454(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(945095454L))
-            info.setReturnValue(null);
+            info.setReturnValue(-471049256);
     }
 
     @Inject(at = @At("HEAD"), method = "state()Lnet/minecraft/world/level/levelgen/feature/stateproviders/BlockStateProvider;", cancellable = true)

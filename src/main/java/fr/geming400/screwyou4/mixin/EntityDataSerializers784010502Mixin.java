@@ -16,7 +16,7 @@ public class EntityDataSerializers784010502Mixin {
     @Inject(at = @At("HEAD"), method = "getSerializedId(Lnet/minecraft/network/syncher/EntityDataSerializer;)I", cancellable = true)
     private static void getSerializedId_1603016778(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1603016778L))
-            info.setReturnValue(null);
+            info.setReturnValue(1772608751);
     }
 
     @Inject(at = @At("HEAD"), method = "getSerializer(I)Lnet/minecraft/network/syncher/EntityDataSerializer;", cancellable = true)

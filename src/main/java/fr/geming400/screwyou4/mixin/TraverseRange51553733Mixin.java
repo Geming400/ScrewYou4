@@ -16,7 +16,7 @@ public class TraverseRange51553733Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/client/renderer/state/gui/GuiRenderState$TraverseRange;", cancellable = true)
     private static void valueOf_1833570284(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1833570284L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.client.renderer.state.gui.GuiRenderState.TraverseRange.BEFORE_BLUR);
     }
 
 

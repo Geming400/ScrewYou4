@@ -16,25 +16,25 @@ public class ClientboundResetScorePacket1926027072Mixin {
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__983427965(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-983427965L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_790567097(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(790567097L))
-            info.setReturnValue(null);
+            info.setReturnValue("=+X7Dj,\"}>A䏴nm.[롄鶈*|啸붇XNhWx30䵳2>ꙺ(]x!6짍슪+`%Y");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1964289814(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1964289814L))
-            info.setReturnValue(null);
+            info.setReturnValue(1810655535);
     }
 
     @Inject(at = @At("HEAD"), method = "owner()Ljava/lang/String;", cancellable = true)
     private void owner_790566601(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(790566601L))
-            info.setReturnValue(null);
+            info.setReturnValue("V6g4x'cpv?jr쓼^@@r捂M[hsAi湞;=s/2_i팋L3 I]ib<");
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/PacketListener;)V", cancellable = true)
@@ -52,7 +52,7 @@ public class ClientboundResetScorePacket1926027072Mixin {
     @Inject(at = @At("HEAD"), method = "objectiveName()Ljava/lang/String;", cancellable = true)
     private void objectiveName_790566601(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(790566601L))
-            info.setReturnValue(null);
+            info.setReturnValue("V6g4x'cpv?jr쓼^@@r捂M[hsAi湞;=s/2_i팋L3 I]ib<");
     }
 
 

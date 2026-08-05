@@ -10,13 +10,13 @@ public class ServerState_361719609Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_1747231867(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1747231867L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__773740367(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-773740367L))
-            info.setReturnValue(null);
+            info.setReturnValue("w2㾌쬬WeQa鱪:0leOdሚKk");
     }
 
     @Inject(at = @At("HEAD"), method = "version()Lnet/minecraft/network/protocol/status/ServerStatus$Version;", cancellable = true)
@@ -28,13 +28,13 @@ public class ServerState_361719609Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_399982350(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(399982350L))
-            info.setReturnValue(null);
+            info.setReturnValue(-282098210);
     }
 
     @Inject(at = @At("HEAD"), method = "started()Z", cancellable = true)
     private void started_399998191(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(399998191L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "players()Ljava/util/List;", cancellable = true)

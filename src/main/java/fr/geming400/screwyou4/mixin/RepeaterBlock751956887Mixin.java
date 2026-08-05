@@ -10,7 +10,7 @@ public class RepeaterBlock751956887Mixin {
         @Inject(at = @At("HEAD"), method = "isLocked(Lnet/minecraft/world/level/LevelReader;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Z", cancellable = true)
     private void isLocked_796636645(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(796636645L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
@@ -19,16 +19,16 @@ public class RepeaterBlock751956887Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "animateTick(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)V", cancellable = true)
-    private void animateTick_629354806(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(629354806L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
     private void getStateForPlacement__506642880(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-506642880L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "animateTick(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)V", cancellable = true)
+    private void animateTick_629354806(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(629354806L))
+            info.cancel();
     }
 
 

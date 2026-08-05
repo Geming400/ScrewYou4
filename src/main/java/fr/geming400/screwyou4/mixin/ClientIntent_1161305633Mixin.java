@@ -16,19 +16,19 @@ public class ClientIntent_1161305633Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/network/protocol/handshake/ClientIntent;", cancellable = true)
     private static void valueOf_955726789(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(955726789L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.network.protocol.handshake.ClientIntent.TRANSFER);
     }
 
     @Inject(at = @At("HEAD"), method = "id()I", cancellable = true)
     private void id_1199567878(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1199567878L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1847514198);
     }
 
     @Inject(at = @At("HEAD"), method = "byId(I)Lnet/minecraft/network/protocol/handshake/ClientIntent;", cancellable = true)
     private static void byId_1083733748(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1083733748L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.network.protocol.handshake.ClientIntent.LOGIN);
     }
 
 

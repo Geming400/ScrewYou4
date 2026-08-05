@@ -16,13 +16,13 @@ public class ChatTrustLevel_337027384Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/client/multiplayer/chat/ChatTrustLevel;", cancellable = true)
     private static void valueOf_596959037(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(596959037L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.client.multiplayer.chat.ChatTrustLevel.MODIFIED);
     }
 
     @Inject(at = @At("HEAD"), method = "evaluate(Lnet/minecraft/network/chat/PlayerChatMessage;Lnet/minecraft/network/chat/Component;Ljava/time/Instant;)Lnet/minecraft/client/multiplayer/chat/ChatTrustLevel;", cancellable = true)
     private static void evaluate__1382661229(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1382661229L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.client.multiplayer.chat.ChatTrustLevel.MODIFIED);
     }
 
     @Inject(at = @At("HEAD"), method = "createTag(Lnet/minecraft/network/chat/PlayerChatMessage;)Lnet/minecraft/client/multiplayer/chat/GuiMessageTag;", cancellable = true)
@@ -34,13 +34,13 @@ public class ChatTrustLevel_337027384Mixin {
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName__798433088(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-798433088L))
-            info.setReturnValue(null);
+            info.setReturnValue("(Z呷dufP4AL蚐Q쩍WoVG'>+J3紌w(IX[q");
     }
 
     @Inject(at = @At("HEAD"), method = "isNotSecure()Z", cancellable = true)
     private void isNotSecure_375305966(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(375305966L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
 

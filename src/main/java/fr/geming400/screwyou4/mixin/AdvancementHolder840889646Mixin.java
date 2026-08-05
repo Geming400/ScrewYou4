@@ -16,19 +16,19 @@ public class AdvancementHolder840889646Mixin {
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__2068565887(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2068565887L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__294570825(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-294570825L))
-            info.setReturnValue(null);
+            info.setReturnValue("7閠᳴@a!CN^uߓSFZc掲|=wt y䎞Gy要Uᗡle|rJ:2El)ta+BLd}=ZWL;Wsk糅");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_879151892(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(879151892L))
-            info.setReturnValue(null);
+            info.setReturnValue(1799774580);
     }
 
     @Inject(at = @At("HEAD"), method = "id()Lnet/minecraft/resources/Identifier;", cancellable = true)

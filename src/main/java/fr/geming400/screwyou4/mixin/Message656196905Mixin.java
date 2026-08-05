@@ -10,19 +10,19 @@ public class Message656196905Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_2041709164(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2041709164L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__479263070(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-479263070L))
-            info.setReturnValue(null);
+            info.setReturnValue(")Q_<G");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_694459647(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(694459647L))
-            info.setReturnValue(null);
+            info.setReturnValue(1745657875);
     }
 
     @Inject(at = @At("HEAD"), method = "literal()Ljava/util/Optional;", cancellable = true)

@@ -10,37 +10,31 @@ public class PackConfig756117878Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_2141630137(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2141630137L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__379342097(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-379342097L))
-            info.setReturnValue(null);
+            info.setReturnValue("㭡e￦\\"{X,:rm:?൱zV]73-揬k<:폊T:]9Eg[[>=[|&g-&!OIU%n1age0ma_N+1W碛E✙# #JퟒUL5!^");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_794380620(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(794380620L))
-            info.setReturnValue(null);
+            info.setReturnValue(1547637471);
     }
 
-    @Inject(at = @At("HEAD"), method = "initMode()Z", cancellable = true)
-    private void initMode_794396461(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(794396461L))
+    @Inject(at = @At("HEAD"), method = "initialDataConfig()Lnet/minecraft/world/level/WorldDataConfiguration;", cancellable = true)
+    private void initialDataConfig_1673343790(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1673343790L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "safeMode()Z", cancellable = true)
     private void safeMode_794396461(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(794396461L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "createResourceManager()Lcom/mojang/datafixers/util/Pair;", cancellable = true)
-    private void createResourceManager_1610225432(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1610225432L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "packRepository()Lnet/minecraft/server/packs/repository/PackRepository;", cancellable = true)
@@ -49,9 +43,15 @@ public class PackConfig756117878Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "initialDataConfig()Lnet/minecraft/world/level/WorldDataConfiguration;", cancellable = true)
-    private void initialDataConfig_1673343790(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1673343790L))
+    @Inject(at = @At("HEAD"), method = "initMode()Z", cancellable = true)
+    private void initMode_794396461(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(794396461L))
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "createResourceManager()Lcom/mojang/datafixers/util/Pair;", cancellable = true)
+    private void createResourceManager_1610225432(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1610225432L))
             info.setReturnValue(null);
     }
 

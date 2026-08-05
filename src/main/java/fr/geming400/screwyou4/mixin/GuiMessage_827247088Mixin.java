@@ -16,25 +16,25 @@ public class GuiMessage_827247088Mixin {
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__2082207950(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2082207950L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__308212888(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-308212888L))
-            info.setReturnValue(null);
+            info.setReturnValue("^mm-{gp3ElcVd%F@dy辧p LaLU");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_865509829(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(865509829L))
-            info.setReturnValue(null);
+            info.setReturnValue(-317116995);
     }
 
     @Inject(at = @At("HEAD"), method = "source()Lnet/minecraft/client/multiplayer/chat/GuiMessageSource;", cancellable = true)
     private void source__1965851356(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1965851356L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.client.multiplayer.chat.GuiMessageSource.SYSTEM_SERVER);
     }
 
     @Inject(at = @At("HEAD"), method = "tag()Lnet/minecraft/client/multiplayer/chat/GuiMessageTag;", cancellable = true)
@@ -58,7 +58,7 @@ public class GuiMessage_827247088Mixin {
     @Inject(at = @At("HEAD"), method = "addedTime()I", cancellable = true)
     private void addedTime_865509333(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(865509333L))
-            info.setReturnValue(null);
+            info.setReturnValue(318857613);
     }
 
 

@@ -16,7 +16,7 @@ public class PathTypeCache_569889355Mixin {
     @Inject(at = @At("HEAD"), method = "getOrCompute(Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/pathfinder/PathType;", cancellable = true)
     private void getOrCompute__1765816896(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1765816896L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.level.pathfinder.PathType.WATER_BORDER);
     }
 
 

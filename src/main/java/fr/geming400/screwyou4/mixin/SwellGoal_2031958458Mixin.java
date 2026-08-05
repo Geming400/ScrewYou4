@@ -22,7 +22,7 @@ public class SwellGoal_2031958458Mixin {
     @Inject(at = @At("HEAD"), method = "canUse()Z", cancellable = true)
     private void canUse_2070237040(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2070237040L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "tick()V", cancellable = true)
@@ -34,7 +34,7 @@ public class SwellGoal_2031958458Mixin {
     @Inject(at = @At("HEAD"), method = "requiresUpdateEveryTick()Z", cancellable = true)
     private void requiresUpdateEveryTick_2070237040(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2070237040L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
 

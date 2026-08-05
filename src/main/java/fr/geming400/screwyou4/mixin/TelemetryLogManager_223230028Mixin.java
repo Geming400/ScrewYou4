@@ -16,13 +16,13 @@ public class TelemetryLogManager_223230028Mixin {
     @Inject(at = @At("HEAD"), method = "open(Ljava/nio/file/Path;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
     private static void open__1727575263(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1727575263L))
-            info.setReturnValue(null);
+            info.setReturnValue(new java.util.concurrent.CompletableFuture());
     }
 
     @Inject(at = @At("HEAD"), method = "openLogger()Ljava/util/concurrent/CompletableFuture;", cancellable = true)
     private void openLogger_1936605288(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1936605288L))
-            info.setReturnValue(null);
+            info.setReturnValue(new java.util.concurrent.CompletableFuture());
     }
 
 

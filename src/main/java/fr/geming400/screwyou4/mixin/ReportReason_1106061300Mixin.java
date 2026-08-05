@@ -16,7 +16,7 @@ public class ReportReason_1106061300Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/client/multiplayer/chat/report/ReportReason;", cancellable = true)
     private static void valueOf__2087590728(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2087590728L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.client.multiplayer.chat.report.ReportReason.TERRORISM_OR_VIOLENT_EXTREMISM);
     }
 
     @Inject(at = @At("HEAD"), method = "description()Lnet/minecraft/network/chat/Component;", cancellable = true)
@@ -31,15 +31,15 @@ public class ReportReason_1106061300Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getIncompatibleCategories(Lnet/minecraft/client/multiplayer/chat/report/ReportType;)Ljava/util/List;", cancellable = true)
-    private static void getIncompatibleCategories_2095970875(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2095970875L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "backendName()Ljava/lang/String;", cancellable = true)
     private void backendName__29399172(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-29399172L))
+            info.setReturnValue("y:0n7=鈵M:wJ|Jr싌I줩kg4/]mUo.2orQaC8oMT䬂*4I.2B?t=r즂&\"&CZl0t.)TC<YRkBT3]#A瀊!s");
+    }
+
+    @Inject(at = @At("HEAD"), method = "getIncompatibleCategories(Lnet/minecraft/client/multiplayer/chat/report/ReportType;)Ljava/util/List;", cancellable = true)
+    private static void getIncompatibleCategories_2095970875(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2095970875L))
             info.setReturnValue(null);
     }
 

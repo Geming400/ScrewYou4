@@ -16,7 +16,7 @@ public class MinecraftExecutorServiceImpl464543037Mixin {
     @Inject(at = @At("HEAD"), method = "submit(Ljava/util/function/Supplier;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
     private void submit__216805050(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-216805050L))
-            info.setReturnValue(null);
+            info.setReturnValue(new java.util.concurrent.CompletableFuture());
     }
 
 

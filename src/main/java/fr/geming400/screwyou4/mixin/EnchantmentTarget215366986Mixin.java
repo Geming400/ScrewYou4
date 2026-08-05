@@ -16,13 +16,13 @@ public class EnchantmentTarget215366986Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/world/item/enchantment/EnchantmentTarget;", cancellable = true)
     private static void valueOf__1657752159(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1657752159L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.item.enchantment.EnchantmentTarget.DAMAGING_ENTITY);
     }
 
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName__920093485(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-920093485L))
-            info.setReturnValue(null);
+            info.setReturnValue("xQQWN)Y|$蟁Z9x<)FNft呓R!䩔R3VTjUnz;>銒UiI1;>wW{Bi稊J!罱VG*5GR8utjw:xyX'@5Lc㴌dT}aVkq趕92%'t1vwGw袓屺X舒:tn");
     }
 
 

@@ -10,19 +10,19 @@ public class Quad1790389923Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1119065114(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1119065114L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_654929948(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(654929948L))
-            info.setReturnValue(null);
+            info.setReturnValue("}qh蚸0X[8JC䓬o{vMvp]J1[6p3Y3DMNh7sԍv");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1828652665(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1828652665L))
-            info.setReturnValue(null);
+            info.setReturnValue(426039472);
     }
 
     @Inject(at = @At("HEAD"), method = "b()Lnet/minecraft/world/phys/Vec3;", cancellable = true)
@@ -52,7 +52,7 @@ public class Quad1790389923Mixin {
     @Inject(at = @At("HEAD"), method = "color()I", cancellable = true)
     private void color_1828652169(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1828652169L))
-            info.setReturnValue(null);
+            info.setReturnValue(703058680);
     }
 
 

@@ -22,7 +22,7 @@ public class AlertScreen_1882927910Mixin {
     @Inject(at = @At("HEAD"), method = "shouldCloseOnEsc()Z", cancellable = true)
     private void shouldCloseOnEsc_1921206492(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1921206492L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
 

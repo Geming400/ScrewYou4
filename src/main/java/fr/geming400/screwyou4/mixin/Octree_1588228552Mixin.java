@@ -10,7 +10,7 @@ public class Octree_1588228552Mixin {
         @Inject(at = @At("HEAD"), method = "add(Lnet/minecraft/client/renderer/chunk/SectionRenderDispatcher$RenderSection;)Z", cancellable = true)
     private void add_1742402214(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1742402214L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "visitNodes(Lnet/minecraft/client/renderer/Octree$OctreeVisitor;Lnet/minecraft/client/renderer/culling/Frustum;I)V", cancellable = true)

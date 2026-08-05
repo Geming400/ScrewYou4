@@ -22,7 +22,7 @@ public class ServerRecipeBook_1831503154Mixin {
     @Inject(at = @At("HEAD"), method = "contains(Lnet/minecraft/resources/ResourceKey;)Z", cancellable = true)
     private void contains_2019176300(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2019176300L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "pack()Lnet/minecraft/stats/ServerRecipeBook$Packed;", cancellable = true)
@@ -31,22 +31,16 @@ public class ServerRecipeBook_1831503154Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "removeHighlight(Lnet/minecraft/resources/ResourceKey;)V", cancellable = true)
-    private void removeHighlight_2019172456(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(2019172456L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "addRecipes(Ljava/util/Collection;Lnet/minecraft/server/level/ServerPlayer;)I", cancellable = true)
     private void addRecipes__354223402(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-354223402L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1672849102);
     }
 
     @Inject(at = @At("HEAD"), method = "removeRecipes(Ljava/util/Collection;Lnet/minecraft/server/level/ServerPlayer;)I", cancellable = true)
     private void removeRecipes__354223402(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-354223402L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1672849102);
     }
 
     @Inject(at = @At("HEAD"), method = "copyOverData(Lnet/minecraft/stats/ServerRecipeBook;)V", cancellable = true)
@@ -58,6 +52,12 @@ public class ServerRecipeBook_1831503154Mixin {
     @Inject(at = @At("HEAD"), method = "loadUntrusted(Lnet/minecraft/stats/ServerRecipeBook$Packed;Ljava/util/function/Predicate;)V", cancellable = true)
     private void loadUntrusted_1844635084(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1844635084L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "removeHighlight(Lnet/minecraft/resources/ResourceKey;)V", cancellable = true)
+    private void removeHighlight_2019172456(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(2019172456L))
             info.cancel();
     }
 

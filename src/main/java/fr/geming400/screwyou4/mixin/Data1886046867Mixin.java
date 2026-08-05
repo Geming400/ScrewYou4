@@ -16,19 +16,19 @@ public class Data1886046867Mixin {
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1023408170(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1023408170L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_750586892(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(750586892L))
-            info.setReturnValue(null);
+            info.setReturnValue("쭶gs");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1924309609(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1924309609L))
-            info.setReturnValue(null);
+            info.setReturnValue(981131054);
     }
 
     @Inject(at = @At("HEAD"), method = "test()Ljava/util/Optional;", cancellable = true)
@@ -40,30 +40,12 @@ public class Data1886046867Mixin {
     @Inject(at = @At("HEAD"), method = "status()Lnet/minecraft/world/level/block/entity/TestInstanceBlockEntity$Status;", cancellable = true)
     private void status_1244208348(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1244208348L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.level.block.entity.TestInstanceBlockEntity.Status.FINISHED);
     }
 
     @Inject(at = @At("HEAD"), method = "withStatus(Lnet/minecraft/world/level/block/entity/TestInstanceBlockEntity$Status;)Lnet/minecraft/world/level/block/entity/TestInstanceBlockEntity$Data;", cancellable = true)
     private void withStatus__1976121856(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1976121856L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "ignoreEntities()Z", cancellable = true)
-    private void ignoreEntities_1924325450(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1924325450L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "rotation()Lnet/minecraft/world/level/block/Rotation;", cancellable = true)
-    private void rotation_387725509(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(387725509L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "withSize(Lnet/minecraft/core/Vec3i;)Lnet/minecraft/world/level/block/entity/TestInstanceBlockEntity$Data;", cancellable = true)
-    private void withSize_1805162853(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1805162853L))
             info.setReturnValue(null);
     }
 
@@ -73,9 +55,27 @@ public class Data1886046867Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "rotation()Lnet/minecraft/world/level/block/Rotation;", cancellable = true)
+    private void rotation_387725509(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(387725509L))
+            info.setReturnValue(net.minecraft.world.level.block.Rotation.CLOCKWISE_180);
+    }
+
+    @Inject(at = @At("HEAD"), method = "ignoreEntities()Z", cancellable = true)
+    private void ignoreEntities_1924325450(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1924325450L))
+            info.setReturnValue(true);
+    }
+
     @Inject(at = @At("HEAD"), method = "withError(Lnet/minecraft/network/chat/Component;)Lnet/minecraft/world/level/block/entity/TestInstanceBlockEntity$Data;", cancellable = true)
     private void withError_198556088(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(198556088L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "withSize(Lnet/minecraft/core/Vec3i;)Lnet/minecraft/world/level/block/entity/TestInstanceBlockEntity$Data;", cancellable = true)
+    private void withSize_1805162853(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1805162853L))
             info.setReturnValue(null);
     }
 

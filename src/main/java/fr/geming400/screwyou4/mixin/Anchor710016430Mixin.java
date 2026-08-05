@@ -16,7 +16,7 @@ public class Anchor710016430Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/commands/arguments/EntityAnchorArgument$Anchor;", cancellable = true)
     private static void valueOf_1977320658(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1977320658L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.commands.arguments.EntityAnchorArgument.Anchor.EYES);
     }
 
     @Inject(at = @At("HEAD"), method = "apply(Lnet/minecraft/commands/CommandSourceStack;)Lnet/minecraft/world/phys/Vec3;", cancellable = true)
@@ -34,7 +34,7 @@ public class Anchor710016430Mixin {
     @Inject(at = @At("HEAD"), method = "getByName(Ljava/lang/String;)Lnet/minecraft/commands/arguments/EntityAnchorArgument$Anchor;", cancellable = true)
     private static void getByName_1977320658(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1977320658L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.commands.arguments.EntityAnchorArgument.Anchor.EYES);
     }
 
 

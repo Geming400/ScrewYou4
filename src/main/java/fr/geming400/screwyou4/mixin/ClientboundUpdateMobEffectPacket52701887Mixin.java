@@ -25,52 +25,52 @@ public class ClientboundUpdateMobEffectPacket52701887Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "effectShowsIcon()Z", cancellable = true)
-    private void effectShowsIcon_90980470(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(90980470L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isEffectVisible()Z", cancellable = true)
-    private void isEffectVisible_90980470(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(90980470L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getEffectDurationTicks()I", cancellable = true)
-    private void getEffectDurationTicks_90964133(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(90964133L))
+    @Inject(at = @At("HEAD"), method = "getEffect()Lnet/minecraft/core/Holder;", cancellable = true)
+    private void getEffect_1601577659(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1601577659L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getEffectAmplifier()I", cancellable = true)
     private void getEffectAmplifier_90964133(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(90964133L))
-            info.setReturnValue(null);
+            info.setReturnValue(-351847491);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getEffectDurationTicks()I", cancellable = true)
+    private void getEffectDurationTicks_90964133(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(90964133L))
+            info.setReturnValue(-351847491);
     }
 
     @Inject(at = @At("HEAD"), method = "isEffectAmbient()Z", cancellable = true)
     private void isEffectAmbient_90980470(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(90980470L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isEffectVisible()Z", cancellable = true)
+    private void isEffectVisible_90980470(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(90980470L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "shouldBlend()Z", cancellable = true)
     private void shouldBlend_90980470(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(90980470L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "effectShowsIcon()Z", cancellable = true)
+    private void effectShowsIcon_90980470(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(90980470L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "getEntityId()I", cancellable = true)
     private void getEntityId_90964133(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(90964133L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getEffect()Lnet/minecraft/core/Holder;", cancellable = true)
-    private void getEffect_1601577659(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1601577659L))
-            info.setReturnValue(null);
+            info.setReturnValue(-351847491);
     }
 
 

@@ -16,19 +16,19 @@ public class ClientboundRegistryDataPacket_516273404Mixin {
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_1901785662(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1901785662L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__619186572(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-619186572L))
-            info.setReturnValue(null);
+            info.setReturnValue("b=^eᯘ`V)dj%䏫!`Niఝ-{xW:ҳm謲缉7P]35ﾸ&xE꒹:,H;XgC侧DTM(UG@_%U첞})|ATa,-T콭KRSo85$JM7要");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_554536145(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(554536145L))
-            info.setReturnValue(null);
+            info.setReturnValue(61911547);
     }
 
     @Inject(at = @At("HEAD"), method = "entries()Ljava/util/List;", cancellable = true)

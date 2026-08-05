@@ -10,7 +10,7 @@ public class RecipeSerializers1427799973Mixin {
         @Inject(at = @At("HEAD"), method = "bootstrap(Lnet/minecraft/core/Registry;)Ljava/lang/Object;", cancellable = true)
     private static void bootstrap_1396676634(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1396676634L))
-            info.setReturnValue(null);
+            info.setReturnValue(new java.lang.Object());
     }
 
 

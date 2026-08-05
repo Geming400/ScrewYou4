@@ -10,7 +10,7 @@ public class LeveledPriorityQueue670665424Mixin {
         @Inject(at = @At("HEAD"), method = "isEmpty()Z", cancellable = true)
     private void isEmpty_708944007(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(708944007L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "enqueue(JI)V", cancellable = true)
@@ -28,7 +28,7 @@ public class LeveledPriorityQueue670665424Mixin {
     @Inject(at = @At("HEAD"), method = "removeFirstLong()J", cancellable = true)
     private void removeFirstLong_708928631(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(708928631L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1322496179036575887L);
     }
 
 

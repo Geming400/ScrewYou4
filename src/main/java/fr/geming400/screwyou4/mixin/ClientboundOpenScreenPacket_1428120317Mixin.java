@@ -40,7 +40,7 @@ public class ClientboundOpenScreenPacket_1428120317Mixin {
     @Inject(at = @At("HEAD"), method = "getContainerId()I", cancellable = true)
     private void getContainerId_1466382562(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1466382562L))
-            info.setReturnValue(null);
+            info.setReturnValue(-2147392202);
     }
 
 

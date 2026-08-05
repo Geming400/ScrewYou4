@@ -28,7 +28,7 @@ public class BlockEntityRenderDispatcher1863923615Mixin {
     @Inject(at = @At("HEAD"), method = "tryExtractRenderState(Lnet/minecraft/world/level/block/entity/BlockEntity;FLnet/minecraft/client/renderer/feature/ModelFeatureRenderer$CrumblingOverlay;Z)Lnet/minecraft/client/renderer/blockentity/state/BlockEntityRenderState;", cancellable = true)
     private void tryExtractRenderState__138581873(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-138581873L))
-            info.setReturnValue(null);
+            info.setReturnValue(new net.minecraft.client.renderer.blockentity.state.BlockEntityRenderState());
     }
 
     @Inject(at = @At("HEAD"), method = "getRenderer(Lnet/minecraft/world/level/block/entity/BlockEntity;)Lnet/minecraft/client/renderer/blockentity/BlockEntityRenderer;", cancellable = true)

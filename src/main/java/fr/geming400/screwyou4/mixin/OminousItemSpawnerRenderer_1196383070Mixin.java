@@ -40,7 +40,7 @@ public class OminousItemSpawnerRenderer_1196383070Mixin {
     @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/EntityRenderState;", cancellable = true)
     private void createRenderState_607746625(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(607746625L))
-            info.setReturnValue(null);
+            info.setReturnValue(new net.minecraft.client.renderer.entity.state.EntityRenderState());
     }
 
 

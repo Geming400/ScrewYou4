@@ -16,7 +16,7 @@ public class SimpleFeatureRenderPhase1504484317Mixin {
     @Inject(at = @At("HEAD"), method = "isEmpty()Z", cancellable = true)
     private void isEmpty_1542762900(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1542762900L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "submit(Lnet/minecraft/client/renderer/feature/submit/SubmitNode;)V", cancellable = true)

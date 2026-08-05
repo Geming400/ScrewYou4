@@ -10,19 +10,19 @@ public class Messages_1169843092Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1739611946(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1739611946L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_34383116(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(34383116L))
-            info.setReturnValue(null);
+            info.setReturnValue("");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1208105833(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1208105833L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1153556783);
     }
 
     @Inject(at = @At("HEAD"), method = "create(Ljava/lang/String;)Lnet/minecraft/util/worldupdate/UpgradeStatusTranslator$Messages;", cancellable = true)

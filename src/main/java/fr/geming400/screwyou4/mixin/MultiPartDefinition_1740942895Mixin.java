@@ -10,19 +10,19 @@ public class MultiPartDefinition_1740942895Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1168512143(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1168512143L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_605482919(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(605482919L))
-            info.setReturnValue(null);
+            info.setReturnValue("踚sW0⎳᫈u(21&");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1779205636(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1779205636L))
-            info.setReturnValue(null);
+            info.setReturnValue(2062030083);
     }
 
     @Inject(at = @At("HEAD"), method = "instantiate(Lnet/minecraft/world/level/block/state/StateDefinition;)Lnet/minecraft/client/renderer/block/dispatch/multipart/MultiPartModel$Unbaked;", cancellable = true)

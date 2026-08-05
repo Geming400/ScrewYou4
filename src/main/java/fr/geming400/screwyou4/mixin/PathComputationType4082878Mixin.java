@@ -16,7 +16,7 @@ public class PathComputationType4082878Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/world/level/pathfinder/PathComputationType;", cancellable = true)
     private static void valueOf_1742337510(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1742337510L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.level.pathfinder.PathComputationType.AIR);
     }
 
 

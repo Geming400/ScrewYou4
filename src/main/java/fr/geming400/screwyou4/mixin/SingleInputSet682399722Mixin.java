@@ -10,31 +10,31 @@ public class SingleInputSet682399722Mixin {
         @Inject(at = @At("HEAD"), method = "size()I", cancellable = true)
     private void size_720661968(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(720661968L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1760943629);
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_2067911981(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2067911981L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__453060253(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-453060253L))
-            info.setReturnValue(null);
+            info.setReturnValue("%S>rWq䲴A6巈+鼬");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_720662464(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(720662464L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1964091048);
     }
 
     @Inject(at = @At("HEAD"), method = "isEmpty()Z", cancellable = true)
     private void isEmpty_720678305(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(720678305L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "empty()Lnet/minecraft/world/item/crafting/SelectableRecipe$SingleInputSet;", cancellable = true)
@@ -58,7 +58,7 @@ public class SingleInputSet682399722Mixin {
     @Inject(at = @At("HEAD"), method = "acceptsInput(Lnet/minecraft/world/item/ItemStack;)Z", cancellable = true)
     private void acceptsInput__1878032442(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1878032442L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "selectByInput(Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/world/item/crafting/SelectableRecipe$SingleInputSet;", cancellable = true)

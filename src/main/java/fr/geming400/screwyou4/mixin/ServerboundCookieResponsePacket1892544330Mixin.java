@@ -22,19 +22,19 @@ public class ServerboundCookieResponsePacket1892544330Mixin {
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1016910707(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1016910707L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_757084355(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(757084355L))
-            info.setReturnValue(null);
+            info.setReturnValue("-V&;텲ZNF_BX.C/8饙hꑧ?&Kr!/i|❃⪬豥`9_![wyH](b*䶚[ q77g\"l}#p9,$z鯧^l,Ix㯩VK#{听轆");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1930807072(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1930807072L))
-            info.setReturnValue(null);
+            info.setReturnValue(1078764114);
     }
 
     @Inject(at = @At("HEAD"), method = "key()Lnet/minecraft/resources/Identifier;", cancellable = true)

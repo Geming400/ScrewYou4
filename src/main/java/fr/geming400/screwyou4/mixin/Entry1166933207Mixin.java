@@ -10,25 +10,25 @@ public class Entry1166933207Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1742521830(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1742521830L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_31473232(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(31473232L))
-            info.setReturnValue(null);
+            info.setReturnValue("'CGzl");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1205195949(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1205195949L))
-            info.setReturnValue(null);
+            info.setReturnValue(345487207);
     }
 
     @Inject(at = @At("HEAD"), method = "threshold()F", cancellable = true)
     private void threshold_1205192570(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1205192570L))
-            info.setReturnValue(null);
+            info.setReturnValue(8.398309E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "model()Lnet/minecraft/client/renderer/item/ItemModel$Unbaked;", cancellable = true)

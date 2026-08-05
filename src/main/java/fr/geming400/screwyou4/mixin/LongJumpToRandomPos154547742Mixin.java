@@ -10,7 +10,7 @@ public class LongJumpToRandomPos154547742Mixin {
         @Inject(at = @At("HEAD"), method = "defaultAcceptableLandingSpot(Lnet/minecraft/world/entity/Mob;Lnet/minecraft/core/BlockPos;)Z", cancellable = true)
     private static void defaultAcceptableLandingSpot__702787081(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-702787081L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
 

@@ -13,27 +13,33 @@ public class ScoreHolderArgument195134605Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "parse(Lcom/mojang/brigadier/StringReader;Ljava/lang/Object;)Lnet/minecraft/commands/arguments/ScoreHolderArgument$Result;", cancellable = true)
-    private void parse__1456674555(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1456674555L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "parse(Lcom/mojang/brigadier/StringReader;)Lnet/minecraft/commands/arguments/ScoreHolderArgument$Result;", cancellable = true)
     private void parse__990698519(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-990698519L))
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "parse(Lcom/mojang/brigadier/StringReader;Ljava/lang/Object;)Lnet/minecraft/commands/arguments/ScoreHolderArgument$Result;", cancellable = true)
+    private void parse__1456674555(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1456674555L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "parse(Lcom/mojang/brigadier/StringReader;)Ljava/lang/Object;", cancellable = true)
     private void parse__98247138(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-98247138L))
-            info.setReturnValue(null);
+            info.setReturnValue(new java.lang.Object());
     }
 
     @Inject(at = @At("HEAD"), method = "parse(Lcom/mojang/brigadier/StringReader;Ljava/lang/Object;)Ljava/lang/Object;", cancellable = true)
     private void parse__1658994046(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1658994046L))
+            info.setReturnValue(new java.lang.Object());
+    }
+
+    @Inject(at = @At("HEAD"), method = "getNames(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Ljava/util/Collection;", cancellable = true)
+    private static void getNames_2017100209(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2017100209L))
             info.setReturnValue(null);
     }
 
@@ -43,20 +49,8 @@ public class ScoreHolderArgument195134605Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getNames(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Ljava/util/Collection;", cancellable = true)
-    private static void getNames_2017100209(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2017100209L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "scoreHolder()Lnet/minecraft/commands/arguments/ScoreHolderArgument;", cancellable = true)
     private static void scoreHolder_477341796(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(477341796L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "scoreHolders()Lnet/minecraft/commands/arguments/ScoreHolderArgument;", cancellable = true)
-    private static void scoreHolders_477341796(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(477341796L))
             info.setReturnValue(null);
     }
@@ -64,6 +58,12 @@ public class ScoreHolderArgument195134605Mixin {
     @Inject(at = @At("HEAD"), method = "getNamesWithDefaultWildcard(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Ljava/util/Collection;", cancellable = true)
     private static void getNamesWithDefaultWildcard_2017100209(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2017100209L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "scoreHolders()Lnet/minecraft/commands/arguments/ScoreHolderArgument;", cancellable = true)
+    private static void scoreHolders_477341796(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(477341796L))
             info.setReturnValue(null);
     }
 

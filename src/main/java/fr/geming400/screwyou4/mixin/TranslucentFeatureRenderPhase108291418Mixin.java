@@ -10,7 +10,7 @@ public class TranslucentFeatureRenderPhase108291418Mixin {
         @Inject(at = @At("HEAD"), method = "isEmpty()Z", cancellable = true)
     private void isEmpty_146570001(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(146570001L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "submit(Lnet/minecraft/client/renderer/feature/submit/TranslucentSubmit;)V", cancellable = true)

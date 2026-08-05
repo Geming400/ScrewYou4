@@ -10,25 +10,25 @@ public class BlockBreakingRenderState2062886895Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__846568142(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-846568142L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_927426920(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(927426920L))
-            info.setReturnValue(null);
+            info.setReturnValue(",!飻㢿a꧟UU -[(;Wྸ\"f71%(䶳)\"W=JbbA/CDeT8S:?]oHK2Ko)");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2101149637(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2101149637L))
-            info.setReturnValue(null);
+            info.setReturnValue(818405819);
     }
 
     @Inject(at = @At("HEAD"), method = "progress()I", cancellable = true)
     private void progress_2101149141(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2101149141L))
-            info.setReturnValue(null);
+            info.setReturnValue(1021553239);
     }
 
     @Inject(at = @At("HEAD"), method = "blockPos()Lnet/minecraft/core/BlockPos;", cancellable = true)

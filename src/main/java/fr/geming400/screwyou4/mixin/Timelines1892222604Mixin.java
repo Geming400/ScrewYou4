@@ -10,19 +10,19 @@ public class Timelines1892222604Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1017232433(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1017232433L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_756762629(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(756762629L))
-            info.setReturnValue(null);
+            info.setReturnValue("<ꒆUE7b뷀渶nl");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1930485346(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1930485346L))
-            info.setReturnValue(null);
+            info.setReturnValue(2039582729);
     }
 
     @Inject(at = @At("HEAD"), method = "setup(Lnet/minecraft/server/level/ServerLevel;)Ljava/lang/Object;", cancellable = true)

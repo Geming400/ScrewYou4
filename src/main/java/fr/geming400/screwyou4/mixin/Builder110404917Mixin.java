@@ -25,15 +25,15 @@ public class Builder110404917Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "withParameter(Lnet/minecraft/util/context/ContextKey;Ljava/lang/Object;)Lnet/minecraft/world/level/storage/loot/LootParams$Builder;", cancellable = true)
-    private void withParameter__2013467097(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "withOptionalParameter(Lnet/minecraft/util/context/ContextKey;Ljava/lang/Object;)Lnet/minecraft/world/level/storage/loot/LootParams$Builder;", cancellable = true)
+    private void withOptionalParameter__2013467097(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2013467097L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getOptionalParameter(Lnet/minecraft/util/context/ContextKey;)Ljava/lang/Object;", cancellable = true)
-    private void getOptionalParameter_1705340866(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1705340866L))
+    @Inject(at = @At("HEAD"), method = "withParameter(Lnet/minecraft/util/context/ContextKey;Ljava/lang/Object;)Lnet/minecraft/world/level/storage/loot/LootParams$Builder;", cancellable = true)
+    private void withParameter__2013467097(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2013467097L))
             info.setReturnValue(null);
     }
 
@@ -43,15 +43,15 @@ public class Builder110404917Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "withOptionalParameter(Lnet/minecraft/util/context/ContextKey;Ljava/lang/Object;)Lnet/minecraft/world/level/storage/loot/LootParams$Builder;", cancellable = true)
-    private void withOptionalParameter__2013467097(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2013467097L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "withDynamicDrop(Lnet/minecraft/resources/Identifier;Lnet/minecraft/world/level/storage/loot/LootParams$DynamicDrop;)Lnet/minecraft/world/level/storage/loot/LootParams$Builder;", cancellable = true)
     private void withDynamicDrop_1891495869(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1891495869L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getOptionalParameter(Lnet/minecraft/util/context/ContextKey;)Ljava/lang/Object;", cancellable = true)
+    private void getOptionalParameter_1705340866(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1705340866L))
             info.setReturnValue(null);
     }
 

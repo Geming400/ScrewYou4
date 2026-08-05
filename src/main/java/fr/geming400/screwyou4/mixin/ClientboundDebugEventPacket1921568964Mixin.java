@@ -16,19 +16,19 @@ public class ClientboundDebugEventPacket1921568964Mixin {
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__987886073(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-987886073L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_786108989(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(786108989L))
-            info.setReturnValue(null);
+            info.setReturnValue("]GH$YJ: tm$848^vAJEF3\"'vz]AXZ-i{뵠{%26?j0");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1959831706(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1959831706L))
-            info.setReturnValue(null);
+            info.setReturnValue(255795519);
     }
 
     @Inject(at = @At("HEAD"), method = "event()Lnet/minecraft/util/debug/DebugSubscription$Event;", cancellable = true)

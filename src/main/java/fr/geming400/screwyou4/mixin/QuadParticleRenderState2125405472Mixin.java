@@ -16,7 +16,7 @@ public class QuadParticleRenderState2125405472Mixin {
     @Inject(at = @At("HEAD"), method = "isEmpty()Z", cancellable = true)
     private void isEmpty__2131283241(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2131283241L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "add(Lnet/minecraft/client/particle/SingleQuadParticle$Layer;FFFFFFFFFFFFII)V", cancellable = true)

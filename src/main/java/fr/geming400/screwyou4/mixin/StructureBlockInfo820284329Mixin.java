@@ -10,19 +10,19 @@ public class StructureBlockInfo820284329Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__2089170708(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2089170708L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__315176142(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-315176142L))
-            info.setReturnValue(null);
+            info.setReturnValue("]}");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_858547071(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(858547071L))
-            info.setReturnValue(null);
+            info.setReturnValue(381565650);
     }
 
     @Inject(at = @At("HEAD"), method = "state()Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
@@ -40,7 +40,7 @@ public class StructureBlockInfo820284329Mixin {
     @Inject(at = @At("HEAD"), method = "nbt()Lnet/minecraft/nbt/CompoundTag;", cancellable = true)
     private void nbt__749938591(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-749938591L))
-            info.setReturnValue(null);
+            info.setReturnValue(new net.minecraft.nbt.CompoundTag());
     }
 
 

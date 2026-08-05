@@ -10,30 +10,30 @@ public class DebugStructureInfo_415075270Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_1800587528(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1800587528L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__720384706(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-720384706L))
-            info.setReturnValue(null);
+            info.setReturnValue("।-B.(:&nal00.R E2/[\"x5qzj䦨{gE7,]v⼀eF☣,^匋J)cU>`^:");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_453338011(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(453338011L))
+            info.setReturnValue(-699057787);
+    }
+
+    @Inject(at = @At("HEAD"), method = "boundingBox()Lnet/minecraft/world/level/levelgen/structure/BoundingBox;", cancellable = true)
+    private void boundingBox_585223055(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(585223055L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "pieces()Ljava/util/List;", cancellable = true)
     private void pieces_2041412085(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2041412085L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "boundingBox()Lnet/minecraft/world/level/levelgen/structure/BoundingBox;", cancellable = true)
-    private void boundingBox_585223055(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(585223055L))
             info.setReturnValue(null);
     }
 

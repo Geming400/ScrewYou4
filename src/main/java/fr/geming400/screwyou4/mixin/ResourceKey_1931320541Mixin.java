@@ -10,7 +10,7 @@ public class ResourceKey_1931320541Mixin {
         @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_795860069(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(795860069L))
-            info.setReturnValue(null);
+            info.setReturnValue("j7_E3`H띳ోgr*_荕[&V0R2E赗7hTnuj3 &*2ox#A庣;6썺j4@Xo't&뢈Or䱉utMT.W)|2GVaPSr黲o五y");
     }
 
     @Inject(at = @At("HEAD"), method = "cast(Lnet/minecraft/resources/ResourceKey;)Ljava/util/Optional;", cancellable = true)
@@ -55,12 +55,6 @@ public class ResourceKey_1931320541Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "isFor(Lnet/minecraft/resources/ResourceKey;)Z", cancellable = true)
-    private void isFor_2118993687(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2118993687L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "registryKey()Lnet/minecraft/resources/ResourceKey;", cancellable = true)
     private void registryKey__1555155443(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1555155443L))
@@ -77,6 +71,12 @@ public class ResourceKey_1931320541Mixin {
     private static void createRegistryKey_2080190349(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2080190349L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isFor(Lnet/minecraft/resources/ResourceKey;)Z", cancellable = true)
+    private void isFor_2118993687(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2118993687L))
+            info.setReturnValue(false);
     }
 
 

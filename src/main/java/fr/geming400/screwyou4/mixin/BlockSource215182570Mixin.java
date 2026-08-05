@@ -10,19 +10,19 @@ public class BlockSource215182570Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_1600694829(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1600694829L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__920277405(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-920277405L))
-            info.setReturnValue(null);
+            info.setReturnValue("p=]쾢{@x9j눿M對Y1O똁꯲I;'I_&S7&6Ꙓn[䙋0rڹ)");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_253445312(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(253445312L))
-            info.setReturnValue(null);
+            info.setReturnValue(-672367689);
     }
 
     @Inject(at = @At("HEAD"), method = "state()Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)

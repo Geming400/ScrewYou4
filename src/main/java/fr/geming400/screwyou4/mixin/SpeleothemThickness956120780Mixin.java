@@ -10,7 +10,7 @@ public class SpeleothemThickness956120780Mixin {
         @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__179339691(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-179339691L))
-            info.setReturnValue(null);
+            info.setReturnValue("1I\"N{Oߥo^<k##蓗WyMh0lW");
     }
 
     @Inject(at = @At("HEAD"), method = "values()[Lnet/minecraft/world/level/block/state/properties/SpeleothemThickness;", cancellable = true)
@@ -22,13 +22,13 @@ public class SpeleothemThickness956120780Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/world/level/block/state/properties/SpeleothemThickness;", cancellable = true)
     private static void valueOf__1559994818(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1559994818L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.level.block.state.properties.SpeleothemThickness.TIP);
     }
 
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName__179339691(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-179339691L))
-            info.setReturnValue(null);
+            info.setReturnValue("1I\"N{Oߥo^<k##蓗WyMh0lW");
     }
 
 

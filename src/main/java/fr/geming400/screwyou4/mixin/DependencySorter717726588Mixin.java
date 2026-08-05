@@ -10,7 +10,7 @@ public class DependencySorter717726588Mixin {
         @Inject(at = @At("HEAD"), method = "addEntry(Ljava/lang/Object;Lnet/minecraft/util/DependencySorter$Entry;)Lnet/minecraft/util/DependencySorter;", cancellable = true)
     private void addEntry__998628049(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-998628049L))
-            info.setReturnValue(null);
+            info.setReturnValue(new net.minecraft.util.DependencySorter());
     }
 
     @Inject(at = @At("HEAD"), method = "orderByDependencies(Ljava/util/function/BiConsumer;)V", cancellable = true)

@@ -10,19 +10,19 @@ public class StructureSet716648347Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_2102160606(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2102160606L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__418811628(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-418811628L))
-            info.setReturnValue(null);
+            info.setReturnValue("hTAB*$W'sC*#P1+a꤈EW||I?$L0M+AgiV\"");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_754911089(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(754911089L))
-            info.setReturnValue(null);
+            info.setReturnValue(804845558);
     }
 
     @Inject(at = @At("HEAD"), method = "entry(Lnet/minecraft/core/Holder;)Lnet/minecraft/world/level/levelgen/structure/StructureSet$StructureSelectionEntry;", cancellable = true)

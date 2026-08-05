@@ -10,31 +10,31 @@ public class TrapezoidFloat1361642236Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1547812801(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1547812801L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_226181765(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(226181765L))
-            info.setReturnValue(null);
+            info.setReturnValue("A◚犏Xq-$iy}n$Pꅎk&cHit떤sIP팻/& SdWvY$0=");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1399904978(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1399904978L))
-            info.setReturnValue(null);
+            info.setReturnValue(1539435385);
     }
 
     @Inject(at = @At("HEAD"), method = "min()F", cancellable = true)
     private void min_1399901599(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1399901599L))
-            info.setReturnValue(null);
+            info.setReturnValue(5.993675E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "max()F", cancellable = true)
     private void max_1399901599(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1399901599L))
-            info.setReturnValue(null);
+            info.setReturnValue(5.993675E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "of(FFF)Lnet/minecraft/util/valueproviders/TrapezoidFloat;", cancellable = true)
@@ -52,13 +52,13 @@ public class TrapezoidFloat1361642236Mixin {
     @Inject(at = @At("HEAD"), method = "sample(Lnet/minecraft/util/RandomSource;)F", cancellable = true)
     private void sample__345388225(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-345388225L))
-            info.setReturnValue(null);
+            info.setReturnValue(5.993675E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "plateau()F", cancellable = true)
     private void plateau_1399901599(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1399901599L))
-            info.setReturnValue(null);
+            info.setReturnValue(5.993675E8F);
     }
 
 

@@ -10,7 +10,7 @@ public class Plane_1458334495Mixin {
         @Inject(at = @At("HEAD"), method = "length()I", cancellable = true)
     private void length_1496596740(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1496596740L))
-            info.setReturnValue(null);
+            info.setReturnValue(1639877507);
     }
 
     @Inject(at = @At("HEAD"), method = "values()[Lnet/minecraft/core/Direction$Plane;", cancellable = true)
@@ -22,19 +22,19 @@ public class Plane_1458334495Mixin {
     @Inject(at = @At("HEAD"), method = "test(Ljava/lang/Object;)Z", cancellable = true)
     private void test__1450992079(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1450992079L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "test(Lnet/minecraft/core/Direction;)Z", cancellable = true)
     private void test_338412257(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(338412257L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/core/Direction$Plane;", cancellable = true)
     private static void valueOf_1336100671(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1336100671L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.core.Direction.Plane.HORIZONTAL);
     }
 
     @Inject(at = @At("HEAD"), method = "iterator()Ljava/util/Iterator;", cancellable = true)
@@ -49,22 +49,22 @@ public class Plane_1458334495Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getRandomDirection(Lnet/minecraft/util/RandomSource;)Lnet/minecraft/core/Direction;", cancellable = true)
-    private void getRandomDirection_1174639113(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1174639113L))
+    @Inject(at = @At("HEAD"), method = "shuffledCopy(Lnet/minecraft/util/RandomSource;)Ljava/util/List;", cancellable = true)
+    private void shuffledCopy_1414817710(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1414817710L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getRandomAxis(Lnet/minecraft/util/RandomSource;)Lnet/minecraft/core/Direction$Axis;", cancellable = true)
     private void getRandomAxis__902693024(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-902693024L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.core.Direction.Axis.Z);
     }
 
-    @Inject(at = @At("HEAD"), method = "shuffledCopy(Lnet/minecraft/util/RandomSource;)Ljava/util/List;", cancellable = true)
-    private void shuffledCopy_1414817710(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1414817710L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "getRandomDirection(Lnet/minecraft/util/RandomSource;)Lnet/minecraft/core/Direction;", cancellable = true)
+    private void getRandomDirection_1174639113(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1174639113L))
+            info.setReturnValue(net.minecraft.core.Direction.SOUTH);
     }
 
 

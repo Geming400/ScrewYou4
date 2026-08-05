@@ -10,19 +10,19 @@ public class VanillaChargedCreeperExplosionLoot_1133301418Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1776153620(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1776153620L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__2158558(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2158558L))
-            info.setReturnValue(null);
+            info.setReturnValue("l<FOfM5z 7*BVEꓩ\"+nꩇ");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1171564159(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1171564159L))
-            info.setReturnValue(null);
+            info.setReturnValue(1252830643);
     }
 
     @Inject(at = @At("HEAD"), method = "generate(Ljava/util/function/BiConsumer;)V", cancellable = true)

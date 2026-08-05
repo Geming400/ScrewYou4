@@ -10,7 +10,7 @@ public class GameRules101776471Mixin {
         @Inject(at = @At("HEAD"), method = "get(Lnet/minecraft/world/level/gamerules/GameRule;)Ljava/lang/Object;", cancellable = true)
     private void get__203820361(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-203820361L))
-            info.setReturnValue(null);
+            info.setReturnValue(new java.lang.Object());
     }
 
     @Inject(at = @At("HEAD"), method = "copy(Lnet/minecraft/world/flag/FeatureFlagSet;)Lnet/minecraft/world/level/gamerules/GameRules;", cancellable = true)
@@ -46,7 +46,7 @@ public class GameRules101776471Mixin {
     @Inject(at = @At("HEAD"), method = "getAsString(Lnet/minecraft/world/level/gamerules/GameRule;)Ljava/lang/String;", cancellable = true)
     private void getAsString_1096494245(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1096494245L))
-            info.setReturnValue(null);
+            info.setReturnValue("\"c,$k%鄞?O@E%^ZNH惍2X=/i4%vbH!wa3G;%8dIt0HAjc=z;0fx憎A\"e]HZ)礜fG?.8E)32$}+gaf{:䩦VL%MP_,C[66WAt@2)l.");
     }
 
     @Inject(at = @At("HEAD"), method = "codec(Lnet/minecraft/world/flag/FeatureFlagSet;)Lcom/mojang/serialization/Codec;", cancellable = true)

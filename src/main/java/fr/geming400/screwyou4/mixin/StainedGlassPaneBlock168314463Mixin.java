@@ -16,7 +16,7 @@ public class StainedGlassPaneBlock168314463Mixin {
     @Inject(at = @At("HEAD"), method = "getColor()Lnet/minecraft/world/item/DyeColor;", cancellable = true)
     private void getColor_1603622693(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1603622693L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.item.DyeColor.YELLOW);
     }
 
 

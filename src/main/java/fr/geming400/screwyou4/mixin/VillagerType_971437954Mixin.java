@@ -10,7 +10,7 @@ public class VillagerType_971437954Mixin {
         @Inject(at = @At("HEAD"), method = "bootstrap(Lnet/minecraft/core/Registry;)Lnet/minecraft/world/entity/npc/villager/VillagerType;", cancellable = true)
     private static void bootstrap__811747383(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-811747383L))
-            info.setReturnValue(null);
+            info.setReturnValue(new net.minecraft.world.entity.npc.villager.VillagerType());
     }
 
     @Inject(at = @At("HEAD"), method = "byBiome(Lnet/minecraft/core/Holder;)Lnet/minecraft/resources/ResourceKey;", cancellable = true)

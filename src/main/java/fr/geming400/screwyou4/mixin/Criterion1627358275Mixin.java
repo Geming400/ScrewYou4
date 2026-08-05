@@ -10,19 +10,19 @@ public class Criterion1627358275Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1282096762(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1282096762L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_491898300(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(491898300L))
-            info.setReturnValue(null);
+            info.setReturnValue("1JWX鑶D幏\"!萺:KaJq>-MWKMi<RBTeH)}.C?9%?tpQEt0LH2^4⤣OX85+ﰥ7mM틤䟍Zﯡ⠹CL呧OTqᛀJ資%,EX{^kD`F");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1665621017(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1665621017L))
-            info.setReturnValue(null);
+            info.setReturnValue(-853939182);
     }
 
     @Inject(at = @At("HEAD"), method = "trigger()Lnet/minecraft/advancements/triggers/CriterionTrigger;", cancellable = true)

@@ -16,13 +16,13 @@ public class FontOption1174756476Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/client/gui/font/FontOption;", cancellable = true)
     private static void valueOf_1249245464(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1249245464L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.client.gui.font.FontOption.UNIFORM);
     }
 
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName_39296005(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(39296005L))
-            info.setReturnValue(null);
+            info.setReturnValue("G!(gv5q[c䏍!:$&k?,sG>Mb-\"V5AR(uIA좆ᣣ1(X)xO췃yV-|7ErKL䇓镋>@iej/ME1覰PECy废ebOT5x);)lD蕀H");
     }
 
 

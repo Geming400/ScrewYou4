@@ -10,19 +10,19 @@ public class Player1876066996Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1033388041(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1033388041L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_740607021(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(740607021L))
-            info.setReturnValue(null);
+            info.setReturnValue("1DeMy%g.0,y.XlrR쁁Ox[P.QGH9S┒d*\"겹푁/}29P|?%I/$%Id S陸t㕱HX");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1914329738(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1914329738L))
-            info.setReturnValue(null);
+            info.setReturnValue(1350408329);
     }
 
     @Inject(at = @At("HEAD"), method = "message()Lnet/minecraft/network/chat/PlayerChatMessage;", cancellable = true)

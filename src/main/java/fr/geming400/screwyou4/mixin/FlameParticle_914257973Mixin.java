@@ -22,13 +22,13 @@ public class FlameParticle_914257973Mixin {
     @Inject(at = @At("HEAD"), method = "getQuadSize(F)F", cancellable = true)
     private void getQuadSize_2125389005(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2125389005L))
-            info.setReturnValue(null);
+            info.setReturnValue(1.588341E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "getLightCoords(F)I", cancellable = true)
     private void getLightCoords_2125391888(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2125391888L))
-            info.setReturnValue(null);
+            info.setReturnValue(1740567572);
     }
 
 

@@ -16,19 +16,19 @@ public class Single1357004850Mixin {
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1552450187(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1552450187L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_221544875(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(221544875L))
-            info.setReturnValue(null);
+            info.setReturnValue("o$?GSIN2xit闫u8s] %^VEU㘓熵Jg&(y>P>*Gv귚Q0;daK:-kᭋ㍅,Z+骰i%)");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1395267592(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1395267592L))
-            info.setReturnValue(null);
+            info.setReturnValue(1531637477);
     }
 
     @Inject(at = @At("HEAD"), method = "predicate()Lnet/minecraft/core/component/predicates/DataComponentPredicate;", cancellable = true)

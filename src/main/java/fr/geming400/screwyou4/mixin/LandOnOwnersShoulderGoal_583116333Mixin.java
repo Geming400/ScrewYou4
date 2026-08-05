@@ -16,7 +16,7 @@ public class LandOnOwnersShoulderGoal_583116333Mixin {
     @Inject(at = @At("HEAD"), method = "canUse()Z", cancellable = true)
     private void canUse_621394915(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(621394915L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "tick()V", cancellable = true)
@@ -28,7 +28,7 @@ public class LandOnOwnersShoulderGoal_583116333Mixin {
     @Inject(at = @At("HEAD"), method = "isInterruptable()Z", cancellable = true)
     private void isInterruptable_621394915(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(621394915L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
 

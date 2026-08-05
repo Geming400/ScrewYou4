@@ -22,13 +22,13 @@ public class DirectoryLock_1869819894Mixin {
     @Inject(at = @At("HEAD"), method = "isLocked(Ljava/nio/file/Path;)Z", cancellable = true)
     private static void isLocked__817856509(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-817856509L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "isValid()Z", cancellable = true)
     private void isValid_1908098476(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1908098476L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
 

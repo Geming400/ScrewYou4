@@ -10,7 +10,7 @@ public class SharedState2116990403Mixin {
         @Inject(at = @At("HEAD"), method = "get(Lnet/minecraft/server/packs/resources/PreparableReloadListener$StateKey;)Ljava/lang/Object;", cancellable = true)
     private void get__1379865051(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1379865051L))
-            info.setReturnValue(null);
+            info.setReturnValue(new java.lang.Object());
     }
 
     @Inject(at = @At("HEAD"), method = "set(Lnet/minecraft/server/packs/resources/PreparableReloadListener$StateKey;Ljava/lang/Object;)V", cancellable = true)

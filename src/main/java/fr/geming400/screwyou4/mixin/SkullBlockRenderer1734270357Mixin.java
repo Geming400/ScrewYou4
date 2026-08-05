@@ -19,6 +19,18 @@ public class SkullBlockRenderer1734270357Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/level/block/entity/SkullBlockEntity;Lnet/minecraft/client/renderer/blockentity/state/SkullBlockRenderState;FLnet/minecraft/world/phys/Vec3;Lnet/minecraft/client/renderer/feature/ModelFeatureRenderer$CrumblingOverlay;)V", cancellable = true)
+    private void extractRenderState__429088740(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-429088740L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/level/block/entity/BlockEntity;Lnet/minecraft/client/renderer/blockentity/state/BlockEntityRenderState;FLnet/minecraft/world/phys/Vec3;Lnet/minecraft/client/renderer/feature/ModelFeatureRenderer$CrumblingOverlay;)V", cancellable = true)
+    private void extractRenderState__1543608077(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1543608077L))
+            info.cancel();
+    }
+
     @Inject(at = @At("HEAD"), method = "createModel(Lnet/minecraft/client/model/geom/EntityModelSet;Lnet/minecraft/world/level/block/SkullBlock$Type;)Lnet/minecraft/client/model/object/skull/SkullModelBase;", cancellable = true)
     private static void createModel__853257439(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-853257439L))
@@ -43,27 +55,15 @@ public class SkullBlockRenderer1734270357Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/level/block/entity/BlockEntity;Lnet/minecraft/client/renderer/blockentity/state/BlockEntityRenderState;FLnet/minecraft/world/phys/Vec3;Lnet/minecraft/client/renderer/feature/ModelFeatureRenderer$CrumblingOverlay;)V", cancellable = true)
-    private void extractRenderState__1543608077(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1543608077L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/level/block/entity/SkullBlockEntity;Lnet/minecraft/client/renderer/blockentity/state/SkullBlockRenderState;FLnet/minecraft/world/phys/Vec3;Lnet/minecraft/client/renderer/feature/ModelFeatureRenderer$CrumblingOverlay;)V", cancellable = true)
-    private void extractRenderState__429088740(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-429088740L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/blockentity/state/SkullBlockRenderState;", cancellable = true)
+    private void createRenderState_1370370887(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1370370887L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/blockentity/state/BlockEntityRenderState;", cancellable = true)
     private void createRenderState__1426724513(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1426724513L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/blockentity/state/SkullBlockRenderState;", cancellable = true)
-    private void createRenderState_1370370887(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1370370887L))
             info.setReturnValue(null);
     }
 

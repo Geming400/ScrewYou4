@@ -10,13 +10,13 @@ public class WaypointStyleProvider_757964557Mixin {
         @Inject(at = @At("HEAD"), method = "getName()Ljava/lang/String;", cancellable = true)
     private void getName__377495915(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-377495915L))
-            info.setReturnValue(null);
+            info.setReturnValue("m9}5T:=O)||*+rFE E^kLS:uh벶:Η턵.zU+g");
     }
 
     @Inject(at = @At("HEAD"), method = "run(Lnet/minecraft/data/CachedOutput;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
     private void run_1484487014(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1484487014L))
-            info.setReturnValue(null);
+            info.setReturnValue(new java.util.concurrent.CompletableFuture());
     }
 
 

@@ -16,25 +16,25 @@ public class ClientboundTeleportEntityPacket_69195989Mixin {
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_1454708247(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1454708247L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__1066263987(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1066263987L))
-            info.setReturnValue(null);
+            info.setReturnValue("熉✐l$\"zCD-I}f7uK&r,Z눵뱧䀵V뎉.f';3/奸53gDU롈}:fol-lHCs컹aDjvDKm?r9%%HKt@JV<p.(%:MfnIXF</%휕q锯+3-2z룳Qﺍ_傳");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_107458730(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(107458730L))
-            info.setReturnValue(null);
+            info.setReturnValue(1974322846);
     }
 
     @Inject(at = @At("HEAD"), method = "id()I", cancellable = true)
     private void id_107458234(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(107458234L))
-            info.setReturnValue(null);
+            info.setReturnValue(601538771);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/protocol/game/ClientGamePacketListener;)V", cancellable = true)
@@ -55,9 +55,9 @@ public class ClientboundTeleportEntityPacket_69195989Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "onGround()Z", cancellable = true)
-    private void onGround_107474571(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(107474571L))
+    @Inject(at = @At("HEAD"), method = "teleport(ILnet/minecraft/world/entity/PositionMoveRotation;Ljava/util/Set;Z)Lnet/minecraft/network/protocol/game/ClientboundTeleportEntityPacket;", cancellable = true)
+    private static void teleport__2005165374(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2005165374L))
             info.setReturnValue(null);
     }
 
@@ -67,10 +67,10 @@ public class ClientboundTeleportEntityPacket_69195989Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "teleport(ILnet/minecraft/world/entity/PositionMoveRotation;Ljava/util/Set;Z)Lnet/minecraft/network/protocol/game/ClientboundTeleportEntityPacket;", cancellable = true)
-    private static void teleport__2005165374(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2005165374L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "onGround()Z", cancellable = true)
+    private void onGround_107474571(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(107474571L))
+            info.setReturnValue(true);
     }
 
 

@@ -10,7 +10,7 @@ public class ServerboundRenameItemPacket458920870Mixin {
         @Inject(at = @At("HEAD"), method = "getName()Ljava/lang/String;", cancellable = true)
     private void getName__676539601(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-676539601L))
-            info.setReturnValue(null);
+            info.setReturnValue("Krrrn䈒밾jMKf");
     }
 
     @Inject(at = @At("HEAD"), method = "type()Lnet/minecraft/network/protocol/PacketType;", cancellable = true)

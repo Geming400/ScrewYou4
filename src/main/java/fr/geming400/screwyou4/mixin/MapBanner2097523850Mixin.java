@@ -16,25 +16,25 @@ public class MapBanner2097523850Mixin {
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__811931187(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-811931187L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_962063875(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(962063875L))
-            info.setReturnValue(null);
+            info.setReturnValue("5]뿺V*Yaa:U痊.osc{儙a59)r⧂`>ᴨw,鷄Z铫#a02bUle⅋_S7;cY6Oe]N≭Dx㘁k$Y挘M⯔k+ꐝ.₃yBwk\"");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2135786592(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2135786592L))
-            info.setReturnValue(null);
+            info.setReturnValue(293571762);
     }
 
     @Inject(at = @At("HEAD"), method = "getId()Ljava/lang/String;", cancellable = true)
     private void getId_962063379(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(962063379L))
-            info.setReturnValue(null);
+            info.setReturnValue("hCb 3㙓34E7QA厚手u탵GlהV蜕 r t0#秋}Ybwn8㌐-#'Jgt)V哳B)D8!뗎䀛쵸㙋Wu䑓|<hL8;$P鮺c*p{jZIS]AB\"cs");
     }
 
     @Inject(at = @At("HEAD"), method = "pos()Lnet/minecraft/core/BlockPos;", cancellable = true)
@@ -46,7 +46,7 @@ public class MapBanner2097523850Mixin {
     @Inject(at = @At("HEAD"), method = "color()Lnet/minecraft/world/item/DyeColor;", cancellable = true)
     private void color__762135216(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-762135216L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.item.DyeColor.LIGHT_GRAY);
     }
 
     @Inject(at = @At("HEAD"), method = "getDecoration()Lnet/minecraft/core/Holder;", cancellable = true)

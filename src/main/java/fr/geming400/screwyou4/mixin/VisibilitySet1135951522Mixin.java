@@ -10,7 +10,7 @@ public class VisibilitySet1135951522Mixin {
         @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_491051(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(491051L))
-            info.setReturnValue(null);
+            info.setReturnValue("-?៘7z&9e꞊@㶟mX-c");
     }
 
     @Inject(at = @At("HEAD"), method = "add(Ljava/util/Set;)V", cancellable = true)
@@ -34,7 +34,7 @@ public class VisibilitySet1135951522Mixin {
     @Inject(at = @At("HEAD"), method = "visibilityBetween(Lnet/minecraft/core/Direction;Lnet/minecraft/core/Direction;)Z", cancellable = true)
     private void visibilityBetween_1882569585(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1882569585L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
 

@@ -16,7 +16,7 @@ public class AxolotlAnimationState_1690835111Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/world/entity/animal/axolotl/Axolotl$AxolotlAnimationState;", cancellable = true)
     private static void valueOf__1327131183(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1327131183L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.entity.animal.axolotl.Axolotl.AxolotlAnimationState.IN_AIR);
     }
 
 

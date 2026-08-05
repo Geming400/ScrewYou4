@@ -16,7 +16,7 @@ public class Icon323471323Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/client/multiplayer/chat/GuiMessageTag$Icon;", cancellable = true)
     private static void valueOf_2052401462(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2052401462L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.client.multiplayer.chat.GuiMessageTag.Icon.CHAT_MODIFIED);
     }
 
     @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/client/gui/GuiGraphicsExtractor;II)V", cancellable = true)

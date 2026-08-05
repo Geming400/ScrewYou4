@@ -10,19 +10,19 @@ public class UnbakedCuboidGeometry1551707264Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1357747773(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1357747773L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_416247289(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(416247289L))
-            info.setReturnValue(null);
+            info.setReturnValue("|߉3]隺koX=<☌;BYN篹U,]L*Zk즼}PḯI蜦%O[Hsaw9I_2CꃧD悒Y [>(Luw{;Ds!>qod젴NmhA%ZMC篂Le壥6P㺮^撳&ֽ뻖");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1589970006(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1589970006L))
-            info.setReturnValue(null);
+            info.setReturnValue(-221244878);
     }
 
     @Inject(at = @At("HEAD"), method = "elements()Ljava/util/List;", cancellable = true)

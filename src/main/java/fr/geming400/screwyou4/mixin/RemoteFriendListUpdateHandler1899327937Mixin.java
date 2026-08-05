@@ -22,7 +22,7 @@ public class RemoteFriendListUpdateHandler1899327937Mixin {
     @Inject(at = @At("HEAD"), method = "getState()Lnet/minecraft/client/gui/screens/social/RemoteFriendListUpdateHandler$State;", cancellable = true)
     private void getState_311912431(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(311912431L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.client.gui.screens.social.RemoteFriendListUpdateHandler.State.CONNECTION_ISSUE);
     }
 
     @Inject(at = @At("HEAD"), method = "close()V", cancellable = true)
@@ -52,7 +52,7 @@ public class RemoteFriendListUpdateHandler1899327937Mixin {
     @Inject(at = @At("HEAD"), method = "forceUpdate()Ljava/util/concurrent/CompletableFuture;", cancellable = true)
     private void forceUpdate__682264098(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-682264098L))
-            info.setReturnValue(null);
+            info.setReturnValue(new java.util.concurrent.CompletableFuture());
     }
 
 

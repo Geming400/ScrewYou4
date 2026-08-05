@@ -10,19 +10,7 @@ public class DebugSubscription_666508030Mixin {
         @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__468952442(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-468952442L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "expireAfterTicks()I", cancellable = true)
-    private void expireAfterTicks_704770275(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(704770275L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "valueStreamCodec()Lnet/minecraft/network/codec/StreamCodec;", cancellable = true)
-    private void valueStreamCodec_1927508153(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1927508153L))
-            info.setReturnValue(null);
+            info.setReturnValue("(檝cxOsCfYx࿗XfM6V]籟q gPSXGPh仢EP5f2Fꨙ)wR!");
     }
 
     @Inject(at = @At("HEAD"), method = "emptyUpdate()Lnet/minecraft/util/debug/DebugSubscription$Update;", cancellable = true)
@@ -31,15 +19,27 @@ public class DebugSubscription_666508030Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "packEvent(Ljava/lang/Object;)Lnet/minecraft/util/debug/DebugSubscription$Event;", cancellable = true)
-    private void packEvent__602616226(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-602616226L))
+    @Inject(at = @At("HEAD"), method = "expireAfterTicks()I", cancellable = true)
+    private void expireAfterTicks_704770275(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(704770275L))
+            info.setReturnValue(1276900026);
+    }
+
+    @Inject(at = @At("HEAD"), method = "valueStreamCodec()Lnet/minecraft/network/codec/StreamCodec;", cancellable = true)
+    private void valueStreamCodec_1927508153(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1927508153L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "packUpdate(Ljava/lang/Object;)Lnet/minecraft/util/debug/DebugSubscription$Update;", cancellable = true)
     private void packUpdate__2002335349(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2002335349L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "packEvent(Ljava/lang/Object;)Lnet/minecraft/util/debug/DebugSubscription$Event;", cancellable = true)
+    private void packEvent__602616226(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-602616226L))
             info.setReturnValue(null);
     }
 

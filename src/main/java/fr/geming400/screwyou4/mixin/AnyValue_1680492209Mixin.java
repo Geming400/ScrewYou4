@@ -16,25 +16,25 @@ public class AnyValue_1680492209Mixin {
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1228962829(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1228962829L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_545032233(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(545032233L))
-            info.setReturnValue(null);
+            info.setReturnValue("lEU5");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1718754950(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1718754950L))
-            info.setReturnValue(null);
+            info.setReturnValue(675322339);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/core/component/DataComponentGetter;)Z", cancellable = true)
     private void matches__780823866(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-780823866L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
 

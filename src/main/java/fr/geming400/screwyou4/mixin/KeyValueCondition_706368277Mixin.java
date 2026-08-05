@@ -10,19 +10,19 @@ public class KeyValueCondition_706368277Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_2091880535(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2091880535L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__429091699(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-429091699L))
-            info.setReturnValue(null);
+            info.setReturnValue("[x窍76#p(p'hZ+ac㶣aYm02gC!⃮⍿lB8z&D7&F?胙L1kAMfcꅲi@$|)ACkvsVg0Tฦ垟ଅ立[0豙N'M{ᶍxO_B0*t");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_744631018(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(744631018L))
-            info.setReturnValue(null);
+            info.setReturnValue(-346882018);
     }
 
     @Inject(at = @At("HEAD"), method = "instantiate(Lnet/minecraft/world/level/block/state/StateDefinition;)Ljava/util/function/Predicate;", cancellable = true)

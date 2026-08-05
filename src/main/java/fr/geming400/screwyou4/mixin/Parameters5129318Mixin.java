@@ -10,18 +10,30 @@ public class Parameters5129318Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_1390641577(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1390641577L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__1130330657(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1130330657L))
-            info.setReturnValue(null);
+            info.setReturnValue("4J+)");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_43392060(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(43392060L))
+            info.setReturnValue(1098078781);
+    }
+
+    @Inject(at = @At("HEAD"), method = "opacity()F", cancellable = true)
+    private void opacity_43388681(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(43388681L))
+            info.setReturnValue(8.194612E8F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "pose()Lorg/joml/Matrix3x2fc;", cancellable = true)
+    private void pose__75259477(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-75259477L))
             info.setReturnValue(null);
     }
 
@@ -43,15 +55,9 @@ public class Parameters5129318Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "withPose(Lorg/joml/Matrix3x2fc;)Lnet/minecraft/client/gui/ActiveTextCollector$Parameters;", cancellable = true)
-    private void withPose__1738681096(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1738681096L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "opacity()F", cancellable = true)
-    private void opacity_43388681(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(43388681L))
+    @Inject(at = @At("HEAD"), method = "scissor()Lnet/minecraft/client/gui/navigation/ScreenRectangle;", cancellable = true)
+    private void scissor_1180154622(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1180154622L))
             info.setReturnValue(null);
     }
 
@@ -61,15 +67,9 @@ public class Parameters5129318Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "scissor()Lnet/minecraft/client/gui/navigation/ScreenRectangle;", cancellable = true)
-    private void scissor_1180154622(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1180154622L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "pose()Lorg/joml/Matrix3x2fc;", cancellable = true)
-    private void pose__75259477(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-75259477L))
+    @Inject(at = @At("HEAD"), method = "withPose(Lorg/joml/Matrix3x2fc;)Lnet/minecraft/client/gui/ActiveTextCollector$Parameters;", cancellable = true)
+    private void withPose__1738681096(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1738681096L))
             info.setReturnValue(null);
     }
 

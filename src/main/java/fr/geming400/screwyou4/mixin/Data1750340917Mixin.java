@@ -10,7 +10,13 @@ public class Data1750340917Mixin {
         @Inject(at = @At("HEAD"), method = "shouldReloadVibrationParticle()Z", cancellable = true)
     private void shouldReloadVibrationParticle_1788619500(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1788619500L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "setCurrentVibration(Lnet/minecraft/world/level/gameevent/vibrations/VibrationInfo;)V", cancellable = true)
+    private void setCurrentVibration__1924934974(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1924934974L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "getCurrentVibration()Lnet/minecraft/world/level/gameevent/vibrations/VibrationInfo;", cancellable = true)
@@ -25,10 +31,16 @@ public class Data1750340917Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getTravelTimeInTicks()I", cancellable = true)
-    private void getTravelTimeInTicks_1788603163(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1788603163L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "setTravelTimeInTicks(I)V", cancellable = true)
+    private void setTravelTimeInTicks__1330709407(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1330709407L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getSelectionStrategy()Lnet/minecraft/world/level/gameevent/vibrations/VibrationSelector;", cancellable = true)
+    private void getSelectionStrategy_1302921789(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1302921789L))
+            info.setReturnValue(new net.minecraft.world.level.gameevent.vibrations.VibrationSelector());
     }
 
     @Inject(at = @At("HEAD"), method = "setReloadVibrationParticle(Z)V", cancellable = true)
@@ -37,22 +49,10 @@ public class Data1750340917Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "setTravelTimeInTicks(I)V", cancellable = true)
-    private void setTravelTimeInTicks__1330709407(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1330709407L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "setCurrentVibration(Lnet/minecraft/world/level/gameevent/vibrations/VibrationInfo;)V", cancellable = true)
-    private void setCurrentVibration__1924934974(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1924934974L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "getSelectionStrategy()Lnet/minecraft/world/level/gameevent/vibrations/VibrationSelector;", cancellable = true)
-    private void getSelectionStrategy_1302921789(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1302921789L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "getTravelTimeInTicks()I", cancellable = true)
+    private void getTravelTimeInTicks_1788603163(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1788603163L))
+            info.setReturnValue(239110032);
     }
 
 

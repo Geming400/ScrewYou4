@@ -16,7 +16,7 @@ public class MultiplayerScope359303850Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/server/MinecraftServer$MultiplayerScope;", cancellable = true)
     private static void valueOf__1365983318(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1365983318L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.server.MinecraftServer.MultiplayerScope.LAN);
     }
 
     @Inject(at = @At("HEAD"), method = "getDisplayName()Lnet/minecraft/network/chat/Component;", cancellable = true)

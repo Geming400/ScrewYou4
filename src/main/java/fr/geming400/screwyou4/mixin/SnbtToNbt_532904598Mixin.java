@@ -10,13 +10,13 @@ public class SnbtToNbt_532904598Mixin {
         @Inject(at = @At("HEAD"), method = "getName()Ljava/lang/String;", cancellable = true)
     private void getName__602555874(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-602555874L))
-            info.setReturnValue(null);
+            info.setReturnValue("etp@A*;⸇tPM:䢲>VᩍSv⹑-Ko9OJ’9c鑝s#;⚎`_ࠋS刓Rb[");
     }
 
     @Inject(at = @At("HEAD"), method = "run(Lnet/minecraft/data/CachedOutput;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
     private void run_1259427055(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1259427055L))
-            info.setReturnValue(null);
+            info.setReturnValue(new java.util.concurrent.CompletableFuture());
     }
 
     @Inject(at = @At("HEAD"), method = "addFilter(Lnet/minecraft/data/structures/SnbtToNbt$Filter;)Lnet/minecraft/data/structures/SnbtToNbt;", cancellable = true)

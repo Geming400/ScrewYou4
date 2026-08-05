@@ -10,13 +10,13 @@ public class Lookup_2005453298Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__904001740(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-904001740L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_869993322(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(869993322L))
-            info.setReturnValue(null);
+            info.setReturnValue("vJBTmbqmFଖ;᭽G%[#_g::waˣZ63k麕p{P-|>oᶭ[].}ൢC\"^t玀$4u@C㈘EN8hM{A[yM엒p{*ZG,0bP_塉ktS*V\"fMᠼVB{놼m&7t'8");
     }
 
     @Inject(at = @At("HEAD"), method = "values()Ljava/util/List;", cancellable = true)
@@ -28,7 +28,7 @@ public class Lookup_2005453298Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2043716039(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2043716039L))
-            info.setReturnValue(null);
+            info.setReturnValue(691899433);
     }
 
     @Inject(at = @At("HEAD"), method = "fallback()Lnet/minecraft/world/item/enchantment/LevelBasedValue;", cancellable = true)
@@ -46,7 +46,7 @@ public class Lookup_2005453298Mixin {
     @Inject(at = @At("HEAD"), method = "calculate(I)F", cancellable = true)
     private void calculate__1075612403(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1075612403L))
-            info.setReturnValue(null);
+            info.setReturnValue(9.822337E8F);
     }
 
 

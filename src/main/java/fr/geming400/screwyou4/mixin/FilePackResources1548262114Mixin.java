@@ -19,6 +19,12 @@ public class FilePackResources1548262114Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "getNamespaces(Lnet/minecraft/server/packs/PackType;)Ljava/util/Set;", cancellable = true)
+    private void getNamespaces_57344379(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(57344379L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "getRootResource([Ljava/lang/String;)Lnet/minecraft/server/packs/resources/IoSupplier;", cancellable = true)
     private void getRootResource_1115510130(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1115510130L))
@@ -31,16 +37,10 @@ public class FilePackResources1548262114Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getNamespaces(Lnet/minecraft/server/packs/PackType;)Ljava/util/Set;", cancellable = true)
-    private void getNamespaces_57344379(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(57344379L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "extractNamespace(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;", cancellable = true)
     private static void extractNamespace__509825969(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-509825969L))
-            info.setReturnValue(null);
+            info.setReturnValue("0]쏅d ?!}ⲑv%NA줲yz`");
     }
 
 

@@ -10,19 +10,19 @@ public class Configuration_1037434365Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1872020673(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1872020673L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__98025611(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-98025611L))
-            info.setReturnValue(null);
+            info.setReturnValue("GwmV{>[7%{u%u\"ffⱙ9FlQsOrBxL爚nG@6<=W⢍Bc뙸\"\".鋧r7?⩩QfmIUOFNloO懓䠁T⊴ofDEBV5\",Q&rpF_,@dJl-");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1075697106(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1075697106L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1003981156);
     }
 
     @Inject(at = @At("HEAD"), method = "fluid()Lnet/minecraft/world/level/levelgen/feature/stateproviders/BlockStateProvider;", cancellable = true)
@@ -37,12 +37,6 @@ public class Configuration_1037434365Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "canReplaceWithBarrier()Lnet/minecraft/world/level/levelgen/blockpredicates/BlockPredicate;", cancellable = true)
-    private void canReplaceWithBarrier_1070202953(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1070202953L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "canPlaceFeature()Lnet/minecraft/world/level/levelgen/blockpredicates/BlockPredicate;", cancellable = true)
     private void canPlaceFeature_1070202953(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1070202953L))
@@ -51,6 +45,12 @@ public class Configuration_1037434365Mixin {
 
     @Inject(at = @At("HEAD"), method = "canReplaceWithAirOrFluid()Lnet/minecraft/world/level/levelgen/blockpredicates/BlockPredicate;", cancellable = true)
     private void canReplaceWithAirOrFluid_1070202953(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1070202953L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "canReplaceWithBarrier()Lnet/minecraft/world/level/levelgen/blockpredicates/BlockPredicate;", cancellable = true)
+    private void canReplaceWithBarrier_1070202953(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1070202953L))
             info.setReturnValue(null);
     }

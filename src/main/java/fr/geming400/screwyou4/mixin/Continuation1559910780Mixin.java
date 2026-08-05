@@ -16,13 +16,13 @@ public class Continuation1559910780Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/util/AbortableIterationConsumer$Continuation;", cancellable = true)
     private static void valueOf_1449833151(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1449833151L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.util.AbortableIterationConsumer.Continuation.ABORT);
     }
 
     @Inject(at = @At("HEAD"), method = "shouldAbort()Z", cancellable = true)
     private void shouldAbort_1598189363(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1598189363L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
 

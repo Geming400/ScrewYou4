@@ -10,7 +10,7 @@ public class ConstantHeight1013586551Mixin {
         @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__121873920(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-121873920L))
-            info.setReturnValue(null);
+            info.setReturnValue("8 rODq>,(");
     }
 
     @Inject(at = @At("HEAD"), method = "of(Lnet/minecraft/world/level/levelgen/VerticalAnchor;)Lnet/minecraft/world/level/levelgen/heightproviders/ConstantHeight;", cancellable = true)
@@ -34,7 +34,7 @@ public class ConstantHeight1013586551Mixin {
     @Inject(at = @At("HEAD"), method = "sample(Lnet/minecraft/util/RandomSource;Lnet/minecraft/world/level/levelgen/WorldGenerationContext;)I", cancellable = true)
     private void sample_978732616(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(978732616L))
-            info.setReturnValue(null);
+            info.setReturnValue(715276363);
     }
 
 

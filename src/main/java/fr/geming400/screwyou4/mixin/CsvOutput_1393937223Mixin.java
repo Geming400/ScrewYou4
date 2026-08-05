@@ -10,7 +10,7 @@ public class CsvOutput_1393937223Mixin {
         @Inject(at = @At("HEAD"), method = "builder()Lnet/minecraft/util/CsvOutput$Builder;", cancellable = true)
     private static void builder__567050265(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-567050265L))
-            info.setReturnValue(null);
+            info.setReturnValue(new net.minecraft.util.CsvOutput$Builder());
     }
 
     @Inject(at = @At("HEAD"), method = "writeRow([Ljava/lang/Object;)V", cancellable = true)

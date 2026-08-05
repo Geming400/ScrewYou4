@@ -34,13 +34,13 @@ public class EvokerFangsRenderer_534317510Mixin {
     @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/EvokerFangsRenderState;", cancellable = true)
     private void createRenderState_135760197(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(135760197L))
-            info.setReturnValue(null);
+            info.setReturnValue(new net.minecraft.client.renderer.entity.state.EvokerFangsRenderState());
     }
 
     @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/EntityRenderState;", cancellable = true)
     private void createRenderState__54318935(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-54318935L))
-            info.setReturnValue(null);
+            info.setReturnValue(new net.minecraft.client.renderer.entity.state.EntityRenderState());
     }
 
 

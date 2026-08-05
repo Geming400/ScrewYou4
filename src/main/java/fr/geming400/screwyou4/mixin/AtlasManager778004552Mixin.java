@@ -28,7 +28,7 @@ public class AtlasManager778004552Mixin {
     @Inject(at = @At("HEAD"), method = "reload(Lnet/minecraft/server/packs/resources/PreparableReloadListener$SharedState;Ljava/util/concurrent/Executor;Lnet/minecraft/server/packs/resources/PreparableReloadListener$PreparationBarrier;Ljava/util/concurrent/Executor;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
     private void reload__1174764423(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1174764423L))
-            info.setReturnValue(null);
+            info.setReturnValue(new java.util.concurrent.CompletableFuture());
     }
 
     @Inject(at = @At("HEAD"), method = "prepareSharedState(Lnet/minecraft/server/packs/resources/PreparableReloadListener$SharedState;)V", cancellable = true)
@@ -37,16 +37,16 @@ public class AtlasManager778004552Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getAtlasOrThrow(Lnet/minecraft/resources/Identifier;)Lnet/minecraft/client/renderer/texture/TextureAtlas;", cancellable = true)
-    private void getAtlasOrThrow__331751154(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-331751154L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "updateMaxMipLevel(I)V", cancellable = true)
     private void updateMaxMipLevel_1991921524(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1991921524L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getAtlasOrThrow(Lnet/minecraft/resources/Identifier;)Lnet/minecraft/client/renderer/texture/TextureAtlas;", cancellable = true)
+    private void getAtlasOrThrow__331751154(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-331751154L))
+            info.setReturnValue(null);
     }
 
 

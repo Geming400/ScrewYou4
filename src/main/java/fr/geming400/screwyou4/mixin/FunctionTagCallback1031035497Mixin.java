@@ -10,19 +10,19 @@ public class FunctionTagCallback1031035497Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1878419540(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1878419540L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__104424478(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-104424478L))
-            info.setReturnValue(null);
+            info.setReturnValue("VwbZUeZ5c;wngX땬5=p者e}AEZGsc'.hDMjsB뻛*h=Kr㐙l*HQ3CR+U.䋸frಲe79p'Y딪MGV〈IFg");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1069298239(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1069298239L))
-            info.setReturnValue(null);
+            info.setReturnValue(1878951144);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Ljava/lang/Object;Lnet/minecraft/world/level/timers/TimerQueue;J)V", cancellable = true)

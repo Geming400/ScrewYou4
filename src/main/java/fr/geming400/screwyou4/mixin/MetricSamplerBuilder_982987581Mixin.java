@@ -13,9 +13,9 @@ public class MetricSamplerBuilder_982987581Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "withSamplingPhase(Lnet/minecraft/util/profiling/metrics/MetricSampler$SamplingPhase;)Lnet/minecraft/util/profiling/metrics/MetricSampler$MetricSamplerBuilder;", cancellable = true)
-    private void withSamplingPhase_1474653592(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1474653592L))
+    @Inject(at = @At("HEAD"), method = "withBeforeTick(Ljava/util/function/Consumer;)Lnet/minecraft/util/profiling/metrics/MetricSampler$MetricSamplerBuilder;", cancellable = true)
+    private void withBeforeTick_1222639373(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1222639373L))
             info.setReturnValue(null);
     }
 
@@ -25,9 +25,9 @@ public class MetricSamplerBuilder_982987581Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "withBeforeTick(Ljava/util/function/Consumer;)Lnet/minecraft/util/profiling/metrics/MetricSampler$MetricSamplerBuilder;", cancellable = true)
-    private void withBeforeTick_1222639373(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1222639373L))
+    @Inject(at = @At("HEAD"), method = "withSamplingPhase(Lnet/minecraft/util/profiling/metrics/MetricSampler$SamplingPhase;)Lnet/minecraft/util/profiling/metrics/MetricSampler$MetricSamplerBuilder;", cancellable = true)
+    private void withSamplingPhase_1474653592(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1474653592L))
             info.setReturnValue(null);
     }
 

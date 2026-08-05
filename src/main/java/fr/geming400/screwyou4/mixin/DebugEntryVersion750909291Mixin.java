@@ -16,7 +16,7 @@ public class DebugEntryVersion750909291Mixin {
     @Inject(at = @At("HEAD"), method = "isAllowed(Z)Z", cancellable = true)
     private void isAllowed_1980529964(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1980529964L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
 

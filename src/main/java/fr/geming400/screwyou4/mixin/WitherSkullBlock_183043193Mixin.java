@@ -13,10 +13,16 @@ public class WitherSkullBlock_183043193Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "setPlacedBy(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;)V", cancellable = true)
+    private void setPlacedBy_1910475340(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1910475340L))
+            info.cancel();
+    }
+
     @Inject(at = @At("HEAD"), method = "canSpawnMob(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/item/ItemStack;)Z", cancellable = true)
     private static void canSpawnMob_1568614673(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1568614673L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "checkSpawn(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;)V", cancellable = true)
@@ -28,12 +34,6 @@ public class WitherSkullBlock_183043193Mixin {
     @Inject(at = @At("HEAD"), method = "checkSpawn(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/entity/SkullBlockEntity;)V", cancellable = true)
     private static void checkSpawn__2058961420(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-2058961420L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "setPlacedBy(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;)V", cancellable = true)
-    private void setPlacedBy_1910475340(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1910475340L))
             info.cancel();
     }
 

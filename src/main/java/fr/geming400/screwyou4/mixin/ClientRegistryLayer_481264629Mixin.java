@@ -16,7 +16,7 @@ public class ClientRegistryLayer_481264629Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/client/multiplayer/ClientRegistryLayer;", cancellable = true)
     private static void valueOf_1092241292(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1092241292L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.client.multiplayer.ClientRegistryLayer.REMOTE);
     }
 
     @Inject(at = @At("HEAD"), method = "createRegistryAccess()Lnet/minecraft/core/LayeredRegistryAccess;", cancellable = true)

@@ -10,7 +10,7 @@ public class PosAlwaysTrueTest2057327925Mixin {
         @Inject(at = @At("HEAD"), method = "test(Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)Z", cancellable = true)
     private void test__2002801224(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2002801224L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
 

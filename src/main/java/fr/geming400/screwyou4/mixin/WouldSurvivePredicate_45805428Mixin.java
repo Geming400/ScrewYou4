@@ -16,13 +16,13 @@ public class WouldSurvivePredicate_45805428Mixin {
     @Inject(at = @At("HEAD"), method = "test(Lnet/minecraft/world/level/WorldGenLevel;Lnet/minecraft/core/BlockPos;)Z", cancellable = true)
     private void test_1247506225(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1247506225L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "test(Ljava/lang/Object;Ljava/lang/Object;)Z", cancellable = true)
     private void test_5478690(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(5478690L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
 

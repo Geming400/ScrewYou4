@@ -10,19 +10,19 @@ public class VillagerTypePredicate_1466565159Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1442889879(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1442889879L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_331105183(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(331105183L))
-            info.setReturnValue(null);
+            info.setReturnValue("8{l6珓竺PxgE%");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1504827900(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1504827900L))
-            info.setReturnValue(null);
+            info.setReturnValue(-333209640);
     }
 
     @Inject(at = @At("HEAD"), method = "componentType()Lnet/minecraft/core/component/DataComponentType;", cancellable = true)
@@ -34,13 +34,13 @@ public class VillagerTypePredicate_1466565159Mixin {
     @Inject(at = @At("HEAD"), method = "matches(Ljava/lang/Object;)Z", cancellable = true)
     private void matches__1442761415(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1442761415L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/core/Holder;)Z", cancellable = true)
     private void matches__1281923156(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1281923156L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "villagerTypes(Lnet/minecraft/core/HolderSet;)Lnet/minecraft/core/component/predicates/VillagerTypePredicate;", cancellable = true)

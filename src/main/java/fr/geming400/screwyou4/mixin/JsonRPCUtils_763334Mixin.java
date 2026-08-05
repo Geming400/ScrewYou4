@@ -10,7 +10,7 @@ public class JsonRPCUtils_763334Mixin {
         @Inject(at = @At("HEAD"), method = "getMethodName(Lcom/google/gson/JsonObject;)Ljava/lang/String;", cancellable = true)
     private static void getMethodName__1427384166(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1427384166L))
-            info.setReturnValue(null);
+            info.setReturnValue("(Im璨Rn8x|ℒ[=⛗zg=<ffMbꭚu?");
     }
 
     @Inject(at = @At("HEAD"), method = "getResult(Lcom/google/gson/JsonObject;)Lcom/google/gson/JsonElement;", cancellable = true)
@@ -40,19 +40,19 @@ public class JsonRPCUtils_763334Mixin {
     @Inject(at = @At("HEAD"), method = "createSuccessResult(Lcom/google/gson/JsonElement;Lcom/google/gson/JsonElement;)Lcom/google/gson/JsonObject;", cancellable = true)
     private static void createSuccessResult__295049656(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-295049656L))
-            info.setReturnValue(null);
+            info.setReturnValue(new com.google.gson.JsonObject());
     }
 
     @Inject(at = @At("HEAD"), method = "createRequest(Ljava/lang/Integer;Ljava/lang/String;Ljava/util/List;)Lcom/google/gson/JsonObject;", cancellable = true)
     private static void createRequest_421458944(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(421458944L))
-            info.setReturnValue(null);
+            info.setReturnValue(new com.google.gson.JsonObject());
     }
 
     @Inject(at = @At("HEAD"), method = "createRequest(Ljava/lang/Integer;Lnet/minecraft/resources/Identifier;Ljava/util/List;)Lcom/google/gson/JsonObject;", cancellable = true)
     private static void createRequest__1132029438(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1132029438L))
-            info.setReturnValue(null);
+            info.setReturnValue(new com.google.gson.JsonObject());
     }
 
     @Inject(at = @At("HEAD"), method = "getError(Lcom/google/gson/JsonObject;)Lcom/google/gson/JsonObject;", cancellable = true)

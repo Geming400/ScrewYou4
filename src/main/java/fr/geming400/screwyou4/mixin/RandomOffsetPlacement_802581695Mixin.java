@@ -19,27 +19,27 @@ public class RandomOffsetPlacement_802581695Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "horizontal(Lnet/minecraft/util/valueproviders/IntProvider;)Lnet/minecraft/world/level/levelgen/placement/RandomOffsetPlacement;", cancellable = true)
-    private static void horizontal_1676758378(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1676758378L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "vertical(Lnet/minecraft/util/valueproviders/IntProvider;)Lnet/minecraft/world/level/levelgen/placement/RandomOffsetPlacement;", cancellable = true)
     private static void vertical_1676758378(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1676758378L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "ofTriangle(II)Lnet/minecraft/world/level/levelgen/placement/RandomOffsetPlacement;", cancellable = true)
-    private static void ofTriangle__1545370778(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1545370778L))
+    @Inject(at = @At("HEAD"), method = "horizontal(Lnet/minecraft/util/valueproviders/IntProvider;)Lnet/minecraft/world/level/levelgen/placement/RandomOffsetPlacement;", cancellable = true)
+    private static void horizontal_1676758378(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1676758378L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getPositions(Lnet/minecraft/world/level/levelgen/placement/PlacementContext;Lnet/minecraft/util/RandomSource;Lnet/minecraft/core/BlockPos;)Ljava/util/stream/Stream;", cancellable = true)
     private void getPositions__1148998173(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1148998173L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "ofTriangle(II)Lnet/minecraft/world/level/levelgen/placement/RandomOffsetPlacement;", cancellable = true)
+    private static void ofTriangle__1545370778(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1545370778L))
             info.setReturnValue(null);
     }
 

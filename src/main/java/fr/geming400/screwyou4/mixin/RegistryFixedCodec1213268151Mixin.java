@@ -10,7 +10,7 @@ public class RegistryFixedCodec1213268151Mixin {
         @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_77807680(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(77807680L))
-            info.setReturnValue(null);
+            info.setReturnValue("?C软Lmro襼㼖\"b'\"$9unc菾fK阧q鞵q@쭍N!荂Y2q&I^GU]ႱgC㿻!Tb\",A斉,f_%[c|5㠬슂}]_)Kz<[e*zPʕ뫰u9䨂ꜘ6cby9#UI[ ,|\">s⸳Tb");
     }
 
     @Inject(at = @At("HEAD"), method = "decode(Lcom/mojang/serialization/DynamicOps;Ljava/lang/Object;)Lcom/mojang/serialization/DataResult;", cancellable = true)

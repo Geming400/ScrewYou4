@@ -10,7 +10,7 @@ public class Potion_93595815Mixin {
         @Inject(at = @At("HEAD"), method = "name()Ljava/lang/String;", cancellable = true)
     private void name__1041864657(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1041864657L))
-            info.setReturnValue(null);
+            info.setReturnValue("9Df_gPꟇ𥉉yn慊<JvuDﺡ捰0sE㷔sᰆmh⽇|1ZpᙩR槜塦FW8M [PiWA쇧&K2NLSW給뭮'&GmW{a(=ᾠAu*0z⩞숫|l?HC9WJv#P%YGbR+]");
     }
 
     @Inject(at = @At("HEAD"), method = "requiredFeatures()Lnet/minecraft/world/flag/FeatureFlagSet;", cancellable = true)
@@ -34,7 +34,7 @@ public class Potion_93595815Mixin {
     @Inject(at = @At("HEAD"), method = "hasInstantEffects()Z", cancellable = true)
     private void hasInstantEffects_131874397(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(131874397L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
 

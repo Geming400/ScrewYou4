@@ -19,9 +19,9 @@ public class ThrownEnderpearl1600366380Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "canTeleport(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/level/Level;)Z", cancellable = true)
-    private void canTeleport_1079015107(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1079015107L))
+    @Inject(at = @At("HEAD"), method = "teleport(Lnet/minecraft/world/level/portal/TeleportTransition;)Lnet/minecraft/world/entity/Entity;", cancellable = true)
+    private void teleport_1166485986(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1166485986L))
             info.setReturnValue(null);
     }
 
@@ -37,10 +37,10 @@ public class ThrownEnderpearl1600366380Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "teleport(Lnet/minecraft/world/level/portal/TeleportTransition;)Lnet/minecraft/world/entity/Entity;", cancellable = true)
-    private void teleport_1166485986(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1166485986L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "canTeleport(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/level/Level;)Z", cancellable = true)
+    private void canTeleport_1079015107(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1079015107L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "onRemoval(Lnet/minecraft/world/entity/Entity$RemovalReason;)V", cancellable = true)

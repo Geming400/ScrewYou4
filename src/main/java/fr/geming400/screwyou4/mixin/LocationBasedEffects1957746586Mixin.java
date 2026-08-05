@@ -10,25 +10,19 @@ public class LocationBasedEffects1957746586Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__951708451(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-951708451L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_822286611(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(822286611L))
-            info.setReturnValue(null);
+            info.setReturnValue("뵕DXbn,A:m");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1996009328(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1996009328L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "effects()Ljava/util/List;", cancellable = true)
-    private void effects__710883894(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-710883894L))
-            info.setReturnValue(null);
+            info.setReturnValue(375745019);
     }
 
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
@@ -47,6 +41,12 @@ public class LocationBasedEffects1957746586Mixin {
     private void onDeactivated_731039510(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(731039510L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "effects()Ljava/util/List;", cancellable = true)
+    private void effects__710883894(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-710883894L))
+            info.setReturnValue(null);
     }
 
 

@@ -10,19 +10,19 @@ public class SubProviderEntry1366840384Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1542614653(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1542614653L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_231380409(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(231380409L))
-            info.setReturnValue(null);
+            info.setReturnValue("RpB쟜tbRmNQ:%;嶟+#&<fH捀u#_\"s^. ?XG}y쉋\"gIy④뱋f/M'4psAr7mIc6");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1405103126(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1405103126L))
-            info.setReturnValue(null);
+            info.setReturnValue(-43806544);
     }
 
     @Inject(at = @At("HEAD"), method = "provider()Ljava/util/function/Function;", cancellable = true)

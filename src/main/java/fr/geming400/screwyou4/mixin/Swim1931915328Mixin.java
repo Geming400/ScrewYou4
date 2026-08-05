@@ -10,7 +10,7 @@ public class Swim1931915328Mixin {
         @Inject(at = @At("HEAD"), method = "shouldSwim(Lnet/minecraft/world/entity/Mob;)Z", cancellable = true)
     private static void shouldSwim__1859336231(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1859336231L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
 

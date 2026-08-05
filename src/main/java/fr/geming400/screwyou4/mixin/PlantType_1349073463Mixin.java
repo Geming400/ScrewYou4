@@ -16,24 +16,12 @@ public class PlantType_1349073463Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/client/data/models/BlockModelGenerators$PlantType;", cancellable = true)
     private static void valueOf__1421782961(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1421782961L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.client.data.models.BlockModelGenerators.PlantType.NOT_TINTED);
     }
 
-    @Inject(at = @At("HEAD"), method = "getCrossPot()Lnet/minecraft/client/data/models/model/ModelTemplate;", cancellable = true)
-    private void getCrossPot_2035407383(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "getCross()Lnet/minecraft/client/data/models/model/ModelTemplate;", cancellable = true)
+    private void getCross_2035407383(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2035407383L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getTextureMapping(Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/client/data/models/model/TextureMapping;", cancellable = true)
-    private void getTextureMapping__1040187079(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1040187079L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getPlantTextureMapping(Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/client/data/models/model/TextureMapping;", cancellable = true)
-    private void getPlantTextureMapping__1040187079(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1040187079L))
             info.setReturnValue(null);
     }
 
@@ -43,8 +31,20 @@ public class PlantType_1349073463Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getCross()Lnet/minecraft/client/data/models/model/ModelTemplate;", cancellable = true)
-    private void getCross_2035407383(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "getTextureMapping(Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/client/data/models/model/TextureMapping;", cancellable = true)
+    private void getTextureMapping__1040187079(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1040187079L))
+            info.setReturnValue(new net.minecraft.client.data.models.model.TextureMapping());
+    }
+
+    @Inject(at = @At("HEAD"), method = "getPlantTextureMapping(Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/client/data/models/model/TextureMapping;", cancellable = true)
+    private void getPlantTextureMapping__1040187079(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1040187079L))
+            info.setReturnValue(new net.minecraft.client.data.models.model.TextureMapping());
+    }
+
+    @Inject(at = @At("HEAD"), method = "getCrossPot()Lnet/minecraft/client/data/models/model/ModelTemplate;", cancellable = true)
+    private void getCrossPot_2035407383(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2035407383L))
             info.setReturnValue(null);
     }

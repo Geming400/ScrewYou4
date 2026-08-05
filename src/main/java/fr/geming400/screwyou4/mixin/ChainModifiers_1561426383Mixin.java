@@ -10,31 +10,31 @@ public class ChainModifiers_1561426383Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1348028655(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1348028655L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_425966407(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(425966407L))
-            info.setReturnValue(null);
+            info.setReturnValue("9qF7:_5ZlI먉s m7!7v/'m礂r.=3h藔VGWGGOsU,");
     }
 
     @Inject(at = @At("HEAD"), method = "flags()B", cancellable = true)
     private void flags_1599681901(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1599681901L))
-            info.setReturnValue(null);
+            info.setReturnValue(25);
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1599689124(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1599689124L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1084483999);
     }
 
-    @Inject(at = @At("HEAD"), method = "isForked()Z", cancellable = true)
-    private void isForked_1599704965(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "isReturn()Z", cancellable = true)
+    private void isReturn_1599704965(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1599704965L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "setForked()Lnet/minecraft/commands/execution/ChainModifiers;", cancellable = true)
@@ -43,10 +43,10 @@ public class ChainModifiers_1561426383Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "isReturn()Z", cancellable = true)
-    private void isReturn_1599704965(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "isForked()Z", cancellable = true)
+    private void isForked_1599704965(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1599704965L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "setReturn()Lnet/minecraft/commands/execution/ChainModifiers;", cancellable = true)

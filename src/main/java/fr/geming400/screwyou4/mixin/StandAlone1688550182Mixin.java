@@ -16,19 +16,19 @@ public class StandAlone1688550182Mixin {
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1220904855(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1220904855L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_553090207(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(553090207L))
-            info.setReturnValue(null);
+            info.setReturnValue("4b#aoZsG0qD?>NAb}pOZ}v蚒P)G9}奈CXo筓l}㟌^(镲'萮zGIB");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1726812924(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1726812924L))
-            info.setReturnValue(null);
+            info.setReturnValue(1310469207);
     }
 
     @Inject(at = @At("HEAD"), method = "apply(Ljava/util/List;)Ljava/util/List;", cancellable = true)

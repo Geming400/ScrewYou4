@@ -16,7 +16,7 @@ public class Sensing1180139453Mixin {
     @Inject(at = @At("HEAD"), method = "hasLineOfSight(Lnet/minecraft/world/entity/Entity;)Z", cancellable = true)
     private void hasLineOfSight_728418637(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(728418637L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
 

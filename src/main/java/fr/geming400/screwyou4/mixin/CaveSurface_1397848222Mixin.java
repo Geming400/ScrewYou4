@@ -16,25 +16,25 @@ public class CaveSurface_1397848222Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/world/level/levelgen/placement/CaveSurface;", cancellable = true)
     private static void valueOf_1677213546(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1677213546L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.level.levelgen.placement.CaveSurface.FLOOR);
     }
 
     @Inject(at = @At("HEAD"), method = "getY()I", cancellable = true)
     private void getY_1436110467(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1436110467L))
-            info.setReturnValue(null);
+            info.setReturnValue(-83021722);
     }
 
     @Inject(at = @At("HEAD"), method = "getDirection()Lnet/minecraft/core/Direction;", cancellable = true)
     private void getDirection_634992936(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(634992936L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.core.Direction.DOWN);
     }
 
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName_262387750(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(262387750L))
-            info.setReturnValue(null);
+            info.setReturnValue("#,:@GZ쯚H^Ej戍j}阽vW⇠y已嚴헢oZ{hL");
     }
 
 

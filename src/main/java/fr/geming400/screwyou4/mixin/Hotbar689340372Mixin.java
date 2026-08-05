@@ -16,7 +16,7 @@ public class Hotbar689340372Mixin {
     @Inject(at = @At("HEAD"), method = "isEmpty()Z", cancellable = true)
     private void isEmpty_727618955(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(727618955L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "storeFrom(Lnet/minecraft/world/entity/player/Inventory;Lnet/minecraft/core/RegistryAccess;)V", cancellable = true)

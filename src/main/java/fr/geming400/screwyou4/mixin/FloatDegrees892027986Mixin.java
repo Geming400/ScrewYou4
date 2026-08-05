@@ -10,19 +10,19 @@ public class FloatDegrees892027986Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__2017427051(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2017427051L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__243431989(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-243431989L))
-            info.setReturnValue(null);
+            info.setReturnValue("<VF蝊g%v7cl嗥6縸<9H䛳`17#5qNNM>D:R^T_x|G*:^9F%l띁[hk/B4뤒跼k:m<^jd촦뛈|1走蓒nr='|KW桿eJX$苻LJ");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_930290728(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(930290728L))
-            info.setReturnValue(null);
+            info.setReturnValue(2143445319);
     }
 
     @Inject(at = @At("HEAD"), method = "bounds()Lnet/minecraft/advancements/predicates/MinMaxBounds$Bounds;", cancellable = true)

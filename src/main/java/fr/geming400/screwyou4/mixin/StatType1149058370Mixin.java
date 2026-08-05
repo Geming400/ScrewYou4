@@ -28,7 +28,7 @@ public class StatType1149058370Mixin {
     @Inject(at = @At("HEAD"), method = "contains(Ljava/lang/Object;)Z", cancellable = true)
     private void contains__1760397163(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1760397163L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "getDisplayName()Lnet/minecraft/network/chat/Component;", cancellable = true)

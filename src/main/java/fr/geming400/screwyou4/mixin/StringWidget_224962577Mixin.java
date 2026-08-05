@@ -16,7 +16,7 @@ public class StringWidget_224962577Mixin {
     @Inject(at = @At("HEAD"), method = "getWidth()I", cancellable = true)
     private void getWidth_263224822(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(263224822L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1418633973);
     }
 
     @Inject(at = @At("HEAD"), method = "setMaxWidth(ILnet/minecraft/client/gui/components/StringWidget$TextOverflow;)Lnet/minecraft/client/gui/components/StringWidget;", cancellable = true)

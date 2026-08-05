@@ -16,19 +16,19 @@ public class Operation_1173537568Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/world/entity/ai/attributes/AttributeModifier$Operation;", cancellable = true)
     private static void valueOf__1048294063(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1048294063L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.entity.ai.attributes.AttributeModifier.Operation.ADD_VALUE);
     }
 
     @Inject(at = @At("HEAD"), method = "id()I", cancellable = true)
     private void id_1211799813(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1211799813L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1577568805);
     }
 
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName_38077096(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(38077096L))
-            info.setReturnValue(null);
+            info.setReturnValue("䐋\"y俔y*숢siyYr/?ep#W)L寍>VQ6㦋Y\"J!⛲ᒄ{쨃}qD5EZd<ZG?fs<BE쳊ZDG 㴦뼜-OjI!鱂j9 i,P1");
     }
 
 

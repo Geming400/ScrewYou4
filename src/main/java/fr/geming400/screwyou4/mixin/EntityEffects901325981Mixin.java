@@ -10,19 +10,19 @@ public class EntityEffects901325981Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__2008129056(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2008129056L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__234133994(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-234133994L))
-            info.setReturnValue(null);
+            info.setReturnValue("8 諼5)aTcꢯK;pq3h익LY8F0t⻐AS6:PJ尞ㅟcq홚qB+H3$_ ");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_939588723(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(939588723L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1759099806);
     }
 
     @Inject(at = @At("HEAD"), method = "apply(Lnet/minecraft/server/level/ServerLevel;ILnet/minecraft/world/item/enchantment/EnchantedItemInUse;Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/phys/Vec3;)V", cancellable = true)
@@ -31,15 +31,15 @@ public class EntityEffects901325981Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "effects()Ljava/util/List;", cancellable = true)
-    private void effects__1767304499(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1767304499L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
     private void codec__1657787591(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1657787591L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "effects()Ljava/util/List;", cancellable = true)
+    private void effects__1767304499(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1767304499L))
             info.setReturnValue(null);
     }
 

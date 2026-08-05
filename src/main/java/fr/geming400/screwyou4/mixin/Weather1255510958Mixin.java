@@ -10,19 +10,19 @@ public class Weather1255510958Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1653944079(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1653944079L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_120050983(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(120050983L))
-            info.setReturnValue(null);
+            info.setReturnValue("':Nd`uꬱ^Dꪶ)2zDﲜ_/⠵>W");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1293773700(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1293773700L))
-            info.setReturnValue(null);
+            info.setReturnValue(-791752836);
     }
 
     @Inject(at = @At("HEAD"), method = "setup(Lnet/minecraft/server/level/ServerLevel;)Ljava/lang/Object;", cancellable = true)
@@ -34,7 +34,7 @@ public class Weather1255510958Mixin {
     @Inject(at = @At("HEAD"), method = "setup(Lnet/minecraft/server/level/ServerLevel;)Lnet/minecraft/gametest/framework/TestEnvironmentDefinition$Weather$Type;", cancellable = true)
     private void setup_1480010561(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1480010561L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.gametest.framework.TestEnvironmentDefinition.Weather.Type.CLEAR);
     }
 
     @Inject(at = @At("HEAD"), method = "teardown(Lnet/minecraft/server/level/ServerLevel;Ljava/lang/Object;)V", cancellable = true)
@@ -58,7 +58,7 @@ public class Weather1255510958Mixin {
     @Inject(at = @At("HEAD"), method = "weather()Lnet/minecraft/gametest/framework/TestEnvironmentDefinition$Weather$Type;", cancellable = true)
     private void weather__1915620752(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1915620752L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.gametest.framework.TestEnvironmentDefinition.Weather.Type.THUNDER);
     }
 
 

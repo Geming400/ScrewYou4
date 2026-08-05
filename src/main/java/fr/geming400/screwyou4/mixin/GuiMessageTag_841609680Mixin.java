@@ -10,19 +10,19 @@ public class GuiMessageTag_841609680Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__2067845358(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2067845358L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__293850296(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-293850296L))
-            info.setReturnValue(null);
+            info.setReturnValue("i\".f5⤠5RzBJ%Y쇕뮜ꉌEfmᇸ;Q$#梿z'R⟠em晙羞Df?OBz蜋^}J褮P");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_879872421(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(879872421L))
-            info.setReturnValue(null);
+            info.setReturnValue(145359251);
     }
 
     @Inject(at = @At("HEAD"), method = "system()Lnet/minecraft/client/multiplayer/chat/GuiMessageTag;", cancellable = true)
@@ -37,24 +37,6 @@ public class GuiMessageTag_841609680Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "chatNotSecure()Lnet/minecraft/client/multiplayer/chat/GuiMessageTag;", cancellable = true)
-    private static void chatNotSecure_281102095(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(281102095L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "indicatorColor()I", cancellable = true)
-    private void indicatorColor_879871925(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(879871925L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "chatModified(Ljava/lang/String;)Lnet/minecraft/client/multiplayer/chat/GuiMessageTag;", cancellable = true)
-    private static void chatModified_102617625(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(102617625L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "chatError()Lnet/minecraft/client/multiplayer/chat/GuiMessageTag;", cancellable = true)
     private static void chatError_281102095(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(281102095L))
@@ -64,6 +46,24 @@ public class GuiMessageTag_841609680Mixin {
     @Inject(at = @At("HEAD"), method = "icon()Lnet/minecraft/client/multiplayer/chat/GuiMessageTag$Icon;", cancellable = true)
     private void icon_1382319868(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1382319868L))
+            info.setReturnValue(net.minecraft.client.multiplayer.chat.GuiMessageTag.Icon.CHAT_MODIFIED);
+    }
+
+    @Inject(at = @At("HEAD"), method = "chatModified(Ljava/lang/String;)Lnet/minecraft/client/multiplayer/chat/GuiMessageTag;", cancellable = true)
+    private static void chatModified_102617625(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(102617625L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "indicatorColor()I", cancellable = true)
+    private void indicatorColor_879871925(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(879871925L))
+            info.setReturnValue(-1227424825);
+    }
+
+    @Inject(at = @At("HEAD"), method = "chatNotSecure()Lnet/minecraft/client/multiplayer/chat/GuiMessageTag;", cancellable = true)
+    private static void chatNotSecure_281102095(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(281102095L))
             info.setReturnValue(null);
     }
 
@@ -76,7 +76,7 @@ public class GuiMessageTag_841609680Mixin {
     @Inject(at = @At("HEAD"), method = "logTag()Ljava/lang/String;", cancellable = true)
     private void logTag__293850792(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-293850792L))
-            info.setReturnValue(null);
+            info.setReturnValue(">fGe댆'>Tዼw3\"ABD}o렫zw틇pTDF霑ꌳ\"<!Yh^^U$DM4_H.EꎣS`EF");
     }
 
 

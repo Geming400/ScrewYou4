@@ -10,13 +10,13 @@ public class ReportedException_833505138Mixin {
         @Inject(at = @At("HEAD"), method = "getCause()Ljava/lang/Throwable;", cancellable = true)
     private void getCause_1557188937(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1557188937L))
-            info.setReturnValue(null);
+            info.setReturnValue(new java.lang.Throwable());
     }
 
     @Inject(at = @At("HEAD"), method = "getMessage()Ljava/lang/String;", cancellable = true)
     private void getMessage__301955334(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-301955334L))
-            info.setReturnValue(null);
+            info.setReturnValue("jJ$趰S[즹V,bk9");
     }
 
     @Inject(at = @At("HEAD"), method = "getReport()Lnet/minecraft/CrashReport;", cancellable = true)

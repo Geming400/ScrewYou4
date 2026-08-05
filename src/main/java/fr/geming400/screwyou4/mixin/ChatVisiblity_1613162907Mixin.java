@@ -16,7 +16,7 @@ public class ChatVisiblity_1613162907Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/world/entity/player/ChatVisiblity;", cancellable = true)
     private static void valueOf__1904691536(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1904691536L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.entity.player.ChatVisiblity.SYSTEM);
     }
 
     @Inject(at = @At("HEAD"), method = "caption()Lnet/minecraft/network/chat/Component;", cancellable = true)

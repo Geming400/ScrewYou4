@@ -22,7 +22,7 @@ public class MinecraftAllowListServiceImpl384389037Mixin {
     @Inject(at = @At("HEAD"), method = "add(Lnet/minecraft/server/players/UserWhiteListEntry;Lnet/minecraft/server/jsonrpc/methods/ClientInfo;)Z", cancellable = true)
     private void add__1917642865(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1917642865L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "getEntries()Ljava/util/Collection;", cancellable = true)

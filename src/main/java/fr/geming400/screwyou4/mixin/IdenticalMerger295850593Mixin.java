@@ -10,7 +10,7 @@ public class IdenticalMerger295850593Mixin {
         @Inject(at = @At("HEAD"), method = "size()I", cancellable = true)
     private void size_334112839(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(334112839L))
-            info.setReturnValue(null);
+            info.setReturnValue(1052864107);
     }
 
     @Inject(at = @At("HEAD"), method = "getList()Lit/unimi/dsi/fastutil/doubles/DoubleList;", cancellable = true)
@@ -22,7 +22,7 @@ public class IdenticalMerger295850593Mixin {
     @Inject(at = @At("HEAD"), method = "forMergedIndexes(Lnet/minecraft/world/phys/shapes/IndexMerger$IndexConsumer;)Z", cancellable = true)
     private void forMergedIndexes_1069072912(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1069072912L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
 

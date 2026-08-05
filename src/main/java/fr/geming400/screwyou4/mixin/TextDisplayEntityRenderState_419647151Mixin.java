@@ -10,7 +10,7 @@ public class TextDisplayEntityRenderState_419647151Mixin {
         @Inject(at = @At("HEAD"), method = "hasSubState()Z", cancellable = true)
     private void hasSubState_457925733(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(457925733L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
 

@@ -10,19 +10,19 @@ public class Selector_2055479792Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__853975246(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-853975246L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_920019816(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(920019816L))
-            info.setReturnValue(null);
+            info.setReturnValue("LK<qA.s.}堇鐭xxM솢iyP7[q2{z腖irOEcP&'s)%DAq=C!f뷂nYd埃FBVd@,{aFLYyA\"a2A2<u[m'O㒙j駶l暦^svROmV");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2093742533(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2093742533L))
-            info.setReturnValue(null);
+            info.setReturnValue(1148336325);
     }
 
     @Inject(at = @At("HEAD"), method = "with(Ljava/lang/Object;)Lnet/minecraft/client/renderer/block/dispatch/multipart/MultiPartModel$Selector;", cancellable = true)

@@ -22,19 +22,19 @@ public class Value_1117925710Mixin {
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1791529328(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1791529328L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__17534266(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-17534266L))
-            info.setReturnValue(null);
+            info.setReturnValue("6ya ]vegCcధ&nSWZ|쓫OK'e1Vg1*`⠱f1BT/e3웿75 H㧒|缏$Q6$.OgK[Tm]ug滈Lg]qAM}yjQHhIKW㦯4J:lPV-");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1156188451(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1156188451L))
-            info.setReturnValue(null);
+            info.setReturnValue(-794642569);
     }
 
     @Inject(at = @At("HEAD"), method = "createUnchecked(Lnet/minecraft/world/entity/ai/memory/MemoryModuleType;Lnet/minecraft/world/entity/ai/memory/ExpirableValue;)Lnet/minecraft/world/entity/ai/memory/MemoryMap$Value;", cancellable = true)

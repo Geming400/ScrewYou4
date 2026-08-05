@@ -16,13 +16,13 @@ public class Types725186945Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/world/level/block/SkullBlock$Types;", cancellable = true)
     private static void valueOf_1842273050(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1842273050L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.level.block.SkullBlock.Types.SKELETON);
     }
 
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName__410273526(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-410273526L))
-            info.setReturnValue(null);
+            info.setReturnValue("d9NU=g\"䁈5䯶1jQXpAFw0a쿒*#y-儎CrcCvlYf.<灅39-UᆥooLtPLXL - ?S/*W\"{li`魗`N쬜}KR⌢");
     }
 
 

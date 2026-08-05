@@ -10,19 +10,19 @@ public class Terms1074431350Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1835023687(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1835023687L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__61029121(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-61029121L))
-            info.setReturnValue(null);
+            info.setReturnValue("=\"Q;/#");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1112694092(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1112694092L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1564734055);
     }
 
     @Inject(at = @At("HEAD"), method = "entries()Ljava/util/List;", cancellable = true)

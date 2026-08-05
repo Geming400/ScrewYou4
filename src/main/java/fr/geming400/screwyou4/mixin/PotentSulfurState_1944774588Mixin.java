@@ -10,7 +10,7 @@ public class PotentSulfurState_1944774588Mixin {
         @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_809314116(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(809314116L))
-            info.setReturnValue(null);
+            info.setReturnValue("N/zU䖮`⺕<R5瞺Z,<S,;b");
     }
 
     @Inject(at = @At("HEAD"), method = "values()[Lnet/minecraft/world/level/block/state/properties/PotentSulfurState;", cancellable = true)
@@ -22,13 +22,13 @@ public class PotentSulfurState_1944774588Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/world/level/block/state/properties/PotentSulfurState;", cancellable = true)
     private static void valueOf_1561308725(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1561308725L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.level.block.state.properties.PotentSulfurState.CONTINUOUS);
     }
 
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName_809314116(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(809314116L))
-            info.setReturnValue(null);
+            info.setReturnValue("N/zU䖮`⺕<R5瞺Z,<S,;b");
     }
 
 

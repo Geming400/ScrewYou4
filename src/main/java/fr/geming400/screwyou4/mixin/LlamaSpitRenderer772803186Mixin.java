@@ -34,13 +34,13 @@ public class LlamaSpitRenderer772803186Mixin {
     @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/LlamaSpitRenderState;", cancellable = true)
     private void createRenderState__630053462(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-630053462L))
-            info.setReturnValue(null);
+            info.setReturnValue(new net.minecraft.client.renderer.entity.state.LlamaSpitRenderState());
     }
 
     @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/EntityRenderState;", cancellable = true)
     private void createRenderState_184166742(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(184166742L))
-            info.setReturnValue(null);
+            info.setReturnValue(new net.minecraft.client.renderer.entity.state.EntityRenderState());
     }
 
 

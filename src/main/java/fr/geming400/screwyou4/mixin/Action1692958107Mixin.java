@@ -16,7 +16,7 @@ public class Action1692958107Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/network/protocol/game/ServerboundTestInstanceBlockActionPacket$Action;", cancellable = true)
     private static void valueOf_1240345323(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1240345323L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.network.protocol.game.ServerboundTestInstanceBlockActionPacket.Action.RUN);
     }
 
 

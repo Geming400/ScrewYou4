@@ -16,7 +16,7 @@ public class FinalResult1275586559Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/client/resources/server/PackLoadFeedback$FinalResult;", cancellable = true)
     private static void valueOf__1140449994(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1140449994L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.client.resources.server.PackLoadFeedback.FinalResult.DISCARDED);
     }
 
 

@@ -40,13 +40,13 @@ public class JoinMultiplayerScreen314837134Mixin {
     @Inject(at = @At("HEAD"), method = "getPinger()Lnet/minecraft/client/multiplayer/ServerStatusPinger;", cancellable = true)
     private void getPinger__2105900135(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2105900135L))
-            info.setReturnValue(null);
+            info.setReturnValue(new net.minecraft.client.multiplayer.ServerStatusPinger());
     }
 
     @Inject(at = @At("HEAD"), method = "keyPressed(Lnet/minecraft/client/input/KeyEvent;)Z", cancellable = true)
     private void keyPressed__601798580(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-601798580L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
 

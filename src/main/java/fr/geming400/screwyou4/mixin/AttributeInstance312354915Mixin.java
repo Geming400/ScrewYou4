@@ -10,7 +10,7 @@ public class AttributeInstance312354915Mixin {
         @Inject(at = @At("HEAD"), method = "getValue()D", cancellable = true)
     private void getValue_350612356(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(350612356L))
-            info.setReturnValue(null);
+            info.setReturnValue(6.213602005857092E8D);
     }
 
     @Inject(at = @At("HEAD"), method = "apply(Lnet/minecraft/world/entity/ai/attributes/AttributeInstance$Packed;)V", cancellable = true)
@@ -37,28 +37,70 @@ public class AttributeInstance312354915Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getPermanentModifiers()Ljava/util/Set;", cancellable = true)
-    private void getPermanentModifiers__1516680571(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1516680571L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "addPermanentModifiers(Ljava/util/Collection;)V", cancellable = true)
     private void addPermanentModifiers_1763675847(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1763675847L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "removeModifiers()V", cancellable = true)
-    private void removeModifiers_350629654(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(350629654L))
+    @Inject(at = @At("HEAD"), method = "getPermanentModifiers()Ljava/util/Set;", cancellable = true)
+    private void getPermanentModifiers__1516680571(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1516680571L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "addPermanentModifier(Lnet/minecraft/world/entity/ai/attributes/AttributeModifier;)V", cancellable = true)
+    private void addPermanentModifier_389091422(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(389091422L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "removeModifier(Lnet/minecraft/resources/Identifier;)Z", cancellable = true)
+    private void removeModifier__1182082398(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1182082398L))
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "removeModifier(Lnet/minecraft/world/entity/ai/attributes/AttributeModifier;)V", cancellable = true)
+    private void removeModifier_389091422(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(389091422L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "addOrReplacePermanentModifier(Lnet/minecraft/world/entity/ai/attributes/AttributeModifier;)V", cancellable = true)
+    private void addOrReplacePermanentModifier_389091422(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(389091422L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getBaseValue()D", cancellable = true)
+    private void getBaseValue_350612356(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(350612356L))
+            info.setReturnValue(6.213602005857092E8D);
     }
 
     @Inject(at = @At("HEAD"), method = "setBaseValue(D)V", cancellable = true)
     private void setBaseValue_1521654282(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1521654282L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getModifier(Lnet/minecraft/resources/Identifier;)Lnet/minecraft/world/entity/ai/attributes/AttributeModifier;", cancellable = true)
+    private void getModifier_214422498(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(214422498L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "addTransientModifier(Lnet/minecraft/world/entity/ai/attributes/AttributeModifier;)V", cancellable = true)
+    private void addTransientModifier_389091422(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(389091422L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "hasModifier(Lnet/minecraft/resources/Identifier;)Z", cancellable = true)
+    private void hasModifier__1182082398(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1182082398L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "replaceFrom(Lnet/minecraft/world/entity/ai/attributes/AttributeInstance;)V", cancellable = true)
@@ -73,51 +115,9 @@ public class AttributeInstance312354915Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "addTransientModifier(Lnet/minecraft/world/entity/ai/attributes/AttributeModifier;)V", cancellable = true)
-    private void addTransientModifier_389091422(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(389091422L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "removeModifier(Lnet/minecraft/world/entity/ai/attributes/AttributeModifier;)V", cancellable = true)
-    private void removeModifier_389091422(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(389091422L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "removeModifier(Lnet/minecraft/resources/Identifier;)Z", cancellable = true)
-    private void removeModifier__1182082398(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1182082398L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getModifier(Lnet/minecraft/resources/Identifier;)Lnet/minecraft/world/entity/ai/attributes/AttributeModifier;", cancellable = true)
-    private void getModifier_214422498(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(214422498L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getBaseValue()D", cancellable = true)
-    private void getBaseValue_350612356(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(350612356L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "hasModifier(Lnet/minecraft/resources/Identifier;)Z", cancellable = true)
-    private void hasModifier__1182082398(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1182082398L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "addPermanentModifier(Lnet/minecraft/world/entity/ai/attributes/AttributeModifier;)V", cancellable = true)
-    private void addPermanentModifier_389091422(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(389091422L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "addOrReplacePermanentModifier(Lnet/minecraft/world/entity/ai/attributes/AttributeModifier;)V", cancellable = true)
-    private void addOrReplacePermanentModifier_389091422(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(389091422L))
+    @Inject(at = @At("HEAD"), method = "removeModifiers()V", cancellable = true)
+    private void removeModifiers_350629654(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(350629654L))
             info.cancel();
     }
 

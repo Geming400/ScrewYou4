@@ -10,7 +10,7 @@ public class RootSystemFeature_2070290537Mixin {
         @Inject(at = @At("HEAD"), method = "place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z", cancellable = true)
     private void place__1509419024(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1509419024L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
 

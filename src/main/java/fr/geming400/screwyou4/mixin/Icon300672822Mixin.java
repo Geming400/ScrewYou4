@@ -16,7 +16,7 @@ public class Icon300672822Mixin {
     @Inject(at = @At("HEAD"), method = "hasData()Z", cancellable = true)
     private void hasData_338951405(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(338951405L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "cloneAndAssignStyle(Lnet/minecraft/world/entity/LivingEntity;)Lnet/minecraft/world/waypoints/Waypoint$Icon;", cancellable = true)

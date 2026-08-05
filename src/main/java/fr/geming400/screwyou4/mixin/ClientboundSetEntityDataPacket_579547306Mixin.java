@@ -16,25 +16,25 @@ public class ClientboundSetEntityDataPacket_579547306Mixin {
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_1965059564(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1965059564L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__555912670(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-555912670L))
-            info.setReturnValue(null);
+            info.setReturnValue("EyvP턱sQ訵k\"2l#c/Sy5");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_617810047(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(617810047L))
-            info.setReturnValue(null);
+            info.setReturnValue(781825900);
     }
 
     @Inject(at = @At("HEAD"), method = "id()I", cancellable = true)
     private void id_617809551(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(617809551L))
-            info.setReturnValue(null);
+            info.setReturnValue(-517086387);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/protocol/game/ClientGamePacketListener;)V", cancellable = true)

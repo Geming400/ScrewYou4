@@ -16,37 +16,37 @@ public class ClientboundCommandSuggestionsPacket2078360417Mixin {
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__831094620(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-831094620L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "length()I", cancellable = true)
     private void length_2116622663(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2116622663L))
-            info.setReturnValue(null);
+            info.setReturnValue(758055281);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_942900442(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(942900442L))
-            info.setReturnValue(null);
+            info.setReturnValue("沔C}n篢S1=MeX]]L7fUYH䩳/si;V(N넲r뀆UNF:䦈&\"Y|g_YdXcl6eUh{gEQvm@0sn8*nmEY;}㋁濴Pck@^uNg(愽Js庅\"3");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2116623159(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2116623159L))
-            info.setReturnValue(null);
+            info.setReturnValue(580536191);
     }
 
     @Inject(at = @At("HEAD"), method = "id()I", cancellable = true)
     private void id_2116622663(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2116622663L))
-            info.setReturnValue(null);
+            info.setReturnValue(759059681);
     }
 
     @Inject(at = @At("HEAD"), method = "start()I", cancellable = true)
     private void start_2116622663(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2116622663L))
-            info.setReturnValue(null);
+            info.setReturnValue(759059681);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/PacketListener;)V", cancellable = true)
@@ -61,15 +61,15 @@ public class ClientboundCommandSuggestionsPacket2078360417Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "toSuggestions()Lcom/mojang/brigadier/suggestion/Suggestions;", cancellable = true)
-    private void toSuggestions_1502455016(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1502455016L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "suggestions()Ljava/util/List;", cancellable = true)
     private void suggestions__590270063(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-590270063L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "toSuggestions()Lcom/mojang/brigadier/suggestion/Suggestions;", cancellable = true)
+    private void toSuggestions_1502455016(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1502455016L))
             info.setReturnValue(null);
     }
 

@@ -10,7 +10,7 @@ public class SkinTextureDownloader1841623909Mixin {
         @Inject(at = @At("HEAD"), method = "downloadAndRegisterSkin(Lnet/minecraft/resources/Identifier;Ljava/nio/file/Path;Ljava/lang/String;Z)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
     private void downloadAndRegisterSkin_798753129(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(798753129L))
-            info.setReturnValue(null);
+            info.setReturnValue(new java.util.concurrent.CompletableFuture());
     }
 
 

@@ -16,7 +16,7 @@ public class Base_2061343165Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/world/entity/animal/fish/TropicalFish$Base;", cancellable = true)
     private static void valueOf__1843632642(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1843632642L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.entity.animal.fish.TropicalFish.Base.LARGE);
     }
 
 

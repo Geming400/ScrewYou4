@@ -10,7 +10,7 @@ public class BundleHasSelectedItem94886792Mixin {
         @Inject(at = @At("HEAD"), method = "get(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/client/multiplayer/ClientLevel;Lnet/minecraft/world/entity/LivingEntity;ILnet/minecraft/world/item/ItemDisplayContext;)Z", cancellable = true)
     private void get_2108938306(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2108938306L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "type()Lcom/mojang/serialization/MapCodec;", cancellable = true)
@@ -22,19 +22,19 @@ public class BundleHasSelectedItem94886792Mixin {
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_1480399051(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1480399051L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__1040573183(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1040573183L))
-            info.setReturnValue(null);
+            info.setReturnValue("䇂ꠑ}1^> ᩢI7heaTop=jwcu#h8f!V턪Lw; 3>Uv+y0hpQy[:bႅ륪谹47+6v6}>sa顙b-dL項L/CE{");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_133149534(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(133149534L))
-            info.setReturnValue(null);
+            info.setReturnValue(-140747049);
     }
 
 

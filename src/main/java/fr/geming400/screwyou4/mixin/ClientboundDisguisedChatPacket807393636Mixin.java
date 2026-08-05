@@ -16,19 +16,19 @@ public class ClientboundDisguisedChatPacket807393636Mixin {
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__2102061401(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2102061401L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__328066339(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-328066339L))
-            info.setReturnValue(null);
+            info.setReturnValue(" 飭\");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_845656378(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(845656378L))
-            info.setReturnValue(null);
+            info.setReturnValue(566664364);
     }
 
     @Inject(at = @At("HEAD"), method = "message()Lnet/minecraft/network/chat/Component;", cancellable = true)
@@ -58,7 +58,7 @@ public class ClientboundDisguisedChatPacket807393636Mixin {
     @Inject(at = @At("HEAD"), method = "isSkippable()Z", cancellable = true)
     private void isSkippable_845672219(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(845672219L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
 

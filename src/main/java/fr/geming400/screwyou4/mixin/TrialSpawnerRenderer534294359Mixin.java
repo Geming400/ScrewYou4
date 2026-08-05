@@ -19,12 +19,6 @@ public class TrialSpawnerRenderer534294359Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "extractSpawnerData(Lnet/minecraft/client/renderer/blockentity/state/SpawnerRenderState;FLnet/minecraft/world/entity/Entity;Lnet/minecraft/client/renderer/entity/EntityRenderDispatcher;DD)V", cancellable = true)
-    private static void extractSpawnerData_686735651(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(686735651L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/level/block/entity/BlockEntity;Lnet/minecraft/client/renderer/blockentity/state/BlockEntityRenderState;FLnet/minecraft/world/phys/Vec3;Lnet/minecraft/client/renderer/feature/ModelFeatureRenderer$CrumblingOverlay;)V", cancellable = true)
     private void extractRenderState_1551383221(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1551383221L))
@@ -37,16 +31,22 @@ public class TrialSpawnerRenderer534294359Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "extractSpawnerData(Lnet/minecraft/client/renderer/blockentity/state/SpawnerRenderState;FLnet/minecraft/world/entity/Entity;Lnet/minecraft/client/renderer/entity/EntityRenderDispatcher;DD)V", cancellable = true)
+    private static void extractSpawnerData_686735651(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(686735651L))
+            info.cancel();
+    }
+
     @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/blockentity/state/BlockEntityRenderState;", cancellable = true)
     private void createRenderState_1668266785(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1668266785L))
-            info.setReturnValue(null);
+            info.setReturnValue(new net.minecraft.client.renderer.blockentity.state.BlockEntityRenderState());
     }
 
     @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/blockentity/state/SpawnerRenderState;", cancellable = true)
     private void createRenderState__673358343(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-673358343L))
-            info.setReturnValue(null);
+            info.setReturnValue(new net.minecraft.client.renderer.blockentity.state.SpawnerRenderState());
     }
 
 

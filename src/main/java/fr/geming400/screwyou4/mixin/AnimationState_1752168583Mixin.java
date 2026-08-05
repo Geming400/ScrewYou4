@@ -22,7 +22,7 @@ public class AnimationState_1752168583Mixin {
     @Inject(at = @At("HEAD"), method = "isStarted()Z", cancellable = true)
     private void isStarted_1790447165(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1790447165L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "copyFrom(Lnet/minecraft/world/entity/AnimationState;)V", cancellable = true)
@@ -34,7 +34,13 @@ public class AnimationState_1752168583Mixin {
     @Inject(at = @At("HEAD"), method = "getTimeInMillis(F)J", cancellable = true)
     private void getTimeInMillis__1331663837(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1331663837L))
-            info.setReturnValue(null);
+            info.setReturnValue(-4702076043587258539L);
+    }
+
+    @Inject(at = @At("HEAD"), method = "ifStarted(Ljava/util/function/Consumer;)V", cancellable = true)
+    private void ifStarted__1861782301(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1861782301L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "startIfStopped(I)V", cancellable = true)
@@ -52,12 +58,6 @@ public class AnimationState_1752168583Mixin {
     @Inject(at = @At("HEAD"), method = "fastForward(IF)V", cancellable = true)
     private void fastForward_753518550(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(753518550L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "ifStarted(Ljava/util/function/Consumer;)V", cancellable = true)
-    private void ifStarted__1861782301(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1861782301L))
             info.cancel();
     }
 

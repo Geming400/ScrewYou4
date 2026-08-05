@@ -16,13 +16,13 @@ public class BlockInteraction1192513198Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/world/level/Explosion$BlockInteraction;", cancellable = true)
     private static void valueOf__1816892486(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1816892486L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.level.Explosion.BlockInteraction.DESTROY_WITH_DECAY);
     }
 
     @Inject(at = @At("HEAD"), method = "shouldAffectBlocklikeEntities()Z", cancellable = true)
     private void shouldAffectBlocklikeEntities_1230791781(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1230791781L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
 

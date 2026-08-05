@@ -22,7 +22,13 @@ public class SeagrassBlock_507576456Mixin {
     @Inject(at = @At("HEAD"), method = "isValidBonemealTarget(Lnet/minecraft/world/level/LevelReader;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Z", cancellable = true)
     private void isValidBonemealTarget_552256213(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(552256213L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isBonemealSuccess(Lnet/minecraft/world/level/Level;Lnet/minecraft/util/RandomSource;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Z", cancellable = true)
+    private void isBonemealSuccess__1465336688(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1465336688L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "performBonemeal(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/util/RandomSource;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)V", cancellable = true)
@@ -31,22 +37,16 @@ public class SeagrassBlock_507576456Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "isBonemealSuccess(Lnet/minecraft/world/level/Level;Lnet/minecraft/util/RandomSource;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Z", cancellable = true)
-    private void isBonemealSuccess__1465336688(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1465336688L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "placeLiquid(Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/material/FluidState;)Z", cancellable = true)
+    private void placeLiquid__82640121(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-82640121L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "canPlaceLiquid(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/material/Fluid;)Z", cancellable = true)
     private void canPlaceLiquid_1510109287(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1510109287L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "placeLiquid(Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/material/FluidState;)Z", cancellable = true)
-    private void placeLiquid__82640121(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-82640121L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
 

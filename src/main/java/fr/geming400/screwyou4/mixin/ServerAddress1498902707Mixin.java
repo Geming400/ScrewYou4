@@ -10,37 +10,37 @@ public class ServerAddress1498902707Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1410552826(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1410552826L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_363442236(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(363442236L))
-            info.setReturnValue(null);
+            info.setReturnValue("t4)vၟ@W");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1537164953(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1537164953L))
-            info.setReturnValue(null);
+            info.setReturnValue(1940256758);
     }
 
     @Inject(at = @At("HEAD"), method = "getHost()Ljava/lang/String;", cancellable = true)
     private void getHost_363442236(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(363442236L))
-            info.setReturnValue(null);
+            info.setReturnValue("t4)vၟ@W");
     }
 
     @Inject(at = @At("HEAD"), method = "getPort()I", cancellable = true)
     private void getPort_1537164953(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1537164953L))
-            info.setReturnValue(null);
+            info.setReturnValue(1940256758);
     }
 
     @Inject(at = @At("HEAD"), method = "parsePort(Ljava/lang/String;)I", cancellable = true)
     private static void parsePort__1643715685(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1643715685L))
-            info.setReturnValue(null);
+            info.setReturnValue(-989003273);
     }
 
     @Inject(at = @At("HEAD"), method = "parseString(Ljava/lang/String;)Lnet/minecraft/client/multiplayer/resolver/ServerAddress;", cancellable = true)
@@ -52,7 +52,7 @@ public class ServerAddress1498902707Mixin {
     @Inject(at = @At("HEAD"), method = "isValidAddress(Ljava/lang/String;)Z", cancellable = true)
     private static void isValidAddress__1643699348(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1643699348L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
 

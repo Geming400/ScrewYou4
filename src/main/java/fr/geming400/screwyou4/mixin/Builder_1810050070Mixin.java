@@ -19,15 +19,15 @@ public class Builder_1810050070Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "addRequirement(Lnet/minecraft/world/level/chunk/status/ChunkStatus;I)Lnet/minecraft/world/level/chunk/status/ChunkStep$Builder;", cancellable = true)
-    private void addRequirement_2066329288(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2066329288L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "setTask(Lnet/minecraft/world/level/chunk/status/ChunkStatusTask;)Lnet/minecraft/world/level/chunk/status/ChunkStep$Builder;", cancellable = true)
     private void setTask_547739080(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(547739080L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "addRequirement(Lnet/minecraft/world/level/chunk/status/ChunkStatus;I)Lnet/minecraft/world/level/chunk/status/ChunkStep$Builder;", cancellable = true)
+    private void addRequirement_2066329288(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2066329288L))
             info.setReturnValue(null);
     }
 

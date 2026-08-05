@@ -16,19 +16,19 @@ public class ClientboundTickingStatePacket1731716969Mixin {
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1177738068(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1177738068L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_596256994(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(596256994L))
-            info.setReturnValue(null);
+            info.setReturnValue("@qz`CUM璈aP1 MZ k租[@옩N2@勧5.&Zyglc摄`*5뜓zm&<?$5q濐7{(켗[&'mRmI02;0pxz릍HxAhp y9y뿦G]F9JRog2q飬e{");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1769979711(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1769979711L))
-            info.setReturnValue(null);
+            info.setReturnValue(294494604);
     }
 
     @Inject(at = @At("HEAD"), method = "from(Lnet/minecraft/world/TickRateManager;)Lnet/minecraft/network/protocol/game/ClientboundTickingStatePacket;", cancellable = true)
@@ -52,13 +52,13 @@ public class ClientboundTickingStatePacket1731716969Mixin {
     @Inject(at = @At("HEAD"), method = "isFrozen()Z", cancellable = true)
     private void isFrozen_1769995552(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1769995552L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "tickRate()F", cancellable = true)
     private void tickRate_1769976332(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1769976332L))
-            info.setReturnValue(null);
+            info.setReturnValue(7.095342E8F);
     }
 
 

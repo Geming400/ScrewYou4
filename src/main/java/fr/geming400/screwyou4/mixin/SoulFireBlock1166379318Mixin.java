@@ -16,7 +16,7 @@ public class SoulFireBlock1166379318Mixin {
     @Inject(at = @At("HEAD"), method = "canSurviveOnBlock(Lnet/minecraft/world/level/block/state/BlockState;)Z", cancellable = true)
     private static void canSurviveOnBlock_1021090580(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1021090580L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
 

@@ -22,13 +22,13 @@ public class Type_302780580Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/world/level/CardinalLighting$Type;", cancellable = true)
     private static void valueOf_1938057875(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1938057875L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.level.CardinalLighting.Type.DEFAULT);
     }
 
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName__832679892(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-832679892L))
-            info.setReturnValue(null);
+            info.setReturnValue("桽े\")UICs$XT");
     }
 
 

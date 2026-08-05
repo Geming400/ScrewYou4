@@ -16,7 +16,7 @@ public class RunAroundLikeCrazyGoal_243549045Mixin {
     @Inject(at = @At("HEAD"), method = "canUse()Z", cancellable = true)
     private void canUse_281827627(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(281827627L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "tick()V", cancellable = true)
@@ -28,7 +28,7 @@ public class RunAroundLikeCrazyGoal_243549045Mixin {
     @Inject(at = @At("HEAD"), method = "canContinueToUse()Z", cancellable = true)
     private void canContinueToUse_281827627(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(281827627L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
 

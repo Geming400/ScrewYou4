@@ -10,7 +10,7 @@ public class ClientboundSetHeldSlotPacket997071804Mixin {
         @Inject(at = @At("HEAD"), method = "slot()I", cancellable = true)
     private void slot_1035334050(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1035334050L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1247944049);
     }
 
     @Inject(at = @At("HEAD"), method = "type()Lnet/minecraft/network/protocol/PacketType;", cancellable = true)
@@ -22,19 +22,19 @@ public class ClientboundSetHeldSlotPacket997071804Mixin {
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1912383233(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1912383233L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__138388171(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-138388171L))
-            info.setReturnValue(null);
+            info.setReturnValue("imyi/x");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1035334546(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1035334546L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1426467539);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/PacketListener;)V", cancellable = true)

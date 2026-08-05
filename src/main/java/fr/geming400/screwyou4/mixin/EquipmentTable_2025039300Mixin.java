@@ -10,19 +10,19 @@ public class EquipmentTable_2025039300Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__884415738(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-884415738L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_889579324(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(889579324L))
-            info.setReturnValue(null);
+            info.setReturnValue("᎘I]6䤖A鶇");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2063302041(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2063302041L))
-            info.setReturnValue(null);
+            info.setReturnValue(-132990582);
     }
 
     @Inject(at = @At("HEAD"), method = "lootTable()Lnet/minecraft/resources/ResourceKey;", cancellable = true)

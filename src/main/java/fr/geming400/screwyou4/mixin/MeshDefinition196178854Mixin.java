@@ -22,7 +22,7 @@ public class MeshDefinition196178854Mixin {
     @Inject(at = @At("HEAD"), method = "transformed(Ljava/util/function/UnaryOperator;)Lnet/minecraft/client/model/geom/builders/MeshDefinition;", cancellable = true)
     private void transformed__917910621(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-917910621L))
-            info.setReturnValue(null);
+            info.setReturnValue(new net.minecraft.client.model.geom.builders.MeshDefinition());
     }
 
 

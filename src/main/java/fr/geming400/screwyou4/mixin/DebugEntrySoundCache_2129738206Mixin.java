@@ -16,7 +16,7 @@ public class DebugEntrySoundCache_2129738206Mixin {
     @Inject(at = @At("HEAD"), method = "isAllowed(Z)Z", cancellable = true)
     private void isAllowed__935608418(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-935608418L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
 

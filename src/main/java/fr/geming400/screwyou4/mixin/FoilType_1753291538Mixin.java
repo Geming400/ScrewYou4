@@ -16,7 +16,7 @@ public class FoilType_1753291538Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/client/renderer/item/ItemStackRenderState$FoilType;", cancellable = true)
     private static void valueOf__699298231(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-699298231L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.client.renderer.item.ItemStackRenderState.FoilType.SPECIAL);
     }
 
 

@@ -16,19 +16,19 @@ public class ClientboundServerDataPacket2008693834Mixin {
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__900761203(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-900761203L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_873233859(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(873233859L))
-            info.setReturnValue(null);
+            info.setReturnValue("@M겶gfy'Zѽ뒔F∧TQ4_V퓶蛓Z2)㵗|fNYj1@gbKj@b)ﱟ*_");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2046956576(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2046956576L))
-            info.setReturnValue(null);
+            info.setReturnValue(1251210166);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/PacketListener;)V", cancellable = true)
@@ -43,15 +43,15 @@ public class ClientboundServerDataPacket2008693834Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "motd()Lnet/minecraft/network/chat/Component;", cancellable = true)
-    private void motd__168215331(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-168215331L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "iconBytes()Ljava/util/Optional;", cancellable = true)
     private void iconBytes__2040812040(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2040812040L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "motd()Lnet/minecraft/network/chat/Component;", cancellable = true)
+    private void motd__168215331(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-168215331L))
             info.setReturnValue(null);
     }
 

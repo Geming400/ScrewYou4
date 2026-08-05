@@ -10,7 +10,7 @@ public class WeightedRandomSelectorFeature_206657905Mixin {
         @Inject(at = @At("HEAD"), method = "place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z", cancellable = true)
     private void place_921915640(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(921915640L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
 

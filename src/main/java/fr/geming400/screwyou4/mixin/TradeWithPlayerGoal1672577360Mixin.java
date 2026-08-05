@@ -22,7 +22,7 @@ public class TradeWithPlayerGoal1672577360Mixin {
     @Inject(at = @At("HEAD"), method = "canUse()Z", cancellable = true)
     private void canUse_1710855943(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1710855943L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
 

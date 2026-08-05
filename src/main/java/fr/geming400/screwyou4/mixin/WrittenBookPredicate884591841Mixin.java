@@ -10,19 +10,19 @@ public class WrittenBookPredicate884591841Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__2024863196(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2024863196L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__250868134(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-250868134L))
-            info.setReturnValue(null);
+            info.setReturnValue("");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_922854583(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(922854583L))
-            info.setReturnValue(null);
+            info.setReturnValue(200253957);
     }
 
     @Inject(at = @At("HEAD"), method = "componentType()Lnet/minecraft/core/component/DataComponentType;", cancellable = true)
@@ -34,13 +34,13 @@ public class WrittenBookPredicate884591841Mixin {
     @Inject(at = @At("HEAD"), method = "matches(Ljava/lang/Object;)Z", cancellable = true)
     private void matches__2024734732(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2024734732L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/world/item/component/WrittenBookContent;)Z", cancellable = true)
     private void matches_643497209(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(643497209L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "resolved()Ljava/util/Optional;", cancellable = true)

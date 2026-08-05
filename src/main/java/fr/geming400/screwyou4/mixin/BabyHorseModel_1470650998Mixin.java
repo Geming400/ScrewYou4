@@ -10,7 +10,7 @@ public class BabyHorseModel_1470650998Mixin {
         @Inject(at = @At("HEAD"), method = "createBabyMesh(Lnet/minecraft/client/model/geom/builders/CubeDeformation;)Lnet/minecraft/client/model/geom/builders/MeshDefinition;", cancellable = true)
     private static void createBabyMesh_803670309(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(803670309L))
-            info.setReturnValue(null);
+            info.setReturnValue(new net.minecraft.client.model.geom.builders.MeshDefinition());
     }
 
 

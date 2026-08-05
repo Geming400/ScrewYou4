@@ -16,7 +16,7 @@ public class SoundEventRegistrationSerializer_97176760Mixin {
     @Inject(at = @At("HEAD"), method = "deserialize(Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Ljava/lang/Object;", cancellable = true)
     private void deserialize_1119883385(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1119883385L))
-            info.setReturnValue(null);
+            info.setReturnValue(new java.lang.Object());
     }
 
 

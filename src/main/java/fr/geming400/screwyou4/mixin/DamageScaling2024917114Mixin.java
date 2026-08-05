@@ -16,13 +16,13 @@ public class DamageScaling2024917114Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/world/damagesource/DamageScaling;", cancellable = true)
     private static void valueOf__183147726(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-183147726L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.damagesource.DamageScaling.WHEN_CAUSED_BY_LIVING_NON_PLAYER);
     }
 
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName_889456643(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(889456643L))
-            info.setReturnValue(null);
+            info.setReturnValue("}M[+a+O盃-Yj됌W!|{p_鱠[NᝀG{^噣+/W祱㌍_B[:,`瘂P");
     }
 
 

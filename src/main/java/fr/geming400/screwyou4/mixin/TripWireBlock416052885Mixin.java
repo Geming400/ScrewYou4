@@ -13,6 +13,12 @@ public class TripWireBlock416052885Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
+    private void getStateForPlacement__842546882(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-842546882L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "playerWillDestroy(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/entity/player/Player;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
     private void playerWillDestroy__306003276(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-306003276L))
@@ -22,13 +28,7 @@ public class TripWireBlock416052885Mixin {
     @Inject(at = @At("HEAD"), method = "shouldConnectTo(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/Direction;)Z", cancellable = true)
     private void shouldConnectTo_296635719(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(296635719L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
-    private void getStateForPlacement__842546882(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-842546882L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
 

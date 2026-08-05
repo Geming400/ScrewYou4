@@ -16,7 +16,7 @@ public class PlacementStyle1253771884Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/client/renderer/entity/layers/StuckInBodyLayer$PlacementStyle;", cancellable = true)
     private static void valueOf__1128696019(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1128696019L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.client.renderer.entity.layers.StuckInBodyLayer.PlacementStyle.ON_SURFACE);
     }
 
 

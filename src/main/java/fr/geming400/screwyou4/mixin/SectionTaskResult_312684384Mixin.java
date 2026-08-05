@@ -16,7 +16,7 @@ public class SectionTaskResult_312684384Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/client/renderer/chunk/SectionRenderDispatcher$RenderSection$SectionTask$SectionTaskResult;", cancellable = true)
     private static void valueOf_2112539533(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2112539533L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.client.renderer.chunk.SectionRenderDispatcher.RenderSection.SectionTask.SectionTaskResult.CANCELLED);
     }
 
 

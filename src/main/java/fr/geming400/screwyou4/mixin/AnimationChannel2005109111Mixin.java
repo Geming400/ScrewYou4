@@ -10,7 +10,7 @@ public class AnimationChannel2005109111Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__904345926(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-904345926L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "target()Lnet/minecraft/client/animation/AnimationChannel$Target;", cancellable = true)
@@ -22,13 +22,13 @@ public class AnimationChannel2005109111Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_869649136(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(869649136L))
-            info.setReturnValue(null);
+            info.setReturnValue("m]%qo94dF7qL鱮[");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2043371853(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2043371853L))
-            info.setReturnValue(null);
+            info.setReturnValue(988287119);
     }
 
     @Inject(at = @At("HEAD"), method = "keyframes()[Lnet/minecraft/client/animation/Keyframe;", cancellable = true)

@@ -10,31 +10,31 @@ public class HiddenByteBuf_910724893Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1998730145(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1998730145L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__224735083(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-224735083L))
-            info.setReturnValue(null);
+            info.setReturnValue("TP|%Oj8=X^O9衪g*!.k4IE絛KZEP%}Jok^툆_GT/nuN4S)眭/m\"㮻ᥞsO[Jqᷙ0鴴6xwgG Bm!a読蠫㹗_麚q");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_948987634(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(948987634L))
-            info.setReturnValue(null);
+            info.setReturnValue(1500254753);
     }
 
     @Inject(at = @At("HEAD"), method = "release(I)Z", cancellable = true)
     private void release_2124645708(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2124645708L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "release()Z", cancellable = true)
     private void release_949003475(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(949003475L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "contents()Lio/netty/buffer/ByteBuf;", cancellable = true)
@@ -82,7 +82,7 @@ public class HiddenByteBuf_910724893Mixin {
     @Inject(at = @At("HEAD"), method = "refCnt()I", cancellable = true)
     private void refCnt_948987138(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(948987138L))
-            info.setReturnValue(null);
+            info.setReturnValue(1777273961);
     }
 
     @Inject(at = @At("HEAD"), method = "retain(I)Lio/netty/util/ReferenceCounted;", cancellable = true)

@@ -16,7 +16,7 @@ public class ChunkNbt1479411867Mixin {
     @Inject(at = @At("HEAD"), method = "updateChunk(Lnet/minecraft/world/level/ChunkPos;Lnet/minecraft/nbt/CompoundTag;Ljava/util/function/UnaryOperator;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
     private void updateChunk__1983221690(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1983221690L))
-            info.setReturnValue(null);
+            info.setReturnValue(new java.util.concurrent.CompletableFuture());
     }
 
 

@@ -10,19 +10,19 @@ public class TagOrElementLocation595966825Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_1981479084(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1981479084L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__539493646(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-539493646L))
-            info.setReturnValue(null);
+            info.setReturnValue("F꣹\",d,1fa.,`璷I+hhQxꣻ>q`>h鬰@E|^t,{+]/Bw6luU%Djjb[-A'a谿Nꎈا8|`*)),OXp릍f3l0Hc(H%&:/W$b4Ki[t/V3U'!]GhK{");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_634229567(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(634229567L))
-            info.setReturnValue(null);
+            info.setReturnValue(877359938);
     }
 
     @Inject(at = @At("HEAD"), method = "id()Lnet/minecraft/resources/Identifier;", cancellable = true)
@@ -34,7 +34,7 @@ public class TagOrElementLocation595966825Mixin {
     @Inject(at = @At("HEAD"), method = "tag()Z", cancellable = true)
     private void tag_634245408(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(634245408L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
 

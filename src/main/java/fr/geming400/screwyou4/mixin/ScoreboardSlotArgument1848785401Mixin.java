@@ -16,13 +16,7 @@ public class ScoreboardSlotArgument1848785401Mixin {
     @Inject(at = @At("HEAD"), method = "parse(Lcom/mojang/brigadier/StringReader;)Lnet/minecraft/world/scores/DisplaySlot;", cancellable = true)
     private void parse__121469062(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-121469062L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "listSuggestions(Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
-    private void listSuggestions_2089708843(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2089708843L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.scores.DisplaySlot.TEAM_DARK_GREEN);
     }
 
     @Inject(at = @At("HEAD"), method = "displaySlot()Lnet/minecraft/commands/arguments/ScoreboardSlotArgument;", cancellable = true)
@@ -34,7 +28,13 @@ public class ScoreboardSlotArgument1848785401Mixin {
     @Inject(at = @At("HEAD"), method = "getDisplaySlot(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/world/scores/DisplaySlot;", cancellable = true)
     private static void getDisplaySlot_441839992(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(441839992L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.scores.DisplaySlot.SIDEBAR);
+    }
+
+    @Inject(at = @At("HEAD"), method = "listSuggestions(Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
+    private void listSuggestions_2089708843(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2089708843L))
+            info.setReturnValue(new java.util.concurrent.CompletableFuture());
     }
 
     @Inject(at = @At("HEAD"), method = "getExamples()Ljava/util/Collection;", cancellable = true)

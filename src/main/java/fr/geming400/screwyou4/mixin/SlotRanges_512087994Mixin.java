@@ -7,8 +7,8 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.world.inventory.SlotRanges.class)
 public class SlotRanges_512087994Mixin {
-        @Inject(at = @At("HEAD"), method = "allNames()Ljava/util/stream/Stream;", cancellable = true)
-    private static void allNames_301381926(CallbackInfoReturnable<Object> info) {
+        @Inject(at = @At("HEAD"), method = "singleSlotNames()Ljava/util/stream/Stream;", cancellable = true)
+    private static void singleSlotNames_301381926(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(301381926L))
             info.setReturnValue(null);
     }
@@ -19,8 +19,8 @@ public class SlotRanges_512087994Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "singleSlotNames()Ljava/util/stream/Stream;", cancellable = true)
-    private static void singleSlotNames_301381926(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "allNames()Ljava/util/stream/Stream;", cancellable = true)
+    private static void allNames_301381926(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(301381926L))
             info.setReturnValue(null);
     }

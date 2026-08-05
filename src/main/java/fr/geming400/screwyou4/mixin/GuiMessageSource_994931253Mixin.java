@@ -16,7 +16,7 @@ public class GuiMessageSource_994931253Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/client/multiplayer/chat/GuiMessageSource;", cancellable = true)
     private static void valueOf__1859500265(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1859500265L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.client.multiplayer.chat.GuiMessageSource.SYSTEM_SERVER);
     }
 
 

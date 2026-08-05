@@ -19,6 +19,12 @@ public class RandomState1313600112Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "router()Lnet/minecraft/world/level/levelgen/NoiseRouter;", cancellable = true)
+    private void router_157596194(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(157596194L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "getOrCreateRandomFactory(Lnet/minecraft/resources/Identifier;)Lnet/minecraft/world/level/levelgen/PositionalRandomFactory;", cancellable = true)
     private void getOrCreateRandomFactory__1408970870(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1408970870L))
@@ -31,15 +37,15 @@ public class RandomState1313600112Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "surfaceSystem()Lnet/minecraft/world/level/levelgen/SurfaceSystem;", cancellable = true)
-    private void surfaceSystem_1981580873(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1981580873L))
+    @Inject(at = @At("HEAD"), method = "oreRandom()Lnet/minecraft/world/level/levelgen/PositionalRandomFactory;", cancellable = true)
+    private void oreRandom_87482642(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(87482642L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "aquiferRandom()Lnet/minecraft/world/level/levelgen/PositionalRandomFactory;", cancellable = true)
-    private void aquiferRandom_87482642(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(87482642L))
+    @Inject(at = @At("HEAD"), method = "surfaceSystem()Lnet/minecraft/world/level/levelgen/SurfaceSystem;", cancellable = true)
+    private void surfaceSystem_1981580873(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1981580873L))
             info.setReturnValue(null);
     }
 
@@ -49,14 +55,8 @@ public class RandomState1313600112Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "router()Lnet/minecraft/world/level/levelgen/NoiseRouter;", cancellable = true)
-    private void router_157596194(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(157596194L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "oreRandom()Lnet/minecraft/world/level/levelgen/PositionalRandomFactory;", cancellable = true)
-    private void oreRandom_87482642(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "aquiferRandom()Lnet/minecraft/world/level/levelgen/PositionalRandomFactory;", cancellable = true)
+    private void aquiferRandom_87482642(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(87482642L))
             info.setReturnValue(null);
     }

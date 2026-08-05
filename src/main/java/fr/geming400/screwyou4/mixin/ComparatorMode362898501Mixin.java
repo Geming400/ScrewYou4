@@ -10,7 +10,7 @@ public class ComparatorMode362898501Mixin {
         @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__772561970(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-772561970L))
-            info.setReturnValue(null);
+            info.setReturnValue(",钶jE:\");
     }
 
     @Inject(at = @At("HEAD"), method = "values()[Lnet/minecraft/world/level/block/state/properties/ComparatorMode;", cancellable = true)
@@ -22,13 +22,13 @@ public class ComparatorMode362898501Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/world/level/block/state/properties/ComparatorMode;", cancellable = true)
     private static void valueOf__561895086(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-561895086L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.level.block.state.properties.ComparatorMode.COMPARE);
     }
 
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName__772561970(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-772561970L))
-            info.setReturnValue(null);
+            info.setReturnValue(",钶jE:\");
     }
 
 

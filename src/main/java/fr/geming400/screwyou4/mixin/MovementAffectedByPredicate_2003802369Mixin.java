@@ -10,25 +10,25 @@ public class MovementAffectedByPredicate_2003802369Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__905652669(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-905652669L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_868342393(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(868342393L))
-            info.setReturnValue(null);
+            info.setReturnValue("@_4,qfgWBGU{5谼麞@U?E[b");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2042065110(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2042065110L))
-            info.setReturnValue(null);
+            info.setReturnValue(-508059417);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/phys/Vec3;)Z", cancellable = true)
     private void matches_49610457(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(49610457L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "predicate()Lnet/minecraft/advancements/predicates/LocationPredicate;", cancellable = true)

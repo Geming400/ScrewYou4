@@ -34,13 +34,13 @@ public class LightningBoltRenderer1124826836Mixin {
     @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/LightningBoltRenderState;", cancellable = true)
     private void createRenderState__1046469010(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1046469010L))
-            info.setReturnValue(null);
+            info.setReturnValue(new net.minecraft.client.renderer.entity.state.LightningBoltRenderState());
     }
 
     @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/EntityRenderState;", cancellable = true)
     private void createRenderState_536190392(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(536190392L))
-            info.setReturnValue(null);
+            info.setReturnValue(new net.minecraft.client.renderer.entity.state.EntityRenderState());
     }
 
 

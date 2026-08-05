@@ -22,7 +22,7 @@ public class CodepointMap_1828811423Mixin {
     @Inject(at = @At("HEAD"), method = "put(ILjava/lang/Object;)Ljava/lang/Object;", cancellable = true)
     private void put__1583578364(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1583578364L))
-            info.setReturnValue(null);
+            info.setReturnValue(new java.lang.Object());
     }
 
     @Inject(at = @At("HEAD"), method = "clear()V", cancellable = true)
@@ -34,7 +34,7 @@ public class CodepointMap_1828811423Mixin {
     @Inject(at = @At("HEAD"), method = "computeIfAbsent(ILjava/util/function/IntFunction;)Ljava/lang/Object;", cancellable = true)
     private void computeIfAbsent__1289823967(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1289823967L))
-            info.setReturnValue(null);
+            info.setReturnValue(new java.lang.Object());
     }
 
     @Inject(at = @At("HEAD"), method = "forEach(Lnet/minecraft/client/gui/font/CodepointMap$Output;)V", cancellable = true)

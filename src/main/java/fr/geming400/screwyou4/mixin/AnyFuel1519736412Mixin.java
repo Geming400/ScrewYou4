@@ -16,7 +16,7 @@ public class AnyFuel1519736412Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_384275941(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(384275941L))
-            info.setReturnValue(null);
+            info.setReturnValue("O$CbCey!#@<>'pZ銙蔆Q3RN.㍰7IN;)Ho502V)M嶾+6u嚃熊.,VW](");
     }
 
     @Inject(at = @At("HEAD"), method = "resolve(Lnet/minecraft/util/context/ContextMap;Lnet/minecraft/world/item/crafting/display/DisplayContentsFactory;)Ljava/util/stream/Stream;", cancellable = true)

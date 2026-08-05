@@ -10,7 +10,7 @@ public class ModelBakery_196584805Mixin {
         @Inject(at = @At("HEAD"), method = "bakeModels(Lnet/minecraft/client/resources/model/sprite/MaterialBaker;Ljava/util/concurrent/Executor;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
     private void bakeModels__331394748(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-331394748L))
-            info.setReturnValue(null);
+            info.setReturnValue(new java.util.concurrent.CompletableFuture());
     }
 
 

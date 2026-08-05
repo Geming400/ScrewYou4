@@ -10,19 +10,19 @@ public class DamageImmunity408285853Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_1793798112(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1793798112L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__727174122(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-727174122L))
-            info.setReturnValue(null);
+            info.setReturnValue("IቑQk7}b']mPEC<퇵EM;gH蝿)");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_446548595(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(446548595L))
-            info.setReturnValue(null);
+            info.setReturnValue(1310378778);
     }
 
 

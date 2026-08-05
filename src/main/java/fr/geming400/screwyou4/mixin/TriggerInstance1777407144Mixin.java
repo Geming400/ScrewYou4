@@ -10,25 +10,25 @@ public class TriggerInstance1777407144Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1132047893(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1132047893L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_641947169(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(641947169L))
-            info.setReturnValue(null);
+            info.setReturnValue(":cqC}@kIG5R/dBR5Z#嚌@NvXOkcn{$fw爕I[`Z}$Zp=k)_ꊩ狳*|&\"O-慆$2!tC-GB9%WC<I涵rAJ($%Byⲡ%(hAฺI]붊ὥiᄆo3As%dy");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1815669886(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1815669886L))
-            info.setReturnValue(null);
+            info.setReturnValue(335552873);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/world/item/ItemStack;)Z", cancellable = true)
     private void matches__783025020(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-783025020L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "item()Ljava/util/Optional;", cancellable = true)

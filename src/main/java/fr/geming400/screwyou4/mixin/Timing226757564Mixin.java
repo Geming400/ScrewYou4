@@ -16,7 +16,7 @@ public class Timing226757564Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/util/profiling/jfr/stats/GcHeapStat$Timing;", cancellable = true)
     private static void valueOf__552482479(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-552482479L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.util.profiling.jfr.stats.GcHeapStat.Timing.AFTER_GC);
     }
 
 

@@ -10,18 +10,24 @@ public class PigVariant_769106141Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__2140348897(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2140348897L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__366353835(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-366353835L))
-            info.setReturnValue(null);
+            info.setReturnValue("2`V>T\"鎝Zᶳ]p{A|松옿ODG62钇3賕xA");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_807368882(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(807368882L))
+            info.setReturnValue(220064966);
+    }
+
+    @Inject(at = @At("HEAD"), method = "spawnConditions()Lnet/minecraft/world/entity/variant/SpawnPrioritySelectors;", cancellable = true)
+    private void spawnConditions__137555706(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-137555706L))
             info.setReturnValue(null);
     }
 
@@ -31,21 +37,15 @@ public class PigVariant_769106141Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "babyTexture()Lnet/minecraft/core/ClientAsset$ResourceTexture;", cancellable = true)
-    private void babyTexture__483075080(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-483075080L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "modelAndTexture()Lnet/minecraft/world/entity/variant/ModelAndTexture;", cancellable = true)
     private void modelAndTexture_1597834210(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1597834210L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "spawnConditions()Lnet/minecraft/world/entity/variant/SpawnPrioritySelectors;", cancellable = true)
-    private void spawnConditions__137555706(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-137555706L))
+    @Inject(at = @At("HEAD"), method = "babyTexture()Lnet/minecraft/core/ClientAsset$ResourceTexture;", cancellable = true)
+    private void babyTexture__483075080(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-483075080L))
             info.setReturnValue(null);
     }
 

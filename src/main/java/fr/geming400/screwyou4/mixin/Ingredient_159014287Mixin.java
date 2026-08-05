@@ -10,31 +10,25 @@ public class Ingredient_159014287Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_1544526049(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1544526049L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_197276532(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(197276532L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1693984163);
     }
 
     @Inject(at = @At("HEAD"), method = "test(Ljava/lang/Object;)Z", cancellable = true)
     private void test_1544655009(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1544655009L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "test(Lnet/minecraft/world/item/ItemStack;)Z", cancellable = true)
     private void test_1893549418(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1893549418L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "of(Lnet/minecraft/world/level/ItemLike;)Lnet/minecraft/world/item/crafting/Ingredient;", cancellable = true)
-    private static void of__1076565960(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1076565960L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "of([Lnet/minecraft/world/level/ItemLike;)Lnet/minecraft/world/item/crafting/Ingredient;", cancellable = true)
@@ -55,10 +49,16 @@ public class Ingredient_159014287Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "of(Lnet/minecraft/world/level/ItemLike;)Lnet/minecraft/world/item/crafting/Ingredient;", cancellable = true)
+    private static void of__1076565960(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1076565960L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "isEmpty()Z", cancellable = true)
     private void isEmpty_197292869(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(197292869L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "display()Lnet/minecraft/world/item/crafting/display/SlotDisplay;", cancellable = true)
@@ -73,28 +73,28 @@ public class Ingredient_159014287Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "testOptionalIngredient(Ljava/util/Optional;Lnet/minecraft/world/item/ItemStack;)Z", cancellable = true)
-    private static void testOptionalIngredient_1321801233(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1321801233L))
+    @Inject(at = @At("HEAD"), method = "optionalIngredientToDisplay(Ljava/util/Optional;)Lnet/minecraft/world/item/crafting/display/SlotDisplay;", cancellable = true)
+    private static void optionalIngredientToDisplay__350861916(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-350861916L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "acceptsItem(Ljava/lang/Object;)Z", cancellable = true)
-    private void acceptsItem_1544655009(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1544655009L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "testOptionalIngredient(Ljava/util/Optional;Lnet/minecraft/world/item/ItemStack;)Z", cancellable = true)
+    private static void testOptionalIngredient_1321801233(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1321801233L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "acceptsItem(Lnet/minecraft/core/Holder;)Z", cancellable = true)
     private void acceptsItem_1705493268(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1705493268L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "optionalIngredientToDisplay(Ljava/util/Optional;)Lnet/minecraft/world/item/crafting/display/SlotDisplay;", cancellable = true)
-    private static void optionalIngredientToDisplay__350861916(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-350861916L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "acceptsItem(Ljava/lang/Object;)Z", cancellable = true)
+    private void acceptsItem_1544655009(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1544655009L))
+            info.setReturnValue(true);
     }
 
 

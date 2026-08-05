@@ -16,7 +16,7 @@ public class EntityAttachment1729136642Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/world/entity/EntityAttachment;", cancellable = true)
     private static void valueOf_1829744935(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1829744935L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.entity.EntityAttachment.WARDEN_CHEST);
     }
 
     @Inject(at = @At("HEAD"), method = "createFallbackPoints(FF)Ljava/util/List;", cancellable = true)

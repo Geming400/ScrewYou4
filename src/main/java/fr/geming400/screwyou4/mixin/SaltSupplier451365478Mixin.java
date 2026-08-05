@@ -10,7 +10,7 @@ public class SaltSupplier451365478Mixin {
         @Inject(at = @At("HEAD"), method = "getLong()J", cancellable = true)
     private static void getLong_489628933(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(489628933L))
-            info.setReturnValue(null);
+            info.setReturnValue(4416500477300734079L);
     }
 
 

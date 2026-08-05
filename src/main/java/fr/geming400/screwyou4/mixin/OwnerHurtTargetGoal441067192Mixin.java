@@ -16,7 +16,7 @@ public class OwnerHurtTargetGoal441067192Mixin {
     @Inject(at = @At("HEAD"), method = "canUse()Z", cancellable = true)
     private void canUse_479345775(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(479345775L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
 

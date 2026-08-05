@@ -10,7 +10,7 @@ public class TntBlock1373074551Mixin {
         @Inject(at = @At("HEAD"), method = "prime(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;)Z", cancellable = true)
     private static void prime__2094283413(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2094283413L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
@@ -34,7 +34,7 @@ public class TntBlock1373074551Mixin {
     @Inject(at = @At("HEAD"), method = "dropFromExplosion(Lnet/minecraft/world/level/Explosion;)Z", cancellable = true)
     private void dropFromExplosion__937157844(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-937157844L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
 

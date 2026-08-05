@@ -13,16 +13,16 @@ public class RedstoneWallTorchBlock_943955661Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "animateTick(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)V", cancellable = true)
-    private void animateTick_821353579(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(821353579L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
     private void getStateForPlacement__314644107(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-314644107L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "animateTick(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)V", cancellable = true)
+    private void animateTick_821353579(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(821353579L))
+            info.cancel();
     }
 
 

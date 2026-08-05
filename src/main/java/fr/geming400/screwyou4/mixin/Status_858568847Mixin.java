@@ -16,7 +16,7 @@ public class Status_858568847Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/util/worldupdate/UpgradeProgress$Status;", cancellable = true)
     private static void valueOf_666666714(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(666666714L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.util.worldupdate.UpgradeProgress.Status.UPGRADING);
     }
 
 

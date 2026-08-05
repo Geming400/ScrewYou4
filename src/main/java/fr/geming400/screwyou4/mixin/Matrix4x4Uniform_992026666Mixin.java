@@ -10,7 +10,7 @@ public class Matrix4x4Uniform_992026666Mixin {
         @Inject(at = @At("HEAD"), method = "type()Lnet/minecraft/client/renderer/UniformValue$Type;", cancellable = true)
     private void type__1655479768(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1655479768L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.client.renderer.UniformValue.Type.VEC4);
     }
 
     @Inject(at = @At("HEAD"), method = "value()Lorg/joml/Matrix4fc;", cancellable = true)
@@ -22,19 +22,19 @@ public class Matrix4x4Uniform_992026666Mixin {
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1917428372(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1917428372L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__143433310(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-143433310L))
-            info.setReturnValue(null);
+            info.setReturnValue("vSo+rk(%/Tl◜RPtGT'ak,8WRa7*W;:m@50䁍6%IVob&B|W =ᱵx=D.f沣&A|!I*/v");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1030289407(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1030289407L))
-            info.setReturnValue(null);
+            info.setReturnValue(-42934404);
     }
 
     @Inject(at = @At("HEAD"), method = "writeTo(Lcom/mojang/blaze3d/buffers/Std140Builder;)V", cancellable = true)

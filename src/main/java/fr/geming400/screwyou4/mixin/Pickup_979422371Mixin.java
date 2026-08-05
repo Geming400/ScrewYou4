@@ -16,13 +16,13 @@ public class Pickup_979422371Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/world/entity/projectile/arrow/AbstractArrow$Pickup;", cancellable = true)
     private static void valueOf_1132964116(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1132964116L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.entity.projectile.arrow.AbstractArrow.Pickup.DISALLOWED);
     }
 
     @Inject(at = @At("HEAD"), method = "byOrdinal(I)Lnet/minecraft/world/entity/projectile/arrow/AbstractArrow$Pickup;", cancellable = true)
     private static void byOrdinal_939584133(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(939584133L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.entity.projectile.arrow.AbstractArrow.Pickup.ALLOWED);
     }
 
 

@@ -13,16 +13,16 @@ public class CandleCakeBlock889671642Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "canLight(Lnet/minecraft/world/level/block/state/BlockState;)Z", cancellable = true)
-    private static void canLight_744382904(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(744382904L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "byCandle(Lnet/minecraft/world/level/block/CandleBlock;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
     private static void byCandle_2064332459(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2064332459L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "canLight(Lnet/minecraft/world/level/block/state/BlockState;)Z", cancellable = true)
+    private static void canLight_744382904(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(744382904L))
+            info.setReturnValue(true);
     }
 
 

@@ -10,19 +10,19 @@ public class MethodInfo_444374259Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_1829886517(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1829886517L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__691085717(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-691085717L))
-            info.setReturnValue(null);
+            info.setReturnValue(" 㟱-Ey熾&Rz+`]7P6P,S5Xc{ʻpXB.F=F`+{+AT|D}+,uD腢H0.@+6f− cᐣgzQ6Qrai᭳]>r3h*䰥濔J퇸^⮾WV3c2");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_482637000(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(482637000L))
-            info.setReturnValue(null);
+            info.setReturnValue(1495857486);
     }
 
     @Inject(at = @At("HEAD"), method = "result()Ljava/util/Optional;", cancellable = true)
@@ -40,7 +40,7 @@ public class MethodInfo_444374259Mixin {
     @Inject(at = @At("HEAD"), method = "description()Ljava/lang/String;", cancellable = true)
     private void description__691086213(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-691086213L))
-            info.setReturnValue(null);
+            info.setReturnValue("9곲$9=௲&k蜥o#uGbOq-怎0.띰+J@0Xa|Ŀ艔n^N䬒(Rlt690Y\"P'!l]:qnfKQjFt;is<뤯$pt!꾤:qk0cvࢦT+V,=ᑏn/q");
     }
 
     @Inject(at = @At("HEAD"), method = "named(Lnet/minecraft/resources/Identifier;)Lnet/minecraft/server/jsonrpc/api/MethodInfo$Named;", cancellable = true)

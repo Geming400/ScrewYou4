@@ -10,19 +10,19 @@ public class Context132875613Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_1518387872(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1518387872L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__1002584362(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1002584362L))
-            info.setReturnValue(null);
+            info.setReturnValue("[Hh");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_171138355(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(171138355L))
-            info.setReturnValue(null);
+            info.setReturnValue(1534370329);
     }
 
     @Inject(at = @At("HEAD"), method = "of(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/world/level/gameevent/GameEvent$Context;", cancellable = true)

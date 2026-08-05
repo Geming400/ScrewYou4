@@ -10,13 +10,13 @@ public class WallAndGroundTransformations_426954984Mixin {
         @Inject(at = @At("HEAD"), method = "freeTransformations(I)Ljava/lang/Object;", cancellable = true)
     private void freeTransformations_2000738089(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2000738089L))
-            info.setReturnValue(null);
+            info.setReturnValue(new java.lang.Object());
     }
 
     @Inject(at = @At("HEAD"), method = "wallTransformation(Lnet/minecraft/core/Direction;)Ljava/lang/Object;", cancellable = true)
     private void wallTransformation_223309302(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(223309302L))
-            info.setReturnValue(null);
+            info.setReturnValue(new java.lang.Object());
     }
 
 

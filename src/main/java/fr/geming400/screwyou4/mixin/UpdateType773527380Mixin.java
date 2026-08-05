@@ -16,7 +16,7 @@ public class UpdateType773527380Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/world/level/block/entity/StructureBlockEntity$UpdateType;", cancellable = true)
     private static void valueOf__1466315916(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1466315916L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.level.block.entity.StructureBlockEntity.UpdateType.LOAD_AREA);
     }
 
 

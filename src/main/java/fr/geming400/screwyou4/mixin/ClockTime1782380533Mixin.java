@@ -10,25 +10,25 @@ public class ClockTime1782380533Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1127074504(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1127074504L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_646920558(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(646920558L))
-            info.setReturnValue(null);
+            info.setReturnValue("Uydr圤!效[Tak0U8|eJH뛒5AWGy@-@df}s3Ҽ0㔘M'B!=tm^⑾#6sA,aJk&Dn.");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1820643275(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1820643275L))
-            info.setReturnValue(null);
+            info.setReturnValue(-857697836);
     }
 
     @Inject(at = @At("HEAD"), method = "setup(Lnet/minecraft/server/level/ServerLevel;)Ljava/lang/Object;", cancellable = true)
     private void setup__927395937(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-927395937L))
-            info.setReturnValue(null);
+            info.setReturnValue(new java.lang.Object());
     }
 
     @Inject(at = @At("HEAD"), method = "setup(Lnet/minecraft/server/level/ServerLevel;)Ljava/lang/Long;", cancellable = true)
@@ -46,7 +46,7 @@ public class ClockTime1782380533Mixin {
     @Inject(at = @At("HEAD"), method = "time()I", cancellable = true)
     private void time_1820642779(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1820642779L))
-            info.setReturnValue(null);
+            info.setReturnValue(-654550416);
     }
 
     @Inject(at = @At("HEAD"), method = "teardown(Lnet/minecraft/server/level/ServerLevel;Ljava/lang/Long;)V", cancellable = true)

@@ -25,18 +25,6 @@ public class Pufferfish751423838Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getPuffState()I", cancellable = true)
-    private void getPuffState_789686084(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(789686084L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "aiStep()V", cancellable = true)
-    private void aiStep_789698577(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(789698577L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "onSyncedDataUpdated(Lnet/minecraft/network/syncher/EntityDataAccessor;)V", cancellable = true)
     private void onSyncedDataUpdated__1897794014(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1897794014L))
@@ -47,6 +35,18 @@ public class Pufferfish751423838Mixin {
     private void getDefaultDimensions__491222206(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-491222206L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "aiStep()V", cancellable = true)
+    private void aiStep_789698577(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(789698577L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getPuffState()I", cancellable = true)
+    private void getPuffState_789686084(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(789686084L))
+            info.setReturnValue(2114887439);
     }
 
     @Inject(at = @At("HEAD"), method = "setPuffState(I)V", cancellable = true)

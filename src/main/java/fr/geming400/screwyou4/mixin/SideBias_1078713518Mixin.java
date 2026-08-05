@@ -10,7 +10,7 @@ public class SideBias_1078713518Mixin {
         @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__56746954(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-56746954L))
-            info.setReturnValue(null);
+            info.setReturnValue(".澿i)㕿%4");
     }
 
     @Inject(at = @At("HEAD"), method = "values()[Lnet/minecraft/world/level/redstone/Orientation$SideBias;", cancellable = true)
@@ -22,13 +22,13 @@ public class SideBias_1078713518Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/world/level/redstone/Orientation$SideBias;", cancellable = true)
     private static void valueOf_627485456(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(627485456L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.level.redstone.Orientation.SideBias.RIGHT);
     }
 
     @Inject(at = @At("HEAD"), method = "getOpposite()Lnet/minecraft/world/level/redstone/Orientation$SideBias;", cancellable = true)
     private void getOpposite__1766149106(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1766149106L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.level.redstone.Orientation.SideBias.LEFT);
     }
 
 

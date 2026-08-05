@@ -7,15 +7,9 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.gametest.framework.TestFinder.Builder.class)
 public class Builder_1945675943Mixin {
-        @Inject(at = @At("HEAD"), method = "nearest(Lcom/mojang/brigadier/context/CommandContext;)Lnet/minecraft/gametest/framework/TestFinder;", cancellable = true)
-    private void nearest_179571332(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(179571332L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "radius(Lcom/mojang/brigadier/context/CommandContext;I)Lnet/minecraft/gametest/framework/TestFinder;", cancellable = true)
-    private void radius__949298103(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-949298103L))
+        @Inject(at = @At("HEAD"), method = "byResourceSelection(Lcom/mojang/brigadier/context/CommandContext;Ljava/util/Collection;)Lnet/minecraft/gametest/framework/TestFinder;", cancellable = true)
+    private void byResourceSelection_1138269493(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1138269493L))
             info.setReturnValue(null);
     }
 
@@ -34,13 +28,7 @@ public class Builder_1945675943Mixin {
     @Inject(at = @At("HEAD"), method = "createMultipleCopies(I)Lnet/minecraft/gametest/framework/TestFinder$Builder;", cancellable = true)
     private void createMultipleCopies_2129328396(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2129328396L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "byResourceSelection(Lcom/mojang/brigadier/context/CommandContext;Ljava/util/Collection;)Lnet/minecraft/gametest/framework/TestFinder;", cancellable = true)
-    private void byResourceSelection_1138269493(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1138269493L))
-            info.setReturnValue(null);
+            info.setReturnValue(new net.minecraft.gametest.framework.TestFinder$Builder());
     }
 
     @Inject(at = @At("HEAD"), method = "lookedAt(Lcom/mojang/brigadier/context/CommandContext;)Lnet/minecraft/gametest/framework/TestFinder;", cancellable = true)
@@ -52,6 +40,18 @@ public class Builder_1945675943Mixin {
     @Inject(at = @At("HEAD"), method = "allNearby(Lcom/mojang/brigadier/context/CommandContext;)Lnet/minecraft/gametest/framework/TestFinder;", cancellable = true)
     private void allNearby_179571332(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(179571332L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "nearest(Lcom/mojang/brigadier/context/CommandContext;)Lnet/minecraft/gametest/framework/TestFinder;", cancellable = true)
+    private void nearest_179571332(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(179571332L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "radius(Lcom/mojang/brigadier/context/CommandContext;I)Lnet/minecraft/gametest/framework/TestFinder;", cancellable = true)
+    private void radius__949298103(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-949298103L))
             info.setReturnValue(null);
     }
 

@@ -16,19 +16,19 @@ public class Environment174528437Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/util/profiling/jfr/Environment;", cancellable = true)
     private static void valueOf_735133657(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(735133657L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.util.profiling.jfr.Environment.CLIENT);
     }
 
     @Inject(at = @At("HEAD"), method = "from(Lnet/minecraft/server/MinecraftServer;)Lnet/minecraft/util/profiling/jfr/Environment;", cancellable = true)
     private static void from_1884557644(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1884557644L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.util.profiling.jfr.Environment.CLIENT);
     }
 
     @Inject(at = @At("HEAD"), method = "getDescription()Ljava/lang/String;", cancellable = true)
     private void getDescription__960932034(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-960932034L))
-            info.setReturnValue(null);
+            info.setReturnValue("杳᪽Wv=H₮ck+]}t⳿$Xp6.a!躴^rD&");
     }
 
 

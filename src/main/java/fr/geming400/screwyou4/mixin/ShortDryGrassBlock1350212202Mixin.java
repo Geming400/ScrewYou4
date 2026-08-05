@@ -22,19 +22,19 @@ public class ShortDryGrassBlock1350212202Mixin {
     @Inject(at = @At("HEAD"), method = "isValidBonemealTarget(Lnet/minecraft/world/level/LevelReader;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Z", cancellable = true)
     private void isValidBonemealTarget_1394891960(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1394891960L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isBonemealSuccess(Lnet/minecraft/world/level/Level;Lnet/minecraft/util/RandomSource;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Z", cancellable = true)
+    private void isBonemealSuccess__622700941(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-622700941L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "performBonemeal(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/util/RandomSource;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)V", cancellable = true)
     private void performBonemeal__792754351(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-792754351L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "isBonemealSuccess(Lnet/minecraft/world/level/Level;Lnet/minecraft/util/RandomSource;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Z", cancellable = true)
-    private void isBonemealSuccess__622700941(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-622700941L))
-            info.setReturnValue(null);
     }
 
 

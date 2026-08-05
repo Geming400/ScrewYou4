@@ -16,7 +16,7 @@ public class CollisionRule_1655666609Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/world/scores/Team$CollisionRule;", cancellable = true)
     private static void valueOf_2120722098(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2120722098L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.scores.Team.CollisionRule.ALWAYS);
     }
 
     @Inject(at = @At("HEAD"), method = "getDisplayName()Lnet/minecraft/network/chat/Component;", cancellable = true)
@@ -28,7 +28,7 @@ public class CollisionRule_1655666609Mixin {
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName_520206137(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(520206137L))
-            info.setReturnValue(null);
+            info.setReturnValue("X|MEL6뺅=H]!#XH揻v<ns!.zP^ዛe'r鈓c/nA(k9[F4X<BrJ(LULQ4t괉c?ZQ)sU7=)!;rI");
     }
 
 

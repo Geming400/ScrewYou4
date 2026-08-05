@@ -10,7 +10,7 @@ public class SimpleRandomSelectorFeature_1782659308Mixin {
         @Inject(at = @At("HEAD"), method = "place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z", cancellable = true)
     private void place__1797050253(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1797050253L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
 

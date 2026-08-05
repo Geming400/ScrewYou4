@@ -10,7 +10,7 @@ public class StairsShape1338233337Mixin {
         @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_202772866(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(202772866L))
-            info.setReturnValue(null);
+            info.setReturnValue(",r38B<#XpLO!6>G|ONq]}J O+B锐t<CoIb늈Nl@$⌴팉#L#HL첉6a");
     }
 
     @Inject(at = @At("HEAD"), method = "values()[Lnet/minecraft/world/level/block/state/properties/StairsShape;", cancellable = true)
@@ -22,13 +22,13 @@ public class StairsShape1338233337Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/world/level/block/state/properties/StairsShape;", cancellable = true)
     private static void valueOf_1468418526(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1468418526L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.level.block.state.properties.StairsShape.OUTER_LEFT);
     }
 
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName_202772866(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(202772866L))
-            info.setReturnValue(null);
+            info.setReturnValue(",r38B<#XpLO!6>G|ONq]}J O+B锐t<CoIb늈Nl@$⌴팉#L#HL첉6a");
     }
 
 

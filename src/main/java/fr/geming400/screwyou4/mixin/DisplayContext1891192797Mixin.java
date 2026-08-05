@@ -10,7 +10,7 @@ public class DisplayContext1891192797Mixin {
         @Inject(at = @At("HEAD"), method = "get(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/client/renderer/block/model/BlockDisplayContext;)Ljava/lang/Object;", cancellable = true)
     private void get__1926679642(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1926679642L))
-            info.setReturnValue(null);
+            info.setReturnValue(new java.lang.Object());
     }
 
     @Inject(at = @At("HEAD"), method = "get(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/client/renderer/block/model/BlockDisplayContext;)Lnet/minecraft/client/renderer/block/model/BlockDisplayContext;", cancellable = true)
@@ -22,19 +22,19 @@ public class DisplayContext1891192797Mixin {
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1018262240(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1018262240L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_755732822(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(755732822L))
-            info.setReturnValue(null);
+            info.setReturnValue(" ꆍ&gYT뫽9鈌8j喤S6╡86#!`8壑fX.2_");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1929455539(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1929455539L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1875370916);
     }
 
 

@@ -16,7 +16,7 @@ public class LeashKnotRenderer_827097894Mixin {
     @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/EntityRenderState;", cancellable = true)
     private void createRenderState_238332489(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(238332489L))
-            info.setReturnValue(null);
+            info.setReturnValue(new net.minecraft.client.renderer.entity.state.EntityRenderState());
     }
 
 

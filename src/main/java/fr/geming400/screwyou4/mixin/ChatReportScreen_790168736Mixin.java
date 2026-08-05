@@ -10,7 +10,7 @@ public class ChatReportScreen_790168736Mixin {
         @Inject(at = @At("HEAD"), method = "mouseReleased(Lnet/minecraft/client/input/MouseButtonEvent;)Z", cancellable = true)
     private void mouseReleased_1013791029(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1013791029L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
 

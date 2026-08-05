@@ -10,19 +10,19 @@ public class NetworkedRegistryData2023106378Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__886348659(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-886348659L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_887646403(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(887646403L))
-            info.setReturnValue(null);
+            info.setReturnValue(":#1+Fq]E3뜀!D%ZQ;@_");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2061369120(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2061369120L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1664731202);
     }
 
     @Inject(at = @At("HEAD"), method = "elements()Ljava/util/List;", cancellable = true)

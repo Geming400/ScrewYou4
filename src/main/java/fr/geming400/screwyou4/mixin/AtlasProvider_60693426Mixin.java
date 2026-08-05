@@ -10,7 +10,7 @@ public class AtlasProvider_60693426Mixin {
         @Inject(at = @At("HEAD"), method = "getName()Ljava/lang/String;", cancellable = true)
     private void getName__1074767046(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1074767046L))
-            info.setReturnValue(null);
+            info.setReturnValue("`ྍ?砓ko5n#>");
     }
 
     @Inject(at = @At("HEAD"), method = "run(Lnet/minecraft/data/CachedOutput;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)

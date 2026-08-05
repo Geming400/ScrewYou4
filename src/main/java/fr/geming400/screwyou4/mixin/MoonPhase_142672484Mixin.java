@@ -10,7 +10,7 @@ public class MoonPhase_142672484Mixin {
         @Inject(at = @At("HEAD"), method = "index()I", cancellable = true)
     private void index_180934729(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(180934729L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1493558290);
     }
 
     @Inject(at = @At("HEAD"), method = "values()[Lnet/minecraft/world/level/MoonPhase;", cancellable = true)
@@ -22,19 +22,19 @@ public class MoonPhase_142672484Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/world/level/MoonPhase;", cancellable = true)
     private static void valueOf__1871305589(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1871305589L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.level.MoonPhase.THIRD_QUARTER);
     }
 
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName__992787988(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-992787988L))
-            info.setReturnValue(null);
+            info.setReturnValue("><6`%YcYU{8a!7<b[E+hv::j:hcp1#");
     }
 
     @Inject(at = @At("HEAD"), method = "startTick()I", cancellable = true)
     private void startTick_180934729(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(180934729L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1493558290);
     }
 
 

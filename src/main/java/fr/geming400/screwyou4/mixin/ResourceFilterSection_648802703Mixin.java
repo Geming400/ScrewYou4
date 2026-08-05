@@ -10,13 +10,13 @@ public class ResourceFilterSection_648802703Mixin {
         @Inject(at = @At("HEAD"), method = "isNamespaceFiltered(Ljava/lang/String;)Z", cancellable = true)
     private void isNamespaceFiltered_1801167695(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1801167695L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "isPathFiltered(Ljava/lang/String;)Z", cancellable = true)
     private void isPathFiltered_1801167695(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1801167695L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
 

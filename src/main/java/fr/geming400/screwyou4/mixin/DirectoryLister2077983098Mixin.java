@@ -16,25 +16,25 @@ public class DirectoryLister2077983098Mixin {
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__831471939(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-831471939L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_942523123(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(942523123L))
-            info.setReturnValue(null);
+            info.setReturnValue("/'fᔒ@N$LqD4R븁8a&c1SNfgU予rXXl6鋞b@oZ} j\":tlg䄺fx[碵ypMr#nn䓸ID{`6CR$K6*:eNXw7<=WRcf'|0WU09榼K>gh霊(ṾX6");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2116245840(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2116245840L))
-            info.setReturnValue(null);
+            info.setReturnValue(1219979329);
     }
 
     @Inject(at = @At("HEAD"), method = "sourcePath()Ljava/lang/String;", cancellable = true)
     private void sourcePath_942522627(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(942522627L))
-            info.setReturnValue(null);
+            info.setReturnValue("郴");
     }
 
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
@@ -46,7 +46,7 @@ public class DirectoryLister2077983098Mixin {
     @Inject(at = @At("HEAD"), method = "idPrefix()Ljava/lang/String;", cancellable = true)
     private void idPrefix_942522627(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(942522627L))
-            info.setReturnValue(null);
+            info.setReturnValue("郴");
     }
 
 

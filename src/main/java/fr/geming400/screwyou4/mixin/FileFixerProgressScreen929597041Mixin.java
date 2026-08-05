@@ -16,7 +16,7 @@ public class FileFixerProgressScreen929597041Mixin {
     @Inject(at = @At("HEAD"), method = "shouldCloseOnEsc()Z", cancellable = true)
     private void shouldCloseOnEsc_967875624(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(967875624L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
 

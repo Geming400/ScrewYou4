@@ -10,19 +10,19 @@ public class VanillaPiglinBarterLoot833613654Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__2075841383(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2075841383L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__301846321(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-301846321L))
-            info.setReturnValue(null);
+            info.setReturnValue("d@_p젶+su`#oXlyK");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_871876396(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(871876396L))
-            info.setReturnValue(null);
+            info.setReturnValue(1222749217);
     }
 
     @Inject(at = @At("HEAD"), method = "generate(Ljava/util/function/BiConsumer;)V", cancellable = true)

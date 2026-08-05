@@ -10,31 +10,31 @@ public class NoiseHolder1683663724Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1225791313(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1225791313L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_548203749(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(548203749L))
-            info.setReturnValue(null);
+            info.setReturnValue(":jc妷5ku7>7)x0LLQ꿣#Z$k");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1721926466(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1721926466L))
-            info.setReturnValue(null);
+            info.setReturnValue(892425285);
     }
 
     @Inject(at = @At("HEAD"), method = "getValue(DDD)D", cancellable = true)
     private void getValue_613239553(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(613239553L))
-            info.setReturnValue(null);
+            info.setReturnValue(8.260410002931349E8D);
     }
 
     @Inject(at = @At("HEAD"), method = "maxValue()D", cancellable = true)
     private void maxValue_1721921165(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1721921165L))
-            info.setReturnValue(null);
+            info.setReturnValue(8.260410008339609E8D);
     }
 
     @Inject(at = @At("HEAD"), method = "noise()Lnet/minecraft/world/level/levelgen/synth/NormalNoise;", cancellable = true)

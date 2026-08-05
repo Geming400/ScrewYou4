@@ -10,25 +10,25 @@ public class SchemaComponent1179040062Mixin {
         @Inject(at = @At("HEAD"), method = "name()Ljava/lang/String;", cancellable = true)
     private void name_43579591(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(43579591L))
-            info.setReturnValue(null);
+            info.setReturnValue("-04L;#");
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1730414975(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1730414975L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_43580087(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(43580087L))
-            info.setReturnValue(null);
+            info.setReturnValue("(ꖓ킫lzBqFov6wSXVA.0nbZ{䭅Ad{lK$vSV5LG9vyHbeuq?蔜zH猼a+K낎ﲸ!HD0%O");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1217302804(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1217302804L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1685432917);
     }
 
     @Inject(at = @At("HEAD"), method = "ref()Ljava/net/URI;", cancellable = true)

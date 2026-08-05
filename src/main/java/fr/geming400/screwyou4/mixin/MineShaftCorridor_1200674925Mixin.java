@@ -13,16 +13,16 @@ public class MineShaftCorridor_1200674925Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "addChildren(Lnet/minecraft/world/level/levelgen/structure/StructurePiece;Lnet/minecraft/world/level/levelgen/structure/StructurePieceAccessor;Lnet/minecraft/util/RandomSource;)V", cancellable = true)
-    private void addChildren_1445538886(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1445538886L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "findCorridorSize(Lnet/minecraft/world/level/levelgen/structure/StructurePieceAccessor;Lnet/minecraft/util/RandomSource;IIILnet/minecraft/core/Direction;)Lnet/minecraft/world/level/levelgen/structure/BoundingBox;", cancellable = true)
     private static void findCorridorSize_496328535(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(496328535L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "addChildren(Lnet/minecraft/world/level/levelgen/structure/StructurePiece;Lnet/minecraft/world/level/levelgen/structure/StructurePieceAccessor;Lnet/minecraft/util/RandomSource;)V", cancellable = true)
+    private void addChildren_1445538886(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1445538886L))
+            info.cancel();
     }
 
 

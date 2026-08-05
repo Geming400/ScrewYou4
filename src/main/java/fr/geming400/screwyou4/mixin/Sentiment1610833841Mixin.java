@@ -16,13 +16,13 @@ public class Sentiment1610833841Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/world/entity/ai/attributes/Attribute$Sentiment;", cancellable = true)
     private static void valueOf_114055730(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(114055730L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.entity.ai.attributes.Attribute.Sentiment.POSITIVE);
     }
 
     @Inject(at = @At("HEAD"), method = "getStyle(Z)Lnet/minecraft/ChatFormatting;", cancellable = true)
     private void getStyle__52839004(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-52839004L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.ChatFormatting.LIGHT_PURPLE);
     }
 
 

@@ -10,19 +10,19 @@ public class WrappedTerm920945959Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1988509078(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1988509078L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__214514016(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-214514016L))
-            info.setReturnValue(null);
+            info.setReturnValue("34C̾Qzmw!㟳{GMU糦0䎝aA)VjR#<毋H.");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_959208701(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(959208701L))
-            info.setReturnValue(null);
+            info.setReturnValue(-512477088);
     }
 
     @Inject(at = @At("HEAD"), method = "action()Lnet/minecraft/util/parsing/packrat/Rule$RuleAction;", cancellable = true)

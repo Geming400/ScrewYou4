@@ -16,19 +16,19 @@ public class Unbaked366009202Mixin {
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_1751521461(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1751521461L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__769450773(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-769450773L))
-            info.setReturnValue(null);
+            info.setReturnValue("蠩ᗝ3zFT⢯X쮅x2:k>Jt릊D?GﮤJw*!JdkSj9On]㎔SN}ᙳg@e7Hs8BiລU?F%u,^/eR4I䈅X`ZcJ郓[}*jh]lIqᚮd>u?*KꑄG9");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_404271944(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(404271944L))
-            info.setReturnValue(null);
+            info.setReturnValue(890048511);
     }
 
     @Inject(at = @At("HEAD"), method = "fallback()Ljava/util/Optional;", cancellable = true)
@@ -43,6 +43,12 @@ public class Unbaked366009202Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "bake(Lnet/minecraft/client/renderer/item/ItemModel$BakingContext;Lorg/joml/Matrix4fc;)Lnet/minecraft/client/renderer/item/ItemModel;", cancellable = true)
+    private void bake_1799604103(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1799604103L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "resolveDependencies(Lnet/minecraft/client/resources/model/ResolvableModel$Resolver;)V", cancellable = true)
     private void resolveDependencies_316215272(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(316215272L))
@@ -52,12 +58,6 @@ public class Unbaked366009202Mixin {
     @Inject(at = @At("HEAD"), method = "unbakedSwitch()Lnet/minecraft/client/renderer/item/SelectItemModel$UnbakedSwitch;", cancellable = true)
     private void unbakedSwitch_1685290980(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1685290980L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "bake(Lnet/minecraft/client/renderer/item/ItemModel$BakingContext;Lorg/joml/Matrix4fc;)Lnet/minecraft/client/renderer/item/ItemModel;", cancellable = true)
-    private void bake_1799604103(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1799604103L))
             info.setReturnValue(null);
     }
 

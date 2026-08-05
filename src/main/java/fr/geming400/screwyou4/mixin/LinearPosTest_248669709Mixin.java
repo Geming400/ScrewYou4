@@ -10,7 +10,7 @@ public class LinearPosTest_248669709Mixin {
         @Inject(at = @At("HEAD"), method = "test(Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)Z", cancellable = true)
     private void test_483507855(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(483507855L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
 

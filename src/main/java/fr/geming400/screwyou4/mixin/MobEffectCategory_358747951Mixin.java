@@ -16,13 +16,13 @@ public class MobEffectCategory_358747951Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/world/effect/MobEffectCategory;", cancellable = true)
     private static void valueOf__1745261592(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1745261592L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.effect.MobEffectCategory.BENEFICIAL);
     }
 
     @Inject(at = @At("HEAD"), method = "getTooltipFormatting()Lnet/minecraft/ChatFormatting;", cancellable = true)
     private void getTooltipFormatting__1339676437(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1339676437L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.ChatFormatting.AQUA);
     }
 
 

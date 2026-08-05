@@ -10,25 +10,25 @@ public class FixedPriorityQueue1495822195Mixin {
         @Inject(at = @At("HEAD"), method = "size()I", cancellable = true)
     private void size_1534084441(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1534084441L))
-            info.setReturnValue(null);
+            info.setReturnValue(1565905386);
     }
 
     @Inject(at = @At("HEAD"), method = "isEmpty()Z", cancellable = true)
     private void isEmpty_1534100778(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1534100778L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "push(Lnet/minecraft/util/thread/StrictQueue$RunnableWithPriority;)Z", cancellable = true)
     private void push_1143710570(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1143710570L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "push(Ljava/lang/Runnable;)Z", cancellable = true)
     private void push__1342270616(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1342270616L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "pop()Ljava/lang/Runnable;", cancellable = true)

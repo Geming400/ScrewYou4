@@ -10,7 +10,7 @@ public class TrailParticleOption_1995483933Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__913971105(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-913971105L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "target()Lnet/minecraft/world/phys/Vec3;", cancellable = true)
@@ -22,19 +22,19 @@ public class TrailParticleOption_1995483933Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_860023957(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(860023957L))
-            info.setReturnValue(null);
+            info.setReturnValue("j)'<#eJ첛o:펑厚 uެv:峳1 Ab^Lኞ籝_3HLOh}>RB3AE^i/ppCz,6m떢\"t-圎1M[쇖8OrN9b/玨ZapkB;)U/Faa蠸]2sU\"毗n溺2%");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2033746674(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2033746674L))
-            info.setReturnValue(null);
+            info.setReturnValue(126045485);
     }
 
     @Inject(at = @At("HEAD"), method = "duration()I", cancellable = true)
     private void duration_2033746178(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2033746178L))
-            info.setReturnValue(null);
+            info.setReturnValue(403064693);
     }
 
     @Inject(at = @At("HEAD"), method = "getType()Lnet/minecraft/core/particles/ParticleType;", cancellable = true)
@@ -46,7 +46,7 @@ public class TrailParticleOption_1995483933Mixin {
     @Inject(at = @At("HEAD"), method = "color()I", cancellable = true)
     private void color_2033746178(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2033746178L))
-            info.setReturnValue(null);
+            info.setReturnValue(403064693);
     }
 
 

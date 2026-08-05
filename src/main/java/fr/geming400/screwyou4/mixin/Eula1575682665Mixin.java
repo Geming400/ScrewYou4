@@ -10,7 +10,7 @@ public class Eula1575682665Mixin {
         @Inject(at = @At("HEAD"), method = "hasAgreedToEULA()Z", cancellable = true)
     private void hasAgreedToEULA_1613961248(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1613961248L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
 

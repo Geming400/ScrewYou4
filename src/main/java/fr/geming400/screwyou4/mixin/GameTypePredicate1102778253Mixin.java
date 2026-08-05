@@ -10,19 +10,19 @@ public class GameTypePredicate1102778253Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1806676784(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1806676784L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__32681722(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-32681722L))
-            info.setReturnValue(null);
+            info.setReturnValue("차r潘mlJ!S〱-jI^(,*&fz಄望hYଉꊭ3N䲯u6Ro60느ᣌ.FKIt/I畊4s>싰Lꐒ<u?!zT輄#_W");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1141040995(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1141040995L))
-            info.setReturnValue(null);
+            info.setReturnValue(2037819485);
     }
 
     @Inject(at = @At("HEAD"), method = "of([Lnet/minecraft/world/level/GameType;)Lnet/minecraft/advancements/predicates/GameTypePredicate;", cancellable = true)
@@ -34,7 +34,7 @@ public class GameTypePredicate1102778253Mixin {
     @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/world/level/GameType;)Z", cancellable = true)
     private void matches_1349058731(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1349058731L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "types()Ljava/util/List;", cancellable = true)

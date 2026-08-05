@@ -28,7 +28,7 @@ public class ServerboundSwingPacket_1252553331Mixin {
     @Inject(at = @At("HEAD"), method = "getHand()Lnet/minecraft/world/InteractionHand;", cancellable = true)
     private void getHand_2106542054(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2106542054L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.InteractionHand.MAIN_HAND);
     }
 
 

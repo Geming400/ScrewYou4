@@ -16,7 +16,7 @@ public class AdvancementWidgetType549418816Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/client/gui/screens/advancements/AdvancementWidgetType;", cancellable = true)
     private static void valueOf_435831896(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(435831896L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.client.gui.screens.advancements.AdvancementWidgetType.UNOBTAINED);
     }
 
     @Inject(at = @At("HEAD"), method = "boxSprite()Lnet/minecraft/resources/Identifier;", cancellable = true)

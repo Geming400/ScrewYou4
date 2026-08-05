@@ -13,16 +13,16 @@ public class NoteBlock_1406835859Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getPitchFromNote(I)F", cancellable = true)
-    private static void getPitchFromNote__1674229594(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1674229594L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
     private void getStateForPlacement_148236091(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(148236091L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getPitchFromNote(I)F", cancellable = true)
+    private static void getPitchFromNote__1674229594(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1674229594L))
+            info.setReturnValue(9.999938E8F);
     }
 
 

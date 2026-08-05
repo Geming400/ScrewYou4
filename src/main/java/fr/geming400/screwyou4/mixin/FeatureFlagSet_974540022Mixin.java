@@ -10,13 +10,13 @@ public class FeatureFlagSet_974540022Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1934915512(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1934915512L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1012802267(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1012802267L))
-            info.setReturnValue(null);
+            info.setReturnValue(1466441069);
     }
 
     @Inject(at = @At("HEAD"), method = "of()Lnet/minecraft/world/flag/FeatureFlagSet;", cancellable = true)
@@ -40,7 +40,7 @@ public class FeatureFlagSet_974540022Mixin {
     @Inject(at = @At("HEAD"), method = "isEmpty()Z", cancellable = true)
     private void isEmpty_1012818604(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1012818604L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "join(Lnet/minecraft/world/flag/FeatureFlagSet;)Lnet/minecraft/world/flag/FeatureFlagSet;", cancellable = true)
@@ -52,7 +52,7 @@ public class FeatureFlagSet_974540022Mixin {
     @Inject(at = @At("HEAD"), method = "contains(Lnet/minecraft/world/flag/FeatureFlag;)Z", cancellable = true)
     private void contains__1095372885(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1095372885L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "subtract(Lnet/minecraft/world/flag/FeatureFlagSet;)Lnet/minecraft/world/flag/FeatureFlagSet;", cancellable = true)
@@ -64,13 +64,13 @@ public class FeatureFlagSet_974540022Mixin {
     @Inject(at = @At("HEAD"), method = "intersects(Lnet/minecraft/world/flag/FeatureFlagSet;)Z", cancellable = true)
     private void intersects__455229359(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-455229359L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "isSubsetOf(Lnet/minecraft/world/flag/FeatureFlagSet;)Z", cancellable = true)
     private void isSubsetOf__455229359(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-455229359L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
 

@@ -13,16 +13,16 @@ public class NetworkServerEntry1170087574Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getServerNarration()Lnet/minecraft/network/chat/Component;", cancellable = true)
-    private void getServerNarration__1006821591(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1006821591L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "keyPressed(Lnet/minecraft/client/input/KeyEvent;)Z", cancellable = true)
     private void keyPressed_253451860(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(253451860L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "mouseClicked(Lnet/minecraft/client/input/MouseButtonEvent;Z)Z", cancellable = true)
+    private void mouseClicked__444571304(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-444571304L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "extractContent(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIZF)V", cancellable = true)
@@ -31,15 +31,15 @@ public class NetworkServerEntry1170087574Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getNarration()Lnet/minecraft/network/chat/Component;", cancellable = true)
-    private void getNarration__1006821591(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "getServerNarration()Lnet/minecraft/network/chat/Component;", cancellable = true)
+    private void getServerNarration__1006821591(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1006821591L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "mouseClicked(Lnet/minecraft/client/input/MouseButtonEvent;Z)Z", cancellable = true)
-    private void mouseClicked__444571304(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-444571304L))
+    @Inject(at = @At("HEAD"), method = "getNarration()Lnet/minecraft/network/chat/Component;", cancellable = true)
+    private void getNarration__1006821591(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1006821591L))
             info.setReturnValue(null);
     }
 

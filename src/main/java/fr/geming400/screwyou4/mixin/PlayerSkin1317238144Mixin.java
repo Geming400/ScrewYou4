@@ -10,19 +10,19 @@ public class PlayerSkin1317238144Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1592216893(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1592216893L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_181778169(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(181778169L))
-            info.setReturnValue(null);
+            info.setReturnValue("4B3X&fP.}9=7nEZ<c]#XZqIJ꜒䓱!7syKhႥ");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1355500886(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1355500886L))
-            info.setReturnValue(null);
+            info.setReturnValue(-294221686);
     }
 
     @Inject(at = @At("HEAD"), method = "with(Lnet/minecraft/world/entity/player/PlayerSkin$Patch;)Lnet/minecraft/world/entity/player/PlayerSkin;", cancellable = true)
@@ -34,7 +34,7 @@ public class PlayerSkin1317238144Mixin {
     @Inject(at = @At("HEAD"), method = "model()Lnet/minecraft/world/entity/player/PlayerModelType;", cancellable = true)
     private void model_2034263701(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2034263701L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.entity.player.PlayerModelType.WIDE);
     }
 
     @Inject(at = @At("HEAD"), method = "body()Lnet/minecraft/core/ClientAsset$Texture;", cancellable = true)
@@ -46,7 +46,7 @@ public class PlayerSkin1317238144Mixin {
     @Inject(at = @At("HEAD"), method = "secure()Z", cancellable = true)
     private void secure_1355516727(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1355516727L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "cape()Lnet/minecraft/core/ClientAsset$Texture;", cancellable = true)
@@ -55,15 +55,15 @@ public class PlayerSkin1317238144Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "elytra()Lnet/minecraft/core/ClientAsset$Texture;", cancellable = true)
-    private void elytra__2063156754(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2063156754L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "insecure(Lnet/minecraft/core/ClientAsset$Texture;Lnet/minecraft/core/ClientAsset$Texture;Lnet/minecraft/core/ClientAsset$Texture;Lnet/minecraft/world/entity/player/PlayerModelType;)Lnet/minecraft/world/entity/player/PlayerSkin;", cancellable = true)
     private static void insecure_980890650(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(980890650L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "elytra()Lnet/minecraft/core/ClientAsset$Texture;", cancellable = true)
+    private void elytra__2063156754(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2063156754L))
             info.setReturnValue(null);
     }
 

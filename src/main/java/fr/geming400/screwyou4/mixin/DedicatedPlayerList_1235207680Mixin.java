@@ -19,16 +19,16 @@ public class DedicatedPlayerList_1235207680Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "isWhiteListed(Lnet/minecraft/server/players/NameAndId;)Z", cancellable = true)
-    private void isWhiteListed_2040414355(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2040414355L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "canBypassPlayerLimit(Lnet/minecraft/server/players/NameAndId;)Z", cancellable = true)
     private void canBypassPlayerLimit_2040414355(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2040414355L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isWhiteListed(Lnet/minecraft/server/players/NameAndId;)Z", cancellable = true)
+    private void isWhiteListed_2040414355(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2040414355L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "reloadWhiteList()V", cancellable = true)

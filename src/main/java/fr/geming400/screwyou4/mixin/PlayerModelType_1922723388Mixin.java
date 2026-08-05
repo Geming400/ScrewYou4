@@ -16,19 +16,19 @@ public class PlayerModelType_1922723388Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/world/entity/player/PlayerModelType;", cancellable = true)
     private static void valueOf__1047583278(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1047583278L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.entity.player.PlayerModelType.WIDE);
     }
 
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName_787262916(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(787262916L))
-            info.setReturnValue(null);
+            info.setReturnValue("Kqd( #:&!1i7.[ng0D4Zo흧O⟯E锎T$e)睛k)9맖");
     }
 
     @Inject(at = @At("HEAD"), method = "byLegacyServicesName(Ljava/lang/String;)Lnet/minecraft/world/entity/player/PlayerModelType;", cancellable = true)
     private static void byLegacyServicesName__1047583278(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1047583278L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.entity.player.PlayerModelType.WIDE);
     }
 
 

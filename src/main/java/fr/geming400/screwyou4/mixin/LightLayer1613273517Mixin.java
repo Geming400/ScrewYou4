@@ -16,7 +16,7 @@ public class LightLayer1613273517Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/world/level/LightLayer;", cancellable = true)
     private static void valueOf__527140206(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-527140206L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.level.LightLayer.SKY);
     }
 
 

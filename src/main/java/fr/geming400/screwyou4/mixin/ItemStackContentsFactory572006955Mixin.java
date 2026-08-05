@@ -16,7 +16,7 @@ public class ItemStackContentsFactory572006955Mixin {
     @Inject(at = @At("HEAD"), method = "forStack(Lnet/minecraft/world/item/ItemStack;)Ljava/lang/Object;", cancellable = true)
     private void forStack__677102591(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-677102591L))
-            info.setReturnValue(null);
+            info.setReturnValue(new java.lang.Object());
     }
 
 

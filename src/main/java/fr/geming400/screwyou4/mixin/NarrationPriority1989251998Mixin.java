@@ -16,13 +16,13 @@ public class NarrationPriority1989251998Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/client/gui/narration/NarratableEntry$NarrationPriority;", cancellable = true)
     private static void valueOf_2042777911(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2042777911L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.client.gui.narration.NarratableEntry.NarrationPriority.NONE);
     }
 
     @Inject(at = @At("HEAD"), method = "isTerminal()Z", cancellable = true)
     private void isTerminal_2027530581(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2027530581L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
 

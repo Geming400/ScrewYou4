@@ -28,18 +28,18 @@ public class RandomSequences_523604639Mixin {
     @Inject(at = @At("HEAD"), method = "clear()I", cancellable = true)
     private void clear_561866884(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(561866884L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "setSeedDefaults(IZZ)V", cancellable = true)
-    private void setSeedDefaults_245907658(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(245907658L))
-            info.cancel();
+            info.setReturnValue(475152775);
     }
 
     @Inject(at = @At("HEAD"), method = "forAllSequences(Ljava/util/function/BiConsumer;)V", cancellable = true)
     private void forAllSequences__1214546252(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1214546252L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "setSeedDefaults(IZZ)V", cancellable = true)
+    private void setSeedDefaults_245907658(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(245907658L))
             info.cancel();
     }
 

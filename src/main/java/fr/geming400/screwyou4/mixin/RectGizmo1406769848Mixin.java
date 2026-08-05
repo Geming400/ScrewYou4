@@ -10,19 +10,19 @@ public class RectGizmo1406769848Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1502685189(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1502685189L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_271309873(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(271309873L))
-            info.setReturnValue(null);
+            info.setReturnValue("`iv$a啳2䑿hF>/᎖J,;-*3l゛_]1XDE'Sᙸ姷RJt/6<٪ af`CNi*㖆8749sQF>S[+&n369mH@qNO8V4i9;fzzo>O_8%E*`:3X9");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1445032590(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1445032590L))
-            info.setReturnValue(null);
+            info.setReturnValue(1918066040);
     }
 
     @Inject(at = @At("HEAD"), method = "b()Lnet/minecraft/world/phys/Vec3;", cancellable = true)

@@ -16,19 +16,19 @@ public class ArmPose_1766099441Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/client/model/HumanoidModel$ArmPose;", cancellable = true)
     private static void valueOf__2006123411(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2006123411L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.client.model.HumanoidModel.ArmPose.THROW_TRIDENT);
     }
 
     @Inject(at = @At("HEAD"), method = "affectsOffhandPose()Z", cancellable = true)
     private void affectsOffhandPose_1804378023(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1804378023L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "isTwoHanded()Z", cancellable = true)
     private void isTwoHanded_1804378023(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1804378023L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "animateUseItem(Lnet/minecraft/client/renderer/entity/state/ArmedEntityRenderState;Lcom/mojang/blaze3d/vertex/PoseStack;FLnet/minecraft/world/entity/HumanoidArm;Lnet/minecraft/world/item/ItemStack;)V", cancellable = true)

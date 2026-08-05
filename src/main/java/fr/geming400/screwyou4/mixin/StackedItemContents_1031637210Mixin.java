@@ -13,38 +13,14 @@ public class StackedItemContents_1031637210Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "canCraft(Lnet/minecraft/world/item/crafting/Recipe;ILnet/minecraft/world/entity/player/StackedContents$Output;)Z", cancellable = true)
-    private void canCraft_603516098(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(603516098L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "canCraft(Lnet/minecraft/world/item/crafting/Recipe;Lnet/minecraft/world/entity/player/StackedContents$Output;)Z", cancellable = true)
-    private void canCraft_1617840743(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1617840743L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "canCraft(Ljava/util/List;Lnet/minecraft/world/entity/player/StackedContents$Output;)Z", cancellable = true)
-    private void canCraft__757146247(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-757146247L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getBiggestCraftableStack(Lnet/minecraft/world/item/crafting/Recipe;Lnet/minecraft/world/entity/player/StackedContents$Output;)I", cancellable = true)
-    private void getBiggestCraftableStack_1617824406(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1617824406L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getBiggestCraftableStack(Lnet/minecraft/world/item/crafting/Recipe;ILnet/minecraft/world/entity/player/StackedContents$Output;)I", cancellable = true)
-    private void getBiggestCraftableStack_603499761(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(603499761L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "accountSimpleStack(Lnet/minecraft/world/item/ItemStack;)V", cancellable = true)
     private void accountSimpleStack__1528798799(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1528798799L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "accountStack(Lnet/minecraft/world/item/ItemStack;)V", cancellable = true)
+    private void accountStack__1528798799(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1528798799L))
             info.cancel();
     }
@@ -55,10 +31,34 @@ public class StackedItemContents_1031637210Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "accountStack(Lnet/minecraft/world/item/ItemStack;)V", cancellable = true)
-    private void accountStack__1528798799(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1528798799L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "canCraft(Lnet/minecraft/world/item/crafting/Recipe;ILnet/minecraft/world/entity/player/StackedContents$Output;)Z", cancellable = true)
+    private void canCraft_603516098(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(603516098L))
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "canCraft(Lnet/minecraft/world/item/crafting/Recipe;Lnet/minecraft/world/entity/player/StackedContents$Output;)Z", cancellable = true)
+    private void canCraft_1617840743(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1617840743L))
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "canCraft(Ljava/util/List;Lnet/minecraft/world/entity/player/StackedContents$Output;)Z", cancellable = true)
+    private void canCraft__757146247(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-757146247L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getBiggestCraftableStack(Lnet/minecraft/world/item/crafting/Recipe;Lnet/minecraft/world/entity/player/StackedContents$Output;)I", cancellable = true)
+    private void getBiggestCraftableStack_1617824406(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1617824406L))
+            info.setReturnValue(169821348);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getBiggestCraftableStack(Lnet/minecraft/world/item/crafting/Recipe;ILnet/minecraft/world/entity/player/StackedContents$Output;)I", cancellable = true)
+    private void getBiggestCraftableStack_603499761(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(603499761L))
+            info.setReturnValue(-741773037);
     }
 
 

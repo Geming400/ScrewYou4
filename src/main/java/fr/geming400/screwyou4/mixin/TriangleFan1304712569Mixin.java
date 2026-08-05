@@ -10,25 +10,25 @@ public class TriangleFan1304712569Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1604742468(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1604742468L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_169252594(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(169252594L))
-            info.setReturnValue(null);
+            info.setReturnValue("_5뚫fLTTz⭭VS0Gb8Jtv(vt)홠_ 幷ZbYCJlRKt?爻cv䒀g:|V*ﭚM^I9Zo}E");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1342975311(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1342975311L))
-            info.setReturnValue(null);
+            info.setReturnValue(-880964025);
     }
 
     @Inject(at = @At("HEAD"), method = "color()I", cancellable = true)
     private void color_1342974815(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1342974815L))
-            info.setReturnValue(null);
+            info.setReturnValue(-677816606);
     }
 
     @Inject(at = @At("HEAD"), method = "points()[Lnet/minecraft/world/phys/Vec3;", cancellable = true)

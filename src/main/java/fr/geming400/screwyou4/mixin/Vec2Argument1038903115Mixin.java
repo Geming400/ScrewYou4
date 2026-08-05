@@ -16,13 +16,7 @@ public class Vec2Argument1038903115Mixin {
     @Inject(at = @At("HEAD"), method = "parse(Lcom/mojang/brigadier/StringReader;)Ljava/lang/Object;", cancellable = true)
     private void parse_745521372(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(745521372L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "listSuggestions(Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
-    private void listSuggestions_1279826557(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1279826557L))
-            info.setReturnValue(null);
+            info.setReturnValue(new java.lang.Object());
     }
 
     @Inject(at = @At("HEAD"), method = "vec2(Z)Lnet/minecraft/commands/arguments/coordinates/Vec2Argument;", cancellable = true)
@@ -37,15 +31,21 @@ public class Vec2Argument1038903115Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getVec2(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/world/phys/Vec2;", cancellable = true)
-    private static void getVec2_1939266977(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1939266977L))
+    @Inject(at = @At("HEAD"), method = "listSuggestions(Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
+    private void listSuggestions_1279826557(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1279826557L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getExamples()Ljava/util/Collection;", cancellable = true)
     private void getExamples__774745157(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-774745157L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getVec2(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/world/phys/Vec2;", cancellable = true)
+    private static void getVec2_1939266977(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1939266977L))
             info.setReturnValue(null);
     }
 

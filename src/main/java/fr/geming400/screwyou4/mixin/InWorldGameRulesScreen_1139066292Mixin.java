@@ -13,15 +13,15 @@ public class InWorldGameRulesScreen_1139066292Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "onGameRuleValuesUpdated(Ljava/util/Map;)V", cancellable = true)
-    private void onGameRuleValuesUpdated__641505887(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-641505887L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "onGamemasterPermissionChanged(Z)V", cancellable = true)
     private void onGamemasterPermissionChanged__1926284176(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1926284176L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "onGameRuleValuesUpdated(Ljava/util/Map;)V", cancellable = true)
+    private void onGameRuleValuesUpdated__641505887(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-641505887L))
             info.cancel();
     }
 

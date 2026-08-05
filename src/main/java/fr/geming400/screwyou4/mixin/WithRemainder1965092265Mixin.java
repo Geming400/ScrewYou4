@@ -16,19 +16,19 @@ public class WithRemainder1965092265Mixin {
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__944362772(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-944362772L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_829632290(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(829632290L))
-            info.setReturnValue(null);
+            info.setReturnValue("}YxSP*A緑騠״oq=ko鮼g@B$tc';&a<*VUｨ|vl!mc");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2003355007(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2003355007L))
-            info.setReturnValue(null);
+            info.setReturnValue(-759131523);
     }
 
     @Inject(at = @At("HEAD"), method = "resolve(Lnet/minecraft/util/context/ContextMap;Lnet/minecraft/world/item/crafting/display/DisplayContentsFactory;)Ljava/util/stream/Stream;", cancellable = true)
@@ -40,7 +40,7 @@ public class WithRemainder1965092265Mixin {
     @Inject(at = @At("HEAD"), method = "isEnabled(Lnet/minecraft/world/flag/FeatureFlagSet;)Z", cancellable = true)
     private void isEnabled_535322885(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(535322885L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "input()Lnet/minecraft/world/item/crafting/display/SlotDisplay;", cancellable = true)

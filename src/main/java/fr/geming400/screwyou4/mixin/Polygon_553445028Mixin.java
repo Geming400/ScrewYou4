@@ -10,19 +10,19 @@ public class Polygon_553445028Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_1938957286(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1938957286L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__582014948(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-582014948L))
-            info.setReturnValue(null);
+            info.setReturnValue("G3?Z䓣D샚z僅RHx愐&&I+-骹?i{Q122x1'^`(n,ZSyg)#8⯮");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_591707769(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(591707769L))
-            info.setReturnValue(null);
+            info.setReturnValue(-2128737);
     }
 
     @Inject(at = @At("HEAD"), method = "normal()Lorg/joml/Vector3fc;", cancellable = true)

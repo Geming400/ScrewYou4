@@ -16,7 +16,7 @@ public class Donkey2114663250Mixin {
     @Inject(at = @At("HEAD"), method = "canMate(Lnet/minecraft/world/entity/animal/Animal;)Z", cancellable = true)
     private void canMate__1618240540(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1618240540L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
 

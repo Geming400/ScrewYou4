@@ -16,7 +16,7 @@ public class Occupancy_1936626412Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/world/entity/ai/village/poi/PoiManager$Occupancy;", cancellable = true)
     private static void valueOf__171277913(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-171277913L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.entity.ai.village.poi.PoiManager.Occupancy.HAS_SPACE);
     }
 
     @Inject(at = @At("HEAD"), method = "getTest()Ljava/util/function/Predicate;", cancellable = true)

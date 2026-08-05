@@ -16,7 +16,7 @@ public class ServerboundRecipeBookChangeSettingsPacket_2086218913Mixin {
     @Inject(at = @At("HEAD"), method = "isOpen()Z", cancellable = true)
     private void isOpen_2124497495(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2124497495L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/protocol/game/ServerGamePacketListener;)V", cancellable = true)
@@ -31,16 +31,16 @@ public class ServerboundRecipeBookChangeSettingsPacket_2086218913Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "isFiltering()Z", cancellable = true)
-    private void isFiltering_2124497495(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2124497495L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getBookType()Lnet/minecraft/world/inventory/RecipeBookType;", cancellable = true)
     private void getBookType__1551590311(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1551590311L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.inventory.RecipeBookType.BLAST_FURNACE);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isFiltering()Z", cancellable = true)
+    private void isFiltering_2124497495(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2124497495L))
+            info.setReturnValue(false);
     }
 
 

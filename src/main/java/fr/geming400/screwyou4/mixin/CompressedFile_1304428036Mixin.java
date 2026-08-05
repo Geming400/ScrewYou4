@@ -10,19 +10,19 @@ public class CompressedFile_1304428036Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1605027002(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1605027002L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_168968060(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(168968060L))
-            info.setReturnValue(null);
+            info.setReturnValue("䟰ᖣV[WU&睥pT/MU㌠j%xO_T+M;T0o-+emD친}o*隫6w<寵3A5Mg];kn0l;LUG琍/Egp?żhp[{U{^UId㘮fm!nQb{");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1342690777(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1342690777L))
-            info.setReturnValue(null);
+            info.setReturnValue(-308815756);
     }
 
     @Inject(at = @At("HEAD"), method = "compress()Lnet/minecraft/util/eventlog/EventLogDirectory$CompressedFile;", cancellable = true)

@@ -13,9 +13,9 @@ public class PointedDripstoneBlock1304914974Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "spawnDripParticle(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)V", cancellable = true)
-    private static void spawnDripParticle__764989955(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-764989955L))
+    @Inject(at = @At("HEAD"), method = "animateTick(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)V", cancellable = true)
+    private void animateTick_1182312893(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1182312893L))
             info.cancel();
     }
 
@@ -25,21 +25,21 @@ public class PointedDripstoneBlock1304914974Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "animateTick(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)V", cancellable = true)
-    private void animateTick_1182312893(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1182312893L))
+    @Inject(at = @At("HEAD"), method = "findStalactiteTipAboveCauldron(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/core/BlockPos;", cancellable = true)
+    private static void findStalactiteTipAboveCauldron_2118546268(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2118546268L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "spawnDripParticle(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)V", cancellable = true)
+    private static void spawnDripParticle__764989955(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-764989955L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "getCauldronFillFluidType(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/material/Fluid;", cancellable = true)
     private static void getCauldronFillFluidType__1484288541(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1484288541L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "findStalactiteTipAboveCauldron(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/core/BlockPos;", cancellable = true)
-    private static void findStalactiteTipAboveCauldron_2118546268(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2118546268L))
             info.setReturnValue(null);
     }
 

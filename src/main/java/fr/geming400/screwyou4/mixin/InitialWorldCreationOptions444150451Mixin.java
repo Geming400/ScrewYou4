@@ -10,18 +10,24 @@ public class InitialWorldCreationOptions444150451Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_1829662710(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1829662710L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__691309524(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-691309524L))
-            info.setReturnValue(null);
+            info.setReturnValue("4RyWTℰFo촣X6=釦Hg4MN뤐辞쐍$GTCWጘWK]X3-T>d#|$|unNh[W;]R/`{3i)E喉ễ/褾9");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_482413193(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(482413193L))
+            info.setReturnValue(-901460462);
+    }
+
+    @Inject(at = @At("HEAD"), method = "gameRuleOverwrites()Lnet/minecraft/world/level/gamerules/GameRuleMap;", cancellable = true)
+    private void gameRuleOverwrites__709502097(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-709502097L))
             info.setReturnValue(null);
     }
 
@@ -34,13 +40,7 @@ public class InitialWorldCreationOptions444150451Mixin {
     @Inject(at = @At("HEAD"), method = "selectedGameMode()Lnet/minecraft/client/gui/screens/worldselection/WorldCreationUiState$SelectedGameMode;", cancellable = true)
     private void selectedGameMode_420696568(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(420696568L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "gameRuleOverwrites()Lnet/minecraft/world/level/gamerules/GameRuleMap;", cancellable = true)
-    private void gameRuleOverwrites__709502097(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-709502097L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.client.gui.screens.worldselection.WorldCreationUiState.SelectedGameMode.DEBUG);
     }
 
 

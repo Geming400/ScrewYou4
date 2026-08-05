@@ -16,19 +16,19 @@ public class MemoryMap_1063443587Mixin {
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1846011947(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1846011947L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__72016885(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-72016885L))
-            info.setReturnValue(null);
+            info.setReturnValue("'^Z>.H%♓(/x'aᚡ'");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1101705832(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1101705832L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1153531098);
     }
 
     @Inject(at = @At("HEAD"), method = "of(Ljava/util/stream/Stream;)Lnet/minecraft/world/entity/ai/memory/MemoryMap;", cancellable = true)

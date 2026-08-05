@@ -16,19 +16,19 @@ public class ClientboundChangeDifficultyPacket1042292744Mixin {
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1867162293(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1867162293L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__93167231(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-93167231L))
-            info.setReturnValue(null);
+            info.setReturnValue("p៌1Fz0/Zb澜ﮆdf*{椠_W5wTy'Lh?긭Gpyh}qgZ쓌rCELm607ZcG쾙읽(&8Ґ'ntpnᮕ' n析oᾌs<49J\"2.幕H0HY'1kEam^┛");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1080555486(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1080555486L))
-            info.setReturnValue(null);
+            info.setReturnValue(1042155997);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/PacketListener;)V", cancellable = true)
@@ -43,16 +43,16 @@ public class ClientboundChangeDifficultyPacket1042292744Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "difficulty()Lnet/minecraft/world/Difficulty;", cancellable = true)
-    private void difficulty__29459926(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-29459926L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "locked()Z", cancellable = true)
     private void locked_1080571327(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1080571327L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "difficulty()Lnet/minecraft/world/Difficulty;", cancellable = true)
+    private void difficulty__29459926(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-29459926L))
+            info.setReturnValue(net.minecraft.world.Difficulty.NORMAL);
     }
 
 

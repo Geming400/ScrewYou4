@@ -19,15 +19,15 @@ public class StagedVertexBuffer_1313064688Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "appendDraw(Lcom/mojang/blaze3d/vertex/VertexFormat;Lcom/mojang/blaze3d/PrimitiveTopology;)Lnet/minecraft/client/renderer/StagedVertexBuffer$Draw;", cancellable = true)
-    private void appendDraw__1576175223(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1576175223L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "appendDraw(Lcom/mojang/blaze3d/vertex/VertexFormat;Lcom/mojang/blaze3d/PrimitiveTopology;Lcom/mojang/blaze3d/vertex/VertexSorting;)Lnet/minecraft/client/renderer/StagedVertexBuffer$Draw;", cancellable = true)
     private void appendDraw_449861584(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(449861584L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "appendDraw(Lcom/mojang/blaze3d/vertex/VertexFormat;Lcom/mojang/blaze3d/PrimitiveTopology;)Lnet/minecraft/client/renderer/StagedVertexBuffer$Draw;", cancellable = true)
+    private void appendDraw__1576175223(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1576175223L))
             info.setReturnValue(null);
     }
 

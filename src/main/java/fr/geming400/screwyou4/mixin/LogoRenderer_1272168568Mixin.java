@@ -22,7 +22,7 @@ public class LogoRenderer_1272168568Mixin {
     @Inject(at = @At("HEAD"), method = "keepLogoThroughFade()Z", cancellable = true)
     private void keepLogoThroughFade_1310447150(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1310447150L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
 

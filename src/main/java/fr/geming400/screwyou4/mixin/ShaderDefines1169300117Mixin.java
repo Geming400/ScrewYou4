@@ -10,13 +10,13 @@ public class ShaderDefines1169300117Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1740154920(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1740154920L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_33840142(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(33840142L))
-            info.setReturnValue(null);
+            info.setReturnValue("M✀*B>ye黛G娐=✌牌.ദszywQ8,힎y힆xU.A욞ꚿ/6WwjR蟬(`{L*f*X=䡪n^ꢬoVL诧&\"H8bcHx(");
     }
 
     @Inject(at = @At("HEAD"), method = "values()Ljava/util/Map;", cancellable = true)
@@ -34,13 +34,13 @@ public class ShaderDefines1169300117Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1207562859(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1207562859L))
-            info.setReturnValue(null);
+            info.setReturnValue(-447280802);
     }
 
     @Inject(at = @At("HEAD"), method = "isEmpty()Z", cancellable = true)
     private void isEmpty_1207578700(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1207578700L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "builder()Lnet/minecraft/client/renderer/ShaderDefines$Builder;", cancellable = true)
@@ -58,7 +58,7 @@ public class ShaderDefines1169300117Mixin {
     @Inject(at = @At("HEAD"), method = "asSourceDirectives()Ljava/lang/String;", cancellable = true)
     private void asSourceDirectives_33839646(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(33839646L))
-            info.setReturnValue(null);
+            info.setReturnValue("\"᧱YPF짶AR[댁rO9''ꨨ1ᰢ&T㔁}N|䖆2_V3e8@U鄹5zẸ]CCZNVOUL칂2㾲3MC0sEm鯍E盒WჄl@Hak*晗e7");
     }
 
 

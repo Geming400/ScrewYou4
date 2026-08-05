@@ -13,15 +13,15 @@ public class DefaultRandomPos343562280Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getPos(Lnet/minecraft/world/entity/PathfinderMob;II)Lnet/minecraft/world/phys/Vec3;", cancellable = true)
-    private static void getPos_384055310(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(384055310L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getPosAway(Lnet/minecraft/world/entity/PathfinderMob;IILnet/minecraft/world/phys/Vec3;)Lnet/minecraft/world/phys/Vec3;", cancellable = true)
     private static void getPosAway_1692842128(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1692842128L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getPos(Lnet/minecraft/world/entity/PathfinderMob;II)Lnet/minecraft/world/phys/Vec3;", cancellable = true)
+    private static void getPos_384055310(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(384055310L))
             info.setReturnValue(null);
     }
 

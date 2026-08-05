@@ -16,7 +16,7 @@ public class GuardianAttackSoundInstance1609597789Mixin {
     @Inject(at = @At("HEAD"), method = "canPlaySound()Z", cancellable = true)
     private void canPlaySound_1647876372(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1647876372L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
 

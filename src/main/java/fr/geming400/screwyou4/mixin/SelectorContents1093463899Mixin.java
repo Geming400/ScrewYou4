@@ -10,19 +10,19 @@ public class SelectorContents1093463899Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1815991138(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1815991138L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__41996572(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-41996572L))
-            info.setReturnValue(null);
+            info.setReturnValue("}gAQM? =Z'7ANl+");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1131726641(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1131726641L))
-            info.setReturnValue(null);
+            info.setReturnValue(484240802);
     }
 
     @Inject(at = @At("HEAD"), method = "resolve(Lnet/minecraft/network/chat/ResolutionContext;I)Lnet/minecraft/network/chat/MutableComponent;", cancellable = true)

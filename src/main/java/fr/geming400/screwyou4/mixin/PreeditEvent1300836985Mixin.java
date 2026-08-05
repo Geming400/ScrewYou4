@@ -10,19 +10,19 @@ public class PreeditEvent1300836985Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1608618052(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1608618052L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_165377010(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(165377010L))
-            info.setReturnValue(null);
+            info.setReturnValue("᳄*$]Y}uAzX6j뱏j4jI:t8}!झ$녶ՃNg/>I&_Ir85xM::");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1339099727(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1339099727L))
-            info.setReturnValue(null);
+            info.setReturnValue(1468416276);
     }
 
     @Inject(at = @At("HEAD"), method = "blocks()Ljava/util/List;", cancellable = true)
@@ -34,7 +34,7 @@ public class PreeditEvent1300836985Mixin {
     @Inject(at = @At("HEAD"), method = "focusedBlock()I", cancellable = true)
     private void focusedBlock_1339099231(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1339099231L))
-            info.setReturnValue(null);
+            info.setReturnValue(1671563695);
     }
 
     @Inject(at = @At("HEAD"), method = "createFromCallback(IJIJII)Lnet/minecraft/client/input/PreeditEvent;", cancellable = true)
@@ -46,7 +46,7 @@ public class PreeditEvent1300836985Mixin {
     @Inject(at = @At("HEAD"), method = "fullText()Ljava/lang/String;", cancellable = true)
     private void fullText_165376514(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(165376514L))
-            info.setReturnValue(null);
+            info.setReturnValue("6 ?OV0-2}^Ww");
     }
 
     @Inject(at = @At("HEAD"), method = "toFormattedText(Lnet/minecraft/network/chat/Style;)Lnet/minecraft/network/chat/MutableComponent;", cancellable = true)
@@ -58,7 +58,7 @@ public class PreeditEvent1300836985Mixin {
     @Inject(at = @At("HEAD"), method = "caretPosition()I", cancellable = true)
     private void caretPosition_1339099231(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1339099231L))
-            info.setReturnValue(null);
+            info.setReturnValue(1671563695);
     }
 
 

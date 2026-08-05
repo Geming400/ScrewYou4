@@ -10,19 +10,19 @@ public class Text1862201609Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1047253428(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1047253428L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_726741634(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(726741634L))
-            info.setReturnValue(null);
+            info.setReturnValue("Ya&");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1900464351(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1900464351L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1468334075);
     }
 
     @Inject(at = @At("HEAD"), method = "pos()Lnet/minecraft/world/phys/Vec3;", cancellable = true)
@@ -34,7 +34,7 @@ public class Text1862201609Mixin {
     @Inject(at = @At("HEAD"), method = "text()Ljava/lang/String;", cancellable = true)
     private void text_726741138(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(726741138L))
-            info.setReturnValue(null);
+            info.setReturnValue(".GUxu᧪WN}i鞅");
     }
 
     @Inject(at = @At("HEAD"), method = "style()Lnet/minecraft/gizmos/TextGizmo$Style;", cancellable = true)

@@ -16,19 +16,19 @@ public class Entry_699128082Mixin {
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_2084640340(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2084640340L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__436331894(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-436331894L))
-            info.setReturnValue(null);
+            info.setReturnValue("");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_737390823(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(737390823L))
-            info.setReturnValue(null);
+            info.setReturnValue(904661039);
     }
 
     @Inject(at = @At("HEAD"), method = "displayName()Lnet/minecraft/network/chat/Component;", cancellable = true)

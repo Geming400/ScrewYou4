@@ -10,25 +10,25 @@ public class TriggerInstance_1655588077Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1253866961(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1253866961L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_520128101(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(520128101L))
-            info.setReturnValue(null);
+            info.setReturnValue("vhw\"4께澹2{0axq295_ီqRXᩫweS$");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1693850818(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1693850818L))
-            info.setReturnValue(null);
+            info.setReturnValue(640157825);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(I)Z", cancellable = true)
     private void matches__1425458404(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1425458404L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "count()Ljava/util/Optional;", cancellable = true)

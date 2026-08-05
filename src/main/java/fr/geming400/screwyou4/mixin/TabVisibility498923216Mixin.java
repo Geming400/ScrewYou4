@@ -16,7 +16,7 @@ public class TabVisibility498923216Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/world/item/CreativeModeTab$TabVisibility;", cancellable = true)
     private static void valueOf__1652560783(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1652560783L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.item.CreativeModeTab.TabVisibility.SEARCH_TAB_ONLY);
     }
 
 

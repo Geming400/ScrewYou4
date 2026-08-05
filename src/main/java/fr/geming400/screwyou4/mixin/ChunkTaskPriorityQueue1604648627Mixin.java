@@ -10,7 +10,7 @@ public class ChunkTaskPriorityQueue1604648627Mixin {
         @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_469188156(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(469188156L))
-            info.setReturnValue(null);
+            info.setReturnValue("㩋0cW{o8cO/a->A%Qa");
     }
 
     @Inject(at = @At("HEAD"), method = "pop()Lnet/minecraft/server/level/ChunkTaskPriorityQueue$TasksForChunk;", cancellable = true)
@@ -22,7 +22,7 @@ public class ChunkTaskPriorityQueue1604648627Mixin {
     @Inject(at = @At("HEAD"), method = "hasWork()Z", cancellable = true)
     private void hasWork_1642927210(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1642927210L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
 

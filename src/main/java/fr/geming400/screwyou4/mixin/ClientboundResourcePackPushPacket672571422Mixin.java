@@ -16,31 +16,31 @@ public class ClientboundResourcePackPushPacket672571422Mixin {
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_2058083681(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2058083681L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__462888553(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-462888553L))
-            info.setReturnValue(null);
+            info.setReturnValue("}xHᘽCbO_9@eZ#쥰'ￏv겼bDA蒢仟zZoOch\"K^(<Ҫ2UX랛A(苗N(>)l螯둨#1Yco̖QspQ.<|B9L{VJC!N");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_710834164(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(710834164L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1170952445);
     }
 
     @Inject(at = @At("HEAD"), method = "hash()Ljava/lang/String;", cancellable = true)
     private void hash__462889049(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-462889049L))
-            info.setReturnValue(null);
+            info.setReturnValue("*f$iu^-⡯\",");
     }
 
     @Inject(at = @At("HEAD"), method = "url()Ljava/lang/String;", cancellable = true)
     private void url__462889049(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-462889049L))
-            info.setReturnValue(null);
+            info.setReturnValue("*f$iu^-⡯\",");
     }
 
     @Inject(at = @At("HEAD"), method = "id()Ljava/util/UUID;", cancellable = true)
@@ -70,7 +70,7 @@ public class ClientboundResourcePackPushPacket672571422Mixin {
     @Inject(at = @At("HEAD"), method = "required()Z", cancellable = true)
     private void required_710850005(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(710850005L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
 

@@ -16,7 +16,7 @@ public class BeeReleaseStatus1979877671Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/world/level/block/entity/BeehiveBlockEntity$BeeReleaseStatus;", cancellable = true)
     private static void valueOf__647681452(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-647681452L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.level.block.entity.BeehiveBlockEntity.BeeReleaseStatus.HONEY_DELIVERED);
     }
 
 

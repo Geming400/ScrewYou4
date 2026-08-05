@@ -16,7 +16,7 @@ public class ValueResult360709672Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/nbt/StreamTagVisitor$ValueResult;", cancellable = true)
     private static void valueOf__788302205(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-788302205L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.nbt.StreamTagVisitor.ValueResult.HALT);
     }
 
 

@@ -10,25 +10,25 @@ public class Stretch_67431582Mixin {
         @Inject(at = @At("HEAD"), method = "type()Lnet/minecraft/client/resources/metadata/gui/GuiSpriteScaling$Type;", cancellable = true)
     private void type__1893356988(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1893356988L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.client.resources.metadata.gui.GuiSpriteScaling.Type.TILE);
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_1452943840(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1452943840L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__1068028394(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1068028394L))
-            info.setReturnValue(null);
+            info.setReturnValue("%I䙝UWtPB7u 뷏<-@TK;A뫢}w*sbI(*3w儉菗xv-x.(*{P4R⋮jMbL閚> 峻o+∏粌㗬YWY嵬}厦㩜Ahq)?<");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_105694323(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(105694323L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1173463727);
     }
 
 

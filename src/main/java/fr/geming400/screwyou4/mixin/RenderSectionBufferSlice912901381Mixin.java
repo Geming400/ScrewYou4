@@ -10,31 +10,19 @@ public class RenderSectionBufferSlice912901381Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1996553656(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1996553656L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__222558594(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-222558594L))
-            info.setReturnValue(null);
+            info.setReturnValue("bqFI;奈;jdfoSya)cﻬ5W꽰ꗳELN^\"8T芩螆(Hᕗ50ꙥ^[4g?0|G䆍T^癡Q9;蹿m켳C韯BU+iz)ṨjdS}&I瞔t후o{4슯9RKkQ");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_951164123(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(951164123L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "indexBufferOffset()J", cancellable = true)
-    private void indexBufferOffset_951164588(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(951164588L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "vertexBufferOffset()J", cancellable = true)
-    private void vertexBufferOffset_951164588(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(951164588L))
-            info.setReturnValue(null);
+            info.setReturnValue(1137207312);
     }
 
     @Inject(at = @At("HEAD"), method = "vertexBuffer()Lcom/mojang/blaze3d/buffers/GpuBuffer;", cancellable = true)
@@ -47,6 +35,18 @@ public class RenderSectionBufferSlice912901381Mixin {
     private void indexBuffer_685065070(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(685065070L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "indexBufferOffset()J", cancellable = true)
+    private void indexBufferOffset_951164588(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(951164588L))
+            info.setReturnValue(1739163742348318167L);
+    }
+
+    @Inject(at = @At("HEAD"), method = "vertexBufferOffset()J", cancellable = true)
+    private void vertexBufferOffset_951164588(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(951164588L))
+            info.setReturnValue(1739163742348318167L);
     }
 
 

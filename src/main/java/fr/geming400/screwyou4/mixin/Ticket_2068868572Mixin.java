@@ -10,13 +10,19 @@ public class Ticket_2068868572Mixin {
         @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_933408100(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(933408100L))
-            info.setReturnValue(null);
+            info.setReturnValue("{0qWGY䵖Ṿyꍒrho뚲x{-H췃Xlm YF|JO!rB8)bY#[I(pb+U`⧬QV<s&OP썂_Y$<Xv547##%ࡀfmO`]oT3$_1[o");
     }
 
     @Inject(at = @At("HEAD"), method = "getType()Lnet/minecraft/server/level/TicketType;", cancellable = true)
     private void getType__229204810(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-229204810L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getTicketLevel()I", cancellable = true)
+    private void getTicketLevel_2107130817(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2107130817L))
+            info.setReturnValue(887716183);
     }
 
     @Inject(at = @At("HEAD"), method = "resetTicksLeft()V", cancellable = true)
@@ -34,13 +40,7 @@ public class Ticket_2068868572Mixin {
     @Inject(at = @At("HEAD"), method = "isTimedOut()Z", cancellable = true)
     private void isTimedOut_2107147154(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2107147154L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getTicketLevel()I", cancellable = true)
-    private void getTicketLevel_2107130817(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2107130817L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
 

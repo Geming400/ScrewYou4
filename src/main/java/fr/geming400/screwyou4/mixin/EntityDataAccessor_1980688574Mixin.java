@@ -10,25 +10,25 @@ public class EntityDataAccessor_1980688574Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__928766960(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-928766960L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_845228102(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(845228102L))
-            info.setReturnValue(null);
+            info.setReturnValue("8'zAr?f`3_䘅뜸_`✸Ⲃ!IM:g[tzF 6꼣KB0@88jTd.Cyt⦇");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2018950819(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2018950819L))
-            info.setReturnValue(null);
+            info.setReturnValue(636239844);
     }
 
     @Inject(at = @At("HEAD"), method = "id()I", cancellable = true)
     private void id_2018950819(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2018950819L))
-            info.setReturnValue(null);
+            info.setReturnValue(636239844);
     }
 
     @Inject(at = @At("HEAD"), method = "serializer()Lnet/minecraft/network/syncher/EntityDataSerializer;", cancellable = true)

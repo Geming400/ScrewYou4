@@ -10,25 +10,25 @@ public class GameTestBatch_996687976Mixin {
         @Inject(at = @At("HEAD"), method = "index()I", cancellable = true)
     private void index_1034950221(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1034950221L))
-            info.setReturnValue(null);
+            info.setReturnValue(1226727530);
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1912767062(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1912767062L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__138772000(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-138772000L))
-            info.setReturnValue(null);
+            info.setReturnValue("ভt$>些Tyr!cXTSs霘=BC缔F@k");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1034950717(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1034950717L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1670831760);
     }
 
     @Inject(at = @At("HEAD"), method = "environment()Lnet/minecraft/core/Holder;", cancellable = true)

@@ -16,7 +16,7 @@ public class DefaultAttributes_1821642294Mixin {
     @Inject(at = @At("HEAD"), method = "hasSupplier(Lnet/minecraft/world/entity/EntityType;)Z", cancellable = true)
     private static void hasSupplier_1605716643(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1605716643L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "getSupplier(Lnet/minecraft/world/entity/EntityType;)Lnet/minecraft/world/entity/ai/attributes/AttributeSupplier;", cancellable = true)

@@ -16,13 +16,13 @@ public class WeatherState1914943236Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/world/level/block/WeatheringCopper$WeatherState;", cancellable = true)
     private static void valueOf__2055391826(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2055391826L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.level.block.WeatheringCopper.WeatherState.OXIDIZED);
     }
 
     @Inject(at = @At("HEAD"), method = "next()Lnet/minecraft/world/level/block/WeatheringCopper$WeatherState;", cancellable = true)
     private void next__1792840148(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1792840148L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.level.block.WeatheringCopper.WeatherState.EXPOSED);
     }
 
     @Inject(at = @At("HEAD"), method = "forEach(Ljava/util/function/Consumer;)V", cancellable = true)
@@ -34,13 +34,13 @@ public class WeatherState1914943236Mixin {
     @Inject(at = @At("HEAD"), method = "previous()Lnet/minecraft/world/level/block/WeatheringCopper$WeatherState;", cancellable = true)
     private void previous__1792840148(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1792840148L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.level.block.WeatheringCopper.WeatherState.EXPOSED);
     }
 
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName_779482765(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(779482765L))
-            info.setReturnValue(null);
+            info.setReturnValue("y6G^}ͧwPb`1(lVS駴硙pO#Zeꆈ/!o> ⥣2c賩>6");
     }
 
 

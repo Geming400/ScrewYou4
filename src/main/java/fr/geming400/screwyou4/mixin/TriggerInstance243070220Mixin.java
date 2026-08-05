@@ -10,25 +10,25 @@ public class TriggerInstance243070220Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_1628582479(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1628582479L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__892389755(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-892389755L))
-            info.setReturnValue(null);
+            info.setReturnValue("/%Ua]\"炡d,?<y{뿠f}BZ\"뭚");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_281332962(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(281332962L))
-            info.setReturnValue(null);
+            info.setReturnValue(214952250);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/storage/loot/LootContext;Ljava/util/Collection;)Z", cancellable = true)
     private void matches_1717892600(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1717892600L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "validate(Lnet/minecraft/world/level/storage/loot/ValidationContextSource;)V", cancellable = true)
@@ -49,12 +49,6 @@ public class TriggerInstance243070220Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "fishedItem(Ljava/util/Optional;Ljava/util/Optional;Ljava/util/Optional;)Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
-    private static void fishedItem__813697344(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-813697344L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "rod()Ljava/util/Optional;", cancellable = true)
     private void rod_488531642(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(488531642L))
@@ -64,6 +58,12 @@ public class TriggerInstance243070220Mixin {
     @Inject(at = @At("HEAD"), method = "player()Ljava/util/Optional;", cancellable = true)
     private void player_488531642(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(488531642L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "fishedItem(Ljava/util/Optional;Ljava/util/Optional;Ljava/util/Optional;)Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
+    private static void fishedItem__813697344(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-813697344L))
             info.setReturnValue(null);
     }
 

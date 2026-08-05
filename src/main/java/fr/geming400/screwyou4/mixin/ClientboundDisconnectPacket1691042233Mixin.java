@@ -16,19 +16,19 @@ public class ClientboundDisconnectPacket1691042233Mixin {
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1218412804(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1218412804L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_555582258(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(555582258L))
-            info.setReturnValue(null);
+            info.setReturnValue("4V68lD0⒞c,UkQVOkdWux^s>}np縊4+-㇈3ﴨ묝$iQ〱Go9H顝7k懝끵7#{En%U뜔^76{Haᮥq0t栺\"}6琝");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1729304975(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1729304975L))
-            info.setReturnValue(null);
+            info.setReturnValue(-736832180);
     }
 
     @Inject(at = @At("HEAD"), method = "reason()Lnet/minecraft/network/chat/Component;", cancellable = true)

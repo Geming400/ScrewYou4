@@ -10,7 +10,7 @@ public class LockIconButton191433104Mixin {
         @Inject(at = @At("HEAD"), method = "isLocked()Z", cancellable = true)
     private void isLocked_229711687(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(229711687L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "extractContents(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIF)V", cancellable = true)

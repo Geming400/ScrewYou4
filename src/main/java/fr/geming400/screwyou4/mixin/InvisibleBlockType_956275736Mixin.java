@@ -16,7 +16,7 @@ public class InvisibleBlockType_956275736Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/client/renderer/blockentity/state/BlockEntityWithBoundingBoxRenderState$InvisibleBlockType;", cancellable = true)
     private static void valueOf_76053766(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(76053766L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.client.renderer.blockentity.state.BlockEntityWithBoundingBoxRenderState.InvisibleBlockType.STRUCTURE_VOID);
     }
 
 

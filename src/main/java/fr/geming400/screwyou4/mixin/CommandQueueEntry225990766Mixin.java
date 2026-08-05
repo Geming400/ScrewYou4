@@ -10,19 +10,19 @@ public class CommandQueueEntry225990766Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_1611503025(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1611503025L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__909469209(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-909469209L))
-            info.setReturnValue(null);
+            info.setReturnValue("P!@-6WNri謱溈m箤贵譈Y4?*uaVᴟZnx}I뀥@hvW*K두8pbWxF=R삩Ekm'WAAKjBHpssN1ybg, !m涋mT-V:");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_264253508(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(264253508L))
-            info.setReturnValue(null);
+            info.setReturnValue(1535082100);
     }
 
     @Inject(at = @At("HEAD"), method = "execute(Lnet/minecraft/commands/execution/ExecutionContext;)V", cancellable = true)

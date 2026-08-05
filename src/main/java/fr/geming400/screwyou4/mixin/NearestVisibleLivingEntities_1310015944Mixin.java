@@ -10,13 +10,13 @@ public class NearestVisibleLivingEntities_1310015944Mixin {
         @Inject(at = @At("HEAD"), method = "contains(Lnet/minecraft/world/entity/LivingEntity;)Z", cancellable = true)
     private void contains_1631683118(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1631683118L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "contains(Ljava/util/function/Predicate;)Z", cancellable = true)
     private void contains_1380376333(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1380376333L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "empty()Lnet/minecraft/world/entity/ai/memory/NearestVisibleLivingEntities;", cancellable = true)
@@ -37,15 +37,15 @@ public class NearestVisibleLivingEntities_1310015944Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "nearbyEntities()Ljava/util/List;", cancellable = true)
-    private void nearbyEntities__1358614537(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1358614537L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "findClosest(Ljava/util/function/Predicate;)Ljava/util/Optional;", cancellable = true)
     private void findClosest__1818195066(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1818195066L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "nearbyEntities()Ljava/util/List;", cancellable = true)
+    private void nearbyEntities__1358614537(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1358614537L))
             info.setReturnValue(null);
     }
 

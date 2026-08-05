@@ -10,13 +10,13 @@ public class ChatReportContextBuilder1687948956Mixin {
         @Inject(at = @At("HEAD"), method = "isActive()Z", cancellable = true)
     private void isActive_1726227539(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1726227539L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "acceptContext(Lnet/minecraft/network/chat/PlayerChatMessage;)Z", cancellable = true)
     private void acceptContext_772752150(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(772752150L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "trackContext(Lnet/minecraft/network/chat/PlayerChatMessage;)V", cancellable = true)

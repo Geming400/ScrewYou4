@@ -16,7 +16,7 @@ public class MoverType213637853Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/world/entity/MoverType;", cancellable = true)
     private static void valueOf_129862201(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(129862201L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.entity.MoverType.SHULKER_BOX);
     }
 
 

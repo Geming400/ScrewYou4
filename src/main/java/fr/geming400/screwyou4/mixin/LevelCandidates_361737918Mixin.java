@@ -10,25 +10,25 @@ public class LevelCandidates_361737918Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_1747250176(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1747250176L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__773722058(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-773722058L))
-            info.setReturnValue(null);
+            info.setReturnValue("畦&L.48ꤡU);LptkXn2*6eBo#nZ#o:sBI:%䃴S*>l豥X");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_400000659(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(400000659L))
-            info.setReturnValue(null);
+            info.setReturnValue(861531028);
     }
 
     @Inject(at = @At("HEAD"), method = "isEmpty()Z", cancellable = true)
     private void isEmpty_400016500(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(400016500L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "iterator()Ljava/util/Iterator;", cancellable = true)

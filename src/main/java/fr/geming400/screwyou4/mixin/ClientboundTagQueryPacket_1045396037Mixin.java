@@ -28,19 +28,19 @@ public class ClientboundTagQueryPacket_1045396037Mixin {
     @Inject(at = @At("HEAD"), method = "getTag()Lnet/minecraft/nbt/CompoundTag;", cancellable = true)
     private void getTag__524826884(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-524826884L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getTransactionId()I", cancellable = true)
-    private void getTransactionId_1083658282(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1083658282L))
-            info.setReturnValue(null);
+            info.setReturnValue(new net.minecraft.nbt.CompoundTag());
     }
 
     @Inject(at = @At("HEAD"), method = "isSkippable()Z", cancellable = true)
     private void isSkippable_1083674619(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1083674619L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getTransactionId()I", cancellable = true)
+    private void getTransactionId_1083658282(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1083658282L))
+            info.setReturnValue(84245224);
     }
 
 

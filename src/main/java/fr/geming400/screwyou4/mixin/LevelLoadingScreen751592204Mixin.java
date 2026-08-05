@@ -34,7 +34,7 @@ public class LevelLoadingScreen751592204Mixin {
     @Inject(at = @At("HEAD"), method = "isPauseScreen()Z", cancellable = true)
     private void isPauseScreen_789870787(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(789870787L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "extractBackground(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIF)V", cancellable = true)
@@ -52,7 +52,7 @@ public class LevelLoadingScreen751592204Mixin {
     @Inject(at = @At("HEAD"), method = "shouldCloseOnEsc()Z", cancellable = true)
     private void shouldCloseOnEsc_789870787(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(789870787L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
 

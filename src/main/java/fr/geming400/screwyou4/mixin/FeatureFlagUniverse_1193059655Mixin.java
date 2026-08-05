@@ -10,7 +10,7 @@ public class FeatureFlagUniverse_1193059655Mixin {
         @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_57599183(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(57599183L))
-            info.setReturnValue(null);
+            info.setReturnValue("'䧻GS캦a+]AbtX#7nrh<鐫묄-<?=08X&#2Ｍ},EV뭝0AG茭mQ=}&,[@@3 9hWhO$[t1Hd㴿'd搁");
     }
 
 

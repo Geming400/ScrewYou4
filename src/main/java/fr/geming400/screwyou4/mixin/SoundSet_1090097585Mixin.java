@@ -16,19 +16,19 @@ public class SoundSet_1090097585Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/world/entity/animal/cow/CowSoundVariants$SoundSet;", cancellable = true)
     private static void valueOf__874066835(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-874066835L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.entity.animal.cow.CowSoundVariants.SoundSet.MOODY);
     }
 
     @Inject(at = @At("HEAD"), method = "getIdentifier()Ljava/lang/String;", cancellable = true)
     private void getIdentifier__45362887(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-45362887L))
-            info.setReturnValue(null);
+            info.setReturnValue("蝫H]vK.?(IViPIg둭XOj譠\"xVI%V3\"ﾚ!F#㖲[#,)2$le %0)CDf'E]e}`fp ;0㦁LRl)8|@cT ⎐,{裗");
     }
 
     @Inject(at = @At("HEAD"), method = "getSoundEventIdentifier()Ljava/lang/String;", cancellable = true)
     private void getSoundEventIdentifier__45362887(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-45362887L))
-            info.setReturnValue(null);
+            info.setReturnValue("蝫H]vK.?(IViPIg둭XOj譠\"xVI%V3\"ﾚ!F#㖲[#,)2$le %0)CDf'E]e}`fp ;0㦁LRl)8|@cT ⎐,{裗");
     }
 
 

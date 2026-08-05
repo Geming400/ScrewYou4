@@ -16,19 +16,19 @@ public class BlockEntityTarget_1648767314Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/world/level/storage/loot/LootContext$BlockEntityTarget;", cancellable = true)
     private static void valueOf_512155328(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(512155328L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
-    private void getSerializedName_513306842(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(513306842L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.level.storage.loot.LootContext.BlockEntityTarget.BLOCK_ENTITY);
     }
 
     @Inject(at = @At("HEAD"), method = "contextParam()Lnet/minecraft/util/context/ContextKey;", cancellable = true)
     private void contextParam_931253132(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(931253132L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
+    private void getSerializedName_513306842(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(513306842L))
+            info.setReturnValue("䢋j}8C,1I]STᬯpꔢLw쳶{TT5y輽>A쒮;⍱%>y2%}di!3u@䋂]");
     }
 
 

@@ -22,7 +22,7 @@ public class OverlayParticle1505086738Mixin {
     @Inject(at = @At("HEAD"), method = "getQuadSize(F)F", cancellable = true)
     private void getQuadSize__1578749525(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1578749525L))
-            info.setReturnValue(null);
+            info.setReturnValue(9.402044E8F);
     }
 
 

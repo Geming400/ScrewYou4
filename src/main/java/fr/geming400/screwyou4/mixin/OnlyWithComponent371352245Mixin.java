@@ -16,19 +16,19 @@ public class OnlyWithComponent371352245Mixin {
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_1756864504(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1756864504L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__764107730(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-764107730L))
-            info.setReturnValue(null);
+            info.setReturnValue("+da^f巼O8<)05'q?2$MB!fKd:cu:Kr40scZ{$䧭K(5be'B,'IjjSlZpoOTK/篼v5o%ࢳ1_qbpq❆#s%2.Z9Y");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_409614987(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(409614987L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1627917502);
     }
 
     @Inject(at = @At("HEAD"), method = "component()Lnet/minecraft/core/component/DataComponentType;", cancellable = true)

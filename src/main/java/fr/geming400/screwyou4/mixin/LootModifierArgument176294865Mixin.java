@@ -10,7 +10,7 @@ public class LootModifierArgument176294865Mixin {
         @Inject(at = @At("HEAD"), method = "parse(Lcom/mojang/brigadier/StringReader;)Ljava/lang/Object;", cancellable = true)
     private void parse__117086878(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-117086878L))
-            info.setReturnValue(null);
+            info.setReturnValue(new java.lang.Object());
     }
 
 

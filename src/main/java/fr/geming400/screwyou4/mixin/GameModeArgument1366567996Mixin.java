@@ -10,13 +10,19 @@ public class GameModeArgument1366567996Mixin {
         @Inject(at = @At("HEAD"), method = "parse(Lcom/mojang/brigadier/StringReader;)Ljava/lang/Object;", cancellable = true)
     private void parse_1073186253(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1073186253L))
-            info.setReturnValue(null);
+            info.setReturnValue(new java.lang.Object());
     }
 
     @Inject(at = @At("HEAD"), method = "parse(Lcom/mojang/brigadier/StringReader;)Lnet/minecraft/world/level/GameType;", cancellable = true)
     private void parse__1895213864(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1895213864L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.level.GameType.SURVIVAL);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getGameMode(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/world/level/GameType;", cancellable = true)
+    private static void getGameMode__99208746(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-99208746L))
+            info.setReturnValue(net.minecraft.world.level.GameType.ADVENTURE);
     }
 
     @Inject(at = @At("HEAD"), method = "gameMode()Lnet/minecraft/commands/arguments/GameModeArgument;", cancellable = true)
@@ -28,13 +34,7 @@ public class GameModeArgument1366567996Mixin {
     @Inject(at = @At("HEAD"), method = "listSuggestions(Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
     private void listSuggestions_1607491438(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1607491438L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getGameMode(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/world/level/GameType;", cancellable = true)
-    private static void getGameMode__99208746(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-99208746L))
-            info.setReturnValue(null);
+            info.setReturnValue(new java.util.concurrent.CompletableFuture());
     }
 
     @Inject(at = @At("HEAD"), method = "getExamples()Ljava/util/Collection;", cancellable = true)

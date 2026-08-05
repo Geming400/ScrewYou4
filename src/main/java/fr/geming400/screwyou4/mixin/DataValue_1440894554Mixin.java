@@ -10,31 +10,31 @@ public class DataValue_1440894554Mixin {
         @Inject(at = @At("HEAD"), method = "value()Ljava/lang/Object;", cancellable = true)
     private void value__994880524(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-994880524L))
-            info.setReturnValue(null);
+            info.setReturnValue(new java.lang.Object());
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1468560484(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1468560484L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_305434578(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(305434578L))
-            info.setReturnValue(null);
+            info.setReturnValue("현:Th;k;fgv&㗧V 9&n;u'U/4>O掹J㑃");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1479157295(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1479157295L))
-            info.setReturnValue(null);
+            info.setReturnValue(1771351971);
     }
 
     @Inject(at = @At("HEAD"), method = "id()I", cancellable = true)
     private void id_1479156799(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1479156799L))
-            info.setReturnValue(null);
+            info.setReturnValue(1974499390);
     }
 
     @Inject(at = @At("HEAD"), method = "write(Lnet/minecraft/network/RegistryFriendlyByteBuf;)V", cancellable = true)

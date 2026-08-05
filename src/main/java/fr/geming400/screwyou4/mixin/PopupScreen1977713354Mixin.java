@@ -19,16 +19,16 @@ public class PopupScreen1977713354Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "extractBackground(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIF)V", cancellable = true)
-    private void extractBackground_1018025982(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1018025982L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "getNarrationMessage()Lnet/minecraft/network/chat/Component;", cancellable = true)
     private void getNarrationMessage__199195811(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-199195811L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "extractBackground(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIF)V", cancellable = true)
+    private void extractBackground_1018025982(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1018025982L))
+            info.cancel();
     }
 
 

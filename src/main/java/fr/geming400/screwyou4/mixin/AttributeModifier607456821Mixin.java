@@ -10,19 +10,19 @@ public class AttributeModifier607456821Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_1992969080(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1992969080L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__528003154(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-528003154L))
-            info.setReturnValue(null);
+            info.setReturnValue("");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_645719563(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(645719563L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1687798745);
     }
 
     @Inject(at = @At("HEAD"), method = "id()Lnet/minecraft/resources/Identifier;", cancellable = true)
@@ -34,19 +34,19 @@ public class AttributeModifier607456821Mixin {
     @Inject(at = @At("HEAD"), method = "is(Lnet/minecraft/resources/Identifier;)Z", cancellable = true)
     private void is__886980492(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-886980492L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "amount()D", cancellable = true)
     private void amount_645714262(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(645714262L))
-            info.setReturnValue(null);
+            info.setReturnValue(8.799653006595991E8D);
     }
 
     @Inject(at = @At("HEAD"), method = "operation()Lnet/minecraft/world/entity/ai/attributes/AttributeModifier$Operation;", cancellable = true)
     private void operation__836178631(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-836178631L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.entity.ai.attributes.AttributeModifier.Operation.ADD_VALUE);
     }
 
 

@@ -10,19 +10,19 @@ public class NativeModuleInfo_737053615Mixin {
         @Inject(at = @At("HEAD"), method = "name()Ljava/lang/String;", cancellable = true)
     private void name__398406857(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-398406857L))
-            info.setReturnValue(null);
+            info.setReturnValue(")CjZa`>Z❉.:aDN)U*BRIQ/nf笈J>6lAVxVS\"5ύO|H簉 Fe็g|Kp焥3tl_nqtN Kpf4vthVeP鱝轰`9㚒9쳅隳Lgz(o슙Uf] _n");
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_2122565873(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2122565873L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__398406857(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-398406857L))
-            info.setReturnValue(null);
+            info.setReturnValue(")CjZa`>Z❉.:aDN)U*BRIQ/nf笈J>6lAVxVS\"5ύO|H簉 Fe็g|Kp焥3tl_nqtN Kpf4vthVeP鱝轰`9㚒9쳅隳Lgz(o슙Uf] _n");
     }
 
     @Inject(at = @At("HEAD"), method = "version()Ljava/util/Optional;", cancellable = true)
@@ -34,7 +34,7 @@ public class NativeModuleInfo_737053615Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_775316356(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(775316356L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1189853390);
     }
 
 

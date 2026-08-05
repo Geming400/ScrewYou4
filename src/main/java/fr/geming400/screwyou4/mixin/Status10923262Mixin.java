@@ -16,7 +16,7 @@ public class Status10923262Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/world/entity/vehicle/boat/AbstractBoat$Status;", cancellable = true)
     private static void valueOf_9842657(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(9842657L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.entity.vehicle.boat.AbstractBoat.Status.UNDER_WATER);
     }
 
 

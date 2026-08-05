@@ -16,7 +16,7 @@ public class ContainerInteractionState_370275287Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/world/entity/ai/behavior/TransportItemsBetweenContainers$ContainerInteractionState;", cancellable = true)
     private static void valueOf__1619892316(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1619892316L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.entity.ai.behavior.TransportItemsBetweenContainers.ContainerInteractionState.PICKUP_NO_ITEM);
     }
 
 

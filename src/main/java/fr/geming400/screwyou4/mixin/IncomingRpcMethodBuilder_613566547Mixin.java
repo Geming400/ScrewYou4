@@ -31,14 +31,8 @@ public class IncomingRpcMethodBuilder_613566547Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "response(Ljava/lang/String;Lnet/minecraft/server/jsonrpc/api/Schema;)Lnet/minecraft/server/jsonrpc/IncomingRpcMethod$IncomingRpcMethodBuilder;", cancellable = true)
-    private void response_141498042(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(141498042L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "allowPreServerInit()Lnet/minecraft/server/jsonrpc/IncomingRpcMethod$IncomingRpcMethodBuilder;", cancellable = true)
-    private void allowPreServerInit_1905425517(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "undiscoverable()Lnet/minecraft/server/jsonrpc/IncomingRpcMethod$IncomingRpcMethodBuilder;", cancellable = true)
+    private void undiscoverable_1905425517(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1905425517L))
             info.setReturnValue(null);
     }
@@ -49,9 +43,15 @@ public class IncomingRpcMethodBuilder_613566547Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "undiscoverable()Lnet/minecraft/server/jsonrpc/IncomingRpcMethod$IncomingRpcMethodBuilder;", cancellable = true)
-    private void undiscoverable_1905425517(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "allowPreServerInit()Lnet/minecraft/server/jsonrpc/IncomingRpcMethod$IncomingRpcMethodBuilder;", cancellable = true)
+    private void allowPreServerInit_1905425517(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1905425517L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "response(Ljava/lang/String;Lnet/minecraft/server/jsonrpc/api/Schema;)Lnet/minecraft/server/jsonrpc/IncomingRpcMethod$IncomingRpcMethodBuilder;", cancellable = true)
+    private void response_141498042(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(141498042L))
             info.setReturnValue(null);
     }
 

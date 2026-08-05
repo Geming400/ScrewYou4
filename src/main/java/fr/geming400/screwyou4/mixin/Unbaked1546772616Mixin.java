@@ -16,25 +16,25 @@ public class Unbaked1546772616Mixin {
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1362682421(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1362682421L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_411312641(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(411312641L))
-            info.setReturnValue(null);
+            info.setReturnValue("WZ/sLcV+[<K%[lO{/x)靛뱳F/t6wVoj%f|");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1585035358(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1585035358L))
-            info.setReturnValue(null);
+            info.setReturnValue(-48360442);
     }
 
     @Inject(at = @At("HEAD"), method = "attachment()Lnet/minecraft/world/level/block/BannerBlock$AttachmentType;", cancellable = true)
     private void attachment__419346984(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-419346984L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.level.block.BannerBlock.AttachmentType.WALL);
     }
 
     @Inject(at = @At("HEAD"), method = "bake(Lnet/minecraft/client/renderer/special/SpecialModelRenderer$BakingContext;)Lnet/minecraft/client/renderer/special/SpecialModelRenderer;", cancellable = true)
@@ -52,7 +52,7 @@ public class Unbaked1546772616Mixin {
     @Inject(at = @At("HEAD"), method = "baseColor()Lnet/minecraft/world/item/DyeColor;", cancellable = true)
     private void baseColor__1312886450(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1312886450L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.item.DyeColor.YELLOW);
     }
 
 

@@ -16,7 +16,7 @@ public class ParallelMapTransform_1708558531Mixin {
     @Inject(at = @At("HEAD"), method = "schedule(Ljava/util/Map;Ljava/util/function/BiFunction;ILjava/util/concurrent/Executor;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
     private static void schedule__1499835490(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1499835490L))
-            info.setReturnValue(null);
+            info.setReturnValue(new java.util.concurrent.CompletableFuture());
     }
 
 

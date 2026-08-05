@@ -10,31 +10,31 @@ public class Single1557095209Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1352359828(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1352359828L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_421635234(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(421635234L))
-            info.setReturnValue(null);
+            info.setReturnValue("1*ￚOXaLT]&pAdkbD@9Wೝ\"2'pY4骣");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1595357951(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1595357951L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1255200668);
     }
 
     @Inject(at = @At("HEAD"), method = "test(Ljava/lang/Object;)Z", cancellable = true)
     private void test__1352231364(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1352231364L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "test(Ljava/lang/Iterable;)Z", cancellable = true)
     private void test__562943191(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-562943191L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "test()Ljava/util/function/Predicate;", cancellable = true)

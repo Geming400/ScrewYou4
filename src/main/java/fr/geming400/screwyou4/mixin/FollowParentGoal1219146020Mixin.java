@@ -22,7 +22,7 @@ public class FollowParentGoal1219146020Mixin {
     @Inject(at = @At("HEAD"), method = "canUse()Z", cancellable = true)
     private void canUse_1257424603(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1257424603L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "tick()V", cancellable = true)
@@ -34,7 +34,7 @@ public class FollowParentGoal1219146020Mixin {
     @Inject(at = @At("HEAD"), method = "canContinueToUse()Z", cancellable = true)
     private void canContinueToUse_1257424603(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1257424603L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
 

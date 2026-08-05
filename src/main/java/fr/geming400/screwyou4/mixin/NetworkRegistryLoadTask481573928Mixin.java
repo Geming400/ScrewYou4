@@ -10,7 +10,7 @@ public class NetworkRegistryLoadTask481573928Mixin {
         @Inject(at = @At("HEAD"), method = "load(Lnet/minecraft/resources/RegistryOps$RegistryInfoLookup;Ljava/util/concurrent/Executor;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
     private void load_2123308214(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2123308214L))
-            info.setReturnValue(null);
+            info.setReturnValue(new java.util.concurrent.CompletableFuture());
     }
 
 

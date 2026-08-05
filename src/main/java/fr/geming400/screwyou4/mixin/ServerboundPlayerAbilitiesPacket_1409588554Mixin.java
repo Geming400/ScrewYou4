@@ -28,7 +28,7 @@ public class ServerboundPlayerAbilitiesPacket_1409588554Mixin {
     @Inject(at = @At("HEAD"), method = "isFlying()Z", cancellable = true)
     private void isFlying_1447867136(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1447867136L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
 

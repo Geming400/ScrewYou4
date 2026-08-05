@@ -16,19 +16,19 @@ public class RenderableBox684802680Mixin {
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_2070314939(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2070314939L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__450657295(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-450657295L))
-            info.setReturnValue(null);
+            info.setReturnValue("ht+'8X:EW焯..H⣎l)h0bmRf2 A5e3+HYY9@'toGCq㱨wz");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_723065422(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(723065422L))
-            info.setReturnValue(null);
+            info.setReturnValue(-2050099357);
     }
 
     @Inject(at = @At("HEAD"), method = "localPos()Lnet/minecraft/core/BlockPos;", cancellable = true)

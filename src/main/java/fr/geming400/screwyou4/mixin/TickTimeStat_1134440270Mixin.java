@@ -10,19 +10,19 @@ public class TickTimeStat_1134440270Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1775014768(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1775014768L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__1019706(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1019706L))
-            info.setReturnValue(null);
+            info.setReturnValue("dRv珿뫭]\"AoSx@襬5QgpV]<`F2#)ݙsxPuk훉Z;I%=Oy⾢=g/Y4uḟ0&g3箘Hc1 L'`V?");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1172703011(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1172703011L))
-            info.setReturnValue(null);
+            info.setReturnValue(-213912402);
     }
 
     @Inject(at = @At("HEAD"), method = "from(Ljdk/jfr/consumer/RecordedEvent;)Lnet/minecraft/util/profiling/jfr/stats/TickTimeStat;", cancellable = true)

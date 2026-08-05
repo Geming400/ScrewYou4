@@ -10,7 +10,7 @@ public class MappableRingBuffer_337426460Mixin {
         @Inject(at = @At("HEAD"), method = "size()I", cancellable = true)
     private void size_375688705(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(375688705L))
-            info.setReturnValue(null);
+            info.setReturnValue(1765685189);
     }
 
     @Inject(at = @At("HEAD"), method = "close()V", cancellable = true)

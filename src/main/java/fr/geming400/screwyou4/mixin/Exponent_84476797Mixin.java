@@ -16,19 +16,19 @@ public class Exponent_84476797Mixin {
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_1469989055(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1469989055L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__1050983179(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1050983179L))
-            info.setReturnValue(null);
+            info.setReturnValue("p $C`.{cU(7U皈u^p`40쩸=G[OhQvS#C\"k궲");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_122739538(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(122739538L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1599848416);
     }
 
     @Inject(at = @At("HEAD"), method = "power()Lnet/minecraft/world/item/enchantment/LevelBasedValue;", cancellable = true)
@@ -46,7 +46,7 @@ public class Exponent_84476797Mixin {
     @Inject(at = @At("HEAD"), method = "calculate(I)F", cancellable = true)
     private void calculate_1298378392(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1298378392L))
-            info.setReturnValue(null);
+            info.setReturnValue(8.66604E8F);
     }
 
 

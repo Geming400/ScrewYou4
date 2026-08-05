@@ -22,7 +22,7 @@ public class MessageArgument_1063830410Mixin {
     @Inject(at = @At("HEAD"), method = "parse(Lcom/mojang/brigadier/StringReader;Ljava/lang/Object;)Ljava/lang/Object;", cancellable = true)
     private void parse__790298242(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-790298242L))
-            info.setReturnValue(null);
+            info.setReturnValue(new java.lang.Object());
     }
 
     @Inject(at = @At("HEAD"), method = "parse(Lcom/mojang/brigadier/StringReader;Ljava/lang/Object;)Lnet/minecraft/commands/arguments/MessageArgument$Message;", cancellable = true)

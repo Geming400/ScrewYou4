@@ -31,22 +31,22 @@ public class SavedDataStorage1251322834Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "scheduleSave()Ljava/util/concurrent/CompletableFuture;", cancellable = true)
+    private void scheduleSave__1330269201(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1330269201L))
+            info.setReturnValue(new java.util.concurrent.CompletableFuture());
+    }
+
     @Inject(at = @At("HEAD"), method = "saveAndJoin()V", cancellable = true)
     private void saveAndJoin_1289597573(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1289597573L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "scheduleSave()Ljava/util/concurrent/CompletableFuture;", cancellable = true)
-    private void scheduleSave__1330269201(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1330269201L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "readTagFromDisk(Ljava/nio/file/Path;Lnet/minecraft/util/datafix/DataFixTypes;I)Lnet/minecraft/nbt/CompoundTag;", cancellable = true)
     private void readTagFromDisk_231406806(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(231406806L))
-            info.setReturnValue(null);
+            info.setReturnValue(new net.minecraft.nbt.CompoundTag());
     }
 
 

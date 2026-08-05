@@ -25,14 +25,14 @@ public class EqualSpacingLayout103762973Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "newChildLayoutSettings()Lnet/minecraft/client/gui/layouts/LayoutSettings;", cancellable = true)
-    private void newChildLayoutSettings_38783178(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "defaultChildLayoutSetting()Lnet/minecraft/client/gui/layouts/LayoutSettings;", cancellable = true)
+    private void defaultChildLayoutSetting_38783178(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(38783178L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "defaultChildLayoutSetting()Lnet/minecraft/client/gui/layouts/LayoutSettings;", cancellable = true)
-    private void defaultChildLayoutSetting_38783178(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "newChildLayoutSettings()Lnet/minecraft/client/gui/layouts/LayoutSettings;", cancellable = true)
+    private void newChildLayoutSettings_38783178(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(38783178L))
             info.setReturnValue(null);
     }

@@ -10,19 +10,19 @@ public class VanillaGiftLoot1891083509Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1018371528(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1018371528L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_755623534(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(755623534L))
-            info.setReturnValue(null);
+            info.setReturnValue("㣁!%G䞭u:>j쵉#(>h^");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1929346251(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1929346251L))
-            info.setReturnValue(null);
+            info.setReturnValue(-565968867);
     }
 
     @Inject(at = @At("HEAD"), method = "generate(Ljava/util/function/BiConsumer;)V", cancellable = true)

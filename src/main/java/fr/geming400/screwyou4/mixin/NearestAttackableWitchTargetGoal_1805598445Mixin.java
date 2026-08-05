@@ -10,7 +10,7 @@ public class NearestAttackableWitchTargetGoal_1805598445Mixin {
         @Inject(at = @At("HEAD"), method = "canUse()Z", cancellable = true)
     private void canUse_1843877027(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1843877027L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "setCanAttack(Z)V", cancellable = true)

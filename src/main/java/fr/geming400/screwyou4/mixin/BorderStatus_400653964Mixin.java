@@ -16,13 +16,13 @@ public class BorderStatus_400653964Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/world/level/border/BorderStatus;", cancellable = true)
     private static void valueOf__1082651508(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1082651508L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.level.border.BorderStatus.STATIONARY);
     }
 
     @Inject(at = @At("HEAD"), method = "getColor()I", cancellable = true)
     private void getColor_438916209(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(438916209L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1230005035);
     }
 
 

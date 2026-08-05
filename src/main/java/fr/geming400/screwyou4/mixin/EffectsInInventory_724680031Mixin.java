@@ -16,7 +16,7 @@ public class EffectsInInventory_724680031Mixin {
     @Inject(at = @At("HEAD"), method = "canSeeEffects()Z", cancellable = true)
     private void canSeeEffects_762958613(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(762958613L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
 

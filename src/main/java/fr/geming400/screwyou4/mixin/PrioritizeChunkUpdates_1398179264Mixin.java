@@ -16,7 +16,7 @@ public class PrioritizeChunkUpdates_1398179264Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/client/PrioritizeChunkUpdates;", cancellable = true)
     private static void valueOf_77094873(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(77094873L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.client.PrioritizeChunkUpdates.NONE);
     }
 
     @Inject(at = @At("HEAD"), method = "caption()Lnet/minecraft/network/chat/Component;", cancellable = true)

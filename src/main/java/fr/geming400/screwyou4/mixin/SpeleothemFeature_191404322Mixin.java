@@ -10,7 +10,7 @@ public class SpeleothemFeature_191404322Mixin {
         @Inject(at = @At("HEAD"), method = "place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z", cancellable = true)
     private void place_906662057(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(906662057L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
 

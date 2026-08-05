@@ -16,19 +16,19 @@ public class ServerStateService_516784539Mixin {
     @Inject(at = @At("HEAD"), method = "stop(Lnet/minecraft/server/jsonrpc/internalapi/MinecraftApi;Lnet/minecraft/server/jsonrpc/methods/ClientInfo;)Z", cancellable = true)
     private static void stop_1330069010(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1330069010L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "save(Lnet/minecraft/server/jsonrpc/internalapi/MinecraftApi;ZLnet/minecraft/server/jsonrpc/methods/ClientInfo;)Z", cancellable = true)
     private static void save_646834532(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(646834532L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "systemMessage(Lnet/minecraft/server/jsonrpc/internalapi/MinecraftApi;Lnet/minecraft/server/jsonrpc/methods/ServerStateService$SystemMessage;Lnet/minecraft/server/jsonrpc/methods/ClientInfo;)Z", cancellable = true)
     private static void systemMessage__1310308711(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1310308711L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
 

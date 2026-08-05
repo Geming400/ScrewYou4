@@ -16,7 +16,7 @@ public class RuinedPortalPiece_1505069875Mixin {
     @Inject(at = @At("HEAD"), method = "getHeightMapType(Lnet/minecraft/world/level/levelgen/structure/structures/RuinedPortalPiece$VerticalPlacement;)Lnet/minecraft/world/level/levelgen/Heightmap$Types;", cancellable = true)
     private static void getHeightMapType__1449000488(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1449000488L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.level.levelgen.Heightmap.Types.OCEAN_FLOOR_WG);
     }
 
 

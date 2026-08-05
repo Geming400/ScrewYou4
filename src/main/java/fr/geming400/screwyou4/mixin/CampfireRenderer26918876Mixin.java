@@ -40,7 +40,7 @@ public class CampfireRenderer26918876Mixin {
     @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/blockentity/state/BlockEntityRenderState;", cancellable = true)
     private void createRenderState_1160891302(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1160891302L))
-            info.setReturnValue(null);
+            info.setReturnValue(new net.minecraft.client.renderer.blockentity.state.BlockEntityRenderState());
     }
 
 

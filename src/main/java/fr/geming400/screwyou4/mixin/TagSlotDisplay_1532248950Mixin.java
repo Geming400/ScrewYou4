@@ -16,19 +16,19 @@ public class TagSlotDisplay_1532248950Mixin {
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1377206088(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1377206088L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_396788974(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(396788974L))
-            info.setReturnValue(null);
+            info.setReturnValue("Do6Ꮹ珲dl#VAɽ\"s뛨0aZ]ஐzP/>p_n#2");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1570511691(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1570511691L))
-            info.setReturnValue(null);
+            info.setReturnValue(766030459);
     }
 
     @Inject(at = @At("HEAD"), method = "resolve(Lnet/minecraft/util/context/ContextMap;Lnet/minecraft/world/item/crafting/display/DisplayContentsFactory;)Ljava/util/stream/Stream;", cancellable = true)

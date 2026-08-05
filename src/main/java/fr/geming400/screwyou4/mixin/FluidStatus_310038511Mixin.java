@@ -10,19 +10,19 @@ public class FluidStatus_310038511Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_1695550769(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1695550769L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__825421465(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-825421465L))
-            info.setReturnValue(null);
+            info.setReturnValue("䵩ewUwqJa`1l`fd4mv_G|?\":31Plr{\"z/_}Yt⯇#V羾&⭾PW훥'䌻먒⛊;v<,tF/ໃ>b}c'@T⓷3'鯕(K窗jtP鳇Fkv≶Is");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_348301252(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(348301252L))
-            info.setReturnValue(null);
+            info.setReturnValue(906659835);
     }
 
     @Inject(at = @At("HEAD"), method = "at(I)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
@@ -31,15 +31,15 @@ public class FluidStatus_310038511Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "fluidType()Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
-    private void fluidType__1985720356(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1985720356L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "fluidLevel()I", cancellable = true)
     private void fluidLevel_348300756(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(348300756L))
+            info.setReturnValue(1109807255);
+    }
+
+    @Inject(at = @At("HEAD"), method = "fluidType()Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
+    private void fluidType__1985720356(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1985720356L))
             info.setReturnValue(null);
     }
 

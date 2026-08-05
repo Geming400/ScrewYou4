@@ -16,13 +16,13 @@ public class RecipeCategory633734212Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/data/recipes/RecipeCategory;", cancellable = true)
     private static void valueOf_1393708323(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1393708323L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.data.recipes.RecipeCategory.BREWING);
     }
 
     @Inject(at = @At("HEAD"), method = "getFolderName()Ljava/lang/String;", cancellable = true)
     private void getFolderName__501726259(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-501726259L))
-            info.setReturnValue(null);
+            info.setReturnValue("0tPS6NcwoYi(r;");
     }
 
 

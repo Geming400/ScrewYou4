@@ -22,7 +22,7 @@ public class LookAtPlayerGoal2132913180Mixin {
     @Inject(at = @At("HEAD"), method = "canUse()Z", cancellable = true)
     private void canUse__2123775533(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2123775533L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "tick()V", cancellable = true)
@@ -34,7 +34,7 @@ public class LookAtPlayerGoal2132913180Mixin {
     @Inject(at = @At("HEAD"), method = "canContinueToUse()Z", cancellable = true)
     private void canContinueToUse__2123775533(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2123775533L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
 

@@ -16,7 +16,7 @@ public class EntityBoundSoundInstance556112347Mixin {
     @Inject(at = @At("HEAD"), method = "canPlaySound()Z", cancellable = true)
     private void canPlaySound_594390930(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(594390930L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
 

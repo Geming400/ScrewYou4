@@ -16,25 +16,25 @@ public class TriState_1483667140Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/util/TriState;", cancellable = true)
     private static void valueOf__878257494(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-878257494L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.util.TriState.DEFAULT);
     }
 
     @Inject(at = @At("HEAD"), method = "from(Z)Lnet/minecraft/util/TriState;", cancellable = true)
     private static void from_1853599402(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1853599402L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.util.TriState.TRUE);
     }
 
     @Inject(at = @At("HEAD"), method = "toBoolean(Z)Z", cancellable = true)
     private void toBoolean__1581679484(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1581679484L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName_348206668(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(348206668L))
-            info.setReturnValue(null);
+            info.setReturnValue(".鏓2xDe&j:y笪[飝Cd鉭uy>65bm]iZ譤|㫎ᦵ㖖6%Ymq)hRu=iy\");
     }
 
 

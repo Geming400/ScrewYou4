@@ -34,7 +34,7 @@ public class EnchantTableRenderer1380984090Mixin {
     @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/blockentity/state/BlockEntityRenderState;", cancellable = true)
     private void createRenderState__1780010780(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1780010780L))
-            info.setReturnValue(null);
+            info.setReturnValue(new net.minecraft.client.renderer.blockentity.state.BlockEntityRenderState());
     }
 
     @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/blockentity/state/EnchantTableRenderState;", cancellable = true)

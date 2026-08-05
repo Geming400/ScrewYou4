@@ -22,7 +22,7 @@ public class MissingSeverity_433631480Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/util/filefix/access/CompressedNbt$MissingSeverity;", cancellable = true)
     private static void valueOf_1586557019(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1586557019L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.util.filefix.access.CompressedNbt.MissingSeverity.NEUTRAL);
     }
 
 

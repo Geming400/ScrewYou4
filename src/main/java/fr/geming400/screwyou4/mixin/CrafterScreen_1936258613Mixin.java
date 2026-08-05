@@ -13,15 +13,15 @@ public class CrafterScreen_1936258613Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "extractSlot(Lnet/minecraft/client/gui/GuiGraphicsExtractor;Lnet/minecraft/world/inventory/Slot;II)V", cancellable = true)
-    private void extractSlot__1280282999(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1280282999L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "extractBackground(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIF)V", cancellable = true)
     private void extractBackground_976571240(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(976571240L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "extractSlot(Lnet/minecraft/client/gui/GuiGraphicsExtractor;Lnet/minecraft/world/inventory/Slot;II)V", cancellable = true)
+    private void extractSlot__1280282999(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1280282999L))
             info.cancel();
     }
 

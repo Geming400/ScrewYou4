@@ -10,18 +10,30 @@ public class Unbaked903548045Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__2005906992(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2005906992L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__231911930(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-231911930L))
-            info.setReturnValue(null);
+            info.setReturnValue("넚vﾓㆄ0feQW|wmF05:!XkV%3}(eqk]tiq0親19w5茳<M,*TD%W>ᕴ{j|hFN");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_941810787(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(941810787L))
+            info.setReturnValue(-714233449);
+    }
+
+    @Inject(at = @At("HEAD"), method = "bake(Lnet/minecraft/client/resources/model/sprite/MaterialBaker;Lnet/minecraft/client/resources/model/ModelDebugName;)Lnet/minecraft/client/renderer/block/FluidModel;", cancellable = true)
+    private void bake_1134561611(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1134561611L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "tintSource()Lnet/minecraft/client/color/block/BlockTintSource;", cancellable = true)
+    private void tintSource_1125296246(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1125296246L))
             info.setReturnValue(null);
     }
 
@@ -40,18 +52,6 @@ public class Unbaked903548045Mixin {
     @Inject(at = @At("HEAD"), method = "flowingMaterial()Lnet/minecraft/client/resources/model/sprite/Material;", cancellable = true)
     private void flowingMaterial__1186358134(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1186358134L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "bake(Lnet/minecraft/client/resources/model/sprite/MaterialBaker;Lnet/minecraft/client/resources/model/ModelDebugName;)Lnet/minecraft/client/renderer/block/FluidModel;", cancellable = true)
-    private void bake_1134561611(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1134561611L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "tintSource()Lnet/minecraft/client/color/block/BlockTintSource;", cancellable = true)
-    private void tintSource_1125296246(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1125296246L))
             info.setReturnValue(null);
     }
 

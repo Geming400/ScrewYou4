@@ -10,7 +10,7 @@ public class RunnableWithPriority1507509249Mixin {
         @Inject(at = @At("HEAD"), method = "priority()I", cancellable = true)
     private void priority_1545771495(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1545771495L))
-            info.setReturnValue(null);
+            info.setReturnValue(1068071958);
     }
 
     @Inject(at = @At("HEAD"), method = "run()V", cancellable = true)
@@ -22,19 +22,19 @@ public class RunnableWithPriority1507509249Mixin {
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1401945788(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1401945788L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_372049274(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(372049274L))
-            info.setReturnValue(null);
+            info.setReturnValue("o耨(岅7]탧C");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1545771991(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1545771991L))
-            info.setReturnValue(null);
+            info.setReturnValue(889548468);
     }
 
     @Inject(at = @At("HEAD"), method = "task()Ljava/lang/Runnable;", cancellable = true)

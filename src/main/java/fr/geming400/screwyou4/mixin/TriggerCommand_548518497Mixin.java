@@ -16,7 +16,7 @@ public class TriggerCommand_548518497Mixin {
     @Inject(at = @At("HEAD"), method = "suggestObjectives(Lnet/minecraft/commands/CommandSourceStack;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
     private static void suggestObjectives_1939632770(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1939632770L))
-            info.setReturnValue(null);
+            info.setReturnValue(new java.util.concurrent.CompletableFuture());
     }
 
 

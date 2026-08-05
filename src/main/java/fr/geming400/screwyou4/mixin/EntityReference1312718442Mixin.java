@@ -16,13 +16,13 @@ public class EntityReference1312718442Mixin {
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1596737091(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1596737091L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1350980688(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1350980688L))
-            info.setReturnValue(null);
+            info.setReturnValue(1379550352);
     }
 
     @Inject(at = @At("HEAD"), method = "store(Lnet/minecraft/world/entity/EntityReference;Lnet/minecraft/world/level/storage/ValueOutput;Ljava/lang/String;)V", cancellable = true)
@@ -52,7 +52,7 @@ public class EntityReference1312718442Mixin {
     @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/world/level/entity/UniquelyIdentifyable;)Z", cancellable = true)
     private void matches__731422844(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-731422844L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "read(Lnet/minecraft/world/level/storage/ValueInput;Ljava/lang/String;)Lnet/minecraft/world/entity/EntityReference;", cancellable = true)
@@ -85,21 +85,9 @@ public class EntityReference1312718442Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getUUID()Ljava/util/UUID;", cancellable = true)
-    private void getUUID_1723852925(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1723852925L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "readWithOldOwnerConversion(Lnet/minecraft/world/level/storage/ValueInput;Ljava/lang/String;Lnet/minecraft/world/level/Level;)Lnet/minecraft/world/entity/EntityReference;", cancellable = true)
-    private static void readWithOldOwnerConversion_1547566596(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1547566596L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getPlayer(Lnet/minecraft/world/entity/EntityReference;Lnet/minecraft/world/level/Level;)Lnet/minecraft/world/entity/player/Player;", cancellable = true)
-    private static void getPlayer__795603249(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-795603249L))
+    @Inject(at = @At("HEAD"), method = "streamCodec()Lnet/minecraft/network/codec/StreamCodec;", cancellable = true)
+    private static void streamCodec__1721248482(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1721248482L))
             info.setReturnValue(null);
     }
 
@@ -109,9 +97,21 @@ public class EntityReference1312718442Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "streamCodec()Lnet/minecraft/network/codec/StreamCodec;", cancellable = true)
-    private static void streamCodec__1721248482(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1721248482L))
+    @Inject(at = @At("HEAD"), method = "getUUID()Ljava/util/UUID;", cancellable = true)
+    private void getUUID_1723852925(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1723852925L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getPlayer(Lnet/minecraft/world/entity/EntityReference;Lnet/minecraft/world/level/Level;)Lnet/minecraft/world/entity/player/Player;", cancellable = true)
+    private static void getPlayer__795603249(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-795603249L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "readWithOldOwnerConversion(Lnet/minecraft/world/level/storage/ValueInput;Ljava/lang/String;Lnet/minecraft/world/level/Level;)Lnet/minecraft/world/entity/EntityReference;", cancellable = true)
+    private static void readWithOldOwnerConversion_1547566596(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1547566596L))
             info.setReturnValue(null);
     }
 

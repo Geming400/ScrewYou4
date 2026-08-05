@@ -40,7 +40,7 @@ public class ServerboundSeenAdvancementsPacket1658948259Mixin {
     @Inject(at = @At("HEAD"), method = "getAction()Lnet/minecraft/network/protocol/game/ServerboundSeenAdvancementsPacket$Action;", cancellable = true)
     private void getAction_1710091917(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1710091917L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.network.protocol.game.ServerboundSeenAdvancementsPacket.Action.CLOSED_SCREEN);
     }
 
     @Inject(at = @At("HEAD"), method = "closedScreen()Lnet/minecraft/network/protocol/game/ServerboundSeenAdvancementsPacket;", cancellable = true)

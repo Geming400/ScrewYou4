@@ -16,7 +16,7 @@ public class Target691785029Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/data/PackOutput$Target;", cancellable = true)
     private static void valueOf__480329289(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-480329289L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.data.PackOutput.Target.DATA_PACK);
     }
 
 

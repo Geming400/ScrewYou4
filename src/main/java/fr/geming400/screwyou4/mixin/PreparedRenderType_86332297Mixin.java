@@ -10,31 +10,19 @@ public class PreparedRenderType_86332297Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_1471844555(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1471844555L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__1049127679(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1049127679L))
-            info.setReturnValue(null);
+            info.setReturnValue("&R6c㲒");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_124595038(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(124595038L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "outputTarget()Lnet/minecraft/client/renderer/rendertype/OutputTarget;", cancellable = true)
-    private void outputTarget__1654031945(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1654031945L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "scissorState()Lcom/mojang/blaze3d/systems/ScissorState;", cancellable = true)
-    private void scissorState__959999039(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-959999039L))
-            info.setReturnValue(null);
+            info.setReturnValue(2063451572);
     }
 
     @Inject(at = @At("HEAD"), method = "textures()Ljava/util/List;", cancellable = true)
@@ -43,9 +31,21 @@ public class PreparedRenderType_86332297Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "scissorState()Lcom/mojang/blaze3d/systems/ScissorState;", cancellable = true)
+    private void scissorState__959999039(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-959999039L))
+            info.setReturnValue(new com.mojang.blaze3d.systems.ScissorState());
+    }
+
     @Inject(at = @At("HEAD"), method = "dynamicTransforms()Lcom/mojang/blaze3d/buffers/GpuBufferSlice;", cancellable = true)
     private void dynamicTransforms__1857608609(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1857608609L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "outputTarget()Lnet/minecraft/client/renderer/rendertype/OutputTarget;", cancellable = true)
+    private void outputTarget__1654031945(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1654031945L))
             info.setReturnValue(null);
     }
 

@@ -13,9 +13,9 @@ public class PistonBaseBlock_1498914411Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "isPushable(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/Direction;ZLnet/minecraft/core/Direction;)Z", cancellable = true)
-    private static void isPushable_867779951(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(867779951L))
+    @Inject(at = @At("HEAD"), method = "getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
+    private void getStateForPlacement_240314643(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(240314643L))
             info.setReturnValue(null);
     }
 
@@ -25,10 +25,10 @@ public class PistonBaseBlock_1498914411Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
-    private void getStateForPlacement_240314643(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(240314643L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "isPushable(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/Direction;ZLnet/minecraft/core/Direction;)Z", cancellable = true)
+    private static void isPushable_867779951(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(867779951L))
+            info.setReturnValue(true);
     }
 
 

@@ -10,19 +10,19 @@ public class BlockColumnConfiguration_1278812045Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1630642993(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1630642993L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_143352069(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(143352069L))
-            info.setReturnValue(null);
+            info.setReturnValue("<嶘dBS篇E'H&py#1np}磝lI檓C`69Ecb=lX?6K5;0欪P}Ba(딗[OUs觢ŮtF!y䓔J6");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1317074786(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1317074786L))
-            info.setReturnValue(null);
+            info.setReturnValue(1645106330);
     }
 
     @Inject(at = @At("HEAD"), method = "layer(Lnet/minecraft/util/valueproviders/IntProvider;Lnet/minecraft/world/level/levelgen/feature/stateproviders/BlockStateProvider;)Lnet/minecraft/world/level/levelgen/feature/configurations/BlockColumnConfiguration$Layer;", cancellable = true)
@@ -40,7 +40,7 @@ public class BlockColumnConfiguration_1278812045Mixin {
     @Inject(at = @At("HEAD"), method = "direction()Lnet/minecraft/core/Direction;", cancellable = true)
     private void direction_515956759(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(515956759L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.core.Direction.DOWN);
     }
 
     @Inject(at = @At("HEAD"), method = "simple(Lnet/minecraft/util/valueproviders/IntProvider;Lnet/minecraft/world/level/levelgen/feature/stateproviders/BlockStateProvider;)Lnet/minecraft/world/level/levelgen/feature/configurations/BlockColumnConfiguration;", cancellable = true)
@@ -49,15 +49,15 @@ public class BlockColumnConfiguration_1278812045Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "allowedPlacement()Lnet/minecraft/world/level/levelgen/blockpredicates/BlockPredicate;", cancellable = true)
-    private void allowedPlacement_1311580633(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1311580633L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "prioritizeTip()Z", cancellable = true)
     private void prioritizeTip_1317090627(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1317090627L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "allowedPlacement()Lnet/minecraft/world/level/levelgen/blockpredicates/BlockPredicate;", cancellable = true)
+    private void allowedPlacement_1311580633(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1311580633L))
             info.setReturnValue(null);
     }
 

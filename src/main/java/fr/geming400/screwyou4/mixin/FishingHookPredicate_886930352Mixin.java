@@ -10,25 +10,25 @@ public class FishingHookPredicate_886930352Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__2022524686(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2022524686L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__248529624(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-248529624L))
-            info.setReturnValue(null);
+            info.setReturnValue("0s-|w*={4Ze)蔡QⰟ内ObQM3ﲛ I[,{喿LgZ`f뽹>KzC^U+L杇68q嶢");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_925193093(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(925193093L))
-            info.setReturnValue(null);
+            info.setReturnValue(2027923812);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/phys/Vec3;)Z", cancellable = true)
     private void matches__1067261560(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1067261560L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "inOpenWater()Ljava/util/Optional;", cancellable = true)

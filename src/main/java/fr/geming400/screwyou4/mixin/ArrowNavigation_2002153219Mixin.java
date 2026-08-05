@@ -10,19 +10,19 @@ public class ArrowNavigation_2002153219Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__907301819(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-907301819L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_866693243(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(866693243L))
-            info.setReturnValue(null);
+            info.setReturnValue("JEi?az膟KaSC;^K+FMPﴎ8;J%rුw锏4");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2040415960(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2040415960L))
-            info.setReturnValue(null);
+            info.setReturnValue(637385705);
     }
 
     @Inject(at = @At("HEAD"), method = "with(Lnet/minecraft/client/gui/navigation/ScreenRectangle;)Lnet/minecraft/client/gui/navigation/FocusNavigationEvent$ArrowNavigation;", cancellable = true)
@@ -34,13 +34,13 @@ public class ArrowNavigation_2002153219Mixin {
     @Inject(at = @At("HEAD"), method = "direction()Lnet/minecraft/client/gui/navigation/ScreenDirection;", cancellable = true)
     private void direction_1447465354(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1447465354L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.client.gui.navigation.ScreenDirection.UP);
     }
 
     @Inject(at = @At("HEAD"), method = "getVerticalDirectionForInitialFocus()Lnet/minecraft/client/gui/navigation/ScreenDirection;", cancellable = true)
     private void getVerticalDirectionForInitialFocus_1447465354(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1447465354L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.client.gui.navigation.ScreenDirection.UP);
     }
 
     @Inject(at = @At("HEAD"), method = "previousFocus()Lnet/minecraft/client/gui/navigation/ScreenRectangle;", cancellable = true)

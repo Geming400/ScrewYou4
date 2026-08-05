@@ -10,7 +10,7 @@ public class UseCycle266191607Mixin {
         @Inject(at = @At("HEAD"), method = "get(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/client/multiplayer/ClientLevel;Lnet/minecraft/world/entity/ItemOwner;I)F", cancellable = true)
     private void get__744851479(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-744851479L))
-            info.setReturnValue(null);
+            info.setReturnValue(6.381534E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "type()Lcom/mojang/serialization/MapCodec;", cancellable = true)
@@ -22,25 +22,25 @@ public class UseCycle266191607Mixin {
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_1651703866(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1651703866L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__869268368(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-869268368L))
-            info.setReturnValue(null);
+            info.setReturnValue(";r2vq''B_C츐EaK+f탣ᆯlBT≋QA=^Gm('SRc/*_rU衶zwU*eoᡶ+4=唷[O5");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_304454349(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(304454349L))
-            info.setReturnValue(null);
+            info.setReturnValue(1366314489);
     }
 
     @Inject(at = @At("HEAD"), method = "period()F", cancellable = true)
     private void period_304450970(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(304450970L))
-            info.setReturnValue(null);
+            info.setReturnValue(6.381534E8F);
     }
 
 

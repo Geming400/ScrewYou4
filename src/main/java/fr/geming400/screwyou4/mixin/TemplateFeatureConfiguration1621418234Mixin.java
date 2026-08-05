@@ -10,19 +10,19 @@ public class TemplateFeatureConfiguration1621418234Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1288036803(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1288036803L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_485958259(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(485958259L))
-            info.setReturnValue(null);
+            info.setReturnValue("黲/욊*N/#䔝虠1WfymAwp?o3@P㍻-Fh0uJh1)hb:tC");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1659680976(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1659680976L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1352905602);
     }
 
     @Inject(at = @At("HEAD"), method = "templates()Lnet/minecraft/util/random/WeightedList;", cancellable = true)

@@ -16,7 +16,7 @@ public class Type_1470168929Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/world/item/CreativeModeTab$Type;", cancellable = true)
     private static void valueOf__433496480(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-433496480L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.item.CreativeModeTab.Type.CATEGORY);
     }
 
 

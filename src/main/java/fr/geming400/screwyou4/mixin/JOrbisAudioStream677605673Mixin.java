@@ -22,7 +22,7 @@ public class JOrbisAudioStream677605673Mixin {
     @Inject(at = @At("HEAD"), method = "readChunk(Lit/unimi/dsi/fastutil/floats/FloatConsumer;)Z", cancellable = true)
     private void readChunk_625428352(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(625428352L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
 

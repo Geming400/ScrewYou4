@@ -16,13 +16,13 @@ public class ContainerInput1045933163Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/world/inventory/ContainerInput;", cancellable = true)
     private static void valueOf__1863650310(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1863650310L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.inventory.ContainerInput.PICKUP);
     }
 
     @Inject(at = @At("HEAD"), method = "id()I", cancellable = true)
     private void id_1084195409(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1084195409L))
-            info.setReturnValue(null);
+            info.setReturnValue(940239343);
     }
 
 

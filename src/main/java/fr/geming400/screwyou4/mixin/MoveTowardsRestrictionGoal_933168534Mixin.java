@@ -16,13 +16,13 @@ public class MoveTowardsRestrictionGoal_933168534Mixin {
     @Inject(at = @At("HEAD"), method = "canUse()Z", cancellable = true)
     private void canUse_971447116(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(971447116L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "canContinueToUse()Z", cancellable = true)
     private void canContinueToUse_971447116(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(971447116L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
 

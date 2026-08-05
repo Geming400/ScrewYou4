@@ -10,25 +10,25 @@ public class Selector_84413192Mixin {
         @Inject(at = @At("HEAD"), method = "priority()I", cancellable = true)
     private void priority_122675437(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(122675437L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1991091568);
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_1469925450(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1469925450L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__1051046784(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1051046784L))
-            info.setReturnValue(null);
+            info.setReturnValue("Zw嶦r(W!rr,M|6<]kAﰓW4k>-W{d+Wv*(AqLU$N-R};t㼑M $弑WrmmTၱXNX]yg$쁩");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_122675933(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(122675933L))
-            info.setReturnValue(null);
+            info.setReturnValue(2125352239);
     }
 
     @Inject(at = @At("HEAD"), method = "condition()Ljava/util/Optional;", cancellable = true)

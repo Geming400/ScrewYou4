@@ -13,16 +13,10 @@ public class ArmedEntityRenderState1054536939Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getMainHandItemState()Lnet/minecraft/client/renderer/item/ItemStackRenderState;", cancellable = true)
-    private void getMainHandItemState_763747305(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(763747305L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "ticksUsingItem(Lnet/minecraft/world/entity/HumanoidArm;)F", cancellable = true)
     private void ticksUsingItem__45803463(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-45803463L))
-            info.setReturnValue(null);
+            info.setReturnValue(3.734443E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "getMainHandItemStack()Lnet/minecraft/world/item/ItemStack;", cancellable = true)
@@ -34,6 +28,12 @@ public class ArmedEntityRenderState1054536939Mixin {
     @Inject(at = @At("HEAD"), method = "getUseItemStackForArm(Lnet/minecraft/world/entity/HumanoidArm;)Lnet/minecraft/world/item/ItemStack;", cancellable = true)
     private void getUseItemStackForArm_4653188(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(4653188L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getMainHandItemState()Lnet/minecraft/client/renderer/item/ItemStackRenderState;", cancellable = true)
+    private void getMainHandItemState_763747305(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(763747305L))
             info.setReturnValue(null);
     }
 

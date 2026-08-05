@@ -10,19 +10,19 @@ public class IdAndPath898756669Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__2010698368(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2010698368L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__236703306(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-236703306L))
-            info.setReturnValue(null);
+            info.setReturnValue("p/൭얥XTs-r[&8x9゙\"C量nOM1|z+MDnA爐");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_937019411(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(937019411L))
-            info.setReturnValue(null);
+            info.setReturnValue(1988751237);
     }
 
     @Inject(at = @At("HEAD"), method = "id()Ljava/util/UUID;", cancellable = true)

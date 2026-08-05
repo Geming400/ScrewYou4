@@ -34,6 +34,12 @@ public class TextureManager_418265666Mixin {
     @Inject(at = @At("HEAD"), method = "reload(Lnet/minecraft/server/packs/resources/PreparableReloadListener$SharedState;Ljava/util/concurrent/Executor;Lnet/minecraft/server/packs/resources/PreparableReloadListener$PreparationBarrier;Ljava/util/concurrent/Executor;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
     private void reload__1534503310(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1534503310L))
+            info.setReturnValue(new java.util.concurrent.CompletableFuture());
+    }
+
+    @Inject(at = @At("HEAD"), method = "getTexture(Lnet/minecraft/resources/Identifier;)Lnet/minecraft/client/renderer/texture/AbstractTexture;", cancellable = true)
+    private void getTexture__528605980(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-528605980L))
             info.setReturnValue(null);
     }
 
@@ -47,12 +53,6 @@ public class TextureManager_418265666Mixin {
     private void registerAndLoad__217398805(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-217398805L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "getTexture(Lnet/minecraft/resources/Identifier;)Lnet/minecraft/client/renderer/texture/AbstractTexture;", cancellable = true)
-    private void getTexture__528605980(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-528605980L))
-            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "registerForNextReload(Lnet/minecraft/resources/Identifier;)V", cancellable = true)

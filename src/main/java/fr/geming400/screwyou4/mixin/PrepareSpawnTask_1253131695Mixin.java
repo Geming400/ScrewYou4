@@ -34,7 +34,7 @@ public class PrepareSpawnTask_1253131695Mixin {
     @Inject(at = @At("HEAD"), method = "tick()Z", cancellable = true)
     private void tick_1291410277(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1291410277L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "spawnPlayer(Lnet/minecraft/network/Connection;Lnet/minecraft/server/network/CommonListenerCookie;)Lnet/minecraft/server/level/ServerPlayer;", cancellable = true)

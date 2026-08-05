@@ -10,19 +10,19 @@ public class ContactDamage_679848048Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_2065360306(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2065360306L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__455611928(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-455611928L))
-            info.setReturnValue(null);
+            info.setReturnValue("$ 31qq=槬9");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_718110789(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(718110789L))
-            info.setReturnValue(null);
+            info.setReturnValue(1786281960);
     }
 
     @Inject(at = @At("HEAD"), method = "amount()Lnet/minecraft/util/valueproviders/FloatProvider;", cancellable = true)
@@ -40,7 +40,7 @@ public class ContactDamage_679848048Mixin {
     @Inject(at = @At("HEAD"), method = "attributeToSource()Z", cancellable = true)
     private void attributeToSource_718126630(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(718126630L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
 

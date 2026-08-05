@@ -16,19 +16,19 @@ public class Update_405459823Mixin {
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_1790972081(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1790972081L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__730000153(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-730000153L))
-            info.setReturnValue(null);
+            info.setReturnValue("4 :GudK}!$|&e?쟬O?`L: $qW1>:{럔#QE7+-빞蘨`v/G-멅QG]2DU<09-᧾dỷ03{<EiH㍒yOTttqtX垐{mAe$w#媦*:BH/*)!cs");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_443722564(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(443722564L))
-            info.setReturnValue(null);
+            info.setReturnValue(1057768849);
     }
 
     @Inject(at = @At("HEAD"), method = "subscription()Lnet/minecraft/util/debug/DebugSubscription;", cancellable = true)

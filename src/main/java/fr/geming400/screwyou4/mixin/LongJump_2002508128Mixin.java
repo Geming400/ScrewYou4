@@ -10,7 +10,7 @@ public class LongJump_2002508128Mixin {
         @Inject(at = @At("HEAD"), method = "canRun(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/monster/breeze/Breeze;)Z", cancellable = true)
     private static void canRun__517299025(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-517299025L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
 

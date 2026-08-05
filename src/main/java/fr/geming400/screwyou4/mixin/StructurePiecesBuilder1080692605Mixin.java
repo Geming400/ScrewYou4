@@ -16,7 +16,7 @@ public class StructurePiecesBuilder1080692605Mixin {
     @Inject(at = @At("HEAD"), method = "isEmpty()Z", cancellable = true)
     private void isEmpty_1118971188(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1118971188L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "build()Lnet/minecraft/world/level/levelgen/structure/pieces/PiecesContainer;", cancellable = true)
@@ -25,22 +25,10 @@ public class StructurePiecesBuilder1080692605Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getBoundingBox()Lnet/minecraft/world/level/levelgen/structure/BoundingBox;", cancellable = true)
-    private void getBoundingBox_1250840391(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1250840391L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "addPiece(Lnet/minecraft/world/level/levelgen/structure/StructurePiece;)V", cancellable = true)
-    private void addPiece_1883520105(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1883520105L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "findCollisionPiece(Lnet/minecraft/world/level/levelgen/structure/BoundingBox;)Lnet/minecraft/world/level/levelgen/structure/StructurePiece;", cancellable = true)
-    private void findCollisionPiece_229507374(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(229507374L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "moveBelowSeaLevel(IILnet/minecraft/util/RandomSource;I)I", cancellable = true)
+    private void moveBelowSeaLevel__1449409700(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1449409700L))
+            info.setReturnValue(1052141732);
     }
 
     @Inject(at = @At("HEAD"), method = "offsetPiecesVertically(I)V", cancellable = true)
@@ -49,16 +37,28 @@ public class StructurePiecesBuilder1080692605Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "getBoundingBox()Lnet/minecraft/world/level/levelgen/structure/BoundingBox;", cancellable = true)
+    private void getBoundingBox_1250840391(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1250840391L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "findCollisionPiece(Lnet/minecraft/world/level/levelgen/structure/BoundingBox;)Lnet/minecraft/world/level/levelgen/structure/StructurePiece;", cancellable = true)
+    private void findCollisionPiece_229507374(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(229507374L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "moveInsideHeights(Lnet/minecraft/util/RandomSource;II)V", cancellable = true)
     private void moveInsideHeights__2101462288(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-2101462288L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "moveBelowSeaLevel(IILnet/minecraft/util/RandomSource;I)I", cancellable = true)
-    private void moveBelowSeaLevel__1449409700(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1449409700L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "addPiece(Lnet/minecraft/world/level/levelgen/structure/StructurePiece;)V", cancellable = true)
+    private void addPiece_1883520105(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1883520105L))
+            info.cancel();
     }
 
 

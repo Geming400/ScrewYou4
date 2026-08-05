@@ -16,7 +16,7 @@ public class Action1492038307Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/network/protocol/game/ServerboundSeenAdvancementsPacket$Action;", cancellable = true)
     private static void valueOf__121754693(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-121754693L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.network.protocol.game.ServerboundSeenAdvancementsPacket.Action.CLOSED_SCREEN);
     }
 
 

@@ -16,7 +16,7 @@ public class BuddingAmethystBlock345682517Mixin {
     @Inject(at = @At("HEAD"), method = "canClusterGrowAtState(Lnet/minecraft/world/level/block/state/BlockState;)Z", cancellable = true)
     private static void canClusterGrowAtState_200393779(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(200393779L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
 

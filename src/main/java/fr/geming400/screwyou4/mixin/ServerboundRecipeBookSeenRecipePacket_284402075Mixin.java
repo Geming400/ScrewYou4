@@ -16,19 +16,19 @@ public class ServerboundRecipeBookSeenRecipePacket_284402075Mixin {
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_1669914333(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1669914333L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__851057901(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-851057901L))
-            info.setReturnValue(null);
+            info.setReturnValue("u'?eF쮚%[*|鵮拔Le-#Y!7Sf읏룑_u>)hyP9gmk+GB-#F럿%mg⯋qI(v귇K퀆=I;⎇\" be&J1璪j u[%zUS66(d?+6");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_322664816(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(322664816L))
-            info.setReturnValue(null);
+            info.setReturnValue(620381462);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/PacketListener;)V", cancellable = true)

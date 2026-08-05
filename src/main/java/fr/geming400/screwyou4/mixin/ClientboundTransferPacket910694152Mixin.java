@@ -16,19 +16,19 @@ public class ClientboundTransferPacket910694152Mixin {
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1998760885(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1998760885L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__224765823(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-224765823L))
-            info.setReturnValue(null);
+            info.setReturnValue("ZL&H];ViO<H퐕9(u{jّHn쏉s} `AXVt䇐9♭gXdk[|gafOL!m䮖1M^n(m烷MjqqB갟ਂ: .?A3H湰_r간spL뢎7)RN_sD){n04zCBFe%+");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_948956894(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(948956894L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1016274401);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/protocol/common/ClientCommonPacketListener;)V", cancellable = true)
@@ -46,13 +46,13 @@ public class ClientboundTransferPacket910694152Mixin {
     @Inject(at = @At("HEAD"), method = "port()I", cancellable = true)
     private void port_948956398(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(948956398L))
-            info.setReturnValue(null);
+            info.setReturnValue(-837750911);
     }
 
     @Inject(at = @At("HEAD"), method = "host()Ljava/lang/String;", cancellable = true)
     private void host__224766319(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-224766319L))
-            info.setReturnValue(null);
+            info.setReturnValue("Cirᶋ$10vꖏT棭.ହ^B襘Rꢌ&C\"劣츌CJ⢗@]B n5r䎢窕kEV{xS瞲Y`J㪅넂M1D4 MO{&");
     }
 
 

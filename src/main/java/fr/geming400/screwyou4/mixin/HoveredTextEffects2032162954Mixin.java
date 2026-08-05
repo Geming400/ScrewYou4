@@ -16,13 +16,13 @@ public class HoveredTextEffects2032162954Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/client/gui/GuiGraphicsExtractor$HoveredTextEffects;", cancellable = true)
     private static void valueOf__2043700630(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2043700630L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.client.gui.GuiGraphicsExtractor.HoveredTextEffects.NONE);
     }
 
     @Inject(at = @At("HEAD"), method = "notClickable(Z)Lnet/minecraft/client/gui/GuiGraphicsExtractor$HoveredTextEffects;", cancellable = true)
     private static void notClickable_1099908714(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1099908714L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.client.gui.GuiGraphicsExtractor.HoveredTextEffects.TOOLTIP_AND_CURSOR);
     }
 
 

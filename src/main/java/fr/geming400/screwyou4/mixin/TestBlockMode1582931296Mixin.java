@@ -16,7 +16,7 @@ public class TestBlockMode1582931296Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/world/level/block/state/properties/TestBlockMode;", cancellable = true)
     private static void valueOf_1921664318(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1921664318L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.level.block.state.properties.TestBlockMode.START);
     }
 
     @Inject(at = @At("HEAD"), method = "getDisplayName()Lnet/minecraft/network/chat/Component;", cancellable = true)
@@ -28,7 +28,7 @@ public class TestBlockMode1582931296Mixin {
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName_447470825(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(447470825L))
-            info.setReturnValue(null);
+            info.setReturnValue("aBም^%jW(reO껍Px墪(↘u&m禶*B]bjzp44뱢X.`᯲-O?>#g9aF,j롇+瀑K75nEK4o0Jg%{8");
     }
 
     @Inject(at = @At("HEAD"), method = "getDetailedMessage()Lnet/minecraft/network/chat/Component;", cancellable = true)

@@ -16,7 +16,7 @@ public class SequenceFunction1465665575Mixin {
     @Inject(at = @At("HEAD"), method = "apply(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;", cancellable = true)
     private void apply__162160566(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-162160566L))
-            info.setReturnValue(null);
+            info.setReturnValue(new java.lang.Object());
     }
 
     @Inject(at = @At("HEAD"), method = "apply(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/storage/loot/LootContext;)Lnet/minecraft/world/item/ItemStack;", cancellable = true)

@@ -10,7 +10,7 @@ public class FloatGoal1934563489Mixin {
         @Inject(at = @At("HEAD"), method = "canUse()Z", cancellable = true)
     private void canUse_1972842072(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1972842072L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "tick()V", cancellable = true)
@@ -22,7 +22,7 @@ public class FloatGoal1934563489Mixin {
     @Inject(at = @At("HEAD"), method = "requiresUpdateEveryTick()Z", cancellable = true)
     private void requiresUpdateEveryTick_1972842072(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1972842072L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
 

@@ -10,25 +10,25 @@ public class RemoveStatusEffectsConsumeEffect_179522853Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_1565035111(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1565035111L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__955937123(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-955937123L))
-            info.setReturnValue(null);
+            info.setReturnValue("|=Ns19褟.K)jPPN%c[H");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_217785594(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(217785594L))
-            info.setReturnValue(null);
+            info.setReturnValue(1747922921);
     }
 
     @Inject(at = @At("HEAD"), method = "apply(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/LivingEntity;)Z", cancellable = true)
     private void apply_172210039(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(172210039L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "getType()Lnet/minecraft/world/item/consume_effects/ConsumeEffect$Type;", cancellable = true)

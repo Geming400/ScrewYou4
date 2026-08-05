@@ -16,19 +16,19 @@ public class FrequencyReductionMethod432128628Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/world/level/levelgen/structure/placement/StructurePlacement$FrequencyReductionMethod;", cancellable = true)
     private static void valueOf_1416478195(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1416478195L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.level.levelgen.structure.placement.StructurePlacement.FrequencyReductionMethod.LEGACY_TYPE_2);
     }
 
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName__703331843(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-703331843L))
-            info.setReturnValue(null);
+            info.setReturnValue("H篜X=btvm[캇");
     }
 
     @Inject(at = @At("HEAD"), method = "shouldGenerate(JIIIF)Z", cancellable = true)
     private void shouldGenerate_1449186018(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1449186018L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
 

@@ -16,7 +16,7 @@ public class PreferredGraphicsApi705889106Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/client/PreferredGraphicsApi;", cancellable = true)
     private static void valueOf__865057766(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-865057766L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.client.PreferredGraphicsApi.VULKAN);
     }
 
     @Inject(at = @At("HEAD"), method = "caption()Lnet/minecraft/network/chat/Component;", cancellable = true)
@@ -28,7 +28,7 @@ public class PreferredGraphicsApi705889106Mixin {
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName__429571365(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-429571365L))
-            info.setReturnValue(null);
+            info.setReturnValue("''jo9!lz6j.xv㴦ퟵQ$&XEPzV핰H) 䅵[:IOAeGi=A嗢'bwంUmt]xW<");
     }
 
     @Inject(at = @At("HEAD"), method = "getBackendsToTry()[Lcom/mojang/blaze3d/systems/GpuBackend;", cancellable = true)

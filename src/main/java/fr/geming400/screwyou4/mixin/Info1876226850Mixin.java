@@ -19,18 +19,6 @@ public class Info1876226850Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "unpack(Lnet/minecraft/commands/arguments/TimeArgument;)Lnet/minecraft/commands/arguments/TimeArgument$Info$Template;", cancellable = true)
-    private void unpack__1892671099(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1892671099L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "unpack(Lcom/mojang/brigadier/arguments/ArgumentType;)Lnet/minecraft/commands/synchronization/ArgumentTypeInfo$Template;", cancellable = true)
-    private void unpack__1504933845(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1504933845L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "serializeToJson(Lnet/minecraft/commands/synchronization/ArgumentTypeInfo$Template;Lcom/google/gson/JsonObject;)V", cancellable = true)
     private void serializeToJson_1428671641(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1428671641L))
@@ -52,6 +40,18 @@ public class Info1876226850Mixin {
     @Inject(at = @At("HEAD"), method = "deserializeFromNetwork(Lnet/minecraft/network/FriendlyByteBuf;)Lnet/minecraft/commands/arguments/TimeArgument$Info$Template;", cancellable = true)
     private void deserializeFromNetwork_1346582864(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1346582864L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "unpack(Lnet/minecraft/commands/arguments/TimeArgument;)Lnet/minecraft/commands/arguments/TimeArgument$Info$Template;", cancellable = true)
+    private void unpack__1892671099(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1892671099L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "unpack(Lcom/mojang/brigadier/arguments/ArgumentType;)Lnet/minecraft/commands/synchronization/ArgumentTypeInfo$Template;", cancellable = true)
+    private void unpack__1504933845(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1504933845L))
             info.setReturnValue(null);
     }
 

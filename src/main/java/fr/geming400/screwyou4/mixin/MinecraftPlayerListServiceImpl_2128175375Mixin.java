@@ -13,21 +13,9 @@ public class MinecraftPlayerListServiceImpl_2128175375Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getPlayers()Ljava/util/List;", cancellable = true)
-    private void getPlayers__540455106(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-540455106L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getPlayer(Ljava/util/Optional;Ljava/util/Optional;)Ljava/util/Optional;", cancellable = true)
-    private void getPlayer_766587166(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(766587166L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getPlayer(Ljava/util/UUID;)Lnet/minecraft/server/level/ServerPlayer;", cancellable = true)
-    private void getPlayer__1129699489(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1129699489L))
+    @Inject(at = @At("HEAD"), method = "fetchUserByName(Ljava/lang/String;)Ljava/util/Optional;", cancellable = true)
+    private void fetchUserByName__156756366(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-156756366L))
             info.setReturnValue(null);
     }
 
@@ -43,9 +31,21 @@ public class MinecraftPlayerListServiceImpl_2128175375Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "fetchUserByName(Ljava/lang/String;)Ljava/util/Optional;", cancellable = true)
-    private void fetchUserByName__156756366(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-156756366L))
+    @Inject(at = @At("HEAD"), method = "getPlayer(Ljava/util/Optional;Ljava/util/Optional;)Ljava/util/Optional;", cancellable = true)
+    private void getPlayer_766587166(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(766587166L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getPlayer(Ljava/util/UUID;)Lnet/minecraft/server/level/ServerPlayer;", cancellable = true)
+    private void getPlayer__1129699489(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1129699489L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getPlayers()Ljava/util/List;", cancellable = true)
+    private void getPlayers__540455106(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-540455106L))
             info.setReturnValue(null);
     }
 

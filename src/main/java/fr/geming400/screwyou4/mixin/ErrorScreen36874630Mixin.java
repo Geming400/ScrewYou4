@@ -22,7 +22,7 @@ public class ErrorScreen36874630Mixin {
     @Inject(at = @At("HEAD"), method = "shouldCloseOnEsc()Z", cancellable = true)
     private void shouldCloseOnEsc_75153213(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(75153213L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
 

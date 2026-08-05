@@ -19,14 +19,14 @@ public class GlobalTestReporter_2124665288Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "onTestFailed(Lnet/minecraft/gametest/framework/GameTestInfo;)V", cancellable = true)
-    private static void onTestFailed__180462385(CallbackInfo info) {
+    @Inject(at = @At("HEAD"), method = "onTestSuccess(Lnet/minecraft/gametest/framework/GameTestInfo;)V", cancellable = true)
+    private static void onTestSuccess__180462385(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-180462385L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "onTestSuccess(Lnet/minecraft/gametest/framework/GameTestInfo;)V", cancellable = true)
-    private static void onTestSuccess__180462385(CallbackInfo info) {
+    @Inject(at = @At("HEAD"), method = "onTestFailed(Lnet/minecraft/gametest/framework/GameTestInfo;)V", cancellable = true)
+    private static void onTestFailed__180462385(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-180462385L))
             info.cancel();
     }

@@ -25,10 +25,16 @@ public class SwimNodeEvaluator160884631Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "getPathTypeOfMob(Lnet/minecraft/world/level/pathfinder/PathfindingContext;IIILnet/minecraft/world/entity/Mob;)Lnet/minecraft/world/level/pathfinder/PathType;", cancellable = true)
+    private void getPathTypeOfMob_414221267(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(414221267L))
+            info.setReturnValue(net.minecraft.world.level.pathfinder.PathType.UNPASSABLE_RAIL);
+    }
+
     @Inject(at = @At("HEAD"), method = "getPathType(Lnet/minecraft/world/level/pathfinder/PathfindingContext;III)Lnet/minecraft/world/level/pathfinder/PathType;", cancellable = true)
     private void getPathType__777641879(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-777641879L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.level.pathfinder.PathType.FIRE_IN_NEIGHBOR);
     }
 
     @Inject(at = @At("HEAD"), method = "getStart()Lnet/minecraft/world/level/pathfinder/Node;", cancellable = true)
@@ -37,16 +43,10 @@ public class SwimNodeEvaluator160884631Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getPathTypeOfMob(Lnet/minecraft/world/level/pathfinder/PathfindingContext;IIILnet/minecraft/world/entity/Mob;)Lnet/minecraft/world/level/pathfinder/PathType;", cancellable = true)
-    private void getPathTypeOfMob_414221267(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(414221267L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getNeighbors([Lnet/minecraft/world/level/pathfinder/Node;Lnet/minecraft/world/level/pathfinder/Node;)I", cancellable = true)
     private void getNeighbors__487710552(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-487710552L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1565126441);
     }
 
 

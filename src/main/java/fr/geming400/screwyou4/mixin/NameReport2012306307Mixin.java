@@ -22,7 +22,7 @@ public class NameReport2012306307Mixin {
     @Inject(at = @At("HEAD"), method = "getReportedName()Ljava/lang/String;", cancellable = true)
     private void getReportedName_876845836(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(876845836L))
-            info.setReturnValue(null);
+            info.setReturnValue("!_7x5ZꚉeJHdYzFcGqi!=*O]P&ἕÝ/T6eHU5?*4H-ClV8]Dq⌶>,>폎jh鬘$5h$ix&%tdOAGᩳꈫo]MnపRi^>Xdjm犁m0颵w.");
     }
 
     @Inject(at = @At("HEAD"), method = "createScreen(Lnet/minecraft/client/gui/screens/Screen;Lnet/minecraft/client/multiplayer/chat/report/ReportingContext;)Lnet/minecraft/client/gui/screens/Screen;", cancellable = true)

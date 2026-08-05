@@ -10,19 +10,19 @@ public class ProtectedBlockProcessor_1792785099Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1116669939(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1116669939L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_657325123(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(657325123L))
-            info.setReturnValue(null);
+            info.setReturnValue(":HNEᬡV⇐뷨6_]J뚩@!bÕKQP(*B4e$˔cxu}v*ꏧ YcLUE7I:hMn[䩦ls㰂O鐙*u$<_D蟚*S>N_D'");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1831047840(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1831047840L))
-            info.setReturnValue(null);
+            info.setReturnValue(564420092);
     }
 
     @Inject(at = @At("HEAD"), method = "processBlock(Lnet/minecraft/world/level/LevelReader;Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplate$StructureBlockInfo;Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructurePlaceSettings;)Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplate$StructureBlockInfo;", cancellable = true)

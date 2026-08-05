@@ -22,7 +22,7 @@ public class ConfirmScreen_1535681282Mixin {
     @Inject(at = @At("HEAD"), method = "keyPressed(Lnet/minecraft/client/input/KeyEvent;)Z", cancellable = true)
     private void keyPressed_619045567(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(619045567L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "getNarrationMessage()Lnet/minecraft/network/chat/Component;", cancellable = true)
@@ -34,7 +34,7 @@ public class ConfirmScreen_1535681282Mixin {
     @Inject(at = @At("HEAD"), method = "shouldCloseOnEsc()Z", cancellable = true)
     private void shouldCloseOnEsc_1573959864(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1573959864L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
 

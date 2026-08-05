@@ -16,7 +16,7 @@ public class ReserveStrategy1860450254Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/client/gui/components/ScrollableLayout$ReserveStrategy;", cancellable = true)
     private static void valueOf_577959065(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(577959065L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.client.gui.components.ScrollableLayout.ReserveStrategy.BOTH);
     }
 
 

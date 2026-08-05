@@ -16,7 +16,7 @@ public class FogType_223246310Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/world/level/material/FogType;", cancellable = true)
     private static void valueOf__2117536939(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2117536939L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.level.material.FogType.NONE);
     }
 
 

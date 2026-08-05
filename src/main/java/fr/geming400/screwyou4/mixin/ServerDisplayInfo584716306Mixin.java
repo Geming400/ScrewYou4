@@ -16,19 +16,19 @@ public class ServerDisplayInfo584716306Mixin {
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_1970228565(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1970228565L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__550743669(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-550743669L))
-            info.setReturnValue(null);
+            info.setReturnValue("-]Gov7ob鄋p");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_622979048(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(622979048L))
-            info.setReturnValue(null);
+            info.setReturnValue(1877369347);
     }
 
     @Inject(at = @At("HEAD"), method = "display()Lnet/minecraft/world/item/crafting/display/RecipeDisplayEntry;", cancellable = true)

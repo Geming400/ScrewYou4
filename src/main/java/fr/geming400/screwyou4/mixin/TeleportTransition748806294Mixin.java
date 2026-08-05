@@ -10,19 +10,19 @@ public class TeleportTransition748806294Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_2134318553(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2134318553L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__386653681(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-386653681L))
-            info.setReturnValue(null);
+            info.setReturnValue("XUJQAKΈ)(8M;|\"尖(倈禵q=bSA#%V}&匒T+q|}賄Q᱒G&g");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_787069036(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(787069036L))
-            info.setReturnValue(null);
+            info.setReturnValue(1242949717);
     }
 
     @Inject(at = @At("HEAD"), method = "position()Lnet/minecraft/world/phys/Vec3;", cancellable = true)
@@ -43,51 +43,15 @@ public class TeleportTransition748806294Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "xRot()F", cancellable = true)
-    private void xRot_787065657(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(787065657L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "yRot()F", cancellable = true)
-    private void yRot_787065657(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(787065657L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "postTeleportTransition()Lnet/minecraft/world/level/portal/TeleportTransition$PostTeleportTransition;", cancellable = true)
-    private void postTeleportTransition_412842951(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(412842951L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "withPosition(Lnet/minecraft/world/phys/Vec3;)Lnet/minecraft/world/level/portal/TeleportTransition;", cancellable = true)
-    private void withPosition__823271041(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-823271041L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "withRotation(FF)Lnet/minecraft/world/level/portal/TeleportTransition;", cancellable = true)
-    private void withRotation__1732591565(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1732591565L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "transitionAsPassenger()Lnet/minecraft/world/level/portal/TeleportTransition;", cancellable = true)
-    private void transitionAsPassenger_203776371(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(203776371L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "asPassenger()Z", cancellable = true)
-    private void asPassenger_787084877(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "missingRespawnBlock()Z", cancellable = true)
+    private void missingRespawnBlock_787084877(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(787084877L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "relatives()Ljava/util/Set;", cancellable = true)
-    private void relatives__1080229192(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1080229192L))
+    @Inject(at = @At("HEAD"), method = "missingRespawnBlock(Lnet/minecraft/server/level/ServerPlayer;Lnet/minecraft/world/level/portal/TeleportTransition$PostTeleportTransition;)Lnet/minecraft/world/level/portal/TeleportTransition;", cancellable = true)
+    private static void missingRespawnBlock__1385217875(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1385217875L))
             info.setReturnValue(null);
     }
 
@@ -97,16 +61,52 @@ public class TeleportTransition748806294Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "missingRespawnBlock()Z", cancellable = true)
-    private void missingRespawnBlock_787084877(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(787084877L))
+    @Inject(at = @At("HEAD"), method = "withPosition(Lnet/minecraft/world/phys/Vec3;)Lnet/minecraft/world/level/portal/TeleportTransition;", cancellable = true)
+    private void withPosition__823271041(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-823271041L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "missingRespawnBlock(Lnet/minecraft/server/level/ServerPlayer;Lnet/minecraft/world/level/portal/TeleportTransition$PostTeleportTransition;)Lnet/minecraft/world/level/portal/TeleportTransition;", cancellable = true)
-    private static void missingRespawnBlock__1385217875(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1385217875L))
+    @Inject(at = @At("HEAD"), method = "asPassenger()Z", cancellable = true)
+    private void asPassenger_787084877(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(787084877L))
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "withRotation(FF)Lnet/minecraft/world/level/portal/TeleportTransition;", cancellable = true)
+    private void withRotation__1732591565(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1732591565L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "postTeleportTransition()Lnet/minecraft/world/level/portal/TeleportTransition$PostTeleportTransition;", cancellable = true)
+    private void postTeleportTransition_412842951(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(412842951L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "transitionAsPassenger()Lnet/minecraft/world/level/portal/TeleportTransition;", cancellable = true)
+    private void transitionAsPassenger_203776371(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(203776371L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "relatives()Ljava/util/Set;", cancellable = true)
+    private void relatives__1080229192(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1080229192L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "xRot()F", cancellable = true)
+    private void xRot_787065657(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(787065657L))
+            info.setReturnValue(7.956963E8F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "yRot()F", cancellable = true)
+    private void yRot_787065657(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(787065657L))
+            info.setReturnValue(7.956963E8F);
     }
 
 

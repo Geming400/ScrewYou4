@@ -16,19 +16,19 @@ public class Submit_710540377Mixin {
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_2096052635(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2096052635L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__424919599(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-424919599L))
-            info.setReturnValue(null);
+            info.setReturnValue("Pk-\"m翳:,a(ygD%QPtlt!9t'15%꽳Tmn;TO4f{?9wTFl[wD@帾C鴦1yh^m9-컝<LC[#|MB.?$p]NU<nKน");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_748803118(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(748803118L))
-            info.setReturnValue(null);
+            info.setReturnValue(-626527226);
     }
 
     @Inject(at = @At("HEAD"), method = "camera()Lnet/minecraft/client/renderer/state/level/CameraRenderState;", cancellable = true)

@@ -16,7 +16,7 @@ public class BlockModelRotation_584457282Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__551003190(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-551003190L))
-            info.setReturnValue(null);
+            info.setReturnValue("/I|ꛙ: 絗F褋3<c[銄6HE냘teVsӻU畐2屢oyk5jWnV[rpU`X蝳VCᶤZ鏍E猿J77");
     }
 
     @Inject(at = @At("HEAD"), method = "transformation()Lcom/mojang/math/Transformation;", cancellable = true)

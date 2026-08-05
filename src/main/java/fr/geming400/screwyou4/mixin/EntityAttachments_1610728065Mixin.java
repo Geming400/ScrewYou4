@@ -37,14 +37,14 @@ public class EntityAttachments_1610728065Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getNullable(Lnet/minecraft/world/entity/EntityAttachment;IF)Lnet/minecraft/world/phys/Vec3;", cancellable = true)
-    private void getNullable_1643084108(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "getClamped(Lnet/minecraft/world/entity/EntityAttachment;IF)Lnet/minecraft/world/phys/Vec3;", cancellable = true)
+    private void getClamped_1643084108(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1643084108L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getClamped(Lnet/minecraft/world/entity/EntityAttachment;IF)Lnet/minecraft/world/phys/Vec3;", cancellable = true)
-    private void getClamped_1643084108(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "getNullable(Lnet/minecraft/world/entity/EntityAttachment;IF)Lnet/minecraft/world/phys/Vec3;", cancellable = true)
+    private void getNullable_1643084108(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1643084108L))
             info.setReturnValue(null);
     }

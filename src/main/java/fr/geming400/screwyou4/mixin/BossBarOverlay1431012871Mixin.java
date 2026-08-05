@@ -10,7 +10,7 @@ public class BossBarOverlay1431012871Mixin {
         @Inject(at = @At("HEAD"), method = "getName()Ljava/lang/String;", cancellable = true)
     private void getName_295552400(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(295552400L))
-            info.setReturnValue(null);
+            info.setReturnValue("䞤F:UJbsXEPȖpk9QIFn26ﴀi塌uCࣲs쎪85IW/?Ya|R3B뿺瞤(/!}7/E슧O");
     }
 
     @Inject(at = @At("HEAD"), method = "values()[Lnet/minecraft/world/BossEvent$BossBarOverlay;", cancellable = true)
@@ -22,13 +22,13 @@ public class BossBarOverlay1431012871Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/world/BossEvent$BossBarOverlay;", cancellable = true)
     private static void valueOf__2228783(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2228783L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.BossEvent.BossBarOverlay.PROGRESS);
     }
 
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName_295552400(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(295552400L))
-            info.setReturnValue(null);
+            info.setReturnValue("䞤F:UJbsXEPȖpk9QIFn26ﴀi塌uCࣲs쎪85IW/?Ya|R3B뿺瞤(/!}7/E슧O");
     }
 
 

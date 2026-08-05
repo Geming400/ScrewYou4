@@ -16,7 +16,7 @@ public class Confidence1558321490Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/util/ModCheck$Confidence;", cancellable = true)
     private static void valueOf_250037887(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(250037887L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.util.ModCheck.Confidence.VERY_LIKELY);
     }
 
 

@@ -16,19 +16,19 @@ public class Unstitcher1945609125Mixin {
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__963845912(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-963845912L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_810149150(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(810149150L))
-            info.setReturnValue(null);
+            info.setReturnValue("AyY]흗q.聰喝U5Ixd躔81w^HaWVM");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1983871867(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1983871867L))
-            info.setReturnValue(null);
+            info.setReturnValue(1870466063);
     }
 
     @Inject(at = @At("HEAD"), method = "resource()Lnet/minecraft/resources/Identifier;", cancellable = true)
@@ -49,16 +49,16 @@ public class Unstitcher1945609125Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "xDivisor()D", cancellable = true)
-    private void xDivisor_1983866566(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1983866566L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "yDivisor()D", cancellable = true)
     private void yDivisor_1983866566(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1983866566L))
-            info.setReturnValue(null);
+            info.setReturnValue(5.480219006562014E8D);
+    }
+
+    @Inject(at = @At("HEAD"), method = "xDivisor()D", cancellable = true)
+    private void xDivisor_1983866566(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1983866566L))
+            info.setReturnValue(5.480219006562014E8D);
     }
 
 

@@ -16,13 +16,13 @@ public class ClientboundGameRuleValuesPacket4587277Mixin {
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_1390099536(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1390099536L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__1130872698(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1130872698L))
-            info.setReturnValue(null);
+            info.setReturnValue("5)-0u,ાzdP1Ṗ톭H@_cEfk(鲑r(;%'Kgl:CRuX0 GnC5\"FnOT劚湸Aa2{K/虹R컒Cy|f}yae[>XUSסo9O!斍㥀");
     }
 
     @Inject(at = @At("HEAD"), method = "values()Ljava/util/Map;", cancellable = true)
@@ -34,7 +34,7 @@ public class ClientboundGameRuleValuesPacket4587277Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_42850019(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(42850019L))
-            info.setReturnValue(null);
+            info.setReturnValue(-431928387);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/PacketListener;)V", cancellable = true)

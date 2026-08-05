@@ -16,19 +16,19 @@ public class Composite1360926897Mixin {
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1548528140(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1548528140L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_225466922(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(225466922L))
-            info.setReturnValue(null);
+            info.setReturnValue("U0XMR(M.Iy/}pJQ3mSꔩu<)!48_0nL⚢omrIWq$iScE7#hWꀷ./](Z+i }|潝荢Ep_?G8-!");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1399189639(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1399189639L))
-            info.setReturnValue(null);
+            info.setReturnValue(151171416);
     }
 
     @Inject(at = @At("HEAD"), method = "resolve(Lnet/minecraft/util/context/ContextMap;Lnet/minecraft/world/item/crafting/display/DisplayContentsFactory;)Ljava/util/stream/Stream;", cancellable = true)
@@ -40,7 +40,7 @@ public class Composite1360926897Mixin {
     @Inject(at = @At("HEAD"), method = "isEnabled(Lnet/minecraft/world/flag/FeatureFlagSet;)Z", cancellable = true)
     private void isEnabled__68842483(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-68842483L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "contents()Ljava/util/List;", cancellable = true)

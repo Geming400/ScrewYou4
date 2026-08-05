@@ -10,13 +10,13 @@ public class LootTableProvider_1563857943Mixin {
         @Inject(at = @At("HEAD"), method = "getName()Ljava/lang/String;", cancellable = true)
     private void getName_428397471(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(428397471L))
-            info.setReturnValue(null);
+            info.setReturnValue("충mRr㺒츜熕b^aV)Fvy{gp%'8B;/e鮘y큚vnBkczs");
     }
 
     @Inject(at = @At("HEAD"), method = "run(Lnet/minecraft/data/CachedOutput;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
     private void run__2004586896(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2004586896L))
-            info.setReturnValue(null);
+            info.setReturnValue(new java.util.concurrent.CompletableFuture());
     }
 
 

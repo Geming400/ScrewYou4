@@ -16,19 +16,19 @@ public class LayerType1578767288Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/client/resources/model/EquipmentClientInfo$LayerType;", cancellable = true)
     private static void valueOf__1404071674(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1404071674L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.client.resources.model.EquipmentClientInfo.LayerType.CAMEL_SADDLE);
     }
 
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName_443306817(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(443306817L))
-            info.setReturnValue(null);
+            info.setReturnValue("n,AU)+&a쉒&Dc-ZTXHuH,P`:kqJ<,yZZ㮆v+^+Otz#喈!炏!_*1");
     }
 
     @Inject(at = @At("HEAD"), method = "trimAssetPrefix()Ljava/lang/String;", cancellable = true)
     private void trimAssetPrefix_443306817(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(443306817L))
-            info.setReturnValue(null);
+            info.setReturnValue("n,AU)+&a쉒&Dc-ZTXHuH,P`:kqJ<,yZZ㮆v+^+Otz#喈!炏!_*1");
     }
 
 

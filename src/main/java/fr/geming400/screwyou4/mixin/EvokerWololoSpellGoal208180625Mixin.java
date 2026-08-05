@@ -22,7 +22,7 @@ public class EvokerWololoSpellGoal208180625Mixin {
     @Inject(at = @At("HEAD"), method = "canUse()Z", cancellable = true)
     private void canUse_246459208(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(246459208L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "tick()V", cancellable = true)
@@ -34,7 +34,7 @@ public class EvokerWololoSpellGoal208180625Mixin {
     @Inject(at = @At("HEAD"), method = "canContinueToUse()Z", cancellable = true)
     private void canContinueToUse_246459208(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(246459208L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
 

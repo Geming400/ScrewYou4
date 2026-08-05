@@ -16,19 +16,19 @@ public class ServerboundClientTickEndPacket1134498898Mixin {
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1774956139(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1774956139L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__961077(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-961077L))
-            info.setReturnValue(null);
+            info.setReturnValue("2!CQD.h볅+ࠏU.HIEQ\"䫑(1FD꺌-z6븛\"44");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1172761640(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1172761640L))
-            info.setReturnValue(null);
+            info.setReturnValue(-233094524);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/PacketListener;)V", cancellable = true)

@@ -10,19 +10,19 @@ public class Vec2_1654934324Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1254521210(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1254521210L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "length()F", cancellable = true)
     private void length_1693193686(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1693193686L))
-            info.setReturnValue(null);
+            info.setReturnValue(2.432333E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1693196569(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1693196569L))
-            info.setReturnValue(null);
+            info.setReturnValue(1090440843);
     }
 
     @Inject(at = @At("HEAD"), method = "scale(F)Lnet/minecraft/world/phys/Vec2;", cancellable = true)
@@ -46,7 +46,7 @@ public class Vec2_1654934324Mixin {
     @Inject(at = @At("HEAD"), method = "dot(Lnet/minecraft/world/phys/Vec2;)F", cancellable = true)
     private void dot_1994025795(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1994025795L))
-            info.setReturnValue(null);
+            info.setReturnValue(2.432333E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "rotate(D)Lnet/minecraft/world/phys/Vec2;", cancellable = true)
@@ -70,13 +70,13 @@ public class Vec2_1654934324Mixin {
     @Inject(at = @At("HEAD"), method = "lengthSquared()F", cancellable = true)
     private void lengthSquared_1693193686(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1693193686L))
-            info.setReturnValue(null);
+            info.setReturnValue(2.432333E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "distanceToSqr(Lnet/minecraft/world/phys/Vec2;)F", cancellable = true)
     private void distanceToSqr_1994025795(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1994025795L))
-            info.setReturnValue(null);
+            info.setReturnValue(2.432333E8F);
     }
 
 

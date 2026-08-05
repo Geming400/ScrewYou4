@@ -10,7 +10,7 @@ public class CommandStorage_1693920424Mixin {
         @Inject(at = @At("HEAD"), method = "get(Lnet/minecraft/resources/Identifier;)Lnet/minecraft/nbt/CompoundTag;", cancellable = true)
     private void get__357206041(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-357206041L))
-            info.setReturnValue(null);
+            info.setReturnValue(new net.minecraft.nbt.CompoundTag());
     }
 
     @Inject(at = @At("HEAD"), method = "set(Lnet/minecraft/resources/Identifier;Lnet/minecraft/nbt/CompoundTag;)V", cancellable = true)

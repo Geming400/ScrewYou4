@@ -10,25 +10,25 @@ public class StringTag_37974101Mixin {
         @Inject(at = @At("HEAD"), method = "value()Ljava/lang/String;", cancellable = true)
     private void value__1097486371(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1097486371L))
-            info.setReturnValue(null);
+            info.setReturnValue("?EB',迡#ﵕ,RxN");
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_1423486359(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1423486359L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__1097486371(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1097486371L))
-            info.setReturnValue(null);
+            info.setReturnValue("?EB',迡#ﵕ,RxN");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_76236842(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(76236842L))
-            info.setReturnValue(null);
+            info.setReturnValue(85177488);
     }
 
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/nbt/StringTag;", cancellable = true)
@@ -52,13 +52,13 @@ public class StringTag_37974101Mixin {
     @Inject(at = @At("HEAD"), method = "getId()B", cancellable = true)
     private void getId_76229619(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(76229619L))
-            info.setReturnValue(null);
+            info.setReturnValue(-92);
     }
 
     @Inject(at = @At("HEAD"), method = "accept(Lnet/minecraft/nbt/StreamTagVisitor;)Lnet/minecraft/nbt/StreamTagVisitor$ValueResult;", cancellable = true)
     private void accept_2018284713(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2018284713L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.nbt.StreamTagVisitor.ValueResult.HALT);
     }
 
     @Inject(at = @At("HEAD"), method = "accept(Lnet/minecraft/nbt/TagVisitor;)V", cancellable = true)
@@ -82,7 +82,7 @@ public class StringTag_37974101Mixin {
     @Inject(at = @At("HEAD"), method = "sizeInBytes()I", cancellable = true)
     private void sizeInBytes_76236346(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(76236346L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1287606587);
     }
 
     @Inject(at = @At("HEAD"), method = "asString()Ljava/util/Optional;", cancellable = true)
@@ -100,7 +100,7 @@ public class StringTag_37974101Mixin {
     @Inject(at = @At("HEAD"), method = "quoteAndEscape(Ljava/lang/String;)Ljava/lang/String;", cancellable = true)
     private static void quoteAndEscape_1250716171(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1250716171L))
-            info.setReturnValue(null);
+            info.setReturnValue("m\"<0/lSmB?]寃䦈K ");
     }
 
     @Inject(at = @At("HEAD"), method = "quoteAndEscape(Ljava/lang/String;Ljava/lang/StringBuilder;)V", cancellable = true)
@@ -118,7 +118,7 @@ public class StringTag_37974101Mixin {
     @Inject(at = @At("HEAD"), method = "escapeWithoutQuotes(Ljava/lang/String;)Ljava/lang/String;", cancellable = true)
     private static void escapeWithoutQuotes_1250716171(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1250716171L))
-            info.setReturnValue(null);
+            info.setReturnValue("m\"<0/lSmB?]寃䦈K ");
     }
 
 

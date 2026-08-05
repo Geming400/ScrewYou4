@@ -7,19 +7,7 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.client.model.object.armorstand.ArmorStandArmorModel.class)
 public class ArmorStandArmorModel1703940719Mixin {
-        @Inject(at = @At("HEAD"), method = "createArmorLayerSet(Lnet/minecraft/client/model/geom/builders/CubeDeformation;Lnet/minecraft/client/model/geom/builders/CubeDeformation;)Lnet/minecraft/client/renderer/entity/ArmorModelSet;", cancellable = true)
-    private static void createArmorLayerSet_651323857(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(651323857L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "setupAnim(Ljava/lang/Object;)V", cancellable = true)
-    private void setupAnim__1205389698(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1205389698L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "setupAnim(Lnet/minecraft/client/renderer/entity/state/ArmorStandRenderState;)V", cancellable = true)
+        @Inject(at = @At("HEAD"), method = "setupAnim(Lnet/minecraft/client/renderer/entity/state/ArmorStandRenderState;)V", cancellable = true)
     private void setupAnim__871734149(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-871734149L))
             info.cancel();
@@ -29,6 +17,18 @@ public class ArmorStandArmorModel1703940719Mixin {
     private void setupAnim__1297700255(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1297700255L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "setupAnim(Ljava/lang/Object;)V", cancellable = true)
+    private void setupAnim__1205389698(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1205389698L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "createArmorLayerSet(Lnet/minecraft/client/model/geom/builders/CubeDeformation;Lnet/minecraft/client/model/geom/builders/CubeDeformation;)Lnet/minecraft/client/renderer/entity/ArmorModelSet;", cancellable = true)
+    private static void createArmorLayerSet_651323857(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(651323857L))
+            info.setReturnValue(null);
     }
 
 

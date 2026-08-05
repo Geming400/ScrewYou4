@@ -16,7 +16,7 @@ public class StoredEnchantments_673983638Mixin {
     @Inject(at = @At("HEAD"), method = "matches(Ljava/lang/Object;)Z", cancellable = true)
     private void matches_2059624360(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2059624360L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
 

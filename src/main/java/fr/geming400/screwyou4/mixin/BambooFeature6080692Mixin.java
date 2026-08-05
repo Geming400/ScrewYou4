@@ -10,7 +10,7 @@ public class BambooFeature6080692Mixin {
         @Inject(at = @At("HEAD"), method = "place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z", cancellable = true)
     private void place_721338428(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(721338428L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
 

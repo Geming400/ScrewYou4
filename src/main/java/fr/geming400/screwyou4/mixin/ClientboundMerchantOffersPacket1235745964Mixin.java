@@ -25,40 +25,40 @@ public class ClientboundMerchantOffersPacket1235745964Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getVillagerXp()I", cancellable = true)
-    private void getVillagerXp_1274008210(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1274008210L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getVillagerLevel()I", cancellable = true)
-    private void getVillagerLevel_1274008210(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1274008210L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "showProgress()Z", cancellable = true)
-    private void showProgress_1274024547(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1274024547L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getContainerId()I", cancellable = true)
-    private void getContainerId_1274008210(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1274008210L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "getOffers()Lnet/minecraft/world/item/trading/MerchantOffers;", cancellable = true)
+    private void getOffers_432434648(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(432434648L))
+            info.setReturnValue(new net.minecraft.world.item.trading.MerchantOffers());
     }
 
     @Inject(at = @At("HEAD"), method = "canRestock()Z", cancellable = true)
     private void canRestock_1274024547(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1274024547L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "getOffers()Lnet/minecraft/world/item/trading/MerchantOffers;", cancellable = true)
-    private void getOffers_432434648(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(432434648L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "getVillagerXp()I", cancellable = true)
+    private void getVillagerXp_1274008210(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1274008210L))
+            info.setReturnValue(1120170682);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getVillagerLevel()I", cancellable = true)
+    private void getVillagerLevel_1274008210(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1274008210L))
+            info.setReturnValue(1120170682);
+    }
+
+    @Inject(at = @At("HEAD"), method = "showProgress()Z", cancellable = true)
+    private void showProgress_1274024547(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1274024547L))
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getContainerId()I", cancellable = true)
+    private void getContainerId_1274008210(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1274008210L))
+            info.setReturnValue(1120170682);
     }
 
 

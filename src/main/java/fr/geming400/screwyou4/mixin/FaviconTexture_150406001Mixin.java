@@ -22,7 +22,7 @@ public class FaviconTexture_150406001Mixin {
     @Inject(at = @At("HEAD"), method = "isClosed()Z", cancellable = true)
     private void isClosed_188684583(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(188684583L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "forWorld(Lnet/minecraft/client/renderer/texture/TextureManager;Ljava/lang/String;)Lnet/minecraft/client/gui/screens/FaviconTexture;", cancellable = true)

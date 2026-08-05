@@ -10,19 +10,19 @@ public class SelectableRecipe1551667748Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1357787289(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1357787289L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_416207773(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(416207773L))
-            info.setReturnValue(null);
+            info.setReturnValue("/GyH`t `a!pZ.36}R扁kmS2[幨Av]ET&If6捩-tr픬편FhK&珊MWᦱ[l,M@0ꩾ#dPC芖F4D㲃_萬(GRH");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1589930490(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1589930490L))
-            info.setReturnValue(null);
+            info.setReturnValue(492974542);
     }
 
     @Inject(at = @At("HEAD"), method = "recipe()Ljava/util/Optional;", cancellable = true)

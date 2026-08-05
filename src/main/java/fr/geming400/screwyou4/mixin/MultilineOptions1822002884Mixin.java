@@ -10,19 +10,19 @@ public class MultilineOptions1822002884Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1087452153(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1087452153L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_686542909(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(686542909L))
-            info.setReturnValue(null);
+            info.setReturnValue("d^Ὠnl］I%鮣16; AL*Qށ%9c䩅B**Yr*d햲蚭滫k鄹UIUcSh&!O柗F:");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1860265626(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1860265626L))
-            info.setReturnValue(null);
+            info.setReturnValue(-956785375);
     }
 
     @Inject(at = @At("HEAD"), method = "maxLines()Ljava/util/Optional;", cancellable = true)

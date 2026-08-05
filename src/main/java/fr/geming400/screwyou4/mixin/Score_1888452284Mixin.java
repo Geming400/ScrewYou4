@@ -10,7 +10,7 @@ public class Score_1888452284Mixin {
         @Inject(at = @At("HEAD"), method = "value()I", cancellable = true)
     private void value_1926714529(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1926714529L))
-            info.setReturnValue(null);
+            info.setReturnValue(1199070054);
     }
 
     @Inject(at = @At("HEAD"), method = "value(I)V", cancellable = true)
@@ -34,7 +34,7 @@ public class Score_1888452284Mixin {
     @Inject(at = @At("HEAD"), method = "isLocked()Z", cancellable = true)
     private void isLocked_1926730866(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1926730866L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "numberFormat(Lnet/minecraft/network/chat/numbers/NumberFormat;)V", cancellable = true)

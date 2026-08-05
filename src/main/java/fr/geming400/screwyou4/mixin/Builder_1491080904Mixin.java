@@ -19,15 +19,15 @@ public class Builder_1491080904Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "withOptionalRandomSource(Lnet/minecraft/util/RandomSource;)Lnet/minecraft/world/level/storage/loot/LootContext$Builder;", cancellable = true)
-    private void withOptionalRandomSource__1765371570(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1765371570L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "withOptionalRandomSeed(J)Lnet/minecraft/world/level/storage/loot/LootContext$Builder;", cancellable = true)
     private void withOptionalRandomSeed__164637004(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-164637004L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "withOptionalRandomSource(Lnet/minecraft/util/RandomSource;)Lnet/minecraft/world/level/storage/loot/LootContext$Builder;", cancellable = true)
+    private void withOptionalRandomSource__1765371570(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1765371570L))
             info.setReturnValue(null);
     }
 

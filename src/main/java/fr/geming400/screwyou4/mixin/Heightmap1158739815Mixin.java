@@ -10,19 +10,13 @@ public class Heightmap1158739815Mixin {
         @Inject(at = @At("HEAD"), method = "update(IIILnet/minecraft/world/level/block/state/BlockState;)Z", cancellable = true)
     private void update__1526278810(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1526278810L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getRawData()[J", cancellable = true)
-    private void getRawData__1950385163(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1950385163L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "getHighestTaken(II)I", cancellable = true)
     private void getHighestTaken_162847853(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(162847853L))
-            info.setReturnValue(null);
+            info.setReturnValue(1891288368);
     }
 
     @Inject(at = @At("HEAD"), method = "primeHeightmaps(Lnet/minecraft/world/level/chunk/ChunkAccess;Ljava/util/Set;)V", cancellable = true)
@@ -34,6 +28,12 @@ public class Heightmap1158739815Mixin {
     @Inject(at = @At("HEAD"), method = "getFirstAvailable(II)I", cancellable = true)
     private void getFirstAvailable_162847853(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(162847853L))
+            info.setReturnValue(1891288368);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getRawData()[J", cancellable = true)
+    private void getRawData__1950385163(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1950385163L))
             info.setReturnValue(null);
     }
 

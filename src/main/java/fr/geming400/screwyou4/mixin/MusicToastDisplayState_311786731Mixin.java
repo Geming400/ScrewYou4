@@ -16,7 +16,7 @@ public class MusicToastDisplayState_311786731Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/client/MusicToastDisplayState;", cancellable = true)
     private static void valueOf__1690867505(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1690867505L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.client.MusicToastDisplayState.PAUSE_AND_TOAST);
     }
 
     @Inject(at = @At("HEAD"), method = "text()Lnet/minecraft/network/chat/Component;", cancellable = true)
@@ -28,7 +28,7 @@ public class MusicToastDisplayState_311786731Mixin {
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName__823673741(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-823673741L))
-            info.setReturnValue(null);
+            info.setReturnValue("h퍋M+8<5ミ:伫Z䎟[抒B([q'<UPZn");
     }
 
     @Inject(at = @At("HEAD"), method = "tooltip()Lnet/minecraft/network/chat/Component;", cancellable = true)
@@ -40,13 +40,13 @@ public class MusicToastDisplayState_311786731Mixin {
     @Inject(at = @At("HEAD"), method = "renderInPauseScreen()Z", cancellable = true)
     private void renderInPauseScreen_350065313(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(350065313L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "renderToast()Z", cancellable = true)
     private void renderToast_350065313(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(350065313L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
 

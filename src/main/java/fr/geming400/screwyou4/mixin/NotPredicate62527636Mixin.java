@@ -16,13 +16,13 @@ public class NotPredicate62527636Mixin {
     @Inject(at = @At("HEAD"), method = "test(Ljava/lang/Object;Ljava/lang/Object;)Z", cancellable = true)
     private void test_22200899(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(22200899L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "test(Lnet/minecraft/world/level/WorldGenLevel;Lnet/minecraft/core/BlockPos;)Z", cancellable = true)
     private void test_1264228434(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1264228434L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
 

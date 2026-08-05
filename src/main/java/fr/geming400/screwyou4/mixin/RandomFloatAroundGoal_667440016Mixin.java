@@ -16,13 +16,13 @@ public class RandomFloatAroundGoal_667440016Mixin {
     @Inject(at = @At("HEAD"), method = "canUse()Z", cancellable = true)
     private void canUse_705718598(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(705718598L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "canContinueToUse()Z", cancellable = true)
     private void canContinueToUse_705718598(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(705718598L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "getSuitableFlyToPosition(Lnet/minecraft/world/entity/Mob;I)Lnet/minecraft/world/phys/Vec3;", cancellable = true)

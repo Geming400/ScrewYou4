@@ -10,7 +10,13 @@ public class Entry_1428220958Mixin {
         @Inject(at = @At("HEAD"), method = "getReason()Lnet/minecraft/client/multiplayer/chat/report/ReportReason;", cancellable = true)
     private void getReason_54463584(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(54463584L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.client.multiplayer.chat.report.ReportReason.HATE_SPEECH);
+    }
+
+    @Inject(at = @At("HEAD"), method = "mouseClicked(Lnet/minecraft/client/input/MouseButtonEvent;Z)Z", cancellable = true)
+    private void mouseClicked__186437921(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-186437921L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "extractContent(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIZF)V", cancellable = true)
@@ -22,12 +28,6 @@ public class Entry_1428220958Mixin {
     @Inject(at = @At("HEAD"), method = "getNarration()Lnet/minecraft/network/chat/Component;", cancellable = true)
     private void getNarration__748688208(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-748688208L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "mouseClicked(Lnet/minecraft/client/input/MouseButtonEvent;Z)Z", cancellable = true)
-    private void mouseClicked__186437921(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-186437921L))
             info.setReturnValue(null);
     }
 

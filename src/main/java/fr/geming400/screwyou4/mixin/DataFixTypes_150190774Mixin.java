@@ -22,13 +22,13 @@ public class DataFixTypes_150190774Mixin {
     @Inject(at = @At("HEAD"), method = "update(Lcom/mojang/datafixers/DataFixer;Lnet/minecraft/nbt/CompoundTag;II)Lnet/minecraft/nbt/CompoundTag;", cancellable = true)
     private void update__1178278860(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1178278860L))
-            info.setReturnValue(null);
+            info.setReturnValue(new net.minecraft.nbt.CompoundTag());
     }
 
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/util/datafix/DataFixTypes;", cancellable = true)
     private static void valueOf_1926515760(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1926515760L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.util.datafix.DataFixTypes.SAVED_DATA_WANDERING_TRADER);
     }
 
     @Inject(at = @At("HEAD"), method = "updateToCurrentVersion(Lcom/mojang/datafixers/DataFixer;Lnet/minecraft/nbt/CompoundTag;I)Lnet/minecraft/nbt/CompoundTag;", cancellable = true)

@@ -16,7 +16,7 @@ public class TextureFilteringMethod_1269183852Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/client/TextureFilteringMethod;", cancellable = true)
     private static void valueOf__348010063(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-348010063L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.client.TextureFilteringMethod.ANISOTROPIC);
     }
 
     @Inject(at = @At("HEAD"), method = "caption()Lnet/minecraft/network/chat/Component;", cancellable = true)

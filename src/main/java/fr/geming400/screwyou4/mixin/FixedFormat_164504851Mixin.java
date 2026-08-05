@@ -22,19 +22,19 @@ public class FixedFormat_164504851Mixin {
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_1550017109(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1550017109L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__970955125(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-970955125L))
-            info.setReturnValue(null);
+            info.setReturnValue("}zegIw>M AE闾!!o0()G7D}3芸 iX");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_202767592(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(202767592L))
-            info.setReturnValue(null);
+            info.setReturnValue(1472466879);
     }
 
     @Inject(at = @At("HEAD"), method = "format(I)Lnet/minecraft/network/chat/MutableComponent;", cancellable = true)

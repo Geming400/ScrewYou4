@@ -22,7 +22,7 @@ public class DolphinJumpGoal336392945Mixin {
     @Inject(at = @At("HEAD"), method = "canUse()Z", cancellable = true)
     private void canUse_374671528(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(374671528L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "tick()V", cancellable = true)
@@ -31,16 +31,16 @@ public class DolphinJumpGoal336392945Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "canContinueToUse()Z", cancellable = true)
-    private void canContinueToUse_374671528(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(374671528L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "isInterruptable()Z", cancellable = true)
     private void isInterruptable_374671528(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(374671528L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "canContinueToUse()Z", cancellable = true)
+    private void canContinueToUse_374671528(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(374671528L))
+            info.setReturnValue(false);
     }
 
 

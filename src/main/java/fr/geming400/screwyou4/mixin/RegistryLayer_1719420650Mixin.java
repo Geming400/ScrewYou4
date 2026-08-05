@@ -16,7 +16,7 @@ public class RegistryLayer_1719420650Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/server/RegistryLayer;", cancellable = true)
     private static void valueOf_712013961(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(712013961L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.server.RegistryLayer.RELOADABLE);
     }
 
     @Inject(at = @At("HEAD"), method = "createRegistryAccess()Lnet/minecraft/core/LayeredRegistryAccess;", cancellable = true)

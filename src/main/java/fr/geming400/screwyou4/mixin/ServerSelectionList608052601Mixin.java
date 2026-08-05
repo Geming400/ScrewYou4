@@ -13,18 +13,6 @@ public class ServerSelectionList608052601Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "updateOnlineServers(Lnet/minecraft/client/multiplayer/ServerList;)V", cancellable = true)
-    private void updateOnlineServers__212164163(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-212164163L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "updateNetworkServers(Ljava/util/List;)V", cancellable = true)
-    private void updateNetworkServers__171165987(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-171165987L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "setSelected(Lnet/minecraft/client/gui/screens/multiplayer/ServerSelectionList$Entry;)V", cancellable = true)
     private void setSelected__1792692537(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1792692537L))
@@ -40,7 +28,19 @@ public class ServerSelectionList608052601Mixin {
     @Inject(at = @At("HEAD"), method = "getRowWidth()I", cancellable = true)
     private void getRowWidth_646314847(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(646314847L))
-            info.setReturnValue(null);
+            info.setReturnValue(543997068);
+    }
+
+    @Inject(at = @At("HEAD"), method = "updateNetworkServers(Ljava/util/List;)V", cancellable = true)
+    private void updateNetworkServers__171165987(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-171165987L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "updateOnlineServers(Lnet/minecraft/client/multiplayer/ServerList;)V", cancellable = true)
+    private void updateOnlineServers__212164163(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-212164163L))
+            info.cancel();
     }
 
 

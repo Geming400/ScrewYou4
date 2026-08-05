@@ -10,19 +10,19 @@ public class DebugStickState2011634550Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__897820487(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-897820487L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_876174575(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(876174575L))
-            info.setReturnValue(null);
+            info.setReturnValue("쬃XwL^?]+&+396XRᯟ_|.fX벛6VN0.駧2");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2049897292(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2049897292L))
-            info.setReturnValue(null);
+            info.setReturnValue(-595581658);
     }
 
     @Inject(at = @At("HEAD"), method = "properties()Ljava/util/Map;", cancellable = true)

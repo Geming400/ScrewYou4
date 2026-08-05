@@ -10,25 +10,25 @@ public class Entry1794827607Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1114627430(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1114627430L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_659367632(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(659367632L))
-            info.setReturnValue(null);
+            info.setReturnValue("QiNS>N");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1833090349(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1833090349L))
-            info.setReturnValue(null);
+            info.setReturnValue(-995822000);
     }
 
     @Inject(at = @At("HEAD"), method = "text()Ljava/lang/String;", cancellable = true)
     private void text_659367136(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(659367136L))
-            info.setReturnValue(null);
+            info.setReturnValue("☉=?꓄PcFPh^|sꌪlzu!SW:I5F-OW`lDC鲺8U컠3{t!l(Or邨|R`0r)");
     }
 
     @Inject(at = @At("HEAD"), method = "tooltip()Ljava/util/Optional;", cancellable = true)

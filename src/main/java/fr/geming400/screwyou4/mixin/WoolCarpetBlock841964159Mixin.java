@@ -16,7 +16,7 @@ public class WoolCarpetBlock841964159Mixin {
     @Inject(at = @At("HEAD"), method = "getColor()Lnet/minecraft/world/item/DyeColor;", cancellable = true)
     private void getColor__2017694907(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2017694907L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.item.DyeColor.GREEN);
     }
 
 

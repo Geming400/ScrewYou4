@@ -10,7 +10,7 @@ public class LevelVersion_1645275876Mixin {
         @Inject(at = @At("HEAD"), method = "snapshot()Z", cancellable = true)
     private void snapshot_1683554458(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1683554458L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "parse(Lcom/mojang/serialization/Dynamic;)Lnet/minecraft/world/level/storage/LevelVersion;", cancellable = true)
@@ -22,13 +22,13 @@ public class LevelVersion_1645275876Mixin {
     @Inject(at = @At("HEAD"), method = "lastPlayed()J", cancellable = true)
     private void lastPlayed_1683539082(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1683539082L))
-            info.setReturnValue(null);
+            info.setReturnValue(3100118123136170437L);
     }
 
     @Inject(at = @At("HEAD"), method = "minecraftVersionName()Ljava/lang/String;", cancellable = true)
     private void minecraftVersionName_509815404(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(509815404L))
-            info.setReturnValue(null);
+            info.setReturnValue("^OC5BCv2`t{YIbL/oS 䗌&K劫GR6稺C.ujMXVH爔8*4n0<gBo@g=D,kp@Rty't/cm9膗0I汌&1,jqU3#`雖_@MjS^W뻿#S<@");
     }
 
     @Inject(at = @At("HEAD"), method = "minecraftVersion()Lnet/minecraft/world/level/storage/DataVersion;", cancellable = true)
@@ -40,7 +40,7 @@ public class LevelVersion_1645275876Mixin {
     @Inject(at = @At("HEAD"), method = "levelDataVersion()I", cancellable = true)
     private void levelDataVersion_1683538121(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1683538121L))
-            info.setReturnValue(null);
+            info.setReturnValue(1113830995);
     }
 
 

@@ -10,19 +10,19 @@ public class LookAtPosition_1109166953Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1800288085(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1800288085L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__26293023(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-26293023L))
-            info.setReturnValue(null);
+            info.setReturnValue("xC셲eeyVoi>$Y|#㧂Xs;杔N'@0BqVx mᾐZ>=vt");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1147429694(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1147429694L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1886335323);
     }
 
     @Inject(at = @At("HEAD"), method = "position()Lnet/minecraft/world/phys/Vec3;", cancellable = true)

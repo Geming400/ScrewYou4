@@ -16,7 +16,7 @@ public class PostPlaceAction614836057Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/world/inventory/RecipeBookMenu$PostPlaceAction;", cancellable = true)
     private static void valueOf_10658498(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(10658498L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.inventory.RecipeBookMenu.PostPlaceAction.NOTHING);
     }
 
 

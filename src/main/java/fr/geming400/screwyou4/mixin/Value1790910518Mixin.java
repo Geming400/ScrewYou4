@@ -16,19 +16,19 @@ public class Value1790910518Mixin {
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1118544519(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1118544519L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_655450047(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(655450047L))
-            info.setReturnValue(null);
+            info.setReturnValue("Gɛkmhiq-'崓⩦'+.g'?");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1829173260(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1829173260L))
-            info.setReturnValue(null);
+            info.setReturnValue(-697145386);
     }
 
     @Inject(at = @At("HEAD"), method = "property()Lnet/minecraft/world/level/block/state/properties/Property;", cancellable = true)
@@ -40,7 +40,7 @@ public class Value1790910518Mixin {
     @Inject(at = @At("HEAD"), method = "valueName()Ljava/lang/String;", cancellable = true)
     private void valueName_655450047(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(655450047L))
-            info.setReturnValue(null);
+            info.setReturnValue("Gɛkmhiq-'崓⩦'+.g'?");
     }
 
 

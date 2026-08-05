@@ -10,7 +10,7 @@ public class UseDuration1341110653Mixin {
         @Inject(at = @At("HEAD"), method = "get(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/client/multiplayer/ClientLevel;Lnet/minecraft/world/entity/ItemOwner;I)F", cancellable = true)
     private void get_330067567(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(330067567L))
-            info.setReturnValue(null);
+            info.setReturnValue(3.374646E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "type()Lcom/mojang/serialization/MapCodec;", cancellable = true)
@@ -22,31 +22,31 @@ public class UseDuration1341110653Mixin {
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1568344384(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1568344384L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_205650678(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(205650678L))
-            info.setReturnValue(null);
+            info.setReturnValue("l=燿㯎^l皱@5ᶇk2b6m$|ecii%#JD㾏;$VX`Rq뫶]-8쏁$Hw'3皍葂ꄏ8 3(NTn녶NN");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1379373395(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1379373395L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1829296941);
     }
 
     @Inject(at = @At("HEAD"), method = "remaining()Z", cancellable = true)
     private void remaining_1379389236(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1379389236L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "useDuration(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/LivingEntity;)I", cancellable = true)
     private static void useDuration_443930246(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(443930246L))
-            info.setReturnValue(null);
+            info.setReturnValue(1332709096);
     }
 
 

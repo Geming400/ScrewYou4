@@ -16,19 +16,19 @@ public class TypeAndCodec1393502958Mixin {
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1515952079(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1515952079L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_258042983(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(258042983L))
-            info.setReturnValue(null);
+            info.setReturnValue("");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1431765700(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1431765700L))
-            info.setReturnValue(null);
+            info.setReturnValue(1642765548);
     }
 
     @Inject(at = @At("HEAD"), method = "codec()Lnet/minecraft/network/codec/StreamCodec;", cancellable = true)

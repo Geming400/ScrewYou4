@@ -10,7 +10,7 @@ public class Vec4Uniform1194654187Mixin {
         @Inject(at = @At("HEAD"), method = "type()Lnet/minecraft/client/renderer/UniformValue$Type;", cancellable = true)
     private void type__1452852246(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1452852246L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.client.renderer.UniformValue.Type.FLOAT);
     }
 
     @Inject(at = @At("HEAD"), method = "value()Lorg/joml/Vector4fc;", cancellable = true)
@@ -22,19 +22,19 @@ public class Vec4Uniform1194654187Mixin {
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1714800850(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1714800850L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_59194212(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(59194212L))
-            info.setReturnValue(null);
+            info.setReturnValue("'6(<ꕶW[⚕lMuo/uI-\"|QCRT\"粷斏>?۱>H'/돋\"b笼");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1232916929(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1232916929L))
-            info.setReturnValue(null);
+            info.setReturnValue(539366816);
     }
 
     @Inject(at = @At("HEAD"), method = "writeTo(Lcom/mojang/blaze3d/buffers/Std140Builder;)V", cancellable = true)

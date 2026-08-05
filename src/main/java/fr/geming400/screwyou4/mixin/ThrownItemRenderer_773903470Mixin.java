@@ -34,13 +34,13 @@ public class ThrownItemRenderer_773903470Mixin {
     @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/EntityRenderState;", cancellable = true)
     private void createRenderState_185267025(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(185267025L))
-            info.setReturnValue(null);
+            info.setReturnValue(new net.minecraft.client.renderer.entity.state.EntityRenderState());
     }
 
     @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/ThrownItemRenderState;", cancellable = true)
     private void createRenderState__1242692183(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1242692183L))
-            info.setReturnValue(null);
+            info.setReturnValue(new net.minecraft.client.renderer.entity.state.ThrownItemRenderState());
     }
 
 

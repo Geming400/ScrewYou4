@@ -10,19 +10,19 @@ public class TextureContents_1718512681Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1190942357(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1190942357L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_583052705(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(583052705L))
-            info.setReturnValue(null);
+            info.setReturnValue("xuoi}'+[OG>◜`Nʁ꯱砚>JHH!늴퀮8Q複呗e$[⧌P뵵sウ둛@wNC!.t`ꁔP3X`z䝼0^ᄗ└u:LvD");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1756775422(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1756775422L))
-            info.setReturnValue(null);
+            info.setReturnValue(719385218);
     }
 
     @Inject(at = @At("HEAD"), method = "load(Lnet/minecraft/server/packs/resources/ResourceManager;Lnet/minecraft/resources/Identifier;)Lnet/minecraft/client/renderer/texture/TextureContents;", cancellable = true)
@@ -34,7 +34,7 @@ public class TextureContents_1718512681Mixin {
     @Inject(at = @At("HEAD"), method = "clamp()Z", cancellable = true)
     private void clamp_1756791263(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1756791263L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "close()V", cancellable = true)
@@ -55,16 +55,16 @@ public class TextureContents_1718512681Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "blur()Z", cancellable = true)
-    private void blur_1756791263(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1756791263L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "createMissing()Lnet/minecraft/client/renderer/texture/TextureContents;", cancellable = true)
     private static void createMissing__981251841(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-981251841L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "blur()Z", cancellable = true)
+    private void blur_1756791263(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1756791263L))
+            info.setReturnValue(true);
     }
 
 

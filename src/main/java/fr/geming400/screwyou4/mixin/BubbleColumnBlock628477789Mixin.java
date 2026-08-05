@@ -13,15 +13,15 @@ public class BubbleColumnBlock628477789Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getPickupSound()Ljava/util/Optional;", cancellable = true)
-    private void getPickupSound_873939211(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(873939211L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "animateTick(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)V", cancellable = true)
     private void animateTick_505875708(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(505875708L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "updateColumn(Lnet/minecraft/world/level/block/Block;Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)V", cancellable = true)
+    private static void updateColumn_1431547755(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1431547755L))
             info.cancel();
     }
 
@@ -31,10 +31,10 @@ public class BubbleColumnBlock628477789Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "updateColumn(Lnet/minecraft/world/level/block/Block;Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)V", cancellable = true)
-    private static void updateColumn_1431547755(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1431547755L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "getPickupSound()Ljava/util/Optional;", cancellable = true)
+    private void getPickupSound_873939211(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(873939211L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "pickupBlock(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/item/ItemStack;", cancellable = true)

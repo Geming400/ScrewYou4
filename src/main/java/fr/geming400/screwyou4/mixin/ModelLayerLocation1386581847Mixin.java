@@ -10,25 +10,25 @@ public class ModelLayerLocation1386581847Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1522873190(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1522873190L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_251121376(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(251121376L))
-            info.setReturnValue(null);
+            info.setReturnValue(")rZ롫Q9Y0构f<mｽv(wC苴5◍@ᾷ/n⌌蠆8-x/CBv铲I!3c}e;x8{;9X=쑂9넡僺)");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1424844589(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1424844589L))
-            info.setReturnValue(null);
+            info.setReturnValue(851698087);
     }
 
     @Inject(at = @At("HEAD"), method = "layer()Ljava/lang/String;", cancellable = true)
     private void layer_251121376(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(251121376L))
-            info.setReturnValue(null);
+            info.setReturnValue(")rZ롫Q9Y0构f<mｽv(wC苴5◍@ᾷ/n⌌蠆8-x/CBv铲I!3c}e;x8{;9X=쑂9넡僺)");
     }
 
     @Inject(at = @At("HEAD"), method = "model()Lnet/minecraft/resources/Identifier;", cancellable = true)

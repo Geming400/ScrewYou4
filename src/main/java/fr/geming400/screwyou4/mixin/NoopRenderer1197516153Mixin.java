@@ -10,7 +10,7 @@ public class NoopRenderer1197516153Mixin {
         @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/EntityRenderState;", cancellable = true)
     private void createRenderState_608750749(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(608750749L))
-            info.setReturnValue(null);
+            info.setReturnValue(new net.minecraft.client.renderer.entity.state.EntityRenderState());
     }
 
 

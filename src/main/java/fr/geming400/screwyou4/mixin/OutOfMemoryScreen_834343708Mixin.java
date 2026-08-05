@@ -10,7 +10,7 @@ public class OutOfMemoryScreen_834343708Mixin {
         @Inject(at = @At("HEAD"), method = "shouldCloseOnEsc()Z", cancellable = true)
     private void shouldCloseOnEsc_872622290(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(872622290L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
 

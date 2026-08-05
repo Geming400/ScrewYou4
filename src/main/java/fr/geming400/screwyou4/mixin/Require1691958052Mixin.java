@@ -10,25 +10,25 @@ public class Require1691958052Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1217496985(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1217496985L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_556498077(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(556498077L))
-            info.setReturnValue(null);
+            info.setReturnValue("M@.yQ3D6P%]");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1730220794(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1730220794L))
-            info.setReturnValue(null);
+            info.setReturnValue(-582341076);
     }
 
     @Inject(at = @At("HEAD"), method = "check(Lnet/minecraft/server/permissions/PermissionSet;)Z", cancellable = true)
     private void check__982888422(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-982888422L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "permission()Lnet/minecraft/server/permissions/Permission;", cancellable = true)

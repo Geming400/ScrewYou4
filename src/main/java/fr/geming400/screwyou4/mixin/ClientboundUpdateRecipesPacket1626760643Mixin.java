@@ -16,19 +16,19 @@ public class ClientboundUpdateRecipesPacket1626760643Mixin {
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1282694394(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1282694394L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_491300668(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(491300668L))
-            info.setReturnValue(null);
+            info.setReturnValue("gCruH5C:7cmX횪ip7Av,LXvlcCx|{C(% :>hV[^0薥,P㼽@蔬vR_8a\"拮[I&⥧깍l詋xwk]SW_煭䅸w#WM)뭇|");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1665023385(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1665023385L))
-            info.setReturnValue(null);
+            info.setReturnValue(1739245564);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/PacketListener;)V", cancellable = true)
@@ -43,15 +43,15 @@ public class ClientboundUpdateRecipesPacket1626760643Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "stonecutterRecipes()Lnet/minecraft/world/item/crafting/SelectableRecipe$SingleInputSet;", cancellable = true)
-    private void stonecutterRecipes_1086598665(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1086598665L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "itemSets()Ljava/util/Map;", cancellable = true)
     private void itemSets__377862997(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-377862997L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "stonecutterRecipes()Lnet/minecraft/world/item/crafting/SelectableRecipe$SingleInputSet;", cancellable = true)
+    private void stonecutterRecipes_1086598665(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1086598665L))
             info.setReturnValue(null);
     }
 

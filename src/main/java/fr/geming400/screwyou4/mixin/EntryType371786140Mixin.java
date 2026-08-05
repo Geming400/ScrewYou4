@@ -16,7 +16,7 @@ public class EntryType371786140Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/client/gui/screens/worldselection/WorldSelectionList$EntryType;", cancellable = true)
     private static void valueOf__2115726481(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2115726481L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.client.gui.screens.worldselection.WorldSelectionList.EntryType.SINGLEPLAYER);
     }
 
 

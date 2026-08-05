@@ -16,7 +16,7 @@ public class Row206489059Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/world/item/CreativeModeTab$Row;", cancellable = true)
     private static void valueOf_1741350417(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1741350417L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.item.CreativeModeTab.Row.BOTTOM);
     }
 
 

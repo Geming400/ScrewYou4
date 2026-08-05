@@ -10,31 +10,31 @@ public class CommonListenerCookie144579415Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_1530091674(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1530091674L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__990880560(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-990880560L))
-            info.setReturnValue(null);
+            info.setReturnValue("4 T2O5xkVTy㣡!T");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_182842157(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(182842157L))
-            info.setReturnValue(null);
+            info.setReturnValue(81101425);
     }
 
     @Inject(at = @At("HEAD"), method = "transferred()Z", cancellable = true)
     private void transferred_182857998(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(182857998L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "latency()I", cancellable = true)
     private void latency_182841661(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(182841661L))
-            info.setReturnValue(null);
+            info.setReturnValue(284248844);
     }
 
     @Inject(at = @At("HEAD"), method = "gameProfile()Lcom/mojang/authlib/GameProfile;", cancellable = true)

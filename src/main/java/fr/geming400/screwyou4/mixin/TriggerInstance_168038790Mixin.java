@@ -10,25 +10,25 @@ public class TriggerInstance_168038790Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_1553551048(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1553551048L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__967421186(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-967421186L))
-            info.setReturnValue(null);
+            info.setReturnValue("U/O]4C K풧=PD0槣_");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_206301531(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(206301531L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1309973105);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/world/item/crafting/RecipeHolder;)Z", cancellable = true)
     private void matches__1588293361(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1588293361L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "recipe()Lnet/minecraft/resources/ResourceKey;", cancellable = true)

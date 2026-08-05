@@ -19,16 +19,16 @@ public class BlockDisplay_34006005Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "blockRenderState()Lnet/minecraft/world/entity/Display$BlockDisplay$BlockRenderState;", cancellable = true)
-    private void blockRenderState__1881311486(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1881311486L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "onSyncedDataUpdated(Lnet/minecraft/network/syncher/EntityDataAccessor;)V", cancellable = true)
     private void onSyncedDataUpdated_1679755448(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1679755448L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "blockRenderState()Lnet/minecraft/world/entity/Display$BlockDisplay$BlockRenderState;", cancellable = true)
+    private void blockRenderState__1881311486(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1881311486L))
+            info.setReturnValue(null);
     }
 
 

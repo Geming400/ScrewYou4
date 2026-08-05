@@ -10,7 +10,7 @@ public class SectionTaskDynamicQueue_1993925458Mixin {
         @Inject(at = @At("HEAD"), method = "size()I", cancellable = true)
     private void size_2032187703(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2032187703L))
-            info.setReturnValue(null);
+            info.setReturnValue(-202540305);
     }
 
     @Inject(at = @At("HEAD"), method = "clear()V", cancellable = true)

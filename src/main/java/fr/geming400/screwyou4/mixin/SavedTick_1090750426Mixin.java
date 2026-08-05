@@ -10,37 +10,37 @@ public class SavedTick_1090750426Mixin {
         @Inject(at = @At("HEAD"), method = "priority()Lnet/minecraft/world/ticks/TickPriority;", cancellable = true)
     private void priority__1946541060(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1946541060L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.ticks.TickPriority.VERY_LOW);
     }
 
     @Inject(at = @At("HEAD"), method = "type()Ljava/lang/Object;", cancellable = true)
     private void type__1345024652(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1345024652L))
-            info.setReturnValue(null);
+            info.setReturnValue(new java.lang.Object());
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1818704612(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1818704612L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__44709550(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-44709550L))
-            info.setReturnValue(null);
+            info.setReturnValue("q璽Khx+{6cM");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1129013167(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1129013167L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1363657386);
     }
 
     @Inject(at = @At("HEAD"), method = "delay()I", cancellable = true)
     private void delay_1129012671(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1129012671L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1160509967);
     }
 
     @Inject(at = @At("HEAD"), method = "pos()Lnet/minecraft/core/BlockPos;", cancellable = true)
@@ -55,15 +55,15 @@ public class SavedTick_1090750426Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "unpack(JJ)Lnet/minecraft/world/ticks/ScheduledTick;", cancellable = true)
-    private void unpack__50003427(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-50003427L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "codec(Lcom/mojang/serialization/Codec;)Lcom/mojang/serialization/Codec;", cancellable = true)
     private static void codec_1574428400(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1574428400L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "unpack(JJ)Lnet/minecraft/world/ticks/ScheduledTick;", cancellable = true)
+    private void unpack__50003427(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-50003427L))
             info.setReturnValue(null);
     }
 

@@ -10,7 +10,7 @@ public class Ray_480670534Mixin {
         @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__654789938(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-654789938L))
-            info.setReturnValue(null);
+            info.setReturnValue("坮WU8J;뙙裸I|e?떵v3g(lKnty<HUWiN琚<nY");
     }
 
     @Inject(at = @At("HEAD"), method = "getHeight()Ljava/util/OptionalInt;", cancellable = true)

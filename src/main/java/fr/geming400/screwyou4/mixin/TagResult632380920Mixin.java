@@ -10,19 +10,19 @@ public class TagResult632380920Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_2017893179(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2017893179L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__503079055(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-503079055L))
-            info.setReturnValue(null);
+            info.setReturnValue("8.><xs=%<;#.dpjBh<5Zt^iN䷴Up");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_670643662(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(670643662L))
-            info.setReturnValue(null);
+            info.setReturnValue(934522627);
     }
 
     @Inject(at = @At("HEAD"), method = "tag()Lnet/minecraft/core/HolderSet;", cancellable = true)

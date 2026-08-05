@@ -10,19 +10,19 @@ public class Selector_936372105Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1973082933(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1973082933L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__199087871(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-199087871L))
-            info.setReturnValue(null);
+            info.setReturnValue("`&uxc;鸳aNLe_Csj'xiYEn?hL4Y*pFY近$r*gf&拴");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_974634846(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(974634846L))
-            info.setReturnValue(null);
+            info.setReturnValue(771166964);
     }
 
     @Inject(at = @At("HEAD"), method = "condition()Ljava/util/Optional;", cancellable = true)

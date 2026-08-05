@@ -13,6 +13,18 @@ public class RenderBuffers_1294523569Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "endFrame()V", cancellable = true)
+    private void endFrame_1332798307(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1332798307L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "fixedBufferPack()Lnet/minecraft/client/renderer/SectionBufferBuilderPack;", cancellable = true)
+    private void fixedBufferPack_735560627(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(735560627L))
+            info.setReturnValue(new net.minecraft.client.renderer.SectionBufferBuilderPack());
+    }
+
     @Inject(at = @At("HEAD"), method = "sectionBufferPool()Lnet/minecraft/client/renderer/SectionBufferBuilderPool;", cancellable = true)
     private void sectionBufferPool_1147480784(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1147480784L))
@@ -23,18 +35,6 @@ public class RenderBuffers_1294523569Mixin {
     private void stagedVertexBuffer_924596440(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(924596440L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "fixedBufferPack()Lnet/minecraft/client/renderer/SectionBufferBuilderPack;", cancellable = true)
-    private void fixedBufferPack_735560627(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(735560627L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "endFrame()V", cancellable = true)
-    private void endFrame_1332798307(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1332798307L))
-            info.cancel();
     }
 
 

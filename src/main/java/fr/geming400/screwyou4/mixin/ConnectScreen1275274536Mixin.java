@@ -28,7 +28,7 @@ public class ConnectScreen1275274536Mixin {
     @Inject(at = @At("HEAD"), method = "shouldCloseOnEsc()Z", cancellable = true)
     private void shouldCloseOnEsc_1313553119(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1313553119L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
 

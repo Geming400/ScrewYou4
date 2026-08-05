@@ -10,18 +10,12 @@ public class HexColorArgument855168207Mixin {
         @Inject(at = @At("HEAD"), method = "parse(Lcom/mojang/brigadier/StringReader;)Ljava/lang/Object;", cancellable = true)
     private void parse_561786464(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(561786464L))
-            info.setReturnValue(null);
+            info.setReturnValue(new java.lang.Object());
     }
 
     @Inject(at = @At("HEAD"), method = "parse(Lcom/mojang/brigadier/StringReader;)Ljava/lang/Integer;", cancellable = true)
     private void parse_1660433459(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1660433459L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "listSuggestions(Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
-    private void listSuggestions_1096091649(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1096091649L))
             info.setReturnValue(null);
     }
 
@@ -34,6 +28,12 @@ public class HexColorArgument855168207Mixin {
     @Inject(at = @At("HEAD"), method = "getHexColor(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Ljava/lang/Integer;", cancellable = true)
     private static void getHexColor_543061093(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(543061093L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "listSuggestions(Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
+    private void listSuggestions_1096091649(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1096091649L))
             info.setReturnValue(null);
     }
 

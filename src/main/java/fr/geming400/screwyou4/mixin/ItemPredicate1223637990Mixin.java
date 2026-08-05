@@ -10,31 +10,31 @@ public class ItemPredicate1223637990Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1685817047(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1685817047L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_88178015(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(88178015L))
-            info.setReturnValue(null);
+            info.setReturnValue("3ua3yFwn䩑#*I-;湉]D`PU@f-!{䨖dTDz7eQxoڐS|#휣jjO绞.6}1Z2D[");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1261900732(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1261900732L))
-            info.setReturnValue(null);
+            info.setReturnValue(-310059047);
     }
 
     @Inject(at = @At("HEAD"), method = "test(Lnet/minecraft/world/item/ItemInstance;)Z", cancellable = true)
     private void test_1843249505(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1843249505L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "test(Ljava/lang/Object;)Z", cancellable = true)
     private void test__1685688583(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1685688583L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "count()Lnet/minecraft/advancements/predicates/MinMaxBounds$Ints;", cancellable = true)

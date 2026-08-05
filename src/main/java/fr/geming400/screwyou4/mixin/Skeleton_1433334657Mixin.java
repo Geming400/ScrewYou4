@@ -16,19 +16,19 @@ public class Skeleton_1433334657Mixin {
     @Inject(at = @At("HEAD"), method = "isShaking()Z", cancellable = true)
     private void isShaking_1471613239(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1471613239L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "canFreeze()Z", cancellable = true)
     private void canFreeze_1471613239(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1471613239L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "isFreezeConverting()Z", cancellable = true)
     private void isFreezeConverting_1471613239(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1471613239L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "startFreezeConversion(I)V", cancellable = true)

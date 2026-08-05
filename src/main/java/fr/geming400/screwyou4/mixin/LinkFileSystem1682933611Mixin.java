@@ -22,7 +22,7 @@ public class LinkFileSystem1682933611Mixin {
     @Inject(at = @At("HEAD"), method = "isOpen()Z", cancellable = true)
     private void isOpen_1721212194(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1721212194L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "provider()Ljava/nio/file/spi/FileSystemProvider;", cancellable = true)
@@ -46,13 +46,13 @@ public class LinkFileSystem1682933611Mixin {
     @Inject(at = @At("HEAD"), method = "isReadOnly()Z", cancellable = true)
     private void isReadOnly_1721212194(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1721212194L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "getSeparator()Ljava/lang/String;", cancellable = true)
     private void getSeparator_547473140(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(547473140L))
-            info.setReturnValue(null);
+            info.setReturnValue("r@(꠩<{RP\"=8o*9ཥXV沧^ꑠqවo:yg^kyᄜsY-(7>C4M^I4I%MdmZuh");
     }
 
     @Inject(at = @At("HEAD"), method = "supportedFileAttributeViews()Ljava/util/Set;", cancellable = true)
@@ -88,6 +88,12 @@ public class LinkFileSystem1682933611Mixin {
     @Inject(at = @At("HEAD"), method = "newWatchService()Ljava/nio/file/WatchService;", cancellable = true)
     private void newWatchService__643582232(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-643582232L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "rootPath()Lnet/minecraft/server/packs/linkfs/LinkFSPath;", cancellable = true)
+    private void rootPath_1379056786(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1379056786L))
             info.setReturnValue(null);
     }
 

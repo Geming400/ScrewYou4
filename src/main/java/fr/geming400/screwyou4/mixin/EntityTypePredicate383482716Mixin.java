@@ -10,19 +10,19 @@ public class EntityTypePredicate383482716Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_1768994975(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1768994975L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__751977259(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-751977259L))
-            info.setReturnValue(null);
+            info.setReturnValue("F0 Qcr(#ut%hB䱽4M&C?Vc)v=ꓞP,`]IjKdtkl!e쥑Gh2傭? X\"XS-!gF껱$䩛Da[)㚑Vj;}Xz9z?ee_띢N");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_421745458(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(421745458L))
-            info.setReturnValue(null);
+            info.setReturnValue(1000895491);
     }
 
     @Inject(at = @At("HEAD"), method = "of(Lnet/minecraft/core/HolderGetter;Lnet/minecraft/tags/TagKey;)Lnet/minecraft/advancements/predicates/entity/EntityTypePredicate;", cancellable = true)
@@ -40,13 +40,13 @@ public class EntityTypePredicate383482716Mixin {
     @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/core/Holder;)Z", cancellable = true)
     private void matches_1929961698(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1929961698L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/phys/Vec3;)Z", cancellable = true)
     private void matches__1570709195(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1570709195L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "types()Lnet/minecraft/core/HolderSet;", cancellable = true)

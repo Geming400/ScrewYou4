@@ -7,9 +7,9 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.client.gui.screens.ConfirmLinkScreen.class)
 public class ConfirmLinkScreen_1383136104Mixin {
-        @Inject(at = @At("HEAD"), method = "confirmLinkNow(Lnet/minecraft/client/gui/screens/Screen;Ljava/net/URI;Z)V", cancellable = true)
-    private static void confirmLinkNow__578181509(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-578181509L))
+        @Inject(at = @At("HEAD"), method = "confirmLinkNow(Lnet/minecraft/client/gui/screens/Screen;Ljava/lang/String;)V", cancellable = true)
+    private static void confirmLinkNow_1807976763(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1807976763L))
             info.cancel();
     }
 
@@ -19,15 +19,15 @@ public class ConfirmLinkScreen_1383136104Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "confirmLinkNow(Lnet/minecraft/client/gui/screens/Screen;Ljava/lang/String;)V", cancellable = true)
-    private static void confirmLinkNow_1807976763(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1807976763L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "confirmLinkNow(Lnet/minecraft/client/gui/screens/Screen;Ljava/lang/String;Z)V", cancellable = true)
     private static void confirmLinkNow_1711387155(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1711387155L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "confirmLinkNow(Lnet/minecraft/client/gui/screens/Screen;Ljava/net/URI;Z)V", cancellable = true)
+    private static void confirmLinkNow__578181509(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-578181509L))
             info.cancel();
     }
 
@@ -43,9 +43,9 @@ public class ConfirmLinkScreen_1383136104Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "confirmLink(Lnet/minecraft/client/gui/screens/Screen;Ljava/net/URI;)Lnet/minecraft/client/gui/components/Button$OnPress;", cancellable = true)
-    private static void confirmLink__1492413691(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1492413691L))
+    @Inject(at = @At("HEAD"), method = "confirmLink(Lnet/minecraft/client/gui/screens/Screen;Ljava/lang/String;Z)Lnet/minecraft/client/gui/components/Button$OnPress;", cancellable = true)
+    private static void confirmLink__431513403(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-431513403L))
             info.setReturnValue(null);
     }
 
@@ -55,9 +55,9 @@ public class ConfirmLinkScreen_1383136104Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "confirmLink(Lnet/minecraft/client/gui/screens/Screen;Ljava/lang/String;Z)Lnet/minecraft/client/gui/components/Button$OnPress;", cancellable = true)
-    private static void confirmLink__431513403(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-431513403L))
+    @Inject(at = @At("HEAD"), method = "confirmLink(Lnet/minecraft/client/gui/screens/Screen;Ljava/net/URI;)Lnet/minecraft/client/gui/components/Button$OnPress;", cancellable = true)
+    private static void confirmLink__1492413691(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1492413691L))
             info.setReturnValue(null);
     }
 

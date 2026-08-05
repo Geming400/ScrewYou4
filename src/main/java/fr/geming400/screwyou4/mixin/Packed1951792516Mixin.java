@@ -10,25 +10,25 @@ public class Packed1951792516Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__957662521(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-957662521L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_816332541(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(816332541L))
-            info.setReturnValue(null);
+            info.setReturnValue("xhK>B䖷XMu}戅k]B멽q彜n#\"14祽zY6-<8^$)HN0@b e[$k");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1990055258(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1990055258L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1347795650);
     }
 
     @Inject(at = @At("HEAD"), method = "id()Ljava/lang/String;", cancellable = true)
     private void id_816332045(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(816332045L))
-            info.setReturnValue(null);
+            info.setReturnValue("-Pv肨?莾eL놾d6'C*R쨗\"S沍]gᅀJbie!^뮓%q'&\"w_L\"y$xyj鍺d-E");
     }
 
     @Inject(at = @At("HEAD"), method = "callback()Lnet/minecraft/world/level/timers/TimerCallback;", cancellable = true)
@@ -40,7 +40,7 @@ public class Packed1951792516Mixin {
     @Inject(at = @At("HEAD"), method = "triggerTime()J", cancellable = true)
     private void triggerTime_1990055723(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1990055723L))
-            info.setReturnValue(null);
+            info.setReturnValue(9164978067038451995L);
     }
 
     @Inject(at = @At("HEAD"), method = "codec(Lcom/mojang/serialization/Codec;)Lcom/mojang/serialization/Codec;", cancellable = true)

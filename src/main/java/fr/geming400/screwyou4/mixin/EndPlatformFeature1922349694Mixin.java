@@ -10,7 +10,7 @@ public class EndPlatformFeature1922349694Mixin {
         @Inject(at = @At("HEAD"), method = "place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z", cancellable = true)
     private void place__1657359866(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1657359866L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "createEndPlatform(Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/core/BlockPos;Z)V", cancellable = true)

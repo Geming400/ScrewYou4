@@ -16,19 +16,19 @@ public class Unbaked_1809494123Mixin {
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1099960915(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1099960915L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_674034147(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(674034147L))
-            info.setReturnValue(null);
+            info.setReturnValue("IY2R6㨅0;&1◼_W,-@尓FCT*e>ņ䱋?6z嬸a=:D\"O|䗅,[I/]=^GtmR洐i觏FB*D8z+撁f;^,&謸<A恌5L#");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1847756864(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1847756864L))
-            info.setReturnValue(null);
+            info.setReturnValue(2034979025);
     }
 
     @Inject(at = @At("HEAD"), method = "bake(Lnet/minecraft/client/renderer/special/SpecialModelRenderer$BakingContext;)Lnet/minecraft/client/renderer/special/SpecialModelRenderer;", cancellable = true)
@@ -43,15 +43,15 @@ public class Unbaked_1809494123Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "texture()Lnet/minecraft/resources/Identifier;", cancellable = true)
-    private void texture__633572431(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-633572431L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "openness()F", cancellable = true)
     private void openness_1847753485(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1847753485L))
+            info.setReturnValue(8.270629E8F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "texture()Lnet/minecraft/resources/Identifier;", cancellable = true)
+    private void texture__633572431(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-633572431L))
             info.setReturnValue(null);
     }
 

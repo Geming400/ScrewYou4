@@ -10,19 +10,19 @@ public class StorageDataSource_1083116318Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1826338720(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1826338720L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__52344154(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-52344154L))
-            info.setReturnValue(null);
+            info.setReturnValue("i_Wr6ro訌yhlUo⭧븳=jAm^L聏88?;ㄆ..EaDr#⧊諄鯬⠺fGQa_eﺘTP;/緋7 1DjNH)[鶚Uꌙ⯥Q`9Yn[d_");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1121379059(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1121379059L))
-            info.setReturnValue(null);
+            info.setReturnValue(2140997021);
     }
 
     @Inject(at = @At("HEAD"), method = "id()Lnet/minecraft/resources/Identifier;", cancellable = true)

@@ -16,19 +16,19 @@ public class ClientboundTabListPacket1891381434Mixin {
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1018073603(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1018073603L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_755921459(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(755921459L))
-            info.setReturnValue(null);
+            info.setReturnValue("F嵾O,W+erM9g2Zr9_z嵏W0\"n00`䇯J+S陹:Aᝠ[>>y﮵G3k{㇏-E枿");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1929644176(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1929644176L))
-            info.setReturnValue(null);
+            info.setReturnValue(1291788029);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/PacketListener;)V", cancellable = true)

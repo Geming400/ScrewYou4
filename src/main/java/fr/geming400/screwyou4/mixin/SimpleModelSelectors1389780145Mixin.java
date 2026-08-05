@@ -10,19 +10,19 @@ public class SimpleModelSelectors1389780145Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1519674892(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1519674892L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_254320170(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(254320170L))
-            info.setReturnValue(null);
+            info.setReturnValue("锹ձ+-27Z\"됆<JzuX턚Wg&A>V딫B!ji思AB觴_$B)F㓃E$dzMgNX/+7$嬁i<WEcO㇢5s}/+]|䄪/bC2#}2p8Bt}BE∃hL0sq르");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1428042887(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1428042887L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1051864178);
     }
 
     @Inject(at = @At("HEAD"), method = "instantiate(Lnet/minecraft/world/level/block/state/StateDefinition;Ljava/util/function/Supplier;Ljava/util/function/BiConsumer;)V", cancellable = true)

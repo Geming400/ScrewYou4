@@ -10,7 +10,7 @@ public class SlotsArgument106389028Mixin {
         @Inject(at = @At("HEAD"), method = "parse(Lcom/mojang/brigadier/StringReader;)Ljava/lang/Object;", cancellable = true)
     private void parse__186992715(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-186992715L))
-            info.setReturnValue(null);
+            info.setReturnValue(new java.lang.Object());
     }
 
     @Inject(at = @At("HEAD"), method = "parse(Lcom/mojang/brigadier/StringReader;)Lnet/minecraft/world/inventory/SlotRange;", cancellable = true)
@@ -25,16 +25,16 @@ public class SlotsArgument106389028Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "listSuggestions(Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
-    private void listSuggestions_347312470(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(347312470L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getSlots(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/world/inventory/SlotRange;", cancellable = true)
     private static void getSlots_2045425193(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2045425193L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "listSuggestions(Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
+    private void listSuggestions_347312470(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(347312470L))
+            info.setReturnValue(new java.util.concurrent.CompletableFuture());
     }
 
     @Inject(at = @At("HEAD"), method = "getExamples()Ljava/util/Collection;", cancellable = true)

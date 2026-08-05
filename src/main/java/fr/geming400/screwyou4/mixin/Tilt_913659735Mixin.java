@@ -16,19 +16,19 @@ public class Tilt_913659735Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/world/level/block/state/properties/Tilt;", cancellable = true)
     private static void valueOf_1806261503(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1806261503L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.level.block.state.properties.Tilt.UNSTABLE);
     }
 
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName__221800737(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-221800737L))
-            info.setReturnValue(null);
+            info.setReturnValue("袣E0\"`_:蛢v}N1恇2ua솳O'ỻ栆[DwX8Yh#䬗爪c:{㞽Q97J1ꪓj䔼%z*Fm䐛*Kl[谴4$勦芯3{=<M!⬪MPlvY&Wr`TKg>1t羅)븈ku");
     }
 
     @Inject(at = @At("HEAD"), method = "causesVibration()Z", cancellable = true)
     private void causesVibration_951938317(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(951938317L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
 

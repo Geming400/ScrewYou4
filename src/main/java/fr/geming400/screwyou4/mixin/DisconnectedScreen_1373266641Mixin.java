@@ -16,7 +16,7 @@ public class DisconnectedScreen_1373266641Mixin {
     @Inject(at = @At("HEAD"), method = "shouldCloseOnEsc()Z", cancellable = true)
     private void shouldCloseOnEsc_1411545223(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1411545223L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
 

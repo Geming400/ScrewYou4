@@ -22,7 +22,7 @@ public class EntityTickList1022677206Mixin {
     @Inject(at = @At("HEAD"), method = "contains(Lnet/minecraft/world/entity/Entity;)Z", cancellable = true)
     private void contains_570956390(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(570956390L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "forEach(Ljava/util/function/Consumer;)V", cancellable = true)

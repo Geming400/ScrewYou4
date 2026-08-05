@@ -10,25 +10,25 @@ public class HolderHolder_316430157Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_1701942415(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1701942415L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__819029819(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-819029819L))
-            info.setReturnValue(null);
+            info.setReturnValue("g-_%>/S% uP1灇lg|f;I:F堣a9_/暆ꬡ7Gf@/YxYꛙ)^E籨>a_TY$塿ODe\"Th$;7X`D&o_0G");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_354692898(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(354692898L))
-            info.setReturnValue(null);
+            info.setReturnValue(1154109050);
     }
 
     @Inject(at = @At("HEAD"), method = "compute(Lnet/minecraft/world/level/levelgen/DensityFunction$FunctionContext;)D", cancellable = true)
     private void compute_1284461776(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1284461776L))
-            info.setReturnValue(null);
+            info.setReturnValue(5.875339009159939E8D);
     }
 
     @Inject(at = @At("HEAD"), method = "function()Lnet/minecraft/core/Holder;", cancellable = true)
@@ -40,13 +40,13 @@ public class HolderHolder_316430157Mixin {
     @Inject(at = @At("HEAD"), method = "maxValue()D", cancellable = true)
     private void maxValue_354687597(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(354687597L))
-            info.setReturnValue(null);
+            info.setReturnValue(5.87533900294413E8D);
     }
 
     @Inject(at = @At("HEAD"), method = "minValue()D", cancellable = true)
     private void minValue_354687597(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(354687597L))
-            info.setReturnValue(null);
+            info.setReturnValue(5.87533900294413E8D);
     }
 
     @Inject(at = @At("HEAD"), method = "codec()Lnet/minecraft/util/KeyDispatchDataCodec;", cancellable = true)

@@ -16,19 +16,19 @@ public class ShapelessCraftingRecipeDisplay_108081456Mixin {
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_1493593714(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1493593714L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__1027378520(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1027378520L))
-            info.setReturnValue(null);
+            info.setReturnValue("#㜮Kcu#^gy#_7Rj{JK:BA!\"YEⓨ@uKjBK鿽#@o㴺@i,/殄퐏P2u;*M{0{I>");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_146344197(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(146344197L))
-            info.setReturnValue(null);
+            info.setReturnValue(1011277622);
     }
 
     @Inject(at = @At("HEAD"), method = "result()Lnet/minecraft/world/item/crafting/display/SlotDisplay;", cancellable = true)
@@ -40,18 +40,18 @@ public class ShapelessCraftingRecipeDisplay_108081456Mixin {
     @Inject(at = @At("HEAD"), method = "isEnabled(Lnet/minecraft/world/flag/FeatureFlagSet;)Z", cancellable = true)
     private void isEnabled__1321687925(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1321687925L))
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "craftingStation()Lnet/minecraft/world/item/crafting/display/SlotDisplay;", cancellable = true)
+    private void craftingStation_845035102(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(845035102L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "ingredients()Ljava/util/List;", cancellable = true)
     private void ingredients_1734418271(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1734418271L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "craftingStation()Lnet/minecraft/world/item/crafting/display/SlotDisplay;", cancellable = true)
-    private void craftingStation_845035102(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(845035102L))
             info.setReturnValue(null);
     }
 

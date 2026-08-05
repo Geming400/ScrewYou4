@@ -10,19 +10,19 @@ public class CraftingInput910170Mixin {
         @Inject(at = @At("HEAD"), method = "size()I", cancellable = true)
     private void size_39172416(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(39172416L))
-            info.setReturnValue(null);
+            info.setReturnValue(-2069998397);
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals_1386421933(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1386421933L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_39172416(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(39172416L))
-            info.setReturnValue(null);
+            info.setReturnValue(-2069998397);
     }
 
     @Inject(at = @At("HEAD"), method = "of(IILjava/util/List;)Lnet/minecraft/world/item/crafting/CraftingInput;", cancellable = true)
@@ -34,13 +34,13 @@ public class CraftingInput910170Mixin {
     @Inject(at = @At("HEAD"), method = "isEmpty()Z", cancellable = true)
     private void isEmpty_39188753(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(39188753L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "width()I", cancellable = true)
     private void width_39172416(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(39172416L))
-            info.setReturnValue(null);
+            info.setReturnValue(-2069998397);
     }
 
     @Inject(at = @At("HEAD"), method = "items()Ljava/util/List;", cancellable = true)
@@ -61,28 +61,28 @@ public class CraftingInput910170Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "stackedContents()Lnet/minecraft/world/entity/player/StackedItemContents;", cancellable = true)
-    private void stackedContents_432055869(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(432055869L))
+    @Inject(at = @At("HEAD"), method = "ofPositioned(IILjava/util/List;)Lnet/minecraft/world/item/crafting/CraftingInput$Positioned;", cancellable = true)
+    private static void ofPositioned_1484342057(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1484342057L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "height()I", cancellable = true)
     private void height_39172416(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(39172416L))
-            info.setReturnValue(null);
+            info.setReturnValue(-2069998397);
+    }
+
+    @Inject(at = @At("HEAD"), method = "stackedContents()Lnet/minecraft/world/entity/player/StackedItemContents;", cancellable = true)
+    private void stackedContents_432055869(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(432055869L))
+            info.setReturnValue(new net.minecraft.world.entity.player.StackedItemContents());
     }
 
     @Inject(at = @At("HEAD"), method = "ingredientCount()I", cancellable = true)
     private void ingredientCount_39172416(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(39172416L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "ofPositioned(IILjava/util/List;)Lnet/minecraft/world/item/crafting/CraftingInput$Positioned;", cancellable = true)
-    private static void ofPositioned_1484342057(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1484342057L))
-            info.setReturnValue(null);
+            info.setReturnValue(-2069998397);
     }
 
 

@@ -34,7 +34,7 @@ public class ClientboundEntityEventPacket_636795698Mixin {
     @Inject(at = @At("HEAD"), method = "getEventId()B", cancellable = true)
     private void getEventId_675051216(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(675051216L))
-            info.setReturnValue(null);
+            info.setReturnValue(-105);
     }
 
 

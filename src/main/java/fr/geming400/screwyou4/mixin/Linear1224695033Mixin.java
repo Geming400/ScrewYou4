@@ -10,25 +10,25 @@ public class Linear1224695033Mixin {
         @Inject(at = @At("HEAD"), method = "base()F", cancellable = true)
     private void base_1262954396(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1262954396L))
-            info.setReturnValue(null);
+            info.setReturnValue(5.00648E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1684760004(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1684760004L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_89235058(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(89235058L))
-            info.setReturnValue(null);
+            info.setReturnValue("i +pw^,弡O'/e3y隐k^島CFz9/y1^9/Dl ?Js");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1262957775(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1262957775L))
-            info.setReturnValue(null);
+            info.setReturnValue(1021905662);
     }
 
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
@@ -37,16 +37,16 @@ public class Linear1224695033Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "calculate(I)F", cancellable = true)
-    private void calculate__1856370667(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1856370667L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "perLevelAboveFirst()F", cancellable = true)
     private void perLevelAboveFirst_1262954396(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1262954396L))
-            info.setReturnValue(null);
+            info.setReturnValue(5.00648E8F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "calculate(I)F", cancellable = true)
+    private void calculate__1856370667(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1856370667L))
+            info.setReturnValue(5.00648E8F);
     }
 
 

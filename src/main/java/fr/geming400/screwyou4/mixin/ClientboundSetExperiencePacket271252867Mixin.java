@@ -25,22 +25,22 @@ public class ClientboundSetExperiencePacket271252867Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getExperienceLevel()I", cancellable = true)
-    private void getExperienceLevel_309515113(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "getTotalExperience()I", cancellable = true)
+    private void getTotalExperience_309515113(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(309515113L))
-            info.setReturnValue(null);
+            info.setReturnValue(1114708106);
     }
 
     @Inject(at = @At("HEAD"), method = "getExperienceProgress()F", cancellable = true)
     private void getExperienceProgress_309512230(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(309512230L))
-            info.setReturnValue(null);
+            info.setReturnValue(7.589391E8F);
     }
 
-    @Inject(at = @At("HEAD"), method = "getTotalExperience()I", cancellable = true)
-    private void getTotalExperience_309515113(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "getExperienceLevel()I", cancellable = true)
+    private void getExperienceLevel_309515113(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(309515113L))
-            info.setReturnValue(null);
+            info.setReturnValue(1114708106);
     }
 
 

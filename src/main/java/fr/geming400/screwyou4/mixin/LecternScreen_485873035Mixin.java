@@ -34,7 +34,7 @@ public class LecternScreen_485873035Mixin {
     @Inject(at = @At("HEAD"), method = "isPauseScreen()Z", cancellable = true)
     private void isPauseScreen_524151617(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(524151617L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
 

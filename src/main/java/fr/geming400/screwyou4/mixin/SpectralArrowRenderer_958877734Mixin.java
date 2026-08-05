@@ -16,7 +16,7 @@ public class SpectralArrowRenderer_958877734Mixin {
     @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/ArrowRenderState;", cancellable = true)
     private void createRenderState_991425225(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(991425225L))
-            info.setReturnValue(null);
+            info.setReturnValue(new net.minecraft.client.renderer.entity.state.ArrowRenderState());
     }
 
 

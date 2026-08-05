@@ -13,15 +13,15 @@ public class PathProvider62453146Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "json(Lnet/minecraft/resources/ResourceKey;)Ljava/nio/file/Path;", cancellable = true)
-    private void json_657876596(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(657876596L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "json(Lnet/minecraft/resources/Identifier;)Ljava/nio/file/Path;", cancellable = true)
     private void json__1651263504(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1651263504L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "json(Lnet/minecraft/resources/ResourceKey;)Ljava/nio/file/Path;", cancellable = true)
+    private void json_657876596(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(657876596L))
             info.setReturnValue(null);
     }
 

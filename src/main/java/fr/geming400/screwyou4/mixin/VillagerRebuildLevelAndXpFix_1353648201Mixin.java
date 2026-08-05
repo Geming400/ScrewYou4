@@ -10,7 +10,7 @@ public class VillagerRebuildLevelAndXpFix_1353648201Mixin {
         @Inject(at = @At("HEAD"), method = "getMinXpPerLevel(I)I", cancellable = true)
     private static void getMinXpPerLevel__1727414369(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1727414369L))
-            info.setReturnValue(null);
+            info.setReturnValue(-825113770);
     }
 
     @Inject(at = @At("HEAD"), method = "makeRule()Lcom/mojang/datafixers/TypeRewriteRule;", cancellable = true)

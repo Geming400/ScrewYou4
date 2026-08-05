@@ -16,7 +16,7 @@ public class InactivityFpsLimit_71071510Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/client/InactivityFpsLimit;", cancellable = true)
     private static void valueOf__505212219(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-505212219L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.client.InactivityFpsLimit.AFK);
     }
 
     @Inject(at = @At("HEAD"), method = "caption()Lnet/minecraft/network/chat/Component;", cancellable = true)
@@ -28,7 +28,7 @@ public class InactivityFpsLimit_71071510Mixin {
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName__1064388962(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1064388962L))
-            info.setReturnValue(null);
+            info.setReturnValue("骠aejYhJT,zgVJeT^^l_5C]tF1q#?-c嚜I睚]1=@R91W`g&zdg'>;}[}/S,HuLuҥ_댲鞌妌탏oD)Oꘓ셍2%AV['n}he K㻔31G4lL^");
     }
 
 

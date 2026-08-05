@@ -34,7 +34,7 @@ public class ClientboundPlayerLookAtPacket_423334048Mixin {
     @Inject(at = @At("HEAD"), method = "getFromAnchor()Lnet/minecraft/commands/arguments/EntityAnchorArgument$Anchor;", cancellable = true)
     private void getFromAnchor__1487481195(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1487481195L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.commands.arguments.EntityAnchorArgument.Anchor.EYES);
     }
 
 

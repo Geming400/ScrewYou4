@@ -16,7 +16,7 @@ public class TpsDebugDimensions1581131325Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/util/debugchart/TpsDebugDimensions;", cancellable = true)
     private static void valueOf_2088434629(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2088434629L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.util.debugchart.TpsDebugDimensions.SCHEDULED_TASKS);
     }
 
 

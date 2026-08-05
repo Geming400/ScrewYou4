@@ -10,13 +10,13 @@ public class BlockPredicate148183510Mixin {
         @Inject(at = @At("HEAD"), method = "test(Ljava/lang/Object;)Z", cancellable = true)
     private void test_1533824233(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1533824233L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "test(Lnet/minecraft/world/level/block/state/BlockState;)Z", cancellable = true)
     private void test_2894524(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2894524L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "forBlock(Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/world/level/block/state/predicate/BlockPredicate;", cancellable = true)

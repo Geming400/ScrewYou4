@@ -10,19 +10,19 @@ public class WoodType997776499Mixin {
         @Inject(at = @At("HEAD"), method = "name()Ljava/lang/String;", cancellable = true)
     private void name__137683972(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-137683972L))
-            info.setReturnValue(null);
+            info.setReturnValue("䡈ID.Y)DHp");
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1911678538(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1911678538L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__137683476(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-137683476L))
-            info.setReturnValue(null);
+            info.setReturnValue("bs QCr2em[ix-Yu1.%`M?m艎XHﮁB칿Q[pv6BRG>T폄[;&iA3Z'Q2봳qY)wE/Dಶ(d/o3Mj#d2hz_eXgc{33y SꝨojS6&^J?f$[ZG");
     }
 
     @Inject(at = @At("HEAD"), method = "values()Ljava/util/stream/Stream;", cancellable = true)
@@ -34,7 +34,7 @@ public class WoodType997776499Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1036039241(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1036039241L))
-            info.setReturnValue(null);
+            info.setReturnValue(-759421141);
     }
 
     @Inject(at = @At("HEAD"), method = "setType()Lnet/minecraft/world/level/block/state/properties/BlockSetType;", cancellable = true)

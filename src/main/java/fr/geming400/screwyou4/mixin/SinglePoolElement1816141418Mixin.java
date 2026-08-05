@@ -10,7 +10,7 @@ public class SinglePoolElement1816141418Mixin {
         @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_680680947(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(680680947L))
-            info.setReturnValue(null);
+            info.setReturnValue("h &mHjNU,_zWlpf&phY4L&.^I8b+5I㡅T䢄-}'软T[W6{Egf62a6硭䌊i''DxO'7KyNc4aa9u9WN&6연jTyⁱ>L듞>檎U㔅Yr#⌊qCv");
     }
 
     @Inject(at = @At("HEAD"), method = "getType()Lnet/minecraft/world/level/levelgen/structure/pools/StructurePoolElementType;", cancellable = true)
@@ -28,6 +28,18 @@ public class SinglePoolElement1816141418Mixin {
     @Inject(at = @At("HEAD"), method = "place(Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplateManager;Lnet/minecraft/world/level/WorldGenLevel;Lnet/minecraft/world/level/StructureManager;Lnet/minecraft/world/level/chunk/ChunkGenerator;Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/Rotation;Lnet/minecraft/world/level/levelgen/structure/BoundingBox;Lnet/minecraft/util/RandomSource;Lnet/minecraft/world/level/levelgen/structure/templatesystem/LiquidSettings;Z)Z", cancellable = true)
     private void place_238195489(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(238195489L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getTemplateLocation()Lnet/minecraft/resources/Identifier;", cancellable = true)
+    private void getTemplateLocation__626925135(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-626925135L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getDataMarkers(Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplateManager;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/Rotation;Z)Ljava/util/List;", cancellable = true)
+    private void getDataMarkers_2133501675(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2133501675L))
             info.setReturnValue(null);
     }
 
@@ -40,18 +52,6 @@ public class SinglePoolElement1816141418Mixin {
     @Inject(at = @At("HEAD"), method = "getShuffledJigsawBlocks(Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplateManager;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/Rotation;Lnet/minecraft/util/RandomSource;)Ljava/util/List;", cancellable = true)
     private void getShuffledJigsawBlocks_1183010453(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1183010453L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getTemplateLocation()Lnet/minecraft/resources/Identifier;", cancellable = true)
-    private void getTemplateLocation__626925135(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-626925135L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getDataMarkers(Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplateManager;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/Rotation;Z)Ljava/util/List;", cancellable = true)
-    private void getDataMarkers_2133501675(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2133501675L))
             info.setReturnValue(null);
     }
 

@@ -10,19 +10,19 @@ public class AttributeEntry_2056880413Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__852574625(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-852574625L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_921420437(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(921420437L))
-            info.setReturnValue(null);
+            info.setReturnValue("l+鐀NMwDomM'93nt葴嗋/f&_0P4|v)vZ=tWm39&W&ULF컺N(y2⺂/녺(귨S!-肱roM7) D婚@'fdAa-`j)ఁC䝭OlcCꟻ&3A$1>.EQMf");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2095143154(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2095143154L))
-            info.setReturnValue(null);
+            info.setReturnValue(977394177);
     }
 
     @Inject(at = @At("HEAD"), method = "add(Lnet/minecraft/core/Holder;DLnet/minecraft/resources/ResourceKey;)Lnet/minecraft/world/entity/SulfurCubeArchetype$AttributeEntry;", cancellable = true)

@@ -10,19 +10,19 @@ public class CombinedCondition_2082846120Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__826608918(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-826608918L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_947386144(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(947386144L))
-            info.setReturnValue(null);
+            info.setReturnValue("I7ZHGHrs0uNUajmM$xX:'H@:蘄)>vOE쐧?I|8H釧禰E/亊UWLlQ=a;R濫U'`s{pꪐD}切}昦7`h");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2121108861(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2121108861L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1838671882);
     }
 
     @Inject(at = @At("HEAD"), method = "instantiate(Lnet/minecraft/world/level/block/state/StateDefinition;)Ljava/util/function/Predicate;", cancellable = true)
@@ -34,7 +34,7 @@ public class CombinedCondition_2082846120Mixin {
     @Inject(at = @At("HEAD"), method = "operation()Lnet/minecraft/client/renderer/block/dispatch/multipart/CombinedCondition$Operation;", cancellable = true)
     private void operation_645373366(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(645373366L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.client.renderer.block.dispatch.multipart.CombinedCondition.Operation.OR);
     }
 
     @Inject(at = @At("HEAD"), method = "terms()Ljava/util/List;", cancellable = true)

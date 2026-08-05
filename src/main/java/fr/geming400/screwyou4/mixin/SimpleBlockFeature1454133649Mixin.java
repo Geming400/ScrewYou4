@@ -10,7 +10,7 @@ public class SimpleBlockFeature1454133649Mixin {
         @Inject(at = @At("HEAD"), method = "place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z", cancellable = true)
     private void place__2125575911(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2125575911L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
 

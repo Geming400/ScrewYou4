@@ -10,7 +10,7 @@ public class ValueIncreasedByPercentage_979864862Mixin {
         @Inject(at = @At("HEAD"), method = "test(D)Z", cancellable = true)
     private void test__2105799224(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2105799224L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
 

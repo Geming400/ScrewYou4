@@ -16,19 +16,19 @@ public class Custom_1097580691Mixin {
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1811874347(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1811874347L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__37879285(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-37879285L))
-            info.setReturnValue(null);
+            info.setReturnValue("qcBMe5V.'[$&꘦ScH>ibdRJ(1쩌刓,%墎@H+T⁵][hPg8;o,}icȼo\"࣍줺{Y");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1135843432(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1135843432L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1838371535);
     }
 
     @Inject(at = @At("HEAD"), method = "id()Lnet/minecraft/resources/Identifier;", cancellable = true)
@@ -40,7 +40,7 @@ public class Custom_1097580691Mixin {
     @Inject(at = @At("HEAD"), method = "action()Lnet/minecraft/network/chat/ClickEvent$Action;", cancellable = true)
     private void action_757183994(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(757183994L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.network.chat.ClickEvent.Action.COPY_TO_CLIPBOARD);
     }
 
 

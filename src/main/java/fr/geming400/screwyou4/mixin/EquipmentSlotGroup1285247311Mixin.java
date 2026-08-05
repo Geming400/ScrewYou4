@@ -16,13 +16,13 @@ public class EquipmentSlotGroup1285247311Mixin {
     @Inject(at = @At("HEAD"), method = "test(Lnet/minecraft/world/entity/EquipmentSlot;)Z", cancellable = true)
     private void test__2014352124(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2014352124L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/world/entity/EquipmentSlotGroup;", cancellable = true)
     private static void valueOf_45969671(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(45969671L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.entity.EquipmentSlotGroup.MAINHAND);
     }
 
     @Inject(at = @At("HEAD"), method = "iterator()Ljava/util/Iterator;", cancellable = true)
@@ -40,13 +40,13 @@ public class EquipmentSlotGroup1285247311Mixin {
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName_149786840(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(149786840L))
-            info.setReturnValue(null);
+            info.setReturnValue("!suE])GW_b;T`FIPsl.UE%Ⲑ *^2Ⳡ{9Mh7'uGcQ裆pg2喚b夝dNT兰%=⥝|XI洍Tf5+?Ta:紓y%㎞J0_O");
     }
 
     @Inject(at = @At("HEAD"), method = "bySlot(Lnet/minecraft/world/entity/EquipmentSlot;)Lnet/minecraft/world/entity/EquipmentSlotGroup;", cancellable = true)
     private static void bySlot_209620987(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(209620987L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.entity.EquipmentSlotGroup.OFFHAND);
     }
 
 

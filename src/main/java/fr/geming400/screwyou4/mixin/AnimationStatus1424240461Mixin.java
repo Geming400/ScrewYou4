@@ -16,7 +16,7 @@ public class AnimationStatus1424240461Mixin {
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/world/level/block/entity/ShulkerBoxBlockEntity$AnimationStatus;", cancellable = true)
     private static void valueOf_2127046996(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2127046996L))
-            info.setReturnValue(null);
+            info.setReturnValue(net.minecraft.world.level.block.entity.ShulkerBoxBlockEntity.AnimationStatus.OPENED);
     }
 
 

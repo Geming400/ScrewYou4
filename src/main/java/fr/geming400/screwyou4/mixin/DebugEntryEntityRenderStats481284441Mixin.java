@@ -16,7 +16,7 @@ public class DebugEntryEntityRenderStats481284441Mixin {
     @Inject(at = @At("HEAD"), method = "isAllowed(Z)Z", cancellable = true)
     private void isAllowed_1710905114(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1710905114L))
-            info.setReturnValue(null);
+            info.setReturnValue(true);
     }
 
 

@@ -16,19 +16,19 @@ public class SourceFilter_1295372319Mixin {
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
     private void equals__1614082719(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1614082719L))
-            info.setReturnValue(null);
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_159912343(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(159912343L))
-            info.setReturnValue(null);
+            info.setReturnValue("JvnS$鏌띏&OfEH13L)q;s83>L.St]=ip犊GW鑜$9<VU");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1333635060(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1333635060L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1852108168);
     }
 
     @Inject(at = @At("HEAD"), method = "filter()Lnet/minecraft/util/IdentifierPattern;", cancellable = true)

@@ -10,13 +10,13 @@ public class DatapackStructureReport391858198Mixin {
         @Inject(at = @At("HEAD"), method = "getName()Ljava/lang/String;", cancellable = true)
     private void getName__743602273(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-743602273L))
-            info.setReturnValue(null);
+            info.setReturnValue("VpV;&8+)ꅲ%(hToZnAeWkkZ聴쳹*}n䬐V&g2+Ax!i9K|z2.)4y O$L}.밼bg)Bl+*'!Sg1':");
     }
 
     @Inject(at = @At("HEAD"), method = "run(Lnet/minecraft/data/CachedOutput;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
     private void run_1118380656(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1118380656L))
-            info.setReturnValue(null);
+            info.setReturnValue(new java.util.concurrent.CompletableFuture());
     }
 
 
