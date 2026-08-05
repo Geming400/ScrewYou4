@@ -10,19 +10,19 @@ public class XoroshiroRandomSource_368049043Mixin {
         @Inject(at = @At("HEAD"), method = "nextDouble()D", cancellable = true)
     private void nextDouble_406306483(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(406306483L))
-            info.setReturnValue(5.2737120047160614E8D);
+            info.setReturnValue(5489700.471606125D);
     }
 
     @Inject(at = @At("HEAD"), method = "nextInt(I)I", cancellable = true)
     private void nextInt_1581953521(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1581953521L))
-            info.setReturnValue(-1564847847);
+            info.setReturnValue(-2086729347);
     }
 
     @Inject(at = @At("HEAD"), method = "nextInt()I", cancellable = true)
     private void nextInt_406311288(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(406311288L))
-            info.setReturnValue(-774267437);
+            info.setReturnValue(-1296670637);
     }
 
     @Inject(at = @At("HEAD"), method = "fork()Lnet/minecraft/util/RandomSource;", cancellable = true)
@@ -34,7 +34,7 @@ public class XoroshiroRandomSource_368049043Mixin {
     @Inject(at = @At("HEAD"), method = "nextLong()J", cancellable = true)
     private void nextLong_406312249(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(406312249L))
-            info.setReturnValue(-7180773131627985605L);
+            info.setReturnValue(-7180773132150388805L);
     }
 
     @Inject(at = @At("HEAD"), method = "setSeed(J)V", cancellable = true)
@@ -52,25 +52,25 @@ public class XoroshiroRandomSource_368049043Mixin {
     @Inject(at = @At("HEAD"), method = "nextFloat()F", cancellable = true)
     private void nextFloat_406308405(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(406308405L))
-            info.setReturnValue(5.278929E8F);
+            info.setReturnValue(5489700.0F);
     }
 
     @Inject(at = @At("HEAD"), method = "nextGaussian()D", cancellable = true)
     private void nextGaussian_406306483(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(406306483L))
-            info.setReturnValue(5.2789290047160614E8D);
-    }
-
-    @Inject(at = @At("HEAD"), method = "consumeCount(I)V", cancellable = true)
-    private void consumeCount_1581966014(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1581966014L))
-            info.cancel();
+            info.setReturnValue(5489700.471606125D);
     }
 
     @Inject(at = @At("HEAD"), method = "forkPositional()Lnet/minecraft/world/level/levelgen/PositionalRandomFactory;", cancellable = true)
     private void forkPositional__858068428(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-858068428L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "consumeCount(I)V", cancellable = true)
+    private void consumeCount_1581966014(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1581966014L))
+            info.cancel();
     }
 
 

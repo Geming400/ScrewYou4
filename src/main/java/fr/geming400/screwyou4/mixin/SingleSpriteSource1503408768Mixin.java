@@ -16,18 +16,18 @@ public class SingleSpriteSource1503408768Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_367948793(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(367948793L))
-            info.setReturnValue("ἎfnYs嬼sn>a .0㹹Rlzn:");
+            info.setReturnValue("\u1F0EfnYs\u5B3Csn>a .0\u3E79Rlzn:");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1541671510(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1541671510L))
-            info.setReturnValue(-152670011);
+            info.setReturnValue(728219089);
     }
 
-    @Inject(at = @At("HEAD"), method = "getRandomGlyph(Lnet/minecraft/util/RandomSource;I)Lnet/minecraft/client/gui/font/glyphs/BakedGlyph;", cancellable = true)
-    private void getRandomGlyph__1606212816(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1606212816L))
+    @Inject(at = @At("HEAD"), method = "getGlyph(I)Lnet/minecraft/client/gui/font/glyphs/BakedGlyph;", cancellable = true)
+    private void getGlyph__1241076528(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1241076528L))
             info.setReturnValue(null);
     }
 
@@ -37,9 +37,9 @@ public class SingleSpriteSource1503408768Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getGlyph(I)Lnet/minecraft/client/gui/font/glyphs/BakedGlyph;", cancellable = true)
-    private void getGlyph__1241076528(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1241076528L))
+    @Inject(at = @At("HEAD"), method = "getRandomGlyph(Lnet/minecraft/util/RandomSource;I)Lnet/minecraft/client/gui/font/glyphs/BakedGlyph;", cancellable = true)
+    private void getRandomGlyph__1606212816(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1606212816L))
             info.setReturnValue(null);
     }
 

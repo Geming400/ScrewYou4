@@ -22,13 +22,13 @@ public class LevelStem138118479Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__997341496(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-997341496L))
-            info.setReturnValue("A⌐v:p1Rmho㾤^2l#@x뜳^x7_#=` 뱄d>S,╖mk,M>R_⧍bIN嶯噒L`0⡈[Sq\"G慒鍰\"G;ptc폒a 2bE?yMc|PB4D9{Uj N=9`<X&Hw.pTQQH");
+            info.setReturnValue("A\u2310v:p1Rmho\u3FA4^2l#@x\uB733^x7_#=` \uBC44d>S,\u2556mk,M>R_\u29CDbIN\u5DAF\u5652L`0\u2848[Sq\"G\u6152\u9370\"G;ptc\uD3D2a 2bE?yMc|PB4D9{Uj N=9`<X&Hw.pTQQH");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_176381221(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(176381221L))
-            info.setReturnValue(-1274431479);
+            info.setReturnValue(-900989379);
     }
 
     @Inject(at = @At("HEAD"), method = "generator()Lnet/minecraft/world/level/chunk/ChunkGenerator;", cancellable = true)

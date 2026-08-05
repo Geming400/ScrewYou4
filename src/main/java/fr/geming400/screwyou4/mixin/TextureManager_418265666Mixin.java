@@ -37,27 +37,27 @@ public class TextureManager_418265666Mixin {
             info.setReturnValue(new java.util.concurrent.CompletableFuture());
     }
 
-    @Inject(at = @At("HEAD"), method = "dumpAllSheets(Ljava/nio/file/Path;)V", cancellable = true)
-    private void dumpAllSheets_2025552467(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(2025552467L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "getTexture(Lnet/minecraft/resources/Identifier;)Lnet/minecraft/client/renderer/texture/AbstractTexture;", cancellable = true)
     private void getTexture__528605980(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-528605980L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "registerForNextReload(Lnet/minecraft/resources/Identifier;)V", cancellable = true)
-    private void registerForNextReload__1076175492(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1076175492L))
+    @Inject(at = @At("HEAD"), method = "dumpAllSheets(Ljava/nio/file/Path;)V", cancellable = true)
+    private void dumpAllSheets_2025552467(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(2025552467L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "registerAndLoad(Lnet/minecraft/resources/Identifier;Lnet/minecraft/client/renderer/texture/ReloadableTexture;)V", cancellable = true)
     private void registerAndLoad__217398805(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-217398805L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "registerForNextReload(Lnet/minecraft/resources/Identifier;)V", cancellable = true)
+    private void registerForNextReload__1076175492(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1076175492L))
             info.cancel();
     }
 

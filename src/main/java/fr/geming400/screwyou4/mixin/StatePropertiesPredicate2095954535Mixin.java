@@ -16,13 +16,13 @@ public class StatePropertiesPredicate2095954535Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_960494560(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(960494560L))
-            info.setReturnValue("zL;Nob@258tA$eREar/.|f^[HW mSeh龷]o\"JP?<Mt䖎뮶`hn칮wSS d5幘Vm");
+            info.setReturnValue("zL;Nob@258tA$eREar/.|f^[HW mSeh\u9FB7]o\"JP?<Mt\u458E\uBBB6`hn\uCE6EwSS d5\u5E58Vm");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2134217277(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2134217277L))
-            info.setReturnValue(1082660538);
+            info.setReturnValue(1507369738);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/world/level/material/FluidState;)Z", cancellable = true)

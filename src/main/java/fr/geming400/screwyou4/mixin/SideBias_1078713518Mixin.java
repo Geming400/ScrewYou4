@@ -10,7 +10,7 @@ public class SideBias_1078713518Mixin {
         @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__56746954(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-56746954L))
-            info.setReturnValue(".澿i)㕿%4");
+            info.setReturnValue(".\u6FBFi)\u357F%4");
     }
 
     @Inject(at = @At("HEAD"), method = "values()[Lnet/minecraft/world/level/redstone/Orientation$SideBias;", cancellable = true)

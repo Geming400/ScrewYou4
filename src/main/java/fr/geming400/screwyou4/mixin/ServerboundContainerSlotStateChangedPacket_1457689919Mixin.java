@@ -22,13 +22,13 @@ public class ServerboundContainerSlotStateChangedPacket_1457689919Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_322229943(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(322229943L))
-            info.setReturnValue("KMz9'rj__v⯓xDHl䲒v)GD_v@똧g-t-$<vk铷b⏈W廈wP4");
+            info.setReturnValue("KMz9'rj__v\u2BD3xDHl\u4C92v)GD_v@\uB627g-t-$<vk\u94F7b\u23C8W\u5EC8wP4");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1495952660(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1495952660L))
-            info.setReturnValue(309880044);
+            info.setReturnValue(855009244);
     }
 
     @Inject(at = @At("HEAD"), method = "newState()Z", cancellable = true)
@@ -49,16 +49,16 @@ public class ServerboundContainerSlotStateChangedPacket_1457689919Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "containerId()I", cancellable = true)
-    private void containerId_1495952164(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1495952164L))
-            info.setReturnValue(488403533);
-    }
-
     @Inject(at = @At("HEAD"), method = "slotId()I", cancellable = true)
     private void slotId_1495952164(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1495952164L))
-            info.setReturnValue(488403533);
+            info.setReturnValue(1033532733);
+    }
+
+    @Inject(at = @At("HEAD"), method = "containerId()I", cancellable = true)
+    private void containerId_1495952164(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1495952164L))
+            info.setReturnValue(1033532733);
     }
 
 

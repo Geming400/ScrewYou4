@@ -13,6 +13,42 @@ public class OldMinecartBehavior_1377647554Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "getPosOffs(DDDD)Lnet/minecraft/world/phys/Vec3;", cancellable = true)
+    private void getPosOffs_783785658(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(783785658L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "moveAlongTrack(Lnet/minecraft/server/level/ServerLevel;)V", cancellable = true)
+    private void moveAlongTrack_399238213(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(399238213L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "pushAndPickupEntities()Z", cancellable = true)
+    private void pushAndPickupEntities_1415926136(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1415926136L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "stepAlongTrack(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/properties/RailShape;D)D", cancellable = true)
+    private void stepAlongTrack_845175042(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(845175042L))
+            info.setReturnValue(6.060830001952195E8D);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getMaxSpeed(Lnet/minecraft/server/level/ServerLevel;)D", cancellable = true)
+    private void getMaxSpeed_399220915(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(399220915L))
+            info.setReturnValue(6.060830000905728E8D);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getSlowdownFactor()D", cancellable = true)
+    private void getSlowdownFactor_1415904994(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1415904994L))
+            info.setReturnValue(6.060830001967759E8D);
+    }
+
     @Inject(at = @At("HEAD"), method = "lerpMotion(Lnet/minecraft/world/phys/Vec3;)V", cancellable = true)
     private void lerpMotion_1745383552(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1745383552L))
@@ -23,6 +59,12 @@ public class OldMinecartBehavior_1377647554Mixin {
     private void getPos_562551598(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(562551598L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "onInterpolation(Lnet/minecraft/world/entity/InterpolationHandler;)V", cancellable = true)
+    private void onInterpolation_1642254154(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1642254154L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "getInterpolation()Lnet/minecraft/world/entity/InterpolationHandler;", cancellable = true)
@@ -41,48 +83,6 @@ public class OldMinecartBehavior_1377647554Mixin {
     private void getMotionDirection_614792268(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(614792268L))
             info.setReturnValue(net.minecraft.core.Direction.NORTH);
-    }
-
-    @Inject(at = @At("HEAD"), method = "moveAlongTrack(Lnet/minecraft/server/level/ServerLevel;)V", cancellable = true)
-    private void moveAlongTrack_399238213(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(399238213L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "getMaxSpeed(Lnet/minecraft/server/level/ServerLevel;)D", cancellable = true)
-    private void getMaxSpeed_399220915(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(399220915L))
-            info.setReturnValue(8.404391000905728E8D);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getSlowdownFactor()D", cancellable = true)
-    private void getSlowdownFactor_1415904994(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1415904994L))
-            info.setReturnValue(8.404391001967759E8D);
-    }
-
-    @Inject(at = @At("HEAD"), method = "pushAndPickupEntities()Z", cancellable = true)
-    private void pushAndPickupEntities_1415926136(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1415926136L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "stepAlongTrack(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/properties/RailShape;D)D", cancellable = true)
-    private void stepAlongTrack_845175042(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(845175042L))
-            info.setReturnValue(8.404391001952195E8D);
-    }
-
-    @Inject(at = @At("HEAD"), method = "onInterpolation(Lnet/minecraft/world/entity/InterpolationHandler;)V", cancellable = true)
-    private void onInterpolation_1642254154(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1642254154L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "getPosOffs(DDDD)Lnet/minecraft/world/phys/Vec3;", cancellable = true)
-    private void getPosOffs_783785658(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(783785658L))
-            info.setReturnValue(null);
     }
 
 

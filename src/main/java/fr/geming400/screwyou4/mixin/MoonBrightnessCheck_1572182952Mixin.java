@@ -16,13 +16,13 @@ public class MoonBrightnessCheck_1572182952Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_436722976(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(436722976L))
-            info.setReturnValue("<ᶄuikE-i侲?7W/,lx3|\"b༞8Wzﵵj楶v潷wn}WfD륢,n})',S");
+            info.setReturnValue("<\u1D84uikE-i\u4FB2?7W/,lx3|\"b\u0F1E8Wz\uFD75j\u6976v\u6F77wn}WfD\uB962,n})',S");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1610445693(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1610445693L))
-            info.setReturnValue(872577584);
+            info.setReturnValue(815301284);
     }
 
     @Inject(at = @At("HEAD"), method = "test(Lnet/minecraft/world/entity/variant/SpawnContext;)Z", cancellable = true)

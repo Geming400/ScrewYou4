@@ -16,13 +16,13 @@ public class Maybe1297395758Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_161935783(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(161935783L))
-            info.setReturnValue("e!8#ogIUf7qꍭeCPDszሻEthI<*$K$}i*kᳱz㘤0s7K犨xl珛InhtZ&w確Rbꁤ喚*Eq{`T{V");
+            info.setReturnValue("e!8#ogIUf7q\uA36DeCPDsz\u123BEthI<*$K$}i*k\u1CF1z\u36240s7K\u72A8xl\u73DBInhtZ&w\u78BARb\uA064\u559A*Eq{`T{V");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1335658500(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1335658500L))
-            info.setReturnValue(-158920619);
+            info.setReturnValue(-469729019);
     }
 
     @Inject(at = @At("HEAD"), method = "parse(Lnet/minecraft/util/parsing/packrat/ParseState;Lnet/minecraft/util/parsing/packrat/Scope;Lnet/minecraft/util/parsing/packrat/Control;)Z", cancellable = true)

@@ -37,16 +37,10 @@ public class ParticleEngine_1080522008Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "clearParticles()V", cancellable = true)
-    private void clearParticles_1118796746(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1118796746L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "countParticles()Ljava/lang/String;", cancellable = true)
     private void countParticles__54938464(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-54938464L))
-            info.setReturnValue("\"`:grJ:J\"0\"剋DyVy알<W!IZ愛g ]r1-d}xF@瘧rqpi;r;&S.W7.儉");
+            info.setReturnValue("\"`:grJ:J\"0\"\u524BDyVy\uC54C<W!IZ\u611Bg ]r1-d}xF@\u7627rqpi;r;&S.W7.\u5109");
     }
 
     @Inject(at = @At("HEAD"), method = "createParticle(Lnet/minecraft/core/particles/ParticleOptions;DDDDDD)Lnet/minecraft/client/particle/Particle;", cancellable = true)
@@ -64,6 +58,12 @@ public class ParticleEngine_1080522008Mixin {
     @Inject(at = @At("HEAD"), method = "createTrackingEmitter(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/core/particles/ParticleOptions;I)V", cancellable = true)
     private void createTrackingEmitter__1937722411(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1937722411L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "clearParticles()V", cancellable = true)
+    private void clearParticles_1118796746(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1118796746L))
             info.cancel();
     }
 

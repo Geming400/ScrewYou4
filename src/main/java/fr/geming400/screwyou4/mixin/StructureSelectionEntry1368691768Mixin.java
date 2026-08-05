@@ -16,19 +16,19 @@ public class StructureSelectionEntry1368691768Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_233231793(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(233231793L))
-            info.setReturnValue("lf;秮QRF}*⻥!`ꉓ@u<2Z)XbL$캤J7ौtbDa.Cᕾ\"p6Dw[i5V(z|1-N괼g맖8+[釬툓⍌᪦mie|Gc&mVOH6Hwm8MxV?BMSK$>");
+            info.setReturnValue("lf;\u79EEQRF}*\u2EE5!`\uA253@u<2Z)XbL$\uCEA4J7\u094CtbDa.C\u157E\"p6Dw[i5V(z|1-N\uAD3Cg\uB9D68+[\u91EC\uD213\u234C\u1AA6mie|Gc&mVOH6Hwm8MxV?BMSK$>");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1406954510(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1406954510L))
-            info.setReturnValue(287061259);
+            info.setReturnValue(-131553141);
     }
 
     @Inject(at = @At("HEAD"), method = "weight()I", cancellable = true)
     private void weight_1406954014(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1406954014L))
-            info.setReturnValue(490208679);
+            info.setReturnValue(71594279);
     }
 
     @Inject(at = @At("HEAD"), method = "structure()Lnet/minecraft/core/Holder;", cancellable = true)

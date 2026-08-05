@@ -16,13 +16,13 @@ public class ConfiguredWorldCarver1243940901Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_108480926(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(108480926L))
-            info.setReturnValue("f烕!CV㒸>sc他03⪍@rXP5䠊sk([xXc.E! LOE;mᾡelZ*O&_䋵7,QZ$腀ꯑqs]QX҄/7涉^mU{n6>t▎W83S-n艱E팖]x`mjihL9;aB)럪Pkv|");
+            info.setReturnValue("f\u70D5!CV\u34B8>sc\u4ED603\u2A8D@rXP5\u480Ask([xXc.E! LOE;m\u1FA1elZ*O&_\u42F57,QZ$\u8140\uABD1qs]QX\u0484/7\u6D89^mU{n6>t\u258EW83S-n\u8271E\uD316]x`mjihL9;aB)\uB7EAPkv|");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1282203643(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1282203643L))
-            info.setReturnValue(-1961274387);
+            info.setReturnValue(-1844712787);
     }
 
     @Inject(at = @At("HEAD"), method = "config()Lnet/minecraft/world/level/levelgen/carver/CarverConfiguration;", cancellable = true)
@@ -37,16 +37,16 @@ public class ConfiguredWorldCarver1243940901Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "worldCarver()Lnet/minecraft/world/level/levelgen/carver/WorldCarver;", cancellable = true)
-    private void worldCarver__1898027807(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1898027807L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "isStartChunk(Lnet/minecraft/util/RandomSource;)Z", cancellable = true)
     private void isStartChunk__463070340(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-463070340L))
             info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "worldCarver()Lnet/minecraft/world/level/levelgen/carver/WorldCarver;", cancellable = true)
+    private void worldCarver__1898027807(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1898027807L))
+            info.setReturnValue(null);
     }
 
 

@@ -16,13 +16,13 @@ public class DebugStickState2011634550Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_876174575(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(876174575L))
-            info.setReturnValue("쬃XwL^?]+&+396XRᯟ_|.fX벛6VN0.駧2");
+            info.setReturnValue("\uCB03XwL^?]+&+396XR\u1BDF_|.fX\uBC9B6VN0.\u99E72");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2049897292(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2049897292L))
-            info.setReturnValue(-683548658);
+            info.setReturnValue(-1298515858);
     }
 
     @Inject(at = @At("HEAD"), method = "properties()Ljava/util/Map;", cancellable = true)

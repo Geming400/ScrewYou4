@@ -16,17 +16,17 @@ public class Moves_2107996610Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_972536634(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(972536634L))
-            info.setReturnValue("g_PeP5^x6!,73mm䩸;脚n8:\"`V[U<N/g:㔫>:w氨br,Yಯ8aK2堾f&/D`;iKi].?");
+            info.setReturnValue("g_PeP5^x6!,73mm\u4A78;\u811An8:\"`V[U<N/g:\u352B>:w\u6C28br,Y\u0CAF8aK2\u583Ef&/D`;iKi].?");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2146259351(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2146259351L))
-            info.setReturnValue(-1245996051);
+            info.setReturnValue(-1762681351);
     }
 
-    @Inject(at = @At("HEAD"), method = "preexistingFiles()Ljava/util/List;", cancellable = true)
-    private void preexistingFiles__560633871(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "directories()Ljava/util/List;", cancellable = true)
+    private void directories__560633871(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-560633871L))
             info.setReturnValue(null);
     }
@@ -37,8 +37,8 @@ public class Moves_2107996610Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "directories()Ljava/util/List;", cancellable = true)
-    private void directories__560633871(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "preexistingFiles()Ljava/util/List;", cancellable = true)
+    private void preexistingFiles__560633871(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-560633871L))
             info.setReturnValue(null);
     }

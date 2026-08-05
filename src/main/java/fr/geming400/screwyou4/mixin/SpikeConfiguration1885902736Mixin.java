@@ -16,13 +16,13 @@ public class SpikeConfiguration1885902736Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_750442761(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(750442761L))
-            info.setReturnValue("T캐xgn⯄炈䩣ࣦB`Y}Te.R?S#@]z902kCz␝L课f摌(mbkN)+4vꨥ&$珛p{Vnok_.u6EnV庶rH6N]]wk┠0gi@P\"TVM/@퍳A.r6!>@v<&K3");
+            info.setReturnValue("T\uCE90xgn\u2BC4\u7088\u4A63\u08E6B`Y}Te.R?S#@]z902kCz\u241DL\u8BFEf\u644C(mbkN)+4v\uAA25&$\u73DBp{Vnok_.u6EnV\u5EB6rH6N]]wk\u25200gi@P\"TVM/@\uD373A.r6!>@v<&K3");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1924165478(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1924165478L))
-            info.setReturnValue(101929794);
+            info.setReturnValue(632935794);
     }
 
     @Inject(at = @At("HEAD"), method = "state()Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)

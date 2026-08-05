@@ -16,13 +16,13 @@ public class RegexMove928123130Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__207336845(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-207336845L))
-            info.setReturnValue("wUH*W^!澴TdE]^%]\"$pu#!`sl;%4/z꣨;m⑂S(发xG+U");
+            info.setReturnValue("wUH*W^!\u6FB4TdE]^%]\"$pu#!`sl;%4/z\uA8E8;m\u2442S(\u53D1xG+U");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_966385872(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(966385872L))
-            info.setReturnValue(1408937141);
+            info.setReturnValue(1959516741);
     }
 
     @Inject(at = @At("HEAD"), method = "fix(Ljava/nio/file/Path;Lnet/minecraft/util/worldupdate/UpgradeProgress;)V", cancellable = true)
@@ -31,16 +31,16 @@ public class RegexMove928123130Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "toReplacement()Ljava/lang/String;", cancellable = true)
-    private void toReplacement__207337341(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-207337341L))
-            info.setReturnValue("p=痣+TtH^蓾K봠wD&$H湈;:^V[M.%.FcUh8킸A:Xo/䧿J༖E,氁v");
-    }
-
     @Inject(at = @At("HEAD"), method = "fromPattern()Ljava/util/regex/Pattern;", cancellable = true)
     private void fromPattern__162342346(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-162342346L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "toReplacement()Ljava/lang/String;", cancellable = true)
+    private void toReplacement__207337341(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-207337341L))
+            info.setReturnValue("p=\u75E3+TtH^\u84FEK\uBD20wD&$H\u6E48;:^V[M.%.FcUh8\uD0B8A:Xo/\u49FFJ\u0F16E,\u6C01v");
     }
 
 

@@ -16,13 +16,13 @@ public class LevelDataAndDimensions_2138710898Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_1003250922(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1003250922L))
-            info.setReturnValue("(d糫WynN胀i>|ꗤ&84/ZujJX0=0╩c%o@XB5㓑ᕑfW?US8D<H7u+Z<Fb@.az _0IE4䭱:!");
+            info.setReturnValue("(d\u7CEBWynN\u80C0i>|\uA5E4&84/ZujJX0=0\u2569c%o@XB5\u34D1\u1551fW?US8D<H7u+Z<Fb@.az _0IE4\u4B71:!");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__2117993657(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2117993657L))
-            info.setReturnValue(-1838926079);
+            info.setReturnValue(2142667117);
     }
 
     @Inject(at = @At("HEAD"), method = "dimensions()Lnet/minecraft/world/level/levelgen/WorldDimensions$Complete;", cancellable = true)

@@ -25,15 +25,15 @@ public class SetItemCountFunction_818376288Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "setCount(Lnet/minecraft/world/level/storage/loot/providers/number/NumberProvider;Z)Lnet/minecraft/world/level/storage/loot/functions/LootItemConditionalFunction$Builder;", cancellable = true)
-    private static void setCount__168988289(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-168988289L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "setCount(Lnet/minecraft/world/level/storage/loot/providers/number/NumberProvider;)Lnet/minecraft/world/level/storage/loot/functions/LootItemConditionalFunction$Builder;", cancellable = true)
     private static void setCount__688119613(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-688119613L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "setCount(Lnet/minecraft/world/level/storage/loot/providers/number/NumberProvider;Z)Lnet/minecraft/world/level/storage/loot/functions/LootItemConditionalFunction$Builder;", cancellable = true)
+    private static void setCount__168988289(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-168988289L))
             info.setReturnValue(null);
     }
 

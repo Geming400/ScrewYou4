@@ -22,7 +22,7 @@ public class FireflyParticle584978517Mixin {
     @Inject(at = @At("HEAD"), method = "getLightCoords(F)I", cancellable = true)
     private void getLightCoords_1796112433(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1796112433L))
-            info.setReturnValue(1560711104);
+            info.setReturnValue(1131623504);
     }
 
 

@@ -37,16 +37,16 @@ public class ItemStackRenderState_2040427334Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getModelBoundingBox()Lnet/minecraft/world/phys/AABB;", cancellable = true)
-    private void getModelBoundingBox_619769981(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(619769981L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "pickParticleMaterial(Lnet/minecraft/util/RandomSource;)Lnet/minecraft/client/resources/model/sprite/Material$Baked;", cancellable = true)
     private void pickParticleMaterial__2048895653(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2048895653L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isAnimated()Z", cancellable = true)
+    private void isAnimated_2078705916(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2078705916L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "appendModelIdentityElement(Ljava/lang/Object;)V", cancellable = true)
@@ -55,9 +55,9 @@ public class ItemStackRenderState_2040427334Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "visitExtents(Ljava/util/function/Consumer;)V", cancellable = true)
-    private void visitExtents__1573523550(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1573523550L))
+    @Inject(at = @At("HEAD"), method = "setAnimated()V", cancellable = true)
+    private void setAnimated_2078702072(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(2078702072L))
             info.cancel();
     }
 
@@ -67,20 +67,14 @@ public class ItemStackRenderState_2040427334Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "isOversizedInGui()Z", cancellable = true)
-    private void isOversizedInGui_2078705916(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2078705916L))
-            info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "setAnimated()V", cancellable = true)
-    private void setAnimated_2078702072(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(2078702072L))
+    @Inject(at = @At("HEAD"), method = "visitExtents(Ljava/util/function/Consumer;)V", cancellable = true)
+    private void visitExtents__1573523550(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1573523550L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "isAnimated()Z", cancellable = true)
-    private void isAnimated_2078705916(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "isOversizedInGui()Z", cancellable = true)
+    private void isOversizedInGui_2078705916(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2078705916L))
             info.setReturnValue(false);
     }
@@ -89,6 +83,12 @@ public class ItemStackRenderState_2040427334Mixin {
     private void usesBlockLight_2078705916(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2078705916L))
             info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getModelBoundingBox()Lnet/minecraft/world/phys/AABB;", cancellable = true)
+    private void getModelBoundingBox_619769981(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(619769981L))
+            info.setReturnValue(null);
     }
 
 

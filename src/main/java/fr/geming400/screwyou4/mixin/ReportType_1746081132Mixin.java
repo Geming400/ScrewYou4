@@ -16,19 +16,19 @@ public class ReportType_1746081132Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_610621156(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(610621156L))
-            info.setReturnValue("qQ^^=pV,䣿pw倧M]geA`i8Bꌚ2^\"wR-o斺bbl8IF8,m5o탿,>a;←tE&7*TD:訖0w4T肰소:+ X0'$N⾙+yD CNE>");
+            info.setReturnValue("qQ^^=pV,\u48FFpw\u5027M]geA`i8B\uA31A2^\"wR-o\u65BAbbl8IF8,m5o\uD0FF,>a;\u2190tE&7*TD:\u8A160w4T\u80B0\uC18C:+ X0'$N\u2F99+yD CNE>");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1784343873(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1784343873L))
-            info.setReturnValue(-388993472);
+            info.setReturnValue(-718070672);
     }
 
     @Inject(at = @At("HEAD"), method = "header()Ljava/lang/String;", cancellable = true)
     private void header_610620660(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(610620660L))
-            info.setReturnValue(",8/),<)CxlD,}hm)헷5b㫯a'gI쎼勧p[hu퉊eJlЅP_)5oACi<绍rz⃝㔞]/*Gh$|jLXbL@6`Qo#⍴l8琧!VYTp嶠?1Eg06豻㴜uNWP`$");
+            info.setReturnValue(",8/),<)CxlD,}hm)\uD5F75b\u3AEFa'gI\uC3BC\u52E7p[hu\uD24AeJl\u0405P_)5oACi<\u7ECDrz\u20DD\u351E]/*Gh$|jLXbL@6`Qo#\u2374l8\u7427!VYTp\u5DA0?1Eg06\u8C7B\u3D1CuNWP`$");
     }
 
     @Inject(at = @At("HEAD"), method = "nuggets()Ljava/util/List;", cancellable = true)
@@ -46,7 +46,7 @@ public class ReportType_1746081132Mixin {
     @Inject(at = @At("HEAD"), method = "getErrorComment()Ljava/lang/String;", cancellable = true)
     private void getErrorComment_610620660(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(610620660L))
-            info.setReturnValue(",8/),<)CxlD,}hm)헷5b㫯a'gI쎼勧p[hu퉊eJlЅP_)5oACi<绍rz⃝㔞]/*Gh$|jLXbL@6`Qo#⍴l8琧!VYTp嶠?1Eg06豻㴜uNWP`$");
+            info.setReturnValue(",8/),<)CxlD,}hm)\uD5F75b\u3AEFa'gI\uC3BC\u52E7p[hu\uD24AeJl\u0405P_)5oACi<\u7ECDrz\u20DD\u351E]/*Gh$|jLXbL@6`Qo#\u2374l8\u7427!VYTp\u5DA0?1Eg06\u8C7B\u3D1CuNWP`$");
     }
 
 

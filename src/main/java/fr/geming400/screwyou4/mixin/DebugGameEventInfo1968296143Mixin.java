@@ -16,13 +16,13 @@ public class DebugGameEventInfo1968296143Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_832836168(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(832836168L))
-            info.setReturnValue("`s㮆Xᶍ9:AvBA靐<-y+w=z#G\"n|I`n0MrK/_c|gViF;C3bL@6K#kE");
+            info.setReturnValue("`s\u3B86X\u1D8D9:AvBA\u9750<-y+w=z#G\"n|I`n0MrK/_c|gViF;C3bL@6K#kE");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2006558885(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2006558885L))
-            info.setReturnValue(-1548469234);
+            info.setReturnValue(-1618651734);
     }
 
     @Inject(at = @At("HEAD"), method = "event()Lnet/minecraft/core/Holder;", cancellable = true)

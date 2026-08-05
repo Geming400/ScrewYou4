@@ -16,19 +16,19 @@ public class DownloadedTexture_698617313Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__436842663(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-436842663L))
-            info.setReturnValue("I{;)U,,wj&1 62= G䧻n슇>!0-H)2393⮋\"UH4|,(ኦ{%C竈B'/猳DXuolE9犇䑷3%`V$Op{5");
+            info.setReturnValue("I{;)U,,wj&1 62= G\u49FBn\uC287>!0-H)2393\u2B8B\"UH4|,(\u12A6{%C\u7AC8B'/\u7333DXuolE9\u7287\u44773%`V$Op{5");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_736880054(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(736880054L))
-            info.setReturnValue(2022118291);
+            info.setReturnValue(-1557450605);
     }
 
     @Inject(at = @At("HEAD"), method = "url()Ljava/lang/String;", cancellable = true)
     private void url__436843159(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-436843159L))
-            info.setReturnValue("⦈O,엜A`h^mU\"");
+            info.setReturnValue("\u2988O,\uC5DCA`h^mU\"");
     }
 
     @Inject(at = @At("HEAD"), method = "id()Lnet/minecraft/resources/Identifier;", cancellable = true)

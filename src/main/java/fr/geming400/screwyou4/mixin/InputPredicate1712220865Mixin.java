@@ -16,13 +16,13 @@ public class InputPredicate1712220865Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_576760890(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(576760890L))
-            info.setReturnValue("+1I:勼&{</RB<W-/i%z{<*EG;\"⯏Xro}BCW8+:ifH");
+            info.setReturnValue("+1I:\u52FC&{</RB<W-/i%z{<*EG;\"\u2BCFXro}BCW8+:ifH");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1750483607(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1750483607L))
-            info.setReturnValue(-472672876);
+            info.setReturnValue(-1308813776);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/world/entity/player/Input;)Z", cancellable = true)
@@ -55,14 +55,14 @@ public class InputPredicate1712220865Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "sprint()Ljava/util/Optional;", cancellable = true)
-    private void sprint_1957682287(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "sneak()Ljava/util/Optional;", cancellable = true)
+    private void sneak_1957682287(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1957682287L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "sneak()Ljava/util/Optional;", cancellable = true)
-    private void sneak_1957682287(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "sprint()Ljava/util/Optional;", cancellable = true)
+    private void sprint_1957682287(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1957682287L))
             info.setReturnValue(null);
     }

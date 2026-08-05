@@ -22,7 +22,7 @@ public class ArmorSlot593139887Mixin {
     @Inject(at = @At("HEAD"), method = "getMaxStackSize()I", cancellable = true)
     private void getMaxStackSize_631402133(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(631402133L))
-            info.setReturnValue(39533531);
+            info.setReturnValue(-453070069);
     }
 
     @Inject(at = @At("HEAD"), method = "setByPlayer(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/ItemStack;)V", cancellable = true)

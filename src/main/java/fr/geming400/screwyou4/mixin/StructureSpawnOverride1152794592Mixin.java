@@ -16,13 +16,13 @@ public class StructureSpawnOverride1152794592Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_17334617(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(17334617L))
-            info.setReturnValue("[FC9>Dc语훪R}QK<.^R),TK㪿T(vZ2.fA7uOzMOWcxi8藅NJVXuⓒv%r6W4u䛨r&");
+            info.setReturnValue("[FC9>Dc\u8BED\uD6EAR}QK<.^R),TK\u3ABFT(vZ2.fA7uOzMOWcxi8\u85C5NJVXu\u24D2v%r6W4u\u46E8r&");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1191057334(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1191057334L))
-            info.setReturnValue(-1899875877);
+            info.setReturnValue(1973944819);
     }
 
     @Inject(at = @At("HEAD"), method = "spawns()Lnet/minecraft/util/random/WeightedList;", cancellable = true)

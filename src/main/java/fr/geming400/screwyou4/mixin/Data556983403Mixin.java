@@ -16,13 +16,13 @@ public class Data556983403Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__578476572(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-578476572L))
-            info.setReturnValue("㦅⏰8U\"OO{[PS9fp<:b淹P鍟;U\"*`m$Ὶ࡛)*휑e`v䜔HYDᗢF.#baRn45]H");
+            info.setReturnValue("\u3985\u23F08U\"OO{[PS9fp<:b\u6DF9P\u935F;U\"*`m$\u1FDA\u085B)*\uD711e`v\u4714HYD\u15E2F.#baRn45]H");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_595246145(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(595246145L))
-            info.setReturnValue(1890814743);
+            info.setReturnValue(2033242743);
     }
 
     @Inject(at = @At("HEAD"), method = "key()Ljava/security/PublicKey;", cancellable = true)

@@ -16,13 +16,13 @@ public class Layer1388627066Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_253167091(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(253167091L))
-            info.setReturnValue("더]}_쨝[;6z'RT쓧HkCS2U");
+            info.setReturnValue("\uB354]}_\uCA1D[;6z'RT\uC4E7HkCS2U");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1426889808(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1426889808L))
-            info.setReturnValue(392674102);
+            info.setReturnValue(602578502);
     }
 
     @Inject(at = @At("HEAD"), method = "translucent()Z", cancellable = true)
@@ -37,15 +37,15 @@ public class Layer1388627066Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "bySprite(Lnet/minecraft/client/renderer/texture/TextureAtlasSprite;)Lnet/minecraft/client/particle/SingleQuadParticle$Layer;", cancellable = true)
-    private static void bySprite__883480837(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-883480837L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "pipeline()Lcom/mojang/blaze3d/pipeline/RenderPipeline;", cancellable = true)
     private void pipeline__1908932018(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1908932018L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "bySprite(Lnet/minecraft/client/renderer/texture/TextureAtlasSprite;)Lnet/minecraft/client/particle/SingleQuadParticle$Layer;", cancellable = true)
+    private static void bySprite__883480837(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-883480837L))
             info.setReturnValue(null);
     }
 

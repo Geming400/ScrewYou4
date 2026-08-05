@@ -10,7 +10,7 @@ public class LevelChunkTicks_118225857Mixin {
         @Inject(at = @At("HEAD"), method = "count()I", cancellable = true)
     private void count_156488102(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(156488102L))
-            info.setReturnValue(791834711);
+            info.setReturnValue(518656011);
     }
 
     @Inject(at = @At("HEAD"), method = "schedule(Lnet/minecraft/world/ticks/ScheduledTick;)V", cancellable = true)
@@ -55,16 +55,16 @@ public class LevelChunkTicks_118225857Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "setOnTickAdded(Ljava/util/function/BiConsumer;)V", cancellable = true)
-    private void setOnTickAdded__1619925034(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1619925034L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "hasScheduledTick(Lnet/minecraft/core/BlockPos;Ljava/lang/Object;)Z", cancellable = true)
     private void hasScheduledTick__1897787417(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1897787417L))
             info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "setOnTickAdded(Ljava/util/function/BiConsumer;)V", cancellable = true)
+    private void setOnTickAdded__1619925034(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1619925034L))
+            info.cancel();
     }
 
 

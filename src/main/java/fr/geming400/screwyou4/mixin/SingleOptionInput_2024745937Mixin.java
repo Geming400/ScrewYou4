@@ -16,13 +16,13 @@ public class SingleOptionInput_2024745937Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_889285961(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(889285961L))
-            info.setReturnValue("`qsBsgL콥^Q_5쵛듼a<KM,㽔o6+t(沒薇NH<8㡕凤P毼Fx4|3sg&.zu4a觌XP@ꠠ*$2%mnA鰼_4=");
+            info.setReturnValue("`qsBsgL\uCF65^Q_5\uCD5B\uB4FCa<KM,\u3F54o6+t(\u6C92\u8587NH<8\u3855\u51E4P\u6BFCFx4|3sg&.zu4a\u89CCXP@\uA820*$2%mnA\u9C3C_4=");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2063008678(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2063008678L))
-            info.setReturnValue(506532845);
+            info.setReturnValue(396115545);
     }
 
     @Inject(at = @At("HEAD"), method = "entries()Ljava/util/List;", cancellable = true)
@@ -34,7 +34,7 @@ public class SingleOptionInput_2024745937Mixin {
     @Inject(at = @At("HEAD"), method = "width()I", cancellable = true)
     private void width_2063008182(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2063008182L))
-            info.setReturnValue(709680264);
+            info.setReturnValue(599262964);
     }
 
     @Inject(at = @At("HEAD"), method = "label()Lnet/minecraft/network/chat/Component;", cancellable = true)

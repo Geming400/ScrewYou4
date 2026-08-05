@@ -22,7 +22,7 @@ public class FontOption1174756476Mixin {
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName_39296005(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(39296005L))
-            info.setReturnValue("G!(gv5q[c䏍!:$&k?,sG>Mb-\"V5AR(uIA좆ᣣ1(X)xO췃yV-|7ErKL䇓镋>@iej/ME1覰PECy废ebOT5x);)lD蕀H");
+            info.setReturnValue("G!(gv5q[c\u43CD!:$&k?,sG>Mb-\"V5AR(uIA\uC886\u18E31(X)xO\uCDC3yV-|7ErKL\u41D3\u954B>@iej/ME1\u89B0PECy\u5E9FebOT5x);)lD\u8540H");
     }
 
 

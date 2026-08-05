@@ -79,18 +79,6 @@ public class TagValueOutput_1396381056Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "putIntArray(Ljava/lang/String;[I)V", cancellable = true)
-    private void putIntArray_2106009610(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(2106009610L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "storeNullable(Ljava/lang/String;Lcom/mojang/serialization/Codec;Ljava/lang/Object;)V", cancellable = true)
-    private void storeNullable__200034081(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-200034081L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "discard(Ljava/lang/String;)V", cancellable = true)
     private void discard__1746225092(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1746225092L))
@@ -103,9 +91,15 @@ public class TagValueOutput_1396381056Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "putString(Ljava/lang/String;Ljava/lang/String;)V", cancellable = true)
-    private void putString__1966398010(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1966398010L))
+    @Inject(at = @At("HEAD"), method = "putIntArray(Ljava/lang/String;[I)V", cancellable = true)
+    private void putIntArray_2106009610(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(2106009610L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "storeNullable(Ljava/lang/String;Lcom/mojang/serialization/Codec;Ljava/lang/Object;)V", cancellable = true)
+    private void storeNullable__200034081(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-200034081L))
             info.cancel();
     }
 
@@ -119,6 +113,12 @@ public class TagValueOutput_1396381056Mixin {
     private void buildResult__173841865(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-173841865L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "putString(Ljava/lang/String;Ljava/lang/String;)V", cancellable = true)
+    private void putString__1966398010(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1966398010L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "createWithoutContext(Lnet/minecraft/util/ProblemReporter;)Lnet/minecraft/world/level/storage/TagValueOutput;", cancellable = true)

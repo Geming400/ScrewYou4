@@ -16,13 +16,13 @@ public class TeleportRandomlyConsumeEffect_1166983500Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_31523524(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(31523524L))
-            info.setReturnValue("XzDRpIb76amLC[dyD≡@*櫉nCW");
+            info.setReturnValue("XzDRpIb76amLC[dyD\u2261@*\u6AC9nCW");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1205246241(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1205246241L))
-            info.setReturnValue(-1652548798);
+            info.setReturnValue(-1707277798);
     }
 
     @Inject(at = @At("HEAD"), method = "apply(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/LivingEntity;)Z", cancellable = true)
@@ -40,7 +40,7 @@ public class TeleportRandomlyConsumeEffect_1166983500Mixin {
     @Inject(at = @At("HEAD"), method = "diameter()F", cancellable = true)
     private void diameter_1205242862(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1205242862L))
-            info.setReturnValue(4.470899E8F);
+            info.setReturnValue(3.923609E8F);
     }
 
 

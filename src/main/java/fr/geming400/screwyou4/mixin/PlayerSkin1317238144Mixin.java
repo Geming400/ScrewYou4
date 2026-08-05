@@ -16,13 +16,13 @@ public class PlayerSkin1317238144Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_181778169(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(181778169L))
-            info.setReturnValue("4B3X&fP.}9=7nEZ<c]#XZqIJ꜒䓱!7syKhႥ");
+            info.setReturnValue("4B3X&fP.}9=7nEZ<c]#XZqIJ\uA712\u44F1!7syKh\u10A5");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1355500886(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1355500886L))
-            info.setReturnValue(-431078686);
+            info.setReturnValue(97468314);
     }
 
     @Inject(at = @At("HEAD"), method = "with(Lnet/minecraft/world/entity/player/PlayerSkin$Patch;)Lnet/minecraft/world/entity/player/PlayerSkin;", cancellable = true)
@@ -49,8 +49,8 @@ public class PlayerSkin1317238144Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "cape()Lnet/minecraft/core/ClientAsset$Texture;", cancellable = true)
-    private void cape__2063156754(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "elytra()Lnet/minecraft/core/ClientAsset$Texture;", cancellable = true)
+    private void elytra__2063156754(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2063156754L))
             info.setReturnValue(null);
     }
@@ -61,8 +61,8 @@ public class PlayerSkin1317238144Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "elytra()Lnet/minecraft/core/ClientAsset$Texture;", cancellable = true)
-    private void elytra__2063156754(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "cape()Lnet/minecraft/core/ClientAsset$Texture;", cancellable = true)
+    private void cape__2063156754(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2063156754L))
             info.setReturnValue(null);
     }

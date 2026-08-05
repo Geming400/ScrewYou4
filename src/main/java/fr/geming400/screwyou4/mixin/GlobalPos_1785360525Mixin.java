@@ -16,13 +16,13 @@ public class GlobalPos_1785360525Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_649900053(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(649900053L))
-            info.setReturnValue("SunEo禴ڋ6eEgPਚjL勖>*EvYu&xe,㏴a|j79;&|r}!YV;U`>f䠎%I!p]>*'(#㸨10&c驲Kk$");
+            info.setReturnValue("SunEo\u79B4\u068B6eEgP\u0A1AjL\u52D6>*EvYu&xe,\u33F4a|j79;&|r}!YV;U`>f\u480E%I!p]>*'(#\u3E2810&c\u9A72Kk$");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1823623266(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1823623266L))
-            info.setReturnValue(1134198237);
+            info.setReturnValue(488084937);
     }
 
     @Inject(at = @At("HEAD"), method = "of(Lnet/minecraft/resources/ResourceKey;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/core/GlobalPos;", cancellable = true)

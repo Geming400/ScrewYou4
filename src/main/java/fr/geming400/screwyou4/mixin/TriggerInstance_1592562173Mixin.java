@@ -16,13 +16,13 @@ public class TriggerInstance_1592562173Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_457102197(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(457102197L))
-            info.setReturnValue("zT$y-RUw4JkE|?xIꆵc;@v`Ui?0`M蒞NQD)NUa%8#EGWh⛡wZ$%7-J Ov9g2w:}Bꋹ8,K-R");
+            info.setReturnValue("zT$y-RUw4JkE|?xI\uA1B5c;@v`Ui?0`M\u849ENQD)NUa%8#EGWh\u26E1wZ$%7-J Ov9g2w:}B\uA2F98,K-R");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1630824914(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1630824914L))
-            info.setReturnValue(-1511363162);
+            info.setReturnValue(-1173571762);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/world/level/storage/loot/LootContext;Lnet/minecraft/world/phys/Vec3;I)Z", cancellable = true)
@@ -43,15 +43,15 @@ public class TriggerInstance_1592562173Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "signalStrength()Lnet/minecraft/advancements/predicates/MinMaxBounds$Ints;", cancellable = true)
-    private void signalStrength_1441327114(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1441327114L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "projectile()Ljava/util/Optional;", cancellable = true)
     private void projectile_1838023594(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1838023594L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "signalStrength()Lnet/minecraft/advancements/predicates/MinMaxBounds$Ints;", cancellable = true)
+    private void signalStrength_1441327114(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1441327114L))
             info.setReturnValue(null);
     }
 

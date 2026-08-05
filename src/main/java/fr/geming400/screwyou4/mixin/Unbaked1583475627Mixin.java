@@ -22,31 +22,31 @@ public class Unbaked1583475627Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_448015652(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(448015652L))
-            info.setReturnValue("]JU*v칶皺");
+            info.setReturnValue("]JU*v\uCE76\u76BA");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1621738369(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1621738369L))
-            info.setReturnValue(1405425959);
-    }
-
-    @Inject(at = @At("HEAD"), method = "page2()F", cancellable = true)
-    private void page2_1621734990(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1621734990L))
-            info.setReturnValue(2.036429E8F);
-    }
-
-    @Inject(at = @At("HEAD"), method = "page1()F", cancellable = true)
-    private void page1_1621734990(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1621734990L))
-            info.setReturnValue(2.036429E8F);
+            info.setReturnValue(1518838359);
     }
 
     @Inject(at = @At("HEAD"), method = "openAngle()F", cancellable = true)
     private void openAngle_1621734990(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1621734990L))
-            info.setReturnValue(2.036429E8F);
+            info.setReturnValue(3.170553E8F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "page1()F", cancellable = true)
+    private void page1_1621734990(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1621734990L))
+            info.setReturnValue(3.170553E8F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "page2()F", cancellable = true)
+    private void page2_1621734990(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1621734990L))
+            info.setReturnValue(3.170553E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "bake(Lnet/minecraft/client/renderer/special/SpecialModelRenderer$BakingContext;)Lnet/minecraft/client/renderer/special/SpecialModelRenderer;", cancellable = true)

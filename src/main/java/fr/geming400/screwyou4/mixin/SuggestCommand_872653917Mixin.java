@@ -16,13 +16,13 @@ public class SuggestCommand_872653917Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__262806059(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-262806059L))
-            info.setReturnValue("?P=dLFu+WঝrP擄轚?PfEX|3\"Km{D6WF/G.ᱳ%M뿖@]6eF}3 H蒙퇾%-Y#[B`");
+            info.setReturnValue("?P=dLFu+W\u099DrP\uF930\u8F5A?PfEX|3\"Km{D6WF/G.\u1C73%M\uBFD6@]6eF}3 H\u8499\uD1FE%-Y#[B`");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_910916658(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(910916658L))
-            info.setReturnValue(1079095374);
+            info.setReturnValue(1639504174);
     }
 
     @Inject(at = @At("HEAD"), method = "command()Ljava/lang/String;", cancellable = true)

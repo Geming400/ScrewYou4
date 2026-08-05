@@ -13,15 +13,15 @@ public class DetectedVersion2108472520Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "createBuiltIn(Ljava/lang/String;Ljava/lang/String;Z)Lnet/minecraft/WorldVersion;", cancellable = true)
-    private static void createBuiltIn__1929924514(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1929924514L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "createBuiltIn(Ljava/lang/String;Ljava/lang/String;)Lnet/minecraft/WorldVersion;", cancellable = true)
     private static void createBuiltIn__282604288(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-282604288L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "createBuiltIn(Ljava/lang/String;Ljava/lang/String;Z)Lnet/minecraft/WorldVersion;", cancellable = true)
+    private static void createBuiltIn__1929924514(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1929924514L))
             info.setReturnValue(null);
     }
 

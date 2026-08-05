@@ -28,7 +28,7 @@ public class CombatTracker_288559626Mixin {
     @Inject(at = @At("HEAD"), method = "getCombatDuration()I", cancellable = true)
     private void getCombatDuration_326821871(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(326821871L))
-            info.setReturnValue(152759845);
+            info.setReturnValue(-548189655);
     }
 
 

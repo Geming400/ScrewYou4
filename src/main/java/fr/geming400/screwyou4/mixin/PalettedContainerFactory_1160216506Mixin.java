@@ -16,13 +16,13 @@ public class PalettedContainerFactory_1160216506Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_24756530(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(24756530L))
-            info.setReturnValue("n<l5M7㊥t蛺d\"T|䍣$.Id)=A%I;w뫰盛A)E-+GxꭇoBLtD>)䇣WPtiFdM<6a0aM퇾x䝧GSR54s<,#");
+            info.setReturnValue("n<l5M7\u32A5t\u86FAd\"T|\u4363$.Id)=A%I;w\uBAF0\uFAA7A)E-+Gx\uAB47oBLtD>)\u41E3WPtiFdM<6a0aM\uD1FEx\u4767GSR54s<,#");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1198479247(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1198479247L))
-            info.setReturnValue(1066321115);
+            info.setReturnValue(1920181015);
     }
 
     @Inject(at = @At("HEAD"), method = "create(Lnet/minecraft/core/RegistryAccess;)Lnet/minecraft/world/level/chunk/PalettedContainerFactory;", cancellable = true)
@@ -43,27 +43,15 @@ public class PalettedContainerFactory_1160216506Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "createForBlockStates()Lnet/minecraft/world/level/chunk/PalettedContainer;", cancellable = true)
-    private void createForBlockStates__334532349(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-334532349L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "createForBiomes()Lnet/minecraft/world/level/chunk/PalettedContainer;", cancellable = true)
     private void createForBiomes__334532349(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-334532349L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "biomeStrategy()Lnet/minecraft/world/level/chunk/Strategy;", cancellable = true)
-    private void biomeStrategy__1334614090(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1334614090L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "blockStatesStrategy()Lnet/minecraft/world/level/chunk/Strategy;", cancellable = true)
-    private void blockStatesStrategy__1334614090(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1334614090L))
+    @Inject(at = @At("HEAD"), method = "createForBlockStates()Lnet/minecraft/world/level/chunk/PalettedContainer;", cancellable = true)
+    private void createForBlockStates__334532349(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-334532349L))
             info.setReturnValue(null);
     }
 
@@ -76,6 +64,18 @@ public class PalettedContainerFactory_1160216506Mixin {
     @Inject(at = @At("HEAD"), method = "blockStatesContainerCodec()Lcom/mojang/serialization/Codec;", cancellable = true)
     private void blockStatesContainerCodec_768250879(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(768250879L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "blockStatesStrategy()Lnet/minecraft/world/level/chunk/Strategy;", cancellable = true)
+    private void blockStatesStrategy__1334614090(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1334614090L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "biomeStrategy()Lnet/minecraft/world/level/chunk/Strategy;", cancellable = true)
+    private void biomeStrategy__1334614090(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1334614090L))
             info.setReturnValue(null);
     }
 

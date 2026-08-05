@@ -16,13 +16,13 @@ public class UpgradeInProgress_1472954226Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_337494250(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(337494250L))
-            info.setReturnValue("GeEljK᳜%#YRW=V<HxfmC&B1t쩀'2㔿aae/ﳡꞂ^x0Z&e쥩7\"Feq놏3씳:DO1t\"3圗h럴|kmg*M|P#Ojmf᳛[칄Cx");
+            info.setReturnValue("GeEljK\u1CDC%#YRW=V<HxfmC&B1t\uCA40'2\u353Faae/\uFCE1\uA782^x0Z&e\uC9697\"Feq\uB18F3\uC533:DO1t\"3\u5717h\uB7F4|kmg*M|P#Ojmf\u1CDB[\uCE44Cx");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1511216967(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1511216967L))
-            info.setReturnValue(-140870598);
+            info.setReturnValue(-192874998);
     }
 
     @Inject(at = @At("HEAD"), method = "moves()Ljava/util/List;", cancellable = true)

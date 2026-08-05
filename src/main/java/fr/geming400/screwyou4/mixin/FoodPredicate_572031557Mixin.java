@@ -16,13 +16,13 @@ public class FoodPredicate_572031557Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__563428419(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-563428419L))
-            info.setReturnValue("}팲뀡;y圗Zy^^!湗U:&T`|*sk9cd㽯䭙xxzBlTs$r⧅#R1X\"匎*.6fpS僤zx BVCr톮nZC?┃");
+            info.setReturnValue("}\uD332\uB021;y\u5717Zy^^!\u6E57U:&T`|*sk9cd\u3F6F\u4B59xxzBlTs$r\u29C5#R1X\"\u530E*.6fpS\u50E4zx BVCr\uD1AEnZC?\u2503");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_610294298(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(610294298L))
-            info.setReturnValue(837755231);
+            info.setReturnValue(576182231);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/world/food/FoodData;)Z", cancellable = true)

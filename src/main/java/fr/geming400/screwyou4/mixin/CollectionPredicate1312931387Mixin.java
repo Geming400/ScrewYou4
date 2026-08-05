@@ -22,13 +22,13 @@ public class CollectionPredicate1312931387Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_177471412(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(177471412L))
-            info.setReturnValue("KptYW/J|8D㒑_V^}n,YNl}49;8stmPwjT\"?{2Po#zRVGYo1ﺐ&C9SD9bE[综iA#^^vsDpp3Kࠃ^NS");
+            info.setReturnValue("KptYW/J|8D\u3491_V^}n,YNl}49;8stmPwjT\"?{2Po#zRVGYo1\uFE90&C9SD9bE[\u7EFCiA#^^vsDpp3K\u0803^NS");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1351194129(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1351194129L))
-            info.setReturnValue(2056554208);
+            info.setReturnValue(-1466618188);
     }
 
     @Inject(at = @At("HEAD"), method = "test(Ljava/lang/Object;)Z", cancellable = true)

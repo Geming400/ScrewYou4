@@ -10,7 +10,7 @@ public class DataComponentPatch_547360237Mixin {
         @Inject(at = @At("HEAD"), method = "size()I", cancellable = true)
     private void size_585622482(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(585622482L))
-            info.setReturnValue(-1599475529);
+            info.setReturnValue(1873649867);
     }
 
     @Inject(at = @At("HEAD"), method = "get(Lnet/minecraft/core/component/DataComponentGetter;Lnet/minecraft/core/component/DataComponentType;)Ljava/lang/Object;", cancellable = true)
@@ -28,13 +28,13 @@ public class DataComponentPatch_547360237Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__588100235(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-588100235L))
-            info.setReturnValue("[h{Al=믾<_Uau`*n]_ !5Odh]征*B,Dhꡞ84`\"-gPC<b<0s^L瓑N5Hx}Aꞏm촚l<w=LL");
+            info.setReturnValue("[h{Al=\uBBFE<_Uau`*n]_ !5Odh]\u5F81*B,Dh\uA85E84`\"-gPC<b<0s^L\u74D1N5Hx}A\uA78Fm\uCD1Al<w=LL");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_585622482(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(585622482L))
-            info.setReturnValue(-1599475529);
+            info.setReturnValue(1873649867);
     }
 
     @Inject(at = @At("HEAD"), method = "isEmpty()Z", cancellable = true)

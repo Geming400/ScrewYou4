@@ -16,13 +16,13 @@ public class InternalTarget_664729971Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__470730005(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-470730005L))
-            info.setReturnValue("(Z=of8劖pAQᚼZO3[w=+");
+            info.setReturnValue("(Z=of8\u5296pAQ\u16BCZO3[w=+");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_702992712(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(702992712L))
-            info.setReturnValue(765624104);
+            info.setReturnValue(460184804);
     }
 
     @Inject(at = @At("HEAD"), method = "width()Ljava/util/Optional;", cancellable = true)
@@ -46,7 +46,7 @@ public class InternalTarget_664729971Mixin {
     @Inject(at = @At("HEAD"), method = "clearColor()I", cancellable = true)
     private void clearColor_702992216(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(702992216L))
-            info.setReturnValue(-607159971);
+            info.setReturnValue(-912599271);
     }
 
 

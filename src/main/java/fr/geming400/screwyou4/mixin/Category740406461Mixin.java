@@ -16,13 +16,13 @@ public class Category740406461Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__395053514(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-395053514L))
-            info.setReturnValue("P1 xzR^y7佼qra3o儿s=6U4g{[]};j%XiKp*bF*;7LBHo.!qr-3'h7iSGYFH㹅=t 2P4W:n8;0=?:⬗6潿㹤,gKGc/紿");
+            info.setReturnValue("P1 xzR^y7\u4F7Cqra3o\u513Fs=6U4g{[]};j%XiKp*bF*;7LBHo.!qr-3'h7iSGYFH\u3E45=t 2P4W:n8;0=?:\u2B176\u6F7F\u3E64,gKGc/\u7D3F");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_778669203(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(778669203L))
-            info.setReturnValue(-47311506);
+            info.setReturnValue(-320008106);
     }
 
     @Inject(at = @At("HEAD"), method = "register(Lnet/minecraft/resources/Identifier;)Lnet/minecraft/client/KeyMapping$Category;", cancellable = true)

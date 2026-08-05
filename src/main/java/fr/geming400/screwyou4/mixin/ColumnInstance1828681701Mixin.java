@@ -16,55 +16,55 @@ public class ColumnInstance1828681701Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_693221726(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(693221726L))
-            info.setReturnValue("O6-VOs1U簽!NnR:=ᯪ,掌#y2Q,+({AW诖m22&쮽!pN<w4$\"࣫!5>-VaZtTT蒥1t+'-Glh蟐T;ﱥR6cb;kxh>k獸@0:");
+            info.setReturnValue("O6-VOs1U\u7C3D!NnR:=\u1BEA,\u638C#y2Q,+({AW\u8BD6m22&\uCBBD!pN<w4$\"\u08EB!5>-VaZtTT\u84A51t+'-Glh\u87D0T;\uFC65R6cb;kxh>k\u7378@0:");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1866944443(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1866944443L))
-            info.setReturnValue(1090903029);
+            info.setReturnValue(908189929);
     }
 
     @Inject(at = @At("HEAD"), method = "x()I", cancellable = true)
     private void x_1866943947(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1866943947L))
-            info.setReturnValue(1269426519);
+            info.setReturnValue(1086713419);
     }
 
     @Inject(at = @At("HEAD"), method = "z()I", cancellable = true)
     private void z_1866943947(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1866943947L))
-            info.setReturnValue(1269426519);
+            info.setReturnValue(1086713419);
     }
 
     @Inject(at = @At("HEAD"), method = "topY()I", cancellable = true)
     private void topY_1866943947(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1866943947L))
-            info.setReturnValue(1269426519);
-    }
-
-    @Inject(at = @At("HEAD"), method = "uOffset()F", cancellable = true)
-    private void uOffset_1866941064(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1866941064L))
-            info.setReturnValue(6.754688E8F);
-    }
-
-    @Inject(at = @At("HEAD"), method = "vOffset()F", cancellable = true)
-    private void vOffset_1866941064(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1866941064L))
-            info.setReturnValue(6.754688E8F);
-    }
-
-    @Inject(at = @At("HEAD"), method = "bottomY()I", cancellable = true)
-    private void bottomY_1866943947(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1866943947L))
-            info.setReturnValue(1269426519);
+            info.setReturnValue(1086713419);
     }
 
     @Inject(at = @At("HEAD"), method = "lightCoords()I", cancellable = true)
     private void lightCoords_1866943947(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1866943947L))
-            info.setReturnValue(1269426519);
+            info.setReturnValue(1086713419);
+    }
+
+    @Inject(at = @At("HEAD"), method = "bottomY()I", cancellable = true)
+    private void bottomY_1866943947(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1866943947L))
+            info.setReturnValue(1086713419);
+    }
+
+    @Inject(at = @At("HEAD"), method = "uOffset()F", cancellable = true)
+    private void uOffset_1866941064(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1866941064L))
+            info.setReturnValue(4.927557E8F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "vOffset()F", cancellable = true)
+    private void vOffset_1866941064(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1866941064L))
+            info.setReturnValue(4.927557E8F);
     }
 
 

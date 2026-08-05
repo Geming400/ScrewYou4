@@ -16,13 +16,13 @@ public class StructureGenStat68933829Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__1066526146(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1066526146L))
-            info.setReturnValue("V承qd^Q|^D{Q-6$2}P?EnIFq蘆f");
+            info.setReturnValue("V\u627Fqd^Q|^D{Q-6$2}P?EnIFq\uF935f");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_107196571(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(107196571L))
-            info.setReturnValue(-13729691);
+            info.setReturnValue(266629109);
     }
 
     @Inject(at = @At("HEAD"), method = "from(Ljdk/jfr/consumer/RecordedEvent;)Lnet/minecraft/util/profiling/jfr/stats/StructureGenStat;", cancellable = true)
@@ -40,7 +40,7 @@ public class StructureGenStat68933829Mixin {
     @Inject(at = @At("HEAD"), method = "level()Ljava/lang/String;", cancellable = true)
     private void level__1066526642(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1066526642L))
-            info.setReturnValue("tnᘟ!ofRO7覿t/D뭸BO{VKQ:us4,VZUMyG&{(`_.pj 栈i-(pFIc<C%wSQ vh郆/]'3;?毹匤傐");
+            info.setReturnValue("tn\u161F!ofRO7\u89BFt/D\uBB78BO{VKQ:us4,VZUMyG&{(`_.pj \u6808i-(pFIc<C%wSQ vh\u90C6/]'3;?\u6BF9\u5324\u5090");
     }
 
     @Inject(at = @At("HEAD"), method = "chunkPos()Lnet/minecraft/world/level/ChunkPos;", cancellable = true)
@@ -58,7 +58,7 @@ public class StructureGenStat68933829Mixin {
     @Inject(at = @At("HEAD"), method = "structureName()Ljava/lang/String;", cancellable = true)
     private void structureName__1066526642(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1066526642L))
-            info.setReturnValue("tnᘟ!ofRO7覿t/D뭸BO{VKQ:us4,VZUMyG&{(`_.pj 栈i-(pFIc<C%wSQ vh郆/]'3;?毹匤傐");
+            info.setReturnValue("tn\u161F!ofRO7\u89BFt/D\uBB78BO{VKQ:us4,VZUMyG&{(`_.pj \u6808i-(pFIc<C%wSQ vh\u90C6/]'3;?\u6BF9\u5324\u5090");
     }
 
 

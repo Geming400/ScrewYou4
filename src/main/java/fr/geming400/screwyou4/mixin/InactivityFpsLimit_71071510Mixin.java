@@ -28,7 +28,7 @@ public class InactivityFpsLimit_71071510Mixin {
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName__1064388962(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1064388962L))
-            info.setReturnValue("骠aejYhJT,zgVJeT^^l_5C]tF1q#?-c嚜I睚]1=@R91W`g&zdg'>;}[}/S,HuLuҥ_댲鞌妌탏oD)Oꘓ셍2%AV['n}he K㻔31G4lL^");
+            info.setReturnValue("\u9AA0aejYhJT,zgVJeT^^l_5C]tF1q#?-c\u569CI\u775A]1=@R91W`g&zdg'>;}[}/S,HuLu\u04A5_\uB332\u978C\u598C\uD0CFoD)O\uA613\uC14D2%AV['n}he K\u3ED431G4lL^");
     }
 
 

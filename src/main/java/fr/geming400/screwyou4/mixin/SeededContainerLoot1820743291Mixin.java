@@ -16,19 +16,19 @@ public class SeededContainerLoot1820743291Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_685283316(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(685283316L))
-            info.setReturnValue("<7b#\"rpmQs$8{e7;^mH椵y*i`:Uv^8rK5}섴ub?2du꓿ &");
+            info.setReturnValue("<7b#\"rpmQs$8{e7;^mH\u6935y*i`:Uv^8rK5}\uC134ub?2du\uA4FF &");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1859006033(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1859006033L))
-            info.setReturnValue(-981170435);
+            info.setReturnValue(-1484053735);
     }
 
     @Inject(at = @At("HEAD"), method = "seed()J", cancellable = true)
     private void seed_1859006498(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1859006498L))
-            info.setReturnValue(-2005124154607550098L);
+            info.setReturnValue(-2005124155110433398L);
     }
 
     @Inject(at = @At("HEAD"), method = "lootTable()Lnet/minecraft/resources/ResourceKey;", cancellable = true)

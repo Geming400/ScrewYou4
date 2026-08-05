@@ -22,13 +22,13 @@ public class ServerboundPlayerInputPacket2037867336Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_902407361(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(902407361L))
-            info.setReturnValue("3⣬G2/z*a|znlꉡ(봾)5");
+            info.setReturnValue("3\u28ECG2/z*a|znl\uA261(\uBD3E)5");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2076130078(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2076130078L))
-            info.setReturnValue(-1770015574);
+            info.setReturnValue(-1078807174);
     }
 
     @Inject(at = @At("HEAD"), method = "input()Lnet/minecraft/world/entity/player/Input;", cancellable = true)

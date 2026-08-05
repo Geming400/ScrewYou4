@@ -22,7 +22,7 @@ public class CaveSurface_1397848222Mixin {
     @Inject(at = @At("HEAD"), method = "getY()I", cancellable = true)
     private void getY_1436110467(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1436110467L))
-            info.setReturnValue(-410365022);
+            info.setReturnValue(-93843122);
     }
 
     @Inject(at = @At("HEAD"), method = "getDirection()Lnet/minecraft/core/Direction;", cancellable = true)
@@ -34,7 +34,7 @@ public class CaveSurface_1397848222Mixin {
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName_262387750(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(262387750L))
-            info.setReturnValue("#,:@GZ쯚H^Ej戍j}阽vW⇠y已嚴헢oZ{hL");
+            info.setReturnValue("#,:@GZ\uCBDAH^Ej\u620Dj}\u963DvW\u21E0y\u5DF2\u56B4\uD5E2oZ{hL");
     }
 
 

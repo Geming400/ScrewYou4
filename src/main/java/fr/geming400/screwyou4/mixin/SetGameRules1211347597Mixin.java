@@ -16,13 +16,13 @@ public class SetGameRules1211347597Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_75887622(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(75887622L))
-            info.setReturnValue("PnTMwqⷝOh┊Ꮑ/eh<$v/mw9|`,퐝ck>0<$dSI렪蹗TyA*MH玑}G9EiBqZb9弝v諷[qI.줍ⶱOiXdW");
+            info.setReturnValue("PnTMwq\u2DDDOh\u250A\u13C1/eh<$v/mw9|`,\uD41Dck>0<$dSI\uB82A\u8E57TyA*MH\u7391}G9EiBqZb9\u5F1Dv\u8AF7[qI.\uC90D\u2DB1OiXdW");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1249610339(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1249610339L))
-            info.setReturnValue(1946342361);
+            info.setReturnValue(1992444561);
     }
 
     @Inject(at = @At("HEAD"), method = "setup(Lnet/minecraft/server/level/ServerLevel;)Lnet/minecraft/world/level/gamerules/GameRuleMap;", cancellable = true)

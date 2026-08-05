@@ -19,15 +19,15 @@ public class BellBlock1536383292Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
-    private void getStateForPlacement_277783525(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(277783525L))
+    @Inject(at = @At("HEAD"), method = "newBlockEntity(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/entity/BlockEntity;", cancellable = true)
+    private void newBlockEntity__49094363(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-49094363L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getTicker(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/entity/BlockEntityType;)Lnet/minecraft/world/level/block/entity/BlockEntityTicker;", cancellable = true)
-    private void getTicker__417084051(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-417084051L))
+    @Inject(at = @At("HEAD"), method = "mirror(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/Mirror;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
+    private void mirror__1233658935(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1233658935L))
             info.setReturnValue(null);
     }
 
@@ -37,9 +37,15 @@ public class BellBlock1536383292Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "mirror(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/Mirror;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
-    private void mirror__1233658935(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1233658935L))
+    @Inject(at = @At("HEAD"), method = "getTicker(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/entity/BlockEntityType;)Lnet/minecraft/world/level/block/entity/BlockEntityTicker;", cancellable = true)
+    private void getTicker__417084051(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-417084051L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
+    private void getStateForPlacement_277783525(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(277783525L))
             info.setReturnValue(null);
     }
 
@@ -53,12 +59,6 @@ public class BellBlock1536383292Mixin {
     private void attemptToRing__889494396(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-889494396L))
             info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "newBlockEntity(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/entity/BlockEntity;", cancellable = true)
-    private void newBlockEntity__49094363(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-49094363L))
-            info.setReturnValue(null);
     }
 
 

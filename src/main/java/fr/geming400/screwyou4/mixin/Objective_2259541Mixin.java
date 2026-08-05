@@ -10,7 +10,7 @@ public class Objective_2259541Mixin {
         @Inject(at = @At("HEAD"), method = "getName()Ljava/lang/String;", cancellable = true)
     private void getName__1133200931(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1133200931L))
-            info.setReturnValue("<}Lz&`6mpxAzqiIh.Si,쫋N鞡tA}]$R븈;gPJ5=iy{j⮌=Z⮭k⟯鰮T]qJuKSw");
+            info.setReturnValue("<}Lz&`6mpxAzqiIh.Si,\uCACBN\u97A1tA}]$R\uBE08;gPJ5=iy{j\u2B8C=Z\u2BADk\u27EF\u9C2ET]qJuKSw");
     }
 
     @Inject(at = @At("HEAD"), method = "getDisplayName()Lnet/minecraft/network/chat/Component;", cancellable = true)
@@ -61,10 +61,10 @@ public class Objective_2259541Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "setRenderType(Lnet/minecraft/world/scores/criteria/ObjectiveCriteria$RenderType;)V", cancellable = true)
-    private void setRenderType_1586843719(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1586843719L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "getCriteria()Lnet/minecraft/world/scores/criteria/ObjectiveCriteria;", cancellable = true)
+    private void getCriteria_471678611(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(471678611L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "displayAutoUpdate()Z", cancellable = true)
@@ -73,16 +73,16 @@ public class Objective_2259541Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "getCriteria()Lnet/minecraft/world/scores/criteria/ObjectiveCriteria;", cancellable = true)
-    private void getCriteria_471678611(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(471678611L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getRenderType()Lnet/minecraft/world/scores/criteria/ObjectiveCriteria$RenderType;", cancellable = true)
     private void getRenderType__1617310573(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1617310573L))
             info.setReturnValue(net.minecraft.world.scores.criteria.ObjectiveCriteria.RenderType.HEARTS);
+    }
+
+    @Inject(at = @At("HEAD"), method = "setRenderType(Lnet/minecraft/world/scores/criteria/ObjectiveCriteria$RenderType;)V", cancellable = true)
+    private void setRenderType_1586843719(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1586843719L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "setDisplayAutoUpdate(Z)V", cancellable = true)

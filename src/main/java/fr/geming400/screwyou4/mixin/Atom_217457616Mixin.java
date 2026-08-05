@@ -16,13 +16,13 @@ public class Atom_217457616Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__918002360(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-918002360L))
-            info.setReturnValue("6$PoTSy#ᛵ{+}v2&ᡊ['`:Jc$MQ@o厭mJ+M쥱co`fe¦1k>OnT");
+            info.setReturnValue("6$PoTSy#\u16F5{+}v2&\u184A['`:Jc$MQ@o\u53ADmJ+M\uC971co`fe\u00A61k>OnT");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_255720357(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(255720357L))
-            info.setReturnValue(-881834669);
+            info.setReturnValue(-1271117869);
     }
 
     @Inject(at = @At("HEAD"), method = "id()Lnet/minecraft/resources/Identifier;", cancellable = true)

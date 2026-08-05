@@ -16,13 +16,13 @@ public class DataComponentExactPredicate1934824685Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_799364214(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(799364214L))
-            info.setReturnValue("W蕰(K/Z:#g8/&14f]X့w7]眦Zj9^Ku7@%4턠BOP[]\"zZ:BL썆6qsgJ nMꔲLu!o=>F7nwwodj5uq6+J$텎");
+            info.setReturnValue("W\u8570(K/Z:#g8/&14f]X\u1037w7]\u7726Zj9^Ku7@%4\uD120BOP[]\"zZ:BL\uC3466qsgJ nM\uA532Lu!o=>F7nwwodj5uq6+J$\uD14E");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1973086931(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1973086931L))
-            info.setReturnValue(-848382678);
+            info.setReturnValue(-252117778);
     }
 
     @Inject(at = @At("HEAD"), method = "test(Ljava/lang/Object;)Z", cancellable = true)

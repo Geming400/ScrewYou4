@@ -22,13 +22,13 @@ public class MaterialAssetGroup1395562582Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_260102607(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(260102607L))
-            info.setReturnValue("m'诊Qu");
+            info.setReturnValue("m'\u8BCAQu");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1433825324(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1433825324L))
-            info.setReturnValue(-873975616);
+            info.setReturnValue(-1140861316);
     }
 
     @Inject(at = @At("HEAD"), method = "create(Ljava/lang/String;)Lnet/minecraft/world/item/equipment/trim/MaterialAssetGroup;", cancellable = true)

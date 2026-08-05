@@ -16,13 +16,13 @@ public class StructureSettings_756882769Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__378577207(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-378577207L))
-            info.setReturnValue(":MA;RK=u㱱^pL흆M)羻}4P<wnA# j㵽K<<JWH0l@ヱO@y%Wh@yTfyu_`+b䖋b;||Sw`0﹖d\"\"t9&v^C衏47豘*S&dy뻺JWQ3a[歅MD");
+            info.setReturnValue(":MA;RK=u\u3C71^pL\uD746M)\u7FBB}4P<wnA# j\u3D7DK<<JWH0l@\u30F1O@y%Wh@yTfyu_`+b\u458Bb;||Sw`0\uFE56d\"\"t9&v^C\u884F47\u8C58*S&dy\uBEFAJWQ3a[\u6B45MD");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_795145510(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(795145510L))
-            info.setReturnValue(-2124961583);
+            info.setReturnValue(-1835564783);
     }
 
     @Inject(at = @At("HEAD"), method = "step()Lnet/minecraft/world/level/levelgen/GenerationStep$Decoration;", cancellable = true)
@@ -31,9 +31,9 @@ public class StructureSettings_756882769Mixin {
             info.setReturnValue(net.minecraft.world.level.levelgen.GenerationStep.Decoration.RAW_GENERATION);
     }
 
-    @Inject(at = @At("HEAD"), method = "biomes()Lnet/minecraft/core/HolderSet;", cancellable = true)
-    private void biomes__1918131484(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1918131484L))
+    @Inject(at = @At("HEAD"), method = "spawnOverrides()Ljava/util/Map;", cancellable = true)
+    private void spawnOverrides__1247740872(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1247740872L))
             info.setReturnValue(null);
     }
 
@@ -43,9 +43,9 @@ public class StructureSettings_756882769Mixin {
             info.setReturnValue(net.minecraft.world.level.levelgen.structure.TerrainAdjustment.BEARD_BOX);
     }
 
-    @Inject(at = @At("HEAD"), method = "spawnOverrides()Ljava/util/Map;", cancellable = true)
-    private void spawnOverrides__1247740872(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1247740872L))
+    @Inject(at = @At("HEAD"), method = "biomes()Lnet/minecraft/core/HolderSet;", cancellable = true)
+    private void biomes__1918131484(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1918131484L))
             info.setReturnValue(null);
     }
 

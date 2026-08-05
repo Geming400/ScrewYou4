@@ -16,13 +16,13 @@ public class Alternative363580595Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__771879380(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-771879380L))
-            info.setReturnValue("(q&bཏ");
+            info.setReturnValue("(q&b\u0F4F");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_401843337(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(401843337L))
-            info.setReturnValue(509669268);
+            info.setReturnValue(647902168);
     }
 
     @Inject(at = @At("HEAD"), method = "elements()[Lnet/minecraft/util/parsing/packrat/Term;", cancellable = true)

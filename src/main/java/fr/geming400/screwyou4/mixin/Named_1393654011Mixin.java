@@ -10,7 +10,7 @@ public class Named_1393654011Mixin {
         @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_258193539(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(258193539L))
-            info.setReturnValue("O3`軖*ቄ:&3OJ2`kAW\"{%XzV?qﮉ5k,mxPK y㚵3{N2}I|$BIqJn嶬ᚃF⹉9`G./^");
+            info.setReturnValue("O3`\u8ED6*\u1244:&3OJ2`kAW\"{%XzV?q\uFB895k,mxPK y\u36B53{N2}I|$BIqJn\u5DAC\u1683F\u2E499`G./^");
     }
 
     @Inject(at = @At("HEAD"), method = "contains(Lnet/minecraft/core/Holder;)Z", cancellable = true)
@@ -37,16 +37,16 @@ public class Named_1393654011Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "unwrapKey()Ljava/util/Optional;", cancellable = true)
-    private void unwrapKey_1639115432(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1639115432L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "canSerializeIn(Lnet/minecraft/core/HolderOwner;)Z", cancellable = true)
     private void canSerializeIn_81380053(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(81380053L))
             info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "unwrapKey()Ljava/util/Optional;", cancellable = true)
+    private void unwrapKey_1639115432(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1639115432L))
+            info.setReturnValue(null);
     }
 
 

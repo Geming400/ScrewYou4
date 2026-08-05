@@ -10,7 +10,7 @@ public class FeaturePoolElement_1584344332Mixin {
         @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_448883860(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(448883860L))
-            info.setReturnValue("mU)=?% Hd&|5?/]K[fn2iapnW&X66.|ꫲOs");
+            info.setReturnValue("mU)=?% Hd&|5?/]K[fn2iapnW&X66.|\uAAF2Os");
     }
 
     @Inject(at = @At("HEAD"), method = "getType()Lnet/minecraft/world/level/levelgen/structure/pools/StructurePoolElementType;", cancellable = true)

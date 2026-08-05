@@ -16,13 +16,13 @@ public class MultiPartDefinition_1740942895Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_605482919(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(605482919L))
-            info.setReturnValue("踚sW0⎳᫈u(21&");
+            info.setReturnValue("\u8E1AsW0\u23B3\u1AC8u(21&");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1779205636(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1779205636L))
-            info.setReturnValue(1478983883);
+            info.setReturnValue(-1847647013);
     }
 
     @Inject(at = @At("HEAD"), method = "instantiate(Lnet/minecraft/world/level/block/state/StateDefinition;)Lnet/minecraft/client/renderer/block/dispatch/multipart/MultiPartModel$Unbaked;", cancellable = true)

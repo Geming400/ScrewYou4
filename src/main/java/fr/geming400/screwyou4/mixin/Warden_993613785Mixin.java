@@ -19,76 +19,10 @@ public class Warden_993613785Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getTendrilAnimation(F)F", cancellable = true)
-    private void getTendrilAnimation__2090222479(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2090222479L))
-            info.setReturnValue(3.929309E8F);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getHeartAnimation(F)F", cancellable = true)
-    private void getHeartAnimation__2090222479(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2090222479L))
-            info.setReturnValue(3.939323E8F);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getClientAngerLevel()I", cancellable = true)
-    private void getClientAngerLevel_1031876030(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1031876030L))
-            info.setReturnValue(1063864687);
-    }
-
-    @Inject(at = @At("HEAD"), method = "increaseAngerAt(Lnet/minecraft/world/entity/Entity;)V", cancellable = true)
-    private void increaseAngerAt_541889124(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(541889124L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "increaseAngerAt(Lnet/minecraft/world/entity/Entity;IZ)V", cancellable = true)
-    private void increaseAngerAt_1570414293(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1570414293L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "setAttackTarget(Lnet/minecraft/world/entity/LivingEntity;)V", cancellable = true)
-    private void setAttackTarget_1315277115(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1315277115L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "getAngerManagement()Lnet/minecraft/world/entity/monster/warden/AngerManagement;", cancellable = true)
-    private void getAngerManagement_1145313964(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1145313964L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getEntityAngryAt()Ljava/util/Optional;", cancellable = true)
-    private void getEntityAngryAt_1239075206(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1239075206L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getAngerLevel()Lnet/minecraft/world/entity/monster/warden/AngerLevel;", cancellable = true)
-    private void getAngerLevel__1807633137(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1807633137L))
-            info.setReturnValue(net.minecraft.world.entity.monster.warden.AngerLevel.AGITATED);
-    }
-
-    @Inject(at = @At("HEAD"), method = "canTargetEntity(Lnet/minecraft/world/entity/Entity;)Z", cancellable = true)
-    private void canTargetEntity_541892968(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(541892968L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "updateDynamicGameEventListener(Ljava/util/function/BiConsumer;)V", cancellable = true)
-    private void updateDynamicGameEventListener__744537106(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-744537106L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "getSecondsToDisableBlocking()F", cancellable = true)
-    private void getSecondsToDisableBlocking_1031873147(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1031873147L))
-            info.setReturnValue(3.939323E8F);
+    @Inject(at = @At("HEAD"), method = "hurtServer(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/damagesource/DamageSource;F)Z", cancellable = true)
+    private void hurtServer_544183453(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(544183453L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "isPushable()Z", cancellable = true)
@@ -107,6 +41,12 @@ public class Warden_993613785Mixin {
     private void canAttack_1315280959(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1315280959L))
             info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "finalizeSpawn(Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData;", cancellable = true)
+    private void finalizeSpawn__1452621574(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1452621574L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "doHurtTarget(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/Entity;)Z", cancellable = true)
@@ -133,10 +73,10 @@ public class Warden_993613785Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "recreateFromPacket(Lnet/minecraft/network/protocol/game/ClientboundAddEntityPacket;)V", cancellable = true)
-    private void recreateFromPacket__195174906(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-195174906L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "getAddEntityPacket(Lnet/minecraft/server/level/ServerEntity;)Lnet/minecraft/network/protocol/Packet;", cancellable = true)
+    private void getAddEntityPacket_1373640768(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1373640768L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "ignoreExplosion(Lnet/minecraft/world/level/Explosion;)Z", cancellable = true)
@@ -145,10 +85,10 @@ public class Warden_993613785Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "getAddEntityPacket(Lnet/minecraft/server/level/ServerEntity;)Lnet/minecraft/network/protocol/Packet;", cancellable = true)
-    private void getAddEntityPacket_1373640768(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1373640768L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "recreateFromPacket(Lnet/minecraft/network/protocol/game/ClientboundAddEntityPacket;)V", cancellable = true)
+    private void recreateFromPacket__195174906(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-195174906L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "isInvulnerableTo(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/damagesource/DamageSource;)Z", cancellable = true)
@@ -169,10 +109,22 @@ public class Warden_993613785Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "hurtServer(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/damagesource/DamageSource;F)Z", cancellable = true)
-    private void hurtServer_544183453(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(544183453L))
-            info.setReturnValue(false);
+    @Inject(at = @At("HEAD"), method = "updateDynamicGameEventListener(Ljava/util/function/BiConsumer;)V", cancellable = true)
+    private void updateDynamicGameEventListener__744537106(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-744537106L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getSecondsToDisableBlocking()F", cancellable = true)
+    private void getSecondsToDisableBlocking_1031873147(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1031873147L))
+            info.setReturnValue(4.256105E8F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "clearAnger(Lnet/minecraft/world/entity/Entity;)V", cancellable = true)
+    private void clearAnger_541889124(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(541889124L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "getVibrationUser()Lnet/minecraft/world/level/gameevent/vibrations/VibrationSystem$User;", cancellable = true)
@@ -193,12 +145,6 @@ public class Warden_993613785Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "getWalkTargetValue(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/LevelReader;)F", cancellable = true)
-    private void getWalkTargetValue_1207924755(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1207924755L))
-            info.setReturnValue(3.949294E8F);
-    }
-
     @Inject(at = @At("HEAD"), method = "removeWhenFarAway(D)Z", cancellable = true)
     private void removeWhenFarAway__2092050301(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2092050301L))
@@ -211,16 +157,70 @@ public class Warden_993613785Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "clearAnger(Lnet/minecraft/world/entity/Entity;)V", cancellable = true)
-    private void clearAnger_541889124(CallbackInfo info) {
+    @Inject(at = @At("HEAD"), method = "getWalkTargetValue(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/LevelReader;)F", cancellable = true)
+    private void getWalkTargetValue_1207924755(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1207924755L))
+            info.setReturnValue(4.256105E8F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getClientAngerLevel()I", cancellable = true)
+    private void getClientAngerLevel_1031876030(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1031876030L))
+            info.setReturnValue(1095542887);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getAngerLevel()Lnet/minecraft/world/entity/monster/warden/AngerLevel;", cancellable = true)
+    private void getAngerLevel__1807633137(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1807633137L))
+            info.setReturnValue(net.minecraft.world.entity.monster.warden.AngerLevel.AGITATED);
+    }
+
+    @Inject(at = @At("HEAD"), method = "setAttackTarget(Lnet/minecraft/world/entity/LivingEntity;)V", cancellable = true)
+    private void setAttackTarget_1315277115(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1315277115L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "increaseAngerAt(Lnet/minecraft/world/entity/Entity;)V", cancellable = true)
+    private void increaseAngerAt_541889124(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(541889124L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "finalizeSpawn(Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData;", cancellable = true)
-    private void finalizeSpawn__1452621574(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1452621574L))
+    @Inject(at = @At("HEAD"), method = "increaseAngerAt(Lnet/minecraft/world/entity/Entity;IZ)V", cancellable = true)
+    private void increaseAngerAt_1570414293(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1570414293L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "canTargetEntity(Lnet/minecraft/world/entity/Entity;)Z", cancellable = true)
+    private void canTargetEntity_541892968(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(541892968L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getTendrilAnimation(F)F", cancellable = true)
+    private void getTendrilAnimation__2090222479(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2090222479L))
+            info.setReturnValue(4.266119E8F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getEntityAngryAt()Ljava/util/Optional;", cancellable = true)
+    private void getEntityAngryAt_1239075206(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1239075206L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getAngerManagement()Lnet/minecraft/world/entity/monster/warden/AngerManagement;", cancellable = true)
+    private void getAngerManagement_1145313964(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1145313964L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getHeartAnimation(F)F", cancellable = true)
+    private void getHeartAnimation__2090222479(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2090222479L))
+            info.setReturnValue(4.266119E8F);
     }
 
 

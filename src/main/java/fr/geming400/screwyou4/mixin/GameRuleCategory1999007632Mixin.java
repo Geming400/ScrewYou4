@@ -16,13 +16,13 @@ public class GameRuleCategory1999007632Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_863547657(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(863547657L))
-            info.setReturnValue("X⡸ꏣ璬MotXL1騸-?-tm]za#&.H$Y=nva0&1䭵Gq7TE6:䗪lL6{%l쐅49-jf+xbB6䕬*⽶");
+            info.setReturnValue("X\u2878\uA3E3\u74ACMotXL1\u9A38-?-tm]za#&.H$Y=nva0&1\u4B75Gq7TE6:\u45EAlL6{%l\uC40549-jf+xbB6\u456C*\u2F76");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2037270374(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2037270374L))
-            info.setReturnValue(432069658);
+            info.setReturnValue(185151858);
     }
 
     @Inject(at = @At("HEAD"), method = "register(Lnet/minecraft/resources/Identifier;)Lnet/minecraft/world/level/gamerules/GameRuleCategory;", cancellable = true)

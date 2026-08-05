@@ -16,13 +16,13 @@ public class SteppingOnPredicate_246700964Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__888759012(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-888759012L))
-            info.setReturnValue("|O喙谫e8lky+3u찠!(LUq曐|B$O<&4QXW⛷]");
+            info.setReturnValue("|O\u5599\u8C2Be8lky+3u\uCC20!(LUq\u66D0|B$O<&4QXW\u26F7]");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_284963705(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(284963705L))
-            info.setReturnValue(458723330);
+            info.setReturnValue(235873130);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/phys/Vec3;)Z", cancellable = true)

@@ -16,25 +16,25 @@ public class UniformFloat_1012127120Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__123333352(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-123333352L))
-            info.setReturnValue(" 挀h5vBǧ!|2Q4-CHk}ត+䇶N뭟P)㥷A#荶N>u4d53k컭j}YN|");
+            info.setReturnValue(" \u6300h5vB\u01E7!|2Q4-CHk}\u178F+\u41F6N\uBB5FP)\u3977A#\u8376N>u4d53k\uCEEDj}YN|");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1050389861(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1050389861L))
-            info.setReturnValue(717867604);
+            info.setReturnValue(1138663204);
     }
 
     @Inject(at = @At("HEAD"), method = "min()F", cancellable = true)
     private void min_1050386482(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1050386482L))
-            info.setReturnValue(1.412912E8F);
+            info.setReturnValue(5.620868E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "max()F", cancellable = true)
     private void max_1050386482(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1050386482L))
-            info.setReturnValue(1.412912E8F);
+            info.setReturnValue(5.620868E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "of(FF)Lnet/minecraft/util/valueproviders/UniformFloat;", cancellable = true)
@@ -52,7 +52,7 @@ public class UniformFloat_1012127120Mixin {
     @Inject(at = @At("HEAD"), method = "sample(Lnet/minecraft/util/RandomSource;)F", cancellable = true)
     private void sample__694903342(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-694903342L))
-            info.setReturnValue(1.412912E8F);
+            info.setReturnValue(5.620868E8F);
     }
 
 

@@ -19,16 +19,16 @@ public class ChatReport1914787664Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "toggleReported(ILcom/mojang/authlib/minecraft/report/AbuseReportLimits;)V", cancellable = true)
-    private void toggleReported_876848231(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(876848231L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "createScreen(Lnet/minecraft/client/gui/screens/Screen;Lnet/minecraft/client/multiplayer/chat/report/ReportingContext;)Lnet/minecraft/client/gui/screens/Screen;", cancellable = true)
     private void createScreen__1120513846(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1120513846L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "toggleReported(ILcom/mojang/authlib/minecraft/report/AbuseReportLimits;)V", cancellable = true)
+    private void toggleReported_876848231(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(876848231L))
+            info.cancel();
     }
 
 

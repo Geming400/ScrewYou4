@@ -22,13 +22,13 @@ public class ClientboundDisconnectPacket1691042233Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_555582258(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(555582258L))
-            info.setReturnValue("4V68lD0⒞c,UkQVOkdWux^s>}np縊4+-㇈3ﴨ묝$iQ〱Go9H顝7k懝끵7#{En%U뜔^76{Haᮥq0t栺\"}6琝");
+            info.setReturnValue("4V68lD0\u249Ec,UkQVOkdWux^s>}np\u7E0A4+-\u31C83\uFD28\uBB1D$iQ\u3031Go9H\u985D7k\u61DD\uB0757#{En%U\uB714^76{Ha\u1BA5q0t\u683A\"}6\u741D");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1729304975(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1729304975L))
-            info.setReturnValue(-765201180);
+            info.setReturnValue(-1058832180);
     }
 
     @Inject(at = @At("HEAD"), method = "reason()Lnet/minecraft/network/chat/Component;", cancellable = true)

@@ -16,13 +16,13 @@ public class Positioned1904591699Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_769131724(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(769131724L))
-            info.setReturnValue("U*1ak#㳶h.뫜vp1h3畾hv l|t忂33NW/3cT'棸㌿6X");
+            info.setReturnValue("U*1ak#\u3CF6h.\uBADCvp1h3\u757Ehv l|t\u5FC233NW/3cT'\u68F8\u333F6X");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1942854441(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1942854441L))
-            info.setReturnValue(1489873233);
+            info.setReturnValue(1027278633);
     }
 
     @Inject(at = @At("HEAD"), method = "contains(IIZ)Z", cancellable = true)
@@ -37,16 +37,16 @@ public class Positioned1904591699Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "viewDistance()I", cancellable = true)
-    private void viewDistance_1942853945(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1942853945L))
-            info.setReturnValue(1693020652);
-    }
-
     @Inject(at = @At("HEAD"), method = "center()Lnet/minecraft/world/level/ChunkPos;", cancellable = true)
     private void center_1015492862(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1015492862L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "viewDistance()I", cancellable = true)
+    private void viewDistance_1942853945(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1942853945L))
+            info.setReturnValue(1230426052);
     }
 
 

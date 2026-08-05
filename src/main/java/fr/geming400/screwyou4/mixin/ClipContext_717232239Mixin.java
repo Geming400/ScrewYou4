@@ -13,9 +13,9 @@ public class ClipContext_717232239Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getBlockShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/phys/shapes/VoxelShape;", cancellable = true)
-    private void getBlockShape__998314776(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-998314776L))
+    @Inject(at = @At("HEAD"), method = "getTo()Lnet/minecraft/world/phys/Vec3;", cancellable = true)
+    private void getTo_1814961767(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1814961767L))
             info.setReturnValue(null);
     }
 
@@ -25,9 +25,9 @@ public class ClipContext_717232239Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getTo()Lnet/minecraft/world/phys/Vec3;", cancellable = true)
-    private void getTo_1814961767(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1814961767L))
+    @Inject(at = @At("HEAD"), method = "getBlockShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/phys/shapes/VoxelShape;", cancellable = true)
+    private void getBlockShape__998314776(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-998314776L))
             info.setReturnValue(null);
     }
 

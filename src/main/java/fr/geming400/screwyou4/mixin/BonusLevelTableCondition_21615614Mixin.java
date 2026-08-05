@@ -28,7 +28,7 @@ public class BonusLevelTableCondition_21615614Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_59878355(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(59878355L))
-            info.setReturnValue(-1237300306);
+            info.setReturnValue(-611325006);
     }
 
     @Inject(at = @At("HEAD"), method = "test(Ljava/lang/Object;)Z", cancellable = true)
@@ -41,12 +41,6 @@ public class BonusLevelTableCondition_21615614Mixin {
     private void test_1939633811(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1939633811L))
             info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "bonusLevelFlatChance(Lnet/minecraft/core/Holder;[F)Lnet/minecraft/world/level/storage/loot/predicates/LootItemCondition$Builder;", cancellable = true)
-    private static void bonusLevelFlatChance__352432072(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-352432072L))
-            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
@@ -64,6 +58,12 @@ public class BonusLevelTableCondition_21615614Mixin {
     @Inject(at = @At("HEAD"), method = "getReferencedContextParams()Ljava/util/Set;", cancellable = true)
     private void getReferencedContextParams__1807419873(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1807419873L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "bonusLevelFlatChance(Lnet/minecraft/core/Holder;[F)Lnet/minecraft/world/level/storage/loot/predicates/LootItemCondition$Builder;", cancellable = true)
+    private static void bonusLevelFlatChance__352432072(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-352432072L))
             info.setReturnValue(null);
     }
 

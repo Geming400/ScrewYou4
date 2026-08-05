@@ -22,13 +22,13 @@ public class SaltSignaturePair1959390480Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_823930505(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(823930505L))
-            info.setReturnValue("uu?a0h95bk2Me\"㿕HMNW#[a*Pvjpn`አDU23&EJjt攽>w=p!,-J魺%j*4q⪋SxulR3NB,");
+            info.setReturnValue("uu?a0h95bk2Me\"\u3FD5HMNW#[a*Pvjpn`\u12A0DU23&EJjt\u653D>w=p!,-J\u9B7A%j*4q\u2A8BSxulR3NB,");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1997653222(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1997653222L))
-            info.setReturnValue(97037872);
+            info.setReturnValue(561293672);
     }
 
     @Inject(at = @At("HEAD"), method = "write(Lnet/minecraft/network/FriendlyByteBuf;Lnet/minecraft/util/Crypt$SaltSignaturePair;)V", cancellable = true)
@@ -46,7 +46,7 @@ public class SaltSignaturePair1959390480Mixin {
     @Inject(at = @At("HEAD"), method = "salt()J", cancellable = true)
     private void salt_1997653687(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1997653687L))
-            info.setReturnValue(-775708467035158460L);
+            info.setReturnValue(-775708466570902660L);
     }
 
     @Inject(at = @At("HEAD"), method = "saltAsBytes()[B", cancellable = true)

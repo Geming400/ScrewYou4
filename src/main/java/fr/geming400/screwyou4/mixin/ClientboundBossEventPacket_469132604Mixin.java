@@ -31,20 +31,14 @@ public class ClientboundBossEventPacket_469132604Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "createUpdatePropertiesPacket(Lnet/minecraft/world/BossEvent;)Lnet/minecraft/network/protocol/game/ClientboundBossEventPacket;", cancellable = true)
-    private static void createUpdatePropertiesPacket__596732055(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-596732055L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "createRemovePacket(Ljava/util/UUID;)Lnet/minecraft/network/protocol/game/ClientboundBossEventPacket;", cancellable = true)
     private static void createRemovePacket__1168456656(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1168456656L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "createAddPacket(Lnet/minecraft/world/BossEvent;)Lnet/minecraft/network/protocol/game/ClientboundBossEventPacket;", cancellable = true)
-    private static void createAddPacket__596732055(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "createUpdatePropertiesPacket(Lnet/minecraft/world/BossEvent;)Lnet/minecraft/network/protocol/game/ClientboundBossEventPacket;", cancellable = true)
+    private static void createUpdatePropertiesPacket__596732055(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-596732055L))
             info.setReturnValue(null);
     }
@@ -55,14 +49,20 @@ public class ClientboundBossEventPacket_469132604Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "createUpdateProgressPacket(Lnet/minecraft/world/BossEvent;)Lnet/minecraft/network/protocol/game/ClientboundBossEventPacket;", cancellable = true)
-    private static void createUpdateProgressPacket__596732055(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "createAddPacket(Lnet/minecraft/world/BossEvent;)Lnet/minecraft/network/protocol/game/ClientboundBossEventPacket;", cancellable = true)
+    private static void createAddPacket__596732055(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-596732055L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "createUpdateNamePacket(Lnet/minecraft/world/BossEvent;)Lnet/minecraft/network/protocol/game/ClientboundBossEventPacket;", cancellable = true)
     private static void createUpdateNamePacket__596732055(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-596732055L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "createUpdateProgressPacket(Lnet/minecraft/world/BossEvent;)Lnet/minecraft/network/protocol/game/ClientboundBossEventPacket;", cancellable = true)
+    private static void createUpdateProgressPacket__596732055(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-596732055L))
             info.setReturnValue(null);
     }

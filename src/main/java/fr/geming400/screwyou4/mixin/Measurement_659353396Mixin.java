@@ -16,19 +16,19 @@ public class Measurement_659353396Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__476106580(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-476106580L))
-            info.setReturnValue("=,;M渳(XA<Ed(䑐c$n`硱uo쒳F]Hoeiv9:f.Kt;wgᚳ#q鳉V俀P;;g");
+            info.setReturnValue("=,;M\u6E33(XA<Ed(\u4450c$n`\u7871uo\uC4B3F]Hoeiv9:f.Kt;wg\u16B3#q\u9CC9V\u4FC0P;;g");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_697616137(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(697616137L))
-            info.setReturnValue(1486431230);
+            info.setReturnValue(1743212430);
     }
 
     @Inject(at = @At("HEAD"), method = "millis()I", cancellable = true)
     private void millis_697615641(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(697615641L))
-            info.setReturnValue(1689578649);
+            info.setReturnValue(1946359849);
     }
 
 

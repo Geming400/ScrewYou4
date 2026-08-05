@@ -10,7 +10,7 @@ public class ShufflingList240685542Mixin {
         @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__894774929(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-894774929L))
-            info.setReturnValue("@M'뮦BvVO똷2:*yᣘ8Xz3P+tEx膜:⊗膋oZ<oc%A]3p쉐'ឋ>rc3]P᷃ꗵ'eT쩄霚LKHn콭ﯣ.]&Ra(ྱ.GbgP*BORO375{P@");
+            info.setReturnValue("@M'\uBBA6BvVO\uB6372:*y\u18D88Xz3P+tEx\u819C:\u2297\u818BoZ<oc%A]3p\uC250'\u178B>rc3]P\u1DC3\uA5F5'eT\uCA44\u971ALKHn\uCF6D\uFBE3.]&Ra(\u0FB1.GbgP*BORO375{P@");
     }
 
     @Inject(at = @At("HEAD"), method = "add(Ljava/lang/Object;I)Lnet/minecraft/world/entity/ai/behavior/ShufflingList;", cancellable = true)

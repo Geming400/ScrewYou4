@@ -22,13 +22,13 @@ public class Single1357004850Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_221544875(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(221544875L))
-            info.setReturnValue("o$?GSIN2xit闫u8s] %^VEU㘓熵Jg&(y>P>*Gv귚Q0;daK:-kᭋ㍅,Z+骰i%)");
+            info.setReturnValue("o$?GSIN2xit\u95EBu8s] %^VEU\u3613\u71B5Jg&(y>P>*Gv\uADDAQ0;daK:-k\u1B4B\u3345,Z+\u9AB0i%)");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1395267592(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1395267592L))
-            info.setReturnValue(1540696877);
+            info.setReturnValue(1009271277);
     }
 
     @Inject(at = @At("HEAD"), method = "predicate()Lnet/minecraft/core/component/predicates/DataComponentPredicate;", cancellable = true)

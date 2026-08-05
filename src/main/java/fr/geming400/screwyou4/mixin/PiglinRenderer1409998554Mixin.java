@@ -7,15 +7,15 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.client.renderer.entity.PiglinRenderer.class)
 public class PiglinRenderer1409998554Mixin {
-        @Inject(at = @At("HEAD"), method = "getTextureLocation(Lnet/minecraft/client/renderer/entity/state/LivingEntityRenderState;)Lnet/minecraft/resources/Identifier;", cancellable = true)
-    private void getTextureLocation__882332109(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-882332109L))
+        @Inject(at = @At("HEAD"), method = "getTextureLocation(Lnet/minecraft/client/renderer/entity/state/PiglinRenderState;)Lnet/minecraft/resources/Identifier;", cancellable = true)
+    private void getTextureLocation_466829116(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(466829116L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getTextureLocation(Lnet/minecraft/client/renderer/entity/state/PiglinRenderState;)Lnet/minecraft/resources/Identifier;", cancellable = true)
-    private void getTextureLocation_466829116(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(466829116L))
+    @Inject(at = @At("HEAD"), method = "getTextureLocation(Lnet/minecraft/client/renderer/entity/state/LivingEntityRenderState;)Lnet/minecraft/resources/Identifier;", cancellable = true)
+    private void getTextureLocation__882332109(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-882332109L))
             info.setReturnValue(null);
     }
 

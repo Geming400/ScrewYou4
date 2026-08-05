@@ -16,19 +16,19 @@ public class Submit_1141141408Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_5681432(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(5681432L))
-            info.setReturnValue("\":|?`P쒄㚫ྦ}n- ?o");
+            info.setReturnValue("\":|?`P\uC484\u36AB\u0FA6}n- ?o");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1179404149(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1179404149L))
-            info.setReturnValue(1653646152);
+            info.setReturnValue(1000521852);
     }
 
-    @Inject(at = @At("HEAD"), method = "featureType()Lnet/minecraft/client/renderer/feature/FeatureRendererType;", cancellable = true)
-    private void featureType__2122742363(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2122742363L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "pose()Lcom/mojang/blaze3d/vertex/PoseStack$Pose;", cancellable = true)
+    private void pose__948178993(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-948178993L))
+            info.setReturnValue(new com.mojang.blaze3d.vertex.PoseStack$Pose());
     }
 
     @Inject(at = @At("HEAD"), method = "rotation()Lorg/joml/Quaternionf;", cancellable = true)
@@ -37,10 +37,10 @@ public class Submit_1141141408Mixin {
             info.setReturnValue(new org.joml.Quaternionf());
     }
 
-    @Inject(at = @At("HEAD"), method = "pose()Lcom/mojang/blaze3d/vertex/PoseStack$Pose;", cancellable = true)
-    private void pose__948178993(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-948178993L))
-            info.setReturnValue(new com.mojang.blaze3d.vertex.PoseStack$Pose());
+    @Inject(at = @At("HEAD"), method = "featureType()Lnet/minecraft/client/renderer/feature/FeatureRendererType;", cancellable = true)
+    private void featureType__2122742363(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2122742363L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "entityRenderState()Lnet/minecraft/client/renderer/entity/state/EntityRenderState;", cancellable = true)

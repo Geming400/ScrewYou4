@@ -22,7 +22,7 @@ public class EnchantmentTarget215366986Mixin {
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName__920093485(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-920093485L))
-            info.setReturnValue("xQQWN)Y|$蟁Z9x<)FNft呓R!䩔R3VTjUnz;>銒UiI1;>wW{Bi稊J!罱VG*5GR8utjw:xyX'@5Lc㴌dT}aVkq趕92%'t1vwGw袓屺X舒:tn");
+            info.setReturnValue("xQQWN)Y|$\u87C1Z9x<)FNft\u5453R!\u4A54R3VTjUnz;>\u9292UiI1;>wW{Bi\u7A0AJ!\u7F71VG*5GR8utjw:xyX'@5Lc\u3D0CdT}aVkq\u8D9592%'t1vwGw\u8893\u5C7AX\u8212:tn");
     }
 
 

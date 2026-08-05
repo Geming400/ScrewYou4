@@ -10,7 +10,7 @@ public class PistonType1872005375Mixin {
         @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_736544904(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(736544904L))
-            info.setReturnValue("cM%1D9Tﱏƚ{La.o膱K;Xﲾ',5O/[*d䖑@j+SCW㘋/G3h_E'㬞턊]ꊹS꜇");
+            info.setReturnValue("cM%1D9T\uFC4F\u019A{La.o\u81B1K;X\uFCBE',5O/[*d\u4591@j+SCW\u360B/G3h_E'\u3B1E\uD10A]\uA2B9S\uA707");
     }
 
     @Inject(at = @At("HEAD"), method = "values()[Lnet/minecraft/world/level/block/state/properties/PistonType;", cancellable = true)
@@ -28,7 +28,7 @@ public class PistonType1872005375Mixin {
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName_736544904(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(736544904L))
-            info.setReturnValue("cM%1D9Tﱏƚ{La.o膱K;Xﲾ',5O/[*d䖑@j+SCW㘋/G3h_E'㬞턊]ꊹS꜇");
+            info.setReturnValue("cM%1D9T\uFC4F\u019A{La.o\u81B1K;X\uFCBE',5O/[*d\u4591@j+SCW\u360B/G3h_E'\u3B1E\uD10A]\uA2B9S\uA707");
     }
 
 

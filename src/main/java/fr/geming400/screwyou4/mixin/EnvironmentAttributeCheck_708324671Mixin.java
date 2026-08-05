@@ -22,25 +22,25 @@ public class EnvironmentAttributeCheck_708324671Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__427135305(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-427135305L))
-            info.setReturnValue("&FZ炄쐉t:+l欌5;-v");
+            info.setReturnValue("&FZ\u7084\uC409t:+l\u6B0C5;-v");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_746587412(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(746587412L))
-            info.setReturnValue(-310547253);
-    }
-
-    @Inject(at = @At("HEAD"), method = "test(Ljava/lang/Object;)Z", cancellable = true)
-    private void test_2093965393(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2093965393L))
-            info.setReturnValue(true);
+            info.setReturnValue(-740639553);
     }
 
     @Inject(at = @At("HEAD"), method = "test(Lnet/minecraft/world/level/storage/loot/LootContext;)Z", cancellable = true)
     private void test__1668624428(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1668624428L))
             info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "test(Ljava/lang/Object;)Z", cancellable = true)
+    private void test_2093965393(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2093965393L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "attribute()Lnet/minecraft/world/attribute/EnvironmentAttribute;", cancellable = true)

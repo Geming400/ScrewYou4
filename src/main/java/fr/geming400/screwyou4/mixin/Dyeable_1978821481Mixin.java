@@ -16,13 +16,13 @@ public class Dyeable_1978821481Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_843361505(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(843361505L))
-            info.setReturnValue("鑒o뇠q%&Iy}}TS9`;ᳮCP7T臁)5lry+:7m]Cx%t喒%XV@{K&*F&f)ᶝS﹩XQU憅2VM$70_;bp\"{h;'槗RpS웭YHOeh9w戬m]3");
+            info.setReturnValue("\u9452o\uB1E0q%&Iy}}TS9`;\u1CEECP7T\u81C1)5lry+:7m]Cx%t\u5592%XV@{K&*F&f)\u1D9DS\uFE69XQU\u61852VM$70_;bp\"{h;'\u69D7RpS\uC6EDYHOeh9w\u622Cm]3");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2017084222(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2017084222L))
-            info.setReturnValue(1633966688);
+            info.setReturnValue(2104983888);
     }
 
     @Inject(at = @At("HEAD"), method = "colorWhenUndyed()Ljava/util/Optional;", cancellable = true)

@@ -16,19 +16,13 @@ public class PackConfig756117878Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__379342097(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-379342097L))
-            info.setReturnValue("㭡e￦\\"{X,:rm:?൱zV]73-揬k<:폊T:]9Eg[[>=[|&g-&!OIU%n1age0ma_N+1W碛E✙# #JퟒUL5!^");
+            info.setReturnValue("\u3B61e\uFFE6\\\"{X,:rm:?\u0D71zV]73-\u63ECk<:\uD3CAT:]9Eg[[>=[|&g-&!OIU%n1age0ma_N+1W\u789BE\u2719# #J\uD7D2UL5!^");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_794380620(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(794380620L))
-            info.setReturnValue(1463898871);
-    }
-
-    @Inject(at = @At("HEAD"), method = "createResourceManager()Lcom/mojang/datafixers/util/Pair;", cancellable = true)
-    private void createResourceManager_1610225432(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1610225432L))
-            info.setReturnValue(null);
+            info.setReturnValue(1228305071);
     }
 
     @Inject(at = @At("HEAD"), method = "initMode()Z", cancellable = true)
@@ -40,6 +34,12 @@ public class PackConfig756117878Mixin {
     @Inject(at = @At("HEAD"), method = "initialDataConfig()Lnet/minecraft/world/level/WorldDataConfiguration;", cancellable = true)
     private void initialDataConfig_1673343790(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1673343790L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "createResourceManager()Lcom/mojang/datafixers/util/Pair;", cancellable = true)
+    private void createResourceManager_1610225432(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1610225432L))
             info.setReturnValue(null);
     }
 

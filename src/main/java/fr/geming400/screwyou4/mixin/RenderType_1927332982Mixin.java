@@ -10,7 +10,7 @@ public class RenderType_1927332982Mixin {
         @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_791872510(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(791872510L))
-            info.setReturnValue("uShѥ*\")7B6^h틺vh!@|HR,");
+            info.setReturnValue("uSh\u0465*\")7B6^h\uD2FAvh!@|HR,");
     }
 
     @Inject(at = @At("HEAD"), method = "format()Lcom/mojang/blaze3d/vertex/VertexFormat;", cancellable = true)
@@ -31,10 +31,46 @@ public class RenderType_1927332982Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "sortOnUpload()Z", cancellable = true)
+    private void sortOnUpload_1965611564(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1965611564L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "outline()Ljava/util/Optional;", cancellable = true)
+    private void outline__2122172893(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2122172893L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "pipeline()Lcom/mojang/blaze3d/pipeline/RenderPipeline;", cancellable = true)
+    private void pipeline__1370226103(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1370226103L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "canConsolidateConsecutiveGeometry()Z", cancellable = true)
+    private void canConsolidateConsecutiveGeometry_1965611564(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1965611564L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isOutline()Z", cancellable = true)
+    private void isOutline_1965611564(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1965611564L))
+            info.setReturnValue(true);
+    }
+
     @Inject(at = @At("HEAD"), method = "outputTarget()Lnet/minecraft/client/renderer/rendertype/OutputTarget;", cancellable = true)
     private void outputTarget_186968740(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(186968740L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "primitiveTopology()Lcom/mojang/blaze3d/PrimitiveTopology;", cancellable = true)
+    private void primitiveTopology_686583256(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(686583256L))
+            info.setReturnValue(com.mojang.blaze3d.PrimitiveTopology.DEBUG_LINE_STRIP);
     }
 
     @Inject(at = @At("HEAD"), method = "hasBlending()Z", cancellable = true)
@@ -47,42 +83,6 @@ public class RenderType_1927332982Mixin {
     private void affectsCrumbling_1965611564(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1965611564L))
             info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "primitiveTopology()Lcom/mojang/blaze3d/PrimitiveTopology;", cancellable = true)
-    private void primitiveTopology_686583256(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(686583256L))
-            info.setReturnValue(com.mojang.blaze3d.PrimitiveTopology.DEBUG_LINE_STRIP);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isOutline()Z", cancellable = true)
-    private void isOutline_1965611564(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1965611564L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "sortOnUpload()Z", cancellable = true)
-    private void sortOnUpload_1965611564(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1965611564L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "canConsolidateConsecutiveGeometry()Z", cancellable = true)
-    private void canConsolidateConsecutiveGeometry_1965611564(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1965611564L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "pipeline()Lcom/mojang/blaze3d/pipeline/RenderPipeline;", cancellable = true)
-    private void pipeline__1370226103(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1370226103L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "outline()Ljava/util/Optional;", cancellable = true)
-    private void outline__2122172893(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2122172893L))
-            info.setReturnValue(null);
     }
 
 

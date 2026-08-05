@@ -16,13 +16,13 @@ public class AnimationMetadataSection149941778Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__985518197(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-985518197L))
-            info.setReturnValue("s.48=謌Q7_7u6퉯ﴎ涣l\"zdm㌲|m裹瓜⺌u:oG?1rx]3OAjP脘W|`Lam+X[摪:s뎣j:u뺺eGUW[DE@7.|锯AM9@M=CGH*'WtQUဇ뎫");
+            info.setReturnValue("s.48=\u8B0CQ7_7u6\uD26F\uFD0E\u6DA3l\"zdm\u3332|m\u88F9\u74DC\u2E8Cu:oG?1rx]3OAjP\u8118W|`Lam+X[\u646A:s\uB3A3j:u\uBEBAeGUW[DE@7.|\u952FAM9@M=CGH*'WtQU\u1007\uB3AB");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_188204520(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(188204520L))
-            info.setReturnValue(1234942223);
+            info.setReturnValue(854603923);
     }
 
     @Inject(at = @At("HEAD"), method = "frames()Ljava/util/Optional;", cancellable = true)
@@ -34,7 +34,7 @@ public class AnimationMetadataSection149941778Mixin {
     @Inject(at = @At("HEAD"), method = "defaultFrameTime()I", cancellable = true)
     private void defaultFrameTime_188204024(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(188204024L))
-            info.setReturnValue(1438089642);
+            info.setReturnValue(1057751342);
     }
 
     @Inject(at = @At("HEAD"), method = "interpolatedFrames()Z", cancellable = true)

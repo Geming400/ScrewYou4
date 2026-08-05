@@ -16,13 +16,13 @@ public class Action728035186Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__407424789(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-407424789L))
-            info.setReturnValue("3pA1xD]@F緎뚚>*NAt? tNbG#|EF;a[孎D}lq!V^%C?$闟=d7鋍]<%jZ]k4X싎6䒻M5e<9}*iJj]\"䤘^M2tC䫇*ꂩM:AsBO,)r酯");
+            info.setReturnValue("3pA1xD]@F\u7DCE\uB69A>*NAt? tNbG#|EF;a[\u5B4ED}lq!V^%C?$\u95DF=d7\u92CD]<%jZ]k4X\uC2CE6\u44BBM5e<9}*iJj]\"\u4918^M2tC\u4AC7*\uA0A9M:AsBO,)r\u916F");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_766297928(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(766297928L))
-            info.setReturnValue(29384629);
+            info.setReturnValue(-569595871);
     }
 
     @Inject(at = @At("HEAD"), method = "runnable()Ljava/util/function/BiConsumer;", cancellable = true)

@@ -16,13 +16,13 @@ public class EntityFlagsPredicate551048793Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__584411182(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-584411182L))
-            info.setReturnValue("d(䗁^CjUfZ䥣`HfR/@i-Lld}ﶯQ4i@Dq>_\"REGnPUsꌦa@=叛");
+            info.setReturnValue("d(\u45C1^CjUfZ\u4963`HfR/@i-Lld}\uFDAFQ4i@Dq>_\"REGnPUs\uA326a@=\u53DB");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_589311535(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(589311535L))
-            info.setReturnValue(141589444);
+            info.setReturnValue(-41498556);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/world/entity/Entity;)Z", cancellable = true)
@@ -35,6 +35,12 @@ public class EntityFlagsPredicate551048793Mixin {
     private void matches__1403143118(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1403143118L))
             info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isOnGround()Ljava/util/Optional;", cancellable = true)
+    private void isOnGround_796510215(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(796510215L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "isInWater()Ljava/util/Optional;", cancellable = true)
@@ -75,12 +81,6 @@ public class EntityFlagsPredicate551048793Mixin {
 
     @Inject(at = @At("HEAD"), method = "isFallFlying()Ljava/util/Optional;", cancellable = true)
     private void isFallFlying_796510215(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(796510215L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isOnGround()Ljava/util/Optional;", cancellable = true)
-    private void isOnGround_796510215(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(796510215L))
             info.setReturnValue(null);
     }

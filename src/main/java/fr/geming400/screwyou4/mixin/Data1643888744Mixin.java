@@ -16,13 +16,13 @@ public class Data1643888744Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_508428769(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(508428769L))
-            info.setReturnValue("33㖭gC4ﳊo/O=Q尛p?H6L-v'+tN0udG*{/XG#QE/RVR䁣[fx8qr/'uW㜫TM]vN/`$`(8MJhWAFWE_");
+            info.setReturnValue("33\u35ADgC4\uFCCAo/O=Q\u5C1Bp?H6L-v'+tN0udG*{/XG#QE/RVR\u4063[fx8qr/'uW\u372BTM]vN/`$`(8MJhWAFWE_");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1682151486(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1682151486L))
-            info.setReturnValue(-293972137);
+            info.setReturnValue(464238063);
     }
 
     @Inject(at = @At("HEAD"), method = "validate(Lcom/mojang/authlib/GameProfile;Lnet/minecraft/util/SignatureValidator;)Lnet/minecraft/network/chat/RemoteChatSession;", cancellable = true)

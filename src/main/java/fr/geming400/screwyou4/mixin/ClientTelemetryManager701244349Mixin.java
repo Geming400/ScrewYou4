@@ -13,12 +13,6 @@ public class ClientTelemetryManager701244349Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getOutsideSessionSender()Lnet/minecraft/client/telemetry/TelemetryEventSender;", cancellable = true)
-    private void getOutsideSessionSender_316050757(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(316050757L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getLogDirectory()Ljava/nio/file/Path;", cancellable = true)
     private void getLogDirectory__433119333(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-433119333L))
@@ -28,6 +22,12 @@ public class ClientTelemetryManager701244349Mixin {
     @Inject(at = @At("HEAD"), method = "createWorldSessionManager(ZLjava/time/Duration;Ljava/lang/String;Ljava/util/UUID;)Lnet/minecraft/client/telemetry/WorldSessionTelemetryManager;", cancellable = true)
     private void createWorldSessionManager_1698695537(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1698695537L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getOutsideSessionSender()Lnet/minecraft/client/telemetry/TelemetryEventSender;", cancellable = true)
+    private void getOutsideSessionSender_316050757(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(316050757L))
             info.setReturnValue(null);
     }
 

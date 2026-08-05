@@ -22,13 +22,13 @@ public class EntryPredicate_1459744860Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_324284884(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(324284884L))
-            info.setReturnValue("I$t彊c=G맖羨3tP ㌘h^5kV%\"Snkc!4ȣ0㾯k|*jpD");
+            info.setReturnValue("I$t\u5F4Ac=G\uB9D6\u7FA83tP \u3318h^5kV%\"Snkc!4\u02230\u3FAFk|*jpD");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1498007601(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1498007601L))
-            info.setReturnValue(1379866967);
+            info.setReturnValue(1106479067);
     }
 
     @Inject(at = @At("HEAD"), method = "test(Ljava/lang/Object;)Z", cancellable = true)

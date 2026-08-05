@@ -19,15 +19,15 @@ public class ClientboundLevelChunkPacketData_65862848Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getBlockEntitiesTagsConsumer(II)Ljava/util/function/Consumer;", cancellable = true)
-    private void getBlockEntitiesTagsConsumer__1967874378(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1967874378L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getReadBuffer()Lnet/minecraft/network/FriendlyByteBuf;", cancellable = true)
     private void getReadBuffer_976905848(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(976905848L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getBlockEntitiesTagsConsumer(II)Ljava/util/function/Consumer;", cancellable = true)
+    private void getBlockEntitiesTagsConsumer__1967874378(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1967874378L))
             info.setReturnValue(null);
     }
 

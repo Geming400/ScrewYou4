@@ -22,13 +22,13 @@ public class ArmorModelSet1004951770Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__130508205(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-130508205L))
-            info.setReturnValue(",uO)O0K4usYjHxráOiIlx+%1w19*k,lSؼ:-v@?龻LqetR8`ꆶ=ᙼ{Pkq\"ﳅ/`┸䛃d]5]澝V✩hyu3ovDVr`(wNjjM࠶W:");
+            info.setReturnValue(",uO)O0K4usYjHxr\u00E1OiIlx+%1w19*k,lS\u063C:-v@?\u9FBBLqetR8`\uA1B6=\u167C{Pkq\"\uFCC5/`\u2538\u46C3d]5]\u6F9DV\u2729hyu3ovDVr`(wNjjM\u0836W:");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1043214512(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1043214512L))
-            info.setReturnValue(-1107932868);
+            info.setReturnValue(-778915968);
     }
 
     @Inject(at = @At("HEAD"), method = "map(Ljava/util/function/Function;)Lnet/minecraft/client/renderer/entity/ArmorModelSet;", cancellable = true)
@@ -49,28 +49,28 @@ public class ArmorModelSet1004951770Mixin {
             info.setReturnValue(new java.lang.Object());
     }
 
-    @Inject(at = @At("HEAD"), method = "feet()Ljava/lang/Object;", cancellable = true)
-    private void feet__1430823307(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1430823307L))
-            info.setReturnValue(new java.lang.Object());
-    }
-
     @Inject(at = @At("HEAD"), method = "legs()Ljava/lang/Object;", cancellable = true)
     private void legs__1430823307(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1430823307L))
             info.setReturnValue(new java.lang.Object());
     }
 
-    @Inject(at = @At("HEAD"), method = "putFrom(Lnet/minecraft/client/renderer/entity/ArmorModelSet;Lcom/google/common/collect/ImmutableMap$Builder;)V", cancellable = true)
-    private void putFrom__1984505743(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1984505743L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "feet()Ljava/lang/Object;", cancellable = true)
+    private void feet__1430823307(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1430823307L))
+            info.setReturnValue(new java.lang.Object());
     }
 
     @Inject(at = @At("HEAD"), method = "bake(Lnet/minecraft/client/renderer/entity/ArmorModelSet;Lnet/minecraft/client/model/geom/EntityModelSet;Ljava/util/function/Function;)Lnet/minecraft/client/renderer/entity/ArmorModelSet;", cancellable = true)
     private static void bake_431725933(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(431725933L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "putFrom(Lnet/minecraft/client/renderer/entity/ArmorModelSet;Lcom/google/common/collect/ImmutableMap$Builder;)V", cancellable = true)
+    private void putFrom__1984505743(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1984505743L))
+            info.cancel();
     }
 
 

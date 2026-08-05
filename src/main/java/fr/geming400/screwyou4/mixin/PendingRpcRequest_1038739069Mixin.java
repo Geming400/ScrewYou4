@@ -16,7 +16,7 @@ public class PendingRpcRequest_1038739069Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__96720907(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-96720907L))
-            info.setReturnValue("%dRaYDUPA{#vi9$C>)5l\"ms9'㘉鰦(E^mu&");
+            info.setReturnValue("%dRaYDUPA{#vi9$C>)5l\"ms9'\u3609\u9C26(E^mu&");
     }
 
     @Inject(at = @At("HEAD"), method = "method()Lnet/minecraft/core/Holder$Reference;", cancellable = true)
@@ -28,7 +28,7 @@ public class PendingRpcRequest_1038739069Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1077001810(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1077001810L))
-            info.setReturnValue(1049720459);
+            info.setReturnValue(1776488659);
     }
 
     @Inject(at = @At("HEAD"), method = "accept(Lcom/google/gson/JsonElement;)V", cancellable = true)
@@ -52,7 +52,7 @@ public class PendingRpcRequest_1038739069Mixin {
     @Inject(at = @At("HEAD"), method = "timeoutTime()J", cancellable = true)
     private void timeoutTime_1077002275(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1077002275L))
-            info.setReturnValue(701515335618236049L);
+            info.setReturnValue(701515336345004249L);
     }
 
 

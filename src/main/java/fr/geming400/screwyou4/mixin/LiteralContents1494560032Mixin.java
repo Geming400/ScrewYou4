@@ -16,19 +16,19 @@ public class LiteralContents1494560032Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_359099561(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(359099561L))
-            info.setReturnValue("n3%k싂x@幑LM+쀚^R߇E-鑂kj|YQai;P2Uz?d.겝<?,t.W.<⤰[ᒋ@텎JkF1l骃fRL8J餸{&6륤>");
+            info.setReturnValue("n3%k\uC2C2x@\u5E51LM+\uC01A^R\u07C7E-\u9442kj|YQai;P2Uz?d.\uAC9D<?,t.W.<\u2930[\u148B@\uD14EJkF1l\u9A83fRL8J\u9938{&6\uB964>");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1532822774(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1532822774L))
-            info.setReturnValue(152897940);
+            info.setReturnValue(132705540);
     }
 
     @Inject(at = @At("HEAD"), method = "text()Ljava/lang/String;", cancellable = true)
     private void text_359099561(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(359099561L))
-            info.setReturnValue("n3%k싂x@幑LM+쀚^R߇E-鑂kj|YQai;P2Uz?d.겝<?,t.W.<⤰[ᒋ@텎JkF1l骃fRL8J餸{&6륤>");
+            info.setReturnValue("n3%k\uC2C2x@\u5E51LM+\uC01A^R\u07C7E-\u9442kj|YQai;P2Uz?d.\uAC9D<?,t.W.<\u2930[\u148B@\uD14EJkF1l\u9A83fRL8J\u9938{&6\uB964>");
     }
 
     @Inject(at = @At("HEAD"), method = "visit(Lnet/minecraft/network/chat/FormattedText$StyledContentConsumer;Lnet/minecraft/network/chat/Style;)Ljava/util/Optional;", cancellable = true)

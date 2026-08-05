@@ -28,13 +28,13 @@ public class SmithingRecipeDisplay_885891305Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__249568671(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-249568671L))
-            info.setReturnValue("ﾉf>z%WKO<.+ꑤqB{Jᵱ3*X");
+            info.setReturnValue("\uFF89f>z%WKO<.+\uA464qB{J\u1D713*X");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_924154046(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(924154046L))
-            info.setReturnValue(-1520924394);
+            info.setReturnValue(-1307569894);
     }
 
     @Inject(at = @At("HEAD"), method = "result()Lnet/minecraft/world/item/crafting/display/SlotDisplay;", cancellable = true)

@@ -16,13 +16,13 @@ public class SingleInputEntry_724956102Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__410503874(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-410503874L))
-            info.setReturnValue("^㑏P GE㢿qv ezif鲈9.\"쁮> p@⟼⫕Mjw趾1{Wx礪/qy幘=N1iHo`Ŗ98Z⯴6]{vx\"%LMc6h\"jw/fVu-'$z啄j$Rc%jHcz齈Nia夀L貼wnamnB");
+            info.setReturnValue("^\u344FP GE\u38BFqv ezif\u9C889.\"\uC06E> p@\u27FC\u2AD5Mjw\u8DBE1{Wx\u792A/qy\u5E58=N1iHo`\u015698Z\u2BF46]{vx\"%LMc6h\"jw/fVu-'$z\u5544j$Rc%jHcz\u9F48Nia\u5900L\u8CBCwnamnB");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_763218843(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(763218843L))
-            info.setReturnValue(-357527349);
+            info.setReturnValue(-574602749);
     }
 
     @Inject(at = @At("HEAD"), method = "input()Lnet/minecraft/world/item/crafting/Ingredient;", cancellable = true)

@@ -16,13 +16,13 @@ public class CountAndSize_735065271Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__400394705(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-400394705L))
-            info.setReturnValue("*raFKY.mLgP^mrYK)Hu'WnYJxG9PHdrvSkq鑨_j)COww}/ᧆX繁+sIz;冈{HFL?");
+            info.setReturnValue("*raFKY.mLgP^mrYK)Hu'WnYJxG9PHdrvSkq\u9468_j)COww}/\u19C6X\u7E41+sIz;\u5188{HFL?");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_773328012(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(773328012L))
-            info.setReturnValue(-1345304058);
+            info.setReturnValue(-2077295758);
     }
 
     @Inject(at = @At("HEAD"), method = "add(Lnet/minecraft/util/profiling/jfr/stats/IoSummary$CountAndSize;)Lnet/minecraft/util/profiling/jfr/stats/IoSummary$CountAndSize;", cancellable = true)
@@ -34,19 +34,19 @@ public class CountAndSize_735065271Mixin {
     @Inject(at = @At("HEAD"), method = "totalSize()J", cancellable = true)
     private void totalSize_773328477(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(773328477L))
-            info.setReturnValue(7283249827023080703L);
-    }
-
-    @Inject(at = @At("HEAD"), method = "averageSize()F", cancellable = true)
-    private void averageSize_773324633(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(773324633L))
-            info.setReturnValue(9.888075E8F);
+            info.setReturnValue(7283249826291089003L);
     }
 
     @Inject(at = @At("HEAD"), method = "totalCount()J", cancellable = true)
     private void totalCount_773328477(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(773328477L))
-            info.setReturnValue(7283249827023080703L);
+            info.setReturnValue(7283249826291089003L);
+    }
+
+    @Inject(at = @At("HEAD"), method = "averageSize()F", cancellable = true)
+    private void averageSize_773324633(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(773324633L))
+            info.setReturnValue(2.568158E8F);
     }
 
 

@@ -10,7 +10,7 @@ public class FieldSelector819985851Mixin {
         @Inject(at = @At("HEAD"), method = "name()Ljava/lang/String;", cancellable = true)
     private void name__315474620(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-315474620L))
-            info.setReturnValue("81$Y;h%sڞTP篤\"s(V媼,嵸=I3wez禣ivS튷8vL{:EJ2thtQ`肬oSw#e赍.$XC-Y奉DAKL藊B'f儶2qr4a5");
+            info.setReturnValue("81$Y;h%s\u069ETP\u7BE4\"s(V\u5ABC,\u5D78=I3wez\u79A3ivS\uD2B78vL{:EJ2thtQ`\u80ACoSw#e\u8D4D.$XC-Y\u5949DAKL\u85CAB'f\u51362qr4a5");
     }
 
     @Inject(at = @At("HEAD"), method = "type()Lnet/minecraft/nbt/TagType;", cancellable = true)
@@ -28,13 +28,13 @@ public class FieldSelector819985851Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__315474124(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-315474124L))
-            info.setReturnValue("x]3>mmP#@0쬕9c.M<Nvꫀ@vPl*[9YG");
+            info.setReturnValue("x]3>mmP#@0\uCB159c.M<Nv\uAAC0@vPl*[9YG");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_858248593(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(858248593L))
-            info.setReturnValue(-130339079);
+            info.setReturnValue(-395974679);
     }
 
     @Inject(at = @At("HEAD"), method = "path()Ljava/util/List;", cancellable = true)

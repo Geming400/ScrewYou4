@@ -10,7 +10,7 @@ public class RegistryDumpReport637145491Mixin {
         @Inject(at = @At("HEAD"), method = "getName()Ljava/lang/String;", cancellable = true)
     private void getName__498314980(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-498314980L))
-            info.setReturnValue("ᤏ7o6deq灦I-u-&MJ!%:;B﹞Q sHB=杻1ᡜ/");
+            info.setReturnValue("\u190F7o6deq\u7066I-u-&MJ!%:;B\uFE5EQ sHB=\uF9C81\u185C/");
     }
 
     @Inject(at = @At("HEAD"), method = "run(Lnet/minecraft/data/CachedOutput;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)

@@ -10,7 +10,7 @@ public class ClientBrandRetriever2020445326Mixin {
         @Inject(at = @At("HEAD"), method = "getClientModName()Ljava/lang/String;", cancellable = true)
     private static void getClientModName_884985103(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(884985103L))
-            info.setReturnValue("K`@O-?-kᘰPPfKmD[)@oFw 䛎GM┬voQ}VgqR\"3,GCE6M.");
+            info.setReturnValue("K`@O-?-k\u1630PPfKmD[)@oFw \u46CEGM\u252CvoQ}VgqR\"3,GCE6M.");
     }
 
 

@@ -10,7 +10,7 @@ public class TimerQueue1338615342Mixin {
         @Inject(at = @At("HEAD"), method = "remove(Ljava/lang/String;)I", cancellable = true)
     private void remove__1804003298(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1804003298L))
-            info.setReturnValue(-886989272);
+            info.setReturnValue(-1403183772);
     }
 
     @Inject(at = @At("HEAD"), method = "schedule(Ljava/lang/String;JLnet/minecraft/world/level/timers/TimerCallback;)V", cancellable = true)

@@ -22,13 +22,13 @@ public class ClientboundDebugEventPacket1921568964Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_786108989(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(786108989L))
-            info.setReturnValue("]GH$YJ: tm$848^vAJEF3\"'vz]AXZ-i{뵠{%26?j0");
+            info.setReturnValue("]GH$YJ: tm$848^vAJEF3\"'vz]AXZ-i{\uBD60{%26?j0");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1959831706(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1959831706L))
-            info.setReturnValue(396092619);
+            info.setReturnValue(334018419);
     }
 
     @Inject(at = @At("HEAD"), method = "event()Lnet/minecraft/util/debug/DebugSubscription$Event;", cancellable = true)

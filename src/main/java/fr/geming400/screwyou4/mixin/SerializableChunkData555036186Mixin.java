@@ -16,13 +16,13 @@ public class SerializableChunkData555036186Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__580423789(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-580423789L))
-            info.setReturnValue("䅖`N%TZ,<C4s%P");
+            info.setReturnValue("\u4156`N%TZ,<C4s%P");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_593298928(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(593298928L))
-            info.setReturnValue(71447300);
+            info.setReturnValue(587724800);
     }
 
     @Inject(at = @At("HEAD"), method = "copyOf(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/level/chunk/ChunkAccess;)Lnet/minecraft/world/level/chunk/storage/SerializableChunkData;", cancellable = true)
@@ -61,15 +61,33 @@ public class SerializableChunkData555036186Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "lastUpdateTime()J", cancellable = true)
-    private void lastUpdateTime_593299393(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(593299393L))
-            info.setReturnValue(-1259310192402200960L);
-    }
-
     @Inject(at = @At("HEAD"), method = "blockEntities()Ljava/util/List;", cancellable = true)
     private void blockEntities__2113594294(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2113594294L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "minSectionY()I", cancellable = true)
+    private void minSectionY_593298432(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(593298432L))
+            info.setReturnValue(470761135);
+    }
+
+    @Inject(at = @At("HEAD"), method = "structureData()Lnet/minecraft/nbt/CompoundTag;", cancellable = true)
+    private void structureData__1015186734(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1015186734L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "lastUpdateTime()J", cancellable = true)
+    private void lastUpdateTime_593299393(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(593299393L))
+            info.setReturnValue(-1259310191885923460L);
+    }
+
+    @Inject(at = @At("HEAD"), method = "containerFactory()Lnet/minecraft/world/level/chunk/PalettedContainerFactory;", cancellable = true)
+    private void containerFactory__1495283080(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1495283080L))
             info.setReturnValue(null);
     }
 
@@ -79,15 +97,15 @@ public class SerializableChunkData555036186Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "inhabitedTime()J", cancellable = true)
+    private void inhabitedTime_593299393(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(593299393L))
+            info.setReturnValue(-1259310191885923460L);
+    }
+
     @Inject(at = @At("HEAD"), method = "blendingData()Lnet/minecraft/world/level/levelgen/blending/BlendingData$Packed;", cancellable = true)
     private void blendingData_1156790868(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1156790868L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "containerFactory()Lnet/minecraft/world/level/chunk/PalettedContainerFactory;", cancellable = true)
-    private void containerFactory__1495283080(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1495283080L))
             info.setReturnValue(null);
     }
 
@@ -97,27 +115,9 @@ public class SerializableChunkData555036186Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "inhabitedTime()J", cancellable = true)
-    private void inhabitedTime_593299393(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(593299393L))
-            info.setReturnValue(-1259310192401191960L);
-    }
-
-    @Inject(at = @At("HEAD"), method = "minSectionY()I", cancellable = true)
-    private void minSectionY_593298432(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(593298432L))
-            info.setReturnValue(-44507365);
-    }
-
     @Inject(at = @At("HEAD"), method = "heightmaps()Ljava/util/Map;", cancellable = true)
     private void heightmaps__1449587454(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1449587454L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "structureData()Lnet/minecraft/nbt/CompoundTag;", cancellable = true)
-    private void structureData__1015186734(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1015186734L))
             info.setReturnValue(null);
     }
 
@@ -130,6 +130,12 @@ public class SerializableChunkData555036186Mixin {
     @Inject(at = @At("HEAD"), method = "carvingMask()[J", cancellable = true)
     private void carvingMask_1740878504(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1740878504L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "sectionData()Ljava/util/List;", cancellable = true)
+    private void sectionData__2113594294(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2113594294L))
             info.setReturnValue(null);
     }
 
@@ -155,12 +161,6 @@ public class SerializableChunkData555036186Mixin {
     private void lightCorrect_593314769(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(593314769L))
             info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "sectionData()Ljava/util/List;", cancellable = true)
-    private void sectionData__2113594294(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2113594294L))
-            info.setReturnValue(null);
     }
 
 

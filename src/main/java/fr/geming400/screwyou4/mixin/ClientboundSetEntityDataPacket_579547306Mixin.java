@@ -22,19 +22,19 @@ public class ClientboundSetEntityDataPacket_579547306Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__555912670(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-555912670L))
-            info.setReturnValue("EyvP턱sQ訵k\"2l#c/Sy5");
+            info.setReturnValue("EyvP\uD131sQ\u8A35k\"2l#c/Sy5");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_617810047(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(617810047L))
-            info.setReturnValue(1017424900);
+            info.setReturnValue(1054504000);
     }
 
     @Inject(at = @At("HEAD"), method = "id()I", cancellable = true)
     private void id_617809551(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(617809551L))
-            info.setReturnValue(-281487387);
+            info.setReturnValue(-244408287);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/protocol/game/ClientGamePacketListener;)V", cancellable = true)

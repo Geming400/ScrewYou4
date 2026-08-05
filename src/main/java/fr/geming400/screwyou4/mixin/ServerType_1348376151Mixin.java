@@ -22,7 +22,7 @@ public class ServerType_1348376151Mixin {
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName_212915679(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(212915679L))
-            info.setReturnValue("IV2c;Lb웧<[/᭝P崃y蔣x浒耗{^\"捾Cp郗51%Aa3 갔4睬7^'OKD[Ix|>Nfg(?p㸞pkS2B?ld>@ cz[p韛-V(̥し%m[짽M|eK3sjP[6계");
+            info.setReturnValue("IV2c;Lb\uC6E7<[/\u1B5DP\u5D03y\u8523x\u6D52\u8017{^\"\u637ECp\u90D751%Aa3 \uAC144\u776C7^'OKD[Ix|>Nfg(?p\u3E1EpkS2B?ld>@ cz[p\uFAC9-V(\u0325\u3057%m[\uC9FDM|eK3sjP[6\uACC4");
     }
 
 

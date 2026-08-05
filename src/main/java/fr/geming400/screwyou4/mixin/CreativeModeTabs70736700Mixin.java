@@ -19,6 +19,24 @@ public class CreativeModeTabs70736700Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "searchTab()Lnet/minecraft/world/item/CreativeModeTab;", cancellable = true)
+    private static void searchTab_1490977930(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1490977930L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "tabs()Ljava/util/List;", cancellable = true)
+    private static void tabs_1697073764(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1697073764L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "allTabs()Ljava/util/List;", cancellable = true)
+    private static void allTabs_1697073764(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1697073764L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "getDefaultTab()Lnet/minecraft/world/item/CreativeModeTab;", cancellable = true)
     private static void getDefaultTab_1490977930(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1490977930L))
@@ -29,24 +47,6 @@ public class CreativeModeTabs70736700Mixin {
     private static void tryRebuildTabContents__1925774452(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1925774452L))
             info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "allTabs()Ljava/util/List;", cancellable = true)
-    private static void allTabs_1697073764(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1697073764L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "tabs()Ljava/util/List;", cancellable = true)
-    private static void tabs_1697073764(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1697073764L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "searchTab()Lnet/minecraft/world/item/CreativeModeTab;", cancellable = true)
-    private static void searchTab_1490977930(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1490977930L))
-            info.setReturnValue(null);
     }
 
 

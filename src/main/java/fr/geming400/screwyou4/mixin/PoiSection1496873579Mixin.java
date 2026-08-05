@@ -55,10 +55,10 @@ public class PoiSection1496873579Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getDebugPoiInfo(Lnet/minecraft/core/BlockPos;)Ljava/util/Optional;", cancellable = true)
-    private void getDebugPoiInfo__625726011(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-625726011L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "getFreeTickets(Lnet/minecraft/core/BlockPos;)I", cancellable = true)
+    private void getFreeTickets_1665627685(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1665627685L))
+            info.setReturnValue(-803959411);
     }
 
     @Inject(at = @At("HEAD"), method = "getRecords(Ljava/util/function/Predicate;Lnet/minecraft/world/entity/ai/village/poi/PoiManager$Occupancy;)Ljava/util/stream/Stream;", cancellable = true)
@@ -67,10 +67,10 @@ public class PoiSection1496873579Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getFreeTickets(Lnet/minecraft/core/BlockPos;)I", cancellable = true)
-    private void getFreeTickets_1665627685(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1665627685L))
-            info.setReturnValue(-805460211);
+    @Inject(at = @At("HEAD"), method = "getDebugPoiInfo(Lnet/minecraft/core/BlockPos;)Ljava/util/Optional;", cancellable = true)
+    private void getDebugPoiInfo__625726011(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-625726011L))
+            info.setReturnValue(null);
     }
 
 

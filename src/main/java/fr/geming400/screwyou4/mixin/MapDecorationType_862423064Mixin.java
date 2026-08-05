@@ -16,25 +16,13 @@ public class MapDecorationType_862423064Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__273036912(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-273036912L))
-            info.setReturnValue("애tvg: Y&K\"F`=P|d&剬k䫰}Xk QD>gdc-^4/[K傫6kQh淊hssX勉5z쌔Fh紌!t)鰓ᵐ5o贩;$;洏qZN郧ᎴGfGNL'");
+            info.setReturnValue("\uC560tvg: Y&K\"F`=P|d&\u526Ck\u4AF0}Xk QD>gdc-^4/[K\u50AB6kQh\u6DCAhssX\uFA335z\uC314Fh\u7D0C!t)\u9C13\u1D505o\u8D29;$;\u6D0FqZN\u90E7\u13B4GfGNL'");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_900685805(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(900685805L))
-            info.setReturnValue(-1504962094);
-    }
-
-    @Inject(at = @At("HEAD"), method = "explorationMapElement()Z", cancellable = true)
-    private void explorationMapElement_900701646(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(900701646L))
-            info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "showOnItemFrame()Z", cancellable = true)
-    private void showOnItemFrame_900701646(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(900701646L))
-            info.setReturnValue(false);
+            info.setReturnValue(-1795890494);
     }
 
     @Inject(at = @At("HEAD"), method = "assetId()Lnet/minecraft/resources/Identifier;", cancellable = true)
@@ -43,14 +31,26 @@ public class MapDecorationType_862423064Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "trackCount()Z", cancellable = true)
+    private void trackCount_900701646(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(900701646L))
+            info.setReturnValue(false);
+    }
+
     @Inject(at = @At("HEAD"), method = "mapColor()I", cancellable = true)
     private void mapColor_900685309(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(900685309L))
-            info.setReturnValue(-1301814674);
+            info.setReturnValue(-1592743074);
     }
 
-    @Inject(at = @At("HEAD"), method = "trackCount()Z", cancellable = true)
-    private void trackCount_900701646(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "showOnItemFrame()Z", cancellable = true)
+    private void showOnItemFrame_900701646(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(900701646L))
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "explorationMapElement()Z", cancellable = true)
+    private void explorationMapElement_900701646(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(900701646L))
             info.setReturnValue(false);
     }

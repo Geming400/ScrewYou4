@@ -22,7 +22,7 @@ public class ExplosionInteraction_1296258985Mixin {
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName_160798513(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(160798513L))
-            info.setReturnValue("|꼺(UK>$cDO");
+            info.setReturnValue("|\uAF3A(UK>$cDO");
     }
 
 

@@ -7,9 +7,9 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.world.item.HoeItem.class)
 public class HoeItem_785930525Mixin {
-        @Inject(at = @At("HEAD"), method = "changeIntoState(Lnet/minecraft/world/level/block/state/BlockState;)Ljava/util/function/Consumer;", cancellable = true)
-    private static void changeIntoState__609793126(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-609793126L))
+        @Inject(at = @At("HEAD"), method = "useOn(Lnet/minecraft/world/item/context/UseOnContext;)Lnet/minecraft/world/InteractionResult;", cancellable = true)
+    private void useOn__1122912731(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1122912731L))
             info.setReturnValue(null);
     }
 
@@ -25,9 +25,9 @@ public class HoeItem_785930525Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "useOn(Lnet/minecraft/world/item/context/UseOnContext;)Lnet/minecraft/world/InteractionResult;", cancellable = true)
-    private void useOn__1122912731(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1122912731L))
+    @Inject(at = @At("HEAD"), method = "changeIntoState(Lnet/minecraft/world/level/block/state/BlockState;)Ljava/util/function/Consumer;", cancellable = true)
+    private static void changeIntoState__609793126(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-609793126L))
             info.setReturnValue(null);
     }
 

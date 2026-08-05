@@ -10,7 +10,7 @@ public class ItemModelResolver996895086Mixin {
         @Inject(at = @At("HEAD"), method = "swapAnimationScale(Lnet/minecraft/world/item/ItemStack;)F", cancellable = true)
     private void swapAnimationScale__1563556298(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1563556298L))
-            info.setReturnValue(9.652877E8F);
+            info.setReturnValue(2.452946E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "shouldPlaySwapAnimation(Lnet/minecraft/world/item/ItemStack;)Z", cancellable = true)

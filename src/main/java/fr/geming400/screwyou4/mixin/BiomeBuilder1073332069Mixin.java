@@ -10,7 +10,7 @@ public class BiomeBuilder1073332069Mixin {
         @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__62128402(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-62128402L))
-            info.setReturnValue("<s焍^Q麭,JG1Y?嶆⽄");
+            info.setReturnValue("<s\u710D^Q\u9EAD,JG1Y?\u5D86\u2F44");
     }
 
     @Inject(at = @At("HEAD"), method = "build()Lnet/minecraft/world/level/biome/Biome;", cancellable = true)
@@ -55,15 +55,15 @@ public class BiomeBuilder1073332069Mixin {
             info.setReturnValue(new net.minecraft.world.level.biome.Biome$BiomeBuilder());
     }
 
-    @Inject(at = @At("HEAD"), method = "temperatureAdjustment(Lnet/minecraft/world/level/biome/Biome$TemperatureModifier;)Lnet/minecraft/world/level/biome/Biome$BiomeBuilder;", cancellable = true)
-    private void temperatureAdjustment__499778610(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-499778610L))
-            info.setReturnValue(new net.minecraft.world.level.biome.Biome$BiomeBuilder());
-    }
-
     @Inject(at = @At("HEAD"), method = "mobSpawnSettings(Lnet/minecraft/world/level/biome/MobSpawnSettings;)Lnet/minecraft/world/level/biome/Biome$BiomeBuilder;", cancellable = true)
     private void mobSpawnSettings__2104206557(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2104206557L))
+            info.setReturnValue(new net.minecraft.world.level.biome.Biome$BiomeBuilder());
+    }
+
+    @Inject(at = @At("HEAD"), method = "temperatureAdjustment(Lnet/minecraft/world/level/biome/Biome$TemperatureModifier;)Lnet/minecraft/world/level/biome/Biome$BiomeBuilder;", cancellable = true)
+    private void temperatureAdjustment__499778610(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-499778610L))
             info.setReturnValue(new net.minecraft.world.level.biome.Biome$BiomeBuilder());
     }
 

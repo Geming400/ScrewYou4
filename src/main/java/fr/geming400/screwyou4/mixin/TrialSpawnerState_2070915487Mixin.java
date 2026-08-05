@@ -19,16 +19,16 @@ public class TrialSpawnerState_2070915487Mixin {
             info.setReturnValue(net.minecraft.world.level.block.entity.trialspawner.TrialSpawnerState.ACTIVE);
     }
 
-    @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
-    private void getSerializedName_935455015(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(935455015L))
-            info.setReturnValue("m䳺ឌe\"`QD\"엿'ka⼉h遻燲GHiO▄^'a{E㖌l03y&v侎rN=qU-^fnm쮖 !힏XwlEzqH,z<d+q4mUkMUL_첅ᘰhg3)Rl;w=_N-#63gK?e");
-    }
-
     @Inject(at = @At("HEAD"), method = "lightLevel()I", cancellable = true)
     private void lightLevel_2109177732(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2109177732L))
-            info.setReturnValue(1396051931);
+            info.setReturnValue(510920231);
+    }
+
+    @Inject(at = @At("HEAD"), method = "spinningMobSpeed()D", cancellable = true)
+    private void spinningMobSpeed_2109172927(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2109172927L))
+            info.setReturnValue(3.055490076579108E7D);
     }
 
     @Inject(at = @At("HEAD"), method = "isCapableOfSpawning()Z", cancellable = true)
@@ -49,10 +49,10 @@ public class TrialSpawnerState_2070915487Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "spinningMobSpeed()D", cancellable = true)
-    private void spinningMobSpeed_2109172927(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2109172927L))
-            info.setReturnValue(9.15686600765791E8D);
+    @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
+    private void getSerializedName_935455015(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(935455015L))
+            info.setReturnValue("m\u4CFA\u178Ce\"`QD\"\uC5FF'ka\u2F09h\u907B\u71F2GHiO\u2584^'a{E\u358Cl03y&v\u4F8ErN=qU-^fnm\uCB96 !\uD78FXwlEzqH,z<d+q4mUkMUL_\uCC85\u1630hg3)Rl;w=_N-#63gK?e");
     }
 
 

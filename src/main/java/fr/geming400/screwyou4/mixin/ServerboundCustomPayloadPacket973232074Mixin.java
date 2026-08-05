@@ -28,13 +28,13 @@ public class ServerboundCustomPayloadPacket973232074Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__162227901(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-162227901L))
-            info.setReturnValue("W%&u==NQ0i粲ற朓)%br(^iSN%q");
+            info.setReturnValue("W%&u==NQ0i\u7CB2\u0BB1\u6713)%br(^iSN%q");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1011494816(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1011494816L))
-            info.setReturnValue(-460520698);
+            info.setReturnValue(-710127098);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/PacketListener;)V", cancellable = true)

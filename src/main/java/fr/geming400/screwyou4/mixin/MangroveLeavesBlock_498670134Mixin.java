@@ -13,10 +13,10 @@ public class MangroveLeavesBlock_498670134Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "isValidBonemealTarget(Lnet/minecraft/world/level/LevelReader;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Z", cancellable = true)
-    private void isValidBonemealTarget_543349891(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(543349891L))
-            info.setReturnValue(true);
+    @Inject(at = @At("HEAD"), method = "getParticlePos(Lnet/minecraft/core/BlockPos;)Lnet/minecraft/core/BlockPos;", cancellable = true)
+    private void getParticlePos__1772802166(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1772802166L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "performBonemeal(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/util/RandomSource;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)V", cancellable = true)
@@ -31,10 +31,10 @@ public class MangroveLeavesBlock_498670134Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "getParticlePos(Lnet/minecraft/core/BlockPos;)Lnet/minecraft/core/BlockPos;", cancellable = true)
-    private void getParticlePos__1772802166(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1772802166L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "isValidBonemealTarget(Lnet/minecraft/world/level/LevelReader;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Z", cancellable = true)
+    private void isValidBonemealTarget_543349891(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(543349891L))
+            info.setReturnValue(true);
     }
 
 

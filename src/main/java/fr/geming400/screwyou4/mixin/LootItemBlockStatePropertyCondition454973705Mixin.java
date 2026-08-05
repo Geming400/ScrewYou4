@@ -16,13 +16,13 @@ public class LootItemBlockStatePropertyCondition454973705Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__680486270(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-680486270L))
-            info.setReturnValue("+^5,mKu鰭CL=|hM:䈴v-|[=N.w@ZW'#ꇴDh,<>iG.k7$@15%}HUKiuym%$F");
+            info.setReturnValue("+^5,mKu\u9C2DCL=|hM:\u4234v-|[=N.w@ZW'#\uA1F4Dh,<>iG.k7$@15%}HUKiuym%$F");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_493236447(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(493236447L))
-            info.setReturnValue(838294213);
+            info.setReturnValue(734022913);
     }
 
     @Inject(at = @At("HEAD"), method = "test(Lnet/minecraft/world/level/storage/loot/LootContext;)Z", cancellable = true)
@@ -49,12 +49,6 @@ public class LootItemBlockStatePropertyCondition454973705Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "hasBlockStateProperties(Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/world/level/storage/loot/predicates/LootItemBlockStatePropertyCondition$Builder;", cancellable = true)
-    private static void hasBlockStateProperties__1942116533(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1942116533L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
     private void codec__2104139867(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2104139867L))
@@ -64,6 +58,12 @@ public class LootItemBlockStatePropertyCondition454973705Mixin {
     @Inject(at = @At("HEAD"), method = "getReferencedContextParams()Ljava/util/Set;", cancellable = true)
     private void getReferencedContextParams__1374061781(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1374061781L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "hasBlockStateProperties(Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/world/level/storage/loot/predicates/LootItemBlockStatePropertyCondition$Builder;", cancellable = true)
+    private static void hasBlockStateProperties__1942116533(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1942116533L))
             info.setReturnValue(null);
     }
 

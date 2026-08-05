@@ -19,22 +19,10 @@ public class ItemDisplay_191846873Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "setItemStack(Lnet/minecraft/world/item/ItemStack;)V", cancellable = true)
-    private void setItemStack_1926378656(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1926378656L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "itemRenderState()Lnet/minecraft/world/entity/Display$ItemDisplay$ItemRenderState;", cancellable = true)
     private void itemRenderState_204479984(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(204479984L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "setItemTransform(Lnet/minecraft/world/item/ItemDisplayContext;)V", cancellable = true)
-    private void setItemTransform_599103175(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(599103175L))
-            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "getItemStack()Lnet/minecraft/world/item/ItemStack;", cancellable = true)
@@ -47,6 +35,18 @@ public class ItemDisplay_191846873Mixin {
     private void getItemTransform_51507137(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(51507137L))
             info.setReturnValue(net.minecraft.world.item.ItemDisplayContext.GUI);
+    }
+
+    @Inject(at = @At("HEAD"), method = "setItemStack(Lnet/minecraft/world/item/ItemStack;)V", cancellable = true)
+    private void setItemStack_1926378656(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1926378656L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "setItemTransform(Lnet/minecraft/world/item/ItemDisplayContext;)V", cancellable = true)
+    private void setItemTransform_599103175(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(599103175L))
+            info.cancel();
     }
 
 

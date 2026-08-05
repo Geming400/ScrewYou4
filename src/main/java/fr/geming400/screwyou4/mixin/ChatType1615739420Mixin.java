@@ -22,7 +22,7 @@ public class ChatType1615739420Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1654002162(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1654002162L))
-            info.setReturnValue(-1652318396);
+            info.setReturnValue(-2004361396);
     }
 
     @Inject(at = @At("HEAD"), method = "bootstrap(Lnet/minecraft/data/worldgen/BootstrapContext;)V", cancellable = true)

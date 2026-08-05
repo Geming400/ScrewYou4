@@ -16,13 +16,13 @@ public class RegistryInfo_709079462Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__426380514(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-426380514L))
-            info.setReturnValue(">zWꨪvZXrΰ_42r@C");
+            info.setReturnValue(">zW\uAA2AvZXr\u1FE3_42r@C");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_747342203(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(747342203L))
-            info.setReturnValue(-375398044);
+            info.setReturnValue(-472946344);
     }
 
     @Inject(at = @At("HEAD"), method = "owner()Lnet/minecraft/core/HolderOwner;", cancellable = true)

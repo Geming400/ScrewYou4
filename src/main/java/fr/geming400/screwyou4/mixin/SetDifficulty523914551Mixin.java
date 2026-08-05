@@ -16,13 +16,13 @@ public class SetDifficulty523914551Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__611545424(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-611545424L))
-            info.setReturnValue("#.$鈆R6;.0蝇&`%_'@fTJD9x&_쿿御ENuaL[LG$銐>1Up@XgS*jQ=r]Zn:K寶,MDh\"x<莉&%PN@QgXaszdP쩬g3]ș&+q)D䟮奩l㰐%NpE");
+            info.setReturnValue("#.$\u9206R6;.0\u8747&`%_'@fTJD9x&_\uCFFF\u5FA1ENuaL[LG$\u9290>1Up@XgS*jQ=r]Zn:K\u5BF6,MDh\"x<\u8389&%PN@QgXaszdP\uCA6Cg3]\u0219&+q)D\u47EE\u5969l\u3C10%NpE");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_562177293(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(562177293L))
-            info.setReturnValue(-176417259);
+            info.setReturnValue(-227040659);
     }
 
     @Inject(at = @At("HEAD"), method = "setup(Lnet/minecraft/server/level/ServerLevel;)Ljava/lang/Object;", cancellable = true)

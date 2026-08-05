@@ -22,7 +22,7 @@ public class Skybox1595272888Mixin {
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName_459812417(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(459812417L))
-            info.setReturnValue("|@r8WTUTA젅(au0?J頰_J|ʿqm(DUHPQFQn|t[8^. ..i\"0fy%E쉚kO囄e.뵘>B1=MC坻|Cov-阩RW93jC<Uqv)wB쯽V=D|4ЇF]");
+            info.setReturnValue("|@r8WTUTA\uC805(au0?J\u9830_J|\u02BFqm(DUHPQFQn|t[8^. ..i\"0fy%E\uC25AkO\u56C4e.\uBD58>B1=MC\u577B|Cov-\u9629RW93jC<Uqv)wB\uCBFDV=D|4\u0407F]");
     }
 
 

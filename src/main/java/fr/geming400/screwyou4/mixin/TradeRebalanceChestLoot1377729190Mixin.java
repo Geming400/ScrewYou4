@@ -16,13 +16,13 @@ public class TradeRebalanceChestLoot1377729190Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_242269215(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(242269215L))
-            info.setReturnValue("栰F* [EAW0La'hX9[']Y脑rx냉z:C+mo0Hxyu2wA2?,g ]>⋱ᰵDY()<V译,m-곀Wzcvkp");
+            info.setReturnValue("\u6830F* [EAW0La'hX9[']Y\u8111rx\uB0C9z:C+mo0Hxyu2wA2?,g ]>\u22F1\u1C35DY()<V\u8BD1,m-\uACC0Wzcvkp");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1415991932(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1415991932L))
-            info.setReturnValue(-1949570119);
+            info.setReturnValue(-1511513019);
     }
 
     @Inject(at = @At("HEAD"), method = "generate(Ljava/util/function/BiConsumer;)V", cancellable = true)
@@ -31,14 +31,14 @@ public class TradeRebalanceChestLoot1377729190Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "desertPyramidLootTable()Lnet/minecraft/world/level/storage/loot/LootTable$Builder;", cancellable = true)
-    private void desertPyramidLootTable_644351054(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(644351054L))
+    @Inject(at = @At("HEAD"), method = "registries()Lnet/minecraft/core/HolderLookup$Provider;", cancellable = true)
+    private void registries_1064521857(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1064521857L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "ancientCityLootTable()Lnet/minecraft/world/level/storage/loot/LootTable$Builder;", cancellable = true)
-    private void ancientCityLootTable_644351054(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "desertPyramidLootTable()Lnet/minecraft/world/level/storage/loot/LootTable$Builder;", cancellable = true)
+    private void desertPyramidLootTable_644351054(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(644351054L))
             info.setReturnValue(null);
     }
@@ -55,9 +55,9 @@ public class TradeRebalanceChestLoot1377729190Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "registries()Lnet/minecraft/core/HolderLookup$Provider;", cancellable = true)
-    private void registries_1064521857(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1064521857L))
+    @Inject(at = @At("HEAD"), method = "ancientCityLootTable()Lnet/minecraft/world/level/storage/loot/LootTable$Builder;", cancellable = true)
+    private void ancientCityLootTable_644351054(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(644351054L))
             info.setReturnValue(null);
     }
 

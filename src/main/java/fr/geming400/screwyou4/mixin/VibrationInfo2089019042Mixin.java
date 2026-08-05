@@ -16,13 +16,13 @@ public class VibrationInfo2089019042Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_953559067(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(953559067L))
-            info.setReturnValue("'V洨4oShZ/]骕QDIV)&*#JVG5e:WFNvXwUN7哯sGUS+퇏!o'&q[E:fXg칫sNQW");
+            info.setReturnValue("'V\u6D284oShZ/]\u9A95QDIV)&*#JVG5e:WFNvXwUN7\u54EFsGUS+\uD1CF!o'&q[E:fXg\uCE6BsNQW");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2127281784(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2127281784L))
-            info.setReturnValue(-1168935433);
+            info.setReturnValue(-1489140233);
     }
 
     @Inject(at = @At("HEAD"), method = "pos()Lnet/minecraft/world/phys/Vec3;", cancellable = true)
@@ -34,7 +34,7 @@ public class VibrationInfo2089019042Mixin {
     @Inject(at = @At("HEAD"), method = "distance()F", cancellable = true)
     private void distance_2127278405(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2127278405L))
-            info.setReturnValue(7.881694E8F);
+            info.setReturnValue(4.679646E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "entity()Lnet/minecraft/world/entity/Entity;", cancellable = true)

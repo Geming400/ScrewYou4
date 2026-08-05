@@ -7,15 +7,15 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.client.renderer.entity.IllusionerRenderer.class)
 public class IllusionerRenderer_303751835Mixin {
-        @Inject(at = @At("HEAD"), method = "submit(Lnet/minecraft/client/renderer/entity/state/IllusionerRenderState;Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/SubmitNodeCollector;Lnet/minecraft/client/renderer/state/level/CameraRenderState;)V", cancellable = true)
-    private void submit__1424974045(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1424974045L))
+        @Inject(at = @At("HEAD"), method = "submit(Lnet/minecraft/client/renderer/entity/state/EntityRenderState;Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/SubmitNodeCollector;Lnet/minecraft/client/renderer/state/level/CameraRenderState;)V", cancellable = true)
+    private void submit__1163629010(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1163629010L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "submit(Lnet/minecraft/client/renderer/entity/state/EntityRenderState;Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/SubmitNodeCollector;Lnet/minecraft/client/renderer/state/level/CameraRenderState;)V", cancellable = true)
-    private void submit__1163629010(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1163629010L))
+    @Inject(at = @At("HEAD"), method = "submit(Lnet/minecraft/client/renderer/entity/state/IllusionerRenderState;Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/SubmitNodeCollector;Lnet/minecraft/client/renderer/state/level/CameraRenderState;)V", cancellable = true)
+    private void submit__1424974045(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1424974045L))
             info.cancel();
     }
 
@@ -37,6 +37,12 @@ public class IllusionerRenderer_303751835Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/entity/monster/illager/AbstractIllager;Lnet/minecraft/client/renderer/entity/state/IllagerRenderState;F)V", cancellable = true)
+    private void extractRenderState_1537539729(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1537539729L))
+            info.cancel();
+    }
+
     @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/entity/monster/illager/Illusioner;Lnet/minecraft/client/renderer/entity/state/IllusionerRenderState;F)V", cancellable = true)
     private void extractRenderState__507575123(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-507575123L))
@@ -52,12 +58,6 @@ public class IllusionerRenderer_303751835Mixin {
     @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/client/renderer/entity/state/LivingEntityRenderState;F)V", cancellable = true)
     private void extractRenderState_1323616037(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1323616037L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/entity/monster/illager/AbstractIllager;Lnet/minecraft/client/renderer/entity/state/IllagerRenderState;F)V", cancellable = true)
-    private void extractRenderState_1537539729(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1537539729L))
             info.cancel();
     }
 

@@ -16,13 +16,13 @@ public class PlaySoundConsumeEffect_2136218036Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_1000758060(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1000758060L))
-            info.setReturnValue("痧帱爄JsY6H[햢R愰諶^=/Eb᰿0cGs$xJ:㻎Y泋p/@x&ซtrN(_='Xbw4m?k`移>Qcyid継T;;Mj-j=퍳^]( L166sYG0)OGAU[0a@H+_'");
+            info.setReturnValue("\u75E7\u5E31\u7204JsY6H[\uD5A2R\u6130\u8AF6^=/Eb\u1C3F0cGs$xJ:\u3ECEY\u6CCBp/@x&\u0E0BtrN(_='Xbw4m?k`\u79FB>Qcyid\u7D99T;;Mj-j=\uD373^]( L166sYG0)OGAU[0a@H+_'");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__2120486519(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2120486519L))
-            info.setReturnValue(-1296725300);
+            info.setReturnValue(-712024600);
     }
 
     @Inject(at = @At("HEAD"), method = "apply(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/LivingEntity;)Z", cancellable = true)

@@ -22,13 +22,13 @@ public class Composite1360926897Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_225466922(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(225466922L))
-            info.setReturnValue("U0XMR(M.Iy/}pJQ3mSꔩu<)!48_0nL⚢omrIWq$iScE7#hWꀷ./](Z+i }|潝荢Ep_?G8-!");
+            info.setReturnValue("U0XMR(M.Iy/}pJQ3mS\uA529u<)!48_0nL\u26A2omrIWq$iScE7#hW\uA037./](Z+i }|\u6F5D\u8362Ep_?G8-!");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1399189639(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1399189639L))
-            info.setReturnValue(-775642884);
+            info.setReturnValue(-536694684);
     }
 
     @Inject(at = @At("HEAD"), method = "resolve(Lnet/minecraft/util/context/ContextMap;Lnet/minecraft/world/item/crafting/display/DisplayContentsFactory;)Ljava/util/stream/Stream;", cancellable = true)

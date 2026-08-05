@@ -16,13 +16,13 @@ public class WorldGenContext_1907274829Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_771814853(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(771814853L))
-            info.setReturnValue("LI}ꑡxG㧐7k<|Drn):!H|佷");
+            info.setReturnValue("LI}\uA461xG\u39D07k<|Drn):!H|\u4F77");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1945537570(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1945537570L))
-            info.setReturnValue(-769053262);
+            info.setReturnValue(-685777462);
     }
 
     @Inject(at = @At("HEAD"), method = "generator()Lnet/minecraft/world/level/chunk/ChunkGenerator;", cancellable = true)
@@ -37,9 +37,9 @@ public class WorldGenContext_1907274829Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "unsavedListener()Lnet/minecraft/world/level/chunk/LevelChunk$UnsavedListener;", cancellable = true)
-    private void unsavedListener_249388693(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(249388693L))
+    @Inject(at = @At("HEAD"), method = "mainThreadExecutor()Ljava/util/concurrent/Executor;", cancellable = true)
+    private void mainThreadExecutor_1600972229(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1600972229L))
             info.setReturnValue(null);
     }
 
@@ -55,9 +55,9 @@ public class WorldGenContext_1907274829Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "mainThreadExecutor()Ljava/util/concurrent/Executor;", cancellable = true)
-    private void mainThreadExecutor_1600972229(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1600972229L))
+    @Inject(at = @At("HEAD"), method = "unsavedListener()Lnet/minecraft/world/level/chunk/LevelChunk$UnsavedListener;", cancellable = true)
+    private void unsavedListener_249388693(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(249388693L))
             info.setReturnValue(null);
     }
 

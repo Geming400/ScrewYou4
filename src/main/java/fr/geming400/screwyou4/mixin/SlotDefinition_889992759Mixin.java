@@ -16,31 +16,31 @@ public class SlotDefinition_889992759Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__245467217(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-245467217L))
-            info.setReturnValue("Gᄙ赆o:caSehso8떻;蝀e YhlBg4:2@AcA줁67]Y8H佛T㎱2nVZ!et@GYw(V;璡I遅P@ゆ9s");
+            info.setReturnValue("G\u1119\u8D46o:caSehso8\uB5BB;\u8740e YhlBg4:2@AcA\uC90167]Y8H\u4F5BT\u33B12nVZ!et@GYw(V;\u74A1I\u9045P@\u30869s");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_928255500(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(928255500L))
-            info.setReturnValue(-794783730);
+            info.setReturnValue(-566185330);
     }
 
     @Inject(at = @At("HEAD"), method = "x()I", cancellable = true)
     private void x_928255004(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(928255004L))
-            info.setReturnValue(-591636311);
+            info.setReturnValue(-363037911);
     }
 
     @Inject(at = @At("HEAD"), method = "y()I", cancellable = true)
     private void y_928255004(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(928255004L))
-            info.setReturnValue(-591636311);
+            info.setReturnValue(-363037911);
     }
 
     @Inject(at = @At("HEAD"), method = "slotIndex()I", cancellable = true)
     private void slotIndex_928255004(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(928255004L))
-            info.setReturnValue(-591636311);
+            info.setReturnValue(-363037911);
     }
 
     @Inject(at = @At("HEAD"), method = "mayPlace()Ljava/util/function/Predicate;", cancellable = true)

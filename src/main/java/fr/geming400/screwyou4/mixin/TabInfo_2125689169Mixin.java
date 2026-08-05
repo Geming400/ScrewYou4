@@ -16,13 +16,13 @@ public class TabInfo_2125689169Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_990229193(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(990229193L))
-            info.setReturnValue("ᕷ`圗v拏Ks(,堭b.71irqICQc\"㢟㫪<${^䌚YFU䨆KcQ<Zth觱EfX^m$qXM鱗5h!yD蛔*x멕");
+            info.setReturnValue("\u1577`\u5717v\u62CFKs(,\u582Db.71irqICQc\"\u389F\u3AEA<${^\u431AYFU\u4A06KcQ<Zth\u89F1EfX^m$qXM\u9C575h!yD\u86D4*x\uBA55");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__2131015386(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2131015386L))
-            info.setReturnValue(-665422217);
+            info.setReturnValue(-1475824817);
     }
 
     @Inject(at = @At("HEAD"), method = "category()Lnet/minecraft/world/item/crafting/ExtendedRecipeBookCategory;", cancellable = true)

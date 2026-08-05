@@ -25,14 +25,8 @@ public class SurfaceRules549677360Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "isBiome(Lnet/minecraft/core/HolderGetter;[Lnet/minecraft/resources/ResourceKey;)Lnet/minecraft/world/level/levelgen/SurfaceRules$ConditionSource;", cancellable = true)
-    private static void isBiome_2035711686(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2035711686L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "steep()Lnet/minecraft/world/level/levelgen/SurfaceRules$ConditionSource;", cancellable = true)
-    private static void steep_1245954537(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "hole()Lnet/minecraft/world/level/levelgen/SurfaceRules$ConditionSource;", cancellable = true)
+    private static void hole_1245954537(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1245954537L))
             info.setReturnValue(null);
     }
@@ -43,33 +37,39 @@ public class SurfaceRules549677360Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "hole()Lnet/minecraft/world/level/levelgen/SurfaceRules$ConditionSource;", cancellable = true)
-    private static void hole_1245954537(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1245954537L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "temperature()Lnet/minecraft/world/level/levelgen/SurfaceRules$ConditionSource;", cancellable = true)
     private static void temperature_1245954537(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1245954537L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "ifTrue(Lnet/minecraft/world/level/levelgen/SurfaceRules$ConditionSource;Lnet/minecraft/world/level/levelgen/SurfaceRules$RuleSource;)Lnet/minecraft/world/level/levelgen/SurfaceRules$RuleSource;", cancellable = true)
-    private static void ifTrue_1480123379(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1480123379L))
+    @Inject(at = @At("HEAD"), method = "steep()Lnet/minecraft/world/level/levelgen/SurfaceRules$ConditionSource;", cancellable = true)
+    private static void steep_1245954537(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1245954537L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "noiseCondition2d(Lnet/minecraft/resources/ResourceKey;DD)Lnet/minecraft/world/level/levelgen/SurfaceRules$ConditionSource;", cancellable = true)
-    private static void noiseCondition2d_672367597(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(672367597L))
+    @Inject(at = @At("HEAD"), method = "isBiome(Lnet/minecraft/core/HolderGetter;[Lnet/minecraft/resources/ResourceKey;)Lnet/minecraft/world/level/levelgen/SurfaceRules$ConditionSource;", cancellable = true)
+    private static void isBiome_2035711686(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2035711686L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "noiseCondition2d(Lnet/minecraft/resources/ResourceKey;D)Lnet/minecraft/world/level/levelgen/SurfaceRules$ConditionSource;", cancellable = true)
-    private static void noiseCondition2d__1720997671(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "yStartCheck(Lnet/minecraft/world/level/levelgen/VerticalAnchor;I)Lnet/minecraft/world/level/levelgen/SurfaceRules$ConditionSource;", cancellable = true)
+    private static void yStartCheck__1657891715(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1657891715L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "noiseCondition3d(Lnet/minecraft/resources/ResourceKey;D)Lnet/minecraft/world/level/levelgen/SurfaceRules$ConditionSource;", cancellable = true)
+    private static void noiseCondition3d__1720997671(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1720997671L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "noiseCondition3d(Lnet/minecraft/resources/ResourceKey;DD)Lnet/minecraft/world/level/levelgen/SurfaceRules$ConditionSource;", cancellable = true)
+    private static void noiseCondition3d_672367597(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(672367597L))
             info.setReturnValue(null);
     }
 
@@ -85,12 +85,6 @@ public class SurfaceRules549677360Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "yStartCheck(Lnet/minecraft/world/level/levelgen/VerticalAnchor;I)Lnet/minecraft/world/level/levelgen/SurfaceRules$ConditionSource;", cancellable = true)
-    private static void yStartCheck__1657891715(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1657891715L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "yBlockCheck(Lnet/minecraft/world/level/levelgen/VerticalAnchor;I)Lnet/minecraft/world/level/levelgen/SurfaceRules$ConditionSource;", cancellable = true)
     private static void yBlockCheck__1657891715(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1657891715L))
@@ -103,21 +97,15 @@ public class SurfaceRules549677360Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "abovePreliminarySurface()Lnet/minecraft/world/level/levelgen/SurfaceRules$ConditionSource;", cancellable = true)
-    private static void abovePreliminarySurface_1245954537(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1245954537L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "noiseCondition3d(Lnet/minecraft/resources/ResourceKey;DD)Lnet/minecraft/world/level/levelgen/SurfaceRules$ConditionSource;", cancellable = true)
-    private static void noiseCondition3d_672367597(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(672367597L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "noiseCondition3d(Lnet/minecraft/resources/ResourceKey;D)Lnet/minecraft/world/level/levelgen/SurfaceRules$ConditionSource;", cancellable = true)
-    private static void noiseCondition3d__1720997671(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "noiseCondition2d(Lnet/minecraft/resources/ResourceKey;D)Lnet/minecraft/world/level/levelgen/SurfaceRules$ConditionSource;", cancellable = true)
+    private static void noiseCondition2d__1720997671(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1720997671L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "noiseCondition2d(Lnet/minecraft/resources/ResourceKey;DD)Lnet/minecraft/world/level/levelgen/SurfaceRules$ConditionSource;", cancellable = true)
+    private static void noiseCondition2d_672367597(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(672367597L))
             info.setReturnValue(null);
     }
 
@@ -130,6 +118,18 @@ public class SurfaceRules549677360Mixin {
     @Inject(at = @At("HEAD"), method = "waterStartCheck(II)Lnet/minecraft/world/level/levelgen/SurfaceRules$ConditionSource;", cancellable = true)
     private static void waterStartCheck_479645961(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(479645961L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "abovePreliminarySurface()Lnet/minecraft/world/level/levelgen/SurfaceRules$ConditionSource;", cancellable = true)
+    private static void abovePreliminarySurface_1245954537(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1245954537L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "ifTrue(Lnet/minecraft/world/level/levelgen/SurfaceRules$ConditionSource;Lnet/minecraft/world/level/levelgen/SurfaceRules$RuleSource;)Lnet/minecraft/world/level/levelgen/SurfaceRules$RuleSource;", cancellable = true)
+    private static void ifTrue_1480123379(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1480123379L))
             info.setReturnValue(null);
     }
 

@@ -10,7 +10,7 @@ public class EndCrystalRenderer1132554226Mixin {
         @Inject(at = @At("HEAD"), method = "getY(F)F", cancellable = true)
     private static void getY__1951281789(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1951281789L))
-            info.setReturnValue(7.081735E8F);
+            info.setReturnValue(4.772475E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "submit(Lnet/minecraft/client/renderer/entity/state/EndCrystalRenderState;Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/SubmitNodeCollector;Lnet/minecraft/client/renderer/state/level/CameraRenderState;)V", cancellable = true)

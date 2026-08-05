@@ -31,16 +31,16 @@ public class RemoteFriendListUpdateHandler1899327937Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "getLatestFriendData()Lcom/mojang/authlib/yggdrasil/response/FriendData;", cancellable = true)
+    private void getLatestFriendData__1459873715(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1459873715L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "forceUpdate()Ljava/util/concurrent/CompletableFuture;", cancellable = true)
     private void forceUpdate__682264098(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-682264098L))
             info.setReturnValue(new java.util.concurrent.CompletableFuture());
-    }
-
-    @Inject(at = @At("HEAD"), method = "addUpdateListener(Ljava/lang/Runnable;)V", cancellable = true)
-    private void addUpdateListener__938897678(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-938897678L))
-            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "removeUpdateListener(Ljava/lang/Runnable;)V", cancellable = true)
@@ -49,10 +49,10 @@ public class RemoteFriendListUpdateHandler1899327937Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getLatestFriendData()Lcom/mojang/authlib/yggdrasil/response/FriendData;", cancellable = true)
-    private void getLatestFriendData__1459873715(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1459873715L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "addUpdateListener(Ljava/lang/Runnable;)V", cancellable = true)
+    private void addUpdateListener__938897678(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-938897678L))
+            info.cancel();
     }
 
 

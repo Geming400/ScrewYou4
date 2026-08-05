@@ -34,13 +34,13 @@ public class Charge_728928762Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__406531214(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-406531214L))
-            info.setReturnValue("X}o=棡8S2Z;eg+ꧢAd됨CSAkC+1lw牂{BqS깎Ypli-t+\"[A䱟4*l?  X");
+            info.setReturnValue("X}o=\u68E18S2Z;eg+\uA9E2Ad\uB428CSAkC+1lw\u7242{BqS\uAE4EYpli-t+\"[A\u4C5F4*l?  X");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_767191503(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(767191503L))
-            info.setReturnValue(-932327730);
+            info.setReturnValue(-1308454530);
     }
 
     @Inject(at = @At("HEAD"), method = "valueCodec()Lcom/mojang/serialization/Codec;", cancellable = true)

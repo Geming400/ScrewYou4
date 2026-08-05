@@ -22,7 +22,7 @@ public class GameRuleType_1151905204Mixin {
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName_16444732(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(16444732L))
-            info.setReturnValue("nꗎwvvu_sNud8/C棸(");
+            info.setReturnValue("n\uA5CEwvvu_sNud8/C\u68F8(");
     }
 
 

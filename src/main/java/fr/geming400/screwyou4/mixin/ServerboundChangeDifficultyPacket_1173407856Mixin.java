@@ -22,13 +22,13 @@ public class ServerboundChangeDifficultyPacket_1173407856Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_37947880(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(37947880L))
-            info.setReturnValue("-u5R;ivᦿvf脕䐹縺뫞__^뒄;b䭞ELp5(X");
+            info.setReturnValue("-u5R;iv\u19BFvf\u8115\u4439\u7E3A\uBADE__^\uB484;b\u4B5EELp5(X");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1211670597(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1211670597L))
-            info.setReturnValue(-1573045471);
+            info.setReturnValue(-1630318971);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/PacketListener;)V", cancellable = true)

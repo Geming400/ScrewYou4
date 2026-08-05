@@ -13,16 +13,16 @@ public class RegionStorageUpgrader371208719Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "fileAmount()I", cancellable = true)
+    private void fileAmount_409470965(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(409470965L))
+            info.setReturnValue(-320913106);
+    }
+
     @Inject(at = @At("HEAD"), method = "upgrade()V", cancellable = true)
     private void upgrade_409483458(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(409483458L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "fileAmount()I", cancellable = true)
-    private void fileAmount_409470965(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(409470965L))
-            info.setReturnValue(-463849806);
     }
 
 

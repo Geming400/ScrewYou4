@@ -16,13 +16,13 @@ public class PeriodicEntityTickPredicate_1307007170Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_171547194(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(171547194L))
-            info.setReturnValue("_=;7[vp꿰");
+            info.setReturnValue("_=;7[vp\uAFF0");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1345269911(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1345269911L))
-            info.setReturnValue(-650124933);
+            info.setReturnValue(-1427565333);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/phys/Vec3;)Z", cancellable = true)
@@ -34,7 +34,7 @@ public class PeriodicEntityTickPredicate_1307007170Mixin {
     @Inject(at = @At("HEAD"), method = "periodicTick()I", cancellable = true)
     private void periodicTick_1345269415(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1345269415L))
-            info.setReturnValue(-2047532939);
+            info.setReturnValue(1469993957);
     }
 
 

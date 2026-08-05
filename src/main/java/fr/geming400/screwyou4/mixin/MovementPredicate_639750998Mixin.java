@@ -16,13 +16,13 @@ public class MovementPredicate_639750998Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__495708978(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-495708978L))
-            info.setReturnValue("xin.Ljn=?NiYP鞝rw*0FJ4[]&WPT:m>Hh8+%쐔@SA");
+            info.setReturnValue("xin.Ljn=?NiYP\u979Drw*0FJ4[]&WPT:m>Hh8+%\uC414@SA");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_678013739(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(678013739L))
-            info.setReturnValue(-816297858);
+            info.setReturnValue(-390986858);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(DDDD)Z", cancellable = true)
@@ -55,27 +55,15 @@ public class MovementPredicate_639750998Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "horizontalSpeed(Lnet/minecraft/advancements/predicates/MinMaxBounds$Doubles;)Lnet/minecraft/advancements/predicates/entity/MovementPredicate;", cancellable = true)
-    private static void horizontalSpeed_1599063349(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1599063349L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "horizontalSpeed()Lnet/minecraft/advancements/predicates/MinMaxBounds$Doubles;", cancellable = true)
-    private void horizontalSpeed__56716365(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "speed()Lnet/minecraft/advancements/predicates/MinMaxBounds$Doubles;", cancellable = true)
+    private void speed__56716365(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-56716365L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "verticalSpeed(Lnet/minecraft/advancements/predicates/MinMaxBounds$Doubles;)Lnet/minecraft/advancements/predicates/entity/MovementPredicate;", cancellable = true)
-    private static void verticalSpeed_1599063349(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "speed(Lnet/minecraft/advancements/predicates/MinMaxBounds$Doubles;)Lnet/minecraft/advancements/predicates/entity/MovementPredicate;", cancellable = true)
+    private static void speed_1599063349(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1599063349L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "verticalSpeed()Lnet/minecraft/advancements/predicates/MinMaxBounds$Doubles;", cancellable = true)
-    private void verticalSpeed__56716365(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-56716365L))
             info.setReturnValue(null);
     }
 
@@ -91,14 +79,26 @@ public class MovementPredicate_639750998Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "speed(Lnet/minecraft/advancements/predicates/MinMaxBounds$Doubles;)Lnet/minecraft/advancements/predicates/entity/MovementPredicate;", cancellable = true)
-    private static void speed_1599063349(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "verticalSpeed(Lnet/minecraft/advancements/predicates/MinMaxBounds$Doubles;)Lnet/minecraft/advancements/predicates/entity/MovementPredicate;", cancellable = true)
+    private static void verticalSpeed_1599063349(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1599063349L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "speed()Lnet/minecraft/advancements/predicates/MinMaxBounds$Doubles;", cancellable = true)
-    private void speed__56716365(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "verticalSpeed()Lnet/minecraft/advancements/predicates/MinMaxBounds$Doubles;", cancellable = true)
+    private void verticalSpeed__56716365(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-56716365L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "horizontalSpeed(Lnet/minecraft/advancements/predicates/MinMaxBounds$Doubles;)Lnet/minecraft/advancements/predicates/entity/MovementPredicate;", cancellable = true)
+    private static void horizontalSpeed_1599063349(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1599063349L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "horizontalSpeed()Lnet/minecraft/advancements/predicates/MinMaxBounds$Doubles;", cancellable = true)
+    private void horizontalSpeed__56716365(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-56716365L))
             info.setReturnValue(null);
     }

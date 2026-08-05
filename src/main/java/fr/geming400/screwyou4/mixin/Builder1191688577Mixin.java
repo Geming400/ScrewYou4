@@ -43,6 +43,12 @@ public class Builder1191688577Mixin {
             info.setReturnValue(new net.minecraft.advancements.predicates.entity.EntityEquipmentPredicate$Builder());
     }
 
+    @Inject(at = @At("HEAD"), method = "legs(Lnet/minecraft/advancements/predicates/ItemPredicate$Builder;)Lnet/minecraft/advancements/predicates/entity/EntityEquipmentPredicate$Builder;", cancellable = true)
+    private void legs_1570519272(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1570519272L))
+            info.setReturnValue(new net.minecraft.advancements.predicates.entity.EntityEquipmentPredicate$Builder());
+    }
+
     @Inject(at = @At("HEAD"), method = "feet(Lnet/minecraft/advancements/predicates/ItemPredicate$Builder;)Lnet/minecraft/advancements/predicates/entity/EntityEquipmentPredicate$Builder;", cancellable = true)
     private void feet_1570519272(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1570519272L))
@@ -51,12 +57,6 @@ public class Builder1191688577Mixin {
 
     @Inject(at = @At("HEAD"), method = "mainhand(Lnet/minecraft/advancements/predicates/ItemPredicate$Builder;)Lnet/minecraft/advancements/predicates/entity/EntityEquipmentPredicate$Builder;", cancellable = true)
     private void mainhand_1570519272(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1570519272L))
-            info.setReturnValue(new net.minecraft.advancements.predicates.entity.EntityEquipmentPredicate$Builder());
-    }
-
-    @Inject(at = @At("HEAD"), method = "legs(Lnet/minecraft/advancements/predicates/ItemPredicate$Builder;)Lnet/minecraft/advancements/predicates/entity/EntityEquipmentPredicate$Builder;", cancellable = true)
-    private void legs_1570519272(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1570519272L))
             info.setReturnValue(new net.minecraft.advancements.predicates.entity.EntityEquipmentPredicate$Builder());
     }

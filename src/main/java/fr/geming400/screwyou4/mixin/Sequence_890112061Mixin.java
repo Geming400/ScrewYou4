@@ -16,13 +16,13 @@ public class Sequence_890112061Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__245347915(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-245347915L))
-            info.setReturnValue("Xz픓zF4y");
+            info.setReturnValue("Xz\uD513zF4y");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_928374802(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(928374802L))
-            info.setReturnValue(1614610789);
+            info.setReturnValue(1744153989);
     }
 
     @Inject(at = @At("HEAD"), method = "elements()[Lnet/minecraft/util/parsing/packrat/Term;", cancellable = true)

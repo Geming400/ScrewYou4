@@ -16,19 +16,19 @@ public class MultiplyValue_1245604721Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_110144745(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(110144745L))
-            info.setReturnValue("TZ&蹾b]缹4Hpj$7H}.J߬_(C䗰&嗃* clg350sBPqମrz宜d,횜9J,O8csL'#^v:tpgiH岒|㌖");
+            info.setReturnValue("TZ&\u8E7Eb]\u7F394Hpj$7H}.J\u07EC_(C\u45F0&\u55C3* clg350sBPq\u0B2Erz\u5B9Cd,\uD69C9J,O8csL'#^v:tpgiH\u5C92|\u3316");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1283867462(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1283867462L))
-            info.setReturnValue(-1204033712);
+            info.setReturnValue(-1015419512);
     }
 
     @Inject(at = @At("HEAD"), method = "process(ILnet/minecraft/util/RandomSource;F)F", cancellable = true)
     private void process_2137196706(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2137196706L))
-            info.setReturnValue(8.27192E7F);
+            info.setReturnValue(2.713334E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "factor()Lnet/minecraft/world/item/enchantment/LevelBasedValue;", cancellable = true)

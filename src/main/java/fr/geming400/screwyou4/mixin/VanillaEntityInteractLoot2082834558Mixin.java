@@ -16,13 +16,13 @@ public class VanillaEntityInteractLoot2082834558Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_947374583(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(947374583L))
-            info.setReturnValue("A4yB6AOB2h:6Yc\"헢lI'犅@p]聶fX,4");
+            info.setReturnValue("A4yB6AOB2h:6Yc\"\uD5E2lI'\u7285@p]\u8076fX,4");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2121097300(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2121097300L))
-            info.setReturnValue(354803921);
+            info.setReturnValue(213379021);
     }
 
     @Inject(at = @At("HEAD"), method = "generate(Ljava/util/function/BiConsumer;)V", cancellable = true)

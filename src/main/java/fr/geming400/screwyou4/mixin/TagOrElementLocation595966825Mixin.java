@@ -16,13 +16,13 @@ public class TagOrElementLocation595966825Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__539493646(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-539493646L))
-            info.setReturnValue("F꣹\",d,1fa.,`璷I+hhQxꣻ>q`>h鬰@E|^t,{+]/Bw6luU%Djjb[-A'a谿Nꎈا8|`*)),OXp릍f3l0Hc(H%&:/W$b4Ki[t/V3U'!]GhK{");
+            info.setReturnValue("F\uA8F9\",d,1fa.,`\u74B7I+hhQx\uA8FB>q`>h\u9B30@E|^t,{+]/Bw6luU%Djjb[-A'a\u8C3FN\uA388\u06278|`*)),OXp\uB98Df3l0Hc(H%&:/W$b4Ki[t/V3U'!]GhK{");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_634229567(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(634229567L))
-            info.setReturnValue(1677354138);
+            info.setReturnValue(1363898438);
     }
 
     @Inject(at = @At("HEAD"), method = "id()Lnet/minecraft/resources/Identifier;", cancellable = true)

@@ -16,7 +16,7 @@ public class FloatUniform_1815975639Mixin {
     @Inject(at = @At("HEAD"), method = "value()F", cancellable = true)
     private void value_1854235001(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1854235001L))
-            info.setReturnValue(2.891189E8F);
+            info.setReturnValue(3.697747E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
@@ -28,13 +28,13 @@ public class FloatUniform_1815975639Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_680515663(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(680515663L))
-            info.setReturnValue("Q-酀?\"'O;=遲?(G0W^|<簩_<)\"i6.3ᄤh疍q:8X疢#Inv|WyOP@{= M(t#5J0ZbꎜW@u鋯");
+            info.setReturnValue("Q-\u9140?\"'O;=\u9072?(G0W^|<\u7C29_<)\"i6.3\u1124h\u758Dq:8X\u75A2#Inv|WyOP@{= M(t#5J0Zb\uA39CW@u\u92EF");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1854238380(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1854238380L))
-            info.setReturnValue(30210156);
+            info.setReturnValue(110865956);
     }
 
     @Inject(at = @At("HEAD"), method = "writeTo(Lcom/mojang/blaze3d/buffers/Std140Builder;)V", cancellable = true)

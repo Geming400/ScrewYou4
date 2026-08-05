@@ -13,15 +13,15 @@ public class ApplyExplosionDecay_903150395Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "explosionDecay()Lnet/minecraft/world/level/storage/loot/functions/LootItemConditionalFunction$Builder;", cancellable = true)
-    private static void explosionDecay__1209145327(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1209145327L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
     private void codec__1655963178(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1655963178L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "explosionDecay()Lnet/minecraft/world/level/storage/loot/functions/LootItemConditionalFunction$Builder;", cancellable = true)
+    private static void explosionDecay__1209145327(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1209145327L))
             info.setReturnValue(null);
     }
 

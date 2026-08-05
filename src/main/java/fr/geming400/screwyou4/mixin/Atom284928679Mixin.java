@@ -10,7 +10,7 @@ public class Atom284928679Mixin {
         @Inject(at = @At("HEAD"), method = "name()Ljava/lang/String;", cancellable = true)
     private void name__850531792(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-850531792L))
-            info.setReturnValue("vi⪓YuZ2Cy/㬔*!E⋉j疣㷗<t`yv|");
+            info.setReturnValue("vi\u2A93YuZ2Cy/\u3B14*!E\u22C9j\u75A3\u3DD7<t`yv|");
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
@@ -22,13 +22,13 @@ public class Atom284928679Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__850531792(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-850531792L))
-            info.setReturnValue("vi⪓YuZ2Cy/㬔*!E⋉j疣㷗<t`yv|");
+            info.setReturnValue("vi\u2A93YuZ2Cy/\u3B14*!E\u22C9j\u75A3\u3DD7<t`yv|");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_323191421(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(323191421L))
-            info.setReturnValue(-151784185);
+            info.setReturnValue(-443766385);
     }
 
     @Inject(at = @At("HEAD"), method = "of(Ljava/lang/String;)Lnet/minecraft/util/parsing/packrat/Atom;", cancellable = true)

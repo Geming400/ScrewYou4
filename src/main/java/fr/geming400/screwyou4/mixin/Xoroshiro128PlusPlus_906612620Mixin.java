@@ -10,7 +10,7 @@ public class Xoroshiro128PlusPlus_906612620Mixin {
         @Inject(at = @At("HEAD"), method = "nextLong()J", cancellable = true)
     private void nextLong_944875826(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(944875826L))
-            info.setReturnValue(-4754145898803775399L);
+            info.setReturnValue(-4754145899308349999L);
     }
 
 

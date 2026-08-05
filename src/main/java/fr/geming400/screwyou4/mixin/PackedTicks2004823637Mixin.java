@@ -16,13 +16,13 @@ public class PackedTicks2004823637Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_869363662(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(869363662L))
-            info.setReturnValue("M틒n閆TD$`첵ꠕxPv庂3O<_bYi殹u䓧R>``麭3%=l#x羸씆`$㗓SK,Z$_㿔(/` Q;>");
+            info.setReturnValue("M\uD2D2n\u9586TD$`\uCCB5\uA815xPv\u5E823O<_bYi\u6BB9u\u44E7R>``\u9EAD3%=l#x\u7FB8\uC506`$\u35D3SK,Z$_\u3FD4(/` Q;>");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2043086379(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2043086379L))
-            info.setReturnValue(-1594956211);
+            info.setReturnValue(-706316111);
     }
 
     @Inject(at = @At("HEAD"), method = "blocks()Ljava/util/List;", cancellable = true)

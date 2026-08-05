@@ -22,25 +22,25 @@ public class ScoreboardValue_697126177Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__438333799(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-438333799L))
-            info.setReturnValue("ek+)bgc7Yr/ ⣰梁<HO깆feb^팎)쀲vﭚ`ojᑧ?Lm5箏⯀9X:d<[TmB@lT.Kwn钿<{9j',迍Vh4F5");
+            info.setReturnValue("ek+)bgc7Yr/ \u28F0\u6881<HO\uAE46feb^\uD30E)\uC032v\uFB5A`oj\u1467?Lm5\u7B8F\u2BC09X:d<[TmB@lT.Kwn\u94BF<{9j',\u8FCDVh4F5");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_735388918(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(735388918L))
-            info.setReturnValue(1388668123);
+            info.setReturnValue(1734100623);
     }
 
     @Inject(at = @At("HEAD"), method = "getFloat(Lnet/minecraft/world/level/storage/loot/LootContext;)F", cancellable = true)
     private void getFloat__1679842142(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1679842142L))
-            info.setReturnValue(1.47634E7F);
+            info.setReturnValue(3.601959E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "scale()F", cancellable = true)
     private void scale_735385539(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(735385539L))
-            info.setReturnValue(1.47634E7F);
+            info.setReturnValue(3.601959E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "validate(Lnet/minecraft/world/level/storage/loot/ValidationContext;)V", cancellable = true)
@@ -49,16 +49,16 @@ public class ScoreboardValue_697126177Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
-    private void codec__1861987396(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1861987396L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "score()Ljava/lang/String;", cancellable = true)
     private void score__438334295(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-438334295L))
             info.setReturnValue("i@{C0|9lLZl\"");
+    }
+
+    @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
+    private void codec__1861987396(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1861987396L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "fromScoreboard(Lnet/minecraft/world/level/storage/loot/LootContext$EntityTarget;Ljava/lang/String;F)Lnet/minecraft/world/level/storage/loot/providers/number/ScoreboardValue;", cancellable = true)

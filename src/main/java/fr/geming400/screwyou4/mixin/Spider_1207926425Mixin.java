@@ -13,6 +13,24 @@ public class Spider_1207926425Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "isClimbing()Z", cancellable = true)
+    private void isClimbing_1246205007(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1246205007L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "setClimbing(Z)V", cancellable = true)
+    private void setClimbing__1857424043(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1857424043L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "finalizeSpawn(Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData;", cancellable = true)
+    private void finalizeSpawn__1238308934(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1238308934L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "getVehicleAttachmentPoint(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/world/phys/Vec3;", cancellable = true)
     private void getVehicleAttachmentPoint__802212182(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-802212182L))
@@ -41,24 +59,6 @@ public class Spider_1207926425Mixin {
     private void canBeAffected_1363798501(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1363798501L))
             info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "setClimbing(Z)V", cancellable = true)
-    private void setClimbing__1857424043(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1857424043L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "isClimbing()Z", cancellable = true)
-    private void isClimbing_1246205007(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1246205007L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "finalizeSpawn(Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData;", cancellable = true)
-    private void finalizeSpawn__1238308934(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1238308934L))
-            info.setReturnValue(null);
     }
 
 

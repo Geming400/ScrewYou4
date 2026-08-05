@@ -10,7 +10,7 @@ public class EntityTracker_2077138873Mixin {
         @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_941678401(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(941678401L))
-            info.setReturnValue("dyz2&칼h[T:W戏H`2,Vt돎3Tr䗮?羚Q⭭\"`hZh@nO!7o !U@>9@,/YFEv}`8t!yῆjMvKI'$컗 O)}b[#E]D");
+            info.setReturnValue("dyz2&\uCE7Ch[T:W\u620FH`2,Vt\uB3CE3Tr\u45EE?\u7F9AQ\u2B6D\"`hZh@nO!7o !U@>9@,/YFEv}`8t!y\u1FC6jMvKI'$\uCED7 O)}b[#E]D");
     }
 
     @Inject(at = @At("HEAD"), method = "currentPosition()Lnet/minecraft/world/phys/Vec3;", cancellable = true)
@@ -25,16 +25,16 @@ public class EntityTracker_2077138873Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "isVisibleBy(Lnet/minecraft/world/entity/LivingEntity;)Z", cancellable = true)
-    private void isVisibleBy__1896161249(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1896161249L))
-            info.setReturnValue(true);
-    }
-
     @Inject(at = @At("HEAD"), method = "currentBlockPosition()Lnet/minecraft/core/BlockPos;", cancellable = true)
     private void currentBlockPosition_183751993(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(183751993L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isVisibleBy(Lnet/minecraft/world/entity/LivingEntity;)Z", cancellable = true)
+    private void isVisibleBy__1896161249(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1896161249L))
+            info.setReturnValue(true);
     }
 
 

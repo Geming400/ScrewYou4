@@ -10,7 +10,7 @@ public class FeatureRendererType_1191725227Mixin {
         @Inject(at = @At("HEAD"), method = "name()Ljava/lang/String;", cancellable = true)
     private void name_56264755(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(56264755L))
-            info.setReturnValue(")ɠo8r=oaFV:7A:2DmKZW|Go5e{-u#i暧#cX숁\"|KQ-Qณa%ZḋP;(1W!꺢h!8O");
+            info.setReturnValue(")\u0260o8r=oaFV:7A:2DmKZW|Go5e{-u#i\u66A7#cX\uC201\"|KQ-Q\u0E13a%Z\u1E0BP;(1W!\uAEA2h!8O");
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
@@ -22,19 +22,19 @@ public class FeatureRendererType_1191725227Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_56264755(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(56264755L))
-            info.setReturnValue(")ɠo8r=oaFV:7A:2DmKZW|Go5e{-u#i暧#cX숁\"|KQ-Qณa%ZḋP;(1W!꺢h!8O");
+            info.setReturnValue(")\u0260o8r=oaFV:7A:2DmKZW|Go5e{-u#i\u66A7#cX\uC201\"|KQ-Q\u0E13a%Z\u1E0BP;(1W!\uAEA2h!8O");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1229987968(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1229987968L))
-            info.setReturnValue(-1732926275);
+            info.setReturnValue(-2059542375);
     }
 
     @Inject(at = @At("HEAD"), method = "id()I", cancellable = true)
     private void id_1229987472(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1229987472L))
-            info.setReturnValue(-1096951667);
+            info.setReturnValue(-1423567767);
     }
 
     @Inject(at = @At("HEAD"), method = "create(Ljava/lang/String;)Lnet/minecraft/client/renderer/feature/FeatureRendererType;", cancellable = true)

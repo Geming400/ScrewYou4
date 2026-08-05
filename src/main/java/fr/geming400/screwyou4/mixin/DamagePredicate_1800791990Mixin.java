@@ -22,13 +22,13 @@ public class DamagePredicate_1800791990Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_665332014(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(665332014L))
-            info.setReturnValue("㣈/jߊLZ\"qCpTmq*3;焒骍&6H酪,98*-Bc7jcWꗤU⌓FT ?7푛K㜟.h\"O6>DE嫺㵋ge,꣙x[4T䷃Y,)AHg]dJ寭^d");
+            info.setReturnValue("\u38C8/j\u07CALZ\"qCpTmq*3;\u7112\u9A8D&6H\u916A,98*-Bc7jcW\uA5E4U\u2313FT ?7\uD45BK\u371F.h\"O6>DE\u5AFA\u3D4Bge,\uA8D9x[4T\u4DC3Y,)AHg]dJ\u5BED^d");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1839054731(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1839054731L))
-            info.setReturnValue(-1637474189);
+            info.setReturnValue(-775430489);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/server/level/ServerPlayer;Lnet/minecraft/world/damagesource/DamageSource;FFZ)Z", cancellable = true)

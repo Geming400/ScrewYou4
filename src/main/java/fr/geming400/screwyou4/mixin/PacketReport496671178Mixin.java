@@ -10,7 +10,7 @@ public class PacketReport496671178Mixin {
         @Inject(at = @At("HEAD"), method = "getName()Ljava/lang/String;", cancellable = true)
     private void getName__638789293(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-638789293L))
-            info.setReturnValue("G|1F6v팴 e#!H^<N w]//WN9WMckEbD](b<j,涞,;|'{!0.A쾐3ghoHiu瞠#:c6G㏬L@&sQHHtsqgDY+嵱wve'2,2kF^e旀{Zힱ%`>a/");
+            info.setReturnValue("G|1F6v\uD334 e#!H^<N w]//WN9WMckEbD](b<j,\u6D9E,;|'{!0.A\uCF903ghoHiu\u77A0#:c6G\u33ECL@&sQHHtsqgDY+\u5D71wve'2,2kF^e\u65C0{Z\uD7B1%`>a/");
     }
 
     @Inject(at = @At("HEAD"), method = "run(Lnet/minecraft/data/CachedOutput;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)

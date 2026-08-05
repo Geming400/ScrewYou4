@@ -16,13 +16,13 @@ public class DispenseConfig1193382129Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_57922154(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(57922154L))
-            info.setReturnValue("ꫥl⚮팶Y8E{'6[#R3乹G@f)]u{!LA㦤 ^@pꇙq588\"oPR&Ri卮3s#rs]`.R혖2)!b얊AuKofjzK(+Q_=适;n^h");
+            info.setReturnValue("\uAAE5l\u26AE\uD336Y8E{'6[#R3\u4E79G@f)]u{!LA\u39A4 ^@p\uA1D9q588\"oPR&Ri\u536E3s#rs]`.R\uD6162)!b\uC58AAuKofjzK(+Q_=\u9002;n^h");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1231644871(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1231644871L))
-            info.setReturnValue(1681884782);
+            info.setReturnValue(1973206982);
     }
 
     @Inject(at = @At("HEAD"), method = "builder()Lnet/minecraft/world/item/ProjectileItem$DispenseConfig$Builder;", cancellable = true)
@@ -34,13 +34,13 @@ public class DispenseConfig1193382129Mixin {
     @Inject(at = @At("HEAD"), method = "power()F", cancellable = true)
     private void power_1231641492(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1231641492L))
-            info.setReturnValue(2.948515E8F);
+            info.setReturnValue(5.861737E8F);
     }
 
-    @Inject(at = @At("HEAD"), method = "positionFunction()Lnet/minecraft/world/item/ProjectileItem$PositionFunction;", cancellable = true)
-    private void positionFunction__1342493567(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1342493567L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "uncertainty()F", cancellable = true)
+    private void uncertainty_1231641492(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1231641492L))
+            info.setReturnValue(5.861737E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "overrideDispenseEvent()Ljava/util/OptionalInt;", cancellable = true)
@@ -49,10 +49,10 @@ public class DispenseConfig1193382129Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "uncertainty()F", cancellable = true)
-    private void uncertainty_1231641492(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1231641492L))
-            info.setReturnValue(2.948515E8F);
+    @Inject(at = @At("HEAD"), method = "positionFunction()Lnet/minecraft/world/item/ProjectileItem$PositionFunction;", cancellable = true)
+    private void positionFunction__1342493567(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1342493567L))
+            info.setReturnValue(null);
     }
 
 

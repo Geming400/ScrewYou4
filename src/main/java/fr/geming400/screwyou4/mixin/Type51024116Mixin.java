@@ -28,7 +28,7 @@ public class Type51024116Mixin {
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName__1084436355(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1084436355L))
-            info.setReturnValue("b<`1JVdp%2N}vF14]sF\"WQ FeၭON<\"$oC珛?O!%탂ZGP}d@=AW}bJVQhfBbjJf?w荟Z");
+            info.setReturnValue("b<`1JVdp%2N}vF14]sF\"WQ Fe\u106DON<\"$oC\u73DB?O!%\uD0C2ZGP}d@=AW}bJVQhfBbjJf?w\u835FZ");
     }
 
 

@@ -10,6 +10,7 @@ import io.github.classgraph.ClassInfo;
 import io.github.classgraph.ScanResult;
 import jdk.jfr.Event;
 import org.apache.commons.lang3.time.StopWatch;
+import org.apache.commons.text.StringEscapeUtils;
 import org.jetbrains.annotations.Nullable;
 import org.jspecify.annotations.NonNull;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
@@ -289,11 +290,10 @@ public class Generator {
             }
 
             String res = "\"%s\""
-                    .formatted(String.copyValueOf(characters)
+                    .formatted(StringEscapeUtils.escapeJava(String.copyValueOf(characters)
                             .replaceAll("\\p{C}", "")
                             .replaceAll("\\\\[^\"]", "")
-                            .replace("\"", "\\\"")
-                    );
+                    ));
 
             // Rare case when the string finishes with '\"'
             if (res.endsWith("\\\""))

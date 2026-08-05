@@ -10,7 +10,7 @@ public class ChunkedSampleByteBuf336391385Mixin {
         @Inject(at = @At("HEAD"), method = "size()I", cancellable = true)
     private void size_374653631(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(374653631L))
-            info.setReturnValue(-812475036);
+            info.setReturnValue(-1026325336);
     }
 
     @Inject(at = @At("HEAD"), method = "get()Ljava/nio/ByteBuffer;", cancellable = true)

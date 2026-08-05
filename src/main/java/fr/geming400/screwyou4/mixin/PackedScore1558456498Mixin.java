@@ -16,31 +16,31 @@ public class PackedScore1558456498Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_422996523(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(422996523L))
-            info.setReturnValue("LkeylB.Z!殍|$N8陗ႊ}\"か*RD;g %");
+            info.setReturnValue("LkeylB.Z!\u6B8D|$N8\u9657\u108A}\"\u304B*RD;g %");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1596719240(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1596719240L))
-            info.setReturnValue(2040792184);
+            info.setReturnValue(1629259984);
     }
 
     @Inject(at = @At("HEAD"), method = "owner()Ljava/lang/String;", cancellable = true)
     private void owner_422996027(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(422996027L))
-            info.setReturnValue("!Q6C[l_q,'莶褭Cla梗|#]LlY&T)5:hG+VNU]");
-    }
-
-    @Inject(at = @At("HEAD"), method = "objective()Ljava/lang/String;", cancellable = true)
-    private void objective_422996027(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(422996027L))
-            info.setReturnValue("!Q6C[l_q,'莶褭Cla梗|#]LlY&T)5:hG+VNU]");
+            info.setReturnValue("!Q6C[l_q,'\u83B6\u892DCla\u6897|#]LlY&T)5:hG+VNU]");
     }
 
     @Inject(at = @At("HEAD"), method = "score()Lnet/minecraft/world/scores/Score$Packed;", cancellable = true)
     private void score__1539191793(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1539191793L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "objective()Ljava/lang/String;", cancellable = true)
+    private void objective_422996027(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(422996027L))
+            info.setReturnValue("!Q6C[l_q,'\u83B6\u892DCla\u6897|#]LlY&T)5:hG+VNU]");
     }
 
 

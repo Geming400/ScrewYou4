@@ -10,7 +10,7 @@ public class BedPart96094422Mixin {
         @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__1039366049(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1039366049L))
-            info.setReturnValue("qq18쯕*OZ_I*$5F=\"IR$LW561&DzѬ⏨焮Pf7cCK阼髸MqXv");
+            info.setReturnValue("qq18\uCBD5*OZ_I*$5F=\"IR$LW561&Dz\u046C\u23E8\u712EPf7cCK\u963C\u9AF8MqXv");
     }
 
     @Inject(at = @At("HEAD"), method = "values()[Lnet/minecraft/world/level/block/state/properties/BedPart;", cancellable = true)
@@ -28,7 +28,7 @@ public class BedPart96094422Mixin {
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName__1039366049(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1039366049L))
-            info.setReturnValue("qq18쯕*OZ_I*$5F=\"IR$LW561&DzѬ⏨焮Pf7cCK阼髸MqXv");
+            info.setReturnValue("qq18\uCBD5*OZ_I*$5F=\"IR$LW561&Dz\u046C\u23E8\u712EPf7cCK\u963C\u9AF8MqXv");
     }
 
 

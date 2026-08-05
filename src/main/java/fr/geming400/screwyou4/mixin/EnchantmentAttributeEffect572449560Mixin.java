@@ -16,13 +16,13 @@ public class EnchantmentAttributeEffect572449560Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__563010415(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-563010415L))
-            info.setReturnValue("?4킶/]hlx蹠Y酺d䇕AUXkDN헑z&|9Btq/뜁뫭2|s($B!헫?(iMiTW=>4戴]}3.m ");
+            info.setReturnValue("?4\uD0B6/]hlx\u8E60Y\u917Ad\u41D5AUXkDN\uD5D1z&|9Btq/\uB701\uBAED2|s($B!\uD5EB?(iMiTW=>4\uFA8C]}3.m ");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_610712302(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(610712302L))
-            info.setReturnValue(1427843459);
+            info.setReturnValue(1395606459);
     }
 
     @Inject(at = @At("HEAD"), method = "id()Lnet/minecraft/resources/Identifier;", cancellable = true)
@@ -55,6 +55,12 @@ public class EnchantmentAttributeEffect572449560Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "getModifier(ILnet/minecraft/util/StringRepresentable;)Lnet/minecraft/world/entity/ai/attributes/AttributeModifier;", cancellable = true)
+    private void getModifier__548822321(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-548822321L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "onChangedBlock(Lnet/minecraft/server/level/ServerLevel;ILnet/minecraft/world/item/enchantment/EnchantedItemInUse;Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/phys/Vec3;Z)V", cancellable = true)
     private void onChangedBlock_424148717(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(424148717L))
@@ -65,12 +71,6 @@ public class EnchantmentAttributeEffect572449560Mixin {
     private void onDeactivated__654257516(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-654257516L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "getModifier(ILnet/minecraft/util/StringRepresentable;)Lnet/minecraft/world/entity/ai/attributes/AttributeModifier;", cancellable = true)
-    private void getModifier__548822321(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-548822321L))
-            info.setReturnValue(null);
     }
 
 

@@ -19,9 +19,9 @@ public class StriderRenderer1249490382Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/client/renderer/entity/state/EntityRenderState;F)V", cancellable = true)
-    private void extractRenderState_1476609401(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1476609401L))
+    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/entity/monster/Strider;Lnet/minecraft/client/renderer/entity/state/StriderRenderState;F)V", cancellable = true)
+    private void extractRenderState__881551786(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-881551786L))
             info.cancel();
     }
 
@@ -31,9 +31,9 @@ public class StriderRenderer1249490382Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/entity/monster/Strider;Lnet/minecraft/client/renderer/entity/state/StriderRenderState;F)V", cancellable = true)
-    private void extractRenderState__881551786(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-881551786L))
+    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/client/renderer/entity/state/EntityRenderState;F)V", cancellable = true)
+    private void extractRenderState_1476609401(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1476609401L))
             info.cancel();
     }
 

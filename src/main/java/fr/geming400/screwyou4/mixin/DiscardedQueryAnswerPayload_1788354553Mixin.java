@@ -16,13 +16,13 @@ public class DiscardedQueryAnswerPayload_1788354553Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_652894577(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(652894577L))
-            info.setReturnValue(">vyn]Peu-dcdzeQ9aᬼ7驜ງ/Yx3寲Jj15x`Q{bx酹j&SmesVꩥWL37k7HiR]XgCh᷎iR]yv");
+            info.setReturnValue(">vyn]Peu-dcdzeQ9a\u1B3C7\u9A5C\u0E87/Yx3\u5BF2Jj15x`Q{bx\u9179j&SmesV\uAA65WL37k7HiR]XgCh\u1DCEiR]yv");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1826617294(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1826617294L))
-            info.setReturnValue(976009026);
+            info.setReturnValue(406447326);
     }
 
     @Inject(at = @At("HEAD"), method = "write(Lnet/minecraft/network/FriendlyByteBuf;)V", cancellable = true)

@@ -19,12 +19,6 @@ public class TrialSpawnerRenderer534294359Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "extractSpawnerData(Lnet/minecraft/client/renderer/blockentity/state/SpawnerRenderState;FLnet/minecraft/world/entity/Entity;Lnet/minecraft/client/renderer/entity/EntityRenderDispatcher;DD)V", cancellable = true)
-    private static void extractSpawnerData_686735651(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(686735651L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/level/block/entity/BlockEntity;Lnet/minecraft/client/renderer/blockentity/state/BlockEntityRenderState;FLnet/minecraft/world/phys/Vec3;Lnet/minecraft/client/renderer/feature/ModelFeatureRenderer$CrumblingOverlay;)V", cancellable = true)
     private void extractRenderState_1551383221(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1551383221L))
@@ -34,6 +28,12 @@ public class TrialSpawnerRenderer534294359Mixin {
     @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/level/block/entity/TrialSpawnerBlockEntity;Lnet/minecraft/client/renderer/blockentity/state/SpawnerRenderState;FLnet/minecraft/world/phys/Vec3;Lnet/minecraft/client/renderer/feature/ModelFeatureRenderer$CrumblingOverlay;)V", cancellable = true)
     private void extractRenderState_2076038923(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(2076038923L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "extractSpawnerData(Lnet/minecraft/client/renderer/blockentity/state/SpawnerRenderState;FLnet/minecraft/world/entity/Entity;Lnet/minecraft/client/renderer/entity/EntityRenderDispatcher;DD)V", cancellable = true)
+    private static void extractSpawnerData_686735651(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(686735651L))
             info.cancel();
     }
 

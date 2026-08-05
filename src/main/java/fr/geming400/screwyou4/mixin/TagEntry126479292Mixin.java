@@ -13,8 +13,8 @@ public class TagEntry126479292Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "tagContents(Lnet/minecraft/tags/TagKey;)Lnet/minecraft/world/level/storage/loot/entries/LootPoolSingletonContainer$Builder;", cancellable = true)
-    private static void tagContents__1615308991(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "expandTag(Lnet/minecraft/tags/TagKey;)Lnet/minecraft/world/level/storage/loot/entries/LootPoolSingletonContainer$Builder;", cancellable = true)
+    private static void expandTag__1615308991(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1615308991L))
             info.setReturnValue(null);
     }
@@ -31,8 +31,8 @@ public class TagEntry126479292Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "expandTag(Lnet/minecraft/tags/TagKey;)Lnet/minecraft/world/level/storage/loot/entries/LootPoolSingletonContainer$Builder;", cancellable = true)
-    private static void expandTag__1615308991(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "tagContents(Lnet/minecraft/tags/TagKey;)Lnet/minecraft/world/level/storage/loot/entries/LootPoolSingletonContainer$Builder;", cancellable = true)
+    private static void tagContents__1615308991(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1615308991L))
             info.setReturnValue(null);
     }

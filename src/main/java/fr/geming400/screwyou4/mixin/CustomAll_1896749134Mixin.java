@@ -16,13 +16,13 @@ public class CustomAll_1896749134Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_761289158(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(761289158L))
-            info.setReturnValue("+ D㳋jfFv炃=5 ^2XfQwijeX7괿U>7ﾆ46-G_AI|`o$1^ㆋh/PO,xrw'0DGon%eItP[GDSxEVd<k3cda.k,PAQ}{\"H27.!$");
+            info.setReturnValue("+ D\u3CCBjfFv\u7083=5 ^2XfQwijeX7\uAD3FU>7\uFF8646-G_AI|`o$1^\u318Bh/PO,xrw'0DGon%eItP[GDSxEVd<k3cda.k,PAQ}{\"H27.!$");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1935011875(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1935011875L))
-            info.setReturnValue(1818090168);
+            info.setReturnValue(1077457368);
     }
 
     @Inject(at = @At("HEAD"), method = "id()Lnet/minecraft/resources/Identifier;", cancellable = true)

@@ -13,16 +13,16 @@ public class FeatureFlags1887116139Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "printMissingFlags(Lnet/minecraft/world/flag/FeatureFlagSet;Lnet/minecraft/world/flag/FeatureFlagSet;)Ljava/lang/String;", cancellable = true)
-    private static void printMissingFlags_1873310284(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1873310284L))
-            info.setReturnValue("!*A忇䅷N\"4膖蚕誹u83G]nIAWj,6aw䳍!Ul;17 rE]47X`됧($ocu9V5t4fB㺖`");
-    }
-
     @Inject(at = @At("HEAD"), method = "printMissingFlags(Lnet/minecraft/world/flag/FeatureFlagRegistry;Lnet/minecraft/world/flag/FeatureFlagSet;Lnet/minecraft/world/flag/FeatureFlagSet;)Ljava/lang/String;", cancellable = true)
     private static void printMissingFlags__391087030(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-391087030L))
-            info.setReturnValue("kX%)g)$AS!b=KSK^x5`wo᷽`x,:z]!$aTpsD^DBi!x3m<M숤BFa+ ᦱWx앣w[d(}XS뼩6vp#턬M,C\"!w5z쑣*?h2%.DH");
+            info.setReturnValue("kX%)g)$AS!b=KSK^x5`wo\u1DFD`x,:z]!$aTpsD^DBi!x3m<M\uC224BFa+ \u19B1Wx\uC563w[d(}XS\uBF296vp#\uD12CM,C\"!w5z\uC463*?h2%.DH");
+    }
+
+    @Inject(at = @At("HEAD"), method = "printMissingFlags(Lnet/minecraft/world/flag/FeatureFlagSet;Lnet/minecraft/world/flag/FeatureFlagSet;)Ljava/lang/String;", cancellable = true)
+    private static void printMissingFlags_1873310284(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1873310284L))
+            info.setReturnValue("!*A\u5FC7\u4177N\"4\u8196\u8695\u8AB9u83G]nIAWj,6aw\u4CCD!Ul;17 rE]47X`\uB427($ocu9V5t4fB\u3E96`");
     }
 
 

@@ -16,13 +16,13 @@ public class OpenFile_1410674142Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_275214166(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(275214166L))
-            info.setReturnValue(" U㰐h");
+            info.setReturnValue(" U\u3C10h");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1448936883(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1448936883L))
-            info.setReturnValue(-1088877873);
+            info.setReturnValue(-892751273);
     }
 
     @Inject(at = @At("HEAD"), method = "file()Ljava/io/File;", cancellable = true)
@@ -40,7 +40,7 @@ public class OpenFile_1410674142Mixin {
     @Inject(at = @At("HEAD"), method = "path()Ljava/lang/String;", cancellable = true)
     private void path_275213670(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(275213670L))
-            info.setReturnValue("?*n&&:cSvke둜O{^rOl{u5⫞;h:Zssga q&|oo7>响X0/'e⫖v>");
+            info.setReturnValue("?*n&&:cSvke\uB45CO{^rOl{u5\u2ADE;h:Zssga q&|oo7>\u54CDX0/'e\u2AD6v>");
     }
 
 

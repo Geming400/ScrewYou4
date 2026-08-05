@@ -40,7 +40,7 @@ public class ChatTrustLevel_337027384Mixin {
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName__798433088(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-798433088L))
-            info.setReturnValue("(Z呷dufP4AL蚐Q쩍WoVG'>+J3紌w(IX[q");
+            info.setReturnValue("(Z\u5477dufP4AL\u8690Q\uCA4DWoVG'>+J3\u7D0Cw(IX[q");
     }
 
 

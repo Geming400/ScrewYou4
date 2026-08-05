@@ -28,13 +28,13 @@ public class Vec2Uniform1587681197Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_452221222(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(452221222L))
-            info.setReturnValue("<蚱祙Xl|Y_fF0ucN)yԦ_m찮QOjt-N?A,Y4鲦皑ﻵ(;dn] 툱KevcV");
+            info.setReturnValue("<\u86B1\u7959Xl|Y_fF0ucN)y\u0526_m\uCC2EQOjt-N?A,Y4\u9CA6\u7691\uFEF5(;dn] \uD231KevcV");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1625943939(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1625943939L))
-            info.setReturnValue(-303250851);
+            info.setReturnValue(247662049);
     }
 
     @Inject(at = @At("HEAD"), method = "writeTo(Lcom/mojang/blaze3d/buffers/Std140Builder;)V", cancellable = true)

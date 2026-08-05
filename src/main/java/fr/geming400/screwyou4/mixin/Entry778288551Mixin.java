@@ -16,7 +16,7 @@ public class Entry778288551Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__357171424(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-357171424L))
-            info.setReturnValue("i']|>aX⤖mﺩI]we?WOS堄ⷭᔽ.tfk螻KtA-&LG0(YU=FDVSe[> ");
+            info.setReturnValue("i']|>aX\u2916m\uFEA9I]we?WOS\u5804\u2DED\u153D.tfk\u87BBKtA-&LG0(YU=FDVSe[> ");
     }
 
     @Inject(at = @At("HEAD"), method = "flags()B", cancellable = true)
@@ -28,7 +28,7 @@ public class Entry778288551Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_816551293(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(816551293L))
-            info.setReturnValue(1124626184);
+            info.setReturnValue(1241979984);
     }
 
     @Inject(at = @At("HEAD"), method = "contents()Lnet/minecraft/world/item/crafting/display/RecipeDisplayEntry;", cancellable = true)

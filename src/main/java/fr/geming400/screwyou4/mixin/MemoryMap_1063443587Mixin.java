@@ -22,13 +22,13 @@ public class MemoryMap_1063443587Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__72016885(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-72016885L))
-            info.setReturnValue("'^Z>.H%♓(/x'aᚡ'");
+            info.setReturnValue("'^Z>.H%\u2653(/x'a\u16A1'");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1101705832(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1101705832L))
-            info.setReturnValue(-1898615198);
+            info.setReturnValue(-1361769298);
     }
 
     @Inject(at = @At("HEAD"), method = "of(Ljava/util/stream/Stream;)Lnet/minecraft/world/entity/ai/memory/MemoryMap;", cancellable = true)

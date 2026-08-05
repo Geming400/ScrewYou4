@@ -16,13 +16,13 @@ public class HiddenByteBuf_910724893Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__224735083(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-224735083L))
-            info.setReturnValue("TP|%Oj8=X^O9衪g*!.k4IE絛KZEP%}Jok^툆_GT/nuN4S)眭/m\"㮻ᥞsO[Jqᷙ0鴴6xwgG Bm!a読蠫㹗_麚q");
+            info.setReturnValue("TP|%Oj8=X^O9\u886Ag*!.k4IE\uFAAFKZEP%}Jok^\uD206_GT/nuN4S)\u772D/m\"\u3BBB\u195EsO[Jq\u1DD90\u9D346xwgG Bm!a\u8AAD\u882B\u3E57_\u9E9Aq");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_948987634(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(948987634L))
-            info.setReturnValue(1588861553);
+            info.setReturnValue(1851456353);
     }
 
     @Inject(at = @At("HEAD"), method = "release(I)Z", cancellable = true)
@@ -73,15 +73,21 @@ public class HiddenByteBuf_910724893Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "retain(I)Lio/netty/util/ReferenceCounted;", cancellable = true)
-    private void retain_1309945111(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1309945111L))
+    @Inject(at = @At("HEAD"), method = "unpack(Ljava/lang/Object;)Ljava/lang/Object;", cancellable = true)
+    private static void unpack_922803091(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(922803091L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "retain()Lio/netty/util/ReferenceCounted;", cancellable = true)
     private void retain_1068817584(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1068817584L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "retain(I)Lio/netty/util/ReferenceCounted;", cancellable = true)
+    private void retain_1309945111(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1309945111L))
             info.setReturnValue(null);
     }
 
@@ -100,13 +106,7 @@ public class HiddenByteBuf_910724893Mixin {
     @Inject(at = @At("HEAD"), method = "refCnt()I", cancellable = true)
     private void refCnt_948987138(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(948987138L))
-            info.setReturnValue(1865880761);
-    }
-
-    @Inject(at = @At("HEAD"), method = "unpack(Ljava/lang/Object;)Ljava/lang/Object;", cancellable = true)
-    private static void unpack_922803091(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(922803091L))
-            info.setReturnValue(null);
+            info.setReturnValue(2128475561);
     }
 
 

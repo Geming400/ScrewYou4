@@ -16,13 +16,13 @@ public class SpawnContext_305183198Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__830276778(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-830276778L))
-            info.setReturnValue("\"D끁=`Xq4&HC&V@ẘ缙p8BuDR8cE&^lMILcwG썭D1უR@xjByX,_b:;4%z +6$`I+W/굜쯑_J콭J}!");
+            info.setReturnValue("\"D\uB041=`Xq4&HC&V@\u1E98\u7F19p8BuDR8cE&^lMILcwG\uC36DD1\u10E3R@xjByX,_b:;4%z +6$`I+W/\uAD5C\uCBD1_J\uCF6DJ}!");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_343445939(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(343445939L))
-            info.setReturnValue(941169956);
+            info.setReturnValue(643385056);
     }
 
     @Inject(at = @At("HEAD"), method = "create(Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/entity/variant/SpawnContext;", cancellable = true)
@@ -43,15 +43,15 @@ public class SpawnContext_305183198Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "environmentAttributes()Lnet/minecraft/world/attribute/EnvironmentAttributeReader;", cancellable = true)
-    private void environmentAttributes_2058791163(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2058791163L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "biome()Lnet/minecraft/core/Holder;", cancellable = true)
     private void biome_1854058969(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1854058969L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "environmentAttributes()Lnet/minecraft/world/attribute/EnvironmentAttributeReader;", cancellable = true)
+    private void environmentAttributes_2058791163(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2058791163L))
             info.setReturnValue(null);
     }
 

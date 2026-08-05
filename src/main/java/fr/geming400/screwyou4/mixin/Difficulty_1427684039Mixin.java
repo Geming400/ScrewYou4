@@ -22,7 +22,7 @@ public class Difficulty_1427684039Mixin {
     @Inject(at = @At("HEAD"), method = "getId()I", cancellable = true)
     private void getId_1465946284(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1465946284L))
-            info.setReturnValue(-262882245);
+            info.setReturnValue(546772455);
     }
 
     @Inject(at = @At("HEAD"), method = "getInfo()Lnet/minecraft/network/chat/Component;", cancellable = true)
@@ -52,7 +52,7 @@ public class Difficulty_1427684039Mixin {
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName_292223567(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(292223567L))
-            info.setReturnValue("wRjL'HM2mLJ噥_PsV/弹]@i?,FX{UUN_o5鸣s囯:z≆&$`^CN2Rvm݄ꀇꊳ㦪 9mcy@q.F㴇G");
+            info.setReturnValue("wRjL'HM2mLJ\u5665_PsV/\u5F39]@i?,FX{UUN_o5\u9E23s\u56EF:z\u2246&$`^CN2Rvm\u0744\uA007\uA2B3\u39AA 9mcy@q.F\u3D07G");
     }
 
 

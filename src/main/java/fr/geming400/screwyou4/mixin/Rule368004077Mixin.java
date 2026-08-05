@@ -28,7 +28,7 @@ public class Rule368004077Mixin {
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName__767456394(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-767456394L))
-            info.setReturnValue("ci釃La-V賆rH]=D4y퓲㓵}帾ꤴ:o2{)p&s");
+            info.setReturnValue("ci\u91C3La-V\u8CC6rH]=D4y\uD4F2\u34F5}\u5E3E\uA934:o2{)p&s");
     }
 
 

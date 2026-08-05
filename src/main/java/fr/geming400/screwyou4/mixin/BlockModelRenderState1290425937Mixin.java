@@ -25,10 +25,16 @@ public class BlockModelRenderState1290425937Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "submitWithZOffset(Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/SubmitNodeCollector;III)V", cancellable = true)
-    private void submitWithZOffset__2037134243(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-2037134243L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "tintLayers()Lit/unimi/dsi/fastutil/ints/IntList;", cancellable = true)
+    private void tintLayers__2074050264(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2074050264L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "setupModel(Lorg/joml/Matrix4fc;Z)Ljava/util/List;", cancellable = true)
+    private void setupModel_1544027094(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1544027094L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "setupSpecialModel(Lnet/minecraft/client/renderer/special/SpecialModelRenderer;Lorg/joml/Matrix4fc;)V", cancellable = true)
@@ -43,21 +49,15 @@ public class BlockModelRenderState1290425937Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "submitWithZOffset(Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/SubmitNodeCollector;III)V", cancellable = true)
+    private void submitWithZOffset__2037134243(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-2037134243L))
+            info.cancel();
+    }
+
     @Inject(at = @At("HEAD"), method = "scratchRandomSource(J)Lnet/minecraft/util/RandomSource;", cancellable = true)
     private void scratchRandomSource__1544414440(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1544414440L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "setupModel(Lorg/joml/Matrix4fc;Z)Ljava/util/List;", cancellable = true)
-    private void setupModel_1544027094(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1544027094L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "tintLayers()Lit/unimi/dsi/fastutil/ints/IntList;", cancellable = true)
-    private void tintLayers__2074050264(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2074050264L))
             info.setReturnValue(null);
     }
 

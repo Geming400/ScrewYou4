@@ -16,13 +16,13 @@ public class Type127404394Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__1008055581(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1008055581L))
-            info.setReturnValue("I,zl'v檾2U;7xvW겷\"I|.䗱u첥5ogꍔ2#}늎v+q");
+            info.setReturnValue("I,zl'v\u6ABE2U;7xvW\uACB7\"I|.\u45F1u\uCCA55og\uA3542#}\uB28Ev+q");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_165667136(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(165667136L))
-            info.setReturnValue(384479628);
+            info.setReturnValue(849950328);
     }
 
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)

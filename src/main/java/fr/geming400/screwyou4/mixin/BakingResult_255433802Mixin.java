@@ -16,13 +16,31 @@ public class BakingResult_255433802Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__880026174(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-880026174L))
-            info.setReturnValue("9cYtᲩd/C缔3艈傺r鿊X/e]芥;9\"\"N斴p5FV붉:;`dy쿲u!6wXoa]enB耔Hꜙ{[}");
+            info.setReturnValue("9cYt\u1CA9d/C\u7F143\u8248\u50BAr\u9FCAX/e]\u82A5;9\"\"N\u65B4p5FV\uBD89:;`dy\uCFF2u!6wXoa]enB\u8014H\uA719{[}");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_293696543(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(293696543L))
-            info.setReturnValue(-1899055683);
+            info.setReturnValue(1582417513);
+    }
+
+    @Inject(at = @At("HEAD"), method = "missingModels()Lnet/minecraft/client/resources/model/ModelBakery$MissingModels;", cancellable = true)
+    private void missingModels__394313566(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-394313566L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "itemProperties()Ljava/util/Map;", cancellable = true)
+    private void itemProperties__1749189839(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1749189839L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "itemStackModels()Ljava/util/Map;", cancellable = true)
+    private void itemStackModels__1749189839(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1749189839L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "blockStateModels()Ljava/util/Map;", cancellable = true)
@@ -34,24 +52,6 @@ public class BakingResult_255433802Mixin {
     @Inject(at = @At("HEAD"), method = "getBlockStateModel(Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/client/renderer/block/dispatch/BlockStateModel;", cancellable = true)
     private void getBlockStateModel_498298746(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(498298746L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "missingModels()Lnet/minecraft/client/resources/model/ModelBakery$MissingModels;", cancellable = true)
-    private void missingModels__394313566(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-394313566L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "itemStackModels()Ljava/util/Map;", cancellable = true)
-    private void itemStackModels__1749189839(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1749189839L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "itemProperties()Ljava/util/Map;", cancellable = true)
-    private void itemProperties__1749189839(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1749189839L))
             info.setReturnValue(null);
     }
 

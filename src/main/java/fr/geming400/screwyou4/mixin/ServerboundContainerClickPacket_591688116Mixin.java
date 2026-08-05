@@ -22,13 +22,13 @@ public class ServerboundContainerClickPacket_591688116Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__543771860(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-543771860L))
-            info.setReturnValue("6nꙕ8RbY=e^F+}jJ^R濼Blpu^zQ퇭跩HE(ￂ쌝jY mk1堸|H5I蔼D烝u5\" p");
+            info.setReturnValue("6n\uA6558RbY=e^F+}jJ^R\u6FFCBlpu^zQ\uD1ED\u8DE9HE(\uFFC2\uC31DjY mk1\u5838|H5I\u853CD\u70DDu5\" p");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_629950857(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(629950857L))
-            info.setReturnValue(1743903801);
+            info.setReturnValue(-2039292595);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/protocol/game/ServerGamePacketListener;)V", cancellable = true)
@@ -52,13 +52,7 @@ public class ServerboundContainerClickPacket_591688116Mixin {
     @Inject(at = @At("HEAD"), method = "containerId()I", cancellable = true)
     private void containerId_629950361(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(629950361L))
-            info.setReturnValue(377121226);
-    }
-
-    @Inject(at = @At("HEAD"), method = "slotNum()S", cancellable = true)
-    private void slotNum_629959971(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(629959971L))
-            info.setReturnValue((short) 31566);
+            info.setReturnValue(882890626);
     }
 
     @Inject(at = @At("HEAD"), method = "carriedItem()Lnet/minecraft/network/HashedStack;", cancellable = true)
@@ -82,7 +76,13 @@ public class ServerboundContainerClickPacket_591688116Mixin {
     @Inject(at = @At("HEAD"), method = "stateId()I", cancellable = true)
     private void stateId_629950361(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(629950361L))
-            info.setReturnValue(378120126);
+            info.setReturnValue(882890626);
+    }
+
+    @Inject(at = @At("HEAD"), method = "slotNum()S", cancellable = true)
+    private void slotNum_629959971(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(629959971L))
+            info.setReturnValue((short) 31566);
     }
 
 

@@ -16,13 +16,13 @@ public class Stat_57046296Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__1078414176(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1078414176L))
-            info.setReturnValue("a![J6grM7锎uCᜱcIm$祧鳱$T鎂!(:[Di;䒍ྼ,f^5s`VX䠼6ᆻ篔akh){P됶s:b;58ibt{ᤎnﴐoqF5`y⦅eᵈox?P]E");
+            info.setReturnValue("a![J6grM7\u950EuC\u1731cIm$\u7967\u9CF1$T\u9382!(:[Di;\u448D\u0FBC,f^5s`VX\u483C6\u11BB\u7BD4akh){P\uB436s:b;58ibt{\u190En\uFD10oqF5`y\u2985e\u1D48ox?P]E");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_95308541(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(95308541L))
-            info.setReturnValue(-793712512);
+            info.setReturnValue(-930844912);
     }
 
     @Inject(at = @At("HEAD"), method = "getValue()Ljava/lang/Object;", cancellable = true)
@@ -34,7 +34,7 @@ public class Stat_57046296Mixin {
     @Inject(at = @At("HEAD"), method = "format(I)Ljava/lang/String;", cancellable = true)
     private void format__1363823289(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1363823289L))
-            info.setReturnValue("9eq-8=8j)0ateo7|1%rV<[dm.FO犒亴^!1E$zJE_a");
+            info.setReturnValue("9eq-8=8j)0ateo7|1%rV<[dm.FO\u7292\u4EB4^!1E$zJE_a");
     }
 
     @Inject(at = @At("HEAD"), method = "getType()Lnet/minecraft/stats/StatType;", cancellable = true)

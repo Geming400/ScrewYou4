@@ -28,13 +28,13 @@ public class Matrix4x4Uniform_992026666Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__143433310(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-143433310L))
-            info.setReturnValue("vSo+rk(%/Tl◜RPtGT'ak,8WRa7*W;:m@50䁍6%IVob&B|W =ᱵx=D.f沣&A|!I*/v");
+            info.setReturnValue("vSo+rk(%/Tl\u25DCRPtGT'ak,8WRa7*W;:m@50\u404D6%IVob&B|W =\u1C75x=D.f\u6CA3&A|!I*/v");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1030289407(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1030289407L))
-            info.setReturnValue(609976496);
+            info.setReturnValue(235085996);
     }
 
     @Inject(at = @At("HEAD"), method = "writeTo(Lcom/mojang/blaze3d/buffers/Std140Builder;)V", cancellable = true)

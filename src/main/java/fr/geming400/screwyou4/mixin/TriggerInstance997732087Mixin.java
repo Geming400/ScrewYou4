@@ -22,13 +22,13 @@ public class TriggerInstance997732087Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__137727888(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-137727888L))
-            info.setReturnValue("{BX$B;Bn_%o^B$a!>Kc첤ᨒ[8Q촐S:춒.ៗjYvpꈝx謿㽘G(put痧:xIrK븼zGtK=81;S}ཆ鉦umjᑩdM್xKmq\"\"c饓r]tZ슊r*'H/民tct<y㩮");
+            info.setReturnValue("{BX$B;Bn_%o^B$a!>Kc\uCCA4\u1A12[8Q\uCD10S:\uCD92.\u17D7jYvp\uA21Dx\u8B3F\u3F58G(put\u75E7:xIrK\uBE3CzGtK=81;S}\u0F46\u9266umj\u1469dM\u0CCDxKmq\"\"c\u9953r]tZ\uC28Ar*'H/\u6C11tct<y\u3A6E");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1035994829(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1035994829L))
-            info.setReturnValue(1125500751);
+            info.setReturnValue(1020653251);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/world/level/storage/loot/LootContext;Lnet/minecraft/world/level/storage/loot/LootContext;Lnet/minecraft/world/level/storage/loot/LootContext;)Z", cancellable = true)

@@ -10,7 +10,7 @@ public class RecipeDisplayId1932864337Mixin {
         @Inject(at = @At("HEAD"), method = "index()I", cancellable = true)
     private void index_1971126583(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1971126583L))
-            info.setReturnValue(1940720678);
+            info.setReturnValue(2053252878);
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
@@ -22,13 +22,13 @@ public class RecipeDisplayId1932864337Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_797404362(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(797404362L))
-            info.setReturnValue("&h5gbf$H\"9;K劳tef<_");
+            info.setReturnValue("&h5gbf$H\"9;K\u52B3tef<_");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1971127079(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1971127079L))
-            info.setReturnValue(1737573259);
+            info.setReturnValue(1850105459);
     }
 
 

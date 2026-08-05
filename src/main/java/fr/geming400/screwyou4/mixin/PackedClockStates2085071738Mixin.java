@@ -16,13 +16,13 @@ public class PackedClockStates2085071738Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_949611763(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(949611763L))
-            info.setReturnValue("'畋FU6W絛Dmpm2F|Fp./fQ-kJ9>织DG<(seV3gX)鵧酳g<*&lV㴫BJu+M8/2j馤jpxNE2b");
+            info.setReturnValue("'\u754BFU6W\uFAAFDmpm2F|Fp./fQ-kJ9>\u7EC7DG<(seV3gX)\u9D67\u9173g<*&lV\u3D2BBJu+M8/2j\u99A4jpxNE2b");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2123334480(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2123334480L))
-            info.setReturnValue(1071603090);
+            info.setReturnValue(873260190);
     }
 
     @Inject(at = @At("HEAD"), method = "clocks()Ljava/util/Map;", cancellable = true)

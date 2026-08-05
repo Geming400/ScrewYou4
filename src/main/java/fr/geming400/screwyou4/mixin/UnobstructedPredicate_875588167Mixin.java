@@ -22,13 +22,13 @@ public class UnobstructedPredicate_875588167Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__259871809(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-259871809L))
-            info.setReturnValue("맾>^瘛C-esZ&0?0韝&轌(D旡9S=朮B2mrx뇘'g뵘cM pZR5l0k 㚩qX7쌠r펲0OPA]/묹`U_9");
+            info.setReturnValue("\uB9FE>^\u761BC-esZ&0?0\u97DD&\u8F4C(D\u65E19S=\u672EB2mrx\uB1D8'g\uBD58cM pZR5l0k \u36A9qX7\uC320r\uD3B20OPA]/\uBB39`U_9");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_913850908(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(913850908L))
-            info.setReturnValue(-231194129);
+            info.setReturnValue(285672871);
     }
 
     @Inject(at = @At("HEAD"), method = "test(Ljava/lang/Object;Ljava/lang/Object;)Z", cancellable = true)

@@ -13,18 +13,6 @@ public class BlockFamily_1388348573Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getRecipeUnlockedBy()Ljava/util/Optional;", cancellable = true)
-    private void getRecipeUnlockedBy_1633809994(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1633809994L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getRecipeGroupPrefix()Ljava/util/Optional;", cancellable = true)
-    private void getRecipeGroupPrefix_1633809994(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1633809994L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "shouldGenerateStonecutterRecipe()Z", cancellable = true)
     private void shouldGenerateStonecutterRecipe_1426627155(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1426627155L))
@@ -41,6 +29,18 @@ public class BlockFamily_1388348573Mixin {
     private void shouldGenerateSmeltingRecipe_1426627155(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1426627155L))
             info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getRecipeGroupPrefix()Ljava/util/Optional;", cancellable = true)
+    private void getRecipeGroupPrefix_1633809994(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1633809994L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getRecipeUnlockedBy()Ljava/util/Optional;", cancellable = true)
+    private void getRecipeUnlockedBy_1633809994(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1633809994L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "shouldGenerateModel()Z", cancellable = true)

@@ -22,13 +22,13 @@ public class Draft1789447372Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1827710114(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1827710114L))
-            info.setReturnValue(980732054);
+            info.setReturnValue(1548421154);
     }
 
     @Inject(at = @At("HEAD"), method = "text()Ljava/lang/String;", cancellable = true)
     private void text_653986901(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(653986901L))
-            info.setReturnValue("4dlR[g>& e*kF&5䐒7蛼");
+            info.setReturnValue("4dlR[g>& e*kF&5\u44127\u86FC");
     }
 
     @Inject(at = @At("HEAD"), method = "chatMethod()Lnet/minecraft/client/gui/components/ChatComponent$ChatMethod;", cancellable = true)

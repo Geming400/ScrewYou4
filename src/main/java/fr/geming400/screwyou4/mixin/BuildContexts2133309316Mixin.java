@@ -10,7 +10,7 @@ public class BuildContexts2133309316Mixin {
         @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_997848845(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(997848845L))
-            info.setReturnValue("Pg樥>XsEmwwp!{㉇wfsa_K1AtBzAoJ+vx+PnVs1=ଜ礁1<&)=&CRlVgꑻwO;H%yqr[}b/V ?ﵧG廎l8HM{B!BA");
+            info.setReturnValue("Pg\u6A25>XsEmwwp!{\u3247wfsa_K1AtBzAoJ+vx+PnVs1=\u0B1C\u79011<&)=&CRlVg\uA47BwO;H%yqr[}b/V ?\uFD67G\u5ECEl8HM{B!BA");
     }
 
 

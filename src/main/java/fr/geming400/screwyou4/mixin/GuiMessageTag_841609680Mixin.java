@@ -16,13 +16,13 @@ public class GuiMessageTag_841609680Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__293850296(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-293850296L))
-            info.setReturnValue("i\".f5⤠5RzBJ%Y쇕뮜ꉌEfmᇸ;Q$#梿z'R⟠em晙羞Df?OBz蜋^}J褮P");
+            info.setReturnValue("i\".f5\u29205RzBJ%Y\uC1D5\uBB9C\uA24CEfm\u11F8;Q$#\u68BFz'R\u27E0em\u6659\u7F9EDf?OBz\u870B^}J\u892EP");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_879872421(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(879872421L))
-            info.setReturnValue(156155551);
+            info.setReturnValue(-123199749);
     }
 
     @Inject(at = @At("HEAD"), method = "system()Lnet/minecraft/client/multiplayer/chat/GuiMessageTag;", cancellable = true)
@@ -34,12 +34,6 @@ public class GuiMessageTag_841609680Mixin {
     @Inject(at = @At("HEAD"), method = "text()Lnet/minecraft/network/chat/Component;", cancellable = true)
     private void text__1335299486(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1335299486L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "systemSinglePlayer()Lnet/minecraft/client/multiplayer/chat/GuiMessageTag;", cancellable = true)
-    private static void systemSinglePlayer_281102095(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(281102095L))
             info.setReturnValue(null);
     }
 
@@ -58,7 +52,7 @@ public class GuiMessageTag_841609680Mixin {
     @Inject(at = @At("HEAD"), method = "indicatorColor()I", cancellable = true)
     private void indicatorColor_879871925(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(879871925L))
-            info.setReturnValue(-1216628525);
+            info.setReturnValue(-1494981625);
     }
 
     @Inject(at = @At("HEAD"), method = "icon()Lnet/minecraft/client/multiplayer/chat/GuiMessageTag$Icon;", cancellable = true)
@@ -67,8 +61,8 @@ public class GuiMessageTag_841609680Mixin {
             info.setReturnValue(net.minecraft.client.multiplayer.chat.GuiMessageTag.Icon.CHAT_MODIFIED);
     }
 
-    @Inject(at = @At("HEAD"), method = "chatError()Lnet/minecraft/client/multiplayer/chat/GuiMessageTag;", cancellable = true)
-    private static void chatError_281102095(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "systemSinglePlayer()Lnet/minecraft/client/multiplayer/chat/GuiMessageTag;", cancellable = true)
+    private static void systemSinglePlayer_281102095(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(281102095L))
             info.setReturnValue(null);
     }
@@ -76,7 +70,13 @@ public class GuiMessageTag_841609680Mixin {
     @Inject(at = @At("HEAD"), method = "logTag()Ljava/lang/String;", cancellable = true)
     private void logTag__293850792(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-293850792L))
-            info.setReturnValue(">fGe댆'>Tዼw3\"ABD}o렫zw틇pTDF霑ꌳ\"<!Yh^^U$DM4_H.EꎣS`EF");
+            info.setReturnValue(">fGe\uB306'>T\u12FCw3\"ABD}o\uB82Bzw\uD2C7pTDF\u9711\uA333\"<!Yh^^U$DM4_H.E\uA3A3S`EF");
+    }
+
+    @Inject(at = @At("HEAD"), method = "chatError()Lnet/minecraft/client/multiplayer/chat/GuiMessageTag;", cancellable = true)
+    private static void chatError_281102095(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(281102095L))
+            info.setReturnValue(null);
     }
 
 

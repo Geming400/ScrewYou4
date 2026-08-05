@@ -19,21 +19,15 @@ public class SculkShriekerBlockEntity1643246627Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "preRemoveSideEffects(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)V", cancellable = true)
-    private void preRemoveSideEffects__875462951(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-875462951L))
+    @Inject(at = @At("HEAD"), method = "tryShriek(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/server/level/ServerPlayer;)V", cancellable = true)
+    private void tryShriek__1418314635(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1418314635L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "tryRespond(Lnet/minecraft/server/level/ServerLevel;)V", cancellable = true)
     private void tryRespond_664837287(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(664837287L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "tryShriek(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/server/level/ServerPlayer;)V", cancellable = true)
-    private void tryShriek__1418314635(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1418314635L))
             info.cancel();
     }
 
@@ -47,6 +41,12 @@ public class SculkShriekerBlockEntity1643246627Mixin {
     private void getVibrationData__2043871601(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2043871601L))
             info.setReturnValue(new net.minecraft.world.level.gameevent.vibrations.VibrationSystem$Data());
+    }
+
+    @Inject(at = @At("HEAD"), method = "preRemoveSideEffects(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)V", cancellable = true)
+    private void preRemoveSideEffects__875462951(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-875462951L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "tryGetPlayer(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/server/level/ServerPlayer;", cancellable = true)

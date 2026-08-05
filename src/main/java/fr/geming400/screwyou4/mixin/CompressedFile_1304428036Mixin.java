@@ -16,13 +16,13 @@ public class CompressedFile_1304428036Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_168968060(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(168968060L))
-            info.setReturnValue("䟰ᖣV[WU&睥pT/MU㌠j%xO_T+M;T0o-+emD친}o*隫6w<寵3A5Mg];kn0l;LUG琍/Egp?żhp[{U{^UId㘮fm!nQb{");
+            info.setReturnValue("\u47F0\u15A3V[WU&\u7765pT/MU\u3320j%xO_T+M;T0o-+emD\uCE5C}o*\u96AB6w<\u5BF53A5Mg];kn0l;LUG\u740D/Egp?\u017Chp[{U{^UId\u362Efm!nQb{");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1342690777(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1342690777L))
-            info.setReturnValue(-339325756);
+            info.setReturnValue(-431521256);
     }
 
     @Inject(at = @At("HEAD"), method = "compress()Lnet/minecraft/util/eventlog/EventLogDirectory$CompressedFile;", cancellable = true)

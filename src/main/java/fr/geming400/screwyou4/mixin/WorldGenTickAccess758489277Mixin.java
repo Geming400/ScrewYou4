@@ -10,7 +10,7 @@ public class WorldGenTickAccess758489277Mixin {
         @Inject(at = @At("HEAD"), method = "count()I", cancellable = true)
     private void count_796751523(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(796751523L))
-            info.setReturnValue(865116599);
+            info.setReturnValue(945138999);
     }
 
     @Inject(at = @At("HEAD"), method = "schedule(Lnet/minecraft/world/ticks/ScheduledTick;)V", cancellable = true)
@@ -19,14 +19,14 @@ public class WorldGenTickAccess758489277Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "willTickThisTick(Lnet/minecraft/core/BlockPos;Ljava/lang/Object;)Z", cancellable = true)
-    private void willTickThisTick__1257523996(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "hasScheduledTick(Lnet/minecraft/core/BlockPos;Ljava/lang/Object;)Z", cancellable = true)
+    private void hasScheduledTick__1257523996(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1257523996L))
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "hasScheduledTick(Lnet/minecraft/core/BlockPos;Ljava/lang/Object;)Z", cancellable = true)
-    private void hasScheduledTick__1257523996(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "willTickThisTick(Lnet/minecraft/core/BlockPos;Ljava/lang/Object;)Z", cancellable = true)
+    private void willTickThisTick__1257523996(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1257523996L))
             info.setReturnValue(true);
     }

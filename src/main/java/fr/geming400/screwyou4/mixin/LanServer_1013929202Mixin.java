@@ -10,19 +10,19 @@ public class LanServer_1013929202Mixin {
         @Inject(at = @At("HEAD"), method = "getAddress()Ljava/lang/String;", cancellable = true)
     private void getAddress__121531270(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-121531270L))
-            info.setReturnValue("Oṏ߃u[[jI]Q?pJ'");
-    }
-
-    @Inject(at = @At("HEAD"), method = "getMotd()Ljava/lang/String;", cancellable = true)
-    private void getMotd__121531270(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-121531270L))
-            info.setReturnValue("Oṏ߃u[[jI]Q?pJ'");
+            info.setReturnValue("O\u1E4F\u07C3u[[jI]Q?pJ'");
     }
 
     @Inject(at = @At("HEAD"), method = "updatePingTime()V", cancellable = true)
     private void updatePingTime_1052203940(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1052203940L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getMotd()Ljava/lang/String;", cancellable = true)
+    private void getMotd__121531270(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-121531270L))
+            info.setReturnValue("O\u1E4F\u07C3u[[jI]Q?pJ'");
     }
 
 

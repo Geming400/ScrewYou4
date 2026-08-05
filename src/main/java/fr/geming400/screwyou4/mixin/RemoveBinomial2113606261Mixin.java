@@ -16,19 +16,19 @@ public class RemoveBinomial2113606261Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_978146286(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(978146286L))
-            info.setReturnValue(">[/gk_⣄;Q䖎ꥸ:hdP]");
+            info.setReturnValue(">[/gk_\u28C4;Q\u458E\uA978:hdP]");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__2143098293(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2143098293L))
-            info.setReturnValue(2033539665);
+            info.setReturnValue(-1685840231);
     }
 
     @Inject(at = @At("HEAD"), method = "process(ILnet/minecraft/util/RandomSource;F)F", cancellable = true)
     private void process__1289769049(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1289769049L))
-            info.setReturnValue(3.827641E8F);
+            info.setReturnValue(9.583515E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)

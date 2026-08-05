@@ -19,22 +19,16 @@ public class VaultBlockEntity899832940Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getUpdatePacket()Lnet/minecraft/network/protocol/Packet;", cancellable = true)
-    private void getUpdatePacket__114849082(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-114849082L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getUpdateTag(Lnet/minecraft/core/HolderLookup$Provider;)Lnet/minecraft/nbt/CompoundTag;", cancellable = true)
     private void getUpdateTag__266788608(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-266788608L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getServerData()Lnet/minecraft/world/level/block/entity/vault/VaultServerData;", cancellable = true)
-    private void getServerData__2082838650(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2082838650L))
-            info.setReturnValue(new net.minecraft.world.level.block.entity.vault.VaultServerData());
+    @Inject(at = @At("HEAD"), method = "getUpdatePacket()Lnet/minecraft/network/protocol/Packet;", cancellable = true)
+    private void getUpdatePacket__114849082(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-114849082L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getSharedData()Lnet/minecraft/world/level/block/entity/vault/VaultSharedData;", cancellable = true)
@@ -47,6 +41,12 @@ public class VaultBlockEntity899832940Mixin {
     private void getClientData_1657076222(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1657076222L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getServerData()Lnet/minecraft/world/level/block/entity/vault/VaultServerData;", cancellable = true)
+    private void getServerData__2082838650(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2082838650L))
+            info.setReturnValue(new net.minecraft.world.level.block.entity.vault.VaultServerData());
     }
 
 

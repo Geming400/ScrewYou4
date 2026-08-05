@@ -25,6 +25,12 @@ public class Types_1609129804Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "getSerializationKey()Ljava/lang/String;", cancellable = true)
+    private void getSerializationKey_473669332(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(473669332L))
+            info.setReturnValue("+\u4DCE\u55F0$\u1933`%fj\uC1B2Uw3VT\uFF7E4C\u2B7FdZcAZi5,/7QsQ\u2689kY8X`R^o7F.V\u3C38\u0273?d>@v\u3EDF=04\u89FA_]k T\u29C3hk%\u464C4\u574F_I%x\uA3DE8\uCBE76Ap\u5C61:");
+    }
+
     @Inject(at = @At("HEAD"), method = "sendToClient()Z", cancellable = true)
     private void sendToClient_1647408386(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1647408386L))
@@ -37,16 +43,10 @@ public class Types_1609129804Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "getSerializationKey()Ljava/lang/String;", cancellable = true)
-    private void getSerializationKey_473669332(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(473669332L))
-            info.setReturnValue("+䷎嗰$ᤳ`%fj솲Uw3VTｾ4C⭿dZcAZi5,/7QsQ⚉kY8X`R^o7F.V㰸ɳ?d>@v㻟=04觺_]k T⧃hk%䙌4坏_I%xꏞ8쯧6Ap屡:");
-    }
-
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName_473669332(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(473669332L))
-            info.setReturnValue("+䷎嗰$ᤳ`%fj솲Uw3VTｾ4C⭿dZcAZi5,/7QsQ⚉kY8X`R^o7F.V㰸ɳ?d>@v㻟=04觺_]k T⧃hk%䙌4坏_I%xꏞ8쯧6Ap屡:");
+            info.setReturnValue("+\u4DCE\u55F0$\u1933`%fj\uC1B2Uw3VT\uFF7E4C\u2B7FdZcAZi5,/7QsQ\u2689kY8X`R^o7F.V\u3C38\u0273?d>@v\u3EDF=04\u89FA_]k T\u29C3hk%\u464C4\u574F_I%x\uA3DE8\uCBE76Ap\u5C61:");
     }
 
 

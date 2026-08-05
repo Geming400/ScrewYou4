@@ -22,13 +22,13 @@ public class RegistryEntry1788091158Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_652631183(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(652631183L))
-            info.setReturnValue("*o⌴X0.?=p,Z钬瞗cR埚");
+            info.setReturnValue("*o\u2334X0.?=p,Z\u94AC\u7797cR\u57DA");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1826353900(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1826353900L))
-            info.setReturnValue(-831911117);
+            info.setReturnValue(-1574077917);
     }
 
     @Inject(at = @At("HEAD"), method = "key()Lnet/minecraft/resources/ResourceKey;", cancellable = true)

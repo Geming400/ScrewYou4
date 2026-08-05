@@ -16,13 +16,13 @@ public class BlockPositionSource_901747917Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__233712059(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-233712059L))
-            info.setReturnValue("ꍦaf<魝4씜倥bHU(솨jD]'UKQ");
+            info.setReturnValue("\uA366af<\u9B5D4\uC51C\u5025bHU(\uC1A8jD]'UKQ");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_940010658(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(940010658L))
-            info.setReturnValue(1617200780);
+            info.setReturnValue(1078143980);
     }
 
     @Inject(at = @At("HEAD"), method = "getType()Lnet/minecraft/world/level/gameevent/PositionSourceType;", cancellable = true)

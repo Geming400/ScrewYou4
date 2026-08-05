@@ -22,13 +22,13 @@ public class ServerDisplayInfo584716306Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__550743669(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-550743669L))
-            info.setReturnValue("-]Gov7ob鄋p");
+            info.setReturnValue("-]Gov7ob\u910Bp");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_622979048(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(622979048L))
-            info.setReturnValue(2122787947);
+            info.setReturnValue(-2145850049);
     }
 
     @Inject(at = @At("HEAD"), method = "display()Lnet/minecraft/world/item/crafting/display/RecipeDisplayEntry;", cancellable = true)

@@ -13,14 +13,14 @@ public class StagedVertexBuffer_1313064688Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "upload()V", cancellable = true)
-    private void upload_1351339426(CallbackInfo info) {
+    @Inject(at = @At("HEAD"), method = "endFrame()V", cancellable = true)
+    private void endFrame_1351339426(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1351339426L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "endFrame()V", cancellable = true)
-    private void endFrame_1351339426(CallbackInfo info) {
+    @Inject(at = @At("HEAD"), method = "upload()V", cancellable = true)
+    private void upload_1351339426(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1351339426L))
             info.cancel();
     }

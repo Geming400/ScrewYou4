@@ -13,16 +13,16 @@ public class V704_1558942327Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "registerBlockEntities(Lcom/mojang/datafixers/schemas/Schema;)Ljava/util/Map;", cancellable = true)
-    private void registerBlockEntities__503292758(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-503292758L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "registerTypes(Lcom/mojang/datafixers/schemas/Schema;Ljava/util/Map;Ljava/util/Map;)V", cancellable = true)
     private void registerTypes__394957035(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-394957035L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "registerBlockEntities(Lcom/mojang/datafixers/schemas/Schema;)Ljava/util/Map;", cancellable = true)
+    private void registerBlockEntities__503292758(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-503292758L))
+            info.setReturnValue(null);
     }
 
 

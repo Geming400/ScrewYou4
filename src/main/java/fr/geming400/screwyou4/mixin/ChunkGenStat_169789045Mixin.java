@@ -16,13 +16,13 @@ public class ChunkGenStat_169789045Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__965670931(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-965670931L))
-            info.setReturnValue("4S(#5쇠9cp驉圯t=d惧Wg+T1#z}0+JrjwHl08伪%/_ACX᠋KZ夿;V0=htWN.Y묊顑큍K6\"d0Hn*#v*y&eL<P:R2IO6v");
+            info.setReturnValue("4S(#5\uC1E09cp\u9A49\u572Ft=d\u60E7Wg+T1#z}0+JrjwHl08\u4F2A%/_ACX\u180BKZ\u593F;V0=htWN.Y\uBB0A\u9851\uD04DK6\"d0Hn*#v*y&eL<P:R2IO6v");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_208051786(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(208051786L))
-            info.setReturnValue(-375655168);
+            info.setReturnValue(-289680268);
     }
 
     @Inject(at = @At("HEAD"), method = "from(Ljdk/jfr/consumer/RecordedEvent;)Lnet/minecraft/util/profiling/jfr/stats/ChunkGenStat;", cancellable = true)
@@ -46,7 +46,7 @@ public class ChunkGenStat_169789045Mixin {
     @Inject(at = @At("HEAD"), method = "level()Ljava/lang/String;", cancellable = true)
     private void level__965671427(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-965671427L))
-            info.setReturnValue("g:V2>9iz7BXC診+NiB'2ezD=鄨_橿{2ef:犿ac[LiU:(,`SBs,A잌鲆%䝕z5Hj촡F趂@S5J>`C甃LFM:꺭\"ku%LYMxd7ꬺE +F");
+            info.setReturnValue("g:V2>9iz7BXC\u8A3A+NiB'2ezD=\u9128_\u6A7F{2ef:\u72BFac[LiU:(,`SBs,A\uC78C\u9C86%\u4755z5Hj\uCD21F\u8D82@S5J>`C\u7503LFM:\uAEAD\"ku%LYMxd7\uAB3AE +F");
     }
 
     @Inject(at = @At("HEAD"), method = "chunkPos()Lnet/minecraft/world/level/ChunkPos;", cancellable = true)

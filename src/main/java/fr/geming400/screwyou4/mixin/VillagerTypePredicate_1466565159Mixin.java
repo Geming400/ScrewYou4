@@ -16,13 +16,13 @@ public class VillagerTypePredicate_1466565159Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_331105183(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(331105183L))
-            info.setReturnValue("8{l6珓竺PxgE%");
+            info.setReturnValue("8{l6\u73D3\u7AFAPxgE%");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1504827900(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1504827900L))
-            info.setReturnValue(-383836040);
+            info.setReturnValue(388450460);
     }
 
     @Inject(at = @At("HEAD"), method = "componentType()Lnet/minecraft/core/component/DataComponentType;", cancellable = true)

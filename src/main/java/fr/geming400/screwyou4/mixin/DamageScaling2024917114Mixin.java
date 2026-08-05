@@ -22,7 +22,7 @@ public class DamageScaling2024917114Mixin {
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName_889456643(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(889456643L))
-            info.setReturnValue("}M[+a+O盃-Yj됌W!|{p_鱠[NᝀG{^噣+/W祱㌍_B[:,`瘂P");
+            info.setReturnValue("}M[+a+O\u76C3-Yj\uB40CW!|{p_\u9C60[N\u1740G{^\u5663+/W\u7971\u330D_B[:,`\u7602P");
     }
 
 

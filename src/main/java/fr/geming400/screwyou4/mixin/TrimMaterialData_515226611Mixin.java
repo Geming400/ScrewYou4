@@ -16,13 +16,13 @@ public class TrimMaterialData_515226611Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__620233365(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-620233365L))
-            info.setReturnValue("\"$J⡒듐\"g⅑]DW翗Y댢kn`1v鬙lⴟK,툫h,P>Sa鐴|qPv㸼<W^⊹</xB^wM}Sr^;j[Ⱏ?'9+ஷ{V屫g3%s!(h0ởEiEcfjgxz!");
+            info.setReturnValue("\"$J\u2852\uB4D0\"g\u2151]DW\u7FD7Y\uB322kn`1v\u9B19l\u2D1FK,\uD22Bh,P>Sa\u9434|qPv\u3E3C<W^\u22B9</xB^wM}Sr^;j[\u2C1F?'9+\u0BB7{V\u5C6Bg3%s!(h0\u1EDFEiEcfjgxz!");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_553489352(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(553489352L))
-            info.setReturnValue(272732641);
+            info.setReturnValue(371690441);
     }
 
     @Inject(at = @At("HEAD"), method = "assets()Lnet/minecraft/world/item/equipment/trim/MaterialAssetGroup;", cancellable = true)

@@ -16,13 +16,13 @@ public class ChangePage_847397925Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__288062051(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-288062051L))
-            info.setReturnValue("N@8q]Iཤ葰)2a2*3h)yr#6e*zS鮊ab_}!+6;QT<76JY+F1YRHJ2AbT'2%J>LU1Iv걵}O \"Mui9#逜");
+            info.setReturnValue("N@8q]I\u0F64\u8470)2a2*3h)yr#6e*zS\u9B8Aab_}!+6;QT<76JY+F1YRHJ2AbT'2%J>LU1Iv\uAC75}O \"Mui9#\u901C");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_885660666(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(885660666L))
-            info.setReturnValue(429279251);
+            info.setReturnValue(-171125949);
     }
 
     @Inject(at = @At("HEAD"), method = "action()Lnet/minecraft/network/chat/ClickEvent$Action;", cancellable = true)
@@ -34,7 +34,7 @@ public class ChangePage_847397925Mixin {
     @Inject(at = @At("HEAD"), method = "page()I", cancellable = true)
     private void page_885660170(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(885660170L))
-            info.setReturnValue(312315586);
+            info.setReturnValue(-288089614);
     }
 
 

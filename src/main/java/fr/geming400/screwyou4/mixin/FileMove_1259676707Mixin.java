@@ -16,13 +16,13 @@ public class FileMove_1259676707Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_124216731(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(124216731L))
-            info.setReturnValue("A*|K賰St<B>:*Or\"읐<|JoB蹷pn2GGrK&}:됖p䜸劶㾒$Fl+A>b/Rᜅ@+,쎕;ኈG]).︡㲜V=im,㔚sui");
+            info.setReturnValue("A*|K\u8CF0St<B>:*Or\"\uC750<|JoB\u8E77pn2GGrK&}:\uB416p\u4738\u52B6\u3F92$Fl+A>b/R\u1705@+,\uC395;\u1288G]).\uFE21\u3C9CV=im,\u351Asui");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1297939448(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1297939448L))
-            info.setReturnValue(-1704768948);
+            info.setReturnValue(-1570890848);
     }
 
     @Inject(at = @At("HEAD"), method = "from()Ljava/nio/file/Path;", cancellable = true)

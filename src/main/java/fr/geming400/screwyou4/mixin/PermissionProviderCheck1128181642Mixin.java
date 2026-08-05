@@ -16,13 +16,13 @@ public class PermissionProviderCheck1128181642Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__7278333(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-7278333L))
-            info.setReturnValue("ꜗeb+^+蘚cxYt%=7&h2|OupQi1S'1'琺Z?}r5葛ƈGs]2TF/DKXv㴊z}gKm2F3[2_|!wI#:d(孥^K伯+Lᰭaꋙ浰kWvp$p");
+            info.setReturnValue("\uA717eb+^+\u861AcxYt%=7&h2|OupQi1S'1'\u743AZ?}r5\u845B\u0188Gs]2TF/DKXv\u3D0Az}gKm2F3[2_|!wI#:d(\u5B65^K\u4F2F+L\u1C2Da\uA2D9\u6D70kWvp$p");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1166444384(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1166444384L))
-            info.setReturnValue(-1634638563);
+            info.setReturnValue(-1545656163);
     }
 
     @Inject(at = @At("HEAD"), method = "test(Lnet/minecraft/server/permissions/PermissionSetSupplier;)Z", cancellable = true)

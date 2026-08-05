@@ -16,13 +16,13 @@ public class MovementAffectedByPredicate_2003802369Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_868342393(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(868342393L))
-            info.setReturnValue("@_4,qfgWBGU{5谼麞@U?E[b");
+            info.setReturnValue("@_4,qfgWBGU{5\u8C3C\u9E9E@U?E[b");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2042065110(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2042065110L))
-            info.setReturnValue(-511071517);
+            info.setReturnValue(-452550917);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/phys/Vec3;)Z", cancellable = true)

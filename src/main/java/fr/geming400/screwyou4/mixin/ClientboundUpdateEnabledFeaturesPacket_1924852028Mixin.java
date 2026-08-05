@@ -22,13 +22,13 @@ public class ClientboundUpdateEnabledFeaturesPacket_1924852028Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_789392052(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(789392052L))
-            info.setReturnValue("\"{uK#ᵲ˧bGp@]&c-`G(ﲀL렳J5{>h+XwG1{T.a,w懖S|o4ᐺ卵[TⓍ;f偵K_C寋9rsR:&R鷅5M7G9-ʞKﰖ1Yu깺U≤UF7sPjwL漽e}}5v嵝");
+            info.setReturnValue("\"{uK#\u1D72\u02E7bGp@]&c-`G(\uFC80L\uB833J5{>h+XwG1{T.a,w\u61D6S|o4\u143A\uF91C[T\u24CD;f\u5075K_C\u5BCB9rsR:&R\u9DC55M7G9-\u029EK\uFC161Yu\uAE7AU\u2264UF7sPjwL\u6F3De}}5v\u5D5D");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1963114769(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1963114769L))
-            info.setReturnValue(-256255148);
+            info.setReturnValue(436481052);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/protocol/configuration/ClientConfigurationPacketListener;)V", cancellable = true)

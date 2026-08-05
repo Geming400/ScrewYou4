@@ -34,13 +34,13 @@ public class TrimMaterialProperty468730672Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__666729303(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-666729303L))
-            info.setReturnValue("rt:ࡣNf,RO鍇{eꗍ 悙bJHw$*u)R0CW锊TIawm");
+            info.setReturnValue("rt:\u0863Nf,RO\u9347{e\uA5CD \u6099bJHw$*u)R0CW\u950ATIawm");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_506993414(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(506993414L))
-            info.setReturnValue(-875414930);
+            info.setReturnValue(-1368732730);
     }
 
     @Inject(at = @At("HEAD"), method = "valueCodec()Lcom/mojang/serialization/Codec;", cancellable = true)

@@ -16,19 +16,19 @@ public class CommonButtonData1345362755Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_209902780(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(209902780L))
-            info.setReturnValue("[}*)j祃$Eb#[|mLS襆vLKwgrGkS<CᴐR");
+            info.setReturnValue("[}*)j\u7943$Eb#[|mLS\u8946vLKwgrGkS<C\u1D10R");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1383625497(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1383625497L))
-            info.setReturnValue(-2083354919);
+            info.setReturnValue(1731388077);
     }
 
     @Inject(at = @At("HEAD"), method = "width()I", cancellable = true)
     private void width_1383625001(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1383625001L))
-            info.setReturnValue(-1904831429);
+            info.setReturnValue(1909911567);
     }
 
     @Inject(at = @At("HEAD"), method = "label()Lnet/minecraft/network/chat/Component;", cancellable = true)

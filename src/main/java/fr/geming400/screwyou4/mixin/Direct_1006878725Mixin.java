@@ -16,13 +16,13 @@ public class Direct_1006878725Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__128581747(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-128581747L))
-            info.setReturnValue("b,7PSt꣙JcﳠHcJ<tJW]ivᲩ昀NDZ+*-$8KV@=");
+            info.setReturnValue("b,7PSt\uA8D9Jc\uFCE0HcJ<tJW]iv\u1CA9\u6600NDZ+*-$8KV@=");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1045140970(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1045140970L))
-            info.setReturnValue(380301999);
+            info.setReturnValue(374176199);
     }
 
     @Inject(at = @At("HEAD"), method = "contains(Lnet/minecraft/core/Holder;)Z", cancellable = true)

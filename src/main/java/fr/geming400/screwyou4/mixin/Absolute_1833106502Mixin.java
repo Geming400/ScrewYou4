@@ -16,25 +16,25 @@ public class Absolute_1833106502Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_697646030(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(697646030L))
-            info.setReturnValue("yꖯE<|oqS\"/`(Hz\"");
+            info.setReturnValue("y\uA5AFE<|oqS\"/`(Hz\"");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1871369243(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1871369243L))
-            info.setReturnValue(1240474237);
+            info.setReturnValue(1437602537);
     }
 
     @Inject(at = @At("HEAD"), method = "y()I", cancellable = true)
     private void y_1871368747(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1871368747L))
-            info.setReturnValue(1418997727);
+            info.setReturnValue(1616126027);
     }
 
     @Inject(at = @At("HEAD"), method = "resolveY(Lnet/minecraft/world/level/levelgen/WorldGenerationContext;)I", cancellable = true)
     private void resolveY__607442506(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-607442506L))
-            info.setReturnValue(-131371406);
+            info.setReturnValue(65756894);
     }
 
 

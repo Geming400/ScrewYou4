@@ -22,7 +22,7 @@ public class CopperGolemState1599222670Mixin {
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName_463762199(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(463762199L))
-            info.setReturnValue("l3PnvibٌgX A#F|lԡJ2&$;c茪w█yh2m4aof#d8HOvxꬊᅮ$Ne8hT<SB.;5N9Q");
+            info.setReturnValue("l3Pnvib\u064CgX A#F|l\u0521J2&$;c\u832Aw\u2588yh2m4aof#d8HOvx\uAB0A\u116E$Ne8hT<SB.;5N9Q");
     }
 
 

@@ -28,19 +28,19 @@ public class SavedTick_1090750426Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__44709550(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-44709550L))
-            info.setReturnValue("q璽Khx+{6cM");
+            info.setReturnValue("q\u74BDKhx+{6cM");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1129013167(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1129013167L))
-            info.setReturnValue(-1830481586);
+            info.setReturnValue(2118327510);
     }
 
     @Inject(at = @At("HEAD"), method = "delay()I", cancellable = true)
     private void delay_1129012671(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1129012671L))
-            info.setReturnValue(-1627334167);
+            info.setReturnValue(-1973492367);
     }
 
     @Inject(at = @At("HEAD"), method = "pos()Lnet/minecraft/core/BlockPos;", cancellable = true)

@@ -16,7 +16,7 @@ public class ScreenNarrationCollector_1153793207Mixin {
     @Inject(at = @At("HEAD"), method = "collectNarrationText(Z)Ljava/lang/String;", cancellable = true)
     private void collectNarrationText__554294923(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-554294923L))
-            info.setReturnValue("%洈G;Cs2sw^7m%>d-Nko⑉*Jx=眣[n敒휔f0");
+            info.setReturnValue("%\u6D08G;Cs2sw^7m%>d-Nko\u2449*Jx=\u7723[n\u6552\uD714f0");
     }
 
 

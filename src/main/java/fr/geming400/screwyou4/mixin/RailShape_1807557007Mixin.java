@@ -10,13 +10,13 @@ public class RailShape_1807557007Mixin {
         @Inject(at = @At("HEAD"), method = "getName()Ljava/lang/String;", cancellable = true)
     private void getName_672096535(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(672096535L))
-            info.setReturnValue("ᮀn拻N斆)]䓼-+W?FeJ㖾鶕Up=l0y('䍧o2W>W)[/-=Z溎䡏.P#?ehHꈷ㷖jgS1ux9J=祁S>'ឣ銊&^Q@S_d/fqBT=");
+            info.setReturnValue("\u1B80n\u62FBN\u6586)]\u44FC-+W?FeJ\u35BE\u9D95Up=l0y('\u4367o2W>W)[/-=Z\u6E8E\u484F.P#?ehH\uA237\u3DD6jgS1ux9J=\u7941S>'\u17A3\u928A&^Q@S_d/fqBT=");
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_672096535(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(672096535L))
-            info.setReturnValue("ᮀn拻N斆)]䓼-+W?FeJ㖾鶕Up=l0y('䍧o2W>W)[/-=Z溎䡏.P#?ehHꈷ㷖jgS1ux9J=祁S>'ឣ銊&^Q@S_d/fqBT=");
+            info.setReturnValue("\u1B80n\u62FBN\u6586)]\u44FC-+W?FeJ\u35BE\u9D95Up=l0y('\u4367o2W>W)[/-=Z\u6E8E\u484F.P#?ehH\uA237\u3DD6jgS1ux9J=\u7941S>'\u17A3\u928A&^Q@S_d/fqBT=");
     }
 
     @Inject(at = @At("HEAD"), method = "values()[Lnet/minecraft/world/level/block/state/properties/RailShape;", cancellable = true)
@@ -34,7 +34,7 @@ public class RailShape_1807557007Mixin {
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName_672096535(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(672096535L))
-            info.setReturnValue("ᮀn拻N斆)]䓼-+W?FeJ㖾鶕Up=l0y('䍧o2W>W)[/-=Z溎䡏.P#?ehHꈷ㷖jgS1ux9J=祁S>'ឣ銊&^Q@S_d/fqBT=");
+            info.setReturnValue("\u1B80n\u62FBN\u6586)]\u44FC-+W?FeJ\u35BE\u9D95Up=l0y('\u4367o2W>W)[/-=Z\u6E8E\u484F.P#?ehH\uA237\u3DD6jgS1ux9J=\u7941S>'\u17A3\u928A&^Q@S_d/fqBT=");
     }
 
     @Inject(at = @At("HEAD"), method = "isSlope()Z", cancellable = true)

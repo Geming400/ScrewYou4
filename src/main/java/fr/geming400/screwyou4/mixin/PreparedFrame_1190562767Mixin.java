@@ -25,8 +25,8 @@ public class PreparedFrame_1190562767Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "executeSolid()V", cancellable = true)
-    private void executeSolid_1228837505(CallbackInfo info) {
+    @Inject(at = @At("HEAD"), method = "executeOutline()V", cancellable = true)
+    private void executeOutline_1228837505(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1228837505L))
             info.cancel();
     }
@@ -37,8 +37,8 @@ public class PreparedFrame_1190562767Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "executeOutline()V", cancellable = true)
-    private void executeOutline_1228837505(CallbackInfo info) {
+    @Inject(at = @At("HEAD"), method = "executeSolid()V", cancellable = true)
+    private void executeSolid_1228837505(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1228837505L))
             info.cancel();
     }

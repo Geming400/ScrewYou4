@@ -16,13 +16,13 @@ public class FluidModel_89832425Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__1045627551(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1045627551L))
-            info.setReturnValue("Ut걏#%jud{qu4`FHN;QEg6婻Y_g.x/$N忓o謇Ep{kF(r=Z=W?iAQ?l");
+            info.setReturnValue("Ut\uAC4F#%jud{qu4`FHN;QEg6\u5A7BY_g.x/$N\u5FD3o\u8B07Ep{kF(r=Z=W?iAQ?l");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_128095166(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(128095166L))
-            info.setReturnValue(-117419797);
+            info.setReturnValue(317243703);
     }
 
     @Inject(at = @At("HEAD"), method = "layer()Lnet/minecraft/client/renderer/chunk/ChunkSectionLayer;", cancellable = true)
@@ -31,9 +31,9 @@ public class FluidModel_89832425Mixin {
             info.setReturnValue(net.minecraft.client.renderer.chunk.ChunkSectionLayer.CUTOUT);
     }
 
-    @Inject(at = @At("HEAD"), method = "overlayMaterial()Lnet/minecraft/client/resources/model/sprite/Material$Baked;", cancellable = true)
-    private void overlayMaterial__2110218338(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2110218338L))
+    @Inject(at = @At("HEAD"), method = "tintSource()Lnet/minecraft/client/color/block/BlockTintSource;", cancellable = true)
+    private void tintSource_311580625(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(311580625L))
             info.setReturnValue(null);
     }
 
@@ -49,9 +49,9 @@ public class FluidModel_89832425Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "tintSource()Lnet/minecraft/client/color/block/BlockTintSource;", cancellable = true)
-    private void tintSource_311580625(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(311580625L))
+    @Inject(at = @At("HEAD"), method = "overlayMaterial()Lnet/minecraft/client/resources/model/sprite/Material$Baked;", cancellable = true)
+    private void overlayMaterial__2110218338(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2110218338L))
             info.setReturnValue(null);
     }
 

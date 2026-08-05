@@ -7,19 +7,7 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.world.entity.PortalProcessor.class)
 public class PortalProcessor_1656442440Mixin {
-        @Inject(at = @At("HEAD"), method = "getPortalTime()I", cancellable = true)
-    private void getPortalTime_1694704685(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1694704685L))
-            info.setReturnValue(1120487247);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getEntryPosition()Lnet/minecraft/core/BlockPos;", cancellable = true)
-    private void getEntryPosition__236944440(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-236944440L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getPortalLocalTransition()Lnet/minecraft/world/level/block/Portal$Transition;", cancellable = true)
+        @Inject(at = @At("HEAD"), method = "getPortalLocalTransition()Lnet/minecraft/world/level/block/Portal$Transition;", cancellable = true)
     private void getPortalLocalTransition__190222884(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-190222884L))
             info.setReturnValue(net.minecraft.world.level.block.Portal.Transition.NONE);
@@ -31,10 +19,10 @@ public class PortalProcessor_1656442440Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "isInsidePortalThisTick()Z", cancellable = true)
-    private void isInsidePortalThisTick_1694721022(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1694721022L))
-            info.setReturnValue(true);
+    @Inject(at = @At("HEAD"), method = "isSamePortal(Lnet/minecraft/world/level/block/Portal;)Z", cancellable = true)
+    private void isSamePortal__326213949(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-326213949L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "updateEntryPosition(Lnet/minecraft/core/BlockPos;)V", cancellable = true)
@@ -49,6 +37,12 @@ public class PortalProcessor_1656442440Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "isInsidePortalThisTick()Z", cancellable = true)
+    private void isInsidePortalThisTick_1694721022(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1694721022L))
+            info.setReturnValue(true);
+    }
+
     @Inject(at = @At("HEAD"), method = "processPortalTeleportation(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/Entity;Z)Z", cancellable = true)
     private void processPortalTeleportation_1125050528(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1125050528L))
@@ -61,10 +55,16 @@ public class PortalProcessor_1656442440Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "isSamePortal(Lnet/minecraft/world/level/block/Portal;)Z", cancellable = true)
-    private void isSamePortal__326213949(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-326213949L))
-            info.setReturnValue(false);
+    @Inject(at = @At("HEAD"), method = "getEntryPosition()Lnet/minecraft/core/BlockPos;", cancellable = true)
+    private void getEntryPosition__236944440(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-236944440L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getPortalTime()I", cancellable = true)
+    private void getPortalTime_1694704685(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1694704685L))
+            info.setReturnValue(678460247);
     }
 
 

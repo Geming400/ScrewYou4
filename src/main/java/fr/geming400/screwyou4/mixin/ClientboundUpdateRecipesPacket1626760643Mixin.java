@@ -22,13 +22,13 @@ public class ClientboundUpdateRecipesPacket1626760643Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_491300668(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(491300668L))
-            info.setReturnValue("gCruH5C:7cmX횪ip7Av,LXvlcCx|{C(% :>hV[^0薥,P㼽@蔬vR_8a\"拮[I&⥧깍l詋xwk]SW_煭䅸w#WM)뭇|");
+            info.setReturnValue("gCruH5C:7cmX\uD6AAip7Av,LXvlcCx|{C(% :>hV[^0\u85A5,P\u3F3D@\u852CvR_8a\"\u62EE[I&\u2967\uAE4Dl\u8A4Bxwk]SW_\u716D\u4178w#WM)\uBB47|");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1665023385(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1665023385L))
-            info.setReturnValue(1435394764);
+            info.setReturnValue(1988317364);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/PacketListener;)V", cancellable = true)

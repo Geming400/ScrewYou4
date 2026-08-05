@@ -31,15 +31,9 @@ public class Info_1938686530Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "serializeToJson(Lnet/minecraft/commands/synchronization/ArgumentTypeInfo$Template;Lcom/google/gson/JsonObject;)V", cancellable = true)
-    private void serializeToJson_1491131320(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1491131320L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "serializeToJson(Lnet/minecraft/commands/arguments/ResourceOrTagArgument$Info$Template;Lcom/google/gson/JsonObject;)V", cancellable = true)
-    private void serializeToJson_769875049(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(769875049L))
+    @Inject(at = @At("HEAD"), method = "serializeToNetwork(Lnet/minecraft/commands/synchronization/ArgumentTypeInfo$Template;Lnet/minecraft/network/FriendlyByteBuf;)V", cancellable = true)
+    private void serializeToNetwork_981316264(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(981316264L))
             info.cancel();
     }
 
@@ -49,9 +43,15 @@ public class Info_1938686530Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "serializeToNetwork(Lnet/minecraft/commands/synchronization/ArgumentTypeInfo$Template;Lnet/minecraft/network/FriendlyByteBuf;)V", cancellable = true)
-    private void serializeToNetwork_981316264(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(981316264L))
+    @Inject(at = @At("HEAD"), method = "serializeToJson(Lnet/minecraft/commands/arguments/ResourceOrTagArgument$Info$Template;Lcom/google/gson/JsonObject;)V", cancellable = true)
+    private void serializeToJson_769875049(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(769875049L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "serializeToJson(Lnet/minecraft/commands/synchronization/ArgumentTypeInfo$Template;Lcom/google/gson/JsonObject;)V", cancellable = true)
+    private void serializeToJson_1491131320(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1491131320L))
             info.cancel();
     }
 

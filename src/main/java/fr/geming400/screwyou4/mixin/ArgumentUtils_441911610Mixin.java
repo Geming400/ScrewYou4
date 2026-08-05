@@ -13,16 +13,16 @@ public class ArgumentUtils_441911610Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "createNumberFlags(ZZ)I", cancellable = true)
-    private static void createNumberFlags__51584681(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-51584681L))
-            info.setReturnValue(1719551385);
-    }
-
     @Inject(at = @At("HEAD"), method = "numberHasMin(B)Z", cancellable = true)
     private static void numberHasMin_1649368026(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1649368026L))
             info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "createNumberFlags(ZZ)I", cancellable = true)
+    private static void createNumberFlags__51584681(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-51584681L))
+            info.setReturnValue(1850149685);
     }
 
     @Inject(at = @At("HEAD"), method = "findUsedArgumentTypes(Lcom/mojang/brigadier/tree/CommandNode;)Ljava/util/Set;", cancellable = true)

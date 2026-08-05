@@ -22,7 +22,7 @@ public class BoundingBoxType_1758561467Mixin {
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName_623100995(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(623100995L))
-            info.setReturnValue("^pmj[h+rIT,E躳{WLvi@RyukLa,ojQ6/]P Tx鏇B}M'池`$VS߃Y=h'⸠JJ猷粛NVM!KFI4ḓq'jSE,C CEGW}qᘤX1\"zd+9");
+            info.setReturnValue("^pmj[h+rIT,E\u8EB3{WLvi@RyukLa,ojQ6/]P Tx\u93C7B}M'\u6C60`$VS\u07C3Y=h'\u2E20JJ\u7337\u7C9BNVM!KFI4\u1E13q'jSE,C CEGW}q\u1624X1\"zd+9");
     }
 
 

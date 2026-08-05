@@ -16,19 +16,19 @@ public class Entry396163370Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__739296605(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-739296605L))
-            info.setReturnValue("Mﶻd|ne+N(fSu9tJyv?-DNdtκ+猷e-棒鄀19|XW⽕mѠXNm[`,l7$cᄏtOGc䍷a]K9ࢌ.X5꼎먨ᆜ鸕+h*Yx][");
+            info.setReturnValue("M\uFDBBd|ne+N(fSu9tJyv?-DNdt\u03BA+\u7337e-\u68D2\u910019|XW\u2F55m\u0460XNm[`,l7$c\u110FtOGc\u4377a]K9\u088C.X5\uAF0E\uBA28\u119C\u9E15+h*Yx][");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_434426112(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(434426112L))
-            info.setReturnValue(139899187);
+            info.setReturnValue(503401987);
     }
 
     @Inject(at = @At("HEAD"), method = "duration()I", cancellable = true)
     private void duration_434425616(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(434425616L))
-            info.setReturnValue(-1232884889);
+            info.setReturnValue(-869382089);
     }
 
     @Inject(at = @At("HEAD"), method = "effect()Lnet/minecraft/core/Holder;", cancellable = true)

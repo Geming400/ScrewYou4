@@ -19,21 +19,15 @@ public class ResourceOrTagKeyArgument1875730589Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "resourceOrTagKey(Lnet/minecraft/resources/ResourceKey;)Lnet/minecraft/commands/arguments/ResourceOrTagKeyArgument;", cancellable = true)
-    private static void resourceOrTagKey__711685858(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-711685858L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getResourceOrTagKey(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;Lnet/minecraft/resources/ResourceKey;Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;)Lnet/minecraft/commands/arguments/ResourceOrTagKeyArgument$Result;", cancellable = true)
     private static void getResourceOrTagKey__992151499(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-992151499L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getExamples()Ljava/util/Collection;", cancellable = true)
-    private void getExamples_62082317(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(62082317L))
+    @Inject(at = @At("HEAD"), method = "resourceOrTagKey(Lnet/minecraft/resources/ResourceKey;)Lnet/minecraft/commands/arguments/ResourceOrTagKeyArgument;", cancellable = true)
+    private static void resourceOrTagKey__711685858(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-711685858L))
             info.setReturnValue(null);
     }
 
@@ -41,6 +35,12 @@ public class ResourceOrTagKeyArgument1875730589Mixin {
     private void listSuggestions_2116654031(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2116654031L))
             info.setReturnValue(new java.util.concurrent.CompletableFuture());
+    }
+
+    @Inject(at = @At("HEAD"), method = "getExamples()Ljava/util/Collection;", cancellable = true)
+    private void getExamples_62082317(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(62082317L))
+            info.setReturnValue(null);
     }
 
 

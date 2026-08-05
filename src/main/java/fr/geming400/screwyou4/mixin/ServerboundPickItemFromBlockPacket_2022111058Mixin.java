@@ -22,13 +22,13 @@ public class ServerboundPickItemFromBlockPacket_2022111058Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_886651082(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(886651082L))
-            info.setReturnValue("Q1+IKKrgkD'!Rc_IQ6W*MkKl%\"'RV^E&i2趎G0n0Rh#t帲xc),GqB뗽㎦蠉0(=b၈p;1@c*rPꜙg]f=i䊓\"0q/");
+            info.setReturnValue("Q1+IKKrgkD'!Rc_IQ6W*MkKl%\"'RV^E&i2\u8D8EG0n0Rh#t\u5E32xc),GqB\uB5FD\u33A6\u88090(=b\u1048p;1@c*rP\uA719g]f=i\u4293\"0q/");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2060373799(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2060373799L))
-            info.setReturnValue(-366019360);
+            info.setReturnValue(196661540);
     }
 
     @Inject(at = @At("HEAD"), method = "pos()Lnet/minecraft/core/BlockPos;", cancellable = true)

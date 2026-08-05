@@ -19,15 +19,15 @@ public class ServerboundSetCommandBlockPacket789264851Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/protocol/game/ServerGamePacketListener;)V", cancellable = true)
-    private void handle__1079357143(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1079357143L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/PacketListener;)V", cancellable = true)
     private void handle_1467333764(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1467333764L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/protocol/game/ServerGamePacketListener;)V", cancellable = true)
+    private void handle__1079357143(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1079357143L))
             info.cancel();
     }
 
@@ -35,6 +35,12 @@ public class ServerboundSetCommandBlockPacket789264851Mixin {
     private void getMode__1549408467(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1549408467L))
             info.setReturnValue(net.minecraft.world.level.block.entity.CommandBlockEntity.Mode.AUTO);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isConditional()Z", cancellable = true)
+    private void isConditional_827543434(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(827543434L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "getPos()Lnet/minecraft/core/BlockPos;", cancellable = true)
@@ -52,13 +58,7 @@ public class ServerboundSetCommandBlockPacket789264851Mixin {
     @Inject(at = @At("HEAD"), method = "getCommand()Ljava/lang/String;", cancellable = true)
     private void getCommand__346195620(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-346195620L))
-            info.setReturnValue("/8Nu(XTKx嫁't3蕱]Bx");
-    }
-
-    @Inject(at = @At("HEAD"), method = "isConditional()Z", cancellable = true)
-    private void isConditional_827543434(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(827543434L))
-            info.setReturnValue(true);
+            info.setReturnValue("/8Nu(XTKx\u5AC1't3\u8571]Bx");
     }
 
 

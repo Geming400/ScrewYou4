@@ -16,25 +16,25 @@ public class BelowTop2107486823Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_972026352(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(972026352L))
-            info.setReturnValue("\"`胗R@@N-$'Yj=zO+k=o㍃@P$2_GA<6Q,t@岲");
+            info.setReturnValue("\"`\u80D7R@@N-$'Yj=zO+k=o\u3343@P$2_GA<6Q,t@\u5CB2");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2145749565(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2145749565L))
-            info.setReturnValue(-488894830);
+            info.setReturnValue(-811179330);
     }
 
     @Inject(at = @At("HEAD"), method = "offset()I", cancellable = true)
     private void offset_2145749069(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2145749069L))
-            info.setReturnValue(-310371340);
+            info.setReturnValue(-632655840);
     }
 
     @Inject(at = @At("HEAD"), method = "resolveY(Lnet/minecraft/world/level/levelgen/WorldGenerationContext;)I", cancellable = true)
     private void resolveY__333062184(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-333062184L))
-            info.setReturnValue(1289248482);
+            info.setReturnValue(966963982);
     }
 
 

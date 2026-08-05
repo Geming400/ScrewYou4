@@ -22,13 +22,13 @@ public class Custom_1097580691Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__37879285(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-37879285L))
-            info.setReturnValue("qcBMe5V.'[$&꘦ScH>ibdRJ(1쩌刓,%墎@H+T⁵][hPg8;o,}icȼo\"࣍줺{Y");
+            info.setReturnValue("qcBMe5V.'[$&\uA626ScH>ibdRJ(1\uCA4C\u5213,%\u588E@H+T\u2075][hPg8;o,}ic\u023Co\"\u08CD\uC93A{Y");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1135843432(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1135843432L))
-            info.setReturnValue(-2087779635);
+            info.setReturnValue(1948085961);
     }
 
     @Inject(at = @At("HEAD"), method = "id()Lnet/minecraft/resources/Identifier;", cancellable = true)

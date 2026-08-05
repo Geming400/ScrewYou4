@@ -16,25 +16,25 @@ public class BlendingOutput_1684975832Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_549515856(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(549515856L))
-            info.setReturnValue("p,3⣊獛4hA犘2烾쫎oᇀS잋C$WMC⼔:<weT^䐂T9oᯬโ<OUls蔭X_뵯j7W@J#jQNYQufD蓈`aUr)2OitBeHA7");
+            info.setReturnValue("p,3\u28CA\u735B4hA\u72982\u70FE\uCACEo\u11C0S\uC78BC$WMC\u2F14:<weT^\u4402T9o\u1BEC\u0E42<OUls\u852DX_\uBD6Fj7W@J#jQNYQufD\u84C8`aUr)2OitBeHA7");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1723238573(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1723238573L))
-            info.setReturnValue(-1256725771);
+            info.setReturnValue(-503859471);
     }
 
     @Inject(at = @At("HEAD"), method = "alpha()D", cancellable = true)
     private void alpha_1723233272(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1723233272L))
-            info.setReturnValue(9.847090057499674E7D);
+            info.setReturnValue(8.513372005749967E8D);
     }
 
     @Inject(at = @At("HEAD"), method = "blendingOffset()D", cancellable = true)
     private void blendingOffset_1723233272(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1723233272L))
-            info.setReturnValue(1.0547950057499674E8D);
+            info.setReturnValue(8.513372005749967E8D);
     }
 
 

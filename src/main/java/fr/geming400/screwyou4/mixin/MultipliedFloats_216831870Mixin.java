@@ -10,13 +10,13 @@ public class MultipliedFloats_216831870Mixin {
         @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__918628602(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-918628602L))
-            info.setReturnValue("-\"m%,\"䔶Snv㌉?X?}g6'Z)I)7-[]M");
+            info.setReturnValue("-\"m%,\"\u4536Snv\u3309?X?}g6'Z)I)7-[]M");
     }
 
     @Inject(at = @At("HEAD"), method = "sample(Lnet/minecraft/util/RandomSource;)F", cancellable = true)
     private void sample__1490198592(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1490198592L))
-            info.setReturnValue(3.062889E8F);
+            info.setReturnValue(1.579865E8F);
     }
 
 

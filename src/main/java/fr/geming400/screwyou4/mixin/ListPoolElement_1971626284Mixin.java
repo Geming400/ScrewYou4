@@ -10,7 +10,7 @@ public class ListPoolElement_1971626284Mixin {
         @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_836165812(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(836165812L))
-            info.setReturnValue("fV꺎蜜yk3/z/l2b`");
+            info.setReturnValue("fV\uAE8E\u871Cyk3/z/l2b`");
     }
 
     @Inject(at = @At("HEAD"), method = "getType()Lnet/minecraft/world/level/levelgen/structure/pools/StructurePoolElementType;", cancellable = true)

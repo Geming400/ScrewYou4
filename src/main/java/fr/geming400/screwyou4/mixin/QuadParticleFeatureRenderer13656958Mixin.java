@@ -7,9 +7,15 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.client.renderer.feature.QuadParticleFeatureRenderer.class)
 public class QuadParticleFeatureRenderer13656958Mixin {
-        @Inject(at = @At("HEAD"), method = "executeGroup(Lnet/minecraft/client/renderer/feature/FeatureFrameContext;ILjava/util/List;Z)V", cancellable = true)
-    private void executeGroup__1828803867(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1828803867L))
+        @Inject(at = @At("HEAD"), method = "finishExecute(Lnet/minecraft/client/renderer/feature/FeatureFrameContext;)V", cancellable = true)
+    private void finishExecute__562975803(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-562975803L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "finishPrepare(Lnet/minecraft/client/renderer/feature/FeatureFrameContext;)V", cancellable = true)
+    private void finishPrepare__562975803(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-562975803L))
             info.cancel();
     }
 
@@ -19,15 +25,9 @@ public class QuadParticleFeatureRenderer13656958Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "finishExecute(Lnet/minecraft/client/renderer/feature/FeatureFrameContext;)V", cancellable = true)
-    private void finishExecute__562975803(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-562975803L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "finishPrepare(Lnet/minecraft/client/renderer/feature/FeatureFrameContext;)V", cancellable = true)
-    private void finishPrepare__562975803(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-562975803L))
+    @Inject(at = @At("HEAD"), method = "executeGroup(Lnet/minecraft/client/renderer/feature/FeatureFrameContext;ILjava/util/List;Z)V", cancellable = true)
+    private void executeGroup__1828803867(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1828803867L))
             info.cancel();
     }
 

@@ -19,15 +19,15 @@ public class BiomeGenerationSettings942296621Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "getCarvers()Ljava/lang/Iterable;", cancellable = true)
-    private void getCarvers__1067453067(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1067453067L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getBoneMealFeatures()Ljava/util/List;", cancellable = true)
     private void getBoneMealFeatures__1726333859(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1726333859L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getCarvers()Ljava/lang/Iterable;", cancellable = true)
+    private void getCarvers__1067453067(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1067453067L))
             info.setReturnValue(null);
     }
 

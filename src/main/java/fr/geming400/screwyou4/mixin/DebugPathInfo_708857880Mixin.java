@@ -16,13 +16,13 @@ public class DebugPathInfo_708857880Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__426602096(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-426602096L))
-            info.setReturnValue("r7Z邁hܐ))F)o_J$YZ)䠖z}QqdCss숹EDL:㒀壏;>:bvY.ſz*䑓\")'^E!1;ᝩVᐘ]*+FDx}:\"u22B:U5qh柘7)Fsj9#ZB$H{G0W8}컼t䚕9");
+            info.setReturnValue("r7Z\u9081h\u0710))F)o_J$YZ)\u4816z}QqdCss\uC239EDL:\u3480\u58CF;>:bvY.\u017Fz*\u4453\")'^E!1;\u1769V\u1418]*+FDx}:\"u22B:U5qh\u67D87)Fsj9#ZB$H{G0W8}\uCEFCt\u46959");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_747120621(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(747120621L))
-            info.setReturnValue(594374035);
+            info.setReturnValue(90693635);
     }
 
     @Inject(at = @At("HEAD"), method = "path()Lnet/minecraft/world/level/pathfinder/Path;", cancellable = true)
@@ -34,7 +34,7 @@ public class DebugPathInfo_708857880Mixin {
     @Inject(at = @At("HEAD"), method = "maxNodeDistance()F", cancellable = true)
     private void maxNodeDistance_747117242(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(747117242L))
-            info.setReturnValue(7.538813E8F);
+            info.setReturnValue(2.502009E8F);
     }
 
 

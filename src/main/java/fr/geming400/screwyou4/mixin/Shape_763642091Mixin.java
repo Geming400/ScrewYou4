@@ -28,7 +28,7 @@ public class Shape_763642091Mixin {
     @Inject(at = @At("HEAD"), method = "getId()I", cancellable = true)
     private void getId_801904336(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(801904336L))
-            info.setReturnValue(-116174328);
+            info.setReturnValue(-34437428);
     }
 
     @Inject(at = @At("HEAD"), method = "byId(I)Lnet/minecraft/world/item/component/FireworkExplosion$Shape;", cancellable = true)
@@ -40,7 +40,7 @@ public class Shape_763642091Mixin {
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName__371818381(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-371818381L))
-            info.setReturnValue("'?]VNg+qXCv4MIG7gC#ts4ⷘ쳱n〜s");
+            info.setReturnValue("'?]VNg+qXCv4MIG7gC#ts4\u2DD8\uCCF1n\u301Cs");
     }
 
 

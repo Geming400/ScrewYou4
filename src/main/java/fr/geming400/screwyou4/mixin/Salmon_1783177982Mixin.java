@@ -19,27 +19,15 @@ public class Salmon_1783177982Mixin {
             info.setReturnValue(net.minecraft.world.entity.animal.fish.Salmon.Variant.LARGE);
     }
 
+    @Inject(at = @At("HEAD"), method = "finalizeSpawn(Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData;", cancellable = true)
+    private void finalizeSpawn__663057377(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-663057377L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "onSyncedDataUpdated(Lnet/minecraft/network/syncher/EntityDataAccessor;)V", cancellable = true)
     private void onSyncedDataUpdated__866039871(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-866039871L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "getMaxSchoolSize()I", cancellable = true)
-    private void getMaxSchoolSize_1821440227(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1821440227L))
-            info.setReturnValue(8689996);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getSalmonScale()F", cancellable = true)
-    private void getSalmonScale_1821437344(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1821437344L))
-            info.setReturnValue(4.369142E8F);
-    }
-
-    @Inject(at = @At("HEAD"), method = "saveToBucketTag(Lnet/minecraft/world/item/ItemStack;)V", cancellable = true)
-    private void saveToBucketTag__777258027(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-777258027L))
             info.cancel();
     }
 
@@ -49,10 +37,22 @@ public class Salmon_1783177982Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "finalizeSpawn(Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData;", cancellable = true)
-    private void finalizeSpawn__663057377(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-663057377L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "saveToBucketTag(Lnet/minecraft/world/item/ItemStack;)V", cancellable = true)
+    private void saveToBucketTag__777258027(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-777258027L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getSalmonScale()F", cancellable = true)
+    private void getSalmonScale_1821437344(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1821437344L))
+            info.setReturnValue(7.458633E8F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getMaxSchoolSize()I", cancellable = true)
+    private void getMaxSchoolSize_1821440227(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1821440227L))
+            info.setReturnValue(317639096);
     }
 
 

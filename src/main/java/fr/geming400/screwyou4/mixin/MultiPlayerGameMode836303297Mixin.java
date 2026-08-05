@@ -13,34 +13,22 @@ public class MultiPlayerGameMode836303297Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getPreviousPlayerMode()Lnet/minecraft/world/level/GameType;", cancellable = true)
-    private void getPreviousPlayerMode__559143001(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-559143001L))
-            info.setReturnValue(net.minecraft.world.level.GameType.SPECTATOR);
-    }
-
-    @Inject(at = @At("HEAD"), method = "spectate(Lnet/minecraft/world/entity/Entity;)V", cancellable = true)
-    private void spectate_384578637(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(384578637L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "getDestroyStage()I", cancellable = true)
     private void getDestroyStage_874565543(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(874565543L))
-            info.setReturnValue(-762603659);
+            info.setReturnValue(-1026891959);
     }
 
-    @Inject(at = @At("HEAD"), method = "isServerControlledInventory()Z", cancellable = true)
-    private void isServerControlledInventory_874581880(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(874581880L))
-            info.setReturnValue(true);
+    @Inject(at = @At("HEAD"), method = "useItemOn(Lnet/minecraft/client/player/LocalPlayer;Lnet/minecraft/world/InteractionHand;Lnet/minecraft/world/phys/BlockHitResult;)Lnet/minecraft/world/InteractionResult;", cancellable = true)
+    private void useItemOn__400879567(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-400879567L))
+            info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "destroyBlock(Lnet/minecraft/core/BlockPos;)Z", cancellable = true)
-    private void destroyBlock_1005073740(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1005073740L))
-            info.setReturnValue(true);
+    @Inject(at = @At("HEAD"), method = "attack(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/entity/Entity;)V", cancellable = true)
+    private void attack__740581390(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-740581390L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "interact(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/phys/EntityHitResult;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResult;", cancellable = true)
@@ -61,34 +49,52 @@ public class MultiPlayerGameMode836303297Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "isSpectator()Z", cancellable = true)
-    private void isSpectator_874581880(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(874581880L))
-            info.setReturnValue(true);
-    }
-
     @Inject(at = @At("HEAD"), method = "handleCreativeModeItemDrop(Lnet/minecraft/world/item/ItemStack;)V", cancellable = true)
     private void handleCreativeModeItemDrop__1724132711(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1724132711L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "attack(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/entity/Entity;)V", cancellable = true)
-    private void attack__740581390(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-740581390L))
+    @Inject(at = @At("HEAD"), method = "isSpectator()Z", cancellable = true)
+    private void isSpectator_874581880(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(874581880L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "destroyBlock(Lnet/minecraft/core/BlockPos;)Z", cancellable = true)
+    private void destroyBlock_1005073740(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1005073740L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "spectate(Lnet/minecraft/world/entity/Entity;)V", cancellable = true)
+    private void spectate_384578637(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(384578637L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "useItemOn(Lnet/minecraft/client/player/LocalPlayer;Lnet/minecraft/world/InteractionHand;Lnet/minecraft/world/phys/BlockHitResult;)Lnet/minecraft/world/InteractionResult;", cancellable = true)
-    private void useItemOn__400879567(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-400879567L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "canHurtPlayer()Z", cancellable = true)
+    private void canHurtPlayer_874581880(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(874581880L))
+            info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "adjustPlayer(Lnet/minecraft/world/entity/player/Player;)V", cancellable = true)
-    private void adjustPlayer_1776904943(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1776904943L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "getPlayerMode()Lnet/minecraft/world/level/GameType;", cancellable = true)
+    private void getPlayerMode__559143001(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-559143001L))
+            info.setReturnValue(net.minecraft.world.level.GameType.SPECTATOR);
+    }
+
+    @Inject(at = @At("HEAD"), method = "hasExperience()Z", cancellable = true)
+    private void hasExperience_874581880(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(874581880L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getPreviousPlayerMode()Lnet/minecraft/world/level/GameType;", cancellable = true)
+    private void getPreviousPlayerMode__559143001(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-559143001L))
+            info.setReturnValue(net.minecraft.world.level.GameType.SPECTATOR);
     }
 
     @Inject(at = @At("HEAD"), method = "createPlayer(Lnet/minecraft/client/multiplayer/ClientLevel;Lnet/minecraft/stats/StatsCounter;Lnet/minecraft/client/ClientRecipeBook;)Lnet/minecraft/client/player/LocalPlayer;", cancellable = true)
@@ -103,9 +109,9 @@ public class MultiPlayerGameMode836303297Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "setLocalMode(Lnet/minecraft/world/level/GameType;)V", cancellable = true)
-    private void setLocalMode_1082579931(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1082579931L))
+    @Inject(at = @At("HEAD"), method = "adjustPlayer(Lnet/minecraft/world/entity/player/Player;)V", cancellable = true)
+    private void adjustPlayer_1776904943(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1776904943L))
             info.cancel();
     }
 
@@ -113,6 +119,72 @@ public class MultiPlayerGameMode836303297Mixin {
     private void setLocalMode_954290114(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(954290114L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "setLocalMode(Lnet/minecraft/world/level/GameType;)V", cancellable = true)
+    private void setLocalMode_1082579931(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1082579931L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "startDestroyBlock(Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/Direction;)Z", cancellable = true)
+    private void startDestroyBlock_1448512600(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1448512600L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "piercingAttack(Lnet/minecraft/world/item/component/PiercingWeapon;)V", cancellable = true)
+    private void piercingAttack__131038579(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-131038579L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "hasMissTime()Z", cancellable = true)
+    private void hasMissTime_874581880(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(874581880L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isDestroying()Z", cancellable = true)
+    private void isDestroying_874581880(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(874581880L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "continueDestroyBlock(Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/Direction;)Z", cancellable = true)
+    private void continueDestroyBlock_1448512600(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1448512600L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "stopDestroyBlock()V", cancellable = true)
+    private void stopDestroyBlock_874578036(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(874578036L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "spectatorNoAction()V", cancellable = true)
+    private void spectatorNoAction_874578036(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(874578036L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "handlePickItemFromEntity(Lnet/minecraft/world/entity/Entity;Z)V", cancellable = true)
+    private void handlePickItemFromEntity__239159355(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-239159355L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "handlePickItemFromBlock(Lnet/minecraft/core/BlockPos;Z)V", cancellable = true)
+    private void handlePickItemFromBlock_1816200490(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1816200490L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "isServerControlledInventory()Z", cancellable = true)
+    private void isServerControlledInventory_874581880(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(874581880L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "handleContainerInput(IIILnet/minecraft/world/inventory/ContainerInput;Lnet/minecraft/world/entity/player/Player;)V", cancellable = true)
@@ -143,78 +215,6 @@ public class MultiPlayerGameMode836303297Mixin {
     private void handlePlaceRecipe__569408288(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-569408288L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "stopDestroyBlock()V", cancellable = true)
-    private void stopDestroyBlock_874578036(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(874578036L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "spectatorNoAction()V", cancellable = true)
-    private void spectatorNoAction_874578036(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(874578036L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "piercingAttack(Lnet/minecraft/world/item/component/PiercingWeapon;)V", cancellable = true)
-    private void piercingAttack__131038579(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-131038579L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "isDestroying()Z", cancellable = true)
-    private void isDestroying_874581880(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(874581880L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "hasMissTime()Z", cancellable = true)
-    private void hasMissTime_874581880(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(874581880L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "startDestroyBlock(Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/Direction;)Z", cancellable = true)
-    private void startDestroyBlock_1448512600(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1448512600L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "continueDestroyBlock(Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/Direction;)Z", cancellable = true)
-    private void continueDestroyBlock_1448512600(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1448512600L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "handlePickItemFromEntity(Lnet/minecraft/world/entity/Entity;Z)V", cancellable = true)
-    private void handlePickItemFromEntity__239159355(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-239159355L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "handlePickItemFromBlock(Lnet/minecraft/core/BlockPos;Z)V", cancellable = true)
-    private void handlePickItemFromBlock_1816200490(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1816200490L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "getPlayerMode()Lnet/minecraft/world/level/GameType;", cancellable = true)
-    private void getPlayerMode__559143001(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-559143001L))
-            info.setReturnValue(net.minecraft.world.level.GameType.SPECTATOR);
-    }
-
-    @Inject(at = @At("HEAD"), method = "hasExperience()Z", cancellable = true)
-    private void hasExperience_874581880(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(874581880L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "canHurtPlayer()Z", cancellable = true)
-    private void canHurtPlayer_874581880(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(874581880L))
-            info.setReturnValue(true);
     }
 
 

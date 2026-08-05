@@ -25,16 +25,16 @@ public class TntBlock1373074551Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "dropFromExplosion(Lnet/minecraft/world/level/Explosion;)Z", cancellable = true)
-    private void dropFromExplosion__937157844(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-937157844L))
-            info.setReturnValue(true);
-    }
-
     @Inject(at = @At("HEAD"), method = "wasExploded(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/Explosion;)V", cancellable = true)
     private void wasExploded__746970011(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-746970011L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "dropFromExplosion(Lnet/minecraft/world/level/Explosion;)Z", cancellable = true)
+    private void dropFromExplosion__937157844(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-937157844L))
+            info.setReturnValue(true);
     }
 
 

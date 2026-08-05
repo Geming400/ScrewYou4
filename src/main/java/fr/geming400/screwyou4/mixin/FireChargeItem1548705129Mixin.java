@@ -7,9 +7,9 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.world.item.FireChargeItem.class)
 public class FireChargeItem1548705129Mixin {
-        @Inject(at = @At("HEAD"), method = "useOn(Lnet/minecraft/world/item/context/UseOnContext;)Lnet/minecraft/world/InteractionResult;", cancellable = true)
-    private void useOn__360138126(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-360138126L))
+        @Inject(at = @At("HEAD"), method = "createDispenseConfig()Lnet/minecraft/world/item/ProjectileItem$DispenseConfig;", cancellable = true)
+    private void createDispenseConfig__487548069(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-487548069L))
             info.setReturnValue(null);
     }
 
@@ -19,9 +19,9 @@ public class FireChargeItem1548705129Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "createDispenseConfig()Lnet/minecraft/world/item/ProjectileItem$DispenseConfig;", cancellable = true)
-    private void createDispenseConfig__487548069(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-487548069L))
+    @Inject(at = @At("HEAD"), method = "useOn(Lnet/minecraft/world/item/context/UseOnContext;)Lnet/minecraft/world/InteractionResult;", cancellable = true)
+    private void useOn__360138126(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-360138126L))
             info.setReturnValue(null);
     }
 

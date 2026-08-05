@@ -22,7 +22,7 @@ public class MipmapStrategy_1960073321Mixin {
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName_824612849(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(824612849L))
-            info.setReturnValue("RKpi施挞;Qz%탷0y먕I(_}OLQ9Haﯽ娳隉})O");
+            info.setReturnValue("RKpi\u65BD\u631E;Qz%\uD0F70y\uBA15I(_}OLQ9Ha\uFBFD\u5A33\u9689})O");
     }
 
 

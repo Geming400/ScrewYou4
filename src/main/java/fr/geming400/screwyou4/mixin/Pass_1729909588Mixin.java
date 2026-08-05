@@ -16,13 +16,13 @@ public class Pass_1729909588Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_594449612(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(594449612L))
-            info.setReturnValue("{'k臋a%c(NT|#%HK9b($Z垕\")lO1jGFTkyw2*0za鍌'0qXd8><");
+            info.setReturnValue("{'k\u81CBa%c(NT|#%HK9b($Z\u5795\")lO1jGFTkyw2*0za\u934C'0qXd8><");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1768172329(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1768172329L))
-            info.setReturnValue(910322);
+            info.setReturnValue(755309022);
     }
 
 

@@ -10,7 +10,7 @@ public class GateBehavior_930674251Mixin {
         @Inject(at = @At("HEAD"), method = "debugString()Ljava/lang/String;", cancellable = true)
     private void debugString__204786221(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-204786221L))
-            info.setReturnValue("媔?)'T>$ᔹ.3h'`ZYLs|MA#+b;7UgRU!₈5}dinv枻[g驽h[Z");
+            info.setReturnValue("\u5A94?)'T>$\u1539.3h'`ZYLs|MA#+b;7UgRU!\u20885}dinv\u67BB[g\u9A7Dh[Z");
     }
 
     @Inject(at = @At("HEAD"), method = "tryStart(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/LivingEntity;J)Z", cancellable = true)
@@ -25,12 +25,6 @@ public class GateBehavior_930674251Mixin {
             info.setReturnValue(net.minecraft.world.entity.ai.behavior.Behavior.Status.STOPPED);
     }
 
-    @Inject(at = @At("HEAD"), method = "getRequiredMemories()Ljava/util/Set;", cancellable = true)
-    private void getRequiredMemories__898361236(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-898361236L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "tickOrStop(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/LivingEntity;J)V", cancellable = true)
     private void tickOrStop_8122056(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(8122056L))
@@ -41,6 +35,12 @@ public class GateBehavior_930674251Mixin {
     private void doStop_8122056(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(8122056L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getRequiredMemories()Ljava/util/Set;", cancellable = true)
+    private void getRequiredMemories__898361236(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-898361236L))
+            info.setReturnValue(null);
     }
 
 

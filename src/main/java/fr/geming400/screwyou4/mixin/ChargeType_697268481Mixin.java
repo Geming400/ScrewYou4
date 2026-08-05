@@ -22,7 +22,7 @@ public class ChargeType_697268481Mixin {
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName__438191991(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-438191991L))
-            info.setReturnValue("de)|;/G\"}⋒2Z*");
+            info.setReturnValue("de)|;/G\"}\u22D22Z*");
     }
 
 

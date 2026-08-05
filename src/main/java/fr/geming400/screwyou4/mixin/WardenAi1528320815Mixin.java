@@ -7,9 +7,9 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.world.entity.monster.warden.WardenAi.class)
 public class WardenAi1528320815Mixin {
-        @Inject(at = @At("HEAD"), method = "setDigCooldown(Lnet/minecraft/world/entity/LivingEntity;)V", cancellable = true)
-    private static void setDigCooldown_1849984394(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1849984394L))
+        @Inject(at = @At("HEAD"), method = "updateActivity(Lnet/minecraft/world/entity/ai/Brain;)V", cancellable = true)
+    private static void updateActivity__307644985(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-307644985L))
             info.cancel();
     }
 
@@ -19,9 +19,9 @@ public class WardenAi1528320815Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "updateActivity(Lnet/minecraft/world/entity/ai/Brain;)V", cancellable = true)
-    private static void updateActivity__307644985(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-307644985L))
+    @Inject(at = @At("HEAD"), method = "setDigCooldown(Lnet/minecraft/world/entity/LivingEntity;)V", cancellable = true)
+    private static void setDigCooldown_1849984394(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1849984394L))
             info.cancel();
     }
 

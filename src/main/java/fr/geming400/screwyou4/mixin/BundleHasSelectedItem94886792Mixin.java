@@ -28,13 +28,13 @@ public class BundleHasSelectedItem94886792Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__1040573183(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1040573183L))
-            info.setReturnValue("䇂ꠑ}1^> ᩢI7heaTop=jwcu#h8f!V턪Lw; 3>Uv+y0hpQy[:bႅ륪谹47+6v6}>sa顙b-dL項L/CE{");
+            info.setReturnValue("\u41C2\uA811}1^> \u1A62I7heaTop=jwcu#h8f!V\uD12ALw; 3>Uv+y0hpQy[:b\u1085\uB96A\u8C3947+6v6}>sa\u9859b-dL\u9805L/CE{");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_133149534(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(133149534L))
-            info.setReturnValue(-404243949);
+            info.setReturnValue(-208145549);
     }
 
 

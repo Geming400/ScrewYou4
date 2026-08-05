@@ -16,23 +16,23 @@ public class AtlasSprite_1717949053Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_582489077(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(582489077L))
-            info.setReturnValue("(< 㡈蕠_v^끚됡#胕&84V$_쀬[k,xA");
+            info.setReturnValue("(< \u3848\u8560_v^\uB05A\uB421#\u80D5&84V$_\uC02C[k,xA");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1756211794(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1756211794L))
-            info.setReturnValue(1431981150);
-    }
-
-    @Inject(at = @At("HEAD"), method = "spriteId()Lnet/minecraft/resources/Identifier;", cancellable = true)
-    private void spriteId__725117501(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-725117501L))
-            info.setReturnValue(null);
+            info.setReturnValue(1803815950);
     }
 
     @Inject(at = @At("HEAD"), method = "atlasId()Lnet/minecraft/resources/Identifier;", cancellable = true)
     private void atlasId__725117501(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-725117501L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "spriteId()Lnet/minecraft/resources/Identifier;", cancellable = true)
+    private void spriteId__725117501(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-725117501L))
             info.setReturnValue(null);
     }

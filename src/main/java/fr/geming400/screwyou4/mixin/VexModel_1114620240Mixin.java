@@ -25,15 +25,15 @@ public class VexModel_1114620240Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "setupAnim(Ljava/lang/Object;)V", cancellable = true)
-    private void setupAnim__1794710178(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1794710178L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "setupAnim(Lnet/minecraft/client/renderer/entity/state/VexRenderState;)V", cancellable = true)
     private void setupAnim__621517991(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-621517991L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "setupAnim(Ljava/lang/Object;)V", cancellable = true)
+    private void setupAnim__1794710178(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1794710178L))
             info.cancel();
     }
 

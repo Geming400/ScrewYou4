@@ -13,16 +13,16 @@ public class CauldronInteractions252244243Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "addDefaultInteractions(Lnet/minecraft/core/cauldron/CauldronInteraction$Dispatcher;)V", cancellable = true)
-    private static void addDefaultInteractions_343255745(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(343255745L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "emptyBucket(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/sounds/SoundEvent;)Lnet/minecraft/world/InteractionResult;", cancellable = true)
     private static void emptyBucket_687912395(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(687912395L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "addDefaultInteractions(Lnet/minecraft/core/cauldron/CauldronInteraction$Dispatcher;)V", cancellable = true)
+    private static void addDefaultInteractions_343255745(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(343255745L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "fillBucket(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/ItemStack;Ljava/util/function/Predicate;Lnet/minecraft/sounds/SoundEvent;)Lnet/minecraft/world/InteractionResult;", cancellable = true)

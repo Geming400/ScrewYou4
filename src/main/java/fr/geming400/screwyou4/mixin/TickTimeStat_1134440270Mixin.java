@@ -16,13 +16,13 @@ public class TickTimeStat_1134440270Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__1019706(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1019706L))
-            info.setReturnValue("dRv珿뫭]\"AoSx@襬5QgpV]<`F2#)ݙsxPuk훉Z;I%=Oy⾢=g/Y4uḟ0&g3箘Hc1 L'`V?");
+            info.setReturnValue("dRv\u73FF\uBAED]\"AoSx@\u896C5QgpV]<`F2#)\u0759sxPuk\uD6C9Z;I%=Oy\u2FA2=g/Y4u\u1E1F0&g3\u7B98Hc1 L'`V?");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1172703011(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1172703011L))
-            info.setReturnValue(-2507302);
+            info.setReturnValue(27324898);
     }
 
     @Inject(at = @At("HEAD"), method = "from(Ljdk/jfr/consumer/RecordedEvent;)Lnet/minecraft/util/profiling/jfr/stats/TickTimeStat;", cancellable = true)

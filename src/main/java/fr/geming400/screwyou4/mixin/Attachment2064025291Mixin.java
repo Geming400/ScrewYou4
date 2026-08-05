@@ -22,7 +22,7 @@ public class Attachment2064025291Mixin {
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName_928564820(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(928564820L))
-            info.setReturnValue("3ṂmꝄPBmMlo}{<:5iy컭c)FXXᅸ\"D3}7䀞$⠗AP5]<+JỢXl㜅agS]l蕸4bY^: /浏ofꏅvWㆧ");
+            info.setReturnValue("3\u1E42m\uA744PBmMlo}{<:5iy\uCEEDc)FXX\u1178\"D3}7\u401E$\u2817AP5]<+J\u1EE2Xl\u3705agS]l\u85784bY^: /\u6D4Fof\uA3C5vW\u31A7");
     }
 
 

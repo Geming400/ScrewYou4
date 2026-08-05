@@ -16,7 +16,7 @@ public class ShaderDefines1169300117Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_33840142(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(33840142L))
-            info.setReturnValue("M✀*B>ye黛G娐=✌牌.ദszywQ8,힎y힆xU.A욞ꚿ/6WwjR蟬(`{L*f*X=䡪n^ꢬoVL诧&\"H8bcHx(");
+            info.setReturnValue("M\u2700*B>ye\u9EDBG\u5A10=\u270C\u724C.\u0D26szywQ8,\uD78Ey\uD786xU.A\uC69E\uA6BF/6WwjR\u87EC(`{L*f*X=\u486An^\uA8ACoVL\u8BE7&\"H8bcHx(");
     }
 
     @Inject(at = @At("HEAD"), method = "values()Ljava/util/Map;", cancellable = true)
@@ -34,7 +34,7 @@ public class ShaderDefines1169300117Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1207562859(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1207562859L))
-            info.setReturnValue(-59682902);
+            info.setReturnValue(77152998);
     }
 
     @Inject(at = @At("HEAD"), method = "isEmpty()Z", cancellable = true)
@@ -52,7 +52,7 @@ public class ShaderDefines1169300117Mixin {
     @Inject(at = @At("HEAD"), method = "asSourceDirectives()Ljava/lang/String;", cancellable = true)
     private void asSourceDirectives_33839646(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(33839646L))
-            info.setReturnValue("\"᧱YPF짶AR[댁rO9''ꨨ1ᰢ&T㔁}N|䖆2_V3e8@U鄹5zẸ]CCZNVOUL칂2㾲3MC0sEm鯍E盒WჄl@Hak*晗e7");
+            info.setReturnValue("\"\u19F1YPF\uC9F6AR[\uB301rO9''\uAA281\u1C22&T\u3501}N|\u45862_V3e8@U\u91395z\u1EB8]CCZNVOUL\uCE422\u3FB23MC0sEm\u9BCDE\u76D2W\u10C4l@Hak*\u6657e7");
     }
 
     @Inject(at = @At("HEAD"), method = "withOverrides(Lnet/minecraft/client/renderer/ShaderDefines;)Lnet/minecraft/client/renderer/ShaderDefines;", cancellable = true)

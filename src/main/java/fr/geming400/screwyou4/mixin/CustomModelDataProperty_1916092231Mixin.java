@@ -10,13 +10,13 @@ public class CustomModelDataProperty_1916092231Mixin {
         @Inject(at = @At("HEAD"), method = "index()I", cancellable = true)
     private void index_1954354476(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1954354476L))
-            info.setReturnValue(-1160142884);
+            info.setReturnValue(-1394473384);
     }
 
     @Inject(at = @At("HEAD"), method = "get(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/client/multiplayer/ClientLevel;Lnet/minecraft/world/entity/ItemOwner;I)F", cancellable = true)
     private void get_905049144(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(905049144L))
-            info.setReturnValue(2.923728E8F);
+            info.setReturnValue(5.80423E7F);
     }
 
     @Inject(at = @At("HEAD"), method = "type()Lcom/mojang/serialization/MapCodec;", cancellable = true)
@@ -34,13 +34,13 @@ public class CustomModelDataProperty_1916092231Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_780632255(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(780632255L))
-            info.setReturnValue("o!H)pฃe,BAGDx$@HU뺭EQ,Z2WSS7&#('CM/*'ae7^U튙c>;F%3oNCZVDZ");
+            info.setReturnValue("o!H)p\u0E03e,BAGDx$@HU\uBEADEQ,Z2WSS7&#('CM/*'ae7^U\uD299c>;F%3oNCZVDZ");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1954354972(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1954354972L))
-            info.setReturnValue(-1338666373);
+            info.setReturnValue(-1572996873);
     }
 
 

@@ -10,7 +10,7 @@ public class ServerboundEditBookPacket_2005926120Mixin {
         @Inject(at = @At("HEAD"), method = "slot()I", cancellable = true)
     private void slot_2044188365(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2044188365L))
-            info.setReturnValue(-1393452121);
+            info.setReturnValue(-1166366821);
     }
 
     @Inject(at = @At("HEAD"), method = "type()Lnet/minecraft/network/protocol/PacketType;", cancellable = true)
@@ -28,13 +28,13 @@ public class ServerboundEditBookPacket_2005926120Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_870466144(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(870466144L))
-            info.setReturnValue("xb jt鉌?|rc艞dZ 椁7?$Z䈗]컵皭 旗䌋_scS끦K{&8MK,dp뫑bL3Y]XdOHr靰cf|ꨋ|n'(<=(v$2LR2l_>byBtEY7A");
+            info.setReturnValue("xb jt\u924C?|rc\u825EdZ \u69017?$Z\u4217]\uCEF5\u76AD \u65D7\u430B_scS\uB066K{&8MK,dp\uBAD1bL3Y]XdOHr\u9770cf|\uAA0B|n'(<=(v$2LR2l_>byBtEY7A");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2044188861(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2044188861L))
-            info.setReturnValue(3955884);
+            info.setReturnValue(231041184);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/protocol/game/ServerGamePacketListener;)V", cancellable = true)

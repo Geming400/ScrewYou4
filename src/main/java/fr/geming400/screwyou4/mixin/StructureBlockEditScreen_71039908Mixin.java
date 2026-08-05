@@ -31,14 +31,14 @@ public class StructureBlockEditScreen_71039908Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "isPauseScreen()Z", cancellable = true)
-    private void isPauseScreen_109318490(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "isInGameUi()Z", cancellable = true)
+    private void isInGameUi_109318490(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(109318490L))
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "isInGameUi()Z", cancellable = true)
-    private void isInGameUi_109318490(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "isPauseScreen()Z", cancellable = true)
+    private void isPauseScreen_109318490(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(109318490L))
             info.setReturnValue(true);
     }

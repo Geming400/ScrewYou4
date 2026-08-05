@@ -22,13 +22,13 @@ public class BlockItemStateProperties663655906Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__471804069(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-471804069L))
-            info.setReturnValue("Os1=L})}dY{1m짳K>![胻EvXa棉(X\"8hfXN6S");
+            info.setReturnValue("Os1=L})}dY{1m\uC9F3K>![\u80FBEvXa\u68C9(X\"8hfXN6S");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_701918648(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(701918648L))
-            info.setReturnValue(-276385190);
+            info.setReturnValue(-750052590);
     }
 
     @Inject(at = @At("HEAD"), method = "isEmpty()Z", cancellable = true)

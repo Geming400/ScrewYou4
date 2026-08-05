@@ -25,9 +25,9 @@ public class TagLoader1370509631Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "loadTagsFromNetwork(Lnet/minecraft/tags/TagNetworkSerialization$NetworkPayload;Lnet/minecraft/core/Registry;)Ljava/util/Map;", cancellable = true)
-    private static void loadTagsFromNetwork_1932967440(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1932967440L))
+    @Inject(at = @At("HEAD"), method = "loadTagsForExistingRegistries(Lnet/minecraft/server/packs/resources/ResourceManager;Lnet/minecraft/core/RegistryAccess;)Ljava/util/List;", cancellable = true)
+    private static void loadTagsForExistingRegistries__223517612(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-223517612L))
             info.setReturnValue(null);
     }
 
@@ -43,9 +43,9 @@ public class TagLoader1370509631Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "loadTagsForExistingRegistries(Lnet/minecraft/server/packs/resources/ResourceManager;Lnet/minecraft/core/RegistryAccess;)Ljava/util/List;", cancellable = true)
-    private static void loadTagsForExistingRegistries__223517612(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-223517612L))
+    @Inject(at = @At("HEAD"), method = "loadTagsFromNetwork(Lnet/minecraft/tags/TagNetworkSerialization$NetworkPayload;Lnet/minecraft/core/Registry;)Ljava/util/Map;", cancellable = true)
+    private static void loadTagsFromNetwork_1932967440(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1932967440L))
             info.setReturnValue(null);
     }
 

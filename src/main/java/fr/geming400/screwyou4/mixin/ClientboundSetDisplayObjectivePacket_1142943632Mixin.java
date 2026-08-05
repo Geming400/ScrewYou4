@@ -34,7 +34,7 @@ public class ClientboundSetDisplayObjectivePacket_1142943632Mixin {
     @Inject(at = @At("HEAD"), method = "getObjectiveName()Ljava/lang/String;", cancellable = true)
     private void getObjectiveName_7483160(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(7483160L))
-            info.setReturnValue("mehsC'Gav錋Fаꬳᔇ?WK<o㷍,⋣pA17Akv퀏d78>|a-r(_a%霕=S}DWzl.3}2^81i");
+            info.setReturnValue("mehsC'Gav\u930BF\u0430\uAB33\u1507?WK<o\u3DCD,\u22E3pA17Akv\uD00Fd78>|a-r(_a%\u9715=S}DWzl.3}2^81i");
     }
 
 

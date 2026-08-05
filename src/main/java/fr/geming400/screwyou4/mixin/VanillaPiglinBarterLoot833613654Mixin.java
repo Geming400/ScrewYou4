@@ -16,13 +16,13 @@ public class VanillaPiglinBarterLoot833613654Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__301846321(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-301846321L))
-            info.setReturnValue("d@_p젶+su`#oXlyK");
+            info.setReturnValue("d@_p\uC836+su`#oXlyK");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_871876396(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(871876396L))
-            info.setReturnValue(463835117);
+            info.setReturnValue(1055069717);
     }
 
     @Inject(at = @At("HEAD"), method = "generate(Ljava/util/function/BiConsumer;)V", cancellable = true)

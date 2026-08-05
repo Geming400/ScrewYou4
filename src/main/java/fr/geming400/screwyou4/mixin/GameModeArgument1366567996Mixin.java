@@ -19,16 +19,16 @@ public class GameModeArgument1366567996Mixin {
             info.setReturnValue(net.minecraft.world.level.GameType.SURVIVAL);
     }
 
+    @Inject(at = @At("HEAD"), method = "gameMode()Lnet/minecraft/commands/arguments/GameModeArgument;", cancellable = true)
+    private static void gameMode__1250283398(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1250283398L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "getGameMode(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/world/level/GameType;", cancellable = true)
     private static void getGameMode__99208746(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-99208746L))
             info.setReturnValue(net.minecraft.world.level.GameType.ADVENTURE);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getExamples()Ljava/util/Collection;", cancellable = true)
-    private void getExamples__447080276(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-447080276L))
-            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "listSuggestions(Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
@@ -37,9 +37,9 @@ public class GameModeArgument1366567996Mixin {
             info.setReturnValue(new java.util.concurrent.CompletableFuture());
     }
 
-    @Inject(at = @At("HEAD"), method = "gameMode()Lnet/minecraft/commands/arguments/GameModeArgument;", cancellable = true)
-    private static void gameMode__1250283398(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1250283398L))
+    @Inject(at = @At("HEAD"), method = "getExamples()Ljava/util/Collection;", cancellable = true)
+    private void getExamples__447080276(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-447080276L))
             info.setReturnValue(null);
     }
 

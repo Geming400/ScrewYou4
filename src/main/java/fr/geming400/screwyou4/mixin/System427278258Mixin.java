@@ -22,13 +22,13 @@ public class System427278258Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__708181717(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-708181717L))
-            info.setReturnValue("Jﳣ'WrZU[麩Q%Hb⪀Y퓃csF⾉>Aj\",#庛dP3T&4\"0Kᨿὦ5pK䥀q뺆Yfdu鑭J9oeb&V<S+_|汩U3澔gQ?R|8G=tWksᕤ!@I亠⣜X8Hf;T!yru");
+            info.setReturnValue("J\uFCE3'WrZU[\u9EA9Q%Hb\u2A80Y\uD4C3csF\u2F89>Aj\",#\u5E9BdP3T&4\"0K\u1A3F\u1F665pK\u4940q\uBE86Yfdu\u946DJ9oeb&V<S+_|\u6C69U3\u6F94gQ?R|8G=tWks\u1564!@I\u4EA0\u28DCX8Hf;T!yru");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_465541000(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(465541000L))
-            info.setReturnValue(-697817361);
+            info.setReturnValue(-563081761);
     }
 
     @Inject(at = @At("HEAD"), method = "message()Lnet/minecraft/network/chat/Component;", cancellable = true)
@@ -37,15 +37,15 @@ public class System427278258Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "toContentComponent()Lnet/minecraft/network/chat/Component;", cancellable = true)
-    private void toContentComponent__1749630907(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1749630907L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "timeStamp()Ljava/time/Instant;", cancellable = true)
     private void timeStamp_1524512458(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1524512458L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "toContentComponent()Lnet/minecraft/network/chat/Component;", cancellable = true)
+    private void toContentComponent__1749630907(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1749630907L))
             info.setReturnValue(null);
     }
 

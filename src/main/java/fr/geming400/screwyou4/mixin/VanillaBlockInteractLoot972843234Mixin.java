@@ -16,13 +16,13 @@ public class VanillaBlockInteractLoot972843234Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__162616741(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-162616741L))
-            info.setReturnValue("Q匑;HkoV,R#㯃LKi-6$ggo]直6%aݻ.䍥@MH>麵 PfusZ!^C}gcjRZbY");
+            info.setReturnValue("Q\u5311;HkoV,R#\u3BC3LKi-6$ggo]\uFAA86%a\u077B.\u4365@MH>\u9EB5 PfusZ!^C}gcjRZbY");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1011105976(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1011105976L))
-            info.setReturnValue(-223489874);
+            info.setReturnValue(-692986174);
     }
 
     @Inject(at = @At("HEAD"), method = "generate(Ljava/util/function/BiConsumer;)V", cancellable = true)

@@ -16,13 +16,13 @@ public class ParameterlessMethod_1411574711Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_276114735(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(276114735L))
-            info.setReturnValue("J\"cUYUxiEeM]L븶9좟IexL");
+            info.setReturnValue("J\"cUYUxiEeM]L\uBE369\uC89FIexL");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1449837452(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1449837452L))
-            info.setReturnValue(209838214);
+            info.setReturnValue(-368532786);
     }
 
     @Inject(at = @At("HEAD"), method = "apply(Lnet/minecraft/server/jsonrpc/internalapi/MinecraftApi;Lcom/google/gson/JsonElement;Lnet/minecraft/server/jsonrpc/methods/ClientInfo;)Lcom/google/gson/JsonElement;", cancellable = true)

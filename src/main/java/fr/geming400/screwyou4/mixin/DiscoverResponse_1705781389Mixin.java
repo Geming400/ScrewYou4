@@ -16,13 +16,13 @@ public class DiscoverResponse_1705781389Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_570321413(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(570321413L))
-            info.setReturnValue("!}a]=Xz'l0Gm|y;*D4PCFA>水WN:<9&7h䮧(b\",8vgjkLI&3S6V;-#='v-1Gz剙4{}?}YQB/VN?[UZ4<h?4\"⨀핃툞=EkX:");
+            info.setReturnValue("!}a]=Xz'l0Gm|y;*D4PCFA>\u6C34WN:<9&7h\u4BA7(b\",8vgjkLI&3S6V;-#='v-1Gz\u52594{}?}YQB/VN?[UZ4<h?4\"\u2A00\uD543\uD21E=EkX:");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1744044130(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1744044130L))
-            info.setReturnValue(347365987);
+            info.setReturnValue(-279333213);
     }
 
     @Inject(at = @At("HEAD"), method = "methods()Ljava/util/List;", cancellable = true)

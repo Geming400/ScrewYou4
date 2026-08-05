@@ -13,6 +13,12 @@ public class RecipeBook397492395Mixin {
             info.setReturnValue(true);
     }
 
+    @Inject(at = @At("HEAD"), method = "setOpen(Lnet/minecraft/world/inventory/RecipeBookType;Z)V", cancellable = true)
+    private void setOpen__528515346(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-528515346L))
+            info.cancel();
+    }
+
     @Inject(at = @At("HEAD"), method = "isFiltering(Lnet/minecraft/world/inventory/RecipeBookType;)Z", cancellable = true)
     private void isFiltering__1296333284(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1296333284L))
@@ -31,21 +37,15 @@ public class RecipeBook397492395Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "setBookSetting(Lnet/minecraft/world/inventory/RecipeBookType;ZZ)V", cancellable = true)
-    private void setBookSetting_1799123416(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1799123416L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "getBookSettings()Lnet/minecraft/stats/RecipeBookSettings;", cancellable = true)
     private void getBookSettings__669593445(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-669593445L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "setOpen(Lnet/minecraft/world/inventory/RecipeBookType;Z)V", cancellable = true)
-    private void setOpen__528515346(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-528515346L))
+    @Inject(at = @At("HEAD"), method = "setBookSetting(Lnet/minecraft/world/inventory/RecipeBookType;ZZ)V", cancellable = true)
+    private void setBookSetting_1799123416(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1799123416L))
             info.cancel();
     }
 

@@ -16,13 +16,13 @@ public class MobEffectsPredicate112390263Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__1023069712(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1023069712L))
-            info.setReturnValue(".pI,W^YC:4h0j곮멖◂L&2YWTS9b\"n*婫RjyQ;bU 1ZЉ毩*y7");
+            info.setReturnValue(".pI,W^YC:4h0j\uACEE\uBA56\u25C2L&2YWTS9b\"n*\u5A6BRjyQ;bU 1Z\u0409\u6BE9*y7");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_150653005(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(150653005L))
-            info.setReturnValue(-881426322);
+            info.setReturnValue(-704171822);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/world/entity/LivingEntity;)Z", cancellable = true)

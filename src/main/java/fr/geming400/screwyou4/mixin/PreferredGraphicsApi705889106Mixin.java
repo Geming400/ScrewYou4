@@ -25,16 +25,16 @@ public class PreferredGraphicsApi705889106Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
+    private void getSerializedName__429571365(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-429571365L))
+            info.setReturnValue("''jo9!lz6j.xv\u3D26\uD7F5Q$&XEPzV\uD570H) \u4175[:IOAeGi=A\u55E2'bw\u0C02Umt]xW<");
+    }
+
     @Inject(at = @At("HEAD"), method = "getBackendsToTry()[Lcom/mojang/blaze3d/systems/GpuBackend;", cancellable = true)
     private void getBackendsToTry__891965601(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-891965601L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
-    private void getSerializedName__429571365(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-429571365L))
-            info.setReturnValue("''jo9!lz6j.xv㴦ퟵQ$&XEPzV핰H) 䅵[:IOAeGi=A嗢'bwంUmt]xW<");
     }
 
 

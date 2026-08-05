@@ -16,13 +16,13 @@ public class PagePredicate2134262477Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_998802502(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(998802502L))
-            info.setReturnValue("_ؐപ秪l6mSM껨fE㫀,^(㓆 8zO8txvj@E[iy扟HmJeAo뎱腵Y'1M2=7+Nꑯ7\"'!:jpptpE:ޣQFMtSS5eQꙢ=0>$Q굠@b^[텈X$-/+T");
+            info.setReturnValue("_\u0610\u0D2A\u79EAl6mSM\uAEE8fE\u3AC0,^(\u34C6 8zO8txvj@E[iy\u625FHmJeAo\uB3B1\u8175Y'1M2=7+N\uA46F7\"'!:jpptpE:\u07A3QFMtSS5eQ\uA662=0>$Q\uAD60@b^[\uD148X$-/+T");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__2122442077(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2122442077L))
-            info.setReturnValue(-2085681242);
+            info.setReturnValue(-1793360942);
     }
 
     @Inject(at = @At("HEAD"), method = "test(Ljava/lang/Object;)Z", cancellable = true)

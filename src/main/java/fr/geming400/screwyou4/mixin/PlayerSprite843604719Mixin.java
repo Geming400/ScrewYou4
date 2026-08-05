@@ -22,13 +22,13 @@ public class PlayerSprite843604719Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__291855256(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-291855256L))
-            info.setReturnValue("ꋓ祐Gy엓?X_-|/:yJOd@SFM9r;v)B");
+            info.setReturnValue("\uA2D3\u7950Gy\uC5D3?X_-|/:yJOd@SFM9r;v)B");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_881867461(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(881867461L))
-            info.setReturnValue(560330852);
+            info.setReturnValue(934004552);
     }
 
     @Inject(at = @At("HEAD"), method = "hat()Z", cancellable = true)

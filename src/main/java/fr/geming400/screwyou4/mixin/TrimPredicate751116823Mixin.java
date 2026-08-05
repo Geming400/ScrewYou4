@@ -16,13 +16,13 @@ public class TrimPredicate751116823Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__384343152(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-384343152L))
-            info.setReturnValue(";叢g+eRX䔫 m킎 .Mjx_u脱CL}jᾐ");
+            info.setReturnValue(";\u53E2g+eRX\u452B m\uD08E .Mjx_u\u8131CL}j\u1F90");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_789379565(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(789379565L))
-            info.setReturnValue(1827213590);
+            info.setReturnValue(1983201490);
     }
 
     @Inject(at = @At("HEAD"), method = "componentType()Lnet/minecraft/core/component/DataComponentType;", cancellable = true)

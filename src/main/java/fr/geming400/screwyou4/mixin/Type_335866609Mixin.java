@@ -16,13 +16,13 @@ public class Type_335866609Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__799593367(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-799593367L))
-            info.setReturnValue("ue2 U{a錠@崜뾤kHO쨀T썿g_B6cg4V`");
+            info.setReturnValue("ue2 U{a\u9320@\u5D1C\uBFA4kHO\uCA00T\uC37Fg_B6cg4V`");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_374129350(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(374129350L))
-            info.setReturnValue(-374679415);
+            info.setReturnValue(-325253815);
     }
 
     @Inject(at = @At("HEAD"), method = "id()Lnet/minecraft/resources/Identifier;", cancellable = true)

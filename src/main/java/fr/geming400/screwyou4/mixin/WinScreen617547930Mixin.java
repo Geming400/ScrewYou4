@@ -25,8 +25,8 @@ public class WinScreen617547930Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "keyReleased(Lnet/minecraft/client/input/KeyEvent;)Z", cancellable = true)
-    private void keyReleased__299087784(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "keyPressed(Lnet/minecraft/client/input/KeyEvent;)Z", cancellable = true)
+    private void keyPressed__299087784(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-299087784L))
             info.setReturnValue(false);
     }
@@ -43,22 +43,10 @@ public class WinScreen617547930Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "keyPressed(Lnet/minecraft/client/input/KeyEvent;)Z", cancellable = true)
-    private void keyPressed__299087784(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-299087784L))
-            info.setReturnValue(false);
-    }
-
     @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIF)V", cancellable = true)
     private void extractRenderState__342139442(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-342139442L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "getBackgroundMusic()Lnet/minecraft/sounds/Music;", cancellable = true)
-    private void getBackgroundMusic__767703814(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-767703814L))
-            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "isPauseScreen()Z", cancellable = true)
@@ -71,6 +59,18 @@ public class WinScreen617547930Mixin {
     private void extractBackground__342139442(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-342139442L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "keyReleased(Lnet/minecraft/client/input/KeyEvent;)Z", cancellable = true)
+    private void keyReleased__299087784(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-299087784L))
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getBackgroundMusic()Lnet/minecraft/sounds/Music;", cancellable = true)
+    private void getBackgroundMusic__767703814(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-767703814L))
+            info.setReturnValue(null);
     }
 
 

@@ -22,7 +22,7 @@ public class BellAttachType_2038481170Mixin {
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName_903020698(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(903020698L))
-            info.setReturnValue("s_CtN㸆h黤 Q㡻<ꜿ8X1{(0Bi|*tてN^7PWVAv$&{ᑡo9鈧a+3n/i<*<M䏼1㳴z0=]=!\")xwsGa98⭆H%gtvy1S=&t.LH⺟oX;ꂯX-凷 Z");
+            info.setReturnValue("s_CtN\u3E06h\u9EE4 Q\u387B<\uA73F8X1{(0Bi|*t\u3066N^7PWVAv$&{\u1461o9\u9227a+3n/i<*<M\u43FC1\u3CF4z0=]=!\")xwsGa98\u2B46H%gtvy1S=&t.LH\u2E9FoX;\uA0AFX-\u51F7 Z");
     }
 
 

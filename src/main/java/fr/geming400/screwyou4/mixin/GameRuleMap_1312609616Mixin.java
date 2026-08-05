@@ -16,7 +16,7 @@ public class GameRuleMap_1312609616Mixin {
     @Inject(at = @At("HEAD"), method = "size()I", cancellable = true)
     private void size_1350871861(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1350871861L))
-            info.setReturnValue(1262526021);
+            info.setReturnValue(2022516321);
     }
 
     @Inject(at = @At("HEAD"), method = "reset(Lnet/minecraft/world/level/gamerules/GameRule;)V", cancellable = true)
@@ -40,13 +40,13 @@ public class GameRuleMap_1312609616Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_177149144(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(177149144L))
-            info.setReturnValue(".1!蜴BHdTCd6{y终@]D鳑QgBdU,=鰚R 7b˷08#`wJ*");
+            info.setReturnValue(".1!\u8734BHdTCd6{y\u7EC8@]D\u9CD1QgBdU,=\u9C1AR 7b\u02F708#`wJ*");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1350871861(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1350871861L))
-            info.setReturnValue(1262526021);
+            info.setReturnValue(2022516321);
     }
 
     @Inject(at = @At("HEAD"), method = "copyOf(Lnet/minecraft/world/level/gamerules/GameRuleMap;)Lnet/minecraft/world/level/gamerules/GameRuleMap;", cancellable = true)

@@ -16,13 +16,13 @@ public class HasCommandLevel_1595106962Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_459646986(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(459646986L))
-            info.setReturnValue("桮b2r<");
+            info.setReturnValue("\u686Eb2r<");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1633369703(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1633369703L))
-            info.setReturnValue(-949549497);
+            info.setReturnValue(-1648011497);
     }
 
     @Inject(at = @At("HEAD"), method = "level()Lnet/minecraft/server/permissions/PermissionLevel;", cancellable = true)

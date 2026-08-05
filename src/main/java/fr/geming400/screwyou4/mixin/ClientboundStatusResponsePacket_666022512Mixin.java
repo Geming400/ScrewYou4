@@ -22,13 +22,13 @@ public class ClientboundStatusResponsePacket_666022512Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__469437464(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-469437464L))
-            info.setReturnValue("a꺾o)নeFVk1X艽-afp5@[Dq?>[yq0-톃|1`S89539谯썪87|M&*A>쎹W䅜#kf1*:p옓X");
+            info.setReturnValue("a\uAEBEo)\u09A8eFVk1X\u827D-afp5@[Dq?>[yq0-\uD183|1`S89539\u8C2F\uC36A87|M&*A>\uC3B9W\u415C#kf1*:p\uC613X");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_704285253(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(704285253L))
-            info.setReturnValue(-1096719781);
+            info.setReturnValue(-310832581);
     }
 
     @Inject(at = @At("HEAD"), method = "status()Lnet/minecraft/network/protocol/status/ServerStatus;", cancellable = true)

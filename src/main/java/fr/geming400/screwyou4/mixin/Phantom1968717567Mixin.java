@@ -25,6 +25,12 @@ public class Phantom1968717567Mixin {
             info.setReturnValue(false);
     }
 
+    @Inject(at = @At("HEAD"), method = "finalizeSpawn(Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData;", cancellable = true)
+    private void finalizeSpawn__477517791(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-477517791L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "shouldRenderAtSqrDistance(D)Z", cancellable = true)
     private void shouldRenderAtSqrDistance__1116946518(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1116946518L))
@@ -55,22 +61,16 @@ public class Phantom1968717567Mixin {
             info.setReturnValue(net.minecraft.sounds.SoundSource.MUSIC);
     }
 
-    @Inject(at = @At("HEAD"), method = "finalizeSpawn(Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData;", cancellable = true)
-    private void finalizeSpawn__477517791(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-477517791L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getUniqueFlapTickOffset()I", cancellable = true)
     private void getUniqueFlapTickOffset_2006979813(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2006979813L))
-            info.setReturnValue(-1191049987);
+            info.setReturnValue(-1213499987);
     }
 
     @Inject(at = @At("HEAD"), method = "getPhantomSize()I", cancellable = true)
     private void getPhantomSize_2006979813(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2006979813L))
-            info.setReturnValue(-1191049987);
+            info.setReturnValue(-1213499987);
     }
 
     @Inject(at = @At("HEAD"), method = "setPhantomSize(I)V", cancellable = true)

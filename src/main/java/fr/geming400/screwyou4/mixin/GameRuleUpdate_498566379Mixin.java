@@ -22,13 +22,13 @@ public class GameRuleUpdate_498566379Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__636893597(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-636893597L))
-            info.setReturnValue("彦+mpLF!g}X2`䐽n=!:nrk칂Jfsy䯛g옉yZQ5biZ^㈬X{H9ⁱ굌y#7W+=(碌JS)VT%Cu8T썪oJ(C[|()#w0q6");
+            info.setReturnValue("\u5F66+mpLF!g}X2`\u443Dn=!:nrk\uCE42Jfsy\u4BDBg\uC609yZQ5biZ^\u322CX{H9\u2071\uAD4Cy#7W+=(\uF93BJS)VT%Cu8T\uC36AoJ(C[|()#w0q6");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_536829120(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(536829120L))
-            info.setReturnValue(310695205);
+            info.setReturnValue(38767005);
     }
 
     @Inject(at = @At("HEAD"), method = "gameRule()Lnet/minecraft/world/level/gamerules/GameRule;", cancellable = true)

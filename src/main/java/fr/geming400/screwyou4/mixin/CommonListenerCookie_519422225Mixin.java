@@ -16,25 +16,13 @@ public class CommonListenerCookie_519422225Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__616037751(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-616037751L))
-            info.setReturnValue("g苨JQb>逡NB㋕HhjiUjᚽ&ne\"<KN졷gM5WF%fV(y{fyn윪");
+            info.setReturnValue("g\u82E8JQb>\u9021NB\u32D5HhjiUj\u16BD&ne\"<KN\uC877gM5WF%fV(y{fyn\uC72A");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_557684966(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(557684966L))
-            info.setReturnValue(1966397671);
-    }
-
-    @Inject(at = @At("HEAD"), method = "seenPlayers()Ljava/util/Map;", cancellable = true)
-    private void seenPlayers__1485201416(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1485201416L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "telemetryManager()Lnet/minecraft/client/telemetry/WorldSessionTelemetryManager;", cancellable = true)
-    private void telemetryManager_847424982(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(847424982L))
-            info.setReturnValue(null);
+            info.setReturnValue(-2048342825);
     }
 
     @Inject(at = @At("HEAD"), method = "enabledFeatures()Lnet/minecraft/world/flag/FeatureFlagSet;", cancellable = true)
@@ -46,18 +34,24 @@ public class CommonListenerCookie_519422225Mixin {
     @Inject(at = @At("HEAD"), method = "serverBrand()Ljava/lang/String;", cancellable = true)
     private void serverBrand__616038247(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-616038247L))
-            info.setReturnValue("헳M鉗XYHⷉWY>0ZSuz㗁EYb^^d[h$JdQ9'>攉h@dO]ᑼBQca[x_yCr鯵");
+            info.setReturnValue("\uD5F3M\u9257XYH\u2DC9WY>0ZSuz\u35C1EYb^^d[h$JdQ9'>\u6509h@dO]\u147CBQca[x_yCr\u9BF5");
+    }
+
+    @Inject(at = @At("HEAD"), method = "serverData()Lnet/minecraft/client/multiplayer/ServerData;", cancellable = true)
+    private void serverData__1118504702(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1118504702L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "seenPlayers()Ljava/util/Map;", cancellable = true)
+    private void seenPlayers__1485201416(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1485201416L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "chatState()Lnet/minecraft/client/gui/components/ChatComponent$State;", cancellable = true)
     private void chatState__1297383465(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1297383465L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "customReportDetails()Ljava/util/Map;", cancellable = true)
-    private void customReportDetails__1485201416(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1485201416L))
             info.setReturnValue(null);
     }
 
@@ -67,21 +61,21 @@ public class CommonListenerCookie_519422225Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "postDisconnectScreen()Lnet/minecraft/client/gui/screens/Screen;", cancellable = true)
-    private void postDisconnectScreen__1930327844(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1930327844L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "serverCookies()Ljava/util/Map;", cancellable = true)
     private void serverCookies__1485201416(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1485201416L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "localGameProfile()Lcom/mojang/authlib/GameProfile;", cancellable = true)
-    private void localGameProfile_1036590504(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1036590504L))
+    @Inject(at = @At("HEAD"), method = "customReportDetails()Ljava/util/Map;", cancellable = true)
+    private void customReportDetails__1485201416(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1485201416L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "postDisconnectScreen()Lnet/minecraft/client/gui/screens/Screen;", cancellable = true)
+    private void postDisconnectScreen__1930327844(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1930327844L))
             info.setReturnValue(null);
     }
 
@@ -91,21 +85,27 @@ public class CommonListenerCookie_519422225Mixin {
             info.setReturnValue(new net.minecraft.client.multiplayer.LevelLoadTracker());
     }
 
+    @Inject(at = @At("HEAD"), method = "localGameProfile()Lcom/mojang/authlib/GameProfile;", cancellable = true)
+    private void localGameProfile_1036590504(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1036590504L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "receivedRegistries()Lnet/minecraft/core/RegistryAccess$Frozen;", cancellable = true)
     private void receivedRegistries_270671959(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(270671959L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "serverData()Lnet/minecraft/client/multiplayer/ServerData;", cancellable = true)
-    private void serverData__1118504702(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1118504702L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "serverLinks()Lnet/minecraft/server/ServerLinks;", cancellable = true)
     private void serverLinks_657669856(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(657669856L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "telemetryManager()Lnet/minecraft/client/telemetry/WorldSessionTelemetryManager;", cancellable = true)
+    private void telemetryManager_847424982(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(847424982L))
             info.setReturnValue(null);
     }
 

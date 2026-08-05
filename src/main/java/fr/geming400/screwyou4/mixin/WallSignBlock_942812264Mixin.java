@@ -13,6 +13,18 @@ public class WallSignBlock_942812264Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "getYRotationDegrees(Lnet/minecraft/world/level/block/state/BlockState;)F", cancellable = true)
+    private void getYRotationDegrees_797504057(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(797504057L))
+            info.setReturnValue(2.510535E8F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "attachmentPoint(Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/PlainSignBlock$Attachment;", cancellable = true)
+    private void attachmentPoint_979244823(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(979244823L))
+            info.setReturnValue(net.minecraft.world.level.block.PlainSignBlock.Attachment.WALL);
+    }
+
     @Inject(at = @At("HEAD"), method = "getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
     private void getStateForPlacement__315787504(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-315787504L))
@@ -23,18 +35,6 @@ public class WallSignBlock_942812264Mixin {
     private void getSignHitboxCenterPosition__1253920433(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1253920433L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "attachmentPoint(Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/PlainSignBlock$Attachment;", cancellable = true)
-    private void attachmentPoint_979244823(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(979244823L))
-            info.setReturnValue(net.minecraft.world.level.block.PlainSignBlock.Attachment.WALL);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getYRotationDegrees(Lnet/minecraft/world/level/block/state/BlockState;)F", cancellable = true)
-    private void getYRotationDegrees_797504057(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(797504057L))
-            info.setReturnValue(8.196061E8F);
     }
 
 

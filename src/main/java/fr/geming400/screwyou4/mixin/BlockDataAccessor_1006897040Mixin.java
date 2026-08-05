@@ -19,6 +19,12 @@ public class BlockDataAccessor_1006897040Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "getModifiedSuccess()Lnet/minecraft/network/chat/Component;", cancellable = true)
+    private void getModifiedSuccess__1170012126(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1170012126L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "getPrintSuccess(Lnet/minecraft/nbt/Tag;)Lnet/minecraft/network/chat/Component;", cancellable = true)
     private void getPrintSuccess__1615467806(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1615467806L))
@@ -28,12 +34,6 @@ public class BlockDataAccessor_1006897040Mixin {
     @Inject(at = @At("HEAD"), method = "getPrintSuccess(Lnet/minecraft/commands/arguments/NbtPathArgument$NbtPath;DI)Lnet/minecraft/network/chat/Component;", cancellable = true)
     private void getPrintSuccess_1022878533(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1022878533L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getModifiedSuccess()Lnet/minecraft/network/chat/Component;", cancellable = true)
-    private void getModifiedSuccess__1170012126(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1170012126L))
             info.setReturnValue(null);
     }
 

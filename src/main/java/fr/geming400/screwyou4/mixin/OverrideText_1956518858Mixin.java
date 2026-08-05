@@ -22,13 +22,13 @@ public class OverrideText_1956518858Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_821058882(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(821058882L))
-            info.setReturnValue("BA7?opKH9%GVM=}(NryBS72驇㚁}\"[xz넜춰MD㸡{k钱8z;'0>");
+            info.setReturnValue("BA7?opKH9%GVM=}(NryBS72\u9A47\u3681}\"[xz\uB11C\uCDB0MD\u3E21{k\u94B18z;'0>");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1994781599(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1994781599L))
-            info.setReturnValue(1584824425);
+            info.setReturnValue(2027947525);
     }
 
     @Inject(at = @At("HEAD"), method = "apply(Ljava/util/function/Consumer;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/core/Holder;Lnet/minecraft/world/entity/ai/attributes/AttributeModifier;)V", cancellable = true)

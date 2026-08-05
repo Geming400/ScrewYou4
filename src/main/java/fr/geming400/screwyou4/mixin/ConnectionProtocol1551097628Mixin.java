@@ -22,7 +22,7 @@ public class ConnectionProtocol1551097628Mixin {
     @Inject(at = @At("HEAD"), method = "id()Ljava/lang/String;", cancellable = true)
     private void id_415637157(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(415637157L))
-            info.setReturnValue("襨*/-. Mys,s");
+            info.setReturnValue("\u8968*/-. Mys,s");
     }
 
 

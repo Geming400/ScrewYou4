@@ -16,13 +16,13 @@ public class DiscoverComponents173442184Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__962017791(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-962017791L))
-            info.setReturnValue("3voxhkbPPS@l}덇uu`6QZhPL]<m<t|m7o9/3*B39KmKO|Xh⑉|姞눿t+w");
+            info.setReturnValue("3voxhkbPPS@l}\uB347uu`6QZhPL]<m<t|m7o9/3*B39KmKO|Xh\u2449|\u59DE\uB23Ft+w");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_211704926(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(211704926L))
-            info.setReturnValue(-1941342929);
+            info.setReturnValue(-1882141729);
     }
 
     @Inject(at = @At("HEAD"), method = "schemas()Ljava/util/Map;", cancellable = true)

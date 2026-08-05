@@ -22,13 +22,13 @@ public class UntrustedEntry1747586942Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_612126967(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(612126967L))
-            info.setReturnValue("ZPu<57'醽n;쌺y=>=Hh]曭]%5M3WS忟IpYᴧP5翦1慺[7j^$摳t9큅");
+            info.setReturnValue("ZPu<57'\u91BDn;\uC33Ay=>=Hh]\u66ED]%5M3WS\u5FDFIpY\u1D27P5\u7FE61\u617A[7j^$\u6473t9\uD045");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1785849684(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1785849684L))
-            info.setReturnValue(-432674134);
+            info.setReturnValue(-37935234);
     }
 
     @Inject(at = @At("HEAD"), method = "link()Ljava/lang/String;", cancellable = true)

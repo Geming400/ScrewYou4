@@ -22,13 +22,13 @@ public class SoundSet1782760889Mixin {
     @Inject(at = @At("HEAD"), method = "getIdentifier()Ljava/lang/String;", cancellable = true)
     private void getIdentifier_647300418(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(647300418L))
-            info.setReturnValue("굣knP8y@AK!s>N|:T9W]澣w?mP6omBnr.FZ6U㌭㘢YAlz''7塳쒽4]B})Ṫ*<!el:;NI=?c9");
+            info.setReturnValue("\uAD63knP8y@AK!s>N|:T9W]\u6FA3w?mP6omBnr.FZ6U\u332D\u3622YAlz''7\u5873\uC4BD4]B})T\u0307*<!el:;NI=?c9");
     }
 
     @Inject(at = @At("HEAD"), method = "getSoundEventIdentifier()Ljava/lang/String;", cancellable = true)
     private void getSoundEventIdentifier_647300418(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(647300418L))
-            info.setReturnValue("굣knP8y@AK!s>N|:T9W]澣w?mP6omBnr.FZ6U㌭㘢YAlz''7塳쒽4]B})Ṫ*<!el:;NI=?c9");
+            info.setReturnValue("\uAD63knP8y@AK!s>N|:T9W]\u6FA3w?mP6omBnr.FZ6U\u332D\u3622YAlz''7\u5873\uC4BD4]B})T\u0307*<!el:;NI=?c9");
     }
 
 

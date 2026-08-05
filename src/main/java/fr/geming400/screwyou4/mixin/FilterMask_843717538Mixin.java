@@ -16,7 +16,7 @@ public class FilterMask_843717538Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_881979783(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(881979783L))
-            info.setReturnValue(-1668835925);
+            info.setReturnValue(-1586211325);
     }
 
     @Inject(at = @At("HEAD"), method = "isEmpty()Z", cancellable = true)
@@ -28,7 +28,7 @@ public class FilterMask_843717538Mixin {
     @Inject(at = @At("HEAD"), method = "apply(Ljava/lang/String;)Ljava/lang/String;", cancellable = true)
     private void apply_2056459360(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2056459360L))
-            info.setReturnValue("4lW[X*83fl氅{erDtOD4Y軗pFi&Pf-4r5b|x%u䏃'TWoN6/ᦓQDᴃQ靁OB=㱈aO5EK䰠/{X쩙G){b");
+            info.setReturnValue("4lW[X*83fl\u6C05{erDtOD4Y\u8ED7pFi&Pf-4r5b|x%u\u43C3'TWoN6/\u1993QD\u1D03Q\u9741OB=\u3C48aO5EK\u4C20/{X\uCA59G){b");
     }
 
     @Inject(at = @At("HEAD"), method = "write(Lnet/minecraft/network/FriendlyByteBuf;Lnet/minecraft/network/chat/FilterMask;)V", cancellable = true)

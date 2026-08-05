@@ -52,13 +52,13 @@ public class StackedItemContents_1031637210Mixin {
     @Inject(at = @At("HEAD"), method = "getBiggestCraftableStack(Lnet/minecraft/world/item/crafting/Recipe;ILnet/minecraft/world/entity/player/StackedContents$Output;)I", cancellable = true)
     private void getBiggestCraftableStack_603499761(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(603499761L))
-            info.setReturnValue(-74683237);
+            info.setReturnValue(-777158737);
     }
 
     @Inject(at = @At("HEAD"), method = "getBiggestCraftableStack(Lnet/minecraft/world/item/crafting/Recipe;Lnet/minecraft/world/entity/player/StackedContents$Output;)I", cancellable = true)
     private void getBiggestCraftableStack_1617824406(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1617824406L))
-            info.setReturnValue(836911148);
+            info.setReturnValue(134435648);
     }
 
 

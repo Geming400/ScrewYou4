@@ -22,25 +22,25 @@ public class Potion_763252109Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__372207867(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-372207867L))
-            info.setReturnValue("0Z)s⊘bWf륉g(x䍥fyW8Q`i.'t=M期QVxVdஈ洓トs!䂡wy00㯃P$;⩕a=4i;Z\"Jah8");
+            info.setReturnValue("0Z)s\u2298bWf\uB949g(x\u4365fyW8Q`i.'t=M\u671FQVxVd\u0B88\u6D13\u30C8s!\u40A1wy00\u3BC3P$;\u2A55a=4i;Z\"Jah8");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_801514850(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(801514850L))
-            info.setReturnValue(-1744556464);
+            info.setReturnValue(-1186020164);
     }
 
     @Inject(at = @At("HEAD"), method = "calculate(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/client/multiplayer/ClientLevel;Lnet/minecraft/world/entity/LivingEntity;)I", cancellable = true)
     private void calculate_106938882(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(106938882L))
-            info.setReturnValue(520703838);
+            info.setReturnValue(1079240138);
     }
 
     @Inject(at = @At("HEAD"), method = "defaultColor()I", cancellable = true)
     private void defaultColor_801514354(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(801514354L))
-            info.setReturnValue(-1541409045);
+            info.setReturnValue(-982872745);
     }
 
 

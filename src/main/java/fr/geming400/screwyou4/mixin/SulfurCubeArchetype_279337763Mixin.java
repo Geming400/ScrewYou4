@@ -16,19 +16,37 @@ public class SulfurCubeArchetype_279337763Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__856122213(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-856122213L))
-            info.setReturnValue("ZX_-bxL7<D.Vk2#撓V楮쒢笷%S!qM*eEq;&>w혎;a]ks*鐜䀩fh:[P");
+            info.setReturnValue("ZX_-bxL7<D.Vk2#\u6493V\u696E\uC4A2\u7B37%S!qM*eEq;&>w\uD60E;a]ks*\u941C\u4029fh:[P");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_317600504(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(317600504L))
-            info.setReturnValue(372762226);
+            info.setReturnValue(399588026);
     }
 
     @Inject(at = @At("HEAD"), method = "items()Lnet/minecraft/core/HolderSet;", cancellable = true)
     private void items_1899290806(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1899290806L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "explosion()Ljava/util/Optional;", cancellable = true)
+    private void explosion_524799184(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(524799184L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "attributeModifiers()Ljava/util/List;", cancellable = true)
+    private void attributeModifiers_1905674578(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1905674578L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "buoyant()Z", cancellable = true)
+    private void buoyant_317616345(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(317616345L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "contactDamage()Ljava/util/Optional;", cancellable = true)
@@ -47,24 +65,6 @@ public class SulfurCubeArchetype_279337763Mixin {
     private void soundSettings__429192830(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-429192830L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "attributeModifiers()Ljava/util/List;", cancellable = true)
-    private void attributeModifiers_1905674578(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1905674578L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "explosion()Ljava/util/Optional;", cancellable = true)
-    private void explosion_524799184(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(524799184L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "buoyant()Z", cancellable = true)
-    private void buoyant_317616345(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(317616345L))
-            info.setReturnValue(false);
     }
 
 

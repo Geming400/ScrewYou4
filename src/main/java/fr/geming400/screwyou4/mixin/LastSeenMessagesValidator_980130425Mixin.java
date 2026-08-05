@@ -13,6 +13,12 @@ public class LastSeenMessagesValidator_980130425Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "applyUpdate(Lnet/minecraft/network/chat/LastSeenMessages$Update;)Lnet/minecraft/network/chat/LastSeenMessages;", cancellable = true)
+    private void applyUpdate_566460222(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(566460222L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "applyOffset(I)V", cancellable = true)
     private void applyOffset__2100919900(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-2100919900L))
@@ -22,13 +28,7 @@ public class LastSeenMessagesValidator_980130425Mixin {
     @Inject(at = @At("HEAD"), method = "trackedMessagesCount()I", cancellable = true)
     private void trackedMessagesCount_1018392670(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1018392670L))
-            info.setReturnValue(-285237848);
-    }
-
-    @Inject(at = @At("HEAD"), method = "applyUpdate(Lnet/minecraft/network/chat/LastSeenMessages$Update;)Lnet/minecraft/network/chat/LastSeenMessages;", cancellable = true)
-    private void applyUpdate_566460222(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(566460222L))
-            info.setReturnValue(null);
+            info.setReturnValue(-314594848);
     }
 
 

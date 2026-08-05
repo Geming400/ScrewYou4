@@ -34,7 +34,7 @@ public class SwimNodeEvaluator160884631Mixin {
     @Inject(at = @At("HEAD"), method = "getNeighbors([Lnet/minecraft/world/level/pathfinder/Node;Lnet/minecraft/world/level/pathfinder/Node;)I", cancellable = true)
     private void getNeighbors__487710552(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-487710552L))
-            info.setReturnValue(2095605655);
+            info.setReturnValue(-1568843641);
     }
 
     @Inject(at = @At("HEAD"), method = "getPathType(Lnet/minecraft/world/level/pathfinder/PathfindingContext;III)Lnet/minecraft/world/level/pathfinder/PathType;", cancellable = true)

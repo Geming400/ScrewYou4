@@ -16,13 +16,13 @@ public class TriggerInstance1108264852Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__27195123(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-27195123L))
-            info.setReturnValue("cm뵎솳eN盷?hZw.1s>}e4yxR>B傏瞨卧p$y@.= 엠h戶B}鷰+놽6i簤{戌+bg!$HwBm]");
+            info.setReturnValue("cm\uBD4E\uC1B3eN\u76F7?hZw.1s>}e4yxR>B\u508F\u77A8\u5367p$y@.= \uC5E0h\u6236B}\u9DF0+\uB1BD6i\u7C24{\u620C+bg!$HwBm]");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1146527594(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1146527594L))
-            info.setReturnValue(-610837339);
+            info.setReturnValue(-811965139);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/storage/loot/LootContext;)Z", cancellable = true)
@@ -55,15 +55,9 @@ public class TriggerInstance1108264852Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "equipmentSheared(Ljava/util/Optional;Lnet/minecraft/advancements/predicates/ItemPredicate$Builder;Ljava/util/Optional;)Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
-    private static void equipmentSheared_1528009922(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "itemUsedOnEntity(Ljava/util/Optional;Lnet/minecraft/advancements/predicates/ItemPredicate$Builder;Ljava/util/Optional;)Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
+    private static void itemUsedOnEntity_1528009922(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1528009922L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "equipmentSheared(Lnet/minecraft/advancements/predicates/ItemPredicate$Builder;Ljava/util/Optional;)Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
-    private static void equipmentSheared_580174289(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(580174289L))
             info.setReturnValue(null);
     }
 
@@ -73,9 +67,15 @@ public class TriggerInstance1108264852Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "itemUsedOnEntity(Ljava/util/Optional;Lnet/minecraft/advancements/predicates/ItemPredicate$Builder;Ljava/util/Optional;)Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
-    private static void itemUsedOnEntity_1528009922(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "equipmentSheared(Ljava/util/Optional;Lnet/minecraft/advancements/predicates/ItemPredicate$Builder;Ljava/util/Optional;)Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
+    private static void equipmentSheared_1528009922(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1528009922L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "equipmentSheared(Lnet/minecraft/advancements/predicates/ItemPredicate$Builder;Ljava/util/Optional;)Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
+    private static void equipmentSheared_580174289(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(580174289L))
             info.setReturnValue(null);
     }
 

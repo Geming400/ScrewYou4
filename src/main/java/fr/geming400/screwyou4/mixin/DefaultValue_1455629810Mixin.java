@@ -10,19 +10,19 @@ public class DefaultValue_1455629810Mixin {
         @Inject(at = @At("HEAD"), method = "getGameTimeDeltaTicks()F", cancellable = true)
     private void getGameTimeDeltaTicks_1493889172(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1493889172L))
-            info.setReturnValue(1.206672E8F);
+            info.setReturnValue(3.207651E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "getRealtimeDeltaTicks()F", cancellable = true)
     private void getRealtimeDeltaTicks_1493889172(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1493889172L))
-            info.setReturnValue(1.206672E8F);
+            info.setReturnValue(3.207651E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "getGameTimeDeltaPartialTick(Z)F", cancellable = true)
     private void getGameTimeDeltaPartialTick__1609736034(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1609736034L))
-            info.setReturnValue(1.206672E8F);
+            info.setReturnValue(3.207651E8F);
     }
 
 

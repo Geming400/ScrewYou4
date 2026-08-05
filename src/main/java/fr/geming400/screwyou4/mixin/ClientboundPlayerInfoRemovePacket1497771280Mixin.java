@@ -22,13 +22,13 @@ public class ClientboundPlayerInfoRemovePacket1497771280Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_362311305(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(362311305L))
-            info.setReturnValue("*jt{hR^Cx&iX嗎z%]p'p㥂⟊8|w+zk9]=Og寡璭m)e9<]F6P폾f&;唖ySS0BCYxT'@o;,");
+            info.setReturnValue("*jt{hR^Cx&iX\u55CEz%]p'p\u3942\u27CA8|w+zk9]=Og\u5BE1\u74ADm)e9<]F6P\uD3FEf&;\u5516ySS0BCYxT'@o;,");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1536034022(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1536034022L))
-            info.setReturnValue(1381388659);
+            info.setReturnValue(747669859);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/protocol/game/ClientGamePacketListener;)V", cancellable = true)

@@ -22,13 +22,13 @@ public class TelemetryEventInstance678125700Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__457334275(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-457334275L))
-            info.setReturnValue("愠!]$db'9恧<A䓙WKtsT`(|R|ck.ecr匌d++I5{(3 }1\"$7珊HP@6gNz#eT廍BF(k<&#{f+rh&※.挔L`7'5QNa7稹쉓[^");
+            info.setReturnValue("\u6120!]$db'9\u6067<A\u44D9WKtsT`(|R|ck.ecr\u530Cd++I5{(3 }1\"$7\u73CAHP@6gNz#eT\u5ECDBF(k<&#{f+rh&\u203B.\u6314L`7'5QNa7\u7A39\uC253[^");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_716388442(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(716388442L))
-            info.setReturnValue(851290227);
+            info.setReturnValue(1112545627);
     }
 
     @Inject(at = @At("HEAD"), method = "properties()Lnet/minecraft/client/telemetry/TelemetryPropertyMap;", cancellable = true)

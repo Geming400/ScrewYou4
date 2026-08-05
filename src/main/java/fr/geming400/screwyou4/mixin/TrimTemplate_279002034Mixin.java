@@ -16,13 +16,13 @@ public class TrimTemplate_279002034Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__856457942(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-856457942L))
-            info.setReturnValue("]@Af䘧&8⺜*vumDZY7o-/侈Na/HoR;騋k)s4|╋O+h)bW\"?⎦eF9T[檼厲t⑺۲㎑I[Vc xU戇thxpW5bvP/[튁[C%Y^NO'䰇HTM@tBp");
+            info.setReturnValue("]@Af\u4627&8\u2E9C*vumDZY7o-/\u4F88Na/HoR;\u9A0Bk)s4|\u254BO+h)bW\"?\u23A6eF9T[\u6ABC\u53B2t\u247A\u06F2\u3391I[Vc xU\u6207thxpW5bvP/[\uD281[C%Y^NO'\u4C07HTM@tBp");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_317264775(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(317264775L))
-            info.setReturnValue(1508167813);
+            info.setReturnValue(1892115313);
     }
 
     @Inject(at = @At("HEAD"), method = "template()Lnet/minecraft/world/item/Item;", cancellable = true)
@@ -31,14 +31,14 @@ public class TrimTemplate_279002034Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "patternId()Lnet/minecraft/resources/ResourceKey;", cancellable = true)
-    private void patternId_1087493346(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "recipeId()Lnet/minecraft/resources/ResourceKey;", cancellable = true)
+    private void recipeId_1087493346(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1087493346L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "recipeId()Lnet/minecraft/resources/ResourceKey;", cancellable = true)
-    private void recipeId_1087493346(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "patternId()Lnet/minecraft/resources/ResourceKey;", cancellable = true)
+    private void patternId_1087493346(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1087493346L))
             info.setReturnValue(null);
     }

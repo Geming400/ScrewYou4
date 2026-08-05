@@ -16,13 +16,13 @@ public class Attributes_1611842689Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_476382713(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(476382713L))
-            info.setReturnValue("4]鐭r7XCJ2Z篪U*\"x&RX0덡A3P쯟n?Aﰷ5&G학auj0㍨p8躾c8IoI)ҩDT苲#H:D@Ok䒽Z6X>銧隄|8Zl<B鉕u콘RZ5V:欘>t=uq뾁F7");
+            info.setReturnValue("4]\u942Dr7XCJ2Z\u7BEAU*\"x&RX0\uB361A3P\uCBDFn?A\uFC375&G\uD559auj0\u3368p8\u8EBEc8IoI)\u04A9DT\u82F2#H:D@Ok\u44BDZ6X>\u92A7\u9684|8Zl<B\u9255u\uCF58RZ5V:\u6B18>t=uq\uBF81F7");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1650105430(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1650105430L))
-            info.setReturnValue(-171243273);
+            info.setReturnValue(-491290173);
     }
 
     @Inject(at = @At("HEAD"), method = "allowPreServerInit()Z", cancellable = true)

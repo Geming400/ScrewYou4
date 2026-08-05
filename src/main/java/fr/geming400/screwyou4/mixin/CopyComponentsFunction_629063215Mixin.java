@@ -13,8 +13,8 @@ public class CopyComponentsFunction_629063215Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "copyComponentsFromEntity(Lnet/minecraft/util/context/ContextKey;)Lnet/minecraft/world/level/storage/loot/functions/CopyComponentsFunction$Builder;", cancellable = true)
-    private static void copyComponentsFromEntity_1144040403(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "copyComponentsFromBlockEntity(Lnet/minecraft/util/context/ContextKey;)Lnet/minecraft/world/level/storage/loot/functions/CopyComponentsFunction$Builder;", cancellable = true)
+    private static void copyComponentsFromBlockEntity_1144040403(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1144040403L))
             info.setReturnValue(null);
     }
@@ -31,8 +31,8 @@ public class CopyComponentsFunction_629063215Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "copyComponentsFromBlockEntity(Lnet/minecraft/util/context/ContextKey;)Lnet/minecraft/world/level/storage/loot/functions/CopyComponentsFunction$Builder;", cancellable = true)
-    private static void copyComponentsFromBlockEntity_1144040403(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "copyComponentsFromEntity(Lnet/minecraft/util/context/ContextKey;)Lnet/minecraft/world/level/storage/loot/functions/CopyComponentsFunction$Builder;", cancellable = true)
+    private static void copyComponentsFromEntity_1144040403(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1144040403L))
             info.setReturnValue(null);
     }

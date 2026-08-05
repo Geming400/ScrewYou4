@@ -16,13 +16,13 @@ public class EmptySlotSource2009886184Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_874426209(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(874426209L))
-            info.setReturnValue("2ZW}qia刢+=N$lt-=z?O-QHp犕CwD6Sd1뤫 u즈s8tOuz욾o]lNo,n$6㿌6z褡,CQ Gt⤴^K!}}cQ8'3+59MZC}");
+            info.setReturnValue("2ZW}qia\u5222+=N$lt-=z?O-QHp\u7295CwD6Sd1\uB92B u\uC988s8tOuz\uC6BEo]lNo,n$6\u3FCC6z\u8921,CQ Gt\u2934^K!}}cQ8'3+59MZC}");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2048148926(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2048148926L))
-            info.setReturnValue(799588861);
+            info.setReturnValue(4670961);
     }
 
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)

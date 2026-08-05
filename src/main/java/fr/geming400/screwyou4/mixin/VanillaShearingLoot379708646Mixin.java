@@ -16,13 +16,13 @@ public class VanillaShearingLoot379708646Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__755751329(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-755751329L))
-            info.setReturnValue("bKJ)BM3-6@8Vx'DF9겻쳐nm0 둒솂b!bfQ곇J擂+;`^4e.䧄:Aoryr 쩻2_vQ\"间=x*$=c6RPFꬊgb#g끖F=ez3Rk岖R+fs;cD[`+");
+            info.setReturnValue("bKJ)BM3-6@8Vx'DF9\uACBB\uCCD0nm0 \uB452\uC182b!bfQ\uACC7J\u64C2+;`^4e.\u49C4:Aoryr \uCA7B2_vQ\"\u95F4=x*$=c6RPF\uAB0Agb#g\uB056F=ez3Rk\u5C96R+fs;cD[`+");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_417971388(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(417971388L))
-            info.setReturnValue(837501339);
+            info.setReturnValue(1113007839);
     }
 
     @Inject(at = @At("HEAD"), method = "generate(Ljava/util/function/BiConsumer;)V", cancellable = true)

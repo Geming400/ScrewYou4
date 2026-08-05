@@ -10,7 +10,7 @@ public class Half_1264611169Mixin {
         @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_129150697(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(129150697L))
-            info.setReturnValue("$fIq`;O꧄[R2Rj|b.`6oWA)Rt");
+            info.setReturnValue("$fIq`;O\uA9C4[R2Rj|b.`6oWA)Rt");
     }
 
     @Inject(at = @At("HEAD"), method = "values()[Lnet/minecraft/world/level/block/state/properties/Half;", cancellable = true)
@@ -28,7 +28,7 @@ public class Half_1264611169Mixin {
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName_129150697(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(129150697L))
-            info.setReturnValue("$fIq`;O꧄[R2Rj|b.`6oWA)Rt");
+            info.setReturnValue("$fIq`;O\uA9C4[R2Rj|b.`6oWA)Rt");
     }
 
 

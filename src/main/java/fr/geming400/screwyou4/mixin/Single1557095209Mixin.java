@@ -16,13 +16,13 @@ public class Single1557095209Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_421635234(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(421635234L))
-            info.setReturnValue("1*ￚOXaLT]&pAdkbD@9Wೝ\"2'pY4骣");
+            info.setReturnValue("1*\uFFDAOXaLT]&pAdkbD@9W\u0CDD\"2'pY4\u9AA3");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1595357951(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1595357951L))
-            info.setReturnValue(-1964382868);
+            info.setReturnValue(-1961791568);
     }
 
     @Inject(at = @At("HEAD"), method = "test(Ljava/lang/Object;)Z", cancellable = true)

@@ -16,13 +16,13 @@ public class PatchedRegistries30708344Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__1104751631(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1104751631L))
-            info.setReturnValue("䎳:n≦h*d'裄琋mC_Mg9S 5tPQU ][d歯8PW{S/J{M|Wj7=}0#(+xLZ!PSqD]3Quc+䩋h낁7|.9tFG5");
+            info.setReturnValue("\u43B3:n\u2266h*d'\u88C4\u740BmC_Mg9S 5tPQU ][d\u6B6F8PW{S/J{M|Wj7=}0#(+xLZ!PSqD]3Quc+\u4A4Bh\uB0817|.9tFG5");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_68971086(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(68971086L))
-            info.setReturnValue(-1700954953);
+            info.setReturnValue(1927044043);
     }
 
     @Inject(at = @At("HEAD"), method = "patches()Lnet/minecraft/core/HolderLookup$Provider;", cancellable = true)

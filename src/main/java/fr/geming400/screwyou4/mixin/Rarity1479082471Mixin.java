@@ -28,7 +28,7 @@ public class Rarity1479082471Mixin {
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName_343622000(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(343622000L))
-            info.setReturnValue("폧=aD`*#=-5ee*");
+            info.setReturnValue("\uD3E7=aD`*#=-5ee*");
     }
 
 

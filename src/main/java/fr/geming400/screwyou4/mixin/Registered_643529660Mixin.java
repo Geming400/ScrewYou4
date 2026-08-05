@@ -16,13 +16,13 @@ public class Registered_643529660Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__491930316(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-491930316L))
-            info.setReturnValue("+yn- 懲w魒Un8{师3j_1e>4");
+            info.setReturnValue("+yn- \u61F2w\u9B52Un8{\u5E083j_1e>4");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_681792401(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(681792401L))
-            info.setReturnValue(1115742080);
+            info.setReturnValue(970123180);
     }
 
     @Inject(at = @At("HEAD"), method = "condition()Lnet/minecraft/world/entity/ai/memory/MemoryStatus;", cancellable = true)

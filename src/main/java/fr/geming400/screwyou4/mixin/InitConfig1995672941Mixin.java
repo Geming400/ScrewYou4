@@ -16,19 +16,13 @@ public class InitConfig1995672941Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_860212966(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(860212966L))
-            info.setReturnValue("㏐q1WH᧢A(8i:@壇D1nSX];R,z널%ⷈLp1HN^lJFG<XU+QLH۶!齹BOs?>[6TJ");
+            info.setReturnValue("\u33D0q1WH\u19E2A(8i:@\u58C7D1nSX];R,z\uB110%\u2DC8Lp1HN^lJFG<XU+QLH\u06F6!\u9F79BOs?>[6TJ");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2033935683(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2033935683L))
-            info.setReturnValue(1520335854);
-    }
-
-    @Inject(at = @At("HEAD"), method = "functionCompilationPermissions()Lnet/minecraft/server/permissions/PermissionSet;", cancellable = true)
-    private void functionCompilationPermissions_923113387(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(923113387L))
-            info.setReturnValue(null);
+            info.setReturnValue(1517936254);
     }
 
     @Inject(at = @At("HEAD"), method = "packConfig()Lnet/minecraft/server/WorldLoader$PackConfig;", cancellable = true)
@@ -41,6 +35,12 @@ public class InitConfig1995672941Mixin {
     private void commandSelection_1780533937(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1780533937L))
             info.setReturnValue(net.minecraft.commands.Commands.CommandSelection.ALL);
+    }
+
+    @Inject(at = @At("HEAD"), method = "functionCompilationPermissions()Lnet/minecraft/server/permissions/PermissionSet;", cancellable = true)
+    private void functionCompilationPermissions_923113387(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(923113387L))
+            info.setReturnValue(null);
     }
 
 

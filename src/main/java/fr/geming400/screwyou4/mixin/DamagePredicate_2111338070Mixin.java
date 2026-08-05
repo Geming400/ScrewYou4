@@ -16,19 +16,25 @@ public class DamagePredicate_2111338070Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_975878094(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(975878094L))
-            info.setReturnValue("@)(c3ANT瓯3aꖓlR8)왙nrnRI");
+            info.setReturnValue("@)(c3ANT\u74EF3a\uA593lR8)\uC659nrnRI");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__2145366485(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2145366485L))
-            info.setReturnValue(1093479034);
+            info.setReturnValue(899417834);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/core/component/DataComponentGetter;)Z", cancellable = true)
     private void matches__349978005(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-349978005L))
             info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "damage()Lnet/minecraft/advancements/predicates/MinMaxBounds$Ints;", cancellable = true)
+    private void damage_1960103011(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1960103011L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "durability(Lnet/minecraft/advancements/predicates/MinMaxBounds$Ints;)Lnet/minecraft/core/component/predicates/DamagePredicate;", cancellable = true)
@@ -39,12 +45,6 @@ public class DamagePredicate_2111338070Mixin {
 
     @Inject(at = @At("HEAD"), method = "durability()Lnet/minecraft/advancements/predicates/MinMaxBounds$Ints;", cancellable = true)
     private void durability_1960103011(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1960103011L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "damage()Lnet/minecraft/advancements/predicates/MinMaxBounds$Ints;", cancellable = true)
-    private void damage_1960103011(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1960103011L))
             info.setReturnValue(null);
     }

@@ -16,13 +16,13 @@ public class MissingModels1570782175Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_435322200(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(435322200L))
-            info.setReturnValue("vZ콾JwNaẾm5+XꛗGkਝW8('P{Zwe0䆘$粧4O4^!좿mHE\"j>FV泞GH뵯i:+퉚n%.㠯ㄗ1;䴙8`|IrE*fM`xP⾧:,9n3Y&^9EOv䧯o ᄼR");
+            info.setReturnValue("vZ\uCF7EJwNa\u1EBEm5+X\uA6D7Gk\u0A1DW8('P{Zwe0\u4198$\u7CA74O4^!\uC8BFmHE\"j>FV\u6CDEGH\uBD6Fi:+\uD25An%.\u382F\u31171;\u4D198`|IrE*fM`xP\u2FA7:,9n3Y&^9EOv\u49EFo \u113CR");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1609044917(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1609044917L))
-            info.setReturnValue(29665816);
+            info.setReturnValue(828340816);
     }
 
     @Inject(at = @At("HEAD"), method = "block()Lnet/minecraft/client/renderer/block/dispatch/BlockStateModel;", cancellable = true)

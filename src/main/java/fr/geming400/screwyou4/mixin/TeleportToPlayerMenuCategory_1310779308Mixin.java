@@ -19,16 +19,16 @@ public class TeleportToPlayerMenuCategory_1310779308Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "extractIcon(Lnet/minecraft/client/gui/GuiGraphicsExtractor;FF)V", cancellable = true)
-    private void extractIcon__1857672173(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1857672173L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "getItems()Ljava/util/List;", cancellable = true)
     private void getItems__1357851173(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1357851173L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "extractIcon(Lnet/minecraft/client/gui/GuiGraphicsExtractor;FF)V", cancellable = true)
+    private void extractIcon__1857672173(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1857672173L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "selectItem(Lnet/minecraft/client/gui/spectator/SpectatorMenu;)V", cancellable = true)

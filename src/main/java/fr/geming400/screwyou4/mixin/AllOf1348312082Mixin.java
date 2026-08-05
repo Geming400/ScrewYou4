@@ -16,13 +16,13 @@ public class AllOf1348312082Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_212852107(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(212852107L))
-            info.setReturnValue("XB:鍹^i깎 .泹@zq4TA;5r☱幝`U8쯫k,V9씁");
+            info.setReturnValue("XB:\u9379^i\uAE4E .\u6CF9@zq4TA;5r\u2631\u5E5D`U8\uCBEBk,V9\uC501");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1386574824(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1386574824L))
-            info.setReturnValue(241267774);
+            info.setReturnValue(1207755574);
     }
 
     @Inject(at = @At("HEAD"), method = "setup(Lnet/minecraft/server/level/ServerLevel;)Ljava/lang/Object;", cancellable = true)
@@ -49,15 +49,15 @@ public class AllOf1348312082Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "definitions()Ljava/util/List;", cancellable = true)
-    private void definitions__1320318398(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1320318398L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
     private void codec__1210801490(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1210801490L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "definitions()Ljava/util/List;", cancellable = true)
+    private void definitions__1320318398(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1320318398L))
             info.setReturnValue(null);
     }
 

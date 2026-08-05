@@ -13,9 +13,9 @@ public class FireworkRocketItem_1902684774Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "useOn(Lnet/minecraft/world/item/context/UseOnContext;)Lnet/minecraft/world/InteractionResult;", cancellable = true)
-    private void useOn__6158482(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-6158482L))
+    @Inject(at = @At("HEAD"), method = "createDispenseConfig()Lnet/minecraft/world/item/ProjectileItem$DispenseConfig;", cancellable = true)
+    private void createDispenseConfig__133568425(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-133568425L))
             info.setReturnValue(null);
     }
 
@@ -25,9 +25,9 @@ public class FireworkRocketItem_1902684774Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "createDispenseConfig()Lnet/minecraft/world/item/ProjectileItem$DispenseConfig;", cancellable = true)
-    private void createDispenseConfig__133568425(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-133568425L))
+    @Inject(at = @At("HEAD"), method = "useOn(Lnet/minecraft/world/item/context/UseOnContext;)Lnet/minecraft/world/InteractionResult;", cancellable = true)
+    private void useOn__6158482(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-6158482L))
             info.setReturnValue(null);
     }
 

@@ -16,13 +16,19 @@ public class ExecuteInfo1734473319Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_599013344(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(599013344L))
-            info.setReturnValue("톫6[I/T]W5:jgADF訃᳷Oᴢ9gg-T1{茸<罔/p@1C  oj4'");
+            info.setReturnValue("\uD1AB6[I/T]W5:jgADF\u8A03\u1CF7O\u1D229gg-T1{\u8338<\u7F54/p@1C  oj4'");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1772736061(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1772736061L))
-            info.setReturnValue(155510742);
+            info.setReturnValue(-526469258);
+    }
+
+    @Inject(at = @At("HEAD"), method = "firstIndex()I", cancellable = true)
+    private void firstIndex_1772735565(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1772735565L))
+            info.setReturnValue(-347945769);
     }
 
     @Inject(at = @At("HEAD"), method = "indexType()Lcom/mojang/blaze3d/IndexType;", cancellable = true)
@@ -34,19 +40,13 @@ public class ExecuteInfo1734473319Mixin {
     @Inject(at = @At("HEAD"), method = "indexCount()I", cancellable = true)
     private void indexCount_1772735565(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1772735565L))
-            info.setReturnValue(334034231);
+            info.setReturnValue(-347945769);
     }
 
     @Inject(at = @At("HEAD"), method = "baseVertex()I", cancellable = true)
     private void baseVertex_1772735565(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1772735565L))
-            info.setReturnValue(334034231);
-    }
-
-    @Inject(at = @At("HEAD"), method = "firstIndex()I", cancellable = true)
-    private void firstIndex_1772735565(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1772735565L))
-            info.setReturnValue(334034231);
+            info.setReturnValue(-347945769);
     }
 
     @Inject(at = @At("HEAD"), method = "vertexBuffer()Lcom/mojang/blaze3d/buffers/GpuBuffer;", cancellable = true)

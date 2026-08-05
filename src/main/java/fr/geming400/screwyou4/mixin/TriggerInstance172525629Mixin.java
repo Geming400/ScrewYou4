@@ -16,13 +16,13 @@ public class TriggerInstance172525629Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__962934346(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-962934346L))
-            info.setReturnValue("柇LO5%W[뢤Qr뾴 f/W]2$");
+            info.setReturnValue("\u67C7LO5%W[\uB8A4Qr\uBFB4 f/W]2$");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_210788371(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(210788371L))
-            info.setReturnValue(-108033222);
+            info.setReturnValue(221212578);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/server/level/ServerPlayer;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/storage/loot/LootContext;)Z", cancellable = true)
@@ -55,14 +55,14 @@ public class TriggerInstance172525629Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "thrownItemPickedUpByPlayer(Ljava/util/Optional;Ljava/util/Optional;Ljava/util/Optional;)Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
-    private static void thrownItemPickedUpByPlayer__884241935(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "thrownItemPickedUpByEntity(Ljava/util/Optional;Ljava/util/Optional;Ljava/util/Optional;)Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
+    private static void thrownItemPickedUpByEntity__884241935(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-884241935L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "thrownItemPickedUpByEntity(Ljava/util/Optional;Ljava/util/Optional;Ljava/util/Optional;)Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
-    private static void thrownItemPickedUpByEntity__884241935(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "thrownItemPickedUpByPlayer(Ljava/util/Optional;Ljava/util/Optional;Ljava/util/Optional;)Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
+    private static void thrownItemPickedUpByPlayer__884241935(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-884241935L))
             info.setReturnValue(null);
     }

@@ -19,16 +19,16 @@ public class BookSignScreen_250720546Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "extractBackground(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIF)V", cancellable = true)
-    private void extractBackground__708966827(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-708966827L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "isInGameUi()Z", cancellable = true)
     private void isInGameUi_288999128(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(288999128L))
             info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "extractBackground(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIF)V", cancellable = true)
+    private void extractBackground__708966827(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-708966827L))
+            info.cancel();
     }
 
 

@@ -19,6 +19,12 @@ public class AnimationState1391230916Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "getDrawUbo(I)Lcom/mojang/blaze3d/buffers/GpuBufferSlice;", cancellable = true)
+    private void getDrawUbo_192317908(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(192317908L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "drawToAtlas(Lcom/mojang/blaze3d/systems/RenderPass;Lcom/mojang/blaze3d/buffers/GpuBufferSlice;)V", cancellable = true)
     private void drawToAtlas_1544190727(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1544190727L))
@@ -29,12 +35,6 @@ public class AnimationState1391230916Mixin {
     private void needsToDraw_1429509499(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1429509499L))
             info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getDrawUbo(I)Lcom/mojang/blaze3d/buffers/GpuBufferSlice;", cancellable = true)
-    private void getDrawUbo_192317908(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(192317908L))
-            info.setReturnValue(null);
     }
 
 

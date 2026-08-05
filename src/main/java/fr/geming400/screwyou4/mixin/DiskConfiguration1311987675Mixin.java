@@ -22,13 +22,13 @@ public class DiskConfiguration1311987675Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_176527700(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(176527700L))
-            info.setReturnValue("ye\"x1i}t8ZCdbm7:rRO礒戻fI,榺YUQ^6z3izpퟥn7[Kl5㳓玼)_tiI*zH*﹌_i%%zRkF,nyy");
+            info.setReturnValue("ye\"x1i}t8ZCdbm7:rRO\u7912\u623BfI,\u69BAYUQ^6z3izp\uD7E5n7[Kl5\u3CD3\u73BC)_tiI*zH*\uFE4C_i%%zRkF,nyy");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1350250417(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1350250417L))
-            info.setReturnValue(763892376);
+            info.setReturnValue(652096476);
     }
 
     @Inject(at = @At("HEAD"), method = "radius()Lnet/minecraft/util/valueproviders/IntProvider;", cancellable = true)
@@ -40,7 +40,7 @@ public class DiskConfiguration1311987675Mixin {
     @Inject(at = @At("HEAD"), method = "halfHeight()I", cancellable = true)
     private void halfHeight_1350249921(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1350249921L))
-            info.setReturnValue(942415866);
+            info.setReturnValue(830619966);
     }
 
     @Inject(at = @At("HEAD"), method = "stateProvider()Lnet/minecraft/world/level/levelgen/feature/stateproviders/BlockStateProvider;", cancellable = true)

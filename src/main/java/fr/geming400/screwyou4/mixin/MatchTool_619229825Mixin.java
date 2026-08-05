@@ -16,13 +16,13 @@ public class MatchTool_619229825Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__516230151(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-516230151L))
-            info.setReturnValue("xKXmC4#^1lq#@0C渤/9츖⁐tQ볮`{|vIU%H蕹&TF*X[g{쎠MQ'+;U]㖅3Rⓧg/팓@zeN?柚iMgCᗛ|X0ᡁf6k3Xe");
+            info.setReturnValue("xKXmC4#^1lq#@0C\u6E24/9\uCE16\u2050tQ\uBCEE`{|vIU%H\u8579&TF*X[g{\uC3A0MQ'+;U]\u35853R\u24E7g/\uD313@zeN?\u67DAiMgC\u15DB|X0\u1841f6k3Xe");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_657492566(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(657492566L))
-            info.setReturnValue(186063391);
+            info.setReturnValue(105733391);
     }
 
     @Inject(at = @At("HEAD"), method = "test(Lnet/minecraft/world/level/storage/loot/LootContext;)Z", cancellable = true)
@@ -43,12 +43,6 @@ public class MatchTool_619229825Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "toolMatches(Lnet/minecraft/advancements/predicates/ItemPredicate$Builder;)Lnet/minecraft/world/level/storage/loot/predicates/LootItemCondition$Builder;", cancellable = true)
-    private static void toolMatches_961488776(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(961488776L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
     private void codec__1939883748(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1939883748L))
@@ -58,6 +52,12 @@ public class MatchTool_619229825Mixin {
     @Inject(at = @At("HEAD"), method = "getReferencedContextParams()Ljava/util/Set;", cancellable = true)
     private void getReferencedContextParams__1209805662(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1209805662L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "toolMatches(Lnet/minecraft/advancements/predicates/ItemPredicate$Builder;)Lnet/minecraft/world/level/storage/loot/predicates/LootItemCondition$Builder;", cancellable = true)
+    private static void toolMatches_961488776(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(961488776L))
             info.setReturnValue(null);
     }
 

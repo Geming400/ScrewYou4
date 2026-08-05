@@ -13,6 +13,24 @@ public class DispenserBlock1822419932Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "newBlockEntity(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/entity/BlockEntity;", cancellable = true)
+    private void newBlockEntity_236942277(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(236942277L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
+    private void getStateForPlacement_563820165(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(563820165L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "registerProjectileBehavior(Lnet/minecraft/world/level/ItemLike;)V", cancellable = true)
+    private static void registerProjectileBehavior__1124882768(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1124882768L))
+            info.cancel();
+    }
+
     @Inject(at = @At("HEAD"), method = "getDispensePosition(Lnet/minecraft/core/dispenser/BlockSource;DLnet/minecraft/world/phys/Vec3;)Lnet/minecraft/core/Position;", cancellable = true)
     private static void getDispensePosition__384605240(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-384605240L))
@@ -29,24 +47,6 @@ public class DispenserBlock1822419932Mixin {
     private static void registerBehavior__69406307(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-69406307L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "registerProjectileBehavior(Lnet/minecraft/world/level/ItemLike;)V", cancellable = true)
-    private static void registerProjectileBehavior__1124882768(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1124882768L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
-    private void getStateForPlacement_563820165(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(563820165L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "newBlockEntity(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/entity/BlockEntity;", cancellable = true)
-    private void newBlockEntity_236942277(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(236942277L))
-            info.setReturnValue(null);
     }
 
 

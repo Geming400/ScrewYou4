@@ -22,13 +22,13 @@ public class ConfigEntry_547753992Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__587705984(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-587705984L))
-            info.setReturnValue("=#A홈ᩝ@MH%_hJ.l坤D픊DIXbivT<$4F>h=쮓Q嘿");
+            info.setReturnValue("=#A\uD648\u1A5D@MH%_hJ.l\u5764D\uD50ADIXbivT<$4F>h=\uCB93Q\u563F");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_586016733(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(586016733L))
-            info.setReturnValue(-1454911643);
+            info.setReturnValue(-967208743);
     }
 
     @Inject(at = @At("HEAD"), method = "compile(Ljava/nio/file/FileSystem;)Ljava/nio/file/PathMatcher;", cancellable = true)
@@ -40,7 +40,7 @@ public class ConfigEntry_547753992Mixin {
     @Inject(at = @At("HEAD"), method = "pattern()Ljava/lang/String;", cancellable = true)
     private void pattern__587706480(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-587706480L))
-            info.setReturnValue("'&0u(*(nLy\"侗5.1TsE]죚Q0dGElqr51F擜5$ 4hw3uHH瀷");
+            info.setReturnValue("'&0u(*(nLy\"\u4F975.1TsE]\uC8DAQ0dGElqr51F\u64DC5$ 4hw3uHH\u7037");
     }
 
     @Inject(at = @At("HEAD"), method = "parse(Ljava/lang/String;)Ljava/util/Optional;", cancellable = true)

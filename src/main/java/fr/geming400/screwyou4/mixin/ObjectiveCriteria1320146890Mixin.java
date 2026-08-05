@@ -10,7 +10,7 @@ public class ObjectiveCriteria1320146890Mixin {
         @Inject(at = @At("HEAD"), method = "getName()Ljava/lang/String;", cancellable = true)
     private void getName_184686419(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(184686419L))
-            info.setReturnValue("㭇dYS퓣몒:;r*ﻊ#,70");
+            info.setReturnValue("\u3B47dYS\uD4E3\uBA92:;r*\uFECA#,70");
     }
 
     @Inject(at = @At("HEAD"), method = "isReadOnly()Z", cancellable = true)

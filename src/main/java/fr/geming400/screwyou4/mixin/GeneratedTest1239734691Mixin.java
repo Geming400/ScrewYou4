@@ -16,13 +16,13 @@ public class GeneratedTest1239734691Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_104274716(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(104274716L))
-            info.setReturnValue("Fc D%m霷8%nQu胐Nul蝳9T74\"L_찙QK4|Wr}t蕡쫔29YQ9p|Nb6}USIﱿ|.I풭Xr; Lu=57%0TKtfy셠l?B7/77lvk");
+            info.setReturnValue("Fc D%m\u97378%nQu\u80D0Nul\u87739T74\"L_\uCC19QK4|Wr}t\u8561\uCAD429YQ9p|Nb6}USI\uFC7F|.I\uD4ADXr; Lu=57%0TKtfy\uC160l?B7/77lvk");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1277997433(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1277997433L))
-            info.setReturnValue(82109201);
+            info.setReturnValue(-258433799);
     }
 
     @Inject(at = @At("HEAD"), method = "function()Ljava/util/function/Consumer;", cancellable = true)

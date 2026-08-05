@@ -28,7 +28,7 @@ public class Visibility_1490570333Mixin {
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName_355109861(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(355109861L))
-            info.setReturnValue(":g\"YSvy45A&p_q皣bPZgW+-2");
+            info.setReturnValue(":g\"YSvy45A&p_q\u76A3bPZgW+-2");
     }
 
 

@@ -10,13 +10,13 @@ public class CopyOnWriteFileStore1394714522Mixin {
         @Inject(at = @At("HEAD"), method = "name()Ljava/lang/String;", cancellable = true)
     private void name_259254051(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(259254051L))
-            info.setReturnValue("pb袕'*\"B慣Je/1!=Bo锉A|2si=_@ki=-rjWra숚锋U㟫\"Z_m6k:;SThꇡn旍I!'ey");
+            info.setReturnValue("pb\u8895'*\"B\u6163Je/1!=Bo\u9509A|2si=_@ki=-rjWra\uC21A\u950BU\u37EB\"Z_m6k:;STh\uA1E1n\u65CDI!'ey");
     }
 
     @Inject(at = @At("HEAD"), method = "type()Ljava/lang/String;", cancellable = true)
     private void type_259254051(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(259254051L))
-            info.setReturnValue("pb袕'*\"B慣Je/1!=Bo锉A|2si=_@ki=-rjWra숚锋U㟫\"Z_m6k:;SThꇡn旍I!'ey");
+            info.setReturnValue("pb\u8895'*\"B\u6163Je/1!=Bo\u9509A|2si=_@ki=-rjWra\uC21A\u950BU\u37EB\"Z_m6k:;STh\uA1E1n\u65CDI!'ey");
     }
 
     @Inject(at = @At("HEAD"), method = "isReadOnly()Z", cancellable = true)
@@ -28,19 +28,19 @@ public class CopyOnWriteFileStore1394714522Mixin {
     @Inject(at = @At("HEAD"), method = "getTotalSpace()J", cancellable = true)
     private void getTotalSpace_1432977729(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1432977729L))
-            info.setReturnValue(5766163394025661720L);
+            info.setReturnValue(5766163394407212620L);
     }
 
     @Inject(at = @At("HEAD"), method = "getUsableSpace()J", cancellable = true)
     private void getUsableSpace_1432977729(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1432977729L))
-            info.setReturnValue(5766163394025661720L);
+            info.setReturnValue(5766163394407212620L);
     }
 
     @Inject(at = @At("HEAD"), method = "getUnallocatedSpace()J", cancellable = true)
     private void getUnallocatedSpace_1432977729(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1432977729L))
-            info.setReturnValue(5766163394025661720L);
+            info.setReturnValue(5766163394407212620L);
     }
 
     @Inject(at = @At("HEAD"), method = "supportsFileAttributeView(Ljava/lang/String;)Z", cancellable = true)

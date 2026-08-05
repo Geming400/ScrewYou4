@@ -10,7 +10,7 @@ public class EmptyPoolElement_1939178243Mixin {
         @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_803717771(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(803717771L))
-            info.setReturnValue("gog1U]` 1_6fR}p?xio썞N䤿");
+            info.setReturnValue("gog1U]` 1_6fR}p?xio\uC35EN\u493F");
     }
 
     @Inject(at = @At("HEAD"), method = "getType()Lnet/minecraft/world/level/levelgen/structure/pools/StructurePoolElementType;", cancellable = true)

@@ -16,19 +16,19 @@ public class MissingReferenceProblem_703998762Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__431461214(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-431461214L))
-            info.setReturnValue("xZN絻*KY5Mi-jJU9bv<q }Q``44퓑4x䧰X2驲愑D),PT<pj og{(璣H>CsǔKjK.@(6t");
+            info.setReturnValue("xZN\u7D7B*KY5Mi-jJU9bv<q }Q``44\uD4D14x\u49F0X2\u9A72\u6111D),PT<pj og{(\u74A3H>Cs\u01D4KjK.@(6t");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_742261503(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(742261503L))
-            info.setReturnValue(-1674647282);
+            info.setReturnValue(-1518563382);
     }
 
     @Inject(at = @At("HEAD"), method = "description()Ljava/lang/String;", cancellable = true)
     private void description__431461710(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-431461710L))
-            info.setReturnValue("3&}@Jnp@/(6T㠆ጘ5@K5#2>喡U嚤dQ|XP`J쭊Lghk&R-/鼟_S{pMNq_岈iUyu@IH닁:DW05A鑳ZOY#dobX_I");
+            info.setReturnValue("3&}@Jnp@/(6T\u3806\u13185@K5#2>\u55A1U\u56A4dQ|XP`J\uCB4ALghk&R-/\u9F1F_S{pMNq_\u5C88iUyu@IH\uB2C1:DW05A\u9473ZOY#dobX_I");
     }
 
     @Inject(at = @At("HEAD"), method = "referenced()Lnet/minecraft/resources/ResourceKey;", cancellable = true)

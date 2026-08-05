@@ -16,13 +16,13 @@ public class IdAndPath898756669Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__236703306(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-236703306L))
-            info.setReturnValue("p/൭얥XTs-r[&8x9゙\"C量nOM1|z+MDnA爐");
+            info.setReturnValue("p/\u0D6D\uC5A5XTs-r[&8x9\u3099\"C\u91CFnOM1|z+MDnA\u7210");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_937019411(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(937019411L))
-            info.setReturnValue(1763472837);
+            info.setReturnValue(-1904123259);
     }
 
     @Inject(at = @At("HEAD"), method = "id()Ljava/util/UUID;", cancellable = true)

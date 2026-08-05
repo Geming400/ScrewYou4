@@ -22,19 +22,19 @@ public class DyedItemColor913160158Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_951422900(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(951422900L))
-            info.setReturnValue(1225319347);
+            info.setReturnValue(1736329547);
     }
 
     @Inject(at = @At("HEAD"), method = "getOrDefault(Lnet/minecraft/world/item/ItemStack;I)I", cancellable = true)
     private static void getOrDefault__1123556944(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1123556944L))
-            info.setReturnValue(206328410);
+            info.setReturnValue(717338610);
     }
 
     @Inject(at = @At("HEAD"), method = "rgb()I", cancellable = true)
     private void rgb_951422404(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(951422404L))
-            info.setReturnValue(1403842836);
+            info.setReturnValue(1914853036);
     }
 
     @Inject(at = @At("HEAD"), method = "addToTooltip(Lnet/minecraft/world/item/Item$TooltipContext;Ljava/util/function/Consumer;Lnet/minecraft/world/item/TooltipFlag;Lnet/minecraft/core/component/DataComponentGetter;)V", cancellable = true)

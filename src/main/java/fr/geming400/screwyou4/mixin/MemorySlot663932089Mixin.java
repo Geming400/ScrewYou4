@@ -16,7 +16,7 @@ public class MemorySlot663932089Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__471528382(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-471528382L))
-            info.setReturnValue("O]kSn࣠1竻]\"E?AP,mx");
+            info.setReturnValue("O]kSn\u08E01\u7AFB]\"E?AP,mx");
     }
 
     @Inject(at = @At("HEAD"), method = "clear()V", cancellable = true)
@@ -64,7 +64,7 @@ public class MemorySlot663932089Mixin {
     @Inject(at = @At("HEAD"), method = "timeToLive()J", cancellable = true)
     private void timeToLive_702195296(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(702195296L))
-            info.setReturnValue(-8037709688884188682L);
+            info.setReturnValue(-8037709688696380582L);
     }
 
     @Inject(at = @At("HEAD"), method = "hasExpired()Z", cancellable = true)

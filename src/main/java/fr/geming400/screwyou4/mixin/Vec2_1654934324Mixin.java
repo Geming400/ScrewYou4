@@ -16,13 +16,13 @@ public class Vec2_1654934324Mixin {
     @Inject(at = @At("HEAD"), method = "length()F", cancellable = true)
     private void length_1693193686(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1693193686L))
-            info.setReturnValue(1.785136E8F);
+            info.setReturnValue(4.367983E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1693196569(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1693196569L))
-            info.setReturnValue(1025721143);
+            info.setReturnValue(1284005843);
     }
 
     @Inject(at = @At("HEAD"), method = "scale(F)Lnet/minecraft/world/phys/Vec2;", cancellable = true)
@@ -46,7 +46,7 @@ public class Vec2_1654934324Mixin {
     @Inject(at = @At("HEAD"), method = "dot(Lnet/minecraft/world/phys/Vec2;)F", cancellable = true)
     private void dot_1994025795(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1994025795L))
-            info.setReturnValue(1.785136E8F);
+            info.setReturnValue(4.367983E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "rotate(D)Lnet/minecraft/world/phys/Vec2;", cancellable = true)
@@ -70,13 +70,13 @@ public class Vec2_1654934324Mixin {
     @Inject(at = @At("HEAD"), method = "lengthSquared()F", cancellable = true)
     private void lengthSquared_1693193686(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1693193686L))
-            info.setReturnValue(1.785136E8F);
+            info.setReturnValue(4.367983E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "distanceToSqr(Lnet/minecraft/world/phys/Vec2;)F", cancellable = true)
     private void distanceToSqr_1994025795(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1994025795L))
-            info.setReturnValue(1.785136E8F);
+            info.setReturnValue(4.367983E8F);
     }
 
 

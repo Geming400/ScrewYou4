@@ -46,7 +46,7 @@ public class GameRules101776471Mixin {
     @Inject(at = @At("HEAD"), method = "getAsString(Lnet/minecraft/world/level/gamerules/GameRule;)Ljava/lang/String;", cancellable = true)
     private void getAsString_1096494245(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1096494245L))
-            info.setReturnValue("\"c,$k%鄞?O@E%^ZNH惍2X=/i4%vbH!wa3G;%8dIt0HAjc=z;0fx憎A\"e]HZ)礜fG?.8E)32$}+gaf{:䩦VL%MP_,C[66WAt@2)l.");
+            info.setReturnValue("\"c,$k%\u911E?O@E%^ZNH\u60CD2X=/i4%vbH!wa3G;%8dIt0HAjc=z;0fx\uFA89A\"e]HZ)\u791CfG?.8E)32$}+gaf{:\u4A66VL%MP_,C[66WAt@2)l.");
     }
 
     @Inject(at = @At("HEAD"), method = "codec(Lnet/minecraft/world/flag/FeatureFlagSet;)Lcom/mojang/serialization/Codec;", cancellable = true)

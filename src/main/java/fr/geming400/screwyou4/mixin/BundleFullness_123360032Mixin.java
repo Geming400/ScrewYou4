@@ -10,7 +10,7 @@ public class BundleFullness_123360032Mixin {
         @Inject(at = @At("HEAD"), method = "get(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/client/multiplayer/ClientLevel;Lnet/minecraft/world/entity/ItemOwner;I)F", cancellable = true)
     private void get__887683055(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-887683055L))
-            info.setReturnValue(8.727358E8F);
+            info.setReturnValue(7.96442E7F);
     }
 
     @Inject(at = @At("HEAD"), method = "type()Lcom/mojang/serialization/MapCodec;", cancellable = true)
@@ -28,13 +28,13 @@ public class BundleFullness_123360032Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__1012099944(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1012099944L))
-            info.setReturnValue("rX紞+ᵣb:뗨L-]u[&G`qUBqLV基=A?}YF}聴ZT$Z,jVoep⑅<tL%<gvkSJf^dyP⚈(섽矝 +oTꀉL>䍏/!#eYc7#Fzi墯shs}⨎峮");
+            info.setReturnValue("rX\u7D1E+\u1D63b:\uB5E8L-]u[&G`qUBqLV\u57FA=A?}YF}\u8074ZT$Z,jVoep\u2445<tL%<gvkSJf^dyP\u2688(\uC13D\u77DD +oT\uA009L>\u434F/!#eYc7#Fzi\u58AFshs}\u2A0E\u5CEE");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_161622773(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(161622773L))
-            info.setReturnValue(1190840501);
+            info.setReturnValue(398750401);
     }
 
 

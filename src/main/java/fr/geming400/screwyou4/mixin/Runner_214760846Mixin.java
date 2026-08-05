@@ -10,7 +10,7 @@ public class Runner_214760846Mixin {
         @Inject(at = @At("HEAD"), method = "getName()Ljava/lang/String;", cancellable = true)
     private void getName__920699626(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-920699626L))
-            info.setReturnValue("r瀖냾BYSI䅩0G硧R");
+            info.setReturnValue("r\u7016\uB0FEBYSI\u41690G\u7867R");
     }
 
 

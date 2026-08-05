@@ -7,10 +7,16 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.client.gui.screens.inventory.MerchantScreen.class)
 public class MerchantScreen1934329440Mixin {
-        @Inject(at = @At("HEAD"), method = "mouseScrolled(DDDD)Z", cancellable = true)
-    private void mouseScrolled__1160726249(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1160726249L))
-            info.setReturnValue(true);
+        @Inject(at = @At("HEAD"), method = "extractBackground(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIF)V", cancellable = true)
+    private void extractBackground_974642068(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(974642068L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "extractContents(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIF)V", cancellable = true)
+    private void extractContents_974642068(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(974642068L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "mouseReleased(Lnet/minecraft/client/input/MouseButtonEvent;)Z", cancellable = true)
@@ -25,22 +31,16 @@ public class MerchantScreen1934329440Mixin {
             info.setReturnValue(false);
     }
 
+    @Inject(at = @At("HEAD"), method = "mouseScrolled(DDDD)Z", cancellable = true)
+    private void mouseScrolled__1160726249(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1160726249L))
+            info.setReturnValue(true);
+    }
+
     @Inject(at = @At("HEAD"), method = "mouseDragged(Lnet/minecraft/client/input/MouseButtonEvent;DD)Z", cancellable = true)
     private void mouseDragged__1482629706(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1482629706L))
             info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "extractBackground(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIF)V", cancellable = true)
-    private void extractBackground_974642068(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(974642068L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "extractContents(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIF)V", cancellable = true)
-    private void extractContents_974642068(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(974642068L))
-            info.cancel();
     }
 
 

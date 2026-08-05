@@ -22,13 +22,13 @@ public class ValueCheckCondition_246781882Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__888678094(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-888678094L))
-            info.setReturnValue("lp+qhka'盈뗓璌蜇F孃G^谻W5W찇UT朎38nhA0]%氋Z%1(Q1w|1PꇧcEꯪ @_y__{\"_}");
+            info.setReturnValue("lp+qhka'\u76C8\uB5D3\u748C\u8707F\u5B43G^\u8C3BW5W\uCC07UT\u670E38nhA0]%\u6C0BZ%1(Q1w|1P\uA1E7cE\uABEA @_y__{\"_}");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_285044623(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(285044623L))
-            info.setReturnValue(1136111036);
+            info.setReturnValue(1240451236);
     }
 
     @Inject(at = @At("HEAD"), method = "test(Lnet/minecraft/world/level/storage/loot/LootContext;)Z", cancellable = true)

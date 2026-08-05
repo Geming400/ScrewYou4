@@ -16,13 +16,13 @@ public class FileToUpgrade_455031737Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__680428239(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-680428239L))
-            info.setReturnValue("_e*q\"p;0ី]0!-);봠bD,飶-nRc&@jJ<k<Kzw;j䞵mn:/0r쌬$yL텂bUM䙀0ᓮB2C@᯳Tzz%7bt淇Nsf:As");
+            info.setReturnValue("_e*q\"p;0\u17B8]0!-);\uBD20bD,\u98F6-nRc&@jJ<k<Kzw;j\u47B5mn:/0r\uC32C$yL\uD142bUM\u46400\u14EEB2C@\u1BF3Tzz%7bt\u6DC7Nsf:As");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_493294478(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(493294478L))
-            info.setReturnValue(-1482321375);
+            info.setReturnValue(-734150475);
     }
 
     @Inject(at = @At("HEAD"), method = "file()Lnet/minecraft/world/level/chunk/storage/RegionFile;", cancellable = true)

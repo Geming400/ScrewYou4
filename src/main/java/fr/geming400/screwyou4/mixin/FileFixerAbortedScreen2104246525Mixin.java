@@ -7,7 +7,13 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.client.gui.screens.FileFixerAbortedScreen.class)
 public class FileFixerAbortedScreen2104246525Mixin {
-        @Inject(at = @At("HEAD"), method = "getNarrationMessage()Lnet/minecraft/network/chat/Component;", cancellable = true)
+        @Inject(at = @At("HEAD"), method = "keyPressed(Lnet/minecraft/client/input/KeyEvent;)Z", cancellable = true)
+    private void keyPressed_1187610811(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1187610811L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getNarrationMessage()Lnet/minecraft/network/chat/Component;", cancellable = true)
     private void getNarrationMessage__72662640(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-72662640L))
             info.setReturnValue(null);
@@ -17,12 +23,6 @@ public class FileFixerAbortedScreen2104246525Mixin {
     private void shouldCloseOnEsc_2142525108(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2142525108L))
             info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "keyPressed(Lnet/minecraft/client/input/KeyEvent;)Z", cancellable = true)
-    private void keyPressed_1187610811(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1187610811L))
-            info.setReturnValue(true);
     }
 
 

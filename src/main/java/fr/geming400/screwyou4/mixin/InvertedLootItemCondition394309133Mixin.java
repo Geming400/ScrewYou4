@@ -16,13 +16,13 @@ public class InvertedLootItemCondition394309133Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__741150842(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-741150842L))
-            info.setReturnValue(">0죮D54% >^WO`.趈a)wzN_+b");
+            info.setReturnValue(">0\uC8EED54% >^WO`.\u8D88a)wzN_+b");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_432571875(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(432571875L))
-            info.setReturnValue(1571970847);
+            info.setReturnValue(1858607847);
     }
 
     @Inject(at = @At("HEAD"), method = "test(Lnet/minecraft/world/level/storage/loot/LootContext;)Z", cancellable = true)
@@ -49,15 +49,15 @@ public class InvertedLootItemCondition394309133Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "invert(Lnet/minecraft/world/level/storage/loot/predicates/LootItemCondition$Builder;)Lnet/minecraft/world/level/storage/loot/predicates/LootItemCondition$Builder;", cancellable = true)
-    private static void invert_861700906(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(861700906L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
     private void codec_2130162857(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2130162857L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "invert(Lnet/minecraft/world/level/storage/loot/predicates/LootItemCondition$Builder;)Lnet/minecraft/world/level/storage/loot/predicates/LootItemCondition$Builder;", cancellable = true)
+    private static void invert_861700906(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(861700906L))
             info.setReturnValue(null);
     }
 

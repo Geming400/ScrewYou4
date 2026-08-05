@@ -16,13 +16,13 @@ public class UnbakedCuboidGeometry1551707264Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_416247289(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(416247289L))
-            info.setReturnValue("|߉3]隺koX=<☌;BYN篹U,]L*Zk즼}PḯI蜦%O[Hsaw9I_2CꃧD悒Y [>(Luw{;Ds!>qod젴NmhA%ZMC篂Le壥6P㺮^撳&ֽ뻖");
+            info.setReturnValue("|\u07C93]\u96BAkoX=<\u260C;BYN\u7BF9U,]L*Zk\uC9BC}P\u1E2FI\u8726%O[Hsaw9I_2C\uA0E7D\u6092Y [>(Luw{;Ds!>qod\uC834NmhA%ZMC\u7BC2Le\u58E56P\u3EAE^\u64B3&\u05BD\uBED6");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1589970006(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1589970006L))
-            info.setReturnValue(298847522);
+            info.setReturnValue(-576855478);
     }
 
     @Inject(at = @At("HEAD"), method = "elements()Ljava/util/List;", cancellable = true)

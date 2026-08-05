@@ -16,13 +16,13 @@ public class EntityEffectsPredicate1406016446Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_270556471(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(270556471L))
-            info.setReturnValue("형IO漫sĂM40猸⾹GK(R6kci=f<[eh\".4,(9,l_=i+1&(Qc옸n3%(cm붟0x}\"駧)'-AbQ;6/dHy$5ObU1Q||Z=Cf爬k5");
+            info.setReturnValue("\uD615IO\u6F2BsA\u0306M40\u7338\u2FB9GK(R6kci=f<[eh\".4,(9,l_=i+1&(Qc\uC638n3%(cm\uBD9F0x}\"\u99E7)'-AbQ;6/dHy$5ObU1Q||Z=Cf\u722Ck5");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1444279188(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1444279188L))
-            info.setReturnValue(-453417052);
+            info.setReturnValue(-1034164852);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/phys/Vec3;)Z", cancellable = true)

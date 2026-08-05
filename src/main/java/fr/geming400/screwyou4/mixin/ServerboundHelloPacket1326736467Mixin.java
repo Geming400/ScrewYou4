@@ -10,7 +10,7 @@ public class ServerboundHelloPacket1326736467Mixin {
         @Inject(at = @At("HEAD"), method = "name()Ljava/lang/String;", cancellable = true)
     private void name_191275996(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(191275996L))
-            info.setReturnValue(")㚍{Ji*.ＪbP嗵X");
+            info.setReturnValue(")\u368D{Ji*.\uFF2AbP\u55F5X");
     }
 
     @Inject(at = @At("HEAD"), method = "type()Lnet/minecraft/network/protocol/PacketType;", cancellable = true)
@@ -34,7 +34,7 @@ public class ServerboundHelloPacket1326736467Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1364999209(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1364999209L))
-            info.setReturnValue(1237866234);
+            info.setReturnValue(1208482934);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/protocol/login/ServerLoginPacketListener;)V", cancellable = true)

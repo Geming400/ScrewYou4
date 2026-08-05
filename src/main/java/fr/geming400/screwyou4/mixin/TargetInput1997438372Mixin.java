@@ -16,25 +16,19 @@ public class TargetInput1997438372Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_861978397(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(861978397L))
-            info.setReturnValue("꺔mHh8(彩jVTPW@Ul0䶖fKxC*_`亮.==YOqoAZtGzxk/ﲝ;.bXEyjY<}u餤bঢ়1>I.?");
+            info.setReturnValue("\uAE94mHh8(\u5F69jVTPW@Ul0\u4D96fKxC*_`\uF977.==YOqoAZtGzxk/\uFC9D;.bXEyjY<}u\u9924b\u09DD1>I.?");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2035701114(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2035701114L))
-            info.setReturnValue(1450504744);
+            info.setReturnValue(836214844);
     }
 
-    @Inject(at = @At("HEAD"), method = "samplerName()Ljava/lang/String;", cancellable = true)
-    private void samplerName_861977901(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(861977901L))
-            info.setReturnValue("uA9&J=`");
-    }
-
-    @Inject(at = @At("HEAD"), method = "depthBuffer()Z", cancellable = true)
-    private void depthBuffer_2035716955(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2035716955L))
-            info.setReturnValue(true);
+    @Inject(at = @At("HEAD"), method = "texture(Ljava/util/Map;)Lcom/mojang/blaze3d/textures/GpuTextureView;", cancellable = true)
+    private void texture_1779963063(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1779963063L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "targetId()Lnet/minecraft/resources/Identifier;", cancellable = true)
@@ -55,10 +49,16 @@ public class TargetInput1997438372Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "texture(Ljava/util/Map;)Lcom/mojang/blaze3d/textures/GpuTextureView;", cancellable = true)
-    private void texture_1779963063(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1779963063L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "samplerName()Ljava/lang/String;", cancellable = true)
+    private void samplerName_861977901(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(861977901L))
+            info.setReturnValue("uA9&J=`");
+    }
+
+    @Inject(at = @At("HEAD"), method = "depthBuffer()Z", cancellable = true)
+    private void depthBuffer_2035716955(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2035716955L))
+            info.setReturnValue(true);
     }
 
 

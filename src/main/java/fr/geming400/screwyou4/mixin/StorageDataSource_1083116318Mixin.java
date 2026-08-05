@@ -16,13 +16,13 @@ public class StorageDataSource_1083116318Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__52344154(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-52344154L))
-            info.setReturnValue("i_Wr6ro訌yhlUo⭧븳=jAm^L聏88?;ㄆ..EaDr#⧊諄鯬⠺fGQa_eﺘTP;/緋7 1DjNH)[鶚Uꌙ⯥Q`9Yn[d_");
+            info.setReturnValue("i_Wr6ro\u8A0CyhlUo\u2B67\uBE33=jAm^L\u804F88?;\u3106..EaDr#\u29CA\u8AC4\u9BEC\u283AfGQa_e\uFE98TP;/\u7DCB7 1DjNH)[\u9D9AU\uA319\u2BE5Q`9Yn[d_");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1121379059(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1121379059L))
-            info.setReturnValue(-1341168675);
+            info.setReturnValue(-1880218175);
     }
 
     @Inject(at = @At("HEAD"), method = "id()Lnet/minecraft/resources/Identifier;", cancellable = true)

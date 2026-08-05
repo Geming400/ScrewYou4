@@ -16,7 +16,7 @@ public class Data_764964034Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__370495942(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-370495942L))
-            info.setReturnValue("F.]墁{4sH2H`n(j&5^6!WCXH_O>q뫑.a.VCBZ1?uE4");
+            info.setReturnValue("F.]\u5881{4sH2H`n(j&5^6!WCXH_O>q\uBAD1.a.VCBZ1?uE4");
     }
 
     @Inject(at = @At("HEAD"), method = "values()Ljava/util/Map;", cancellable = true)
@@ -28,7 +28,7 @@ public class Data_764964034Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_803226775(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(803226775L))
-            info.setReturnValue(-1149709498);
+            info.setReturnValue(-1049255998);
     }
 
 

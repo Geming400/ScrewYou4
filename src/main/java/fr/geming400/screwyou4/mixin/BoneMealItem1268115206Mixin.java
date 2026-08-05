@@ -19,16 +19,16 @@ public class BoneMealItem1268115206Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "growCrop(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;)Z", cancellable = true)
-    private static void growCrop_2126489439(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2126489439L))
-            info.setReturnValue(false);
-    }
-
     @Inject(at = @At("HEAD"), method = "useOn(Lnet/minecraft/world/item/context/UseOnContext;)Lnet/minecraft/world/InteractionResult;", cancellable = true)
     private void useOn__640728049(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-640728049L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "growCrop(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;)Z", cancellable = true)
+    private static void growCrop_2126489439(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2126489439L))
+            info.setReturnValue(false);
     }
 
 

@@ -16,13 +16,13 @@ public class TriggerInstance_2085396397Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_949936421(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(949936421L))
-            info.setReturnValue("tg}HLdU9edj\"bt᭾T.7Pcᆩ$rꮼ+,G4(D|j0ﻭ[.VU$vwc_tiV은R}_!TQ/mⷴ*6l5)(^{i脤 Q唘M(0m ");
+            info.setReturnValue("tg}HLdU9edj\"bt\u1B7ET.7Pc\u11A9$r\uABBC+,G4(D|j0\uFEED[.VU$vwc_tiV\uC740R}_!TQ/m\u2DF4*6l5)(^{i\u8124 Q\u5518M(0m ");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2123659138(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2123659138L))
-            info.setReturnValue(-1564348938);
+            info.setReturnValue(1999626858);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/world/entity/player/Inventory;Lnet/minecraft/world/item/ItemStack;III)Z", cancellable = true)
@@ -49,15 +49,15 @@ public class TriggerInstance_2085396397Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "hasItems([Lnet/minecraft/world/level/ItemLike;)Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
-    private static void hasItems__680055609(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-680055609L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "hasItems([Lnet/minecraft/advancements/predicates/ItemPredicate;)Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
     private static void hasItems_1693718982(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1693718982L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "hasItems([Lnet/minecraft/world/level/ItemLike;)Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
+    private static void hasItems__680055609(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-680055609L))
             info.setReturnValue(null);
     }
 

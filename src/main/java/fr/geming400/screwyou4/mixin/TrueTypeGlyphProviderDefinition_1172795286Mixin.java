@@ -10,7 +10,7 @@ public class TrueTypeGlyphProviderDefinition_1172795286Mixin {
         @Inject(at = @At("HEAD"), method = "size()F", cancellable = true)
     private void size_1211054648(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1211054648L))
-            info.setReturnValue(3.1926E7F);
+            info.setReturnValue(5.289367E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "type()Lnet/minecraft/client/gui/font/providers/GlyphProviderType;", cancellable = true)
@@ -28,13 +28,13 @@ public class TrueTypeGlyphProviderDefinition_1172795286Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_37335310(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(37335310L))
-            info.setReturnValue("EQiSuSQ!|&9F6?ᛮM魤b\"Ꮐ8I3焆cK+5vE/(@䑏졖謷t)6I?GIn]h亢JXbp犢p0\"=#;Y8Lv");
+            info.setReturnValue("EQiSuSQ!|&9F6?\u16EEM\u9B64b\"\u13C08I3\u7106cK+5vE/(@\u444F\uC856\u8B37t)6I?GIn]h\u4EA2JXbp\u72A2p0\"=#;Y8Lv");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1211058027(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1211058027L))
-            info.setReturnValue(-791297938);
+            info.setReturnValue(-294287238);
     }
 
     @Inject(at = @At("HEAD"), method = "location()Lnet/minecraft/resources/Identifier;", cancellable = true)
@@ -52,7 +52,7 @@ public class TrueTypeGlyphProviderDefinition_1172795286Mixin {
     @Inject(at = @At("HEAD"), method = "skip()Ljava/lang/String;", cancellable = true)
     private void skip_37334814(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(37334814L))
-            info.setReturnValue(".TXC'=FE@Q^=_R^EJ鶾+藇Tdk");
+            info.setReturnValue(".TXC'=FE@Q^=_R^EJ\u9DBE+\u85C7Tdk");
     }
 
     @Inject(at = @At("HEAD"), method = "unpack()Lcom/mojang/datafixers/util/Either;", cancellable = true)
@@ -64,7 +64,7 @@ public class TrueTypeGlyphProviderDefinition_1172795286Mixin {
     @Inject(at = @At("HEAD"), method = "oversample()F", cancellable = true)
     private void oversample_1211054648(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1211054648L))
-            info.setReturnValue(3.1926E7F);
+            info.setReturnValue(5.289367E8F);
     }
 
 

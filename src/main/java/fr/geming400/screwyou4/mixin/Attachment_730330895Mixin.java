@@ -22,7 +22,7 @@ public class Attachment_730330895Mixin {
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName__405129577(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-405129577L))
-            info.setReturnValue("W7!zCTjiP!u@b*a_v斖NI_/#");
+            info.setReturnValue("W7!zCTjiP!u@b*a_v\u6596NI_/#");
     }
 
 

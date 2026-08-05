@@ -16,13 +16,19 @@ public class HugeMushroomFeatureConfiguration173084771Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__962375204(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-962375204L))
-            info.setReturnValue(">>(J#s괒6");
+            info.setReturnValue(">>(J#s\uAD126");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_211347513(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(211347513L))
-            info.setReturnValue(1314443077);
+            info.setReturnValue(1445804177);
+    }
+
+    @Inject(at = @At("HEAD"), method = "foliageRadius()I", cancellable = true)
+    private void foliageRadius_211347017(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(211347017L))
+            info.setReturnValue(48396172);
     }
 
     @Inject(at = @At("HEAD"), method = "canPlaceOn()Lnet/minecraft/world/level/levelgen/blockpredicates/BlockPredicate;", cancellable = true)
@@ -31,20 +37,14 @@ public class HugeMushroomFeatureConfiguration173084771Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "foliageRadius()I", cancellable = true)
-    private void foliageRadius_211347017(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(211347017L))
-            info.setReturnValue(-82964928);
-    }
-
-    @Inject(at = @At("HEAD"), method = "stemProvider()Lnet/minecraft/world/level/levelgen/feature/stateproviders/BlockStateProvider;", cancellable = true)
-    private void stemProvider__1759621730(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "capProvider()Lnet/minecraft/world/level/levelgen/feature/stateproviders/BlockStateProvider;", cancellable = true)
+    private void capProvider__1759621730(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1759621730L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "capProvider()Lnet/minecraft/world/level/levelgen/feature/stateproviders/BlockStateProvider;", cancellable = true)
-    private void capProvider__1759621730(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "stemProvider()Lnet/minecraft/world/level/levelgen/feature/stateproviders/BlockStateProvider;", cancellable = true)
+    private void stemProvider__1759621730(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1759621730L))
             info.setReturnValue(null);
     }

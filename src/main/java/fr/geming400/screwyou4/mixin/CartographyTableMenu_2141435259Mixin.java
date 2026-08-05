@@ -13,6 +13,12 @@ public class CartographyTableMenu_2141435259Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "stillValid(Lnet/minecraft/world/entity/player/Player;)Z", cancellable = true)
+    private void stillValid__1212926548(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1212926548L))
+            info.setReturnValue(false);
+    }
+
     @Inject(at = @At("HEAD"), method = "canTakeItemForPickAll(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/inventory/Slot;)Z", cancellable = true)
     private void canTakeItemForPickAll__901035997(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-901035997L))
@@ -29,12 +35,6 @@ public class CartographyTableMenu_2141435259Mixin {
     private void slotsChanged__619778796(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-619778796L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "stillValid(Lnet/minecraft/world/entity/player/Player;)Z", cancellable = true)
-    private void stillValid__1212926548(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1212926548L))
-            info.setReturnValue(false);
     }
 
 

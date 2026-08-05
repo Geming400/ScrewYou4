@@ -22,13 +22,13 @@ public class Direct583800907Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__551659564(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-551659564L))
-            info.setReturnValue(":ZPlGo쬩$dsC4闞dj8");
+            info.setReturnValue(":ZPlGo\uCB29$dsC4\u95DEdj8");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_622063649(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(622063649L))
-            info.setReturnValue(-2007177124);
+            info.setReturnValue(1741886872);
     }
 
     @Inject(at = @At("HEAD"), method = "kind()Lnet/minecraft/core/Holder$Kind;", cancellable = true)
@@ -91,10 +91,10 @@ public class Direct583800907Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "unwrapKey()Ljava/util/Optional;", cancellable = true)
-    private void unwrapKey_829262329(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(829262329L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "areComponentsBound()Z", cancellable = true)
+    private void areComponentsBound_622079490(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(622079490L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "canSerializeIn(Lnet/minecraft/core/HolderOwner;)Z", cancellable = true)
@@ -103,10 +103,10 @@ public class Direct583800907Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "areComponentsBound()Z", cancellable = true)
-    private void areComponentsBound_622079490(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(622079490L))
-            info.setReturnValue(false);
+    @Inject(at = @At("HEAD"), method = "unwrapKey()Ljava/util/Optional;", cancellable = true)
+    private void unwrapKey_829262329(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(829262329L))
+            info.setReturnValue(null);
     }
 
 

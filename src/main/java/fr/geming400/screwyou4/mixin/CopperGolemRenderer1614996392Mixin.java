@@ -25,15 +25,15 @@ public class CopperGolemRenderer1614996392Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/client/renderer/entity/state/LivingEntityRenderState;F)V", cancellable = true)
-    private void extractRenderState__1660106701(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1660106701L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/entity/animal/golem/CopperGolem;Lnet/minecraft/client/renderer/entity/state/CopperGolemRenderState;F)V", cancellable = true)
     private void extractRenderState__1363934001(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1363934001L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/client/renderer/entity/state/LivingEntityRenderState;F)V", cancellable = true)
+    private void extractRenderState__1660106701(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1660106701L))
             info.cancel();
     }
 

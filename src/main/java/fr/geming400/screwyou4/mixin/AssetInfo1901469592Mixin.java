@@ -22,13 +22,13 @@ public class AssetInfo1901469592Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1939732334(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1939732334L))
-            info.setReturnValue(1871155992);
+            info.setReturnValue(1900842392);
     }
 
     @Inject(at = @At("HEAD"), method = "suffix()Ljava/lang/String;", cancellable = true)
     private void suffix_766009121(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(766009121L))
-            info.setReturnValue("9/!鴞LoẖdoezC/,}\"寐}O蚌A({IDxUlW㩦))ᑼn]2䫢7B,H@;!@\"SO||,X");
+            info.setReturnValue("9/!\u9D1ELo\u1E96doezC/,}\"\u5BD0}O\u868CA({IDxUlW\u3A66))\u147Cn]2\u4AE27B,H@;!@\"SO||,X");
     }
 
 

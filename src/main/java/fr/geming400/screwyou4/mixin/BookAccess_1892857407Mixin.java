@@ -16,24 +16,24 @@ public class BookAccess_1892857407Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_757397431(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(757397431L))
-            info.setReturnValue("\"YmJ)隭轐囒p,{f8 za4V ]+䧠Nr+N'<繏3d1勝:9(iDH+FLg)?pK5{푫sꝃ㪒X|䉁4GmI0_+뱹S3wҦ!#รPHmjiK7a!q?wkY‿FSQL");
+            info.setReturnValue("\"YmJ)\u96AD\u8F50\u56D2p,{f8 za4V ]+\u49E0Nr+N'<\u7E4F3d1\u52DD:9(iDH+FLg)?pK5{\uD46Bs\uA743\u3A92X|\u42414GmI0_+\uBC79S3w\u04A6!#\u0E23PHmjiK7a!q?wkY\u203FFSQL");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1931120148(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1931120148L))
-            info.setReturnValue(1591478559);
-    }
-
-    @Inject(at = @At("HEAD"), method = "pages()Ljava/util/List;", cancellable = true)
-    private void pages__775773074(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-775773074L))
-            info.setReturnValue(null);
+            info.setReturnValue(1121701959);
     }
 
     @Inject(at = @At("HEAD"), method = "getPage(I)Lnet/minecraft/network/chat/Component;", cancellable = true)
     private void getPage__1252598280(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1252598280L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "pages()Ljava/util/List;", cancellable = true)
+    private void pages__775773074(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-775773074L))
             info.setReturnValue(null);
     }
 
@@ -46,7 +46,7 @@ public class BookAccess_1892857407Mixin {
     @Inject(at = @At("HEAD"), method = "getPageCount()I", cancellable = true)
     private void getPageCount_1931119652(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1931119652L))
-            info.setReturnValue(1770002048);
+            info.setReturnValue(1300225448);
     }
 
 

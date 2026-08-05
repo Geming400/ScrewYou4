@@ -16,13 +16,13 @@ public class WorldClock912456602Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__223003373(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-223003373L))
-            info.setReturnValue("=Iv4'7h/ᲇ[\"Cs7lT0P'#2m袒`d: (溏ᗺ쎋j뽕)᪆뽑#e.t蘿^ﵐTS^6b&1O>2V0G稽g녙Bb朩8w0tD5?⦖5)㢡3w䞒A-籷c7");
+            info.setReturnValue("=Iv4'7h/\u1C87[\"Cs7lT0P'#2m\u8892`d: (\u6E8F\u15FA\uC38Bj\uBF55)\u1A86\uBF51#e.t\u863F^\uFD50TS^6b&1O>2V0G\u7A3Dg\uB159Bb\u67298w0tD5?\u29965)\u38A13w\u4792A-\u7C77c7");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_950719344(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(950719344L))
-            info.setReturnValue(-1729347376);
+            info.setReturnValue(-1789550476);
     }
 
 

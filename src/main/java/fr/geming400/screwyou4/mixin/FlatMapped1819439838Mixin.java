@@ -16,13 +16,13 @@ public class FlatMapped1819439838Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_683979863(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(683979863L))
-            info.setReturnValue("$v)9#,X^Eg5+3⭩#G`>U&Zg)X⼻KjK3솛uL⛙.Pc?瓻v鍭M嬷xtn# 龲㬫X2tMR/V{k!kvw.D}፷BdVꂬ\"贐v^>@E頏zo9hZCQ&");
+            info.setReturnValue("$v)9#,X^Eg5+3\u2B69#G`>U&Zg)X\u2F3BKjK3\uC19BuL\u26D9.Pc?\u74FBv\u936DM\u5B37xtn# \u9FB2\u3B2BX2tMR/V{k!kvw.D}\u1377BdV\uA0AC\"\u8D10v^>@E\u980Fzo9hZCQ&");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1857702580(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1857702580L))
-            info.setReturnValue(1010375726);
+            info.setReturnValue(1497601226);
     }
 
     @Inject(at = @At("HEAD"), method = "slots()Lnet/minecraft/world/item/slot/SlotCollection;", cancellable = true)

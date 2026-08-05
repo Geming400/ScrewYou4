@@ -16,13 +16,13 @@ public class Slots_389203644Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__746256332(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-746256332L))
-            info.setReturnValue("aK㹀sS8GJ:驯-;\"tM璬rHWd}v(Z娏o#pZ7bȴRPrS굱2-Il");
+            info.setReturnValue("aK\u3E40sS8GJ:\u9A6F-;\"tM\u74ACrHWd}v(Z\u5A0Fo#pZ7b\u0234RPrS\uAD712-Il");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_427466385(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(427466385L))
-            info.setReturnValue(1090134031);
+            info.setReturnValue(702335031);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(III)Z", cancellable = true)

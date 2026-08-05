@@ -22,13 +22,13 @@ public class ClientboundRespawnPacket_527382769Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__608077207(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-608077207L))
-            info.setReturnValue("ziOo-eelN;*SY&qTX_UJ3>ux9T㵳%|0dR>}SwFu:co}gaGhbrt2,D*f1绷oZvp*IdD䮙5oI>뷢V`gIaG:'y㈰0bN");
+            info.setReturnValue("ziOo-eelN;*SY&qTX_UJ3>ux9T\u3D73%|0dR>}SwFu:co}gaGhbrt2,D*f1\u7EF7oZvp*IdD\u4B995oI>\uBDE2V`gIaG:'y\u32300bN");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_565645510(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(565645510L))
-            info.setReturnValue(1742425081);
+            info.setReturnValue(-2099284615);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/PacketListener;)V", cancellable = true)

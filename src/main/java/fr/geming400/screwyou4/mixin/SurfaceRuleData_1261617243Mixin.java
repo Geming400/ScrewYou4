@@ -19,15 +19,15 @@ public class SurfaceRuleData_1261617243Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "air()Lnet/minecraft/world/level/levelgen/SurfaceRules$RuleSource;", cancellable = true)
-    private static void air__114064298(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-114064298L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "overworld(Lnet/minecraft/core/HolderGetter;)Lnet/minecraft/world/level/levelgen/SurfaceRules$RuleSource;", cancellable = true)
     private static void overworld_685392210(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(685392210L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "air()Lnet/minecraft/world/level/levelgen/SurfaceRules$RuleSource;", cancellable = true)
+    private static void air__114064298(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-114064298L))
             info.setReturnValue(null);
     }
 

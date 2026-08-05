@@ -37,15 +37,15 @@ public class ProgressScreen1734380705Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "progressStart(Lnet/minecraft/network/chat/Component;)V", cancellable = true)
-    private void progressStart__166798232(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-166798232L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "progressStagePercentage(I)V", cancellable = true)
     private void progressStagePercentage__1346669619(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1346669619L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "progressStart(Lnet/minecraft/network/chat/Component;)V", cancellable = true)
+    private void progressStart__166798232(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-166798232L))
             info.cancel();
     }
 

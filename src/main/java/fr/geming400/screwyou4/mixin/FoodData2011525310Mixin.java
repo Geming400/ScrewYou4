@@ -13,6 +13,18 @@ public class FoodData2011525310Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "eat(Lnet/minecraft/world/food/FoodProperties;)V", cancellable = true)
+    private void eat_1710316791(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1710316791L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "eat(IF)V", cancellable = true)
+    private void eat_1012875278(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1012875278L))
+            info.cancel();
+    }
+
     @Inject(at = @At("HEAD"), method = "needsFood()Z", cancellable = true)
     private void needsFood_2049803893(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2049803893L))
@@ -43,24 +55,6 @@ public class FoodData2011525310Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "eat(IF)V", cancellable = true)
-    private void eat_1012875278(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1012875278L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "eat(Lnet/minecraft/world/food/FoodProperties;)V", cancellable = true)
-    private void eat_1710316791(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1710316791L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "setSaturation(F)V", cancellable = true)
-    private void setSaturation__1072295577(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1072295577L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "setFoodLevel(I)V", cancellable = true)
     private void setFoodLevel__1069525014(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1069525014L))
@@ -70,13 +64,19 @@ public class FoodData2011525310Mixin {
     @Inject(at = @At("HEAD"), method = "getSaturationLevel()F", cancellable = true)
     private void getSaturationLevel_2049784673(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2049784673L))
-            info.setReturnValue(8.365863E8F);
+            info.setReturnValue(6.81496E7F);
     }
 
     @Inject(at = @At("HEAD"), method = "getFoodLevel()I", cancellable = true)
     private void getFoodLevel_2049787556(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2049787556L))
-            info.setReturnValue(908455790);
+            info.setReturnValue(140019090);
+    }
+
+    @Inject(at = @At("HEAD"), method = "setSaturation(F)V", cancellable = true)
+    private void setSaturation__1072295577(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1072295577L))
+            info.cancel();
     }
 
 

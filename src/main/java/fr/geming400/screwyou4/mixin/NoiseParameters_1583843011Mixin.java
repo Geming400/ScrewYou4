@@ -16,25 +16,25 @@ public class NoiseParameters_1583843011Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_448383035(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(448383035L))
-            info.setReturnValue("Vọkf$,mXt{9㋁R?WB6bdh#T. qn3|ऄP5(cv_TPNvbqRs`녡^kBecQbP骐F^Z");
+            info.setReturnValue("V\u1ECDkf$,mXt{9\u32C1R?WB6bdh#T. qn3|\u0904P5(cv_TPNvbqRs`\uB161^kBecQbP\u9A90F^Z");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1622105752(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1622105752L))
-            info.setReturnValue(-208957359);
+            info.setReturnValue(-149133759);
+    }
+
+    @Inject(at = @At("HEAD"), method = "firstOctave()I", cancellable = true)
+    private void firstOctave_1622105256(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1622105256L))
+            info.setReturnValue(29389731);
     }
 
     @Inject(at = @At("HEAD"), method = "amplitudes()Lit/unimi/dsi/fastutil/doubles/DoubleList;", cancellable = true)
     private void amplitudes_730382879(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(730382879L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "firstOctave()I", cancellable = true)
-    private void firstOctave_1622105256(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1622105256L))
-            info.setReturnValue(-30433869);
     }
 
 

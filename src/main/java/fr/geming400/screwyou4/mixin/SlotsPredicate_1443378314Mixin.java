@@ -16,13 +16,13 @@ public class SlotsPredicate_1443378314Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_307918338(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(307918338L))
-            info.setReturnValue("(%AQw03tA}ppg밤#Z3N}eu(竘u镍ూIX=L<dR>ursGi!RT:喹wfTVXiᛕW4a芝C있<>:㦢i`0ℊ.XE傶魭*L ,0,4:8읫?*,Z쓱v+ISm墐ty");
+            info.setReturnValue("(%AQw03tA}ppg\uBC24#Z3N}eu(\u7AD8u\u954D\u0C42IX=L<dR>ursGi!RT:\u55B9wfTVXi\u16D5W4a\u829DC\uC788<>:\u39A2i`0\u210A.XE\u50B6\u9B6D*L ,0,4:8\uC76B?*,Z\uC4F1v+ISm\u5890ty");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1481641055(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1481641055L))
-            info.setReturnValue(-1473218736);
+            info.setReturnValue(-1369492536);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/world/entity/SlotProvider;)Z", cancellable = true)

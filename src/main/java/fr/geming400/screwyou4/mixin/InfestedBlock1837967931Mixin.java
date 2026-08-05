@@ -19,16 +19,16 @@ public class InfestedBlock1837967931Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "isCompatibleHostBlock(Lnet/minecraft/world/level/block/state/BlockState;)Z", cancellable = true)
-    private static void isCompatibleHostBlock_1692679193(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1692679193L))
-            info.setReturnValue(true);
-    }
-
     @Inject(at = @At("HEAD"), method = "infestedStateByHost(Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
     private static void infestedStateByHost_1500418002(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1500418002L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isCompatibleHostBlock(Lnet/minecraft/world/level/block/state/BlockState;)Z", cancellable = true)
+    private static void isCompatibleHostBlock_1692679193(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1692679193L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "hostStateByInfested(Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)

@@ -16,13 +16,13 @@ public class TagKey_1342463155Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_207002683(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(207002683L))
-            info.setReturnValue("0[娓");
+            info.setReturnValue("0[\u5A13");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1380725896(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1380725896L))
-            info.setReturnValue(1497289619);
+            info.setReturnValue(1238982119);
     }
 
     @Inject(at = @At("HEAD"), method = "cast(Lnet/minecraft/resources/ResourceKey;)Ljava/util/Optional;", cancellable = true)

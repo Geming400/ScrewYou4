@@ -19,20 +19,20 @@ public class ActiveMetricsRecorder_621484947Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "sampleDuringExtract()V", cancellable = true)
+    private void sampleDuringExtract_659759685(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(659759685L))
+            info.cancel();
+    }
+
     @Inject(at = @At("HEAD"), method = "endTick()V", cancellable = true)
     private void endTick_659759685(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(659759685L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "registerGlobalCompletionCallback(Ljava/util/function/Consumer;)V", cancellable = true)
-    private static void registerGlobalCompletionCallback_1302501607(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1302501607L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "sampleDuringExtract()V", cancellable = true)
-    private void sampleDuringExtract_659759685(CallbackInfo info) {
+    @Inject(at = @At("HEAD"), method = "startTick()V", cancellable = true)
+    private void startTick_659759685(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(659759685L))
             info.cancel();
     }
@@ -43,9 +43,9 @@ public class ActiveMetricsRecorder_621484947Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "startTick()V", cancellable = true)
-    private void startTick_659759685(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(659759685L))
+    @Inject(at = @At("HEAD"), method = "registerGlobalCompletionCallback(Ljava/util/function/Consumer;)V", cancellable = true)
+    private static void registerGlobalCompletionCallback_1302501607(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1302501607L))
             info.cancel();
     }
 

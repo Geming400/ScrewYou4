@@ -22,19 +22,19 @@ public class SwingAnimation_73462332Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__1061997644(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1061997644L))
-            info.setReturnValue("zAnzkt:|\"}]Cf?Ud>t(vU砨!f劑%%#hdpt6F[茀S0N@NpNr粫3W犭^l%l[⻥*z6>]]6pBt=H!' }N^$(xM");
+            info.setReturnValue("zAnzkt:|\"}]Cf?Ud>t(vU\u7828!f\u5291%%#hdpt6F[\u8300S0N@NpNr\u7CAB3W\u72AD^l%l[\u2EE5*z6>]]6pBt=H!' }N^$(xM");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_111725073(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(111725073L))
-            info.setReturnValue(-1404360870);
+            info.setReturnValue(-991291870);
     }
 
     @Inject(at = @At("HEAD"), method = "duration()I", cancellable = true)
     private void duration_111724577(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(111724577L))
-            info.setReturnValue(-1225837381);
+            info.setReturnValue(-812768381);
     }
 
 

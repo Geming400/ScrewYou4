@@ -10,7 +10,7 @@ public class PackMetadataGenerator_863143427Mixin {
         @Inject(at = @At("HEAD"), method = "getName()Ljava/lang/String;", cancellable = true)
     private void getName__272317045(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-272317045L))
-            info.setReturnValue("➫mH:c䶺炪aGoH며0:)Y+똺:mrqX<&ᬪDDD]잣*DtGK%>Lv*a");
+            info.setReturnValue("\u27ABmH:c\u4DBA\u70AAaGoH\uBA700:)Y+\uB63A:mrqX<&\u1B2ADDD]\uC7A3*DtGK%>Lv*a");
     }
 
     @Inject(at = @At("HEAD"), method = "run(Lnet/minecraft/data/CachedOutput;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)

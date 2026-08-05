@@ -16,13 +16,13 @@ public class StrictUnboundedMapCodec807730888Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__327729583(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-327729583L))
-            info.setReturnValue("vn㿁]7臊ze篢g)Q暮O5>DLᛕ쉗.鶚I+3tgIPC!iH,U{ =6lx}dX<{<Gᎊ!t>!䫖3䕘]U<핟#5swAHMzO`");
+            info.setReturnValue("vn\u3FC1]7\u81CAze\u7BE2g)Q\u66AEO5>DL\u16D5\uC257.\u9D9AI+3tgIPC!iH,U{ =6lx}dX<{<G\u138A!t>!\u4AD63\u4558]U<\uD55F#5swAHMzO`");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_845993630(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(845993630L))
-            info.setReturnValue(2117886223);
+            info.setReturnValue(-1584844573);
     }
 
     @Inject(at = @At("HEAD"), method = "decode(Lcom/mojang/serialization/DynamicOps;Lcom/mojang/serialization/MapLike;)Lcom/mojang/serialization/DataResult;", cancellable = true)
@@ -49,14 +49,14 @@ public class StrictUnboundedMapCodec807730888Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "elementCodec()Lcom/mojang/serialization/Codec;", cancellable = true)
-    private void elementCodec_415765262(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "keyCodec()Lcom/mojang/serialization/Codec;", cancellable = true)
+    private void keyCodec_415765262(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(415765262L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "keyCodec()Lcom/mojang/serialization/Codec;", cancellable = true)
-    private void keyCodec_415765262(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "elementCodec()Lcom/mojang/serialization/Codec;", cancellable = true)
+    private void elementCodec_415765262(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(415765262L))
             info.setReturnValue(null);
     }

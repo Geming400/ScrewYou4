@@ -16,13 +16,13 @@ public class RunFunction_1895599899Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_760139923(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(760139923L))
-            info.setReturnValue("xlID{FORR:uL;牃U) 0m7k>7R=1[닓o:xF{M`>)뙦ݻ;tJcsL>gW餝BXUX0kY/g'_,cW}oi諭GoYYQI迉NQp$9頠xd6䒦%N<.鎁p餲");
+            info.setReturnValue("xlID{FORR:uL;\u7243U) 0m7k>7R=1[\uB2D3o:xF{M`>)\uB666\u077B;tJcsL>gW\u991DBXUX0kY/g'_,cW}oi\uFABEGoYYQI\u8FC9NQp$9\u9820xd6\u44A6%N<.\u9381p\u9932");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1933862640(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1933862640L))
-            info.setReturnValue(-534828093);
+            info.setReturnValue(197066307);
     }
 
     @Inject(at = @At("HEAD"), method = "apply(Lnet/minecraft/server/level/ServerLevel;ILnet/minecraft/world/item/enchantment/EnchantedItemInUse;Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/phys/Vec3;)V", cancellable = true)

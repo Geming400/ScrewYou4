@@ -16,19 +16,19 @@ public class ItemBody146236917Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__989223058(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-989223058L))
-            info.setReturnValue("Xek䟀LX&;5&컻o,#q.gIZ+xVFK+ <[q%7㕄iᣭf#5dh}IS7D#䐞]2it鲑Nw6\"Je5Z䁘@D_65=I](6+0OY'3v㠸:4鯬d26ꝟn]G8?t}h");
+            info.setReturnValue("Xek\u47C0LX&;5&\uCEFBo,#q.gIZ+xVFK+ <[q%7\u3544i\u18EDf#5dh}IS7D#\u441E]2it\u9C91Nw6\"Je5Z\u4058@D_65=I](6+0OY'3v\u3838:4\u9BECd26\uA75Fn]G8?t}h");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_184499659(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(184499659L))
-            info.setReturnValue(1255366183);
+            info.setReturnValue(1355304783);
     }
 
     @Inject(at = @At("HEAD"), method = "width()I", cancellable = true)
     private void width_184499163(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(184499163L))
-            info.setReturnValue(1458513602);
+            info.setReturnValue(1558452202);
     }
 
     @Inject(at = @At("HEAD"), method = "item()Lnet/minecraft/world/item/ItemStackTemplate;", cancellable = true)
@@ -52,7 +52,7 @@ public class ItemBody146236917Mixin {
     @Inject(at = @At("HEAD"), method = "height()I", cancellable = true)
     private void height_184499163(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(184499163L))
-            info.setReturnValue(1458513602);
+            info.setReturnValue(1558452202);
     }
 
     @Inject(at = @At("HEAD"), method = "showDecorations()Z", cancellable = true)

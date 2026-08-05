@@ -34,13 +34,13 @@ public class DisplayContext1551816607Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_416356632(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(416356632L))
-            info.setReturnValue("G3WG<`j6*HeK0ऌꦍ콉>*f-HRq,䠙0ꘘ&");
+            info.setReturnValue("G3WG<`j6*HeK0\u090C\uA98D\uCF49>*f-HRq,\u48190\uA618&");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1590079349(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1590079349L))
-            info.setReturnValue(1091953916);
+            info.setReturnValue(1822286516);
     }
 
     @Inject(at = @At("HEAD"), method = "valueCodec()Lcom/mojang/serialization/Codec;", cancellable = true)

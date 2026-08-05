@@ -28,13 +28,13 @@ public class SmithingTrimDemoSlotDisplay_405700694Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__729759282(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-729759282L))
-            info.setReturnValue("vygPy䎛⎾>J!AV⍦#OE( y+ )xL");
+            info.setReturnValue("vygPy\u439B\u23BE>J!AV\u2366#OE( y+ )xL");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_443963435(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(443963435L))
-            info.setReturnValue(2064822197);
+            info.setReturnValue(-2067281399);
     }
 
     @Inject(at = @At("HEAD"), method = "pattern()Lnet/minecraft/core/Holder;", cancellable = true)

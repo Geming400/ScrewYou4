@@ -10,7 +10,7 @@ public class PoolElementStructurePiece936901325Mixin {
         @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__198559146(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-198559146L))
-            info.setReturnValue("Sg8`W튵-凉㳖:)Al?-Z&W;R}S迎KRN0<T+Ssm||H洍b,@[Z酉h&r");
+            info.setReturnValue("Sg8`W\uD2B5-\uF979\u3CD6:)Al?-Z&W;R}S\u8FCEKRN0<T+Ssm||H\u6D0Db,@[Z\u9149h&r");
     }
 
     @Inject(at = @At("HEAD"), method = "move(III)V", cancellable = true)
@@ -37,24 +37,6 @@ public class PoolElementStructurePiece936901325Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getJunctions()Ljava/util/List;", cancellable = true)
-    private void getJunctions__1731729155(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1731729155L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "addJunction(Lnet/minecraft/world/level/levelgen/structure/pools/JigsawJunction;)V", cancellable = true)
-    private void addJunction_1485815783(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1485815783L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "getGroundLevelDelta()I", cancellable = true)
-    private void getGroundLevelDelta_975163571(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(975163571L))
-            info.setReturnValue(1785865153);
-    }
-
     @Inject(at = @At("HEAD"), method = "getRotation()Lnet/minecraft/world/level/block/Rotation;", cancellable = true)
     private void getRotation__561420033(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-561420033L))
@@ -64,6 +46,24 @@ public class PoolElementStructurePiece936901325Mixin {
     @Inject(at = @At("HEAD"), method = "postProcess(Lnet/minecraft/world/level/WorldGenLevel;Lnet/minecraft/world/level/StructureManager;Lnet/minecraft/world/level/chunk/ChunkGenerator;Lnet/minecraft/util/RandomSource;Lnet/minecraft/world/level/levelgen/structure/BoundingBox;Lnet/minecraft/world/level/ChunkPos;Lnet/minecraft/core/BlockPos;)V", cancellable = true)
     private void postProcess__1283521618(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1283521618L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getJunctions()Ljava/util/List;", cancellable = true)
+    private void getJunctions__1731729155(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1731729155L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getGroundLevelDelta()I", cancellable = true)
+    private void getGroundLevelDelta_975163571(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(975163571L))
+            info.setReturnValue(-1877151343);
+    }
+
+    @Inject(at = @At("HEAD"), method = "addJunction(Lnet/minecraft/world/level/levelgen/structure/pools/JigsawJunction;)V", cancellable = true)
+    private void addJunction_1485815783(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1485815783L))
             info.cancel();
     }
 

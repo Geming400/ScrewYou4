@@ -16,13 +16,13 @@ public class ItemPredicate1223637990Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_88178015(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(88178015L))
-            info.setReturnValue("3ua3yFwn䩑#*I-;湉]D`PU@f-!{䨖dTDz7eQxoڐS|#휣jjO绞.6}1Z2D[");
+            info.setReturnValue("3ua3yFwn\u4A51#*I-;\u6E49]D`PU@f-!{\u4A16dTDz7eQxo\u0690S|#\uD723jjO\u7EDE.6}1Z2D[");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1261900732(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1261900732L))
-            info.setReturnValue(-312605247);
+            info.setReturnValue(-1052522047);
     }
 
     @Inject(at = @At("HEAD"), method = "test(Lnet/minecraft/world/item/ItemInstance;)Z", cancellable = true)

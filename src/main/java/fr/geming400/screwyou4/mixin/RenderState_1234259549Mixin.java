@@ -16,13 +16,13 @@ public class RenderState_1234259549Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_98799573(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(98799573L))
-            info.setReturnValue("x]j%R%⺎,0jq[Q mvl");
+            info.setReturnValue("x]j%R%\u2E8E,0jq[Q mvl");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1272522290(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1272522290L))
-            info.setReturnValue(55713376);
+            info.setReturnValue(377264876);
     }
 
     @Inject(at = @At("HEAD"), method = "transformation()Lnet/minecraft/world/entity/Display$GenericInterpolator;", cancellable = true)
@@ -31,22 +31,10 @@ public class RenderState_1234259549Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "billboardConstraints()Lnet/minecraft/world/entity/Display$BillboardConstraints;", cancellable = true)
-    private void billboardConstraints_1278072268(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1278072268L))
-            info.setReturnValue(net.minecraft.world.entity.Display.BillboardConstraints.CENTER);
-    }
-
-    @Inject(at = @At("HEAD"), method = "brightnessOverride()I", cancellable = true)
-    private void brightnessOverride_1272521794(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1272521794L))
-            info.setReturnValue(234236865);
-    }
-
-    @Inject(at = @At("HEAD"), method = "glowColorOverride()I", cancellable = true)
-    private void glowColorOverride_1272521794(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1272521794L))
-            info.setReturnValue(234236865);
+    @Inject(at = @At("HEAD"), method = "shadowStrength()Lnet/minecraft/world/entity/Display$FloatInterpolator;", cancellable = true)
+    private void shadowStrength__302707548(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-302707548L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "shadowRadius()Lnet/minecraft/world/entity/Display$FloatInterpolator;", cancellable = true)
@@ -55,10 +43,22 @@ public class RenderState_1234259549Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "shadowStrength()Lnet/minecraft/world/entity/Display$FloatInterpolator;", cancellable = true)
-    private void shadowStrength__302707548(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-302707548L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "glowColorOverride()I", cancellable = true)
+    private void glowColorOverride_1272521794(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1272521794L))
+            info.setReturnValue(555788365);
+    }
+
+    @Inject(at = @At("HEAD"), method = "brightnessOverride()I", cancellable = true)
+    private void brightnessOverride_1272521794(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1272521794L))
+            info.setReturnValue(555788365);
+    }
+
+    @Inject(at = @At("HEAD"), method = "billboardConstraints()Lnet/minecraft/world/entity/Display$BillboardConstraints;", cancellable = true)
+    private void billboardConstraints_1278072268(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1278072268L))
+            info.setReturnValue(net.minecraft.world.entity.Display.BillboardConstraints.CENTER);
     }
 
 

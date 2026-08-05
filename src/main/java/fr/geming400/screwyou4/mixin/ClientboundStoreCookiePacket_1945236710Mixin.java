@@ -28,13 +28,13 @@ public class ClientboundStoreCookiePacket_1945236710Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_809776734(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(809776734L))
-            info.setReturnValue("!锥賎A_,)2j툌cqJfa2qkV");
+            info.setReturnValue("!\u9525\u8CCEA_,)2j\uD20CcqJfa2qkV");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1983499451(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1983499451L))
-            info.setReturnValue(-1571555093);
+            info.setReturnValue(-1590508393);
     }
 
     @Inject(at = @At("HEAD"), method = "key()Lnet/minecraft/resources/Identifier;", cancellable = true)

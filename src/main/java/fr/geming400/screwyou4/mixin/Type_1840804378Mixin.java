@@ -22,7 +22,7 @@ public class Type_1840804378Mixin {
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName_705343906(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(705343906L))
-            info.setReturnValue("-#ⳉ၎e8ᘿY8PaE-❞ml(E<t憻{]KᗒfKEO5EwKx>4i 6Q哼hQdsJ[/Jz}BW:俿U1*XBB");
+            info.setReturnValue("-#\u2CC9\u104Ee8\u163FY8PaE-\u275Eml(E<t\u61BB{]K\u15D2fKEO5EwKx>4i 6Q\u54FChQdsJ[/Jz}BW:\u4FFFU1*XBB");
     }
 
 

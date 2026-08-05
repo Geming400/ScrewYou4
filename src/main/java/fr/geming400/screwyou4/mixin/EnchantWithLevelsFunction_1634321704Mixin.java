@@ -19,12 +19,6 @@ public class EnchantWithLevelsFunction_1634321704Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "enchantWithLevels(Lnet/minecraft/core/HolderLookup$Provider;Lnet/minecraft/world/level/storage/loot/providers/number/NumberProvider;)Lnet/minecraft/world/level/storage/loot/functions/EnchantWithLevelsFunction$Builder;", cancellable = true)
-    private static void enchantWithLevels__1152219604(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1152219604L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
     private void codec__924791869(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-924791869L))
@@ -34,6 +28,12 @@ public class EnchantWithLevelsFunction_1634321704Mixin {
     @Inject(at = @At("HEAD"), method = "getReferencedContextParams()Ljava/util/Set;", cancellable = true)
     private void getReferencedContextParams__194713783(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-194713783L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "enchantWithLevels(Lnet/minecraft/core/HolderLookup$Provider;Lnet/minecraft/world/level/storage/loot/providers/number/NumberProvider;)Lnet/minecraft/world/level/storage/loot/functions/EnchantWithLevelsFunction$Builder;", cancellable = true)
+    private static void enchantWithLevels__1152219604(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1152219604L))
             info.setReturnValue(null);
     }
 

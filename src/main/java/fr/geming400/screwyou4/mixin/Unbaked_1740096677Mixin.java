@@ -16,13 +16,13 @@ public class Unbaked_1740096677Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_604636701(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(604636701L))
-            info.setReturnValue("H !YbbX}h-9p⽎`kxayL厭6)쀫6NB>1ZPC$e:EX拕ࢌr+1BSCm^&RV");
+            info.setReturnValue("H !YbbX}h-9p\u2F4E`kxayL\u53AD6)\uC02B6NB>1ZPC$e:EX\u62D5\u088Cr+1BSCm^&RV");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1778359418(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1778359418L))
-            info.setReturnValue(1521286547);
+            info.setReturnValue(1280378247);
     }
 
     @Inject(at = @At("HEAD"), method = "normal()Lnet/minecraft/client/renderer/block/model/BlockModel$Unbaked;", cancellable = true)

@@ -16,7 +16,7 @@ public class ServerboundPongPacket1669195661Mixin {
     @Inject(at = @At("HEAD"), method = "getId()I", cancellable = true)
     private void getId_1707457907(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1707457907L))
-            info.setReturnValue(1933022660);
+            info.setReturnValue(1675261760);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/PacketListener;)V", cancellable = true)

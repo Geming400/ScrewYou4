@@ -16,13 +16,13 @@ public class EntityPredicate_1858715530Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_723255058(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(723255058L))
-            info.setReturnValue("=>㻁yB?Va9Ak\"Lᴑ|E]h7EZT+N:F+O=?Y;(+i -N侧ivrhl9떗聼jNKoBJ");
+            info.setReturnValue("=>\u3EC1yB?Va9Ak\"L\u1D11|E]h7EZT+N:F+O=?Y;(+i -N\u4FA7ivrhl9\uB597\u807CjNKoBJ");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1896977775(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1896977775L))
-            info.setReturnValue(-2137237043);
+            info.setReturnValue(-1618404043);
     }
 
     @Inject(at = @At("HEAD"), method = "wrap(Lnet/minecraft/advancements/predicates/entity/EntityPredicate$Builder;)Lnet/minecraft/advancements/predicates/ContextAwarePredicate;", cancellable = true)

@@ -10,7 +10,7 @@ public class Entry_2004261147Mixin {
         @Inject(at = @At("HEAD"), method = "value()Ljava/lang/String;", cancellable = true)
     private void value_868800675(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(868800675L))
-            info.setReturnValue("銦fv픇");
+            info.setReturnValue("\u92A6fv\uD507");
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
@@ -22,13 +22,13 @@ public class Entry_2004261147Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_868801171(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(868801171L))
-            info.setReturnValue("]Qu[3N#;qs(N,iM,卛=qI6K0S*5ﷀB␄4z>*;sRG2nF뛢XqW/$4_2u:ᓼl*HxVDvZ");
+            info.setReturnValue("]Qu[3N#;qs(N,iM,\u535B=qI6K0S*5\uFDC0B\u24044z>*;sRG2nF\uB6E2XqW/$4_2u:\u14FCl*HxVDvZ");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2042523888(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2042523888L))
-            info.setReturnValue(187556951);
+            info.setReturnValue(331842951);
     }
 
     @Inject(at = @At("HEAD"), method = "gameRuleKey()Lnet/minecraft/resources/ResourceKey;", cancellable = true)

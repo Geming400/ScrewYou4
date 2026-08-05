@@ -19,33 +19,33 @@ public class PlacementContext_245086846Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getCarvingMask(Lnet/minecraft/world/level/ChunkPos;)Lnet/minecraft/world/level/chunk/CarvingMask;", cancellable = true)
-    private void getCarvingMask__700888417(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-700888417L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getMinY()I", cancellable = true)
-    private void getMinY_283349091(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(283349091L))
-            info.setReturnValue(-361155763);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getBlockState(Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
-    private void getBlockState_643712791(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(643712791L))
+    @Inject(at = @At("HEAD"), method = "topFeature()Ljava/util/Optional;", cancellable = true)
+    private void topFeature_490548267(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(490548267L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getHeight(Lnet/minecraft/world/level/levelgen/Heightmap$Types;II)I", cancellable = true)
     private void getHeight_1040673871(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1040673871L))
-            info.setReturnValue(-1675440260);
+            info.setReturnValue(-842651760);
     }
 
-    @Inject(at = @At("HEAD"), method = "topFeature()Ljava/util/Optional;", cancellable = true)
-    private void topFeature_490548267(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(490548267L))
+    @Inject(at = @At("HEAD"), method = "getMinY()I", cancellable = true)
+    private void getMinY_283349091(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(283349091L))
+            info.setReturnValue(471632737);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getCarvingMask(Lnet/minecraft/world/level/ChunkPos;)Lnet/minecraft/world/level/chunk/CarvingMask;", cancellable = true)
+    private void getCarvingMask__700888417(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-700888417L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getBlockState(Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
+    private void getBlockState_643712791(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(643712791L))
             info.setReturnValue(null);
     }
 

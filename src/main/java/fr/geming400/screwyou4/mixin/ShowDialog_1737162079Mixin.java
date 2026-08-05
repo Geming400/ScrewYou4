@@ -16,13 +16,13 @@ public class ShowDialog_1737162079Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_601702103(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(601702103L))
-            info.setReturnValue("Qcq#ooZ⸭@Lq[kzo:");
+            info.setReturnValue("Qcq#ooZ\u2E2D@Lq[kzo:");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1775424820(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1775424820L))
-            info.setReturnValue(63259601);
+            info.setReturnValue(187296101);
     }
 
     @Inject(at = @At("HEAD"), method = "action()Lnet/minecraft/network/chat/ClickEvent$Action;", cancellable = true)

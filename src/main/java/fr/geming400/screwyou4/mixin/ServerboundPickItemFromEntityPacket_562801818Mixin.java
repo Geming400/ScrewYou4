@@ -22,19 +22,19 @@ public class ServerboundPickItemFromEntityPacket_562801818Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__572658158(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-572658158L))
-            info.setReturnValue(">郜ꎚbVꚊ{s0獔&%+$ሣ 䲵R姥CN{Fuda9wBs'롚VHL5)KMC.");
+            info.setReturnValue(">\u90DC\uA39AbV\uA68A{s0\u7354&%+$\u1223 \u4CB5R\u59E5CN{Fuda9wBs'\uB85AVHL5)KMC.");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_601064559(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(601064559L))
-            info.setReturnValue(-537032882);
+            info.setReturnValue(-390753082);
     }
 
     @Inject(at = @At("HEAD"), method = "id()I", cancellable = true)
     private void id_601064063(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(601064063L))
-            info.setReturnValue(-333885463);
+            info.setReturnValue(-187605663);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/PacketListener;)V", cancellable = true)

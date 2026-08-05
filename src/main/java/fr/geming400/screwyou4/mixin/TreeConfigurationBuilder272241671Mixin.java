@@ -13,9 +13,9 @@ public class TreeConfigurationBuilder272241671Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "decorators(Ljava/util/List;)Lnet/minecraft/world/level/levelgen/feature/configurations/TreeConfiguration$TreeConfigurationBuilder;", cancellable = true)
-    private void decorators_1862257219(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1862257219L))
+    @Inject(at = @At("HEAD"), method = "ignoreVines()Lnet/minecraft/world/level/levelgen/feature/configurations/TreeConfiguration$TreeConfigurationBuilder;", cancellable = true)
+    private void ignoreVines__1543486892(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1543486892L))
             info.setReturnValue(null);
     }
 
@@ -25,9 +25,9 @@ public class TreeConfigurationBuilder272241671Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "ignoreVines()Lnet/minecraft/world/level/levelgen/feature/configurations/TreeConfiguration$TreeConfigurationBuilder;", cancellable = true)
-    private void ignoreVines__1543486892(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1543486892L))
+    @Inject(at = @At("HEAD"), method = "decorators(Ljava/util/List;)Lnet/minecraft/world/level/levelgen/feature/configurations/TreeConfiguration$TreeConfigurationBuilder;", cancellable = true)
+    private void decorators_1862257219(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1862257219L))
             info.setReturnValue(null);
     }
 

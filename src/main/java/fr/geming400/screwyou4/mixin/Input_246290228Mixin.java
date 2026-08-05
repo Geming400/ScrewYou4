@@ -16,19 +16,19 @@ public class Input_246290228Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__889169748(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-889169748L))
-            info.setReturnValue("ELSw6\"aU*Zu5BWQ|3Q闡>&6 V灂Xw]ZukwY驍dyd瑸[+QĴe@ATC");
+            info.setReturnValue("ELSw6\"aU*Zu5BWQ|3Q\u95E1>&6 V\u7042Xw]ZukwY\u9A4Ddyd\u7478[+Q\u0134e@ATC");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_284552969(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(284552969L))
-            info.setReturnValue(1178190728);
+            info.setReturnValue(720268328);
     }
 
     @Inject(at = @At("HEAD"), method = "key()Ljava/lang/String;", cancellable = true)
     private void key__889170244(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-889170244L))
-            info.setReturnValue(".䑏Ax)}|D븺");
+            info.setReturnValue(".\u444FAx)}|D\uBE3A");
     }
 
     @Inject(at = @At("HEAD"), method = "control()Lnet/minecraft/server/dialog/input/InputControl;", cancellable = true)

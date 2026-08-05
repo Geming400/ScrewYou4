@@ -22,13 +22,13 @@ public class Insert_1551014598Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_415554622(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(415554622L))
-            info.setReturnValue("fHw#h87|3ZAi^I缦ಬJo> ::?G^3䝠Ro3g11bK&Rr0I2h`⌕=?鞣螷");
+            info.setReturnValue("fHw#h87|3ZAi^I\u7F26\u0CACJo> ::?G^3\u4760Ro3g11bK&Rr0I2h`\u2315=?\u97A3\u87B7");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1589277339(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1589277339L))
-            info.setReturnValue(1542932342);
+            info.setReturnValue(1849372642);
     }
 
     @Inject(at = @At("HEAD"), method = "apply(Ljava/util/List;Ljava/util/List;I)Ljava/util/List;", cancellable = true)
@@ -40,7 +40,7 @@ public class Insert_1551014598Mixin {
     @Inject(at = @At("HEAD"), method = "offset()I", cancellable = true)
     private void offset_1589276843(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1589276843L))
-            info.setReturnValue(1721455832);
+            info.setReturnValue(2027896132);
     }
 
 

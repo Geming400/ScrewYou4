@@ -22,7 +22,7 @@ public class ReportType2017120962Mixin {
     @Inject(at = @At("HEAD"), method = "backendName()Ljava/lang/String;", cancellable = true)
     private void backendName_881660491(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(881660491L))
-            info.setReturnValue("Vud缺$zdC=E쓿zp,Ejm1^i묗");
+            info.setReturnValue("Vud\u7F3A$zdC=E\uC4FFzp,Ejm1^i\uBB17");
     }
 
 

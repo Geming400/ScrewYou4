@@ -13,8 +13,26 @@ public class SmithingTransformRecipe_1261208755Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "additionIngredient()Ljava/util/Optional;", cancellable = true)
-    private void additionIngredient_1506670176(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "assemble(Lnet/minecraft/world/item/crafting/RecipeInput;)Lnet/minecraft/world/item/ItemStack;", cancellable = true)
+    private void assemble_1364971865(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1364971865L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "assemble(Lnet/minecraft/world/item/crafting/SmithingRecipeInput;)Lnet/minecraft/world/item/ItemStack;", cancellable = true)
+    private void assemble__1402524646(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1402524646L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getSerializer()Lnet/minecraft/world/item/crafting/RecipeSerializer;", cancellable = true)
+    private void getSerializer_704776798(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(704776798L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "templateIngredient()Ljava/util/Optional;", cancellable = true)
+    private void templateIngredient_1506670176(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1506670176L))
             info.setReturnValue(null);
     }
@@ -25,27 +43,9 @@ public class SmithingTransformRecipe_1261208755Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "templateIngredient()Ljava/util/Optional;", cancellable = true)
-    private void templateIngredient_1506670176(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "additionIngredient()Ljava/util/Optional;", cancellable = true)
+    private void additionIngredient_1506670176(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1506670176L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getSerializer()Lnet/minecraft/world/item/crafting/RecipeSerializer;", cancellable = true)
-    private void getSerializer_704776798(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(704776798L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "assemble(Lnet/minecraft/world/item/crafting/SmithingRecipeInput;)Lnet/minecraft/world/item/ItemStack;", cancellable = true)
-    private void assemble__1402524646(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1402524646L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "assemble(Lnet/minecraft/world/item/crafting/RecipeInput;)Lnet/minecraft/world/item/ItemStack;", cancellable = true)
-    private void assemble_1364971865(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1364971865L))
             info.setReturnValue(null);
     }
 

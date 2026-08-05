@@ -31,16 +31,16 @@ public class SleepStatus_698746469Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "sleepersNeeded(I)I", cancellable = true)
-    private void sleepersNeeded_1912650947(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1912650947L))
-            info.setReturnValue(1324462922);
-    }
-
     @Inject(at = @At("HEAD"), method = "amountSleeping()I", cancellable = true)
     private void amountSleeping_737008714(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(737008714L))
-            info.setReturnValue(2050561664);
+            info.setReturnValue(-1775576432);
+    }
+
+    @Inject(at = @At("HEAD"), method = "sleepersNeeded(I)I", cancellable = true)
+    private void sleepersNeeded_1912650947(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1912650947L))
+            info.setReturnValue(1793292122);
     }
 
 

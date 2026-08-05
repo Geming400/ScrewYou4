@@ -16,13 +16,13 @@ public class WorldStem_753983171Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__381476805(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-381476805L))
-            info.setReturnValue("濕XY-zQ9`cCx큩w/p7굡+8/&YRN\"E膔E꿲m?ퟖ+,΄bl)d>赽{䏶[;Amꐌ;sF>T%\"");
+            info.setReturnValue("\u6FD5XY-zQ9`cCx\uD069w/p7\uAD61+8/&YRN\"E\u8194E\uAFF2m?\uD7D6+,\u0384bl)d>\u8D7D{\u43F6[;Am\uA40C;sF>T%\"");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_792245912(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(792245912L))
-            info.setReturnValue(841421234);
+            info.setReturnValue(447652634);
     }
 
     @Inject(at = @At("HEAD"), method = "close()V", cancellable = true)
@@ -31,15 +31,15 @@ public class WorldStem_753983171Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "dataPackResources()Lnet/minecraft/server/ReloadableServerResources;", cancellable = true)
-    private void dataPackResources_1250261561(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1250261561L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "resourceManager()Lnet/minecraft/server/packs/resources/CloseableResourceManager;", cancellable = true)
     private void resourceManager__1454615774(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1454615774L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "dataPackResources()Lnet/minecraft/server/ReloadableServerResources;", cancellable = true)
+    private void dataPackResources_1250261561(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1250261561L))
             info.setReturnValue(null);
     }
 

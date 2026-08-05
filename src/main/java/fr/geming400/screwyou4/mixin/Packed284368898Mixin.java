@@ -16,13 +16,13 @@ public class Packed284368898Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__851091077(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-851091077L))
-            info.setReturnValue("]D4Č7쮟ZBB,G7{E黆/鮵357龑e=2@{;&w禌'墳0 ퟅⵁ奦l.,d)儬vX_Zh'=g`[Nwj|x!w1Cp嵉f퀋羨IpH\"X횀綦{<+넜g^Ŧܠ=l쓚ZL-1䃚");
+            info.setReturnValue("]D4\u010C7\uCB9FZBB,G7{E\u9EC6/\u9BB5357\u9F91e=2@{;&w\u798C'\uFA7D0 \uD7C5\u2D41\u5966l.,d)\u512CvX_Zh'=g`[Nwj|x!w1Cp\u5D49f\uD00B\u7FA8IpH\"X\uD680\u7DA6{<+\uB11Cg^\u0166\u0720=l\uC4DAZL-1\u40DA");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_322631640(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(322631640L))
-            info.setReturnValue(24523326);
+            info.setReturnValue(415247326);
     }
 
     @Inject(at = @At("HEAD"), method = "memories()Lnet/minecraft/world/entity/ai/memory/MemoryMap;", cancellable = true)

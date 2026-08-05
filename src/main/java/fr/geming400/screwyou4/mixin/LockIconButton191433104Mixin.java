@@ -13,15 +13,15 @@ public class LockIconButton191433104Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "extractContents(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIF)V", cancellable = true)
-    private void extractContents__768254268(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-768254268L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "setLocked(Z)V", cancellable = true)
     private void setLocked_1421049933(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1421049933L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "extractContents(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIF)V", cancellable = true)
+    private void extractContents__768254268(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-768254268L))
             info.cancel();
     }
 

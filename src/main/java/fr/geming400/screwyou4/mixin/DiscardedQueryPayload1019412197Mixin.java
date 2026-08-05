@@ -16,13 +16,13 @@ public class DiscardedQueryPayload1019412197Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__116047778(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-116047778L))
-            info.setReturnValue("^mYPLg>kKⅮv/r[ᛨT+堛#a8jg᧚a60(駩iuX,UH[f(`ᰙ%,8MFP`{p!S'|Z-䆫2将vq8)uh&i䉼'M*qD贎C<-|wpZK_U|*5맅");
+            info.setReturnValue("^mYPLg>kK\u216Ev/r[\u16E8T+\u581B#a8jg\u19DAa60(\u99E9iuX,UH[f(`\u1C19%,8MFP`{p!S'|Z-\u41AB2\u5C06vq8)uh&i\u427C'M*qD\u8D0EC<-|wpZK_U|*5\uB9C5");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1057674939(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1057674939L))
-            info.setReturnValue(765941535);
+            info.setReturnValue(1076284235);
     }
 
     @Inject(at = @At("HEAD"), method = "id()Lnet/minecraft/resources/Identifier;", cancellable = true)

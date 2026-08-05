@@ -49,28 +49,28 @@ public class ServerboundSetJigsawBlockPacket_221660897Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getPlacementPriority()I", cancellable = true)
-    private void getPlacementPriority_259923142(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(259923142L))
-            info.setReturnValue(-127437846);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getFinalState()Ljava/lang/String;", cancellable = true)
-    private void getFinalState__913799575(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-913799575L))
-            info.setReturnValue("f/$}풇.BO@<)pa*IB/kK至");
+    @Inject(at = @At("HEAD"), method = "getJoint()Lnet/minecraft/world/level/block/entity/JigsawBlockEntity$JointType;", cancellable = true)
+    private void getJoint_1698530189(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1698530189L))
+            info.setReturnValue(net.minecraft.world.level.block.entity.JigsawBlockEntity.JointType.ALIGNED);
     }
 
     @Inject(at = @At("HEAD"), method = "getSelectionPriority()I", cancellable = true)
     private void getSelectionPriority_259923142(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(259923142L))
-            info.setReturnValue(-127437846);
+            info.setReturnValue(-828623246);
     }
 
-    @Inject(at = @At("HEAD"), method = "getJoint()Lnet/minecraft/world/level/block/entity/JigsawBlockEntity$JointType;", cancellable = true)
-    private void getJoint_1698530189(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1698530189L))
-            info.setReturnValue(net.minecraft.world.level.block.entity.JigsawBlockEntity.JointType.ALIGNED);
+    @Inject(at = @At("HEAD"), method = "getFinalState()Ljava/lang/String;", cancellable = true)
+    private void getFinalState__913799575(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-913799575L))
+            info.setReturnValue("f/$}\uD487.BO@<)pa*IB/kK\u81F3");
+    }
+
+    @Inject(at = @At("HEAD"), method = "getPlacementPriority()I", cancellable = true)
+    private void getPlacementPriority_259923142(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(259923142L))
+            info.setReturnValue(-828623246);
     }
 
 

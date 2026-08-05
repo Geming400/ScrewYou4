@@ -22,7 +22,7 @@ public class LongArrayTag_606901185Mixin {
     @Inject(at = @At("HEAD"), method = "size()I", cancellable = true)
     private void size_645163430(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(645163430L))
-            info.setReturnValue(-823181135);
+            info.setReturnValue(-630328635);
     }
 
     @Inject(at = @At("HEAD"), method = "get(I)Lnet/minecraft/nbt/LongTag;", cancellable = true)
@@ -46,13 +46,13 @@ public class LongArrayTag_606901185Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__528559287(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-528559287L))
-            info.setReturnValue("㈰3gMDC{p㥙ZᗢB饶W59mG!{Nef?╂");
+            info.setReturnValue("\u32303gMDC{p\u3959Z\u15E2B\u9976W59mG!{Nef?\u2542");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_645163430(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(645163430L))
-            info.setReturnValue(-823181135);
+            info.setReturnValue(-629327835);
     }
 
     @Inject(at = @At("HEAD"), method = "clear()V", cancellable = true)
@@ -106,7 +106,7 @@ public class LongArrayTag_606901185Mixin {
     @Inject(at = @At("HEAD"), method = "sizeInBytes()I", cancellable = true)
     private void sizeInBytes_645163430(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(645163430L))
-            info.setReturnValue(-823181135);
+            info.setReturnValue(-629327835);
     }
 
     @Inject(at = @At("HEAD"), method = "getAsLongArray()[J", cancellable = true)
@@ -121,14 +121,14 @@ public class LongArrayTag_606901185Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "addTag(ILnet/minecraft/nbt/Tag;)Z", cancellable = true)
-    private void addTag__1941850594(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "setTag(ILnet/minecraft/nbt/Tag;)Z", cancellable = true)
+    private void setTag__1941850594(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1941850594L))
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "setTag(ILnet/minecraft/nbt/Tag;)Z", cancellable = true)
-    private void setTag__1941850594(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "addTag(ILnet/minecraft/nbt/Tag;)Z", cancellable = true)
+    private void addTag__1941850594(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1941850594L))
             info.setReturnValue(true);
     }

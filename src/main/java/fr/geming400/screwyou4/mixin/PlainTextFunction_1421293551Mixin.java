@@ -16,13 +16,13 @@ public class PlainTextFunction_1421293551Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_285833575(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(285833575L))
-            info.setReturnValue("KTP]&q뭭J@:N?h挈X`O9%lL2箝Gw@Q[Q葦5TFbjh#F6X4T%\">辕2ESᛸ^?[ढ़J诇n*U");
+            info.setReturnValue("KTP]&q\uBB6DJ@:N?h\u6308X`O9%lL2\u7B9DGw@Q[Q\u84665TFbjh#F6X4T%\">\u8F952ES\u16F8^?[\u095DJ\u8BC7n*U");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1459556292(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1459556292L))
-            info.setReturnValue(1588949748);
+            info.setReturnValue(2092078148);
     }
 
     @Inject(at = @At("HEAD"), method = "id()Lnet/minecraft/resources/Identifier;", cancellable = true)

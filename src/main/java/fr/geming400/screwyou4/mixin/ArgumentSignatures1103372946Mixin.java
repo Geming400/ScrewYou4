@@ -16,13 +16,13 @@ public class ArgumentSignatures1103372946Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__32087029(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-32087029L))
-            info.setReturnValue("M2r<E]铺mo -%!d\"5c}3㽁avo' 觏n␃gy7r:W#>'ɾE&=h/e+Xꍜ+");
+            info.setReturnValue("M2r<E]\u94FAmo -%!d\"5c}3\u3F41avo' \u89CFn\u2403gy7r:W#>'\u027EE&=h/e+X\uA35C+");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1141635688(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1141635688L))
-            info.setReturnValue(-771335237);
+            info.setReturnValue(-182638637);
     }
 
     @Inject(at = @At("HEAD"), method = "write(Lnet/minecraft/network/FriendlyByteBuf;)V", cancellable = true)

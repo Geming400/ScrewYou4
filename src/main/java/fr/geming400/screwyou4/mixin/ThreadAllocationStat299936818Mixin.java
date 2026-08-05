@@ -16,13 +16,13 @@ public class ThreadAllocationStat299936818Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__835523157(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-835523157L))
-            info.setReturnValue("4@䠅넒7r⩃0mg3㥄<<9ힳm$_>ndN*BGZ鏊Xzg쳱?EHꟸaP;#AUm[]i3GwE<jU0ys?Q*\"@Ohg$");
+            info.setReturnValue("4@\u4805\uB1127r\u2A430mg3\u3944<<9\uD7B3m$_>ndN*BGZ\u93CAXzg\uCCF1?EH\uA7F8aP;#AUm[]i3GwE<jU0ys?Q*\"@Ohg$");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_338199560(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(338199560L))
-            info.setReturnValue(1855522692);
+            info.setReturnValue(1975697092);
     }
 
     @Inject(at = @At("HEAD"), method = "from(Ljdk/jfr/consumer/RecordedEvent;)Lnet/minecraft/util/profiling/jfr/stats/ThreadAllocationStat;", cancellable = true)
@@ -40,19 +40,19 @@ public class ThreadAllocationStat299936818Mixin {
     @Inject(at = @At("HEAD"), method = "threadName()Ljava/lang/String;", cancellable = true)
     private void threadName__835523653(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-835523653L))
-            info.setReturnValue("L&<.@XLFxᆥ] ka0' >-g.m.vWevJ`fA");
-    }
-
-    @Inject(at = @At("HEAD"), method = "totalBytes()J", cancellable = true)
-    private void totalBytes_338200025(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(338200025L))
-            info.setReturnValue(7253549824340546691L);
+            info.setReturnValue("L&<.@XLFx\u11A5] ka0' >-g.m.vWevJ`fA");
     }
 
     @Inject(at = @At("HEAD"), method = "summary(Ljava/util/List;)Lnet/minecraft/util/profiling/jfr/stats/ThreadAllocationStat$Summary;", cancellable = true)
     private static void summary_865438996(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(865438996L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "totalBytes()J", cancellable = true)
+    private void totalBytes_338200025(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(338200025L))
+            info.setReturnValue(7253549824460721091L);
     }
 
 

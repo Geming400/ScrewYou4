@@ -28,13 +28,13 @@ public class ScheduledTick_2078496564Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_943036588(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(943036588L))
-            info.setReturnValue("al꒑-Yo$Z{o/Xdᆁel⡢d$ETAFedw9H&{HOQT&V yzc 3C#sKm↼f,3C+EQ)9AQgPy%0Yo꣄");
+            info.setReturnValue("al\uA491-Yo$Z{o/Xd\u1181el\u2862d$ETAFedw9H&{HOQT&V yzc 3C#sKm\u21BCf,3C+EQ)9AQgPy%0Yo\uA8C4");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2116759305(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2116759305L))
-            info.setReturnValue(-1454171200);
+            info.setReturnValue(-2021208600);
     }
 
     @Inject(at = @At("HEAD"), method = "pos()Lnet/minecraft/core/BlockPos;", cancellable = true)
@@ -49,22 +49,22 @@ public class ScheduledTick_2078496564Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "triggerTick()J", cancellable = true)
-    private void triggerTick_2116759770(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2116759770L))
-            info.setReturnValue(-4118362974960989000L);
+    @Inject(at = @At("HEAD"), method = "toSavedTick(J)Lnet/minecraft/world/ticks/SavedTick;", cancellable = true)
+    private void toSavedTick__271327081(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-271327081L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "subTickOrder()J", cancellable = true)
     private void subTickOrder_2116759770(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2116759770L))
-            info.setReturnValue(-4118362974960989000L);
+            info.setReturnValue(-4118362975528026400L);
     }
 
-    @Inject(at = @At("HEAD"), method = "toSavedTick(J)Lnet/minecraft/world/ticks/SavedTick;", cancellable = true)
-    private void toSavedTick__271327081(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-271327081L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "triggerTick()J", cancellable = true)
+    private void triggerTick_2116759770(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2116759770L))
+            info.setReturnValue(-4118362975528026400L);
     }
 
 

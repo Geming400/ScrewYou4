@@ -19,16 +19,16 @@ public class LootParams_370941674Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "getLuck()F", cancellable = true)
+    private void getLuck_409201036(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(409201036L))
+            info.setReturnValue(9.215794E8F);
+    }
+
     @Inject(at = @At("HEAD"), method = "addDynamicDrops(Lnet/minecraft/resources/Identifier;Ljava/util/function/Consumer;)V", cancellable = true)
     private void addDynamicDrops__1595954242(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1595954242L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "getLuck()F", cancellable = true)
-    private void getLuck_409201036(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(409201036L))
-            info.setReturnValue(7.31595E7F);
     }
 
 

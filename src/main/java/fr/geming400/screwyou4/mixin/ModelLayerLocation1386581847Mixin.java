@@ -16,19 +16,19 @@ public class ModelLayerLocation1386581847Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_251121376(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(251121376L))
-            info.setReturnValue(")rZ롫Q9Y0构f<mｽv(wC苴5◍@ᾷ/n⌌蠆8-x/CBv铲I!3c}e;x8{;9X=쑂9넡僺)");
+            info.setReturnValue(")rZ\uB86BQ9Y0\u6784f<m\uFF7Dv(wC\u82F45\u25CD@\u1FB7/n\u230C\u88068-x/CBv\u94F2I!3c}e;x8{;9X=\uC4429\uB121\u50FA)");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1424844589(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1424844589L))
-            info.setReturnValue(481033187);
+            info.setReturnValue(785337387);
     }
 
     @Inject(at = @At("HEAD"), method = "layer()Ljava/lang/String;", cancellable = true)
     private void layer_251121376(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(251121376L))
-            info.setReturnValue(")rZ롫Q9Y0构f<mｽv(wC苴5◍@ᾷ/n⌌蠆8-x/CBv铲I!3c}e;x8{;9X=쑂9넡僺)");
+            info.setReturnValue(")rZ\uB86BQ9Y0\u6784f<m\uFF7Dv(wC\u82F45\u25CD@\u1FB7/n\u230C\u88068-x/CBv\u94F2I!3c}e;x8{;9X=\uC4429\uB121\u50FA)");
     }
 
     @Inject(at = @At("HEAD"), method = "model()Lnet/minecraft/resources/Identifier;", cancellable = true)

@@ -19,15 +19,15 @@ public class FileFixOperations_1230764617Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "groupMove(Ljava/util/Map;Ljava/util/List;)Lnet/minecraft/util/filefix/operations/GroupMove;", cancellable = true)
-    private static void groupMove_699065108(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(699065108L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "moveRegex(Ljava/lang/String;Ljava/lang/String;)Lnet/minecraft/util/filefix/operations/RegexMove;", cancellable = true)
     private static void moveRegex_663299060(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(663299060L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "groupMove(Ljava/util/Map;Ljava/util/List;)Lnet/minecraft/util/filefix/operations/GroupMove;", cancellable = true)
+    private static void groupMove_699065108(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(699065108L))
             info.setReturnValue(null);
     }
 

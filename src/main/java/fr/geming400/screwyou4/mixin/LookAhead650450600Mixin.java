@@ -16,13 +16,13 @@ public class LookAhead650450600Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__485009375(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-485009375L))
-            info.setReturnValue("g7T@S:u)7/Dⅿ?E倂C");
+            info.setReturnValue("g7T@S:u)7/D\u217F?E\u5002C");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_688713342(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(688713342L))
-            info.setReturnValue(1474882616);
+            info.setReturnValue(1487737616);
     }
 
     @Inject(at = @At("HEAD"), method = "parse(Lnet/minecraft/util/parsing/packrat/ParseState;Lnet/minecraft/util/parsing/packrat/Scope;Lnet/minecraft/util/parsing/packrat/Control;)Z", cancellable = true)

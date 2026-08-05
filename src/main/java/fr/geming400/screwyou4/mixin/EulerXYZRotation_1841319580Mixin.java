@@ -16,31 +16,31 @@ public class EulerXYZRotation_1841319580Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_705859604(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(705859604L))
-            info.setReturnValue("oEi+T멪8!ꈨUHdTKⱲ찝귑%=L.DdMlK(unmQ<*1=珔px蠴cdtU,-:-cIaJU4c_KO㶋zugl/1UႫeC膃\"瓡CL>(S櫦(Y>7");
+            info.setReturnValue("oEi+T\uBA6A8!\uA228UHdTK\u2C72\uCC1D\uADD1%=L.DdMlK(unmQ<*1=\u73D4px\u8834cdtU,-:-cIaJU4c_KO\u3D8Bzugl/1U\u10ABeC\u8183\"\u74E1CL>(S\u6AE6(Y>7");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1879582321(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1879582321L))
-            info.setReturnValue(-1956231822);
+            info.setReturnValue(-1620735322);
     }
 
     @Inject(at = @At("HEAD"), method = "x()F", cancellable = true)
     private void x_1879578942(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1879578942L))
-            info.setReturnValue(3.326545E8F);
+            info.setReturnValue(6.68151E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "z()F", cancellable = true)
     private void z_1879578942(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1879578942L))
-            info.setReturnValue(3.326545E8F);
+            info.setReturnValue(6.68151E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "y()F", cancellable = true)
     private void y_1879578942(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1879578942L))
-            info.setReturnValue(3.326545E8F);
+            info.setReturnValue(6.68151E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "transformation()Lorg/joml/Matrix4f;", cancellable = true)

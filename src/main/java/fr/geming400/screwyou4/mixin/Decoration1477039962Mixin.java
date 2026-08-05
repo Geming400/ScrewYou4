@@ -10,7 +10,7 @@ public class Decoration1477039962Mixin {
         @Inject(at = @At("HEAD"), method = "getName()Ljava/lang/String;", cancellable = true)
     private void getName_341579491(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(341579491L))
-            info.setReturnValue("L;}=H +QDM#4;준KH ^ZXtEr! Jby^QeK0Q#顒e)obtｹ_W?X>8<(ukz玶T");
+            info.setReturnValue("L;}=H +QDM#4;\uC900KH ^ZXtEr! Jby^QeK0Q#\u9852e)obt\uFF79_W?X>8<(ukz\u73B6T");
     }
 
     @Inject(at = @At("HEAD"), method = "values()[Lnet/minecraft/world/level/levelgen/GenerationStep$Decoration;", cancellable = true)
@@ -28,7 +28,7 @@ public class Decoration1477039962Mixin {
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName_341579491(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(341579491L))
-            info.setReturnValue("L;}=H +QDM#4;준KH ^ZXtEr! Jby^QeK0Q#顒e)obtｹ_W?X>8<(ukz玶T");
+            info.setReturnValue("L;}=H +QDM#4;\uC900KH ^ZXtEr! Jby^QeK0Q#\u9852e)obt\uFF79_W?X>8<(ukz\u73B6T");
     }
 
 

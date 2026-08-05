@@ -19,16 +19,16 @@ public class BlockStateData_912283344Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "upgradeBlock(I)Ljava/lang/String;", cancellable = true)
-    private static void upgradeBlock__508585993(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-508585993L))
-            info.setReturnValue("]8Cs웾<E0估{?@(np/W杨n\"QP;g&k3EﺳR<W!,;Q絾(뻮vdᢺfꁑ2s}`rAu)N톞uZim[GsKgy30oiebRGOwE࣒ZZ03'/K'顄i+d軞J|siI");
-    }
-
     @Inject(at = @At("HEAD"), method = "upgradeBlock(Ljava/lang/String;)Ljava/lang/String;", cancellable = true)
     private static void upgradeBlock_2125025414(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2125025414L))
-            info.setReturnValue("矀jbQKB^Tࠐ.\"wￊ䀕l{a.}b| (㷩Pn8&g윴뵵,f;.");
+            info.setReturnValue("\u77C0jbQKB^T\u0810.\"w\uFFCA\u4015l{a.}b| (\u3DE9Pn8&g\uC734\uBD75,f;.");
+    }
+
+    @Inject(at = @At("HEAD"), method = "upgradeBlock(I)Ljava/lang/String;", cancellable = true)
+    private static void upgradeBlock__508585993(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-508585993L))
+            info.setReturnValue("]8Cs\uC6FE<E0\u4F30{?@(np/W\u6768n\"QP;g&k3E\uFEB3R<W!,;Q\u7D7E(\uBEEEvd\u18BAf\uA0512s}`rAu)N\uD19EuZim[GsKgy30oiebRGOwE\u08D2ZZ03'/K'\u9844i+d\u8EDEJ|siI");
     }
 
 

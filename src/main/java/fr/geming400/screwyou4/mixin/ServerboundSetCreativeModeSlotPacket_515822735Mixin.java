@@ -22,13 +22,13 @@ public class ServerboundSetCreativeModeSlotPacket_515822735Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__619637241(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-619637241L))
-            info.setReturnValue("ul紱zxe}T+8暝RS'oX0>v왺Lr}|,g{ᨮ[㿕sX6P^悡f(N>CiJ0h)@|Zv$.*櫍> 1f35w_2Z");
+            info.setReturnValue("ul\u7D31zxe}T+8\u669DRS'oX0>v\uC67ALr}|,g{\u1A2E[\u3FD5sX6P^\u60A1f(N>CiJ0h)@|Zv$.*\u6ACD> 1f35w_2Z");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_554085476(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(554085476L))
-            info.setReturnValue(-236820835);
+            info.setReturnValue(274899465);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/PacketListener;)V", cancellable = true)

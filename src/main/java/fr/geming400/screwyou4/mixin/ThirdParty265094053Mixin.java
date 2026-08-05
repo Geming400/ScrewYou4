@@ -16,19 +16,19 @@ public class ThirdParty265094053Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__870365922(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-870365922L))
-            info.setReturnValue("5䶡}iA5Nb饄V_74[边ⲿ(pueSlE^헁9?(䬍>ESEQ?L--&91):C;f|\"ifJI6`ሌ⃤J_Q8Z]+畯'X;:v莙C%@z3]lmGj?<");
+            info.setReturnValue("5\u4DA1}iA5Nb\u9944V_74[\u8FB9\u2CBF(pueSlE^\uD5C19?(\u4B0D>ESEQ?L--&91):C;f|\"ifJI6`\u120C\u20E4J_Q8Z]+\u756F'X;:v\u8399C%@z3]lmGj?<");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_303356795(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(303356795L))
-            info.setReturnValue(-987486721);
+            info.setReturnValue(-1413123221);
     }
 
     @Inject(at = @At("HEAD"), method = "ip()Ljava/lang/String;", cancellable = true)
     private void ip__870366418(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-870366418L))
-            info.setReturnValue("90n噭lIhMqK2>l DT=Ad#R鿝n5챆鱁8=-E*q`");
+            info.setReturnValue("90n\u566DlIhMqK2>l DT=Ad#R\u9FDDn5\uCC46\u9C418=-E*q`");
     }
 
 

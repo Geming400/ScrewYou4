@@ -19,16 +19,16 @@ public class LayerType1578767288Mixin {
             info.setReturnValue(net.minecraft.client.resources.model.EquipmentClientInfo.LayerType.CAMEL_SADDLE);
     }
 
-    @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
-    private void getSerializedName_443306817(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(443306817L))
-            info.setReturnValue("n,AU)+&a쉒&Dc-ZTXHuH,P`:kqJ<,yZZ㮆v+^+Otz#喈!炏!_*1");
-    }
-
     @Inject(at = @At("HEAD"), method = "trimAssetPrefix()Ljava/lang/String;", cancellable = true)
     private void trimAssetPrefix_443306817(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(443306817L))
-            info.setReturnValue("n,AU)+&a쉒&Dc-ZTXHuH,P`:kqJ<,yZZ㮆v+^+Otz#喈!炏!_*1");
+            info.setReturnValue("n,AU)+&a\uC252&Dc-ZTXHuH,P`:kqJ<,yZZ\u3B86v+^+Otz#\u5588!\u708F!_*1");
+    }
+
+    @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
+    private void getSerializedName_443306817(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(443306817L))
+            info.setReturnValue("n,AU)+&a\uC252&Dc-ZTXHuH,P`:kqJ<,yZZ\u3B86v+^+Otz#\u5588!\u708F!_*1");
     }
 
 

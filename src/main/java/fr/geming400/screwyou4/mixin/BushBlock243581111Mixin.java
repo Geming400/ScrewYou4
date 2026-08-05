@@ -13,12 +13,6 @@ public class BushBlock243581111Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "isValidBonemealTarget(Lnet/minecraft/world/level/LevelReader;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Z", cancellable = true)
-    private void isValidBonemealTarget_288260869(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(288260869L))
-            info.setReturnValue(false);
-    }
-
     @Inject(at = @At("HEAD"), method = "performBonemeal(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/util/RandomSource;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)V", cancellable = true)
     private void performBonemeal__1899385442(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1899385442L))
@@ -29,6 +23,12 @@ public class BushBlock243581111Mixin {
     private void isBonemealSuccess__1729332032(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1729332032L))
             info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isValidBonemealTarget(Lnet/minecraft/world/level/LevelReader;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Z", cancellable = true)
+    private void isValidBonemealTarget_288260869(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(288260869L))
+            info.setReturnValue(false);
     }
 
 

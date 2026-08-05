@@ -22,7 +22,7 @@ public class AdvancementTab_296782905Mixin {
     @Inject(at = @At("HEAD"), method = "getIndex()I", cancellable = true)
     private void getIndex_335045150(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(335045150L))
-            info.setReturnValue(-757870025);
+            info.setReturnValue(-771798425);
     }
 
     @Inject(at = @At("HEAD"), method = "tick(II)V", cancellable = true)
@@ -45,6 +45,18 @@ public class AdvancementTab_296782905Mixin {
 
     @Inject(at = @At("HEAD"), method = "extractIcon(Lnet/minecraft/client/gui/GuiGraphicsExtractor;II)V", cancellable = true)
     private void extractIcon_1511956736(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1511956736L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "scroll(DD)V", cancellable = true)
+    private void scroll__846859925(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-846859925L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "extractContents(Lnet/minecraft/client/gui/GuiGraphicsExtractor;II)V", cancellable = true)
+    private void extractContents_1511956736(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1511956736L))
             info.cancel();
     }
@@ -73,21 +85,9 @@ public class AdvancementTab_296782905Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "isMouseOver(IIDD)Z", cancellable = true)
-    private void isMouseOver_1763362703(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1763362703L))
-            info.setReturnValue(true);
-    }
-
     @Inject(at = @At("HEAD"), method = "extractTooltips(Lnet/minecraft/client/gui/GuiGraphicsExtractor;II)V", cancellable = true)
     private void extractTooltips_1511956736(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1511956736L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "addAdvancement(Lnet/minecraft/advancements/AdvancementNode;)V", cancellable = true)
-    private void addAdvancement__1956307488(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1956307488L))
             info.cancel();
     }
 
@@ -97,22 +97,22 @@ public class AdvancementTab_296782905Mixin {
             info.setReturnValue(false);
     }
 
+    @Inject(at = @At("HEAD"), method = "addAdvancement(Lnet/minecraft/advancements/AdvancementNode;)V", cancellable = true)
+    private void addAdvancement__1956307488(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1956307488L))
+            info.cancel();
+    }
+
     @Inject(at = @At("HEAD"), method = "canScrollHorizontally()Z", cancellable = true)
     private void canScrollHorizontally_335061487(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(335061487L))
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "extractContents(Lnet/minecraft/client/gui/GuiGraphicsExtractor;II)V", cancellable = true)
-    private void extractContents_1511956736(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1511956736L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "scroll(DD)V", cancellable = true)
-    private void scroll__846859925(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-846859925L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "isMouseOver(IIDD)Z", cancellable = true)
+    private void isMouseOver_1763362703(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1763362703L))
+            info.setReturnValue(true);
     }
 
 

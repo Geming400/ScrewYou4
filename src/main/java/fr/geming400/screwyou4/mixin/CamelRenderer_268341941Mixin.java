@@ -7,15 +7,15 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.client.renderer.entity.CamelRenderer.class)
 public class CamelRenderer_268341941Mixin {
-        @Inject(at = @At("HEAD"), method = "getTextureLocation(Lnet/minecraft/client/renderer/entity/state/LivingEntityRenderState;)Lnet/minecraft/resources/Identifier;", cancellable = true)
-    private void getTextureLocation__2023988723(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2023988723L))
+        @Inject(at = @At("HEAD"), method = "getTextureLocation(Lnet/minecraft/client/renderer/entity/state/CamelRenderState;)Lnet/minecraft/resources/Identifier;", cancellable = true)
+    private void getTextureLocation_1025077911(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1025077911L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getTextureLocation(Lnet/minecraft/client/renderer/entity/state/CamelRenderState;)Lnet/minecraft/resources/Identifier;", cancellable = true)
-    private void getTextureLocation_1025077911(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1025077911L))
+    @Inject(at = @At("HEAD"), method = "getTextureLocation(Lnet/minecraft/client/renderer/entity/state/LivingEntityRenderState;)Lnet/minecraft/resources/Identifier;", cancellable = true)
+    private void getTextureLocation__2023988723(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2023988723L))
             info.setReturnValue(null);
     }
 

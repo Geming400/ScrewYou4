@@ -13,16 +13,16 @@ public class SculkBlock_1042844723Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "attemptUseCharge(Lnet/minecraft/world/level/block/SculkSpreader$ChargeCursor;Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;Lnet/minecraft/world/level/block/SculkSpreader;Z)I", cancellable = true)
-    private void attemptUseCharge_915260254(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(915260254L))
-            info.setReturnValue(-2085666276);
-    }
-
     @Inject(at = @At("HEAD"), method = "canChangeBlockStateOnSpread()Z", cancellable = true)
     private void canChangeBlockStateOnSpread_1081123305(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1081123305L))
             info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "attemptUseCharge(Lnet/minecraft/world/level/block/SculkSpreader$ChargeCursor;Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;Lnet/minecraft/world/level/block/SculkSpreader;Z)I", cancellable = true)
+    private void attemptUseCharge_915260254(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(915260254L))
+            info.setReturnValue(-1793653976);
     }
 
 

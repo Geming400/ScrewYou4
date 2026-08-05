@@ -16,13 +16,13 @@ public class SetBlockProperties337554656Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__797905319(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-797905319L))
-            info.setReturnValue("䯯z?푳䲊*2X7%FKZO|\"B.WYXBK'ꛒoGt䅑퀌Ltꈨ/yb&Rp-I걫轆7-?<骯zM︾O(&Jr鿖휢0섹'^m^(-E1v흖%?蜌");
+            info.setReturnValue("\u4BEFz?\uD473\u4C8A*2X7%FKZO|\"B.WYXBK'\uA6D2oGt\u4151\uD00CLt\uA228/yb&Rp-I\uAC6B\u8F467-?<\u9AAFzM\uFE3EO(&Jr\u9FD6\uD7220\uC139'^m^(-E1v\uD756%?\u870C");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_375817398(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(375817398L))
-            info.setReturnValue(111179388);
+            info.setReturnValue(1059529488);
     }
 
     @Inject(at = @At("HEAD"), method = "apply(Lnet/minecraft/server/level/ServerLevel;ILnet/minecraft/world/item/enchantment/EnchantedItemInUse;Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/phys/Vec3;)V", cancellable = true)
@@ -43,15 +43,15 @@ public class SetBlockProperties337554656Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "triggerGameEvent()Ljava/util/Optional;", cancellable = true)
-    private void triggerGameEvent_583016078(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(583016078L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
     private void codec_2073408380(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2073408380L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "triggerGameEvent()Ljava/util/Optional;", cancellable = true)
+    private void triggerGameEvent_583016078(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(583016078L))
             info.setReturnValue(null);
     }
 

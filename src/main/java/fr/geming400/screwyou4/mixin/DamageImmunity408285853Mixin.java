@@ -16,13 +16,13 @@ public class DamageImmunity408285853Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__727174122(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-727174122L))
-            info.setReturnValue("IቑQk7}b']mPEC<퇵EM;gH蝿)");
+            info.setReturnValue("I\u1251Qk7}b']mPEC<\uD1F5EM;gH\u877F)");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_446548595(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(446548595L))
-            info.setReturnValue(1383945778);
+            info.setReturnValue(1913011278);
     }
 
 

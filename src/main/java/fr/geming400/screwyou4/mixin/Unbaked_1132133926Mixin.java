@@ -16,13 +16,13 @@ public class Unbaked_1132133926Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__3326050(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-3326050L))
-            info.setReturnValue("2㈗|Vh>RB=zdj0.I戶}AxKjV{eꤟG䭉LjG*$zx^(p+FjGMUg^+K$kE/J?:9T쬺X}녂ㄴ洄<쬩u5%b}姸笓Vk%K 3Sz5焤M<r8)h;asur");
+            info.setReturnValue("2\u3217|Vh>RB=zdj0.I\u6236}AxKjV{e\uA91FG\u4B49LjG*$zx^(p+FjGMUg^+K$kE/J?:9T\uCB3AX}\uB142\u3134\u6D04<\uCB29u5%b}\u59F8\u7B13Vk%K 3Sz5\u7124M<r8)h;asur");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1170396667(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1170396667L))
-            info.setReturnValue(1134296252);
+            info.setReturnValue(1713390152);
     }
 
     @Inject(at = @At("HEAD"), method = "property()Lnet/minecraft/client/renderer/block/model/properties/conditional/ConditionalBlockModelProperty;", cancellable = true)

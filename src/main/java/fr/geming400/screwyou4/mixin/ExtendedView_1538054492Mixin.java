@@ -28,13 +28,13 @@ public class ExtendedView_1538054492Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_402594516(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(402594516L))
-            info.setReturnValue(";Y3;OﺻH◡");
+            info.setReturnValue(";Y3;O\uFEBBH\u25E1");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1576317233(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1576317233L))
-            info.setReturnValue(-1373216635);
+            info.setReturnValue(-890569935);
     }
 
 

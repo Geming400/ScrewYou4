@@ -10,7 +10,7 @@ public class SymlinkLevelSummary_929434927Mixin {
         @Inject(at = @At("HEAD"), method = "compareTo(Ljava/lang/Object;)I", cancellable = true)
     private void compareTo__1979907984(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1979907984L))
-            info.setReturnValue(1347639761);
+            info.setReturnValue(1782168261);
     }
 
     @Inject(at = @At("HEAD"), method = "getInfo()Lnet/minecraft/network/chat/Component;", cancellable = true)
@@ -22,11 +22,17 @@ public class SymlinkLevelSummary_929434927Mixin {
     @Inject(at = @At("HEAD"), method = "getLevelName()Ljava/lang/String;", cancellable = true)
     private void getLevelName__206025545(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-206025545L))
-            info.setReturnValue("+2K9㋜4K&ou굻W#");
+            info.setReturnValue("+2K9\u32DC4K&ou\uAD7BW#");
     }
 
-    @Inject(at = @At("HEAD"), method = "canRecreate()Z", cancellable = true)
-    private void canRecreate_967713509(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "isDisabled()Z", cancellable = true)
+    private void isDisabled_967713509(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(967713509L))
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "primaryActionActive()Z", cancellable = true)
+    private void primaryActionActive_967713509(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(967713509L))
             info.setReturnValue(false);
     }
@@ -37,8 +43,8 @@ public class SymlinkLevelSummary_929434927Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "primaryActionActive()Z", cancellable = true)
-    private void primaryActionActive_967713509(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "canRecreate()Z", cancellable = true)
+    private void canRecreate_967713509(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(967713509L))
             info.setReturnValue(false);
     }
@@ -46,13 +52,7 @@ public class SymlinkLevelSummary_929434927Mixin {
     @Inject(at = @At("HEAD"), method = "getLastPlayed()J", cancellable = true)
     private void getLastPlayed_967698133(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(967698133L))
-            info.setReturnValue(-2131303293781426414L);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isDisabled()Z", cancellable = true)
-    private void isDisabled_967713509(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(967713509L))
-            info.setReturnValue(false);
+            info.setReturnValue(-2131303293346888514L);
     }
 
     @Inject(at = @At("HEAD"), method = "canEdit()Z", cancellable = true)

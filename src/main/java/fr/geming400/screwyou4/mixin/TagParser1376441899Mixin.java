@@ -19,6 +19,18 @@ public class TagParser1376441899Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "parseFully(Lcom/mojang/brigadier/StringReader;)Ljava/lang/Object;", cancellable = true)
+    private void parseFully_1082931196(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1082931196L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "parseFully(Ljava/lang/String;)Ljava/lang/Object;", cancellable = true)
+    private void parseFully_1288869116(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1288869116L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "parseCompoundFully(Ljava/lang/String;)Lnet/minecraft/nbt/CompoundTag;", cancellable = true)
     private static void parseCompoundFully__205942171(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-205942171L))
@@ -33,18 +45,6 @@ public class TagParser1376441899Mixin {
 
     @Inject(at = @At("HEAD"), method = "parseAsArgument(Lcom/mojang/brigadier/StringReader;)Ljava/lang/Object;", cancellable = true)
     private void parseAsArgument_1082931196(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1082931196L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "parseFully(Ljava/lang/String;)Ljava/lang/Object;", cancellable = true)
-    private void parseFully_1288869116(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1288869116L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "parseFully(Lcom/mojang/brigadier/StringReader;)Ljava/lang/Object;", cancellable = true)
-    private void parseFully_1082931196(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1082931196L))
             info.setReturnValue(null);
     }

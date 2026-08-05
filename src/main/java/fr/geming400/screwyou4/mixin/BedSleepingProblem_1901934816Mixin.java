@@ -16,13 +16,13 @@ public class BedSleepingProblem_1901934816Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_766474840(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(766474840L))
-            info.setReturnValue("'4+B7py)x:u}:bx}Gl앁VE&Iy}vRBQr'd%:%,n'jw17PK7Fp<eC貟)tr");
+            info.setReturnValue("'4+B7py)x:u}:bx}Gl\uC541VE&Iy}vRBQr'd%:%,n'jw17PK7Fp<eC\u8C9F)tr");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1940197557(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1940197557L))
-            info.setReturnValue(-737363068);
+            info.setReturnValue(-484337468);
     }
 
     @Inject(at = @At("HEAD"), method = "message()Lnet/minecraft/network/chat/Component;", cancellable = true)

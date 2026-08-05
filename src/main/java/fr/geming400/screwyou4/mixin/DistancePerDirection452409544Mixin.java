@@ -16,19 +16,19 @@ public class DistancePerDirection452409544Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__683050431(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-683050431L))
-            info.setReturnValue(")tza&T]EqN+1v>k렧茕j@$4Je&uU俺y`jRYkX01Eg]屹BT恴X*MW㜩]==QRz=S+0.B뾫灇㽏oI-gZB`CS");
+            info.setReturnValue(")tza&T]EqN+1v>k\uB827\u8315j@$4Je&uU\u4FFAy`jRYkX01Eg]\u5C79BT\u6074X*MW\u3729]==QRz=S+0.B\uBFAB\u7047\u3F4FoI-gZB`CS");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_490672286(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(490672286L))
-            info.setReturnValue(-2074786458);
+            info.setReturnValue(1643007238);
     }
 
     @Inject(at = @At("HEAD"), method = "distance()D", cancellable = true)
     private void distance_490666985(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(490666985L))
-            info.setReturnValue(6.985529004971135E8D);
+            info.setReturnValue(1.2137930049711351E8D);
     }
 
     @Inject(at = @At("HEAD"), method = "direction()Lnet/minecraft/core/Direction;", cancellable = true)

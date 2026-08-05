@@ -22,7 +22,7 @@ public class ModelType_784654379Mixin {
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName__350806093(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-350806093L))
-            info.setReturnValue("'qJ⥦Pၦw^!h8A??+^rb8槉(sn8uQ2");
+            info.setReturnValue("'qJ\u2966P\u1066w^!h8A??+^rb8\u69C9(sn8uQ2");
     }
 
 

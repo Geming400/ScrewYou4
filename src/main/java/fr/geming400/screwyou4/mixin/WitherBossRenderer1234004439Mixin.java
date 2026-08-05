@@ -7,15 +7,15 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.client.renderer.entity.WitherBossRenderer.class)
 public class WitherBossRenderer1234004439Mixin {
-        @Inject(at = @At("HEAD"), method = "getTextureLocation(Lnet/minecraft/client/renderer/entity/state/WitherRenderState;)Lnet/minecraft/resources/Identifier;", cancellable = true)
-    private void getTextureLocation_1270089353(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1270089353L))
+        @Inject(at = @At("HEAD"), method = "getTextureLocation(Lnet/minecraft/client/renderer/entity/state/LivingEntityRenderState;)Lnet/minecraft/resources/Identifier;", cancellable = true)
+    private void getTextureLocation__1058326224(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1058326224L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getTextureLocation(Lnet/minecraft/client/renderer/entity/state/LivingEntityRenderState;)Lnet/minecraft/resources/Identifier;", cancellable = true)
-    private void getTextureLocation__1058326224(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1058326224L))
+    @Inject(at = @At("HEAD"), method = "getTextureLocation(Lnet/minecraft/client/renderer/entity/state/WitherRenderState;)Lnet/minecraft/resources/Identifier;", cancellable = true)
+    private void getTextureLocation_1270089353(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1270089353L))
             info.setReturnValue(null);
     }
 

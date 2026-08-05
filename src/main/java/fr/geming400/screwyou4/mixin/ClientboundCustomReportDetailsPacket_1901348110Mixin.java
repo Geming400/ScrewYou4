@@ -22,13 +22,13 @@ public class ClientboundCustomReportDetailsPacket_1901348110Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_765888134(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(765888134L))
-            info.setReturnValue("]<}I檮F@|zꭨCR䵬;|b^퇨]t#Y}e㬥D=0f1AZp`;P.Z靇");
+            info.setReturnValue("]<}I\u6AAEF@|z\uAB68CR\u4D6C;|b^\uD1E8]t#Y}e\u3B25D=0f1AZp`;P.Z\u9747");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1939610851(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1939610851L))
-            info.setReturnValue(304633266);
+            info.setReturnValue(-264907534);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/PacketListener;)V", cancellable = true)

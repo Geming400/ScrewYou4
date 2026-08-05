@@ -16,25 +16,13 @@ public class Submit584363778Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__551096197(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-551096197L))
-            info.setReturnValue("@O%)갷-5-Cڏ䡜nퟐUw#n딄(.!=]-@F懌@'텦ks\"缵g淍z");
+            info.setReturnValue("@O%)\uAC37-5-C\u068F\u485Cn\uD7D0Uw#n\uB504(.!=]-@F\u61CC@'\uD166ks\"\u7F35g\u6DCDz");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_622626520(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(622626520L))
-            info.setReturnValue(119414671);
-    }
-
-    @Inject(at = @At("HEAD"), method = "customGeometryRenderer()Lnet/minecraft/client/renderer/SubmitNodeCollector$CustomGeometryRenderer;", cancellable = true)
-    private void customGeometryRenderer__624464131(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-624464131L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "featureType()Lnet/minecraft/client/renderer/feature/FeatureRendererType;", cancellable = true)
-    private void featureType_1615447304(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1615447304L))
-            info.setReturnValue(null);
+            info.setReturnValue(851110171);
     }
 
     @Inject(at = @At("HEAD"), method = "pose()Lcom/mojang/blaze3d/vertex/PoseStack$Pose;", cancellable = true)
@@ -52,6 +40,18 @@ public class Submit584363778Mixin {
     @Inject(at = @At("HEAD"), method = "batchKey()Ljava/lang/Object;", cancellable = true)
     private void batchKey__1851411299(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1851411299L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "featureType()Lnet/minecraft/client/renderer/feature/FeatureRendererType;", cancellable = true)
+    private void featureType_1615447304(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1615447304L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "customGeometryRenderer()Lnet/minecraft/client/renderer/SubmitNodeCollector$CustomGeometryRenderer;", cancellable = true)
+    private void customGeometryRenderer__624464131(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-624464131L))
             info.setReturnValue(null);
     }
 

@@ -28,13 +28,13 @@ public class ServerboundChangeGameModePacket_787613878Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__347846098(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-347846098L))
-            info.setReturnValue("䄈!zledl^Xov.=[炟ma<@qⱡgE37Xda^JXࠌah鴉뤩");
+            info.setReturnValue("\u4108!zledl^Xov.=[\u709Fma<@q\u2C61gE37Xda^JX\u080Cah\u9D09\uB929");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_825876619(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(825876619L))
-            info.setReturnValue(1751325742);
+            info.setReturnValue(-1996750854);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/PacketListener;)V", cancellable = true)

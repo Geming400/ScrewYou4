@@ -16,13 +16,13 @@ public class QuickPlayDisabled_464659681Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__670800295(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-670800295L))
-            info.setReturnValue("t]&(X<UM6hxI0;&;L圙ZXma?>N{젬hᤷLir虛Zf9癩1W－磷z?5Sꌉ7rB'8H'<% =xYgxcru+");
+            info.setReturnValue("t]&(X<UM6hxI0;&;L\u5719ZXma?>N{\uC82Ch\u1937Lir\u865BZf9\u76691W\uFF0D\u78F7z?5S\uA3097rB'8H'<% =xYgxcru+");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_502922422(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(502922422L))
-            info.setReturnValue(57096801);
+            info.setReturnValue(186882401);
     }
 
     @Inject(at = @At("HEAD"), method = "isEnabled()Z", cancellable = true)

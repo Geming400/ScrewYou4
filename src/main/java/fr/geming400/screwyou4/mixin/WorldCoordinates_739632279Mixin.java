@@ -16,13 +16,13 @@ public class WorldCoordinates_739632279Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__395827697(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-395827697L))
-            info.setReturnValue("b[*0専䴼<$<[B1ퟗ}6s#?[t腮:V\"vWwk*2%o6J$+cX4tk'p䪐[*a>'yF !ꁏS^V(Vf2[z;2BQ払슿M,F}0>Gj餩9zV;2ﱄz蛓#*/");
+            info.setReturnValue("b[*0\u5C02\u4D3C<$<[B1\uD7D7}6s#?[t\u816E:V\"vWwk*2%o6J$+cX4tk'p\u4A90[*a>'yF !\uA04FS^V(Vf2[z;2BQ\u6255\uC2BFM,F}0>Gj\u99299zV;2\uFC44z\u86D3#*/");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_777895020(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(777895020L))
-            info.setReturnValue(-256923292);
+            info.setReturnValue(-874970192);
     }
 
     @Inject(at = @At("HEAD"), method = "x()Lnet/minecraft/commands/arguments/coordinates/WorldCoordinate;", cancellable = true)
@@ -73,6 +73,18 @@ public class WorldCoordinates_739632279Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "getRotation(Lnet/minecraft/commands/CommandSourceStack;)Lnet/minecraft/world/phys/Vec2;", cancellable = true)
+    private void getRotation__1191690510(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1191690510L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isZRelative()Z", cancellable = true)
+    private void isZRelative_777910861(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(777910861L))
+            info.setReturnValue(false);
+    }
+
     @Inject(at = @At("HEAD"), method = "isXRelative()Z", cancellable = true)
     private void isXRelative_777910861(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(777910861L))
@@ -83,18 +95,6 @@ public class WorldCoordinates_739632279Mixin {
     private void isYRelative_777910861(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(777910861L))
             info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isZRelative()Z", cancellable = true)
-    private void isZRelative_777910861(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(777910861L))
-            info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getRotation(Lnet/minecraft/commands/CommandSourceStack;)Lnet/minecraft/world/phys/Vec2;", cancellable = true)
-    private void getRotation__1191690510(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1191690510L))
-            info.setReturnValue(null);
     }
 
 

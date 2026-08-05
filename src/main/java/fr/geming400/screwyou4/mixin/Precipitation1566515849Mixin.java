@@ -22,7 +22,7 @@ public class Precipitation1566515849Mixin {
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName_431055378(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(431055378L))
-            info.setReturnValue(">SJu /q⬒j8.j&乯N");
+            info.setReturnValue(">SJu /q\u2B12j8.j&\u4E6FN");
     }
 
 

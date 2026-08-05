@@ -10,7 +10,7 @@ public class ShaderManager1975368410Mixin {
         @Inject(at = @At("HEAD"), method = "getName()Ljava/lang/String;", cancellable = true)
     private void getName_839907939(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(839907939L))
-            info.setReturnValue("'9dI&@=sbh8jrIm:ic*ᕈ萳d7੮H驈Fo價II");
+            info.setReturnValue("'9dI&@=sbh8jrIm:ic*\u1548\u8433d7\u0A6EH\u9A48Fo\u50F9II");
     }
 
     @Inject(at = @At("HEAD"), method = "close()V", cancellable = true)
@@ -28,7 +28,7 @@ public class ShaderManager1975368410Mixin {
     @Inject(at = @At("HEAD"), method = "getShader(Lnet/minecraft/resources/Identifier;Lcom/mojang/blaze3d/shaders/ShaderType;)Ljava/lang/String;", cancellable = true)
     private void getShader_402324287(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(402324287L))
-            info.setReturnValue("IxYvgm0t2Rf=7P藉Q^ibOiTKn';G뤐聆?佚P8⬩{I9pk{Tobb諮_vw3k{'yꔶ/($V#TiLx\"z(v蠴⌯B<ae릌.pᓘ4`rj66t");
+            info.setReturnValue("IxYvgm0t2Rf=7P\u85C9Q^ibOiTKn';G\uB910\uF9B0?\u4F5AP8\u2B29{I9pk{Tobb\u8AEE_vw3k{'y\uA536/($V#TiLx\"z(v\u8834\u232FB<ae\uB98C.p\u14D84`rj66t");
     }
 
 

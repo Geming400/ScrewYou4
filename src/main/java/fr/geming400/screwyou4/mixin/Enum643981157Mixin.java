@@ -16,7 +16,7 @@ public class Enum643981157Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__491478818(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-491478818L))
-            info.setReturnValue("OoxMLCoMdFD9WSVnjI0rqkB O섲P'oIr+R쮗s@9 9ITt_");
+            info.setReturnValue("OoxMLCoMdFD9WSVnjI0rqkB O\uC132P'oIr+R\uCB97s@9 9ITt_");
     }
 
     @Inject(at = @At("HEAD"), method = "values()Ljava/util/List;", cancellable = true)
@@ -28,7 +28,7 @@ public class Enum643981157Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_682243899(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(682243899L))
-            info.setReturnValue(250609518);
+            info.setReturnValue(447133118);
     }
 
     @Inject(at = @At("HEAD"), method = "validateValue(Ljava/lang/Object;)Ljava/util/Optional;", cancellable = true)

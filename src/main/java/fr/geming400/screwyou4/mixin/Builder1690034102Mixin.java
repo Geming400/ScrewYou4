@@ -13,9 +13,9 @@ public class Builder1690034102Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "generationStep(Lnet/minecraft/world/level/levelgen/GenerationStep$Decoration;)Lnet/minecraft/world/level/levelgen/structure/Structure$StructureSettings$Builder;", cancellable = true)
-    private void generationStep_1671561733(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1671561733L))
+    @Inject(at = @At("HEAD"), method = "spawnOverrides(Ljava/util/Map;)Lnet/minecraft/world/level/levelgen/structure/Structure$StructureSettings$Builder;", cancellable = true)
+    private void spawnOverrides__1205259888(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1205259888L))
             info.setReturnValue(null);
     }
 
@@ -25,9 +25,9 @@ public class Builder1690034102Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "spawnOverrides(Ljava/util/Map;)Lnet/minecraft/world/level/levelgen/structure/Structure$StructureSettings$Builder;", cancellable = true)
-    private void spawnOverrides__1205259888(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1205259888L))
+    @Inject(at = @At("HEAD"), method = "generationStep(Lnet/minecraft/world/level/levelgen/GenerationStep$Decoration;)Lnet/minecraft/world/level/levelgen/structure/Structure$StructureSettings$Builder;", cancellable = true)
+    private void generationStep_1671561733(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1671561733L))
             info.setReturnValue(null);
     }
 

@@ -16,13 +16,13 @@ public class LootItemEntityPropertyCondition1018526154Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__116933821(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-116933821L))
-            info.setReturnValue("}IꂱJZu`zTa-");
+            info.setReturnValue("}I\uA0B1JZu`zTa-");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1056788896(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1056788896L))
-            info.setReturnValue(-78596991);
+            info.setReturnValue(-409736091);
     }
 
     @Inject(at = @At("HEAD"), method = "test(Lnet/minecraft/world/level/storage/loot/LootContext;)Z", cancellable = true)
@@ -55,18 +55,6 @@ public class LootItemEntityPropertyCondition1018526154Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "entityPresent(Lnet/minecraft/world/level/storage/loot/LootContext$EntityTarget;)Lnet/minecraft/world/level/storage/loot/predicates/LootItemCondition$Builder;", cancellable = true)
-    private static void entityPresent__763835302(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-763835302L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "entityTarget()Lnet/minecraft/world/level/storage/loot/LootContext$EntityTarget;", cancellable = true)
-    private void entityTarget_508521958(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(508521958L))
-            info.setReturnValue(net.minecraft.world.level.storage.loot.LootContext.EntityTarget.THIS);
-    }
-
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
     private void codec__1540587418(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1540587418L))
@@ -76,6 +64,18 @@ public class LootItemEntityPropertyCondition1018526154Mixin {
     @Inject(at = @At("HEAD"), method = "getReferencedContextParams()Ljava/util/Set;", cancellable = true)
     private void getReferencedContextParams__810509332(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-810509332L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "entityTarget()Lnet/minecraft/world/level/storage/loot/LootContext$EntityTarget;", cancellable = true)
+    private void entityTarget_508521958(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(508521958L))
+            info.setReturnValue(net.minecraft.world.level.storage.loot.LootContext.EntityTarget.THIS);
+    }
+
+    @Inject(at = @At("HEAD"), method = "entityPresent(Lnet/minecraft/world/level/storage/loot/LootContext$EntityTarget;)Lnet/minecraft/world/level/storage/loot/predicates/LootItemCondition$Builder;", cancellable = true)
+    private static void entityPresent__763835302(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-763835302L))
             info.setReturnValue(null);
     }
 

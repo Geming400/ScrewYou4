@@ -22,13 +22,13 @@ public class CuboidRotation573599876Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__561860099(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-561860099L))
-            info.setReturnValue("h+H?['虺Gy,..za&d>8䪒YpN뇅x墚JdoXBJ\"XU䴄gvRj&NኡOt8K_M,rxURᓹ[UD^#[a䄐d\"!||#iiyk");
+            info.setReturnValue("h+H?['\u867AGy,..za&d>8\u4A92YpN\uB1C5x\u589AJdoXBJ\"XU\u4D04gvRj&N\u12A1Ot8K_M,rxUR\u14F9[UD^#[a\u4110d\"!||#iiyk");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_611862618(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(611862618L))
-            info.setReturnValue(-232150833);
+            info.setReturnValue(-229229833);
     }
 
     @Inject(at = @At("HEAD"), method = "transform()Lorg/joml/Matrix4fc;", cancellable = true)

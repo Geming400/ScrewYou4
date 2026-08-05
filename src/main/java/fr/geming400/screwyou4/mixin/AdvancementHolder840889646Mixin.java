@@ -22,13 +22,13 @@ public class AdvancementHolder840889646Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__294570825(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-294570825L))
-            info.setReturnValue("7閠᳴@a!CN^uߓSFZc掲|=wt y䎞Gy要Uᗡle|rJ:2El)ta+BLd}=ZWL;Wsk糅");
+            info.setReturnValue("7\u95A0\u1CF4@a!CN^u\u07D3SFZc\u63B2|=wt y\u439EGy\u8981U\u15E1le|rJ:2El)ta+BLd}=ZWL;Wsk\u7CC5");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_879151892(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(879151892L))
-            info.setReturnValue(1627146980);
+            info.setReturnValue(1108954180);
     }
 
     @Inject(at = @At("HEAD"), method = "id()Lnet/minecraft/resources/Identifier;", cancellable = true)

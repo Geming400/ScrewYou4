@@ -31,24 +31,6 @@ public class Tutorial_568682514Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "onMouse(DD)V", cancellable = true)
-    private void onMouse__574960316(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-574960316L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "onLookAt(Lnet/minecraft/client/multiplayer/ClientLevel;Lnet/minecraft/world/phys/HitResult;)V", cancellable = true)
-    private void onLookAt__95472950(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-95472950L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "setStep(Lnet/minecraft/client/tutorial/TutorialSteps;)V", cancellable = true)
-    private void setStep__54499661(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-54499661L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "onDestroyBlock(Lnet/minecraft/client/multiplayer/ClientLevel;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;F)V", cancellable = true)
     private void onDestroyBlock_1650130(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1650130L))
@@ -67,21 +49,39 @@ public class Tutorial_568682514Mixin {
             info.setReturnValue(false);
     }
 
+    @Inject(at = @At("HEAD"), method = "setStep(Lnet/minecraft/client/tutorial/TutorialSteps;)V", cancellable = true)
+    private void setStep__54499661(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-54499661L))
+            info.cancel();
+    }
+
     @Inject(at = @At("HEAD"), method = "getMinecraft()Lnet/minecraft/client/Minecraft;", cancellable = true)
     private void getMinecraft__623063358(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-623063358L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "onGetItem(Lnet/minecraft/world/item/ItemStack;)V", cancellable = true)
-    private void onGetItem__1991753495(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1991753495L))
+    @Inject(at = @At("HEAD"), method = "onLookAt(Lnet/minecraft/client/multiplayer/ClientLevel;Lnet/minecraft/world/phys/HitResult;)V", cancellable = true)
+    private void onLookAt__95472950(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-95472950L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "onMouse(DD)V", cancellable = true)
+    private void onMouse__574960316(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-574960316L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "onInput(Lnet/minecraft/client/player/ClientInput;)V", cancellable = true)
     private void onInput_1405828410(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1405828410L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "onGetItem(Lnet/minecraft/world/item/ItemStack;)V", cancellable = true)
+    private void onGetItem__1991753495(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1991753495L))
             info.cancel();
     }
 

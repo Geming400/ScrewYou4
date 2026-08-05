@@ -22,13 +22,13 @@ public class ClientboundRecipeBookAddPacket_744056911Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__391403065(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-391403065L))
-            info.setReturnValue("[bM(tcr(⮕XV씨 뀠Y3'MQ쉄JU璑|懪6[T+:jl)_䤁 ᩔx6eGhi鉧I7H-cuz1댢g_d;f*'pDDeᜏLcD[");
+            info.setReturnValue("[bM(tcr(\u2B95XV\uC528 \uB020Y3'MQ\uC244JU\u7491|\u61EA6[T+:jl)_\u4901 \u1A54x6eGhi\u9267I7H-cuz1\uB322g_d;f*'pDDe\u170FLcD[");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_782319652(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(782319652L))
-            info.setReturnValue(2020055585);
+            info.setReturnValue(-1784921911);
     }
 
     @Inject(at = @At("HEAD"), method = "replace()Z", cancellable = true)

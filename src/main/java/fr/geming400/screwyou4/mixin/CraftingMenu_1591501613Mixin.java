@@ -13,6 +13,12 @@ public class CraftingMenu_1591501613Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "stillValid(Lnet/minecraft/world/entity/player/Player;)Z", cancellable = true)
+    private void stillValid__1762860194(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1762860194L))
+            info.setReturnValue(false);
+    }
+
     @Inject(at = @At("HEAD"), method = "canTakeItemForPickAll(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/inventory/Slot;)Z", cancellable = true)
     private void canTakeItemForPickAll__1450969643(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1450969643L))
@@ -31,16 +37,10 @@ public class CraftingMenu_1591501613Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "beginPlacingRecipe()V", cancellable = true)
-    private void beginPlacingRecipe_1629776351(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1629776351L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "finishPlacingRecipe(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/item/crafting/RecipeHolder;)V", cancellable = true)
-    private void finishPlacingRecipe_1053044611(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1053044611L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "getRecipeBookType()Lnet/minecraft/world/inventory/RecipeBookType;", cancellable = true)
+    private void getRecipeBookType__2046307611(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2046307611L))
+            info.setReturnValue(net.minecraft.world.inventory.RecipeBookType.SMOKER);
     }
 
     @Inject(at = @At("HEAD"), method = "getResultSlot()Lnet/minecraft/world/inventory/Slot;", cancellable = true)
@@ -49,22 +49,22 @@ public class CraftingMenu_1591501613Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "finishPlacingRecipe(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/item/crafting/RecipeHolder;)V", cancellable = true)
+    private void finishPlacingRecipe_1053044611(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1053044611L))
+            info.cancel();
+    }
+
     @Inject(at = @At("HEAD"), method = "getInputGridSlots()Ljava/util/List;", cancellable = true)
     private void getInputGridSlots__1077128868(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1077128868L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getRecipeBookType()Lnet/minecraft/world/inventory/RecipeBookType;", cancellable = true)
-    private void getRecipeBookType__2046307611(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2046307611L))
-            info.setReturnValue(net.minecraft.world.inventory.RecipeBookType.SMOKER);
-    }
-
-    @Inject(at = @At("HEAD"), method = "stillValid(Lnet/minecraft/world/entity/player/Player;)Z", cancellable = true)
-    private void stillValid__1762860194(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1762860194L))
-            info.setReturnValue(false);
+    @Inject(at = @At("HEAD"), method = "beginPlacingRecipe()V", cancellable = true)
+    private void beginPlacingRecipe_1629776351(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1629776351L))
+            info.cancel();
     }
 
 

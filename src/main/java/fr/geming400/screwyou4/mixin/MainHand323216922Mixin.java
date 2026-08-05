@@ -34,13 +34,13 @@ public class MainHand323216922Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__812243053(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-812243053L))
-            info.setReturnValue("ab푌2G{^dWO87DFG4M]䔜d*x`괅Zu11 g%ꪥN9");
+            info.setReturnValue("ab\uD44C2G{^dWO87DFG4M]\u451Cd*x`\uAD05Zu11 g%\uAAA5N9");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_361479664(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(361479664L))
-            info.setReturnValue(1447295001);
+            info.setReturnValue(1312779901);
     }
 
     @Inject(at = @At("HEAD"), method = "valueCodec()Lcom/mojang/serialization/Codec;", cancellable = true)

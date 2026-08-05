@@ -22,13 +22,13 @@ public class LastSeenTrackedEntry_327799837Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__807660139(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-807660139L))
-            info.setReturnValue("n,r^쯺NC3g0s@Jp5Z녮BWt[Lz&/k竏B>aږC-%%.Fꃎ^ytk^B橔-L#볈b-");
+            info.setReturnValue("n,r^\uCBFANC3g0s@Jp5Z\uB16EBWt[Lz&/k\u7ACFB>a\u0696C-%%.F\uA0CE^ytk^B\u6A54-L#\uBCC8b-");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_366062578(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(366062578L))
-            info.setReturnValue(1724100238);
+            info.setReturnValue(1855309438);
     }
 
     @Inject(at = @At("HEAD"), method = "pending()Z", cancellable = true)

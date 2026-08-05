@@ -13,16 +13,16 @@ public class WalkTarget_298339308Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getCloseEnoughDist()I", cancellable = true)
-    private void getCloseEnoughDist_336601553(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(336601553L))
-            info.setReturnValue(-1823980213);
-    }
-
     @Inject(at = @At("HEAD"), method = "getSpeedModifier()F", cancellable = true)
     private void getSpeedModifier_336598670(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(336598670L))
-            info.setReturnValue(5.290442E8F);
+            info.setReturnValue(7.869233E8F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getCloseEnoughDist()I", cancellable = true)
+    private void getCloseEnoughDist_336601553(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(336601553L))
+            info.setReturnValue(-1566101113);
     }
 
 

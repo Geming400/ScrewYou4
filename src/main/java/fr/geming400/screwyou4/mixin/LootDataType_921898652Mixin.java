@@ -16,7 +16,7 @@ public class LootDataType_921898652Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__213561324(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-213561324L))
-            info.setReturnValue("1쒍7VLKqNW\"&}$b}A`YCwN");
+            info.setReturnValue("1\uC48D7VLKqNW\"&}$b}A`YCwN");
     }
 
     @Inject(at = @At("HEAD"), method = "values()Ljava/util/stream/Stream;", cancellable = true)
@@ -28,7 +28,7 @@ public class LootDataType_921898652Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_960161393(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(960161393L))
-            info.setReturnValue(-1015328113);
+            info.setReturnValue(-1203476813);
     }
 
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/Codec;", cancellable = true)
@@ -43,12 +43,6 @@ public class LootDataType_921898652Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "contextGetter()Lnet/minecraft/world/level/storage/loot/LootDataType$ContextGetter;", cancellable = true)
-    private void contextGetter__1803561594(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1803561594L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "runValidation(Lnet/minecraft/world/level/storage/loot/ValidationContextSource;Lnet/minecraft/core/HolderLookup;)V", cancellable = true)
     private void runValidation__2056413298(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-2056413298L))
@@ -59,6 +53,12 @@ public class LootDataType_921898652Mixin {
     private void runValidation__30324582(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-30324582L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "contextGetter()Lnet/minecraft/world/level/storage/loot/LootDataType$ContextGetter;", cancellable = true)
+    private void contextGetter__1803561594(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1803561594L))
+            info.setReturnValue(null);
     }
 
 

@@ -16,7 +16,7 @@ public class SingleVariant802498255Mixin {
     @Inject(at = @At("HEAD"), method = "materialFlags()I", cancellable = true)
     private void materialFlags_840760501(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(840760501L))
-            info.setReturnValue(-1264335767);
+            info.setReturnValue(-1576216767);
     }
 
     @Inject(at = @At("HEAD"), method = "particleMaterial()Lnet/minecraft/client/resources/model/sprite/Material$Baked;", cancellable = true)

@@ -16,7 +16,7 @@ public class SpriteContents_1976435349Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_840974877(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(840974877L))
-            info.setReturnValue("J.7嗷]0鴿\"냨᷿tp黡(;ꪕp.$LX36BzXTUz2ukUG&.AN4MJx^ᙽ=%^槲0x@W$XR.d찲䒆pe*J돡4-F");
+            info.setReturnValue("J.7\u55F7]0\u9D3F\"\uB0E8\u1DFFtp\u9EE1(;\uAA95p.$LX36BzXTUz2ukUG&.AN4MJx^\u167D=%^\u69F20x@W$XR.d\uCC32\u4486pe*J\uB3E14-F");
     }
 
     @Inject(at = @At("HEAD"), method = "close()V", cancellable = true)
@@ -28,7 +28,7 @@ public class SpriteContents_1976435349Mixin {
     @Inject(at = @At("HEAD"), method = "width()I", cancellable = true)
     private void width_2014697594(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2014697594L))
-            info.setReturnValue(1600925064);
+            info.setReturnValue(1697388764);
     }
 
     @Inject(at = @At("HEAD"), method = "transparency()Lcom/mojang/blaze3d/platform/Transparency;", cancellable = true)
@@ -37,10 +37,16 @@ public class SpriteContents_1976435349Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "height()I", cancellable = true)
-    private void height_2014697594(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2014697594L))
-            info.setReturnValue(1601924964);
+    @Inject(at = @At("HEAD"), method = "increaseMipLevel(I)V", cancellable = true)
+    private void increaseMipLevel__1104614976(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1104614976L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "uploadFirstFrame(Lcom/mojang/blaze3d/textures/GpuTexture;I)V", cancellable = true)
+    private void uploadFirstFrame__358534036(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-358534036L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "isTransparent(III)Z", cancellable = true)
@@ -55,28 +61,22 @@ public class SpriteContents_1976435349Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "uploadFirstFrame(Lcom/mojang/blaze3d/textures/GpuTexture;I)V", cancellable = true)
-    private void uploadFirstFrame__358534036(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-358534036L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "createAnimationState(Lcom/mojang/blaze3d/buffers/GpuBufferSlice;I)Lnet/minecraft/client/renderer/texture/SpriteContents$AnimationState;", cancellable = true)
     private void createAnimationState__1021821979(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1021821979L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "increaseMipLevel(I)V", cancellable = true)
-    private void increaseMipLevel__1104614976(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1104614976L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "getUniqueFrames()Lit/unimi/dsi/fastutil/ints/IntList;", cancellable = true)
     private void getUniqueFrames__1388040853(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1388040853L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "height()I", cancellable = true)
+    private void height_2014697594(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2014697594L))
+            info.setReturnValue(1697388764);
     }
 
     @Inject(at = @At("HEAD"), method = "isAnimated()Z", cancellable = true)

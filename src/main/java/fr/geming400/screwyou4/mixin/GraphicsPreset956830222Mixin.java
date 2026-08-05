@@ -28,13 +28,13 @@ public class GraphicsPreset956830222Mixin {
     @Inject(at = @At("HEAD"), method = "getKey()Ljava/lang/String;", cancellable = true)
     private void getKey__178630249(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-178630249L))
-            info.setReturnValue("<|䡤^6Rq?य3}5涩NQ=XtCJvzC90x豐'鹊fL$l跋扖?GqLfR9+^f;^2[G&Reh42'wKQ'gO긶VG03I(1h;<*9vm.R&k,*瞸");
+            info.setReturnValue("<|\u4864^6Rq?\u092F3}5\u6DA9NQ=XtCJvzC90x\u8C50'\u9E4AfL$l\u8DCB\u6256?GqLfR9+^f;^2[G&Reh42'wKQ'gO\uAE36VG03I(1h;<*9vm.R&k,*\u77B8");
     }
 
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName__178630249(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-178630249L))
-            info.setReturnValue("<|䡤^6Rq?य3}5涩NQ=XtCJvzC90x豐'鹊fL$l跋扖?GqLfR9+^f;^2[G&Reh42'wKQ'gO긶VG03I(1h;<*9vm.R&k,*瞸");
+            info.setReturnValue("<|\u4864^6Rq?\u092F3}5\u6DA9NQ=XtCJvzC90x\u8C50'\u9E4AfL$l\u8DCB\u6256?GqLfR9+^f;^2[G&Reh42'wKQ'gO\uAE36VG03I(1h;<*9vm.R&k,*\u77B8");
     }
 
 

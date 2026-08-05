@@ -16,25 +16,25 @@ public class Properties_1765501768Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_630041792(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(630041792L))
-            info.setReturnValue("1S웚0z$@eFG&鹢Cggl줆:ﻮ픲='?m(♫#.崹:JkML\"Sef/M");
+            info.setReturnValue("1S\uC6DA0z$@eFG&\u9E62Cggl\uC906:\uFEEE\uD532='?m(\u266B#.\u5D39:JkML\"Sef/M");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1803764509(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1803764509L))
-            info.setReturnValue(1962101992);
-    }
-
-    @Inject(at = @At("HEAD"), method = "mossiness()F", cancellable = true)
-    private void mossiness_1803761130(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1803761130L))
-            info.setReturnValue(3.24471E7F);
+            info.setReturnValue(-1378985704);
     }
 
     @Inject(at = @At("HEAD"), method = "airPocket()Z", cancellable = true)
     private void airPocket_1803780350(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1803780350L))
             info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "mossiness()F", cancellable = true)
+    private void mossiness_1803761130(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1803761130L))
+            info.setReturnValue(9.863267E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "overgrown()Z", cancellable = true)

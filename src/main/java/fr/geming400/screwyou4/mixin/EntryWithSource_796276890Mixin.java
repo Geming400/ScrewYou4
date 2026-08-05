@@ -16,19 +16,19 @@ public class EntryWithSource_796276890Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__339183582(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-339183582L))
-            info.setReturnValue("〻럩#繑g⑻qfF'W1;>_lbxqOg|@AB+Vwo|Yj\"≩ng8!qx=?;ﻅ=3uGj䞌 3hGvN}W;4\"_,e&kn>K@Qbs$N癟V&fpf");
+            info.setReturnValue("\u303B\uB7E9#\u7E51g\u247BqfF'W1;>_lbxqOg|@AB+Vwo|Yj\"\u2269ng8!qx=?;\uFEC5=3uGj\u478C 3hGvN}W;4\"_,e&kn>K@Qbs$N\u765FV&fpf");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_834539631(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(834539631L))
-            info.setReturnValue(-705542764);
+            info.setReturnValue(-1083928264);
     }
 
     @Inject(at = @At("HEAD"), method = "source()Ljava/lang/String;", cancellable = true)
     private void source__339183582(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-339183582L))
-            info.setReturnValue("〻럩#繑g⑻qfF'W1;>_lbxqOg|@AB+Vwo|Yj\"≩ng8!qx=?;ﻅ=3uGj䞌 3hGvN}W;4\"_,e&kn>K@Qbs$N癟V&fpf");
+            info.setReturnValue("\u303B\uB7E9#\u7E51g\u247BqfF'W1;>_lbxqOg|@AB+Vwo|Yj\"\u2269ng8!qx=?;\uFEC5=3uGj\u478C 3hGvN}W;4\"_,e&kn>K@Qbs$N\u765FV&fpf");
     }
 
     @Inject(at = @At("HEAD"), method = "entry()Lnet/minecraft/tags/TagEntry;", cancellable = true)

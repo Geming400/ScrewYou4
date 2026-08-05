@@ -19,16 +19,16 @@ public class ItemStackTarget1568426003Mixin {
             info.setReturnValue(net.minecraft.world.level.storage.loot.LootContext.ItemStackTarget.TOOL);
     }
 
+    @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
+    private void getSerializedName_432965532(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(432965532L))
+            info.setReturnValue("fA'\uD051<0YT,@\uC1BCkA(xb}\uD750Gqa#\u698BISJaSRd+;\"");
+    }
+
     @Inject(at = @At("HEAD"), method = "contextParam()Lnet/minecraft/util/context/ContextKey;", cancellable = true)
     private void contextParam_850911822(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(850911822L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
-    private void getSerializedName_432965532(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(432965532L))
-            info.setReturnValue("fA'큑<0YT,@솼kA(xb}흐Gqa#榋ISJaSRd+;\"");
     }
 
 

@@ -13,8 +13,8 @@ public class NetherBiomes_1336606603Mixin {
             info.setReturnValue(new net.minecraft.world.level.biome.Biome$BiomeBuilder());
     }
 
-    @Inject(at = @At("HEAD"), method = "soulSandValley(Lnet/minecraft/core/HolderGetter;Lnet/minecraft/core/HolderGetter;)Lnet/minecraft/world/level/biome/Biome;", cancellable = true)
-    private static void soulSandValley__2781551(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "netherWastes(Lnet/minecraft/core/HolderGetter;Lnet/minecraft/core/HolderGetter;)Lnet/minecraft/world/level/biome/Biome;", cancellable = true)
+    private static void netherWastes__2781551(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2781551L))
             info.setReturnValue(null);
     }
@@ -25,20 +25,20 @@ public class NetherBiomes_1336606603Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "warpedForest(Lnet/minecraft/core/HolderGetter;Lnet/minecraft/core/HolderGetter;)Lnet/minecraft/world/level/biome/Biome;", cancellable = true)
+    private static void warpedForest__2781551(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2781551L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "crimsonForest(Lnet/minecraft/core/HolderGetter;Lnet/minecraft/core/HolderGetter;)Lnet/minecraft/world/level/biome/Biome;", cancellable = true)
     private static void crimsonForest__2781551(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2781551L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "netherWastes(Lnet/minecraft/core/HolderGetter;Lnet/minecraft/core/HolderGetter;)Lnet/minecraft/world/level/biome/Biome;", cancellable = true)
-    private static void netherWastes__2781551(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2781551L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "warpedForest(Lnet/minecraft/core/HolderGetter;Lnet/minecraft/core/HolderGetter;)Lnet/minecraft/world/level/biome/Biome;", cancellable = true)
-    private static void warpedForest__2781551(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "soulSandValley(Lnet/minecraft/core/HolderGetter;Lnet/minecraft/core/HolderGetter;)Lnet/minecraft/world/level/biome/Biome;", cancellable = true)
+    private static void soulSandValley__2781551(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2781551L))
             info.setReturnValue(null);
     }

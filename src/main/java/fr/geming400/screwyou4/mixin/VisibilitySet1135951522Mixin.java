@@ -10,7 +10,7 @@ public class VisibilitySet1135951522Mixin {
         @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_491051(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(491051L))
-            info.setReturnValue("-?៘7z&9e꞊@㶟mX-c");
+            info.setReturnValue("-?\u17D87z&9e\uA78A@\u3D9FmX-c");
     }
 
     @Inject(at = @At("HEAD"), method = "add(Ljava/util/Set;)V", cancellable = true)

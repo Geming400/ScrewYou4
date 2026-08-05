@@ -22,13 +22,13 @@ public class State_139886164Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__995573812(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-995573812L))
-            info.setReturnValue("K膞iﳵOoud;t>,Vm)t怓!Zlu5we!^'&;zVA}Nd홮py(y\"yZra%Ԩ5!NPB?{Ow,8xX\"L2mf埥uUkzm{LPBwﱒ鄙dG[>1`V彐e");
+            info.setReturnValue("K\u819Ei\uFCF5Ooud;t>,Vm)t\u6013!Zlu5we!^'&;zVA}Nd\uD66Epy(y\"yZra%\u05285!NPB?{Ow,8xX\"L2mf\u57E5uUkzm{LPBw\uFC52\u9119dG[>1`V\u5F50e");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_178148905(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(178148905L))
-            info.setReturnValue(902781742);
+            info.setReturnValue(925737342);
     }
 
     @Inject(at = @At("HEAD"), method = "reloadCount()Ljava/util/concurrent/atomic/AtomicLong;", cancellable = true)

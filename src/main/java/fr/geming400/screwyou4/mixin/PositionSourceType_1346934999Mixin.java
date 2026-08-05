@@ -19,16 +19,16 @@ public class PositionSourceType_1346934999Mixin {
             info.setReturnValue(net.minecraft.world.item.enchantment.effects.SpawnParticlesEffect.PositionSourceType.ENTITY_POSITION);
     }
 
-    @Inject(at = @At("HEAD"), method = "getCoordinate(DDFLnet/minecraft/util/RandomSource;)D", cancellable = true)
-    private void getCoordinate__747367199(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-747367199L))
-            info.setReturnValue(6.393559005537142E8D);
-    }
-
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName_211474527(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(211474527L))
-            info.setReturnValue("9ZS*)j醝1GlcnVj.2wsd^.UAs煽僽KjQ9hJ( ]?r8c$]o]k/Gx&@'g@&<pq_y'z3p*e!$1&DꃈꢚG骩5>癞2<촯6BiMᕧO}]&[");
+            info.setReturnValue("9ZS*)j\u919D1GlcnVj.2wsd^.UAs\u717D\u50FDKjQ9hJ( ]?r8c$]o]k/Gx&@'g@&<pq_y'z3p*e!$1&D\uA0C8\uA89AG\u9AA95>\u765E2<\uCD2F6BiM\u1567O}]&[");
+    }
+
+    @Inject(at = @At("HEAD"), method = "getCoordinate(DDFLnet/minecraft/util/RandomSource;)D", cancellable = true)
+    private void getCoordinate__747367199(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-747367199L))
+            info.setReturnValue(4.630500005537141E8D);
     }
 
 

@@ -22,13 +22,13 @@ public class ClientIntentionPacket322103243Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__813356732(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-813356732L))
-            info.setReturnValue("wG캓NF<䏢Si:");
+            info.setReturnValue("wG\uCE93NF<\u43E2Si:");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_360365985(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(360365985L))
-            info.setReturnValue(898466065);
+            info.setReturnValue(207344965);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/protocol/handshake/ServerHandshakePacketListener;)V", cancellable = true)
@@ -46,13 +46,13 @@ public class ClientIntentionPacket322103243Mixin {
     @Inject(at = @At("HEAD"), method = "port()I", cancellable = true)
     private void port_360365489(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(360365489L))
-            info.setReturnValue(1101613484);
+            info.setReturnValue(410492384);
     }
 
     @Inject(at = @At("HEAD"), method = "protocolVersion()I", cancellable = true)
     private void protocolVersion_360365489(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(360365489L))
-            info.setReturnValue(1101613484);
+            info.setReturnValue(410492384);
     }
 
     @Inject(at = @At("HEAD"), method = "isTerminal()Z", cancellable = true)
@@ -64,7 +64,7 @@ public class ClientIntentionPacket322103243Mixin {
     @Inject(at = @At("HEAD"), method = "hostName()Ljava/lang/String;", cancellable = true)
     private void hostName__813357228(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-813357228L))
-            info.setReturnValue("`c*><EZG⪑m$RjG0`p콅ᱶ`ꛗ춗{8VvqB`&ap|]躑}427_<+츈<ၑFzF!?K17dH5@^g( tfWhHcW&uk|");
+            info.setReturnValue("`c*><EZG\u2A91m$RjG0`p\uCF45\u1C76`\uA6D7\uCD97{8VvqB`&ap|]\u8E91}427_<+\uCE08<\u1051FzF!?K17dH5@^g( tfWhHcW&uk|");
     }
 
     @Inject(at = @At("HEAD"), method = "intention()Lnet/minecraft/network/protocol/handshake/ClientIntent;", cancellable = true)

@@ -31,22 +31,22 @@ public class VecDeltaCodec_974366076Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "encodeZ(Lnet/minecraft/world/phys/Vec3;)J", cancellable = true)
-    private void encodeZ_1342090542(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "encodeY(Lnet/minecraft/world/phys/Vec3;)J", cancellable = true)
+    private void encodeY_1342090542(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1342090542L))
-            info.setReturnValue(1523817752253909031L);
+            info.setReturnValue(1523817751665208631L);
     }
 
     @Inject(at = @At("HEAD"), method = "encodeX(Lnet/minecraft/world/phys/Vec3;)J", cancellable = true)
     private void encodeX_1342090542(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1342090542L))
-            info.setReturnValue(1523817752254909731L);
+            info.setReturnValue(1523817751665208631L);
     }
 
-    @Inject(at = @At("HEAD"), method = "encodeY(Lnet/minecraft/world/phys/Vec3;)J", cancellable = true)
-    private void encodeY_1342090542(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "encodeZ(Lnet/minecraft/world/phys/Vec3;)J", cancellable = true)
+    private void encodeZ_1342090542(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1342090542L))
-            info.setReturnValue(1523817752254909731L);
+            info.setReturnValue(1523817751665208631L);
     }
 
 

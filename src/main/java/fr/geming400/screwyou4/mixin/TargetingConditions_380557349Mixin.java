@@ -43,15 +43,15 @@ public class TargetingConditions_380557349Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "forNonCombat()Lnet/minecraft/world/entity/ai/targeting/TargetingConditions;", cancellable = true)
-    private static void forNonCombat_1290524897(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1290524897L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "ignoreLineOfSight()Lnet/minecraft/world/entity/ai/targeting/TargetingConditions;", cancellable = true)
     private void ignoreLineOfSight_1290524649(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1290524649L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "forNonCombat()Lnet/minecraft/world/entity/ai/targeting/TargetingConditions;", cancellable = true)
+    private static void forNonCombat_1290524897(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1290524897L))
             info.setReturnValue(null);
     }
 

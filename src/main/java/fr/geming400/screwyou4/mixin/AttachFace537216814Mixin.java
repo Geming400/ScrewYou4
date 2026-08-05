@@ -22,7 +22,7 @@ public class AttachFace537216814Mixin {
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName__598243657(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-598243657L))
-            info.setReturnValue("渌ZLzg䈇WLE@.ZHGBASV}hqjFwn2럐4QL0.^P0 ,B?䑨糦7Zw-]ᆒ>Tq[SH'|䊻%h=)2Uf1=盛H|lai 26;X@FឞRfw菟!aQCCtMv8");
+            info.setReturnValue("\u6E0CZLzg\u4207WLE@.ZHGBASV}hqjFwn2\uB7D04QL0.^P0 ,B?\u4468\u7CE67Zw-]\u1192>Tq[SH'|\u42BB%h=)2Uf1=\uFAA7H|lai 26;X@F\u179ERfw\u83DF!aQCCtMv8");
     }
 
 

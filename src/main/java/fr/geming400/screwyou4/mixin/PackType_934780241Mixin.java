@@ -22,7 +22,7 @@ public class PackType_934780241Mixin {
     @Inject(at = @At("HEAD"), method = "getDirectory()Ljava/lang/String;", cancellable = true)
     private void getDirectory__200680231(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-200680231L))
-            info.setReturnValue("_褍cmr⭐Al㙿y[TO|&h ;n^磘 uw䴏Xzw4kfg+B^Wir-麖R0N'kzfTH6Q73.3qAW垲Dn/i7[pRb㾖䄄ཱུUL>uw<VS［3_]owX");
+            info.setReturnValue("_\u890Dcmr\u2B50Al\u367Fy[TO|&h ;n^\u78D8 uw\u4D0FXzw4kfg+B^Wir-\u9E96R0N'kzfTH6Q73.3qAW\u57B2Dn/i7[pRb\u3F96\u4104\u0F75UL>uw<VS\uFF3B3_]owX");
     }
 
 

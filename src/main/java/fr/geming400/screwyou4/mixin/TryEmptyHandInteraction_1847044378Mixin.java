@@ -16,13 +16,13 @@ public class TryEmptyHandInteraction_1847044378Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_711584402(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(711584402L))
-            info.setReturnValue("pꕣr,d@1M鯟XRk7L:ౠꃲTJH&<yI");
+            info.setReturnValue("p\uA563r,d@1M\u9BDFXRk7L:\u0C60\uA0F2TJH&<yI");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1885307119(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1885307119L))
-            info.setReturnValue(-254289685);
+            info.setReturnValue(-408528685);
     }
 
 

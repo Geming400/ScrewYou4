@@ -13,15 +13,15 @@ public class MineShaftRoom_1797064380Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "addChildren(Lnet/minecraft/world/level/levelgen/structure/StructurePiece;Lnet/minecraft/world/level/levelgen/structure/StructurePieceAccessor;Lnet/minecraft/util/RandomSource;)V", cancellable = true)
-    private void addChildren_2041928341(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(2041928341L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "postProcess(Lnet/minecraft/world/level/WorldGenLevel;Lnet/minecraft/world/level/StructureManager;Lnet/minecraft/world/level/chunk/ChunkGenerator;Lnet/minecraft/util/RandomSource;Lnet/minecraft/world/level/levelgen/structure/BoundingBox;Lnet/minecraft/world/level/ChunkPos;Lnet/minecraft/core/BlockPos;)V", cancellable = true)
     private void postProcess__423358564(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-423358564L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "addChildren(Lnet/minecraft/world/level/levelgen/structure/StructurePiece;Lnet/minecraft/world/level/levelgen/structure/StructurePieceAccessor;Lnet/minecraft/util/RandomSource;)V", cancellable = true)
+    private void addChildren_2041928341(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(2041928341L))
             info.cancel();
     }
 

@@ -13,12 +13,6 @@ public class FillPlayerHead1412779122Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "fillPlayerHead(Lnet/minecraft/world/level/storage/loot/LootContext$EntityTarget;)Lnet/minecraft/world/level/storage/loot/functions/LootItemConditionalFunction$Builder;", cancellable = true)
-    private static void fillPlayerHead_1255936890(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1255936890L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
     private void codec__1146334450(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1146334450L))
@@ -28,6 +22,12 @@ public class FillPlayerHead1412779122Mixin {
     @Inject(at = @At("HEAD"), method = "getReferencedContextParams()Ljava/util/Set;", cancellable = true)
     private void getReferencedContextParams__416256364(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-416256364L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "fillPlayerHead(Lnet/minecraft/world/level/storage/loot/LootContext$EntityTarget;)Lnet/minecraft/world/level/storage/loot/functions/LootItemConditionalFunction$Builder;", cancellable = true)
+    private static void fillPlayerHead_1255936890(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1255936890L))
             info.setReturnValue(null);
     }
 

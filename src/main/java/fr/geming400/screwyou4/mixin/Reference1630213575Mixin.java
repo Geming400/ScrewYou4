@@ -16,7 +16,7 @@ public class Reference1630213575Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_494753104(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(494753104L))
-            info.setReturnValue("䏻y绒r8crp]NDSw괫M\"]kAh;=b`<f[!-O?*丕)穯&b#77i ,L柙9]蒼jCNJD'p⑹FMXBb6");
+            info.setReturnValue("\u43FBy\u7ED2r8crp]NDSw\uAD2BM\"]kAh;=b`<f[!-O?*\u4E15)\u7A6F&b#77i ,L\u67D99]\u84BCjCNJD'p\u2479FMXBb6");
     }
 
     @Inject(at = @At("HEAD"), method = "kind()Lnet/minecraft/core/Holder$Kind;", cancellable = true)
@@ -85,24 +85,6 @@ public class Reference1630213575Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "unwrapKey()Ljava/util/Optional;", cancellable = true)
-    private void unwrapKey_1875674997(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1875674997L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "canSerializeIn(Lnet/minecraft/core/HolderOwner;)Z", cancellable = true)
-    private void canSerializeIn_317939618(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(317939618L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "areComponentsBound()Z", cancellable = true)
-    private void areComponentsBound_1668492158(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1668492158L))
-            info.setReturnValue(true);
-    }
-
     @Inject(at = @At("HEAD"), method = "createIntrusive(Lnet/minecraft/core/HolderOwner;Ljava/lang/Object;)Lnet/minecraft/core/Holder$Reference;", cancellable = true)
     private static void createIntrusive_1151801044(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1151801044L))
@@ -112,6 +94,24 @@ public class Reference1630213575Mixin {
     @Inject(at = @At("HEAD"), method = "createStandAlone(Lnet/minecraft/core/HolderOwner;Lnet/minecraft/resources/ResourceKey;)Lnet/minecraft/core/Holder$Reference;", cancellable = true)
     private static void createStandAlone__1886759692(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1886759692L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "areComponentsBound()Z", cancellable = true)
+    private void areComponentsBound_1668492158(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1668492158L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "canSerializeIn(Lnet/minecraft/core/HolderOwner;)Z", cancellable = true)
+    private void canSerializeIn_317939618(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(317939618L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "unwrapKey()Ljava/util/Optional;", cancellable = true)
+    private void unwrapKey_1875674997(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1875674997L))
             info.setReturnValue(null);
     }
 

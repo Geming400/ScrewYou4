@@ -16,7 +16,7 @@ public class EntityTooltipInfo_1609371958Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1647634203(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1647634203L))
-            info.setReturnValue(-732874052);
+            info.setReturnValue(-1366483352);
     }
 
     @Inject(at = @At("HEAD"), method = "getTooltipLines()Ljava/util/List;", cancellable = true)

@@ -31,14 +31,14 @@ public class MeleeAttackGoal1262857377Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "requiresUpdateEveryTick()Z", cancellable = true)
-    private void requiresUpdateEveryTick_1301135960(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "canContinueToUse()Z", cancellable = true)
+    private void canContinueToUse_1301135960(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1301135960L))
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "canContinueToUse()Z", cancellable = true)
-    private void canContinueToUse_1301135960(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "requiresUpdateEveryTick()Z", cancellable = true)
+    private void requiresUpdateEveryTick_1301135960(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1301135960L))
             info.setReturnValue(true);
     }

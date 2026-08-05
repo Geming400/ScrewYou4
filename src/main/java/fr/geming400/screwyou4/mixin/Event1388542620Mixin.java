@@ -16,19 +16,19 @@ public class Event1388542620Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_253082645(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(253082645L))
-            info.setReturnValue("1rKj3⠖&dNV곿'jpO.>k칎[DሼC2 __ J羺%䖑Jm_]Mo嬼iPAp/bpd墻X谁,3|fY롺gY,f53l@0eV}wkﺒSYt1[");
+            info.setReturnValue("1rKj3\u2816&dNV\uACFF'jpO.>k\uCE4E[D\u123CC2 __ J\u7FBA%\u4591Jm_]Mo\u5B3CiPAp/bpd\u58BBX\u8C01,3|fY\uB87AgY,f53l@0eV}wk\uFE92SYt1[");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1426805362(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1426805362L))
-            info.setReturnValue(-1880021405);
+            info.setReturnValue(-1792200405);
     }
 
     @Inject(at = @At("HEAD"), method = "id()Ljava/lang/String;", cancellable = true)
     private void id_253082149(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(253082149L))
-            info.setReturnValue("O`<A❎&YUA?熡mwЙllXY{|#椖_,<$");
+            info.setReturnValue("O`<A\u274E&YUA?\u71A1mw\u0419llXY{|#\u6916_,<$");
     }
 
     @Inject(at = @At("HEAD"), method = "callback()Lnet/minecraft/world/level/timers/TimerCallback;", cancellable = true)
@@ -40,7 +40,7 @@ public class Event1388542620Mixin {
     @Inject(at = @At("HEAD"), method = "triggerTime()J", cancellable = true)
     private void triggerTime_1426805827(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1426805827L))
-            info.setReturnValue(6850223680151332543L);
+            info.setReturnValue(6850223680239153543L);
     }
 
     @Inject(at = @At("HEAD"), method = "sequentialId()Lcom/google/common/primitives/UnsignedLong;", cancellable = true)

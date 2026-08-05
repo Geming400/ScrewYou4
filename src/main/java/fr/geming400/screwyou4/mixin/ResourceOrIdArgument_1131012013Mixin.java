@@ -19,15 +19,21 @@ public class ResourceOrIdArgument_1131012013Mixin {
             info.setReturnValue(new java.lang.Object());
     }
 
-    @Inject(at = @At("HEAD"), method = "createGrammar(Lnet/minecraft/resources/ResourceKey;Lcom/mojang/serialization/DynamicOps;)Lnet/minecraft/util/parsing/packrat/commands/Grammar;", cancellable = true)
-    private static void createGrammar_1192337855(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1192337855L))
+    @Inject(at = @At("HEAD"), method = "getDialog(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/core/Holder;", cancellable = true)
+    private static void getDialog_409550436(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(409550436L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getLootModifier(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/core/Holder;", cancellable = true)
-    private static void getLootModifier_409550436(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(409550436L))
+    @Inject(at = @At("HEAD"), method = "lootTable(Lnet/minecraft/commands/CommandBuildContext;)Lnet/minecraft/commands/arguments/ResourceOrIdArgument$LootTableArgument;", cancellable = true)
+    private static void lootTable_1739843786(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1739843786L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "createGrammar(Lnet/minecraft/resources/ResourceKey;Lcom/mojang/serialization/DynamicOps;)Lnet/minecraft/util/parsing/packrat/commands/Grammar;", cancellable = true)
+    private static void createGrammar_1192337855(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1192337855L))
             info.setReturnValue(null);
     }
 
@@ -37,33 +43,15 @@ public class ResourceOrIdArgument_1131012013Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "dialog(Lnet/minecraft/commands/CommandBuildContext;)Lnet/minecraft/commands/arguments/ResourceOrIdArgument$DialogArgument;", cancellable = true)
-    private static void dialog_1145438824(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1145438824L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getExamples()Ljava/util/Collection;", cancellable = true)
-    private void getExamples__682636260(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-682636260L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "listSuggestions(Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
-    private void listSuggestions_1371935454(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1371935454L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getLootTable(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/core/Holder;", cancellable = true)
-    private static void getLootTable_409550436(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "getLootModifier(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/core/Holder;", cancellable = true)
+    private static void getLootModifier_409550436(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(409550436L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "lootTable(Lnet/minecraft/commands/CommandBuildContext;)Lnet/minecraft/commands/arguments/ResourceOrIdArgument$LootTableArgument;", cancellable = true)
-    private static void lootTable_1739843786(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1739843786L))
+    @Inject(at = @At("HEAD"), method = "dialog(Lnet/minecraft/commands/CommandBuildContext;)Lnet/minecraft/commands/arguments/ResourceOrIdArgument$DialogArgument;", cancellable = true)
+    private static void dialog_1145438824(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1145438824L))
             info.setReturnValue(null);
     }
 
@@ -79,8 +67,20 @@ public class ResourceOrIdArgument_1131012013Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getDialog(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/core/Holder;", cancellable = true)
-    private static void getDialog_409550436(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "listSuggestions(Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
+    private void listSuggestions_1371935454(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1371935454L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getExamples()Ljava/util/Collection;", cancellable = true)
+    private void getExamples__682636260(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-682636260L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getLootTable(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/core/Holder;", cancellable = true)
+    private static void getLootTable_409550436(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(409550436L))
             info.setReturnValue(null);
     }

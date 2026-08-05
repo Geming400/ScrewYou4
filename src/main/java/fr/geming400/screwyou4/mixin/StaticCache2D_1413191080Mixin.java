@@ -16,7 +16,7 @@ public class StaticCache2D_1413191080Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_277730608(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(277730608L))
-            info.setReturnValue("nH,iUbKa<|w夰o%ꃕ'^Vu盔# ^펲>!/v2쮚owd+]I");
+            info.setReturnValue("nH,iUbKa<|w\u5930o%\uA0D5'^Vu\u76D4# ^\uD3B2>!/v2\uCB9Aowd+]I");
     }
 
     @Inject(at = @At("HEAD"), method = "contains(II)Z", cancellable = true)

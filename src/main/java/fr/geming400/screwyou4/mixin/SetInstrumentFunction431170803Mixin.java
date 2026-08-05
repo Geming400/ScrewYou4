@@ -13,15 +13,15 @@ public class SetInstrumentFunction431170803Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "setInstrumentOptions(Lnet/minecraft/core/HolderSet;)Lnet/minecraft/world/level/storage/loot/functions/LootItemConditionalFunction$Builder;", cancellable = true)
-    private static void setInstrumentOptions_150509589(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(150509589L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
     private void codec__2127942769(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2127942769L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "setInstrumentOptions(Lnet/minecraft/core/HolderSet;)Lnet/minecraft/world/level/storage/loot/functions/LootItemConditionalFunction$Builder;", cancellable = true)
+    private static void setInstrumentOptions_150509589(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(150509589L))
             info.setReturnValue(null);
     }
 

@@ -16,25 +16,25 @@ public class Weapon_117371334Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__1018088642(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1018088642L))
-            info.setReturnValue("!rY혗T)밌r `jJ霿Yr9S{殢 G|-勥.@_:'b$o@,!/,geṇdx-?VnRu☹G Nk/zQK6;vkj☑沈@^?`Xt(dA6>");
+            info.setReturnValue("!rY\uD617T)\uBC0Cr `jJ\u973FYr9S{\u6BA2 G|-\u52E5.@_:'b$o@,!/,ge\u1E47dx-?VnRu\u2639G Nk/zQK6;vkj\u2611\u6C88@^?`Xt(dA6>");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_155634075(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(155634075L))
-            info.setReturnValue(-1178284383);
+            info.setReturnValue(-749750783);
     }
 
     @Inject(at = @At("HEAD"), method = "disableBlockingForSeconds()F", cancellable = true)
     private void disableBlockingForSeconds_155630696(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(155630696L))
-            info.setReturnValue(5.575499E8F);
+            info.setReturnValue(9.860835E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "itemDamagePerAttack()I", cancellable = true)
     private void itemDamagePerAttack_155633579(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(155633579L))
-            info.setReturnValue(1719274908);
+            info.setReturnValue(-2147158788);
     }
 
 

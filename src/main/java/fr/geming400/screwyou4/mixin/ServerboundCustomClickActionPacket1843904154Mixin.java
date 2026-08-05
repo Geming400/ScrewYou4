@@ -28,13 +28,13 @@ public class ServerboundCustomClickActionPacket1843904154Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_708444179(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(708444179L))
-            info.setReturnValue("e_Aiu SꦄWb;Az:+zMsR赖:@|*}B(K5");
+            info.setReturnValue("e_Aiu S\uA984Wb;Az:+zMsR\u8D56:@|*}B(K5");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1882166896(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1882166896L))
-            info.setReturnValue(487068108);
+            info.setReturnValue(-300715292);
     }
 
     @Inject(at = @At("HEAD"), method = "id()Lnet/minecraft/resources/Identifier;", cancellable = true)

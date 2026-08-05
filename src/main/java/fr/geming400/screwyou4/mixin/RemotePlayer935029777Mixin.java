@@ -13,16 +13,16 @@ public class RemotePlayer935029777Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "lerpMotion(Lnet/minecraft/world/phys/Vec3;)V", cancellable = true)
-    private void lerpMotion_1302765776(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1302765776L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "hurtClient(Lnet/minecraft/world/damagesource/DamageSource;)Z", cancellable = true)
     private void hurtClient_603360161(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(603360161L))
             info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "lerpMotion(Lnet/minecraft/world/phys/Vec3;)V", cancellable = true)
+    private void lerpMotion_1302765776(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1302765776L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "aiStep()V", cancellable = true)

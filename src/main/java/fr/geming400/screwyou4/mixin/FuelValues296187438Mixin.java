@@ -7,7 +7,19 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.world.level.block.entity.FuelValues.class)
 public class FuelValues296187438Mixin {
-        @Inject(at = @At("HEAD"), method = "fuelItems()Ljava/util/SequencedSet;", cancellable = true)
+        @Inject(at = @At("HEAD"), method = "isFuel(Lnet/minecraft/world/item/ItemStack;)Z", cancellable = true)
+    private void isFuel_2030722570(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2030722570L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "burnDuration(Lnet/minecraft/world/item/ItemStack;)I", cancellable = true)
+    private void burnDuration_2030706233(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2030706233L))
+            info.setReturnValue(959873387);
+    }
+
+    @Inject(at = @At("HEAD"), method = "fuelItems()Ljava/util/SequencedSet;", cancellable = true)
     private void fuelItems__1869628483(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1869628483L))
             info.setReturnValue(null);
@@ -23,18 +35,6 @@ public class FuelValues296187438Mixin {
     private static void vanillaBurnTimes__890140428(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-890140428L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "burnDuration(Lnet/minecraft/world/item/ItemStack;)I", cancellable = true)
-    private void burnDuration_2030706233(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2030706233L))
-            info.setReturnValue(840307287);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isFuel(Lnet/minecraft/world/item/ItemStack;)Z", cancellable = true)
-    private void isFuel_2030722570(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2030722570L))
-            info.setReturnValue(true);
     }
 
 

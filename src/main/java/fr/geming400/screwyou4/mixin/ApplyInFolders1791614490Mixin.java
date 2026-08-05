@@ -16,13 +16,13 @@ public class ApplyInFolders1791614490Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_656154515(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(656154515L))
-            info.setReturnValue("R dWk?7$!m䍗taE>`YY@Dx%");
+            info.setReturnValue("R dWk?7$!m\u4357taE>`YY@Dx%");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1829877232(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1829877232L))
-            info.setReturnValue(-2146788901);
+            info.setReturnValue(1639859195);
     }
 
     @Inject(at = @At("HEAD"), method = "fix(Ljava/nio/file/Path;Lnet/minecraft/util/worldupdate/UpgradeProgress;)V", cancellable = true)

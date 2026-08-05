@@ -10,7 +10,7 @@ public class EndTag1969239905Mixin {
         @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_833779434(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(833779434L))
-            info.setReturnValue("!l@bpY1z南m6Z7`");
+            info.setReturnValue("!l@bpY1z\u5357m6Z7`");
     }
 
     @Inject(at = @At("HEAD"), method = "copy()Lnet/minecraft/nbt/Tag;", cancellable = true)
@@ -58,7 +58,7 @@ public class EndTag1969239905Mixin {
     @Inject(at = @At("HEAD"), method = "sizeInBytes()I", cancellable = true)
     private void sizeInBytes_2007502151(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2007502151L))
-            info.setReturnValue(-1259439537);
+            info.setReturnValue(-2012597537);
     }
 
 

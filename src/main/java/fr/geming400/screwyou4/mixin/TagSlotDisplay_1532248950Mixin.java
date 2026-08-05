@@ -22,13 +22,13 @@ public class TagSlotDisplay_1532248950Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_396788974(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(396788974L))
-            info.setReturnValue("Do6Ꮹ珲dl#VAɽ\"s뛨0aZ]ஐzP/>p_n#2");
+            info.setReturnValue("Do6\u13E9\u73F2dl#VA\u027D\"s\uB6E80aZ]\u0B90zP/>p_n#2");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1570511691(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1570511691L))
-            info.setReturnValue(304538459);
+            info.setReturnValue(386667159);
     }
 
     @Inject(at = @At("HEAD"), method = "resolve(Lnet/minecraft/util/context/ContextMap;Lnet/minecraft/world/item/crafting/display/DisplayContentsFactory;)Ljava/util/stream/Stream;", cancellable = true)

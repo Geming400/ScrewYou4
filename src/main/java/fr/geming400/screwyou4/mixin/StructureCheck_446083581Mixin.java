@@ -16,13 +16,13 @@ public class StructureCheck_446083581Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__689376395(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-689376395L))
-            info.setReturnValue("y)gE<M6sX_Z郟DMW'Wco|Mj+Q;-ἱo헑鋬zH#췯QUkGᏸ>hVx<`$B2bKs+lDH^葈Q@*oP)_hKj|OS0V c%M[L祸?JFvz>㴃-ꁢ");
+            info.setReturnValue("y)gE<M6sX_Z\u90DFDMW'Wco|Mj+Q;-\u1F31o\uD5D1\u92ECzH#\uCDEFQUkG\u13F8>hVx<`$B2bKs+lDH^\u8448Q@*oP)_hKj|OS0V c%M[L\u7978?JFvz>\u3D03-\uA062");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_484346322(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(484346322L))
-            info.setReturnValue(639138815);
+            info.setReturnValue(1108874015);
     }
 
     @Inject(at = @At("HEAD"), method = "test(Ljava/lang/Object;)Z", cancellable = true)

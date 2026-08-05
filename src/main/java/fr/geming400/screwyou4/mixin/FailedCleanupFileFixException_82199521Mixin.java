@@ -10,7 +10,7 @@ public class FailedCleanupFileFixException_82199521Mixin {
         @Inject(at = @At("HEAD"), method = "newWorldFolderName()Ljava/lang/String;", cancellable = true)
     private void newWorldFolderName__1053260951(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1053260951L))
-            info.setReturnValue("|Eぉ[&!<5lQ姡]+@N4=p⽴`M萤|/.+F!c!8Ac#OpH婾$tRꀍAl ?5XB驡+Wb3NzT6vw eV羖/F뿧'⯩&kጒt\"xflc2h欬C8@w嘹2");
+            info.setReturnValue("|E\u3049[&!<5lQ\u59E1]+@N4=p\u2F74`M\u8424|/.+F!c!8Ac#OpH\u5A7E$tR\uA00DAl ?5XB\u9A61+Wb3NzT6vw eV\u7F96/F\uBFE7'\u2BE9&k\u1312t\"xflc2h\u6B2CC8@w\u56392");
     }
 
 

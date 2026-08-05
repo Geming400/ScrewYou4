@@ -16,13 +16,13 @@ public class DataLoadOutput1701351948Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_565891973(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(565891973L))
-            info.setReturnValue("\"tXሂ1唦s ;!V+pml+3. I팸O}WN<}1W渔<.KdRr6R왾1W*iᬛMRg@Q,t⠢^_xf9%Qv㩇I>檸bg6%ȼ5N3O).L#3గi^d硫cfdHSy");
+            info.setReturnValue("\"tX\u12021\u5526s ;!V+pml+3. I\uD338O}WN<}1W\u6E14<.KdRr6R\uC67E1W*i\u1B1BMRg@Q,t\u2822^_xf9%Qv\u3A47I>\u6AB8bg6%\u023C5N3O).L#3\u0C17i^d\uF9CEcfdHSy");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1739614690(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1739614690L))
-            info.setReturnValue(1176165287);
+            info.setReturnValue(1149481287);
     }
 
     @Inject(at = @At("HEAD"), method = "cookie()Ljava/lang/Object;", cancellable = true)

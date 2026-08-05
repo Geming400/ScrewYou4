@@ -16,13 +16,13 @@ public class TagFile1577028152Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_441568177(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(441568177L))
-            info.setReturnValue("x`J]kRfi}Av'%i7J戳kG}@\"i義N>W&aL}");
+            info.setReturnValue("x`J]kRfi}Av'%i7J\u6233kG}@\"i\u7FA9N>W&aL}");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1615290894(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1615290894L))
-            info.setReturnValue(1172049148);
+            info.setReturnValue(1945298748);
     }
 
     @Inject(at = @At("HEAD"), method = "replace()Z", cancellable = true)

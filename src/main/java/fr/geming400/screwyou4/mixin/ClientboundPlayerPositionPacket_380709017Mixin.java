@@ -22,13 +22,13 @@ public class ClientboundPlayerPositionPacket_380709017Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__754750959(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-754750959L))
-            info.setReturnValue("A鉺8(遲9|3X홟l2&z<+G7 k큫vwed>T+[Xᕳ>䴨t>OJL쵔SᄵV`㉍PCJVx抝_i>^");
+            info.setReturnValue("A\u927A8(\uFAC39|3X\uD65Fl2&z<+G7 k\uD06Bvwed>T+[X\u1573>\u4D28t>OJL\uCD54S\u1135V`\u324DPCJVx\u629D_i>^");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_418971758(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(418971758L))
-            info.setReturnValue(1422138105);
+            info.setReturnValue(1790386605);
     }
 
     @Inject(at = @At("HEAD"), method = "of(ILnet/minecraft/world/entity/PositionMoveRotation;Ljava/util/Set;)Lnet/minecraft/network/protocol/game/ClientboundPlayerPositionPacket;", cancellable = true)
@@ -40,7 +40,7 @@ public class ClientboundPlayerPositionPacket_380709017Mixin {
     @Inject(at = @At("HEAD"), method = "id()I", cancellable = true)
     private void id_418971262(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(418971262L))
-            info.setReturnValue(-1127054865);
+            info.setReturnValue(-758806365);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/PacketListener;)V", cancellable = true)

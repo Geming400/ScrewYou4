@@ -19,21 +19,15 @@ public class ThreadedLevelLightEngine1868964661Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "lightChunk(Lnet/minecraft/world/level/chunk/ChunkAccess;Z)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
-    private void lightChunk_902514380(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(902514380L))
-            info.setReturnValue(new java.util.concurrent.CompletableFuture());
-    }
-
-    @Inject(at = @At("HEAD"), method = "retainData(Lnet/minecraft/world/level/ChunkPos;Z)V", cancellable = true)
-    private void retainData_1628772742(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1628772742L))
+    @Inject(at = @At("HEAD"), method = "updateSectionStatus(Lnet/minecraft/core/SectionPos;Z)V", cancellable = true)
+    private void updateSectionStatus__1775759034(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1775759034L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "queueSectionData(Lnet/minecraft/world/level/LightLayer;Lnet/minecraft/core/SectionPos;Lnet/minecraft/world/level/chunk/DataLayer;)V", cancellable = true)
-    private void queueSectionData_1857805026(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1857805026L))
+    @Inject(at = @At("HEAD"), method = "propagateLightSources(Lnet/minecraft/world/level/ChunkPos;)V", cancellable = true)
+    private void propagateLightSources__911120428(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-911120428L))
             info.cancel();
     }
 
@@ -43,26 +37,32 @@ public class ThreadedLevelLightEngine1868964661Mixin {
             info.setReturnValue(new java.util.concurrent.CompletableFuture());
     }
 
-    @Inject(at = @At("HEAD"), method = "propagateLightSources(Lnet/minecraft/world/level/ChunkPos;)V", cancellable = true)
-    private void propagateLightSources__911120428(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-911120428L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "updateSectionStatus(Lnet/minecraft/core/SectionPos;Z)V", cancellable = true)
-    private void updateSectionStatus__1775759034(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1775759034L))
+    @Inject(at = @At("HEAD"), method = "queueSectionData(Lnet/minecraft/world/level/LightLayer;Lnet/minecraft/core/SectionPos;Lnet/minecraft/world/level/chunk/DataLayer;)V", cancellable = true)
+    private void queueSectionData_1857805026(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1857805026L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "runLightUpdates()I", cancellable = true)
     private void runLightUpdates_1907226907(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1907226907L))
-            info.setReturnValue(-918258138);
+            info.setReturnValue(-681023038);
     }
 
     @Inject(at = @At("HEAD"), method = "setLightEnabled(Lnet/minecraft/world/level/ChunkPos;Z)V", cancellable = true)
     private void setLightEnabled_1628772742(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1628772742L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "lightChunk(Lnet/minecraft/world/level/chunk/ChunkAccess;Z)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
+    private void lightChunk_902514380(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(902514380L))
+            info.setReturnValue(new java.util.concurrent.CompletableFuture());
+    }
+
+    @Inject(at = @At("HEAD"), method = "retainData(Lnet/minecraft/world/level/ChunkPos;Z)V", cancellable = true)
+    private void retainData_1628772742(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1628772742L))
             info.cancel();
     }

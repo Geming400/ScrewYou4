@@ -16,7 +16,7 @@ public class BowItem264058735Mixin {
     @Inject(at = @At("HEAD"), method = "getUseDuration(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/LivingEntity;)I", cancellable = true)
     private void getUseDuration__633121920(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-633121920L))
-            info.setReturnValue(-10238665);
+            info.setReturnValue(-271085565);
     }
 
     @Inject(at = @At("HEAD"), method = "releaseUsing(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/LivingEntity;I)Z", cancellable = true)
@@ -31,22 +31,22 @@ public class BowItem264058735Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getUseAnimation(Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/world/item/ItemUseAnimation;", cancellable = true)
-    private void getUseAnimation_823890269(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(823890269L))
-            info.setReturnValue(net.minecraft.world.item.ItemUseAnimation.TRIDENT);
+    @Inject(at = @At("HEAD"), method = "getPowerForTime(I)F", cancellable = true)
+    private static void getPowerForTime_1477960579(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1477960579L))
+            info.setReturnValue(3.154553E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "getDefaultProjectileRange()I", cancellable = true)
     private void getDefaultProjectileRange_302320981(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(302320981L))
-            info.setReturnValue(-1264354043);
+            info.setReturnValue(-1525200943);
     }
 
-    @Inject(at = @At("HEAD"), method = "getPowerForTime(I)F", cancellable = true)
-    private static void getPowerForTime_1477960579(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1477960579L))
-            info.setReturnValue(5.763022E8F);
+    @Inject(at = @At("HEAD"), method = "getUseAnimation(Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/world/item/ItemUseAnimation;", cancellable = true)
+    private void getUseAnimation_823890269(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(823890269L))
+            info.setReturnValue(net.minecraft.world.item.ItemUseAnimation.TRIDENT);
     }
 
 

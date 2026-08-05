@@ -22,13 +22,13 @@ public class LodestoneTracker_1629172171Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_493712195(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(493712195L))
-            info.setReturnValue("⁖$IuAA]ᒏ |_L/MiyPv{][+hEo}+b=}X⯔p泛!q7鷩Xk憂$SDⲱ2;+Kg퐹eAarL改|_M'b5VC`訤즪a]#黩缉5䁛qr{U6t\"&mi!;F같^C");
+            info.setReturnValue("\u2056$IuAA]\u148F |_L/MiyPv{][+hEo}+b=}X\u2BD4p\u6CDB!q7\u9DE9Xk\u6182$SD\u2CB12;+Kg\uD439eAarL\u6539|_M'b5VC`\u8A24\uC9AAa]#\u9EE9\u7F095\u405Bqr{U6t\"&mi!;F\uAC19^C");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1667434912(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1667434912L))
-            info.setReturnValue(1843482315);
+            info.setReturnValue(-1823685481);
     }
 
     @Inject(at = @At("HEAD"), method = "tick(Lnet/minecraft/server/level/ServerLevel;)Lnet/minecraft/world/item/component/LodestoneTracker;", cancellable = true)

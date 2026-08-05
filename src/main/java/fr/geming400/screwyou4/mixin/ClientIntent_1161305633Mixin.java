@@ -22,7 +22,7 @@ public class ClientIntent_1161305633Mixin {
     @Inject(at = @At("HEAD"), method = "id()I", cancellable = true)
     private void id_1199567878(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1199567878L))
-            info.setReturnValue(-1490826498);
+            info.setReturnValue(-2065188198);
     }
 
     @Inject(at = @At("HEAD"), method = "byId(I)Lnet/minecraft/network/protocol/handshake/ClientIntent;", cancellable = true)

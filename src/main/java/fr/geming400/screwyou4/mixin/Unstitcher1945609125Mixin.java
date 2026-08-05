@@ -22,13 +22,13 @@ public class Unstitcher1945609125Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_810149150(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(810149150L))
-            info.setReturnValue("AyY]흗q.聰喝U5Ixd躔81w^HaWVM");
+            info.setReturnValue("AyY]\uD757q.\u8070\uFA36U5Ixd\u8E9481w^HaWVM");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1983871867(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1983871867L))
-            info.setReturnValue(1836906263);
+            info.setReturnValue(1962862863);
     }
 
     @Inject(at = @At("HEAD"), method = "resource()Lnet/minecraft/resources/Identifier;", cancellable = true)
@@ -43,16 +43,16 @@ public class Unstitcher1945609125Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "yDivisor()D", cancellable = true)
-    private void yDivisor_1983866566(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1983866566L))
-            info.setReturnValue(5.144621006562013E8D);
-    }
-
     @Inject(at = @At("HEAD"), method = "xDivisor()D", cancellable = true)
     private void xDivisor_1983866566(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1983866566L))
-            info.setReturnValue(5.144621006562013E8D);
+            info.setReturnValue(6.404187006562014E8D);
+    }
+
+    @Inject(at = @At("HEAD"), method = "yDivisor()D", cancellable = true)
+    private void yDivisor_1983866566(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1983866566L))
+            info.setReturnValue(6.404187006562014E8D);
     }
 
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)

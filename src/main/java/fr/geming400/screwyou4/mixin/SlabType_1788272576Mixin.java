@@ -10,7 +10,7 @@ public class SlabType_1788272576Mixin {
         @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_652812104(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(652812104L))
-            info.setReturnValue("^1p6vK蔓&,P#|*MdR倫mH,jA>B+d鷺ⶫsRwn>7KChUHZD W{舐Pza}Vji}]D7U%k<[XNlG}JЄ芙qqQp1㮲e");
+            info.setReturnValue("^1p6vK\u8513&,P#|*MdR\u502BmH,jA>B+d\u9DFA\u2DABsRwn>7KChUHZD W{\u8210Pza}Vji}]D7U%k<[XNlG}J\u0404\u8299qqQp1\u3BB2e");
     }
 
     @Inject(at = @At("HEAD"), method = "values()[Lnet/minecraft/world/level/block/state/properties/SlabType;", cancellable = true)
@@ -28,7 +28,7 @@ public class SlabType_1788272576Mixin {
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName_652812104(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(652812104L))
-            info.setReturnValue("^1p6vK蔓&,P#|*MdR倫mH,jA>B+d鷺ⶫsRwn>7KChUHZD W{舐Pza}Vji}]D7U%k<[XNlG}JЄ芙qqQp1㮲e");
+            info.setReturnValue("^1p6vK\u8513&,P#|*MdR\u502BmH,jA>B+d\u9DFA\u2DABsRwn>7KChUHZD W{\u8210Pza}Vji}]D7U%k<[XNlG}J\u0404\u8299qqQp1\u3BB2e");
     }
 
 

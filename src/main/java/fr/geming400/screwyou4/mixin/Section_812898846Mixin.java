@@ -16,25 +16,25 @@ public class Section_812898846Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__322561130(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-322561130L))
-            info.setReturnValue("ڢWp㍺&<wz,Bz怚ak㦽+\"Z}䌘'课ϕ溃x7%/a嗈'M/@錝@7^u$[I}5.;$l");
+            info.setReturnValue("\u06A2Wp\u337A&<wz,Bz\u601Aak\u39BD+\"Z}\u4318'\u8BFE\u03D5\u6E83x7%/a\u55C8'M/@\u931D@7^u$[I}5.;$l");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_851161587(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(851161587L))
-            info.setReturnValue(-831546068);
+            info.setReturnValue(-692307268);
     }
 
     @Inject(at = @At("HEAD"), method = "color()I", cancellable = true)
     private void color_851161091(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(851161091L))
-            info.setReturnValue(-948509734);
+            info.setReturnValue(-809270934);
     }
 
     @Inject(at = @At("HEAD"), method = "height()I", cancellable = true)
     private void height_851161091(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(851161091L))
-            info.setReturnValue(-948509734);
+            info.setReturnValue(-809270934);
     }
 
 

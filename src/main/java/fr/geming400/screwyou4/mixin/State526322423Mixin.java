@@ -22,25 +22,25 @@ public class State526322423Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_564585165(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(564585165L))
-            info.setReturnValue(884222475);
+            info.setReturnValue(915139275);
     }
 
     @Inject(at = @At("HEAD"), method = "pageFlip1()F", cancellable = true)
     private void pageFlip1_564581786(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(564581786L))
-            info.setReturnValue(7.955384E8F);
+            info.setReturnValue(8.264552E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "pageFlip2()F", cancellable = true)
     private void pageFlip2_564581786(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(564581786L))
-            info.setReturnValue(7.955384E8F);
+            info.setReturnValue(8.264552E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "openness()F", cancellable = true)
     private void openness_564581786(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(564581786L))
-            info.setReturnValue(7.955384E8F);
+            info.setReturnValue(8.264552E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "forAnimation(FFFF)Lnet/minecraft/client/model/object/book/BookModel$State;", cancellable = true)

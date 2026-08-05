@@ -22,13 +22,13 @@ public class OnlyWithComponent371352245Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__764107730(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-764107730L))
-            info.setReturnValue("+da^f巼O8<)05'q?2$MB!fKd:cu:Kr40scZ{$䧭K(5be'B,'IjjSlZpoOTK/篼v5o%ࢳ1_qbpq❆#s%2.Z9Y");
+            info.setReturnValue("+da^f\u5DFCO8<)05'q?2$MB!fKd:cu:Kr40scZ{$\u49EDK(5be'B,'IjjSlZpoOTK/\u7BFCv5o%\u08B31_qbpq\u2746#s%2.Z9Y");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_409614987(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(409614987L))
-            info.setReturnValue(-1548014602);
+            info.setReturnValue(2103876594);
     }
 
     @Inject(at = @At("HEAD"), method = "component()Lnet/minecraft/core/component/DataComponentType;", cancellable = true)

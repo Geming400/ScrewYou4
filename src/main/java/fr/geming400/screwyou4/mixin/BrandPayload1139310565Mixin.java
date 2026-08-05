@@ -28,13 +28,13 @@ public class BrandPayload1139310565Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1177573307(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1177573307L))
-            info.setReturnValue(-298758531);
+            info.setReturnValue(-562595331);
     }
 
     @Inject(at = @At("HEAD"), method = "brand()Ljava/lang/String;", cancellable = true)
     private void brand_3850094(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(3850094L))
-            info.setReturnValue("e|}AWꋄd)ze6+peGUJn7O+`})=f``i4e|ᢝ4YgJ,W193;d3FB70b#!xt[0tv07Xm!_Db㮚");
+            info.setReturnValue("e|}AW\uA2C4d)ze6+peGUJn7O+`})=f``i4e|\u189D4YgJ,W193;d3FB70b#!xt[0tv07Xm!_Db\u3B9A");
     }
 
 

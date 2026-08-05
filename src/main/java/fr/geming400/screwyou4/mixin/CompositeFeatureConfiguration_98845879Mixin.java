@@ -16,13 +16,13 @@ public class CompositeFeatureConfiguration_98845879Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__1036614097(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1036614097L))
-            info.setReturnValue(";f:皁?jsV*hT[1E殳C855;foU`붂obY/KyK8K;瓻 rᇕJ쁪`8N[kx*$Tq咼FXF졾\"3xTcK%eU)5巋Ⴕ-`*YU]wZ%骚n");
+            info.setReturnValue(";f:\u7681?jsV*hT[1E\u6BB3C855;foU`\uBD82obY/KyK8K;\u74FB r\u11D5J\uC06A`8N[kx*$Tq\u54BCFXF\uC87E\"3xTcK%eU)5\u5DCB\u10B5-`*YU]wZ%\u9A9An");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_137108620(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(137108620L))
-            info.setReturnValue(-1558559624);
+            info.setReturnValue(-2122794224);
     }
 
     @Inject(at = @At("HEAD"), method = "features()Lnet/minecraft/core/HolderSet;", cancellable = true)

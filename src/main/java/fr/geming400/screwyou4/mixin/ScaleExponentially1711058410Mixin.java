@@ -22,13 +22,13 @@ public class ScaleExponentially1711058410Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_575598435(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(575598435L))
-            info.setReturnValue("fxEABL]-x}聭q({naZ_IpOV8F!諻2UJ7ꎙ寊_PZrNꛎry':淵N'*H");
+            info.setReturnValue("fxEABL]-x}\u806Dq({naZ_IpOV8F!\u8AFB2UJ7\uA399\u5BCA_PZrN\uA6CEry':\u6DF5N'*H");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1749321152(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1749321152L))
-            info.setReturnValue(-1326321973);
+            info.setReturnValue(-1863674173);
     }
 
     @Inject(at = @At("HEAD"), method = "exponent()Lnet/minecraft/world/item/enchantment/LevelBasedValue;", cancellable = true)
@@ -40,7 +40,7 @@ public class ScaleExponentially1711058410Mixin {
     @Inject(at = @At("HEAD"), method = "process(ILnet/minecraft/util/RandomSource;F)F", cancellable = true)
     private void process__1692316900(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1692316900L))
-            info.setReturnValue(8.112676E8F);
+            info.setReturnValue(2.739154E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)

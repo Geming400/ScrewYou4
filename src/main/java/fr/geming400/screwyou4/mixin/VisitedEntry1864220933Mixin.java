@@ -28,13 +28,13 @@ public class VisitedEntry1864220933Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_728760958(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(728760958L))
-            info.setReturnValue("DBj十䠊");
+            info.setReturnValue("DBj\u5341\u480A");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1902483675(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1902483675L))
-            info.setReturnValue(-1359825434);
+            info.setReturnValue(-644987634);
     }
 
 

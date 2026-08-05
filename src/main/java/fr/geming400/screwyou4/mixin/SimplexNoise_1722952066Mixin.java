@@ -10,13 +10,13 @@ public class SimplexNoise_1722952066Mixin {
         @Inject(at = @At("HEAD"), method = "getValue(DD)D", cancellable = true)
     private void getValue_579291938(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(579291938L))
-            info.setReturnValue(4.748879008493422E8D);
+            info.setReturnValue(7.713442008493422E8D);
     }
 
     @Inject(at = @At("HEAD"), method = "getValue(DDD)D", cancellable = true)
     private void getValue_652527894(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(652527894L))
-            info.setReturnValue(4.748879000527557E8D);
+            info.setReturnValue(7.713442000527557E8D);
     }
 
 

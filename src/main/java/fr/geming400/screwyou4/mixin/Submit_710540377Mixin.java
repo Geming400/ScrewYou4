@@ -22,13 +22,13 @@ public class Submit_710540377Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__424919599(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-424919599L))
-            info.setReturnValue("Pk-\"m翳:,a(ygD%QPtlt!9t'15%꽳Tmn;TO4f{?9wTFl[wD@帾C鴦1yh^m9-컝<LC[#|MB.?$p]NU<nKน");
+            info.setReturnValue("Pk-\"m\u7FF3:,a(ygD%QPtlt!9t'15%\uAF73Tmn;TO4f{?9wTFl[wD@\u5E3EC\u9D261yh^m9-\uCEDD<LC[#|MB.?$p]NU<nK\u0E19");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_748803118(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(748803118L))
-            info.setReturnValue(-658004326);
+            info.setReturnValue(-766000426);
     }
 
     @Inject(at = @At("HEAD"), method = "featureType()Lnet/minecraft/client/renderer/feature/FeatureRendererType;", cancellable = true)

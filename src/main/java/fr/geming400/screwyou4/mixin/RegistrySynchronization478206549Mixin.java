@@ -13,14 +13,14 @@ public class RegistrySynchronization478206549Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "networkSafeRegistries(Lnet/minecraft/core/LayeredRegistryAccess;)Ljava/util/stream/Stream;", cancellable = true)
-    private static void networkSafeRegistries__696034116(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "networkedRegistries(Lnet/minecraft/core/LayeredRegistryAccess;)Ljava/util/stream/Stream;", cancellable = true)
+    private static void networkedRegistries__696034116(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-696034116L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "networkedRegistries(Lnet/minecraft/core/LayeredRegistryAccess;)Ljava/util/stream/Stream;", cancellable = true)
-    private static void networkedRegistries__696034116(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "networkSafeRegistries(Lnet/minecraft/core/LayeredRegistryAccess;)Ljava/util/stream/Stream;", cancellable = true)
+    private static void networkSafeRegistries__696034116(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-696034116L))
             info.setReturnValue(null);
     }

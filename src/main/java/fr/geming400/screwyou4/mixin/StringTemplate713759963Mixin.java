@@ -16,13 +16,13 @@ public class StringTemplate713759963Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__421700012(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-421700012L))
-            info.setReturnValue("Kx/Wxb茍魞W,Z1塅u`F߅[u\",⇘|s+tnW2}ᬤĨ=9hY尕m댆'?9t=");
+            info.setReturnValue("Kx/Wxb\u830D\u9B5EW,Z1\u5845u`F\u07C5[u\",\u21D8|s+tnW2}\u1B24\u0128=9hY\u5C15m\uB306'?9t=");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_752022705(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(752022705L))
-            info.setReturnValue(-148517345);
+            info.setReturnValue(-137314245);
     }
 
     @Inject(at = @At("HEAD"), method = "segments()Ljava/util/List;", cancellable = true)
@@ -37,22 +37,22 @@ public class StringTemplate713759963Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "variables()Ljava/util/List;", cancellable = true)
-    private void variables__1954870517(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1954870517L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "substitute(Ljava/util/List;)Ljava/lang/String;", cancellable = true)
     private void substitute_1745480147(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1745480147L))
-            info.setReturnValue("/kF!>Ys}#;?k29RJ⃤es뢗?bl-M7C0V%'^bt");
+            info.setReturnValue("/kF!>Ys}#;?k29RJ\u20E4es\uB897?bl-M7C0V%'^bt");
     }
 
     @Inject(at = @At("HEAD"), method = "isValidVariableName(Ljava/lang/String;)Z", cancellable = true)
     private static void isValidVariableName_1866125204(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1866125204L))
             info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "variables()Ljava/util/List;", cancellable = true)
+    private void variables__1954870517(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1954870517L))
+            info.setReturnValue(null);
     }
 
 

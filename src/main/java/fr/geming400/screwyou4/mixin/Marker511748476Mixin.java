@@ -28,13 +28,13 @@ public class Marker511748476Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__623711499(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-623711499L))
-            info.setReturnValue("2Qe︉圱ൿ<vP#|_VV&74:frRl9繸La掁VꡗG>RKt4NF+1G뤰J\"-jz73B{8,bhᎼ20.ꙙ刂?ﳒWBH㥗Npc(쿅#C0ᮿdewJX");
+            info.setReturnValue("2Qe\uFE09\u5731\u0D7F<vP#|_VV&74:frRl9\u7E78La\u6381V\uA857G>RKt4NF+1G\uB930J\"-jz73B{8,bh\u13BC20.\uA659\u5202?\uFCD2WBH\u3957Npc(\uCFC5#C0\u1BBFdewJX");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_550011218(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(550011218L))
-            info.setReturnValue(2018148862);
+            info.setReturnValue(1310729962);
     }
 
     @Inject(at = @At("HEAD"), method = "parse(Lnet/minecraft/util/parsing/packrat/ParseState;Lnet/minecraft/util/parsing/packrat/Scope;Lnet/minecraft/util/parsing/packrat/Control;)Z", cancellable = true)

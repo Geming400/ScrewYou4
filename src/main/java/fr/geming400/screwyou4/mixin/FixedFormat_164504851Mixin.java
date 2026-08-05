@@ -28,13 +28,13 @@ public class FixedFormat_164504851Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__970955125(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-970955125L))
-            info.setReturnValue("}zegIw>M AE闾!!o0()G7D}3芸 iX");
+            info.setReturnValue("}zegIw>M AE\u95FE!!o0()G7D}3\u82B8 iX");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_202767592(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(202767592L))
-            info.setReturnValue(1851562779);
+            info.setReturnValue(2032070779);
     }
 
     @Inject(at = @At("HEAD"), method = "format(I)Lnet/minecraft/network/chat/MutableComponent;", cancellable = true)

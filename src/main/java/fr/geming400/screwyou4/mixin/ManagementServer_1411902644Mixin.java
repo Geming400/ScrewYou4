@@ -16,12 +16,18 @@ public class ManagementServer_1411902644Mixin {
     @Inject(at = @At("HEAD"), method = "getPort()I", cancellable = true)
     private void getPort_1450164889(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1450164889L))
-            info.setReturnValue(1674744701);
+            info.setReturnValue(-2116572295);
     }
 
     @Inject(at = @At("HEAD"), method = "tick()V", cancellable = true)
     private void tick_1450177382(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1450177382L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "onDisconnected(Lnet/minecraft/server/jsonrpc/Connection;)V", cancellable = true)
+    private void onDisconnected__1351638827(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1351638827L))
             info.cancel();
     }
 
@@ -37,21 +43,15 @@ public class ManagementServer_1411902644Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "startWithTls(Lnet/minecraft/server/jsonrpc/internalapi/MinecraftApi;Lio/netty/handler/ssl/SslContext;)V", cancellable = true)
-    private void startWithTls_973827150(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(973827150L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "startWithoutTls(Lnet/minecraft/server/jsonrpc/internalapi/MinecraftApi;)V", cancellable = true)
     private void startWithoutTls_1984424724(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1984424724L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "onDisconnected(Lnet/minecraft/server/jsonrpc/Connection;)V", cancellable = true)
-    private void onDisconnected__1351638827(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1351638827L))
+    @Inject(at = @At("HEAD"), method = "startWithTls(Lnet/minecraft/server/jsonrpc/internalapi/MinecraftApi;Lio/netty/handler/ssl/SslContext;)V", cancellable = true)
+    private void startWithTls_973827150(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(973827150L))
             info.cancel();
     }
 

@@ -16,13 +16,13 @@ public class RegistryData442720475Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__692739500(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-692739500L))
-            info.setReturnValue("p W,eyQ節\"SozKx㯎}혥Mm&}(b/*k=cFﱲ仓46f,7(cRf$訕e,)괓s:鰡1x6lE");
+            info.setReturnValue("p W,eyQ\uFA56\"SozKx\u3BCE}\uD625Mm&}(b/*k=cF\uFC72\u4ED346f,7(cRf$\u8A15e,)\uAD13s:\u9C211x6lE");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_480983217(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(480983217L))
-            info.setReturnValue(349671539);
+            info.setReturnValue(118805339);
     }
 
     @Inject(at = @At("HEAD"), method = "key()Lnet/minecraft/resources/ResourceKey;", cancellable = true)

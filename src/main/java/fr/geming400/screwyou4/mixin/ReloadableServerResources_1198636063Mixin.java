@@ -13,21 +13,9 @@ public class ReloadableServerResources_1198636063Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getRecipeManager()Lnet/minecraft/world/item/crafting/RecipeManager;", cancellable = true)
-    private void getRecipeManager__734040347(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-734040347L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getAdvancements()Lnet/minecraft/server/ServerAdvancementManager;", cancellable = true)
-    private void getAdvancements_1409646618(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1409646618L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getCommands()Lnet/minecraft/commands/Commands;", cancellable = true)
-    private void getCommands__484763673(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-484763673L))
+    @Inject(at = @At("HEAD"), method = "loadResources(Lnet/minecraft/server/packs/resources/ResourceManager;Lnet/minecraft/core/LayeredRegistryAccess;Ljava/util/List;Lnet/minecraft/world/flag/FeatureFlagSet;Lnet/minecraft/commands/Commands$CommandSelection;Lnet/minecraft/server/permissions/PermissionSet;Ljava/util/concurrent/Executor;Ljava/util/concurrent/Executor;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
+    private static void loadResources__1385571300(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1385571300L))
             info.setReturnValue(null);
     }
 
@@ -43,9 +31,21 @@ public class ReloadableServerResources_1198636063Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "loadResources(Lnet/minecraft/server/packs/resources/ResourceManager;Lnet/minecraft/core/LayeredRegistryAccess;Ljava/util/List;Lnet/minecraft/world/flag/FeatureFlagSet;Lnet/minecraft/commands/Commands$CommandSelection;Lnet/minecraft/server/permissions/PermissionSet;Ljava/util/concurrent/Executor;Ljava/util/concurrent/Executor;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
-    private static void loadResources__1385571300(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1385571300L))
+    @Inject(at = @At("HEAD"), method = "getRecipeManager()Lnet/minecraft/world/item/crafting/RecipeManager;", cancellable = true)
+    private void getRecipeManager__734040347(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-734040347L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getAdvancements()Lnet/minecraft/server/ServerAdvancementManager;", cancellable = true)
+    private void getAdvancements_1409646618(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1409646618L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getCommands()Lnet/minecraft/commands/Commands;", cancellable = true)
+    private void getCommands__484763673(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-484763673L))
             info.setReturnValue(null);
     }
 

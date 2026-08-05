@@ -22,25 +22,19 @@ public class ChunkSectionLayer_172302725Mixin {
     @Inject(at = @At("HEAD"), method = "label()Ljava/lang/String;", cancellable = true)
     private void label__963157747(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-963157747L))
-            info.setReturnValue("!@K7'Z[ꭧ 鼿\"u(O殺QX곣/n?LBMr\"");
+            info.setReturnValue("!@K7'Z[\uAB67 \u9F3F\"u(O\uFA96QX\uACE3/n?LBMr\\"");
     }
 
     @Inject(at = @At("HEAD"), method = "bufferSize()I", cancellable = true)
     private void bufferSize_210564970(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(210564970L))
-            info.setReturnValue(-748069641);
+            info.setReturnValue(-143051141);
     }
 
     @Inject(at = @At("HEAD"), method = "vertexFormat()Lcom/mojang/blaze3d/vertex/VertexFormat;", cancellable = true)
     private void vertexFormat__657505321(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-657505321L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "byTransparency(Lcom/mojang/blaze3d/platform/Transparency;)Lnet/minecraft/client/renderer/chunk/ChunkSectionLayer;", cancellable = true)
-    private static void byTransparency_1128571659(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1128571659L))
-            info.setReturnValue(net.minecraft.client.renderer.chunk.ChunkSectionLayer.CUTOUT);
     }
 
     @Inject(at = @At("HEAD"), method = "translucent()Z", cancellable = true)
@@ -53,6 +47,12 @@ public class ChunkSectionLayer_172302725Mixin {
     private void pipeline_1169710936(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1169710936L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "byTransparency(Lcom/mojang/blaze3d/platform/Transparency;)Lnet/minecraft/client/renderer/chunk/ChunkSectionLayer;", cancellable = true)
+    private static void byTransparency_1128571659(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1128571659L))
+            info.setReturnValue(net.minecraft.client.renderer.chunk.ChunkSectionLayer.CUTOUT);
     }
 
 

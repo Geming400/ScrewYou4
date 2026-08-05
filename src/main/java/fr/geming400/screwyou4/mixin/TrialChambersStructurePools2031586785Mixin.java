@@ -16,7 +16,7 @@ public class TrialChambersStructurePools2031586785Mixin {
     @Inject(at = @At("HEAD"), method = "spawner(Ljava/lang/String;)Ljava/lang/String;", cancellable = true)
     private static void spawner__1050638440(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1050638440L))
-            info.setReturnValue("$`$3A|l8:8U:虜횰36zB*7-ௐiVI9瘕Zძ}R|D<Ajc{DYtiuD瀇^䍜噍㤃귕q32CWU0cgo^;3<*=:+낞FI$?]xI0HVvW^q");
+            info.setReturnValue("$`$3A|l8:8U:\uF936\uD6B036zB*7-\u0BD0iVI9\u7615Z\u10EB}R|D<Ajc{DYtiuD\u7007^\u435C\u564D\u3903\uADD5q32CWU0cgo^;3<*=:+\uB09EFI$?]xI0HVvW^q");
     }
 
 

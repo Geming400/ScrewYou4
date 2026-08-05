@@ -19,15 +19,15 @@ public class ParticleArgument_1443587891Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "readParticle(Lcom/mojang/brigadier/StringReader;Lnet/minecraft/core/HolderLookup$Provider;)Lnet/minecraft/core/particles/ParticleOptions;", cancellable = true)
-    private static void readParticle__1480847016(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1480847016L))
+    @Inject(at = @At("HEAD"), method = "particle(Lnet/minecraft/commands/CommandBuildContext;)Lnet/minecraft/commands/arguments/ParticleArgument;", cancellable = true)
+    private static void particle__1768783339(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1768783339L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getExamples()Ljava/util/Collection;", cancellable = true)
-    private void getExamples__370060382(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-370060382L))
+    @Inject(at = @At("HEAD"), method = "readParticle(Lcom/mojang/brigadier/StringReader;Lnet/minecraft/core/HolderLookup$Provider;)Lnet/minecraft/core/particles/ParticleOptions;", cancellable = true)
+    private static void readParticle__1480847016(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1480847016L))
             info.setReturnValue(null);
     }
 
@@ -37,9 +37,9 @@ public class ParticleArgument_1443587891Mixin {
             info.setReturnValue(new java.util.concurrent.CompletableFuture());
     }
 
-    @Inject(at = @At("HEAD"), method = "particle(Lnet/minecraft/commands/CommandBuildContext;)Lnet/minecraft/commands/arguments/ParticleArgument;", cancellable = true)
-    private static void particle__1768783339(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1768783339L))
+    @Inject(at = @At("HEAD"), method = "getExamples()Ljava/util/Collection;", cancellable = true)
+    private void getExamples__370060382(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-370060382L))
             info.setReturnValue(null);
     }
 

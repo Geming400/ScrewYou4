@@ -16,7 +16,7 @@ public class SwitchCase_1541219814Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_405759838(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(405759838L))
-            info.setReturnValue("v볗dJmRJꭰꕟᵢiA᠒g}펩IPc8<&jp柮랠_1P틟>sD5ຽ:HQSM7}2;j ⧮G钧z￼ N,U뼅jku2g");
+            info.setReturnValue("v\uBCD7dJmRJ\uAB70\uA55F\u1D62iA\u1812g}\uD3A9IPc8<&jp\u67EE\uB7A0_1P\uD2DF>sD5\u0EBD:HQSM7}2;j \u29EEG\u94A7z\uFFFC N,U\uBF05jku2g");
     }
 
     @Inject(at = @At("HEAD"), method = "values()Ljava/util/List;", cancellable = true)
@@ -28,7 +28,7 @@ public class SwitchCase_1541219814Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1579482555(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1579482555L))
-            info.setReturnValue(-909131746);
+            info.setReturnValue(-174507746);
     }
 
     @Inject(at = @At("HEAD"), method = "model()Lnet/minecraft/client/renderer/block/model/BlockModel$Unbaked;", cancellable = true)

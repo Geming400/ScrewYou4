@@ -10,13 +10,13 @@ public class AxisDirection_689903389Mixin {
         @Inject(at = @At("HEAD"), method = "getName()Ljava/lang/String;", cancellable = true)
     private void getName__445557083(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-445557083L))
-            info.setReturnValue("H硛po$dZ nG6W<*'/E'Wd(dE@_aB곀^然lLDhti@q䎛桹WV겊S.*");
+            info.setReturnValue("H\u785Bpo$dZ nG6W<*'/E'Wd(dE@_aB\uACC0^\u7136lLDhti@q\u439B\u6879WV\uAC8AS.*");
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__445557083(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-445557083L))
-            info.setReturnValue("H硛po$dZ nG6W<*'/E'Wd(dE@_aB곀^然lLDhti@q䎛桹WV겊S.*");
+            info.setReturnValue("H\u785Bpo$dZ nG6W<*'/E'Wd(dE@_aB\uACC0^\u7136lLDhti@q\u439B\u6879WV\uAC8AS.*");
     }
 
     @Inject(at = @At("HEAD"), method = "values()[Lnet/minecraft/core/Direction$AxisDirection;", cancellable = true)
@@ -34,7 +34,7 @@ public class AxisDirection_689903389Mixin {
     @Inject(at = @At("HEAD"), method = "getStep()I", cancellable = true)
     private void getStep_728165634(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(728165634L))
-            info.setReturnValue(-1054821136);
+            info.setReturnValue(-1378991936);
     }
 
     @Inject(at = @At("HEAD"), method = "opposite()Lnet/minecraft/core/Direction$AxisDirection;", cancellable = true)

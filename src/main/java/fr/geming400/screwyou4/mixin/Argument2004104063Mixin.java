@@ -10,13 +10,13 @@ public class Argument2004104063Mixin {
         @Inject(at = @At("HEAD"), method = "name()Ljava/lang/String;", cancellable = true)
     private void name_868643592(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(868643592L))
-            info.setReturnValue("F];[<O/>Xգ3");
+            info.setReturnValue("F];[<O/>X\u05633");
     }
 
     @Inject(at = @At("HEAD"), method = "value()Ljava/lang/String;", cancellable = true)
     private void value_868643592(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(868643592L))
-            info.setReturnValue("F];[<O/>Xգ3");
+            info.setReturnValue("F];[<O/>X\u05633");
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
@@ -34,7 +34,7 @@ public class Argument2004104063Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2042366805(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2042366805L))
-            info.setReturnValue(890188041);
+            info.setReturnValue(979954441);
     }
 
     @Inject(at = @At("HEAD"), method = "node()Lcom/mojang/brigadier/tree/ArgumentCommandNode;", cancellable = true)

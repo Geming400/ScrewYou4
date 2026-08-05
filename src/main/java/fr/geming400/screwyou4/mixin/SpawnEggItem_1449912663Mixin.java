@@ -25,15 +25,21 @@ public class SpawnEggItem_1449912663Mixin {
             info.setReturnValue(false);
     }
 
+    @Inject(at = @At("HEAD"), method = "useOn(Lnet/minecraft/world/item/context/UseOnContext;)Lnet/minecraft/world/InteractionResult;", cancellable = true)
+    private void useOn__458930593(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-458930593L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "byId(Lnet/minecraft/world/entity/EntityType;)Ljava/util/Optional;", cancellable = true)
     private static void byId_1632569309(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1632569309L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "useOn(Lnet/minecraft/world/item/context/UseOnContext;)Lnet/minecraft/world/InteractionResult;", cancellable = true)
-    private void useOn__458930593(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-458930593L))
+    @Inject(at = @At("HEAD"), method = "spawnOffspringFromSpawnEgg(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/entity/Mob;Lnet/minecraft/world/entity/EntityType;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/world/item/ItemStack;)Ljava/util/Optional;", cancellable = true)
+    private static void spawnOffspringFromSpawnEgg_100173430(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(100173430L))
             info.setReturnValue(null);
     }
 
@@ -41,12 +47,6 @@ public class SpawnEggItem_1449912663Mixin {
     private void shouldPrintOpWarning__1033519763(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1033519763L))
             info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "spawnOffspringFromSpawnEgg(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/entity/Mob;Lnet/minecraft/world/entity/EntityType;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/world/item/ItemStack;)Ljava/util/Optional;", cancellable = true)
-    private static void spawnOffspringFromSpawnEgg_100173430(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(100173430L))
-            info.setReturnValue(null);
     }
 
 

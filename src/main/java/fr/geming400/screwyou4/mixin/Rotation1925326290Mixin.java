@@ -22,7 +22,7 @@ public class Rotation1925326290Mixin {
     @Inject(at = @At("HEAD"), method = "rotate(II)I", cancellable = true)
     private void rotate_929434328(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(929434328L))
-            info.setReturnValue(-271807111);
+            info.setReturnValue(-262874311);
     }
 
     @Inject(at = @At("HEAD"), method = "rotate(Lnet/minecraft/core/Direction;)Lnet/minecraft/core/Direction;", cancellable = true)
@@ -46,7 +46,7 @@ public class Rotation1925326290Mixin {
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName_789865819(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(789865819L))
-            info.setReturnValue("k3RKrFrE6D&J﹛$2ndW䂸䏥\\"IH,a4樜x7n'KwRqO9gzi@ꋫ[颙cw+ CJ`8iDC1#qEJ\"ᘘ<ik9U$j>_;ᎹKve(O:3[DDf奨X5E{J3y");
+            info.setReturnValue("k3RKrFrE6D&J\uFE5B$2ndW\u40B8\u43E5\\\"IH,a4\u6A1Cx7n'KwRqO9gzi@\uA2EB[\u9899cw+ CJ`8iDC1#qEJ\"\u1618<ik9U$j>_;\u13B9Kve(O:3[DDf\u5968X5E{J3y");
     }
 
     @Inject(at = @At("HEAD"), method = "getShuffled(Lnet/minecraft/util/RandomSource;)Ljava/util/List;", cancellable = true)

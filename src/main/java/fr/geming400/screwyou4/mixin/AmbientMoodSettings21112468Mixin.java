@@ -16,19 +16,13 @@ public class AmbientMoodSettings21112468Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__1114347507(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1114347507L))
-            info.setReturnValue("(Ob@_UsjR>Y- 3s㙭");
+            info.setReturnValue("(Ob@_UsjR>Y- 3s\u366D");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_59375210(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(59375210L))
-            info.setReturnValue(-1489473707);
-    }
-
-    @Inject(at = @At("HEAD"), method = "tickDelay()I", cancellable = true)
-    private void tickDelay_59374714(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(59374714L))
-            info.setReturnValue(-1286326288);
+            info.setReturnValue(-1646013707);
     }
 
     @Inject(at = @At("HEAD"), method = "soundEvent()Lnet/minecraft/core/Holder;", cancellable = true)
@@ -37,16 +31,22 @@ public class AmbientMoodSettings21112468Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "tickDelay()I", cancellable = true)
+    private void tickDelay_59374714(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(59374714L))
+            info.setReturnValue(-1442866288);
+    }
+
     @Inject(at = @At("HEAD"), method = "blockSearchExtent()I", cancellable = true)
     private void blockSearchExtent_59374714(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(59374714L))
-            info.setReturnValue(-1286326288);
+            info.setReturnValue(-1442866288);
     }
 
     @Inject(at = @At("HEAD"), method = "soundPositionOffset()D", cancellable = true)
     private void soundPositionOffset_59369909(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(59369909L))
-            info.setReturnValue(5.980240003262937E8D);
+            info.setReturnValue(4.4148400032629365E8D);
     }
 
 

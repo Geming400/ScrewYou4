@@ -22,7 +22,7 @@ public class FileAccessProvider1352661977Mixin {
     @Inject(at = @At("HEAD"), method = "dataVersion()I", cancellable = true)
     private void dataVersion_1390924223(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1390924223L))
-            info.setReturnValue(93362389);
+            info.setReturnValue(128159289);
     }
 
     @Inject(at = @At("HEAD"), method = "baseDirectory()Ljava/lang/ScopedValue;", cancellable = true)

@@ -10,7 +10,7 @@ public class MetadataSectionType_1439041422Mixin {
         @Inject(at = @At("HEAD"), method = "name()Ljava/lang/String;", cancellable = true)
     private void name_303580950(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(303580950L))
-            info.setReturnValue("(q;0r[Kv硙O㿪,>脆)ihjZ骇W.#Uq`lLz)nO\"vdRu\"M曮}19vrzygowW");
+            info.setReturnValue("(q;0r[Kv\u7859O\u3FEA,>\u8106)ihjZ\u9A87W.#Uq`lLz)nO\"vdRu\"M\u66EE}19vrzygowW");
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
@@ -22,13 +22,13 @@ public class MetadataSectionType_1439041422Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_303581446(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(303581446L))
-            info.setReturnValue("?TLbXᳶ%O걀61ᶞ{Vfo縮lLZ2竖#@E╉郟9M1l.S.涫:N2s,78Zq#ၑC0f⚣'U^W>E^YV噈N46)4k!h娇]cB`:4YY^y0uWq/");
+            info.setReturnValue("?TLbX\u1CF6%O\uAC4061\u1D9E{Vfo\u7E2ElLZ2\u7AD6#@E\u2549\u90DF9M1l.S.\u6DAB:N2s,78Zq#\u1051C0f\u26A3'U^W>E^YV\u5648N46)4k!h\u5A07]cB`:4YY^y0uWq/");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1477304163(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1477304163L))
-            info.setReturnValue(-687789377);
+            info.setReturnValue(-737790777);
     }
 
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/Codec;", cancellable = true)

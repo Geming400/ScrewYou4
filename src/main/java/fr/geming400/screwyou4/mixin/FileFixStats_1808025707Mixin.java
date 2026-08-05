@@ -16,19 +16,19 @@ public class FileFixStats_1808025707Mixin {
     @Inject(at = @At("HEAD"), method = "getProgress()F", cancellable = true)
     private void getProgress_1846285069(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1846285069L))
-            info.setReturnValue(5.83007E8F);
-    }
-
-    @Inject(at = @At("HEAD"), method = "finishedOperations()I", cancellable = true)
-    private void finishedOperations_1846287952(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1846287952L))
-            info.setReturnValue(1106323492);
+            info.setReturnValue(6.529339E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "totalOperations()I", cancellable = true)
     private void totalOperations_1846287952(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1846287952L))
-            info.setReturnValue(1106323492);
+            info.setReturnValue(1176250392);
+    }
+
+    @Inject(at = @At("HEAD"), method = "finishedOperations()I", cancellable = true)
+    private void finishedOperations_1846287952(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1846287952L))
+            info.setReturnValue(1176250392);
     }
 
 

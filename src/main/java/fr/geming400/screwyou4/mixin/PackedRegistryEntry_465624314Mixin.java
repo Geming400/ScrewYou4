@@ -16,13 +16,13 @@ public class PackedRegistryEntry_465624314Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__669835662(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-669835662L))
-            info.setReturnValue("A깔頚<?hur9;BKy#R$TGx|e**SPgZsy\"%xtvyh2r衢&H䂿SnY硨Q>lNhd:;w(8'j7l0Q$?Sၘo穢B,*;X焧⸑,");
+            info.setReturnValue("A\uAE54\u981A<?hur9;BKy#R$TGx|e**SPgZsy\"%xtvyh2r\u8862&H\u40BFSnY\u7868Q>lNhd:;w(8'j7l0Q$?S\u1058o\u7A62B,*;X\u7127\u2E11,");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_503887055(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(503887055L))
-            info.setReturnValue(-679729060);
+            info.setReturnValue(-1136543360);
     }
 
     @Inject(at = @At("HEAD"), method = "data()Ljava/util/Optional;", cancellable = true)

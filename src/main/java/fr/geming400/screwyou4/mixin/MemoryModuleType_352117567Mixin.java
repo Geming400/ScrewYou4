@@ -10,7 +10,7 @@ public class MemoryModuleType_352117567Mixin {
         @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__783342905(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-783342905L))
-            info.setReturnValue("?(ho㹼ZEꐜCym>nOac1aXK_=vN'@?鱍y됋ZMF$UkOdl=Fp'剬O㢱觅,?=fkE5v@g1,fql(ef淤");
+            info.setReturnValue("?(ho\u3E7CZE\uA41CCym>nOac1aXK_=vN'@?\u9C4Dy\uB40BZMF$UkOdl=Fp'\u526CO\u38B1\u89C5,?=fkE5v@g1,fql(ef\u6DE4");
     }
 
     @Inject(at = @At("HEAD"), method = "getCodec()Ljava/util/Optional;", cancellable = true)

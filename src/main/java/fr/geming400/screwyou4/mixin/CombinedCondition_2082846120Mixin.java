@@ -16,13 +16,13 @@ public class CombinedCondition_2082846120Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_947386144(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(947386144L))
-            info.setReturnValue("I7ZHGHrs0uNUajmM$xX:'H@:蘄)>vOE쐧?I|8H釧禰E/亊UWLlQ=a;R濫U'`s{pꪐD}切}昦7`h");
+            info.setReturnValue("I7ZHGHrs0uNUajmM$xX:'H@:\u8604)>vOE\uC427?I|8H\u91E7\u79B0E/\u4E8AUWLlQ=a;R\uF922U'`s{p\uAA90D}\uFA00}\u66267`h");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2121108861(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2121108861L))
-            info.setReturnValue(1626839514);
+            info.setReturnValue(1791359514);
     }
 
     @Inject(at = @At("HEAD"), method = "instantiate(Lnet/minecraft/world/level/block/state/StateDefinition;)Ljava/util/function/Predicate;", cancellable = true)

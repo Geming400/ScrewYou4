@@ -16,13 +16,13 @@ public class FireworkExplosionPredicate1052693811Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__82766164(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-82766164L))
-            info.setReturnValue("%\"筵D@mJ8뒪'Q;U딦麧");
+            info.setReturnValue("%\"\u7B75D@mJ8\uB4AA'Q;U\uB526\u9EA7");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1090956553(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1090956553L))
-            info.setReturnValue(962241717);
+            info.setReturnValue(1324126517);
     }
 
     @Inject(at = @At("HEAD"), method = "componentType()Lnet/minecraft/core/component/DataComponentType;", cancellable = true)

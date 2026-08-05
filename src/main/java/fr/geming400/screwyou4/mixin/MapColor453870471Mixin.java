@@ -22,25 +22,25 @@ public class MapColor453870471Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__681589504(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-681589504L))
-            info.setReturnValue("3QSmA3[)y縋煏T-H`6垘,_}-궔n#ౚ9sUDfPXP;q2*}W貹.Ul;39!;䢃긳,xcf嗈뮏^1<x[WTfxx.;5<)_[2");
+            info.setReturnValue("3QSmA3[)y\u7E0B\u714FT-H`6\u5798,_}-\uAD94n#\u0C5A9sUDfPXP;q2*}W\u8CB9.Ul;39!;\u4883\uAE33,xcf\u55C8\uBB8F^1<x[WTfxx.;5<)_[2");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_492133213(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(492133213L))
-            info.setReturnValue(-2081739902);
+            info.setReturnValue(1672866294);
     }
 
     @Inject(at = @At("HEAD"), method = "calculate(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/client/multiplayer/ClientLevel;Lnet/minecraft/world/entity/LivingEntity;)I", cancellable = true)
     private void calculate__202442755(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-202442755L))
-            info.setReturnValue(-2092170340);
+            info.setReturnValue(1662435856);
     }
 
     @Inject(at = @At("HEAD"), method = "defaultColor()I", cancellable = true)
     private void defaultColor_492132717(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(492132717L))
-            info.setReturnValue(-1903216412);
+            info.setReturnValue(1851389784);
     }
 
 

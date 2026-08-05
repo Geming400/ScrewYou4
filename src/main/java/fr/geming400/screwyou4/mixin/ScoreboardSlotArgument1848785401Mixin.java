@@ -25,9 +25,9 @@ public class ScoreboardSlotArgument1848785401Mixin {
             info.setReturnValue(net.minecraft.world.scores.DisplaySlot.SIDEBAR);
     }
 
-    @Inject(at = @At("HEAD"), method = "getExamples()Ljava/util/Collection;", cancellable = true)
-    private void getExamples_35137129(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(35137129L))
+    @Inject(at = @At("HEAD"), method = "displaySlot()Lnet/minecraft/commands/arguments/ScoreboardSlotArgument;", cancellable = true)
+    private static void displaySlot_1415879642(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1415879642L))
             info.setReturnValue(null);
     }
 
@@ -37,9 +37,9 @@ public class ScoreboardSlotArgument1848785401Mixin {
             info.setReturnValue(new java.util.concurrent.CompletableFuture());
     }
 
-    @Inject(at = @At("HEAD"), method = "displaySlot()Lnet/minecraft/commands/arguments/ScoreboardSlotArgument;", cancellable = true)
-    private static void displaySlot_1415879642(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1415879642L))
+    @Inject(at = @At("HEAD"), method = "getExamples()Ljava/util/Collection;", cancellable = true)
+    private void getExamples_35137129(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(35137129L))
             info.setReturnValue(null);
     }
 

@@ -25,10 +25,10 @@ public class ResultContainer1870522358Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "clearContent()V", cancellable = true)
-    private void clearContent_1908797097(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1908797097L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "stillValid(Lnet/minecraft/world/entity/player/Player;)Z", cancellable = true)
+    private void stillValid__1483839448(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1483839448L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "setItem(ILnet/minecraft/world/item/ItemStack;)V", cancellable = true)
@@ -37,22 +37,16 @@ public class ResultContainer1870522358Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getContainerSize()I", cancellable = true)
-    private void getContainerSize_1908784604(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1908784604L))
-            info.setReturnValue(1267876785);
-    }
-
     @Inject(at = @At("HEAD"), method = "removeItemNoUpdate(I)Lnet/minecraft/world/item/ItemStack;", cancellable = true)
     private void removeItemNoUpdate__1030526719(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1030526719L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "setChanged()V", cancellable = true)
-    private void setChanged_1908797097(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1908797097L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "getContainerSize()I", cancellable = true)
+    private void getContainerSize_1908784604(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1908784604L))
+            info.setReturnValue(1496609985);
     }
 
     @Inject(at = @At("HEAD"), method = "setRecipeUsed(Lnet/minecraft/world/item/crafting/RecipeHolder;)V", cancellable = true)
@@ -67,10 +61,16 @@ public class ResultContainer1870522358Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "stillValid(Lnet/minecraft/world/entity/player/Player;)Z", cancellable = true)
-    private void stillValid__1483839448(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1483839448L))
-            info.setReturnValue(false);
+    @Inject(at = @At("HEAD"), method = "clearContent()V", cancellable = true)
+    private void clearContent_1908797097(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1908797097L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "setChanged()V", cancellable = true)
+    private void setChanged_1908797097(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1908797097L))
+            info.cancel();
     }
 
 

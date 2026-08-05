@@ -16,13 +16,13 @@ public class Repairable492991313Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__642468662(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-642468662L))
-            info.setReturnValue("᧤<{]䀰Wꌴ7A셊0QPÍ⦼ ht4TYuꓢWxeL3mn@@Z↼930:]/)#-纞gg3퐀0uccF48`|桦fEZ'nk9{_6S");
+            info.setReturnValue("\u19E4<{]\u4030W\uA3347A\uC14A0QP\u00CD\u29BC ht4TYu\uA4E2WxeL3mn@@Z\u21BC930:]/)#-\u7E9Egg3\uD4000uccF48`|\u6866fEZ'nk9{_6S");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_531254055(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(531254055L))
-            info.setReturnValue(814387788);
+            info.setReturnValue(606537588);
     }
 
     @Inject(at = @At("HEAD"), method = "items()Lnet/minecraft/core/HolderSet;", cancellable = true)

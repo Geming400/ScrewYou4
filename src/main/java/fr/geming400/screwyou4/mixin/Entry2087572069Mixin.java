@@ -16,19 +16,19 @@ public class Entry2087572069Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_952112094(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(952112094L))
-            info.setReturnValue("S.B ^0%n=ufs-X1cqbNMzJ넳丕馾*暝(*X5c2$9U$Zu\"s`7:5ꤿ4*(3rhHhHbPG%쪴a,Q'ᕻw1M+S,9");
+            info.setReturnValue("S.B ^0%n=ufs-X1cqbNMzJ\uB133\u4E15\u99BE*\u669D(*X5c2$9U$Zu\"s`7:5\uA93F4*(3rhHhHbPG%\uCAB4a,Q'\u157Bw1M+S,9");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2125834811(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2125834811L))
-            info.setReturnValue(-766206454);
+            info.setReturnValue(5214046);
     }
 
     @Inject(at = @At("HEAD"), method = "id()Ljava/lang/String;", cancellable = true)
     private void id_952111598(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(952111598L))
-            info.setReturnValue("qz6]KsdtG?Tꕵ\"uh'0OsEUQq");
+            info.setReturnValue("qz6]KsdtG?T\uA575\"uh'0OsEUQq");
     }
 
     @Inject(at = @At("HEAD"), method = "display()Ljava/util/Optional;", cancellable = true)

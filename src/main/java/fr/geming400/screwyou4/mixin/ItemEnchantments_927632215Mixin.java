@@ -10,7 +10,7 @@ public class ItemEnchantments_927632215Mixin {
         @Inject(at = @At("HEAD"), method = "size()I", cancellable = true)
     private void size_965894460(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(965894460L))
-            info.setReturnValue(985079114);
+            info.setReturnValue(1095087614);
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
@@ -22,13 +22,13 @@ public class ItemEnchantments_927632215Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__207828257(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-207828257L))
-            info.setReturnValue("K3V_#J/p@$G跣3iOH<.+}1{BSZ*꿤药QTⰉ,Hh0g<}s&!lhWdNq(Olu焢Cc{ixhkd7t6뙝{K,Q麠RiIeA$9n3+");
+            info.setReturnValue("K3V_#J/p@$G\u8DE33iOH<.+}1{BSZ*\uAFE4\u836FQT\u2C09,Hh0g<}s&!lhWdNq(Olu\u7122Cc{ixhkd7t6\uB65D{K,Q\u9EA0RiIeA$9n3+");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_965894460(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(965894460L))
-            info.setReturnValue(985079114);
+            info.setReturnValue(1095087614);
     }
 
     @Inject(at = @At("HEAD"), method = "isEmpty()Z", cancellable = true)
@@ -52,7 +52,7 @@ public class ItemEnchantments_927632215Mixin {
     @Inject(at = @At("HEAD"), method = "getLevel(Lnet/minecraft/core/Holder;)I", cancellable = true)
     private void getLevel__1820872437(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1820872437L))
-            info.setReturnValue(-118520867);
+            info.setReturnValue(-8512367);
     }
 
     @Inject(at = @At("HEAD"), method = "addToTooltip(Lnet/minecraft/world/item/Item$TooltipContext;Ljava/util/function/Consumer;Lnet/minecraft/world/item/TooltipFlag;Lnet/minecraft/core/component/DataComponentGetter;)V", cancellable = true)

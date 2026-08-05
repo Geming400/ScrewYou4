@@ -10,7 +10,7 @@ public class FixedPriorityQueue1495822195Mixin {
         @Inject(at = @At("HEAD"), method = "size()I", cancellable = true)
     private void size_1534084441(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1534084441L))
-            info.setReturnValue(798978886);
+            info.setReturnValue(866292886);
     }
 
     @Inject(at = @At("HEAD"), method = "isEmpty()Z", cancellable = true)

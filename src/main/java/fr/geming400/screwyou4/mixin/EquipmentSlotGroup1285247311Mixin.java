@@ -37,16 +37,16 @@ public class EquipmentSlotGroup1285247311Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
-    private void getSerializedName_149786840(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(149786840L))
-            info.setReturnValue("!suE])GW_b;T`FIPsl.UE%Ⲑ *^2Ⳡ{9Mh7'uGcQ裆pg2喚b夝dNT兰%=⥝|XI洍Tf5+?Ta:紓y%㎞J0_O");
-    }
-
     @Inject(at = @At("HEAD"), method = "bySlot(Lnet/minecraft/world/entity/EquipmentSlot;)Lnet/minecraft/world/entity/EquipmentSlotGroup;", cancellable = true)
     private static void bySlot_209620987(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(209620987L))
             info.setReturnValue(net.minecraft.world.entity.EquipmentSlotGroup.OFFHAND);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
+    private void getSerializedName_149786840(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(149786840L))
+            info.setReturnValue("!suE])GW_b;T`FIPsl.UE%\u2C90 *^2\u2CE0{9Mh7'uGcQ\u88C6pg2\u559Ab\u591DdNT\u5170%=\u295D|XI\u6D0DTf5+?Ta:\u7D13y%\u339EJ0_O");
     }
 
 

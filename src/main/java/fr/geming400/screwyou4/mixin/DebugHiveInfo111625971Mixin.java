@@ -22,13 +22,13 @@ public class DebugHiveInfo111625971Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__1023834004(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1023834004L))
-            info.setReturnValue("!ၽ.r`tuOYC7@Zc鸝J_q`gZI,I?-s쐽@8ty/2&D");
+            info.setReturnValue("!\u107D.r`tuOYC7@Zc\u9E1DJ_q`gZI,I?-s\uC43D@8ty/2&D");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_149888713(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(149888713L))
-            info.setReturnValue(-573022596);
+            info.setReturnValue(-508948596);
     }
 
     @Inject(at = @At("HEAD"), method = "pack(Lnet/minecraft/world/level/block/entity/BeehiveBlockEntity;)Lnet/minecraft/util/debug/DebugHiveInfo;", cancellable = true)
@@ -37,22 +37,22 @@ public class DebugHiveInfo111625971Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "sedated()Z", cancellable = true)
-    private void sedated_149904554(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(149904554L))
-            info.setReturnValue(false);
+    @Inject(at = @At("HEAD"), method = "occupantCount()I", cancellable = true)
+    private void occupantCount_149888217(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(149888217L))
+            info.setReturnValue(-305801177);
     }
 
     @Inject(at = @At("HEAD"), method = "honeyLevel()I", cancellable = true)
     private void honeyLevel_149888217(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(149888217L))
-            info.setReturnValue(-369875177);
+            info.setReturnValue(-305801177);
     }
 
-    @Inject(at = @At("HEAD"), method = "occupantCount()I", cancellable = true)
-    private void occupantCount_149888217(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(149888217L))
-            info.setReturnValue(-369875177);
+    @Inject(at = @At("HEAD"), method = "sedated()Z", cancellable = true)
+    private void sedated_149904554(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(149904554L))
+            info.setReturnValue(false);
     }
 
 

@@ -16,7 +16,7 @@ public class WeightedVariants1272973257Mixin {
     @Inject(at = @At("HEAD"), method = "materialFlags()I", cancellable = true)
     private void materialFlags_1311235503(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1311235503L))
-            info.setReturnValue(-336555492);
+            info.setReturnValue(129679608);
     }
 
     @Inject(at = @At("HEAD"), method = "particleMaterial()Lnet/minecraft/client/resources/model/sprite/Material$Baked;", cancellable = true)

@@ -16,13 +16,13 @@ public class Attributes1134975161Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__484814(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-484814L))
-            info.setReturnValue("nᠭPf$ENz&䣈NFVp#KP인r%{.s]PNL轗,Oz+m^)6Q?zJhZ㿀#cfc/C");
+            info.setReturnValue("n\u182DPf$ENz&\u48C8NFVp#KP\uC778r%{.s]PNL\u8F57,Oz+m^)6Q?zJhZ\u3FC0#cfc/C");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1173237903(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1173237903L))
-            info.setReturnValue(-1278281792);
+            info.setReturnValue(-1656680292);
     }
 
     @Inject(at = @At("HEAD"), method = "allowPreServerInit()Z", cancellable = true)
@@ -31,14 +31,14 @@ public class Attributes1134975161Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "discoverable()Z", cancellable = true)
-    private void discoverable_1173253744(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "runOnMainThread()Z", cancellable = true)
+    private void runOnMainThread_1173253744(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1173253744L))
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "runOnMainThread()Z", cancellable = true)
-    private void runOnMainThread_1173253744(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "discoverable()Z", cancellable = true)
+    private void discoverable_1173253744(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1173253744L))
             info.setReturnValue(true);
     }

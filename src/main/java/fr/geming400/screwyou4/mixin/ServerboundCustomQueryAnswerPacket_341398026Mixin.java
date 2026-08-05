@@ -28,19 +28,13 @@ public class ServerboundCustomQueryAnswerPacket_341398026Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__794061950(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-794061950L))
-            info.setReturnValue("Vw}&䁤`$yాF㎚&7&鏚-La14dL>fK赇E★g짱u)M䯎w져ℭB/@mrT:㡕`H|6+2$E'2YsᮯD5묁jKs*!Tz!ሹ|鑓]嬼'*AMU*ⵍg}o");
+            info.setReturnValue("Vw}&\u4064`$y\u0C3EF\u339A&7&\u93DA-La14dL>fK\u8D47E\u2605g\uC9F1u)M\u4BCEw\uC838\u212DB/@mrT:\u3855`H|6+2$E'2Ys\u1BAFD5\uBB01jKs*!Tz!\u1239|\u9453]\u5B3C'*AMU*\u2D4Dg}o");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_379660767(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(379660767L))
-            info.setReturnValue(1830131031);
-    }
-
-    @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/protocol/login/ServerLoginPacketListener;)V", cancellable = true)
-    private void handle__1520477391(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1520477391L))
-            info.cancel();
+            info.setReturnValue(2030260631);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/PacketListener;)V", cancellable = true)
@@ -49,10 +43,16 @@ public class ServerboundCustomQueryAnswerPacket_341398026Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/protocol/login/ServerLoginPacketListener;)V", cancellable = true)
+    private void handle__1520477391(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1520477391L))
+            info.cancel();
+    }
+
     @Inject(at = @At("HEAD"), method = "transactionId()I", cancellable = true)
     private void transactionId_379660271(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(379660271L))
-            info.setReturnValue(432723026);
+            info.setReturnValue(632852626);
     }
 
 

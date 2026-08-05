@@ -22,13 +22,13 @@ public class ServerboundAttackPacket_631403251Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__504056725(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-504056725L))
-            info.setReturnValue("\")o礫΅o\"Oෛ0fjgL(5uui.w8SJt5)GU#&^JशN@뿈09_Uad>ID^!JxxY[[^q5|soy%狼qr?'s倘@h");
+            info.setReturnValue("\")o\u792B\u0385o\"O\u0DDB0fjgL(5uui.w8SJt5)GU#&^J\u0936N@\uBFC809_Uad>ID^!JxxY[[^q5|soy%\uF92Bqr?'s\u5018@h");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_669665992(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(669665992L))
-            info.setReturnValue(1195292995);
+            info.setReturnValue(923693395);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/PacketListener;)V", cancellable = true)
@@ -46,7 +46,7 @@ public class ServerboundAttackPacket_631403251Mixin {
     @Inject(at = @At("HEAD"), method = "entityId()I", cancellable = true)
     private void entityId_669665496(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(669665496L))
-            info.setReturnValue(1398440415);
+            info.setReturnValue(1126840815);
     }
 
 

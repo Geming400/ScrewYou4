@@ -22,13 +22,13 @@ public class SourceFilter_1295372319Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_159912343(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(159912343L))
-            info.setReturnValue("JvnS$鏌띏&OfEH13L)q;s83>L.St]=ip犊GW鑜$9<VU");
+            info.setReturnValue("JvnS$\u93CC\uB74F&OfEH13L)q;s83>L.St]=ip\u728AGW\u945C$9<VU");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1333635060(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1333635060L))
-            info.setReturnValue(1981361428);
+            info.setReturnValue(2064461828);
     }
 
     @Inject(at = @At("HEAD"), method = "filter()Lnet/minecraft/util/IdentifierPattern;", cancellable = true)

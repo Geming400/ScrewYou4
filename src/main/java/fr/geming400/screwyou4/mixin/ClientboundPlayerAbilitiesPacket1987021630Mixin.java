@@ -34,13 +34,19 @@ public class ClientboundPlayerAbilitiesPacket1987021630Mixin {
     @Inject(at = @At("HEAD"), method = "getWalkingSpeed()F", cancellable = true)
     private void getWalkingSpeed_2025280993(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2025280993L))
-            info.setReturnValue(9.807301E8F);
+            info.setReturnValue(8.86626E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "getFlyingSpeed()F", cancellable = true)
     private void getFlyingSpeed_2025280993(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2025280993L))
-            info.setReturnValue(9.807301E8F);
+            info.setReturnValue(8.86626E8F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isFlying()Z", cancellable = true)
+    private void isFlying_2025300213(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2025300213L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "canFly()Z", cancellable = true)
@@ -51,12 +57,6 @@ public class ClientboundPlayerAbilitiesPacket1987021630Mixin {
 
     @Inject(at = @At("HEAD"), method = "canInstabuild()Z", cancellable = true)
     private void canInstabuild_2025300213(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2025300213L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isFlying()Z", cancellable = true)
-    private void isFlying_2025300213(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2025300213L))
             info.setReturnValue(true);
     }

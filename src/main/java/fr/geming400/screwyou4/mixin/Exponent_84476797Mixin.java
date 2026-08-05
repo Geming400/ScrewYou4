@@ -22,13 +22,13 @@ public class Exponent_84476797Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__1050983179(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1050983179L))
-            info.setReturnValue("p $C`.{cU(7U皈u^p`40쩸=G[OhQvS#C\"k궲");
+            info.setReturnValue("p $C`.{cU(7U\u7688u^p`40\uCA78=G[OhQvS#C\"k\uADB2");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_122739538(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(122739538L))
-            info.setReturnValue(-1599372816);
+            info.setReturnValue(1951659280);
     }
 
     @Inject(at = @At("HEAD"), method = "power()Lnet/minecraft/world/item/enchantment/LevelBasedValue;", cancellable = true)
@@ -46,7 +46,7 @@ public class Exponent_84476797Mixin {
     @Inject(at = @At("HEAD"), method = "calculate(I)F", cancellable = true)
     private void calculate_1298378392(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1298378392L))
-            info.setReturnValue(8.670796E8F);
+            info.setReturnValue(1.231444E8F);
     }
 
 

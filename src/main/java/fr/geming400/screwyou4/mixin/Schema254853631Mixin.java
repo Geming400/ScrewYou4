@@ -22,13 +22,13 @@ public class Schema254853631Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__880606344(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-880606344L))
-            info.setReturnValue("6WegKB9൜wz/rq#tI-`L>&m");
+            info.setReturnValue("6WegKB9\u0D5Cwz/rq#tI-`L>&m");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_293116373(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(293116373L))
-            info.setReturnValue(-237819435);
+            info.setReturnValue(89191165);
     }
 
     @Inject(at = @At("HEAD"), method = "record(Lcom/mojang/serialization/Codec;)Lnet/minecraft/server/jsonrpc/api/Schema;", cancellable = true)
@@ -79,27 +79,27 @@ public class Schema254853631Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "typedCodec()Lcom/mojang/serialization/Codec;", cancellable = true)
-    private static void typedCodec__137111747(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-137111747L))
+    @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/Codec;", cancellable = true)
+    private void codec__137111995(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-137111995L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "ofRef(Ljava/net/URI;Lcom/mojang/serialization/Codec;)Lnet/minecraft/server/jsonrpc/api/Schema;", cancellable = true)
-    private static void ofRef_1060560996(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1060560996L))
+    @Inject(at = @At("HEAD"), method = "getSchemaRegistry()Ljava/util/List;", cancellable = true)
+    private static void getSchemaRegistry_1881190695(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1881190695L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "enumValues()Ljava/util/List;", cancellable = true)
+    private void enumValues_1881190447(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1881190447L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "ofTypes(Ljava/util/List;Lcom/mojang/serialization/Codec;)Lnet/minecraft/server/jsonrpc/api/Schema;", cancellable = true)
     private static void ofTypes_1379426547(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1379426547L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "ofType(Ljava/lang/String;Lcom/mojang/serialization/Codec;)Lnet/minecraft/server/jsonrpc/api/Schema;", cancellable = true)
-    private static void ofType_2102673740(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2102673740L))
             info.setReturnValue(null);
     }
 
@@ -121,21 +121,21 @@ public class Schema254853631Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "enumValues()Ljava/util/List;", cancellable = true)
-    private void enumValues_1881190447(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1881190447L))
+    @Inject(at = @At("HEAD"), method = "ofType(Ljava/lang/String;Lcom/mojang/serialization/Codec;)Lnet/minecraft/server/jsonrpc/api/Schema;", cancellable = true)
+    private static void ofType_2102673740(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2102673740L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/Codec;", cancellable = true)
-    private void codec__137111995(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-137111995L))
+    @Inject(at = @At("HEAD"), method = "typedCodec()Lcom/mojang/serialization/Codec;", cancellable = true)
+    private static void typedCodec__137111747(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-137111747L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getSchemaRegistry()Ljava/util/List;", cancellable = true)
-    private static void getSchemaRegistry_1881190695(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1881190695L))
+    @Inject(at = @At("HEAD"), method = "ofRef(Ljava/net/URI;Lcom/mojang/serialization/Codec;)Lnet/minecraft/server/jsonrpc/api/Schema;", cancellable = true)
+    private static void ofRef_1060560996(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1060560996L))
             info.setReturnValue(null);
     }
 

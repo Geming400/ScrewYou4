@@ -10,7 +10,7 @@ public class BlockListReport_1136411151Mixin {
         @Inject(at = @At("HEAD"), method = "getName()Ljava/lang/String;", cancellable = true)
     private void getName_950679(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(950679L))
-            info.setReturnValue("h(xN#V>(Q8OELOlM祾R螟K&Wb2Q]o0db?>fnk鰝Xay`0h>Ql2{G&d%OWe,;圉T>tWq%DuCjo⳺usXbm-<f");
+            info.setReturnValue("h(xN#V>(Q8OELOlM\u797ER\u879FK&Wb2Q]o0db?>fnk\u9C1DXay`0h>Ql2{G&d%OWe,;\u5709T>tWq%DuCjo\u2CFAusXbm-<f");
     }
 
     @Inject(at = @At("HEAD"), method = "run(Lnet/minecraft/data/CachedOutput;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)

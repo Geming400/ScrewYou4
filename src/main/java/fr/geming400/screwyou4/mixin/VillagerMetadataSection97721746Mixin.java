@@ -16,13 +16,13 @@ public class VillagerMetadataSection97721746Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__1037738229(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1037738229L))
-            info.setReturnValue("VB걣a^'glvf냹QB2.k}{n+F(3삐JuDe5挐clc뎼3&{}o#4V");
+            info.setReturnValue("VB\uAC63a^'glvf\uB0F9QB2.k}{n+F(3\uC090JuDe5\u6310clc\uB3BC3&{}o#4V");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_135984488(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(135984488L))
-            info.setReturnValue(1534875224);
+            info.setReturnValue(1332255924);
     }
 
     @Inject(at = @At("HEAD"), method = "hat()Lnet/minecraft/client/resources/metadata/animation/VillagerMetadataSection$Hat;", cancellable = true)

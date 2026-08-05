@@ -16,13 +16,13 @@ public class PassengerPredicate_2078014237Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_942554261(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(942554261L))
-            info.setReturnValue("<0/a$Em@O啳w2YKAvFr/U?瘰?zci埼뇈lpO윿?vO4{zi&LS?L㟵孯'ᏜoS큒7");
+            info.setReturnValue("<0/a$Em@O\u5573w2YKAvFr/U?\u7630?zci\u57FC\uB1C8lpO\uC73F?vO4{zi&LS?L\u37F5\u5B6F'\u13DCoS\uD0527");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2116276978(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2116276978L))
-            info.setReturnValue(948884948);
+            info.setReturnValue(304538448);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/phys/Vec3;)Z", cancellable = true)

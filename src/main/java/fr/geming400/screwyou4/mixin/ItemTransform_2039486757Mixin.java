@@ -16,13 +16,13 @@ public class ItemTransform_2039486757Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_904026781(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(904026781L))
-            info.setReturnValue("&荘3.NJ4r䈼cBI]:-6?U>9*<>绢9/fMkx%樌MtXknen;M<7l4EjLG/i4הּ쿚4)U'wlzW(h@aOT濣3o.=04wyWU)i7赗嬓O)g>-FHJw");
+            info.setReturnValue("&\u83583.NJ4r\u423CcBI]:-6?U>9*<>\u7EE29/fMkx%\u6A0CMtXknen;M<7l4EjLG/i4\uFB34\uCFDA4)U'wlzW(h@aOT\u6FE33o.=04wyWU)i7\u8D57\u5B13O)g>-FHJw");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2077749498(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2077749498L))
-            info.setReturnValue(1152876228);
+            info.setReturnValue(936818428);
     }
 
     @Inject(at = @At("HEAD"), method = "scale()Lorg/joml/Vector3fc;", cancellable = true)

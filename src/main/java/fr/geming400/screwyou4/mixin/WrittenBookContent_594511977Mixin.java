@@ -16,13 +16,13 @@ public class WrittenBookContent_594511977Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__540947999(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-540947999L))
-            info.setReturnValue(">'Ჷf. 8b쉇#p?`c\"徊w;/wFsFMI8");
+            info.setReturnValue(">'\u1CB7f. 8b\uC247#p?`c\"\u5F8Aw;/wFsFMI8");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_632774718(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(632774718L))
-            info.setReturnValue(956671450);
+            info.setReturnValue(559282050);
     }
 
     @Inject(at = @At("HEAD"), method = "resolve(Lnet/minecraft/network/chat/ResolutionContext;Lnet/minecraft/core/HolderLookup$Provider;)Lnet/minecraft/world/item/component/WrittenBookContent;", cancellable = true)
@@ -40,7 +40,7 @@ public class WrittenBookContent_594511977Mixin {
     @Inject(at = @At("HEAD"), method = "generation()I", cancellable = true)
     private void generation_632774222(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(632774222L))
-            info.setReturnValue(1568022128);
+            info.setReturnValue(1170632728);
     }
 
     @Inject(at = @At("HEAD"), method = "title()Lnet/minecraft/server/network/Filterable;", cancellable = true)
@@ -55,9 +55,27 @@ public class WrittenBookContent_594511977Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "markResolved()Lnet/minecraft/world/item/component/WrittenBookContent;", cancellable = true)
-    private void markResolved__21764362(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-21764362L))
+    @Inject(at = @At("HEAD"), method = "addToTooltip(Lnet/minecraft/world/item/Item$TooltipContext;Ljava/util/function/Consumer;Lnet/minecraft/world/item/TooltipFlag;Lnet/minecraft/core/component/DataComponentGetter;)V", cancellable = true)
+    private void addToTooltip__1948206414(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1948206414L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "resolveForItem(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/network/chat/ResolutionContext;Lnet/minecraft/core/HolderLookup$Provider;)Z", cancellable = true)
+    private static void resolveForItem__46817786(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-46817786L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "author()Ljava/lang/String;", cancellable = true)
+    private void author__540948495(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-540948495L))
+            info.setReturnValue("kC-V>gq)\uA8F7=*Wg%Xw,=CV5:YR<z}in\"/F\u8434)ZL]>] 8OkCW\u75F3fLRmIFUNDg\u9F48Ee1D,K\uBDF4\u7F9E\u9FB0\"v}M.3?+IcrV3Nrxe_\u5DC2");
+    }
+
+    @Inject(at = @At("HEAD"), method = "withReplacedPages(Ljava/util/List;)Lnet/minecraft/world/item/component/WrittenBookContent;", cancellable = true)
+    private void withReplacedPages__1138924825(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1138924825L))
             info.setReturnValue(null);
     }
 
@@ -67,28 +85,10 @@ public class WrittenBookContent_594511977Mixin {
             info.setReturnValue(new java.lang.Object());
     }
 
-    @Inject(at = @At("HEAD"), method = "withReplacedPages(Ljava/util/List;)Lnet/minecraft/world/item/component/WrittenBookContent;", cancellable = true)
-    private void withReplacedPages__1138924825(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1138924825L))
+    @Inject(at = @At("HEAD"), method = "markResolved()Lnet/minecraft/world/item/component/WrittenBookContent;", cancellable = true)
+    private void markResolved__21764362(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-21764362L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "resolveForItem(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/network/chat/ResolutionContext;Lnet/minecraft/core/HolderLookup$Provider;)Z", cancellable = true)
-    private static void resolveForItem__46817786(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-46817786L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "addToTooltip(Lnet/minecraft/world/item/Item$TooltipContext;Ljava/util/function/Consumer;Lnet/minecraft/world/item/TooltipFlag;Lnet/minecraft/core/component/DataComponentGetter;)V", cancellable = true)
-    private void addToTooltip__1948206414(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1948206414L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "author()Ljava/lang/String;", cancellable = true)
-    private void author__540948495(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-540948495L))
-            info.setReturnValue("kC-V>gq)ꣷ=*Wg%Xw,=CV5:YR<z}in\"/F萴)ZL]>] 8OkCW痳fLRmIFUNDg齈Ee1D,K뷴羞龰\"v}M.3?+IcrV3Nrxe_巂");
     }
 
     @Inject(at = @At("HEAD"), method = "getPages(Z)Ljava/util/List;", cancellable = true)
@@ -97,15 +97,15 @@ public class WrittenBookContent_594511977Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "craftCopy()Lnet/minecraft/world/item/component/WrittenBookContent;", cancellable = true)
-    private void craftCopy__21764362(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-21764362L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "pagesCodec(Lcom/mojang/serialization/Codec;)Lcom/mojang/serialization/Codec;", cancellable = true)
     private static void pagesCodec_1078189951(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1078189951L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "craftCopy()Lnet/minecraft/world/item/component/WrittenBookContent;", cancellable = true)
+    private void craftCopy__21764362(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-21764362L))
             info.setReturnValue(null);
     }
 

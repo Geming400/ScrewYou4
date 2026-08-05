@@ -10,17 +10,29 @@ public class WorldOptions1056785170Mixin {
         @Inject(at = @At("HEAD"), method = "seed()J", cancellable = true)
     private void seed_1095048377(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1095048377L))
-            info.setReturnValue(-8200274087815617918L);
+            info.setReturnValue(-8200274087969660218L);
     }
 
-    @Inject(at = @At("HEAD"), method = "testWorldWithRandomSeed()Lnet/minecraft/world/level/levelgen/WorldOptions;", cancellable = true)
-    private static void testWorldWithRandomSeed__1038723141(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1038723141L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "generateBonusChest()Z", cancellable = true)
+    private void generateBonusChest_1095063753(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1095063753L))
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "generateStructures()Z", cancellable = true)
+    private void generateStructures_1095063753(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1095063753L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "defaultWithRandomSeed()Lnet/minecraft/world/level/levelgen/WorldOptions;", cancellable = true)
     private static void defaultWithRandomSeed__1038723141(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1038723141L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "testWorldWithRandomSeed()Lnet/minecraft/world/level/levelgen/WorldOptions;", cancellable = true)
+    private static void testWorldWithRandomSeed__1038723141(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1038723141L))
             info.setReturnValue(null);
     }
@@ -43,24 +55,6 @@ public class WorldOptions1056785170Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "randomSeed()J", cancellable = true)
-    private static void randomSeed_1095048625(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1095048625L))
-            info.setReturnValue(-7764018329632447092L);
-    }
-
-    @Inject(at = @At("HEAD"), method = "generateStructures()Z", cancellable = true)
-    private void generateStructures_1095063753(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1095063753L))
-            info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "generateBonusChest()Z", cancellable = true)
-    private void generateBonusChest_1095063753(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1095063753L))
-            info.setReturnValue(false);
-    }
-
     @Inject(at = @At("HEAD"), method = "parseSeed(Ljava/lang/String;)Ljava/util/OptionalLong;", cancellable = true)
     private static void parseSeed__112804910(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-112804910L))
@@ -71,6 +65,12 @@ public class WorldOptions1056785170Mixin {
     private void withSeed__1949394730(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1949394730L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "randomSeed()J", cancellable = true)
+    private static void randomSeed_1095048625(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1095048625L))
+            info.setReturnValue(-7764018329786489392L);
     }
 
 

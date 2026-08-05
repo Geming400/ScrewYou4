@@ -28,13 +28,13 @@ public class ComponentMatches_699925092Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__435534884(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-435534884L))
-            info.setReturnValue("7^ꋪcz!R#H.b.;'`c)f7 ss CwWW裵 䇸]O떛极L5ji#L|kw胁䅙vD%et,9d2[弖=0㺧iQMV6#8녮9");
+            info.setReturnValue("7^\uA2EAcz!R#H.b.;'`c)f7 ss CwWW\u88F5 \u41F8]O\uB59B\u6781L5ji#L|kw\u80C1\u4159vD%et,9d2[\u5F16=0\u3EA7iQMV6#8\uB16E9");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_738187833(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(738187833L))
-            info.setReturnValue(1093209032);
+            info.setReturnValue(739223432);
     }
 
     @Inject(at = @At("HEAD"), method = "predicate()Lnet/minecraft/core/component/predicates/DataComponentPredicate$Single;", cancellable = true)

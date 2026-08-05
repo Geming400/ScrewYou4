@@ -28,7 +28,7 @@ public class Environment174528437Mixin {
     @Inject(at = @At("HEAD"), method = "getDescription()Ljava/lang/String;", cancellable = true)
     private void getDescription__960932034(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-960932034L))
-            info.setReturnValue("杳᪽Wv=H₮ck+]}t⳿$Xp6.a!躴^rD&");
+            info.setReturnValue("\u6773\u1ABDWv=H\u20AEck+]}t\u2CFF$Xp6.a!\u8EB4^rD&");
     }
 
 

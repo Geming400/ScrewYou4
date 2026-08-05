@@ -16,7 +16,7 @@ public class MultiPartModel1070616197Mixin {
     @Inject(at = @At("HEAD"), method = "materialFlags()I", cancellable = true)
     private void materialFlags_1108878443(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1108878443L))
-            info.setReturnValue(-348584460);
+            info.setReturnValue(-780738760);
     }
 
     @Inject(at = @At("HEAD"), method = "particleMaterial()Lnet/minecraft/client/resources/model/sprite/Material$Baked;", cancellable = true)

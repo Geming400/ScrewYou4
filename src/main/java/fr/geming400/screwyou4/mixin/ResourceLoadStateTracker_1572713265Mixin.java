@@ -7,9 +7,15 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.client.ResourceLoadStateTracker.class)
 public class ResourceLoadStateTracker_1572713265Mixin {
-        @Inject(at = @At("HEAD"), method = "startRecovery(Ljava/lang/Throwable;)V", cancellable = true)
-    private void startRecovery_1379943246(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1379943246L))
+        @Inject(at = @At("HEAD"), method = "fillCrashReport(Lnet/minecraft/CrashReport;)V", cancellable = true)
+    private void fillCrashReport_405357491(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(405357491L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "finishReload()V", cancellable = true)
+    private void finishReload_1610988003(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1610988003L))
             info.cancel();
     }
 
@@ -19,15 +25,9 @@ public class ResourceLoadStateTracker_1572713265Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "fillCrashReport(Lnet/minecraft/CrashReport;)V", cancellable = true)
-    private void fillCrashReport_405357491(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(405357491L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "finishReload()V", cancellable = true)
-    private void finishReload_1610988003(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1610988003L))
+    @Inject(at = @At("HEAD"), method = "startRecovery(Ljava/lang/Throwable;)V", cancellable = true)
+    private void startRecovery_1379943246(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1379943246L))
             info.cancel();
     }
 

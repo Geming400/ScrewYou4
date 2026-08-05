@@ -10,7 +10,7 @@ public class LanguageInfo503125120Mixin {
         @Inject(at = @At("HEAD"), method = "name()Ljava/lang/String;", cancellable = true)
     private void name__632335351(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-632335351L))
-            info.setReturnValue("慁 ^饇2;2yOJ9z0kng숼Y'aBPVzC*Hꕿ\"DY6Wa艒t6=Ij랚&PyK-qQ駰u=nk?nFqC,资/꺉{etrF<U)zrnqZ;|߁J滌+8}Qps9g?>ㆷw0-<");
+            info.setReturnValue("\u6141 ^\u99472;2yOJ9z0kng\uC23CY'aBPVzC*H\uA57F\"DY6Wa\u8252t6=Ij\uB79A&PyK-qQ\u99F0u=nk?nFqC,\u8D44/\uAE89{etrF<U)zrnqZ;|\u07C1J\u6ECC+8}Qps9g?>\u31B7w0-<");
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
@@ -22,19 +22,19 @@ public class LanguageInfo503125120Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__632334855(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-632334855L))
-            info.setReturnValue("^*C6z+z)LD.}%齉s{鿇@[X!o嵌RYWj ");
+            info.setReturnValue("^*C6z+z)LD.}%\u9F49s{\u9FC7@[X!o\u5D4CRYWj ");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_541387862(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(541387862L))
-            info.setReturnValue(753704789);
+            info.setReturnValue(419578089);
     }
 
     @Inject(at = @At("HEAD"), method = "region()Ljava/lang/String;", cancellable = true)
     private void region__632335351(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-632335351L))
-            info.setReturnValue("慁 ^饇2;2yOJ9z0kng숼Y'aBPVzC*Hꕿ\"DY6Wa艒t6=Ij랚&PyK-qQ駰u=nk?nFqC,资/꺉{etrF<U)zrnqZ;|߁J滌+8}Qps9g?>ㆷw0-<");
+            info.setReturnValue("\u6141 ^\u99472;2yOJ9z0kng\uC23CY'aBPVzC*H\uA57F\"DY6Wa\u8252t6=Ij\uB79A&PyK-qQ\u99F0u=nk?nFqC,\u8D44/\uAE89{etrF<U)zrnqZ;|\u07C1J\u6ECC+8}Qps9g?>\u31B7w0-<");
     }
 
     @Inject(at = @At("HEAD"), method = "bidirectional()Z", cancellable = true)

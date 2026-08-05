@@ -16,13 +16,13 @@ public class MultiVariant_1633049584Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_497589608(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(497589608L))
-            info.setReturnValue("A!햋R4O%Q朔ak>ꗺꚜ3DDZ뇞Z X鼸뀧^ya{撾{M>Ff[m,U1nP@屢%R靇W<<%<4㑥NO泧7}ty");
+            info.setReturnValue("A!\uD58BR4O%Q\u6714ak>\uA5FA\uA69C3DDZ\uB1DEZ X\u9F38\uB027^ya{\u64BE{M>Ff[m,U1nP@\uF94B%R\u9747W<<%<4\u3465NO\u6CE77}ty");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1671312325(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1671312325L))
-            info.setReturnValue(-1552912047);
+            info.setReturnValue(-1194520547);
     }
 
     @Inject(at = @At("HEAD"), method = "with(Lnet/minecraft/client/renderer/block/dispatch/VariantMutator;)Lnet/minecraft/client/data/models/MultiVariant;", cancellable = true)

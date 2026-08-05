@@ -16,43 +16,19 @@ public class TimedStatSummary1005788271Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__129671704(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-129671704L))
-            info.setReturnValue("5{2Xoꡂ%鎫o3V}荋9S12త99ZAu(C冊3C1e%7QQtTa)i");
+            info.setReturnValue("5{2Xo\uA842%\u93ABo3V}\u834B9S12\u0C2499ZAu(C\u518A3C1e%7QQtTa)i");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1044051013(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1044051013L))
-            info.setReturnValue(-1763728739);
+            info.setReturnValue(-1498282239);
     }
 
     @Inject(at = @At("HEAD"), method = "count()I", cancellable = true)
     private void count_1044050517(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1044050517L))
-            info.setReturnValue(-1560581320);
-    }
-
-    @Inject(at = @At("HEAD"), method = "totalDuration()Ljava/time/Duration;", cancellable = true)
-    private void totalDuration__2026014284(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2026014284L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "secondSlowest()Lnet/minecraft/util/profiling/jfr/stats/TimedStat;", cancellable = true)
-    private void secondSlowest_377465789(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(377465789L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "percentilesNanos()Ljava/util/Map;", cancellable = true)
-    private void percentilesNanos__998835369(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-998835369L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "summary(Ljava/util/List;)Ljava/util/Optional;", cancellable = true)
-    private static void summary_852720836(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(852720836L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1295134820);
     }
 
     @Inject(at = @At("HEAD"), method = "fastest()Lnet/minecraft/util/profiling/jfr/stats/TimedStat;", cancellable = true)
@@ -63,6 +39,30 @@ public class TimedStatSummary1005788271Mixin {
 
     @Inject(at = @At("HEAD"), method = "slowest()Lnet/minecraft/util/profiling/jfr/stats/TimedStat;", cancellable = true)
     private void slowest_377465789(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(377465789L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "summary(Ljava/util/List;)Ljava/util/Optional;", cancellable = true)
+    private static void summary_852720836(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(852720836L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "totalDuration()Ljava/time/Duration;", cancellable = true)
+    private void totalDuration__2026014284(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2026014284L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "percentilesNanos()Ljava/util/Map;", cancellable = true)
+    private void percentilesNanos__998835369(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-998835369L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "secondSlowest()Lnet/minecraft/util/profiling/jfr/stats/TimedStat;", cancellable = true)
+    private void secondSlowest_377465789(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(377465789L))
             info.setReturnValue(null);
     }

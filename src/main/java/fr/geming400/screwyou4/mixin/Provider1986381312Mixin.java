@@ -16,13 +16,13 @@ public class Provider1986381312Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_850921337(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(850921337L))
-            info.setReturnValue("@쇐k%sB첣QVzhc綽>K뢬<)f罢Iꒉ揊#Btt&閑R-*eW>NⓅZ茔,6<{Wn[++ge뜔⾥gf`");
+            info.setReturnValue("@\uC1D0k%sB\uCCA3QVzhc\u7DBD>K\uB8AC<)f\u7F62I\uA489\u63CA#Btt&\u9591R-*eW>N\u24C5Z\u8314,6<{Wn[++ge\uB714\u2FA5gf`");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2024644054(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2024644054L))
-            info.setReturnValue(-1901077933);
+            info.setReturnValue(-1287954633);
     }
 
     @Inject(at = @At("HEAD"), method = "sprite()Lnet/minecraft/client/particle/SpriteSet;", cancellable = true)

@@ -13,10 +13,10 @@ public class DemoMode1290073598Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "handleBlockBreakAction(Lnet/minecraft/core/BlockPos;Lnet/minecraft/network/protocol/game/ServerboundPlayerActionPacket$Action;Lnet/minecraft/core/Direction;II)V", cancellable = true)
-    private void handleBlockBreakAction__592876571(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-592876571L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "useItemOn(Lnet/minecraft/server/level/ServerPlayer;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/InteractionHand;Lnet/minecraft/world/phys/BlockHitResult;)Lnet/minecraft/world/InteractionResult;", cancellable = true)
+    private void useItemOn__2071483383(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2071483383L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "useItem(Lnet/minecraft/server/level/ServerPlayer;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResult;", cancellable = true)
@@ -25,10 +25,10 @@ public class DemoMode1290073598Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "useItemOn(Lnet/minecraft/server/level/ServerPlayer;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/InteractionHand;Lnet/minecraft/world/phys/BlockHitResult;)Lnet/minecraft/world/InteractionResult;", cancellable = true)
-    private void useItemOn__2071483383(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2071483383L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "handleBlockBreakAction(Lnet/minecraft/core/BlockPos;Lnet/minecraft/network/protocol/game/ServerboundPlayerActionPacket$Action;Lnet/minecraft/core/Direction;II)V", cancellable = true)
+    private void handleBlockBreakAction__592876571(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-592876571L))
+            info.cancel();
     }
 
 

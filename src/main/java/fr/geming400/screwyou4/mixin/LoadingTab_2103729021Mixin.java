@@ -13,16 +13,16 @@ public class LoadingTab_2103729021Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "visitChildren(Ljava/util/function/Consumer;)V", cancellable = true)
-    private void visitChildren__1510221863(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1510221863L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "getTabExtraNarration()Lnet/minecraft/network/chat/Component;", cancellable = true)
     private void getTabExtraNarration__73180145(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-73180145L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "visitChildren(Ljava/util/function/Consumer;)V", cancellable = true)
+    private void visitChildren__1510221863(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1510221863L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "getTabTitle()Lnet/minecraft/network/chat/Component;", cancellable = true)

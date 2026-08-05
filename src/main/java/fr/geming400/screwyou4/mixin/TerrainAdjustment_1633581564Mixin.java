@@ -22,7 +22,7 @@ public class TerrainAdjustment_1633581564Mixin {
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName_498121092(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(498121092L))
-            info.setReturnValue("=/bBv}Wzb5jNl츾E6㩞駨");
+            info.setReturnValue("=/bBv}Wzb5jNl\uCE3EE6\u3A5E\u99E8");
     }
 
 

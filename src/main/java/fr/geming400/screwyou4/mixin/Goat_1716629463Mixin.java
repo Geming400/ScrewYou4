@@ -19,6 +19,12 @@ public class Goat_1716629463Mixin {
             info.setReturnValue(new net.minecraft.world.entity.ai.Brain());
     }
 
+    @Inject(at = @At("HEAD"), method = "finalizeSpawn(Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData;", cancellable = true)
+    private void finalizeSpawn__729605896(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-729605896L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "setYHeadRot(F)V", cancellable = true)
     private void setYHeadRot__1367191425(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1367191425L))
@@ -46,37 +52,7 @@ public class Goat_1716629463Mixin {
     @Inject(at = @At("HEAD"), method = "getAgeScale()F", cancellable = true)
     private void getAgeScale_1754888825(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1754888825L))
-            info.setReturnValue(6.845409E8F);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isFood(Lnet/minecraft/world/item/ItemStack;)Z", cancellable = true)
-    private void isFood__843802702(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-843802702L))
-            info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getBreedOffspring(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/AgeableMob;)Lnet/minecraft/world/entity/animal/goat/Goat;", cancellable = true)
-    private void getBreedOffspring__1060961593(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1060961593L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getBreedOffspring(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/AgeableMob;)Lnet/minecraft/world/entity/AgeableMob;", cancellable = true)
-    private void getBreedOffspring__980549252(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-980549252L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "mobInteract(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResult;", cancellable = true)
-    private void mobInteract__961511992(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-961511992L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getMaxHeadYRot()I", cancellable = true)
-    private void getMaxHeadYRot_1754891708(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1754891708L))
-            info.setReturnValue(1090891321);
+            info.setReturnValue(1.122881E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "dropHorn()Z", cancellable = true)
@@ -91,14 +67,50 @@ public class Goat_1716629463Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "finalizeSpawn(Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData;", cancellable = true)
-    private void finalizeSpawn__729605896(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-729605896L))
+    @Inject(at = @At("HEAD"), method = "getMaxHeadYRot()I", cancellable = true)
+    private void getMaxHeadYRot_1754891708(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1754891708L))
+            info.setReturnValue(518638521);
+    }
+
+    @Inject(at = @At("HEAD"), method = "mobInteract(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResult;", cancellable = true)
+    private void mobInteract__961511992(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-961511992L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "isScreamingGoat()Z", cancellable = true)
-    private void isScreamingGoat_1754908045(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "getBreedOffspring(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/AgeableMob;)Lnet/minecraft/world/entity/animal/goat/Goat;", cancellable = true)
+    private void getBreedOffspring__1060961593(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1060961593L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getBreedOffspring(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/AgeableMob;)Lnet/minecraft/world/entity/AgeableMob;", cancellable = true)
+    private void getBreedOffspring__980549252(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-980549252L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isFood(Lnet/minecraft/world/item/ItemStack;)Z", cancellable = true)
+    private void isFood__843802702(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-843802702L))
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "hasRightHorn()Z", cancellable = true)
+    private void hasRightHorn_1754908045(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1754908045L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getRammingXHeadRot()F", cancellable = true)
+    private void getRammingXHeadRot_1754888825(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1754888825L))
+            info.setReturnValue(1.122881E8F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "hasLeftHorn()Z", cancellable = true)
+    private void hasLeftHorn_1754908045(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1754908045L))
             info.setReturnValue(true);
     }
@@ -115,20 +127,8 @@ public class Goat_1716629463Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "getRammingXHeadRot()F", cancellable = true)
-    private void getRammingXHeadRot_1754888825(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1754888825L))
-            info.setReturnValue(6.845409E8F);
-    }
-
-    @Inject(at = @At("HEAD"), method = "hasRightHorn()Z", cancellable = true)
-    private void hasRightHorn_1754908045(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1754908045L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "hasLeftHorn()Z", cancellable = true)
-    private void hasLeftHorn_1754908045(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "isScreamingGoat()Z", cancellable = true)
+    private void isScreamingGoat_1754908045(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1754908045L))
             info.setReturnValue(true);
     }

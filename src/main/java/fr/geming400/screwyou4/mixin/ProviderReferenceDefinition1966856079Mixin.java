@@ -22,13 +22,13 @@ public class ProviderReferenceDefinition1966856079Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_831396104(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(831396104L))
-            info.setReturnValue("0zCn졬)옾+j>蔱t<vu32⃡p䁣T,믙u=$a)-㣚IlCo8# !VThCU");
+            info.setReturnValue("0zCn\uC86C)\uC63E+j>\u8531t<vu32\u20E1p\u4063T,\uBBD9u=$a)-\u38DAIlCo8# !VThCU");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2005118821(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2005118821L))
-            info.setReturnValue(1216816039);
+            info.setReturnValue(1940710839);
     }
 
     @Inject(at = @At("HEAD"), method = "id()Lnet/minecraft/resources/Identifier;", cancellable = true)

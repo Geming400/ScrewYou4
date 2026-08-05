@@ -16,13 +16,13 @@ public class Type2082847561Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_947387586(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(947387586L))
-            info.setReturnValue("8Y<\"E9WKrXcx#T?s2V)V NkB.XmfQ⤛NOV|YkykJU쪠o&壷apx(Y鿰Tᖰ(L3#SjⱊoNxﯰsiJb=BEY8f㽚M{_SJl:=>&_ZA)H돂,szy.");
+            info.setReturnValue("8Y<\"E9WKrXcx#T?s2V)V NkB.XmfQ\u291BNOV|YkykJU\uCAA0o&\u58F7apx(Y\u9FF0T\u15B0(L3#Sj\u2C4AoNx\uFBF0siJb=BEY8f\u3F5AM{_SJl:=>&_ZA)H\uB3C2,szy.");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2121110303(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2121110303L))
-            info.setReturnValue(-1537322005);
+            info.setReturnValue(-825672305);
     }
 
     @Inject(at = @At("HEAD"), method = "create(Lcom/mojang/serialization/MapCodec;Lcom/mojang/serialization/Codec;)Lnet/minecraft/client/renderer/item/properties/select/SelectItemModelProperty$Type;", cancellable = true)
@@ -31,15 +31,15 @@ public class Type2082847561Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "createCasesFieldCodec(Lcom/mojang/serialization/Codec;)Lcom/mojang/serialization/MapCodec;", cancellable = true)
-    private static void createCasesFieldCodec__1816492444(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1816492444L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "switchCodec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
     private void switchCodec__476266011(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-476266011L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "createCasesFieldCodec(Lcom/mojang/serialization/Codec;)Lcom/mojang/serialization/MapCodec;", cancellable = true)
+    private static void createCasesFieldCodec__1816492444(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1816492444L))
             info.setReturnValue(null);
     }
 

@@ -22,13 +22,13 @@ public class DisplaySlot_1964726174Mixin {
     @Inject(at = @At("HEAD"), method = "id()I", cancellable = true)
     private void id_2002988419(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2002988419L))
-            info.setReturnValue(559815789);
+            info.setReturnValue(1070420589);
     }
 
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName_829265702(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(829265702L))
-            info.setReturnValue("_TOx&/晗碷qB0vFKmrZdǉc3");
+            info.setReturnValue("_TOx&/\u6657\u78B7qB0vFKmrZd\u01C9c3");
     }
 
 

@@ -19,15 +19,9 @@ public class SocialInteractionsPlayerList_518780565Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "refreshHasDraftReport()V", cancellable = true)
-    private void refreshHasDraftReport_557055303(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(557055303L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "updatePlayerList(Ljava/util/Collection;DZ)V", cancellable = true)
-    private void updatePlayerList_123181134(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(123181134L))
+    @Inject(at = @At("HEAD"), method = "removePlayer(Ljava/util/UUID;)V", cancellable = true)
+    private void removePlayer_161224475(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(161224475L))
             info.cancel();
     }
 
@@ -37,9 +31,15 @@ public class SocialInteractionsPlayerList_518780565Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "removePlayer(Ljava/util/UUID;)V", cancellable = true)
-    private void removePlayer_161224475(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(161224475L))
+    @Inject(at = @At("HEAD"), method = "refreshHasDraftReport()V", cancellable = true)
+    private void refreshHasDraftReport_557055303(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(557055303L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "updatePlayerList(Ljava/util/Collection;DZ)V", cancellable = true)
+    private void updatePlayerList_123181134(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(123181134L))
             info.cancel();
     }
 

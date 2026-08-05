@@ -28,7 +28,7 @@ public class StructureMode2144931256Mixin {
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName_1009470785(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1009470785L))
-            info.setReturnValue(">顇");
+            info.setReturnValue(">\u9847");
     }
 
 

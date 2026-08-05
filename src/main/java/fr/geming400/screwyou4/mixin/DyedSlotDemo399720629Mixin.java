@@ -28,13 +28,13 @@ public class DyedSlotDemo399720629Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__735739346(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-735739346L))
-            info.setReturnValue("斂]W.H=w솑<-o;\" 6;dEࣱG42_w}rd");
+            info.setReturnValue("\u6582]W.H=w\uC191<-o;\" 6;dE\u08F1G42_w}rd");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_437983371(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(437983371L))
-            info.setReturnValue(-56990826);
+            info.setReturnValue(-484169026);
     }
 
     @Inject(at = @At("HEAD"), method = "resolve(Lnet/minecraft/util/context/ContextMap;Lnet/minecraft/world/item/crafting/display/DisplayContentsFactory;)Ljava/util/stream/Stream;", cancellable = true)

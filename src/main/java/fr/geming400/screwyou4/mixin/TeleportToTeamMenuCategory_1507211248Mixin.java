@@ -19,16 +19,16 @@ public class TeleportToTeamMenuCategory_1507211248Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "extractIcon(Lnet/minecraft/client/gui/GuiGraphicsExtractor;FF)V", cancellable = true)
-    private void extractIcon__1661240233(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1661240233L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "getItems()Ljava/util/List;", cancellable = true)
     private void getItems__1161419233(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1161419233L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "extractIcon(Lnet/minecraft/client/gui/GuiGraphicsExtractor;FF)V", cancellable = true)
+    private void extractIcon__1661240233(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1661240233L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "selectItem(Lnet/minecraft/client/gui/spectator/SpectatorMenu;)V", cancellable = true)

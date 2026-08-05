@@ -16,7 +16,7 @@ public class CustomModelData_1700509340Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_565049364(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(565049364L))
-            info.setReturnValue("篞$;9vOf햝F(j0og}go<Kᧇ]獔qa壣9W,)kW}7岠WBnkⱎ5kp㆘z뀨p%H唭C/xew2H*릌8[S$QHF*qetp8nGt楉^*Vod7");
+            info.setReturnValue("\u7BDE$;9vOf\uD59DF(j0og}go<K\u19C7]\u7354qa\u58E39W,)kW}7\u5CA0WBnk\u2C4E5kp\u3198z\uB028p%H\u552DC/xew2H*\uB98C8[S$QHF*qetp8nGt\u6949^*Vod7");
     }
 
     @Inject(at = @At("HEAD"), method = "flags()Ljava/util/List;", cancellable = true)
@@ -28,7 +28,7 @@ public class CustomModelData_1700509340Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1738772081(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1738772081L))
-            info.setReturnValue(405314316);
+            info.setReturnValue(77344216);
     }
 
     @Inject(at = @At("HEAD"), method = "getBoolean(I)Ljava/lang/Boolean;", cancellable = true)
@@ -46,7 +46,7 @@ public class CustomModelData_1700509340Mixin {
     @Inject(at = @At("HEAD"), method = "getString(I)Ljava/lang/String;", cancellable = true)
     private void getString_279639755(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(279639755L))
-            info.setReturnValue("Svoꁆ쬰KOma$hncr⤣0917䄩Y槱략st繍QKz@m)\"ANxqFsMP4,#U;hhvSW5");
+            info.setReturnValue("Svo\uA046\uCB30KOma$hncr\u29230917\u4129Y\u69F1\uB7B5st\u7E4DQKz@m)\"ANxqFsMP4,#U;hhvSW5");
     }
 
     @Inject(at = @At("HEAD"), method = "strings()Ljava/util/List;", cancellable = true)

@@ -22,13 +22,13 @@ public class SchemaComponent1179040062Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_43580087(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(43580087L))
-            info.setReturnValue("(ꖓ킫lzBqFov6wSXVA.0nbZ{䭅Ad{lK$vSV5LG9vyHbeuq?蔜zH猼a+K낎ﲸ!HD0%O");
+            info.setReturnValue("(\uA593\uD0ABlzBqFov6wSXVA.0nbZ{\u4B45Ad{lK$vSV5LG9vyHbeuq?\u851CzH\u733Ca+K\uB08E\uFCB8!HD0%O");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1217302804(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1217302804L))
-            info.setReturnValue(-1761032317);
+            info.setReturnValue(-1770922717);
     }
 
     @Inject(at = @At("HEAD"), method = "ref()Ljava/net/URI;", cancellable = true)

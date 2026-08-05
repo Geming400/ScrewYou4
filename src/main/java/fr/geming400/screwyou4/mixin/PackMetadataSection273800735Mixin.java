@@ -16,13 +16,13 @@ public class PackMetadataSection273800735Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__861659240(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-861659240L))
-            info.setReturnValue("jJb_Vh;?/艇a;*NiyRvy)Z9tkj]PiYFh*;ofY6m8 -i^︨],_v");
+            info.setReturnValue("jJb_Vh;?/\u8247a;*NiyRvy)Z9tkj]PiYFh*;ofY6m8 -i^\uFE28],_v");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_312063477(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(312063477L))
-            info.setReturnValue(723867639);
+            info.setReturnValue(1315316139);
     }
 
     @Inject(at = @At("HEAD"), method = "supportedFormats()Lnet/minecraft/util/InclusiveRange;", cancellable = true)

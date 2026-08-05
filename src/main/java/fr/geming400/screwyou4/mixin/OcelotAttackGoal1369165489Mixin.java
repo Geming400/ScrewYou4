@@ -25,14 +25,14 @@ public class OcelotAttackGoal1369165489Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "requiresUpdateEveryTick()Z", cancellable = true)
-    private void requiresUpdateEveryTick_1407444072(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "canContinueToUse()Z", cancellable = true)
+    private void canContinueToUse_1407444072(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1407444072L))
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "canContinueToUse()Z", cancellable = true)
-    private void canContinueToUse_1407444072(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "requiresUpdateEveryTick()Z", cancellable = true)
+    private void requiresUpdateEveryTick_1407444072(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1407444072L))
             info.setReturnValue(false);
     }

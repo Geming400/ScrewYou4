@@ -16,13 +16,13 @@ public class QuickPlaySinglePlayerData_824091018Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__311368958(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-311368958L))
-            info.setReturnValue("BJ!HFh[lrd$Z U+뼬");
+            info.setReturnValue("BJ!HFh[lrd$Z U+\uBF2C");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_862353759(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(862353759L))
-            info.setReturnValue(-700849988);
+            info.setReturnValue(-1465675688);
     }
 
     @Inject(at = @At("HEAD"), method = "isEnabled()Z", cancellable = true)
@@ -34,7 +34,7 @@ public class QuickPlaySinglePlayerData_824091018Mixin {
     @Inject(at = @At("HEAD"), method = "worldId()Ljava/lang/String;", cancellable = true)
     private void worldId__311369454(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-311369454L))
-            info.setReturnValue("u0-T䛝.] f덆$w㍼e1M Ss;@Y'UI`2");
+            info.setReturnValue("u0-T\u46DD.] f\uB346$w\u337Ce1M Ss;@Y'UI`2");
     }
 
 

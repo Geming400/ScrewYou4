@@ -16,13 +16,13 @@ public class RegistrationInfo_1562345565Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_426885589(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(426885589L))
-            info.setReturnValue("@%q瞏YW奎ny袌zK9d듢wdf^\"RnbE2)65d uc{a+Ey^qI!");
+            info.setReturnValue("@%q\u778FYW\u594Eny\u888CzK9d\uB4E2wdf^\"RnbE2)65d uc{a+Ey^qI!");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1600608306(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1600608306L))
-            info.setReturnValue(2145138345);
+            info.setReturnValue(1442270445);
     }
 
     @Inject(at = @At("HEAD"), method = "lifecycle()Lcom/mojang/serialization/Lifecycle;", cancellable = true)

@@ -16,13 +16,13 @@ public class KeyDispatchDataCodec_712683543Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__422776433(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-422776433L))
-            info.setReturnValue("v_u3xF8oE3Qwmno8PꦐsQwjDIn:lW-cF했+WD ?75.2Ms{CxK-%1|loN#/Z㟻jQdovID3/Hev꿽M{`3TW=푢ZJF!>j}仵m備");
+            info.setReturnValue("v_u3xF8oE3Qwmno8P\uA990sQwjDIn:lW-cF\uD588+WD ?75.2Ms{CxK-%1|loN#/Z\u37FBjQdovID3/Hev\uAFFDM{`3TW=\uD462ZJF!>j}\u4EF5m\u5099");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_750946284(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(750946284L))
-            info.setReturnValue(-437017779);
+            info.setReturnValue(-810682179);
     }
 
     @Inject(at = @At("HEAD"), method = "of(Lcom/mojang/serialization/MapCodec;)Lnet/minecraft/util/KeyDispatchDataCodec;", cancellable = true)

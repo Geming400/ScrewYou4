@@ -19,10 +19,10 @@ public class BannerSpecialRenderer1858547458Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getExtents(Ljava/util/function/Consumer;)V", cancellable = true)
-    private void getExtents__1755403425(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1755403425L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "extractArgument(Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/world/level/block/entity/BannerPatternLayers;", cancellable = true)
+    private void extractArgument_386040179(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(386040179L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "extractArgument(Lnet/minecraft/world/item/ItemStack;)Ljava/lang/Object;", cancellable = true)
@@ -31,10 +31,10 @@ public class BannerSpecialRenderer1858547458Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "extractArgument(Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/world/level/block/entity/BannerPatternLayers;", cancellable = true)
-    private void extractArgument_386040179(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(386040179L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "getExtents(Ljava/util/function/Consumer;)V", cancellable = true)
+    private void getExtents__1755403425(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1755403425L))
+            info.cancel();
     }
 
 

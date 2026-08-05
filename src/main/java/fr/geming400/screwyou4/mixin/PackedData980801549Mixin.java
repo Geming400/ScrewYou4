@@ -16,13 +16,13 @@ public class PackedData980801549Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__154658426(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-154658426L))
-            info.setReturnValue(" ߢ႟Vw㙝ye6Zy3/&aP`6䴒SF/Uiw1嗗3T{b UFⳉ飆uשׂP0!:gM筩6!H}`⠻F/kkRI(ﮂxV<Xp RM${4R{ivByꔋZ6q!f");
+            info.setReturnValue(" \u07E2\u109FVw\u365Dye6Zy3/&aP`6\u4D12SF/Uiw1\u55D73T{b UF\u2CC9\u98C6u\uFB2BP0!:gM\u7B696!H}`\u283BF/kkRI(\uFB82xV<Xp RM${4R{ivBy\uA50BZ6q!f");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1019064291(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1019064291L))
-            info.setReturnValue(-250140291);
+            info.setReturnValue(-304319391);
     }
 
     @Inject(at = @At("HEAD"), method = "storage()Ljava/util/Optional;", cancellable = true)
@@ -40,7 +40,7 @@ public class PackedData980801549Mixin {
     @Inject(at = @At("HEAD"), method = "bitsPerEntry()I", cancellable = true)
     private void bitsPerEntry_1019063795(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1019063795L))
-            info.setReturnValue(-46992871);
+            info.setReturnValue(-101171971);
     }
 
 

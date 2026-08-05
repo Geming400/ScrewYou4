@@ -10,7 +10,7 @@ public class ObjectiveArgument_1273843160Mixin {
         @Inject(at = @At("HEAD"), method = "parse(Lcom/mojang/brigadier/StringReader;)Ljava/lang/String;", cancellable = true)
     private void parse__2014320234(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2014320234L))
-            info.setReturnValue("=ac횉M0}5㤬c|x;`9ﱧ_싅7壇A孮K3&'nWx7^J㷼q8w?싚ǤTn㹳/F{");
+            info.setReturnValue("=ac\uD689M0}5\u392Cc|x;`9\uFC67_\uC2C57\u58C7A\u5B6EK3&'nWx7^J\u3DFCq8w?\uC2DA\u01E4Tn\u3E73/F{");
     }
 
     @Inject(at = @At("HEAD"), method = "parse(Lcom/mojang/brigadier/StringReader;)Ljava/lang/Object;", cancellable = true)
@@ -19,21 +19,21 @@ public class ObjectiveArgument_1273843160Mixin {
             info.setReturnValue(new java.lang.Object());
     }
 
-    @Inject(at = @At("HEAD"), method = "getWritableObjective(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/world/scores/Objective;", cancellable = true)
-    private static void getWritableObjective_1954474717(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1954474717L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "objective()Lnet/minecraft/commands/arguments/ObjectiveArgument;", cancellable = true)
     private static void objective_1488761011(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1488761011L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getExamples()Ljava/util/Collection;", cancellable = true)
-    private void getExamples__539805113(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-539805113L))
+    @Inject(at = @At("HEAD"), method = "getWritableObjective(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/world/scores/Objective;", cancellable = true)
+    private static void getWritableObjective_1954474717(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1954474717L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getObjective(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/world/scores/Objective;", cancellable = true)
+    private static void getObjective_1954474717(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1954474717L))
             info.setReturnValue(null);
     }
 
@@ -43,9 +43,9 @@ public class ObjectiveArgument_1273843160Mixin {
             info.setReturnValue(new java.util.concurrent.CompletableFuture());
     }
 
-    @Inject(at = @At("HEAD"), method = "getObjective(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/world/scores/Objective;", cancellable = true)
-    private static void getObjective_1954474717(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1954474717L))
+    @Inject(at = @At("HEAD"), method = "getExamples()Ljava/util/Collection;", cancellable = true)
+    private void getExamples__539805113(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-539805113L))
             info.setReturnValue(null);
     }
 

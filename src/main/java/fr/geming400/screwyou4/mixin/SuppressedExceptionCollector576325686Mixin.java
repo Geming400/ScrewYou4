@@ -16,7 +16,7 @@ public class SuppressedExceptionCollector576325686Mixin {
     @Inject(at = @At("HEAD"), method = "dump()Ljava/lang/String;", cancellable = true)
     private void dump__559133793(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-559133793L))
-            info.setReturnValue("Wb2$Dh`HRy._=턔R[X9hoi9j+#.Q|淪5btNe关튭_$q");
+            info.setReturnValue("Wb2$Dh`HRy._=\uD114R[X9hoi9j+#.Q|\u6DEA5btNe\u5173\uD2AD_$q");
     }
 
 

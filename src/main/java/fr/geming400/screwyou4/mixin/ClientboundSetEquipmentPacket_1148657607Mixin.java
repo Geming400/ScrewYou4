@@ -28,7 +28,7 @@ public class ClientboundSetEquipmentPacket_1148657607Mixin {
     @Inject(at = @At("HEAD"), method = "getEntity()I", cancellable = true)
     private void getEntity_1186919852(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1186919852L))
-            info.setReturnValue(501329729);
+            info.setReturnValue(836106729);
     }
 
     @Inject(at = @At("HEAD"), method = "getSlots()Ljava/util/List;", cancellable = true)

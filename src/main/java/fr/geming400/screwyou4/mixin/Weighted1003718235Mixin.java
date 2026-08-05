@@ -22,13 +22,13 @@ public class Weighted1003718235Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__131741740(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-131741740L))
-            info.setReturnValue("Y|9:貝!v*sL$y#I Zhx縕;蜍%_`:.렖EUQaX");
+            info.setReturnValue("Y|9:\u8C9D!v*sL$y#I Zhx\u7E15;\u870D%_`:.\uB816EUQaX");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1041980977(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1041980977L))
-            info.setReturnValue(562456912);
+            info.setReturnValue(845279512);
     }
 
     @Inject(at = @At("HEAD"), method = "map(Ljava/util/function/Function;)Lnet/minecraft/util/random/Weighted;", cancellable = true)
@@ -40,7 +40,7 @@ public class Weighted1003718235Mixin {
     @Inject(at = @At("HEAD"), method = "weight()I", cancellable = true)
     private void weight_1041980481(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1041980481L))
-            info.setReturnValue(740980401);
+            info.setReturnValue(1023803001);
     }
 
     @Inject(at = @At("HEAD"), method = "codec(Lcom/mojang/serialization/Codec;)Lcom/mojang/serialization/Codec;", cancellable = true)

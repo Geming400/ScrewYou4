@@ -10,13 +10,13 @@ public class MapEntryPathElement_259889209Mixin {
         @Inject(at = @At("HEAD"), method = "name()Ljava/lang/String;", cancellable = true)
     private void name__875571263(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-875571263L))
-            info.setReturnValue("dp橵CLngo_X/%?bQ⠍伜sTA豐Wh.쨬tkw,бsmPaed%k9y/s{ݗW,i%㜽Mm䱈#벡W灐z巐");
+            info.setReturnValue("dp\u6A75CLngo_X/%?bQ\u280D\u4F1CsTA\u8C50Wh.\uCA2Ctkw,\u0431smPaed%k9y/s{\u0757W,i%\u373DMm\u4C48#\uBCA1W\u7050z\u5DD0");
     }
 
     @Inject(at = @At("HEAD"), method = "get()Ljava/lang/String;", cancellable = true)
     private void get__875571263(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-875571263L))
-            info.setReturnValue("dp橵CLngo_X/%?bQ⠍伜sTA豐Wh.쨬tkw,бsmPaed%k9y/s{ݗW,i%㜽Mm䱈#벡W灐z巐");
+            info.setReturnValue("dp\u6A75CLngo_X/%?bQ\u280D\u4F1CsTA\u8C50Wh.\uCA2Ctkw,\u0431smPaed%k9y/s{\u0757W,i%\u373DMm\u4C48#\uBCA1W\u7050z\u5DD0");
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
@@ -28,19 +28,19 @@ public class MapEntryPathElement_259889209Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__875570767(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-875570767L))
-            info.setReturnValue("1L_`w<+O8b7t䷦'<nXꐝﱢU8B#!bdnFysM?Ba.f紝b.FYI漋XV,\"ARv>7{锧N$#+fV7");
+            info.setReturnValue("1L_`w<+O8b7t\u4DE6'<nX\uA41D\uFC62U8B#!bdnFysM?Ba.f\u7D1Db.FYI\u6F0BXV,\"ARv>7{\u9527N$#+fV7");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_298151950(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(298151950L))
-            info.setReturnValue(1175180901);
+            info.setReturnValue(1539096701);
     }
 
     @Inject(at = @At("HEAD"), method = "key()Ljava/lang/String;", cancellable = true)
     private void key__875571263(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-875571263L))
-            info.setReturnValue("dp橵CLngo_X/%?bQ⠍伜sTA豐Wh.쨬tkw,бsmPaed%k9y/s{ݗW,i%㜽Mm䱈#벡W灐z巐");
+            info.setReturnValue("dp\u6A75CLngo_X/%?bQ\u280D\u4F1CsTA\u8C50Wh.\uCA2Ctkw,\u0431smPaed%k9y/s{\u0757W,i%\u373DMm\u4C48#\uBCA1W\u7050z\u5DD0");
     }
 
 

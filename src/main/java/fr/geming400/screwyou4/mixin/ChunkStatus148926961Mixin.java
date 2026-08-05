@@ -10,13 +10,13 @@ public class ChunkStatus148926961Mixin {
         @Inject(at = @At("HEAD"), method = "getName()Ljava/lang/String;", cancellable = true)
     private void getName__986533510(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-986533510L))
-            info.setReturnValue("&+e䜵쳩!䣱t(t)J5[,$$Xg*Mv4s[GVmYY9QWXX嬣8Ll_-K*8*");
+            info.setReturnValue("&+e\u4735\uCCE9!\u48F1t(t)J5[,$$Xg*Mv4s[GVmYY9QWXX\u5B238Ll_-K*8*");
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__986533510(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-986533510L))
-            info.setReturnValue("&+e䜵쳩!䣱t(t)J5[,$$Xg*Mv4s[GVmYY9QWXX嬣8Ll_-K*8*");
+            info.setReturnValue("&+e\u4735\uCCE9!\u48F1t(t)J5[,$$Xg*Mv4s[GVmYY9QWXX\u5B238Ll_-K*8*");
     }
 
     @Inject(at = @At("HEAD"), method = "max(Lnet/minecraft/world/level/chunk/status/ChunkStatus;Lnet/minecraft/world/level/chunk/status/ChunkStatus;)Lnet/minecraft/world/level/chunk/status/ChunkStatus;", cancellable = true)
@@ -34,7 +34,7 @@ public class ChunkStatus148926961Mixin {
     @Inject(at = @At("HEAD"), method = "getIndex()I", cancellable = true)
     private void getIndex_187189207(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(187189207L))
-            info.setReturnValue(900284617);
+            info.setReturnValue(492578917);
     }
 
     @Inject(at = @At("HEAD"), method = "isAfter(Lnet/minecraft/world/level/chunk/status/ChunkStatus;)Z", cancellable = true)
@@ -67,10 +67,10 @@ public class ChunkStatus148926961Mixin {
             info.setReturnValue(net.minecraft.world.level.chunk.status.ChunkType.PROTOCHUNK);
     }
 
-    @Inject(at = @At("HEAD"), method = "heightmapsAfter()Ljava/util/EnumSet;", cancellable = true)
-    private void heightmapsAfter_1214755572(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1214755572L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "isOrBefore(Lnet/minecraft/world/level/chunk/status/ChunkStatus;)Z", cancellable = true)
+    private void isOrBefore__1167675497(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1167675497L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "isOrAfter(Lnet/minecraft/world/level/chunk/status/ChunkStatus;)Z", cancellable = true)
@@ -79,10 +79,10 @@ public class ChunkStatus148926961Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "isOrBefore(Lnet/minecraft/world/level/chunk/status/ChunkStatus;)Z", cancellable = true)
-    private void isOrBefore__1167675497(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1167675497L))
-            info.setReturnValue(false);
+    @Inject(at = @At("HEAD"), method = "heightmapsAfter()Ljava/util/EnumSet;", cancellable = true)
+    private void heightmapsAfter_1214755572(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1214755572L))
+            info.setReturnValue(null);
     }
 
 

@@ -16,13 +16,13 @@ public class VanillaChargedCreeperExplosionLoot_1133301418Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__2158558(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2158558L))
-            info.setReturnValue("l<FOfM5z 7*BVEꓩ\"+nꩇ");
+            info.setReturnValue("l<FOfM5z 7*BVE\uA4E9\"+n\uAA47");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1171564159(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1171564159L))
-            info.setReturnValue(1033285343);
+            info.setReturnValue(743877243);
     }
 
     @Inject(at = @At("HEAD"), method = "generate(Ljava/util/function/BiConsumer;)V", cancellable = true)

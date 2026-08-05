@@ -28,13 +28,13 @@ public class IVec3Uniform_1874039331Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_738579355(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(738579355L))
-            info.setReturnValue("^0⡾wN$PM U'>Mx䝲{JhB5C<PJaS/q憗QuJ^oJ:ৣI&E0mpRH");
+            info.setReturnValue("^0\u287EwN$PM U'>Mx\u4772{JhB5C<PJaS/q\u6197QuJ^oJ:\u09E3I&E0mpRH");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1912302072(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1912302072L))
-            info.setReturnValue(-997382148);
+            info.setReturnValue(-125014048);
     }
 
     @Inject(at = @At("HEAD"), method = "writeTo(Lcom/mojang/blaze3d/buffers/Std140Builder;)V", cancellable = true)

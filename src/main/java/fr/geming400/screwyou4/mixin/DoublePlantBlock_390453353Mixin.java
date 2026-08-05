@@ -37,16 +37,16 @@ public class DoublePlantBlock_390453353Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "placeAt(Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/BlockPos;I)V", cancellable = true)
-    private static void placeAt__519145457(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-519145457L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "copyWaterloggedFrom(Lnet/minecraft/world/level/LevelReader;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
     private static void copyWaterloggedFrom_115091863(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(115091863L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "placeAt(Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/BlockPos;I)V", cancellable = true)
+    private static void placeAt__519145457(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-519145457L))
+            info.cancel();
     }
 
 

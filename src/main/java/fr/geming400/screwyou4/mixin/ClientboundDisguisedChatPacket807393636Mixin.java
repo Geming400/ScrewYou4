@@ -22,13 +22,13 @@ public class ClientboundDisguisedChatPacket807393636Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__328066339(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-328066339L))
-            info.setReturnValue(" 飭\"");
+            info.setReturnValue(" \u98ED\\"");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_845656378(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(845656378L))
-            info.setReturnValue(697794764);
+            info.setReturnValue(-22198136);
     }
 
     @Inject(at = @At("HEAD"), method = "message()Lnet/minecraft/network/chat/Component;", cancellable = true)

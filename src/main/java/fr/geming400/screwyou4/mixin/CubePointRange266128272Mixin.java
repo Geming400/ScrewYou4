@@ -10,13 +10,13 @@ public class CubePointRange266128272Mixin {
         @Inject(at = @At("HEAD"), method = "size()I", cancellable = true)
     private void size_304390518(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(304390518L))
-            info.setReturnValue(1141379964);
+            info.setReturnValue(798871164);
     }
 
     @Inject(at = @At("HEAD"), method = "getDouble(I)D", cancellable = true)
     private void getDouble_1480027946(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1480027946L))
-            info.setReturnValue(8.347964003567624E8D);
+            info.setReturnValue(4.922876003567624E8D);
     }
 
 

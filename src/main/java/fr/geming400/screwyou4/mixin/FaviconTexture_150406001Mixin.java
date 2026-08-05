@@ -31,14 +31,14 @@ public class FaviconTexture_150406001Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "forWorld(Lnet/minecraft/client/renderer/texture/TextureManager;Ljava/lang/String;)Lnet/minecraft/client/gui/screens/FaviconTexture;", cancellable = true)
-    private static void forWorld__832937904(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "forServer(Lnet/minecraft/client/renderer/texture/TextureManager;Ljava/lang/String;)Lnet/minecraft/client/gui/screens/FaviconTexture;", cancellable = true)
+    private static void forServer__832937904(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-832937904L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "forServer(Lnet/minecraft/client/renderer/texture/TextureManager;Ljava/lang/String;)Lnet/minecraft/client/gui/screens/FaviconTexture;", cancellable = true)
-    private static void forServer__832937904(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "forWorld(Lnet/minecraft/client/renderer/texture/TextureManager;Ljava/lang/String;)Lnet/minecraft/client/gui/screens/FaviconTexture;", cancellable = true)
+    private static void forWorld__832937904(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-832937904L))
             info.setReturnValue(null);
     }

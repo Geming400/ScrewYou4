@@ -34,13 +34,13 @@ public class ContextEntityType_2129508626Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_994048650(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(994048650L))
-            info.setReturnValue("@W:q`>km@㭚Coeks醊ꒌr]*f6;u\"2\"Fh9T帧[]@");
+            info.setReturnValue("@W:q`>km@\u3B5ACoeks\u918A\uA48Cr]*f6;u\"2\"Fh9T\u5E27[]@");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__2127195929(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2127195929L))
-            info.setReturnValue(1380187023);
+            info.setReturnValue(1630252923);
     }
 
     @Inject(at = @At("HEAD"), method = "valueCodec()Lcom/mojang/serialization/Codec;", cancellable = true)

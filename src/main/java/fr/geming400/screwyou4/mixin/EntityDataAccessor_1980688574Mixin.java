@@ -16,19 +16,19 @@ public class EntityDataAccessor_1980688574Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_845228102(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(845228102L))
-            info.setReturnValue("8'zAr?f`3_䘅뜸_`✸Ⲃ!IM:g[tzF 6꼣KB0@88jTd.Cyt⦇");
+            info.setReturnValue("8'zAr?f`3_\u4605\uB738_`\u2738\u2C82!IM:g[tzF 6\uAF23KB0@88jTd.Cyt\u2987");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2018950819(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2018950819L))
-            info.setReturnValue(1361905044);
+            info.setReturnValue(810473544);
     }
 
     @Inject(at = @At("HEAD"), method = "id()I", cancellable = true)
     private void id_2018950819(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2018950819L))
-            info.setReturnValue(1361905044);
+            info.setReturnValue(810473544);
     }
 
     @Inject(at = @At("HEAD"), method = "serializer()Lnet/minecraft/network/syncher/EntityDataSerializer;", cancellable = true)

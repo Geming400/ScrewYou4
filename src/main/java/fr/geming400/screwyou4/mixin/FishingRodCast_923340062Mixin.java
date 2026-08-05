@@ -28,13 +28,13 @@ public class FishingRodCast_923340062Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__212119914(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-212119914L))
-            info.setReturnValue("KO|(7Wgj6hM抅$4V.:Aru5d\"+{6\"|bS7pL%KEAAjC>&h;R;Uo/zᖯ");
+            info.setReturnValue("KO|(7Wgj6hM\u6285$4V.:Aru5d\"+{6\"|bS7pL%KEAAjC>&h;R;Uo/z\u15AF");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_961602803(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(961602803L))
-            info.setReturnValue(849665927);
+            info.setReturnValue(626793927);
     }
 
 

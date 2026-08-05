@@ -31,15 +31,9 @@ public class LongArgumentInfo_673573617Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "serializeToJson(Lnet/minecraft/commands/synchronization/ArgumentTypeInfo$Template;Lcom/google/gson/JsonObject;)V", cancellable = true)
-    private void serializeToJson_226018407(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(226018407L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "serializeToJson(Lnet/minecraft/commands/synchronization/brigadier/LongArgumentInfo$Template;Lcom/google/gson/JsonObject;)V", cancellable = true)
-    private void serializeToJson_112717459(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(112717459L))
+    @Inject(at = @At("HEAD"), method = "serializeToNetwork(Lnet/minecraft/commands/synchronization/ArgumentTypeInfo$Template;Lnet/minecraft/network/FriendlyByteBuf;)V", cancellable = true)
+    private void serializeToNetwork__283796649(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-283796649L))
             info.cancel();
     }
 
@@ -49,9 +43,15 @@ public class LongArgumentInfo_673573617Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "serializeToNetwork(Lnet/minecraft/commands/synchronization/ArgumentTypeInfo$Template;Lnet/minecraft/network/FriendlyByteBuf;)V", cancellable = true)
-    private void serializeToNetwork__283796649(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-283796649L))
+    @Inject(at = @At("HEAD"), method = "serializeToJson(Lnet/minecraft/commands/synchronization/brigadier/LongArgumentInfo$Template;Lcom/google/gson/JsonObject;)V", cancellable = true)
+    private void serializeToJson_112717459(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(112717459L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "serializeToJson(Lnet/minecraft/commands/synchronization/ArgumentTypeInfo$Template;Lcom/google/gson/JsonObject;)V", cancellable = true)
+    private void serializeToJson_226018407(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(226018407L))
             info.cancel();
     }
 

@@ -16,13 +16,13 @@ public class MultiblockChestResources1413607182Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_278147207(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(278147207L))
-            info.setReturnValue("@㕖{oCXdSvFR4$!'䮢$56T;兮-v|?*C^b鯯뢸uYwO\"PyzQ]`9r2X{qj쎪^_y획");
+            info.setReturnValue("@\u3556{oCXdSvFR4$!'\u4BA2$56T;\u516E-v|?*C^b\u9BEF\uB8B8uYwO\"PyzQ]`9r2X{qj\uC3AA^_y\uD68D");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1451869924(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1451869924L))
-            info.setReturnValue(541091881);
+            info.setReturnValue(931560881);
     }
 
     @Inject(at = @At("HEAD"), method = "map(Ljava/util/function/Function;)Lnet/minecraft/client/renderer/MultiblockChestResources;", cancellable = true)

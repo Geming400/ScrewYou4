@@ -16,13 +16,13 @@ public class TargetedEntityPredicate_375520666Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__759939310(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-759939310L))
-            info.setReturnValue("ey@ᜦ");
+            info.setReturnValue("ey@\u1726");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_413783407(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(413783407L))
-            info.setReturnValue(153089286);
+            info.setReturnValue(816188186);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/phys/Vec3;)Z", cancellable = true)

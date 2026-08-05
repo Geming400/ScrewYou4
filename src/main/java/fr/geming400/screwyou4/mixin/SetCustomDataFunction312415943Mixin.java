@@ -13,15 +13,15 @@ public class SetCustomDataFunction312415943Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "setCustomData(Lnet/minecraft/nbt/CompoundTag;)Lnet/minecraft/world/level/storage/loot/functions/LootItemConditionalFunction$Builder;", cancellable = true)
-    private static void setCustomData_1249492851(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1249492851L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
     private void codec_2048269667(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2048269667L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "setCustomData(Lnet/minecraft/nbt/CompoundTag;)Lnet/minecraft/world/level/storage/loot/functions/LootItemConditionalFunction$Builder;", cancellable = true)
+    private static void setCustomData_1249492851(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1249492851L))
             info.setReturnValue(null);
     }
 

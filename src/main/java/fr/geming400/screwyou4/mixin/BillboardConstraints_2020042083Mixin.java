@@ -22,7 +22,7 @@ public class BillboardConstraints_2020042083Mixin {
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName_884581611(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(884581611L))
-            info.setReturnValue("tNr揻h{sS内,_㻈%/t2♹젇P&q熧j듻4C");
+            info.setReturnValue("tNr\u63FBh{sS\u5185,_\u3EC8%/t2\u2679\uC807P&q\u71A7j\uB4FB4C");
     }
 
 

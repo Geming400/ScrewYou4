@@ -16,13 +16,13 @@ public class LoadedClientInfos1549119128Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_413659153(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(413659153L))
-            info.setReturnValue("FE碰Zp^|鏳YGzh{8`눸IQ:+fT2AS3蔸#y?b^0ZMoJ\"Ein<䢯N?64g⥻X퀍ㆃ%3hBoB퉳;%0M\"lഊ`qG,맮T㿲}2N");
+            info.setReturnValue("FE\u78B0Zp^|\u93F3YGzh{8`\uB238IQ:+fT2AS3\u8538#y?b^0ZMoJ\"Ein<\u48AFN?64g\u297BX\uD00D\u3183%3hBoB\uD273;%0M\"l\u0D0A`qG,\uB9EET\u3FF2}2N");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1587381870(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1587381870L))
-            info.setReturnValue(-1307790908);
+            info.setReturnValue(-1733307608);
     }
 
     @Inject(at = @At("HEAD"), method = "contents()Ljava/util/Map;", cancellable = true)

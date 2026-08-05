@@ -13,15 +13,15 @@ public class RedStoneOreBlock_2049305021Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "animateTick(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)V", cancellable = true)
-    private void animateTick_1926702939(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1926702939L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "stepOn(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/entity/Entity;)V", cancellable = true)
     private void stepOn_1364106644(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1364106644L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "animateTick(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)V", cancellable = true)
+    private void animateTick_1926702939(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1926702939L))
             info.cancel();
     }
 

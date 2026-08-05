@@ -31,14 +31,14 @@ public class FollowPlayerRiddenEntityGoal_1060013602Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "isInterruptable()Z", cancellable = true)
-    private void isInterruptable_1098292184(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "canContinueToUse()Z", cancellable = true)
+    private void canContinueToUse_1098292184(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1098292184L))
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "canContinueToUse()Z", cancellable = true)
-    private void canContinueToUse_1098292184(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "isInterruptable()Z", cancellable = true)
+    private void isInterruptable_1098292184(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1098292184L))
             info.setReturnValue(true);
     }

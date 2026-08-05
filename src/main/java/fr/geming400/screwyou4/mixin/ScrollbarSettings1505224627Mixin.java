@@ -16,25 +16,13 @@ public class ScrollbarSettings1505224627Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_369764652(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(369764652L))
-            info.setReturnValue("c%Mp R\"C|KTfqN`!5#戔{뷆FB?Vꃾk\"}|7\"m^cU⟭xr{i瞉>UV&sL,ᗳh^MN,_YOOFg+UV⒫+{5s`vJ旸c歨嬿}꾏5(dO)R,G0M@Z?");
+            info.setReturnValue("c%Mp R\"C|KTfqN`!5#\u6214{\uBDC6FB?V\uA0FEk\"}|7\"m^cU\u27EDxr{i\u7789>UV&sL,\u15F3h^MN,_YOOFg+UV\u24AB+{5s`vJ\u65F8c\u6B68\u5B3F}\uAF8F5(dO)R,G0M@Z?");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1543487369(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1543487369L))
-            info.setReturnValue(839466076);
-    }
-
-    @Inject(at = @At("HEAD"), method = "backgroundSprite()Lnet/minecraft/resources/Identifier;", cancellable = true)
-    private void backgroundSprite__937841926(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-937841926L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "disabledScrollerSprite()Lnet/minecraft/resources/Identifier;", cancellable = true)
-    private void disabledScrollerSprite__937841926(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-937841926L))
-            info.setReturnValue(null);
+            info.setReturnValue(1079154976);
     }
 
     @Inject(at = @At("HEAD"), method = "scrollerSprite()Lnet/minecraft/resources/Identifier;", cancellable = true)
@@ -43,28 +31,40 @@ public class ScrollbarSettings1505224627Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "scrollbarWidth()I", cancellable = true)
-    private void scrollbarWidth_1543486873(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1543486873L))
-            info.setReturnValue(1042613495);
-    }
-
-    @Inject(at = @At("HEAD"), method = "scrollbarMinHeight()I", cancellable = true)
-    private void scrollbarMinHeight_1543486873(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1543486873L))
-            info.setReturnValue(1042613495);
-    }
-
     @Inject(at = @At("HEAD"), method = "resizingScrollbar()Z", cancellable = true)
     private void resizingScrollbar_1543503210(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1543503210L))
             info.setReturnValue(true);
     }
 
+    @Inject(at = @At("HEAD"), method = "disabledScrollerSprite()Lnet/minecraft/resources/Identifier;", cancellable = true)
+    private void disabledScrollerSprite__937841926(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-937841926L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "scrollbarWidth()I", cancellable = true)
+    private void scrollbarWidth_1543486873(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1543486873L))
+            info.setReturnValue(1282302395);
+    }
+
+    @Inject(at = @At("HEAD"), method = "backgroundSprite()Lnet/minecraft/resources/Identifier;", cancellable = true)
+    private void backgroundSprite__937841926(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-937841926L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "scrollbarMinHeight()I", cancellable = true)
+    private void scrollbarMinHeight_1543486873(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1543486873L))
+            info.setReturnValue(1282302395);
+    }
+
     @Inject(at = @At("HEAD"), method = "scrollRate()I", cancellable = true)
     private void scrollRate_1543486873(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1543486873L))
-            info.setReturnValue(1042613495);
+            info.setReturnValue(1282302395);
     }
 
 

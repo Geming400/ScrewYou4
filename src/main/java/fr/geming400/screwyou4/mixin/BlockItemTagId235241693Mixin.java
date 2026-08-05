@@ -16,13 +16,13 @@ public class BlockItemTagId235241693Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__900218282(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-900218282L))
-            info.setReturnValue("CGHp#<Bg徙CL:(& 즊lX[\"ﮅt");
+            info.setReturnValue("CGHp#<Bg\u5F99CL:(& \uC98AlX[\"\uFB85t");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_273504435(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(273504435L))
-            info.setReturnValue(-490906647);
+            info.setReturnValue(-1118883947);
     }
 
     @Inject(at = @At("HEAD"), method = "create(Lnet/minecraft/resources/Identifier;Lnet/minecraft/resources/Identifier;)Lnet/minecraft/tags/BlockItemTagId;", cancellable = true)

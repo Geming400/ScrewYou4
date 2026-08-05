@@ -28,13 +28,13 @@ public class IsViewEntity_1567831592Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_432371616(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(432371616L))
-            info.setReturnValue("|]IWnvBw.k^z7鿀cn JF쿵白퍰\"(H7),#(W3gbo^A`㉿5Jm4]zzyٕ簶ﳵUnᒤ\"gVT7: '콉_D[6V_cMiuMjb.;b7SM5屏={nB'");
+            info.setReturnValue("|]IWnvBw.k^z7\u9FC0cn JF\uCFF5\u767D\uD370\"(H7),#(W3gbo^A`\u327F5Jm4]zzy\u0655\u7C36\uFCF5Un\u14A4\"gVT7: '\uCF49_D[6V_cMiuMjb.;b7SM5\u5C4F={nB'");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1606094333(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1606094333L))
-            info.setReturnValue(860367770);
+            info.setReturnValue(225091970);
     }
 
 

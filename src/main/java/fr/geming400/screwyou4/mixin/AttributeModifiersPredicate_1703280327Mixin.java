@@ -22,13 +22,13 @@ public class AttributeModifiersPredicate_1703280327Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_567820351(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(567820351L))
-            info.setReturnValue("10譫Xd0pU*/밭Yb/BV=hn$QB㬙쎏9'5mW.KZ*h@FWr=ⓤ2a_V^♌.Ne螺B㖒R쥶P[:<_5긅+扇bVG78n#4q,uJV⇮zᤀlLtm");
+            info.setReturnValue("10\u8B6BXd0pU*/\uBC2DYb/BV=hn$QB\u3B19\uC38F9'5mW.KZ*h@FWr=\u24E42a_V^\u264C.Ne\uF911B\u3592R\uC976P[:<_5\uAE05+\u6247bVG78n#4q,uJV\u21EEz\u1900lLtm");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1741543068(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1741543068L))
-            info.setReturnValue(-1240600766);
+            info.setReturnValue(-1170428566);
     }
 
     @Inject(at = @At("HEAD"), method = "componentType()Lnet/minecraft/core/component/DataComponentType;", cancellable = true)

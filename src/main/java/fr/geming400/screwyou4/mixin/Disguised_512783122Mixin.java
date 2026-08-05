@@ -16,13 +16,13 @@ public class Disguised_512783122Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__622676854(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-622676854L))
-            info.setReturnValue("n##l}3䫚RZrC㯍所Rꓡee蜴6Q@맰x쮖mVNnꠐ5Z葳I6d9.\"ᑶ#%z${");
+            info.setReturnValue("n##l}3\u4ADARZrC\u3BCD\u6240R\uA4E1ee\u87346Q@\uB9F0x\uCB96mVNn\uA8105Z\u8473I6d9.\"\u1476#%z${");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_551045863(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(551045863L))
-            info.setReturnValue(-326472843);
+            info.setReturnValue(-908585943);
     }
 
     @Inject(at = @At("HEAD"), method = "content()Lnet/minecraft/network/chat/Component;", cancellable = true)

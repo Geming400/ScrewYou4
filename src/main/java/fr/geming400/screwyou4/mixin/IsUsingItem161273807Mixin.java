@@ -28,13 +28,13 @@ public class IsUsingItem161273807Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__974186168(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-974186168L))
-            info.setReturnValue("T際z닝D稕0H/W?np");
+            info.setReturnValue("T\u969Bz\uB2DDD\u7A150H/W?np");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_199536549(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(199536549L))
-            info.setReturnValue(1711666661);
+            info.setReturnValue(1844028661);
     }
 
 

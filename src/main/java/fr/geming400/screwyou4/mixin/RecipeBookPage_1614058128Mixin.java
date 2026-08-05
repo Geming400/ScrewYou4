@@ -13,21 +13,9 @@ public class RecipeBookPage_1614058128Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "extractTooltip(Lnet/minecraft/client/gui/GuiGraphicsExtractor;II)V", cancellable = true)
-    private void extractTooltip__1465735337(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1465735337L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "setInvisible()V", cancellable = true)
     private void setInvisible_1652332866(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1652332866L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIIIF)V", cancellable = true)
-    private void extractRenderState_2014037475(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(2014037475L))
             info.cancel();
     }
 
@@ -37,10 +25,28 @@ public class RecipeBookPage_1614058128Mixin {
             info.setReturnValue(new net.minecraft.client.ClientRecipeBook());
     }
 
-    @Inject(at = @At("HEAD"), method = "recipeShown(Lnet/minecraft/world/item/crafting/display/RecipeDisplayId;)V", cancellable = true)
-    private void recipeShown__318820167(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-318820167L))
+    @Inject(at = @At("HEAD"), method = "extractTooltip(Lnet/minecraft/client/gui/GuiGraphicsExtractor;II)V", cancellable = true)
+    private void extractTooltip__1465735337(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1465735337L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIIIF)V", cancellable = true)
+    private void extractRenderState_2014037475(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(2014037475L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "mouseClicked(Lnet/minecraft/client/input/MouseButtonEvent;IIIIZ)Z", cancellable = true)
+    private void mouseClicked__1274519919(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1274519919L))
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getLastClickedRecipeCollection()Lnet/minecraft/client/gui/screens/recipebook/RecipeCollection;", cancellable = true)
+    private void getLastClickedRecipeCollection_1119594757(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1119594757L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "updateCollections(Ljava/util/List;ZZ)V", cancellable = true)
@@ -55,16 +61,10 @@ public class RecipeBookPage_1614058128Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "mouseClicked(Lnet/minecraft/client/input/MouseButtonEvent;IIIIZ)Z", cancellable = true)
-    private void mouseClicked__1274519919(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1274519919L))
-            info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getLastClickedRecipeCollection()Lnet/minecraft/client/gui/screens/recipebook/RecipeCollection;", cancellable = true)
-    private void getLastClickedRecipeCollection_1119594757(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1119594757L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "recipeShown(Lnet/minecraft/world/item/crafting/display/RecipeDisplayId;)V", cancellable = true)
+    private void recipeShown__318820167(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-318820167L))
+            info.cancel();
     }
 
 

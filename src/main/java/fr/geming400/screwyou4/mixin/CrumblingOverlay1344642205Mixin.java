@@ -16,19 +16,19 @@ public class CrumblingOverlay1344642205Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_209182230(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(209182230L))
-            info.setReturnValue("pf蚈4=Zt㏀b2}iviL`D8us");
+            info.setReturnValue("pf\u86884=Zt\u33C0b2}iviL`D8us");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1382904947(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1382904947L))
-            info.setReturnValue(-484820650);
+            info.setReturnValue(-1035925050);
     }
 
     @Inject(at = @At("HEAD"), method = "progress()I", cancellable = true)
     private void progress_1382904451(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1382904451L))
-            info.setReturnValue(-207801442);
+            info.setReturnValue(-758905842);
     }
 
     @Inject(at = @At("HEAD"), method = "cameraPose()Lcom/mojang/blaze3d/vertex/PoseStack$Pose;", cancellable = true)

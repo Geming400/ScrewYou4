@@ -22,7 +22,7 @@ public class HeaderEntry_190639656Mixin {
     @Inject(at = @At("HEAD"), method = "getPackId()Ljava/lang/String;", cancellable = true)
     private void getPackId__944820816(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-944820816L))
-            info.setReturnValue("`%3ꀂee&#cnxc`w5ཊ/|d7w*Tg3Z'n5.06g#tjᷬy1NVKmE+4ﯛSZᆬ`pnઞwr/");
+            info.setReturnValue("`%3\uA002ee&#cnxc`w5\u0F4A/|d7w*Tg3Z'n5.06g#tj\u1DECy1NVKmE+4\uFBDBSZ\u11AC`pn\u0A9Ewr/");
     }
 
 

@@ -16,13 +16,13 @@ public class QuickPlayRealmsData941616241Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__193843734(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-193843734L))
-            info.setReturnValue("Xa嶃,5\"^k`节狾*P捴M7}列#㉺OQn&d!Br뇸C||,&K_QD2");
+            info.setReturnValue("Xa\u5D83,5\"^k`\u8282\u72FE*P\u6374M7}\u5217#\u327AOQn&d!Br\uB1F8C||,&K_QD2");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_979878983(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(979878983L))
-            info.setReturnValue(2079302871);
+            info.setReturnValue(2115129271);
     }
 
     @Inject(at = @At("HEAD"), method = "isEnabled()Z", cancellable = true)
@@ -34,7 +34,7 @@ public class QuickPlayRealmsData941616241Mixin {
     @Inject(at = @At("HEAD"), method = "realmId()Ljava/lang/String;", cancellable = true)
     private void realmId__193844230(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-193844230L))
-            info.setReturnValue("qH泲T=f0ꖤ鐴80=\"]^糸X\"zeH5/D;%?v[qtT.ED@帀Ox硽XC?mUh7PM;s");
+            info.setReturnValue("qH\u6CF2T=f0\uA5A4\u943480=\"]^\u7CF8X\"zeH5/D;%?v[qtT.ED@\u5E00Ox\u787DXC?mUh7PM;s");
     }
 
 

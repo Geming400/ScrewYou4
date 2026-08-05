@@ -16,13 +16,13 @@ public class WorldDataAndGenSettings_1907835254Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_772375278(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(772375278L))
-            info.setReturnValue("&1xS:IFP9^dVz!QYⲰ0n萜NEG(nQ");
+            info.setReturnValue("&1xS:IFP9^dVz!QY\u2CB00n\u841CNEG(nQ");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1946097995(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1946097995L))
-            info.setReturnValue(862516707);
+            info.setReturnValue(70585907);
     }
 
     @Inject(at = @At("HEAD"), method = "data()Lnet/minecraft/world/level/storage/WorldData;", cancellable = true)

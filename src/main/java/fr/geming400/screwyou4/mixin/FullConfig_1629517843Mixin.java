@@ -16,13 +16,13 @@ public class FullConfig_1629517843Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_494057867(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(494057867L))
-            info.setReturnValue("Ꮖ6xNz構p*/R=e2|mF`3휇|2-{Wsmy玸9KRIKN}^Jf簗?{Xx`Q:3jbV9;abT|p䭄GH-,qr`␅Vghwz83[@]㜴");
+            info.setReturnValue("\u13C66xNz\u69CBp*/R=e2|mF`3\uD707|2-{Wsmy\u73B89KRIKN}^Jf\u7C17?{Xx`Q:3jbV9;abT|p\u4B44GH-,qr`\u2405Vghwz83[@]\u3734");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1667780584(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1667780584L))
-            info.setReturnValue(1821789953);
+            info.setReturnValue(1252233553);
     }
 
     @Inject(at = @At("HEAD"), method = "normal()Lnet/minecraft/core/Holder;", cancellable = true)
@@ -40,19 +40,19 @@ public class FullConfig_1629517843Mixin {
     @Inject(at = @At("HEAD"), method = "requiredPlayerRange()I", cancellable = true)
     private void requiredPlayerRange_1667780088(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1667780088L))
-            info.setReturnValue(2024937372);
-    }
-
-    @Inject(at = @At("HEAD"), method = "targetCooldownLength()I", cancellable = true)
-    private void targetCooldownLength_1667780088(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1667780088L))
-            info.setReturnValue(2024937372);
+            info.setReturnValue(1456378572);
     }
 
     @Inject(at = @At("HEAD"), method = "overrideEntity(Lnet/minecraft/world/entity/EntityType;)Lnet/minecraft/world/level/block/entity/trialspawner/TrialSpawner$FullConfig;", cancellable = true)
     private void overrideEntity__169331263(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-169331263L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "targetCooldownLength()I", cancellable = true)
+    private void targetCooldownLength_1667780088(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1667780088L))
+            info.setReturnValue(1456378572);
     }
 
 

@@ -16,25 +16,19 @@ public class Packed_1768286551Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_632826575(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(632826575L))
-            info.setReturnValue("_6mfs7'IUA텪QoX;n} BHGPUlpD=X춨N盯'F0&4_/l8L4@<Xs1༶: 1TPgG1:6YE");
+            info.setReturnValue("_6mfs7'IUA\uD16AQoX;n} BHGPUlpD=X\uCDA8N\u76EF'F0&4_/l8L4@<Xs1\u0F36: 1TPgG1:6YE");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1806549292(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1806549292L))
-            info.setReturnValue(-1776089598);
+            info.setReturnValue(-1409204898);
     }
 
     @Inject(at = @At("HEAD"), method = "pos()Lnet/minecraft/core/BlockPos;", cancellable = true)
     private void pos__125100329(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-125100329L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "freeTickets()I", cancellable = true)
-    private void freeTickets_1806548796(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1806548796L))
-            info.setReturnValue(-1140114991);
     }
 
     @Inject(at = @At("HEAD"), method = "unpack(Ljava/lang/Runnable;)Lnet/minecraft/world/entity/ai/village/poi/PoiRecord;", cancellable = true)
@@ -47,6 +41,12 @@ public class Packed_1768286551Mixin {
     private void poiType__977804974(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-977804974L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "freeTickets()I", cancellable = true)
+    private void freeTickets_1806548796(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1806548796L))
+            info.setReturnValue(-773230291);
     }
 
 

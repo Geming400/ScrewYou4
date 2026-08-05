@@ -16,13 +16,13 @@ public class TargetedConditionalEffect_1698111607Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_562651631(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(562651631L))
-            info.setReturnValue("YR` [SY嶾x{&C");
+            info.setReturnValue("YR` [SY\u5DBEx{&C");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1736374348(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1736374348L))
-            info.setReturnValue(-1293504596);
+            info.setReturnValue(-1620626196);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/world/level/storage/loot/LootContext;)Z", cancellable = true)
@@ -43,18 +43,6 @@ public class TargetedConditionalEffect_1698111607Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "equipmentDropsCodec(Lcom/mojang/serialization/Codec;)Lcom/mojang/serialization/Codec;", cancellable = true)
-    private static void equipmentDropsCodec__2113177715(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2113177715L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "affected()Lnet/minecraft/world/item/enchantment/EnchantmentTarget;", cancellable = true)
-    private void affected__113674465(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-113674465L))
-            info.setReturnValue(net.minecraft.world.item.enchantment.EnchantmentTarget.VICTIM);
-    }
-
     @Inject(at = @At("HEAD"), method = "effect()Ljava/lang/Object;", cancellable = true)
     private void effect__737663471(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-737663471L))
@@ -67,9 +55,21 @@ public class TargetedConditionalEffect_1698111607Mixin {
             info.setReturnValue(net.minecraft.world.item.enchantment.EnchantmentTarget.VICTIM);
     }
 
+    @Inject(at = @At("HEAD"), method = "affected()Lnet/minecraft/world/item/enchantment/EnchantmentTarget;", cancellable = true)
+    private void affected__113674465(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-113674465L))
+            info.setReturnValue(net.minecraft.world.item.enchantment.EnchantmentTarget.VICTIM);
+    }
+
     @Inject(at = @At("HEAD"), method = "requirements()Ljava/util/Optional;", cancellable = true)
     private void requirements_1943573028(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1943573028L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "equipmentDropsCodec(Lcom/mojang/serialization/Codec;)Lcom/mojang/serialization/Codec;", cancellable = true)
+    private static void equipmentDropsCodec__2113177715(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2113177715L))
             info.setReturnValue(null);
     }
 

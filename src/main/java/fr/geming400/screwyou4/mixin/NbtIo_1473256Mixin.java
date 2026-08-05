@@ -43,24 +43,6 @@ public class NbtIo_1473256Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "readAnyTag(Ljava/io/DataInput;Lnet/minecraft/nbt/NbtAccounter;)Lnet/minecraft/nbt/Tag;", cancellable = true)
-    private static void readAnyTag_1034694065(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1034694065L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "writeAnyTag(Lnet/minecraft/nbt/Tag;Ljava/io/DataOutput;)V", cancellable = true)
-    private static void writeAnyTag__1563461542(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1563461542L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "writeUnnamedTagWithFallback(Lnet/minecraft/nbt/Tag;Ljava/io/DataOutput;)V", cancellable = true)
-    private static void writeUnnamedTagWithFallback__1563461542(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1563461542L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "writeCompressed(Lnet/minecraft/nbt/CompoundTag;Ljava/nio/file/Path;)V", cancellable = true)
     private static void writeCompressed_1269991804(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1269991804L))
@@ -85,6 +67,36 @@ public class NbtIo_1473256Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "writeAnyTag(Lnet/minecraft/nbt/Tag;Ljava/io/DataOutput;)V", cancellable = true)
+    private static void writeAnyTag__1563461542(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1563461542L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "readAnyTag(Ljava/io/DataInput;Lnet/minecraft/nbt/NbtAccounter;)Lnet/minecraft/nbt/Tag;", cancellable = true)
+    private static void readAnyTag_1034694065(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1034694065L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "writeUnnamedTagWithFallback(Lnet/minecraft/nbt/Tag;Ljava/io/DataOutput;)V", cancellable = true)
+    private static void writeUnnamedTagWithFallback__1563461542(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1563461542L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "parseCompressed(Ljava/io/InputStream;Lnet/minecraft/nbt/StreamTagVisitor;Lnet/minecraft/nbt/NbtAccounter;)V", cancellable = true)
+    private static void parseCompressed__164833691(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-164833691L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "parseCompressed(Ljava/nio/file/Path;Lnet/minecraft/nbt/StreamTagVisitor;Lnet/minecraft/nbt/NbtAccounter;)V", cancellable = true)
+    private static void parseCompressed_2125386811(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(2125386811L))
+            info.cancel();
+    }
+
     @Inject(at = @At("HEAD"), method = "writeUnnamedTag(Lnet/minecraft/nbt/Tag;Ljava/io/DataOutput;)V", cancellable = true)
     private static void writeUnnamedTag__1563461542(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1563461542L))
@@ -95,18 +107,6 @@ public class NbtIo_1473256Mixin {
     private static void readUnnamedTag_1034694065(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1034694065L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "parseCompressed(Ljava/nio/file/Path;Lnet/minecraft/nbt/StreamTagVisitor;Lnet/minecraft/nbt/NbtAccounter;)V", cancellable = true)
-    private static void parseCompressed_2125386811(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(2125386811L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "parseCompressed(Ljava/io/InputStream;Lnet/minecraft/nbt/StreamTagVisitor;Lnet/minecraft/nbt/NbtAccounter;)V", cancellable = true)
-    private static void parseCompressed__164833691(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-164833691L))
-            info.cancel();
     }
 
 

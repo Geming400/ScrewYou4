@@ -22,13 +22,13 @@ public class ItemAttributeModifiers_1678197743Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_542737767(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(542737767L))
-            info.setReturnValue("␒+>_d]V{IE0nᛜ^ᣱ䭑듄<osw9OR{1/[-N_wk扥:P,ಈ:`s⺽㕆WO[ $}f1콷∖2(9)q0U좤霒^]gw4AmJ*H.r녚Krh}@)F");
+            info.setReturnValue("\u2412+>_d]V{IE0n\u16DC^\u18F1\u4B51\uB4C4<osw9OR{1/[-N_wk\u6265:P,\u0C88:`s\u2EBD\u3546WO[ $}f1\uCF77\u22162(9)q0U\uC8A4\u9712^]gw4AmJ*H.r\uB15AKrh}@)F");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1716460484(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1716460484L))
-            info.setReturnValue(-1965865992);
+            info.setReturnValue(-1616995792);
     }
 
     @Inject(at = @At("HEAD"), method = "builder()Lnet/minecraft/world/item/component/ItemAttributeModifiers$Builder;", cancellable = true)
@@ -40,7 +40,7 @@ public class ItemAttributeModifiers_1678197743Mixin {
     @Inject(at = @At("HEAD"), method = "compute(Lnet/minecraft/core/Holder;DLnet/minecraft/world/entity/EquipmentSlot;)D", cancellable = true)
     private void compute_1527319506(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1527319506L))
-            info.setReturnValue(5.117810044342641E7D);
+            info.setReturnValue(4.0004830044342643E8D);
     }
 
     @Inject(at = @At("HEAD"), method = "forEach(Lnet/minecraft/world/entity/EquipmentSlotGroup;Lorg/apache/commons/lang3/function/TriConsumer;)V", cancellable = true)

@@ -16,13 +16,13 @@ public class ConditionalEffect550147993Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__585311982(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-585311982L))
-            info.setReturnValue("ԛ)7d'>C[췗0Zo$檚l㠯8");
+            info.setReturnValue("\u051B)7d'>C[\uCDD70Zo$\u6A9Al\u382F8");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_588410735(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(588410735L))
-            info.setReturnValue(642620172);
+            info.setReturnValue(639763972);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/world/level/storage/loot/LootContext;)Z", cancellable = true)

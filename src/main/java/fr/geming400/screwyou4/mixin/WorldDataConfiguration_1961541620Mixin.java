@@ -16,13 +16,13 @@ public class WorldDataConfiguration_1961541620Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_826081644(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(826081644L))
-            info.setReturnValue("|U=e봅?圛j3⌴p_䖮S걜M!6=h3ꎽ");
+            info.setReturnValue("|U=e\uBD05?\u571Bj3\u2334p_\u45AES\uAC5CM!6=h3\uA3BD");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1999804361(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1999804361L))
-            info.setReturnValue(16016903);
+            info.setReturnValue(-728196597);
     }
 
     @Inject(at = @At("HEAD"), method = "enabledFeatures()Lnet/minecraft/world/flag/FeatureFlagSet;", cancellable = true)
@@ -31,15 +31,15 @@ public class WorldDataConfiguration_1961541620Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "dataPacks()Lnet/minecraft/world/level/DataPackConfig;", cancellable = true)
-    private void dataPacks_1766024384(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1766024384L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "expandFeatures(Lnet/minecraft/world/flag/FeatureFlagSet;)Lnet/minecraft/world/level/WorldDataConfiguration;", cancellable = true)
     private void expandFeatures__794241370(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-794241370L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "dataPacks()Lnet/minecraft/world/level/DataPackConfig;", cancellable = true)
+    private void dataPacks_1766024384(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1766024384L))
             info.setReturnValue(null);
     }
 

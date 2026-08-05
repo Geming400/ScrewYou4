@@ -19,16 +19,16 @@ public class BackupStatus406638112Mixin {
             info.setReturnValue(net.minecraft.world.level.storage.LevelSummary.BackupStatus.UPGRADE_TO_SNAPSHOT);
     }
 
+    @Inject(at = @At("HEAD"), method = "getTranslationKey()Ljava/lang/String;", cancellable = true)
+    private void getTranslationKey__728822359(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-728822359L))
+            info.setReturnValue("+\u1A00Le:\uA0E2Y'\u4C13@[,.P\u4705\u22C1\u00AC\u7FE7\uAC3D\u8B0D.f/RZ(T\u7D32cH\uC0A0h\u964A%+n<]c\u8013#Y[w\u4483g p\u89F1y\u2B63\u6F89WH\"FN7pMy-&");
+    }
+
     @Inject(at = @At("HEAD"), method = "shouldBackup()Z", cancellable = true)
     private void shouldBackup_444916695(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(444916695L))
             info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getTranslationKey()Ljava/lang/String;", cancellable = true)
-    private void getTranslationKey__728822359(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-728822359L))
-            info.setReturnValue("+ᨀLe:ꃢY'䰓@[,.P䜅⋁¬翧갽謍.f/RZ(T紲cH삠h陊%+n<]c耓#Y[w䒃g p觱y⭣澉WH\"FN7pMy-&");
     }
 
     @Inject(at = @At("HEAD"), method = "isSevere()Z", cancellable = true)

@@ -28,7 +28,7 @@ public class ItemBasedSteering205240739Mixin {
     @Inject(at = @At("HEAD"), method = "boostFactor()F", cancellable = true)
     private void boostFactor_243500102(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(243500102L))
-            info.setReturnValue(4.297067E8F);
+            info.setReturnValue(7.263047E8F);
     }
 
 

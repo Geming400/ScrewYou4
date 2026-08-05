@@ -22,19 +22,19 @@ public class ClientboundSetScorePacket1307462093Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_172002118(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(172002118L))
-            info.setReturnValue("3Qԓm:J^+m꜡)y:(v뜇o^W@*[!<@6H\"e1⒀\"w=,㢩n-I]doZK=ሌ}hＫfcK鞆go:㻋kp");
+            info.setReturnValue("3Q\u0513m:J^+m\uA721)y:(v\uB707o^W@*[!<@6H\"e1\u2480\"w=,\u38A9n-I]doZK=\u120C}h\uFF2BfcK\u9786go:\u3ECBkp");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1345724835(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1345724835L))
-            info.setReturnValue(-2036429630);
+            info.setReturnValue(1881888266);
     }
 
     @Inject(at = @At("HEAD"), method = "owner()Ljava/lang/String;", cancellable = true)
     private void owner_172001622(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(172001622L))
-            info.setReturnValue("f7ᒂ7C00A櫟RS䴨&3yJY5煢$㛥%");
+            info.setReturnValue("f7\u14827C00A\u6ADFRS\u4D28&3yJY5\u7162$\u36E5%");
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/PacketListener;)V", cancellable = true)
@@ -61,16 +61,16 @@ public class ClientboundSetScorePacket1307462093Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "objectiveName()Ljava/lang/String;", cancellable = true)
-    private void objectiveName_172001622(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(172001622L))
-            info.setReturnValue("f7ᒂ7C00A櫟RS䴨&3yJY5煢$㛥%");
-    }
-
     @Inject(at = @At("HEAD"), method = "score()I", cancellable = true)
     private void score_1345724339(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1345724339L))
-            info.setReturnValue(-1400455023);
+            info.setReturnValue(-1777104423);
+    }
+
+    @Inject(at = @At("HEAD"), method = "objectiveName()Ljava/lang/String;", cancellable = true)
+    private void objectiveName_172001622(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(172001622L))
+            info.setReturnValue("f7\u14827C00A\u6ADFRS\u4D28&3yJY5\u7162$\u36E5%");
     }
 
 

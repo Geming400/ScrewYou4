@@ -16,13 +16,13 @@ public class SingleAxisRotation_1717469443Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_582009467(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(582009467L))
-            info.setReturnValue("N/*'㞩N)oHT.7rGkmE毡lg嚣-屍");
+            info.setReturnValue("N/*'\u37A9N)oHT.7rGkmE\u6BE1lg\u56A3-\u5C4D");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1755732184(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1755732184L))
-            info.setReturnValue(-301771703);
+            info.setReturnValue(-1071199303);
     }
 
     @Inject(at = @At("HEAD"), method = "transformation()Lorg/joml/Matrix4f;", cancellable = true)
@@ -34,7 +34,7 @@ public class SingleAxisRotation_1717469443Mixin {
     @Inject(at = @At("HEAD"), method = "angle()F", cancellable = true)
     private void angle_1755728805(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1755728805L))
-            info.setReturnValue(8.385849E8F);
+            info.setReturnValue(6.91573E7F);
     }
 
     @Inject(at = @At("HEAD"), method = "axis()Lnet/minecraft/core/Direction$Axis;", cancellable = true)

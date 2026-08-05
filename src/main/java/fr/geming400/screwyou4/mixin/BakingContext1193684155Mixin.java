@@ -16,13 +16,19 @@ public class BakingContext1193684155Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_58224180(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(58224180L))
-            info.setReturnValue("nl9+^p칽(3_?7+=8}d<蠮X>ds;7m)^_郠#ࠏK(俦7e2I@yw,>X;v6*{X&⩥X>G*昕+iu}1쓔3n^i){:doA]!)fzGzdC.><`{|");
+            info.setReturnValue("nl9+^p\uCE7D(3_?7+=8}d<\u882EX>ds;7m)^_\u90E0#\u080FK(\u4FE67e2I@yw,>X;v6*{X&\u2A65X>G*\u6615+iu}1\uC4D43n^i){:doA]!)fzGzdC.><`{|");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1231946897(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1231946897L))
-            info.setReturnValue(-1436328171);
+            info.setReturnValue(-1334722271);
+    }
+
+    @Inject(at = @At("HEAD"), method = "sprites()Lnet/minecraft/client/resources/model/sprite/SpriteGetter;", cancellable = true)
+    private void sprites__2056115313(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2056115313L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "entityModelSet()Lnet/minecraft/client/model/geom/EntityModelSet;", cancellable = true)
@@ -46,12 +52,6 @@ public class BakingContext1193684155Mixin {
     @Inject(at = @At("HEAD"), method = "playerSkinRenderCache()Lnet/minecraft/client/renderer/PlayerSkinRenderCache;", cancellable = true)
     private void playerSkinRenderCache__2066600211(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2066600211L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "sprites()Lnet/minecraft/client/resources/model/sprite/SpriteGetter;", cancellable = true)
-    private void sprites__2056115313(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2056115313L))
             info.setReturnValue(null);
     }
 

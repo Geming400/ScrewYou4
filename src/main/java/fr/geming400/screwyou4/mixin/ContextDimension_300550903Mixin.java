@@ -34,13 +34,13 @@ public class ContextDimension_300550903Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__834909073(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-834909073L))
-            info.setReturnValue("RP&r8')@O႘R'j쫃XF'-p");
+            info.setReturnValue("RP&r8')@O\u1098R'j\uCAC3XF'-p");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_338813644(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(338813644L))
-            info.setReturnValue(22322099);
+            info.setReturnValue(488570799);
     }
 
     @Inject(at = @At("HEAD"), method = "valueCodec()Lcom/mojang/serialization/Codec;", cancellable = true)

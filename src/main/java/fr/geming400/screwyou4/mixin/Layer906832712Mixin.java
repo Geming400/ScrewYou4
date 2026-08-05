@@ -16,13 +16,13 @@ public class Layer906832712Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__228627263(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-228627263L))
-            info.setReturnValue("OBF*:Jie⯷f|)-(栢p裍텽8ꔔ|N^˚!6Z4iSY-LSt辍IL2<8z^I2v@PI#|䑷'z녔WyO✨p6>y>nꗪx\"c`_Ga㺉r2맙%zM@꒸");
+            info.setReturnValue("OBF*:Jie\u2BF7f|)-(\u6822p\u88CD\uD17D8\uA514|N^\u02DA!6Z4iSY-LSt\u8F8DIL2<8z^I2v@PI#|\u4477'z\uB154WyO\u2728p6>y>n\uA5EAx\"c`_Ga\u3E89r2\uB9D9%zM@\uA4B8");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_945095454(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(945095454L))
-            info.setReturnValue(-753850256);
+            info.setReturnValue(-1032063056);
     }
 
     @Inject(at = @At("HEAD"), method = "state()Lnet/minecraft/world/level/levelgen/feature/stateproviders/BlockStateProvider;", cancellable = true)

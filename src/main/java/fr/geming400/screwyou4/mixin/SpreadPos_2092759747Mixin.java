@@ -16,13 +16,13 @@ public class SpreadPos_2092759747Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_957299771(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(957299771L))
-            info.setReturnValue("&%5㮦|$\"Wg멦/?%H㷆価]L{(JOMs3IT}鈐{vwU&@sSk夠D癴b5VｮSxs<3z⌅8槨@xX났w4nk$5`S o입ꆬ%>;arC;hm.龎s)+oJ");
+            info.setReturnValue("&%5\u3BA6|$\"Wg\uBA66/?%H\u3DC6\u4FA1]L{(JOMs3IT}\u9210{vwU&@sSk\u5920D\u7674b5V\uFF6ESxs<3z\u23058\u69E8@xX\uB0ACw4nk$5`S o\uC785\uA1AC%>;arC;hm.\u9F8Es)+oJ");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2131022488(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2131022488L))
-            info.setReturnValue(-1123776770);
+            info.setReturnValue(-320588870);
     }
 
     @Inject(at = @At("HEAD"), method = "pos()Lnet/minecraft/core/BlockPos;", cancellable = true)

@@ -28,13 +28,13 @@ public class ServerboundCookieResponsePacket1892544330Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_757084355(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(757084355L))
-            info.setReturnValue("-V&;텲ZNF_BX.C/8饙hꑧ?&Kr!/i|❃⪬豥`9_![wyH](b*䶚[ q77g\"l}#p9,$z鯧^l,Ix㯩VK#{听轆");
+            info.setReturnValue("-V&;\uD172ZNF_BX.C/8\u9959h\uA467?&Kr!/i|\u2743\u2AAC\u8C65`9_![wyH](b*\u4D9A[ q77g\"l}#p9,$z\u9BE7^l,Ix\u3BE9VK#{\u542C\u8F46");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1930807072(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1930807072L))
-            info.setReturnValue(1401443314);
+            info.setReturnValue(822075514);
     }
 
     @Inject(at = @At("HEAD"), method = "key()Lnet/minecraft/resources/Identifier;", cancellable = true)

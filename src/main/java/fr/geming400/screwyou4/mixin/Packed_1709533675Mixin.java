@@ -16,19 +16,19 @@ public class Packed_1709533675Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_574073699(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(574073699L))
-            info.setReturnValue("O/.(U8Jo딒`쓛n3㛠kkFw۪#k5^'䗌*1Y0_");
+            info.setReturnValue("O/.(U8Jo\uB512`\uC4DBn3\u36E0kkFw\u06EA#k5^'\u45CC*1Y0_");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1747796416(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1747796416L))
-            info.setReturnValue(-427256003);
+            info.setReturnValue(-447903);
     }
 
     @Inject(at = @At("HEAD"), method = "id()I", cancellable = true)
     private void id_1747795920(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1747795920L))
-            info.setReturnValue(208718605);
+            info.setReturnValue(635526705);
     }
 
     @Inject(at = @At("HEAD"), method = "write(Lnet/minecraft/network/FriendlyByteBuf;Lnet/minecraft/network/chat/MessageSignature$Packed;)V", cancellable = true)

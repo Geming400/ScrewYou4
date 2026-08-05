@@ -16,7 +16,7 @@ public class AltEnum_14325252Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__1121134724(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1121134724L))
-            info.setReturnValue("쥳肸䥿2JiW+\"t1,7虝ko! aWUcJeɢꨜUmH+^d]");
+            info.setReturnValue("\uC973\u80B8\u497F2JiW+\"t1,7\u865Dko! aWUcJe\u0262\uAA1CUmH+^d]");
     }
 
     @Inject(at = @At("HEAD"), method = "values()Ljava/util/List;", cancellable = true)
@@ -28,18 +28,12 @@ public class AltEnum_14325252Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_52587993(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(52587993L))
-            info.setReturnValue(-1120939867);
+            info.setReturnValue(-1680753967);
     }
 
     @Inject(at = @At("HEAD"), method = "validateValue(Ljava/lang/Object;)Ljava/util/Optional;", cancellable = true)
     private void validateValue__995531627(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-995531627L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "altValues()Ljava/util/List;", cancellable = true)
-    private void altValues_1640662067(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1640662067L))
             info.setReturnValue(null);
     }
 
@@ -49,9 +43,15 @@ public class AltEnum_14325252Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "valueSetter()Lnet/minecraft/client/OptionInstance$CycleableValueSet$ValueSetter;", cancellable = true)
-    private void valueSetter_1181630196(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1181630196L))
+    @Inject(at = @At("HEAD"), method = "altValues()Ljava/util/List;", cancellable = true)
+    private void altValues_1640662067(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1640662067L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "altCondition()Ljava/util/function/BooleanSupplier;", cancellable = true)
+    private void altCondition_451071572(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(451071572L))
             info.setReturnValue(null);
     }
 
@@ -61,9 +61,9 @@ public class AltEnum_14325252Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "altCondition()Ljava/util/function/BooleanSupplier;", cancellable = true)
-    private void altCondition_451071572(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(451071572L))
+    @Inject(at = @At("HEAD"), method = "valueSetter()Lnet/minecraft/client/OptionInstance$CycleableValueSet$ValueSetter;", cancellable = true)
+    private void valueSetter_1181630196(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1181630196L))
             info.setReturnValue(null);
     }
 

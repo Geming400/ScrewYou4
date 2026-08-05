@@ -22,7 +22,7 @@ public class TrailParticle_231842082Mixin {
     @Inject(at = @At("HEAD"), method = "getLightCoords(F)I", cancellable = true)
     private void getLightCoords_1442975997(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1442975997L))
-            info.setReturnValue(1933819232);
+            info.setReturnValue(1713505732);
     }
 
 

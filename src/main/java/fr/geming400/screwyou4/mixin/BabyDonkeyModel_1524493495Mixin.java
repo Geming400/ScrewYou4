@@ -13,15 +13,15 @@ public class BabyDonkeyModel_1524493495Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "setupAnim(Ljava/lang/Object;)V", cancellable = true)
-    private void setupAnim__1384836923(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1384836923L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "setupAnim(Lnet/minecraft/client/renderer/entity/state/EquineRenderState;)V", cancellable = true)
     private void setupAnim_1954875298(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1954875298L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "setupAnim(Ljava/lang/Object;)V", cancellable = true)
+    private void setupAnim__1384836923(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1384836923L))
             info.cancel();
     }
 

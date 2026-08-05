@@ -28,13 +28,13 @@ public class ClientboundCustomQueryPacket_1453538208Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_318078232(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(318078232L))
-            info.setReturnValue("D㸾p:Au6≗3U|k(z:MHjnaV&]&L:eNE>y]8$6騿칭䒎n_eG|-N;≲OR>왧c쟅틟#O=$>g䨕ja");
+            info.setReturnValue("D\u3E3Ep:Au6\u22573U|k(z:MHjnaV&]&L:eNE>y]8$6\u9A3F\uCE6D\u448En_eG|-N;\u2272OR>\uC667c\uC7C5\uD2DF#O=$>g\u4A15ja");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1491800949(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1491800949L))
-            info.setReturnValue(1220754066);
+            info.setReturnValue(1584670566);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/PacketListener;)V", cancellable = true)
@@ -52,7 +52,7 @@ public class ClientboundCustomQueryPacket_1453538208Mixin {
     @Inject(at = @At("HEAD"), method = "transactionId()I", cancellable = true)
     private void transactionId_1491800453(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1491800453L))
-            info.setReturnValue(1497773274);
+            info.setReturnValue(1861689774);
     }
 
 

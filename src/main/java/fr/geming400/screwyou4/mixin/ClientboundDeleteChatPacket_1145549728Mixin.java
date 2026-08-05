@@ -22,13 +22,13 @@ public class ClientboundDeleteChatPacket_1145549728Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_10089752(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(10089752L))
-            info.setReturnValue("⧬yP᧲cp(lw*?t/'Ge#)Se@\"CꌾCOj'{LurA즨-W;Y<䥯dRa|");
+            info.setReturnValue("\u29ECyP\u19F2cp(lw*?t/'Ge#)Se@\"C\uA33ECOj'{LurA\uC9A8-W;Y<\u496FdRa|");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1183812469(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1183812469L))
-            info.setReturnValue(76358121);
+            info.setReturnValue(-455281879);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/protocol/game/ClientGamePacketListener;)V", cancellable = true)

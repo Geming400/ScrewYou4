@@ -16,13 +16,13 @@ public class BundlePredicate675089079Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__460370896(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-460370896L))
-            info.setReturnValue("⎫磔1a⓾v/\"Sx1!C?ᇪi.*O秱]");
+            info.setReturnValue("\u23AB\u78D41a\u24FEv/\"Sx1!C?\u11EAi.*O\u79F1]");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_713351821(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(713351821L))
-            info.setReturnValue(806551219);
+            info.setReturnValue(20774019);
     }
 
     @Inject(at = @At("HEAD"), method = "componentType()Lnet/minecraft/core/component/DataComponentType;", cancellable = true)

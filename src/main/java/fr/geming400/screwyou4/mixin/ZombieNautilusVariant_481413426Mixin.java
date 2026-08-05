@@ -16,13 +16,19 @@ public class ZombieNautilusVariant_481413426Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__654046550(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-654046550L))
-            info.setReturnValue("\"R8'Rg\"P1/k>v☁QsqDZ( @c]G&slQI䘓WN<fb鯕7=xv⍠=Z");
+            info.setReturnValue("\"R8'Rg\"P1/k>v\u2601QsqDZ( @c]G&slQI\u4613WN<fb\u9BD57=xv\u2360=Z");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_519676167(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(519676167L))
-            info.setReturnValue(978551916);
+            info.setReturnValue(698815116);
+    }
+
+    @Inject(at = @At("HEAD"), method = "selectors()Ljava/util/List;", cancellable = true)
+    private void selectors_2107750241(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2107750241L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "spawnConditions()Lnet/minecraft/world/entity/variant/SpawnPrioritySelectors;", cancellable = true)
@@ -34,12 +40,6 @@ public class ZombieNautilusVariant_481413426Mixin {
     @Inject(at = @At("HEAD"), method = "modelAndTexture()Lnet/minecraft/world/entity/variant/ModelAndTexture;", cancellable = true)
     private void modelAndTexture_1310141495(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1310141495L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "selectors()Ljava/util/List;", cancellable = true)
-    private void selectors_2107750241(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2107750241L))
             info.setReturnValue(null);
     }
 

@@ -22,13 +22,13 @@ public class ClientboundTabListPacket1891381434Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_755921459(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(755921459L))
-            info.setReturnValue("F嵾O,W+erM9g2Zr9_z嵏W0\"n00`䇯J+S陹:Aᝠ[>>y﮵G3k{㇏-E枿");
+            info.setReturnValue("F\u5D7EO,W+erM9g2Zr9_z\u5D4FW0\"n00`\u41EFJ+S\u9679:A\u1760[>>y\uFBB5G3k{\u31CF-E\u67BF");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1929644176(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1929644176L))
-            info.setReturnValue(549387929);
+            info.setReturnValue(1106404629);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/PacketListener;)V", cancellable = true)

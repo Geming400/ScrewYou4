@@ -16,13 +16,13 @@ public class FileSystemCapabilities_1596346655Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_460886679(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(460886679L))
-            info.setReturnValue("顾5M坑m꤈Ju袊ග겵f<AiU5{+靖pwn\"c$|jtIStzzy坰Q[AtAzJhU-李Ha*(z4ywEJ3龹9o㰅'鬲ᮅC`{zVa");
+            info.setReturnValue("\u987E5M\u5751m\uA908Ju\u888A\u0D9C\uACB5f<AiU5{+\u9756pwn\"c$|jtIStzzy\u5770Q[AtAzJhU-\u674EHa*(z4ywEJ3\u9FB99o\u3C05'\u9B32\u1B85C`{zVa");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1634609396(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1634609396L))
-            info.setReturnValue(1443250663);
+            info.setReturnValue(1277168163);
     }
 
     @Inject(at = @At("HEAD"), method = "atomicMove()Z", cancellable = true)

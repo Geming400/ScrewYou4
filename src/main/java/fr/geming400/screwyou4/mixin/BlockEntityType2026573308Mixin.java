@@ -19,6 +19,12 @@ public class BlockEntityType2026573308Mixin {
             info.setReturnValue(true);
     }
 
+    @Inject(at = @At("HEAD"), method = "onlyOpCanSetNbt()Z", cancellable = true)
+    private void onlyOpCanSetNbt_2064851891(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2064851891L))
+            info.setReturnValue(true);
+    }
+
     @Inject(at = @At("HEAD"), method = "builtInRegistryHolder()Lnet/minecraft/core/Holder$Reference;", cancellable = true)
     private void builtInRegistryHolder_838227281(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(838227281L))
@@ -29,12 +35,6 @@ public class BlockEntityType2026573308Mixin {
     private void getBlockEntity__1028737937(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1028737937L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "onlyOpCanSetNbt()Z", cancellable = true)
-    private void onlyOpCanSetNbt_2064851891(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2064851891L))
-            info.setReturnValue(true);
     }
 
 

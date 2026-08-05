@@ -22,19 +22,19 @@ public class ClientboundCooldownPacket_1671297304Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_535837328(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(535837328L))
-            info.setReturnValue(")L왖h");
+            info.setReturnValue(")L\uC656h");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1709560045(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1709560045L))
-            info.setReturnValue(-606014425);
+            info.setReturnValue(-956752025);
     }
 
     @Inject(at = @At("HEAD"), method = "duration()I", cancellable = true)
     private void duration_1709559549(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1709559549L))
-            info.setReturnValue(-1978798501);
+            info.setReturnValue(1965431195);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/PacketListener;)V", cancellable = true)

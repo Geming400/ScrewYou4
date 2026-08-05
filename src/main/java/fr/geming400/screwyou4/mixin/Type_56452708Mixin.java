@@ -10,7 +10,7 @@ public class Type_56452708Mixin {
         @Inject(at = @At("HEAD"), method = "getName()Ljava/lang/String;", cancellable = true)
     private void getName__1079007764(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1079007764L))
-            info.setReturnValue("PTaB`뉁 o/yqBn娉Y2:Gq(V]sa9q8a`iA!row^93!wRU-3+");
+            info.setReturnValue("PTaB`\uB241 o/yqBn\u5A09Y2:Gq(V]sa9q8a`iA!row^93!wRU-3+");
     }
 
     @Inject(at = @At("HEAD"), method = "values()[Lnet/minecraft/world/level/levelgen/structure/structures/MineshaftStructure$Type;", cancellable = true)
@@ -25,10 +25,10 @@ public class Type_56452708Mixin {
             info.setReturnValue(net.minecraft.world.level.levelgen.structure.structures.MineshaftStructure.Type.MESA);
     }
 
-    @Inject(at = @At("HEAD"), method = "getPlanksState()Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
-    private void getPlanksState_2055661137(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2055661137L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "byId(I)Lnet/minecraft/world/level/levelgen/structure/structures/MineshaftStructure$Type;", cancellable = true)
+    private static void byId_479510354(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(479510354L))
+            info.setReturnValue(net.minecraft.world.level.levelgen.structure.structures.MineshaftStructure.Type.MESA);
     }
 
     @Inject(at = @At("HEAD"), method = "getWoodState()Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
@@ -43,16 +43,16 @@ public class Type_56452708Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "byId(I)Lnet/minecraft/world/level/levelgen/structure/structures/MineshaftStructure$Type;", cancellable = true)
-    private static void byId_479510354(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(479510354L))
-            info.setReturnValue(net.minecraft.world.level.levelgen.structure.structures.MineshaftStructure.Type.MESA);
+    @Inject(at = @At("HEAD"), method = "getPlanksState()Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
+    private void getPlanksState_2055661137(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2055661137L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName__1079007764(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1079007764L))
-            info.setReturnValue("PTaB`뉁 o/yqBn娉Y2:Gq(V]sa9q8a`iA!row^93!wRU-3+");
+            info.setReturnValue("PTaB`\uB241 o/yqBn\u5A09Y2:Gq(V]sa9q8a`iA!row^93!wRU-3+");
     }
 
 

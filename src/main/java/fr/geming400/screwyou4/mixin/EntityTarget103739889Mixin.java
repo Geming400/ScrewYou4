@@ -25,16 +25,16 @@ public class EntityTarget103739889Mixin {
             info.setReturnValue(net.minecraft.world.level.storage.loot.LootContext.EntityTarget.INTERACTING_ENTITY);
     }
 
+    @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
+    private void getSerializedName__1031720582(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1031720582L))
+            info.setReturnValue("y\u3537w%SUE\u83173TU9\"(Xs;?IlOB'L\uB1E6F6");
+    }
+
     @Inject(at = @At("HEAD"), method = "contextParam()Lnet/minecraft/util/context/ContextKey;", cancellable = true)
     private void contextParam__613774292(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-613774292L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
-    private void getSerializedName__1031720582(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1031720582L))
-            info.setReturnValue("y㔷w%SUE茗3TU9\"(Xs;?IlOB'L뇦F6");
     }
 
 

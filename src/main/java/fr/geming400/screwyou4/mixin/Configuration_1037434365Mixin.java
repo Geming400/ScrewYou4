@@ -16,23 +16,23 @@ public class Configuration_1037434365Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__98025611(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-98025611L))
-            info.setReturnValue("GwmV{>[7%{u%u\"ffⱙ9FlQsOrBxL爚nG@6<=W⢍Bc뙸\"\".鋧r7?⩩QfmIUOFNloO懓䠁T⊴ofDEBV5\",Q&rpF_,@dJl-");
+            info.setReturnValue("GwmV{>[7%{u%u\"ff\u2C599FlQsOrBxL\u721AnG@6<=W\u288DBc\uB678\"\".\u92E7r7?\u2A69QfmIUOFNloO\u61D3\u4801T\u22B4ofDEBV5\",Q&rpF_,@dJl-");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1075697106(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1075697106L))
-            info.setReturnValue(-989791656);
-    }
-
-    @Inject(at = @At("HEAD"), method = "fluid()Lnet/minecraft/world/level/levelgen/feature/stateproviders/BlockStateProvider;", cancellable = true)
-    private void fluid__895272137(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-895272137L))
-            info.setReturnValue(null);
+            info.setReturnValue(-388323956);
     }
 
     @Inject(at = @At("HEAD"), method = "barrier()Lnet/minecraft/world/level/levelgen/feature/stateproviders/BlockStateProvider;", cancellable = true)
     private void barrier__895272137(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-895272137L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "fluid()Lnet/minecraft/world/level/levelgen/feature/stateproviders/BlockStateProvider;", cancellable = true)
+    private void fluid__895272137(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-895272137L))
             info.setReturnValue(null);
     }

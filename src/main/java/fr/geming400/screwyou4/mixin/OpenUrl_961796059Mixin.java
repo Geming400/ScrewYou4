@@ -16,13 +16,13 @@ public class OpenUrl_961796059Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__173663917(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-173663917L))
-            info.setReturnValue("ญ>v`ԉX꘏ba骋쒐(e㘵bim_");
+            info.setReturnValue("\u0E0D>v`\u0509X\uA60Fba\u9A8B\uC490(e\u3635bim_");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1000058800(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1000058800L))
-            info.setReturnValue(-454857597);
+            info.setReturnValue(-750644797);
     }
 
     @Inject(at = @At("HEAD"), method = "action()Lnet/minecraft/network/chat/ClickEvent$Action;", cancellable = true)

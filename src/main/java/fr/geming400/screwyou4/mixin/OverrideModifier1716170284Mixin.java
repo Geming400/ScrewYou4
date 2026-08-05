@@ -16,13 +16,13 @@ public class OverrideModifier1716170284Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_580710309(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(580710309L))
-            info.setReturnValue("3丁Q4S삃R1s%;elN65Q䤺h3墪d8^U;rnw}a#㼲");
+            info.setReturnValue("3\u4E01Q4S\uC083R1s%;elN65Q\u493Ah3\u58AAd8^U;rnw}a#\u3F32");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1754433026(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1754433026L))
-            info.setReturnValue(-167195262);
+            info.setReturnValue(-364573362);
     }
 
     @Inject(at = @At("HEAD"), method = "apply(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;", cancellable = true)

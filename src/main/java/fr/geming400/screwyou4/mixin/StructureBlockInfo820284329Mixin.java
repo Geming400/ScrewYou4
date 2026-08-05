@@ -22,7 +22,7 @@ public class StructureBlockInfo820284329Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_858547071(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(858547071L))
-            info.setReturnValue(712946450);
+            info.setReturnValue(1053784150);
     }
 
     @Inject(at = @At("HEAD"), method = "state()Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)

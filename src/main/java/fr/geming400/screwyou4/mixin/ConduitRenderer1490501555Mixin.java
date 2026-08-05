@@ -31,18 +31,6 @@ public class ConduitRenderer1490501555Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "createEyeLayer()Lnet/minecraft/client/model/geom/builders/LayerDefinition;", cancellable = true)
-    private static void createEyeLayer_776369391(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(776369391L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "createWindLayer()Lnet/minecraft/client/model/geom/builders/LayerDefinition;", cancellable = true)
-    private static void createWindLayer_776369391(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(776369391L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "createShellLayer()Lnet/minecraft/client/model/geom/builders/LayerDefinition;", cancellable = true)
     private static void createShellLayer_776369391(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(776369391L))
@@ -55,9 +43,15 @@ public class ConduitRenderer1490501555Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/blockentity/state/ConduitRenderState;", cancellable = true)
-    private void createRenderState__1457435541(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1457435541L))
+    @Inject(at = @At("HEAD"), method = "createWindLayer()Lnet/minecraft/client/model/geom/builders/LayerDefinition;", cancellable = true)
+    private static void createWindLayer_776369391(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(776369391L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "createEyeLayer()Lnet/minecraft/client/model/geom/builders/LayerDefinition;", cancellable = true)
+    private static void createEyeLayer_776369391(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(776369391L))
             info.setReturnValue(null);
     }
 
@@ -65,6 +59,12 @@ public class ConduitRenderer1490501555Mixin {
     private void createRenderState__1670493315(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1670493315L))
             info.setReturnValue(new net.minecraft.client.renderer.blockentity.state.BlockEntityRenderState());
+    }
+
+    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/blockentity/state/ConduitRenderState;", cancellable = true)
+    private void createRenderState__1457435541(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1457435541L))
+            info.setReturnValue(null);
     }
 
 

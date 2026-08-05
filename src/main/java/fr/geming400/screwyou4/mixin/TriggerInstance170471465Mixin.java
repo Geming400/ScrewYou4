@@ -22,7 +22,7 @@ public class TriggerInstance170471465Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_208734207(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(208734207L))
-            info.setReturnValue(-1140492522);
+            info.setReturnValue(-884707322);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/resources/ResourceKey;Lnet/minecraft/resources/ResourceKey;)Z", cancellable = true)
@@ -49,12 +49,6 @@ public class TriggerInstance170471465Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "changedDimensionFrom(Lnet/minecraft/resources/ResourceKey;)Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
-    private static void changedDimensionFrom_332752148(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(332752148L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "changedDimension(Lnet/minecraft/resources/ResourceKey;Lnet/minecraft/resources/ResourceKey;)Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
     private static void changedDimension__171312624(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-171312624L))
@@ -69,6 +63,12 @@ public class TriggerInstance170471465Mixin {
 
     @Inject(at = @At("HEAD"), method = "changedDimensionTo(Lnet/minecraft/resources/ResourceKey;)Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
     private static void changedDimensionTo_332752148(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(332752148L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "changedDimensionFrom(Lnet/minecraft/resources/ResourceKey;)Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
+    private static void changedDimensionFrom_332752148(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(332752148L))
             info.setReturnValue(null);
     }

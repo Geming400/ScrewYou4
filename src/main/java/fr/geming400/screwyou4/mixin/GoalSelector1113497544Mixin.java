@@ -19,6 +19,18 @@ public class GoalSelector1113497544Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "removeAllGoals(Ljava/util/function/Predicate;)V", cancellable = true)
+    private void removeAllGoals_1183854090(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1183854090L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "setControlFlag(Lnet/minecraft/world/entity/ai/goal/Goal$Flag;Z)V", cancellable = true)
+    private void setControlFlag__1332719261(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1332719261L))
+            info.cancel();
+    }
+
     @Inject(at = @At("HEAD"), method = "getAvailableGoals()Ljava/util/Set;", cancellable = true)
     private void getAvailableGoals__715537942(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-715537942L))
@@ -31,27 +43,15 @@ public class GoalSelector1113497544Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "tickRunningGoals(Z)V", cancellable = true)
-    private void tickRunningGoals__1951852923(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1951852923L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "setControlFlag(Lnet/minecraft/world/entity/ai/goal/Goal$Flag;Z)V", cancellable = true)
-    private void setControlFlag__1332719261(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1332719261L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "removeAllGoals(Ljava/util/function/Predicate;)V", cancellable = true)
-    private void removeAllGoals_1183854090(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1183854090L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "disableControlFlag(Lnet/minecraft/world/entity/ai/goal/Goal$Flag;)V", cancellable = true)
     private void disableControlFlag_1587386333(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1587386333L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "tickRunningGoals(Z)V", cancellable = true)
+    private void tickRunningGoals__1951852923(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1951852923L))
             info.cancel();
     }
 

@@ -16,13 +16,13 @@ public class MessageSignature_1999255525Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_863795053(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(863795053L))
-            info.setReturnValue("|9>'dAE;g6U'ጾ*=ᲪvOPXc耧)uD9:V<)CAiE`\"iJW!LaNq퍟ꘂꪐjr$b?牁鵍M=⧜%p*n䏘Xp[S:K;V");
+            info.setReturnValue("|9>'dAE;g6U'\u133E*=\u1CAAvOPXc\u8027)uD9:V<)CAiE`\"iJW!LaNq\uD35F\uA602\uAA90jr$b?\u7241\u9D4DM=\u29DC%p*n\u43D8Xp[S:K;V");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2037517770(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2037517770L))
-            info.setReturnValue(904828590);
+            info.setReturnValue(699814990);
     }
 
     @Inject(at = @At("HEAD"), method = "bytes()[B", cancellable = true)
@@ -64,13 +64,13 @@ public class MessageSignature_1999255525Mixin {
     @Inject(at = @At("HEAD"), method = "checksum()I", cancellable = true)
     private void checksum_2037517770(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2037517770L))
-            info.setReturnValue(904828590);
+            info.setReturnValue(699814990);
     }
 
     @Inject(at = @At("HEAD"), method = "describe(Lnet/minecraft/network/chat/MessageSignature;)Ljava/lang/String;", cancellable = true)
     private static void describe__198172863(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-198172863L))
-            info.setReturnValue("N*6]d꒧&Z i)&,)Eo䂄cT^衴%g.(Bp.ju04z`kJ>`oEjx?WzrJPmᡖ`ObrV24c& RV|-,W&m`ਾ솂LQD5UmJ)h#9n綖j둕1&]SGs");
+            info.setReturnValue("N*6]d\uA4A7&Z i)&,)Eo\u4084cT^\u8874%g.(Bp.ju04z`kJ>`oEjx?WzrJPm\u1856`ObrV24c& RV|-,W&m`\u0A3E\uC182LQD5UmJ)h#9n\u7D96j\uB4551&]SGs");
     }
 
 

@@ -22,7 +22,7 @@ public class Variant199051675Mixin {
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName__936408796(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-936408796L))
-            info.setReturnValue("čO%7&n劒FlAT]X*Nd}XUyBeb_,^Xs.an{༣r[뫋$gHE$1x,J뎘M?꜑0:[f\">n&C,iJoDPZ턋0〜紿J涝ᒥ+ᢍI@9ZtꀩG@*>");
+            info.setReturnValue("\u010DO%7&n\u5292FlAT]X*Nd}XUyBeb_,^Xs.an{\u0F23r[\uBACB$gHE$1x,J\uB398M?\uA7110:[f\">n&C,iJoDPZ\uD10B0\u301C\u7D3FJ\u6D9D\u14A5+\u188DI@9Zt\uA029G@*>");
     }
 
 

@@ -10,13 +10,13 @@ public class WorldgenRandom192555399Mixin {
         @Inject(at = @At("HEAD"), method = "next(I)I", cancellable = true)
     private void next_1406459878(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1406459878L))
-            info.setReturnValue(478712439);
+            info.setReturnValue(1209463939);
     }
 
     @Inject(at = @At("HEAD"), method = "getCount()I", cancellable = true)
     private void getCount_230817645(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(230817645L))
-            info.setReturnValue(-1873882535);
+            info.setReturnValue(-1143131035);
     }
 
     @Inject(at = @At("HEAD"), method = "fork()Lnet/minecraft/util/RandomSource;", cancellable = true)
@@ -40,7 +40,7 @@ public class WorldgenRandom192555399Mixin {
     @Inject(at = @At("HEAD"), method = "setDecorationSeed(JII)J", cancellable = true)
     private void setDecorationSeed_299955144(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(299955144L))
-            info.setReturnValue(45051057246663307L);
+            info.setReturnValue(45051057977414807L);
     }
 
     @Inject(at = @At("HEAD"), method = "setFeatureSeed(JII)V", cancellable = true)
@@ -49,15 +49,15 @@ public class WorldgenRandom192555399Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "setLargeFeatureWithSalt(JIII)V", cancellable = true)
-    private void setLargeFeatureWithSalt__745262247(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-745262247L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "setLargeFeatureSeed(JII)V", cancellable = true)
     private void setLargeFeatureSeed_299966676(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(299966676L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "setLargeFeatureWithSalt(JIII)V", cancellable = true)
+    private void setLargeFeatureWithSalt__745262247(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-745262247L))
             info.cancel();
     }
 

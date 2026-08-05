@@ -16,13 +16,19 @@ public class BedRule_799514625Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__335945351(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-335945351L))
-            info.setReturnValue("빎o(%%-,]F삣{9i2W|y[찢!曻p$}'l괊g7Rz%[.7X;P|}zu");
+            info.setReturnValue("\uBE4Eo(%%-,]F\uC0A3{9i2W|y[\uCC22!\u66FBp$}'l\uAD0Ag7Rz%[.7X;P|}zu");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_837777366(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(837777366L))
-            info.setReturnValue(-930590285);
+            info.setReturnValue(-748568985);
+    }
+
+    @Inject(at = @At("HEAD"), method = "explodes()Z", cancellable = true)
+    private void explodes_837793207(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(837793207L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "canSleep()Lnet/minecraft/world/attribute/BedRule$Rule;", cancellable = true)
@@ -59,12 +65,6 @@ public class BedRule_799514625Mixin {
     private void asProblem_521014465(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(521014465L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "explodes()Z", cancellable = true)
-    private void explodes_837793207(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(837793207L))
-            info.setReturnValue(false);
     }
 
 

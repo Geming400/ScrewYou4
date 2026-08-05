@@ -28,13 +28,13 @@ public class IsKeybindDown926746934Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__208713041(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-208713041L))
-            info.setReturnValue(". P_Rv1@Y'rLk[/wm@\"%R3ixpQᅞpqdjKi:/䚷k{(*P陃U4=Qxᒾ᭭8g⌊Q!ￆ*G06繒P@4N3˨^t6<au0﹑46!t }'W1@y-9u%uV#䬧&Ur䖠L");
+            info.setReturnValue(". P_Rv1@Y'rLk[/wm@\"%R3ixpQ\u115EpqdjKi:/\u46B7k{(*P\u9643U4=Qx\u14BE\u1B6D8g\u230AQ!\uFFC6*G06\u7E52P@4N3\u02E8^t6<au0\uFE5146!t }'W1@y-9u%uV#\u4B27&Ur\u45A0L");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_965009676(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(965009676L))
-            info.setReturnValue(197933036);
+            info.setReturnValue(869627336);
     }
 
     @Inject(at = @At("HEAD"), method = "keybind()Lnet/minecraft/client/KeyMapping;", cancellable = true)

@@ -22,13 +22,13 @@ public class ItemSlotDisplay2057899963Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_922439988(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(922439988L))
-            info.setReturnValue("ꉶԤHBFm5QL_NBᛧeh登gR?8ʛmO묌4L\">ꀖ<uNz穤\"Y)H ieJ");
+            info.setReturnValue("\uA276\u0524HBFm5QL_NB\u16E7eh\u767BgR?8\u029BmO\uBB0C4L\">\uA016<uNz\u7A64\"Y)H ieJ");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2096162705(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2096162705L))
-            info.setReturnValue(248722333);
+            info.setReturnValue(-79751767);
     }
 
     @Inject(at = @At("HEAD"), method = "resolve(Lnet/minecraft/util/context/ContextMap;Lnet/minecraft/world/item/crafting/display/DisplayContentsFactory;)Ljava/util/stream/Stream;", cancellable = true)

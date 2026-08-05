@@ -10,7 +10,7 @@ public class V1451_6_507369186Mixin {
         @Inject(at = @At("HEAD"), method = "packNamespacedWithDot(Ljava/lang/String;)Ljava/lang/String;", cancellable = true)
     private static void packNamespacedWithDot_1720111256(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1720111256L))
-            info.setReturnValue("钺v:7DobfX%=c5f");
+            info.setReturnValue("\u94BAv:7DobfX%=c5f");
     }
 
     @Inject(at = @At("HEAD"), method = "registerTypes(Lcom/mojang/datafixers/schemas/Schema;Ljava/util/Map;Ljava/util/Map;)V", cancellable = true)

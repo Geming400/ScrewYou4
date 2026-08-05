@@ -16,31 +16,31 @@ public class TwistingVinesConfig975483858Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__159976117(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-159976117L))
-            info.setReturnValue("ap_u1JC居4겸⫭^bY^k'㗩{%-&+");
+            info.setReturnValue("ap_u1JC\u5C454\uACB8\u2AED^bY^k'\u35E9{%-&+");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1013746600(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1013746600L))
-            info.setReturnValue(-1589962731);
+            info.setReturnValue(-794805631);
     }
 
     @Inject(at = @At("HEAD"), method = "maxHeight()I", cancellable = true)
     private void maxHeight_1013746104(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1013746104L))
-            info.setReturnValue(-1386815312);
+            info.setReturnValue(-591658212);
     }
 
     @Inject(at = @At("HEAD"), method = "spreadWidth()I", cancellable = true)
     private void spreadWidth_1013746104(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1013746104L))
-            info.setReturnValue(-1386815312);
+            info.setReturnValue(-591658212);
     }
 
     @Inject(at = @At("HEAD"), method = "spreadHeight()I", cancellable = true)
     private void spreadHeight_1013746104(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1013746104L))
-            info.setReturnValue(-1386815312);
+            info.setReturnValue(-591658212);
     }
 
 

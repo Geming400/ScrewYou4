@@ -22,13 +22,13 @@ public class ClientboundSetActionBarTextPacket_800149755Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__335310221(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-335310221L))
-            info.setReturnValue("]x廟D;;䜳7c簍C0檹e譌L_$ccKKc[.VXI觑Ryj80sbj2miyL.QW`r_AzG_lM48<n]曈");
+            info.setReturnValue("]x\u5EDFD;;\u47337c\u7C0DC0\u6AB9e\u8B4CL_$ccKKc[.VXI\u89D1Ryj80sbj2miyL.QW`r_AzG_lM48<n]\u66C8");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_838412496(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(838412496L))
-            info.setReturnValue(-402222030);
+            info.setReturnValue(-598285230);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/PacketListener;)V", cancellable = true)

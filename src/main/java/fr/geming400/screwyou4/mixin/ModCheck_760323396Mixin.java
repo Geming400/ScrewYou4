@@ -16,13 +16,13 @@ public class ModCheck_760323396Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__375136580(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-375136580L))
-            info.setReturnValue("䚄sb]L");
+            info.setReturnValue("\u4684sb]L");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_798586137(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(798586137L))
-            info.setReturnValue(-59564078);
+            info.setReturnValue(-763457078);
     }
 
     @Inject(at = @At("HEAD"), method = "merge(Lnet/minecraft/util/ModCheck;)Lnet/minecraft/util/ModCheck;", cancellable = true)
@@ -34,13 +34,7 @@ public class ModCheck_760323396Mixin {
     @Inject(at = @At("HEAD"), method = "description()Ljava/lang/String;", cancellable = true)
     private void description__375137076(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-375137076L))
-            info.setReturnValue("8GSx紽xD9c嚺Qem$9麡.J>WDQy=l\"Z&MU詼%deM등軳O{&kg%tXx?uP");
-    }
-
-    @Inject(at = @At("HEAD"), method = "shouldReportAsModified()Z", cancellable = true)
-    private void shouldReportAsModified_798601978(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(798601978L))
-            info.setReturnValue(false);
+            info.setReturnValue("8GSx\u7D3DxD9c\u56BAQem$9\u9EA1.J>WDQy=l\"Z&MU\u8A7C%deM\uB4F1\u8EF3O{&kg%tXx?uP");
     }
 
     @Inject(at = @At("HEAD"), method = "confidence()Lnet/minecraft/util/ModCheck$Confidence;", cancellable = true)
@@ -58,7 +52,13 @@ public class ModCheck_760323396Mixin {
     @Inject(at = @At("HEAD"), method = "fullDescription()Ljava/lang/String;", cancellable = true)
     private void fullDescription__375137076(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-375137076L))
-            info.setReturnValue("8GSx紽xD9c嚺Qem$9麡.J>WDQy=l\"Z&MU詼%deM등軳O{&kg%tXx?uP");
+            info.setReturnValue("8GSx\u7D3DxD9c\u56BAQem$9\u9EA1.J>WDQy=l\"Z&MU\u8A7C%deM\uB4F1\u8EF3O{&kg%tXx?uP");
+    }
+
+    @Inject(at = @At("HEAD"), method = "shouldReportAsModified()Z", cancellable = true)
+    private void shouldReportAsModified_798601978(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(798601978L))
+            info.setReturnValue(false);
     }
 
 

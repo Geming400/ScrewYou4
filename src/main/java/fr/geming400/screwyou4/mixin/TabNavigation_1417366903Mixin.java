@@ -16,13 +16,13 @@ public class TabNavigation_1417366903Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_281906927(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(281906927L))
-            info.setReturnValue("&ee+C.,r>&q踹NC|{佅MO:N.ꞧ瞞Z=6L{H\".^✜S/s?");
+            info.setReturnValue("&ee+C.,r>&q\u8E39NC|{\u4F45MO:N.\uA7A7\u779EZ=6L{H\".^\u271CS/s?");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1455629644(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1455629644L))
-            info.setReturnValue(-492473471);
+            info.setReturnValue(-782333871);
     }
 
     @Inject(at = @At("HEAD"), method = "forward()Z", cancellable = true)

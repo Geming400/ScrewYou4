@@ -16,13 +16,13 @@ public class LoadResult769440234Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__366019741(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-366019741L))
-            info.setReturnValue("꧞]i:3Wf&\"ぜ.,iWz,^遱Y");
+            info.setReturnValue("\uA9DE]i:3Wf&\"\u305C.,iWz,^\u9071Y");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_807702976(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(807702976L))
-            info.setReturnValue(-1059420640);
+            info.setReturnValue(-1068708040);
     }
 
     @Inject(at = @At("HEAD"), method = "key()Lnet/minecraft/resources/ResourceKey;", cancellable = true)

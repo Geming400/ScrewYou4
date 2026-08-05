@@ -16,7 +16,7 @@ public class MaceItem_717024619Mixin {
     @Inject(at = @At("HEAD"), method = "getAttackDamageBonus(Lnet/minecraft/world/entity/Entity;FLnet/minecraft/world/damagesource/DamageSource;)F", cancellable = true)
     private void getAttackDamageBonus__1918741751(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1918741751L))
-            info.setReturnValue(1.560753E8F);
+            info.setReturnValue(1.439447E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "postHurtEnemy(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/entity/LivingEntity;)V", cancellable = true)

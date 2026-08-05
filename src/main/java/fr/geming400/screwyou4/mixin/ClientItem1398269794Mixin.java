@@ -16,13 +16,13 @@ public class ClientItem1398269794Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_262809819(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(262809819L))
-            info.setReturnValue("ji^6>\"|A`L*A|쇌0o,fbn,|::p[8$]T [bwi<Com\"E\"XmcQzSJ횲쏱ZRXXAꋏTb륿rJfpE17V0ਪhV) 膴UkgGo1o*FL9 X9NM*LPxl");
+            info.setReturnValue("ji^6>\"|A`L*A|\uC1CC0o,fbn,|::p[8$]T [bwi<Com\"E\"XmcQzSJ\uD6B2\uC3F1ZRXXA\uA2CFTb\uB97FrJfpE17V0\u0A2AhV) \u81B4UkgGo1o*FL9 X9NM*LPxl");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1436532536(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1436532536L))
-            info.setReturnValue(1994938951);
+            info.setReturnValue(1723493751);
     }
 
     @Inject(at = @At("HEAD"), method = "properties()Lnet/minecraft/client/renderer/item/ClientItem$Properties;", cancellable = true)

@@ -16,25 +16,13 @@ public class ChunkSectionsToRender744761230Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__390698745(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-390698745L))
-            info.setReturnValue("#QPFstmTZP0k_Jv뜨'0홙m世秩el/!䂰iKjb3@6C|ӷ[⼳<GTE)l;u7条bs⋢ >$h!GpO9蔍[)a<-ᔍ25ﬥ=omL`].ⓡcs^");
+            info.setReturnValue("#QPFstmTZP0k_Jv\uB728'0\uD659m\u4E16\u79E9el/!\u40B0iKjb3@6C|\u04F7[\u2F33<GTE)l;u7\u6761bs\u22E2 >$h!GpO9\u850D[)a<-\u150D25\uFB25=omL`].\u24E1cs^");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_783023972(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(783023972L))
-            info.setReturnValue(660199503);
-    }
-
-    @Inject(at = @At("HEAD"), method = "maxIndicesRequired()I", cancellable = true)
-    private void maxIndicesRequired_783023476(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(783023476L))
-            info.setReturnValue(863346922);
-    }
-
-    @Inject(at = @At("HEAD"), method = "drawGroupsPerLayer()Ljava/util/EnumMap;", cancellable = true)
-    private void drawGroupsPerLayer_1635001687(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1635001687L))
-            info.setReturnValue(null);
+            info.setReturnValue(833260003);
     }
 
     @Inject(at = @At("HEAD"), method = "chunkSectionInfos()[Lcom/mojang/blaze3d/buffers/GpuBufferSlice;", cancellable = true)
@@ -53,6 +41,18 @@ public class ChunkSectionsToRender744761230Mixin {
     private void textureView__1655853380(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1655853380L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "drawGroupsPerLayer()Ljava/util/EnumMap;", cancellable = true)
+    private void drawGroupsPerLayer_1635001687(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1635001687L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "maxIndicesRequired()I", cancellable = true)
+    private void maxIndicesRequired_783023476(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(783023476L))
+            info.setReturnValue(1036407422);
     }
 
 

@@ -16,13 +16,13 @@ public class ProfilePublicKey296644943Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__838815032(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-838815032L))
-            info.setReturnValue("E`x=q+Hb쁿)_m^ $[{Y-x銩\"븴3");
+            info.setReturnValue("E`x=q+Hb\uC07F)_m^ $[{Y-x\u92A9\"\uBE343");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_334907685(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(334907685L))
-            info.setReturnValue(-187342789);
+            info.setReturnValue(-331160889);
     }
 
     @Inject(at = @At("HEAD"), method = "data()Lnet/minecraft/world/entity/player/ProfilePublicKey$Data;", cancellable = true)

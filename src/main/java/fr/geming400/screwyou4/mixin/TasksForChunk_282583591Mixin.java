@@ -16,13 +16,13 @@ public class TasksForChunk_282583591Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__852876385(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-852876385L))
-            info.setReturnValue("(,Wp赚=Od#nu|'Oxku73c(PybSs_237쒩<]齺gHkXǳ=&G쌗$4B㯓쳧I&%[⬕Z᷿&䈔Wꁨ뛸qC医n8aE寚I鵡{7弆iK_");
+            info.setReturnValue("(,Wp\u8D5A=Od#nu|'Oxku73c(PybSs_237\uC4A9<]\u9F7AgHkX\u01F3=&G\uC317$4B\u3BD3\uCCE7I&%[\u2B15Z\u1DFF&\u4214W\uA068\uB6F8qC\u533Bn8aE\u5BDAI\u9D61{7\u5F06iK_");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_320846332(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(320846332L))
-            info.setReturnValue(599117083);
+            info.setReturnValue(712154983);
     }
 
     @Inject(at = @At("HEAD"), method = "tasks()Ljava/util/List;", cancellable = true)
@@ -34,7 +34,7 @@ public class TasksForChunk_282583591Mixin {
     @Inject(at = @At("HEAD"), method = "chunkPos()J", cancellable = true)
     private void chunkPos_320846797(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(320846797L))
-            info.setReturnValue(-780136226267543653L);
+            info.setReturnValue(-780136226154505753L);
     }
 
 

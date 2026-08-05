@@ -13,10 +13,10 @@ public class RootedDirtBlock_1968731337Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "isValidBonemealTarget(Lnet/minecraft/world/level/LevelReader;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Z", cancellable = true)
-    private void isValidBonemealTarget_2013411094(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2013411094L))
-            info.setReturnValue(false);
+    @Inject(at = @At("HEAD"), method = "getParticlePos(Lnet/minecraft/core/BlockPos;)Lnet/minecraft/core/BlockPos;", cancellable = true)
+    private void getParticlePos__302740963(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-302740963L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "performBonemeal(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/util/RandomSource;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)V", cancellable = true)
@@ -31,10 +31,10 @@ public class RootedDirtBlock_1968731337Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "getParticlePos(Lnet/minecraft/core/BlockPos;)Lnet/minecraft/core/BlockPos;", cancellable = true)
-    private void getParticlePos__302740963(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-302740963L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "isValidBonemealTarget(Lnet/minecraft/world/level/LevelReader;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Z", cancellable = true)
+    private void isValidBonemealTarget_2013411094(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2013411094L))
+            info.setReturnValue(false);
     }
 
 

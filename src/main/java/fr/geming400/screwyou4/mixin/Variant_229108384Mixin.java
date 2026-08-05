@@ -22,7 +22,7 @@ public class Variant_229108384Mixin {
     @Inject(at = @At("HEAD"), method = "getId()I", cancellable = true)
     private void getId_267370629(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(267370629L))
-            info.setReturnValue(-1617882576);
+            info.setReturnValue(-1661439876);
     }
 
     @Inject(at = @At("HEAD"), method = "byId(I)Lnet/minecraft/world/entity/animal/equine/Llama$Variant;", cancellable = true)
@@ -34,7 +34,7 @@ public class Variant_229108384Mixin {
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName__906352088(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-906352088L))
-            info.setReturnValue("c SH<Yh$Qw9煅aeohT07$E(U謠{^羽VDtj-`?WtiPx/H}_5&4.>.qd&_R;雂A/V,g䭤!QW-_vt&몜)mSh\"z");
+            info.setReturnValue("c SH<Yh$Qw9\u7145aeohT07$E(U\u8B20{^\u7FBDVDtj-`?WtiPx/H}_5&4.>.qd&_R;\u96C2A/V,g\u4B64!QW-_vt&\uBA9C)mSh\"z");
     }
 
 

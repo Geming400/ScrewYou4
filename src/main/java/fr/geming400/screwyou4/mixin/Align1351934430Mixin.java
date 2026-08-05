@@ -22,7 +22,7 @@ public class Align1351934430Mixin {
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName_216473959(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(216473959L))
-            info.setReturnValue("t4&/ꯉ=+ld=\"+㿪O");
+            info.setReturnValue("t4&/\uABC9=+ld=\"+\u3FEAO");
     }
 
 

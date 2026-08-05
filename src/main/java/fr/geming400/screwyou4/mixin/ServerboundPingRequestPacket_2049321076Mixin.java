@@ -28,7 +28,7 @@ public class ServerboundPingRequestPacket_2049321076Mixin {
     @Inject(at = @At("HEAD"), method = "getTime()J", cancellable = true)
     private void getTime_2087584282(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2087584282L))
-            info.setReturnValue(-2628806194440934530L);
+            info.setReturnValue(-2628806193853716630L);
     }
 
 

@@ -10,7 +10,7 @@ public class NetworkPayload383261784Mixin {
         @Inject(at = @At("HEAD"), method = "size()I", cancellable = true)
     private void size_421524030(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(421524030L))
-            info.setReturnValue(-361164218);
+            info.setReturnValue(-1115881518);
     }
 
     @Inject(at = @At("HEAD"), method = "isEmpty()Z", cancellable = true)

@@ -16,13 +16,13 @@ public class ColorCollection_1492330653Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_356870677(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(356870677L))
-            info.setReturnValue("{BfZy<&1ᙘ,qVcGJKa,(^C+xQLQqLv狩z1}");
+            info.setReturnValue("{BfZy<&1\u1658,qVcGJKa,(^C+xQLQqLv\u72E9z1}");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1530593394(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1530593394L))
-            info.setReturnValue(754114288);
+            info.setReturnValue(1168681688);
     }
 
     @Inject(at = @At("HEAD"), method = "map(Ljava/util/function/Function;)Lnet/minecraft/world/level/block/ColorCollection;", cancellable = true)
@@ -67,12 +67,6 @@ public class ColorCollection_1492330653Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "blue()Ljava/lang/Object;", cancellable = true)
-    private void blue__943444425(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-943444425L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "cyan()Ljava/lang/Object;", cancellable = true)
     private void cyan__943444425(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-943444425L))
@@ -81,6 +75,18 @@ public class ColorCollection_1492330653Mixin {
 
     @Inject(at = @At("HEAD"), method = "green()Ljava/lang/Object;", cancellable = true)
     private void green__943444425(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-943444425L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "blue()Ljava/lang/Object;", cancellable = true)
+    private void blue__943444425(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-943444425L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "gray()Ljava/lang/Object;", cancellable = true)
+    private void gray__943444425(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-943444425L))
             info.setReturnValue(null);
     }
@@ -103,9 +109,27 @@ public class ColorCollection_1492330653Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "gray()Ljava/lang/Object;", cancellable = true)
-    private void gray__943444425(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-943444425L))
+    @Inject(at = @At("HEAD"), method = "registerBlocks(Lnet/minecraft/world/level/block/ColorCollection;Lorg/apache/commons/lang3/function/TriFunction;Ljava/util/function/BiFunction;Ljava/util/function/Function;)Lnet/minecraft/world/level/block/ColorCollection;", cancellable = true)
+    private static void registerBlocks__1909817940(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1909817940L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "prefixWithColor(Lnet/minecraft/world/level/block/ColorCollection;)Lnet/minecraft/world/level/block/ColorCollection;", cancellable = true)
+    private static void prefixWithColor__301460823(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-301460823L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "registerItems(Lnet/minecraft/world/level/block/ColorCollection;Ljava/util/function/BiFunction;)Lnet/minecraft/world/level/block/ColorCollection;", cancellable = true)
+    private static void registerItems__423752190(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-423752190L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "registerBlockItems(Lnet/minecraft/world/level/block/ColorCollection;Lnet/minecraft/world/level/block/ColorCollection;Lorg/apache/commons/lang3/function/TriFunction;)Lnet/minecraft/world/level/block/ColorCollection;", cancellable = true)
+    private static void registerBlockItems__1987027655(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1987027655L))
             info.setReturnValue(null);
     }
 
@@ -113,36 +137,6 @@ public class ColorCollection_1492330653Mixin {
     private void orange__943444425(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-943444425L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "purple()Ljava/lang/Object;", cancellable = true)
-    private void purple__943444425(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-943444425L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "lightGray()Ljava/lang/Object;", cancellable = true)
-    private void lightGray__943444425(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-943444425L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "pink()Ljava/lang/Object;", cancellable = true)
-    private void pink__943444425(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-943444425L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "zipMap(Lnet/minecraft/world/level/block/ColorCollection;Lnet/minecraft/world/level/block/ColorCollection;Ljava/util/function/BiFunction;)Lnet/minecraft/world/level/block/ColorCollection;", cancellable = true)
-    private static void zipMap__1518549130(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1518549130L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "zipApply(Lnet/minecraft/world/level/block/ColorCollection;Lnet/minecraft/world/level/block/ColorCollection;Ljava/util/function/BiConsumer;)V", cancellable = true)
-    private static void zipApply_2111299370(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(2111299370L))
-            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "lightBlue()Ljava/lang/Object;", cancellable = true)
@@ -157,34 +151,40 @@ public class ColorCollection_1492330653Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "pink()Ljava/lang/Object;", cancellable = true)
+    private void pink__943444425(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-943444425L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "lightGray()Ljava/lang/Object;", cancellable = true)
+    private void lightGray__943444425(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-943444425L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "purple()Ljava/lang/Object;", cancellable = true)
+    private void purple__943444425(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-943444425L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "brown()Ljava/lang/Object;", cancellable = true)
     private void brown__943444425(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-943444425L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "registerBlocks(Lnet/minecraft/world/level/block/ColorCollection;Lorg/apache/commons/lang3/function/TriFunction;Ljava/util/function/BiFunction;Ljava/util/function/Function;)Lnet/minecraft/world/level/block/ColorCollection;", cancellable = true)
-    private static void registerBlocks__1909817940(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1909817940L))
+    @Inject(at = @At("HEAD"), method = "zipMap(Lnet/minecraft/world/level/block/ColorCollection;Lnet/minecraft/world/level/block/ColorCollection;Ljava/util/function/BiFunction;)Lnet/minecraft/world/level/block/ColorCollection;", cancellable = true)
+    private static void zipMap__1518549130(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1518549130L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "prefixWithColor(Lnet/minecraft/world/level/block/ColorCollection;)Lnet/minecraft/world/level/block/ColorCollection;", cancellable = true)
-    private static void prefixWithColor__301460823(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-301460823L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "registerBlockItems(Lnet/minecraft/world/level/block/ColorCollection;Lnet/minecraft/world/level/block/ColorCollection;Lorg/apache/commons/lang3/function/TriFunction;)Lnet/minecraft/world/level/block/ColorCollection;", cancellable = true)
-    private static void registerBlockItems__1987027655(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1987027655L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "registerItems(Lnet/minecraft/world/level/block/ColorCollection;Ljava/util/function/BiFunction;)Lnet/minecraft/world/level/block/ColorCollection;", cancellable = true)
-    private static void registerItems__423752190(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-423752190L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "zipApply(Lnet/minecraft/world/level/block/ColorCollection;Lnet/minecraft/world/level/block/ColorCollection;Ljava/util/function/BiConsumer;)V", cancellable = true)
+    private static void zipApply_2111299370(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(2111299370L))
+            info.cancel();
     }
 
 

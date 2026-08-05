@@ -16,13 +16,13 @@ public class Leaf_2042724590Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_907264614(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(907264614L))
-            info.setReturnValue("N376燭rQh^ɱ픟oo^b#SIShFYrX㮛k*(KPHWVm?crnࡎ)ft@>|2Q2B!s^Jꙙh=`MP7@/{mL;UiLZ");
+            info.setReturnValue("N376\u71EDrQh^\u0271\uD51Foo^b#SIShFYrX\u3B9Bk*(KPHWVm?crn\u084E)ft@>|2Q2B!s^J\uA659h=`MP7@/{mL;UiLZ");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2080987331(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2080987331L))
-            info.setReturnValue(1115300954);
+            info.setReturnValue(1836106554);
     }
 
     @Inject(at = @At("HEAD"), method = "component()Lnet/minecraft/client/gui/components/events/GuiEventListener;", cancellable = true)
@@ -31,16 +31,16 @@ public class Leaf_2042724590Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "leafComponent()Lnet/minecraft/client/gui/components/events/GuiEventListener;", cancellable = true)
-    private void leafComponent_2128761213(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2128761213L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "applyFocus(Z)V", cancellable = true)
     private void applyFocus__1022625878(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1022625878L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "leafComponent()Lnet/minecraft/client/gui/components/events/GuiEventListener;", cancellable = true)
+    private void leafComponent_2128761213(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2128761213L))
+            info.setReturnValue(null);
     }
 
 

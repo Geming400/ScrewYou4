@@ -16,13 +16,13 @@ public class ShowItem_254178272Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__881281704(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-881281704L))
-            info.setReturnValue("M4ou*ds&*H `jhj4Vhsf}3>刮oO7ᾫn)Lr-;ELU^㇃WK%Mli^ybⅅsgꩇ&");
+            info.setReturnValue("M4ou*ds&*H `jhj4Vhsf}3>\u522EoO7\u1FABn)Lr-;ELU^\u31C3WK%Mli^yb\u2145sg\uAA47&");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_292441013(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(292441013L))
-            info.setReturnValue(1391145452);
+            info.setReturnValue(1810920152);
     }
 
     @Inject(at = @At("HEAD"), method = "action()Lnet/minecraft/network/chat/HoverEvent$Action;", cancellable = true)

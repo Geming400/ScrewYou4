@@ -16,19 +16,19 @@ public class GuiProfilerChartRenderState429780931Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__705679044(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-705679044L))
-            info.setReturnValue("gJ8斞7&{iZRᦦpgg*");
+            info.setReturnValue("gJ8\u659E7&{iZR\u19A6pgg*");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_468043673(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(468043673L))
-            info.setReturnValue(-1984300104);
+            info.setReturnValue(2041542892);
     }
 
     @Inject(at = @At("HEAD"), method = "scale()F", cancellable = true)
     private void scale_468040294(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(468040294L))
-            info.setReturnValue(5.136705E8F);
+            info.setReturnValue(2.445462E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "bounds()Lnet/minecraft/client/gui/navigation/ScreenRectangle;", cancellable = true)
@@ -40,36 +40,36 @@ public class GuiProfilerChartRenderState429780931Mixin {
     @Inject(at = @At("HEAD"), method = "x1()I", cancellable = true)
     private void x1_468043177(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(468043177L))
-            info.setReturnValue(-1805776614);
+            info.setReturnValue(-2074900914);
     }
 
     @Inject(at = @At("HEAD"), method = "y1()I", cancellable = true)
     private void y1_468043177(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(468043177L))
-            info.setReturnValue(-1805776614);
+            info.setReturnValue(-2074900914);
     }
 
     @Inject(at = @At("HEAD"), method = "x0()I", cancellable = true)
     private void x0_468043177(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(468043177L))
-            info.setReturnValue(-1805776614);
+            info.setReturnValue(-2074900914);
     }
 
     @Inject(at = @At("HEAD"), method = "y0()I", cancellable = true)
     private void y0_468043177(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(468043177L))
-            info.setReturnValue(-1805776614);
-    }
-
-    @Inject(at = @At("HEAD"), method = "scissorArea()Lnet/minecraft/client/gui/navigation/ScreenRectangle;", cancellable = true)
-    private void scissorArea_1604806235(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1604806235L))
-            info.setReturnValue(null);
+            info.setReturnValue(-2074900914);
     }
 
     @Inject(at = @At("HEAD"), method = "chartData()Ljava/util/List;", cancellable = true)
     private void chartData_2056117747(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2056117747L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "scissorArea()Lnet/minecraft/client/gui/navigation/ScreenRectangle;", cancellable = true)
+    private void scissorArea_1604806235(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1604806235L))
             info.setReturnValue(null);
     }
 

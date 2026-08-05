@@ -16,13 +16,13 @@ public class Metadata1354560068Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_219100093(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(219100093L))
-            info.setReturnValue("e3㇒TⲶ/湱2⊏牼4.-}#]Iyv,#RG/;UMy*!}k쓿-fM層퍫");
+            info.setReturnValue("e3\u31D2T\u2CB6/\u6E712\u228F\u727C4.-}#]Iyv,#RG/;UMy*!}k\uC4FF-fM\uFA3B\uD36B");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1392822810(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1392822810L))
-            info.setReturnValue(858387845);
+            info.setReturnValue(170224245);
     }
 
     @Inject(at = @At("HEAD"), method = "description()Lnet/minecraft/network/chat/Component;", cancellable = true)
@@ -31,9 +31,9 @@ public class Metadata1354560068Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "overlays()Ljava/util/List;", cancellable = true)
-    private void overlays__1314070412(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1314070412L))
+    @Inject(at = @At("HEAD"), method = "requestedFeatures()Lnet/minecraft/world/flag/FeatureFlagSet;", cancellable = true)
+    private void requestedFeatures_2019380566(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2019380566L))
             info.setReturnValue(null);
     }
 
@@ -43,9 +43,9 @@ public class Metadata1354560068Mixin {
             info.setReturnValue(net.minecraft.server.packs.repository.PackCompatibility.TOO_NEW);
     }
 
-    @Inject(at = @At("HEAD"), method = "requestedFeatures()Lnet/minecraft/world/flag/FeatureFlagSet;", cancellable = true)
-    private void requestedFeatures_2019380566(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2019380566L))
+    @Inject(at = @At("HEAD"), method = "overlays()Ljava/util/List;", cancellable = true)
+    private void overlays__1314070412(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1314070412L))
             info.setReturnValue(null);
     }
 

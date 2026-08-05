@@ -16,13 +16,13 @@ public class TriggerInstance_1031138888Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__104321088(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-104321088L))
-            info.setReturnValue("篆k5w8iF$S-H帳/\"㍆^;f\"坧3aYG+()ໞ_7y.zp惯/`M>琀:'z⡏t^9xz#\"༫Y\"r`ᅽ⭷_`)xiG7};LYR䰶5L춬*I菀@lH4||vW$p");
+            info.setReturnValue("\u7BC6k5w8iF$S-H\u5E33/\"\u3346^;f\"\u57673aYG+()\u0EDE_7y.zp\u60EF/`M>\u7400:'z\u284Ft^9xz#\"\u0F2BY\"r`\u117D\u2B77_`)xiG7};LYR\u4C365L\uCDAC*I\u83C0@lH4||vW$p");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1069401629(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1069401629L))
-            info.setReturnValue(382506819);
+            info.setReturnValue(707023419);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/server/level/ServerPlayer;Lnet/minecraft/world/damagesource/DamageSource;FFZ)Z", cancellable = true)

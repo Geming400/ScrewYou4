@@ -16,13 +16,13 @@ public class DamageResistant754650992Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__380808983(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-380808983L))
-            info.setReturnValue(">R-;,pEAFKknCF8*p@_FBrEO$1|2_7mcWk_xm' }퓜{${Bm'=Ḁ`c辅K{B\"{@Fur_B[Q)vCu≀vY枮vKi奼kB#:죙#5Bp6ᔥa:Iexu|sm");
+            info.setReturnValue(">R-;,pEAFKknCF8*p@_FBrEO$1|2_7mcWk_xm' }\uD4DC{${Bm'=\u1E00`c\u8F85K{B\"{@Fur_B[Q)vCu\u2240vY\u67AEvKi\u597CkB#:\uC8D9#5Bp6\u1525a:Iexu|sm");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_792913734(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(792913734L))
-            info.setReturnValue(1096691155);
+            info.setReturnValue(862003555);
     }
 
     @Inject(at = @At("HEAD"), method = "types()Lnet/minecraft/core/HolderSet;", cancellable = true)

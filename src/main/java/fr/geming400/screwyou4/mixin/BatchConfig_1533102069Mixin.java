@@ -10,7 +10,7 @@ public class BatchConfig_1533102069Mixin {
         @Inject(at = @At("HEAD"), method = "maxSize()I", cancellable = true)
     private void maxSize_1571364314(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1571364314L))
-            info.setReturnValue(-1194378326);
+            info.setReturnValue(-1327517526);
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
@@ -22,13 +22,13 @@ public class BatchConfig_1533102069Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_397642093(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(397642093L))
-            info.setReturnValue("}MVaP*[x_<+kP&Pyt双:ᆦ?뀤U잠MSꢂ;|iiM1Nx1B?l.cpw _!x V#姎,guP1狾R菵yD>YG2");
+            info.setReturnValue("}MVaP*[x_<+kP&Pyt\u53CC:\u11A6?\uB024U\uC7A0MS\uA882;|iiM1Nx1B?l.cpw _!x V#\u59CE,guP1\u72FER\u83F5yD>YG2");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1571364810(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1571364810L))
-            info.setReturnValue(-1397525745);
+            info.setReturnValue(-1530664945);
     }
 
     @Inject(at = @At("HEAD"), method = "proxy()Ljava/net/Proxy;", cancellable = true)

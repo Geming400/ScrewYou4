@@ -10,7 +10,7 @@ public class IdMapper_6812280Mixin {
         @Inject(at = @At("HEAD"), method = "size()I", cancellable = true)
     private void size_45074525(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(45074525L))
-            info.setReturnValue(-1861416835);
+            info.setReturnValue(-1202777335);
     }
 
     @Inject(at = @At("HEAD"), method = "add(Ljava/lang/Object;)V", cancellable = true)
@@ -34,19 +34,19 @@ public class IdMapper_6812280Mixin {
     @Inject(at = @At("HEAD"), method = "getId(Ljava/lang/Object;)I", cancellable = true)
     private void getId_1392307705(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1392307705L))
-            info.setReturnValue(1420411343);
-    }
-
-    @Inject(at = @At("HEAD"), method = "byId(I)Ljava/lang/Object;", cancellable = true)
-    private void byId_1580595881(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1580595881L))
-            info.setReturnValue(new java.lang.Object());
+            info.setReturnValue(2079050843);
     }
 
     @Inject(at = @At("HEAD"), method = "addMapping(Ljava/lang/Object;I)V", cancellable = true)
     private void addMapping_35284871(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(35284871L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "byId(I)Ljava/lang/Object;", cancellable = true)
+    private void byId_1580595881(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1580595881L))
+            info.setReturnValue(new java.lang.Object());
     }
 
 

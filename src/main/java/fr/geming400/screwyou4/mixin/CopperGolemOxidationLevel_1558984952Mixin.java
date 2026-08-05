@@ -16,18 +16,18 @@ public class CopperGolemOxidationLevel_1558984952Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_423524976(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(423524976L))
-            info.setReturnValue("딮-Hယ)A<CU棆f'y@,aK-^櫌(l!jBHj9h垲N1ja`T%{aꮚL V7zJvAWx%ryoi/@qI]");
+            info.setReturnValue("\uB52E-H\u101A)A<CU\u68C6f'y@,aK-^\u6ACC(l!jBHj9h\u57B2N1ja`T%{a\uAB9AL V7zJvAWx%ryoi/@qI]");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1597247693(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1597247693L))
-            info.setReturnValue(-868928920);
+            info.setReturnValue(-843666220);
     }
 
-    @Inject(at = @At("HEAD"), method = "eyeTexture()Lnet/minecraft/resources/Identifier;", cancellable = true)
-    private void eyeTexture__884081602(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-884081602L))
+    @Inject(at = @At("HEAD"), method = "deathSound()Lnet/minecraft/sounds/SoundEvent;", cancellable = true)
+    private void deathSound__1645769447(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1645769447L))
             info.setReturnValue(null);
     }
 
@@ -37,15 +37,15 @@ public class CopperGolemOxidationLevel_1558984952Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "deathSound()Lnet/minecraft/sounds/SoundEvent;", cancellable = true)
-    private void deathSound__1645769447(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "stepSound()Lnet/minecraft/sounds/SoundEvent;", cancellable = true)
+    private void stepSound__1645769447(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1645769447L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "stepSound()Lnet/minecraft/sounds/SoundEvent;", cancellable = true)
-    private void stepSound__1645769447(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1645769447L))
+    @Inject(at = @At("HEAD"), method = "eyeTexture()Lnet/minecraft/resources/Identifier;", cancellable = true)
+    private void eyeTexture__884081602(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-884081602L))
             info.setReturnValue(null);
     }
 

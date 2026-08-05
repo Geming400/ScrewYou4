@@ -10,13 +10,13 @@ public class WorldCoordinate_572281300Mixin {
         @Inject(at = @At("HEAD"), method = "get(D)D", cancellable = true)
     private void get_1781563368(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1781563368L))
-            info.setReturnValue(8.725017001680307E8D);
+            info.setReturnValue(9.214383001680307E8D);
     }
 
     @Inject(at = @At("HEAD"), method = "value()D", cancellable = true)
     private void value_610538740(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(610538740L))
-            info.setReturnValue(8.725017008408209E8D);
+            info.setReturnValue(9.214383008408209E8D);
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
@@ -28,13 +28,13 @@ public class WorldCoordinate_572281300Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__563178676(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-563178676L))
-            info.setReturnValue("ah[諿A-v赸QKH0ZR.ᵡY#4\"윮^싁⤢귲D뷂5x4+;1w(N)J쉢1镹!k6mDETzMoLrhEr <<Yaoq뼇ﺒ잚][cA<PM4sIC榱>$t>KvC*=ih:hll");
+            info.setReturnValue("ah[\u8AFFA-v\u8D78QKH0ZR.\u1D61Y#4\"\uC72E^\uC2C1\u2922\uADF2D\uBDC25x4+;1w(N)J\uC2621\u9579!k6mDETzMoLrhEr <<Yaoq\uBF07\uFE92\uC79A][cA<PM4sIC\u69B1>$t>KvC*=ih:hll");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_610544041(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(610544041L))
-            info.setReturnValue(1052993886);
+            info.setReturnValue(1101930486);
     }
 
     @Inject(at = @At("HEAD"), method = "parseInt(Lcom/mojang/brigadier/StringReader;)Lnet/minecraft/commands/arguments/coordinates/WorldCoordinate;", cancellable = true)

@@ -16,19 +16,19 @@ public class Limited2058138498Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_922678523(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(922678523L))
-            info.setReturnValue("嬺,j7iR");
+            info.setReturnValue("\u5B3A,j7iR");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2096401240(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2096401240L))
-            info.setReturnValue(-425448460);
+            info.setReturnValue(-564406660);
     }
 
     @Inject(at = @At("HEAD"), method = "limit()I", cancellable = true)
     private void limit_2096400744(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2096400744L))
-            info.setReturnValue(-246924971);
+            info.setReturnValue(-385883171);
     }
 
     @Inject(at = @At("HEAD"), method = "limit(I)Lnet/minecraft/world/item/slot/SlotCollection;", cancellable = true)

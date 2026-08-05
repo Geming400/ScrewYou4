@@ -16,13 +16,13 @@ public class OptionInstanceWidget_446247288Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__689212688(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-689212688L))
-            info.setReturnValue("J䰪QgjYOi)AZb?SdD댉㿛悪pfy㜄TZ0嬑>RR걱EY9>\"aQNH0BVW4j^[VI.B䱊y1K짰GmSOEt9r0ᆠ*2m⍨'|zx");
+            info.setReturnValue("J\u4C2AQgjYOi)AZb?SdD\uB309\u3FDB\u60AApfy\u3704TZ0\u5B11>RR\uAC71EY9>\"aQNH0BVW4j^[VI.B\u4C4Ay1K\uC9F0GmSOEt9r0\u11A0*2m\u2368'|zx");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_484510029(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(484510029L))
-            info.setReturnValue(-588420487);
+            info.setReturnValue(147810313);
     }
 
     @Inject(at = @At("HEAD"), method = "optionInstance()Lnet/minecraft/client/OptionInstance;", cancellable = true)

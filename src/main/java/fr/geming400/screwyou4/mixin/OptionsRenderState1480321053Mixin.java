@@ -10,7 +10,7 @@ public class OptionsRenderState1480321053Mixin {
         @Inject(at = @At("HEAD"), method = "getBackgroundOpacity(F)F", cancellable = true)
     private void getBackgroundOpacity__1603515210(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1603515210L))
-            info.setReturnValue(4.18448E8F);
+            info.setReturnValue(7.702073E8F);
     }
 
 

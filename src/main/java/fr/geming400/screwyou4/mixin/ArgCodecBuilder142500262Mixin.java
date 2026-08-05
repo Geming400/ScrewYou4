@@ -13,15 +13,15 @@ public class ArgCodecBuilder142500262Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "anyOf([Ljava/lang/Object;Ljava/util/function/Function;Ljava/util/function/Function;)Lnet/minecraft/world/level/storage/loot/LootContextArg$ArgCodecBuilder;", cancellable = true)
-    private void anyOf_1225450196(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1225450196L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "anyOf([Lnet/minecraft/util/StringRepresentable;Ljava/util/function/Function;)Lnet/minecraft/world/level/storage/loot/LootContextArg$ArgCodecBuilder;", cancellable = true)
     private void anyOf_331390675(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(331390675L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "anyOf([Ljava/lang/Object;Ljava/util/function/Function;Ljava/util/function/Function;)Lnet/minecraft/world/level/storage/loot/LootContextArg$ArgCodecBuilder;", cancellable = true)
+    private void anyOf_1225450196(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1225450196L))
             info.setReturnValue(null);
     }
 

@@ -10,7 +10,7 @@ public class RedstoneSide_1127041193Mixin {
         @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__8419279(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-8419279L))
-            info.setReturnValue("$ANB⽄m|?reun]W+rmo8 `)kL=ivA@=YVw핆㘒iG&K}6O믗yB\"y&=ue 5q0zFK?ef4(2");
+            info.setReturnValue("$ANB\u2F44m|?reun]W+rmo8 `)kL=ivA@=YVw\uD546\u3612iG&K}6O\uBBD7yB\"y&=ue 5q0zFK?ef4(2");
     }
 
     @Inject(at = @At("HEAD"), method = "values()[Lnet/minecraft/world/level/block/state/properties/RedstoneSide;", cancellable = true)
@@ -34,7 +34,7 @@ public class RedstoneSide_1127041193Mixin {
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName__8419279(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-8419279L))
-            info.setReturnValue("$ANB⽄m|?reun]W+rmo8 `)kL=ivA@=YVw핆㘒iG&K}6O믗yB\"y&=ue 5q0zFK?ef4(2");
+            info.setReturnValue("$ANB\u2F44m|?reun]W+rmo8 `)kL=ivA@=YVw\uD546\u3612iG&K}6O\uBBD7yB\"y&=ue 5q0zFK?ef4(2");
     }
 
 

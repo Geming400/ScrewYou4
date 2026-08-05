@@ -16,19 +16,19 @@ public class DebugGameEventListenerInfo310018211Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__825441764(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-825441764L))
-            info.setReturnValue("v)I⠸F{\"XpZ&]7]MꚈo唍CnK勡>9KZdw)W'窡qa&u^tbM䪦jbvǁZj$I@:Ṧ}lﶛ}@s@}刺'g59齎縌캻!y5饪Gു+Z");
+            info.setReturnValue("v)I\u2838F{\"XpZ&]7]M\uA688o\u550DCnK\u52E1>9KZdw)W'\u7AA1qa&u^tbM\u4AA6jbv\u01C1Zj$I@:\u1E66}l\uFD9B}@s@}\uF9FF'g59\u9F4E\u7E0C\uCEBB!y5\u996AG\u0D41+Z");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_348280953(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(348280953L))
-            info.setReturnValue(142624364);
+            info.setReturnValue(-417955036);
     }
 
     @Inject(at = @At("HEAD"), method = "listenerRadius()I", cancellable = true)
     private void listenerRadius_348280457(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(348280457L))
-            info.setReturnValue(-1156287922);
+            info.setReturnValue(-1716867322);
     }
 
 

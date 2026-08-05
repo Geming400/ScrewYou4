@@ -22,13 +22,13 @@ public class PlayerDto_1575534304Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_440074328(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(440074328L))
-            info.setReturnValue("{;}%#R]q`驭ӘN.\"<軮Z'舺{&3IGLTwd$I6IL|Z\"]$");
+            info.setReturnValue("{;}%#R]q`\u9A6D\u04D8N.\"<\u8EEEZ'\u823A{&3IGLTwd$I6IL|Z\"]$");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1613797045(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1613797045L))
-            info.setReturnValue(-1564474914);
+            info.setReturnValue(-1760173314);
     }
 
     @Inject(at = @At("HEAD"), method = "from(Lnet/minecraft/server/players/NameAndId;)Lnet/minecraft/server/jsonrpc/api/PlayerDto;", cancellable = true)

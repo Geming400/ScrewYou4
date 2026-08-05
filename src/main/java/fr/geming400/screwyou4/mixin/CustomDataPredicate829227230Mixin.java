@@ -22,13 +22,13 @@ public class CustomDataPredicate829227230Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__306232745(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-306232745L))
-            info.setReturnValue("(<^櫗Ro.b㲡Dꪷwj'(E");
+            info.setReturnValue("(<^\u6AD7Ro.b\u3CA1D\uAAB7wj'(E");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_867489972(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(867489972L))
-            info.setReturnValue(86440757);
+            info.setReturnValue(331982557);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/core/component/DataComponentGetter;)Z", cancellable = true)

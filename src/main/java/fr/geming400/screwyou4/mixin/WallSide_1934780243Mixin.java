@@ -10,7 +10,7 @@ public class WallSide_1934780243Mixin {
         @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_799319771(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(799319771L))
-            info.setReturnValue("7sP<6C{fc2'017\"-C-/N4V8[!Hi랢ie曳!`#CI?꣗");
+            info.setReturnValue("7sP<6C{fc2'017\"-C-/N4V8[!Hi\uB7A2ie\u66F3!`#CI?\uA8D7");
     }
 
     @Inject(at = @At("HEAD"), method = "values()[Lnet/minecraft/world/level/block/state/properties/WallSide;", cancellable = true)
@@ -28,7 +28,7 @@ public class WallSide_1934780243Mixin {
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName_799319771(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(799319771L))
-            info.setReturnValue("7sP<6C{fc2'017\"-C-/N4V8[!Hi랢ie曳!`#CI?꣗");
+            info.setReturnValue("7sP<6C{fc2'017\"-C-/N4V8[!Hi\uB7A2ie\u66F3!`#CI?\uA8D7");
     }
 
 

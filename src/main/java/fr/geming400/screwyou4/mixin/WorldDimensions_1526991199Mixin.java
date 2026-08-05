@@ -22,13 +22,13 @@ public class WorldDimensions_1526991199Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_391531223(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(391531223L))
-            info.setReturnValue("c;f蜟XHwy7@ALL頂mE7-+u;");
+            info.setReturnValue("c;f\u871FXHwy7@ALL\u9802mE7-+u;");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1565253940(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1565253940L))
-            info.setReturnValue(1499157124);
+            info.setReturnValue(-1996035872);
     }
 
     @Inject(at = @At("HEAD"), method = "dimensions()Ljava/util/Map;", cancellable = true)
@@ -49,21 +49,21 @@ public class WorldDimensions_1526991199Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "replaceOverworldGenerator(Lnet/minecraft/core/HolderLookup$Provider;Lnet/minecraft/world/level/chunk/ChunkGenerator;)Lnet/minecraft/world/level/levelgen/WorldDimensions;", cancellable = true)
-    private void replaceOverworldGenerator_702538477(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(702538477L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "overworld()Lnet/minecraft/world/level/chunk/ChunkGenerator;", cancellable = true)
     private void overworld__270001208(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-270001208L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "withOverworld(Lnet/minecraft/core/HolderLookup;Ljava/util/Map;Lnet/minecraft/world/level/chunk/ChunkGenerator;)Ljava/util/Map;", cancellable = true)
-    private static void withOverworld_638350095(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(638350095L))
+    @Inject(at = @At("HEAD"), method = "bake(Lnet/minecraft/core/Registry;)Lnet/minecraft/world/level/levelgen/WorldDimensions$Complete;", cancellable = true)
+    private void bake__1589319173(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1589319173L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "replaceOverworldGenerator(Lnet/minecraft/core/HolderLookup$Provider;Lnet/minecraft/world/level/chunk/ChunkGenerator;)Lnet/minecraft/world/level/levelgen/WorldDimensions;", cancellable = true)
+    private void replaceOverworldGenerator_702538477(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(702538477L))
             info.setReturnValue(null);
     }
 
@@ -73,15 +73,15 @@ public class WorldDimensions_1526991199Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "keysInOrder(Ljava/util/Set;)Ljava/util/stream/Stream;", cancellable = true)
-    private static void keysInOrder__592866880(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-592866880L))
+    @Inject(at = @At("HEAD"), method = "withOverworld(Lnet/minecraft/core/HolderLookup;Ljava/util/Map;Lnet/minecraft/world/level/chunk/ChunkGenerator;)Ljava/util/Map;", cancellable = true)
+    private static void withOverworld_638350095(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(638350095L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "bake(Lnet/minecraft/core/Registry;)Lnet/minecraft/world/level/levelgen/WorldDimensions$Complete;", cancellable = true)
-    private void bake__1589319173(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1589319173L))
+    @Inject(at = @At("HEAD"), method = "keysInOrder(Ljava/util/Set;)Ljava/util/stream/Stream;", cancellable = true)
+    private static void keysInOrder__592866880(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-592866880L))
             info.setReturnValue(null);
     }
 

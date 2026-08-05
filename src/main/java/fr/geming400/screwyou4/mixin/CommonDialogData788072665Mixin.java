@@ -16,13 +16,13 @@ public class CommonDialogData788072665Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__347387310(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-347387310L))
-            info.setReturnValue("l'lrm8xVro^[SDHL 7<\"[<_皕sx");
+            info.setReturnValue("l'lrm8xVro^[SDHL 7<\"[<_\u7695sx");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_826335407(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(826335407L))
-            info.setReturnValue(-1024694975);
+            info.setReturnValue(-843185775);
     }
 
     @Inject(at = @At("HEAD"), method = "body()Ljava/util/List;", cancellable = true)
@@ -37,14 +37,14 @@ public class CommonDialogData788072665Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "pause()Z", cancellable = true)
-    private void pause_826351248(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(826351248L))
-            info.setReturnValue(false);
-    }
-
     @Inject(at = @At("HEAD"), method = "title()Lnet/minecraft/network/chat/Component;", cancellable = true)
     private void title__1388836500(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1388836500L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "computeExternalTitle()Lnet/minecraft/network/chat/Component;", cancellable = true)
+    private void computeExternalTitle__1388836500(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1388836500L))
             info.setReturnValue(null);
     }
@@ -55,20 +55,20 @@ public class CommonDialogData788072665Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "canCloseWithEscape()Z", cancellable = true)
+    private void canCloseWithEscape_826351248(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(826351248L))
+            info.setReturnValue(false);
+    }
+
     @Inject(at = @At("HEAD"), method = "afterAction()Lnet/minecraft/server/dialog/DialogAction;", cancellable = true)
     private void afterAction_235304506(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(235304506L))
             info.setReturnValue(net.minecraft.server.dialog.DialogAction.CLOSE);
     }
 
-    @Inject(at = @At("HEAD"), method = "computeExternalTitle()Lnet/minecraft/network/chat/Component;", cancellable = true)
-    private void computeExternalTitle__1388836500(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1388836500L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "canCloseWithEscape()Z", cancellable = true)
-    private void canCloseWithEscape_826351248(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "pause()Z", cancellable = true)
+    private void pause_826351248(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(826351248L))
             info.setReturnValue(false);
     }

@@ -7,22 +7,16 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.world.level.PathNavigationRegion.class)
 public class PathNavigationRegion_293378641Mixin {
-        @Inject(at = @At("HEAD"), method = "getFluidState(Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/material/FluidState;", cancellable = true)
-    private void getFluidState_1739555413(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1739555413L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getBlockEntity(Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/block/entity/BlockEntity;", cancellable = true)
-    private void getBlockEntity_291039432(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(291039432L))
-            info.setReturnValue(null);
+        @Inject(at = @At("HEAD"), method = "getHeight()I", cancellable = true)
+    private void getHeight_331640886(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(331640886L))
+            info.setReturnValue(-2052166455);
     }
 
     @Inject(at = @At("HEAD"), method = "getMinY()I", cancellable = true)
     private void getMinY_331640886(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(331640886L))
-            info.setReturnValue(-1349038155);
+            info.setReturnValue(-2052166455);
     }
 
     @Inject(at = @At("HEAD"), method = "getChunkForCollisions(II)Lnet/minecraft/world/level/BlockGetter;", cancellable = true)
@@ -49,10 +43,16 @@ public class PathNavigationRegion_293378641Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getHeight()I", cancellable = true)
-    private void getHeight_331640886(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(331640886L))
-            info.setReturnValue(-1349038155);
+    @Inject(at = @At("HEAD"), method = "getFluidState(Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/material/FluidState;", cancellable = true)
+    private void getFluidState_1739555413(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1739555413L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getBlockEntity(Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/block/entity/BlockEntity;", cancellable = true)
+    private void getBlockEntity_291039432(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(291039432L))
+            info.setReturnValue(null);
     }
 
 

@@ -10,7 +10,7 @@ public class DebugSubscription_666508030Mixin {
         @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__468952442(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-468952442L))
-            info.setReturnValue("(檝cxOsCfYx࿗XfM6V]籟q gPSXGPh仢EP5f2Fꨙ)wR!");
+            info.setReturnValue("(\u6A9DcxOsCfYx\u0FD7XfM6V]\u7C5Fq gPSXGPh\u4EE2EP5f2F\uAA19)wR!");
     }
 
     @Inject(at = @At("HEAD"), method = "packEvent(Ljava/lang/Object;)Lnet/minecraft/util/debug/DebugSubscription$Event;", cancellable = true)
@@ -25,10 +25,10 @@ public class DebugSubscription_666508030Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "emptyUpdate()Lnet/minecraft/util/debug/DebugSubscription$Update;", cancellable = true)
-    private void emptyUpdate_25608943(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(25608943L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "expireAfterTicks()I", cancellable = true)
+    private void expireAfterTicks_704770275(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(704770275L))
+            info.setReturnValue(1122592726);
     }
 
     @Inject(at = @At("HEAD"), method = "valueStreamCodec()Lnet/minecraft/network/codec/StreamCodec;", cancellable = true)
@@ -37,10 +37,10 @@ public class DebugSubscription_666508030Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "expireAfterTicks()I", cancellable = true)
-    private void expireAfterTicks_704770275(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(704770275L))
-            info.setReturnValue(1815975026);
+    @Inject(at = @At("HEAD"), method = "emptyUpdate()Lnet/minecraft/util/debug/DebugSubscription$Update;", cancellable = true)
+    private void emptyUpdate_25608943(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(25608943L))
+            info.setReturnValue(null);
     }
 
 

@@ -16,13 +16,13 @@ public class PiecesContainer_1469131682Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_333671706(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(333671706L))
-            info.setReturnValue("hr出땄T 蹼uw똁kਠB0=}@TZID;!黭5%H&w(\"PZ-%sH_䑅e=N\"Yy8I");
+            info.setReturnValue("hr\u51FA\uB544T \u8E7Cuw\uB601k\u0A20B0=}@TZID;!\u9EED5%H&w(\"PZ-%sH_\u4445e=N\"Yy8I");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1507394423(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1507394423L))
-            info.setReturnValue(-310326105);
+            info.setReturnValue(259482395);
     }
 
     @Inject(at = @At("HEAD"), method = "load(Lnet/minecraft/nbt/ListTag;Lnet/minecraft/world/level/levelgen/structure/pieces/StructurePieceSerializationContext;)Lnet/minecraft/world/level/levelgen/structure/pieces/PiecesContainer;", cancellable = true)

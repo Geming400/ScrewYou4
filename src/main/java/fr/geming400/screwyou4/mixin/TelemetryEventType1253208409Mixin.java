@@ -10,7 +10,7 @@ public class TelemetryEventType1253208409Mixin {
         @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_117747938(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(117747938L))
-            info.setReturnValue("OMbb*h50S3<SᜀFIbmL");
+            info.setReturnValue("OMbb*h50S3<S\u1700FIbmL");
     }
 
     @Inject(at = @At("HEAD"), method = "values()Ljava/util/List;", cancellable = true)
@@ -34,7 +34,7 @@ public class TelemetryEventType1253208409Mixin {
     @Inject(at = @At("HEAD"), method = "id()Ljava/lang/String;", cancellable = true)
     private void id_117747938(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(117747938L))
-            info.setReturnValue("OMbb*h50S3<SᜀFIbmL");
+            info.setReturnValue("OMbb*h50S3<S\u1700FIbmL");
     }
 
     @Inject(at = @At("HEAD"), method = "properties()Ljava/util/List;", cancellable = true)
@@ -55,10 +55,10 @@ public class TelemetryEventType1253208409Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "selfTest()Z", cancellable = true)
-    private static void selfTest_1291487240(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1291487240L))
-            info.setReturnValue(false);
+    @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
+    private void codec__1305905163(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1305905163L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "title()Lnet/minecraft/network/chat/MutableComponent;", cancellable = true)
@@ -67,10 +67,10 @@ public class TelemetryEventType1253208409Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
-    private void codec__1305905163(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1305905163L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "selfTest()Z", cancellable = true)
+    private static void selfTest_1291487240(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1291487240L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "isOptIn()Z", cancellable = true)

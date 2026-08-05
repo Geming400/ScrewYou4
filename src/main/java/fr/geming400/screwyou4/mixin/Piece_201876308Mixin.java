@@ -16,13 +16,13 @@ public class Piece_201876308Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__933583668(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-933583668L))
-            info.setReturnValue("<L#,!W&W9J;䛂!FlGZ銶vErBM{Y憁[]'OT&P/o'F줛_au瞷B<`w>{3U1鬄>k]W");
+            info.setReturnValue("<L#,!W&W9J;\u46C2!FlGZ\u92B6vErBM{Y\u6181[]'OT&P/o'F\uC91B_au\u77B7B<`w>{3U1\u9B04>k]W");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_240139049(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(240139049L))
-            info.setReturnValue(-820714583);
+            info.setReturnValue(-128986083);
     }
 
     @Inject(at = @At("HEAD"), method = "boundingBox()Lnet/minecraft/world/level/levelgen/structure/BoundingBox;", cancellable = true)

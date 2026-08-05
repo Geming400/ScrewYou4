@@ -16,13 +16,13 @@ public class VertexInfo906161109Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__229298866(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-229298866L))
-            info.setReturnValue("q]쨻퇷AL^i");
+            info.setReturnValue("q]\uCA3B\uD1F7AL^i");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_944423851(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(944423851L))
-            info.setReturnValue(-395586523);
+            info.setReturnValue(-732594123);
     }
 
     @Inject(at = @At("HEAD"), method = "select(Lorg/joml/Vector3fc;Lorg/joml/Vector3fc;)Lorg/joml/Vector3f;", cancellable = true)
@@ -31,8 +31,8 @@ public class VertexInfo906161109Mixin {
             info.setReturnValue(new org.joml.Vector3f());
     }
 
-    @Inject(at = @At("HEAD"), method = "xFace()Lnet/minecraft/client/renderer/FaceInfo$Extent;", cancellable = true)
-    private void xFace__499791246(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "zFace()Lnet/minecraft/client/renderer/FaceInfo$Extent;", cancellable = true)
+    private void zFace__499791246(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-499791246L))
             info.setReturnValue(net.minecraft.client.renderer.FaceInfo.Extent.MAX_X);
     }
@@ -43,8 +43,8 @@ public class VertexInfo906161109Mixin {
             info.setReturnValue(net.minecraft.client.renderer.FaceInfo.Extent.MAX_X);
     }
 
-    @Inject(at = @At("HEAD"), method = "zFace()Lnet/minecraft/client/renderer/FaceInfo$Extent;", cancellable = true)
-    private void zFace__499791246(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "xFace()Lnet/minecraft/client/renderer/FaceInfo$Extent;", cancellable = true)
+    private void xFace__499791246(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-499791246L))
             info.setReturnValue(net.minecraft.client.renderer.FaceInfo.Extent.MAX_X);
     }

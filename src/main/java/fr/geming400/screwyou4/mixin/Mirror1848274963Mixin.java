@@ -31,18 +31,6 @@ public class Mirror1848274963Mixin {
             info.setReturnValue(net.minecraft.world.level.block.Rotation.COUNTERCLOCKWISE_90);
     }
 
-    @Inject(at = @At("HEAD"), method = "rotation()Lcom/mojang/math/OctahedralGroup;", cancellable = true)
-    private void rotation_911475399(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(911475399L))
-            info.setReturnValue(com.mojang.math.OctahedralGroup.ROT_180_EDGE_YZ_POS);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
-    private void getSerializedName_712814492(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(712814492L))
-            info.setReturnValue("lR1`䠲WnB3hmN)Z+HA}j/_jz$4#Sa7&{S빑K ;BU7g%$k1Ut(gn긔.V$xkRLyyN茚a▟〠y'{r");
-    }
-
     @Inject(at = @At("HEAD"), method = "mirror(Lnet/minecraft/core/Direction;)Lnet/minecraft/core/Direction;", cancellable = true)
     private void mirror__378389998(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-378389998L))
@@ -52,7 +40,19 @@ public class Mirror1848274963Mixin {
     @Inject(at = @At("HEAD"), method = "mirror(II)I", cancellable = true)
     private void mirror_852383001(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(852383001L))
-            info.setReturnValue(-1395681164);
+            info.setReturnValue(-1248496864);
+    }
+
+    @Inject(at = @At("HEAD"), method = "rotation()Lcom/mojang/math/OctahedralGroup;", cancellable = true)
+    private void rotation_911475399(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(911475399L))
+            info.setReturnValue(com.mojang.math.OctahedralGroup.ROT_180_EDGE_YZ_POS);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
+    private void getSerializedName_712814492(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(712814492L))
+            info.setReturnValue("lR1`\u4832WnB3hmN)Z+HA}j/_jz$4#Sa7&{S\uBE51K ;BU7g%$k1Ut(gn\uAE14.V$xkRLyyN\u831Aa\u259F\u3020y'{r");
     }
 
 

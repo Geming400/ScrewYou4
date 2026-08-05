@@ -16,13 +16,13 @@ public class LevelCandidates_361737918Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__773722058(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-773722058L))
-            info.setReturnValue("畦&L.48ꤡU);LptkXn2*6eBo#nZ#o:sBI:%䃴S*>l豥X");
+            info.setReturnValue("\u7566&L.48\uA921U);LptkXn2*6eBo#nZ#o:sBI:%\u40F4S*>l\u8C65X");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_400000659(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(400000659L))
-            info.setReturnValue(806707828);
+            info.setReturnValue(955482428);
     }
 
     @Inject(at = @At("HEAD"), method = "isEmpty()Z", cancellable = true)

@@ -16,13 +16,13 @@ public class FishingHookPredicate_886930352Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__248529624(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-248529624L))
-            info.setReturnValue("0s-|w*={4Ze)蔡QⰟ内ObQM3ﲛ I[,{喿LgZ`f뽹>KzC^U+L杇68q嶢");
+            info.setReturnValue("0s-|w*={4Ze)\u8521Q\u2C1F\u5185ObQM3\uFC9B I[,{\u55BFLgZ`f\uBF79>KzC^U+L\u674768q\u5DA2");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_925193093(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(925193093L))
-            info.setReturnValue(2019203712);
+            info.setReturnValue(-2080910784);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/phys/Vec3;)Z", cancellable = true)

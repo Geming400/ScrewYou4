@@ -28,7 +28,7 @@ public class DamageEffects_1865231563Mixin {
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName_729771091(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(729771091L))
-            info.setReturnValue("M<rX{桜CᮞF/nK;&A*7/Mm>&Z쪰牖⤁m/oyeo엋惄jO^/黵zRt矦&!Cᄅᜦ`zoQMnŏaXS*oTPAiT8'+>='-:<z殰4珟fZ|=]N!A");
+            info.setReturnValue("M<rX{\u685CC\u1B9EF/nK;&A*7/Mm>&Z\uCAB0\u7256\u2901m/oyeo\uC5CB\u60C4jO^/\u9EF5zRt\u77E6&!C\u1105\u1726`zoQMn\u014FaXS*oTPAiT8'+>='-:<z\u6BB04\u73DFfZ|=]N!A");
     }
 
 

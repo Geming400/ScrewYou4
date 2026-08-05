@@ -16,13 +16,13 @@ public class LegacyStructureData_852809987Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__282649989(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-282649989L))
-            info.setReturnValue("6_췍&紫o0bQHQ+MNUN遚OCg|틖0Qj#xIJ8굝@\"89vN;*MMnc3JX!^>y$찆yP[) Q\"蹔|[:2");
+            info.setReturnValue("6_\uCDCD&\u7D2Bo0bQHQ+MNUN\u905AOCg|\uD2D60Qj#xIJ8\uAD5D@\"89vN;*MMnc3JX!^>y$\uCC06yP[) Q\"\u8E54|[:2");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_891072728(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(891072728L))
-            info.setReturnValue(463845367);
+            info.setReturnValue(345344067);
     }
 
     @Inject(at = @At("HEAD"), method = "indexes()Ljava/util/Map;", cancellable = true)

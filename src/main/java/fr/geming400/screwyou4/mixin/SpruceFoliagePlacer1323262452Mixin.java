@@ -10,7 +10,7 @@ public class SpruceFoliagePlacer1323262452Mixin {
         @Inject(at = @At("HEAD"), method = "foliageHeight(Lnet/minecraft/util/RandomSource;ILnet/minecraft/world/level/levelgen/feature/configurations/TreeConfiguration;)I", cancellable = true)
     private void foliageHeight_1965494738(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1965494738L))
-            info.setReturnValue(867441062);
+            info.setReturnValue(985540762);
     }
 
 

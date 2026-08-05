@@ -22,13 +22,13 @@ public class ShowText47462330Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__1087997645(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1087997645L))
-            info.setReturnValue("RN=Hጥ9[cZNꑀ8lq9Yxwn绲{MV䓻<KDಝi=%w쁝\"fX}\"坢䃙+&pnJCX>ᬩ5Iv質슾n;MH2u懕쐢L");
+            info.setReturnValue("RN=H\u13259[cZN\uA4408lq9Yxwn\u7EF2{MV\u44FB<KD\u0C9Di=%w\uC05D\"fX}\"\u5762\u40D9+&pnJCX>\u1B295Iv\u8CEA\uC2BEn;MH2u\u61D5\uC422L");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_85725072(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(85725072L))
-            info.setReturnValue(-1826754108);
+            info.setReturnValue(-1357629408);
     }
 
     @Inject(at = @At("HEAD"), method = "action()Lnet/minecraft/network/chat/HoverEvent$Action;", cancellable = true)

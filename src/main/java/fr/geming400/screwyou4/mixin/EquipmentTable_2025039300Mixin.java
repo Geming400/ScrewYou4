@@ -16,13 +16,13 @@ public class EquipmentTable_2025039300Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_889579324(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(889579324L))
-            info.setReturnValue("᎘I]6䤖A鶇");
+            info.setReturnValue("\u1398I]6\u4916A\u9D87");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2063302041(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2063302041L))
-            info.setReturnValue(-330898482);
+            info.setReturnValue(-216059182);
     }
 
     @Inject(at = @At("HEAD"), method = "lootTable()Lnet/minecraft/resources/ResourceKey;", cancellable = true)

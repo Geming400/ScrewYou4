@@ -19,16 +19,16 @@ public class FrequencyReductionMethod432128628Mixin {
             info.setReturnValue(net.minecraft.world.level.levelgen.structure.placement.StructurePlacement.FrequencyReductionMethod.LEGACY_TYPE_2);
     }
 
-    @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
-    private void getSerializedName__703331843(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-703331843L))
-            info.setReturnValue("H篜X=btvm[캇");
-    }
-
     @Inject(at = @At("HEAD"), method = "shouldGenerate(JIIIF)Z", cancellable = true)
     private void shouldGenerate_1449186018(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1449186018L))
             info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
+    private void getSerializedName__703331843(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-703331843L))
+            info.setReturnValue("H\u7BDCX=btvm[\uCE87");
     }
 
 

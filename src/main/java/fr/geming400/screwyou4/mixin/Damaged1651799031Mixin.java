@@ -28,13 +28,13 @@ public class Damaged1651799031Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_516339056(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(516339056L))
-            info.setReturnValue("yᦺYyTeGtY>");
+            info.setReturnValue("y\u19BAYyTeGtY>");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1690061773(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1690061773L))
-            info.setReturnValue(1752217751);
+            info.setReturnValue(1942225651);
     }
 
 

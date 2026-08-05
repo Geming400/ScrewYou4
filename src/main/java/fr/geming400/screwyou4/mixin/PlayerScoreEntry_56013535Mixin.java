@@ -10,7 +10,7 @@ public class PlayerScoreEntry_56013535Mixin {
         @Inject(at = @At("HEAD"), method = "value()I", cancellable = true)
     private void value_94275780(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(94275780L))
-            info.setReturnValue(-93925296);
+            info.setReturnValue(17170204);
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
@@ -22,13 +22,13 @@ public class PlayerScoreEntry_56013535Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__1079446441(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1079446441L))
-            info.setReturnValue("GWg삲 /LaUa>9u#80g컏NHK>DaF");
+            info.setReturnValue("GWg\uC0B2 /LaUa>9u#80g\uCECFNHK>DaF");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_94276276(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(94276276L))
-            info.setReturnValue(-271447185);
+            info.setReturnValue(-161353285);
     }
 
     @Inject(at = @At("HEAD"), method = "isHidden()Z", cancellable = true)
@@ -40,7 +40,7 @@ public class PlayerScoreEntry_56013535Mixin {
     @Inject(at = @At("HEAD"), method = "owner()Ljava/lang/String;", cancellable = true)
     private void owner__1079446937(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1079446937L))
-            info.setReturnValue("鞫EX.LC!RHJb੫$kH)磊\"-Y(F");
+            info.setReturnValue("\u97ABEX.LC!RHJb\u0A6B$kH)\u78CA\"-Y(F");
     }
 
     @Inject(at = @At("HEAD"), method = "display()Lnet/minecraft/network/chat/Component;", cancellable = true)

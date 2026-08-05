@@ -16,19 +16,19 @@ public class Setup_1288847005Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_153387029(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(153387029L))
-            info.setReturnValue(")UᄝZL;Qaee+V[{-㏣:T98!F㧃䨢'oLqA%HXhAvjw4nPk");
+            info.setReturnValue(")U\u111DZL;Qaee+V[{-\u33E3:T98!F\u39C3\u4A22'oLqA%HXhAvjw4nPk");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1327109746(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1327109746L))
-            info.setReturnValue(1852017392);
+            info.setReturnValue(-1696974004);
     }
 
     @Inject(at = @At("HEAD"), method = "mossiness()F", cancellable = true)
     private void mossiness_1327106367(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1327106367L))
-            info.setReturnValue(1.073015E8F);
+            info.setReturnValue(8.532774E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "overgrown()Z", cancellable = true)
@@ -46,7 +46,13 @@ public class Setup_1288847005Mixin {
     @Inject(at = @At("HEAD"), method = "weight()F", cancellable = true)
     private void weight_1327106367(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1327106367L))
-            info.setReturnValue(1.073015E8F);
+            info.setReturnValue(8.532774E8F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "placement()Lnet/minecraft/world/level/levelgen/structure/structures/RuinedPortalPiece$VerticalPlacement;", cancellable = true)
+    private void placement_1119823174(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1119823174L))
+            info.setReturnValue(net.minecraft.world.level.levelgen.structure.structures.RuinedPortalPiece.VerticalPlacement.IN_MOUNTAIN);
     }
 
     @Inject(at = @At("HEAD"), method = "replaceWithBlackstone()Z", cancellable = true)
@@ -58,19 +64,13 @@ public class Setup_1288847005Mixin {
     @Inject(at = @At("HEAD"), method = "airPocketProbability()F", cancellable = true)
     private void airPocketProbability_1327106367(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1327106367L))
-            info.setReturnValue(1.073015E8F);
+            info.setReturnValue(8.532774E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "vines()Z", cancellable = true)
     private void vines_1327125587(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1327125587L))
             info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "placement()Lnet/minecraft/world/level/levelgen/structure/structures/RuinedPortalPiece$VerticalPlacement;", cancellable = true)
-    private void placement_1119823174(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1119823174L))
-            info.setReturnValue(net.minecraft.world.level.levelgen.structure.structures.RuinedPortalPiece.VerticalPlacement.IN_MOUNTAIN);
     }
 
 

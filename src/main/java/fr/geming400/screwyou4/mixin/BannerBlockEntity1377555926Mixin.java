@@ -19,10 +19,28 @@ public class BannerBlockEntity1377555926Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "removeComponentsFromTag(Lnet/minecraft/world/level/storage/ValueOutput;)V", cancellable = true)
-    private void removeComponentsFromTag_158424574(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(158424574L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "getBaseColor()Lnet/minecraft/world/item/DyeColor;", cancellable = true)
+    private void getBaseColor__1482103140(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1482103140L))
+            info.setReturnValue(net.minecraft.world.item.DyeColor.BROWN);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getPatterns()Lnet/minecraft/world/level/block/entity/BannerPatternLayers;", cancellable = true)
+    private void getPatterns__598682228(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-598682228L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getCustomName()Lnet/minecraft/network/chat/Component;", cancellable = true)
+    private void getCustomName__799353239(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-799353239L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getUpdateTag(Lnet/minecraft/core/HolderLookup$Provider;)Lnet/minecraft/nbt/CompoundTag;", cancellable = true)
+    private void getUpdateTag_210934378(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(210934378L))
+            info.setReturnValue(new net.minecraft.nbt.CompoundTag());
     }
 
     @Inject(at = @At("HEAD"), method = "getUpdatePacket()Lnet/minecraft/network/protocol/Packet;", cancellable = true)
@@ -37,28 +55,10 @@ public class BannerBlockEntity1377555926Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getUpdateTag(Lnet/minecraft/core/HolderLookup$Provider;)Lnet/minecraft/nbt/CompoundTag;", cancellable = true)
-    private void getUpdateTag_210934378(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(210934378L))
-            info.setReturnValue(new net.minecraft.nbt.CompoundTag());
-    }
-
-    @Inject(at = @At("HEAD"), method = "getCustomName()Lnet/minecraft/network/chat/Component;", cancellable = true)
-    private void getCustomName__799353239(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-799353239L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getPatterns()Lnet/minecraft/world/level/block/entity/BannerPatternLayers;", cancellable = true)
-    private void getPatterns__598682228(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-598682228L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getBaseColor()Lnet/minecraft/world/item/DyeColor;", cancellable = true)
-    private void getBaseColor__1482103140(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1482103140L))
-            info.setReturnValue(net.minecraft.world.item.DyeColor.BROWN);
+    @Inject(at = @At("HEAD"), method = "removeComponentsFromTag(Lnet/minecraft/world/level/storage/ValueOutput;)V", cancellable = true)
+    private void removeComponentsFromTag_158424574(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(158424574L))
+            info.cancel();
     }
 
 

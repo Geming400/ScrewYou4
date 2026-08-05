@@ -16,13 +16,13 @@ public class WeatherCheck1138748548Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_3288573(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(3288573L))
-            info.setReturnValue("++=PvW짓,㺺ꉠITzJP㷵$bu=먁蟴4wK7X4Y");
+            info.setReturnValue("++=PvW\uC9D3,\u3EBA\uA260ITzJP\u3DF5$bu=\uBA01\u87F44wK7X4Y");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1177011290(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1177011290L))
-            info.setReturnValue(-1208506742);
+            info.setReturnValue(-779844642);
     }
 
     @Inject(at = @At("HEAD"), method = "test(Ljava/lang/Object;)Z", cancellable = true)
@@ -37,26 +37,26 @@ public class WeatherCheck1138748548Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
-    private void codec__1420365024(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1420365024L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isThundering()Ljava/util/Optional;", cancellable = true)
-    private void isThundering_1384209970(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1384209970L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "weather()Lnet/minecraft/world/level/storage/loot/predicates/WeatherCheck$Builder;", cancellable = true)
     private static void weather_817181251(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(817181251L))
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
+    private void codec__1420365024(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1420365024L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "isRaining()Ljava/util/Optional;", cancellable = true)
     private void isRaining_1384209970(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1384209970L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isThundering()Ljava/util/Optional;", cancellable = true)
+    private void isThundering_1384209970(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1384209970L))
             info.setReturnValue(null);
     }

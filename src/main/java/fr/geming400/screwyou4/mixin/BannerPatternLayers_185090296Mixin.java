@@ -16,13 +16,13 @@ public class BannerPatternLayers_185090296Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__950369680(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-950369680L))
-            info.setReturnValue("K*%!ui끘|H91k!3>o?Gl+!lZnPq૭.mY웡&M!K-≥0࿁tzA&yz揼xsb皊]'\"O쳘6|ZI=>F}[QA2[F0[c-2pWR屖gn,;>\"XiYI");
+            info.setReturnValue("K*%!ui\uB058|H91k!3>o?Gl+!lZnPq\u0AED.mY\uC6E1&M!K-\u22650\u0FC1tzA&yz\u63FCxsb\u768A]'\"O\uCCD86|ZI=>F}[QA2[F0[c-2pWR\u5C56gn,;>\"XiYI");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_223353037(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(223353037L))
-            info.setReturnValue(1468288716);
+            info.setReturnValue(1665418616);
     }
 
     @Inject(at = @At("HEAD"), method = "layers()Ljava/util/List;", cancellable = true)

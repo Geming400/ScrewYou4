@@ -22,7 +22,7 @@ public class LiquidSettings_553057439Mixin {
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName__582403033(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-582403033L))
-            info.setReturnValue("'ywv\"}ꭣRro@灏Qf{❊(J燑ੁ灚8Sx(yxB.*=; Uiy7Fnu엩fO ^pn+챯BVDࢃ2Z!tZYRyT>comyv+MXh鐋ﳐ]lKC%U쒏3緵L%G");
+            info.setReturnValue("'ywv\"}\uAB63Rro@\u704FQf{\u274A(J\u71D1\u0A41\u705A8Sx(yxB.*=; Uiy7Fnu\uC5E9fO ^pn+\uCC6FBVD\u08832Z!tZYRyT>comyv+MXh\u940B\uFCD0]lKC%U\uC48F3\u7DF5L%G");
     }
 
 

@@ -16,13 +16,13 @@ public class LocationPredicate_848582012Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__286877964(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-286877964L))
-            info.setReturnValue("ꬵBC嬸.h$TႎaX)GFuQ-<S#bJrㄳ孱뎤8鲈m!Yl");
+            info.setReturnValue("\uAB35BC\u5B38.h$T\u108EaX)GFuQ-<S#bJr\u3133\u5B71\uB3A48\u9C88m!Yl");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_886844753(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(886844753L))
-            info.setReturnValue(-1789891618);
+            info.setReturnValue(-1923934818);
     }
 
     @Inject(at = @At("HEAD"), method = "position()Ljava/util/Optional;", cancellable = true)
@@ -43,14 +43,14 @@ public class LocationPredicate_848582012Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "dimension()Ljava/util/Optional;", cancellable = true)
-    private void dimension_1094043433(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "structures()Ljava/util/Optional;", cancellable = true)
+    private void structures_1094043433(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1094043433L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "fluid()Ljava/util/Optional;", cancellable = true)
-    private void fluid_1094043433(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "light()Ljava/util/Optional;", cancellable = true)
+    private void light_1094043433(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1094043433L))
             info.setReturnValue(null);
     }
@@ -61,14 +61,14 @@ public class LocationPredicate_848582012Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "structures()Ljava/util/Optional;", cancellable = true)
-    private void structures_1094043433(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "fluid()Ljava/util/Optional;", cancellable = true)
+    private void fluid_1094043433(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1094043433L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "light()Ljava/util/Optional;", cancellable = true)
-    private void light_1094043433(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "dimension()Ljava/util/Optional;", cancellable = true)
+    private void dimension_1094043433(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1094043433L))
             info.setReturnValue(null);
     }

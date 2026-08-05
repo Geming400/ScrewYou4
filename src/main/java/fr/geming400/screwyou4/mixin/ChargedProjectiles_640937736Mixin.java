@@ -16,13 +16,13 @@ public class ChargedProjectiles_640937736Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__494522240(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-494522240L))
-            info.setReturnValue("AD뻌c%D]");
+            info.setReturnValue("AD\uBECCc%D]");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_679200477(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(679200477L))
-            info.setReturnValue(1672409219);
+            info.setReturnValue(-1981249777);
     }
 
     @Inject(at = @At("HEAD"), method = "of(Lnet/minecraft/world/item/ItemStackTemplate;)Lnet/minecraft/world/item/component/ChargedProjectiles;", cancellable = true)

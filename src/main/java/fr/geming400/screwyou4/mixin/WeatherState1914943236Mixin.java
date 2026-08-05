@@ -40,7 +40,7 @@ public class WeatherState1914943236Mixin {
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName_779482765(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(779482765L))
-            info.setReturnValue("y6G^}ͧwPb`1(lVS駴硙pO#Zeꆈ/!o> ⥣2c賩>6");
+            info.setReturnValue("y6G^}\u0367wPb`1(lVS\u99F4\u7859pO#Ze\uA188/!o> \u29632c\u8CE9>6");
     }
 
 

@@ -19,15 +19,15 @@ public class FilteredFunction292632317Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "filtered(Lnet/minecraft/advancements/predicates/ItemPredicate;)Lnet/minecraft/world/level/storage/loot/functions/FilteredFunction$Builder;", cancellable = true)
-    private static void filtered__1116810170(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1116810170L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
     private void codec_2028486041(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2028486041L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "filtered(Lnet/minecraft/advancements/predicates/ItemPredicate;)Lnet/minecraft/world/level/storage/loot/functions/FilteredFunction$Builder;", cancellable = true)
+    private static void filtered__1116810170(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1116810170L))
             info.setReturnValue(null);
     }
 

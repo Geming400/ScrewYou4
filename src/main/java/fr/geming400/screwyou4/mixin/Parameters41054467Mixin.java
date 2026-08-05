@@ -16,13 +16,13 @@ public class Parameters41054467Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__1094405508(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1094405508L))
-            info.setReturnValue("@㜆vu}UQ5%㗬+.%F+;i庿yꈺe3Fn`E:<彞!nRv>MQi3FB'U**rt(⇣daHr鞩]OL!VFS5>(xg톰L9x!!Ot:$^Qu=.");
+            info.setReturnValue("@\u3706vu}UQ5%\u35EC+.%F+;i\u5EBFy\uA23Ae3Fn`E:<\u5F5E!nRv>MQi3FB'U**rt(\u21E3daHr\u97A9]OL!VFS5>(xg\uD1B0L9x!!Ot:$^Qu=.");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_79317209(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(79317209L))
-            info.setReturnValue(1237237330);
+            info.setReturnValue(944945730);
     }
 
     @Inject(at = @At("HEAD"), method = "options()B", cancellable = true)
@@ -43,6 +43,12 @@ public class Parameters41054467Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "collisionRule()Lnet/minecraft/world/scores/Team$CollisionRule;", cancellable = true)
+    private void collisionRule__236026749(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-236026749L))
+            info.setReturnValue(net.minecraft.world.scores.Team.CollisionRule.ALWAYS);
+    }
+
     @Inject(at = @At("HEAD"), method = "playerPrefix()Lnet/minecraft/network/chat/Component;", cancellable = true)
     private void playerPrefix__2135854698(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2135854698L))
@@ -59,12 +65,6 @@ public class Parameters41054467Mixin {
     private void playerSuffix__2135854698(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2135854698L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "collisionRule()Lnet/minecraft/world/scores/Team$CollisionRule;", cancellable = true)
-    private void collisionRule__236026749(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-236026749L))
-            info.setReturnValue(net.minecraft.world.scores.Team.CollisionRule.ALWAYS);
     }
 
 

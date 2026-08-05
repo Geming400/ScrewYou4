@@ -28,13 +28,13 @@ public class HasComponent504912233Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__630547742(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-630547742L))
-            info.setReturnValue("sSzC纠 b9g\"<`ϸ.yOR|l=Y[Q-D!d퍿JUE$R%hPOGC8OWJI뱢bB-(8Om/N<芡j");
+            info.setReturnValue("sSzC\u7EA0 b9g\"<`\u03F8.yOR|l=Y[Q-D!d\uD37FJUE$R%hPOGC8OWJI\uBC62bB-(8Om/N<\u82A1j");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_543174975(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(543174975L))
-            info.setReturnValue(1955185475);
+            info.setReturnValue(2110888475);
     }
 
     @Inject(at = @At("HEAD"), method = "componentType()Lnet/minecraft/core/component/DataComponentType;", cancellable = true)

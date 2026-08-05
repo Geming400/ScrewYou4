@@ -16,13 +16,13 @@ public class Notification819699987Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__315759988(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-315759988L))
-            info.setReturnValue("ଡ0|veSn|mTAl@H FYO贡vmUm,嵡(.XI`4W#?廔>y+0|DU:t睮⋨䙐Q4{B[[5㙤H\"2].VP@팭cN倏<8`*KfC[J$@p%o-_Ag.ha駯IRo");
+            info.setReturnValue("\u0B210|veSn|mTAl@H FYO\u8D21vmUm,\u5D61(.XI`4W#?\u5ED4>y+0|DU:t\u776E\u22E8\u4650Q4{B[[5\u3664H\"2].VP@\uD32DcN\u500F<8`*KfC[J$@p%o-_Ag.ha\u99EFIRo");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_857962729(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(857962729L))
-            info.setReturnValue(-883591403);
+            info.setReturnValue(-1020963103);
     }
 
     @Inject(at = @At("HEAD"), method = "info()Lnet/minecraft/server/jsonrpc/api/MethodInfo;", cancellable = true)

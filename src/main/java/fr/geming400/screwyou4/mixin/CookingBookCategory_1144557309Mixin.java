@@ -22,7 +22,7 @@ public class CookingBookCategory_1144557309Mixin {
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName_9096837(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(9096837L))
-            info.setReturnValue("G䯈3;R9`㯂%t*cLpFZXK柄9&QK8O!A;f烪+N%\"仭Zpa!E\"枂ᛣCszSl票b-C9ꩄt挖?8+fジ뷛}LiLUB.BbS䯖][F`rh3qUS勠D.B/");
+            info.setReturnValue("G\u4BC83;R9`\u3BC2%t*cLpFZXK\u67C49&QK8O!A;f\u70EA+N%\"\u4EEDZpa!E\"\u6782\u16E3CszSl\u7968b-C9\uAA44t\u6316?8+f\u30B8\uBDDB}LiLUB.BbS\u4BD6][F`rh3qUS\u52E0D.B/");
     }
 
 

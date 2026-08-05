@@ -16,25 +16,25 @@ public class PackFormat2047980440Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_912519969(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(912519969L))
-            info.setReturnValue(";B7y&,<,H䑟 Zr;Ro.tn[m#=rk>`pRIY쭣trW|, #Pf0icD厃jR#gO잟\"");
+            info.setReturnValue(";B7y&,<,H\u445F Zr;Ro.tn[m#=rk>`pRIY\uCB63trW|, #Pf0icD\u5383jR#gO\uC79F\"");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2086243182(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2086243182L))
-            info.setReturnValue(-1978736148);
+            info.setReturnValue(-1836689348);
     }
 
     @Inject(at = @At("HEAD"), method = "compareTo(Ljava/lang/Object;)I", cancellable = true)
     private void compareTo__861362470(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-861362470L))
-            info.setReturnValue(-148769313);
+            info.setReturnValue(-6722513);
     }
 
     @Inject(at = @At("HEAD"), method = "compareTo(Lnet/minecraft/server/packs/metadata/pack/PackFormat;)I", cancellable = true)
     private void compareTo__1605696830(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1605696830L))
-            info.setReturnValue(-527050179);
+            info.setReturnValue(-385003379);
     }
 
     @Inject(at = @At("HEAD"), method = "of(II)Lnet/minecraft/server/packs/metadata/pack/PackFormat;", cancellable = true)
@@ -52,25 +52,25 @@ public class PackFormat2047980440Mixin {
     @Inject(at = @At("HEAD"), method = "major()I", cancellable = true)
     private void major_2086242686(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2086242686L))
-            info.setReturnValue(-1775588729);
+            info.setReturnValue(-1633541929);
     }
 
     @Inject(at = @At("HEAD"), method = "minor()I", cancellable = true)
     private void minor_2086242686(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2086242686L))
-            info.setReturnValue(-1775588729);
-    }
-
-    @Inject(at = @At("HEAD"), method = "lastPreMinorVersion(Lnet/minecraft/server/packs/PackType;)I", cancellable = true)
-    private static void lastPreMinorVersion__655107283(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-655107283L))
-            info.setReturnValue(-1883232948);
+            info.setReturnValue(-1633541929);
     }
 
     @Inject(at = @At("HEAD"), method = "validateHolderList(Ljava/util/List;ILjava/util/function/BiFunction;)Lcom/mojang/serialization/DataResult;", cancellable = true)
     private static void validateHolderList__988128808(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-988128808L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "lastPreMinorVersion(Lnet/minecraft/server/packs/PackType;)I", cancellable = true)
+    private static void lastPreMinorVersion__655107283(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-655107283L))
+            info.setReturnValue(-1741186148);
     }
 
     @Inject(at = @At("HEAD"), method = "minorRange()Lnet/minecraft/util/InclusiveRange;", cancellable = true)

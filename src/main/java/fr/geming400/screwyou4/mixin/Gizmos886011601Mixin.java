@@ -25,21 +25,33 @@ public class Gizmos886011601Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "addGizmo(Lnet/minecraft/gizmos/Gizmo;)Lnet/minecraft/gizmos/GizmoProperties;", cancellable = true)
-    private static void addGizmo__375913675(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-375913675L))
+    @Inject(at = @At("HEAD"), method = "arrow(Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/world/phys/Vec3;IF)Lnet/minecraft/gizmos/GizmoProperties;", cancellable = true)
+    private static void arrow__606839825(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-606839825L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "billboardText(Ljava/lang/String;Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/gizmos/TextGizmo$Style;)Lnet/minecraft/gizmos/GizmoProperties;", cancellable = true)
-    private static void billboardText_2038132659(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2038132659L))
+    @Inject(at = @At("HEAD"), method = "arrow(Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/world/phys/Vec3;I)Lnet/minecraft/gizmos/GizmoProperties;", cancellable = true)
+    private static void arrow_1078798995(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1078798995L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "cuboid(Lnet/minecraft/world/phys/AABB;Lnet/minecraft/gizmos/GizmoStyle;Z)Lnet/minecraft/gizmos/GizmoProperties;", cancellable = true)
-    private static void cuboid__685182635(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-685182635L))
+    @Inject(at = @At("HEAD"), method = "circle(Lnet/minecraft/world/phys/Vec3;FLnet/minecraft/gizmos/GizmoStyle;)Lnet/minecraft/gizmos/GizmoProperties;", cancellable = true)
+    private static void circle_531051768(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(531051768L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "rect(Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/gizmos/GizmoStyle;)Lnet/minecraft/gizmos/GizmoProperties;", cancellable = true)
+    private static void rect__155980786(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-155980786L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "rect(Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/core/Direction;Lnet/minecraft/gizmos/GizmoStyle;)Lnet/minecraft/gizmos/GizmoProperties;", cancellable = true)
+    private static void rect_526890650(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(526890650L))
             info.setReturnValue(null);
     }
 
@@ -61,9 +73,21 @@ public class Gizmos886011601Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "circle(Lnet/minecraft/world/phys/Vec3;FLnet/minecraft/gizmos/GizmoStyle;)Lnet/minecraft/gizmos/GizmoProperties;", cancellable = true)
-    private static void circle_531051768(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(531051768L))
+    @Inject(at = @At("HEAD"), method = "cuboid(Lnet/minecraft/world/phys/AABB;Lnet/minecraft/gizmos/GizmoStyle;Z)Lnet/minecraft/gizmos/GizmoProperties;", cancellable = true)
+    private static void cuboid__685182635(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-685182635L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "withCollector(Lnet/minecraft/gizmos/GizmoCollector;)Lnet/minecraft/gizmos/Gizmos$TemporaryCollection;", cancellable = true)
+    private static void withCollector__1238049079(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1238049079L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "billboardText(Ljava/lang/String;Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/gizmos/TextGizmo$Style;)Lnet/minecraft/gizmos/GizmoProperties;", cancellable = true)
+    private static void billboardText_2038132659(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2038132659L))
             info.setReturnValue(null);
     }
 
@@ -79,33 +103,9 @@ public class Gizmos886011601Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "arrow(Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/world/phys/Vec3;IF)Lnet/minecraft/gizmos/GizmoProperties;", cancellable = true)
-    private static void arrow__606839825(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-606839825L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "arrow(Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/world/phys/Vec3;I)Lnet/minecraft/gizmos/GizmoProperties;", cancellable = true)
-    private static void arrow_1078798995(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1078798995L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "withCollector(Lnet/minecraft/gizmos/GizmoCollector;)Lnet/minecraft/gizmos/Gizmos$TemporaryCollection;", cancellable = true)
-    private static void withCollector__1238049079(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1238049079L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "rect(Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/core/Direction;Lnet/minecraft/gizmos/GizmoStyle;)Lnet/minecraft/gizmos/GizmoProperties;", cancellable = true)
-    private static void rect_526890650(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(526890650L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "rect(Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/gizmos/GizmoStyle;)Lnet/minecraft/gizmos/GizmoProperties;", cancellable = true)
-    private static void rect__155980786(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-155980786L))
+    @Inject(at = @At("HEAD"), method = "addGizmo(Lnet/minecraft/gizmos/Gizmo;)Lnet/minecraft/gizmos/GizmoProperties;", cancellable = true)
+    private static void addGizmo__375913675(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-375913675L))
             info.setReturnValue(null);
     }
 

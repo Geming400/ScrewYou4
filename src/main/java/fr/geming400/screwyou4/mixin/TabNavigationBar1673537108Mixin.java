@@ -19,16 +19,10 @@ public class TabNavigationBar1673537108Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "setFocused(Lnet/minecraft/client/gui/components/events/GuiEventListener;)V", cancellable = true)
-    private void setFocused__505200086(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-505200086L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "setFocused(Z)V", cancellable = true)
-    private void setFocused__1391813359(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1391813359L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "keyPressed(Lnet/minecraft/client/input/KeyEvent;)Z", cancellable = true)
+    private void keyPressed_756901394(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(756901394L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "arrangeElements(I)V", cancellable = true)
@@ -49,16 +43,34 @@ public class TabNavigationBar1673537108Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "keyPressed(Lnet/minecraft/client/input/KeyEvent;)Z", cancellable = true)
-    private void keyPressed_756901394(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(756901394L))
-            info.setReturnValue(false);
+    @Inject(at = @At("HEAD"), method = "setFocused(Z)V", cancellable = true)
+    private void setFocused__1391813359(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1391813359L))
+            info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "narrationPriority()Lnet/minecraft/client/gui/narration/NarratableEntry$NarrationPriority;", cancellable = true)
-    private void narrationPriority__1789708097(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1789708097L))
-            info.setReturnValue(net.minecraft.client.gui.narration.NarratableEntry.NarrationPriority.FOCUSED);
+    @Inject(at = @At("HEAD"), method = "setFocused(Lnet/minecraft/client/gui/components/events/GuiEventListener;)V", cancellable = true)
+    private void setFocused__505200086(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-505200086L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "selectTab(IZ)V", cancellable = true)
+    private void selectTab_693357496(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(693357496L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getTabs()Ljava/util/List;", cancellable = true)
+    private void getTabs__995093372(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-995093372L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getRectangle()Lnet/minecraft/client/gui/navigation/ScreenRectangle;", cancellable = true)
+    private void getRectangle__1446404884(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1446404884L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "isMouseOver(DD)Z", cancellable = true)
@@ -73,22 +85,10 @@ public class TabNavigationBar1673537108Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getRectangle()Lnet/minecraft/client/gui/navigation/ScreenRectangle;", cancellable = true)
-    private void getRectangle__1446404884(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1446404884L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getTabs()Ljava/util/List;", cancellable = true)
-    private void getTabs__995093372(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-995093372L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "selectTab(IZ)V", cancellable = true)
-    private void selectTab_693357496(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(693357496L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "narrationPriority()Lnet/minecraft/client/gui/narration/NarratableEntry$NarrationPriority;", cancellable = true)
+    private void narrationPriority__1789708097(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1789708097L))
+            info.setReturnValue(net.minecraft.client.gui.narration.NarratableEntry.NarrationPriority.FOCUSED);
     }
 
 

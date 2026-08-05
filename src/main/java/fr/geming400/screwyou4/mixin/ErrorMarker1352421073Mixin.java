@@ -16,13 +16,13 @@ public class ErrorMarker1352421073Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_216961098(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(216961098L))
-            info.setReturnValue("치[CIFሹKda?Zk虀a漟kT2jtR穐_S=7oBd9yAg䂌;I_@2#砐욠뛪");
+            info.setReturnValue("\uCE58[CIF\u1239Kda?Zk\u8640a\u6F1FkT2jtR\u7A50_S=7oBd9yAg\u408C;I_@2#\u7810\uC6A0\uB6EA");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1390683815(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1390683815L))
-            info.setReturnValue(2121258911);
+            info.setReturnValue(-1702877985);
     }
 
     @Inject(at = @At("HEAD"), method = "pos()Lnet/minecraft/core/BlockPos;", cancellable = true)

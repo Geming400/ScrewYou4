@@ -22,13 +22,13 @@ public class ConditionReference1274121024Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_138661049(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(138661049L))
-            info.setReturnValue("(h篅Qt Aj/$g㝹yBC{ꙃ th8XG䚃B4{jv3ﻙ㈗(A⽫Z(1ꘝb2SmS");
+            info.setReturnValue("(h\u7BC5Qt Aj/$g\u3779yBC{\uA643 th8XG\u4683B4{jv3\uFED9\u3217(A\u2F6BZ(1\uA61Db2SmS");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1312383766(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1312383766L))
-            info.setReturnValue(1376810910);
+            info.setReturnValue(1843053910);
     }
 
     @Inject(at = @At("HEAD"), method = "test(Ljava/lang/Object;)Z", cancellable = true)

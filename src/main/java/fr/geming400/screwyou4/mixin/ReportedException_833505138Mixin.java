@@ -16,7 +16,7 @@ public class ReportedException_833505138Mixin {
     @Inject(at = @At("HEAD"), method = "getMessage()Ljava/lang/String;", cancellable = true)
     private void getMessage__301955334(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-301955334L))
-            info.setReturnValue("jJ$趰S[즹V,bk9");
+            info.setReturnValue("jJ$\u8DB0S[\uC9B9V,bk9");
     }
 
     @Inject(at = @At("HEAD"), method = "getReport()Lnet/minecraft/CrashReport;", cancellable = true)

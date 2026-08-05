@@ -16,13 +16,13 @@ public class CuboidGizmo_1296817406Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_161357430(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(161357430L))
-            info.setReturnValue("!,hwQ*mH.Zꛮ-u:eVmBzx|J.d&\"*Z(\"-6*ዴP!fL]`E푁i%㤃[wX^\"x=7IU⠝U1clV酴KDZN(4iZ9Qㇷs");
+            info.setReturnValue("!,hwQ*mH.Z\uA6EE-u:eVmBzx|J.d&\"*Z(\"-6*\u12F4P!fL]`E\uD441i%\u3903[wX^\"x=7IU\u281DU1clV\u9174KDZN(4iZ9Q\u31F7s");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1335080147(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1335080147L))
-            info.setReturnValue(1187302924);
+            info.setReturnValue(993001924);
     }
 
     @Inject(at = @At("HEAD"), method = "style()Lnet/minecraft/gizmos/GizmoStyle;", cancellable = true)

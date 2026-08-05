@@ -37,16 +37,16 @@ public class ClientboundHelloPacket_981461301Mixin {
             info.setReturnValue(true);
     }
 
+    @Inject(at = @At("HEAD"), method = "getServerId()Ljava/lang/String;", cancellable = true)
+    private void getServerId__153999171(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-153999171L))
+            info.setReturnValue("PB\uFA1Bd\u2A13{{j(E\u830FwV F[MA7kX#CyX)Kwi\uA921ZRvd{L:(6\u3784\u4E1Eb\u1A30\u67C8V;Eq\u5A1DI#\u81C1>IGOs#B#z.A,\u2BF4\uB1EA'GZY@^tl_<Eg'7\u5817J0B>rk?H0");
+    }
+
     @Inject(at = @At("HEAD"), method = "getChallenge()[B", cancellable = true)
     private void getChallenge__2127671366(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2127671366L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getServerId()Ljava/lang/String;", cancellable = true)
-    private void getServerId__153999171(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-153999171L))
-            info.setReturnValue("PB福d⨓{{j(E茏wV F[MA7kX#CyX)KwiꤡZRvd{L:(6㞄丞bᨰ柈V;Eq娝I#臁>IGOs#B#z.A,⯴뇪'GZY@^tl_<Eg'7堗J0B>rk?H0");
     }
 
 

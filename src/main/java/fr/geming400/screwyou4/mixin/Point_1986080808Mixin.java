@@ -16,13 +16,13 @@ public class Point_1986080808Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_850620832(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(850620832L))
-            info.setReturnValue("kEAkL75]WBKL0N{ﴇJpcEXvyQF6o햱gၘa얚4澮X/9QwG苜lm,=엻3O|!e6딋-4,䵟9<愡51CJ5|");
+            info.setReturnValue("kEAkL75]WBKL0N{\uFD07JpcEXvyQF6o\uD5B1g\u1058a\uC59A4\u6FAEX/9QwG\u82DClm,=\uC5FB3O|!e6\uB50B-4,\u4D5F9<\u612151CJ5|");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2024343549(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2024343549L))
-            info.setReturnValue(1782580412);
+            info.setReturnValue(-1740579784);
     }
 
     @Inject(at = @At("HEAD"), method = "context()Lnet/minecraft/world/level/levelgen/DensityFunction$FunctionContext;", cancellable = true)

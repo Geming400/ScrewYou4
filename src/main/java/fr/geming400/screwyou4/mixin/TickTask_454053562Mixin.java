@@ -16,7 +16,7 @@ public class TickTask_454053562Mixin {
     @Inject(at = @At("HEAD"), method = "getTick()I", cancellable = true)
     private void getTick_492315807(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(492315807L))
-            info.setReturnValue(1284520972);
+            info.setReturnValue(1161767772);
     }
 
 

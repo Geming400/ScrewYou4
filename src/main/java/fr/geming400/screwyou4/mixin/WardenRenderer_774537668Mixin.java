@@ -19,12 +19,6 @@ public class WardenRenderer_774537668Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/client/renderer/entity/state/EntityRenderState;F)V", cancellable = true)
-    private void extractRenderState_1001656686(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1001656686L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/entity/monster/warden/Warden;Lnet/minecraft/client/renderer/entity/state/WardenRenderState;F)V", cancellable = true)
     private void extractRenderState__1489331627(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1489331627L))
@@ -37,16 +31,22 @@ public class WardenRenderer_774537668Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/WardenRenderState;", cancellable = true)
-    private void createRenderState__1302455895(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1302455895L))
-            info.setReturnValue(new net.minecraft.client.renderer.entity.state.WardenRenderState());
+    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/client/renderer/entity/state/EntityRenderState;F)V", cancellable = true)
+    private void extractRenderState_1001656686(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1001656686L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/EntityRenderState;", cancellable = true)
     private void createRenderState_185901223(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(185901223L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/WardenRenderState;", cancellable = true)
+    private void createRenderState__1302455895(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1302455895L))
+            info.setReturnValue(new net.minecraft.client.renderer.entity.state.WardenRenderState());
     }
 
 

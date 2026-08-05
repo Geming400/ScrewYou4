@@ -16,13 +16,13 @@ public class ByState1757424311Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_621964336(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(621964336L))
-            info.setReturnValue("뗥?2 }㱛");
+            info.setReturnValue("\uB5E5?2 }\u3C5B");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1795687053(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1795687053L))
-            info.setReturnValue(-742707326);
+            info.setReturnValue(-600652026);
     }
 
     @Inject(at = @At("HEAD"), method = "map(Ljava/util/function/Function;)Lnet/minecraft/world/level/block/WeatheringCopperCollection$ByState;", cancellable = true)
@@ -55,14 +55,14 @@ public class ByState1757424311Mixin {
             info.setReturnValue(new java.lang.Object());
     }
 
-    @Inject(at = @At("HEAD"), method = "exposed()Ljava/lang/Object;", cancellable = true)
-    private void exposed__678350766(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-678350766L))
-            info.setReturnValue(new java.lang.Object());
+    @Inject(at = @At("HEAD"), method = "progressMapping(Ljava/util/function/BiConsumer;)V", cancellable = true)
+    private void progressMapping_19273421(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(19273421L))
+            info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "oxidized()Ljava/lang/Object;", cancellable = true)
-    private void oxidized__678350766(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "exposed()Ljava/lang/Object;", cancellable = true)
+    private void exposed__678350766(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-678350766L))
             info.setReturnValue(new java.lang.Object());
     }
@@ -73,10 +73,10 @@ public class ByState1757424311Mixin {
             info.setReturnValue(new java.lang.Object());
     }
 
-    @Inject(at = @At("HEAD"), method = "progressMapping(Ljava/util/function/BiConsumer;)V", cancellable = true)
-    private void progressMapping_19273421(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(19273421L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "oxidized()Ljava/lang/Object;", cancellable = true)
+    private void oxidized__678350766(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-678350766L))
+            info.setReturnValue(new java.lang.Object());
     }
 
 

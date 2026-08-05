@@ -13,22 +13,16 @@ public class SectionDirtyState621413222Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "setDirty(Z)V", cancellable = true)
-    private void setDirty_1851030051(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1851030051L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "getSectionNode()J", cancellable = true)
-    private void getSectionNode_659676429(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(659676429L))
-            info.setReturnValue(-2469286053965979435L);
-    }
-
     @Inject(at = @At("HEAD"), method = "isDirtyFromPlayer()Z", cancellable = true)
     private void isDirtyFromPlayer_659691805(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(659691805L))
             info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "setSectionNode(J)V", cancellable = true)
+    private void setSectionNode_1836253715(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1836253715L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "setNotDirty()V", cancellable = true)
@@ -37,9 +31,15 @@ public class SectionDirtyState621413222Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "setSectionNode(J)V", cancellable = true)
-    private void setSectionNode_1836253715(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1836253715L))
+    @Inject(at = @At("HEAD"), method = "getSectionNode()J", cancellable = true)
+    private void getSectionNode_659676429(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(659676429L))
+            info.setReturnValue(-2469286053958621235L);
+    }
+
+    @Inject(at = @At("HEAD"), method = "setDirty(Z)V", cancellable = true)
+    private void setDirty_1851030051(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1851030051L))
             info.cancel();
     }
 

@@ -16,7 +16,7 @@ public class ClientboundSetObjectivePacket_1513432860Mixin {
     @Inject(at = @At("HEAD"), method = "getMethod()I", cancellable = true)
     private void getMethod_1551695105(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1551695105L))
-            info.setReturnValue(-604528870);
+            info.setReturnValue(-407399670);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/protocol/game/ClientGamePacketListener;)V", cancellable = true)
@@ -43,16 +43,16 @@ public class ClientboundSetObjectivePacket_1513432860Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getObjectiveName()Ljava/lang/String;", cancellable = true)
-    private void getObjectiveName_377972388(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(377972388L))
-            info.setReturnValue("䴴#&");
-    }
-
     @Inject(at = @At("HEAD"), method = "getRenderType()Lnet/minecraft/world/scores/criteria/ObjectiveCriteria$RenderType;", cancellable = true)
     private void getRenderType__106137254(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-106137254L))
             info.setReturnValue(net.minecraft.world.scores.criteria.ObjectiveCriteria.RenderType.INTEGER);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getObjectiveName()Ljava/lang/String;", cancellable = true)
+    private void getObjectiveName_377972388(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(377972388L))
+            info.setReturnValue("\u4D34#&");
     }
 
 

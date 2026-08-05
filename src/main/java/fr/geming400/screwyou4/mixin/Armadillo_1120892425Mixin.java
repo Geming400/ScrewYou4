@@ -19,6 +19,42 @@ public class Armadillo_1120892425Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "isScared()Z", cancellable = true)
+    private void isScared_1159171007(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1159171007L))
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "rollOut()V", cancellable = true)
+    private void rollOut_1159167163(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1159167163L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "isScaredBy(Lnet/minecraft/world/entity/LivingEntity;)Z", cancellable = true)
+    private void isScaredBy_1442559599(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1442559599L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "rollUp()V", cancellable = true)
+    private void rollUp_1159167163(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1159167163L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "hurtServer(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/damagesource/DamageSource;F)Z", cancellable = true)
+    private void hurtServer_671462093(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(671462093L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "canFallInLove()Z", cancellable = true)
+    private void canFallInLove_1159171007(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1159171007L))
+            info.setReturnValue(false);
+    }
+
     @Inject(at = @At("HEAD"), method = "getBrain()Lnet/minecraft/world/entity/ai/Brain;", cancellable = true)
     private void getBrain__1581098014(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1581098014L))
@@ -52,49 +88,13 @@ public class Armadillo_1120892425Mixin {
     @Inject(at = @At("HEAD"), method = "getAgeScale()F", cancellable = true)
     private void getAgeScale_1159151787(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1159151787L))
-            info.setReturnValue(8.078399E8F);
+            info.setReturnValue(5.98078E8F);
     }
 
-    @Inject(at = @At("HEAD"), method = "hurtServer(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/damagesource/DamageSource;F)Z", cancellable = true)
-    private void hurtServer_671462093(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(671462093L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isScaredBy(Lnet/minecraft/world/entity/LivingEntity;)Z", cancellable = true)
-    private void isScaredBy_1442559599(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1442559599L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "rollOut()V", cancellable = true)
-    private void rollOut_1159167163(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1159167163L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "isScared()Z", cancellable = true)
-    private void isScared_1159171007(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1159171007L))
-            info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "rollUp()V", cancellable = true)
-    private void rollUp_1159167163(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1159167163L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "isFood(Lnet/minecraft/world/item/ItemStack;)Z", cancellable = true)
-    private void isFood__1439539740(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1439539740L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getBreedOffspring(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/AgeableMob;)Lnet/minecraft/world/entity/AgeableMob;", cancellable = true)
-    private void getBreedOffspring__1576415250(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1576415250L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "getMaxHeadYRot()I", cancellable = true)
+    private void getMaxHeadYRot_1159154670(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1159154670L))
+            info.setReturnValue(-1606940416);
     }
 
     @Inject(at = @At("HEAD"), method = "mobInteract(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResult;", cancellable = true)
@@ -103,14 +103,14 @@ public class Armadillo_1120892425Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getMaxHeadYRot()I", cancellable = true)
-    private void getMaxHeadYRot_1159154670(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1159154670L))
-            info.setReturnValue(-1396167516);
+    @Inject(at = @At("HEAD"), method = "getBreedOffspring(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/AgeableMob;)Lnet/minecraft/world/entity/AgeableMob;", cancellable = true)
+    private void getBreedOffspring__1576415250(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1576415250L))
+            info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "canStayRolledUp()Z", cancellable = true)
-    private void canStayRolledUp_1159171007(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "shouldHideInShell()Z", cancellable = true)
+    private void shouldHideInShell_1159171007(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1159171007L))
             info.setReturnValue(false);
     }
@@ -121,15 +121,9 @@ public class Armadillo_1120892425Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "switchToState(Lnet/minecraft/world/entity/animal/armadillo/Armadillo$ArmadilloState;)V", cancellable = true)
-    private void switchToState_1056561117(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1056561117L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "shouldHideInShell()Z", cancellable = true)
-    private void shouldHideInShell_1159171007(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1159171007L))
+    @Inject(at = @At("HEAD"), method = "checkArmadilloSpawnRules(Lnet/minecraft/world/entity/EntityType;Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)Z", cancellable = true)
+    private static void checkArmadilloSpawnRules_278628730(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(278628730L))
             info.setReturnValue(false);
     }
 
@@ -139,16 +133,22 @@ public class Armadillo_1120892425Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "checkArmadilloSpawnRules(Lnet/minecraft/world/entity/EntityType;Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)Z", cancellable = true)
-    private static void checkArmadilloSpawnRules_278628730(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(278628730L))
+    @Inject(at = @At("HEAD"), method = "canStayRolledUp()Z", cancellable = true)
+    private void canStayRolledUp_1159171007(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1159171007L))
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "canFallInLove()Z", cancellable = true)
-    private void canFallInLove_1159171007(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1159171007L))
-            info.setReturnValue(false);
+    @Inject(at = @At("HEAD"), method = "switchToState(Lnet/minecraft/world/entity/animal/armadillo/Armadillo$ArmadilloState;)V", cancellable = true)
+    private void switchToState_1056561117(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1056561117L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "isFood(Lnet/minecraft/world/item/ItemStack;)Z", cancellable = true)
+    private void isFood__1439539740(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1439539740L))
+            info.setReturnValue(true);
     }
 
 

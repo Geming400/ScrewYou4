@@ -28,13 +28,13 @@ public class JigsawBlockInfo2108733357Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_973272886(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(973272886L))
-            info.setReturnValue("ja;]{SDU QB콷IQ K㮥Ra䪪sXX8kC)TEDpn?XQ>Wm|;@>9/Wꋛ;Pqg\"V<+jM5BF)X鈏-=\"NஞJ$>c2mQgMw;s");
+            info.setReturnValue("ja;]{SDU QB\uCF77IQ K\u3BA5Ra\u4AAAsXX8kC)TEDpn?XQ>Wm|;@>9/W\uA2DB;Pqg\"V<+jM5BF)X\u920F-=\"N\u0B9EJ$>c2mQgMw;s");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2146996099(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2146996099L))
-            info.setReturnValue(-2139701612);
+            info.setReturnValue(1643127784);
     }
 
     @Inject(at = @At("HEAD"), method = "of(Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplate$StructureBlockInfo;)Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplate$JigsawBlockInfo;", cancellable = true)
@@ -61,22 +61,22 @@ public class JigsawBlockInfo2108733357Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "placementPriority()I", cancellable = true)
-    private void placementPriority_2146995603(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2146995603L))
-            info.setReturnValue(-1936554192);
+    @Inject(at = @At("HEAD"), method = "jointType()Lnet/minecraft/world/level/block/entity/JigsawBlockEntity$JointType;", cancellable = true)
+    private void jointType__709364646(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-709364646L))
+            info.setReturnValue(net.minecraft.world.level.block.entity.JigsawBlockEntity.JointType.ROLLABLE);
     }
 
     @Inject(at = @At("HEAD"), method = "selectionPriority()I", cancellable = true)
     private void selectionPriority_2146995603(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2146995603L))
-            info.setReturnValue(-1936554192);
+            info.setReturnValue(1846275204);
     }
 
-    @Inject(at = @At("HEAD"), method = "jointType()Lnet/minecraft/world/level/block/entity/JigsawBlockEntity$JointType;", cancellable = true)
-    private void jointType__709364646(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-709364646L))
-            info.setReturnValue(net.minecraft.world.level.block.entity.JigsawBlockEntity.JointType.ROLLABLE);
+    @Inject(at = @At("HEAD"), method = "placementPriority()I", cancellable = true)
+    private void placementPriority_2146995603(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2146995603L))
+            info.setReturnValue(1846275204);
     }
 
 

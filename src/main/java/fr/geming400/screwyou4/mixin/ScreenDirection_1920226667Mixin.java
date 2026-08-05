@@ -37,16 +37,16 @@ public class ScreenDirection_1920226667Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "getOpposite()Lnet/minecraft/client/gui/navigation/ScreenDirection;", cancellable = true)
-    private void getOpposite_1365538802(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1365538802L))
-            info.setReturnValue(net.minecraft.client.gui.navigation.ScreenDirection.LEFT);
-    }
-
     @Inject(at = @At("HEAD"), method = "getAxis()Lnet/minecraft/client/gui/navigation/ScreenAxis;", cancellable = true)
     private void getAxis__1571780876(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1571780876L))
             info.setReturnValue(net.minecraft.client.gui.navigation.ScreenAxis.HORIZONTAL);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getOpposite()Lnet/minecraft/client/gui/navigation/ScreenDirection;", cancellable = true)
+    private void getOpposite_1365538802(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1365538802L))
+            info.setReturnValue(net.minecraft.client.gui.navigation.ScreenDirection.LEFT);
     }
 
     @Inject(at = @At("HEAD"), method = "coordinateValueComparator()Lit/unimi/dsi/fastutil/ints/IntComparator;", cancellable = true)

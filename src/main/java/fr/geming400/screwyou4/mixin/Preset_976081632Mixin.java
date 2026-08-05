@@ -16,13 +16,13 @@ public class Preset_976081632Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__159378344(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-159378344L))
-            info.setReturnValue("R?먶8{:9,ĥ◴관 8A\";)d@[7zS3ᠧL@=aQoPḡl|^nD#1{5따[O.m䗽t6矓Ź䌽v芜5ulM-꾈vXqz諳<O*hQ):");
+            info.setReturnValue("R?\uBA368{:9,\u0125\u25F4\uAD00 8A\";)d@[7zS3\u1827L@=aQoP\u1E21l|^nD#1{5\uB530[O.m\u45FDt6\u77D3\u0179\u433Dv\u829C5ulM-\uAF88vXqz\u8AF3<O*hQ):");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1014344373(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1014344373L))
-            info.setReturnValue(-1103662601);
+            info.setReturnValue(-1468865201);
     }
 
     @Inject(at = @At("HEAD"), method = "id()Lnet/minecraft/resources/Identifier;", cancellable = true)

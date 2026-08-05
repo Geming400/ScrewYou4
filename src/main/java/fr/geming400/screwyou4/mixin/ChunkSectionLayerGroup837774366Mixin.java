@@ -28,7 +28,7 @@ public class ChunkSectionLayerGroup837774366Mixin {
     @Inject(at = @At("HEAD"), method = "label()Ljava/lang/String;", cancellable = true)
     private void label__297686105(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-297686105L))
-            info.setReturnValue("r,_^Cnf_2Vc-od뫹k?༤e:kSkboL' #5t#iJ⼝W6#vFqꅆx>en!g:S﷽q(0qle");
+            info.setReturnValue("r,_^Cnf_2Vc-od\uBAF9k?\u0F24e:kSkboL' #5t#iJ\u2F1DW6#vFq\uA146x>en!g:S\uFDFDq(0qle");
     }
 
     @Inject(at = @At("HEAD"), method = "outputTarget()Lcom/mojang/blaze3d/pipeline/RenderTarget;", cancellable = true)

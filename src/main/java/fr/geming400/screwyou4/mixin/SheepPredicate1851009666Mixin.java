@@ -16,13 +16,13 @@ public class SheepPredicate1851009666Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_715549691(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(715549691L))
-            info.setReturnValue("uk<Tv L╺靎");
+            info.setReturnValue("uk<Tv L\u257A\u974E");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1889272408(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1889272408L))
-            info.setReturnValue(2047641268);
+            info.setReturnValue(1284588568);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/phys/Vec3;)Z", cancellable = true)
@@ -31,15 +31,15 @@ public class SheepPredicate1851009666Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "hasWool()Lnet/minecraft/advancements/predicates/entity/SheepPredicate;", cancellable = true)
-    private static void hasWool__1251152735(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1251152735L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "sheared()Ljava/util/Optional;", cancellable = true)
     private void sheared_2096471088(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2096471088L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "hasWool()Lnet/minecraft/advancements/predicates/entity/SheepPredicate;", cancellable = true)
+    private static void hasWool__1251152735(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1251152735L))
             info.setReturnValue(null);
     }
 

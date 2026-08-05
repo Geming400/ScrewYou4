@@ -16,25 +16,25 @@ public class TrapezoidFloat1361642236Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_226181765(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(226181765L))
-            info.setReturnValue("A◚犏Xq-$iy}n$Pꅎk&cHit떤sIP팻/& SdWvY$0=");
+            info.setReturnValue("A\u25DA\u728FXq-$iy}n$P\uA14Ek&cHit\uB5A4sIP\uD33B/& SdWvY$0=");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1399904978(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1399904978L))
-            info.setReturnValue(1485181285);
+            info.setReturnValue(1735754185);
     }
 
     @Inject(at = @At("HEAD"), method = "min()F", cancellable = true)
     private void min_1399901599(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1399901599L))
-            info.setReturnValue(5.451134E8F);
+            info.setReturnValue(7.956863E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "max()F", cancellable = true)
     private void max_1399901599(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1399901599L))
-            info.setReturnValue(5.451134E8F);
+            info.setReturnValue(7.956863E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "of(FFF)Lnet/minecraft/util/valueproviders/TrapezoidFloat;", cancellable = true)
@@ -52,13 +52,13 @@ public class TrapezoidFloat1361642236Mixin {
     @Inject(at = @At("HEAD"), method = "sample(Lnet/minecraft/util/RandomSource;)F", cancellable = true)
     private void sample__345388225(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-345388225L))
-            info.setReturnValue(5.451134E8F);
+            info.setReturnValue(7.956863E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "plateau()F", cancellable = true)
     private void plateau_1399901599(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1399901599L))
-            info.setReturnValue(5.451134E8F);
+            info.setReturnValue(7.956863E8F);
     }
 
 

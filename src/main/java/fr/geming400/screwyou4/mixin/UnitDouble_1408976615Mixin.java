@@ -46,13 +46,13 @@ public class UnitDouble_1408976615Mixin {
     @Inject(at = @At("HEAD"), method = "toSliderValue(Ljava/lang/Double;)D", cancellable = true)
     private void toSliderValue__1841044911(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1841044911L))
-            info.setReturnValue(2.5138230041662332E8D);
+            info.setReturnValue(5.919625004166234E8D);
     }
 
     @Inject(at = @At("HEAD"), method = "toSliderValue(Ljava/lang/Object;)D", cancellable = true)
     private void toSliderValue__1500371101(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1500371101L))
-            info.setReturnValue(2.5138230079469755E8D);
+            info.setReturnValue(5.919625007946975E8D);
     }
 
     @Inject(at = @At("HEAD"), method = "fromSliderValue(D)Ljava/lang/Double;", cancellable = true)

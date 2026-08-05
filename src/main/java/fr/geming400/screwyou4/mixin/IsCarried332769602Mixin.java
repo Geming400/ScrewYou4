@@ -28,13 +28,13 @@ public class IsCarried332769602Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__802690373(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-802690373L))
-            info.setReturnValue("Y&'g=!_A<_cSa>Gs95go kwjN[VAᄓlE裕x蜄犼eAg,@p淙:)븄g㏤b$nN%NLD乣:mJlTDmXs:ZJ");
+            info.setReturnValue("Y&'g=!_A<_cSa>Gs95go kwjN[VA\u1113lE\u88D5x\u8704\u72BCeAg,@p\u6DD9:)\uBE04g\u33E4b$nN%NLD\u4E63:mJlTDmXs:ZJ");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_371032344(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(371032344L))
-            info.setReturnValue(-505989636);
+            info.setReturnValue(-77185636);
     }
 
 

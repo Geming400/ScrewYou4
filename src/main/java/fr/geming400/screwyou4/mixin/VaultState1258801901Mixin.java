@@ -19,6 +19,18 @@ public class VaultState1258801901Mixin {
             info.setReturnValue(net.minecraft.world.level.block.entity.vault.VaultState.EJECTING);
     }
 
+    @Inject(at = @At("HEAD"), method = "lightLevel()I", cancellable = true)
+    private void lightLevel_1297064147(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1297064147L))
+            info.setReturnValue(1081640587);
+    }
+
+    @Inject(at = @At("HEAD"), method = "tickAndGetNext(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/entity/vault/VaultConfig;Lnet/minecraft/world/level/block/entity/vault/VaultServerData;Lnet/minecraft/world/level/block/entity/vault/VaultSharedData;)Lnet/minecraft/world/level/block/entity/vault/VaultState;", cancellable = true)
+    private void tickAndGetNext_1320180196(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1320180196L))
+            info.setReturnValue(net.minecraft.world.level.block.entity.vault.VaultState.ACTIVE);
+    }
+
     @Inject(at = @At("HEAD"), method = "onTransition(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/entity/vault/VaultState;Lnet/minecraft/world/level/block/entity/vault/VaultConfig;Lnet/minecraft/world/level/block/entity/vault/VaultSharedData;Z)V", cancellable = true)
     private void onTransition__2127046911(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-2127046911L))
@@ -28,19 +40,7 @@ public class VaultState1258801901Mixin {
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName_123341430(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(123341430L))
-            info.setReturnValue(",e嬟鬟oaS2J5<I訁$틶TK˪m`_:isM|}Qnb`-V<f&wOhS+e}=vDX=N4#⪎O뿍vi縓");
-    }
-
-    @Inject(at = @At("HEAD"), method = "lightLevel()I", cancellable = true)
-    private void lightLevel_1297064147(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1297064147L))
-            info.setReturnValue(926914987);
-    }
-
-    @Inject(at = @At("HEAD"), method = "tickAndGetNext(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/entity/vault/VaultConfig;Lnet/minecraft/world/level/block/entity/vault/VaultServerData;Lnet/minecraft/world/level/block/entity/vault/VaultSharedData;)Lnet/minecraft/world/level/block/entity/vault/VaultState;", cancellable = true)
-    private void tickAndGetNext_1320180196(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1320180196L))
-            info.setReturnValue(net.minecraft.world.level.block.entity.vault.VaultState.ACTIVE);
+            info.setReturnValue(",e\u5B1F\u9B1FoaS2J5<I\u8A01$\uD2F6TK\u02EAm`_:isM|}Qnb`-V<f&wOhS+e}=vDX=N4#\u2A8EO\uBFCDvi\u7E13");
     }
 
 

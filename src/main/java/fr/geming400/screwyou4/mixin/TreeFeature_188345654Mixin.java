@@ -19,6 +19,12 @@ public class TreeFeature_188345654Mixin {
             info.setReturnValue(false);
     }
 
+    @Inject(at = @At("HEAD"), method = "validTreePos(Lnet/minecraft/world/level/LevelSimulatedReader;Lnet/minecraft/core/BlockPos;)Z", cancellable = true)
+    private static void validTreePos__109628380(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-109628380L))
+            info.setReturnValue(false);
+    }
+
     @Inject(at = @At("HEAD"), method = "isAirOrLeaves(Lnet/minecraft/world/level/LevelSimulatedReader;Lnet/minecraft/core/BlockPos;)Z", cancellable = true)
     private static void isAirOrLeaves__109628380(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-109628380L))
@@ -29,12 +35,6 @@ public class TreeFeature_188345654Mixin {
     private static void getLowestTrunkOrRootOfTree_1706024821(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1706024821L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "validTreePos(Lnet/minecraft/world/level/LevelSimulatedReader;Lnet/minecraft/core/BlockPos;)Z", cancellable = true)
-    private static void validTreePos__109628380(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-109628380L))
-            info.setReturnValue(false);
     }
 
 

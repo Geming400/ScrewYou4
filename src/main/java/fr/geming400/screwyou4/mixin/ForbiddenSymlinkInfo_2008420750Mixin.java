@@ -22,13 +22,13 @@ public class ForbiddenSymlinkInfo_2008420750Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_872960774(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(872960774L))
-            info.setReturnValue("堅u!,㼜X('?gg.Hpi}5ff᪠U2lY@oa>qsQ!뾠1B訨〚IK\"lⅵ+6-0WS;yyv[\"1 U*}t?&?V.iQwfy`v!(%@p");
+            info.setReturnValue("\u5805u!,\u3F1CX('?gg.Hpi}5ff\u1AA0U2lY@oa>qsQ!\uBFA01B\u8A28\u301AIK\"l\u2175+6-0WS;yyv[\"1 U*}t?&?V.iQwfy`v!(%@p");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2046683491(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2046683491L))
-            info.setReturnValue(1614352925);
+            info.setReturnValue(1390707525);
     }
 
     @Inject(at = @At("HEAD"), method = "link()Ljava/nio/file/Path;", cancellable = true)

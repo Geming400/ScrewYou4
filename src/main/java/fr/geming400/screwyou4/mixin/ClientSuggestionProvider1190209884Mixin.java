@@ -19,38 +19,20 @@ public class ClientSuggestionProvider1190209884Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getCustomTabSuggestions()Ljava/util/Collection;", cancellable = true)
-    private void getCustomTabSuggestions__623438388(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-623438388L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getAvailableSounds()Ljava/util/stream/Stream;", cancellable = true)
-    private void getAvailableSounds_979503569(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(979503569L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "suggestRegistryElements(Lnet/minecraft/resources/ResourceKey;Lnet/minecraft/commands/SharedSuggestionProvider$ElementSuggestionType;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;Lcom/mojang/brigadier/context/CommandContext;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
-    private void suggestRegistryElements__1544095584(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1544095584L))
-            info.setReturnValue(new java.util.concurrent.CompletableFuture());
-    }
-
     @Inject(at = @At("HEAD"), method = "getOnlinePlayerNames()Ljava/util/Collection;", cancellable = true)
     private void getOnlinePlayerNames__623438388(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-623438388L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getRelevantCoordinates()Ljava/util/Collection;", cancellable = true)
-    private void getRelevantCoordinates__623438388(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "getSelectedEntities()Ljava/util/Collection;", cancellable = true)
+    private void getSelectedEntities__623438388(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-623438388L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getSelectedEntities()Ljava/util/Collection;", cancellable = true)
-    private void getSelectedEntities__623438388(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "getRelevantCoordinates()Ljava/util/Collection;", cancellable = true)
+    private void getRelevantCoordinates__623438388(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-623438388L))
             info.setReturnValue(null);
     }
@@ -73,27 +55,45 @@ public class ClientSuggestionProvider1190209884Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "enabledFeatures()Lnet/minecraft/world/flag/FeatureFlagSet;", cancellable = true)
-    private void enabledFeatures_1855030382(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1855030382L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "registryAccess()Lnet/minecraft/core/RegistryAccess;", cancellable = true)
     private void registryAccess_1199686627(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1199686627L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "modifyCustomCompletions(Lnet/minecraft/network/protocol/game/ClientboundCustomChatCompletionsPacket$Action;Ljava/util/List;)V", cancellable = true)
-    private void modifyCustomCompletions__391962693(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-391962693L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "enabledFeatures()Lnet/minecraft/world/flag/FeatureFlagSet;", cancellable = true)
+    private void enabledFeatures_1855030382(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1855030382L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getCustomTabSuggestions()Ljava/util/Collection;", cancellable = true)
+    private void getCustomTabSuggestions__623438388(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-623438388L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "suggestRegistryElements(Lnet/minecraft/resources/ResourceKey;Lnet/minecraft/commands/SharedSuggestionProvider$ElementSuggestionType;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;Lcom/mojang/brigadier/context/CommandContext;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
+    private void suggestRegistryElements__1544095584(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1544095584L))
+            info.setReturnValue(new java.util.concurrent.CompletableFuture());
+    }
+
+    @Inject(at = @At("HEAD"), method = "getAvailableSounds()Ljava/util/stream/Stream;", cancellable = true)
+    private void getAvailableSounds_979503569(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(979503569L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "completeCustomSuggestions(ILcom/mojang/brigadier/suggestion/Suggestions;)V", cancellable = true)
     private void completeCustomSuggestions__1633741168(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1633741168L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "modifyCustomCompletions(Lnet/minecraft/network/protocol/game/ClientboundCustomChatCompletionsPacket$Action;Ljava/util/List;)V", cancellable = true)
+    private void modifyCustomCompletions__391962693(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-391962693L))
             info.cancel();
     }
 

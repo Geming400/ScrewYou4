@@ -16,19 +16,13 @@ public class AtlasConfig_462235383Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__673224593(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-673224593L))
-            info.setReturnValue("s*k渄lwY蔾");
+            info.setReturnValue("s*k\u6E04lwY\u853E");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_500498124(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(500498124L))
-            info.setReturnValue(1762219543);
-    }
-
-    @Inject(at = @At("HEAD"), method = "textureId()Lnet/minecraft/resources/Identifier;", cancellable = true)
-    private void textureId__1980831171(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1980831171L))
-            info.setReturnValue(null);
+            info.setReturnValue(1673624443);
     }
 
     @Inject(at = @At("HEAD"), method = "additionalMetadata()Ljava/util/Set;", cancellable = true)
@@ -47,6 +41,12 @@ public class AtlasConfig_462235383Mixin {
     private void createMipmaps_500513965(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(500513965L))
             info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "textureId()Lnet/minecraft/resources/Identifier;", cancellable = true)
+    private void textureId__1980831171(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1980831171L))
+            info.setReturnValue(null);
     }
 
 

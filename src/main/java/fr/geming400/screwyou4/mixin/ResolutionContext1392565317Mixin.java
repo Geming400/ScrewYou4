@@ -16,13 +16,13 @@ public class ResolutionContext1392565317Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_257105342(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(257105342L))
-            info.setReturnValue("kXH䅼=}]恑KKp0/.>N%ﰖQiHDv");
+            info.setReturnValue("kXH\u417C=}]\u6051KKp0/.>N%\uFC16QiHDv");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1430828059(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1430828059L))
-            info.setReturnValue(-589245079);
+            info.setReturnValue(-396659079);
     }
 
     @Inject(at = @At("HEAD"), method = "builder()Lnet/minecraft/network/chat/ResolutionContext$Builder;", cancellable = true)
@@ -49,12 +49,6 @@ public class ResolutionContext1392565317Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "depthLimit()I", cancellable = true)
-    private void depthLimit_1430827563(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1430827563L))
-            info.setReturnValue(-410721590);
-    }
-
     @Inject(at = @At("HEAD"), method = "depthLimitBehavior()Lnet/minecraft/network/chat/ResolutionContext$LimitBehavior;", cancellable = true)
     private void depthLimitBehavior_1904506025(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1904506025L))
@@ -71,6 +65,12 @@ public class ResolutionContext1392565317Mixin {
     private void defaultScoreboardEntity__1073513525(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1073513525L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "depthLimit()I", cancellable = true)
+    private void depthLimit_1430827563(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1430827563L))
+            info.setReturnValue(-218135590);
     }
 
 

@@ -31,22 +31,16 @@ public class SectionRenderDispatcher1989098964Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getRenderSectionSlice(Lnet/minecraft/client/renderer/chunk/SectionMesh;Lnet/minecraft/client/renderer/chunk/ChunkSectionLayer;)Lnet/minecraft/client/renderer/chunk/SectionRenderDispatcher$RenderSectionBufferSlice;", cancellable = true)
-    private void getRenderSectionSlice_654944902(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(654944902L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "uploadTerrainBuffersToGpu()V", cancellable = true)
     private void uploadTerrainBuffersToGpu_2027373703(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(2027373703L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "setCompiler(Lnet/minecraft/client/renderer/chunk/SectionCompiler;)V", cancellable = true)
-    private void setCompiler__804508168(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-804508168L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "getRenderSectionSlice(Lnet/minecraft/client/renderer/chunk/SectionMesh;Lnet/minecraft/client/renderer/chunk/ChunkSectionLayer;)Lnet/minecraft/client/renderer/chunk/SectionRenderDispatcher$RenderSectionBufferSlice;", cancellable = true)
+    private void getRenderSectionSlice_654944902(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(654944902L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "isQueueEmpty()Z", cancellable = true)
@@ -55,28 +49,34 @@ public class SectionRenderDispatcher1989098964Mixin {
             info.setReturnValue(true);
     }
 
+    @Inject(at = @At("HEAD"), method = "setCompiler(Lnet/minecraft/client/renderer/chunk/SectionCompiler;)V", cancellable = true)
+    private void setCompiler__804508168(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-804508168L))
+            info.cancel();
+    }
+
     @Inject(at = @At("HEAD"), method = "clearCompileQueue()V", cancellable = true)
     private void clearCompileQueue_2027373703(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(2027373703L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getCompileQueueSize()I", cancellable = true)
-    private void getCompileQueueSize_2027361210(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2027361210L))
-            info.setReturnValue(1078087850);
-    }
-
     @Inject(at = @At("HEAD"), method = "getFreeBufferCount()I", cancellable = true)
     private void getFreeBufferCount_2027361210(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2027361210L))
-            info.setReturnValue(1078087850);
+            info.setReturnValue(574280350);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getCompileQueueSize()I", cancellable = true)
+    private void getCompileQueueSize_2027361210(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2027361210L))
+            info.setReturnValue(574280350);
     }
 
     @Inject(at = @At("HEAD"), method = "getStats()Ljava/lang/String;", cancellable = true)
     private void getStats_853638493(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(853638493L))
-            info.setReturnValue("b]3r疈D4*㌭:g,`@3dpOAy<\"|LM;@D|c[Ӊ:]䮎dBgGIvg[m[%RZ}!rbV");
+            info.setReturnValue("b]3r\u7588D4*\u332D:g,`@3dpOAy<\"|LM;@D|c[\u04C9:]\u4B8EdBgGIvg[m[%RZ}!rbV");
     }
 
 

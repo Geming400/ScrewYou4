@@ -16,25 +16,25 @@ public class Sum_1173916051Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_38456075(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(38456075L))
-            info.setReturnValue("9Po(ﵟE<{5W|R'`q3?ՑsC:5S1}ፍ${B犺Dca%Z'@<)r#p$");
+            info.setReturnValue("9Po(\uFD5FE<{5W|R'`q3?\u0551sC:5S1}\u134D${B\u72BADca%Z'@<)r#p$");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1212178792(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1212178792L))
-            info.setReturnValue(949102199);
+            info.setReturnValue(1654858699);
     }
 
     @Inject(at = @At("HEAD"), method = "getInt(Lnet/minecraft/world/level/storage/loot/LootContext;)I", cancellable = true)
     private void getInt__1203049385(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1203049385L))
-            info.setReturnValue(-796997006);
+            info.setReturnValue(-91240506);
     }
 
     @Inject(at = @At("HEAD"), method = "getFloat(Lnet/minecraft/world/level/storage/loot/LootContext;)F", cancellable = true)
     private void getFloat__1203052268(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1203052268L))
-            info.setReturnValue(1.608374E8F);
+            info.setReturnValue(8.665939E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "validate(Lnet/minecraft/world/level/storage/loot/ValidationContext;)V", cancellable = true)

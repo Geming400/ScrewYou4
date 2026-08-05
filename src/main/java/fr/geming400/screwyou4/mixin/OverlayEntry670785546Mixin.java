@@ -16,13 +16,13 @@ public class OverlayEntry670785546Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__464674429(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-464674429L))
-            info.setReturnValue("ᮞML+(S[ሯ6");
+            info.setReturnValue("\u1B9EML+(S[\u122F6");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_709048288(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(709048288L))
-            info.setReturnValue(-2145905868);
+            info.setReturnValue(-1376763268);
     }
 
     @Inject(at = @At("HEAD"), method = "format()Lnet/minecraft/util/InclusiveRange;", cancellable = true)
@@ -40,7 +40,7 @@ public class OverlayEntry670785546Mixin {
     @Inject(at = @At("HEAD"), method = "overlay()Ljava/lang/String;", cancellable = true)
     private void overlay__464674925(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-464674925L))
-            info.setReturnValue("e&_Z<b‖CﶹmK");
+            info.setReturnValue("e&_Z<b\u2016C\uFDB9mK");
     }
 
 

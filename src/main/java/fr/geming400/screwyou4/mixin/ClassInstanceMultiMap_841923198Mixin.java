@@ -16,7 +16,7 @@ public class ClassInstanceMultiMap_841923198Mixin {
     @Inject(at = @At("HEAD"), method = "size()I", cancellable = true)
     private void size_880185443(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(880185443L))
-            info.setReturnValue(-444960552);
+            info.setReturnValue(244252848);
     }
 
     @Inject(at = @At("HEAD"), method = "add(Ljava/lang/Object;)Z", cancellable = true)

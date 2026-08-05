@@ -16,31 +16,25 @@ public class FieldTree_912729542Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__222730434(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-222730434L))
-            info.setReturnValue("^jgzNT+a>䋱Hr1nc2iF!;Fy");
+            info.setReturnValue("^jgzNT+a>\u42F1Hr1nc2iF!;Fy");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_950992283(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(950992283L))
-            info.setReturnValue(2078923788);
+            info.setReturnValue(1966254988);
     }
 
     @Inject(at = @At("HEAD"), method = "depth()I", cancellable = true)
     private void depth_950991787(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(950991787L))
-            info.setReturnValue(-2037520018);
+            info.setReturnValue(2145780278);
     }
 
     @Inject(at = @At("HEAD"), method = "addEntry(Lnet/minecraft/nbt/visitors/FieldSelector;)V", cancellable = true)
     private void addEntry_1763519253(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1763519253L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "createRoot()Lnet/minecraft/nbt/visitors/FieldTree;", cancellable = true)
-    private static void createRoot__1764594822(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1764594822L))
-            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "isSelected(Lnet/minecraft/nbt/TagType;Ljava/lang/String;)Z", cancellable = true)
@@ -58,6 +52,12 @@ public class FieldTree_912729542Mixin {
     @Inject(at = @At("HEAD"), method = "fieldsToRecurse()Ljava/util/Map;", cancellable = true)
     private void fieldsToRecurse__1091894099(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1091894099L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "createRoot()Lnet/minecraft/nbt/visitors/FieldTree;", cancellable = true)
+    private static void createRoot__1764594822(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1764594822L))
             info.setReturnValue(null);
     }
 

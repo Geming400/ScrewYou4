@@ -16,7 +16,7 @@ public class Entry_841399608Mixin {
     @Inject(at = @At("HEAD"), method = "name()Ljava/lang/String;", cancellable = true)
     private void name__294060864(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-294060864L))
-            info.setReturnValue(";D꺗L(.댨C䠑$Y`Mm3|qf$");
+            info.setReturnValue(";D\uAE97L(.\uB328C\u4811$Y`Mm3|qf$");
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
@@ -28,13 +28,13 @@ public class Entry_841399608Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__294060368(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-294060368L))
-            info.setReturnValue("7V?夠X評S=놰Z#<L2=s*Qܗ;GXb:?n0<|DL6hJ/0;u輭⢎(\"伜?C+h(d^n],#U<OB%侟o:m卮^pv\"mX*p");
+            info.setReturnValue("7V?\u5920X\u8A55S=\uB1B0Z#<L2=s*Q\u0717;GXb:?n0<|DL6hJ/0;u\u8F2D\u288E(\"\u4F1C?C+h(d^n],#U<OB%\u4F9Fo:m\u536E^pv\"mX*p");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_879662349(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(879662349L))
-            info.setReturnValue(300915031);
+            info.setReturnValue(-326559169);
     }
 
     @Inject(at = @At("HEAD"), method = "write(Lnet/minecraft/network/FriendlyByteBuf;)V", cancellable = true)

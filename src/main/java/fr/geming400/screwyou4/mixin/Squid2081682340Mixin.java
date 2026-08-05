@@ -7,7 +7,13 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.world.entity.animal.squid.Squid.class)
 public class Squid2081682340Mixin {
-        @Inject(at = @At("HEAD"), method = "travel(Lnet/minecraft/world/phys/Vec3;)V", cancellable = true)
+        @Inject(at = @At("HEAD"), method = "hurtServer(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/damagesource/DamageSource;F)Z", cancellable = true)
+    private void hurtServer_1632252009(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1632252009L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "travel(Lnet/minecraft/world/phys/Vec3;)V", cancellable = true)
     private void travel__1845548957(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1845548957L))
             info.cancel();
@@ -17,6 +23,12 @@ public class Squid2081682340Mixin {
     private void aiStep_2119957079(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(2119957079L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "finalizeSpawn(Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData;", cancellable = true)
+    private void finalizeSpawn__364553018(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-364553018L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "canBeLeashed()Z", cancellable = true)
@@ -43,21 +55,9 @@ public class Squid2081682340Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "hurtServer(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/damagesource/DamageSource;F)Z", cancellable = true)
-    private void hurtServer_1632252009(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1632252009L))
-            info.setReturnValue(true);
-    }
-
     @Inject(at = @At("HEAD"), method = "getBreedOffspring(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/AgeableMob;)Lnet/minecraft/world/entity/AgeableMob;", cancellable = true)
     private void getBreedOffspring__615625334(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-615625334L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "finalizeSpawn(Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData;", cancellable = true)
-    private void finalizeSpawn__364553018(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-364553018L))
             info.setReturnValue(null);
     }
 

@@ -13,9 +13,9 @@ public class EnchantRandomlyFunction1027179411Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "randomEnchantment()Lnet/minecraft/world/level/storage/loot/functions/EnchantRandomlyFunction$Builder;", cancellable = true)
-    private static void randomEnchantment_1197211724(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1197211724L))
+    @Inject(at = @At("HEAD"), method = "randomApplicableEnchantment(Lnet/minecraft/core/HolderLookup$Provider;)Lnet/minecraft/world/level/storage/loot/functions/EnchantRandomlyFunction$Builder;", cancellable = true)
+    private static void randomApplicableEnchantment__1233857808(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1233857808L))
             info.setReturnValue(new net.minecraft.world.level.storage.loot.functions.EnchantRandomlyFunction$Builder());
     }
 
@@ -31,9 +31,9 @@ public class EnchantRandomlyFunction1027179411Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "randomApplicableEnchantment(Lnet/minecraft/core/HolderLookup$Provider;)Lnet/minecraft/world/level/storage/loot/functions/EnchantRandomlyFunction$Builder;", cancellable = true)
-    private static void randomApplicableEnchantment__1233857808(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1233857808L))
+    @Inject(at = @At("HEAD"), method = "randomEnchantment()Lnet/minecraft/world/level/storage/loot/functions/EnchantRandomlyFunction$Builder;", cancellable = true)
+    private static void randomEnchantment_1197211724(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1197211724L))
             info.setReturnValue(new net.minecraft.world.level.storage.loot.functions.EnchantRandomlyFunction$Builder());
     }
 

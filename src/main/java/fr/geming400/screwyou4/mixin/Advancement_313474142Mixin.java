@@ -34,13 +34,13 @@ public class Advancement_313474142Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__821985834(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-821985834L))
-            info.setReturnValue("-Ꜫt.6L,䕃d+-`n9챗5`T;.ChẄUudH$a}膜A4X`U퍦v2lndᄪev;8;4x*8y㐵<_b}:*Y2砮qPVFhOe7");
+            info.setReturnValue("-\uA72At.6L,\u4543d+-`n9\uCC575`T;.Ch\u1E84UudH$a}\u819CA4X`U\uD366v2lnd\u112Aev;8;4x*8y\u3435<_b}:*Y2\u782EqPVFhOe7");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_351736883(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(351736883L))
-            info.setReturnValue(-1526763422);
+            info.setReturnValue(-1718935822);
     }
 
     @Inject(at = @At("HEAD"), method = "validate(Lnet/minecraft/util/ProblemReporter;Lnet/minecraft/core/HolderGetter$Provider;)V", cancellable = true)
@@ -61,15 +61,15 @@ public class Advancement_313474142Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "rewards()Lnet/minecraft/advancements/AdvancementRewards;", cancellable = true)
-    private void rewards__1734058923(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1734058923L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "criteria()Ljava/util/Map;", cancellable = true)
     private void criteria__1691149499(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1691149499L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "requirements()Lnet/minecraft/advancements/AdvancementRequirements;", cancellable = true)
+    private void requirements__1270563325(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1270563325L))
             info.setReturnValue(null);
     }
 
@@ -79,9 +79,9 @@ public class Advancement_313474142Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "requirements()Lnet/minecraft/advancements/AdvancementRequirements;", cancellable = true)
-    private void requirements__1270563325(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1270563325L))
+    @Inject(at = @At("HEAD"), method = "rewards()Lnet/minecraft/advancements/AdvancementRewards;", cancellable = true)
+    private void rewards__1734058923(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1734058923L))
             info.setReturnValue(null);
     }
 

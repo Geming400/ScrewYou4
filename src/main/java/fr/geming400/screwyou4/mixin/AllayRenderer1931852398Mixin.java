@@ -7,15 +7,15 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.client.renderer.entity.AllayRenderer.class)
 public class AllayRenderer1931852398Mixin {
-        @Inject(at = @At("HEAD"), method = "getTextureLocation(Lnet/minecraft/client/renderer/entity/state/AllayRenderState;)Lnet/minecraft/resources/Identifier;", cancellable = true)
-    private void getTextureLocation_1768763534(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1768763534L))
+        @Inject(at = @At("HEAD"), method = "getTextureLocation(Lnet/minecraft/client/renderer/entity/state/LivingEntityRenderState;)Lnet/minecraft/resources/Identifier;", cancellable = true)
+    private void getTextureLocation__360478265(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-360478265L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getTextureLocation(Lnet/minecraft/client/renderer/entity/state/LivingEntityRenderState;)Lnet/minecraft/resources/Identifier;", cancellable = true)
-    private void getTextureLocation__360478265(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-360478265L))
+    @Inject(at = @At("HEAD"), method = "getTextureLocation(Lnet/minecraft/client/renderer/entity/state/AllayRenderState;)Lnet/minecraft/resources/Identifier;", cancellable = true)
+    private void getTextureLocation_1768763534(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1768763534L))
             info.setReturnValue(null);
     }
 

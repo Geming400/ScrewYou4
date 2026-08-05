@@ -10,7 +10,7 @@ public class JsonRpcApiSchema_1249439646Mixin {
         @Inject(at = @At("HEAD"), method = "getName()Ljava/lang/String;", cancellable = true)
     private void getName_113979174(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(113979174L))
-            info.setReturnValue("W]u^T&YTWS㑑7Q5PMb|}?L-歩X0y$XC");
+            info.setReturnValue("W]u^T&YTWS\u34517Q5PMb|}?L-\u6B69X0y$XC");
     }
 
     @Inject(at = @At("HEAD"), method = "run(Lnet/minecraft/data/CachedOutput;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)

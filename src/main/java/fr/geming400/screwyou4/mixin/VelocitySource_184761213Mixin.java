@@ -28,19 +28,19 @@ public class VelocitySource_184761213Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_223023954(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(223023954L))
-            info.setReturnValue(-768156942);
+            info.setReturnValue(-447230642);
     }
 
     @Inject(at = @At("HEAD"), method = "getVelocity(DLnet/minecraft/util/RandomSource;)D", cancellable = true)
     private void getVelocity__1301037111(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1301037111L))
-            info.setReturnValue(6.429850005490527E7D);
+            info.setReturnValue(3.852248000549053E8D);
     }
 
     @Inject(at = @At("HEAD"), method = "movementScale()F", cancellable = true)
     private void movementScale_223020575(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(223020575L))
-            info.setReturnValue(6.42985E7F);
+            info.setReturnValue(3.852248E8F);
     }
 
 

@@ -16,13 +16,13 @@ public class IpBanDto284998678Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__850461297(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-850461297L))
-            info.setReturnValue("nz闫dCDIV@}G(o<gljkq`C#=jr3'okLo@쁎Dyz}PM&Vљ3J}6}K+d_e4BZi]Ssត7爞ᓖ(nN* J a.p^틒`W|!ᡯ!");
+            info.setReturnValue("nz\u95EBdCDIV@}G(o<gljkq`C#=jr3'okLo@\uC04EDyz}PM&V\u04593J}6}K+d_e4BZi]Ss\u178F7\u721E\u14D6(nN* J a.p^\uD2D2`W|!\u186F!");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_323261420(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(323261420L))
-            info.setReturnValue(1031504871);
+            info.setReturnValue(1391264771);
     }
 
     @Inject(at = @At("HEAD"), method = "from(Lnet/minecraft/server/players/IpBanListEntry;)Lnet/minecraft/server/jsonrpc/methods/IpBanlistService$IpBanDto;", cancellable = true)
@@ -52,7 +52,7 @@ public class IpBanDto284998678Mixin {
     @Inject(at = @At("HEAD"), method = "ip()Ljava/lang/String;", cancellable = true)
     private void ip__850461793(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-850461793L))
-            info.setReturnValue("C`ar卭oymK_X:ⰽGycFg昐O<&軗AqTo7〆Yd$VC 㼜vjFsa(O쮱G0(Av!Wf旲L詸Mxo>'珩.B;1x芰8o쨗[N8[K+8JQ!LW+qBDcLlN");
+            info.setReturnValue("C`ar\u536DoymK_X:\u2C3DGycFg\u6610O<&\u8ED7AqTo7\u3006Yd$VC \u3F1CvjFsa(O\uCBB1G0(Av!Wf\u65F2L\u8A78Mxo>'\u73E9.B;1x\u82B08o\uCA17[N8[K+8JQ!LW+qBDcLlN");
     }
 
 

@@ -25,9 +25,15 @@ public class ServerConnectionListener_1909366375Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "acceptChannel(Lio/netty/channel/Channel;Ljava/util/UUID;)V", cancellable = true)
-    private void acceptChannel_1243881211(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1243881211L))
+    @Inject(at = @At("HEAD"), method = "stopTcpServerListener()V", cancellable = true)
+    private void stopTcpServerListener_1947641113(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1947641113L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "startTcpServerListener(Ljava/net/InetAddress;I)V", cancellable = true)
+    private void startTcpServerListener__1901178364(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1901178364L))
             info.cancel();
     }
 
@@ -43,15 +49,9 @@ public class ServerConnectionListener_1909366375Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "startTcpServerListener(Ljava/net/InetAddress;I)V", cancellable = true)
-    private void startTcpServerListener__1901178364(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1901178364L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "stopTcpServerListener()V", cancellable = true)
-    private void stopTcpServerListener_1947641113(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1947641113L))
+    @Inject(at = @At("HEAD"), method = "acceptChannel(Lio/netty/channel/Channel;Ljava/util/UUID;)V", cancellable = true)
+    private void acceptChannel_1243881211(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1243881211L))
             info.cancel();
     }
 

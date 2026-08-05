@@ -13,6 +13,12 @@ public class MultiNoiseBiomeSource_1824742516Mixin {
             info.setReturnValue(false);
     }
 
+    @Inject(at = @At("HEAD"), method = "createFromList(Lnet/minecraft/world/level/biome/Climate$ParameterList;)Lnet/minecraft/world/level/biome/MultiNoiseBiomeSource;", cancellable = true)
+    private static void createFromList_1932145242(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1932145242L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "getNoiseBiome(IIILnet/minecraft/world/level/biome/Climate$Sampler;)Lnet/minecraft/core/Holder;", cancellable = true)
     private void getNoiseBiome__1090821009(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1090821009L))
@@ -25,9 +31,9 @@ public class MultiNoiseBiomeSource_1824742516Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "createFromList(Lnet/minecraft/world/level/biome/Climate$ParameterList;)Lnet/minecraft/world/level/biome/MultiNoiseBiomeSource;", cancellable = true)
-    private static void createFromList_1932145242(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1932145242L))
+    @Inject(at = @At("HEAD"), method = "createFromPreset(Lnet/minecraft/core/Holder;)Lnet/minecraft/world/level/biome/MultiNoiseBiomeSource;", cancellable = true)
+    private static void createFromPreset_234159919(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(234159919L))
             info.setReturnValue(null);
     }
 
@@ -35,12 +41,6 @@ public class MultiNoiseBiomeSource_1824742516Mixin {
     private void addDebugInfo__341259012(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-341259012L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "createFromPreset(Lnet/minecraft/core/Holder;)Lnet/minecraft/world/level/biome/MultiNoiseBiomeSource;", cancellable = true)
-    private static void createFromPreset_234159919(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(234159919L))
-            info.setReturnValue(null);
     }
 
 

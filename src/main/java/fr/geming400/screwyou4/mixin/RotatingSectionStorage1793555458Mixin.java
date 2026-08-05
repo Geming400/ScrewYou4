@@ -10,7 +10,7 @@ public class RotatingSectionStorage1793555458Mixin {
         @Inject(at = @At("HEAD"), method = "size()I", cancellable = true)
     private void size_1831817704(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1831817704L))
-            info.setReturnValue(1131372826);
+            info.setReturnValue(782429326);
     }
 
     @Inject(at = @At("HEAD"), method = "getValue(J)Lnet/minecraft/client/RotatingSectionStorage$Value;", cancellable = true)
@@ -43,34 +43,10 @@ public class RotatingSectionStorage1793555458Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getValueAt(Lnet/minecraft/core/BlockPos;)Lnet/minecraft/client/RotatingSectionStorage$Value;", cancellable = true)
-    private void getValueAt__1457458993(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1457458993L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "height()I", cancellable = true)
-    private void height_1831817704(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1831817704L))
-            info.setReturnValue(1131372826);
-    }
-
-    @Inject(at = @At("HEAD"), method = "minY()I", cancellable = true)
-    private void minY_1831817704(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1831817704L))
-            info.setReturnValue(1131372826);
-    }
-
-    @Inject(at = @At("HEAD"), method = "maxY()I", cancellable = true)
-    private void maxY_1831817704(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1831817704L))
-            info.setReturnValue(1131372826);
-    }
-
-    @Inject(at = @At("HEAD"), method = "radius()I", cancellable = true)
-    private void radius_1831817704(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1831817704L))
-            info.setReturnValue(1131372826);
+    @Inject(at = @At("HEAD"), method = "repositionCenter(Lnet/minecraft/core/SectionPos;)Z", cancellable = true)
+    private void repositionCenter_704765925(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(704765925L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "centerSectionPos()Lnet/minecraft/core/SectionPos;", cancellable = true)
@@ -79,10 +55,34 @@ public class RotatingSectionStorage1793555458Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "repositionCenter(Lnet/minecraft/core/SectionPos;)Z", cancellable = true)
-    private void repositionCenter_704765925(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(704765925L))
-            info.setReturnValue(true);
+    @Inject(at = @At("HEAD"), method = "getValueAt(Lnet/minecraft/core/BlockPos;)Lnet/minecraft/client/RotatingSectionStorage$Value;", cancellable = true)
+    private void getValueAt__1457458993(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1457458993L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "radius()I", cancellable = true)
+    private void radius_1831817704(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1831817704L))
+            info.setReturnValue(782429326);
+    }
+
+    @Inject(at = @At("HEAD"), method = "minY()I", cancellable = true)
+    private void minY_1831817704(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1831817704L))
+            info.setReturnValue(782429326);
+    }
+
+    @Inject(at = @At("HEAD"), method = "maxY()I", cancellable = true)
+    private void maxY_1831817704(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1831817704L))
+            info.setReturnValue(782429326);
+    }
+
+    @Inject(at = @At("HEAD"), method = "height()I", cancellable = true)
+    private void height_1831817704(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1831817704L))
+            info.setReturnValue(782429326);
     }
 
 

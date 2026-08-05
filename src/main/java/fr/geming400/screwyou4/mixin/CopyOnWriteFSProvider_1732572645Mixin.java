@@ -34,7 +34,7 @@ public class CopyOnWriteFSProvider_1732572645Mixin {
     @Inject(at = @At("HEAD"), method = "getScheme()Ljava/lang/String;", cancellable = true)
     private void getScheme_597112173(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(597112173L))
-            info.setReturnValue("Auk'z+,e-펕鸗$A,VwꝨ翽௫yh@t,^_G^5c4D轢c[g1￬'s7+OuKbk(/j,#qlD5!盹lI>5xI");
+            info.setReturnValue("Auk'z+,e-\uD395\u9E17$A,Vw\uA768\u7FFD\u0BEByh@t,^_G^5c4D\u8F62c[g1\uFFEC's7+OuKbk(/j,#qlD5!\u76F9lI>5xI");
     }
 
     @Inject(at = @At("HEAD"), method = "getPath(Ljava/net/URI;)Ljava/nio/file/Path;", cancellable = true)

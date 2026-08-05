@@ -16,7 +16,7 @@ public class ServerState_361719609Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__773740367(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-773740367L))
-            info.setReturnValue("w2㾌쬬WeQa鱪:0leOdሚKk");
+            info.setReturnValue("w2\u3F8C\uCB2CWeQa\u9C6A:0leOd\u121AKk");
     }
 
     @Inject(at = @At("HEAD"), method = "version()Lnet/minecraft/network/protocol/status/ServerStatus$Version;", cancellable = true)
@@ -28,7 +28,7 @@ public class ServerState_361719609Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_399982350(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(399982350L))
-            info.setReturnValue(99191090);
+            info.setReturnValue(233972390);
     }
 
     @Inject(at = @At("HEAD"), method = "started()Z", cancellable = true)

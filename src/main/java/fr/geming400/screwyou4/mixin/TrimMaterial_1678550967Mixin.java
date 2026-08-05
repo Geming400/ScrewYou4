@@ -16,13 +16,13 @@ public class TrimMaterial_1678550967Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_543090991(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(543090991L))
-            info.setReturnValue("fo0#[|V⥍ygP'-GYRJzgY7\"_1r뼿uLQ[%uRM=c`&P烵^e]{-oFG%.fJUvocĶ6朑U</");
+            info.setReturnValue("fo0#[|V\u294DygP'-GYRJzgY7\"_1r\uBF3FuLQ[%uRM=c`&P\u70F5^e]{-oFG%.fJUvoc\u01366\u6711U</");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1716813708(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1716813708L))
-            info.setReturnValue(-1945115255);
+            info.setReturnValue(-1707874255);
     }
 
     @Inject(at = @At("HEAD"), method = "description()Lnet/minecraft/network/chat/Component;", cancellable = true)

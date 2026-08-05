@@ -22,13 +22,13 @@ public class Abilities171309914Mixin {
     @Inject(at = @At("HEAD"), method = "getWalkingSpeed()F", cancellable = true)
     private void getWalkingSpeed_209569277(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(209569277L))
-            info.setReturnValue(1.353743E8F);
+            info.setReturnValue(4.125336E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "getFlyingSpeed()F", cancellable = true)
     private void getFlyingSpeed_209569277(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(209569277L))
-            info.setReturnValue(1.353743E8F);
+            info.setReturnValue(4.125336E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "setWalkingSpeed(F)V", cancellable = true)

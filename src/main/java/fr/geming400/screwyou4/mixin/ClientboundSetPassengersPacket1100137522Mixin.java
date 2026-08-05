@@ -28,7 +28,7 @@ public class ClientboundSetPassengersPacket1100137522Mixin {
     @Inject(at = @At("HEAD"), method = "getVehicle()I", cancellable = true)
     private void getVehicle_1138399768(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1138399768L))
-            info.setReturnValue(-966658256);
+            info.setReturnValue(-1334876356);
     }
 
     @Inject(at = @At("HEAD"), method = "getPassengers()[I", cancellable = true)

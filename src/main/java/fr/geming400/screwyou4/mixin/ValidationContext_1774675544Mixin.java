@@ -19,15 +19,15 @@ public class ValidationContext_1774675544Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "forMapField(Ljava/lang/String;Ljava/lang/String;)Lnet/minecraft/world/level/storage/loot/ValidationContext;", cancellable = true)
-    private void forMapField__1293261262(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1293261262L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "hasVisitedElement(Lnet/minecraft/resources/ResourceKey;)Z", cancellable = true)
+    private void hasVisitedElement_1962348690(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1962348690L))
+            info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "forChild(Lnet/minecraft/util/ProblemReporter$PathElement;)Lnet/minecraft/world/level/storage/loot/ValidationContext;", cancellable = true)
-    private void forChild_1227524049(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1227524049L))
+    @Inject(at = @At("HEAD"), method = "forIndexedField(Ljava/lang/String;I)Lnet/minecraft/world/level/storage/loot/ValidationContext;", cancellable = true)
+    private void forIndexedField__1236231561(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1236231561L))
             info.setReturnValue(null);
     }
 
@@ -37,16 +37,10 @@ public class ValidationContext_1774675544Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "forIndexedField(Ljava/lang/String;I)Lnet/minecraft/world/level/storage/loot/ValidationContext;", cancellable = true)
-    private void forIndexedField__1236231561(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1236231561L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "hasVisitedElement(Lnet/minecraft/resources/ResourceKey;)Z", cancellable = true)
-    private void hasVisitedElement_1962348690(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1962348690L))
-            info.setReturnValue(true);
+    @Inject(at = @At("HEAD"), method = "reportProblem(Lnet/minecraft/util/ProblemReporter$Problem;)V", cancellable = true)
+    private void reportProblem__87580137(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-87580137L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "enterElement(Lnet/minecraft/util/ProblemReporter$PathElement;Lnet/minecraft/resources/ResourceKey;)Lnet/minecraft/world/level/storage/loot/ValidationContext;", cancellable = true)
@@ -61,15 +55,21 @@ public class ValidationContext_1774675544Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "reportProblem(Lnet/minecraft/util/ProblemReporter$Problem;)V", cancellable = true)
-    private void reportProblem__87580137(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-87580137L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "forField(Ljava/lang/String;)Lnet/minecraft/world/level/storage/loot/ValidationContext;", cancellable = true)
     private void forField_1059306620(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1059306620L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "forMapField(Ljava/lang/String;Ljava/lang/String;)Lnet/minecraft/world/level/storage/loot/ValidationContext;", cancellable = true)
+    private void forMapField__1293261262(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1293261262L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "forChild(Lnet/minecraft/util/ProblemReporter$PathElement;)Lnet/minecraft/world/level/storage/loot/ValidationContext;", cancellable = true)
+    private void forChild_1227524049(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1227524049L))
             info.setReturnValue(null);
     }
 

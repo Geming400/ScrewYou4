@@ -13,15 +13,15 @@ public class SkullModel498824178Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "createHumanoidHeadLayer()Lnet/minecraft/client/model/geom/builders/LayerDefinition;", cancellable = true)
-    private static void createHumanoidHeadLayer__215307986(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-215307986L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "createHeadModel()Lnet/minecraft/client/model/geom/builders/MeshDefinition;", cancellable = true)
     private static void createHeadModel_2115523476(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2115523476L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "createHumanoidHeadLayer()Lnet/minecraft/client/model/geom/builders/LayerDefinition;", cancellable = true)
+    private static void createHumanoidHeadLayer__215307986(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-215307986L))
             info.setReturnValue(null);
     }
 

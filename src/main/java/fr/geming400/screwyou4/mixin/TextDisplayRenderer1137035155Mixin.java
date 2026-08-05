@@ -31,15 +31,15 @@ public class TextDisplayRenderer1137035155Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/client/renderer/entity/state/EntityRenderState;F)V", cancellable = true)
-    private void extractRenderState_1364154174(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1364154174L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/entity/Display;Lnet/minecraft/client/renderer/entity/state/DisplayEntityRenderState;F)V", cancellable = true)
     private void extractRenderState__1285483055(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1285483055L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/client/renderer/entity/state/EntityRenderState;F)V", cancellable = true)
+    private void extractRenderState_1364154174(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1364154174L))
             info.cancel();
     }
 

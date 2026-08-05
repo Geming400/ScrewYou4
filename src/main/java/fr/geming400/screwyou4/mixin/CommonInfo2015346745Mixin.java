@@ -16,13 +16,13 @@ public class CommonInfo2015346745Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_879886770(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(879886770L))
-            info.setReturnValue("tᏳ줱瀊c\":J}(@h/4馂pmⴳD湬&D?(jxALV⮴WTZA,蕆;!O6Z]zW5?6LG玲GMAt뀺");
+            info.setReturnValue("t\u13F3\uC931\u700Ac\":J}(@h/4\u9982pm\u2D33D\u6E6C&D?(jxALV\u2BB4WTZA,\u8546;!O6Z]zW5?6LG\uF9ADGMAt\uB03A");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2053609487(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2053609487L))
-            info.setReturnValue(990204536);
+            info.setReturnValue(1733451336);
     }
 
     @Inject(at = @At("HEAD"), method = "showNotification()Z", cancellable = true)

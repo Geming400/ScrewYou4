@@ -16,24 +16,24 @@ public class AnimationDefinition_1297542855Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_162082879(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(162082879L))
-            info.setReturnValue("v p%0\"BVqi3.d<b@w)#@l`\";ύ5I;⨳@\"Di>㻺Xg2Tb:W_VQ");
+            info.setReturnValue("v p%0\"BVqi3.d<b@w)#@l`\";\u1F7B5I;\u2A33@\"Di>\u3EFAXg2Tb:W_VQ");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1335805596(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1335805596L))
-            info.setReturnValue(-268443832);
-    }
-
-    @Inject(at = @At("HEAD"), method = "lengthInSeconds()F", cancellable = true)
-    private void lengthInSeconds_1335802217(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1335802217L))
-            info.setReturnValue(9.809459E8F);
+            info.setReturnValue(-362749232);
     }
 
     @Inject(at = @At("HEAD"), method = "boneAnimations()Ljava/util/Map;", cancellable = true)
     private void boneAnimations__707080786(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-707080786L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "bake(Lnet/minecraft/client/model/geom/ModelPart;)Lnet/minecraft/client/animation/KeyframeAnimation;", cancellable = true)
+    private void bake__1557339711(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1557339711L))
             info.setReturnValue(null);
     }
 
@@ -43,10 +43,10 @@ public class AnimationDefinition_1297542855Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "bake(Lnet/minecraft/client/model/geom/ModelPart;)Lnet/minecraft/client/animation/KeyframeAnimation;", cancellable = true)
-    private void bake__1557339711(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1557339711L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "lengthInSeconds()F", cancellable = true)
+    private void lengthInSeconds_1335802217(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1335802217L))
+            info.setReturnValue(8.866405E8F);
     }
 
 

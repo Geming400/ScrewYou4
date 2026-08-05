@@ -16,31 +16,31 @@ public class Music_864028153Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__271431823(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-271431823L))
-            info.setReturnValue("㣏栱$bXv?n]j(碩t6.");
+            info.setReturnValue("\u38CF\u6831$bXv?n]j(\u78A9t6.");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_902290894(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(902290894L))
-            info.setReturnValue(-658711888);
+            info.setReturnValue(-749581588);
+    }
+
+    @Inject(at = @At("HEAD"), method = "minDelay()I", cancellable = true)
+    private void minDelay_902290398(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(902290398L))
+            info.setReturnValue(-546434168);
+    }
+
+    @Inject(at = @At("HEAD"), method = "maxDelay()I", cancellable = true)
+    private void maxDelay_902290398(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(902290398L))
+            info.setReturnValue(-546434168);
     }
 
     @Inject(at = @At("HEAD"), method = "sound()Lnet/minecraft/core/Holder;", cancellable = true)
     private void sound__1882063372(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1882063372L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "minDelay()I", cancellable = true)
-    private void minDelay_902290398(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(902290398L))
-            info.setReturnValue(-454561368);
-    }
-
-    @Inject(at = @At("HEAD"), method = "maxDelay()I", cancellable = true)
-    private void maxDelay_902290398(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(902290398L))
-            info.setReturnValue(-454561368);
     }
 
     @Inject(at = @At("HEAD"), method = "replaceCurrentMusic()Z", cancellable = true)

@@ -28,7 +28,7 @@ public class LongestOnly_932018747Mixin {
     @Inject(at = @At("HEAD"), method = "cursor()I", cancellable = true)
     private void cursor_970280992(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(970280992L))
-            info.setReturnValue(1177455495);
+            info.setReturnValue(702088195);
     }
 
 

@@ -10,7 +10,7 @@ public class CreakingHeartState1069024793Mixin {
         @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__66435678(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-66435678L))
-            info.setReturnValue("v&O5D=ᵖ`vA+h)7/5hSzMa!9N[NSZZHTsLki0i-g⦾eF래GaWWS*wqY78緢]ᰕ bc?n'ǉq[HfmH%G7EQjSiY*❺nS");
+            info.setReturnValue("v&O5D=\u1D56`vA+h)7/5hSzMa!9N[NSZZHTsLki0i-g\u29BEeF\uB798GaWWS*wqY78\u7DE2]\u1C15 bc?n'\u01C9q[HfmH%G7EQjSiY*\u277AnS");
     }
 
     @Inject(at = @At("HEAD"), method = "values()[Lnet/minecraft/world/level/block/state/properties/CreakingHeartState;", cancellable = true)
@@ -28,7 +28,7 @@ public class CreakingHeartState1069024793Mixin {
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName__66435678(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-66435678L))
-            info.setReturnValue("v&O5D=ᵖ`vA+h)7/5hSzMa!9N[NSZZHTsLki0i-g⦾eF래GaWWS*wqY78緢]ᰕ bc?n'ǉq[HfmH%G7EQjSiY*❺nS");
+            info.setReturnValue("v&O5D=\u1D56`vA+h)7/5hSzMa!9N[NSZZHTsLki0i-g\u29BEeF\uB798GaWWS*wqY78\u7DE2]\u1C15 bc?n'\u01C9q[HfmH%G7EQjSiY*\u277AnS");
     }
 
 

@@ -22,7 +22,7 @@ public class DebugScreenEntryStatus_827343963Mixin {
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName__308116509(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-308116509L))
-            info.setReturnValue("Fm7v`BZ9_F`l殲<蘛#@pFEgC&@!⠑3啉偰Fc+Zd{驋FHϰV#➜leQs!핓 {:zk襰Qp:XT@y겜Ff_>닖쵓e`Iba3P풽嶅xxQ*m_祟sab");
+            info.setReturnValue("Fm7v`BZ9_F`l\u6BB2<\u861B#@pFEgC&@!\u28113\u5549\u5070Fc+Zd{\u9A4BFH\u03F0V#\u279CleQs!\uD553 {:zk\u8970Qp:XT@y\uAC9CFf_>\uB2D6\uCD53e`Iba3P\uD4BD\u5D85xxQ*m_\u795Fsab");
     }
 
 

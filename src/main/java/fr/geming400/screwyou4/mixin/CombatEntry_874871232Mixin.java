@@ -16,13 +16,13 @@ public class CombatEntry_874871232Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__260588744(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-260588744L))
-            info.setReturnValue("m{A`蕿P)_#ᕠP<vtqbl5");
+            info.setReturnValue("m{A`\u857FP)_#\u1560P<vtqbl5");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_913133973(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(913133973L))
-            info.setReturnValue(-126605044);
+            info.setReturnValue(-884255544);
     }
 
     @Inject(at = @At("HEAD"), method = "source()Lnet/minecraft/world/damagesource/DamageSource;", cancellable = true)
@@ -31,22 +31,22 @@ public class CombatEntry_874871232Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "fallLocation()Lnet/minecraft/world/damagesource/FallLocation;", cancellable = true)
-    private void fallLocation__718157025(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-718157025L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "damage()F", cancellable = true)
+    private void damage_913130594(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(913130594L))
+            info.setReturnValue(2.168017E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "fallDistance()F", cancellable = true)
     private void fallDistance_913130594(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(913130594L))
-            info.setReturnValue(9.744522E8F);
+            info.setReturnValue(2.168017E8F);
     }
 
-    @Inject(at = @At("HEAD"), method = "damage()F", cancellable = true)
-    private void damage_913130594(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(913130594L))
-            info.setReturnValue(9.744522E8F);
+    @Inject(at = @At("HEAD"), method = "fallLocation()Lnet/minecraft/world/damagesource/FallLocation;", cancellable = true)
+    private void fallLocation__718157025(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-718157025L))
+            info.setReturnValue(null);
     }
 
 

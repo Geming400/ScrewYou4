@@ -28,7 +28,7 @@ public class CollisionRule_1655666609Mixin {
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName_520206137(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(520206137L))
-            info.setReturnValue("X|MEL6뺅=H]!#XH揻v<ns!.zP^ዛe'r鈓c/nA(k9[F4X<BrJ(LULQ4t괉c?ZQ)sU7=)!;rI");
+            info.setReturnValue("X|MEL6\uBE85=H]!#XH\u63FBv<ns!.zP^\u12DBe'r\u9213c/nA(k9[F4X<BrJ(LULQ4t\uAD09c?ZQ)sU7=)!;rI");
     }
 
 

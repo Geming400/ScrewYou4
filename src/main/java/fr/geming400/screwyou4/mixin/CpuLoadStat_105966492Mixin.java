@@ -16,13 +16,13 @@ public class CpuLoadStat_105966492Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__1029493484(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1029493484L))
-            info.setReturnValue("CpQN6IVŊiW]Nf-do<j9hg=鸁Ki+枽r큒bk楇1!(캋B?L$鳏x.4N@h(T/MgR");
+            info.setReturnValue("CpQN6IV\u014AiW]Nf-do<j9hg=\u9E01Ki+\u67BDr\uD052bk\u69471!(\uCE8BB?L$\u9CCFx.4N@h(T/MgR");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_144229233(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(144229233L))
-            info.setReturnValue(-1954391278);
+            info.setReturnValue(-1779021078);
     }
 
     @Inject(at = @At("HEAD"), method = "from(Ljdk/jfr/consumer/RecordedEvent;)Lnet/minecraft/util/profiling/jfr/stats/CpuLoadStat;", cancellable = true)
@@ -34,19 +34,19 @@ public class CpuLoadStat_105966492Mixin {
     @Inject(at = @At("HEAD"), method = "system()D", cancellable = true)
     private void system_144223932(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(144223932L))
-            info.setReturnValue(6.30011000217135E8D);
+            info.setReturnValue(8.05381200217135E8D);
     }
 
     @Inject(at = @At("HEAD"), method = "jvm()D", cancellable = true)
     private void jvm_144223932(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(144223932L))
-            info.setReturnValue(6.30011000217135E8D);
+            info.setReturnValue(8.05381200217135E8D);
     }
 
     @Inject(at = @At("HEAD"), method = "userJvm()D", cancellable = true)
     private void userJvm_144223932(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(144223932L))
-            info.setReturnValue(6.30011000217135E8D);
+            info.setReturnValue(8.05381200217135E8D);
     }
 
 

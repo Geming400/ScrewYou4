@@ -13,14 +13,14 @@ public class ChestModel7996294Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "createDoubleBodyLeftLayer()Lnet/minecraft/client/model/geom/builders/LayerDefinition;", cancellable = true)
-    private static void createDoubleBodyLeftLayer__706135870(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "createDoubleBodyRightLayer()Lnet/minecraft/client/model/geom/builders/LayerDefinition;", cancellable = true)
+    private static void createDoubleBodyRightLayer__706135870(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-706135870L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "createDoubleBodyRightLayer()Lnet/minecraft/client/model/geom/builders/LayerDefinition;", cancellable = true)
-    private static void createDoubleBodyRightLayer__706135870(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "createDoubleBodyLeftLayer()Lnet/minecraft/client/model/geom/builders/LayerDefinition;", cancellable = true)
+    private static void createDoubleBodyLeftLayer__706135870(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-706135870L))
             info.setReturnValue(null);
     }

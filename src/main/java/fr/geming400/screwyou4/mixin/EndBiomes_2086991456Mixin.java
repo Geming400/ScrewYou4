@@ -19,8 +19,8 @@ public class EndBiomes_2086991456Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "endMidlands(Lnet/minecraft/core/HolderGetter;Lnet/minecraft/core/HolderGetter;)Lnet/minecraft/world/level/biome/Biome;", cancellable = true)
-    private static void endMidlands_747603302(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "endHighlands(Lnet/minecraft/core/HolderGetter;Lnet/minecraft/core/HolderGetter;)Lnet/minecraft/world/level/biome/Biome;", cancellable = true)
+    private static void endHighlands_747603302(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(747603302L))
             info.setReturnValue(null);
     }
@@ -31,15 +31,15 @@ public class EndBiomes_2086991456Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "baseEndBiome(Lnet/minecraft/world/level/biome/BiomeGenerationSettings$Builder;)Lnet/minecraft/world/level/biome/Biome;", cancellable = true)
-    private static void baseEndBiome_279522614(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(279522614L))
+    @Inject(at = @At("HEAD"), method = "endMidlands(Lnet/minecraft/core/HolderGetter;Lnet/minecraft/core/HolderGetter;)Lnet/minecraft/world/level/biome/Biome;", cancellable = true)
+    private static void endMidlands_747603302(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(747603302L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "endHighlands(Lnet/minecraft/core/HolderGetter;Lnet/minecraft/core/HolderGetter;)Lnet/minecraft/world/level/biome/Biome;", cancellable = true)
-    private static void endHighlands_747603302(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(747603302L))
+    @Inject(at = @At("HEAD"), method = "baseEndBiome(Lnet/minecraft/world/level/biome/BiomeGenerationSettings$Builder;)Lnet/minecraft/world/level/biome/Biome;", cancellable = true)
+    private static void baseEndBiome_279522614(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(279522614L))
             info.setReturnValue(null);
     }
 

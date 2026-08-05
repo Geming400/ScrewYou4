@@ -16,19 +16,19 @@ public class TranslatableContents441904317Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__693556154(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-693556154L))
-            info.setReturnValue("6p㶏7+ey2W|GUxp)ohg죑Kk!wY]ଇN㍧X[쀶^㍲oNXRDK㴷d%`쒰JJuMX璂M/ouY(Iz涻痰徚-5洮^>k]KCh[6ra>oJ小;ⴓo]3K駊PY愈thyss");
+            info.setReturnValue("6p\u3D8F7+ey2W|GUxp)ohg\uC8D1Kk!wY]\u0B07N\u3367X[\uC036^\u3372oNXRDK\u3D37d%`\uC4B0JJuMX\u7482M/ouY(Iz\u6DBB\u75F0\u5F9A-5\u6D2E^>k]KCh[6ra>oJ\u5C0F;\u2D13o]3K\u99CAPY\u6108thyss");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_480166563(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(480166563L))
-            info.setReturnValue(1068232250);
+            info.setReturnValue(1575743250);
     }
 
     @Inject(at = @At("HEAD"), method = "getKey()Ljava/lang/String;", cancellable = true)
     private void getKey__693556154(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-693556154L))
-            info.setReturnValue("6p㶏7+ey2W|GUxp)ohg죑Kk!wY]ଇN㍧X[쀶^㍲oNXRDK㴷d%`쒰JJuMX璂M/ouY(Iz涻痰徚-5洮^>k]KCh[6ra>oJ小;ⴓo]3K駊PY愈thyss");
+            info.setReturnValue("6p\u3D8F7+ey2W|GUxp)ohg\uC8D1Kk!wY]\u0B07N\u3367X[\uC036^\u3372oNXRDK\u3D37d%`\uC4B0JJuMX\u7482M/ouY(Iz\u6DBB\u75F0\u5F9A-5\u6D2E^>k]KCh[6ra>oJ\u5C0F;\u2D13o]3K\u99CAPY\u6108thyss");
     }
 
     @Inject(at = @At("HEAD"), method = "resolve(Lnet/minecraft/network/chat/ResolutionContext;I)Lnet/minecraft/network/chat/MutableComponent;", cancellable = true)
@@ -76,7 +76,7 @@ public class TranslatableContents441904317Mixin {
     @Inject(at = @At("HEAD"), method = "getFallback()Ljava/lang/String;", cancellable = true)
     private void getFallback__693556154(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-693556154L))
-            info.setReturnValue("6p㶏7+ey2W|GUxp)ohg죑Kk!wY]ଇN㍧X[쀶^㍲oNXRDK㴷d%`쒰JJuMX璂M/ouY(Iz涻痰徚-5洮^>k]KCh[6ra>oJ小;ⴓo]3K駊PY愈thyss");
+            info.setReturnValue("6p\u3D8F7+ey2W|GUxp)ohg\uC8D1Kk!wY]\u0B07N\u3367X[\uC036^\u3372oNXRDK\u3D37d%`\uC4B0JJuMX\u7482M/ouY(Iz\u6DBB\u75F0\u5F9A-5\u6D2E^>k]KCh[6ra>oJ\u5C0F;\u2D13o]3K\u99CAPY\u6108thyss");
     }
 
 

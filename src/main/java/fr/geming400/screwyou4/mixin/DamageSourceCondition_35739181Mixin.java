@@ -16,13 +16,13 @@ public class DamageSourceCondition_35739181Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__1099720795(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1099720795L))
-            info.setReturnValue("'0<$U%QCT>%z[m鴱LFBI!N.o@#%u1T'fNa");
+            info.setReturnValue("'0<$U%QCT>%z[m\u9D31LFBI!N.o@#%u1T'fNa");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_74001922(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(74001922L))
-            info.setReturnValue(-525215258);
+            info.setReturnValue(-1284388458);
     }
 
     @Inject(at = @At("HEAD"), method = "test(Lnet/minecraft/world/level/storage/loot/LootContext;)Z", cancellable = true)
@@ -43,12 +43,6 @@ public class DamageSourceCondition_35739181Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "hasDamageSource(Lnet/minecraft/advancements/predicates/DamageSourcePredicate$Builder;)Lnet/minecraft/world/level/storage/loot/predicates/LootItemCondition$Builder;", cancellable = true)
-    private static void hasDamageSource__279612469(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-279612469L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
     private void codec_1771592904(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1771592904L))
@@ -58,6 +52,12 @@ public class DamageSourceCondition_35739181Mixin {
     @Inject(at = @At("HEAD"), method = "getReferencedContextParams()Ljava/util/Set;", cancellable = true)
     private void getReferencedContextParams__1793296306(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1793296306L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "hasDamageSource(Lnet/minecraft/advancements/predicates/DamageSourcePredicate$Builder;)Lnet/minecraft/world/level/storage/loot/predicates/LootItemCondition$Builder;", cancellable = true)
+    private static void hasDamageSource__279612469(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-279612469L))
             info.setReturnValue(null);
     }
 

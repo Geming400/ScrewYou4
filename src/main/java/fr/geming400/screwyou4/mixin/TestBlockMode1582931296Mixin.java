@@ -25,16 +25,16 @@ public class TestBlockMode1582931296Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
-    private void getSerializedName_447470825(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(447470825L))
-            info.setReturnValue("aBም^%jW(reO껍Px墪(↘u&m禶*B]bjzp44뱢X.`᯲-O?>#g9aF,j롇+瀑K75nEK4o0Jg%{8");
-    }
-
     @Inject(at = @At("HEAD"), method = "getDetailedMessage()Lnet/minecraft/network/chat/Component;", cancellable = true)
     private void getDetailedMessage__593977869(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-593977869L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
+    private void getSerializedName_447470825(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(447470825L))
+            info.setReturnValue("aB\u121D^%jW(reO\uAECDPx\u58AA(\u2198u&m\u79B6*B]bjzp44\uBC62X.`\u1BF2-O?>#g9aF,j\uB847+\u7011K75nEK4o0Jg%{8");
     }
 
 

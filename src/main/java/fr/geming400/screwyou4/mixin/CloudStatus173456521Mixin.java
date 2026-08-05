@@ -28,7 +28,7 @@ public class CloudStatus173456521Mixin {
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName__962003950(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-962003950L))
-            info.setReturnValue("X瘂@qH!H1K|h>");
+            info.setReturnValue("X\u7602@qH!H1K|h>");
     }
 
 

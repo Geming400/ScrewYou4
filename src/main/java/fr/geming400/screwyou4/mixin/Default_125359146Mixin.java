@@ -16,19 +16,13 @@ public class Default_125359146Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__1010100830(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1010100830L))
-            info.setReturnValue("YJp(Rᓁ5>S+`4?PM․]iG툼}p#w鿌6锟`뎐Ql]k=븞N5zej$X厜J+^Ap)");
+            info.setReturnValue("YJp(R\u14C15>S+`4?PM\u2024]iG\uD23C}p#w\u9FCC6\u951F`\uB390Ql]k=\uBE1EN5zej$X\u539CJ+^Ap)");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_163621887(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(163621887L))
-            info.setReturnValue(-1759535418);
-    }
-
-    @Inject(at = @At("HEAD"), method = "advanced()Z", cancellable = true)
-    private void advanced_163637728(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(163637728L))
-            info.setReturnValue(false);
+            info.setReturnValue(-1029606918);
     }
 
     @Inject(at = @At("HEAD"), method = "isCreative()Z", cancellable = true)
@@ -43,14 +37,20 @@ public class Default_125359146Mixin {
             info.setReturnValue(false);
     }
 
+    @Inject(at = @At("HEAD"), method = "creative()Z", cancellable = true)
+    private void creative_163637728(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(163637728L))
+            info.setReturnValue(false);
+    }
+
     @Inject(at = @At("HEAD"), method = "asCreative()Lnet/minecraft/world/item/TooltipFlag$Default;", cancellable = true)
     private void asCreative__337666154(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-337666154L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "creative()Z", cancellable = true)
-    private void creative_163637728(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "advanced()Z", cancellable = true)
+    private void advanced_163637728(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(163637728L))
             info.setReturnValue(false);
     }

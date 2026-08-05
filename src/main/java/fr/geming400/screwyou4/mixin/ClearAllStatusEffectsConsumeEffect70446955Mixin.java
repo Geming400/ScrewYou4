@@ -16,13 +16,13 @@ public class ClearAllStatusEffectsConsumeEffect70446955Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__1065013020(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1065013020L))
-            info.setReturnValue("Thg碉Pދ{>7NKtm✿}ᯏ蟒Zj58娳-+h%G[{P&%ꋧ쫩[");
+            info.setReturnValue("Thg\u7889P\u078B{>7NKtm\u273F}\u1BCF\u87D2Zj58\u5A33-+h%G[{P&%\uA2E7\uCAE9[");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_108709697(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(108709697L))
-            info.setReturnValue(-205048167);
+            info.setReturnValue(-532902367);
     }
 
     @Inject(at = @At("HEAD"), method = "apply(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/LivingEntity;)Z", cancellable = true)

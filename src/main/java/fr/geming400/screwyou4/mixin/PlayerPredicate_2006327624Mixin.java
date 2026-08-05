@@ -16,13 +16,13 @@ public class PlayerPredicate_2006327624Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_870867648(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(870867648L))
-            info.setReturnValue("]q7.T*ᡘ1F4w 䜜L追jo愲V!RJ蛈hJV0/&s9L@d嘚fct戨2g%Y+UG2Q");
+            info.setReturnValue("]q7.T*\u18581F4w \u471CL\u8FFDjo\u6132V!RJ\u86C8hJV0/&s9L@d\u561Afct\u62282g%Y+UG2Q");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2044590365(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2044590365L))
-            info.setReturnValue(-1821287587);
+            info.setReturnValue(-1600218387);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/phys/Vec3;)Z", cancellable = true)
@@ -49,15 +49,9 @@ public class PlayerPredicate_2006327624Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "gameType()Lnet/minecraft/advancements/predicates/GameTypePredicate;", cancellable = true)
-    private void gameType_1292436555(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1292436555L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "stats()Ljava/util/List;", cancellable = true)
-    private void stats__662302857(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-662302857L))
+    @Inject(at = @At("HEAD"), method = "food()Lnet/minecraft/advancements/predicates/FoodPredicate;", cancellable = true)
+    private void food_909822557(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(909822557L))
             info.setReturnValue(null);
     }
 
@@ -67,9 +61,15 @@ public class PlayerPredicate_2006327624Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "food()Lnet/minecraft/advancements/predicates/FoodPredicate;", cancellable = true)
-    private void food_909822557(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(909822557L))
+    @Inject(at = @At("HEAD"), method = "gameType()Lnet/minecraft/advancements/predicates/GameTypePredicate;", cancellable = true)
+    private void gameType_1292436555(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1292436555L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "stats()Ljava/util/List;", cancellable = true)
+    private void stats__662302857(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-662302857L))
             info.setReturnValue(null);
     }
 

@@ -22,13 +22,19 @@ public class ItemDisplayParameters1752498498Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1790761240(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1790761240L))
-            info.setReturnValue(1404741930);
+            info.setReturnValue(847426130);
     }
 
     @Inject(at = @At("HEAD"), method = "hasPermissions()Z", cancellable = true)
     private void hasPermissions_1790777081(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1790777081L))
             info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "holders()Lnet/minecraft/core/HolderLookup$Provider;", cancellable = true)
+    private void holders_1439291165(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1439291165L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "enabledFeatures()Lnet/minecraft/world/flag/FeatureFlagSet;", cancellable = true)
@@ -41,12 +47,6 @@ public class ItemDisplayParameters1752498498Mixin {
     private void needsUpdate__244012902(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-244012902L))
             info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "holders()Lnet/minecraft/core/HolderLookup$Provider;", cancellable = true)
-    private void holders_1439291165(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1439291165L))
-            info.setReturnValue(null);
     }
 
 

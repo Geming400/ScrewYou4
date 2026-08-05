@@ -16,13 +16,13 @@ public class EntityLocationPredicate979085953Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__156374022(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-156374022L))
-            info.setReturnValue("1HM䂊+-浈FEQBItq]S<奅syzQ>|3Od)4CS>O䅁㢤zfv[ 騃Hi#u|4S櫄{jtt\"uN幫KTi鄓uဓy'㳺H@`W韾<+M]%");
+            info.setReturnValue("1HM\u408A+-\u6D48FEQBItq]S<\u5945syzQ>|3Od)4CS>O\u4141\u38A4zfv[ \u9A03Hi#u|4S\u6AC4{jtt\"uN\u5E6BKTi\u9113u\u1013y'\u3CFAH@`W\u97FE<+M]%");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1017348695(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1017348695L))
-            info.setReturnValue(-171870479);
+            info.setReturnValue(-805486579);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/phys/Vec3;)Z", cancellable = true)

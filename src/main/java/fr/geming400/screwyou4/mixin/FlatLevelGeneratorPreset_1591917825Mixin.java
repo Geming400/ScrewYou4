@@ -16,24 +16,24 @@ public class FlatLevelGeneratorPreset_1591917825Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_456457849(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(456457849L))
-            info.setReturnValue("∘Zo!( .F{,B+t{;Hᄛꩽ01)MQzR");
+            info.setReturnValue("\u2218Zo!( .F{,B+t{;H\u111B\uAA7D01)MQzR");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1630180566(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1630180566L))
-            info.setReturnValue(1990358474);
-    }
-
-    @Inject(at = @At("HEAD"), method = "displayItem()Lnet/minecraft/core/Holder;", cancellable = true)
-    private void displayItem__1154173700(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1154173700L))
-            info.setReturnValue(null);
+            info.setReturnValue(1835883774);
     }
 
     @Inject(at = @At("HEAD"), method = "settings()Lnet/minecraft/world/level/levelgen/flat/FlatLevelGeneratorSettings;", cancellable = true)
     private void settings__134667116(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-134667116L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "displayItem()Lnet/minecraft/core/Holder;", cancellable = true)
+    private void displayItem__1154173700(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1154173700L))
             info.setReturnValue(null);
     }
 

@@ -16,13 +16,13 @@ public class PotionsPredicate_531730879Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__603729097(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-603729097L))
-            info.setReturnValue("Q[G賃I]#j㵽F뉃hbqU7u^rB̾80*g␞䟦,q捭撓:h졟w`;]Y*&R?b^ :s튈(uF<L7rgvἵ5HD");
+            info.setReturnValue("Q[G\u8CC3I]#j\u3D7DF\uB243hbqU7u^rB\u033E80*g\u241E\u47E6,q\u636D\u6493:h\uC85Fw`;]Y*&R?b^ :s\uD288(uF<L7rgv\u1F355HD");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_569993620(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(569993620L))
-            info.setReturnValue(947722156);
+            info.setReturnValue(791110756);
     }
 
     @Inject(at = @At("HEAD"), method = "componentType()Lnet/minecraft/core/component/DataComponentType;", cancellable = true)

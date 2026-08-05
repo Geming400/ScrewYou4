@@ -22,13 +22,13 @@ public class TimeCheck_842071235Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__293388741(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-293388741L))
-            info.setReturnValue("n2㺊*乜}3m'zQzC0M$ fB⥛/_:Eb3$lH@t[fRw8Zb뭀H1wY)nuἼꗘ#8r%E_");
+            info.setReturnValue("n2\u3E8A*\u4E5C}3m'zQzC0M$ fB\u295B/_:Eb3$lH@t[fRw8Zb\uBB40H1wY)nu\u1F3C\uA5D8#8r%E_");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_880333976(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(880333976L))
-            info.setReturnValue(818032241);
+            info.setReturnValue(1145809141);
     }
 
     @Inject(at = @At("HEAD"), method = "test(Lnet/minecraft/world/level/storage/loot/LootContext;)Z", cancellable = true)

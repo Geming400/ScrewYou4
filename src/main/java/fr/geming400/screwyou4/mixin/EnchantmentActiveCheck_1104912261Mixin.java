@@ -16,13 +16,13 @@ public class EnchantmentActiveCheck_1104912261Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__30547715(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-30547715L))
-            info.setReturnValue("Os/WH}GjR뢥5Ynoລ娗⾴YTEMxW^۵0Qn>{A?M⏀E%k{\"PMUoaീfO3,2K!J'[a⫠[഼$1\">^^mN:쾹[+3{5");
+            info.setReturnValue("Os/WH}GjR\uB8A55Yno\u0EA5\u5A17\u2FB4YTEMxW^\u06F50Qn>{A?M\u23C0E%k{\"PMUoa\u0D40fO3,2K!J'[a\u2AE0[\u0D3C$1\">^^mN:\uCFB9[+3{5");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1143175002(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1143175002L))
-            info.setReturnValue(-881351496);
+            info.setReturnValue(-1655775996);
     }
 
     @Inject(at = @At("HEAD"), method = "test(Lnet/minecraft/world/level/storage/loot/LootContext;)Z", cancellable = true)

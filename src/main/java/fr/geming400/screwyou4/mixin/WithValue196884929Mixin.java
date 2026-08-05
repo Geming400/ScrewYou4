@@ -28,13 +28,13 @@ public class WithValue196884929Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__938575046(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-938575046L))
-            info.setReturnValue("爪4|⬆h卭*,&1_噴A`GEk.oq6eXMT.CiJ>W]37:>[/@IjuJy1/)UnTGsWJ/>0qo놶^vlkrywY*xm2AkyG뎮q턒߷[;");
+            info.setReturnValue("\u722A4|\u2B06h\u536D*,&1_\u5674A`GEk.oq6eXMT.CiJ>W]37:>[/@IjuJy1/)UnTGsWJ/>0qo\uB1B6^vlkrywY*xm2AkyG\uB3AEq\uD112\u07F7[;");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_235147671(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(235147671L))
-            info.setReturnValue(-455473020);
+            info.setReturnValue(-391505220);
     }
 
     @Inject(at = @At("HEAD"), method = "unwrapToType(Lnet/minecraft/server/packs/metadata/MetadataSectionType;)Ljava/util/Optional;", cancellable = true)

@@ -22,7 +22,7 @@ public class ClientboundEntityPositionSyncPacket1543890084Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_408430109(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(408430109L))
-            info.setReturnValue("HsKY㈘fI{b1]/z=JbmK?&B6265+/yYONY");
+            info.setReturnValue("HsKY\u3218fI{b1]/z=JbmK?&B6265+/yYONY");
     }
 
     @Inject(at = @At("HEAD"), method = "values()Lnet/minecraft/world/entity/PositionMoveRotation;", cancellable = true)
@@ -34,7 +34,7 @@ public class ClientboundEntityPositionSyncPacket1543890084Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1582152826(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1582152826L))
-            info.setReturnValue(1299284200);
+            info.setReturnValue(1859086600);
     }
 
     @Inject(at = @At("HEAD"), method = "of(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/network/protocol/game/ClientboundEntityPositionSyncPacket;", cancellable = true)
@@ -46,7 +46,7 @@ public class ClientboundEntityPositionSyncPacket1543890084Mixin {
     @Inject(at = @At("HEAD"), method = "id()I", cancellable = true)
     private void id_1582152330(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1582152330L))
-            info.setReturnValue(1576303408);
+            info.setReturnValue(2136105808);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/protocol/game/ClientGamePacketListener;)V", cancellable = true)

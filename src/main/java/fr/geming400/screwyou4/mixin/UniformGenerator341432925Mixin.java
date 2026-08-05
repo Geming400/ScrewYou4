@@ -16,13 +16,13 @@ public class UniformGenerator341432925Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__794027050(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-794027050L))
-            info.setReturnValue("g&yi24⍘WORvHwx0蕡_冘hD狵]NhCJo]b `참Z>xR`_歫4{Zl*ubxX'TQ'!4pdzN{JTm6H;-QK<e쒷'>땤d6v輇=j3s$");
+            info.setReturnValue("g&yi24\u2358WORvHwx0\u8561_\u5198hD\u72F5]NhCJo]b `\uCC38Z>xR`_\u6B6B4{Zl*ubxX'TQ'!4pdzN{JTm6H;-QK<e\uC4B7'>\uB564d6v\u8F07=j3s$");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_379695667(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(379695667L))
-            info.setReturnValue(-955953551);
+            info.setReturnValue(-1291440151);
     }
 
     @Inject(at = @At("HEAD"), method = "min()Lnet/minecraft/world/level/storage/loot/providers/number/NumberProvider;", cancellable = true)
@@ -40,13 +40,13 @@ public class UniformGenerator341432925Mixin {
     @Inject(at = @At("HEAD"), method = "getInt(Lnet/minecraft/world/level/storage/loot/LootContext;)I", cancellable = true)
     private void getInt__2035532510(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2035532510L))
-            info.setReturnValue(28690570);
+            info.setReturnValue(-306796030);
     }
 
     @Inject(at = @At("HEAD"), method = "getFloat(Lnet/minecraft/world/level/storage/loot/LootContext;)F", cancellable = true)
     private void getFloat__2035535393(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2035535393L))
-            info.setReturnValue(9.112292E8F);
+            info.setReturnValue(5.757426E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "validate(Lnet/minecraft/world/level/storage/loot/ValidationContext;)V", cancellable = true)

@@ -13,16 +13,34 @@ public class ClientAvatarState1911280767Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getBackwardsInterpolatedWalkDistance(F)F", cancellable = true)
-    private void getBackwardsInterpolatedWalkDistance__1172555496(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1172555496L))
-            info.setReturnValue(4.171158E8F);
-    }
-
     @Inject(at = @At("HEAD"), method = "getInterpolatedBob(F)F", cancellable = true)
     private void getInterpolatedBob__1172555496(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1172555496L))
-            info.setReturnValue(4.171158E8F);
+            info.setReturnValue(4.288029E8F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "updateBob(F)V", cancellable = true)
+    private void updateBob__1172540120(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1172540120L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "resetBob()V", cancellable = true)
+    private void resetBob_1949555506(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1949555506L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getInterpolatedCloakX(F)D", cancellable = true)
+    private void getInterpolatedCloakX__1172557418(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1172557418L))
+            info.setReturnValue(4.288029000840932E8D);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getInterpolatedCloakY(F)D", cancellable = true)
+    private void getInterpolatedCloakY__1172557418(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1172557418L))
+            info.setReturnValue(4.288029000840932E8D);
     }
 
     @Inject(at = @At("HEAD"), method = "addWalkDistance(F)V", cancellable = true)
@@ -34,37 +52,19 @@ public class ClientAvatarState1911280767Mixin {
     @Inject(at = @At("HEAD"), method = "getInterpolatedCloakZ(F)D", cancellable = true)
     private void getInterpolatedCloakZ__1172557418(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1172557418L))
-            info.setReturnValue(4.171158000840932E8D);
+            info.setReturnValue(4.298036000840932E8D);
     }
 
-    @Inject(at = @At("HEAD"), method = "getInterpolatedCloakY(F)D", cancellable = true)
-    private void getInterpolatedCloakY__1172557418(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1172557418L))
-            info.setReturnValue(4.171158000840932E8D);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getInterpolatedCloakX(F)D", cancellable = true)
-    private void getInterpolatedCloakX__1172557418(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1172557418L))
-            info.setReturnValue(4.171158000840932E8D);
-    }
-
-    @Inject(at = @At("HEAD"), method = "resetBob()V", cancellable = true)
-    private void resetBob_1949555506(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1949555506L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "updateBob(F)V", cancellable = true)
-    private void updateBob__1172540120(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1172540120L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "getBackwardsInterpolatedWalkDistance(F)F", cancellable = true)
+    private void getBackwardsInterpolatedWalkDistance__1172555496(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1172555496L))
+            info.setReturnValue(4.298036E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "getInterpolatedWalkDistance(F)F", cancellable = true)
     private void getInterpolatedWalkDistance__1172555496(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1172555496L))
-            info.setReturnValue(4.171158E8F);
+            info.setReturnValue(4.298036E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "deltaMovementOnPreviousTick()Lnet/minecraft/world/phys/Vec3;", cancellable = true)

@@ -16,13 +16,13 @@ public class GenerationStub_320017013Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__815442963(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-815442963L))
-            info.setReturnValue("JBZn?@ᰤw暒L*vm脒၈@AQ67zヺn]놂Wk(l쏃qN(uDFኇ%\"S|,");
+            info.setReturnValue("JBZn?@\u1C24w\u6692L*vm\u8112\u1048@AQ67z\u30FAn]\uB182Wk(l\uC3C3qN(uDF\u1287%\"S|,");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_358279754(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(358279754L))
-            info.setReturnValue(535222166);
+            info.setReturnValue(908133866);
     }
 
     @Inject(at = @At("HEAD"), method = "position()Lnet/minecraft/core/BlockPos;", cancellable = true)

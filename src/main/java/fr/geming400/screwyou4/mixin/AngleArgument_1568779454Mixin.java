@@ -19,6 +19,12 @@ public class AngleArgument_1568779454Mixin {
             info.setReturnValue(new java.lang.Object());
     }
 
+    @Inject(at = @At("HEAD"), method = "getAngle(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)F", cancellable = true)
+    private static void getAngle_804817692(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(804817692L))
+            info.setReturnValue(7.711765E8F);
+    }
+
     @Inject(at = @At("HEAD"), method = "angle()Lnet/minecraft/commands/arguments/AngleArgument;", cancellable = true)
     private static void angle__1055460289(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1055460289L))
@@ -29,12 +35,6 @@ public class AngleArgument_1568779454Mixin {
     private void getExamples__244868819(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-244868819L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getAngle(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)F", cancellable = true)
-    private static void getAngle_804817692(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(804817692L))
-            info.setReturnValue(4.204561E8F);
     }
 
 

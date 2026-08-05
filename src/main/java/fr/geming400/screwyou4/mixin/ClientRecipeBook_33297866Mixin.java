@@ -31,16 +31,10 @@ public class ClientRecipeBook_33297866Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "willHighlight(Lnet/minecraft/world/item/crafting/display/RecipeDisplayId;)Z", cancellable = true)
-    private void willHighlight__1899576585(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1899576585L))
-            info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "removeHighlight(Lnet/minecraft/world/item/crafting/display/RecipeDisplayId;)V", cancellable = true)
-    private void removeHighlight__1899580429(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1899580429L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "getCollections()Ljava/util/List;", cancellable = true)
+    private void getCollections_1659634681(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1659634681L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "addHighlight(Lnet/minecraft/world/item/crafting/display/RecipeDisplayId;)V", cancellable = true)
@@ -55,10 +49,16 @@ public class ClientRecipeBook_33297866Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getCollections()Ljava/util/List;", cancellable = true)
-    private void getCollections_1659634681(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1659634681L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "removeHighlight(Lnet/minecraft/world/item/crafting/display/RecipeDisplayId;)V", cancellable = true)
+    private void removeHighlight__1899580429(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1899580429L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "willHighlight(Lnet/minecraft/world/item/crafting/display/RecipeDisplayId;)Z", cancellable = true)
+    private void willHighlight__1899576585(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1899576585L))
+            info.setReturnValue(false);
     }
 
 

@@ -10,7 +10,7 @@ public class UniformHeight1134260141Mixin {
         @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__1200330(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1200330L))
-            info.setReturnValue("k{U2㷭ALz>됥%Nⵖk6foX4d鯏L얋a-)l^JIyf[IkG^8s&:蔀");
+            info.setReturnValue("k{U2\u3DEDALz>\uB425%N\u2D56k6foX4d\u9BCFL\uC58Ba-)l^JIyf[IkG^8s&:\u8500");
     }
 
     @Inject(at = @At("HEAD"), method = "of(Lnet/minecraft/world/level/levelgen/VerticalAnchor;Lnet/minecraft/world/level/levelgen/VerticalAnchor;)Lnet/minecraft/world/level/levelgen/heightproviders/UniformHeight;", cancellable = true)
@@ -28,7 +28,7 @@ public class UniformHeight1134260141Mixin {
     @Inject(at = @At("HEAD"), method = "sample(Lnet/minecraft/util/RandomSource;Lnet/minecraft/world/level/levelgen/WorldGenerationContext;)I", cancellable = true)
     private void sample_1099406206(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1099406206L))
-            info.setReturnValue(-870887257);
+            info.setReturnValue(-373571457);
     }
 
 

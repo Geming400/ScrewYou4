@@ -16,19 +16,19 @@ public class PlainMessage_1449202691Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_313742715(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(313742715L))
-            info.setReturnValue("v^m%?Z춓V(6l6Y^>4^8Q㿾0A6t㳽o9^p");
+            info.setReturnValue("v^m%?Z\uCD93V(6l6Y^>4^8Q\u3FFE0A6t\u3CFDo9^p");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1487465432(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1487465432L))
-            info.setReturnValue(1038152018);
+            info.setReturnValue(1066518818);
     }
 
     @Inject(at = @At("HEAD"), method = "width()I", cancellable = true)
     private void width_1487464936(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1487464936L))
-            info.setReturnValue(1216675508);
+            info.setReturnValue(1245042308);
     }
 
     @Inject(at = @At("HEAD"), method = "contents()Lnet/minecraft/network/chat/Component;", cancellable = true)

@@ -10,7 +10,7 @@ public class BossBarColor_1240814566Mixin {
         @Inject(at = @At("HEAD"), method = "getName()Ljava/lang/String;", cancellable = true)
     private void getName_105354094(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(105354094L))
-            info.setReturnValue("륌$p@x=6>]콋l㉹*");
+            info.setReturnValue("\uB94C$p@x=6>]\uCF4Bl\u3279*");
     }
 
     @Inject(at = @At("HEAD"), method = "values()[Lnet/minecraft/world/BossEvent$BossBarColor;", cancellable = true)
@@ -28,7 +28,7 @@ public class BossBarColor_1240814566Mixin {
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName_105354094(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(105354094L))
-            info.setReturnValue("륌$p@x=6>]콋l㉹*");
+            info.setReturnValue("\uB94C$p@x=6>]\uCF4Bl\u3279*");
     }
 
     @Inject(at = @At("HEAD"), method = "getFormatting()Lnet/minecraft/ChatFormatting;", cancellable = true)

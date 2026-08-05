@@ -22,13 +22,13 @@ public class ClientboundRegistryDataPacket_516273404Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__619186572(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-619186572L))
-            info.setReturnValue("b=^eᯘ`V)dj%䏫!`Niఝ-{xW:ҳm謲缉7P]35ﾸ&xE꒹:,H;XgC侧DTM(UG@_%U첞})|ATa,-T콭KRSo85$JM7要");
+            info.setReturnValue("b=^e\u1BD8`V)dj%\u43EB!`Ni\u0C1D-{xW:\u04B3m\u8B32\u7F097P]35\uFFB8&xE\uA4B9:,H;XgC\u4FA7DTM(UG@_%U\uCC9E})|ATa,-T\uCF6DKRSo85$JM7\u8981");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_554536145(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(554536145L))
-            info.setReturnValue(163277547);
+            info.setReturnValue(-159442353);
     }
 
     @Inject(at = @At("HEAD"), method = "entries()Ljava/util/List;", cancellable = true)

@@ -31,16 +31,16 @@ public class FileFixerUpper_1152417332Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "worldVersionToFileFixerVersion(I)I", cancellable = true)
+    private static void worldVersionToFileFixerVersion__1928645238(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1928645238L))
+            info.setReturnValue(-1987347002);
+    }
+
     @Inject(at = @At("HEAD"), method = "detectFileSystemCapabilities(Ljava/nio/file/Path;)Lnet/minecraft/util/filefix/FileSystemCapabilities;", cancellable = true)
     private static void detectFileSystemCapabilities__1004205218(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1004205218L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "worldVersionToFileFixerVersion(I)I", cancellable = true)
-    private static void worldVersionToFileFixerVersion__1928645238(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1928645238L))
-            info.setReturnValue(-1598546302);
     }
 
 

@@ -16,13 +16,13 @@ public class SecurityConfig1658634572Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_523174597(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(523174597L))
-            info.setReturnValue("껅0zAo)<+23DG.R*D䄹!8)@櫱1SC揱-{&l");
+            info.setReturnValue("\uAEC50zAo)<+23DG.R*D\u4139!8)@\u6AF11SC\u63F1-{&l");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1696897314(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1696897314L))
-            info.setReturnValue(-917536137);
+            info.setReturnValue(-1101263337);
     }
 
     @Inject(at = @At("HEAD"), method = "isValid(Ljava/lang/String;)Z", cancellable = true)
@@ -34,13 +34,13 @@ public class SecurityConfig1658634572Mixin {
     @Inject(at = @At("HEAD"), method = "secretKey()Ljava/lang/String;", cancellable = true)
     private void secretKey_523174101(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(523174101L))
-            info.setReturnValue("ົtKi멐TlA/UYxUI<9}☒k\"%졃O)-+2!Tdv秠b;漃<'DUi");
+            info.setReturnValue("\u0EBBtKi\uBA50TlA/UYxUI<9}\u2612k\"%\uC843O)-+2!Tdv\u79E0b;\u6F03<'DUi");
     }
 
     @Inject(at = @At("HEAD"), method = "generateSecretKey()Ljava/lang/String;", cancellable = true)
     private static void generateSecretKey_523174349(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(523174349L))
-            info.setReturnValue("-Q鴔Hs/5-ྟtRZ!");
+            info.setReturnValue("-Q\u9D14Hs/5-\u0F9FtRZ!");
     }
 
 

@@ -7,13 +7,7 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.world.level.block.state.properties.RotationSegment.class)
 public class RotationSegment2067751751Mixin {
-        @Inject(at = @At("HEAD"), method = "getMaxSegmentIndex()I", cancellable = true)
-    private static void getMaxSegmentIndex_2106014245(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2106014245L))
-            info.setReturnValue(-999739351);
-    }
-
-    @Inject(at = @At("HEAD"), method = "convertToDirection(I)Ljava/util/Optional;", cancellable = true)
+        @Inject(at = @At("HEAD"), method = "convertToDirection(I)Ljava/util/Optional;", cancellable = true)
     private static void convertToDirection__1382004524(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1382004524L))
             info.setReturnValue(null);
@@ -22,19 +16,25 @@ public class RotationSegment2067751751Mixin {
     @Inject(at = @At("HEAD"), method = "convertToDegrees(I)F", cancellable = true)
     private static void convertToDegrees__1013313701(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1013313701L))
-            info.setReturnValue(8.610245E8F);
+            info.setReturnValue(7.551796E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "convertToSegment(F)I", cancellable = true)
     private static void convertToSegment__1016081381(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1016081381L))
-            info.setReturnValue(-564692498);
+            info.setReturnValue(-670537398);
     }
 
     @Inject(at = @At("HEAD"), method = "convertToSegment(Lnet/minecraft/core/Direction;)I", cancellable = true)
     private static void convertToSegment_947813425(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(947813425L))
-            info.setReturnValue(936061150);
+            info.setReturnValue(830216250);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getMaxSegmentIndex()I", cancellable = true)
+    private static void getMaxSegmentIndex_2106014245(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2106014245L))
+            info.setReturnValue(-1105584251);
     }
 
 

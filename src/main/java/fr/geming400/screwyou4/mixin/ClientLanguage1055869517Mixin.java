@@ -10,7 +10,7 @@ public class ClientLanguage1055869517Mixin {
         @Inject(at = @At("HEAD"), method = "getOrDefault(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;", cancellable = true)
     private void getOrDefault__1002218814(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1002218814L))
-            info.setReturnValue("WWY솟BO]>_$>Aힼd藴D?MS41鷤TYP^P8?k4Oe{75 b>ig韛R?>Q뢥V{m嫋=% 0Y檣|$_gq%");
+            info.setReturnValue("WWY\uC19FBO]>_$>A\uD7BCd\u85F4D?MS41\u9DE4TYP^P8?k4Oe{75 b>ig\u97DBR?>Q\uB8A5V{m\u5ACB=% 0Y\u6AA3|$_gq%");
     }
 
     @Inject(at = @At("HEAD"), method = "has(Ljava/lang/String;)Z", cancellable = true)

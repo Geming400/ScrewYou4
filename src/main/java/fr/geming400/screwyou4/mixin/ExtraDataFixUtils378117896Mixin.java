@@ -31,18 +31,6 @@ public class ExtraDataFixUtils378117896Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "dyeColorIdToName(I)Ljava/lang/String;", cancellable = true)
-    private static void dyeColorIdToName__1042751440(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1042751440L))
-            info.setReturnValue(".bq╀$eMiA濷M.J^F%`=+SQLn㫦Jef头rKjl +A琸$p7Km\"bƨ[");
-    }
-
-    @Inject(at = @At("HEAD"), method = "fixStringField(Lcom/mojang/serialization/Dynamic;Ljava/lang/String;Ljava/util/function/UnaryOperator;)Lcom/mojang/serialization/Dynamic;", cancellable = true)
-    private static void fixStringField_625940738(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(625940738L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "fixInlineBlockPos(Lcom/mojang/serialization/Dynamic;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lcom/mojang/serialization/Dynamic;", cancellable = true)
     private static void fixInlineBlockPos__1662638057(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1662638057L))
@@ -64,6 +52,18 @@ public class ExtraDataFixUtils378117896Mixin {
     @Inject(at = @At("HEAD"), method = "chainAllFilters([Ljava/util/function/Function;)Ljava/util/function/Function;", cancellable = true)
     private static void chainAllFilters__1650373358(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1650373358L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "dyeColorIdToName(I)Ljava/lang/String;", cancellable = true)
+    private static void dyeColorIdToName__1042751440(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1042751440L))
+            info.setReturnValue(".bq\u2540$eMiA\u6FF7M.J^F%`=+SQLn\u3AE6Jef\u5934rKjl +A\u7438$p7Km\"b\u01A8[");
+    }
+
+    @Inject(at = @At("HEAD"), method = "fixStringField(Lcom/mojang/serialization/Dynamic;Ljava/lang/String;Ljava/util/function/UnaryOperator;)Lcom/mojang/serialization/Dynamic;", cancellable = true)
+    private static void fixStringField_625940738(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(625940738L))
             info.setReturnValue(null);
     }
 

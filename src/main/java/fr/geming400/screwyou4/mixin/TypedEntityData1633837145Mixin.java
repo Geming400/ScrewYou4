@@ -22,13 +22,13 @@ public class TypedEntityData1633837145Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_498376674(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(498376674L))
-            info.setReturnValue("/^Y5Y$㒈C䨶{Lz份t8㲂uJ8el=Nfkd<");
+            info.setReturnValue("/^Y5Y$\u3488C\u4A36{Lz\u4EFDt8\u3C82uJ8el=Nfkd<");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1672099391(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1672099391L))
-            info.setReturnValue(747068272);
+            info.setReturnValue(1186131972);
     }
 
     @Inject(at = @At("HEAD"), method = "of(Ljava/lang/Object;Lnet/minecraft/nbt/CompoundTag;)Lnet/minecraft/world/item/component/TypedEntityData;", cancellable = true)
@@ -61,10 +61,10 @@ public class TypedEntityData1633837145Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "copyTagWithoutId()Lnet/minecraft/nbt/CompoundTag;", cancellable = true)
-    private void copyTagWithoutId_63614225(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(63614225L))
-            info.setReturnValue(new net.minecraft.nbt.CompoundTag());
+    @Inject(at = @At("HEAD"), method = "addToTooltip(Lnet/minecraft/world/item/Item$TooltipContext;Ljava/util/function/Consumer;Lnet/minecraft/world/item/TooltipFlag;Lnet/minecraft/core/component/DataComponentGetter;)V", cancellable = true)
+    private void addToTooltip__908881245(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-908881245L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "loadInto(Lnet/minecraft/world/entity/Entity;)V", cancellable = true)
@@ -79,10 +79,10 @@ public class TypedEntityData1633837145Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "addToTooltip(Lnet/minecraft/world/item/Item$TooltipContext;Ljava/util/function/Consumer;Lnet/minecraft/world/item/TooltipFlag;Lnet/minecraft/core/component/DataComponentGetter;)V", cancellable = true)
-    private void addToTooltip__908881245(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-908881245L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "copyTagWithoutId()Lnet/minecraft/nbt/CompoundTag;", cancellable = true)
+    private void copyTagWithoutId_63614225(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(63614225L))
+            info.setReturnValue(new net.minecraft.nbt.CompoundTag());
     }
 
 

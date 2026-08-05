@@ -22,13 +22,13 @@ public class ClientboundLoginFinishedPacket312330756Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__823129219(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-823129219L))
-            info.setReturnValue("Y装`c3ꡞ0U▃릏Kw:歷qQf쒘M!#[mR?2C4z?(jP(#");
+            info.setReturnValue("Y\u88C5`c3\uA85E0U\u2583\uB98FKw:\u6B77qQf\uC498M!#[mR?2C4z?(jP(#");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_350593498(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(350593498L))
-            info.setReturnValue(-310392667);
+            info.setReturnValue(-75938867);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/protocol/login/ClientLoginPacketListener;)V", cancellable = true)

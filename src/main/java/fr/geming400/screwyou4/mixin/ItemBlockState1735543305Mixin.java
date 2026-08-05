@@ -10,7 +10,7 @@ public class ItemBlockState1735543305Mixin {
         @Inject(at = @At("HEAD"), method = "get(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/client/multiplayer/ClientLevel;Lnet/minecraft/world/entity/LivingEntity;ILnet/minecraft/world/item/ItemDisplayContext;)Ljava/lang/String;", cancellable = true)
     private void get_2099325167(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2099325167L))
-            info.setReturnValue("$y7饰  jj麎p9v嬼z#hㆌ{埪5W(r1ﱤx놀L{Lh-gwd=Xv+4bW(");
+            info.setReturnValue("$y7\u9970  jj\u9E8Ep9v\u5B3Cz#h\u318C{\u57EA5W(r1\uFC64x\uB180L{Lh-gwd=Xv+4bW(");
     }
 
     @Inject(at = @At("HEAD"), method = "get(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/client/multiplayer/ClientLevel;Lnet/minecraft/world/entity/LivingEntity;ILnet/minecraft/world/item/ItemDisplayContext;)Ljava/lang/Object;", cancellable = true)
@@ -34,19 +34,19 @@ public class ItemBlockState1735543305Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_600083330(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(600083330L))
-            info.setReturnValue("̊X8$鏿a60vf䗑9|軀C}%vdI;eB./$湰|Vs08Auh)9g{`l3gWVNk?๏7-7EU:em!Mh)0Wzk0=ⶨw_徹(턽sjG*8V#}|QzN+");
+            info.setReturnValue("\u030AX8$\u93FFa60vf\u45D19|\u8EC0C}%vdI;eB./$\u6E70|Vs08Auh)9g{`l3gWVNk?\u0E4F7-7EU:em!Mh)0Wzk0=\u2DA8w_\u5FB9(\uD13DsjG*8V#}|QzN+");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1773806047(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1773806047L))
-            info.setReturnValue(1851672764);
+            info.setReturnValue(-1990817332);
     }
 
     @Inject(at = @At("HEAD"), method = "property()Ljava/lang/String;", cancellable = true)
     private void property_600082834(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(600082834L))
-            info.setReturnValue("拟>g빹EGfF#bDLNV:uxr嫄I`Kc(M\"sCmnCxFC㦁WD멢4n916K2(");
+            info.setReturnValue("\u62DF>g\uBE79EGfF#bDLNV:uxr\u5AC4I`Kc(M\"sCmnCxFC\u3981WD\uBA624n916K2(");
     }
 
     @Inject(at = @At("HEAD"), method = "valueCodec()Lcom/mojang/serialization/Codec;", cancellable = true)

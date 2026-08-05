@@ -16,13 +16,13 @@ public class ReplaceBlock_851186821Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__284273155(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-284273155L))
-            info.setReturnValue("z듏{I欀5p0YmPTo'K#SH\"L_0zJ/M|{g٠fVUw)t20,_7貋☲噭C1[h!Z=RCd&+d侄p钳=t5F2IL>Yxr2a9p=LnLzlz]濴,");
+            info.setReturnValue("z\uB4CF{I\u6B005p0YmPTo'K#SH\"L_0zJ/M|{g\u0660fVUw)t20,_7\u8C8B\u2632\u566DC1[h!Z=RCd&+d\u4F84p\u94B3=t5F2IL>Yxr2a9p=LnLzlz]\u6FF4,");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_889449562(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(889449562L))
-            info.setReturnValue(1973129856);
+            info.setReturnValue(-2080185340);
     }
 
     @Inject(at = @At("HEAD"), method = "apply(Lnet/minecraft/server/level/ServerLevel;ILnet/minecraft/world/item/enchantment/EnchantedItemInUse;Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/phys/Vec3;)V", cancellable = true)
@@ -43,12 +43,6 @@ public class ReplaceBlock_851186821Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "triggerGameEvent()Ljava/util/Optional;", cancellable = true)
-    private void triggerGameEvent_1096648242(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1096648242L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
     private void codec__1707926752(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1707926752L))
@@ -58,6 +52,12 @@ public class ReplaceBlock_851186821Mixin {
     @Inject(at = @At("HEAD"), method = "blockState()Lnet/minecraft/world/level/levelgen/feature/stateproviders/BlockStateProvider;", cancellable = true)
     private void blockState__1081519681(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1081519681L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "triggerGameEvent()Ljava/util/Optional;", cancellable = true)
+    private void triggerGameEvent_1096648242(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1096648242L))
             info.setReturnValue(null);
     }
 

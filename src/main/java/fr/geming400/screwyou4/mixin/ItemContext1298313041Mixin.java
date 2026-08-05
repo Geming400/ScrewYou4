@@ -16,13 +16,13 @@ public class ItemContext1298313041Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_162853066(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(162853066L))
-            info.setReturnValue("vyRcK=5ꪢuW\"8Z\"䉄F(lO_j뵕3Y6LI(<][淚_[ecY#9䖮vI;x9O;M=&Dይ[NlaB镽6溆#|-(9O'k?gLn<t7$蝛p3w");
+            info.setReturnValue("vyRcK=5\uAAA2uW\"8Z\"\u4244F(lO_j\uBD553Y6LI(<][\uF94D_[ecY#9\u45AEvI;x9O;M=&D\u12ED[NlaB\u957D6\u6E86#|-(9O'k?gLn<t7$\u875Bp3w");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1336575783(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1336575783L))
-            info.setReturnValue(-35902077);
+            info.setReturnValue(-98972977);
     }
 
     @Inject(at = @At("HEAD"), method = "heldItemTransformedTo()Lnet/minecraft/world/item/ItemStack;", cancellable = true)

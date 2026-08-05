@@ -31,12 +31,6 @@ public class DeathScreen_952287758Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "mouseClicked(Lnet/minecraft/client/input/MouseButtonEvent;Z)Z", cancellable = true)
-    private void mouseClicked__662371121(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-662371121L))
-            info.setReturnValue(true);
-    }
-
     @Inject(at = @At("HEAD"), method = "isPauseScreen()Z", cancellable = true)
     private void isPauseScreen_990566340(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(990566340L))
@@ -47,6 +41,12 @@ public class DeathScreen_952287758Mixin {
     private void extractBackground__7399615(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-7399615L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "mouseClicked(Lnet/minecraft/client/input/MouseButtonEvent;Z)Z", cancellable = true)
+    private void mouseClicked__662371121(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-662371121L))
+            info.setReturnValue(true);
     }
 
 

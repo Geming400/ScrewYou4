@@ -16,19 +16,13 @@ public class LootItemRandomChanceWithEnchantedBonusCondition1482338366Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_346878391(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(346878391L))
-            info.setReturnValue(")Tg!xeE;p(u&筷<vJ`<勃謊|[o)Xm5z洸pwl9雸ᖭ3늓FH");
+            info.setReturnValue(")Tg!xeE;p(u&\u7B77<vJ`<\u52C3\u8B0A|[o)Xm5z\u6D38pwl9\u96F8\u15AD3\uB293FH");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1520601108(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1520601108L))
-            info.setReturnValue(919125957);
-    }
-
-    @Inject(at = @At("HEAD"), method = "test(Lnet/minecraft/world/level/storage/loot/LootContext;)Z", cancellable = true)
-    private void test__894610732(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-894610732L))
-            info.setReturnValue(true);
+            info.setReturnValue(906329457);
     }
 
     @Inject(at = @At("HEAD"), method = "test(Ljava/lang/Object;)Z", cancellable = true)
@@ -37,16 +31,16 @@ public class LootItemRandomChanceWithEnchantedBonusCondition1482338366Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "enchantedChance()Lnet/minecraft/world/item/enchantment/LevelBasedValue;", cancellable = true)
-    private void enchantedChance_1614417965(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1614417965L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "test(Lnet/minecraft/world/level/storage/loot/LootContext;)Z", cancellable = true)
+    private void test__894610732(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-894610732L))
+            info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "unenchantedChance()F", cancellable = true)
-    private void unenchantedChance_1520597729(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1520597729L))
-            info.setReturnValue(4.546349E8F);
+    @Inject(at = @At("HEAD"), method = "randomChanceAndLootingBoost(Lnet/minecraft/core/HolderLookup$Provider;FF)Lnet/minecraft/world/level/storage/loot/predicates/LootItemCondition$Builder;", cancellable = true)
+    private static void randomChanceAndLootingBoost_492844731(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(492844731L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
@@ -67,9 +61,15 @@ public class LootItemRandomChanceWithEnchantedBonusCondition1482338366Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "randomChanceAndLootingBoost(Lnet/minecraft/core/HolderLookup$Provider;FF)Lnet/minecraft/world/level/storage/loot/predicates/LootItemCondition$Builder;", cancellable = true)
-    private static void randomChanceAndLootingBoost_492844731(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(492844731L))
+    @Inject(at = @At("HEAD"), method = "unenchantedChance()F", cancellable = true)
+    private void unenchantedChance_1520597729(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1520597729L))
+            info.setReturnValue(4.418384E8F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "enchantedChance()Lnet/minecraft/world/item/enchantment/LevelBasedValue;", cancellable = true)
+    private void enchantedChance_1614417965(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1614417965L))
             info.setReturnValue(null);
     }
 

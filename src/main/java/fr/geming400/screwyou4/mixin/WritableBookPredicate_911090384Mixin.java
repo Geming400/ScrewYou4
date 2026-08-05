@@ -16,13 +16,13 @@ public class WritableBookPredicate_911090384Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__224369592(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-224369592L))
-            info.setReturnValue("|苾**PyW8'ZSmሇ'r2[첱SX쉪Se1b㭸)Gc7뢅皞6]xva*FbE5<3닝J71H踴pi[9n_%iTpY鹝{F8dᆮ'X$c6c");
+            info.setReturnValue("|\u82FE**PyW8'ZSm\u1207'r2[\uCCB1SX\uC26ASe1b\u3B78)Gc7\uB885\u769E6]xva*FbE5<3\uB2DDJ71H\u8E34pi[9n_%iTpY\u9E5D{F8d\u11AE'X$c6c");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_949353125(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(949353125L))
-            info.setReturnValue(-1987832912);
+            info.setReturnValue(-1955368812);
     }
 
     @Inject(at = @At("HEAD"), method = "componentType()Lnet/minecraft/core/component/DataComponentType;", cancellable = true)

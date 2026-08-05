@@ -16,13 +16,13 @@ public class Bees_1330530673Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_195070697(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(195070697L))
-            info.setReturnValue("螲㱤荦/`ᄲ?d{-(S^l%i緃弩D酂%똸{r`fLz@b堺0u_뙬[4tj&w.[깸[9gu涜-`7佤N@z*y}8Cl:)滆");
+            info.setReturnValue("\u87B2\u3C64\u8366/`\u1132?d{-(S^l%i\u7DC3\u5F29D\u9142%\uB638{r`fLz@b\u583A0u_\uB66C[4tj&w.[\uAE78[9gu\u6D9C-`7\u4F64N@z*y}8Cl:)\u6EC6");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1368793414(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1368793414L))
-            info.setReturnValue(-1506804125);
+            info.setReturnValue(-1378263825);
     }
 
     @Inject(at = @At("HEAD"), method = "bees()Ljava/util/List;", cancellable = true)

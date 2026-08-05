@@ -28,13 +28,13 @@ public class FixedScoreboardNameProvider1643055590Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_507595615(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(507595615L))
-            info.setReturnValue("T⚅&XRLN!|Px(`2gOa<v9&t>]epu)]L.vl&Z䟦df-c<idz_`Hb[6iwO?4+[");
+            info.setReturnValue("T\u2685&XRLN!|Px(`2gOa<v9&t>]epu)]L.vl&Z\u47E6df-c<idz_`Hb[6iwO?4+[");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1681318332(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1681318332L))
-            info.setReturnValue(-789648137);
+            info.setReturnValue(-1496357837);
     }
 
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)

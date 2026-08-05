@@ -28,19 +28,19 @@ public class SlotArgument636601413Mixin {
     @Inject(at = @At("HEAD"), method = "getSlot(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)I", cancellable = true)
     private static void getSlot__127357465(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-127357465L))
-            info.setReturnValue(-1477414742);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getExamples()Ljava/util/Collection;", cancellable = true)
-    private void getExamples__1177046859(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1177046859L))
-            info.setReturnValue(null);
+            info.setReturnValue(2003669454);
     }
 
     @Inject(at = @At("HEAD"), method = "listSuggestions(Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
     private void listSuggestions_877524855(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(877524855L))
             info.setReturnValue(new java.util.concurrent.CompletableFuture());
+    }
+
+    @Inject(at = @At("HEAD"), method = "getExamples()Ljava/util/Collection;", cancellable = true)
+    private void getExamples__1177046859(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1177046859L))
+            info.setReturnValue(null);
     }
 
 

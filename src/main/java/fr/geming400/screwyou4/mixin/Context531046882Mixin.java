@@ -16,19 +16,19 @@ public class Context531046882Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__604413093(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-604413093L))
-            info.setReturnValue("^0(CN{BTＷ51");
+            info.setReturnValue("^0(CN{BT\uFF3751");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_569309624(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(569309624L))
-            info.setReturnValue(643362152);
+            info.setReturnValue(-130532048);
     }
 
     @Inject(at = @At("HEAD"), method = "seed()J", cancellable = true)
     private void seed_569310089(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(569310089L))
-            info.setReturnValue(-1802353610190608061L);
+            info.setReturnValue(-1802353610964502261L);
     }
 
     @Inject(at = @At("HEAD"), method = "config()Lnet/minecraft/world/level/levelgen/feature/configurations/FeatureConfiguration;", cancellable = true)
@@ -49,12 +49,6 @@ public class Context531046882Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "heightAccessor()Lnet/minecraft/world/level/LevelHeightAccessor;", cancellable = true)
-    private void heightAccessor_568267280(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(568267280L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "chunkGenerator()Lnet/minecraft/world/level/chunk/ChunkGenerator;", cancellable = true)
     private void chunkGenerator__1265945524(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1265945524L))
@@ -64,6 +58,12 @@ public class Context531046882Mixin {
     @Inject(at = @At("HEAD"), method = "structureTemplateManager()Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplateManager;", cancellable = true)
     private void structureTemplateManager__1640110451(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1640110451L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "heightAccessor()Lnet/minecraft/world/level/LevelHeightAccessor;", cancellable = true)
+    private void heightAccessor_568267280(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(568267280L))
             info.setReturnValue(null);
     }
 

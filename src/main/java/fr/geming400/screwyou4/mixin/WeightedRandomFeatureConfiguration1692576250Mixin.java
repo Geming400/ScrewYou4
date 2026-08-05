@@ -16,13 +16,13 @@ public class WeightedRandomFeatureConfiguration1692576250Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_557116275(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(557116275L))
-            info.setReturnValue("]0Dv;䕑F 乏vaX(4");
+            info.setReturnValue("]0Dv;\u4551F \u4E4FvaX(4");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1730838992(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1730838992L))
-            info.setReturnValue(-1497455211);
+            info.setReturnValue(-1679671111);
     }
 
     @Inject(at = @At("HEAD"), method = "features()Lnet/minecraft/util/random/WeightedList;", cancellable = true)

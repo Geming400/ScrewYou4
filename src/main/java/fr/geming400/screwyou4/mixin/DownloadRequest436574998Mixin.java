@@ -16,13 +16,13 @@ public class DownloadRequest436574998Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__698884977(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-698884977L))
-            info.setReturnValue("Xd\"CaW옟>>}S{>J/ngR-N>U↫}⋶Dbq7hBajrE,&:VGSW-k>lf4ᇞjH䏷L6U;z/.$B{`1UV(6#%Clt{`");
+            info.setReturnValue("Xd\"CaW\uC61F>>}S{>J/ngR-N>U\u21AB}\u22F6Dbq7hBajrE,&:VGSW-k>lf4\u11DEjH\u43F7L6U;z/.$B{`1UV(6#%Clt{`");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_474837740(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(474837740L))
-            info.setReturnValue(-992896236);
+            info.setReturnValue(-801888636);
     }
 
     @Inject(at = @At("HEAD"), method = "hash()Lcom/google/common/hash/HashCode;", cancellable = true)

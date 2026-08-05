@@ -28,13 +28,13 @@ public class DisplayContext1891192797Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_755732822(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(755732822L))
-            info.setReturnValue(" ꆍ&gYT뫽9鈌8j喤S6╡86#!`8壑fX.2_");
+            info.setReturnValue(" \uA18D&gYT\uBAFD9\u920C8j\u55A4S6\u256186#!`8\u58D1fX.2_");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1929455539(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1929455539L))
-            info.setReturnValue(-1855841616);
+            info.setReturnValue(-2049227416);
     }
 
 

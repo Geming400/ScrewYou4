@@ -43,58 +43,10 @@ public class JigsawBlockEntity421101377Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getUpdatePacket()Lnet/minecraft/network/protocol/game/ClientboundBlockEntityDataPacket;", cancellable = true)
-    private void getUpdatePacket__575750395(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-575750395L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getUpdatePacket()Lnet/minecraft/network/protocol/Packet;", cancellable = true)
-    private void getUpdatePacket__593451685(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-593451685L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getUpdateTag(Lnet/minecraft/core/HolderLookup$Provider;)Lnet/minecraft/nbt/CompoundTag;", cancellable = true)
-    private void getUpdateTag__745520171(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-745520171L))
-            info.setReturnValue(new net.minecraft.nbt.CompoundTag());
-    }
-
-    @Inject(at = @At("HEAD"), method = "getPlacementPriority()I", cancellable = true)
-    private void getPlacementPriority_459363623(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(459363623L))
-            info.setReturnValue(-592418871);
-    }
-
-    @Inject(at = @At("HEAD"), method = "setSelectionPriority(I)V", cancellable = true)
-    private void setSelectionPriority_1635018349(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1635018349L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "setPlacementPriority(I)V", cancellable = true)
-    private void setPlacementPriority_1635018349(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1635018349L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "getFinalState()Ljava/lang/String;", cancellable = true)
-    private void getFinalState__714359094(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-714359094L))
-            info.setReturnValue("6춊U?en\"AzrPB{uV1Dd8YwxA'kOT& _=趏p.$G;)$*&{)舃UtU BeLm(");
-    }
-
-    @Inject(at = @At("HEAD"), method = "setFinalState(Ljava/lang/String;)V", cancellable = true)
-    private void setFinalState_1573462526(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1573462526L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "getSelectionPriority()I", cancellable = true)
-    private void getSelectionPriority_459363623(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(459363623L))
-            info.setReturnValue(-592418871);
+    @Inject(at = @At("HEAD"), method = "getJoint()Lnet/minecraft/world/level/block/entity/JigsawBlockEntity$JointType;", cancellable = true)
+    private void getJoint_1897970670(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1897970670L))
+            info.setReturnValue(net.minecraft.world.level.block.entity.JigsawBlockEntity.JointType.ROLLABLE);
     }
 
     @Inject(at = @At("HEAD"), method = "setPool(Lnet/minecraft/resources/ResourceKey;)V", cancellable = true)
@@ -109,10 +61,58 @@ public class JigsawBlockEntity421101377Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getJoint()Lnet/minecraft/world/level/block/entity/JigsawBlockEntity$JointType;", cancellable = true)
-    private void getJoint_1897970670(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1897970670L))
-            info.setReturnValue(net.minecraft.world.level.block.entity.JigsawBlockEntity.JointType.ROLLABLE);
+    @Inject(at = @At("HEAD"), method = "getUpdateTag(Lnet/minecraft/core/HolderLookup$Provider;)Lnet/minecraft/nbt/CompoundTag;", cancellable = true)
+    private void getUpdateTag__745520171(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-745520171L))
+            info.setReturnValue(new net.minecraft.nbt.CompoundTag());
+    }
+
+    @Inject(at = @At("HEAD"), method = "getUpdatePacket()Lnet/minecraft/network/protocol/Packet;", cancellable = true)
+    private void getUpdatePacket__593451685(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-593451685L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getUpdatePacket()Lnet/minecraft/network/protocol/game/ClientboundBlockEntityDataPacket;", cancellable = true)
+    private void getUpdatePacket__575750395(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-575750395L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "setPlacementPriority(I)V", cancellable = true)
+    private void setPlacementPriority_1635018349(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1635018349L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "setFinalState(Ljava/lang/String;)V", cancellable = true)
+    private void setFinalState_1573462526(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1573462526L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "setSelectionPriority(I)V", cancellable = true)
+    private void setSelectionPriority_1635018349(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1635018349L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getSelectionPriority()I", cancellable = true)
+    private void getSelectionPriority_459363623(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(459363623L))
+            info.setReturnValue(-894666271);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getFinalState()Ljava/lang/String;", cancellable = true)
+    private void getFinalState__714359094(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-714359094L))
+            info.setReturnValue("6\uCD8AU?en\"AzrPB{uV1Dd8YwxA'kOT& _=\u8D8Fp.$G;)$*&{)\u8203UtU BeLm(");
+    }
+
+    @Inject(at = @At("HEAD"), method = "getPlacementPriority()I", cancellable = true)
+    private void getPlacementPriority_459363623(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(459363623L))
+            info.setReturnValue(-894666271);
     }
 
 

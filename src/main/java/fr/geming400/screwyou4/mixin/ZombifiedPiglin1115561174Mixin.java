@@ -13,6 +13,12 @@ public class ZombifiedPiglin1115561174Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "checkZombifiedPiglinSpawnRules(Lnet/minecraft/world/entity/EntityType;Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)Z", cancellable = true)
+    private static void checkZombifiedPiglinSpawnRules_273297480(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(273297480L))
+            info.setReturnValue(true);
+    }
+
     @Inject(at = @At("HEAD"), method = "createAttributes()Lnet/minecraft/world/entity/ai/attributes/AttributeSupplier$Builder;", cancellable = true)
     private static void createAttributes_415342729(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(415342729L))
@@ -23,6 +29,12 @@ public class ZombifiedPiglin1115561174Mixin {
     private void getDefaultDimensions__127084870(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-127084870L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isPreventingPlayerRest(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/player/Player;)Z", cancellable = true)
+    private void isPreventingPlayerRest__276338279(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-276338279L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "checkSpawnObstruction(Lnet/minecraft/world/level/LevelReader;)Z", cancellable = true)
@@ -37,10 +49,16 @@ public class ZombifiedPiglin1115561174Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "isPreventingPlayerRest(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/player/Player;)Z", cancellable = true)
-    private void isPreventingPlayerRest__276338279(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-276338279L))
-            info.setReturnValue(false);
+    @Inject(at = @At("HEAD"), method = "populateDefaultEquipmentSlots(Lnet/minecraft/util/RandomSource;Lnet/minecraft/world/DifficultyInstance;)V", cancellable = true)
+    private void populateDefaultEquipmentSlots__185551433(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-185551433L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getPersistentAngerEndTime()J", cancellable = true)
+    private void getPersistentAngerEndTime_1153824381(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1153824381L))
+            info.setReturnValue(1512143677551751818L);
     }
 
     @Inject(at = @At("HEAD"), method = "startPersistentAngerTimer()V", cancellable = true)
@@ -55,34 +73,16 @@ public class ZombifiedPiglin1115561174Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getPersistentAngerTarget()Lnet/minecraft/world/entity/EntityReference;", cancellable = true)
-    private void getPersistentAngerTarget_1978522839(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1978522839L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "setPersistentAngerEndTime(J)V", cancellable = true)
     private void setPersistentAngerEndTime__1964565629(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1964565629L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getPersistentAngerEndTime()J", cancellable = true)
-    private void getPersistentAngerEndTime_1153824381(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1153824381L))
-            info.setReturnValue(1512143677177075518L);
-    }
-
-    @Inject(at = @At("HEAD"), method = "populateDefaultEquipmentSlots(Lnet/minecraft/util/RandomSource;Lnet/minecraft/world/DifficultyInstance;)V", cancellable = true)
-    private void populateDefaultEquipmentSlots__185551433(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-185551433L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "checkZombifiedPiglinSpawnRules(Lnet/minecraft/world/entity/EntityType;Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)Z", cancellable = true)
-    private static void checkZombifiedPiglinSpawnRules_273297480(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(273297480L))
-            info.setReturnValue(true);
+    @Inject(at = @At("HEAD"), method = "getPersistentAngerTarget()Lnet/minecraft/world/entity/EntityReference;", cancellable = true)
+    private void getPersistentAngerTarget_1978522839(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1978522839L))
+            info.setReturnValue(null);
     }
 
 

@@ -16,13 +16,13 @@ public class GameTypePredicate1102778253Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__32681722(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-32681722L))
-            info.setReturnValue("차r潘mlJ!S〱-jI^(,*&fz಄望hYଉꊭ3N䲯u6Ro60느ᣌ.FKIt/I畊4s>싰Lꐒ<u?!zT輄#_W");
+            info.setReturnValue("\uCC28r\u6F58mlJ!S\u3031-jI^(,*&fz\u0C84\uFA93hY\u0B09\uA2AD3N\u4CAFu6Ro60\uB290\u18CC.FKIt/I\u754A4s>\uC2F0L\uA412<u?!zT\u8F04#_W");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1141040995(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1141040995L))
-            info.setReturnValue(1282497485);
+            info.setReturnValue(1879775085);
     }
 
     @Inject(at = @At("HEAD"), method = "of([Lnet/minecraft/world/level/GameType;)Lnet/minecraft/advancements/predicates/GameTypePredicate;", cancellable = true)

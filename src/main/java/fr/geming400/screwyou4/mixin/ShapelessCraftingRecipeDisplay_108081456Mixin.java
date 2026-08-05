@@ -22,13 +22,13 @@ public class ShapelessCraftingRecipeDisplay_108081456Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__1027378520(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1027378520L))
-            info.setReturnValue("#㜮Kcu#^gy#_7Rj{JK:BA!\"YEⓨ@uKjBK鿽#@o㴺@i,/殄퐏P2u;*M{0{I>");
+            info.setReturnValue("#\u372EKcu#^gy#_7Rj{JK:BA!\"YE\u24E8@uKjBK\u9FFD#@o\u3D3A@i,/\u6B84\uD40FP2u;*M{0{I>");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_146344197(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(146344197L))
-            info.setReturnValue(1156557522);
+            info.setReturnValue(699218222);
     }
 
     @Inject(at = @At("HEAD"), method = "result()Lnet/minecraft/world/item/crafting/display/SlotDisplay;", cancellable = true)

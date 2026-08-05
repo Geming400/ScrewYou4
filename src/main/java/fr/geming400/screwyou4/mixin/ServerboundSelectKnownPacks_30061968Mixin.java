@@ -22,13 +22,13 @@ public class ServerboundSelectKnownPacks_30061968Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__1105398008(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1105398008L))
-            info.setReturnValue("䎽xCFl;u_$PvQ䝼yퟖou");
+            info.setReturnValue("\u43BDxCFl;u_$PvQ\u477Cy\uD7D6ou");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_68324709(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(68324709L))
-            info.setReturnValue(-4316820);
+            info.setReturnValue(-36674620);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/PacketListener;)V", cancellable = true)

@@ -25,12 +25,6 @@ public class Empty_1579116174Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "listResources(Ljava/lang/String;Ljava/util/function/Predicate;)Ljava/util/Map;", cancellable = true)
-    private void listResources_1209670606(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1209670606L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "listPacks()Ljava/util/stream/Stream;", cancellable = true)
     private void listPacks_1368409858(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1368409858L))
@@ -46,6 +40,12 @@ public class Empty_1579116174Mixin {
     @Inject(at = @At("HEAD"), method = "getNamespaces()Ljava/util/Set;", cancellable = true)
     private void getNamespaces__249919313(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-249919313L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "listResources(Ljava/lang/String;Ljava/util/function/Predicate;)Ljava/util/Map;", cancellable = true)
+    private void listResources_1209670606(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1209670606L))
             info.setReturnValue(null);
     }
 

@@ -61,39 +61,15 @@ public class DensityFunctions_1295286967Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "lerp(Lnet/minecraft/world/level/levelgen/DensityFunction;Lnet/minecraft/world/level/levelgen/DensityFunction;Lnet/minecraft/world/level/levelgen/DensityFunction;)Lnet/minecraft/world/level/levelgen/DensityFunction;", cancellable = true)
-    private static void lerp_658382017(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(658382017L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "lerp(Lnet/minecraft/world/level/levelgen/DensityFunction;DLnet/minecraft/world/level/levelgen/DensityFunction;)Lnet/minecraft/world/level/levelgen/DensityFunction;", cancellable = true)
     private static void lerp_1533506351(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1533506351L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "spline(Lnet/minecraft/util/CubicSpline;)Lnet/minecraft/world/level/levelgen/DensityFunction;", cancellable = true)
-    private static void spline__1351185930(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1351185930L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "cacheOnce(Lnet/minecraft/world/level/levelgen/DensityFunction;)Lnet/minecraft/world/level/levelgen/DensityFunction;", cancellable = true)
-    private static void cacheOnce__945232851(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-945232851L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "noise(Lnet/minecraft/core/Holder;)Lnet/minecraft/world/level/levelgen/DensityFunction;", cancellable = true)
-    private static void noise__1390411212(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1390411212L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "noise(Lnet/minecraft/core/Holder;DD)Lnet/minecraft/world/level/levelgen/DensityFunction;", cancellable = true)
-    private static void noise__348822668(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-348822668L))
+    @Inject(at = @At("HEAD"), method = "lerp(Lnet/minecraft/world/level/levelgen/DensityFunction;Lnet/minecraft/world/level/levelgen/DensityFunction;Lnet/minecraft/world/level/levelgen/DensityFunction;)Lnet/minecraft/world/level/levelgen/DensityFunction;", cancellable = true)
+    private static void lerp_658382017(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(658382017L))
             info.setReturnValue(null);
     }
 
@@ -103,14 +79,14 @@ public class DensityFunctions_1295286967Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "shiftB(Lnet/minecraft/core/Holder;)Lnet/minecraft/world/level/levelgen/DensityFunction;", cancellable = true)
-    private static void shiftB__1390411212(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1390411212L))
+    @Inject(at = @At("HEAD"), method = "noise(Lnet/minecraft/core/Holder;DD)Lnet/minecraft/world/level/levelgen/DensityFunction;", cancellable = true)
+    private static void noise__348822668(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-348822668L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "shiftA(Lnet/minecraft/core/Holder;)Lnet/minecraft/world/level/levelgen/DensityFunction;", cancellable = true)
-    private static void shiftA__1390411212(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "noise(Lnet/minecraft/core/Holder;)Lnet/minecraft/world/level/levelgen/DensityFunction;", cancellable = true)
+    private static void noise__1390411212(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1390411212L))
             info.setReturnValue(null);
     }
@@ -121,9 +97,33 @@ public class DensityFunctions_1295286967Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "spline(Lnet/minecraft/util/CubicSpline;)Lnet/minecraft/world/level/levelgen/DensityFunction;", cancellable = true)
+    private static void spline__1351185930(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1351185930L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "shiftA(Lnet/minecraft/core/Holder;)Lnet/minecraft/world/level/levelgen/DensityFunction;", cancellable = true)
+    private static void shiftA__1390411212(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1390411212L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "blendAlpha()Lnet/minecraft/world/level/levelgen/DensityFunction;", cancellable = true)
     private static void blendAlpha__1520640413(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1520640413L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "cacheOnce(Lnet/minecraft/world/level/levelgen/DensityFunction;)Lnet/minecraft/world/level/levelgen/DensityFunction;", cancellable = true)
+    private static void cacheOnce__945232851(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-945232851L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "shiftB(Lnet/minecraft/core/Holder;)Lnet/minecraft/world/level/levelgen/DensityFunction;", cancellable = true)
+    private static void shiftB__1390411212(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1390411212L))
             info.setReturnValue(null);
     }
 
@@ -139,15 +139,9 @@ public class DensityFunctions_1295286967Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "cacheAllInCell(Lnet/minecraft/world/level/levelgen/DensityFunction;)Lnet/minecraft/world/level/levelgen/DensityFunction;", cancellable = true)
-    private static void cacheAllInCell__945232851(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "blendDensity(Lnet/minecraft/world/level/levelgen/DensityFunction;)Lnet/minecraft/world/level/levelgen/DensityFunction;", cancellable = true)
+    private static void blendDensity__945232851(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-945232851L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "shiftedNoise2d(Lnet/minecraft/world/level/levelgen/DensityFunction;Lnet/minecraft/world/level/levelgen/DensityFunction;DLnet/minecraft/core/Holder;)Lnet/minecraft/world/level/levelgen/DensityFunction;", cancellable = true)
-    private static void shiftedNoise2d__2011740484(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2011740484L))
             info.setReturnValue(null);
     }
 
@@ -163,33 +157,15 @@ public class DensityFunctions_1295286967Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "mappedNoise(Lnet/minecraft/core/Holder;DD)Lnet/minecraft/world/level/levelgen/DensityFunction;", cancellable = true)
-    private static void mappedNoise__348822668(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-348822668L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "mappedNoise(Lnet/minecraft/core/Holder;DDD)Lnet/minecraft/world/level/levelgen/DensityFunction;", cancellable = true)
-    private static void mappedNoise_463959038(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(463959038L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "mappedNoise(Lnet/minecraft/core/Holder;DDDD)Lnet/minecraft/world/level/levelgen/DensityFunction;", cancellable = true)
-    private static void mappedNoise__109611852(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-109611852L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "blendOffset()Lnet/minecraft/world/level/levelgen/DensityFunction;", cancellable = true)
     private static void blendOffset__1520640413(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1520640413L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "intervalSelect(Lnet/minecraft/world/level/levelgen/DensityFunction;Lit/unimi/dsi/fastutil/doubles/DoubleList;Ljava/util/List;)Lnet/minecraft/world/level/levelgen/DensityFunction;", cancellable = true)
-    private static void intervalSelect_1730343614(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1730343614L))
+    @Inject(at = @At("HEAD"), method = "cacheAllInCell(Lnet/minecraft/world/level/levelgen/DensityFunction;)Lnet/minecraft/world/level/levelgen/DensityFunction;", cancellable = true)
+    private static void cacheAllInCell__945232851(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-945232851L))
             info.setReturnValue(null);
     }
 
@@ -199,15 +175,39 @@ public class DensityFunctions_1295286967Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "blendDensity(Lnet/minecraft/world/level/levelgen/DensityFunction;)Lnet/minecraft/world/level/levelgen/DensityFunction;", cancellable = true)
-    private static void blendDensity__945232851(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-945232851L))
+    @Inject(at = @At("HEAD"), method = "shiftedNoise2d(Lnet/minecraft/world/level/levelgen/DensityFunction;Lnet/minecraft/world/level/levelgen/DensityFunction;DLnet/minecraft/core/Holder;)Lnet/minecraft/world/level/levelgen/DensityFunction;", cancellable = true)
+    private static void shiftedNoise2d__2011740484(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2011740484L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "yClampedGradient(IIDD)Lnet/minecraft/world/level/levelgen/DensityFunction;", cancellable = true)
     private static void yClampedGradient__1498737469(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1498737469L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "intervalSelect(Lnet/minecraft/world/level/levelgen/DensityFunction;Lit/unimi/dsi/fastutil/doubles/DoubleList;Ljava/util/List;)Lnet/minecraft/world/level/levelgen/DensityFunction;", cancellable = true)
+    private static void intervalSelect_1730343614(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1730343614L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "mappedNoise(Lnet/minecraft/core/Holder;DDD)Lnet/minecraft/world/level/levelgen/DensityFunction;", cancellable = true)
+    private static void mappedNoise_463959038(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(463959038L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "mappedNoise(Lnet/minecraft/core/Holder;DD)Lnet/minecraft/world/level/levelgen/DensityFunction;", cancellable = true)
+    private static void mappedNoise__348822668(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-348822668L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "mappedNoise(Lnet/minecraft/core/Holder;DDDD)Lnet/minecraft/world/level/levelgen/DensityFunction;", cancellable = true)
+    private static void mappedNoise__109611852(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-109611852L))
             info.setReturnValue(null);
     }
 

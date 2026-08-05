@@ -16,24 +16,18 @@ public class ServerLinksDialog1032561312Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__102898663(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-102898663L))
-            info.setReturnValue("踋:J{풾yJK;0[Y |㝿I9dD;Di?38P_w)An,j\"B運zF<='G(16JGByCJ[w AY");
+            info.setReturnValue("\u8E0B:J{\uD4BEyJK;0[Y |\u377FI9dD;Di?38P_w)An,j\"B\u904BzF<='G(16JGByCJ[w AY");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1070824054(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1070824054L))
-            info.setReturnValue(1520779129);
+            info.setReturnValue(1243380829);
     }
 
     @Inject(at = @At("HEAD"), method = "common()Lnet/minecraft/server/dialog/CommonDialogData;", cancellable = true)
     private void common__1999558430(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1999558430L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "exitAction()Ljava/util/Optional;", cancellable = true)
-    private void exitAction_1278022734(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1278022734L))
             info.setReturnValue(null);
     }
 
@@ -46,13 +40,19 @@ public class ServerLinksDialog1032561312Mixin {
     @Inject(at = @At("HEAD"), method = "columns()I", cancellable = true)
     private void columns_1070823558(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1070823558L))
-            info.setReturnValue(1797798337);
+            info.setReturnValue(1520400037);
     }
 
     @Inject(at = @At("HEAD"), method = "buttonWidth()I", cancellable = true)
     private void buttonWidth_1070823558(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1070823558L))
-            info.setReturnValue(1797798337);
+            info.setReturnValue(1520400037);
+    }
+
+    @Inject(at = @At("HEAD"), method = "exitAction()Ljava/util/Optional;", cancellable = true)
+    private void exitAction_1278022734(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1278022734L))
+            info.setReturnValue(null);
     }
 
 

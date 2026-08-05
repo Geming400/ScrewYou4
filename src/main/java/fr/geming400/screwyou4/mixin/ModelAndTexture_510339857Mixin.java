@@ -16,13 +16,13 @@ public class ModelAndTexture_510339857Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__625120119(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-625120119L))
-            info.setReturnValue("B.LIt^Z釽*FlH瘘Knd뗛橿쩟3(ccQRxὕqpZ\"!$U<+:'F⨗W[[ C$-嬔꒨kW꯴s+oRq毩搤]9퓱MPIgj[ft=赺P](|,I h)쉘yk @n6⦭l왦Ꞃ]P");
+            info.setReturnValue("B.LIt^Z\u91FD*FlH\u7618Knd\uB5DB\u6A7F\uCA5F3(ccQRx\u1F55qpZ\"!$U<+:'F\u2A17W[[ C$-\u5B14\uA4A8kW\uABF4s+oRq\u6BE9\u6424]9\uD4F1MPIgj[ft=\u8D7AP](|,I h)\uC258yk @n6\u29ADl\uC666\uA782]P");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_548602598(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(548602598L))
-            info.setReturnValue(-1942820915);
+            info.setReturnValue(-1786362215);
     }
 
     @Inject(at = @At("HEAD"), method = "model()Ljava/lang/Object;", cancellable = true)

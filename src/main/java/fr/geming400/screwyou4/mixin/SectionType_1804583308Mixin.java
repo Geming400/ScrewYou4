@@ -22,7 +22,7 @@ public class SectionType_1804583308Mixin {
     @Inject(at = @At("HEAD"), method = "display()Ljava/lang/String;", cancellable = true)
     private void display_669122836(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(669122836L))
-            info.setReturnValue("Q0c妡rIpIRyD䤏k!DHO%Hu=1>[\"㾝_=");
+            info.setReturnValue("Q0c\u59A1rIpIRyD\u490Fk!DHO%Hu=1>[\"\u3F9D_=");
     }
 
 

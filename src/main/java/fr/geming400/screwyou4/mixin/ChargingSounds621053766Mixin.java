@@ -16,7 +16,7 @@ public class ChargingSounds621053766Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__514406209(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-514406209L))
-            info.setReturnValue("WNEo됥B");
+            info.setReturnValue("WNEo\uB425B");
     }
 
     @Inject(at = @At("HEAD"), method = "mid()Ljava/util/Optional;", cancellable = true)
@@ -28,7 +28,7 @@ public class ChargingSounds621053766Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_659316508(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(659316508L))
-            info.setReturnValue(-1705153970);
+            info.setReturnValue(-1443453270);
     }
 
     @Inject(at = @At("HEAD"), method = "end()Ljava/util/Optional;", cancellable = true)

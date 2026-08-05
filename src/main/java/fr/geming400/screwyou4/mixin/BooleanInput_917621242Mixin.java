@@ -16,13 +16,13 @@ public class BooleanInput_917621242Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__217838734(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-217838734L))
-            info.setReturnValue("Iẙli}fL{`3we1']sj2.9G6f`ꯨNr7l:v\"腐{珘<ဋd㹕1m#p2R상g/J");
+            info.setReturnValue("I\u1E99li}fL{`3we1']sj2.9G6f`\uABE8Nr7l:v\"\u8150{\u73D8<\u100Bd\u3E551m#p2R\uC0C1g/J");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_955883983(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(955883983L))
-            info.setReturnValue(1823863375);
+            info.setReturnValue(1839835975);
     }
 
     @Inject(at = @At("HEAD"), method = "label()Lnet/minecraft/network/chat/Component;", cancellable = true)
@@ -46,13 +46,13 @@ public class BooleanInput_917621242Mixin {
     @Inject(at = @At("HEAD"), method = "onFalse()Ljava/lang/String;", cancellable = true)
     private void onFalse__217839230(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-217839230L))
-            info.setReturnValue("j䀥LyxeYcQM栒^,ಔ5(Hg-./7Tz9읨&j:儶9#x64VQ堇'v c댪O*mqC'^^0Ⴒ?");
+            info.setReturnValue("j\u4025LyxeYcQM\u6812^,\u0C945(Hg-./7Tz9\uC768&j:\u51369#x64VQ\u5807'v c\uB32AO*mqC'^^0\u10B2?");
     }
 
     @Inject(at = @At("HEAD"), method = "onTrue()Ljava/lang/String;", cancellable = true)
     private void onTrue__217839230(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-217839230L))
-            info.setReturnValue("j䀥LyxeYcQM栒^,ಔ5(Hg-./7Tz9읨&j:儶9#x64VQ堇'v c댪O*mqC'^^0Ⴒ?");
+            info.setReturnValue("j\u4025LyxeYcQM\u6812^,\u0C945(Hg-./7Tz9\uC768&j:\u51369#x64VQ\u5807'v c\uB32AO*mqC'^^0\u10B2?");
     }
 
 

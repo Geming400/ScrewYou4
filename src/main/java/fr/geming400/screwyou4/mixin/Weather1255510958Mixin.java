@@ -16,13 +16,13 @@ public class Weather1255510958Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_120050983(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(120050983L))
-            info.setReturnValue("':Nd`uꬱ^Dꪶ)2zDﲜ_/⠵>W");
+            info.setReturnValue("':Nd`u\uAB31^D\uAAB6)2zD\uFC9C_/\u2835>W");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1293773700(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1293773700L))
-            info.setReturnValue(-1036529536);
+            info.setReturnValue(-1291785836);
     }
 
     @Inject(at = @At("HEAD"), method = "setup(Lnet/minecraft/server/level/ServerLevel;)Ljava/lang/Object;", cancellable = true)
@@ -49,16 +49,16 @@ public class Weather1255510958Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
-    private void codec__1303602614(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1303602614L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "weather()Lnet/minecraft/gametest/framework/TestEnvironmentDefinition$Weather$Type;", cancellable = true)
     private void weather__1915620752(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1915620752L))
             info.setReturnValue(net.minecraft.gametest.framework.TestEnvironmentDefinition.Weather.Type.THUNDER);
+    }
+
+    @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
+    private void codec__1303602614(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1303602614L))
+            info.setReturnValue(null);
     }
 
 

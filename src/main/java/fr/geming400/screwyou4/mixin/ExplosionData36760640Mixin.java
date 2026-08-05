@@ -16,25 +16,25 @@ public class ExplosionData36760640Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__1098699335(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1098699335L))
-            info.setReturnValue("S1XIH{a9cJmM13n)+Y{o1hW59HBx掍nNB&K祬@{㹩!*<%MS﹕\"nOQ{Eh_('TeX;틺Z㙽x2dTw0쪤`oPT簤M%௰XU1b|y |J3Vﺿ");
+            info.setReturnValue("S1XIH{a9cJmM13n)+Y{o1hW59HBx\u638DnNB&K\u796C@{\u3E69!*<%MS\uFE55\"nOQ{Eh_('TeX;\uD2FAZ\u367Dx2dTw0\uCAA4`oPT\u7C24M%\u0BF0XU1b|y |J3V\uFEBF");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_75023382(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(75023382L))
-            info.setReturnValue(200036161);
+            info.setReturnValue(19902261);
     }
 
     @Inject(at = @At("HEAD"), method = "power()I", cancellable = true)
     private void power_75022886(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(75022886L))
-            info.setReturnValue(378559650);
+            info.setReturnValue(198425750);
     }
 
     @Inject(at = @At("HEAD"), method = "fuse()I", cancellable = true)
     private void fuse_75022886(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(75022886L))
-            info.setReturnValue(378559650);
+            info.setReturnValue(198425750);
     }
 
     @Inject(at = @At("HEAD"), method = "causesFire()Z", cancellable = true)

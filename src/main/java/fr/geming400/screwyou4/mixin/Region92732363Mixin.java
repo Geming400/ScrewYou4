@@ -16,31 +16,31 @@ public class Region92732363Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__1042727612(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1042727612L))
-            info.setReturnValue("gX\"ap'UﱳK況c㿲h澒-e");
+            info.setReturnValue("gX\"ap'U\uFC73K\u6CC1c\u3FF2h\u6F92-e");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_130995105(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(130995105L))
-            info.setReturnValue(760350594);
+            info.setReturnValue(929378994);
     }
 
     @Inject(at = @At("HEAD"), method = "x()D", cancellable = true)
     private void x_130989804(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(130989804L))
-            info.setReturnValue(1.1031950094727731E8D);
+            info.setReturnValue(2.793479009472773E8D);
     }
 
     @Inject(at = @At("HEAD"), method = "y()D", cancellable = true)
     private void y_130989804(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(130989804L))
-            info.setReturnValue(1.1031950094727731E8D);
+            info.setReturnValue(2.793479009472773E8D);
     }
 
     @Inject(at = @At("HEAD"), method = "width()D", cancellable = true)
     private void width_130989804(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(130989804L))
-            info.setReturnValue(1.1031950094727731E8D);
+            info.setReturnValue(2.793479009472773E8D);
     }
 
     @Inject(at = @At("HEAD"), method = "sprite()Lnet/minecraft/resources/Identifier;", cancellable = true)
@@ -52,7 +52,7 @@ public class Region92732363Mixin {
     @Inject(at = @At("HEAD"), method = "height()D", cancellable = true)
     private void height_130989804(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(130989804L))
-            info.setReturnValue(1.1031950094727731E8D);
+            info.setReturnValue(2.793479009472773E8D);
     }
 
 

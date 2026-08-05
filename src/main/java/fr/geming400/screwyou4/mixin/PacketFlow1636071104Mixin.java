@@ -22,7 +22,7 @@ public class PacketFlow1636071104Mixin {
     @Inject(at = @At("HEAD"), method = "id()Ljava/lang/String;", cancellable = true)
     private void id_500610633(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(500610633L))
-            info.setReturnValue("Tj-HiK]=+쐷+GtBWXp4hVq4lK90M'UMz`$ŵvV0oG&E[Qh\"]-+kBJF鍷 H BvM fj鋹gou\"plT9=");
+            info.setReturnValue("Tj-HiK]=+\uC437+GtBWXp4hVq4lK90M'UMz`$\u0175vV0oG&E[Qh\"]-+kBJF\u9377 H BvM fj\u92F9gou\"plT9=");
     }
 
     @Inject(at = @At("HEAD"), method = "getOpposite()Lnet/minecraft/network/protocol/PacketFlow;", cancellable = true)

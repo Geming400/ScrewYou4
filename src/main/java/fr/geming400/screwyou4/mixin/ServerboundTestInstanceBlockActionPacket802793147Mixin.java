@@ -22,13 +22,13 @@ public class ServerboundTestInstanceBlockActionPacket802793147Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__332666828(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-332666828L))
-            info.setReturnValue("*KciA1X;죰M`4@DtV@e ﻲp DO7/லcubrd犂2tm3XwMx]f\"vﷃI볹V0 2");
+            info.setReturnValue("*KciA1X;\uC8F0M`4@DtV@e \uFEF2p DO7/\u0BB2cubrd\u72822tm3XwMx]f\"v\uFDC3I\uBCF9V0 2");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_841055889(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(841055889L))
-            info.setReturnValue(-176420892);
+            info.setReturnValue(3300208);
     }
 
     @Inject(at = @At("HEAD"), method = "data()Lnet/minecraft/world/level/block/entity/TestInstanceBlockEntity$Data;", cancellable = true)

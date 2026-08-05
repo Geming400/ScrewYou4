@@ -22,13 +22,13 @@ public class RandomSpreadType_1222312338Mixin {
     @Inject(at = @At("HEAD"), method = "evaluate(Lnet/minecraft/util/RandomSource;I)I", cancellable = true)
     private void evaluate__128160176(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-128160176L))
-            info.setReturnValue(1228617700);
+            info.setReturnValue(1423658200);
     }
 
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName_86851866(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(86851866L))
-            info.setReturnValue("#o厙'膬;");
+            info.setReturnValue("#o\u5399'\u81AC;");
     }
 
 

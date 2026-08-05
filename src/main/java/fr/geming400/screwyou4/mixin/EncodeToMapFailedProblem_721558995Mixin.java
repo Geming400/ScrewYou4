@@ -28,7 +28,7 @@ public class EncodeToMapFailedProblem_721558995Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_759821736(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(759821736L))
-            info.setReturnValue(-1299040716);
+            info.setReturnValue(-1641497016);
     }
 
     @Inject(at = @At("HEAD"), method = "error()Lcom/mojang/serialization/DataResult$Error;", cancellable = true)
@@ -40,7 +40,7 @@ public class EncodeToMapFailedProblem_721558995Mixin {
     @Inject(at = @At("HEAD"), method = "description()Ljava/lang/String;", cancellable = true)
     private void description__413901477(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-413901477L))
-            info.setReturnValue("x!7jb[p!nC`昻RQs+G");
+            info.setReturnValue("x!7jb[p!nC`\u663BRQs+G");
     }
 
 

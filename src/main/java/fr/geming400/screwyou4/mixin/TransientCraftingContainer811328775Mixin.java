@@ -25,52 +25,10 @@ public class TransientCraftingContainer811328775Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "clearContent()V", cancellable = true)
-    private void clearContent_849603514(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(849603514L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "setItem(ILnet/minecraft/world/item/ItemStack;)V", cancellable = true)
-    private void setItem__533424680(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-533424680L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "getContainerSize()I", cancellable = true)
-    private void getContainerSize_849591021(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(849591021L))
-            info.setReturnValue(-298431967);
-    }
-
-    @Inject(at = @At("HEAD"), method = "removeItemNoUpdate(I)Lnet/minecraft/world/item/ItemStack;", cancellable = true)
-    private void removeItemNoUpdate__2089720302(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2089720302L))
+    @Inject(at = @At("HEAD"), method = "getItems()Ljava/util/List;", cancellable = true)
+    private void getItems__1857301705(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1857301705L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getWidth()I", cancellable = true)
-    private void getWidth_849591021(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(849591021L))
-            info.setReturnValue(-298431967);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getHeight()I", cancellable = true)
-    private void getHeight_849591021(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(849591021L))
-            info.setReturnValue(-298431967);
-    }
-
-    @Inject(at = @At("HEAD"), method = "setChanged()V", cancellable = true)
-    private void setChanged_849603514(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(849603514L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "fillStackedContents(Lnet/minecraft/world/entity/player/StackedItemContents;)V", cancellable = true)
-    private void fillStackedContents_2120460592(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(2120460592L))
-            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "stillValid(Lnet/minecraft/world/entity/player/Player;)Z", cancellable = true)
@@ -79,10 +37,52 @@ public class TransientCraftingContainer811328775Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "getItems()Ljava/util/List;", cancellable = true)
-    private void getItems__1857301705(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1857301705L))
+    @Inject(at = @At("HEAD"), method = "getHeight()I", cancellable = true)
+    private void getHeight_849591021(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(849591021L))
+            info.setReturnValue(-66616567);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getWidth()I", cancellable = true)
+    private void getWidth_849591021(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(849591021L))
+            info.setReturnValue(-66616567);
+    }
+
+    @Inject(at = @At("HEAD"), method = "setItem(ILnet/minecraft/world/item/ItemStack;)V", cancellable = true)
+    private void setItem__533424680(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-533424680L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "removeItemNoUpdate(I)Lnet/minecraft/world/item/ItemStack;", cancellable = true)
+    private void removeItemNoUpdate__2089720302(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2089720302L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getContainerSize()I", cancellable = true)
+    private void getContainerSize_849591021(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(849591021L))
+            info.setReturnValue(-66616567);
+    }
+
+    @Inject(at = @At("HEAD"), method = "fillStackedContents(Lnet/minecraft/world/entity/player/StackedItemContents;)V", cancellable = true)
+    private void fillStackedContents_2120460592(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(2120460592L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "clearContent()V", cancellable = true)
+    private void clearContent_849603514(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(849603514L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "setChanged()V", cancellable = true)
+    private void setChanged_849603514(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(849603514L))
+            info.cancel();
     }
 
 

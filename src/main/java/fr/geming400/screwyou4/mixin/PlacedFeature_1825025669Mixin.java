@@ -16,13 +16,13 @@ public class PlacedFeature_1825025669Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_689565197(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(689565197L))
-            info.setReturnValue("/YBzdUw/)P!Mybᦥ8塀89.EH@oy⼵3g躄r&rvN祌?濫պuA@GBF้x!|@'JPhJ?#pZzkw1)");
+            info.setReturnValue("/YBzdUw/)P!Myb\u19A58\u584089.EH@oy\u2F353g\u8E84r&rvN\u794C?\uF922\u057AuA@GBF\u0E49x!|@'JPhJ?#pZzkw1)");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1863288410(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1863288410L))
-            info.setReturnValue(1427390869);
+            info.setReturnValue(1490043869);
     }
 
     @Inject(at = @At("HEAD"), method = "feature()Lnet/minecraft/core/Holder;", cancellable = true)
@@ -37,6 +37,12 @@ public class PlacedFeature_1825025669Mixin {
             info.setReturnValue(true);
     }
 
+    @Inject(at = @At("HEAD"), method = "placement()Ljava/util/List;", cancellable = true)
+    private void placement__843604812(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-843604812L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "placeWithBiomeCheck(Lnet/minecraft/world/level/WorldGenLevel;Lnet/minecraft/world/level/chunk/ChunkGenerator;Lnet/minecraft/util/RandomSource;Lnet/minecraft/core/BlockPos;)Z", cancellable = true)
     private void placeWithBiomeCheck_307143623(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(307143623L))
@@ -46,12 +52,6 @@ public class PlacedFeature_1825025669Mixin {
     @Inject(at = @At("HEAD"), method = "getFeatures()Ljava/util/stream/Stream;", cancellable = true)
     private void getFeatures_1614319353(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1614319353L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "placement()Ljava/util/List;", cancellable = true)
-    private void placement__843604812(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-843604812L))
             info.setReturnValue(null);
     }
 

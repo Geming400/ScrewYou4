@@ -16,13 +16,13 @@ public class RemoteChatSession1122962330Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__12497645(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-12497645L))
-            info.setReturnValue("쁫)8#3o!bF⳪0c:LL꽚^WVI뎊&&WApxcV@yZKEMl^f_I");
+            info.setReturnValue("\uC06B)8#3o!bF\u2CEA0c:LL\uAF5A^WVI\uB38A&&WApxcV@yZKEMl^f_I");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1161225072(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1161225072L))
-            info.setReturnValue(-263714452);
+            info.setReturnValue(152840748);
     }
 
     @Inject(at = @At("HEAD"), method = "sessionId()Ljava/util/UUID;", cancellable = true)

@@ -22,7 +22,7 @@ public class ScaffoldingBlock_9921467Mixin {
     @Inject(at = @At("HEAD"), method = "getDistance(Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I", cancellable = true)
     private static void getDistance__567623599(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-567623599L))
-            info.setReturnValue(-367530892);
+            info.setReturnValue(-449276092);
     }
 
 

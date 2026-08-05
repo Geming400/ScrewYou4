@@ -40,7 +40,7 @@ public class FrontAndTop734574857Mixin {
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName__400885614(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-400885614L))
-            info.setReturnValue("+h_廭⒗R^Vwi_XKh(;i:(^8=GFA&O^UV>_'.FUHoIRNឲ늌魦_MWs鍔Zpq^<1h$L_&;>VR꼭SmRgf삖).]/XI:p3<7 |鵙a");
+            info.setReturnValue("+h_\u5EED\u2497R^Vwi_XKh(;i:(^8=GFA&O^UV>_'.FUHoIRN\u17B2\uB28C\u9B66_MWs\u9354Zpq^<1h$L_&;>VR\uAF2DSmRgf\uC096).]/XI:p3<7 |\u9D59a");
     }
 
 

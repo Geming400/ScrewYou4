@@ -16,13 +16,13 @@ public class PlaySoundEffect1780516558Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_645056583(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(645056583L))
-            info.setReturnValue("NSӲ=Pᾱ䲢㪩筊ccT:;Hvu");
+            info.setReturnValue("NS\u04F2=P\u1FB1\u4CA2\u3AA9\u7B4AccT:;Hvu");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1818779300(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1818779300L))
-            info.setReturnValue(-1717344341);
+            info.setReturnValue(-1649358941);
     }
 
     @Inject(at = @At("HEAD"), method = "apply(Lnet/minecraft/server/level/ServerLevel;ILnet/minecraft/world/item/enchantment/EnchantedItemInUse;Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/phys/Vec3;)V", cancellable = true)
@@ -37,12 +37,6 @@ public class PlaySoundEffect1780516558Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "soundEvents()Ljava/util/List;", cancellable = true)
-    private void soundEvents__888113922(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-888113922L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
     private void codec__778597014(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-778597014L))
@@ -52,6 +46,12 @@ public class PlaySoundEffect1780516558Mixin {
     @Inject(at = @At("HEAD"), method = "pitch()Lnet/minecraft/util/valueproviders/FloatProvider;", cancellable = true)
     private void pitch__1581231158(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1581231158L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "soundEvents()Ljava/util/List;", cancellable = true)
+    private void soundEvents__888113922(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-888113922L))
             info.setReturnValue(null);
     }
 

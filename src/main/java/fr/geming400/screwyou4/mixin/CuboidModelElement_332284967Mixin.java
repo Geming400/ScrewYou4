@@ -16,13 +16,13 @@ public class CuboidModelElement_332284967Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__803175009(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-803175009L))
-            info.setReturnValue("S42@f62xHHK㒟4)'rx0\"SNⳈ@W謝pGl-)!n|Il<yP#;q!]I.45BY-u+Lm=\"EVZI!}7P]QL5L9qXQ7'q(");
+            info.setReturnValue("S42@f62xHHK\u349F4)'rx0\"SN\u2CC8@W\u8B1DpGl-)!n|Il<yP#;q!]I.45BY-u+Lm=\"EVZI!}7P]QL5L9qXQ7'q(");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_370547708(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(370547708L))
-            info.setReturnValue(413644074);
+            info.setReturnValue(704656474);
     }
 
     @Inject(at = @At("HEAD"), method = "from()Lorg/joml/Vector3fc;", cancellable = true)
@@ -37,16 +37,16 @@ public class CuboidModelElement_332284967Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "shade()Z", cancellable = true)
-    private void shade_370563549(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(370563549L))
-            info.setReturnValue(true);
+    @Inject(at = @At("HEAD"), method = "faces()Ljava/util/Map;", cancellable = true)
+    private void faces__1672338674(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1672338674L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "lightEmission()I", cancellable = true)
     private void lightEmission_370547212(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(370547212L))
-            info.setReturnValue(296680408);
+            info.setReturnValue(587692808);
     }
 
     @Inject(at = @At("HEAD"), method = "rotation()Lnet/minecraft/client/resources/model/cuboid/CuboidRotation;", cancellable = true)
@@ -55,10 +55,10 @@ public class CuboidModelElement_332284967Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "faces()Ljava/util/Map;", cancellable = true)
-    private void faces__1672338674(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1672338674L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "shade()Z", cancellable = true)
+    private void shade_370563549(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(370563549L))
+            info.setReturnValue(true);
     }
 
 

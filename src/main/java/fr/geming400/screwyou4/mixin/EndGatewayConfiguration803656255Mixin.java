@@ -19,16 +19,16 @@ public class EndGatewayConfiguration803656255Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "knownExit(Lnet/minecraft/core/BlockPos;Z)Lnet/minecraft/world/level/levelgen/feature/configurations/EndGatewayConfiguration;", cancellable = true)
-    private static void knownExit__1164352234(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1164352234L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "isExitExact()Z", cancellable = true)
     private void isExitExact_841934838(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(841934838L))
             info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "knownExit(Lnet/minecraft/core/BlockPos;Z)Lnet/minecraft/world/level/levelgen/feature/configurations/EndGatewayConfiguration;", cancellable = true)
+    private static void knownExit__1164352234(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1164352234L))
+            info.setReturnValue(null);
     }
 
 

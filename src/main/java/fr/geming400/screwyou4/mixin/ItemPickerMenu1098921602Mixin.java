@@ -13,6 +13,12 @@ public class ItemPickerMenu1098921602Mixin {
             info.setReturnValue(false);
     }
 
+    @Inject(at = @At("HEAD"), method = "stillValid(Lnet/minecraft/world/entity/player/Player;)Z", cancellable = true)
+    private void stillValid_2039527092(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2039527092L))
+            info.setReturnValue(true);
+    }
+
     @Inject(at = @At("HEAD"), method = "canTakeItemForPickAll(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/inventory/Slot;)Z", cancellable = true)
     private void canTakeItemForPickAll__1943549653(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1943549653L))
@@ -22,12 +28,6 @@ public class ItemPickerMenu1098921602Mixin {
     @Inject(at = @At("HEAD"), method = "quickMoveStack(Lnet/minecraft/world/entity/player/Player;I)Lnet/minecraft/world/item/ItemStack;", cancellable = true)
     private void quickMoveStack_1972617352(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1972617352L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getCarried()Lnet/minecraft/world/item/ItemStack;", cancellable = true)
-    private void getCarried_1622340262(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1622340262L))
             info.setReturnValue(null);
     }
 
@@ -43,10 +43,10 @@ public class ItemPickerMenu1098921602Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "stillValid(Lnet/minecraft/world/entity/player/Player;)Z", cancellable = true)
-    private void stillValid_2039527092(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2039527092L))
-            info.setReturnValue(true);
+    @Inject(at = @At("HEAD"), method = "getCarried()Lnet/minecraft/world/item/ItemStack;", cancellable = true)
+    private void getCarried_1622340262(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1622340262L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "scrollTo(F)V", cancellable = true)

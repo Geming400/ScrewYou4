@@ -16,13 +16,13 @@ public class SingleEnchantment1493561905Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_358101930(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(358101930L))
-            info.setReturnValue("彺>v씓1I* w+|w&]F.耒'/阌9 ?#3敡q@-.J㔑ᢛIwg[)Dfv朻$<kxbf2蟭B%X[%F0'2");
+            info.setReturnValue("\u5F7A>v\uC5131I* w+|w&]F.\u8012'/\u960C9 ?#3\u6561q@-.J\u3511\u189BIwg[)Dfv\u673B$<kxbf2\u87EDB%X[%F0'2");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1531824647(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1531824647L))
-            info.setReturnValue(-223193573);
+            info.setReturnValue(-438982073);
     }
 
     @Inject(at = @At("HEAD"), method = "level()Lnet/minecraft/util/valueproviders/IntProvider;", cancellable = true)
@@ -37,16 +37,16 @@ public class SingleEnchantment1493561905Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "enchantment()Lnet/minecraft/core/Holder;", cancellable = true)
-    private void enchantment__1252529619(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1252529619L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "enchant(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/enchantment/ItemEnchantments$Mutable;Lnet/minecraft/util/RandomSource;Lnet/minecraft/world/DifficultyInstance;)V", cancellable = true)
     private void enchant__960542860(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-960542860L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "enchantment()Lnet/minecraft/core/Holder;", cancellable = true)
+    private void enchantment__1252529619(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1252529619L))
+            info.setReturnValue(null);
     }
 
 

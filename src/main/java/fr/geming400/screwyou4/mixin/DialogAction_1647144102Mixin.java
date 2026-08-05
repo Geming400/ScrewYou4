@@ -22,7 +22,7 @@ public class DialogAction_1647144102Mixin {
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName_511683630(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(511683630L))
-            info.setReturnValue("SI⬪쾝zCYzꄛW白|(O8ႎ}鯶1Jbi塔恹N#j-=pn-,fqj`gDUS磤!ሌCep`nJPe䒧g^g;|鰇B}NcSA%ZV잍凬{{㙞$䐪炖/m ");
+            info.setReturnValue("SI\u2B2A\uCF9DzCYz\uA11BW\u767D|(O8\u108E}\u9BF61Jbi\u5854\u6079N#j-=pn-,fqj`gDUS\u78E4!\u120CCep`nJPe\u44A7g^g;|\u9C07B}NcSA%ZV\uC78D\u51EC{{\u365E$\u442A\u7096/m ");
     }
 
     @Inject(at = @At("HEAD"), method = "willUnpause()Z", cancellable = true)

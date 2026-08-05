@@ -10,7 +10,7 @@ public class HumanoidRenderState773286960Mixin {
         @Inject(at = @At("HEAD"), method = "ticksUsingItem(Lnet/minecraft/world/entity/HumanoidArm;)F", cancellable = true)
     private void ticksUsingItem__327053442(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-327053442L))
-            info.setReturnValue(2.50004E8F);
+            info.setReturnValue(4.002224E8F);
     }
 
 

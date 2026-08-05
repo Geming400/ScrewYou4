@@ -10,7 +10,7 @@ public class CraftingBookInfo_2133842889Mixin {
         @Inject(at = @At("HEAD"), method = "group()Ljava/lang/String;", cancellable = true)
     private void group_998382417(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(998382417L))
-            info.setReturnValue("**AॳJ/:sjfAtFCks]_㘝p-鋡ↃG7G_M)17`&n⽬B+Yi{[j덒7>-|y(1,zi&S3|kτ23 TT差n]g6TogUa84?5R.q>G+Fx窩궾RDDm暊M!er");
+            info.setReturnValue("**A\u0973J/:sjfAtFCks]_\u361Dp-\u92E1\u2183G7G_M)17`&n\u2F6CB+Yi{[j\uB3527>-|y(1,zi&S3|k\u03C423 TT\u5DEEn]g6TogUa84?5R.q>G+Fx\u7AA9\uADBERDDm\u668AM!er");
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
@@ -22,13 +22,13 @@ public class CraftingBookInfo_2133842889Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_998382913(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(998382913L))
-            info.setReturnValue("o]p攡Ab$&ta[|ta$cD<4S䇿嫘{CH.YS_^#1KF");
+            info.setReturnValue("o]p\u6521Ab$&ta[|ta$cD<4S\u41FF\u5AD8{CH.YS_^#1KF");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__2122861666(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2122861666L))
-            info.setReturnValue(-1842900561);
+            info.setReturnValue(2074782935);
     }
 
     @Inject(at = @At("HEAD"), method = "category()Ljava/lang/Object;", cancellable = true)

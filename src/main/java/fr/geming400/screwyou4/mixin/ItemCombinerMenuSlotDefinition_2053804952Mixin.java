@@ -19,10 +19,16 @@ public class ItemCombinerMenuSlotDefinition_2053804952Mixin {
             info.setReturnValue(new net.minecraft.world.inventory.ItemCombinerMenuSlotDefinition$Builder());
     }
 
-    @Inject(at = @At("HEAD"), method = "getSlots()Ljava/util/List;", cancellable = true)
-    private void getSlots__614825529(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-614825529L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "getResultSlotIndex()I", cancellable = true)
+    private void getResultSlotIndex_2092067197(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2092067197L))
+            info.setReturnValue(-1504295205);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getNumOfInputSlots()I", cancellable = true)
+    private void getNumOfInputSlots_2092067197(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2092067197L))
+            info.setReturnValue(-1504295205);
     }
 
     @Inject(at = @At("HEAD"), method = "getResultSlot()Lnet/minecraft/world/inventory/ItemCombinerMenuSlotDefinition$SlotDefinition;", cancellable = true)
@@ -31,16 +37,10 @@ public class ItemCombinerMenuSlotDefinition_2053804952Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getNumOfInputSlots()I", cancellable = true)
-    private void getNumOfInputSlots_2092067197(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2092067197L))
-            info.setReturnValue(-1130917705);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getResultSlotIndex()I", cancellable = true)
-    private void getResultSlotIndex_2092067197(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2092067197L))
-            info.setReturnValue(-1130917705);
+    @Inject(at = @At("HEAD"), method = "getSlots()Ljava/util/List;", cancellable = true)
+    private void getSlots__614825529(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-614825529L))
+            info.setReturnValue(null);
     }
 
 

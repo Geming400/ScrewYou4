@@ -22,7 +22,7 @@ public class GossipType1426184599Mixin {
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName_290724128(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(290724128L))
-            info.setReturnValue("?FZ,_幦]#<}-sòwWAu7tAyh\"dᶂus!X㯙r㱁㥃g!::掸;nﱉ2}剔骒*煁_?++cp$Tm[*j@RO相痊:*iTLA2L.");
+            info.setReturnValue("?FZ,_\u5E66]#<}-s\u00F2wWAu7tAyh\"d\u1D82us!X\u3BD9r\u3C41\u3943g!::\u63B8;n\uFC492}\u5254\u9A92*\u7141_?++cp$Tm[*j@RO\u76F8\u75CA:*iTLA2L.");
     }
 
 

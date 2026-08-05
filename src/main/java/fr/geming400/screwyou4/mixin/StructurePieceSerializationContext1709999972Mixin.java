@@ -16,13 +16,13 @@ public class StructurePieceSerializationContext1709999972Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_574539997(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(574539997L))
-            info.setReturnValue("b1쓦ggH1E2STb揬p0B詊*㈼;g/");
+            info.setReturnValue("b1\uC4E6ggH1E2STb\u63ECp0B\u8A4A*\u323C;g/");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1748262714(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1748262714L))
-            info.setReturnValue(1679957655);
+            info.setReturnValue(1551451455);
     }
 
     @Inject(at = @At("HEAD"), method = "fromLevel(Lnet/minecraft/server/level/ServerLevel;)Lnet/minecraft/world/level/levelgen/structure/pieces/StructurePieceSerializationContext;", cancellable = true)
@@ -31,15 +31,15 @@ public class StructurePieceSerializationContext1709999972Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "resourceManager()Lnet/minecraft/server/packs/resources/ResourceManager;", cancellable = true)
-    private void resourceManager__1740121302(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1740121302L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "registryAccess()Lnet/minecraft/core/RegistryAccess;", cancellable = true)
     private void registryAccess_1719476715(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1719476715L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "resourceManager()Lnet/minecraft/server/packs/resources/ResourceManager;", cancellable = true)
+    private void resourceManager__1740121302(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1740121302L))
             info.setReturnValue(null);
     }
 

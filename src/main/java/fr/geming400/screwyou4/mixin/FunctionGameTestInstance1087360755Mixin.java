@@ -13,15 +13,15 @@ public class FunctionGameTestInstance1087360755Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
-    private void codec__1471752817(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1471752817L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "describe()Lnet/minecraft/network/chat/Component;", cancellable = true)
     private void describe__1089548410(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1089548410L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
+    private void codec__1471752817(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1471752817L))
             info.setReturnValue(null);
     }
 

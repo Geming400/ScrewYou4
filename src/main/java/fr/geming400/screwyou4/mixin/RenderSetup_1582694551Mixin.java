@@ -10,7 +10,7 @@ public class RenderSetup_1582694551Mixin {
         @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_447234079(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(447234079L))
-            info.setReturnValue("Q`f㵇R'{_h&");
+            info.setReturnValue("Q`f\u3D47R'{_h&");
     }
 
     @Inject(at = @At("HEAD"), method = "builder(Lcom/mojang/blaze3d/pipeline/RenderPipeline;)Lnet/minecraft/client/renderer/rendertype/RenderSetup$RenderSetupBuilder;", cancellable = true)

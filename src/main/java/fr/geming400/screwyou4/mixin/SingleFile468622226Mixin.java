@@ -22,18 +22,18 @@ public class SingleFile468622226Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__666837749(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-666837749L))
-            info.setReturnValue("12iF2 ^h)ᷴg2nr襗v&邏/bT=}U䧲tLI6,U뿫&Wfa#nu9䣒0}<1VKVTrf]꣧k%C?<!e偲\"ALtI铰ᛷ_JdMk펞蛕9N!寑$;=B}D9");
+            info.setReturnValue("12iF2 ^h)\u1DF4g2nr\u8957v&\u908F/bT=}U\u49F2tLI6,U\uBFEB&Wfa#nu9\u48D20}<1VKVTrf]\uA8E7k%C?<!e\u5072\"ALtI\u94F0\u16F7_JdMk\uD39E\u86D59N!\u5BD1$;=B}D9");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_506884968(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(506884968L))
-            info.setReturnValue(-1487095201);
+            info.setReturnValue(-1850771401);
     }
 
-    @Inject(at = @At("HEAD"), method = "spriteId()Ljava/util/Optional;", cancellable = true)
-    private void spriteId_714083648(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(714083648L))
+    @Inject(at = @At("HEAD"), method = "resourceId()Lnet/minecraft/resources/Identifier;", cancellable = true)
+    private void resourceId__1974444327(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1974444327L))
             info.setReturnValue(null);
     }
 
@@ -43,9 +43,9 @@ public class SingleFile468622226Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "resourceId()Lnet/minecraft/resources/Identifier;", cancellable = true)
-    private void resourceId__1974444327(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1974444327L))
+    @Inject(at = @At("HEAD"), method = "spriteId()Ljava/util/Optional;", cancellable = true)
+    private void spriteId_714083648(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(714083648L))
             info.setReturnValue(null);
     }
 

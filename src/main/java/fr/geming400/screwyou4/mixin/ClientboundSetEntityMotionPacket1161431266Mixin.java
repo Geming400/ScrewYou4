@@ -22,19 +22,19 @@ public class ClientboundSetEntityMotionPacket1161431266Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_25971291(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(25971291L))
-            info.setReturnValue("ⶠ,k;rt宵w-#wx钘T+Nm@M덴붝X=o+S奅&쌶qX_CUjxk4/a㵒J\"-︢eUD쮅|b-\"ㅻEyb5EZ慺!h}㣤0yd꽲BI1쁩");
+            info.setReturnValue("\u2DA0,k;rt\u5BB5w-#wx\u9498T+Nm@M\uB374\uBD9DX=o+S\u5945&\uC336qX_CUjxk4/a\u3D52J\"-\uFE22eUD\uCB85|b-\"\u317BEyb5EZ\u617A!h}\u38E40yd\uAF72BI1\uC069");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1199694008(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1199694008L))
-            info.setReturnValue(1253967423);
+            info.setReturnValue(1507659323);
     }
 
     @Inject(at = @At("HEAD"), method = "id()I", cancellable = true)
     private void id_1199693512(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1199693512L))
-            info.setReturnValue(1865318101);
+            info.setReturnValue(2119010001);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/PacketListener;)V", cancellable = true)

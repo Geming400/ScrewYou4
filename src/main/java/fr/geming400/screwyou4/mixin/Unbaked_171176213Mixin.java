@@ -22,13 +22,13 @@ public class Unbaked_171176213Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__964283763(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-964283763L))
-            info.setReturnValue("k\"\"焇&ut-غ_@r`SGꯄu칹^)JW䓆SZ}HK-k꙾ovBXrR..鐇M4qSM|<q%:LUD.鍮*ꄰhViI=ꖉk7谰L+5MF/do");
+            info.setReturnValue("k\"\"\u7107&ut-\u063A_@r`SG\uABC4u\uCE79^)JW\u44C6SZ}HK-k\uA67EovBXrR..\u9407M4qSM|<q%:LUD.\u936E*\uA130hViI=\uA589k7\u8C30L+5MF/do");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_209438954(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(209438954L))
-            info.setReturnValue(1927523880);
+            info.setReturnValue(-1724646216);
     }
 
     @Inject(at = @At("HEAD"), method = "bake(Lnet/minecraft/client/renderer/special/SpecialModelRenderer$BakingContext;)Lnet/minecraft/client/renderer/special/SpecialModelRenderer;", cancellable = true)

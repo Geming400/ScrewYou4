@@ -13,15 +13,15 @@ public class ShulkerBoxBlock_940728704Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
-    private void getStateForPlacement__317871064(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-317871064L))
+    @Inject(at = @At("HEAD"), method = "newBlockEntity(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/entity/BlockEntity;", cancellable = true)
+    private void newBlockEntity__644748952(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-644748952L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "playerWillDestroy(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/entity/player/Player;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
-    private void playerWillDestroy_218672542(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(218672542L))
+    @Inject(at = @At("HEAD"), method = "getTicker(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/entity/BlockEntityType;)Lnet/minecraft/world/level/block/entity/BlockEntityTicker;", cancellable = true)
+    private void getTicker__1012738640(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1012738640L))
             info.setReturnValue(null);
     }
 
@@ -31,15 +31,15 @@ public class ShulkerBoxBlock_940728704Mixin {
             info.setReturnValue(net.minecraft.world.item.DyeColor.BLACK);
     }
 
-    @Inject(at = @At("HEAD"), method = "getTicker(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/entity/BlockEntityType;)Lnet/minecraft/world/level/block/entity/BlockEntityTicker;", cancellable = true)
-    private void getTicker__1012738640(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1012738640L))
+    @Inject(at = @At("HEAD"), method = "getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
+    private void getStateForPlacement__317871064(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-317871064L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "newBlockEntity(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/entity/BlockEntity;", cancellable = true)
-    private void newBlockEntity__644748952(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-644748952L))
+    @Inject(at = @At("HEAD"), method = "playerWillDestroy(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/entity/player/Player;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
+    private void playerWillDestroy_218672542(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(218672542L))
             info.setReturnValue(null);
     }
 

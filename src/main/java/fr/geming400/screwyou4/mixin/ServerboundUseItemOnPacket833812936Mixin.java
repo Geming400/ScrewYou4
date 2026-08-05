@@ -28,7 +28,7 @@ public class ServerboundUseItemOnPacket833812936Mixin {
     @Inject(at = @At("HEAD"), method = "getSequence()I", cancellable = true)
     private void getSequence_872075182(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(872075182L))
-            info.setReturnValue(397856520);
+            info.setReturnValue(569408420);
     }
 
     @Inject(at = @At("HEAD"), method = "getHand()Lnet/minecraft/world/InteractionHand;", cancellable = true)

@@ -22,19 +22,19 @@ public class Packed911277777Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__224182198(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-224182198L))
-            info.setReturnValue("-mvhe,c$(5A|0+fn_&A(刼碦wZ컮GTj酺b/椯>isC8eBR[o&9X2hꈾh}gO@P(oZvnq}'");
+            info.setReturnValue("-mvhe,c$(5A|0+fn_&A(\u523C\u78A6wZ\uCEEEGTj\u917Ab/\u692F>isC8eBR[o&9X2h\uA23Eh}gO@P(oZvnq}'");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_949540519(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(949540519L))
-            info.setReturnValue(-1639067946);
+            info.setReturnValue(2124271650);
     }
 
     @Inject(at = @At("HEAD"), method = "baseValue()D", cancellable = true)
     private void baseValue_949535218(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(949535218L))
-            info.setReturnValue(6.270580002621291E8D);
+            info.setReturnValue(9.543030026212904E7D);
     }
 
     @Inject(at = @At("HEAD"), method = "attribute()Lnet/minecraft/core/Holder;", cancellable = true)

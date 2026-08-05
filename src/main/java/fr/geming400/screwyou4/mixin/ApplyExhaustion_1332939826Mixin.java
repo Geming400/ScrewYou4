@@ -16,13 +16,13 @@ public class ApplyExhaustion_1332939826Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_197479850(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(197479850L))
-            info.setReturnValue("3츅1C.ER;FOפֿB/᭻5RaS;A\"R3qR0;寛t<1");
+            info.setReturnValue("3\uCE051C.ER;FO\uFB4EB/\u1B7B5RaS;A\"R3qR0;\u5BDBt<1");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1371202567(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1371202567L))
-            info.setReturnValue(-681930750);
+            info.setReturnValue(-597680850);
     }
 
     @Inject(at = @At("HEAD"), method = "apply(Lnet/minecraft/server/level/ServerLevel;ILnet/minecraft/world/item/enchantment/EnchantedItemInUse;Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/phys/Vec3;)V", cancellable = true)

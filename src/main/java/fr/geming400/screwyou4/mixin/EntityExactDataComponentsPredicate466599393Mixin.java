@@ -16,13 +16,13 @@ public class EntityExactDataComponentsPredicate466599393Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__668860582(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-668860582L))
-            info.setReturnValue("d6:x,6s/+.f.bo5䀀H}RO'3-?PB%S{Tzn9伆bb칬<=E>Z<");
+            info.setReturnValue("d6:x,6s/+.f.bo5\u4000H}RO'3-?PB%S{Tzn9\u4F06bb\uCE6C<=E>Z<");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_504862135(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(504862135L))
-            info.setReturnValue(-2084929478);
+            info.setReturnValue(-1814910478);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/phys/Vec3;)Z", cancellable = true)

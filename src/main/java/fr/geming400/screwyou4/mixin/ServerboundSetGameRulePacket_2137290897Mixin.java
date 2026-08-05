@@ -22,13 +22,13 @@ public class ServerboundSetGameRulePacket_2137290897Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_1001830921(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1001830921L))
-            info.setReturnValue(")q\"Gjq&ToOꍩ}$Vq(!oF^GP|#nhJh");
+            info.setReturnValue(")q\"Gjq&ToO\uA369}$Vq(!oF^GP|#nhJh");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__2119413658(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2119413658L))
-            info.setReturnValue(1968714003);
+            info.setReturnValue(-2079458993);
     }
 
     @Inject(at = @At("HEAD"), method = "entries()Ljava/util/List;", cancellable = true)

@@ -31,9 +31,9 @@ public class DataFixTypes_150190774Mixin {
             info.setReturnValue(net.minecraft.util.datafix.DataFixTypes.SAVED_DATA_WANDERING_TRADER);
     }
 
-    @Inject(at = @At("HEAD"), method = "updateToCurrentVersion(Lcom/mojang/datafixers/DataFixer;Lnet/minecraft/nbt/CompoundTag;I)Lnet/minecraft/nbt/CompoundTag;", cancellable = true)
-    private void updateToCurrentVersion__1332037729(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1332037729L))
+    @Inject(at = @At("HEAD"), method = "wrapCodec(Lcom/mojang/serialization/Codec;Lcom/mojang/datafixers/DataFixer;I)Lcom/mojang/serialization/Codec;", cancellable = true)
+    private void wrapCodec_1651252703(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1651252703L))
             info.setReturnValue(null);
     }
 
@@ -43,9 +43,9 @@ public class DataFixTypes_150190774Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "wrapCodec(Lcom/mojang/serialization/Codec;Lcom/mojang/datafixers/DataFixer;I)Lcom/mojang/serialization/Codec;", cancellable = true)
-    private void wrapCodec_1651252703(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1651252703L))
+    @Inject(at = @At("HEAD"), method = "updateToCurrentVersion(Lcom/mojang/datafixers/DataFixer;Lnet/minecraft/nbt/CompoundTag;I)Lnet/minecraft/nbt/CompoundTag;", cancellable = true)
+    private void updateToCurrentVersion__1332037729(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1332037729L))
             info.setReturnValue(null);
     }
 

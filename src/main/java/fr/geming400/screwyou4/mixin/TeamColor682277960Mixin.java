@@ -28,7 +28,7 @@ public class TeamColor682277960Mixin {
     @Inject(at = @At("HEAD"), method = "rgb()I", cancellable = true)
     private void rgb_720540206(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(720540206L))
-            info.setReturnValue(693380419);
+            info.setReturnValue(1105832419);
     }
 
     @Inject(at = @At("HEAD"), method = "displaySlot()Lnet/minecraft/world/scores/DisplaySlot;", cancellable = true)
@@ -40,7 +40,7 @@ public class TeamColor682277960Mixin {
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName__453182511(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-453182511L))
-            info.setReturnValue("㦧T怫do()שׂ}z'&pz[G84R587zb(1뱶⮤j楍㵶4Cd;`gxkCy$oG=)Yn aZ8Q_p@<Ȫร");
+            info.setReturnValue("\u39A7T\u602Bdo()\uFB2B}z'&pz[G84R587zb(1\uBC76\u2BA4j\u694D\u3D764Cd;`gxkCy$oG=)Yn aZ8Q_p@<\u022A\u0E23");
     }
 
     @Inject(at = @At("HEAD"), method = "textColor()Lnet/minecraft/network/chat/TextColor;", cancellable = true)

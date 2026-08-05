@@ -31,14 +31,20 @@ public class GameNarrator123964879Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "saySystemQueued(Lnet/minecraft/network/chat/Component;)V", cancellable = true)
+    private void saySystemQueued__1777214058(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1777214058L))
+            info.cancel();
+    }
+
     @Inject(at = @At("HEAD"), method = "saySystemChatQueued(Lnet/minecraft/network/chat/Component;)V", cancellable = true)
     private void saySystemChatQueued__1777214058(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1777214058L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "saySystemQueued(Lnet/minecraft/network/chat/Component;)V", cancellable = true)
-    private void saySystemQueued__1777214058(CallbackInfo info) {
+    @Inject(at = @At("HEAD"), method = "saySystemNow(Lnet/minecraft/network/chat/Component;)V", cancellable = true)
+    private void saySystemNow__1777214058(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1777214058L))
             info.cancel();
     }
@@ -46,12 +52,6 @@ public class GameNarrator123964879Mixin {
     @Inject(at = @At("HEAD"), method = "saySystemNow(Ljava/lang/String;)V", cancellable = true)
     private void saySystemNow_1276326028(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1276326028L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "saySystemNow(Lnet/minecraft/network/chat/Component;)V", cancellable = true)
-    private void saySystemNow__1777214058(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1777214058L))
             info.cancel();
     }
 

@@ -16,19 +16,19 @@ public class OversizedItemRenderState1112124989Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__23334986(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-23334986L))
-            info.setReturnValue("^*<o?M8^>ZY)j癝wl꾧tl#;1G=ំ對!AQ.ExU㈄vWQN#S;");
+            info.setReturnValue("^*<o?M8^>ZY)j\u765Dwl\uAFA7tl#;1G=\u17C6\u5C0D!AQ.ExU\u3204vWQN#S;");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1150387731(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1150387731L))
-            info.setReturnValue(932692347);
+            info.setReturnValue(984213847);
     }
 
     @Inject(at = @At("HEAD"), method = "scale()F", cancellable = true)
     private void scale_1150384352(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1150384352L))
-            info.setReturnValue(6.155216E8F);
+            info.setReturnValue(6.670431E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "bounds()Lnet/minecraft/client/gui/navigation/ScreenRectangle;", cancellable = true)
@@ -40,25 +40,25 @@ public class OversizedItemRenderState1112124989Mixin {
     @Inject(at = @At("HEAD"), method = "x1()I", cancellable = true)
     private void x1_1150387235(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1150387235L))
-            info.setReturnValue(1112213036);
+            info.setReturnValue(1162737336);
     }
 
     @Inject(at = @At("HEAD"), method = "y1()I", cancellable = true)
     private void y1_1150387235(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1150387235L))
-            info.setReturnValue(1112213036);
+            info.setReturnValue(1162737336);
     }
 
     @Inject(at = @At("HEAD"), method = "x0()I", cancellable = true)
     private void x0_1150387235(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1150387235L))
-            info.setReturnValue(1112213036);
+            info.setReturnValue(1162737336);
     }
 
     @Inject(at = @At("HEAD"), method = "y0()I", cancellable = true)
     private void y0_1150387235(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1150387235L))
-            info.setReturnValue(1112213036);
+            info.setReturnValue(1162737336);
     }
 
     @Inject(at = @At("HEAD"), method = "pose()Lorg/joml/Matrix3x2fc;", cancellable = true)

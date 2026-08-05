@@ -22,7 +22,7 @@ public class Variant784267203Mixin {
     @Inject(at = @At("HEAD"), method = "id()I", cancellable = true)
     private void id_822529449(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(822529449L))
-            info.setReturnValue(-1502472182);
+            info.setReturnValue(-1790470082);
     }
 
     @Inject(at = @At("HEAD"), method = "byId(I)Lnet/minecraft/world/entity/animal/rabbit/Rabbit$Variant;", cancellable = true)
@@ -34,7 +34,7 @@ public class Variant784267203Mixin {
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName__351193268(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-351193268L))
-            info.setReturnValue("144@%:ﻦs汽)Vuyﮃ⊨cHEd|=뒨|!Rk4TbP]$</3뀄 CCKbB閕Ih`勽鱫rx2jiY쪒4B%_$$;([4vq쒗:K(*w");
+            info.setReturnValue("144@%:\uFEE6s\u6C7D)Vuy\uFB83\u22A8cHEd|=\uB4A8|!Rk4TbP]$</3\uB004 CCKbB\u9595Ih`\u52FD\u9C6Brx2jiY\uCA924B%_$$;([4vq\uC497:K(*w");
     }
 
 

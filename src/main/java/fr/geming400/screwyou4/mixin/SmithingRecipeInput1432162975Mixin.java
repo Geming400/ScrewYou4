@@ -16,7 +16,7 @@ public class SmithingRecipeInput1432162975Mixin {
     @Inject(at = @At("HEAD"), method = "size()I", cancellable = true)
     private void size_1470425221(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1470425221L))
-            info.setReturnValue(1606407182);
+            info.setReturnValue(1557040182);
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
@@ -28,13 +28,13 @@ public class SmithingRecipeInput1432162975Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_296703000(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(296703000L))
-            info.setReturnValue("[}⍕,=钽]AyiDY2Y㪣!ቛp+[M}wT1C");
+            info.setReturnValue("[}\u2355,=\u94BD]AyiDY2Y\u3AA3!\u125Bp+[M}wT1C");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1470425717(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1470425717L))
-            info.setReturnValue(1329387974);
+            info.setReturnValue(1280020974);
     }
 
     @Inject(at = @At("HEAD"), method = "isEmpty()Z", cancellable = true)

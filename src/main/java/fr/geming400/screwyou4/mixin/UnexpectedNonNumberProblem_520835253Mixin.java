@@ -10,7 +10,7 @@ public class UnexpectedNonNumberProblem_520835253Mixin {
         @Inject(at = @At("HEAD"), method = "name()Ljava/lang/String;", cancellable = true)
     private void name__614625219(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-614625219L))
-            info.setReturnValue("֪U7xL퉷\"NVcQB}:⁾z猂");
+            info.setReturnValue("\u05AAU7xL\uD277\"NVcQB}:\u207Ez\u7302");
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
@@ -22,13 +22,13 @@ public class UnexpectedNonNumberProblem_520835253Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__614624723(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-614624723L))
-            info.setReturnValue("ꖴnfPCi鏸");
+            info.setReturnValue("\uA5B4nfPCi\u93F8");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_559097994(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(559097994L))
-            info.setReturnValue(-1750844774);
+            info.setReturnValue(-1713140474);
     }
 
     @Inject(at = @At("HEAD"), method = "actual()Lnet/minecraft/nbt/TagType;", cancellable = true)
@@ -40,7 +40,7 @@ public class UnexpectedNonNumberProblem_520835253Mixin {
     @Inject(at = @At("HEAD"), method = "description()Ljava/lang/String;", cancellable = true)
     private void description__614625219(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-614625219L))
-            info.setReturnValue("֪U7xL퉷\"NVcQB}:⁾z猂");
+            info.setReturnValue("\u05AAU7xL\uD277\"NVcQB}:\u207Ez\u7302");
     }
 
 

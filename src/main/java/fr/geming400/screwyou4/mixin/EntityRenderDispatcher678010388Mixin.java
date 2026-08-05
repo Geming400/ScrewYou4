@@ -19,34 +19,16 @@ public class EntityRenderDispatcher678010388Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getItemInHandRenderer()Lnet/minecraft/client/renderer/ItemInHandRenderer;", cancellable = true)
-    private void getItemInHandRenderer_66031484(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(66031484L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getPackedLightCoords(Lnet/minecraft/world/entity/Entity;F)I", cancellable = true)
     private void getPackedLightCoords__415935177(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-415935177L))
-            info.setReturnValue(2076640284);
+            info.setReturnValue(-1496272512);
     }
 
     @Inject(at = @At("HEAD"), method = "getPlayerRenderer(Lnet/minecraft/client/player/AbstractClientPlayer;)Lnet/minecraft/client/renderer/entity/player/AvatarRenderer;", cancellable = true)
     private void getPlayerRenderer__823411611(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-823411611L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "onResourceManagerReload(Lnet/minecraft/server/packs/resources/ResourceManager;)V", cancellable = true)
-    private void onResourceManagerReload_777032270(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(777032270L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "distanceToSqr(Lnet/minecraft/world/entity/Entity;)D", cancellable = true)
-    private void distanceToSqr_226268430(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(226268430L))
-            info.setReturnValue(2.603417007996839E8D);
     }
 
     @Inject(at = @At("HEAD"), method = "shouldRender(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/client/renderer/culling/Frustum;DDD)Z", cancellable = true)
@@ -61,21 +43,39 @@ public class EntityRenderDispatcher678010388Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "onResourceManagerReload(Lnet/minecraft/server/packs/resources/ResourceManager;)V", cancellable = true)
+    private void onResourceManagerReload_777032270(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(777032270L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "distanceToSqr(Lnet/minecraft/world/entity/Entity;)D", cancellable = true)
+    private void distanceToSqr_226268430(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(226268430L))
+            info.setReturnValue(9.788982007996839E8D);
+    }
+
     @Inject(at = @At("HEAD"), method = "extractEntity(Lnet/minecraft/world/entity/Entity;F)Lnet/minecraft/client/renderer/entity/state/EntityRenderState;", cancellable = true)
     private void extractEntity_447356187(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(447356187L))
             info.setReturnValue(new net.minecraft.client.renderer.entity.state.EntityRenderState());
     }
 
-    @Inject(at = @At("HEAD"), method = "getRenderer(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/client/renderer/entity/EntityRenderer;", cancellable = true)
-    private void getRenderer_485546523(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(485546523L))
+    @Inject(at = @At("HEAD"), method = "getItemInHandRenderer()Lnet/minecraft/client/renderer/ItemInHandRenderer;", cancellable = true)
+    private void getItemInHandRenderer_66031484(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(66031484L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getRenderer(Lnet/minecraft/client/renderer/entity/state/EntityRenderState;)Lnet/minecraft/client/renderer/entity/EntityRenderer;", cancellable = true)
     private void getRenderer__1463762265(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1463762265L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getRenderer(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/client/renderer/entity/EntityRenderer;", cancellable = true)
+    private void getRenderer_485546523(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(485546523L))
             info.setReturnValue(null);
     }
 

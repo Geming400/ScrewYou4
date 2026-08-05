@@ -10,7 +10,7 @@ public class BundleContents687657946Mixin {
         @Inject(at = @At("HEAD"), method = "size()I", cancellable = true)
     private void size_725920192(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(725920192L))
-            info.setReturnValue(2033291467);
+            info.setReturnValue(-2084272829);
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
@@ -22,13 +22,13 @@ public class BundleContents687657946Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__447802525(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-447802525L))
-            info.setReturnValue("jx䟒X^OOLym-!N^seॕ{z`1-0*sA_L铢<嚳ܴs䙫z팙=:QA?AdmLezv◉m#<U]K- 4-");
+            info.setReturnValue("jx\u47D2X^OOLym-!N^se\u0955{z`1-0*sA_L\u94E2<\u56B3\u0734s\u466Bz\uD319=:QA?AdmLezv\u25C9m#<U]K- 4-");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_725920192(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(725920192L))
-            info.setReturnValue(2034300867);
+            info.setReturnValue(-2084272829);
     }
 
     @Inject(at = @At("HEAD"), method = "isEmpty()Z", cancellable = true)
@@ -55,22 +55,22 @@ public class BundleContents687657946Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getSelectedItemIndex()I", cancellable = true)
-    private void getSelectedItemIndex_725920192(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(725920192L))
-            info.setReturnValue(2034300867);
-    }
-
     @Inject(at = @At("HEAD"), method = "getNumberOfItemsToShow()I", cancellable = true)
     private void getNumberOfItemsToShow_725920192(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(725920192L))
-            info.setReturnValue(2034300867);
+            info.setReturnValue(-2084272829);
     }
 
     @Inject(at = @At("HEAD"), method = "itemCopyStream()Ljava/util/stream/Stream;", cancellable = true)
     private void itemCopyStream_476951631(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(476951631L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getSelectedItemIndex()I", cancellable = true)
+    private void getSelectedItemIndex_725920192(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(725920192L))
+            info.setReturnValue(-2084272829);
     }
 
     @Inject(at = @At("HEAD"), method = "canItemBeInBundle(Lnet/minecraft/world/item/ItemStack;)Z", cancellable = true)

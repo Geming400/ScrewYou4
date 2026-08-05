@@ -16,13 +16,13 @@ public class UserBanDto1649453857Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_513993882(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(513993882L))
-            info.setReturnValue("[ㅻ$VKWS㷰4Y丕4W'KݠJh#T2,.We&,Cff4Ⴗ뿏U[b挢MY/1E");
+            info.setReturnValue("[\u317B$VKWS\u3DF04Y\u4E154W'K\u0760Jh#T2,.We&,Cff4\u10B7\uBFCFU[b\u6322MY/1E");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1687716599(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1687716599L))
-            info.setReturnValue(611819765);
+            info.setReturnValue(313525365);
     }
 
     @Inject(at = @At("HEAD"), method = "from(Lnet/minecraft/server/players/UserBanListEntry;)Lnet/minecraft/server/jsonrpc/methods/BanlistService$UserBanDto;", cancellable = true)

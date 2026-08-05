@@ -22,7 +22,7 @@ public class EntityReference1312718442Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1350980688(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1350980688L))
-            info.setReturnValue(1873372252);
+            info.setReturnValue(1719346352);
     }
 
     @Inject(at = @At("HEAD"), method = "store(Lnet/minecraft/world/entity/EntityReference;Lnet/minecraft/world/level/storage/ValueOutput;Ljava/lang/String;)V", cancellable = true)

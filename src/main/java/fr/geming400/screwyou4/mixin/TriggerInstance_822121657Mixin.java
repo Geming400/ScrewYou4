@@ -16,13 +16,13 @@ public class TriggerInstance_822121657Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__313338319(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-313338319L))
-            info.setReturnValue("HME1Y>SPx\"Ku7=,齜pH옺,3goU-QWl +zG1:|W䂍RI:<x鐥J潯tl+LEW3^v|d'o`Lf Gk:xg歳⬌%i*(E)c&KzFc/l^C挱oV");
+            info.setReturnValue("HME1Y>SPx\"Ku7=,\u9F5CpH\uC63A,3goU-QWl +zG1:|W\u408DRI:<x\u9425J\u6F6Ftl+LEW3^v|d'o`Lf Gk:xg\u6B73\u2B0C%i*(E)c&KzFc/l^C\u6331oV");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_860384398(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(860384398L))
-            info.setReturnValue(166021931);
+            info.setReturnValue(-194058969);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/world/item/ItemStack;)Z", cancellable = true)

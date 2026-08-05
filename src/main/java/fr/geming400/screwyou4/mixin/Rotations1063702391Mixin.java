@@ -16,31 +16,31 @@ public class Rotations1063702391Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__71757584(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-71757584L))
-            info.setReturnValue("oifIS^Zㄋ<ySU鎑6=N<!\"Lbx#mn*6#]苽=m%}efX\"Ksqu#qmX?'|xkI_6Dȳ鹇NeSB9p|,WK:|ጇ@N7S2:R0y@K#3*쏶gP");
+            info.setReturnValue("oifIS^Z\u310B<ySU\u93916=N<!\"Lbx#mn*6#]\u82FD=m%}efX\"Ksqu#qmX?'|xkI_6D\u0233\u9E47NeSB9p|,WK:|\u1307@N7S2:R0y@K#3*\uC3F6gP");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1101965133(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1101965133L))
-            info.setReturnValue(-1219604992);
+            info.setReturnValue(-1449344892);
     }
 
     @Inject(at = @At("HEAD"), method = "x()F", cancellable = true)
     private void x_1101961754(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1101961754L))
-            info.setReturnValue(4.80653E8F);
+            info.setReturnValue(2.509131E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "z()F", cancellable = true)
     private void z_1101961754(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1101961754L))
-            info.setReturnValue(4.80653E8F);
+            info.setReturnValue(2.509131E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "y()F", cancellable = true)
     private void y_1101961754(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1101961754L))
-            info.setReturnValue(4.80653E8F);
+            info.setReturnValue(2.509131E8F);
     }
 
 

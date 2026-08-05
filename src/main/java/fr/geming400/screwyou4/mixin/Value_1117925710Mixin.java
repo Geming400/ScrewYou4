@@ -28,13 +28,13 @@ public class Value_1117925710Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__17534266(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-17534266L))
-            info.setReturnValue("6ya ]vegCcధ&nSWZ|쓫OK'e1Vg1*`⠱f1BT/e3웿75 H㧒|缏$Q6$.OgK[Tm]ug滈Lg]qAM}yjQHhIKW㦯4J:lPV-");
+            info.setReturnValue("6ya ]vegCc\u0C27&nSWZ|\uC4EBOK'e1Vg1*`\u2831f1BT/e3\uC6FF75 H\u39D2|\u7F0F$Q6$.OgK[Tm]ug\u6EC8Lg]qAM}yjQHhIKW\u39AF4J:lPV-");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1156188451(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1156188451L))
-            info.setReturnValue(-765875369);
+            info.setReturnValue(-232870169);
     }
 
     @Inject(at = @At("HEAD"), method = "createUnchecked(Lnet/minecraft/world/entity/ai/memory/MemoryModuleType;Lnet/minecraft/world/entity/ai/memory/ExpirableValue;)Lnet/minecraft/world/entity/ai/memory/MemoryMap$Value;", cancellable = true)

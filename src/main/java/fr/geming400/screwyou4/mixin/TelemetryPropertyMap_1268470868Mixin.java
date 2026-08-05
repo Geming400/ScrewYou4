@@ -16,7 +16,7 @@ public class TelemetryPropertyMap_1268470868Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_133010396(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(133010396L))
-            info.setReturnValue(".偿=.#36fiOo令1U﹁[uKj=]P?Kbayovd{Sq6V@$Tn5[Ndiq0'>rPd@Kr^>V");
+            info.setReturnValue(".\u507F=.#36fiOo\uF9A81U\uFE41[uKj=]P?Kbayovd{Sq6V@$Tn5[Ndiq0'>rPd@Kr^>V");
     }
 
     @Inject(at = @At("HEAD"), method = "builder()Lnet/minecraft/client/telemetry/TelemetryPropertyMap$Builder;", cancellable = true)
@@ -25,15 +25,15 @@ public class TelemetryPropertyMap_1268470868Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "createCodec(Ljava/util/List;)Lcom/mojang/serialization/MapCodec;", cancellable = true)
-    private static void createCodec__1003324840(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1003324840L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "propertySet()Ljava/util/Set;", cancellable = true)
     private void propertySet__560564619(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-560564619L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "createCodec(Ljava/util/List;)Lcom/mojang/serialization/MapCodec;", cancellable = true)
+    private static void createCodec__1003324840(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1003324840L))
             info.setReturnValue(null);
     }
 

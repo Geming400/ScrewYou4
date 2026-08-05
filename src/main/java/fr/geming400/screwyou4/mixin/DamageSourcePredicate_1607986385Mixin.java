@@ -16,13 +16,13 @@ public class DamageSourcePredicate_1607986385Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_472526409(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(472526409L))
-            info.setReturnValue("0乌ٌ#y5|㹵M[x냑Z뮘C7?bk#`q稯)ox`S_ᶓ%;g.vs.");
+            info.setReturnValue("0\u4E4C\u064C#y5|\u3E75M[x\uB0D1Z\uBB98C7?bk#`q\u7A2F)ox`S_\u1D93%;g.vs.");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1646249126(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1646249126L))
-            info.setReturnValue(-502808692);
+            info.setReturnValue(100787908);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/server/level/ServerPlayer;Lnet/minecraft/world/damagesource/DamageSource;)Z", cancellable = true)

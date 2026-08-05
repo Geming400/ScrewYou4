@@ -16,13 +16,13 @@ public class ResourceTexture718755352Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__416704623(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-416704623L))
-            info.setReturnValue("$S]?K\"Aᇁ9Hဝ^A뤽觼X91u叱6H/昬␦<d}-ࢣw陔C*");
+            info.setReturnValue("$S]?K\"A\u11C19H\u101D^A\uB93D\u89FCX91u\u53F16H/\u662C\u2426<d}-\u08A3w\u9654C*");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_757018094(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(757018094L))
-            info.setReturnValue(-1530696679);
+            info.setReturnValue(-705851079);
     }
 
     @Inject(at = @At("HEAD"), method = "id()Lnet/minecraft/resources/Identifier;", cancellable = true)

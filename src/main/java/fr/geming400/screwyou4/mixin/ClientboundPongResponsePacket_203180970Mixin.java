@@ -22,19 +22,19 @@ public class ClientboundPongResponsePacket_203180970Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__932279006(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-932279006L))
-            info.setReturnValue("!-'H7(q:ꭊW0hfEQq1qi3WQ?AiHhB疕");
+            info.setReturnValue("!-'H7(q:\uAB4AW0hfEQq1qi3WQ?AiHhB\u7595");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_241443711(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(241443711L))
-            info.setReturnValue(638009522);
+            info.setReturnValue(328021722);
     }
 
     @Inject(at = @At("HEAD"), method = "time()J", cancellable = true)
     private void time_241444176(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(241444176L))
-            info.setReturnValue(-2060243040570319978L);
+            info.setReturnValue(-2060243040880307778L);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/PacketListener;)V", cancellable = true)

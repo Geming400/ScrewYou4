@@ -13,26 +13,8 @@ public class Builder664312053Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "batcher(Lnet/minecraft/gametest/framework/GameTestRunner$GameTestBatcher;)Lnet/minecraft/gametest/framework/GameTestRunner$Builder;", cancellable = true)
-    private void batcher_831295202(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(831295202L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "fromInfo(Ljava/util/Collection;Lnet/minecraft/server/level/ServerLevel;)Lnet/minecraft/gametest/framework/GameTestRunner$Builder;", cancellable = true)
     private static void fromInfo_1130379072(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1130379072L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "existingStructureSpawner(Lnet/minecraft/gametest/framework/StructureGridSpawner;)Lnet/minecraft/gametest/framework/GameTestRunner$Builder;", cancellable = true)
-    private void existingStructureSpawner_1103994854(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1103994854L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "fromBatches(Ljava/util/Collection;Lnet/minecraft/server/level/ServerLevel;)Lnet/minecraft/gametest/framework/GameTestRunner$Builder;", cancellable = true)
-    private static void fromBatches_1130379072(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1130379072L))
             info.setReturnValue(null);
     }
@@ -40,6 +22,12 @@ public class Builder664312053Mixin {
     @Inject(at = @At("HEAD"), method = "newStructureSpawner(Lnet/minecraft/gametest/framework/GameTestRunner$StructureSpawner;)Lnet/minecraft/gametest/framework/GameTestRunner$Builder;", cancellable = true)
     private void newStructureSpawner_1534343864(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1534343864L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "existingStructureSpawner(Lnet/minecraft/gametest/framework/StructureGridSpawner;)Lnet/minecraft/gametest/framework/GameTestRunner$Builder;", cancellable = true)
+    private void existingStructureSpawner_1103994854(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1103994854L))
             info.setReturnValue(null);
     }
 
@@ -52,6 +40,18 @@ public class Builder664312053Mixin {
     @Inject(at = @At("HEAD"), method = "haltOnError()Lnet/minecraft/gametest/framework/GameTestRunner$Builder;", cancellable = true)
     private void haltOnError_1078257606(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1078257606L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "fromBatches(Ljava/util/Collection;Lnet/minecraft/server/level/ServerLevel;)Lnet/minecraft/gametest/framework/GameTestRunner$Builder;", cancellable = true)
+    private static void fromBatches_1130379072(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1130379072L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "batcher(Lnet/minecraft/gametest/framework/GameTestRunner$GameTestBatcher;)Lnet/minecraft/gametest/framework/GameTestRunner$Builder;", cancellable = true)
+    private void batcher_831295202(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(831295202L))
             info.setReturnValue(null);
     }
 

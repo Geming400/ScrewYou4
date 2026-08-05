@@ -10,7 +10,7 @@ public class AvatarRenderState1824552532Mixin {
         @Inject(at = @At("HEAD"), method = "fallFlyingScale()F", cancellable = true)
     private void fallFlyingScale_1862811895(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1862811895L))
-            info.setReturnValue(9.737243E8F);
+            info.setReturnValue(8.836264E8F);
     }
 
 

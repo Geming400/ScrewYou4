@@ -13,28 +13,22 @@ public class BeaconRenderer_555827799Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "submit(Lnet/minecraft/client/renderer/blockentity/state/BeaconRenderState;Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/SubmitNodeCollector;Lnet/minecraft/client/renderer/state/level/CameraRenderState;)V", cancellable = true)
-    private void submit_942868214(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(942868214L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "submit(Lnet/minecraft/client/renderer/blockentity/state/BlockEntityRenderState;Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/SubmitNodeCollector;Lnet/minecraft/client/renderer/state/level/CameraRenderState;)V", cancellable = true)
     private void submit_695794436(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(695794436L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "submitBeaconBeam(Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/SubmitNodeCollector;Lnet/minecraft/resources/Identifier;FFIIIFF)V", cancellable = true)
-    private static void submitBeaconBeam__797066862(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-797066862L))
+    @Inject(at = @At("HEAD"), method = "submit(Lnet/minecraft/client/renderer/blockentity/state/BeaconRenderState;Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/SubmitNodeCollector;Lnet/minecraft/client/renderer/state/level/CameraRenderState;)V", cancellable = true)
+    private void submit_942868214(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(942868214L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "getViewDistance()I", cancellable = true)
     private void getViewDistance_594090044(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(594090044L))
-            info.setReturnValue(1496178802);
+            info.setReturnValue(1919981602);
     }
 
     @Inject(at = @At("HEAD"), method = "shouldRender(Lnet/minecraft/world/level/block/entity/BlockEntity;Lnet/minecraft/world/phys/Vec3;)Z", cancellable = true)
@@ -59,6 +53,12 @@ public class BeaconRenderer_555827799Mixin {
     private void shouldRenderOffScreen_594106381(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(594106381L))
             info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "submitBeaconBeam(Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/SubmitNodeCollector;Lnet/minecraft/resources/Identifier;FFIIIFF)V", cancellable = true)
+    private static void submitBeaconBeam__797066862(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-797066862L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/blockentity/state/BeaconRenderState;", cancellable = true)

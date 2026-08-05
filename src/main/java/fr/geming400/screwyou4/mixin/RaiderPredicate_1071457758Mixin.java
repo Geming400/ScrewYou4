@@ -16,13 +16,13 @@ public class RaiderPredicate_1071457758Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__64002218(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-64002218L))
-            info.setReturnValue("A(#h-♺9(W=+㡉O R-C\"욄!쾁!cwBN鲫I%Lᵠu﹛u*覡\"m㻄D뫾]");
+            info.setReturnValue("A(#h-\u267A9(W=+\u3849O R-C\"\uC684!\uCF81!cwBN\u9CABI%L\u1D60u\uFE5Bu*\u89A1\"m\u3EC4D\uBAFE]");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1109720499(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1109720499L))
-            info.setReturnValue(-899156271);
+            info.setReturnValue(-919344771);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/phys/Vec3;)Z", cancellable = true)

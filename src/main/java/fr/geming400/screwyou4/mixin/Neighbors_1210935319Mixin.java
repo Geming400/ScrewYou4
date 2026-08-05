@@ -22,13 +22,13 @@ public class Neighbors_1210935319Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_75475343(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(75475343L))
-            info.setReturnValue("젧軳ᝇ觮nQ>z3b&vt㖬hp酚⚶N)⟜? PztN2p94Ok壥UEu䑩%d\"k蹶g䬽<Mᵨ1IioZ#*7t6+$2}2mfXawY(dCZ<E#?]Q&)g0EKRSZ5/54:");
+            info.setReturnValue("\uC827\u8EF3\u1747\u89EEnQ>z3b&vt\u35AChp\u915A\u26B6N)\u27DC? PztN2p94Ok\u58E5UEu\u4469%d\"k\u8E76g\u4B3D<M\u1D681IioZ#*7t6+$2}2mfXawY(dCZ<E#?]Q&)g0EKRSZ5/54:");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1249198060(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1249198060L))
-            info.setReturnValue(-637578713);
+            info.setReturnValue(-851229113);
     }
 
     @Inject(at = @At("HEAD"), method = "block()Lnet/minecraft/world/level/block/SideChainPartBlock;", cancellable = true)

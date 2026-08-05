@@ -10,7 +10,7 @@ public class PotentSulfurState_1944774588Mixin {
         @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_809314116(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(809314116L))
-            info.setReturnValue("N/zU䖮`⺕<R5瞺Z,<S,;b");
+            info.setReturnValue("N/zU\u45AE`\u2E95<R5\u77BAZ,<S,;b");
     }
 
     @Inject(at = @At("HEAD"), method = "values()[Lnet/minecraft/world/level/block/state/properties/PotentSulfurState;", cancellable = true)
@@ -28,7 +28,7 @@ public class PotentSulfurState_1944774588Mixin {
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName_809314116(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(809314116L))
-            info.setReturnValue("N/zU䖮`⺕<R5瞺Z,<S,;b");
+            info.setReturnValue("N/zU\u45AE`\u2E95<R5\u77BAZ,<S,;b");
     }
 
 

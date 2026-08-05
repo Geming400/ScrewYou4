@@ -16,13 +16,13 @@ public class DebugBreezeInfo1511564254Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_376104279(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(376104279L))
-            info.setReturnValue("MDMuLx{`F+XZdR9VX]H>RS'asWz[B(aRxj>pp]C;K⣭xd펷H");
+            info.setReturnValue("MDMuLx{`F+XZdR9VX]H>RS'asWz[B(aRxj>pp]C;K\u28EDxd\uD3B7H");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1549826996(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1549826996L))
-            info.setReturnValue(-2074173392);
+            info.setReturnValue(-2087621292);
     }
 
     @Inject(at = @At("HEAD"), method = "jumpTarget()Ljava/util/Optional;", cancellable = true)

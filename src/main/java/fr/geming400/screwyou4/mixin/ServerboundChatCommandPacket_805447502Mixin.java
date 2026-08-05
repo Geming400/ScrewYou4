@@ -22,13 +22,13 @@ public class ServerboundChatCommandPacket_805447502Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__330012474(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-330012474L))
-            info.setReturnValue("*㔾zQL`W85!t?䦼㗦DEw5oEA9/莂Jv|LRZe%䦛ij`6");
+            info.setReturnValue("*\u353EzQL`W85!t?\u49BC\u35E6DEw5oEA9/\u8382Jv|LRZe%\u499Bij`6");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_843710243(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(843710243L))
-            info.setReturnValue(770286127);
+            info.setReturnValue(1237049227);
     }
 
     @Inject(at = @At("HEAD"), method = "command()Ljava/lang/String;", cancellable = true)

@@ -10,7 +10,7 @@ public class NameAndId_2101264183Mixin {
         @Inject(at = @At("HEAD"), method = "name()Ljava/lang/String;", cancellable = true)
     private void name_965803711(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(965803711L))
-            info.setReturnValue(":][1fHjMrvA 1d䕳&dY[ၜ($ᖹN觤/BK!9aSyl?x?*");
+            info.setReturnValue(":][1fHjMrvA 1d\u4573&dY[\u105C($\u15B9N\u89E4/BK!9aSyl?x?*");
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
@@ -22,13 +22,13 @@ public class NameAndId_2101264183Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_965804207(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(965804207L))
-            info.setReturnValue("-j9* $K?;{uD2GE+/vWO=Pm>ѫorﮎVq{A+䆾U1{X;+(.塄7_`Yomdm*^VA)ANY* BTw?}S_?犴NIQ⠇%琕;i");
+            info.setReturnValue("-j9* $K?;{uD2GE+/vWO=Pm>\u046Bor\uFB8EVq{A+\u41BEU1{X;+(.\u58447_`Yomdm*^VA)ANY* BTw?}S_?\u72B4NIQ\u2807%\u7415;i");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2139526924(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2139526924L))
-            info.setReturnValue(-1641091577);
+            info.setReturnValue(-2002176777);
     }
 
     @Inject(at = @At("HEAD"), method = "id()Ljava/util/UUID;", cancellable = true)

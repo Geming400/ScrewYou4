@@ -22,13 +22,13 @@ public class Line1945947318Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_810487343(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(810487343L))
-            info.setReturnValue("2U(澥ះ/s;]=");
+            info.setReturnValue("2U(\u6FA5\u17C7/s;]=");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1984210060(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1984210060L))
-            info.setReturnValue(-102486934);
+            info.setReturnValue(-63870834);
     }
 
     @Inject(at = @At("HEAD"), method = "tag()Lnet/minecraft/client/multiplayer/chat/GuiMessageTag;", cancellable = true)
@@ -46,19 +46,19 @@ public class Line1945947318Mixin {
     @Inject(at = @At("HEAD"), method = "getTagIconLeft(Lnet/minecraft/client/gui/Font;)I", cancellable = true)
     private void getTagIconLeft_975161600(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(975161600L))
-            info.setReturnValue(1561895399);
-    }
-
-    @Inject(at = @At("HEAD"), method = "addedTime()I", cancellable = true)
-    private void addedTime_1984209564(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1984209564L))
-            info.setReturnValue(100660485);
+            info.setReturnValue(1600511499);
     }
 
     @Inject(at = @At("HEAD"), method = "endOfEntry()Z", cancellable = true)
     private void endOfEntry_1984225901(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1984225901L))
             info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "addedTime()I", cancellable = true)
+    private void addedTime_1984209564(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1984209564L))
+            info.setReturnValue(139276585);
     }
 
 

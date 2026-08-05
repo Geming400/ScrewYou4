@@ -16,13 +16,13 @@ public class WeightedPlacedFeature1462729092Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_327269117(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(327269117L))
-            info.setReturnValue("9oPআLjoUjVp625즢W|fFFK'QjIS峇zQh4{q渶i3ky篂|3j1&9EzT.E*PX'TsbF1⡂?9376G-?Xwv");
+            info.setReturnValue("9oP\u0986LjoUjVp625\uC9A2W|fFFK'QjIS\u5CC7zQh4{q\u6E36i3ky\u7BC2|3j1&9EzT.E*PX'TsbF1\u2842?9376G-?Xwv");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1500991834(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1500991834L))
-            info.setReturnValue(-745317408);
+            info.setReturnValue(-1462814808);
     }
 
     @Inject(at = @At("HEAD"), method = "feature()Lnet/minecraft/core/Holder;", cancellable = true)
@@ -40,7 +40,7 @@ public class WeightedPlacedFeature1462729092Mixin {
     @Inject(at = @At("HEAD"), method = "chance()F", cancellable = true)
     private void chance_1500988455(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1500988455L))
-            info.setReturnValue(9.542777E8F);
+            info.setReturnValue(2.367803E8F);
     }
 
 

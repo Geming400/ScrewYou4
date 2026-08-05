@@ -10,7 +10,7 @@ public class PlayerTeam_1432391890Mixin {
         @Inject(at = @At("HEAD"), method = "getName()Ljava/lang/String;", cancellable = true)
     private void getName_296931418(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(296931418L))
-            info.setReturnValue("?HE믛d難h_^sS^A9Y)䰹ldKv]BTGP놳㻵TA;]_mKa랴Yc6..ᅤ<4n맩?*M1尀Uu2!k");
+            info.setReturnValue("?HE\uBBDBd\uFA68h_^sS^A9Y)\u4C39ldKv]BTGP\uB1B3\u3EF5TA;]_mKa\uB7B4Yc6..\u1164<4n\uB9E9?*M1\u5C00Uu2!k");
     }
 
     @Inject(at = @At("HEAD"), method = "getDisplayName()Lnet/minecraft/network/chat/Component;", cancellable = true)
@@ -28,12 +28,6 @@ public class PlayerTeam_1432391890Mixin {
     @Inject(at = @At("HEAD"), method = "pack()Lnet/minecraft/world/scores/PlayerTeam$Packed;", cancellable = true)
     private void pack__773130466(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-773130466L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getColor()Ljava/util/Optional;", cancellable = true)
-    private void getColor_1677853311(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1677853311L))
             info.setReturnValue(null);
     }
 
@@ -67,34 +61,10 @@ public class PlayerTeam_1432391890Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "getNameTagVisibility()Lnet/minecraft/world/scores/Team$Visibility;", cancellable = true)
-    private void getNameTagVisibility__324376317(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-324376317L))
-            info.setReturnValue(net.minecraft.world.scores.Team.Visibility.ALWAYS);
-    }
-
-    @Inject(at = @At("HEAD"), method = "setAllowFriendlyFire(Z)V", cancellable = true)
-    private void setAllowFriendlyFire__1632958578(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1632958578L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "setDisplayName(Lnet/minecraft/network/chat/Component;)V", cancellable = true)
-    private void setDisplayName__468787048(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-468787048L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "getDeathMessageVisibility()Lnet/minecraft/world/scores/Team$Visibility;", cancellable = true)
-    private void getDeathMessageVisibility__324376317(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-324376317L))
-            info.setReturnValue(net.minecraft.world.scores.Team.Visibility.ALWAYS);
-    }
-
-    @Inject(at = @At("HEAD"), method = "setPlayerPrefix(Lnet/minecraft/network/chat/Component;)V", cancellable = true)
-    private void setPlayerPrefix__468787048(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-468787048L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "getPlayerSuffix()Lnet/minecraft/network/chat/Component;", cancellable = true)
+    private void getPlayerSuffix__744517276(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-744517276L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getPlayerPrefix()Lnet/minecraft/network/chat/Component;", cancellable = true)
@@ -109,16 +79,22 @@ public class PlayerTeam_1432391890Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "setDeathMessageVisibility(Lnet/minecraft/world/scores/Team$Visibility;)V", cancellable = true)
-    private void setDeathMessageVisibility_2112398135(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(2112398135L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "setCollisionRule(Lnet/minecraft/world/scores/Team$CollisionRule;)V", cancellable = true)
     private void setCollisionRule_360741719(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(360741719L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getCollisionRule()Lnet/minecraft/world/scores/Team$CollisionRule;", cancellable = true)
+    private void getCollisionRule_1155310673(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1155310673L))
+            info.setReturnValue(net.minecraft.world.scores.Team.CollisionRule.NEVER);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getFormattedName(Lnet/minecraft/network/chat/Component;)Lnet/minecraft/network/chat/MutableComponent;", cancellable = true)
+    private void getFormattedName__1119530640(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1119530640L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "setNameTagVisibility(Lnet/minecraft/world/scores/Team$Visibility;)V", cancellable = true)
@@ -133,10 +109,22 @@ public class PlayerTeam_1432391890Mixin {
             info.setReturnValue(101);
     }
 
-    @Inject(at = @At("HEAD"), method = "getFormattedName(Lnet/minecraft/network/chat/Component;)Lnet/minecraft/network/chat/MutableComponent;", cancellable = true)
-    private void getFormattedName__1119530640(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1119530640L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "setAllowFriendlyFire(Z)V", cancellable = true)
+    private void setAllowFriendlyFire__1632958578(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1632958578L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "setDisplayName(Lnet/minecraft/network/chat/Component;)V", cancellable = true)
+    private void setDisplayName__468787048(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-468787048L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "setPlayerPrefix(Lnet/minecraft/network/chat/Component;)V", cancellable = true)
+    private void setPlayerPrefix__468787048(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-468787048L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "unpackOptions(B)V", cancellable = true)
@@ -145,10 +133,22 @@ public class PlayerTeam_1432391890Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getPlayerSuffix()Lnet/minecraft/network/chat/Component;", cancellable = true)
-    private void getPlayerSuffix__744517276(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-744517276L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "getDeathMessageVisibility()Lnet/minecraft/world/scores/Team$Visibility;", cancellable = true)
+    private void getDeathMessageVisibility__324376317(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-324376317L))
+            info.setReturnValue(net.minecraft.world.scores.Team.Visibility.ALWAYS);
+    }
+
+    @Inject(at = @At("HEAD"), method = "setSeeFriendlyInvisibles(Z)V", cancellable = true)
+    private void setSeeFriendlyInvisibles__1632958578(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1632958578L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "setDeathMessageVisibility(Lnet/minecraft/world/scores/Team$Visibility;)V", cancellable = true)
+    private void setDeathMessageVisibility_2112398135(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(2112398135L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "getFormattedDisplayName()Lnet/minecraft/network/chat/MutableComponent;", cancellable = true)
@@ -157,16 +157,16 @@ public class PlayerTeam_1432391890Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getCollisionRule()Lnet/minecraft/world/scores/Team$CollisionRule;", cancellable = true)
-    private void getCollisionRule_1155310673(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1155310673L))
-            info.setReturnValue(net.minecraft.world.scores.Team.CollisionRule.NEVER);
+    @Inject(at = @At("HEAD"), method = "getNameTagVisibility()Lnet/minecraft/world/scores/Team$Visibility;", cancellable = true)
+    private void getNameTagVisibility__324376317(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-324376317L))
+            info.setReturnValue(net.minecraft.world.scores.Team.Visibility.ALWAYS);
     }
 
-    @Inject(at = @At("HEAD"), method = "setSeeFriendlyInvisibles(Z)V", cancellable = true)
-    private void setSeeFriendlyInvisibles__1632958578(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1632958578L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "getColor()Ljava/util/Optional;", cancellable = true)
+    private void getColor_1677853311(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1677853311L))
+            info.setReturnValue(null);
     }
 
 

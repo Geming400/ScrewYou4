@@ -16,13 +16,13 @@ public class LastSeenMessages373119815Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__762340160(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-762340160L))
-            info.setReturnValue("ia;厀EYᷓ6DL&<v䥷TA4ゔㄼTN젲iMLr8?#Mk:3[#Sv<lZNtp6!W8]FMx$b.A1GPV(Vh;QO\"Gu^");
+            info.setReturnValue("ia;\u5380EY\u1DD36DL&<v\u4977TA4\u3094\u313CTN\uC832iMLr8?#Mk:3[#Sv<lZNtp6!W8]FMx$b.A1GPV(Vh;QO\"Gu^");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_411382557(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(411382557L))
-            info.setReturnValue(1179512022);
+            info.setReturnValue(1113598022);
     }
 
     @Inject(at = @At("HEAD"), method = "entries()Ljava/util/List;", cancellable = true)

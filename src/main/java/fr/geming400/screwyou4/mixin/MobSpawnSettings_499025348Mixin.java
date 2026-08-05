@@ -16,7 +16,7 @@ public class MobSpawnSettings_499025348Mixin {
     @Inject(at = @At("HEAD"), method = "getCreatureProbability()F", cancellable = true)
     private void getCreatureProbability_537284710(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(537284710L))
-            info.setReturnValue(8.196688E8F);
+            info.setReturnValue(1.842287E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "getMobSpawnCost(Lnet/minecraft/world/entity/EntityType;)Lnet/minecraft/world/level/biome/MobSpawnSettings$MobSpawnCost;", cancellable = true)

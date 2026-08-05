@@ -16,13 +16,13 @@ public class QuickPlayData_316862643Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__818597333(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-818597333L))
-            info.setReturnValue("_%]pk[IT=죖U]찦JBBx-uR%7 秢lsH3䢑瑚U8t/");
+            info.setReturnValue("_%]pk[IT=\uC8D6U]\uCC26JBBx-uR%7 \u79E2lsH3\u4891\u745AU8t/");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_355125384(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(355125384L))
-            info.setReturnValue(159825135);
+            info.setReturnValue(-470854965);
     }
 
     @Inject(at = @At("HEAD"), method = "isEnabled()Z", cancellable = true)
@@ -40,7 +40,7 @@ public class QuickPlayData_316862643Mixin {
     @Inject(at = @At("HEAD"), method = "logPath()Ljava/lang/String;", cancellable = true)
     private void logPath__818597829(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-818597829L))
-            info.setReturnValue("x. tAy&HPeoXhT柄t驵JK뤟V㷷4pqL7{/-9wl튫꒞\"6Uet");
+            info.setReturnValue("x. tAy&HPeoXhT\u67C4t\u9A75JK\uB91FV\u3DF74pqL7{/-9wl\uD2AB\uA49E\"6Uet");
     }
 
 

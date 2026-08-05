@@ -10,19 +10,19 @@ public class EnderDragonPhase143388240Mixin {
         @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__992072231(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-992072231L))
-            info.setReturnValue("K5{!P/䛘밇ᣳNdVX-0v'j셄G5+鯚{[k⩈@.#2&TAB눓{(e1㾃囕)D$2");
+            info.setReturnValue("K5{!P/\u46D8\uBC07\u18F3NdVX-0v'j\uC144G5+\u9BDA{[k\u2A48@.#2&TAB\uB213{(e1\u3F83\u56D5)D$2");
     }
 
     @Inject(at = @At("HEAD"), method = "getId()I", cancellable = true)
     private void getId_181650486(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(181650486L))
-            info.setReturnValue(1444541371);
+            info.setReturnValue(-2037254925);
     }
 
     @Inject(at = @At("HEAD"), method = "getCount()I", cancellable = true)
     private static void getCount_181650734(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(181650734L))
-            info.setReturnValue(1533803116);
+            info.setReturnValue(-1947993180);
     }
 
     @Inject(at = @At("HEAD"), method = "createInstance(Lnet/minecraft/world/entity/boss/enderdragon/EnderDragon;)Lnet/minecraft/world/entity/boss/enderdragon/phases/DragonPhaseInstance;", cancellable = true)

@@ -31,12 +31,6 @@ public class Raids1774638619Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getRaidCentersInChunk(Lnet/minecraft/world/level/ChunkPos;)Ljava/util/List;", cancellable = true)
-    private void getRaidCentersInChunk__1062571809(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1062571809L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getNearbyRaid(Lnet/minecraft/core/BlockPos;I)Lnet/minecraft/world/entity/raid/Raid;", cancellable = true)
     private void getNearbyRaid__795662800(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-795662800L))
@@ -46,6 +40,12 @@ public class Raids1774638619Mixin {
     @Inject(at = @At("HEAD"), method = "createOrExtendRaid(Lnet/minecraft/server/level/ServerPlayer;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/entity/raid/Raid;", cancellable = true)
     private void createOrExtendRaid_1330288433(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1330288433L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getRaidCentersInChunk(Lnet/minecraft/world/level/ChunkPos;)Ljava/util/List;", cancellable = true)
+    private void getRaidCentersInChunk__1062571809(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1062571809L))
             info.setReturnValue(null);
     }
 

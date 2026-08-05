@@ -22,13 +22,13 @@ public class ClientboundSelectKnownPacks2036067560Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_900607585(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(900607585L))
-            info.setReturnValue("g?%j衣U뜖gSu2G6C娟ozw틃.5@_峤}v5$TIyぜOU<T媫PC鴄qC7kj$1핐뮗^塈g촻`+⬻p8G+#!Cg&g6d穑b GW]MQusJ킋m.7");
+            info.setReturnValue("g?%j\u8863U\uB716gSu2G6C\u5A1Fozw\uD2C3.5@_\u5CE4}v5$TIy\u305COU<T\u5AABPC\u9D04qC7kj$1\uD550\uBB97^\u5848g\uCD3B`+\u2B3Bp8G+#!Cg&g6d\u7A51b GW]MQusJ\uD08Bm.7");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2074330302(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2074330302L))
-            info.setReturnValue(-673440805);
+            info.setReturnValue(-675852905);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/PacketListener;)V", cancellable = true)

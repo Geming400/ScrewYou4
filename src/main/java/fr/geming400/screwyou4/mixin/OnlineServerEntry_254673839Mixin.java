@@ -19,6 +19,12 @@ public class OnlineServerEntry_254673839Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "keyPressed(Lnet/minecraft/client/input/KeyEvent;)Z", cancellable = true)
+    private void keyPressed__661961876(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-661961876L))
+            info.setReturnValue(true);
+    }
+
     @Inject(at = @At("HEAD"), method = "extractContent(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIZF)V", cancellable = true)
     private void extractContent_1166348898(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1166348898L))
@@ -31,28 +37,22 @@ public class OnlineServerEntry_254673839Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "keyPressed(Lnet/minecraft/client/input/KeyEvent;)Z", cancellable = true)
-    private void keyPressed__661961876(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-661961876L))
-            info.setReturnValue(true);
-    }
-
     @Inject(at = @At("HEAD"), method = "getServerData()Lnet/minecraft/client/multiplayer/ServerData;", cancellable = true)
     private void getServerData__1383253088(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1383253088L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "updateServerList()V", cancellable = true)
-    private void updateServerList_292948577(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(292948577L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "mouseClicked(Lnet/minecraft/client/input/MouseButtonEvent;Z)Z", cancellable = true)
     private void mouseClicked__1359985040(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1359985040L))
             info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "updateServerList()V", cancellable = true)
+    private void updateServerList_292948577(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(292948577L))
+            info.cancel();
     }
 
 

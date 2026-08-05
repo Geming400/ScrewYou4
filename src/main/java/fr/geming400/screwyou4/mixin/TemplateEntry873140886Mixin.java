@@ -16,13 +16,13 @@ public class TemplateEntry873140886Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__262319089(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-262319089L))
-            info.setReturnValue("zg۶䉗K혚83'!曅.}-G");
+            info.setReturnValue("zg\u06F6\u4257K\uD61A83'!\u66C5.}-G");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_911403628(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(911403628L))
-            info.setReturnValue(-339691220);
+            info.setReturnValue(274149780);
     }
 
     @Inject(at = @At("HEAD"), method = "of(Lnet/minecraft/resources/Identifier;)Lnet/minecraft/world/level/levelgen/feature/configurations/TemplateFeatureConfiguration$TemplateEntry;", cancellable = true)

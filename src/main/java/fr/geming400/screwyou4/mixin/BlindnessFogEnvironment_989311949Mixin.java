@@ -16,7 +16,7 @@ public class BlindnessFogEnvironment_989311949Mixin {
     @Inject(at = @At("HEAD"), method = "getModifiedDarkness(Lnet/minecraft/world/entity/LivingEntity;FF)F", cancellable = true)
     private void getModifiedDarkness_1658256351(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1658256351L))
-            info.setReturnValue(1.760096E8F);
+            info.setReturnValue(4.358007E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "setupFog(Lnet/minecraft/client/renderer/fog/FogData;Lnet/minecraft/client/Camera;Lnet/minecraft/client/multiplayer/ClientLevel;FLnet/minecraft/client/DeltaTracker;)V", cancellable = true)

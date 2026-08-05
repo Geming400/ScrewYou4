@@ -16,13 +16,13 @@ public class InitialWorldCreationOptions444150451Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__691309524(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-691309524L))
-            info.setReturnValue("4RyWTℰFo촣X6=釦Hg4MN뤐辞쐍$GTCWጘWK]X3-T>d#|$|unNh[W;]R/`{3i)E喉ễ/褾9");
+            info.setReturnValue("4RyWT\u2130Fo\uCD23X6=\u91E6Hg4MN\uB910\u8F9E\uC40D$GTCW\u1318WK]X3-T>d#|$|unNh[W;]R/`{3i)E\u5589\u1EC5/\u893E9");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_482413193(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(482413193L))
-            info.setReturnValue(-1028509062);
+            info.setReturnValue(-1024330362);
     }
 
     @Inject(at = @At("HEAD"), method = "gameRuleOverwrites()Lnet/minecraft/world/level/gamerules/GameRuleMap;", cancellable = true)

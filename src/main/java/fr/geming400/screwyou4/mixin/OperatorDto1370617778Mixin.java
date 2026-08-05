@@ -16,13 +16,13 @@ public class OperatorDto1370617778Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_235157803(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(235157803L))
-            info.setReturnValue("^Dꆁ(V`IBe&=b9V");
+            info.setReturnValue("^D\uA181(V`IBe&=b9V");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1408880520(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1408880520L))
-            info.setReturnValue(1511131526);
+            info.setReturnValue(1695873626);
     }
 
     @Inject(at = @At("HEAD"), method = "from(Lnet/minecraft/server/players/ServerOpListEntry;)Lnet/minecraft/server/jsonrpc/methods/OperatorService$OperatorDto;", cancellable = true)

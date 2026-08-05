@@ -22,13 +22,13 @@ public class ServerboundPlaceRecipePacket355802964Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__779657011(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-779657011L))
-            info.setReturnValue("OAP..ﳤ{潟zP(<铐|<t0[59");
+            info.setReturnValue("OAP..\uFCE4{\u6F5FzP(<\u94D0|<t0[59");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_394065706(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(394065706L))
-            info.setReturnValue(1959764057);
+            info.setReturnValue(1719926957);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/PacketListener;)V", cancellable = true)
@@ -52,7 +52,7 @@ public class ServerboundPlaceRecipePacket355802964Mixin {
     @Inject(at = @At("HEAD"), method = "containerId()I", cancellable = true)
     private void containerId_394065210(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(394065210L))
-            info.setReturnValue(-2132055820);
+            info.setReturnValue(1923074376);
     }
 
     @Inject(at = @At("HEAD"), method = "useMaxItems()Z", cancellable = true)

@@ -22,13 +22,13 @@ public class StaticAction929522428Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__205937547(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-205937547L))
-            info.setReturnValue("X%Z狿g0:|秷kZr믥j3hC.5Iⷹp皈SP%");
+            info.setReturnValue("X%Z\u72FFg0:|\u79F7kZr\uBBE5j3hC.5I\u2DF9p\u7688SP%");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_967785170(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(967785170L))
-            info.setReturnValue(-1180431920);
+            info.setReturnValue(-1238999520);
     }
 
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)

@@ -28,7 +28,7 @@ public class SpecialGlyphs_664575614Mixin {
     @Inject(at = @At("HEAD"), method = "getAdvance()F", cancellable = true)
     private void getAdvance_702834976(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(702834976L))
-            info.setReturnValue(1.613797E8F);
+            info.setReturnValue(4.187162E8F);
     }
 
 

@@ -16,7 +16,7 @@ public class TestCommand_1220120277Mixin {
     @Inject(at = @At("HEAD"), method = "trackAndStartRunner(Lnet/minecraft/commands/CommandSourceStack;Lnet/minecraft/gametest/framework/GameTestRunner;)I", cancellable = true)
     private static void trackAndStartRunner__1098052149(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1098052149L))
-            info.setReturnValue(1790636764);
+            info.setReturnValue(1429808464);
     }
 
     @Inject(at = @At("HEAD"), method = "suggestTestFunction(Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)

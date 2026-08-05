@@ -16,19 +16,19 @@ public class FileIOStat424235658Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__711224317(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-711224317L))
-            info.setReturnValue("{瘓樉AH-╲JN(QMfb;BD!膅|O9r*8>SZbHY#d>b/`sX\"n$I藕\"퍮6@}1ˉ/n*8I$}aHy?鑥.( %깰]imtZfw");
+            info.setReturnValue("{\u7613\u6A09AH-\u2572JN(QMfb;BD!\u8185|O9r*8>SZbHY#d>b/`sX\"n$I\u85D5\"\uD36E6@}1\u02C9/n*8I$}aHy?\u9465.( %\uAE70]imtZfw");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_462498400(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(462498400L))
-            info.setReturnValue(1472511759);
+            info.setReturnValue(-1963480537);
     }
 
     @Inject(at = @At("HEAD"), method = "bytes()J", cancellable = true)
     private void bytes_462498865(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(462498865L))
-            info.setReturnValue(5414011942190600797L);
+            info.setReturnValue(5414011943049575797L);
     }
 
     @Inject(at = @At("HEAD"), method = "duration()Ljava/time/Duration;", cancellable = true)
@@ -40,7 +40,7 @@ public class FileIOStat424235658Mixin {
     @Inject(at = @At("HEAD"), method = "path()Ljava/lang/String;", cancellable = true)
     private void path__711224813(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-711224813L))
-            info.setReturnValue("6`祸䑪P㊚E≆盛$|o꺆X]t暉>#n+FmW.5稂q⣧Z [Eo埥FI㽀-(j*ZN![@Dj,wZ1k9a'SecMꙍ-je>dP%jim_N9IAt{ZDv%1[^*mr");
+            info.setReturnValue("6`\u7978\u446AP\u329AE\u2246\uFAA7$|o\uAE86X]t\u6689>#n+FmW.5\u7A02q\u28E7Z [Eo\u57E5FI\u3F40-(j*ZN![@Dj,wZ1k9a'SecM\uA64D-je>dP%jim_N9IAt{ZDv%1[^*mr");
     }
 
     @Inject(at = @At("HEAD"), method = "summary(Ljava/time/Duration;Ljava/util/List;)Lnet/minecraft/util/profiling/jfr/stats/FileIOStat$Summary;", cancellable = true)

@@ -16,13 +16,13 @@ public class BlockBlobConfiguration490905036Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__644554939(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-644554939L))
-            info.setReturnValue("Zb섪浴e(孢>h,{]VT塨EcqX3OQ-F_E-gA]/gh");
+            info.setReturnValue("Zb\uC12A\u6D74e(\u5B62>h,{]VT\u5868EcqX3OQ-F_E-gA]/gh");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_529167778(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(529167778L))
-            info.setReturnValue(-2105052992);
+            info.setReturnValue(-2107835492);
     }
 
     @Inject(at = @At("HEAD"), method = "state()Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)

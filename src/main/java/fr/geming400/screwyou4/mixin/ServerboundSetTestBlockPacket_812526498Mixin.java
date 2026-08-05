@@ -28,13 +28,13 @@ public class ServerboundSetTestBlockPacket_812526498Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__322933478(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-322933478L))
-            info.setReturnValue("!'Y<QV63H7l먝ަ0(=)3!`]E%c!쭏韮偠뤮!RA|%=x<$Iwy衘jၛ[ 9VC0㧚^<73");
+            info.setReturnValue("!'Y<QV63H7l\uBA1D\u07A60(=)3!`]E%c!\uCB4F\u97EE\u5060\uB92E!RA|%=x<$Iwy\u8858j\u105B[ 9VC0\u39DA^<73");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_850789239(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(850789239L))
-            info.setReturnValue(-1442142072);
+            info.setReturnValue(-1263773072);
     }
 
     @Inject(at = @At("HEAD"), method = "position()Lnet/minecraft/core/BlockPos;", cancellable = true)

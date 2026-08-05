@@ -16,7 +16,7 @@ public class ContextKey_32106764Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__1103353708(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1103353708L))
-            info.setReturnValue("*dy\"g)u_=j0흃⅜jI()?gD15[8U$&쟦`b'0Q111y-6");
+            info.setReturnValue("*dy\"g)u_=j0\uD743\u215CjI()?gD15[8U$&\uC7E6`b'0Q111y-6");
     }
 
     @Inject(at = @At("HEAD"), method = "vanilla(Ljava/lang/String;)Lnet/minecraft/util/context/ContextKey;", cancellable = true)

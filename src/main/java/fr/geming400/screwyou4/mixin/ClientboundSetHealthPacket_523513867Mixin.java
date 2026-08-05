@@ -28,19 +28,19 @@ public class ClientboundSetHealthPacket_523513867Mixin {
     @Inject(at = @At("HEAD"), method = "getHealth()F", cancellable = true)
     private void getHealth_561773229(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(561773229L))
-            info.setReturnValue(3.899301E8F);
+            info.setReturnValue(4.226122E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "getFood()I", cancellable = true)
     private void getFood_561776112(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(561776112L))
-            info.setReturnValue(778884191);
+            info.setReturnValue(811566291);
     }
 
     @Inject(at = @At("HEAD"), method = "getSaturation()F", cancellable = true)
     private void getSaturation_561773229(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(561773229L))
-            info.setReturnValue(3.899301E8F);
+            info.setReturnValue(4.226122E8F);
     }
 
 

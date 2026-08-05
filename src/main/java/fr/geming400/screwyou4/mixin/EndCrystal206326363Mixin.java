@@ -19,6 +19,12 @@ public class EndCrystal206326363Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "hurtServer(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/damagesource/DamageSource;F)Z", cancellable = true)
+    private void hurtServer__243103472(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-243103472L))
+            info.setReturnValue(false);
+    }
+
     @Inject(at = @At("HEAD"), method = "hurtClient(Lnet/minecraft/world/damagesource/DamageSource;)Z", cancellable = true)
     private void hurtClient__125342757(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-125342757L))
@@ -43,18 +49,6 @@ public class EndCrystal206326363Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "hurtServer(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/damagesource/DamageSource;F)Z", cancellable = true)
-    private void hurtServer__243103472(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-243103472L))
-            info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getBeamTarget()Lnet/minecraft/core/BlockPos;", cancellable = true)
-    private void getBeamTarget__1687060516(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1687060516L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "showsBottom()Z", cancellable = true)
     private void showsBottom_244604946(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(244604946L))
@@ -71,6 +65,12 @@ public class EndCrystal206326363Mixin {
     private void setShowBottom_1435943192(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1435943192L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getBeamTarget()Lnet/minecraft/core/BlockPos;", cancellable = true)
+    private void getBeamTarget__1687060516(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1687060516L))
+            info.setReturnValue(null);
     }
 
 

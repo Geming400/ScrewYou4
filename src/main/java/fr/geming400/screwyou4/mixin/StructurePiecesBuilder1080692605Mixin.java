@@ -43,16 +43,16 @@ public class StructurePiecesBuilder1080692605Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "moveBelowSeaLevel(IILnet/minecraft/util/RandomSource;I)I", cancellable = true)
-    private void moveBelowSeaLevel__1449409700(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1449409700L))
-            info.setReturnValue(1198539432);
-    }
-
     @Inject(at = @At("HEAD"), method = "offsetPiecesVertically(I)V", cancellable = true)
     private void offsetPiecesVertically__2000357719(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-2000357719L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "moveBelowSeaLevel(IILnet/minecraft/util/RandomSource;I)I", cancellable = true)
+    private void moveBelowSeaLevel__1449409700(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1449409700L))
+            info.setReturnValue(1526645032);
     }
 
     @Inject(at = @At("HEAD"), method = "getBoundingBox()Lnet/minecraft/world/level/levelgen/structure/BoundingBox;", cancellable = true)

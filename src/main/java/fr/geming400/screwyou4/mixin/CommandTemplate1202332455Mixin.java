@@ -16,13 +16,13 @@ public class CommandTemplate1202332455Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_66872480(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(66872480L))
-            info.setReturnValue("futO0<隇ఈrM顦ta覫g(W&6kw䒎#b=P/_;mf切=h%(鏠7WvnืYZ2<k990E螒V-n,^Rp{OQk捵mbꐵqภR홁@oeꁔ瓺B燀=%_J2邙7꾯2+I㻔xy6ỷ");
+            info.setReturnValue("futO0<\u9687\u0C08rM\u9866ta\u89ABg(W&6kw\u448E#b=P/_;mf\u5207=h%(\u93E07Wvn\u0E37YZ2<k990E\u8792V-n,^Rp{OQk\u6375mb\uA435q\u0E20R\uD641@oe\uA054\u74FAB\u71C0=%_J2\u90997\uAFAF2+I\u3ED4xy6\u1EF7");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1240595197(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1240595197L))
-            info.setReturnValue(712614390);
+            info.setReturnValue(763201790);
     }
 
     @Inject(at = @At("HEAD"), method = "template()Lnet/minecraft/server/dialog/action/ParsedTemplate;", cancellable = true)

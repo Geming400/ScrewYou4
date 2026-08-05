@@ -10,7 +10,7 @@ public class SnbtToNbt_532904598Mixin {
         @Inject(at = @At("HEAD"), method = "getName()Ljava/lang/String;", cancellable = true)
     private void getName__602555874(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-602555874L))
-            info.setReturnValue("etp@A*;⸇tPM:䢲>VᩍSv⹑-Ko9OJ’9c鑝s#;⚎`_ࠋS刓Rb[");
+            info.setReturnValue("etp@A*;\u2E07tPM:\u48B2>V\u1A4DSv\u2E51-Ko9OJ\u20199c\u945Ds#;\u268E`_\u080BS\u5213Rb[");
     }
 
     @Inject(at = @At("HEAD"), method = "run(Lnet/minecraft/data/CachedOutput;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)

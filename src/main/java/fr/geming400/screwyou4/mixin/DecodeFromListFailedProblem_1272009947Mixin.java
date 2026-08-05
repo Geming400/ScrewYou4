@@ -10,13 +10,13 @@ public class DecodeFromListFailedProblem_1272009947Mixin {
         @Inject(at = @At("HEAD"), method = "index()I", cancellable = true)
     private void index_1310272192(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1310272192L))
-            info.setReturnValue(-266854033);
+            info.setReturnValue(-535815433);
     }
 
     @Inject(at = @At("HEAD"), method = "name()Ljava/lang/String;", cancellable = true)
     private void name_136549475(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(136549475L))
-            info.setReturnValue("FCf6&U늊)8%Njxm%ZLrO");
+            info.setReturnValue("FCf6&U\uB28A)8%Njxm%ZLrO");
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
@@ -28,13 +28,13 @@ public class DecodeFromListFailedProblem_1272009947Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_136549971(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(136549971L))
-            info.setReturnValue("ｎotꨥY@qREYN=矪dZ d>{;7렸5惡dzz/D攄T 70覴M#?QWmO;7P]4S4r!%ꇪJ?\"um`ᠻSGK`0*茲j-Kj{)gZ");
+            info.setReturnValue("\uFF4Eot\uAA25Y@qREYN=\u77EAdZ d>{;7\uB8385\uF9B9dzz/D\u6504T 70\u89B4M#?QWmO;7P]4S4r!%\uA1EAJ?\"um`\u183BSGK`0*\u8332j-Kj{)gZ");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1310272688(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1310272688L))
-            info.setReturnValue(-445377523);
+            info.setReturnValue(-714338923);
     }
 
     @Inject(at = @At("HEAD"), method = "error()Lcom/mojang/serialization/DataResult$Error;", cancellable = true)
@@ -52,7 +52,7 @@ public class DecodeFromListFailedProblem_1272009947Mixin {
     @Inject(at = @At("HEAD"), method = "description()Ljava/lang/String;", cancellable = true)
     private void description_136549475(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(136549475L))
-            info.setReturnValue("FCf6&U늊)8%Njxm%ZLrO");
+            info.setReturnValue("FCf6&U\uB28A)8%Njxm%ZLrO");
     }
 
 

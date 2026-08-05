@@ -10,13 +10,13 @@ public class BooleanProperty_916055649Mixin {
         @Inject(at = @At("HEAD"), method = "getName(Ljava/lang/Boolean;)Ljava/lang/String;", cancellable = true)
     private void getName__1697362234(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1697362234L))
-            info.setReturnValue("[Vwiq䃟S8䒄鵢9wXA.ﺡT5f!pc&✼C降0A(58A+W`Ebtgwn綅3fz焬D阱鎂|)9ꁨᐅꬺZE");
+            info.setReturnValue("[Vwiq\u40DFS8\u4484\u9D629wXA.\uFEA1T5f!pc&\u273CC\u964D0A(58A+W`Ebtgwn\u7D853fz\u712CD\u9631\u9382|)9\uA068\u1405\uAB3AZE");
     }
 
     @Inject(at = @At("HEAD"), method = "getName(Ljava/lang/Comparable;)Ljava/lang/String;", cancellable = true)
     private void getName__254605592(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-254605592L))
-            info.setReturnValue("M)Y^k྄m=Yx+0,벪1;kF_{ྮ+[賕@㾸]H橙YkGKq]sD)Vz4");
+            info.setReturnValue("M)Y^k\u0F84m=Yx+0,\uBCAA1;kF_{\u0FAE+[\u8CD5@\u3FB8]H\u6A59YkGKq]sD)Vz4");
     }
 
     @Inject(at = @At("HEAD"), method = "getValue(Ljava/lang/String;)Ljava/util/Optional;", cancellable = true)
@@ -31,22 +31,22 @@ public class BooleanProperty_916055649Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getPossibleValues()Ljava/util/List;", cancellable = true)
-    private void getPossibleValues__1752574832(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1752574832L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getInternalIndex(Ljava/lang/Comparable;)I", cancellable = true)
     private void getInternalIndex__334952217(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-334952217L))
-            info.setReturnValue(-122534134);
+            info.setReturnValue(-903436934);
     }
 
     @Inject(at = @At("HEAD"), method = "getInternalIndex(Ljava/lang/Boolean;)I", cancellable = true)
     private void getInternalIndex_1881139657(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1881139657L))
-            info.setReturnValue(-1285884841);
+            info.setReturnValue(-2066787641);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getPossibleValues()Ljava/util/List;", cancellable = true)
+    private void getPossibleValues__1752574832(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1752574832L))
+            info.setReturnValue(null);
     }
 
 

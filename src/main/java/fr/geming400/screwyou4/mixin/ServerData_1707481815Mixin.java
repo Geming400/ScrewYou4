@@ -43,16 +43,22 @@ public class ServerData_1707481815Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "isLan()Z", cancellable = true)
+    private void isLan_1745760397(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1745760397L))
+            info.setReturnValue(true);
+    }
+
     @Inject(at = @At("HEAD"), method = "isRealm()Z", cancellable = true)
     private void isRealm_1745760397(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1745760397L))
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "isLan()Z", cancellable = true)
-    private void isLan_1745760397(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1745760397L))
-            info.setReturnValue(true);
+    @Inject(at = @At("HEAD"), method = "hasAcceptedCodeOfConduct(Ljava/lang/String;)Z", cancellable = true)
+    private void hasAcceptedCodeOfConduct__1435120489(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1435120489L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "validateIcon([B)[B", cancellable = true)
@@ -61,10 +67,22 @@ public class ServerData_1707481815Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "hasAcceptedCodeOfConduct(Ljava/lang/String;)Z", cancellable = true)
-    private void hasAcceptedCodeOfConduct__1435120489(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1435120489L))
-            info.setReturnValue(false);
+    @Inject(at = @At("HEAD"), method = "getResourcePackStatus()Lnet/minecraft/client/multiplayer/ServerData$ServerPackStatus;", cancellable = true)
+    private void getResourcePackStatus_946472804(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(946472804L))
+            info.setReturnValue(net.minecraft.client.multiplayer.ServerData.ServerPackStatus.DISABLED);
+    }
+
+    @Inject(at = @At("HEAD"), method = "setResourcePackStatus(Lnet/minecraft/client/multiplayer/ServerData$ServerPackStatus;)V", cancellable = true)
+    private void setResourcePackStatus__795918632(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-795918632L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "copyNameIconFrom(Lnet/minecraft/client/multiplayer/ServerData;)V", cancellable = true)
+    private void copyNameIconFrom_1747967886(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1747967886L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "clearCodeOfConduct()V", cancellable = true)
@@ -79,9 +97,9 @@ public class ServerData_1707481815Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "copyNameIconFrom(Lnet/minecraft/client/multiplayer/ServerData;)V", cancellable = true)
-    private void copyNameIconFrom_1747967886(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1747967886L))
+    @Inject(at = @At("HEAD"), method = "setIconBytes([B)V", cancellable = true)
+    private void setIconBytes_1220462416(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1220462416L))
             info.cancel();
     }
 
@@ -89,24 +107,6 @@ public class ServerData_1707481815Mixin {
     private void getIconBytes__1401650852(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1401650852L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "setIconBytes([B)V", cancellable = true)
-    private void setIconBytes_1220462416(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1220462416L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "setResourcePackStatus(Lnet/minecraft/client/multiplayer/ServerData$ServerPackStatus;)V", cancellable = true)
-    private void setResourcePackStatus__795918632(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-795918632L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "getResourcePackStatus()Lnet/minecraft/client/multiplayer/ServerData$ServerPackStatus;", cancellable = true)
-    private void getResourcePackStatus_946472804(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(946472804L))
-            info.setReturnValue(net.minecraft.client.multiplayer.ServerData.ServerPackStatus.DISABLED);
     }
 
 

@@ -13,16 +13,16 @@ public class ChorusFlowerBlock90437086Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getBlockSupportShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/phys/shapes/VoxelShape;", cancellable = true)
-    private void getBlockSupportShape__1625109928(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1625109928L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "generatePlant(Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;I)V", cancellable = true)
     private static void generatePlant_126727246(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(126727246L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getBlockSupportShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/phys/shapes/VoxelShape;", cancellable = true)
+    private void getBlockSupportShape__1625109928(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1625109928L))
+            info.setReturnValue(null);
     }
 
 

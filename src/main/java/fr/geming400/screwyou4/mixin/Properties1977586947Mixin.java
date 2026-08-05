@@ -16,19 +16,19 @@ public class Properties1977586947Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_842126972(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(842126972L))
-            info.setReturnValue("*[◴Y6to}־o7῾w]wX<_mUvxsf.Il<!RP25h^-Dmp1ᤴ,k>z-GWL娳n,*!yEtO;9A]_ྣ");
+            info.setReturnValue("*[\u25F4Y6to}\u05BEo7\u1FFEw]wX<_mUvxsf.Il<!RP25h^-Dmp1\u1934,k>z-GWL\u5A33n,*!yEtO;9A]_\u0FA3");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2015849689(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2015849689L))
-            info.setReturnValue(745383487);
+            info.setReturnValue(1052313887);
     }
 
     @Inject(at = @At("HEAD"), method = "swapAnimationScale()F", cancellable = true)
     private void swapAnimationScale_2015846310(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2015846310L))
-            info.setReturnValue(4.484498E8F);
+            info.setReturnValue(7.553802E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "handAnimationOnSwap()Z", cancellable = true)

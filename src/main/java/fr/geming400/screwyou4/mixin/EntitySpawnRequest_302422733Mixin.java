@@ -16,13 +16,13 @@ public class EntitySpawnRequest_302422733Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__833037243(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-833037243L))
-            info.setReturnValue("M|D0b2ZsH1ghwgERᑽ&7@LmjKOຏ@Se<v=X\"vywELT!hg@NK&Sjf宨&A_괙]<钵鋬ꚡ,W5)2YH1n]=蕮Q1ᡵ,8/02-A:@MfG+$␟");
+            info.setReturnValue("M|D0b2ZsH1ghwgER\u147D&7@LmjKO\u0E8F@Se<v=X\"vywELT!hg@NK&Sjf\u5BA8&A_\uAD19]<\u94B5\u92EC\uA6A1,W5)2YH1n]=\u856EQ1\u1875,8/02-A:@MfG+$\u241F");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_340685474(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(340685474L))
-            info.setReturnValue(33532027);
+            info.setReturnValue(-341363073);
     }
 
     @Inject(at = @At("HEAD"), method = "reason()Lnet/minecraft/world/entity/EntitySpawnReason;", cancellable = true)

@@ -16,13 +16,13 @@ public class WaypointStyle1281011474Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_145551499(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(145551499L))
-            info.setReturnValue("k魰(Za絹");
+            info.setReturnValue("k\u9B70(Za\u7D79");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1319274216(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1319274216L))
-            info.setReturnValue(-229480050);
+            info.setReturnValue(-288105850);
     }
 
     @Inject(at = @At("HEAD"), method = "validate()Lcom/mojang/serialization/DataResult;", cancellable = true)
@@ -31,16 +31,16 @@ public class WaypointStyle1281011474Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "sprite(F)Lnet/minecraft/resources/Identifier;", cancellable = true)
-    private void sprite__381328221(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-381328221L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "farDistance()I", cancellable = true)
     private void farDistance_1319273720(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1319273720L))
-            info.setReturnValue(-26332631);
+            info.setReturnValue(-84958431);
+    }
+
+    @Inject(at = @At("HEAD"), method = "nearDistance()I", cancellable = true)
+    private void nearDistance_1319273720(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1319273720L))
+            info.setReturnValue(-84958431);
     }
 
     @Inject(at = @At("HEAD"), method = "spriteLocations()Ljava/util/List;", cancellable = true)
@@ -49,10 +49,10 @@ public class WaypointStyle1281011474Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "nearDistance()I", cancellable = true)
-    private void nearDistance_1319273720(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1319273720L))
-            info.setReturnValue(-26332631);
+    @Inject(at = @At("HEAD"), method = "sprite(F)Lnet/minecraft/resources/Identifier;", cancellable = true)
+    private void sprite__381328221(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-381328221L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "sprites()Ljava/util/List;", cancellable = true)

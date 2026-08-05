@@ -28,13 +28,13 @@ public class Player330466276Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__804993699(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-804993699L))
-            info.setReturnValue("1Vs䠄T$3꼮tI NuS>QA{;.n`8g0WuH*6SeAt<!vb9JlH碿T]f8d2<I?嘽7϶$7t쏕o-i{D");
+            info.setReturnValue("1Vs\u4804T$3\uAF2EtI NuS>QA{;.n`8g0WuH*6SeAt<!vb9JlH\u78BFT]f8d2<I?\u563D7\u03F6$7t\uC3D5o-i{D");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_368729018(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(368729018L))
-            info.setReturnValue(-24976927);
+            info.setReturnValue(224085073);
     }
 
     @Inject(at = @At("HEAD"), method = "message()Lnet/minecraft/network/chat/PlayerChatMessage;", cancellable = true)
@@ -43,8 +43,14 @@ public class Player330466276Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "toContentComponent()Lnet/minecraft/network/chat/Component;", cancellable = true)
-    private void toContentComponent__1846442889(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "profileId()Ljava/util/UUID;", cancellable = true)
+    private void profileId_741600759(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(741600759L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "toHeadingComponent()Lnet/minecraft/network/chat/Component;", cancellable = true)
+    private void toHeadingComponent__1846442889(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1846442889L))
             info.setReturnValue(null);
     }
@@ -55,15 +61,9 @@ public class Player330466276Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "toHeadingComponent()Lnet/minecraft/network/chat/Component;", cancellable = true)
-    private void toHeadingComponent__1846442889(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "toContentComponent()Lnet/minecraft/network/chat/Component;", cancellable = true)
+    private void toContentComponent__1846442889(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1846442889L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "profileId()Ljava/util/UUID;", cancellable = true)
-    private void profileId_741600759(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(741600759L))
             info.setReturnValue(null);
     }
 

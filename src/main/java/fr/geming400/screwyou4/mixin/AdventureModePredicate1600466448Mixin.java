@@ -16,13 +16,13 @@ public class AdventureModePredicate1600466448Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_465005977(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(465005977L))
-            info.setReturnValue("+芳RUo'0U⾌d6㑒A숳oModWFLpf/66`G3`r9fEK]1䙮␀Czwa,G J /D{l3J_b뒭b_SN㆛S$V,D3Dwlrni)OTꮀw骋Yp;u");
+            info.setReturnValue("+\u82B3RUo'0U\u2F8Cd6\u3452A\uC233oModWFLpf/66`G3`r9fEK]1\u466E\u2400Czwa,G J /D{l3J_b\uB4ADb_SN\u319BS$V,D3Dwlrni)OT\uAB80w\u9A8BYp;u");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1638728694(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1638728694L))
-            info.setReturnValue(1500814756);
+            info.setReturnValue(797341556);
     }
 
     @Inject(at = @At("HEAD"), method = "test(Lnet/minecraft/world/level/block/state/pattern/BlockInWorld;)Z", cancellable = true)

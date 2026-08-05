@@ -16,13 +16,13 @@ public class ClientInfo135572295Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__999887680(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-999887680L))
-            info.setReturnValue("o(j_䣨l.JTﮘhf!*#yv7$o");
+            info.setReturnValue("o(j_\u48E8l.JT\uFB98hf!*#yv7$o");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_173835037(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(173835037L))
-            info.setReturnValue(1714529913);
+            info.setReturnValue(1186350113);
     }
 
     @Inject(at = @At("HEAD"), method = "of(Ljava/lang/Integer;)Lnet/minecraft/server/jsonrpc/methods/ClientInfo;", cancellable = true)

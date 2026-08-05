@@ -31,12 +31,6 @@ public class IllagerModel_1474401449Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getHat()Lnet/minecraft/client/model/geom/ModelPart;", cancellable = true)
-    private void getHat__1295342963(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1295342963L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "setupAnim(Lnet/minecraft/client/renderer/entity/state/IllagerRenderState;)V", cancellable = true)
     private void setupAnim__1822203771(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1822203771L))
@@ -47,6 +41,12 @@ public class IllagerModel_1474401449Mixin {
     private void setupAnim__1434928969(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1434928969L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getHat()Lnet/minecraft/client/model/geom/ModelPart;", cancellable = true)
+    private void getHat__1295342963(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1295342963L))
+            info.setReturnValue(null);
     }
 
 

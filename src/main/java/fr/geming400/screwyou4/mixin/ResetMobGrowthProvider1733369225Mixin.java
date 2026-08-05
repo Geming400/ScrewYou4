@@ -16,13 +16,13 @@ public class ResetMobGrowthProvider1733369225Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_597909250(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(597909250L))
-            info.setReturnValue("cuzc]z>9(5gnVz\"5y.cQg1*?dQ@僡\")P⥊@@t^_05^mU;ivKMM");
+            info.setReturnValue("cuzc]z>9(5gnVz\"5y.cQg1*?dQ@\u50E1\")P\u294A@@t^_05^mU;ivKMM");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1771631967(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1771631967L))
-            info.setReturnValue(1587938787);
+            info.setReturnValue(1623526187);
     }
 
     @Inject(at = @At("HEAD"), method = "sprite()Lnet/minecraft/client/particle/SpriteSet;", cancellable = true)

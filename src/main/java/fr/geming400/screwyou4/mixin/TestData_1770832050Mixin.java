@@ -16,13 +16,13 @@ public class TestData_1770832050Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_635372074(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(635372074L))
-            info.setReturnValue("iC|_k?ꖨDCf6j6@ꅦ㏪招/U5C%5+F0钤d\"r9LduAtΆଯUau");
+            info.setReturnValue("iC|_k?\uA5A8DCf6j6@\uA166\u33EA\u62DB/U5C%5+F0\u94A4d\"r9LduAt\u0386\u0B2FUau");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1809094791(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1809094791L))
-            info.setReturnValue(-748785888);
+            info.setReturnValue(-560166388);
     }
 
     @Inject(at = @At("HEAD"), method = "map(Ljava/util/function/Function;)Lnet/minecraft/gametest/framework/TestData;", cancellable = true)
@@ -40,37 +40,19 @@ public class TestData_1770832050Mixin {
     @Inject(at = @At("HEAD"), method = "padding()I", cancellable = true)
     private void padding_1809094295(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1809094295L))
-            info.setReturnValue(-2121569964);
+            info.setReturnValue(-1932950464);
     }
 
-    @Inject(at = @At("HEAD"), method = "required()Z", cancellable = true)
-    private void required_1809110632(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "setupTicks()I", cancellable = true)
+    private void setupTicks_1809094295(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1809094295L))
+            info.setReturnValue(-1932950464);
+    }
+
+    @Inject(at = @At("HEAD"), method = "manualOnly()Z", cancellable = true)
+    private void manualOnly_1809110632(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1809110632L))
             info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "maxAttempts()I", cancellable = true)
-    private void maxAttempts_1809094295(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1809094295L))
-            info.setReturnValue(-2121569964);
-    }
-
-    @Inject(at = @At("HEAD"), method = "requiredSuccesses()I", cancellable = true)
-    private void requiredSuccesses_1809094295(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1809094295L))
-            info.setReturnValue(-2121569964);
-    }
-
-    @Inject(at = @At("HEAD"), method = "rotation()Lnet/minecraft/world/level/block/Rotation;", cancellable = true)
-    private void rotation_272510691(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(272510691L))
-            info.setReturnValue(net.minecraft.world.level.block.Rotation.CLOCKWISE_180);
-    }
-
-    @Inject(at = @At("HEAD"), method = "structure()Lnet/minecraft/resources/Identifier;", cancellable = true)
-    private void structure__672234504(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-672234504L))
-            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "skyAccess()Z", cancellable = true)
@@ -79,22 +61,40 @@ public class TestData_1770832050Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "setupTicks()I", cancellable = true)
-    private void setupTicks_1809094295(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1809094295L))
-            info.setReturnValue(-2121569964);
-    }
-
     @Inject(at = @At("HEAD"), method = "maxTicks()I", cancellable = true)
     private void maxTicks_1809094295(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1809094295L))
-            info.setReturnValue(-2121569964);
+            info.setReturnValue(-1932950464);
     }
 
-    @Inject(at = @At("HEAD"), method = "manualOnly()Z", cancellable = true)
-    private void manualOnly_1809110632(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "required()Z", cancellable = true)
+    private void required_1809110632(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1809110632L))
             info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "structure()Lnet/minecraft/resources/Identifier;", cancellable = true)
+    private void structure__672234504(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-672234504L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "rotation()Lnet/minecraft/world/level/block/Rotation;", cancellable = true)
+    private void rotation_272510691(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(272510691L))
+            info.setReturnValue(net.minecraft.world.level.block.Rotation.CLOCKWISE_180);
+    }
+
+    @Inject(at = @At("HEAD"), method = "requiredSuccesses()I", cancellable = true)
+    private void requiredSuccesses_1809094295(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1809094295L))
+            info.setReturnValue(-1932950464);
+    }
+
+    @Inject(at = @At("HEAD"), method = "maxAttempts()I", cancellable = true)
+    private void maxAttempts_1809094295(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1809094295L))
+            info.setReturnValue(-1932950464);
     }
 
 

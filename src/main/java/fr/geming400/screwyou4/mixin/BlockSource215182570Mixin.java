@@ -16,13 +16,13 @@ public class BlockSource215182570Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__920277405(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-920277405L))
-            info.setReturnValue("p=]쾢{@x9j눿M對Y1O똁꯲I;'I_&S7&6Ꙓn[䙋0rڹ)");
+            info.setReturnValue("p=]\uCFA2{@x9j\uB23FM\u5C0DY1O\uB601\uABF2I;'I_&S7&6\uA652n[\u464B0r\u06B9)");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_253445312(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(253445312L))
-            info.setReturnValue(-488950989);
+            info.setReturnValue(-784730889);
     }
 
     @Inject(at = @At("HEAD"), method = "state()Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
@@ -43,15 +43,15 @@ public class BlockSource215182570Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "blockEntity()Lnet/minecraft/world/level/block/entity/DispenserBlockEntity;", cancellable = true)
-    private void blockEntity_1139310565(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1139310565L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "center()Lnet/minecraft/world/phys/Vec3;", cancellable = true)
     private void center_1312912099(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1312912099L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "blockEntity()Lnet/minecraft/world/level/block/entity/DispenserBlockEntity;", cancellable = true)
+    private void blockEntity_1139310565(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1139310565L))
             info.setReturnValue(null);
     }
 

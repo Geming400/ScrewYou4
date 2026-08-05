@@ -22,13 +22,13 @@ public class WithAnyPotion2108992419Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_973532444(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(973532444L))
-            info.setReturnValue("T-pXꉢ⋟|a᭡@biYf疪J*6iA믝N쩢$vN⾔ᣫSJC表쓲哃#-s!UJ$w#Cuf>[E=Y✉n*T iU網.!5|sK5v|O9O#u>KT(");
+            info.setReturnValue("T-pX\uA262\u22DF|a\u1B61@biYf\u75AAJ*6iA\uBBDDN\uCA62$vN\u2F94\u18EBSJC\u8868\uC4F2\u54C3#-s!UJ$w#Cuf>[E=Y\u2709n*T iU\u7DB2.!5|sK5v|O9O#u>KT(");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2147255161(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2147255161L))
-            info.setReturnValue(-911450409);
+            info.setReturnValue(-149623809);
     }
 
     @Inject(at = @At("HEAD"), method = "resolve(Lnet/minecraft/util/context/ContextMap;Lnet/minecraft/world/item/crafting/display/DisplayContentsFactory;)Ljava/util/stream/Stream;", cancellable = true)

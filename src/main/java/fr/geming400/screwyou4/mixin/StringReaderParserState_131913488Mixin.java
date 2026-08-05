@@ -22,7 +22,7 @@ public class StringReaderParserState_131913488Mixin {
     @Inject(at = @At("HEAD"), method = "mark()I", cancellable = true)
     private void mark_170175733(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(170175733L))
-            info.setReturnValue(-1570909556);
+            info.setReturnValue(-987437856);
     }
 
     @Inject(at = @At("HEAD"), method = "restore(I)V", cancellable = true)

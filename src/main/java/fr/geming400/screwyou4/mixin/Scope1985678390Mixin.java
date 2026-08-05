@@ -22,7 +22,7 @@ public class Scope1985678390Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_850217919(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(850217919L))
-            info.setReturnValue("))#齧೯>1ⲵUU6[ga4p<o2_nXhlXfogg7⍭sD");
+            info.setReturnValue("))#\u9F67\u0CEF>1\u2CB5UU6[ga4p<o2_nXhlXfogg7\u236DsD");
     }
 
     @Inject(at = @At("HEAD"), method = "getOrDefault(Lnet/minecraft/util/parsing/packrat/Atom;Ljava/lang/Object;)Ljava/lang/Object;", cancellable = true)
@@ -43,16 +43,10 @@ public class Scope1985678390Mixin {
             info.setReturnValue(new java.lang.Object());
     }
 
-    @Inject(at = @At("HEAD"), method = "getAnyOrThrow([Lnet/minecraft/util/parsing/packrat/Atom;)Ljava/lang/Object;", cancellable = true)
-    private void getAnyOrThrow__972627199(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-972627199L))
-            info.setReturnValue(new java.lang.Object());
-    }
-
-    @Inject(at = @At("HEAD"), method = "getAny([Lnet/minecraft/util/parsing/packrat/Atom;)Ljava/lang/Object;", cancellable = true)
-    private void getAny__972627199(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-972627199L))
-            info.setReturnValue(new java.lang.Object());
+    @Inject(at = @At("HEAD"), method = "popFrame()V", cancellable = true)
+    private void popFrame_2023953129(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(2023953129L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "lastFrame()Ljava/util/Map;", cancellable = true)
@@ -61,8 +55,8 @@ public class Scope1985678390Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "popFrame()V", cancellable = true)
-    private void popFrame_2023953129(CallbackInfo info) {
+    @Inject(at = @At("HEAD"), method = "splitFrame()V", cancellable = true)
+    private void splitFrame_2023953129(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(2023953129L))
             info.cancel();
     }
@@ -73,10 +67,10 @@ public class Scope1985678390Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "splitFrame()V", cancellable = true)
-    private void splitFrame_2023953129(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(2023953129L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "getAny([Lnet/minecraft/util/parsing/packrat/Atom;)Ljava/lang/Object;", cancellable = true)
+    private void getAny__972627199(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-972627199L))
+            info.setReturnValue(new java.lang.Object());
     }
 
     @Inject(at = @At("HEAD"), method = "hasOnlySingleFrame()Z", cancellable = true)
@@ -85,16 +79,22 @@ public class Scope1985678390Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "valueIndexForAny([Lnet/minecraft/util/parsing/packrat/Atom;)I", cancellable = true)
-    private void valueIndexForAny_564771292(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(564771292L))
-            info.setReturnValue(-580859410);
-    }
-
     @Inject(at = @At("HEAD"), method = "clearFrameValues()V", cancellable = true)
     private void clearFrameValues_2023953129(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(2023953129L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "valueIndexForAny([Lnet/minecraft/util/parsing/packrat/Atom;)I", cancellable = true)
+    private void valueIndexForAny_564771292(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(564771292L))
+            info.setReturnValue(-645612810);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getAnyOrThrow([Lnet/minecraft/util/parsing/packrat/Atom;)Ljava/lang/Object;", cancellable = true)
+    private void getAnyOrThrow__972627199(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-972627199L))
+            info.setReturnValue(new java.lang.Object());
     }
 
 

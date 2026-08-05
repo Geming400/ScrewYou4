@@ -10,7 +10,7 @@ public class CustomModelDataProperty_294535335Mixin {
         @Inject(at = @At("HEAD"), method = "index()I", cancellable = true)
     private void index_332797580(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(332797580L))
-            info.setReturnValue(1480274690);
+            info.setReturnValue(1417051790);
     }
 
     @Inject(at = @At("HEAD"), method = "get(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/client/multiplayer/ClientLevel;Lnet/minecraft/world/entity/LivingEntity;ILnet/minecraft/world/item/ItemDisplayContext;)Ljava/lang/Object;", cancellable = true)
@@ -22,7 +22,7 @@ public class CustomModelDataProperty_294535335Mixin {
     @Inject(at = @At("HEAD"), method = "get(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/client/multiplayer/ClientLevel;Lnet/minecraft/world/entity/LivingEntity;ILnet/minecraft/world/item/ItemDisplayContext;)Ljava/lang/String;", cancellable = true)
     private void get_658317196(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(658317196L))
-            info.setReturnValue("sg놸q{;붶t(+'eFoTM58묎NyfCi\"CMZPgvgQD%P倔4n=lj%,fT9/qHbx[gGퟤ橛e産CR]*a;<Bc{貕!ᾗ<a15|[zI>P");
+            info.setReturnValue("sg\uB1B8q{;\uBDB6t(+'eFoTM58\uBB0ENyfCi\"CMZPgvgQD%P\u50144n=lj%,fT9/qHbx[gG\uD7E4\u6A5Be\u7523CR]*a;<Bc{\u8C95!\u1F97<a15|[zI>P");
     }
 
     @Inject(at = @At("HEAD"), method = "type()Lnet/minecraft/client/renderer/item/properties/select/SelectItemModelProperty$Type;", cancellable = true)
@@ -40,13 +40,13 @@ public class CustomModelDataProperty_294535335Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__840924641(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-840924641L))
-            info.setReturnValue("Dz#?a9붨젎}넹h]採ᝇఈ} 4NdIz5j*0P<:=qpbq>^B襜鹗4{h3ᓣeRhSB黮qf,wW%a믥z%V{|o'i1_ְSPPnD&Q];'");
+            info.setReturnValue("Dz#?a9\uBDA8\uC80E}\uB139h]\u63A1\u1747\u0C08} 4NdIz5j*0P<:=qpbq>^B\u895C\u9E574{h3\u14E3eRhSB\u9EEEqf,wW%a\uBBE5z%V{|o'i1_\u05B0SPPnD&Q];'");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_332798076(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(332798076L))
-            info.setReturnValue(-1515780319);
+            info.setReturnValue(-1578001819);
     }
 
     @Inject(at = @At("HEAD"), method = "valueCodec()Lcom/mojang/serialization/Codec;", cancellable = true)

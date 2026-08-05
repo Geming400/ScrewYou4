@@ -22,7 +22,7 @@ public class SpriteId449035254Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_487297996(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(487297996L))
-            info.setReturnValue(-812403349);
+            info.setReturnValue(-705322749);
     }
 
     @Inject(at = @At("HEAD"), method = "renderType(Ljava/util/function/Function;)Lnet/minecraft/client/renderer/rendertype/RenderType;", cancellable = true)

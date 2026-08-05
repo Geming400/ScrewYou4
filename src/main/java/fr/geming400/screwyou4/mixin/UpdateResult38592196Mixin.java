@@ -22,25 +22,25 @@ public class UpdateResult38592196Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__1096867779(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1096867779L))
-            info.setReturnValue(";Oꝩy`!}Xꟈj=7^;?6bPGu쬏h _=tJj灯&8^B}HQ3MZh!FaD胓뭈Vq");
+            info.setReturnValue(";O\uA769y`!}X\uA7C8j=7^;?6bPGu\uCB0Fh _=tJj\u706F&8^B}HQ3MZh!FaD\u80D3\uBB48Vq");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_76854938(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(76854938L))
-            info.setReturnValue(-825395456);
+            info.setReturnValue(-1566985556);
     }
 
     @Inject(at = @At("HEAD"), method = "providerId()Ljava/lang/String;", cancellable = true)
     private void providerId__1096868275(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1096868275L))
-            info.setReturnValue("귐=FhbℵN쾴}㳵]$^T%Z?@FvA=\"h臠E:7RC8M)XMqi8+oOᦋ 6'!*iO ?w< VTs]В+;t궲|阍5f{jQzA$艧x[%zOAx_o0]");
+            info.setReturnValue("\uADD0=Fhb\u2135N\uCFB4}\u3CF5]$^T%Z?@FvA=\"h\u81E0E:7RC8M)XMqi8+oO\u198B 6'!*iO ?w< VTs]\u0412+;t\uADB2|\u960D5f{jQzA$\u8267x[%zOAx_o0]");
     }
 
     @Inject(at = @At("HEAD"), method = "writes()I", cancellable = true)
     private void writes_76854442(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(76854442L))
-            info.setReturnValue(-646871966);
+            info.setReturnValue(-1388462066);
     }
 
 

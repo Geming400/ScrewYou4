@@ -25,12 +25,6 @@ public class ShapelessRecipe570896090Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getSerializer()Lnet/minecraft/world/item/crafting/RecipeSerializer;", cancellable = true)
-    private void getSerializer_14464134(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(14464134L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "assemble(Lnet/minecraft/world/item/crafting/RecipeInput;)Lnet/minecraft/world/item/ItemStack;", cancellable = true)
     private void assemble_674659201(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(674659201L))
@@ -40,6 +34,12 @@ public class ShapelessRecipe570896090Mixin {
     @Inject(at = @At("HEAD"), method = "assemble(Lnet/minecraft/world/item/crafting/CraftingInput;)Lnet/minecraft/world/item/ItemStack;", cancellable = true)
     private void assemble_1605479821(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1605479821L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getSerializer()Lnet/minecraft/world/item/crafting/RecipeSerializer;", cancellable = true)
+    private void getSerializer_14464134(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(14464134L))
             info.setReturnValue(null);
     }
 

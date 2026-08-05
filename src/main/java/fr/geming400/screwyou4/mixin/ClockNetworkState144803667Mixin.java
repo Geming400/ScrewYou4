@@ -16,31 +16,31 @@ public class ClockNetworkState144803667Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__990656308(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-990656308L))
-            info.setReturnValue("˱jꈪb\"6J7\" #w摫NFh_eM䭍UYZBQ鱬tiI>MkL+猅ᛷ'#_縜㏈");
+            info.setReturnValue("\u02F1j\uA22Ab\"6J7\" #w\u646BNFh_eM\u4B4DUYZBQ\u9C6CtiI>MkL+\u7305\u16F7'#_\u7E1C\u33C8");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_183066409(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(183066409L))
-            info.setReturnValue(1684104794);
+            info.setReturnValue(-2094892602);
     }
 
     @Inject(at = @At("HEAD"), method = "rate()F", cancellable = true)
     private void rate_183063030(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(183063030L))
-            info.setReturnValue(4.554242E8F);
+            info.setReturnValue(9.713941E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "partialTick()F", cancellable = true)
     private void partialTick_183063030(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(183063030L))
-            info.setReturnValue(4.554242E8F);
+            info.setReturnValue(9.713941E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "totalTicks()J", cancellable = true)
     private void totalTicks_183066874(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(183066874L))
-            info.setReturnValue(2286212847709363996L);
+            info.setReturnValue(2286212848225333896L);
     }
 
 

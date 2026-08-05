@@ -10,7 +10,7 @@ public class ArmorType_812703525Mixin {
         @Inject(at = @At("HEAD"), method = "getName()Ljava/lang/String;", cancellable = true)
     private void getName__322756947(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-322756947L))
-            info.setReturnValue("NeM<z㸳/궎NOsy NUꔭQ@@㶐BDzG岈Z*W;Gষmw&ز뿕FQHo]t鬋U8v᭽搛P[z3f%C?dd");
+            info.setReturnValue("NeM<z\u3E33/\uAD8ENOsy NU\uA52DQ@@\u3D90BDzG\u5C88Z*W;G\u09B7mw&\u0632\uBFD5FQHo]t\u9B0BU8v\u1B7D\u641BP[z3f%C?dd");
     }
 
     @Inject(at = @At("HEAD"), method = "values()[Lnet/minecraft/world/item/equipment/ArmorType;", cancellable = true)
@@ -34,13 +34,13 @@ public class ArmorType_812703525Mixin {
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName__322756947(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-322756947L))
-            info.setReturnValue("NeM<z㸳/궎NOsy NUꔭQ@@㶐BDzG岈Z*W;Gষmw&ز뿕FQHo]t鬋U8v᭽搛P[z3f%C?dd");
+            info.setReturnValue("NeM<z\u3E33/\uAD8ENOsy NU\uA52DQ@@\u3D90BDzG\u5C88Z*W;G\u09B7mw&\u0632\uBFD5FQHo]t\u9B0BU8v\u1B7D\u641BP[z3f%C?dd");
     }
 
     @Inject(at = @At("HEAD"), method = "getDurability(I)I", cancellable = true)
     private void getDurability_2026608003(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2026608003L))
-            info.setReturnValue(-296260140);
+            info.setReturnValue(-1060568240);
     }
 
 

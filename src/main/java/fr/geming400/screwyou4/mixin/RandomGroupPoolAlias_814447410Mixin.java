@@ -16,25 +16,19 @@ public class RandomGroupPoolAlias_814447410Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__321012566(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-321012566L))
-            info.setReturnValue("6-%@o5U<,QHc)쨚.V聜㲄}.V{WU4!l5hXEyE獣KC?v-^dQ(h峧6|)07JN鵩sW([i9");
+            info.setReturnValue("6-%@o5U<,QHc)\uCA1A.V\u805C\u3C84}.V{WU4!l5hXEyE\u7363KC?v-^dQ(h\u5CE76|)07JN\u9D69sW([i9");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_852710151(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(852710151L))
-            info.setReturnValue(21126857);
+            info.setReturnValue(52809957);
     }
 
     @Inject(at = @At("HEAD"), method = "groups()Lnet/minecraft/util/random/WeightedList;", cancellable = true)
     private void groups_307963543(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(307963543L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "forEachResolved(Lnet/minecraft/util/RandomSource;Ljava/util/function/BiConsumer;)V", cancellable = true)
-    private void forEachResolved__12536409(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-12536409L))
-            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
@@ -47,6 +41,12 @@ public class RandomGroupPoolAlias_814447410Mixin {
     private void allTargets_603741094(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(603741094L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "forEachResolved(Lnet/minecraft/util/RandomSource;Ljava/util/function/BiConsumer;)V", cancellable = true)
+    private void forEachResolved__12536409(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-12536409L))
+            info.cancel();
     }
 
 

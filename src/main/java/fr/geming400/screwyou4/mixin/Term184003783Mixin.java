@@ -10,7 +10,7 @@ public class Term184003783Mixin {
         @Inject(at = @At("HEAD"), method = "value()Ljava/lang/String;", cancellable = true)
     private void value__951456688(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-951456688L))
-            info.setReturnValue("=9,lL媑\"n쯋?z/S[>Kq9Zr/ZH.5S4@Xz黣`3q,9[*x'㒿d&");
+            info.setReturnValue("=9,lL\u5A91\"n\uCBCB?z/S[>Kq9Zr/ZH.5S4@Xz\u9EE3`3q,9[*x'\u34BFd&");
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
@@ -22,13 +22,13 @@ public class Term184003783Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__951456688(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-951456688L))
-            info.setReturnValue("=9,lL媑\"n쯋?z/S[>Kq9Zr/ZH.5S4@Xz黣`3q,9[*x'㒿d&");
+            info.setReturnValue("=9,lL\u5A91\"n\uCBCB?z/S[>Kq9Zr/ZH.5S4@Xz\u9EE3`3q,9[*x'\u34BFd&");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_222266525(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(222266525L))
-            info.setReturnValue(-27394228);
+            info.setReturnValue(-482690828);
     }
 
     @Inject(at = @At("HEAD"), method = "parse(Ljava/lang/String;)Lnet/minecraft/client/renderer/block/dispatch/multipart/KeyValueCondition$Term;", cancellable = true)

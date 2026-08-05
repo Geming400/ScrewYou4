@@ -22,13 +22,13 @@ public class ServerboundRecipeBookSeenRecipePacket_284402075Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__851057901(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-851057901L))
-            info.setReturnValue("u'?eF쮚%[*|鵮拔Le-#Y!7Sf읏룑_u>)hyP9gmk+GB-#F럿%mg⯋qI(v귇K퀆=I;⎇\" be&J1璪j u[%zUS66(d?+6");
+            info.setReturnValue("u'?eF\uCB9A%[*|\u9D6E\u62D4Le-#Y!7Sf\uC74F\uB8D1_u>)hyP9gmk+GB-#F\uB7FF%mg\u2BCBqI(v\uADC7K\uD006=I;\u2387\" be&J1\u74AAj u[%zUS66(d?+6");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_322664816(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(322664816L))
-            info.setReturnValue(556640262);
+            info.setReturnValue(1312628162);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/PacketListener;)V", cancellable = true)

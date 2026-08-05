@@ -22,7 +22,7 @@ public class BatchResult_1288752602Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1327015343(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1327015343L))
-            info.setReturnValue(-846324819);
+            info.setReturnValue(-489465719);
     }
 
     @Inject(at = @At("HEAD"), method = "downloaded()Ljava/util/Map;", cancellable = true)

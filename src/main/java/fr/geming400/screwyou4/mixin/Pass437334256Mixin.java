@@ -16,18 +16,24 @@ public class Pass437334256Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__698125719(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-698125719L))
-            info.setReturnValue("<1꧘:t6J:E坩&#-\"4+f,Nꊽ,H(oP渴咽G<S!=鼔kPP6sᷤl鴶");
+            info.setReturnValue("<1\uA9D8:t6J:E\u5769&#-\"4+f,N\uA2BD,H(oP\u6E34\uF99EG<S!=\u9F14kPP6s\u1DE4l\u9D36");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_475596998(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(475596998L))
-            info.setReturnValue(1186212192);
+            info.setReturnValue(797831092);
     }
 
     @Inject(at = @At("HEAD"), method = "inputs()Ljava/util/List;", cancellable = true)
     private void inputs_2063671072(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2063671072L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "uniforms()Ljava/util/Map;", cancellable = true)
+    private void uniforms__1567289384(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1567289384L))
             info.setReturnValue(null);
     }
 
@@ -52,12 +58,6 @@ public class Pass437334256Mixin {
     @Inject(at = @At("HEAD"), method = "outputTarget()Lnet/minecraft/resources/Identifier;", cancellable = true)
     private void outputTarget__2005732297(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2005732297L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "uniforms()Ljava/util/Map;", cancellable = true)
-    private void uniforms__1567289384(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1567289384L))
             info.setReturnValue(null);
     }
 

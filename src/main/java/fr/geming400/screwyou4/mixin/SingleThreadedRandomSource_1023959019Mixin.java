@@ -10,7 +10,7 @@ public class SingleThreadedRandomSource_1023959019Mixin {
         @Inject(at = @At("HEAD"), method = "next(I)I", cancellable = true)
     private void next__2057103799(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2057103799L))
-            info.setReturnValue(247286045);
+            info.setReturnValue(-485277655);
     }
 
     @Inject(at = @At("HEAD"), method = "fork()Lnet/minecraft/util/RandomSource;", cancellable = true)
@@ -28,7 +28,7 @@ public class SingleThreadedRandomSource_1023959019Mixin {
     @Inject(at = @At("HEAD"), method = "nextGaussian()D", cancellable = true)
     private void nextGaussian_1062216459(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1062216459L))
-            info.setReturnValue(9.267041009512198E8D);
+            info.setReturnValue(1.9414040095121986E8D);
     }
 
     @Inject(at = @At("HEAD"), method = "forkPositional()Lnet/minecraft/world/level/levelgen/PositionalRandomFactory;", cancellable = true)

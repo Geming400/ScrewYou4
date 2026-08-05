@@ -10,7 +10,7 @@ public class Orientation_1620579038Mixin {
         @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_485118566(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(485118566L))
-            info.setReturnValue("Sh>ᬚ");
+            info.setReturnValue("Sh>\u1B1A");
     }
 
     @Inject(at = @At("HEAD"), method = "of(Lnet/minecraft/core/Direction;Lnet/minecraft/core/Direction;Lnet/minecraft/world/level/redstone/Orientation$SideBias;)Lnet/minecraft/world/level/redstone/Orientation;", cancellable = true)
@@ -28,7 +28,7 @@ public class Orientation_1620579038Mixin {
     @Inject(at = @At("HEAD"), method = "getIndex()I", cancellable = true)
     private void getIndex_1658841283(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1658841283L))
-            info.setReturnValue(1295879345);
+            info.setReturnValue(1296812345);
     }
 
     @Inject(at = @At("HEAD"), method = "random(Lnet/minecraft/util/RandomSource;)Lnet/minecraft/world/level/redstone/Orientation;", cancellable = true)
@@ -37,9 +37,9 @@ public class Orientation_1620579038Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "withFrontAdjustSideBias(Lnet/minecraft/core/Direction;)Lnet/minecraft/world/level/redstone/Orientation;", cancellable = true)
-    private void withFrontAdjustSideBias_489752302(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(489752302L))
+    @Inject(at = @At("HEAD"), method = "getDirections()Ljava/util/List;", cancellable = true)
+    private void getDirections__1048051443(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1048051443L))
             info.setReturnValue(null);
     }
 
@@ -61,27 +61,21 @@ public class Orientation_1620579038Mixin {
             info.setReturnValue(net.minecraft.world.level.redstone.Orientation.SideBias.RIGHT);
     }
 
+    @Inject(at = @At("HEAD"), method = "withFrontAdjustSideBias(Lnet/minecraft/core/Direction;)Lnet/minecraft/world/level/redstone/Orientation;", cancellable = true)
+    private void withFrontAdjustSideBias_489752302(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(489752302L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "getVerticalDirections()Ljava/util/List;", cancellable = true)
     private void getVerticalDirections__1048051443(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1048051443L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getDirections()Ljava/util/List;", cancellable = true)
-    private void getDirections__1048051443(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1048051443L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "withMirror()Lnet/minecraft/world/level/redstone/Orientation;", cancellable = true)
-    private void withMirror__171117958(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-171117958L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "withUp(Lnet/minecraft/core/Direction;)Lnet/minecraft/world/level/redstone/Orientation;", cancellable = true)
-    private void withUp_489752302(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(489752302L))
+    @Inject(at = @At("HEAD"), method = "withSideBias(Lnet/minecraft/world/level/redstone/Orientation$SideBias;)Lnet/minecraft/world/level/redstone/Orientation;", cancellable = true)
+    private void withSideBias__570072122(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-570072122L))
             info.setReturnValue(null);
     }
 
@@ -97,21 +91,27 @@ public class Orientation_1620579038Mixin {
             info.setReturnValue(net.minecraft.core.Direction.NORTH);
     }
 
+    @Inject(at = @At("HEAD"), method = "withMirror()Lnet/minecraft/world/level/redstone/Orientation;", cancellable = true)
+    private void withMirror__171117958(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-171117958L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "getSide()Lnet/minecraft/core/Direction;", cancellable = true)
     private void getSide_857723752(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(857723752L))
             info.setReturnValue(net.minecraft.core.Direction.NORTH);
     }
 
-    @Inject(at = @At("HEAD"), method = "withFront(Lnet/minecraft/core/Direction;)Lnet/minecraft/world/level/redstone/Orientation;", cancellable = true)
-    private void withFront_489752302(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "withUp(Lnet/minecraft/core/Direction;)Lnet/minecraft/world/level/redstone/Orientation;", cancellable = true)
+    private void withUp_489752302(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(489752302L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "withSideBias(Lnet/minecraft/world/level/redstone/Orientation$SideBias;)Lnet/minecraft/world/level/redstone/Orientation;", cancellable = true)
-    private void withSideBias__570072122(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-570072122L))
+    @Inject(at = @At("HEAD"), method = "withFront(Lnet/minecraft/core/Direction;)Lnet/minecraft/world/level/redstone/Orientation;", cancellable = true)
+    private void withFront_489752302(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(489752302L))
             info.setReturnValue(null);
     }
 

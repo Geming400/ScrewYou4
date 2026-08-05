@@ -13,9 +13,9 @@ public class EnchantmentScreen_2050392907Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "containerTick()V", cancellable = true)
-    private void containerTick_2088667645(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(2088667645L))
+    @Inject(at = @At("HEAD"), method = "extractBackground(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIF)V", cancellable = true)
+    private void extractBackground_1090705534(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1090705534L))
             info.cancel();
     }
 
@@ -31,9 +31,9 @@ public class EnchantmentScreen_2050392907Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "extractBackground(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIF)V", cancellable = true)
-    private void extractBackground_1090705534(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1090705534L))
+    @Inject(at = @At("HEAD"), method = "containerTick()V", cancellable = true)
+    private void containerTick_2088667645(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(2088667645L))
             info.cancel();
     }
 

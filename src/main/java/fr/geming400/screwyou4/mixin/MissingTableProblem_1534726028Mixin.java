@@ -16,13 +16,13 @@ public class MissingTableProblem_1534726028Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_399266052(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(399266052L))
-            info.setReturnValue("g징:`{N('W2_n완X,J@P_돢퇼-߮nB");
+            info.setReturnValue("g\uC9D5:`{N('W2_n\uC644X,J@P_\uB3E2\uD1FC-\u07EEnB");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1572988769(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1572988769L))
-            info.setReturnValue(662544410);
+            info.setReturnValue(544861610);
     }
 
     @Inject(at = @At("HEAD"), method = "id()Lnet/minecraft/resources/ResourceKey;", cancellable = true)
@@ -34,7 +34,7 @@ public class MissingTableProblem_1534726028Mixin {
     @Inject(at = @At("HEAD"), method = "description()Ljava/lang/String;", cancellable = true)
     private void description_399265556(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(399265556L))
-            info.setReturnValue("PT)6纉8aL v+(9!F]k-䳊}%jpHC2<ジIt*6E푦5EN]FU-A7Ik`[V7e(4A/Ak8r丹RrxoV䧴E攎Q5qZHzV>/欩q晈>l侼cXP1:♦|(E");
+            info.setReturnValue("PT)6\u7E898aL v+(9!F]k-\u4CCA}%jpHC2<\u30B8It*6E\uD4665EN]FU-A7Ik`[V7e(4A/Ak8r\u4E39RrxoV\u49F4E\u650EQ5qZHzV>/\u6B29q\u6648>l\u4FBCcXP1:\u2666|(E");
     }
 
 

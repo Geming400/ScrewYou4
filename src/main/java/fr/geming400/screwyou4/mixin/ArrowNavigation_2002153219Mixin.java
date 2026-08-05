@@ -16,13 +16,13 @@ public class ArrowNavigation_2002153219Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_866693243(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(866693243L))
-            info.setReturnValue("JEi?az膟KaSC;^K+FMPﴎ8;J%rුw锏4");
+            info.setReturnValue("JEi?az\u819FKaSC;^K+FMP\uFD0E8;J%r\u0DD4w\u950F4");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2040415960(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2040415960L))
-            info.setReturnValue(247155705);
+            info.setReturnValue(586216805);
     }
 
     @Inject(at = @At("HEAD"), method = "with(Lnet/minecraft/client/gui/navigation/ScreenRectangle;)Lnet/minecraft/client/gui/navigation/FocusNavigationEvent$ArrowNavigation;", cancellable = true)
@@ -37,16 +37,16 @@ public class ArrowNavigation_2002153219Mixin {
             info.setReturnValue(net.minecraft.client.gui.navigation.ScreenDirection.UP);
     }
 
-    @Inject(at = @At("HEAD"), method = "previousFocus()Lnet/minecraft/client/gui/navigation/ScreenRectangle;", cancellable = true)
-    private void previousFocus__1117788774(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1117788774L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getVerticalDirectionForInitialFocus()Lnet/minecraft/client/gui/navigation/ScreenDirection;", cancellable = true)
     private void getVerticalDirectionForInitialFocus_1447465354(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1447465354L))
             info.setReturnValue(net.minecraft.client.gui.navigation.ScreenDirection.UP);
+    }
+
+    @Inject(at = @At("HEAD"), method = "previousFocus()Lnet/minecraft/client/gui/navigation/ScreenRectangle;", cancellable = true)
+    private void previousFocus__1117788774(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1117788774L))
+            info.setReturnValue(null);
     }
 
 

@@ -19,12 +19,6 @@ public class DragonHoverPhase403379874Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getFlySpeed()F", cancellable = true)
-    private void getFlySpeed_441639237(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(441639237L))
-            info.setReturnValue(8.852583E8F);
-    }
-
     @Inject(at = @At("HEAD"), method = "doServerTick(Lnet/minecraft/server/level/ServerLevel;)V", cancellable = true)
     private void doServerTick__575029466(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-575029466L))
@@ -35,6 +29,12 @@ public class DragonHoverPhase403379874Mixin {
     private void getFlyTargetLocation_1501109403(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1501109403L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getFlySpeed()F", cancellable = true)
+    private void getFlySpeed_441639237(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(441639237L))
+            info.setReturnValue(4.990572E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "isSitting()Z", cancellable = true)

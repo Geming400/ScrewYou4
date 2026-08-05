@@ -22,13 +22,13 @@ public class ClientboundDebugBlockValuePacket571267454Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__564192521(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-564192521L))
-            info.setReturnValue("FjB{*w驸Ive`䤘\"!3<`sh쭜hXH?LdSO'@f0s潻pbR&lA?寷eM-lyꓳ%!/8i0>.ﱋRRヽNc6졋szpB/K'gKq:&ᦲB+z<깮-1A鷭ⶍhgSRB小\"e[l");
+            info.setReturnValue("FjB{*w\u9A78Ive`\u4918\"!3<`sh\uCB5ChXH?LdSO'@f0s\u6F7BpbR&lA?\u5BF7eM-ly\uA4F3%!/8i0>.\uFC4BRR\u30FDNc6\uC84BszpB/K'gKq:&\u19B2B+z<\uAE6E-1A\u9DED\u2D8DhgSRB\u5C0F\"e[l");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_609530196(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(609530196L))
-            info.setReturnValue(693901510);
+            info.setReturnValue(1053364310);
     }
 
     @Inject(at = @At("HEAD"), method = "update()Lnet/minecraft/util/debug/DebugSubscription$Update;", cancellable = true)

@@ -7,15 +7,15 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.client.renderer.entity.ZombieVillagerRenderer.class)
 public class ZombieVillagerRenderer112844259Mixin {
-        @Inject(at = @At("HEAD"), method = "getTextureLocation(Lnet/minecraft/client/renderer/entity/state/LivingEntityRenderState;)Lnet/minecraft/resources/Identifier;", cancellable = true)
-    private void getTextureLocation_2115480892(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2115480892L))
+        @Inject(at = @At("HEAD"), method = "getTextureLocation(Lnet/minecraft/client/renderer/entity/state/ZombieVillagerRenderState;)Lnet/minecraft/resources/Identifier;", cancellable = true)
+    private void getTextureLocation_301459036(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(301459036L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getTextureLocation(Lnet/minecraft/client/renderer/entity/state/ZombieVillagerRenderState;)Lnet/minecraft/resources/Identifier;", cancellable = true)
-    private void getTextureLocation_301459036(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(301459036L))
+    @Inject(at = @At("HEAD"), method = "getTextureLocation(Lnet/minecraft/client/renderer/entity/state/LivingEntityRenderState;)Lnet/minecraft/resources/Identifier;", cancellable = true)
+    private void getTextureLocation_2115480892(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2115480892L))
             info.setReturnValue(null);
     }
 

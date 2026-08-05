@@ -31,34 +31,34 @@ public class ColorParticleOption1371158576Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "streamCodec(Lnet/minecraft/core/particles/ParticleType;)Lnet/minecraft/network/codec/StreamCodec;", cancellable = true)
-    private static void streamCodec_728112669(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(728112669L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getBlue()F", cancellable = true)
-    private void getBlue_1409417939(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "getGreen()F", cancellable = true)
+    private void getGreen_1409417939(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1409417939L))
-            info.setReturnValue(2.79198E8F);
+            info.setReturnValue(2.80869E7F);
     }
 
     @Inject(at = @At("HEAD"), method = "getAlpha()F", cancellable = true)
     private void getAlpha_1409417939(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1409417939L))
-            info.setReturnValue(2.79198E8F);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getGreen()F", cancellable = true)
-    private void getGreen_1409417939(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1409417939L))
-            info.setReturnValue(2.79198E8F);
+            info.setReturnValue(2.80869E7F);
     }
 
     @Inject(at = @At("HEAD"), method = "getRed()F", cancellable = true)
     private void getRed_1409417939(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1409417939L))
-            info.setReturnValue(2.79198E8F);
+            info.setReturnValue(2.80869E7F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getBlue()F", cancellable = true)
+    private void getBlue_1409417939(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1409417939L))
+            info.setReturnValue(2.80869E7F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "streamCodec(Lnet/minecraft/core/particles/ParticleType;)Lnet/minecraft/network/codec/StreamCodec;", cancellable = true)
+    private static void streamCodec_728112669(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(728112669L))
+            info.setReturnValue(null);
     }
 
 

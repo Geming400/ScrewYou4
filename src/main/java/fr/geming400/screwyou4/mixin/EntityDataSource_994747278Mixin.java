@@ -16,13 +16,13 @@ public class EntityDataSource_994747278Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__140712698(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-140712698L))
-            info.setReturnValue("jDࠊ<.9B⥨ᕌ@싶bqX%g9X8I0h+ﻯ;{5DrD|䦕D.@SxO1,귇");
+            info.setReturnValue("jD\u080A<.9B\u2968\u154C@\uC2F6bqX%g9X8I0h+\uFEEF;{5DrD|\u4995D.@SxO1,\uADC7");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1033010019(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1033010019L))
-            info.setReturnValue(-359972209);
+            info.setReturnValue(196228891);
     }
 
     @Inject(at = @At("HEAD"), method = "selector()Lnet/minecraft/util/CompilableString;", cancellable = true)

@@ -16,13 +16,13 @@ public class Packed_939706868Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__195753108(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-195753108L))
-            info.setReturnValue("ꠊ\">hhB(TlHᮅGb?#=㗄{'-?7x픣Qx");
+            info.setReturnValue("\uA80A\">hhB(TlH\u1B85Gb?#=\u35C4{'-?7x\uD523Qx");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_977969609(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(977969609L))
-            info.setReturnValue(-653174883);
+            info.setReturnValue(-594223183);
     }
 
     @Inject(at = @At("HEAD"), method = "known()Ljava/util/List;", cancellable = true)
@@ -31,15 +31,15 @@ public class Packed_939706868Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "highlight()Ljava/util/List;", cancellable = true)
-    private void highlight__1728923613(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1728923613L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "settings()Lnet/minecraft/stats/RecipeBookSettings;", cancellable = true)
     private void settings__127378973(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-127378973L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "highlight()Ljava/util/List;", cancellable = true)
+    private void highlight__1728923613(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1728923613L))
             info.setReturnValue(null);
     }
 

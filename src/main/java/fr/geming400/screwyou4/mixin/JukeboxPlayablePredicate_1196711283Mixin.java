@@ -16,13 +16,13 @@ public class JukeboxPlayablePredicate_1196711283Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_61251307(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(61251307L))
-            info.setReturnValue("Vyt{kc_%gQ&D347.w#Jt!萺]蟉諸1Ji&goq `2y賗me3a]");
+            info.setReturnValue("Vyt{kc_%gQ&D347.w#Jt!\u843A]\u87C9\uFABA1Ji&goq `2y\u8CD7me3a]");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1234974024(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1234974024L))
-            info.setReturnValue(-1490552791);
+            info.setReturnValue(-771507091);
     }
 
     @Inject(at = @At("HEAD"), method = "componentType()Lnet/minecraft/core/component/DataComponentType;", cancellable = true)

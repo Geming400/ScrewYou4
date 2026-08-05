@@ -16,13 +16,13 @@ public class BlockPredicate_1694009826Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_558549850(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(558549850L))
-            info.setReturnValue("|j{QG䬱vCC9BVdjweS<I0E73qRlD4I+wK9X)L!`a{6 7#P浻(꘢_W='ke%o@t");
+            info.setReturnValue("|j{QG\u4B31vCC9BVdjweS<I0E73qRlD4I+wK9X)L!`a{6 7#P\u6D7B(\uA622_W='ke%o@t");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1732272567(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1732272567L))
-            info.setReturnValue(-1274502153);
+            info.setReturnValue(-768859253);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;)Z", cancellable = true)

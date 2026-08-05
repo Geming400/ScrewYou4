@@ -28,13 +28,13 @@ public class Broken_1996106053Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_860646077(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(860646077L))
-            info.setReturnValue("J[:ᅥt䳷쩐9Lz)6TC2|>D52xqHe0Uc獫,Y剢a顃J$8yMqU1 <64(,,◃B&I6is[e8gHῴE|'UY:.u(YLz{AWQjU?zJ鼃w:N");
+            info.setReturnValue("J[:\u1165t\u4CF7\uCA509Lz)6TC2|>D52xqHe0Uc\u736B,Y\u5262a\u9843J$8yMqU1 <64(,,\u25C3B&I6is[e8gH\u1FF4E|'UY:.u(YLz{AWQjU?zJ\u9F03w:N");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2034368794(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2034368794L))
-            info.setReturnValue(-5241083);
+            info.setReturnValue(-175236383);
     }
 
 

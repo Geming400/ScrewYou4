@@ -13,16 +13,16 @@ public class FarmlandBlock1444726238Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
-    private void getStateForPlacement_186126471(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(186126471L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "fallOn(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/Entity;D)V", cancellable = true)
     private void fallOn__1476436222(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1476436222L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
+    private void getStateForPlacement_186126471(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(186126471L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "turnToDirt(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;)V", cancellable = true)

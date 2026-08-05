@@ -22,25 +22,25 @@ public class CopyOnWriteFSPath_1287623729Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_152163257(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(152163257L))
-            info.setReturnValue("蚬\"(c-Sab⢸티穋w88N{*.6:MRxY[9PHaUx_콁/^E[X3k*ᨏ*Y#K6iWr RBṄD\"");
+            info.setReturnValue("\u86AC\"(c-Sab\u28B8\uD2F0\u7A4Bw88N{*.6:MRxY[9PHaUx_\uCF41/^E[X3k*\u1A0F*Y#K6iWr RB\u1E44D\"");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1325885974(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1325885974L))
-            info.setReturnValue(-1768702403);
+            info.setReturnValue(-1626249503);
     }
 
     @Inject(at = @At("HEAD"), method = "compareTo(Ljava/lang/Object;)I", cancellable = true)
     private void compareTo__1621719182(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1621719182L))
-            info.setReturnValue(-33772663);
+            info.setReturnValue(108680237);
     }
 
     @Inject(at = @At("HEAD"), method = "compareTo(Ljava/nio/file/Path;)I", cancellable = true)
     private void compareTo__1400069259(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1400069259L))
-            info.setReturnValue(1380156552);
+            info.setReturnValue(1522609452);
     }
 
     @Inject(at = @At("HEAD"), method = "startsWith(Ljava/nio/file/Path;)Z", cancellable = true)
@@ -184,7 +184,7 @@ public class CopyOnWriteFSPath_1287623729Mixin {
     @Inject(at = @At("HEAD"), method = "getNameCount()I", cancellable = true)
     private void getNameCount_1325885974(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1325885974L))
-            info.setReturnValue(-1768702403);
+            info.setReturnValue(-1626249503);
     }
 
     @Inject(at = @At("HEAD"), method = "relativize(Ljava/nio/file/Path;)Ljava/nio/file/Path;", cancellable = true)

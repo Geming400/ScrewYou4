@@ -10,7 +10,7 @@ public class ParamInfo_1578945155Mixin {
         @Inject(at = @At("HEAD"), method = "name()Ljava/lang/String;", cancellable = true)
     private void name_443484683(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(443484683L))
-            info.setReturnValue("-WTNq}'aK薁n]yPCJ8TXN@*;ꨔ6x&䴷룍V(m_:mc{;Ss薢jn$㘄^إ*'EEyG1*tqF)Q赻Rcr!H둹m#fFPOI蜰$^#+o+_3o35");
+            info.setReturnValue("-WTNq}'aK\u8581n]yPCJ8TXN@*;\uAA146x&\u4D37\uB8CDV(m_:mc{;Ss\u85A2jn$\u3604^\u0625*'EEyG1*tqF)Q\u8D7BRcr!H\uB479m#fFPOI\u8730$^#+o+_3o35");
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
@@ -22,19 +22,13 @@ public class ParamInfo_1578945155Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_443485179(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(443485179L))
-            info.setReturnValue("a9[ulpoHM}`nzH㭿&;rE8cRa");
+            info.setReturnValue("a9[ulpoHM}`nzH\u3B7F&;rE8cRa");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1617207896(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1617207896L))
-            info.setReturnValue(1474530696);
-    }
-
-    @Inject(at = @At("HEAD"), method = "typedCodec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
-    private static void typedCodec__980168170(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-980168170L))
-            info.setReturnValue(null);
+            info.setReturnValue(-2099238200);
     }
 
     @Inject(at = @At("HEAD"), method = "schema()Lnet/minecraft/server/jsonrpc/api/Schema;", cancellable = true)
@@ -47,6 +41,12 @@ public class ParamInfo_1578945155Mixin {
     private void required_1617223737(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1617223737L))
             info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "typedCodec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
+    private static void typedCodec__980168170(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-980168170L))
+            info.setReturnValue(null);
     }
 
 

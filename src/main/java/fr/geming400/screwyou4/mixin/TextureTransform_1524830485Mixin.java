@@ -10,7 +10,7 @@ public class TextureTransform_1524830485Mixin {
         @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_389370013(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(389370013L))
-            info.setReturnValue("4f|*싧I^&W|Tk枸廆m");
+            info.setReturnValue("4f|*\uC2E7I^&W|Tk\u67B8\u5EC6m");
     }
 
     @Inject(at = @At("HEAD"), method = "createMatrix()Lorg/joml/Matrix4f;", cancellable = true)

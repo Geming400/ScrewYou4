@@ -10,7 +10,7 @@ public class PartNames1681726567Mixin {
         @Inject(at = @At("HEAD"), method = "tentacle(I)Ljava/lang/String;", cancellable = true)
     private static void tentacle_260857231(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(260857231L))
-            info.setReturnValue("h睫/KpS榴쉠#3jCV*.k ꘦&s^Zoꫦ>6df1㧂nFznO䡏>3Yv]fSJWYH=jk箻)>읹/쮈dviy(;=[e6歚y|^");
+            info.setReturnValue("h\u776B/KpS\u69B4\uC260#3jCV*.k \uA626&s^Zo\uAAE6>6df1\u39C2nFznO\u484F>3Yv]fSJWYH=jk\u7BBB)>\uC779/\uCB88dviy(;=[e6\u6B5Ay|^");
     }
 
 

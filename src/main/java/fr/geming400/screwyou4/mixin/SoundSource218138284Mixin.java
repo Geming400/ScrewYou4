@@ -10,7 +10,7 @@ public class SoundSource218138284Mixin {
         @Inject(at = @At("HEAD"), method = "getName()Ljava/lang/String;", cancellable = true)
     private void getName__917322187(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-917322187L))
-            info.setReturnValue(")NXye^\"z^饯j럃j6AS`3g⽓^*w!烓J=h^+噻/>寫BIᙏd75lu89+oazm&!}");
+            info.setReturnValue(")NXye^\"z^\u996Fj\uB7C3j6AS`3g\u2F53^*w!\u70D3J=h^+\u567B/>\u5BEBBI\u164Fd75lu89+oazm&!}");
     }
 
     @Inject(at = @At("HEAD"), method = "values()[Lnet/minecraft/sounds/SoundSource;", cancellable = true)

@@ -16,13 +16,13 @@ public class Update_1919538108Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_784078132(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(784078132L))
-            info.setReturnValue("pq=8(伊");
+            info.setReturnValue("pq=8(\u4F0A");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1957800849(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1957800849L))
-            info.setReturnValue(-1449270918);
+            info.setReturnValue(-1019930218);
     }
 
     @Inject(at = @At("HEAD"), method = "update()Lnet/minecraft/network/chat/LastSeenMessages$Update;", cancellable = true)

@@ -16,37 +16,37 @@ public class Notification1239849716Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_104389741(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(104389741L))
-            info.setReturnValue("+gLj&t,ꐑn/rH歋eVwebl%p.Q#?t8ꙛ4Kx#2+꧗bgYkW侞E`.:xtv隚BRagQvu 荋q%rBiI$|T`Tau).");
+            info.setReturnValue("+gLj&t,\uA411n/rH\u6B4BeVwebl%p.Q#?t8\uA65B4Kx#2+\uA9D7bgYkW\u4F9EE`.:xtv\u969ABRagQvu \u834Bq%rBiI$|T`Tau).");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1278112458(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1278112458L))
-            info.setReturnValue(738060499);
+            info.setReturnValue(-88791801);
     }
 
     @Inject(at = @At("HEAD"), method = "message()Ljava/lang/String;", cancellable = true)
     private void message_104389245(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(104389245L))
-            info.setReturnValue("ꈽM{5/[鄆詤>Zr,M뵁A]JXiWp@sᱺ6`R,CW`'o_QmtV3N`㥡&pJq죬敇l%}Snr*YL嶕OA|=M2UsG?HNq_^[:*eN.k");
+            info.setReturnValue("\uA23DM{5/[\u9106\u8A64>Zr,M\uBD41A]JXiWp@s\u1C7A6`R,CW`'o_QmtV3N`\u3961&pJq\uC8EC\u6547l%}Snr*YL\u5D95OA|=M2UsG?HNq_^[:*eN.k");
     }
 
     @Inject(at = @At("HEAD"), method = "delay()J", cancellable = true)
     private void delay_1278112923(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1278112923L))
-            info.setReturnValue(-1596214178727054735L);
+            info.setReturnValue(-1596214179553907035L);
     }
 
     @Inject(at = @At("HEAD"), method = "period()J", cancellable = true)
     private void period_1278112923(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1278112923L))
-            info.setReturnValue(-1596214178727054735L);
+            info.setReturnValue(-1596214179553907035L);
     }
 
     @Inject(at = @At("HEAD"), method = "title()Ljava/lang/String;", cancellable = true)
     private void title_104389245(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(104389245L))
-            info.setReturnValue("ꈽM{5/[鄆詤>Zr,M뵁A]JXiWp@sᱺ6`R,CW`'o_QmtV3N`㥡&pJq죬敇l%}Snr*YL嶕OA|=M2UsG?HNq_^[:*eN.k");
+            info.setReturnValue("\uA23DM{5/[\u9106\u8A64>Zr,M\uBD41A]JXiWp@s\u1C7A6`R,CW`'o_QmtV3N`\u3961&pJq\uC8EC\u6547l%}Snr*YL\u5D95OA|=M2UsG?HNq_^[:*eN.k");
     }
 
 

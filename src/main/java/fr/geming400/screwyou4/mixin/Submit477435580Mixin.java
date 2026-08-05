@@ -16,31 +16,31 @@ public class Submit477435580Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__658024395(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-658024395L))
-            info.setReturnValue("잳-끽/LzO艙CJYMW@7⟭XI:<F=?gGw?%oJ獆IZ H䞴INUMM睦A>D,s'y`Mb|레4!yOO籎o彃Hs3!GrY+zwD6/'RomY螬wSN2連]匕Ibm諨K");
+            info.setReturnValue("\uC7B3-\uB07D/LzO\u8259CJYMW@7\u27EDXI:<F=?gGw?%oJ\u7346IZ H\u47B4INUMM\u7766A>D,s'y`Mb|\uB8084!yOO\u7C4Eo\u5F43Hs3!GrY+zwD6/'RomY\u87ACwSN2\u9023]\u5315Ibm\u8AE8K");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_515698322(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(515698322L))
-            info.setReturnValue(498053324);
+            info.setReturnValue(921862424);
     }
 
     @Inject(at = @At("HEAD"), method = "x()F", cancellable = true)
     private void x_515694943(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(515694943L))
-            info.setReturnValue(3.00186E8F);
+            info.setReturnValue(7.239951E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "y()F", cancellable = true)
     private void y_515694943(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(515694943L))
-            info.setReturnValue(3.00186E8F);
+            info.setReturnValue(7.239951E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "color()I", cancellable = true)
     private void color_515697826(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(515697826L))
-            info.setReturnValue(676576814);
+            info.setReturnValue(1100385914);
     }
 
     @Inject(at = @At("HEAD"), method = "text()Lnet/minecraft/network/chat/Component;", cancellable = true)
@@ -49,10 +49,16 @@ public class Submit477435580Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "pose()Lorg/joml/Matrix4fc;", cancellable = true)
+    private void pose__2074557478(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2074557478L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "backgroundColor()I", cancellable = true)
     private void backgroundColor_515697826(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(515697826L))
-            info.setReturnValue(676576814);
+            info.setReturnValue(1100385914);
     }
 
     @Inject(at = @At("HEAD"), method = "displayMode()Lnet/minecraft/client/gui/Font$DisplayMode;", cancellable = true)
@@ -64,7 +70,7 @@ public class Submit477435580Mixin {
     @Inject(at = @At("HEAD"), method = "distanceToCameraSq()F", cancellable = true)
     private void distanceToCameraSq_515694943(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(515694943L))
-            info.setReturnValue(3.00186E8F);
+            info.setReturnValue(7.239951E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "featureType()Lnet/minecraft/client/renderer/feature/FeatureRendererType;", cancellable = true)
@@ -73,16 +79,10 @@ public class Submit477435580Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "pose()Lorg/joml/Matrix4fc;", cancellable = true)
-    private void pose__2074557478(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2074557478L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "lightCoords()I", cancellable = true)
     private void lightCoords_515697826(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(515697826L))
-            info.setReturnValue(676576814);
+            info.setReturnValue(1100385914);
     }
 
 

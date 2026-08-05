@@ -16,13 +16,13 @@ public class VanillaGiftLoot1891083509Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_755623534(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(755623534L))
-            info.setReturnValue("㣁!%G䞭u:>j쵉#(>h^");
+            info.setReturnValue("\u38C1!%G\u47ADu:>j\uCD49#(>h^");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1929346251(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1929346251L))
-            info.setReturnValue(-802116167);
+            info.setReturnValue(-337806067);
     }
 
     @Inject(at = @At("HEAD"), method = "generate(Ljava/util/function/BiConsumer;)V", cancellable = true)

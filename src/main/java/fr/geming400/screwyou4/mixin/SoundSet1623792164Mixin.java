@@ -22,13 +22,13 @@ public class SoundSet1623792164Mixin {
     @Inject(at = @At("HEAD"), method = "getIdentifier()Ljava/lang/String;", cancellable = true)
     private void getIdentifier_488331693(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(488331693L))
-            info.setReturnValue("9ZW鴹C:鱣X貜OCwkYr'zOBl䊺츘gu'^}uE젦N5迫s%3V#");
+            info.setReturnValue("9ZW\u9D39C:\u9C63X\u8C9COCwkYr'zOBl\u42BA\uCE18gu'^}uE\uC826N5\u8FEBs%3V#");
     }
 
     @Inject(at = @At("HEAD"), method = "getSoundEventIdentifier()Ljava/lang/String;", cancellable = true)
     private void getSoundEventIdentifier_488331693(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(488331693L))
-            info.setReturnValue("9ZW鴹C:鱣X貜OCwkYr'zOBl䊺츘gu'^}uE젦N5迫s%3V#");
+            info.setReturnValue("9ZW\u9D39C:\u9C63X\u8C9COCwkYr'zOBl\u42BA\uCE18gu'^}uE\uC826N5\u8FEBs%3V#");
     }
 
 

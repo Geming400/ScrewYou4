@@ -22,13 +22,13 @@ public class StyledFormat75043164Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__1060416811(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1060416811L))
-            info.setReturnValue("03'3\"v],4Lv'x&io_湔n$㌋\"6\"v㍑$-U[?gMc늼j$=tK:s闸}狶jV@D0greDp낼/OF1{[;7Be벬KqE3Kkmrꍲ], I\"{Q");
+            info.setReturnValue("03'3\"v],4Lv'x&io_\u6E54n$\u330B\"6\"v\u3351$-U[?gMc\uB2BCj$=tK:s\u95F8}\u72F6jV@D0greDp\uB0BC/OF1{[;7Be\uBCACKqE3Kkmr\uA372], I\"{Q");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_113305906(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(113305906L))
-            info.setReturnValue(1071793101);
+            info.setReturnValue(307473501);
     }
 
     @Inject(at = @At("HEAD"), method = "format(I)Lnet/minecraft/network/chat/MutableComponent;", cancellable = true)

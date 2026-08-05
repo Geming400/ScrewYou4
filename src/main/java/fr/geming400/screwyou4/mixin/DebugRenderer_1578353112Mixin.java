@@ -13,16 +13,16 @@ public class DebugRenderer_1578353112Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getTargetedEntity(Lnet/minecraft/world/entity/Entity;I)Ljava/util/Optional;", cancellable = true)
-    private static void getTargetedEntity_1179677885(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1179677885L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "refreshRendererList()V", cancellable = true)
     private void refreshRendererList_1616627850(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1616627850L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getTargetedEntity(Lnet/minecraft/world/entity/Entity;I)Ljava/util/Optional;", cancellable = true)
+    private static void getTargetedEntity_1179677885(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1179677885L))
+            info.setReturnValue(null);
     }
 
 

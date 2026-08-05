@@ -16,13 +16,13 @@ public class RespawnData1136737094Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_1277119(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1277119L))
-            info.setReturnValue("eFGqw/#}㹡B");
+            info.setReturnValue("eFGqw/#}\u3E61B");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1174999836(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1174999836L))
-            info.setReturnValue(884979753);
+            info.setReturnValue(1494343753);
     }
 
     @Inject(at = @At("HEAD"), method = "of(Lnet/minecraft/resources/ResourceKey;Lnet/minecraft/core/BlockPos;FF)Lnet/minecraft/world/level/storage/LevelData$RespawnData;", cancellable = true)
@@ -37,22 +37,22 @@ public class RespawnData1136737094Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "dimension()Lnet/minecraft/resources/ResourceKey;", cancellable = true)
-    private void dimension_1945228407(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1945228407L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "pitch()F", cancellable = true)
     private void pitch_1174996457(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1174996457L))
-            info.setReturnValue(1.5974801E7F);
+            info.setReturnValue(6.253388E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "yaw()F", cancellable = true)
     private void yaw_1174996457(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1174996457L))
-            info.setReturnValue(1.5974801E7F);
+            info.setReturnValue(6.253388E8F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "dimension()Lnet/minecraft/resources/ResourceKey;", cancellable = true)
+    private void dimension_1945228407(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1945228407L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "globalPos()Lnet/minecraft/core/GlobalPos;", cancellable = true)

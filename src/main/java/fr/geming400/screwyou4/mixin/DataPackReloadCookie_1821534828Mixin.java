@@ -16,13 +16,13 @@ public class DataPackReloadCookie_1821534828Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_686074852(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(686074852L))
-            info.setReturnValue("$M⬮3{ﮥI21<{W-{vMf_bQZQmbx飴");
+            info.setReturnValue("$M\u2B2E3{\uFBA5I21<{W-{vMf_bQZQmbx\u98F4");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1859797569(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1859797569L))
-            info.setReturnValue(808710023);
+            info.setReturnValue(1011793823);
     }
 
     @Inject(at = @At("HEAD"), method = "worldGenSettings()Lnet/minecraft/world/level/levelgen/WorldGenSettings;", cancellable = true)

@@ -25,15 +25,15 @@ public class ArmorStandRenderer912853230Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getTextureLocation(Lnet/minecraft/client/renderer/entity/state/LivingEntityRenderState;)Lnet/minecraft/resources/Identifier;", cancellable = true)
-    private void getTextureLocation__1379477433(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1379477433L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getTextureLocation(Lnet/minecraft/client/renderer/entity/state/ArmorStandRenderState;)Lnet/minecraft/resources/Identifier;", cancellable = true)
     private void getTextureLocation__1294517700(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1294517700L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getTextureLocation(Lnet/minecraft/client/renderer/entity/state/LivingEntityRenderState;)Lnet/minecraft/resources/Identifier;", cancellable = true)
+    private void getTextureLocation__1379477433(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1379477433L))
             info.setReturnValue(null);
     }
 

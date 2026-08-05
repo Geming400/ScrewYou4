@@ -22,13 +22,13 @@ public class StonecutterRecipeDisplay1358457704Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_222997729(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(222997729L))
-            info.setReturnValue("R0Nꜯ[^");
+            info.setReturnValue("R0N\uA72F[^");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1396720446(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1396720446L))
-            info.setReturnValue(-1706127002);
+            info.setReturnValue(-1751989402);
     }
 
     @Inject(at = @At("HEAD"), method = "result()Lnet/minecraft/world/item/crafting/display/SlotDisplay;", cancellable = true)

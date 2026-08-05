@@ -22,13 +22,13 @@ public class StandAlone1688550182Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_553090207(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(553090207L))
-            info.setReturnValue("4b#aoZsG0qD?>NAb}pOZ}v蚒P)G9}奈CXo筓l}㟌^(镲'萮zGIB");
+            info.setReturnValue("4b#aoZsG0qD?>NAb}pOZ}v\u8692P)G9}\uF90CCXo\u7B53l}\u37CC^(\u9572'\u842EzGIB");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1726812924(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1726812924L))
-            info.setReturnValue(1669155007);
+            info.setReturnValue(1095795707);
     }
 
     @Inject(at = @At("HEAD"), method = "apply(Ljava/util/List;)Ljava/util/List;", cancellable = true)

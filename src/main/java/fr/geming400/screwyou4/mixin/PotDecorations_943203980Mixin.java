@@ -16,13 +16,13 @@ public class PotDecorations_943203980Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__192255996(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-192255996L))
-            info.setReturnValue("_\"M}n/N&W0좲﹦qQ4H?﮼8ꋿ\" ;XE*U;퐕f쓗 ={S䚾Y猈\"(V0{Uf$*p뿏r攭kmX@a%+\"仙");
+            info.setReturnValue("_\"M}n/N&W0\uC8B2\uFE66qQ4H?\uFBBC8\uA2FF\" ;XE*U;\uD415f\uC4D7 ={S\u46BEY\u7308\"(V0{Uf$*p\uBFCFr\u652DkmX@a%+\"\u4ED9");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_981466721(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(981466721L))
-            info.setReturnValue(797998744);
+            info.setReturnValue(353971844);
     }
 
     @Inject(at = @At("HEAD"), method = "left()Ljava/util/Optional;", cancellable = true)

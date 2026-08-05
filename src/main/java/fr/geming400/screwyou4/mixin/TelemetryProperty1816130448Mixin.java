@@ -22,7 +22,7 @@ public class TelemetryProperty1816130448Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1854393190(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1854393190L))
-            info.setReturnValue(-1530419646);
+            info.setReturnValue(-1209874046);
     }
 
     @Inject(at = @At("HEAD"), method = "id()Ljava/lang/String;", cancellable = true)
@@ -67,9 +67,9 @@ public class TelemetryProperty1816130448Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "uuid(Ljava/lang/String;Ljava/lang/String;)Lnet/minecraft/client/telemetry/TelemetryProperty;", cancellable = true)
-    private static void uuid_1606306522(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1606306522L))
+    @Inject(at = @At("HEAD"), method = "exporter()Lnet/minecraft/client/telemetry/TelemetryProperty$Exporter;", cancellable = true)
+    private void exporter__1946744073(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1946744073L))
             info.setReturnValue(null);
     }
 
@@ -79,9 +79,15 @@ public class TelemetryProperty1816130448Mixin {
             info.setReturnValue("LDs-UjKeA8");
     }
 
-    @Inject(at = @At("HEAD"), method = "exporter()Lnet/minecraft/client/telemetry/TelemetryProperty$Exporter;", cancellable = true)
-    private void exporter__1946744073(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1946744073L))
+    @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/Codec;", cancellable = true)
+    private void codec_1424164822(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1424164822L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "uuid(Ljava/lang/String;Ljava/lang/String;)Lnet/minecraft/client/telemetry/TelemetryProperty;", cancellable = true)
+    private static void uuid_1606306522(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1606306522L))
             info.setReturnValue(null);
     }
 
@@ -91,20 +97,14 @@ public class TelemetryProperty1816130448Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/Codec;", cancellable = true)
-    private void codec_1424164822(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1424164822L))
+    @Inject(at = @At("HEAD"), method = "longSamples(Ljava/lang/String;Ljava/lang/String;)Lnet/minecraft/client/telemetry/TelemetryProperty;", cancellable = true)
+    private static void longSamples_1606306522(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1606306522L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "gameLoadMeasurement(Ljava/lang/String;Ljava/lang/String;)Lnet/minecraft/client/telemetry/TelemetryProperty;", cancellable = true)
     private static void gameLoadMeasurement_1606306522(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1606306522L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "longSamples(Ljava/lang/String;Ljava/lang/String;)Lnet/minecraft/client/telemetry/TelemetryProperty;", cancellable = true)
-    private static void longSamples_1606306522(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1606306522L))
             info.setReturnValue(null);
     }

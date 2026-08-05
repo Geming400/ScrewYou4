@@ -16,19 +16,19 @@ public class Type537496799Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__597963672(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-597963672L))
-            info.setReturnValue("LE惖x");
+            info.setReturnValue("LE\u60D6x");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_575759541(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(575759541L))
-            info.setReturnValue(1890620910);
+            info.setReturnValue(1246060010);
     }
 
     @Inject(at = @At("HEAD"), method = "id()Ljava/lang/String;", cancellable = true)
     private void id__597963672(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-597963672L))
-            info.setReturnValue("LE惖x");
+            info.setReturnValue("LE\u60D6x");
     }
 
 

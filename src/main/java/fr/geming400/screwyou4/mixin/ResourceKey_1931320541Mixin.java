@@ -10,7 +10,7 @@ public class ResourceKey_1931320541Mixin {
         @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_795860069(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(795860069L))
-            info.setReturnValue("j7_E3`H띳ోgr*_荕[&V0R2E赗7hTnuj3 &*2ox#A庣;6썺j4@Xo't&뢈Or䱉utMT.W)|2GVaPSr黲o五y");
+            info.setReturnValue("j7_E3`H\uB773\u0C4Bgr*_\u8355[&V0R2E\u8D577hTnuj3 &*2ox#A\u5EA3;6\uC37Aj4@Xo't&\uB888Or\u4C49utMT.W)|2GVaPSr\u9EF2o\u4E94y");
     }
 
     @Inject(at = @At("HEAD"), method = "cast(Lnet/minecraft/resources/ResourceKey;)Ljava/util/Optional;", cancellable = true)
@@ -55,6 +55,12 @@ public class ResourceKey_1931320541Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "registryKey()Lnet/minecraft/resources/ResourceKey;", cancellable = true)
+    private void registryKey__1555155443(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1555155443L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "createRegistryKey(Lnet/minecraft/resources/Identifier;)Lnet/minecraft/resources/ResourceKey;", cancellable = true)
     private static void createRegistryKey_2080190349(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2080190349L))
@@ -70,12 +76,6 @@ public class ResourceKey_1931320541Mixin {
     @Inject(at = @At("HEAD"), method = "streamCodec(Lnet/minecraft/resources/ResourceKey;)Lnet/minecraft/network/codec/StreamCodec;", cancellable = true)
     private static void streamCodec__1348422636(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1348422636L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "registryKey()Lnet/minecraft/resources/ResourceKey;", cancellable = true)
-    private void registryKey__1555155443(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1555155443L))
             info.setReturnValue(null);
     }
 

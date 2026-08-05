@@ -16,13 +16,13 @@ public class GuiMetadataSection221534157Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__913925818(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-913925818L))
-            info.setReturnValue("40%YtW择Qe眻H}惪t4-⢭oC㈛MnZd+c⨘Pcg6pI{뉹킐Gny&5T캊,+n_q'#0}2;G^埘\"76NQBIP8\"qXNB;PAisHHEuAU");
+            info.setReturnValue("40%YtW\u62E9Qe\u773BH}\u60EAt4-\u28ADoC\u321BMnZd+c\u2A18Pcg6pI{\uB279\uD090Gny&5T\uCE8A,+n_q'#0}2;G^\u57D8\"76NQBIP8\"qXNB;PAisHHEuAU");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_259796899(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(259796899L))
-            info.setReturnValue(20637877);
+            info.setReturnValue(650569577);
     }
 
     @Inject(at = @At("HEAD"), method = "scaling()Lnet/minecraft/client/resources/metadata/gui/GuiSpriteScaling;", cancellable = true)

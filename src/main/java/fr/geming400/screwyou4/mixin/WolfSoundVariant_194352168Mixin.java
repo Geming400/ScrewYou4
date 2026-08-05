@@ -16,23 +16,23 @@ public class WolfSoundVariant_194352168Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__941107808(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-941107808L))
-            info.setReturnValue("XAFdi0dz}2祈稏쮉_ᚉKlJdSፐwg0cz:M");
+            info.setReturnValue("XAFdi0dz}2\u7948\u7A0F\uCB89_\u1689KlJdS\u1350wg0cz:M");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_232614909(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(232614909L))
-            info.setReturnValue(-820215384);
-    }
-
-    @Inject(at = @At("HEAD"), method = "babySounds()Lnet/minecraft/world/entity/animal/wolf/WolfSoundVariant$WolfSoundSet;", cancellable = true)
-    private void babySounds__803825191(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-803825191L))
-            info.setReturnValue(null);
+            info.setReturnValue(-637236584);
     }
 
     @Inject(at = @At("HEAD"), method = "adultSounds()Lnet/minecraft/world/entity/animal/wolf/WolfSoundVariant$WolfSoundSet;", cancellable = true)
     private void adultSounds__803825191(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-803825191L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "babySounds()Lnet/minecraft/world/entity/animal/wolf/WolfSoundVariant$WolfSoundSet;", cancellable = true)
+    private void babySounds__803825191(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-803825191L))
             info.setReturnValue(null);
     }

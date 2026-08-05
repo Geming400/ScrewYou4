@@ -16,25 +16,25 @@ public class RespawnConfig_1145013766Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_9553790(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(9553790L))
-            info.setReturnValue("]GT것'sE㘏Z\"YEh3be눨^폽}v窹qAg+'gkaYAF3}hX)絀/듫堗Y.@_f,p)$F`vCeK`waoSyV5$xhX]*ࠧakw뒏W:;+t=");
+            info.setReturnValue("]GT\uAC83'sE\u360FZ\"YEh3be\uB228^\uD3FD}v\u7AB9qAg+'gkaYAF3}hX)\u7D40/\uB4EB\u5817Y.@_f,p)$F`vCeK`waoSyV5$xhX]*\u0827akw\uB48FW:;+t=");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1183276507(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1183276507L))
-            info.setReturnValue(-1497429284);
-    }
-
-    @Inject(at = @At("HEAD"), method = "respawnData()Lnet/minecraft/world/level/storage/LevelData$RespawnData;", cancellable = true)
-    private void respawnData_554053885(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(554053885L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1002691984);
     }
 
     @Inject(at = @At("HEAD"), method = "forced()Z", cancellable = true)
     private void forced_1183292348(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1183292348L))
             info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "respawnData()Lnet/minecraft/world/level/storage/LevelData$RespawnData;", cancellable = true)
+    private void respawnData_554053885(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(554053885L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "isSamePosition(Lnet/minecraft/server/level/ServerPlayer$RespawnConfig;)Z", cancellable = true)

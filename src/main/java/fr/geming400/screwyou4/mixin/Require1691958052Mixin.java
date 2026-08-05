@@ -22,7 +22,7 @@ public class Require1691958052Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1730220794(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1730220794L))
-            info.setReturnValue(-640011176);
+            info.setReturnValue(-356330176);
     }
 
     @Inject(at = @At("HEAD"), method = "check(Lnet/minecraft/server/permissions/PermissionSet;)Z", cancellable = true)

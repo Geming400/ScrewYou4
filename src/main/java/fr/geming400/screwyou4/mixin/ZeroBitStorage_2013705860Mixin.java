@@ -10,7 +10,7 @@ public class ZeroBitStorage_2013705860Mixin {
         @Inject(at = @At("HEAD"), method = "get(I)I", cancellable = true)
     private void get__1067356958(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1067356958L))
-            info.setReturnValue(1443637120);
+            info.setReturnValue(-1917533476);
     }
 
     @Inject(at = @At("HEAD"), method = "copy()Lnet/minecraft/util/BitStorage;", cancellable = true)
@@ -28,13 +28,13 @@ public class ZeroBitStorage_2013705860Mixin {
     @Inject(at = @At("HEAD"), method = "getSize()I", cancellable = true)
     private void getSize_2051968105(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2051968105L))
-            info.setReturnValue(-944147198);
+            info.setReturnValue(-10350498);
     }
 
     @Inject(at = @At("HEAD"), method = "getAndSet(II)I", cancellable = true)
     private void getAndSet_1017813897(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1017813897L))
-            info.setReturnValue(2131996730);
+            info.setReturnValue(-1229173866);
     }
 
     @Inject(at = @At("HEAD"), method = "getAll(Ljava/util/function/IntConsumer;)V", cancellable = true)
@@ -46,19 +46,19 @@ public class ZeroBitStorage_2013705860Mixin {
     @Inject(at = @At("HEAD"), method = "getBits()I", cancellable = true)
     private void getBits_2051968105(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2051968105L))
-            info.setReturnValue(-944147198);
-    }
-
-    @Inject(at = @At("HEAD"), method = "unpack([I)V", cancellable = true)
-    private void unpack_1533151108(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1533151108L))
-            info.cancel();
+            info.setReturnValue(-10350498);
     }
 
     @Inject(at = @At("HEAD"), method = "getRaw()[J", cancellable = true)
     private void getRaw__1095419119(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1095419119L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "unpack([I)V", cancellable = true)
+    private void unpack_1533151108(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1533151108L))
+            info.cancel();
     }
 
 

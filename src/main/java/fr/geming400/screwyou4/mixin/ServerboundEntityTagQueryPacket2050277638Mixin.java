@@ -25,16 +25,16 @@ public class ServerboundEntityTagQueryPacket2050277638Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getTransactionId()I", cancellable = true)
-    private void getTransactionId_2088539884(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2088539884L))
-            info.setReturnValue(-1746965229);
-    }
-
     @Inject(at = @At("HEAD"), method = "getEntityId()I", cancellable = true)
     private void getEntityId_2088539884(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2088539884L))
-            info.setReturnValue(-1746965229);
+            info.setReturnValue(-1764409629);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getTransactionId()I", cancellable = true)
+    private void getTransactionId_2088539884(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2088539884L))
+            info.setReturnValue(-1764409629);
     }
 
 

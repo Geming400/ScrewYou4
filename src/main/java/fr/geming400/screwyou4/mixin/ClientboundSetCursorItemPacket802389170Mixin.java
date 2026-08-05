@@ -22,13 +22,13 @@ public class ClientboundSetCursorItemPacket802389170Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__333070805(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-333070805L))
-            info.setReturnValue("UvLe뭁郍]>$n6*");
+            info.setReturnValue("UvLe\uBB41\u90CD]>$n6*");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_840651912(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(840651912L))
-            info.setReturnValue(934178464);
+            info.setReturnValue(639937764);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/PacketListener;)V", cancellable = true)

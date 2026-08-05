@@ -16,13 +16,13 @@ public class MultilineOptions1822002884Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_686542909(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(686542909L))
-            info.setReturnValue("d^Ὠnl］I%鮣16; AL*Qށ%9c䩅B**Yr*d햲蚭滫k鄹UIUcSh&!O柗F:");
+            info.setReturnValue("d^\u1F68nl\uFF3DI%\u9BA316; AL*Q\u0781%9c\u4A45B**Yr*d\uD5B2\u86AD\u6EEBk\u9139UIUcSh&!O\u67D7F:");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1860265626(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1860265626L))
-            info.setReturnValue(-1161428475);
+            info.setReturnValue(-1038230475);
     }
 
     @Inject(at = @At("HEAD"), method = "maxLines()Ljava/util/Optional;", cancellable = true)

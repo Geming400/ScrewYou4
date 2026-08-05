@@ -19,6 +19,24 @@ public class OS_510275168Mixin {
             info.setReturnValue(net.minecraft.util.Util.OS.LINUX);
     }
 
+    @Inject(at = @At("HEAD"), method = "openUri(Ljava/lang/String;)V", cancellable = true)
+    private void openUri_1662636316(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1662636316L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "openUri(Ljava/net/URI;)V", cancellable = true)
+    private void openUri_721274932(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(721274932L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "openFile(Ljava/io/File;)V", cancellable = true)
+    private void openFile__57656311(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-57656311L))
+            info.cancel();
+    }
+
     @Inject(at = @At("HEAD"), method = "openPath(Ljava/nio/file/Path;)V", cancellable = true)
     private void openPath_2117561969(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(2117561969L))
@@ -29,24 +47,6 @@ public class OS_510275168Mixin {
     private void telemetryName__625185304(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-625185304L))
             info.setReturnValue("JI;y>1/Ku--=");
-    }
-
-    @Inject(at = @At("HEAD"), method = "openUri(Ljava/net/URI;)V", cancellable = true)
-    private void openUri_721274932(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(721274932L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "openUri(Ljava/lang/String;)V", cancellable = true)
-    private void openUri_1662636316(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1662636316L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "openFile(Ljava/io/File;)V", cancellable = true)
-    private void openFile__57656311(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-57656311L))
-            info.cancel();
     }
 
 

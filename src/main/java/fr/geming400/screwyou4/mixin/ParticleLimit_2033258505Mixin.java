@@ -16,19 +16,19 @@ public class ParticleLimit_2033258505Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_897798529(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(897798529L))
-            info.setReturnValue("6HRL'<EX0O먍o 5Xt\"7䍶- &j,x4漙-Q.$$wIDw,PL難s2.꽄}\"(W4/`q9gcPEExd%");
+            info.setReturnValue("6HRL'<EX0O\uBA0Do 5Xt\"7\u4376- &j,x4\u6F19-Q.$$wIDw,PL\u96E3s2.\uAF44}\"(W4/`q9gcPEExd%");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2071521246(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2071521246L))
-            info.setReturnValue(1225334611);
+            info.setReturnValue(619056411);
     }
 
     @Inject(at = @At("HEAD"), method = "limit()I", cancellable = true)
     private void limit_2071520750(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2071520750L))
-            info.setReturnValue(1403858101);
+            info.setReturnValue(797579901);
     }
 
 

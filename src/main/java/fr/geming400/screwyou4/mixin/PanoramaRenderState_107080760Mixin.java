@@ -16,19 +16,19 @@ public class PanoramaRenderState_107080760Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__1028379216(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1028379216L))
-            info.setReturnValue("xp2nQ>Gl踑'}oAv媴2]VQh&Nr줼Cmqa㛪hc8Vb9%S,'8ESw]N1Tᨱ?23 9dBGLOl8-;Sc츕8Z]U82Nap茈u^t\"k");
+            info.setReturnValue("xp2nQ>Gl\u8E11'}oAv\u5AB42]VQh&Nr\uC93CCmqa\u36EAhc8Vb9%S,'8ESw]N1T\u1A31?23 9dBGLOl8-;Sc\uCE158Z]U82Nap\u8308u^t\"k");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_145343501(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(145343501L))
-            info.setReturnValue(-1732625511);
+            info.setReturnValue(-1710243911);
     }
 
     @Inject(at = @At("HEAD"), method = "spin()F", cancellable = true)
     private void spin_145340122(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(145340122L))
-            info.setReturnValue(8.106114E8F);
+            info.setReturnValue(8.32993E8F);
     }
 
 

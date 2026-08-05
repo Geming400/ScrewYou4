@@ -16,13 +16,13 @@ public class CustomSpawnRules_957009594Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__178450382(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-178450382L))
-            info.setReturnValue("@拔iO9崉瘏HeZ;≂EAC枓dl멨ꖔ#&f /to7撌");
+            info.setReturnValue("@\u62D4iO9\u5D09\u760FHeZ;\u2242EAC\u6793dl\uBA68\uA594#&f /to7\u648C");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_995272335(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(995272335L))
-            info.setReturnValue(-1943740544);
+            info.setReturnValue(-1933901244);
     }
 
     @Inject(at = @At("HEAD"), method = "blockLightLimit()Lnet/minecraft/util/InclusiveRange;", cancellable = true)

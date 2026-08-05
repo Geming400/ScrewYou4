@@ -16,13 +16,13 @@ public class DistanceToPlayerPredicate_832733752Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__302726224(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-302726224L))
-            info.setReturnValue("2흯Q䬤gp@ٹSr$@2IvGO[aP]hC皂qzY [s졷`");
+            info.setReturnValue("2\uD76FQ\u4B24gp@\u0679Sr$@2IvGO[aP]hC\u7682qzY [s\uC877`");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_870996493(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(870996493L))
-            info.setReturnValue(1950542652);
+            info.setReturnValue(1593213252);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/phys/Vec3;)Z", cancellable = true)

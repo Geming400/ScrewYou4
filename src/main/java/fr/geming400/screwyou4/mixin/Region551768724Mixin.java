@@ -10,7 +10,7 @@ public class Region551768724Mixin {
         @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__583691747(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-583691747L))
-            info.setReturnValue("}LᗶX\"E]XpG믞vXy2]|+u}qrE> {UXYp}i7^THIBk9>yW9釙Y8㨥TMfF?St48{!JnMyGT iosKO>?0");
+            info.setReturnValue("}L\u15F6X\"E]XpG\uBBDEvXy2]|+u}qrE> {UXYp}i7^THIBk9>yW9\u91D9Y8\u3A25TMfF?St48{!JnMyGT iosKO>?0");
     }
 
     @Inject(at = @At("HEAD"), method = "add(Lnet/minecraft/client/renderer/texture/Stitcher$Holder;)Z", cancellable = true)
@@ -28,13 +28,13 @@ public class Region551768724Mixin {
     @Inject(at = @At("HEAD"), method = "getY()I", cancellable = true)
     private void getY_590030970(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(590030970L))
-            info.setReturnValue(-1431696849);
+            info.setReturnValue(-1386087649);
     }
 
     @Inject(at = @At("HEAD"), method = "getX()I", cancellable = true)
     private void getX_590030970(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(590030970L))
-            info.setReturnValue(-1431696849);
+            info.setReturnValue(-1386087649);
     }
 
 

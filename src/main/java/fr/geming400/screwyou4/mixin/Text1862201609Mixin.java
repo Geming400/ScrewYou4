@@ -22,7 +22,7 @@ public class Text1862201609Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1900464351(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1900464351L))
-            info.setReturnValue(-1044647275);
+            info.setReturnValue(-1003231375);
     }
 
     @Inject(at = @At("HEAD"), method = "pos()Lnet/minecraft/world/phys/Vec3;", cancellable = true)
@@ -34,7 +34,7 @@ public class Text1862201609Mixin {
     @Inject(at = @At("HEAD"), method = "text()Ljava/lang/String;", cancellable = true)
     private void text_726741138(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(726741138L))
-            info.setReturnValue(".GUxu᧪WN}i鞅");
+            info.setReturnValue(".GUxu\u19EAWN}i\u9785");
     }
 
     @Inject(at = @At("HEAD"), method = "style()Lnet/minecraft/gizmos/TextGizmo$Style;", cancellable = true)

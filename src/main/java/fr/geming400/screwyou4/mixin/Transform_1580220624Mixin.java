@@ -16,13 +16,13 @@ public class Transform_1580220624Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_444760648(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(444760648L))
-            info.setReturnValue("Z1fE9n+#f!x&略{G73?P]K喠*8.@|eWXoub*r'l+wKUU)葢j8]ꌲOH7SS:?h?᱆|=Jax1>");
+            info.setReturnValue("Z1fE9n+#f!x&\uF976{G73?P]K\u55A0*8.@|eWXoub*r'l+wKUU)\u8462j8]\uA332OH7SS:?h?\u1C46|=Jax1>");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1618483365(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1618483365L))
-            info.setReturnValue(732875516);
+            info.setReturnValue(212754716);
     }
 
     @Inject(at = @At("HEAD"), method = "write(Ljava/nio/ByteBuffer;)V", cancellable = true)
@@ -31,9 +31,9 @@ public class Transform_1580220624Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "colorModulator()Lorg/joml/Vector4fc;", cancellable = true)
-    private void colorModulator__2140172817(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2140172817L))
+    @Inject(at = @At("HEAD"), method = "modelOffset()Lorg/joml/Vector3fc;", cancellable = true)
+    private void modelOffset_2126165328(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2126165328L))
             info.setReturnValue(null);
     }
 
@@ -43,9 +43,9 @@ public class Transform_1580220624Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "modelOffset()Lorg/joml/Vector3fc;", cancellable = true)
-    private void modelOffset_2126165328(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2126165328L))
+    @Inject(at = @At("HEAD"), method = "colorModulator()Lorg/joml/Vector4fc;", cancellable = true)
+    private void colorModulator__2140172817(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2140172817L))
             info.setReturnValue(null);
     }
 

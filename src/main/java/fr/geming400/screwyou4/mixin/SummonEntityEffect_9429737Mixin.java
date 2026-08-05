@@ -16,13 +16,13 @@ public class SummonEntityEffect_9429737Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__1126030239(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1126030239L))
-            info.setReturnValue("괩[4{kp5\"o%'9mᤥ알j%#");
+            info.setReturnValue("\uAD29[4{kp5\"o%'9m\u1925\uC54Cj%#");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_47692478(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(47692478L))
-            info.setReturnValue(-1611435636);
+            info.setReturnValue(-1069161736);
     }
 
     @Inject(at = @At("HEAD"), method = "apply(Lnet/minecraft/server/level/ServerLevel;ILnet/minecraft/world/item/enchantment/EnchantedItemInUse;Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/phys/Vec3;)V", cancellable = true)
@@ -31,16 +31,16 @@ public class SummonEntityEffect_9429737Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "joinTeam()Z", cancellable = true)
-    private void joinTeam_47708319(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(47708319L))
-            info.setReturnValue(false);
-    }
-
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
     private void codec_1745283460(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1745283460L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "joinTeam()Z", cancellable = true)
+    private void joinTeam_47708319(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(47708319L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "entityTypes()Lnet/minecraft/core/HolderSet;", cancellable = true)

@@ -28,7 +28,7 @@ public class Activity_1200129963Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1238392208(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1238392208L))
-            info.setReturnValue(99810421);
+            info.setReturnValue(-661359379);
     }
 
 

@@ -19,15 +19,15 @@ public class ShowTradesToPlayer1405210304Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "stop(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/npc/villager/Villager;J)V", cancellable = true)
-    private void stop_1289900243(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1289900243L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "stop(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/LivingEntity;J)V", cancellable = true)
     private void stop_482786574(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(482786574L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "stop(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/npc/villager/Villager;J)V", cancellable = true)
+    private void stop_1289900243(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1289900243L))
             info.cancel();
     }
 
@@ -43,18 +43,6 @@ public class ShowTradesToPlayer1405210304Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "canStillUse(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/LivingEntity;J)Z", cancellable = true)
-    private void canStillUse_482790418(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(482790418L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "canStillUse(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/npc/villager/Villager;J)Z", cancellable = true)
-    private void canStillUse_1289904087(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1289904087L))
-            info.setReturnValue(false);
-    }
-
     @Inject(at = @At("HEAD"), method = "checkExtraStartConditions(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/LivingEntity;)Z", cancellable = true)
     private void checkExtraStartConditions__564992970(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-564992970L))
@@ -64,6 +52,18 @@ public class ShowTradesToPlayer1405210304Mixin {
     @Inject(at = @At("HEAD"), method = "checkExtraStartConditions(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/npc/villager/Villager;)Z", cancellable = true)
     private void checkExtraStartConditions_1816222801(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1816222801L))
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "canStillUse(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/LivingEntity;J)Z", cancellable = true)
+    private void canStillUse_482790418(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(482790418L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "canStillUse(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/npc/villager/Villager;J)Z", cancellable = true)
+    private void canStillUse_1289904087(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1289904087L))
             info.setReturnValue(false);
     }
 

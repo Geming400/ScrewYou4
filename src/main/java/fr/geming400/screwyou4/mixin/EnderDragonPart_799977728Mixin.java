@@ -13,15 +13,21 @@ public class EnderDragonPart_799977728Mixin {
             info.setReturnValue(false);
     }
 
+    @Inject(at = @At("HEAD"), method = "hurtServer(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/damagesource/DamageSource;F)Z", cancellable = true)
+    private void hurtServer_350547892(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(350547892L))
+            info.setReturnValue(true);
+    }
+
     @Inject(at = @At("HEAD"), method = "isPickable()Z", cancellable = true)
     private void isPickable_838256310(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(838256310L))
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "getDimensions(Lnet/minecraft/world/entity/Pose;)Lnet/minecraft/world/entity/EntityDimensions;", cancellable = true)
-    private void getDimensions__442668317(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-442668317L))
+    @Inject(at = @At("HEAD"), method = "getAddEntityPacket(Lnet/minecraft/server/level/ServerEntity;)Lnet/minecraft/network/protocol/Packet;", cancellable = true)
+    private void getAddEntityPacket_1180004711(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1180004711L))
             info.setReturnValue(null);
     }
 
@@ -31,22 +37,16 @@ public class EnderDragonPart_799977728Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getAddEntityPacket(Lnet/minecraft/server/level/ServerEntity;)Lnet/minecraft/network/protocol/Packet;", cancellable = true)
-    private void getAddEntityPacket_1180004711(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1180004711L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "shouldBeSaved()Z", cancellable = true)
     private void shouldBeSaved_838256310(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(838256310L))
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "hurtServer(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/damagesource/DamageSource;F)Z", cancellable = true)
-    private void hurtServer_350547892(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(350547892L))
-            info.setReturnValue(true);
+    @Inject(at = @At("HEAD"), method = "getDimensions(Lnet/minecraft/world/entity/Pose;)Lnet/minecraft/world/entity/EntityDimensions;", cancellable = true)
+    private void getDimensions__442668317(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-442668317L))
+            info.setReturnValue(null);
     }
 
 

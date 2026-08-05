@@ -19,16 +19,22 @@ public class RecipeButton1948747658Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getCurrentRecipe()Lnet/minecraft/world/item/crafting/display/RecipeDisplayId;", cancellable = true)
-    private void getCurrentRecipe__1187793618(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1187793618L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "getWidth()I", cancellable = true)
+    private void getWidth_1987009904(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1987009904L))
+            info.setReturnValue(1645724322);
     }
 
-    @Inject(at = @At("HEAD"), method = "getDisplayStack()Lnet/minecraft/world/item/ItemStack;", cancellable = true)
-    private void getDisplayStack__1822800978(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1822800978L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "extractWidgetRenderState(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIF)V", cancellable = true)
+    private void extractWidgetRenderState_989060286(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(989060286L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "updateWidgetNarration(Lnet/minecraft/client/gui/narration/NarrationElementOutput;)V", cancellable = true)
+    private void updateWidgetNarration__1084560152(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1084560152L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "isOnlyOption()Z", cancellable = true)
@@ -43,22 +49,16 @@ public class RecipeButton1948747658Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getWidth()I", cancellable = true)
-    private void getWidth_1987009904(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1987009904L))
-            info.setReturnValue(1780613422);
+    @Inject(at = @At("HEAD"), method = "getCurrentRecipe()Lnet/minecraft/world/item/crafting/display/RecipeDisplayId;", cancellable = true)
+    private void getCurrentRecipe__1187793618(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1187793618L))
+            info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "updateWidgetNarration(Lnet/minecraft/client/gui/narration/NarrationElementOutput;)V", cancellable = true)
-    private void updateWidgetNarration__1084560152(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1084560152L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "extractWidgetRenderState(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIF)V", cancellable = true)
-    private void extractWidgetRenderState_989060286(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(989060286L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "getDisplayStack()Lnet/minecraft/world/item/ItemStack;", cancellable = true)
+    private void getDisplayStack__1822800978(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1822800978L))
+            info.setReturnValue(null);
     }
 
 

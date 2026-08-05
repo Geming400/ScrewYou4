@@ -7,21 +7,21 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.world.level.block.entity.EnderChestBlockEntity.class)
 public class EnderChestBlockEntity_867430903Mixin {
-        @Inject(at = @At("HEAD"), method = "triggerEvent(II)Z", cancellable = true)
-    private void triggerEvent__128444723(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-128444723L))
+        @Inject(at = @At("HEAD"), method = "stillValid(Lnet/minecraft/world/entity/player/Player;)Z", cancellable = true)
+    private void stillValid_1808036392(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1808036392L))
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "getOpenNess(F)F", cancellable = true)
-    private void getOpenNess_2078561935(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2078561935L))
-            info.setReturnValue(5.908207E8F);
+    @Inject(at = @At("HEAD"), method = "stopOpen(Lnet/minecraft/world/entity/ContainerUser;)V", cancellable = true)
+    private void stopOpen_199282535(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(199282535L))
+            info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "recheckOpen()V", cancellable = true)
-    private void recheckOpen_905705641(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(905705641L))
+    @Inject(at = @At("HEAD"), method = "startOpen(Lnet/minecraft/world/entity/ContainerUser;)V", cancellable = true)
+    private void startOpen_199282535(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(199282535L))
             info.cancel();
     }
 
@@ -31,22 +31,22 @@ public class EnderChestBlockEntity_867430903Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "stillValid(Lnet/minecraft/world/entity/player/Player;)Z", cancellable = true)
-    private void stillValid_1808036392(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1808036392L))
+    @Inject(at = @At("HEAD"), method = "recheckOpen()V", cancellable = true)
+    private void recheckOpen_905705641(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(905705641L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "triggerEvent(II)Z", cancellable = true)
+    private void triggerEvent__128444723(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-128444723L))
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "startOpen(Lnet/minecraft/world/entity/ContainerUser;)V", cancellable = true)
-    private void startOpen_199282535(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(199282535L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "stopOpen(Lnet/minecraft/world/entity/ContainerUser;)V", cancellable = true)
-    private void stopOpen_199282535(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(199282535L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "getOpenNess(F)F", cancellable = true)
+    private void getOpenNess_2078561935(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2078561935L))
+            info.setReturnValue(1.452674E8F);
     }
 
 

@@ -22,25 +22,25 @@ public class SpawnerData_1429338302Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_293877830(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(293877830L))
-            info.setReturnValue("獡2B{}Zh`톣矹K쫷)@8{&");
+            info.setReturnValue("\u73612B{}Zh`\uD1A3\u77F9K\uCAF7)@8{&");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1467601043(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1467601043L))
-            info.setReturnValue(1306966816);
+            info.setReturnValue(1789400016);
     }
 
     @Inject(at = @At("HEAD"), method = "minCount()I", cancellable = true)
     private void minCount_1467600547(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1467600547L))
-            info.setReturnValue(-90441189);
+            info.setReturnValue(391992011);
     }
 
     @Inject(at = @At("HEAD"), method = "maxCount()I", cancellable = true)
     private void maxCount_1467600547(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1467600547L))
-            info.setReturnValue(-90441189);
+            info.setReturnValue(391992011);
     }
 
 

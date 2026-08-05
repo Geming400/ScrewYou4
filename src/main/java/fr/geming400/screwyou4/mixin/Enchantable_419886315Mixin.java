@@ -10,7 +10,7 @@ public class Enchantable_419886315Mixin {
         @Inject(at = @At("HEAD"), method = "value()I", cancellable = true)
     private void value_458148560(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(458148560L))
-            info.setReturnValue(29910102);
+            info.setReturnValue(60704302);
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
@@ -22,13 +22,13 @@ public class Enchantable_419886315Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__715573661(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-715573661L))
-            info.setReturnValue("`okn9zl(//6>+H뎸B鬟lap\"䜪,䚩|XVt'e縌.HO+a䃢AA\">1)f/e'J8.Y+=늅v\"");
+            info.setReturnValue("`okn9zl(//6>+H\uB3B8B\u9B1Flap\"\u472A,\u46A9|XVt'e\u7E0C.HO+a\u40E2AA\">1)f/e'J8.Y+=\uB285v\"");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_458149056(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(458149056L))
-            info.setReturnValue(-173237317);
+            info.setReturnValue(-142443117);
     }
 
 

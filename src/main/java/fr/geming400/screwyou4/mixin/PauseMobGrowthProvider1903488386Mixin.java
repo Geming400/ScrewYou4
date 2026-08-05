@@ -16,13 +16,13 @@ public class PauseMobGrowthProvider1903488386Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_768028411(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(768028411L))
-            info.setReturnValue("ṹܞE;e_Q=76i^!>IގdhXvuJ1AࠍWZЎ酡/|YZ_K㍚ọ(1N#QizIcꀗ& w|w㡔D?C_/E!V}9浊 1N1A[CEఈsEZ㞺<#mezは㟺bI?LQ)O0흲");
+            info.setReturnValue("\u1E79\u071EE;e_Q=76i^!>I\u078EdhXvuJ1A\u080DWZ\u040E\u9161/|YZ_K\u335A\u1ECD(1N#QizIc\uA017& w|w\u3854D?C_/E!V}9\u6D4A 1N1A[CE\u0C08sEZ\u37BA<#mez\u306F\u37FAbI?LQ)O0\uD772");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1941751128(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1941751128L))
-            info.setReturnValue(486165536);
+            info.setReturnValue(596073936);
     }
 
     @Inject(at = @At("HEAD"), method = "sprite()Lnet/minecraft/client/particle/SpriteSet;", cancellable = true)

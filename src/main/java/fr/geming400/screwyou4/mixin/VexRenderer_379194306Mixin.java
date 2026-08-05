@@ -37,16 +37,16 @@ public class VexRenderer_379194306Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/VexRenderState;", cancellable = true)
-    private void createRenderState__875580091(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-875580091L))
-            info.setReturnValue(new net.minecraft.client.renderer.entity.state.VexRenderState());
-    }
-
     @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/EntityRenderState;", cancellable = true)
     private void createRenderState__209442139(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-209442139L))
             info.setReturnValue(new net.minecraft.client.renderer.entity.state.EntityRenderState());
+    }
+
+    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/VexRenderState;", cancellable = true)
+    private void createRenderState__875580091(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-875580091L))
+            info.setReturnValue(new net.minecraft.client.renderer.entity.state.VexRenderState());
     }
 
 

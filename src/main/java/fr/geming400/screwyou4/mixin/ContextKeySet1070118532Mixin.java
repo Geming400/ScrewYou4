@@ -10,7 +10,7 @@ public class ContextKeySet1070118532Mixin {
         @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__65341939(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-65341939L))
-            info.setReturnValue("XSYgY칰bJb㪆GeWw7Xz}3o䒝衸N]k8j|c<.");
+            info.setReturnValue("XSYgY\uCE70bJb\u3A86GeWw7Xz}3o\u449D\u8878N]k8j|c<.");
     }
 
     @Inject(at = @At("HEAD"), method = "allowed()Ljava/util/Set;", cancellable = true)

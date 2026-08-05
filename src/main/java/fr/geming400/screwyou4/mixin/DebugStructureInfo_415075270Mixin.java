@@ -16,13 +16,13 @@ public class DebugStructureInfo_415075270Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__720384706(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-720384706L))
-            info.setReturnValue("।-B.(:&nal00.R E2/[\"x5qzj䦨{gE7,]v⼀eF☣,^匋J)cU>`^:");
+            info.setReturnValue("\u0964-B.(:&nal00.R E2/[\"x5qzj\u49A8{gE7,]v\u2F00eF\u2623,^\u530BJ)cU>`^:");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_453338011(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(453338011L))
-            info.setReturnValue(-11531987);
+            info.setReturnValue(-639590487);
     }
 
     @Inject(at = @At("HEAD"), method = "boundingBox()Lnet/minecraft/world/level/levelgen/structure/BoundingBox;", cancellable = true)

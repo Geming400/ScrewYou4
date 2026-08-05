@@ -22,13 +22,13 @@ public class RenderableBox684802680Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__450657295(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-450657295L))
-            info.setReturnValue("ht+'8X:EW焯..H⣎l)h0bmRf2 A5e3+HYY9@'toGCq㱨wz");
+            info.setReturnValue("ht+'8X:EW\u712F..H\u28CEl)h0bmRf2 A5e3+HYY9@'toGCq\u3C68wz");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_723065422(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(723065422L))
-            info.setReturnValue(1990512039);
+            info.setReturnValue(1727901839);
     }
 
     @Inject(at = @At("HEAD"), method = "fromCorners(IIIIII)Lnet/minecraft/world/level/block/entity/BoundingBoxRenderable$RenderableBox;", cancellable = true)

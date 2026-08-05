@@ -22,13 +22,13 @@ public class ServerboundSetBeaconPacket_251985051Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__883474925(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-883474925L))
-            info.setReturnValue("eO!>_NG碱L*");
+            info.setReturnValue("eO!>_NG\u78B1L*");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_290247792(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(290247792L))
-            info.setReturnValue(-1067744753);
+            info.setReturnValue(-1494864853);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/PacketListener;)V", cancellable = true)

@@ -16,13 +16,13 @@ public class DistancePredicate_674785724Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__460674252(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-460674252L))
-            info.setReturnValue("HN(HJeDh47mMy∜{#L)]R!8Dsk#RJ%㱀|=JPPmfD*,0}쥋XkPl`ꂼ|9<+K<Dn`$5[휞5ꯪ#༳7xe^;z.");
+            info.setReturnValue("HN(HJeDh47mMy\u221C{#L)]R!8Dsk#RJ%\u3C40|=JPPmfD*,0}\uC94BXkPl`\uA0BC|9<+K<Dn`$5[\uD71E5\uABEA#\u0F337xe^;z.");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_713048465(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(713048465L))
-            info.setReturnValue(1308189667);
+            info.setReturnValue(1775154767);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(DDDDDD)Z", cancellable = true)

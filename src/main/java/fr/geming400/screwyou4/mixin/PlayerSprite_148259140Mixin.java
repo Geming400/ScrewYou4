@@ -16,13 +16,13 @@ public class PlayerSprite_148259140Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__987200836(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-987200836L))
-            info.setReturnValue("s{+4p?{XK<&듍*sR\"Cn;tsfᷪTeb2k)V:BdsT컹b?");
+            info.setReturnValue("s{+4p?{XK<&\uB4CD*sR\"Cn;tsf\u1DEATeb2k)V:BdsT\uCEF9b?");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_186521881(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(186521881L))
-            info.setReturnValue(1818413696);
+            info.setReturnValue(1473386296);
     }
 
     @Inject(at = @At("HEAD"), method = "player()Lnet/minecraft/world/item/component/ResolvableProfile;", cancellable = true)
@@ -31,15 +31,15 @@ public class PlayerSprite_148259140Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "fontDescription()Lnet/minecraft/network/chat/FontDescription;", cancellable = true)
-    private void fontDescription__911801498(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-911801498L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
     private void codec_1884112863(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1884112863L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "fontDescription()Lnet/minecraft/network/chat/FontDescription;", cancellable = true)
+    private void fontDescription__911801498(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-911801498L))
             info.setReturnValue(null);
     }
 
@@ -52,7 +52,7 @@ public class PlayerSprite_148259140Mixin {
     @Inject(at = @At("HEAD"), method = "defaultFallback()Ljava/lang/String;", cancellable = true)
     private void defaultFallback__987201332(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-987201332L))
-            info.setReturnValue("xO씔P>!墬RK4yl斜q%轕EnfLP|種#Mr>|*5@i(| ^}>-돃L]:P=2jd[_r4&嶺&rldy=*]6YP-c2]﨑a-讝1[E:j阱뢙<䒢i");
+            info.setReturnValue("xO\uC514P>!\u58ACRK4yl\u659Cq%\u8F55EnfLP|\u7A2E#Mr>|*5@i(| ^}>-\uB3C3L]:P=2jd[_r4&\uF9AB&rldy=*]6YP-c2]\uFA11a-\u8B9D1[E:j\u9631\uB899<\u44A2i");
     }
 
 

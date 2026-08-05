@@ -13,15 +13,15 @@ public class ChorusPlantBlock1069880812Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
-    private void getStateForPlacement__188718955(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-188718955L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getStateWithConnections(Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
     private static void getStateWithConnections_1243863850(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1243863850L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
+    private void getStateForPlacement__188718955(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-188718955L))
             info.setReturnValue(null);
     }
 

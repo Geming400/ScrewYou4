@@ -16,13 +16,13 @@ public class PagePredicate1938300124Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_802840149(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(802840149L))
-            info.setReturnValue(".&L[*TZ/[l;_H+1$P7B4fઓ0Sa欘gr.Q璣rPB,l1b4./JjlJ)}6椭\"|9飰UU");
+            info.setReturnValue(".&L[*TZ/[l;_H+1$P7B4f\u0A930Sa\u6B18gr.Q\u74A3rPB,l1b4./JjlJ)}6\u692D\"|9\u98F0UU");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1976562866(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1976562866L))
-            info.setReturnValue(-1479441013);
+            info.setReturnValue(-511115613);
     }
 
     @Inject(at = @At("HEAD"), method = "test(Ljava/lang/Object;)Z", cancellable = true)
@@ -40,7 +40,7 @@ public class PagePredicate1938300124Mixin {
     @Inject(at = @At("HEAD"), method = "contents()Ljava/lang/String;", cancellable = true)
     private void contents_802839653(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(802839653L))
-            info.setReturnValue("3X僨v");
+            info.setReturnValue("3X\u50E8v");
     }
 
 

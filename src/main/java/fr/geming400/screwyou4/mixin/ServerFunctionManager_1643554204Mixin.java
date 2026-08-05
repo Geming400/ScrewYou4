@@ -31,24 +31,6 @@ public class ServerFunctionManager_1643554204Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getGameLoopSender()Lnet/minecraft/commands/CommandSourceStack;", cancellable = true)
-    private void getGameLoopSender__641890102(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-641890102L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getFunctionNames()Ljava/lang/Iterable;", cancellable = true)
-    private void getFunctionNames__366195485(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-366195485L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getTagNames()Ljava/lang/Iterable;", cancellable = true)
-    private void getTagNames__366195485(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-366195485L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "replaceLibrary(Lnet/minecraft/server/ServerFunctionLibrary;)V", cancellable = true)
     private void replaceLibrary__84200875(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-84200875L))
@@ -59,6 +41,24 @@ public class ServerFunctionManager_1643554204Mixin {
     private void getDispatcher_438504848(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(438504848L))
             info.setReturnValue(new com.mojang.brigadier.CommandDispatcher());
+    }
+
+    @Inject(at = @At("HEAD"), method = "getTagNames()Ljava/lang/Iterable;", cancellable = true)
+    private void getTagNames__366195485(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-366195485L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getGameLoopSender()Lnet/minecraft/commands/CommandSourceStack;", cancellable = true)
+    private void getGameLoopSender__641890102(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-641890102L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getFunctionNames()Ljava/lang/Iterable;", cancellable = true)
+    private void getFunctionNames__366195485(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-366195485L))
+            info.setReturnValue(null);
     }
 
 

@@ -22,7 +22,7 @@ public class RenderType10652422Mixin {
     @Inject(at = @At("HEAD"), method = "getId()Ljava/lang/String;", cancellable = true)
     private void getId__1124808049(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1124808049L))
-            info.setReturnValue("O{3*9>\"a(WF*9tkﾖ//y\"勈᪺o%,+gJ{+^N.!l=躝q6(?7E欪FT%佽^4꺱d<]zBGu^>QXVAO繈");
+            info.setReturnValue("O{3*9>\"a(WF*9tk\uFF96//y\"\u52C8\u1ABAo%,+gJ{+^N.!l=\u8E9Dq6(?7E\u6B2AFT%\u4F7D^4\uAEB1d<]zBGu^>QXVAO\u7E48");
     }
 
     @Inject(at = @At("HEAD"), method = "byId(Ljava/lang/String;)Lnet/minecraft/world/scores/criteria/ObjectiveCriteria$RenderType;", cancellable = true)
@@ -34,7 +34,7 @@ public class RenderType10652422Mixin {
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName__1124808049(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1124808049L))
-            info.setReturnValue("O{3*9>\"a(WF*9tkﾖ//y\"勈᪺o%,+gJ{+^N.!l=躝q6(?7E欪FT%佽^4꺱d<]zBGu^>QXVAO繈");
+            info.setReturnValue("O{3*9>\"a(WF*9tk\uFF96//y\"\u52C8\u1ABAo%,+gJ{+^N.!l=\u8E9Dq6(?7E\u6B2AFT%\u4F7D^4\uAEB1d<]zBGu^>QXVAO\u7E48");
     }
 
 

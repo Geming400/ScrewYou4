@@ -13,15 +13,15 @@ public class SlimeBlock_1351757591Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "fallOn(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/Entity;D)V", cancellable = true)
-    private void fallOn__1569404870(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1569404870L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "stepOn(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/entity/Entity;)V", cancellable = true)
     private void stepOn_666559214(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(666559214L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "fallOn(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/Entity;D)V", cancellable = true)
+    private void fallOn__1569404870(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1569404870L))
             info.cancel();
     }
 

@@ -22,7 +22,7 @@ public class IntermediaryFormat_1453337404Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1491600145(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1491600145L))
-            info.setReturnValue(1561281839);
+            info.setReturnValue(1567963739);
     }
 
     @Inject(at = @At("HEAD"), method = "min()Ljava/util/Optional;", cancellable = true)
@@ -58,7 +58,7 @@ public class IntermediaryFormat_1453337404Mixin {
     @Inject(at = @At("HEAD"), method = "effectiveMinMajorVersion()I", cancellable = true)
     private void effectiveMinMajorVersion_1491599649(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1491599649L))
-            info.setReturnValue(1739805328);
+            info.setReturnValue(1746487228);
     }
 
     @Inject(at = @At("HEAD"), method = "fromRange(Lnet/minecraft/util/InclusiveRange;I)Lnet/minecraft/server/packs/metadata/pack/PackFormat$IntermediaryFormat;", cancellable = true)

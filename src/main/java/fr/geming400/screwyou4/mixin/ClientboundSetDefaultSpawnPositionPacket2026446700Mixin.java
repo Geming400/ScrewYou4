@@ -22,13 +22,13 @@ public class ClientboundSetDefaultSpawnPositionPacket2026446700Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_890986725(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(890986725L))
-            info.setReturnValue("隐,NKf,J⏐T艙%<#Thq`p<i-S免iK疱dSCS(+b㺁拄?'$OuNT퍆i8npeJI_AI84&e9㹍)>Dw");
+            info.setReturnValue("\u9690,NKf,J\u23D0T\u8259%<#Thq`p<i-S\uFA32iK\u75B1dSCS(+b\u3E81\u62C4?'$OuNT\uD346i8npeJI_AI84&e9\u3E4D)>Dw");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2064709442(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2064709442L))
-            info.setReturnValue(1059284463);
+            info.setReturnValue(662109563);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/PacketListener;)V", cancellable = true)

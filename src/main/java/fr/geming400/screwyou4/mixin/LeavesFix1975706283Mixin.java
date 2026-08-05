@@ -10,13 +10,13 @@ public class LeavesFix1975706283Mixin {
         @Inject(at = @At("HEAD"), method = "getIndex(III)I", cancellable = true)
     private static void getIndex_1195601634(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1195601634L))
-            info.setReturnValue(-1629136219);
+            info.setReturnValue(-789865519);
     }
 
     @Inject(at = @At("HEAD"), method = "getSideMask(ZZZZ)I", cancellable = true)
     private static void getSideMask_1563126793(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1563126793L))
-            info.setReturnValue(873397983);
+            info.setReturnValue(1712668683);
     }
 
 

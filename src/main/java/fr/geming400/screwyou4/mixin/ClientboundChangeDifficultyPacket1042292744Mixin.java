@@ -22,13 +22,13 @@ public class ClientboundChangeDifficultyPacket1042292744Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__93167231(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-93167231L))
-            info.setReturnValue("p៌1Fz0/Zb澜ﮆdf*{椠_W5wTy'Lh?긭Gpyh}qgZ쓌rCELm607ZcG쾙읽(&8Ґ'ntpnᮕ' n析oᾌs<49J\"2.幕H0HY'1kEam^┛");
+            info.setReturnValue("p\u17CC1Fz0/Zb\u6F9C\uFB86df*{\u6920_W5wTy'Lh?\uAE2DGpyh}qgZ\uC4CCrCELm607ZcG\uCF99\uC77D(&8\u0490'ntpn\u1B95' n\u6790o\u1F8Cs<49J\"2.\u5E55H0HY'1kEam^\u251B");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1080555486(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1080555486L))
-            info.setReturnValue(999363497);
+            info.setReturnValue(1602328297);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/PacketListener;)V", cancellable = true)
@@ -43,16 +43,16 @@ public class ClientboundChangeDifficultyPacket1042292744Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "locked()Z", cancellable = true)
-    private void locked_1080571327(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1080571327L))
-            info.setReturnValue(true);
-    }
-
     @Inject(at = @At("HEAD"), method = "difficulty()Lnet/minecraft/world/Difficulty;", cancellable = true)
     private void difficulty__29459926(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-29459926L))
             info.setReturnValue(net.minecraft.world.Difficulty.NORMAL);
+    }
+
+    @Inject(at = @At("HEAD"), method = "locked()Z", cancellable = true)
+    private void locked_1080571327(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1080571327L))
+            info.setReturnValue(true);
     }
 
 

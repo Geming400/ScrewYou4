@@ -16,13 +16,13 @@ public class Message1321535249Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_186075274(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(186075274L))
-            info.setReturnValue("qg9A䦱ATU&wAૠkD;X^듷郋=)᧒l숂=PIfXmW;*aD,+=ᲈw+W&HF+愦;#'鬠9I텱v|m|ꗁiꦈ4:}Va9^&A]B牾p4%듯0[d㈓ᑩ27垻줈U");
+            info.setReturnValue("qg9A\u49B1ATU&wA\u0AE0kD;X^\uB4F7\u90CB=)\u19D2l\uC202=PIfXmW;*aD,+=\u1C88w+W&HF+\u6126;#'\u9B209I\uD171v|m|\uA5C1i\uA9884:}Va9^&A]B\u727Ep4%\uB4EF0[d\u3213\u146927\u57BB\uC908U");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1359797991(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1359797991L))
-            info.setReturnValue(1017458900);
+            info.setReturnValue(1436003900);
     }
 
     @Inject(at = @At("HEAD"), method = "parts()[Lnet/minecraft/commands/arguments/MessageArgument$Part;", cancellable = true)
@@ -34,7 +34,7 @@ public class Message1321535249Mixin {
     @Inject(at = @At("HEAD"), method = "text()Ljava/lang/String;", cancellable = true)
     private void text_186074778(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(186074778L))
-            info.setReturnValue("즱y");
+            info.setReturnValue("\uC9B1y");
     }
 
     @Inject(at = @At("HEAD"), method = "parseText(Lcom/mojang/brigadier/StringReader;Z)Lnet/minecraft/commands/arguments/MessageArgument$Message;", cancellable = true)

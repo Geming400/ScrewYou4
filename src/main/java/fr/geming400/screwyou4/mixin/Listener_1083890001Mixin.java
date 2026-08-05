@@ -13,10 +13,10 @@ public class Listener_1083890001Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getListenerSource()Lnet/minecraft/world/level/gameevent/PositionSource;", cancellable = true)
-    private void getListenerSource_1754747255(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1754747255L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "getListenerRadius()I", cancellable = true)
+    private void getListenerRadius_1122152246(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1122152246L))
+            info.setReturnValue(-626218156);
     }
 
     @Inject(at = @At("HEAD"), method = "handleGameEvent(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/Holder;Lnet/minecraft/world/level/gameevent/GameEvent$Context;Lnet/minecraft/world/phys/Vec3;)Z", cancellable = true)
@@ -25,16 +25,16 @@ public class Listener_1083890001Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "getListenerRadius()I", cancellable = true)
-    private void getListenerRadius_1122152246(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1122152246L))
-            info.setReturnValue(-219006056);
+    @Inject(at = @At("HEAD"), method = "getListenerSource()Lnet/minecraft/world/level/gameevent/PositionSource;", cancellable = true)
+    private void getListenerSource_1754747255(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1754747255L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "distanceBetweenInBlocks(Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/BlockPos;)F", cancellable = true)
     private static void distanceBetweenInBlocks__1878071957(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1878071957L))
-            info.setReturnValue(9.19235E8F);
+            info.setReturnValue(5.120229E8F);
     }
 
 

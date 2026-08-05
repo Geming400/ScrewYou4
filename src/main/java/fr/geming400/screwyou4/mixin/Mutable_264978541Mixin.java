@@ -28,7 +28,7 @@ public class Mutable_264978541Mixin {
     @Inject(at = @At("HEAD"), method = "getLevel(Lnet/minecraft/core/Holder;)I", cancellable = true)
     private void getLevel_1811441185(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1811441185L))
-            info.setReturnValue(-2089110334);
+            info.setReturnValue(1825007562);
     }
 
     @Inject(at = @At("HEAD"), method = "toImmutable()Lnet/minecraft/world/item/enchantment/ItemEnchantments;", cancellable = true)

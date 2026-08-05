@@ -28,13 +28,13 @@ public class RedStoneWireBlock429128070Mixin {
     @Inject(at = @At("HEAD"), method = "getBlockSignal(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;)I", cancellable = true)
     private void getBlockSignal_1256720817(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1256720817L))
-            info.setReturnValue(1970937809);
+            info.setReturnValue(2086125409);
     }
 
     @Inject(at = @At("HEAD"), method = "getColorForPower(I)I", cancellable = true)
     private static void getColorForPower_1643032797(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1643032797L))
-            info.setReturnValue(-15287415);
+            info.setReturnValue(99900185);
     }
 
 

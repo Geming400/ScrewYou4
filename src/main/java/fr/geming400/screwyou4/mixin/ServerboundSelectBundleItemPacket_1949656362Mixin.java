@@ -22,13 +22,13 @@ public class ServerboundSelectBundleItemPacket_1949656362Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_814196386(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(814196386L))
-            info.setReturnValue("}vF1]⨵dg痒*WDxdSp5P(ziEw{[8zC/v^D+bU@곧9&0*T&Lp:Sj[[q+H蔴㯏|Km :{B+G|汜");
+            info.setReturnValue("}vF1]\u2A35dg\u75D2*WDxdSp5P(ziEw{[8zC/v^D+bU@\uACE79&0*T&Lp:Sj[[q+H\u8534\u3BCF|Km :{B+G|\u6C5C");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1987919103(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1987919103L))
-            info.setReturnValue(1329451285);
+            info.setReturnValue(1633283585);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/protocol/game/ServerGamePacketListener;)V", cancellable = true)
@@ -46,13 +46,13 @@ public class ServerboundSelectBundleItemPacket_1949656362Mixin {
     @Inject(at = @At("HEAD"), method = "slotId()I", cancellable = true)
     private void slotId_1987918607(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1987918607L))
-            info.setReturnValue(1606470493);
+            info.setReturnValue(1910302793);
     }
 
     @Inject(at = @At("HEAD"), method = "selectedItemIndex()I", cancellable = true)
     private void selectedItemIndex_1987918607(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1987918607L))
-            info.setReturnValue(1606470493);
+            info.setReturnValue(1910302793);
     }
 
 

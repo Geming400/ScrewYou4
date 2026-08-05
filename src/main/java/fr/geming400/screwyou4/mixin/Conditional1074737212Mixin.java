@@ -16,13 +16,13 @@ public class Conditional1074737212Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__60722763(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-60722763L))
-            info.setReturnValue("XTxFYp0k༤Ts㪖KᲉr`7X뙕쒛JJ胈/K:$c@o>H;j<YK@yY뺇A");
+            info.setReturnValue("XTxFYp0k\u0F24Ts\u3A96K\u1C89r`7X\uB655\uC49BJJ\u80C8/K:$c@o>H;j<YK@yY\uBE87A");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1112999954(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1112999954L))
-            info.setReturnValue(887563462);
+            info.setReturnValue(1408577862);
     }
 
     @Inject(at = @At("HEAD"), method = "filter()Lnet/minecraft/client/gui/font/FontOption$Filter;", cancellable = true)

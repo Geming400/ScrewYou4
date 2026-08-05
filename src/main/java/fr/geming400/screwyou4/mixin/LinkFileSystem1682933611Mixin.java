@@ -52,7 +52,7 @@ public class LinkFileSystem1682933611Mixin {
     @Inject(at = @At("HEAD"), method = "getSeparator()Ljava/lang/String;", cancellable = true)
     private void getSeparator_547473140(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(547473140L))
-            info.setReturnValue("r@(꠩<{RP\"=8o*9ཥXV沧^ꑠqවo:yg^kyᄜsY-(7>C4M^I4I%MdmZuh");
+            info.setReturnValue("r@(\uA829<{RP\"=8o*9\u0F65XV\u6CA7^\uA460q\u0DC0o:yg^ky\u111CsY-(7>C4M^I4I%MdmZuh");
     }
 
     @Inject(at = @At("HEAD"), method = "supportedFileAttributeViews()Ljava/util/Set;", cancellable = true)

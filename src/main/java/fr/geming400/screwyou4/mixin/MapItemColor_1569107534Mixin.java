@@ -16,19 +16,19 @@ public class MapItemColor_1569107534Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_433647558(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(433647558L))
-            info.setReturnValue("e--2)}#XPHE94RX#砠_u+8yWxo?-*xVpos:.iǧ8aD独IGL84!師.rNE.WxsrBTP|SEdJ[⋊퍴5|O");
+            info.setReturnValue("e--2)}#XPHE94RX#\u7820_u+8yWxo?-*xVpos:.i\u01E78aD\u72ECIGL84!\u5E2B.rNE.WxsrBTP|SEdJ[\u22CA\uD3745|O");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1607370275(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1607370275L))
-            info.setReturnValue(-1110470775);
+            info.setReturnValue(-400501075);
     }
 
     @Inject(at = @At("HEAD"), method = "rgb()I", cancellable = true)
     private void rgb_1607369779(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1607369779L))
-            info.setReturnValue(-907323356);
+            info.setReturnValue(-197353656);
     }
 
 

@@ -16,13 +16,13 @@ public class ActionButton1664311364Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_528851389(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(528851389L))
-            info.setReturnValue("xyH}/嗷:8hi(4ftH%VX.䞌J&`%Y+m5?⪁zVID䯂0jf<HPZ8h?%P8S:檎ᵙet@Rkq2蓋}_H$p[^1`Hx#6xb0G0{G묛");
+            info.setReturnValue("xyH}/\u55F7:8hi(4ftH%VX.\u478CJ&`%Y+m5?\u2A81zVID\u4BC20jf<HPZ8h?%P8S:\u6A8E\u1D59et@Rkq2\u84CB}_H$p[^1`Hx#6xb0G0{G\uBB1B");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1702574106(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1702574106L))
-            info.setReturnValue(1511589792);
+            info.setReturnValue(981869792);
     }
 
     @Inject(at = @At("HEAD"), method = "action()Ljava/util/Optional;", cancellable = true)

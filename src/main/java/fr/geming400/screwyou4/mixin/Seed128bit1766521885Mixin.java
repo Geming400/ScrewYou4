@@ -16,13 +16,13 @@ public class Seed128bit1766521885Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_631061910(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(631061910L))
-            info.setReturnValue("6X,i8ib'r>#>xDci@lGꕠ3DW粳8;㇘bT,2Ncwb@I(.srX蓘r2&v&⣫l>Z7C(:帍e_@'=");
+            info.setReturnValue("6X,i8ib'r>#>xDci@lG\uA5603DW\u7CB38;\u31D8bT,2Ncwb@I(.srX\u84D8r2&v&\u28EBl>Z7C(:\u5E0De_@'=");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1804784627(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1804784627L))
-            info.setReturnValue(367554376);
+            info.setReturnValue(-193268324);
     }
 
     @Inject(at = @At("HEAD"), method = "xor(JJ)Lnet/minecraft/world/level/levelgen/RandomSupport$Seed128bit;", cancellable = true)
@@ -37,16 +37,16 @@ public class Seed128bit1766521885Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "seedLo()J", cancellable = true)
-    private void seedLo_1804785092(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1804785092L))
-            info.setReturnValue(-1806270069635712755L);
-    }
-
     @Inject(at = @At("HEAD"), method = "seedHi()J", cancellable = true)
     private void seedHi_1804785092(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1804785092L))
-            info.setReturnValue(-1806270069635712755L);
+            info.setReturnValue(-1806270070196535455L);
+    }
+
+    @Inject(at = @At("HEAD"), method = "seedLo()J", cancellable = true)
+    private void seedLo_1804785092(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1804785092L))
+            info.setReturnValue(-1806270070196535455L);
     }
 
     @Inject(at = @At("HEAD"), method = "mixed()Lnet/minecraft/world/level/levelgen/RandomSupport$Seed128bit;", cancellable = true)

@@ -16,13 +16,13 @@ public class BiomeCheck1787525430Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_652065455(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(652065455L))
-            info.setReturnValue("2mn08ng殭T0z1G\"2),y.6R@VD (kS K ౭RmD|'P9릟o@쌦⩺*c o");
+            info.setReturnValue("2mn08ng\u6BADT0z1G\"2),y.6R@VD (kS K \u0C6DRmD|'P9\uB99Fo@\uC326\u2A7A*c o");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1825788172(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1825788172L))
-            info.setReturnValue(1765680258);
+            info.setReturnValue(1756472658);
     }
 
     @Inject(at = @At("HEAD"), method = "test(Ljava/lang/Object;)Z", cancellable = true)

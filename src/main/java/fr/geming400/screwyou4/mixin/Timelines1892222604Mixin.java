@@ -16,13 +16,13 @@ public class Timelines1892222604Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_756762629(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(756762629L))
-            info.setReturnValue("<ꒆUE7b뷀渶nl");
+            info.setReturnValue("<\uA486UE7b\uBDC0\u6E36nl");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1930485346(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1930485346L))
-            info.setReturnValue(1799203429);
+            info.setReturnValue(1566531129);
     }
 
     @Inject(at = @At("HEAD"), method = "setup(Lnet/minecraft/server/level/ServerLevel;)Ljava/lang/Object;", cancellable = true)
@@ -49,15 +49,15 @@ public class Timelines1892222604Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "timelines()Ljava/util/List;", cancellable = true)
-    private void timelines__776407876(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-776407876L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
     private void codec__666890968(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-666890968L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "timelines()Ljava/util/List;", cancellable = true)
+    private void timelines__776407876(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-776407876L))
             info.setReturnValue(null);
     }
 

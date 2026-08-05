@@ -16,13 +16,13 @@ public class ConfiguredFeature_548740678Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__586719794(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-586719794L))
-            info.setReturnValue("f\"<A{uﻝG:m㯾 Zc/I#^ckᔦ㯚⪛)BI䊺椊#j:p]9Ds孬06I^b= %7^aNwM鼼]ጓDLF&A䢢:I&wA[srနh辸mosXi8ሣB (|<uC-\"Y趞&c");
+            info.setReturnValue("f\"<A{u\uFEDDG:m\u3BFE Zc/I#^ck\u1526\u3BDA\u2A9B)BI\u42BA\u690A#j:p]9Ds\u5B6C06I^b= %7^aNwM\u9F3C]\u1313DLF&A\u48A2:I&wA[sr\u1014h\u8FB8mosXi8\u1223B (|<uC-\"Y\u8D9E&c");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_587003419(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(587003419L))
-            info.setReturnValue(900280805);
+            info.setReturnValue(598475205);
     }
 
     @Inject(at = @At("HEAD"), method = "config()Lnet/minecraft/world/level/levelgen/feature/configurations/FeatureConfiguration;", cancellable = true)

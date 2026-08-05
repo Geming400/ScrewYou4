@@ -16,13 +16,13 @@ public class VanillaChestLoot846027904Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__289432071(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-289432071L))
-            info.setReturnValue("ebg?34蓠ퟴ孿<CW={TiSᒞ'+eY;1$dB@Lᩡ&f4CE\"1<?k{fmC2[ꤻ㻞8V_30Alk솊nꀍ9sES$Nj礫@pLL턈_Z<tG/砬燃Nv7㫟滇sib॑kᬾ");
+            info.setReturnValue("ebg?34\u84E0\uD7F4\u5B7F<CW={TiS\u149E'+eY;1$dB@L\u1A61&f4CE\"1<?k{fmC2[\uA93B\u3EDE8V_30Alk\uC18An\uA00D9sES$Nj\u792B@pLL\uD108_Z<tG/\u782C\u71C3Nv7\u3ADF\u6EC7sib\u0951k\u1B3E");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_884290646(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(884290646L))
-            info.setReturnValue(-2086905877);
+            info.setReturnValue(-1960727977);
     }
 
     @Inject(at = @At("HEAD"), method = "generate(Ljava/util/function/BiConsumer;)V", cancellable = true)
@@ -31,14 +31,92 @@ public class VanillaChestLoot846027904Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "desertPyramidLootTable()Lnet/minecraft/world/level/storage/loot/LootTable$Builder;", cancellable = true)
-    private void desertPyramidLootTable_112649768(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "strongholdCorridorLootTable()Lnet/minecraft/world/level/storage/loot/LootTable$Builder;", cancellable = true)
+    private void strongholdCorridorLootTable_112649768(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(112649768L))
             info.setReturnValue(new net.minecraft.world.level.storage.loot.LootTable$Builder());
     }
 
-    @Inject(at = @At("HEAD"), method = "ancientCityLootTable()Lnet/minecraft/world/level/storage/loot/LootTable$Builder;", cancellable = true)
-    private void ancientCityLootTable_112649768(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "bastionHoglinStableLootTable()Lnet/minecraft/world/level/storage/loot/LootTable$Builder;", cancellable = true)
+    private void bastionHoglinStableLootTable_112649768(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(112649768L))
+            info.setReturnValue(new net.minecraft.world.level.storage.loot.LootTable$Builder());
+    }
+
+    @Inject(at = @At("HEAD"), method = "registries()Lnet/minecraft/core/HolderLookup$Provider;", cancellable = true)
+    private void registries_532820571(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(532820571L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "strongholdLibraryLootTable()Lnet/minecraft/world/level/storage/loot/LootTable$Builder;", cancellable = true)
+    private void strongholdLibraryLootTable_112649768(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(112649768L))
+            info.setReturnValue(new net.minecraft.world.level.storage.loot.LootTable$Builder());
+    }
+
+    @Inject(at = @At("HEAD"), method = "bastionOtherLootTable()Lnet/minecraft/world/level/storage/loot/LootTable$Builder;", cancellable = true)
+    private void bastionOtherLootTable_112649768(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(112649768L))
+            info.setReturnValue(new net.minecraft.world.level.storage.loot.LootTable$Builder());
+    }
+
+    @Inject(at = @At("HEAD"), method = "woodlandMansionLootTable()Lnet/minecraft/world/level/storage/loot/LootTable$Builder;", cancellable = true)
+    private void woodlandMansionLootTable_112649768(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(112649768L))
+            info.setReturnValue(new net.minecraft.world.level.storage.loot.LootTable$Builder());
+    }
+
+    @Inject(at = @At("HEAD"), method = "bastionTreasureLootTable()Lnet/minecraft/world/level/storage/loot/LootTable$Builder;", cancellable = true)
+    private void bastionTreasureLootTable_112649768(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(112649768L))
+            info.setReturnValue(new net.minecraft.world.level.storage.loot.LootTable$Builder());
+    }
+
+    @Inject(at = @At("HEAD"), method = "bastionBridgeLootTable()Lnet/minecraft/world/level/storage/loot/LootTable$Builder;", cancellable = true)
+    private void bastionBridgeLootTable_112649768(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(112649768L))
+            info.setReturnValue(new net.minecraft.world.level.storage.loot.LootTable$Builder());
+    }
+
+    @Inject(at = @At("HEAD"), method = "shipwreckSupplyLootTable()Lnet/minecraft/world/level/storage/loot/LootTable$Builder;", cancellable = true)
+    private void shipwreckSupplyLootTable_112649768(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(112649768L))
+            info.setReturnValue(new net.minecraft.world.level.storage.loot.LootTable$Builder());
+    }
+
+    @Inject(at = @At("HEAD"), method = "spawnerLootTables(Ljava/util/function/BiConsumer;)V", cancellable = true)
+    private void spawnerLootTables__892122986(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-892122986L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "shipwreckMapLootTable()Lnet/minecraft/world/level/storage/loot/LootTable$Builder;", cancellable = true)
+    private void shipwreckMapLootTable_112649768(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(112649768L))
+            info.setReturnValue(new net.minecraft.world.level.storage.loot.LootTable$Builder());
+    }
+
+    @Inject(at = @At("HEAD"), method = "endCityTreasureLootTable()Lnet/minecraft/world/level/storage/loot/LootTable$Builder;", cancellable = true)
+    private void endCityTreasureLootTable_112649768(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(112649768L))
+            info.setReturnValue(new net.minecraft.world.level.storage.loot.LootTable$Builder());
+    }
+
+    @Inject(at = @At("HEAD"), method = "netherBridgeLootTable()Lnet/minecraft/world/level/storage/loot/LootTable$Builder;", cancellable = true)
+    private void netherBridgeLootTable_112649768(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(112649768L))
+            info.setReturnValue(new net.minecraft.world.level.storage.loot.LootTable$Builder());
+    }
+
+    @Inject(at = @At("HEAD"), method = "shipwreckTreasureLootTable()Lnet/minecraft/world/level/storage/loot/LootTable$Builder;", cancellable = true)
+    private void shipwreckTreasureLootTable_112649768(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(112649768L))
+            info.setReturnValue(new net.minecraft.world.level.storage.loot.LootTable$Builder());
+    }
+
+    @Inject(at = @At("HEAD"), method = "desertPyramidLootTable()Lnet/minecraft/world/level/storage/loot/LootTable$Builder;", cancellable = true)
+    private void desertPyramidLootTable_112649768(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(112649768L))
             info.setReturnValue(new net.minecraft.world.level.storage.loot.LootTable$Builder());
     }
@@ -55,86 +133,8 @@ public class VanillaChestLoot846027904Mixin {
             info.setReturnValue(new net.minecraft.world.level.storage.loot.LootTable$Builder());
     }
 
-    @Inject(at = @At("HEAD"), method = "bastionBridgeLootTable()Lnet/minecraft/world/level/storage/loot/LootTable$Builder;", cancellable = true)
-    private void bastionBridgeLootTable_112649768(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(112649768L))
-            info.setReturnValue(new net.minecraft.world.level.storage.loot.LootTable$Builder());
-    }
-
-    @Inject(at = @At("HEAD"), method = "endCityTreasureLootTable()Lnet/minecraft/world/level/storage/loot/LootTable$Builder;", cancellable = true)
-    private void endCityTreasureLootTable_112649768(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(112649768L))
-            info.setReturnValue(new net.minecraft.world.level.storage.loot.LootTable$Builder());
-    }
-
-    @Inject(at = @At("HEAD"), method = "bastionOtherLootTable()Lnet/minecraft/world/level/storage/loot/LootTable$Builder;", cancellable = true)
-    private void bastionOtherLootTable_112649768(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(112649768L))
-            info.setReturnValue(new net.minecraft.world.level.storage.loot.LootTable$Builder());
-    }
-
-    @Inject(at = @At("HEAD"), method = "netherBridgeLootTable()Lnet/minecraft/world/level/storage/loot/LootTable$Builder;", cancellable = true)
-    private void netherBridgeLootTable_112649768(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(112649768L))
-            info.setReturnValue(new net.minecraft.world.level.storage.loot.LootTable$Builder());
-    }
-
-    @Inject(at = @At("HEAD"), method = "shipwreckMapLootTable()Lnet/minecraft/world/level/storage/loot/LootTable$Builder;", cancellable = true)
-    private void shipwreckMapLootTable_112649768(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(112649768L))
-            info.setReturnValue(new net.minecraft.world.level.storage.loot.LootTable$Builder());
-    }
-
-    @Inject(at = @At("HEAD"), method = "shipwreckSupplyLootTable()Lnet/minecraft/world/level/storage/loot/LootTable$Builder;", cancellable = true)
-    private void shipwreckSupplyLootTable_112649768(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(112649768L))
-            info.setReturnValue(new net.minecraft.world.level.storage.loot.LootTable$Builder());
-    }
-
-    @Inject(at = @At("HEAD"), method = "shipwreckTreasureLootTable()Lnet/minecraft/world/level/storage/loot/LootTable$Builder;", cancellable = true)
-    private void shipwreckTreasureLootTable_112649768(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(112649768L))
-            info.setReturnValue(new net.minecraft.world.level.storage.loot.LootTable$Builder());
-    }
-
-    @Inject(at = @At("HEAD"), method = "strongholdLibraryLootTable()Lnet/minecraft/world/level/storage/loot/LootTable$Builder;", cancellable = true)
-    private void strongholdLibraryLootTable_112649768(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(112649768L))
-            info.setReturnValue(new net.minecraft.world.level.storage.loot.LootTable$Builder());
-    }
-
-    @Inject(at = @At("HEAD"), method = "bastionTreasureLootTable()Lnet/minecraft/world/level/storage/loot/LootTable$Builder;", cancellable = true)
-    private void bastionTreasureLootTable_112649768(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(112649768L))
-            info.setReturnValue(new net.minecraft.world.level.storage.loot.LootTable$Builder());
-    }
-
-    @Inject(at = @At("HEAD"), method = "spawnerLootTables(Ljava/util/function/BiConsumer;)V", cancellable = true)
-    private void spawnerLootTables__892122986(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-892122986L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "woodlandMansionLootTable()Lnet/minecraft/world/level/storage/loot/LootTable$Builder;", cancellable = true)
-    private void woodlandMansionLootTable_112649768(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(112649768L))
-            info.setReturnValue(new net.minecraft.world.level.storage.loot.LootTable$Builder());
-    }
-
-    @Inject(at = @At("HEAD"), method = "registries()Lnet/minecraft/core/HolderLookup$Provider;", cancellable = true)
-    private void registries_532820571(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(532820571L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "bastionHoglinStableLootTable()Lnet/minecraft/world/level/storage/loot/LootTable$Builder;", cancellable = true)
-    private void bastionHoglinStableLootTable_112649768(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(112649768L))
-            info.setReturnValue(new net.minecraft.world.level.storage.loot.LootTable$Builder());
-    }
-
-    @Inject(at = @At("HEAD"), method = "strongholdCorridorLootTable()Lnet/minecraft/world/level/storage/loot/LootTable$Builder;", cancellable = true)
-    private void strongholdCorridorLootTable_112649768(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "ancientCityLootTable()Lnet/minecraft/world/level/storage/loot/LootTable$Builder;", cancellable = true)
+    private void ancientCityLootTable_112649768(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(112649768L))
             info.setReturnValue(new net.minecraft.world.level.storage.loot.LootTable$Builder());
     }

@@ -16,13 +16,13 @@ public class KickDto601580723Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__533879252(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-533879252L))
-            info.setReturnValue("8udI;iQY6-:Tf`A>:xc'}yh탕4;Ki訹'ILw䔶h쵇");
+            info.setReturnValue("8udI;iQY6-:Tf`A>:xc'}yh\uD0D54;Ki\u8A39'ILw\u4536h\uCD47");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_639843465(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(639843465L))
-            info.setReturnValue(1395900801);
+            info.setReturnValue(2060487201);
     }
 
     @Inject(at = @At("HEAD"), method = "message()Ljava/util/Optional;", cancellable = true)

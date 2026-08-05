@@ -10,7 +10,7 @@ public class SculkSensorPhase_309955255Mixin {
         @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__825505217(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-825505217L))
-            info.setReturnValue("cZRs荋W㞵Hdl/n=((鴡W᮫䩮Q촩Y,1u;YBBQ5.?瑧 dF#1k%jEy(G锶f3fd.K%q;PM蠭qE_ﴽYתּ-zi3yw)Mק뮫=-PwP U0Zb");
+            info.setReturnValue("cZRs\u834BW\u37B5Hdl/n=((\u9D21W\u1BAB\u4A6EQ\uCD29Y,1u;YBBQ5.?\u7467 dF#1k%jEy(G\u9536f3fd.K%q;PM\u882DqE_\uFD3DY\uFB4A-zi3yw)M\u05E7\uBBAB=-PwP U0Zb");
     }
 
     @Inject(at = @At("HEAD"), method = "values()[Lnet/minecraft/world/level/block/state/properties/SculkSensorPhase;", cancellable = true)
@@ -28,7 +28,7 @@ public class SculkSensorPhase_309955255Mixin {
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName__825505217(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-825505217L))
-            info.setReturnValue("cZRs荋W㞵Hdl/n=((鴡W᮫䩮Q촩Y,1u;YBBQ5.?瑧 dF#1k%jEy(G锶f3fd.K%q;PM蠭qE_ﴽYתּ-zi3yw)Mק뮫=-PwP U0Zb");
+            info.setReturnValue("cZRs\u834BW\u37B5Hdl/n=((\u9D21W\u1BAB\u4A6EQ\uCD29Y,1u;YBBQ5.?\u7467 dF#1k%jEy(G\u9536f3fd.K%q;PM\u882DqE_\uFD3DY\uFB4A-zi3yw)M\u05E7\uBBAB=-PwP U0Zb");
     }
 
 

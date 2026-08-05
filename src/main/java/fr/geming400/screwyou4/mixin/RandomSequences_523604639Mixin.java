@@ -28,7 +28,7 @@ public class RandomSequences_523604639Mixin {
     @Inject(at = @At("HEAD"), method = "clear()I", cancellable = true)
     private void clear_561866884(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(561866884L))
-            info.setReturnValue(168796075);
+            info.setReturnValue(725719375);
     }
 
     @Inject(at = @At("HEAD"), method = "forAllSequences(Ljava/util/function/BiConsumer;)V", cancellable = true)

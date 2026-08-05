@@ -10,7 +10,7 @@ public class SingleRecipeInput34810422Mixin {
         @Inject(at = @At("HEAD"), method = "size()I", cancellable = true)
     private void size_73072668(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(73072668L))
-            info.setReturnValue(-154629482);
+            info.setReturnValue(-18849482);
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
@@ -22,13 +22,13 @@ public class SingleRecipeInput34810422Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__1100649553(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1100649553L))
-            info.setReturnValue("dw>⚏wDeh'MxVXB,JLnSrjᦁ潟)x$슫/D립Q!轵>㹘syr!ꮖ]a:]V2e(痉?");
+            info.setReturnValue("dw>\u268FwDeh'MxVXB,JLnSrj\u1981\u6F5F)x$\uC2AB/D\uB9BDQ!\u8F75>\u3E58syr!\uAB96]a:]V2e(\u75C9?");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_73073164(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(73073164L))
-            info.setReturnValue(-357776901);
+            info.setReturnValue(-221996901);
     }
 
     @Inject(at = @At("HEAD"), method = "item()Lnet/minecraft/world/item/ItemStack;", cancellable = true)

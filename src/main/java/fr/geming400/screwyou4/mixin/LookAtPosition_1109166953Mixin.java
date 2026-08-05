@@ -16,13 +16,13 @@ public class LookAtPosition_1109166953Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__26293023(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-26293023L))
-            info.setReturnValue("xC셲eeyVoi>$Y|#㧂Xs;杔N'@0BqVx mᾐZ>=vt");
+            info.setReturnValue("xC\uC172eeyVoi>$Y|#\u39C2Xs;\u6754N'@0BqVx m\u1F90Z>=vt");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1147429694(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1147429694L))
-            info.setReturnValue(-1674793223);
+            info.setReturnValue(-1453719723);
     }
 
     @Inject(at = @At("HEAD"), method = "position()Lnet/minecraft/world/phys/Vec3;", cancellable = true)

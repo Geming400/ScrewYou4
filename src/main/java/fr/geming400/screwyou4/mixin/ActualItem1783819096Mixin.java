@@ -16,13 +16,13 @@ public class ActualItem1783819096Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_648359121(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(648359121L))
-            info.setReturnValue("弇=f횣td*ᮖNcR3");
+            info.setReturnValue("\u5F07=f\uD6A3td*\u1B96NcR3");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1822081838(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1822081838L))
-            info.setReturnValue(-47528884);
+            info.setReturnValue(80740816);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/network/HashedPatchMap$HashGenerator;)Z", cancellable = true)
@@ -34,7 +34,7 @@ public class ActualItem1783819096Mixin {
     @Inject(at = @At("HEAD"), method = "count()I", cancellable = true)
     private void count_1822081342(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1822081342L))
-            info.setReturnValue(155618535);
+            info.setReturnValue(283888235);
     }
 
     @Inject(at = @At("HEAD"), method = "item()Lnet/minecraft/core/Holder;", cancellable = true)

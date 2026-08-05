@@ -16,30 +16,24 @@ public class NumberRangeInput1081839802Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__53620173(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-53620173L))
-            info.setReturnValue("`i]cX艘␋");
+            info.setReturnValue("`i]cX\u8258\u240B");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1120102544(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1120102544L))
-            info.setReturnValue(396774579);
+            info.setReturnValue(569821579);
     }
 
     @Inject(at = @At("HEAD"), method = "width()I", cancellable = true)
     private void width_1120102048(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1120102048L))
-            info.setReturnValue(-1000633426);
+            info.setReturnValue(-827586426);
     }
 
     @Inject(at = @At("HEAD"), method = "label()Lnet/minecraft/network/chat/Component;", cancellable = true)
     private void label__1095069363(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1095069363L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "rangeInfo()Lnet/minecraft/server/dialog/input/NumberRangeInput$RangeInfo;", cancellable = true)
-    private void rangeInfo_926834647(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(926834647L))
             info.setReturnValue(null);
     }
 
@@ -58,7 +52,13 @@ public class NumberRangeInput1081839802Mixin {
     @Inject(at = @At("HEAD"), method = "labelFormat()Ljava/lang/String;", cancellable = true)
     private void labelFormat__53620669(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-53620669L))
-            info.setReturnValue("d=N:j7jUT_qNSggeF篛!+7OB4H=8saA/5;!|DW}cXI{GQ}z>HSg묀p");
+            info.setReturnValue("d=N:j7jUT_qNSggeF\u7BDB!+7OB4H=8saA/5;!|DW}cXI{GQ}z>HSg\uBB00p");
+    }
+
+    @Inject(at = @At("HEAD"), method = "rangeInfo()Lnet/minecraft/server/dialog/input/NumberRangeInput$RangeInfo;", cancellable = true)
+    private void rangeInfo_926834647(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(926834647L))
+            info.setReturnValue(null);
     }
 
 

@@ -43,15 +43,15 @@ public class GenericWaitingScreen1465731498Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "createWaitingWithoutButton(Lnet/minecraft/network/chat/Component;Lnet/minecraft/network/chat/Component;)Lnet/minecraft/client/gui/screens/GenericWaitingScreen;", cancellable = true)
-    private static void createWaitingWithoutButton__1549148800(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1549148800L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "createCompleted(Lnet/minecraft/network/chat/Component;Lnet/minecraft/network/chat/Component;Lnet/minecraft/network/chat/Component;Ljava/lang/Runnable;)Lnet/minecraft/client/gui/screens/GenericWaitingScreen;", cancellable = true)
     private static void createCompleted_1997113234(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1997113234L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "createWaitingWithoutButton(Lnet/minecraft/network/chat/Component;Lnet/minecraft/network/chat/Component;)Lnet/minecraft/client/gui/screens/GenericWaitingScreen;", cancellable = true)
+    private static void createWaitingWithoutButton__1549148800(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1549148800L))
             info.setReturnValue(null);
     }
 

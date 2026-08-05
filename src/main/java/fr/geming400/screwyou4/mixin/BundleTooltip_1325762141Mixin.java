@@ -16,13 +16,13 @@ public class BundleTooltip_1325762141Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_190302165(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(190302165L))
-            info.setReturnValue("q찎풖1024E0Fkzᗟnq瑕7u<틁j*Z@)^鄶`c_4;O:V.X疘oMsG/|r.$ይ]EiG⭋2bc㟹USwg/L;Rn磽[hSU(f䃮mx%TX3o◅춋3)O(");
+            info.setReturnValue("q\uCC0E\uD4961024E0Fkz\u15DFnq\u74557u<\uD2C1j*Z@)^\u9136`c_4;O:V.X\u7598oMsG/|r.$\u12ED]EiG\u2B4B2bc\u37F9USwg/L;Rn\u78FD[hSU(f\u40EEmx%TX3o\u25C5\uCD8B3)O(");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1364024882(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1364024882L))
-            info.setReturnValue(1306860216);
+            info.setReturnValue(1987700516);
     }
 
     @Inject(at = @At("HEAD"), method = "contents()Lnet/minecraft/world/item/component/BundleContents;", cancellable = true)

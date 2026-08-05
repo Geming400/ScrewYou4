@@ -13,15 +13,15 @@ public class LiquidBlock543483171Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getPickupSound()Ljava/util/Optional;", cancellable = true)
-    private void getPickupSound_788944593(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(788944593L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "pickupBlock(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/item/ItemStack;", cancellable = true)
     private void pickupBlock__2078042212(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2078042212L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getPickupSound()Ljava/util/Optional;", cancellable = true)
+    private void getPickupSound_788944593(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(788944593L))
             info.setReturnValue(null);
     }
 

@@ -16,13 +16,13 @@ public class UseEffects465884889Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__669575086(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-669575086L))
-            info.setReturnValue("%(mꎼX6D70;'J#/x휨|<ꅗZI'<40ESWlN@.>穘VM3wn0/7$?G,l?Bky<n읬_g3㣁3M`'-쮖_Qg㮛L㮔Y'TT'*nImOE$*Z7J");
+            info.setReturnValue("%(m\uA3BCX6D70;'J#/x\uD728|<\uA157ZI'<40ESWlN@.>\u7A58VM3wn0/7$?G,l?Bky<n\uC76C_g3\u38C13M`'-\uCB96_Qg\u3B9BL\u3B94Y'TT'*nImOE$*Z7J");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_504147631(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(504147631L))
-            info.setReturnValue(43624457);
+            info.setReturnValue(-14648843);
     }
 
     @Inject(at = @At("HEAD"), method = "canSprint()Z", cancellable = true)
@@ -34,7 +34,7 @@ public class UseEffects465884889Mixin {
     @Inject(at = @At("HEAD"), method = "speedMultiplier()F", cancellable = true)
     private void speedMultiplier_504144252(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(504144252L))
-            info.setReturnValue(4.566365E8F);
+            info.setReturnValue(3.983632E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "interactVibrations()Z", cancellable = true)

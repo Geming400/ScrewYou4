@@ -22,13 +22,13 @@ public class ClientboundExplodePacket_164025912Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__971434064(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-971434064L))
-            info.setReturnValue("|'祧x`K䋒䃃/pZQn3Z@j&稺68.fzV!4-hn穐pU(VINnmA4?敾캈;㒁ꂅQo|iϙv4H9B(EᱳL>O|ArhuV6멼#v@3sFoFLo");
+            info.setReturnValue("|'\u7967x`K\u42D2\u40C3/pZQn3Z@j&\u7A3A68.fzV!4-hn\u7A50pU(VINnmA4?\u657E\uCE88;\u3481\uA085Qo|i\u03D9v4H9B(E\u1C73L>O|ArhuV6\uBA7C#v@3sFoFLo");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_202288653(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(202288653L))
-            info.setReturnValue(1646168691);
+            info.setReturnValue(-2092200205);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/PacketListener;)V", cancellable = true)
@@ -43,6 +43,12 @@ public class ClientboundExplodePacket_164025912Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "radius()F", cancellable = true)
+    private void radius_202285274(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(202285274L))
+            info.setReturnValue(9.413261E8F);
+    }
+
     @Inject(at = @At("HEAD"), method = "center()Lnet/minecraft/world/phys/Vec3;", cancellable = true)
     private void center_1261755440(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1261755440L))
@@ -52,13 +58,7 @@ public class ClientboundExplodePacket_164025912Mixin {
     @Inject(at = @At("HEAD"), method = "blockCount()I", cancellable = true)
     private void blockCount_202288157(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(202288157L))
-            info.setReturnValue(1849822610);
-    }
-
-    @Inject(at = @At("HEAD"), method = "explosionSound()Lnet/minecraft/core/Holder;", cancellable = true)
-    private void explosionSound_1712901683(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1712901683L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1889052786);
     }
 
     @Inject(at = @At("HEAD"), method = "blockParticles()Lnet/minecraft/util/random/WeightedList;", cancellable = true)
@@ -67,9 +67,9 @@ public class ClientboundExplodePacket_164025912Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "playerKnockback()Ljava/util/Optional;", cancellable = true)
-    private void playerKnockback_409487333(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(409487333L))
+    @Inject(at = @At("HEAD"), method = "explosionSound()Lnet/minecraft/core/Holder;", cancellable = true)
+    private void explosionSound_1712901683(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1712901683L))
             info.setReturnValue(null);
     }
 
@@ -79,10 +79,10 @@ public class ClientboundExplodePacket_164025912Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "radius()F", cancellable = true)
-    private void radius_202285274(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(202285274L))
-            info.setReturnValue(3.852342E8F);
+    @Inject(at = @At("HEAD"), method = "playerKnockback()Ljava/util/Optional;", cancellable = true)
+    private void playerKnockback_409487333(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(409487333L))
+            info.setReturnValue(null);
     }
 
 

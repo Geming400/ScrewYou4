@@ -16,13 +16,13 @@ public class FluidPredicate_843560767Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__291899209(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-291899209L))
-            info.setReturnValue("`i䉵妌⍨4=P뢵$@gP'%.|fz$)鵡0_噌賎6-so");
+            info.setReturnValue("`i\u4275\u598C\u23684=P\uB8B5$@gP'%.|fz$)\u9D610_\u564C\u8CCE6-so");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_881823508(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(881823508L))
-            info.setReturnValue(-695466186);
+            info.setReturnValue(-1093619986);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;)Z", cancellable = true)

@@ -28,7 +28,7 @@ public class ItemStackTemplate1962133009Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2000395751(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2000395751L))
-            info.setReturnValue(373444733);
+            info.setReturnValue(105482733);
     }
 
     @Inject(at = @At("HEAD"), method = "apply(ILnet/minecraft/core/component/DataComponentPatch;)Lnet/minecraft/world/item/ItemStack;", cancellable = true)
@@ -46,7 +46,7 @@ public class ItemStackTemplate1962133009Mixin {
     @Inject(at = @At("HEAD"), method = "count()I", cancellable = true)
     private void count_2000395255(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2000395255L))
-            info.setReturnValue(576592152);
+            info.setReturnValue(308630152);
     }
 
     @Inject(at = @At("HEAD"), method = "create()Lnet/minecraft/world/item/ItemStack;", cancellable = true)

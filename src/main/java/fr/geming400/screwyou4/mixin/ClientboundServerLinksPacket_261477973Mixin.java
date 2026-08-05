@@ -22,13 +22,13 @@ public class ClientboundServerLinksPacket_261477973Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__873982003(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-873982003L))
-            info.setReturnValue("S᳖w틆.:3r=p⽙R]Q2T<uᧄv");
+            info.setReturnValue("S\u1CD6w\uD2C6.:3r=p\u2F59R]Q2T<u\u19C4v");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_299740714(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(299740714L))
-            info.setReturnValue(2060294511);
+            info.setReturnValue(2074443411);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/PacketListener;)V", cancellable = true)

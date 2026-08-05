@@ -16,13 +16,13 @@ public class DataComponentMatchers_428417002Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__707042974(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-707042974L))
-            info.setReturnValue("KIM613^Y)Kq*(E桙drhw6%.Z頏d`xA,H篏p>d''u#|n4KX $體I?2");
+            info.setReturnValue("KIM613^Y)Kq*(E\u6859drhw6%.Z\u980Fd`xA,H\u7BCFp>d''u#|n4KX $\u9AD4I?2");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_466679743(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(466679743L))
-            info.setReturnValue(1978906598);
+            info.setReturnValue(-1933834198);
     }
 
     @Inject(at = @At("HEAD"), method = "test(Lnet/minecraft/core/component/DataComponentGetter;)Z", cancellable = true)

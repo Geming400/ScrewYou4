@@ -10,7 +10,7 @@ public class SpeleothemThickness956120780Mixin {
         @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__179339691(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-179339691L))
-            info.setReturnValue("1I\"N{Oߥo^<k##蓗WyMh0lW");
+            info.setReturnValue("1I\"N{O\u07E5o^<k##\u84D7WyMh0lW");
     }
 
     @Inject(at = @At("HEAD"), method = "values()[Lnet/minecraft/world/level/block/state/properties/SpeleothemThickness;", cancellable = true)
@@ -28,7 +28,7 @@ public class SpeleothemThickness956120780Mixin {
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName__179339691(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-179339691L))
-            info.setReturnValue("1I\"N{Oߥo^<k##蓗WyMh0lW");
+            info.setReturnValue("1I\"N{O\u07E5o^<k##\u84D7WyMh0lW");
     }
 
 

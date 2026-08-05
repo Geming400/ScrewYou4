@@ -22,19 +22,19 @@ public class MapBanner2097523850Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_962063875(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(962063875L))
-            info.setReturnValue("5]뿺V*Yaa:U痊.osc{儙a59)r⧂`>ᴨw,鷄Z铫#a02bUle⅋_S7;cY6Oe]N≭Dx㘁k$Y挘M⯔k+ꐝ.₃yBwk\"");
+            info.setReturnValue("5]\uBFFAV*Yaa:U\u75CA.osc{\u5119a59)r\u29C2`>\u1D28w,\u9DC4Z\u94EB#a02bUle\u214B_S7;cY6Oe]N\u226DDx\u3601k$Y\u6318M\u2BD4k+\uA41D.\u2083yBwk\"");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2135786592(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2135786592L))
-            info.setReturnValue(368475862);
+            info.setReturnValue(282540562);
     }
 
     @Inject(at = @At("HEAD"), method = "getId()Ljava/lang/String;", cancellable = true)
     private void getId_962063379(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(962063379L))
-            info.setReturnValue("hCb 3㙓34E7QA厚手u탵GlהV蜕 r t0#秋}Ybwn8㌐-#'Jgt)V哳B)D8!뗎䀛쵸㙋Wu䑓|<hL8;$P鮺c*p{jZIS]AB\"cs");
+            info.setReturnValue("hCb 3\u365334E7QA\u539A\u624Bu\uD0F5Gl\u05D4V\u8715 r t0#\u79CB}Ybwn8\u3310-#'Jgt)V\u54F3B)D8!\uB5CE\u401B\uCD78\u364BWu\u4453|<hL8;$P\u9BBAc*p{jZIS]AB\"cs");
     }
 
     @Inject(at = @At("HEAD"), method = "pos()Lnet/minecraft/core/BlockPos;", cancellable = true)

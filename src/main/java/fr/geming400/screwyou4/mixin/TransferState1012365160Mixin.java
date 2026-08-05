@@ -16,13 +16,13 @@ public class TransferState1012365160Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__123094815(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-123094815L))
-            info.setReturnValue("㣺씦chS뿼^g3 }^1Z窓jsH*7Y*++孉﵎N'(癊$PH|䫠ﱕGDTP/\"(J,6{7!籞o镫}FRV>v:CO9Ffk!<0 N4(");
+            info.setReturnValue("\u38FA\uC526chS\uBFFC^g3 }^1Z\u7A93jsH*7Y*++\u5B49\uFD4EN'(\u764A$PH|\u4AE0\uFC55GDTP/\"(J,6{7!\u7C5Eo\u956B}FRV>v:CO9Ffk!<0 N4(");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1050627902(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1050627902L))
-            info.setReturnValue(33303351);
+            info.setReturnValue(-734629849);
     }
 
     @Inject(at = @At("HEAD"), method = "cookies()Ljava/util/Map;", cancellable = true)

@@ -16,25 +16,25 @@ public class Brightness_1678972249Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_543512273(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(543512273L))
-            info.setReturnValue("詗,7o诱)z88<u;6kQ=^oX(瘵 FbⰤv侊x!:D&臿Dᘇ|0+9,3$2X1E棒[kCuy871");
+            info.setReturnValue("\u8A57,7o\u8BF1)z88<u;6kQ=^oX(\u7635 Fb\u2C24v\u4F8Ax!:D&\u81FFD\u1607|0+9,3$2X1E\u68D2[kCuy871");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1717234990(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1717234990L))
-            info.setReturnValue(-1382550992);
+            info.setReturnValue(-1848556292);
     }
 
     @Inject(at = @At("HEAD"), method = "block()I", cancellable = true)
     private void block_1717234494(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1717234494L))
-            info.setReturnValue(-1179403572);
+            info.setReturnValue(-1645408872);
     }
 
     @Inject(at = @At("HEAD"), method = "pack()I", cancellable = true)
     private void pack_1717234494(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1717234494L))
-            info.setReturnValue(-1179403572);
+            info.setReturnValue(-1645408872);
     }
 
     @Inject(at = @At("HEAD"), method = "unpack(I)Lnet/minecraft/util/Brightness;", cancellable = true)
@@ -46,7 +46,7 @@ public class Brightness_1678972249Mixin {
     @Inject(at = @At("HEAD"), method = "sky()I", cancellable = true)
     private void sky_1717234494(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1717234494L))
-            info.setReturnValue(-1179403572);
+            info.setReturnValue(-1645408872);
     }
 
 

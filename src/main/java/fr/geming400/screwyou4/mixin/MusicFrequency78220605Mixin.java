@@ -28,7 +28,7 @@ public class MusicFrequency78220605Mixin {
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName__1057239866(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1057239866L))
-            info.setReturnValue("^JT^Gd.p3Zp%HMJ ,>yFKTjᗢ_WwM㌰ᔧ;}䠹.op헕n7jZ.9$康FᶻV9)jS]cgQ,u3;ZW:");
+            info.setReturnValue("^JT^Gd.p3Zp%HMJ ,>yFKTj\u15E2_WwM\u3330\u1527;}\u4839.op\uD5D5n7jZ.9$\u5EB7F\u1DBBV9)jS]cgQ,u3;ZW:");
     }
 
 

@@ -28,13 +28,13 @@ public class ClientboundCustomPayloadPacket1861681746Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_726221771(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(726221771L))
-            info.setReturnValue("c+UaV/;=}WGtC**⍼NዼᖌV<푦A7kLm-L橇yD|pg<u#稊G{앍z58&c1H40/g:<\"8T_@{EO`↱gZ%P.%?XZ7冘&FXe^ิi?1દ@栶N`bq_⌒:}");
+            info.setReturnValue("c+UaV/;=}WGtC**\u237CN\u12FC\u158CV<\uD466A7kLm-L\u6A47yD|pg<u#\u7A0AG{\uC54Dz58&c1H40/g:<\"8T_@{EO`\u21B1gZ%P.%?XZ7\u5198&FXe^\u0E34i?1\u0AA6@\u6836N`bq_\u2312:}");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1899944488(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1899944488L))
-            info.setReturnValue(-1081281927);
+            info.setReturnValue(-428356027);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/protocol/common/ClientCommonPacketListener;)V", cancellable = true)

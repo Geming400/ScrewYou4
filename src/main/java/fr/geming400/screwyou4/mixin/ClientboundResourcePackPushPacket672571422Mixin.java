@@ -22,25 +22,25 @@ public class ClientboundResourcePackPushPacket672571422Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__462888553(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-462888553L))
-            info.setReturnValue("}xHᘽCbO_9@eZ#쥰'ￏv겼bDA蒢仟zZoOch\"K^(<Ҫ2UX랛A(苗N(>)l螯둨#1Yco̖QspQ.<|B9L{VJC!N");
+            info.setReturnValue("}xH\u163DCbO_9@eZ#\uC970'\uFFCFv\uACBCbDA\u84A2\u4EDFzZoOch\"K^(<\u04AA2UX\uB79BA(\u82D7N(>)l\u87AF\uB468#1Yco\u0316QspQ.<|B9L{VJC!N");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_710834164(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(710834164L))
-            info.setReturnValue(-1446481245);
+            info.setReturnValue(-1236348945);
     }
 
     @Inject(at = @At("HEAD"), method = "hash()Ljava/lang/String;", cancellable = true)
     private void hash__462889049(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-462889049L))
-            info.setReturnValue("*f$iu^-⡯\",");
+            info.setReturnValue("*f$iu^-\u286F\",");
     }
 
     @Inject(at = @At("HEAD"), method = "url()Ljava/lang/String;", cancellable = true)
     private void url__462889049(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-462889049L))
-            info.setReturnValue("*f$iu^-⡯\",");
+            info.setReturnValue("*f$iu^-\u286F\",");
     }
 
     @Inject(at = @At("HEAD"), method = "id()Ljava/util/UUID;", cancellable = true)

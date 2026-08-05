@@ -13,6 +13,12 @@ public class ServerConfigurationPacketListenerImpl_1190579295Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "isAcceptingMessages()Z", cancellable = true)
+    private void isAcceptingMessages_1228857877(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1228857877L))
+            info.setReturnValue(false);
+    }
+
     @Inject(at = @At("HEAD"), method = "startConfiguration()V", cancellable = true)
     private void startConfiguration_1228854033(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1228854033L))
@@ -28,6 +34,12 @@ public class ServerConfigurationPacketListenerImpl_1190579295Mixin {
     @Inject(at = @At("HEAD"), method = "handleSelectKnownPacks(Lnet/minecraft/network/protocol/configuration/ServerboundSelectKnownPacks;)V", cancellable = true)
     private void handleSelectKnownPacks__1837331795(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1837331795L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "handleConfigurationFinished(Lnet/minecraft/network/protocol/configuration/ServerboundFinishConfigurationPacket;)V", cancellable = true)
+    private void handleConfigurationFinished_2037126973(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(2037126973L))
             info.cancel();
     }
 
@@ -52,18 +64,6 @@ public class ServerConfigurationPacketListenerImpl_1190579295Mixin {
     @Inject(at = @At("HEAD"), method = "returnToWorld()V", cancellable = true)
     private void returnToWorld_1228854033(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1228854033L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "isAcceptingMessages()Z", cancellable = true)
-    private void isAcceptingMessages_1228857877(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1228857877L))
-            info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "handleConfigurationFinished(Lnet/minecraft/network/protocol/configuration/ServerboundFinishConfigurationPacket;)V", cancellable = true)
-    private void handleConfigurationFinished_2037126973(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(2037126973L))
             info.cancel();
     }
 

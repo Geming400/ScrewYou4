@@ -16,13 +16,13 @@ public class Submit_413690114Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__721769862(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-721769862L))
-            info.setReturnValue("rxMc-b;돓侨,8yN难LIn+F`d`9LLDa1]|bhFVX82/Mk0vs⯵婦H[K^`K");
+            info.setReturnValue("rxMc-b;\uB3D3\u4FA8,8yN\u96BELIn+F`d`9LLDa1]|bhFVX82/Mk0vs\u2BF5\u5A66H[K^`K");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_451952855(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(451952855L))
-            info.setReturnValue(707778826);
+            info.setReturnValue(1315112826);
     }
 
     @Inject(at = @At("HEAD"), method = "translucent()Z", cancellable = true)
@@ -31,16 +31,16 @@ public class Submit_413690114Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "featureType()Lnet/minecraft/client/renderer/feature/FeatureRendererType;", cancellable = true)
-    private void featureType_1444773639(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1444773639L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "particles()Lnet/minecraft/client/renderer/state/level/QuadParticleRenderState;", cancellable = true)
     private void particles__547334820(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-547334820L))
             info.setReturnValue(new net.minecraft.client.renderer.state.level.QuadParticleRenderState());
+    }
+
+    @Inject(at = @At("HEAD"), method = "featureType()Lnet/minecraft/client/renderer/feature/FeatureRendererType;", cancellable = true)
+    private void featureType_1444773639(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1444773639L))
+            info.setReturnValue(null);
     }
 
 

@@ -22,19 +22,19 @@ public class DataValue_1440894554Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_305434578(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(305434578L))
-            info.setReturnValue("현:Th;k;fgv&㗧V 9&n;u'U/4>O掹J㑃");
+            info.setReturnValue("\uD604:Th;k;fgv&\u35E7V 9&n;u'U/4>O\u63B9J\u3443");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1479157295(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1479157295L))
-            info.setReturnValue(1431893771);
+            info.setReturnValue(1723393871);
     }
 
     @Inject(at = @At("HEAD"), method = "id()I", cancellable = true)
     private void id_1479156799(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1479156799L))
-            info.setReturnValue(1635041190);
+            info.setReturnValue(1926541290);
     }
 
     @Inject(at = @At("HEAD"), method = "write(Lnet/minecraft/network/RegistryFriendlyByteBuf;)V", cancellable = true)

@@ -22,13 +22,13 @@ public class ClientboundCustomChatCompletionsPacket895240469Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__240219506(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-240219506L))
-            info.setReturnValue("r!$]T'漫egS'4尲%kRb&gc^GY扩N0{izp瑊ഢ_蘅㰗J<6B[%k脜٫gx{FY_}Xz8M儙먹");
+            info.setReturnValue("r!$]T'\u6F2BegS'4\u5C32%kRb&gc^GY\u6269N0{izp\u744A\u0D22_\u8605\u3C17J<6B[%k\u811C\u066Bgx{FY_}Xz8M\u5119\uBA39");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_933503211(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(933503211L))
-            info.setReturnValue(-1862020484);
+            info.setReturnValue(1938626212);
     }
 
     @Inject(at = @At("HEAD"), method = "entries()Ljava/util/List;", cancellable = true)

@@ -16,19 +16,19 @@ public class EnvironmentAttributeValue1895297162Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_759837187(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(759837187L))
-            info.setReturnValue("mY:>I%*桗WT>傲$vs%HF8gPe.弘[I=〺G實2b1橱Wbj8 ^`l Y6ze/2rR|[D1'䑫꣩/ZO4튏Y:");
+            info.setReturnValue("mY:>I%*\u6857WT>\u50B2$vs%HF8gPe.\u5F18[I=\u303AG\u5BE62b1\u6A71Wbj8 ^`l Y6ze/2rR|[D1'\u446B\uA8E9/ZO4\uD28FY:");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1933559904(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1933559904L))
-            info.setReturnValue(2015092386);
+            info.setReturnValue(2144330886);
     }
 
     @Inject(at = @At("HEAD"), method = "getFloat(Lnet/minecraft/world/level/storage/loot/LootContext;)F", cancellable = true)
     private void getFloat__481671156(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-481671156L))
-            info.setReturnValue(3.464495E8F);
+            info.setReturnValue(4.75688E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "attribute()Lnet/minecraft/world/attribute/EnvironmentAttribute;", cancellable = true)

@@ -25,9 +25,9 @@ public class BlockDisplayRenderer601345747Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/entity/Display;Lnet/minecraft/client/renderer/entity/state/DisplayEntityRenderState;F)V", cancellable = true)
-    private void extractRenderState__1821172463(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1821172463L))
+    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/client/renderer/entity/state/EntityRenderState;F)V", cancellable = true)
+    private void extractRenderState_828464766(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(828464766L))
             info.cancel();
     }
 
@@ -37,9 +37,9 @@ public class BlockDisplayRenderer601345747Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/client/renderer/entity/state/EntityRenderState;F)V", cancellable = true)
-    private void extractRenderState_828464766(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(828464766L))
+    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/entity/Display;Lnet/minecraft/client/renderer/entity/state/DisplayEntityRenderState;F)V", cancellable = true)
+    private void extractRenderState__1821172463(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1821172463L))
             info.cancel();
     }
 

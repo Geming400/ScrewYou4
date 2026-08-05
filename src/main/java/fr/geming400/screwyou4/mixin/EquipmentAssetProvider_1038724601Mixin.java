@@ -10,7 +10,7 @@ public class EquipmentAssetProvider_1038724601Mixin {
         @Inject(at = @At("HEAD"), method = "getName()Ljava/lang/String;", cancellable = true)
     private void getName__96735871(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-96735871L))
-            info.setReturnValue("q?Vꢉ^UU䌻Csgc1QgK轢zE5:OyWa1[2T% ]oGLEN;)Jf# 䳢");
+            info.setReturnValue("q?V\uA889^UU\u433BCsgc1QgK\u8F62zE5:OyWa1[2T% ]oGLEN;)Jf# \u4CE2");
     }
 
     @Inject(at = @At("HEAD"), method = "run(Lnet/minecraft/data/CachedOutput;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)

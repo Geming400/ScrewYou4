@@ -19,16 +19,16 @@ public class MapTextureManager_1221587744Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "prepareMapTexture(Lnet/minecraft/world/level/saveddata/maps/MapId;Lnet/minecraft/world/level/saveddata/maps/MapItemSavedData;)Lnet/minecraft/resources/Identifier;", cancellable = true)
-    private void prepareMapTexture_34709829(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(34709829L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "resetData()V", cancellable = true)
     private void resetData_1259862482(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1259862482L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "prepareMapTexture(Lnet/minecraft/world/level/saveddata/maps/MapId;Lnet/minecraft/world/level/saveddata/maps/MapItemSavedData;)Lnet/minecraft/resources/Identifier;", cancellable = true)
+    private void prepareMapTexture_34709829(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(34709829L))
+            info.setReturnValue(null);
     }
 
 

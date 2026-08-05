@@ -16,13 +16,13 @@ public class WrappedTerm920945959Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__214514016(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-214514016L))
-            info.setReturnValue("34C̾Qzmw!㟳{GMU糦0䎝aA)VjR#<毋H.");
+            info.setReturnValue("34C\u033EQzmw!\u37F3{GMU\u7CE60\u439DaA)VjR#<\u6BCBH.");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_959208701(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(959208701L))
-            info.setReturnValue(-432092188);
+            info.setReturnValue(-1080608288);
     }
 
     @Inject(at = @At("HEAD"), method = "action()Lnet/minecraft/util/parsing/packrat/Rule$RuleAction;", cancellable = true)

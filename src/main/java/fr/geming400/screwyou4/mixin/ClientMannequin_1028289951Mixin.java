@@ -13,9 +13,9 @@ public class ClientMannequin_1028289951Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "registerOverrides(Lnet/minecraft/client/renderer/PlayerSkinRenderCache;)V", cancellable = true)
-    private static void registerOverrides__1794593650(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1794593650L))
+    @Inject(at = @At("HEAD"), method = "onSyncedDataUpdated(Lnet/minecraft/network/syncher/EntityDataAccessor;)V", cancellable = true)
+    private void onSyncedDataUpdated__1620927902(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1620927902L))
             info.cancel();
     }
 
@@ -25,16 +25,16 @@ public class ClientMannequin_1028289951Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "onSyncedDataUpdated(Lnet/minecraft/network/syncher/EntityDataAccessor;)V", cancellable = true)
-    private void onSyncedDataUpdated__1620927902(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1620927902L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "avatarState()Lnet/minecraft/client/entity/ClientAvatarState;", cancellable = true)
     private void avatarState_1773460817(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1773460817L))
             info.setReturnValue(new net.minecraft.client.entity.ClientAvatarState());
+    }
+
+    @Inject(at = @At("HEAD"), method = "getSkin()Lnet/minecraft/world/entity/player/PlayerSkin;", cancellable = true)
+    private void getSkin__624030309(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-624030309L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "showExtraEars()Z", cancellable = true)
@@ -49,10 +49,10 @@ public class ClientMannequin_1028289951Mixin {
             info.setReturnValue(net.minecraft.world.entity.animal.parrot.Parrot.Variant.RED_BLUE);
     }
 
-    @Inject(at = @At("HEAD"), method = "getSkin()Lnet/minecraft/world/entity/player/PlayerSkin;", cancellable = true)
-    private void getSkin__624030309(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-624030309L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "registerOverrides(Lnet/minecraft/client/renderer/PlayerSkinRenderCache;)V", cancellable = true)
+    private static void registerOverrides__1794593650(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1794593650L))
+            info.cancel();
     }
 
 

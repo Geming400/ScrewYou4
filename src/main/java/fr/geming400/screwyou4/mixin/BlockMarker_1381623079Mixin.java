@@ -16,7 +16,7 @@ public class BlockMarker_1381623079Mixin {
     @Inject(at = @At("HEAD"), method = "getQuadSize(F)F", cancellable = true)
     private void getQuadSize__1702213185(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1702213185L))
-            info.setReturnValue(6.608222E8F);
+            info.setReturnValue(3.720146E8F);
     }
 
 

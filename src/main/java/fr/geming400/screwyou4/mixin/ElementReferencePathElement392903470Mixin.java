@@ -10,7 +10,7 @@ public class ElementReferencePathElement392903470Mixin {
         @Inject(at = @At("HEAD"), method = "get()Ljava/lang/String;", cancellable = true)
     private void get__742557001(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-742557001L))
-            info.setReturnValue("鸆 Hb+rb{_\"+*ΞfR匮5 OeӾRﰄK%a%*罶Fx`&踄WJN/.kO)qG ,q&;g");
+            info.setReturnValue("\u9E06 Hb+rb{_\"+*\u039EfR\u532E5 Oe\u04FER\uFC04K%a%*\u7F76Fx`&\u8E04WJN/.kO)qG ,q&;g");
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
@@ -22,13 +22,13 @@ public class ElementReferencePathElement392903470Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__742556505(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-742556505L))
-            info.setReturnValue("3:㠚T#H1蟏T&_uR[_@B9低z렄K3!c!k$뺕㻺nY(e;Y.x'D");
+            info.setReturnValue("3:\u381AT#H1\u87CFT&_uR[_@B9\u4F4Ez\uB804K3!c!k$\uBE95\u3EFAnY(e;Y.x'D");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_431166212(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(431166212L))
-            info.setReturnValue(991389831);
+            info.setReturnValue(369519831);
     }
 
     @Inject(at = @At("HEAD"), method = "id()Lnet/minecraft/resources/ResourceKey;", cancellable = true)

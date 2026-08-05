@@ -16,13 +16,13 @@ public class IncomingIpBanDto_860554788Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__274905188(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-274905188L))
-            info.setReturnValue(" 'q2|o8G5h牯t你L<-c3WLKCH,I2%7VyMm`F>笀)3N9j湝wlbINva繖tQ_A텆");
+            info.setReturnValue(" 'q2|o8G5h\u726Ft\u4F60L<-c3WLKCH,I2%7VyMm`F>\u7B00)3N9j\u6E5DwlbINva\u7E56tQ_A\uD146");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_898817529(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(898817529L))
-            info.setReturnValue(718158338);
+            info.setReturnValue(1009616738);
     }
 
     @Inject(at = @At("HEAD"), method = "source()Ljava/util/Optional;", cancellable = true)

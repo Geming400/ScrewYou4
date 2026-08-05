@@ -25,14 +25,8 @@ public class DebugScreenEntryList1276273089Mixin {
             info.setReturnValue(net.minecraft.client.gui.components.debug.DebugScreenEntryStatus.IN_OVERLAY);
     }
 
-    @Inject(at = @At("HEAD"), method = "toggleStatus(Lnet/minecraft/resources/Identifier;)Z", cancellable = true)
-    private void toggleStatus__218164224(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-218164224L))
-            info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "toggleDebugOverlay()V", cancellable = true)
-    private void toggleDebugOverlay_1314547828(CallbackInfo info) {
+    @Inject(at = @At("HEAD"), method = "rebuildCurrentList()V", cancellable = true)
+    private void rebuildCurrentList_1314547828(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1314547828L))
             info.cancel();
     }
@@ -55,22 +49,10 @@ public class DebugScreenEntryList1276273089Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "setStatus(Lnet/minecraft/resources/Identifier;Lnet/minecraft/client/gui/components/debug/DebugScreenEntryStatus;)V", cancellable = true)
-    private void setStatus_437420629(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(437420629L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "loadProfile(Lnet/minecraft/client/gui/components/debug/DebugScreenProfile;)V", cancellable = true)
-    private void loadProfile_277469512(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(277469512L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "getCurrentlyEnabledVersion()J", cancellable = true)
     private void getCurrentlyEnabledVersion_1314536296(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1314536296L))
-            info.setReturnValue(5744903220277797592L);
+            info.setReturnValue(5744903219987494892L);
     }
 
     @Inject(at = @At("HEAD"), method = "isUsingProfile(Lnet/minecraft/client/gui/components/debug/DebugScreenProfile;)Z", cancellable = true)
@@ -79,16 +61,34 @@ public class DebugScreenEntryList1276273089Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "isCurrentlyEnabled(Lnet/minecraft/resources/Identifier;)Z", cancellable = true)
-    private void isCurrentlyEnabled__218164224(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "loadProfile(Lnet/minecraft/client/gui/components/debug/DebugScreenProfile;)V", cancellable = true)
+    private void loadProfile_277469512(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(277469512L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "setStatus(Lnet/minecraft/resources/Identifier;Lnet/minecraft/client/gui/components/debug/DebugScreenEntryStatus;)V", cancellable = true)
+    private void setStatus_437420629(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(437420629L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "toggleDebugOverlay()V", cancellable = true)
+    private void toggleDebugOverlay_1314547828(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1314547828L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "toggleStatus(Lnet/minecraft/resources/Identifier;)Z", cancellable = true)
+    private void toggleStatus__218164224(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-218164224L))
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "rebuildCurrentList()V", cancellable = true)
-    private void rebuildCurrentList_1314547828(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1314547828L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "isCurrentlyEnabled(Lnet/minecraft/resources/Identifier;)Z", cancellable = true)
+    private void isCurrentlyEnabled__218164224(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-218164224L))
+            info.setReturnValue(false);
     }
 
 

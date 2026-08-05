@@ -16,13 +16,13 @@ public class NetworkedRegistryData2023106378Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_887646403(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(887646403L))
-            info.setReturnValue(":#1+Fq]E3뜀!D%ZQ;@_");
+            info.setReturnValue(":#1+Fq]E3\uB700!D%ZQ;@_");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2061369120(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2061369120L))
-            info.setReturnValue(-1530741402);
+            info.setReturnValue(-1357709502);
     }
 
     @Inject(at = @At("HEAD"), method = "elements()Ljava/util/List;", cancellable = true)

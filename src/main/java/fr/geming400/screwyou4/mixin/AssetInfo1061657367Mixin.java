@@ -16,17 +16,17 @@ public class AssetInfo1061657367Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__73802608(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-73802608L))
-            info.setReturnValue(".}(1u|xaQS yVO}씿|53e眯Ac]}|QQ㉑U 3#/zFT,p<@芋夆_");
+            info.setReturnValue(".}(1u|xaQS yVO}\uC53F|53e\u772FAc]}|QQ\u3251U 3#/zFT,p<@\u828B\u5906_");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1099920109(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1099920109L))
-            info.setReturnValue(1592515373);
+            info.setReturnValue(1216158773);
     }
 
-    @Inject(at = @At("HEAD"), method = "tame()Lnet/minecraft/core/ClientAsset$ResourceTexture;", cancellable = true)
-    private void tame__190523853(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "angry()Lnet/minecraft/core/ClientAsset$ResourceTexture;", cancellable = true)
+    private void angry__190523853(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-190523853L))
             info.setReturnValue(null);
     }
@@ -37,8 +37,8 @@ public class AssetInfo1061657367Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "angry()Lnet/minecraft/core/ClientAsset$ResourceTexture;", cancellable = true)
-    private void angry__190523853(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "tame()Lnet/minecraft/core/ClientAsset$ResourceTexture;", cancellable = true)
+    private void tame__190523853(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-190523853L))
             info.setReturnValue(null);
     }

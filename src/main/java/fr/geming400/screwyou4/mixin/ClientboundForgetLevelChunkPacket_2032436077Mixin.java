@@ -22,13 +22,13 @@ public class ClientboundForgetLevelChunkPacket_2032436077Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_896976101(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(896976101L))
-            info.setReturnValue("0V햼\"R`2  Dᳺ!Z/o勾69xr0䬜[X8I7ൿMC0<P1&O[@\"8@q2泅YR2mVQd拓O2y-");
+            info.setReturnValue("0V\uD5BC\"R`2  D\u1CFA!Z/o\u52FE69xr0\u4B1C[X8I7\u0D7FMC0<P1&O[@\"8@q2\u6CC5YR2mVQd\uFA02O2y-");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2070698818(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2070698818L))
-            info.setReturnValue(880030628);
+            info.setReturnValue(733584828);
     }
 
     @Inject(at = @At("HEAD"), method = "pos()Lnet/minecraft/world/level/ChunkPos;", cancellable = true)

@@ -55,58 +55,22 @@ public class ServerChunkCache578965776Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getChunkFuture(IILnet/minecraft/world/level/chunk/status/ChunkStatus;Z)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
-    private void getChunkFuture_1299430898(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1299430898L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getChunkDebugData(Lnet/minecraft/world/level/ChunkPos;)Ljava/lang/String;", cancellable = true)
-    private void getChunkDebugData_646932525(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(646932525L))
-            info.setReturnValue("");
-    }
-
-    @Inject(at = @At("HEAD"), method = "addTicketAndLoadWithRadius(Lnet/minecraft/server/level/TicketType;Lnet/minecraft/world/level/ChunkPos;I)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
-    private void addTicketAndLoadWithRadius__1317720850(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1317720850L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "removeTicketWithRadius(Lnet/minecraft/server/level/TicketType;Lnet/minecraft/world/level/ChunkPos;I)V", cancellable = true)
-    private void removeTicketWithRadius__2088958174(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-2088958174L))
+    @Inject(at = @At("HEAD"), method = "deactivateTicketsOnClosing()V", cancellable = true)
+    private void deactivateTicketsOnClosing_617240515(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(617240515L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "sendToTrackingPlayersAndSelf(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/network/protocol/Packet;)V", cancellable = true)
-    private void sendToTrackingPlayersAndSelf__637785353(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-637785353L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "setViewDistance(I)V", cancellable = true)
-    private void setViewDistance_1792882748(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1792882748L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "setSimulationDistance(I)V", cancellable = true)
-    private void setSimulationDistance_1792882748(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1792882748L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "hasChunk(II)Z", cancellable = true)
-    private void hasChunk__416909849(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-416909849L))
-            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "getChunk(IILnet/minecraft/world/level/chunk/status/ChunkStatus;Z)Lnet/minecraft/world/level/chunk/ChunkAccess;", cancellable = true)
     private void getChunk__1143737380(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1143737380L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "hasChunk(II)Z", cancellable = true)
+    private void hasChunk__416909849(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-416909849L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "addEntity(Lnet/minecraft/world/entity/Entity;)V", cancellable = true)
@@ -127,40 +91,22 @@ public class ServerChunkCache578965776Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "gatherStats()Ljava/lang/String;", cancellable = true)
+    private void gatherStats__556494695(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-556494695L))
+            info.setReturnValue("\"z[ea>Z-=\u4AC9I?s^RGbK)'\u08A4:+!o\u45E0\u26EB&th1\uFD84\u6AA1F5\u6DC80_o\u37B2Z,-\"*AQHp=QO\u8CCARk8@z#a'p3");
+    }
+
     @Inject(at = @At("HEAD"), method = "setSpawnSettings(Z)V", cancellable = true)
     private void setSpawnSettings_1808582605(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1808582605L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "gatherStats()Ljava/lang/String;", cancellable = true)
-    private void gatherStats__556494695(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-556494695L))
-            info.setReturnValue("\"z[ea>Z-=䫉I?s^RGbK)'ࢤ:+!o䗠⛫&th1ﶄ檡F5淈0_o㞲Z,-\"*AQHp=QO賊Rk8@z#a'p3");
-    }
-
-    @Inject(at = @At("HEAD"), method = "hasActiveTickets()Z", cancellable = true)
-    private void hasActiveTickets_617244359(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(617244359L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "randomState()Lnet/minecraft/world/level/levelgen/RandomState;", cancellable = true)
-    private void randomState_1139410519(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1139410519L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getGeneratorState()Lnet/minecraft/world/level/chunk/ChunkGeneratorStructureState;", cancellable = true)
     private void getGeneratorState__1199727108(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1199727108L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "hasEntityWithId(I)Z", cancellable = true)
-    private void hasEntityWithId_1792886592(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1792886592L))
-            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "getDataStorage()Lnet/minecraft/world/level/storage/SavedDataStorage;", cancellable = true)
@@ -175,10 +121,22 @@ public class ServerChunkCache578965776Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "blockChanged(Lnet/minecraft/core/BlockPos;)V", cancellable = true)
-    private void blockChanged_747732375(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(747732375L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "hasEntityWithId(I)Z", cancellable = true)
+    private void hasEntityWithId_1792886592(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1792886592L))
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "hasActiveTickets()Z", cancellable = true)
+    private void hasActiveTickets_617244359(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(617244359L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "randomState()Lnet/minecraft/world/level/levelgen/RandomState;", cancellable = true)
+    private void randomState_1139410519(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1139410519L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getPoiManager()Lnet/minecraft/world/entity/ai/village/poi/PoiManager;", cancellable = true)
@@ -187,10 +145,16 @@ public class ServerChunkCache578965776Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getPendingTasksCount()I", cancellable = true)
-    private void getPendingTasksCount_617228022(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(617228022L))
-            info.setReturnValue(-1933190461);
+    @Inject(at = @At("HEAD"), method = "blockChanged(Lnet/minecraft/core/BlockPos;)V", cancellable = true)
+    private void blockChanged_747732375(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(747732375L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "updateChunkForced(Lnet/minecraft/world/level/ChunkPos;Z)Z", cancellable = true)
+    private void updateChunkForced_338777701(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(338777701L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "getForceLoadedChunks()Lit/unimi/dsi/fastutil/longs/LongSet;", cancellable = true)
@@ -199,10 +163,10 @@ public class ServerChunkCache578965776Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "updateChunkForced(Lnet/minecraft/world/level/ChunkPos;Z)Z", cancellable = true)
-    private void updateChunkForced_338777701(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(338777701L))
-            info.setReturnValue(true);
+    @Inject(at = @At("HEAD"), method = "getPendingTasksCount()I", cancellable = true)
+    private void getPendingTasksCount_617228022(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(617228022L))
+            info.setReturnValue(-1860693061);
     }
 
     @Inject(at = @At("HEAD"), method = "getLastSpawnState()Lnet/minecraft/world/level/NaturalSpawner$SpawnState;", cancellable = true)
@@ -229,10 +193,34 @@ public class ServerChunkCache578965776Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "addTicket(Lnet/minecraft/server/level/Ticket;Lnet/minecraft/world/level/ChunkPos;)V", cancellable = true)
-    private void addTicket__1463546697(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1463546697L))
+    @Inject(at = @At("HEAD"), method = "setSimulationDistance(I)V", cancellable = true)
+    private void setSimulationDistance_1792882748(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1792882748L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "setViewDistance(I)V", cancellable = true)
+    private void setViewDistance_1792882748(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1792882748L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "sendToTrackingPlayersAndSelf(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/network/protocol/Packet;)V", cancellable = true)
+    private void sendToTrackingPlayersAndSelf__637785353(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-637785353L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getChunkFuture(IILnet/minecraft/world/level/chunk/status/ChunkStatus;Z)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
+    private void getChunkFuture_1299430898(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1299430898L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getChunkNow(II)Lnet/minecraft/world/level/chunk/LevelChunk;", cancellable = true)
+    private void getChunkNow__346071401(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-346071401L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "onLightUpdate(Lnet/minecraft/world/level/LightLayer;Lnet/minecraft/core/SectionPos;)V", cancellable = true)
@@ -244,7 +232,7 @@ public class ServerChunkCache578965776Mixin {
     @Inject(at = @At("HEAD"), method = "getLoadedChunksCount()I", cancellable = true)
     private void getLoadedChunksCount_617228022(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(617228022L))
-            info.setReturnValue(-1933190461);
+            info.setReturnValue(-1860693061);
     }
 
     @Inject(at = @At("HEAD"), method = "getChunkForLighting(II)Lnet/minecraft/world/level/chunk/LightChunk;", cancellable = true)
@@ -259,15 +247,21 @@ public class ServerChunkCache578965776Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getChunkNow(II)Lnet/minecraft/world/level/chunk/LevelChunk;", cancellable = true)
-    private void getChunkNow__346071401(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-346071401L))
+    @Inject(at = @At("HEAD"), method = "addTicket(Lnet/minecraft/server/level/Ticket;Lnet/minecraft/world/level/ChunkPos;)V", cancellable = true)
+    private void addTicket__1463546697(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1463546697L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "addTicketAndLoadWithRadius(Lnet/minecraft/server/level/TicketType;Lnet/minecraft/world/level/ChunkPos;I)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
+    private void addTicketAndLoadWithRadius__1317720850(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1317720850L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "deactivateTicketsOnClosing()V", cancellable = true)
-    private void deactivateTicketsOnClosing_617240515(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(617240515L))
+    @Inject(at = @At("HEAD"), method = "removeTicketWithRadius(Lnet/minecraft/server/level/TicketType;Lnet/minecraft/world/level/ChunkPos;I)V", cancellable = true)
+    private void removeTicketWithRadius__2088958174(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-2088958174L))
             info.cancel();
     }
 
@@ -275,6 +269,12 @@ public class ServerChunkCache578965776Mixin {
     private void onChunkReadyToSend__14910436(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-14910436L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getChunkDebugData(Lnet/minecraft/world/level/ChunkPos;)Ljava/lang/String;", cancellable = true)
+    private void getChunkDebugData_646932525(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(646932525L))
+            info.setReturnValue("");
     }
 
 

@@ -13,12 +13,6 @@ public class KelpBlock924996993Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
-    private void getStateForPlacement__333602774(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-333602774L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "canPlaceLiquid(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/material/Fluid;)Z", cancellable = true)
     private void canPlaceLiquid_1927529825(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1927529825L))
@@ -29,6 +23,12 @@ public class KelpBlock924996993Mixin {
     private void placeLiquid_334780417(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(334780417L))
             info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
+    private void getStateForPlacement__333602774(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-333602774L))
+            info.setReturnValue(null);
     }
 
 

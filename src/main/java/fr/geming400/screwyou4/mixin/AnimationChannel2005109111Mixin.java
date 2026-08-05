@@ -22,13 +22,13 @@ public class AnimationChannel2005109111Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_869649136(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(869649136L))
-            info.setReturnValue("m]%qo94dF7qL鱮[");
+            info.setReturnValue("m]%qo94dF7qL\u9C6E[");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2043371853(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2043371853L))
-            info.setReturnValue(1227993019);
+            info.setReturnValue(604316219);
     }
 
     @Inject(at = @At("HEAD"), method = "keyframes()[Lnet/minecraft/client/animation/Keyframe;", cancellable = true)

@@ -16,13 +16,13 @@ public class InstrumentComponent1584085560Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_448625585(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(448625585L))
-            info.setReturnValue("G,4Aﭕf:{m`壻檓Krx0T6?s&[c5KJyqd?䓴");
+            info.setReturnValue("G,4A\uFB55f:{m`\u58FB\u6A93Krx0T6?s&[c5KJyqd?\u44F4");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1622348302(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1622348302L))
-            info.setReturnValue(-1067695952);
+            info.setReturnValue(-1112734552);
     }
 
     @Inject(at = @At("HEAD"), method = "instrument()Lnet/minecraft/core/Holder;", cancellable = true)

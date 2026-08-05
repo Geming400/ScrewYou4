@@ -16,13 +16,13 @@ public class LoadedModels_1439850173Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString_304390197(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(304390197L))
-            info.setReturnValue("ၰQ3 |[窺5飈栶%I;]2z:#tF}=;V|q!S_ﶋዑu?/!>)8z&BgK=B毮?1푶xu>^,<頹c5⤉⹙]");
+            info.setReturnValue("\u1070Q3 |[\u7ABA5\u98C8\u6836%I;]2z:#tF}=;V|q!S_\uFD8B\u12D1u?/!>)8z&BgK=B\u6BEE?1\uD476xu>^,<\u9839c5\u2909\u2E59]");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1478112914(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1478112914L))
-            info.setReturnValue(-1985270544);
+            info.setReturnValue(-1813734644);
     }
 
     @Inject(at = @At("HEAD"), method = "models()Ljava/util/Map;", cancellable = true)

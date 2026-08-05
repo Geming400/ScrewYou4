@@ -28,13 +28,13 @@ public class IsSelected_686398517Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__449061459(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-449061459L))
-            info.setReturnValue("kw!wq⺾T%yWsU鮖k䃢,8xT/Ia&VPq$uO1SO:r}s39^ Kj1N\"4@7V魪:?bExrc0jX`Gf<T?'cw-DoZ쟤Z뵏7>Ontᘭ}(n罧.Xc6V");
+            info.setReturnValue("kw!wq\u2EBET%yWsU\u9B96k\u40E2,8xT/Ia&VPq$uO1SO:r}s39^ Kj1N\"4@7V\u9B6A:?bExrc0jX`Gf<T?'cw-DoZ\uC7E4Z\uBD4F7>Ont\u162D}(n\u7F67.Xc6V");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_724661258(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(724661258L))
-            info.setReturnValue(361432131);
+            info.setReturnValue(1006901931);
     }
 
 

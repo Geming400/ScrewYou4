@@ -31,6 +31,12 @@ public class Builder_558337573Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "height(I)Lnet/minecraft/client/gui/screens/worldselection/WorldSelectionList$Builder;", cancellable = true)
+    private void height_142452609(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(142452609L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "onEntrySelect(Ljava/util/function/Consumer;)Lnet/minecraft/client/gui/screens/worldselection/WorldSelectionList$Builder;", cancellable = true)
     private void onEntrySelect__291921488(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-291921488L))
@@ -46,12 +52,6 @@ public class Builder_558337573Mixin {
     @Inject(at = @At("HEAD"), method = "uploadWorld()Lnet/minecraft/client/gui/screens/worldselection/WorldSelectionList$Builder;", cancellable = true)
     private void uploadWorld_1495799194(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1495799194L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "height(I)Lnet/minecraft/client/gui/screens/worldselection/WorldSelectionList$Builder;", cancellable = true)
-    private void height_142452609(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(142452609L))
             info.setReturnValue(null);
     }
 

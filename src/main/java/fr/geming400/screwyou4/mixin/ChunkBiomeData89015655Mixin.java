@@ -16,13 +16,13 @@ public class ChunkBiomeData89015655Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__1046444320(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1046444320L))
-            info.setReturnValue("`QQQ[tQs겑Ll|r>a3It쫡d2bpJjpJ!yfIe'q鋈U呢;{p6橶pVY&tqzK=簤0ZnS쯲M%/YchK#tq삊3_ùj]Jz'ABCO[tbAf");
+            info.setReturnValue("`QQQ[tQs\uAC91Ll|r>a3It\uCAE1d2bpJjpJ!yfIe'q\u92C8U\u5462;{p6\u6A76pVY&tqzK=\u7C240ZnS\uCBF2M%/YchK#tq\uC08A3_\u00F9j]Jz'ABCO[tbAf");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_127278397(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(127278397L))
-            info.setReturnValue(1774538258);
+            info.setReturnValue(2032234758);
     }
 
     @Inject(at = @At("HEAD"), method = "buffer()[B", cancellable = true)

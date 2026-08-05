@@ -16,13 +16,13 @@ public class VanillaArchaeologyLoot860930281Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__274529694(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-274529694L))
-            info.setReturnValue("烝펞IP:.1Dk&WyCg%M'Y}귢eFS9䲸W.q|#/3>W蒣ec <=H&A$C=4$fX TLF%H> G]S");
+            info.setReturnValue("\u70DD\uD39EIP:.1Dk&WyCg%M'Y}\uADE2eFS9\u4CB8W.q|#/3>W\u84A3ec <=H&A$C=4$fX TLF%H> G]S");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_899193023(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(899193023L))
-            info.setReturnValue(289429106);
+            info.setReturnValue(84922106);
     }
 
     @Inject(at = @At("HEAD"), method = "generate(Ljava/util/function/BiConsumer;)V", cancellable = true)

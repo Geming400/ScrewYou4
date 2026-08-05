@@ -16,13 +16,13 @@ public class EntityEffects901325981Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__234133994(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-234133994L))
-            info.setReturnValue("8 諼5)aTcꢯK;pq3h익LY8F0t⻐AS6:PJ尞ㅟcq홚qB+H3$_ ");
+            info.setReturnValue("8 \u8AFC5)aTc\uA8AFK;pq3h\uC775LY8F0t\u2ED0AS6:PJ\u5C1E\u315Fcq\uD65AqB+H3$_ ");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_939588723(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(939588723L))
-            info.setReturnValue(-1679723706);
+            info.setReturnValue(1967739190);
     }
 
     @Inject(at = @At("HEAD"), method = "apply(Lnet/minecraft/server/level/ServerLevel;ILnet/minecraft/world/item/enchantment/EnchantedItemInUse;Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/phys/Vec3;)V", cancellable = true)
