@@ -3,6 +3,8 @@
 Screw you 4 is the child of [Screw You 3](https://github.com/Geming400/ScrewYou3), a Geometry Dash mod.
 There was no reason for Minecraft to escape this fate, it has now been screwed over (4).
 
+![The mod's logo](/src/main/resources/assets/screw-you-4/icon.png)
+
 ## What does it do
 
 > [!WARNING]
