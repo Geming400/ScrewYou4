@@ -94,7 +94,7 @@ public class ScrewYou4 implements ModInitializer {
 
 	public static Generator.SerializedMethod getRandomMethod(RandomSource rng) {
 		List<Generator.SerializedMethod> serializedMethods = getAllSerializedMethods();
-		return serializedMethods.get(rng.nextInt(serializedMethods.size() - 1));
+		return serializedMethods.get(rng.nextInt(serializedMethods.size()));
 	}
 
 	public static List<Long> getAliveMethods() {
@@ -110,6 +110,8 @@ public class ScrewYou4 implements ModInitializer {
 
 	public static void killMethod(long method) {
 		KILLED_METHODS.add(method);
+		if (KILLED_METHODS.size() == METHODS.size())
+			LOGGER.info("Gg. You have destroyed everything. Wait, how are you even playing the game...");
 	}
 
 	public static boolean isMethodAlive(long method) {
