@@ -6,10 +6,13 @@ import com.ibm.icu.impl.ClassLoaderUtil;
 import fr.geming400.screwyou4.generator.Generator;
 import net.fabricmc.api.ModInitializer;
 
-import net.fabricmc.fabric.api.entity.event.v1.ServerPlayerEvents;
+import net.fabricmc.fabric.api.client.event.lifecycle.v1.ClientTickEvents;
+import net.minecraft.client.Minecraft;
+import net.minecraft.client.player.LocalPlayer;
 import net.minecraft.resources.Identifier;
 
 import net.minecraft.util.RandomSource;
+import org.jetbrains.annotations.NotNull;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -19,6 +22,7 @@ import java.net.URISyntaxException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.*;
+import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.concurrent.atomic.AtomicLong;
 
 public class ScrewYou4 implements ModInitializer {
@@ -44,8 +48,8 @@ public class ScrewYou4 implements ModInitializer {
 		LOGGER.info("Hello from the mod that will Screw You (4) !");
 		this.setMethodsFromPrecomputedFile();
 
-		ServerPlayerEvents.AFTER_RESPAWN.register((oldPlayer, newPlayer, alive) -> {
-			Generator.SerializedMethod toKill = getRandomMethod(newPlayer.getRandom());
+		onLocalPlayerRespawn((client, player) -> {
+			Generator.SerializedMethod toKill = getRandomMethod(player.getRandom());
 			killMethod(toKill.uniqueID());
 
 			LOGGER.info("Killed method {}", toKill);
@@ -81,6 +85,23 @@ public class ScrewYou4 implements ModInitializer {
 		} catch (URISyntaxException | IOException e) {
 			LOGGER.error("Got an error while trying to read foundMethods.json", e);
 		}
+	}
+
+	private static void onLocalPlayerRespawn(RespawnCallback onRespawn) {
+		AtomicBoolean isDead = new AtomicBoolean();
+		ClientTickEvents.START_CLIENT_TICK.register(client -> {
+			LocalPlayer player = client.player;
+			if (player != null) {
+				if (player.isDeadOrDying()) {
+					isDead.set(true);
+				} else if (isDead.get()) {
+					LOGGER.debug("Local player {} has respawned !", player);
+					isDead.set(false);
+
+					onRespawn.onRespawn(client, player);
+				}
+			}
+		});
 	}
 
 	public static List<Generator.SerializedMethod> getAllSerializedMethods() {
@@ -120,5 +141,10 @@ public class ScrewYou4 implements ModInitializer {
 
 	public static Identifier id(String path) {
 		return Identifier.fromNamespaceAndPath(MOD_ID, path);
+	}
+
+	@FunctionalInterface
+	interface RespawnCallback {
+		void onRespawn(@NotNull Minecraft client, @NotNull LocalPlayer player);
 	}
 }
