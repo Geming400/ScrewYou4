@@ -10,7 +10,7 @@ public class Builder285605625Mixin {
         @Inject(at = @At("HEAD"), method = "add(Lnet/minecraft/core/Holder;D)Lnet/minecraft/world/entity/ai/attributes/AttributeSupplier$Builder;", cancellable = true)
     private void add__990758257(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-990758257L))
-            info.setReturnValue(new net.minecraft.world.entity.ai.attributes.AttributeSupplier$Builder());
+            info.setReturnValue(new net.minecraft.world.entity.ai.attributes.AttributeSupplier.Builder());
     }
 
     @Inject(at = @At("HEAD"), method = "add(Lnet/minecraft/core/Holder;)Lnet/minecraft/world/entity/ai/attributes/AttributeSupplier$Builder;", cancellable = true)

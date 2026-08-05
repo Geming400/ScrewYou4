@@ -28,19 +28,19 @@ public class TeamColor_1661081528Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1699344269(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1699344269L))
-            info.setReturnValue(-1375641848);
-    }
-
-    @Inject(at = @At("HEAD"), method = "calculate(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/client/multiplayer/ClientLevel;Lnet/minecraft/world/entity/LivingEntity;)I", cancellable = true)
-    private void calculate_1004768301(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1004768301L))
-            info.setReturnValue(583838825);
+            info.setReturnValue(2002956048);
     }
 
     @Inject(at = @At("HEAD"), method = "defaultColor()I", cancellable = true)
     private void defaultColor_1699343773(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1699343773L))
-            info.setReturnValue(-1172494429);
+            info.setReturnValue(-2088863829);
+    }
+
+    @Inject(at = @At("HEAD"), method = "calculate(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/client/multiplayer/ClientLevel;Lnet/minecraft/world/entity/LivingEntity;)I", cancellable = true)
+    private void calculate_1004768301(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1004768301L))
+            info.setReturnValue(-332530575);
     }
 
 

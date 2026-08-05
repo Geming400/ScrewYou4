@@ -22,7 +22,7 @@ public class Bounds1098944092Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1137206834(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1137206834L))
-            info.setReturnValue(662675612);
+            info.setReturnValue(844288912);
     }
 
     @Inject(at = @At("HEAD"), method = "min()Ljava/util/Optional;", cancellable = true)
@@ -55,6 +55,12 @@ public class Bounds1098944092Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "validateSwappedBoundsInCodec()Lcom/mojang/serialization/DataResult;", cancellable = true)
+    private void validateSwappedBoundsInCodec__645561781(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-645561781L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "createCodec(Lcom/mojang/serialization/Codec;)Lcom/mojang/serialization/Codec;", cancellable = true)
     private static void createCodec_1582622067(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1582622067L))
@@ -73,26 +79,20 @@ public class Bounds1098944092Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "validateSwappedBoundsInCodec()Lcom/mojang/serialization/DataResult;", cancellable = true)
-    private void validateSwappedBoundsInCodec__645561781(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-645561781L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "createStreamCodec(Lnet/minecraft/network/codec/StreamCodec;)Lnet/minecraft/network/codec/StreamCodec;", cancellable = true)
-    private static void createStreamCodec__1171783713(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1171783713L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "exactly(Ljava/lang/Number;)Lnet/minecraft/advancements/predicates/MinMaxBounds$Bounds;", cancellable = true)
     private static void exactly__342202749(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-342202749L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "areSwapped()Z", cancellable = true)
-    private void areSwapped_1137222675(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "fromReader(Lcom/mojang/brigadier/StringReader;Ljava/util/function/Function;Ljava/util/function/Supplier;)Lnet/minecraft/advancements/predicates/MinMaxBounds$Bounds;", cancellable = true)
+    private static void fromReader_356060615(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(356060615L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isAny()Z", cancellable = true)
+    private void isAny_1137222675(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1137222675L))
             info.setReturnValue(true);
     }
@@ -103,21 +103,21 @@ public class Bounds1098944092Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "isAny()Z", cancellable = true)
-    private void isAny_1137222675(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "areSwapped()Z", cancellable = true)
+    private void areSwapped_1137222675(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1137222675L))
             info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "fromReader(Lcom/mojang/brigadier/StringReader;Ljava/util/function/Function;Ljava/util/function/Supplier;)Lnet/minecraft/advancements/predicates/MinMaxBounds$Bounds;", cancellable = true)
-    private static void fromReader_356060615(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(356060615L))
-            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "asPoint()Ljava/util/Optional;", cancellable = true)
     private void asPoint_1344405514(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1344405514L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "createStreamCodec(Lnet/minecraft/network/codec/StreamCodec;)Lnet/minecraft/network/codec/StreamCodec;", cancellable = true)
+    private static void createStreamCodec__1171783713(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1171783713L))
             info.setReturnValue(null);
     }
 

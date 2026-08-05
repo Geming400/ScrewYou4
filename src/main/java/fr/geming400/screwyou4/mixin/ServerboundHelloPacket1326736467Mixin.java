@@ -34,7 +34,7 @@ public class ServerboundHelloPacket1326736467Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1364999209(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1364999209L))
-            info.setReturnValue(1208482934);
+            info.setReturnValue(1148914834);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/protocol/login/ServerLoginPacketListener;)V", cancellable = true)

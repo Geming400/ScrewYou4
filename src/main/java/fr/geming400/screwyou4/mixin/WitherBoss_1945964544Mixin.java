@@ -13,58 +13,16 @@ public class WitherBoss_1945964544Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "getInvulnerableTicks()I", cancellable = true)
-    private void getInvulnerableTicks_1984226789(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1984226789L))
-            info.setReturnValue(2082863745);
-    }
-
-    @Inject(at = @At("HEAD"), method = "setInvulnerableTicks(I)V", cancellable = true)
-    private void setInvulnerableTicks__1135085781(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1135085781L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "getHeadYRots()[F", cancellable = true)
-    private void getHeadYRots__1163164279(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1163164279L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getAlternativeTarget(I)I", cancellable = true)
-    private void getAlternativeTarget__1135098274(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1135098274L))
-            info.setReturnValue(39327754);
-    }
-
-    @Inject(at = @At("HEAD"), method = "makeInvulnerable()V", cancellable = true)
-    private void makeInvulnerable_1984239282(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1984239282L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "getHeadXRots()[F", cancellable = true)
-    private void getHeadXRots__1163164279(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1163164279L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "setAlternativeTarget(II)V", cancellable = true)
-    private void setAlternativeTarget_950085074(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(950085074L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "addEffect(Lnet/minecraft/world/effect/MobEffectInstance;Lnet/minecraft/world/entity/Entity;)Z", cancellable = true)
+    private void addEffect_2106649657(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2106649657L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "aiStep()V", cancellable = true)
     private void aiStep_1984239282(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1984239282L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "addEffect(Lnet/minecraft/world/effect/MobEffectInstance;Lnet/minecraft/world/entity/Entity;)Z", cancellable = true)
-    private void addEffect_2106649657(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2106649657L))
-            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "setCustomName(Lnet/minecraft/network/chat/Component;)V", cancellable = true)
@@ -106,7 +64,7 @@ public class WitherBoss_1945964544Mixin {
     @Inject(at = @At("HEAD"), method = "createAttributes()Lnet/minecraft/world/entity/ai/attributes/AttributeSupplier$Builder;", cancellable = true)
     private static void createAttributes_1245746098(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1245746098L))
-            info.setReturnValue(new net.minecraft.world.entity.ai.attributes.AttributeSupplier$Builder());
+            info.setReturnValue(new net.minecraft.world.entity.ai.attributes.AttributeSupplier.Builder());
     }
 
     @Inject(at = @At("HEAD"), method = "canBeAffected(Lnet/minecraft/world/effect/MobEffectInstance;)Z", cancellable = true)
@@ -119,6 +77,48 @@ public class WitherBoss_1945964544Mixin {
     private static void canDestroy_1800675805(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1800675805L))
             info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getAlternativeTarget(I)I", cancellable = true)
+    private void getAlternativeTarget__1135098274(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1135098274L))
+            info.setReturnValue(-457131646);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getHeadYRots()[F", cancellable = true)
+    private void getHeadYRots__1163164279(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1163164279L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getInvulnerableTicks()I", cancellable = true)
+    private void getInvulnerableTicks_1984226789(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1984226789L))
+            info.setReturnValue(1586404345);
+    }
+
+    @Inject(at = @At("HEAD"), method = "setInvulnerableTicks(I)V", cancellable = true)
+    private void setInvulnerableTicks__1135085781(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1135085781L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getHeadXRots()[F", cancellable = true)
+    private void getHeadXRots__1163164279(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1163164279L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "setAlternativeTarget(II)V", cancellable = true)
+    private void setAlternativeTarget_950085074(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(950085074L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "makeInvulnerable()V", cancellable = true)
+    private void makeInvulnerable_1984239282(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1984239282L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "isPowered()Z", cancellable = true)

@@ -22,7 +22,7 @@ public class HiddenByteBuf_910724893Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_948987634(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(948987634L))
-            info.setReturnValue(1851456353);
+            info.setReturnValue(1433132253);
     }
 
     @Inject(at = @At("HEAD"), method = "release(I)Z", cancellable = true)
@@ -73,21 +73,15 @@ public class HiddenByteBuf_910724893Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "unpack(Ljava/lang/Object;)Ljava/lang/Object;", cancellable = true)
-    private static void unpack_922803091(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(922803091L))
+    @Inject(at = @At("HEAD"), method = "retain(I)Lio/netty/util/ReferenceCounted;", cancellable = true)
+    private void retain_1309945111(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1309945111L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "retain()Lio/netty/util/ReferenceCounted;", cancellable = true)
     private void retain_1068817584(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1068817584L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "retain(I)Lio/netty/util/ReferenceCounted;", cancellable = true)
-    private void retain_1309945111(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1309945111L))
             info.setReturnValue(null);
     }
 
@@ -106,7 +100,13 @@ public class HiddenByteBuf_910724893Mixin {
     @Inject(at = @At("HEAD"), method = "refCnt()I", cancellable = true)
     private void refCnt_948987138(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(948987138L))
-            info.setReturnValue(2128475561);
+            info.setReturnValue(1710151461);
+    }
+
+    @Inject(at = @At("HEAD"), method = "unpack(Ljava/lang/Object;)Ljava/lang/Object;", cancellable = true)
+    private static void unpack_922803091(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(922803091L))
+            info.setReturnValue(null);
     }
 
 

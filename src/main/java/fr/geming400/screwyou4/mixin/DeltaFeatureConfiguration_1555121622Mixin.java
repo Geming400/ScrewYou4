@@ -19,15 +19,15 @@ public class DeltaFeatureConfiguration_1555121622Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "rim()Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
-    private void rim__740637245(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-740637245L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "rimSize()Lnet/minecraft/util/valueproviders/IntProvider;", cancellable = true)
     private void rimSize__914565282(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-914565282L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "rim()Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
+    private void rim__740637245(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-740637245L))
             info.setReturnValue(null);
     }
 

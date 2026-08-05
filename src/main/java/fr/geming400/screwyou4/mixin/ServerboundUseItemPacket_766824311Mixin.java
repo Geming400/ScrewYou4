@@ -28,19 +28,19 @@ public class ServerboundUseItemPacket_766824311Mixin {
     @Inject(at = @At("HEAD"), method = "getSequence()I", cancellable = true)
     private void getSequence_805086556(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(805086556L))
-            info.setReturnValue(850185074);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getXRot()F", cancellable = true)
-    private void getXRot_805083673(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(805083673L))
-            info.setReturnValue(8.782551E8F);
+            info.setReturnValue(841343574);
     }
 
     @Inject(at = @At("HEAD"), method = "getYRot()F", cancellable = true)
     private void getYRot_805083673(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(805083673L))
-            info.setReturnValue(8.782551E8F);
+            info.setReturnValue(8.694136E8F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getXRot()F", cancellable = true)
+    private void getXRot_805083673(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(805083673L))
+            info.setReturnValue(8.694136E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "getHand()Lnet/minecraft/world/InteractionHand;", cancellable = true)

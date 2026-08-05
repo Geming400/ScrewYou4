@@ -22,7 +22,7 @@ public class CommandTemplate1202332455Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1240595197(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1240595197L))
-            info.setReturnValue(763201790);
+            info.setReturnValue(1007476790);
     }
 
     @Inject(at = @At("HEAD"), method = "template()Lnet/minecraft/server/dialog/action/ParsedTemplate;", cancellable = true)

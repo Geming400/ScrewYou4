@@ -40,7 +40,7 @@ public class ArmorType_812703525Mixin {
     @Inject(at = @At("HEAD"), method = "getDurability(I)I", cancellable = true)
     private void getDurability_2026608003(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2026608003L))
-            info.setReturnValue(-1060568240);
+            info.setReturnValue(-422154240);
     }
 
 

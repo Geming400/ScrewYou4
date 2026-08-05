@@ -16,13 +16,13 @@ public class ReferenceResult_658669585Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__476790391(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-476790391L))
-            info.setReturnValue("xn [Mt-\uCB2D\u440C}sPS\"\uB3CAO&dhN-z!\u5C24VHp9>B7[\u8EED\u568A` [\u5374$kwJ/3m`\u2B3D\"uhT(7\u4F1DRj()8P*DoY UV=h&<m\u5AC8':V6\uA427\\"");
+            info.setReturnValue("xn [Mt-\uCB2D\u440C}sPS\"\uB3CAO&dhN-z!\u5C24VHp9>B7[\u8EED\u568A` [\u5374$kwJ/3m`\u2B3D\"uhT(7\u4F1DRj()8P*DoY UV=h&<m\u5AC8':V6\uA427\\");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_696932326(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(696932326L))
-            info.setReturnValue(429911476);
+            info.setReturnValue(125835976);
     }
 
     @Inject(at = @At("HEAD"), method = "key()Lnet/minecraft/resources/ResourceKey;", cancellable = true)

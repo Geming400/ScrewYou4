@@ -22,7 +22,7 @@ public class BundleTooltip_1325762141Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1364024882(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1364024882L))
-            info.setReturnValue(1987700516);
+            info.setReturnValue(1769391616);
     }
 
     @Inject(at = @At("HEAD"), method = "contents()Lnet/minecraft/world/item/component/BundleContents;", cancellable = true)

@@ -31,10 +31,10 @@ public class OminousItemSpawner1248544151Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "addParticles()V", cancellable = true)
-    private void addParticles_1286818890(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1286818890L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "getPistonPushReaction()Lnet/minecraft/world/level/material/PushReaction;", cancellable = true)
+    private void getPistonPushReaction__1155544308(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1155544308L))
+            info.setReturnValue(net.minecraft.world.level.material.PushReaction.PUSH_ONLY);
     }
 
     @Inject(at = @At("HEAD"), method = "isIgnoringBlockTriggers()Z", cancellable = true)
@@ -43,10 +43,10 @@ public class OminousItemSpawner1248544151Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "getPistonPushReaction()Lnet/minecraft/world/level/material/PushReaction;", cancellable = true)
-    private void getPistonPushReaction__1155544308(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1155544308L))
-            info.setReturnValue(net.minecraft.world.level.material.PushReaction.PUSH_ONLY);
+    @Inject(at = @At("HEAD"), method = "addParticles()V", cancellable = true)
+    private void addParticles_1286818890(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1286818890L))
+            info.cancel();
     }
 
 

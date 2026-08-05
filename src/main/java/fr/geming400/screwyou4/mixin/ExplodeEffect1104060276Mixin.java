@@ -22,7 +22,7 @@ public class ExplodeEffect1104060276Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1142323018(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1142323018L))
-            info.setReturnValue(582547760);
+            info.setReturnValue(943213160);
     }
 
     @Inject(at = @At("HEAD"), method = "apply(Lnet/minecraft/server/level/ServerLevel;ILnet/minecraft/world/item/enchantment/EnchantedItemInUse;Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/phys/Vec3;)V", cancellable = true)
@@ -37,9 +37,15 @@ public class ExplodeEffect1104060276Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
-    private void codec__1455053296(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1455053296L))
+    @Inject(at = @At("HEAD"), method = "createFire()Z", cancellable = true)
+    private void createFire_1142338859(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1142338859L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "immuneBlocks()Ljava/util/Optional;", cancellable = true)
+    private void immuneBlocks_1349521698(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1349521698L))
             info.setReturnValue(null);
     }
 
@@ -49,9 +55,15 @@ public class ExplodeEffect1104060276Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "immuneBlocks()Ljava/util/Optional;", cancellable = true)
-    private void immuneBlocks_1349521698(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "damageType()Ljava/util/Optional;", cancellable = true)
+    private void damageType_1349521698(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1349521698L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
+    private void codec__1455053296(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1455053296L))
             info.setReturnValue(null);
     }
 
@@ -79,20 +91,8 @@ public class ExplodeEffect1104060276Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "damageType()Ljava/util/Optional;", cancellable = true)
-    private void damageType_1349521698(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1349521698L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "createFire()Z", cancellable = true)
-    private void createFire_1142338859(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1142338859L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "smallParticle()Lnet/minecraft/core/particles/ParticleOptions;", cancellable = true)
-    private void smallParticle__964900792(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "largeParticle()Lnet/minecraft/core/particles/ParticleOptions;", cancellable = true)
+    private void largeParticle__964900792(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-964900792L))
             info.setReturnValue(null);
     }
@@ -103,8 +103,8 @@ public class ExplodeEffect1104060276Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "largeParticle()Lnet/minecraft/core/particles/ParticleOptions;", cancellable = true)
-    private void largeParticle__964900792(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "smallParticle()Lnet/minecraft/core/particles/ParticleOptions;", cancellable = true)
+    private void smallParticle__964900792(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-964900792L))
             info.setReturnValue(null);
     }

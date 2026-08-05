@@ -31,16 +31,16 @@ public class ThrownTrident_1162733380Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "isFoil()Z", cancellable = true)
-    private void isFoil_1201011962(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1201011962L))
-            info.setReturnValue(false);
-    }
-
     @Inject(at = @At("HEAD"), method = "tickDespawn()V", cancellable = true)
     private void tickDespawn_1201008118(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1201008118L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "isFoil()Z", cancellable = true)
+    private void isFoil_1201011962(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1201011962L))
+            info.setReturnValue(false);
     }
 
 

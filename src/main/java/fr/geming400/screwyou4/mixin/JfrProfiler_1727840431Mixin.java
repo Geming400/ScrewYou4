@@ -37,6 +37,30 @@ public class JfrProfiler_1727840431Mixin {
             info.setReturnValue(false);
     }
 
+    @Inject(at = @At("HEAD"), method = "onChunkGenerate(Lnet/minecraft/world/level/ChunkPos;Lnet/minecraft/resources/ResourceKey;Ljava/lang/String;)Lnet/minecraft/util/profiling/jfr/callback/ProfiledDuration;", cancellable = true)
+    private void onChunkGenerate_1903317820(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1903317820L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "onRegionFileWrite(Lnet/minecraft/world/level/chunk/storage/RegionStorageInfo;Lnet/minecraft/world/level/ChunkPos;Lnet/minecraft/world/level/chunk/storage/RegionFileVersion;I)V", cancellable = true)
+    private void onRegionFileWrite_34920953(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(34920953L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "onRegionFileRead(Lnet/minecraft/world/level/chunk/storage/RegionStorageInfo;Lnet/minecraft/world/level/ChunkPos;Lnet/minecraft/world/level/chunk/storage/RegionFileVersion;I)V", cancellable = true)
+    private void onRegionFileRead_34920953(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(34920953L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "onStructureGenerate(Lnet/minecraft/world/level/ChunkPos;Lnet/minecraft/resources/ResourceKey;Lnet/minecraft/core/Holder;)Lnet/minecraft/util/profiling/jfr/callback/ProfiledDuration;", cancellable = true)
+    private void onStructureGenerate_2129275783(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2129275783L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "onWorldLoadedStarted()Lnet/minecraft/util/profiling/jfr/callback/ProfiledDuration;", cancellable = true)
     private void onWorldLoadedStarted__2046660450(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2046660450L))
@@ -47,12 +71,6 @@ public class JfrProfiler_1727840431Mixin {
     private void onServerTick__1355980457(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1355980457L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "onStructureGenerate(Lnet/minecraft/world/level/ChunkPos;Lnet/minecraft/resources/ResourceKey;Lnet/minecraft/core/Holder;)Lnet/minecraft/util/profiling/jfr/callback/ProfiledDuration;", cancellable = true)
-    private void onStructureGenerate_2129275783(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2129275783L))
-            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "onClientTick(I)V", cancellable = true)
@@ -71,24 +89,6 @@ public class JfrProfiler_1727840431Mixin {
     private void onPacketReceived_1697576350(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1697576350L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "onRegionFileRead(Lnet/minecraft/world/level/chunk/storage/RegionStorageInfo;Lnet/minecraft/world/level/ChunkPos;Lnet/minecraft/world/level/chunk/storage/RegionFileVersion;I)V", cancellable = true)
-    private void onRegionFileRead_34920953(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(34920953L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "onRegionFileWrite(Lnet/minecraft/world/level/chunk/storage/RegionStorageInfo;Lnet/minecraft/world/level/ChunkPos;Lnet/minecraft/world/level/chunk/storage/RegionFileVersion;I)V", cancellable = true)
-    private void onRegionFileWrite_34920953(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(34920953L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "onChunkGenerate(Lnet/minecraft/world/level/ChunkPos;Lnet/minecraft/resources/ResourceKey;Ljava/lang/String;)Lnet/minecraft/util/profiling/jfr/callback/ProfiledDuration;", cancellable = true)
-    private void onChunkGenerate_1903317820(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1903317820L))
-            info.setReturnValue(null);
     }
 
 

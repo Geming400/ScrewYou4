@@ -22,19 +22,19 @@ public class Brightness_1678972249Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1717234990(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1717234990L))
-            info.setReturnValue(-1848556292);
+            info.setReturnValue(-1415267392);
     }
 
     @Inject(at = @At("HEAD"), method = "block()I", cancellable = true)
     private void block_1717234494(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1717234494L))
-            info.setReturnValue(-1645408872);
+            info.setReturnValue(-1212119972);
     }
 
     @Inject(at = @At("HEAD"), method = "pack()I", cancellable = true)
     private void pack_1717234494(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1717234494L))
-            info.setReturnValue(-1645408872);
+            info.setReturnValue(-1212119972);
     }
 
     @Inject(at = @At("HEAD"), method = "unpack(I)Lnet/minecraft/util/Brightness;", cancellable = true)
@@ -46,7 +46,7 @@ public class Brightness_1678972249Mixin {
     @Inject(at = @At("HEAD"), method = "sky()I", cancellable = true)
     private void sky_1717234494(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1717234494L))
-            info.setReturnValue(-1645408872);
+            info.setReturnValue(-1212119972);
     }
 
 

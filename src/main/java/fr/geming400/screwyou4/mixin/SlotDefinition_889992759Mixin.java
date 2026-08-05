@@ -22,25 +22,25 @@ public class SlotDefinition_889992759Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_928255500(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(928255500L))
-            info.setReturnValue(-566185330);
+            info.setReturnValue(-826075730);
     }
 
     @Inject(at = @At("HEAD"), method = "x()I", cancellable = true)
     private void x_928255004(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(928255004L))
-            info.setReturnValue(-363037911);
+            info.setReturnValue(-622928311);
     }
 
     @Inject(at = @At("HEAD"), method = "y()I", cancellable = true)
     private void y_928255004(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(928255004L))
-            info.setReturnValue(-363037911);
+            info.setReturnValue(-622928311);
     }
 
     @Inject(at = @At("HEAD"), method = "slotIndex()I", cancellable = true)
     private void slotIndex_928255004(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(928255004L))
-            info.setReturnValue(-363037911);
+            info.setReturnValue(-622928311);
     }
 
     @Inject(at = @At("HEAD"), method = "mayPlace()Ljava/util/function/Predicate;", cancellable = true)

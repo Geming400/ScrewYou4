@@ -22,25 +22,25 @@ public class Submit468783422Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_507046164(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(507046164L))
-            info.setReturnValue(1377554545);
+            info.setReturnValue(1072384045);
     }
 
     @Inject(at = @At("HEAD"), method = "x()F", cancellable = true)
     private void x_507042785(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(507042785L))
-            info.setReturnValue(7.741109E8F);
+            info.setReturnValue(4.689404E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "y()F", cancellable = true)
     private void y_507042785(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(507042785L))
-            info.setReturnValue(7.741109E8F);
+            info.setReturnValue(4.689404E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "color()I", cancellable = true)
     private void color_507045668(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(507045668L))
-            info.setReturnValue(-19853460);
+            info.setReturnValue(-325023960);
     }
 
     @Inject(at = @At("HEAD"), method = "string()Lnet/minecraft/util/FormattedCharSequence;", cancellable = true)
@@ -49,22 +49,10 @@ public class Submit468783422Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "pose()Lorg/joml/Matrix4fc;", cancellable = true)
-    private void pose__2083209636(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2083209636L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "backgroundColor()I", cancellable = true)
     private void backgroundColor_507045668(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(507045668L))
-            info.setReturnValue(-19853460);
-    }
-
-    @Inject(at = @At("HEAD"), method = "displayMode()Lnet/minecraft/client/gui/Font$DisplayMode;", cancellable = true)
-    private void displayMode__1606484178(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1606484178L))
-            info.setReturnValue(net.minecraft.client.gui.Font.DisplayMode.SEE_THROUGH);
+            info.setReturnValue(-325023960);
     }
 
     @Inject(at = @At("HEAD"), method = "featureType()Lnet/minecraft/client/renderer/feature/FeatureRendererType;", cancellable = true)
@@ -73,22 +61,34 @@ public class Submit468783422Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "dropShadow()Z", cancellable = true)
-    private void dropShadow_507062005(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(507062005L))
-            info.setReturnValue(false);
-    }
-
     @Inject(at = @At("HEAD"), method = "outlineColor()I", cancellable = true)
     private void outlineColor_507045668(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(507045668L))
-            info.setReturnValue(-19853460);
+            info.setReturnValue(-325023960);
     }
 
     @Inject(at = @At("HEAD"), method = "lightCoords()I", cancellable = true)
     private void lightCoords_507045668(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(507045668L))
-            info.setReturnValue(-19853460);
+            info.setReturnValue(-325023960);
+    }
+
+    @Inject(at = @At("HEAD"), method = "displayMode()Lnet/minecraft/client/gui/Font$DisplayMode;", cancellable = true)
+    private void displayMode__1606484178(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1606484178L))
+            info.setReturnValue(net.minecraft.client.gui.Font.DisplayMode.SEE_THROUGH);
+    }
+
+    @Inject(at = @At("HEAD"), method = "pose()Lorg/joml/Matrix4fc;", cancellable = true)
+    private void pose__2083209636(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2083209636L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "dropShadow()Z", cancellable = true)
+    private void dropShadow_507062005(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(507062005L))
+            info.setReturnValue(false);
     }
 
 

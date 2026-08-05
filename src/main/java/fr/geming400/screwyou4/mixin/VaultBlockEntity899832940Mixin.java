@@ -31,16 +31,16 @@ public class VaultBlockEntity899832940Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getSharedData()Lnet/minecraft/world/level/block/entity/vault/VaultSharedData;", cancellable = true)
-    private void getSharedData_944324644(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(944324644L))
-            info.setReturnValue(new net.minecraft.world.level.block.entity.vault.VaultSharedData());
-    }
-
     @Inject(at = @At("HEAD"), method = "getClientData()Lnet/minecraft/world/level/block/entity/vault/VaultClientData;", cancellable = true)
     private void getClientData_1657076222(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1657076222L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getSharedData()Lnet/minecraft/world/level/block/entity/vault/VaultSharedData;", cancellable = true)
+    private void getSharedData_944324644(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(944324644L))
+            info.setReturnValue(new net.minecraft.world.level.block.entity.vault.VaultSharedData());
     }
 
     @Inject(at = @At("HEAD"), method = "getServerData()Lnet/minecraft/world/level/block/entity/vault/VaultServerData;", cancellable = true)

@@ -7,9 +7,9 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.world.item.ShearsItem.class)
 public class ShearsItem_2070046447Mixin {
-        @Inject(at = @At("HEAD"), method = "useOn(Lnet/minecraft/world/item/context/UseOnContext;)Lnet/minecraft/world/InteractionResult;", cancellable = true)
-    private void useOn_161203191(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(161203191L))
+        @Inject(at = @At("HEAD"), method = "createToolProperties()Lnet/minecraft/world/item/component/Tool;", cancellable = true)
+    private static void createToolProperties__1096277835(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1096277835L))
             info.setReturnValue(null);
     }
 
@@ -19,9 +19,9 @@ public class ShearsItem_2070046447Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "createToolProperties()Lnet/minecraft/world/item/component/Tool;", cancellable = true)
-    private static void createToolProperties__1096277835(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1096277835L))
+    @Inject(at = @At("HEAD"), method = "useOn(Lnet/minecraft/world/item/context/UseOnContext;)Lnet/minecraft/world/InteractionResult;", cancellable = true)
+    private void useOn_161203191(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(161203191L))
             info.setReturnValue(null);
     }
 

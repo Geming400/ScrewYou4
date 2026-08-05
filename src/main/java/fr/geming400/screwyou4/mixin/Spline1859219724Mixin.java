@@ -22,31 +22,31 @@ public class Spline1859219724Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1897481970(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1897481970L))
-            info.setReturnValue(-1621132856);
+            info.setReturnValue(-1599655156);
     }
 
     @Inject(at = @At("HEAD"), method = "compute(Lnet/minecraft/world/level/levelgen/DensityFunction$FunctionContext;)D", cancellable = true)
     private void compute__1467715952(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1467715952L))
-            info.setReturnValue(6.380532005005038E8D);
+            info.setReturnValue(6.595309005005038E8D);
     }
 
     @Inject(at = @At("HEAD"), method = "maxValue()D", cancellable = true)
     private void maxValue_1897477165(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1897477165L))
-            info.setReturnValue(6.380532006121231E8D);
+            info.setReturnValue(6.595309006121231E8D);
+    }
+
+    @Inject(at = @At("HEAD"), method = "minValue()D", cancellable = true)
+    private void minValue_1897477165(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1897477165L))
+            info.setReturnValue(6.595309006121231E8D);
     }
 
     @Inject(at = @At("HEAD"), method = "codec()Lnet/minecraft/util/KeyDispatchDataCodec;", cancellable = true)
     private void codec_316934116(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(316934116L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "minValue()D", cancellable = true)
-    private void minValue_1897477165(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1897477165L))
-            info.setReturnValue(6.380532006121231E8D);
     }
 
     @Inject(at = @At("HEAD"), method = "spline()Lnet/minecraft/util/CubicSpline;", cancellable = true)

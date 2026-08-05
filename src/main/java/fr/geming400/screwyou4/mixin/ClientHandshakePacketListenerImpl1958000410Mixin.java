@@ -13,15 +13,15 @@ public class ClientHandshakePacketListenerImpl1958000410Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "handleRequestCookie(Lnet/minecraft/network/protocol/cookie/ClientboundCookieRequestPacket;)V", cancellable = true)
-    private void handleRequestCookie_531762995(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(531762995L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "onDisconnect(Lnet/minecraft/network/DisconnectionDetails;)V", cancellable = true)
     private void onDisconnect__129869903(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-129869903L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "handleRequestCookie(Lnet/minecraft/network/protocol/cookie/ClientboundCookieRequestPacket;)V", cancellable = true)
+    private void handleRequestCookie_531762995(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(531762995L))
             info.cancel();
     }
 
@@ -31,9 +31,9 @@ public class ClientHandshakePacketListenerImpl1958000410Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "handleCompression(Lnet/minecraft/network/protocol/login/ClientboundLoginCompressionPacket;)V", cancellable = true)
-    private void handleCompression__143369908(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-143369908L))
+    @Inject(at = @At("HEAD"), method = "handleHello(Lnet/minecraft/network/protocol/login/ClientboundHelloPacket;)V", cancellable = true)
+    private void handleHello__1416323499(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1416323499L))
             info.cancel();
     }
 
@@ -43,15 +43,15 @@ public class ClientHandshakePacketListenerImpl1958000410Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "handleCustomQuery(Lnet/minecraft/network/protocol/login/ClientboundCustomQueryPacket;)V", cancellable = true)
-    private void handleCustomQuery__580667664(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-580667664L))
+    @Inject(at = @At("HEAD"), method = "handleCompression(Lnet/minecraft/network/protocol/login/ClientboundLoginCompressionPacket;)V", cancellable = true)
+    private void handleCompression__143369908(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-143369908L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "handleHello(Lnet/minecraft/network/protocol/login/ClientboundHelloPacket;)V", cancellable = true)
-    private void handleHello__1416323499(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1416323499L))
+    @Inject(at = @At("HEAD"), method = "handleCustomQuery(Lnet/minecraft/network/protocol/login/ClientboundCustomQueryPacket;)V", cancellable = true)
+    private void handleCustomQuery__580667664(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-580667664L))
             info.cancel();
     }
 

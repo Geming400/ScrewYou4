@@ -22,7 +22,7 @@ public class AdvancementRewards2136239448Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__2120465106(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2120465106L))
-            info.setReturnValue(-613604665);
+            info.setReturnValue(-478337565);
     }
 
     @Inject(at = @At("HEAD"), method = "function()Ljava/util/Optional;", cancellable = true)
@@ -37,16 +37,16 @@ public class AdvancementRewards2136239448Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "experience()I", cancellable = true)
+    private void experience__2120465602(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2120465602L))
+            info.setReturnValue(-275190146);
+    }
+
     @Inject(at = @At("HEAD"), method = "recipes()Ljava/util/List;", cancellable = true)
     private void recipes__532391032(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-532391032L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "experience()I", cancellable = true)
-    private void experience__2120465602(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2120465602L))
-            info.setReturnValue(-410457246);
     }
 
     @Inject(at = @At("HEAD"), method = "loot()Ljava/util/List;", cancellable = true)

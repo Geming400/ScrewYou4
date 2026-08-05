@@ -10,7 +10,7 @@ public class IndexedFieldPathElement631944084Mixin {
         @Inject(at = @At("HEAD"), method = "index()I", cancellable = true)
     private void index_670206330(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(670206330L))
-            info.setReturnValue(-1153486505);
+            info.setReturnValue(-1683403605);
     }
 
     @Inject(at = @At("HEAD"), method = "name()Ljava/lang/String;", cancellable = true)
@@ -40,7 +40,7 @@ public class IndexedFieldPathElement631944084Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_670206826(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(670206826L))
-            info.setReturnValue(-1356633924);
+            info.setReturnValue(-1886551024);
     }
 
 

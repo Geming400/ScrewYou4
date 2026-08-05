@@ -28,7 +28,7 @@ public class CustomModelData_1700509340Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1738772081(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1738772081L))
-            info.setReturnValue(77344216);
+            info.setReturnValue(396690616);
     }
 
     @Inject(at = @At("HEAD"), method = "getBoolean(I)Ljava/lang/Boolean;", cancellable = true)

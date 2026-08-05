@@ -22,7 +22,7 @@ public class Data556983403Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_595246145(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(595246145L))
-            info.setReturnValue(2033242743);
+            info.setReturnValue(1824517143);
     }
 
     @Inject(at = @At("HEAD"), method = "key()Ljava/security/PublicKey;", cancellable = true)
@@ -35,6 +35,12 @@ public class Data556983403Mixin {
     private void write_203490282(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(203490282L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "keySignature()[B", cancellable = true)
+    private void keySignature_1742818033(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1742818033L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "hasExpired(Ljava/time/Duration;)Z", cancellable = true)
@@ -52,12 +58,6 @@ public class Data556983403Mixin {
     @Inject(at = @At("HEAD"), method = "expiresAt()Ljava/time/Instant;", cancellable = true)
     private void expiresAt_1654217603(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1654217603L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "keySignature()[B", cancellable = true)
-    private void keySignature_1742818033(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1742818033L))
             info.setReturnValue(null);
     }
 

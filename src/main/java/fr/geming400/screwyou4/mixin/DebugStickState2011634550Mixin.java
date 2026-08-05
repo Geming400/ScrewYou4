@@ -22,7 +22,7 @@ public class DebugStickState2011634550Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2049897292(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2049897292L))
-            info.setReturnValue(-1298515858);
+            info.setReturnValue(-367840758);
     }
 
     @Inject(at = @At("HEAD"), method = "properties()Ljava/util/Map;", cancellable = true)

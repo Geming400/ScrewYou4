@@ -22,13 +22,13 @@ public class EnvironmentAttributeValue1895297162Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1933559904(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1933559904L))
-            info.setReturnValue(2144330886);
+            info.setReturnValue(1806883986);
     }
 
     @Inject(at = @At("HEAD"), method = "getFloat(Lnet/minecraft/world/level/storage/loot/LootContext;)F", cancellable = true)
     private void getFloat__481671156(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-481671156L))
-            info.setReturnValue(4.75688E8F);
+            info.setReturnValue(1.382411E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "attribute()Lnet/minecraft/world/attribute/EnvironmentAttribute;", cancellable = true)

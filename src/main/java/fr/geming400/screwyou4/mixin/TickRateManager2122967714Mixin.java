@@ -19,12 +19,6 @@ public class TickRateManager2122967714Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "nanosecondsPerTick()J", cancellable = true)
-    private void nanosecondsPerTick__2133736375(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2133736375L))
-            info.setReturnValue(9002622961992202230L);
-    }
-
     @Inject(at = @At("HEAD"), method = "runsNormally()Z", cancellable = true)
     private void runsNormally__2133720999(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2133720999L))
@@ -46,7 +40,13 @@ public class TickRateManager2122967714Mixin {
     @Inject(at = @At("HEAD"), method = "tickrate()F", cancellable = true)
     private void tickrate__2133740219(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2133740219L))
-            info.setReturnValue(6.587832E8F);
+            info.setReturnValue(3.723299E8F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "nanosecondsPerTick()J", cancellable = true)
+    private void nanosecondsPerTick__2133736375(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2133736375L))
+            info.setReturnValue(9002622961705748930L);
     }
 
     @Inject(at = @At("HEAD"), method = "setFrozen(Z)V", cancellable = true)
@@ -67,16 +67,16 @@ public class TickRateManager2122967714Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "millisecondsPerTick()F", cancellable = true)
-    private void millisecondsPerTick__2133740219(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2133740219L))
-            info.setReturnValue(6.587832E8F);
-    }
-
     @Inject(at = @At("HEAD"), method = "frozenTicksToRun()I", cancellable = true)
     private void frozenTicksToRun__2133737336(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2133737336L))
-            info.setReturnValue(-1071858185);
+            info.setReturnValue(-1358311485);
+    }
+
+    @Inject(at = @At("HEAD"), method = "millisecondsPerTick()F", cancellable = true)
+    private void millisecondsPerTick__2133740219(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2133740219L))
+            info.setReturnValue(3.723299E8F);
     }
 
 

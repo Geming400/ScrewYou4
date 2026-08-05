@@ -16,7 +16,7 @@ public class MultipliedFloats_216831870Mixin {
     @Inject(at = @At("HEAD"), method = "sample(Lnet/minecraft/util/RandomSource;)F", cancellable = true)
     private void sample__1490198592(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1490198592L))
-            info.setReturnValue(1.579865E8F);
+            info.setReturnValue(1.93984E8F);
     }
 
 

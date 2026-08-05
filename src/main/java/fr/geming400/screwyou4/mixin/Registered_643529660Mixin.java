@@ -22,7 +22,7 @@ public class Registered_643529660Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_681792401(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(681792401L))
-            info.setReturnValue(970123180);
+            info.setReturnValue(1401908280);
     }
 
     @Inject(at = @At("HEAD"), method = "condition()Lnet/minecraft/world/entity/ai/memory/MemoryStatus;", cancellable = true)

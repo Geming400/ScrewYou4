@@ -28,7 +28,19 @@ public class Variant_1570503618Mixin {
     @Inject(at = @At("HEAD"), method = "getId()I", cancellable = true)
     private void getId_1608765863(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1608765863L))
-            info.setReturnValue(1858221258);
+            info.setReturnValue(936883758);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getRareSpawnVariant(Lnet/minecraft/util/RandomSource;)Lnet/minecraft/world/entity/animal/axolotl/Axolotl$Variant;", cancellable = true)
+    private static void getRareSpawnVariant_379314813(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(379314813L))
+            info.setReturnValue(net.minecraft.world.entity.animal.axolotl.Axolotl.Variant.LUCY);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getCommonSpawnVariant(Lnet/minecraft/util/RandomSource;)Lnet/minecraft/world/entity/animal/axolotl/Axolotl$Variant;", cancellable = true)
+    private static void getCommonSpawnVariant_379314813(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(379314813L))
+            info.setReturnValue(net.minecraft.world.entity.animal.axolotl.Axolotl.Variant.LUCY);
     }
 
     @Inject(at = @At("HEAD"), method = "byId(I)Lnet/minecraft/world/entity/animal/axolotl/Axolotl$Variant;", cancellable = true)
@@ -41,18 +53,6 @@ public class Variant_1570503618Mixin {
     private void getSerializedName_435043146(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(435043146L))
             info.setReturnValue("F'%R\u6167P[=(InaGfwE\u72A6;\u3EFF\u7AAFJ\uC213e0\u0F41k5\u2B491k.e@\u0611&K}d{,(&bq\u9982");
-    }
-
-    @Inject(at = @At("HEAD"), method = "getCommonSpawnVariant(Lnet/minecraft/util/RandomSource;)Lnet/minecraft/world/entity/animal/axolotl/Axolotl$Variant;", cancellable = true)
-    private static void getCommonSpawnVariant_379314813(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(379314813L))
-            info.setReturnValue(net.minecraft.world.entity.animal.axolotl.Axolotl.Variant.LUCY);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getRareSpawnVariant(Lnet/minecraft/util/RandomSource;)Lnet/minecraft/world/entity/animal/axolotl/Axolotl$Variant;", cancellable = true)
-    private static void getRareSpawnVariant_379314813(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(379314813L))
-            info.setReturnValue(net.minecraft.world.entity.animal.axolotl.Axolotl.Variant.LUCY);
     }
 
 

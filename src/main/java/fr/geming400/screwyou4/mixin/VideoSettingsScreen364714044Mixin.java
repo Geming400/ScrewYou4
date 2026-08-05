@@ -25,9 +25,9 @@ public class VideoSettingsScreen364714044Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "updateFullscreenButton(Z)V", cancellable = true)
-    private void updateFullscreenButton_1594330873(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1594330873L))
+    @Inject(at = @At("HEAD"), method = "updateTransparencyButton()V", cancellable = true)
+    private void updateTransparencyButton_402988783(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(402988783L))
             info.cancel();
     }
 
@@ -43,9 +43,9 @@ public class VideoSettingsScreen364714044Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "updateTransparencyButton()V", cancellable = true)
-    private void updateTransparencyButton_402988783(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(402988783L))
+    @Inject(at = @At("HEAD"), method = "updateFullscreenButton(Z)V", cancellable = true)
+    private void updateFullscreenButton_1594330873(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1594330873L))
             info.cancel();
     }
 

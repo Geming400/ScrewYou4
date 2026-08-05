@@ -19,10 +19,10 @@ public class FindTreeTutorialStepInstance_47351130Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "onLookAt(Lnet/minecraft/client/multiplayer/ClientLevel;Lnet/minecraft/world/phys/HitResult;)V", cancellable = true)
-    private void onLookAt__616804334(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-616804334L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "hasPunchedTreesPreviously(Lnet/minecraft/client/player/LocalPlayer;)Z", cancellable = true)
+    private static void hasPunchedTreesPreviously_1598961457(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1598961457L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "onGetItem(Lnet/minecraft/world/item/ItemStack;)V", cancellable = true)
@@ -31,10 +31,10 @@ public class FindTreeTutorialStepInstance_47351130Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "hasPunchedTreesPreviously(Lnet/minecraft/client/player/LocalPlayer;)Z", cancellable = true)
-    private static void hasPunchedTreesPreviously_1598961457(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1598961457L))
-            info.setReturnValue(true);
+    @Inject(at = @At("HEAD"), method = "onLookAt(Lnet/minecraft/client/multiplayer/ClientLevel;Lnet/minecraft/world/phys/HitResult;)V", cancellable = true)
+    private void onLookAt__616804334(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-616804334L))
+            info.cancel();
     }
 
 

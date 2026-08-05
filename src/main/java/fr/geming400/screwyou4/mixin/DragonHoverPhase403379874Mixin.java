@@ -34,7 +34,7 @@ public class DragonHoverPhase403379874Mixin {
     @Inject(at = @At("HEAD"), method = "getFlySpeed()F", cancellable = true)
     private void getFlySpeed_441639237(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(441639237L))
-            info.setReturnValue(4.990572E8F);
+            info.setReturnValue(9.135941E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "isSitting()Z", cancellable = true)

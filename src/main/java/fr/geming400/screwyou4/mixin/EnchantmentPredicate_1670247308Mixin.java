@@ -22,7 +22,7 @@ public class EnchantmentPredicate_1670247308Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1708510049(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1708510049L))
-            info.setReturnValue(1266576376);
+            info.setReturnValue(1471796276);
     }
 
     @Inject(at = @At("HEAD"), method = "level()Lnet/minecraft/advancements/predicates/MinMaxBounds$Ints;", cancellable = true)

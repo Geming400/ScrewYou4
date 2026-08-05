@@ -16,7 +16,7 @@ public class DynamicAtlasAllocator632004017Mixin {
     @Inject(at = @At("HEAD"), method = "freeSlotCount()I", cancellable = true)
     private void freeSlotCount_670266263(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(670266263L))
-            info.setReturnValue(1579189237);
+            info.setReturnValue(-2058924159);
     }
 
     @Inject(at = @At("HEAD"), method = "reclaimSpaceFor(Ljava/util/Set;)Z", cancellable = true)

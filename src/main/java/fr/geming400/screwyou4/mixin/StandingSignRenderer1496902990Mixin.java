@@ -25,16 +25,16 @@ public class StandingSignRenderer1496902990Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/blockentity/state/BlockEntityRenderState;", cancellable = true)
-    private void createRenderState__1664091880(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1664091880L))
-            info.setReturnValue(new net.minecraft.client.renderer.blockentity.state.BlockEntityRenderState());
-    }
-
     @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/blockentity/state/StandingSignRenderState;", cancellable = true)
     private void createRenderState__77264071(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-77264071L))
             info.setReturnValue(new net.minecraft.client.renderer.blockentity.state.StandingSignRenderState());
+    }
+
+    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/blockentity/state/BlockEntityRenderState;", cancellable = true)
+    private void createRenderState__1664091880(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1664091880L))
+            info.setReturnValue(new net.minecraft.client.renderer.blockentity.state.BlockEntityRenderState());
     }
 
 

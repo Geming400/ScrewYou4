@@ -34,7 +34,7 @@ public class ClientboundUpdateMobEffectPacket52701887Mixin {
     @Inject(at = @At("HEAD"), method = "getEntityId()I", cancellable = true)
     private void getEntityId_90964133(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(90964133L))
-            info.setReturnValue(267816409);
+            info.setReturnValue(620621409);
     }
 
     @Inject(at = @At("HEAD"), method = "shouldBlend()Z", cancellable = true)
@@ -46,7 +46,19 @@ public class ClientboundUpdateMobEffectPacket52701887Mixin {
     @Inject(at = @At("HEAD"), method = "getEffectDurationTicks()I", cancellable = true)
     private void getEffectDurationTicks_90964133(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(90964133L))
-            info.setReturnValue(267816409);
+            info.setReturnValue(620621409);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isEffectAmbient()Z", cancellable = true)
+    private void isEffectAmbient_90980470(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(90980470L))
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getEffectAmplifier()I", cancellable = true)
+    private void getEffectAmplifier_90964133(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(90964133L))
+            info.setReturnValue(620621409);
     }
 
     @Inject(at = @At("HEAD"), method = "effectShowsIcon()Z", cancellable = true)
@@ -59,18 +71,6 @@ public class ClientboundUpdateMobEffectPacket52701887Mixin {
     private void isEffectVisible_90980470(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(90980470L))
             info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isEffectAmbient()Z", cancellable = true)
-    private void isEffectAmbient_90980470(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(90980470L))
-            info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getEffectAmplifier()I", cancellable = true)
-    private void getEffectAmplifier_90964133(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(90964133L))
-            info.setReturnValue(267816409);
     }
 
 

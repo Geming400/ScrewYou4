@@ -22,7 +22,7 @@ public class AttributeTrack1721732463Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1759995205(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1759995205L))
-            info.setReturnValue(-1412950340);
+            info.setReturnValue(-1662097740);
     }
 
     @Inject(at = @At("HEAD"), method = "modifier()Lnet/minecraft/world/attribute/modifier/AttributeModifier;", cancellable = true)
@@ -43,15 +43,15 @@ public class AttributeTrack1721732463Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "argumentTrack()Lnet/minecraft/util/KeyframeTrack;", cancellable = true)
-    private void argumentTrack_588338873(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(588338873L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "validatePeriod(Lnet/minecraft/world/timeline/AttributeTrack;I)Lcom/mojang/serialization/DataResult;", cancellable = true)
     private static void validatePeriod__1309190428(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1309190428L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "argumentTrack()Lnet/minecraft/util/KeyframeTrack;", cancellable = true)
+    private void argumentTrack_588338873(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(588338873L))
             info.setReturnValue(null);
     }
 

@@ -19,16 +19,16 @@ public class SpecialGlyphs_664575614Mixin {
             info.setReturnValue(net.minecraft.client.gui.font.glyphs.SpecialGlyphs.WHITE);
     }
 
+    @Inject(at = @At("HEAD"), method = "getAdvance()F", cancellable = true)
+    private void getAdvance_702834976(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(702834976L))
+            info.setReturnValue(7.949703E8F);
+    }
+
     @Inject(at = @At("HEAD"), method = "bake(Lnet/minecraft/client/gui/font/GlyphStitcher;)Lnet/minecraft/client/gui/font/glyphs/BakedSheetGlyph;", cancellable = true)
     private void bake_971674230(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(971674230L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getAdvance()F", cancellable = true)
-    private void getAdvance_702834976(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(702834976L))
-            info.setReturnValue(4.187162E8F);
     }
 
 

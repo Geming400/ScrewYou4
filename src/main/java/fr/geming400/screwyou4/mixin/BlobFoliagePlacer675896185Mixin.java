@@ -10,7 +10,7 @@ public class BlobFoliagePlacer675896185Mixin {
         @Inject(at = @At("HEAD"), method = "foliageHeight(Lnet/minecraft/util/RandomSource;ILnet/minecraft/world/level/levelgen/feature/configurations/TreeConfiguration;)I", cancellable = true)
     private void foliageHeight_1318128471(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1318128471L))
-            info.setReturnValue(682890096);
+            info.setReturnValue(1072895496);
     }
 
 

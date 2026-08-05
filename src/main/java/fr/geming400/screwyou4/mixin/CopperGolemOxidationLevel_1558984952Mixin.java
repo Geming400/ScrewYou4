@@ -22,7 +22,13 @@ public class CopperGolemOxidationLevel_1558984952Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1597247693(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1597247693L))
-            info.setReturnValue(-843666220);
+            info.setReturnValue(-937331420);
+    }
+
+    @Inject(at = @At("HEAD"), method = "hurtSound()Lnet/minecraft/sounds/SoundEvent;", cancellable = true)
+    private void hurtSound__1645769447(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1645769447L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "deathSound()Lnet/minecraft/sounds/SoundEvent;", cancellable = true)
@@ -31,8 +37,14 @@ public class CopperGolemOxidationLevel_1558984952Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "hurtSound()Lnet/minecraft/sounds/SoundEvent;", cancellable = true)
-    private void hurtSound__1645769447(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "texture()Lnet/minecraft/resources/Identifier;", cancellable = true)
+    private void texture__884081602(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-884081602L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "spinHeadSound()Lnet/minecraft/sounds/SoundEvent;", cancellable = true)
+    private void spinHeadSound__1645769447(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1645769447L))
             info.setReturnValue(null);
     }
@@ -45,18 +57,6 @@ public class CopperGolemOxidationLevel_1558984952Mixin {
 
     @Inject(at = @At("HEAD"), method = "eyeTexture()Lnet/minecraft/resources/Identifier;", cancellable = true)
     private void eyeTexture__884081602(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-884081602L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "spinHeadSound()Lnet/minecraft/sounds/SoundEvent;", cancellable = true)
-    private void spinHeadSound__1645769447(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1645769447L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "texture()Lnet/minecraft/resources/Identifier;", cancellable = true)
-    private void texture__884081602(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-884081602L))
             info.setReturnValue(null);
     }

@@ -22,11 +22,11 @@ public class CowSoundVariant_1472069501Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1510332242(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1510332242L))
-            info.setReturnValue(-774170832);
+            info.setReturnValue(-1171737932);
     }
 
-    @Inject(at = @At("HEAD"), method = "ambientSound()Lnet/minecraft/core/Holder;", cancellable = true)
-    private void ambientSound__1274022024(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "hurtSound()Lnet/minecraft/core/Holder;", cancellable = true)
+    private void hurtSound__1274022024(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1274022024L))
             info.setReturnValue(null);
     }
@@ -37,8 +37,8 @@ public class CowSoundVariant_1472069501Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "hurtSound()Lnet/minecraft/core/Holder;", cancellable = true)
-    private void hurtSound__1274022024(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "ambientSound()Lnet/minecraft/core/Holder;", cancellable = true)
+    private void ambientSound__1274022024(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1274022024L))
             info.setReturnValue(null);
     }

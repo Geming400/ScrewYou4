@@ -22,13 +22,13 @@ public class Unbaked_235738763Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__899721213(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-899721213L))
-            info.setReturnValue("|4Fo\u9405H\uC33D0fMb'_J_i,n\uCB881*|&(kM)\u7E5A>s@2}\\"");
+            info.setReturnValue("|4Fo\u9405H\uC33D0fMb'_J_i,n\uCB881*|&(kM)\u7E5A>s@2}\\");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_274001504(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(274001504L))
-            info.setReturnValue(-1117732305);
+            info.setReturnValue(-1174132305);
     }
 
     @Inject(at = @At("HEAD"), method = "kind()Lnet/minecraft/world/level/block/SkullBlock$Type;", cancellable = true)
@@ -37,16 +37,16 @@ public class Unbaked_235738763Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "animation()F", cancellable = true)
-    private void animation_273998125(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(273998125L))
-            info.setReturnValue(8.437567E8F);
-    }
-
     @Inject(at = @At("HEAD"), method = "textureOverride()Ljava/util/Optional;", cancellable = true)
     private void textureOverride_481200184(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(481200184L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "animation()F", cancellable = true)
+    private void animation_273998125(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(273998125L))
+            info.setReturnValue(7.873567E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "bake(Lnet/minecraft/client/renderer/special/SpecialModelRenderer$BakingContext;)Lnet/minecraft/client/renderer/special/SkullSpecialRenderer;", cancellable = true)

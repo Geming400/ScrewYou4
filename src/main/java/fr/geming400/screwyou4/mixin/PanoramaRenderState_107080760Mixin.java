@@ -22,13 +22,13 @@ public class PanoramaRenderState_107080760Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_145343501(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(145343501L))
-            info.setReturnValue(-1710243911);
+            info.setReturnValue(-2044986811);
     }
 
     @Inject(at = @At("HEAD"), method = "spin()F", cancellable = true)
     private void spin_145340122(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(145340122L))
-            info.setReturnValue(8.32993E8F);
+            info.setReturnValue(4.982501E8F);
     }
 
 

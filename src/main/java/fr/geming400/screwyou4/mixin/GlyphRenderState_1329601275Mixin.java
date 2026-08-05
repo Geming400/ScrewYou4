@@ -22,12 +22,18 @@ public class GlyphRenderState_1329601275Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1367864016(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1367864016L))
-            info.setReturnValue(-2009335107);
+            info.setReturnValue(-1907596507);
     }
 
     @Inject(at = @At("HEAD"), method = "bounds()Lnet/minecraft/client/gui/navigation/ScreenRectangle;", cancellable = true)
     private void bounds__1790340718(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1790340718L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "textureSetup()Lnet/minecraft/client/gui/render/TextureSetup;", cancellable = true)
+    private void textureSetup_1920318705(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1920318705L))
             info.setReturnValue(null);
     }
 
@@ -49,22 +55,16 @@ public class GlyphRenderState_1329601275Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "textureSetup()Lnet/minecraft/client/gui/render/TextureSetup;", cancellable = true)
-    private void textureSetup_1920318705(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1920318705L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "buildVertices(Lcom/mojang/blaze3d/vertex/VertexConsumer;)V", cancellable = true)
+    private void buildVertices__1842310110(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1842310110L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "scissorArea()Lnet/minecraft/client/gui/navigation/ScreenRectangle;", cancellable = true)
     private void scissorArea__1790340718(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1790340718L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "buildVertices(Lcom/mojang/blaze3d/vertex/VertexConsumer;)V", cancellable = true)
-    private void buildVertices__1842310110(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1842310110L))
-            info.cancel();
     }
 
 

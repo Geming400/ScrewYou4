@@ -37,16 +37,10 @@ public class FluidState122157223Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getDripParticle()Lnet/minecraft/core/particles/ParticleOptions;", cancellable = true)
-    private void getDripParticle__1946803845(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1946803845L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getHeight(Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)F", cancellable = true)
     private void getHeight__455390973(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-455390973L))
-            info.setReturnValue(2.829498E8F);
+            info.setReturnValue(5.750803E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "randomTick(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)V", cancellable = true)
@@ -67,6 +61,48 @@ public class FluidState122157223Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "animateTick(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)V", cancellable = true)
+    private void animateTick_805035861(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(805035861L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "entityInside(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/entity/InsideBlockEffectApplier;)V", cancellable = true)
+    private void entityInside_253125721(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(253125721L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getExplosionResistance()F", cancellable = true)
+    private void getExplosionResistance_160416586(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(160416586L))
+            info.setReturnValue(5.750803E8F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isRandomlyTicking()Z", cancellable = true)
+    private void isRandomlyTicking_160435806(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(160435806L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "createLegacyBlock()Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
+    private void createLegacyBlock_2121365653(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2121365653L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getOwnHeight()F", cancellable = true)
+    private void getOwnHeight_160416586(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(160416586L))
+            info.setReturnValue(5.750803E8F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "canBeReplacedWith(Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/material/Fluid;Lnet/minecraft/core/Direction;)Z", cancellable = true)
+    private void canBeReplacedWith__1156988364(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1156988364L))
+            info.setReturnValue(false);
+    }
+
     @Inject(at = @At("HEAD"), method = "isSourceOfType(Lnet/minecraft/world/level/material/Fluid;)Z", cancellable = true)
     private void isSourceOfType__1887531217(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1887531217L))
@@ -79,64 +115,28 @@ public class FluidState122157223Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "getOwnHeight()F", cancellable = true)
-    private void getOwnHeight_160416586(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(160416586L))
-            info.setReturnValue(2.829498E8F);
-    }
-
-    @Inject(at = @At("HEAD"), method = "canBeReplacedWith(Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/material/Fluid;Lnet/minecraft/core/Direction;)Z", cancellable = true)
-    private void canBeReplacedWith__1156988364(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1156988364L))
-            info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "createLegacyBlock()Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
-    private void createLegacyBlock_2121365653(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2121365653L))
+    @Inject(at = @At("HEAD"), method = "getDripParticle()Lnet/minecraft/core/particles/ParticleOptions;", cancellable = true)
+    private void getDripParticle__1946803845(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1946803845L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "entityInside(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/entity/InsideBlockEffectApplier;)V", cancellable = true)
-    private void entityInside_253125721(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(253125721L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "animateTick(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)V", cancellable = true)
-    private void animateTick_805035861(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(805035861L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "getExplosionResistance()F", cancellable = true)
-    private void getExplosionResistance_160416586(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(160416586L))
-            info.setReturnValue(2.829498E8F);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isRandomlyTicking()Z", cancellable = true)
-    private void isRandomlyTicking_160435806(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(160435806L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isSource()Z", cancellable = true)
-    private void isSource_160435806(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(160435806L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getAmount()I", cancellable = true)
-    private void getAmount_160419469(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(160419469L))
-            info.setReturnValue(-1407634663);
     }
 
     @Inject(at = @At("HEAD"), method = "getFlow(Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/phys/Vec3;", cancellable = true)
     private void getFlow__1694270823(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1694270823L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getAmount()I", cancellable = true)
+    private void getAmount_160419469(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(160419469L))
+            info.setReturnValue(-1115504163);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isSource()Z", cancellable = true)
+    private void isSource_160435806(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(160435806L))
+            info.setReturnValue(true);
     }
 
 

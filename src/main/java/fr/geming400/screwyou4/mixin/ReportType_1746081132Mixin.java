@@ -22,19 +22,13 @@ public class ReportType_1746081132Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1784343873(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1784343873L))
-            info.setReturnValue(-718070672);
+            info.setReturnValue(43837028);
     }
 
     @Inject(at = @At("HEAD"), method = "header()Ljava/lang/String;", cancellable = true)
     private void header_610620660(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(610620660L))
             info.setReturnValue(",8/),<)CxlD,}hm)\uD5F75b\u3AEFa'gI\uC3BC\u52E7p[hu\uD24AeJl\u0405P_)5oACi<\u7ECDrz\u20DD\u351E]/*Gh$|jLXbL@6`Qo#\u2374l8\u7427!VYTp\u5DA0?1Eg06\u8C7B\u3D1CuNWP`$");
-    }
-
-    @Inject(at = @At("HEAD"), method = "nuggets()Ljava/util/List;", cancellable = true)
-    private void nuggets__922549349(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-922549349L))
-            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "appendHeader(Ljava/lang/StringBuilder;Ljava/util/List;)V", cancellable = true)
@@ -47,6 +41,12 @@ public class ReportType_1746081132Mixin {
     private void getErrorComment_610620660(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(610620660L))
             info.setReturnValue(",8/),<)CxlD,}hm)\uD5F75b\u3AEFa'gI\uC3BC\u52E7p[hu\uD24AeJl\u0405P_)5oACi<\u7ECDrz\u20DD\u351E]/*Gh$|jLXbL@6`Qo#\u2374l8\u7427!VYTp\u5DA0?1Eg06\u8C7B\u3D1CuNWP`$");
+    }
+
+    @Inject(at = @At("HEAD"), method = "nuggets()Ljava/util/List;", cancellable = true)
+    private void nuggets__922549349(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-922549349L))
+            info.setReturnValue(null);
     }
 
 

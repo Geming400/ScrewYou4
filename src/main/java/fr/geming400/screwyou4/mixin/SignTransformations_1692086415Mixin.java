@@ -22,7 +22,7 @@ public class SignTransformations_1692086415Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1730349156(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1730349156L))
-            info.setReturnValue(1901815048);
+            info.setReturnValue(-2105918448);
     }
 
     @Inject(at = @At("HEAD"), method = "frontText()Lcom/mojang/math/Transformation;", cancellable = true)

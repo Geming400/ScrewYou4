@@ -22,7 +22,7 @@ public class Filtered_1573775255Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1612037996(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1612037996L))
-            info.setReturnValue(1207644317);
+            info.setReturnValue(1729583117);
     }
 
     @Inject(at = @At("HEAD"), method = "filter(Ljava/util/function/Predicate;)Lnet/minecraft/world/item/slot/SlotCollection;", cancellable = true)

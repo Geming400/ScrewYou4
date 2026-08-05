@@ -28,7 +28,7 @@ public class MaterialAssetGroup1395562582Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1433825324(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1433825324L))
-            info.setReturnValue(-1140861316);
+            info.setReturnValue(-1011351116);
     }
 
     @Inject(at = @At("HEAD"), method = "create(Ljava/lang/String;)Lnet/minecraft/world/item/equipment/trim/MaterialAssetGroup;", cancellable = true)

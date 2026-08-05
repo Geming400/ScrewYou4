@@ -19,18 +19,6 @@ public class ParticleArgument_1443587891Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "particle(Lnet/minecraft/commands/CommandBuildContext;)Lnet/minecraft/commands/arguments/ParticleArgument;", cancellable = true)
-    private static void particle__1768783339(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1768783339L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "readParticle(Lcom/mojang/brigadier/StringReader;Lnet/minecraft/core/HolderLookup$Provider;)Lnet/minecraft/core/particles/ParticleOptions;", cancellable = true)
-    private static void readParticle__1480847016(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1480847016L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "listSuggestions(Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
     private void listSuggestions_1684511332(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1684511332L))
@@ -40,6 +28,18 @@ public class ParticleArgument_1443587891Mixin {
     @Inject(at = @At("HEAD"), method = "getExamples()Ljava/util/Collection;", cancellable = true)
     private void getExamples__370060382(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-370060382L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "particle(Lnet/minecraft/commands/CommandBuildContext;)Lnet/minecraft/commands/arguments/ParticleArgument;", cancellable = true)
+    private static void particle__1768783339(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1768783339L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "readParticle(Lcom/mojang/brigadier/StringReader;Lnet/minecraft/core/HolderLookup$Provider;)Lnet/minecraft/core/particles/ParticleOptions;", cancellable = true)
+    private static void readParticle__1480847016(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1480847016L))
             info.setReturnValue(null);
     }
 

@@ -22,13 +22,13 @@ public class SeededContainerLoot1820743291Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1859006033(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1859006033L))
-            info.setReturnValue(-1484053735);
+            info.setReturnValue(-1242069135);
     }
 
     @Inject(at = @At("HEAD"), method = "seed()J", cancellable = true)
     private void seed_1859006498(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1859006498L))
-            info.setReturnValue(-2005124155110433398L);
+            info.setReturnValue(-2005124154868448798L);
     }
 
     @Inject(at = @At("HEAD"), method = "lootTable()Lnet/minecraft/resources/ResourceKey;", cancellable = true)

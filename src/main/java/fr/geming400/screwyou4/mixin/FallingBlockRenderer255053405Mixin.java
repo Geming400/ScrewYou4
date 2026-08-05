@@ -19,27 +19,15 @@ public class FallingBlockRenderer255053405Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "shouldRender(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/client/renderer/culling/Frustum;DDD)Z", cancellable = true)
-    private void shouldRender__507538351(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-507538351L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "shouldRender(Lnet/minecraft/world/entity/item/FallingBlockEntity;Lnet/minecraft/client/renderer/culling/Frustum;DDD)Z", cancellable = true)
-    private void shouldRender_1179998397(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1179998397L))
-            info.setReturnValue(true);
+    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/client/renderer/entity/state/EntityRenderState;F)V", cancellable = true)
+    private void extractRenderState_482172424(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(482172424L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/entity/item/FallingBlockEntity;Lnet/minecraft/client/renderer/entity/state/FallingBlockRenderState;F)V", cancellable = true)
     private void extractRenderState_1987530969(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1987530969L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/client/renderer/entity/state/EntityRenderState;F)V", cancellable = true)
-    private void extractRenderState_482172424(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(482172424L))
             info.cancel();
     }
 
@@ -53,6 +41,18 @@ public class FallingBlockRenderer255053405Mixin {
     private void createRenderState__333583039(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-333583039L))
             info.setReturnValue(new net.minecraft.client.renderer.entity.state.EntityRenderState());
+    }
+
+    @Inject(at = @At("HEAD"), method = "shouldRender(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/client/renderer/culling/Frustum;DDD)Z", cancellable = true)
+    private void shouldRender__507538351(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-507538351L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "shouldRender(Lnet/minecraft/world/entity/item/FallingBlockEntity;Lnet/minecraft/client/renderer/culling/Frustum;DDD)Z", cancellable = true)
+    private void shouldRender_1179998397(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1179998397L))
+            info.setReturnValue(true);
     }
 
 

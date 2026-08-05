@@ -16,7 +16,7 @@ public class WeightedListHeight1183429032Mixin {
     @Inject(at = @At("HEAD"), method = "sample(Lnet/minecraft/util/RandomSource;Lnet/minecraft/world/level/levelgen/WorldGenerationContext;)I", cancellable = true)
     private void sample_1148575097(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1148575097L))
-            info.setReturnValue(-1066238986);
+            info.setReturnValue(-1272339186);
     }
 
 

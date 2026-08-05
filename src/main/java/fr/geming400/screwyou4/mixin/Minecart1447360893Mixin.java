@@ -13,12 +13,6 @@ public class Minecart1447360893Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "isRideable()Z", cancellable = true)
-    private void isRideable_1485639476(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1485639476L))
-            info.setReturnValue(false);
-    }
-
     @Inject(at = @At("HEAD"), method = "activateMinecart(Lnet/minecraft/server/level/ServerLevel;IIIZ)V", cancellable = true)
     private void activateMinecart_1075623762(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1075623762L))
@@ -35,6 +29,12 @@ public class Minecart1447360893Mixin {
     private void getPickResult_1970779553(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1970779553L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isRideable()Z", cancellable = true)
+    private void isRideable_1485639476(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1485639476L))
+            info.setReturnValue(false);
     }
 
 

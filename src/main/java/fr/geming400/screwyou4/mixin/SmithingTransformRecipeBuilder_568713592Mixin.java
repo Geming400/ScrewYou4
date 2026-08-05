@@ -19,15 +19,15 @@ public class SmithingTransformRecipeBuilder_568713592Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "smithing(Lnet/minecraft/world/item/crafting/Ingredient;Lnet/minecraft/world/item/crafting/Ingredient;Lnet/minecraft/world/item/crafting/Ingredient;Lnet/minecraft/data/recipes/RecipeCategory;Lnet/minecraft/world/item/Item;)Lnet/minecraft/data/recipes/SmithingTransformRecipeBuilder;", cancellable = true)
-    private static void smithing_190093653(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(190093653L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "unlocks(Ljava/lang/String;Lnet/minecraft/advancements/triggers/Criterion;)Lnet/minecraft/data/recipes/SmithingTransformRecipeBuilder;", cancellable = true)
     private void unlocks__1248408648(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1248408648L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "smithing(Lnet/minecraft/world/item/crafting/Ingredient;Lnet/minecraft/world/item/crafting/Ingredient;Lnet/minecraft/world/item/crafting/Ingredient;Lnet/minecraft/data/recipes/RecipeCategory;Lnet/minecraft/world/item/Item;)Lnet/minecraft/data/recipes/SmithingTransformRecipeBuilder;", cancellable = true)
+    private static void smithing_190093653(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(190093653L))
             info.setReturnValue(null);
     }
 

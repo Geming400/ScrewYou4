@@ -25,12 +25,6 @@ public class CriterionProgress_1196658208Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "serializeToNetwork(Lnet/minecraft/network/FriendlyByteBuf;)V", cancellable = true)
-    private void serializeToNetwork_843165086(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(843165086L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "getObtained()Ljava/time/Instant;", cancellable = true)
     private void getObtained__2001074889(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2001074889L))
@@ -41,6 +35,12 @@ public class CriterionProgress_1196658208Mixin {
     private static void fromNetwork__366044653(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-366044653L))
             info.setReturnValue(new net.minecraft.advancements.CriterionProgress());
+    }
+
+    @Inject(at = @At("HEAD"), method = "serializeToNetwork(Lnet/minecraft/network/FriendlyByteBuf;)V", cancellable = true)
+    private void serializeToNetwork_843165086(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(843165086L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "revoke()V", cancellable = true)

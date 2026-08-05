@@ -22,7 +22,7 @@ public class WorldClock912456602Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_950719344(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(950719344L))
-            info.setReturnValue(-1789550476);
+            info.setReturnValue(-1101010276);
     }
 
 

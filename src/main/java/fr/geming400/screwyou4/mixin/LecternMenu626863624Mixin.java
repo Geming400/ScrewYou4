@@ -13,22 +13,22 @@ public class LecternMenu626863624Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "stillValid(Lnet/minecraft/world/entity/player/Player;)Z", cancellable = true)
-    private void stillValid_1567469114(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1567469114L))
-            info.setReturnValue(true);
-    }
-
     @Inject(at = @At("HEAD"), method = "getPage()I", cancellable = true)
     private void getPage_665125870(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(665125870L))
-            info.setReturnValue(-591652498);
+            info.setReturnValue(-218314698);
     }
 
     @Inject(at = @At("HEAD"), method = "getBook()Lnet/minecraft/world/item/ItemStack;", cancellable = true)
     private void getBook_1150282284(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1150282284L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "stillValid(Lnet/minecraft/world/entity/player/Player;)Z", cancellable = true)
+    private void stillValid_1567469114(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1567469114L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "quickMoveStack(Lnet/minecraft/world/entity/player/Player;I)Lnet/minecraft/world/item/ItemStack;", cancellable = true)

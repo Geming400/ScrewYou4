@@ -28,18 +28,18 @@ public class BonusLevelTableCondition_21615614Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_59878355(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(59878355L))
-            info.setReturnValue(-611325006);
-    }
-
-    @Inject(at = @At("HEAD"), method = "test(Ljava/lang/Object;)Z", cancellable = true)
-    private void test_1407256336(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1407256336L))
-            info.setReturnValue(false);
+            info.setReturnValue(-796266206);
     }
 
     @Inject(at = @At("HEAD"), method = "test(Lnet/minecraft/world/level/storage/loot/LootContext;)Z", cancellable = true)
     private void test_1939633811(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1939633811L))
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "test(Ljava/lang/Object;)Z", cancellable = true)
+    private void test_1407256336(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1407256336L))
             info.setReturnValue(false);
     }
 

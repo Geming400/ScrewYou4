@@ -19,22 +19,22 @@ public class ChestMenu517151762Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "stillValid(Lnet/minecraft/world/entity/player/Player;)Z", cancellable = true)
-    private void stillValid_1457757252(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1457757252L))
-            info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "quickMoveStack(Lnet/minecraft/world/entity/player/Player;I)Lnet/minecraft/world/item/ItemStack;", cancellable = true)
-    private void quickMoveStack_1390847512(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1390847512L))
+    @Inject(at = @At("HEAD"), method = "twoRows(ILnet/minecraft/world/entity/player/Inventory;)Lnet/minecraft/world/inventory/ChestMenu;", cancellable = true)
+    private static void twoRows__399994201(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-399994201L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getRowCount()I", cancellable = true)
-    private void getRowCount_555414008(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(555414008L))
-            info.setReturnValue(1981328451);
+    @Inject(at = @At("HEAD"), method = "fourRows(ILnet/minecraft/world/entity/player/Inventory;)Lnet/minecraft/world/inventory/ChestMenu;", cancellable = true)
+    private static void fourRows__399994201(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-399994201L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "fiveRows(ILnet/minecraft/world/entity/player/Inventory;)Lnet/minecraft/world/inventory/ChestMenu;", cancellable = true)
+    private static void fiveRows__399994201(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-399994201L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "sixRows(ILnet/minecraft/world/entity/player/Inventory;Lnet/minecraft/world/Container;)Lnet/minecraft/world/inventory/ChestMenu;", cancellable = true)
@@ -55,20 +55,8 @@ public class ChestMenu517151762Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "twoRows(ILnet/minecraft/world/entity/player/Inventory;)Lnet/minecraft/world/inventory/ChestMenu;", cancellable = true)
-    private static void twoRows__399994201(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-399994201L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "fourRows(ILnet/minecraft/world/entity/player/Inventory;)Lnet/minecraft/world/inventory/ChestMenu;", cancellable = true)
-    private static void fourRows__399994201(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-399994201L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "fiveRows(ILnet/minecraft/world/entity/player/Inventory;)Lnet/minecraft/world/inventory/ChestMenu;", cancellable = true)
-    private static void fiveRows__399994201(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "threeRows(ILnet/minecraft/world/entity/player/Inventory;)Lnet/minecraft/world/inventory/ChestMenu;", cancellable = true)
+    private static void threeRows__399994201(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-399994201L))
             info.setReturnValue(null);
     }
@@ -79,9 +67,21 @@ public class ChestMenu517151762Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "threeRows(ILnet/minecraft/world/entity/player/Inventory;)Lnet/minecraft/world/inventory/ChestMenu;", cancellable = true)
-    private static void threeRows__399994201(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-399994201L))
+    @Inject(at = @At("HEAD"), method = "getRowCount()I", cancellable = true)
+    private void getRowCount_555414008(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(555414008L))
+            info.setReturnValue(1411870251);
+    }
+
+    @Inject(at = @At("HEAD"), method = "stillValid(Lnet/minecraft/world/entity/player/Player;)Z", cancellable = true)
+    private void stillValid_1457757252(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1457757252L))
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "quickMoveStack(Lnet/minecraft/world/entity/player/Player;I)Lnet/minecraft/world/item/ItemStack;", cancellable = true)
+    private void quickMoveStack_1390847512(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1390847512L))
             info.setReturnValue(null);
     }
 

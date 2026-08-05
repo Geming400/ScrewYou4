@@ -22,7 +22,7 @@ public class PotDecorations_943203980Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_981466721(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(981466721L))
-            info.setReturnValue(353971844);
+            info.setReturnValue(343889544);
     }
 
     @Inject(at = @At("HEAD"), method = "left()Ljava/util/Optional;", cancellable = true)

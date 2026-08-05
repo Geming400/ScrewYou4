@@ -19,20 +19,8 @@ public class MinecraftBanListServiceImpl_1507590105Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getIpBanEntries()Ljava/util/Collection;", cancellable = true)
-    private void getIpBanEntries__306058168(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-306058168L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "removeUserBan(Lnet/minecraft/server/players/NameAndId;Lnet/minecraft/server/jsonrpc/methods/ClientInfo;)V", cancellable = true)
-    private void removeUserBan__971481339(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-971481339L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "clearUserBans(Lnet/minecraft/server/jsonrpc/methods/ClientInfo;)V", cancellable = true)
-    private void clearUserBans_1421204034(CallbackInfo info) {
+    @Inject(at = @At("HEAD"), method = "clearIpBans(Lnet/minecraft/server/jsonrpc/methods/ClientInfo;)V", cancellable = true)
+    private void clearIpBans_1421204034(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1421204034L))
             info.cancel();
     }
@@ -43,16 +31,28 @@ public class MinecraftBanListServiceImpl_1507590105Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "clearIpBans(Lnet/minecraft/server/jsonrpc/methods/ClientInfo;)V", cancellable = true)
-    private void clearIpBans_1421204034(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1421204034L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "getIpBanEntries()Ljava/util/Collection;", cancellable = true)
+    private void getIpBanEntries__306058168(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-306058168L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getUserBanEntries()Ljava/util/Collection;", cancellable = true)
     private void getUserBanEntries__306058168(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-306058168L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "clearUserBans(Lnet/minecraft/server/jsonrpc/methods/ClientInfo;)V", cancellable = true)
+    private void clearUserBans_1421204034(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1421204034L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "removeUserBan(Lnet/minecraft/server/players/NameAndId;Lnet/minecraft/server/jsonrpc/methods/ClientInfo;)V", cancellable = true)
+    private void removeUserBan__971481339(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-971481339L))
+            info.cancel();
     }
 
 

@@ -28,18 +28,18 @@ public class Texture2087095830Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2125358572(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2125358572L))
-            info.setReturnValue(1072644735);
-    }
-
-    @Inject(at = @At("HEAD"), method = "sampler()Lcom/mojang/blaze3d/textures/GpuSampler;", cancellable = true)
-    private void sampler_1740317980(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1740317980L))
-            info.setReturnValue(null);
+            info.setReturnValue(1022814935);
     }
 
     @Inject(at = @At("HEAD"), method = "textureView()Lcom/mojang/blaze3d/textures/GpuTextureView;", cancellable = true)
     private void textureView__313518780(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-313518780L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "sampler()Lcom/mojang/blaze3d/textures/GpuSampler;", cancellable = true)
+    private void sampler_1740317980(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1740317980L))
             info.setReturnValue(null);
     }
 

@@ -22,7 +22,7 @@ public class MultiPartDefinition_1740942895Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1779205636(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1779205636L))
-            info.setReturnValue(-1847647013);
+            info.setReturnValue(1719768583);
     }
 
     @Inject(at = @At("HEAD"), method = "instantiate(Lnet/minecraft/world/level/block/state/StateDefinition;)Lnet/minecraft/client/renderer/block/dispatch/multipart/MultiPartModel$Unbaked;", cancellable = true)

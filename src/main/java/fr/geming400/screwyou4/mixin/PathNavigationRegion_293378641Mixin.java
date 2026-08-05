@@ -10,13 +10,31 @@ public class PathNavigationRegion_293378641Mixin {
         @Inject(at = @At("HEAD"), method = "getHeight()I", cancellable = true)
     private void getHeight_331640886(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(331640886L))
-            info.setReturnValue(-2052166455);
+            info.setReturnValue(2110644641);
     }
 
     @Inject(at = @At("HEAD"), method = "getMinY()I", cancellable = true)
     private void getMinY_331640886(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(331640886L))
-            info.setReturnValue(-2052166455);
+            info.setReturnValue(2110644641);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getBlockEntity(Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/block/entity/BlockEntity;", cancellable = true)
+    private void getBlockEntity_291039432(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(291039432L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getFluidState(Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/material/FluidState;", cancellable = true)
+    private void getFluidState_1739555413(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1739555413L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getWorldBorder()Lnet/minecraft/world/level/border/WorldBorder;", cancellable = true)
+    private void getWorldBorder_103878695(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(103878695L))
+            info.setReturnValue(new net.minecraft.world.level.border.WorldBorder());
     }
 
     @Inject(at = @At("HEAD"), method = "getChunkForCollisions(II)Lnet/minecraft/world/level/BlockGetter;", cancellable = true)
@@ -31,27 +49,9 @@ public class PathNavigationRegion_293378641Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getWorldBorder()Lnet/minecraft/world/level/border/WorldBorder;", cancellable = true)
-    private void getWorldBorder_103878695(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(103878695L))
-            info.setReturnValue(new net.minecraft.world.level.border.WorldBorder());
-    }
-
     @Inject(at = @At("HEAD"), method = "getBlockState(Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
     private void getBlockState_692004586(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(692004586L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getFluidState(Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/material/FluidState;", cancellable = true)
-    private void getFluidState_1739555413(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1739555413L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getBlockEntity(Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/block/entity/BlockEntity;", cancellable = true)
-    private void getBlockEntity_291039432(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(291039432L))
             info.setReturnValue(null);
     }
 

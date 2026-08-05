@@ -19,15 +19,15 @@ public class AdvancementWidgetType549418816Mixin {
             info.setReturnValue(net.minecraft.client.gui.screens.advancements.AdvancementWidgetType.UNOBTAINED);
     }
 
-    @Inject(at = @At("HEAD"), method = "boxSprite()Lnet/minecraft/resources/Identifier;", cancellable = true)
-    private void boxSprite__1893647737(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1893647737L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "frameSprite(Lnet/minecraft/advancements/AdvancementType;)Lnet/minecraft/resources/Identifier;", cancellable = true)
     private void frameSprite__1276072790(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1276072790L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "boxSprite()Lnet/minecraft/resources/Identifier;", cancellable = true)
+    private void boxSprite__1893647737(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1893647737L))
             info.setReturnValue(null);
     }
 

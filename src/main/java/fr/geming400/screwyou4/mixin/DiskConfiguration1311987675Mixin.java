@@ -28,7 +28,7 @@ public class DiskConfiguration1311987675Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1350250417(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1350250417L))
-            info.setReturnValue(652096476);
+            info.setReturnValue(629386576);
     }
 
     @Inject(at = @At("HEAD"), method = "radius()Lnet/minecraft/util/valueproviders/IntProvider;", cancellable = true)
@@ -40,7 +40,7 @@ public class DiskConfiguration1311987675Mixin {
     @Inject(at = @At("HEAD"), method = "halfHeight()I", cancellable = true)
     private void halfHeight_1350249921(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1350249921L))
-            info.setReturnValue(830619966);
+            info.setReturnValue(807910066);
     }
 
     @Inject(at = @At("HEAD"), method = "stateProvider()Lnet/minecraft/world/level/levelgen/feature/stateproviders/BlockStateProvider;", cancellable = true)

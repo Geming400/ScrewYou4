@@ -22,7 +22,7 @@ public class CustomAll_1896749134Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1935011875(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1935011875L))
-            info.setReturnValue(1077457368);
+            info.setReturnValue(980961768);
     }
 
     @Inject(at = @At("HEAD"), method = "id()Lnet/minecraft/resources/Identifier;", cancellable = true)
@@ -37,15 +37,15 @@ public class CustomAll_1896749134Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "createAction(Ljava/util/Map;)Ljava/util/Optional;", cancellable = true)
-    private void createAction__1010517792(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1010517792L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "additions()Ljava/util/Optional;", cancellable = true)
     private void additions_2142210555(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2142210555L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "createAction(Ljava/util/Map;)Ljava/util/Optional;", cancellable = true)
+    private void createAction__1010517792(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1010517792L))
             info.setReturnValue(null);
     }
 

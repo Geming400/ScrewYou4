@@ -13,6 +13,12 @@ public class BambooStalkBlock_818150778Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
+    private void getStateForPlacement__440448990(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-440448990L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "performBonemeal(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/util/RandomSource;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)V", cancellable = true)
     private void performBonemeal__1324815776(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1324815776L))
@@ -29,12 +35,6 @@ public class BambooStalkBlock_818150778Mixin {
     private void isValidBonemealTarget_862830535(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(862830535L))
             info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
-    private void getStateForPlacement__440448990(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-440448990L))
-            info.setReturnValue(null);
     }
 
 

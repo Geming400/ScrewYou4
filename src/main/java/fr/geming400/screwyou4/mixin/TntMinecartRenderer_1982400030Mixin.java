@@ -31,16 +31,16 @@ public class TntMinecartRenderer_1982400030Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/MinecartTntRenderState;", cancellable = true)
-    private void createRenderState_189075647(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(189075647L))
-            info.setReturnValue(new net.minecraft.client.renderer.entity.state.MinecartTntRenderState());
-    }
-
     @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/EntityRenderState;", cancellable = true)
     private void createRenderState_1393763585(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1393763585L))
             info.setReturnValue(new net.minecraft.client.renderer.entity.state.EntityRenderState());
+    }
+
+    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/MinecartTntRenderState;", cancellable = true)
+    private void createRenderState_189075647(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(189075647L))
+            info.setReturnValue(new net.minecraft.client.renderer.entity.state.MinecartTntRenderState());
     }
 
 

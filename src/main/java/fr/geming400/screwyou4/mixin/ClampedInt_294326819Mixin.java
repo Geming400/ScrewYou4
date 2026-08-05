@@ -22,7 +22,7 @@ public class ClampedInt_294326819Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_332589560(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(332589560L))
-            info.setReturnValue(-1152704028);
+            info.setReturnValue(-1251917228);
     }
 
     @Inject(at = @At("HEAD"), method = "of(Lnet/minecraft/util/valueproviders/IntProvider;II)Lnet/minecraft/util/valueproviders/ClampedInt;", cancellable = true)
@@ -46,19 +46,19 @@ public class ClampedInt_294326819Mixin {
     @Inject(at = @At("HEAD"), method = "minInclusive()I", cancellable = true)
     private void minInclusive_332589064(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(332589064L))
-            info.setReturnValue(-1269667694);
+            info.setReturnValue(-1368880894);
     }
 
     @Inject(at = @At("HEAD"), method = "maxInclusive()I", cancellable = true)
     private void maxInclusive_332589064(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(332589064L))
-            info.setReturnValue(-1269667694);
+            info.setReturnValue(-1368880894);
     }
 
     @Inject(at = @At("HEAD"), method = "sample(Lnet/minecraft/util/RandomSource;)I", cancellable = true)
     private void sample__1412700760(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1412700760L))
-            info.setReturnValue(415541175);
+            info.setReturnValue(316327975);
     }
 
 

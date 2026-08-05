@@ -22,7 +22,7 @@ public class Favicon1813746303Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1852009045(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1852009045L))
-            info.setReturnValue(1299996269);
+            info.setReturnValue(947196169);
     }
 
     @Inject(at = @At("HEAD"), method = "iconBytes()[B", cancellable = true)

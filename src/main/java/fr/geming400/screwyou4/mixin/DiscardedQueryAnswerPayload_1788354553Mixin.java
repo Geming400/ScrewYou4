@@ -22,7 +22,7 @@ public class DiscardedQueryAnswerPayload_1788354553Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1826617294(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1826617294L))
-            info.setReturnValue(406447326);
+            info.setReturnValue(608920426);
     }
 
     @Inject(at = @At("HEAD"), method = "write(Lnet/minecraft/network/FriendlyByteBuf;)V", cancellable = true)

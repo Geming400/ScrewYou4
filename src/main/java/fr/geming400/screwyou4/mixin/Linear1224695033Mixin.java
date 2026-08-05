@@ -10,7 +10,7 @@ public class Linear1224695033Mixin {
         @Inject(at = @At("HEAD"), method = "base()F", cancellable = true)
     private void base_1262954396(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1262954396L))
-            info.setReturnValue(9.870837E8F);
+            info.setReturnValue(9.29505E7F);
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
@@ -28,7 +28,7 @@ public class Linear1224695033Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1262957775(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1262957775L))
-            info.setReturnValue(1508341362);
+            info.setReturnValue(614208162);
     }
 
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
@@ -40,13 +40,13 @@ public class Linear1224695033Mixin {
     @Inject(at = @At("HEAD"), method = "calculate(I)F", cancellable = true)
     private void calculate__1856370667(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1856370667L))
-            info.setReturnValue(9.870837E8F);
+            info.setReturnValue(9.29505E7F);
     }
 
     @Inject(at = @At("HEAD"), method = "perLevelAboveFirst()F", cancellable = true)
     private void perLevelAboveFirst_1262954396(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1262954396L))
-            info.setReturnValue(9.870837E8F);
+            info.setReturnValue(9.29505E7F);
     }
 
 

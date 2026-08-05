@@ -28,7 +28,7 @@ public class Multipoint_1872195522Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1910458263(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1910458263L))
-            info.setReturnValue(-1558219242);
+            info.setReturnValue(-871200942);
     }
 
     @Inject(at = @At("HEAD"), method = "locations()[F", cancellable = true)
@@ -40,7 +40,19 @@ public class Multipoint_1872195522Mixin {
     @Inject(at = @At("HEAD"), method = "maxValue()F", cancellable = true)
     private void maxValue_1910454884(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1910454884L))
-            info.setReturnValue(2.910687E8F);
+            info.setReturnValue(9.78087E8F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "derivatives()[F", cancellable = true)
+    private void derivatives__1236933301(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1236933301L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "minValue()F", cancellable = true)
+    private void minValue_1910454884(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1910454884L))
+            info.setReturnValue(9.78087E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "coordinate()Lnet/minecraft/util/BoundedFloatFunction;", cancellable = true)
@@ -55,16 +67,10 @@ public class Multipoint_1872195522Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "minValue()F", cancellable = true)
-    private void minValue_1910454884(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1910454884L))
-            info.setReturnValue(2.910687E8F);
-    }
-
     @Inject(at = @At("HEAD"), method = "sample(Lnet/minecraft/util/CubicSpline$Multipoint;Ljava/lang/Object;)F", cancellable = true)
     private static void sample__1807777610(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1807777610L))
-            info.setReturnValue(2.910687E8F);
+            info.setReturnValue(9.78087E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "mapCoordinates(Ljava/util/function/UnaryOperator;)Lnet/minecraft/util/CubicSpline;", cancellable = true)
@@ -77,12 +83,6 @@ public class Multipoint_1872195522Mixin {
     private void parityString_736735050(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(736735050L))
             info.setReturnValue("-K");
-    }
-
-    @Inject(at = @At("HEAD"), method = "derivatives()[F", cancellable = true)
-    private void derivatives__1236933301(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1236933301L))
-            info.setReturnValue(null);
     }
 
 

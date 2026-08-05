@@ -22,7 +22,7 @@ public class BiomeCheck1787525430Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1825788172(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1825788172L))
-            info.setReturnValue(1756472658);
+            info.setReturnValue(-2136981538);
     }
 
     @Inject(at = @At("HEAD"), method = "test(Ljava/lang/Object;)Z", cancellable = true)

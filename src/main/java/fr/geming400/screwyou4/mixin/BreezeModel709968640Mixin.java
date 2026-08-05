@@ -13,27 +13,15 @@ public class BreezeModel709968640Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "eyes()Lnet/minecraft/client/model/geom/ModelPart;", cancellable = true)
-    private void eyes__2059775771(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2059775771L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "wind()Lnet/minecraft/client/model/geom/ModelPart;", cancellable = true)
     private void wind__2059775771(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2059775771L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "rods()Lnet/minecraft/client/model/geom/ModelPart;", cancellable = true)
-    private void rods__2059775771(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "eyes()Lnet/minecraft/client/model/geom/ModelPart;", cancellable = true)
+    private void eyes__2059775771(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2059775771L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "createBodyLayer()Lnet/minecraft/client/model/geom/builders/LayerDefinition;", cancellable = true)
-    private static void createBodyLayer__4163524(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-4163524L))
             info.setReturnValue(null);
     }
 
@@ -59,6 +47,18 @@ public class BreezeModel709968640Mixin {
     private void setupAnim_1124980816(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1124980816L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "rods()Lnet/minecraft/client/model/geom/ModelPart;", cancellable = true)
+    private void rods__2059775771(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2059775771L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "createBodyLayer()Lnet/minecraft/client/model/geom/builders/LayerDefinition;", cancellable = true)
+    private static void createBodyLayer__4163524(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-4163524L))
+            info.setReturnValue(null);
     }
 
 

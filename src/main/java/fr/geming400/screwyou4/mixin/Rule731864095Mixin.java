@@ -22,18 +22,18 @@ public class Rule731864095Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_770126837(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(770126837L))
-            info.setReturnValue(-66389560);
-    }
-
-    @Inject(at = @At("HEAD"), method = "then()Lnet/minecraft/world/level/levelgen/feature/stateproviders/BlockStateProvider;", cancellable = true)
-    private void then__1200842406(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1200842406L))
-            info.setReturnValue(null);
+            info.setReturnValue(-517480360);
     }
 
     @Inject(at = @At("HEAD"), method = "ifTrue()Lnet/minecraft/world/level/levelgen/blockpredicates/BlockPredicate;", cancellable = true)
     private void ifTrue_764632684(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(764632684L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "then()Lnet/minecraft/world/level/levelgen/feature/stateproviders/BlockStateProvider;", cancellable = true)
+    private void then__1200842406(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1200842406L))
             info.setReturnValue(null);
     }
 

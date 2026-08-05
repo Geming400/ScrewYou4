@@ -13,6 +13,12 @@ public class PreparedFrame_1190562767Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "executeTranslucentAfterTerrain()V", cancellable = true)
+    private void executeTranslucentAfterTerrain_1228837505(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1228837505L))
+            info.cancel();
+    }
+
     @Inject(at = @At("HEAD"), method = "hasAnyOutline()Z", cancellable = true)
     private void hasAnyOutline_1228841349(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1228841349L))
@@ -23,18 +29,6 @@ public class PreparedFrame_1190562767Mixin {
     private void hasAnyAlwaysOnTop_1228841349(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1228841349L))
             info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "executeOutline()V", cancellable = true)
-    private void executeOutline_1228837505(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1228837505L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "executeAlwaysOnTop()V", cancellable = true)
-    private void executeAlwaysOnTop_1228837505(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1228837505L))
-            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "executeSolid()V", cancellable = true)
@@ -49,8 +43,14 @@ public class PreparedFrame_1190562767Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "executeTranslucentAfterTerrain()V", cancellable = true)
-    private void executeTranslucentAfterTerrain_1228837505(CallbackInfo info) {
+    @Inject(at = @At("HEAD"), method = "executeOutline()V", cancellable = true)
+    private void executeOutline_1228837505(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1228837505L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "executeAlwaysOnTop()V", cancellable = true)
+    private void executeAlwaysOnTop_1228837505(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1228837505L))
             info.cancel();
     }

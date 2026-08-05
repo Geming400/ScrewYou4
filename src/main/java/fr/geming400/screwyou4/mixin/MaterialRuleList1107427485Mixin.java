@@ -22,7 +22,7 @@ public class MaterialRuleList1107427485Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1145690227(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1145690227L))
-            info.setReturnValue(1384068042);
+            info.setReturnValue(1394536942);
     }
 
     @Inject(at = @At("HEAD"), method = "calculate(Lnet/minecraft/world/level/levelgen/DensityFunction$FunctionContext;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)

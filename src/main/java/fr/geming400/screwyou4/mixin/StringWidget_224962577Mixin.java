@@ -13,12 +13,6 @@ public class StringWidget_224962577Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getWidth()I", cancellable = true)
-    private void getWidth_263224822(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(263224822L))
-            info.setReturnValue(-1445074873);
-    }
-
     @Inject(at = @At("HEAD"), method = "setMaxWidth(ILnet/minecraft/client/gui/components/StringWidget$TextOverflow;)Lnet/minecraft/client/gui/components/StringWidget;", cancellable = true)
     private void setMaxWidth__1739474081(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1739474081L))
@@ -29,6 +23,12 @@ public class StringWidget_224962577Mixin {
     private void setMaxWidth__950544581(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-950544581L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getWidth()I", cancellable = true)
+    private void getWidth_263224822(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(263224822L))
+            info.setReturnValue(-1121655073);
     }
 
     @Inject(at = @At("HEAD"), method = "visitLines(Lnet/minecraft/client/gui/ActiveTextCollector;)V", cancellable = true)

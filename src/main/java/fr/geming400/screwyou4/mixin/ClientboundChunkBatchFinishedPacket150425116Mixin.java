@@ -28,7 +28,7 @@ public class ClientboundChunkBatchFinishedPacket150425116Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_188687858(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(188687858L))
-            info.setReturnValue(-2444365);
+            info.setReturnValue(99854535);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/protocol/game/ClientGamePacketListener;)V", cancellable = true)
@@ -46,7 +46,7 @@ public class ClientboundChunkBatchFinishedPacket150425116Mixin {
     @Inject(at = @At("HEAD"), method = "batchSize()I", cancellable = true)
     private void batchSize_188687362(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(188687362L))
-            info.setReturnValue(-119408031);
+            info.setReturnValue(-17109131);
     }
 
 

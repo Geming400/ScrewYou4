@@ -10,7 +10,7 @@ public class SharedConstants_1541575108Mixin {
         @Inject(at = @At("HEAD"), method = "getProtocolVersion()I", cancellable = true)
     private static void getProtocolVersion_1579837601(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1579837601L))
-            info.setReturnValue(-1445761786);
+            info.setReturnValue(-685863486);
     }
 
     @Inject(at = @At("HEAD"), method = "setVersion(Lnet/minecraft/WorldVersion;)V", cancellable = true)

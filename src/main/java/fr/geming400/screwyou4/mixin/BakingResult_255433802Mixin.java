@@ -22,19 +22,7 @@ public class BakingResult_255433802Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_293696543(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(293696543L))
-            info.setReturnValue(1582417513);
-    }
-
-    @Inject(at = @At("HEAD"), method = "missingModels()Lnet/minecraft/client/resources/model/ModelBakery$MissingModels;", cancellable = true)
-    private void missingModels__394313566(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-394313566L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "itemProperties()Ljava/util/Map;", cancellable = true)
-    private void itemProperties__1749189839(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1749189839L))
-            info.setReturnValue(null);
+            info.setReturnValue(1799918113);
     }
 
     @Inject(at = @At("HEAD"), method = "itemStackModels()Ljava/util/Map;", cancellable = true)
@@ -43,8 +31,20 @@ public class BakingResult_255433802Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "missingModels()Lnet/minecraft/client/resources/model/ModelBakery$MissingModels;", cancellable = true)
+    private void missingModels__394313566(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-394313566L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "blockStateModels()Ljava/util/Map;", cancellable = true)
     private void blockStateModels__1749189839(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1749189839L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "itemProperties()Ljava/util/Map;", cancellable = true)
+    private void itemProperties__1749189839(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1749189839L))
             info.setReturnValue(null);
     }

@@ -22,19 +22,19 @@ public class Sample_475678411Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_513941152(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(513941152L))
-            info.setReturnValue(-37113756);
+            info.setReturnValue(-45058856);
     }
 
     @Inject(at = @At("HEAD"), method = "y()D", cancellable = true)
     private void y_513935851(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(513935851L))
-            info.setReturnValue(8.052880005911074E8D);
+            info.setReturnValue(7.973429005911074E8D);
     }
 
     @Inject(at = @At("HEAD"), method = "yRot()F", cancellable = true)
     private void yRot_513937773(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(513937773L))
-            info.setReturnValue(8.05288E8F);
+            info.setReturnValue(7.973429E8F);
     }
 
 

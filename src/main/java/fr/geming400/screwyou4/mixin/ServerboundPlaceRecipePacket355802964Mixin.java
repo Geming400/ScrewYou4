@@ -28,7 +28,7 @@ public class ServerboundPlaceRecipePacket355802964Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_394065706(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(394065706L))
-            info.setReturnValue(1719926957);
+            info.setReturnValue(2106147257);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/PacketListener;)V", cancellable = true)
@@ -52,7 +52,7 @@ public class ServerboundPlaceRecipePacket355802964Mixin {
     @Inject(at = @At("HEAD"), method = "containerId()I", cancellable = true)
     private void containerId_394065210(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(394065210L))
-            info.setReturnValue(1923074376);
+            info.setReturnValue(-1985672620);
     }
 
     @Inject(at = @At("HEAD"), method = "useMaxItems()Z", cancellable = true)

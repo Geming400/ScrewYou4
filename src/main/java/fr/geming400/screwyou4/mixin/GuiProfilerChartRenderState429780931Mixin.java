@@ -22,13 +22,13 @@ public class GuiProfilerChartRenderState429780931Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_468043673(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(468043673L))
-            info.setReturnValue(2041542892);
+            info.setReturnValue(-2119246404);
     }
 
     @Inject(at = @At("HEAD"), method = "scale()F", cancellable = true)
     private void scale_468040294(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(468040294L))
-            info.setReturnValue(2.445462E8F);
+            info.setReturnValue(3.787242E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "bounds()Lnet/minecraft/client/gui/navigation/ScreenRectangle;", cancellable = true)
@@ -40,25 +40,25 @@ public class GuiProfilerChartRenderState429780931Mixin {
     @Inject(at = @At("HEAD"), method = "x1()I", cancellable = true)
     private void x1_468043177(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(468043177L))
-            info.setReturnValue(-2074900914);
+            info.setReturnValue(-1940722914);
     }
 
     @Inject(at = @At("HEAD"), method = "y1()I", cancellable = true)
     private void y1_468043177(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(468043177L))
-            info.setReturnValue(-2074900914);
+            info.setReturnValue(-1940722914);
     }
 
     @Inject(at = @At("HEAD"), method = "x0()I", cancellable = true)
     private void x0_468043177(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(468043177L))
-            info.setReturnValue(-2074900914);
+            info.setReturnValue(-1940722914);
     }
 
     @Inject(at = @At("HEAD"), method = "y0()I", cancellable = true)
     private void y0_468043177(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(468043177L))
-            info.setReturnValue(-2074900914);
+            info.setReturnValue(-1940722914);
     }
 
     @Inject(at = @At("HEAD"), method = "chartData()Ljava/util/List;", cancellable = true)

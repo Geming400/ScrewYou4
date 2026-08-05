@@ -22,7 +22,7 @@ public class CuboidModelElement_332284967Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_370547708(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(370547708L))
-            info.setReturnValue(704656474);
+            info.setReturnValue(1123494474);
     }
 
     @Inject(at = @At("HEAD"), method = "from()Lorg/joml/Vector3fc;", cancellable = true)
@@ -37,21 +37,21 @@ public class CuboidModelElement_332284967Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "faces()Ljava/util/Map;", cancellable = true)
-    private void faces__1672338674(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1672338674L))
+    @Inject(at = @At("HEAD"), method = "rotation()Lnet/minecraft/client/resources/model/cuboid/CuboidRotation;", cancellable = true)
+    private void rotation__848463929(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-848463929L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "lightEmission()I", cancellable = true)
     private void lightEmission_370547212(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(370547212L))
-            info.setReturnValue(587692808);
+            info.setReturnValue(1006530808);
     }
 
-    @Inject(at = @At("HEAD"), method = "rotation()Lnet/minecraft/client/resources/model/cuboid/CuboidRotation;", cancellable = true)
-    private void rotation__848463929(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-848463929L))
+    @Inject(at = @At("HEAD"), method = "faces()Ljava/util/Map;", cancellable = true)
+    private void faces__1672338674(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1672338674L))
             info.setReturnValue(null);
     }
 

@@ -16,7 +16,7 @@ public class EntitySection_1591256908Mixin {
     @Inject(at = @At("HEAD"), method = "size()I", cancellable = true)
     private void size_1629519153(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1629519153L))
-            info.setReturnValue(-1879157266);
+            info.setReturnValue(-1491531666);
     }
 
     @Inject(at = @At("HEAD"), method = "isEmpty()Z", cancellable = true)

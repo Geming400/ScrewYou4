@@ -28,13 +28,19 @@ public class Unbaked1522502459Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1560765201(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1560765201L))
-            info.setReturnValue(-1825354475);
+            info.setReturnValue(1901639321);
     }
 
     @Inject(at = @At("HEAD"), method = "pose()Lnet/minecraft/world/level/block/CopperGolemStatueBlock$Pose;", cancellable = true)
     private void pose_1350762718(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1350762718L))
             info.setReturnValue(net.minecraft.world.level.block.CopperGolemStatueBlock.Pose.STAR);
+    }
+
+    @Inject(at = @At("HEAD"), method = "texture()Lnet/minecraft/resources/Identifier;", cancellable = true)
+    private void texture__920564094(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-920564094L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "bake(Lnet/minecraft/client/renderer/special/SpecialModelRenderer$BakingContext;)Lnet/minecraft/client/renderer/special/SpecialModelRenderer;", cancellable = true)
@@ -46,12 +52,6 @@ public class Unbaked1522502459Mixin {
     @Inject(at = @At("HEAD"), method = "bake(Lnet/minecraft/client/renderer/special/SpecialModelRenderer$BakingContext;)Lnet/minecraft/client/renderer/special/CopperGolemStatueSpecialRenderer;", cancellable = true)
     private void bake_906528125(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(906528125L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "texture()Lnet/minecraft/resources/Identifier;", cancellable = true)
-    private void texture__920564094(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-920564094L))
             info.setReturnValue(null);
     }
 

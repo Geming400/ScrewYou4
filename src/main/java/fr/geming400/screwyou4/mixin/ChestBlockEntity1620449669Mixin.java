@@ -7,16 +7,16 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.world.level.block.entity.ChestBlockEntity.class)
 public class ChestBlockEntity1620449669Mixin {
-        @Inject(at = @At("HEAD"), method = "stopOpen(Lnet/minecraft/world/entity/ContainerUser;)V", cancellable = true)
-    private void stopOpen_952301302(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(952301302L))
-            info.cancel();
+        @Inject(at = @At("HEAD"), method = "triggerEvent(II)Z", cancellable = true)
+    private void triggerEvent_624574044(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(624574044L))
+            info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "startOpen(Lnet/minecraft/world/entity/ContainerUser;)V", cancellable = true)
-    private void startOpen_952301302(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(952301302L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "getContainerSize()I", cancellable = true)
+    private void getContainerSize_1658711915(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1658711915L))
+            info.setReturnValue(-2091920140);
     }
 
     @Inject(at = @At("HEAD"), method = "lidAnimateTick(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/entity/ChestBlockEntity;)V", cancellable = true)
@@ -31,28 +31,28 @@ public class ChestBlockEntity1620449669Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getContainerSize()I", cancellable = true)
-    private void getContainerSize_1658711915(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1658711915L))
-            info.setReturnValue(-1891000640);
+    @Inject(at = @At("HEAD"), method = "startOpen(Lnet/minecraft/world/entity/ContainerUser;)V", cancellable = true)
+    private void startOpen_952301302(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(952301302L))
+            info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "triggerEvent(II)Z", cancellable = true)
-    private void triggerEvent_624574044(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(624574044L))
-            info.setReturnValue(false);
+    @Inject(at = @At("HEAD"), method = "stopOpen(Lnet/minecraft/world/entity/ContainerUser;)V", cancellable = true)
+    private void stopOpen_952301302(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(952301302L))
+            info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getEntitiesWithContainerOpen()Ljava/util/List;", cancellable = true)
-    private void getEntitiesWithContainerOpen__1048180811(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1048180811L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "getOpenNess(F)F", cancellable = true)
+    private void getOpenNess__1463386594(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1463386594L))
+            info.setReturnValue(6.986876E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "getOpenCount(Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I", cancellable = true)
     private static void getOpenCount_1042904604(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1042904604L))
-            info.setReturnValue(-609663924);
+            info.setReturnValue(-810583424);
     }
 
     @Inject(at = @At("HEAD"), method = "swapContents(Lnet/minecraft/world/level/block/entity/ChestBlockEntity;Lnet/minecraft/world/level/block/entity/ChestBlockEntity;)V", cancellable = true)
@@ -61,10 +61,10 @@ public class ChestBlockEntity1620449669Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getOpenNess(F)F", cancellable = true)
-    private void getOpenNess__1463386594(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1463386594L))
-            info.setReturnValue(9.006136E8F);
+    @Inject(at = @At("HEAD"), method = "getEntitiesWithContainerOpen()Ljava/util/List;", cancellable = true)
+    private void getEntitiesWithContainerOpen__1048180811(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1048180811L))
+            info.setReturnValue(null);
     }
 
 

@@ -22,7 +22,7 @@ public class InclusiveRange_1653793785Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1692056526(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1692056526L))
-            info.setReturnValue(-647792834);
+            info.setReturnValue(-211755034);
     }
 
     @Inject(at = @At("HEAD"), method = "map(Ljava/util/function/Function;)Lnet/minecraft/util/InclusiveRange;", cancellable = true)

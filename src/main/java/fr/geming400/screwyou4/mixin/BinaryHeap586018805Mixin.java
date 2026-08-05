@@ -16,7 +16,7 @@ public class BinaryHeap586018805Mixin {
     @Inject(at = @At("HEAD"), method = "size()I", cancellable = true)
     private void size_624281051(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(624281051L))
-            info.setReturnValue(-1060887639);
+            info.setReturnValue(-1382145539);
     }
 
     @Inject(at = @At("HEAD"), method = "insert(Lnet/minecraft/world/level/pathfinder/Node;)Lnet/minecraft/world/level/pathfinder/Node;", cancellable = true)

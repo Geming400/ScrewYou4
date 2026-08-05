@@ -22,24 +22,24 @@ public class Submit_1162854479Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1201117220(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1201117220L))
-            info.setReturnValue(1054146766);
-    }
-
-    @Inject(at = @At("HEAD"), method = "radius()F", cancellable = true)
-    private void radius_1201113841(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1201113841L))
-            info.setReturnValue(6.672206E8F);
-    }
-
-    @Inject(at = @At("HEAD"), method = "pose()Lorg/joml/Matrix4fc;", cancellable = true)
-    private void pose__1389138580(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1389138580L))
-            info.setReturnValue(null);
+            info.setReturnValue(1103578266);
     }
 
     @Inject(at = @At("HEAD"), method = "featureType()Lnet/minecraft/client/renderer/feature/FeatureRendererType;", cancellable = true)
     private void featureType__2101029292(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2101029292L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "radius()F", cancellable = true)
+    private void radius_1201113841(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1201113841L))
+            info.setReturnValue(7.166521E8F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "pose()Lorg/joml/Matrix4fc;", cancellable = true)
+    private void pose__1389138580(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1389138580L))
             info.setReturnValue(null);
     }
 

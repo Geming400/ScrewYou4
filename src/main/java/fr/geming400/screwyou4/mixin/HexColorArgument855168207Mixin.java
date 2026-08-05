@@ -19,15 +19,15 @@ public class HexColorArgument855168207Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "hexColor()Lnet/minecraft/commands/arguments/HexColorArgument;", cancellable = true)
-    private static void hexColor__435207462(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-435207462L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getHexColor(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Ljava/lang/Integer;", cancellable = true)
     private static void getHexColor_543061093(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(543061093L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "hexColor()Lnet/minecraft/commands/arguments/HexColorArgument;", cancellable = true)
+    private static void hexColor__435207462(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-435207462L))
             info.setReturnValue(null);
     }
 

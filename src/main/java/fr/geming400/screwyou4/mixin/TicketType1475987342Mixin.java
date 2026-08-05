@@ -22,19 +22,19 @@ public class TicketType1475987342Mixin {
     @Inject(at = @At("HEAD"), method = "flags()I", cancellable = true)
     private void flags_1514249588(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1514249588L))
-            info.setReturnValue(687107349);
+            info.setReturnValue(719115449);
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1514250084(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1514250084L))
-            info.setReturnValue(483959930);
+            info.setReturnValue(515968030);
     }
 
     @Inject(at = @At("HEAD"), method = "timeout()J", cancellable = true)
     private void timeout_1514250549(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1514250549L))
-            info.setReturnValue(-1161575760409637219L);
+            info.setReturnValue(-1161575760377629119L);
     }
 
     @Inject(at = @At("HEAD"), method = "doesLoad()Z", cancellable = true)

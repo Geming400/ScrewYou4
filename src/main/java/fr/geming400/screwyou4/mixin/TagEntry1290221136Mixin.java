@@ -31,12 +31,6 @@ public class TagEntry1290221136Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "visitRequiredDependencies(Ljava/util/function/Consumer;)V", cancellable = true)
-    private void visitRequiredDependencies_1971237549(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1971237549L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "optionalTag(Lnet/minecraft/resources/Identifier;)Lnet/minecraft/tags/TagEntry;", cancellable = true)
     private static void optionalTag__228118854(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-228118854L))
@@ -47,6 +41,12 @@ public class TagEntry1290221136Mixin {
     private static void optionalElement__228118854(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-228118854L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "visitRequiredDependencies(Ljava/util/function/Consumer;)V", cancellable = true)
+    private void visitRequiredDependencies_1971237549(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1971237549L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "visitOptionalDependencies(Ljava/util/function/Consumer;)V", cancellable = true)

@@ -25,6 +25,12 @@ public class Collector_761536765Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "getTreeReport()Ljava/lang/String;", cancellable = true)
+    private void getTreeReport__373923707(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-373923707L))
+            info.setReturnValue("R OP \uC915FGfJ");
+    }
+
     @Inject(at = @At("HEAD"), method = "getReport()Ljava/lang/String;", cancellable = true)
     private void getReport__373923707(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-373923707L))
@@ -35,12 +41,6 @@ public class Collector_761536765Mixin {
     private void forChild_63187854(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(63187854L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getTreeReport()Ljava/lang/String;", cancellable = true)
-    private void getTreeReport__373923707(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-373923707L))
-            info.setReturnValue("R OP \uC915FGfJ");
     }
 
 

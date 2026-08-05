@@ -7,19 +7,7 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.client.renderer.entity.ParrotRenderer.class)
 public class ParrotRenderer2085580397Mixin {
-        @Inject(at = @At("HEAD"), method = "getTextureLocation(Lnet/minecraft/client/renderer/entity/state/LivingEntityRenderState;)Lnet/minecraft/resources/Identifier;", cancellable = true)
-    private void getTextureLocation__206750266(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-206750266L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getTextureLocation(Lnet/minecraft/client/renderer/entity/state/ParrotRenderState;)Lnet/minecraft/resources/Identifier;", cancellable = true)
-    private void getTextureLocation_1941660(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1941660L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getVariantTexture(Lnet/minecraft/world/entity/animal/parrot/Parrot$Variant;)Lnet/minecraft/resources/Identifier;", cancellable = true)
+        @Inject(at = @At("HEAD"), method = "getVariantTexture(Lnet/minecraft/world/entity/animal/parrot/Parrot$Variant;)Lnet/minecraft/resources/Identifier;", cancellable = true)
     private static void getVariantTexture__1451192275(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1451192275L))
             info.setReturnValue(null);
@@ -52,6 +40,18 @@ public class ParrotRenderer2085580397Mixin {
     @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/ParrotRenderState;", cancellable = true)
     private void createRenderState__13142524(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-13142524L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getTextureLocation(Lnet/minecraft/client/renderer/entity/state/ParrotRenderState;)Lnet/minecraft/resources/Identifier;", cancellable = true)
+    private void getTextureLocation_1941660(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1941660L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getTextureLocation(Lnet/minecraft/client/renderer/entity/state/LivingEntityRenderState;)Lnet/minecraft/resources/Identifier;", cancellable = true)
+    private void getTextureLocation__206750266(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-206750266L))
             info.setReturnValue(null);
     }
 

@@ -28,7 +28,7 @@ public class ConversionParams1894912856Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1933175598(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1933175598L))
-            info.setReturnValue(-2138253300);
+            info.setReturnValue(-1731673700);
     }
 
     @Inject(at = @At("HEAD"), method = "single(Lnet/minecraft/world/entity/Mob;ZZ)Lnet/minecraft/world/entity/ConversionParams;", cancellable = true)
@@ -37,10 +37,10 @@ public class ConversionParams1894912856Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "team()Lnet/minecraft/world/scores/PlayerTeam;", cancellable = true)
-    private void team_694025153(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(694025153L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "preserveCanPickUpLoot()Z", cancellable = true)
+    private void preserveCanPickUpLoot_1933191439(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1933191439L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "keepEquipment()Z", cancellable = true)
@@ -49,10 +49,10 @@ public class ConversionParams1894912856Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "preserveCanPickUpLoot()Z", cancellable = true)
-    private void preserveCanPickUpLoot_1933191439(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1933191439L))
-            info.setReturnValue(true);
+    @Inject(at = @At("HEAD"), method = "team()Lnet/minecraft/world/scores/PlayerTeam;", cancellable = true)
+    private void team_694025153(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(694025153L))
+            info.setReturnValue(null);
     }
 
 

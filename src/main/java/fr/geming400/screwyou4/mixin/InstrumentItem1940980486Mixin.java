@@ -22,7 +22,7 @@ public class InstrumentItem1940980486Mixin {
     @Inject(at = @At("HEAD"), method = "getUseDuration(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/LivingEntity;)I", cancellable = true)
     private void getUseDuration_1043799831(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1043799831L))
-            info.setReturnValue(1484499948);
+            info.setReturnValue(999051648);
     }
 
     @Inject(at = @At("HEAD"), method = "getUseAnimation(Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/world/item/ItemUseAnimation;", cancellable = true)

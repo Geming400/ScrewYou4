@@ -13,9 +13,9 @@ public class Builder1814989350Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "nutrition(I)Lnet/minecraft/world/food/FoodProperties$Builder;", cancellable = true)
-    private void nutrition__1553864805(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1553864805L))
+    @Inject(at = @At("HEAD"), method = "alwaysEdible()Lnet/minecraft/world/food/FoodProperties$Builder;", cancellable = true)
+    private void alwaysEdible_1518681378(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1518681378L))
             info.setReturnValue(null);
     }
 
@@ -25,9 +25,9 @@ public class Builder1814989350Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "alwaysEdible()Lnet/minecraft/world/food/FoodProperties$Builder;", cancellable = true)
-    private void alwaysEdible_1518681378(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1518681378L))
+    @Inject(at = @At("HEAD"), method = "nutrition(I)Lnet/minecraft/world/food/FoodProperties$Builder;", cancellable = true)
+    private void nutrition__1553864805(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1553864805L))
             info.setReturnValue(null);
     }
 

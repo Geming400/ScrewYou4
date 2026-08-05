@@ -22,7 +22,7 @@ public class DustParticleBase362026697Mixin {
     @Inject(at = @At("HEAD"), method = "getQuadSize(F)F", cancellable = true)
     private void getQuadSize_1573157730(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1573157730L))
-            info.setReturnValue(8.28233E8F);
+            info.setReturnValue(7.412871E8F);
     }
 
 

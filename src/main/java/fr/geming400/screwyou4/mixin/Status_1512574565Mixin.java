@@ -19,16 +19,16 @@ public class Status_1512574565Mixin {
             info.setReturnValue(net.minecraft.world.level.block.entity.TestInstanceBlockEntity.Status.CLEARED);
     }
 
-    @Inject(at = @At("HEAD"), method = "byIndex(I)Lnet/minecraft/world/level/block/entity/TestInstanceBlockEntity$Status;", cancellable = true)
-    private static void byIndex_821623646(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(821623646L))
-            info.setReturnValue(net.minecraft.world.level.block.entity.TestInstanceBlockEntity.Status.RUNNING);
-    }
-
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName_377114093(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(377114093L))
             info.setReturnValue("kA\u8CEB%\u803Ahj\uC3C0 &A\uB20DJ\uABE5xhZ3bM@\u7496PE?zLO\u1966F>4/,^eV");
+    }
+
+    @Inject(at = @At("HEAD"), method = "byIndex(I)Lnet/minecraft/world/level/block/entity/TestInstanceBlockEntity$Status;", cancellable = true)
+    private static void byIndex_821623646(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(821623646L))
+            info.setReturnValue(net.minecraft.world.level.block.entity.TestInstanceBlockEntity.Status.RUNNING);
     }
 
 

@@ -22,13 +22,19 @@ public class AmbientParticle844810720Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_883073462(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(883073462L))
-            info.setReturnValue(-691618573);
+            info.setReturnValue(-824186873);
     }
 
     @Inject(at = @At("HEAD"), method = "of(Lnet/minecraft/core/particles/ParticleOptions;F)Ljava/util/List;", cancellable = true)
     private static void of__491358105(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-491358105L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "probability()F", cancellable = true)
+    private void probability_883070083(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(883070083L))
+            info.setReturnValue(8.404112E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "particle()Lnet/minecraft/core/particles/ParticleOptions;", cancellable = true)
@@ -41,12 +47,6 @@ public class AmbientParticle844810720Mixin {
     private void canSpawn__862200521(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-862200521L))
             info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "probability()F", cancellable = true)
-    private void probability_883070083(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(883070083L))
-            info.setReturnValue(9.729795E8F);
     }
 
 

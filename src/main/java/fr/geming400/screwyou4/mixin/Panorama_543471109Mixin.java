@@ -13,14 +13,14 @@ public class Panorama_543471109Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "holdSpin()V", cancellable = true)
-    private void holdSpin_581745847(CallbackInfo info) {
+    @Inject(at = @At("HEAD"), method = "startSpin()V", cancellable = true)
+    private void startSpin_581745847(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(581745847L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "startSpin()V", cancellable = true)
-    private void startSpin_581745847(CallbackInfo info) {
+    @Inject(at = @At("HEAD"), method = "holdSpin()V", cancellable = true)
+    private void holdSpin_581745847(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(581745847L))
             info.cancel();
     }

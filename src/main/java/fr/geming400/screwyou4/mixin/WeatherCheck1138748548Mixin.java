@@ -22,7 +22,7 @@ public class WeatherCheck1138748548Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1177011290(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1177011290L))
-            info.setReturnValue(-779844642);
+            info.setReturnValue(-410088342);
     }
 
     @Inject(at = @At("HEAD"), method = "test(Ljava/lang/Object;)Z", cancellable = true)
@@ -37,15 +37,15 @@ public class WeatherCheck1138748548Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "weather()Lnet/minecraft/world/level/storage/loot/predicates/WeatherCheck$Builder;", cancellable = true)
-    private static void weather_817181251(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(817181251L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
     private void codec__1420365024(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1420365024L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "weather()Lnet/minecraft/world/level/storage/loot/predicates/WeatherCheck$Builder;", cancellable = true)
+    private static void weather_817181251(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(817181251L))
             info.setReturnValue(null);
     }
 

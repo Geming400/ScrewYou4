@@ -10,7 +10,7 @@ public class LinearCongruentialGenerator_102525169Mixin {
         @Inject(at = @At("HEAD"), method = "next(JJ)J", cancellable = true)
     private static void next__863812913(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-863812913L))
-            info.setReturnValue(-5700316010496969538L);
+            info.setReturnValue(-5700316010768190438L);
     }
 
 

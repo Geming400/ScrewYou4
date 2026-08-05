@@ -19,12 +19,6 @@ public class CalibratedSculkSensorBlock_396365552Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "newBlockEntity(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/entity/BlockEntity;", cancellable = true)
-    private void newBlockEntity__1189112104(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1189112104L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "mirror(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/Mirror;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
     private void mirror_1921290620(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1921290620L))
@@ -34,7 +28,7 @@ public class CalibratedSculkSensorBlock_396365552Mixin {
     @Inject(at = @At("HEAD"), method = "getSignal(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/Direction;)I", cancellable = true)
     private void getSignal_563419721(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(563419721L))
-            info.setReturnValue(-1242697692);
+            info.setReturnValue(-719733992);
     }
 
     @Inject(at = @At("HEAD"), method = "getTicker(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/entity/BlockEntityType;)Lnet/minecraft/world/level/block/entity/BlockEntityTicker;", cancellable = true)
@@ -52,7 +46,13 @@ public class CalibratedSculkSensorBlock_396365552Mixin {
     @Inject(at = @At("HEAD"), method = "getActiveTicks()I", cancellable = true)
     private void getActiveTicks_434627797(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(434627797L))
-            info.setReturnValue(1635482093);
+            info.setReturnValue(-2137495503);
+    }
+
+    @Inject(at = @At("HEAD"), method = "newBlockEntity(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/entity/BlockEntity;", cancellable = true)
+    private void newBlockEntity__1189112104(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1189112104L))
+            info.setReturnValue(null);
     }
 
 

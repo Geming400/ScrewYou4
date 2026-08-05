@@ -22,7 +22,7 @@ public class DecodeFromMapFailedProblem_1364058865Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1402321606(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1402321606L))
-            info.setReturnValue(-1816754314);
+            info.setReturnValue(-1493047514);
     }
 
     @Inject(at = @At("HEAD"), method = "error()Lcom/mojang/serialization/DataResult$Error;", cancellable = true)

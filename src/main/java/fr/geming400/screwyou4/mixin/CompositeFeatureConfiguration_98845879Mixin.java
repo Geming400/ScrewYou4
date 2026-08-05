@@ -22,7 +22,7 @@ public class CompositeFeatureConfiguration_98845879Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_137108620(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(137108620L))
-            info.setReturnValue(-2122794224);
+            info.setReturnValue(-2127267024);
     }
 
     @Inject(at = @At("HEAD"), method = "features()Lnet/minecraft/core/HolderSet;", cancellable = true)

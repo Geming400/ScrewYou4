@@ -19,22 +19,22 @@ public class RandomSpreadStructurePlacement1918617814Mixin {
             info.setReturnValue(net.minecraft.world.level.levelgen.structure.placement.RandomSpreadType.TRIANGULAR);
     }
 
+    @Inject(at = @At("HEAD"), method = "getPotentialStructureChunk(JII)Lnet/minecraft/world/level/ChunkPos;", cancellable = true)
+    private void getPotentialStructureChunk__2023739481(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2023739481L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "spacing()I", cancellable = true)
     private void spacing_1956880060(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1956880060L))
-            info.setReturnValue(1719112906);
+            info.setReturnValue(-1666542890);
     }
 
     @Inject(at = @At("HEAD"), method = "separation()I", cancellable = true)
     private void separation_1956880060(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1956880060L))
-            info.setReturnValue(1719112906);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getPotentialStructureChunk(JII)Lnet/minecraft/world/level/ChunkPos;", cancellable = true)
-    private void getPotentialStructureChunk__2023739481(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2023739481L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1666542890);
     }
 
 

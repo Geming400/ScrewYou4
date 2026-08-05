@@ -22,11 +22,11 @@ public class WolfSoundSet_1508532309Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1546795050(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1546795050L))
-            info.setReturnValue(1823660388);
+            info.setReturnValue(1836019388);
     }
 
-    @Inject(at = @At("HEAD"), method = "ambientSound()Lnet/minecraft/core/Holder;", cancellable = true)
-    private void ambientSound__1237559216(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "hurtSound()Lnet/minecraft/core/Holder;", cancellable = true)
+    private void hurtSound__1237559216(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1237559216L))
             info.setReturnValue(null);
     }
@@ -37,20 +37,14 @@ public class WolfSoundSet_1508532309Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "hurtSound()Lnet/minecraft/core/Holder;", cancellable = true)
-    private void hurtSound__1237559216(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "ambientSound()Lnet/minecraft/core/Holder;", cancellable = true)
+    private void ambientSound__1237559216(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1237559216L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "stepSound()Lnet/minecraft/core/Holder;", cancellable = true)
     private void stepSound__1237559216(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1237559216L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "whineSound()Lnet/minecraft/core/Holder;", cancellable = true)
-    private void whineSound__1237559216(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1237559216L))
             info.setReturnValue(null);
     }
@@ -63,6 +57,12 @@ public class WolfSoundSet_1508532309Mixin {
 
     @Inject(at = @At("HEAD"), method = "growlSound()Lnet/minecraft/core/Holder;", cancellable = true)
     private void growlSound__1237559216(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1237559216L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "whineSound()Lnet/minecraft/core/Holder;", cancellable = true)
+    private void whineSound__1237559216(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1237559216L))
             info.setReturnValue(null);
     }

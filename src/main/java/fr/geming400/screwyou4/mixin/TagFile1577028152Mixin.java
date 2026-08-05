@@ -22,7 +22,7 @@ public class TagFile1577028152Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1615290894(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1615290894L))
-            info.setReturnValue(1945298748);
+            info.setReturnValue(1806891548);
     }
 
     @Inject(at = @At("HEAD"), method = "replace()Z", cancellable = true)

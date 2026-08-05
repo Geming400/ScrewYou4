@@ -19,6 +19,12 @@ public class EntityFluidInteraction1817428855Mixin {
             info.setReturnValue(true);
     }
 
+    @Inject(at = @At("HEAD"), method = "isEyeInFluid(Lnet/minecraft/tags/TagKey;)Z", cancellable = true)
+    private void isEyeInFluid__802793634(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-802793634L))
+            info.setReturnValue(true);
+    }
+
     @Inject(at = @At("HEAD"), method = "applyCurrentTo(Lnet/minecraft/tags/TagKey;Lnet/minecraft/world/entity/Entity;D)V", cancellable = true)
     private void applyCurrentTo_1495179925(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1495179925L))
@@ -28,13 +34,7 @@ public class EntityFluidInteraction1817428855Mixin {
     @Inject(at = @At("HEAD"), method = "getFluidHeight(Lnet/minecraft/tags/TagKey;)D", cancellable = true)
     private void getFluidHeight__802814776(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-802814776L))
-            info.setReturnValue(1.4963700654534949E7D);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isEyeInFluid(Lnet/minecraft/tags/TagKey;)Z", cancellable = true)
-    private void isEyeInFluid__802793634(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-802793634L))
-            info.setReturnValue(true);
+            info.setReturnValue(1.3690170065453494E8D);
     }
 
 

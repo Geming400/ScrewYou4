@@ -10,7 +10,7 @@ public class ClientboundSetHeldSlotPacket997071804Mixin {
         @Inject(at = @At("HEAD"), method = "slot()I", cancellable = true)
     private void slot_1035334050(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1035334050L))
-            info.setReturnValue(-939928049);
+            info.setReturnValue(-1318290049);
     }
 
     @Inject(at = @At("HEAD"), method = "type()Lnet/minecraft/network/protocol/PacketType;", cancellable = true)
@@ -34,7 +34,7 @@ public class ClientboundSetHeldSlotPacket997071804Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1035334546(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1035334546L))
-            info.setReturnValue(-1118451539);
+            info.setReturnValue(-1496813539);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/PacketListener;)V", cancellable = true)

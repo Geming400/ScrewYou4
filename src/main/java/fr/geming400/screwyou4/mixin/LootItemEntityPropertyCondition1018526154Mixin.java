@@ -22,7 +22,7 @@ public class LootItemEntityPropertyCondition1018526154Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1056788896(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1056788896L))
-            info.setReturnValue(-409736091);
+            info.setReturnValue(-48469591);
     }
 
     @Inject(at = @At("HEAD"), method = "test(Lnet/minecraft/world/level/storage/loot/LootContext;)Z", cancellable = true)
@@ -43,9 +43,9 @@ public class LootItemEntityPropertyCondition1018526154Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "hasProperties(Lnet/minecraft/world/level/storage/loot/LootContext$EntityTarget;Lnet/minecraft/advancements/predicates/entity/EntityPredicate$Builder;)Lnet/minecraft/world/level/storage/loot/predicates/LootItemCondition$Builder;", cancellable = true)
-    private static void hasProperties_4178943(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(4178943L))
+    @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
+    private void codec__1540587418(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1540587418L))
             info.setReturnValue(null);
     }
 
@@ -55,9 +55,9 @@ public class LootItemEntityPropertyCondition1018526154Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
-    private void codec__1540587418(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1540587418L))
+    @Inject(at = @At("HEAD"), method = "hasProperties(Lnet/minecraft/world/level/storage/loot/LootContext$EntityTarget;Lnet/minecraft/advancements/predicates/entity/EntityPredicate$Builder;)Lnet/minecraft/world/level/storage/loot/predicates/LootItemCondition$Builder;", cancellable = true)
+    private static void hasProperties_4178943(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(4178943L))
             info.setReturnValue(null);
     }
 
@@ -67,16 +67,16 @@ public class LootItemEntityPropertyCondition1018526154Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "entityTarget()Lnet/minecraft/world/level/storage/loot/LootContext$EntityTarget;", cancellable = true)
-    private void entityTarget_508521958(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(508521958L))
-            info.setReturnValue(net.minecraft.world.level.storage.loot.LootContext.EntityTarget.THIS);
-    }
-
     @Inject(at = @At("HEAD"), method = "entityPresent(Lnet/minecraft/world/level/storage/loot/LootContext$EntityTarget;)Lnet/minecraft/world/level/storage/loot/predicates/LootItemCondition$Builder;", cancellable = true)
     private static void entityPresent__763835302(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-763835302L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "entityTarget()Lnet/minecraft/world/level/storage/loot/LootContext$EntityTarget;", cancellable = true)
+    private void entityTarget_508521958(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(508521958L))
+            info.setReturnValue(net.minecraft.world.level.storage.loot.LootContext.EntityTarget.THIS);
     }
 
 

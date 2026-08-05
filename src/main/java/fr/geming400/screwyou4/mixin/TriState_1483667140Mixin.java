@@ -34,7 +34,7 @@ public class TriState_1483667140Mixin {
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName_348206668(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(348206668L))
-            info.setReturnValue(".\u93D32xDe&j:y\u7B2A[\u98DDCd\u926Duy>65bm]iZ\u8B64|\u3ACE\u19B5\u35966%Ymq)hRu=iy\\"");
+            info.setReturnValue(".\u93D32xDe&j:y\u7B2A[\u98DDCd\u926Duy>65bm]iZ\u8B64|\u3ACE\u19B5\u35966%Ymq)hRu=iy\\");
     }
 
 

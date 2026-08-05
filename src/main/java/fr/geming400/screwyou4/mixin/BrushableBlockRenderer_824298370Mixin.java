@@ -31,16 +31,16 @@ public class BrushableBlockRenderer_824298370Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/blockentity/state/BrushableBlockRenderState;", cancellable = true)
-    private void createRenderState__1355541092(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1355541092L))
-            info.setReturnValue(new net.minecraft.client.renderer.blockentity.state.BrushableBlockRenderState());
-    }
-
     @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/blockentity/state/BlockEntityRenderState;", cancellable = true)
     private void createRenderState_1958270795(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1958270795L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/blockentity/state/BrushableBlockRenderState;", cancellable = true)
+    private void createRenderState__1355541092(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1355541092L))
+            info.setReturnValue(new net.minecraft.client.renderer.blockentity.state.BrushableBlockRenderState());
     }
 
 

@@ -19,6 +19,18 @@ public class Info723625548Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "serializeToNetwork(Lnet/minecraft/commands/arguments/EntityArgument$Info$Template;Lnet/minecraft/network/FriendlyByteBuf;)V", cancellable = true)
+    private void serializeToNetwork_47990348(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(47990348L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "serializeToNetwork(Lnet/minecraft/commands/synchronization/ArgumentTypeInfo$Template;Lnet/minecraft/network/FriendlyByteBuf;)V", cancellable = true)
+    private void serializeToNetwork__233744717(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-233744717L))
+            info.cancel();
+    }
+
     @Inject(at = @At("HEAD"), method = "deserializeFromNetwork(Lnet/minecraft/network/FriendlyByteBuf;)Lnet/minecraft/commands/synchronization/ArgumentTypeInfo$Template;", cancellable = true)
     private void deserializeFromNetwork_264244119(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(264244119L))
@@ -29,18 +41,6 @@ public class Info723625548Mixin {
     private void deserializeFromNetwork__351927964(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-351927964L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "serializeToNetwork(Lnet/minecraft/commands/synchronization/ArgumentTypeInfo$Template;Lnet/minecraft/network/FriendlyByteBuf;)V", cancellable = true)
-    private void serializeToNetwork__233744717(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-233744717L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "serializeToNetwork(Lnet/minecraft/commands/arguments/EntityArgument$Info$Template;Lnet/minecraft/network/FriendlyByteBuf;)V", cancellable = true)
-    private void serializeToNetwork_47990348(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(47990348L))
-            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "serializeToJson(Lnet/minecraft/commands/arguments/EntityArgument$Info$Template;Lcom/google/gson/JsonObject;)V", cancellable = true)

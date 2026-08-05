@@ -22,7 +22,7 @@ public class EnchantmentActiveCheck_1104912261Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1143175002(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1143175002L))
-            info.setReturnValue(-1655775996);
+            info.setReturnValue(-1500554396);
     }
 
     @Inject(at = @At("HEAD"), method = "test(Lnet/minecraft/world/level/storage/loot/LootContext;)Z", cancellable = true)
@@ -55,14 +55,14 @@ public class EnchantmentActiveCheck_1104912261Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "enchantmentInactiveCheck()Lnet/minecraft/world/level/storage/loot/predicates/LootItemCondition$Builder;", cancellable = true)
-    private static void enchantmentInactiveCheck__1276692635(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "enchantmentActiveCheck()Lnet/minecraft/world/level/storage/loot/predicates/LootItemCondition$Builder;", cancellable = true)
+    private static void enchantmentActiveCheck__1276692635(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1276692635L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "enchantmentActiveCheck()Lnet/minecraft/world/level/storage/loot/predicates/LootItemCondition$Builder;", cancellable = true)
-    private static void enchantmentActiveCheck__1276692635(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "enchantmentInactiveCheck()Lnet/minecraft/world/level/storage/loot/predicates/LootItemCondition$Builder;", cancellable = true)
+    private static void enchantmentInactiveCheck__1276692635(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1276692635L))
             info.setReturnValue(null);
     }

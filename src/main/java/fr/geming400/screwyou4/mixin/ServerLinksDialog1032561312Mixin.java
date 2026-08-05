@@ -22,12 +22,18 @@ public class ServerLinksDialog1032561312Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1070824054(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1070824054L))
-            info.setReturnValue(1243380829);
+            info.setReturnValue(1463967929);
     }
 
     @Inject(at = @At("HEAD"), method = "common()Lnet/minecraft/server/dialog/CommonDialogData;", cancellable = true)
     private void common__1999558430(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1999558430L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "exitAction()Ljava/util/Optional;", cancellable = true)
+    private void exitAction_1278022734(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1278022734L))
             info.setReturnValue(null);
     }
 
@@ -40,19 +46,13 @@ public class ServerLinksDialog1032561312Mixin {
     @Inject(at = @At("HEAD"), method = "columns()I", cancellable = true)
     private void columns_1070823558(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1070823558L))
-            info.setReturnValue(1520400037);
+            info.setReturnValue(1740987137);
     }
 
     @Inject(at = @At("HEAD"), method = "buttonWidth()I", cancellable = true)
     private void buttonWidth_1070823558(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1070823558L))
-            info.setReturnValue(1520400037);
-    }
-
-    @Inject(at = @At("HEAD"), method = "exitAction()Ljava/util/Optional;", cancellable = true)
-    private void exitAction_1278022734(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1278022734L))
-            info.setReturnValue(null);
+            info.setReturnValue(1740987137);
     }
 
 

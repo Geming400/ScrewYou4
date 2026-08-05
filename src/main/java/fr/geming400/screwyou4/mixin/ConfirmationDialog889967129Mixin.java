@@ -22,7 +22,7 @@ public class ConfirmationDialog889967129Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_928229871(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(928229871L))
-            info.setReturnValue(1149643931);
+            info.setReturnValue(1748398631);
     }
 
     @Inject(at = @At("HEAD"), method = "common()Lnet/minecraft/server/dialog/CommonDialogData;", cancellable = true)
@@ -37,15 +37,9 @@ public class ConfirmationDialog889967129Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
-    private void codec__1669146443(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1669146443L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "mainActions()Ljava/util/List;", cancellable = true)
-    private void mainActions__1778663351(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1778663351L))
+    @Inject(at = @At("HEAD"), method = "noButton()Lnet/minecraft/server/dialog/ActionButton;", cancellable = true)
+    private void noButton__86388784(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-86388784L))
             info.setReturnValue(null);
     }
 
@@ -55,9 +49,15 @@ public class ConfirmationDialog889967129Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "noButton()Lnet/minecraft/server/dialog/ActionButton;", cancellable = true)
-    private void noButton__86388784(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-86388784L))
+    @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
+    private void codec__1669146443(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1669146443L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "mainActions()Ljava/util/List;", cancellable = true)
+    private void mainActions__1778663351(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1778663351L))
             info.setReturnValue(null);
     }
 

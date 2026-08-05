@@ -19,16 +19,16 @@ public class ShipwreckPiece_276786419Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "calculateBeachedPosition(ILnet/minecraft/util/RandomSource;)I", cancellable = true)
-    private void calculateBeachedPosition__1634921697(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1634921697L))
-            info.setReturnValue(588062869);
-    }
-
     @Inject(at = @At("HEAD"), method = "adjustPositionHeight(I)V", cancellable = true)
     private void adjustPositionHeight_1490703390(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1490703390L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "calculateBeachedPosition(ILnet/minecraft/util/RandomSource;)I", cancellable = true)
+    private void calculateBeachedPosition__1634921697(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1634921697L))
+            info.setReturnValue(300604869);
     }
 
 

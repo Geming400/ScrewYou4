@@ -22,7 +22,7 @@ public class EntityTypePredicate383482716Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_421745458(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(421745458L))
-            info.setReturnValue(443314891);
+            info.setReturnValue(1287698591);
     }
 
     @Inject(at = @At("HEAD"), method = "of(Lnet/minecraft/core/HolderGetter;Lnet/minecraft/tags/TagKey;)Lnet/minecraft/advancements/predicates/entity/EntityTypePredicate;", cancellable = true)

@@ -22,31 +22,19 @@ public class Summary1240334836Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1278597578(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1278597578L))
-            info.setReturnValue(765435956);
+            info.setReturnValue(1121594756);
     }
 
     @Inject(at = @At("HEAD"), method = "counts()J", cancellable = true)
     private void counts_1278598043(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1278598043L))
-            info.setReturnValue(-135909590215497085L);
-    }
-
-    @Inject(at = @At("HEAD"), method = "bytesPerSecond()D", cancellable = true)
-    private void bytesPerSecond_1278592277(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1278592277L))
-            info.setReturnValue(6.304836003850917E8D);
-    }
-
-    @Inject(at = @At("HEAD"), method = "topTenContributorsByTotalBytes()Ljava/util/List;", cancellable = true)
-    private void topTenContributorsByTotalBytes__1428295644(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1428295644L))
-            info.setReturnValue(null);
+            info.setReturnValue(-135909589859338285L);
     }
 
     @Inject(at = @At("HEAD"), method = "countsPerSecond()D", cancellable = true)
     private void countsPerSecond_1278592277(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1278592277L))
-            info.setReturnValue(6.304836003850917E8D);
+            info.setReturnValue(9.866424003850917E8D);
     }
 
     @Inject(at = @At("HEAD"), method = "timeSpentInIO()Ljava/time/Duration;", cancellable = true)
@@ -55,10 +43,22 @@ public class Summary1240334836Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "topTenContributorsByTotalBytes()Ljava/util/List;", cancellable = true)
+    private void topTenContributorsByTotalBytes__1428295644(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1428295644L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "totalBytes()J", cancellable = true)
     private void totalBytes_1278598043(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1278598043L))
-            info.setReturnValue(-135909590215497085L);
+            info.setReturnValue(-135909589859338285L);
+    }
+
+    @Inject(at = @At("HEAD"), method = "bytesPerSecond()D", cancellable = true)
+    private void bytesPerSecond_1278592277(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1278592277L))
+            info.setReturnValue(9.866424003850917E8D);
     }
 
 

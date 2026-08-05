@@ -40,7 +40,7 @@ public class ContextEntityType_2129508626Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__2127195929(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2127195929L))
-            info.setReturnValue(1630252923);
+            info.setReturnValue(1478926323);
     }
 
     @Inject(at = @At("HEAD"), method = "valueCodec()Lcom/mojang/serialization/Codec;", cancellable = true)

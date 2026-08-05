@@ -13,15 +13,15 @@ public class BlastingRecipe_2056724376Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "recipeBookCategory()Lnet/minecraft/world/item/crafting/RecipeBookCategory;", cancellable = true)
-    private void recipeBookCategory_1724856942(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1724856942L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getSerializer()Lnet/minecraft/world/item/crafting/RecipeSerializer;", cancellable = true)
     private void getSerializer_1500292419(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1500292419L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "recipeBookCategory()Lnet/minecraft/world/item/crafting/RecipeBookCategory;", cancellable = true)
+    private void recipeBookCategory_1724856942(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1724856942L))
             info.setReturnValue(null);
     }
 

@@ -19,12 +19,6 @@ public class ParameterList2035755234Mixin {
             info.setReturnValue(new java.lang.Object());
     }
 
-    @Inject(at = @At("HEAD"), method = "codec(Lcom/mojang/serialization/MapCodec;)Lcom/mojang/serialization/Codec;", cancellable = true)
-    private static void codec_538845905(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(538845905L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "findValueBruteForce(Lnet/minecraft/world/level/biome/Climate$TargetPoint;)Ljava/lang/Object;", cancellable = true)
     private void findValueBruteForce__1658155621(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1658155621L))
@@ -35,6 +29,12 @@ public class ParameterList2035755234Mixin {
     private void findValueIndex__1658155621(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1658155621L))
             info.setReturnValue(new java.lang.Object());
+    }
+
+    @Inject(at = @At("HEAD"), method = "codec(Lcom/mojang/serialization/MapCodec;)Lcom/mojang/serialization/Codec;", cancellable = true)
+    private static void codec_538845905(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(538845905L))
+            info.setReturnValue(null);
     }
 
 

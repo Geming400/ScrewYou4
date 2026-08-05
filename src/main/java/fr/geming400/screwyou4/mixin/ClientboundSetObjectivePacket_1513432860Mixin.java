@@ -16,7 +16,7 @@ public class ClientboundSetObjectivePacket_1513432860Mixin {
     @Inject(at = @At("HEAD"), method = "getMethod()I", cancellable = true)
     private void getMethod_1551695105(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1551695105L))
-            info.setReturnValue(-407399670);
+            info.setReturnValue(-207078970);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/protocol/game/ClientGamePacketListener;)V", cancellable = true)

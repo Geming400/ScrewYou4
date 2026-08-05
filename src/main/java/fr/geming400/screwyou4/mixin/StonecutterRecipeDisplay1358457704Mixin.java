@@ -28,7 +28,7 @@ public class StonecutterRecipeDisplay1358457704Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1396720446(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1396720446L))
-            info.setReturnValue(-1751989402);
+            info.setReturnValue(-1484686902);
     }
 
     @Inject(at = @At("HEAD"), method = "result()Lnet/minecraft/world/item/crafting/display/SlotDisplay;", cancellable = true)

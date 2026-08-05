@@ -22,13 +22,13 @@ public class ItemBody146236917Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_184499659(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(184499659L))
-            info.setReturnValue(1355304783);
+            info.setReturnValue(1911169683);
     }
 
     @Inject(at = @At("HEAD"), method = "width()I", cancellable = true)
     private void width_184499163(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(184499163L))
-            info.setReturnValue(1558452202);
+            info.setReturnValue(2114317102);
     }
 
     @Inject(at = @At("HEAD"), method = "item()Lnet/minecraft/world/item/ItemStackTemplate;", cancellable = true)
@@ -52,17 +52,17 @@ public class ItemBody146236917Mixin {
     @Inject(at = @At("HEAD"), method = "height()I", cancellable = true)
     private void height_184499163(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(184499163L))
-            info.setReturnValue(1558452202);
-    }
-
-    @Inject(at = @At("HEAD"), method = "showDecorations()Z", cancellable = true)
-    private void showDecorations_184515500(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(184515500L))
-            info.setReturnValue(true);
+            info.setReturnValue(2114317102);
     }
 
     @Inject(at = @At("HEAD"), method = "showTooltip()Z", cancellable = true)
     private void showTooltip_184515500(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(184515500L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "showDecorations()Z", cancellable = true)
+    private void showDecorations_184515500(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(184515500L))
             info.setReturnValue(true);
     }

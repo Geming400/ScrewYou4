@@ -25,16 +25,16 @@ public class RenderBuffers_1294523569Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "stagedVertexBuffer()Lnet/minecraft/client/renderer/StagedVertexBuffer;", cancellable = true)
-    private void stagedVertexBuffer_924596440(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(924596440L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "fixedBufferPack()Lnet/minecraft/client/renderer/SectionBufferBuilderPack;", cancellable = true)
     private void fixedBufferPack_735560627(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(735560627L))
             info.setReturnValue(new net.minecraft.client.renderer.SectionBufferBuilderPack());
+    }
+
+    @Inject(at = @At("HEAD"), method = "stagedVertexBuffer()Lnet/minecraft/client/renderer/StagedVertexBuffer;", cancellable = true)
+    private void stagedVertexBuffer_924596440(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(924596440L))
+            info.setReturnValue(null);
     }
 
 

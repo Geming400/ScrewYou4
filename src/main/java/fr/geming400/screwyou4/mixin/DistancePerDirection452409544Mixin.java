@@ -22,13 +22,13 @@ public class DistancePerDirection452409544Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_490672286(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(490672286L))
-            info.setReturnValue(1643007238);
+            info.setReturnValue(1658904138);
     }
 
     @Inject(at = @At("HEAD"), method = "distance()D", cancellable = true)
     private void distance_490666985(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(490666985L))
-            info.setReturnValue(1.2137930049711351E8D);
+            info.setReturnValue(1.372762004971135E8D);
     }
 
     @Inject(at = @At("HEAD"), method = "direction()Lnet/minecraft/core/Direction;", cancellable = true)

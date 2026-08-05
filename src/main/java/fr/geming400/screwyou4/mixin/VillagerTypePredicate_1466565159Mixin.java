@@ -22,7 +22,7 @@ public class VillagerTypePredicate_1466565159Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1504827900(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1504827900L))
-            info.setReturnValue(388450460);
+            info.setReturnValue(-90874840);
     }
 
     @Inject(at = @At("HEAD"), method = "componentType()Lnet/minecraft/core/component/DataComponentType;", cancellable = true)

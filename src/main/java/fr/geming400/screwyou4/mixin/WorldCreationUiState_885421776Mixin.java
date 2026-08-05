@@ -43,27 +43,21 @@ public class WorldCreationUiState_885421776Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getGameMode()Lnet/minecraft/client/gui/screens/worldselection/WorldCreationUiState$SelectedGameMode;", cancellable = true)
-    private void getGameMode_861967892(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(861967892L))
-            info.setReturnValue(net.minecraft.client.gui.screens.worldselection.WorldCreationUiState.SelectedGameMode.HARDCORE);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getGameRules()Lnet/minecraft/world/level/gamerules/GameRules;", cancellable = true)
-    private void getGameRules__1250967372(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1250967372L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "setGameMode(Lnet/minecraft/client/gui/screens/worldselection/WorldCreationUiState$SelectedGameMode;)V", cancellable = true)
-    private void setGameMode_298312410(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(298312410L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "isAllowCommands()Z", cancellable = true)
+    private void isAllowCommands_923700358(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(923700358L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "setDifficulty(Lnet/minecraft/world/Difficulty;)V", cancellable = true)
     private void setDifficulty_478515621(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(478515621L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "setGameMode(Lnet/minecraft/client/gui/screens/worldselection/WorldCreationUiState$SelectedGameMode;)V", cancellable = true)
+    private void setGameMode_298312410(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(298312410L))
             info.cancel();
     }
 
@@ -73,10 +67,40 @@ public class WorldCreationUiState_885421776Mixin {
             info.setReturnValue(net.minecraft.world.Difficulty.NORMAL);
     }
 
+    @Inject(at = @At("HEAD"), method = "getGameRules()Lnet/minecraft/world/level/gamerules/GameRules;", cancellable = true)
+    private void getGameRules__1250967372(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1250967372L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isHardcore()Z", cancellable = true)
+    private void isHardcore_923700358(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(923700358L))
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getGameMode()Lnet/minecraft/client/gui/screens/worldselection/WorldCreationUiState$SelectedGameMode;", cancellable = true)
+    private void getGameMode_861967892(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(861967892L))
+            info.setReturnValue(net.minecraft.client.gui.screens.worldselection.WorldCreationUiState.SelectedGameMode.HARDCORE);
+    }
+
     @Inject(at = @At("HEAD"), method = "getSettings()Lnet/minecraft/client/gui/screens/worldselection/WorldCreationContext;", cancellable = true)
     private void getSettings__1983596106(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1983596106L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "onChanged()V", cancellable = true)
+    private void onChanged_923696514(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(923696514L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getTargetFolder()Ljava/lang/String;", cancellable = true)
+    private void getTargetFolder__250038696(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-250038696L))
+            info.setReturnValue("4@M!pduVr<!xNBoFzrr\u1400J!|yjY(&A!#{\uB7D2y6j%\u3FA1P;W4SN<q");
     }
 
     @Inject(at = @At("HEAD"), method = "setAllowCommands(Z)V", cancellable = true)
@@ -91,22 +115,16 @@ public class WorldCreationUiState_885421776Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getTargetFolder()Ljava/lang/String;", cancellable = true)
-    private void getTargetFolder__250038696(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-250038696L))
-            info.setReturnValue("4@M!pduVr<!xNBoFzrr\u1400J!|yjY(&A!#{\uB7D2y6j%\u3FA1P;W4SN<q");
-    }
-
     @Inject(at = @At("HEAD"), method = "updateDimensions(Lnet/minecraft/client/gui/screens/worldselection/WorldCreationContext$DimensionsUpdater;)V", cancellable = true)
     private void updateDimensions_1900589874(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1900589874L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getWorldType()Lnet/minecraft/client/gui/screens/worldselection/WorldCreationUiState$WorldTypeEntry;", cancellable = true)
-    private void getWorldType_296202206(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(296202206L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "isBonusChest()Z", cancellable = true)
+    private void isBonusChest_923700358(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(923700358L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "isGenerateStructures()Z", cancellable = true)
@@ -115,20 +133,8 @@ public class WorldCreationUiState_885421776Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "getAltPresetList()Ljava/util/List;", cancellable = true)
-    private void getAltPresetList__1783208705(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1783208705L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "setWorldType(Lnet/minecraft/client/gui/screens/worldselection/WorldCreationUiState$WorldTypeEntry;)V", cancellable = true)
-    private void setWorldType_772176996(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(772176996L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "setGenerateStructures(Z)V", cancellable = true)
-    private void setGenerateStructures_2115038604(CallbackInfo info) {
+    @Inject(at = @At("HEAD"), method = "setBonusChest(Z)V", cancellable = true)
+    private void setBonusChest_2115038604(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(2115038604L))
             info.cancel();
     }
@@ -139,10 +145,16 @@ public class WorldCreationUiState_885421776Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "isBonusChest()Z", cancellable = true)
-    private void isBonusChest_923700358(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(923700358L))
-            info.setReturnValue(false);
+    @Inject(at = @At("HEAD"), method = "setGenerateStructures(Z)V", cancellable = true)
+    private void setGenerateStructures_2115038604(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(2115038604L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "setWorldType(Lnet/minecraft/client/gui/screens/worldselection/WorldCreationUiState$WorldTypeEntry;)V", cancellable = true)
+    private void setWorldType_772176996(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(772176996L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "getPresetEditor()Lnet/minecraft/client/gui/screens/worldselection/PresetEditor;", cancellable = true)
@@ -151,10 +163,10 @@ public class WorldCreationUiState_885421776Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "setBonusChest(Z)V", cancellable = true)
-    private void setBonusChest_2115038604(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(2115038604L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "getWorldType()Lnet/minecraft/client/gui/screens/worldselection/WorldCreationUiState$WorldTypeEntry;", cancellable = true)
+    private void getWorldType_296202206(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(296202206L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "setGameRules(Lnet/minecraft/world/level/gamerules/GameRules;)V", cancellable = true)
@@ -163,22 +175,10 @@ public class WorldCreationUiState_885421776Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "isHardcore()Z", cancellable = true)
-    private void isHardcore_923700358(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(923700358L))
-            info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "onChanged()V", cancellable = true)
-    private void onChanged_923696514(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(923696514L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "isAllowCommands()Z", cancellable = true)
-    private void isAllowCommands_923700358(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(923700358L))
-            info.setReturnValue(false);
+    @Inject(at = @At("HEAD"), method = "getAltPresetList()Ljava/util/List;", cancellable = true)
+    private void getAltPresetList__1783208705(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1783208705L))
+            info.setReturnValue(null);
     }
 
 

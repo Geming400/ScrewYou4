@@ -31,10 +31,10 @@ public class CopperGolemStatueBlockRenderer1060112731Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "modelTransformation(Lnet/minecraft/core/Direction;)Lcom/mojang/math/Transformation;", cancellable = true)
-    private static void modelTransformation__428695436(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-428695436L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/blockentity/state/BlockEntityRenderState;", cancellable = true)
+    private void createRenderState__2100882139(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2100882139L))
+            info.setReturnValue(new net.minecraft.client.renderer.blockentity.state.BlockEntityRenderState());
     }
 
     @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/blockentity/state/CopperGolemStatueRenderState;", cancellable = true)
@@ -43,10 +43,10 @@ public class CopperGolemStatueBlockRenderer1060112731Mixin {
             info.setReturnValue(new net.minecraft.client.renderer.blockentity.state.CopperGolemStatueRenderState());
     }
 
-    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/blockentity/state/BlockEntityRenderState;", cancellable = true)
-    private void createRenderState__2100882139(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2100882139L))
-            info.setReturnValue(new net.minecraft.client.renderer.blockentity.state.BlockEntityRenderState());
+    @Inject(at = @At("HEAD"), method = "modelTransformation(Lnet/minecraft/core/Direction;)Lcom/mojang/math/Transformation;", cancellable = true)
+    private static void modelTransformation__428695436(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-428695436L))
+            info.setReturnValue(null);
     }
 
 

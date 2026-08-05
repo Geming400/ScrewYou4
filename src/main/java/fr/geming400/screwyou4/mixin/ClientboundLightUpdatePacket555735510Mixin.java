@@ -28,13 +28,13 @@ public class ClientboundLightUpdatePacket555735510Mixin {
     @Inject(at = @At("HEAD"), method = "getX()I", cancellable = true)
     private void getX_593997756(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(593997756L))
-            info.setReturnValue(-1856647444);
+            info.setReturnValue(-1815719944);
     }
 
     @Inject(at = @At("HEAD"), method = "getZ()I", cancellable = true)
     private void getZ_593997756(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(593997756L))
-            info.setReturnValue(-1856647444);
+            info.setReturnValue(-1814718444);
     }
 
     @Inject(at = @At("HEAD"), method = "getLightData()Lnet/minecraft/network/protocol/game/ClientboundLightUpdatePacketData;", cancellable = true)

@@ -16,7 +16,7 @@ public class ServerboundCommandSuggestionPacket2143288766Mixin {
     @Inject(at = @At("HEAD"), method = "getId()I", cancellable = true)
     private void getId__2113416284(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2113416284L))
-            info.setReturnValue(-1114081360);
+            info.setReturnValue(-1658049960);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/PacketListener;)V", cancellable = true)

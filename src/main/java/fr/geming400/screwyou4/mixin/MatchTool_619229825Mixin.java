@@ -22,7 +22,7 @@ public class MatchTool_619229825Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_657492566(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(657492566L))
-            info.setReturnValue(105733391);
+            info.setReturnValue(32354091);
     }
 
     @Inject(at = @At("HEAD"), method = "test(Lnet/minecraft/world/level/storage/loot/LootContext;)Z", cancellable = true)

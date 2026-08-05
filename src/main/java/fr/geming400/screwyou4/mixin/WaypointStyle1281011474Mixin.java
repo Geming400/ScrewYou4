@@ -22,7 +22,7 @@ public class WaypointStyle1281011474Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1319274216(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1319274216L))
-            info.setReturnValue(-288105850);
+            info.setReturnValue(-374052550);
     }
 
     @Inject(at = @At("HEAD"), method = "validate()Lcom/mojang/serialization/DataResult;", cancellable = true)
@@ -31,20 +31,26 @@ public class WaypointStyle1281011474Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "farDistance()I", cancellable = true)
-    private void farDistance_1319273720(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1319273720L))
-            info.setReturnValue(-84958431);
+    @Inject(at = @At("HEAD"), method = "spriteLocations()Ljava/util/List;", cancellable = true)
+    private void spriteLocations__1387619006(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1387619006L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "nearDistance()I", cancellable = true)
     private void nearDistance_1319273720(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1319273720L))
-            info.setReturnValue(-84958431);
+            info.setReturnValue(-170905131);
     }
 
-    @Inject(at = @At("HEAD"), method = "spriteLocations()Ljava/util/List;", cancellable = true)
-    private void spriteLocations__1387619006(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "farDistance()I", cancellable = true)
+    private void farDistance_1319273720(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1319273720L))
+            info.setReturnValue(-170905131);
+    }
+
+    @Inject(at = @At("HEAD"), method = "sprites()Ljava/util/List;", cancellable = true)
+    private void sprites__1387619006(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1387619006L))
             info.setReturnValue(null);
     }
@@ -52,12 +58,6 @@ public class WaypointStyle1281011474Mixin {
     @Inject(at = @At("HEAD"), method = "sprite(F)Lnet/minecraft/resources/Identifier;", cancellable = true)
     private void sprite__381328221(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-381328221L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "sprites()Ljava/util/List;", cancellable = true)
-    private void sprites__1387619006(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1387619006L))
             info.setReturnValue(null);
     }
 

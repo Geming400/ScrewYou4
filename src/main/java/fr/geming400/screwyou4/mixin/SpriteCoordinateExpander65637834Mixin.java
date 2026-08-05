@@ -25,14 +25,8 @@ public class SpriteCoordinateExpander65637834Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "addVertex(FFFIFFIIFFF)V", cancellable = true)
-    private void addVertex_1552011376(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1552011376L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "addVertex(FFF)Lcom/mojang/blaze3d/vertex/VertexConsumer;", cancellable = true)
-    private void addVertex_1697081608(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "setNormal(FFF)Lcom/mojang/blaze3d/vertex/VertexConsumer;", cancellable = true)
+    private void setNormal_1697081608(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1697081608L))
             info.setReturnValue(null);
     }
@@ -43,10 +37,16 @@ public class SpriteCoordinateExpander65637834Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "setNormal(FFF)Lcom/mojang/blaze3d/vertex/VertexConsumer;", cancellable = true)
-    private void setNormal_1697081608(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "addVertex(FFF)Lcom/mojang/blaze3d/vertex/VertexConsumer;", cancellable = true)
+    private void addVertex_1697081608(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1697081608L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "addVertex(FFFIFFIIFFF)V", cancellable = true)
+    private void addVertex_1552011376(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1552011376L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "setUv1(II)Lcom/mojang/blaze3d/vertex/VertexConsumer;", cancellable = true)

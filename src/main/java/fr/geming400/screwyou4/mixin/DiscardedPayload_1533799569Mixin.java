@@ -28,7 +28,7 @@ public class DiscardedPayload_1533799569Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1572062310(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1572062310L))
-            info.setReturnValue(1166217395);
+            info.setReturnValue(1402262795);
     }
 
     @Inject(at = @At("HEAD"), method = "id()Lnet/minecraft/resources/Identifier;", cancellable = true)

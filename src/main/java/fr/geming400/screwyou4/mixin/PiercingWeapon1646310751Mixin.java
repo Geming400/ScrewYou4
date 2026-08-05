@@ -22,7 +22,13 @@ public class PiercingWeapon1646310751Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1684573493(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1684573493L))
-            info.setReturnValue(597493214);
+            info.setReturnValue(932502314);
+    }
+
+    @Inject(at = @At("HEAD"), method = "makeHitSound(Lnet/minecraft/world/entity/Entity;)V", cancellable = true)
+    private void makeHitSound_1194586091(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1194586091L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "attack(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/entity/EquipmentSlot;)V", cancellable = true)
@@ -55,22 +61,16 @@ public class PiercingWeapon1646310751Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "canHitEntity(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/entity/Entity;)Z", cancellable = true)
-    private static void canHitEntity__94718610(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-94718610L))
-            info.setReturnValue(false);
-    }
-
     @Inject(at = @At("HEAD"), method = "hitSound()Ljava/util/Optional;", cancellable = true)
     private void hitSound_1891772173(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1891772173L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "makeHitSound(Lnet/minecraft/world/entity/Entity;)V", cancellable = true)
-    private void makeHitSound_1194586091(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1194586091L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "canHitEntity(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/entity/Entity;)Z", cancellable = true)
+    private static void canHitEntity__94718610(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-94718610L))
+            info.setReturnValue(false);
     }
 
 

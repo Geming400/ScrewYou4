@@ -13,12 +13,6 @@ public class HopperBlock_1754432725Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "newBlockEntity(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/entity/BlockEntity;", cancellable = true)
-    private void newBlockEntity_168955069(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(168955069L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getTicker(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/entity/BlockEntityType;)Lnet/minecraft/world/level/block/entity/BlockEntityTicker;", cancellable = true)
     private void getTicker__199034619(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-199034619L))
@@ -28,6 +22,12 @@ public class HopperBlock_1754432725Mixin {
     @Inject(at = @At("HEAD"), method = "getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
     private void getStateForPlacement_495832957(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(495832957L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "newBlockEntity(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/entity/BlockEntity;", cancellable = true)
+    private void newBlockEntity_168955069(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(168955069L))
             info.setReturnValue(null);
     }
 

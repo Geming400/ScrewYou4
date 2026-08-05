@@ -22,7 +22,7 @@ public class TriggerInstance_928296477Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_966559218(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(966559218L))
-            info.setReturnValue(1137697895);
+            info.setReturnValue(811485795);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(Ljava/util/Collection;)Z", cancellable = true)
@@ -43,15 +43,15 @@ public class TriggerInstance_928296477Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "victims()Ljava/util/List;", cancellable = true)
-    private void victims__1740334004(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1740334004L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "channeledLightning([Lnet/minecraft/advancements/predicates/entity/EntityPredicate$Builder;)Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
     private static void channeledLightning__1420373325(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1420373325L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "victims()Ljava/util/List;", cancellable = true)
+    private void victims__1740334004(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1740334004L))
             info.setReturnValue(null);
     }
 

@@ -43,10 +43,10 @@ public class ItemEntityRenderer_177298131Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "renderMultipleFromCount(Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/SubmitNodeCollector;ILnet/minecraft/client/renderer/entity/state/ItemClusterRenderState;Lnet/minecraft/util/RandomSource;)V", cancellable = true)
-    private static void renderMultipleFromCount__1655882847(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1655882847L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/ItemEntityRenderState;", cancellable = true)
+    private void createRenderState_135381033(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(135381033L))
+            info.setReturnValue(new net.minecraft.client.renderer.entity.state.ItemEntityRenderState());
     }
 
     @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/EntityRenderState;", cancellable = true)
@@ -55,10 +55,10 @@ public class ItemEntityRenderer_177298131Mixin {
             info.setReturnValue(new net.minecraft.client.renderer.entity.state.EntityRenderState());
     }
 
-    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/ItemEntityRenderState;", cancellable = true)
-    private void createRenderState_135381033(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(135381033L))
-            info.setReturnValue(new net.minecraft.client.renderer.entity.state.ItemEntityRenderState());
+    @Inject(at = @At("HEAD"), method = "renderMultipleFromCount(Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/SubmitNodeCollector;ILnet/minecraft/client/renderer/entity/state/ItemClusterRenderState;Lnet/minecraft/util/RandomSource;)V", cancellable = true)
+    private static void renderMultipleFromCount__1655882847(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1655882847L))
+            info.cancel();
     }
 
 

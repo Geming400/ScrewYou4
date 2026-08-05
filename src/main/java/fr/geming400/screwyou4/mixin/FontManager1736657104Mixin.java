@@ -19,8 +19,8 @@ public class FontManager1736657104Mixin {
             info.setReturnValue(new java.util.concurrent.CompletableFuture());
     }
 
-    @Inject(at = @At("HEAD"), method = "createFont()Lnet/minecraft/client/gui/Font;", cancellable = true)
-    private void createFont__1292141279(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "createFontFilterFishy()Lnet/minecraft/client/gui/Font;", cancellable = true)
+    private void createFontFilterFishy__1292141279(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1292141279L))
             info.setReturnValue(null);
     }
@@ -31,8 +31,8 @@ public class FontManager1736657104Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "createFontFilterFishy()Lnet/minecraft/client/gui/Font;", cancellable = true)
-    private void createFontFilterFishy__1292141279(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "createFont()Lnet/minecraft/client/gui/Font;", cancellable = true)
+    private void createFont__1292141279(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1292141279L))
             info.setReturnValue(null);
     }

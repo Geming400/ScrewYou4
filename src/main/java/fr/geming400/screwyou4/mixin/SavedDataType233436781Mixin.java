@@ -22,7 +22,7 @@ public class SavedDataType233436781Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_271699027(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(271699027L))
-            info.setReturnValue(-1666664682);
+            info.setReturnValue(-983658982);
     }
 
     @Inject(at = @At("HEAD"), method = "constructor()Ljava/util/function/Supplier;", cancellable = true)

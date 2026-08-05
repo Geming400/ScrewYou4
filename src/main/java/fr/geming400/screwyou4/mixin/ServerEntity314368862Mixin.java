@@ -7,16 +7,10 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.server.level.ServerEntity.class)
 public class ServerEntity314368862Mixin {
-        @Inject(at = @At("HEAD"), method = "getLastSentXRot()F", cancellable = true)
-    private void getLastSentXRot_352628225(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(352628225L))
-            info.setReturnValue(9.1545E8F);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getLastSentYHeadRot()F", cancellable = true)
-    private void getLastSentYHeadRot_352628225(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(352628225L))
-            info.setReturnValue(9.1545E8F);
+        @Inject(at = @At("HEAD"), method = "addPairing(Lnet/minecraft/server/level/ServerPlayer;)V", cancellable = true)
+    private void addPairing__455192991(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-455192991L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "getPositionBase()Lnet/minecraft/world/phys/Vec3;", cancellable = true)
@@ -25,10 +19,22 @@ public class ServerEntity314368862Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "getLastSentYHeadRot()F", cancellable = true)
+    private void getLastSentYHeadRot_352628225(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(352628225L))
+            info.setReturnValue(9.782368E8F);
+    }
+
     @Inject(at = @At("HEAD"), method = "getLastSentYRot()F", cancellable = true)
     private void getLastSentYRot_352628225(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(352628225L))
-            info.setReturnValue(9.1545E8F);
+            info.setReturnValue(9.782368E8F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getLastSentXRot()F", cancellable = true)
+    private void getLastSentXRot_352628225(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(352628225L))
+            info.setReturnValue(9.782368E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "getLastSentMovement()Lnet/minecraft/world/phys/Vec3;", cancellable = true)
@@ -37,9 +43,9 @@ public class ServerEntity314368862Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "addPairing(Lnet/minecraft/server/level/ServerPlayer;)V", cancellable = true)
-    private void addPairing__455192991(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-455192991L))
+    @Inject(at = @At("HEAD"), method = "sendChanges()V", cancellable = true)
+    private void sendChanges_352643601(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(352643601L))
             info.cancel();
     }
 
@@ -52,12 +58,6 @@ public class ServerEntity314368862Mixin {
     @Inject(at = @At("HEAD"), method = "removePairing(Lnet/minecraft/server/level/ServerPlayer;)V", cancellable = true)
     private void removePairing__455192991(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-455192991L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "sendChanges()V", cancellable = true)
-    private void sendChanges_352643601(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(352643601L))
             info.cancel();
     }
 

@@ -28,31 +28,31 @@ public class NineSlice1839483613Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1877746355(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1877746355L))
-            info.setReturnValue(-69791201);
+            info.setReturnValue(-185275201);
     }
 
     @Inject(at = @At("HEAD"), method = "width()I", cancellable = true)
     private void width_1877745859(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1877745859L))
-            info.setReturnValue(108732288);
-    }
-
-    @Inject(at = @At("HEAD"), method = "height()I", cancellable = true)
-    private void height_1877745859(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1877745859L))
-            info.setReturnValue(108732288);
-    }
-
-    @Inject(at = @At("HEAD"), method = "border()Lnet/minecraft/client/resources/metadata/gui/GuiSpriteScaling$NineSlice$Border;", cancellable = true)
-    private void border_998475406(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(998475406L))
-            info.setReturnValue(null);
+            info.setReturnValue(-6751712);
     }
 
     @Inject(at = @At("HEAD"), method = "stretchInner()Z", cancellable = true)
     private void stretchInner_1877762196(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1877762196L))
             info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "height()I", cancellable = true)
+    private void height_1877745859(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1877745859L))
+            info.setReturnValue(-6751712);
+    }
+
+    @Inject(at = @At("HEAD"), method = "border()Lnet/minecraft/client/resources/metadata/gui/GuiSpriteScaling$NineSlice$Border;", cancellable = true)
+    private void border_998475406(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(998475406L))
+            info.setReturnValue(null);
     }
 
 

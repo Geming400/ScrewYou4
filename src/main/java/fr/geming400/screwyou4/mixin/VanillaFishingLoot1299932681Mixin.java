@@ -22,7 +22,7 @@ public class VanillaFishingLoot1299932681Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1338195423(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1338195423L))
-            info.setReturnValue(-1311468562);
+            info.setReturnValue(-1225262762);
     }
 
     @Inject(at = @At("HEAD"), method = "generate(Ljava/util/function/BiConsumer;)V", cancellable = true)
@@ -40,7 +40,7 @@ public class VanillaFishingLoot1299932681Mixin {
     @Inject(at = @At("HEAD"), method = "fishingFishLootTable()Lnet/minecraft/world/level/storage/loot/LootTable$Builder;", cancellable = true)
     private static void fishingFishLootTable_566554793(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(566554793L))
-            info.setReturnValue(new net.minecraft.world.level.storage.loot.LootTable$Builder());
+            info.setReturnValue(new net.minecraft.world.level.storage.loot.LootTable.Builder());
     }
 
 

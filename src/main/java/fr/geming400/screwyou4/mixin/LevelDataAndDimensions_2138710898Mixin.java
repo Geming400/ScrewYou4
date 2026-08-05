@@ -22,7 +22,7 @@ public class LevelDataAndDimensions_2138710898Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__2117993657(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2117993657L))
-            info.setReturnValue(2142667117);
+            info.setReturnValue(-1832675679);
     }
 
     @Inject(at = @At("HEAD"), method = "dimensions()Lnet/minecraft/world/level/levelgen/WorldDimensions$Complete;", cancellable = true)

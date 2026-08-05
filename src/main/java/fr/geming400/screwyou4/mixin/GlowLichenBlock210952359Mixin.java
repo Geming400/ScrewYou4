@@ -13,6 +13,12 @@ public class GlowLichenBlock210952359Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "emission(I)Ljava/util/function/ToIntFunction;", cancellable = true)
+    private static void emission__1812341953(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1812341953L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "getSpreader()Lnet/minecraft/world/level/block/MultifaceSpreader;", cancellable = true)
     private void getSpreader_288895411(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(288895411L))
@@ -35,12 +41,6 @@ public class GlowLichenBlock210952359Mixin {
     private void isValidBonemealTarget_255632117(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(255632117L))
             info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "emission(I)Ljava/util/function/ToIntFunction;", cancellable = true)
-    private static void emission__1812341953(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1812341953L))
-            info.setReturnValue(null);
     }
 
 

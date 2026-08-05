@@ -22,24 +22,12 @@ public class Unbaked903548045Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_941810787(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(941810787L))
-            info.setReturnValue(-713505149);
-    }
-
-    @Inject(at = @At("HEAD"), method = "bake(Lnet/minecraft/client/resources/model/sprite/MaterialBaker;Lnet/minecraft/client/resources/model/ModelDebugName;)Lnet/minecraft/client/renderer/block/FluidModel;", cancellable = true)
-    private void bake_1134561611(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1134561611L))
-            info.setReturnValue(null);
+            info.setReturnValue(-485585949);
     }
 
     @Inject(at = @At("HEAD"), method = "tintSource()Lnet/minecraft/client/color/block/BlockTintSource;", cancellable = true)
     private void tintSource_1125296246(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1125296246L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "stillMaterial()Lnet/minecraft/client/resources/model/sprite/Material;", cancellable = true)
-    private void stillMaterial__1186358134(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1186358134L))
             info.setReturnValue(null);
     }
 
@@ -49,9 +37,21 @@ public class Unbaked903548045Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "stillMaterial()Lnet/minecraft/client/resources/model/sprite/Material;", cancellable = true)
+    private void stillMaterial__1186358134(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1186358134L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "overlayMaterial()Lnet/minecraft/client/resources/model/sprite/Material;", cancellable = true)
     private void overlayMaterial__1186358134(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1186358134L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "bake(Lnet/minecraft/client/resources/model/sprite/MaterialBaker;Lnet/minecraft/client/resources/model/ModelDebugName;)Lnet/minecraft/client/renderer/block/FluidModel;", cancellable = true)
+    private void bake_1134561611(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1134561611L))
             info.setReturnValue(null);
     }
 

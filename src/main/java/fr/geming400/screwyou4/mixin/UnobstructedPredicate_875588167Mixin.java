@@ -28,7 +28,7 @@ public class UnobstructedPredicate_875588167Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_913850908(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(913850908L))
-            info.setReturnValue(285672871);
+            info.setReturnValue(-295164129);
     }
 
     @Inject(at = @At("HEAD"), method = "test(Ljava/lang/Object;Ljava/lang/Object;)Z", cancellable = true)

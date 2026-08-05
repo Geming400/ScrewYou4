@@ -28,7 +28,7 @@ public class Insert_1551014598Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1589277339(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1589277339L))
-            info.setReturnValue(1849372642);
+            info.setReturnValue(1644595842);
     }
 
     @Inject(at = @At("HEAD"), method = "apply(Ljava/util/List;Ljava/util/List;I)Ljava/util/List;", cancellable = true)
@@ -40,7 +40,7 @@ public class Insert_1551014598Mixin {
     @Inject(at = @At("HEAD"), method = "offset()I", cancellable = true)
     private void offset_1589276843(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1589276843L))
-            info.setReturnValue(2027896132);
+            info.setReturnValue(1823119332);
     }
 
 

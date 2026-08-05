@@ -28,7 +28,7 @@ public class UnexpectedNonNumberProblem_520835253Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_559097994(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(559097994L))
-            info.setReturnValue(-1713140474);
+            info.setReturnValue(-1082654674);
     }
 
     @Inject(at = @At("HEAD"), method = "actual()Lnet/minecraft/nbt/TagType;", cancellable = true)

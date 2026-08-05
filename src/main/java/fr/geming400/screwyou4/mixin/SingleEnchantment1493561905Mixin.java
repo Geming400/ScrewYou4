@@ -22,7 +22,7 @@ public class SingleEnchantment1493561905Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1531824647(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1531824647L))
-            info.setReturnValue(-438982073);
+            info.setReturnValue(-89776473);
     }
 
     @Inject(at = @At("HEAD"), method = "level()Lnet/minecraft/util/valueproviders/IntProvider;", cancellable = true)
@@ -37,16 +37,16 @@ public class SingleEnchantment1493561905Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "enchant(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/enchantment/ItemEnchantments$Mutable;Lnet/minecraft/util/RandomSource;Lnet/minecraft/world/DifficultyInstance;)V", cancellable = true)
-    private void enchant__960542860(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-960542860L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "enchantment()Lnet/minecraft/core/Holder;", cancellable = true)
     private void enchantment__1252529619(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1252529619L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "enchant(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/enchantment/ItemEnchantments$Mutable;Lnet/minecraft/util/RandomSource;Lnet/minecraft/world/DifficultyInstance;)V", cancellable = true)
+    private void enchant__960542860(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-960542860L))
+            info.cancel();
     }
 
 

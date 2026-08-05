@@ -22,13 +22,13 @@ public class GuiEntityRenderState1030075169Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1068337911(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1068337911L))
-            info.setReturnValue(-804363567);
+            info.setReturnValue(-1022367);
     }
 
     @Inject(at = @At("HEAD"), method = "scale()F", cancellable = true)
     private void scale_1068334532(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1068334532L))
-            info.setReturnValue(2.81171E7F);
+            info.setReturnValue(8.314583E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "bounds()Lnet/minecraft/client/gui/navigation/ScreenRectangle;", cancellable = true)
@@ -40,37 +40,25 @@ public class GuiEntityRenderState1030075169Mixin {
     @Inject(at = @At("HEAD"), method = "x1()I", cancellable = true)
     private void x1_1068337415(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1068337415L))
-            info.setReturnValue(-527344359);
+            info.setReturnValue(275996841);
     }
 
     @Inject(at = @At("HEAD"), method = "y1()I", cancellable = true)
     private void y1_1068337415(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1068337415L))
-            info.setReturnValue(-527344359);
+            info.setReturnValue(275996841);
     }
 
     @Inject(at = @At("HEAD"), method = "x0()I", cancellable = true)
     private void x0_1068337415(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1068337415L))
-            info.setReturnValue(-527344359);
+            info.setReturnValue(275996841);
     }
 
     @Inject(at = @At("HEAD"), method = "y0()I", cancellable = true)
     private void y0_1068337415(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1068337415L))
-            info.setReturnValue(-527344359);
-    }
-
-    @Inject(at = @At("HEAD"), method = "translation()Lorg/joml/Vector3fc;", cancellable = true)
-    private void translation_1576019874(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1576019874L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "rotation()Lorg/joml/Quaternionfc;", cancellable = true)
-    private void rotation__1035843318(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1035843318L))
-            info.setReturnValue(null);
+            info.setReturnValue(275996841);
     }
 
     @Inject(at = @At("HEAD"), method = "renderState()Lnet/minecraft/client/renderer/entity/state/EntityRenderState;", cancellable = true)
@@ -82,6 +70,18 @@ public class GuiEntityRenderState1030075169Mixin {
     @Inject(at = @At("HEAD"), method = "overrideCameraAngle()Lorg/joml/Quaternionfc;", cancellable = true)
     private void overrideCameraAngle__1035843318(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1035843318L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "rotation()Lorg/joml/Quaternionfc;", cancellable = true)
+    private void rotation__1035843318(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1035843318L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "translation()Lorg/joml/Vector3fc;", cancellable = true)
+    private void translation_1576019874(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1576019874L))
             info.setReturnValue(null);
     }
 

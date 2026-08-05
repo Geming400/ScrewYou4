@@ -13,6 +13,12 @@ public class SlabBlock2131282469Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
+    private void getStateForPlacement_872682702(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(872682702L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "canPlaceLiquid(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/material/Fluid;)Z", cancellable = true)
     private void canPlaceLiquid__1161151995(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1161151995L))
@@ -23,12 +29,6 @@ public class SlabBlock2131282469Mixin {
     private void placeLiquid_1541065893(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1541065893L))
             info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
-    private void getStateForPlacement_872682702(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(872682702L))
-            info.setReturnValue(null);
     }
 
 

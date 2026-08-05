@@ -13,15 +13,15 @@ public class DaylightDetectorBlock296105023Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "newBlockEntity(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/entity/BlockEntity;", cancellable = true)
-    private void newBlockEntity__1289372632(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1289372632L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getTicker(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/entity/BlockEntityType;)Lnet/minecraft/world/level/block/entity/BlockEntityTicker;", cancellable = true)
     private void getTicker__1657362320(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1657362320L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "newBlockEntity(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/entity/BlockEntity;", cancellable = true)
+    private void newBlockEntity__1289372632(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1289372632L))
             info.setReturnValue(null);
     }
 

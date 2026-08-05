@@ -19,9 +19,9 @@ public class FireworkStarRecipe2053031991Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "assemble(Lnet/minecraft/world/item/crafting/RecipeInput;)Lnet/minecraft/world/item/ItemStack;", cancellable = true)
-    private void assemble__2138172194(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2138172194L))
+    @Inject(at = @At("HEAD"), method = "getSerializer()Lnet/minecraft/world/item/crafting/RecipeSerializer;", cancellable = true)
+    private void getSerializer_1496600035(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1496600035L))
             info.setReturnValue(null);
     }
 
@@ -31,9 +31,9 @@ public class FireworkStarRecipe2053031991Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getSerializer()Lnet/minecraft/world/item/crafting/RecipeSerializer;", cancellable = true)
-    private void getSerializer_1496600035(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1496600035L))
+    @Inject(at = @At("HEAD"), method = "assemble(Lnet/minecraft/world/item/crafting/RecipeInput;)Lnet/minecraft/world/item/ItemStack;", cancellable = true)
+    private void assemble__2138172194(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2138172194L))
             info.setReturnValue(null);
     }
 

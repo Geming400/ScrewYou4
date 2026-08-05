@@ -22,13 +22,19 @@ public class RenderState_1234259549Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1272522290(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1272522290L))
-            info.setReturnValue(377264876);
+            info.setReturnValue(-24803424);
     }
 
     @Inject(at = @At("HEAD"), method = "transformation()Lnet/minecraft/world/entity/Display$GenericInterpolator;", cancellable = true)
     private void transformation__1438807223(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1438807223L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "glowColorOverride()I", cancellable = true)
+    private void glowColorOverride_1272521794(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1272521794L))
+            info.setReturnValue(153720065);
     }
 
     @Inject(at = @At("HEAD"), method = "shadowStrength()Lnet/minecraft/world/entity/Display$FloatInterpolator;", cancellable = true)
@@ -43,16 +49,10 @@ public class RenderState_1234259549Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "glowColorOverride()I", cancellable = true)
-    private void glowColorOverride_1272521794(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1272521794L))
-            info.setReturnValue(555788365);
-    }
-
     @Inject(at = @At("HEAD"), method = "brightnessOverride()I", cancellable = true)
     private void brightnessOverride_1272521794(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1272521794L))
-            info.setReturnValue(555788365);
+            info.setReturnValue(153720065);
     }
 
     @Inject(at = @At("HEAD"), method = "billboardConstraints()Lnet/minecraft/world/entity/Display$BillboardConstraints;", cancellable = true)

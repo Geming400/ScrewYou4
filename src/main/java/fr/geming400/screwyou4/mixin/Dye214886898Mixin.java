@@ -28,19 +28,19 @@ public class Dye214886898Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_253149640(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(253149640L))
-            info.setReturnValue(-1382065635);
-    }
-
-    @Inject(at = @At("HEAD"), method = "calculate(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/client/multiplayer/ClientLevel;Lnet/minecraft/world/entity/LivingEntity;)I", cancellable = true)
-    private void calculate__441426328(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-441426328L))
-            info.setReturnValue(-1320214710);
+            info.setReturnValue(-1937684135);
     }
 
     @Inject(at = @At("HEAD"), method = "defaultColor()I", cancellable = true)
     private void defaultColor_253149144(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(253149144L))
-            info.setReturnValue(-746091028);
+            info.setReturnValue(-1301709528);
+    }
+
+    @Inject(at = @At("HEAD"), method = "calculate(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/client/multiplayer/ClientLevel;Lnet/minecraft/world/entity/LivingEntity;)I", cancellable = true)
+    private void calculate__441426328(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-441426328L))
+            info.setReturnValue(-1875833210);
     }
 
 

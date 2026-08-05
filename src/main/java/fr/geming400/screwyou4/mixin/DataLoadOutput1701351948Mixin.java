@@ -22,7 +22,7 @@ public class DataLoadOutput1701351948Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1739614690(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1739614690L))
-            info.setReturnValue(1149481287);
+            info.setReturnValue(995514187);
     }
 
     @Inject(at = @At("HEAD"), method = "cookie()Ljava/lang/Object;", cancellable = true)

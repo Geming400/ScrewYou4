@@ -37,16 +37,34 @@ public class RenderType_1927332982Mixin {
             info.setReturnValue(true);
     }
 
+    @Inject(at = @At("HEAD"), method = "pipeline()Lcom/mojang/blaze3d/pipeline/RenderPipeline;", cancellable = true)
+    private void pipeline__1370226103(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1370226103L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "outline()Ljava/util/Optional;", cancellable = true)
     private void outline__2122172893(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2122172893L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "pipeline()Lcom/mojang/blaze3d/pipeline/RenderPipeline;", cancellable = true)
-    private void pipeline__1370226103(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1370226103L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "primitiveTopology()Lcom/mojang/blaze3d/PrimitiveTopology;", cancellable = true)
+    private void primitiveTopology_686583256(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(686583256L))
+            info.setReturnValue(com.mojang.blaze3d.PrimitiveTopology.DEBUG_LINE_STRIP);
+    }
+
+    @Inject(at = @At("HEAD"), method = "affectsCrumbling()Z", cancellable = true)
+    private void affectsCrumbling_1965611564(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1965611564L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "hasBlending()Z", cancellable = true)
+    private void hasBlending_1965611564(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1965611564L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "canConsolidateConsecutiveGeometry()Z", cancellable = true)
@@ -65,24 +83,6 @@ public class RenderType_1927332982Mixin {
     private void outputTarget_186968740(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(186968740L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "primitiveTopology()Lcom/mojang/blaze3d/PrimitiveTopology;", cancellable = true)
-    private void primitiveTopology_686583256(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(686583256L))
-            info.setReturnValue(com.mojang.blaze3d.PrimitiveTopology.DEBUG_LINE_STRIP);
-    }
-
-    @Inject(at = @At("HEAD"), method = "hasBlending()Z", cancellable = true)
-    private void hasBlending_1965611564(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1965611564L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "affectsCrumbling()Z", cancellable = true)
-    private void affectsCrumbling_1965611564(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1965611564L))
-            info.setReturnValue(true);
     }
 
 

@@ -25,12 +25,6 @@ public class TextureAtlas128851868Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "maxSupportedTextureSize()I", cancellable = true)
-    private void maxSupportedTextureSize_167114114(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(167114114L))
-            info.setReturnValue(-1320114514);
-    }
-
     @Inject(at = @At("HEAD"), method = "clearTextureData()V", cancellable = true)
     private void clearTextureData_167126607(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(167126607L))
@@ -41,6 +35,12 @@ public class TextureAtlas128851868Mixin {
     private void cycleAnimationFrames_167126607(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(167126607L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "maxSupportedTextureSize()I", cancellable = true)
+    private void maxSupportedTextureSize_167114114(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(167114114L))
+            info.setReturnValue(-915734514);
     }
 
     @Inject(at = @At("HEAD"), method = "upload(Lnet/minecraft/client/renderer/texture/SpriteLoader$Preparations;)V", cancellable = true)

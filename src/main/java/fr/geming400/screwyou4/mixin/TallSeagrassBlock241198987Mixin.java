@@ -13,6 +13,12 @@ public class TallSeagrassBlock241198987Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
+    private void getStateForPlacement__1017400780(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1017400780L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "canPlaceLiquid(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/material/Fluid;)Z", cancellable = true)
     private void canPlaceLiquid_1243731819(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1243731819L))
@@ -23,12 +29,6 @@ public class TallSeagrassBlock241198987Mixin {
     private void placeLiquid__349017589(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-349017589L))
             info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
-    private void getStateForPlacement__1017400780(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1017400780L))
-            info.setReturnValue(null);
     }
 
 

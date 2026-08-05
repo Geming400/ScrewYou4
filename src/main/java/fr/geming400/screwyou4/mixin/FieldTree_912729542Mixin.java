@@ -22,13 +22,13 @@ public class FieldTree_912729542Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_950992283(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(950992283L))
-            info.setReturnValue(1966254988);
+            info.setReturnValue(-1940365208);
     }
 
     @Inject(at = @At("HEAD"), method = "depth()I", cancellable = true)
     private void depth_950991787(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(950991787L))
-            info.setReturnValue(2145780278);
+            info.setReturnValue(-1761841718);
     }
 
     @Inject(at = @At("HEAD"), method = "addEntry(Lnet/minecraft/nbt/visitors/FieldSelector;)V", cancellable = true)
@@ -43,6 +43,12 @@ public class FieldTree_912729542Mixin {
             info.setReturnValue(true);
     }
 
+    @Inject(at = @At("HEAD"), method = "createRoot()Lnet/minecraft/nbt/visitors/FieldTree;", cancellable = true)
+    private static void createRoot__1764594822(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1764594822L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "selectedFields()Ljava/util/Map;", cancellable = true)
     private void selectedFields__1091894099(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1091894099L))
@@ -52,12 +58,6 @@ public class FieldTree_912729542Mixin {
     @Inject(at = @At("HEAD"), method = "fieldsToRecurse()Ljava/util/Map;", cancellable = true)
     private void fieldsToRecurse__1091894099(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1091894099L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "createRoot()Lnet/minecraft/nbt/visitors/FieldTree;", cancellable = true)
-    private static void createRoot__1764594822(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1764594822L))
             info.setReturnValue(null);
     }
 

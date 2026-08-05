@@ -37,6 +37,12 @@ public class Pufferfish751423838Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "getBucketItemStack()Lnet/minecraft/world/item/ItemStack;", cancellable = true)
+    private void getBucketItemStack_1274842498(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1274842498L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "setPuffState(I)V", cancellable = true)
     private void setPuffState_1965340810(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1965340810L))
@@ -46,13 +52,7 @@ public class Pufferfish751423838Mixin {
     @Inject(at = @At("HEAD"), method = "getPuffState()I", cancellable = true)
     private void getPuffState_789686084(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(789686084L))
-            info.setReturnValue(1613859439);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getBucketItemStack()Lnet/minecraft/world/item/ItemStack;", cancellable = true)
-    private void getBucketItemStack_1274842498(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1274842498L))
-            info.setReturnValue(null);
+            info.setReturnValue(1713588839);
     }
 
 

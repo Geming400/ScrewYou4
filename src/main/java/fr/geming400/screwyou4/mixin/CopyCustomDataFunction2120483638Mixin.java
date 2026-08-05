@@ -25,15 +25,15 @@ public class CopyCustomDataFunction2120483638Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "copyData(Lnet/minecraft/world/level/storage/loot/LootContext$EntityTarget;)Lnet/minecraft/world/level/storage/loot/functions/CopyCustomDataFunction$Builder;", cancellable = true)
-    private static void copyData__350922889(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-350922889L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "copyData(Lnet/minecraft/world/level/storage/loot/providers/nbt/NbtProvider;)Lnet/minecraft/world/level/storage/loot/functions/CopyCustomDataFunction$Builder;", cancellable = true)
     private static void copyData_133891833(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(133891833L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "copyData(Lnet/minecraft/world/level/storage/loot/LootContext$EntityTarget;)Lnet/minecraft/world/level/storage/loot/functions/CopyCustomDataFunction$Builder;", cancellable = true)
+    private static void copyData__350922889(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-350922889L))
             info.setReturnValue(null);
     }
 

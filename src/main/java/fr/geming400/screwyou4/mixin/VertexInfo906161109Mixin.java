@@ -22,7 +22,7 @@ public class VertexInfo906161109Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_944423851(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(944423851L))
-            info.setReturnValue(-732594123);
+            info.setReturnValue(-551706323);
     }
 
     @Inject(at = @At("HEAD"), method = "select(Lorg/joml/Vector3fc;Lorg/joml/Vector3fc;)Lorg/joml/Vector3f;", cancellable = true)
@@ -37,14 +37,14 @@ public class VertexInfo906161109Mixin {
             info.setReturnValue(net.minecraft.client.renderer.FaceInfo.Extent.MAX_X);
     }
 
-    @Inject(at = @At("HEAD"), method = "yFace()Lnet/minecraft/client/renderer/FaceInfo$Extent;", cancellable = true)
-    private void yFace__499791246(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "xFace()Lnet/minecraft/client/renderer/FaceInfo$Extent;", cancellable = true)
+    private void xFace__499791246(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-499791246L))
             info.setReturnValue(net.minecraft.client.renderer.FaceInfo.Extent.MAX_X);
     }
 
-    @Inject(at = @At("HEAD"), method = "xFace()Lnet/minecraft/client/renderer/FaceInfo$Extent;", cancellable = true)
-    private void xFace__499791246(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "yFace()Lnet/minecraft/client/renderer/FaceInfo$Extent;", cancellable = true)
+    private void yFace__499791246(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-499791246L))
             info.setReturnValue(net.minecraft.client.renderer.FaceInfo.Extent.MAX_X);
     }

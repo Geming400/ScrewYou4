@@ -28,7 +28,7 @@ public class Builder29999494Mixin {
     @Inject(at = @At("HEAD"), method = "effects()Lnet/minecraft/advancements/predicates/MobEffectsPredicate$Builder;", cancellable = true)
     private static void effects__2085857439(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2085857439L))
-            info.setReturnValue(new net.minecraft.advancements.predicates.MobEffectsPredicate$Builder());
+            info.setReturnValue(new net.minecraft.advancements.predicates.MobEffectsPredicate.Builder());
     }
 
 

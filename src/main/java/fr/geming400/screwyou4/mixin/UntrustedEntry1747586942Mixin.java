@@ -28,7 +28,7 @@ public class UntrustedEntry1747586942Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1785849684(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1785849684L))
-            info.setReturnValue(-37935234);
+            info.setReturnValue(-394011534);
     }
 
     @Inject(at = @At("HEAD"), method = "link()Ljava/lang/String;", cancellable = true)

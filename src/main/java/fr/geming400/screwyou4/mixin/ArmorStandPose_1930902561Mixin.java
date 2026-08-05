@@ -22,7 +22,7 @@ public class ArmorStandPose_1930902561Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1969165302(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1969165302L))
-            info.setReturnValue(1409291992);
+            info.setReturnValue(1620981892);
     }
 
     @Inject(at = @At("HEAD"), method = "head()Lnet/minecraft/core/Rotations;", cancellable = true)

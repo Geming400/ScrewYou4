@@ -10,7 +10,7 @@ public class TrueTypeGlyphProviderDefinition_1172795286Mixin {
         @Inject(at = @At("HEAD"), method = "size()F", cancellable = true)
     private void size_1211054648(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1211054648L))
-            info.setReturnValue(5.289367E8F);
+            info.setReturnValue(9.884265E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "type()Lnet/minecraft/client/gui/font/providers/GlyphProviderType;", cancellable = true)
@@ -34,7 +34,7 @@ public class TrueTypeGlyphProviderDefinition_1172795286Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1211058027(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1211058027L))
-            info.setReturnValue(-294287238);
+            info.setReturnValue(165202562);
     }
 
     @Inject(at = @At("HEAD"), method = "location()Lnet/minecraft/resources/Identifier;", cancellable = true)
@@ -64,7 +64,7 @@ public class TrueTypeGlyphProviderDefinition_1172795286Mixin {
     @Inject(at = @At("HEAD"), method = "oversample()F", cancellable = true)
     private void oversample_1211054648(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1211054648L))
-            info.setReturnValue(5.289367E8F);
+            info.setReturnValue(9.884265E8F);
     }
 
 

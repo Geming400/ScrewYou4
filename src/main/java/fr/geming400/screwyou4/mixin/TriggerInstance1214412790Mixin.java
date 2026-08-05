@@ -22,7 +22,7 @@ public class TriggerInstance1214412790Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1252675532(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1252675532L))
-            info.setReturnValue(2124689000);
+            info.setReturnValue(2125650500);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/world/level/block/state/BlockState;)Z", cancellable = true)

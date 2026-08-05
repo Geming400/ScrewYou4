@@ -22,7 +22,7 @@ public class PlayerSprite_148259140Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_186521881(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(186521881L))
-            info.setReturnValue(1473386296);
+            info.setReturnValue(1802221996);
     }
 
     @Inject(at = @At("HEAD"), method = "player()Lnet/minecraft/world/item/component/ResolvableProfile;", cancellable = true)
@@ -31,15 +31,15 @@ public class PlayerSprite_148259140Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
-    private void codec_1884112863(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1884112863L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "fontDescription()Lnet/minecraft/network/chat/FontDescription;", cancellable = true)
     private void fontDescription__911801498(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-911801498L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
+    private void codec_1884112863(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1884112863L))
             info.setReturnValue(null);
     }
 

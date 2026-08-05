@@ -37,9 +37,9 @@ public class Gizmos886011601Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "circle(Lnet/minecraft/world/phys/Vec3;FLnet/minecraft/gizmos/GizmoStyle;)Lnet/minecraft/gizmos/GizmoProperties;", cancellable = true)
-    private static void circle_531051768(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(531051768L))
+    @Inject(at = @At("HEAD"), method = "addGizmo(Lnet/minecraft/gizmos/Gizmo;)Lnet/minecraft/gizmos/GizmoProperties;", cancellable = true)
+    private static void addGizmo__375913675(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-375913675L))
             info.setReturnValue(null);
     }
 
@@ -52,30 +52,6 @@ public class Gizmos886011601Mixin {
     @Inject(at = @At("HEAD"), method = "rect(Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/core/Direction;Lnet/minecraft/gizmos/GizmoStyle;)Lnet/minecraft/gizmos/GizmoProperties;", cancellable = true)
     private static void rect_526890650(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(526890650L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "cuboid(Lnet/minecraft/world/phys/AABB;Lnet/minecraft/gizmos/GizmoStyle;)Lnet/minecraft/gizmos/GizmoProperties;", cancellable = true)
-    private static void cuboid__1636174759(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1636174759L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "cuboid(Lnet/minecraft/core/BlockPos;FLnet/minecraft/gizmos/GizmoStyle;)Lnet/minecraft/gizmos/GizmoProperties;", cancellable = true)
-    private static void cuboid_1157934128(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1157934128L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "cuboid(Lnet/minecraft/core/BlockPos;Lnet/minecraft/gizmos/GizmoStyle;)Lnet/minecraft/gizmos/GizmoProperties;", cancellable = true)
-    private static void cuboid_239166946(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(239166946L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "cuboid(Lnet/minecraft/world/phys/AABB;Lnet/minecraft/gizmos/GizmoStyle;Z)Lnet/minecraft/gizmos/GizmoProperties;", cancellable = true)
-    private static void cuboid__685182635(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-685182635L))
             info.setReturnValue(null);
     }
 
@@ -103,9 +79,33 @@ public class Gizmos886011601Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "addGizmo(Lnet/minecraft/gizmos/Gizmo;)Lnet/minecraft/gizmos/GizmoProperties;", cancellable = true)
-    private static void addGizmo__375913675(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-375913675L))
+    @Inject(at = @At("HEAD"), method = "cuboid(Lnet/minecraft/world/phys/AABB;Lnet/minecraft/gizmos/GizmoStyle;)Lnet/minecraft/gizmos/GizmoProperties;", cancellable = true)
+    private static void cuboid__1636174759(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1636174759L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "cuboid(Lnet/minecraft/core/BlockPos;Lnet/minecraft/gizmos/GizmoStyle;)Lnet/minecraft/gizmos/GizmoProperties;", cancellable = true)
+    private static void cuboid_239166946(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(239166946L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "cuboid(Lnet/minecraft/world/phys/AABB;Lnet/minecraft/gizmos/GizmoStyle;Z)Lnet/minecraft/gizmos/GizmoProperties;", cancellable = true)
+    private static void cuboid__685182635(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-685182635L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "cuboid(Lnet/minecraft/core/BlockPos;FLnet/minecraft/gizmos/GizmoStyle;)Lnet/minecraft/gizmos/GizmoProperties;", cancellable = true)
+    private static void cuboid_1157934128(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1157934128L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "circle(Lnet/minecraft/world/phys/Vec3;FLnet/minecraft/gizmos/GizmoStyle;)Lnet/minecraft/gizmos/GizmoProperties;", cancellable = true)
+    private static void circle_531051768(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(531051768L))
             info.setReturnValue(null);
     }
 

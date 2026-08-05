@@ -28,7 +28,7 @@ public class ClientboundRespawnPacket_527382769Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_565645510(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(565645510L))
-            info.setReturnValue(-2099284615);
+            info.setReturnValue(-2117461515);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/PacketListener;)V", cancellable = true)

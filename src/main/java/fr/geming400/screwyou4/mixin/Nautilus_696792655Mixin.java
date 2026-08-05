@@ -19,6 +19,12 @@ public class Nautilus_696792655Mixin {
             info.setReturnValue(new net.minecraft.world.entity.ai.Brain());
     }
 
+    @Inject(at = @At("HEAD"), method = "getMaxAirSupply()I", cancellable = true)
+    private void getMaxAirSupply_735054900(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(735054900L))
+            info.setReturnValue(-193740741);
+    }
+
     @Inject(at = @At("HEAD"), method = "canBeLeashed()Z", cancellable = true)
     private void canBeLeashed_735071237(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(735071237L))
@@ -29,12 +35,6 @@ public class Nautilus_696792655Mixin {
     private void getDefaultDimensions__545853390(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-545853390L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getMaxAirSupply()I", cancellable = true)
-    private void getMaxAirSupply_735054900(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(735054900L))
-            info.setReturnValue(-363431041);
     }
 
     @Inject(at = @At("HEAD"), method = "getBreedOffspring(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/AgeableMob;)Lnet/minecraft/world/entity/AgeableMob;", cancellable = true)

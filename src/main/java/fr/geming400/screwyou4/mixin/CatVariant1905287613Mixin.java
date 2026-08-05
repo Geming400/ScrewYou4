@@ -22,7 +22,25 @@ public class CatVariant1905287613Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1943550355(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1943550355L))
-            info.setReturnValue(781907713);
+            info.setReturnValue(375035213);
+    }
+
+    @Inject(at = @At("HEAD"), method = "spawnConditions()Lnet/minecraft/world/entity/variant/SpawnPrioritySelectors;", cancellable = true)
+    private void spawnConditions_998625767(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(998625767L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "babyAssetInfo()Lnet/minecraft/core/ClientAsset$ResourceTexture;", cancellable = true)
+    private void babyAssetInfo_653106393(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(653106393L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "adultAssetInfo()Lnet/minecraft/core/ClientAsset$ResourceTexture;", cancellable = true)
+    private void adultAssetInfo_653106393(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(653106393L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "selectors()Ljava/util/List;", cancellable = true)
@@ -34,24 +52,6 @@ public class CatVariant1905287613Mixin {
     @Inject(at = @At("HEAD"), method = "assetInfo(Z)Lnet/minecraft/core/ClientAsset$ResourceTexture;", cancellable = true)
     private void assetInfo_744980367(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(744980367L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "spawnConditions()Lnet/minecraft/world/entity/variant/SpawnPrioritySelectors;", cancellable = true)
-    private void spawnConditions_998625767(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(998625767L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "adultAssetInfo()Lnet/minecraft/core/ClientAsset$ResourceTexture;", cancellable = true)
-    private void adultAssetInfo_653106393(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(653106393L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "babyAssetInfo()Lnet/minecraft/core/ClientAsset$ResourceTexture;", cancellable = true)
-    private void babyAssetInfo_653106393(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(653106393L))
             info.setReturnValue(null);
     }
 

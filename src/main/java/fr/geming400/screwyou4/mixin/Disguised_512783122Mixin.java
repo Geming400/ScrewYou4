@@ -22,7 +22,7 @@ public class Disguised_512783122Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_551045863(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(551045863L))
-            info.setReturnValue(-908585943);
+            info.setReturnValue(-793190543);
     }
 
     @Inject(at = @At("HEAD"), method = "content()Lnet/minecraft/network/chat/Component;", cancellable = true)

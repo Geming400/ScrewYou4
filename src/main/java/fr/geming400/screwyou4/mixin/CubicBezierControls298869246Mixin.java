@@ -22,31 +22,31 @@ public class CubicBezierControls298869246Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_337131988(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(337131988L))
-            info.setReturnValue(825639759);
+            info.setReturnValue(374602159);
     }
 
     @Inject(at = @At("HEAD"), method = "x1()F", cancellable = true)
     private void x1_337128609(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(337128609L))
-            info.setReturnValue(6.716896E8F);
+            info.setReturnValue(2.20652E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "x2()F", cancellable = true)
     private void x2_337128609(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(337128609L))
-            info.setReturnValue(6.716896E8F);
+            info.setReturnValue(2.20652E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "y1()F", cancellable = true)
     private void y1_337128609(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(337128609L))
-            info.setReturnValue(6.716896E8F);
+            info.setReturnValue(2.20652E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "y2()F", cancellable = true)
     private void y2_337128609(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(337128609L))
-            info.setReturnValue(6.716896E8F);
+            info.setReturnValue(2.20652E8F);
     }
 
 

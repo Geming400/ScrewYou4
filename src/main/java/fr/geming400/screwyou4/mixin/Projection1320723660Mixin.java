@@ -31,16 +31,16 @@ public class Projection1320723660Mixin {
             info.setReturnValue(net.minecraft.world.level.levelgen.structure.pools.StructureTemplatePool.Projection.RIGID);
     }
 
-    @Inject(at = @At("HEAD"), method = "getProcessors()Lcom/google/common/collect/ImmutableList;", cancellable = true)
-    private void getProcessors__2006465103(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2006465103L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName_185263189(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(185263189L))
             info.setReturnValue("l\uAED9{'\u73F3^uu\u90722Txt\uC6462H,\u3064J5\u5D32tVyv{a\uA2ED\uCCE0l7\uB65E<;7\u0551'.=\"%|Yoh@z5AN*{tRVKZ\u1444zn\u95BCZ:pki6^ExT+:P\uD632\u4551'gg\u5508F\u1784eyCu$P\uFB8B\u6104z\u53C4");
+    }
+
+    @Inject(at = @At("HEAD"), method = "getProcessors()Lcom/google/common/collect/ImmutableList;", cancellable = true)
+    private void getProcessors__2006465103(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2006465103L))
+            info.setReturnValue(null);
     }
 
 

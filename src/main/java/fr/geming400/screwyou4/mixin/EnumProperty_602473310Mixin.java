@@ -55,28 +55,28 @@ public class EnumProperty_602473310Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "getPossibleValues()Ljava/util/List;", cancellable = true)
+    private void getPossibleValues__2066157171(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2066157171L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "generateHashCode()I", cancellable = true)
     private void generateHashCode_640735555(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(640735555L))
-            info.setReturnValue(934793058);
+            info.setReturnValue(681501558);
     }
 
     @Inject(at = @At("HEAD"), method = "getInternalIndex(Ljava/lang/Comparable;)I", cancellable = true)
     private void getInternalIndex__648534556(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-648534556L))
-            info.setReturnValue(-2145348000);
+            info.setReturnValue(1896327796);
     }
 
     @Inject(at = @At("HEAD"), method = "getInternalIndex(Ljava/lang/Enum;)I", cancellable = true)
     private void getInternalIndex__430739363(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-430739363L))
-            info.setReturnValue(1647260978);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getPossibleValues()Ljava/util/List;", cancellable = true)
-    private void getPossibleValues__2066157171(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2066157171L))
-            info.setReturnValue(null);
+            info.setReturnValue(1393969478);
     }
 
 

@@ -34,7 +34,7 @@ public class EquipmentSlot_380513234Mixin {
     @Inject(at = @At("HEAD"), method = "getId()I", cancellable = true)
     private void getId_418775479(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(418775479L))
-            info.setReturnValue(-506399058);
+            info.setReturnValue(-532552558);
     }
 
     @Inject(at = @At("HEAD"), method = "getType()Lnet/minecraft/world/entity/EquipmentSlot$Type;", cancellable = true)
@@ -46,13 +46,13 @@ public class EquipmentSlot_380513234Mixin {
     @Inject(at = @At("HEAD"), method = "getIndex()I", cancellable = true)
     private void getIndex_418775479(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(418775479L))
-            info.setReturnValue(-505399158);
+            info.setReturnValue(-532552558);
     }
 
     @Inject(at = @At("HEAD"), method = "getIndex(I)I", cancellable = true)
     private void getIndex_1594417712(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1594417712L))
-            info.setReturnValue(-1222066291);
+            info.setReturnValue(-1249219691);
     }
 
     @Inject(at = @At("HEAD"), method = "byName(Ljava/lang/String;)Lnet/minecraft/world/entity/EquipmentSlot;", cancellable = true)
@@ -67,10 +67,10 @@ public class EquipmentSlot_380513234Mixin {
             info.setReturnValue("Q#?Td \u1424t8vW]5\u81F2nvd");
     }
 
-    @Inject(at = @At("HEAD"), method = "getFilterBit(I)I", cancellable = true)
-    private void getFilterBit_1594417712(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1594417712L))
-            info.setReturnValue(-1222066291);
+    @Inject(at = @At("HEAD"), method = "isArmor()Z", cancellable = true)
+    private void isArmor_418791816(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(418791816L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "canIncreaseExperience()Z", cancellable = true)
@@ -79,10 +79,10 @@ public class EquipmentSlot_380513234Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "isArmor()Z", cancellable = true)
-    private void isArmor_418791816(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(418791816L))
-            info.setReturnValue(false);
+    @Inject(at = @At("HEAD"), method = "getFilterBit(I)I", cancellable = true)
+    private void getFilterBit_1594417712(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1594417712L))
+            info.setReturnValue(-1249219691);
     }
 
 

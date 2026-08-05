@@ -22,7 +22,7 @@ public class SetDifficulty523914551Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_562177293(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(562177293L))
-            info.setReturnValue(-227040659);
+            info.setReturnValue(-853724059);
     }
 
     @Inject(at = @At("HEAD"), method = "setup(Lnet/minecraft/server/level/ServerLevel;)Ljava/lang/Object;", cancellable = true)

@@ -16,13 +16,13 @@ public class WalkAnimationState_853043998Mixin {
     @Inject(at = @At("HEAD"), method = "position(F)F", cancellable = true)
     private void position_2064175030(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2064175030L))
-            info.setReturnValue(8.231996E8F);
+            info.setReturnValue(7.16109E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "position()F", cancellable = true)
     private void position_891303360(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(891303360L))
-            info.setReturnValue(8.231996E8F);
+            info.setReturnValue(7.16109E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "stop()V", cancellable = true)
@@ -34,13 +34,13 @@ public class WalkAnimationState_853043998Mixin {
     @Inject(at = @At("HEAD"), method = "speed(F)F", cancellable = true)
     private void speed_2064175030(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2064175030L))
-            info.setReturnValue(8.231996E8F);
+            info.setReturnValue(7.16109E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "speed()F", cancellable = true)
     private void speed_891303360(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(891303360L))
-            info.setReturnValue(8.231996E8F);
+            info.setReturnValue(7.16109E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "setSpeed(F)V", cancellable = true)

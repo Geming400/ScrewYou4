@@ -22,7 +22,7 @@ public class FilteredText1573395704Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1611658446(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1611658446L))
-            info.setReturnValue(-1912466763);
+            info.setReturnValue(1892534833);
     }
 
     @Inject(at = @At("HEAD"), method = "mask()Lnet/minecraft/network/chat/FilterMask;", cancellable = true)
@@ -35,6 +35,18 @@ public class FilteredText1573395704Mixin {
     private void raw_437935233(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(437935233L))
             info.setReturnValue("$*06\u7CF5uji/7#K1@+#7imgVsUAHD!`]dnQN\u7240&7I@l9\u0D86gv\u8DC1tu2nCy:ewaVE=1_+A$QuuhB?lBIs?a\uBB60' d\u3AEDC");
+    }
+
+    @Inject(at = @At("HEAD"), method = "fullyFiltered(Ljava/lang/String;)Lnet/minecraft/server/network/FilteredText;", cancellable = true)
+    private static void fullyFiltered__701930495(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-701930495L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "passThrough(Ljava/lang/String;)Lnet/minecraft/server/network/FilteredText;", cancellable = true)
+    private static void passThrough__701930495(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-701930495L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "isFiltered()Z", cancellable = true)
@@ -53,18 +65,6 @@ public class FilteredText1573395704Mixin {
     private void filteredOrEmpty_437935233(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(437935233L))
             info.setReturnValue("$*06\u7CF5uji/7#K1@+#7imgVsUAHD!`]dnQN\u7240&7I@l9\u0D86gv\u8DC1tu2nCy:ewaVE=1_+A$QuuhB?lBIs?a\uBB60' d\u3AEDC");
-    }
-
-    @Inject(at = @At("HEAD"), method = "passThrough(Ljava/lang/String;)Lnet/minecraft/server/network/FilteredText;", cancellable = true)
-    private static void passThrough__701930495(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-701930495L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "fullyFiltered(Ljava/lang/String;)Lnet/minecraft/server/network/FilteredText;", cancellable = true)
-    private static void fullyFiltered__701930495(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-701930495L))
-            info.setReturnValue(null);
     }
 
 

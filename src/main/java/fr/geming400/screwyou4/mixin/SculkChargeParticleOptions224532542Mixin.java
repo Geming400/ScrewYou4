@@ -22,7 +22,7 @@ public class SculkChargeParticleOptions224532542Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_262795284(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(262795284L))
-            info.setReturnValue(-2008037529);
+            info.setReturnValue(-1847747929);
     }
 
     @Inject(at = @At("HEAD"), method = "getType()Lnet/minecraft/core/particles/ParticleType;", cancellable = true)
@@ -34,7 +34,7 @@ public class SculkChargeParticleOptions224532542Mixin {
     @Inject(at = @At("HEAD"), method = "roll()F", cancellable = true)
     private void roll_262791905(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(262791905L))
-            info.setReturnValue(1.053136E8F);
+            info.setReturnValue(2.656032E8F);
     }
 
 

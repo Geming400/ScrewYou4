@@ -10,7 +10,7 @@ public class ChunkBatchSizeCalculator1574751788Mixin {
         @Inject(at = @At("HEAD"), method = "getDesiredChunksPerTick()F", cancellable = true)
     private void getDesiredChunksPerTick_1613011151(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1613011151L))
-            info.setReturnValue(3.405644E8F);
+            info.setReturnValue(5.564024E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "onBatchFinished(I)V", cancellable = true)

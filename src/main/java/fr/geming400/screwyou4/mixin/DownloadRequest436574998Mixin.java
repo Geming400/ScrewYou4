@@ -22,7 +22,7 @@ public class DownloadRequest436574998Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_474837740(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(474837740L))
-            info.setReturnValue(-801888636);
+            info.setReturnValue(-1211242636);
     }
 
     @Inject(at = @At("HEAD"), method = "hash()Lcom/google/common/hash/HashCode;", cancellable = true)

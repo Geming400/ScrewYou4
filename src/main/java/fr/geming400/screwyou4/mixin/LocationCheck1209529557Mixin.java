@@ -22,7 +22,7 @@ public class LocationCheck1209529557Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1247792299(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1247792299L))
-            info.setReturnValue(2036085571);
+            info.setReturnValue(2123715371);
     }
 
     @Inject(at = @At("HEAD"), method = "test(Ljava/lang/Object;)Z", cancellable = true)

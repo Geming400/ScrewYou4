@@ -22,7 +22,7 @@ public class EntityFlagsPredicate551048793Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_589311535(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(589311535L))
-            info.setReturnValue(-41498556);
+            info.setReturnValue(-42144356);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/world/entity/Entity;)Z", cancellable = true)
@@ -43,14 +43,8 @@ public class EntityFlagsPredicate551048793Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "isInWater()Ljava/util/Optional;", cancellable = true)
-    private void isInWater_796510215(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(796510215L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isOnFire()Ljava/util/Optional;", cancellable = true)
-    private void isOnFire_796510215(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "isBaby()Ljava/util/Optional;", cancellable = true)
+    private void isBaby_796510215(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(796510215L))
             info.setReturnValue(null);
     }
@@ -61,8 +55,14 @@ public class EntityFlagsPredicate551048793Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "isBaby()Ljava/util/Optional;", cancellable = true)
-    private void isBaby_796510215(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "isInWater()Ljava/util/Optional;", cancellable = true)
+    private void isInWater_796510215(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(796510215L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isOnFire()Ljava/util/Optional;", cancellable = true)
+    private void isOnFire_796510215(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(796510215L))
             info.setReturnValue(null);
     }

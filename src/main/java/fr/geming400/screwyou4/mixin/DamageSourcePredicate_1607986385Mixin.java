@@ -22,7 +22,7 @@ public class DamageSourcePredicate_1607986385Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1646249126(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1646249126L))
-            info.setReturnValue(100787908);
+            info.setReturnValue(-391739792);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/server/level/ServerPlayer;Lnet/minecraft/world/damagesource/DamageSource;)Z", cancellable = true)

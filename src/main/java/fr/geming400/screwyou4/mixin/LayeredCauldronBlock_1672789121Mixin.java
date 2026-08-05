@@ -19,15 +19,15 @@ public class LayeredCauldronBlock_1672789121Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "lowerFillLevel(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;)V", cancellable = true)
-    private static void lowerFillLevel_1939603807(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1939603807L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "handlePrecipitation(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/biome/Biome$Precipitation;)V", cancellable = true)
     private void handlePrecipitation_400765186(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(400765186L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "lowerFillLevel(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;)V", cancellable = true)
+    private static void lowerFillLevel_1939603807(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1939603807L))
             info.cancel();
     }
 

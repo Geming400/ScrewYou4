@@ -22,13 +22,13 @@ public class DataVersion71546960Mixin {
     @Inject(at = @At("HEAD"), method = "version()I", cancellable = true)
     private void version_109809206(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(109809206L))
-            info.setReturnValue(2041399441);
+            info.setReturnValue(-2129827955);
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_109809702(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(109809702L))
-            info.setReturnValue(-880783780);
+            info.setReturnValue(-757043880);
     }
 
     @Inject(at = @At("HEAD"), method = "isCompatible(Lnet/minecraft/world/level/storage/DataVersion;)Z", cancellable = true)
@@ -37,16 +37,16 @@ public class DataVersion71546960Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "isSideSeries()Z", cancellable = true)
-    private void isSideSeries_109825543(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(109825543L))
-            info.setReturnValue(false);
-    }
-
     @Inject(at = @At("HEAD"), method = "series()Ljava/lang/String;", cancellable = true)
     private void series__1063913511(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1063913511L))
             info.setReturnValue("V\uD34EjCY*4D^UrRQrw/oi\"\"x\u8A66l:g-N>tq|\u327DVk[\u67FA`!\u0EC41X` V@|A\u59CC\u6DE3B2\"\u49D9\u7713@$\u8B72iU\u2681!\uB1A1*q\u7698x^peM\u44A2\u8ED3s\uAC2Auz=F,5\uB9D1%");
+    }
+
+    @Inject(at = @At("HEAD"), method = "isSideSeries()Z", cancellable = true)
+    private void isSideSeries_109825543(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(109825543L))
+            info.setReturnValue(false);
     }
 
 

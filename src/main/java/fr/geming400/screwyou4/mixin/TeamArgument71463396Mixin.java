@@ -19,12 +19,6 @@ public class TeamArgument71463396Mixin {
             info.setReturnValue(";]8\u8D1D_%>bSeoDBD?u}%\u9D2C\u9AD4o\u248Apje*\"=ObIkD\uD7DC");
     }
 
-    @Inject(at = @At("HEAD"), method = "team()Lnet/minecraft/commands/arguments/TeamArgument;", cancellable = true)
-    private static void team__787533062(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-787533062L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getTeam(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/world/scores/PlayerTeam;", cancellable = true)
     private static void getTeam__407028983(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-407028983L))
@@ -40,6 +34,12 @@ public class TeamArgument71463396Mixin {
     @Inject(at = @At("HEAD"), method = "getExamples()Ljava/util/Collection;", cancellable = true)
     private void getExamples__1742184876(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1742184876L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "team()Lnet/minecraft/commands/arguments/TeamArgument;", cancellable = true)
+    private static void team__787533062(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-787533062L))
             info.setReturnValue(null);
     }
 

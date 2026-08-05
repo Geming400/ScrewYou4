@@ -25,16 +25,16 @@ public class HangingSignRenderer678706946Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/blockentity/state/BlockEntityRenderState;", cancellable = true)
-    private void createRenderState_1812679372(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1812679372L))
-            info.setReturnValue(new net.minecraft.client.renderer.blockentity.state.BlockEntityRenderState());
-    }
-
     @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/blockentity/state/HangingSignRenderState;", cancellable = true)
     private void createRenderState_963383689(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(963383689L))
             info.setReturnValue(new net.minecraft.client.renderer.blockentity.state.HangingSignRenderState());
+    }
+
+    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/blockentity/state/BlockEntityRenderState;", cancellable = true)
+    private void createRenderState_1812679372(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1812679372L))
+            info.setReturnValue(new net.minecraft.client.renderer.blockentity.state.BlockEntityRenderState());
     }
 
 

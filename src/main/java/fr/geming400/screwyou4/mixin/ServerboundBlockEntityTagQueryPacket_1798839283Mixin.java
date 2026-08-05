@@ -34,7 +34,7 @@ public class ServerboundBlockEntityTagQueryPacket_1798839283Mixin {
     @Inject(at = @At("HEAD"), method = "getTransactionId()I", cancellable = true)
     private void getTransactionId_1837101528(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1837101528L))
-            info.setReturnValue(-1184735531);
+            info.setReturnValue(-1221822131);
     }
 
 

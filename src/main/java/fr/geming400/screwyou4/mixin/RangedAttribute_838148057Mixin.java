@@ -10,19 +10,19 @@ public class RangedAttribute_838148057Mixin {
         @Inject(at = @At("HEAD"), method = "sanitizeValue(D)D", cancellable = true)
     private void sanitizeValue_2047430125(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2047430125L))
-            info.setReturnValue(7.448650006113381E8D);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getMaxValue()D", cancellable = true)
-    private void getMaxValue_876405497(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(876405497L))
-            info.setReturnValue(7.448650002738714E8D);
+            info.setReturnValue(5.2955010061133814E8D);
     }
 
     @Inject(at = @At("HEAD"), method = "getMinValue()D", cancellable = true)
     private void getMinValue_876405497(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(876405497L))
-            info.setReturnValue(7.448650002738714E8D);
+            info.setReturnValue(5.2955010027387136E8D);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getMaxValue()D", cancellable = true)
+    private void getMaxValue_876405497(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(876405497L))
+            info.setReturnValue(5.2955010027387136E8D);
     }
 
 

@@ -10,13 +10,13 @@ public class StructureTemplatePool185224987Mixin {
         @Inject(at = @At("HEAD"), method = "size()I", cancellable = true)
     private void size_223487233(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(223487233L))
-            info.setReturnValue(-868598936);
+            info.setReturnValue(-1301257936);
     }
 
     @Inject(at = @At("HEAD"), method = "getMaxSize(Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplateManager;)I", cancellable = true)
     private void getMaxSize__1724874195(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1724874195L))
-            info.setReturnValue(1217291764);
+            info.setReturnValue(784632764);
     }
 
     @Inject(at = @At("HEAD"), method = "getFallback()Lnet/minecraft/core/Holder;", cancellable = true)

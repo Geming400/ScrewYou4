@@ -22,7 +22,7 @@ public class DamageResistant754650992Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_792913734(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(792913734L))
-            info.setReturnValue(862003555);
+            info.setReturnValue(1078172955);
     }
 
     @Inject(at = @At("HEAD"), method = "types()Lnet/minecraft/core/HolderSet;", cancellable = true)

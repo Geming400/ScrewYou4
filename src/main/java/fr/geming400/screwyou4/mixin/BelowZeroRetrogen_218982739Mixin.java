@@ -19,6 +19,12 @@ public class BelowZeroRetrogen_218982739Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "hasBedrockHoles()Z", cancellable = true)
+    private void hasBedrockHoles_257261321(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(257261321L))
+            info.setReturnValue(true);
+    }
+
     @Inject(at = @At("HEAD"), method = "replaceOldBedrock(Lnet/minecraft/world/level/chunk/ProtoChunk;)V", cancellable = true)
     private static void replaceOldBedrock_1208036681(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1208036681L))
@@ -29,12 +35,6 @@ public class BelowZeroRetrogen_218982739Mixin {
     private void applyBedrockMask_1208036433(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1208036433L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "hasBedrockHoles()Z", cancellable = true)
-    private void hasBedrockHoles_257261321(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(257261321L))
-            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "hasBedrockHole(II)Z", cancellable = true)

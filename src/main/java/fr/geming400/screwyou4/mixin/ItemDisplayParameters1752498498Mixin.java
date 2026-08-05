@@ -22,7 +22,7 @@ public class ItemDisplayParameters1752498498Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1790761240(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1790761240L))
-            info.setReturnValue(847426130);
+            info.setReturnValue(1678957730);
     }
 
     @Inject(at = @At("HEAD"), method = "hasPermissions()Z", cancellable = true)
@@ -31,10 +31,10 @@ public class ItemDisplayParameters1752498498Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "holders()Lnet/minecraft/core/HolderLookup$Provider;", cancellable = true)
-    private void holders_1439291165(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1439291165L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "needsUpdate(Lnet/minecraft/world/flag/FeatureFlagSet;ZLnet/minecraft/core/HolderLookup$Provider;)Z", cancellable = true)
+    private void needsUpdate__244012902(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-244012902L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "enabledFeatures()Lnet/minecraft/world/flag/FeatureFlagSet;", cancellable = true)
@@ -43,10 +43,10 @@ public class ItemDisplayParameters1752498498Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "needsUpdate(Lnet/minecraft/world/flag/FeatureFlagSet;ZLnet/minecraft/core/HolderLookup$Provider;)Z", cancellable = true)
-    private void needsUpdate__244012902(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-244012902L))
-            info.setReturnValue(false);
+    @Inject(at = @At("HEAD"), method = "holders()Lnet/minecraft/core/HolderLookup$Provider;", cancellable = true)
+    private void holders_1439291165(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1439291165L))
+            info.setReturnValue(null);
     }
 
 

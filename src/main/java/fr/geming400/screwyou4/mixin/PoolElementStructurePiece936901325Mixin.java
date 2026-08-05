@@ -49,6 +49,12 @@ public class PoolElementStructurePiece936901325Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "addJunction(Lnet/minecraft/world/level/levelgen/structure/pools/JigsawJunction;)V", cancellable = true)
+    private void addJunction_1485815783(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1485815783L))
+            info.cancel();
+    }
+
     @Inject(at = @At("HEAD"), method = "getJunctions()Ljava/util/List;", cancellable = true)
     private void getJunctions__1731729155(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1731729155L))
@@ -58,13 +64,7 @@ public class PoolElementStructurePiece936901325Mixin {
     @Inject(at = @At("HEAD"), method = "getGroundLevelDelta()I", cancellable = true)
     private void getGroundLevelDelta_975163571(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(975163571L))
-            info.setReturnValue(-1877151343);
-    }
-
-    @Inject(at = @At("HEAD"), method = "addJunction(Lnet/minecraft/world/level/levelgen/structure/pools/JigsawJunction;)V", cancellable = true)
-    private void addJunction_1485815783(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1485815783L))
-            info.cancel();
+            info.setReturnValue(1671480753);
     }
 
 

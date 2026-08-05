@@ -10,7 +10,7 @@ public class ComparatorMode362898501Mixin {
         @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__772561970(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-772561970L))
-            info.setReturnValue(",\u94B6jE:\\"");
+            info.setReturnValue(",\u94B6jE:\\");
     }
 
     @Inject(at = @At("HEAD"), method = "values()[Lnet/minecraft/world/level/block/state/properties/ComparatorMode;", cancellable = true)
@@ -28,7 +28,7 @@ public class ComparatorMode362898501Mixin {
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName__772561970(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-772561970L))
-            info.setReturnValue(",\u94B6jE:\\"");
+            info.setReturnValue(",\u94B6jE:\\");
     }
 
 

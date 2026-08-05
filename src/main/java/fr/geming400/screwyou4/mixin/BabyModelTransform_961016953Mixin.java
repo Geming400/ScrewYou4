@@ -22,43 +22,13 @@ public class BabyModelTransform_961016953Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_999279694(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(999279694L))
-            info.setReturnValue(-1593007276);
+            info.setReturnValue(-1712505676);
     }
 
     @Inject(at = @At("HEAD"), method = "apply(Lnet/minecraft/client/model/geom/builders/MeshDefinition;)Lnet/minecraft/client/model/geom/builders/MeshDefinition;", cancellable = true)
     private void apply_1107804511(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1107804511L))
             info.setReturnValue(new net.minecraft.client.model.geom.builders.MeshDefinition());
-    }
-
-    @Inject(at = @At("HEAD"), method = "babyYHeadOffset()F", cancellable = true)
-    private void babyYHeadOffset_999276315(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(999276315L))
-            info.setReturnValue(1.645399E8F);
-    }
-
-    @Inject(at = @At("HEAD"), method = "babyZHeadOffset()F", cancellable = true)
-    private void babyZHeadOffset_999276315(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(999276315L))
-            info.setReturnValue(1.645399E8F);
-    }
-
-    @Inject(at = @At("HEAD"), method = "babyBodyScale()F", cancellable = true)
-    private void babyBodyScale_999276315(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(999276315L))
-            info.setReturnValue(1.645399E8F);
-    }
-
-    @Inject(at = @At("HEAD"), method = "bodyYOffset()F", cancellable = true)
-    private void bodyYOffset_999276315(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(999276315L))
-            info.setReturnValue(1.645399E8F);
-    }
-
-    @Inject(at = @At("HEAD"), method = "babyHeadScale()F", cancellable = true)
-    private void babyHeadScale_999276315(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(999276315L))
-            info.setReturnValue(1.645399E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "scaleHead()Z", cancellable = true)
@@ -71,6 +41,36 @@ public class BabyModelTransform_961016953Mixin {
     private void headParts__868018534(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-868018534L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "babyHeadScale()F", cancellable = true)
+    private void babyHeadScale_999276315(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(999276315L))
+            info.setReturnValue(4.50415E7F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "babyBodyScale()F", cancellable = true)
+    private void babyBodyScale_999276315(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(999276315L))
+            info.setReturnValue(4.50415E7F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "babyZHeadOffset()F", cancellable = true)
+    private void babyZHeadOffset_999276315(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(999276315L))
+            info.setReturnValue(4.50415E7F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "babyYHeadOffset()F", cancellable = true)
+    private void babyYHeadOffset_999276315(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(999276315L))
+            info.setReturnValue(4.50415E7F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "bodyYOffset()F", cancellable = true)
+    private void bodyYOffset_999276315(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(999276315L))
+            info.setReturnValue(4.50415E7F);
     }
 
 

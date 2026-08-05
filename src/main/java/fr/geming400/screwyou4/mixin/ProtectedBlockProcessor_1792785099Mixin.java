@@ -22,7 +22,7 @@ public class ProtectedBlockProcessor_1792785099Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1831047840(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1831047840L))
-            info.setReturnValue(890415192);
+            info.setReturnValue(1125286592);
     }
 
     @Inject(at = @At("HEAD"), method = "processBlock(Lnet/minecraft/world/level/LevelReader;Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplate$StructureBlockInfo;Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructurePlaceSettings;)Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplate$StructureBlockInfo;", cancellable = true)

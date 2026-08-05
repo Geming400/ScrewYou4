@@ -64,7 +64,7 @@ public class MemorySlot663932089Mixin {
     @Inject(at = @At("HEAD"), method = "timeToLive()J", cancellable = true)
     private void timeToLive_702195296(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(702195296L))
-            info.setReturnValue(-8037709688696380582L);
+            info.setReturnValue(-8037709688492618982L);
     }
 
     @Inject(at = @At("HEAD"), method = "hasExpired()Z", cancellable = true)

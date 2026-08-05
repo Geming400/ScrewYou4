@@ -28,7 +28,7 @@ public class ServerboundChatCommandSignedPacket988011502Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1026274244(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1026274244L))
-            info.setReturnValue(-203826107);
+            info.setReturnValue(-746766607);
     }
 
     @Inject(at = @At("HEAD"), method = "command()Ljava/lang/String;", cancellable = true)
@@ -52,7 +52,7 @@ public class ServerboundChatCommandSignedPacket988011502Mixin {
     @Inject(at = @At("HEAD"), method = "salt()J", cancellable = true)
     private void salt_1026274709(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1026274709L))
-            info.setReturnValue(-4066317326386664741L);
+            info.setReturnValue(-4066317326929605241L);
     }
 
     @Inject(at = @At("HEAD"), method = "timeStamp()Ljava/time/Instant;", cancellable = true)
@@ -61,15 +61,15 @@ public class ServerboundChatCommandSignedPacket988011502Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "argumentSignatures()Lnet/minecraft/commands/arguments/ArgumentSignatures;", cancellable = true)
-    private void argumentSignatures__1417833746(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1417833746L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "lastSeenMessages()Lnet/minecraft/network/chat/LastSeenMessages$Update;", cancellable = true)
     private void lastSeenMessages__512559218(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-512559218L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "argumentSignatures()Lnet/minecraft/commands/arguments/ArgumentSignatures;", cancellable = true)
+    private void argumentSignatures__1417833746(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1417833746L))
             info.setReturnValue(null);
     }
 

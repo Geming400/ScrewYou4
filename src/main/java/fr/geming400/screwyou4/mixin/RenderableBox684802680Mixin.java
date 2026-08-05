@@ -28,7 +28,7 @@ public class RenderableBox684802680Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_723065422(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(723065422L))
-            info.setReturnValue(1727901839);
+            info.setReturnValue(1842075239);
     }
 
     @Inject(at = @At("HEAD"), method = "fromCorners(IIIIII)Lnet/minecraft/world/level/block/entity/BoundingBoxRenderable$RenderableBox;", cancellable = true)

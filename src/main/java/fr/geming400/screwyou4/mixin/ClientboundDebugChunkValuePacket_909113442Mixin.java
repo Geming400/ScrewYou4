@@ -28,7 +28,7 @@ public class ClientboundDebugChunkValuePacket_909113442Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_947376183(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(947376183L))
-            info.setReturnValue(-1607462233);
+            info.setReturnValue(-926459733);
     }
 
     @Inject(at = @At("HEAD"), method = "update()Lnet/minecraft/util/debug/DebugSubscription$Update;", cancellable = true)

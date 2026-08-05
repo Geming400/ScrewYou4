@@ -10,7 +10,7 @@ public class LateBoundIdMapper2037150135Mixin {
         @Inject(at = @At("HEAD"), method = "put(Ljava/lang/Object;Ljava/lang/Object;)Lnet/minecraft/util/ExtraCodecs$LateBoundIdMapper;", cancellable = true)
     private void put_1082118441(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1082118441L))
-            info.setReturnValue(new net.minecraft.util.ExtraCodecs$LateBoundIdMapper());
+            info.setReturnValue(new net.minecraft.util.ExtraCodecs.LateBoundIdMapper());
     }
 
     @Inject(at = @At("HEAD"), method = "values()Ljava/util/Set;", cancellable = true)

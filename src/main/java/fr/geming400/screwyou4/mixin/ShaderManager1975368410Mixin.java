@@ -19,16 +19,16 @@ public class ShaderManager1975368410Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getPostChain(Lnet/minecraft/resources/Identifier;Ljava/util/Set;)Lnet/minecraft/client/renderer/PostChain;", cancellable = true)
-    private void getPostChain_1956052166(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1956052166L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getShader(Lnet/minecraft/resources/Identifier;Lcom/mojang/blaze3d/shaders/ShaderType;)Ljava/lang/String;", cancellable = true)
     private void getShader_402324287(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(402324287L))
             info.setReturnValue("IxYvgm0t2Rf=7P\u85C9Q^ibOiTKn';G\uB910\uF9B0?\u4F5AP8\u2B29{I9pk{Tobb\u8AEE_vw3k{'y\uA536/($V#TiLx\"z(v\u8834\u232FB<ae\uB98C.p\u14D84`rj66t");
+    }
+
+    @Inject(at = @At("HEAD"), method = "getPostChain(Lnet/minecraft/resources/Identifier;Ljava/util/Set;)Lnet/minecraft/client/renderer/PostChain;", cancellable = true)
+    private void getPostChain_1956052166(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1956052166L))
+            info.setReturnValue(null);
     }
 
 

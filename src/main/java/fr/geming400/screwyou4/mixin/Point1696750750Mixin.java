@@ -10,7 +10,7 @@ public class Point1696750750Mixin {
         @Inject(at = @At("HEAD"), method = "size()F", cancellable = true)
     private void size_1735010113(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1735010113L))
-            info.setReturnValue(1.249612E8F);
+            info.setReturnValue(9.267768E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
@@ -28,7 +28,7 @@ public class Point1696750750Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1735013492(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1735013492L))
-            info.setReturnValue(998915557);
+            info.setReturnValue(1800731157);
     }
 
     @Inject(at = @At("HEAD"), method = "pos()Lnet/minecraft/world/phys/Vec3;", cancellable = true)
@@ -40,7 +40,7 @@ public class Point1696750750Mixin {
     @Inject(at = @At("HEAD"), method = "color()I", cancellable = true)
     private void color_1735012996(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1735012996L))
-            info.setReturnValue(1275934765);
+            info.setReturnValue(2077750365);
     }
 
 

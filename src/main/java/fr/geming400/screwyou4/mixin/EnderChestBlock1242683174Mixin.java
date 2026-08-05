@@ -19,12 +19,6 @@ public class EnderChestBlock1242683174Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "newBlockEntity(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/entity/BlockEntity;", cancellable = true)
-    private void newBlockEntity__342794481(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-342794481L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getTicker(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/entity/BlockEntityType;)Lnet/minecraft/world/level/block/entity/BlockEntityTicker;", cancellable = true)
     private void getTicker__710784169(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-710784169L))
@@ -41,6 +35,12 @@ public class EnderChestBlock1242683174Mixin {
     private void animateTick_1120081093(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1120081093L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "newBlockEntity(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/entity/BlockEntity;", cancellable = true)
+    private void newBlockEntity__342794481(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-342794481L))
+            info.setReturnValue(null);
     }
 
 

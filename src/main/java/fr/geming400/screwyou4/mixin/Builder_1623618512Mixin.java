@@ -10,7 +10,7 @@ public class Builder_1623618512Mixin {
         @Inject(at = @At("HEAD"), method = "addAll(Lnet/minecraft/client/resources/model/geometry/QuadCollection;)Lnet/minecraft/client/resources/model/geometry/QuadCollection$Builder;", cancellable = true)
     private void addAll_112737655(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(112737655L))
-            info.setReturnValue(new net.minecraft.client.resources.model.geometry.QuadCollection$Builder());
+            info.setReturnValue(new net.minecraft.client.resources.model.geometry.QuadCollection.Builder());
     }
 
     @Inject(at = @At("HEAD"), method = "build()Lnet/minecraft/client/resources/model/geometry/QuadCollection;", cancellable = true)
@@ -19,16 +19,16 @@ public class Builder_1623618512Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "addUnculledFace(Lnet/minecraft/client/resources/model/geometry/BakedQuad;)Lnet/minecraft/client/resources/model/geometry/QuadCollection$Builder;", cancellable = true)
-    private void addUnculledFace_1226965474(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1226965474L))
-            info.setReturnValue(new net.minecraft.client.resources.model.geometry.QuadCollection$Builder());
-    }
-
     @Inject(at = @At("HEAD"), method = "addCulledFace(Lnet/minecraft/core/Direction;Lnet/minecraft/client/resources/model/geometry/BakedQuad;)Lnet/minecraft/client/resources/model/geometry/QuadCollection$Builder;", cancellable = true)
     private void addCulledFace__1552050450(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1552050450L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "addUnculledFace(Lnet/minecraft/client/resources/model/geometry/BakedQuad;)Lnet/minecraft/client/resources/model/geometry/QuadCollection$Builder;", cancellable = true)
+    private void addUnculledFace_1226965474(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1226965474L))
+            info.setReturnValue(new net.minecraft.client.resources.model.geometry.QuadCollection.Builder());
     }
 
 

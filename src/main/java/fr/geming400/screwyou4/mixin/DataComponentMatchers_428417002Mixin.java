@@ -22,7 +22,7 @@ public class DataComponentMatchers_428417002Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_466679743(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(466679743L))
-            info.setReturnValue(-1933834198);
+            info.setReturnValue(-1670060298);
     }
 
     @Inject(at = @At("HEAD"), method = "test(Lnet/minecraft/core/component/DataComponentGetter;)Z", cancellable = true)

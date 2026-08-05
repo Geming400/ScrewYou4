@@ -22,7 +22,7 @@ public class DifficultySettings_1051797771Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1090060512(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1090060512L))
-            info.setReturnValue(2023565805);
+            info.setReturnValue(1577959605);
     }
 
     @Inject(at = @At("HEAD"), method = "difficulty()Lnet/minecraft/world/Difficulty;", cancellable = true)

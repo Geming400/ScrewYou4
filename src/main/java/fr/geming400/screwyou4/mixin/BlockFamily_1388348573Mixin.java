@@ -13,22 +13,22 @@ public class BlockFamily_1388348573Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "shouldGenerateStonecutterRecipe()Z", cancellable = true)
-    private void shouldGenerateStonecutterRecipe_1426627155(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "shouldGenerateModel()Z", cancellable = true)
+    private void shouldGenerateModel_1426627155(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1426627155L))
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "shouldGenerateCraftingRecipe()Z", cancellable = true)
-    private void shouldGenerateCraftingRecipe_1426627155(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1426627155L))
-            info.setReturnValue(true);
+    @Inject(at = @At("HEAD"), method = "getVariants()Ljava/util/Map;", cancellable = true)
+    private void getVariants__616275068(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-616275068L))
+            info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "shouldGenerateSmeltingRecipe()Z", cancellable = true)
-    private void shouldGenerateSmeltingRecipe_1426627155(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1426627155L))
-            info.setReturnValue(true);
+    @Inject(at = @At("HEAD"), method = "getBaseBlock()Lnet/minecraft/world/level/block/Block;", cancellable = true)
+    private void getBaseBlock_631083473(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(631083473L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getRecipeGroupPrefix()Ljava/util/Optional;", cancellable = true)
@@ -43,22 +43,22 @@ public class BlockFamily_1388348573Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "shouldGenerateModel()Z", cancellable = true)
-    private void shouldGenerateModel_1426627155(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "shouldGenerateSmeltingRecipe()Z", cancellable = true)
+    private void shouldGenerateSmeltingRecipe_1426627155(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1426627155L))
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "getBaseBlock()Lnet/minecraft/world/level/block/Block;", cancellable = true)
-    private void getBaseBlock_631083473(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(631083473L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "shouldGenerateStonecutterRecipe()Z", cancellable = true)
+    private void shouldGenerateStonecutterRecipe_1426627155(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1426627155L))
+            info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "getVariants()Ljava/util/Map;", cancellable = true)
-    private void getVariants__616275068(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-616275068L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "shouldGenerateCraftingRecipe()Z", cancellable = true)
+    private void shouldGenerateCraftingRecipe_1426627155(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1426627155L))
+            info.setReturnValue(true);
     }
 
 

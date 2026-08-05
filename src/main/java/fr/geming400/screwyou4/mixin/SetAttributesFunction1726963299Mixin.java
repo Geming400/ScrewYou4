@@ -28,7 +28,7 @@ public class SetAttributesFunction1726963299Mixin {
     @Inject(at = @At("HEAD"), method = "setAttributes()Lnet/minecraft/world/level/storage/loot/functions/SetAttributesFunction$Builder;", cancellable = true)
     private static void setAttributes_1963468492(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1963468492L))
-            info.setReturnValue(new net.minecraft.world.level.storage.loot.functions.SetAttributesFunction$Builder());
+            info.setReturnValue(new net.minecraft.world.level.storage.loot.functions.SetAttributesFunction.Builder());
     }
 
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)

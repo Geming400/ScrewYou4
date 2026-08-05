@@ -13,15 +13,9 @@ public class BlockModelLighter248228985Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getLightCoords(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/client/renderer/block/BlockAndTintGetter;Lnet/minecraft/core/BlockPos;)I", cancellable = true)
-    private void getLightCoords__1896412893(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1896412893L))
-            info.setReturnValue(-945552116);
-    }
-
-    @Inject(at = @At("HEAD"), method = "prepareQuadAmbientOcclusion(Lnet/minecraft/client/renderer/block/BlockAndTintGetter;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/BlockPos;Lnet/minecraft/client/resources/model/geometry/BakedQuad;Lcom/mojang/blaze3d/vertex/QuadInstance;)V", cancellable = true)
-    private void prepareQuadAmbientOcclusion_1996051741(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1996051741L))
+    @Inject(at = @At("HEAD"), method = "prepareQuadFlat(Lnet/minecraft/client/renderer/block/BlockAndTintGetter;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/BlockPos;ILnet/minecraft/client/resources/model/geometry/BakedQuad;Lcom/mojang/blaze3d/vertex/QuadInstance;)V", cancellable = true)
+    private void prepareQuadFlat_492641868(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(492641868L))
             info.cancel();
     }
 
@@ -31,10 +25,16 @@ public class BlockModelLighter248228985Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "prepareQuadFlat(Lnet/minecraft/client/renderer/block/BlockAndTintGetter;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/BlockPos;ILnet/minecraft/client/resources/model/geometry/BakedQuad;Lcom/mojang/blaze3d/vertex/QuadInstance;)V", cancellable = true)
-    private void prepareQuadFlat_492641868(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(492641868L))
+    @Inject(at = @At("HEAD"), method = "prepareQuadAmbientOcclusion(Lnet/minecraft/client/renderer/block/BlockAndTintGetter;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/BlockPos;Lnet/minecraft/client/resources/model/geometry/BakedQuad;Lcom/mojang/blaze3d/vertex/QuadInstance;)V", cancellable = true)
+    private void prepareQuadAmbientOcclusion_1996051741(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1996051741L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getLightCoords(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/client/renderer/block/BlockAndTintGetter;Lnet/minecraft/core/BlockPos;)I", cancellable = true)
+    private void getLightCoords__1896412893(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1896412893L))
+            info.setReturnValue(-1168129416);
     }
 
 

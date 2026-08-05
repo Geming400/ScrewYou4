@@ -22,7 +22,7 @@ public class StructureSettings_756882769Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_795145510(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(795145510L))
-            info.setReturnValue(-1835564783);
+            info.setReturnValue(2006341113);
     }
 
     @Inject(at = @At("HEAD"), method = "step()Lnet/minecraft/world/level/levelgen/GenerationStep$Decoration;", cancellable = true)
@@ -31,16 +31,16 @@ public class StructureSettings_756882769Mixin {
             info.setReturnValue(net.minecraft.world.level.levelgen.GenerationStep.Decoration.RAW_GENERATION);
     }
 
-    @Inject(at = @At("HEAD"), method = "spawnOverrides()Ljava/util/Map;", cancellable = true)
-    private void spawnOverrides__1247740872(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1247740872L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "terrainAdaptation()Lnet/minecraft/world/level/levelgen/structure/TerrainAdjustment;", cancellable = true)
     private void terrainAdaptation_969038911(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(969038911L))
             info.setReturnValue(net.minecraft.world.level.levelgen.structure.TerrainAdjustment.BEARD_BOX);
+    }
+
+    @Inject(at = @At("HEAD"), method = "spawnOverrides()Ljava/util/Map;", cancellable = true)
+    private void spawnOverrides__1247740872(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1247740872L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "biomes()Lnet/minecraft/core/HolderSet;", cancellable = true)

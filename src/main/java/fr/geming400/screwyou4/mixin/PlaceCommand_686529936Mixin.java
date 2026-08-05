@@ -13,28 +13,28 @@ public class PlaceCommand_686529936Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "placeFeature(Lnet/minecraft/commands/CommandSourceStack;Lnet/minecraft/core/Holder$Reference;Lnet/minecraft/core/BlockPos;)I", cancellable = true)
-    private static void placeFeature__1584684709(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1584684709L))
-            info.setReturnValue(-1614934529);
-    }
-
     @Inject(at = @At("HEAD"), method = "placeStructure(Lnet/minecraft/commands/CommandSourceStack;Lnet/minecraft/core/Holder$Reference;Lnet/minecraft/core/BlockPos;)I", cancellable = true)
     private static void placeStructure__1584684709(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1584684709L))
-            info.setReturnValue(-1614934529);
+            info.setReturnValue(-1437087529);
     }
 
     @Inject(at = @At("HEAD"), method = "placeJigsaw(Lnet/minecraft/commands/CommandSourceStack;Lnet/minecraft/core/Holder;Lnet/minecraft/resources/Identifier;ILnet/minecraft/core/BlockPos;)I", cancellable = true)
     private static void placeJigsaw__484008451(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-484008451L))
-            info.setReturnValue(-179597763);
+            info.setReturnValue(-1750763);
     }
 
     @Inject(at = @At("HEAD"), method = "placeTemplate(Lnet/minecraft/commands/CommandSourceStack;Lnet/minecraft/resources/Identifier;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/Rotation;Lnet/minecraft/world/level/block/Mirror;FIZ)I", cancellable = true)
     private static void placeTemplate__373961307(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-373961307L))
-            info.setReturnValue(754058737);
+            info.setReturnValue(931905737);
+    }
+
+    @Inject(at = @At("HEAD"), method = "placeFeature(Lnet/minecraft/commands/CommandSourceStack;Lnet/minecraft/core/Holder$Reference;Lnet/minecraft/core/BlockPos;)I", cancellable = true)
+    private static void placeFeature__1584684709(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1584684709L))
+            info.setReturnValue(-1437087529);
     }
 
 

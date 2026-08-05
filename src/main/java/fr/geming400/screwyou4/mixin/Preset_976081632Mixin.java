@@ -22,7 +22,7 @@ public class Preset_976081632Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1014344373(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1014344373L))
-            info.setReturnValue(-1468865201);
+            info.setReturnValue(-661358401);
     }
 
     @Inject(at = @At("HEAD"), method = "id()Lnet/minecraft/resources/Identifier;", cancellable = true)

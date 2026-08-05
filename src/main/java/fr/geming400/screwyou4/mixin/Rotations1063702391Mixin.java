@@ -22,25 +22,25 @@ public class Rotations1063702391Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1101965133(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1101965133L))
-            info.setReturnValue(-1449344892);
+            info.setReturnValue(-1470210992);
     }
 
     @Inject(at = @At("HEAD"), method = "x()F", cancellable = true)
     private void x_1101961754(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1101961754L))
-            info.setReturnValue(2.509131E8F);
+            info.setReturnValue(2.30047E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "z()F", cancellable = true)
     private void z_1101961754(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1101961754L))
-            info.setReturnValue(2.509131E8F);
+            info.setReturnValue(2.30047E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "y()F", cancellable = true)
     private void y_1101961754(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1101961754L))
-            info.setReturnValue(2.509131E8F);
+            info.setReturnValue(2.30047E8F);
     }
 
 

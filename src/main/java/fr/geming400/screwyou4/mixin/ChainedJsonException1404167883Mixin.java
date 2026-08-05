@@ -19,16 +19,16 @@ public class ChainedJsonException1404167883Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "setFilenameAndFlush(Ljava/lang/String;)V", cancellable = true)
-    private void setFilenameAndFlush__1738438264(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1738438264L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "forException(Ljava/lang/Exception;)Lnet/minecraft/server/ChainedJsonException;", cancellable = true)
     private static void forException__85851932(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-85851932L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "setFilenameAndFlush(Ljava/lang/String;)V", cancellable = true)
+    private void setFilenameAndFlush__1738438264(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1738438264L))
+            info.cancel();
     }
 
 

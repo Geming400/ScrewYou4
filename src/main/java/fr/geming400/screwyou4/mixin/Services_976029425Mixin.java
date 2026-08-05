@@ -22,7 +22,7 @@ public class Services_976029425Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1014292166(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1014292166L))
-            info.setReturnValue(2029554585);
+            info.setReturnValue(1659753685);
     }
 
     @Inject(at = @At("HEAD"), method = "isEnabled()Z", cancellable = true)

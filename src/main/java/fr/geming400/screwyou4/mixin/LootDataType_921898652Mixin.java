@@ -28,7 +28,13 @@ public class LootDataType_921898652Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_960161393(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(960161393L))
-            info.setReturnValue(-1203476813);
+            info.setReturnValue(-876778313);
+    }
+
+    @Inject(at = @At("HEAD"), method = "registryKey()Lnet/minecraft/resources/ResourceKey;", cancellable = true)
+    private void registryKey_1730389964(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1730389964L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/Codec;", cancellable = true)
@@ -37,9 +43,9 @@ public class LootDataType_921898652Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "registryKey()Lnet/minecraft/resources/ResourceKey;", cancellable = true)
-    private void registryKey_1730389964(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1730389964L))
+    @Inject(at = @At("HEAD"), method = "contextGetter()Lnet/minecraft/world/level/storage/loot/LootDataType$ContextGetter;", cancellable = true)
+    private void contextGetter__1803561594(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1803561594L))
             info.setReturnValue(null);
     }
 
@@ -53,12 +59,6 @@ public class LootDataType_921898652Mixin {
     private void runValidation__30324582(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-30324582L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "contextGetter()Lnet/minecraft/world/level/storage/loot/LootDataType$ContextGetter;", cancellable = true)
-    private void contextGetter__1803561594(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1803561594L))
-            info.setReturnValue(null);
     }
 
 

@@ -22,7 +22,7 @@ public class Markings1834146116Mixin {
     @Inject(at = @At("HEAD"), method = "getId()I", cancellable = true)
     private void getId_1872408362(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1872408362L))
-            info.setReturnValue(-309042786);
+            info.setReturnValue(-352820286);
     }
 
     @Inject(at = @At("HEAD"), method = "byId(I)Lnet/minecraft/world/entity/animal/equine/Markings;", cancellable = true)

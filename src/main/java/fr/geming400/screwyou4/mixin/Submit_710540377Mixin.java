@@ -28,7 +28,7 @@ public class Submit_710540377Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_748803118(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(748803118L))
-            info.setReturnValue(-766000426);
+            info.setReturnValue(-886625426);
     }
 
     @Inject(at = @At("HEAD"), method = "featureType()Lnet/minecraft/client/renderer/feature/FeatureRendererType;", cancellable = true)

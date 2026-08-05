@@ -22,7 +22,7 @@ public class SpriteMapper1664471996Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1702734738(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1702734738L))
-            info.setReturnValue(-1376607883);
+            info.setReturnValue(-1174332583);
     }
 
     @Inject(at = @At("HEAD"), method = "apply(Lnet/minecraft/resources/Identifier;)Lnet/minecraft/client/resources/model/sprite/SpriteId;", cancellable = true)
@@ -37,15 +37,15 @@ public class SpriteMapper1664471996Mixin {
             info.setReturnValue("gF[\u2817l'k zbAYG>zqjxU?%\uA926:h\uA983=LKI@}(Nr");
     }
 
-    @Inject(at = @At("HEAD"), method = "sheet()Lnet/minecraft/resources/Identifier;", cancellable = true)
-    private void sheet__778594557(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-778594557L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "defaultNamespaceApply(Ljava/lang/String;)Lnet/minecraft/client/resources/model/sprite/SpriteId;", cancellable = true)
     private void defaultNamespaceApply_1126309302(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1126309302L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "sheet()Lnet/minecraft/resources/Identifier;", cancellable = true)
+    private void sheet__778594557(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-778594557L))
             info.setReturnValue(null);
     }
 

@@ -22,7 +22,7 @@ public class MapFrame102449367Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_140712109(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(140712109L))
-            info.setReturnValue(-280050549);
+            info.setReturnValue(-255316649);
     }
 
     @Inject(at = @At("HEAD"), method = "getId()Ljava/lang/String;", cancellable = true)
@@ -37,16 +37,16 @@ public class MapFrame102449367Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "entityId()I", cancellable = true)
-    private void entityId_140711613(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(140711613L))
-            info.setReturnValue(-1652834624);
-    }
-
     @Inject(at = @At("HEAD"), method = "rotation()I", cancellable = true)
     private void rotation_140711613(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(140711613L))
-            info.setReturnValue(-1652834624);
+            info.setReturnValue(-1628100724);
+    }
+
+    @Inject(at = @At("HEAD"), method = "entityId()I", cancellable = true)
+    private void entityId_140711613(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(140711613L))
+            info.setReturnValue(-1628100724);
     }
 
     @Inject(at = @At("HEAD"), method = "frameId(Lnet/minecraft/core/BlockPos;)Ljava/lang/String;", cancellable = true)

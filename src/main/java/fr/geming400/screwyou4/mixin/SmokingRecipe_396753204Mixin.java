@@ -13,15 +13,15 @@ public class SmokingRecipe_396753204Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "recipeBookCategory()Lnet/minecraft/world/item/crafting/RecipeBookCategory;", cancellable = true)
-    private void recipeBookCategory_64885770(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(64885770L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getSerializer()Lnet/minecraft/world/item/crafting/RecipeSerializer;", cancellable = true)
     private void getSerializer__159678753(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-159678753L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "recipeBookCategory()Lnet/minecraft/world/item/crafting/RecipeBookCategory;", cancellable = true)
+    private void recipeBookCategory_64885770(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(64885770L))
             info.setReturnValue(null);
     }
 

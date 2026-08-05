@@ -31,26 +31,26 @@ public class EqualSpacingLayout103762973Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "removeChildren()V", cancellable = true)
-    private void removeChildren_142037712(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(142037712L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "visitChildren(Ljava/util/function/Consumer;)V", cancellable = true)
     private void visitChildren_784779386(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(784779386L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "newChildLayoutSettings()Lnet/minecraft/client/gui/layouts/LayoutSettings;", cancellable = true)
-    private void newChildLayoutSettings_38783178(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(38783178L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "removeChildren()V", cancellable = true)
+    private void removeChildren_142037712(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(142037712L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "defaultChildLayoutSetting()Lnet/minecraft/client/gui/layouts/LayoutSettings;", cancellable = true)
     private void defaultChildLayoutSetting_38783178(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(38783178L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "newChildLayoutSettings()Lnet/minecraft/client/gui/layouts/LayoutSettings;", cancellable = true)
+    private void newChildLayoutSettings_38783178(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(38783178L))
             info.setReturnValue(null);
     }

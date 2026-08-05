@@ -13,16 +13,16 @@ public class SmeltingRecipe_606732435Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "recipeBookCategory()Lnet/minecraft/world/item/crafting/RecipeBookCategory;", cancellable = true)
-    private void recipeBookCategory_274865001(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(274865001L))
-            info.setReturnValue(new net.minecraft.world.item.crafting.RecipeBookCategory());
-    }
-
     @Inject(at = @At("HEAD"), method = "getSerializer()Lnet/minecraft/world/item/crafting/RecipeSerializer;", cancellable = true)
     private void getSerializer_50300478(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(50300478L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "recipeBookCategory()Lnet/minecraft/world/item/crafting/RecipeBookCategory;", cancellable = true)
+    private void recipeBookCategory_274865001(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(274865001L))
+            info.setReturnValue(new net.minecraft.world.item.crafting.RecipeBookCategory());
     }
 
 

@@ -25,18 +25,6 @@ public class ObjectiveCriteriaArgument201827815Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "criteria()Lnet/minecraft/commands/arguments/ObjectiveCriteriaArgument;", cancellable = true)
-    private static void criteria_1120241636(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1120241636L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getCriteria(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/world/scores/criteria/ObjectiveCriteria;", cancellable = true)
-    private static void getCriteria_830554850(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(830554850L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "listSuggestions(Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
     private void listSuggestions_442751257(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(442751257L))
@@ -46,6 +34,18 @@ public class ObjectiveCriteriaArgument201827815Mixin {
     @Inject(at = @At("HEAD"), method = "getExamples()Ljava/util/Collection;", cancellable = true)
     private void getExamples__1611820457(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1611820457L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "criteria()Lnet/minecraft/commands/arguments/ObjectiveCriteriaArgument;", cancellable = true)
+    private static void criteria_1120241636(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1120241636L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getCriteria(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/world/scores/criteria/ObjectiveCriteria;", cancellable = true)
+    private static void getCriteria_830554850(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(830554850L))
             info.setReturnValue(null);
     }
 

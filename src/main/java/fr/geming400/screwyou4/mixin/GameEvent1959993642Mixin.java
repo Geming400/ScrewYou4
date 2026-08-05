@@ -22,7 +22,7 @@ public class GameEvent1959993642Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1998256384(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1998256384L))
-            info.setReturnValue(264309067);
+            info.setReturnValue(156197867);
     }
 
     @Inject(at = @At("HEAD"), method = "bootstrap(Lnet/minecraft/core/Registry;)Lnet/minecraft/core/Holder;", cancellable = true)
@@ -34,7 +34,7 @@ public class GameEvent1959993642Mixin {
     @Inject(at = @At("HEAD"), method = "notificationRadius()I", cancellable = true)
     private void notificationRadius_1998255888(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1998255888L))
-            info.setReturnValue(-1108475009);
+            info.setReturnValue(-1216586209);
     }
 
 

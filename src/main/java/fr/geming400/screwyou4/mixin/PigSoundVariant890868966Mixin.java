@@ -22,7 +22,7 @@ public class PigSoundVariant890868966Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_929131708(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(929131708L))
-            info.setReturnValue(695419863);
+            info.setReturnValue(902083063);
     }
 
     @Inject(at = @At("HEAD"), method = "adultSounds()Lnet/minecraft/world/entity/animal/pig/PigSoundVariant$PigSoundSet;", cancellable = true)

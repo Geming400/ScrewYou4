@@ -22,12 +22,12 @@ public class SpriteId449035254Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_487297996(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(487297996L))
-            info.setReturnValue(-705322749);
+            info.setReturnValue(-503483649);
     }
 
-    @Inject(at = @At("HEAD"), method = "renderType(Ljava/util/function/Function;)Lnet/minecraft/client/renderer/rendertype/RenderType;", cancellable = true)
-    private void renderType_550521455(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(550521455L))
+    @Inject(at = @At("HEAD"), method = "atlasLocation()Lnet/minecraft/resources/Identifier;", cancellable = true)
+    private void atlasLocation__1994031299(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1994031299L))
             info.setReturnValue(null);
     }
 
@@ -37,9 +37,9 @@ public class SpriteId449035254Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "atlasLocation()Lnet/minecraft/resources/Identifier;", cancellable = true)
-    private void atlasLocation__1994031299(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1994031299L))
+    @Inject(at = @At("HEAD"), method = "renderType(Ljava/util/function/Function;)Lnet/minecraft/client/renderer/rendertype/RenderType;", cancellable = true)
+    private void renderType_550521455(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(550521455L))
             info.setReturnValue(null);
     }
 

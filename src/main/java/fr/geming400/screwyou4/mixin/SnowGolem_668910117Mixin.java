@@ -19,26 +19,14 @@ public class SnowGolem_668910117Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "isSensitiveToWater()Z", cancellable = true)
-    private void isSensitiveToWater_707188699(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(707188699L))
-            info.setReturnValue(false);
-    }
-
     @Inject(at = @At("HEAD"), method = "createAttributes()Lnet/minecraft/world/entity/ai/attributes/AttributeSupplier$Builder;", cancellable = true)
     private static void createAttributes__31308329(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-31308329L))
-            info.setReturnValue(new net.minecraft.world.entity.ai.attributes.AttributeSupplier$Builder());
+            info.setReturnValue(new net.minecraft.world.entity.ai.attributes.AttributeSupplier.Builder());
     }
 
-    @Inject(at = @At("HEAD"), method = "getLeashOffset()Lnet/minecraft/world/phys/Vec3;", cancellable = true)
-    private void getLeashOffset_1766639645(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1766639645L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "hasPumpkin()Z", cancellable = true)
-    private void hasPumpkin_707188699(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "isSensitiveToWater()Z", cancellable = true)
+    private void isSensitiveToWater_707188699(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(707188699L))
             info.setReturnValue(false);
     }
@@ -49,16 +37,28 @@ public class SnowGolem_668910117Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "readyForShearing()Z", cancellable = true)
-    private void readyForShearing_707188699(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "hasPumpkin()Z", cancellable = true)
+    private void hasPumpkin_707188699(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(707188699L))
             info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getLeashOffset()Lnet/minecraft/world/phys/Vec3;", cancellable = true)
+    private void getLeashOffset_1766639645(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1766639645L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "performRangedAttack(Lnet/minecraft/world/entity/LivingEntity;F)V", cancellable = true)
     private void performRangedAttack_2075168285(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(2075168285L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "readyForShearing()Z", cancellable = true)
+    private void readyForShearing_707188699(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(707188699L))
+            info.setReturnValue(false);
     }
 
 

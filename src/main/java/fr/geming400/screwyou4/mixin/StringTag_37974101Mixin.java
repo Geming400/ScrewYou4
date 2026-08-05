@@ -28,7 +28,7 @@ public class StringTag_37974101Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_76236842(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(76236842L))
-            info.setReturnValue(330248688);
+            info.setReturnValue(-47434312);
     }
 
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/nbt/StringTag;", cancellable = true)
@@ -82,7 +82,7 @@ public class StringTag_37974101Mixin {
     @Inject(at = @At("HEAD"), method = "sizeInBytes()I", cancellable = true)
     private void sizeInBytes_76236346(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(76236346L))
-            info.setReturnValue(-1042535387);
+            info.setReturnValue(-1419217887);
     }
 
     @Inject(at = @At("HEAD"), method = "asString()Ljava/util/Optional;", cancellable = true)
@@ -97,6 +97,18 @@ public class StringTag_37974101Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "escapeWithoutQuotes(Ljava/lang/String;)Ljava/lang/String;", cancellable = true)
+    private static void escapeWithoutQuotes_1250716171(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1250716171L))
+            info.setReturnValue("m\"<0/lSmB?]\u5BC3\u4988K ");
+    }
+
+    @Inject(at = @At("HEAD"), method = "escapeWithoutQuotes(Ljava/lang/String;Ljava/lang/StringBuilder;)V", cancellable = true)
+    private static void escapeWithoutQuotes_847619542(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(847619542L))
+            info.cancel();
+    }
+
     @Inject(at = @At("HEAD"), method = "quoteAndEscape(Ljava/lang/String;)Ljava/lang/String;", cancellable = true)
     private static void quoteAndEscape_1250716171(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1250716171L))
@@ -107,18 +119,6 @@ public class StringTag_37974101Mixin {
     private static void quoteAndEscape_847619542(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(847619542L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "escapeWithoutQuotes(Ljava/lang/String;Ljava/lang/StringBuilder;)V", cancellable = true)
-    private static void escapeWithoutQuotes_847619542(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(847619542L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "escapeWithoutQuotes(Ljava/lang/String;)Ljava/lang/String;", cancellable = true)
-    private static void escapeWithoutQuotes_1250716171(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1250716171L))
-            info.setReturnValue("m\"<0/lSmB?]\u5BC3\u4988K ");
     }
 
 

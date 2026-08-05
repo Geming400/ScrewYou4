@@ -22,7 +22,7 @@ public class BlockBox509741018Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_548003760(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(548003760L))
-            info.setReturnValue(-71196726);
+            info.setReturnValue(24706174);
     }
 
     @Inject(at = @At("HEAD"), method = "min()Lnet/minecraft/core/BlockPos;", cancellable = true)
@@ -85,28 +85,28 @@ public class BlockBox509741018Mixin {
             info.setReturnValue(false);
     }
 
+    @Inject(at = @At("HEAD"), method = "aabb()Lnet/minecraft/world/phys/AABB;", cancellable = true)
+    private void aabb__910916334(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-910916334L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "sizeX()I", cancellable = true)
     private void sizeX_548003264(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(548003264L))
-            info.setReturnValue(107326763);
+            info.setReturnValue(203229663);
     }
 
     @Inject(at = @At("HEAD"), method = "sizeZ()I", cancellable = true)
     private void sizeZ_548003264(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(548003264L))
-            info.setReturnValue(107326763);
+            info.setReturnValue(203229663);
     }
 
     @Inject(at = @At("HEAD"), method = "sizeY()I", cancellable = true)
     private void sizeY_548003264(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(548003264L))
-            info.setReturnValue(107326763);
-    }
-
-    @Inject(at = @At("HEAD"), method = "aabb()Lnet/minecraft/world/phys/AABB;", cancellable = true)
-    private void aabb__910916334(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-910916334L))
-            info.setReturnValue(null);
+            info.setReturnValue(203229663);
     }
 
     @Inject(at = @At("HEAD"), method = "extend(Lnet/minecraft/core/Direction;I)Lnet/minecraft/core/BlockBox;", cancellable = true)

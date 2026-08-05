@@ -19,15 +19,15 @@ public class Builder1826934334Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "addContainerRecipe(Lnet/minecraft/world/item/Item;Lnet/minecraft/world/item/Item;Lnet/minecraft/world/item/Item;)V", cancellable = true)
-    private void addContainerRecipe__1324349078(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1324349078L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "addStartMix(Lnet/minecraft/world/item/Item;Lnet/minecraft/core/Holder;)V", cancellable = true)
     private void addStartMix__1102106681(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1102106681L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "addContainerRecipe(Lnet/minecraft/world/item/Item;Lnet/minecraft/world/item/Item;Lnet/minecraft/world/item/Item;)V", cancellable = true)
+    private void addContainerRecipe__1324349078(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1324349078L))
             info.cancel();
     }
 

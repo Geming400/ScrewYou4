@@ -22,23 +22,11 @@ public class Sampler_462042861Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_500305602(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(500305602L))
-            info.setReturnValue(1984086122);
+            info.setReturnValue(1539479122);
     }
 
     @Inject(at = @At("HEAD"), method = "depth()Lnet/minecraft/world/level/levelgen/DensityFunction;", cancellable = true)
     private void depth_1941082529(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1941082529L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "sample(III)Lnet/minecraft/world/level/biome/Climate$TargetPoint;", cancellable = true)
-    private void sample_510628116(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(510628116L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "temperature()Lnet/minecraft/world/level/levelgen/DensityFunction;", cancellable = true)
-    private void temperature_1941082529(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1941082529L))
             info.setReturnValue(null);
     }
@@ -55,6 +43,12 @@ public class Sampler_462042861Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "erosion()Lnet/minecraft/world/level/levelgen/DensityFunction;", cancellable = true)
+    private void erosion_1941082529(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1941082529L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "humidity()Lnet/minecraft/world/level/levelgen/DensityFunction;", cancellable = true)
     private void humidity_1941082529(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1941082529L))
@@ -67,8 +61,14 @@ public class Sampler_462042861Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "erosion()Lnet/minecraft/world/level/levelgen/DensityFunction;", cancellable = true)
-    private void erosion_1941082529(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "sample(III)Lnet/minecraft/world/level/biome/Climate$TargetPoint;", cancellable = true)
+    private void sample_510628116(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(510628116L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "temperature()Lnet/minecraft/world/level/levelgen/DensityFunction;", cancellable = true)
+    private void temperature_1941082529(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1941082529L))
             info.setReturnValue(null);
     }

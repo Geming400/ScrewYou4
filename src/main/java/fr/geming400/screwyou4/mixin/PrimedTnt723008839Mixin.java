@@ -25,16 +25,10 @@ public class PrimedTnt723008839Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "setFuse(I)V", cancellable = true)
-    private void setFuse_1936925811(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1936925811L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "getFuse()I", cancellable = true)
-    private void getFuse_761271085(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(761271085L))
-            info.setReturnValue(85502551);
+    @Inject(at = @At("HEAD"), method = "isPickable()Z", cancellable = true)
+    private void isPickable_761287422(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(761287422L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "teleport(Lnet/minecraft/world/level/portal/TeleportTransition;)Lnet/minecraft/world/entity/Entity;", cancellable = true)
@@ -49,21 +43,15 @@ public class PrimedTnt723008839Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "isPickable()Z", cancellable = true)
-    private void isPickable_761287422(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(761287422L))
-            info.setReturnValue(false);
+    @Inject(at = @At("HEAD"), method = "restoreFrom(Lnet/minecraft/world/entity/Entity;)V", cancellable = true)
+    private void restoreFrom_271284179(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(271284179L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "setBlockState(Lnet/minecraft/world/level/block/state/BlockState;)V", cancellable = true)
     private void setBlockState_577716009(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(577716009L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "restoreFrom(Lnet/minecraft/world/entity/Entity;)V", cancellable = true)
-    private void restoreFrom_271284179(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(271284179L))
             info.cancel();
     }
 
@@ -73,10 +61,22 @@ public class PrimedTnt723008839Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "setFuse(I)V", cancellable = true)
+    private void setFuse_1936925811(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1936925811L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getFuse()I", cancellable = true)
+    private void getFuse_761271085(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(761271085L))
+            info.setReturnValue(482536851);
+    }
+
     @Inject(at = @At("HEAD"), method = "getRandomShortFuse(ILnet/minecraft/util/RandomSource;)I", cancellable = true)
     private static void getRandomShortFuse__1188699028(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1188699028L))
-            info.setReturnValue(449592138);
+            info.setReturnValue(846626438);
     }
 
 

@@ -34,25 +34,7 @@ public class CreativeModeTab812506933Mixin {
     @Inject(at = @At("HEAD"), method = "column()I", cancellable = true)
     private void column_850769179(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(850769179L))
-            info.setReturnValue(2011964280);
-    }
-
-    @Inject(at = @At("HEAD"), method = "row()Lnet/minecraft/world/item/CreativeModeTab$Row;", cancellable = true)
-    private void row_2046333493(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2046333493L))
-            info.setReturnValue(net.minecraft.world.item.CreativeModeTab.Row.TOP);
-    }
-
-    @Inject(at = @At("HEAD"), method = "canScroll()Z", cancellable = true)
-    private void canScroll_850785516(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(850785516L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "showTitle()Z", cancellable = true)
-    private void showTitle_850785516(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(850785516L))
-            info.setReturnValue(true);
+            info.setReturnValue(1572046680);
     }
 
     @Inject(at = @At("HEAD"), method = "buildContents(Lnet/minecraft/world/item/CreativeModeTab$ItemDisplayParameters;)V", cancellable = true)
@@ -73,27 +55,21 @@ public class CreativeModeTab812506933Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "hasAnyItems()Z", cancellable = true)
-    private void hasAnyItems_850785516(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(850785516L))
-            info.setReturnValue(true);
+    @Inject(at = @At("HEAD"), method = "getDisplayItems()Ljava/util/Collection;", cancellable = true)
+    private void getDisplayItems__1001141339(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1001141339L))
+            info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getBackgroundTexture()Lnet/minecraft/resources/Identifier;", cancellable = true)
-    private void getBackgroundTexture__1630559620(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1630559620L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "isAlignedRight()Z", cancellable = true)
+    private void isAlignedRight_850785516(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(850785516L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "createTextureLocation(Ljava/lang/String;)Lnet/minecraft/resources/Identifier;", cancellable = true)
     private static void createTextureLocation__606422230(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-606422230L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getDisplayItems()Ljava/util/Collection;", cancellable = true)
-    private void getDisplayItems__1001141339(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1001141339L))
             info.setReturnValue(null);
     }
 
@@ -103,10 +79,34 @@ public class CreativeModeTab812506933Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "isAlignedRight()Z", cancellable = true)
-    private void isAlignedRight_850785516(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "getBackgroundTexture()Lnet/minecraft/resources/Identifier;", cancellable = true)
+    private void getBackgroundTexture__1630559620(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1630559620L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "hasAnyItems()Z", cancellable = true)
+    private void hasAnyItems_850785516(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(850785516L))
             info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "canScroll()Z", cancellable = true)
+    private void canScroll_850785516(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(850785516L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "showTitle()Z", cancellable = true)
+    private void showTitle_850785516(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(850785516L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "row()Lnet/minecraft/world/item/CreativeModeTab$Row;", cancellable = true)
+    private void row_2046333493(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2046333493L))
+            info.setReturnValue(net.minecraft.world.item.CreativeModeTab.Row.TOP);
     }
 
 

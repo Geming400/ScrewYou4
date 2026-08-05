@@ -22,7 +22,7 @@ public class InputPredicate1712220865Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1750483607(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1750483607L))
-            info.setReturnValue(-1308813776);
+            info.setReturnValue(-1381283476);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/world/entity/player/Input;)Z", cancellable = true)

@@ -13,15 +13,21 @@ public class MagmaCube634594190Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "getLightLevelDependentMagicValue()F", cancellable = true)
+    private void getLightLevelDependentMagicValue_672853553(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(672853553L))
+            info.setReturnValue(2.613395E8F);
+    }
+
     @Inject(at = @At("HEAD"), method = "isOnFire()Z", cancellable = true)
     private void isOnFire_672872773(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(672872773L))
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "finalizeSpawn(Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData;", cancellable = true)
-    private void finalizeSpawn__1811641168(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1811641168L))
+    @Inject(at = @At("HEAD"), method = "createAttributes()Lnet/minecraft/world/entity/ai/attributes/AttributeSupplier$Builder;", cancellable = true)
+    private static void createAttributes__65624255(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-65624255L))
             info.setReturnValue(null);
     }
 
@@ -31,16 +37,10 @@ public class MagmaCube634594190Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "createAttributes()Lnet/minecraft/world/entity/ai/attributes/AttributeSupplier$Builder;", cancellable = true)
-    private static void createAttributes__65624255(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-65624255L))
+    @Inject(at = @At("HEAD"), method = "finalizeSpawn(Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData;", cancellable = true)
+    private void finalizeSpawn__1811641168(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1811641168L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getLightLevelDependentMagicValue()F", cancellable = true)
-    private void getLightLevelDependentMagicValue_672853553(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(672853553L))
-            info.setReturnValue(7.506161E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "checkMagmaCubeSpawnRules(Lnet/minecraft/world/entity/EntityType;Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)Z", cancellable = true)

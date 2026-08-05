@@ -25,9 +25,9 @@ public class ClientboundUpdateAdvancementsPacket_790057047Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getProgress()Ljava/util/Map;", cancellable = true)
-    private void getProgress__1214566594(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1214566594L))
+    @Inject(at = @At("HEAD"), method = "getAdded()Ljava/util/List;", cancellable = true)
+    private void getAdded__1878573434(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1878573434L))
             info.setReturnValue(null);
     }
 
@@ -37,20 +37,20 @@ public class ClientboundUpdateAdvancementsPacket_790057047Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getAdded()Ljava/util/List;", cancellable = true)
-    private void getAdded__1878573434(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1878573434L))
+    @Inject(at = @At("HEAD"), method = "getProgress()Ljava/util/Map;", cancellable = true)
+    private void getProgress__1214566594(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1214566594L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "shouldShowAdvancements()Z", cancellable = true)
-    private void shouldShowAdvancements_828335629(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(828335629L))
-            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "shouldReset()Z", cancellable = true)
     private void shouldReset_828335629(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(828335629L))
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "shouldShowAdvancements()Z", cancellable = true)
+    private void shouldShowAdvancements_828335629(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(828335629L))
             info.setReturnValue(false);
     }

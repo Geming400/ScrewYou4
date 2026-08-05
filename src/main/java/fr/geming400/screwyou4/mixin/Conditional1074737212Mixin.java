@@ -22,7 +22,7 @@ public class Conditional1074737212Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1112999954(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1112999954L))
-            info.setReturnValue(1408577862);
+            info.setReturnValue(824455362);
     }
 
     @Inject(at = @At("HEAD"), method = "filter()Lnet/minecraft/client/gui/font/FontOption$Filter;", cancellable = true)

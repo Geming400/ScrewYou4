@@ -31,15 +31,27 @@ public class Builder330678120Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "notInPeaceful()Lnet/minecraft/world/entity/EntityType$Builder;", cancellable = true)
-    private void notInPeaceful__1177101923(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1177101923L))
+    @Inject(at = @At("HEAD"), method = "ridingOffset(F)Lnet/minecraft/world/entity/EntityType$Builder;", cancellable = true)
+    private void ridingOffset__839092973(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-839092973L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "vehicleAttachment(Lnet/minecraft/world/phys/Vec3;)Lnet/minecraft/world/entity/EntityType$Builder;", cancellable = true)
     private void vehicleAttachment_1557353129(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1557353129L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "createNothing(Lnet/minecraft/world/entity/MobCategory;)Lnet/minecraft/world/entity/EntityType$Builder;", cancellable = true)
+    private static void createNothing_827007265(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(827007265L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "notInPeaceful()Lnet/minecraft/world/entity/EntityType$Builder;", cancellable = true)
+    private void notInPeaceful__1177101923(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1177101923L))
             info.setReturnValue(null);
     }
 
@@ -61,18 +73,6 @@ public class Builder330678120Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "createNothing(Lnet/minecraft/world/entity/MobCategory;)Lnet/minecraft/world/entity/EntityType$Builder;", cancellable = true)
-    private static void createNothing_827007265(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(827007265L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "ridingOffset(F)Lnet/minecraft/world/entity/EntityType$Builder;", cancellable = true)
-    private void ridingOffset__839092973(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-839092973L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "fireImmune()Lnet/minecraft/world/entity/EntityType$Builder;", cancellable = true)
     private void fireImmune__1177101923(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1177101923L))
@@ -85,14 +85,20 @@ public class Builder330678120Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "requiredFeatures([Lnet/minecraft/world/flag/FeatureFlag;)Lnet/minecraft/world/entity/EntityType$Builder;", cancellable = true)
+    private void requiredFeatures__1212937241(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1212937241L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "noSave()Lnet/minecraft/world/entity/EntityType$Builder;", cancellable = true)
     private void noSave__1177101923(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1177101923L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "canSpawnFarFromPlayer()Lnet/minecraft/world/entity/EntityType$Builder;", cancellable = true)
-    private void canSpawnFarFromPlayer__1177101923(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "noLootTable()Lnet/minecraft/world/entity/EntityType$Builder;", cancellable = true)
+    private void noLootTable__1177101923(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1177101923L))
             info.setReturnValue(null);
     }
@@ -100,6 +106,12 @@ public class Builder330678120Mixin {
     @Inject(at = @At("HEAD"), method = "clientTrackingRange(I)Lnet/minecraft/world/entity/EntityType$Builder;", cancellable = true)
     private void clientTrackingRange__1734488490(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1734488490L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "canSpawnFarFromPlayer()Lnet/minecraft/world/entity/EntityType$Builder;", cancellable = true)
+    private void canSpawnFarFromPlayer__1177101923(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1177101923L))
             info.setReturnValue(null);
     }
 
@@ -115,15 +127,9 @@ public class Builder330678120Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "noLootTable()Lnet/minecraft/world/entity/EntityType$Builder;", cancellable = true)
-    private void noLootTable__1177101923(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1177101923L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "requiredFeatures([Lnet/minecraft/world/flag/FeatureFlag;)Lnet/minecraft/world/entity/EntityType$Builder;", cancellable = true)
-    private void requiredFeatures__1212937241(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1212937241L))
+    @Inject(at = @At("HEAD"), method = "immuneTo(Lnet/minecraft/tags/TagKey;)Lnet/minecraft/world/entity/EntityType$Builder;", cancellable = true)
+    private void immuneTo_530318285(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(530318285L))
             info.setReturnValue(null);
     }
 
@@ -136,12 +142,6 @@ public class Builder330678120Mixin {
     @Inject(at = @At("HEAD"), method = "noSummon()Lnet/minecraft/world/entity/EntityType$Builder;", cancellable = true)
     private void noSummon__1177101923(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1177101923L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "immuneTo(Lnet/minecraft/tags/TagKey;)Lnet/minecraft/world/entity/EntityType$Builder;", cancellable = true)
-    private void immuneTo_530318285(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(530318285L))
             info.setReturnValue(null);
     }
 

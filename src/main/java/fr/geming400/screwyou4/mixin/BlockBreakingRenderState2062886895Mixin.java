@@ -22,13 +22,13 @@ public class BlockBreakingRenderState2062886895Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2101149637(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2101149637L))
-            info.setReturnValue(1018955619);
+            info.setReturnValue(853827919);
     }
 
     @Inject(at = @At("HEAD"), method = "progress()I", cancellable = true)
     private void progress_2101149141(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2101149141L))
-            info.setReturnValue(1222103039);
+            info.setReturnValue(1056975339);
     }
 
     @Inject(at = @At("HEAD"), method = "blockPos()Lnet/minecraft/core/BlockPos;", cancellable = true)

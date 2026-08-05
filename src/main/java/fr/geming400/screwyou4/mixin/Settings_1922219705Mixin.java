@@ -10,7 +10,7 @@ public class Settings_1922219705Mixin {
         @Inject(at = @At("HEAD"), method = "size()D", cancellable = true)
     private void size_1960477145(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1960477145L))
-            info.setReturnValue(6.669522002185066E8D);
+            info.setReturnValue(7.88291002185066E7D);
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
@@ -28,55 +28,55 @@ public class Settings_1922219705Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1960482446(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1960482446L))
-            info.setReturnValue(-1784991770);
-    }
-
-    @Inject(at = @At("HEAD"), method = "safeZone()D", cancellable = true)
-    private void safeZone_1960477145(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1960477145L))
-            info.setReturnValue(6.669522002185066E8D);
-    }
-
-    @Inject(at = @At("HEAD"), method = "lerpTarget()D", cancellable = true)
-    private void lerpTarget_1960477145(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1960477145L))
-            info.setReturnValue(6.669522002185066E8D);
-    }
-
-    @Inject(at = @At("HEAD"), method = "damagePerBlock()D", cancellable = true)
-    private void damagePerBlock_1960477145(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1960477145L))
-            info.setReturnValue(6.669522002185066E8D);
-    }
-
-    @Inject(at = @At("HEAD"), method = "centerZ()D", cancellable = true)
-    private void centerZ_1960477145(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1960477145L))
-            info.setReturnValue(6.669522002185066E8D);
-    }
-
-    @Inject(at = @At("HEAD"), method = "centerX()D", cancellable = true)
-    private void centerX_1960477145(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1960477145L))
-            info.setReturnValue(6.669522002185066E8D);
+            info.setReturnValue(1921852426);
     }
 
     @Inject(at = @At("HEAD"), method = "warningTime()I", cancellable = true)
     private void warningTime_1960481950(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1960481950L))
-            info.setReturnValue(-1581844351);
+            info.setReturnValue(2124999845);
+    }
+
+    @Inject(at = @At("HEAD"), method = "centerZ()D", cancellable = true)
+    private void centerZ_1960477145(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1960477145L))
+            info.setReturnValue(7.88291002185066E7D);
+    }
+
+    @Inject(at = @At("HEAD"), method = "centerX()D", cancellable = true)
+    private void centerX_1960477145(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1960477145L))
+            info.setReturnValue(7.88291002185066E7D);
+    }
+
+    @Inject(at = @At("HEAD"), method = "damagePerBlock()D", cancellable = true)
+    private void damagePerBlock_1960477145(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1960477145L))
+            info.setReturnValue(7.88291002185066E7D);
+    }
+
+    @Inject(at = @At("HEAD"), method = "safeZone()D", cancellable = true)
+    private void safeZone_1960477145(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1960477145L))
+            info.setReturnValue(7.88291002185066E7D);
+    }
+
+    @Inject(at = @At("HEAD"), method = "lerpTarget()D", cancellable = true)
+    private void lerpTarget_1960477145(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1960477145L))
+            info.setReturnValue(7.88291002185066E7D);
     }
 
     @Inject(at = @At("HEAD"), method = "lerpTime()J", cancellable = true)
     private void lerpTime_1960482911(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1960482911L))
-            info.setReturnValue(-4901006372111064515L);
+            info.setReturnValue(-4901006372699187615L);
     }
 
     @Inject(at = @At("HEAD"), method = "warningBlocks()I", cancellable = true)
     private void warningBlocks_1960481950(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1960481950L))
-            info.setReturnValue(-1581844351);
+            info.setReturnValue(2124999845);
     }
 
 

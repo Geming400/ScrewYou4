@@ -28,7 +28,7 @@ public class ClientboundDebugEventPacket1921568964Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1959831706(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1959831706L))
-            info.setReturnValue(334018419);
+            info.setReturnValue(1675819);
     }
 
     @Inject(at = @At("HEAD"), method = "event()Lnet/minecraft/util/debug/DebugSubscription$Event;", cancellable = true)

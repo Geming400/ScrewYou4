@@ -22,7 +22,7 @@ public class BlockColumnConfiguration_1278812045Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1317074786(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1317074786L))
-            info.setReturnValue(900378930);
+            info.setReturnValue(1616424730);
     }
 
     @Inject(at = @At("HEAD"), method = "layer(Lnet/minecraft/util/valueproviders/IntProvider;Lnet/minecraft/world/level/levelgen/feature/stateproviders/BlockStateProvider;)Lnet/minecraft/world/level/levelgen/feature/configurations/BlockColumnConfiguration$Layer;", cancellable = true)
@@ -49,16 +49,16 @@ public class BlockColumnConfiguration_1278812045Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "prioritizeTip()Z", cancellable = true)
-    private void prioritizeTip_1317090627(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1317090627L))
-            info.setReturnValue(true);
-    }
-
     @Inject(at = @At("HEAD"), method = "allowedPlacement()Lnet/minecraft/world/level/levelgen/blockpredicates/BlockPredicate;", cancellable = true)
     private void allowedPlacement_1311580633(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1311580633L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "prioritizeTip()Z", cancellable = true)
+    private void prioritizeTip_1317090627(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1317090627L))
+            info.setReturnValue(true);
     }
 
 

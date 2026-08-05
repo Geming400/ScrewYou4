@@ -64,19 +64,19 @@ public class GossipContainer_1675504860Mixin {
     @Inject(at = @At("HEAD"), method = "getReputation(Ljava/util/UUID;Ljava/util/function/Predicate;)I", cancellable = true)
     private void getReputation__1228162780(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1228162780L))
-            info.setReturnValue(546527187);
+            info.setReturnValue(-22301013);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getCountForType(Lnet/minecraft/world/entity/ai/gossip/GossipType;Ljava/util/function/DoublePredicate;)J", cancellable = true)
+    private void getCountForType_1935492252(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1935492252L))
+            info.setReturnValue(8519897014225086919L);
     }
 
     @Inject(at = @At("HEAD"), method = "getGossipEntries()Ljava/util/Map;", cancellable = true)
     private void getGossipEntries__329118781(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-329118781L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getCountForType(Lnet/minecraft/world/entity/ai/gossip/GossipType;Ljava/util/function/DoublePredicate;)J", cancellable = true)
-    private void getCountForType_1935492252(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1935492252L))
-            info.setReturnValue(8519897014793915119L);
     }
 
 

@@ -28,7 +28,7 @@ public class CraftingBookInfo_2133842889Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__2122861666(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2122861666L))
-            info.setReturnValue(2074782935);
+            info.setReturnValue(1991524335);
     }
 
     @Inject(at = @At("HEAD"), method = "category()Ljava/lang/Object;", cancellable = true)

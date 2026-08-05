@@ -37,9 +37,9 @@ public class SpawnerBlockEntity1006151166Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "setEntityId(Lnet/minecraft/world/entity/EntityType;Lnet/minecraft/util/RandomSource;)V", cancellable = true)
-    private void setEntityId_1452046450(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1452046450L))
+    @Inject(at = @At("HEAD"), method = "serverTick(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/entity/SpawnerBlockEntity;)V", cancellable = true)
+    private static void serverTick__1832477194(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1832477194L))
             info.cancel();
     }
 
@@ -49,9 +49,9 @@ public class SpawnerBlockEntity1006151166Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "serverTick(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/entity/SpawnerBlockEntity;)V", cancellable = true)
-    private static void serverTick__1832477194(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1832477194L))
+    @Inject(at = @At("HEAD"), method = "setEntityId(Lnet/minecraft/world/entity/EntityType;Lnet/minecraft/util/RandomSource;)V", cancellable = true)
+    private void setEntityId_1452046450(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1452046450L))
             info.cancel();
     }
 

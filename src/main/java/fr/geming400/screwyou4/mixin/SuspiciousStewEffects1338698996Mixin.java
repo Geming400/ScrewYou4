@@ -22,7 +22,7 @@ public class SuspiciousStewEffects1338698996Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1376961738(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1376961738L))
-            info.setReturnValue(265834734);
+            info.setReturnValue(550775134);
     }
 
     @Inject(at = @At("HEAD"), method = "effects()Ljava/util/List;", cancellable = true)

@@ -19,16 +19,28 @@ public class Sheep_103512659Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "setSheared(Z)V", cancellable = true)
+    private void setSheared_1333129487(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1333129487L))
+            info.cancel();
+    }
+
     @Inject(at = @At("HEAD"), method = "isSheared()Z", cancellable = true)
     private void isSheared_141791241(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(141791241L))
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "setSheared(Z)V", cancellable = true)
-    private void setSheared_1333129487(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1333129487L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "getColor()Lnet/minecraft/world/item/DyeColor;", cancellable = true)
+    private void getColor_1538820888(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1538820888L))
+            info.setReturnValue(net.minecraft.world.item.DyeColor.LIGHT_BLUE);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isFood(Lnet/minecraft/world/item/ItemStack;)Z", cancellable = true)
+    private void isFood_1838047790(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1838047790L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "shear(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/sounds/SoundSource;Lnet/minecraft/world/item/ItemStack;)V", cancellable = true)
@@ -41,12 +53,6 @@ public class Sheep_103512659Mixin {
     private void aiStep_141787397(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(141787397L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "finalizeSpawn(Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData;", cancellable = true)
-    private void finalizeSpawn_1952244596(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1952244596L))
-            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "handleEntityEvent(B)V", cancellable = true)
@@ -67,46 +73,16 @@ public class Sheep_103512659Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getColor()Lnet/minecraft/world/item/DyeColor;", cancellable = true)
-    private void getColor_1538820888(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1538820888L))
-            info.setReturnValue(net.minecraft.world.item.DyeColor.LIGHT_BLUE);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getHeadEatAngleScale(F)F", cancellable = true)
-    private void getHeadEatAngleScale_1314643691(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1314643691L))
-            info.setReturnValue(5.517141E8F);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getHeadEatPositionScale(F)F", cancellable = true)
-    private void getHeadEatPositionScale_1314643691(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1314643691L))
-            info.setReturnValue(5.517141E8F);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getRandomSheepColor(Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/item/DyeColor;", cancellable = true)
-    private static void getRandomSheepColor__1618662663(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1618662663L))
-            info.setReturnValue(net.minecraft.world.item.DyeColor.RED);
-    }
-
-    @Inject(at = @At("HEAD"), method = "readyForShearing()Z", cancellable = true)
-    private void readyForShearing_141791241(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(141791241L))
-            info.setReturnValue(true);
+    @Inject(at = @At("HEAD"), method = "finalizeSpawn(Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData;", cancellable = true)
+    private void finalizeSpawn_1952244596(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1952244596L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "ate()V", cancellable = true)
     private void ate_141787397(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(141787397L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "mobInteract(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResult;", cancellable = true)
-    private void mobInteract_1720338500(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1720338500L))
-            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getBreedOffspring(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/AgeableMob;)Lnet/minecraft/world/entity/AgeableMob;", cancellable = true)
@@ -121,10 +97,34 @@ public class Sheep_103512659Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "isFood(Lnet/minecraft/world/item/ItemStack;)Z", cancellable = true)
-    private void isFood_1838047790(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1838047790L))
+    @Inject(at = @At("HEAD"), method = "mobInteract(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResult;", cancellable = true)
+    private void mobInteract_1720338500(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1720338500L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "readyForShearing()Z", cancellable = true)
+    private void readyForShearing_141791241(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(141791241L))
             info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getHeadEatPositionScale(F)F", cancellable = true)
+    private void getHeadEatPositionScale_1314643691(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1314643691L))
+            info.setReturnValue(7.951313E8F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getHeadEatAngleScale(F)F", cancellable = true)
+    private void getHeadEatAngleScale_1314643691(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1314643691L))
+            info.setReturnValue(7.951313E8F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getRandomSheepColor(Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/item/DyeColor;", cancellable = true)
+    private static void getRandomSheepColor__1618662663(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1618662663L))
+            info.setReturnValue(net.minecraft.world.item.DyeColor.RED);
     }
 
 

@@ -31,10 +31,10 @@ public class Painting_838989016Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "onSyncedDataUpdated(Lnet/minecraft/network/syncher/EntityDataAccessor;)V", cancellable = true)
-    private void onSyncedDataUpdated__1810228837(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1810228837L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "trackingPosition()Lnet/minecraft/world/phys/Vec3;", cancellable = true)
+    private void trackingPosition_1936718544(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1936718544L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getAddEntityPacket(Lnet/minecraft/server/level/ServerEntity;)Lnet/minecraft/network/protocol/Packet;", cancellable = true)
@@ -49,27 +49,27 @@ public class Painting_838989016Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "onSyncedDataUpdated(Lnet/minecraft/network/syncher/EntityDataAccessor;)V", cancellable = true)
+    private void onSyncedDataUpdated__1810228837(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1810228837L))
+            info.cancel();
+    }
+
     @Inject(at = @At("HEAD"), method = "getPickResult()Lnet/minecraft/world/item/ItemStack;", cancellable = true)
     private void getPickResult_1362407675(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1362407675L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "trackingPosition()Lnet/minecraft/world/phys/Vec3;", cancellable = true)
-    private void trackingPosition_1936718544(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1936718544L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "dropItem(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/Entity;)V", cancellable = true)
+    private void dropItem__1811942414(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1811942414L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "playPlacementSound()V", cancellable = true)
     private void playPlacementSound_877263754(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(877263754L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "dropItem(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/Entity;)V", cancellable = true)
-    private void dropItem__1811942414(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1811942414L))
             info.cancel();
     }
 

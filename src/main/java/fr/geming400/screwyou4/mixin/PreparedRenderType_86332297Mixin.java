@@ -22,24 +22,18 @@ public class PreparedRenderType_86332297Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_124595038(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(124595038L))
-            info.setReturnValue(1519696072);
-    }
-
-    @Inject(at = @At("HEAD"), method = "textures()Ljava/util/List;", cancellable = true)
-    private void textures_1712669112(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1712669112L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "drawFromBuffer(Lcom/mojang/blaze3d/buffers/GpuBuffer;Lcom/mojang/blaze3d/buffers/GpuBuffer;Lcom/mojang/blaze3d/IndexType;III)V", cancellable = true)
-    private void drawFromBuffer_1564018706(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1564018706L))
-            info.cancel();
+            info.setReturnValue(1643196072);
     }
 
     @Inject(at = @At("HEAD"), method = "drawFromBuffer(Lnet/minecraft/client/renderer/StagedVertexBuffer$ExecuteInfo;)V", cancellable = true)
     private void drawFromBuffer_467192453(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(467192453L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "drawFromBuffer(Lcom/mojang/blaze3d/buffers/GpuBuffer;Lcom/mojang/blaze3d/buffers/GpuBuffer;Lcom/mojang/blaze3d/IndexType;III)V", cancellable = true)
+    private void drawFromBuffer_1564018706(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1564018706L))
             info.cancel();
     }
 
@@ -52,6 +46,12 @@ public class PreparedRenderType_86332297Mixin {
     @Inject(at = @At("HEAD"), method = "pipeline()Lcom/mojang/blaze3d/pipeline/RenderPipeline;", cancellable = true)
     private void pipeline_1083740508(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1083740508L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "textures()Ljava/util/List;", cancellable = true)
+    private void textures_1712669112(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1712669112L))
             info.setReturnValue(null);
     }
 

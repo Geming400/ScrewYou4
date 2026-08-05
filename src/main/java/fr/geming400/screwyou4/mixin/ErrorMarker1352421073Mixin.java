@@ -22,7 +22,7 @@ public class ErrorMarker1352421073Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1390683815(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1390683815L))
-            info.setReturnValue(-1702877985);
+            info.setReturnValue(-1965068585);
     }
 
     @Inject(at = @At("HEAD"), method = "pos()Lnet/minecraft/core/BlockPos;", cancellable = true)

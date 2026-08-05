@@ -19,6 +19,18 @@ public class FireworkRocketEntity558923808Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "isShotAtAngle()Z", cancellable = true)
+    private void isShotAtAngle_597202391(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(597202391L))
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "calculateHorizontalHurtKnockbackDirection(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/damagesource/DamageSource;)Lit/unimi/dsi/fastutil/doubles/DoubleDoubleImmutablePair;", cancellable = true)
+    private void calculateHorizontalHurtKnockbackDirection_412378677(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(412378677L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "shouldRender(DDD)Z", cancellable = true)
     private void shouldRender__511479221(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-511479221L))
@@ -39,18 +51,6 @@ public class FireworkRocketEntity558923808Mixin {
 
     @Inject(at = @At("HEAD"), method = "isAttackable()Z", cancellable = true)
     private void isAttackable_597202391(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(597202391L))
-            info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "calculateHorizontalHurtKnockbackDirection(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/damagesource/DamageSource;)Lit/unimi/dsi/fastutil/doubles/DoubleDoubleImmutablePair;", cancellable = true)
-    private void calculateHorizontalHurtKnockbackDirection_412378677(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(412378677L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isShotAtAngle()Z", cancellable = true)
-    private void isShotAtAngle_597202391(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(597202391L))
             info.setReturnValue(false);
     }

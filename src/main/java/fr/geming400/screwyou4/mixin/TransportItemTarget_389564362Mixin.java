@@ -22,7 +22,7 @@ public class TransportItemTarget_389564362Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_427827103(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(427827103L))
-            info.setReturnValue(-1976369567);
+            info.setReturnValue(-1602030767);
     }
 
     @Inject(at = @At("HEAD"), method = "container()Lnet/minecraft/world/Container;", cancellable = true)
@@ -43,12 +43,6 @@ public class TransportItemTarget_389564362Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "blockEntity()Lnet/minecraft/world/level/block/entity/BlockEntity;", cancellable = true)
-    private void blockEntity_948700309(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(948700309L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "tryCreatePossibleTarget(Lnet/minecraft/world/level/block/entity/BlockEntity;Lnet/minecraft/world/level/Level;)Lnet/minecraft/world/entity/ai/behavior/TransportItemsBetweenContainers$TransportItemTarget;", cancellable = true)
     private static void tryCreatePossibleTarget_871646258(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(871646258L))
@@ -58,6 +52,12 @@ public class TransportItemTarget_389564362Mixin {
     @Inject(at = @At("HEAD"), method = "tryCreatePossibleTarget(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/Level;)Lnet/minecraft/world/entity/ai/behavior/TransportItemsBetweenContainers$TransportItemTarget;", cancellable = true)
     private static void tryCreatePossibleTarget_1402043065(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1402043065L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "blockEntity()Lnet/minecraft/world/level/block/entity/BlockEntity;", cancellable = true)
+    private void blockEntity_948700309(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(948700309L))
             info.setReturnValue(null);
     }
 

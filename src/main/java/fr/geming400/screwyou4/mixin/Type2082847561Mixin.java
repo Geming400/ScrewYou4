@@ -22,7 +22,7 @@ public class Type2082847561Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2121110303(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2121110303L))
-            info.setReturnValue(-825672305);
+            info.setReturnValue(-1052595405);
     }
 
     @Inject(at = @At("HEAD"), method = "create(Lcom/mojang/serialization/MapCodec;Lcom/mojang/serialization/Codec;)Lnet/minecraft/client/renderer/item/properties/select/SelectItemModelProperty$Type;", cancellable = true)

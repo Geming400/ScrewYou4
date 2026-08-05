@@ -22,7 +22,7 @@ public class Rigid_259226738Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_297489479(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(297489479L))
-            info.setReturnValue(-377337004);
+            info.setReturnValue(270985596);
     }
 
     @Inject(at = @At("HEAD"), method = "box()Lnet/minecraft/world/level/levelgen/structure/BoundingBox;", cancellable = true)
@@ -31,16 +31,16 @@ public class Rigid_259226738Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "groundLevelDelta()I", cancellable = true)
-    private void groundLevelDelta_297488983(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(297488983L))
-            info.setReturnValue(-174189585);
-    }
-
     @Inject(at = @At("HEAD"), method = "terrainAdjustment()Lnet/minecraft/world/level/levelgen/structure/TerrainAdjustment;", cancellable = true)
     private void terrainAdjustment_471382880(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(471382880L))
             info.setReturnValue(net.minecraft.world.level.levelgen.structure.TerrainAdjustment.ENCAPSULATE);
+    }
+
+    @Inject(at = @At("HEAD"), method = "groundLevelDelta()I", cancellable = true)
+    private void groundLevelDelta_297488983(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(297488983L))
+            info.setReturnValue(474133015);
     }
 
 

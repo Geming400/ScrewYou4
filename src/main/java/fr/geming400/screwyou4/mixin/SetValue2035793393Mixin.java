@@ -28,13 +28,13 @@ public class SetValue2035793393Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2074056135(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2074056135L))
-            info.setReturnValue(728703146);
+            info.setReturnValue(444608946);
     }
 
     @Inject(at = @At("HEAD"), method = "process(ILnet/minecraft/util/RandomSource;F)F", cancellable = true)
     private void process__1367581917(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1367581917L))
-            info.setReturnValue(7.94028E8F);
+            info.setReturnValue(5.099338E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)

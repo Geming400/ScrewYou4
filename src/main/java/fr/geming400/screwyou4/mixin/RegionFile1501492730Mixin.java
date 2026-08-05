@@ -31,14 +31,14 @@ public class RegionFile1501492730Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "hasChunk(Lnet/minecraft/world/level/ChunkPos;)Z", cancellable = true)
-    private void hasChunk__1278588515(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "doesChunkExist(Lnet/minecraft/world/level/ChunkPos;)Z", cancellable = true)
+    private void doesChunkExist__1278588515(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1278588515L))
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "doesChunkExist(Lnet/minecraft/world/level/ChunkPos;)Z", cancellable = true)
-    private void doesChunkExist__1278588515(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "hasChunk(Lnet/minecraft/world/level/ChunkPos;)Z", cancellable = true)
+    private void hasChunk__1278588515(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1278588515L))
             info.setReturnValue(true);
     }

@@ -22,7 +22,7 @@ public class BundlePredicate675089079Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_713351821(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(713351821L))
-            info.setReturnValue(20774019);
+            info.setReturnValue(210711119);
     }
 
     @Inject(at = @At("HEAD"), method = "componentType()Lnet/minecraft/core/component/DataComponentType;", cancellable = true)

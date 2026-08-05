@@ -22,7 +22,7 @@ public class ApplyEntityImpulse1307095366Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1345358108(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1345358108L))
-            info.setReturnValue(1094000470);
+            info.setReturnValue(567392370);
     }
 
     @Inject(at = @At("HEAD"), method = "apply(Lnet/minecraft/server/level/ServerLevel;ILnet/minecraft/world/item/enchantment/EnchantedItemInUse;Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/phys/Vec3;)V", cancellable = true)

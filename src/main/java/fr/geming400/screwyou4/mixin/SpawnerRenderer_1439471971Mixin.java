@@ -31,10 +31,10 @@ public class SpawnerRenderer_1439471971Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "submitEntityInSpawner(Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/SubmitNodeCollector;Lnet/minecraft/client/renderer/entity/state/EntityRenderState;Lnet/minecraft/client/renderer/entity/EntityRenderDispatcher;FFLnet/minecraft/client/renderer/state/level/CameraRenderState;)V", cancellable = true)
-    private static void submitEntityInSpawner_326591697(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(326591697L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/blockentity/state/BlockEntityRenderState;", cancellable = true)
+    private void createRenderState__1721522900(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1721522900L))
+            info.setReturnValue(new net.minecraft.client.renderer.blockentity.state.BlockEntityRenderState());
     }
 
     @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/blockentity/state/SpawnerRenderState;", cancellable = true)
@@ -43,10 +43,10 @@ public class SpawnerRenderer_1439471971Mixin {
             info.setReturnValue(new net.minecraft.client.renderer.blockentity.state.SpawnerRenderState());
     }
 
-    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/blockentity/state/BlockEntityRenderState;", cancellable = true)
-    private void createRenderState__1721522900(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1721522900L))
-            info.setReturnValue(new net.minecraft.client.renderer.blockentity.state.BlockEntityRenderState());
+    @Inject(at = @At("HEAD"), method = "submitEntityInSpawner(Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/SubmitNodeCollector;Lnet/minecraft/client/renderer/entity/state/EntityRenderState;Lnet/minecraft/client/renderer/entity/EntityRenderDispatcher;FFLnet/minecraft/client/renderer/state/level/CameraRenderState;)V", cancellable = true)
+    private static void submitEntityInSpawner_326591697(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(326591697L))
+            info.cancel();
     }
 
 

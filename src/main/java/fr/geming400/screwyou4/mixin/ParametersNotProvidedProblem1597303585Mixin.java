@@ -22,7 +22,7 @@ public class ParametersNotProvidedProblem1597303585Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1635566327(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1635566327L))
-            info.setReturnValue(-2089529367);
+            info.setReturnValue(-1289219267);
     }
 
     @Inject(at = @At("HEAD"), method = "description()Ljava/lang/String;", cancellable = true)

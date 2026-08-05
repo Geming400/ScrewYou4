@@ -22,13 +22,13 @@ public class Preparations_1152348974Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1190611715(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1190611715L))
-            info.setReturnValue(-1481641203);
+            info.setReturnValue(-678805803);
     }
 
     @Inject(at = @At("HEAD"), method = "width()I", cancellable = true)
     private void width_1190611219(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1190611219L))
-            info.setReturnValue(-1278493784);
+            info.setReturnValue(-475658384);
     }
 
     @Inject(at = @At("HEAD"), method = "regions()Ljava/util/Map;", cancellable = true)
@@ -37,28 +37,28 @@ public class Preparations_1152348974Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "mipLevel()I", cancellable = true)
-    private void mipLevel_1190611219(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1190611219L))
-            info.setReturnValue(-1278493784);
-    }
-
     @Inject(at = @At("HEAD"), method = "readyForUpload()Ljava/util/concurrent/CompletableFuture;", cancellable = true)
     private void readyForUpload__1429243062(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1429243062L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "height()I", cancellable = true)
-    private void height_1190611219(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1190611219L))
-            info.setReturnValue(-1278493784);
-    }
-
     @Inject(at = @At("HEAD"), method = "missing()Lnet/minecraft/client/renderer/texture/TextureAtlasSprite;", cancellable = true)
     private void missing__838656842(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-838656842L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "height()I", cancellable = true)
+    private void height_1190611219(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1190611219L))
+            info.setReturnValue(-475658384);
+    }
+
+    @Inject(at = @At("HEAD"), method = "mipLevel()I", cancellable = true)
+    private void mipLevel_1190611219(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1190611219L))
+            info.setReturnValue(-475658384);
     }
 
     @Inject(at = @At("HEAD"), method = "getSprite(Lnet/minecraft/resources/Identifier;)Lnet/minecraft/client/renderer/texture/TextureAtlasSprite;", cancellable = true)

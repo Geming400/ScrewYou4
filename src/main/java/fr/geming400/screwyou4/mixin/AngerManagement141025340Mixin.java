@@ -13,10 +13,22 @@ public class AngerManagement141025340Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "codec(Ljava/util/function/Predicate;)Lcom/mojang/serialization/Codec;", cancellable = true)
-    private static void codec_1990474763(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1990474763L))
+    @Inject(at = @At("HEAD"), method = "getActiveEntity()Ljava/util/Optional;", cancellable = true)
+    private void getActiveEntity_386486762(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(386486762L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getActiveAnger(Lnet/minecraft/world/entity/Entity;)I", cancellable = true)
+    private void getActiveAnger__310711813(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-310711813L))
+            info.setReturnValue(-731491511);
+    }
+
+    @Inject(at = @At("HEAD"), method = "increaseAnger(Lnet/minecraft/world/entity/Entity;I)I", cancellable = true)
+    private void increaseAnger__950149662(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-950149662L))
+            info.setReturnValue(1243819496);
     }
 
     @Inject(at = @At("HEAD"), method = "clearAnger(Lnet/minecraft/world/entity/Entity;)V", cancellable = true)
@@ -25,21 +37,9 @@ public class AngerManagement141025340Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getActiveAnger(Lnet/minecraft/world/entity/Entity;)I", cancellable = true)
-    private void getActiveAnger__310711813(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-310711813L))
-            info.setReturnValue(-233605511);
-    }
-
-    @Inject(at = @At("HEAD"), method = "increaseAnger(Lnet/minecraft/world/entity/Entity;I)I", cancellable = true)
-    private void increaseAnger__950149662(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-950149662L))
-            info.setReturnValue(1741705496);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getActiveEntity()Ljava/util/Optional;", cancellable = true)
-    private void getActiveEntity_386486762(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(386486762L))
+    @Inject(at = @At("HEAD"), method = "codec(Ljava/util/function/Predicate;)Lcom/mojang/serialization/Codec;", cancellable = true)
+    private static void codec_1990474763(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1990474763L))
             info.setReturnValue(null);
     }
 

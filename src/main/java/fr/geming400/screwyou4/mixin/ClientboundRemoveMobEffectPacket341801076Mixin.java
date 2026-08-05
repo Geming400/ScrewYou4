@@ -28,7 +28,7 @@ public class ClientboundRemoveMobEffectPacket341801076Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_380063818(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(380063818L))
-            info.setReturnValue(1233615591);
+            info.setReturnValue(312725391);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/protocol/game/ClientGamePacketListener;)V", cancellable = true)
@@ -49,16 +49,16 @@ public class ClientboundRemoveMobEffectPacket341801076Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "entityId()I", cancellable = true)
+    private void entityId_380063322(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(380063322L))
+            info.setReturnValue(-1060058684);
+    }
+
     @Inject(at = @At("HEAD"), method = "effect()Lnet/minecraft/core/Holder;", cancellable = true)
     private void effect_1890676848(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1890676848L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "entityId()I", cancellable = true)
-    private void entityId_380063322(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(380063322L))
-            info.setReturnValue(-139168484);
     }
 
 

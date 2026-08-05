@@ -16,13 +16,13 @@ public class PktUtils_1464552844Mixin {
     @Inject(at = @At("HEAD"), method = "intFromByteArray([BII)I", cancellable = true)
     private static void intFromByteArray__1827830896(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1827830896L))
-            info.setReturnValue(1335362009);
+            info.setReturnValue(1190560709);
     }
 
     @Inject(at = @At("HEAD"), method = "intFromByteArray([BI)I", cancellable = true)
     private static void intFromByteArray__720758789(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-720758789L))
-            info.setReturnValue(-899857235);
+            info.setReturnValue(-1044658535);
     }
 
     @Inject(at = @At("HEAD"), method = "stringFromByteArray([BII)Ljava/lang/String;", cancellable = true)
@@ -34,7 +34,7 @@ public class PktUtils_1464552844Mixin {
     @Inject(at = @At("HEAD"), method = "intFromNetworkByteArray([BII)I", cancellable = true)
     private static void intFromNetworkByteArray__1827830896(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1827830896L))
-            info.setReturnValue(1335362009);
+            info.setReturnValue(1190560709);
     }
 
 

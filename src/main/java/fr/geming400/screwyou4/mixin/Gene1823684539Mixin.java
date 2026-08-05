@@ -22,13 +22,19 @@ public class Gene1823684539Mixin {
     @Inject(at = @At("HEAD"), method = "getId()I", cancellable = true)
     private void getId_1861946785(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1861946785L))
-            info.setReturnValue(-81273192);
+            info.setReturnValue(-439873292);
     }
 
     @Inject(at = @At("HEAD"), method = "getRandom(Lnet/minecraft/util/RandomSource;)Lnet/minecraft/world/entity/animal/panda/Panda$Gene;", cancellable = true)
     private static void getRandom_629926485(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(629926485L))
             info.setReturnValue(net.minecraft.world.entity.animal.panda.Panda.Gene.PLAYFUL);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isRecessive()Z", cancellable = true)
+    private void isRecessive_1861963122(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1861963122L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "byId(I)Lnet/minecraft/world/entity/animal/panda/Panda$Gene;", cancellable = true)
@@ -41,12 +47,6 @@ public class Gene1823684539Mixin {
     private void getSerializedName_688224068(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(688224068L))
             info.setReturnValue("7,bJ4iU.Ami?jxU=[NlAzVvls\u49FBlCGX'myq,(_5=RL5Z!)myW^wuoGdYj'V= 3;S%7:'-Rqrpv}\u096D>)\u2514,!N%H\uA939N]5cH<b?'|");
-    }
-
-    @Inject(at = @At("HEAD"), method = "isRecessive()Z", cancellable = true)
-    private void isRecessive_1861963122(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1861963122L))
-            info.setReturnValue(false);
     }
 
 

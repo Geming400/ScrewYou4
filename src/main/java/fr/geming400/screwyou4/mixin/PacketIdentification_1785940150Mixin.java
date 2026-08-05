@@ -22,7 +22,7 @@ public class PacketIdentification_1785940150Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1824202891(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1824202891L))
-            info.setReturnValue(-1828976886);
+            info.setReturnValue(-1015691686);
     }
 
     @Inject(at = @At("HEAD"), method = "from(Ljdk/jfr/consumer/RecordedEvent;)Lnet/minecraft/util/profiling/jfr/stats/PacketIdentification;", cancellable = true)

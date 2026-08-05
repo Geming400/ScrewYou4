@@ -19,16 +19,16 @@ public class FlameParticle_914257973Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getQuadSize(F)F", cancellable = true)
-    private void getQuadSize_2125389005(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2125389005L))
-            info.setReturnValue(3.12143E7F);
-    }
-
     @Inject(at = @At("HEAD"), method = "getLightCoords(F)I", cancellable = true)
     private void getLightCoords_2125391888(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2125391888L))
-            info.setReturnValue(1612947772);
+            info.setReturnValue(-1760915424);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getQuadSize(F)F", cancellable = true)
+    private void getQuadSize_2125389005(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2125389005L))
+            info.setReturnValue(9.523184E8F);
     }
 
 

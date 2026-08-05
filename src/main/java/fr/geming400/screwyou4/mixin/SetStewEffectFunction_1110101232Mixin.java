@@ -28,7 +28,7 @@ public class SetStewEffectFunction_1110101232Mixin {
     @Inject(at = @At("HEAD"), method = "stewEffect()Lnet/minecraft/world/level/storage/loot/functions/SetStewEffectFunction$Builder;", cancellable = true)
     private static void stewEffect__766659765(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-766659765L))
-            info.setReturnValue(new net.minecraft.world.level.storage.loot.functions.SetStewEffectFunction$Builder());
+            info.setReturnValue(new net.minecraft.world.level.storage.loot.functions.SetStewEffectFunction.Builder());
     }
 
 

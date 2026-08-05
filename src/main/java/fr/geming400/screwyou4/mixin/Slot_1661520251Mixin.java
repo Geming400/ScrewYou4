@@ -10,7 +10,7 @@ public class Slot_1661520251Mixin {
         @Inject(at = @At("HEAD"), method = "x()I", cancellable = true)
     private void x_1699782496(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1699782496L))
-            info.setReturnValue(231367637);
+            info.setReturnValue(925097237);
     }
 
     @Inject(at = @At("HEAD"), method = "state()Lnet/minecraft/client/gui/render/DynamicAtlasAllocator$SlotState;", cancellable = true)
@@ -22,7 +22,7 @@ public class Slot_1661520251Mixin {
     @Inject(at = @At("HEAD"), method = "y()I", cancellable = true)
     private void y_1699782496(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1699782496L))
-            info.setReturnValue(231367637);
+            info.setReturnValue(925097237);
     }
 
 

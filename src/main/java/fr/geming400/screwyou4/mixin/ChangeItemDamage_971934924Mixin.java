@@ -22,7 +22,7 @@ public class ChangeItemDamage_971934924Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1010197665(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1010197665L))
-            info.setReturnValue(-1483969556);
+            info.setReturnValue(-1780495656);
     }
 
     @Inject(at = @At("HEAD"), method = "apply(Lnet/minecraft/server/level/ServerLevel;ILnet/minecraft/world/item/enchantment/EnchantedItemInUse;Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/phys/Vec3;)V", cancellable = true)

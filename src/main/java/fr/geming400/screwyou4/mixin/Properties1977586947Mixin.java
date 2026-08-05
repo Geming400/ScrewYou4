@@ -22,13 +22,13 @@ public class Properties1977586947Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2015849689(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2015849689L))
-            info.setReturnValue(1052313887);
+            info.setReturnValue(850574187);
     }
 
-    @Inject(at = @At("HEAD"), method = "swapAnimationScale()F", cancellable = true)
-    private void swapAnimationScale_2015846310(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2015846310L))
-            info.setReturnValue(7.553802E8F);
+    @Inject(at = @At("HEAD"), method = "oversizedInGui()Z", cancellable = true)
+    private void oversizedInGui_2015865530(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2015865530L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "handAnimationOnSwap()Z", cancellable = true)
@@ -37,10 +37,10 @@ public class Properties1977586947Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "oversizedInGui()Z", cancellable = true)
-    private void oversizedInGui_2015865530(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2015865530L))
-            info.setReturnValue(true);
+    @Inject(at = @At("HEAD"), method = "swapAnimationScale()F", cancellable = true)
+    private void swapAnimationScale_2015846310(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2015846310L))
+            info.setReturnValue(5.536405E8F);
     }
 
 

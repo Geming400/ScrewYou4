@@ -22,7 +22,13 @@ public class OverlayMetadataSection147017858Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_185280600(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(185280600L))
-            info.setReturnValue(-1953288034);
+            info.setReturnValue(-1864909634);
+    }
+
+    @Inject(at = @At("HEAD"), method = "forPackType(Lnet/minecraft/server/packs/PackType;)Lnet/minecraft/server/packs/metadata/MetadataSectionType;", cancellable = true)
+    private static void forPackType__456469960(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-456469960L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "overlaysForVersion(Lnet/minecraft/server/packs/metadata/pack/PackFormat;)Ljava/util/List;", cancellable = true)
@@ -34,12 +40,6 @@ public class OverlayMetadataSection147017858Mixin {
     @Inject(at = @At("HEAD"), method = "codecForPackType(Lnet/minecraft/server/packs/PackType;)Lcom/mojang/serialization/Codec;", cancellable = true)
     private static void codecForPackType__268452311(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-268452311L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "forPackType(Lnet/minecraft/server/packs/PackType;)Lnet/minecraft/server/packs/metadata/MetadataSectionType;", cancellable = true)
-    private static void forPackType__456469960(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-456469960L))
             info.setReturnValue(null);
     }
 

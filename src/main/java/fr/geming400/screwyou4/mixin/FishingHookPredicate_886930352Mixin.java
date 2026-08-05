@@ -22,7 +22,7 @@ public class FishingHookPredicate_886930352Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_925193093(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(925193093L))
-            info.setReturnValue(-2080910784);
+            info.setReturnValue(2113320012);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/phys/Vec3;)Z", cancellable = true)

@@ -13,6 +13,12 @@ public class Endermite1152262663Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "checkEndermiteSpawnRules(Lnet/minecraft/world/entity/EntityType;Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)Z", cancellable = true)
+    private static void checkEndermiteSpawnRules_309998969(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(309998969L))
+            info.setReturnValue(true);
+    }
+
     @Inject(at = @At("HEAD"), method = "aiStep()V", cancellable = true)
     private void aiStep_1190537402(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1190537402L))
@@ -28,13 +34,7 @@ public class Endermite1152262663Mixin {
     @Inject(at = @At("HEAD"), method = "createAttributes()Lnet/minecraft/world/entity/ai/attributes/AttributeSupplier$Builder;", cancellable = true)
     private static void createAttributes_452044218(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(452044218L))
-            info.setReturnValue(new net.minecraft.world.entity.ai.attributes.AttributeSupplier$Builder());
-    }
-
-    @Inject(at = @At("HEAD"), method = "checkEndermiteSpawnRules(Lnet/minecraft/world/entity/EntityType;Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)Z", cancellable = true)
-    private static void checkEndermiteSpawnRules_309998969(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(309998969L))
-            info.setReturnValue(true);
+            info.setReturnValue(new net.minecraft.world.entity.ai.attributes.AttributeSupplier.Builder());
     }
 
 

@@ -22,7 +22,7 @@ public class GameMode_1970095551Mixin {
     @Inject(at = @At("HEAD"), method = "id()I", cancellable = true)
     private void id_2008357796(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2008357796L))
-            info.setReturnValue(1206073019);
+            info.setReturnValue(1376069319);
     }
 
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)

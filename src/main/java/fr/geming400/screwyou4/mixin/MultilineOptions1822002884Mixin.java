@@ -22,7 +22,7 @@ public class MultilineOptions1822002884Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1860265626(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1860265626L))
-            info.setReturnValue(-1038230475);
+            info.setReturnValue(-1369158675);
     }
 
     @Inject(at = @At("HEAD"), method = "maxLines()Ljava/util/Optional;", cancellable = true)

@@ -22,7 +22,7 @@ public class Action728035186Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_766297928(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(766297928L))
-            info.setReturnValue(-569595871);
+            info.setReturnValue(-51522071);
     }
 
     @Inject(at = @At("HEAD"), method = "runnable()Ljava/util/function/BiConsumer;", cancellable = true)

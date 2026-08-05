@@ -22,25 +22,31 @@ public class SculkPatchConfiguration43339668Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_81602410(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(81602410L))
-            info.setReturnValue(1600719623);
+            info.setReturnValue(1668206723);
+    }
+
+    @Inject(at = @At("HEAD"), method = "catalystChance()F", cancellable = true)
+    private void catalystChance_81599031(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(81599031L))
+            info.setReturnValue(2.434789E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "spreadRounds()I", cancellable = true)
     private void spreadRounds_81601914(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(81601914L))
-            info.setReturnValue(1803867042);
-    }
-
-    @Inject(at = @At("HEAD"), method = "chargeCount()I", cancellable = true)
-    private void chargeCount_81601914(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(81601914L))
-            info.setReturnValue(1803867042);
+            info.setReturnValue(1871354142);
     }
 
     @Inject(at = @At("HEAD"), method = "amountPerCharge()I", cancellable = true)
     private void amountPerCharge_81601914(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(81601914L))
-            info.setReturnValue(1803867042);
+            info.setReturnValue(1871354142);
+    }
+
+    @Inject(at = @At("HEAD"), method = "growthRounds()I", cancellable = true)
+    private void growthRounds_81601914(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(81601914L))
+            info.setReturnValue(1871354142);
     }
 
     @Inject(at = @At("HEAD"), method = "extraRareGrowths()Lnet/minecraft/util/valueproviders/IntProvider;", cancellable = true)
@@ -49,22 +55,16 @@ public class SculkPatchConfiguration43339668Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "chargeCount()I", cancellable = true)
+    private void chargeCount_81601914(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(81601914L))
+            info.setReturnValue(1871354142);
+    }
+
     @Inject(at = @At("HEAD"), method = "spreadAttempts()I", cancellable = true)
     private void spreadAttempts_81601914(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(81601914L))
-            info.setReturnValue(1803867042);
-    }
-
-    @Inject(at = @At("HEAD"), method = "growthRounds()I", cancellable = true)
-    private void growthRounds_81601914(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(81601914L))
-            info.setReturnValue(1803867042);
-    }
-
-    @Inject(at = @At("HEAD"), method = "catalystChance()F", cancellable = true)
-    private void catalystChance_81599031(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(81599031L))
-            info.setReturnValue(1.759918E8F);
+            info.setReturnValue(1871354142);
     }
 
 

@@ -22,19 +22,19 @@ public class BelowTop2107486823Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2145749565(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2145749565L))
-            info.setReturnValue(-811179330);
+            info.setReturnValue(-220598430);
     }
 
     @Inject(at = @At("HEAD"), method = "offset()I", cancellable = true)
     private void offset_2145749069(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2145749069L))
-            info.setReturnValue(-632655840);
+            info.setReturnValue(-42074940);
     }
 
     @Inject(at = @At("HEAD"), method = "resolveY(Lnet/minecraft/world/level/levelgen/WorldGenerationContext;)I", cancellable = true)
     private void resolveY__333062184(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-333062184L))
-            info.setReturnValue(966963982);
+            info.setReturnValue(1557544882);
     }
 
 

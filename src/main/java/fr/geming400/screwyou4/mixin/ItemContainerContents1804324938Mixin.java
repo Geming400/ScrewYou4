@@ -16,7 +16,7 @@ public class ItemContainerContents1804324938Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1842587184(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1842587184L))
-            info.setReturnValue(-1465831675);
+            info.setReturnValue(-1823442575);
     }
 
     @Inject(at = @At("HEAD"), method = "copyInto(Lnet/minecraft/core/NonNullList;)V", cancellable = true)
@@ -25,10 +25,16 @@ public class ItemContainerContents1804324938Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "copyOne()Lnet/minecraft/world/item/ItemStack;", cancellable = true)
-    private void copyOne__1967223698(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1967223698L))
+    @Inject(at = @At("HEAD"), method = "allItemsCopyStream()Ljava/util/stream/Stream;", cancellable = true)
+    private void allItemsCopyStream_1593618623(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1593618623L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "addToTooltip(Lnet/minecraft/world/item/Item$TooltipContext;Ljava/util/function/Consumer;Lnet/minecraft/world/item/TooltipFlag;Lnet/minecraft/core/component/DataComponentGetter;)V", cancellable = true)
+    private void addToTooltip__738393452(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-738393452L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "fromItems(Ljava/util/List;)Lnet/minecraft/world/item/component/ItemContainerContents;", cancellable = true)
@@ -43,21 +49,15 @@ public class ItemContainerContents1804324938Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "addToTooltip(Lnet/minecraft/world/item/Item$TooltipContext;Ljava/util/function/Consumer;Lnet/minecraft/world/item/TooltipFlag;Lnet/minecraft/core/component/DataComponentGetter;)V", cancellable = true)
-    private void addToTooltip__738393452(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-738393452L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "nonEmptyItems()Ljava/lang/Iterable;", cancellable = true)
     private void nonEmptyItems__205424750(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-205424750L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "allItemsCopyStream()Ljava/util/stream/Stream;", cancellable = true)
-    private void allItemsCopyStream_1593618623(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1593618623L))
+    @Inject(at = @At("HEAD"), method = "copyOne()Lnet/minecraft/world/item/ItemStack;", cancellable = true)
+    private void copyOne__1967223698(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1967223698L))
             info.setReturnValue(null);
     }
 

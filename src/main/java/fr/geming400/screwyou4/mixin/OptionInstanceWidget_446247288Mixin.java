@@ -22,7 +22,7 @@ public class OptionInstanceWidget_446247288Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_484510029(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(484510029L))
-            info.setReturnValue(147810313);
+            info.setReturnValue(144616413);
     }
 
     @Inject(at = @At("HEAD"), method = "optionInstance()Lnet/minecraft/client/OptionInstance;", cancellable = true)

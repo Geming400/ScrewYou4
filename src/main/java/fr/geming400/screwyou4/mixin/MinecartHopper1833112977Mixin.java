@@ -19,16 +19,10 @@ public class MinecartHopper1833112977Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getDefaultDisplayBlockState()Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
-    private void getDefaultDisplayBlockState__462645889(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-462645889L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "setEnabled(Z)V", cancellable = true)
-    private void setEnabled__1232237490(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1232237490L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "getDefaultDisplayOffset()I", cancellable = true)
+    private void getDefaultDisplayOffset_1871375223(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1871375223L))
+            info.setReturnValue(1810724652);
     }
 
     @Inject(at = @At("HEAD"), method = "activateMinecart(Lnet/minecraft/server/level/ServerLevel;IIIZ)V", cancellable = true)
@@ -37,28 +31,46 @@ public class MinecartHopper1833112977Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getDefaultDisplayOffset()I", cancellable = true)
-    private void getDefaultDisplayOffset_1871375223(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1871375223L))
-            info.setReturnValue(2123721752);
+    @Inject(at = @At("HEAD"), method = "setEnabled(Z)V", cancellable = true)
+    private void setEnabled__1232237490(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1232237490L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "getLevelX()D", cancellable = true)
     private void getLevelX_1871370418(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1871370418L))
-            info.setReturnValue(3.326986005583609E8D);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getLevelY()D", cancellable = true)
-    private void getLevelY_1871370418(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1871370418L))
-            info.setReturnValue(3.326986005583609E8D);
+            info.setReturnValue(1.9701500558360852E7D);
     }
 
     @Inject(at = @At("HEAD"), method = "getLevelZ()D", cancellable = true)
     private void getLevelZ_1871370418(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1871370418L))
-            info.setReturnValue(3.326986005583609E8D);
+            info.setReturnValue(1.9701500558360852E7D);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getLevelY()D", cancellable = true)
+    private void getLevelY_1871370418(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1871370418L))
+            info.setReturnValue(1.9701500558360852E7D);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getPickResult()Lnet/minecraft/world/item/ItemStack;", cancellable = true)
+    private void getPickResult__1938435659(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1938435659L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getContainerSize()I", cancellable = true)
+    private void getContainerSize_1871375223(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1871375223L))
+            info.setReturnValue(1810724652);
+    }
+
+    @Inject(at = @At("HEAD"), method = "createMenu(ILnet/minecraft/world/entity/player/Inventory;)Lnet/minecraft/world/inventory/AbstractContainerMenu;", cancellable = true)
+    private void createMenu_925585392(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(925585392L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "isGridAligned()Z", cancellable = true)
@@ -73,22 +85,10 @@ public class MinecartHopper1833112977Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "createMenu(ILnet/minecraft/world/entity/player/Inventory;)Lnet/minecraft/world/inventory/AbstractContainerMenu;", cancellable = true)
-    private void createMenu_925585392(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(925585392L))
+    @Inject(at = @At("HEAD"), method = "getDefaultDisplayBlockState()Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
+    private void getDefaultDisplayBlockState__462645889(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-462645889L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getPickResult()Lnet/minecraft/world/item/ItemStack;", cancellable = true)
-    private void getPickResult__1938435659(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1938435659L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getContainerSize()I", cancellable = true)
-    private void getContainerSize_1871375223(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1871375223L))
-            info.setReturnValue(2123721752);
     }
 
 

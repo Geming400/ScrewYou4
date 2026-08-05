@@ -19,6 +19,12 @@ public class OS_510275168Mixin {
             info.setReturnValue(net.minecraft.util.Util.OS.LINUX);
     }
 
+    @Inject(at = @At("HEAD"), method = "telemetryName()Ljava/lang/String;", cancellable = true)
+    private void telemetryName__625185304(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-625185304L))
+            info.setReturnValue("JI;y>1/Ku--=");
+    }
+
     @Inject(at = @At("HEAD"), method = "openUri(Ljava/lang/String;)V", cancellable = true)
     private void openUri_1662636316(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1662636316L))
@@ -41,12 +47,6 @@ public class OS_510275168Mixin {
     private void openPath_2117561969(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(2117561969L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "telemetryName()Ljava/lang/String;", cancellable = true)
-    private void telemetryName__625185304(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-625185304L))
-            info.setReturnValue("JI;y>1/Ku--=");
     }
 
 

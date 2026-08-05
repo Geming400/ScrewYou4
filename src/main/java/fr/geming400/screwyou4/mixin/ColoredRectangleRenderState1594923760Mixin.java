@@ -22,7 +22,7 @@ public class ColoredRectangleRenderState1594923760Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1633186502(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1633186502L))
-            info.setReturnValue(1962419392);
+            info.setReturnValue(2077767192);
     }
 
     @Inject(at = @At("HEAD"), method = "bounds()Lnet/minecraft/client/gui/navigation/ScreenRectangle;", cancellable = true)
@@ -34,49 +34,25 @@ public class ColoredRectangleRenderState1594923760Mixin {
     @Inject(at = @At("HEAD"), method = "x1()I", cancellable = true)
     private void x1_1633186006(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1633186006L))
-            info.setReturnValue(-2129400484);
+            info.setReturnValue(-2014052684);
     }
 
     @Inject(at = @At("HEAD"), method = "y1()I", cancellable = true)
     private void y1_1633186006(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1633186006L))
-            info.setReturnValue(-2129400484);
+            info.setReturnValue(-2014052684);
     }
 
     @Inject(at = @At("HEAD"), method = "x0()I", cancellable = true)
     private void x0_1633186006(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1633186006L))
-            info.setReturnValue(-2129400484);
+            info.setReturnValue(-2014052684);
     }
 
     @Inject(at = @At("HEAD"), method = "y0()I", cancellable = true)
     private void y0_1633186006(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1633186006L))
-            info.setReturnValue(-2129400484);
-    }
-
-    @Inject(at = @At("HEAD"), method = "col1()I", cancellable = true)
-    private void col1_1633186006(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1633186006L))
-            info.setReturnValue(-2129400484);
-    }
-
-    @Inject(at = @At("HEAD"), method = "col2()I", cancellable = true)
-    private void col2_1633186006(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1633186006L))
-            info.setReturnValue(-2129400484);
-    }
-
-    @Inject(at = @At("HEAD"), method = "pose()Lorg/joml/Matrix3x2fc;", cancellable = true)
-    private void pose_1514534965(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1514534965L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "pipeline()Lcom/mojang/blaze3d/pipeline/RenderPipeline;", cancellable = true)
-    private void pipeline__1702635324(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1702635324L))
-            info.setReturnValue(null);
+            info.setReturnValue(-2014052684);
     }
 
     @Inject(at = @At("HEAD"), method = "textureSetup()Lnet/minecraft/client/gui/render/TextureSetup;", cancellable = true)
@@ -85,9 +61,27 @@ public class ColoredRectangleRenderState1594923760Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "scissorArea()Lnet/minecraft/client/gui/navigation/ScreenRectangle;", cancellable = true)
-    private void scissorArea__1525018232(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1525018232L))
+    @Inject(at = @At("HEAD"), method = "pose()Lorg/joml/Matrix3x2fc;", cancellable = true)
+    private void pose_1514534965(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1514534965L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "col1()I", cancellable = true)
+    private void col1_1633186006(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1633186006L))
+            info.setReturnValue(-2013046984);
+    }
+
+    @Inject(at = @At("HEAD"), method = "col2()I", cancellable = true)
+    private void col2_1633186006(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1633186006L))
+            info.setReturnValue(-2013046984);
+    }
+
+    @Inject(at = @At("HEAD"), method = "pipeline()Lcom/mojang/blaze3d/pipeline/RenderPipeline;", cancellable = true)
+    private void pipeline__1702635324(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1702635324L))
             info.setReturnValue(null);
     }
 
@@ -95,6 +89,12 @@ public class ColoredRectangleRenderState1594923760Mixin {
     private void buildVertices__1576987624(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1576987624L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "scissorArea()Lnet/minecraft/client/gui/navigation/ScreenRectangle;", cancellable = true)
+    private void scissorArea__1525018232(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1525018232L))
+            info.setReturnValue(null);
     }
 
 

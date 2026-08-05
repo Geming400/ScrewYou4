@@ -16,7 +16,7 @@ public class ColoredFallingBlock972264026Mixin {
     @Inject(at = @At("HEAD"), method = "getDustColor(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I", cancellable = true)
     private void getDustColor__1421753944(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1421753944L))
-            info.setReturnValue(-1903956832);
+            info.setReturnValue(-1484086732);
     }
 
 

@@ -34,7 +34,7 @@ public class HasComponent504912233Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_543174975(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(543174975L))
-            info.setReturnValue(2110888475);
+            info.setReturnValue(-1928171521);
     }
 
     @Inject(at = @At("HEAD"), method = "componentType()Lnet/minecraft/core/component/DataComponentType;", cancellable = true)

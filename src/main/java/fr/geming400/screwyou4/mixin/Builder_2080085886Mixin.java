@@ -16,7 +16,7 @@ public class Builder_2080085886Mixin {
     @Inject(at = @At("HEAD"), method = "withModifier(Lnet/minecraft/world/level/storage/loot/functions/SetAttributesFunction$ModifierBuilder;)Lnet/minecraft/world/level/storage/loot/functions/SetAttributesFunction$Builder;", cancellable = true)
     private void withModifier_672546213(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(672546213L))
-            info.setReturnValue(new net.minecraft.world.level.storage.loot.functions.SetAttributesFunction$Builder());
+            info.setReturnValue(new net.minecraft.world.level.storage.loot.functions.SetAttributesFunction.Builder());
     }
 
 

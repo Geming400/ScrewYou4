@@ -25,12 +25,6 @@ public class AdvancementType586065148Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
-    private void getSerializedName__549395323(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-549395323L))
-            info.setReturnValue("W=bT;:%w\u2C5E8q\u1BE3\uBBBFyr(Jk,?XC=\u20A7q:am;G8qO2xK\"\"\".wFnuMF1 1o\u7194^}Rj>HKWGXwC`3N?\uC34E\"U_G\u99D73I +l");
-    }
-
     @Inject(at = @At("HEAD"), method = "getChatColor()Lnet/minecraft/ChatFormatting;", cancellable = true)
     private void getChatColor__1112359239(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1112359239L))
@@ -41,6 +35,12 @@ public class AdvancementType586065148Mixin {
     private void createAnnouncement__536651988(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-536651988L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
+    private void getSerializedName__549395323(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-549395323L))
+            info.setReturnValue("W=bT;:%w\u2C5E8q\u1BE3\uBBBFyr(Jk,?XC=\u20A7q:am;G8qO2xK\"\"\".wFnuMF1 1o\u7194^}Rj>HKWGXwC`3N?\uC34E\"U_G\u99D73I +l");
     }
 
 

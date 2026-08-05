@@ -22,7 +22,7 @@ public class KeyframeTrack_819748577Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_858011318(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(858011318L))
-            info.setReturnValue(-118609807);
+            info.setReturnValue(-738777407);
     }
 
     @Inject(at = @At("HEAD"), method = "mapCodec(Lcom/mojang/serialization/Codec;)Lcom/mojang/serialization/MapCodec;", cancellable = true)

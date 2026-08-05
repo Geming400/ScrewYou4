@@ -28,19 +28,13 @@ public class PalettedPermutations1570695172Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1608957914(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1608957914L))
-            info.setReturnValue(-986734342);
+            info.setReturnValue(-548299642);
     }
 
     @Inject(at = @At("HEAD"), method = "separator()Ljava/lang/String;", cancellable = true)
     private void separator_435234701(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(435234701L))
             info.setReturnValue("-Z^Xy{Yl.\uA584pB\"eX0jh5DJ\u373CF\u3536;#\u06EBl=PZ!.'#`q T0@-dN|[NwS]7");
-    }
-
-    @Inject(at = @At("HEAD"), method = "paletteKey()Lnet/minecraft/resources/Identifier;", cancellable = true)
-    private void paletteKey__872371381(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-872371381L))
-            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "permutations()Ljava/util/Map;", cancellable = true)
@@ -52,6 +46,12 @@ public class PalettedPermutations1570695172Mixin {
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
     private void codec__988418400(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-988418400L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "paletteKey()Lnet/minecraft/resources/Identifier;", cancellable = true)
+    private void paletteKey__872371381(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-872371381L))
             info.setReturnValue(null);
     }
 

@@ -19,15 +19,15 @@ public class LightningBoltRenderer1124826836Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/entity/LightningBolt;Lnet/minecraft/client/renderer/entity/state/LightningBoltRenderState;F)V", cancellable = true)
-    private void extractRenderState__1056435653(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1056435653L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/client/renderer/entity/state/EntityRenderState;F)V", cancellable = true)
     private void extractRenderState_1351945855(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1351945855L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/entity/LightningBolt;Lnet/minecraft/client/renderer/entity/state/LightningBoltRenderState;F)V", cancellable = true)
+    private void extractRenderState__1056435653(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1056435653L))
             info.cancel();
     }
 

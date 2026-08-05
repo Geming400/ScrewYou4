@@ -22,7 +22,7 @@ public class StackedContents_2091745485Mixin {
     @Inject(at = @At("HEAD"), method = "getResultUpperBound(Ljava/util/List;)I", cancellable = true)
     private void getResultUpperBound_1312514403(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1312514403L))
-            info.setReturnValue(1131817099);
+            info.setReturnValue(1111344399);
     }
 
     @Inject(at = @At("HEAD"), method = "tryPick(Ljava/util/List;ILnet/minecraft/world/entity/player/StackedContents$Output;)Z", cancellable = true)
@@ -34,7 +34,7 @@ public class StackedContents_2091745485Mixin {
     @Inject(at = @At("HEAD"), method = "tryPickAll(Ljava/util/List;ILnet/minecraft/world/entity/player/StackedContents$Output;)I", cancellable = true)
     private void tryPickAll_1053455378(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1053455378L))
-            info.setReturnValue(1826126758);
+            info.setReturnValue(1805654058);
     }
 
 

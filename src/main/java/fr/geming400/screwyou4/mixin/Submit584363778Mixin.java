@@ -22,13 +22,19 @@ public class Submit584363778Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_622626520(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(622626520L))
-            info.setReturnValue(851110171);
+            info.setReturnValue(917630171);
+    }
+
+    @Inject(at = @At("HEAD"), method = "featureType()Lnet/minecraft/client/renderer/feature/FeatureRendererType;", cancellable = true)
+    private void featureType_1615447304(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1615447304L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "pose()Lcom/mojang/blaze3d/vertex/PoseStack$Pose;", cancellable = true)
     private void pose__1504956622(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1504956622L))
-            info.setReturnValue(new com.mojang.blaze3d.vertex.PoseStack$Pose());
+            info.setReturnValue(new com.mojang.blaze3d.vertex.PoseStack.Pose());
     }
 
     @Inject(at = @At("HEAD"), method = "renderType()Lnet/minecraft/client/renderer/rendertype/RenderType;", cancellable = true)
@@ -40,12 +46,6 @@ public class Submit584363778Mixin {
     @Inject(at = @At("HEAD"), method = "batchKey()Ljava/lang/Object;", cancellable = true)
     private void batchKey__1851411299(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1851411299L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "featureType()Lnet/minecraft/client/renderer/feature/FeatureRendererType;", cancellable = true)
-    private void featureType_1615447304(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1615447304L))
             info.setReturnValue(null);
     }
 

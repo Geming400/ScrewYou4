@@ -22,7 +22,7 @@ public class LockCode1795614582Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1833877324(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1833877324L))
-            info.setReturnValue(1298054959);
+            info.setReturnValue(1611779159);
     }
 
     @Inject(at = @At("HEAD"), method = "predicate()Lnet/minecraft/advancements/predicates/ItemPredicate;", cancellable = true)
@@ -31,16 +31,16 @@ public class LockCode1795614582Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "unlocksWith(Lnet/minecraft/world/item/ItemStack;)Z", cancellable = true)
+    private void unlocksWith__764817582(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-764817582L))
+            info.setReturnValue(false);
+    }
+
     @Inject(at = @At("HEAD"), method = "addToTag(Lnet/minecraft/world/level/storage/ValueOutput;)V", cancellable = true)
     private void addToTag_576483230(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(576483230L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "fromTag(Lnet/minecraft/world/level/storage/ValueInput;)Lnet/minecraft/world/LockCode;", cancellable = true)
-    private static void fromTag_1616906445(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1616906445L))
-            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "canUnlock(Lnet/minecraft/world/entity/player/Player;)Z", cancellable = true)
@@ -49,10 +49,10 @@ public class LockCode1795614582Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "unlocksWith(Lnet/minecraft/world/item/ItemStack;)Z", cancellable = true)
-    private void unlocksWith__764817582(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-764817582L))
-            info.setReturnValue(false);
+    @Inject(at = @At("HEAD"), method = "fromTag(Lnet/minecraft/world/level/storage/ValueInput;)Lnet/minecraft/world/LockCode;", cancellable = true)
+    private static void fromTag_1616906445(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1616906445L))
+            info.setReturnValue(null);
     }
 
 

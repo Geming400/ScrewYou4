@@ -22,7 +22,7 @@ public class Patch_653746036Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_692008777(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(692008777L))
-            info.setReturnValue(-1205292454);
+            info.setReturnValue(-1103448754);
     }
 
     @Inject(at = @At("HEAD"), method = "create(Ljava/util/Optional;Ljava/util/Optional;Ljava/util/Optional;Ljava/util/Optional;)Lnet/minecraft/world/entity/player/PlayerSkin$Patch;", cancellable = true)

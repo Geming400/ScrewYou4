@@ -28,7 +28,7 @@ public class ServerboundSetGameRulePacket_2137290897Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__2119413658(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2119413658L))
-            info.setReturnValue(-2079458993);
+            info.setReturnValue(-1702207593);
     }
 
     @Inject(at = @At("HEAD"), method = "entries()Ljava/util/List;", cancellable = true)

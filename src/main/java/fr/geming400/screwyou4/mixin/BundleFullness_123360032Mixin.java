@@ -10,7 +10,7 @@ public class BundleFullness_123360032Mixin {
         @Inject(at = @At("HEAD"), method = "get(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/client/multiplayer/ClientLevel;Lnet/minecraft/world/entity/ItemOwner;I)F", cancellable = true)
     private void get__887683055(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-887683055L))
-            info.setReturnValue(7.96442E7F);
+            info.setReturnValue(9.89446E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "type()Lcom/mojang/serialization/MapCodec;", cancellable = true)
@@ -34,7 +34,7 @@ public class BundleFullness_123360032Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_161622773(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(161622773L))
-            info.setReturnValue(398750401);
+            info.setReturnValue(1307550701);
     }
 
 

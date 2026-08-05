@@ -10,7 +10,7 @@ public class DamageReduction1674083055Mixin {
         @Inject(at = @At("HEAD"), method = "base()F", cancellable = true)
     private void base_1712342418(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1712342418L))
-            info.setReturnValue(2.709121E8F);
+            info.setReturnValue(5.513793E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "type()Ljava/util/Optional;", cancellable = true)
@@ -34,25 +34,25 @@ public class DamageReduction1674083055Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1712345797(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1712345797L))
-            info.setReturnValue(1806750507);
+            info.setReturnValue(2087217707);
     }
 
     @Inject(at = @At("HEAD"), method = "resolve(Lnet/minecraft/world/damagesource/DamageSource;FD)F", cancellable = true)
     private void resolve_1549749481(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1549749481L))
-            info.setReturnValue(2.709121E8F);
+            info.setReturnValue(5.513793E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "factor()F", cancellable = true)
     private void factor_1712342418(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1712342418L))
-            info.setReturnValue(2.709121E8F);
+            info.setReturnValue(5.513793E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "horizontalBlockingAngle()F", cancellable = true)
     private void horizontalBlockingAngle_1712342418(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1712342418L))
-            info.setReturnValue(2.709121E8F);
+            info.setReturnValue(5.513793E8F);
     }
 
 

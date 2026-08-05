@@ -22,13 +22,13 @@ public class ValueEffects_279854969Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_318117710(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(318117710L))
-            info.setReturnValue(-1496020238);
+            info.setReturnValue(-1841650838);
     }
 
     @Inject(at = @At("HEAD"), method = "process(ILnet/minecraft/util/RandomSource;F)F", cancellable = true)
     private void process_1171446954(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1171446954L))
-            info.setReturnValue(8.615876E8F);
+            info.setReturnValue(5.164651E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)

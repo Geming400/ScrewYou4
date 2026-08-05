@@ -22,7 +22,7 @@ public class LastSeenMessages373119815Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_411382557(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(411382557L))
-            info.setReturnValue(1113598022);
+            info.setReturnValue(833782022);
     }
 
     @Inject(at = @At("HEAD"), method = "entries()Ljava/util/List;", cancellable = true)

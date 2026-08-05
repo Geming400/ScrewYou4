@@ -22,18 +22,18 @@ public class ClampingLazyMaxIntRange173372969Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_211635711(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(211635711L))
-            info.setReturnValue(1634424295);
-    }
-
-    @Inject(at = @At("HEAD"), method = "validateValue(Ljava/lang/Integer;)Ljava/util/Optional;", cancellable = true)
-    private void validateValue__1127612278(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1127612278L))
-            info.setReturnValue(null);
+            info.setReturnValue(1668469195);
     }
 
     @Inject(at = @At("HEAD"), method = "validateValue(Ljava/lang/Object;)Ljava/util/Optional;", cancellable = true)
     private void validateValue__836354949(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-836354949L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "validateValue(Ljava/lang/Integer;)Ljava/util/Optional;", cancellable = true)
+    private void validateValue__1127612278(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1127612278L))
             info.setReturnValue(null);
     }
 
@@ -46,19 +46,13 @@ public class ClampingLazyMaxIntRange173372969Mixin {
     @Inject(at = @At("HEAD"), method = "minInclusive()I", cancellable = true)
     private void minInclusive_211635215(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(211635215L))
-            info.setReturnValue(1517460629);
+            info.setReturnValue(1551505529);
     }
 
     @Inject(at = @At("HEAD"), method = "maxInclusive()I", cancellable = true)
     private void maxInclusive_211635215(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(211635215L))
-            info.setReturnValue(1518462029);
-    }
-
-    @Inject(at = @At("HEAD"), method = "encodableMaxInclusive()I", cancellable = true)
-    private void encodableMaxInclusive_211635215(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(211635215L))
-            info.setReturnValue(1518462029);
+            info.setReturnValue(1551505529);
     }
 
     @Inject(at = @At("HEAD"), method = "valueListSupplier()Lnet/minecraft/client/gui/components/CycleButton$ValueListSupplier;", cancellable = true)
@@ -77,6 +71,12 @@ public class ClampingLazyMaxIntRange173372969Mixin {
     private void createCycleButton_211651552(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(211651552L))
             info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "encodableMaxInclusive()I", cancellable = true)
+    private void encodableMaxInclusive_211635215(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(211635215L))
+            info.setReturnValue(1551505529);
     }
 
 

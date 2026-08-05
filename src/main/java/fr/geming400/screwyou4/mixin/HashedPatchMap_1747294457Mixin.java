@@ -22,7 +22,7 @@ public class HashedPatchMap_1747294457Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1785557198(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1785557198L))
-            info.setReturnValue(-519360225);
+            info.setReturnValue(252067675);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/core/component/DataComponentPatch;Lnet/minecraft/network/HashedPatchMap$HashGenerator;)Z", cancellable = true)
@@ -37,15 +37,15 @@ public class HashedPatchMap_1747294457Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "addedComponents()Ljava/util/Map;", cancellable = true)
-    private void addedComponents__257329184(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-257329184L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "removedComponents()Ljava/util/Set;", cancellable = true)
     private void removedComponents__81741030(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-81741030L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "addedComponents()Ljava/util/Map;", cancellable = true)
+    private void addedComponents__257329184(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-257329184L))
             info.setReturnValue(null);
     }
 

@@ -19,16 +19,10 @@ public class LevelVersion_1645275876Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "levelDataVersion()I", cancellable = true)
-    private void levelDataVersion_1683538121(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1683538121L))
-            info.setReturnValue(1725785395);
-    }
-
-    @Inject(at = @At("HEAD"), method = "lastPlayed()J", cancellable = true)
-    private void lastPlayed_1683539082(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1683539082L))
-            info.setReturnValue(3100118123748124837L);
+    @Inject(at = @At("HEAD"), method = "minecraftVersion()Lnet/minecraft/world/level/storage/DataVersion;", cancellable = true)
+    private void minecraftVersion__565602551(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-565602551L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "minecraftVersionName()Ljava/lang/String;", cancellable = true)
@@ -37,10 +31,16 @@ public class LevelVersion_1645275876Mixin {
             info.setReturnValue("^OC5BCv2`t{YIbL/oS \u45CC&K\u52ABGR6\u7A3AC.ujMXVH\u72148*4n0<gBo@g=D,kp@Rty't/cm9\u81970I\u6C4C&1,jqU3#`\u96D6_@MjS^W\uBEFF#S<@");
     }
 
-    @Inject(at = @At("HEAD"), method = "minecraftVersion()Lnet/minecraft/world/level/storage/DataVersion;", cancellable = true)
-    private void minecraftVersion__565602551(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-565602551L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "levelDataVersion()I", cancellable = true)
+    private void levelDataVersion_1683538121(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1683538121L))
+            info.setReturnValue(2086169895);
+    }
+
+    @Inject(at = @At("HEAD"), method = "lastPlayed()J", cancellable = true)
+    private void lastPlayed_1683539082(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1683539082L))
+            info.setReturnValue(3100118124108509337L);
     }
 
 

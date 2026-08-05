@@ -43,16 +43,10 @@ public class Scope1985678390Mixin {
             info.setReturnValue(new java.lang.Object());
     }
 
-    @Inject(at = @At("HEAD"), method = "popFrame()V", cancellable = true)
-    private void popFrame_2023953129(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(2023953129L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "lastFrame()Ljava/util/Map;", cancellable = true)
-    private void lastFrame__18945250(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-18945250L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "getAny([Lnet/minecraft/util/parsing/packrat/Atom;)Ljava/lang/Object;", cancellable = true)
+    private void getAny__972627199(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-972627199L))
+            info.setReturnValue(new java.lang.Object());
     }
 
     @Inject(at = @At("HEAD"), method = "splitFrame()V", cancellable = true)
@@ -67,8 +61,20 @@ public class Scope1985678390Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getAny([Lnet/minecraft/util/parsing/packrat/Atom;)Ljava/lang/Object;", cancellable = true)
-    private void getAny__972627199(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "popFrame()V", cancellable = true)
+    private void popFrame_2023953129(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(2023953129L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "lastFrame()Ljava/util/Map;", cancellable = true)
+    private void lastFrame__18945250(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-18945250L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getAnyOrThrow([Lnet/minecraft/util/parsing/packrat/Atom;)Ljava/lang/Object;", cancellable = true)
+    private void getAnyOrThrow__972627199(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-972627199L))
             info.setReturnValue(new java.lang.Object());
     }
@@ -88,13 +94,7 @@ public class Scope1985678390Mixin {
     @Inject(at = @At("HEAD"), method = "valueIndexForAny([Lnet/minecraft/util/parsing/packrat/Atom;)I", cancellable = true)
     private void valueIndexForAny_564771292(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(564771292L))
-            info.setReturnValue(-645612810);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getAnyOrThrow([Lnet/minecraft/util/parsing/packrat/Atom;)Ljava/lang/Object;", cancellable = true)
-    private void getAnyOrThrow__972627199(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-972627199L))
-            info.setReturnValue(new java.lang.Object());
+            info.setReturnValue(-1032415310);
     }
 
 

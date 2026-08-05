@@ -13,9 +13,9 @@ public class PlaceholderLookupProvider_1152429520Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "createSwapper()Lnet/minecraft/util/RegistryContextSwapper;", cancellable = true)
-    private void createSwapper__49084158(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-49084158L))
+    @Inject(at = @At("HEAD"), method = "createSerializationContext(Lcom/mojang/serialization/DynamicOps;)Lnet/minecraft/resources/RegistryOps;", cancellable = true)
+    private void createSerializationContext_2086350194(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2086350194L))
             info.setReturnValue(null);
     }
 
@@ -25,9 +25,9 @@ public class PlaceholderLookupProvider_1152429520Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "createSerializationContext(Lcom/mojang/serialization/DynamicOps;)Lnet/minecraft/resources/RegistryOps;", cancellable = true)
-    private void createSerializationContext_2086350194(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2086350194L))
+    @Inject(at = @At("HEAD"), method = "createSwapper()Lnet/minecraft/util/RegistryContextSwapper;", cancellable = true)
+    private void createSwapper__49084158(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-49084158L))
             info.setReturnValue(null);
     }
 

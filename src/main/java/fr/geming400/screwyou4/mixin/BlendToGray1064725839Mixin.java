@@ -22,19 +22,19 @@ public class BlendToGray1064725839Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1102988581(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1102988581L))
-            info.setReturnValue(-77126474);
+            info.setReturnValue(-333254174);
     }
 
     @Inject(at = @At("HEAD"), method = "factor()F", cancellable = true)
     private void factor_1102985202(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1102985202L))
-            info.setReturnValue(8.335589E8F);
+            info.setReturnValue(5.774312E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "brightness()F", cancellable = true)
     private void brightness_1102985202(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1102985202L))
-            info.setReturnValue(8.335589E8F);
+            info.setReturnValue(5.774312E8F);
     }
 
 

@@ -19,16 +19,16 @@ public class BlockPosTracker_605423901Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "currentBlockPosition()Lnet/minecraft/core/BlockPos;", cancellable = true)
-    private void currentBlockPosition__1287962979(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1287962979L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "isVisibleBy(Lnet/minecraft/world/entity/LivingEntity;)Z", cancellable = true)
     private void isVisibleBy_927091075(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(927091075L))
             info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "currentBlockPosition()Lnet/minecraft/core/BlockPos;", cancellable = true)
+    private void currentBlockPosition__1287962979(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1287962979L))
+            info.setReturnValue(null);
     }
 
 

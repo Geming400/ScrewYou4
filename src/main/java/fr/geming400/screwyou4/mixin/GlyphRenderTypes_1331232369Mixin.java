@@ -22,7 +22,7 @@ public class GlyphRenderTypes_1331232369Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1369495110(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1369495110L))
-            info.setReturnValue(877262315);
+            info.setReturnValue(1402258715);
     }
 
     @Inject(at = @At("HEAD"), method = "normal()Lnet/minecraft/client/renderer/rendertype/RenderType;", cancellable = true)

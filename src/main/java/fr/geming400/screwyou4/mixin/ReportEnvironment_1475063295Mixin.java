@@ -22,7 +22,7 @@ public class ReportEnvironment_1475063295Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1513326036(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1513326036L))
-            info.setReturnValue(1369845253);
+            info.setReturnValue(1238536553);
     }
 
     @Inject(at = @At("HEAD"), method = "create(Lnet/minecraft/client/multiplayer/chat/report/ReportEnvironment$Server;)Lnet/minecraft/client/multiplayer/chat/report/ReportEnvironment;", cancellable = true)
@@ -55,15 +55,15 @@ public class ReportEnvironment_1475063295Mixin {
             info.setReturnValue("QgIlErfFGxOb1\uA422\u2556@ya!%@0d Ni\uA3166h\u7ADAR`+\u7149zx7&S{Fr\uADCE)g\u7498!-kb)lRT\uBFD8");
     }
 
-    @Inject(at = @At("HEAD"), method = "thirdPartyServerInfo()Lcom/mojang/authlib/yggdrasil/request/AbuseReportRequest$ThirdPartyServerInfo;", cancellable = true)
-    private void thirdPartyServerInfo__1941604959(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1941604959L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "clientInfo()Lcom/mojang/authlib/yggdrasil/request/AbuseReportRequest$ClientInfo;", cancellable = true)
     private void clientInfo_1556561944(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1556561944L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "realmInfo()Lcom/mojang/authlib/yggdrasil/request/AbuseReportRequest$RealmInfo;", cancellable = true)
+    private void realmInfo_1804398048(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1804398048L))
             info.setReturnValue(null);
     }
 
@@ -73,9 +73,9 @@ public class ReportEnvironment_1475063295Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "realmInfo()Lcom/mojang/authlib/yggdrasil/request/AbuseReportRequest$RealmInfo;", cancellable = true)
-    private void realmInfo_1804398048(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1804398048L))
+    @Inject(at = @At("HEAD"), method = "thirdPartyServerInfo()Lcom/mojang/authlib/yggdrasil/request/AbuseReportRequest$ThirdPartyServerInfo;", cancellable = true)
+    private void thirdPartyServerInfo__1941604959(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1941604959L))
             info.setReturnValue(null);
     }
 

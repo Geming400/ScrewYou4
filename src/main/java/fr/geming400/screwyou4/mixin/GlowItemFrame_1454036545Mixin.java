@@ -25,14 +25,14 @@ public class GlowItemFrame_1454036545Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getRotateItemSound()Lnet/minecraft/sounds/SoundEvent;", cancellable = true)
-    private void getRotateItemSound__1750717854(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "getRemoveItemSound()Lnet/minecraft/sounds/SoundEvent;", cancellable = true)
+    private void getRemoveItemSound__1750717854(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1750717854L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getRemoveItemSound()Lnet/minecraft/sounds/SoundEvent;", cancellable = true)
-    private void getRemoveItemSound__1750717854(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "getRotateItemSound()Lnet/minecraft/sounds/SoundEvent;", cancellable = true)
+    private void getRotateItemSound__1750717854(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1750717854L))
             info.setReturnValue(null);
     }

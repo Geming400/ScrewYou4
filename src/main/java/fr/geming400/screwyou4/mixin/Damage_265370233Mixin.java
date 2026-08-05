@@ -10,7 +10,7 @@ public class Damage_265370233Mixin {
         @Inject(at = @At("HEAD"), method = "get(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/client/multiplayer/ClientLevel;Lnet/minecraft/world/entity/ItemOwner;I)F", cancellable = true)
     private void get__745672854(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-745672854L))
-            info.setReturnValue(4.033427E8F);
+            info.setReturnValue(7.085205E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "type()Lcom/mojang/serialization/MapCodec;", cancellable = true)
@@ -34,7 +34,7 @@ public class Damage_265370233Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_303632974(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(303632974L))
-            info.setReturnValue(1372204480);
+            info.setReturnValue(1677382280);
     }
 
     @Inject(at = @At("HEAD"), method = "normalize()Z", cancellable = true)

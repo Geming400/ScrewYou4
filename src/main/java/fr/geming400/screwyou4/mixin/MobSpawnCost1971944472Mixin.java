@@ -22,19 +22,19 @@ public class MobSpawnCost1971944472Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2010207214(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2010207214L))
-            info.setReturnValue(1516873729);
+            info.setReturnValue(1336206129);
     }
 
     @Inject(at = @At("HEAD"), method = "energyBudget()D", cancellable = true)
     private void energyBudget_2010201913(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2010201913L))
-            info.setReturnValue(7.734049009944736E8D);
+            info.setReturnValue(5.927373009944736E8D);
     }
 
     @Inject(at = @At("HEAD"), method = "charge()D", cancellable = true)
     private void charge_2010201913(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2010201913L))
-            info.setReturnValue(7.734049009944736E8D);
+            info.setReturnValue(5.927373009944736E8D);
     }
 
 

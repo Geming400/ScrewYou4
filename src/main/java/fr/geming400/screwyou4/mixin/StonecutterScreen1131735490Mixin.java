@@ -13,16 +13,16 @@ public class StonecutterScreen1131735490Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "mouseReleased(Lnet/minecraft/client/input/MouseButtonEvent;)Z", cancellable = true)
-    private void mouseReleased_1355357784(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1355357784L))
-            info.setReturnValue(true);
-    }
-
     @Inject(at = @At("HEAD"), method = "mouseClicked(Lnet/minecraft/client/input/MouseButtonEvent;Z)Z", cancellable = true)
     private void mouseClicked__482923388(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-482923388L))
             info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "mouseReleased(Lnet/minecraft/client/input/MouseButtonEvent;)Z", cancellable = true)
+    private void mouseReleased_1355357784(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1355357784L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "mouseScrolled(DDDD)Z", cancellable = true)

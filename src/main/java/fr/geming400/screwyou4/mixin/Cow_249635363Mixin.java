@@ -25,15 +25,15 @@ public class Cow_249635363Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "finalizeSpawn(Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData;", cancellable = true)
-    private void finalizeSpawn_2098367300(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2098367300L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getDefaultDimensions(Lnet/minecraft/world/entity/Pose;)Lnet/minecraft/world/entity/EntityDimensions;", cancellable = true)
     private void getDefaultDimensions__993010682(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-993010682L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "finalizeSpawn(Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData;", cancellable = true)
+    private void finalizeSpawn_2098367300(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2098367300L))
             info.setReturnValue(null);
     }
 

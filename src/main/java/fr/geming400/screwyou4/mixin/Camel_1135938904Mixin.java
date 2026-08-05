@@ -31,6 +31,24 @@ public class Camel_1135938904Mixin {
             info.setReturnValue(false);
     }
 
+    @Inject(at = @At("HEAD"), method = "standUpInstantly()V", cancellable = true)
+    private void standUpInstantly_1174213642(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1174213642L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "isInPoseTransition()Z", cancellable = true)
+    private void isInPoseTransition_1174217486(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1174217486L))
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "refuseToMove()Z", cancellable = true)
+    private void refuseToMove_1174217486(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1174217486L))
+            info.setReturnValue(false);
+    }
+
     @Inject(at = @At("HEAD"), method = "checkCamelSpawnRules(Lnet/minecraft/world/entity/EntityType;Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)Z", cancellable = true)
     private static void checkCamelSpawnRules_293675209(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(293675209L))
@@ -43,14 +61,14 @@ public class Camel_1135938904Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "standUpInstantly()V", cancellable = true)
-    private void standUpInstantly_1174213642(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1174213642L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "getPoseTime()J", cancellable = true)
+    private void getPoseTime_1174202110(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1174202110L))
+            info.setReturnValue(-2174561492117906005L);
     }
 
-    @Inject(at = @At("HEAD"), method = "refuseToMove()Z", cancellable = true)
-    private void refuseToMove_1174217486(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "canCamelChangePose()Z", cancellable = true)
+    private void canCamelChangePose_1174217486(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1174217486L))
             info.setReturnValue(false);
     }
@@ -61,26 +79,56 @@ public class Camel_1135938904Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "canCamelChangePose()Z", cancellable = true)
-    private void canCamelChangePose_1174217486(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1174217486L))
-            info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getPoseTime()J", cancellable = true)
-    private void getPoseTime_1174202110(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1174202110L))
-            info.setReturnValue(-2174561492155887705L);
-    }
-
     @Inject(at = @At("HEAD"), method = "isCamelVisuallySitting()Z", cancellable = true)
     private void isCamelVisuallySitting_1174217486(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1174217486L))
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "isInPoseTransition()Z", cancellable = true)
-    private void isInPoseTransition_1174217486(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "openCustomInventoryScreen(Lnet/minecraft/world/entity/player/Player;)V", cancellable = true)
+    private void openCustomInventoryScreen_2076540549(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(2076540549L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "onPlayerJump(I)V", cancellable = true)
+    private void onPlayerJump__1945111421(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1945111421L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getJumpCooldown()I", cancellable = true)
+    private void getJumpCooldown_1174201149(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1174201149L))
+            info.setReturnValue(156364064);
+    }
+
+    @Inject(at = @At("HEAD"), method = "handleStopJump()V", cancellable = true)
+    private void handleStopJump_1174213642(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1174213642L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "handleStartJump(I)V", cancellable = true)
+    private void handleStartJump__1945111421(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1945111421L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "canMate(Lnet/minecraft/world/entity/animal/Animal;)Z", cancellable = true)
+    private void canMate_1698002409(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1698002409L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isFood(Lnet/minecraft/world/item/ItemStack;)Z", cancellable = true)
+    private void isFood__1424493261(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1424493261L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "canSprint()Z", cancellable = true)
+    private void canSprint_1174217486(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1174217486L))
             info.setReturnValue(false);
     }
@@ -89,12 +137,6 @@ public class Camel_1135938904Mixin {
     private void travel_1503674902(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1503674902L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "canSprint()Z", cancellable = true)
-    private void canSprint_1174217486(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1174217486L))
-            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "getBrain()Lnet/minecraft/world/entity/ai/Brain;", cancellable = true)
@@ -109,12 +151,6 @@ public class Camel_1135938904Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "finalizeSpawn(Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData;", cancellable = true)
-    private void finalizeSpawn__1310296455(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1310296455L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "onSyncedDataUpdated(Lnet/minecraft/network/syncher/EntityDataAccessor;)V", cancellable = true)
     private void onSyncedDataUpdated__1513278949(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1513278949L))
@@ -124,7 +160,7 @@ public class Camel_1135938904Mixin {
     @Inject(at = @At("HEAD"), method = "createAttributes()Lnet/minecraft/world/entity/ai/attributes/AttributeSupplier$Builder;", cancellable = true)
     private static void createAttributes_435720458(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(435720458L))
-            info.setReturnValue(new net.minecraft.world.entity.ai.attributes.AttributeSupplier$Builder());
+            info.setReturnValue(new net.minecraft.world.entity.ai.attributes.AttributeSupplier.Builder());
     }
 
     @Inject(at = @At("HEAD"), method = "getDefaultDimensions(Lnet/minecraft/world/entity/Pose;)Lnet/minecraft/world/entity/EntityDimensions;", cancellable = true)
@@ -136,7 +172,37 @@ public class Camel_1135938904Mixin {
     @Inject(at = @At("HEAD"), method = "getAgeScale()F", cancellable = true)
     private void getAgeScale_1174198266(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1174198266L))
-            info.setReturnValue(1.59483E8F);
+            info.setReturnValue(1.959682E8F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "finalizeSpawn(Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData;", cancellable = true)
+    private void finalizeSpawn__1310296455(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1310296455L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getBreedOffspring(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/AgeableMob;)Lnet/minecraft/world/entity/AgeableMob;", cancellable = true)
+    private void getBreedOffspring__1561239811(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1561239811L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getBreedOffspring(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/AgeableMob;)Lnet/minecraft/world/entity/animal/camel/Camel;", cancellable = true)
+    private void getBreedOffspring_1084624762(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1084624762L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "mobInteract(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResult;", cancellable = true)
+    private void mobInteract__1542202551(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1542202551L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getMaxHeadYRot()I", cancellable = true)
+    private void getMaxHeadYRot_1174201149(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1174201149L))
+            info.setReturnValue(156364064);
     }
 
     @Inject(at = @At("HEAD"), method = "onElasticLeashPull()V", cancellable = true)
@@ -157,82 +223,16 @@ public class Camel_1135938904Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getMaxHeadYRot()I", cancellable = true)
-    private void getMaxHeadYRot_1174201149(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1174201149L))
-            info.setReturnValue(119878864);
-    }
-
-    @Inject(at = @At("HEAD"), method = "mobInteract(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResult;", cancellable = true)
-    private void mobInteract__1542202551(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1542202551L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getBreedOffspring(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/AgeableMob;)Lnet/minecraft/world/entity/animal/camel/Camel;", cancellable = true)
-    private void getBreedOffspring_1084624762(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1084624762L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getBreedOffspring(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/AgeableMob;)Lnet/minecraft/world/entity/AgeableMob;", cancellable = true)
-    private void getBreedOffspring__1561239811(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1561239811L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "canMate(Lnet/minecraft/world/entity/animal/Animal;)Z", cancellable = true)
-    private void canMate_1698002409(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1698002409L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isFood(Lnet/minecraft/world/item/ItemStack;)Z", cancellable = true)
-    private void isFood__1424493261(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1424493261L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isTamed()Z", cancellable = true)
-    private void isTamed_1174217486(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1174217486L))
-            info.setReturnValue(false);
-    }
-
     @Inject(at = @At("HEAD"), method = "canJump()Z", cancellable = true)
     private void canJump_1174217486(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1174217486L))
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "handleStartJump(I)V", cancellable = true)
-    private void handleStartJump__1945111421(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1945111421L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "handleStopJump()V", cancellable = true)
-    private void handleStopJump_1174213642(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1174213642L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "openCustomInventoryScreen(Lnet/minecraft/world/entity/player/Player;)V", cancellable = true)
-    private void openCustomInventoryScreen_2076540549(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(2076540549L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "getJumpCooldown()I", cancellable = true)
-    private void getJumpCooldown_1174201149(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1174201149L))
-            info.setReturnValue(119878864);
-    }
-
-    @Inject(at = @At("HEAD"), method = "onPlayerJump(I)V", cancellable = true)
-    private void onPlayerJump__1945111421(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1945111421L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "isTamed()Z", cancellable = true)
+    private void isTamed_1174217486(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1174217486L))
+            info.setReturnValue(false);
     }
 
 

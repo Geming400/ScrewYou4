@@ -13,15 +13,15 @@ public class TippableArrowRenderer1891152847Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/entity/projectile/arrow/AbstractArrow;Lnet/minecraft/client/renderer/entity/state/ArrowRenderState;F)V", cancellable = true)
-    private void extractRenderState_901477570(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(901477570L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/entity/projectile/arrow/Arrow;Lnet/minecraft/client/renderer/entity/state/TippableArrowRenderState;F)V", cancellable = true)
     private void extractRenderState__441355345(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-441355345L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/entity/projectile/arrow/AbstractArrow;Lnet/minecraft/client/renderer/entity/state/ArrowRenderState;F)V", cancellable = true)
+    private void extractRenderState_901477570(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(901477570L))
             info.cancel();
     }
 

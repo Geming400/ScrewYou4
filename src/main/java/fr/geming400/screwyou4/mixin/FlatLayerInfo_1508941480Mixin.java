@@ -16,7 +16,7 @@ public class FlatLayerInfo_1508941480Mixin {
     @Inject(at = @At("HEAD"), method = "getHeight()I", cancellable = true)
     private void getHeight_1547203725(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1547203725L))
-            info.setReturnValue(-937878141);
+            info.setReturnValue(-561225441);
     }
 
     @Inject(at = @At("HEAD"), method = "getBlockState()Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)

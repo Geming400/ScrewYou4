@@ -16,7 +16,13 @@ public class CatalystListener_1767964488Mixin {
     @Inject(at = @At("HEAD"), method = "getListenerRadius()I", cancellable = true)
     private void getListenerRadius_1806226733(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1806226733L))
-            info.setReturnValue(-1642235903);
+            info.setReturnValue(1765276993);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getListenerSource()Lnet/minecraft/world/level/gameevent/PositionSource;", cancellable = true)
+    private void getListenerSource__1856145554(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1856145554L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "handleGameEvent(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/Holder;Lnet/minecraft/world/level/gameevent/GameEvent$Context;Lnet/minecraft/world/phys/Vec3;)Z", cancellable = true)
@@ -29,12 +35,6 @@ public class CatalystListener_1767964488Mixin {
     private void getDeliveryMode__1827011757(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1827011757L))
             info.setReturnValue(net.minecraft.world.level.gameevent.GameEventListener.DeliveryMode.UNSPECIFIED);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getListenerSource()Lnet/minecraft/world/level/gameevent/PositionSource;", cancellable = true)
-    private void getListenerSource__1856145554(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1856145554L))
-            info.setReturnValue(null);
     }
 
 

@@ -22,37 +22,37 @@ public class SpeleothemConfiguration42920590Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_81183332(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(81183332L))
-            info.setReturnValue(-889123919);
-    }
-
-    @Inject(at = @At("HEAD"), method = "chanceOfDirectionalSpread()F", cancellable = true)
-    private void chanceOfDirectionalSpread_81179953(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(81179953L))
-            info.setReturnValue(9.634361E8F);
-    }
-
-    @Inject(at = @At("HEAD"), method = "chanceOfSpreadRadius2()F", cancellable = true)
-    private void chanceOfSpreadRadius2_81179953(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(81179953L))
-            info.setReturnValue(9.634361E8F);
-    }
-
-    @Inject(at = @At("HEAD"), method = "chanceOfTallerGeneration()F", cancellable = true)
-    private void chanceOfTallerGeneration_81179953(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(81179953L))
-            info.setReturnValue(9.634361E8F);
-    }
-
-    @Inject(at = @At("HEAD"), method = "chanceOfSpreadRadius3()F", cancellable = true)
-    private void chanceOfSpreadRadius3_81179953(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(81179953L))
-            info.setReturnValue(9.634361E8F);
+            info.setReturnValue(-1027711119);
     }
 
     @Inject(at = @At("HEAD"), method = "pointedBlock()Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
     private void pointedBlock_2042129020(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2042129020L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "chanceOfSpreadRadius3()F", cancellable = true)
+    private void chanceOfSpreadRadius3_81179953(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(81179953L))
+            info.setReturnValue(8.248489E8F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "chanceOfTallerGeneration()F", cancellable = true)
+    private void chanceOfTallerGeneration_81179953(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(81179953L))
+            info.setReturnValue(8.248489E8F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "chanceOfSpreadRadius2()F", cancellable = true)
+    private void chanceOfSpreadRadius2_81179953(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(81179953L))
+            info.setReturnValue(8.248489E8F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "chanceOfDirectionalSpread()F", cancellable = true)
+    private void chanceOfDirectionalSpread_81179953(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(81179953L))
+            info.setReturnValue(8.248489E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "replaceableBlocks()Lnet/minecraft/core/HolderSet;", cancellable = true)

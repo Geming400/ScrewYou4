@@ -22,7 +22,7 @@ public class TransferState1012365160Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1050627902(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1050627902L))
-            info.setReturnValue(-734629849);
+            info.setReturnValue(-586213649);
     }
 
     @Inject(at = @At("HEAD"), method = "cookies()Ljava/util/Map;", cancellable = true)
@@ -31,16 +31,16 @@ public class TransferState1012365160Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "seenPlayers()Ljava/util/Map;", cancellable = true)
-    private void seenPlayers__992258480(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-992258480L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "seenInsecureChatWarning()Z", cancellable = true)
     private void seenInsecureChatWarning_1050643743(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1050643743L))
             info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "seenPlayers()Ljava/util/Map;", cancellable = true)
+    private void seenPlayers__992258480(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-992258480L))
+            info.setReturnValue(null);
     }
 
 

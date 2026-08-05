@@ -22,19 +22,19 @@ public class NoiseHolder1683663724Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1721926466(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1721926466L))
-            info.setReturnValue(761707085);
+            info.setReturnValue(559028485);
     }
 
     @Inject(at = @At("HEAD"), method = "getValue(DDD)D", cancellable = true)
     private void getValue_613239553(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(613239553L))
-            info.setReturnValue(6.953228002931349E8D);
+            info.setReturnValue(4.92644200293135E8D);
     }
 
     @Inject(at = @At("HEAD"), method = "maxValue()D", cancellable = true)
     private void maxValue_1721921165(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1721921165L))
-            info.setReturnValue(6.953228008339609E8D);
+            info.setReturnValue(4.9264420083396095E8D);
     }
 
     @Inject(at = @At("HEAD"), method = "noise()Lnet/minecraft/world/level/levelgen/synth/NormalNoise;", cancellable = true)

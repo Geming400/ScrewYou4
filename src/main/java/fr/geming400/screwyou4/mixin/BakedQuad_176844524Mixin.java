@@ -22,7 +22,7 @@ public class BakedQuad_176844524Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_215107265(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(215107265L))
-            info.setReturnValue(-1373513000);
+            info.setReturnValue(-1207721300);
     }
 
     @Inject(at = @At("HEAD"), method = "position(I)Lorg/joml/Vector3fc;", cancellable = true)
@@ -43,10 +43,22 @@ public class BakedQuad_176844524Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "position2()Lorg/joml/Vector3fc;", cancellable = true)
-    private void position2_722789228(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(722789228L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "packedUV(I)J", cancellable = true)
+    private void packedUV_1390749963(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1390749963L))
+            info.setReturnValue(-6480373605632280667L);
+    }
+
+    @Inject(at = @At("HEAD"), method = "packedUV2()J", cancellable = true)
+    private void packedUV2_215107730(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(215107730L))
+            info.setReturnValue(-3034217796264345231L);
+    }
+
+    @Inject(at = @At("HEAD"), method = "packedUV3()J", cancellable = true)
+    private void packedUV3_215107730(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(215107730L))
+            info.setReturnValue(-3034217796264345231L);
     }
 
     @Inject(at = @At("HEAD"), method = "position3()Lorg/joml/Vector3fc;", cancellable = true)
@@ -58,19 +70,13 @@ public class BakedQuad_176844524Mixin {
     @Inject(at = @At("HEAD"), method = "packedUV0()J", cancellable = true)
     private void packedUV0_215107730(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(215107730L))
-            info.setReturnValue(-3034217796430136931L);
+            info.setReturnValue(-3034217796264345231L);
     }
 
-    @Inject(at = @At("HEAD"), method = "packedUV2()J", cancellable = true)
-    private void packedUV2_215107730(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "packedUV1()J", cancellable = true)
+    private void packedUV1_215107730(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(215107730L))
-            info.setReturnValue(-3034217796430136931L);
-    }
-
-    @Inject(at = @At("HEAD"), method = "packedUV3()J", cancellable = true)
-    private void packedUV3_215107730(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(215107730L))
-            info.setReturnValue(-3034217796430136931L);
+            info.setReturnValue(-3034217796264345231L);
     }
 
     @Inject(at = @At("HEAD"), method = "position1()Lorg/joml/Vector3fc;", cancellable = true)
@@ -79,16 +85,10 @@ public class BakedQuad_176844524Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "packedUV1()J", cancellable = true)
-    private void packedUV1_215107730(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(215107730L))
-            info.setReturnValue(-3034217796430136931L);
-    }
-
-    @Inject(at = @At("HEAD"), method = "packedUV(I)J", cancellable = true)
-    private void packedUV_1390749963(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1390749963L))
-            info.setReturnValue(-6480373605798072367L);
+    @Inject(at = @At("HEAD"), method = "position2()Lorg/joml/Vector3fc;", cancellable = true)
+    private void position2_722789228(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(722789228L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "materialInfo()Lnet/minecraft/client/resources/model/geometry/BakedQuad$MaterialInfo;", cancellable = true)

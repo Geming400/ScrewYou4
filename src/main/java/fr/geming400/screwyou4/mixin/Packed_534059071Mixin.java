@@ -22,7 +22,7 @@ public class Packed_534059071Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_572321812(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(572321812L))
-            info.setReturnValue(1448094230);
+            info.setReturnValue(1720075930);
     }
 
     @Inject(at = @At("HEAD"), method = "write(Lnet/minecraft/network/FriendlyByteBuf;)V", cancellable = true)
@@ -40,12 +40,12 @@ public class Packed_534059071Mixin {
     @Inject(at = @At("HEAD"), method = "salt()J", cancellable = true)
     private void salt_572322277(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(572322277L))
-            info.setReturnValue(4265481410611004594L);
+            info.setReturnValue(4265481410882986294L);
     }
 
-    @Inject(at = @At("HEAD"), method = "lastSeen()Lnet/minecraft/network/chat/LastSeenMessages$Packed;", cancellable = true)
-    private void lastSeen__1506619953(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1506619953L))
+    @Inject(at = @At("HEAD"), method = "timeStamp()Ljava/time/Instant;", cancellable = true)
+    private void timeStamp_1631293270(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1631293270L))
             info.setReturnValue(null);
     }
 
@@ -55,9 +55,9 @@ public class Packed_534059071Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "timeStamp()Ljava/time/Instant;", cancellable = true)
-    private void timeStamp_1631293270(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1631293270L))
+    @Inject(at = @At("HEAD"), method = "lastSeen()Lnet/minecraft/network/chat/LastSeenMessages$Packed;", cancellable = true)
+    private void lastSeen__1506619953(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1506619953L))
             info.setReturnValue(null);
     }
 

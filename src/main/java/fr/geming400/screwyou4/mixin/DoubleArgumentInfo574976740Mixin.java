@@ -19,6 +19,18 @@ public class DoubleArgumentInfo574976740Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "serializeToNetwork(Lnet/minecraft/commands/synchronization/brigadier/DoubleArgumentInfo$Template;Lnet/minecraft/network/FriendlyByteBuf;)V", cancellable = true)
+    private void serializeToNetwork__1596682902(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1596682902L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "serializeToNetwork(Lnet/minecraft/commands/synchronization/ArgumentTypeInfo$Template;Lnet/minecraft/network/FriendlyByteBuf;)V", cancellable = true)
+    private void serializeToNetwork__382393525(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-382393525L))
+            info.cancel();
+    }
+
     @Inject(at = @At("HEAD"), method = "deserializeFromNetwork(Lnet/minecraft/network/FriendlyByteBuf;)Lnet/minecraft/commands/synchronization/ArgumentTypeInfo$Template;", cancellable = true)
     private void deserializeFromNetwork_115595311(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(115595311L))
@@ -29,18 +41,6 @@ public class DoubleArgumentInfo574976740Mixin {
     private void deserializeFromNetwork__583323600(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-583323600L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "serializeToNetwork(Lnet/minecraft/commands/synchronization/ArgumentTypeInfo$Template;Lnet/minecraft/network/FriendlyByteBuf;)V", cancellable = true)
-    private void serializeToNetwork__382393525(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-382393525L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "serializeToNetwork(Lnet/minecraft/commands/synchronization/brigadier/DoubleArgumentInfo$Template;Lnet/minecraft/network/FriendlyByteBuf;)V", cancellable = true)
-    private void serializeToNetwork__1596682902(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1596682902L))
-            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "serializeToJson(Lnet/minecraft/commands/synchronization/brigadier/DoubleArgumentInfo$Template;Lcom/google/gson/JsonObject;)V", cancellable = true)

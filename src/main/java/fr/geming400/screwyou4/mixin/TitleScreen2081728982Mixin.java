@@ -25,10 +25,16 @@ public class TitleScreen2081728982Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "shouldCloseOnEsc()Z", cancellable = true)
-    private void shouldCloseOnEsc_2120007565(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "canInterruptWithAnotherScreen()Z", cancellable = true)
+    private void canInterruptWithAnotherScreen_2120007565(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2120007565L))
             info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "registerTextures(Lnet/minecraft/client/renderer/texture/TextureManager;)V", cancellable = true)
+    private static void registerTextures_314508718(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(314508718L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIF)V", cancellable = true)
@@ -49,22 +55,16 @@ public class TitleScreen2081728982Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "mouseClicked(Lnet/minecraft/client/input/MouseButtonEvent;Z)Z", cancellable = true)
-    private void mouseClicked_467070104(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(467070104L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "canInterruptWithAnotherScreen()Z", cancellable = true)
-    private void canInterruptWithAnotherScreen_2120007565(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "shouldCloseOnEsc()Z", cancellable = true)
+    private void shouldCloseOnEsc_2120007565(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2120007565L))
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "registerTextures(Lnet/minecraft/client/renderer/texture/TextureManager;)V", cancellable = true)
-    private static void registerTextures_314508718(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(314508718L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "mouseClicked(Lnet/minecraft/client/input/MouseButtonEvent;Z)Z", cancellable = true)
+    private void mouseClicked_467070104(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(467070104L))
+            info.setReturnValue(true);
     }
 
 

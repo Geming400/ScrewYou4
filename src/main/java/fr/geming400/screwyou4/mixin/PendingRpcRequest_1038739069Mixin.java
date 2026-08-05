@@ -28,7 +28,7 @@ public class PendingRpcRequest_1038739069Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1077001810(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1077001810L))
-            info.setReturnValue(1776488659);
+            info.setReturnValue(1347182759);
     }
 
     @Inject(at = @At("HEAD"), method = "accept(Lcom/google/gson/JsonElement;)V", cancellable = true)
@@ -52,7 +52,7 @@ public class PendingRpcRequest_1038739069Mixin {
     @Inject(at = @At("HEAD"), method = "timeoutTime()J", cancellable = true)
     private void timeoutTime_1077002275(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1077002275L))
-            info.setReturnValue(701515336345004249L);
+            info.setReturnValue(701515335915698349L);
     }
 
 

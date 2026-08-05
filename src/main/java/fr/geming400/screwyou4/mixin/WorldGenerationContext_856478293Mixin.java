@@ -10,13 +10,13 @@ public class WorldGenerationContext_856478293Mixin {
         @Inject(at = @At("HEAD"), method = "getMinGenY()I", cancellable = true)
     private void getMinGenY_894740538(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(894740538L))
-            info.setReturnValue(249062955);
+            info.setReturnValue(347285755);
     }
 
     @Inject(at = @At("HEAD"), method = "getGenDepth()I", cancellable = true)
     private void getGenDepth_894740538(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(894740538L))
-            info.setReturnValue(249062955);
+            info.setReturnValue(347285755);
     }
 
 

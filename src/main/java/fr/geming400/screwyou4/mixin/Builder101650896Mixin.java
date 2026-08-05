@@ -19,15 +19,9 @@ public class Builder101650896Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "consumeSeconds(F)Lnet/minecraft/world/item/component/Consumable$Builder;", cancellable = true)
-    private void consumeSeconds__846339149(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-846339149L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "hasConsumeParticles(Z)Lnet/minecraft/world/item/component/Consumable$Builder;", cancellable = true)
-    private void hasConsumeParticles_465691335(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(465691335L))
+    @Inject(at = @At("HEAD"), method = "soundAfterConsume(Lnet/minecraft/core/Holder;)Lnet/minecraft/world/item/component/Consumable$Builder;", cancellable = true)
+    private void soundAfterConsume_894246092(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(894246092L))
             info.setReturnValue(null);
     }
 
@@ -43,9 +37,15 @@ public class Builder101650896Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "soundAfterConsume(Lnet/minecraft/core/Holder;)Lnet/minecraft/world/item/component/Consumable$Builder;", cancellable = true)
-    private void soundAfterConsume_894246092(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(894246092L))
+    @Inject(at = @At("HEAD"), method = "consumeSeconds(F)Lnet/minecraft/world/item/component/Consumable$Builder;", cancellable = true)
+    private void consumeSeconds__846339149(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-846339149L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "hasConsumeParticles(Z)Lnet/minecraft/world/item/component/Consumable$Builder;", cancellable = true)
+    private void hasConsumeParticles_465691335(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(465691335L))
             info.setReturnValue(null);
     }
 

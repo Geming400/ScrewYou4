@@ -22,7 +22,7 @@ public class EmptyNeighbor_834002553Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_872265294(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(872265294L))
-            info.setReturnValue(-1916053182);
+            info.setReturnValue(-1625903982);
     }
 
     @Inject(at = @At("HEAD"), method = "pos()Lnet/minecraft/core/BlockPos;", cancellable = true)
@@ -37,16 +37,16 @@ public class EmptyNeighbor_834002553Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "connectsTowards(Lnet/minecraft/world/level/block/state/properties/SideChainPart;)Z", cancellable = true)
-    private void connectsTowards_1824386785(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1824386785L))
-            info.setReturnValue(true);
-    }
-
     @Inject(at = @At("HEAD"), method = "isUnconnectableOrChainEnd()Z", cancellable = true)
     private void isUnconnectableOrChainEnd_872281135(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(872281135L))
             info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "connectsTowards(Lnet/minecraft/world/level/block/state/properties/SideChainPart;)Z", cancellable = true)
+    private void connectsTowards_1824386785(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1824386785L))
+            info.setReturnValue(true);
     }
 
 

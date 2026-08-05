@@ -22,7 +22,7 @@ public class StructureSpawnOverride1152794592Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1191057334(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1191057334L))
-            info.setReturnValue(1973944819);
+            info.setReturnValue(-2110819377);
     }
 
     @Inject(at = @At("HEAD"), method = "spawns()Lnet/minecraft/util/random/WeightedList;", cancellable = true)

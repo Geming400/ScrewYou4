@@ -13,21 +13,15 @@ public class Builder_829977232Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "addTrack(Lnet/minecraft/world/attribute/EnvironmentAttribute;Ljava/util/function/Consumer;)Lnet/minecraft/world/timeline/Timeline$Builder;", cancellable = true)
-    private void addTrack__2004130970(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2004130970L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "addModifierTrack(Lnet/minecraft/world/attribute/EnvironmentAttribute;Lnet/minecraft/world/attribute/modifier/AttributeModifier;Ljava/util/function/Consumer;)Lnet/minecraft/world/timeline/Timeline$Builder;", cancellable = true)
-    private void addModifierTrack_1942883158(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1942883158L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "setPeriodTicks(I)Lnet/minecraft/world/timeline/Timeline$Builder;", cancellable = true)
     private void setPeriodTicks__1463901481(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1463901481L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "addTimeMarker(Lnet/minecraft/resources/ResourceKey;I)Lnet/minecraft/world/timeline/Timeline$Builder;", cancellable = true)
+    private void addTimeMarker__1559755309(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1559755309L))
             info.setReturnValue(null);
     }
 
@@ -37,9 +31,15 @@ public class Builder_829977232Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "addTimeMarker(Lnet/minecraft/resources/ResourceKey;I)Lnet/minecraft/world/timeline/Timeline$Builder;", cancellable = true)
-    private void addTimeMarker__1559755309(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1559755309L))
+    @Inject(at = @At("HEAD"), method = "addModifierTrack(Lnet/minecraft/world/attribute/EnvironmentAttribute;Lnet/minecraft/world/attribute/modifier/AttributeModifier;Ljava/util/function/Consumer;)Lnet/minecraft/world/timeline/Timeline$Builder;", cancellable = true)
+    private void addModifierTrack_1942883158(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1942883158L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "addTrack(Lnet/minecraft/world/attribute/EnvironmentAttribute;Ljava/util/function/Consumer;)Lnet/minecraft/world/timeline/Timeline$Builder;", cancellable = true)
+    private void addTrack__2004130970(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2004130970L))
             info.setReturnValue(null);
     }
 

@@ -22,7 +22,7 @@ public class RandomFeatureConfiguration_1499521981Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1537784722(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1537784722L))
-            info.setReturnValue(-187537445);
+            info.setReturnValue(645627855);
     }
 
     @Inject(at = @At("HEAD"), method = "features()Ljava/util/List;", cancellable = true)

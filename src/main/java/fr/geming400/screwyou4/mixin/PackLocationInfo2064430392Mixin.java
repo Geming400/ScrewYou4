@@ -22,7 +22,7 @@ public class PackLocationInfo2064430392Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2102693134(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2102693134L))
-            info.setReturnValue(336614392);
+            info.setReturnValue(256162892);
     }
 
     @Inject(at = @At("HEAD"), method = "id()Ljava/lang/String;", cancellable = true)
@@ -37,6 +37,12 @@ public class PackLocationInfo2064430392Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "createChatLink(ZLnet/minecraft/network/chat/Component;)Lnet/minecraft/network/chat/Component;", cancellable = true)
+    private void createChatLink__364732691(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-364732691L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "title()Lnet/minecraft/network/chat/Component;", cancellable = true)
     private void title__112478773(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-112478773L))
@@ -46,12 +52,6 @@ public class PackLocationInfo2064430392Mixin {
     @Inject(at = @At("HEAD"), method = "knownPackInfo()Ljava/util/Optional;", cancellable = true)
     private void knownPackInfo__1985075482(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1985075482L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "createChatLink(ZLnet/minecraft/network/chat/Component;)Lnet/minecraft/network/chat/Component;", cancellable = true)
-    private void createChatLink__364732691(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-364732691L))
             info.setReturnValue(null);
     }
 

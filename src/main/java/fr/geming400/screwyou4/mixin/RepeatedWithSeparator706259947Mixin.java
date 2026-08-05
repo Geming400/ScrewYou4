@@ -22,7 +22,7 @@ public class RepeatedWithSeparator706259947Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_744522689(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(744522689L))
-            info.setReturnValue(-1328349697);
+            info.setReturnValue(-549782797);
     }
 
     @Inject(at = @At("HEAD"), method = "parse(Lnet/minecraft/util/parsing/packrat/ParseState;Lnet/minecraft/util/parsing/packrat/Scope;Lnet/minecraft/util/parsing/packrat/Control;)Z", cancellable = true)
@@ -52,7 +52,7 @@ public class RepeatedWithSeparator706259947Mixin {
     @Inject(at = @At("HEAD"), method = "minRepetitions()I", cancellable = true)
     private void minRepetitions_744522193(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(744522193L))
-            info.setReturnValue(-1125202277);
+            info.setReturnValue(-346635377);
     }
 
     @Inject(at = @At("HEAD"), method = "allowTrailingSeparator()Z", cancellable = true)

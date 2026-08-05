@@ -22,7 +22,7 @@ public class PlayerPredicate_2006327624Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2044590365(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2044590365L))
-            info.setReturnValue(-1600218387);
+            info.setReturnValue(-1799638087);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/phys/Vec3;)Z", cancellable = true)
@@ -49,15 +49,9 @@ public class PlayerPredicate_2006327624Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "food()Lnet/minecraft/advancements/predicates/FoodPredicate;", cancellable = true)
-    private void food_909822557(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(909822557L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "recipes()Lit/unimi/dsi/fastutil/objects/Object2BooleanMap;", cancellable = true)
-    private void recipes__1668896172(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1668896172L))
+    @Inject(at = @At("HEAD"), method = "stats()Ljava/util/List;", cancellable = true)
+    private void stats__662302857(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-662302857L))
             info.setReturnValue(null);
     }
 
@@ -67,9 +61,15 @@ public class PlayerPredicate_2006327624Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "stats()Ljava/util/List;", cancellable = true)
-    private void stats__662302857(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-662302857L))
+    @Inject(at = @At("HEAD"), method = "food()Lnet/minecraft/advancements/predicates/FoodPredicate;", cancellable = true)
+    private void food_909822557(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(909822557L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "recipes()Lit/unimi/dsi/fastutil/objects/Object2BooleanMap;", cancellable = true)
+    private void recipes__1668896172(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1668896172L))
             info.setReturnValue(null);
     }
 

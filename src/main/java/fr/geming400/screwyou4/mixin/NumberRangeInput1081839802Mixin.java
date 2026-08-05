@@ -22,13 +22,13 @@ public class NumberRangeInput1081839802Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1120102544(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1120102544L))
-            info.setReturnValue(569821579);
+            info.setReturnValue(616767279);
     }
 
     @Inject(at = @At("HEAD"), method = "width()I", cancellable = true)
     private void width_1120102048(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1120102048L))
-            info.setReturnValue(-827586426);
+            info.setReturnValue(-780640726);
     }
 
     @Inject(at = @At("HEAD"), method = "label()Lnet/minecraft/network/chat/Component;", cancellable = true)

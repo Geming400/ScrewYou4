@@ -22,7 +22,7 @@ public class AtlasConfig_462235383Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_500498124(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(500498124L))
-            info.setReturnValue(1673624443);
+            info.setReturnValue(2078163243);
     }
 
     @Inject(at = @At("HEAD"), method = "additionalMetadata()Ljava/util/Set;", cancellable = true)

@@ -31,48 +31,6 @@ public class WorldUpgrader_1732043270Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "dimensionProgress(Lnet/minecraft/resources/ResourceKey;)F", cancellable = true)
-    private void dimensionProgress_1919697196(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1919697196L))
-            info.setReturnValue(8.16449E7F);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isFinished()Z", cancellable = true)
-    private void isFinished_1770321852(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1770321852L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getSkipped()I", cancellable = true)
-    private void getSkipped_1770305515(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1770305515L))
-            info.setReturnValue(1284503957);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getConverted()I", cancellable = true)
-    private void getConverted_1770305515(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1770305515L))
-            info.setReturnValue(1284503957);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getTotalProgress()F", cancellable = true)
-    private void getTotalProgress_1770302632(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1770302632L))
-            info.setReturnValue(8.16449E7F);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getTotalChunks()I", cancellable = true)
-    private void getTotalChunks_1770305515(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1770305515L))
-            info.setReturnValue(1284503957);
-    }
-
-    @Inject(at = @At("HEAD"), method = "verifyChunkPosAndEraseCache(Lnet/minecraft/world/level/ChunkPos;Lnet/minecraft/nbt/CompoundTag;)Z", cancellable = true)
-    private static void verifyChunkPosAndEraseCache__67387821(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-67387821L))
-            info.setReturnValue(true);
-    }
-
     @Inject(at = @At("HEAD"), method = "verifyChunkPos(Lnet/minecraft/world/level/ChunkPos;Lnet/minecraft/nbt/CompoundTag;)Z", cancellable = true)
     private static void verifyChunkPos__67387821(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-67387821L))
@@ -83,6 +41,48 @@ public class WorldUpgrader_1732043270Mixin {
     private static void getDataFixContextTag__1875436901(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1875436901L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "verifyChunkPosAndEraseCache(Lnet/minecraft/world/level/ChunkPos;Lnet/minecraft/nbt/CompoundTag;)Z", cancellable = true)
+    private static void verifyChunkPosAndEraseCache__67387821(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-67387821L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getTotalProgress()F", cancellable = true)
+    private void getTotalProgress_1770302632(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1770302632L))
+            info.setReturnValue(9.914474E8F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getTotalChunks()I", cancellable = true)
+    private void getTotalChunks_1770305515(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1770305515L))
+            info.setReturnValue(-2100660839);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getConverted()I", cancellable = true)
+    private void getConverted_1770305515(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1770305515L))
+            info.setReturnValue(-2100660839);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getSkipped()I", cancellable = true)
+    private void getSkipped_1770305515(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1770305515L))
+            info.setReturnValue(-2100660839);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isFinished()Z", cancellable = true)
+    private void isFinished_1770321852(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1770321852L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "dimensionProgress(Lnet/minecraft/resources/ResourceKey;)F", cancellable = true)
+    private void dimensionProgress_1919697196(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1919697196L))
+            info.setReturnValue(9.914474E8F);
     }
 
 

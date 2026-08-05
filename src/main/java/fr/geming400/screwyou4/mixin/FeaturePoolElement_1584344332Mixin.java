@@ -31,15 +31,15 @@ public class FeaturePoolElement_1584344332Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "getShuffledJigsawBlocks(Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplateManager;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/Rotation;Lnet/minecraft/util/RandomSource;)Ljava/util/List;", cancellable = true)
-    private void getShuffledJigsawBlocks_951213366(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(951213366L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getBoundingBox(Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplateManager;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/Rotation;)Lnet/minecraft/world/level/levelgen/structure/BoundingBox;", cancellable = true)
     private void getBoundingBox_1545148314(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1545148314L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getShuffledJigsawBlocks(Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplateManager;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/Rotation;Lnet/minecraft/util/RandomSource;)Ljava/util/List;", cancellable = true)
+    private void getShuffledJigsawBlocks_951213366(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(951213366L))
             info.setReturnValue(null);
     }
 

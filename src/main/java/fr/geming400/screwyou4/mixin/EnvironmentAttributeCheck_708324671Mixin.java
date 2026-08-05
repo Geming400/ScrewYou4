@@ -28,19 +28,19 @@ public class EnvironmentAttributeCheck_708324671Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_746587412(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(746587412L))
-            info.setReturnValue(-740639553);
-    }
-
-    @Inject(at = @At("HEAD"), method = "test(Lnet/minecraft/world/level/storage/loot/LootContext;)Z", cancellable = true)
-    private void test__1668624428(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1668624428L))
-            info.setReturnValue(false);
+            info.setReturnValue(-301209753);
     }
 
     @Inject(at = @At("HEAD"), method = "test(Ljava/lang/Object;)Z", cancellable = true)
     private void test_2093965393(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2093965393L))
             info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "test(Lnet/minecraft/world/level/storage/loot/LootContext;)Z", cancellable = true)
+    private void test__1668624428(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1668624428L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "attribute()Lnet/minecraft/world/attribute/EnvironmentAttribute;", cancellable = true)

@@ -28,25 +28,25 @@ public class Unbaked1583475627Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1621738369(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1621738369L))
-            info.setReturnValue(1518838359);
+            info.setReturnValue(1680913859);
     }
 
     @Inject(at = @At("HEAD"), method = "openAngle()F", cancellable = true)
     private void openAngle_1621734990(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1621734990L))
-            info.setReturnValue(3.170553E8F);
-    }
-
-    @Inject(at = @At("HEAD"), method = "page1()F", cancellable = true)
-    private void page1_1621734990(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1621734990L))
-            info.setReturnValue(3.170553E8F);
+            info.setReturnValue(4.791308E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "page2()F", cancellable = true)
     private void page2_1621734990(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1621734990L))
-            info.setReturnValue(3.170553E8F);
+            info.setReturnValue(4.791308E8F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "page1()F", cancellable = true)
+    private void page1_1621734990(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1621734990L))
+            info.setReturnValue(4.791308E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "bake(Lnet/minecraft/client/renderer/special/SpecialModelRenderer$BakingContext;)Lnet/minecraft/client/renderer/special/SpecialModelRenderer;", cancellable = true)

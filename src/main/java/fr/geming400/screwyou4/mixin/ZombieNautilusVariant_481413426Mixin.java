@@ -22,13 +22,7 @@ public class ZombieNautilusVariant_481413426Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_519676167(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(519676167L))
-            info.setReturnValue(698815116);
-    }
-
-    @Inject(at = @At("HEAD"), method = "selectors()Ljava/util/List;", cancellable = true)
-    private void selectors_2107750241(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2107750241L))
-            info.setReturnValue(null);
+            info.setReturnValue(704403616);
     }
 
     @Inject(at = @At("HEAD"), method = "spawnConditions()Lnet/minecraft/world/entity/variant/SpawnPrioritySelectors;", cancellable = true)
@@ -40,6 +34,12 @@ public class ZombieNautilusVariant_481413426Mixin {
     @Inject(at = @At("HEAD"), method = "modelAndTexture()Lnet/minecraft/world/entity/variant/ModelAndTexture;", cancellable = true)
     private void modelAndTexture_1310141495(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1310141495L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "selectors()Ljava/util/List;", cancellable = true)
+    private void selectors_2107750241(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2107750241L))
             info.setReturnValue(null);
     }
 

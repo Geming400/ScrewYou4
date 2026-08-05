@@ -22,7 +22,7 @@ public class DataComponentExactPredicate1934824685Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1973086931(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1973086931L))
-            info.setReturnValue(-252117778);
+            info.setReturnValue(-715953278);
     }
 
     @Inject(at = @At("HEAD"), method = "test(Ljava/lang/Object;)Z", cancellable = true)
@@ -61,9 +61,9 @@ public class DataComponentExactPredicate1934824685Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "asPatch()Lnet/minecraft/core/component/DataComponentPatch;", cancellable = true)
-    private void asPatch_209650062(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(209650062L))
+    @Inject(at = @At("HEAD"), method = "someOf(Lnet/minecraft/core/component/DataComponentMap;[Lnet/minecraft/core/component/DataComponentType;)Lnet/minecraft/core/component/DataComponentExactPredicate;", cancellable = true)
+    private static void someOf_428405915(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(428405915L))
             info.setReturnValue(null);
     }
 
@@ -73,9 +73,9 @@ public class DataComponentExactPredicate1934824685Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "someOf(Lnet/minecraft/core/component/DataComponentMap;[Lnet/minecraft/core/component/DataComponentType;)Lnet/minecraft/core/component/DataComponentExactPredicate;", cancellable = true)
-    private static void someOf_428405915(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(428405915L))
+    @Inject(at = @At("HEAD"), method = "asPatch()Lnet/minecraft/core/component/DataComponentPatch;", cancellable = true)
+    private void asPatch_209650062(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(209650062L))
             info.setReturnValue(null);
     }
 

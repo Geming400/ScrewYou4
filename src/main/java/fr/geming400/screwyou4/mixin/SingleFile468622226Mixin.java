@@ -28,18 +28,18 @@ public class SingleFile468622226Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_506884968(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(506884968L))
-            info.setReturnValue(-1850771401);
-    }
-
-    @Inject(at = @At("HEAD"), method = "resourceId()Lnet/minecraft/resources/Identifier;", cancellable = true)
-    private void resourceId__1974444327(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1974444327L))
-            info.setReturnValue(null);
+            info.setReturnValue(1866657995);
     }
 
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
     private void codec__2090491346(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2090491346L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "resourceId()Lnet/minecraft/resources/Identifier;", cancellable = true)
+    private void resourceId__1974444327(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1974444327L))
             info.setReturnValue(null);
     }
 

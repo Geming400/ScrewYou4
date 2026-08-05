@@ -13,12 +13,6 @@ public class ApplyBonusCount2068205712Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "addBonusBinomialDistributionCount(Lnet/minecraft/core/Holder;FI)Lnet/minecraft/world/level/storage/loot/functions/LootItemConditionalFunction$Builder;", cancellable = true)
-    private static void addBonusBinomialDistributionCount__515598507(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-515598507L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
     private void codec__490907860(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-490907860L))
@@ -31,9 +25,9 @@ public class ApplyBonusCount2068205712Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "addOreBonusCount(Lnet/minecraft/core/Holder;)Lnet/minecraft/world/level/storage/loot/functions/LootItemConditionalFunction$Builder;", cancellable = true)
-    private static void addOreBonusCount__309449480(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-309449480L))
+    @Inject(at = @At("HEAD"), method = "addBonusBinomialDistributionCount(Lnet/minecraft/core/Holder;FI)Lnet/minecraft/world/level/storage/loot/functions/LootItemConditionalFunction$Builder;", cancellable = true)
+    private static void addBonusBinomialDistributionCount__515598507(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-515598507L))
             info.setReturnValue(null);
     }
 
@@ -46,6 +40,12 @@ public class ApplyBonusCount2068205712Mixin {
     @Inject(at = @At("HEAD"), method = "addUniformBonusCount(Lnet/minecraft/core/Holder;I)Lnet/minecraft/world/level/storage/loot/functions/LootItemConditionalFunction$Builder;", cancellable = true)
     private static void addUniformBonusCount_1069538589(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1069538589L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "addOreBonusCount(Lnet/minecraft/core/Holder;)Lnet/minecraft/world/level/storage/loot/functions/LootItemConditionalFunction$Builder;", cancellable = true)
+    private static void addOreBonusCount__309449480(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-309449480L))
             info.setReturnValue(null);
     }
 

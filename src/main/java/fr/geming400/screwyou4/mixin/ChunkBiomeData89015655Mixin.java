@@ -22,7 +22,7 @@ public class ChunkBiomeData89015655Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_127278397(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(127278397L))
-            info.setReturnValue(2032234758);
+            info.setReturnValue(2119373958);
     }
 
     @Inject(at = @At("HEAD"), method = "buffer()[B", cancellable = true)
@@ -43,16 +43,16 @@ public class ChunkBiomeData89015655Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getReadBuffer()Lnet/minecraft/network/FriendlyByteBuf;", cancellable = true)
-    private void getReadBuffer_1000058656(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1000058656L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "extractChunkData(Lnet/minecraft/network/FriendlyByteBuf;Lnet/minecraft/world/level/chunk/LevelChunk;)V", cancellable = true)
     private static void extractChunkData_101490374(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(101490374L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getReadBuffer()Lnet/minecraft/network/FriendlyByteBuf;", cancellable = true)
+    private void getReadBuffer_1000058656(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1000058656L))
+            info.setReturnValue(null);
     }
 
 

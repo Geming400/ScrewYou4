@@ -22,7 +22,7 @@ public class RecipeButton1948747658Mixin {
     @Inject(at = @At("HEAD"), method = "getWidth()I", cancellable = true)
     private void getWidth_1987009904(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1987009904L))
-            info.setReturnValue(1645724322);
+            info.setReturnValue(1908562422);
     }
 
     @Inject(at = @At("HEAD"), method = "extractWidgetRenderState(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIF)V", cancellable = true)
@@ -37,10 +37,10 @@ public class RecipeButton1948747658Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "isOnlyOption()Z", cancellable = true)
-    private void isOnlyOption_1987026241(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1987026241L))
-            info.setReturnValue(true);
+    @Inject(at = @At("HEAD"), method = "getDisplayStack()Lnet/minecraft/world/item/ItemStack;", cancellable = true)
+    private void getDisplayStack__1822800978(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1822800978L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getTooltipText(Lnet/minecraft/world/item/ItemStack;)Ljava/util/List;", cancellable = true)
@@ -55,10 +55,10 @@ public class RecipeButton1948747658Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getDisplayStack()Lnet/minecraft/world/item/ItemStack;", cancellable = true)
-    private void getDisplayStack__1822800978(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1822800978L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "isOnlyOption()Z", cancellable = true)
+    private void isOnlyOption_1987026241(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1987026241L))
+            info.setReturnValue(true);
     }
 
 

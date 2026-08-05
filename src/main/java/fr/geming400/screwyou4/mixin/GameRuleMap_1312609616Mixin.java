@@ -16,7 +16,7 @@ public class GameRuleMap_1312609616Mixin {
     @Inject(at = @At("HEAD"), method = "size()I", cancellable = true)
     private void size_1350871861(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1350871861L))
-            info.setReturnValue(2022516321);
+            info.setReturnValue(1577192821);
     }
 
     @Inject(at = @At("HEAD"), method = "reset(Lnet/minecraft/world/level/gamerules/GameRule;)V", cancellable = true)
@@ -46,7 +46,7 @@ public class GameRuleMap_1312609616Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1350871861(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1350871861L))
-            info.setReturnValue(2022516321);
+            info.setReturnValue(1577192821);
     }
 
     @Inject(at = @At("HEAD"), method = "copyOf(Lnet/minecraft/world/level/gamerules/GameRuleMap;)Lnet/minecraft/world/level/gamerules/GameRuleMap;", cancellable = true)
@@ -85,16 +85,16 @@ public class GameRuleMap_1312609616Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "setFromIf(Lnet/minecraft/world/level/gamerules/GameRuleMap;Ljava/util/function/Predicate;)V", cancellable = true)
-    private void setFromIf_1397468960(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1397468960L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "withOther(Lnet/minecraft/world/level/gamerules/GameRuleMap;)Lnet/minecraft/world/level/gamerules/GameRuleMap;", cancellable = true)
     private void withOther_971416538(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(971416538L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "setFromIf(Lnet/minecraft/world/level/gamerules/GameRuleMap;Ljava/util/function/Predicate;)V", cancellable = true)
+    private void setFromIf_1397468960(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1397468960L))
+            info.cancel();
     }
 
 

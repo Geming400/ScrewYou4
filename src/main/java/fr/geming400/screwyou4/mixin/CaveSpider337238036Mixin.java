@@ -13,9 +13,9 @@ public class CaveSpider337238036Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "finalizeSpawn(Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData;", cancellable = true)
-    private void finalizeSpawn__2108997322(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2108997322L))
+    @Inject(at = @At("HEAD"), method = "getVehicleAttachmentPoint(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/world/phys/Vec3;", cancellable = true)
+    private void getVehicleAttachmentPoint__1672900570(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1672900570L))
             info.setReturnValue(null);
     }
 
@@ -25,9 +25,9 @@ public class CaveSpider337238036Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "getVehicleAttachmentPoint(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/world/phys/Vec3;", cancellable = true)
-    private void getVehicleAttachmentPoint__1672900570(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1672900570L))
+    @Inject(at = @At("HEAD"), method = "finalizeSpawn(Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData;", cancellable = true)
+    private void finalizeSpawn__2108997322(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2108997322L))
             info.setReturnValue(null);
     }
 

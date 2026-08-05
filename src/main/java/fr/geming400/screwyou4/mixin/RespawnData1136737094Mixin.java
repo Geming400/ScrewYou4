@@ -22,7 +22,7 @@ public class RespawnData1136737094Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1174999836(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1174999836L))
-            info.setReturnValue(1494343753);
+            info.setReturnValue(1847128553);
     }
 
     @Inject(at = @At("HEAD"), method = "of(Lnet/minecraft/resources/ResourceKey;Lnet/minecraft/core/BlockPos;FF)Lnet/minecraft/world/level/storage/LevelData$RespawnData;", cancellable = true)
@@ -40,13 +40,13 @@ public class RespawnData1136737094Mixin {
     @Inject(at = @At("HEAD"), method = "pitch()F", cancellable = true)
     private void pitch_1174996457(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1174996457L))
-            info.setReturnValue(6.253388E8F);
+            info.setReturnValue(9.781236E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "yaw()F", cancellable = true)
     private void yaw_1174996457(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1174996457L))
-            info.setReturnValue(6.253388E8F);
+            info.setReturnValue(9.781236E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "dimension()Lnet/minecraft/resources/ResourceKey;", cancellable = true)

@@ -22,7 +22,19 @@ public class BakingContext1825450133Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1863712875(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1863712875L))
-            info.setReturnValue(1975400285);
+            info.setReturnValue(1702732885);
+    }
+
+    @Inject(at = @At("HEAD"), method = "missingItemModel(Lorg/joml/Matrix4fc;)Lnet/minecraft/client/renderer/item/MissingItemModel;", cancellable = true)
+    private void missingItemModel_250788616(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(250788616L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "missingItemModel()Lnet/minecraft/client/renderer/item/MissingItemModel;", cancellable = true)
+    private void missingItemModel__803675671(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-803675671L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "blockModelBaker()Lnet/minecraft/client/resources/model/ModelBaker;", cancellable = true)
@@ -37,15 +49,9 @@ public class BakingContext1825450133Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "missingItemModel()Lnet/minecraft/client/renderer/item/MissingItemModel;", cancellable = true)
-    private void missingItemModel__803675671(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-803675671L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "missingItemModel(Lorg/joml/Matrix4fc;)Lnet/minecraft/client/renderer/item/MissingItemModel;", cancellable = true)
-    private void missingItemModel_250788616(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(250788616L))
+    @Inject(at = @At("HEAD"), method = "playerSkinRenderCache()Lnet/minecraft/client/renderer/PlayerSkinRenderCache;", cancellable = true)
+    private void playerSkinRenderCache__1434834233(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1434834233L))
             info.setReturnValue(null);
     }
 
@@ -58,12 +64,6 @@ public class BakingContext1825450133Mixin {
     @Inject(at = @At("HEAD"), method = "entityModelSet()Lnet/minecraft/client/model/geom/EntityModelSet;", cancellable = true)
     private void entityModelSet_41006186(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(41006186L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "playerSkinRenderCache()Lnet/minecraft/client/renderer/PlayerSkinRenderCache;", cancellable = true)
-    private void playerSkinRenderCache__1434834233(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1434834233L))
             info.setReturnValue(null);
     }
 

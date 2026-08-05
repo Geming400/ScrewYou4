@@ -16,7 +16,7 @@ public class TranslucencyPointOfView_1413969507Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1452231752(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1452231752L))
-            info.setReturnValue(-1525545832);
+            info.setReturnValue(-1615199132);
     }
 
     @Inject(at = @At("HEAD"), method = "of(Lnet/minecraft/world/phys/Vec3;J)Lnet/minecraft/client/renderer/chunk/TranslucencyPointOfView;", cancellable = true)

@@ -22,7 +22,7 @@ public class Transform_1580220624Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1618483365(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1618483365L))
-            info.setReturnValue(212754716);
+            info.setReturnValue(1021714616);
     }
 
     @Inject(at = @At("HEAD"), method = "write(Ljava/nio/ByteBuffer;)V", cancellable = true)
@@ -31,9 +31,9 @@ public class Transform_1580220624Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "modelOffset()Lorg/joml/Vector3fc;", cancellable = true)
-    private void modelOffset_2126165328(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2126165328L))
+    @Inject(at = @At("HEAD"), method = "modelView()Lorg/joml/Matrix4fc;", cancellable = true)
+    private void modelView__971772435(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-971772435L))
             info.setReturnValue(null);
     }
 
@@ -49,9 +49,9 @@ public class Transform_1580220624Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "modelView()Lorg/joml/Matrix4fc;", cancellable = true)
-    private void modelView__971772435(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-971772435L))
+    @Inject(at = @At("HEAD"), method = "modelOffset()Lorg/joml/Vector3fc;", cancellable = true)
+    private void modelOffset_2126165328(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2126165328L))
             info.setReturnValue(null);
     }
 

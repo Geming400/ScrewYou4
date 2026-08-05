@@ -28,13 +28,13 @@ public class ClientboundSoundPacket740370726Mixin {
     @Inject(at = @At("HEAD"), method = "getSeed()J", cancellable = true)
     private void getSeed_778633933(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(778633933L))
-            info.setReturnValue(-6381257717727088518L);
+            info.setReturnValue(-6381257718185394618L);
     }
 
     @Inject(at = @At("HEAD"), method = "getY()D", cancellable = true)
     private void getY_778628167(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(778628167L))
-            info.setReturnValue(9.665573007733433E8D);
+            info.setReturnValue(5.082512007733433E8D);
     }
 
     @Inject(at = @At("HEAD"), method = "getSource()Lnet/minecraft/sounds/SoundSource;", cancellable = true)
@@ -46,25 +46,25 @@ public class ClientboundSoundPacket740370726Mixin {
     @Inject(at = @At("HEAD"), method = "getX()D", cancellable = true)
     private void getX_778628167(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(778628167L))
-            info.setReturnValue(9.665573007733433E8D);
+            info.setReturnValue(5.082512007733433E8D);
     }
 
     @Inject(at = @At("HEAD"), method = "getZ()D", cancellable = true)
     private void getZ_778628167(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(778628167L))
-            info.setReturnValue(9.665573007733433E8D);
+            info.setReturnValue(5.082512007733433E8D);
     }
 
     @Inject(at = @At("HEAD"), method = "getPitch()F", cancellable = true)
     private void getPitch_778630089(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(778630089L))
-            info.setReturnValue(9.665573E8F);
+            info.setReturnValue(5.092483E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "getVolume()F", cancellable = true)
     private void getVolume_778630089(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(778630089L))
-            info.setReturnValue(9.665573E8F);
+            info.setReturnValue(5.092483E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "getSound()Lnet/minecraft/core/Holder;", cancellable = true)

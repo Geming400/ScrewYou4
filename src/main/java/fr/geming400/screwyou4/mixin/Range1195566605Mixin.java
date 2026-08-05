@@ -16,13 +16,25 @@ public class Range1195566605Mixin {
     @Inject(at = @At("HEAD"), method = "floor()I", cancellable = true)
     private void floor_1233828851(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1233828851L))
-            info.setReturnValue(1128187033);
+            info.setReturnValue(1266634033);
     }
 
     @Inject(at = @At("HEAD"), method = "ceiling()I", cancellable = true)
     private void ceiling_1233828851(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1233828851L))
-            info.setReturnValue(1128187033);
+            info.setReturnValue(1266634033);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getHeight()Ljava/util/OptionalInt;", cancellable = true)
+    private void getHeight__975005182(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-975005182L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "height()I", cancellable = true)
+    private void height_1233828851(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1233828851L))
+            info.setReturnValue(1266634033);
     }
 
     @Inject(at = @At("HEAD"), method = "getFloor()Ljava/util/OptionalInt;", cancellable = true)
@@ -35,18 +47,6 @@ public class Range1195566605Mixin {
     private void getCeiling__975005182(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-975005182L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getHeight()Ljava/util/OptionalInt;", cancellable = true)
-    private void getHeight__975005182(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-975005182L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "height()I", cancellable = true)
-    private void height_1233828851(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1233828851L))
-            info.setReturnValue(1128187033);
     }
 
 

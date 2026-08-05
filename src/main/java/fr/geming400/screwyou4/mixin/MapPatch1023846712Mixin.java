@@ -22,31 +22,31 @@ public class MapPatch1023846712Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1062109454(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1062109454L))
-            info.setReturnValue(1589838076);
+            info.setReturnValue(1428918476);
     }
 
     @Inject(at = @At("HEAD"), method = "width()I", cancellable = true)
     private void width_1062108958(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1062108958L))
-            info.setReturnValue(-2069154612);
+            info.setReturnValue(2064893084);
     }
 
     @Inject(at = @At("HEAD"), method = "startX()I", cancellable = true)
     private void startX_1062108958(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1062108958L))
-            info.setReturnValue(-2069154612);
+            info.setReturnValue(2064893084);
     }
 
     @Inject(at = @At("HEAD"), method = "startY()I", cancellable = true)
     private void startY_1062108958(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1062108958L))
-            info.setReturnValue(-2069154612);
+            info.setReturnValue(2064893084);
     }
 
     @Inject(at = @At("HEAD"), method = "height()I", cancellable = true)
     private void height_1062108958(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1062108958L))
-            info.setReturnValue(-2069154612);
+            info.setReturnValue(2064893084);
     }
 
     @Inject(at = @At("HEAD"), method = "applyToMap(Lnet/minecraft/world/level/saveddata/maps/MapItemSavedData;)V", cancellable = true)

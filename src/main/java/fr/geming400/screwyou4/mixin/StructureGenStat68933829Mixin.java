@@ -22,7 +22,7 @@ public class StructureGenStat68933829Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_107196571(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(107196571L))
-            info.setReturnValue(266629109);
+            info.setReturnValue(326682309);
     }
 
     @Inject(at = @At("HEAD"), method = "from(Ljdk/jfr/consumer/RecordedEvent;)Lnet/minecraft/util/profiling/jfr/stats/StructureGenStat;", cancellable = true)

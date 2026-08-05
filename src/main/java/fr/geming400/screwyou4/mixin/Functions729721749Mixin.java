@@ -22,7 +22,7 @@ public class Functions729721749Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_767984491(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(767984491L))
-            info.setReturnValue(1522201980);
+            info.setReturnValue(1825378080);
     }
 
     @Inject(at = @At("HEAD"), method = "setup(Lnet/minecraft/server/level/ServerLevel;)Lnet/minecraft/util/Unit;", cancellable = true)

@@ -22,7 +22,7 @@ public class MovementPredicate_639750998Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_678013739(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(678013739L))
-            info.setReturnValue(-390986858);
+            info.setReturnValue(-772720558);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(DDDD)Z", cancellable = true)
@@ -55,14 +55,8 @@ public class MovementPredicate_639750998Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "speed()Lnet/minecraft/advancements/predicates/MinMaxBounds$Doubles;", cancellable = true)
-    private void speed__56716365(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-56716365L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "speed(Lnet/minecraft/advancements/predicates/MinMaxBounds$Doubles;)Lnet/minecraft/advancements/predicates/entity/MovementPredicate;", cancellable = true)
-    private static void speed_1599063349(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "fallDistance(Lnet/minecraft/advancements/predicates/MinMaxBounds$Doubles;)Lnet/minecraft/advancements/predicates/entity/MovementPredicate;", cancellable = true)
+    private static void fallDistance_1599063349(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1599063349L))
             info.setReturnValue(null);
     }
@@ -73,8 +67,14 @@ public class MovementPredicate_639750998Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "fallDistance(Lnet/minecraft/advancements/predicates/MinMaxBounds$Doubles;)Lnet/minecraft/advancements/predicates/entity/MovementPredicate;", cancellable = true)
-    private static void fallDistance_1599063349(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "speed()Lnet/minecraft/advancements/predicates/MinMaxBounds$Doubles;", cancellable = true)
+    private void speed__56716365(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-56716365L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "speed(Lnet/minecraft/advancements/predicates/MinMaxBounds$Doubles;)Lnet/minecraft/advancements/predicates/entity/MovementPredicate;", cancellable = true)
+    private static void speed_1599063349(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1599063349L))
             info.setReturnValue(null);
     }

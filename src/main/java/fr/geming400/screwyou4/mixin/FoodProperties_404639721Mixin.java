@@ -22,13 +22,13 @@ public class FoodProperties_404639721Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_442902462(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(442902462L))
-            info.setReturnValue(-2112039796);
+            info.setReturnValue(-1445403296);
     }
 
     @Inject(at = @At("HEAD"), method = "saturation()F", cancellable = true)
     private void saturation_442899083(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(442899083L))
-            info.setReturnValue(6.63764E7F);
+            info.setReturnValue(7.330129E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "canAlwaysEat()Z", cancellable = true)
@@ -46,7 +46,7 @@ public class FoodProperties_404639721Mixin {
     @Inject(at = @At("HEAD"), method = "nutrition()I", cancellable = true)
     private void nutrition_442901966(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(442901966L))
-            info.setReturnValue(-1933516307);
+            info.setReturnValue(-1266879807);
     }
 
 

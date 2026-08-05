@@ -19,16 +19,16 @@ public class OptionsScreen_1440918308Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "onGamemasterPermissionChanged(Z)V", cancellable = true)
-    private void onGamemasterPermissionChanged__1624432160(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1624432160L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "getLastScreen()Lnet/minecraft/client/gui/screens/Screen;", cancellable = true)
     private void getLastScreen__1008831761(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1008831761L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "onGamemasterPermissionChanged(Z)V", cancellable = true)
+    private void onGamemasterPermissionChanged__1624432160(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1624432160L))
+            info.cancel();
     }
 
 

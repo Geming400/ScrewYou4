@@ -13,16 +13,16 @@ public class ConcretePowderBlock_1223767167Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getDustColor(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I", cancellable = true)
-    private void getDustColor__1170250804(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1170250804L))
-            info.setReturnValue(-155566998);
-    }
-
     @Inject(at = @At("HEAD"), method = "getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
     private void getStateForPlacement__34832601(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-34832601L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getDustColor(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I", cancellable = true)
+    private void getDustColor__1170250804(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1170250804L))
+            info.setReturnValue(-58665198);
     }
 
     @Inject(at = @At("HEAD"), method = "onLand(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/entity/item/FallingBlockEntity;)V", cancellable = true)

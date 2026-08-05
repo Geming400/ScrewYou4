@@ -28,7 +28,7 @@ public class ClientboundDamageEventPacket_1706278702Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1744541443(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1744541443L))
-            info.setReturnValue(1980336124);
+            info.setReturnValue(1956634624);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/PacketListener;)V", cancellable = true)
@@ -58,7 +58,7 @@ public class ClientboundDamageEventPacket_1706278702Mixin {
     @Inject(at = @At("HEAD"), method = "entityId()I", cancellable = true)
     private void entityId_1744540947(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1744540947L))
-            info.setReturnValue(-2111483753);
+            info.setReturnValue(-2135185253);
     }
 
     @Inject(at = @At("HEAD"), method = "sourcePosition()Ljava/util/Optional;", cancellable = true)
@@ -67,16 +67,16 @@ public class ClientboundDamageEventPacket_1706278702Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "sourceCauseId()I", cancellable = true)
-    private void sourceCauseId_1744540947(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1744540947L))
-            info.setReturnValue(-2111483753);
-    }
-
     @Inject(at = @At("HEAD"), method = "sourceDirectId()I", cancellable = true)
     private void sourceDirectId_1744540947(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1744540947L))
-            info.setReturnValue(-2111483753);
+            info.setReturnValue(-2135185253);
+    }
+
+    @Inject(at = @At("HEAD"), method = "sourceCauseId()I", cancellable = true)
+    private void sourceCauseId_1744540947(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1744540947L))
+            info.setReturnValue(-2135185253);
     }
 
 

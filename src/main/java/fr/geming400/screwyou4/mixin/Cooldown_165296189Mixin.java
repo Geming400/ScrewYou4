@@ -10,7 +10,7 @@ public class Cooldown_165296189Mixin {
         @Inject(at = @At("HEAD"), method = "get(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/client/multiplayer/ClientLevel;Lnet/minecraft/world/entity/ItemOwner;I)F", cancellable = true)
     private void get__845746898(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-845746898L))
-            info.setReturnValue(5.99181E7F);
+            info.setReturnValue(9.42268E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "type()Lcom/mojang/serialization/MapCodec;", cancellable = true)
@@ -34,7 +34,7 @@ public class Cooldown_165296189Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_203558930(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(203558930L))
-            info.setReturnValue(-495232579);
+            info.setReturnValue(387117321);
     }
 
 

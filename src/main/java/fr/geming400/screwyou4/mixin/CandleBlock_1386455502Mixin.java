@@ -13,12 +13,6 @@ public class CandleBlock_1386455502Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "placeLiquid(Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/material/FluidState;)Z", cancellable = true)
-    private void placeLiquid_796238925(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(796238925L))
-            info.setReturnValue(false);
-    }
-
     @Inject(at = @At("HEAD"), method = "getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
     private void getStateForPlacement_127855734(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(127855734L))
@@ -28,6 +22,12 @@ public class CandleBlock_1386455502Mixin {
     @Inject(at = @At("HEAD"), method = "canLight(Lnet/minecraft/world/level/block/state/BlockState;)Z", cancellable = true)
     private static void canLight_1241166763(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1241166763L))
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "placeLiquid(Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/material/FluidState;)Z", cancellable = true)
+    private void placeLiquid_796238925(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(796238925L))
             info.setReturnValue(false);
     }
 

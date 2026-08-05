@@ -34,24 +34,12 @@ public class WoodType997776499Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1036039241(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1036039241L))
-            info.setReturnValue(-227834041);
+            info.setReturnValue(-631194641);
     }
 
     @Inject(at = @At("HEAD"), method = "setType()Lnet/minecraft/world/level/block/state/properties/BlockSetType;", cancellable = true)
     private void setType_577137064(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(577137064L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "fenceGateClose()Lnet/minecraft/sounds/SoundEvent;", cancellable = true)
-    private void fenceGateClose_2087989397(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2087989397L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "fenceGateOpen()Lnet/minecraft/sounds/SoundEvent;", cancellable = true)
-    private void fenceGateOpen_2087989397(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2087989397L))
             info.setReturnValue(null);
     }
 
@@ -64,6 +52,18 @@ public class WoodType997776499Mixin {
     @Inject(at = @At("HEAD"), method = "hangingSignSoundType()Lnet/minecraft/world/level/block/SoundType;", cancellable = true)
     private void hangingSignSoundType_715601740(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(715601740L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "fenceGateOpen()Lnet/minecraft/sounds/SoundEvent;", cancellable = true)
+    private void fenceGateOpen_2087989397(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2087989397L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "fenceGateClose()Lnet/minecraft/sounds/SoundEvent;", cancellable = true)
+    private void fenceGateClose_2087989397(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2087989397L))
             info.setReturnValue(null);
     }
 

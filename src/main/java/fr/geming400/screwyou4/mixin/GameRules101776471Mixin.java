@@ -55,16 +55,16 @@ public class GameRules101776471Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "visitGameRuleTypes(Lnet/minecraft/world/level/gamerules/GameRuleTypeVisitor;)V", cancellable = true)
-    private void visitGameRuleTypes_2091184993(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(2091184993L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "availableRules()Ljava/util/stream/Stream;", cancellable = true)
     private void availableRules__108929844(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-108929844L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "visitGameRuleTypes(Lnet/minecraft/world/level/gamerules/GameRuleTypeVisitor;)V", cancellable = true)
+    private void visitGameRuleTypes_2091184993(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(2091184993L))
+            info.cancel();
     }
 
 

@@ -22,7 +22,7 @@ public class DamagePredicate_2111338070Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__2145366485(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2145366485L))
-            info.setReturnValue(899417834);
+            info.setReturnValue(1059746034);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/core/component/DataComponentGetter;)Z", cancellable = true)

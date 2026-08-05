@@ -22,7 +22,7 @@ public class SignedArguments_101730603Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_139993344(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(139993344L))
-            info.setReturnValue(177232872);
+            info.setReturnValue(-199587928);
     }
 
     @Inject(at = @At("HEAD"), method = "arguments()Ljava/util/Map;", cancellable = true)

@@ -25,16 +25,16 @@ public class LeafLitterBlock_2125278665Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "canBeReplaced(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/item/context/BlockPlaceContext;)Z", cancellable = true)
-    private void canBeReplaced_1379075347(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1379075347L))
-            info.setReturnValue(false);
-    }
-
     @Inject(at = @At("HEAD"), method = "getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
     private void getStateForPlacement_866678897(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(866678897L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "canBeReplaced(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/item/context/BlockPlaceContext;)Z", cancellable = true)
+    private void canBeReplaced_1379075347(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1379075347L))
+            info.setReturnValue(false);
     }
 
 

@@ -22,7 +22,7 @@ public class RegistrationInfo_1562345565Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1600608306(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1600608306L))
-            info.setReturnValue(1442270445);
+            info.setReturnValue(1709402545);
     }
 
     @Inject(at = @At("HEAD"), method = "lifecycle()Lcom/mojang/serialization/Lifecycle;", cancellable = true)

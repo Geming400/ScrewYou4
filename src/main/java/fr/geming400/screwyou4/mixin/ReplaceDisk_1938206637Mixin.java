@@ -22,7 +22,7 @@ public class ReplaceDisk_1938206637Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1976469378(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1976469378L))
-            info.setReturnValue(-864894108);
+            info.setReturnValue(-1140188408);
     }
 
     @Inject(at = @At("HEAD"), method = "apply(Lnet/minecraft/server/level/ServerLevel;ILnet/minecraft/world/item/enchantment/EnchantedItemInUse;Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/phys/Vec3;)V", cancellable = true)
@@ -49,12 +49,6 @@ public class ReplaceDisk_1938206637Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "blockState()Lnet/minecraft/world/level/levelgen/feature/stateproviders/BlockStateProvider;", cancellable = true)
-    private void blockState_5500135(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(5500135L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "radius()Lnet/minecraft/world/item/enchantment/LevelBasedValue;", cancellable = true)
     private void radius_2070286235(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2070286235L))
@@ -64,6 +58,12 @@ public class ReplaceDisk_1938206637Mixin {
     @Inject(at = @At("HEAD"), method = "height()Lnet/minecraft/world/item/enchantment/LevelBasedValue;", cancellable = true)
     private void height_2070286235(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2070286235L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "blockState()Lnet/minecraft/world/level/levelgen/feature/stateproviders/BlockStateProvider;", cancellable = true)
+    private void blockState_5500135(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(5500135L))
             info.setReturnValue(null);
     }
 

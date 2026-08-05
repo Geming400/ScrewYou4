@@ -22,7 +22,7 @@ public class Pass_1729909588Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1768172329(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1768172329L))
-            info.setReturnValue(755309022);
+            info.setReturnValue(663356022);
     }
 
 

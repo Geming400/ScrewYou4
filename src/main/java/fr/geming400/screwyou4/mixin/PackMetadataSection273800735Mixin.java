@@ -22,7 +22,7 @@ public class PackMetadataSection273800735Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_312063477(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(312063477L))
-            info.setReturnValue(1315316139);
+            info.setReturnValue(1051253339);
     }
 
     @Inject(at = @At("HEAD"), method = "supportedFormats()Lnet/minecraft/util/InclusiveRange;", cancellable = true)

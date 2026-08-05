@@ -19,14 +19,8 @@ public class CopperChestBlock_1798746231Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getHingeSound(Lnet/minecraft/world/level/block/WeatheringCopper$WeatherState;Z)Lnet/minecraft/sounds/SoundEvent;", cancellable = true)
-    private static void getHingeSound_509427071(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(509427071L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "chestCanConnectTo(Lnet/minecraft/world/level/block/state/BlockState;)Z", cancellable = true)
-    private void chestCanConnectTo_1653457244(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "shouldChangedStateKeepBlockEntity(Lnet/minecraft/world/level/block/state/BlockState;)Z", cancellable = true)
+    private void shouldChangedStateKeepBlockEntity_1653457244(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1653457244L))
             info.setReturnValue(true);
     }
@@ -37,22 +31,28 @@ public class CopperChestBlock_1798746231Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "shouldChangedStateKeepBlockEntity(Lnet/minecraft/world/level/block/state/BlockState;)Z", cancellable = true)
-    private void shouldChangedStateKeepBlockEntity_1653457244(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "chestCanConnectTo(Lnet/minecraft/world/level/block/state/BlockState;)Z", cancellable = true)
+    private void chestCanConnectTo_1653457244(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1653457244L))
             info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isWaxed()Z", cancellable = true)
-    private void isWaxed_1837024813(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1837024813L))
-            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "getFromCopperBlock(Lnet/minecraft/world/level/block/Block;Lnet/minecraft/core/Direction;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
     private static void getFromCopperBlock__205587997(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-205587997L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getHingeSound(Lnet/minecraft/world/level/block/WeatheringCopper$WeatherState;Z)Lnet/minecraft/sounds/SoundEvent;", cancellable = true)
+    private static void getHingeSound_509427071(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(509427071L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isWaxed()Z", cancellable = true)
+    private void isWaxed_1837024813(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1837024813L))
+            info.setReturnValue(false);
     }
 
 

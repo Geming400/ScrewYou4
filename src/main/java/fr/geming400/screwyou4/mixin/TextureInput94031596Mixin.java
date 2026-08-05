@@ -22,19 +22,19 @@ public class TextureInput94031596Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_132294338(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(132294338L))
-            info.setReturnValue(99193770);
+            info.setReturnValue(359693570);
     }
 
     @Inject(at = @At("HEAD"), method = "width()I", cancellable = true)
     private void width_132293842(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(132293842L))
-            info.setReturnValue(302341190);
+            info.setReturnValue(562840990);
     }
 
     @Inject(at = @At("HEAD"), method = "height()I", cancellable = true)
     private void height_132293842(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(132293842L))
-            info.setReturnValue(302341190);
+            info.setReturnValue(562840990);
     }
 
     @Inject(at = @At("HEAD"), method = "texture(Ljava/util/Map;)Lcom/mojang/blaze3d/textures/GpuTextureView;", cancellable = true)

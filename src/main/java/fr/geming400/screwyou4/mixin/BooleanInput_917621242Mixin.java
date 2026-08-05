@@ -22,7 +22,7 @@ public class BooleanInput_917621242Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_955883983(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(955883983L))
-            info.setReturnValue(1839835975);
+            info.setReturnValue(1658089275);
     }
 
     @Inject(at = @At("HEAD"), method = "label()Lnet/minecraft/network/chat/Component;", cancellable = true)
@@ -43,14 +43,14 @@ public class BooleanInput_917621242Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "onFalse()Ljava/lang/String;", cancellable = true)
-    private void onFalse__217839230(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "onTrue()Ljava/lang/String;", cancellable = true)
+    private void onTrue__217839230(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-217839230L))
             info.setReturnValue("j\u4025LyxeYcQM\u6812^,\u0C945(Hg-./7Tz9\uC768&j:\u51369#x64VQ\u5807'v c\uB32AO*mqC'^^0\u10B2?");
     }
 
-    @Inject(at = @At("HEAD"), method = "onTrue()Ljava/lang/String;", cancellable = true)
-    private void onTrue__217839230(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "onFalse()Ljava/lang/String;", cancellable = true)
+    private void onFalse__217839230(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-217839230L))
             info.setReturnValue("j\u4025LyxeYcQM\u6812^,\u0C945(Hg-./7Tz9\uC768&j:\u51369#x64VQ\u5807'v c\uB32AO*mqC'^^0\u10B2?");
     }

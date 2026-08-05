@@ -25,6 +25,12 @@ public class ArgCodecBuilder142500262Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "anyEntity(Ljava/util/function/Function;)Lnet/minecraft/world/level/storage/loot/LootContextArg$ArgCodecBuilder;", cancellable = true)
+    private void anyEntity_1090867829(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1090867829L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "anyItemStack(Ljava/util/function/Function;)Lnet/minecraft/world/level/storage/loot/LootContextArg$ArgCodecBuilder;", cancellable = true)
     private void anyItemStack_1090867829(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1090867829L))
@@ -33,12 +39,6 @@ public class ArgCodecBuilder142500262Mixin {
 
     @Inject(at = @At("HEAD"), method = "anyBlockEntity(Ljava/util/function/Function;)Lnet/minecraft/world/level/storage/loot/LootContextArg$ArgCodecBuilder;", cancellable = true)
     private void anyBlockEntity_1090867829(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1090867829L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "anyEntity(Ljava/util/function/Function;)Lnet/minecraft/world/level/storage/loot/LootContextArg$ArgCodecBuilder;", cancellable = true)
-    private void anyEntity_1090867829(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1090867829L))
             info.setReturnValue(null);
     }

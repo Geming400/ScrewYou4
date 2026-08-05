@@ -22,7 +22,7 @@ public class Variant1709714825Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1747977567(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1747977567L))
-            info.setReturnValue(-439517713);
+            info.setReturnValue(-1177322213);
     }
 
     @Inject(at = @At("HEAD"), method = "pattern()Lnet/minecraft/world/entity/animal/fish/TropicalFish$Pattern;", cancellable = true)
@@ -31,20 +31,20 @@ public class Variant1709714825Mixin {
             info.setReturnValue(net.minecraft.world.entity.animal.fish.TropicalFish.Pattern.BLOCKFISH);
     }
 
-    @Inject(at = @At("HEAD"), method = "getPackedId()I", cancellable = true)
-    private void getPackedId_1747977071(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1747977071L))
-            info.setReturnValue(-260994223);
-    }
-
-    @Inject(at = @At("HEAD"), method = "patternColor()Lnet/minecraft/world/item/DyeColor;", cancellable = true)
-    private void patternColor__1149944241(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "baseColor()Lnet/minecraft/world/item/DyeColor;", cancellable = true)
+    private void baseColor__1149944241(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1149944241L))
             info.setReturnValue(net.minecraft.world.item.DyeColor.YELLOW);
     }
 
-    @Inject(at = @At("HEAD"), method = "baseColor()Lnet/minecraft/world/item/DyeColor;", cancellable = true)
-    private void baseColor__1149944241(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "getPackedId()I", cancellable = true)
+    private void getPackedId_1747977071(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1747977071L))
+            info.setReturnValue(-998798723);
+    }
+
+    @Inject(at = @At("HEAD"), method = "patternColor()Lnet/minecraft/world/item/DyeColor;", cancellable = true)
+    private void patternColor__1149944241(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1149944241L))
             info.setReturnValue(net.minecraft.world.item.DyeColor.YELLOW);
     }

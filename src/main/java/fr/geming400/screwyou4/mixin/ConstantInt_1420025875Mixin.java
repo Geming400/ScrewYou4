@@ -10,7 +10,7 @@ public class ConstantInt_1420025875Mixin {
         @Inject(at = @At("HEAD"), method = "value()I", cancellable = true)
     private void value_1458288120(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1458288120L))
-            info.setReturnValue(-1807782290);
+            info.setReturnValue(1640633806);
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
@@ -28,7 +28,7 @@ public class ConstantInt_1420025875Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1458288616(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1458288616L))
-            info.setReturnValue(-2010929709);
+            info.setReturnValue(1437486387);
     }
 
     @Inject(at = @At("HEAD"), method = "of(I)Lnet/minecraft/util/valueproviders/ConstantInt;", cancellable = true)
@@ -46,19 +46,19 @@ public class ConstantInt_1420025875Mixin {
     @Inject(at = @At("HEAD"), method = "minInclusive()I", cancellable = true)
     private void minInclusive_1458288120(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1458288120L))
-            info.setReturnValue(-1807782290);
+            info.setReturnValue(1640633806);
     }
 
     @Inject(at = @At("HEAD"), method = "maxInclusive()I", cancellable = true)
     private void maxInclusive_1458288120(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1458288120L))
-            info.setReturnValue(-1807782290);
+            info.setReturnValue(1640633806);
     }
 
     @Inject(at = @At("HEAD"), method = "sample(Lnet/minecraft/util/RandomSource;)I", cancellable = true)
     private void sample__287001704(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-287001704L))
-            info.setReturnValue(725176190);
+            info.setReturnValue(-121375010);
     }
 
 

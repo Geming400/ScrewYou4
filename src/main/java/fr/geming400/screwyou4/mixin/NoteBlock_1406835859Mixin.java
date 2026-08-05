@@ -22,7 +22,7 @@ public class NoteBlock_1406835859Mixin {
     @Inject(at = @At("HEAD"), method = "getPitchFromNote(I)F", cancellable = true)
     private static void getPitchFromNote__1674229594(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1674229594L))
-            info.setReturnValue(1.440586E8F);
+            info.setReturnValue(9.798851E8F);
     }
 
 

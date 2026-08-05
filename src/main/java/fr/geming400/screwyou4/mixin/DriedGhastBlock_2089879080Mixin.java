@@ -19,12 +19,6 @@ public class DriedGhastBlock_2089879080Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "placeLiquid(Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/material/FluidState;)Z", cancellable = true)
-    private void placeLiquid_1499662503(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1499662503L))
-            info.setReturnValue(false);
-    }
-
     @Inject(at = @At("HEAD"), method = "getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
     private void getStateForPlacement_831279312(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(831279312L))
@@ -49,10 +43,16 @@ public class DriedGhastBlock_2089879080Mixin {
             info.setReturnValue(false);
     }
 
+    @Inject(at = @At("HEAD"), method = "placeLiquid(Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/material/FluidState;)Z", cancellable = true)
+    private void placeLiquid_1499662503(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1499662503L))
+            info.setReturnValue(false);
+    }
+
     @Inject(at = @At("HEAD"), method = "getHydrationLevel(Lnet/minecraft/world/level/block/state/BlockState;)I", cancellable = true)
     private void getHydrationLevel_1944573756(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1944573756L))
-            info.setReturnValue(1564268670);
+            info.setReturnValue(1558298970);
     }
 
 

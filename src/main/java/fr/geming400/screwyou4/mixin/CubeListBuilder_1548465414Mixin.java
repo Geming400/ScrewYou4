@@ -25,21 +25,21 @@ public class CubeListBuilder_1548465414Mixin {
             info.setReturnValue(new net.minecraft.client.model.geom.builders.CubeListBuilder());
     }
 
-    @Inject(at = @At("HEAD"), method = "texOffs(II)Lnet/minecraft/client/model/geom/builders/CubeListBuilder;", cancellable = true)
-    private void texOffs_1233946501(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1233946501L))
+    @Inject(at = @At("HEAD"), method = "getCubes()Ljava/util/List;", cancellable = true)
+    private void getCubes__1120165067(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1120165067L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "addBox(FFFFFFLnet/minecraft/client/model/geom/builders/CubeDeformation;FF)Lnet/minecraft/client/model/geom/builders/CubeListBuilder;", cancellable = true)
-    private void addBox__1892788777(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1892788777L))
-            info.setReturnValue(new net.minecraft.client.model.geom.builders.CubeListBuilder());
     }
 
     @Inject(at = @At("HEAD"), method = "addBox(FFFFFFZ)Lnet/minecraft/client/model/geom/builders/CubeListBuilder;", cancellable = true)
     private void addBox__210426341(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-210426341L))
+            info.setReturnValue(new net.minecraft.client.model.geom.builders.CubeListBuilder());
+    }
+
+    @Inject(at = @At("HEAD"), method = "addBox(FFFFFFLnet/minecraft/client/model/geom/builders/CubeDeformation;FF)Lnet/minecraft/client/model/geom/builders/CubeListBuilder;", cancellable = true)
+    private void addBox__1892788777(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1892788777L))
             info.setReturnValue(new net.minecraft.client.model.geom.builders.CubeListBuilder());
     }
 
@@ -55,16 +55,16 @@ public class CubeListBuilder_1548465414Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "addBox(Ljava/lang/String;FFFIIIII)Lnet/minecraft/client/model/geom/builders/CubeListBuilder;", cancellable = true)
-    private void addBox__1563200392(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1563200392L))
-            info.setReturnValue(new net.minecraft.client.model.geom.builders.CubeListBuilder());
-    }
-
     @Inject(at = @At("HEAD"), method = "addBox(Ljava/lang/String;FFFIIILnet/minecraft/client/model/geom/builders/CubeDeformation;II)Lnet/minecraft/client/model/geom/builders/CubeListBuilder;", cancellable = true)
     private void addBox__1555825430(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1555825430L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "addBox(Ljava/lang/String;FFFIIIII)Lnet/minecraft/client/model/geom/builders/CubeListBuilder;", cancellable = true)
+    private void addBox__1563200392(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1563200392L))
+            info.setReturnValue(new net.minecraft.client.model.geom.builders.CubeListBuilder());
     }
 
     @Inject(at = @At("HEAD"), method = "addBox(FFFFFF)Lnet/minecraft/client/model/geom/builders/CubeListBuilder;", cancellable = true)
@@ -85,9 +85,9 @@ public class CubeListBuilder_1548465414Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getCubes()Ljava/util/List;", cancellable = true)
-    private void getCubes__1120165067(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1120165067L))
+    @Inject(at = @At("HEAD"), method = "texOffs(II)Lnet/minecraft/client/model/geom/builders/CubeListBuilder;", cancellable = true)
+    private void texOffs_1233946501(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1233946501L))
             info.setReturnValue(null);
     }
 

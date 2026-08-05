@@ -13,10 +13,16 @@ public class BowItem264058735Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "getAllSupportedProjectiles()Ljava/util/function/Predicate;", cancellable = true)
+    private void getAllSupportedProjectiles__385826243(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-385826243L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "getUseDuration(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/LivingEntity;)I", cancellable = true)
     private void getUseDuration__633121920(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-633121920L))
-            info.setReturnValue(-271085565);
+            info.setReturnValue(48811335);
     }
 
     @Inject(at = @At("HEAD"), method = "releaseUsing(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/LivingEntity;I)Z", cancellable = true)
@@ -25,22 +31,16 @@ public class BowItem264058735Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "getAllSupportedProjectiles()Ljava/util/function/Predicate;", cancellable = true)
-    private void getAllSupportedProjectiles__385826243(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-385826243L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "getDefaultProjectileRange()I", cancellable = true)
+    private void getDefaultProjectileRange_302320981(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(302320981L))
+            info.setReturnValue(-1205304043);
     }
 
     @Inject(at = @At("HEAD"), method = "getPowerForTime(I)F", cancellable = true)
     private static void getPowerForTime_1477960579(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1477960579L))
-            info.setReturnValue(3.154553E8F);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getDefaultProjectileRange()I", cancellable = true)
-    private void getDefaultProjectileRange_302320981(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(302320981L))
-            info.setReturnValue(-1525200943);
+            info.setReturnValue(6.353522E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "getUseAnimation(Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/world/item/ItemUseAnimation;", cancellable = true)

@@ -43,6 +43,18 @@ public class PlacementUtils558471276Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "onlyWhenEmpty(Lnet/minecraft/world/level/levelgen/feature/Feature;Lnet/minecraft/world/level/levelgen/feature/configurations/FeatureConfiguration;)Lnet/minecraft/core/Holder;", cancellable = true)
+    private static void onlyWhenEmpty_741237014(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(741237014L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "filteredByBlockSurvival(Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/world/level/levelgen/placement/BlockPredicateFilter;", cancellable = true)
+    private static void filteredByBlockSurvival__1301228195(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1301228195L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "countExtra(IFI)Lnet/minecraft/world/level/levelgen/placement/PlacementModifier;", cancellable = true)
     private static void countExtra__1934162293(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1934162293L))
@@ -58,18 +70,6 @@ public class PlacementUtils558471276Mixin {
     @Inject(at = @At("HEAD"), method = "inlinePlaced(Lnet/minecraft/core/Holder;[Lnet/minecraft/world/level/levelgen/placement/PlacementModifier;)Lnet/minecraft/core/Holder;", cancellable = true)
     private static void inlinePlaced__92631968(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-92631968L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "filteredByBlockSurvival(Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/world/level/levelgen/placement/BlockPredicateFilter;", cancellable = true)
-    private static void filteredByBlockSurvival__1301228195(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1301228195L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "onlyWhenEmpty(Lnet/minecraft/world/level/levelgen/feature/Feature;Lnet/minecraft/world/level/levelgen/feature/configurations/FeatureConfiguration;)Lnet/minecraft/core/Holder;", cancellable = true)
-    private static void onlyWhenEmpty_741237014(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(741237014L))
             info.setReturnValue(null);
     }
 

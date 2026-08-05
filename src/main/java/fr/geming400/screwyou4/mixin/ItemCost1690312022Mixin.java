@@ -22,7 +22,7 @@ public class ItemCost1690312022Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1728574764(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1728574764L))
-            info.setReturnValue(-766971633);
+            info.setReturnValue(-499148933);
     }
 
     @Inject(at = @At("HEAD"), method = "test(Lnet/minecraft/world/item/ItemStack;)Z", cancellable = true)
@@ -34,7 +34,7 @@ public class ItemCost1690312022Mixin {
     @Inject(at = @At("HEAD"), method = "count()I", cancellable = true)
     private void count_1728574268(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1728574268L))
-            info.setReturnValue(-563824214);
+            info.setReturnValue(-296001514);
     }
 
     @Inject(at = @At("HEAD"), method = "item()Lnet/minecraft/core/Holder;", cancellable = true)
@@ -49,15 +49,15 @@ public class ItemCost1690312022Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "itemStack()Lnet/minecraft/world/item/ItemStack;", cancellable = true)
-    private void itemStack__2081236614(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2081236614L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "withComponents(Ljava/util/function/UnaryOperator;)Lnet/minecraft/world/item/trading/ItemCost;", cancellable = true)
     private void withComponents__930168076(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-930168076L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "itemStack()Lnet/minecraft/world/item/ItemStack;", cancellable = true)
+    private void itemStack__2081236614(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2081236614L))
             info.setReturnValue(null);
     }
 

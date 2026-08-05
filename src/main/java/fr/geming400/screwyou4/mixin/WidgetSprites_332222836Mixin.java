@@ -28,7 +28,7 @@ public class WidgetSprites_332222836Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_370485577(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(370485577L))
-            info.setReturnValue(1571009951);
+            info.setReturnValue(1584547551);
     }
 
     @Inject(at = @At("HEAD"), method = "enabled()Lnet/minecraft/resources/Identifier;", cancellable = true)

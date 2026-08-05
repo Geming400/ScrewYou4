@@ -37,15 +37,15 @@ public class NearestVisibleLivingEntities_1310015944Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "findClosest(Ljava/util/function/Predicate;)Ljava/util/Optional;", cancellable = true)
-    private void findClosest__1818195066(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1818195066L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "nearbyEntities()Ljava/util/List;", cancellable = true)
     private void nearbyEntities__1358614537(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1358614537L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "findClosest(Ljava/util/function/Predicate;)Ljava/util/Optional;", cancellable = true)
+    private void findClosest__1818195066(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1818195066L))
             info.setReturnValue(null);
     }
 

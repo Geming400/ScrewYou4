@@ -28,7 +28,7 @@ public class ClientboundResetScorePacket1926027072Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1964289814(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1964289814L))
-            info.setReturnValue(-1841259961);
+            info.setReturnValue(2126495635);
     }
 
     @Inject(at = @At("HEAD"), method = "owner()Ljava/lang/String;", cancellable = true)

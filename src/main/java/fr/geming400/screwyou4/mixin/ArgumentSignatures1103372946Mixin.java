@@ -22,7 +22,7 @@ public class ArgumentSignatures1103372946Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1141635688(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1141635688L))
-            info.setReturnValue(-182638637);
+            info.setReturnValue(-818289437);
     }
 
     @Inject(at = @At("HEAD"), method = "write(Lnet/minecraft/network/FriendlyByteBuf;)V", cancellable = true)

@@ -22,7 +22,7 @@ public class ItemInput_976315527Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1014578268(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1014578268L))
-            info.setReturnValue(-2038983399);
+            info.setReturnValue(1946882897);
     }
 
     @Inject(at = @At("HEAD"), method = "item()Lnet/minecraft/core/Holder;", cancellable = true)

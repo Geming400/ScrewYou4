@@ -34,7 +34,7 @@ public class Value_1117925710Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1156188451(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1156188451L))
-            info.setReturnValue(-232870169);
+            info.setReturnValue(-838363969);
     }
 
     @Inject(at = @At("HEAD"), method = "createUnchecked(Lnet/minecraft/world/entity/ai/memory/MemoryModuleType;Lnet/minecraft/world/entity/ai/memory/ExpirableValue;)Lnet/minecraft/world/entity/ai/memory/MemoryMap$Value;", cancellable = true)

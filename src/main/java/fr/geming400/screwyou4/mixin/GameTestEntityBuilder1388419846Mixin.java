@@ -7,15 +7,15 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.gametest.framework.GameTestEntityBuilder.class)
 public class GameTestEntityBuilder1388419846Mixin {
-        @Inject(at = @At("HEAD"), method = "spawnReason(Lnet/minecraft/world/entity/EntitySpawnReason;)Lnet/minecraft/gametest/framework/GameTestEntityBuilder;", cancellable = true)
-    private void spawnReason_73797754(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(73797754L))
+        @Inject(at = @At("HEAD"), method = "rotation(Lnet/minecraft/world/level/block/Rotation;)Lnet/minecraft/gametest/framework/GameTestEntityBuilder;", cancellable = true)
+    private void rotation_152409813(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(152409813L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "rotation(Lnet/minecraft/world/level/block/Rotation;)Lnet/minecraft/gametest/framework/GameTestEntityBuilder;", cancellable = true)
-    private void rotation_152409813(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(152409813L))
+    @Inject(at = @At("HEAD"), method = "spawnReason(Lnet/minecraft/world/entity/EntitySpawnReason;)Lnet/minecraft/gametest/framework/GameTestEntityBuilder;", cancellable = true)
+    private void spawnReason_73797754(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(73797754L))
             info.setReturnValue(null);
     }
 

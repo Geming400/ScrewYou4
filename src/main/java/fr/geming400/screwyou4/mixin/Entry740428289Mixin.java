@@ -13,14 +13,14 @@ public class Entry740428289Mixin {
             info.setReturnValue("B\u8C49?a&KF4I>\u53C7^\"2'{+z]@6NR&`dw7A\uC9D4SJ\uF904\uA9B9ztNW8!");
     }
 
-    @Inject(at = @At("HEAD"), method = "getJsonKeys()Ljava/lang/String;", cancellable = true)
-    private void getJsonKeys__395032182(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "getFilename()Ljava/lang/String;", cancellable = true)
+    private void getFilename__395032182(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-395032182L))
             info.setReturnValue("B\u8C49?a&KF4I>\u53C7^\"2'{+z]@6NR&`dw7A\uC9D4SJ\uF904\uA9B9ztNW8!");
     }
 
-    @Inject(at = @At("HEAD"), method = "getFilename()Ljava/lang/String;", cancellable = true)
-    private void getFilename__395032182(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "getJsonKeys()Ljava/lang/String;", cancellable = true)
+    private void getJsonKeys__395032182(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-395032182L))
             info.setReturnValue("B\u8C49?a&KF4I>\u53C7^\"2'{+z]@6NR&`dw7A\uC9D4SJ\uF904\uA9B9ztNW8!");
     }

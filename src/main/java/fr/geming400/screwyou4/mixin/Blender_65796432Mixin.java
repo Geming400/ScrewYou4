@@ -28,19 +28,19 @@ public class Blender_65796432Mixin {
     @Inject(at = @At("HEAD"), method = "blendDensity(Lnet/minecraft/world/level/levelgen/DensityFunction$FunctionContext;D)D", cancellable = true)
     private void blendDensity_33306977(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(33306977L))
-            info.setReturnValue(5.381881009106318E8D);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getBiomeResolver(Lnet/minecraft/world/level/biome/BiomeResolver;)Lnet/minecraft/world/level/biome/BiomeResolver;", cancellable = true)
-    private void getBiomeResolver_683914676(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(683914676L))
-            info.setReturnValue(null);
+            info.setReturnValue(7.645439009106318E8D);
     }
 
     @Inject(at = @At("HEAD"), method = "addAroundOldChunksCarvingMaskFilter(Lnet/minecraft/world/level/WorldGenLevel;Lnet/minecraft/world/level/chunk/ProtoChunk;)V", cancellable = true)
     private static void addAroundOldChunksCarvingMaskFilter__1137890125(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1137890125L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getBiomeResolver(Lnet/minecraft/world/level/biome/BiomeResolver;)Lnet/minecraft/world/level/biome/BiomeResolver;", cancellable = true)
+    private void getBiomeResolver_683914676(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(683914676L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "generateBorderTicks(Lnet/minecraft/server/level/WorldGenRegion;Lnet/minecraft/world/level/chunk/ChunkAccess;)V", cancellable = true)

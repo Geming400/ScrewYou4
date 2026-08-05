@@ -16,7 +16,7 @@ public class VegetationFeatures287304867Mixin {
     @Inject(at = @At("HEAD"), method = "leafLitterPatchBuilder(II)Lnet/minecraft/util/random/WeightedList$Builder;", cancellable = true)
     private static void leafLitterPatchBuilder__1092530518(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1092530518L))
-            info.setReturnValue(new net.minecraft.util.random.WeightedList$Builder());
+            info.setReturnValue(new net.minecraft.util.random.WeightedList.Builder());
     }
 
     @Inject(at = @At("HEAD"), method = "nearWaterPredicate(Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/world/level/levelgen/placement/BlockPredicateFilter;", cancellable = true)

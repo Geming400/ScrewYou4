@@ -10,7 +10,7 @@ public class OptionList2108308434Mixin {
         @Inject(at = @At("HEAD"), method = "getRowWidth()I", cancellable = true)
     private void getRowWidth_2146570680(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2146570680L))
-            info.setReturnValue(2144742396);
+            info.setReturnValue(2136597296);
     }
 
     @Inject(at = @At("HEAD"), method = "refreshEntries()V", cancellable = true)

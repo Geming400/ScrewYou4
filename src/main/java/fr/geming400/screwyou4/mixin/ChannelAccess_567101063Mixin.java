@@ -13,6 +13,12 @@ public class ChannelAccess_567101063Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "scheduleTick()V", cancellable = true)
+    private void scheduleTick_605375801(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(605375801L))
+            info.cancel();
+    }
+
     @Inject(at = @At("HEAD"), method = "executeOnChannels(Ljava/util/function/Consumer;)V", cancellable = true)
     private void executeOnChannels_1248117475(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1248117475L))
@@ -23,12 +29,6 @@ public class ChannelAccess_567101063Mixin {
     private void createHandle__514332971(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-514332971L))
             info.setReturnValue(new java.util.concurrent.CompletableFuture());
-    }
-
-    @Inject(at = @At("HEAD"), method = "scheduleTick()V", cancellable = true)
-    private void scheduleTick_605375801(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(605375801L))
-            info.cancel();
     }
 
 

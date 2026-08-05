@@ -31,16 +31,16 @@ public class OptimizeWorldScreen160539379Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "shouldCloseOnEsc()Z", cancellable = true)
-    private void shouldCloseOnEsc_198817962(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(198817962L))
-            info.setReturnValue(true);
-    }
-
     @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIF)V", cancellable = true)
     private void extractRenderState__799147993(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-799147993L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "shouldCloseOnEsc()Z", cancellable = true)
+    private void shouldCloseOnEsc_198817962(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(198817962L))
+            info.setReturnValue(true);
     }
 
 

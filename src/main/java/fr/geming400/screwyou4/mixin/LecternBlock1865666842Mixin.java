@@ -13,22 +13,16 @@ public class LecternBlock1865666842Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "newBlockEntity(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/entity/BlockEntity;", cancellable = true)
-    private void newBlockEntity_280189187(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(280189187L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
     private void getStateForPlacement_607067075(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(607067075L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "tryPlaceBook(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/item/ItemStack;)Z", cancellable = true)
-    private static void tryPlaceBook__2119607086(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2119607086L))
-            info.setReturnValue(true);
+    @Inject(at = @At("HEAD"), method = "resetBookState(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Z)V", cancellable = true)
+    private static void resetBookState_944446050(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(944446050L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "signalPageChange(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)V", cancellable = true)
@@ -37,10 +31,16 @@ public class LecternBlock1865666842Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "resetBookState(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Z)V", cancellable = true)
-    private static void resetBookState_944446050(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(944446050L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "tryPlaceBook(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/item/ItemStack;)Z", cancellable = true)
+    private static void tryPlaceBook__2119607086(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2119607086L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "newBlockEntity(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/entity/BlockEntity;", cancellable = true)
+    private void newBlockEntity_280189187(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(280189187L))
+            info.setReturnValue(null);
     }
 
 

@@ -22,7 +22,7 @@ public class HasCommandLevel_1595106962Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1633369703(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1633369703L))
-            info.setReturnValue(-1648011497);
+            info.setReturnValue(-1530680297);
     }
 
     @Inject(at = @At("HEAD"), method = "level()Lnet/minecraft/server/permissions/PermissionLevel;", cancellable = true)

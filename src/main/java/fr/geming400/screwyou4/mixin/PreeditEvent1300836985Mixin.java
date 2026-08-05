@@ -22,7 +22,7 @@ public class PreeditEvent1300836985Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1339099727(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1339099727L))
-            info.setReturnValue(1363276376);
+            info.setReturnValue(951675776);
     }
 
     @Inject(at = @At("HEAD"), method = "blocks()Ljava/util/List;", cancellable = true)
@@ -31,10 +31,16 @@ public class PreeditEvent1300836985Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "caretPosition()I", cancellable = true)
-    private void caretPosition_1339099231(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "createFromCallback(IJIJII)Lnet/minecraft/client/input/PreeditEvent;", cancellable = true)
+    private static void createFromCallback__1672377259(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1672377259L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "focusedBlock()I", cancellable = true)
+    private void focusedBlock_1339099231(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1339099231L))
-            info.setReturnValue(1566423795);
+            info.setReturnValue(1154823195);
     }
 
     @Inject(at = @At("HEAD"), method = "toFormattedText(Lnet/minecraft/network/chat/Style;)Lnet/minecraft/network/chat/MutableComponent;", cancellable = true)
@@ -43,22 +49,16 @@ public class PreeditEvent1300836985Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "caretPosition()I", cancellable = true)
+    private void caretPosition_1339099231(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1339099231L))
+            info.setReturnValue(1154823195);
+    }
+
     @Inject(at = @At("HEAD"), method = "fullText()Ljava/lang/String;", cancellable = true)
     private void fullText_165376514(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(165376514L))
             info.setReturnValue("6 ?OV0-2}^Ww");
-    }
-
-    @Inject(at = @At("HEAD"), method = "focusedBlock()I", cancellable = true)
-    private void focusedBlock_1339099231(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1339099231L))
-            info.setReturnValue(1566423795);
-    }
-
-    @Inject(at = @At("HEAD"), method = "createFromCallback(IJIJII)Lnet/minecraft/client/input/PreeditEvent;", cancellable = true)
-    private static void createFromCallback__1672377259(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1672377259L))
-            info.setReturnValue(null);
     }
 
 

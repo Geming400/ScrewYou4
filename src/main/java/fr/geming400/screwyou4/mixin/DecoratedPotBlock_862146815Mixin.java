@@ -13,12 +13,6 @@ public class DecoratedPotBlock_862146815Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "newBlockEntity(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/entity/BlockEntity;", cancellable = true)
-    private void newBlockEntity__723330841(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-723330841L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
     private void getStateForPlacement__396452953(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-396452953L))
@@ -28,6 +22,12 @@ public class DecoratedPotBlock_862146815Mixin {
     @Inject(at = @At("HEAD"), method = "playerWillDestroy(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/entity/player/Player;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
     private void playerWillDestroy_140090653(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(140090653L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "newBlockEntity(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/entity/BlockEntity;", cancellable = true)
+    private void newBlockEntity__723330841(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-723330841L))
             info.setReturnValue(null);
     }
 

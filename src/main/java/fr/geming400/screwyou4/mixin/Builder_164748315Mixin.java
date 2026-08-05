@@ -13,6 +13,24 @@ public class Builder_164748315Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "setDispensable(Z)Lnet/minecraft/world/item/equipment/Equippable$Builder;", cancellable = true)
+    private void setDispensable_582939979(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(582939979L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "setAsset(Lnet/minecraft/resources/ResourceKey;)Lnet/minecraft/world/item/equipment/Equippable$Builder;", cancellable = true)
+    private void setAsset__183387579(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-183387579L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "setEquipOnInteract(Z)Lnet/minecraft/world/item/equipment/Equippable$Builder;", cancellable = true)
+    private void setEquipOnInteract_582939979(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(582939979L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "setAllowedEntities([Lnet/minecraft/world/entity/EntityType;)Lnet/minecraft/world/item/equipment/Equippable$Builder;", cancellable = true)
     private void setAllowedEntities__1535041259(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1535041259L))
@@ -37,24 +55,6 @@ public class Builder_164748315Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "setEquipOnInteract(Z)Lnet/minecraft/world/item/equipment/Equippable$Builder;", cancellable = true)
-    private void setEquipOnInteract_582939979(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(582939979L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "setSwappable(Z)Lnet/minecraft/world/item/equipment/Equippable$Builder;", cancellable = true)
-    private void setSwappable_582939979(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(582939979L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "setDamageOnHurt(Z)Lnet/minecraft/world/item/equipment/Equippable$Builder;", cancellable = true)
-    private void setDamageOnHurt_582939979(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(582939979L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "setCameraOverlay(Lnet/minecraft/resources/Identifier;)Lnet/minecraft/world/item/equipment/Equippable$Builder;", cancellable = true)
     private void setCameraOverlay__1995827383(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1995827383L))
@@ -67,14 +67,14 @@ public class Builder_164748315Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "setAsset(Lnet/minecraft/resources/ResourceKey;)Lnet/minecraft/world/item/equipment/Equippable$Builder;", cancellable = true)
-    private void setAsset__183387579(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-183387579L))
+    @Inject(at = @At("HEAD"), method = "setSwappable(Z)Lnet/minecraft/world/item/equipment/Equippable$Builder;", cancellable = true)
+    private void setSwappable_582939979(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(582939979L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "setDispensable(Z)Lnet/minecraft/world/item/equipment/Equippable$Builder;", cancellable = true)
-    private void setDispensable_582939979(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "setDamageOnHurt(Z)Lnet/minecraft/world/item/equipment/Equippable$Builder;", cancellable = true)
+    private void setDamageOnHurt_582939979(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(582939979L))
             info.setReturnValue(null);
     }

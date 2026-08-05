@@ -13,6 +13,12 @@ public class KeyEntry_982278604Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "refreshEntry()V", cancellable = true)
+    private void refreshEntry_1020553342(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1020553342L))
+            info.cancel();
+    }
+
     @Inject(at = @At("HEAD"), method = "extractContent(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIZF)V", cancellable = true)
     private void extractContent_1893953663(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1893953663L))
@@ -23,12 +29,6 @@ public class KeyEntry_982278604Mixin {
     private void narratables__1686351877(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1686351877L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "refreshEntry()V", cancellable = true)
-    private void refreshEntry_1020553342(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1020553342L))
-            info.cancel();
     }
 
 

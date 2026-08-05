@@ -22,7 +22,7 @@ public class InstrumentComponent1584085560Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1622348302(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1622348302L))
-            info.setReturnValue(-1112734552);
+            info.setReturnValue(-863175752);
     }
 
     @Inject(at = @At("HEAD"), method = "instrument()Lnet/minecraft/core/Holder;", cancellable = true)

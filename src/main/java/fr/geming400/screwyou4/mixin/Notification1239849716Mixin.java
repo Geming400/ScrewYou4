@@ -22,7 +22,7 @@ public class Notification1239849716Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1278112458(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1278112458L))
-            info.setReturnValue(-88791801);
+            info.setReturnValue(101089299);
     }
 
     @Inject(at = @At("HEAD"), method = "message()Ljava/lang/String;", cancellable = true)
@@ -34,13 +34,13 @@ public class Notification1239849716Mixin {
     @Inject(at = @At("HEAD"), method = "delay()J", cancellable = true)
     private void delay_1278112923(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1278112923L))
-            info.setReturnValue(-1596214179553907035L);
+            info.setReturnValue(-1596214179364025935L);
     }
 
     @Inject(at = @At("HEAD"), method = "period()J", cancellable = true)
     private void period_1278112923(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1278112923L))
-            info.setReturnValue(-1596214179553907035L);
+            info.setReturnValue(-1596214179364025935L);
     }
 
     @Inject(at = @At("HEAD"), method = "title()Ljava/lang/String;", cancellable = true)

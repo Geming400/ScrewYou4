@@ -22,12 +22,12 @@ public class InitConfig1995672941Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2033935683(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2033935683L))
-            info.setReturnValue(1517936254);
+            info.setReturnValue(1743462354);
     }
 
-    @Inject(at = @At("HEAD"), method = "packConfig()Lnet/minecraft/server/WorldLoader$PackConfig;", cancellable = true)
-    private void packConfig_336634527(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(336634527L))
+    @Inject(at = @At("HEAD"), method = "functionCompilationPermissions()Lnet/minecraft/server/permissions/PermissionSet;", cancellable = true)
+    private void functionCompilationPermissions_923113387(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(923113387L))
             info.setReturnValue(null);
     }
 
@@ -37,9 +37,9 @@ public class InitConfig1995672941Mixin {
             info.setReturnValue(net.minecraft.commands.Commands.CommandSelection.ALL);
     }
 
-    @Inject(at = @At("HEAD"), method = "functionCompilationPermissions()Lnet/minecraft/server/permissions/PermissionSet;", cancellable = true)
-    private void functionCompilationPermissions_923113387(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(923113387L))
+    @Inject(at = @At("HEAD"), method = "packConfig()Lnet/minecraft/server/WorldLoader$PackConfig;", cancellable = true)
+    private void packConfig_336634527(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(336634527L))
             info.setReturnValue(null);
     }
 

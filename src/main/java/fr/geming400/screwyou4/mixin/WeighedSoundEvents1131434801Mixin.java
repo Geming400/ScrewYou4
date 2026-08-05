@@ -13,16 +13,16 @@ public class WeighedSoundEvents1131434801Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "getWeight()I", cancellable = true)
+    private void getWeight_1169697047(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1169697047L))
+            info.setReturnValue(-588413489);
+    }
+
     @Inject(at = @At("HEAD"), method = "preloadIfRequired(Lnet/minecraft/client/sounds/SoundEngine;)V", cancellable = true)
     private void preloadIfRequired_1087890981(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1087890981L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "getWeight()I", cancellable = true)
-    private void getWeight_1169697047(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1169697047L))
-            info.setReturnValue(200535911);
     }
 
     @Inject(at = @At("HEAD"), method = "getSubtitle()Lnet/minecraft/network/chat/Component;", cancellable = true)

@@ -28,7 +28,7 @@ public class SlotArgument636601413Mixin {
     @Inject(at = @At("HEAD"), method = "getSlot(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)I", cancellable = true)
     private static void getSlot__127357465(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-127357465L))
-            info.setReturnValue(2003669454);
+            info.setReturnValue(-2115004142);
     }
 
     @Inject(at = @At("HEAD"), method = "listSuggestions(Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)

@@ -28,7 +28,7 @@ public class Data1886046867Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1924309609(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1924309609L))
-            info.setReturnValue(553659154);
+            info.setReturnValue(640924154);
     }
 
     @Inject(at = @At("HEAD"), method = "test()Ljava/util/Optional;", cancellable = true)
@@ -43,18 +43,6 @@ public class Data1886046867Mixin {
             info.setReturnValue(net.minecraft.world.level.block.entity.TestInstanceBlockEntity.Status.FINISHED);
     }
 
-    @Inject(at = @At("HEAD"), method = "withStatus(Lnet/minecraft/world/level/block/entity/TestInstanceBlockEntity$Status;)Lnet/minecraft/world/level/block/entity/TestInstanceBlockEntity$Data;", cancellable = true)
-    private void withStatus__1976121856(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1976121856L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "withSize(Lnet/minecraft/core/Vec3i;)Lnet/minecraft/world/level/block/entity/TestInstanceBlockEntity$Data;", cancellable = true)
-    private void withSize_1805162853(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1805162853L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "errorMessage()Ljava/util/Optional;", cancellable = true)
     private void errorMessage_2131508289(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2131508289L))
@@ -67,9 +55,9 @@ public class Data1886046867Mixin {
             info.setReturnValue(net.minecraft.world.level.block.Rotation.CLOCKWISE_180);
     }
 
-    @Inject(at = @At("HEAD"), method = "withError(Lnet/minecraft/network/chat/Component;)Lnet/minecraft/world/level/block/entity/TestInstanceBlockEntity$Data;", cancellable = true)
-    private void withError_198556088(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(198556088L))
+    @Inject(at = @At("HEAD"), method = "withStatus(Lnet/minecraft/world/level/block/entity/TestInstanceBlockEntity$Status;)Lnet/minecraft/world/level/block/entity/TestInstanceBlockEntity$Data;", cancellable = true)
+    private void withStatus__1976121856(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1976121856L))
             info.setReturnValue(null);
     }
 
@@ -77,6 +65,18 @@ public class Data1886046867Mixin {
     private void ignoreEntities_1924325450(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1924325450L))
             info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "withSize(Lnet/minecraft/core/Vec3i;)Lnet/minecraft/world/level/block/entity/TestInstanceBlockEntity$Data;", cancellable = true)
+    private void withSize_1805162853(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1805162853L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "withError(Lnet/minecraft/network/chat/Component;)Lnet/minecraft/world/level/block/entity/TestInstanceBlockEntity$Data;", cancellable = true)
+    private void withError_198556088(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(198556088L))
+            info.setReturnValue(null);
     }
 
 

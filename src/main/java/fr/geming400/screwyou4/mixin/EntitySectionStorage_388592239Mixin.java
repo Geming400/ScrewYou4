@@ -16,7 +16,7 @@ public class EntitySectionStorage_388592239Mixin {
     @Inject(at = @At("HEAD"), method = "count()I", cancellable = true)
     private void count_426854484(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(426854484L))
-            info.setReturnValue(-1927499018);
+            info.setReturnValue(2088203078);
     }
 
     @Inject(at = @At("HEAD"), method = "getEntities(Lnet/minecraft/world/phys/AABB;Lnet/minecraft/util/AbortableIterationConsumer;)V", cancellable = true)
@@ -37,15 +37,15 @@ public class EntitySectionStorage_388592239Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getExistingSectionPositionsInChunk(J)Ljava/util/stream/LongStream;", cancellable = true)
-    private void getExistingSectionPositionsInChunk__1151764799(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1151764799L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getAllChunksWithExistingSections()Lit/unimi/dsi/fastutil/longs/LongSet;", cancellable = true)
     private void getAllChunksWithExistingSections_323706265(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(323706265L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getExistingSectionPositionsInChunk(J)Ljava/util/stream/LongStream;", cancellable = true)
+    private void getExistingSectionPositionsInChunk__1151764799(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1151764799L))
             info.setReturnValue(null);
     }
 

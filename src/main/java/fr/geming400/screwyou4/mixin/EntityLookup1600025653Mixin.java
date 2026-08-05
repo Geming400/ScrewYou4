@@ -22,7 +22,7 @@ public class EntityLookup1600025653Mixin {
     @Inject(at = @At("HEAD"), method = "count()I", cancellable = true)
     private void count_1638287899(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1638287899L))
-            info.setReturnValue(-1042221043);
+            info.setReturnValue(-1421391043);
     }
 
     @Inject(at = @At("HEAD"), method = "getEntities(Lnet/minecraft/world/level/entity/EntityTypeTest;Lnet/minecraft/util/AbortableIterationConsumer;)V", cancellable = true)

@@ -25,12 +25,6 @@ public class MapItem1309796737Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "useOn(Lnet/minecraft/world/item/context/UseOnContext;)Lnet/minecraft/world/InteractionResult;", cancellable = true)
-    private void useOn__599046518(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-599046518L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getSavedData(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;)Lnet/minecraft/world/level/saveddata/maps/MapItemSavedData;", cancellable = true)
     private static void getSavedData_2098051111(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2098051111L))
@@ -53,6 +47,12 @@ public class MapItem1309796737Mixin {
     private void onCraftedPostProcess_482999454(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(482999454L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "useOn(Lnet/minecraft/world/item/context/UseOnContext;)Lnet/minecraft/world/InteractionResult;", cancellable = true)
+    private void useOn__599046518(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-599046518L))
+            info.setReturnValue(null);
     }
 
 

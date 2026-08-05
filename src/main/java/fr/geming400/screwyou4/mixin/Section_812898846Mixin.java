@@ -22,19 +22,19 @@ public class Section_812898846Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_851161587(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(851161587L))
-            info.setReturnValue(-692307268);
+            info.setReturnValue(-503410268);
     }
 
     @Inject(at = @At("HEAD"), method = "color()I", cancellable = true)
     private void color_851161091(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(851161091L))
-            info.setReturnValue(-809270934);
+            info.setReturnValue(-620373934);
     }
 
     @Inject(at = @At("HEAD"), method = "height()I", cancellable = true)
     private void height_851161091(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(851161091L))
-            info.setReturnValue(-809270934);
+            info.setReturnValue(-620373934);
     }
 
 

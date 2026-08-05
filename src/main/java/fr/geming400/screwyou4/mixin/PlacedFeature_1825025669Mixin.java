@@ -22,7 +22,7 @@ public class PlacedFeature_1825025669Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1863288410(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1863288410L))
-            info.setReturnValue(1490043869);
+            info.setReturnValue(1346273169);
     }
 
     @Inject(at = @At("HEAD"), method = "feature()Lnet/minecraft/core/Holder;", cancellable = true)
@@ -37,9 +37,9 @@ public class PlacedFeature_1825025669Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "placement()Ljava/util/List;", cancellable = true)
-    private void placement__843604812(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-843604812L))
+    @Inject(at = @At("HEAD"), method = "getFeatures()Ljava/util/stream/Stream;", cancellable = true)
+    private void getFeatures_1614319353(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1614319353L))
             info.setReturnValue(null);
     }
 
@@ -49,9 +49,9 @@ public class PlacedFeature_1825025669Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "getFeatures()Ljava/util/stream/Stream;", cancellable = true)
-    private void getFeatures_1614319353(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1614319353L))
+    @Inject(at = @At("HEAD"), method = "placement()Ljava/util/List;", cancellable = true)
+    private void placement__843604812(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-843604812L))
             info.setReturnValue(null);
     }
 

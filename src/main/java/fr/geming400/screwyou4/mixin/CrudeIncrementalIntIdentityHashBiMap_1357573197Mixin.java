@@ -10,7 +10,7 @@ public class CrudeIncrementalIntIdentityHashBiMap_1357573197Mixin {
         @Inject(at = @At("HEAD"), method = "size()I", cancellable = true)
     private void size_1395835442(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1395835442L))
-            info.setReturnValue(1030010718);
+            info.setReturnValue(1427033418);
     }
 
     @Inject(at = @At("HEAD"), method = "clear()V", cancellable = true)
@@ -28,7 +28,7 @@ public class CrudeIncrementalIntIdentityHashBiMap_1357573197Mixin {
     @Inject(at = @At("HEAD"), method = "add(Ljava/lang/Object;)I", cancellable = true)
     private void add__1551898674(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1551898674L))
-            info.setReturnValue(1829469256);
+            info.setReturnValue(-2069475640);
     }
 
     @Inject(at = @At("HEAD"), method = "iterator()Ljava/util/Iterator;", cancellable = true)
@@ -52,7 +52,7 @@ public class CrudeIncrementalIntIdentityHashBiMap_1357573197Mixin {
     @Inject(at = @At("HEAD"), method = "getId(Ljava/lang/Object;)I", cancellable = true)
     private void getId__1551898674(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1551898674L))
-            info.setReturnValue(1829469256);
+            info.setReturnValue(-2069475640);
     }
 
     @Inject(at = @At("HEAD"), method = "create(I)Lnet/minecraft/util/CrudeIncrementalIntIdentityHashBiMap;", cancellable = true)
@@ -61,16 +61,16 @@ public class CrudeIncrementalIntIdentityHashBiMap_1357573197Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "addMapping(Ljava/lang/Object;I)V", cancellable = true)
-    private void addMapping_1386045788(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1386045788L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "byId(I)Ljava/lang/Object;", cancellable = true)
     private void byId__1363610994(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1363610994L))
             info.setReturnValue(new java.lang.Object());
+    }
+
+    @Inject(at = @At("HEAD"), method = "addMapping(Ljava/lang/Object;I)V", cancellable = true)
+    private void addMapping_1386045788(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1386045788L))
+            info.cancel();
     }
 
 

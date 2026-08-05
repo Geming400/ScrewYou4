@@ -13,15 +13,15 @@ public class CubeMap1737924729Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "render(FF)V", cancellable = true)
-    private void render_653387244(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(653387244L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "registerTextures(Lnet/minecraft/client/renderer/texture/TextureManager;)V", cancellable = true)
     private void registerTextures__29295783(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-29295783L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "render(FF)V", cancellable = true)
+    private void render_653387244(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(653387244L))
             info.cancel();
     }
 

@@ -28,7 +28,7 @@ public class ScoreContents832733934Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_870996676(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(870996676L))
-            info.setReturnValue(-1916110674);
+            info.setReturnValue(1976482622);
     }
 
     @Inject(at = @At("HEAD"), method = "resolve(Lnet/minecraft/network/chat/ResolutionContext;I)Lnet/minecraft/network/chat/MutableComponent;", cancellable = true)

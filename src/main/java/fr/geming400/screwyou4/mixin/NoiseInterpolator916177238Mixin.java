@@ -10,13 +10,13 @@ public class NoiseInterpolator916177238Mixin {
         @Inject(at = @At("HEAD"), method = "type()Lnet/minecraft/world/level/levelgen/DensityFunctions$Marker$Type;", cancellable = true)
     private void type__2048027520(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2048027520L))
-            info.setReturnValue(net.minecraft.world.level.levelgen.DensityFunctions.Marker.Type.CacheOnce);
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "compute(Lnet/minecraft/world/level/levelgen/DensityFunction$FunctionContext;)D", cancellable = true)
     private void compute_1884208858(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1884208858L))
-            info.setReturnValue(8.668216006229964E8D);
+            info.setReturnValue(8.502686006229964E8D);
     }
 
     @Inject(at = @At("HEAD"), method = "wrapped()Lnet/minecraft/world/level/levelgen/DensityFunction;", cancellable = true)

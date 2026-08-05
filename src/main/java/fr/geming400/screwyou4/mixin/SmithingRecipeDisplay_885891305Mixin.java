@@ -34,7 +34,7 @@ public class SmithingRecipeDisplay_885891305Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_924154046(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(924154046L))
-            info.setReturnValue(-1307569894);
+            info.setReturnValue(-975154494);
     }
 
     @Inject(at = @At("HEAD"), method = "result()Lnet/minecraft/world/item/crafting/display/SlotDisplay;", cancellable = true)

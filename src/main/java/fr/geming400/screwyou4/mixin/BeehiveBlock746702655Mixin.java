@@ -19,12 +19,6 @@ public class BeehiveBlock746702655Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "newBlockEntity(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/entity/BlockEntity;", cancellable = true)
-    private void newBlockEntity__838775000(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-838775000L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "mirror(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/Mirror;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
     private void mirror__2023339572(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2023339572L))
@@ -43,27 +37,21 @@ public class BeehiveBlock746702655Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "playerWillDestroy(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/entity/player/Player;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
-    private void playerWillDestroy_24646494(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(24646494L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "animateTick(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)V", cancellable = true)
     private void animateTick_624100574(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(624100574L))
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "playerWillDestroy(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/entity/player/Player;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
+    private void playerWillDestroy_24646494(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(24646494L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "playerDestroy(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/entity/BlockEntity;Lnet/minecraft/world/item/ItemStack;)V", cancellable = true)
     private void playerDestroy__693040515(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-693040515L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "releaseBeesAndResetHoneyLevel(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/level/block/entity/BeehiveBlockEntity$BeeReleaseStatus;)V", cancellable = true)
-    private void releaseBeesAndResetHoneyLevel__236831389(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-236831389L))
             info.cancel();
     }
 
@@ -76,6 +64,18 @@ public class BeehiveBlock746702655Mixin {
     @Inject(at = @At("HEAD"), method = "dropHoneycomb(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/entity/BlockEntity;Lnet/minecraft/world/entity/Entity;Lnet/minecraft/core/BlockPos;)V", cancellable = true)
     private static void dropHoneycomb__1947902217(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1947902217L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "newBlockEntity(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/entity/BlockEntity;", cancellable = true)
+    private void newBlockEntity__838775000(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-838775000L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "releaseBeesAndResetHoneyLevel(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/level/block/entity/BeehiveBlockEntity$BeeReleaseStatus;)V", cancellable = true)
+    private void releaseBeesAndResetHoneyLevel__236831389(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-236831389L))
             info.cancel();
     }
 

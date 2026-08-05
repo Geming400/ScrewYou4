@@ -22,7 +22,7 @@ public class Ints1259475787Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1297738529(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1297738529L))
-            info.setReturnValue(-1382011112);
+            info.setReturnValue(2124823784);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(I)Z", cancellable = true)

@@ -13,22 +13,22 @@ public class SpyglassItem_1137537313Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "finishUsingItem(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/LivingEntity;)Lnet/minecraft/world/item/ItemStack;", cancellable = true)
+    private void finishUsingItem__97455618(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-97455618L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "getUseDuration(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/LivingEntity;)I", cancellable = true)
     private void getUseDuration_240356657(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(240356657L))
-            info.setReturnValue(-228921499);
+            info.setReturnValue(-323005399);
     }
 
     @Inject(at = @At("HEAD"), method = "releaseUsing(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/LivingEntity;I)Z", cancellable = true)
     private void releaseUsing__696092022(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-696092022L))
             info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "finishUsingItem(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/LivingEntity;)Lnet/minecraft/world/item/ItemStack;", cancellable = true)
-    private void finishUsingItem__97455618(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-97455618L))
-            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getUseAnimation(Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/world/item/ItemUseAnimation;", cancellable = true)

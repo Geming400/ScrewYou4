@@ -22,13 +22,31 @@ public class JukeboxSong547455101Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_585717843(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(585717843L))
-            info.setReturnValue(-1890800755);
+            info.setReturnValue(1907217941);
     }
 
     @Inject(at = @At("HEAD"), method = "description()Lnet/minecraft/network/chat/Component;", cancellable = true)
     private void description__1629454064(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1629454064L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "lengthInTicks()I", cancellable = true)
+    private void lengthInTicks_585717347(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(585717347L))
+            info.setReturnValue(509809936);
+    }
+
+    @Inject(at = @At("HEAD"), method = "hasFinished(J)Z", cancellable = true)
+    private void hasFinished_1762299438(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1762299438L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "lengthInSeconds()F", cancellable = true)
+    private void lengthInSeconds_585714464(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(585714464L))
+            info.setReturnValue(1.211908E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "soundEvent()Lnet/minecraft/core/Holder;", cancellable = true)
@@ -46,25 +64,7 @@ public class JukeboxSong547455101Mixin {
     @Inject(at = @At("HEAD"), method = "comparatorOutput()I", cancellable = true)
     private void comparatorOutput_585717347(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(585717347L))
-            info.setReturnValue(1006758536);
-    }
-
-    @Inject(at = @At("HEAD"), method = "lengthInSeconds()F", cancellable = true)
-    private void lengthInSeconds_585714464(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(585714464L))
-            info.setReturnValue(6.181394E8F);
-    }
-
-    @Inject(at = @At("HEAD"), method = "hasFinished(J)Z", cancellable = true)
-    private void hasFinished_1762299438(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1762299438L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "lengthInTicks()I", cancellable = true)
-    private void lengthInTicks_585717347(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(585717347L))
-            info.setReturnValue(1006758536);
+            info.setReturnValue(509809936);
     }
 
 

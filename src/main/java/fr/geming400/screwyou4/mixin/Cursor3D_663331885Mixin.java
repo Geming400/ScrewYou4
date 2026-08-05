@@ -13,28 +13,28 @@ public class Cursor3D_663331885Mixin {
             info.setReturnValue(false);
     }
 
+    @Inject(at = @At("HEAD"), method = "getNextType()I", cancellable = true)
+    private void getNextType_701594130(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(701594130L))
+            info.setReturnValue(-417439559);
+    }
+
     @Inject(at = @At("HEAD"), method = "nextX()I", cancellable = true)
     private void nextX_701594130(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(701594130L))
-            info.setReturnValue(-611196259);
+            info.setReturnValue(-417439559);
     }
 
     @Inject(at = @At("HEAD"), method = "nextY()I", cancellable = true)
     private void nextY_701594130(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(701594130L))
-            info.setReturnValue(-611196259);
+            info.setReturnValue(-417439559);
     }
 
     @Inject(at = @At("HEAD"), method = "nextZ()I", cancellable = true)
     private void nextZ_701594130(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(701594130L))
-            info.setReturnValue(-611196259);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getNextType()I", cancellable = true)
-    private void getNextType_701594130(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(701594130L))
-            info.setReturnValue(-611196259);
+            info.setReturnValue(-417439559);
     }
 
 

@@ -22,12 +22,36 @@ public class Context_1676543207Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1714805948(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1714805948L))
-            info.setReturnValue(447315137);
+            info.setReturnValue(1206700237);
+    }
+
+    @Inject(at = @At("HEAD"), method = "blockModelResolver()Lnet/minecraft/client/renderer/block/BlockModelResolver;", cancellable = true)
+    private void blockModelResolver__4985900(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-4985900L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "playerSkinRenderCache()Lnet/minecraft/client/renderer/PlayerSkinRenderCache;", cancellable = true)
+    private void playerSkinRenderCache__1583741160(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1583741160L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "itemModelResolver()Lnet/minecraft/client/renderer/item/ItemModelResolver;", cancellable = true)
+    private void itemModelResolver__173633960(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-173633960L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "font()Lnet/minecraft/client/gui/Font;", cancellable = true)
     private void font__1352255177(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1352255177L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "blockEntityRenderDispatcher()Lnet/minecraft/client/renderer/blockentity/BlockEntityRenderDispatcher;", cancellable = true)
+    private void blockEntityRenderDispatcher_1129141016(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1129141016L))
             info.setReturnValue(null);
     }
 
@@ -43,12 +67,6 @@ public class Context_1676543207Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "blockEntityRenderDispatcher()Lnet/minecraft/client/renderer/blockentity/BlockEntityRenderDispatcher;", cancellable = true)
-    private void blockEntityRenderDispatcher_1129141016(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1129141016L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "entityModelSet()Lnet/minecraft/client/model/geom/EntityModelSet;", cancellable = true)
     private void entityModelSet__107900741(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-107900741L))
@@ -58,24 +76,6 @@ public class Context_1676543207Mixin {
     @Inject(at = @At("HEAD"), method = "entityRenderer()Lnet/minecraft/client/renderer/entity/EntityRenderDispatcher;", cancellable = true)
     private void entityRenderer_849681722(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(849681722L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "itemModelResolver()Lnet/minecraft/client/renderer/item/ItemModelResolver;", cancellable = true)
-    private void itemModelResolver__173633960(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-173633960L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "playerSkinRenderCache()Lnet/minecraft/client/renderer/PlayerSkinRenderCache;", cancellable = true)
-    private void playerSkinRenderCache__1583741160(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1583741160L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "blockModelResolver()Lnet/minecraft/client/renderer/block/BlockModelResolver;", cancellable = true)
-    private void blockModelResolver__4985900(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-4985900L))
             info.setReturnValue(null);
     }
 

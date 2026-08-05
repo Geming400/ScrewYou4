@@ -22,13 +22,13 @@ public class ParticleLimit_2033258505Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2071521246(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2071521246L))
-            info.setReturnValue(619056411);
+            info.setReturnValue(674138711);
     }
 
     @Inject(at = @At("HEAD"), method = "limit()I", cancellable = true)
     private void limit_2071520750(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2071520750L))
-            info.setReturnValue(797579901);
+            info.setReturnValue(852662201);
     }
 
 

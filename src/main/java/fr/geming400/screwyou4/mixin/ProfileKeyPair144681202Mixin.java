@@ -22,7 +22,7 @@ public class ProfileKeyPair144681202Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_182943944(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(182943944L))
-            info.setReturnValue(-1344864154);
+            info.setReturnValue(-925019354);
     }
 
     @Inject(at = @At("HEAD"), method = "publicKey()Lnet/minecraft/world/entity/player/ProfilePublicKey;", cancellable = true)

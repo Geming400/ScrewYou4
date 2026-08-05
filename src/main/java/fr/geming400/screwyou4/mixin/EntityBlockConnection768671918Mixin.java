@@ -34,7 +34,7 @@ public class EntityBlockConnection768671918Mixin {
     @Inject(at = @At("HEAD"), method = "distanceManhattan()I", cancellable = true)
     private void distanceManhattan_806934164(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(806934164L))
-            info.setReturnValue(1873640840);
+            info.setReturnValue(-1862993556);
     }
 
 

@@ -40,7 +40,7 @@ public class DragonChargePlayerPhase_1552657883Mixin {
     @Inject(at = @At("HEAD"), method = "getFlySpeed()F", cancellable = true)
     private void getFlySpeed_1590917245(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1590917245L))
-            info.setReturnValue(2.820278E8F);
+            info.setReturnValue(4.359121E8F);
     }
 
 

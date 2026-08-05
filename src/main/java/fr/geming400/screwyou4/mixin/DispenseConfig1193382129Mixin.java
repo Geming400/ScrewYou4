@@ -22,7 +22,7 @@ public class DispenseConfig1193382129Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1231644871(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1231644871L))
-            info.setReturnValue(1973206982);
+            info.setReturnValue(1701744982);
     }
 
     @Inject(at = @At("HEAD"), method = "builder()Lnet/minecraft/world/item/ProjectileItem$DispenseConfig$Builder;", cancellable = true)
@@ -34,24 +34,24 @@ public class DispenseConfig1193382129Mixin {
     @Inject(at = @At("HEAD"), method = "power()F", cancellable = true)
     private void power_1231641492(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1231641492L))
-            info.setReturnValue(5.861737E8F);
-    }
-
-    @Inject(at = @At("HEAD"), method = "uncertainty()F", cancellable = true)
-    private void uncertainty_1231641492(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1231641492L))
-            info.setReturnValue(5.861737E8F);
-    }
-
-    @Inject(at = @At("HEAD"), method = "overrideDispenseEvent()Ljava/util/OptionalInt;", cancellable = true)
-    private void overrideDispenseEvent__977189658(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-977189658L))
-            info.setReturnValue(null);
+            info.setReturnValue(3.147117E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "positionFunction()Lnet/minecraft/world/item/ProjectileItem$PositionFunction;", cancellable = true)
     private void positionFunction__1342493567(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1342493567L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "uncertainty()F", cancellable = true)
+    private void uncertainty_1231641492(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1231641492L))
+            info.setReturnValue(3.147117E8F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "overrideDispenseEvent()Ljava/util/OptionalInt;", cancellable = true)
+    private void overrideDispenseEvent__977189658(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-977189658L))
             info.setReturnValue(null);
     }
 

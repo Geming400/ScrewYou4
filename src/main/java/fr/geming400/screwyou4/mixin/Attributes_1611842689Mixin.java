@@ -22,7 +22,7 @@ public class Attributes_1611842689Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1650105430(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1650105430L))
-            info.setReturnValue(-491290173);
+            info.setReturnValue(-649482873);
     }
 
     @Inject(at = @At("HEAD"), method = "allowPreServerInit()Z", cancellable = true)

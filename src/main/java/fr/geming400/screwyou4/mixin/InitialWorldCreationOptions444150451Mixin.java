@@ -22,7 +22,7 @@ public class InitialWorldCreationOptions444150451Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_482413193(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(482413193L))
-            info.setReturnValue(-1024330362);
+            info.setReturnValue(-1244988162);
     }
 
     @Inject(at = @At("HEAD"), method = "gameRuleOverwrites()Lnet/minecraft/world/level/gamerules/GameRuleMap;", cancellable = true)

@@ -289,19 +289,13 @@ public class Generator {
                 characters[i] = (char) rng.nextInt(32, upperBound);
             }
 
-            String res = "\"%s\""
+            return "\"%s\""
                     .formatted(StringEscapeUtils.escapeJava(String.copyValueOf(characters)
                             .replaceAll("\\p{C}", "")
                             .replaceAll("\\\\[^\"]", "")
                     ));
-
-            // Rare case when the string finishes with '\"'
-            if (res.endsWith("\\\""))
-                res += "\"";
-
-            return res;
         } else {
-            if (returnType.isEnum()) {
+            if (returnType.isEnum() && !Utils.isPrivateOrHasPrivateEnclosingClass(returnType)) {
                 //noinspection unchecked
                 Class<Enum<?>> enumReturnType = (Class<Enum<?>>) returnType;
 
@@ -313,7 +307,7 @@ public class Generator {
 
             if (Utils.hasDefaultAccessibleConstructor(returnType)) {
                 if (rng.nextFloat() > 0.3)
-                    return "new %s()".formatted(returnType.getTypeName());
+                    return "new %s()".formatted(returnType.getTypeName().replace("$", "."));
             }
         }
 

@@ -22,7 +22,7 @@ public class Configuration_1037434365Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1075697106(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1075697106L))
-            info.setReturnValue(-388323956);
+            info.setReturnValue(-29658756);
     }
 
     @Inject(at = @At("HEAD"), method = "barrier()Lnet/minecraft/world/level/levelgen/feature/stateproviders/BlockStateProvider;", cancellable = true)
@@ -37,8 +37,8 @@ public class Configuration_1037434365Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "canReplaceWithBarrier()Lnet/minecraft/world/level/levelgen/blockpredicates/BlockPredicate;", cancellable = true)
-    private void canReplaceWithBarrier_1070202953(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "canReplaceWithAirOrFluid()Lnet/minecraft/world/level/levelgen/blockpredicates/BlockPredicate;", cancellable = true)
+    private void canReplaceWithAirOrFluid_1070202953(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1070202953L))
             info.setReturnValue(null);
     }
@@ -49,8 +49,8 @@ public class Configuration_1037434365Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "canReplaceWithAirOrFluid()Lnet/minecraft/world/level/levelgen/blockpredicates/BlockPredicate;", cancellable = true)
-    private void canReplaceWithAirOrFluid_1070202953(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "canReplaceWithBarrier()Lnet/minecraft/world/level/levelgen/blockpredicates/BlockPredicate;", cancellable = true)
+    private void canReplaceWithBarrier_1070202953(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1070202953L))
             info.setReturnValue(null);
     }

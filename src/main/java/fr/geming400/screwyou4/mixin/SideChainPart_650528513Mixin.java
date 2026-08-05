@@ -31,34 +31,16 @@ public class SideChainPart_650528513Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "whenDisconnectedFromTheRight()Lnet/minecraft/world/level/block/state/properties/SideChainPart;", cancellable = true)
-    private void whenDisconnectedFromTheRight_20659057(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(20659057L))
-            info.setReturnValue(net.minecraft.world.level.block.state.properties.SideChainPart.UNCONNECTED);
-    }
-
     @Inject(at = @At("HEAD"), method = "whenDisconnectedFromTheLeft()Lnet/minecraft/world/level/block/state/properties/SideChainPart;", cancellable = true)
     private void whenDisconnectedFromTheLeft_20659057(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(20659057L))
             info.setReturnValue(net.minecraft.world.level.block.state.properties.SideChainPart.UNCONNECTED);
     }
 
-    @Inject(at = @At("HEAD"), method = "whenConnectedToTheRight()Lnet/minecraft/world/level/block/state/properties/SideChainPart;", cancellable = true)
-    private void whenConnectedToTheRight_20659057(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "whenDisconnectedFromTheRight()Lnet/minecraft/world/level/block/state/properties/SideChainPart;", cancellable = true)
+    private void whenDisconnectedFromTheRight_20659057(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(20659057L))
             info.setReturnValue(net.minecraft.world.level.block.state.properties.SideChainPart.UNCONNECTED);
-    }
-
-    @Inject(at = @At("HEAD"), method = "whenConnectedToTheLeft()Lnet/minecraft/world/level/block/state/properties/SideChainPart;", cancellable = true)
-    private void whenConnectedToTheLeft_20659057(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(20659057L))
-            info.setReturnValue(net.minecraft.world.level.block.state.properties.SideChainPart.UNCONNECTED);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isConnectionTowards(Lnet/minecraft/world/level/block/state/properties/SideChainPart;)Z", cancellable = true)
-    private void isConnectionTowards_1640912745(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1640912745L))
-            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
@@ -71,6 +53,24 @@ public class SideChainPart_650528513Mixin {
     private void isChainEnd_688807095(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(688807095L))
             info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isConnectionTowards(Lnet/minecraft/world/level/block/state/properties/SideChainPart;)Z", cancellable = true)
+    private void isConnectionTowards_1640912745(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1640912745L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "whenConnectedToTheRight()Lnet/minecraft/world/level/block/state/properties/SideChainPart;", cancellable = true)
+    private void whenConnectedToTheRight_20659057(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(20659057L))
+            info.setReturnValue(net.minecraft.world.level.block.state.properties.SideChainPart.UNCONNECTED);
+    }
+
+    @Inject(at = @At("HEAD"), method = "whenConnectedToTheLeft()Lnet/minecraft/world/level/block/state/properties/SideChainPart;", cancellable = true)
+    private void whenConnectedToTheLeft_20659057(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(20659057L))
+            info.setReturnValue(net.minecraft.world.level.block.state.properties.SideChainPart.UNCONNECTED);
     }
 
 

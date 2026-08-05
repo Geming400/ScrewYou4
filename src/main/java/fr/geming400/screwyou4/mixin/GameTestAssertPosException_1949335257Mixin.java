@@ -13,15 +13,15 @@ public class GameTestAssertPosException_1949335257Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getMessageToShowAtBlock()Lnet/minecraft/network/chat/Component;", cancellable = true)
-    private void getMessageToShowAtBlock__227573909(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-227573909L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getRelativePos()Lnet/minecraft/core/BlockPos;", cancellable = true)
     private void getRelativePos_55948377(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(55948377L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getMessageToShowAtBlock()Lnet/minecraft/network/chat/Component;", cancellable = true)
+    private void getMessageToShowAtBlock__227573909(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-227573909L))
             info.setReturnValue(null);
     }
 

@@ -22,7 +22,7 @@ public class CannotBuildReason333430267Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_371693009(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(371693009L))
-            info.setReturnValue(947113719);
+            info.setReturnValue(781666919);
     }
 
     @Inject(at = @At("HEAD"), method = "message()Lnet/minecraft/network/chat/Component;", cancellable = true)

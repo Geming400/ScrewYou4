@@ -31,10 +31,10 @@ public class WitherSkullRenderer_1293327489Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "createSkullLayer()Lnet/minecraft/client/model/geom/builders/LayerDefinition;", cancellable = true)
-    private static void createSkullLayer_579195324(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(579195324L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/EntityRenderState;", cancellable = true)
+    private void createRenderState_704691044(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(704691044L))
+            info.setReturnValue(new net.minecraft.client.renderer.entity.state.EntityRenderState());
     }
 
     @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/WitherSkullRenderState;", cancellable = true)
@@ -43,10 +43,10 @@ public class WitherSkullRenderer_1293327489Mixin {
             info.setReturnValue(new net.minecraft.client.renderer.entity.state.WitherSkullRenderState());
     }
 
-    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/EntityRenderState;", cancellable = true)
-    private void createRenderState_704691044(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(704691044L))
-            info.setReturnValue(new net.minecraft.client.renderer.entity.state.EntityRenderState());
+    @Inject(at = @At("HEAD"), method = "createSkullLayer()Lnet/minecraft/client/model/geom/builders/LayerDefinition;", cancellable = true)
+    private static void createSkullLayer_579195324(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(579195324L))
+            info.setReturnValue(null);
     }
 
 

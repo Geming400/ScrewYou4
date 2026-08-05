@@ -13,12 +13,6 @@ public class MinecartFurnace383981111Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getDefaultDisplayBlockState()Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
-    private void getDefaultDisplayBlockState__1911777755(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1911777755L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "isFurnace()Z", cancellable = true)
     private void isFurnace_422259694(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(422259694L))
@@ -41,6 +35,12 @@ public class MinecartFurnace383981111Mixin {
     private void addFuel__800582113(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-800582113L))
             info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getDefaultDisplayBlockState()Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
+    private void getDefaultDisplayBlockState__1911777755(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1911777755L))
+            info.setReturnValue(null);
     }
 
 

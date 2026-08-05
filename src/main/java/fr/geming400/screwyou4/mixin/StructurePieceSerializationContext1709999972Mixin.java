@@ -22,7 +22,7 @@ public class StructurePieceSerializationContext1709999972Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1748262714(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1748262714L))
-            info.setReturnValue(1551451455);
+            info.setReturnValue(1863166455);
     }
 
     @Inject(at = @At("HEAD"), method = "fromLevel(Lnet/minecraft/server/level/ServerLevel;)Lnet/minecraft/world/level/levelgen/structure/pieces/StructurePieceSerializationContext;", cancellable = true)

@@ -10,13 +10,13 @@ public class WorldCoordinate_572281300Mixin {
         @Inject(at = @At("HEAD"), method = "get(D)D", cancellable = true)
     private void get_1781563368(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1781563368L))
-            info.setReturnValue(9.214383001680307E8D);
+            info.setReturnValue(7.890220016803077E7D);
     }
 
     @Inject(at = @At("HEAD"), method = "value()D", cancellable = true)
     private void value_610538740(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(610538740L))
-            info.setReturnValue(9.214383008408209E8D);
+            info.setReturnValue(7.890220084082088E7D);
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
@@ -34,7 +34,7 @@ public class WorldCoordinate_572281300Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_610544041(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(610544041L))
-            info.setReturnValue(1101930486);
+            info.setReturnValue(259394386);
     }
 
     @Inject(at = @At("HEAD"), method = "parseInt(Lcom/mojang/brigadier/StringReader;)Lnet/minecraft/commands/arguments/coordinates/WorldCoordinate;", cancellable = true)

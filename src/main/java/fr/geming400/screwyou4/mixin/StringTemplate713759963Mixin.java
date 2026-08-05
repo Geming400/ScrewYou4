@@ -22,7 +22,7 @@ public class StringTemplate713759963Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_752022705(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(752022705L))
-            info.setReturnValue(-137314245);
+            info.setReturnValue(215579555);
     }
 
     @Inject(at = @At("HEAD"), method = "segments()Ljava/util/List;", cancellable = true)
@@ -37,6 +37,12 @@ public class StringTemplate713759963Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "variables()Ljava/util/List;", cancellable = true)
+    private void variables__1954870517(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1954870517L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "substitute(Ljava/util/List;)Ljava/lang/String;", cancellable = true)
     private void substitute_1745480147(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1745480147L))
@@ -47,12 +53,6 @@ public class StringTemplate713759963Mixin {
     private static void isValidVariableName_1866125204(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1866125204L))
             info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "variables()Ljava/util/List;", cancellable = true)
-    private void variables__1954870517(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1954870517L))
-            info.setReturnValue(null);
     }
 
 

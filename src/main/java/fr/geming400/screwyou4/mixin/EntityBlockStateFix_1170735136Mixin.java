@@ -10,7 +10,7 @@ public class EntityBlockStateFix_1170735136Mixin {
         @Inject(at = @At("HEAD"), method = "getBlockId(Ljava/lang/String;)I", cancellable = true)
     private static void getBlockId__1971883257(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1971883257L))
-            info.setReturnValue(-1124165677);
+            info.setReturnValue(-726308377);
     }
 
     @Inject(at = @At("HEAD"), method = "makeRule()Lcom/mojang/datafixers/TypeRewriteRule;", cancellable = true)

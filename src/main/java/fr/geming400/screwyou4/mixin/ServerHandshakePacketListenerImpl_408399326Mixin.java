@@ -13,15 +13,15 @@ public class ServerHandshakePacketListenerImpl_408399326Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "onDisconnect(Lnet/minecraft/network/DisconnectionDetails;)V", cancellable = true)
-    private void onDisconnect__1679470988(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1679470988L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "handleIntention(Lnet/minecraft/network/protocol/handshake/ClientIntentionPacket;)V", cancellable = true)
     private void handleIntention_475026864(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(475026864L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "onDisconnect(Lnet/minecraft/network/DisconnectionDetails;)V", cancellable = true)
+    private void onDisconnect__1679470988(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1679470988L))
             info.cancel();
     }
 

@@ -10,7 +10,7 @@ public class PlayerScoreEntry_56013535Mixin {
         @Inject(at = @At("HEAD"), method = "value()I", cancellable = true)
     private void value_94275780(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(94275780L))
-            info.setReturnValue(17170204);
+            info.setReturnValue(834984204);
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
@@ -28,7 +28,7 @@ public class PlayerScoreEntry_56013535Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_94276276(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(94276276L))
-            info.setReturnValue(-161353285);
+            info.setReturnValue(656460715);
     }
 
     @Inject(at = @At("HEAD"), method = "isHidden()Z", cancellable = true)

@@ -13,6 +13,12 @@ public class GridLayoutTab_2065311049Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "getTabTitle()Lnet/minecraft/network/chat/Component;", cancellable = true)
+    private void getTabTitle__111598117(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-111598117L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "getTabExtraNarration()Lnet/minecraft/network/chat/Component;", cancellable = true)
     private void getTabExtraNarration__111598117(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-111598117L))
@@ -23,12 +29,6 @@ public class GridLayoutTab_2065311049Mixin {
     private void visitChildren__1548639835(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1548639835L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "getTabTitle()Lnet/minecraft/network/chat/Component;", cancellable = true)
-    private void getTabTitle__111598117(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-111598117L))
-            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "doLayout(Lnet/minecraft/client/gui/navigation/ScreenRectangle;)V", cancellable = true)

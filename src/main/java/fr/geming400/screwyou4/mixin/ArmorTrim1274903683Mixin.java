@@ -22,7 +22,7 @@ public class ArmorTrim1274903683Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1313166425(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1313166425L))
-            info.setReturnValue(333522291);
+            info.setReturnValue(444049491);
     }
 
     @Inject(at = @At("HEAD"), method = "pattern()Lnet/minecraft/core/Holder;", cancellable = true)
@@ -31,9 +31,9 @@ public class ArmorTrim1274903683Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "material()Lnet/minecraft/core/Holder;", cancellable = true)
-    private void material__1471187841(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1471187841L))
+    @Inject(at = @At("HEAD"), method = "layerAssetId(Ljava/lang/String;Lnet/minecraft/resources/ResourceKey;)Lnet/minecraft/resources/Identifier;", cancellable = true)
+    private void layerAssetId_1206574800(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1206574800L))
             info.setReturnValue(null);
     }
 
@@ -43,9 +43,9 @@ public class ArmorTrim1274903683Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "layerAssetId(Ljava/lang/String;Lnet/minecraft/resources/ResourceKey;)Lnet/minecraft/resources/Identifier;", cancellable = true)
-    private void layerAssetId_1206574800(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1206574800L))
+    @Inject(at = @At("HEAD"), method = "material()Lnet/minecraft/core/Holder;", cancellable = true)
+    private void material__1471187841(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1471187841L))
             info.setReturnValue(null);
     }
 

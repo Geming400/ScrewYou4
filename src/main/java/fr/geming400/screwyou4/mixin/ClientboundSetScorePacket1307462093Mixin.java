@@ -28,7 +28,7 @@ public class ClientboundSetScorePacket1307462093Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1345724835(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1345724835L))
-            info.setReturnValue(1881888266);
+            info.setReturnValue(-2000160530);
     }
 
     @Inject(at = @At("HEAD"), method = "owner()Ljava/lang/String;", cancellable = true)
@@ -64,7 +64,7 @@ public class ClientboundSetScorePacket1307462093Mixin {
     @Inject(at = @At("HEAD"), method = "score()I", cancellable = true)
     private void score_1345724339(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1345724339L))
-            info.setReturnValue(-1777104423);
+            info.setReturnValue(-1364185923);
     }
 
     @Inject(at = @At("HEAD"), method = "objectiveName()Ljava/lang/String;", cancellable = true)

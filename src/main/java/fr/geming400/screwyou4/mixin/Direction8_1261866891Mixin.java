@@ -22,13 +22,13 @@ public class Direction8_1261866891Mixin {
     @Inject(at = @At("HEAD"), method = "getStepZ()I", cancellable = true)
     private void getStepZ_1300129136(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1300129136L))
-            info.setReturnValue(-1082678743);
+            info.setReturnValue(-939058143);
     }
 
     @Inject(at = @At("HEAD"), method = "getStepX()I", cancellable = true)
     private void getStepX_1300129136(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1300129136L))
-            info.setReturnValue(-1082678743);
+            info.setReturnValue(-939058143);
     }
 
     @Inject(at = @At("HEAD"), method = "getDirections()Ljava/util/Set;", cancellable = true)

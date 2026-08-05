@@ -16,7 +16,7 @@ public class Builder842036440Mixin {
     @Inject(at = @At("HEAD"), method = "addColumn(Ljava/lang/String;)Lnet/minecraft/util/CsvOutput$Builder;", cancellable = true)
     private void addColumn__470668617(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-470668617L))
-            info.setReturnValue(new net.minecraft.util.CsvOutput$Builder());
+            info.setReturnValue(new net.minecraft.util.CsvOutput.Builder());
     }
 
 

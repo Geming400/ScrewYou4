@@ -34,7 +34,7 @@ public class ChunkStatus148926961Mixin {
     @Inject(at = @At("HEAD"), method = "getIndex()I", cancellable = true)
     private void getIndex_187189207(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(187189207L))
-            info.setReturnValue(492578917);
+            info.setReturnValue(124258417);
     }
 
     @Inject(at = @At("HEAD"), method = "isAfter(Lnet/minecraft/world/level/chunk/status/ChunkStatus;)Z", cancellable = true)
@@ -55,22 +55,10 @@ public class ChunkStatus148926961Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getStatusList()Ljava/util/List;", cancellable = true)
-    private static void getStatusList_1775264025(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1775264025L))
+    @Inject(at = @At("HEAD"), method = "heightmapsAfter()Ljava/util/EnumSet;", cancellable = true)
+    private void heightmapsAfter_1214755572(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1214755572L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getChunkType()Lnet/minecraft/world/level/chunk/status/ChunkType;", cancellable = true)
-    private void getChunkType_1733752279(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1733752279L))
-            info.setReturnValue(net.minecraft.world.level.chunk.status.ChunkType.PROTOCHUNK);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isOrBefore(Lnet/minecraft/world/level/chunk/status/ChunkStatus;)Z", cancellable = true)
-    private void isOrBefore__1167675497(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1167675497L))
-            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "isOrAfter(Lnet/minecraft/world/level/chunk/status/ChunkStatus;)Z", cancellable = true)
@@ -79,9 +67,21 @@ public class ChunkStatus148926961Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "heightmapsAfter()Ljava/util/EnumSet;", cancellable = true)
-    private void heightmapsAfter_1214755572(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1214755572L))
+    @Inject(at = @At("HEAD"), method = "isOrBefore(Lnet/minecraft/world/level/chunk/status/ChunkStatus;)Z", cancellable = true)
+    private void isOrBefore__1167675497(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1167675497L))
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getChunkType()Lnet/minecraft/world/level/chunk/status/ChunkType;", cancellable = true)
+    private void getChunkType_1733752279(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1733752279L))
+            info.setReturnValue(net.minecraft.world.level.chunk.status.ChunkType.PROTOCHUNK);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getStatusList()Ljava/util/List;", cancellable = true)
+    private static void getStatusList_1775264025(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1775264025L))
             info.setReturnValue(null);
     }
 

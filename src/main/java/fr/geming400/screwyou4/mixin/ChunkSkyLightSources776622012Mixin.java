@@ -19,16 +19,16 @@ public class ChunkSkyLightSources776622012Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getLowestSourceY(II)I", cancellable = true)
-    private void getLowestSourceY__219269950(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-219269950L))
-            info.setReturnValue(-195225316);
-    }
-
     @Inject(at = @At("HEAD"), method = "getHighestLowestSourceY()I", cancellable = true)
     private void getHighestLowestSourceY_814884258(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(814884258L))
-            info.setReturnValue(85347333);
+            info.setReturnValue(382948033);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getLowestSourceY(II)I", cancellable = true)
+    private void getLowestSourceY__219269950(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-219269950L))
+            info.setReturnValue(102375384);
     }
 
 

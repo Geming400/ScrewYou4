@@ -19,6 +19,18 @@ public class CommandBlockEntity1586642171Mixin {
             info.setReturnValue(net.minecraft.world.level.block.entity.CommandBlockEntity.Mode.REDSTONE);
     }
 
+    @Inject(at = @At("HEAD"), method = "wasConditionMet()Z", cancellable = true)
+    private void wasConditionMet_1624920754(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1624920754L))
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getCommandBlock()Lnet/minecraft/world/level/BaseCommandBlock;", cancellable = true)
+    private void getCommandBlock_693275994(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(693275994L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "setAutomatic(Z)V", cancellable = true)
     private void setAutomatic__1478708296(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1478708296L))
@@ -37,16 +49,10 @@ public class CommandBlockEntity1586642171Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "getCommandBlock()Lnet/minecraft/world/level/BaseCommandBlock;", cancellable = true)
-    private void getCommandBlock_693275994(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(693275994L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "wasConditionMet()Z", cancellable = true)
-    private void wasConditionMet_1624920754(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1624920754L))
-            info.setReturnValue(false);
+    @Inject(at = @At("HEAD"), method = "removeComponentsFromTag(Lnet/minecraft/world/level/storage/ValueOutput;)V", cancellable = true)
+    private void removeComponentsFromTag_367510819(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(367510819L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "onModeSwitch()V", cancellable = true)
@@ -64,12 +70,6 @@ public class CommandBlockEntity1586642171Mixin {
     @Inject(at = @At("HEAD"), method = "setPowered(Z)V", cancellable = true)
     private void setPowered__1478708296(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1478708296L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "removeComponentsFromTag(Lnet/minecraft/world/level/storage/ValueOutput;)V", cancellable = true)
-    private void removeComponentsFromTag_367510819(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(367510819L))
             info.cancel();
     }
 

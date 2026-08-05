@@ -22,13 +22,7 @@ public class Packed1252600190Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1290862932(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1290862932L))
-            info.setReturnValue(1451912476);
-    }
-
-    @Inject(at = @At("HEAD"), method = "walkingSpeed()F", cancellable = true)
-    private void walkingSpeed_1290859553(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1290859553L))
-            info.setReturnValue(7.499126E8F);
+            info.setReturnValue(1099370176);
     }
 
     @Inject(at = @At("HEAD"), method = "instabuild()Z", cancellable = true)
@@ -58,13 +52,19 @@ public class Packed1252600190Mixin {
     @Inject(at = @At("HEAD"), method = "flyingSpeed()F", cancellable = true)
     private void flyingSpeed_1290859553(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1290859553L))
-            info.setReturnValue(7.499126E8F);
+            info.setReturnValue(3.973703E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "mayFly()Z", cancellable = true)
     private void mayFly_1290878773(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1290878773L))
             info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "walkingSpeed()F", cancellable = true)
+    private void walkingSpeed_1290859553(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1290859553L))
+            info.setReturnValue(3.983732E8F);
     }
 
 

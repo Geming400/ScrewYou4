@@ -28,7 +28,7 @@ public class ClientboundRecipeBookSettingsPacket1061912983Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1100175725(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1100175725L))
-            info.setReturnValue(-705008954);
+            info.setReturnValue(-966352954);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/PacketListener;)V", cancellable = true)

@@ -34,7 +34,7 @@ public class ClientboundGameRuleValuesPacket4587277Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_42850019(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(42850019L))
-            info.setReturnValue(-1119634587);
+            info.setReturnValue(-976016887);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/PacketListener;)V", cancellable = true)

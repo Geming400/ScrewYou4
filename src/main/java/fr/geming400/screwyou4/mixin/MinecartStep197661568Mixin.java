@@ -22,7 +22,7 @@ public class MinecartStep197661568Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_235924310(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(235924310L))
-            info.setReturnValue(132785903);
+            info.setReturnValue(300157603);
     }
 
     @Inject(at = @At("HEAD"), method = "position()Lnet/minecraft/world/phys/Vec3;", cancellable = true)
@@ -34,25 +34,25 @@ public class MinecartStep197661568Mixin {
     @Inject(at = @At("HEAD"), method = "weight()F", cancellable = true)
     private void weight_235920931(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(235920931L))
-            info.setReturnValue(3.158743E8F);
+            info.setReturnValue(4.83246E8F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "yRot()F", cancellable = true)
+    private void yRot_235920931(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(235920931L))
+            info.setReturnValue(4.83246E8F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "xRot()F", cancellable = true)
+    private void xRot_235920931(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(235920931L))
+            info.setReturnValue(4.83246E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "movement()Lnet/minecraft/world/phys/Vec3;", cancellable = true)
     private void movement_1295391097(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1295391097L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "yRot()F", cancellable = true)
-    private void yRot_235920931(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(235920931L))
-            info.setReturnValue(3.158743E8F);
-    }
-
-    @Inject(at = @At("HEAD"), method = "xRot()F", cancellable = true)
-    private void xRot_235920931(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(235920931L))
-            info.setReturnValue(3.158743E8F);
     }
 
 

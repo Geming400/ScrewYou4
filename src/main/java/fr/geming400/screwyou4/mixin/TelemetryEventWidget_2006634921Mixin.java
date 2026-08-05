@@ -13,6 +13,12 @@ public class TelemetryEventWidget_2006634921Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "updateLayout()V", cancellable = true)
+    private void updateLayout_2044909659(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(2044909659L))
+            info.cancel();
+    }
+
     @Inject(at = @At("HEAD"), method = "onOptInChanged(Z)V", cancellable = true)
     private void onOptInChanged__1058715547(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1058715547L))
@@ -22,12 +28,6 @@ public class TelemetryEventWidget_2006634921Mixin {
     @Inject(at = @At("HEAD"), method = "setOnScrolledListener(Ljava/util/function/DoubleConsumer;)V", cancellable = true)
     private void setOnScrolledListener_423792628(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(423792628L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "updateLayout()V", cancellable = true)
-    private void updateLayout_2044909659(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(2044909659L))
             info.cancel();
     }
 

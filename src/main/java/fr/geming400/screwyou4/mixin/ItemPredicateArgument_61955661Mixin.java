@@ -13,15 +13,15 @@ public class ItemPredicateArgument_61955661Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "itemPredicate(Lnet/minecraft/commands/CommandBuildContext;)Lnet/minecraft/commands/arguments/item/ItemPredicateArgument;", cancellable = true)
-    private static void itemPredicate_1938609805(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1938609805L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getExamples()Ljava/util/Collection;", cancellable = true)
     private void getExamples__1751692612(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1751692612L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "itemPredicate(Lnet/minecraft/commands/CommandBuildContext;)Lnet/minecraft/commands/arguments/item/ItemPredicateArgument;", cancellable = true)
+    private static void itemPredicate_1938609805(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1938609805L))
             info.setReturnValue(null);
     }
 

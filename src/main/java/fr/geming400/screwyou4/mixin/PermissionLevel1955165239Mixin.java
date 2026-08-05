@@ -22,19 +22,19 @@ public class PermissionLevel1955165239Mixin {
     @Inject(at = @At("HEAD"), method = "id()I", cancellable = true)
     private void id_1993427485(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1993427485L))
-            info.setReturnValue(261270471);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isEqualOrHigherThan(Lnet/minecraft/server/permissions/PermissionLevel;)Z", cancellable = true)
-    private void isEqualOrHigherThan_867046347(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(867046347L))
-            info.setReturnValue(true);
+            info.setReturnValue(1037707371);
     }
 
     @Inject(at = @At("HEAD"), method = "byId(I)Lnet/minecraft/server/permissions/PermissionLevel;", cancellable = true)
     private static void byId_2013854706(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2013854706L))
             info.setReturnValue(net.minecraft.server.permissions.PermissionLevel.MODERATORS);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isEqualOrHigherThan(Lnet/minecraft/server/permissions/PermissionLevel;)Z", cancellable = true)
+    private void isEqualOrHigherThan_867046347(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(867046347L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)

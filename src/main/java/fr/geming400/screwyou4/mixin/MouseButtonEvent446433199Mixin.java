@@ -10,7 +10,7 @@ public class MouseButtonEvent446433199Mixin {
         @Inject(at = @At("HEAD"), method = "modifiers()I", cancellable = true)
     private void modifiers_484695445(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(484695445L))
-            info.setReturnValue(2102294221);
+            info.setReturnValue(-1484645975);
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
@@ -28,31 +28,31 @@ public class MouseButtonEvent446433199Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_484695941(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(484695941L))
-            info.setReturnValue(1900146702);
+            info.setReturnValue(-1687793394);
     }
 
     @Inject(at = @At("HEAD"), method = "x()D", cancellable = true)
     private void x_484690640(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(484690640L))
-            info.setReturnValue(1.1193950011437075E8D);
+            info.setReturnValue(8.199676001143707E8D);
     }
 
     @Inject(at = @At("HEAD"), method = "input()I", cancellable = true)
     private void input_484695445(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(484695445L))
-            info.setReturnValue(2103294121);
+            info.setReturnValue(-1483645075);
     }
 
     @Inject(at = @At("HEAD"), method = "y()D", cancellable = true)
     private void y_484690640(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(484690640L))
-            info.setReturnValue(1.1193950011437075E8D);
+            info.setReturnValue(8.199676001143707E8D);
     }
 
     @Inject(at = @At("HEAD"), method = "button()I", cancellable = true)
     private void button_484695445(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(484695445L))
-            info.setReturnValue(2103294121);
+            info.setReturnValue(-1483645075);
     }
 
     @Inject(at = @At("HEAD"), method = "buttonInfo()Lnet/minecraft/client/input/MouseButtonInfo;", cancellable = true)

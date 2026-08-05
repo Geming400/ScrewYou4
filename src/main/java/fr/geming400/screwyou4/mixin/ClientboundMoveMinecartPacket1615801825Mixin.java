@@ -28,7 +28,7 @@ public class ClientboundMoveMinecartPacket1615801825Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1654064567(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1654064567L))
-            info.setReturnValue(-775149243);
+            info.setReturnValue(-632105143);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/protocol/game/ClientGamePacketListener;)V", cancellable = true)
@@ -58,7 +58,7 @@ public class ClientboundMoveMinecartPacket1615801825Mixin {
     @Inject(at = @At("HEAD"), method = "entityId()I", cancellable = true)
     private void entityId_1654064071(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1654064071L))
-            info.setReturnValue(-596625753);
+            info.setReturnValue(-453581653);
     }
 
 

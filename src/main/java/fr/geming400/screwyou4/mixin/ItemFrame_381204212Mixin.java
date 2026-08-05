@@ -40,19 +40,13 @@ public class ItemFrame_381204212Mixin {
     @Inject(at = @At("HEAD"), method = "getRotation()I", cancellable = true)
     private void getRotation_419466457(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(419466457L))
-            info.setReturnValue(-1173529265);
+            info.setReturnValue(-1544374765);
     }
 
-    @Inject(at = @At("HEAD"), method = "hurtServer(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/damagesource/DamageSource;F)Z", cancellable = true)
-    private void hurtServer__68226120(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-68226120L))
-            info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getAnalogOutput()I", cancellable = true)
-    private void getAnalogOutput_419466457(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(419466457L))
-            info.setReturnValue(-1172528065);
+    @Inject(at = @At("HEAD"), method = "getVisualRotationYInDegrees()F", cancellable = true)
+    private void getVisualRotationYInDegrees_419463574(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(419463574L))
+            info.setReturnValue(1.321023E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "hurtClient(Lnet/minecraft/world/damagesource/DamageSource;)Z", cancellable = true)
@@ -67,10 +61,10 @@ public class ItemFrame_381204212Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "setItem(Lnet/minecraft/world/item/ItemStack;)V", cancellable = true)
-    private void setItem_2115735499(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(2115735499L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "hurtServer(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/damagesource/DamageSource;F)Z", cancellable = true)
+    private void hurtServer__68226120(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-68226120L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "setItem(Lnet/minecraft/world/item/ItemStack;Z)V", cancellable = true)
@@ -79,28 +73,16 @@ public class ItemFrame_381204212Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getBreakSound()Lnet/minecraft/sounds/SoundEvent;", cancellable = true)
-    private void getBreakSound_1471417109(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1471417109L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getPlaceSound()Lnet/minecraft/sounds/SoundEvent;", cancellable = true)
-    private void getPlaceSound_1471417109(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1471417109L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "setItem(Lnet/minecraft/world/item/ItemStack;)V", cancellable = true)
+    private void setItem_2115735499(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(2115735499L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "shouldRenderAtSqrDistance(D)Z", cancellable = true)
     private void shouldRenderAtSqrDistance_1590507422(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1590507422L))
             info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "onSyncedDataUpdated(Lnet/minecraft/network/syncher/EntityDataAccessor;)V", cancellable = true)
-    private void onSyncedDataUpdated_2026953655(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(2026953655L))
-            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "getAddEntityPacket(Lnet/minecraft/server/level/ServerEntity;)Lnet/minecraft/network/protocol/Packet;", cancellable = true)
@@ -115,22 +97,28 @@ public class ItemFrame_381204212Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "onSyncedDataUpdated(Lnet/minecraft/network/syncher/EntityDataAccessor;)V", cancellable = true)
+    private void onSyncedDataUpdated_2026953655(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(2026953655L))
+            info.cancel();
+    }
+
     @Inject(at = @At("HEAD"), method = "getPickResult()Lnet/minecraft/world/item/ItemStack;", cancellable = true)
     private void getPickResult_904622871(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(904622871L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "playPlacementSound()V", cancellable = true)
-    private void playPlacementSound_419478950(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(419478950L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "getBreakSound()Lnet/minecraft/sounds/SoundEvent;", cancellable = true)
+    private void getBreakSound_1471417109(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1471417109L))
+            info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getVisualRotationYInDegrees()F", cancellable = true)
-    private void getVisualRotationYInDegrees_419463574(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(419463574L))
-            info.setReturnValue(5.03949E8F);
+    @Inject(at = @At("HEAD"), method = "getPlaceSound()Lnet/minecraft/sounds/SoundEvent;", cancellable = true)
+    private void getPlaceSound_1471417109(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1471417109L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "survives()Z", cancellable = true)
@@ -151,21 +139,21 @@ public class ItemFrame_381204212Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "getAnalogOutput()I", cancellable = true)
+    private void getAnalogOutput_419466457(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(419466457L))
+            info.setReturnValue(-1542359565);
+    }
+
+    @Inject(at = @At("HEAD"), method = "playPlacementSound()V", cancellable = true)
+    private void playPlacementSound_419478950(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(419478950L))
+            info.cancel();
+    }
+
     @Inject(at = @At("HEAD"), method = "getAddItemSound()Lnet/minecraft/sounds/SoundEvent;", cancellable = true)
     private void getAddItemSound_1471417109(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1471417109L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getRotateItemSound()Lnet/minecraft/sounds/SoundEvent;", cancellable = true)
-    private void getRotateItemSound_1471417109(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1471417109L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getFramedMapId(Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/world/level/saveddata/maps/MapId;", cancellable = true)
-    private void getFramedMapId__2086191293(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2086191293L))
             info.setReturnValue(null);
     }
 
@@ -179,6 +167,18 @@ public class ItemFrame_381204212Mixin {
     private void hasFramedMap_419482794(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(419482794L))
             info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getFramedMapId(Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/world/level/saveddata/maps/MapId;", cancellable = true)
+    private void getFramedMapId__2086191293(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2086191293L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getRotateItemSound()Lnet/minecraft/sounds/SoundEvent;", cancellable = true)
+    private void getRotateItemSound_1471417109(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1471417109L))
+            info.setReturnValue(null);
     }
 
 

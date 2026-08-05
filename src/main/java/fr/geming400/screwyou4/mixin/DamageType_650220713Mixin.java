@@ -22,19 +22,19 @@ public class DamageType_650220713Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_688483454(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(688483454L))
-            info.setReturnValue(-535556872);
-    }
-
-    @Inject(at = @At("HEAD"), method = "scaling()Lnet/minecraft/world/damagesource/DamageScaling;", cancellable = true)
-    private void scaling_1205729202(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1205729202L))
-            info.setReturnValue(net.minecraft.world.damagesource.DamageScaling.NEVER);
+            info.setReturnValue(-1451238372);
     }
 
     @Inject(at = @At("HEAD"), method = "msgId()Ljava/lang/String;", cancellable = true)
     private void msgId__485239759(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-485239759L))
             info.setReturnValue("\u8AC3p\u4E9FF<ml \uD239\u9874[Rg$xzHQ'<9S\uAF9Ct\u8785`DYBT+);ne-\"|PX");
+    }
+
+    @Inject(at = @At("HEAD"), method = "scaling()Lnet/minecraft/world/damagesource/DamageScaling;", cancellable = true)
+    private void scaling_1205729202(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1205729202L))
+            info.setReturnValue(net.minecraft.world.damagesource.DamageScaling.NEVER);
     }
 
     @Inject(at = @At("HEAD"), method = "effects()Lnet/minecraft/world/damagesource/DamageEffects;", cancellable = true)
@@ -46,7 +46,7 @@ public class DamageType_650220713Mixin {
     @Inject(at = @At("HEAD"), method = "exhaustion()F", cancellable = true)
     private void exhaustion_688480075(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(688480075L))
-            info.setReturnValue(9.580387E8F);
+            info.setReturnValue(4.23572E7F);
     }
 
     @Inject(at = @At("HEAD"), method = "deathMessageType()Lnet/minecraft/world/damagesource/DeathMessageType;", cancellable = true)

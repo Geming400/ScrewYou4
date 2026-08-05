@@ -22,7 +22,7 @@ public class PeriodicEntityTickPredicate_1307007170Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1345269911(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1345269911L))
-            info.setReturnValue(-1427565333);
+            info.setReturnValue(-740547533);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/phys/Vec3;)Z", cancellable = true)
@@ -34,7 +34,7 @@ public class PeriodicEntityTickPredicate_1307007170Mixin {
     @Inject(at = @At("HEAD"), method = "periodicTick()I", cancellable = true)
     private void periodicTick_1345269415(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1345269415L))
-            info.setReturnValue(1469993957);
+            info.setReturnValue(-2137955539);
     }
 
 

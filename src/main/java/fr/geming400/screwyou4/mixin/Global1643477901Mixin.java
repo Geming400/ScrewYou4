@@ -22,13 +22,19 @@ public class Global1643477901Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1681740643(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1681740643L))
-            info.setReturnValue(-761735516);
+            info.setReturnValue(-812526416);
     }
 
     @Inject(at = @At("HEAD"), method = "bitsInStorage()I", cancellable = true)
     private void bitsInStorage_1681740147(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1681740147L))
-            info.setReturnValue(-558588097);
+            info.setReturnValue(-609378997);
+    }
+
+    @Inject(at = @At("HEAD"), method = "bitsInMemory()I", cancellable = true)
+    private void bitsInMemory_1681740147(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1681740147L))
+            info.setReturnValue(-609378997);
     }
 
     @Inject(at = @At("HEAD"), method = "alwaysRepack()Z", cancellable = true)
@@ -41,12 +47,6 @@ public class Global1643477901Mixin {
     private void createPalette_57085475(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(57085475L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "bitsInMemory()I", cancellable = true)
-    private void bitsInMemory_1681740147(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1681740147L))
-            info.setReturnValue(-558588097);
     }
 
 

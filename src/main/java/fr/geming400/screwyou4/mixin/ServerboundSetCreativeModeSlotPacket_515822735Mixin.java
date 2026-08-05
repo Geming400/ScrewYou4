@@ -28,7 +28,7 @@ public class ServerboundSetCreativeModeSlotPacket_515822735Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_554085476(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(554085476L))
-            info.setReturnValue(274899465);
+            info.setReturnValue(722114365);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/PacketListener;)V", cancellable = true)

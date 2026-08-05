@@ -22,7 +22,7 @@ public class Occupant15183853Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_53446595(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(53446595L))
-            info.setReturnValue(1241834114);
+            info.setReturnValue(547850514);
     }
 
     @Inject(at = @At("HEAD"), method = "of(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/world/level/block/entity/BeehiveBlockEntity$Occupant;", cancellable = true)
@@ -43,22 +43,22 @@ public class Occupant15183853Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "entityData()Lnet/minecraft/world/item/component/TypedEntityData;", cancellable = true)
-    private void entityData_309576737(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(309576737L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "ticksInHive()I", cancellable = true)
     private void ticksInHive_53446099(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(53446099L))
-            info.setReturnValue(1444981534);
+            info.setReturnValue(750997934);
     }
 
     @Inject(at = @At("HEAD"), method = "minTicksInHive()I", cancellable = true)
     private void minTicksInHive_53446099(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(53446099L))
-            info.setReturnValue(1444981534);
+            info.setReturnValue(750997934);
+    }
+
+    @Inject(at = @At("HEAD"), method = "entityData()Lnet/minecraft/world/item/component/TypedEntityData;", cancellable = true)
+    private void entityData_309576737(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(309576737L))
+            info.setReturnValue(null);
     }
 
 

@@ -10,7 +10,7 @@ public class MouseButtonInfo1591410951Mixin {
         @Inject(at = @At("HEAD"), method = "modifiers()I", cancellable = true)
     private void modifiers_1629673197(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1629673197L))
-            info.setReturnValue(-212416907);
+            info.setReturnValue(-256256107);
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
@@ -28,19 +28,19 @@ public class MouseButtonInfo1591410951Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1629673693(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1629673693L))
-            info.setReturnValue(1184991098);
+            info.setReturnValue(1141151898);
     }
 
     @Inject(at = @At("HEAD"), method = "input()I", cancellable = true)
     private void input_1629673197(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1629673197L))
-            info.setReturnValue(-212416907);
+            info.setReturnValue(-255256507);
     }
 
     @Inject(at = @At("HEAD"), method = "button()I", cancellable = true)
     private void button_1629673197(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1629673197L))
-            info.setReturnValue(-212416907);
+            info.setReturnValue(-255256507);
     }
 
 

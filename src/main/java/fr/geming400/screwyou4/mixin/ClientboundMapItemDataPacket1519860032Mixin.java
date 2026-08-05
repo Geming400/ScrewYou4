@@ -28,7 +28,7 @@ public class ClientboundMapItemDataPacket1519860032Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1558122774(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1558122774L))
-            info.setReturnValue(497846272);
+            info.setReturnValue(257609372);
     }
 
     @Inject(at = @At("HEAD"), method = "scale()B", cancellable = true)
@@ -55,18 +55,6 @@ public class ClientboundMapItemDataPacket1519860032Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "decorations()Ljava/util/Optional;", cancellable = true)
-    private void decorations_1765321454(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1765321454L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "mapId()Lnet/minecraft/world/level/saveddata/maps/MapId;", cancellable = true)
-    private void mapId__926060971(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-926060971L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "applyToMap(Lnet/minecraft/world/level/saveddata/maps/MapItemSavedData;)V", cancellable = true)
     private void applyToMap_1463753610(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1463753610L))
@@ -76,6 +64,18 @@ public class ClientboundMapItemDataPacket1519860032Mixin {
     @Inject(at = @At("HEAD"), method = "colorPatch()Ljava/util/Optional;", cancellable = true)
     private void colorPatch_1765321454(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1765321454L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "decorations()Ljava/util/Optional;", cancellable = true)
+    private void decorations_1765321454(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1765321454L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "mapId()Lnet/minecraft/world/level/saveddata/maps/MapId;", cancellable = true)
+    private void mapId__926060971(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-926060971L))
             info.setReturnValue(null);
     }
 

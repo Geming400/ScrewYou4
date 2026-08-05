@@ -10,31 +10,7 @@ public class DirectionalPlaceContext1859132612Mixin {
         @Inject(at = @At("HEAD"), method = "getRotation()F", cancellable = true)
     private void getRotation_1897391975(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1897391975L))
-            info.setReturnValue(8.180208E8F);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getHorizontalDirection()Lnet/minecraft/core/Direction;", cancellable = true)
-    private void getHorizontalDirection_1096277327(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1096277327L))
-            info.setReturnValue(net.minecraft.core.Direction.NORTH);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getNearestLookingDirection()Lnet/minecraft/core/Direction;", cancellable = true)
-    private void getNearestLookingDirection_1096277327(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1096277327L))
-            info.setReturnValue(net.minecraft.core.Direction.NORTH);
-    }
-
-    @Inject(at = @At("HEAD"), method = "replacingClickedOnBlock()Z", cancellable = true)
-    private void replacingClickedOnBlock_1897411195(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1897411195L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isSecondaryUseActive()Z", cancellable = true)
-    private void isSecondaryUseActive_1897411195(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1897411195L))
-            info.setReturnValue(true);
+            info.setReturnValue(7.566763E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "getClickedPos()Lnet/minecraft/core/BlockPos;", cancellable = true)
@@ -43,10 +19,34 @@ public class DirectionalPlaceContext1859132612Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "isSecondaryUseActive()Z", cancellable = true)
+    private void isSecondaryUseActive_1897411195(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1897411195L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "replacingClickedOnBlock()Z", cancellable = true)
+    private void replacingClickedOnBlock_1897411195(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1897411195L))
+            info.setReturnValue(true);
+    }
+
     @Inject(at = @At("HEAD"), method = "canPlace()Z", cancellable = true)
     private void canPlace_1897411195(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1897411195L))
             info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getNearestLookingDirection()Lnet/minecraft/core/Direction;", cancellable = true)
+    private void getNearestLookingDirection_1096277327(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1096277327L))
+            info.setReturnValue(net.minecraft.core.Direction.NORTH);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getHorizontalDirection()Lnet/minecraft/core/Direction;", cancellable = true)
+    private void getHorizontalDirection_1096277327(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1096277327L))
+            info.setReturnValue(net.minecraft.core.Direction.NORTH);
     }
 
     @Inject(at = @At("HEAD"), method = "getNearestLookingDirections()[Lnet/minecraft/core/Direction;", cancellable = true)

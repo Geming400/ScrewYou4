@@ -49,15 +49,9 @@ public class SoundManager_391472030Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getAvailableSoundDevices()Ljava/util/List;", cancellable = true)
-    private void getAvailableSoundDevices_2017808845(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2017808845L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "refreshCategoryVolume(Lnet/minecraft/sounds/SoundSource;)V", cancellable = true)
-    private void refreshCategoryVolume__1642673748(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1642673748L))
+    @Inject(at = @At("HEAD"), method = "emergencyShutdown()V", cancellable = true)
+    private void emergencyShutdown_429746768(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(429746768L))
             info.cancel();
     }
 
@@ -67,34 +61,10 @@ public class SoundManager_391472030Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "updateCategoryVolume(Lnet/minecraft/sounds/SoundSource;F)V", cancellable = true)
-    private void updateCategoryVolume_1782091882(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1782091882L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "addListener(Lnet/minecraft/client/sounds/SoundEventListener;)V", cancellable = true)
     private void addListener_604759941(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(604759941L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "updateSource(Lnet/minecraft/client/Camera;)V", cancellable = true)
-    private void updateSource_1161366642(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1161366642L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "getSoundEvent(Lnet/minecraft/resources/Identifier;)Lnet/minecraft/client/sounds/WeighedSoundEvents;", cancellable = true)
-    private void getSoundEvent__198540101(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-198540101L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "play(Lnet/minecraft/client/resources/sounds/SoundInstance;)Lnet/minecraft/client/sounds/SoundEngine$PlayResult;", cancellable = true)
-    private void play_1937351688(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1937351688L))
-            info.setReturnValue(net.minecraft.client.sounds.SoundEngine.PlayResult.STARTED_SILENTLY);
     }
 
     @Inject(at = @At("HEAD"), method = "getListenerTransform()Lcom/mojang/blaze3d/audio/ListenerTransform;", cancellable = true)
@@ -109,10 +79,34 @@ public class SoundManager_391472030Mixin {
             info.setReturnValue("BM$Z0\u8279j.\u9E75&\uA3A1<'8#`X4(:Y5>8Ebv?/k\uC509r\uBB7E(Im8\u8500sa\uD35D\uD72E}9Dq[;\"4IM\uBA00]%}<s+\uAF08qPb\u4328L\u21537C0q-S\u89DCV?U!x");
     }
 
-    @Inject(at = @At("HEAD"), method = "getAvailableSounds()Ljava/util/Collection;", cancellable = true)
-    private void getAvailableSounds__1422176243(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1422176243L))
+    @Inject(at = @At("HEAD"), method = "updateSource(Lnet/minecraft/client/Camera;)V", cancellable = true)
+    private void updateSource_1161366642(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1161366642L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "play(Lnet/minecraft/client/resources/sounds/SoundInstance;)Lnet/minecraft/client/sounds/SoundEngine$PlayResult;", cancellable = true)
+    private void play_1937351688(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1937351688L))
+            info.setReturnValue(net.minecraft.client.sounds.SoundEngine.PlayResult.STARTED_SILENTLY);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getSoundEvent(Lnet/minecraft/resources/Identifier;)Lnet/minecraft/client/sounds/WeighedSoundEvents;", cancellable = true)
+    private void getSoundEvent__198540101(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-198540101L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "resume()V", cancellable = true)
+    private void resume_429746768(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(429746768L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "updateCategoryVolume(Lnet/minecraft/sounds/SoundSource;F)V", cancellable = true)
+    private void updateCategoryVolume_1782091882(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1782091882L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "playDelayed(Lnet/minecraft/client/resources/sounds/SoundInstance;I)V", cancellable = true)
@@ -127,9 +121,9 @@ public class SoundManager_391472030Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "resume()V", cancellable = true)
-    private void resume_429746768(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(429746768L))
+    @Inject(at = @At("HEAD"), method = "pauseAllExcept([Lnet/minecraft/sounds/SoundSource;)V", cancellable = true)
+    private void pauseAllExcept_1173732855(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1173732855L))
             info.cancel();
     }
 
@@ -139,16 +133,22 @@ public class SoundManager_391472030Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "emergencyShutdown()V", cancellable = true)
-    private void emergencyShutdown_429746768(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(429746768L))
+    @Inject(at = @At("HEAD"), method = "refreshCategoryVolume(Lnet/minecraft/sounds/SoundSource;)V", cancellable = true)
+    private void refreshCategoryVolume__1642673748(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1642673748L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "pauseAllExcept([Lnet/minecraft/sounds/SoundSource;)V", cancellable = true)
-    private void pauseAllExcept_1173732855(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1173732855L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "getAvailableSoundDevices()Ljava/util/List;", cancellable = true)
+    private void getAvailableSoundDevices_2017808845(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2017808845L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getAvailableSounds()Ljava/util/Collection;", cancellable = true)
+    private void getAvailableSounds__1422176243(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1422176243L))
+            info.setReturnValue(null);
     }
 
 

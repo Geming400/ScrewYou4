@@ -28,7 +28,7 @@ public class Packed1188844904Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1227107646(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1227107646L))
-            info.setReturnValue(257124971);
+            info.setReturnValue(1062224771);
     }
 
     @Inject(at = @At("HEAD"), method = "color()Ljava/util/Optional;", cancellable = true)
@@ -49,22 +49,22 @@ public class Packed1188844904Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "collisionRule()Lnet/minecraft/world/scores/Team$CollisionRule;", cancellable = true)
-    private void collisionRule_911763688(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(911763688L))
-            info.setReturnValue(net.minecraft.world.scores.Team.CollisionRule.ALWAYS);
-    }
-
     @Inject(at = @At("HEAD"), method = "seeFriendlyInvisibles()Z", cancellable = true)
     private void seeFriendlyInvisibles_1227123487(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1227123487L))
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "allowFriendlyFire()Z", cancellable = true)
-    private void allowFriendlyFire_1227123487(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1227123487L))
-            info.setReturnValue(true);
+    @Inject(at = @At("HEAD"), method = "collisionRule()Lnet/minecraft/world/scores/Team$CollisionRule;", cancellable = true)
+    private void collisionRule_911763688(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(911763688L))
+            info.setReturnValue(net.minecraft.world.scores.Team.CollisionRule.ALWAYS);
+    }
+
+    @Inject(at = @At("HEAD"), method = "nameTagVisibility()Lnet/minecraft/world/scores/Team$Visibility;", cancellable = true)
+    private void nameTagVisibility__567923302(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-567923302L))
+            info.setReturnValue(net.minecraft.world.scores.Team.Visibility.ALWAYS);
     }
 
     @Inject(at = @At("HEAD"), method = "deathMessageVisibility()Lnet/minecraft/world/scores/Team$Visibility;", cancellable = true)
@@ -73,10 +73,10 @@ public class Packed1188844904Mixin {
             info.setReturnValue(net.minecraft.world.scores.Team.Visibility.ALWAYS);
     }
 
-    @Inject(at = @At("HEAD"), method = "nameTagVisibility()Lnet/minecraft/world/scores/Team$Visibility;", cancellable = true)
-    private void nameTagVisibility__567923302(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-567923302L))
-            info.setReturnValue(net.minecraft.world.scores.Team.Visibility.ALWAYS);
+    @Inject(at = @At("HEAD"), method = "allowFriendlyFire()Z", cancellable = true)
+    private void allowFriendlyFire_1227123487(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1227123487L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "memberNameSuffix()Lnet/minecraft/network/chat/Component;", cancellable = true)

@@ -22,7 +22,7 @@ public class StructureSet716648347Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_754911089(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(754911089L))
-            info.setReturnValue(679213458);
+            info.setReturnValue(1590108158);
     }
 
     @Inject(at = @At("HEAD"), method = "entry(Lnet/minecraft/core/Holder;)Lnet/minecraft/world/level/levelgen/structure/StructureSet$StructureSelectionEntry;", cancellable = true)

@@ -19,22 +19,10 @@ public class TrialSpawnerBlockEntity1311349456Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "markUpdated()V", cancellable = true)
-    private void markUpdated_1349624195(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1349624195L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "getUpdateTag(Lnet/minecraft/core/HolderLookup$Provider;)Lnet/minecraft/nbt/CompoundTag;", cancellable = true)
     private void getUpdateTag_144727908(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(144727908L))
             info.setReturnValue(new net.minecraft.nbt.CompoundTag());
-    }
-
-    @Inject(at = @At("HEAD"), method = "getUpdatePacket()Lnet/minecraft/network/protocol/game/ClientboundBlockEntityDataPacket;", cancellable = true)
-    private void getUpdatePacket_314497684(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(314497684L))
-            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getUpdatePacket()Lnet/minecraft/network/protocol/Packet;", cancellable = true)
@@ -43,9 +31,9 @@ public class TrialSpawnerBlockEntity1311349456Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getTrialSpawner()Lnet/minecraft/world/level/block/entity/trialspawner/TrialSpawner;", cancellable = true)
-    private void getTrialSpawner__1771061827(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1771061827L))
+    @Inject(at = @At("HEAD"), method = "getUpdatePacket()Lnet/minecraft/network/protocol/game/ClientboundBlockEntityDataPacket;", cancellable = true)
+    private void getUpdatePacket_314497684(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(314497684L))
             info.setReturnValue(null);
     }
 
@@ -53,6 +41,18 @@ public class TrialSpawnerBlockEntity1311349456Mixin {
     private void setEntityId_1757244740(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1757244740L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "markUpdated()V", cancellable = true)
+    private void markUpdated_1349624195(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1349624195L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getTrialSpawner()Lnet/minecraft/world/level/block/entity/trialspawner/TrialSpawner;", cancellable = true)
+    private void getTrialSpawner__1771061827(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1771061827L))
+            info.setReturnValue(null);
     }
 
 

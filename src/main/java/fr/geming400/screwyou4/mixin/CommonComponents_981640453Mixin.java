@@ -31,15 +31,15 @@ public class CommonComponents_981640453Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "optionNameValue(Lnet/minecraft/network/chat/Component;Lnet/minecraft/network/chat/Component;)Lnet/minecraft/network/chat/MutableComponent;", cancellable = true)
-    private static void optionNameValue_1477604015(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1477604015L))
+    @Inject(at = @At("HEAD"), method = "joinLines([Lnet/minecraft/network/chat/Component;)Lnet/minecraft/network/chat/Component;", cancellable = true)
+    private static void joinLines__2018769648(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2018769648L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "disconnectButtonLabel(Z)Lnet/minecraft/network/chat/Component;", cancellable = true)
-    private static void disconnectButtonLabel__54569787(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-54569787L))
+    @Inject(at = @At("HEAD"), method = "joinLines(Ljava/util/Collection;)Lnet/minecraft/network/chat/Component;", cancellable = true)
+    private static void joinLines__1234833026(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1234833026L))
             info.setReturnValue(null);
     }
 
@@ -55,21 +55,21 @@ public class CommonComponents_981640453Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "disconnectButtonLabel(Z)Lnet/minecraft/network/chat/Component;", cancellable = true)
+    private static void disconnectButtonLabel__54569787(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-54569787L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "joinForNarration([Lnet/minecraft/network/chat/Component;)Lnet/minecraft/network/chat/MutableComponent;", cancellable = true)
     private static void joinForNarration_93026534(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(93026534L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "joinLines([Lnet/minecraft/network/chat/Component;)Lnet/minecraft/network/chat/Component;", cancellable = true)
-    private static void joinLines__2018769648(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2018769648L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "joinLines(Ljava/util/Collection;)Lnet/minecraft/network/chat/Component;", cancellable = true)
-    private static void joinLines__1234833026(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1234833026L))
+    @Inject(at = @At("HEAD"), method = "optionNameValue(Lnet/minecraft/network/chat/Component;Lnet/minecraft/network/chat/Component;)Lnet/minecraft/network/chat/MutableComponent;", cancellable = true)
+    private static void optionNameValue_1477604015(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1477604015L))
             info.setReturnValue(null);
     }
 

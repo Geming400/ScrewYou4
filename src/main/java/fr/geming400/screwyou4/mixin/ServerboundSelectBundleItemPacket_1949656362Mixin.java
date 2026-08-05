@@ -28,7 +28,7 @@ public class ServerboundSelectBundleItemPacket_1949656362Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1987919103(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1987919103L))
-            info.setReturnValue(1633283585);
+            info.setReturnValue(1331201685);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/protocol/game/ServerGamePacketListener;)V", cancellable = true)
@@ -43,16 +43,16 @@ public class ServerboundSelectBundleItemPacket_1949656362Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "slotId()I", cancellable = true)
-    private void slotId_1987918607(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1987918607L))
-            info.setReturnValue(1910302793);
-    }
-
     @Inject(at = @At("HEAD"), method = "selectedItemIndex()I", cancellable = true)
     private void selectedItemIndex_1987918607(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1987918607L))
-            info.setReturnValue(1910302793);
+            info.setReturnValue(1608220893);
+    }
+
+    @Inject(at = @At("HEAD"), method = "slotId()I", cancellable = true)
+    private void slotId_1987918607(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1987918607L))
+            info.setReturnValue(1608220893);
     }
 
 

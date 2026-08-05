@@ -16,7 +16,7 @@ public class IntRange_1978790890Mixin {
     @Inject(at = @At("HEAD"), method = "clamp(Lnet/minecraft/world/level/storage/loot/LootContext;I)I", cancellable = true)
     private void clamp_1335081289(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1335081289L))
-            info.setReturnValue(-1611767063);
+            info.setReturnValue(-1743519763);
     }
 
     @Inject(at = @At("HEAD"), method = "validate(Lnet/minecraft/world/level/storage/loot/ValidationContext;)V", cancellable = true)

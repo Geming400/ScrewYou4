@@ -25,28 +25,16 @@ public class TransientCraftingContainer811328775Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getItems()Ljava/util/List;", cancellable = true)
-    private void getItems__1857301705(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1857301705L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "stillValid(Lnet/minecraft/world/entity/player/Player;)Z", cancellable = true)
-    private void stillValid_1751934265(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1751934265L))
-            info.setReturnValue(false);
-    }
-
     @Inject(at = @At("HEAD"), method = "getHeight()I", cancellable = true)
     private void getHeight_849591021(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(849591021L))
-            info.setReturnValue(-66616567);
+            info.setReturnValue(-500132567);
     }
 
     @Inject(at = @At("HEAD"), method = "getWidth()I", cancellable = true)
     private void getWidth_849591021(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(849591021L))
-            info.setReturnValue(-66616567);
+            info.setReturnValue(-500132567);
     }
 
     @Inject(at = @At("HEAD"), method = "setItem(ILnet/minecraft/world/item/ItemStack;)V", cancellable = true)
@@ -64,13 +52,7 @@ public class TransientCraftingContainer811328775Mixin {
     @Inject(at = @At("HEAD"), method = "getContainerSize()I", cancellable = true)
     private void getContainerSize_849591021(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(849591021L))
-            info.setReturnValue(-66616567);
-    }
-
-    @Inject(at = @At("HEAD"), method = "fillStackedContents(Lnet/minecraft/world/entity/player/StackedItemContents;)V", cancellable = true)
-    private void fillStackedContents_2120460592(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(2120460592L))
-            info.cancel();
+            info.setReturnValue(-500132567);
     }
 
     @Inject(at = @At("HEAD"), method = "clearContent()V", cancellable = true)
@@ -82,6 +64,24 @@ public class TransientCraftingContainer811328775Mixin {
     @Inject(at = @At("HEAD"), method = "setChanged()V", cancellable = true)
     private void setChanged_849603514(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(849603514L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getItems()Ljava/util/List;", cancellable = true)
+    private void getItems__1857301705(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1857301705L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "stillValid(Lnet/minecraft/world/entity/player/Player;)Z", cancellable = true)
+    private void stillValid_1751934265(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1751934265L))
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "fillStackedContents(Lnet/minecraft/world/entity/player/StackedItemContents;)V", cancellable = true)
+    private void fillStackedContents_2120460592(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(2120460592L))
             info.cancel();
     }
 

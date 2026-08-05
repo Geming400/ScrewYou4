@@ -28,7 +28,7 @@ public class KnownPack_2016907074Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2055169815(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2055169815L))
-            info.setReturnValue(1714224489);
+            info.setReturnValue(1527382289);
     }
 
     @Inject(at = @At("HEAD"), method = "id()Ljava/lang/String;", cancellable = true)

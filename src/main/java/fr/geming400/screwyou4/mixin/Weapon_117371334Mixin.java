@@ -22,19 +22,19 @@ public class Weapon_117371334Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_155634075(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(155634075L))
-            info.setReturnValue(-749750783);
+            info.setReturnValue(-1644412583);
     }
 
     @Inject(at = @At("HEAD"), method = "disableBlockingForSeconds()F", cancellable = true)
     private void disableBlockingForSeconds_155630696(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(155630696L))
-            info.setReturnValue(9.860835E8F);
+            info.setReturnValue(9.14217E7F);
     }
 
     @Inject(at = @At("HEAD"), method = "itemDamagePerAttack()I", cancellable = true)
     private void itemDamagePerAttack_155633579(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(155633579L))
-            info.setReturnValue(-2147158788);
+            info.setReturnValue(1253146708);
     }
 
 

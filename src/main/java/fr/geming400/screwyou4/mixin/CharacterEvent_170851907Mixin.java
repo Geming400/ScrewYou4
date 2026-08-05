@@ -22,13 +22,13 @@ public class CharacterEvent_170851907Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_209114648(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(209114648L))
-            info.setReturnValue(457908459);
+            info.setReturnValue(903129359);
     }
 
     @Inject(at = @At("HEAD"), method = "codepoint()I", cancellable = true)
     private void codepoint_209114152(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(209114152L))
-            info.setReturnValue(636431949);
+            info.setReturnValue(1081652849);
     }
 
     @Inject(at = @At("HEAD"), method = "isAllowedChatCharacter()Z", cancellable = true)

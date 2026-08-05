@@ -22,7 +22,7 @@ public class NbtContents1756823580Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1795086322(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1795086322L))
-            info.setReturnValue(224292615);
+            info.setReturnValue(350174615);
     }
 
     @Inject(at = @At("HEAD"), method = "resolve(Lnet/minecraft/network/chat/ResolutionContext;I)Lnet/minecraft/network/chat/MutableComponent;", cancellable = true)
@@ -43,18 +43,6 @@ public class NbtContents1756823580Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "nbtPath()Lnet/minecraft/util/CompilableString;", cancellable = true)
-    private void nbtPath_1591367242(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1591367242L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
-    private void codec__802289992(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-802289992L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "dataSource()Lnet/minecraft/network/chat/contents/data/DataSource;", cancellable = true)
     private void dataSource__568805015(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-568805015L))
@@ -65,6 +53,18 @@ public class NbtContents1756823580Mixin {
     private void interpreting_1795102163(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1795102163L))
             info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "nbtPath()Lnet/minecraft/util/CompilableString;", cancellable = true)
+    private void nbtPath_1591367242(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1591367242L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
+    private void codec__802289992(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-802289992L))
+            info.setReturnValue(null);
     }
 
 

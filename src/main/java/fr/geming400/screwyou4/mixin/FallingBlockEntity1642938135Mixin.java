@@ -13,6 +13,24 @@ public class FallingBlockEntity1642938135Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "isPickable()Z", cancellable = true)
+    private void isPickable_1681216718(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1681216718L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "fall(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/entity/item/FallingBlockEntity;", cancellable = true)
+    private static void fall__956070817(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-956070817L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "causeFallDamage(DFLnet/minecraft/world/damagesource/DamageSource;)Z", cancellable = true)
+    private void causeFallDamage_1164797157(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1164797157L))
+            info.setReturnValue(false);
+    }
+
     @Inject(at = @At("HEAD"), method = "teleport(Lnet/minecraft/world/level/portal/TeleportTransition;)Lnet/minecraft/world/entity/Entity;", cancellable = true)
     private void teleport_1209057741(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1209057741L))
@@ -22,30 +40,6 @@ public class FallingBlockEntity1642938135Mixin {
     @Inject(at = @At("HEAD"), method = "hurtServer(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/damagesource/DamageSource;F)Z", cancellable = true)
     private void hurtServer_1193508300(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1193508300L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "disableDrop()V", cancellable = true)
-    private void disableDrop_1681212874(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1681212874L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "setHurtsEntities(FI)V", cancellable = true)
-    private void setHurtsEntities_561171213(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(561171213L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "fall(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/entity/item/FallingBlockEntity;", cancellable = true)
-    private static void fall__956070817(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-956070817L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isPickable()Z", cancellable = true)
-    private void isPickable_1681216718(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1681216718L))
             info.setReturnValue(true);
     }
 
@@ -85,15 +79,9 @@ public class FallingBlockEntity1642938135Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "causeFallDamage(DFLnet/minecraft/world/damagesource/DamageSource;)Z", cancellable = true)
-    private void causeFallDamage_1164797157(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1164797157L))
-            info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "callOnBrokenAfterFall(Lnet/minecraft/world/level/block/Block;Lnet/minecraft/core/BlockPos;)V", cancellable = true)
-    private void callOnBrokenAfterFall__933166250(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-933166250L))
+    @Inject(at = @At("HEAD"), method = "setHurtsEntities(FI)V", cancellable = true)
+    private void setHurtsEntities_561171213(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(561171213L))
             info.cancel();
     }
 
@@ -106,6 +94,18 @@ public class FallingBlockEntity1642938135Mixin {
     @Inject(at = @At("HEAD"), method = "setStartPos(Lnet/minecraft/core/BlockPos;)V", cancellable = true)
     private void setStartPos_1811704734(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1811704734L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "callOnBrokenAfterFall(Lnet/minecraft/world/level/block/Block;Lnet/minecraft/core/BlockPos;)V", cancellable = true)
+    private void callOnBrokenAfterFall__933166250(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-933166250L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "disableDrop()V", cancellable = true)
+    private void disableDrop_1681212874(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1681212874L))
             info.cancel();
     }
 

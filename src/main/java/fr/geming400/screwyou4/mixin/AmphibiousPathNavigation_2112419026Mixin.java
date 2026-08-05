@@ -13,15 +13,15 @@ public class AmphibiousPathNavigation_2112419026Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "canNavigateGround()Z", cancellable = true)
-    private void canNavigateGround__2144269688(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2144269688L))
-            info.setReturnValue(false);
-    }
-
     @Inject(at = @At("HEAD"), method = "isStableDestination(Lnet/minecraft/core/BlockPos;)Z", cancellable = true)
     private void isStableDestination__2013777828(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2013777828L))
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "canNavigateGround()Z", cancellable = true)
+    private void canNavigateGround__2144269688(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2144269688L))
             info.setReturnValue(false);
     }
 

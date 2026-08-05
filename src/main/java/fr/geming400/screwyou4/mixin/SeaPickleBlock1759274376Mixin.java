@@ -19,6 +19,12 @@ public class SeaPickleBlock1759274376Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
+    private void getStateForPlacement_500674609(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(500674609L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "performBonemeal(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/util/RandomSource;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)V", cancellable = true)
     private void performBonemeal__383692177(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-383692177L))
@@ -35,12 +41,6 @@ public class SeaPickleBlock1759274376Mixin {
     private void isValidBonemealTarget_1803954134(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1803954134L))
             info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
-    private void getStateForPlacement_500674609(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(500674609L))
-            info.setReturnValue(null);
     }
 
 

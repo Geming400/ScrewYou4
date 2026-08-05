@@ -22,7 +22,7 @@ public class Timelines1892222604Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1930485346(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1930485346L))
-            info.setReturnValue(1566531129);
+            info.setReturnValue(1642975329);
     }
 
     @Inject(at = @At("HEAD"), method = "setup(Lnet/minecraft/server/level/ServerLevel;)Ljava/lang/Object;", cancellable = true)

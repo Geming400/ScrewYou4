@@ -13,22 +13,22 @@ public class BundleItem_1863143967Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "getSelectedItemIndex(Lnet/minecraft/world/item/ItemStack;)I", cancellable = true)
+    private static void getSelectedItemIndex__697304287(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-697304287L))
+            info.setReturnValue(-789923279);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getNumberOfItemsToShow(Lnet/minecraft/world/item/ItemStack;)I", cancellable = true)
+    private static void getNumberOfItemsToShow__697304287(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-697304287L))
+            info.setReturnValue(-789923279);
+    }
+
     @Inject(at = @At("HEAD"), method = "onUseTick(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;I)V", cancellable = true)
     private void onUseTick_1173958340(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1173958340L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "onDestroyed(Lnet/minecraft/world/entity/item/ItemEntity;)V", cancellable = true)
-    private void onDestroyed_1424175081(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1424175081L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "getUseDuration(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/LivingEntity;)I", cancellable = true)
-    private void getUseDuration_965963311(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(965963311L))
-            info.setReturnValue(31567040);
     }
 
     @Inject(at = @At("HEAD"), method = "getSelectedItem(Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/world/item/ItemStackTemplate;", cancellable = true)
@@ -37,15 +37,33 @@ public class BundleItem_1863143967Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "getUseDuration(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/LivingEntity;)I", cancellable = true)
+    private void getUseDuration_965963311(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(965963311L))
+            info.setReturnValue(210854540);
+    }
+
+    @Inject(at = @At("HEAD"), method = "onDestroyed(Lnet/minecraft/world/entity/item/ItemEntity;)V", cancellable = true)
+    private void onDestroyed_1424175081(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1424175081L))
+            info.cancel();
+    }
+
     @Inject(at = @At("HEAD"), method = "getFullnessDisplay(Lnet/minecraft/world/item/ItemStack;)F", cancellable = true)
     private static void getFullnessDisplay__697307170(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-697307170L))
-            info.setReturnValue(1.067372E8F);
+            info.setReturnValue(2.860247E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "overrideStackedOnOther(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/inventory/Slot;Lnet/minecraft/world/inventory/ClickAction;Lnet/minecraft/world/entity/player/Player;)Z", cancellable = true)
     private void overrideStackedOnOther_971560667(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(971560667L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "overrideOtherStackedOnMe(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/inventory/Slot;Lnet/minecraft/world/inventory/ClickAction;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/entity/SlotAccess;)Z", cancellable = true)
+    private void overrideOtherStackedOnMe_1721077582(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1721077582L))
             info.setReturnValue(true);
     }
 
@@ -55,34 +73,22 @@ public class BundleItem_1863143967Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "overrideOtherStackedOnMe(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/inventory/Slot;Lnet/minecraft/world/inventory/ClickAction;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/entity/SlotAccess;)Z", cancellable = true)
-    private void overrideOtherStackedOnMe_1721077582(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1721077582L))
-            info.setReturnValue(true);
-    }
-
     @Inject(at = @At("HEAD"), method = "getTooltipImage(Lnet/minecraft/world/item/ItemStack;)Ljava/util/Optional;", cancellable = true)
     private void getTooltipImage__91050617(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-91050617L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getBarColor(Lnet/minecraft/world/item/ItemStack;)I", cancellable = true)
-    private void getBarColor__697304535(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-697304535L))
-            info.setReturnValue(-1070784488);
-    }
-
     @Inject(at = @At("HEAD"), method = "getBarWidth(Lnet/minecraft/world/item/ItemStack;)I", cancellable = true)
     private void getBarWidth__697304535(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-697304535L))
-            info.setReturnValue(-1070784488);
+            info.setReturnValue(-891496988);
     }
 
-    @Inject(at = @At("HEAD"), method = "getUseAnimation(Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/world/item/ItemUseAnimation;", cancellable = true)
-    private void getUseAnimation__1871991796(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1871991796L))
-            info.setReturnValue(net.minecraft.world.item.ItemUseAnimation.TOOT_HORN);
+    @Inject(at = @At("HEAD"), method = "getBarColor(Lnet/minecraft/world/item/ItemStack;)I", cancellable = true)
+    private void getBarColor__697304535(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-697304535L))
+            info.setReturnValue(-891496988);
     }
 
     @Inject(at = @At("HEAD"), method = "isBarVisible(Lnet/minecraft/world/item/ItemStack;)Z", cancellable = true)
@@ -91,16 +97,10 @@ public class BundleItem_1863143967Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "getNumberOfItemsToShow(Lnet/minecraft/world/item/ItemStack;)I", cancellable = true)
-    private static void getNumberOfItemsToShow__697304287(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-697304287L))
-            info.setReturnValue(-969210779);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getSelectedItemIndex(Lnet/minecraft/world/item/ItemStack;)I", cancellable = true)
-    private static void getSelectedItemIndex__697304287(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-697304287L))
-            info.setReturnValue(-969210779);
+    @Inject(at = @At("HEAD"), method = "getUseAnimation(Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/world/item/ItemUseAnimation;", cancellable = true)
+    private void getUseAnimation__1871991796(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1871991796L))
+            info.setReturnValue(net.minecraft.world.item.ItemUseAnimation.TOOT_HORN);
     }
 
 

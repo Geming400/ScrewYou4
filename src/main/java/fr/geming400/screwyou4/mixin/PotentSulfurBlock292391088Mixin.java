@@ -13,12 +13,6 @@ public class PotentSulfurBlock292391088Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "newBlockEntity(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/entity/BlockEntity;", cancellable = true)
-    private void newBlockEntity__1293086567(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1293086567L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getTicker(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/entity/BlockEntityType;)Lnet/minecraft/world/level/block/entity/BlockEntityTicker;", cancellable = true)
     private void getTicker__1661076255(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1661076255L))
@@ -35,6 +29,12 @@ public class PotentSulfurBlock292391088Mixin {
     private void animateTick_169789007(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(169789007L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "newBlockEntity(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/entity/BlockEntity;", cancellable = true)
+    private void newBlockEntity__1293086567(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1293086567L))
+            info.setReturnValue(null);
     }
 
 

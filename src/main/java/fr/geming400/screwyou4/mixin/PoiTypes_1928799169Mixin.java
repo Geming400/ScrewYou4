@@ -13,16 +13,16 @@ public class PoiTypes_1928799169Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "forState(Lnet/minecraft/world/level/block/state/BlockState;)Ljava/util/Optional;", cancellable = true)
-    private static void forState_1504712407(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1504712407L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "hasPoi(Lnet/minecraft/world/level/block/state/BlockState;)Z", cancellable = true)
     private static void hasPoi_1783510430(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1783510430L))
             info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "forState(Lnet/minecraft/world/level/block/state/BlockState;)Ljava/util/Optional;", cancellable = true)
+    private static void forState_1504712407(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1504712407L))
+            info.setReturnValue(null);
     }
 
 

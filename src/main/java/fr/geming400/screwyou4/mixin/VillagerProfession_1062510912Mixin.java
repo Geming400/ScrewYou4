@@ -28,7 +28,7 @@ public class VillagerProfession_1062510912Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1100773653(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1100773653L))
-            info.setReturnValue(5805713);
+            info.setReturnValue(-475661087);
     }
 
     @Inject(at = @At("HEAD"), method = "bootstrap(Lnet/minecraft/core/Registry;)Lnet/minecraft/world/entity/npc/villager/VillagerProfession;", cancellable = true)
@@ -49,21 +49,9 @@ public class VillagerProfession_1062510912Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "requestedItems()Lcom/google/common/collect/ImmutableSet;", cancellable = true)
-    private void requestedItems_1983178252(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1983178252L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "acquirableJobSite()Ljava/util/function/Predicate;", cancellable = true)
     private void acquirableJobSite_412625933(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(412625933L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "tradeSetsByLevel()Lit/unimi/dsi/fastutil/ints/Int2ObjectMap;", cancellable = true)
-    private void tradeSetsByLevel__295803095(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-295803095L))
             info.setReturnValue(null);
     }
 
@@ -73,9 +61,21 @@ public class VillagerProfession_1062510912Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "requestedItems()Lcom/google/common/collect/ImmutableSet;", cancellable = true)
+    private void requestedItems_1983178252(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1983178252L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "heldJobSite()Ljava/util/function/Predicate;", cancellable = true)
     private void heldJobSite_412625933(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(412625933L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "tradeSetsByLevel()Lit/unimi/dsi/fastutil/ints/Int2ObjectMap;", cancellable = true)
+    private void tradeSetsByLevel__295803095(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-295803095L))
             info.setReturnValue(null);
     }
 

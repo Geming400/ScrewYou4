@@ -28,7 +28,7 @@ public class Named_281476726Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_319739467(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(319739467L))
-            info.setReturnValue(724882192);
+            info.setReturnValue(998886192);
     }
 
     @Inject(at = @At("HEAD"), method = "contents()Lnet/minecraft/server/jsonrpc/api/MethodInfo;", cancellable = true)

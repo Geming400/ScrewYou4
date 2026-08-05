@@ -22,7 +22,7 @@ public class Context132875613Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_171138355(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(171138355L))
-            info.setReturnValue(1598042829);
+            info.setReturnValue(1369727229);
     }
 
     @Inject(at = @At("HEAD"), method = "of(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/world/level/gameevent/GameEvent$Context;", cancellable = true)

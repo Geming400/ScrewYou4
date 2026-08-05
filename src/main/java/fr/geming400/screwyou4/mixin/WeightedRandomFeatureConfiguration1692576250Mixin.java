@@ -22,7 +22,7 @@ public class WeightedRandomFeatureConfiguration1692576250Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1730838992(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1730838992L))
-            info.setReturnValue(-1679671111);
+            info.setReturnValue(-1555756011);
     }
 
     @Inject(at = @At("HEAD"), method = "features()Lnet/minecraft/util/random/WeightedList;", cancellable = true)

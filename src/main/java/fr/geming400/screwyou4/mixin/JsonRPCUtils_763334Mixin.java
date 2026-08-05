@@ -31,9 +31,9 @@ public class JsonRPCUtils_763334Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getRequestId(Lcom/google/gson/JsonObject;)Lcom/google/gson/JsonElement;", cancellable = true)
-    private static void getRequestId__26318347(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-26318347L))
+    @Inject(at = @At("HEAD"), method = "getError(Lcom/google/gson/JsonObject;)Lcom/google/gson/JsonObject;", cancellable = true)
+    private static void getError_1539748860(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1539748860L))
             info.setReturnValue(null);
     }
 
@@ -55,9 +55,9 @@ public class JsonRPCUtils_763334Mixin {
             info.setReturnValue(new com.google.gson.JsonObject());
     }
 
-    @Inject(at = @At("HEAD"), method = "getError(Lcom/google/gson/JsonObject;)Lcom/google/gson/JsonObject;", cancellable = true)
-    private static void getError_1539748860(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1539748860L))
+    @Inject(at = @At("HEAD"), method = "getRequestId(Lcom/google/gson/JsonObject;)Lcom/google/gson/JsonElement;", cancellable = true)
+    private static void getRequestId__26318347(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-26318347L))
             info.setReturnValue(null);
     }
 

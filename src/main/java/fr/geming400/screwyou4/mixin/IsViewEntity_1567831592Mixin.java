@@ -34,7 +34,7 @@ public class IsViewEntity_1567831592Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1606094333(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1606094333L))
-            info.setReturnValue(225091970);
+            info.setReturnValue(191508970);
     }
 
 

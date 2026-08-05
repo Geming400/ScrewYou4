@@ -22,7 +22,7 @@ public class SavedPosition1745565376Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1783828118(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1783828118L))
-            info.setReturnValue(-224526993);
+            info.setReturnValue(-174419393);
     }
 
     @Inject(at = @At("HEAD"), method = "position()Ljava/util/Optional;", cancellable = true)

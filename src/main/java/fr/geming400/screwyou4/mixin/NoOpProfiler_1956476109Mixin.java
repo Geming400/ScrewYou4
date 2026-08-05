@@ -31,6 +31,30 @@ public class NoOpProfiler_1956476109Mixin {
             info.setReturnValue(false);
     }
 
+    @Inject(at = @At("HEAD"), method = "onChunkGenerate(Lnet/minecraft/world/level/ChunkPos;Lnet/minecraft/resources/ResourceKey;Ljava/lang/String;)Lnet/minecraft/util/profiling/jfr/callback/ProfiledDuration;", cancellable = true)
+    private void onChunkGenerate_2131953498(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2131953498L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "onRegionFileWrite(Lnet/minecraft/world/level/chunk/storage/RegionStorageInfo;Lnet/minecraft/world/level/ChunkPos;Lnet/minecraft/world/level/chunk/storage/RegionFileVersion;I)V", cancellable = true)
+    private void onRegionFileWrite_263556631(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(263556631L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "onRegionFileRead(Lnet/minecraft/world/level/chunk/storage/RegionStorageInfo;Lnet/minecraft/world/level/ChunkPos;Lnet/minecraft/world/level/chunk/storage/RegionFileVersion;I)V", cancellable = true)
+    private void onRegionFileRead_263556631(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(263556631L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "onStructureGenerate(Lnet/minecraft/world/level/ChunkPos;Lnet/minecraft/resources/ResourceKey;Lnet/minecraft/core/Holder;)Lnet/minecraft/util/profiling/jfr/callback/ProfiledDuration;", cancellable = true)
+    private void onStructureGenerate__1937055835(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1937055835L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "onWorldLoadedStarted()Lnet/minecraft/util/profiling/jfr/callback/ProfiledDuration;", cancellable = true)
     private void onWorldLoadedStarted__1818024772(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1818024772L))
@@ -41,12 +65,6 @@ public class NoOpProfiler_1956476109Mixin {
     private void onServerTick__1127344779(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1127344779L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "onStructureGenerate(Lnet/minecraft/world/level/ChunkPos;Lnet/minecraft/resources/ResourceKey;Lnet/minecraft/core/Holder;)Lnet/minecraft/util/profiling/jfr/callback/ProfiledDuration;", cancellable = true)
-    private void onStructureGenerate__1937055835(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1937055835L))
-            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "onClientTick(I)V", cancellable = true)
@@ -65,24 +83,6 @@ public class NoOpProfiler_1956476109Mixin {
     private void onPacketReceived_1926212028(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1926212028L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "onRegionFileRead(Lnet/minecraft/world/level/chunk/storage/RegionStorageInfo;Lnet/minecraft/world/level/ChunkPos;Lnet/minecraft/world/level/chunk/storage/RegionFileVersion;I)V", cancellable = true)
-    private void onRegionFileRead_263556631(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(263556631L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "onRegionFileWrite(Lnet/minecraft/world/level/chunk/storage/RegionStorageInfo;Lnet/minecraft/world/level/ChunkPos;Lnet/minecraft/world/level/chunk/storage/RegionFileVersion;I)V", cancellable = true)
-    private void onRegionFileWrite_263556631(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(263556631L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "onChunkGenerate(Lnet/minecraft/world/level/ChunkPos;Lnet/minecraft/resources/ResourceKey;Ljava/lang/String;)Lnet/minecraft/util/profiling/jfr/callback/ProfiledDuration;", cancellable = true)
-    private void onChunkGenerate_2131953498(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2131953498L))
-            info.setReturnValue(null);
     }
 
 

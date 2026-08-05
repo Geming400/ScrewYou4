@@ -19,12 +19,6 @@ public class ColumnPosArgument1925412589Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "columnPos()Lnet/minecraft/commands/arguments/coordinates/ColumnPosArgument;", cancellable = true)
-    private static void columnPos__1754510120(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1754510120L))
-            info.setReturnValue(new net.minecraft.commands.arguments.coordinates.ColumnPosArgument());
-    }
-
     @Inject(at = @At("HEAD"), method = "getColumnPos(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/server/level/ColumnPos;", cancellable = true)
     private static void getColumnPos_547945908(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(547945908L))
@@ -41,6 +35,12 @@ public class ColumnPosArgument1925412589Mixin {
     private void getExamples_111764317(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(111764317L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "columnPos()Lnet/minecraft/commands/arguments/coordinates/ColumnPosArgument;", cancellable = true)
+    private static void columnPos__1754510120(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1754510120L))
+            info.setReturnValue(new net.minecraft.commands.arguments.coordinates.ColumnPosArgument());
     }
 
 

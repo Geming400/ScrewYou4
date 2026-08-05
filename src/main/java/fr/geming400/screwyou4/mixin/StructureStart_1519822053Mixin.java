@@ -19,15 +19,15 @@ public class StructureStart_1519822053Mixin {
             info.setReturnValue(new net.minecraft.nbt.CompoundTag());
     }
 
-    @Inject(at = @At("HEAD"), method = "getStructure()Lnet/minecraft/world/level/levelgen/structure/Structure;", cancellable = true)
-    private void getStructure__797779134(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-797779134L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getBoundingBox()Lnet/minecraft/world/level/levelgen/structure/BoundingBox;", cancellable = true)
     private void getBoundingBox_1689969838(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1689969838L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getPieces()Ljava/util/List;", cancellable = true)
+    private void getPieces__1148808428(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1148808428L))
             info.setReturnValue(null);
     }
 
@@ -52,7 +52,7 @@ public class StructureStart_1519822053Mixin {
     @Inject(at = @At("HEAD"), method = "getReferences()I", cancellable = true)
     private void getReferences_1558084298(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1558084298L))
-            info.setReturnValue(-40133902);
+            info.setReturnValue(-47707402);
     }
 
     @Inject(at = @At("HEAD"), method = "placeInChunk(Lnet/minecraft/world/level/WorldGenLevel;Lnet/minecraft/world/level/StructureManager;Lnet/minecraft/world/level/chunk/ChunkGenerator;Lnet/minecraft/util/RandomSource;Lnet/minecraft/world/level/levelgen/structure/BoundingBox;Lnet/minecraft/world/level/ChunkPos;)V", cancellable = true)
@@ -61,9 +61,9 @@ public class StructureStart_1519822053Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getPieces()Ljava/util/List;", cancellable = true)
-    private void getPieces__1148808428(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1148808428L))
+    @Inject(at = @At("HEAD"), method = "getStructure()Lnet/minecraft/world/level/levelgen/structure/Structure;", cancellable = true)
+    private void getStructure__797779134(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-797779134L))
             info.setReturnValue(null);
     }
 

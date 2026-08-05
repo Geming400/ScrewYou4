@@ -28,7 +28,7 @@ public class RegionStorageInfo1088013719Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1126276461(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1126276461L))
-            info.setReturnValue(1059640415);
+            info.setReturnValue(1285446315);
     }
 
     @Inject(at = @At("HEAD"), method = "level()Ljava/lang/String;", cancellable = true)
@@ -37,15 +37,15 @@ public class RegionStorageInfo1088013719Mixin {
             info.setReturnValue("XXC\u7672OFZ'Yu\"iQ.@\uC6B6?%<ej\uA662%a\u1A49L+WD\uA159\uA006\u6D1ArO7iQ\u1451\u63BA'\uAAF5KtT-Rd;A6@)5@\u8176\uFA0DZ$\uD7DEk\uCED7");
     }
 
-    @Inject(at = @At("HEAD"), method = "withTypeSuffix(Ljava/lang/String;)Lnet/minecraft/world/level/chunk/storage/RegionStorageInfo;", cancellable = true)
-    private void withTypeSuffix__1486657950(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1486657950L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "dimension()Lnet/minecraft/resources/ResourceKey;", cancellable = true)
     private void dimension_1896505032(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1896505032L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "withTypeSuffix(Ljava/lang/String;)Lnet/minecraft/world/level/chunk/storage/RegionStorageInfo;", cancellable = true)
+    private void withTypeSuffix__1486657950(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1486657950L))
             info.setReturnValue(null);
     }
 

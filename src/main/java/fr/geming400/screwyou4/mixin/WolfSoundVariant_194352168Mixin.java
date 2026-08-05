@@ -22,7 +22,7 @@ public class WolfSoundVariant_194352168Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_232614909(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(232614909L))
-            info.setReturnValue(-637236584);
+            info.setReturnValue(-971564084);
     }
 
     @Inject(at = @At("HEAD"), method = "adultSounds()Lnet/minecraft/world/entity/animal/wolf/WolfSoundVariant$WolfSoundSet;", cancellable = true)

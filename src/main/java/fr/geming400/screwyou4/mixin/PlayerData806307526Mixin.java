@@ -28,7 +28,7 @@ public class PlayerData806307526Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_844570268(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(844570268L))
-            info.setReturnValue(1990856817);
+            info.setReturnValue(2088548217);
     }
 
     @Inject(at = @At("HEAD"), method = "id()Ljava/util/UUID;", cancellable = true)

@@ -19,16 +19,16 @@ public class SetLoreFunction1655765058Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "setLore()Lnet/minecraft/world/level/storage/loot/functions/SetLoreFunction$Builder;", cancellable = true)
+    private static void setLore__42105044(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-42105044L))
+            info.setReturnValue(new net.minecraft.world.level.storage.loot.functions.SetLoreFunction.Builder());
+    }
+
     @Inject(at = @At("HEAD"), method = "getReferencedContextParams()Ljava/util/Set;", cancellable = true)
     private void getReferencedContextParams__173270428(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-173270428L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "setLore()Lnet/minecraft/world/level/storage/loot/functions/SetLoreFunction$Builder;", cancellable = true)
-    private static void setLore__42105044(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-42105044L))
-            info.setReturnValue(new net.minecraft.world.level.storage.loot.functions.SetLoreFunction$Builder());
     }
 
 

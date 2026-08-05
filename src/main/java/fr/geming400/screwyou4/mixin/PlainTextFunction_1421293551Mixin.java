@@ -22,7 +22,7 @@ public class PlainTextFunction_1421293551Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1459556292(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1459556292L))
-            info.setReturnValue(2092078148);
+            info.setReturnValue(1978096248);
     }
 
     @Inject(at = @At("HEAD"), method = "id()Lnet/minecraft/resources/Identifier;", cancellable = true)

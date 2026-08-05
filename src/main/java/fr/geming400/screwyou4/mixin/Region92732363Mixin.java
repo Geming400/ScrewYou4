@@ -22,37 +22,37 @@ public class Region92732363Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_130995105(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(130995105L))
-            info.setReturnValue(929378994);
+            info.setReturnValue(985332994);
     }
 
     @Inject(at = @At("HEAD"), method = "x()D", cancellable = true)
     private void x_130989804(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(130989804L))
-            info.setReturnValue(2.793479009472773E8D);
+            info.setReturnValue(3.353019009472773E8D);
     }
 
     @Inject(at = @At("HEAD"), method = "y()D", cancellable = true)
     private void y_130989804(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(130989804L))
-            info.setReturnValue(2.793479009472773E8D);
+            info.setReturnValue(3.353019009472773E8D);
     }
 
     @Inject(at = @At("HEAD"), method = "width()D", cancellable = true)
     private void width_130989804(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(130989804L))
-            info.setReturnValue(2.793479009472773E8D);
+            info.setReturnValue(3.353019009472773E8D);
+    }
+
+    @Inject(at = @At("HEAD"), method = "height()D", cancellable = true)
+    private void height_130989804(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(130989804L))
+            info.setReturnValue(3.353019009472773E8D);
     }
 
     @Inject(at = @At("HEAD"), method = "sprite()Lnet/minecraft/resources/Identifier;", cancellable = true)
     private void sprite_1944633106(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1944633106L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "height()D", cancellable = true)
-    private void height_130989804(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(130989804L))
-            info.setReturnValue(2.793479009472773E8D);
     }
 
 

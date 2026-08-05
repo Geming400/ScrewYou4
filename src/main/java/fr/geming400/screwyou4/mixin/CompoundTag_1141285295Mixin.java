@@ -16,7 +16,7 @@ public class CompoundTag_1141285295Mixin {
     @Inject(at = @At("HEAD"), method = "size()I", cancellable = true)
     private void size_1179547540(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1179547540L))
-            info.setReturnValue(-1323966659);
+            info.setReturnValue(-1200039059);
     }
 
     @Inject(at = @At("HEAD"), method = "get(Ljava/lang/String;)Lnet/minecraft/nbt/Tag;", cancellable = true)
@@ -52,7 +52,7 @@ public class CompoundTag_1141285295Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1179547540(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1179547540L))
-            info.setReturnValue(-1323966659);
+            info.setReturnValue(-1200039059);
     }
 
     @Inject(at = @At("HEAD"), method = "getBoolean(Ljava/lang/String;)Ljava/util/Optional;", cancellable = true)
@@ -139,6 +139,12 @@ public class CompoundTag_1141285295Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "store(Ljava/lang/String;Lcom/mojang/serialization/Codec;Ljava/lang/Object;)V", cancellable = true)
+    private void store__455129842(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-455129842L))
+            info.cancel();
+    }
+
     @Inject(at = @At("HEAD"), method = "store(Lcom/mojang/serialization/MapCodec;Lcom/mojang/serialization/DynamicOps;Ljava/lang/Object;)V", cancellable = true)
     private void store_68567012(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(68567012L))
@@ -154,12 +160,6 @@ public class CompoundTag_1141285295Mixin {
     @Inject(at = @At("HEAD"), method = "store(Lcom/mojang/serialization/MapCodec;Ljava/lang/Object;)V", cancellable = true)
     private void store__1678959188(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1678959188L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "store(Ljava/lang/String;Lcom/mojang/serialization/Codec;Ljava/lang/Object;)V", cancellable = true)
-    private void store__455129842(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-455129842L))
             info.cancel();
     }
 
@@ -205,16 +205,16 @@ public class CompoundTag_1141285295Mixin {
             info.setReturnValue(110);
     }
 
-    @Inject(at = @At("HEAD"), method = "accept(Lnet/minecraft/nbt/StreamTagVisitor;)Lnet/minecraft/nbt/StreamTagVisitor$ValueResult;", cancellable = true)
-    private void accept__1173371389(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1173371389L))
-            info.setReturnValue(net.minecraft.nbt.StreamTagVisitor.ValueResult.BREAK);
-    }
-
     @Inject(at = @At("HEAD"), method = "accept(Lnet/minecraft/nbt/TagVisitor;)V", cancellable = true)
     private void accept_2111440921(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(2111440921L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "accept(Lnet/minecraft/nbt/StreamTagVisitor;)Lnet/minecraft/nbt/StreamTagVisitor$ValueResult;", cancellable = true)
+    private void accept__1173371389(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1173371389L))
+            info.setReturnValue(net.minecraft.nbt.StreamTagVisitor.ValueResult.BREAK);
     }
 
     @Inject(at = @At("HEAD"), method = "forEach(Ljava/util/function/BiConsumer;)V", cancellable = true)
@@ -247,12 +247,6 @@ public class CompoundTag_1141285295Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "read(Ljava/lang/String;Lcom/mojang/serialization/Codec;)Ljava/util/Optional;", cancellable = true)
-    private void read__858554773(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-858554773L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "read(Lcom/mojang/serialization/MapCodec;Lcom/mojang/serialization/DynamicOps;)Ljava/util/Optional;", cancellable = true)
     private void read__1803821483(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1803821483L))
@@ -265,6 +259,12 @@ public class CompoundTag_1141285295Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "read(Ljava/lang/String;Lcom/mojang/serialization/Codec;)Ljava/util/Optional;", cancellable = true)
+    private void read__858554773(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-858554773L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "getString(Ljava/lang/String;)Ljava/util/Optional;", cancellable = true)
     private void getString__1143646446(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1143646446L))
@@ -274,109 +274,31 @@ public class CompoundTag_1141285295Mixin {
     @Inject(at = @At("HEAD"), method = "sizeInBytes()I", cancellable = true)
     private void sizeInBytes_1179547540(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1179547540L))
-            info.setReturnValue(-1323966659);
+            info.setReturnValue(-1200039059);
     }
 
-    @Inject(at = @At("HEAD"), method = "getList(Ljava/lang/String;)Ljava/util/Optional;", cancellable = true)
-    private void getList__1143646446(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1143646446L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "asCompound()Ljava/util/Optional;", cancellable = true)
-    private void asCompound_1386746716(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1386746716L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getCompound(Ljava/lang/String;)Ljava/util/Optional;", cancellable = true)
-    private void getCompound__1143646446(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1143646446L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getIntArray(Ljava/lang/String;)Ljava/util/Optional;", cancellable = true)
-    private void getIntArray__1143646446(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1143646446L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getDoubleOr(Ljava/lang/String;D)D", cancellable = true)
-    private void getDoubleOr__1767459591(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1767459591L))
-            info.setReturnValue(4.907549005606693E8D);
-    }
-
-    @Inject(at = @At("HEAD"), method = "putIntArray(Ljava/lang/String;[I)V", cancellable = true)
-    private void putIntArray_1850913849(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1850913849L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "getStringOr(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;", cancellable = true)
-    private void getStringOr__916803037(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-916803037L))
-            info.setReturnValue("MM\uAED77p)iI\u030B<<A$}\u5E49',(3X\uCDBBYhgo\uC55CQ");
-    }
-
-    @Inject(at = @At("HEAD"), method = "getByteArray(Ljava/lang/String;)Ljava/util/Optional;", cancellable = true)
-    private void getByteArray__1143646446(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1143646446L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getCompoundOrEmpty(Ljava/lang/String;)Lnet/minecraft/nbt/CompoundTag;", cancellable = true)
-    private void getCompoundOrEmpty__441099024(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-441099024L))
-            info.setReturnValue(new net.minecraft.nbt.CompoundTag());
-    }
-
-    @Inject(at = @At("HEAD"), method = "putLongArray(Ljava/lang/String;[J)V", cancellable = true)
-    private void putLongArray_1851837370(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1851837370L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "getLongArray(Ljava/lang/String;)Ljava/util/Optional;", cancellable = true)
-    private void getLongArray__1143646446(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1143646446L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getBooleanOr(Ljava/lang/String;Z)Z", cancellable = true)
-    private void getBooleanOr__1747120987(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1747120987L))
-            info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "putByteArray(Ljava/lang/String;[B)V", cancellable = true)
-    private void putByteArray_1844449202(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1844449202L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "storeNullable(Ljava/lang/String;Lcom/mojang/serialization/Codec;Lcom/mojang/serialization/DynamicOps;Ljava/lang/Object;)V", cancellable = true)
-    private void storeNullable__1579127358(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1579127358L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "storeNullable(Ljava/lang/String;Lcom/mojang/serialization/Codec;Ljava/lang/Object;)V", cancellable = true)
-    private void storeNullable__455129842(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-455129842L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "getListOrEmpty(Ljava/lang/String;)Lnet/minecraft/nbt/ListTag;", cancellable = true)
-    private void getListOrEmpty__155873885(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-155873885L))
-            info.setReturnValue(new net.minecraft.nbt.ListTag());
+    @Inject(at = @At("HEAD"), method = "getLongOr(Ljava/lang/String;J)J", cancellable = true)
+    private void getLongOr__1761912699(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1761912699L))
+            info.setReturnValue(-6751118492642108956L);
     }
 
     @Inject(at = @At("HEAD"), method = "getFloatOr(Ljava/lang/String;F)F", cancellable = true)
     private void getFloatOr__1765610627(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1765610627L))
-            info.setReturnValue(4.907549E8F);
+            info.setReturnValue(6.146825E8F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getIntOr(Ljava/lang/String;I)I", cancellable = true)
+    private void getIntOr__1762837181(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1762837181L))
+            info.setReturnValue(1150522785);
+    }
+
+    @Inject(at = @At("HEAD"), method = "putString(Ljava/lang/String;Ljava/lang/String;)V", cancellable = true)
+    private void putString_2073473525(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(2073473525L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "getShortOr(Ljava/lang/String;S)S", cancellable = true)
@@ -391,22 +313,100 @@ public class CompoundTag_1141285295Mixin {
             info.setReturnValue(6);
     }
 
-    @Inject(at = @At("HEAD"), method = "putString(Ljava/lang/String;Ljava/lang/String;)V", cancellable = true)
-    private void putString_2073473525(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(2073473525L))
+    @Inject(at = @At("HEAD"), method = "getCompound(Ljava/lang/String;)Ljava/util/Optional;", cancellable = true)
+    private void getCompound__1143646446(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1143646446L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "putIntArray(Ljava/lang/String;[I)V", cancellable = true)
+    private void putIntArray_1850913849(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1850913849L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getIntOr(Ljava/lang/String;I)I", cancellable = true)
-    private void getIntOr__1762837181(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1762837181L))
-            info.setReturnValue(1026595185);
+    @Inject(at = @At("HEAD"), method = "putLongArray(Ljava/lang/String;[J)V", cancellable = true)
+    private void putLongArray_1851837370(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1851837370L))
+            info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getLongOr(Ljava/lang/String;J)J", cancellable = true)
-    private void getLongOr__1761912699(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1761912699L))
-            info.setReturnValue(-6751118492766036556L);
+    @Inject(at = @At("HEAD"), method = "putByteArray(Ljava/lang/String;[B)V", cancellable = true)
+    private void putByteArray_1844449202(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1844449202L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getDoubleOr(Ljava/lang/String;D)D", cancellable = true)
+    private void getDoubleOr__1767459591(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1767459591L))
+            info.setReturnValue(6.146825005606693E8D);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getByteArray(Ljava/lang/String;)Ljava/util/Optional;", cancellable = true)
+    private void getByteArray__1143646446(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1143646446L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getStringOr(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;", cancellable = true)
+    private void getStringOr__916803037(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-916803037L))
+            info.setReturnValue("MM\uAED77p)iI\u030B<<A$}\u5E49',(3X\uCDBBYhgo\uC55CQ");
+    }
+
+    @Inject(at = @At("HEAD"), method = "getIntArray(Ljava/lang/String;)Ljava/util/Optional;", cancellable = true)
+    private void getIntArray__1143646446(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1143646446L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getLongArray(Ljava/lang/String;)Ljava/util/Optional;", cancellable = true)
+    private void getLongArray__1143646446(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1143646446L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "storeNullable(Ljava/lang/String;Lcom/mojang/serialization/Codec;Ljava/lang/Object;)V", cancellable = true)
+    private void storeNullable__455129842(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-455129842L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "storeNullable(Ljava/lang/String;Lcom/mojang/serialization/Codec;Lcom/mojang/serialization/DynamicOps;Ljava/lang/Object;)V", cancellable = true)
+    private void storeNullable__1579127358(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1579127358L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getCompoundOrEmpty(Ljava/lang/String;)Lnet/minecraft/nbt/CompoundTag;", cancellable = true)
+    private void getCompoundOrEmpty__441099024(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-441099024L))
+            info.setReturnValue(new net.minecraft.nbt.CompoundTag());
+    }
+
+    @Inject(at = @At("HEAD"), method = "getBooleanOr(Ljava/lang/String;Z)Z", cancellable = true)
+    private void getBooleanOr__1747120987(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1747120987L))
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getListOrEmpty(Ljava/lang/String;)Lnet/minecraft/nbt/ListTag;", cancellable = true)
+    private void getListOrEmpty__155873885(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-155873885L))
+            info.setReturnValue(new net.minecraft.nbt.ListTag());
+    }
+
+    @Inject(at = @At("HEAD"), method = "asCompound()Ljava/util/Optional;", cancellable = true)
+    private void asCompound_1386746716(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1386746716L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getList(Ljava/lang/String;)Ljava/util/Optional;", cancellable = true)
+    private void getList__1143646446(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1143646446L))
+            info.setReturnValue(null);
     }
 
 

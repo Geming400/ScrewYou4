@@ -28,25 +28,25 @@ public class PositionSource579736783Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_617999525(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(617999525L))
-            info.setReturnValue(-241413863);
+            info.setReturnValue(-1086963863);
     }
 
     @Inject(at = @At("HEAD"), method = "scale()F", cancellable = true)
     private void scale_617996146(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(617996146L))
-            info.setReturnValue(9.129264E8F);
+            info.setReturnValue(6.73764E7F);
     }
 
     @Inject(at = @At("HEAD"), method = "offset()F", cancellable = true)
     private void offset_617996146(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(617996146L))
-            info.setReturnValue(9.129264E8F);
+            info.setReturnValue(6.73764E7F);
     }
 
     @Inject(at = @At("HEAD"), method = "getCoordinate(DDFLnet/minecraft/util/RandomSource;)D", cancellable = true)
     private void getCoordinate__1514565414(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1514565414L))
-            info.setReturnValue(9.129264001631535E8D);
+            info.setReturnValue(6.737640016315357E7D);
     }
 
 

@@ -28,7 +28,7 @@ public class Packed1118595147Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1156857889(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1156857889L))
-            info.setReturnValue(-505844189);
+            info.setReturnValue(-443260689);
     }
 
     @Inject(at = @At("HEAD"), method = "displayName()Lnet/minecraft/network/chat/Component;", cancellable = true)
@@ -49,16 +49,16 @@ public class Packed1118595147Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "displayAutoUpdate()Z", cancellable = true)
-    private void displayAutoUpdate_1156873730(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1156873730L))
-            info.setReturnValue(false);
-    }
-
     @Inject(at = @At("HEAD"), method = "renderType()Lnet/minecraft/world/scores/criteria/ObjectiveCriteria$RenderType;", cancellable = true)
     private void renderType__500974966(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-500974966L))
             info.setReturnValue(net.minecraft.world.scores.criteria.ObjectiveCriteria.RenderType.HEARTS);
+    }
+
+    @Inject(at = @At("HEAD"), method = "displayAutoUpdate()Z", cancellable = true)
+    private void displayAutoUpdate_1156873730(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1156873730L))
+            info.setReturnValue(false);
     }
 
 

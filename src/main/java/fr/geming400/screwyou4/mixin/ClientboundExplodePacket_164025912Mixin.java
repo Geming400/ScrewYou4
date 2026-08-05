@@ -28,7 +28,7 @@ public class ClientboundExplodePacket_164025912Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_202288653(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(202288653L))
-            info.setReturnValue(-2092200205);
+            info.setReturnValue(1555162891);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/PacketListener;)V", cancellable = true)
@@ -46,7 +46,7 @@ public class ClientboundExplodePacket_164025912Mixin {
     @Inject(at = @At("HEAD"), method = "radius()F", cancellable = true)
     private void radius_202285274(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(202285274L))
-            info.setReturnValue(9.413261E8F);
+            info.setReturnValue(2.937219E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "center()Lnet/minecraft/world/phys/Vec3;", cancellable = true)
@@ -58,7 +58,7 @@ public class ClientboundExplodePacket_164025912Mixin {
     @Inject(at = @At("HEAD"), method = "blockCount()I", cancellable = true)
     private void blockCount_202288157(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(202288157L))
-            info.setReturnValue(-1889052786);
+            info.setReturnValue(1758310310);
     }
 
     @Inject(at = @At("HEAD"), method = "blockParticles()Lnet/minecraft/util/random/WeightedList;", cancellable = true)
@@ -73,15 +73,15 @@ public class ClientboundExplodePacket_164025912Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "explosionParticle()Lnet/minecraft/core/particles/ParticleOptions;", cancellable = true)
-    private void explosionParticle__1904935157(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1904935157L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "playerKnockback()Ljava/util/Optional;", cancellable = true)
     private void playerKnockback_409487333(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(409487333L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "explosionParticle()Lnet/minecraft/core/particles/ParticleOptions;", cancellable = true)
+    private void explosionParticle__1904935157(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1904935157L))
             info.setReturnValue(null);
     }
 

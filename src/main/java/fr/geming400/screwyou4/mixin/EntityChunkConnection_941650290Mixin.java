@@ -34,7 +34,7 @@ public class EntityChunkConnection_941650290Mixin {
     @Inject(at = @At("HEAD"), method = "distanceChessboard()I", cancellable = true)
     private void distanceChessboard_979912535(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(979912535L))
-            info.setReturnValue(1237539522);
+            info.setReturnValue(778934922);
     }
 
 

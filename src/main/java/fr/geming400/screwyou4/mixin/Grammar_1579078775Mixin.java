@@ -22,7 +22,7 @@ public class Grammar_1579078775Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1617341516(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1617341516L))
-            info.setReturnValue(1054500511);
+            info.setReturnValue(989971911);
     }
 
     @Inject(at = @At("HEAD"), method = "parse(Lnet/minecraft/util/parsing/packrat/ParseState;)Ljava/util/Optional;", cancellable = true)

@@ -22,18 +22,18 @@ public class WorldDataConfiguration_1961541620Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1999804361(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1999804361L))
-            info.setReturnValue(-728196597);
-    }
-
-    @Inject(at = @At("HEAD"), method = "enabledFeatures()Lnet/minecraft/world/flag/FeatureFlagSet;", cancellable = true)
-    private void enabledFeatures__1668605179(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1668605179L))
-            info.setReturnValue(null);
+            info.setReturnValue(163956703);
     }
 
     @Inject(at = @At("HEAD"), method = "expandFeatures(Lnet/minecraft/world/flag/FeatureFlagSet;)Lnet/minecraft/world/level/WorldDataConfiguration;", cancellable = true)
     private void expandFeatures__794241370(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-794241370L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "enabledFeatures()Lnet/minecraft/world/flag/FeatureFlagSet;", cancellable = true)
+    private void enabledFeatures__1668605179(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1668605179L))
             info.setReturnValue(null);
     }
 

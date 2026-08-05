@@ -22,13 +22,7 @@ public class Success992268536Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1030531278(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1030531278L))
-            info.setReturnValue(-575945405);
-    }
-
-    @Inject(at = @At("HEAD"), method = "withoutItem()Lnet/minecraft/world/InteractionResult$Success;", cancellable = true)
-    private void withoutItem_706227423(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(706227423L))
-            info.setReturnValue(null);
+            info.setReturnValue(-546993905);
     }
 
     @Inject(at = @At("HEAD"), method = "consumesAction()Z", cancellable = true)
@@ -37,22 +31,10 @@ public class Success992268536Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "heldItemTransformedTo(Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/world/InteractionResult$Success;", cancellable = true)
-    private void heldItemTransformedTo__541391292(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-541391292L))
+    @Inject(at = @At("HEAD"), method = "withoutItem()Lnet/minecraft/world/InteractionResult$Success;", cancellable = true)
+    private void withoutItem_706227423(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(706227423L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "heldItemTransformedTo()Lnet/minecraft/world/item/ItemStack;", cancellable = true)
-    private void heldItemTransformedTo_1515687196(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1515687196L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "wasItemInteraction()Z", cancellable = true)
-    private void wasItemInteraction_1030547119(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1030547119L))
-            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "swingSource()Lnet/minecraft/world/InteractionResult$SwingSource;", cancellable = true)
@@ -65,6 +47,24 @@ public class Success992268536Mixin {
     private void itemContext__311536986(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-311536986L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "heldItemTransformedTo()Lnet/minecraft/world/item/ItemStack;", cancellable = true)
+    private void heldItemTransformedTo_1515687196(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1515687196L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "heldItemTransformedTo(Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/world/InteractionResult$Success;", cancellable = true)
+    private void heldItemTransformedTo__541391292(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-541391292L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "wasItemInteraction()Z", cancellable = true)
+    private void wasItemInteraction_1030547119(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1030547119L))
+            info.setReturnValue(false);
     }
 
 

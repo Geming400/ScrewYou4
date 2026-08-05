@@ -37,9 +37,9 @@ public class ListPoolElement_1971626284Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "setProjection(Lnet/minecraft/world/level/levelgen/structure/pools/StructureTemplatePool$Projection;)Lnet/minecraft/world/level/levelgen/structure/pools/StructurePoolElement;", cancellable = true)
-    private void setProjection__1885025095(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1885025095L))
+    @Inject(at = @At("HEAD"), method = "getBoundingBox(Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplateManager;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/Rotation;)Lnet/minecraft/world/level/levelgen/structure/BoundingBox;", cancellable = true)
+    private void getBoundingBox_1932430266(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1932430266L))
             info.setReturnValue(null);
     }
 
@@ -49,9 +49,9 @@ public class ListPoolElement_1971626284Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getBoundingBox(Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplateManager;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/Rotation;)Lnet/minecraft/world/level/levelgen/structure/BoundingBox;", cancellable = true)
-    private void getBoundingBox_1932430266(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1932430266L))
+    @Inject(at = @At("HEAD"), method = "setProjection(Lnet/minecraft/world/level/levelgen/structure/pools/StructureTemplatePool$Projection;)Lnet/minecraft/world/level/levelgen/structure/pools/StructurePoolElement;", cancellable = true)
+    private void setProjection__1885025095(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1885025095L))
             info.setReturnValue(null);
     }
 

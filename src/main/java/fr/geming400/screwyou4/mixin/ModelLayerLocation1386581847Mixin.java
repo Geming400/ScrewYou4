@@ -22,7 +22,7 @@ public class ModelLayerLocation1386581847Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1424844589(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1424844589L))
-            info.setReturnValue(785337387);
+            info.setReturnValue(421032887);
     }
 
     @Inject(at = @At("HEAD"), method = "layer()Ljava/lang/String;", cancellable = true)

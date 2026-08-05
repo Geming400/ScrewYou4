@@ -31,15 +31,15 @@ public class FrameLayout_1366391831Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "centerInRectangle(Lnet/minecraft/client/gui/layouts/LayoutElement;IIII)V", cancellable = true)
-    private static void centerInRectangle_834300520(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(834300520L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "centerInRectangle(Lnet/minecraft/client/gui/layouts/LayoutElement;Lnet/minecraft/client/gui/navigation/ScreenRectangle;)V", cancellable = true)
     private static void centerInRectangle__946508699(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-946508699L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "centerInRectangle(Lnet/minecraft/client/gui/layouts/LayoutElement;IIII)V", cancellable = true)
+    private static void centerInRectangle_834300520(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(834300520L))
             info.cancel();
     }
 
@@ -49,10 +49,10 @@ public class FrameLayout_1366391831Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "setMinHeight(I)Lnet/minecraft/client/gui/layouts/FrameLayout;", cancellable = true)
-    private void setMinHeight_764902462(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(764902462L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "visitChildren(Ljava/util/function/Consumer;)V", cancellable = true)
+    private void visitChildren_2047408243(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(2047408243L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "removeChildren()V", cancellable = true)
@@ -61,16 +61,10 @@ public class FrameLayout_1366391831Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "visitChildren(Ljava/util/function/Consumer;)V", cancellable = true)
-    private void visitChildren_2047408243(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(2047408243L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "alignInRectangle(Lnet/minecraft/client/gui/layouts/LayoutElement;Lnet/minecraft/client/gui/navigation/ScreenRectangle;FF)V", cancellable = true)
-    private static void alignInRectangle__45018587(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-45018587L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "setMinHeight(I)Lnet/minecraft/client/gui/layouts/FrameLayout;", cancellable = true)
+    private void setMinHeight_764902462(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(764902462L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "alignInRectangle(Lnet/minecraft/client/gui/layouts/LayoutElement;IIIIFF)V", cancellable = true)
@@ -79,10 +73,10 @@ public class FrameLayout_1366391831Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "newChildLayoutSettings()Lnet/minecraft/client/gui/layouts/LayoutSettings;", cancellable = true)
-    private void newChildLayoutSettings_1301412035(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1301412035L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "alignInRectangle(Lnet/minecraft/client/gui/layouts/LayoutElement;Lnet/minecraft/client/gui/navigation/ScreenRectangle;FF)V", cancellable = true)
+    private static void alignInRectangle__45018587(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-45018587L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "alignInDimension(IIILjava/util/function/Consumer;F)V", cancellable = true)
@@ -93,6 +87,12 @@ public class FrameLayout_1366391831Mixin {
 
     @Inject(at = @At("HEAD"), method = "defaultChildLayoutSetting()Lnet/minecraft/client/gui/layouts/LayoutSettings;", cancellable = true)
     private void defaultChildLayoutSetting_1301412035(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1301412035L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "newChildLayoutSettings()Lnet/minecraft/client/gui/layouts/LayoutSettings;", cancellable = true)
+    private void newChildLayoutSettings_1301412035(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1301412035L))
             info.setReturnValue(null);
     }

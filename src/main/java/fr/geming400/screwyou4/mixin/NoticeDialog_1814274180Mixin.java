@@ -22,7 +22,7 @@ public class NoticeDialog_1814274180Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1852536921(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1852536921L))
-            info.setReturnValue(-1417631815);
+            info.setReturnValue(-1737041015);
     }
 
     @Inject(at = @At("HEAD"), method = "action()Lnet/minecraft/server/dialog/ActionButton;", cancellable = true)

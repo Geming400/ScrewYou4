@@ -16,7 +16,7 @@ public class HeartParticle805735710Mixin {
     @Inject(at = @At("HEAD"), method = "getQuadSize(F)F", cancellable = true)
     private void getQuadSize_2016866743(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2016866743L))
-            info.setReturnValue(6.262639E8F);
+            info.setReturnValue(1.364472E8F);
     }
 
 

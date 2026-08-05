@@ -22,7 +22,7 @@ public class SignableCommand_2120250794Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__2136453761(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2136453761L))
-            info.setReturnValue(-1079478557);
+            info.setReturnValue(-268959857);
     }
 
     @Inject(at = @At("HEAD"), method = "of(Lcom/mojang/brigadier/ParseResults;)Lnet/minecraft/network/chat/SignableCommand;", cancellable = true)

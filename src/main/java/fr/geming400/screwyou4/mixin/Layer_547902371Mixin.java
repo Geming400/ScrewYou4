@@ -22,7 +22,7 @@ public class Layer_547902371Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_586165112(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(586165112L))
-            info.setReturnValue(-537786152);
+            info.setReturnValue(62026148);
     }
 
     @Inject(at = @At("HEAD"), method = "pattern()Lnet/minecraft/core/Holder;", cancellable = true)

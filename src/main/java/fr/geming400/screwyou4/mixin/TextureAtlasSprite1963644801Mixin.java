@@ -34,31 +34,31 @@ public class TextureAtlasSprite1963644801Mixin {
     @Inject(at = @At("HEAD"), method = "getU1()F", cancellable = true)
     private void getU1_2001904164(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2001904164L))
-            info.setReturnValue(4.680671E8F);
+            info.setReturnValue(8.111329E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "getY()I", cancellable = true)
     private void getY_2001907047(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2001907047L))
-            info.setReturnValue(746731972);
+            info.setReturnValue(1089797772);
     }
 
     @Inject(at = @At("HEAD"), method = "getU(F)F", cancellable = true)
     private void getU__1120191462(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1120191462L))
-            info.setReturnValue(4.680671E8F);
+            info.setReturnValue(8.111329E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "getX()I", cancellable = true)
     private void getX_2001907047(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2001907047L))
-            info.setReturnValue(746731972);
+            info.setReturnValue(1089797772);
     }
 
-    @Inject(at = @At("HEAD"), method = "transparency()Lcom/mojang/blaze3d/platform/Transparency;", cancellable = true)
-    private void transparency__1974325018(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1974325018L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "uploadSpriteUbo(Ljava/nio/ByteBuffer;IIIII)V", cancellable = true)
+    private void uploadSpriteUbo_945447174(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(945447174L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "uploadFirstFrame(Lcom/mojang/blaze3d/textures/GpuTexture;I)V", cancellable = true)
@@ -73,10 +73,10 @@ public class TextureAtlasSprite1963644801Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "uploadSpriteUbo(Ljava/nio/ByteBuffer;IIIII)V", cancellable = true)
-    private void uploadSpriteUbo_945447174(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(945447174L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "atlasLocation()Lnet/minecraft/resources/Identifier;", cancellable = true)
+    private void atlasLocation__479421752(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-479421752L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "isAnimated()Z", cancellable = true)
@@ -85,33 +85,33 @@ public class TextureAtlasSprite1963644801Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "getU0()F", cancellable = true)
-    private void getU0_2001904164(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2001904164L))
-            info.setReturnValue(4.680671E8F);
-    }
-
     @Inject(at = @At("HEAD"), method = "getV0()F", cancellable = true)
     private void getV0_2001904164(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2001904164L))
-            info.setReturnValue(4.680671E8F);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getV1()F", cancellable = true)
-    private void getV1_2001904164(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2001904164L))
-            info.setReturnValue(4.680671E8F);
+            info.setReturnValue(8.111329E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "getV(F)F", cancellable = true)
     private void getV__1120191462(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1120191462L))
-            info.setReturnValue(4.680671E8F);
+            info.setReturnValue(8.111329E8F);
     }
 
-    @Inject(at = @At("HEAD"), method = "atlasLocation()Lnet/minecraft/resources/Identifier;", cancellable = true)
-    private void atlasLocation__479421752(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-479421752L))
+    @Inject(at = @At("HEAD"), method = "getV1()F", cancellable = true)
+    private void getV1_2001904164(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2001904164L))
+            info.setReturnValue(8.111329E8F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getU0()F", cancellable = true)
+    private void getU0_2001904164(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2001904164L))
+            info.setReturnValue(8.111329E8F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "transparency()Lcom/mojang/blaze3d/platform/Transparency;", cancellable = true)
+    private void transparency__1974325018(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1974325018L))
             info.setReturnValue(null);
     }
 

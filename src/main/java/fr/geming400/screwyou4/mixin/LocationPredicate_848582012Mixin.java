@@ -22,7 +22,7 @@ public class LocationPredicate_848582012Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_886844753(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(886844753L))
-            info.setReturnValue(-1923934818);
+            info.setReturnValue(-1974720318);
     }
 
     @Inject(at = @At("HEAD"), method = "position()Ljava/util/Optional;", cancellable = true)
@@ -43,6 +43,12 @@ public class LocationPredicate_848582012Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "canSeeSky()Ljava/util/Optional;", cancellable = true)
+    private void canSeeSky_1094043433(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1094043433L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "structures()Ljava/util/Optional;", cancellable = true)
     private void structures_1094043433(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1094043433L))
@@ -51,12 +57,6 @@ public class LocationPredicate_848582012Mixin {
 
     @Inject(at = @At("HEAD"), method = "light()Ljava/util/Optional;", cancellable = true)
     private void light_1094043433(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1094043433L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "canSeeSky()Ljava/util/Optional;", cancellable = true)
-    private void canSeeSky_1094043433(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1094043433L))
             info.setReturnValue(null);
     }

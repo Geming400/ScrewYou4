@@ -22,7 +22,7 @@ public class SingleOptionInput_2024745937Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2063008678(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2063008678L))
-            info.setReturnValue(396115545);
+            info.setReturnValue(325718445);
     }
 
     @Inject(at = @At("HEAD"), method = "entries()Ljava/util/List;", cancellable = true)
@@ -34,7 +34,7 @@ public class SingleOptionInput_2024745937Mixin {
     @Inject(at = @At("HEAD"), method = "width()I", cancellable = true)
     private void width_2063008182(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2063008182L))
-            info.setReturnValue(599262964);
+            info.setReturnValue(528865864);
     }
 
     @Inject(at = @At("HEAD"), method = "label()Lnet/minecraft/network/chat/Component;", cancellable = true)

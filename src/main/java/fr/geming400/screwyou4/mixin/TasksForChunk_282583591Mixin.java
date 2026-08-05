@@ -22,7 +22,7 @@ public class TasksForChunk_282583591Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_320846332(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(320846332L))
-            info.setReturnValue(712154983);
+            info.setReturnValue(514757583);
     }
 
     @Inject(at = @At("HEAD"), method = "tasks()Ljava/util/List;", cancellable = true)
@@ -34,7 +34,7 @@ public class TasksForChunk_282583591Mixin {
     @Inject(at = @At("HEAD"), method = "chunkPos()J", cancellable = true)
     private void chunkPos_320846797(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(320846797L))
-            info.setReturnValue(-780136226154505753L);
+            info.setReturnValue(-780136226351903153L);
     }
 
 

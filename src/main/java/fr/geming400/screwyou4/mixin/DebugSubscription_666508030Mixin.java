@@ -28,18 +28,18 @@ public class DebugSubscription_666508030Mixin {
     @Inject(at = @At("HEAD"), method = "expireAfterTicks()I", cancellable = true)
     private void expireAfterTicks_704770275(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(704770275L))
-            info.setReturnValue(1122592726);
-    }
-
-    @Inject(at = @At("HEAD"), method = "valueStreamCodec()Lnet/minecraft/network/codec/StreamCodec;", cancellable = true)
-    private void valueStreamCodec_1927508153(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1927508153L))
-            info.setReturnValue(null);
+            info.setReturnValue(1281752526);
     }
 
     @Inject(at = @At("HEAD"), method = "emptyUpdate()Lnet/minecraft/util/debug/DebugSubscription$Update;", cancellable = true)
     private void emptyUpdate_25608943(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(25608943L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "valueStreamCodec()Lnet/minecraft/network/codec/StreamCodec;", cancellable = true)
+    private void valueStreamCodec_1927508153(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1927508153L))
             info.setReturnValue(null);
     }
 

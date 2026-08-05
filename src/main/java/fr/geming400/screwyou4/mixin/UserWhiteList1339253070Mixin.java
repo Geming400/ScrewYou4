@@ -25,15 +25,15 @@ public class UserWhiteList1339253070Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "add(Lnet/minecraft/server/players/StoredUserEntry;)Z", cancellable = true)
-    private void add_1175832453(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1175832453L))
-            info.setReturnValue(true);
-    }
-
     @Inject(at = @At("HEAD"), method = "add(Lnet/minecraft/server/players/UserWhiteListEntry;)Z", cancellable = true)
     private void add__1985297903(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1985297903L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "add(Lnet/minecraft/server/players/StoredUserEntry;)Z", cancellable = true)
+    private void add_1175832453(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1175832453L))
             info.setReturnValue(true);
     }
 

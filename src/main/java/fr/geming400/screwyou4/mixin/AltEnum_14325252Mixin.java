@@ -28,7 +28,7 @@ public class AltEnum_14325252Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_52587993(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(52587993L))
-            info.setReturnValue(-1680753967);
+            info.setReturnValue(-841714067);
     }
 
     @Inject(at = @At("HEAD"), method = "validateValue(Ljava/lang/Object;)Ljava/util/Optional;", cancellable = true)
@@ -43,15 +43,15 @@ public class AltEnum_14325252Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "altValues()Ljava/util/List;", cancellable = true)
-    private void altValues_1640662067(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1640662067L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "altCondition()Ljava/util/function/BooleanSupplier;", cancellable = true)
     private void altCondition_451071572(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(451071572L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "valueSetter()Lnet/minecraft/client/OptionInstance$CycleableValueSet$ValueSetter;", cancellable = true)
+    private void valueSetter_1181630196(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1181630196L))
             info.setReturnValue(null);
     }
 
@@ -61,9 +61,9 @@ public class AltEnum_14325252Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "valueSetter()Lnet/minecraft/client/OptionInstance$CycleableValueSet$ValueSetter;", cancellable = true)
-    private void valueSetter_1181630196(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1181630196L))
+    @Inject(at = @At("HEAD"), method = "altValues()Ljava/util/List;", cancellable = true)
+    private void altValues_1640662067(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1640662067L))
             info.setReturnValue(null);
     }
 

@@ -13,27 +13,15 @@ public class BlockEntityWithBoundingBoxRenderer_953232106Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "submit(Lnet/minecraft/client/renderer/blockentity/state/BlockEntityRenderState;Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/SubmitNodeCollector;Lnet/minecraft/client/renderer/state/level/CameraRenderState;)V", cancellable = true)
-    private void submit_1093198743(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1093198743L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "submit(Lnet/minecraft/client/renderer/blockentity/state/BlockEntityWithBoundingBoxRenderState;Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/SubmitNodeCollector;Lnet/minecraft/client/renderer/state/level/CameraRenderState;)V", cancellable = true)
     private void submit__1819791236(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1819791236L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getViewDistance()I", cancellable = true)
-    private void getViewDistance_991494351(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(991494351L))
-            info.setReturnValue(470553324);
-    }
-
-    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/level/block/entity/BlockEntity;Lnet/minecraft/client/renderer/blockentity/state/BlockEntityWithBoundingBoxRenderState;FLnet/minecraft/world/phys/Vec3;Lnet/minecraft/client/renderer/feature/ModelFeatureRenderer$CrumblingOverlay;)V", cancellable = true)
-    private void extractRenderState__694409946(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-694409946L))
+    @Inject(at = @At("HEAD"), method = "submit(Lnet/minecraft/client/renderer/blockentity/state/BlockEntityRenderState;Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/SubmitNodeCollector;Lnet/minecraft/client/renderer/state/level/CameraRenderState;)V", cancellable = true)
+    private void submit_1093198743(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1093198743L))
             info.cancel();
     }
 
@@ -43,10 +31,10 @@ public class BlockEntityWithBoundingBoxRenderer_953232106Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "shouldRenderOffScreen()Z", cancellable = true)
-    private void shouldRenderOffScreen_991510688(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(991510688L))
-            info.setReturnValue(true);
+    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/level/block/entity/BlockEntity;Lnet/minecraft/client/renderer/blockentity/state/BlockEntityWithBoundingBoxRenderState;FLnet/minecraft/world/phys/Vec3;Lnet/minecraft/client/renderer/feature/ModelFeatureRenderer$CrumblingOverlay;)V", cancellable = true)
+    private void extractRenderState__694409946(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-694409946L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/blockentity/state/BlockEntityWithBoundingBoxRenderState;", cancellable = true)
@@ -59,6 +47,18 @@ public class BlockEntityWithBoundingBoxRenderer_953232106Mixin {
     private void createRenderState_2087204531(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2087204531L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getViewDistance()I", cancellable = true)
+    private void getViewDistance_991494351(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(991494351L))
+            info.setReturnValue(451714924);
+    }
+
+    @Inject(at = @At("HEAD"), method = "shouldRenderOffScreen()Z", cancellable = true)
+    private void shouldRenderOffScreen_991510688(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(991510688L))
+            info.setReturnValue(true);
     }
 
 

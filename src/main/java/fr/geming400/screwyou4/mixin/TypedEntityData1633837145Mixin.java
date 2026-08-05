@@ -28,7 +28,7 @@ public class TypedEntityData1633837145Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1672099391(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1672099391L))
-            info.setReturnValue(1186131972);
+            info.setReturnValue(673023872);
     }
 
     @Inject(at = @At("HEAD"), method = "of(Ljava/lang/Object;Lnet/minecraft/nbt/CompoundTag;)Lnet/minecraft/world/item/component/TypedEntityData;", cancellable = true)
@@ -45,6 +45,12 @@ public class TypedEntityData1633837145Mixin {
 
     @Inject(at = @At("HEAD"), method = "getUnsafe()Lnet/minecraft/nbt/CompoundTag;", cancellable = true)
     private void getUnsafe_63614225(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(63614225L))
+            info.setReturnValue(new net.minecraft.nbt.CompoundTag());
+    }
+
+    @Inject(at = @At("HEAD"), method = "copyTagWithoutId()Lnet/minecraft/nbt/CompoundTag;", cancellable = true)
+    private void copyTagWithoutId_63614225(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(63614225L))
             info.setReturnValue(new net.minecraft.nbt.CompoundTag());
     }
@@ -77,12 +83,6 @@ public class TypedEntityData1633837145Mixin {
     private void loadInto__2100747911(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2100747911L))
             info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "copyTagWithoutId()Lnet/minecraft/nbt/CompoundTag;", cancellable = true)
-    private void copyTagWithoutId_63614225(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(63614225L))
-            info.setReturnValue(new net.minecraft.nbt.CompoundTag());
     }
 
 

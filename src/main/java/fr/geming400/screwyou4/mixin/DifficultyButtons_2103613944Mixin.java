@@ -22,7 +22,7 @@ public class DifficultyButtons_2103613944Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2141876685(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2141876685L))
-            info.setReturnValue(385736148);
+            info.setReturnValue(173924648);
     }
 
     @Inject(at = @At("HEAD"), method = "create(Lnet/minecraft/client/Minecraft;Lnet/minecraft/world/level/Level;Lnet/minecraft/client/gui/screens/Screen;)Lnet/minecraft/client/gui/screens/options/DifficultyButtons;", cancellable = true)
@@ -49,15 +49,15 @@ public class DifficultyButtons_2103613944Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "lockButton()Lnet/minecraft/client/gui/components/LockIconButton;", cancellable = true)
-    private void lockButton__1883377158(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1883377158L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "difficultyButton()Lnet/minecraft/client/gui/components/CycleButton;", cancellable = true)
     private void difficultyButton_1060591320(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1060591320L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "lockButton()Lnet/minecraft/client/gui/components/LockIconButton;", cancellable = true)
+    private void lockButton__1883377158(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1883377158L))
             info.setReturnValue(null);
     }
 

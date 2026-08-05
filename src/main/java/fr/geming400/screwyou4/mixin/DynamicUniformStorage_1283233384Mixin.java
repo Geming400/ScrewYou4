@@ -13,6 +13,12 @@ public class DynamicUniformStorage_1283233384Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "endFrame()V", cancellable = true)
+    private void endFrame_1321508122(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1321508122L))
+            info.cancel();
+    }
+
     @Inject(at = @At("HEAD"), method = "writeUniform(Lnet/minecraft/client/renderer/DynamicUniformStorage$DynamicUniform;)Lcom/mojang/blaze3d/buffers/GpuBufferSlice;", cancellable = true)
     private void writeUniform_165780574(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(165780574L))
@@ -23,12 +29,6 @@ public class DynamicUniformStorage_1283233384Mixin {
     private void writeUniforms_132007258(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(132007258L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "endFrame()V", cancellable = true)
-    private void endFrame_1321508122(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1321508122L))
-            info.cancel();
     }
 
 

@@ -31,15 +31,21 @@ public class FoodData2011525310Mixin {
             info.setReturnValue(true);
     }
 
+    @Inject(at = @At("HEAD"), method = "addAdditionalSaveData(Lnet/minecraft/world/level/storage/ValueOutput;)V", cancellable = true)
+    private void addAdditionalSaveData_792393958(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(792393958L))
+            info.cancel();
+    }
+
     @Inject(at = @At("HEAD"), method = "readAdditionalSaveData(Lnet/minecraft/world/level/storage/ValueInput;)V", cancellable = true)
     private void readAdditionalSaveData__2052205353(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-2052205353L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "addAdditionalSaveData(Lnet/minecraft/world/level/storage/ValueOutput;)V", cancellable = true)
-    private void addAdditionalSaveData_792393958(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(792393958L))
+    @Inject(at = @At("HEAD"), method = "addExhaustion(F)V", cancellable = true)
+    private void addExhaustion__1072295577(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1072295577L))
             info.cancel();
     }
 
@@ -49,8 +55,20 @@ public class FoodData2011525310Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "addExhaustion(F)V", cancellable = true)
-    private void addExhaustion__1072295577(CallbackInfo info) {
+    @Inject(at = @At("HEAD"), method = "getFoodLevel()I", cancellable = true)
+    private void getFoodLevel_2049787556(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2049787556L))
+            info.setReturnValue(293138990);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getSaturationLevel()F", cancellable = true)
+    private void getSaturationLevel_2049784673(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2049784673L))
+            info.setReturnValue(2.212695E8F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "setSaturation(F)V", cancellable = true)
+    private void setSaturation__1072295577(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1072295577L))
             info.cancel();
     }
@@ -58,24 +76,6 @@ public class FoodData2011525310Mixin {
     @Inject(at = @At("HEAD"), method = "setFoodLevel(I)V", cancellable = true)
     private void setFoodLevel__1069525014(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1069525014L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "getSaturationLevel()F", cancellable = true)
-    private void getSaturationLevel_2049784673(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2049784673L))
-            info.setReturnValue(6.81496E7F);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getFoodLevel()I", cancellable = true)
-    private void getFoodLevel_2049787556(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2049787556L))
-            info.setReturnValue(140019090);
-    }
-
-    @Inject(at = @At("HEAD"), method = "setSaturation(F)V", cancellable = true)
-    private void setSaturation__1072295577(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1072295577L))
             info.cancel();
     }
 

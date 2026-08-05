@@ -13,10 +13,16 @@ public class EnchantmentMenu1871825352Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "getEnchantmentSeed()I", cancellable = true)
+    private void getEnchantmentSeed_1910087598(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1910087598L))
+            info.setReturnValue(-2023720590);
+    }
+
     @Inject(at = @At("HEAD"), method = "getGoldCount()I", cancellable = true)
     private void getGoldCount_1910087598(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1910087598L))
-            info.setReturnValue(-1775742190);
+            info.setReturnValue(-2023720590);
     }
 
     @Inject(at = @At("HEAD"), method = "stillValid(Lnet/minecraft/world/entity/player/Player;)Z", cancellable = true)
@@ -25,28 +31,22 @@ public class EnchantmentMenu1871825352Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "getEnchantmentSeed()I", cancellable = true)
-    private void getEnchantmentSeed_1910087598(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1910087598L))
-            info.setReturnValue(-1775742190);
-    }
-
     @Inject(at = @At("HEAD"), method = "quickMoveStack(Lnet/minecraft/world/entity/player/Player;I)Lnet/minecraft/world/item/ItemStack;", cancellable = true)
     private void quickMoveStack__1549446194(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1549446194L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "slotsChanged(Lnet/minecraft/world/Container;)V", cancellable = true)
-    private void slotsChanged__889388702(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-889388702L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "clickMenuButton(Lnet/minecraft/world/entity/player/Player;I)Z", cancellable = true)
     private void clickMenuButton_993109213(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(993109213L))
             info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "slotsChanged(Lnet/minecraft/world/Container;)V", cancellable = true)
+    private void slotsChanged__889388702(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-889388702L))
+            info.cancel();
     }
 
 

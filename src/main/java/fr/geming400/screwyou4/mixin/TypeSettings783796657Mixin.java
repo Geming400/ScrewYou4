@@ -22,7 +22,7 @@ public class TypeSettings783796657Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_822059399(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(822059399L))
-            info.setReturnValue(-170580375);
+            info.setReturnValue(2702425);
     }
 
     @Inject(at = @At("HEAD"), method = "open()Z", cancellable = true)
@@ -37,14 +37,14 @@ public class TypeSettings783796657Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "setOpen(Z)Lnet/minecraft/stats/RecipeBookSettings$TypeSettings;", cancellable = true)
-    private void setOpen_130002620(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "setFiltering(Z)Lnet/minecraft/stats/RecipeBookSettings$TypeSettings;", cancellable = true)
+    private void setFiltering_130002620(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(130002620L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "setFiltering(Z)Lnet/minecraft/stats/RecipeBookSettings$TypeSettings;", cancellable = true)
-    private void setFiltering_130002620(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "setOpen(Z)Lnet/minecraft/stats/RecipeBookSettings$TypeSettings;", cancellable = true)
+    private void setOpen_130002620(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(130002620L))
             info.setReturnValue(null);
     }

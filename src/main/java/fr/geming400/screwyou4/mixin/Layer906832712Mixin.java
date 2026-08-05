@@ -22,7 +22,7 @@ public class Layer906832712Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_945095454(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(945095454L))
-            info.setReturnValue(-1032063056);
+            info.setReturnValue(-894887856);
     }
 
     @Inject(at = @At("HEAD"), method = "state()Lnet/minecraft/world/level/levelgen/feature/stateproviders/BlockStateProvider;", cancellable = true)

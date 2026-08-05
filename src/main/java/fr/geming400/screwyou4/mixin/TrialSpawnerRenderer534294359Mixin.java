@@ -31,12 +31,6 @@ public class TrialSpawnerRenderer534294359Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "extractSpawnerData(Lnet/minecraft/client/renderer/blockentity/state/SpawnerRenderState;FLnet/minecraft/world/entity/Entity;Lnet/minecraft/client/renderer/entity/EntityRenderDispatcher;DD)V", cancellable = true)
-    private static void extractSpawnerData_686735651(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(686735651L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/blockentity/state/BlockEntityRenderState;", cancellable = true)
     private void createRenderState_1668266785(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1668266785L))
@@ -47,6 +41,12 @@ public class TrialSpawnerRenderer534294359Mixin {
     private void createRenderState__673358343(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-673358343L))
             info.setReturnValue(new net.minecraft.client.renderer.blockentity.state.SpawnerRenderState());
+    }
+
+    @Inject(at = @At("HEAD"), method = "extractSpawnerData(Lnet/minecraft/client/renderer/blockentity/state/SpawnerRenderState;FLnet/minecraft/world/entity/Entity;Lnet/minecraft/client/renderer/entity/EntityRenderDispatcher;DD)V", cancellable = true)
+    private static void extractSpawnerData_686735651(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(686735651L))
+            info.cancel();
     }
 
 

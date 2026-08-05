@@ -19,12 +19,6 @@ public class WorldListEntry1611745136Mixin {
             info.setReturnValue("w0p/ z#\u75FEnLJBo*TIr$>z\u0AC25:f\u2F883Xog;\u20D3\uC4E9O\u9E07>A(L\u859C.}\u1400*k?Rb");
     }
 
-    @Inject(at = @At("HEAD"), method = "keyPressed(Lnet/minecraft/client/input/KeyEvent;)Z", cancellable = true)
-    private void keyPressed_695109422(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(695109422L))
-            info.setReturnValue(true);
-    }
-
     @Inject(at = @At("HEAD"), method = "extractContent(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIZF)V", cancellable = true)
     private void extractContent__1771547100(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1771547100L))
@@ -35,6 +29,30 @@ public class WorldListEntry1611745136Mixin {
     private void getNarration__565164029(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-565164029L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "mouseClicked(Lnet/minecraft/client/input/MouseButtonEvent;Z)Z", cancellable = true)
+    private void mouseClicked__2913742(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2913742L))
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "editWorld()V", cancellable = true)
+    private void editWorld_1650019875(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1650019875L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "joinWorld()V", cancellable = true)
+    private void joinWorld_1650019875(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1650019875L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "keyPressed(Lnet/minecraft/client/input/KeyEvent;)Z", cancellable = true)
+    private void keyPressed_695109422(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(695109422L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "recreateWorld()V", cancellable = true)
@@ -64,24 +82,6 @@ public class WorldListEntry1611745136Mixin {
     @Inject(at = @At("HEAD"), method = "canInteract()Z", cancellable = true)
     private void canInteract_1650023719(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1650023719L))
-            info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "editWorld()V", cancellable = true)
-    private void editWorld_1650019875(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1650019875L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "joinWorld()V", cancellable = true)
-    private void joinWorld_1650019875(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1650019875L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "mouseClicked(Lnet/minecraft/client/input/MouseButtonEvent;Z)Z", cancellable = true)
-    private void mouseClicked__2913742(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2913742L))
             info.setReturnValue(false);
     }
 

@@ -16,13 +16,13 @@ public class TriggerInstance_1062307286Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__73152690(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-73152690L))
-            info.setReturnValue("B*+)Jv\uCEF2W.&jJmqw-o6T%vk+oTgJe\uA22D1\u262248m(i]%\uCE7Ejw%j]Q\u0A8F\u32C0\u47E7w|jShTWV2\\"");
+            info.setReturnValue("B*+)Jv\uCEF2W.&jJmqw-o6T%vk+oTgJe\uA22D1\u262248m(i]%\uCE7Ejw%j]Q\u0A8F\u32C0\u47E7w|jShTWV2\\");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1100570027(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1100570027L))
-            info.setReturnValue(-501830352);
+            info.setReturnValue(-513920852);
     }
 
     @Inject(at = @At("HEAD"), method = "tick()Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)

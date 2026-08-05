@@ -13,36 +13,6 @@ public class CampfireBlock_1796040696Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "newBlockEntity(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/entity/BlockEntity;", cancellable = true)
-    private void newBlockEntity_210563040(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(210563040L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "placeLiquid(Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/material/FluidState;)Z", cancellable = true)
-    private void placeLiquid_1205824119(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1205824119L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isLitCampfire(Lnet/minecraft/world/level/block/state/BlockState;)Z", cancellable = true)
-    private static void isLitCampfire_1650751957(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1650751957L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "makeParticles(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;ZZ)V", cancellable = true)
-    private static void makeParticles__360043033(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-360043033L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "isSmokeyPos(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;)Z", cancellable = true)
-    private static void isSmokeyPos__1671317269(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1671317269L))
-            info.setReturnValue(true);
-    }
-
     @Inject(at = @At("HEAD"), method = "getTicker(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/entity/BlockEntityType;)Lnet/minecraft/world/level/block/entity/BlockEntityTicker;", cancellable = true)
     private void getTicker__157426648(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-157426648L))
@@ -61,6 +31,24 @@ public class CampfireBlock_1796040696Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "makeParticles(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;ZZ)V", cancellable = true)
+    private static void makeParticles__360043033(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-360043033L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "isSmokeyPos(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;)Z", cancellable = true)
+    private static void isSmokeyPos__1671317269(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1671317269L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isLitCampfire(Lnet/minecraft/world/level/block/state/BlockState;)Z", cancellable = true)
+    private static void isLitCampfire_1650751957(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1650751957L))
+            info.setReturnValue(true);
+    }
+
     @Inject(at = @At("HEAD"), method = "canLight(Lnet/minecraft/world/level/block/state/BlockState;)Z", cancellable = true)
     private static void canLight_1650751957(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1650751957L))
@@ -71,6 +59,18 @@ public class CampfireBlock_1796040696Mixin {
     private static void dowse_541441942(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(541441942L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "newBlockEntity(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/entity/BlockEntity;", cancellable = true)
+    private void newBlockEntity_210563040(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(210563040L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "placeLiquid(Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/material/FluidState;)Z", cancellable = true)
+    private void placeLiquid_1205824119(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1205824119L))
+            info.setReturnValue(true);
     }
 
 

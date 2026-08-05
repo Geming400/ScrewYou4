@@ -22,7 +22,7 @@ public class LoadResult769440234Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_807702976(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(807702976L))
-            info.setReturnValue(-1068708040);
+            info.setReturnValue(-706074640);
     }
 
     @Inject(at = @At("HEAD"), method = "key()Lnet/minecraft/resources/ResourceKey;", cancellable = true)

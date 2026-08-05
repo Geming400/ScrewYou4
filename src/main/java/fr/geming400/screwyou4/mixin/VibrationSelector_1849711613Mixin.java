@@ -13,16 +13,16 @@ public class VibrationSelector_1849711613Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "chosenCandidate(J)Ljava/util/Optional;", cancellable = true)
-    private void chosenCandidate__1667051664(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1667051664L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "addCandidate(Lnet/minecraft/world/level/gameevent/vibrations/VibrationInfo;J)V", cancellable = true)
     private void addCandidate__386367729(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-386367729L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "chosenCandidate(J)Ljava/util/Optional;", cancellable = true)
+    private void chosenCandidate__1667051664(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1667051664L))
+            info.setReturnValue(null);
     }
 
 

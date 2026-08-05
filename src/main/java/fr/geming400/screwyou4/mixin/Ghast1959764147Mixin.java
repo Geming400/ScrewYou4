@@ -7,16 +7,16 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.world.entity.monster.Ghast.class)
 public class Ghast1959764147Mixin {
-        @Inject(at = @At("HEAD"), method = "hurtServer(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/damagesource/DamageSource;F)Z", cancellable = true)
-    private void hurtServer_1510333816(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1510333816L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "travel(Lnet/minecraft/world/phys/Vec3;)V", cancellable = true)
+        @Inject(at = @At("HEAD"), method = "travel(Lnet/minecraft/world/phys/Vec3;)V", cancellable = true)
     private void travel__1967467150(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1967467150L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "hurtServer(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/damagesource/DamageSource;F)Z", cancellable = true)
+    private void hurtServer_1510333816(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1510333816L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "supportQuadLeashAsHolder()Z", cancellable = true)
@@ -40,7 +40,7 @@ public class Ghast1959764147Mixin {
     @Inject(at = @At("HEAD"), method = "createAttributes()Lnet/minecraft/world/entity/ai/attributes/AttributeSupplier$Builder;", cancellable = true)
     private static void createAttributes_1259545702(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1259545702L))
-            info.setReturnValue(new net.minecraft.world.entity.ai.attributes.AttributeSupplier$Builder());
+            info.setReturnValue(new net.minecraft.world.entity.ai.attributes.AttributeSupplier.Builder());
     }
 
     @Inject(at = @At("HEAD"), method = "getSoundSource()Lnet/minecraft/sounds/SoundSource;", cancellable = true)
@@ -49,33 +49,39 @@ public class Ghast1959764147Mixin {
             info.setReturnValue(net.minecraft.sounds.SoundSource.MUSIC);
     }
 
-    @Inject(at = @At("HEAD"), method = "leashSnapDistance()D", cancellable = true)
-    private void leashSnapDistance_1998021588(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1998021588L))
-            info.setReturnValue(7.092279005296029E8D);
-    }
-
     @Inject(at = @At("HEAD"), method = "isCharging()Z", cancellable = true)
     private void isCharging_1998042730(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1998042730L))
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "getMaxSpawnClusterSize()I", cancellable = true)
-    private void getMaxSpawnClusterSize_1998026393(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1998026393L))
-            info.setReturnValue(-204959037);
-    }
-
     @Inject(at = @At("HEAD"), method = "leashElasticDistance()D", cancellable = true)
     private void leashElasticDistance_1998021588(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1998021588L))
-            info.setReturnValue(7.092279005296029E8D);
+            info.setReturnValue(1.6951120052960294E8D);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getMaxSpawnClusterSize()I", cancellable = true)
+    private void getMaxSpawnClusterSize_1998026393(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1998026393L))
+            info.setReturnValue(-744675737);
+    }
+
+    @Inject(at = @At("HEAD"), method = "leashSnapDistance()D", cancellable = true)
+    private void leashSnapDistance_1998021588(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1998021588L))
+            info.setReturnValue(1.6951120052960294E8D);
     }
 
     @Inject(at = @At("HEAD"), method = "setCharging(Z)V", cancellable = true)
     private void setCharging__1105586320(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1105586320L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "faceMovementDirection(Lnet/minecraft/world/entity/Mob;)V", cancellable = true)
+    private static void faceMovementDirection__1831491256(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1831491256L))
             info.cancel();
     }
 
@@ -85,16 +91,10 @@ public class Ghast1959764147Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "faceMovementDirection(Lnet/minecraft/world/entity/Mob;)V", cancellable = true)
-    private static void faceMovementDirection__1831491256(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1831491256L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "getExplosionPower()I", cancellable = true)
     private void getExplosionPower_1998026393(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1998026393L))
-            info.setReturnValue(-204959037);
+            info.setReturnValue(-744675737);
     }
 
 

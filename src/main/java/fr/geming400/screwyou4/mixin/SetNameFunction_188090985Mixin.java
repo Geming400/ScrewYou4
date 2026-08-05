@@ -13,15 +13,15 @@ public class SetNameFunction_188090985Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "setName(Lnet/minecraft/network/chat/Component;Lnet/minecraft/world/level/storage/loot/functions/SetNameFunction$Target;Lnet/minecraft/world/level/storage/loot/LootContext$EntityTarget;)Lnet/minecraft/world/level/storage/loot/functions/LootItemConditionalFunction$Builder;", cancellable = true)
-    private static void setName_1449575640(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1449575640L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "setName(Lnet/minecraft/network/chat/Component;Lnet/minecraft/world/level/storage/loot/functions/SetNameFunction$Target;)Lnet/minecraft/world/level/storage/loot/functions/LootItemConditionalFunction$Builder;", cancellable = true)
     private static void setName_1800255191(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1800255191L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "setName(Lnet/minecraft/network/chat/Component;Lnet/minecraft/world/level/storage/loot/functions/SetNameFunction$Target;Lnet/minecraft/world/level/storage/loot/LootContext$EntityTarget;)Lnet/minecraft/world/level/storage/loot/functions/LootItemConditionalFunction$Builder;", cancellable = true)
+    private static void setName_1449575640(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1449575640L))
             info.setReturnValue(null);
     }
 

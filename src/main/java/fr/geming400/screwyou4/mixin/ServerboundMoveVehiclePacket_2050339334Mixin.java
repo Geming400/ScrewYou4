@@ -28,7 +28,7 @@ public class ServerboundMoveVehiclePacket_2050339334Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2088602075(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2088602075L))
-            info.setReturnValue(2039048082);
+            info.setReturnValue(1930933482);
     }
 
     @Inject(at = @At("HEAD"), method = "position()Lnet/minecraft/world/phys/Vec3;", cancellable = true)
@@ -52,13 +52,13 @@ public class ServerboundMoveVehiclePacket_2050339334Mixin {
     @Inject(at = @At("HEAD"), method = "yRot()F", cancellable = true)
     private void yRot_2088598696(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2088598696L))
-            info.setReturnValue(9.99536E8F);
+            info.setReturnValue(8.914214E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "xRot()F", cancellable = true)
     private void xRot_2088598696(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2088598696L))
-            info.setReturnValue(9.99536E8F);
+            info.setReturnValue(8.914214E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "onGround()Z", cancellable = true)

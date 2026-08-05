@@ -13,6 +13,12 @@ public class BlockColors1672808527Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "getTintSources(Lnet/minecraft/world/level/block/state/BlockState;)Ljava/util/List;", cancellable = true)
+    private void getTintSources__1071098000(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1071098000L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "getTintSource(Lnet/minecraft/world/level/block/state/BlockState;I)Lnet/minecraft/client/color/block/BlockTintSource;", cancellable = true)
     private void getTintSource_1709832782(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1709832782L))
@@ -22,12 +28,6 @@ public class BlockColors1672808527Mixin {
     @Inject(at = @At("HEAD"), method = "getColoringProperties(Lnet/minecraft/world/level/block/Block;)Ljava/util/Set;", cancellable = true)
     private void getColoringProperties__891938375(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-891938375L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getTintSources(Lnet/minecraft/world/level/block/state/BlockState;)Ljava/util/List;", cancellable = true)
-    private void getTintSources__1071098000(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1071098000L))
             info.setReturnValue(null);
     }
 

@@ -22,7 +22,7 @@ public class SingleAxisRotation_1717469443Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1755732184(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1755732184L))
-            info.setReturnValue(-1071199303);
+            info.setReturnValue(-919087103);
     }
 
     @Inject(at = @At("HEAD"), method = "transformation()Lorg/joml/Matrix4f;", cancellable = true)
@@ -34,7 +34,7 @@ public class SingleAxisRotation_1717469443Mixin {
     @Inject(at = @At("HEAD"), method = "angle()F", cancellable = true)
     private void angle_1755728805(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1755728805L))
-            info.setReturnValue(6.91573E7F);
+            info.setReturnValue(2.212695E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "axis()Lnet/minecraft/core/Direction$Axis;", cancellable = true)

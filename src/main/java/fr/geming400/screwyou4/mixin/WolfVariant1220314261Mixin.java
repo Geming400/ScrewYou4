@@ -22,12 +22,12 @@ public class WolfVariant1220314261Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1258577003(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1258577003L))
-            info.setReturnValue(-741881540);
+            info.setReturnValue(-958924540);
     }
 
-    @Inject(at = @At("HEAD"), method = "selectors()Ljava/util/List;", cancellable = true)
-    private void selectors__1448316219(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1448316219L))
+    @Inject(at = @At("HEAD"), method = "spawnConditions()Lnet/minecraft/world/entity/variant/SpawnPrioritySelectors;", cancellable = true)
+    private void spawnConditions_313652415(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(313652415L))
             info.setReturnValue(null);
     }
 
@@ -43,9 +43,9 @@ public class WolfVariant1220314261Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "spawnConditions()Lnet/minecraft/world/entity/variant/SpawnPrioritySelectors;", cancellable = true)
-    private void spawnConditions_313652415(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(313652415L))
+    @Inject(at = @At("HEAD"), method = "selectors()Ljava/util/List;", cancellable = true)
+    private void selectors__1448316219(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1448316219L))
             info.setReturnValue(null);
     }
 

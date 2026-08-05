@@ -22,7 +22,7 @@ public class IntRange1975635250Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2013897992(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2013897992L))
-            info.setReturnValue(666172962);
+            info.setReturnValue(885768162);
     }
 
     @Inject(at = @At("HEAD"), method = "validateValue(Ljava/lang/Object;)Ljava/util/Optional;", cancellable = true)
@@ -46,13 +46,13 @@ public class IntRange1975635250Mixin {
     @Inject(at = @At("HEAD"), method = "minInclusive()I", cancellable = true)
     private void minInclusive_2013897496(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2013897496L))
-            info.setReturnValue(869320381);
+            info.setReturnValue(1088915581);
     }
 
     @Inject(at = @At("HEAD"), method = "maxInclusive()I", cancellable = true)
     private void maxInclusive_2013897496(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2013897496L))
-            info.setReturnValue(869320381);
+            info.setReturnValue(1088915581);
     }
 
     @Inject(at = @At("HEAD"), method = "applyValueImmediately()Z", cancellable = true)

@@ -7,15 +7,27 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.util.filefix.FileFixerUpper.class)
 public class FileFixerUpper_1152417332Mixin {
-        @Inject(at = @At("HEAD"), method = "fix(Lnet/minecraft/world/level/storage/LevelStorageSource$LevelStorageAccess;Lcom/mojang/serialization/Dynamic;Lnet/minecraft/util/worldupdate/UpgradeProgress;)Lcom/mojang/serialization/Dynamic;", cancellable = true)
+        @Inject(at = @At("HEAD"), method = "fix(Lnet/minecraft/world/level/storage/LevelStorageSource$LevelStorageAccess;Lcom/mojang/serialization/Dynamic;Lnet/minecraft/util/worldupdate/UpgradeProgress;I)Lcom/mojang/serialization/Dynamic;", cancellable = true)
+    private void fix_282620546(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(282620546L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "fix(Lnet/minecraft/world/level/storage/LevelStorageSource$LevelStorageAccess;Lcom/mojang/serialization/Dynamic;Lnet/minecraft/util/worldupdate/UpgradeProgress;)Lcom/mojang/serialization/Dynamic;", cancellable = true)
     private void fix_2012227749(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2012227749L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "fix(Lnet/minecraft/world/level/storage/LevelStorageSource$LevelStorageAccess;Lcom/mojang/serialization/Dynamic;Lnet/minecraft/util/worldupdate/UpgradeProgress;I)Lcom/mojang/serialization/Dynamic;", cancellable = true)
-    private void fix_282620546(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(282620546L))
+    @Inject(at = @At("HEAD"), method = "worldVersionToFileFixerVersion(I)I", cancellable = true)
+    private static void worldVersionToFileFixerVersion__1928645238(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1928645238L))
+            info.setReturnValue(1937950594);
+    }
+
+    @Inject(at = @At("HEAD"), method = "detectFileSystemCapabilities(Ljava/nio/file/Path;)Lnet/minecraft/util/filefix/FileSystemCapabilities;", cancellable = true)
+    private static void detectFileSystemCapabilities__1004205218(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1004205218L))
             info.setReturnValue(null);
     }
 
@@ -29,18 +41,6 @@ public class FileFixerUpper_1152417332Mixin {
     private void applyFileFixers_641986872(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(641986872L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "worldVersionToFileFixerVersion(I)I", cancellable = true)
-    private static void worldVersionToFileFixerVersion__1928645238(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1928645238L))
-            info.setReturnValue(-1987347002);
-    }
-
-    @Inject(at = @At("HEAD"), method = "detectFileSystemCapabilities(Ljava/nio/file/Path;)Lnet/minecraft/util/filefix/FileSystemCapabilities;", cancellable = true)
-    private static void detectFileSystemCapabilities__1004205218(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1004205218L))
-            info.setReturnValue(null);
     }
 
 

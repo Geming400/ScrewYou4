@@ -22,7 +22,7 @@ public class SpawnParticlesEffect1877207141Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1915469883(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1915469883L))
-            info.setReturnValue(-147412940);
+            info.setReturnValue(292146660);
     }
 
     @Inject(at = @At("HEAD"), method = "apply(Lnet/minecraft/server/level/ServerLevel;ILnet/minecraft/world/item/enchantment/EnchantedItemInUse;Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/phys/Vec3;)V", cancellable = true)
@@ -49,27 +49,9 @@ public class SpawnParticlesEffect1877207141Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "verticalVelocity()Lnet/minecraft/world/item/enchantment/effects/SpawnParticlesEffect$VelocitySource;", cancellable = true)
-    private void verticalVelocity_849623594(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "horizontalVelocity()Lnet/minecraft/world/item/enchantment/effects/SpawnParticlesEffect$VelocitySource;", cancellable = true)
+    private void horizontalVelocity_849623594(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(849623594L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "movementScaled(F)Lnet/minecraft/world/item/enchantment/effects/SpawnParticlesEffect$VelocitySource;", cancellable = true)
-    private static void movementScaled__1599816724(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1599816724L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "inBoundingBox()Lnet/minecraft/world/item/enchantment/effects/SpawnParticlesEffect$PositionSource;", cancellable = true)
-    private static void inBoundingBox__1220742058(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1220742058L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "fixedVelocity(Lnet/minecraft/util/valueproviders/FloatProvider;)Lnet/minecraft/world/item/enchantment/effects/SpawnParticlesEffect$VelocitySource;", cancellable = true)
-    private static void fixedVelocity__205963533(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-205963533L))
             info.setReturnValue(null);
     }
 
@@ -85,15 +67,33 @@ public class SpawnParticlesEffect1877207141Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "inBoundingBox()Lnet/minecraft/world/item/enchantment/effects/SpawnParticlesEffect$PositionSource;", cancellable = true)
+    private static void inBoundingBox__1220742058(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1220742058L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "fixedVelocity(Lnet/minecraft/util/valueproviders/FloatProvider;)Lnet/minecraft/world/item/enchantment/effects/SpawnParticlesEffect$VelocitySource;", cancellable = true)
+    private static void fixedVelocity__205963533(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-205963533L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "offsetFromEntityPosition(F)Lnet/minecraft/world/item/enchantment/effects/SpawnParticlesEffect$PositionSource;", cancellable = true)
     private static void offsetFromEntityPosition_624784672(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(624784672L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "horizontalVelocity()Lnet/minecraft/world/item/enchantment/effects/SpawnParticlesEffect$VelocitySource;", cancellable = true)
-    private void horizontalVelocity_849623594(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "verticalVelocity()Lnet/minecraft/world/item/enchantment/effects/SpawnParticlesEffect$VelocitySource;", cancellable = true)
+    private void verticalVelocity_849623594(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(849623594L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "movementScaled(F)Lnet/minecraft/world/item/enchantment/effects/SpawnParticlesEffect$VelocitySource;", cancellable = true)
+    private static void movementScaled__1599816724(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1599816724L))
             info.setReturnValue(null);
     }
 

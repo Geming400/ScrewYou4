@@ -22,7 +22,7 @@ public class WorldTypeEntry2144380776Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__2112323778(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2112323778L))
-            info.setReturnValue(-837483915);
+            info.setReturnValue(-347503615);
     }
 
     @Inject(at = @At("HEAD"), method = "preset()Lnet/minecraft/core/Holder;", cancellable = true)

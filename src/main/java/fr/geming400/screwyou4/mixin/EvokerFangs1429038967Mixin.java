@@ -31,6 +31,12 @@ public class EvokerFangs1429038967Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "getAnimationProgress(F)F", cancellable = true)
+    private void getAnimationProgress__1654797296(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1654797296L))
+            info.setReturnValue(8.863514E8F);
+    }
+
     @Inject(at = @At("HEAD"), method = "hurtServer(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/damagesource/DamageSource;F)Z", cancellable = true)
     private void hurtServer_979608636(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(979608636L))
@@ -41,12 +47,6 @@ public class EvokerFangs1429038967Mixin {
     private void handleEntityEvent__1658476004(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1658476004L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "getAnimationProgress(F)F", cancellable = true)
-    private void getAnimationProgress__1654797296(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1654797296L))
-            info.setReturnValue(2.488429E8F);
     }
 
 

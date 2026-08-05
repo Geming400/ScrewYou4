@@ -22,19 +22,19 @@ public class TriggerInstanceKey1066911724Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1105174466(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1105174466L))
-            info.setReturnValue(117175130);
-    }
-
-    @Inject(at = @At("HEAD"), method = "criterion()Ljava/lang/String;", cancellable = true)
-    private void criterion__68548747(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-68548747L))
-            info.setReturnValue("N\uA79BdkO? _$\uBEF9qSzIU\u2A2FK+}5grJ\u614F>f\u4FB2W;fGjkJjI(Z[bQX*,@J\u85F6Nx+g8s|^ZZ\u4285M25b,c?%sFn7;hjM51\u6D69xz!k|Om'\u93E2PNfjln<");
+            info.setReturnValue(40376730);
     }
 
     @Inject(at = @At("HEAD"), method = "advancement()Lnet/minecraft/advancements/AdvancementHolder;", cancellable = true)
     private void advancement__1448414026(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1448414026L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "criterion()Ljava/lang/String;", cancellable = true)
+    private void criterion__68548747(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-68548747L))
+            info.setReturnValue("N\uA79BdkO? _$\uBEF9qSzIU\u2A2FK+}5grJ\u614F>f\u4FB2W;fGjkJjI(Z[bQX*,@J\u85F6Nx+g8s|^ZZ\u4285M25b,c?%sFn7;hjM51\u6D69xz!k|Om'\u93E2PNfjln<");
     }
 
 

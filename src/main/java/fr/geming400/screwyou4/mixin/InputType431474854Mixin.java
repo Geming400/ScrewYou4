@@ -19,14 +19,14 @@ public class InputType431474854Mixin {
             info.setReturnValue(net.minecraft.client.InputType.KEYBOARD_ARROW);
     }
 
-    @Inject(at = @At("HEAD"), method = "isKeyboard()Z", cancellable = true)
-    private void isKeyboard_469753437(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "isMouse()Z", cancellable = true)
+    private void isMouse_469753437(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(469753437L))
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "isMouse()Z", cancellable = true)
-    private void isMouse_469753437(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "isKeyboard()Z", cancellable = true)
+    private void isKeyboard_469753437(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(469753437L))
             info.setReturnValue(true);
     }

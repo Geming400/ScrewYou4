@@ -22,7 +22,7 @@ public class RegistryData442720475Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_480983217(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(480983217L))
-            info.setReturnValue(118805339);
+            info.setReturnValue(399792839);
     }
 
     @Inject(at = @At("HEAD"), method = "key()Lnet/minecraft/resources/ResourceKey;", cancellable = true)

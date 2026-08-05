@@ -22,7 +22,7 @@ public class CacheableFunction_1311052186Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1349314431(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1349314431L))
-            info.setReturnValue(2146425962);
+            info.setReturnValue(-1752368434);
     }
 
     @Inject(at = @At("HEAD"), method = "getId()Lnet/minecraft/resources/Identifier;", cancellable = true)

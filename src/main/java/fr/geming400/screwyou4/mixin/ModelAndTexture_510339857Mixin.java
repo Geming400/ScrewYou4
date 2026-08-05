@@ -22,7 +22,7 @@ public class ModelAndTexture_510339857Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_548602598(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(548602598L))
-            info.setReturnValue(-1786362215);
+            info.setReturnValue(-1688792915);
     }
 
     @Inject(at = @At("HEAD"), method = "model()Ljava/lang/Object;", cancellable = true)

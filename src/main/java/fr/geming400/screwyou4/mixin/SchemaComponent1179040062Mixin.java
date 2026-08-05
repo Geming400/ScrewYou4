@@ -28,7 +28,7 @@ public class SchemaComponent1179040062Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1217302804(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1217302804L))
-            info.setReturnValue(-1770922717);
+            info.setReturnValue(1872157879);
     }
 
     @Inject(at = @At("HEAD"), method = "ref()Ljava/net/URI;", cancellable = true)
@@ -43,14 +43,14 @@ public class SchemaComponent1179040062Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "schema()Lnet/minecraft/server/jsonrpc/api/Schema;", cancellable = true)
-    private void schema__824257726(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "asRef()Lnet/minecraft/server/jsonrpc/api/Schema;", cancellable = true)
+    private void asRef__824257726(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-824257726L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "asRef()Lnet/minecraft/server/jsonrpc/api/Schema;", cancellable = true)
-    private void asRef__824257726(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "schema()Lnet/minecraft/server/jsonrpc/api/Schema;", cancellable = true)
+    private void schema__824257726(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-824257726L))
             info.setReturnValue(null);
     }

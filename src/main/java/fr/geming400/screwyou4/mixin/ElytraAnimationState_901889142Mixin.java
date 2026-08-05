@@ -13,22 +13,22 @@ public class ElytraAnimationState_901889142Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getRotZ(F)F", cancellable = true)
-    private void getRotZ_2113020174(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2113020174L))
-            info.setReturnValue(5.515143E8F);
-    }
-
     @Inject(at = @At("HEAD"), method = "getRotY(F)F", cancellable = true)
     private void getRotY_2113020174(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2113020174L))
-            info.setReturnValue(5.515143E8F);
+            info.setReturnValue(9.870432E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "getRotX(F)F", cancellable = true)
     private void getRotX_2113020174(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2113020174L))
-            info.setReturnValue(5.515143E8F);
+            info.setReturnValue(9.870432E8F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getRotZ(F)F", cancellable = true)
+    private void getRotZ_2113020174(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2113020174L))
+            info.setReturnValue(9.870432E8F);
     }
 
 

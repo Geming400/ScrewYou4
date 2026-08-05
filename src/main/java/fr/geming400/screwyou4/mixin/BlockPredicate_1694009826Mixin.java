@@ -22,7 +22,7 @@ public class BlockPredicate_1694009826Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1732272567(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1732272567L))
-            info.setReturnValue(-768859253);
+            info.setReturnValue(-885357553);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;)Z", cancellable = true)

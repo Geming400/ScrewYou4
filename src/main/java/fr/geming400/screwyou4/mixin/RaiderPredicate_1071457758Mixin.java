@@ -22,7 +22,7 @@ public class RaiderPredicate_1071457758Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1109720499(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1109720499L))
-            info.setReturnValue(-919344771);
+            info.setReturnValue(-506227071);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/phys/Vec3;)Z", cancellable = true)

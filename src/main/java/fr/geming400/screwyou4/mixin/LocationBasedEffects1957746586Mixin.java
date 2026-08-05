@@ -22,7 +22,7 @@ public class LocationBasedEffects1957746586Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1996009328(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1996009328L))
-            info.setReturnValue(549904419);
+            info.setReturnValue(673173719);
     }
 
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
@@ -31,10 +31,10 @@ public class LocationBasedEffects1957746586Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "effects()Ljava/util/List;", cancellable = true)
-    private void effects__710883894(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-710883894L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "onDeactivated(Lnet/minecraft/world/item/enchantment/EnchantedItemInUse;Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/phys/Vec3;I)V", cancellable = true)
+    private void onDeactivated_731039510(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(731039510L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "onChangedBlock(Lnet/minecraft/server/level/ServerLevel;ILnet/minecraft/world/item/enchantment/EnchantedItemInUse;Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/phys/Vec3;Z)V", cancellable = true)
@@ -43,10 +43,10 @@ public class LocationBasedEffects1957746586Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "onDeactivated(Lnet/minecraft/world/item/enchantment/EnchantedItemInUse;Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/phys/Vec3;I)V", cancellable = true)
-    private void onDeactivated_731039510(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(731039510L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "effects()Ljava/util/List;", cancellable = true)
+    private void effects__710883894(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-710883894L))
+            info.setReturnValue(null);
     }
 
 

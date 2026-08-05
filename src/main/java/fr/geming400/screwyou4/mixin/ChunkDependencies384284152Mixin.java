@@ -10,7 +10,7 @@ public class ChunkDependencies384284152Mixin {
         @Inject(at = @At("HEAD"), method = "size()I", cancellable = true)
     private void size_422546398(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(422546398L))
-            info.setReturnValue(-4639920);
+            info.setReturnValue(-53850020);
     }
 
     @Inject(at = @At("HEAD"), method = "get(I)Lnet/minecraft/world/level/chunk/status/ChunkStatus;", cancellable = true)
@@ -34,13 +34,13 @@ public class ChunkDependencies384284152Mixin {
     @Inject(at = @At("HEAD"), method = "getRadius()I", cancellable = true)
     private void getRadius_422546398(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(422546398L))
-            info.setReturnValue(-4639920);
+            info.setReturnValue(-53850020);
     }
 
     @Inject(at = @At("HEAD"), method = "getRadiusOf(Lnet/minecraft/world/level/chunk/status/ChunkStatus;)I", cancellable = true)
     private void getRadiusOf__932334643(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-932334643L))
-            info.setReturnValue(1196403975);
+            info.setReturnValue(1147193875);
     }
 
 

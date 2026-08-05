@@ -22,13 +22,7 @@ public class TooltipDisplay_1326540643Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1364803384(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1364803384L))
-            info.setReturnValue(-1554824349);
-    }
-
-    @Inject(at = @At("HEAD"), method = "shows(Lnet/minecraft/core/component/DataComponentType;)Z", cancellable = true)
-    private void shows_1967957097(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1967957097L))
-            info.setReturnValue(true);
+            info.setReturnValue(-1521042149);
     }
 
     @Inject(at = @At("HEAD"), method = "hiddenComponents()Ljava/util/SequencedSet;", cancellable = true)
@@ -47,6 +41,12 @@ public class TooltipDisplay_1326540643Mixin {
     private void withHidden__1632875548(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1632875548L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "shows(Lnet/minecraft/core/component/DataComponentType;)Z", cancellable = true)
+    private void shows_1967957097(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1967957097L))
+            info.setReturnValue(true);
     }
 
 

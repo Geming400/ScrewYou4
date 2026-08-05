@@ -43,16 +43,16 @@ public class SynchedEntityData1710814699Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getNonDefaultValues()Ljava/util/List;", cancellable = true)
-    private void getNonDefaultValues__957815781(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-957815781L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "assignValues(Ljava/util/List;)V", cancellable = true)
     private void assignValues_931596111(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(931596111L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getNonDefaultValues()Ljava/util/List;", cancellable = true)
+    private void getNonDefaultValues__957815781(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-957815781L))
+            info.setReturnValue(null);
     }
 
 

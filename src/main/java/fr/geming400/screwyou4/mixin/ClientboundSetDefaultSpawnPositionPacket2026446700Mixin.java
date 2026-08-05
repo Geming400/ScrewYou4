@@ -28,7 +28,7 @@ public class ClientboundSetDefaultSpawnPositionPacket2026446700Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2064709442(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2064709442L))
-            info.setReturnValue(662109563);
+            info.setReturnValue(558407063);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/PacketListener;)V", cancellable = true)

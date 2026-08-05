@@ -19,10 +19,10 @@ public class SpectatorMenu1196315936Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getItems()Ljava/util/List;", cancellable = true)
-    private void getItems__1472314544(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1472314544L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "getSelectedSlot()I", cancellable = true)
+    private void getSelectedSlot_1234578182(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1234578182L))
+            info.setReturnValue(1226021023);
     }
 
     @Inject(at = @At("HEAD"), method = "getSelectedItem()Lnet/minecraft/client/gui/spectator/SpectatorMenuItem;", cancellable = true)
@@ -31,22 +31,16 @@ public class SpectatorMenu1196315936Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getSelectedSlot()I", cancellable = true)
-    private void getSelectedSlot_1234578182(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1234578182L))
-            info.setReturnValue(1468832223);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getCurrentPage()Lnet/minecraft/client/gui/spectator/categories/SpectatorPage;", cancellable = true)
-    private void getCurrentPage__316105803(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-316105803L))
+    @Inject(at = @At("HEAD"), method = "getItems()Ljava/util/List;", cancellable = true)
+    private void getItems__1472314544(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1472314544L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getSelectedCategory()Lnet/minecraft/client/gui/spectator/SpectatorMenuCategory;", cancellable = true)
-    private void getSelectedCategory_1216887110(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1216887110L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "selectSlot(I)V", cancellable = true)
+    private void selectSlot__1884734388(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1884734388L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "selectCategory(Lnet/minecraft/client/gui/spectator/SpectatorMenuCategory;)V", cancellable = true)
@@ -55,10 +49,16 @@ public class SpectatorMenu1196315936Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "selectSlot(I)V", cancellable = true)
-    private void selectSlot__1884734388(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1884734388L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "getSelectedCategory()Lnet/minecraft/client/gui/spectator/SpectatorMenuCategory;", cancellable = true)
+    private void getSelectedCategory_1216887110(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1216887110L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getCurrentPage()Lnet/minecraft/client/gui/spectator/categories/SpectatorPage;", cancellable = true)
+    private void getCurrentPage__316105803(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-316105803L))
+            info.setReturnValue(null);
     }
 
 

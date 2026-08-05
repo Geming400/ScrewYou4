@@ -55,6 +55,18 @@ public class ComponentUtils_1235954290Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "fromMessage(Lcom/mojang/brigadier/Message;)Lnet/minecraft/network/chat/Component;", cancellable = true)
+    private static void fromMessage__1475631429(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1475631429L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isTranslationResolvable(Lnet/minecraft/network/chat/Component;)Z", cancellable = true)
+    private static void isTranslationResolvable__665220556(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-665220556L))
+            info.setReturnValue(false);
+    }
+
     @Inject(at = @At("HEAD"), method = "mergeStyles(Lnet/minecraft/network/chat/Component;Lnet/minecraft/network/chat/Style;)Lnet/minecraft/network/chat/Component;", cancellable = true)
     private static void mergeStyles__1818797944(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1818797944L))
@@ -67,9 +79,9 @@ public class ComponentUtils_1235954290Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "fromMessage(Lcom/mojang/brigadier/Message;)Lnet/minecraft/network/chat/Component;", cancellable = true)
-    private static void fromMessage__1475631429(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1475631429L))
+    @Inject(at = @At("HEAD"), method = "formatAndSortList(Ljava/util/Collection;Ljava/util/function/Function;)Lnet/minecraft/network/chat/Component;", cancellable = true)
+    private static void formatAndSortList_401079653(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(401079653L))
             info.setReturnValue(null);
     }
 
@@ -79,21 +91,9 @@ public class ComponentUtils_1235954290Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "isTranslationResolvable(Lnet/minecraft/network/chat/Component;)Z", cancellable = true)
-    private static void isTranslationResolvable__665220556(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-665220556L))
-            info.setReturnValue(false);
-    }
-
     @Inject(at = @At("HEAD"), method = "copyOnClickText(Ljava/lang/String;)Lnet/minecraft/network/chat/MutableComponent;", cancellable = true)
     private static void copyOnClickText_1054418430(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1054418430L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "formatAndSortList(Ljava/util/Collection;Ljava/util/function/Function;)Lnet/minecraft/network/chat/Component;", cancellable = true)
-    private static void formatAndSortList_401079653(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(401079653L))
             info.setReturnValue(null);
     }
 

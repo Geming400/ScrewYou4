@@ -22,13 +22,13 @@ public class ChunkPalettedStorageFix1728616482Mixin {
     @Inject(at = @At("HEAD"), method = "idFor(Lnet/minecraft/util/CrudeIncrementalIntIdentityHashBiMap;Lcom/mojang/serialization/Dynamic;)I", cancellable = true)
     private static void idFor__297475377(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-297475377L))
-            info.setReturnValue(-1914474689);
+            info.setReturnValue(1848505507);
     }
 
     @Inject(at = @At("HEAD"), method = "getSideMask(ZZZZ)I", cancellable = true)
     private static void getSideMask_1316036992(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1316036992L))
-            info.setReturnValue(827599741);
+            info.setReturnValue(295612641);
     }
 
     @Inject(at = @At("HEAD"), method = "makeRule()Lcom/mojang/datafixers/TypeRewriteRule;", cancellable = true)

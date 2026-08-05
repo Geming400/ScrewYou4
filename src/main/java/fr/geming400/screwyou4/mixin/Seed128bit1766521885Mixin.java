@@ -22,7 +22,7 @@ public class Seed128bit1766521885Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1804784627(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1804784627L))
-            info.setReturnValue(-193268324);
+            info.setReturnValue(651281176);
     }
 
     @Inject(at = @At("HEAD"), method = "xor(JJ)Lnet/minecraft/world/level/levelgen/RandomSupport$Seed128bit;", cancellable = true)
@@ -40,13 +40,13 @@ public class Seed128bit1766521885Mixin {
     @Inject(at = @At("HEAD"), method = "seedHi()J", cancellable = true)
     private void seedHi_1804785092(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1804785092L))
-            info.setReturnValue(-1806270070196535455L);
+            info.setReturnValue(-1806270069351985955L);
     }
 
     @Inject(at = @At("HEAD"), method = "seedLo()J", cancellable = true)
     private void seedLo_1804785092(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1804785092L))
-            info.setReturnValue(-1806270070196535455L);
+            info.setReturnValue(-1806270069351985955L);
     }
 
     @Inject(at = @At("HEAD"), method = "mixed()Lnet/minecraft/world/level/levelgen/RandomSupport$Seed128bit;", cancellable = true)

@@ -10,7 +10,7 @@ public class SignedMessageLink_1177878457Mixin {
         @Inject(at = @At("HEAD"), method = "index()I", cancellable = true)
     private void index_1216140702(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1216140702L))
-            info.setReturnValue(-341767950);
+            info.setReturnValue(-343721350);
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
@@ -28,7 +28,7 @@ public class SignedMessageLink_1177878457Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1216141198(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1216141198L))
-            info.setReturnValue(-544915369);
+            info.setReturnValue(-546868769);
     }
 
     @Inject(at = @At("HEAD"), method = "root(Ljava/util/UUID;Ljava/util/UUID;)Lnet/minecraft/network/chat/SignedMessageLink;", cancellable = true)

@@ -22,18 +22,18 @@ public class PositionMoveRotation2096583124Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2134845866(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2134845866L))
-            info.setReturnValue(542815100);
-    }
-
-    @Inject(at = @At("HEAD"), method = "of(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/world/entity/PositionMoveRotation;", cancellable = true)
-    private static void of_675964342(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(675964342L))
-            info.setReturnValue(null);
+            info.setReturnValue(75723900);
     }
 
     @Inject(at = @At("HEAD"), method = "of(Lnet/minecraft/world/level/portal/TeleportTransition;)Lnet/minecraft/world/entity/PositionMoveRotation;", cancellable = true)
     private static void of__1951844595(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1951844595L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "of(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/world/entity/PositionMoveRotation;", cancellable = true)
+    private static void of_675964342(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(675964342L))
             info.setReturnValue(null);
     }
 
@@ -46,18 +46,18 @@ public class PositionMoveRotation2096583124Mixin {
     @Inject(at = @At("HEAD"), method = "yRot()F", cancellable = true)
     private void yRot_2134842487(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2134842487L))
-            info.setReturnValue(5.743171E8F);
+            info.setReturnValue(1.072259E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "xRot()F", cancellable = true)
     private void xRot_2134842487(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2134842487L))
-            info.setReturnValue(5.743171E8F);
+            info.setReturnValue(1.072259E8F);
     }
 
-    @Inject(at = @At("HEAD"), method = "withRotation(FF)Lnet/minecraft/world/entity/PositionMoveRotation;", cancellable = true)
-    private void withRotation_1203791269(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1203791269L))
+    @Inject(at = @At("HEAD"), method = "deltaMovement()Lnet/minecraft/world/phys/Vec3;", cancellable = true)
+    private void deltaMovement__1100654643(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1100654643L))
             info.setReturnValue(null);
     }
 
@@ -67,9 +67,9 @@ public class PositionMoveRotation2096583124Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "deltaMovement()Lnet/minecraft/world/phys/Vec3;", cancellable = true)
-    private void deltaMovement__1100654643(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1100654643L))
+    @Inject(at = @At("HEAD"), method = "withRotation(FF)Lnet/minecraft/world/entity/PositionMoveRotation;", cancellable = true)
+    private void withRotation_1203791269(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1203791269L))
             info.setReturnValue(null);
     }
 

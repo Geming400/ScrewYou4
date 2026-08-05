@@ -13,6 +13,12 @@ public class TutorialToast1017815419Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/client/gui/GuiGraphicsExtractor;Lnet/minecraft/client/gui/Font;J)V", cancellable = true)
+    private void extractRenderState__1273075079(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1273075079L))
+            info.cancel();
+    }
+
     @Inject(at = @At("HEAD"), method = "hide()V", cancellable = true)
     private void hide_1056090158(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1056090158L))
@@ -22,13 +28,7 @@ public class TutorialToast1017815419Mixin {
     @Inject(at = @At("HEAD"), method = "height()I", cancellable = true)
     private void height_1056077665(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1056077665L))
-            info.setReturnValue(1554413492);
-    }
-
-    @Inject(at = @At("HEAD"), method = "updateProgress(F)V", cancellable = true)
-    private void updateProgress__2066005468(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-2066005468L))
-            info.cancel();
+            info.setReturnValue(1200453892);
     }
 
     @Inject(at = @At("HEAD"), method = "getWantedVisibility()Lnet/minecraft/client/gui/components/toasts/Toast$Visibility;", cancellable = true)
@@ -37,9 +37,9 @@ public class TutorialToast1017815419Mixin {
             info.setReturnValue(net.minecraft.client.gui.components.toasts.Toast.Visibility.SHOW);
     }
 
-    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/client/gui/GuiGraphicsExtractor;Lnet/minecraft/client/gui/Font;J)V", cancellable = true)
-    private void extractRenderState__1273075079(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1273075079L))
+    @Inject(at = @At("HEAD"), method = "updateProgress(F)V", cancellable = true)
+    private void updateProgress__2066005468(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-2066005468L))
             info.cancel();
     }
 

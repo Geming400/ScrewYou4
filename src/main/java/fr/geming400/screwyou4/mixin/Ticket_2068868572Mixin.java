@@ -40,7 +40,7 @@ public class Ticket_2068868572Mixin {
     @Inject(at = @At("HEAD"), method = "getTicketLevel()I", cancellable = true)
     private void getTicketLevel_2107130817(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2107130817L))
-            info.setReturnValue(1071221383);
+            info.setReturnValue(1392326083);
     }
 
 

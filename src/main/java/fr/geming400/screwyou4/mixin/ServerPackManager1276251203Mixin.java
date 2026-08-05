@@ -19,8 +19,8 @@ public class ServerPackManager1276251203Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "rejectServerPacks()V", cancellable = true)
-    private void rejectServerPacks_1314525942(CallbackInfo info) {
+    @Inject(at = @At("HEAD"), method = "allowServerPacks()V", cancellable = true)
+    private void allowServerPacks_1314525942(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1314525942L))
             info.cancel();
     }
@@ -31,15 +31,15 @@ public class ServerPackManager1276251203Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "allowServerPacks()V", cancellable = true)
-    private void allowServerPacks_1314525942(CallbackInfo info) {
+    @Inject(at = @At("HEAD"), method = "rejectServerPacks()V", cancellable = true)
+    private void rejectServerPacks_1314525942(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1314525942L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "pushLocalPack(Ljava/util/UUID;Ljava/nio/file/Path;)V", cancellable = true)
-    private void pushLocalPack__1360251863(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1360251863L))
+    @Inject(at = @At("HEAD"), method = "popPack(Ljava/util/UUID;)V", cancellable = true)
+    private void popPack_918695114(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(918695114L))
             info.cancel();
     }
 
@@ -49,9 +49,9 @@ public class ServerPackManager1276251203Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "popPack(Ljava/util/UUID;)V", cancellable = true)
-    private void popPack_918695114(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(918695114L))
+    @Inject(at = @At("HEAD"), method = "pushLocalPack(Ljava/util/UUID;Ljava/nio/file/Path;)V", cancellable = true)
+    private void pushLocalPack__1360251863(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1360251863L))
             info.cancel();
     }
 

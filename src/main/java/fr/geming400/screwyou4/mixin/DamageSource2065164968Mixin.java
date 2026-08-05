@@ -25,16 +25,16 @@ public class DamageSource2065164968Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "is(Lnet/minecraft/tags/TagKey;)Z", cancellable = true)
-    private void is__555057521(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-555057521L))
-            info.setReturnValue(false);
-    }
-
     @Inject(at = @At("HEAD"), method = "is(Lnet/minecraft/resources/ResourceKey;)Z", cancellable = true)
     private void is__2042129181(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2042129181L))
             info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "is(Lnet/minecraft/tags/TagKey;)Z", cancellable = true)
+    private void is__555057521(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-555057521L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "getEntity()Lnet/minecraft/world/entity/Entity;", cancellable = true)
@@ -43,15 +43,15 @@ public class DamageSource2065164968Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "typeHolder()Lnet/minecraft/core/Holder;", cancellable = true)
-    private void typeHolder__680926556(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-680926556L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getLocalizedDeathMessage(Lnet/minecraft/world/entity/LivingEntity;)Lnet/minecraft/network/chat/Component;", cancellable = true)
     private void getLocalizedDeathMessage__579817845(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-579817845L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "typeHolder()Lnet/minecraft/core/Holder;", cancellable = true)
+    private void typeHolder__680926556(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-680926556L))
             info.setReturnValue(null);
     }
 
@@ -67,27 +67,27 @@ public class DamageSource2065164968Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getFoodExhaustion()F", cancellable = true)
-    private void getFoodExhaustion_2103424331(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2103424331L))
-            info.setReturnValue(3.999972E8F);
-    }
-
     @Inject(at = @At("HEAD"), method = "scalesWithDifficulty()Z", cancellable = true)
     private void scalesWithDifficulty_2103443551(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2103443551L))
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "getDirectEntity()Lnet/minecraft/world/entity/Entity;", cancellable = true)
-    private void getDirectEntity__400913874(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-400913874L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "getFoodExhaustion()F", cancellable = true)
+    private void getFoodExhaustion_2103424331(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2103424331L))
+            info.setReturnValue(9.530064E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "getSourcePosition()Lnet/minecraft/world/phys/Vec3;", cancellable = true)
     private void getSourcePosition__1132072799(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1132072799L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getDirectEntity()Lnet/minecraft/world/entity/Entity;", cancellable = true)
+    private void getDirectEntity__400913874(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-400913874L))
             info.setReturnValue(null);
     }
 

@@ -19,18 +19,6 @@ public class GoalSelector1113497544Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "removeAllGoals(Ljava/util/function/Predicate;)V", cancellable = true)
-    private void removeAllGoals_1183854090(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1183854090L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "setControlFlag(Lnet/minecraft/world/entity/ai/goal/Goal$Flag;Z)V", cancellable = true)
-    private void setControlFlag__1332719261(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1332719261L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "getAvailableGoals()Ljava/util/Set;", cancellable = true)
     private void getAvailableGoals__715537942(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-715537942L))
@@ -40,6 +28,18 @@ public class GoalSelector1113497544Mixin {
     @Inject(at = @At("HEAD"), method = "enableControlFlag(Lnet/minecraft/world/entity/ai/goal/Goal$Flag;)V", cancellable = true)
     private void enableControlFlag_1587386333(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1587386333L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "setControlFlag(Lnet/minecraft/world/entity/ai/goal/Goal$Flag;Z)V", cancellable = true)
+    private void setControlFlag__1332719261(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1332719261L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "removeAllGoals(Ljava/util/function/Predicate;)V", cancellable = true)
+    private void removeAllGoals_1183854090(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1183854090L))
             info.cancel();
     }
 

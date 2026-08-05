@@ -22,13 +22,31 @@ public class FeatureFrameContext1332086522Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1370349264(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1370349264L))
-            info.setReturnValue(-993018042);
+            info.setReturnValue(-642741442);
     }
 
     @Inject(at = @At("HEAD"), method = "options()Lnet/minecraft/client/renderer/state/OptionsRenderState;", cancellable = true)
     private void options_1706490033(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1706490033L))
             info.setReturnValue(new net.minecraft.client.renderer.state.OptionsRenderState());
+    }
+
+    @Inject(at = @At("HEAD"), method = "atlasManager()Lnet/minecraft/client/resources/model/sprite/AtlasManager;", cancellable = true)
+    private void atlasManager_636323868(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(636323868L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "blockColors()Lnet/minecraft/client/color/block/BlockColors;", cancellable = true)
+    private void blockColors_1246764329(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1246764329L))
+            info.setReturnValue(new net.minecraft.client.color.block.BlockColors());
+    }
+
+    @Inject(at = @At("HEAD"), method = "textureManager()Lnet/minecraft/client/renderer/texture/TextureManager;", cancellable = true)
+    private void textureManager__1789250842(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1789250842L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "font()Lnet/minecraft/client/gui/Font;", cancellable = true)
@@ -43,33 +61,15 @@ public class FeatureFrameContext1332086522Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "stagedVertexBuffer()Lnet/minecraft/client/renderer/StagedVertexBuffer;", cancellable = true)
-    private void stagedVertexBuffer_962159394(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(962159394L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "blockStateModelSet()Lnet/minecraft/client/renderer/block/BlockStateModelSet;", cancellable = true)
     private void blockStateModelSet__1141331411(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1141331411L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "textureManager()Lnet/minecraft/client/renderer/texture/TextureManager;", cancellable = true)
-    private void textureManager__1789250842(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1789250842L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "blockColors()Lnet/minecraft/client/color/block/BlockColors;", cancellable = true)
-    private void blockColors_1246764329(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1246764329L))
-            info.setReturnValue(new net.minecraft.client.color.block.BlockColors());
-    }
-
-    @Inject(at = @At("HEAD"), method = "atlasManager()Lnet/minecraft/client/resources/model/sprite/AtlasManager;", cancellable = true)
-    private void atlasManager_636323868(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(636323868L))
+    @Inject(at = @At("HEAD"), method = "stagedVertexBuffer()Lnet/minecraft/client/renderer/StagedVertexBuffer;", cancellable = true)
+    private void stagedVertexBuffer_962159394(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(962159394L))
             info.setReturnValue(null);
     }
 

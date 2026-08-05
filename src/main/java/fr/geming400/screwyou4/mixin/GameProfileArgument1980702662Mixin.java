@@ -37,12 +37,6 @@ public class GameProfileArgument1980702662Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "gameProfile()Lnet/minecraft/commands/arguments/GameProfileArgument;", cancellable = true)
-    private static void gameProfile_1780944772(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1780944772L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "listSuggestions(Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
     private void listSuggestions__2073341192(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2073341192L))
@@ -52,6 +46,12 @@ public class GameProfileArgument1980702662Mixin {
     @Inject(at = @At("HEAD"), method = "getExamples()Ljava/util/Collection;", cancellable = true)
     private void getExamples_167054390(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(167054390L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "gameProfile()Lnet/minecraft/commands/arguments/GameProfileArgument;", cancellable = true)
+    private static void gameProfile_1780944772(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1780944772L))
             info.setReturnValue(null);
     }
 

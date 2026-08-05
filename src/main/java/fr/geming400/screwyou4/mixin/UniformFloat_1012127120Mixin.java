@@ -22,19 +22,19 @@ public class UniformFloat_1012127120Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1050389861(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1050389861L))
-            info.setReturnValue(1138663204);
+            info.setReturnValue(654217804);
     }
 
     @Inject(at = @At("HEAD"), method = "min()F", cancellable = true)
     private void min_1050386482(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1050386482L))
-            info.setReturnValue(5.620868E8F);
+            info.setReturnValue(7.76414E7F);
     }
 
     @Inject(at = @At("HEAD"), method = "max()F", cancellable = true)
     private void max_1050386482(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1050386482L))
-            info.setReturnValue(5.620868E8F);
+            info.setReturnValue(7.76414E7F);
     }
 
     @Inject(at = @At("HEAD"), method = "of(FF)Lnet/minecraft/util/valueproviders/UniformFloat;", cancellable = true)
@@ -52,7 +52,7 @@ public class UniformFloat_1012127120Mixin {
     @Inject(at = @At("HEAD"), method = "sample(Lnet/minecraft/util/RandomSource;)F", cancellable = true)
     private void sample__694903342(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-694903342L))
-            info.setReturnValue(5.620868E8F);
+            info.setReturnValue(7.76414E7F);
     }
 
 

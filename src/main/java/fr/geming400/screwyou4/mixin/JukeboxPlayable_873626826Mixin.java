@@ -22,7 +22,7 @@ public class JukeboxPlayable_873626826Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_911889567(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(911889567L))
-            info.setReturnValue(-494258485);
+            info.setReturnValue(-138986785);
     }
 
     @Inject(at = @At("HEAD"), method = "song()Lnet/minecraft/core/Holder;", cancellable = true)

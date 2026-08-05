@@ -22,7 +22,7 @@ public class PlayerSkin1317238144Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1355500886(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1355500886L))
-            info.setReturnValue(97468314);
+            info.setReturnValue(-111394386);
     }
 
     @Inject(at = @At("HEAD"), method = "with(Lnet/minecraft/world/entity/player/PlayerSkin$Patch;)Lnet/minecraft/world/entity/player/PlayerSkin;", cancellable = true)
@@ -55,15 +55,15 @@ public class PlayerSkin1317238144Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "insecure(Lnet/minecraft/core/ClientAsset$Texture;Lnet/minecraft/core/ClientAsset$Texture;Lnet/minecraft/core/ClientAsset$Texture;Lnet/minecraft/world/entity/player/PlayerModelType;)Lnet/minecraft/world/entity/player/PlayerSkin;", cancellable = true)
-    private static void insecure_980890650(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(980890650L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "cape()Lnet/minecraft/core/ClientAsset$Texture;", cancellable = true)
     private void cape__2063156754(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2063156754L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "insecure(Lnet/minecraft/core/ClientAsset$Texture;Lnet/minecraft/core/ClientAsset$Texture;Lnet/minecraft/core/ClientAsset$Texture;Lnet/minecraft/world/entity/player/PlayerModelType;)Lnet/minecraft/world/entity/player/PlayerSkin;", cancellable = true)
+    private static void insecure_980890650(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(980890650L))
             info.setReturnValue(null);
     }
 

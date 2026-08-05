@@ -28,7 +28,7 @@ public class Entry_631737525Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_670000266(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(670000266L))
-            info.setReturnValue(-1911430274);
+            info.setReturnValue(-1159080474);
     }
 
     @Inject(at = @At("HEAD"), method = "displayName()Lnet/minecraft/network/chat/Component;", cancellable = true)
@@ -40,13 +40,31 @@ public class Entry_631737525Mixin {
     @Inject(at = @At("HEAD"), method = "latency()I", cancellable = true)
     private void latency_669999770(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(669999770L))
-            info.setReturnValue(-1708282855);
+            info.setReturnValue(-955933055);
     }
 
     @Inject(at = @At("HEAD"), method = "gameMode()Lnet/minecraft/world/level/GameType;", cancellable = true)
     private void gameMode__763708774(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-763708774L))
             info.setReturnValue(net.minecraft.world.level.GameType.CREATIVE);
+    }
+
+    @Inject(at = @At("HEAD"), method = "listed()Z", cancellable = true)
+    private void listed_670016107(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(670016107L))
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "listOrder()I", cancellable = true)
+    private void listOrder_669999770(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(669999770L))
+            info.setReturnValue(-955933055);
+    }
+
+    @Inject(at = @At("HEAD"), method = "showHat()Z", cancellable = true)
+    private void showHat_670016107(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(670016107L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "chatSession()Lnet/minecraft/network/chat/RemoteChatSession$Data;", cancellable = true)
@@ -59,24 +77,6 @@ public class Entry_631737525Mixin {
     private void profileId_1042872007(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1042872007L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "showHat()Z", cancellable = true)
-    private void showHat_670016107(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(670016107L))
-            info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "listOrder()I", cancellable = true)
-    private void listOrder_669999770(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(669999770L))
-            info.setReturnValue(-1708282855);
-    }
-
-    @Inject(at = @At("HEAD"), method = "listed()Z", cancellable = true)
-    private void listed_670016107(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(670016107L))
-            info.setReturnValue(false);
     }
 
 

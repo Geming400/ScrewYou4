@@ -19,16 +19,16 @@ public class Lightmap1798484940Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getBrightness(Lnet/minecraft/world/level/dimension/DimensionType;I)F", cancellable = true)
-    private static void getBrightness__1933723932(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1933723932L))
-            info.setReturnValue(2.156025E8F);
-    }
-
     @Inject(at = @At("HEAD"), method = "getTextureView()Lcom/mojang/blaze3d/textures/GpuTextureView;", cancellable = true)
     private void getTextureView__602129670(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-602129670L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getBrightness(Lnet/minecraft/world/level/dimension/DimensionType;I)F", cancellable = true)
+    private static void getBrightness__1933723932(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1933723932L))
+            info.setReturnValue(2.974676E8F);
     }
 
 

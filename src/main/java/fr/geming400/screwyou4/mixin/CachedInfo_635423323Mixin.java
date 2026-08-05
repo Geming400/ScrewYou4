@@ -22,7 +22,7 @@ public class CachedInfo_635423323Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_673686064(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(673686064L))
-            info.setReturnValue(-1551675565);
+            info.setReturnValue(-1853147565);
     }
 
     @Inject(at = @At("HEAD"), method = "lines()Ljava/util/List;", cancellable = true)
@@ -34,7 +34,7 @@ public class CachedInfo_635423323Mixin {
     @Inject(at = @At("HEAD"), method = "width()I", cancellable = true)
     private void width_673685568(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(673685568L))
-            info.setReturnValue(-1373152075);
+            info.setReturnValue(-1674624075);
     }
 
 

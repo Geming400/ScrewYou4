@@ -28,7 +28,7 @@ public class ServerboundJigsawGeneratePacket_1811813845Mixin {
     @Inject(at = @At("HEAD"), method = "levels()I", cancellable = true)
     private void levels_1850076090(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1850076090L))
-            info.setReturnValue(-308769554);
+            info.setReturnValue(-124690354);
     }
 
     @Inject(at = @At("HEAD"), method = "getPos()Lnet/minecraft/core/BlockPos;", cancellable = true)

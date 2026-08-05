@@ -40,7 +40,7 @@ public class SkeletonHorse14787426Mixin {
     @Inject(at = @At("HEAD"), method = "createAttributes()Lnet/minecraft/world/entity/ai/attributes/AttributeSupplier$Builder;", cancellable = true)
     private static void createAttributes__685431019(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-685431019L))
-            info.setReturnValue(new net.minecraft.world.entity.ai.attributes.AttributeSupplier$Builder());
+            info.setReturnValue(new net.minecraft.world.entity.ai.attributes.AttributeSupplier.Builder());
     }
 
     @Inject(at = @At("HEAD"), method = "getDefaultDimensions(Lnet/minecraft/world/entity/Pose;)Lnet/minecraft/world/entity/EntityDimensions;", cancellable = true)
@@ -55,15 +55,15 @@ public class SkeletonHorse14787426Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "mobInteract(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResult;", cancellable = true)
-    private void mobInteract_1631613268(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1631613268L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getBreedOffspring(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/AgeableMob;)Lnet/minecraft/world/entity/AgeableMob;", cancellable = true)
     private void getBreedOffspring_1612447048(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1612447048L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "mobInteract(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResult;", cancellable = true)
+    private void mobInteract_1631613268(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1631613268L))
             info.setReturnValue(null);
     }
 

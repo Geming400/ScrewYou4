@@ -10,7 +10,7 @@ public class Builder_30626754Mixin {
         @Inject(at = @At("HEAD"), method = "isDirect(Z)Lnet/minecraft/advancements/predicates/DamageSourcePredicate$Builder;", cancellable = true)
     private void isDirect__298553162(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-298553162L))
-            info.setReturnValue(new net.minecraft.advancements.predicates.DamageSourcePredicate$Builder());
+            info.setReturnValue(new net.minecraft.advancements.predicates.DamageSourcePredicate.Builder());
     }
 
     @Inject(at = @At("HEAD"), method = "source(Lnet/minecraft/advancements/predicates/entity/EntityPredicate$Builder;)Lnet/minecraft/advancements/predicates/DamageSourcePredicate$Builder;", cancellable = true)
@@ -28,7 +28,7 @@ public class Builder_30626754Mixin {
     @Inject(at = @At("HEAD"), method = "tag(Lnet/minecraft/advancements/predicates/TagPredicate;)Lnet/minecraft/advancements/predicates/DamageSourcePredicate$Builder;", cancellable = true)
     private void tag__145978413(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-145978413L))
-            info.setReturnValue(new net.minecraft.advancements.predicates.DamageSourcePredicate$Builder());
+            info.setReturnValue(new net.minecraft.advancements.predicates.DamageSourcePredicate.Builder());
     }
 
     @Inject(at = @At("HEAD"), method = "direct(Lnet/minecraft/advancements/predicates/entity/EntityPredicate$Builder;)Lnet/minecraft/advancements/predicates/DamageSourcePredicate$Builder;", cancellable = true)

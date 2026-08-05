@@ -28,7 +28,7 @@ public class ClientboundDebugEntityValuePacket_1859434632Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1897697373(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1897697373L))
-            info.setReturnValue(1099796133);
+            info.setReturnValue(1481135533);
     }
 
     @Inject(at = @At("HEAD"), method = "update()Lnet/minecraft/util/debug/DebugSubscription$Update;", cancellable = true)
@@ -52,7 +52,7 @@ public class ClientboundDebugEntityValuePacket_1859434632Mixin {
     @Inject(at = @At("HEAD"), method = "entityId()I", cancellable = true)
     private void entityId_1897696877(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1897696877L))
-            info.setReturnValue(-297611872);
+            info.setReturnValue(83727528);
     }
 
 

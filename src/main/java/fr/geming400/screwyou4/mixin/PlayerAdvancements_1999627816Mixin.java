@@ -25,9 +25,15 @@ public class PlayerAdvancements_1999627816Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "clearTriggers()V", cancellable = true)
-    private void clearTriggers_2037902554(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(2037902554L))
+    @Inject(at = @At("HEAD"), method = "getOrStartProgress(Lnet/minecraft/advancements/AdvancementHolder;)Lnet/minecraft/advancements/AdvancementProgress;", cancellable = true)
+    private void getOrStartProgress_814133157(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(814133157L))
+            info.setReturnValue(new net.minecraft.advancements.AdvancementProgress());
+    }
+
+    @Inject(at = @At("HEAD"), method = "setSelectedTab(Lnet/minecraft/advancements/AdvancementHolder;)V", cancellable = true)
+    private void setSelectedTab_975624549(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(975624549L))
             info.cancel();
     }
 
@@ -37,15 +43,9 @@ public class PlayerAdvancements_1999627816Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "getOrStartProgress(Lnet/minecraft/advancements/AdvancementHolder;)Lnet/minecraft/advancements/AdvancementProgress;", cancellable = true)
-    private void getOrStartProgress_814133157(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(814133157L))
-            info.setReturnValue(new net.minecraft.advancements.AdvancementProgress());
-    }
-
-    @Inject(at = @At("HEAD"), method = "flushDirty(Lnet/minecraft/server/level/ServerPlayer;Z)V", cancellable = true)
-    private void flushDirty__338853228(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-338853228L))
+    @Inject(at = @At("HEAD"), method = "clearTriggers()V", cancellable = true)
+    private void clearTriggers_2037902554(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(2037902554L))
             info.cancel();
     }
 
@@ -55,16 +55,16 @@ public class PlayerAdvancements_1999627816Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "flushDirty(Lnet/minecraft/server/level/ServerPlayer;Z)V", cancellable = true)
+    private void flushDirty__338853228(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-338853228L))
+            info.cancel();
+    }
+
     @Inject(at = @At("HEAD"), method = "revoke(Lnet/minecraft/advancements/AdvancementHolder;Ljava/lang/String;)Z", cancellable = true)
     private void revoke__1431398477(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1431398477L))
             info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "setSelectedTab(Lnet/minecraft/advancements/AdvancementHolder;)V", cancellable = true)
-    private void setSelectedTab_975624549(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(975624549L))
-            info.cancel();
     }
 
 

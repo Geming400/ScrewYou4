@@ -28,7 +28,7 @@ public class StandAlone1688550182Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1726812924(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1726812924L))
-            info.setReturnValue(1095795707);
+            info.setReturnValue(1881022407);
     }
 
     @Inject(at = @At("HEAD"), method = "apply(Ljava/util/List;)Ljava/util/List;", cancellable = true)

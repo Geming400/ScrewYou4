@@ -22,7 +22,7 @@ public class TextAndWidth778630243Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_816892985(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(816892985L))
-            info.setReturnValue(125819209);
+            info.setReturnValue(-505988191);
     }
 
     @Inject(at = @At("HEAD"), method = "text()Lnet/minecraft/util/FormattedCharSequence;", cancellable = true)
@@ -34,7 +34,7 @@ public class TextAndWidth778630243Mixin {
     @Inject(at = @At("HEAD"), method = "width()I", cancellable = true)
     private void width_816892489(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(816892489L))
-            info.setReturnValue(304342699);
+            info.setReturnValue(-327464701);
     }
 
 

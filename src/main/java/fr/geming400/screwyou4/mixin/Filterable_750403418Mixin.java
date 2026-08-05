@@ -28,7 +28,7 @@ public class Filterable_750403418Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_788666159(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(788666159L))
-            info.setReturnValue(1381004314);
+            info.setReturnValue(1362271114);
     }
 
     @Inject(at = @At("HEAD"), method = "map(Ljava/util/function/Function;)Lnet/minecraft/server/network/Filterable;", cancellable = true)
@@ -55,9 +55,9 @@ public class Filterable_750403418Mixin {
             info.setReturnValue(new java.lang.Object());
     }
 
-    @Inject(at = @At("HEAD"), method = "codec(Lcom/mojang/serialization/Codec;)Lcom/mojang/serialization/Codec;", cancellable = true)
-    private static void codec_1234081392(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1234081392L))
+    @Inject(at = @At("HEAD"), method = "passThrough(Ljava/lang/Object;)Lnet/minecraft/server/network/Filterable;", cancellable = true)
+    private static void passThrough_633897286(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(633897286L))
             info.setReturnValue(null);
     }
 
@@ -67,15 +67,15 @@ public class Filterable_750403418Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "streamCodec(Lnet/minecraft/network/codec/StreamCodec;)Lnet/minecraft/network/codec/StreamCodec;", cancellable = true)
-    private static void streamCodec__1520324388(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1520324388L))
+    @Inject(at = @At("HEAD"), method = "codec(Lcom/mojang/serialization/Codec;)Lcom/mojang/serialization/Codec;", cancellable = true)
+    private static void codec_1234081392(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1234081392L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "passThrough(Ljava/lang/Object;)Lnet/minecraft/server/network/Filterable;", cancellable = true)
-    private static void passThrough_633897286(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(633897286L))
+    @Inject(at = @At("HEAD"), method = "streamCodec(Lnet/minecraft/network/codec/StreamCodec;)Lnet/minecraft/network/codec/StreamCodec;", cancellable = true)
+    private static void streamCodec__1520324388(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1520324388L))
             info.setReturnValue(null);
     }
 

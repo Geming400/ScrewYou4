@@ -10,7 +10,7 @@ public class LevelTicks337673456Mixin {
         @Inject(at = @At("HEAD"), method = "count()I", cancellable = true)
     private void count_375935702(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(375935702L))
-            info.setReturnValue(-1207866400);
+            info.setReturnValue(-1128007100);
     }
 
     @Inject(at = @At("HEAD"), method = "schedule(Lnet/minecraft/world/ticks/ScheduledTick;)V", cancellable = true)
@@ -22,6 +22,18 @@ public class LevelTicks337673456Mixin {
     @Inject(at = @At("HEAD"), method = "tick(JILjava/util/function/BiConsumer;)V", cancellable = true)
     private void tick__1944565401(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1944565401L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "removeContainer(Lnet/minecraft/world/level/ChunkPos;)V", cancellable = true)
+    private void removeContainer_1852555663(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1852555663L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "addContainer(Lnet/minecraft/world/level/ChunkPos;Lnet/minecraft/world/ticks/LevelChunkTicks;)V", cancellable = true)
+    private void addContainer_451050219(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(451050219L))
             info.cancel();
     }
 
@@ -37,21 +49,9 @@ public class LevelTicks337673456Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "removeContainer(Lnet/minecraft/world/level/ChunkPos;)V", cancellable = true)
-    private void removeContainer_1852555663(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1852555663L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "addContainer(Lnet/minecraft/world/level/ChunkPos;Lnet/minecraft/world/ticks/LevelChunkTicks;)V", cancellable = true)
-    private void addContainer_451050219(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(451050219L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "copyArea(Lnet/minecraft/world/level/levelgen/structure/BoundingBox;Lnet/minecraft/core/Vec3i;)V", cancellable = true)
-    private void copyArea__1372436433(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1372436433L))
+    @Inject(at = @At("HEAD"), method = "clearArea(Lnet/minecraft/world/level/levelgen/structure/BoundingBox;)V", cancellable = true)
+    private void clearArea_1910169774(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1910169774L))
             info.cancel();
     }
 
@@ -61,9 +61,9 @@ public class LevelTicks337673456Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "clearArea(Lnet/minecraft/world/level/levelgen/structure/BoundingBox;)V", cancellable = true)
-    private void clearArea_1910169774(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1910169774L))
+    @Inject(at = @At("HEAD"), method = "copyArea(Lnet/minecraft/world/level/levelgen/structure/BoundingBox;Lnet/minecraft/core/Vec3i;)V", cancellable = true)
+    private void copyArea__1372436433(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1372436433L))
             info.cancel();
     }
 

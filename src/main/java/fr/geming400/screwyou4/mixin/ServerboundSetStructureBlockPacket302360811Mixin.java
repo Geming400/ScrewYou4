@@ -52,7 +52,7 @@ public class ServerboundSetStructureBlockPacket302360811Mixin {
     @Inject(at = @At("HEAD"), method = "getSeed()J", cancellable = true)
     private void getSeed_340624018(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(340624018L))
-            info.setReturnValue(-1018512218033239422L);
+            info.setReturnValue(-1018512217690284522L);
     }
 
     @Inject(at = @At("HEAD"), method = "getData()Ljava/lang/String;", cancellable = true)
@@ -85,14 +85,20 @@ public class ServerboundSetStructureBlockPacket302360811Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "isIgnoreEntities()Z", cancellable = true)
+    private void isIgnoreEntities_340639394(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(340639394L))
+            info.setReturnValue(true);
+    }
+
     @Inject(at = @At("HEAD"), method = "getIntegrity()F", cancellable = true)
     private void getIntegrity_340620174(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(340620174L))
-            info.setReturnValue(4.660676E8F);
+            info.setReturnValue(8.090225E8F);
     }
 
-    @Inject(at = @At("HEAD"), method = "isIgnoreEntities()Z", cancellable = true)
-    private void isIgnoreEntities_340639394(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "isShowAir()Z", cancellable = true)
+    private void isShowAir_340639394(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(340639394L))
             info.setReturnValue(true);
     }
@@ -105,12 +111,6 @@ public class ServerboundSetStructureBlockPacket302360811Mixin {
 
     @Inject(at = @At("HEAD"), method = "isShowBoundingBox()Z", cancellable = true)
     private void isShowBoundingBox_340639394(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(340639394L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isShowAir()Z", cancellable = true)
-    private void isShowAir_340639394(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(340639394L))
             info.setReturnValue(true);
     }

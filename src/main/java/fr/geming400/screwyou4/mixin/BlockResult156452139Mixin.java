@@ -22,7 +22,7 @@ public class BlockResult156452139Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_194714881(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(194714881L))
-            info.setReturnValue(507672853);
+            info.setReturnValue(885909753);
     }
 
     @Inject(at = @At("HEAD"), method = "properties()Ljava/util/Map;", cancellable = true)

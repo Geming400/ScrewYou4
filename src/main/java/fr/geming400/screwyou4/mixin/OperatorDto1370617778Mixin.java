@@ -22,7 +22,7 @@ public class OperatorDto1370617778Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1408880520(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1408880520L))
-            info.setReturnValue(1695873626);
+            info.setReturnValue(1804220126);
     }
 
     @Inject(at = @At("HEAD"), method = "from(Lnet/minecraft/server/players/ServerOpListEntry;)Lnet/minecraft/server/jsonrpc/methods/OperatorService$OperatorDto;", cancellable = true)

@@ -22,18 +22,12 @@ public class BackgroundMusic1328029689Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1366292431(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1366292431L))
-            info.setReturnValue(1371535986);
+            info.setReturnValue(-2092278110);
     }
 
     @Inject(at = @At("HEAD"), method = "select(ZZ)Ljava/util/Optional;", cancellable = true)
     private void select_1493665895(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1493665895L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "defaultMusic()Ljava/util/Optional;", cancellable = true)
-    private void defaultMusic_1573491111(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1573491111L))
             info.setReturnValue(null);
     }
 
@@ -43,14 +37,20 @@ public class BackgroundMusic1328029689Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "creativeMusic()Ljava/util/Optional;", cancellable = true)
-    private void creativeMusic_1573491111(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "defaultMusic()Ljava/util/Optional;", cancellable = true)
+    private void defaultMusic_1573491111(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1573491111L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "underwaterMusic()Ljava/util/Optional;", cancellable = true)
     private void underwaterMusic_1573491111(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1573491111L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "creativeMusic()Ljava/util/Optional;", cancellable = true)
+    private void creativeMusic_1573491111(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1573491111L))
             info.setReturnValue(null);
     }

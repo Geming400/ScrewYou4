@@ -28,7 +28,7 @@ public class ServerboundSelectKnownPacks_30061968Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_68324709(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(68324709L))
-            info.setReturnValue(-36674620);
+            info.setReturnValue(-223250720);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/PacketListener;)V", cancellable = true)

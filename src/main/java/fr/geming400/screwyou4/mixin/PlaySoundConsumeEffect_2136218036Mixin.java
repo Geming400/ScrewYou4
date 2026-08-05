@@ -22,7 +22,7 @@ public class PlaySoundConsumeEffect_2136218036Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__2120486519(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2120486519L))
-            info.setReturnValue(-712024600);
+            info.setReturnValue(-1331657100);
     }
 
     @Inject(at = @At("HEAD"), method = "apply(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/LivingEntity;)Z", cancellable = true)

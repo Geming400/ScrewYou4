@@ -34,7 +34,7 @@ public class ReplaceSection_312482542Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_350745283(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(350745283L))
-            info.setReturnValue(-1747598368);
+            info.setReturnValue(-2130523168);
     }
 
     @Inject(at = @At("HEAD"), method = "apply(Ljava/util/List;Ljava/util/List;I)Ljava/util/List;", cancellable = true)
@@ -46,7 +46,7 @@ public class ReplaceSection_312482542Mixin {
     @Inject(at = @At("HEAD"), method = "offset()I", cancellable = true)
     private void offset_350744787(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(350744787L))
-            info.setReturnValue(-1543449949);
+            info.setReturnValue(-1927375749);
     }
 
 

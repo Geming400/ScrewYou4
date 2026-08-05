@@ -13,18 +13,6 @@ public class PowderSnowBlock_4883709Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "pickupBlock(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/item/ItemStack;", cancellable = true)
-    private void pickupBlock_1678325621(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1678325621L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getPickupSound()Ljava/util/Optional;", cancellable = true)
-    private void getPickupSound_250345130(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(250345130L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "fallOn(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/Entity;D)V", cancellable = true)
     private void fallOn_1378688544(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1378688544L))
@@ -35,6 +23,18 @@ public class PowderSnowBlock_4883709Mixin {
     private static void canEntityWalkOnPowderSnow__446836860(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-446836860L))
             info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "pickupBlock(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/item/ItemStack;", cancellable = true)
+    private void pickupBlock_1678325621(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1678325621L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getPickupSound()Ljava/util/Optional;", cancellable = true)
+    private void getPickupSound_250345130(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(250345130L))
+            info.setReturnValue(null);
     }
 
 

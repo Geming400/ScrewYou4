@@ -13,16 +13,16 @@ public class FenceGateBlock_806632427Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "connectsToDirection(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/Direction;)Z", cancellable = true)
-    private static void connectsToDirection_687215508(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(687215508L))
-            info.setReturnValue(false);
-    }
-
     @Inject(at = @At("HEAD"), method = "getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
     private void getStateForPlacement__451967341(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-451967341L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "connectsToDirection(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/Direction;)Z", cancellable = true)
+    private static void connectsToDirection_687215508(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(687215508L))
+            info.setReturnValue(false);
     }
 
 

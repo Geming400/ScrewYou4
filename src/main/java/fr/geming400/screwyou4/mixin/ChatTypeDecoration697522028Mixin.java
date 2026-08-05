@@ -22,7 +22,7 @@ public class ChatTypeDecoration697522028Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_735784770(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(735784770L))
-            info.setReturnValue(-530749208);
+            info.setReturnValue(-995192408);
     }
 
     @Inject(at = @At("HEAD"), method = "parameters()Ljava/util/List;", cancellable = true)
@@ -43,9 +43,9 @@ public class ChatTypeDecoration697522028Mixin {
             info.setReturnValue("a7DNiU\"neSOX?U^lnhW?O+3 #z\u78EA:JRh9M6?9\u2C58[s=h-^AB~3\u5AADt/\u3FEAQtW|R42DJV$DBl&\u4C81?[B@ \uFD5Eo<+|nbY</_79\"eg");
     }
 
-    @Inject(at = @At("HEAD"), method = "decorate(Lnet/minecraft/network/chat/Component;Lnet/minecraft/network/chat/ChatType$Bound;)Lnet/minecraft/network/chat/Component;", cancellable = true)
-    private void decorate__1614119894(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1614119894L))
+    @Inject(at = @At("HEAD"), method = "withSender(Ljava/lang/String;)Lnet/minecraft/network/chat/ChatTypeDecoration;", cancellable = true)
+    private static void withSender__2071586354(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2071586354L))
             info.setReturnValue(null);
     }
 
@@ -67,9 +67,9 @@ public class ChatTypeDecoration697522028Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "withSender(Ljava/lang/String;)Lnet/minecraft/network/chat/ChatTypeDecoration;", cancellable = true)
-    private static void withSender__2071586354(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2071586354L))
+    @Inject(at = @At("HEAD"), method = "decorate(Lnet/minecraft/network/chat/Component;Lnet/minecraft/network/chat/ChatType$Bound;)Lnet/minecraft/network/chat/Component;", cancellable = true)
+    private void decorate__1614119894(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1614119894L))
             info.setReturnValue(null);
     }
 

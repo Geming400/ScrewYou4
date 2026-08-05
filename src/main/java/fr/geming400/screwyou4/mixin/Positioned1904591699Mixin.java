@@ -22,7 +22,7 @@ public class Positioned1904591699Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1942854441(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1942854441L))
-            info.setReturnValue(1027278633);
+            info.setReturnValue(1063259733);
     }
 
     @Inject(at = @At("HEAD"), method = "contains(IIZ)Z", cancellable = true)
@@ -46,7 +46,7 @@ public class Positioned1904591699Mixin {
     @Inject(at = @At("HEAD"), method = "viewDistance()I", cancellable = true)
     private void viewDistance_1942853945(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1942853945L))
-            info.setReturnValue(1230426052);
+            info.setReturnValue(1266407152);
     }
 
 

@@ -13,12 +13,6 @@ public class WoodProvider_1683619656Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "wood(Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/client/data/models/BlockModelGenerators$WoodProvider;", cancellable = true)
-    private void wood__302330345(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-302330345L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "logUVLocked(Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/client/data/models/BlockModelGenerators$WoodProvider;", cancellable = true)
     private void logUVLocked__302330345(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-302330345L))
@@ -27,6 +21,12 @@ public class WoodProvider_1683619656Mixin {
 
     @Inject(at = @At("HEAD"), method = "logWithHorizontal(Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/client/data/models/BlockModelGenerators$WoodProvider;", cancellable = true)
     private void logWithHorizontal__302330345(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-302330345L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "wood(Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/client/data/models/BlockModelGenerators$WoodProvider;", cancellable = true)
+    private void wood__302330345(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-302330345L))
             info.setReturnValue(null);
     }

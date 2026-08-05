@@ -22,7 +22,7 @@ public class TriggerInstance1731660310Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1769923052(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1769923052L))
-            info.setReturnValue(1586361543);
+            info.setReturnValue(1639388443);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/world/phys/Vec3;)Z", cancellable = true)
@@ -49,9 +49,9 @@ public class TriggerInstance1731660310Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "fallFromHeight(Lnet/minecraft/advancements/predicates/entity/EntityPredicate$Builder;Lnet/minecraft/advancements/predicates/DistancePredicate;Lnet/minecraft/advancements/predicates/LocationPredicate$Builder;)Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
-    private static void fallFromHeight__1853684373(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1853684373L))
+    @Inject(at = @At("HEAD"), method = "travelledThroughNether(Lnet/minecraft/advancements/predicates/DistancePredicate;)Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
+    private static void travelledThroughNether_43924093(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(43924093L))
             info.setReturnValue(null);
     }
 
@@ -61,9 +61,9 @@ public class TriggerInstance1731660310Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "travelledThroughNether(Lnet/minecraft/advancements/predicates/DistancePredicate;)Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
-    private static void travelledThroughNether_43924093(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(43924093L))
+    @Inject(at = @At("HEAD"), method = "fallFromHeight(Lnet/minecraft/advancements/predicates/entity/EntityPredicate$Builder;Lnet/minecraft/advancements/predicates/DistancePredicate;Lnet/minecraft/advancements/predicates/LocationPredicate$Builder;)Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
+    private static void fallFromHeight__1853684373(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1853684373L))
             info.setReturnValue(null);
     }
 

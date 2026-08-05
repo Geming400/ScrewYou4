@@ -22,43 +22,43 @@ public class UVs_151179015Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_189441756(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(189441756L))
-            info.setReturnValue(-1056255932);
+            info.setReturnValue(-1424778032);
     }
 
     @Inject(at = @At("HEAD"), method = "maxV()F", cancellable = true)
     private void maxV_189438377(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(189438377L))
-            info.setReturnValue(4.661804E8F);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getVertexV(I)F", cancellable = true)
-    private void getVertexV_1365080610(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1365080610L))
-            info.setReturnValue(4.661804E8F);
+            info.setReturnValue(9.76583E7F);
     }
 
     @Inject(at = @At("HEAD"), method = "getVertexU(I)F", cancellable = true)
     private void getVertexU_1365080610(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1365080610L))
-            info.setReturnValue(4.661804E8F);
+            info.setReturnValue(9.76583E7F);
     }
 
-    @Inject(at = @At("HEAD"), method = "minV()F", cancellable = true)
-    private void minV_189438377(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(189438377L))
-            info.setReturnValue(4.661804E8F);
+    @Inject(at = @At("HEAD"), method = "getVertexV(I)F", cancellable = true)
+    private void getVertexV_1365080610(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1365080610L))
+            info.setReturnValue(9.76583E7F);
     }
 
     @Inject(at = @At("HEAD"), method = "maxU()F", cancellable = true)
     private void maxU_189438377(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(189438377L))
-            info.setReturnValue(4.661804E8F);
+            info.setReturnValue(9.76583E7F);
     }
 
     @Inject(at = @At("HEAD"), method = "minU()F", cancellable = true)
     private void minU_189438377(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(189438377L))
-            info.setReturnValue(4.661804E8F);
+            info.setReturnValue(9.76583E7F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "minV()F", cancellable = true)
+    private void minV_189438377(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(189438377L))
+            info.setReturnValue(9.76583E7F);
     }
 
 

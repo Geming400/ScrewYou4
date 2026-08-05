@@ -13,12 +13,6 @@ public class ChatReportContextBuilder1687948956Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "collectAllContext(Lnet/minecraft/client/multiplayer/chat/ChatLog;Lit/unimi/dsi/fastutil/ints/IntCollection;Lnet/minecraft/client/multiplayer/chat/report/ChatReportContextBuilder$Handler;)V", cancellable = true)
-    private void collectAllContext__1061724918(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1061724918L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "trackContext(Lnet/minecraft/network/chat/PlayerChatMessage;)V", cancellable = true)
     private void trackContext_772748306(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(772748306L))
@@ -29,6 +23,12 @@ public class ChatReportContextBuilder1687948956Mixin {
     private void acceptContext_772752150(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(772752150L))
             info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "collectAllContext(Lnet/minecraft/client/multiplayer/chat/ChatLog;Lit/unimi/dsi/fastutil/ints/IntCollection;Lnet/minecraft/client/multiplayer/chat/report/ChatReportContextBuilder$Handler;)V", cancellable = true)
+    private void collectAllContext__1061724918(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1061724918L))
+            info.cancel();
     }
 
 

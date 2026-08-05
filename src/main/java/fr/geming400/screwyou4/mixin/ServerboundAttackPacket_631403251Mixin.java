@@ -28,7 +28,7 @@ public class ServerboundAttackPacket_631403251Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_669665992(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(669665992L))
-            info.setReturnValue(923693395);
+            info.setReturnValue(1298029995);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/PacketListener;)V", cancellable = true)
@@ -46,7 +46,7 @@ public class ServerboundAttackPacket_631403251Mixin {
     @Inject(at = @At("HEAD"), method = "entityId()I", cancellable = true)
     private void entityId_669665496(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(669665496L))
-            info.setReturnValue(1126840815);
+            info.setReturnValue(1501177415);
     }
 
 

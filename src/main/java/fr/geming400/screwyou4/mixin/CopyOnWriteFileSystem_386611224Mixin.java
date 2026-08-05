@@ -115,9 +115,27 @@ public class CopyOnWriteFileSystem_386611224Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "collectMoveOperations(Ljava/nio/file/Path;)Lnet/minecraft/util/filefix/virtualfilesystem/CopyOnWriteFileSystem$Moves;", cancellable = true)
-    private void collectMoveOperations_1188118202(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1188118202L))
+    @Inject(at = @At("HEAD"), method = "backingFileSystem()Ljava/nio/file/FileSystem;", cancellable = true)
+    private void backingFileSystem__1192673265(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1192673265L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "tmpDirectory()Ljava/nio/file/Path;", cancellable = true)
+    private void tmpDirectory__747752459(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-747752459L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "moveFiles(Ljava/util/List;)V", cancellable = true)
+    private static void moveFiles__392607117(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-392607117L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "baseDirectory()Ljava/nio/file/Path;", cancellable = true)
+    private void baseDirectory__747752459(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-747752459L))
             info.setReturnValue(null);
     }
 
@@ -139,27 +157,9 @@ public class CopyOnWriteFileSystem_386611224Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "baseDirectory()Ljava/nio/file/Path;", cancellable = true)
-    private void baseDirectory__747752459(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-747752459L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "moveFiles(Ljava/util/List;)V", cancellable = true)
-    private static void moveFiles__392607117(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-392607117L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "tmpDirectory()Ljava/nio/file/Path;", cancellable = true)
-    private void tmpDirectory__747752459(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-747752459L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "backingFileSystem()Ljava/nio/file/FileSystem;", cancellable = true)
-    private void backingFileSystem__1192673265(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1192673265L))
+    @Inject(at = @At("HEAD"), method = "collectMoveOperations(Ljava/nio/file/Path;)Lnet/minecraft/util/filefix/virtualfilesystem/CopyOnWriteFileSystem$Moves;", cancellable = true)
+    private void collectMoveOperations_1188118202(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1188118202L))
             info.setReturnValue(null);
     }
 

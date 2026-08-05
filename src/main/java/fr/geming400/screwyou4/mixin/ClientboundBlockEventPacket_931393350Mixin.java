@@ -37,16 +37,16 @@ public class ClientboundBlockEventPacket_931393350Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getB1()I", cancellable = true)
-    private void getB1_969655595(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(969655595L))
-            info.setReturnValue(794203802);
-    }
-
     @Inject(at = @At("HEAD"), method = "getB0()I", cancellable = true)
     private void getB0_969655595(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(969655595L))
-            info.setReturnValue(794203802);
+            info.setReturnValue(566000102);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getB1()I", cancellable = true)
+    private void getB1_969655595(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(969655595L))
+            info.setReturnValue(566000102);
     }
 
 

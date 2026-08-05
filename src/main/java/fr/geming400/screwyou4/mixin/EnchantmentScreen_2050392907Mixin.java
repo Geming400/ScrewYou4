@@ -19,8 +19,8 @@ public class EnchantmentScreen_2050392907Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "tickBook()V", cancellable = true)
-    private void tickBook_2088667645(CallbackInfo info) {
+    @Inject(at = @At("HEAD"), method = "containerTick()V", cancellable = true)
+    private void containerTick_2088667645(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(2088667645L))
             info.cancel();
     }
@@ -31,8 +31,8 @@ public class EnchantmentScreen_2050392907Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "containerTick()V", cancellable = true)
-    private void containerTick_2088667645(CallbackInfo info) {
+    @Inject(at = @At("HEAD"), method = "tickBook()V", cancellable = true)
+    private void tickBook_2088667645(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(2088667645L))
             info.cancel();
     }

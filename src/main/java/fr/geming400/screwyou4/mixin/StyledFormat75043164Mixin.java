@@ -28,7 +28,7 @@ public class StyledFormat75043164Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_113305906(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(113305906L))
-            info.setReturnValue(307473501);
+            info.setReturnValue(947875201);
     }
 
     @Inject(at = @At("HEAD"), method = "format(I)Lnet/minecraft/network/chat/MutableComponent;", cancellable = true)

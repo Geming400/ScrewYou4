@@ -19,36 +19,6 @@ public class BrushableBlock2004790813Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "newBlockEntity(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/entity/BlockEntity;", cancellable = true)
-    private void newBlockEntity_419313158(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(419313158L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "onBrokenAfterFall(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/item/FallingBlockEntity;)V", cancellable = true)
-    private void onBrokenAfterFall_340482458(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(340482458L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "getBrushCompletedSound()Lnet/minecraft/sounds/SoundEvent;", cancellable = true)
-    private void getBrushCompletedSound__1199963585(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1199963585L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getTurnsInto()Lnet/minecraft/world/level/block/Block;", cancellable = true)
-    private void getTurnsInto_1247525714(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1247525714L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getBrushSound()Lnet/minecraft/sounds/SoundEvent;", cancellable = true)
-    private void getBrushSound__1199963585(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1199963585L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "onPlace(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Z)V", cancellable = true)
     private void onPlace_241339863(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(241339863L))
@@ -65,6 +35,36 @@ public class BrushableBlock2004790813Mixin {
     private void animateTick_1882188732(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1882188732L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getBrushSound()Lnet/minecraft/sounds/SoundEvent;", cancellable = true)
+    private void getBrushSound__1199963585(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1199963585L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getBrushCompletedSound()Lnet/minecraft/sounds/SoundEvent;", cancellable = true)
+    private void getBrushCompletedSound__1199963585(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1199963585L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "onBrokenAfterFall(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/item/FallingBlockEntity;)V", cancellable = true)
+    private void onBrokenAfterFall_340482458(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(340482458L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getTurnsInto()Lnet/minecraft/world/level/block/Block;", cancellable = true)
+    private void getTurnsInto_1247525714(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1247525714L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "newBlockEntity(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/entity/BlockEntity;", cancellable = true)
+    private void newBlockEntity_419313158(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(419313158L))
+            info.setReturnValue(null);
     }
 
 

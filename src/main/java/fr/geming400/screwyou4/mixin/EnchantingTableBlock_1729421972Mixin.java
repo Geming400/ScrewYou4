@@ -13,18 +13,6 @@ public class EnchantingTableBlock_1729421972Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "isValidBookShelf(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/BlockPos;)Z", cancellable = true)
-    private static void isValidBookShelf__83597583(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-83597583L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "newBlockEntity(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/entity/BlockEntity;", cancellable = true)
-    private void newBlockEntity_143944316(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(143944316L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getTicker(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/entity/BlockEntityType;)Lnet/minecraft/world/level/block/entity/BlockEntityTicker;", cancellable = true)
     private void getTicker__224045372(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-224045372L))
@@ -35,6 +23,18 @@ public class EnchantingTableBlock_1729421972Mixin {
     private void animateTick_1606819890(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1606819890L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "isValidBookShelf(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/BlockPos;)Z", cancellable = true)
+    private static void isValidBookShelf__83597583(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-83597583L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "newBlockEntity(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/entity/BlockEntity;", cancellable = true)
+    private void newBlockEntity_143944316(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(143944316L))
+            info.setReturnValue(null);
     }
 
 

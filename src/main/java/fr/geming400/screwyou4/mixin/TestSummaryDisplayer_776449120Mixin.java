@@ -22,7 +22,7 @@ public class TestSummaryDisplayer_776449120Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_814711861(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(814711861L))
-            info.setReturnValue(1365587123);
+            info.setReturnValue(1765918323);
     }
 
     @Inject(at = @At("HEAD"), method = "source()Lnet/minecraft/commands/CommandSourceStack;", cancellable = true)
@@ -37,18 +37,6 @@ public class TestSummaryDisplayer_776449120Mixin {
             info.setReturnValue(new net.minecraft.gametest.framework.MultipleTestTracker());
     }
 
-    @Inject(at = @At("HEAD"), method = "testStructureLoaded(Lnet/minecraft/gametest/framework/GameTestInfo;)V", cancellable = true)
-    private void testStructureLoaded__1528678801(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1528678801L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "testAddedForRerun(Lnet/minecraft/gametest/framework/GameTestInfo;Lnet/minecraft/gametest/framework/GameTestInfo;Lnet/minecraft/gametest/framework/GameTestRunner;)V", cancellable = true)
-    private void testAddedForRerun__1040298803(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1040298803L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "testPassed(Lnet/minecraft/gametest/framework/GameTestInfo;Lnet/minecraft/gametest/framework/GameTestRunner;)V", cancellable = true)
     private void testPassed__1870535312(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1870535312L))
@@ -58,6 +46,18 @@ public class TestSummaryDisplayer_776449120Mixin {
     @Inject(at = @At("HEAD"), method = "testFailed(Lnet/minecraft/gametest/framework/GameTestInfo;Lnet/minecraft/gametest/framework/GameTestRunner;)V", cancellable = true)
     private void testFailed__1870535312(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1870535312L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "testStructureLoaded(Lnet/minecraft/gametest/framework/GameTestInfo;)V", cancellable = true)
+    private void testStructureLoaded__1528678801(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1528678801L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "testAddedForRerun(Lnet/minecraft/gametest/framework/GameTestInfo;Lnet/minecraft/gametest/framework/GameTestInfo;Lnet/minecraft/gametest/framework/GameTestRunner;)V", cancellable = true)
+    private void testAddedForRerun__1040298803(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1040298803L))
             info.cancel();
     }
 

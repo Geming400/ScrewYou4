@@ -28,7 +28,7 @@ public class ServerboundSpectatorActionPacket_1147555996Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1185818737(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1185818737L))
-            info.setReturnValue(2033834174);
+            info.setReturnValue(1784374274);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/PacketListener;)V", cancellable = true)

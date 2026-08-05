@@ -19,9 +19,9 @@ public class SwizzleArgument_1900446515Mixin {
             info.setReturnValue(new java.lang.Object());
     }
 
-    @Inject(at = @At("HEAD"), method = "getSwizzle(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Ljava/util/EnumSet;", cancellable = true)
-    private static void getSwizzle__460378383(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-460378383L))
+    @Inject(at = @At("HEAD"), method = "getExamples()Ljava/util/Collection;", cancellable = true)
+    private void getExamples_86798242(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(86798242L))
             info.setReturnValue(null);
     }
 
@@ -31,9 +31,9 @@ public class SwizzleArgument_1900446515Mixin {
             info.setReturnValue(new net.minecraft.commands.arguments.coordinates.SwizzleArgument());
     }
 
-    @Inject(at = @At("HEAD"), method = "getExamples()Ljava/util/Collection;", cancellable = true)
-    private void getExamples_86798242(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(86798242L))
+    @Inject(at = @At("HEAD"), method = "getSwizzle(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Ljava/util/EnumSet;", cancellable = true)
+    private static void getSwizzle__460378383(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-460378383L))
             info.setReturnValue(null);
     }
 

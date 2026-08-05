@@ -16,7 +16,7 @@ public class Position1397930430Mixin {
     @Inject(at = @At("HEAD"), method = "insert(Ljava/util/List;Ljava/lang/Object;Ljava/util/function/Function;Z)I", cancellable = true)
     private void insert_205139699(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(205139699L))
-            info.setReturnValue(-176424991);
+            info.setReturnValue(-386213791);
     }
 
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/server/packs/repository/Pack$Position;", cancellable = true)

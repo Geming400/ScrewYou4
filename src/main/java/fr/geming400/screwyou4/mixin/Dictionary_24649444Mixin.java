@@ -25,15 +25,15 @@ public class Dictionary_24649444Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "named(Lnet/minecraft/util/parsing/packrat/Atom;)Lnet/minecraft/util/parsing/packrat/Term;", cancellable = true)
-    private void named__201394005(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-201394005L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getOrThrow(Lnet/minecraft/util/parsing/packrat/Atom;)Lnet/minecraft/util/parsing/packrat/NamedRule;", cancellable = true)
     private void getOrThrow_62353420(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(62353420L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "named(Lnet/minecraft/util/parsing/packrat/Atom;)Lnet/minecraft/util/parsing/packrat/Term;", cancellable = true)
+    private void named__201394005(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-201394005L))
             info.setReturnValue(null);
     }
 

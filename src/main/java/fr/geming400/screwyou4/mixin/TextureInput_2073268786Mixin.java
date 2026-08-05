@@ -22,7 +22,7 @@ public class TextureInput_2073268786Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2111531527(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2111531527L))
-            info.setReturnValue(-1375121074);
+            info.setReturnValue(-2118161174);
     }
 
     @Inject(at = @At("HEAD"), method = "location()Lnet/minecraft/resources/Identifier;", cancellable = true)
@@ -34,13 +34,13 @@ public class TextureInput_2073268786Mixin {
     @Inject(at = @At("HEAD"), method = "width()I", cancellable = true)
     private void width_2111531031(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2111531031L))
-            info.setReturnValue(-1171973655);
+            info.setReturnValue(-1915013755);
     }
 
     @Inject(at = @At("HEAD"), method = "height()I", cancellable = true)
     private void height_2111531031(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2111531031L))
-            info.setReturnValue(-1171973655);
+            info.setReturnValue(-1915013755);
     }
 
     @Inject(at = @At("HEAD"), method = "bilinear()Z", cancellable = true)
@@ -49,16 +49,16 @@ public class TextureInput_2073268786Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "samplerName()Ljava/lang/String;", cancellable = true)
-    private void samplerName_937808314(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(937808314L))
-            info.setReturnValue("j\uBB78,0\uB5C8 n!1i\u1E9B.\u5D50%0MM\u8E8Ep\u205ABBxCw)&/d@v;#Qp\u4EB4");
-    }
-
     @Inject(at = @At("HEAD"), method = "referencedTargets()Ljava/util/Set;", cancellable = true)
     private void referencedTargets_244233299(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(244233299L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "samplerName()Ljava/lang/String;", cancellable = true)
+    private void samplerName_937808314(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(937808314L))
+            info.setReturnValue("j\uBB78,0\uB5C8 n!1i\u1E9B.\u5D50%0MM\u8E8Ep\u205ABBxCw)&/d@v;#Qp\u4EB4");
     }
 
 

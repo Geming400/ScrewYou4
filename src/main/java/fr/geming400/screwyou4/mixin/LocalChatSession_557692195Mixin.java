@@ -22,7 +22,7 @@ public class LocalChatSession_557692195Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_595954936(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(595954936L))
-            info.setReturnValue(-1523790344);
+            info.setReturnValue(-1519085344);
     }
 
     @Inject(at = @At("HEAD"), method = "create(Lnet/minecraft/world/entity/player/ProfileKeyPair;)Lnet/minecraft/network/chat/LocalChatSession;", cancellable = true)

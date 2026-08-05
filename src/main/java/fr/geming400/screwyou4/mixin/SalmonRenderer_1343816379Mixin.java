@@ -7,9 +7,9 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.client.renderer.entity.SalmonRenderer.class)
 public class SalmonRenderer_1343816379Mixin {
-        @Inject(at = @At("HEAD"), method = "submit(Lnet/minecraft/client/renderer/entity/state/EntityRenderState;Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/SubmitNodeCollector;Lnet/minecraft/client/renderer/state/level/CameraRenderState;)V", cancellable = true)
-    private void submit__123564466(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-123564466L))
+        @Inject(at = @At("HEAD"), method = "submit(Lnet/minecraft/client/renderer/entity/state/SalmonRenderState;Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/SubmitNodeCollector;Lnet/minecraft/client/renderer/state/level/CameraRenderState;)V", cancellable = true)
+    private void submit_282820323(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(282820323L))
             info.cancel();
     }
 
@@ -19,27 +19,9 @@ public class SalmonRenderer_1343816379Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "submit(Lnet/minecraft/client/renderer/entity/state/SalmonRenderState;Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/SubmitNodeCollector;Lnet/minecraft/client/renderer/state/level/CameraRenderState;)V", cancellable = true)
-    private void submit_282820323(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(282820323L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "getTextureLocation(Lnet/minecraft/client/renderer/entity/state/SalmonRenderState;)Lnet/minecraft/resources/Identifier;", cancellable = true)
-    private void getTextureLocation__1223935727(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1223935727L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getTextureLocation(Lnet/minecraft/client/renderer/entity/state/LivingEntityRenderState;)Lnet/minecraft/resources/Identifier;", cancellable = true)
-    private void getTextureLocation__948514285(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-948514285L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/client/renderer/entity/state/LivingEntityRenderState;F)V", cancellable = true)
-    private void extractRenderState__1931286715(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1931286715L))
+    @Inject(at = @At("HEAD"), method = "submit(Lnet/minecraft/client/renderer/entity/state/EntityRenderState;Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/SubmitNodeCollector;Lnet/minecraft/client/renderer/state/level/CameraRenderState;)V", cancellable = true)
+    private void submit__123564466(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-123564466L))
             info.cancel();
     }
 
@@ -55,15 +37,33 @@ public class SalmonRenderer_1343816379Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/client/renderer/entity/state/LivingEntityRenderState;F)V", cancellable = true)
+    private void extractRenderState__1931286715(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1931286715L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/EntityRenderState;", cancellable = true)
+    private void createRenderState_755179934(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(755179934L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/SalmonRenderState;", cancellable = true)
     private void createRenderState_1074097449(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1074097449L))
             info.setReturnValue(new net.minecraft.client.renderer.entity.state.SalmonRenderState());
     }
 
-    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/EntityRenderState;", cancellable = true)
-    private void createRenderState_755179934(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(755179934L))
+    @Inject(at = @At("HEAD"), method = "getTextureLocation(Lnet/minecraft/client/renderer/entity/state/SalmonRenderState;)Lnet/minecraft/resources/Identifier;", cancellable = true)
+    private void getTextureLocation__1223935727(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1223935727L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getTextureLocation(Lnet/minecraft/client/renderer/entity/state/LivingEntityRenderState;)Lnet/minecraft/resources/Identifier;", cancellable = true)
+    private void getTextureLocation__948514285(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-948514285L))
             info.setReturnValue(null);
     }
 

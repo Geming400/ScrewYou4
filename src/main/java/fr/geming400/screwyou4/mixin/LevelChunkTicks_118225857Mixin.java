@@ -10,7 +10,7 @@ public class LevelChunkTicks_118225857Mixin {
         @Inject(at = @At("HEAD"), method = "count()I", cancellable = true)
     private void count_156488102(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(156488102L))
-            info.setReturnValue(518656011);
+            info.setReturnValue(653833311);
     }
 
     @Inject(at = @At("HEAD"), method = "schedule(Lnet/minecraft/world/ticks/ScheduledTick;)V", cancellable = true)

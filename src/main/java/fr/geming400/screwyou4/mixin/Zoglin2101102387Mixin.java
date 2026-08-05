@@ -16,18 +16,18 @@ public class Zoglin2101102387Mixin {
     @Inject(at = @At("HEAD"), method = "getAttackAnimationRemainingTicks()I", cancellable = true)
     private void getAttackAnimationRemainingTicks_2139364633(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2139364633L))
-            info.setReturnValue(-110774075);
-    }
-
-    @Inject(at = @At("HEAD"), method = "hurtServer(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/damagesource/DamageSource;F)Z", cancellable = true)
-    private void hurtServer_1651672056(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1651672056L))
-            info.setReturnValue(false);
+            info.setReturnValue(-564974875);
     }
 
     @Inject(at = @At("HEAD"), method = "isBaby()Z", cancellable = true)
     private void isBaby_2139380970(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2139380970L))
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "hurtServer(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/damagesource/DamageSource;F)Z", cancellable = true)
+    private void hurtServer_1651672056(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1651672056L))
             info.setReturnValue(false);
     }
 
@@ -41,18 +41,6 @@ public class Zoglin2101102387Mixin {
     private void getBrain__600888051(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-600888051L))
             info.setReturnValue(new net.minecraft.world.entity.ai.Brain());
-    }
-
-    @Inject(at = @At("HEAD"), method = "finalizeSpawn(Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData;", cancellable = true)
-    private void finalizeSpawn__345132971(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-345132971L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "doHurtTarget(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/Entity;)Z", cancellable = true)
-    private void doHurtTarget__549825198(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-549825198L))
-            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "canBeLeashed()Z", cancellable = true)
@@ -82,6 +70,18 @@ public class Zoglin2101102387Mixin {
     @Inject(at = @At("HEAD"), method = "getDefaultDimensions(Lnet/minecraft/world/entity/Pose;)Lnet/minecraft/world/entity/EntityDimensions;", cancellable = true)
     private void getDefaultDimensions_858456343(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(858456343L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "doHurtTarget(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/Entity;)Z", cancellable = true)
+    private void doHurtTarget__549825198(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-549825198L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "finalizeSpawn(Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData;", cancellable = true)
+    private void finalizeSpawn__345132971(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-345132971L))
             info.setReturnValue(null);
     }
 

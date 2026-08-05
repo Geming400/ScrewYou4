@@ -31,12 +31,6 @@ public class Pattern1763291604Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getPackedId()I", cancellable = true)
-    private void getPackedId_1801553850(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1801553850L))
-            info.setReturnValue(539464485);
-    }
-
     @Inject(at = @At("HEAD"), method = "byId(I)Lnet/minecraft/world/entity/animal/fish/TropicalFish$Pattern;", cancellable = true)
     private static void byId_1155948066(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1155948066L))
@@ -47,6 +41,12 @@ public class Pattern1763291604Mixin {
     private void getSerializedName_627831133(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(627831133L))
             info.setReturnValue("'B2t:29g+x\u0E01ev@\u677E;,0&qsC\u5AA4Rb\u3F4By&aJ\uFD1C)lg2Z\u73E6\u89ACX2\"b2\u9F68',Bf\u8551CAS'_6w-iwf,LADVwXA0Gs)S[T");
+    }
+
+    @Inject(at = @At("HEAD"), method = "getPackedId()I", cancellable = true)
+    private void getPackedId_1801553850(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1801553850L))
+            info.setReturnValue(1026710285);
     }
 
     @Inject(at = @At("HEAD"), method = "addToTooltip(Lnet/minecraft/world/item/Item$TooltipContext;Ljava/util/function/Consumer;Lnet/minecraft/world/item/TooltipFlag;Lnet/minecraft/core/component/DataComponentGetter;)V", cancellable = true)

@@ -13,14 +13,14 @@ public class ShulkerBullet_1100858656Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "hurtServer(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/damagesource/DamageSource;F)Z", cancellable = true)
-    private void hurtServer_651428324(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(651428324L))
-            info.setReturnValue(false);
+    @Inject(at = @At("HEAD"), method = "getLightLevelDependentMagicValue()F", cancellable = true)
+    private void getLightLevelDependentMagicValue_1139118018(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1139118018L))
+            info.setReturnValue(7.011939E8F);
     }
 
-    @Inject(at = @At("HEAD"), method = "isOnFire()Z", cancellable = true)
-    private void isOnFire_1139137238(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "isPickable()Z", cancellable = true)
+    private void isPickable_1139137238(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1139137238L))
             info.setReturnValue(false);
     }
@@ -31,9 +31,15 @@ public class ShulkerBullet_1100858656Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "isPickable()Z", cancellable = true)
-    private void isPickable_1139137238(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "isOnFire()Z", cancellable = true)
+    private void isOnFire_1139137238(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1139137238L))
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "hurtServer(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/damagesource/DamageSource;F)Z", cancellable = true)
+    private void hurtServer_651428324(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(651428324L))
             info.setReturnValue(false);
     }
 
@@ -59,12 +65,6 @@ public class ShulkerBullet_1100858656Mixin {
     private void getSoundSource__1192189318(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1192189318L))
             info.setReturnValue(net.minecraft.sounds.SoundSource.RECORDS);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getLightLevelDependentMagicValue()F", cancellable = true)
-    private void getLightLevelDependentMagicValue_1139118018(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1139118018L))
-            info.setReturnValue(9.026133E8F);
     }
 
 

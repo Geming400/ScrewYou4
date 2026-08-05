@@ -7,7 +7,13 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.client.waypoints.ClientWaypointManager.class)
 public class ClientWaypointManager1952041555Mixin {
-        @Inject(at = @At("HEAD"), method = "untrackWaypoint(Lnet/minecraft/world/waypoints/Waypoint;)V", cancellable = true)
+        @Inject(at = @At("HEAD"), method = "hasWaypoints()Z", cancellable = true)
+    private void hasWaypoints_1990320138(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1990320138L))
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "untrackWaypoint(Lnet/minecraft/world/waypoints/Waypoint;)V", cancellable = true)
     private void untrackWaypoint__1339532634(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1339532634L))
             info.cancel();
@@ -31,15 +37,15 @@ public class ClientWaypointManager1952041555Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "trackWaypoint(Lnet/minecraft/world/waypoints/Waypoint;)V", cancellable = true)
-    private void trackWaypoint__1339532634(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1339532634L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "trackWaypoint(Lnet/minecraft/world/waypoints/TrackedWaypoint;)V", cancellable = true)
     private void trackWaypoint_1430481600(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1430481600L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "trackWaypoint(Lnet/minecraft/world/waypoints/Waypoint;)V", cancellable = true)
+    private void trackWaypoint__1339532634(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1339532634L))
             info.cancel();
     }
 
@@ -47,12 +53,6 @@ public class ClientWaypointManager1952041555Mixin {
     private void forEachWaypoint_177499511(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(177499511L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "hasWaypoints()Z", cancellable = true)
-    private void hasWaypoints_1990320138(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1990320138L))
-            info.setReturnValue(false);
     }
 
 

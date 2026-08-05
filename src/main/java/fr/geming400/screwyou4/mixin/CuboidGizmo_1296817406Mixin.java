@@ -22,7 +22,7 @@ public class CuboidGizmo_1296817406Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1335080147(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1335080147L))
-            info.setReturnValue(993001924);
+            info.setReturnValue(1266492124);
     }
 
     @Inject(at = @At("HEAD"), method = "style()Lnet/minecraft/gizmos/GizmoStyle;", cancellable = true)

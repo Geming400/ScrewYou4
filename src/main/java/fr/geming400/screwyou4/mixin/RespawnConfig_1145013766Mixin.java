@@ -22,7 +22,7 @@ public class RespawnConfig_1145013766Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1183276507(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1183276507L))
-            info.setReturnValue(-1002691984);
+            info.setReturnValue(-550654884);
     }
 
     @Inject(at = @At("HEAD"), method = "forced()Z", cancellable = true)

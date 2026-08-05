@@ -13,16 +13,16 @@ public class EyeblossomBlock78420557Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getBeeInteractionEffect()Lnet/minecraft/world/effect/MobEffectInstance;", cancellable = true)
-    private void getBeeInteractionEffect__1671432478(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1671432478L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "animateTick(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)V", cancellable = true)
     private void animateTick__44181524(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-44181524L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getBeeInteractionEffect()Lnet/minecraft/world/effect/MobEffectInstance;", cancellable = true)
+    private void getBeeInteractionEffect__1671432478(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1671432478L))
+            info.setReturnValue(null);
     }
 
 

@@ -25,6 +25,12 @@ public class PathPackResources1785062681Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "validatePath(Ljava/nio/file/Path;)Z", cancellable = true)
+    private static void validatePath__902613721(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-902613721L))
+            info.setReturnValue(false);
+    }
+
     @Inject(at = @At("HEAD"), method = "getNamespaces(Ljava/nio/file/Path;)Ljava/util/Set;", cancellable = true)
     private static void getNamespaces_20639570(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(20639570L))
@@ -37,10 +43,10 @@ public class PathPackResources1785062681Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "validatePath(Ljava/nio/file/Path;)Z", cancellable = true)
-    private static void validatePath__902613721(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-902613721L))
-            info.setReturnValue(false);
+    @Inject(at = @At("HEAD"), method = "listPath(Ljava/lang/String;Ljava/nio/file/Path;Ljava/util/List;Lnet/minecraft/server/packs/PackResources$ResourceOutput;)V", cancellable = true)
+    private static void listPath_75958061(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(75958061L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "listResources(Ljava/nio/file/Path;Ljava/lang/String;Ljava/lang/String;Lnet/minecraft/server/packs/PackResources$ResourceOutput;)V", cancellable = true)
@@ -59,12 +65,6 @@ public class PathPackResources1785062681Mixin {
     private void getRootResource_1352310697(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1352310697L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "listPath(Ljava/lang/String;Ljava/nio/file/Path;Ljava/util/List;Lnet/minecraft/server/packs/PackResources$ResourceOutput;)V", cancellable = true)
-    private static void listPath_75958061(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(75958061L))
-            info.cancel();
     }
 
 

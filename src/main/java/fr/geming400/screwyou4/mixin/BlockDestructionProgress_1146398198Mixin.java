@@ -16,37 +16,25 @@ public class BlockDestructionProgress_1146398198Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1184660443(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1184660443L))
-            info.setReturnValue(1639614560);
+            info.setReturnValue(1964062160);
     }
 
     @Inject(at = @At("HEAD"), method = "compareTo(Lnet/minecraft/server/level/BlockDestructionProgress;)I", cancellable = true)
     private void compareTo__808719299(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-808719299L))
-            info.setReturnValue(-1700692585);
+            info.setReturnValue(-1376244985);
     }
 
     @Inject(at = @At("HEAD"), method = "compareTo(Ljava/lang/Object;)I", cancellable = true)
     private void compareTo__1762944713(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1762944713L))
-            info.setReturnValue(1369642376);
+            info.setReturnValue(1694089976);
     }
 
     @Inject(at = @At("HEAD"), method = "getId()I", cancellable = true)
     private void getId_1184660443(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1184660443L))
-            info.setReturnValue(1639614560);
-    }
-
-    @Inject(at = @At("HEAD"), method = "setProgress(I)V", cancellable = true)
-    private void setProgress__1934652127(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1934652127L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "getProgress()I", cancellable = true)
-    private void getProgress_1184660443(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1184660443L))
-            info.setReturnValue(1639614560);
+            info.setReturnValue(1964062160);
     }
 
     @Inject(at = @At("HEAD"), method = "getPos()Lnet/minecraft/core/BlockPos;", cancellable = true)
@@ -55,16 +43,28 @@ public class BlockDestructionProgress_1146398198Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "setProgress(I)V", cancellable = true)
+    private void setProgress__1934652127(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1934652127L))
+            info.cancel();
+    }
+
     @Inject(at = @At("HEAD"), method = "updateTick(J)V", cancellable = true)
     private void updateTick__1933728606(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1933728606L))
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "getProgress()I", cancellable = true)
+    private void getProgress_1184660443(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1184660443L))
+            info.setReturnValue(1964062160);
+    }
+
     @Inject(at = @At("HEAD"), method = "getUpdatedRenderTick()J", cancellable = true)
     private void getUpdatedRenderTick_1184661404(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1184661404L))
-            info.setReturnValue(4060270405524908468L);
+            info.setReturnValue(4060270405849356068L);
     }
 
 

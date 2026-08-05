@@ -37,9 +37,15 @@ public class SkullBlockRenderer1734270357Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getPlayerSkinRenderType(Lnet/minecraft/resources/Identifier;)Lnet/minecraft/client/renderer/rendertype/RenderType;", cancellable = true)
-    private static void getPlayerSkinRenderType__838785402(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-838785402L))
+    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/blockentity/state/SkullBlockRenderState;", cancellable = true)
+    private void createRenderState_1370370887(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1370370887L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/blockentity/state/BlockEntityRenderState;", cancellable = true)
+    private void createRenderState__1426724513(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1426724513L))
             info.setReturnValue(null);
     }
 
@@ -55,15 +61,9 @@ public class SkullBlockRenderer1734270357Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/blockentity/state/SkullBlockRenderState;", cancellable = true)
-    private void createRenderState_1370370887(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1370370887L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/blockentity/state/BlockEntityRenderState;", cancellable = true)
-    private void createRenderState__1426724513(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1426724513L))
+    @Inject(at = @At("HEAD"), method = "getPlayerSkinRenderType(Lnet/minecraft/resources/Identifier;)Lnet/minecraft/client/renderer/rendertype/RenderType;", cancellable = true)
+    private static void getPlayerSkinRenderType__838785402(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-838785402L))
             info.setReturnValue(null);
     }
 

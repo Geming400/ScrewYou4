@@ -25,45 +25,27 @@ public class Commands_1308992638Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "mapSource(Lcom/mojang/brigadier/ParseResults;Ljava/util/function/UnaryOperator;)Lcom/mojang/brigadier/ParseResults;", cancellable = true)
-    private static void mapSource_1123241835(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1123241835L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "sendCommands(Lnet/minecraft/server/level/ServerPlayer;)V", cancellable = true)
-    private void sendCommands_539430784(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(539430784L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "createValidator(Lnet/minecraft/commands/Commands$ParseFunction;)Ljava/util/function/Predicate;", cancellable = true)
     private static void createValidator__781689842(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-781689842L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "performCommand(Lcom/mojang/brigadier/ParseResults;Ljava/lang/String;)V", cancellable = true)
-    private void performCommand_1392925525(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1392925525L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "hasPermission(Lnet/minecraft/server/permissions/PermissionCheck;)Lnet/minecraft/server/permissions/PermissionProviderCheck;", cancellable = true)
-    private static void hasPermission__566773531(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-566773531L))
+    @Inject(at = @At("HEAD"), method = "mapSource(Lcom/mojang/brigadier/ParseResults;Ljava/util/function/UnaryOperator;)Lcom/mojang/brigadier/ParseResults;", cancellable = true)
+    private static void mapSource_1123241835(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1123241835L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "performPrefixedCommand(Lnet/minecraft/commands/CommandSourceStack;Ljava/lang/String;)V", cancellable = true)
-    private void performPrefixedCommand__2104515844(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-2104515844L))
-            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "getParseException(Lcom/mojang/brigadier/ParseResults;)Lcom/mojang/brigadier/exceptions/CommandSyntaxException;", cancellable = true)
     private static void getParseException_257152693(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(257152693L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "hasPermission(Lnet/minecraft/server/permissions/PermissionCheck;)Lnet/minecraft/server/permissions/PermissionProviderCheck;", cancellable = true)
+    private static void hasPermission__566773531(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-566773531L))
             info.setReturnValue(null);
     }
 
@@ -73,9 +55,15 @@ public class Commands_1308992638Mixin {
             info.setReturnValue("ax\u6045\u8C95\u9BDFb\u8545\u09E1C6-8s]zxO\"Ws;H{eZ7ak");
     }
 
-    @Inject(at = @At("HEAD"), method = "validateParseResults(Lcom/mojang/brigadier/ParseResults;)V", cancellable = true)
-    private static void validateParseResults__191749885(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-191749885L))
+    @Inject(at = @At("HEAD"), method = "performCommand(Lcom/mojang/brigadier/ParseResults;Ljava/lang/String;)V", cancellable = true)
+    private void performCommand_1392925525(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1392925525L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "sendCommands(Lnet/minecraft/server/level/ServerPlayer;)V", cancellable = true)
+    private void sendCommands_539430784(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(539430784L))
             info.cancel();
     }
 
@@ -91,6 +79,12 @@ public class Commands_1308992638Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "validateParseResults(Lcom/mojang/brigadier/ParseResults;)V", cancellable = true)
+    private static void validateParseResults__191749885(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-191749885L))
+            info.cancel();
+    }
+
     @Inject(at = @At("HEAD"), method = "getDispatcher()Lcom/mojang/brigadier/CommandDispatcher;", cancellable = true)
     private void getDispatcher_103943282(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(103943282L))
@@ -101,6 +95,12 @@ public class Commands_1308992638Mixin {
     private static void createCompilationContext_1652623651(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1652623651L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "performPrefixedCommand(Lnet/minecraft/commands/CommandSourceStack;Ljava/lang/String;)V", cancellable = true)
+    private void performPrefixedCommand__2104515844(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-2104515844L))
+            info.cancel();
     }
 
 

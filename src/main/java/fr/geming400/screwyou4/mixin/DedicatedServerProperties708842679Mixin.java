@@ -13,9 +13,9 @@ public class DedicatedServerProperties708842679Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "fromFile(Ljava/nio/file/Path;)Lnet/minecraft/server/dedicated/DedicatedServerProperties;", cancellable = true)
-    private static void fromFile_1490819857(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1490819857L))
+    @Inject(at = @At("HEAD"), method = "deserializePermission(Ljava/lang/String;)Lnet/minecraft/server/permissions/LevelBasedPermissionSet;", cancellable = true)
+    private static void deserializePermission__1584798254(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1584798254L))
             info.setReturnValue(null);
     }
 
@@ -25,9 +25,9 @@ public class DedicatedServerProperties708842679Mixin {
             info.setReturnValue("LkEEXf\"jJ4");
     }
 
-    @Inject(at = @At("HEAD"), method = "deserializePermission(Ljava/lang/String;)Lnet/minecraft/server/permissions/LevelBasedPermissionSet;", cancellable = true)
-    private static void deserializePermission__1584798254(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1584798254L))
+    @Inject(at = @At("HEAD"), method = "fromFile(Ljava/nio/file/Path;)Lnet/minecraft/server/dedicated/DedicatedServerProperties;", cancellable = true)
+    private static void fromFile_1490819857(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1490819857L))
             info.setReturnValue(null);
     }
 

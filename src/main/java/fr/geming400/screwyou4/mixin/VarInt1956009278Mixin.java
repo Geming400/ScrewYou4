@@ -16,7 +16,7 @@ public class VarInt1956009278Mixin {
     @Inject(at = @At("HEAD"), method = "read(Lio/netty/buffer/ByteBuf;)I", cancellable = true)
     private static void read__1402035807(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1402035807L))
-            info.setReturnValue(127756969);
+            info.setReturnValue(377780969);
     }
 
     @Inject(at = @At("HEAD"), method = "hasContinuationBit(B)Z", cancellable = true)
@@ -28,7 +28,7 @@ public class VarInt1956009278Mixin {
     @Inject(at = @At("HEAD"), method = "getByteSize(I)I", cancellable = true)
     private static void getByteSize__1125053291(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1125053291L))
-            info.setReturnValue(62052631);
+            info.setReturnValue(312076631);
     }
 
 

@@ -22,19 +22,7 @@ public class Music_864028153Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_902290894(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(902290894L))
-            info.setReturnValue(-749581588);
-    }
-
-    @Inject(at = @At("HEAD"), method = "minDelay()I", cancellable = true)
-    private void minDelay_902290398(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(902290398L))
-            info.setReturnValue(-546434168);
-    }
-
-    @Inject(at = @At("HEAD"), method = "maxDelay()I", cancellable = true)
-    private void maxDelay_902290398(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(902290398L))
-            info.setReturnValue(-546434168);
+            info.setReturnValue(-481727888);
     }
 
     @Inject(at = @At("HEAD"), method = "sound()Lnet/minecraft/core/Holder;", cancellable = true)
@@ -47,6 +35,18 @@ public class Music_864028153Mixin {
     private void replaceCurrentMusic_902306735(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(902306735L))
             info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "minDelay()I", cancellable = true)
+    private void minDelay_902290398(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(902290398L))
+            info.setReturnValue(-278580468);
+    }
+
+    @Inject(at = @At("HEAD"), method = "maxDelay()I", cancellable = true)
+    private void maxDelay_902290398(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(902290398L))
+            info.setReturnValue(-278580468);
     }
 
 

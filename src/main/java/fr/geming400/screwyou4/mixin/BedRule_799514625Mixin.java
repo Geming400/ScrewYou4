@@ -22,13 +22,13 @@ public class BedRule_799514625Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_837777366(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(837777366L))
-            info.setReturnValue(-748568985);
+            info.setReturnValue(-817324585);
     }
 
-    @Inject(at = @At("HEAD"), method = "explodes()Z", cancellable = true)
-    private void explodes_837793207(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(837793207L))
-            info.setReturnValue(false);
+    @Inject(at = @At("HEAD"), method = "errorMessage()Ljava/util/Optional;", cancellable = true)
+    private void errorMessage_1044976046(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1044976046L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "canSleep()Lnet/minecraft/world/attribute/BedRule$Rule;", cancellable = true)
@@ -43,12 +43,6 @@ public class BedRule_799514625Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "errorMessage()Ljava/util/Optional;", cancellable = true)
-    private void errorMessage_1044976046(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1044976046L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "canSetSpawn(Lnet/minecraft/world/level/Level;)Z", cancellable = true)
     private void canSetSpawn__205456474(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-205456474L))
@@ -59,6 +53,12 @@ public class BedRule_799514625Mixin {
     private void canSetSpawn_1336074535(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1336074535L))
             info.setReturnValue(net.minecraft.world.attribute.BedRule.Rule.NEVER);
+    }
+
+    @Inject(at = @At("HEAD"), method = "explodes()Z", cancellable = true)
+    private void explodes_837793207(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(837793207L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "asProblem()Lnet/minecraft/world/entity/player/Player$BedSleepingProblem;", cancellable = true)

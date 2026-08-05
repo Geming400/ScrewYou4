@@ -22,7 +22,7 @@ public class ChangePage_847397925Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_885660666(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(885660666L))
-            info.setReturnValue(-171125949);
+            info.setReturnValue(741002451);
     }
 
     @Inject(at = @At("HEAD"), method = "action()Lnet/minecraft/network/chat/ClickEvent$Action;", cancellable = true)
@@ -34,7 +34,7 @@ public class ChangePage_847397925Mixin {
     @Inject(at = @At("HEAD"), method = "page()I", cancellable = true)
     private void page_885660170(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(885660170L))
-            info.setReturnValue(-288089614);
+            info.setReturnValue(624038786);
     }
 
 

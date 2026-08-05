@@ -28,7 +28,7 @@ public class SliderableEnum128383424Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_166646166(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(166646166L))
-            info.setReturnValue(-1326457991);
+            info.setReturnValue(-1339156391);
     }
 
     @Inject(at = @At("HEAD"), method = "next(Ljava/lang/Object;)Ljava/util/Optional;", cancellable = true)
@@ -58,7 +58,7 @@ public class SliderableEnum128383424Mixin {
     @Inject(at = @At("HEAD"), method = "toSliderValue(Ljava/lang/Object;)D", cancellable = true)
     private void toSliderValue_1513874045(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1513874045L))
-            info.setReturnValue(8.855910009677789E8D);
+            info.setReturnValue(8.728926009677789E8D);
     }
 
     @Inject(at = @At("HEAD"), method = "fromSliderValue(D)Ljava/lang/Object;", cancellable = true)

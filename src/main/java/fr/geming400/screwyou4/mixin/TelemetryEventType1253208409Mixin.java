@@ -55,27 +55,27 @@ public class TelemetryEventType1253208409Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
-    private void codec__1305905163(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1305905163L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "title()Lnet/minecraft/network/chat/MutableComponent;", cancellable = true)
     private void title__1154795804(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1154795804L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "selfTest()Z", cancellable = true)
-    private static void selfTest_1291487240(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1291487240L))
-            info.setReturnValue(false);
+    @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
+    private void codec__1305905163(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1305905163L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "isOptIn()Z", cancellable = true)
     private void isOptIn_1291486992(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1291486992L))
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "selfTest()Z", cancellable = true)
+    private static void selfTest_1291487240(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1291487240L))
             info.setReturnValue(false);
     }
 

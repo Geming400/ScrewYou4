@@ -31,34 +31,34 @@ public class SpellParticleOption831643637Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "streamCodec(Lnet/minecraft/core/particles/ParticleType;)Lnet/minecraft/network/codec/StreamCodec;", cancellable = true)
+    private static void streamCodec_188597730(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(188597730L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "getPower()F", cancellable = true)
     private void getPower_869903000(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(869903000L))
-            info.setReturnValue(4.212034E8F);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getGreen()F", cancellable = true)
-    private void getGreen_869903000(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(869903000L))
-            info.setReturnValue(4.212034E8F);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getRed()F", cancellable = true)
-    private void getRed_869903000(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(869903000L))
-            info.setReturnValue(4.212034E8F);
+            info.setReturnValue(7.232729E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "getBlue()F", cancellable = true)
     private void getBlue_869903000(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(869903000L))
-            info.setReturnValue(4.212034E8F);
+            info.setReturnValue(7.232729E8F);
     }
 
-    @Inject(at = @At("HEAD"), method = "streamCodec(Lnet/minecraft/core/particles/ParticleType;)Lnet/minecraft/network/codec/StreamCodec;", cancellable = true)
-    private static void streamCodec_188597730(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(188597730L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "getGreen()F", cancellable = true)
+    private void getGreen_869903000(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(869903000L))
+            info.setReturnValue(7.232729E8F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getRed()F", cancellable = true)
+    private void getRed_869903000(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(869903000L))
+            info.setReturnValue(7.232729E8F);
     }
 
 

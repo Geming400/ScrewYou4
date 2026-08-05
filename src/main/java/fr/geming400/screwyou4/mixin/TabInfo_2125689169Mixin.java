@@ -22,7 +22,7 @@ public class TabInfo_2125689169Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__2131015386(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2131015386L))
-            info.setReturnValue(-1475824817);
+            info.setReturnValue(-1303539217);
     }
 
     @Inject(at = @At("HEAD"), method = "category()Lnet/minecraft/world/item/crafting/ExtendedRecipeBookCategory;", cancellable = true)
@@ -31,15 +31,15 @@ public class TabInfo_2125689169Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "secondaryIcon()Ljava/util/Optional;", cancellable = true)
-    private void secondaryIcon__1923816706(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1923816706L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "primaryIcon()Lnet/minecraft/world/item/ItemStack;", cancellable = true)
     private void primaryIcon__1645859468(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1645859468L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "secondaryIcon()Ljava/util/Optional;", cancellable = true)
+    private void secondaryIcon__1923816706(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1923816706L))
             info.setReturnValue(null);
     }
 

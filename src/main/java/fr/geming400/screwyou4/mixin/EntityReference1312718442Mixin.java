@@ -22,7 +22,7 @@ public class EntityReference1312718442Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1350980688(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1350980688L))
-            info.setReturnValue(1719346352);
+            info.setReturnValue(1623355652);
     }
 
     @Inject(at = @At("HEAD"), method = "store(Lnet/minecraft/world/entity/EntityReference;Lnet/minecraft/world/level/storage/ValueOutput;Ljava/lang/String;)V", cancellable = true)
@@ -61,21 +61,27 @@ public class EntityReference1312718442Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getEntity(Lnet/minecraft/world/entity/EntityReference;Lnet/minecraft/world/level/Level;)Lnet/minecraft/world/entity/Entity;", cancellable = true)
-    private static void getEntity__722186731(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-722186731L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getEntity(Lnet/minecraft/world/level/Level;Ljava/lang/Class;)Lnet/minecraft/world/level/entity/UniquelyIdentifyable;", cancellable = true)
     private void getEntity__412925538(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-412925538L))
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "getEntity(Lnet/minecraft/world/entity/EntityReference;Lnet/minecraft/world/level/Level;)Lnet/minecraft/world/entity/Entity;", cancellable = true)
+    private static void getEntity__722186731(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-722186731L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "getEntity(Lnet/minecraft/world/level/entity/UUIDLookup;Ljava/lang/Class;)Lnet/minecraft/world/level/entity/UniquelyIdentifyable;", cancellable = true)
     private void getEntity__613636741(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-613636741L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "readWithOldOwnerConversion(Lnet/minecraft/world/level/storage/ValueInput;Ljava/lang/String;Lnet/minecraft/world/level/Level;)Lnet/minecraft/world/entity/EntityReference;", cancellable = true)
+    private static void readWithOldOwnerConversion_1547566596(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1547566596L))
             info.setReturnValue(null);
     }
 
@@ -106,12 +112,6 @@ public class EntityReference1312718442Mixin {
     @Inject(at = @At("HEAD"), method = "streamCodec()Lnet/minecraft/network/codec/StreamCodec;", cancellable = true)
     private static void streamCodec__1721248482(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1721248482L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "readWithOldOwnerConversion(Lnet/minecraft/world/level/storage/ValueInput;Ljava/lang/String;Lnet/minecraft/world/level/Level;)Lnet/minecraft/world/entity/EntityReference;", cancellable = true)
-    private static void readWithOldOwnerConversion_1547566596(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1547566596L))
             info.setReturnValue(null);
     }
 

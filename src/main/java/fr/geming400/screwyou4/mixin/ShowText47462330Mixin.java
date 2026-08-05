@@ -28,7 +28,7 @@ public class ShowText47462330Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_85725072(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(85725072L))
-            info.setReturnValue(-1357629408);
+            info.setReturnValue(-1899789508);
     }
 
     @Inject(at = @At("HEAD"), method = "action()Lnet/minecraft/network/chat/HoverEvent$Action;", cancellable = true)

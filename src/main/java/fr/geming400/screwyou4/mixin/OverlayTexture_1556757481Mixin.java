@@ -16,25 +16,25 @@ public class OverlayTexture_1556757481Mixin {
     @Inject(at = @At("HEAD"), method = "v(Z)I", cancellable = true)
     private static void v__1508605232(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1508605232L))
-            info.setReturnValue(241133232);
+            info.setReturnValue(-159420368);
     }
 
     @Inject(at = @At("HEAD"), method = "u(F)I", cancellable = true)
     private static void u__1527075652(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1527075652L))
-            info.setReturnValue(-2099630191);
+            info.setReturnValue(1794783505);
     }
 
     @Inject(at = @At("HEAD"), method = "pack(II)I", cancellable = true)
     private static void pack_560865766(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(560865766L))
-            info.setReturnValue(1701822025);
+            info.setReturnValue(1301268425);
     }
 
     @Inject(at = @At("HEAD"), method = "pack(FZ)I", cancellable = true)
     private static void pack_490678170(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(490678170L))
-            info.setReturnValue(1201903953);
+            info.setReturnValue(801350353);
     }
 
     @Inject(at = @At("HEAD"), method = "getTextureView()Lcom/mojang/blaze3d/textures/GpuTextureView;", cancellable = true)

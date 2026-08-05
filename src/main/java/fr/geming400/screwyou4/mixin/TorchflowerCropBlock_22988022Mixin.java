@@ -25,16 +25,16 @@ public class TorchflowerCropBlock_22988022Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "getMaxAge()I", cancellable = true)
+    private void getMaxAge_61250267(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(61250267L))
+            info.setReturnValue(1667295106);
+    }
+
     @Inject(at = @At("HEAD"), method = "getStateForAge(I)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
     private void getStateForAge_1262545290(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1262545290L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getMaxAge()I", cancellable = true)
-    private void getMaxAge_61250267(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(61250267L))
-            info.setReturnValue(2055759206);
     }
 
 

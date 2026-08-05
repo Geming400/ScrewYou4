@@ -22,7 +22,7 @@ public class SetBlockProperties337554656Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_375817398(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(375817398L))
-            info.setReturnValue(1059529488);
+            info.setReturnValue(364553188);
     }
 
     @Inject(at = @At("HEAD"), method = "apply(Lnet/minecraft/server/level/ServerLevel;ILnet/minecraft/world/item/enchantment/EnchantedItemInUse;Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/phys/Vec3;)V", cancellable = true)

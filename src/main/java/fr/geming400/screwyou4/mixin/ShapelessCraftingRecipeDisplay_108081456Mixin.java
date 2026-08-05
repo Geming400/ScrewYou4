@@ -28,7 +28,7 @@ public class ShapelessCraftingRecipeDisplay_108081456Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_146344197(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(146344197L))
-            info.setReturnValue(699218222);
+            info.setReturnValue(1131695122);
     }
 
     @Inject(at = @At("HEAD"), method = "result()Lnet/minecraft/world/item/crafting/display/SlotDisplay;", cancellable = true)

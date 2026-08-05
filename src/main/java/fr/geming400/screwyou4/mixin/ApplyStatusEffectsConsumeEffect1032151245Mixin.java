@@ -22,7 +22,7 @@ public class ApplyStatusEffectsConsumeEffect1032151245Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1070413987(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1070413987L))
-            info.setReturnValue(-1364979608);
+            info.setReturnValue(-920328408);
     }
 
     @Inject(at = @At("HEAD"), method = "apply(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/LivingEntity;)Z", cancellable = true)
@@ -37,16 +37,16 @@ public class ApplyStatusEffectsConsumeEffect1032151245Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "probability()F", cancellable = true)
+    private void probability_1070410608(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1070410608L))
+            info.setReturnValue(9.71609E8F);
+    }
+
     @Inject(at = @At("HEAD"), method = "effects()Ljava/util/List;", cancellable = true)
     private void effects__1636479235(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1636479235L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "probability()F", cancellable = true)
-    private void probability_1070410608(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1070410608L))
-            info.setReturnValue(5.269578E8F);
     }
 
 

@@ -22,7 +22,7 @@ public class SoundEvent332700829Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_370963571(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(370963571L))
-            info.setReturnValue(55953665);
+            info.setReturnValue(-198837235);
     }
 
     @Inject(at = @At("HEAD"), method = "location()Lnet/minecraft/resources/Identifier;", cancellable = true)
@@ -34,7 +34,7 @@ public class SoundEvent332700829Mixin {
     @Inject(at = @At("HEAD"), method = "getRange(F)F", cancellable = true)
     private void getRange_1543831862(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1543831862L))
-            info.setReturnValue(3.903569E8F);
+            info.setReturnValue(1.35566E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "createFixedRangeEvent(Lnet/minecraft/resources/Identifier;F)Lnet/minecraft/sounds/SoundEvent;", cancellable = true)

@@ -34,7 +34,7 @@ public class PlayerModelPart_2059330499Mixin {
     @Inject(at = @At("HEAD"), method = "getMask()I", cancellable = true)
     private void getMask_2097592744(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2097592744L))
-            info.setReturnValue(1933814385);
+            info.setReturnValue(1594589985);
     }
 
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
@@ -46,7 +46,7 @@ public class PlayerModelPart_2059330499Mixin {
     @Inject(at = @At("HEAD"), method = "getBit()I", cancellable = true)
     private void getBit_2097592744(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2097592744L))
-            info.setReturnValue(1933814385);
+            info.setReturnValue(1594589985);
     }
 
 

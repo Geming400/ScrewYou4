@@ -22,7 +22,7 @@ public class TargetInput1997438372Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2035701114(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2035701114L))
-            info.setReturnValue(836214844);
+            info.setReturnValue(1320962544);
     }
 
     @Inject(at = @At("HEAD"), method = "texture(Ljava/util/Map;)Lcom/mojang/blaze3d/textures/GpuTextureView;", cancellable = true)
@@ -49,16 +49,16 @@ public class TargetInput1997438372Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "samplerName()Ljava/lang/String;", cancellable = true)
-    private void samplerName_861977901(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(861977901L))
-            info.setReturnValue("uA9&J=`");
-    }
-
     @Inject(at = @At("HEAD"), method = "depthBuffer()Z", cancellable = true)
     private void depthBuffer_2035716955(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2035716955L))
             info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "samplerName()Ljava/lang/String;", cancellable = true)
+    private void samplerName_861977901(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(861977901L))
+            info.setReturnValue("uA9&J=`");
     }
 
 

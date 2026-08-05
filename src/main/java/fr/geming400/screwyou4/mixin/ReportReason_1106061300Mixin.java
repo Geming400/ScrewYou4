@@ -25,6 +25,12 @@ public class ReportReason_1106061300Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "backendName()Ljava/lang/String;", cancellable = true)
+    private void backendName__29399172(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-29399172L))
+            info.setReturnValue("y:0n7=\u9235M:wJ|Jr\uC2CCI\uC929kg4/]mUo.2orQaC8oMT\u4B02*4I.2B?t=r\uC982&\"&CZl0t.)TC<YRkBT3]#A\u700A!s");
+    }
+
     @Inject(at = @At("HEAD"), method = "title()Lnet/minecraft/network/chat/Component;", cancellable = true)
     private void title__1070847866(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1070847866L))
@@ -35,12 +41,6 @@ public class ReportReason_1106061300Mixin {
     private static void getIncompatibleCategories_2095970875(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2095970875L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "backendName()Ljava/lang/String;", cancellable = true)
-    private void backendName__29399172(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-29399172L))
-            info.setReturnValue("y:0n7=\u9235M:wJ|Jr\uC2CCI\uC929kg4/]mUo.2orQaC8oMT\u4B02*4I.2B?t=r\uC982&\"&CZl0t.)TC<YRkBT3]#A\u700A!s");
     }
 
 

@@ -25,16 +25,16 @@ public class DragonHoldingPatternPhase_1129469171Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "onCrystalDestroyed(Lnet/minecraft/world/entity/boss/enderdragon/EndCrystal;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/damagesource/DamageSource;Lnet/minecraft/world/entity/player/Player;)V", cancellable = true)
-    private void onCrystalDestroyed__1761224834(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1761224834L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "getFlyTargetLocation()Lnet/minecraft/world/phys/Vec3;", cancellable = true)
     private void getFlyTargetLocation__2067768597(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2067768597L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "onCrystalDestroyed(Lnet/minecraft/world/entity/boss/enderdragon/EndCrystal;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/damagesource/DamageSource;Lnet/minecraft/world/entity/player/Player;)V", cancellable = true)
+    private void onCrystalDestroyed__1761224834(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1761224834L))
+            info.cancel();
     }
 
 

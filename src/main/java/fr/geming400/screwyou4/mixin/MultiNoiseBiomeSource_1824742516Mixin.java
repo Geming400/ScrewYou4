@@ -13,6 +13,12 @@ public class MultiNoiseBiomeSource_1824742516Mixin {
             info.setReturnValue(false);
     }
 
+    @Inject(at = @At("HEAD"), method = "createFromPreset(Lnet/minecraft/core/Holder;)Lnet/minecraft/world/level/biome/MultiNoiseBiomeSource;", cancellable = true)
+    private static void createFromPreset_234159919(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(234159919L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "createFromList(Lnet/minecraft/world/level/biome/Climate$ParameterList;)Lnet/minecraft/world/level/biome/MultiNoiseBiomeSource;", cancellable = true)
     private static void createFromList_1932145242(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1932145242L))
@@ -28,12 +34,6 @@ public class MultiNoiseBiomeSource_1824742516Mixin {
     @Inject(at = @At("HEAD"), method = "getNoiseBiome(Lnet/minecraft/world/level/biome/Climate$TargetPoint;)Lnet/minecraft/core/Holder;", cancellable = true)
     private void getNoiseBiome_2011764497(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2011764497L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "createFromPreset(Lnet/minecraft/core/Holder;)Lnet/minecraft/world/level/biome/MultiNoiseBiomeSource;", cancellable = true)
-    private static void createFromPreset_234159919(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(234159919L))
             info.setReturnValue(null);
     }
 

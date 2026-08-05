@@ -22,13 +22,13 @@ public class MaterialInfo_360360757Mixin {
     @Inject(at = @At("HEAD"), method = "flags()I", cancellable = true)
     private void flags_398623002(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(398623002L))
-            info.setReturnValue(-103963470);
+            info.setReturnValue(-184907270);
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_398623498(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(398623498L))
-            info.setReturnValue(-307110889);
+            info.setReturnValue(-388054689);
     }
 
     @Inject(at = @At("HEAD"), method = "of(Lnet/minecraft/client/resources/model/sprite/Material$Baked;Lcom/mojang/blaze3d/platform/Transparency;IZI)Lnet/minecraft/client/resources/model/geometry/BakedQuad$MaterialInfo;", cancellable = true)
@@ -43,22 +43,22 @@ public class MaterialInfo_360360757Mixin {
             info.setReturnValue(net.minecraft.client.renderer.chunk.ChunkSectionLayer.SOLID);
     }
 
-    @Inject(at = @At("HEAD"), method = "sprite()Lnet/minecraft/client/renderer/texture/TextureAtlasSprite;", cancellable = true)
-    private void sprite__1630645059(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1630645059L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "lightEmission()I", cancellable = true)
     private void lightEmission_398623002(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(398623002L))
-            info.setReturnValue(-103963470);
+            info.setReturnValue(-184907270);
     }
 
     @Inject(at = @At("HEAD"), method = "isTinted()Z", cancellable = true)
     private void isTinted_398639339(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(398639339L))
             info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "sprite()Lnet/minecraft/client/renderer/texture/TextureAtlasSprite;", cancellable = true)
+    private void sprite__1630645059(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1630645059L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "shade()Z", cancellable = true)
@@ -70,7 +70,7 @@ public class MaterialInfo_360360757Mixin {
     @Inject(at = @At("HEAD"), method = "tintIndex()I", cancellable = true)
     private void tintIndex_398623002(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(398623002L))
-            info.setReturnValue(-103963470);
+            info.setReturnValue(-184907270);
     }
 
     @Inject(at = @At("HEAD"), method = "itemRenderType()Lnet/minecraft/client/renderer/rendertype/RenderType;", cancellable = true)

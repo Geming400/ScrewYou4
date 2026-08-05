@@ -22,7 +22,7 @@ public class GlobalPos_1785360525Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1823623266(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1823623266L))
-            info.setReturnValue(488084937);
+            info.setReturnValue(573109137);
     }
 
     @Inject(at = @At("HEAD"), method = "of(Lnet/minecraft/resources/ResourceKey;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/core/GlobalPos;", cancellable = true)
@@ -37,16 +37,16 @@ public class GlobalPos_1785360525Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "dimension()Lnet/minecraft/resources/ResourceKey;", cancellable = true)
-    private void dimension__1701115459(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1701115459L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "isCloseEnough(Lnet/minecraft/resources/ResourceKey;Lnet/minecraft/core/BlockPos;I)Z", cancellable = true)
     private void isCloseEnough__1168715540(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1168715540L))
             info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "dimension()Lnet/minecraft/resources/ResourceKey;", cancellable = true)
+    private void dimension__1701115459(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1701115459L))
+            info.setReturnValue(null);
     }
 
 

@@ -13,6 +13,12 @@ public class Arrow_94181061Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "getColor()I", cancellable = true)
+    private void getColor_132443306(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(132443306L))
+            info.setReturnValue(-1727850297);
+    }
+
     @Inject(at = @At("HEAD"), method = "addEffect(Lnet/minecraft/world/effect/MobEffectInstance;)V", cancellable = true)
     private void addEffect_250049293(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(250049293L))
@@ -23,12 +29,6 @@ public class Arrow_94181061Mixin {
     private void handleEntityEvent_1301633385(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1301633385L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "getColor()I", cancellable = true)
-    private void getColor_132443306(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(132443306L))
-            info.setReturnValue(-1319555797);
     }
 
 

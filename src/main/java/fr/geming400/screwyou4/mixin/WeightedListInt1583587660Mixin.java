@@ -16,19 +16,19 @@ public class WeightedListInt1583587660Mixin {
     @Inject(at = @At("HEAD"), method = "minInclusive()I", cancellable = true)
     private void minInclusive_1621849906(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1621849906L))
-            info.setReturnValue(2147283644);
+            info.setReturnValue(-1262097652);
     }
 
     @Inject(at = @At("HEAD"), method = "maxInclusive()I", cancellable = true)
     private void maxInclusive_1621849906(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1621849906L))
-            info.setReturnValue(2147283644);
+            info.setReturnValue(-1262097652);
     }
 
     @Inject(at = @At("HEAD"), method = "sample(Lnet/minecraft/util/RandomSource;)I", cancellable = true)
     private void sample__123439918(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-123439918L))
-            info.setReturnValue(-679696666);
+            info.setReturnValue(205889334);
     }
 
 

@@ -25,27 +25,15 @@ public class SulfurCubeRenderer1944053029Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getTextureLocation(Lnet/minecraft/client/renderer/entity/state/SulfurCubeRenderState;)Lnet/minecraft/resources/Identifier;", cancellable = true)
-    private void getTextureLocation_1610425372(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1610425372L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getTextureLocation(Lnet/minecraft/client/renderer/entity/state/LivingEntityRenderState;)Lnet/minecraft/resources/Identifier;", cancellable = true)
-    private void getTextureLocation__348277634(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-348277634L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/client/renderer/entity/state/LivingEntityRenderState;F)V", cancellable = true)
+    private void extractRenderState__1331050064(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1331050064L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/client/renderer/entity/state/EntityRenderState;F)V", cancellable = true)
     private void extractRenderState__2123795248(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-2123795248L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/entity/monster/cubemob/SulfurCube;Lnet/minecraft/client/renderer/entity/state/SulfurCubeRenderState;F)V", cancellable = true)
-    private void extractRenderState_540334761(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(540334761L))
             info.cancel();
     }
 
@@ -55,10 +43,16 @@ public class SulfurCubeRenderer1944053029Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/client/renderer/entity/state/LivingEntityRenderState;F)V", cancellable = true)
-    private void extractRenderState__1331050064(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1331050064L))
+    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/entity/monster/cubemob/SulfurCube;Lnet/minecraft/client/renderer/entity/state/SulfurCubeRenderState;F)V", cancellable = true)
+    private void extractRenderState_540334761(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(540334761L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/EntityRenderState;", cancellable = true)
+    private void createRenderState_1355416585(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1355416585L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/SulfurCubeRenderState;", cancellable = true)
@@ -67,9 +61,15 @@ public class SulfurCubeRenderer1944053029Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/EntityRenderState;", cancellable = true)
-    private void createRenderState_1355416585(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1355416585L))
+    @Inject(at = @At("HEAD"), method = "getTextureLocation(Lnet/minecraft/client/renderer/entity/state/LivingEntityRenderState;)Lnet/minecraft/resources/Identifier;", cancellable = true)
+    private void getTextureLocation__348277634(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-348277634L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getTextureLocation(Lnet/minecraft/client/renderer/entity/state/SulfurCubeRenderState;)Lnet/minecraft/resources/Identifier;", cancellable = true)
+    private void getTextureLocation_1610425372(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1610425372L))
             info.setReturnValue(null);
     }
 

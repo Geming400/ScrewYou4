@@ -73,22 +73,28 @@ public class PalettedContainer651327146Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "forEachInPalette(Ljava/util/function/Consumer;)V", cancellable = true)
+    private void forEachInPalette_1332343559(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1332343559L))
+            info.cancel();
+    }
+
     @Inject(at = @At("HEAD"), method = "unpack(Lnet/minecraft/world/level/chunk/Strategy;Lnet/minecraft/world/level/chunk/PalettedContainerRO$PackedData;)Lcom/mojang/serialization/DataResult;", cancellable = true)
     private static void unpack__2034060721(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2034060721L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "onResize(ILjava/lang/Object;)I", cancellable = true)
-    private void onResize_1779074661(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1779074661L))
-            info.setReturnValue(-1642564214);
-    }
-
     @Inject(at = @At("HEAD"), method = "recreate()Lnet/minecraft/world/level/chunk/PalettedContainer;", cancellable = true)
     private void recreate__843421708(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-843421708L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "onResize(ILjava/lang/Object;)I", cancellable = true)
+    private void onResize_1779074661(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1779074661L))
+            info.setReturnValue(-1624576014);
     }
 
     @Inject(at = @At("HEAD"), method = "codecRW(Lcom/mojang/serialization/Codec;Lnet/minecraft/world/level/chunk/Strategy;Ljava/lang/Object;)Lcom/mojang/serialization/Codec;", cancellable = true)
@@ -103,22 +109,10 @@ public class PalettedContainer651327146Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "forEachInPalette(Ljava/util/function/Consumer;)V", cancellable = true)
-    private void forEachInPalette_1332343559(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1332343559L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "maybeHas(Ljava/util/function/Predicate;)Z", cancellable = true)
     private void maybeHas_721687536(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(721687536L))
             info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getSerializedSize()I", cancellable = true)
-    private void getSerializedSize_689589392(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(689589392L))
-            info.setReturnValue(1162098350);
     }
 
     @Inject(at = @At("HEAD"), method = "getAndSetUnchecked(IIILjava/lang/Object;)Ljava/lang/Object;", cancellable = true)
@@ -130,7 +124,13 @@ public class PalettedContainer651327146Mixin {
     @Inject(at = @At("HEAD"), method = "bitsPerEntry()I", cancellable = true)
     private void bitsPerEntry_689589392(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(689589392L))
-            info.setReturnValue(1162098350);
+            info.setReturnValue(1180086550);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getSerializedSize()I", cancellable = true)
+    private void getSerializedSize_689589392(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(689589392L))
+            info.setReturnValue(1180086550);
     }
 
 

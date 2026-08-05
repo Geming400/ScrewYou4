@@ -25,15 +25,9 @@ public class MinecraftApi_86262347Mixin {
             info.setReturnValue(new java.util.concurrent.CompletableFuture());
     }
 
-    @Inject(at = @At("HEAD"), method = "notificationManager()Lnet/minecraft/server/notifications/NotificationManager;", cancellable = true)
-    private void notificationManager_1364893653(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1364893653L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "banListService()Lnet/minecraft/server/jsonrpc/internalapi/MinecraftBanListService;", cancellable = true)
-    private void banListService_1989570463(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1989570463L))
+    @Inject(at = @At("HEAD"), method = "playerListService()Lnet/minecraft/server/jsonrpc/internalapi/MinecraftPlayerListService;", cancellable = true)
+    private void playerListService_2050094697(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2050094697L))
             info.setReturnValue(null);
     }
 
@@ -49,21 +43,27 @@ public class MinecraftApi_86262347Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "gameRuleService()Lnet/minecraft/server/jsonrpc/internalapi/MinecraftGameRuleService;", cancellable = true)
-    private void gameRuleService__1342378600(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1342378600L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "playerListService()Lnet/minecraft/server/jsonrpc/internalapi/MinecraftPlayerListService;", cancellable = true)
-    private void playerListService_2050094697(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2050094697L))
+    @Inject(at = @At("HEAD"), method = "banListService()Lnet/minecraft/server/jsonrpc/internalapi/MinecraftBanListService;", cancellable = true)
+    private void banListService_1989570463(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1989570463L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "operatorListService()Lnet/minecraft/server/jsonrpc/internalapi/MinecraftOperatorListService;", cancellable = true)
     private void operatorListService__599227412(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-599227412L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "gameRuleService()Lnet/minecraft/server/jsonrpc/internalapi/MinecraftGameRuleService;", cancellable = true)
+    private void gameRuleService__1342378600(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1342378600L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "notificationManager()Lnet/minecraft/server/notifications/NotificationManager;", cancellable = true)
+    private void notificationManager_1364893653(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1364893653L))
             info.setReturnValue(null);
     }
 

@@ -13,14 +13,14 @@ public class GolemSensor1185024280Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "checkForNearbyGolem(Lnet/minecraft/world/entity/LivingEntity;)V", cancellable = true)
-    private static void checkForNearbyGolem_1506687859(CallbackInfo info) {
+    @Inject(at = @At("HEAD"), method = "golemDetected(Lnet/minecraft/world/entity/LivingEntity;)V", cancellable = true)
+    private static void golemDetected_1506687859(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1506687859L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "golemDetected(Lnet/minecraft/world/entity/LivingEntity;)V", cancellable = true)
-    private static void golemDetected_1506687859(CallbackInfo info) {
+    @Inject(at = @At("HEAD"), method = "checkForNearbyGolem(Lnet/minecraft/world/entity/LivingEntity;)V", cancellable = true)
+    private static void checkForNearbyGolem_1506687859(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1506687859L))
             info.cancel();
     }

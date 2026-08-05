@@ -22,25 +22,19 @@ public class RetryOptions1076360264Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1114623006(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1114623006L))
-            info.setReturnValue(454639680);
-    }
-
-    @Inject(at = @At("HEAD"), method = "noRetries()Lnet/minecraft/gametest/framework/RetryOptions;", cancellable = true)
-    private static void noRetries_215215078(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(215215078L))
-            info.setReturnValue(null);
+            info.setReturnValue(353397580);
     }
 
     @Inject(at = @At("HEAD"), method = "numberOfTries()I", cancellable = true)
     private void numberOfTries_1114622510(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1114622510L))
-            info.setReturnValue(633163170);
+            info.setReturnValue(531921070);
     }
 
-    @Inject(at = @At("HEAD"), method = "hasTriesLeft(II)Z", cancellable = true)
-    private void hasTriesLeft_80484639(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(80484639L))
-            info.setReturnValue(true);
+    @Inject(at = @At("HEAD"), method = "hasRetries()Z", cancellable = true)
+    private void hasRetries_1114638847(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1114638847L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "unlimitedTries()Z", cancellable = true)
@@ -55,10 +49,16 @@ public class RetryOptions1076360264Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "hasRetries()Z", cancellable = true)
-    private void hasRetries_1114638847(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1114638847L))
-            info.setReturnValue(false);
+    @Inject(at = @At("HEAD"), method = "hasTriesLeft(II)Z", cancellable = true)
+    private void hasTriesLeft_80484639(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(80484639L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "noRetries()Lnet/minecraft/gametest/framework/RetryOptions;", cancellable = true)
+    private static void noRetries_215215078(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(215215078L))
+            info.setReturnValue(null);
     }
 
 

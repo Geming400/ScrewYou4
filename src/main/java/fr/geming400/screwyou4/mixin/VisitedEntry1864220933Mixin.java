@@ -34,7 +34,7 @@ public class VisitedEntry1864220933Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1902483675(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1902483675L))
-            info.setReturnValue(-644987634);
+            info.setReturnValue(-523132934);
     }
 
 

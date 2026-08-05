@@ -22,25 +22,25 @@ public class SoundSettings_136076941Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_174339682(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(174339682L))
-            info.setReturnValue(244149634);
+            info.setReturnValue(26835134);
+    }
+
+    @Inject(at = @At("HEAD"), method = "pushSoundImpulseThreshold()F", cancellable = true)
+    private void pushSoundImpulseThreshold_174336303(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(174336303L))
+            info.setReturnValue(5.255495E8F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "pushSoundCooldown()F", cancellable = true)
+    private void pushSoundCooldown_174336303(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(174336303L))
+            info.setReturnValue(5.255495E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "pushSound()Lnet/minecraft/core/Holder;", cancellable = true)
     private void pushSound_1684952712(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1684952712L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "pushSoundImpulseThreshold()F", cancellable = true)
-    private void pushSoundImpulseThreshold_174336303(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(174336303L))
-            info.setReturnValue(7.42864E8F);
-    }
-
-    @Inject(at = @At("HEAD"), method = "pushSoundCooldown()F", cancellable = true)
-    private void pushSoundCooldown_174336303(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(174336303L))
-            info.setReturnValue(7.42864E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "hitSound()Lnet/minecraft/core/Holder;", cancellable = true)

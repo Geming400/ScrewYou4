@@ -22,13 +22,19 @@ public class ChunkLevel1918983151Mixin {
     @Inject(at = @At("HEAD"), method = "byStatus(Lnet/minecraft/server/level/FullChunkStatus;)I", cancellable = true)
     private static void byStatus_1893781967(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1893781967L))
-            info.setReturnValue(1361559447);
+            info.setReturnValue(1834407247);
     }
 
     @Inject(at = @At("HEAD"), method = "byStatus(Lnet/minecraft/world/level/chunk/status/ChunkStatus;)I", cancellable = true)
     private static void byStatus_602364604(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(602364604L))
-            info.setReturnValue(-1690600097);
+            info.setReturnValue(-1217752297);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isEntityTicking(I)Z", cancellable = true)
+    private static void isEntityTicking__1162063081(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1162063081L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "generationStatus(I)Lnet/minecraft/world/level/chunk/status/ChunkStatus;", cancellable = true)
@@ -37,8 +43,8 @@ public class ChunkLevel1918983151Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "isEntityTicking(I)Z", cancellable = true)
-    private static void isEntityTicking__1162063081(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "isBlockTicking(I)Z", cancellable = true)
+    private static void isBlockTicking__1162063081(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1162063081L))
             info.setReturnValue(true);
     }
@@ -53,12 +59,6 @@ public class ChunkLevel1918983151Mixin {
     private static void getStatusAroundFullChunk_696311917(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(696311917L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isBlockTicking(I)Z", cancellable = true)
-    private static void isBlockTicking__1162063081(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1162063081L))
-            info.setReturnValue(true);
     }
 
 

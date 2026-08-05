@@ -25,10 +25,10 @@ public class TeleportToTeamMenuCategory_1507211248Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "extractIcon(Lnet/minecraft/client/gui/GuiGraphicsExtractor;FF)V", cancellable = true)
-    private void extractIcon__1661240233(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1661240233L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "getPrompt()Lnet/minecraft/network/chat/Component;", cancellable = true)
+    private void getPrompt__669697918(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-669697918L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "selectItem(Lnet/minecraft/client/gui/spectator/SpectatorMenu;)V", cancellable = true)
@@ -37,10 +37,10 @@ public class TeleportToTeamMenuCategory_1507211248Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getPrompt()Lnet/minecraft/network/chat/Component;", cancellable = true)
-    private void getPrompt__669697918(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-669697918L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "extractIcon(Lnet/minecraft/client/gui/GuiGraphicsExtractor;FF)V", cancellable = true)
+    private void extractIcon__1661240233(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1661240233L))
+            info.cancel();
     }
 
 

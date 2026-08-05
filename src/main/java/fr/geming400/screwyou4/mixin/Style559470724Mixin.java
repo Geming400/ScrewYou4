@@ -22,24 +22,24 @@ public class Style559470724Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_597733466(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(597733466L))
-            info.setReturnValue(-851074186);
+            info.setReturnValue(-209658186);
     }
 
     @Inject(at = @At("HEAD"), method = "scale()F", cancellable = true)
     private void scale_597730087(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(597730087L))
-            info.setReturnValue(8.28395E7F);
+            info.setReturnValue(7.252568E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "color()I", cancellable = true)
     private void color_597732970(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(597732970L))
-            info.setReturnValue(2046485104);
+            info.setReturnValue(-1606064892);
     }
 
-    @Inject(at = @At("HEAD"), method = "forColor(I)Lnet/minecraft/gizmos/TextGizmo$Style;", cancellable = true)
-    private static void forColor_1897727609(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1897727609L))
+    @Inject(at = @At("HEAD"), method = "withScale(F)Lnet/minecraft/gizmos/TextGizmo$Style;", cancellable = true)
+    private void withScale_1525507620(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1525507620L))
             info.setReturnValue(null);
     }
 
@@ -49,14 +49,8 @@ public class Style559470724Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "forColorAndCentered(I)Lnet/minecraft/gizmos/TextGizmo$Style;", cancellable = true)
-    private static void forColorAndCentered_1897727609(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1897727609L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "withScale(F)Lnet/minecraft/gizmos/TextGizmo$Style;", cancellable = true)
-    private void withScale_1525507620(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "withLeftAlignment(F)Lnet/minecraft/gizmos/TextGizmo$Style;", cancellable = true)
+    private void withLeftAlignment_1525507620(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1525507620L))
             info.setReturnValue(null);
     }
@@ -67,9 +61,15 @@ public class Style559470724Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "withLeftAlignment(F)Lnet/minecraft/gizmos/TextGizmo$Style;", cancellable = true)
-    private void withLeftAlignment_1525507620(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1525507620L))
+    @Inject(at = @At("HEAD"), method = "forColorAndCentered(I)Lnet/minecraft/gizmos/TextGizmo$Style;", cancellable = true)
+    private static void forColorAndCentered_1897727609(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1897727609L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "forColor(I)Lnet/minecraft/gizmos/TextGizmo$Style;", cancellable = true)
+    private static void forColor_1897727609(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1897727609L))
             info.setReturnValue(null);
     }
 

@@ -34,7 +34,7 @@ public class DyeColor783500751Mixin {
     @Inject(at = @At("HEAD"), method = "getId()I", cancellable = true)
     private void getId_821762997(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(821762997L))
-            info.setReturnValue(-1572154521);
+            info.setReturnValue(-1308945921);
     }
 
     @Inject(at = @At("HEAD"), method = "byName(Ljava/lang/String;Lnet/minecraft/world/item/DyeColor;)Lnet/minecraft/world/item/DyeColor;", cancellable = true)
@@ -43,38 +43,8 @@ public class DyeColor783500751Mixin {
             info.setReturnValue(net.minecraft.world.item.DyeColor.GREEN);
     }
 
-    @Inject(at = @At("HEAD"), method = "getTerracottaColor()Lnet/minecraft/world/level/material/MapColor;", cancellable = true)
-    private void getTerracottaColor__1270156224(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1270156224L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getTextureDiffuseColor()I", cancellable = true)
-    private void getTextureDiffuseColor_821762997(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(821762997L))
-            info.setReturnValue(-1572154521);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getFireworkColor()I", cancellable = true)
-    private void getFireworkColor_821762997(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(821762997L))
-            info.setReturnValue(-1572154521);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getMixedColor(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/item/DyeColor;Lnet/minecraft/world/item/DyeColor;)Lnet/minecraft/world/item/DyeColor;", cancellable = true)
-    private static void getMixedColor_687478206(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(687478206L))
-            info.setReturnValue(net.minecraft.world.item.DyeColor.RED);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getTextColor()I", cancellable = true)
-    private void getTextColor_821762997(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(821762997L))
-            info.setReturnValue(-1572154521);
-    }
-
-    @Inject(at = @At("HEAD"), method = "byFireworkColor(I)Lnet/minecraft/world/item/DyeColor;", cancellable = true)
-    private static void byFireworkColor_168679878(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "byId(I)Lnet/minecraft/world/item/DyeColor;", cancellable = true)
+    private static void byId_168679878(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(168679878L))
             info.setReturnValue(net.minecraft.world.item.DyeColor.ORANGE);
     }
@@ -85,16 +55,46 @@ public class DyeColor783500751Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "byId(I)Lnet/minecraft/world/item/DyeColor;", cancellable = true)
-    private static void byId_168679878(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(168679878L))
-            info.setReturnValue(net.minecraft.world.item.DyeColor.ORANGE);
-    }
-
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName__351959720(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-351959720L))
             info.setReturnValue("0svR\u3B57#;*@|[]>,sMWG+IbEefTU\u7237!4pi\u1E22>YA}Xb\u5ACC!K\u928C");
+    }
+
+    @Inject(at = @At("HEAD"), method = "getMixedColor(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/item/DyeColor;Lnet/minecraft/world/item/DyeColor;)Lnet/minecraft/world/item/DyeColor;", cancellable = true)
+    private static void getMixedColor_687478206(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(687478206L))
+            info.setReturnValue(net.minecraft.world.item.DyeColor.RED);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getTextureDiffuseColor()I", cancellable = true)
+    private void getTextureDiffuseColor_821762997(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(821762997L))
+            info.setReturnValue(-1308945921);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getTextColor()I", cancellable = true)
+    private void getTextColor_821762997(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(821762997L))
+            info.setReturnValue(-1308945921);
+    }
+
+    @Inject(at = @At("HEAD"), method = "byFireworkColor(I)Lnet/minecraft/world/item/DyeColor;", cancellable = true)
+    private static void byFireworkColor_168679878(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(168679878L))
+            info.setReturnValue(net.minecraft.world.item.DyeColor.ORANGE);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getFireworkColor()I", cancellable = true)
+    private void getFireworkColor_821762997(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(821762997L))
+            info.setReturnValue(-1308945921);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getTerracottaColor()Lnet/minecraft/world/level/material/MapColor;", cancellable = true)
+    private void getTerracottaColor__1270156224(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1270156224L))
+            info.setReturnValue(null);
     }
 
 

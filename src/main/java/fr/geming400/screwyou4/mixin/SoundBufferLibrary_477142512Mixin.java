@@ -19,16 +19,16 @@ public class SoundBufferLibrary_477142512Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getCompleteBuffer(Lnet/minecraft/resources/Identifier;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
-    private void getCompleteBuffer_874283140(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(874283140L))
-            info.setReturnValue(new java.util.concurrent.CompletableFuture());
-    }
-
     @Inject(at = @At("HEAD"), method = "getStream(Lnet/minecraft/resources/Identifier;Z)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
     private void getStream_1036718922(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1036718922L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getCompleteBuffer(Lnet/minecraft/resources/Identifier;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
+    private void getCompleteBuffer_874283140(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(874283140L))
+            info.setReturnValue(new java.util.concurrent.CompletableFuture());
     }
 
     @Inject(at = @At("HEAD"), method = "preload(Ljava/util/Collection;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)

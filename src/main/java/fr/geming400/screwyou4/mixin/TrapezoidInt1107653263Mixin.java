@@ -22,7 +22,7 @@ public class TrapezoidInt1107653263Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1145916005(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1145916005L))
-            info.setReturnValue(886254341);
+            info.setReturnValue(840863041);
     }
 
     @Inject(at = @At("HEAD"), method = "of(III)Lnet/minecraft/util/valueproviders/TrapezoidInt;", cancellable = true)
@@ -40,19 +40,19 @@ public class TrapezoidInt1107653263Mixin {
     @Inject(at = @At("HEAD"), method = "minInclusive()I", cancellable = true)
     private void minInclusive_1145915509(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1145915509L))
-            info.setReturnValue(1090400460);
+            info.setReturnValue(1044010460);
     }
 
     @Inject(at = @At("HEAD"), method = "maxInclusive()I", cancellable = true)
     private void maxInclusive_1145915509(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1145915509L))
-            info.setReturnValue(1090400460);
+            info.setReturnValue(1044010460);
     }
 
     @Inject(at = @At("HEAD"), method = "sample(Lnet/minecraft/util/RandomSource;)I", cancellable = true)
     private void sample__599374315(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-599374315L))
-            info.setReturnValue(936720094);
+            info.setReturnValue(890330094);
     }
 
     @Inject(at = @At("HEAD"), method = "triangle(I)Lnet/minecraft/util/valueproviders/IntProvider;", cancellable = true)
@@ -64,7 +64,7 @@ public class TrapezoidInt1107653263Mixin {
     @Inject(at = @At("HEAD"), method = "plateau()I", cancellable = true)
     private void plateau_1145915509(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1145915509L))
-            info.setReturnValue(1090400460);
+            info.setReturnValue(1044010460);
     }
 
 

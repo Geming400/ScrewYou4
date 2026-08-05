@@ -13,16 +13,16 @@ public class CreateFlatWorldScreen423505467Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "settings()Lnet/minecraft/world/level/levelgen/flat/FlatLevelGeneratorSettings;", cancellable = true)
-    private void settings__1303079473(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1303079473L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "setConfig(Lnet/minecraft/world/level/levelgen/flat/FlatLevelGeneratorSettings;)V", cancellable = true)
     private void setConfig__603637117(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-603637117L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "settings()Lnet/minecraft/world/level/levelgen/flat/FlatLevelGeneratorSettings;", cancellable = true)
+    private void settings__1303079473(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1303079473L))
+            info.setReturnValue(null);
     }
 
 

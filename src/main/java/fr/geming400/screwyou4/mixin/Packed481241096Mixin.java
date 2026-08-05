@@ -16,7 +16,7 @@ public class Packed481241096Mixin {
     @Inject(at = @At("HEAD"), method = "value()I", cancellable = true)
     private void value_519503342(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(519503342L))
-            info.setReturnValue(2001782525);
+            info.setReturnValue(1982543125);
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
@@ -34,13 +34,13 @@ public class Packed481241096Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_519503838(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(519503838L))
-            info.setReturnValue(1823259035);
+            info.setReturnValue(1804019635);
     }
 
     @Inject(at = @At("HEAD"), method = "max()I", cancellable = true)
     private void max_519503342(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(519503342L))
-            info.setReturnValue(2001782525);
+            info.setReturnValue(1982543125);
     }
 
     @Inject(at = @At("HEAD"), method = "color()Lnet/minecraft/world/BossEvent$BossBarColor;", cancellable = true)
@@ -61,6 +61,12 @@ public class Packed481241096Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "playBossMusic()Z", cancellable = true)
+    private void playBossMusic_519519679(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(519519679L))
+            info.setReturnValue(true);
+    }
+
     @Inject(at = @At("HEAD"), method = "darkenScreen()Z", cancellable = true)
     private void darkenScreen_519519679(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(519519679L))
@@ -69,12 +75,6 @@ public class Packed481241096Mixin {
 
     @Inject(at = @At("HEAD"), method = "createWorldFog()Z", cancellable = true)
     private void createWorldFog_519519679(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(519519679L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "playBossMusic()Z", cancellable = true)
-    private void playBossMusic_519519679(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(519519679L))
             info.setReturnValue(true);
     }

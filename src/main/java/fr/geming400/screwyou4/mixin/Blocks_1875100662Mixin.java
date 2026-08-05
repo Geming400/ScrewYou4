@@ -43,24 +43,6 @@ public class Blocks_1875100662Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "buttonProperties()Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;", cancellable = true)
-    private static void buttonProperties__1736403930(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1736403930L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "netherStemProperties(Lnet/minecraft/world/level/material/MapColor;)Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;", cancellable = true)
-    private static void netherStemProperties_498009322(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(498009322L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "flowerPotProperties()Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;", cancellable = true)
-    private static void flowerPotProperties__1736403930(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1736403930L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "ocelotOrParrot(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/EntityType;)Ljava/lang/Boolean;", cancellable = true)
     private static void ocelotOrParrot__19255756(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-19255756L))
@@ -73,15 +55,33 @@ public class Blocks_1875100662Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "logProperties(Lnet/minecraft/world/level/material/MapColor;Lnet/minecraft/world/level/material/MapColor;Lnet/minecraft/world/level/block/SoundType;)Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;", cancellable = true)
+    private static void logProperties_1579946770(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1579946770L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "litBlockEmission(I)Ljava/util/function/ToIntFunction;", cancellable = true)
     private static void litBlockEmission__148193651(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-148193651L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "logProperties(Lnet/minecraft/world/level/material/MapColor;Lnet/minecraft/world/level/material/MapColor;Lnet/minecraft/world/level/block/SoundType;)Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;", cancellable = true)
-    private static void logProperties_1579946770(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1579946770L))
+    @Inject(at = @At("HEAD"), method = "flowerPotProperties()Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;", cancellable = true)
+    private static void flowerPotProperties__1736403930(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1736403930L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "buttonProperties()Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;", cancellable = true)
+    private static void buttonProperties__1736403930(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1736403930L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "netherStemProperties(Lnet/minecraft/world/level/material/MapColor;)Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;", cancellable = true)
+    private static void netherStemProperties_498009322(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(498009322L))
             info.setReturnValue(null);
     }
 

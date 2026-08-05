@@ -10,25 +10,7 @@ public class BrewingStandBlockEntity519740076Mixin {
         @Inject(at = @At("HEAD"), method = "getContainerSize()I", cancellable = true)
     private void getContainerSize_558002322(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(558002322L))
-            info.setReturnValue(-1415537525);
-    }
-
-    @Inject(at = @At("HEAD"), method = "canPlaceItemThroughFace(ILnet/minecraft/world/item/ItemStack;Lnet/minecraft/core/Direction;)Z", cancellable = true)
-    private void canPlaceItemThroughFace_1980535821(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1980535821L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "canTakeItemThroughFace(ILnet/minecraft/world/item/ItemStack;Lnet/minecraft/core/Direction;)Z", cancellable = true)
-    private void canTakeItemThroughFace_1980535821(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1980535821L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getSlotsForFace(Lnet/minecraft/core/Direction;)[I", cancellable = true)
-    private void getSlotsForFace_161094381(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(161094381L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1366026625);
     }
 
     @Inject(at = @At("HEAD"), method = "canPlaceItem(ILnet/minecraft/world/item/ItemStack;)Z", cancellable = true)
@@ -41,6 +23,24 @@ public class BrewingStandBlockEntity519740076Mixin {
     private static void serverTick__406459250(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-406459250L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getSlotsForFace(Lnet/minecraft/core/Direction;)[I", cancellable = true)
+    private void getSlotsForFace_161094381(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(161094381L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "canTakeItemThroughFace(ILnet/minecraft/world/item/ItemStack;Lnet/minecraft/core/Direction;)Z", cancellable = true)
+    private void canTakeItemThroughFace_1980535821(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1980535821L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "canPlaceItemThroughFace(ILnet/minecraft/world/item/ItemStack;Lnet/minecraft/core/Direction;)Z", cancellable = true)
+    private void canPlaceItemThroughFace_1980535821(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1980535821L))
+            info.setReturnValue(true);
     }
 
 

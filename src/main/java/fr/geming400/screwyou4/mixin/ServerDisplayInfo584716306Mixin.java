@@ -28,7 +28,7 @@ public class ServerDisplayInfo584716306Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_622979048(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(622979048L))
-            info.setReturnValue(-2145850049);
+            info.setReturnValue(1811816447);
     }
 
     @Inject(at = @At("HEAD"), method = "display()Lnet/minecraft/world/item/crafting/display/RecipeDisplayEntry;", cancellable = true)

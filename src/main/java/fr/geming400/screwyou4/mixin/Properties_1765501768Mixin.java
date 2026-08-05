@@ -22,7 +22,13 @@ public class Properties_1765501768Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1803764509(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1803764509L))
-            info.setReturnValue(-1378985704);
+            info.setReturnValue(-2077976804);
+    }
+
+    @Inject(at = @At("HEAD"), method = "overgrown()Z", cancellable = true)
+    private void overgrown_1803780350(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1803780350L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "airPocket()Z", cancellable = true)
@@ -34,17 +40,11 @@ public class Properties_1765501768Mixin {
     @Inject(at = @At("HEAD"), method = "mossiness()F", cancellable = true)
     private void mossiness_1803761130(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1803761130L))
-            info.setReturnValue(9.863267E8F);
+            info.setReturnValue(2.873356E8F);
     }
 
-    @Inject(at = @At("HEAD"), method = "overgrown()Z", cancellable = true)
-    private void overgrown_1803780350(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1803780350L))
-            info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "replaceWithBlackstone()Z", cancellable = true)
-    private void replaceWithBlackstone_1803780350(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "cold()Z", cancellable = true)
+    private void cold_1803780350(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1803780350L))
             info.setReturnValue(false);
     }
@@ -55,8 +55,8 @@ public class Properties_1765501768Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "cold()Z", cancellable = true)
-    private void cold_1803780350(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "replaceWithBlackstone()Z", cancellable = true)
+    private void replaceWithBlackstone_1803780350(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1803780350L))
             info.setReturnValue(false);
     }

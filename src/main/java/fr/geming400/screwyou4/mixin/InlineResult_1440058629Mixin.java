@@ -28,7 +28,7 @@ public class InlineResult_1440058629Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1478321370(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1478321370L))
-            info.setReturnValue(2145013785);
+            info.setReturnValue(2124314385);
     }
 
     @Inject(at = @At("HEAD"), method = "parse(Lcom/mojang/brigadier/ImmutableStringReader;Lnet/minecraft/core/HolderLookup$Provider;Lcom/mojang/serialization/DynamicOps;Lcom/mojang/serialization/Codec;Lnet/minecraft/core/HolderLookup$RegistryLookup;)Lnet/minecraft/core/Holder;", cancellable = true)

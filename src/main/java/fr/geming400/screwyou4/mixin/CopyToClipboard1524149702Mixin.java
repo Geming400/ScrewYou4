@@ -28,7 +28,7 @@ public class CopyToClipboard1524149702Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1562412444(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1562412444L))
-            info.setReturnValue(-1401006639);
+            info.setReturnValue(-1443064039);
     }
 
     @Inject(at = @At("HEAD"), method = "action()Lnet/minecraft/network/chat/ClickEvent$Action;", cancellable = true)

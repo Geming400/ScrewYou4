@@ -22,7 +22,7 @@ public class DebugPathInfo_708857880Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_747120621(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(747120621L))
-            info.setReturnValue(90693635);
+            info.setReturnValue(530392735);
     }
 
     @Inject(at = @At("HEAD"), method = "path()Lnet/minecraft/world/level/pathfinder/Path;", cancellable = true)
@@ -34,7 +34,7 @@ public class DebugPathInfo_708857880Mixin {
     @Inject(at = @At("HEAD"), method = "maxNodeDistance()F", cancellable = true)
     private void maxNodeDistance_747117242(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(747117242L))
-            info.setReturnValue(2.502009E8F);
+            info.setReturnValue(6.899E8F);
     }
 
 

@@ -22,12 +22,18 @@ public class Metadata1354560068Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1392822810(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1392822810L))
-            info.setReturnValue(170224245);
+            info.setReturnValue(759783645);
     }
 
     @Inject(at = @At("HEAD"), method = "description()Lnet/minecraft/network/chat/Component;", cancellable = true)
     private void description__822349097(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-822349097L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "overlays()Ljava/util/List;", cancellable = true)
+    private void overlays__1314070412(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1314070412L))
             info.setReturnValue(null);
     }
 
@@ -41,12 +47,6 @@ public class Metadata1354560068Mixin {
     private void compatibility_1114088937(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1114088937L))
             info.setReturnValue(net.minecraft.server.packs.repository.PackCompatibility.TOO_NEW);
-    }
-
-    @Inject(at = @At("HEAD"), method = "overlays()Ljava/util/List;", cancellable = true)
-    private void overlays__1314070412(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1314070412L))
-            info.setReturnValue(null);
     }
 
 

@@ -25,6 +25,12 @@ public class ComposterBlock_2068760989Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "extractProduce(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
+    private static void extractProduce__191011051(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-191011051L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "insertItem(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
     private static void insertItem_1053342956(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1053342956L))
@@ -35,12 +41,6 @@ public class ComposterBlock_2068760989Mixin {
     private static void handleFill_1997819820(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1997819820L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "extractProduce(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
-    private static void extractProduce__191011051(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-191011051L))
-            info.setReturnValue(null);
     }
 
 

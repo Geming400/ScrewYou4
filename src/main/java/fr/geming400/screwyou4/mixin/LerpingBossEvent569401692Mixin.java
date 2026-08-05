@@ -16,7 +16,7 @@ public class LerpingBossEvent569401692Mixin {
     @Inject(at = @At("HEAD"), method = "getProgress()F", cancellable = true)
     private void getProgress_607661055(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(607661055L))
-            info.setReturnValue(3.132739E8F);
+            info.setReturnValue(5.044723E8F);
     }
 
 

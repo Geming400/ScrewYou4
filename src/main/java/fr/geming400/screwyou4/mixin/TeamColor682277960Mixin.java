@@ -28,7 +28,7 @@ public class TeamColor682277960Mixin {
     @Inject(at = @At("HEAD"), method = "rgb()I", cancellable = true)
     private void rgb_720540206(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(720540206L))
-            info.setReturnValue(1105832419);
+            info.setReturnValue(600097919);
     }
 
     @Inject(at = @At("HEAD"), method = "displaySlot()Lnet/minecraft/world/scores/DisplaySlot;", cancellable = true)

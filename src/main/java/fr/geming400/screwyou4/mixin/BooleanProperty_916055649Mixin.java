@@ -31,22 +31,22 @@ public class BooleanProperty_916055649Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "getPossibleValues()Ljava/util/List;", cancellable = true)
+    private void getPossibleValues__1752574832(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1752574832L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "getInternalIndex(Ljava/lang/Comparable;)I", cancellable = true)
     private void getInternalIndex__334952217(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-334952217L))
-            info.setReturnValue(-903436934);
+            info.setReturnValue(-1035627534);
     }
 
     @Inject(at = @At("HEAD"), method = "getInternalIndex(Ljava/lang/Boolean;)I", cancellable = true)
     private void getInternalIndex_1881139657(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1881139657L))
-            info.setReturnValue(-2066787641);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getPossibleValues()Ljava/util/List;", cancellable = true)
-    private void getPossibleValues__1752574832(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1752574832L))
-            info.setReturnValue(null);
+            info.setReturnValue(2095989055);
     }
 
 

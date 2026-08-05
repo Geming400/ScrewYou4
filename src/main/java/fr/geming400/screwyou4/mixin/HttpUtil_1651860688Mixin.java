@@ -13,16 +13,16 @@ public class HttpUtil_1651860688Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getAvailablePort()I", cancellable = true)
-    private static void getAvailablePort_1690123181(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1690123181L))
-            info.setReturnValue(1314469845);
-    }
-
     @Inject(at = @At("HEAD"), method = "isPortAvailable(I)Z", cancellable = true)
     private static void isPortAvailable__1429185545(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1429185545L))
             info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getAvailablePort()I", cancellable = true)
+    private static void getAvailablePort_1690123181(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1690123181L))
+            info.setReturnValue(1460251045);
     }
 
 

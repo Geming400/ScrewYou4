@@ -22,7 +22,7 @@ public class UseEffects465884889Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_504147631(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(504147631L))
-            info.setReturnValue(-14648843);
+            info.setReturnValue(-406885943);
     }
 
     @Inject(at = @At("HEAD"), method = "canSprint()Z", cancellable = true)
@@ -34,7 +34,7 @@ public class UseEffects465884889Mixin {
     @Inject(at = @At("HEAD"), method = "speedMultiplier()F", cancellable = true)
     private void speedMultiplier_504144252(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(504144252L))
-            info.setReturnValue(3.983632E8F);
+            info.setReturnValue(6126101.0F);
     }
 
     @Inject(at = @At("HEAD"), method = "interactVibrations()Z", cancellable = true)

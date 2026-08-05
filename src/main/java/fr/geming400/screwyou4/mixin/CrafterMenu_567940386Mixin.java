@@ -13,10 +13,22 @@ public class CrafterMenu_567940386Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "isPowered()Z", cancellable = true)
+    private void isPowered_606218968(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(606218968L))
+            info.setReturnValue(true);
+    }
+
     @Inject(at = @At("HEAD"), method = "stillValid(Lnet/minecraft/world/entity/player/Player;)Z", cancellable = true)
     private void stillValid_1508545875(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1508545875L))
             info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "quickMoveStack(Lnet/minecraft/world/entity/player/Player;I)Lnet/minecraft/world/item/ItemStack;", cancellable = true)
+    private void quickMoveStack_1441636135(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1441636135L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "dataChanged(Lnet/minecraft/world/inventory/AbstractContainerMenu;II)V", cancellable = true)
@@ -29,18 +41,6 @@ public class CrafterMenu_567940386Mixin {
     private void slotChanged__589202891(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-589202891L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "quickMoveStack(Lnet/minecraft/world/entity/player/Player;I)Lnet/minecraft/world/item/ItemStack;", cancellable = true)
-    private void quickMoveStack_1441636135(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1441636135L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isPowered()Z", cancellable = true)
-    private void isPowered_606218968(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(606218968L))
-            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "setSlotState(IZ)V", cancellable = true)

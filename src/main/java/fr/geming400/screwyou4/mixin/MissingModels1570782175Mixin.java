@@ -22,7 +22,7 @@ public class MissingModels1570782175Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1609044917(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1609044917L))
-            info.setReturnValue(828340816);
+            info.setReturnValue(893587816);
     }
 
     @Inject(at = @At("HEAD"), method = "block()Lnet/minecraft/client/renderer/block/dispatch/BlockStateModel;", cancellable = true)
@@ -37,15 +37,15 @@ public class MissingModels1570782175Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "blockPart()Lnet/minecraft/client/renderer/block/dispatch/BlockStateModelPart;", cancellable = true)
-    private void blockPart__1961354388(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1961354388L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "fluid()Lnet/minecraft/client/renderer/block/FluidModel;", cancellable = true)
     private void fluid__1395986448(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1395986448L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "blockPart()Lnet/minecraft/client/renderer/block/dispatch/BlockStateModelPart;", cancellable = true)
+    private void blockPart__1961354388(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1961354388L))
             info.setReturnValue(null);
     }
 

@@ -13,16 +13,16 @@ public class SpatialAttributeInterpolator_1453347983Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "accumulate(DLnet/minecraft/world/attribute/EnvironmentAttributeMap;)Lnet/minecraft/world/attribute/SpatialAttributeInterpolator;", cancellable = true)
-    private void accumulate_1874518821(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1874518821L))
-            info.setReturnValue(new net.minecraft.world.attribute.SpatialAttributeInterpolator());
-    }
-
     @Inject(at = @At("HEAD"), method = "applyAttributeLayer(Lnet/minecraft/world/attribute/EnvironmentAttribute;Ljava/lang/Object;)Ljava/lang/Object;", cancellable = true)
     private void applyAttributeLayer_1299853099(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1299853099L))
             info.setReturnValue(new java.lang.Object());
+    }
+
+    @Inject(at = @At("HEAD"), method = "accumulate(DLnet/minecraft/world/attribute/EnvironmentAttributeMap;)Lnet/minecraft/world/attribute/SpatialAttributeInterpolator;", cancellable = true)
+    private void accumulate_1874518821(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1874518821L))
+            info.setReturnValue(new net.minecraft.world.attribute.SpatialAttributeInterpolator());
     }
 
 

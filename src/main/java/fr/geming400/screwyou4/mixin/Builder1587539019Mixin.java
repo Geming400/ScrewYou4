@@ -37,15 +37,15 @@ public class Builder1587539019Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "tooltip(Lnet/minecraft/client/gui/components/Tooltip;)Lnet/minecraft/client/gui/components/Button$Builder;", cancellable = true)
-    private void tooltip_226503570(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(226503570L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "createNarration(Lnet/minecraft/client/gui/components/Button$CreateNarration;)Lnet/minecraft/client/gui/components/Button$Builder;", cancellable = true)
     private void createNarration_798192149(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(798192149L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "tooltip(Lnet/minecraft/client/gui/components/Tooltip;)Lnet/minecraft/client/gui/components/Button$Builder;", cancellable = true)
+    private void tooltip_226503570(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(226503570L))
             info.setReturnValue(null);
     }
 

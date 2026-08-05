@@ -19,16 +19,16 @@ public class Marker_269926906Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "isIgnoringBlockTriggers()Z", cancellable = true)
-    private void isIgnoringBlockTriggers_308205488(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(308205488L))
-            info.setReturnValue(false);
-    }
-
     @Inject(at = @At("HEAD"), method = "getPistonPushReaction()Lnet/minecraft/world/level/material/PushReaction;", cancellable = true)
     private void getPistonPushReaction__2134161554(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2134161554L))
             info.setReturnValue(net.minecraft.world.level.material.PushReaction.PUSH_ONLY);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isIgnoringBlockTriggers()Z", cancellable = true)
+    private void isIgnoringBlockTriggers_308205488(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(308205488L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "getAddEntityPacket(Lnet/minecraft/server/level/ServerEntity;)Lnet/minecraft/network/protocol/Packet;", cancellable = true)

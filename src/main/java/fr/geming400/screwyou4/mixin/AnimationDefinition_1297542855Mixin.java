@@ -22,7 +22,13 @@ public class AnimationDefinition_1297542855Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1335805596(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1335805596L))
-            info.setReturnValue(-362749232);
+            info.setReturnValue(-955852432);
+    }
+
+    @Inject(at = @At("HEAD"), method = "lengthInSeconds()F", cancellable = true)
+    private void lengthInSeconds_1335802217(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1335802217L))
+            info.setReturnValue(2.935373E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "boneAnimations()Ljava/util/Map;", cancellable = true)
@@ -41,12 +47,6 @@ public class AnimationDefinition_1297542855Mixin {
     private void looping_1335821437(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1335821437L))
             info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "lengthInSeconds()F", cancellable = true)
-    private void lengthInSeconds_1335802217(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1335802217L))
-            info.setReturnValue(8.866405E8F);
     }
 
 

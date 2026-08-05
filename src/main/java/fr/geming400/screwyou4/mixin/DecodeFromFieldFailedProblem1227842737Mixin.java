@@ -28,7 +28,7 @@ public class DecodeFromFieldFailedProblem1227842737Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1266105479(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1266105479L))
-            info.setReturnValue(1667241382);
+            info.setReturnValue(-1785508314);
     }
 
     @Inject(at = @At("HEAD"), method = "error()Lcom/mojang/serialization/DataResult$Error;", cancellable = true)

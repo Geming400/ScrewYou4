@@ -28,7 +28,7 @@ public class Version_1917629373Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1955892114(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1955892114L))
-            info.setReturnValue(-595375187);
+            info.setReturnValue(100100513);
     }
 
     @Inject(at = @At("HEAD"), method = "current()Lnet/minecraft/network/protocol/status/ServerStatus$Version;", cancellable = true)
@@ -40,7 +40,7 @@ public class Version_1917629373Mixin {
     @Inject(at = @At("HEAD"), method = "protocol()I", cancellable = true)
     private void protocol_1955891618(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1955891618L))
-            info.setReturnValue(-416851697);
+            info.setReturnValue(278624003);
     }
 
 

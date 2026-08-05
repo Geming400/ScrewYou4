@@ -22,7 +22,7 @@ public class TrimPredicate751116823Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_789379565(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(789379565L))
-            info.setReturnValue(1983201490);
+            info.setReturnValue(1762964990);
     }
 
     @Inject(at = @At("HEAD"), method = "componentType()Lnet/minecraft/core/component/DataComponentType;", cancellable = true)

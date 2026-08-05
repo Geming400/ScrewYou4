@@ -22,7 +22,7 @@ public class Unbaked717448533Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_755711275(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(755711275L))
-            info.setReturnValue(-1528510051);
+            info.setReturnValue(-1267681051);
     }
 
     @Inject(at = @At("HEAD"), method = "variant()Lnet/minecraft/client/renderer/block/dispatch/Variant;", cancellable = true)
@@ -31,16 +31,16 @@ public class Unbaked717448533Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "bake(Lnet/minecraft/client/resources/model/ModelBaker;)Lnet/minecraft/client/renderer/block/dispatch/BlockStateModel;", cancellable = true)
-    private void bake__1307026450(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1307026450L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "resolveDependencies(Lnet/minecraft/client/resources/model/ResolvableModel$Resolver;)V", cancellable = true)
     private void resolveDependencies_667654603(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(667654603L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "bake(Lnet/minecraft/client/resources/model/ModelBaker;)Lnet/minecraft/client/renderer/block/dispatch/BlockStateModel;", cancellable = true)
+    private void bake__1307026450(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1307026450L))
+            info.setReturnValue(null);
     }
 
 

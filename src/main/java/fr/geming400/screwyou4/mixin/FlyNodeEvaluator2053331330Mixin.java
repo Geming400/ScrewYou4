@@ -34,7 +34,7 @@ public class FlyNodeEvaluator2053331330Mixin {
     @Inject(at = @At("HEAD"), method = "getNeighbors([Lnet/minecraft/world/level/pathfinder/Node;Lnet/minecraft/world/level/pathfinder/Node;)I", cancellable = true)
     private void getNeighbors_1404736147(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1404736147L))
-            info.setReturnValue(-1398581328);
+            info.setReturnValue(-1232738728);
     }
 
     @Inject(at = @At("HEAD"), method = "getPathType(Lnet/minecraft/world/level/pathfinder/PathfindingContext;III)Lnet/minecraft/world/level/pathfinder/PathType;", cancellable = true)

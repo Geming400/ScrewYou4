@@ -31,16 +31,16 @@ public class FrontAndTop734574857Mixin {
             info.setReturnValue(net.minecraft.core.Direction.WEST);
     }
 
-    @Inject(at = @At("HEAD"), method = "fromFrontAndTop(Lnet/minecraft/core/Direction;Lnet/minecraft/core/Direction;)Lnet/minecraft/core/FrontAndTop;", cancellable = true)
-    private static void fromFrontAndTop__915615956(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-915615956L))
-            info.setReturnValue(net.minecraft.core.FrontAndTop.DOWN_SOUTH);
-    }
-
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName__400885614(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-400885614L))
             info.setReturnValue("+h_\u5EED\u2497R^Vwi_XKh(;i:(^8=GFA&O^UV>_'.FUHoIRN\u17B2\uB28C\u9B66_MWs\u9354Zpq^<1h$L_&;>VR\uAF2DSmRgf\uC096).]/XI:p3<7 |\u9D59a");
+    }
+
+    @Inject(at = @At("HEAD"), method = "fromFrontAndTop(Lnet/minecraft/core/Direction;Lnet/minecraft/core/Direction;)Lnet/minecraft/core/FrontAndTop;", cancellable = true)
+    private static void fromFrontAndTop__915615956(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-915615956L))
+            info.setReturnValue(net.minecraft.core.FrontAndTop.DOWN_SOUTH);
     }
 
 

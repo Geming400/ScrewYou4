@@ -22,13 +22,13 @@ public class HolderHolder_316430157Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_354692898(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(354692898L))
-            info.setReturnValue(1224506450);
+            info.setReturnValue(1017000850);
     }
 
     @Inject(at = @At("HEAD"), method = "compute(Lnet/minecraft/world/level/levelgen/DensityFunction$FunctionContext;)D", cancellable = true)
     private void compute_1284461776(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1284461776L))
-            info.setReturnValue(6.579313009159939E8D);
+            info.setReturnValue(4.5042570091599387E8D);
     }
 
     @Inject(at = @At("HEAD"), method = "function()Lnet/minecraft/core/Holder;", cancellable = true)
@@ -40,19 +40,19 @@ public class HolderHolder_316430157Mixin {
     @Inject(at = @At("HEAD"), method = "maxValue()D", cancellable = true)
     private void maxValue_354687597(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(354687597L))
-            info.setReturnValue(6.57931300294413E8D);
+            info.setReturnValue(4.5042570029441303E8D);
+    }
+
+    @Inject(at = @At("HEAD"), method = "minValue()D", cancellable = true)
+    private void minValue_354687597(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(354687597L))
+            info.setReturnValue(4.5042570029441303E8D);
     }
 
     @Inject(at = @At("HEAD"), method = "codec()Lnet/minecraft/util/KeyDispatchDataCodec;", cancellable = true)
     private void codec__1225855452(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1225855452L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "minValue()D", cancellable = true)
-    private void minValue_354687597(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(354687597L))
-            info.setReturnValue(6.57931300294413E8D);
     }
 
     @Inject(at = @At("HEAD"), method = "fillArray([DLnet/minecraft/world/level/levelgen/DensityFunction$ContextProvider;)V", cancellable = true)

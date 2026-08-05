@@ -19,12 +19,6 @@ public class Resource_349433716Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "openAsReader()Ljava/io/BufferedReader;", cancellable = true)
-    private void openAsReader__6574173(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-6574173L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "metadata()Lnet/minecraft/server/packs/resources/ResourceMetadata;", cancellable = true)
     private void metadata__750908797(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-750908797L))
@@ -37,10 +31,16 @@ public class Resource_349433716Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "openAsReader()Ljava/io/BufferedReader;", cancellable = true)
+    private void openAsReader__6574173(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-6574173L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "sourcePackId()Ljava/lang/String;", cancellable = true)
     private void sourcePackId__786026756(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-786026756L))
-            info.setReturnValue("UFm5\uB9E6[=7S'%Qb\u1FBEO\uD141G16Y2\uFF83\u8744D\u968A%Uk{gix\u97E96,\\"");
+            info.setReturnValue("UFm5\uB9E6[=7S'%Qb\u1FBEO\uD141G16Y2\uFF83\u8744D\u968A%Uk{gix\u97E96,\\");
     }
 
 

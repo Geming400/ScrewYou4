@@ -34,7 +34,7 @@ public class FixedScoreboardNameProvider1643055590Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1681318332(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1681318332L))
-            info.setReturnValue(-1496357837);
+            info.setReturnValue(-897817737);
     }
 
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)

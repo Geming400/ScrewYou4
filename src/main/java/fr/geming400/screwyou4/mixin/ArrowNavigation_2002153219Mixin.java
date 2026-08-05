@@ -22,7 +22,7 @@ public class ArrowNavigation_2002153219Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2040415960(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2040415960L))
-            info.setReturnValue(586216805);
+            info.setReturnValue(154665205);
     }
 
     @Inject(at = @At("HEAD"), method = "with(Lnet/minecraft/client/gui/navigation/ScreenRectangle;)Lnet/minecraft/client/gui/navigation/FocusNavigationEvent$ArrowNavigation;", cancellable = true)

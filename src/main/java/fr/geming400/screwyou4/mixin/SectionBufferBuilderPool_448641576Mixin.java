@@ -40,7 +40,7 @@ public class SectionBufferBuilderPool_448641576Mixin {
     @Inject(at = @At("HEAD"), method = "getFreeBufferCount()I", cancellable = true)
     private void getFreeBufferCount_486903821(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(486903821L))
-            info.setReturnValue(-1168134527);
+            info.setReturnValue(-1071979927);
     }
 
 

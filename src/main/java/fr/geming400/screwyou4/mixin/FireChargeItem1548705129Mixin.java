@@ -7,7 +7,13 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.world.item.FireChargeItem.class)
 public class FireChargeItem1548705129Mixin {
-        @Inject(at = @At("HEAD"), method = "createDispenseConfig()Lnet/minecraft/world/item/ProjectileItem$DispenseConfig;", cancellable = true)
+        @Inject(at = @At("HEAD"), method = "shoot(Lnet/minecraft/world/entity/projectile/Projectile;DDDFF)V", cancellable = true)
+    private void shoot__1446070347(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1446070347L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "createDispenseConfig()Lnet/minecraft/world/item/ProjectileItem$DispenseConfig;", cancellable = true)
     private void createDispenseConfig__487548069(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-487548069L))
             info.setReturnValue(null);
@@ -23,12 +29,6 @@ public class FireChargeItem1548705129Mixin {
     private void useOn__360138126(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-360138126L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "shoot(Lnet/minecraft/world/entity/projectile/Projectile;DDDFF)V", cancellable = true)
-    private void shoot__1446070347(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1446070347L))
-            info.cancel();
     }
 
 

@@ -22,7 +22,7 @@ public class EntityPredicate_1858715530Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1896977775(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1896977775L))
-            info.setReturnValue(-1618404043);
+            info.setReturnValue(-1825281743);
     }
 
     @Inject(at = @At("HEAD"), method = "wrap(Lnet/minecraft/advancements/predicates/entity/EntityPredicate$Builder;)Lnet/minecraft/advancements/predicates/ContextAwarePredicate;", cancellable = true)

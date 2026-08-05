@@ -22,7 +22,7 @@ public class DamageImmunity408285853Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_446548595(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(446548595L))
-            info.setReturnValue(1913011278);
+            info.setReturnValue(1325888278);
     }
 
 

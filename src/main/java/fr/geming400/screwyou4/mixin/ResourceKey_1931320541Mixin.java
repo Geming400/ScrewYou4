@@ -49,21 +49,15 @@ public class ResourceKey_1931320541Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "codec(Lnet/minecraft/resources/ResourceKey;)Lcom/mojang/serialization/Codec;", cancellable = true)
-    private static void codec_331844886(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(331844886L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "registryKey()Lnet/minecraft/resources/ResourceKey;", cancellable = true)
     private void registryKey__1555155443(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1555155443L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "createRegistryKey(Lnet/minecraft/resources/Identifier;)Lnet/minecraft/resources/ResourceKey;", cancellable = true)
-    private static void createRegistryKey_2080190349(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2080190349L))
+    @Inject(at = @At("HEAD"), method = "codec(Lnet/minecraft/resources/ResourceKey;)Lcom/mojang/serialization/Codec;", cancellable = true)
+    private static void codec_331844886(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(331844886L))
             info.setReturnValue(null);
     }
 
@@ -76,6 +70,12 @@ public class ResourceKey_1931320541Mixin {
     @Inject(at = @At("HEAD"), method = "streamCodec(Lnet/minecraft/resources/ResourceKey;)Lnet/minecraft/network/codec/StreamCodec;", cancellable = true)
     private static void streamCodec__1348422636(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1348422636L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "createRegistryKey(Lnet/minecraft/resources/Identifier;)Lnet/minecraft/resources/ResourceKey;", cancellable = true)
+    private static void createRegistryKey_2080190349(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2080190349L))
             info.setReturnValue(null);
     }
 

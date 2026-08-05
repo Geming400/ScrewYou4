@@ -73,6 +73,24 @@ public class CollectToTag978632569Mixin {
             info.setReturnValue(net.minecraft.nbt.StreamTagVisitor.ValueResult.CONTINUE);
     }
 
+    @Inject(at = @At("HEAD"), method = "visitEntry(Lnet/minecraft/nbt/TagType;Ljava/lang/String;)Lnet/minecraft/nbt/StreamTagVisitor$EntryResult;", cancellable = true)
+    private void visitEntry__1082365419(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1082365419L))
+            info.setReturnValue(net.minecraft.nbt.StreamTagVisitor.EntryResult.HALT);
+    }
+
+    @Inject(at = @At("HEAD"), method = "visitEntry(Lnet/minecraft/nbt/TagType;)Lnet/minecraft/nbt/StreamTagVisitor$EntryResult;", cancellable = true)
+    private void visitEntry_1028859359(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1028859359L))
+            info.setReturnValue(net.minecraft.nbt.StreamTagVisitor.EntryResult.SKIP);
+    }
+
+    @Inject(at = @At("HEAD"), method = "visitContainerEnd()Lnet/minecraft/nbt/StreamTagVisitor$ValueResult;", cancellable = true)
+    private void visitContainerEnd__1701773274(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1701773274L))
+            info.setReturnValue(net.minecraft.nbt.StreamTagVisitor.ValueResult.BREAK);
+    }
+
     @Inject(at = @At("HEAD"), method = "visitRootEntry(Lnet/minecraft/nbt/TagType;)Lnet/minecraft/nbt/StreamTagVisitor$ValueResult;", cancellable = true)
     private void visitRootEntry__1949676608(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1949676608L))
@@ -85,34 +103,16 @@ public class CollectToTag978632569Mixin {
             info.setReturnValue(net.minecraft.nbt.StreamTagVisitor.ValueResult.BREAK);
     }
 
-    @Inject(at = @At("HEAD"), method = "visitContainerEnd()Lnet/minecraft/nbt/StreamTagVisitor$ValueResult;", cancellable = true)
-    private void visitContainerEnd__1701773274(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "visitEnd()Lnet/minecraft/nbt/StreamTagVisitor$ValueResult;", cancellable = true)
+    private void visitEnd__1701773274(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1701773274L))
             info.setReturnValue(net.minecraft.nbt.StreamTagVisitor.ValueResult.BREAK);
-    }
-
-    @Inject(at = @At("HEAD"), method = "visitEntry(Lnet/minecraft/nbt/TagType;)Lnet/minecraft/nbt/StreamTagVisitor$EntryResult;", cancellable = true)
-    private void visitEntry_1028859359(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1028859359L))
-            info.setReturnValue(net.minecraft.nbt.StreamTagVisitor.EntryResult.SKIP);
-    }
-
-    @Inject(at = @At("HEAD"), method = "visitEntry(Lnet/minecraft/nbt/TagType;Ljava/lang/String;)Lnet/minecraft/nbt/StreamTagVisitor$EntryResult;", cancellable = true)
-    private void visitEntry__1082365419(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1082365419L))
-            info.setReturnValue(net.minecraft.nbt.StreamTagVisitor.EntryResult.HALT);
     }
 
     @Inject(at = @At("HEAD"), method = "visitElement(Lnet/minecraft/nbt/TagType;I)Lnet/minecraft/nbt/StreamTagVisitor$EntryResult;", cancellable = true)
     private void visitElement_2082579538(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2082579538L))
             info.setReturnValue(net.minecraft.nbt.StreamTagVisitor.EntryResult.SKIP);
-    }
-
-    @Inject(at = @At("HEAD"), method = "visitEnd()Lnet/minecraft/nbt/StreamTagVisitor$ValueResult;", cancellable = true)
-    private void visitEnd__1701773274(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1701773274L))
-            info.setReturnValue(net.minecraft.nbt.StreamTagVisitor.ValueResult.BREAK);
     }
 
 

@@ -25,9 +25,9 @@ public class ServerboundSeenAdvancementsPacket1658948259Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getTab()Lnet/minecraft/resources/Identifier;", cancellable = true)
-    private void getTab__784118294(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-784118294L))
+    @Inject(at = @At("HEAD"), method = "closedScreen()Lnet/minecraft/network/protocol/game/ServerboundSeenAdvancementsPacket;", cancellable = true)
+    private static void closedScreen_1119951945(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1119951945L))
             info.setReturnValue(null);
     }
 
@@ -43,9 +43,9 @@ public class ServerboundSeenAdvancementsPacket1658948259Mixin {
             info.setReturnValue(net.minecraft.network.protocol.game.ServerboundSeenAdvancementsPacket.Action.CLOSED_SCREEN);
     }
 
-    @Inject(at = @At("HEAD"), method = "closedScreen()Lnet/minecraft/network/protocol/game/ServerboundSeenAdvancementsPacket;", cancellable = true)
-    private static void closedScreen_1119951945(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1119951945L))
+    @Inject(at = @At("HEAD"), method = "getTab()Lnet/minecraft/resources/Identifier;", cancellable = true)
+    private void getTab__784118294(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-784118294L))
             info.setReturnValue(null);
     }
 

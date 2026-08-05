@@ -22,7 +22,19 @@ public class Layer1388627066Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1426889808(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1426889808L))
-            info.setReturnValue(602578502);
+            info.setReturnValue(370431702);
+    }
+
+    @Inject(at = @At("HEAD"), method = "bySprite(Lnet/minecraft/client/renderer/texture/TextureAtlasSprite;)Lnet/minecraft/client/particle/SingleQuadParticle$Layer;", cancellable = true)
+    private static void bySprite__883480837(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-883480837L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "pipeline()Lcom/mojang/blaze3d/pipeline/RenderPipeline;", cancellable = true)
+    private void pipeline__1908932018(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1908932018L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "translucent()Z", cancellable = true)
@@ -34,18 +46,6 @@ public class Layer1388627066Mixin {
     @Inject(at = @At("HEAD"), method = "textureAtlasLocation()Lnet/minecraft/resources/Identifier;", cancellable = true)
     private void textureAtlasLocation__1054439487(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1054439487L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "pipeline()Lcom/mojang/blaze3d/pipeline/RenderPipeline;", cancellable = true)
-    private void pipeline__1908932018(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1908932018L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "bySprite(Lnet/minecraft/client/renderer/texture/TextureAtlasSprite;)Lnet/minecraft/client/particle/SingleQuadParticle$Layer;", cancellable = true)
-    private static void bySprite__883480837(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-883480837L))
             info.setReturnValue(null);
     }
 

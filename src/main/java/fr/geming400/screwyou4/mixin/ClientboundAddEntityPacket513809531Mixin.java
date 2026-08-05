@@ -16,7 +16,7 @@ public class ClientboundAddEntityPacket513809531Mixin {
     @Inject(at = @At("HEAD"), method = "getId()I", cancellable = true)
     private void getId_552071777(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(552071777L))
-            info.setReturnValue(-796333278);
+            info.setReturnValue(-1693642078);
     }
 
     @Inject(at = @At("HEAD"), method = "getType()Lnet/minecraft/world/entity/EntityType;", cancellable = true)
@@ -40,37 +40,25 @@ public class ClientboundAddEntityPacket513809531Mixin {
     @Inject(at = @At("HEAD"), method = "getY()D", cancellable = true)
     private void getY_552066972(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(552066972L))
-            info.setReturnValue(9.715654004574076E8D);
+            info.setReturnValue(7.425660045740755E7D);
     }
 
     @Inject(at = @At("HEAD"), method = "getData()I", cancellable = true)
     private void getData_552071777(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(552071777L))
-            info.setReturnValue(-796333278);
+            info.setReturnValue(-1693642078);
     }
 
     @Inject(at = @At("HEAD"), method = "getX()D", cancellable = true)
     private void getX_552066972(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(552066972L))
-            info.setReturnValue(9.715654004574076E8D);
+            info.setReturnValue(7.425660045740755E7D);
     }
 
     @Inject(at = @At("HEAD"), method = "getZ()D", cancellable = true)
     private void getZ_552066972(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(552066972L))
-            info.setReturnValue(9.715654004574076E8D);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getXRot()F", cancellable = true)
-    private void getXRot_552068894(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(552068894L))
-            info.setReturnValue(9.715654E8F);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getYRot()F", cancellable = true)
-    private void getYRot_552068894(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(552068894L))
-            info.setReturnValue(9.715654E8F);
+            info.setReturnValue(7.425660045740755E7D);
     }
 
     @Inject(at = @At("HEAD"), method = "getUUID()Ljava/util/UUID;", cancellable = true)
@@ -79,10 +67,22 @@ public class ClientboundAddEntityPacket513809531Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "getYRot()F", cancellable = true)
+    private void getYRot_552068894(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(552068894L))
+            info.setReturnValue(7.42566E7F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getXRot()F", cancellable = true)
+    private void getXRot_552068894(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(552068894L))
+            info.setReturnValue(7.42566E7F);
+    }
+
     @Inject(at = @At("HEAD"), method = "getYHeadRot()F", cancellable = true)
     private void getYHeadRot_552068894(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(552068894L))
-            info.setReturnValue(9.715654E8F);
+            info.setReturnValue(7.42566E7F);
     }
 
     @Inject(at = @At("HEAD"), method = "getMovement()Lnet/minecraft/world/phys/Vec3;", cancellable = true)
