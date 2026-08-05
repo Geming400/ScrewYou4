@@ -28,3 +28,16 @@ You can look at how amazing benchmark comparing sodium to screw you 4:
 ![Benchmark comparing vanilla Minecraft, sodium and Screw You 4](./readmeResources/benchmark.png)
 
 Crazy, right ? Screw you 4 is the future of minecraft optimization !
+
+## How to create these beautiful mixins
+
+There is a custom Idea configuration called `Mixin Generator` which allows you to generate all mixins.
+By default, this requires python as the `mixin` folder is cleaned before
+building to prevent any building errors but this can be disabled in the configuration.
+
+### How does it work
+
+Using reflection, all `net.minecraft.**` classes are loaded and then inspected
+to create these mixins.
+
+All the work is done in the `Generator.java` file.
