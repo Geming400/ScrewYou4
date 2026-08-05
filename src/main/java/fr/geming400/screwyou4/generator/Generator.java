@@ -288,12 +288,18 @@ public class Generator {
                 characters[i] = (char) rng.nextInt(32, upperBound);
             }
 
-            return "\"%s\""
+            String res = "\"%s\""
                     .formatted(String.copyValueOf(characters)
                             .replaceAll("\\p{C}", "")
                             .replaceAll("\\\\[^\"]", "")
                             .replace("\"", "\\\"")
                     );
+
+            // Rare case when the string finishes with '\"'
+            if (res.endsWith("\\\""))
+                res += "\"";
+
+            return res;
         } else {
             if (returnType.isEnum()) {
                 //noinspection unchecked
