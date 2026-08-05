@@ -1,6 +1,8 @@
 package fr.geming400.screwyou4.generator;
 
 import fr.geming400.screwyou4.ScrewYou4;
+import net.minecraft.SharedConstants;
+import net.minecraft.server.Bootstrap;
 import org.apache.commons.io.FileUtils;
 
 import java.io.IOException;
@@ -36,6 +38,10 @@ class GeneratorEntrypoint {
                             throw new RuntimeException("Failed to clean directory %s after 2 tries".formatted(mixinPath));
                         }
                     }
+
+                    ScrewYou4.LOGGER.info("Bootstrapping minecraft");
+                    SharedConstants.tryDetectVersion();
+                    Bootstrap.bootStrap();
 
                     new Generator(mixinPath, resourcePath).generate();
                 } else {
