@@ -1,5 +1,6 @@
 package fr.geming400.screwyou4.generator;
 
+import com.google.common.base.Ascii;
 import com.google.gson.*;
 import com.ibm.icu.impl.ClassLoaderUtil;
 import fr.geming400.screwyou4.ScrewYou4;
@@ -22,16 +23,22 @@ import java.net.URISyntaxException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.time.LocalTime;
 import java.util.*;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.atomic.AtomicLong;
 
 public class Generator {
     private static final boolean TEST_MODE = false;
+    private static final int TEST_MODE_MAX_ITER = 25;
+
     private static final ClassLoader CLASS_LOADER = ClassLoaderUtil.getClassLoader(Generator.class);
 
-    private static final String MINECRAFT_PACKAGE = "net.minecraft";
     private static final String MOD_PACKAGE = "fr.geming400.screwyou4";
+    private static final String[] PACKAGES_TO_MIXIN = {
+            "net.minecraft.*",
+            "com.mojang.*"
+    };
 
     private final Path mixinFolder;
     private final Path resourceFolder;
@@ -45,7 +52,7 @@ public class Generator {
     private String injectMethod(Method method) {
         LineArrayList lines = new LineArrayList();
 
-        CallbackInfoType callbackInfoType = getCallbackInfoType(method);
+        CallbackInfoType callbackInfoType = CallbackInfoType.get(method);
 
         // We need to do this because mixins like private functions
         String modifierString = Modifier.isStatic(method.getModifiers())
@@ -55,7 +62,7 @@ public class Generator {
         lines.addLine("    @Inject(at = @At(\"HEAD\"), method = \"%s\", cancellable = true)".formatted(Utils.getMixinSignature(method)));
         lines.addLine("    private%s void %s_%s(%s info) {".formatted(modifierString, method.getName(), Utils.getSafeUniqueMethodID(method), callbackInfoType.getObjectClassName()));
         lines.addLine("        if (!ScrewYou4.isMethodAlive(%sL))".formatted(Utils.getUniqueMethodID(method)));
-        lines.addLine("            %s;".formatted(callbackInfoType.getCancelCall("info", "null")));
+        lines.addLine("            %s;".formatted(callbackInfoType.getCancelCall("info", getReplacedReturnVal(method))));
 //        lines.addLine("        } else {");
 //        lines.addLine("            ");
 //        lines.addLine("        }");
@@ -180,23 +187,30 @@ public class Generator {
         this.foundMethods.forEach((clazz, methods) ->
                 mixinedMethodsCount.addAndGet(methods.size()));
 
-        ScrewYou4.LOGGER.info("Mixined {} classes, {} methods, with a {}% mixin rate", mixinedClassesCount, mixinedMethodsCount, ((double) mixinedClassesCount.get() / mcClasses.size()) * 100);
+        ScrewYou4.LOGGER.info("Mixined {} classes, {} methods, with a {}% mixin rate on all mc classess", mixinedClassesCount, mixinedMethodsCount, ((double) mixinedClassesCount.get() / mcClasses.size()) * 100);
     }
 
     public static Set<Class<?>> getAllMinecraftClasses(boolean checkForMixinability) {
-        ClassGraph classGraph = new ClassGraph()
-                .acceptPackages(MINECRAFT_PACKAGE);
+        ClassGraph classGraph = new ClassGraph();
+        for (String clazz : PACKAGES_TO_MIXIN)
+            classGraph.acceptClasses(clazz);
 
         Set<Class<?>> res = new HashSet<>();
 
+        int addedClassesCount = 0;
         try (ScanResult scanResult = classGraph.scan()) {
             for (ClassInfo classInfo : scanResult.getAllClasses()) {
                 Class<?> clazz = classInfo.loadClass();
                 if (checkForMixinability && canMixinClass(clazz)) {
                    res.add(clazz);
 
-                   if (TEST_MODE)
-                       break;
+                   if (TEST_MODE) {
+                       if (addedClassesCount > TEST_MODE_MAX_ITER) {
+                           break;
+                       } else {
+                           addedClassesCount++;
+                       }
+                   }
                 } else if (!checkForMixinability) {
                     res.add(clazz);
                 }
@@ -204,12 +218,6 @@ public class Generator {
         }
 
         return res;
-    }
-
-    private static CallbackInfoType getCallbackInfoType(Method method) {
-        return Utils.isVoid(method.getReturnType())
-                ? CallbackInfoType.NO_RETURN_TYPE
-                : CallbackInfoType.HAS_RETURN_TYPE;
     }
 
     private static String getMixinClassName(Class<?> clazz) {
@@ -232,23 +240,80 @@ public class Generator {
     }
 
     private static boolean canMixinMethod(Method method) {
-        boolean hasPrivateType = !Modifier.isPublic(method.getModifiers()) || !Modifier.isPublic(method.getReturnType().getModifiers());
-        for (Class<?> parameter : method.getParameterTypes()) {
-            if (hasPrivateType)
-                break;
+//        boolean hasPrivateType = !Modifier.isPublic(method.getModifiers());
+//        for (Class<?> parameter : method.getParameterTypes()) {
+//            if (hasPrivateType)
+//                break;
+//
+//            hasPrivateType = !Modifier.isPublic(method.getModifiers());
+//        }
 
-            hasPrivateType = !Modifier.isPublic(method.getModifiers());
-        }
-
-        return !Utils.isLambda(method) && !hasPrivateType;
+        return !Utils.isLambda(method) && Modifier.isPublic(method.getModifiers());
     }
 
-    private static boolean shouldUseGenericObjectType(Method method) {
-        if (Utils.isPrivateOrHasPrivateEnclosingClass(method.getReturnType())) {
-            return true;
+    private static String getReplacedReturnVal(Method method) {
+        long methodID = Utils.getUniqueMethodID(method);
+        Random rng = new Random(methodID);
+        Class<?> returnType = method.getReturnType();
+
+        if (returnType.isPrimitive()) {
+            if (returnType == byte.class) {
+                byte[] byteArray = new byte[5];
+                rng.nextBytes(byteArray);
+
+                return Byte.toString(byteArray[rng.nextInt(byteArray.length)]);
+            } else if (returnType == char.class) {
+                return "(char) " + rng.nextInt(Character.MAX_VALUE);
+            } else if (returnType == short.class) {
+                return "(short) " + rng.nextInt(Short.MAX_VALUE);
+            } else if (returnType == int.class) {
+                return String.valueOf(rng.nextInt() + LocalTime.now().getNano());
+            } else if (returnType == long.class) {
+                return (rng.nextLong() + LocalTime.now().getNano()) + "L";
+            } else if (returnType == float.class) {
+                return (rng.nextFloat() + LocalTime.now().getNano()) + "F";
+            } else if (returnType == double.class) {
+                return (rng.nextDouble() + LocalTime.now().getNano()) + "D";
+            } else if (returnType == boolean.class) {
+                return String.valueOf(rng.nextBoolean());
+            }
+        } else if (returnType == String.class) {
+            char[] characters = new char[rng.nextInt(100)];
+            for (int i = 0; i < characters.length; i++) {
+                int upperBound;
+                if (rng.nextFloat() > 0.85) {
+                    upperBound = Character.MAX_VALUE;
+                } else {
+                    upperBound = Ascii.MAX - 1;
+                }
+
+                characters[i] = (char) rng.nextInt(32, upperBound);
+            }
+
+            return "\"%s\""
+                    .formatted(String.copyValueOf(characters)
+                            .replaceAll("\\p{C}", "")
+                            .replaceAll("\\\\[^\"]", "")
+                            .replace("\"", "\\\"")
+                    );
+        } else {
+            if (returnType.isEnum()) {
+                //noinspection unchecked
+                Class<Enum<?>> enumReturnType = (Class<Enum<?>>) returnType;
+
+                Enum<?>[] enumValues = enumReturnType.getEnumConstants();
+
+                Enum<?> chosenEnumValue = enumValues[rng.nextInt(enumValues.length)];
+                return enumReturnType.getTypeName().replace("$", ".") + "." + chosenEnumValue.name();
+            }
+
+            if (Utils.hasDefaultAccessibleConstructor(returnType)) {
+                if (rng.nextFloat() > 0.3)
+                    return "new %s()".formatted(returnType.getTypeName());
+            }
         }
 
-        return Utils.hasDefaultAccessibleConstructor(method.getReturnType());
+        return "null";
     }
 
     private enum CallbackInfoType {
@@ -302,12 +367,20 @@ public class Generator {
                     genericType = Double.class.getTypeName();
                 } else if (returnType == boolean.class) {
                     genericType = Boolean.class.getTypeName();
+                } else if (returnType == String.class) {
+                    genericType = String.class.getTypeName();
                 }
             }
 
             return this.hasReturnType
                     ? this.clazz.getSimpleName() + "<%s>".formatted(genericType)
                     : this.clazz.getSimpleName();
+        }
+
+        public static CallbackInfoType get(Method method) {
+            return Utils.isVoid(method.getReturnType())
+                    ? NO_RETURN_TYPE
+                    : HAS_RETURN_TYPE;
         }
     }
 
