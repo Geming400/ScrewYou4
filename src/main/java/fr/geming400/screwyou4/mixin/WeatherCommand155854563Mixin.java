@@ -8,8 +8,8 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.server.commands.WeatherCommand.class)
 public class WeatherCommand155854563Mixin {
         @Inject(at = @At("HEAD"), method = "register(Lcom/mojang/brigadier/CommandDispatcher;)V", cancellable = true)
-    private static void register__787705660(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-787705660L))
+    private static void register_37900033(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(37900033L))
             info.cancel();
     }
 

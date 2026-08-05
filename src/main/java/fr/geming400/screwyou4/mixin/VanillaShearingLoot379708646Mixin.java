@@ -8,32 +8,32 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.data.loot.packs.VanillaShearingLoot.class)
 public class VanillaShearingLoot379708646Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals_1765220905(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1765220905L))
+    private void equals__528917622(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-528917622L))
             info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__755751329(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-755751329L))
-            info.setReturnValue("bKJ)BM3-6@8Vx'DF9\uACBB\uCCD0nm0 \uB452\uC182b!bfQ\uACC7J\u64C2+;`^4e.\u49C4:Aoryr \uCA7B2_vQ\"\u95F4=x*$=c6RPF\uAB0Agb#g\uB056F=ez3Rk\u5C96R+fs;cD[`+");
+    private void toString_1150132171(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1150132171L))
+            info.setReturnValue(" J?\u728A[gc^dDixb\uFD13dD\u9C1A\"jRX&%#-A\uFAB3u$1b&^2xF\u72D4|z0v1/?J`\u7CF0\u214Cng9D\uD0673\u50C7\u8C5A8]\uBBDBr");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_417971388(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(417971388L))
-            info.setReturnValue(1673493139);
+    private void hashCode_937060737(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(937060737L))
+            info.setReturnValue(-1955507643);
     }
 
     @Inject(at = @At("HEAD"), method = "generate(Ljava/util/function/BiConsumer;)V", cancellable = true)
-    private void generate__1358442244(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1358442244L))
+    private void generate_117247985(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(117247985L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "registries()Lnet/minecraft/core/HolderLookup$Provider;", cancellable = true)
-    private void registries_66501313(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(66501313L))
+    private void registries_2108950812(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2108950812L))
             info.setReturnValue(null);
     }
 

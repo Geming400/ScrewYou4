@@ -8,32 +8,32 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.GameLoadCookie.class)
 public class GameLoadCookie_787349312Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals__2122105726(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2122105726L))
-            info.setReturnValue(false);
+    private void equals__121276957(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-121276957L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__348110664(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-348110664L))
-            info.setReturnValue("r|+\")Jx;['Y>L:C\"mS\u10C4\uFECFTqY-RX)\uB3B5\u763ETfFcjdon^tfR");
+    private void toString_1557772836(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1557772836L))
+            info.setReturnValue("W7[u?r\u7BE4h@Bq\uB6E0<tY\u1026TQ");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_825612053(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(825612053L))
-            info.setReturnValue(-418807077);
-    }
-
-    @Inject(at = @At("HEAD"), method = "realmsClient()Lcom/mojang/realmsclient/client/RealmsClient;", cancellable = true)
-    private void realmsClient__937305855(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-937305855L))
-            info.setReturnValue(null);
+    private void hashCode_1344701402(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1344701402L))
+            info.setReturnValue(928938779);
     }
 
     @Inject(at = @At("HEAD"), method = "quickPlayData()Lnet/minecraft/client/main/GameConfig$QuickPlayData;", cancellable = true)
-    private void quickPlayData_1264478636(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1264478636L))
+    private void quickPlayData__1829744969(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1829744969L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "realmsClient()Lcom/mojang/realmsclient/client/RealmsClient;", cancellable = true)
+    private void realmsClient__483167182(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-483167182L))
             info.setReturnValue(null);
     }
 

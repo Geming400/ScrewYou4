@@ -8,33 +8,33 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.level.block.MultifaceSpreader.SpreadPos.class)
 public class SpreadPos_2092759747Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals__816695291(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-816695291L))
-            info.setReturnValue(true);
+    private void equals_1184133478(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1184133478L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString_957299771(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(957299771L))
-            info.setReturnValue("&%5\u3BA6|$\"Wg\uBA66/?%H\u3DC6\u4FA1]L{(JOMs3IT}\u9210{vwU&@sSk\u5920D\u7674b5V\uFF6ESxs<3z\u23058\u69E8@xX\uB0ACw4nk$5`S o\uC785\uA1AC%>;arC;hm.\u9F8Es)+oJ");
+    private void toString__1431784025(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1431784025L))
+            info.setReturnValue("VMKW^2!NC\u1AC1f2fHQvGCK.\u46C0\u1651C\u301E\u0821xg1Ny7[D<r*\u15BA*g\u6A863&/l2?([Q\u25FD2Td");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_2131022488(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2131022488L))
-            info.setReturnValue(-569344670);
+    private void hashCode__1644855459(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1644855459L))
+            info.setReturnValue(420543815);
     }
 
     @Inject(at = @At("HEAD"), method = "pos()Lnet/minecraft/core/BlockPos;", cancellable = true)
-    private void pos_199372867(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(199372867L))
+    private void pos__188016529(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-188016529L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "face()Lnet/minecraft/core/Direction;", cancellable = true)
-    private void face_1329904461(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1329904461L))
-            info.setReturnValue(net.minecraft.core.Direction.EAST);
+    private void face_280803946(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(280803946L))
+            info.setReturnValue(net.minecraft.core.Direction.DOWN);
     }
 
 

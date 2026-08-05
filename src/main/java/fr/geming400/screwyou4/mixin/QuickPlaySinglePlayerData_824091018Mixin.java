@@ -8,33 +8,33 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.main.GameConfig.QuickPlaySinglePlayerData.class)
 public class QuickPlaySinglePlayerData_824091018Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals__2085364020(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2085364020L))
-            info.setReturnValue(true);
+    private void equals__84535251(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-84535251L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__311368958(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-311368958L))
-            info.setReturnValue("BJ!HFh[lrd$Z U+\uBF2C");
+    private void toString_1594514542(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1594514542L))
+            info.setReturnValue("PTT1F(tR}\u6E7D%`Q\uD638Yd\u4790_xtW1sp<5");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_862353759(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(862353759L))
-            info.setReturnValue(-824266488);
+    private void hashCode_1381443108(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1381443108L))
+            info.setReturnValue(1401947650);
     }
 
     @Inject(at = @At("HEAD"), method = "isEnabled()Z", cancellable = true)
-    private void isEnabled_862369600(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(862369600L))
+    private void isEnabled__1210056983(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1210056983L))
             info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "worldId()Ljava/lang/String;", cancellable = true)
-    private void worldId__311369454(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-311369454L))
-            info.setReturnValue("u0-T\u46DD.] f\uB346$w\u337Ce1M Ss;@Y'UI`2");
+    private void worldId_1420722591(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1420722591L))
+            info.setReturnValue("go\u40B2\u02AC/yIe7>^>'\u803F9t Ndn");
     }
 
 

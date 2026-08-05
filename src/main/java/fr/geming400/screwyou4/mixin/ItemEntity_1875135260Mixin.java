@@ -8,195 +8,195 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.entity.item.ItemEntity.class)
 public class ItemEntity_1875135260Mixin {
         @Inject(at = @At("HEAD"), method = "getName()Lnet/minecraft/network/chat/Component;", cancellable = true)
-    private void getName__301773906(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-301773906L))
+    private void getName_1367072111(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1367072111L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "merge(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/ItemStack;I)Lnet/minecraft/world/item/ItemStack;", cancellable = true)
-    private static void merge_151414248(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(151414248L))
+    private static void merge__1455073104(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1455073104L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getSlot(I)Lnet/minecraft/world/entity/SlotAccess;", cancellable = true)
-    private void getSlot__18757925(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-18757925L))
+    private void getSlot_369900367(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(369900367L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "setTarget(Ljava/util/UUID;)V", cancellable = true)
-    private void setTarget_1517579170(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1517579170L))
+    private void setTarget_293653743(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(293653743L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "getOwner()Lnet/minecraft/world/entity/Entity;", cancellable = true)
-    private void getOwner__590943583(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-590943583L))
+    private void getOwner__1974378748(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1974378748L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "tick()V", cancellable = true)
-    private void tick_1913409998(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1913409998L))
+    private void tick_1745451601(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1745451601L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "getAge()I", cancellable = true)
-    private void getAge_1913397505(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1913397505L))
-            info.setReturnValue(1762100127);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getItem()Lnet/minecraft/world/item/ItemStack;", cancellable = true)
-    private void getItem__1896413377(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1896413377L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getBlockPosBelowThatAffectsMyMovement()Lnet/minecraft/core/BlockPos;", cancellable = true)
-    private void getBlockPosBelowThatAffectsMyMovement__18251620(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-18251620L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getVisualRotationYInDegrees()F", cancellable = true)
-    private void getVisualRotationYInDegrees_1913394622(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1913394622L))
-            info.setReturnValue(4.702508E8F);
-    }
-
-    @Inject(at = @At("HEAD"), method = "hurtClient(Lnet/minecraft/world/damagesource/DamageSource;)Z", cancellable = true)
-    private void hurtClient_1543466139(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1543466139L))
-            info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "fireImmune()Z", cancellable = true)
-    private void fireImmune_1913413842(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1913413842L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "setDefaultPickUpDelay()V", cancellable = true)
-    private void setDefaultPickUpDelay_1913409998(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1913409998L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "teleport(Lnet/minecraft/world/level/portal/TeleportTransition;)Lnet/minecraft/world/entity/Entity;", cancellable = true)
-    private void teleport_1441254865(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1441254865L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "hurtServer(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/damagesource/DamageSource;F)Z", cancellable = true)
-    private void hurtServer_1425705424(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1425705424L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "setThrower(Lnet/minecraft/world/entity/Entity;)V", cancellable = true)
-    private void setThrower_1423410599(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1423410599L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "setItem(Lnet/minecraft/world/item/ItemStack;)V", cancellable = true)
-    private void setItem__685300749(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-685300749L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "getSpin(FF)F", cancellable = true)
-    private static void getSpin_790582646(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(790582646L))
-            info.setReturnValue(4.702508E8F);
-    }
-
-    @Inject(at = @At("HEAD"), method = "dampensVibrations()Z", cancellable = true)
-    private void dampensVibrations_1913413842(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1913413842L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "playerTouch(Lnet/minecraft/world/entity/player/Player;)V", cancellable = true)
-    private void playerTouch__1479230391(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1479230391L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "isAttackable()Z", cancellable = true)
-    private void isAttackable_1913413842(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1913413842L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "restoreFrom(Lnet/minecraft/world/entity/Entity;)V", cancellable = true)
-    private void restoreFrom_1423410599(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1423410599L))
-            info.cancel();
+    private void getAge_1060351192(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1060351192L))
+            info.setReturnValue(-1400776779);
     }
 
     @Inject(at = @At("HEAD"), method = "ignoreExplosion(Lnet/minecraft/world/level/Explosion;)Z", cancellable = true)
-    private void ignoreExplosion__435097136(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-435097136L))
+    private void ignoreExplosion_944981875(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(944981875L))
             info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "setPickUpDelay(I)V", cancellable = true)
-    private void setPickUpDelay__1205915065(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1205915065L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "setUnlimitedLifetime()V", cancellable = true)
-    private void setUnlimitedLifetime_1913409998(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1913409998L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "setExtendedLifetime()V", cancellable = true)
-    private void setExtendedLifetime_1913409998(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1913409998L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "setNoPickUpDelay()V", cancellable = true)
-    private void setNoPickUpDelay_1913409998(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1913409998L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "setNeverPickUp()V", cancellable = true)
-    private void setNeverPickUp_1913409998(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1913409998L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "hasPickUpDelay()Z", cancellable = true)
-    private void hasPickUpDelay_1913413842(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1913413842L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "makeFakeItem()V", cancellable = true)
-    private void makeFakeItem_1913409998(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1913409998L))
+    private void setPickUpDelay_1150400780(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1150400780L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "areMergable(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/ItemStack;)Z", cancellable = true)
-    private static void areMergable__1174235244(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1174235244L))
+    private static void areMergable__1348711335(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1348711335L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "setNeverPickUp()V", cancellable = true)
+    private void setNeverPickUp__1947986168(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1947986168L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "setNoPickUpDelay()V", cancellable = true)
+    private void setNoPickUpDelay__1337395766(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1337395766L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "makeFakeItem()V", cancellable = true)
+    private void makeFakeItem__1628422280(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1628422280L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "setExtendedLifetime()V", cancellable = true)
+    private void setExtendedLifetime__1266126934(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1266126934L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "setUnlimitedLifetime()V", cancellable = true)
+    private void setUnlimitedLifetime_1506689862(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1506689862L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "hasPickUpDelay()Z", cancellable = true)
+    private void hasPickUpDelay__633875547(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-633875547L))
             info.setReturnValue(false);
     }
 
+    @Inject(at = @At("HEAD"), method = "playerTouch(Lnet/minecraft/world/entity/player/Player;)V", cancellable = true)
+    private void playerTouch_1827021739(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1827021739L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "restoreFrom(Lnet/minecraft/world/entity/Entity;)V", cancellable = true)
+    private void restoreFrom__1126714113(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1126714113L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "isAttackable()Z", cancellable = true)
+    private void isAttackable__1579014170(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1579014170L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "setDefaultPickUpDelay()V", cancellable = true)
+    private void setDefaultPickUpDelay__865851514(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-865851514L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "dampensVibrations()Z", cancellable = true)
+    private void dampensVibrations__293412377(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-293412377L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "teleport(Lnet/minecraft/world/level/portal/TeleportTransition;)Lnet/minecraft/world/entity/Entity;", cancellable = true)
+    private void teleport_886886012(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(886886012L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "hurtServer(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/damagesource/DamageSource;F)Z", cancellable = true)
+    private void hurtServer_1059847902(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1059847902L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "fireImmune()Z", cancellable = true)
+    private void fireImmune__1649450471(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1649450471L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "hurtClient(Lnet/minecraft/world/damagesource/DamageSource;)Z", cancellable = true)
+    private void hurtClient__844642219(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-844642219L))
+            info.setReturnValue(true);
+    }
+
     @Inject(at = @At("HEAD"), method = "getSoundSource()Lnet/minecraft/sounds/SoundSource;", cancellable = true)
-    private void getSoundSource__417912714(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-417912714L))
+    private void getSoundSource__905574838(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-905574838L))
             info.setReturnValue(net.minecraft.sounds.SoundSource.WEATHER);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getBlockPosBelowThatAffectsMyMovement()Lnet/minecraft/core/BlockPos;", cancellable = true)
+    private void getBlockPosBelowThatAffectsMyMovement__1321683970(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1321683970L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getVisualRotationYInDegrees()F", cancellable = true)
+    private void getVisualRotationYInDegrees__1814270175(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1814270175L))
+            info.setReturnValue(2.500346E8F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "setThrower(Lnet/minecraft/world/entity/Entity;)V", cancellable = true)
+    private void setThrower_1167211512(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1167211512L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getSpin(FF)F", cancellable = true)
+    private static void getSpin_1051080126(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1051080126L))
+            info.setReturnValue(2.500346E8F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "setItem(Lnet/minecraft/world/item/ItemStack;)V", cancellable = true)
+    private void setItem_879404286(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(879404286L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getItem()Lnet/minecraft/world/item/ItemStack;", cancellable = true)
+    private void getItem_1380969928(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1380969928L))
+            info.setReturnValue(null);
     }
 
 

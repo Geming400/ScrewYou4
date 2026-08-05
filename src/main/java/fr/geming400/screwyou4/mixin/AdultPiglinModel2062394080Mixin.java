@@ -8,8 +8,8 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.model.monster.piglin.AdultPiglinModel.class)
 public class AdultPiglinModel2062394080Mixin {
         @Inject(at = @At("HEAD"), method = "createBodyLayer()Lnet/minecraft/client/model/geom/builders/LayerDefinition;", cancellable = true)
-    private static void createBodyLayer_1348261916(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1348261916L))
+    private static void createBodyLayer_158739471(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(158739471L))
             info.setReturnValue(null);
     }
 

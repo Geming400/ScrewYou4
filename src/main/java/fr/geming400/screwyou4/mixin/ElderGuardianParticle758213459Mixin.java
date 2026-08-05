@@ -8,8 +8,8 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.particle.ElderGuardianParticle.class)
 public class ElderGuardianParticle758213459Mixin {
         @Inject(at = @At("HEAD"), method = "getGroup()Lnet/minecraft/client/particle/ParticleRenderType;", cancellable = true)
-    private void getGroup__253724750(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-253724750L))
+    private void getGroup_839451579(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(839451579L))
             info.setReturnValue(null);
     }
 

@@ -8,39 +8,39 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.clock.ClockNetworkState.class)
 public class ClockNetworkState144803667Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals_1530315926(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1530315926L))
+    private void equals__763822601(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-763822601L))
             info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__990656308(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-990656308L))
-            info.setReturnValue("\u02F1j\uA22Ab\"6J7\" #w\u646BNFh_eM\u4B4DUYZBQ\u9C6CtiI>MkL+\u7305\u16F7'#_\u7E1C\u33C8");
+    private void toString_915227192(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(915227192L))
+            info.setReturnValue("! 8|KeJu^#_=k\u08ECA\u5F25=");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_183066409(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(183066409L))
-            info.setReturnValue(1618129094);
-    }
-
-    @Inject(at = @At("HEAD"), method = "partialTick()F", cancellable = true)
-    private void partialTick_183063030(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(183063030L))
-            info.setReturnValue(3.894485E8F);
+    private void hashCode_702155758(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(702155758L))
+            info.setReturnValue(-1144864146);
     }
 
     @Inject(at = @At("HEAD"), method = "rate()F", cancellable = true)
-    private void rate_183063030(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(183063030L))
-            info.setReturnValue(3.909597E8F);
+    private void rate_308351254(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(308351254L))
+            info.setReturnValue(8.212705E8F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "partialTick()F", cancellable = true)
+    private void partialTick_2112877048(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2112877048L))
+            info.setReturnValue(8.212705E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "totalTicks()J", cancellable = true)
-    private void totalTicks_183066874(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(183066874L))
-            info.setReturnValue(2286212847644899496L);
+    private void totalTicks__2074015064(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2074015064L))
+            info.setReturnValue(1798674313818155367L);
     }
 
 

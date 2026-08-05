@@ -8,20 +8,20 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.advancements.triggers.RecipeUnlockedTrigger.class)
 public class RecipeUnlockedTrigger318655737Mixin {
         @Inject(at = @At("HEAD"), method = "trigger(Lnet/minecraft/server/level/ServerPlayer;Lnet/minecraft/world/item/crafting/RecipeHolder;)V", cancellable = true)
-    private void trigger__1622130225(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1622130225L))
+    private void trigger__1699281529(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1699281529L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "unlocked(Lnet/minecraft/resources/ResourceKey;)Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
-    private static void unlocked_480936420(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(480936420L))
+    private static void unlocked__649241657(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-649241657L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/Codec;", cancellable = true)
-    private void codec__73309889(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-73309889L))
+    private void codec__1486053803(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1486053803L))
             info.setReturnValue(null);
     }
 

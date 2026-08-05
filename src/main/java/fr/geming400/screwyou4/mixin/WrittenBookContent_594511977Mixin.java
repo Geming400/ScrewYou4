@@ -8,105 +8,105 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.item.component.WrittenBookContent.class)
 public class WrittenBookContent_594511977Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals_1980024235(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1980024235L))
-            info.setReturnValue(true);
+    private void equals__314114292(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-314114292L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__540947999(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-540947999L))
-            info.setReturnValue(">'\u1CB7f. 8b\uC247#p?`c\"\u5F8Aw;/wFsFMI8");
+    private void toString_1364935501(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1364935501L))
+            info.setReturnValue("-+akkJL[yumgk/%DG*\u07DC;ymAr?kB,0>\u5299\uB1FCEo]Ow0FNAt|Z\uAC43vna[N\u96A8R_C7!Rm*t&'[z>%\u3919|vD)!QDoz9IA3<\u71F4");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_632774718(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(632774718L))
-            info.setReturnValue(899725550);
+    private void hashCode_1151864067(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1151864067L))
+            info.setReturnValue(-735772767);
     }
 
     @Inject(at = @At("HEAD"), method = "resolve(Lnet/minecraft/network/chat/ResolutionContext;Lnet/minecraft/core/HolderLookup$Provider;)Lnet/minecraft/world/item/component/WrittenBookContent;", cancellable = true)
-    private void resolve__1127964864(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1127964864L))
+    private void resolve__1122574892(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1122574892L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "resolved()Z", cancellable = true)
-    private void resolved_632790559(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(632790559L))
+    private void resolved_736009511(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(736009511L))
             info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "generation()I", cancellable = true)
-    private void generation_632774222(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(632774222L))
-            info.setReturnValue(1511076228);
-    }
-
-    @Inject(at = @At("HEAD"), method = "withReplacedPages(Ljava/util/List;)Lnet/minecraft/world/item/component/WrittenBookContent;", cancellable = true)
-    private void withReplacedPages__1138924825(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1138924825L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "withReplacedPages(Ljava/util/List;)Ljava/lang/Object;", cancellable = true)
-    private void withReplacedPages_326046514(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(326046514L))
-            info.setReturnValue(new java.lang.Object());
-    }
-
-    @Inject(at = @At("HEAD"), method = "markResolved()Lnet/minecraft/world/item/component/WrittenBookContent;", cancellable = true)
-    private void markResolved__21764362(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-21764362L))
-            info.setReturnValue(null);
+    private void generation_1114940470(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1114940470L))
+            info.setReturnValue(-216824398);
     }
 
     @Inject(at = @At("HEAD"), method = "title()Lnet/minecraft/server/network/Filterable;", cancellable = true)
-    private void title_90140609(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(90140609L))
+    private void title_1093876841(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1093876841L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "pages()Ljava/util/List;", cancellable = true)
-    private void pages__2074118504(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2074118504L))
+    private void pages_1803934812(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1803934812L))
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "author()Ljava/lang/String;", cancellable = true)
+    private void author_702439228(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(702439228L))
+            info.setReturnValue("\u5B6CL\u48C971Jc7|\u852FkFX?W\u0537/RgQiO`vl\u27F9\u7D1A@LSR0\u493Av\uB618:oS(Cb?UY|\"Z%>#b<%7LT5\u7D90]&D\u7EA5!\u51A8Sx./T>.}7\">Bbn?S\u42B7MA ");
+    }
+
+    @Inject(at = @At("HEAD"), method = "resolveForItem(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/network/chat/ResolutionContext;Lnet/minecraft/core/HolderLookup$Provider;)Z", cancellable = true)
+    private static void resolveForItem__1373906922(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1373906922L))
+            info.setReturnValue(true);
+    }
+
     @Inject(at = @At("HEAD"), method = "addToTooltip(Lnet/minecraft/world/item/Item$TooltipContext;Ljava/util/function/Consumer;Lnet/minecraft/world/item/TooltipFlag;Lnet/minecraft/core/component/DataComponentGetter;)V", cancellable = true)
-    private void addToTooltip__1948206414(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1948206414L))
+    private void addToTooltip__1780708071(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1780708071L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "getPages(Z)Ljava/util/List;", cancellable = true)
-    private void getPages__1176391346(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1176391346L))
+    private void getPages_381030400(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(381030400L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "pagesCodec(Lcom/mojang/serialization/Codec;)Lcom/mojang/serialization/Codec;", cancellable = true)
-    private static void pagesCodec_1078189951(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1078189951L))
+    private static void pagesCodec_1904480561(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1904480561L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "craftCopy()Lnet/minecraft/world/item/component/WrittenBookContent;", cancellable = true)
-    private void craftCopy__21764362(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-21764362L))
+    private void craftCopy_1149967393(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1149967393L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "resolveForItem(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/network/chat/ResolutionContext;Lnet/minecraft/core/HolderLookup$Provider;)Z", cancellable = true)
-    private static void resolveForItem__46817786(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-46817786L))
-            info.setReturnValue(true);
+    @Inject(at = @At("HEAD"), method = "withReplacedPages(Ljava/util/List;)Ljava/lang/Object;", cancellable = true)
+    private void withReplacedPages__663432448(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-663432448L))
+            info.setReturnValue(new java.lang.Object());
     }
 
-    @Inject(at = @At("HEAD"), method = "author()Ljava/lang/String;", cancellable = true)
-    private void author__540948495(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-540948495L))
-            info.setReturnValue("kC-V>gq)\uA8F7=*Wg%Xw,=CV5:YR<z}in\"/F\u8434)ZL]>] 8OkCW\u75F3fLRmIFUNDg\u9F48Ee1D,K\uBDF4\u7F9E\u9FB0\"v}M.3?+IcrV3Nrxe_\u5DC2");
+    @Inject(at = @At("HEAD"), method = "withReplacedPages(Ljava/util/List;)Lnet/minecraft/world/item/component/WrittenBookContent;", cancellable = true)
+    private void withReplacedPages_428674009(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(428674009L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "markResolved()Lnet/minecraft/world/item/component/WrittenBookContent;", cancellable = true)
+    private void markResolved_514009585(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(514009585L))
+            info.setReturnValue(null);
     }
 
 

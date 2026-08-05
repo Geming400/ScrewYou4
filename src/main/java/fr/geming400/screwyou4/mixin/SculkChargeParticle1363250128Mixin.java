@@ -8,21 +8,21 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.particle.SculkChargeParticle.class)
 public class SculkChargeParticle1363250128Mixin {
         @Inject(at = @At("HEAD"), method = "getLayer()Lnet/minecraft/client/particle/SingleQuadParticle$Layer;", cancellable = true)
-    private void getLayer__788241501(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-788241501L))
+    private void getLayer_764906686(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(764906686L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "tick()V", cancellable = true)
-    private void tick_1401524867(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1401524867L))
+    private void tick_1233566470(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1233566470L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "getLightCoords(F)I", cancellable = true)
-    private void getLightCoords__1720583252(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1720583252L))
-            info.setReturnValue(-784781391);
+    private void getLightCoords_1379938506(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1379938506L))
+            info.setReturnValue(-931127151);
     }
 
 

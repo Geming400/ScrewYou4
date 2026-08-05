@@ -8,20 +8,20 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.core.component.predicates.DataComponentPredicate.AnyValueType.class)
 public class AnyValueType_447663895Mixin {
         @Inject(at = @At("HEAD"), method = "componentType()Lnet/minecraft/core/component/DataComponentType;", cancellable = true)
-    private void componentType_1715982757(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1715982757L))
+    private void componentType__2130788868(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2130788868L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "create(Lnet/minecraft/core/component/DataComponentType;)Lnet/minecraft/core/component/predicates/DataComponentPredicate$AnyValueType;", cancellable = true)
-    private static void create_55055336(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(55055336L))
+    private static void create__919973268(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-919973268L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "predicate()Lnet/minecraft/core/component/predicates/AnyValue;", cancellable = true)
-    private void predicate_1757197594(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1757197594L))
+    private void predicate_1467191185(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1467191185L))
             info.setReturnValue(null);
     }
 

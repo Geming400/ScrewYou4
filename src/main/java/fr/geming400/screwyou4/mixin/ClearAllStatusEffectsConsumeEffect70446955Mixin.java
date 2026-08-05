@@ -8,32 +8,32 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.item.consume_effects.ClearAllStatusEffectsConsumeEffect.class)
 public class ClearAllStatusEffectsConsumeEffect70446955Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals_1455959214(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1455959214L))
-            info.setReturnValue(false);
+    private void equals__838179313(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-838179313L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__1065013020(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1065013020L))
-            info.setReturnValue("Thg\u7889P\u078B{>7NKtm\u273F}\u1BCF\u87D2Zj58\u5A33-+h%G[{P&%\uA2E7\uCAE9[");
+    private void toString_840870480(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(840870480L))
+            info.setReturnValue("Sm6wH\u096C\uD5AECM_D?FWgZ/\uB184{7\"Y:`z%CWIECz!h?c\u85CAwn=\u3189\"LU\"\uC786h6|_L?u1\uCB3Erd1Z\u783D\u649B4oBv%e{!|JnE]");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_108709697(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(108709697L))
-            info.setReturnValue(-131520167);
+    private void hashCode_627799046(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(627799046L))
+            info.setReturnValue(-380804571);
     }
 
     @Inject(at = @At("HEAD"), method = "apply(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/LivingEntity;)Z", cancellable = true)
-    private void apply_63134142(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(63134142L))
+    private void apply__1720599664(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1720599664L))
             info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "getType()Lnet/minecraft/world/item/consume_effects/ConsumeEffect$Type;", cancellable = true)
-    private void getType__522290429(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-522290429L))
+    private void getType__620955309(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-620955309L))
             info.setReturnValue(null);
     }
 

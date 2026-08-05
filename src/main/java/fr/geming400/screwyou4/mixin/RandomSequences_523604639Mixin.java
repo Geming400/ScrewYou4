@@ -8,38 +8,38 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.RandomSequences.class)
 public class RandomSequences_523604639Mixin {
         @Inject(at = @At("HEAD"), method = "reset(Lnet/minecraft/resources/Identifier;J)V", cancellable = true)
-    private void reset_1468892611(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1468892611L))
+    private void reset_322998354(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(322998354L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "reset(Lnet/minecraft/resources/Identifier;JIZZ)V", cancellable = true)
-    private void reset_1437902616(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1437902616L))
+    private void reset_502160937(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(502160937L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "get(Lnet/minecraft/resources/Identifier;J)Lnet/minecraft/util/RandomSource;", cancellable = true)
-    private void get__897815587(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-897815587L))
+    private void get__1683908685(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1683908685L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "clear()I", cancellable = true)
-    private void clear_561866884(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(561866884L))
-            info.setReturnValue(313932275);
+    private void clear__262235561(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-262235561L))
+            info.setReturnValue(913406923);
     }
 
     @Inject(at = @At("HEAD"), method = "forAllSequences(Ljava/util/function/BiConsumer;)V", cancellable = true)
-    private void forAllSequences__1214546252(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1214546252L))
+    private void forAllSequences_725328206(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(725328206L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "setSeedDefaults(IZZ)V", cancellable = true)
-    private void setSeedDefaults_245907658(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(245907658L))
+    private void setSeedDefaults__710886097(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-710886097L))
             info.cancel();
     }
 

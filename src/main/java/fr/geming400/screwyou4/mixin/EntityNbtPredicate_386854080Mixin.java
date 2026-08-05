@@ -8,32 +8,32 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.advancements.predicates.entity.EntityNbtPredicate.class)
 public class EntityNbtPredicate_386854080Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals_1772366338(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1772366338L))
-            info.setReturnValue(false);
+    private void equals__521772189(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-521772189L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__748605896(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-748605896L))
-            info.setReturnValue("J_z'=GdUx:R\u7BECdAvxGqVrGV\uAC82\uD7EFoF_{q\uCA27L\uFA12whc6ob\u31DDHKNBKAOj<ksy]0\u14C9\u6B24n^\u6B3FZ\u7B6E\u53B6@\uC3DBG-\u59F6#9/69");
+    private void toString_1157277604(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1157277604L))
+            info.setReturnValue("{)\u4349@k3ozfwEbgBA\u81E9\u030Crh=tC)J|WVL_`\u4746\u58F3\uCDDCU^c38\u9B5DE8q9gF'JT0*UBw\"dm\u1DA6\uA856<2\u2574\u2DD3\u79C04pr\u1010h\u7FF6!\uBF820\u6F27OBmI2D^%");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_425116821(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(425116821L))
-            info.setReturnValue(-1712673297);
+    private void hashCode_944206170(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(944206170L))
+            info.setReturnValue(-346557802);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/phys/Vec3;)Z", cancellable = true)
-    private void matches__1567337832(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1567337832L))
+    private void matches_1737163013(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1737163013L))
             info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "nbt()Lnet/minecraft/advancements/predicates/NbtPredicate;", cancellable = true)
-    private void nbt_1451763595(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1451763595L))
+    private void nbt_2122125515(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2122125515L))
             info.setReturnValue(null);
     }
 

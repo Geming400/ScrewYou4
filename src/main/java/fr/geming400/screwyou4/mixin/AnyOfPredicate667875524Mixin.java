@@ -8,20 +8,20 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.level.levelgen.blockpredicates.AnyOfPredicate.class)
 public class AnyOfPredicate667875524Mixin {
         @Inject(at = @At("HEAD"), method = "type()Lnet/minecraft/world/level/levelgen/blockpredicates/BlockPredicateType;", cancellable = true)
-    private void type__974604425(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-974604425L))
+    private void type_1133187069(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1133187069L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "test(Ljava/lang/Object;Ljava/lang/Object;)Z", cancellable = true)
-    private void test_627548787(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(627548787L))
-            info.setReturnValue(false);
+    private void test_1942366753(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1942366753L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "test(Lnet/minecraft/world/level/WorldGenLevel;Lnet/minecraft/core/BlockPos;)Z", cancellable = true)
-    private void test_1869576322(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1869576322L))
+    private void test__625044304(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-625044304L))
             info.setReturnValue(false);
     }
 

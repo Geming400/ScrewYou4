@@ -8,50 +8,50 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.level.levelgen.structure.pools.alias.RandomPoolAlias.class)
 public class RandomPoolAlias_1206094541Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals__1703360497(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1703360497L))
+    private void equals_297468272(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(297468272L))
             info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString_70634565(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(70634565L))
-            info.setReturnValue("{\"y<b#.?k7osWo0=*\uB4DCG*;\u2E13nM|8:\u9B3D\u2B5A`\u5335U9h>4x: ;aub?\u4AD31 yK\uA989<)>rp;e$bzA\u11AC.@f2}Nam");
+    private void toString_1976518065(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1976518065L))
+            info.setReturnValue("D=,,E0G\u5CBBc\u00E5");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_1244357282(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1244357282L))
-            info.setReturnValue(41132589);
+    private void hashCode_1763446631(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1763446631L))
+            info.setReturnValue(813152814);
     }
 
     @Inject(at = @At("HEAD"), method = "targets()Lnet/minecraft/util/random/WeightedList;", cancellable = true)
-    private void targets_699610674(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(699610674L))
+    private void targets_996604980(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(996604980L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "alias()Lnet/minecraft/resources/ResourceKey;", cancellable = true)
-    private void alias_2014585853(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2014585853L))
+    private void alias_493610925(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(493610925L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
-    private void codec__1353019032(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1353019032L))
+    private void codec__2022427502(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2022427502L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "allTargets()Ljava/util/stream/Stream;", cancellable = true)
-    private void allTargets_995388225(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(995388225L))
+    private void allTargets_926913216(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(926913216L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "forEachResolved(Lnet/minecraft/util/RandomSource;Ljava/util/function/BiConsumer;)V", cancellable = true)
-    private void forEachResolved_379110722(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(379110722L))
+    private void forEachResolved__1708234240(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1708234240L))
             info.cancel();
     }
 

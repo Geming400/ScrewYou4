@@ -8,27 +8,27 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.level.material.MapColor.class)
 public class MapColor1278857943Mixin {
         @Inject(at = @At("HEAD"), method = "byId(I)Lnet/minecraft/world/level/material/MapColor;", cancellable = true)
-    private static void byId__2062528199(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2062528199L))
+    private static void byId__1183820661(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1183820661L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getPackedId(Lnet/minecraft/world/level/material/MapColor$Brightness;)B", cancellable = true)
-    private void getPackedId__1995199549(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1995199549L))
-            info.setReturnValue(45);
+    private void getPackedId__827959494(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-827959494L))
+            info.setReturnValue(94);
     }
 
     @Inject(at = @At("HEAD"), method = "calculateARGBColor(Lnet/minecraft/world/level/material/MapColor$Brightness;)I", cancellable = true)
-    private void calculateARGBColor__1995192822(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1995192822L))
-            info.setReturnValue(-287096451);
+    private void calculateARGBColor__1053117863(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1053117863L))
+            info.setReturnValue(-1337384708);
     }
 
     @Inject(at = @At("HEAD"), method = "getColorFromPackedId(I)I", cancellable = true)
-    private static void getColorFromPackedId__1802204626(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1802204626L))
-            info.setReturnValue(362623002);
+    private static void getColorFromPackedId_983458424(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(983458424L))
+            info.setReturnValue(-388600851);
     }
 
 

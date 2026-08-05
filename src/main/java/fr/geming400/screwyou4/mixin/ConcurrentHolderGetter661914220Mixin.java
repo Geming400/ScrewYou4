@@ -8,14 +8,14 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.core.registries.ConcurrentHolderGetter.class)
 public class ConcurrentHolderGetter661914220Mixin {
         @Inject(at = @At("HEAD"), method = "get(Lnet/minecraft/tags/TagKey;)Ljava/util/Optional;", cancellable = true)
-    private void get__635017238(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-635017238L))
+    private void get__645638956(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-645638956L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "get(Lnet/minecraft/resources/ResourceKey;)Ljava/util/Optional;", cancellable = true)
-    private void get__1657804522(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1657804522L))
+    private void get__1172162176(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1172162176L))
             info.setReturnValue(null);
     }
 

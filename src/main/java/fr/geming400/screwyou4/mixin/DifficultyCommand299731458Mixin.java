@@ -8,15 +8,15 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.server.commands.DifficultyCommand.class)
 public class DifficultyCommand299731458Mixin {
         @Inject(at = @At("HEAD"), method = "register(Lcom/mojang/brigadier/CommandDispatcher;)V", cancellable = true)
-    private static void register__643828765(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-643828765L))
+    private static void register_181776928(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(181776928L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "setDifficulty(Lnet/minecraft/commands/CommandSourceStack;Lnet/minecraft/world/Difficulty;)I", cancellable = true)
-    private static void setDifficulty_989992261(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(989992261L))
-            info.setReturnValue(1654477615);
+    private static void setDifficulty_134582530(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(134582530L))
+            info.setReturnValue(1059247733);
     }
 
 

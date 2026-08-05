@@ -7,70 +7,70 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.world.entity.animal.camel.CamelHusk.class)
 public class CamelHusk_635791059Mixin {
-        @Inject(at = @At("HEAD"), method = "isMobControlled()Z", cancellable = true)
-    private void isMobControlled_674069641(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(674069641L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "canMate(Lnet/minecraft/world/entity/animal/Animal;)Z", cancellable = true)
-    private void canMate_1197854564(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1197854564L))
-            info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isFood(Lnet/minecraft/world/item/ItemStack;)Z", cancellable = true)
-    private void isFood__1924641106(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1924641106L))
+        @Inject(at = @At("HEAD"), method = "canBeLeashed()Z", cancellable = true)
+    private void canBeLeashed__1312281056(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1312281056L))
             info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "interact(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;Lnet/minecraft/world/phys/Vec3;)Lnet/minecraft/world/InteractionResult;", cancellable = true)
-    private void interact__1667110536(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1667110536L))
+    private void interact__371459070(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-371459070L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "canBeLeashed()Z", cancellable = true)
-    private void canBeLeashed_674069641(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(674069641L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "canBeABaby()Z", cancellable = true)
-    private void canBeABaby_674069641(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(674069641L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getBreedOffspring(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/AgeableMob;)Lnet/minecraft/world/entity/animal/camel/Camel;", cancellable = true)
-    private void getBreedOffspring_584476917(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(584476917L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "chargeSpeedModifier()F", cancellable = true)
+    private void chargeSpeedModifier_491557323(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(491557323L))
+            info.setReturnValue(9.247891E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "getBreedOffspring(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/AgeableMob;)Lnet/minecraft/world/entity/AgeableMob;", cancellable = true)
-    private void getBreedOffspring__2061387656(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2061387656L))
+    private void getBreedOffspring_775675158(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(775675158L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getBreedOffspring(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/AgeableMob;)Lnet/minecraft/world/entity/animal/camel/Camel;", cancellable = true)
+    private void getBreedOffspring_868814739(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(868814739L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "removeWhenFarAway(D)Z", cancellable = true)
-    private void removeWhenFarAway_1845094269(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1845094269L))
+    private void removeWhenFarAway__22738652(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-22738652L))
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "chargeSpeedModifier()F", cancellable = true)
-    private void chargeSpeedModifier_674050421(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(674050421L))
-            info.setReturnValue(9.83375E7F);
+    @Inject(at = @At("HEAD"), method = "canFallInLove()Z", cancellable = true)
+    private void canFallInLove_957684807(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(957684807L))
+            info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "canFallInLove()Z", cancellable = true)
-    private void canFallInLove_674069641(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(674069641L))
+    @Inject(at = @At("HEAD"), method = "isMobControlled()Z", cancellable = true)
+    private void isMobControlled__1881021083(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1881021083L))
             info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isFood(Lnet/minecraft/world/item/ItemStack;)Z", cancellable = true)
+    private void isFood_611664646(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(611664646L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "canMate(Lnet/minecraft/world/entity/animal/Animal;)Z", cancellable = true)
+    private void canMate_264431567(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(264431567L))
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "canBeABaby()Z", cancellable = true)
+    private void canBeABaby_1587435173(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1587435173L))
+            info.setReturnValue(false);
     }
 
 

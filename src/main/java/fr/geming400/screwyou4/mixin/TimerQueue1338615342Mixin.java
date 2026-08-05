@@ -8,26 +8,26 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.level.timers.TimerQueue.class)
 public class TimerQueue1338615342Mixin {
         @Inject(at = @At("HEAD"), method = "remove(Ljava/lang/String;)I", cancellable = true)
-    private void remove__1804003298(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1804003298L))
-            info.setReturnValue(-455728672);
+    private void remove__1943745766(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1943745766L))
+            info.setReturnValue(-881280472);
     }
 
     @Inject(at = @At("HEAD"), method = "schedule(Ljava/lang/String;JLnet/minecraft/world/level/timers/TimerCallback;)V", cancellable = true)
-    private void schedule_153435643(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(153435643L))
+    private void schedule_458166674(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(458166674L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "tick(Ljava/lang/Object;J)V", cancellable = true)
-    private void tick_1368011455(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1368011455L))
+    private void tick__373506724(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-373506724L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "getEventsIds()Ljava/util/Set;", cancellable = true)
-    private void getEventsIds__490420144(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-490420144L))
+    private void getEventsIds__24759929(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-24759929L))
             info.setReturnValue(null);
     }
 

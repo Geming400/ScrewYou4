@@ -8,8 +8,8 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.util.datafix.fixes.BeehiveFieldRenameFix.class)
 public class BeehiveFieldRenameFix861492993Mixin {
         @Inject(at = @At("HEAD"), method = "makeRule()Lcom/mojang/datafixers/TypeRewriteRule;", cancellable = true)
-    private void makeRule__1948278468(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1948278468L))
+    private void makeRule_45356274(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(45356274L))
             info.setReturnValue(null);
     }
 

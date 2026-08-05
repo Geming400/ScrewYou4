@@ -8,50 +8,50 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.advancements.triggers.EnchantedItemTrigger.TriggerInstance.class)
 public class TriggerInstance_168631820Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals_1554144078(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1554144078L))
+    private void equals__739994449(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-739994449L))
             info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__966828156(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-966828156L))
-            info.setReturnValue(">\u9DFA[Bj'/K8e\"OK\u54205Oai\u3937\uD4A5u#yA4#:{Cb1qG8\u49FAt]J\u94B1/}sj%\u9B73A=k<<x,-Q$\uD601\u5815c2kU\u9ED4ci_aW\u6C6Cn");
+    private void toString_939055344(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(939055344L))
+            info.setReturnValue("@\uB214g <");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_206894561(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(206894561L))
-            info.setReturnValue(-1270997536);
+    private void hashCode_725983910(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(725983910L))
+            info.setReturnValue(434988772);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/world/item/ItemStack;I)Z", cancellable = true)
-    private void matches__1868069194(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1868069194L))
-            info.setReturnValue(false);
+    private void matches__309075927(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-309075927L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "item()Ljava/util/Optional;", cancellable = true)
-    private void item_414093241(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(414093241L))
+    private void item__629882420(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-629882420L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "levels()Lnet/minecraft/advancements/predicates/MinMaxBounds$Ints;", cancellable = true)
-    private void levels_17396761(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(17396761L))
+    private void levels__1500895990(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1500895990L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "player()Ljava/util/Optional;", cancellable = true)
-    private void player_414093241(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(414093241L))
+    private void player__1062021222(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1062021222L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "enchantedItem()Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
-    private static void enchantedItem_1442383218(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1442383218L))
+    private static void enchantedItem_1717084583(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1717084583L))
             info.setReturnValue(null);
     }
 

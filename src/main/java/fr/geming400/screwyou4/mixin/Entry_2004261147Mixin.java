@@ -8,32 +8,32 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.network.protocol.game.ServerboundSetGameRulePacket.Entry.class)
 public class Entry_2004261147Mixin {
         @Inject(at = @At("HEAD"), method = "value()Ljava/lang/String;", cancellable = true)
-    private void value_868800675(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(868800675L))
-            info.setReturnValue("\u92A6fv\uD507");
+    private void value__1993912492(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1993912492L))
+            info.setReturnValue("/WU=s&vx\u7201,Fads");
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals__905193891(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-905193891L))
+    private void equals_1095634878(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1095634878L))
             info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString_868801171(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(868801171L))
-            info.setReturnValue("]Qu[3N#;qs(N,iM,\u535B=qI6K0S*5\uFDC0B\u24044z>*;sRG2nF\uB6E2XqW/$4_2u:\u14FCl*HxVDvZ");
+    private void toString__1520282625(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1520282625L))
+            info.setReturnValue("Z\uD315lNAnfO@`\u28A7-a4");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_2042523888(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2042523888L))
-            info.setReturnValue(519732451);
+    private void hashCode__1733354059(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1733354059L))
+            info.setReturnValue(-1472325362);
     }
 
     @Inject(at = @At("HEAD"), method = "gameRuleKey()Lnet/minecraft/resources/ResourceKey;", cancellable = true)
-    private void gameRuleKey__1482214837(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1482214837L))
+    private void gameRuleKey__393572358(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-393572358L))
             info.setReturnValue(null);
     }
 

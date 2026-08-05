@@ -8,32 +8,32 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.data.models.ItemModelGenerators.TrimMaterialData.class)
 public class TrimMaterialData_515226611Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals_1900738869(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1900738869L))
+    private void equals__393399658(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-393399658L))
             info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__620233365(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-620233365L))
-            info.setReturnValue("\"$J\u2852\uB4D0\"g\u2151]DW\u7FD7Y\uB322kn`1v\u9B19l\u2D1FK,\uD22Bh,P>Sa\u9434|qPv\u3E3C<W^\u22B9</xB^wM}Sr^;j[\u2C1F?'9+\u0BB7{V\u5C6Bg3%s!(h0\u1EDFEiEcfjgxz!");
+    private void toString_1285650135(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1285650135L))
+            info.setReturnValue("t\uB1C4#4");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_553489352(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(553489352L))
-            info.setReturnValue(1192522341);
+    private void hashCode_1072578701(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1072578701L))
+            info.setReturnValue(1409892078);
     }
 
     @Inject(at = @At("HEAD"), method = "materialKey()Lnet/minecraft/resources/ResourceKey;", cancellable = true)
-    private void materialKey_1323717923(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1323717923L))
+    private void materialKey_945653867(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(945653867L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "assets()Lnet/minecraft/world/item/equipment/trim/MaterialAssetGroup;", cancellable = true)
-    private void assets_867935337(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(867935337L))
+    private void assets_732856300(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(732856300L))
             info.setReturnValue(null);
     }
 

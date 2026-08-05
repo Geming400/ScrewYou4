@@ -8,51 +8,51 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.NarratorStatus.class)
 public class NarratorStatus_217415457Mixin {
         @Inject(at = @At("HEAD"), method = "getName()Lnet/minecraft/network/chat/Component;", cancellable = true)
-    private void getName__1959493709(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1959493709L))
+    private void getName__290647692(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-290647692L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "values()[Lnet/minecraft/client/NarratorStatus;", cancellable = true)
-    private static void values_1276657880(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1276657880L))
+    private static void values_1079661434(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1079661434L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/client/NarratorStatus;", cancellable = true)
-    private static void valueOf__131687301(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-131687301L))
-            info.setReturnValue(net.minecraft.client.NarratorStatus.ALL);
+    private static void valueOf_1838317651(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1838317651L))
+            info.setReturnValue(net.minecraft.client.NarratorStatus.OFF);
     }
 
     @Inject(at = @At("HEAD"), method = "getId()I", cancellable = true)
-    private void getId_255677702(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(255677702L))
-            info.setReturnValue(207368359);
+    private void getId__1440908139(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1440908139L))
+            info.setReturnValue(1840654277);
     }
 
     @Inject(at = @At("HEAD"), method = "shouldNarrateSystem()Z", cancellable = true)
-    private void shouldNarrateSystem_255694039(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(255694039L))
-            info.setReturnValue(true);
+    private void shouldNarrateSystem_742438684(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(742438684L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "shouldNarrateSystemOrChat()Z", cancellable = true)
-    private void shouldNarrateSystemOrChat_255694039(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(255694039L))
+    private void shouldNarrateSystemOrChat__2117690303(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2117690303L))
             info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "shouldNarrateChat()Z", cancellable = true)
-    private void shouldNarrateChat_255694039(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(255694039L))
+    private void shouldNarrateChat__1601004397(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1601004397L))
             info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "byId(I)Lnet/minecraft/client/NarratorStatus;", cancellable = true)
-    private static void byId__599485078(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-599485078L))
-            info.setReturnValue(net.minecraft.client.NarratorStatus.ALL);
+    private static void byId_352193212(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(352193212L))
+            info.setReturnValue(net.minecraft.client.NarratorStatus.CHAT);
     }
 
 

@@ -8,15 +8,15 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.level.block.BonemealableBlock.Type.class)
 public class Type_1278258194Mixin {
         @Inject(at = @At("HEAD"), method = "values()[Lnet/minecraft/world/level/block/BonemealableBlock$Type;", cancellable = true)
-    private static void values__1087254304(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1087254304L))
+    private static void values__2060704002(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2060704002L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/world/level/block/BonemealableBlock$Type;", cancellable = true)
-    private static void valueOf_1336087645(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1336087645L))
-            info.setReturnValue(net.minecraft.world.level.block.BonemealableBlock.Type.NEIGHBOR_SPREADER);
+    private static void valueOf_1174090117(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1174090117L))
+            info.setReturnValue(net.minecraft.world.level.block.BonemealableBlock.Type.GROWER);
     }
 
 

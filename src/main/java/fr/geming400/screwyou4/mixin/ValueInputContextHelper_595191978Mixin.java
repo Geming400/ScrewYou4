@@ -8,32 +8,32 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.level.storage.ValueInputContextHelper.class)
 public class ValueInputContextHelper_595191978Mixin {
         @Inject(at = @At("HEAD"), method = "lookup()Lnet/minecraft/core/HolderLookup$Provider;", cancellable = true)
-    private void lookup_281984644(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(281984644L))
+    private void lookup_396419710(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(396419710L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "empty()Lnet/minecraft/world/level/storage/ValueInput;", cancellable = true)
-    private void empty_137036046(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(137036046L))
+    private void empty__256231141(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-256231141L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "emptyList()Lnet/minecraft/world/level/storage/ValueInput$ValueInputList;", cancellable = true)
-    private void emptyList_670468731(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(670468731L))
+    private void emptyList__873752496(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-873752496L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "ops()Lcom/mojang/serialization/DynamicOps;", cancellable = true)
-    private void ops__1434279028(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1434279028L))
+    private void ops__837049062(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-837049062L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "emptyTypedList()Lnet/minecraft/world/level/storage/ValueInput$TypedInputList;", cancellable = true)
-    private void emptyTypedList_123577332(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(123577332L))
+    private void emptyTypedList_2000989689(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2000989689L))
             info.setReturnValue(null);
     }
 

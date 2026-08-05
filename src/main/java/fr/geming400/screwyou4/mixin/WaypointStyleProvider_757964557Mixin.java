@@ -8,14 +8,14 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.data.models.WaypointStyleProvider.class)
 public class WaypointStyleProvider_757964557Mixin {
         @Inject(at = @At("HEAD"), method = "getName()Ljava/lang/String;", cancellable = true)
-    private void getName__377495915(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-377495915L))
-            info.setReturnValue("m9}5T:=O)||*+rFE E^kLS:uh\uBCB6:\u0397\uD135.zU+g");
+    private void getName__1130882346(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1130882346L))
+            info.setReturnValue("a");
     }
 
     @Inject(at = @At("HEAD"), method = "run(Lnet/minecraft/data/CachedOutput;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
-    private void run_1484487014(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1484487014L))
+    private void run_857690299(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(857690299L))
             info.setReturnValue(new java.util.concurrent.CompletableFuture());
     }
 

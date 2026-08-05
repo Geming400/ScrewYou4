@@ -8,32 +8,32 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.level.storage.loot.entries.NestedLootTable.class)
 public class NestedLootTable46980161Mixin {
         @Inject(at = @At("HEAD"), method = "validate(Lnet/minecraft/world/level/storage/loot/ValidationContext;)V", cancellable = true)
-    private void validate_1623610852(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1623610852L))
+    private void validate__971738610(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-971738610L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
-    private void codec_1782833885(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1782833885L))
+    private void codec_1113425415(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1113425415L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "createItemStack(Ljava/util/function/Consumer;Lnet/minecraft/world/level/storage/loot/LootContext;)V", cancellable = true)
-    private void createItemStack__33012611(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-33012611L))
+    private void createItemStack_1717762390(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1717762390L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "lootTableReference(Lnet/minecraft/resources/ResourceKey;)Lnet/minecraft/world/level/storage/loot/entries/LootPoolSingletonContainer$Builder;", cancellable = true)
-    private static void lootTableReference_913461530(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(913461530L))
+    private static void lootTableReference__620883073(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-620883073L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "inlineLootTable(Lnet/minecraft/world/level/storage/loot/LootTable;)Lnet/minecraft/world/level/storage/loot/entries/LootPoolSingletonContainer$Builder;", cancellable = true)
-    private static void inlineLootTable__786732426(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-786732426L))
+    private static void inlineLootTable_1750498729(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1750498729L))
             info.setReturnValue(null);
     }
 

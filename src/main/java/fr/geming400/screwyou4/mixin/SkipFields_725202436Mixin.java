@@ -7,16 +7,16 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.nbt.visitors.SkipFields.class)
 public class SkipFields_725202436Mixin {
-        @Inject(at = @At("HEAD"), method = "visitEntry(Lnet/minecraft/nbt/TagType;Ljava/lang/String;)Lnet/minecraft/nbt/StreamTagVisitor$EntryResult;", cancellable = true)
-    private void visitEntry__1335795553(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1335795553L))
-            info.setReturnValue(net.minecraft.nbt.StreamTagVisitor.EntryResult.SKIP);
+        @Inject(at = @At("HEAD"), method = "visitContainerEnd()Lnet/minecraft/nbt/StreamTagVisitor$ValueResult;", cancellable = true)
+    private void visitContainerEnd__486039627(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-486039627L))
+            info.setReturnValue(net.minecraft.nbt.StreamTagVisitor.ValueResult.CONTINUE);
     }
 
-    @Inject(at = @At("HEAD"), method = "visitContainerEnd()Lnet/minecraft/nbt/StreamTagVisitor$ValueResult;", cancellable = true)
-    private void visitContainerEnd__1955203408(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1955203408L))
-            info.setReturnValue(net.minecraft.nbt.StreamTagVisitor.ValueResult.CONTINUE);
+    @Inject(at = @At("HEAD"), method = "visitEntry(Lnet/minecraft/nbt/TagType;Ljava/lang/String;)Lnet/minecraft/nbt/StreamTagVisitor$EntryResult;", cancellable = true)
+    private void visitEntry__103559272(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-103559272L))
+            info.setReturnValue(net.minecraft.nbt.StreamTagVisitor.EntryResult.BREAK);
     }
 
 

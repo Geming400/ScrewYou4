@@ -8,8 +8,8 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.phys.shapes.ArrayVoxelShape.class)
 public class ArrayVoxelShape_1162536570Mixin {
         @Inject(at = @At("HEAD"), method = "getCoords(Lnet/minecraft/core/Direction$Axis;)Lit/unimi/dsi/fastutil/doubles/DoubleList;", cancellable = true)
-    private void getCoords_325393793(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(325393793L))
+    private void getCoords_1782120685(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1782120685L))
             info.setReturnValue(null);
     }
 

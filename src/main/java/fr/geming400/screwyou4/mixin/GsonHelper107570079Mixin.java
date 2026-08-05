@@ -8,417 +8,417 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.util.GsonHelper.class)
 public class GsonHelper107570079Mixin {
         @Inject(at = @At("HEAD"), method = "parse(Ljava/lang/String;)Lcom/google/gson/JsonObject;", cancellable = true)
-    private static void parse__1313634760(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1313634760L))
-            info.setReturnValue(null);
+    private static void parse__849940949(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-849940949L))
+            info.setReturnValue(new com.google.gson.JsonObject());
     }
 
     @Inject(at = @At("HEAD"), method = "parse(Ljava/io/Reader;)Lcom/google/gson/JsonObject;", cancellable = true)
-    private static void parse__1797861774(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1797861774L))
+    private static void parse_839489317(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(839489317L))
             info.setReturnValue(new com.google.gson.JsonObject());
     }
 
     @Inject(at = @At("HEAD"), method = "getType(Lcom/google/gson/JsonElement;)Ljava/lang/String;", cancellable = true)
-    private static void getType__1707357599(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1707357599L))
-            info.setReturnValue("&G(c..#_&dlK5\u8103f\u16EBnHCo9;v\u5BE9`v2*\uBE11n5CN})_gm\u1DB8\u053EA@G ");
-    }
-
-    @Inject(at = @At("HEAD"), method = "parseArray(Ljava/io/Reader;)Lcom/google/gson/JsonArray;", cancellable = true)
-    private static void parseArray__644542986(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-644542986L))
-            info.setReturnValue(new com.google.gson.JsonArray());
+    private static void getType_1953666225(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1953666225L))
+            info.setReturnValue("017\u5C8A@[JZ\uADBBoZ\u6800N3'");
     }
 
     @Inject(at = @At("HEAD"), method = "parseArray(Ljava/lang/String;)Lcom/google/gson/JsonArray;", cancellable = true)
-    private static void parseArray__906017424(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-906017424L))
-            info.setReturnValue(null);
+    private static void parseArray__714066230(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-714066230L))
+            info.setReturnValue(new com.google.gson.JsonArray());
+    }
+
+    @Inject(at = @At("HEAD"), method = "parseArray(Ljava/io/Reader;)Lcom/google/gson/JsonArray;", cancellable = true)
+    private static void parseArray_325488080(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(325488080L))
+            info.setReturnValue(new com.google.gson.JsonArray());
     }
 
     @Inject(at = @At("HEAD"), method = "getAsBoolean(Lcom/google/gson/JsonObject;Ljava/lang/String;)Z", cancellable = true)
-    private static void getAsBoolean_776564356(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(776564356L))
-            info.setReturnValue(false);
+    private static void getAsBoolean_1228035492(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1228035492L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "getAsBoolean(Lcom/google/gson/JsonObject;Ljava/lang/String;Z)Z", cancellable = true)
-    private static void getAsBoolean__585466654(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-585466654L))
-            info.setReturnValue(false);
+    private static void getAsBoolean_525236674(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(525236674L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "getAsString(Lcom/google/gson/JsonObject;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;", cancellable = true)
-    private static void getAsString_281791840(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(281791840L))
-            info.setReturnValue("N_9[}Ehl3Fy`n1|9p<z\u8773RvMR]o\u522Eee%F<");
+    private static void getAsString__1073351431(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1073351431L))
+            info.setReturnValue(":Z3\u1F53_G\u5C50l4'oj),\u9978}ul\uA504<a{k&ksj(\u4A0E>Q+kx5\uA21Ee\u85F0]i\u945FglMu\uD7DF\uD13Dr#m&z\u9C5D.)=LTp#:yxGytV/\u3A08\uB627\u93B5m7gF]Z5:XS");
     }
 
     @Inject(at = @At("HEAD"), method = "getAsString(Lcom/google/gson/JsonObject;Ljava/lang/String;)Ljava/lang/String;", cancellable = true)
-    private static void getAsString_542106282(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(542106282L))
-            info.setReturnValue("5@><lw$\u1B42lRG\u645CZTd\u23CB.cChCoIIV^XjbI\u9AA1;OTEAC\u4D3B`\u6620\"I\u0C6BQ`]1],g,PH4i\uCF51>z\uD64F");
+    private static void getAsString__1167462781(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1167462781L))
+            info.setReturnValue("\u27E4\u8EB4GV{Os5\"ll|#\u35E3mfs0I J2\u3CD8h\uCA6CU\uB353A\u5632f\u0F90VH7be\u8098g9qrw'/\uF939b\u77E6p^Oz_/\u997F$\u0DEAET)b1CY.4\"UAVY%UN]Q%0]- X<I\uA5C4U]^\u4642Y\u0F1C[p}\u801C");
     }
 
     @Inject(at = @At("HEAD"), method = "getAsDouble(Lcom/google/gson/JsonObject;Ljava/lang/String;)D", cancellable = true)
-    private static void getAsDouble_776543214(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(776543214L))
-            info.setReturnValue(4.017481000904679E8D);
+    private static void getAsDouble__1185125579(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1185125579L))
+            info.setReturnValue(1.4312390041728798E8D);
     }
 
     @Inject(at = @At("HEAD"), method = "getAsDouble(Lcom/google/gson/JsonObject;Ljava/lang/String;D)D", cancellable = true)
-    private static void getAsDouble__605805258(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-605805258L))
-            info.setReturnValue(4.017481006728214E8D);
+    private static void getAsDouble__1287995697(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1287995697L))
+            info.setReturnValue(1.4312390085131127E8D);
     }
 
     @Inject(at = @At("HEAD"), method = "getAsInt(Lcom/google/gson/JsonObject;Ljava/lang/String;I)I", cancellable = true)
-    private static void getAsInt__601182848(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-601182848L))
-            info.setReturnValue(-1272312923);
+    private static void getAsInt__800297817(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-800297817L))
+            info.setReturnValue(426867456);
     }
 
     @Inject(at = @At("HEAD"), method = "getAsInt(Lcom/google/gson/JsonObject;Ljava/lang/String;)I", cancellable = true)
-    private static void getAsInt_776548019(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(776548019L))
-            info.setReturnValue(-99988935);
+    private static void getAsInt_1324314284(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1324314284L))
+            info.setReturnValue(-1981295610);
     }
 
     @Inject(at = @At("HEAD"), method = "getAsLong(Lcom/google/gson/JsonObject;Ljava/lang/String;J)J", cancellable = true)
-    private static void getAsLong__600258366(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-600258366L))
-            info.setReturnValue(2413825619987973419L);
+    private static void getAsLong__817975418(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-817975418L))
+            info.setReturnValue(-1942894675140479955L);
     }
 
     @Inject(at = @At("HEAD"), method = "getAsLong(Lcom/google/gson/JsonObject;Ljava/lang/String;)J", cancellable = true)
-    private static void getAsLong_776548980(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(776548980L))
-            info.setReturnValue(2595947180602298462L);
-    }
-
-    @Inject(at = @At("HEAD"), method = "fromJson(Lcom/google/gson/Gson;Ljava/lang/String;Ljava/lang/Class;)Ljava/lang/Object;", cancellable = true)
-    private static void fromJson_132710417(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(132710417L))
-            info.setReturnValue(new java.lang.Object());
+    private static void getAsLong__615947472(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-615947472L))
+            info.setReturnValue(-606379533594744605L);
     }
 
     @Inject(at = @At("HEAD"), method = "fromJson(Lcom/google/gson/Gson;Ljava/io/Reader;Lcom/google/gson/reflect/TypeToken;)Ljava/lang/Object;", cancellable = true)
-    private static void fromJson__1570032380(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1570032380L))
+    private static void fromJson_1799502610(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1799502610L))
             info.setReturnValue(new java.lang.Object());
     }
 
     @Inject(at = @At("HEAD"), method = "fromJson(Lcom/google/gson/Gson;Ljava/io/Reader;Ljava/lang/Class;)Ljava/lang/Object;", cancellable = true)
-    private static void fromJson_909167767(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(909167767L))
+    private static void fromJson_2131679781(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2131679781L))
+            info.setReturnValue(new java.lang.Object());
+    }
+
+    @Inject(at = @At("HEAD"), method = "fromJson(Lcom/google/gson/Gson;Ljava/lang/String;Ljava/lang/Class;)Ljava/lang/Object;", cancellable = true)
+    private static void fromJson__1854283233(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1854283233L))
             info.setReturnValue(new java.lang.Object());
     }
 
     @Inject(at = @At("HEAD"), method = "writeValue(Lcom/google/gson/stream/JsonWriter;Lcom/google/gson/JsonElement;Ljava/util/Comparator;)V", cancellable = true)
-    private static void writeValue__315068711(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-315068711L))
+    private static void writeValue_605171399(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(605171399L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getAsItem(Lcom/google/gson/JsonObject;Ljava/lang/String;)Lnet/minecraft/core/Holder;", cancellable = true)
-    private static void getAsItem__2069636791(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2069636791L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getAsItem(Lcom/google/gson/JsonObject;Ljava/lang/String;Lnet/minecraft/core/Holder;)Lnet/minecraft/core/Holder;", cancellable = true)
-    private static void getAsItem_912111916(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(912111916L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getNonNull(Lcom/google/gson/JsonObject;Ljava/lang/String;)Lcom/google/gson/JsonElement;", cancellable = true)
-    private static void getNonNull_1922514393(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1922514393L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "convertToBoolean(Lcom/google/gson/JsonElement;Ljava/lang/String;)Z", cancellable = true)
-    private static void convertToBoolean_1671280695(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1671280695L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "toStableString(Lcom/google/gson/JsonElement;)Ljava/lang/String;", cancellable = true)
-    private static void toStableString__1707357599(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1707357599L))
-            info.setReturnValue("&G(c..#_&dlK5\u8103f\u16EBnHCo9;v\u5BE9`v2*\uBE11n5CN})_gm\u1DB8\u053EA@G ");
-    }
-
-    @Inject(at = @At("HEAD"), method = "convertToJsonObject(Lcom/google/gson/JsonElement;Ljava/lang/String;)Lcom/google/gson/JsonObject;", cancellable = true)
-    private static void convertToJsonObject__1570262791(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1570262791L))
-            info.setReturnValue(new com.google.gson.JsonObject());
-    }
-
-    @Inject(at = @At("HEAD"), method = "isArrayNode(Lcom/google/gson/JsonObject;Ljava/lang/String;)Z", cancellable = true)
-    private static void isArrayNode_776564356(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(776564356L))
-            info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "convertToByte(Lcom/google/gson/JsonElement;Ljava/lang/String;)B", cancellable = true)
-    private static void convertToByte_1671257631(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1671257631L))
-            info.setReturnValue(-88);
-    }
-
-    @Inject(at = @At("HEAD"), method = "convertToObject(Lcom/google/gson/JsonElement;Ljava/lang/String;Lcom/google/gson/JsonDeserializationContext;Ljava/lang/Class;)Ljava/lang/Object;", cancellable = true)
-    private static void convertToObject_801528627(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(801528627L))
-            info.setReturnValue(new java.lang.Object());
-    }
-
-    @Inject(at = @At("HEAD"), method = "encodesLongerThan(Lcom/google/gson/JsonElement;I)Z", cancellable = true)
-    private static void encodesLongerThan__1850531064(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1850531064L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "convertToCharacter(Lcom/google/gson/JsonElement;Ljava/lang/String;)C", cancellable = true)
-    private static void convertToCharacter_1671258592(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1671258592L))
-            info.setReturnValue((char) 26331);
-    }
-
-    @Inject(at = @At("HEAD"), method = "convertToString(Lcom/google/gson/JsonElement;Ljava/lang/String;)Ljava/lang/String;", cancellable = true)
-    private static void convertToString__923282089(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-923282089L))
-            info.setReturnValue("\uFCCC4>y$s\u2AFDIl\u91565");
-    }
-
-    @Inject(at = @At("HEAD"), method = "getAsObject(Lcom/google/gson/JsonObject;Ljava/lang/String;Lcom/google/gson/JsonDeserializationContext;Ljava/lang/Class;)Ljava/lang/Object;", cancellable = true)
-    private static void getAsObject__749232448(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-749232448L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getAsObject(Lcom/google/gson/JsonObject;Ljava/lang/String;Ljava/lang/Object;Lcom/google/gson/JsonDeserializationContext;Ljava/lang/Class;)Ljava/lang/Object;", cancellable = true)
-    private static void getAsObject__1565384228(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1565384228L))
-            info.setReturnValue(new java.lang.Object());
-    }
-
-    @Inject(at = @At("HEAD"), method = "isObjectNode(Lcom/google/gson/JsonObject;Ljava/lang/String;)Z", cancellable = true)
-    private static void isObjectNode_776564356(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(776564356L))
-            info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "convertToJsonArray(Lcom/google/gson/JsonElement;Ljava/lang/String;)Lcom/google/gson/JsonArray;", cancellable = true)
-    private static void convertToJsonArray_1856650895(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1856650895L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isStringValue(Lcom/google/gson/JsonElement;)Z", cancellable = true)
-    private static void isStringValue_43525613(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(43525613L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isStringValue(Lcom/google/gson/JsonObject;Ljava/lang/String;)Z", cancellable = true)
-    private static void isStringValue_776564356(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(776564356L))
-            info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isValidPrimitive(Lcom/google/gson/JsonObject;Ljava/lang/String;)Z", cancellable = true)
-    private static void isValidPrimitive_776564356(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(776564356L))
-            info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "convertToDouble(Lcom/google/gson/JsonElement;Ljava/lang/String;)D", cancellable = true)
-    private static void convertToDouble_1671259553(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1671259553L))
-            info.setReturnValue(4.069464008225411E8D);
-    }
-
-    @Inject(at = @At("HEAD"), method = "convertToInt(Lcom/google/gson/JsonElement;Ljava/lang/String;)I", cancellable = true)
-    private static void convertToInt_1671264358(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1671264358L))
-            info.setReturnValue(-2065073182);
-    }
-
-    @Inject(at = @At("HEAD"), method = "convertToBigDecimal(Lcom/google/gson/JsonElement;Ljava/lang/String;)Ljava/math/BigDecimal;", cancellable = true)
-    private static void convertToBigDecimal__1874266415(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1874266415L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isNumberValue(Lcom/google/gson/JsonElement;)Z", cancellable = true)
-    private static void isNumberValue_43525613(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(43525613L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isNumberValue(Lcom/google/gson/JsonObject;Ljava/lang/String;)Z", cancellable = true)
-    private static void isNumberValue_776564356(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(776564356L))
-            info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "convertToShort(Lcom/google/gson/JsonElement;Ljava/lang/String;)S", cancellable = true)
-    private static void convertToShort_1671273968(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1671273968L))
-            info.setReturnValue((short) 32533);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isValidNode(Lcom/google/gson/JsonObject;Ljava/lang/String;)Z", cancellable = true)
-    private static void isValidNode_776564356(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(776564356L))
-            info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "convertToItem(Lcom/google/gson/JsonElement;Ljava/lang/String;)Lnet/minecraft/core/Holder;", cancellable = true)
-    private static void convertToItem_711825724(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(711825724L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "convertToFloat(Lcom/google/gson/JsonElement;Ljava/lang/String;)F", cancellable = true)
-    private static void convertToFloat_1671261475(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1671261475L))
-            info.setReturnValue(4.069464E8F);
-    }
-
-    @Inject(at = @At("HEAD"), method = "fromNullableJson(Lcom/google/gson/Gson;Ljava/lang/String;Lcom/google/gson/reflect/TypeToken;)Ljava/lang/Object;", cancellable = true)
-    private static void fromNullableJson_1791966718(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1791966718L))
-            info.setReturnValue(new java.lang.Object());
-    }
-
-    @Inject(at = @At("HEAD"), method = "fromNullableJson(Lcom/google/gson/Gson;Ljava/io/Reader;Lcom/google/gson/reflect/TypeToken;)Ljava/lang/Object;", cancellable = true)
-    private static void fromNullableJson__1570032380(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1570032380L))
-            info.setReturnValue(new java.lang.Object());
-    }
-
-    @Inject(at = @At("HEAD"), method = "convertToBigInteger(Lcom/google/gson/JsonElement;Ljava/lang/String;)Ljava/math/BigInteger;", cancellable = true)
-    private static void convertToBigInteger__1803999804(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1803999804L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isBooleanValue(Lcom/google/gson/JsonObject;Ljava/lang/String;)Z", cancellable = true)
-    private static void isBooleanValue_776564356(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(776564356L))
-            info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isBooleanValue(Lcom/google/gson/JsonElement;)Z", cancellable = true)
-    private static void isBooleanValue_43525613(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(43525613L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "convertToLong(Lcom/google/gson/JsonElement;Ljava/lang/String;)J", cancellable = true)
-    private static void convertToLong_1671265319(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1671265319L))
-            info.setReturnValue(6241463747137314285L);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getAsFloat(Lcom/google/gson/JsonObject;Ljava/lang/String;F)F", cancellable = true)
-    private static void getAsFloat__603956294(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-603956294L))
-            info.setReturnValue(4.069464E8F);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getAsFloat(Lcom/google/gson/JsonObject;Ljava/lang/String;)F", cancellable = true)
-    private static void getAsFloat_776545136(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(776545136L))
-            info.setReturnValue(4.069464E8F);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getAsShort(Lcom/google/gson/JsonObject;Ljava/lang/String;S)S", cancellable = true)
-    private static void getAsShort__591938028(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-591938028L))
-            info.setReturnValue((short) 212);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getAsShort(Lcom/google/gson/JsonObject;Ljava/lang/String;)S", cancellable = true)
-    private static void getAsShort_776557629(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(776557629L))
-            info.setReturnValue((short) 26862);
+    @Inject(at = @At("HEAD"), method = "getAsByte(Lcom/google/gson/JsonObject;Ljava/lang/String;)B", cancellable = true)
+    private static void getAsByte_918542108(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(918542108L))
+            info.setReturnValue(60);
     }
 
     @Inject(at = @At("HEAD"), method = "getAsByte(Lcom/google/gson/JsonObject;Ljava/lang/String;B)B", cancellable = true)
-    private static void getAsByte__607654222(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-607654222L))
-            info.setReturnValue(-33);
+    private static void getAsByte__500596222(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-500596222L))
+            info.setReturnValue(-80);
     }
 
-    @Inject(at = @At("HEAD"), method = "getAsByte(Lcom/google/gson/JsonObject;Ljava/lang/String;)B", cancellable = true)
-    private static void getAsByte_776541292(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(776541292L))
-            info.setReturnValue(-123);
+    @Inject(at = @At("HEAD"), method = "getAsFloat(Lcom/google/gson/JsonObject;Ljava/lang/String;)F", cancellable = true)
+    private static void getAsFloat_787309020(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(787309020L))
+            info.setReturnValue(1.441316E8F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getAsFloat(Lcom/google/gson/JsonObject;Ljava/lang/String;F)F", cancellable = true)
+    private static void getAsFloat__270275890(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-270275890L))
+            info.setReturnValue(1.441316E8F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getAsShort(Lcom/google/gson/JsonObject;Ljava/lang/String;S)S", cancellable = true)
+    private static void getAsShort__1877352632(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1877352632L))
+            info.setReturnValue((short) 18890);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getAsShort(Lcom/google/gson/JsonObject;Ljava/lang/String;)S", cancellable = true)
+    private static void getAsShort__96191351(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-96191351L))
+            info.setReturnValue((short) 9152);
     }
 
     @Inject(at = @At("HEAD"), method = "getAsJsonObject(Lcom/google/gson/JsonObject;Ljava/lang/String;)Lcom/google/gson/JsonObject;", cancellable = true)
-    private static void getAsJsonObject__1896254836(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1896254836L))
+    private static void getAsJsonObject__356194597(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-356194597L))
             info.setReturnValue(new com.google.gson.JsonObject());
     }
 
     @Inject(at = @At("HEAD"), method = "getAsJsonObject(Lcom/google/gson/JsonObject;Ljava/lang/String;Lcom/google/gson/JsonObject;)Lcom/google/gson/JsonObject;", cancellable = true)
-    private static void getAsJsonObject__2027980576(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2027980576L))
-            info.setReturnValue(null);
+    private static void getAsJsonObject__2019790673(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2019790673L))
+            info.setReturnValue(new com.google.gson.JsonObject());
+    }
+
+    @Inject(at = @At("HEAD"), method = "getAsCharacter(Lcom/google/gson/JsonObject;Ljava/lang/String;)C", cancellable = true)
+    private static void getAsCharacter__47056724(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-47056724L))
+            info.setReturnValue((char) 25946);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getAsCharacter(Lcom/google/gson/JsonObject;Ljava/lang/String;C)C", cancellable = true)
+    private static void getAsCharacter__368494251(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-368494251L))
+            info.setReturnValue((char) 53847);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getAsJsonArray(Lcom/google/gson/JsonObject;Ljava/lang/String;)Lcom/google/gson/JsonArray;", cancellable = true)
+    private static void getAsJsonArray__340810701(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-340810701L))
+            info.setReturnValue(new com.google.gson.JsonArray());
+    }
+
+    @Inject(at = @At("HEAD"), method = "getAsJsonArray(Lcom/google/gson/JsonObject;Ljava/lang/String;Lcom/google/gson/JsonArray;)Lcom/google/gson/JsonArray;", cancellable = true)
+    private static void getAsJsonArray_87141723(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(87141723L))
+            info.setReturnValue(new com.google.gson.JsonArray());
     }
 
     @Inject(at = @At("HEAD"), method = "getAsBigDecimal(Lcom/google/gson/JsonObject;Ljava/lang/String;Ljava/math/BigDecimal;)Ljava/math/BigDecimal;", cancellable = true)
-    private static void getAsBigDecimal__1952728416(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1952728416L))
+    private static void getAsBigDecimal__1333097639(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1333097639L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getAsBigDecimal(Lcom/google/gson/JsonObject;Ljava/lang/String;)Ljava/math/BigDecimal;", cancellable = true)
-    private static void getAsBigDecimal_929309348(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(929309348L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getAsJsonArray(Lcom/google/gson/JsonObject;Ljava/lang/String;Lcom/google/gson/JsonArray;)Lcom/google/gson/JsonArray;", cancellable = true)
-    private static void getAsJsonArray_805607762(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(805607762L))
-            info.setReturnValue(new com.google.gson.JsonArray());
-    }
-
-    @Inject(at = @At("HEAD"), method = "getAsJsonArray(Lcom/google/gson/JsonObject;Ljava/lang/String;)Lcom/google/gson/JsonArray;", cancellable = true)
-    private static void getAsJsonArray__924811620(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-924811620L))
-            info.setReturnValue(new com.google.gson.JsonArray());
-    }
-
-    @Inject(at = @At("HEAD"), method = "getAsBigInteger(Lcom/google/gson/JsonObject;Ljava/lang/String;)Ljava/math/BigInteger;", cancellable = true)
-    private static void getAsBigInteger_999575959(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(999575959L))
+    private static void getAsBigDecimal__1692384227(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1692384227L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getAsBigInteger(Lcom/google/gson/JsonObject;Ljava/lang/String;Ljava/math/BigInteger;)Ljava/math/BigInteger;", cancellable = true)
-    private static void getAsBigInteger_1388484928(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1388484928L))
+    private static void getAsBigInteger__186739930(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-186739930L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getAsCharacter(Lcom/google/gson/JsonObject;Ljava/lang/String;)C", cancellable = true)
-    private static void getAsCharacter_776542253(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(776542253L))
-            info.setReturnValue((char) 19404);
+    @Inject(at = @At("HEAD"), method = "getAsBigInteger(Lcom/google/gson/JsonObject;Ljava/lang/String;)Ljava/math/BigInteger;", cancellable = true)
+    private static void getAsBigInteger__2022130691(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2022130691L))
+            info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getAsCharacter(Lcom/google/gson/JsonObject;Ljava/lang/String;C)C", cancellable = true)
-    private static void getAsCharacter__606729740(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-606729740L))
-            info.setReturnValue((char) 64338);
+    @Inject(at = @At("HEAD"), method = "getAsItem(Lcom/google/gson/JsonObject;Ljava/lang/String;)Lnet/minecraft/core/Holder;", cancellable = true)
+    private static void getAsItem_1178421198(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1178421198L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getAsItem(Lcom/google/gson/JsonObject;Ljava/lang/String;Lnet/minecraft/core/Holder;)Lnet/minecraft/core/Holder;", cancellable = true)
+    private static void getAsItem_719871879(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(719871879L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getNonNull(Lcom/google/gson/JsonObject;Ljava/lang/String;)Lcom/google/gson/JsonElement;", cancellable = true)
+    private static void getNonNull__1293105061(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1293105061L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isValidPrimitive(Lcom/google/gson/JsonObject;Ljava/lang/String;)Z", cancellable = true)
+    private static void isValidPrimitive__1495156657(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1495156657L))
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isValidNode(Lcom/google/gson/JsonObject;Ljava/lang/String;)Z", cancellable = true)
+    private static void isValidNode__1696913424(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1696913424L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "convertToString(Lcom/google/gson/JsonElement;Ljava/lang/String;)Ljava/lang/String;", cancellable = true)
+    private static void convertToString_417385336(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(417385336L))
+            info.setReturnValue("$B>QAMcd;7eF^4o!&8wFE\uAFEDe=D=Xkz;15*z2..U[0|Z_*@\"24%0Uo_\u21E2&);O\u996E0LE\u77CEm5\uB140\"PNH&M_3\uB74E]`i\u3892U%HA]cfc#BOQb7m");
+    }
+
+    @Inject(at = @At("HEAD"), method = "convertToItem(Lcom/google/gson/JsonElement;Ljava/lang/String;)Lnet/minecraft/core/Holder;", cancellable = true)
+    private static void convertToItem_1566436157(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1566436157L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "convertToBoolean(Lcom/google/gson/JsonElement;Ljava/lang/String;)Z", cancellable = true)
+    private static void convertToBoolean_69218289(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(69218289L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "convertToDouble(Lcom/google/gson/JsonElement;Ljava/lang/String;)D", cancellable = true)
+    private static void convertToDouble__1176649440(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1176649440L))
+            info.setReturnValue(1.4513590048526156E8D);
+    }
+
+    @Inject(at = @At("HEAD"), method = "convertToFloat(Lcom/google/gson/JsonElement;Ljava/lang/String;)F", cancellable = true)
+    private static void convertToFloat_688154001(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(688154001L))
+            info.setReturnValue(1.451359E8F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "convertToLong(Lcom/google/gson/JsonElement;Ljava/lang/String;)J", cancellable = true)
+    private static void convertToLong__390044079(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-390044079L))
+            info.setReturnValue(-3198880130424411892L);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isNumberValue(Lcom/google/gson/JsonObject;Ljava/lang/String;)Z", cancellable = true)
+    private static void isNumberValue__770277978(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-770277978L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isNumberValue(Lcom/google/gson/JsonElement;)Z", cancellable = true)
+    private static void isNumberValue__748378485(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-748378485L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "convertToShort(Lcom/google/gson/JsonElement;Ljava/lang/String;)S", cancellable = true)
+    private static void convertToShort__930928514(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-930928514L))
+            info.setReturnValue((short) 4587);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getAsObject(Lcom/google/gson/JsonObject;Ljava/lang/String;Lcom/google/gson/JsonDeserializationContext;Ljava/lang/Class;)Ljava/lang/Object;", cancellable = true)
+    private static void getAsObject__1556605927(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1556605927L))
+            info.setReturnValue(new java.lang.Object());
+    }
+
+    @Inject(at = @At("HEAD"), method = "getAsObject(Lcom/google/gson/JsonObject;Ljava/lang/String;Ljava/lang/Object;Lcom/google/gson/JsonDeserializationContext;Ljava/lang/Class;)Ljava/lang/Object;", cancellable = true)
+    private static void getAsObject__1719971083(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1719971083L))
+            info.setReturnValue(new java.lang.Object());
+    }
+
+    @Inject(at = @At("HEAD"), method = "convertToObject(Lcom/google/gson/JsonElement;Ljava/lang/String;Lcom/google/gson/JsonDeserializationContext;Ljava/lang/Class;)Ljava/lang/Object;", cancellable = true)
+    private static void convertToObject__2006198176(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2006198176L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "convertToInt(Lcom/google/gson/JsonElement;Ljava/lang/String;)I", cancellable = true)
+    private static void convertToInt_165752679(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(165752679L))
+            info.setReturnValue(1821871569);
+    }
+
+    @Inject(at = @At("HEAD"), method = "fromNullableJson(Lcom/google/gson/Gson;Ljava/io/Reader;Lcom/google/gson/reflect/TypeToken;)Ljava/lang/Object;", cancellable = true)
+    private static void fromNullableJson__81382927(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-81382927L))
+            info.setReturnValue(new java.lang.Object());
+    }
+
+    @Inject(at = @At("HEAD"), method = "fromNullableJson(Lcom/google/gson/Gson;Ljava/lang/String;Lcom/google/gson/reflect/TypeToken;)Ljava/lang/Object;", cancellable = true)
+    private static void fromNullableJson__2134985813(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2134985813L))
+            info.setReturnValue(new java.lang.Object());
+    }
+
+    @Inject(at = @At("HEAD"), method = "convertToBigInteger(Lcom/google/gson/JsonElement;Ljava/lang/String;)Ljava/math/BigInteger;", cancellable = true)
+    private static void convertToBigInteger_792990968(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(792990968L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "convertToByte(Lcom/google/gson/JsonElement;Ljava/lang/String;)B", cancellable = true)
+    private static void convertToByte__65276715(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-65276715L))
+            info.setReturnValue(-81);
+    }
+
+    @Inject(at = @At("HEAD"), method = "convertToJsonObject(Lcom/google/gson/JsonElement;Ljava/lang/String;)Lcom/google/gson/JsonObject;", cancellable = true)
+    private static void convertToJsonObject_1602373604(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1602373604L))
+            info.setReturnValue(new com.google.gson.JsonObject());
+    }
+
+    @Inject(at = @At("HEAD"), method = "toStableString(Lcom/google/gson/JsonElement;)Ljava/lang/String;", cancellable = true)
+    private static void toStableString_1492335034(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1492335034L))
+            info.setReturnValue("\uACA3(%?]|U\u706Fs9fK/>J\uA007,\u8787@E0wOE_3N$\u5F91v%65obE\uB2F22$@Kt\u8E4B]s<kh(\uD553rQ\uAD33FHvIG!2P[Lv6bO;}3fC g?L;O\u4209R");
+    }
+
+    @Inject(at = @At("HEAD"), method = "convertToCharacter(Lcom/google/gson/JsonElement;Ljava/lang/String;)C", cancellable = true)
+    private static void convertToCharacter_1986772379(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1986772379L))
+            info.setReturnValue((char) 36248);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isArrayNode(Lcom/google/gson/JsonObject;Ljava/lang/String;)Z", cancellable = true)
+    private static void isArrayNode_1929453811(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1929453811L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "convertToJsonArray(Lcom/google/gson/JsonElement;Ljava/lang/String;)Lcom/google/gson/JsonArray;", cancellable = true)
+    private static void convertToJsonArray__470033486(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-470033486L))
+            info.setReturnValue(new com.google.gson.JsonArray());
+    }
+
+    @Inject(at = @At("HEAD"), method = "isObjectNode(Lcom/google/gson/JsonObject;Ljava/lang/String;)Z", cancellable = true)
+    private static void isObjectNode_1218527737(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1218527737L))
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "convertToBigDecimal(Lcom/google/gson/JsonElement;Ljava/lang/String;)Ljava/math/BigDecimal;", cancellable = true)
+    private static void convertToBigDecimal_238227794(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(238227794L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "encodesLongerThan(Lcom/google/gson/JsonElement;I)Z", cancellable = true)
+    private static void encodesLongerThan_1048217409(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1048217409L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isStringValue(Lcom/google/gson/JsonObject;Ljava/lang/String;)Z", cancellable = true)
+    private static void isStringValue__421655954(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-421655954L))
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isStringValue(Lcom/google/gson/JsonElement;)Z", cancellable = true)
+    private static void isStringValue__151007037(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-151007037L))
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isBooleanValue(Lcom/google/gson/JsonElement;)Z", cancellable = true)
+    private static void isBooleanValue__1651979872(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1651979872L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isBooleanValue(Lcom/google/gson/JsonObject;Ljava/lang/String;)Z", cancellable = true)
+    private static void isBooleanValue_643057457(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(643057457L))
+            info.setReturnValue(true);
     }
 
 

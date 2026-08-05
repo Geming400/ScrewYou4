@@ -8,8 +8,8 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.util.datafix.fixes.References.class)
 public class References_1832427670Mixin {
         @Inject(at = @At("HEAD"), method = "reference(Ljava/lang/String;)Lcom/mojang/datafixers/DSL$TypeReference;", cancellable = true)
-    private static void reference__1278141194(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1278141194L))
+    private static void reference_569778251(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(569778251L))
             info.setReturnValue(null);
     }
 

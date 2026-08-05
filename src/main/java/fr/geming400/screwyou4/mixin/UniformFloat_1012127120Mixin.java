@@ -8,51 +8,51 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.util.valueproviders.UniformFloat.class)
 public class UniformFloat_1012127120Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals__1897327918(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1897327918L))
+    private void equals_103500851(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(103500851L))
             info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__123333352(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-123333352L))
-            info.setReturnValue(" \u6300h5vB\u01E7!|2Q4-CHk}\u178F+\u41F6N\uBB5FP)\u3977A#\u8376N>u4d53k\uCEEDj}YN|");
+    private void toString_1782550148(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1782550148L))
+            info.setReturnValue("-zA?,\uB65B4>?Gf=\u015B\uCBC6\u1EC1?qP\uD6CEN7,Fv>nf'f");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_1050389861(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1050389861L))
-            info.setReturnValue(654217804);
+    private void hashCode_1569479210(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1569479210L))
+            info.setReturnValue(-1251612677);
     }
 
     @Inject(at = @At("HEAD"), method = "min()F", cancellable = true)
-    private void min_1050386482(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1050386482L))
-            info.setReturnValue(7.76414E7F);
+    private void min__409002720(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-409002720L))
+            info.setReturnValue(2.88222E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "max()F", cancellable = true)
-    private void max_1050386482(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1050386482L))
-            info.setReturnValue(7.76414E7F);
+    private void max_1367193934(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1367193934L))
+            info.setReturnValue(2.88222E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "of(FF)Lnet/minecraft/util/valueproviders/UniformFloat;", cancellable = true)
-    private static void of__2046960856(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2046960856L))
+    private static void of__2077900353(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2077900353L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
-    private void codec__1546986453(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1546986453L))
+    private void codec_2078572373(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2078572373L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "sample(Lnet/minecraft/util/RandomSource;)F", cancellable = true)
-    private void sample__694903342(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-694903342L))
-            info.setReturnValue(7.76414E7F);
+    private void sample__20937732(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-20937732L))
+            info.setReturnValue(2.88222E8F);
     }
 
 

@@ -8,326 +8,326 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.level.block.Block.class)
 public class Block_308675777Mixin {
         @Inject(at = @At("HEAD"), method = "getName()Lnet/minecraft/network/chat/MutableComponent;", cancellable = true)
-    private void getName__2099328437(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2099328437L))
+    private void getName__1550586518(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1550586518L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__826784695(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-826784695L))
-            info.setReturnValue("\u19B0\u49F1J;Uv0!u(\uCB60s;.`\uC3C0%oS<ZbhS'\u4DB6os&.IWoVU\u194AE+\u7700\u7806xH$\uC3946}GO%7S|X>G\u4510'qbM_r</d");
+    private void toString_1079098805(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1079098805L))
+            info.setReturnValue("Lj#='V-[\u5D01+R$y\u2171?:7\u92C8u=Y^'n%]g\u21BFk8;r\"{z\u732D4\uFACE-6&HnnG\"?");
     }
 
     @Inject(at = @At("HEAD"), method = "getId(Lnet/minecraft/world/level/block/state/BlockState;)I", cancellable = true)
-    private static void getId_163370701(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(163370701L))
-            info.setReturnValue(1591285484);
+    private static void getId_416996508(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(416996508L))
+            info.setReturnValue(448788695);
     }
 
     @Inject(at = @At("HEAD"), method = "destroy(Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)V", cancellable = true)
-    private void destroy__85995890(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-85995890L))
+    private void destroy__1098620716(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1098620716L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "box(DDDDDD)Lnet/minecraft/world/phys/shapes/VoxelShape;", cancellable = true)
-    private static void box__1134257894(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1134257894L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "column(DDDD)Lnet/minecraft/world/phys/shapes/VoxelShape;", cancellable = true)
-    private static void column_550553498(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(550553498L))
+    private static void box_86372517(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(86372517L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "column(DDD)Lnet/minecraft/world/phys/shapes/VoxelShape;", cancellable = true)
-    private static void column__1816041562(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1816041562L))
+    private static void column__708603760(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-708603760L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "cube(DDD)Lnet/minecraft/world/phys/shapes/VoxelShape;", cancellable = true)
-    private static void cube__1816041562(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1816041562L))
+    @Inject(at = @At("HEAD"), method = "column(DDDD)Lnet/minecraft/world/phys/shapes/VoxelShape;", cancellable = true)
+    private static void column_521386992(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(521386992L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "cube(D)Lnet/minecraft/world/phys/shapes/VoxelShape;", cancellable = true)
-    private static void cube__504903386(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-504903386L))
+    private static void cube__1496782447(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1496782447L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "boxZ(DDDDD)Lnet/minecraft/world/phys/shapes/VoxelShape;", cancellable = true)
-    private static void boxZ_900556326(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(900556326L))
+    @Inject(at = @At("HEAD"), method = "cube(DDD)Lnet/minecraft/world/phys/shapes/VoxelShape;", cancellable = true)
+    private static void cube__1529079471(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1529079471L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "boxZ(DDD)Lnet/minecraft/world/phys/shapes/VoxelShape;", cancellable = true)
-    private static void boxZ__1816041562(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1816041562L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "boxZ(DDDD)Lnet/minecraft/world/phys/shapes/VoxelShape;", cancellable = true)
-    private static void boxZ_550553498(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(550553498L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isFaceFull(Lnet/minecraft/world/phys/shapes/VoxelShape;Lnet/minecraft/core/Direction;)Z", cancellable = true)
-    private static void isFaceFull__267676514(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-267676514L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/entity/BlockEntity;Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/item/ItemInstance;)Ljava/util/List;", cancellable = true)
-    private static void getDrops_2017168700(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2017168700L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/entity/BlockEntity;)Ljava/util/List;", cancellable = true)
-    private static void getDrops_1188331815(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1188331815L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "stateById(I)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
-    private static void stateById_1548233293(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1548233293L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "boxes(ILjava/util/function/IntFunction;)[Lnet/minecraft/world/phys/shapes/VoxelShape;", cancellable = true)
-    private static void boxes_1422556523(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1422556523L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "byItem(Lnet/minecraft/world/item/Item;)Lnet/minecraft/world/level/block/Block;", cancellable = true)
-    private static void byItem_266120582(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(266120582L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "stepOn(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/entity/Entity;)V", cancellable = true)
-    private void stepOn__376522600(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-376522600L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "fallOn(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/Entity;D)V", cancellable = true)
-    private void fallOn_1682480612(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1682480612L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
-    private void getStateForPlacement__949923991(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-949923991L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "animateTick(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)V", cancellable = true)
-    private void animateTick_186073695(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(186073695L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "updateFromNeighbourShapes(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
-    private static void updateFromNeighbourShapes__1030626261(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1030626261L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "updateOrDestroy(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/core/BlockPos;II)V", cancellable = true)
-    private static void updateOrDestroy_313338389(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(313338389L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "updateOrDestroy(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/core/BlockPos;I)V", cancellable = true)
-    private static void updateOrDestroy_446489882(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(446489882L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "playerWillDestroy(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/entity/player/Player;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
-    private void playerWillDestroy__413380385(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-413380385L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "builtInRegistryHolder()Lnet/minecraft/core/Holder$Reference;", cancellable = true)
-    private void builtInRegistryHolder__879670251(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-879670251L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "pushEntitiesUp(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
-    private static void pushEntitiesUp_1000471004(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1000471004L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getFriction()F", cancellable = true)
-    private void getFriction_346935139(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(346935139L))
-            info.setReturnValue(5.663649E8F);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getJumpFactor()F", cancellable = true)
-    private void getJumpFactor_346935139(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(346935139L))
-            info.setReturnValue(5.663649E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "handlePrecipitation(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/biome/Biome$Precipitation;)V", cancellable = true)
-    private void handlePrecipitation__963348158(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-963348158L))
+    private void handlePrecipitation_117075389(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(117075389L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "getSpeedFactor()F", cancellable = true)
-    private void getSpeedFactor_346935139(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(346935139L))
-            info.setReturnValue(5.663649E8F);
+    private void getSpeedFactor__103138269(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-103138269L))
+            info.setReturnValue(6653600.5F);
     }
 
-    @Inject(at = @At("HEAD"), method = "dropFromExplosion(Lnet/minecraft/world/level/Explosion;)Z", cancellable = true)
-    private void dropFromExplosion__2001556619(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2001556619L))
+    @Inject(at = @At("HEAD"), method = "hasDynamicShape()Z", cancellable = true)
+    private void hasDynamicShape__1929341541(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1929341541L))
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "shouldRenderFace(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/Direction;)Z", cancellable = true)
-    private static void shouldRenderFace__504389223(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-504389223L))
-            info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "withPropertiesOf(Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
-    private void withPropertiesOf__28873905(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-28873905L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isPossibleToRespawnInThis(Lnet/minecraft/world/level/block/state/BlockState;)Z", cancellable = true)
-    private void isPossibleToRespawnInThis_163386790(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(163386790L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isShapeFullBlock(Lnet/minecraft/world/phys/shapes/VoxelShape;)Z", cancellable = true)
-    private static void isShapeFullBlock_1217225170(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1217225170L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "canSupportRigidBlock(Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)Z", cancellable = true)
-    private static void canSupportRigidBlock__268852952(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-268852952L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "popResourceFromFace(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/Direction;Lnet/minecraft/world/item/ItemStack;)V", cancellable = true)
-    private static void popResourceFromFace__1025433695(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1025433695L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "isExceptionForConnection(Lnet/minecraft/world/level/block/state/BlockState;)Z", cancellable = true)
-    private static void isExceptionForConnection_163387038(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(163387038L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "canSupportCenter(Lnet/minecraft/world/level/LevelReader;Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/Direction;)Z", cancellable = true)
-    private static void canSupportCenter__534719773(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-534719773L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "dropResources(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/entity/BlockEntity;)V", cancellable = true)
-    private static void dropResources_1009942163(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1009942163L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "dropResources(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/entity/BlockEntity;Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/item/ItemStack;)V", cancellable = true)
-    private static void dropResources__344004408(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-344004408L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "dropResources(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;)V", cancellable = true)
-    private static void dropResources_575490463(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(575490463L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "popResource(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/item/ItemStack;)V", cancellable = true)
-    private static void popResource_1694243413(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1694243413L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "wasExploded(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/Explosion;)V", cancellable = true)
-    private void wasExploded__1811368786(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1811368786L))
+    @Inject(at = @At("HEAD"), method = "setPlacedBy(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;)V", cancellable = true)
+    private void setPlacedBy_1812670730(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1812670730L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "playerDestroy(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/entity/BlockEntity;Lnet/minecraft/world/item/ItemStack;)V", cancellable = true)
-    private void playerDestroy__1131067394(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1131067394L))
+    private void playerDestroy_634319365(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(634319365L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "setPlacedBy(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;)V", cancellable = true)
-    private void setPlacedBy_2036107924(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(2036107924L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "getFriction()F", cancellable = true)
+    private void getFriction_1199067379(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1199067379L))
+            info.setReturnValue(6653600.0F);
     }
 
-    @Inject(at = @At("HEAD"), method = "getBounceRestitution()F", cancellable = true)
-    private void getBounceRestitution_346935139(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(346935139L))
-            info.setReturnValue(5.663649E8F);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getExplosionResistance()F", cancellable = true)
-    private void getExplosionResistance_346935139(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(346935139L))
-            info.setReturnValue(5.663649E8F);
-    }
-
-    @Inject(at = @At("HEAD"), method = "hasDynamicShape()Z", cancellable = true)
-    private void hasDynamicShape_346954359(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(346954359L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "defaultBlockState()Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
-    private void defaultBlockState__1987082594(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1987082594L))
+    @Inject(at = @At("HEAD"), method = "withPropertiesOf(Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
+    private void withPropertiesOf_1480687007(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1480687007L))
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "canSupportRigidBlock(Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)Z", cancellable = true)
+    private static void canSupportRigidBlock__1060810265(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1060810265L))
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getBounceRestitution()F", cancellable = true)
+    private void getBounceRestitution__2133086505(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2133086505L))
+            info.setReturnValue(6653600.0F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "dropResources(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;)V", cancellable = true)
+    private static void dropResources__815629463(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-815629463L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "dropResources(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/entity/BlockEntity;)V", cancellable = true)
+    private static void dropResources_944821597(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(944821597L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "dropResources(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/entity/BlockEntity;Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/item/ItemStack;)V", cancellable = true)
+    private static void dropResources_863690942(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(863690942L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "wasExploded(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/Explosion;)V", cancellable = true)
+    private void wasExploded__389980798(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-389980798L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "popResource(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/item/ItemStack;)V", cancellable = true)
+    private static void popResource__2029651978(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-2029651978L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "dropFromExplosion(Lnet/minecraft/world/level/Explosion;)Z", cancellable = true)
+    private void dropFromExplosion__1339535279(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1339535279L))
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isShapeFullBlock(Lnet/minecraft/world/phys/shapes/VoxelShape;)Z", cancellable = true)
+    private static void isShapeFullBlock__67573685(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-67573685L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getJumpFactor()F", cancellable = true)
+    private void getJumpFactor__1258222544(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1258222544L))
+            info.setReturnValue(6653600.5F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getExplosionResistance()F", cancellable = true)
+    private void getExplosionResistance__1273521045(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1273521045L))
+            info.setReturnValue(6653600.0F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "canSupportCenter(Lnet/minecraft/world/level/LevelReader;Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/Direction;)Z", cancellable = true)
+    private static void canSupportCenter__1925701297(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1925701297L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isPossibleToRespawnInThis(Lnet/minecraft/world/level/block/state/BlockState;)Z", cancellable = true)
+    private void isPossibleToRespawnInThis_258728529(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(258728529L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "popResourceFromFace(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/Direction;Lnet/minecraft/world/item/ItemStack;)V", cancellable = true)
+    private static void popResourceFromFace__1300824165(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1300824165L))
+            info.cancel();
+    }
+
     @Inject(at = @At("HEAD"), method = "getStateDefinition()Lnet/minecraft/world/level/block/state/StateDefinition;", cancellable = true)
-    private void getStateDefinition__1449819492(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1449819492L))
+    private void getStateDefinition__1034114226(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1034114226L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "asItem()Lnet/minecraft/world/item/Item;", cancellable = true)
-    private void asItem__210259642(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-210259642L))
+    private void asItem_158473409(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(158473409L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
+    private void getStateForPlacement_2134454592(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2134454592L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "playerWillDestroy(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/entity/player/Player;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
+    private void playerWillDestroy_635738374(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(635738374L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "animateTick(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)V", cancellable = true)
+    private void animateTick_713357309(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(713357309L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "updateFromNeighbourShapes(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
+    private static void updateFromNeighbourShapes_1419339271(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1419339271L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isExceptionForConnection(Lnet/minecraft/world/level/block/state/BlockState;)Z", cancellable = true)
+    private static void isExceptionForConnection_1689370140(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1689370140L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "shouldRenderFace(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/Direction;)Z", cancellable = true)
+    private static void shouldRenderFace_986598323(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(986598323L))
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "pushEntitiesUp(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
+    private static void pushEntitiesUp__499389742(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-499389742L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "updateOrDestroy(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/core/BlockPos;II)V", cancellable = true)
+    private static void updateOrDestroy_1802914311(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1802914311L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "updateOrDestroy(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/core/BlockPos;I)V", cancellable = true)
+    private static void updateOrDestroy__1860763928(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1860763928L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "builtInRegistryHolder()Lnet/minecraft/core/Holder$Reference;", cancellable = true)
+    private void builtInRegistryHolder_292702761(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(292702761L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "boxZ(DDDD)Lnet/minecraft/world/phys/shapes/VoxelShape;", cancellable = true)
+    private static void boxZ_1723021833(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1723021833L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "boxZ(DDDDD)Lnet/minecraft/world/phys/shapes/VoxelShape;", cancellable = true)
+    private static void boxZ__1407630953(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1407630953L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "boxZ(DDD)Lnet/minecraft/world/phys/shapes/VoxelShape;", cancellable = true)
+    private static void boxZ_161442647(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(161442647L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "fallOn(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/Entity;D)V", cancellable = true)
+    private void fallOn__1739557782(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1739557782L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "isFaceFull(Lnet/minecraft/world/phys/shapes/VoxelShape;Lnet/minecraft/core/Direction;)Z", cancellable = true)
+    private static void isFaceFull_1328578568(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1328578568L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "byItem(Lnet/minecraft/world/item/Item;)Lnet/minecraft/world/level/block/Block;", cancellable = true)
+    private static void byItem__56930032(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-56930032L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "stateById(I)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
+    private static void stateById__1565081878(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1565081878L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/entity/BlockEntity;)Ljava/util/List;", cancellable = true)
+    private static void getDrops__1872818759(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1872818759L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/entity/BlockEntity;Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/item/ItemInstance;)Ljava/util/List;", cancellable = true)
+    private static void getDrops_1174109006(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1174109006L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "stepOn(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/entity/Entity;)V", cancellable = true)
+    private void stepOn_113026403(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(113026403L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "boxes(ILjava/util/function/IntFunction;)[Lnet/minecraft/world/phys/shapes/VoxelShape;", cancellable = true)
+    private static void boxes__1331602204(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1331602204L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "defaultBlockState()Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
+    private void defaultBlockState_866094595(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(866094595L))
             info.setReturnValue(null);
     }
 

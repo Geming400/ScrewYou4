@@ -7,46 +7,46 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.client.renderer.entity.SquidRenderer.class)
 public class SquidRenderer_1756504377Mixin {
-        @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/client/renderer/entity/state/EntityRenderState;F)V", cancellable = true)
-    private void extractRenderState_1983623395(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1983623395L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/entity/animal/squid/Squid;Lnet/minecraft/client/renderer/entity/state/SquidRenderState;F)V", cancellable = true)
-    private void extractRenderState_1931683419(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1931683419L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/client/renderer/entity/state/LivingEntityRenderState;F)V", cancellable = true)
-    private void extractRenderState__1518598717(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1518598717L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/SquidRenderState;", cancellable = true)
-    private void createRenderState_425018693(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(425018693L))
-            info.setReturnValue(new net.minecraft.client.renderer.entity.state.SquidRenderState());
-    }
-
-    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/EntityRenderState;", cancellable = true)
-    private void createRenderState_1167867932(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1167867932L))
+        @Inject(at = @At("HEAD"), method = "getTextureLocation(Lnet/minecraft/client/renderer/entity/state/LivingEntityRenderState;)Lnet/minecraft/resources/Identifier;", cancellable = true)
+    private void getTextureLocation__565948085(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-565948085L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getTextureLocation(Lnet/minecraft/client/renderer/entity/state/SquidRenderState;)Lnet/minecraft/resources/Identifier;", cancellable = true)
-    private void getTextureLocation__713463009(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-713463009L))
+    private void getTextureLocation__1084553307(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1084553307L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getTextureLocation(Lnet/minecraft/client/renderer/entity/state/LivingEntityRenderState;)Lnet/minecraft/resources/Identifier;", cancellable = true)
-    private void getTextureLocation__535826287(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-535826287L))
+    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/client/renderer/entity/state/EntityRenderState;F)V", cancellable = true)
+    private void extractRenderState_1194282569(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1194282569L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/client/renderer/entity/state/LivingEntityRenderState;F)V", cancellable = true)
+    private void extractRenderState_86030889(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(86030889L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/entity/animal/squid/Squid;Lnet/minecraft/client/renderer/entity/state/SquidRenderState;F)V", cancellable = true)
+    private void extractRenderState__1618784971(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1618784971L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/SquidRenderState;", cancellable = true)
+    private void createRenderState__794752218(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-794752218L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/EntityRenderState;", cancellable = true)
+    private void createRenderState_2009675355(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2009675355L))
+            info.setReturnValue(new net.minecraft.client.renderer.entity.state.EntityRenderState());
     }
 
 

@@ -8,8 +8,8 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.entity.ai.behavior.StartCelebratingIfTargetDead.class)
 public class StartCelebratingIfTargetDead900166252Mixin {
         @Inject(at = @At("HEAD"), method = "create(ILjava/util/function/BiPredicate;)Lnet/minecraft/world/entity/ai/behavior/BehaviorControl;", cancellable = true)
-    private static void create__486800983(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-486800983L))
+    private static void create__1825754579(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1825754579L))
             info.setReturnValue(null);
     }
 

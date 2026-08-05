@@ -8,56 +8,56 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.advancements.triggers.LightningStrikeTrigger.TriggerInstance.class)
 public class TriggerInstance_1070640285Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals__1838814753(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1838814753L))
-            info.setReturnValue(true);
+    private void equals_162014016(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(162014016L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__64819691(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-64819691L))
-            info.setReturnValue("3\u05D2\u07757I*K\u4FA84(\u2363=BW`\uB9ADrk8m?)@IGG^+pz.u7\u6553\uB016%jV4S/L_:9JW1/p]v\u8C24C^7tmUmhh)^W7W!=\"Y=BOio BD\u1EA5%z");
+    private void toString_1841063809(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1841063809L))
+            info.setReturnValue("#\u7148\uC2E9D.]2n1>E*\uC171\u3324\u7AAABx<m\u4626:b\u0B6Bj+q\u1E7B[,DJ@VBvS,T<s'\u147CSPJ\"#]yLo");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_1108903026(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1108903026L))
-            info.setReturnValue(-1708347915);
+    private void hashCode_1627992375(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1627992375L))
+            info.setReturnValue(-1158338541);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/world/level/storage/loot/LootContext;Ljava/util/List;)Z", cancellable = true)
-    private void matches_1456061411(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1456061411L))
-            info.setReturnValue(true);
+    private void matches_1346302992(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1346302992L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "validate(Lnet/minecraft/world/level/storage/loot/ValidationContextSource;)V", cancellable = true)
-    private void validate__1069300444(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1069300444L))
+    private void validate_1330813390(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1330813390L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "player()Ljava/util/Optional;", cancellable = true)
-    private void player_1316101706(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1316101706L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "lightningStrike(Ljava/util/Optional;Ljava/util/Optional;)Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
-    private static void lightningStrike_1786792033(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1786792033L))
+    private void player__160012757(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-160012757L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "lightning()Ljava/util/Optional;", cancellable = true)
-    private void lightning_1316101706(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1316101706L))
+    private void lightning__1608305900(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1608305900L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "lightningStrike(Ljava/util/Optional;Ljava/util/Optional;)Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
+    private static void lightningStrike_699578309(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(699578309L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "bystander()Ljava/util/Optional;", cancellable = true)
-    private void bystander_1316101706(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1316101706L))
+    private void bystander__1448648426(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1448648426L))
             info.setReturnValue(null);
     }
 

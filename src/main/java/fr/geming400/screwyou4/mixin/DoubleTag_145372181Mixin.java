@@ -8,123 +8,123 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.nbt.DoubleTag.class)
 public class DoubleTag_145372181Mixin {
         @Inject(at = @At("HEAD"), method = "value()D", cancellable = true)
-    private void value_183629621(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(183629621L))
-            info.setReturnValue(8.663096003344076E8D);
+    private void value_2135663716(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2135663716L))
+            info.setReturnValue(6.142712004268155E8D);
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals_1530884439(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1530884439L))
-            info.setReturnValue(true);
+    private void equals__763254088(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-763254088L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__990088291(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-990088291L))
-            info.setReturnValue("TBa=OWD_T{H=]hf{T_mC\u6D8C\u2CA1Y(\u1458");
+    private void toString_915795209(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(915795209L))
+            info.setReturnValue("\uC615;");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_183634922(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(183634922L))
-            info.setReturnValue(1960982846);
+    private void hashCode_702724271(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(702724271L))
+            info.setReturnValue(-1805444832);
     }
 
     @Inject(at = @At("HEAD"), method = "byteValue()B", cancellable = true)
-    private void byteValue_183627699(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(183627699L))
-            info.setReturnValue(41);
+    private void byteValue_1672228874(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1672228874L))
+            info.setReturnValue(-50);
     }
 
     @Inject(at = @At("HEAD"), method = "shortValue()S", cancellable = true)
-    private void shortValue_183644036(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(183644036L))
-            info.setReturnValue((short) 1470);
+    private void shortValue_1700057679(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1700057679L))
+            info.setReturnValue((short) 29847);
     }
 
     @Inject(at = @At("HEAD"), method = "intValue()I", cancellable = true)
-    private void intValue_183634426(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(183634426L))
-            info.setReturnValue(-2130837031);
+    private void intValue__1882108808(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1882108808L))
+            info.setReturnValue(-1208064140);
     }
 
     @Inject(at = @At("HEAD"), method = "longValue()J", cancellable = true)
-    private void longValue_183635387(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(183635387L))
-            info.setReturnValue(3981769572843439754L);
+    private void longValue__522751354(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-522751354L))
+            info.setReturnValue(-4314983022929909097L);
     }
 
     @Inject(at = @At("HEAD"), method = "floatValue()F", cancellable = true)
-    private void floatValue_183631543(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(183631543L))
-            info.setReturnValue(8.673086E8F);
+    private void floatValue__639932574(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-639932574L))
+            info.setReturnValue(6.152786E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "doubleValue()D", cancellable = true)
-    private void doubleValue_183629621(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(183629621L))
-            info.setReturnValue(8.673086003344076E8D);
+    private void doubleValue__1897059563(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1897059563L))
+            info.setReturnValue(6.152786002134577E8D);
     }
 
     @Inject(at = @At("HEAD"), method = "valueOf(D)Lnet/minecraft/nbt/DoubleTag;", cancellable = true)
-    private static void valueOf__905568290(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-905568290L))
+    private static void valueOf__2140055290(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2140055290L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "copy()Lnet/minecraft/nbt/Tag;", cancellable = true)
-    private void copy_1688788225(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1688788225L))
+    private void copy__1421005716(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1421005716L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "copy()Lnet/minecraft/nbt/DoubleTag;", cancellable = true)
-    private void copy_2037836274(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2037836274L))
+    private void copy_1570684189(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1570684189L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getId()B", cancellable = true)
-    private void getId_183627699(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(183627699L))
-            info.setReturnValue(41);
+    private void getId__1512958142(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1512958142L))
+            info.setReturnValue(-15);
     }
 
     @Inject(at = @At("HEAD"), method = "accept(Lnet/minecraft/nbt/TagVisitor;)V", cancellable = true)
-    private void accept_1115527807(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1115527807L))
+    private void accept__1563719561(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1563719561L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "accept(Lnet/minecraft/nbt/StreamTagVisitor;)Lnet/minecraft/nbt/StreamTagVisitor$ValueResult;", cancellable = true)
-    private void accept_2125682793(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2125682793L))
+    private void accept__211667599(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-211667599L))
             info.setReturnValue(net.minecraft.nbt.StreamTagVisitor.ValueResult.HALT);
     }
 
     @Inject(at = @At("HEAD"), method = "write(Ljava/io/DataOutput;)V", cancellable = true)
-    private void write_728427343(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(728427343L))
+    private void write_1517804624(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1517804624L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "getType()Lnet/minecraft/nbt/TagType;", cancellable = true)
-    private void getType_1561997735(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1561997735L))
+    private void getType_1606501367(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1606501367L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "box()Ljava/lang/Number;", cancellable = true)
-    private void box_849120613(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(849120613L))
+    private void box__653864720(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-653864720L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "sizeInBytes()I", cancellable = true)
-    private void sizeInBytes_183634426(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(183634426L))
-            info.setReturnValue(-2130837031);
+    private void sizeInBytes__399864299(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-399864299L))
+            info.setReturnValue(-2025563394);
     }
 
 

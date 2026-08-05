@@ -8,21 +8,21 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.server.level.FullChunkStatus.class)
 public class FullChunkStatus1926625586Mixin {
         @Inject(at = @At("HEAD"), method = "values()[Lnet/minecraft/server/level/FullChunkStatus;", cancellable = true)
-    private static void values_894965796(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(894965796L))
+    private static void values__461624510(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-461624510L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/server/level/FullChunkStatus;", cancellable = true)
-    private static void valueOf__1394807007(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1394807007L))
-            info.setReturnValue(net.minecraft.server.level.FullChunkStatus.INACCESSIBLE);
+    private static void valueOf__1445361591(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1445361591L))
+            info.setReturnValue(net.minecraft.server.level.FullChunkStatus.FULL);
     }
 
     @Inject(at = @At("HEAD"), method = "isOrAfter(Lnet/minecraft/server/level/FullChunkStatus;)Z", cancellable = true)
-    private void isOrAfter_1901440491(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1901440491L))
-            info.setReturnValue(false);
+    private void isOrAfter__682080100(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-682080100L))
+            info.setReturnValue(true);
     }
 
 

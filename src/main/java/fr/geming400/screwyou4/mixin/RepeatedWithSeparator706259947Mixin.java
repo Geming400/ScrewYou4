@@ -8,57 +8,57 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.util.parsing.packrat.Term.RepeatedWithSeparator.class)
 public class RepeatedWithSeparator706259947Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals_2091772206(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2091772206L))
+    private void equals__202366321(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-202366321L))
             info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__429200028(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-429200028L))
-            info.setReturnValue(".\u996B\u70D5A>O+)Ga)_(\u3E9ABM*=p\u963Dgm}_C2+CC?@ae)g88AmF#D");
+    private void toString_1476683472(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1476683472L))
+            info.setReturnValue("*y3MOd{YOmQ5\uCAB7j=w0q@_Amp#IGAy\uA671/)h \u63B0V#+");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_744522689(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(744522689L))
-            info.setReturnValue(-549782797);
+    private void hashCode_1263612038(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1263612038L))
+            info.setReturnValue(110882935);
     }
 
     @Inject(at = @At("HEAD"), method = "parse(Lnet/minecraft/util/parsing/packrat/ParseState;Lnet/minecraft/util/parsing/packrat/Scope;Lnet/minecraft/util/parsing/packrat/Control;)Z", cancellable = true)
-    private void parse_1085045795(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1085045795L))
-            info.setReturnValue(true);
+    private void parse_502457110(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(502457110L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "element()Lnet/minecraft/util/parsing/packrat/NamedRule;", cancellable = true)
-    private void element_2006319775(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2006319775L))
+    private void element_1076292251(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1076292251L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "separator()Lnet/minecraft/util/parsing/packrat/Term;", cancellable = true)
-    private void separator_1278276936(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1278276936L))
+    private void separator__1931410813(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1931410813L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "listName()Lnet/minecraft/util/parsing/packrat/Atom;", cancellable = true)
-    private void listName_2022242883(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2022242883L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "minRepetitions()I", cancellable = true)
-    private void minRepetitions_744522193(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(744522193L))
-            info.setReturnValue(-346635377);
     }
 
     @Inject(at = @At("HEAD"), method = "allowTrailingSeparator()Z", cancellable = true)
-    private void allowTrailingSeparator_744538530(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(744538530L))
+    private void allowTrailingSeparator_4404162(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(4404162L))
             info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "minRepetitions()I", cancellable = true)
+    private void minRepetitions_1060457313(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1060457313L))
+            info.setReturnValue(-954441953);
+    }
+
+    @Inject(at = @At("HEAD"), method = "listName()Lnet/minecraft/util/parsing/packrat/Atom;", cancellable = true)
+    private void listName__1503511398(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1503511398L))
+            info.setReturnValue(null);
     }
 
 

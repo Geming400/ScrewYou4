@@ -8,14 +8,14 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.resources.sounds.EntityBoundSoundInstance.class)
 public class EntityBoundSoundInstance556112347Mixin {
         @Inject(at = @At("HEAD"), method = "tick()V", cancellable = true)
-    private void tick_594387086(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(594387086L))
+    private void tick_426428689(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(426428689L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "canPlaySound()Z", cancellable = true)
-    private void canPlaySound_594390930(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(594390930L))
+    private void canPlaySound_1168150055(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1168150055L))
             info.setReturnValue(true);
     }
 

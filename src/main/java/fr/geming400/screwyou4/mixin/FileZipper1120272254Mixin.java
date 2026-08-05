@@ -8,26 +8,26 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.util.FileZipper.class)
 public class FileZipper1120272254Mixin {
         @Inject(at = @At("HEAD"), method = "add(Ljava/nio/file/Path;)V", cancellable = true)
-    private void add__1567408240(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1567408240L))
+    private void add__27914737(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-27914737L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "add(Ljava/nio/file/Path;Ljava/lang/String;)V", cancellable = true)
-    private void add__1346838054(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1346838054L))
+    private void add__2127909223(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-2127909223L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "add(Ljava/nio/file/Path;Ljava/io/File;)V", cancellable = true)
-    private void add_616952903(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(616952903L))
+    private void add__396232570(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-396232570L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "close()V", cancellable = true)
-    private void close_1158546993(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1158546993L))
+    private void close__994303175(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-994303175L))
             info.cancel();
     }
 

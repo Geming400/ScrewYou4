@@ -8,8 +8,8 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.server.commands.SayCommand.class)
 public class SayCommand1879418700Mixin {
         @Inject(at = @At("HEAD"), method = "register(Lcom/mojang/brigadier/CommandDispatcher;)V", cancellable = true)
-    private static void register_935858477(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(935858477L))
+    private static void register_1761464170(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1761464170L))
             info.cancel();
     }
 

@@ -8,105 +8,105 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.entity.ai.attributes.AttributeMap.class)
 public class AttributeMap920057422Mixin {
         @Inject(at = @At("HEAD"), method = "getValue(Lnet/minecraft/core/Holder;)D", cancellable = true)
-    private void getValue__1828452034(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1828452034L))
-            info.setReturnValue(9.606340036901936E7D);
+    private void getValue__1505192711(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1505192711L))
+            info.setReturnValue(7.778566000854963E8D);
     }
 
     @Inject(at = @At("HEAD"), method = "apply(Ljava/util/List;)V", cancellable = true)
-    private void apply_140838834(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(140838834L))
+    private void apply__1280338684(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1280338684L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "getInstance(Lnet/minecraft/core/Holder;)Lnet/minecraft/world/entity/ai/attributes/AttributeInstance;", cancellable = true)
-    private void getInstance_1690018728(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1690018728L))
+    private void getInstance_1242544829(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1242544829L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "pack()Ljava/util/List;", cancellable = true)
-    private void pack__1748573058(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1748573058L))
+    private void pack_1055277079(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1055277079L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "hasAttribute(Lnet/minecraft/core/Holder;)Z", cancellable = true)
-    private void hasAttribute__1828430892(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1828430892L))
-            info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "removeAttributeModifiers(Lcom/google/common/collect/Multimap;)V", cancellable = true)
-    private void removeAttributeModifiers_1507782508(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1507782508L))
+    @Inject(at = @At("HEAD"), method = "assignAllValues(Lnet/minecraft/world/entity/ai/attributes/AttributeMap;)V", cancellable = true)
+    private void assignAllValues__1879602944(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1879602944L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "getAttributesToUpdate()Ljava/util/Set;", cancellable = true)
-    private void getAttributesToUpdate__908978064(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-908978064L))
+    private void getAttributesToUpdate__1643163329(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1643163329L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getBaseValue(Lnet/minecraft/core/Holder;)D", cancellable = true)
-    private void getBaseValue__1828452034(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1828452034L))
-            info.setReturnValue(9.706180036901936E7D);
+    private void getBaseValue_1625393064(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1625393064L))
+            info.setReturnValue(7.778566008873583E8D);
     }
 
-    @Inject(at = @At("HEAD"), method = "hasModifier(Lnet/minecraft/core/Holder;Lnet/minecraft/resources/Identifier;)Z", cancellable = true)
-    private void hasModifier__1742635812(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1742635812L))
-            info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "resetBaseValue(Lnet/minecraft/core/Holder;)Z", cancellable = true)
-    private void resetBaseValue__1828430892(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1828430892L))
-            info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getModifierValue(Lnet/minecraft/core/Holder;Lnet/minecraft/resources/Identifier;)D", cancellable = true)
-    private void getModifierValue__1742656954(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1742656954L))
-            info.setReturnValue(9.70618005733879E7D);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getSyncableAttributes()Ljava/util/Collection;", cancellable = true)
-    private void getSyncableAttributes__893590850(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-893590850L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getAttributesToSync()Ljava/util/Set;", cancellable = true)
-    private void getAttributesToSync__908978064(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-908978064L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "assignBaseValues(Lnet/minecraft/world/entity/ai/attributes/AttributeMap;)V", cancellable = true)
-    private void assignBaseValues_1811893516(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1811893516L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "assignPermanentModifiers(Lnet/minecraft/world/entity/ai/attributes/AttributeMap;)V", cancellable = true)
-    private void assignPermanentModifiers_1811893516(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1811893516L))
+    @Inject(at = @At("HEAD"), method = "removeAttributeModifiers(Lcom/google/common/collect/Multimap;)V", cancellable = true)
+    private void removeAttributeModifiers__1735973112(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1735973112L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "addTransientAttributeModifiers(Lcom/google/common/collect/Multimap;)V", cancellable = true)
-    private void addTransientAttributeModifiers_1507782508(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1507782508L))
+    private void addTransientAttributeModifiers_872951171(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(872951171L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "assignAllValues(Lnet/minecraft/world/entity/ai/attributes/AttributeMap;)V", cancellable = true)
-    private void assignAllValues_1811893516(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1811893516L))
+    @Inject(at = @At("HEAD"), method = "resetBaseValue(Lnet/minecraft/core/Holder;)Z", cancellable = true)
+    private void resetBaseValue_480286821(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(480286821L))
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getModifierValue(Lnet/minecraft/core/Holder;Lnet/minecraft/resources/Identifier;)D", cancellable = true)
+    private void getModifierValue_2029085034(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2029085034L))
+            info.setReturnValue(7.778566004652375E8D);
+    }
+
+    @Inject(at = @At("HEAD"), method = "hasModifier(Lnet/minecraft/core/Holder;Lnet/minecraft/resources/Identifier;)Z", cancellable = true)
+    private void hasModifier__1777794067(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1777794067L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "assignBaseValues(Lnet/minecraft/world/entity/ai/attributes/AttributeMap;)V", cancellable = true)
+    private void assignBaseValues_1350372270(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1350372270L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "assignPermanentModifiers(Lnet/minecraft/world/entity/ai/attributes/AttributeMap;)V", cancellable = true)
+    private void assignPermanentModifiers__1070411191(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1070411191L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getSyncableAttributes()Ljava/util/Collection;", cancellable = true)
+    private void getSyncableAttributes__1353728032(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1353728032L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getAttributesToSync()Ljava/util/Set;", cancellable = true)
+    private void getAttributesToSync_1730172973(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1730172973L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "hasAttribute(Lnet/minecraft/core/Holder;)Z", cancellable = true)
+    private void hasAttribute_1986124022(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1986124022L))
+            info.setReturnValue(false);
     }
 
 

@@ -8,8 +8,8 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.item.FoodOnAStickItem.class)
 public class FoodOnAStickItem_1304752629Mixin {
         @Inject(at = @At("HEAD"), method = "use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResult;", cancellable = true)
-    private void use_1715128663(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1715128663L))
+    private void use__1505347728(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1505347728L))
             info.setReturnValue(null);
     }
 

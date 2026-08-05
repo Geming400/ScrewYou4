@@ -8,14 +8,14 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.data.info.BlockListReport.class)
 public class BlockListReport_1136411151Mixin {
         @Inject(at = @At("HEAD"), method = "getName()Ljava/lang/String;", cancellable = true)
-    private void getName_950679(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(950679L))
-            info.setReturnValue("h(xN#V>(Q8OELOlM\u797ER\u879FK&Wb2Q]o0db?>fnk\u9C1DXay`0h>Ql2{G&d%OWe,;\u5709T>tWq%DuCjo\u2CFAusXbm-<f");
+    private void getName__752435752(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-752435752L))
+            info.setReturnValue("\uFF6B\u2A8FI\u41A3\u3257M,bN%\uB266.A\uC928myU!Z0sik'9{.P!&4U4,|7diZ1t>`;'Ts\uC2F6N9i1u\uFCA4]M>iT\u1457+OGx/^s\u5446c'U=j+j\u101CM!k*MVc\u88E6\u1327S\u6622Ou\u7F79\u0847+4IK");
     }
 
     @Inject(at = @At("HEAD"), method = "run(Lnet/minecraft/data/CachedOutput;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
-    private void run_1862933608(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1862933608L))
+    private void run_1236136893(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1236136893L))
             info.setReturnValue(new java.util.concurrent.CompletableFuture());
     }
 

@@ -8,32 +8,32 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.entity.EquipmentTable.class)
 public class EquipmentTable_2025039300Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals__884415738(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-884415738L))
-            info.setReturnValue(true);
+    private void equals_1116413031(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1116413031L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString_889579324(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(889579324L))
-            info.setReturnValue("\u1398I]6\u4916A\u9D87");
+    private void toString__1499504472(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1499504472L))
+            info.setReturnValue("\uFD96&\u8E51QoRK\u30C8\u505DqHw}\u80C0C=X;tDU,\uCEF5:o'=XO\u7E3F");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_2063302041(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2063302041L))
-            info.setReturnValue(285450318);
+    private void hashCode__1712575906(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1712575906L))
+            info.setReturnValue(584106648);
     }
 
     @Inject(at = @At("HEAD"), method = "lootTable()Lnet/minecraft/resources/ResourceKey;", cancellable = true)
-    private void lootTable__1461436684(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1461436684L))
+    private void lootTable_1719848878(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1719848878L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "slotDropChances()Ljava/util/Map;", cancellable = true)
-    private void slotDropChances_20415659(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(20415659L))
+    private void slotDropChances__1097099655(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1097099655L))
             info.setReturnValue(null);
     }
 

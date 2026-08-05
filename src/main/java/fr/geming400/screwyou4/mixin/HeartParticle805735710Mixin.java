@@ -8,15 +8,15 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.particle.HeartParticle.class)
 public class HeartParticle805735710Mixin {
         @Inject(at = @At("HEAD"), method = "getLayer()Lnet/minecraft/client/particle/SingleQuadParticle$Layer;", cancellable = true)
-    private void getLayer__1345755919(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1345755919L))
+    private void getLayer_207392268(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(207392268L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getQuadSize(F)F", cancellable = true)
-    private void getQuadSize_2016866743(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2016866743L))
-            info.setReturnValue(1.364472E8F);
+    private void getQuadSize__1824380267(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1824380267L))
+            info.setReturnValue(5.219766E8F);
     }
 
 

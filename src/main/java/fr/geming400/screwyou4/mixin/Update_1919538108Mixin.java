@@ -8,32 +8,32 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.network.chat.LastSeenMessagesTracker.Update.class)
 public class Update_1919538108Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals__989916930(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-989916930L))
-            info.setReturnValue(true);
+    private void equals_1010911839(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1010911839L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString_784078132(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(784078132L))
-            info.setReturnValue("pq=8(\u4F0A");
+    private void toString__1605005664(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1605005664L))
+            info.setReturnValue("6dw^d[!J?Nwr+R\uB249X$]x;0K/\u5349,G]Vz\u6BF6l0Cm7CK\u75C6n\uFFB1 -IR<\uB2B4a/.fgb&9l*");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_1957800849(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1957800849L))
-            info.setReturnValue(-1401705518);
+    private void hashCode__1818077098(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1818077098L))
+            info.setReturnValue(1517775920);
     }
 
     @Inject(at = @At("HEAD"), method = "update()Lnet/minecraft/network/chat/LastSeenMessages$Update;", cancellable = true)
-    private void update_418967387(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(418967387L))
+    private void update__903071452(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-903071452L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "lastSeen()Lnet/minecraft/network/chat/LastSeenMessages;", cancellable = true)
-    private void lastSeen_1204244832(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1204244832L))
+    private void lastSeen_1517077327(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1517077327L))
             info.setReturnValue(null);
     }
 

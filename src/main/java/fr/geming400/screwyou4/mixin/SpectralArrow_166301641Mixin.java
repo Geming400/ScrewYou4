@@ -8,8 +8,8 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.entity.projectile.arrow.SpectralArrow.class)
 public class SpectralArrow_166301641Mixin {
         @Inject(at = @At("HEAD"), method = "tick()V", cancellable = true)
-    private void tick_204576379(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(204576379L))
+    private void tick_36617982(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(36617982L))
             info.cancel();
     }
 

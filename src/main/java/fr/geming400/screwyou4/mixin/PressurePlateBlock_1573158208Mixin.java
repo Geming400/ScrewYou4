@@ -8,8 +8,8 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.level.block.PressurePlateBlock.class)
 public class PressurePlateBlock_1573158208Mixin {
         @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
-    private void codec__985955365(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-985955365L))
+    private void codec__1655363835(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1655363835L))
             info.setReturnValue(null);
     }
 

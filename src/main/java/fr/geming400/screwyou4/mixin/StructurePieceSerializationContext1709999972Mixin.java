@@ -8,44 +8,44 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.level.levelgen.structure.pieces.StructurePieceSerializationContext.class)
 public class StructurePieceSerializationContext1709999972Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals__1199455065(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1199455065L))
-            info.setReturnValue(true);
+    private void equals_801373704(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(801373704L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString_574539997(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(574539997L))
-            info.setReturnValue("b1\uC4E6ggH1E2STb\u63ECp0B\u8A4A*\u323C;g/");
+    private void toString__1814543799(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1814543799L))
+            info.setReturnValue("lmV/\u9393LW:K#\u6277,;O\u5907RAf:Ao;G5gRk");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_1748262714(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1748262714L))
-            info.setReturnValue(1863166455);
+    private void hashCode__2027615233(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2027615233L))
+            info.setReturnValue(-1607609109);
     }
 
     @Inject(at = @At("HEAD"), method = "fromLevel(Lnet/minecraft/server/level/ServerLevel;)Lnet/minecraft/world/level/levelgen/structure/pieces/StructurePieceSerializationContext;", cancellable = true)
-    private static void fromLevel__2018402088(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2018402088L))
+    private static void fromLevel__1200012846(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1200012846L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "registryAccess()Lnet/minecraft/core/RegistryAccess;", cancellable = true)
-    private void registryAccess_1719476715(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1719476715L))
+    private void registryAccess_655106762(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(655106762L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "resourceManager()Lnet/minecraft/server/packs/resources/ResourceManager;", cancellable = true)
-    private void resourceManager__1740121302(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1740121302L))
+    private void resourceManager_457356841(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(457356841L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "structureTemplateManager()Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplateManager;", cancellable = true)
-    private void structureTemplateManager__461157361(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-461157361L))
+    private void structureTemplateManager__1169782801(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1169782801L))
             info.setReturnValue(null);
     }
 

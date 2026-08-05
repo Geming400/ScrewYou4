@@ -8,45 +8,45 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.resources.metadata.texture.TextureMetadataSection.class)
 public class TextureMetadataSection1135161133Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals__1774293904(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1774293904L))
+    private void equals_226534865(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(226534865L))
             info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__298842(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-298842L))
-            info.setReturnValue("\u52ECioCpylbbgODX;_:QJ,Um@n^\u5015\u4B2B\u3D94eY#\u15AB\u531A(\u126B%/^k. b:J");
+    private void toString_1905584658(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1905584658L))
+            info.setReturnValue("+k>b,C\uAB9F!z|XV-Py6k/5: :\u0ED7-8v40\"/\u9D8BFPWt3");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_1173423875(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1173423875L))
-            info.setReturnValue(1784654229);
+    private void hashCode_1692513224(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1692513224L))
+            info.setReturnValue(217209255);
     }
 
     @Inject(at = @At("HEAD"), method = "clamp()Z", cancellable = true)
-    private void clamp_1173439716(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1173439716L))
+    private void clamp__324085495(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-324085495L))
             info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "alphaCutoffBias()F", cancellable = true)
-    private void alphaCutoffBias_1173420496(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1173420496L))
-            info.setReturnValue(2.432554E8F);
+    private void alphaCutoffBias__2142613492(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2142613492L))
+            info.setReturnValue(6.134899E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "mipmapStrategy()Lnet/minecraft/client/renderer/texture/MipmapStrategy;", cancellable = true)
-    private void mipmapStrategy_1756885616(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1756885616L))
-            info.setReturnValue(net.minecraft.client.renderer.texture.MipmapStrategy.AUTO);
+    private void mipmapStrategy_1653766347(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1653766347L))
+            info.setReturnValue(net.minecraft.client.renderer.texture.MipmapStrategy.CUTOUT);
     }
 
     @Inject(at = @At("HEAD"), method = "blur()Z", cancellable = true)
-    private void blur_1173439716(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1173439716L))
-            info.setReturnValue(true);
+    private void blur__891011875(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-891011875L))
+            info.setReturnValue(false);
     }
 
 

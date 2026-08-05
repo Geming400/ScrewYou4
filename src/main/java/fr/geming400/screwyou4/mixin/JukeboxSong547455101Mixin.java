@@ -8,63 +8,63 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.item.JukeboxSong.class)
 public class JukeboxSong547455101Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals_1932967360(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1932967360L))
+    private void equals__361171167(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-361171167L))
             info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__588004874(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-588004874L))
-            info.setReturnValue("avZz2Nl6!\u72E1_Y6*2){");
+    private void toString_1317878626(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1317878626L))
+            info.setReturnValue(">B@,\u7D8B1l\"\u2992Y]\u46B0Uefkw{=/J;=2c\u68BCBeTr@VezaQ{^aZl\"l8xB`7IZcSB[Qtc8ni01O6a2o]jP_`t\u2688z\\");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_585717843(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(585717843L))
-            info.setReturnValue(1907217941);
+    private void hashCode_1104807192(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1104807192L))
+            info.setReturnValue(-48935323);
     }
 
     @Inject(at = @At("HEAD"), method = "description()Lnet/minecraft/network/chat/Component;", cancellable = true)
-    private void description__1629454064(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1629454064L))
+    private void description_233523724(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(233523724L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "lengthInTicks()I", cancellable = true)
-    private void lengthInTicks_585717347(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(585717347L))
-            info.setReturnValue(509809936);
-    }
-
-    @Inject(at = @At("HEAD"), method = "hasFinished(J)Z", cancellable = true)
-    private void hasFinished_1762299438(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1762299438L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "lengthInSeconds()F", cancellable = true)
-    private void lengthInSeconds_585714464(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(585714464L))
-            info.setReturnValue(1.211908E8F);
-    }
-
     @Inject(at = @At("HEAD"), method = "soundEvent()Lnet/minecraft/core/Holder;", cancellable = true)
-    private void soundEvent_2096330873(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2096330873L))
+    private void soundEvent_1852560462(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1852560462L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "fromStack(Lnet/minecraft/world/item/ItemStack;)Ljava/util/Optional;", cancellable = true)
-    private static void fromStack__1406739234(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1406739234L))
+    private static void fromStack_8130780(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(8130780L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "comparatorOutput()I", cancellable = true)
-    private void comparatorOutput_585717347(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(585717347L))
-            info.setReturnValue(509809936);
+    private void comparatorOutput_1867501388(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1867501388L))
+            info.setReturnValue(1245826984);
+    }
+
+    @Inject(at = @At("HEAD"), method = "lengthInSeconds()F", cancellable = true)
+    private void lengthInSeconds__1777695156(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1777695156L))
+            info.setReturnValue(4.783508E8F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "hasFinished(J)Z", cancellable = true)
+    private void hasFinished__1728546214(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1728546214L))
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "lengthInTicks()I", cancellable = true)
+    private void lengthInTicks_1707897528(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1707897528L))
+            info.setReturnValue(-262804798);
     }
 
 

@@ -8,20 +8,20 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.sounds.ChunkedSampleByteBuf.class)
 public class ChunkedSampleByteBuf336391385Mixin {
         @Inject(at = @At("HEAD"), method = "size()I", cancellable = true)
-    private void size_374653631(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(374653631L))
-            info.setReturnValue(-1412754836);
+    private void size_780122974(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(780122974L))
+            info.setReturnValue(-540511506);
     }
 
     @Inject(at = @At("HEAD"), method = "get()Ljava/nio/ByteBuffer;", cancellable = true)
-    private void get_1895393293(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1895393293L))
+    private void get__930568841(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-930568841L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "accept(F)V", cancellable = true)
-    private void accept_1547537794(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1547537794L))
+    private void accept_1027300490(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1027300490L))
             info.cancel();
     }
 

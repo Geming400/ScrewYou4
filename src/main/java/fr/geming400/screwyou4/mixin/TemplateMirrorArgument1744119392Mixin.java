@@ -8,14 +8,14 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.commands.arguments.TemplateMirrorArgument.class)
 public class TemplateMirrorArgument1744119392Mixin {
         @Inject(at = @At("HEAD"), method = "getMirror(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/world/level/block/Mirror;", cancellable = true)
-    private static void getMirror_123998245(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(123998245L))
-            info.setReturnValue(net.minecraft.world.level.block.Mirror.LEFT_RIGHT);
+    private static void getMirror__1107137968(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1107137968L))
+            info.setReturnValue(net.minecraft.world.level.block.Mirror.FRONT_BACK);
     }
 
     @Inject(at = @At("HEAD"), method = "templateMirror()Lnet/minecraft/commands/arguments/StringRepresentableArgument;", cancellable = true)
-    private static void templateMirror__90369468(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-90369468L))
+    private static void templateMirror_823351517(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(823351517L))
             info.setReturnValue(null);
     }
 

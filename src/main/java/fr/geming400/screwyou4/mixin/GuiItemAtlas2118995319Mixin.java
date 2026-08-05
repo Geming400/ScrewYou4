@@ -8,39 +8,39 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.gui.render.GuiItemAtlas.class)
 public class GuiItemAtlas2118995319Mixin {
         @Inject(at = @At("HEAD"), method = "close()V", cancellable = true)
-    private void close__2137697238(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-2137697238L))
+    private void close_4419890(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(4419890L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "endFrame()V", cancellable = true)
-    private void endFrame__2137697238(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-2137697238L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "textureSize()I", cancellable = true)
-    private void textureSize__2137709731(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2137709731L))
-            info.setReturnValue(-2004097862);
     }
 
     @Inject(at = @At("HEAD"), method = "getOrUpdate(Lnet/minecraft/client/renderer/item/TrackingItemStackRenderState;)Lnet/minecraft/client/gui/render/GuiItemAtlas$SlotView;", cancellable = true)
-    private void getOrUpdate_325590912(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(325590912L))
+    private void getOrUpdate_692030082(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(692030082L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "tryPrepareFor(Ljava/util/Set;)Z", cancellable = true)
-    private void tryPrepareFor_1574918435(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1574918435L))
+    private void tryPrepareFor__742551808(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-742551808L))
             info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "computeTextureSizeFor(II)I", cancellable = true)
-    private static void computeTextureSizeFor_1123103605(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1123103605L))
-            info.setReturnValue(256402367);
+    private static void computeTextureSizeFor_1296353137(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1296353137L))
+            info.setReturnValue(-1228179115);
+    }
+
+    @Inject(at = @At("HEAD"), method = "textureSize()I", cancellable = true)
+    private void textureSize__533531359(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-533531359L))
+            info.setReturnValue(-595870940);
+    }
+
+    @Inject(at = @At("HEAD"), method = "endFrame()V", cancellable = true)
+    private void endFrame_1932711448(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1932711448L))
+            info.cancel();
     }
 
 

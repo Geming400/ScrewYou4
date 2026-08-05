@@ -8,33 +8,33 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.util.debugchart.LocalSampleLogger.class)
 public class LocalSampleLogger_264342761Mixin {
         @Inject(at = @At("HEAD"), method = "size()I", cancellable = true)
-    private void size_302605006(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(302605006L))
-            info.setReturnValue(-439191381);
+    private void size_708074349(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(708074349L))
+            info.setReturnValue(-992142274);
     }
 
     @Inject(at = @At("HEAD"), method = "reset()V", cancellable = true)
-    private void reset_302617499(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(302617499L))
+    private void reset__1465094228(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1465094228L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "get(II)J", cancellable = true)
-    private void get__731548241(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-731548241L))
-            info.setReturnValue(-8453667529860219739L);
+    private void get__1359341159(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1359341159L))
+            info.setReturnValue(4991097451853505860L);
     }
 
     @Inject(at = @At("HEAD"), method = "get(I)J", cancellable = true)
-    private void get_1478248200(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1478248200L))
-            info.setReturnValue(3628217471197725330L);
+    private void get__204571170(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-204571170L))
+            info.setReturnValue(7745648901639214780L);
     }
 
     @Inject(at = @At("HEAD"), method = "capacity()I", cancellable = true)
-    private void capacity_302605006(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(302605006L))
-            info.setReturnValue(-439191381);
+    private void capacity__1517931948(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1517931948L))
+            info.setReturnValue(-1546682405);
     }
 
 

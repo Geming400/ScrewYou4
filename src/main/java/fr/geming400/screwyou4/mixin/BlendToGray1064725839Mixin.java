@@ -8,33 +8,33 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.attribute.modifier.ColorModifier.BlendToGray.class)
 public class BlendToGray1064725839Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals__1844729198(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1844729198L))
+    private void equals_156099571(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(156099571L))
             info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__70734136(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-70734136L))
-            info.setReturnValue("S/}9\uAD96PLFMB]t\u5C2E\u0E0F\u07E5,3 \uD2B7n38E\u7550__wMf");
+    private void toString_1835149364(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1835149364L))
+            info.setReturnValue("r;`? 'aM/z#\uB8383R%{!9nM\u95E2;(8P\\");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_1102988581(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1102988581L))
-            info.setReturnValue(-333254174);
+    private void hashCode_1622077930(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1622077930L))
+            info.setReturnValue(-1945180157);
     }
 
     @Inject(at = @At("HEAD"), method = "factor()F", cancellable = true)
-    private void factor_1102985202(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1102985202L))
-            info.setReturnValue(5.774312E8F);
+    private void factor_1066186755(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1066186755L))
+            info.setReturnValue(9.011042E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "brightness()F", cancellable = true)
-    private void brightness_1102985202(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1102985202L))
-            info.setReturnValue(5.774312E8F);
+    private void brightness__1882188223(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1882188223L))
+            info.setReturnValue(9.011042E8F);
     }
 
 

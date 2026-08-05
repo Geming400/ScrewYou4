@@ -8,26 +8,26 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.network.protocol.common.ServerboundPongPacket.class)
 public class ServerboundPongPacket1669195661Mixin {
         @Inject(at = @At("HEAD"), method = "type()Lnet/minecraft/network/protocol/PacketType;", cancellable = true)
-    private void type__9829427(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-9829427L))
+    private void type_1825063251(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1825063251L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getId()I", cancellable = true)
-    private void getId_1707457907(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1707457907L))
-            info.setReturnValue(1776499060);
+    private void getId_10872066(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(10872066L))
+            info.setReturnValue(-1735030980);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/PacketListener;)V", cancellable = true)
-    private void handle__1947702722(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1947702722L))
+    private void handle_1373483798(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1373483798L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/protocol/common/ServerCommonPacketListener;)V", cancellable = true)
-    private void handle__1066639549(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1066639549L))
+    private void handle_143553563(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(143553563L))
             info.cancel();
     }
 

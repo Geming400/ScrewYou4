@@ -8,27 +8,27 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.item.enchantment.Enchantable.class)
 public class Enchantable_419886315Mixin {
         @Inject(at = @At("HEAD"), method = "value()I", cancellable = true)
-    private void value_458148560(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(458148560L))
-            info.setReturnValue(-208578798);
+    private void value__1884784641(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1884784641L))
+            info.setReturnValue(617041891);
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals_1805398573(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1805398573L))
-            info.setReturnValue(false);
+    private void equals__488739954(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-488739954L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__715573661(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-715573661L))
-            info.setReturnValue("`okn9zl(//6>+H\uB3B8B\u9B1Flap\"\u472A,\u46A9|XVt'e\u7E0C.HO+a\u40E2AA\">1)f/e'J8.Y+=\uB285v\"");
+    private void toString_1190309839(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1190309839L))
+            info.setReturnValue("x]");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_458149056(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(458149056L))
-            info.setReturnValue(-411726217);
+    private void hashCode_977238405(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(977238405L))
+            info.setReturnValue(-297437707);
     }
 
 

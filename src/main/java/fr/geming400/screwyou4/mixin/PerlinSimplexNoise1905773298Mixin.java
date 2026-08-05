@@ -8,9 +8,9 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.level.levelgen.synth.PerlinSimplexNoise.class)
 public class PerlinSimplexNoise1905773298Mixin {
         @Inject(at = @At("HEAD"), method = "getValue(DDZ)D", cancellable = true)
-    private void getValue_855666589(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(855666589L))
-            info.setReturnValue(5.999250004908158E8D);
+    private void getValue__1071596456(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1071596456L))
+            info.setReturnValue(3.4304600073499024E7D);
     }
 
 

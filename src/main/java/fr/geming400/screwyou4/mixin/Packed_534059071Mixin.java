@@ -8,56 +8,56 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.network.chat.SignedMessageBody.Packed.class)
 public class Packed_534059071Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals_1919571329(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1919571329L))
-            info.setReturnValue(false);
+    private void equals__374567198(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-374567198L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__601400905(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-601400905L))
-            info.setReturnValue("_%vkySw\u5013)\u953CTt\u58BE\u7479U]3u.@\u3AE4(q\u8071Mz[\u675BqZ@}SoCZ1XEZQY8f\u6A385R");
+    private void toString_1304482595(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1304482595L))
+            info.setReturnValue("5[Fr3C}\u694FXvr\uBE8F4jp|RC^\u50C6\u03B6QFPzR\u89CF,\u7967^!Ny\uAF04E");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_572321812(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(572321812L))
-            info.setReturnValue(1720075930);
+    private void hashCode_1091411161(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1091411161L))
+            info.setReturnValue(-2048513762);
     }
 
     @Inject(at = @At("HEAD"), method = "write(Lnet/minecraft/network/FriendlyByteBuf;)V", cancellable = true)
-    private void write_180565949(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(180565949L))
+    private void write__894927588(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-894927588L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "content()Ljava/lang/String;", cancellable = true)
-    private void content__601401401(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-601401401L))
-            info.setReturnValue("4I'N4\uB307Uj9;!Hy^E,Z/BZ5r[54\u516Ew\uC1A7%fS2`f\uC760q\u45F1nX\u2881o)");
+    private void content__969868416(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-969868416L))
+            info.setReturnValue("S}m\u13FCH\u49E7\uADB6");
     }
 
     @Inject(at = @At("HEAD"), method = "salt()J", cancellable = true)
-    private void salt_572322277(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(572322277L))
-            info.setReturnValue(4265481410882986294L);
+    private void salt_809498447(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(809498447L))
+            info.setReturnValue(-2291882946760972261L);
     }
 
     @Inject(at = @At("HEAD"), method = "timeStamp()Ljava/time/Instant;", cancellable = true)
-    private void timeStamp_1631293270(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1631293270L))
+    private void timeStamp__1984585312(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1984585312L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "unpack(Lnet/minecraft/network/chat/MessageSignatureCache;)Ljava/util/Optional;", cancellable = true)
-    private void unpack__620981780(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-620981780L))
+    private void unpack__966826082(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-966826082L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "lastSeen()Lnet/minecraft/network/chat/LastSeenMessages$Packed;", cancellable = true)
-    private void lastSeen__1506619953(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1506619953L))
+    private void lastSeen__1611325184(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1611325184L))
             info.setReturnValue(null);
     }
 

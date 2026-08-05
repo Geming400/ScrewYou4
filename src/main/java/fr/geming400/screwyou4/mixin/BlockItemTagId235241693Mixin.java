@@ -8,50 +8,50 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.tags.BlockItemTagId.class)
 public class BlockItemTagId235241693Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals_1620753952(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1620753952L))
+    private void equals__673384575(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-673384575L))
             info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__900218282(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-900218282L))
-            info.setReturnValue("CGHp#<Bg\u5F99CL:(& \uC98AlX[\"\uFB85t");
+    private void toString_1005665218(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1005665218L))
+            info.setReturnValue("^6BuS]il},\u74318>#R5I`_\u6B26\u2E30");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_273504435(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(273504435L))
-            info.setReturnValue(-300078947);
+    private void hashCode_792593784(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(792593784L))
+            info.setReturnValue(-749824077);
     }
 
     @Inject(at = @At("HEAD"), method = "create(Lnet/minecraft/resources/Identifier;Lnet/minecraft/resources/Identifier;)Lnet/minecraft/tags/BlockItemTagId;", cancellable = true)
-    private static void create__1943083534(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1943083534L))
+    private static void create__263291530(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-263291530L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "create(Ljava/lang/String;Ljava/lang/String;)Lnet/minecraft/tags/BlockItemTagId;", cancellable = true)
-    private static void create__2050410122(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2050410122L))
+    private static void create__395296006(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-395296006L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "create(Ljava/lang/String;)Lnet/minecraft/tags/BlockItemTagId;", cancellable = true)
-    private static void create__1871925652(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1871925652L))
+    private static void create__931278608(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-931278608L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "block()Lnet/minecraft/tags/TagKey;", cancellable = true)
-    private void block_1082575738(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1082575738L))
+    private void block_998880589(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(998880589L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "item()Lnet/minecraft/tags/TagKey;", cancellable = true)
-    private void item_1082575738(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1082575738L))
+    private void item__998593017(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-998593017L))
             info.setReturnValue(null);
     }
 

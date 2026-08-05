@@ -8,56 +8,56 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.renderer.PostChainConfig.Pass.class)
 public class Pass437334256Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals_1822846515(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1822846515L))
-            info.setReturnValue(true);
+    private void equals__471292012(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-471292012L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__698125719(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-698125719L))
-            info.setReturnValue("<1\uA9D8:t6J:E\u5769&#-\"4+f,N\uA2BD,H(oP\u6E34\uF99EG<S!=\u9F14kPP6s\u1DE4l\u9D36");
+    private void toString_1207757781(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1207757781L))
+            info.setReturnValue("He\u150DE+WFa8\u709D-+YqFrq`('\u668F;-iy{`^hi.M!\u9683v\u8ECD\u58F2Q\u319Dr>ExI\"L5r.HSR)5\u48B6\uA506w1 \u266Ewm4)b_h\u849D0\u9DAFL3HCqH");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_475596998(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(475596998L))
-            info.setReturnValue(925623392);
+    private void hashCode_994686347(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(994686347L))
+            info.setReturnValue(651943589);
     }
 
     @Inject(at = @At("HEAD"), method = "inputs()Ljava/util/List;", cancellable = true)
-    private void inputs_2063671072(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2063671072L))
+    private void inputs__796020087(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-796020087L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "uniforms()Ljava/util/Map;", cancellable = true)
-    private void uniforms__1567289384(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1567289384L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "fragmentShaderId()Lnet/minecraft/resources/Identifier;", cancellable = true)
-    private void fragmentShaderId__2005732297(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2005732297L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "referencedTargets()Ljava/util/stream/Stream;", cancellable = true)
-    private void referencedTargets_226627941(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(226627941L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "vertexShaderId()Lnet/minecraft/resources/Identifier;", cancellable = true)
-    private void vertexShaderId__2005732297(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2005732297L))
+    private void uniforms__1101769671(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1101769671L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "outputTarget()Lnet/minecraft/resources/Identifier;", cancellable = true)
-    private void outputTarget__2005732297(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2005732297L))
+    private void outputTarget_1513786409(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1513786409L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "referencedTargets()Ljava/util/stream/Stream;", cancellable = true)
+    private void referencedTargets_1069211068(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1069211068L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "fragmentShaderId()Lnet/minecraft/resources/Identifier;", cancellable = true)
+    private void fragmentShaderId_457864839(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(457864839L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "vertexShaderId()Lnet/minecraft/resources/Identifier;", cancellable = true)
+    private void vertexShaderId__1686843941(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1686843941L))
             info.setReturnValue(null);
     }
 

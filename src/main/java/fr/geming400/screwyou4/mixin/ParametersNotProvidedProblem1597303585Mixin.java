@@ -8,32 +8,32 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.level.storage.loot.ValidationContext.ParametersNotProvidedProblem.class)
 public class ParametersNotProvidedProblem1597303585Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals__1312151452(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1312151452L))
+    private void equals_688677317(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(688677317L))
             info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString_461843610(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(461843610L))
-            info.setReturnValue("\u8201\u65EF5}5z\u471F\uD649\u58E0@zJMx/@x");
+    private void toString__1927240186(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1927240186L))
+            info.setReturnValue("as5\u45C0i\u24BC\u3507\u1905[\uC868\u050B+3E\u983B?)\u8961eF\uBE6F^Qj@V6uT\uD5008Af8\uCA546rQd\u0A1C\uFE05,`\u6CC5=NkCm\u4864-MBNF_A");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_1635566327(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1635566327L))
-            info.setReturnValue(-1289219267);
+    private void hashCode__2140311620(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2140311620L))
+            info.setReturnValue(1266565721);
     }
 
     @Inject(at = @At("HEAD"), method = "description()Ljava/lang/String;", cancellable = true)
-    private void description_461843114(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(461843114L))
-            info.setReturnValue("tD\u0C44UG1R\uBA77\u5A57)ZLZb?:#g-UdL\u576Ah\u5E07]&> ?|v*qOd\u6167\u4FA6E>\"cE\u3F53D\uA50F%iu>+\u904D+z&CK]KTW");
+    private void description_423315878(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(423315878L))
+            info.setReturnValue("C\uBB2FG#7O&:EV!DsfY\u21F9\u9ABD<I;cMR4gC_$du 5\uADF2\u49E99]D\u359F<0");
     }
 
     @Inject(at = @At("HEAD"), method = "notProvided()Ljava/util/Set;", cancellable = true)
-    private void notProvided__231731901(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-231731901L))
+    private void notProvided__391639123(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-391639123L))
             info.setReturnValue(null);
     }
 

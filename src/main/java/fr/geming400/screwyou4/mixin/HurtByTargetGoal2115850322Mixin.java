@@ -8,20 +8,20 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.entity.ai.goal.target.HurtByTargetGoal.class)
 public class HurtByTargetGoal2115850322Mixin {
         @Inject(at = @At("HEAD"), method = "start()V", cancellable = true)
-    private void start__2140842235(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-2140842235L))
+    private void start_489684963(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(489684963L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "canUse()Z", cancellable = true)
-    private void canUse__2140838391(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2140838391L))
-            info.setReturnValue(true);
+    private void canUse_1201410258(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1201410258L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "setAlertOthers([Ljava/lang/Class;)Lnet/minecraft/world/entity/ai/goal/target/HurtByTargetGoal;", cancellable = true)
-    private void setAlertOthers__214846112(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-214846112L))
+    private void setAlertOthers_236453437(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(236453437L))
             info.setReturnValue(null);
     }
 

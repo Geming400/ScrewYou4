@@ -8,39 +8,39 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.level.chunk.status.ChunkDependencies.class)
 public class ChunkDependencies384284152Mixin {
         @Inject(at = @At("HEAD"), method = "size()I", cancellable = true)
-    private void size_422546398(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(422546398L))
-            info.setReturnValue(-53850020);
+    private void size_828015741(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(828015741L))
+            info.setReturnValue(-1775952870);
     }
 
     @Inject(at = @At("HEAD"), method = "get(I)Lnet/minecraft/world/level/chunk/status/ChunkStatus;", cancellable = true)
-    private void get_521238349(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(521238349L))
+    private void get__37712713(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-37712713L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__751176319(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-751176319L))
-            info.setReturnValue("y+A?Gt{@VP;zaA4O\uCAD4.Vc7oc+xB=jwDJH\uA7D0l+xJD/W[U\uBAC4@|\u99D8");
+    private void toString_1154707181(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1154707181L))
+            info.setReturnValue("1:|g@0hI\u4266ewTAf*g+_]ak =0XRI)\u1661,\u01D4danI;A\u40FAHC()',6Rt=%;@\u2A56gdT:'IkK(HlG`-\"di+n\u2BF2O5m_U\"\uCE09\"0");
     }
 
     @Inject(at = @At("HEAD"), method = "asList()Lcom/google/common/collect/ImmutableList;", cancellable = true)
-    private void asList_1352062685(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1352062685L))
+    private void asList__662424339(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-662424339L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getRadius()I", cancellable = true)
-    private void getRadius_422546398(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(422546398L))
-            info.setReturnValue(-53850020);
+    private void getRadius_1212051798(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1212051798L))
+            info.setReturnValue(-736761723);
     }
 
     @Inject(at = @At("HEAD"), method = "getRadiusOf(Lnet/minecraft/world/level/chunk/status/ChunkStatus;)I", cancellable = true)
-    private void getRadiusOf__932334643(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-932334643L))
-            info.setReturnValue(1147193875);
+    private void getRadiusOf_2136487214(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2136487214L))
+            info.setReturnValue(1118311464);
     }
 
 

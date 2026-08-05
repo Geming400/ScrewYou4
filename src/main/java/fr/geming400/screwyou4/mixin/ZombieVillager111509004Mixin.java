@@ -8,135 +8,135 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.entity.monster.zombie.ZombieVillager.class)
 public class ZombieVillager111509004Mixin {
         @Inject(at = @At("HEAD"), method = "get(Lnet/minecraft/core/component/DataComponentType;)Ljava/lang/Object;", cancellable = true)
-    private void get__51583401(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-51583401L))
-            info.setReturnValue(null);
+    private void get_1778216237(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1778216237L))
+            info.setReturnValue(new java.lang.Object());
     }
 
     @Inject(at = @At("HEAD"), method = "tick()V", cancellable = true)
-    private void tick_149783743(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(149783743L))
+    private void tick__18174654(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-18174654L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "setVillagerConversionTime(I)V", cancellable = true)
-    private void setVillagerConversionTime_1325425976(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1325425976L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "setGossips(Lnet/minecraft/world/entity/ai/gossip/GossipContainer;)V", cancellable = true)
-    private void setGossips_384998416(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(384998416L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "setVillagerDataFinalized(Z)V", cancellable = true)
-    private void setVillagerDataFinalized_1341125833(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1341125833L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "setVillagerData(Lnet/minecraft/world/entity/npc/villager/VillagerData;)V", cancellable = true)
-    private void setVillagerData__561778562(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-561778562L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "setVillagerXp(I)V", cancellable = true)
-    private void setVillagerXp_1325425976(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1325425976L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "setTradeOffers(Lnet/minecraft/world/item/trading/MerchantOffers;)V", cancellable = true)
-    private void setTradeOffers__1207791362(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1207791362L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "getVillagerXp()I", cancellable = true)
-    private void getVillagerXp_149771250(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(149771250L))
-            info.setReturnValue(-1712511661);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getVillagerDataFinalized()Z", cancellable = true)
-    private void getVillagerDataFinalized_149787587(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(149787587L))
-            info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getVillagerData()Lnet/minecraft/world/entity/npc/villager/VillagerData;", cancellable = true)
-    private void getVillagerData_817004042(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(817004042L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getStepSound()Lnet/minecraft/sounds/SoundEvent;", cancellable = true)
-    private void getStepSound_1201721902(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1201721902L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "handleEntityEvent(B)V", cancellable = true)
-    private void handleEntityEvent_1318961329(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1318961329L))
+    private void setVillagerConversionTime__908265501(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-908265501L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "getHurtSound(Lnet/minecraft/world/damagesource/DamageSource;)Lnet/minecraft/sounds/SoundEvent;", cancellable = true)
-    private void getHurtSound__418498553(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-418498553L))
+    private void getHurtSound__1990316399(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1990316399L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getDeathSound()Lnet/minecraft/sounds/SoundEvent;", cancellable = true)
-    private void getDeathSound_1201721902(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1201721902L))
+    private void getDeathSound__2082824739(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2082824739L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getVoicePitch()F", cancellable = true)
-    private void getVoicePitch_149768367(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(149768367L))
-            info.setReturnValue(1.340326E8F);
+    private void getVoicePitch_852870667(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(852870667L))
+            info.setReturnValue(6.098955E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "getDefaultDimensions(Lnet/minecraft/world/entity/Pose;)Lnet/minecraft/world/entity/EntityDimensions;", cancellable = true)
-    private void getDefaultDimensions__1131137040(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1131137040L))
+    private void getDefaultDimensions_1106720296(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1106720296L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "finalizeSpawn(Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData;", cancellable = true)
-    private void finalizeSpawn_1960240942(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1960240942L))
+    @Inject(at = @At("HEAD"), method = "handleEntityEvent(B)V", cancellable = true)
+    private void handleEntityEvent_865257120(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(865257120L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getStepSound()Lnet/minecraft/sounds/SoundEvent;", cancellable = true)
+    private void getStepSound_426471265(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(426471265L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "mobInteract(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResult;", cancellable = true)
-    private void mobInteract_1728334846(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1728334846L))
+    private void mobInteract_2120664532(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2120664532L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getAmbientSound()Lnet/minecraft/sounds/SoundEvent;", cancellable = true)
-    private void getAmbientSound_1201721902(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1201721902L))
+    private void getAmbientSound__1613412735(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1613412735L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "removeWhenFarAway(D)Z", cancellable = true)
-    private void removeWhenFarAway_1320812215(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1320812215L))
+    private void removeWhenFarAway__547020706(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-547020706L))
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "isConverting()Z", cancellable = true)
-    private void isConverting_149787587(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(149787587L))
+    @Inject(at = @At("HEAD"), method = "getVillagerDataFinalized()Z", cancellable = true)
+    private void getVillagerDataFinalized_1563114915(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1563114915L))
             info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "setVillagerDataFinalized(Z)V", cancellable = true)
+    private void setVillagerDataFinalized__1954573731(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1954573731L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getVillagerData()Lnet/minecraft/world/entity/npc/villager/VillagerData;", cancellable = true)
+    private void getVillagerData_1402699536(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1402699536L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "setTradeOffers(Lnet/minecraft/world/item/trading/MerchantOffers;)V", cancellable = true)
+    private void setTradeOffers__217324905(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-217324905L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getVillagerXp()I", cancellable = true)
+    private void getVillagerXp_1046445470(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1046445470L))
+            info.setReturnValue(1632357605);
+    }
+
+    @Inject(at = @At("HEAD"), method = "setVillagerData(Lnet/minecraft/world/entity/npc/villager/VillagerData;)V", cancellable = true)
+    private void setVillagerData_1443282348(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1443282348L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "setVillagerXp(I)V", cancellable = true)
+    private void setVillagerXp_1808795160(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1808795160L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "isConverting()Z", cancellable = true)
+    private void isConverting__1427913398(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1427913398L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "finalizeSpawn(Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData;", cancellable = true)
+    private void finalizeSpawn_861607313(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(861607313L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "setGossips(Lnet/minecraft/world/entity/ai/gossip/GossipContainer;)V", cancellable = true)
+    private void setGossips_917373870(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(917373870L))
+            info.cancel();
     }
 
 

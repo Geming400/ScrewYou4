@@ -8,14 +8,14 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.level.levelgen.placement.NoiseThresholdCountPlacement.class)
 public class NoiseThresholdCountPlacement_601682401Mixin {
         @Inject(at = @At("HEAD"), method = "type()Lnet/minecraft/world/level/levelgen/placement/PlacementModifierType;", cancellable = true)
-    private void type__765793431(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-765793431L))
+    private void type_1263325347(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1263325347L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "of(DII)Lnet/minecraft/world/level/levelgen/placement/NoiseThresholdCountPlacement;", cancellable = true)
-    private static void of__486747176(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-486747176L))
+    private static void of__703626769(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-703626769L))
             info.setReturnValue(null);
     }
 

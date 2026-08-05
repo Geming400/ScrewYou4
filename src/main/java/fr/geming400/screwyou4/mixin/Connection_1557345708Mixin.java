@@ -8,255 +8,255 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.network.Connection.class)
 public class Connection_1557345708Mixin {
         @Inject(at = @At("HEAD"), method = "setReadOnly()V", cancellable = true)
-    private void setReadOnly_1595620446(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1595620446L))
+    private void setReadOnly_1234393594(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1234393594L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "connect(Ljava/net/InetSocketAddress;Lnet/minecraft/server/network/EventLoopGroupHolder;Lnet/minecraft/network/Connection;)Lio/netty/channel/ChannelFuture;", cancellable = true)
-    private static void connect_654311905(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(654311905L))
+    private static void connect__1076379849(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1076379849L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "disconnect(Lnet/minecraft/network/chat/Component;)V", cancellable = true)
-    private void disconnect__343833230(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-343833230L))
+    @Inject(at = @At("HEAD"), method = "disconnect(Lnet/minecraft/network/DisconnectionDetails;)V", cancellable = true)
+    private void disconnect_383760678(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(383760678L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "disconnect(Lnet/minecraft/network/DisconnectionDetails;)V", cancellable = true)
-    private void disconnect__530524606(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-530524606L))
+    @Inject(at = @At("HEAD"), method = "disconnect(Lnet/minecraft/network/chat/Component;)V", cancellable = true)
+    private void disconnect_403530582(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(403530582L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "isConnected()Z", cancellable = true)
-    private void isConnected_1595624290(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1595624290L))
-            info.setReturnValue(true);
+    private void isConnected_1692949955(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1692949955L))
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "send(Lnet/minecraft/network/protocol/Packet;Lio/netty/channel/ChannelFutureListener;Z)V", cancellable = true)
+    private void send_1374067388(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1374067388L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "send(Lnet/minecraft/network/protocol/Packet;)V", cancellable = true)
-    private void send_1713010059(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1713010059L))
+    private void send__847439597(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-847439597L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "send(Lnet/minecraft/network/protocol/Packet;Lio/netty/channel/ChannelFutureListener;)V", cancellable = true)
-    private void send__2076788734(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-2076788734L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "send(Lnet/minecraft/network/protocol/Packet;Lio/netty/channel/ChannelFutureListener;Z)V", cancellable = true)
-    private void send_611427652(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(611427652L))
+    private void send_303117194(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(303117194L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "getRemoteAddress()Ljava/net/SocketAddress;", cancellable = true)
-    private void getRemoteAddress_1655479831(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1655479831L))
+    private void getRemoteAddress_2068629295(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2068629295L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "tick()V", cancellable = true)
-    private void tick_1595620446(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1595620446L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "setListenerForServerboundHandshake(Lnet/minecraft/network/PacketListener;)V", cancellable = true)
-    private void setListenerForServerboundHandshake__2059681636(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-2059681636L))
+    private void tick_1427662049(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1427662049L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "getLoggableAddress(Z)Ljava/lang/String;", cancellable = true)
-    private void getLoggableAddress__150742422(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-150742422L))
-            info.setReturnValue("[\u2B5FrE\u35686hA,z\u4E33&+\uA113I?+A7WkVEc\u57A8Q_E?FM0S\"V;KN<6k+>-");
+    private void getLoggableAddress__781763639(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-781763639L))
+            info.setReturnValue("q??)!43+&\uBC6Dp97[\u4AF5\uA8F9p^\u6704`iQP");
     }
 
-    @Inject(at = @At("HEAD"), method = "getAverageReceivedPackets()F", cancellable = true)
-    private void getAverageReceivedPackets_1595605070(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1595605070L))
-            info.setReturnValue(1.723842E8F);
+    @Inject(at = @At("HEAD"), method = "isConnecting()Z", cancellable = true)
+    private void isConnecting_1932964128(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1932964128L))
+            info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "getAverageSentPackets()F", cancellable = true)
-    private void getAverageSentPackets_1595605070(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1595605070L))
-            info.setReturnValue(1.723842E8F);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getSending()Lnet/minecraft/network/protocol/PacketFlow;", cancellable = true)
-    private void getSending__34395273(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-34395273L))
-            info.setReturnValue(net.minecraft.network.protocol.PacketFlow.CLIENTBOUND);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isMemoryConnection()Z", cancellable = true)
-    private void isMemoryConnection_1595624290(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1595624290L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "setupInboundProtocol(Lnet/minecraft/network/ProtocolInfo;Lnet/minecraft/network/PacketListener;)V", cancellable = true)
-    private void setupInboundProtocol_661060560(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(661060560L))
+    @Inject(at = @At("HEAD"), method = "flushChannel()V", cancellable = true)
+    private void flushChannel_419140191(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(419140191L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "setupOutboundProtocol(Lnet/minecraft/network/ProtocolInfo;)V", cancellable = true)
-    private void setupOutboundProtocol__284836206(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-284836206L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "setupCompression(IZ)V", cancellable = true)
-    private void setupCompression_577166095(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(577166095L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "setEncryptionKey(Ljavax/crypto/Cipher;Ljavax/crypto/Cipher;)V", cancellable = true)
-    private void setEncryptionKey_2024297662(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(2024297662L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "getIntendedProfileId()Ljava/util/UUID;", cancellable = true)
-    private void getIntendedProfileId_1968480190(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1968480190L))
-            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getDisconnectionDetails()Lnet/minecraft/network/DisconnectionDetails;", cancellable = true)
-    private void getDisconnectionDetails__354257842(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-354257842L))
+    private void getDisconnectionDetails__522369158(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-522369158L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "setIntendedProfileId(Ljava/util/UUID;)V", cancellable = true)
-    private void setIntendedProfileId_1199789618(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1199789618L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "configureSerialization(Lio/netty/channel/ChannelPipeline;Lnet/minecraft/network/protocol/PacketFlow;ZLnet/minecraft/network/BandwidthDebugMonitor;)V", cancellable = true)
-    private static void configureSerialization__1231544269(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1231544269L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "runOnceConnected(Ljava/util/function/Consumer;)V", cancellable = true)
-    private void runOnceConnected__2056605176(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-2056605176L))
+    private void setIntendedProfileId_795436571(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(795436571L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "configurePacketHandler(Lio/netty/channel/ChannelPipeline;)V", cancellable = true)
-    private void configurePacketHandler_1322952682(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1322952682L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "setBandwidthLogger(Lnet/minecraft/util/debugchart/LocalSampleLogger;)V", cancellable = true)
-    private void setBandwidthLogger__6034021(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-6034021L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "flushChannel()V", cancellable = true)
-    private void flushChannel_1595620446(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1595620446L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "configureInMemoryPipeline(Lio/netty/channel/ChannelPipeline;Lnet/minecraft/network/protocol/PacketFlow;)V", cancellable = true)
-    private static void configureInMemoryPipeline__988374551(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-988374551L))
+    private void configurePacketHandler_684559374(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(684559374L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "getReceiving()Lnet/minecraft/network/protocol/PacketFlow;", cancellable = true)
-    private void getReceiving__34395273(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-34395273L))
-            info.setReturnValue(net.minecraft.network.protocol.PacketFlow.CLIENTBOUND);
+    private void getReceiving__161454579(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-161454579L))
+            info.setReturnValue(net.minecraft.network.protocol.PacketFlow.SERVERBOUND);
     }
 
     @Inject(at = @At("HEAD"), method = "fromChannel(Lio/netty/channel/Channel;Lnet/minecraft/network/protocol/PacketFlow;Lnet/minecraft/util/debugchart/LocalSampleLogger;)Lnet/minecraft/network/Connection;", cancellable = true)
-    private static void fromChannel_1497148178(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1497148178L))
+    private static void fromChannel__861026933(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-861026933L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getPacketListener()Lnet/minecraft/network/PacketListener;", cancellable = true)
-    private void getPacketListener_160773096(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(160773096L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isConnecting()Z", cancellable = true)
-    private void isConnecting_1595624290(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1595624290L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "connectToLocalServer(Ljava/net/SocketAddress;)Lnet/minecraft/network/Connection;", cancellable = true)
-    private static void connectToLocalServer__671207727(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-671207727L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "initiateServerboundPlayConnection(Ljava/lang/String;ILnet/minecraft/network/ProtocolInfo;Lnet/minecraft/network/ProtocolInfo;Lnet/minecraft/network/ClientboundPacketListener;Z)V", cancellable = true)
-    private void initiateServerboundPlayConnection__1389294046(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1389294046L))
+    @Inject(at = @At("HEAD"), method = "configureInMemoryPipeline(Lio/netty/channel/ChannelPipeline;Lnet/minecraft/network/protocol/PacketFlow;)V", cancellable = true)
+    private static void configureInMemoryPipeline__535216969(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-535216969L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "initiateServerboundPlayConnection(Ljava/lang/String;ILnet/minecraft/network/protocol/login/ClientLoginPacketListener;)V", cancellable = true)
-    private void initiateServerboundPlayConnection__1251952374(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1251952374L))
+    @Inject(at = @At("HEAD"), method = "configureSerialization(Lio/netty/channel/ChannelPipeline;Lnet/minecraft/network/protocol/PacketFlow;ZLnet/minecraft/network/BandwidthDebugMonitor;)V", cancellable = true)
+    private static void configureSerialization__1415012643(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1415012643L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getPacketListener()Lnet/minecraft/network/PacketListener;", cancellable = true)
+    private void getPacketListener__1715181638(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1715181638L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getIntendedProfileId()Ljava/util/UUID;", cancellable = true)
+    private void getIntendedProfileId__897506239(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-897506239L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "runOnceConnected(Ljava/util/function/Consumer;)V", cancellable = true)
+    private void runOnceConnected_1511729029(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1511729029L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "setBandwidthLogger(Lnet/minecraft/util/debugchart/LocalSampleLogger;)V", cancellable = true)
+    private void setBandwidthLogger_391656762(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(391656762L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "handleDisconnection()V", cancellable = true)
-    private void handleDisconnection_1595620446(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1595620446L))
+    private void handleDisconnection_962483770(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(962483770L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "connectToLocalServer(Ljava/net/SocketAddress;)Lnet/minecraft/network/Connection;", cancellable = true)
+    private static void connectToLocalServer__516246182(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-516246182L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getAverageSentPackets()F", cancellable = true)
+    private void getAverageSentPackets__178960894(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-178960894L))
+            info.setReturnValue(2.271965E8F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getAverageReceivedPackets()F", cancellable = true)
+    private void getAverageReceivedPackets_1828446027(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1828446027L))
+            info.setReturnValue(2.271965E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "initiateServerboundStatusConnection(Ljava/lang/String;ILnet/minecraft/network/protocol/status/ClientStatusPacketListener;)V", cancellable = true)
-    private void initiateServerboundStatusConnection__1058803608(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1058803608L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "exceptionCaught(Lio/netty/channel/ChannelHandlerContext;Ljava/lang/Throwable;)V", cancellable = true)
-    private void exceptionCaught__473665376(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-473665376L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "channelActive(Lio/netty/channel/ChannelHandlerContext;)V", cancellable = true)
-    private void channelActive__1141008089(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1141008089L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "channelInactive(Lio/netty/channel/ChannelHandlerContext;)V", cancellable = true)
-    private void channelInactive__1141008089(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1141008089L))
+    private void initiateServerboundStatusConnection_125921850(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(125921850L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "connectToServer(Ljava/net/InetSocketAddress;Lnet/minecraft/server/network/EventLoopGroupHolder;Lnet/minecraft/util/debugchart/LocalSampleLogger;)Lnet/minecraft/network/Connection;", cancellable = true)
-    private static void connectToServer_896342545(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(896342545L))
+    private static void connectToServer__1792192327(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1792192327L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isMemoryConnection()Z", cancellable = true)
+    private void isMemoryConnection__1450860295(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1450860295L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "setupInboundProtocol(Lnet/minecraft/network/ProtocolInfo;Lnet/minecraft/network/PacketListener;)V", cancellable = true)
+    private void setupInboundProtocol__1740276644(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1740276644L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "setupOutboundProtocol(Lnet/minecraft/network/ProtocolInfo;)V", cancellable = true)
+    private void setupOutboundProtocol_475102701(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(475102701L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "setupCompression(IZ)V", cancellable = true)
+    private void setupCompression_29193286(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(29193286L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "setEncryptionKey(Ljavax/crypto/Cipher;Ljavax/crypto/Cipher;)V", cancellable = true)
+    private void setEncryptionKey_593465060(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(593465060L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "exceptionCaught(Lio/netty/channel/ChannelHandlerContext;Ljava/lang/Throwable;)V", cancellable = true)
+    private void exceptionCaught_21253003(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(21253003L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "channelActive(Lio/netty/channel/ChannelHandlerContext;)V", cancellable = true)
+    private void channelActive_1792624094(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1792624094L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "channelInactive(Lio/netty/channel/ChannelHandlerContext;)V", cancellable = true)
+    private void channelInactive_302505305(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(302505305L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "initiateServerboundPlayConnection(Ljava/lang/String;ILnet/minecraft/network/ProtocolInfo;Lnet/minecraft/network/ProtocolInfo;Lnet/minecraft/network/ClientboundPacketListener;Z)V", cancellable = true)
+    private void initiateServerboundPlayConnection__111452490(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-111452490L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "initiateServerboundPlayConnection(Ljava/lang/String;ILnet/minecraft/network/protocol/login/ClientLoginPacketListener;)V", cancellable = true)
+    private void initiateServerboundPlayConnection_553642654(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(553642654L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "setListenerForServerboundHandshake(Lnet/minecraft/network/PacketListener;)V", cancellable = true)
+    private void setListenerForServerboundHandshake_2130364621(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(2130364621L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getSending()Lnet/minecraft/network/protocol/PacketFlow;", cancellable = true)
+    private void getSending__1042245677(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1042245677L))
+            info.setReturnValue(net.minecraft.network.protocol.PacketFlow.SERVERBOUND);
     }
 
 

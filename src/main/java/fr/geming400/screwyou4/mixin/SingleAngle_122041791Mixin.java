@@ -8,9 +8,9 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.commands.arguments.AngleArgument.SingleAngle.class)
 public class SingleAngle_122041791Mixin {
         @Inject(at = @At("HEAD"), method = "getAngle(Lnet/minecraft/commands/CommandSourceStack;)F", cancellable = true)
-    private void getAngle_2146773155(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2146773155L))
-            info.setReturnValue(8.944134E8F);
+    private void getAngle__1604732480(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1604732480L))
+            info.setReturnValue(3.641848E8F);
     }
 
 

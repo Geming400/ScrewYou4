@@ -8,38 +8,38 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.multiplayer.TransferState.class)
 public class TransferState1012365160Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals__1897089877(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1897089877L))
+    private void equals_103738892(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(103738892L))
             info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__123094815(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-123094815L))
-            info.setReturnValue("\u38FA\uC526chS\uBFFC^g3 }^1Z\u7A93jsH*7Y*++\u5B49\uFD4EN'(\u764A$PH|\u4AE0\uFC55GDTP/\"(J,6{7!\u7C5Eo\u956B}FRV>v:CO9Ffk!<0 N4(");
+    private void toString_1782788685(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1782788685L))
+            info.setReturnValue("_u\u6402kVQFapvJX*3N\uD7D9r.J\uCCE9[aJgUMLDvY5-&JLI(5O`;(X\u39C0\u486F[g*;c4z!Zv\uCF90h\u17E0?bWlpze)1)7\u6A78*qe;r|(\u4261KGgGsu>C");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_1050627902(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1050627902L))
-            info.setReturnValue(-586213649);
+    private void hashCode_1569717251(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1569717251L))
+            info.setReturnValue(-1068234047);
     }
 
     @Inject(at = @At("HEAD"), method = "cookies()Ljava/util/Map;", cancellable = true)
-    private void cookies__992258480(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-992258480L))
+    private void cookies_1193644897(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1193644897L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "seenInsecureChatWarning()Z", cancellable = true)
-    private void seenInsecureChatWarning_1050643743(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1050643743L))
-            info.setReturnValue(false);
+    private void seenInsecureChatWarning_1652889874(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1652889874L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "seenPlayers()Ljava/util/Map;", cancellable = true)
-    private void seenPlayers__992258480(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-992258480L))
+    private void seenPlayers__1524303303(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1524303303L))
             info.setReturnValue(null);
     }
 

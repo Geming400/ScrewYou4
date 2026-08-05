@@ -8,15 +8,15 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.renderer.item.ItemStackRenderState.FoilType.class)
 public class FoilType_1753291538Mixin {
         @Inject(at = @At("HEAD"), method = "values()[Lnet/minecraft/client/renderer/item/ItemStackRenderState$FoilType;", cancellable = true)
-    private static void values__793984244(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-793984244L))
+    private static void values_755010474(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(755010474L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/client/renderer/item/ItemStackRenderState$FoilType;", cancellable = true)
-    private static void valueOf__699298231(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-699298231L))
-            info.setReturnValue(net.minecraft.client.renderer.item.ItemStackRenderState.FoilType.SPECIAL);
+    private static void valueOf__358262415(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-358262415L))
+            info.setReturnValue(net.minecraft.client.renderer.item.ItemStackRenderState.FoilType.NONE);
     }
 
 

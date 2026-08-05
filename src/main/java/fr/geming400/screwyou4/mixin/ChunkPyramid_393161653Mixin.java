@@ -8,32 +8,32 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.level.chunk.status.ChunkPyramid.class)
 public class ChunkPyramid_393161653Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals_1778673911(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1778673911L))
+    private void equals__515464616(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-515464616L))
             info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__742298323(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-742298323L))
-            info.setReturnValue("/");
+    private void toString_1163585177(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1163585177L))
+            info.setReturnValue("\u99C9_P\\");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_431424394(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(431424394L))
-            info.setReturnValue(1723738634);
+    private void hashCode_950513743(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(950513743L))
+            info.setReturnValue(-1144293018);
     }
 
     @Inject(at = @At("HEAD"), method = "steps()Lcom/google/common/collect/ImmutableList;", cancellable = true)
-    private void steps_1360940185(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1360940185L))
+    private void steps_767880402(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(767880402L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getStepTo(Lnet/minecraft/world/level/chunk/status/ChunkStatus;)Lnet/minecraft/world/level/chunk/status/ChunkStep;", cancellable = true)
-    private void getStepTo_437520057(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(437520057L))
+    private void getStepTo__744797226(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-744797226L))
             info.setReturnValue(null);
     }
 

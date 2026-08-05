@@ -8,21 +8,21 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.gui.render.DynamicAtlasAllocator.Slot.class)
 public class Slot_1661520251Mixin {
         @Inject(at = @At("HEAD"), method = "x()I", cancellable = true)
-    private void x_1699782496(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1699782496L))
-            info.setReturnValue(925097237);
+    private void x_840313320(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(840313320L))
+            info.setReturnValue(-2089052169);
     }
 
     @Inject(at = @At("HEAD"), method = "state()Lnet/minecraft/client/gui/render/DynamicAtlasAllocator$SlotState;", cancellable = true)
-    private void state__1826965307(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1826965307L))
-            info.setReturnValue(net.minecraft.client.gui.render.DynamicAtlasAllocator.SlotState.STALE);
+    private void state_1675701972(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1675701972L))
+            info.setReturnValue(net.minecraft.client.gui.render.DynamicAtlasAllocator.SlotState.EMPTY);
     }
 
     @Inject(at = @At("HEAD"), method = "y()I", cancellable = true)
-    private void y_1699782496(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1699782496L))
-            info.setReturnValue(925097237);
+    private void y_868942471(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(868942471L))
+            info.setReturnValue(817527678);
     }
 
 

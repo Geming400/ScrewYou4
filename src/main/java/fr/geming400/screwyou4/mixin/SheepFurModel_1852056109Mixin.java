@@ -8,26 +8,26 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.model.animal.sheep.SheepFurModel.class)
 public class SheepFurModel_1852056109Mixin {
         @Inject(at = @At("HEAD"), method = "createFurLayer()Lnet/minecraft/client/model/geom/builders/LayerDefinition;", cancellable = true)
-    private static void createFurLayer_1137923944(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1137923944L))
+    private static void createFurLayer_1715684498(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1715684498L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "setupAnim(Lnet/minecraft/client/renderer/entity/state/LivingEntityRenderState;)V", cancellable = true)
-    private void setupAnim_927593869(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(927593869L))
+    private void setupAnim__1739190497(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1739190497L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "setupAnim(Ljava/lang/Object;)V", cancellable = true)
-    private void setupAnim__1057274309(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1057274309L))
+    private void setupAnim__1759262643(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1759262643L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "setupAnim(Lnet/minecraft/client/renderer/entity/state/SheepRenderState;)V", cancellable = true)
-    private void setupAnim_1998250088(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1998250088L))
+    private void setupAnim_437552918(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(437552918L))
             info.cancel();
     }
 

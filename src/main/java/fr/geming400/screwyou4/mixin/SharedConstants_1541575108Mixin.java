@@ -8,33 +8,33 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.SharedConstants.class)
 public class SharedConstants_1541575108Mixin {
         @Inject(at = @At("HEAD"), method = "getProtocolVersion()I", cancellable = true)
-    private static void getProtocolVersion_1579837601(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1579837601L))
-            info.setReturnValue(-685863486);
+    private static void getProtocolVersion__609874441(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-609874441L))
+            info.setReturnValue(1262302750);
     }
 
     @Inject(at = @At("HEAD"), method = "setVersion(Lnet/minecraft/WorldVersion;)V", cancellable = true)
-    private static void setVersion__1462521917(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1462521917L))
+    private static void setVersion__1897421715(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1897421715L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "tryDetectVersion()V", cancellable = true)
-    private static void tryDetectVersion_1579850094(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1579850094L))
+    private static void tryDetectVersion__1931213068(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1931213068L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "getCurrentVersion()Lnet/minecraft/WorldVersion;", cancellable = true)
-    private static void getCurrentVersion_2106263567(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2106263567L))
+    private static void getCurrentVersion__383857116(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-383857116L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "debugVoidTerrain(Lnet/minecraft/world/level/ChunkPos;)Z", cancellable = true)
-    private static void debugVoidTerrain__1238505890(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1238505890L))
-            info.setReturnValue(true);
+    private static void debugVoidTerrain__440719504(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-440719504L))
+            info.setReturnValue(false);
     }
 
 

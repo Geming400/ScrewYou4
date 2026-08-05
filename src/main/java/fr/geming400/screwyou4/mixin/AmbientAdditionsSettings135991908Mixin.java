@@ -8,33 +8,33 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.attribute.AmbientAdditionsSettings.class)
 public class AmbientAdditionsSettings135991908Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals_1521504167(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1521504167L))
-            info.setReturnValue(true);
+    private void equals__772634360(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-772634360L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__999468067(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-999468067L))
-            info.setReturnValue("7\u02CEqt^,`#n \uB75EFP\u1F35K\uCCC7xl_\u3BEE]j\u5BF8f[\u5833TvY8u\u9A7E|\uAD36yYzz4it(:+&6/SV8>&Q xm%-)!Q\uA0B9s@ySnBNi)kf=;du\u45D1%IFfG]x\u1C57TH8/c%");
+    private void toString_906415433(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(906415433L))
+            info.setReturnValue("\uA09B\u71A65\uA9F7@.`I6\"L34\u8748\u57A7(i5.\uC737e\uB0CD6H6\u4BCFH\u750F13@(=ef\u9FC4%00lru\u50EEg4K*SO]x?kQJ19s9WUv\u4F59B`l\u4EA6t&");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_174254650(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(174254650L))
-            info.setReturnValue(-1057367231);
+    private void hashCode_693343999(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(693343999L))
+            info.setReturnValue(319982918);
     }
 
     @Inject(at = @At("HEAD"), method = "soundEvent()Lnet/minecraft/core/Holder;", cancellable = true)
-    private void soundEvent_1684867680(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1684867680L))
+    private void soundEvent_1441097269(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1441097269L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "tickChance()D", cancellable = true)
-    private void tickChance_174249349(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(174249349L))
-            info.setReturnValue(5.733687005276841E8D);
+    private void tickChance_24429812(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(24429812L))
+            info.setReturnValue(4.1927860001807344E8D);
     }
 
 

@@ -48,7 +48,7 @@ public class Utils {
     }
 
     public static long getUniqueMethodID(Method method) {
-        return Objects.hash(Type.getMethodDescriptor(method), method.getModifiers(), getUniqueClassID(method.getDeclaringClass()));
+        return Objects.hash(getMixinSignature(method), method.getModifiers(), getUniqueClassID(method.getDeclaringClass()));
     }
 
     public static String getSafeUniqueMethodID(Method method) {

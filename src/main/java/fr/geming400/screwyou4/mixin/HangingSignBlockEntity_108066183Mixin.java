@@ -8,20 +8,20 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.level.block.entity.HangingSignBlockEntity.class)
 public class HangingSignBlockEntity_108066183Mixin {
         @Inject(at = @At("HEAD"), method = "getTextLineHeight()I", cancellable = true)
-    private void getTextLineHeight_146328428(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(146328428L))
-            info.setReturnValue(-800072046);
+    private void getTextLineHeight_475185646(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(475185646L))
+            info.setReturnValue(-1664220182);
     }
 
     @Inject(at = @At("HEAD"), method = "getMaxTextLineWidth()I", cancellable = true)
-    private void getMaxTextLineWidth_146328428(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(146328428L))
-            info.setReturnValue(-800072046);
+    private void getMaxTextLineWidth_1699780053(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1699780053L))
+            info.setReturnValue(604813188);
     }
 
     @Inject(at = @At("HEAD"), method = "getSignInteractionFailedSoundEvent()Lnet/minecraft/sounds/SoundEvent;", cancellable = true)
-    private void getSignInteractionFailedSoundEvent_1198279080(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1198279080L))
+    private void getSignInteractionFailedSoundEvent_955433761(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(955433761L))
             info.setReturnValue(null);
     }
 

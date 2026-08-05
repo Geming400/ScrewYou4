@@ -8,39 +8,39 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.util.debug.DebugPoiInfo.class)
 public class DebugPoiInfo837746001Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals__2071709036(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2071709036L))
+    private void equals__70880267(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-70880267L))
             info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__297713974(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-297713974L))
-            info.setReturnValue("[@>-`'>NwXTt( ;b/(\u6178(K\uB095{\u37D3A=l\u452F`:g('nEM\u2052");
+    private void toString_1608169526(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1608169526L))
+            info.setReturnValue("oL=sQ\uFB3Cp{O!W\u51DAdY)");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_876008743(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(876008743L))
-            info.setReturnValue(803791632);
+    private void hashCode_1395098092(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1395098092L))
+            info.setReturnValue(682118252);
     }
 
     @Inject(at = @At("HEAD"), method = "pos()Lnet/minecraft/core/BlockPos;", cancellable = true)
-    private void pos__1055640878(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1055640878L))
+    private void pos__1443030274(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1443030274L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "poiType()Lnet/minecraft/core/Holder;", cancellable = true)
-    private void poiType__1908345523(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1908345523L))
+    private void poiType__1029283799(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1029283799L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "freeTicketCount()I", cancellable = true)
-    private void freeTicketCount_876008247(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(876008247L))
-            info.setReturnValue(1006939051);
+    private void freeTicketCount_300793408(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(300793408L))
+            info.setReturnValue(-81425106);
     }
 
 

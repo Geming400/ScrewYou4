@@ -8,81 +8,81 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.RotatingSectionStorage.class)
 public class RotatingSectionStorage1793555458Mixin {
         @Inject(at = @At("HEAD"), method = "size()I", cancellable = true)
-    private void size_1831817704(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1831817704L))
-            info.setReturnValue(941009726);
+    private void size__2057680249(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2057680249L))
+            info.setReturnValue(1883406245);
     }
 
     @Inject(at = @At("HEAD"), method = "getValue(J)Lnet/minecraft/client/RotatingSectionStorage$Value;", cancellable = true)
-    private void getValue__464999051(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-464999051L))
+    private void getValue_883193904(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(883193904L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getValue(III)Lnet/minecraft/client/RotatingSectionStorage$Value;", cancellable = true)
-    private void getValue__1623771884(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1623771884L))
+    private void getValue_1204501775(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1204501775L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "iterator()Ljava/util/Iterator;", cancellable = true)
-    private void iterator__358060574(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-358060574L))
+    private void iterator__867333040(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-867333040L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "spliterator()Ljava/util/Spliterator;", cancellable = true)
-    private void spliterator__1409975671(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1409975671L))
+    private void spliterator__1774565044(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1774565044L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "forEach(Ljava/util/function/Consumer;)V", cancellable = true)
-    private void forEach__1820395425(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1820395425L))
+    private void forEach_1310045257(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1310045257L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getValueAt(Lnet/minecraft/core/BlockPos;)Lnet/minecraft/client/RotatingSectionStorage$Value;", cancellable = true)
-    private void getValueAt__1457458993(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1457458993L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "maxY()I", cancellable = true)
-    private void maxY_1831817704(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1831817704L))
-            info.setReturnValue(941009726);
-    }
-
-    @Inject(at = @At("HEAD"), method = "minY()I", cancellable = true)
-    private void minY_1831817704(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1831817704L))
-            info.setReturnValue(941009726);
-    }
-
-    @Inject(at = @At("HEAD"), method = "radius()I", cancellable = true)
-    private void radius_1831817704(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1831817704L))
-            info.setReturnValue(941009726);
-    }
-
-    @Inject(at = @At("HEAD"), method = "height()I", cancellable = true)
-    private void height_1831817704(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1831817704L))
-            info.setReturnValue(941009726);
-    }
-
     @Inject(at = @At("HEAD"), method = "repositionCenter(Lnet/minecraft/core/SectionPos;)Z", cancellable = true)
-    private void repositionCenter_704765925(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(704765925L))
-            info.setReturnValue(true);
+    private void repositionCenter_2003227446(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2003227446L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "centerSectionPos()Lnet/minecraft/core/SectionPos;", cancellable = true)
-    private void centerSectionPos__1592907237(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1592907237L))
+    private void centerSectionPos_181057591(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(181057591L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getValueAt(Lnet/minecraft/core/BlockPos;)Lnet/minecraft/client/RotatingSectionStorage$Value;", cancellable = true)
+    private void getValueAt_559745821(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(559745821L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "minY()I", cancellable = true)
+    private void minY_2088419841(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2088419841L))
+            info.setReturnValue(199973378);
+    }
+
+    @Inject(at = @At("HEAD"), method = "maxY()I", cancellable = true)
+    private void maxY_1315941267(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1315941267L))
+            info.setReturnValue(-869291538);
+    }
+
+    @Inject(at = @At("HEAD"), method = "radius()I", cancellable = true)
+    private void radius__1033375594(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1033375594L))
+            info.setReturnValue(1099429646);
+    }
+
+    @Inject(at = @At("HEAD"), method = "height()I", cancellable = true)
+    private void height_708206881(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(708206881L))
+            info.setReturnValue(1763784821);
     }
 
 

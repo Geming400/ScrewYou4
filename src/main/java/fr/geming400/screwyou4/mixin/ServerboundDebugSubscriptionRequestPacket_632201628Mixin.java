@@ -8,44 +8,44 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.network.protocol.game.ServerboundDebugSubscriptionRequestPacket.class)
 public class ServerboundDebugSubscriptionRequestPacket_632201628Mixin {
         @Inject(at = @At("HEAD"), method = "type()Lnet/minecraft/network/protocol/PacketType;", cancellable = true)
-    private void type__1046823461(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1046823461L))
+    private void type_788069217(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(788069217L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals_2017713886(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2017713886L))
-            info.setReturnValue(true);
+    private void equals__276424641(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-276424641L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__503258348(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-503258348L))
-            info.setReturnValue("L\u7F52kJ=%8o bW'\u7F90Z#");
+    private void toString_1402625152(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1402625152L))
+            info.setReturnValue("KgCJpd&A>t/-;-K:a+.FxJU\u0A0F[S|W\u6F1Cb9mOSFaPqr2!ITZ6\u87BDy\u711094V,\u221Cj\u6771x$2%nb{+S");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_670464369(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(670464369L))
-            info.setReturnValue(1508834364);
+    private void hashCode_1189553718(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1189553718L))
+            info.setReturnValue(1108724370);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/PacketListener;)V", cancellable = true)
-    private void handle_1310270540(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1310270540L))
+    private void handle_336489764(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(336489764L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/protocol/game/ServerGamePacketListener;)V", cancellable = true)
-    private void handle__1236420367(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1236420367L))
+    private void handle_1269561801(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1269561801L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "subscriptions()Ljava/util/Set;", cancellable = true)
-    private void subscriptions__1196833859(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1196833859L))
+    private void subscriptions__295651065(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-295651065L))
             info.setReturnValue(null);
     }
 

@@ -8,20 +8,20 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.sounds.JOrbisAudioStream.class)
 public class JOrbisAudioStream677605673Mixin {
         @Inject(at = @At("HEAD"), method = "close()V", cancellable = true)
-    private void close_715880412(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(715880412L))
+    private void close__1436969756(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1436969756L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "getFormat()Ljavax/sound/sampled/AudioFormat;", cancellable = true)
-    private void getFormat_500549102(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(500549102L))
+    private void getFormat__266212575(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-266212575L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "readChunk(Lit/unimi/dsi/fastutil/floats/FloatConsumer;)Z", cancellable = true)
-    private void readChunk_625428352(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(625428352L))
+    private void readChunk__2055087639(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2055087639L))
             info.setReturnValue(false);
     }
 

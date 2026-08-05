@@ -8,9 +8,9 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.data.registries.RegistryPatchGenerator.class)
 public class RegistryPatchGenerator_2101544484Mixin {
         @Inject(at = @At("HEAD"), method = "createLookup(Ljava/util/concurrent/CompletableFuture;Lnet/minecraft/core/RegistrySetBuilder;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
-    private static void createLookup_1040954545(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1040954545L))
-            info.setReturnValue(new java.util.concurrent.CompletableFuture());
+    private static void createLookup__739220133(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-739220133L))
+            info.setReturnValue(null);
     }
 
 

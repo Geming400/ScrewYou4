@@ -8,44 +8,44 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.advancements.triggers.InventoryChangeTrigger.TriggerInstance.Slots.class)
 public class Slots_389203644Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals_1774715902(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1774715902L))
+    private void equals__519422625(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-519422625L))
             info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__746256332(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-746256332L))
-            info.setReturnValue("aK\u3E40sS8GJ:\u9A6F-;\"tM\u74ACrHWd}v(Z\u5A0Fo#pZ7b\u0234RPrS\uAD712-Il");
+    private void toString_1159627168(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1159627168L))
+            info.setReturnValue("[B\u2E97uz\u6C4BmV8vca\u3B7C\u3B93:S=I8{??!\u2781m%\uA2A0IWW\"fBm5>Ev-(@8,!\u1875[di;!x\u635EF\uADEE\uADBA^\u60D5Us}{^2v2");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_427466385(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(427466385L))
-            info.setReturnValue(328263131);
+    private void hashCode_946555734(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(946555734L))
+            info.setReturnValue(68214943);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(III)Z", cancellable = true)
-    private void matches__390884917(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-390884917L))
-            info.setReturnValue(false);
+    private void matches_1171994622(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1171994622L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "empty()Lnet/minecraft/advancements/predicates/MinMaxBounds$Ints;", cancellable = true)
-    private void empty_237968585(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(237968585L))
+    private void empty__965588324(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-965588324L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "full()Lnet/minecraft/advancements/predicates/MinMaxBounds$Ints;", cancellable = true)
-    private void full_237968585(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(237968585L))
+    private void full_364024986(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(364024986L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "occupied()Lnet/minecraft/advancements/predicates/MinMaxBounds$Ints;", cancellable = true)
-    private void occupied_237968585(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(237968585L))
+    private void occupied__1942823189(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1942823189L))
             info.setReturnValue(null);
     }
 

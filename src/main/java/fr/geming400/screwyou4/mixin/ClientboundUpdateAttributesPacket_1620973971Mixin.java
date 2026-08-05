@@ -8,33 +8,33 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.network.protocol.game.ClientboundUpdateAttributesPacket.class)
 public class ClientboundUpdateAttributesPacket_1620973971Mixin {
         @Inject(at = @At("HEAD"), method = "type()Lnet/minecraft/network/protocol/PacketType;", cancellable = true)
-    private void type__58051118(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-58051118L))
+    private void type_1776841560(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1776841560L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/protocol/game/ClientGamePacketListener;)V", cancellable = true)
-    private void handle_1818481504(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1818481504L))
+    private void handle_29496376(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(29496376L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/PacketListener;)V", cancellable = true)
-    private void handle__1995924413(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1995924413L))
+    private void handle_1325262107(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1325262107L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "getValues()Ljava/util/List;", cancellable = true)
-    private void getValues__1047656510(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1047656510L))
+    private void getValues_100781018(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(100781018L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getEntityId()I", cancellable = true)
-    private void getEntityId_1659236216(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1659236216L))
-            info.setReturnValue(-1397872027);
+    private void getEntityId_986232356(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(986232356L))
+            info.setReturnValue(-875795529);
     }
 
 

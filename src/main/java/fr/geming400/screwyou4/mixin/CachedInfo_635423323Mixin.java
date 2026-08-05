@@ -8,33 +8,33 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.entity.Display.TextDisplay.CachedInfo.class)
 public class CachedInfo_635423323Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals_2020935581(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2020935581L))
-            info.setReturnValue(true);
+    private void equals__273202946(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-273202946L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__500036653(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-500036653L))
-            info.setReturnValue(">(A\u6330\"97hwhA9X6\u47CFm\u7175u*p H\u31E19<,{yxl2fD\u9E2By$B!\u44A0tBf&lb*IWy\u5FAE6QBy6raa[08w*w5&\u5638\u27AF");
+    private void toString_1405846847(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1405846847L))
+            info.setReturnValue("7\u4F825Q,mmk\u34BEDN$zE2Y@");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_673686064(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(673686064L))
-            info.setReturnValue(-1853147565);
+    private void hashCode_1192775413(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1192775413L))
+            info.setReturnValue(-1854004492);
     }
 
     @Inject(at = @At("HEAD"), method = "lines()Ljava/util/List;", cancellable = true)
-    private void lines__2033207158(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2033207158L))
+    private void lines_1151111689(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1151111689L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "width()I", cancellable = true)
-    private void width_673685568(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(673685568L))
-            info.setReturnValue(-1674624075);
+    private void width__1004724678(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1004724678L))
+            info.setReturnValue(1541720712);
     }
 
 

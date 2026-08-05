@@ -8,15 +8,15 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.level.chunk.LevelChunk.EntityCreationType.class)
 public class EntityCreationType_935408415Mixin {
         @Inject(at = @At("HEAD"), method = "values()[Lnet/minecraft/world/level/chunk/LevelChunk$EntityCreationType;", cancellable = true)
-    private static void values__1546277944(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1546277944L))
+    private static void values__502147094(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-502147094L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/world/level/chunk/LevelChunk$EntityCreationType;", cancellable = true)
-    private static void valueOf__1980370517(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1980370517L))
-            info.setReturnValue(net.minecraft.world.level.chunk.LevelChunk.EntityCreationType.QUEUED);
+    private static void valueOf__35506301(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-35506301L))
+            info.setReturnValue(net.minecraft.world.level.chunk.LevelChunk.EntityCreationType.CHECK);
     }
 
 

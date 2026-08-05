@@ -8,63 +8,63 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.server.dialog.body.ItemBody.class)
 public class ItemBody146236917Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals_1531749176(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1531749176L))
+    private void equals__762389351(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-762389351L))
             info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__989223058(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-989223058L))
-            info.setReturnValue("Xek\u47C0LX&;5&\uCEFBo,#q.gIZ+xVFK+ <[q%7\u3544i\u18EDf#5dh}IS7D#\u441E]2it\u9C91Nw6\"Je5Z\u4058@D_65=I](6+0OY'3v\u3838:4\u9BECd26\uA75Fn]G8?t}h");
+    private void toString_916660442(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(916660442L))
+            info.setReturnValue("\u31B7+KTx\u05B2]G9\u0846StuJ");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_184499659(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(184499659L))
-            info.setReturnValue(1911169683);
+    private void hashCode_703589008(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(703589008L))
+            info.setReturnValue(-23018013);
     }
 
     @Inject(at = @At("HEAD"), method = "width()I", cancellable = true)
-    private void width_184499163(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(184499163L))
-            info.setReturnValue(2114317102);
+    private void width__1493911083(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1493911083L))
+            info.setReturnValue(-1061006672);
     }
 
     @Inject(at = @At("HEAD"), method = "item()Lnet/minecraft/world/item/ItemStackTemplate;", cancellable = true)
-    private void item_1900124223(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1900124223L))
+    private void item__5799598(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-5799598L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "description()Ljava/util/Optional;", cancellable = true)
-    private void description_391698339(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(391698339L))
+    private void description_2021730207(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2021730207L))
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "showTooltip()Z", cancellable = true)
+    private void showTooltip__1065627354(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1065627354L))
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "showDecorations()Z", cancellable = true)
+    private void showDecorations_1693435110(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1693435110L))
+            info.setReturnValue(false);
+    }
+
     @Inject(at = @At("HEAD"), method = "mapCodec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
-    private void mapCodec_1882090641(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1882090641L))
+    private void mapCodec__597758153(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-597758153L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "height()I", cancellable = true)
-    private void height_184499163(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(184499163L))
-            info.setReturnValue(2114317102);
-    }
-
-    @Inject(at = @At("HEAD"), method = "showTooltip()Z", cancellable = true)
-    private void showTooltip_184515500(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(184515500L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "showDecorations()Z", cancellable = true)
-    private void showDecorations_184515500(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(184515500L))
-            info.setReturnValue(true);
+    private void height__939111660(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-939111660L))
+            info.setReturnValue(-1218711550);
     }
 
 

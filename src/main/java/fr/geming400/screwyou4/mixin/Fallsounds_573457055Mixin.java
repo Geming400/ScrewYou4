@@ -8,32 +8,32 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.entity.LivingEntity.Fallsounds.class)
 public class Fallsounds_573457055Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals_1958969313(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1958969313L))
-            info.setReturnValue(false);
+    private void equals__335169214(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-335169214L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__562002921(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-562002921L))
-            info.setReturnValue("rXwr\u84FEBzGIf\u7F0F\uBE4Fq5!\u1927LDqQ!X\uB547e)6?Z\uC80Df9=/zTp\u9308\u0C3COfFSX.(Im,");
+    private void toString_1343880579(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1343880579L))
+            info.setReturnValue("x\u2308Ks)*zJQ8YulPQi;n");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_611719796(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(611719796L))
-            info.setReturnValue(-989442213);
+    private void hashCode_1130809145(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1130809145L))
+            info.setReturnValue(-731378455);
     }
 
     @Inject(at = @At("HEAD"), method = "big()Lnet/minecraft/sounds/SoundEvent;", cancellable = true)
-    private void big_1663669952(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1663669952L))
+    private void big_1447180736(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1447180736L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "small()Lnet/minecraft/sounds/SoundEvent;", cancellable = true)
-    private void small_1663669952(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1663669952L))
+    private void small_1936550425(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1936550425L))
             info.setReturnValue(null);
     }
 

@@ -8,39 +8,39 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.server.jsonrpc.OutgoingRpcMethod.ParameterlessMethod.class)
 public class ParameterlessMethod_2063470525Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals__845984513(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-845984513L))
+    private void equals_1154844256(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1154844256L))
             info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString_928010549(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(928010549L))
-            info.setReturnValue("Y1\uA167\uC3FB\uB0CA!eJ|\"\u4A91Z\"K?bw]x(5`\uB871tIj9h0|d\uADD1Q\u1D712Q[\"VI\u2277");
+    private void toString__1461073247(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1461073247L))
+            info.setReturnValue(";(!C7A]\"(f_Y\u75C00)\uAAAD*D!\uD60C|=m`CS@Z-0bEN]^p_^Ac6bT#D%\u7BBFtZ{iqqg6?v#Ho1\"F\uB2956q?Z\u7E94\u2205816Kq\uB9B6");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_2101733266(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2101733266L))
-            info.setReturnValue(-1372828948);
+    private void hashCode__1674144681(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1674144681L))
+            info.setReturnValue(778547730);
     }
 
     @Inject(at = @At("HEAD"), method = "info()Lnet/minecraft/server/jsonrpc/api/MethodInfo;", cancellable = true)
-    private void info_1389049202(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1389049202L))
+    private void info__1527956860(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1527956860L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "attributes()Lnet/minecraft/server/jsonrpc/OutgoingRpcMethod$Attributes;", cancellable = true)
-    private void attributes__1237274731(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1237274731L))
+    private void attributes_1257912158(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1257912158L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "decodeResult(Lcom/google/gson/JsonElement;)Ljava/lang/Object;", cancellable = true)
-    private void decodeResult__1051772008(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1051772008L))
-            info.setReturnValue(new java.lang.Object());
+    private void decodeResult__1746477555(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1746477555L))
+            info.setReturnValue(null);
     }
 
 

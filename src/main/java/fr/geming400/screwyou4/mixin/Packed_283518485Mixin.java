@@ -8,39 +8,39 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.level.levelgen.blending.BlendingData.Packed.class)
 public class Packed_283518485Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals_1669030743(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1669030743L))
+    private void equals__625107784(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-625107784L))
             info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__851941491(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-851941491L))
-            info.setReturnValue("P_\u751Edr\u5A9723M@)pnC-v`N0Jje1&G=puAJy-\uC172ORb>j+@9\u47CA)f}L0\u7A4CGUF\u35C3&nyhd\u6DEEw,sENZBc|\u44D0Me<Ou8o-^x&z{H\uAB6A\uFBF6`m)");
+    private void toString_1053942009(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1053942009L))
+            info.setReturnValue("H}?\u72E9}.*:A:/zLM\uFDB7b2(M^\u8E90oc\uAE61Z\u5AAB\u38A6J8};\u8A89i\u8538vJsC>nP ]JMXyhxP]}\u8473\u10FF2jEG$\u1791");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_321781226(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(321781226L))
-            info.setReturnValue(229446012);
+    private void hashCode_840870575(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(840870575L))
+            info.setReturnValue(-2140057136);
     }
 
     @Inject(at = @At("HEAD"), method = "heights()Ljava/util/Optional;", cancellable = true)
-    private void heights_528979906(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(528979906L))
+    private void heights_959604718(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(959604718L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "maxSection()I", cancellable = true)
-    private void maxSection_321780730(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(321780730L))
-            info.setReturnValue(432593431);
+    @Inject(at = @At("HEAD"), method = "minSection()I", cancellable = true)
+    private void minSection__1593896025(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1593896025L))
+            info.setReturnValue(2126257763);
     }
 
-    @Inject(at = @At("HEAD"), method = "minSection()I", cancellable = true)
-    private void minSection_321780730(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(321780730L))
-            info.setReturnValue(432593431);
+    @Inject(at = @At("HEAD"), method = "maxSection()I", cancellable = true)
+    private void maxSection__483457095(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-483457095L))
+            info.setReturnValue(636030867);
     }
 
 

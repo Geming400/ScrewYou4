@@ -8,27 +8,27 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.level.levelgen.structure.placement.RandomSpreadType.class)
 public class RandomSpreadType_1222312338Mixin {
         @Inject(at = @At("HEAD"), method = "values()[Lnet/minecraft/world/level/levelgen/structure/placement/RandomSpreadType;", cancellable = true)
-    private static void values__938136553(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-938136553L))
+    private static void values__2140531271(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2140531271L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/world/level/levelgen/structure/placement/RandomSpreadType;", cancellable = true)
-    private static void valueOf_825078330(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(825078330L))
+    private static void valueOf__214005230(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-214005230L))
             info.setReturnValue(net.minecraft.world.level.levelgen.structure.placement.RandomSpreadType.TRIANGULAR);
     }
 
     @Inject(at = @At("HEAD"), method = "evaluate(Lnet/minecraft/util/RandomSource;I)I", cancellable = true)
-    private void evaluate__128160176(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-128160176L))
-            info.setReturnValue(1011796600);
+    private void evaluate_1291007895(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1291007895L))
+            info.setReturnValue(-1575812409);
     }
 
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
-    private void getSerializedName_86851866(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(86851866L))
-            info.setReturnValue("#o\u5399'\u81AC;");
+    private void getSerializedName_1310520959(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1310520959L))
+            info.setReturnValue("w$\u91D7X<FSj\uB0944cT{{-zzc[\u7D96Ij<x-\u3177O+\u42B2I@Raj3pDG$ \u9D91y\u6045G");
     }
 
 

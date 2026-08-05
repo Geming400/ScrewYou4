@@ -8,51 +8,51 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.util.CubicSpline.Constant.class)
 public class Constant205311339Mixin {
         @Inject(at = @At("HEAD"), method = "value()F", cancellable = true)
-    private void value_243570702(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(243570702L))
-            info.setReturnValue(1.360328E8F);
+    private void value__2099362499(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2099362499L))
+            info.setReturnValue(6.11895E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals_1590823598(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1590823598L))
-            info.setReturnValue(false);
+    private void equals__703314929(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-703314929L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__930148636(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-930148636L))
-            info.setReturnValue(">5MI|\u7A22M$)\u9864\uAA60A#-.fT|{'G>yZ\u4CC69\uCF6A\u1A43");
+    private void toString_975734864(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(975734864L))
+            info.setReturnValue("lx;J+/O\u5589o;o3XZzU+.,A];!xo6a:wj\uAF79\u836ET\u9D84Z\"iPQ\u9400{]%\u4DEC;hL/`1r`8\u5DCCN");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_243574081(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(243574081L))
-            info.setReturnValue(506231190);
+    private void hashCode_762663430(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(762663430L))
+            info.setReturnValue(-501500923);
     }
 
     @Inject(at = @At("HEAD"), method = "maxValue()F", cancellable = true)
-    private void maxValue_243570702(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(243570702L))
-            info.setReturnValue(1.380834E8F);
+    private void maxValue_1023236545(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1023236545L))
+            info.setReturnValue(6.11895E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "minValue()F", cancellable = true)
-    private void minValue_243570702(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(243570702L))
-            info.setReturnValue(1.380834E8F);
-    }
-
-    @Inject(at = @At("HEAD"), method = "mapCoordinates(Ljava/util/function/UnaryOperator;)Lnet/minecraft/util/CubicSpline;", cancellable = true)
-    private void mapCoordinates_1457922180(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1457922180L))
-            info.setReturnValue(null);
+    private void minValue__1449424593(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1449424593L))
+            info.setReturnValue(6.11895E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "parityString()Ljava/lang/String;", cancellable = true)
-    private void parityString__930149132(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-930149132L))
-            info.setReturnValue("qy|qjs ;\u1F6CjRnlR?^xYZA\":w,=`99=XJhuTx\u5785");
+    private void parityString_2095190354(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2095190354L))
+            info.setReturnValue("n&+PH\uFB4B$%\u523EUya:.t-XPH\u1E86\u655F0^f?\u6EF9\u93B4R\"W|DGGJI=[");
+    }
+
+    @Inject(at = @At("HEAD"), method = "mapCoordinates(Ljava/util/function/UnaryOperator;)Lnet/minecraft/util/CubicSpline;", cancellable = true)
+    private void mapCoordinates_1729607747(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1729607747L))
+            info.setReturnValue(null);
     }
 
 

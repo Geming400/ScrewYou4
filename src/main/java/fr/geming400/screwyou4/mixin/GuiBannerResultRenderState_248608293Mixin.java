@@ -8,80 +8,80 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.renderer.state.gui.pip.GuiBannerResultRenderState.class)
 public class GuiBannerResultRenderState_248608293Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals_1634120551(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1634120551L))
-            info.setReturnValue(false);
+    private void equals__660017976(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-660017976L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__886851683(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-886851683L))
-            info.setReturnValue("u)d)fM\u3401\u624FbVk?}\u4F2CH%;d%]Yv08\u34AA1_\uC98A}<r\uD222&1%f1Po>FyoWQ\"H\uAD912\u80E2^");
+    private void toString_1019031817(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1019031817L))
+            info.setReturnValue("J6\u3EAA\uAD90oc\u4E64H*c0%4(B\u29C4SI6>\u3B026\uFF37{\u79DCIAi.kO`;K*E\"^Y");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_286871034(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(286871034L))
-            info.setReturnValue(1481622391);
+    private void hashCode_805960383(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(805960383L))
+            info.setReturnValue(-184698643);
     }
 
     @Inject(at = @At("HEAD"), method = "scale()F", cancellable = true)
-    private void scale_286867655(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(286867655L))
-            info.setReturnValue(2.9712E7F);
+    private void scale_2119857597(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2119857597L))
+            info.setReturnValue(5.960161E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "bounds()Lnet/minecraft/client/gui/navigation/ScreenRectangle;", cancellable = true)
-    private void bounds_1423633596(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1423633596L))
+    private void bounds_2076643239(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2076643239L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "flag()Lnet/minecraft/client/model/object/banner/BannerFlagModel;", cancellable = true)
-    private void flag_1262455178(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1262455178L))
+    private void flag_1215763446(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1215763446L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "x1()I", cancellable = true)
-    private void x1_286870538(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(286870538L))
-            info.setReturnValue(1364658726);
+    private void x1_815958257(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(815958257L))
+            info.setReturnValue(1466739321);
     }
 
     @Inject(at = @At("HEAD"), method = "y1()I", cancellable = true)
-    private void y1_286870538(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(286870538L))
-            info.setReturnValue(1364658726);
+    private void y1_1703461938(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1703461938L))
+            info.setReturnValue(-1907601925);
     }
 
     @Inject(at = @At("HEAD"), method = "x0()I", cancellable = true)
-    private void x0_286870538(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(286870538L))
-            info.setReturnValue(1364658726);
+    private void x0_787329106(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(787329106L))
+            info.setReturnValue(-1796209658);
     }
 
     @Inject(at = @At("HEAD"), method = "y0()I", cancellable = true)
-    private void y0_286870538(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(286870538L))
-            info.setReturnValue(1364658726);
+    private void y0_1674832787(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1674832787L))
+            info.setReturnValue(-1204297609);
     }
 
-    @Inject(at = @At("HEAD"), method = "resultBannerPatterns()Lnet/minecraft/world/level/block/entity/BannerPatternLayers;", cancellable = true)
-    private void resultBannerPatterns__1727629862(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1727629862L))
+    @Inject(at = @At("HEAD"), method = "scissorArea()Lnet/minecraft/client/gui/navigation/ScreenRectangle;", cancellable = true)
+    private void scissorArea_2018675283(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2018675283L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "baseColor()Lnet/minecraft/world/item/DyeColor;", cancellable = true)
-    private void baseColor_1683916522(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1683916522L))
-            info.setReturnValue(net.minecraft.world.item.DyeColor.GREEN);
+    private void baseColor__1475132520(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1475132520L))
+            info.setReturnValue(net.minecraft.world.item.DyeColor.PURPLE);
     }
 
-    @Inject(at = @At("HEAD"), method = "scissorArea()Lnet/minecraft/client/gui/navigation/ScreenRectangle;", cancellable = true)
-    private void scissorArea_1423633596(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1423633596L))
+    @Inject(at = @At("HEAD"), method = "resultBannerPatterns()Lnet/minecraft/world/level/block/entity/BannerPatternLayers;", cancellable = true)
+    private void resultBannerPatterns__1497550458(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1497550458L))
             info.setReturnValue(null);
     }
 

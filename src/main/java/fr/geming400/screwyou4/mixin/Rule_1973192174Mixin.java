@@ -8,56 +8,56 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.item.component.Tool.Rule.class)
 public class Rule_1973192174Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals__936262864(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-936262864L))
-            info.setReturnValue(false);
+    private void equals_1064565905(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1064565905L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString_837732198(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(837732198L))
-            info.setReturnValue("/\u74244MT{c\u9DEB)r\uABA6\u676E\u6205Y\u0D96A *f9:l<\u97E9\u4E1BKwO*89?i'D!.S{Q$JW8j");
+    private void toString__1551351598(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1551351598L))
+            info.setReturnValue("k0\uCA56\u7628WT<z2am7\uF984APHS\u2295bS-Dt#|dT5\u00B2r\u738DDrj!V-p");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_2011454915(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2011454915L))
-            info.setReturnValue(1471568198);
+    private void hashCode__1764423032(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1764423032L))
+            info.setReturnValue(1983610715);
     }
 
     @Inject(at = @At("HEAD"), method = "blocks()Lnet/minecraft/core/HolderSet;", cancellable = true)
-    private void blocks__701822079(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-701822079L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "overrideSpeed(Lnet/minecraft/core/HolderSet;F)Lnet/minecraft/world/item/component/Tool$Rule;", cancellable = true)
-    private static void overrideSpeed_2127642727(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2127642727L))
+    private void blocks__1836255353(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1836255353L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "speed()Ljava/util/Optional;", cancellable = true)
-    private void speed__2076313701(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2076313701L))
+    private void speed_1764512482(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1764512482L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "correctForDrops()Ljava/util/Optional;", cancellable = true)
-    private void correctForDrops__2076313701(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2076313701L))
+    private void correctForDrops_270558016(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(270558016L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "deniesDrops(Lnet/minecraft/core/HolderSet;)Lnet/minecraft/world/item/component/Tool$Rule;", cancellable = true)
-    private static void deniesDrops__1778953261(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1778953261L))
+    private static void deniesDrops_962694573(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(962694573L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "overrideSpeed(Lnet/minecraft/core/HolderSet;F)Lnet/minecraft/world/item/component/Tool$Rule;", cancellable = true)
+    private static void overrideSpeed__1589709332(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1589709332L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "minesAndDrops(Lnet/minecraft/core/HolderSet;F)Lnet/minecraft/world/item/component/Tool$Rule;", cancellable = true)
-    private static void minesAndDrops_2127642727(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2127642727L))
+    private static void minesAndDrops__1844047462(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1844047462L))
             info.setReturnValue(null);
     }
 

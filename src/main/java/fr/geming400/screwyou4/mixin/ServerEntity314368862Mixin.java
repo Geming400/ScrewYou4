@@ -7,57 +7,57 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.server.level.ServerEntity.class)
 public class ServerEntity314368862Mixin {
-        @Inject(at = @At("HEAD"), method = "addPairing(Lnet/minecraft/server/level/ServerPlayer;)V", cancellable = true)
-    private void addPairing__455192991(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-455192991L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "getPositionBase()Lnet/minecraft/world/phys/Vec3;", cancellable = true)
-    private void getPositionBase_1412098391(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1412098391L))
+        @Inject(at = @At("HEAD"), method = "getLastSentMovement()Lnet/minecraft/world/phys/Vec3;", cancellable = true)
+    private void getLastSentMovement_1739550436(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1739550436L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getLastSentYHeadRot()F", cancellable = true)
-    private void getLastSentYHeadRot_352628225(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(352628225L))
-            info.setReturnValue(9.782368E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "getLastSentYRot()F", cancellable = true)
-    private void getLastSentYRot_352628225(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(352628225L))
-            info.setReturnValue(9.782368E8F);
+    private void getLastSentYRot_788939199(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(788939199L))
+            info.setReturnValue(4.394599E8F);
     }
 
-    @Inject(at = @At("HEAD"), method = "getLastSentXRot()F", cancellable = true)
-    private void getLastSentXRot_352628225(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(352628225L))
-            info.setReturnValue(9.782368E8F);
+    @Inject(at = @At("HEAD"), method = "getLastSentYHeadRot()F", cancellable = true)
+    private void getLastSentYHeadRot_264827199(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(264827199L))
+            info.setReturnValue(4.394599E8F);
     }
 
-    @Inject(at = @At("HEAD"), method = "getLastSentMovement()Lnet/minecraft/world/phys/Vec3;", cancellable = true)
-    private void getLastSentMovement_1412098391(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1412098391L))
+    @Inject(at = @At("HEAD"), method = "getPositionBase()Lnet/minecraft/world/phys/Vec3;", cancellable = true)
+    private void getPositionBase__787200697(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-787200697L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "sendChanges()V", cancellable = true)
-    private void sendChanges_352643601(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(352643601L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "getLastSentXRot()F", cancellable = true)
+    private void getLastSentXRot__1698573634(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1698573634L))
+            info.setReturnValue(4.394599E8F);
     }
 
-    @Inject(at = @At("HEAD"), method = "sendPairingData(Lnet/minecraft/server/level/ServerPlayer;Ljava/util/function/Consumer;)V", cancellable = true)
-    private void sendPairingData__283435669(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-283435669L))
+    @Inject(at = @At("HEAD"), method = "addPairing(Lnet/minecraft/server/level/ServerPlayer;)V", cancellable = true)
+    private void addPairing_1842264328(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1842264328L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "removePairing(Lnet/minecraft/server/level/ServerPlayer;)V", cancellable = true)
-    private void removePairing__455192991(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-455192991L))
+    private void removePairing__1957175035(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1957175035L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "sendPairingData(Lnet/minecraft/server/level/ServerPlayer;Ljava/util/function/Consumer;)V", cancellable = true)
+    private void sendPairingData__1330719423(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1330719423L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "sendChanges()V", cancellable = true)
+    private void sendChanges_1239802070(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1239802070L))
             info.cancel();
     }
 

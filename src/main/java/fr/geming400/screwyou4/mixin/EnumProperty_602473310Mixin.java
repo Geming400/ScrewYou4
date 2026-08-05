@@ -8,75 +8,75 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.level.block.state.properties.EnumProperty.class)
 public class EnumProperty_602473310Mixin {
         @Inject(at = @At("HEAD"), method = "getName(Ljava/lang/Enum;)Ljava/lang/String;", cancellable = true)
-    private void getName_730497804(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(730497804L))
-            info.setReturnValue("6BJ$'#ox&QDL^Y$WfP\u5FB7.28\u1FD06\u1B1C\u4C05yB$Sc-rr(\uFB68c\u883F_cW]\u2CE7m?9w/c3-\u21D0'4<\u28B3\u1BE93FKb9Q=\uCD5B(f{b>/ ^W\u47C83z\u1380UU<1;v!+>;hW\u5A52");
+    private void getName_432807245(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(432807245L))
+            info.setReturnValue("\u71474#mj'\u97B4'ZS{Qdx+BWTlj\u810FZo\uA568Mc_;*U\uB449}eG#<o\uC9ABGw/<od=R_!,y\u70BC}\uCD57\u47A1+\u4A9DRdGU");
     }
 
     @Inject(at = @At("HEAD"), method = "getName(Ljava/lang/Comparable;)Ljava/lang/String;", cancellable = true)
-    private void getName__568187931(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-568187931L))
-            info.setReturnValue("H!?{LH'*E{>J1z$=),#>Ng#ygzjm\uBD48Du>%R\u1F03oQ\u5282Dp-rdr");
+    private void getName_1170032998(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1170032998L))
+            info.setReturnValue("$qN8%\u5FF1B+\u6602Kd\uFDBB\u4E41\uA17A&\uBF07%dm_\u799F?`\u68E7\u775F\u2210q(#Q?vuR{J eQ\u4554ZF\u94FC]2<u1;*e\u4A7FbQv\u5CEA+Qb&0h-yWhw\u17B5\u92F0+\uA279y_3fn\u89C1k+2");
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals_1987985072(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1987985072L))
-            info.setReturnValue(false);
+    private void equals__306153455(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-306153455L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "getValue(Ljava/lang/String;)Ljava/util/Optional;", cancellable = true)
-    private void getValue__1682458431(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1682458431L))
+    private void getValue_1511593660(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1511593660L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "create(Ljava/lang/String;Ljava/lang/Class;Ljava/util/function/Predicate;)Lnet/minecraft/world/level/block/state/properties/EnumProperty;", cancellable = true)
-    private static void create__1330926373(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1330926373L))
+    private static void create__1544245289(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1544245289L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "create(Ljava/lang/String;Ljava/lang/Class;[Ljava/lang/Enum;)Lnet/minecraft/world/level/block/state/properties/EnumProperty;", cancellable = true)
-    private static void create__2013695873(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2013695873L))
+    private static void create_769344515(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(769344515L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "create(Ljava/lang/String;Ljava/lang/Class;Ljava/util/List;)Lnet/minecraft/world/level/block/state/properties/EnumProperty;", cancellable = true)
-    private static void create_1342053437(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1342053437L))
+    private static void create_1016186937(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1016186937L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "create(Ljava/lang/String;Ljava/lang/Class;)Lnet/minecraft/world/level/block/state/properties/EnumProperty;", cancellable = true)
-    private static void create__221408436(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-221408436L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getPossibleValues()Ljava/util/List;", cancellable = true)
-    private void getPossibleValues__2066157171(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2066157171L))
+    private static void create__1529825464(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1529825464L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "generateHashCode()I", cancellable = true)
-    private void generateHashCode_640735555(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(640735555L))
-            info.setReturnValue(681501558);
+    private void generateHashCode_230680211(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(230680211L))
+            info.setReturnValue(1151950359);
     }
 
     @Inject(at = @At("HEAD"), method = "getInternalIndex(Ljava/lang/Comparable;)I", cancellable = true)
-    private void getInternalIndex__648534556(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-648534556L))
-            info.setReturnValue(1896327796);
+    private void getInternalIndex_1138263589(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1138263589L))
+            info.setReturnValue(2093667041);
     }
 
     @Inject(at = @At("HEAD"), method = "getInternalIndex(Ljava/lang/Enum;)I", cancellable = true)
-    private void getInternalIndex__430739363(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-430739363L))
-            info.setReturnValue(1393969478);
+    private void getInternalIndex_1336759646(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1336759646L))
+            info.setReturnValue(-1697583183);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getPossibleValues()Ljava/util/List;", cancellable = true)
+    private void getPossibleValues_401312246(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(401312246L))
+            info.setReturnValue(null);
     }
 
 

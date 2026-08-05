@@ -8,33 +8,33 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.level.block.entity.BlockEntityType.class)
 public class BlockEntityType2026573308Mixin {
         @Inject(at = @At("HEAD"), method = "create(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/entity/BlockEntity;", cancellable = true)
-    private void create_441095653(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(441095653L))
+    private void create_2008867177(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2008867177L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "isValid(Lnet/minecraft/world/level/block/state/BlockState;)Z", cancellable = true)
-    private void isValid_1881284322(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1881284322L))
-            info.setReturnValue(true);
+    private void isValid__1313621584(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1313621584L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "getBlockEntity(Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/block/entity/BlockEntity;", cancellable = true)
-    private void getBlockEntity__1028737937(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1028737937L))
+    private void getBlockEntity__1794478327(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1794478327L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "builtInRegistryHolder()Lnet/minecraft/core/Holder$Reference;", cancellable = true)
-    private void builtInRegistryHolder_838227281(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(838227281L))
+    private void builtInRegistryHolder_2010600293(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2010600293L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "onlyOpCanSetNbt()Z", cancellable = true)
-    private void onlyOpCanSetNbt_2064851891(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2064851891L))
-            info.setReturnValue(true);
+    private void onlyOpCanSetNbt__1859842286(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1859842286L))
+            info.setReturnValue(false);
     }
 
 

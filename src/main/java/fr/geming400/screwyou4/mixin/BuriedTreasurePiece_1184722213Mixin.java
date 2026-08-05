@@ -8,8 +8,8 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.level.levelgen.structure.structures.BuriedTreasurePieces.BuriedTreasurePiece.class)
 public class BuriedTreasurePiece_1184722213Mixin {
         @Inject(at = @At("HEAD"), method = "postProcess(Lnet/minecraft/world/level/WorldGenLevel;Lnet/minecraft/world/level/StructureManager;Lnet/minecraft/world/level/chunk/ChunkGenerator;Lnet/minecraft/util/RandomSource;Lnet/minecraft/world/level/levelgen/structure/BoundingBox;Lnet/minecraft/world/level/ChunkPos;Lnet/minecraft/core/BlockPos;)V", cancellable = true)
-    private void postProcess__1035700731(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1035700731L))
+    private void postProcess_508363892(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(508363892L))
             info.cancel();
     }
 

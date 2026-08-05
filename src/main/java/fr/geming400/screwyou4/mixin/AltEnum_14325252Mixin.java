@@ -8,62 +8,62 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.OptionInstance.AltEnum.class)
 public class AltEnum_14325252Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals_1399837510(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1399837510L))
+    private void equals__894301017(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-894301017L))
             info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__1121134724(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1121134724L))
-            info.setReturnValue("\uC973\u80B8\u497F2JiW+\"t1,7\u865Dko! aWUcJe\u0262\uAA1CUmH+^d]");
+    private void toString_784748776(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(784748776L))
+            info.setReturnValue("Zw5iAw#\uA7FA#R\u354E+7c/lMzTCk:2[_I0wbCp\u4134\u5FBE,B\u272E?#oJmU}a0:wh]_.na.*sgP\u2127s\u1AC88H&[c\u43FEk9\u27FD\uBEAC\u8F84\u0A74\u8DD94L$}m1-?rjK 3#5`\uAFA3GTyT\u0752=e");
     }
 
     @Inject(at = @At("HEAD"), method = "values()Ljava/util/List;", cancellable = true)
-    private void values_1640662067(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1640662067L))
+    private void values_1192246357(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1192246357L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_52587993(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(52587993L))
-            info.setReturnValue(-841714067);
+    private void hashCode_571677342(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(571677342L))
+            info.setReturnValue(-1223050135);
     }
 
     @Inject(at = @At("HEAD"), method = "validateValue(Ljava/lang/Object;)Ljava/util/Optional;", cancellable = true)
-    private void validateValue__995531627(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-995531627L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/Codec;", cancellable = true)
-    private void codec__377640375(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-377640375L))
+    private void validateValue_628981968(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(628981968L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "altCondition()Ljava/util/function/BooleanSupplier;", cancellable = true)
-    private void altCondition_451071572(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(451071572L))
+    private void altCondition__1087449658(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1087449658L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "valueSetter()Lnet/minecraft/client/OptionInstance$CycleableValueSet$ValueSetter;", cancellable = true)
-    private void valueSetter_1181630196(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1181630196L))
+    private void valueSetter__381866076(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-381866076L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "valueListSupplier()Lnet/minecraft/client/gui/components/CycleButton$ValueListSupplier;", cancellable = true)
-    private void valueListSupplier__2001910611(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2001910611L))
+    private void valueListSupplier_371225522(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(371225522L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "altValues()Ljava/util/List;", cancellable = true)
-    private void altValues_1640662067(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1640662067L))
+    private void altValues_1142300894(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1142300894L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/Codec;", cancellable = true)
+    private void codec__1790384289(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1790384289L))
             info.setReturnValue(null);
     }
 

@@ -8,33 +8,33 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.server.jsonrpc.OutgoingRpcMethod.Attributes.class)
 public class Attributes_1611842689Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals__1297612349(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1297612349L))
+    private void equals_703216420(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(703216420L))
             info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString_476382713(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(476382713L))
-            info.setReturnValue("4]\u942Dr7XCJ2Z\u7BEAU*\"x&RX0\uB361A3P\uCBDFn?A\uFC375&G\uD559auj0\u3368p8\u8EBEc8IoI)\u04A9DT\u82F2#H:D@Ok\u44BDZ6X>\u92A7\u9684|8Zl<B\u9255u\uCF58RZ5V:\u6B18>t=uq\uBF81F7");
+    private void toString__1912701083(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1912701083L))
+            info.setReturnValue("\u75F3tFhi:e\u4969E*\"M`+LN}ixqx,t6utC\u084D5\u3AF7XFf)>A2\u69709<`] B}`\u5472m\u8882JL\uB1766bLjA/R\uB2CFhW[>\"yiFfZX-G\"^&uI0|rj+gBsB(Y\u83BAA 2\u4FD7");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_1650105430(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1650105430L))
-            info.setReturnValue(-649482873);
-    }
-
-    @Inject(at = @At("HEAD"), method = "allowPreServerInit()Z", cancellable = true)
-    private void allowPreServerInit_1650121271(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1650121271L))
-            info.setReturnValue(false);
+    private void hashCode__2125772517(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2125772517L))
+            info.setReturnValue(-63258023);
     }
 
     @Inject(at = @At("HEAD"), method = "discoverable()Z", cancellable = true)
-    private void discoverable_1650121271(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1650121271L))
-            info.setReturnValue(false);
+    private void discoverable__1927550124(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1927550124L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "allowPreServerInit()Z", cancellable = true)
+    private void allowPreServerInit__609020630(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-609020630L))
+            info.setReturnValue(true);
     }
 
 

@@ -8,105 +8,105 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.network.HiddenByteBuf.class)
 public class HiddenByteBuf_910724893Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals__1998730145(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1998730145L))
+    private void equals_2098624(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2098624L))
             info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__224735083(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-224735083L))
-            info.setReturnValue("TP|%Oj8=X^O9\u886Ag*!.k4IE\uFAAFKZEP%}Jok^\uD206_GT/nuN4S)\u772D/m\"\u3BBB\u195EsO[Jq\u1DD90\u9D346xwgG Bm!a\u8AAD\u882B\u3E57_\u9E9Aq");
+    private void toString_1681148417(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1681148417L))
+            info.setReturnValue("[McF}F\u314Ap5/5Kbl&|dB)\"!D\u72D3\u1AB4z.\u77814n:4$8aQ,5D.\u1C4F?r-\u52AExYM.?7.CKDaFRc7@$#\u88FA\u4B32\uC9BF\u14E1GnB8VtxO*\uB073v2k]='+zC\u9A4Ez\"*6h");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_948987634(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(948987634L))
-            info.setReturnValue(1433132253);
+    private void hashCode_1468076983(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1468076983L))
+            info.setReturnValue(-140428525);
     }
 
     @Inject(at = @At("HEAD"), method = "release(I)Z", cancellable = true)
-    private void release_2124645708(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2124645708L))
-            info.setReturnValue(true);
+    private void release__1502458861(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1502458861L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "release()Z", cancellable = true)
-    private void release_949003475(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(949003475L))
+    private void release__1107662548(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1107662548L))
             info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "contents()Lio/netty/buffer/ByteBuf;", cancellable = true)
-    private void contents__1688180722(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1688180722L))
+    private void contents_1914460980(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1914460980L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "pack(Ljava/lang/Object;)Ljava/lang/Object;", cancellable = true)
-    private static void pack_922803091(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(922803091L))
-            info.setReturnValue(null);
+    private static void pack__11571028(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-11571028L))
+            info.setReturnValue(new java.lang.Object());
     }
 
     @Inject(at = @At("HEAD"), method = "touch()Lnet/minecraft/network/HiddenByteBuf;", cancellable = true)
-    private void touch__1173523692(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1173523692L))
+    private void touch__1889171787(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1889171787L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "touch(Ljava/lang/Object;)Lio/netty/util/ReferenceCounted;", cancellable = true)
-    private void touch_476709780(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(476709780L))
+    private void touch_948215187(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(948215187L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "touch()Lio/netty/util/ReferenceCounted;", cancellable = true)
-    private void touch_1068817584(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1068817584L))
+    private void touch_987056239(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(987056239L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "touch(Ljava/lang/Object;)Lnet/minecraft/network/HiddenByteBuf;", cancellable = true)
-    private void touch__474940752(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-474940752L))
+    private void touch_275892241(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(275892241L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "unpack(Ljava/lang/Object;)Ljava/lang/Object;", cancellable = true)
+    private static void unpack_872857029(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(872857029L))
+            info.setReturnValue(new java.lang.Object());
+    }
+
+    @Inject(at = @At("HEAD"), method = "retain()Lio/netty/util/ReferenceCounted;", cancellable = true)
+    private void retain_98922293(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(98922293L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "retain(I)Lio/netty/util/ReferenceCounted;", cancellable = true)
-    private void retain_1309945111(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1309945111L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "retain()Lio/netty/util/ReferenceCounted;", cancellable = true)
-    private void retain_1068817584(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1068817584L))
+    private void retain_1307962162(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1307962162L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "retain(I)Lnet/minecraft/network/HiddenByteBuf;", cancellable = true)
-    private void retain_42158861(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(42158861L))
+    private void retain_773531090(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(773531090L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "retain()Lnet/minecraft/network/HiddenByteBuf;", cancellable = true)
-    private void retain__1173523692(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1173523692L))
+    private void retain_1482468271(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1482468271L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "refCnt()I", cancellable = true)
-    private void refCnt_948987138(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(948987138L))
-            info.setReturnValue(1710151461);
-    }
-
-    @Inject(at = @At("HEAD"), method = "unpack(Ljava/lang/Object;)Ljava/lang/Object;", cancellable = true)
-    private static void unpack_922803091(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(922803091L))
-            info.setReturnValue(null);
+    private void refCnt__1418447124(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1418447124L))
+            info.setReturnValue(628731320);
     }
 
 

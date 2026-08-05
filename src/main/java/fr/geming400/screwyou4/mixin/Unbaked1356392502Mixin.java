@@ -8,38 +8,38 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.renderer.block.model.SpecialBlockModelWrapper.Unbaked.class)
 public class Unbaked1356392502Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals__1553062535(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1553062535L))
-            info.setReturnValue(true);
+    private void equals_447766234(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(447766234L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString_220932527(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(220932527L))
-            info.setReturnValue("88i\u5D63y<t(9OpukW$W\u3714D\u527A]\uA492U\u3051J'");
+    private void toString_2126816027(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2126816027L))
+            info.setReturnValue("lc,)-XuuXRe\u6737\u4A7A6H(a\u8F7D\u6800\"Xe%u_}/\u35A1F>\uA3CF[%n-\u4E5D[6RA$\u5BB4]?^");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_1394655244(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1394655244L))
-            info.setReturnValue(-1224694973);
+    private void hashCode_1913744593(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1913744593L))
+            info.setReturnValue(1097942684);
     }
 
     @Inject(at = @At("HEAD"), method = "model()Lnet/minecraft/client/renderer/special/SpecialModelRenderer$Unbaked;", cancellable = true)
-    private void model__222349071(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-222349071L))
+    private void model__1973931238(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1973931238L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "transformation()Ljava/util/Optional;", cancellable = true)
-    private void transformation_1601853924(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1601853924L))
+    private void transformation__1740037651(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1740037651L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "bake(Lnet/minecraft/client/renderer/block/model/BlockModel$BakingContext;Lorg/joml/Matrix4fc;)Lnet/minecraft/client/renderer/block/model/BlockModel;", cancellable = true)
-    private void bake_1954482955(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1954482955L))
+    private void bake__1332732764(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1332732764L))
             info.setReturnValue(null);
     }
 

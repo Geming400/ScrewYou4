@@ -8,39 +8,39 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.item.crafting.AbstractCookingRecipe.CookingBookInfo.class)
 public class CookingBookInfo574893949Mixin {
         @Inject(at = @At("HEAD"), method = "group()Ljava/lang/String;", cancellable = true)
-    private void group__560566522(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-560566522L))
-            info.setReturnValue("89\u79C6=U*q\u09A8HAFCl(sV]1\u8A6B799*[n\uCF82l>\u9196bAL*y+4-8xVRZ'\u2178D(Bp\u8272,o]n\u566E/jdZO-OBa\u7C49\uB163\u4830 =tFK,}i");
+    private void group__1269437371(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1269437371L))
+            info.setReturnValue("r_\uAB56Jnr-lS\u7F0DThP#Xv |#vjE5T?[\u0E24PrGL{l[:xpA>_%)_zyu\u2D80\uC31ADdwd\u2CC8\u9811hT.MO%ym\u00A5j\u7EBEz");
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals_1960406208(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1960406208L))
+    private void equals__333732319(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-333732319L))
             info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__560566026(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-560566026L))
-            info.setReturnValue("Uy\u1380[Qo\u04493}<h=kFSu0`\u7FE8jmpoSv?1\"i*\uC388mSO h-Lq G\"3;q\u9C4A\u8F9BhQlAL\uB598!\uD5ECT7c#wA5B`702m|b{\u5252\u6588c");
+    private void toString_1345317474(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1345317474L))
+            info.setReturnValue("y*%\u6FCB\uD6FB!/wWi@NDO");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_613156691(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(613156691L))
-            info.setReturnValue(-1184237751);
+    private void hashCode_1132246040(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1132246040L))
+            info.setReturnValue(408939808);
     }
 
     @Inject(at = @At("HEAD"), method = "category()Ljava/lang/Object;", cancellable = true)
-    private void category__1860752168(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1860752168L))
+    private void category__1873086634(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1873086634L))
             info.setReturnValue(new java.lang.Object());
     }
 
     @Inject(at = @At("HEAD"), method = "category()Lnet/minecraft/world/item/crafting/CookingBookCategory;", cancellable = true)
-    private void category__1580791870(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1580791870L))
-            info.setReturnValue(net.minecraft.world.item.crafting.CookingBookCategory.BLOCKS);
+    private void category_379753476(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(379753476L))
+            info.setReturnValue(net.minecraft.world.item.crafting.CookingBookCategory.FOOD);
     }
 
 

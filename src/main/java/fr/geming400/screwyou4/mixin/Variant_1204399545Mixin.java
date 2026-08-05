@@ -8,33 +8,33 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.entity.animal.parrot.Parrot.Variant.class)
 public class Variant_1204399545Mixin {
         @Inject(at = @At("HEAD"), method = "values()[Lnet/minecraft/world/entity/animal/parrot/Parrot$Variant;", cancellable = true)
-    private static void values_775296163(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(775296163L))
+    private static void values_663126597(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(663126597L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/world/entity/animal/parrot/Parrot$Variant;", cancellable = true)
-    private static void valueOf__1410514746(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1410514746L))
+    private static void valueOf__2137470818(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2137470818L))
             info.setReturnValue(net.minecraft.world.entity.animal.parrot.Parrot.Variant.RED_BLUE);
     }
 
     @Inject(at = @At("HEAD"), method = "getId()I", cancellable = true)
-    private void getId_1242661790(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1242661790L))
-            info.setReturnValue(996945060);
+    private void getId__453924051(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-453924051L))
+            info.setReturnValue(1909177277);
     }
 
     @Inject(at = @At("HEAD"), method = "byId(I)Lnet/minecraft/world/entity/animal/parrot/Parrot$Variant;", cancellable = true)
-    private static void byId_1345088565(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1345088565L))
+    private static void byId__476576633(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-476576633L))
             info.setReturnValue(net.minecraft.world.entity.animal.parrot.Parrot.Variant.BLUE);
     }
 
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
-    private void getSerializedName_68939073(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(68939073L))
-            info.setReturnValue("E?.%\u7100wo,1fm6{=U\"}e`c\uCB09 `a)-L! 2Z]\u7020e:B0\u3482e5%n\u9110z*ZJkSMw7e\uA2A9*b%T}\u532C\u7672u\u2D1D%y-HJ/4&<b3&)\u4D191\uA832O28uqP}\u2ED6\u8171");
+    private void getSerializedName_1292608166(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1292608166L))
+            info.setReturnValue("u'DxNl2dn\u2A9A$srB`Xz:r-Fi u14@e\u3813{,\u2499y(gTeQ^->\u6724\u6F6F[^5V\u0466CRk|!n/El5rF\u47A6T\u1A23r@iFq");
     }
 
 

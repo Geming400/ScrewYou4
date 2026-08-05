@@ -8,56 +8,56 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.level.levelgen.structure.pieces.PiecesContainer.class)
 public class PiecesContainer_1469131682Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals__1440323356(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1440323356L))
-            info.setReturnValue(false);
+    private void equals_560505413(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(560505413L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString_333671706(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(333671706L))
-            info.setReturnValue("hr\u51FA\uB544T \u8E7Cuw\uB601k\u0A20B0=}@TZID;!\u9EED5%H&w(\"PZ-%sH_\u4445e=N\"Yy8I");
+    private void toString__2055412090(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2055412090L))
+            info.setReturnValue("-wdzVA\u9495p\u94578$k&7mC;0v@\u84C0hf#%\uFC43NNP\u9345\u268B\u24AC:");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_1507394423(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1507394423L))
-            info.setReturnValue(43116695);
+    private void hashCode_2026483772(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2026483772L))
+            info.setReturnValue(1872014262);
     }
 
     @Inject(at = @At("HEAD"), method = "load(Lnet/minecraft/nbt/ListTag;Lnet/minecraft/world/level/levelgen/structure/pieces/StructurePieceSerializationContext;)Lnet/minecraft/world/level/levelgen/structure/pieces/PiecesContainer;", cancellable = true)
-    private static void load__519978476(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-519978476L))
+    private static void load__2048894470(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2048894470L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "isEmpty()Z", cancellable = true)
-    private void isEmpty_1507410264(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1507410264L))
+    private void isEmpty__1766719243(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1766719243L))
             info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "save(Lnet/minecraft/world/level/levelgen/structure/pieces/StructurePieceSerializationContext;)Lnet/minecraft/nbt/Tag;", cancellable = true)
-    private void save__427039236(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-427039236L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "pieces()Ljava/util/List;", cancellable = true)
-    private void pieces__1199498799(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1199498799L))
+    private void save_1559186783(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1559186783L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "isInsidePiece(Lnet/minecraft/core/BlockPos;)Z", cancellable = true)
-    private void isInsidePiece_1637902124(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1637902124L))
+    private void isInsidePiece_293616116(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(293616116L))
             info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "calculateBoundingBox()Lnet/minecraft/world/level/levelgen/structure/BoundingBox;", cancellable = true)
-    private void calculateBoundingBox_1639279467(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1639279467L))
+    private void calculateBoundingBox_932091372(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(932091372L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "pieces()Ljava/util/List;", cancellable = true)
+    private void pieces__1733715818(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1733715818L))
             info.setReturnValue(null);
     }
 

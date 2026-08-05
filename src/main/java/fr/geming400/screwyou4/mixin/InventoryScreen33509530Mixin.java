@@ -7,40 +7,40 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.client.gui.screens.inventory.InventoryScreen.class)
 public class InventoryScreen33509530Mixin {
-        @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIF)V", cancellable = true)
-    private void extractRenderState__926177842(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-926177842L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "extractBackground(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIF)V", cancellable = true)
-    private void extractBackground__926177842(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-926177842L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "showsActiveEffects()Z", cancellable = true)
-    private void showsActiveEffects_71788113(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(71788113L))
-            info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "containerTick()V", cancellable = true)
-    private void containerTick_71784269(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(71784269L))
+        @Inject(at = @At("HEAD"), method = "containerTick()V", cancellable = true)
+    private void containerTick_1374475343(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1374475343L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "mouseReleased(Lnet/minecraft/client/input/MouseButtonEvent;)Z", cancellable = true)
-    private void mouseReleased_257131824(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(257131824L))
-            info.setReturnValue(true);
+    private void mouseReleased_617645490(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(617645490L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "extractEntityInInventoryFollowsMouse(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIIIIFFFLnet/minecraft/world/entity/LivingEntity;)V", cancellable = true)
-    private static void extractEntityInInventoryFollowsMouse__978243165(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-978243165L))
+    private static void extractEntityInInventoryFollowsMouse_628125069(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(628125069L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIF)V", cancellable = true)
+    private void extractRenderState_1020389172(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1020389172L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "extractBackground(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIF)V", cancellable = true)
+    private void extractBackground_1434964063(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1434964063L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "showsActiveEffects()Z", cancellable = true)
+    private void showsActiveEffects_161554539(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(161554539L))
+            info.setReturnValue(false);
     }
 
 

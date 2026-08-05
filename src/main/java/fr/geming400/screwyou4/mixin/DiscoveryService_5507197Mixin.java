@@ -8,8 +8,8 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.server.jsonrpc.methods.DiscoveryService.class)
 public class DiscoveryService_5507197Mixin {
         @Inject(at = @At("HEAD"), method = "discover(Ljava/util/List;)Lnet/minecraft/server/jsonrpc/methods/DiscoveryService$DiscoverResponse;", cancellable = true)
-    private static void discover__648232753(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-648232753L))
+    private static void discover__1633949384(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1633949384L))
             info.setReturnValue(null);
     }
 

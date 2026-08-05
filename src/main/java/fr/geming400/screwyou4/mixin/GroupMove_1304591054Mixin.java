@@ -8,38 +8,38 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.util.filefix.operations.GroupMove.class)
 public class GroupMove_1304591054Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals__1604863984(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1604863984L))
-            info.setReturnValue(false);
+    private void equals_395964785(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(395964785L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString_169131078(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(169131078L))
-            info.setReturnValue("^H1p,%]*WV!F7qVA,R\u873F\u7ABE|\"fCU\u735A!#cVYZ8LN!%;C+t7`+q3PUnh2aQ9<3\u15EDg;1KHX?z\u4E65}U;sw]_");
+    private void toString_2075014578(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2075014578L))
+            info.setReturnValue("'c[\u0410T1\u36DDu\u4A25+*UH\u7E23u\uB2ED\uD58B3\uA368\"n4:qP\uA206\u8EC8G.y%\u026C'\uC1DFK)2GU\u10D0Xn\uB311jr;:}_5P|2ZIU4g\u69B5f\uBDDFTQl");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_1342853795(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1342853795L))
-            info.setReturnValue(1563902300);
+    private void hashCode_1861943144(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1861943144L))
+            info.setReturnValue(1045642647);
     }
 
     @Inject(at = @At("HEAD"), method = "fix(Ljava/nio/file/Path;Lnet/minecraft/util/worldupdate/UpgradeProgress;)V", cancellable = true)
-    private void fix__481594126(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-481594126L))
+    private void fix__806627203(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-806627203L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "fromTo()Ljava/util/Map;", cancellable = true)
-    private void fromTo__700032587(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-700032587L))
+    @Inject(at = @At("HEAD"), method = "fixers()Ljava/util/List;", cancellable = true)
+    private void fixers__1716981842(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1716981842L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "fixers()Ljava/util/List;", cancellable = true)
-    private void fixers__1364039427(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1364039427L))
+    @Inject(at = @At("HEAD"), method = "fromTo()Ljava/util/Map;", cancellable = true)
+    private void fromTo__1106964016(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1106964016L))
             info.setReturnValue(null);
     }
 

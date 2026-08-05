@@ -8,45 +8,45 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.entity.animal.panda.Panda.Gene.class)
 public class Gene1823684539Mixin {
         @Inject(at = @At("HEAD"), method = "values()[Lnet/minecraft/world/entity/animal/panda/Panda$Gene;", cancellable = true)
-    private static void values__882643538(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-882643538L))
+    private static void values__1966472500(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1966472500L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/world/entity/animal/panda/Panda$Gene;", cancellable = true)
-    private static void valueOf_995391403(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(995391403L))
-            info.setReturnValue(net.minecraft.world.entity.animal.panda.Panda.Gene.WORRIED);
+    private static void valueOf__1923520301(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1923520301L))
+            info.setReturnValue(net.minecraft.world.entity.animal.panda.Panda.Gene.LAZY);
     }
 
     @Inject(at = @At("HEAD"), method = "getId()I", cancellable = true)
-    private void getId_1861946785(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1861946785L))
-            info.setReturnValue(-439873292);
+    private void getId_165360944(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(165360944L))
+            info.setReturnValue(1823992014);
     }
 
     @Inject(at = @At("HEAD"), method = "getRandom(Lnet/minecraft/util/RandomSource;)Lnet/minecraft/world/entity/animal/panda/Panda$Gene;", cancellable = true)
-    private static void getRandom_629926485(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(629926485L))
-            info.setReturnValue(net.minecraft.world.entity.animal.panda.Panda.Gene.PLAYFUL);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isRecessive()Z", cancellable = true)
-    private void isRecessive_1861963122(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1861963122L))
-            info.setReturnValue(false);
+    private static void getRandom__1901192004(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1901192004L))
+            info.setReturnValue(net.minecraft.world.entity.animal.panda.Panda.Gene.NORMAL);
     }
 
     @Inject(at = @At("HEAD"), method = "byId(I)Lnet/minecraft/world/entity/animal/panda/Panda$Gene;", cancellable = true)
-    private static void byId__541744420(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-541744420L))
-            info.setReturnValue(net.minecraft.world.entity.animal.panda.Panda.Gene.BROWN);
+    private static void byId__386097334(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-386097334L))
+            info.setReturnValue(net.minecraft.world.entity.animal.panda.Panda.Gene.NORMAL);
     }
 
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
-    private void getSerializedName_688224068(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(688224068L))
-            info.setReturnValue("7,bJ4iU.Ami?jxU=[NlAzVvls\u49FBlCGX'myq,(_5=RL5Z!)myW^wuoGdYj'V= 3;S%7:'-Rqrpv}\u096D>)\u2514,!N%H\uA939N]5cH<b?'|");
+    private void getSerializedName_1911893161(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1911893161L))
+            info.setReturnValue("*.7\u7AFDMt=Y94F/+f8\u042FT&noCUy/s0Xq?\u7C06\u46D0z@0_>*V7h\u0FC0\uD16DJb!\uACEEeo\uAB70\u5B64/yaDCXqg");
+    }
+
+    @Inject(at = @At("HEAD"), method = "isRecessive()Z", cancellable = true)
+    private void isRecessive_2107213145(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2107213145L))
+            info.setReturnValue(false);
     }
 
 

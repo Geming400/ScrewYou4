@@ -8,33 +8,33 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.entity.ai.goal.BreathAirGoal.class)
 public class BreathAirGoal863084943Mixin {
         @Inject(at = @At("HEAD"), method = "start()V", cancellable = true)
-    private void start_901359682(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(901359682L))
+    private void start__763080416(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-763080416L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "canUse()Z", cancellable = true)
-    private void canUse_901363526(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(901363526L))
-            info.setReturnValue(true);
+    private void canUse__51355121(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-51355121L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "tick()V", cancellable = true)
-    private void tick_901359682(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(901359682L))
+    private void tick_733401285(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(733401285L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "canContinueToUse()Z", cancellable = true)
-    private void canContinueToUse_901363526(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(901363526L))
-            info.setReturnValue(true);
+    @Inject(at = @At("HEAD"), method = "isInterruptable()Z", cancellable = true)
+    private void isInterruptable_253971955(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(253971955L))
+            info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "isInterruptable()Z", cancellable = true)
-    private void isInterruptable_901363526(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(901363526L))
-            info.setReturnValue(true);
+    @Inject(at = @At("HEAD"), method = "canContinueToUse()Z", cancellable = true)
+    private void canContinueToUse_173449649(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(173449649L))
+            info.setReturnValue(false);
     }
 
 

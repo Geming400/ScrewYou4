@@ -8,20 +8,20 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.level.storage.loot.functions.SetPotionFunction.class)
 public class SetPotionFunction444603807Mixin {
         @Inject(at = @At("HEAD"), method = "run(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/storage/loot/LootContext;)Lnet/minecraft/world/item/ItemStack;", cancellable = true)
-    private void run_283255999(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(283255999L))
+    private void run_1676685130(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1676685130L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
-    private void codec__2114509765(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2114509765L))
+    private void codec_1511049061(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1511049061L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "setPotion(Lnet/minecraft/core/Holder;)Lnet/minecraft/world/level/storage/loot/functions/LootItemConditionalFunction$Builder;", cancellable = true)
-    private static void setPotion__1933051385(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1933051385L))
+    private static void setPotion_1639265426(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1639265426L))
             info.setReturnValue(null);
     }
 

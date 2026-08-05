@@ -8,27 +8,27 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.renderer.block.BlockModelLighter.Cache.class)
 public class Cache720515519Mixin {
         @Inject(at = @At("HEAD"), method = "enable()V", cancellable = true)
-    private void enable_758790258(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(758790258L))
+    private void enable__761328433(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-761328433L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "disable()V", cancellable = true)
-    private void disable_758790258(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(758790258L))
+    private void disable__318396790(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-318396790L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "getShadeBrightness(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/client/renderer/block/BlockAndTintGetter;Lnet/minecraft/core/BlockPos;)F", cancellable = true)
-    private void getShadeBrightness__1424129242(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1424129242L))
-            info.setReturnValue(9.50619E7F);
+    private void getShadeBrightness_1773345614(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1773345614L))
+            info.setReturnValue(7.763495E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "getLightCoords(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/client/renderer/block/BlockAndTintGetter;Lnet/minecraft/core/BlockPos;)I", cancellable = true)
-    private void getLightCoords__1424126359(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1424126359L))
-            info.setReturnValue(605617784);
+    private void getLightCoords__1037888249(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1037888249L))
+            info.setReturnValue(-2021420497);
     }
 
 

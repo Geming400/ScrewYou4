@@ -8,56 +8,56 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.network.chat.ChatType.class)
 public class ChatType1615739420Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals__1293715617(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1293715617L))
-            info.setReturnValue(true);
+    private void equals_707113152(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(707113152L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString_480279445(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(480279445L))
-            info.setReturnValue("*");
+    private void toString__1908804351(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1908804351L))
+            info.setReturnValue("-\u4D12");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_1654002162(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1654002162L))
-            info.setReturnValue(-1662500096);
+    private void hashCode__2121875785(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2121875785L))
+            info.setReturnValue(-124487713);
     }
 
     @Inject(at = @At("HEAD"), method = "bootstrap(Lnet/minecraft/data/worldgen/BootstrapContext;)V", cancellable = true)
-    private static void bootstrap_423220917(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(423220917L))
+    private static void bootstrap_1061133703(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1061133703L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "bind(Lnet/minecraft/resources/ResourceKey;Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/network/chat/ChatType$Bound;", cancellable = true)
-    private static void bind_1573101791(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1573101791L))
+    private static void bind_709108738(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(709108738L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "bind(Lnet/minecraft/resources/ResourceKey;Lnet/minecraft/core/RegistryAccess;Lnet/minecraft/network/chat/Component;)Lnet/minecraft/network/chat/ChatType$Bound;", cancellable = true)
-    private static void bind__830222860(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-830222860L))
+    private static void bind_883678935(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(883678935L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "bind(Lnet/minecraft/resources/ResourceKey;Lnet/minecraft/commands/CommandSourceStack;)Lnet/minecraft/network/chat/ChatType$Bound;", cancellable = true)
-    private static void bind__1781447160(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1781447160L))
+    private static void bind_746190379(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(746190379L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "chat()Lnet/minecraft/network/chat/ChatTypeDecoration;", cancellable = true)
-    private void chat__1895505668(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1895505668L))
+    private void chat_1865449124(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1865449124L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "narration()Lnet/minecraft/network/chat/ChatTypeDecoration;", cancellable = true)
-    private void narration__1895505668(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1895505668L))
+    private void narration__878613990(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-878613990L))
             info.setReturnValue(null);
     }
 

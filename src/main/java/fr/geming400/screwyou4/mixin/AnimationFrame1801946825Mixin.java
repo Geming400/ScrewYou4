@@ -8,39 +8,39 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.resources.metadata.animation.AnimationFrame.class)
 public class AnimationFrame1801946825Mixin {
         @Inject(at = @At("HEAD"), method = "index()I", cancellable = true)
-    private void index_1840209071(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1840209071L))
-            info.setReturnValue(-777300716);
+    private void index__1798904035(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1798904035L))
+            info.setReturnValue(-701597735);
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals__1107508212(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1107508212L))
-            info.setReturnValue(true);
+    private void equals_893320557(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(893320557L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString_666486850(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(666486850L))
-            info.setReturnValue("JI\uAAB0lA-Xl+@8-,LY]2b\uA6D21Km`\u968A\u8635/>\uBE4D6>STIvM`F7rw\u1EB8EGJ\uC2B3,[=K$Pbp\uAD07@ ;(ZE\u6F15R-}nI1g#Mn\u3A9C\uA714=Y6\u4AFB[z>D,Tr-,.LftSv");
+    private void toString__1722596946(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1722596946L))
+            info.setReturnValue("5@0WjY f(J\u4026y\u510DKZkm\uB231sP2jb\uFBA5h%]&_t%@):zat8itf\uF9A0j)\u0567BC&l\uCC21>D[\uBF94b<t{mzWH");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_1840209567(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1840209567L))
-            info.setReturnValue(-955824205);
+    private void hashCode__1935668380(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1935668380L))
+            info.setReturnValue(1073622383);
     }
 
     @Inject(at = @At("HEAD"), method = "time()Ljava/util/Optional;", cancellable = true)
-    private void time_2047408247(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2047408247L))
+    private void time_194442308(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(194442308L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "timeOr(I)I", cancellable = true)
-    private void timeOr__1279115992(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1279115992L))
-            info.setReturnValue(-1721085909);
+    private void timeOr_1633070776(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1633070776L))
+            info.setReturnValue(177442184);
     }
 
 

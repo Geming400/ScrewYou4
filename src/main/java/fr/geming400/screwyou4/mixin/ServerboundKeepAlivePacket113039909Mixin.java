@@ -8,26 +8,26 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.network.protocol.common.ServerboundKeepAlivePacket.class)
 public class ServerboundKeepAlivePacket113039909Mixin {
         @Inject(at = @At("HEAD"), method = "type()Lnet/minecraft/network/protocol/PacketType;", cancellable = true)
-    private void type__1565985179(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1565985179L))
+    private void type_268907499(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(268907499L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getId()J", cancellable = true)
-    private void getId_151303116(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(151303116L))
-            info.setReturnValue(8290345465952090809L);
+    private void getId__1545282725(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1545282725L))
+            info.setReturnValue(-6577536634676986477L);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/PacketListener;)V", cancellable = true)
-    private void handle_791108822(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(791108822L))
+    private void handle__182671954(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-182671954L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/protocol/common/ServerCommonPacketListener;)V", cancellable = true)
-    private void handle_1672171995(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1672171995L))
+    private void handle__1412602189(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1412602189L))
             info.cancel();
     }
 

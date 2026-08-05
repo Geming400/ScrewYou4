@@ -8,33 +8,33 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.attribute.modifier.FloatWithAlpha.class)
 public class FloatWithAlpha_570470132Mixin {
         @Inject(at = @At("HEAD"), method = "value()F", cancellable = true)
-    private void value_608729494(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(608729494L))
-            info.setReturnValue(7.256793E8F);
+    private void value__1734203707(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1734203707L))
+            info.setReturnValue(4.394599E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals_1955982390(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1955982390L))
+    private void equals__338156137(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-338156137L))
             info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__564989844(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-564989844L))
-            info.setReturnValue("");
+    private void toString_1340893656(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1340893656L))
+            info.setReturnValue(".7f<\u7E2Fe4JmH\uB6E9uqKP5#[_7]g+\u29F92\u6A178>s[a\u149B^");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_608732873(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(608732873L))
-            info.setReturnValue(193442500);
+    private void hashCode_1127822222(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1127822222L))
+            info.setReturnValue(1181678006);
     }
 
     @Inject(at = @At("HEAD"), method = "alpha()F", cancellable = true)
-    private void alpha_608729494(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(608729494L))
-            info.setReturnValue(7.256793E8F);
+    private void alpha__695405832(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-695405832L))
+            info.setReturnValue(4.394599E8F);
     }
 
 

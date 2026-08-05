@@ -8,38 +8,38 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.level.gameevent.BlockPositionSource.class)
 public class BlockPositionSource_901747917Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals__2007707121(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2007707121L))
+    private void equals__6878352(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-6878352L))
             info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__233712059(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-233712059L))
-            info.setReturnValue("\uA366af<\u9B5D4\uC51C\u5025bHU(\uC1A8jD]'UKQ");
+    private void toString_1672171441(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1672171441L))
+            info.setReturnValue("\"P+O\uCBB0:/Fi\u7FE6Z'8;|g*9^");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_940010658(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(940010658L))
-            info.setReturnValue(1334969780);
+    private void hashCode_1459100007(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1459100007L))
+            info.setReturnValue(-1057281377);
     }
 
     @Inject(at = @At("HEAD"), method = "getType()Lnet/minecraft/world/level/gameevent/PositionSourceType;", cancellable = true)
-    private void getType_849300569(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(849300569L))
+    private void getType__1084285943(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1084285943L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "pos()Lnet/minecraft/core/BlockPos;", cancellable = true)
-    private void pos__991638963(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-991638963L))
+    private void pos__1379028359(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1379028359L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getPosition(Lnet/minecraft/world/level/Level;)Ljava/util/Optional;", cancellable = true)
-    private void getPosition__976305109(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-976305109L))
+    private void getPosition__1753740692(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1753740692L))
             info.setReturnValue(null);
     }
 

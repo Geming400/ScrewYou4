@@ -8,32 +8,32 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.server.commands.LookAt.LookAtPosition.class)
 public class LookAtPosition_1109166953Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals__1800288085(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1800288085L))
-            info.setReturnValue(false);
+    private void equals_200540684(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(200540684L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__26293023(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-26293023L))
-            info.setReturnValue("xC\uC172eeyVoi>$Y|#\u39C2Xs;\u6754N'@0BqVx m\u1F90Z>=vt");
+    private void toString_1879590477(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1879590477L))
+            info.setReturnValue("&\uC259\u66DAFy\"dli^5D9U\u00E6-{_gx\u2389i\u4179 (,)\uA911&CwT{\u2FBDPO2");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_1147429694(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1147429694L))
-            info.setReturnValue(-1359084923);
+    private void hashCode_1666519043(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1666519043L))
+            info.setReturnValue(1176399400);
     }
 
     @Inject(at = @At("HEAD"), method = "position()Lnet/minecraft/world/phys/Vec3;", cancellable = true)
-    private void position__2088070815(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2088070815L))
+    private void position_1686724504(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1686724504L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "perform(Lnet/minecraft/commands/CommandSourceStack;Lnet/minecraft/world/entity/Entity;)V", cancellable = true)
-    private void perform_2021926514(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(2021926514L))
+    private void perform_2017829233(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(2017829233L))
             info.cancel();
     }
 

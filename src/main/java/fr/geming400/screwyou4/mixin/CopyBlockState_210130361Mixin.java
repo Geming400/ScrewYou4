@@ -8,20 +8,20 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.level.storage.loot.functions.CopyBlockState.class)
 public class CopyBlockState_210130361Mixin {
         @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
-    private void codec_1945984084(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1945984084L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "copyState(Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/world/level/storage/loot/functions/CopyBlockState$Builder;", cancellable = true)
-    private static void copyState__137925087(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-137925087L))
+    private void codec_1276575614(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1276575614L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getReferencedContextParams()Ljava/util/Set;", cancellable = true)
-    private void getReferencedContextParams__1618905126(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1618905126L))
+    private void getReferencedContextParams_989633588(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(989633588L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "copyState(Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/world/level/storage/loot/functions/CopyBlockState$Builder;", cancellable = true)
+    private static void copyState__987595203(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-987595203L))
             info.setReturnValue(null);
     }
 

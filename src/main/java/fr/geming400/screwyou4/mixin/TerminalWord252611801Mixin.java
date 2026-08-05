@@ -8,15 +8,15 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.util.parsing.packrat.commands.StringReaderTerms.TerminalWord.class)
 public class TerminalWord252611801Mixin {
         @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__882848670(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-882848670L))
-            info.setReturnValue("0pGa{+M;o\u48E7RoO?;>DoJ)b6\uC0F9=\uA0F4S|r:S+?%");
+    private void toString_1023034830(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1023034830L))
+            info.setReturnValue("}U4BG>");
     }
 
     @Inject(at = @At("HEAD"), method = "parse(Lnet/minecraft/util/parsing/packrat/ParseState;Lnet/minecraft/util/parsing/packrat/Scope;Lnet/minecraft/util/parsing/packrat/Control;)Z", cancellable = true)
-    private void parse_631397649(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(631397649L))
-            info.setReturnValue(true);
+    private void parse_48808964(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(48808964L))
+            info.setReturnValue(false);
     }
 
 

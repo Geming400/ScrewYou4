@@ -8,8 +8,8 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.data.recipes.packs.VanillaRecipeProvider.class)
 public class VanillaRecipeProvider_1910627668Mixin {
         @Inject(at = @At("HEAD"), method = "smithingTrims()Ljava/util/stream/Stream;", cancellable = true)
-    private static void smithingTrims_1699921600(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1699921600L))
+    private static void smithingTrims_2121212206(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2121212206L))
             info.setReturnValue(null);
     }
 

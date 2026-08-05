@@ -8,56 +8,56 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.renderer.item.CuboidItemModelWrapper.Unbaked.class)
 public class Unbaked1880951345Mixin {
         @Inject(at = @At("HEAD"), method = "type()Lcom/mojang/serialization/MapCodec;", cancellable = true)
-    private void type__678162227(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-678162227L))
+    private void type_485700691(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(485700691L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals__1028503692(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1028503692L))
-            info.setReturnValue(false);
+    private void equals_972325077(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(972325077L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString_745491370(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(745491370L))
-            info.setReturnValue("\uBEF2*!gG\uFEBE=,/9Skt2P/0\u57C6{Tk\u9C58.mI#apL]3_?Xj`<M+[aMXsZG\u7037As5rO=\u0246)T|cck\u4405*8X;\u5648umHbdvt\uD0A8e(>A8B\u408Bdf?jTg/1z");
+    private void toString__1643592426(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1643592426L))
+            info.setReturnValue("o&g`]\u160F:;[*L");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_1919214087(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1919214087L))
-            info.setReturnValue(1397913857);
+    private void hashCode__1856663860(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1856663860L))
+            info.setReturnValue(1290781774);
     }
 
     @Inject(at = @At("HEAD"), method = "model()Lnet/minecraft/resources/Identifier;", cancellable = true)
-    private void model__562115208(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-562115208L))
+    private void model_92449697(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(92449697L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "transformation()Ljava/util/Optional;", cancellable = true)
-    private void transformation_2126412767(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2126412767L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "tints()Ljava/util/List;", cancellable = true)
-    private void tints__787679135(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-787679135L))
+    private void transformation__1215478808(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1215478808L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "resolveDependencies(Lnet/minecraft/client/resources/model/ResolvableModel$Resolver;)V", cancellable = true)
-    private void resolveDependencies_1831157415(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1831157415L))
+    private void resolveDependencies__1338325668(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1338325668L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "bake(Lnet/minecraft/client/renderer/item/ItemModel$BakingContext;Lorg/joml/Matrix4fc;)Lnet/minecraft/client/renderer/item/ItemModel;", cancellable = true)
-    private void bake__980421050(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-980421050L))
+    private void bake__1656661537(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1656661537L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "tints()Ljava/util/List;", cancellable = true)
+    private void tints__1842206407(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1842206407L))
             info.setReturnValue(null);
     }
 

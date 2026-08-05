@@ -8,8 +8,8 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.level.levelgen.structure.structures.OceanMonumentPieces.OceanMonumentEntryRoom.class)
 public class OceanMonumentEntryRoom914756206Mixin {
         @Inject(at = @At("HEAD"), method = "postProcess(Lnet/minecraft/world/level/WorldGenLevel;Lnet/minecraft/world/level/StructureManager;Lnet/minecraft/world/level/chunk/ChunkGenerator;Lnet/minecraft/util/RandomSource;Lnet/minecraft/world/level/levelgen/structure/BoundingBox;Lnet/minecraft/world/level/ChunkPos;Lnet/minecraft/core/BlockPos;)V", cancellable = true)
-    private void postProcess__1305666737(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1305666737L))
+    private void postProcess_238397886(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(238397886L))
             info.cancel();
     }
 

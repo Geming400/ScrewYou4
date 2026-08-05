@@ -8,20 +8,20 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.level.levelgen.structure.templatesystem.loader.ResourceManagerTemplateSource.class)
 public class ResourceManagerTemplateSource1852445318Mixin {
         @Inject(at = @At("HEAD"), method = "load(Lnet/minecraft/resources/Identifier;)Ljava/util/Optional;", cancellable = true)
-    private void load_1518553772(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1518553772L))
+    private void load_1212564114(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1212564114L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "list()Ljava/util/stream/Stream;", cancellable = true)
-    private void list_1641739003(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1641739003L))
+    private void list_125316893(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(125316893L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "setResourceManager(Lnet/minecraft/server/packs/resources/ResourceManager;)V", cancellable = true)
-    private void setResourceManager_1951467200(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1951467200L))
+    private void setResourceManager__580550237(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-580550237L))
             info.cancel();
     }
 

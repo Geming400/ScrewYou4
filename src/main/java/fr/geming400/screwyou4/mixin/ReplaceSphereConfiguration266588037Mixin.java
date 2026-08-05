@@ -8,8 +8,8 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.level.levelgen.feature.configurations.ReplaceSphereConfiguration.class)
 public class ReplaceSphereConfiguration266588037Mixin {
         @Inject(at = @At("HEAD"), method = "radius()Lnet/minecraft/util/valueproviders/IntProvider;", cancellable = true)
-    private void radius_2091868430(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2091868430L))
+    private void radius__1400275140(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1400275140L))
             info.setReturnValue(null);
     }
 

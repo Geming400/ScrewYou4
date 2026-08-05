@@ -8,20 +8,20 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.level.block.WeatheringCopperChainBlock.class)
 public class WeatheringCopperChainBlock_1726817129Mixin {
         @Inject(at = @At("HEAD"), method = "getAge()Ljava/lang/Enum;", cancellable = true)
-    private void getAge__334128127(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-334128127L))
+    private void getAge__251132086(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-251132086L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getAge()Lnet/minecraft/world/level/block/WeatheringCopper$WeatherState;", cancellable = true)
-    private void getAge__1980966256(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1980966256L))
+    private void getAge_925579303(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(925579303L))
             info.setReturnValue(net.minecraft.world.level.block.WeatheringCopper.WeatherState.WEATHERED);
     }
 
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
-    private void codec__832296444(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-832296444L))
+    private void codec__1501704914(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1501704914L))
             info.setReturnValue(null);
     }
 

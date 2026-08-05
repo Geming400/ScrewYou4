@@ -8,14 +8,14 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.advancements.triggers.SlideDownBlockTrigger.class)
 public class SlideDownBlockTrigger_941983920Mixin {
         @Inject(at = @At("HEAD"), method = "trigger(Lnet/minecraft/server/level/ServerPlayer;Lnet/minecraft/world/level/block/state/BlockState;)V", cancellable = true)
-    private void trigger__366069023(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-366069023L))
+    private void trigger__1494028135(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1494028135L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/Codec;", cancellable = true)
-    private void codec_550018293(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(550018293L))
+    private void codec__862725621(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-862725621L))
             info.setReturnValue(null);
     }
 

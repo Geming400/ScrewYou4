@@ -8,39 +8,39 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.server.jsonrpc.methods.ServerStateService.SystemMessage.class)
 public class SystemMessage525632465Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals_1911144724(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1911144724L))
-            info.setReturnValue(true);
+    private void equals__382993803(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-382993803L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__609827510(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-609827510L))
-            info.setReturnValue("6G6r@h\uB83BW9r^biv;%v\uD5B3 3;`o7<?(@>O\uA4F3\u35DACN\uC965/.aB!BruT_\"S+v1{N$Lbrk}B1");
+    private void toString_1296055990(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1296055990L))
+            info.setReturnValue("*9'3qvnKtX{@|n(\u0698vVzJ<t/Bs9NB=lw\u3EBCG*K");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_563895207(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(563895207L))
-            info.setReturnValue(2075037992);
+    private void hashCode_1082984556(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1082984556L))
+            info.setReturnValue(-1128182213);
     }
 
     @Inject(at = @At("HEAD"), method = "message()Lnet/minecraft/server/jsonrpc/methods/Message;", cancellable = true)
-    private void message__1020598145(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1020598145L))
+    private void message_606320838(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(606320838L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "receivingPlayers()Ljava/util/Optional;", cancellable = true)
-    private void receivingPlayers_771093887(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(771093887L))
+    private void receivingPlayers__840009167(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-840009167L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "overlay()Z", cancellable = true)
-    private void overlay_563911048(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(563911048L))
-            info.setReturnValue(true);
+    private void overlay_758548280(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(758548280L))
+            info.setReturnValue(false);
     }
 
 

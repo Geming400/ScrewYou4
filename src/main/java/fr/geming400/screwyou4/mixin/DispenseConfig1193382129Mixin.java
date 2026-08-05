@@ -8,50 +8,50 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.item.ProjectileItem.DispenseConfig.class)
 public class DispenseConfig1193382129Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals__1716072908(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1716072908L))
+    private void equals_284755861(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(284755861L))
             info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString_57922154(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(57922154L))
-            info.setReturnValue("\uAAE5l\u26AE\uD336Y8E{'6[#R3\u4E79G@f)]u{!LA\u39A4 ^@p\uA1D9q588\"oPR&Ri\u536E3s#rs]`.R\uD6162)!b\uC58AAuKofjzK(+Q_=\u9002;n^h");
+    private void toString_1963805654(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1963805654L))
+            info.setReturnValue("3kcxA|\u685B\u4318Z1zL=\u738CaA\u78509Kv93/1luik\u575B\u8729R:9@\u1A24]Av|U\uBDD5Vo&(+s=UDA\u9AD069W\u979F1m2(7kc#nCd;-5\uB50B7b\"}r_\u9D0CQ5lO\u4D37OQo*\u1074s9s");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_1231644871(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1231644871L))
-            info.setReturnValue(1701744982);
+    private void hashCode_1750734220(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1750734220L))
+            info.setReturnValue(796341201);
     }
 
     @Inject(at = @At("HEAD"), method = "builder()Lnet/minecraft/world/item/ProjectileItem$DispenseConfig$Builder;", cancellable = true)
-    private static void builder_310045860(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(310045860L))
+    private static void builder_806960831(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(806960831L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "power()F", cancellable = true)
-    private void power_1231641492(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1231641492L))
-            info.setReturnValue(3.147117E8F);
+    private void power_1581297071(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1581297071L))
+            info.setReturnValue(7.941057E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "positionFunction()Lnet/minecraft/world/item/ProjectileItem$PositionFunction;", cancellable = true)
-    private void positionFunction__1342493567(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1342493567L))
+    private void positionFunction_380793058(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(380793058L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "uncertainty()F", cancellable = true)
-    private void uncertainty_1231641492(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1231641492L))
-            info.setReturnValue(3.147117E8F);
+    private void uncertainty_503480358(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(503480358L))
+            info.setReturnValue(7.941057E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "overrideDispenseEvent()Ljava/util/OptionalInt;", cancellable = true)
-    private void overrideDispenseEvent__977189658(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-977189658L))
+    private void overrideDispenseEvent__1034643595(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1034643595L))
             info.setReturnValue(null);
     }
 

@@ -8,9 +8,9 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.level.levelgen.feature.KelpFeature.class)
 public class KelpFeature_1081200118Mixin {
         @Inject(at = @At("HEAD"), method = "place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z", cancellable = true)
-    private void place_1796457853(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1796457853L))
-            info.setReturnValue(true);
+    private void place__1639894826(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1639894826L))
+            info.setReturnValue(false);
     }
 
 

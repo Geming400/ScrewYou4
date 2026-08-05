@@ -8,20 +8,20 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.entity.player.PlayerEquipment.class)
 public class PlayerEquipment1141522047Mixin {
         @Inject(at = @At("HEAD"), method = "get(Lnet/minecraft/world/entity/EquipmentSlot;)Lnet/minecraft/world/item/ItemStack;", cancellable = true)
-    private void get__1048263707(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1048263707L))
+    private void get_226736571(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(226736571L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "isEmpty()Z", cancellable = true)
-    private void isEmpty_1179800630(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1179800630L))
+    private void isEmpty__2094328877(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2094328877L))
             info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "set(Lnet/minecraft/world/entity/EquipmentSlot;Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/world/item/ItemStack;", cancellable = true)
-    private void set_509599392(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(509599392L))
+    private void set_2107452802(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2107452802L))
             info.setReturnValue(null);
     }
 

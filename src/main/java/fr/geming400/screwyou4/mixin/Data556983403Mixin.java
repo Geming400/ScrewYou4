@@ -8,56 +8,56 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.entity.player.ProfilePublicKey.Data.class)
 public class Data556983403Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals_1942495166(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1942495166L))
-            info.setReturnValue(true);
+    private void equals__351643361(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-351643361L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__578476572(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-578476572L))
-            info.setReturnValue("\u3985\u23F08U\"OO{[PS9fp<:b\u6DF9P\u935F;U\"*`m$\u1FDA\u085B)*\uD711e`v\u4714HYD\u15E2F.#baRn45]H");
+    private void toString_1327406928(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1327406928L))
+            info.setReturnValue("A[:<\uC6FB`URX\uD3DA\u7677b\uB758<)Kk^-VHH?]az(\u6DC4Y xu'+\u5721nT:<k\uB666LS* I");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_595246145(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(595246145L))
-            info.setReturnValue(1824517143);
+    private void hashCode_1114335494(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1114335494L))
+            info.setReturnValue(-546760678);
     }
 
     @Inject(at = @At("HEAD"), method = "key()Ljava/security/PublicKey;", cancellable = true)
-    private void key_933752187(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(933752187L))
+    private void key__1253654660(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1253654660L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "write(Lnet/minecraft/network/FriendlyByteBuf;)V", cancellable = true)
-    private void write_203490282(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(203490282L))
+    private void write__872003255(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-872003255L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "keySignature()[B", cancellable = true)
-    private void keySignature_1742818033(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1742818033L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "hasExpired(Ljava/time/Duration;)Z", cancellable = true)
-    private void hasExpired__208349400(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-208349400L))
+    private void hasExpired__1090928035(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1090928035L))
             info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "hasExpired()Z", cancellable = true)
-    private void hasExpired_595261986(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(595261986L))
+    private void hasExpired__1198796329(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1198796329L))
             info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "expiresAt()Ljava/time/Instant;", cancellable = true)
-    private void expiresAt_1654217603(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1654217603L))
+    private void expiresAt__1749434084(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1749434084L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "keySignature()[B", cancellable = true)
+    private void keySignature_222964042(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(222964042L))
             info.setReturnValue(null);
     }
 

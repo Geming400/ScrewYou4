@@ -8,45 +8,45 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.renderer.PostChainConfig.InternalTarget.class)
 public class InternalTarget_664729971Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals_2050242229(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2050242229L))
-            info.setReturnValue(false);
+    private void equals__243896298(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-243896298L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__470730005(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-470730005L))
-            info.setReturnValue("(Z=of8\u5296pAQ\u16BCZO3[w=+");
+    private void toString_1435153495(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1435153495L))
+            info.setReturnValue("AG\">\uB2F5\u5994\u07939,B2pb^>@Agh/oR4OV*\u03DE:l1N1\u30B6w12");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_702992712(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(702992712L))
-            info.setReturnValue(604515904);
+    private void hashCode_1222082061(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1222082061L))
+            info.setReturnValue(1001533690);
     }
 
     @Inject(at = @At("HEAD"), method = "width()Ljava/util/Optional;", cancellable = true)
-    private void width_910191392(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(910191392L))
+    private void width_501425894(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(501425894L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "persistent()Z", cancellable = true)
-    private void persistent_703008553(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(703008553L))
-            info.setReturnValue(false);
+    private void persistent__1139800334(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1139800334L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "height()Ljava/util/Optional;", cancellable = true)
-    private void height_910191392(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(910191392L))
+    private void height_1148303175(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1148303175L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "clearColor()I", cancellable = true)
-    private void clearColor_702992216(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(702992216L))
-            info.setReturnValue(-768268171);
+    private void clearColor_1131060226(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1131060226L))
+            info.setReturnValue(1436482249);
     }
 
 

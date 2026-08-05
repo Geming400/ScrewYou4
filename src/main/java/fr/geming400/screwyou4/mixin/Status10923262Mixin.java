@@ -8,15 +8,15 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.entity.vehicle.boat.AbstractBoat.Status.class)
 public class Status10923262Mixin {
         @Inject(at = @At("HEAD"), method = "values()[Lnet/minecraft/world/entity/vehicle/boat/AbstractBoat$Status;", cancellable = true)
-    private static void values__932721346(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-932721346L))
+    private static void values__1566271008(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1566271008L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/world/entity/vehicle/boat/AbstractBoat$Status;", cancellable = true)
-    private static void valueOf_9842657(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(9842657L))
-            info.setReturnValue(net.minecraft.world.entity.vehicle.boat.AbstractBoat.Status.UNDER_WATER);
+    private static void valueOf_34212793(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(34212793L))
+            info.setReturnValue(net.minecraft.world.entity.vehicle.boat.AbstractBoat.Status.UNDER_FLOWING_WATER);
     }
 
 

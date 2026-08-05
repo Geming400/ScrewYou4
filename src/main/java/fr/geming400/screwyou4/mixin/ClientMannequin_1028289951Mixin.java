@@ -8,50 +8,50 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.entity.ClientMannequin.class)
 public class ClientMannequin_1028289951Mixin {
         @Inject(at = @At("HEAD"), method = "tick()V", cancellable = true)
-    private void tick_1066564689(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1066564689L))
+    private void tick_898606292(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(898606292L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "avatarState()Lnet/minecraft/client/entity/ClientAvatarState;", cancellable = true)
-    private void avatarState_1773460817(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1773460817L))
+    private void avatarState__1686925415(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1686925415L))
             info.setReturnValue(new net.minecraft.client.entity.ClientAvatarState());
     }
 
+    @Inject(at = @At("HEAD"), method = "onSyncedDataUpdated(Lnet/minecraft/network/syncher/EntityDataAccessor;)V", cancellable = true)
+    private void onSyncedDataUpdated_1735024298(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1735024298L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "belowNameDisplay()Lnet/minecraft/network/chat/Component;", cancellable = true)
+    private void belowNameDisplay__2042612361(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2042612361L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "registerOverrides(Lnet/minecraft/client/renderer/PlayerSkinRenderCache;)V", cancellable = true)
-    private static void registerOverrides__1794593650(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1794593650L))
+    private static void registerOverrides__284490158(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-284490158L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "getParrotVariantOnShoulder(Z)Lnet/minecraft/world/entity/animal/parrot/Parrot$Variant;", cancellable = true)
-    private void getParrotVariantOnShoulder__1484989516(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1484989516L))
-            info.setReturnValue(net.minecraft.world.entity.animal.parrot.Parrot.Variant.RED_BLUE);
+    private void getParrotVariantOnShoulder__223433332(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-223433332L))
+            info.setReturnValue(net.minecraft.world.entity.animal.parrot.Parrot.Variant.GRAY);
     }
 
     @Inject(at = @At("HEAD"), method = "showExtraEars()Z", cancellable = true)
-    private void showExtraEars_1066568533(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1066568533L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "belowNameDisplay()Lnet/minecraft/network/chat/Component;", cancellable = true)
-    private void belowNameDisplay__1148619215(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1148619215L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "onSyncedDataUpdated(Lnet/minecraft/network/syncher/EntityDataAccessor;)V", cancellable = true)
-    private void onSyncedDataUpdated__1620927902(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1620927902L))
-            info.cancel();
+    private void showExtraEars__1824567355(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1824567355L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "getSkin()Lnet/minecraft/world/entity/player/PlayerSkin;", cancellable = true)
-    private void getSkin__624030309(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-624030309L))
+    private void getSkin__2146215730(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2146215730L))
             info.setReturnValue(null);
     }
 

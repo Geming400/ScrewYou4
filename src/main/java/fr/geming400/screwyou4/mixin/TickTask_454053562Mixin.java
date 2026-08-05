@@ -8,15 +8,15 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.server.TickTask.class)
 public class TickTask_454053562Mixin {
         @Inject(at = @At("HEAD"), method = "run()V", cancellable = true)
-    private void run_492328300(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(492328300L))
+    private void run_1217165761(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1217165761L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "getTick()I", cancellable = true)
-    private void getTick_492315807(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(492315807L))
-            info.setReturnValue(824320872);
+    private void getTick_314752620(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(314752620L))
+            info.setReturnValue(-1827378624);
     }
 
 

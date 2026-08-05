@@ -8,14 +8,14 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.particle.FallingLeavesParticle.TintedLeavesProvider.class)
 public class TintedLeavesProvider1202359786Mixin {
         @Inject(at = @At("HEAD"), method = "createParticle(Lnet/minecraft/core/particles/ColorParticleOption;Lnet/minecraft/client/multiplayer/ClientLevel;DDDDDDLnet/minecraft/util/RandomSource;)Lnet/minecraft/client/particle/Particle;", cancellable = true)
-    private void createParticle_1311107043(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1311107043L))
+    private void createParticle_317235457(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(317235457L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "createParticle(Lnet/minecraft/core/particles/ParticleOptions;Lnet/minecraft/client/multiplayer/ClientLevel;DDDDDDLnet/minecraft/util/RandomSource;)Lnet/minecraft/client/particle/Particle;", cancellable = true)
-    private void createParticle__1231699063(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1231699063L))
+    private void createParticle__1771193433(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1771193433L))
             info.setReturnValue(null);
     }
 

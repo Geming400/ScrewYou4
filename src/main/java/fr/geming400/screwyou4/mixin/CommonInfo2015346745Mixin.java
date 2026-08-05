@@ -8,26 +8,26 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.item.crafting.Recipe.CommonInfo.class)
 public class CommonInfo2015346745Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals__894108292(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-894108292L))
-            info.setReturnValue(false);
+    private void equals_1106720477(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1106720477L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString_879886770(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(879886770L))
-            info.setReturnValue("t\u13F3\uC931\u700Ac\":J}(@h/4\u9982pm\u2D33D\u6E6C&D?(jxALV\u2BB4WTZA,\u8546;!O6Z]zW5?6LG\uF9ADGMAt\uB03A");
+    private void toString__1509197026(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1509197026L))
+            info.setReturnValue("Wy\u990A.Xb2\uA980PmD6':m\uFFDC;\uA3E2HF3#Jn\u6314P%{d\uC896aXCHx");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_2053609487(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2053609487L))
-            info.setReturnValue(1692229736);
+    private void hashCode__1722268460(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1722268460L))
+            info.setReturnValue(-653423989);
     }
 
     @Inject(at = @At("HEAD"), method = "showNotification()Z", cancellable = true)
-    private void showNotification_2053625328(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2053625328L))
+    private void showNotification_1362052712(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1362052712L))
             info.setReturnValue(false);
     }
 

@@ -8,99 +8,99 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.advancements.AdvancementProgress.class)
 public class AdvancementProgress2026333087Mixin {
         @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString_890872616(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(890872616L))
-            info.setReturnValue("7_RB\u83FCG\u022B<HCY`[\"'9\u5FD3p\u9DC3p]j7\uAEB7G`a\u9EFEY\uC666+\uD471Z)@Rm!TsFs)Gk\u3AEC]rGxf$%1\uABC3yWI@C)MZ7|/^3{\u5AD0%X_[AV#wil");
-    }
-
-    @Inject(at = @At("HEAD"), method = "compareTo(Lnet/minecraft/advancements/AdvancementProgress;)I", cancellable = true)
-    private void compareTo__820616913(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-820616913L))
-            info.setReturnValue(1471644584);
+    private void toString__1498211180(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1498211180L))
+            info.setReturnValue("_S5eDuq]bF?\u9E6D4Xl\u7715!\u9707!CbX\u95A0\uFAB0LHjC%w_\uA4937}JM)jbwKZ'\uFC76uRB'ga(Z\u68C4E'k=tYPUx'{\uA06Fb\\");
     }
 
     @Inject(at = @At("HEAD"), method = "compareTo(Ljava/lang/Object;)I", cancellable = true)
-    private void compareTo__883009823(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-883009823L))
-            info.setReturnValue(1259784802);
+    private void compareTo_134229153(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(134229153L))
+            info.setReturnValue(-917971959);
+    }
+
+    @Inject(at = @At("HEAD"), method = "compareTo(Lnet/minecraft/advancements/AdvancementProgress;)I", cancellable = true)
+    private void compareTo_1496033007(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1496033007L))
+            info.setReturnValue(1242678935);
     }
 
     @Inject(at = @At("HEAD"), method = "update(Lnet/minecraft/advancements/AdvancementRequirements;)V", cancellable = true)
-    private void update__557679751(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-557679751L))
+    private void update_1408789200(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1408789200L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "isDone()Z", cancellable = true)
-    private void isDone_2064611670(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2064611670L))
+    private void isDone_502364426(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(502364426L))
             info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "getPercent()F", cancellable = true)
-    private void getPercent_2064592450(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2064592450L))
-            info.setReturnValue(8.984232E8F);
+    private void getPercent__1814675565(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1814675565L))
+            info.setReturnValue(3.952965E8F);
     }
 
-    @Inject(at = @At("HEAD"), method = "grantProgress(Ljava/lang/String;)Z", cancellable = true)
-    private void grantProgress__1116269216(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1116269216L))
-            info.setReturnValue(true);
+    @Inject(at = @At("HEAD"), method = "serializeToNetwork(Lnet/minecraft/network/FriendlyByteBuf;)V", cancellable = true)
+    private void serializeToNetwork__948606255(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-948606255L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getCriterion(Ljava/lang/String;)Lnet/minecraft/advancements/CriterionProgress;", cancellable = true)
+    private void getCriterion__1697852792(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1697852792L))
+            info.setReturnValue(new net.minecraft.advancements.CriterionProgress());
     }
 
     @Inject(at = @At("HEAD"), method = "getFirstProgressDate()Ljava/time/Instant;", cancellable = true)
-    private void getFirstProgressDate__1171400009(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1171400009L))
+    private void getFirstProgressDate__30083710(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-30083710L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getRemainingCriteria()Ljava/lang/Iterable;", cancellable = true)
-    private void getRemainingCriteria_16583399(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(16583399L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "hasProgress()Z", cancellable = true)
+    private void hasProgress__103533873(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-103533873L))
+            info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "getProgressText()Lnet/minecraft/network/chat/Component;", cancellable = true)
-    private void getProgressText__150576078(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-150576078L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getCompletedCriteria()Ljava/lang/Iterable;", cancellable = true)
-    private void getCompletedCriteria_16583399(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(16583399L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "revokeProgress(Ljava/lang/String;)Z", cancellable = true)
-    private void revokeProgress__1116269216(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1116269216L))
+    @Inject(at = @At("HEAD"), method = "grantProgress(Ljava/lang/String;)Z", cancellable = true)
+    private void grantProgress__1146928169(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1146928169L))
             info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "fromNetwork(Lnet/minecraft/network/FriendlyByteBuf;)Lnet/minecraft/advancements/AdvancementProgress;", cancellable = true)
-    private static void fromNetwork__645096524(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-645096524L))
+    private static void fromNetwork_1733467664(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1733467664L))
             info.setReturnValue(new net.minecraft.advancements.AdvancementProgress());
     }
 
-    @Inject(at = @At("HEAD"), method = "hasProgress()Z", cancellable = true)
-    private void hasProgress_2064611670(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2064611670L))
+    @Inject(at = @At("HEAD"), method = "revokeProgress(Ljava/lang/String;)Z", cancellable = true)
+    private void revokeProgress_312854829(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(312854829L))
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "getCriterion(Ljava/lang/String;)Lnet/minecraft/advancements/CriterionProgress;", cancellable = true)
-    private void getCriterion_1072568349(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1072568349L))
+    @Inject(at = @At("HEAD"), method = "getProgressText()Lnet/minecraft/network/chat/Component;", cancellable = true)
+    private void getProgressText__1397471326(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1397471326L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "serializeToNetwork(Lnet/minecraft/network/FriendlyByteBuf;)V", cancellable = true)
-    private void serializeToNetwork_1672839966(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1672839966L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "getRemainingCriteria()Ljava/lang/Iterable;", cancellable = true)
+    private void getRemainingCriteria__2042126170(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2042126170L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getCompletedCriteria()Ljava/lang/Iterable;", cancellable = true)
+    private void getCompletedCriteria_1414616315(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1414616315L))
+            info.setReturnValue(null);
     }
 
 

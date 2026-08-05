@@ -8,8 +8,8 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.util.datafix.fixes.BitStorageAlignFix.class)
 public class BitStorageAlignFix_333275904Mixin {
         @Inject(at = @At("HEAD"), method = "addPadding(II[J)[J", cancellable = true)
-    private static void addPadding_1956306294(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1956306294L))
+    private static void addPadding_1681978790(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1681978790L))
             info.setReturnValue(null);
     }
 

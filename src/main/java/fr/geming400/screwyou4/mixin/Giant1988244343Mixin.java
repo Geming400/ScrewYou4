@@ -8,15 +8,15 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.entity.monster.Giant.class)
 public class Giant1988244343Mixin {
         @Inject(at = @At("HEAD"), method = "createAttributes()Lnet/minecraft/world/entity/ai/attributes/AttributeSupplier$Builder;", cancellable = true)
-    private static void createAttributes_1288025898(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1288025898L))
-            info.setReturnValue(null);
+    private static void createAttributes__931620963(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-931620963L))
+            info.setReturnValue(new net.minecraft.world.entity.ai.attributes.AttributeSupplier.Builder());
     }
 
     @Inject(at = @At("HEAD"), method = "getWalkTargetValue(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/LevelReader;)F", cancellable = true)
-    private void getWalkTargetValue__2092411982(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2092411982L))
-            info.setReturnValue(7.38275E8F);
+    private void getWalkTargetValue_447258161(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(447258161L))
+            info.setReturnValue(1.554353E8F);
     }
 
 

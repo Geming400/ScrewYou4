@@ -8,50 +8,50 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.advancements.AdvancementRewards.class)
 public class AdvancementRewards2136239448Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals__773215589(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-773215589L))
+    private void equals_1227613180(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1227613180L))
             info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString_1000779473(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1000779473L))
-            info.setReturnValue("\u03FE|p$&M\u704F}}xod0c`GTToqQFnS c]\u2A9BN\uFD34\u239C\u946FNBm`:8\u346AXGi,^S\u891Ba+Uh*:r@s#$Wij} qRS\uCEDF\"\"");
+    private void toString__1388304323(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1388304323L))
+            info.setReturnValue("\u1481K%.@\u7F99M\uD4F3&Y,?z_+Un;1\uB7DECf*9[N1'\u9B4BncH} /EN)lIAU\uF9AA1&PK)6-=\u095B?\u92401[lYj} J8$.\uCDFEMj+\u025D!HJOqW$#0!e");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode__2120465106(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2120465106L))
-            info.setReturnValue(-478337565);
+    private void hashCode__1601375757(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1601375757L))
+            info.setReturnValue(2013972718);
     }
 
     @Inject(at = @At("HEAD"), method = "function()Ljava/util/Optional;", cancellable = true)
-    private void function__1913266426(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1913266426L))
+    private void function__560117026(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-560117026L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "grant(Lnet/minecraft/server/level/ServerPlayer;)V", cancellable = true)
-    private void grant_1366677595(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1366677595L))
+    private void grant__7796617(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-7796617L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "experience()I", cancellable = true)
-    private void experience__2120465602(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2120465602L))
-            info.setReturnValue(-275190146);
-    }
-
     @Inject(at = @At("HEAD"), method = "recipes()Ljava/util/List;", cancellable = true)
-    private void recipes__532391032(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-532391032L))
+    private void recipes__845614163(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-845614163L))
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "experience()I", cancellable = true)
+    private void experience__89703404(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-89703404L))
+            info.setReturnValue(1569639236);
+    }
+
     @Inject(at = @At("HEAD"), method = "loot()Ljava/util/List;", cancellable = true)
-    private void loot__532391032(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-532391032L))
+    private void loot_1706638896(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1706638896L))
             info.setReturnValue(null);
     }
 

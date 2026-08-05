@@ -8,104 +8,104 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.util.SortedArraySet.class)
 public class SortedArraySet1298784556Mixin {
         @Inject(at = @At("HEAD"), method = "remove(Ljava/lang/Object;)Z", cancellable = true)
-    private void remove__1610670977(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1610670977L))
+    private void remove__1750413445(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1750413445L))
             info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "size()I", cancellable = true)
-    private void size_1337046802(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1337046802L))
-            info.setReturnValue(-1638753849);
+    private void size_1742516145(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1742516145L))
+            info.setReturnValue(942875075);
     }
 
     @Inject(at = @At("HEAD"), method = "get(Ljava/lang/Object;)Ljava/lang/Object;", cancellable = true)
-    private void get_1310862507(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1310862507L))
+    private void get_787951105(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(787951105L))
             info.setReturnValue(new java.lang.Object());
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals__1610670977(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1610670977L))
+    private void equals_390157792(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(390157792L))
             info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "clear()V", cancellable = true)
-    private void clear_1337059295(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1337059295L))
+    private void clear_512956850(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(512956850L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "add(Ljava/lang/Object;)Z", cancellable = true)
-    private void add__1610670977(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1610670977L))
+    private void add_1725005502(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1725005502L))
             info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toArray()[Ljava/lang/Object;", cancellable = true)
-    private void toArray_1348503232(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1348503232L))
+    private void toArray_960457826(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(960457826L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "toArray([Ljava/lang/Object;)[Ljava/lang/Object;", cancellable = true)
-    private void toArray_656071527(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(656071527L))
+    private void toArray_2125037189(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2125037189L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "iterator()Ljava/util/Iterator;", cancellable = true)
-    private void iterator__852831476(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-852831476L))
+    private void iterator__1362103942(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1362103942L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "contains(Ljava/lang/Object;)Z", cancellable = true)
-    private void contains__1610670977(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1610670977L))
+    private void contains_1530737536(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1530737536L))
             info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "last()Ljava/lang/Object;", cancellable = true)
-    private void last__1136990521(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1136990521L))
+    private void last_1835255005(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1835255005L))
             info.setReturnValue(new java.lang.Object());
     }
 
     @Inject(at = @At("HEAD"), method = "first()Ljava/lang/Object;", cancellable = true)
-    private void first__1136990521(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1136990521L))
+    private void first_89757047(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(89757047L))
             info.setReturnValue(new java.lang.Object());
     }
 
     @Inject(at = @At("HEAD"), method = "create(Ljava/util/Comparator;)Lnet/minecraft/util/SortedArraySet;", cancellable = true)
-    private static void create_266518850(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(266518850L))
+    private static void create__1109982778(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1109982778L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "create(I)Lnet/minecraft/util/SortedArraySet;", cancellable = true)
-    private static void create__32719550(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-32719550L))
+    private static void create_754758206(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(754758206L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "create(Ljava/util/Comparator;I)Lnet/minecraft/util/SortedArraySet;", cancellable = true)
-    private static void create_1524235817(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1524235817L))
+    private static void create_1802358309(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1802358309L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "create()Lnet/minecraft/util/SortedArraySet;", cancellable = true)
-    private static void create_2017409801(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2017409801L))
+    private static void create_1765717645(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1765717645L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "addOrGet(Ljava/lang/Object;)Ljava/lang/Object;", cancellable = true)
-    private void addOrGet_1310862507(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1310862507L))
+    private void addOrGet_1205723389(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1205723389L))
             info.setReturnValue(new java.lang.Object());
     }
 

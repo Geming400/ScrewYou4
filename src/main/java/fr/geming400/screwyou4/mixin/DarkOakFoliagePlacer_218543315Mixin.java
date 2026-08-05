@@ -8,9 +8,9 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.level.levelgen.feature.foliageplacers.DarkOakFoliagePlacer.class)
 public class DarkOakFoliagePlacer_218543315Mixin {
         @Inject(at = @At("HEAD"), method = "foliageHeight(Lnet/minecraft/util/RandomSource;ILnet/minecraft/world/level/levelgen/feature/configurations/TreeConfiguration;)I", cancellable = true)
-    private void foliageHeight_860775600(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(860775600L))
-            info.setReturnValue(107387008);
+    private void foliageHeight__249226640(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-249226640L))
+            info.setReturnValue(-254878130);
     }
 
 

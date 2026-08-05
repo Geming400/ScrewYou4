@@ -8,20 +8,20 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.data.models.blockstates.PropertyDispatch.C3.class)
 public class C3646477951Mixin {
         @Inject(at = @At("HEAD"), method = "generate(Lcom/mojang/datafixers/util/Function3;)Lnet/minecraft/client/data/models/blockstates/PropertyDispatch;", cancellable = true)
-    private void generate_2134149376(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2134149376L))
+    private void generate__964525269(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-964525269L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "select(Ljava/lang/Comparable;Ljava/lang/Comparable;Ljava/lang/Comparable;Ljava/lang/Object;)Lnet/minecraft/client/data/models/blockstates/PropertyDispatch$C3;", cancellable = true)
-    private void select__84308359(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-84308359L))
+    private void select_726696053(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(726696053L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getDefinedProperties()Ljava/util/List;", cancellable = true)
-    private void getDefinedProperties__2022152529(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2022152529L))
+    private void getDefinedProperties_575721237(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(575721237L))
             info.setReturnValue(null);
     }
 

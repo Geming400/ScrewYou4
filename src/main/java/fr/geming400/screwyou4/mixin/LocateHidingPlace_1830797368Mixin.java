@@ -8,8 +8,8 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.entity.ai.behavior.LocateHidingPlace.class)
 public class LocateHidingPlace_1830797368Mixin {
         @Inject(at = @At("HEAD"), method = "create(IFI)Lnet/minecraft/world/entity/ai/behavior/OneShot;", cancellable = true)
-    private static void create__1515162926(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1515162926L))
+    private static void create__303012266(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-303012266L))
             info.setReturnValue(null);
     }
 

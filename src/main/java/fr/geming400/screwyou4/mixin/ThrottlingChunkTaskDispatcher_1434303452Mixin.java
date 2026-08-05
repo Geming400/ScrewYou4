@@ -8,9 +8,9 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.server.level.ThrottlingChunkTaskDispatcher.class)
 public class ThrottlingChunkTaskDispatcher_1434303452Mixin {
         @Inject(at = @At("HEAD"), method = "getDebugStatus()Ljava/lang/String;", cancellable = true)
-    private void getDebugStatus_298842980(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(298842980L))
-            info.setReturnValue("9y03iS!\u381D/a\u9528\u6EA3AJMB.FhoSx:1jsy}L3K\u25CCc\"s\u9F8E!30w29\u2FB3*6\uA53EEO.rcpg`\uC142bN");
+    private void getDebugStatus_1533402387(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1533402387L))
+            info.setReturnValue("jfW(");
     }
 
 

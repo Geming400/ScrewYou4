@@ -8,32 +8,32 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.animation.AnimationChannel.class)
 public class AnimationChannel2005109111Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals__904345926(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-904345926L))
+    private void equals_1096482843(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1096482843L))
             info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "target()Lnet/minecraft/client/animation/AnimationChannel$Target;", cancellable = true)
-    private void target__1695758710(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1695758710L))
+    private void target_1843634331(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1843634331L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString_869649136(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(869649136L))
-            info.setReturnValue("m]%qo94dF7qL\u9C6E[");
+    private void toString__1519434660(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1519434660L))
+            info.setReturnValue("_6a@B3gPoZcC\uAD40lU:rC^_:\"_`oP/6j}R\u0459,Dr[Xbfn|))");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_2043371853(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2043371853L))
-            info.setReturnValue(666604519);
+    private void hashCode__1732506094(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1732506094L))
+            info.setReturnValue(-1779729639);
     }
 
     @Inject(at = @At("HEAD"), method = "keyframes()[Lnet/minecraft/client/animation/Keyframe;", cancellable = true)
-    private void keyframes_1963519033(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1963519033L))
+    private void keyframes_315603774(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(315603774L))
             info.setReturnValue(null);
     }
 

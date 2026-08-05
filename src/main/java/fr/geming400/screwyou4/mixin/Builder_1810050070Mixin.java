@@ -8,26 +8,26 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.level.chunk.status.ChunkStep.Builder.class)
 public class Builder_1810050070Mixin {
         @Inject(at = @At("HEAD"), method = "build()Lnet/minecraft/world/level/chunk/status/ChunkStep;", cancellable = true)
-    private void build__1940572375(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1940572375L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "blockStateWriteRadius(I)Lnet/minecraft/world/level/chunk/status/ChunkStep$Builder;", cancellable = true)
-    private void blockStateWriteRadius__1451221095(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1451221095L))
+    private void build_1809653527(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1809653527L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "setTask(Lnet/minecraft/world/level/chunk/status/ChunkStatusTask;)Lnet/minecraft/world/level/chunk/status/ChunkStep$Builder;", cancellable = true)
-    private void setTask_547739080(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(547739080L))
+    private void setTask__847964273(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-847964273L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "blockStateWriteRadius(I)Lnet/minecraft/world/level/chunk/status/ChunkStep$Builder;", cancellable = true)
+    private void blockStateWriteRadius__1257893044(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1257893044L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "addRequirement(Lnet/minecraft/world/level/chunk/status/ChunkStatus;I)Lnet/minecraft/world/level/chunk/status/ChunkStep$Builder;", cancellable = true)
-    private void addRequirement_2066329288(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2066329288L))
+    private void addRequirement__918455642(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-918455642L))
             info.setReturnValue(null);
     }
 

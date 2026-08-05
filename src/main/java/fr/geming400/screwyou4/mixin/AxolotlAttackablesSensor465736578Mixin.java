@@ -8,8 +8,8 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.entity.ai.sensing.AxolotlAttackablesSensor.class)
 public class AxolotlAttackablesSensor465736578Mixin {
         @Inject(at = @At("HEAD"), method = "requires()Ljava/util/Set;", cancellable = true)
-    private void requires__1363298908(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1363298908L))
+    private void requires__779198666(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-779198666L))
             info.setReturnValue(null);
     }
 

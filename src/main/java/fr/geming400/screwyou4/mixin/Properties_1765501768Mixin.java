@@ -8,57 +8,57 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.level.levelgen.structure.structures.RuinedPortalPiece.Properties.class)
 public class Properties_1765501768Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals__1143953270(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1143953270L))
+    private void equals_856875499(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(856875499L))
             info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString_630041792(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(630041792L))
-            info.setReturnValue("1S\uC6DA0z$@eFG&\u9E62Cggl\uC906:\uFEEE\uD532='?m(\u266B#.\u5D39:JkML\"Sef/M");
+    private void toString__1759042004(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1759042004L))
+            info.setReturnValue("ZWg\uC9E7_c\u851BR9zRLhaH!:QgQ^\uD00D59");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_1803764509(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1803764509L))
-            info.setReturnValue(-2077976804);
+    private void hashCode__1972113438(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1972113438L))
+            info.setReturnValue(694342001);
     }
 
     @Inject(at = @At("HEAD"), method = "overgrown()Z", cancellable = true)
-    private void overgrown_1803780350(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1803780350L))
+    private void overgrown_1331940087(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1331940087L))
             info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "airPocket()Z", cancellable = true)
-    private void airPocket_1803780350(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1803780350L))
+    private void airPocket_454186366(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(454186366L))
             info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "mossiness()F", cancellable = true)
-    private void mossiness_1803761130(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1803761130L))
-            info.setReturnValue(2.873356E8F);
-    }
-
-    @Inject(at = @At("HEAD"), method = "cold()Z", cancellable = true)
-    private void cold_1803780350(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1803780350L))
-            info.setReturnValue(false);
+    private void mossiness__1001181012(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1001181012L))
+            info.setReturnValue(6.556276E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "vines()Z", cancellable = true)
-    private void vines_1803780350(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1803780350L))
-            info.setReturnValue(false);
+    private void vines_457385109(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(457385109L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "replaceWithBlackstone()Z", cancellable = true)
-    private void replaceWithBlackstone_1803780350(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1803780350L))
+    private void replaceWithBlackstone_1234374654(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1234374654L))
             info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "cold()Z", cancellable = true)
+    private void cold__933068646(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-933068646L))
+            info.setReturnValue(true);
     }
 
 

@@ -8,20 +8,20 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.server.RegistryLayer.class)
 public class RegistryLayer_1719420650Mixin {
         @Inject(at = @At("HEAD"), method = "values()[Lnet/minecraft/server/RegistryLayer;", cancellable = true)
-    private static void values_2142917772(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2142917772L))
+    private static void values_58353066(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(58353066L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/server/RegistryLayer;", cancellable = true)
-    private static void valueOf_712013961(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(712013961L))
+    private static void valueOf_2022488497(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2022488497L))
             info.setReturnValue(net.minecraft.server.RegistryLayer.RELOADABLE);
     }
 
     @Inject(at = @At("HEAD"), method = "createRegistryAccess()Lnet/minecraft/core/LayeredRegistryAccess;", cancellable = true)
-    private static void createRegistryAccess__142599334(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-142599334L))
+    private static void createRegistryAccess__1765972809(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1765972809L))
             info.setReturnValue(null);
     }
 

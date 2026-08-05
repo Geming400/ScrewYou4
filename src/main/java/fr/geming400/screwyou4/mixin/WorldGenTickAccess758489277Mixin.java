@@ -8,27 +8,27 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.ticks.WorldGenTickAccess.class)
 public class WorldGenTickAccess758489277Mixin {
         @Inject(at = @At("HEAD"), method = "count()I", cancellable = true)
-    private void count_796751523(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(796751523L))
-            info.setReturnValue(623733499);
+    private void count__329681164(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-329681164L))
+            info.setReturnValue(-758762484);
     }
 
     @Inject(at = @At("HEAD"), method = "schedule(Lnet/minecraft/world/ticks/ScheduledTick;)V", cancellable = true)
-    private void schedule__1673056121(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1673056121L))
+    private void schedule_621466334(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(621466334L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "hasScheduledTick(Lnet/minecraft/core/BlockPos;Ljava/lang/Object;)Z", cancellable = true)
-    private void hasScheduledTick__1257523996(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1257523996L))
+    @Inject(at = @At("HEAD"), method = "willTickThisTick(Lnet/minecraft/core/BlockPos;Ljava/lang/Object;)Z", cancellable = true)
+    private void willTickThisTick__1278584082(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1278584082L))
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "willTickThisTick(Lnet/minecraft/core/BlockPos;Ljava/lang/Object;)Z", cancellable = true)
-    private void willTickThisTick__1257523996(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1257523996L))
-            info.setReturnValue(true);
+    @Inject(at = @At("HEAD"), method = "hasScheduledTick(Lnet/minecraft/core/BlockPos;Ljava/lang/Object;)Z", cancellable = true)
+    private void hasScheduledTick_541027412(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(541027412L))
+            info.setReturnValue(false);
     }
 
 

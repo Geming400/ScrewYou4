@@ -8,27 +8,27 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.CloudStatus.class)
 public class CloudStatus173456521Mixin {
         @Inject(at = @At("HEAD"), method = "values()[Lnet/minecraft/client/CloudStatus;", cancellable = true)
-    private static void values_18127313(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(18127313L))
+    private static void values__649962897(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-649962897L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/client/CloudStatus;", cancellable = true)
-    private static void valueOf_101554446(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(101554446L))
-            info.setReturnValue(net.minecraft.client.CloudStatus.FANCY);
+    private static void valueOf__317193162(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-317193162L))
+            info.setReturnValue(net.minecraft.client.CloudStatus.OFF);
     }
 
     @Inject(at = @At("HEAD"), method = "caption()Lnet/minecraft/network/chat/Component;", cancellable = true)
-    private void caption__2003452644(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2003452644L))
+    private void caption_582981506(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(582981506L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
-    private void getSerializedName__962003950(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-962003950L))
-            info.setReturnValue("X\u7602@qH!H1K|h>");
+    private void getSerializedName_261665143(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(261665143L))
+            info.setReturnValue("i]g>xw8R8\u395CbQs");
     }
 
 

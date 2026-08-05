@@ -8,33 +8,33 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.core.component.predicates.AnyValue.class)
 public class AnyValue_1680492209Mixin {
         @Inject(at = @At("HEAD"), method = "type()Lnet/minecraft/core/component/DataComponentType;", cancellable = true)
-    private void type__1346156225(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1346156225L))
+    private void type__378761351(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-378761351L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals__1228962829(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1228962829L))
+    private void equals_771865940(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(771865940L))
             info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString_545032233(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(545032233L))
-            info.setReturnValue("lEU5");
+    private void toString__1844051563(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1844051563L))
+            info.setReturnValue("%t\u1CA0/wBl8dl2n\u5C93 }||,p_Ui@8= (j/MPu\u46E5#|JCX!R<@k 0o#UTcXeZps:");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_1718754950(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1718754950L))
-            info.setReturnValue(323177639);
+    private void hashCode__2057122997(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2057122997L))
+            info.setReturnValue(-1763250107);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/core/component/DataComponentGetter;)Z", cancellable = true)
-    private void matches__780823866(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-780823866L))
-            info.setReturnValue(false);
+    private void matches_1707306035(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1707306035L))
+            info.setReturnValue(true);
     }
 
 

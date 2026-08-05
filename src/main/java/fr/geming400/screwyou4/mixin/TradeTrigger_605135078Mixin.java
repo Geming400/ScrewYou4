@@ -8,14 +8,14 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.advancements.triggers.TradeTrigger.class)
 public class TradeTrigger_605135078Mixin {
         @Inject(at = @At("HEAD"), method = "trigger(Lnet/minecraft/server/level/ServerPlayer;Lnet/minecraft/world/entity/npc/villager/AbstractVillager;Lnet/minecraft/world/item/ItemStack;)V", cancellable = true)
-    private void trigger__965348908(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-965348908L))
+    private void trigger_977990540(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(977990540L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/Codec;", cancellable = true)
-    private void codec_213169451(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(213169451L))
+    private void codec__1199574463(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1199574463L))
             info.setReturnValue(null);
     }
 

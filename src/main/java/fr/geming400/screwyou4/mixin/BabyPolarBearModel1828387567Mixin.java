@@ -8,8 +8,8 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.model.animal.polarbear.BabyPolarBearModel.class)
 public class BabyPolarBearModel1828387567Mixin {
         @Inject(at = @At("HEAD"), method = "createBodyLayer()Lnet/minecraft/client/model/geom/builders/LayerDefinition;", cancellable = true)
-    private static void createBodyLayer_1114255403(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1114255403L))
+    private static void createBodyLayer__75267042(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-75267042L))
             info.setReturnValue(null);
     }
 

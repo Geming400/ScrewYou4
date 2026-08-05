@@ -8,56 +8,56 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.network.protocol.game.ClientboundSoundEntityPacket.class)
 public class ClientboundSoundEntityPacket770209577Mixin {
         @Inject(at = @At("HEAD"), method = "type()Lnet/minecraft/network/protocol/PacketType;", cancellable = true)
-    private void type__908815511(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-908815511L))
+    private void type_926077167(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(926077167L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getId()I", cancellable = true)
-    private void getId_808471823(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(808471823L))
-            info.setReturnValue(1132433963);
+    private void getId__888114018(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-888114018L))
+            info.setReturnValue(-135587920);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/PacketListener;)V", cancellable = true)
-    private void handle_1448278490(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1448278490L))
+    private void handle_474497714(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(474497714L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/protocol/game/ClientGamePacketListener;)V", cancellable = true)
-    private void handle_967717111(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(967717111L))
+    private void handle__821268017(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-821268017L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "getSeed()J", cancellable = true)
-    private void getSeed_808472784(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(808472784L))
-            info.setReturnValue(-9024549123372795748L);
+    private void getSeed_1336693321(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1336693321L))
+            info.setReturnValue(-8399138997258147491L);
     }
 
     @Inject(at = @At("HEAD"), method = "getSource()Lnet/minecraft/sounds/SoundSource;", cancellable = true)
-    private void getSource__1522838396(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1522838396L))
-            info.setReturnValue(net.minecraft.sounds.SoundSource.WEATHER);
+    private void getSource__1091368235(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1091368235L))
+            info.setReturnValue(net.minecraft.sounds.SoundSource.BLOCKS);
     }
 
     @Inject(at = @At("HEAD"), method = "getPitch()F", cancellable = true)
-    private void getPitch_808468940(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(808468940L))
-            info.setReturnValue(5.71233E7F);
+    private void getPitch_120405634(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(120405634L))
+            info.setReturnValue(5.312095E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "getVolume()F", cancellable = true)
-    private void getVolume_808468940(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(808468940L))
-            info.setReturnValue(5.71233E7F);
+    private void getVolume__797834820(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-797834820L))
+            info.setReturnValue(5.312095E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "getSound()Lnet/minecraft/core/Holder;", cancellable = true)
-    private void getSound__1975881947(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1975881947L))
+    private void getSound_885806252(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(885806252L))
             info.setReturnValue(null);
     }
 

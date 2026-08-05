@@ -8,32 +8,32 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.advancements.predicates.SlotsPredicate.class)
 public class SlotsPredicate_1443378314Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals__1466076724(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1466076724L))
-            info.setReturnValue(true);
+    private void equals_534752045(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(534752045L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString_307918338(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(307918338L))
-            info.setReturnValue("(%AQw03tA}ppg\uBC24#Z3N}eu(\u7AD8u\u954D\u0C42IX=L<dR>ursGi!RT:\u55B9wfTVXi\u16D5W4a\u829DC\uC788<>:\u39A2i`0\u210A.XE\u50B6\u9B6D*L ,0,4:8\uC76B?*,Z\uC4F1v+ISm\u5890ty");
+    private void toString__2081165458(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2081165458L))
+            info.setReturnValue("([\uB330F*ew\u152C\uCC37\u1E7ETD>63.\u777BA\"3p");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_1481641055(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1481641055L))
-            info.setReturnValue(-802475436);
+    private void hashCode_2000730404(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2000730404L))
+            info.setReturnValue(-162202904);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/world/entity/SlotProvider;)Z", cancellable = true)
-    private void matches_1734937773(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1734937773L))
+    private void matches_1523938464(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1523938464L))
             info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "slots()Ljava/util/Map;", cancellable = true)
-    private void slots__561245327(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-561245327L))
+    private void slots_1999265564(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1999265564L))
             info.setReturnValue(null);
     }
 

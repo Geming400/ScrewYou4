@@ -8,38 +8,38 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.renderer.block.dispatch.BlockStateModelDispatcher.class)
 public class BlockStateModelDispatcher_236403826Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals_1621916084(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1621916084L))
+    private void equals__672222443(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-672222443L))
             info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__899056150(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-899056150L))
-            info.setReturnValue("_ij^\uB72DcNJ\u72C1vq[N*Ybq B&rn\uAE33?\u08D5g=q\u7276ZSQ> )I('rp");
+    private void toString_1006827350(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1006827350L))
+            info.setReturnValue("\u41E2[kYvPKRD\uC647nrn\u11FAI%42U\uC75Dw\u7A9D\u4CEEF$j`/pgVlep");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_274666567(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(274666567L))
-            info.setReturnValue(-1424454657);
+    private void hashCode_793755916(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(793755916L))
+            info.setReturnValue(1625686052);
     }
 
     @Inject(at = @At("HEAD"), method = "instantiate(Lnet/minecraft/world/level/block/state/StateDefinition;Ljava/util/function/Supplier;)Ljava/util/Map;", cancellable = true)
-    private void instantiate_1282734174(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1282734174L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "simpleModels()Ljava/util/Optional;", cancellable = true)
-    private void simpleModels_481865247(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(481865247L))
+    private void instantiate__1495027148(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1495027148L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "multiPart()Ljava/util/Optional;", cancellable = true)
-    private void multiPart_481865247(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(481865247L))
+    private void multiPart__1282706709(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1282706709L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "simpleModels()Ljava/util/Optional;", cancellable = true)
+    private void simpleModels_1119368411(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1119368411L))
             info.setReturnValue(null);
     }
 

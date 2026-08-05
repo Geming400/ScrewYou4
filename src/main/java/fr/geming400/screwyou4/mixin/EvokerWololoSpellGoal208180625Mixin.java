@@ -8,32 +8,32 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.entity.monster.illager.Evoker.EvokerWololoSpellGoal.class)
 public class EvokerWololoSpellGoal208180625Mixin {
         @Inject(at = @At("HEAD"), method = "start()V", cancellable = true)
-    private void start_246584324(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(246584324L))
+    private void start__1417855774(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1417855774L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "stop()V", cancellable = true)
-    private void stop_246455364(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(246455364L))
+    private void stop_1785283970(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1785283970L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "canUse()Z", cancellable = true)
-    private void canUse_246459208(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(246459208L))
-            info.setReturnValue(true);
+    private void canUse__706259439(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-706259439L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "tick()V", cancellable = true)
-    private void tick_246584324(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(246584324L))
+    private void tick_78625927(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(78625927L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "canContinueToUse()Z", cancellable = true)
-    private void canContinueToUse_246459208(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(246459208L))
+    private void canContinueToUse__481454669(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-481454669L))
             info.setReturnValue(true);
     }
 

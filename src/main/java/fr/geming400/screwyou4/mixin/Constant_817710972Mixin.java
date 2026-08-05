@@ -8,39 +8,39 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.color.item.Constant.class)
 public class Constant_817710972Mixin {
         @Inject(at = @At("HEAD"), method = "type()Lcom/mojang/serialization/MapCodec;", cancellable = true)
-    private void type__1741402601(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1741402601L))
+    private void type__577539683(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-577539683L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "value()I", cancellable = true)
-    private void value_855973217(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(855973217L))
-            info.setReturnValue(-2123380696);
+    private void value__1486959984(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1486959984L))
+            info.setReturnValue(-971311044);
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals__2091744066(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2091744066L))
+    private void equals__90915297(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-90915297L))
             info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__317749004(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-317749004L))
-            info.setReturnValue("I #D*mZQ5*\u85CFu\u41D8mJOrbGj)u;ofJ<o`9;j4tH?W\u6C8Adk`h72hs}>V}fs]_k");
+    private void toString_1588134496(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1588134496L))
+            info.setReturnValue("N_2\uB75F\uCE3C\u9011G^pY;u\u4937\u83182%\"tG>");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_855973713(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(855973713L))
-            info.setReturnValue(1993063111);
+    private void hashCode_1375063062(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1375063062L))
+            info.setReturnValue(-1102540547);
     }
 
     @Inject(at = @At("HEAD"), method = "calculate(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/client/multiplayer/ClientLevel;Lnet/minecraft/world/entity/LivingEntity;)I", cancellable = true)
-    private void calculate_161397745(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(161397745L))
-            info.setReturnValue(-382043000);
+    private void calculate__402694313(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-402694313L))
+            info.setReturnValue(1319913215);
     }
 
 

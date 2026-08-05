@@ -8,27 +8,27 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.resources.model.sprite.TextureSlots.Data.class)
 public class Data_764964034Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals__2144491004(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2144491004L))
-            info.setReturnValue(false);
+    private void equals__143662235(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-143662235L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__370495942(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-370495942L))
-            info.setReturnValue("F.]\u5881{4sH2H`n(j&5^6!WCXH_O>q\uBAD1.a.VCBZ1?uE4");
+    private void toString_1535387558(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1535387558L))
+            info.setReturnValue("2Gve\uA59C}\uF90AF\u5731");
     }
 
     @Inject(at = @At("HEAD"), method = "values()Ljava/util/Map;", cancellable = true)
-    private void values__1239659607(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1239659607L))
+    private void values__284293305(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-284293305L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_803226775(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(803226775L))
-            info.setReturnValue(-496392898);
+    private void hashCode_1322316124(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1322316124L))
+            info.setReturnValue(-1944188237);
     }
 
 

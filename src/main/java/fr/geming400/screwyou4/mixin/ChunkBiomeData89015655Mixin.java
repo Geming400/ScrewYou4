@@ -8,50 +8,50 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.network.protocol.game.ClientboundChunksBiomesPacket.ChunkBiomeData.class)
 public class ChunkBiomeData89015655Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals_1474527914(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1474527914L))
-            info.setReturnValue(true);
+    private void equals__819610613(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-819610613L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__1046444320(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1046444320L))
-            info.setReturnValue("`QQQ[tQs\uAC91Ll|r>a3It\uCAE1d2bpJjpJ!yfIe'q\u92C8U\u5462;{p6\u6A76pVY&tqzK=\u7C240ZnS\uCBF2M%/YchK#tq\uC08A3_\u00F9j]Jz'ABCO[tbAf");
+    private void toString_859439180(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(859439180L))
+            info.setReturnValue("[9N8-wm\u5B23`>&iV\u2733G8i&2\u713D=/8`pss!:#Z\u2842+");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_127278397(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(127278397L))
-            info.setReturnValue(2119373958);
+    private void hashCode_646367746(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(646367746L))
+            info.setReturnValue(1888016868);
     }
 
     @Inject(at = @At("HEAD"), method = "buffer()[B", cancellable = true)
-    private void buffer_1274850285(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1274850285L))
+    private void buffer_1030230061(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1030230061L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "write(Lnet/minecraft/network/FriendlyByteBuf;)V", cancellable = true)
-    private void write__264477466(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-264477466L))
+    private void write__1339971003(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1339971003L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "pos()Lnet/minecraft/world/level/ChunkPos;", cancellable = true)
-    private void pos__800083182(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-800083182L))
+    private void pos_2110095718(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2110095718L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "extractChunkData(Lnet/minecraft/network/FriendlyByteBuf;Lnet/minecraft/world/level/chunk/LevelChunk;)V", cancellable = true)
-    private static void extractChunkData_101490374(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(101490374L))
+    private static void extractChunkData_1422424316(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1422424316L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "getReadBuffer()Lnet/minecraft/network/FriendlyByteBuf;", cancellable = true)
-    private void getReadBuffer_1000058656(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1000058656L))
+    private void getReadBuffer__91882956(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-91882956L))
             info.setReturnValue(null);
     }
 

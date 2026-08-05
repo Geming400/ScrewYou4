@@ -8,33 +8,33 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.network.chat.LastSeenMessagesTracker.class)
 public class LastSeenMessagesTracker990401453Mixin {
         @Inject(at = @At("HEAD"), method = "offset()I", cancellable = true)
-    private void offset_1028663699(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1028663699L))
-            info.setReturnValue(454651662);
-    }
-
-    @Inject(at = @At("HEAD"), method = "addPending(Lnet/minecraft/network/chat/MessageSignature;Z)Z", cancellable = true)
-    private void addPending__1937262518(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1937262518L))
-            info.setReturnValue(true);
+    private void offset__2081445664(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2081445664L))
+            info.setReturnValue(847666539);
     }
 
     @Inject(at = @At("HEAD"), method = "ignorePending(Lnet/minecraft/network/chat/MessageSignature;)V", cancellable = true)
-    private void ignorePending_1171664900(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1171664900L))
+    private void ignorePending__1874100183(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1874100183L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getAndClearOffset()I", cancellable = true)
-    private void getAndClearOffset_1028663699(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1028663699L))
-            info.setReturnValue(454651662);
+    @Inject(at = @At("HEAD"), method = "generateAndApplyUpdate()Lnet/minecraft/network/chat/LastSeenMessagesTracker$Update;", cancellable = true)
+    private void generateAndApplyUpdate_1866456392(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1866456392L))
+            info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "generateAndApplyUpdate()Lnet/minecraft/network/chat/LastSeenMessagesTracker$Update;", cancellable = true)
-    private void generateAndApplyUpdate_1854641213(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1854641213L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "getAndClearOffset()I", cancellable = true)
+    private void getAndClearOffset_18982164(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(18982164L))
+            info.setReturnValue(203223300);
+    }
+
+    @Inject(at = @At("HEAD"), method = "addPending(Lnet/minecraft/network/chat/MessageSignature;Z)Z", cancellable = true)
+    private void addPending_1912993492(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1912993492L))
+            info.setReturnValue(true);
     }
 
 

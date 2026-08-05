@@ -8,32 +8,32 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.level.block.InfestedBlock.class)
 public class InfestedBlock1837967931Mixin {
         @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
-    private void codec__721145641(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-721145641L))
+    private void codec__1390554111(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1390554111L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "isCompatibleHostBlock(Lnet/minecraft/world/level/block/state/BlockState;)Z", cancellable = true)
-    private static void isCompatibleHostBlock_1692679193(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1692679193L))
+    private static void isCompatibleHostBlock_1884579442(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1884579442L))
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "infestedStateByHost(Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
-    private static void infestedStateByHost_1500418002(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1500418002L))
+    @Inject(at = @At("HEAD"), method = "getHostBlock()Lnet/minecraft/world/level/block/Block;", cancellable = true)
+    private void getHostBlock__634508543(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-634508543L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getHostBlock()Lnet/minecraft/world/level/block/Block;", cancellable = true)
-    private void getHostBlock_1080702832(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1080702832L))
+    @Inject(at = @At("HEAD"), method = "infestedStateByHost(Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
+    private static void infestedStateByHost__1660907938(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1660907938L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "hostStateByInfested(Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
-    private void hostStateByInfested_1500417754(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1500417754L))
+    private void hostStateByInfested_1503386206(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1503386206L))
             info.setReturnValue(null);
     }
 

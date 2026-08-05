@@ -8,14 +8,14 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.network.UnconfiguredPipelineHandler.Inbound.class)
 public class Inbound_1957379264Mixin {
         @Inject(at = @At("HEAD"), method = "write(Lio/netty/channel/ChannelHandlerContext;Ljava/lang/Object;Lio/netty/channel/ChannelPromise;)V", cancellable = true)
-    private void write__2133205366(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-2133205366L))
+    private void write__1025605015(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1025605015L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "channelRead(Lio/netty/channel/ChannelHandlerContext;Ljava/lang/Object;)V", cancellable = true)
-    private void channelRead_629835159(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(629835159L))
+    private void channelRead__145739458(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-145739458L))
             info.cancel();
     }
 

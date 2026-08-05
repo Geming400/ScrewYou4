@@ -8,8 +8,8 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.util.profiling.jfr.parse.JfrStatsParser.class)
 public class JfrStatsParser_570043836Mixin {
         @Inject(at = @At("HEAD"), method = "parse(Ljava/nio/file/Path;)Lnet/minecraft/util/profiling/jfr/parse/JfrStatsResult;", cancellable = true)
-    private static void parse_438183865(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(438183865L))
+    private static void parse_1112475814(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1112475814L))
             info.setReturnValue(null);
     }
 

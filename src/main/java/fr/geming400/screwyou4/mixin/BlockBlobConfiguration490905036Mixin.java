@@ -8,32 +8,32 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.level.levelgen.feature.configurations.BlockBlobConfiguration.class)
 public class BlockBlobConfiguration490905036Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals_1876417295(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1876417295L))
+    private void equals__417721232(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-417721232L))
             info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__644554939(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-644554939L))
-            info.setReturnValue("Zb\uC12A\u6D74e(\u5B62>h,{]VT\u5868EcqX3OQ-F_E-gA]/gh");
+    private void toString_1261328561(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1261328561L))
+            info.setReturnValue("Z\u26F3+6Hj24J;dt\"\u12E8biekn$>RkUksgUl)1`x\u57F9Y'1/\"\u7D99G(K]ZY0nC\uCBC2u2`C@w\uAE0EGufl/sv- kwJLK/n}2");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_529167778(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(529167778L))
-            info.setReturnValue(1867875804);
+    private void hashCode_1048257127(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1048257127L))
+            info.setReturnValue(-802536361);
     }
 
     @Inject(at = @At("HEAD"), method = "state()Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
-    private void state__1804853830(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1804853830L))
+    private void state_159394699(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(159394699L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "canPlaceOn()Lnet/minecraft/world/level/levelgen/blockpredicates/BlockPredicate;", cancellable = true)
-    private void canPlaceOn_523673625(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(523673625L))
+    private void canPlaceOn_552572931(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(552572931L))
             info.setReturnValue(null);
     }
 

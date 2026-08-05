@@ -8,57 +8,57 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.item.component.KineticWeapon.Condition.class)
 public class Condition_366950826Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals_1752463084(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1752463084L))
+    private void equals__541675443(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-541675443L))
             info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__768509150(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-768509150L))
-            info.setReturnValue("h,\u02A34K\uA515{N-UVUCB^y\u6145\u5F3E\u2488Gn5^\uB05E==j\u4064rn<+H&|w0$>S )0%lg\uFAA5Y;#$;B\uBF5A3rVU=:H");
+    private void toString_1137374350(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1137374350L))
+            info.setReturnValue("<z");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_405213567(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(405213567L))
-            info.setReturnValue(1121781322);
+    private void hashCode_924302916(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(924302916L))
+            info.setReturnValue(-1043232123);
     }
 
     @Inject(at = @At("HEAD"), method = "test(IDDD)Z", cancellable = true)
-    private void test_1690979515(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1690979515L))
-            info.setReturnValue(true);
+    private void test_356715625(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(356715625L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "maxDurationTicks()I", cancellable = true)
-    private void maxDurationTicks_405213071(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(405213071L))
-            info.setReturnValue(-176132065);
+    private void maxDurationTicks__1238247407(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1238247407L))
+            info.setReturnValue(-997862361);
     }
 
     @Inject(at = @At("HEAD"), method = "minRelativeSpeed()F", cancellable = true)
-    private void minRelativeSpeed_405210188(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(405210188L))
-            info.setReturnValue(4.063229E8F);
-    }
-
-    @Inject(at = @At("HEAD"), method = "minSpeed()F", cancellable = true)
-    private void minSpeed_405210188(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(405210188L))
-            info.setReturnValue(4.063229E8F);
-    }
-
-    @Inject(at = @At("HEAD"), method = "ofAttackerSpeed(IF)Ljava/util/Optional;", cancellable = true)
-    private static void ofAttackerSpeed__1469424494(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1469424494L))
-            info.setReturnValue(null);
+    private void minRelativeSpeed__491449789(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-491449789L))
+            info.setReturnValue(2.03376E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "ofRelativeSpeed(IF)Ljava/util/Optional;", cancellable = true)
-    private static void ofRelativeSpeed__1469424494(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1469424494L))
+    private static void ofRelativeSpeed__1529390122(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1529390122L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "ofAttackerSpeed(IF)Ljava/util/Optional;", cancellable = true)
+    private static void ofAttackerSpeed__774420339(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-774420339L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "minSpeed()F", cancellable = true)
+    private void minSpeed_1596152919(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1596152919L))
+            info.setReturnValue(2.03376E8F);
     }
 
 

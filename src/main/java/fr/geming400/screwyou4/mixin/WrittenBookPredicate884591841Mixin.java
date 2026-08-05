@@ -8,68 +8,68 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.core.component.predicates.WrittenBookPredicate.class)
 public class WrittenBookPredicate884591841Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals__2024863196(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2024863196L))
-            info.setReturnValue(false);
+    private void equals__24034427(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-24034427L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__250868134(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-250868134L))
-            info.setReturnValue("");
+    private void toString_1655015366(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1655015366L))
+            info.setReturnValue("Hnr[2\uBF5A8P_O");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_922854583(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(922854583L))
-            info.setReturnValue(599475557);
+    private void hashCode_1441943932(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1441943932L))
+            info.setReturnValue(-2100947571);
     }
 
     @Inject(at = @At("HEAD"), method = "componentType()Lnet/minecraft/core/component/DataComponentType;", cancellable = true)
-    private void componentType__2142056592(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2142056592L))
+    private void componentType__1693860921(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1693860921L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(Ljava/lang/Object;)Z", cancellable = true)
-    private void matches__2024734732(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2024734732L))
+    private void matches__583545503(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-583545503L))
             info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/world/item/component/WrittenBookContent;)Z", cancellable = true)
-    private void matches_643497209(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(643497209L))
+    private void matches_1070399404(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1070399404L))
             info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "resolved()Ljava/util/Optional;", cancellable = true)
-    private void resolved_1130053263(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1130053263L))
+    private void resolved__1056140665(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1056140665L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "generation()Lnet/minecraft/advancements/predicates/MinMaxBounds$Ints;", cancellable = true)
-    private void generation_733356783(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(733356783L))
+    private void generation__502755113(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-502755113L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "title()Ljava/util/Optional;", cancellable = true)
-    private void title_1130053263(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1130053263L))
+    private void title__1463559961(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1463559961L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "pages()Ljava/util/Optional;", cancellable = true)
-    private void pages_1130053263(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1130053263L))
+    private void pages__1047453101(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1047453101L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "author()Ljava/util/Optional;", cancellable = true)
-    private void author_1130053263(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1130053263L))
+    private void author_2024746778(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2024746778L))
             info.setReturnValue(null);
     }
 

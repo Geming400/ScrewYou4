@@ -8,14 +8,14 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.level.levelgen.structure.templatesystem.AlwaysTrueTest.class)
 public class AlwaysTrueTest_1096472511Mixin {
         @Inject(at = @At("HEAD"), method = "test(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/util/RandomSource;)Z", cancellable = true)
-    private void test__1637002810(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1637002810L))
+    private void test_593883224(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(593883224L))
             info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "testAgainstWorldState(Lnet/minecraft/world/level/LevelReader;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)Z", cancellable = true)
-    private void testAgainstWorldState__358638419(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-358638419L))
+    private void testAgainstWorldState_628509051(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(628509051L))
             info.setReturnValue(true);
     }
 

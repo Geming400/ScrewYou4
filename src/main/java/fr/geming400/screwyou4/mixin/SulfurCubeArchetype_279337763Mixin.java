@@ -8,62 +8,62 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.entity.SulfurCubeArchetype.class)
 public class SulfurCubeArchetype_279337763Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals_1664850021(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1664850021L))
+    private void equals__629288506(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-629288506L))
             info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__856122213(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-856122213L))
-            info.setReturnValue("ZX_-bxL7<D.Vk2#\u6493V\u696E\uC4A2\u7B37%S!qM*eEq;&>w\uD60E;a]ks*\u941C\u4029fh:[P");
+    private void toString_1049761287(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1049761287L))
+            info.setReturnValue(";Dxn5]STtZ(Xr ?*4");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_317600504(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(317600504L))
-            info.setReturnValue(28846226);
+    private void hashCode_836689853(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(836689853L))
+            info.setReturnValue(-1995925485);
     }
 
     @Inject(at = @At("HEAD"), method = "items()Lnet/minecraft/core/HolderSet;", cancellable = true)
-    private void items_1899290806(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1899290806L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "contactDamage()Ljava/util/Optional;", cancellable = true)
-    private void contactDamage_524799184(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(524799184L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "knockbackModifiers()Lnet/minecraft/world/entity/SulfurCubeArchetype$KnockbackModifiers;", cancellable = true)
-    private void knockbackModifiers__83192287(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-83192287L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "soundSettings()Lnet/minecraft/world/entity/SulfurCubeArchetype$SoundSettings;", cancellable = true)
-    private void soundSettings__429192830(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-429192830L))
+    private void items_1871239286(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1871239286L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "buoyant()Z", cancellable = true)
-    private void buoyant_317616345(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(317616345L))
+    private void buoyant__287861809(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-287861809L))
             info.setReturnValue(false);
     }
 
+    @Inject(at = @At("HEAD"), method = "knockbackModifiers()Lnet/minecraft/world/entity/SulfurCubeArchetype$KnockbackModifiers;", cancellable = true)
+    private void knockbackModifiers_1550773248(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1550773248L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "soundSettings()Lnet/minecraft/world/entity/SulfurCubeArchetype$SoundSettings;", cancellable = true)
+    private void soundSettings__1427007660(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1427007660L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "contactDamage()Ljava/util/Optional;", cancellable = true)
+    private void contactDamage__765824129(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-765824129L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "explosion()Ljava/util/Optional;", cancellable = true)
-    private void explosion_524799184(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(524799184L))
+    private void explosion_1048137957(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1048137957L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "attributeModifiers()Ljava/util/List;", cancellable = true)
-    private void attributeModifiers_1905674578(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1905674578L))
+    private void attributeModifiers__930208110(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-930208110L))
             info.setReturnValue(null);
     }
 

@@ -8,51 +8,51 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.renderer.entity.DisplayRenderer.BlockDisplayRenderer.class)
 public class BlockDisplayRenderer601345747Mixin {
         @Inject(at = @At("HEAD"), method = "submit(Lnet/minecraft/client/renderer/entity/state/EntityRenderState;Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/SubmitNodeCollector;Lnet/minecraft/client/renderer/state/level/CameraRenderState;)V", cancellable = true)
-    private void submit__866035097(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-866035097L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/client/renderer/entity/state/EntityRenderState;F)V", cancellable = true)
-    private void extractRenderState_828464766(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(828464766L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/entity/Display;Lnet/minecraft/client/renderer/entity/state/DisplayEntityRenderState;F)V", cancellable = true)
-    private void extractRenderState__1821172463(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1821172463L))
+    private void submit__476147073(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-476147073L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/entity/Display$BlockDisplay;Lnet/minecraft/client/renderer/entity/state/BlockDisplayEntityRenderState;F)V", cancellable = true)
-    private void extractRenderState__1292629987(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1292629987L))
+    private void extractRenderState__138800637(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-138800637L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/BlockDisplayEntityRenderState;", cancellable = true)
-    private void createRenderState__1116748660(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1116748660L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/client/renderer/entity/state/EntityRenderState;F)V", cancellable = true)
+    private void extractRenderState_39123940(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(39123940L))
+            info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/EntityRenderState;", cancellable = true)
-    private void createRenderState_12709303(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(12709303L))
-            info.setReturnValue(new net.minecraft.client.renderer.entity.state.EntityRenderState());
+    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/entity/Display;Lnet/minecraft/client/renderer/entity/state/DisplayEntityRenderState;F)V", cancellable = true)
+    private void extractRenderState__859966345(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-859966345L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "submitInner(Lnet/minecraft/client/renderer/entity/state/BlockDisplayEntityRenderState;Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/SubmitNodeCollector;IF)V", cancellable = true)
-    private void submitInner__24640291(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-24640291L))
+    private void submitInner_354308479(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(354308479L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "submitInner(Lnet/minecraft/client/renderer/entity/state/DisplayEntityRenderState;Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/SubmitNodeCollector;IF)V", cancellable = true)
-    private void submitInner_1983105430(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1983105430L))
+    private void submitInner_233086900(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(233086900L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/EntityRenderState;", cancellable = true)
+    private void createRenderState_854516726(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(854516726L))
+            info.setReturnValue(new net.minecraft.client.renderer.entity.state.EntityRenderState());
+    }
+
+    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/BlockDisplayEntityRenderState;", cancellable = true)
+    private void createRenderState__1474669493(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1474669493L))
+            info.setReturnValue(null);
     }
 
 

@@ -8,8 +8,8 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.item.MinecartItem.class)
 public class MinecartItem_1552991406Mixin {
         @Inject(at = @At("HEAD"), method = "useOn(Lnet/minecraft/world/item/context/UseOnContext;)Lnet/minecraft/world/InteractionResult;", cancellable = true)
-    private void useOn__355851850(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-355851850L))
+    private void useOn_637874172(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(637874172L))
             info.setReturnValue(null);
     }
 

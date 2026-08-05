@@ -8,15 +8,15 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.nbt.StreamTagVisitor.ValueResult.class)
 public class ValueResult360709672Mixin {
         @Inject(at = @At("HEAD"), method = "values()[Lnet/minecraft/nbt/StreamTagVisitor$ValueResult;", cancellable = true)
-    private static void values__437492218(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-437492218L))
+    private static void values_1886763556(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1886763556L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/nbt/StreamTagVisitor$ValueResult;", cancellable = true)
-    private static void valueOf__788302205(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-788302205L))
-            info.setReturnValue(net.minecraft.nbt.StreamTagVisitor.ValueResult.HALT);
+    private static void valueOf_1581202347(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1581202347L))
+            info.setReturnValue(net.minecraft.nbt.StreamTagVisitor.ValueResult.BREAK);
     }
 
 

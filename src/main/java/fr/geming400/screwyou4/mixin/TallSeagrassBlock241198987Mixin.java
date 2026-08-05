@@ -8,26 +8,26 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.level.block.TallSeagrassBlock.class)
 public class TallSeagrassBlock241198987Mixin {
         @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
-    private void codec_1977052711(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1977052711L))
+    private void codec_1307644241(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1307644241L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
-    private void getStateForPlacement__1017400780(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1017400780L))
+    private void getStateForPlacement_2066977803(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2066977803L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "canPlaceLiquid(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/material/Fluid;)Z", cancellable = true)
-    private void canPlaceLiquid_1243731819(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1243731819L))
+    private void canPlaceLiquid_208629086(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(208629086L))
             info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "placeLiquid(Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/material/FluidState;)Z", cancellable = true)
-    private void placeLiquid__349017589(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-349017589L))
+    private void placeLiquid__1580261714(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1580261714L))
             info.setReturnValue(false);
     }
 

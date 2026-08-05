@@ -8,51 +8,51 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.entity.Leashable.Wrench.class)
 public class Wrench_1702033670Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals__1207421368(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1207421368L))
+    private void equals_793407401(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(793407401L))
             info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString_566573694(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(566573694L))
-            info.setReturnValue("UaOjE%\u5C8DSb\u677E35$r@@>n^_<C-\uAD78b mALp*3#h=}z6!r:VP tE\uA014q6nmZo}\u2507\u1007,\u4BFDOiI\uD7F42");
+    private void toString__1822510102(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1822510102L))
+            info.setReturnValue("G'o c5NN\uB6B3\u8217b-y/E(kov(FPS9n2=Inj;\u8C44WG\u4445!?@_YqF<ywqy\u0563y,Zi'rk\uFC44Gh_YHh^Z");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_1740296411(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1740296411L))
-            info.setReturnValue(-409606596);
+    private void hashCode__2035581536(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2035581536L))
+            info.setReturnValue(-1662128769);
     }
 
     @Inject(at = @At("HEAD"), method = "scale(D)Lnet/minecraft/world/entity/Leashable$Wrench;", cancellable = true)
-    private void scale__664348628(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-664348628L))
+    private void scale_40647414(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(40647414L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "force()Lnet/minecraft/world/phys/Vec3;", cancellable = true)
-    private void force__1495204098(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1495204098L))
+    private void force_1373369395(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1373369395L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "accumulate(Ljava/util/List;)Lnet/minecraft/world/entity/Leashable$Wrench;", cancellable = true)
-    private static void accumulate__774008479(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-774008479L))
+    private static void accumulate_1794410559(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1794410559L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "torque()D", cancellable = true)
-    private void torque_1740291110(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1740291110L))
-            info.setReturnValue(2.71074200657513E8D);
+    @Inject(at = @At("HEAD"), method = "torqueFromForce(Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/world/phys/Vec3;)D", cancellable = true)
+    private static void torqueFromForce__943266361(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-943266361L))
+            info.setReturnValue(7.700219003918954E8D);
     }
 
-    @Inject(at = @At("HEAD"), method = "torqueFromForce(Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/world/phys/Vec3;)D", cancellable = true)
-    private static void torqueFromForce__1055392866(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1055392866L))
-            info.setReturnValue(2.710742005447169E8D);
+    @Inject(at = @At("HEAD"), method = "torque()D", cancellable = true)
+    private void torque__2052812708(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2052812708L))
+            info.setReturnValue(7.700219002182071E8D);
     }
 
 

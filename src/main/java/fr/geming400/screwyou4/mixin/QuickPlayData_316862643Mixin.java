@@ -8,39 +8,39 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.main.GameConfig.QuickPlayData.class)
 public class QuickPlayData_316862643Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals_1702374901(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1702374901L))
+    private void equals__591763626(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-591763626L))
             info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__818597333(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-818597333L))
-            info.setReturnValue("_%]pk[IT=\uC8D6U]\uCC26JBBx-uR%7 \u79E2lsH3\u4891\u745AU8t/");
+    private void toString_1087286167(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1087286167L))
+            info.setReturnValue("]QQyd#Di4\"g<\uC9BB\uFF88d&mwn(\u89D0XB\u61BE\u38CE aL1E}V@#rfITegR\u1016\u6744bf\u7056@7<}\u0E0E^]'\u680FMx0B59D");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_355125384(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(355125384L))
-            info.setReturnValue(-402361665);
+    private void hashCode_874214733(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(874214733L))
+            info.setReturnValue(-1200743768);
     }
 
     @Inject(at = @At("HEAD"), method = "isEnabled()Z", cancellable = true)
-    private void isEnabled_355141225(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(355141225L))
+    private void isEnabled__1717285358(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1717285358L))
             info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "variant()Lnet/minecraft/client/main/GameConfig$QuickPlayVariant;", cancellable = true)
-    private void variant__1483390232(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1483390232L))
+    private void variant_1074191171(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1074191171L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "logPath()Ljava/lang/String;", cancellable = true)
-    private void logPath__818597829(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-818597829L))
-            info.setReturnValue("x. tAy&HPeoXhT\u67C4t\u9A75JK\uB91FV\u3DF74pqL7{/-9wl\uD2AB\uA49E\"6Uet");
+    private void logPath__1237603068(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1237603068L))
+            info.setReturnValue("L\u7ADA[{2I\"N+'=F.TGVJ}0LjK)\u466B\u25C6-+\u8EDC1;7\u8BC0ZT/q0[UZ^;RB,\u0BF2#66");
     }
 
 

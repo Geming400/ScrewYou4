@@ -8,51 +8,51 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.util.profiling.jfr.stats.GcHeapStat.class)
 public class GcHeapStat_669730992Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals_2055243250(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2055243250L))
-            info.setReturnValue(true);
+    private void equals__238895277(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-238895277L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__465728984(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-465728984L))
-            info.setReturnValue("s(Au. Hu'\u2730o\u5F20\uAEF3o}#[ 3-\u3F6Bzb3&8\u1B0Ao8|]t1q2MTtI<HY[xS0dz=,X'{<USOI{N%wta9\u8756\u4A18\u19E8P}xTs,uo|(yF\uD173\u89DBRR<x`w");
+    private void toString_1440154516(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1440154516L))
+            info.setReturnValue("nUT%\"`U\u3AC6\u87A8\uB094hPR_^:8\u910Fps\uA081\u41AC2h+, A.\u89AB\u8D1D\uD34E`^%5Psk)W[1`aQi@\u2879U_rH\u90D9AB+I1u&!CqvRjd41=Y|3pHUZIn1Hoa$`Fx9A'w\uCC61Ui");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_707993733(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(707993733L))
-            info.setReturnValue(269204420);
+    private void hashCode_1227083082(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1227083082L))
+            info.setReturnValue(-1588699758);
     }
 
     @Inject(at = @At("HEAD"), method = "from(Ljdk/jfr/consumer/RecordedEvent;)Lnet/minecraft/util/profiling/jfr/stats/GcHeapStat;", cancellable = true)
-    private static void from__575708053(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-575708053L))
+    private static void from__1492476543(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1492476543L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "timestamp()Ljava/time/Instant;", cancellable = true)
-    private void timestamp_1766965191(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1766965191L))
+    private void timestamp__1410548239(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1410548239L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "summary(Ljava/time/Duration;Ljava/util/List;Ljava/time/Duration;I)Lnet/minecraft/util/profiling/jfr/stats/GcHeapStat$Summary;", cancellable = true)
+    private static void summary__1197166396(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1197166396L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "timing()Lnet/minecraft/util/profiling/jfr/stats/GcHeapStat$Timing;", cancellable = true)
-    private void timing__1297729002(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1297729002L))
+    private void timing_487285984(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(487285984L))
             info.setReturnValue(net.minecraft.util.profiling.jfr.stats.GcHeapStat.Timing.BEFORE_GC);
     }
 
     @Inject(at = @At("HEAD"), method = "heapUsed()J", cancellable = true)
-    private void heapUsed_707994198(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(707994198L))
-            info.setReturnValue(-277712486361812569L);
-    }
-
-    @Inject(at = @At("HEAD"), method = "summary(Ljava/time/Duration;Ljava/util/List;Ljava/time/Duration;I)Lnet/minecraft/util/profiling/jfr/stats/GcHeapStat$Summary;", cancellable = true)
-    private static void summary_1908499230(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1908499230L))
-            info.setReturnValue(null);
+    private void heapUsed__777568211(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-777568211L))
+            info.setReturnValue(-7323066765933861289L);
     }
 
 

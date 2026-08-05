@@ -8,32 +8,32 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.item.component.DebugStickState.class)
 public class DebugStickState2011634550Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals__897820487(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-897820487L))
+    private void equals_1103008282(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1103008282L))
             info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString_876174575(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(876174575L))
-            info.setReturnValue("\uCB03XwL^?]+&+396XR\u1BDF_|.fX\uBC9B6VN0.\u99E72");
+    private void toString__1512909221(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1512909221L))
+            info.setReturnValue("e,pAi%1z F\uC973\uA9F4a");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_2049897292(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2049897292L))
-            info.setReturnValue(-367840758);
+    private void hashCode__1725980655(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1725980655L))
+            info.setReturnValue(-1312780724);
     }
 
     @Inject(at = @At("HEAD"), method = "properties()Ljava/util/Map;", cancellable = true)
-    private void properties_7010910(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(7010910L))
+    private void properties_718144075(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(718144075L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "withProperty(Lnet/minecraft/core/Holder;Lnet/minecraft/world/level/block/state/properties/Property;)Lnet/minecraft/world/item/component/DebugStickState;", cancellable = true)
-    private void withProperty__1124385062(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1124385062L))
+    private void withProperty_712505429(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(712505429L))
             info.setReturnValue(null);
     }
 

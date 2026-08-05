@@ -8,62 +8,62 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.item.component.ItemAttributeModifiers.class)
 public class ItemAttributeModifiers_1678197743Mixin {
         @Inject(at = @At("HEAD"), method = "modifiers()Ljava/util/List;", cancellable = true)
-    private void modifiers__990432738(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-990432738L))
+    private void modifiers__903711590(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-903711590L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals__1231257295(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1231257295L))
-            info.setReturnValue(true);
+    private void equals_769571474(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(769571474L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString_542737767(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(542737767L))
-            info.setReturnValue("\u2412+>_d]V{IE0n\u16DC^\u18F1\u4B51\uB4C4<osw9OR{1/[-N_wk\u6265:P,\u0C88:`s\u2EBD\u3546WO[ $}f1\uCF77\u22162(9)q0U\uC8A4\u9712^]gw4AmJ*H.r\uB15AKrh}@)F");
+    private void toString__1846346029(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1846346029L))
+            info.setReturnValue("g&&\u0A87\u6639|dTk:B+\u447A4\uD794)U");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_1716460484(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1716460484L))
-            info.setReturnValue(-1338026292);
+    private void hashCode__2059417463(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2059417463L))
+            info.setReturnValue(-955296805);
     }
 
     @Inject(at = @At("HEAD"), method = "builder()Lnet/minecraft/world/item/component/ItemAttributeModifiers$Builder;", cancellable = true)
-    private static void builder_1942180611(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1942180611L))
+    private static void builder_783812360(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(783812360L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "compute(Lnet/minecraft/core/Holder;DLnet/minecraft/world/entity/EquipmentSlot;)D", cancellable = true)
-    private void compute_1527319506(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1527319506L))
-            info.setReturnValue(6.790178004434264E8D);
+    private void compute_1058489147(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1058489147L))
+            info.setReturnValue(6.570344000764817E8D);
     }
 
     @Inject(at = @At("HEAD"), method = "forEach(Lnet/minecraft/world/entity/EquipmentSlotGroup;Lorg/apache/commons/lang3/function/TriConsumer;)V", cancellable = true)
-    private void forEach__828192354(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-828192354L))
+    private void forEach__559031564(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-559031564L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "forEach(Lnet/minecraft/world/entity/EquipmentSlot;Ljava/util/function/BiConsumer;)V", cancellable = true)
-    private void forEach__1291851194(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1291851194L))
+    private void forEach_698085168(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(698085168L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "forEach(Lnet/minecraft/world/entity/EquipmentSlotGroup;Ljava/util/function/BiConsumer;)V", cancellable = true)
-    private void forEach__1622732837(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1622732837L))
+    private void forEach_1289456945(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1289456945L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "withModifierAdded(Lnet/minecraft/core/Holder;Lnet/minecraft/world/entity/ai/attributes/AttributeModifier;Lnet/minecraft/world/entity/EquipmentSlotGroup;)Lnet/minecraft/world/item/component/ItemAttributeModifiers;", cancellable = true)
-    private void withModifierAdded_190037588(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(190037588L))
+    private void withModifierAdded_784911089(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(784911089L))
             info.setReturnValue(null);
     }
 

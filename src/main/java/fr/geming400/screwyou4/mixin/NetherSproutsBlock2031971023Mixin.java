@@ -8,8 +8,8 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.level.block.NetherSproutsBlock.class)
 public class NetherSproutsBlock2031971023Mixin {
         @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
-    private void codec__527142549(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-527142549L))
+    private void codec__1196551019(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1196551019L))
             info.setReturnValue(null);
     }
 

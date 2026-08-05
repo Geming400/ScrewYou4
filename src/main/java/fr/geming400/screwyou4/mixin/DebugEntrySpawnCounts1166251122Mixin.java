@@ -8,8 +8,8 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.gui.components.debug.DebugEntrySpawnCounts.class)
 public class DebugEntrySpawnCounts1166251122Mixin {
         @Inject(at = @At("HEAD"), method = "display(Lnet/minecraft/client/gui/components/debug/DebugScreenDisplayer;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/level/chunk/LevelChunk;Lnet/minecraft/world/level/chunk/LevelChunk;)V", cancellable = true)
-    private void display__909597994(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-909597994L))
+    private void display__2097163240(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-2097163240L))
             info.cancel();
     }
 

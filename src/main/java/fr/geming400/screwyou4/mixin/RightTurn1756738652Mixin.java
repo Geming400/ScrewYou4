@@ -8,20 +8,20 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.level.levelgen.structure.structures.StrongholdPieces.RightTurn.class)
 public class RightTurn1756738652Mixin {
         @Inject(at = @At("HEAD"), method = "postProcess(Lnet/minecraft/world/level/WorldGenLevel;Lnet/minecraft/world/level/StructureManager;Lnet/minecraft/world/level/chunk/ChunkGenerator;Lnet/minecraft/util/RandomSource;Lnet/minecraft/world/level/levelgen/structure/BoundingBox;Lnet/minecraft/world/level/ChunkPos;Lnet/minecraft/core/BlockPos;)V", cancellable = true)
-    private void postProcess__463684291(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-463684291L))
+    private void postProcess_1080380332(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1080380332L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "addChildren(Lnet/minecraft/world/level/levelgen/structure/StructurePiece;Lnet/minecraft/world/level/levelgen/structure/StructurePieceAccessor;Lnet/minecraft/util/RandomSource;)V", cancellable = true)
-    private void addChildren_2001602614(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(2001602614L))
+    private void addChildren__1821552138(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1821552138L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "createPiece(Lnet/minecraft/world/level/levelgen/structure/StructurePieceAccessor;Lnet/minecraft/util/RandomSource;IIILnet/minecraft/core/Direction;I)Lnet/minecraft/world/level/levelgen/structure/structures/StrongholdPieces$RightTurn;", cancellable = true)
-    private static void createPiece_1715978372(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1715978372L))
+    private static void createPiece_51871702(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(51871702L))
             info.setReturnValue(null);
     }
 

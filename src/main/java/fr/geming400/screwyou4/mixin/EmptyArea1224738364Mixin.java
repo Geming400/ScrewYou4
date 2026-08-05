@@ -8,81 +8,81 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.gui.font.EmptyArea.class)
 public class EmptyArea1224738364Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals__1684716673(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1684716673L))
-            info.setReturnValue(true);
+    private void equals_316112096(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(316112096L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString_89278389(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(89278389L))
-            info.setReturnValue("@O4|9k.6H-6Qe@d7d*=\uC8C6r!m$8>x{KB:Y<C\u8F672OVTLOb#4+wlpBhwI\uA6842=DL=o\uD7CBS");
+    private void toString_1995161889(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1995161889L))
+            info.setReturnValue("amf:5lw=lG8J:A5P\u1823 :bqQ|;?2kx");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_1263001106(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1263001106L))
-            info.setReturnValue(-1755142199);
+    private void hashCode_1782090455(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1782090455L))
+            info.setReturnValue(805149781);
     }
 
     @Inject(at = @At("HEAD"), method = "x()F", cancellable = true)
-    private void x_1262997727(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1262997727L))
-            info.setReturnValue(2.05051E7F);
+    private void x_403528551(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(403528551L))
+            info.setReturnValue(5.61799E7F);
     }
 
     @Inject(at = @At("HEAD"), method = "advance()F", cancellable = true)
-    private void advance_1262997727(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1262997727L))
-            info.setReturnValue(2.05051E7F);
+    private void advance__354866787(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-354866787L))
+            info.setReturnValue(5.61799E7F);
     }
 
     @Inject(at = @At("HEAD"), method = "y()F", cancellable = true)
-    private void y_1262997727(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1262997727L))
-            info.setReturnValue(2.05051E7F);
+    private void y_432157702(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(432157702L))
+            info.setReturnValue(5.61799E7F);
     }
 
     @Inject(at = @At("HEAD"), method = "style()Lnet/minecraft/network/chat/Style;", cancellable = true)
-    private void style_915131675(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(915131675L))
+    private void style_310648332(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(310648332L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "height()F", cancellable = true)
-    private void height_1262997727(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1262997727L))
-            info.setReturnValue(2.05051E7F);
-    }
-
-    @Inject(at = @At("HEAD"), method = "ascent()F", cancellable = true)
-    private void ascent_1262997727(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1262997727L))
-            info.setReturnValue(2.05051E7F);
-    }
-
-    @Inject(at = @At("HEAD"), method = "activeTop()F", cancellable = true)
-    private void activeTop_1262997727(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1262997727L))
-            info.setReturnValue(2.05051E7F);
-    }
-
-    @Inject(at = @At("HEAD"), method = "activeLeft()F", cancellable = true)
-    private void activeLeft_1262997727(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1262997727L))
-            info.setReturnValue(2.05051E7F);
+    @Inject(at = @At("HEAD"), method = "activeBottom()F", cancellable = true)
+    private void activeBottom__1516666194(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1516666194L))
+            info.setReturnValue(5.61799E7F);
     }
 
     @Inject(at = @At("HEAD"), method = "activeRight()F", cancellable = true)
-    private void activeRight_1262997727(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1262997727L))
-            info.setReturnValue(2.05051E7F);
+    private void activeRight_409717737(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(409717737L))
+            info.setReturnValue(5.61799E7F);
     }
 
-    @Inject(at = @At("HEAD"), method = "activeBottom()F", cancellable = true)
-    private void activeBottom_1262997727(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1262997727L))
-            info.setReturnValue(2.05051E7F);
+    @Inject(at = @At("HEAD"), method = "height()F", cancellable = true)
+    private void height_139386904(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(139386904L))
+            info.setReturnValue(5.61799E7F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "activeTop()F", cancellable = true)
+    private void activeTop__1997006384(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1997006384L))
+            info.setReturnValue(5.61799E7F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "activeLeft()F", cancellable = true)
+    private void activeLeft__945470254(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-945470254L))
+            info.setReturnValue(5.61799E7F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "ascent()F", cancellable = true)
+    private void ascent_1176149061(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1176149061L))
+            info.setReturnValue(5.61799E7F);
     }
 
 

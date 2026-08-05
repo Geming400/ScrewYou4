@@ -8,146 +8,146 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.level.dimension.DimensionType.class)
 public class DimensionType1830188514Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals__1079266523(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1079266523L))
+    private void equals_921562246(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(921562246L))
             info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString_694728539(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(694728539L))
-            info.setReturnValue(".ksf`gRbwn\"JRg+]9m\"g\u6954(VFCd");
+    private void toString__1694355257(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1694355257L))
+            info.setReturnValue("\uCC77_0:\u290C!R \u78E9lOg\u6723.6\u477E]!sf09%\u275E{p6;Z26=28\u32D9-\u801B|1r-m)l+Tw\"RP*[T:68(JcnyJL0<I2MNN;=eD|Q");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_1868451256(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1868451256L))
-            info.setReturnValue(1185576300);
+    private void hashCode__1907426691(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1907426691L))
+            info.setReturnValue(-2074803088);
     }
 
     @Inject(at = @At("HEAD"), method = "attributes()Lnet/minecraft/world/attribute/EnvironmentAttributeMap;", cancellable = true)
-    private void attributes__453478089(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-453478089L))
+    private void attributes_423054720(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(423054720L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "minY()I", cancellable = true)
-    private void minY_1868450760(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1868450760L))
-            info.setReturnValue(1364099790);
-    }
-
-    @Inject(at = @At("HEAD"), method = "infiniburn()Lnet/minecraft/core/HolderSet;", cancellable = true)
-    private void infiniburn__844825738(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-844825738L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "height()I", cancellable = true)
-    private void height_1868450760(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1868450760L))
-            info.setReturnValue(1364099790);
-    }
-
-    @Inject(at = @At("HEAD"), method = "hasCeiling()Z", cancellable = true)
-    private void hasCeiling_1868467097(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1868467097L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "ambientLight()F", cancellable = true)
-    private void ambientLight_1868447877(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1868447877L))
-            info.setReturnValue(1.628671E8F);
+    private void minY_2125052897(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2125052897L))
+            info.setReturnValue(-144146408);
     }
 
     @Inject(at = @At("HEAD"), method = "hasFixedTime()Z", cancellable = true)
-    private void hasFixedTime_1868467097(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1868467097L))
+    private void hasFixedTime__621144814(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-621144814L))
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "hasSkyLight()Z", cancellable = true)
+    private void hasSkyLight__433348662(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-433348662L))
             info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "defaultClock()Ljava/util/Optional;", cancellable = true)
-    private void defaultClock_2075649936(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2075649936L))
+    private void defaultClock_424470237(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(424470237L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "hasSkyLight()Z", cancellable = true)
-    private void hasSkyLight_1868467097(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1868467097L))
-            info.setReturnValue(true);
+    @Inject(at = @At("HEAD"), method = "ambientLight()F", cancellable = true)
+    private void ambientLight_1499937255(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1499937255L))
+            info.setReturnValue(7.418213E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "hasEnderDragonFight()Z", cancellable = true)
-    private void hasEnderDragonFight_1868467097(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1868467097L))
+    private void hasEnderDragonFight__1927377814(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1927377814L))
             info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "logicalHeight()I", cancellable = true)
-    private void logicalHeight_1868450760(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1868450760L))
-            info.setReturnValue(1364099790);
+    private void logicalHeight_185382712(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(185382712L))
+            info.setReturnValue(-1261005468);
     }
 
-    @Inject(at = @At("HEAD"), method = "skybox()Lnet/minecraft/world/level/dimension/DimensionType$Skybox;", cancellable = true)
-    private void skybox_1094843357(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1094843357L))
-            info.setReturnValue(net.minecraft.world.level.dimension.DimensionType.Skybox.OVERWORLD);
+    @Inject(at = @At("HEAD"), method = "infiniburn()Lnet/minecraft/core/HolderSet;", cancellable = true)
+    private void infiniburn__174153816(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-174153816L))
+            info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "timelines()Lnet/minecraft/core/HolderSet;", cancellable = true)
-    private void timelines__844825738(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-844825738L))
+    @Inject(at = @At("HEAD"), method = "hasCeiling()Z", cancellable = true)
+    private void hasCeiling_824841398(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(824841398L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "height()I", cancellable = true)
+    private void height_744839937(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(744839937L))
+            info.setReturnValue(1124177880);
+    }
+
+    @Inject(at = @At("HEAD"), method = "monsterSpawnLightTest()Lnet/minecraft/util/valueproviders/IntProvider;", cancellable = true)
+    private void monsterSpawnLightTest__1772185596(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1772185596L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "monsterSpawnBlockLightLimit()I", cancellable = true)
-    private void monsterSpawnBlockLightLimit_1868450760(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1868450760L))
-            info.setReturnValue(1364099790);
-    }
-
-    @Inject(at = @At("HEAD"), method = "monsterSpawnLightTest()Lnet/minecraft/util/valueproviders/IntProvider;", cancellable = true)
-    private void monsterSpawnLightTest__639498389(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-639498389L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getTeleportationScale(Lnet/minecraft/world/level/dimension/DimensionType;Lnet/minecraft/world/level/dimension/DimensionType;)D", cancellable = true)
-    private static void getTeleportationScale__1921122181(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1921122181L))
-            info.setReturnValue(1.6286710082050708E8D);
-    }
-
-    @Inject(at = @At("HEAD"), method = "hasEndFlashes()Z", cancellable = true)
-    private void hasEndFlashes_1868467097(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1868467097L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getStorageFolder(Lnet/minecraft/resources/ResourceKey;Ljava/nio/file/Path;)Ljava/nio/file/Path;", cancellable = true)
-    private static void getStorageFolder__1786231307(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1786231307L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "coordinateScale()D", cancellable = true)
-    private void coordinateScale_1868445955(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1868445955L))
-            info.setReturnValue(1.628671004213979E8D);
-    }
-
-    @Inject(at = @At("HEAD"), method = "cardinalLightType()Lnet/minecraft/world/level/CardinalLighting$Type;", cancellable = true)
-    private void cardinalLightType__1058066736(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1058066736L))
-            info.setReturnValue(net.minecraft.world.level.CardinalLighting.Type.NETHER);
+    private void monsterSpawnBlockLightLimit_682643383(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(682643383L))
+            info.setReturnValue(1410470522);
     }
 
     @Inject(at = @At("HEAD"), method = "monsterSettings()Lnet/minecraft/world/level/dimension/DimensionType$MonsterSettings;", cancellable = true)
-    private void monsterSettings__399960878(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-399960878L))
+    private void monsterSettings__1266293739(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1266293739L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getStorageFolder(Lnet/minecraft/resources/ResourceKey;Ljava/nio/file/Path;)Ljava/nio/file/Path;", cancellable = true)
+    private static void getStorageFolder__1418590398(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1418590398L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "hasEndFlashes()Z", cancellable = true)
+    private void hasEndFlashes__1940764612(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1940764612L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "cardinalLightType()Lnet/minecraft/world/level/CardinalLighting$Type;", cancellable = true)
+    private void cardinalLightType_533996192(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(533996192L))
+            info.setReturnValue(net.minecraft.world.level.CardinalLighting.Type.DEFAULT);
+    }
+
+    @Inject(at = @At("HEAD"), method = "coordinateScale()D", cancellable = true)
+    private void coordinateScale__630044271(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-630044271L))
+            info.setReturnValue(7.418213009235429E8D);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getTeleportationScale(Lnet/minecraft/world/level/dimension/DimensionType;Lnet/minecraft/world/level/dimension/DimensionType;)D", cancellable = true)
+    private static void getTeleportationScale_1282264069(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1282264069L))
+            info.setReturnValue(7.41821300913585E8D);
+    }
+
+    @Inject(at = @At("HEAD"), method = "skybox()Lnet/minecraft/world/level/dimension/DimensionType$Skybox;", cancellable = true)
+    private void skybox_1268975463(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1268975463L))
+            info.setReturnValue(net.minecraft.world.level.dimension.DimensionType.Skybox.OVERWORLD);
+    }
+
+    @Inject(at = @At("HEAD"), method = "timelines()Lnet/minecraft/core/HolderSet;", cancellable = true)
+    private void timelines_814160712(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(814160712L))
             info.setReturnValue(null);
     }
 

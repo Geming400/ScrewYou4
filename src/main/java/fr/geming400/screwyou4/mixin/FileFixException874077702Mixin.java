@@ -8,8 +8,8 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.util.filefix.FileFixException.class)
 public class FileFixException874077702Mixin {
         @Inject(at = @At("HEAD"), method = "makeReportedException()Lnet/minecraft/ReportedException;", cancellable = true)
-    private void makeReportedException__700673950(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-700673950L))
+    private void makeReportedException_1606058164(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1606058164L))
             info.setReturnValue(null);
     }
 

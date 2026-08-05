@@ -8,8 +8,8 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.level.block.TwistingVinesBlock.class)
 public class TwistingVinesBlock767201411Mixin {
         @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
-    private void codec__1791912161(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1791912161L))
+    private void codec_1833646665(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1833646665L))
             info.setReturnValue(null);
     }
 

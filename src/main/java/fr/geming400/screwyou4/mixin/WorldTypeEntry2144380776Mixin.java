@@ -8,39 +8,39 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.gui.screens.worldselection.WorldCreationUiState.WorldTypeEntry.class)
 public class WorldTypeEntry2144380776Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals__765074261(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-765074261L))
+    private void equals_1235754508(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1235754508L))
             info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString_1008920801(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1008920801L))
-            info.setReturnValue("^uM\uB93FbS)Zb/]-LD@C.'O_,cE}[A#*x\u1698<Y3/)D");
+    private void toString__1380162995(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1380162995L))
+            info.setReturnValue("t\u4760@p\u69CEO\u8410e7O4GE[\u5678OlqX:Ngvr!JXfgp+OJEh[K@R-0H\uD73A[B\u51F0)o6|\u6665\u2682lTqpG\u9B80\u6CC2^,");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode__2112323778(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2112323778L))
-            info.setReturnValue(-347503615);
+    private void hashCode__1593234429(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1593234429L))
+            info.setReturnValue(1395233534);
     }
 
     @Inject(at = @At("HEAD"), method = "preset()Lnet/minecraft/core/Holder;", cancellable = true)
-    private void preset__601710748(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-601710748L))
+    private void preset__1636228955(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1636228955L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "describePreset()Lnet/minecraft/network/chat/Component;", cancellable = true)
+    private void describePreset_1532960005(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1532960005L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "isAmplified()Z", cancellable = true)
-    private void isAmplified__2112307937(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2112307937L))
+    private void isAmplified__469485466(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-469485466L))
             info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "describePreset()Lnet/minecraft/network/chat/Component;", cancellable = true)
-    private void describePreset__32528389(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-32528389L))
-            info.setReturnValue(null);
     }
 
 

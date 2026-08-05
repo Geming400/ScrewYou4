@@ -8,69 +8,69 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.network.protocol.game.ClientboundTeleportEntityPacket.class)
 public class ClientboundTeleportEntityPacket_69195989Mixin {
         @Inject(at = @At("HEAD"), method = "type()Lnet/minecraft/network/protocol/PacketType;", cancellable = true)
-    private void type__1609829100(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1609829100L))
+    private void type_225063578(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(225063578L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals_1454708247(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1454708247L))
-            info.setReturnValue(false);
+    private void equals__839430280(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-839430280L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__1066263987(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1066263987L))
-            info.setReturnValue("\u7189\u2710l$\"zCD-I}f7uK&r,Z\uB235\uBC67\u4035V\uB389.f';3/\u597853gDU\uB848}:fol-lHCs\uCEF9aDjvDKm?r9%%HKt@JV<p.(%:MfnIXF</%\uD715q\u952F+3-2z\uB8F3Q\uFE8D_\u50B3");
+    private void toString_839619513(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(839619513L))
+            info.setReturnValue("QY7+c=O[s)K\uAB457F<L-\u8BCDX@qGm {kO7^^\uC6BF!/EP-m;1\u84B1Ms\uC947+Cq\u0C90.8V\u75AAdz2hrDzf\u13E9GlX;qP<(,YmO");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_107458730(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(107458730L))
-            info.setReturnValue(-1506706550);
+    private void hashCode_626548079(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(626548079L))
+            info.setReturnValue(-353250525);
     }
 
     @Inject(at = @At("HEAD"), method = "id()I", cancellable = true)
-    private void id_107458234(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(107458234L))
-            info.setReturnValue(1415476671);
+    private void id_1668979327(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1668979327L))
+            info.setReturnValue(-102625674);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/protocol/game/ClientGamePacketListener;)V", cancellable = true)
-    private void handle_266703522(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(266703522L))
+    private void handle__1522281606(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1522281606L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/PacketListener;)V", cancellable = true)
-    private void handle_747264901(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(747264901L))
+    private void handle__226515875(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-226515875L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "change()Lnet/minecraft/world/entity/PositionMoveRotation;", cancellable = true)
-    private void change__1453969947(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1453969947L))
+    private void change_271321141(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(271321141L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "relatives()Ljava/util/Set;", cancellable = true)
-    private void relatives__1759839498(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1759839498L))
+    private void relatives__169548689(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-169548689L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "teleport(ILnet/minecraft/world/entity/PositionMoveRotation;Ljava/util/Set;Z)Lnet/minecraft/network/protocol/game/ClientboundTeleportEntityPacket;", cancellable = true)
+    private static void teleport_1866513079(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1866513079L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "onGround()Z", cancellable = true)
-    private void onGround_107474571(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(107474571L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "teleport(ILnet/minecraft/world/entity/PositionMoveRotation;Ljava/util/Set;Z)Lnet/minecraft/network/protocol/game/ClientboundTeleportEntityPacket;", cancellable = true)
-    private static void teleport__2005165374(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2005165374L))
-            info.setReturnValue(null);
+    private void onGround__53052923(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-53052923L))
+            info.setReturnValue(false);
     }
 
 

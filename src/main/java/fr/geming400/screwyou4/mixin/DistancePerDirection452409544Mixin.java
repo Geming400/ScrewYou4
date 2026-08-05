@@ -8,32 +8,32 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.renderer.state.level.WorldBorderRenderState.DistancePerDirection.class)
 public class DistancePerDirection452409544Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals_1837921803(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1837921803L))
-            info.setReturnValue(false);
+    private void equals__456216724(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-456216724L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__683050431(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-683050431L))
-            info.setReturnValue(")tza&T]EqN+1v>k\uB827\u8315j@$4Je&uU\u4FFAy`jRYkX01Eg]\u5C79BT\u6074X*MW\u3729]==QRz=S+0.B\uBFAB\u7047\u3F4FoI-gZB`CS");
+    private void toString_1222833069(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1222833069L))
+            info.setReturnValue("AbLDEO$F#\u1AC1;?^'`\u7D29");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_490672286(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(490672286L))
-            info.setReturnValue(1658904138);
+    private void hashCode_1009761635(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1009761635L))
+            info.setReturnValue(-1290510900);
     }
 
     @Inject(at = @At("HEAD"), method = "distance()D", cancellable = true)
-    private void distance_490666985(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(490666985L))
-            info.setReturnValue(1.372762004971135E8D);
+    private void distance__161505004(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-161505004L))
+            info.setReturnValue(7.132426001277194E8D);
     }
 
     @Inject(at = @At("HEAD"), method = "direction()Lnet/minecraft/core/Direction;", cancellable = true)
-    private void direction__310445741(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-310445741L))
+    private void direction__18587374(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-18587374L))
             info.setReturnValue(net.minecraft.core.Direction.NORTH);
     }
 

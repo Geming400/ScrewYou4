@@ -8,15 +8,15 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.util.SmoothDouble.class)
 public class SmoothDouble_1881497755Mixin {
         @Inject(at = @At("HEAD"), method = "reset()V", cancellable = true)
-    private void reset_1919772493(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1919772493L))
+    private void reset_152060766(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(152060766L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "getNewDeltaValue(DD)D", cancellable = true)
-    private void getNewDeltaValue_737837627(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(737837627L))
-            info.setReturnValue(9.7412440067994E8D);
+    private void getNewDeltaValue__1071078856(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1071078856L))
+            info.setReturnValue(5.408402006054251E8D);
     }
 
 

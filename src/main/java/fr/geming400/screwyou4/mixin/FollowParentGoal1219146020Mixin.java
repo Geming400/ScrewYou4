@@ -8,32 +8,32 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.entity.ai.goal.FollowParentGoal.class)
 public class FollowParentGoal1219146020Mixin {
         @Inject(at = @At("HEAD"), method = "start()V", cancellable = true)
-    private void start_1257420759(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1257420759L))
+    private void start__407019339(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-407019339L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "stop()V", cancellable = true)
-    private void stop_1257420759(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1257420759L))
+    private void stop__1498717931(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1498717931L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "canUse()Z", cancellable = true)
-    private void canUse_1257424603(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1257424603L))
+    private void canUse_304705956(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(304705956L))
             info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "tick()V", cancellable = true)
-    private void tick_1257420759(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1257420759L))
+    private void tick_1089462362(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1089462362L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "canContinueToUse()Z", cancellable = true)
-    private void canContinueToUse_1257424603(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1257424603L))
+    private void canContinueToUse_529510726(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(529510726L))
             info.setReturnValue(false);
     }
 

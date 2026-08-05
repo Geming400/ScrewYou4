@@ -8,8 +8,8 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.entity.ai.behavior.BackUpIfTooClose.class)
 public class BackUpIfTooClose_1354741957Mixin {
         @Inject(at = @At("HEAD"), method = "create(IF)Lnet/minecraft/world/entity/ai/behavior/OneShot;", cancellable = true)
-    private static void create__725742562(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-725742562L))
+    private static void create_1253021722(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1253021722L))
             info.setReturnValue(null);
     }
 

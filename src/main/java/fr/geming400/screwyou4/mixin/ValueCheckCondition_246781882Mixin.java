@@ -8,62 +8,62 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.level.storage.loot.predicates.ValueCheckCondition.class)
 public class ValueCheckCondition_246781882Mixin {
         @Inject(at = @At("HEAD"), method = "value()Lnet/minecraft/world/level/storage/loot/providers/number/NumberProvider;", cancellable = true)
-    private void value__1416875765(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1416875765L))
+    private void value_17111292(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(17111292L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals_1632294140(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1632294140L))
+    private void equals__661844387(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-661844387L))
             info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__888678094(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-888678094L))
-            info.setReturnValue("lp+qhka'\u76C8\uB5D3\u748C\u8707F\u5B43G^\u8C3BW5W\uCC07UT\u670E38nhA0]%\u6C0BZ%1(Q1w|1P\uA1E7cE\uABEA @_y__{\"_}");
+    private void toString_1017205406(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1017205406L))
+            info.setReturnValue("\uFFE8\u4944^*i55zi<,k=.ljYm8*<\u6AE1sgp:!}\u88ED1R\u274A<O(1;c@Y|{&71\u19C7BZ<\uB458`GaEt9\u1572Q?\u83ED\uB446P,rC+zq(5+\u9EC0+#\u47BF!9bC");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_285044623(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(285044623L))
-            info.setReturnValue(837660736);
+    private void hashCode_804133972(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(804133972L))
+            info.setReturnValue(959628787);
     }
 
     @Inject(at = @At("HEAD"), method = "test(Lnet/minecraft/world/level/storage/loot/LootContext;)Z", cancellable = true)
-    private void test__2130167217(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2130167217L))
-            info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "test(Ljava/lang/Object;)Z", cancellable = true)
-    private void test_1632422604(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1632422604L))
+    private void test__1158830595(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1158830595L))
             info.setReturnValue(true);
     }
 
+    @Inject(at = @At("HEAD"), method = "test(Ljava/lang/Object;)Z", cancellable = true)
+    private void test__1490189830(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1490189830L))
+            info.setReturnValue(false);
+    }
+
     @Inject(at = @At("HEAD"), method = "validate(Lnet/minecraft/world/level/storage/loot/ValidationContext;)V", cancellable = true)
-    private void validate_1823412572(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1823412572L))
+    private void validate__771936890(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-771936890L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "range()Lnet/minecraft/world/level/storage/loot/IntRange;", cancellable = true)
-    private void range__406751432(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-406751432L))
+    private void range_1502349851(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1502349851L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "hasValue(Lnet/minecraft/world/level/storage/loot/providers/number/NumberProvider;Lnet/minecraft/world/level/storage/loot/IntRange;)Lnet/minecraft/world/level/storage/loot/predicates/LootItemCondition$Builder;", cancellable = true)
-    private static void hasValue__1255793927(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1255793927L))
+    private static void hasValue__1705572048(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1705572048L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
-    private void codec_1982635605(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1982635605L))
+    private void codec_1313227135(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1313227135L))
             info.setReturnValue(null);
     }
 

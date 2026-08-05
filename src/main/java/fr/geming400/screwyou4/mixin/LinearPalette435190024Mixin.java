@@ -8,57 +8,57 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.level.chunk.LinearPalette.class)
 public class LinearPalette435190024Mixin {
         @Inject(at = @At("HEAD"), method = "copy()Lnet/minecraft/world/level/chunk/Palette;", cancellable = true)
-    private void copy__286497425(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-286497425L))
+    private void copy__554577894(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-554577894L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "write(Lnet/minecraft/network/FriendlyByteBuf;Lnet/minecraft/core/IdMap;)V", cancellable = true)
-    private void write_1757899281(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1757899281L))
+    private void write__2096781648(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-2096781648L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "getSize()I", cancellable = true)
-    private void getSize_473452270(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(473452270L))
-            info.setReturnValue(-1916803303);
+    private void getSize_869316823(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(869316823L))
+            info.setReturnValue(1735005499);
     }
 
     @Inject(at = @At("HEAD"), method = "create(ILjava/util/List;)Lnet/minecraft/world/level/chunk/Palette;", cancellable = true)
-    private static void create_797527441(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(797527441L))
+    private static void create_1075649933(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1075649933L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "read(Lnet/minecraft/network/FriendlyByteBuf;Lnet/minecraft/core/IdMap;)V", cancellable = true)
-    private void read_1757899281(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1757899281L))
+    private void read__769062105(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-769062105L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "valueFor(I)Ljava/lang/Object;", cancellable = true)
-    private void valueFor_2008973130(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2008973130L))
-            info.setReturnValue(new java.lang.Object());
-    }
-
-    @Inject(at = @At("HEAD"), method = "maybeHas(Ljava/util/function/Predicate;)Z", cancellable = true)
-    private void maybeHas_505550414(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(505550414L))
-            info.setReturnValue(false);
+    @Inject(at = @At("HEAD"), method = "getSerializedSize(Lnet/minecraft/core/IdMap;)I", cancellable = true)
+    private void getSerializedSize_1317650301(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1317650301L))
+            info.setReturnValue(-362497569);
     }
 
     @Inject(at = @At("HEAD"), method = "idFor(Ljava/lang/Object;Lnet/minecraft/world/level/chunk/PaletteResize;)I", cancellable = true)
-    private void idFor_79740408(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(79740408L))
-            info.setReturnValue(-1270918422);
+    private void idFor__1603469018(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1603469018L))
+            info.setReturnValue(7146548);
     }
 
-    @Inject(at = @At("HEAD"), method = "getSerializedSize(Lnet/minecraft/core/IdMap;)I", cancellable = true)
-    private void getSerializedSize_1567999864(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1567999864L))
-            info.setReturnValue(-983744085);
+    @Inject(at = @At("HEAD"), method = "valueFor(I)Ljava/lang/Object;", cancellable = true)
+    private void valueFor__2118126926(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2118126926L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "maybeHas(Ljava/util/function/Predicate;)Z", cancellable = true)
+    private void maybeHas__1323501572(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1323501572L))
+            info.setReturnValue(true);
     }
 
 

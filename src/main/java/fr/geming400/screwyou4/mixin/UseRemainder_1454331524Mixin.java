@@ -8,32 +8,32 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.item.component.UseRemainder.class)
 public class UseRemainder_1454331524Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals__1455123514(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1455123514L))
+    private void equals_545705255(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(545705255L))
             info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString_318871548(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(318871548L))
-            info.setReturnValue("z}_l#.ZF$>l\u8DFA\u75B4%3a9\u2A70WOo\u47EEx#4:;okMA8:j=}7\u8152p BW=56\u6F68^\u2544\uAFD2!T:$Su\u7A0C+0s9{4ha\uCE143C|b%\uCD2EM0\u0EA8_S6c<");
+    private void toString__2070212248(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2070212248L))
+            info.setReturnValue("*YG)\u5943v80c\u0D78M");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_1492594265(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1492594265L))
-            info.setReturnValue(-1281790886);
+    private void hashCode_2011683614(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2011683614L))
+            info.setReturnValue(-315356698);
     }
 
     @Inject(at = @At("HEAD"), method = "convertIntoRemainder(Lnet/minecraft/world/item/ItemStack;IZLnet/minecraft/world/item/component/UseRemainder$OnExtraCreatedRemainder;)Lnet/minecraft/world/item/ItemStack;", cancellable = true)
-    private void convertIntoRemainder_829763979(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(829763979L))
+    private void convertIntoRemainder__274629479(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-274629479L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "convertInto()Lnet/minecraft/world/item/ItemStackTemplate;", cancellable = true)
-    private void convertInto__1086748467(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1086748467L))
+    private void convertInto_1479220608(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1479220608L))
             info.setReturnValue(null);
     }
 

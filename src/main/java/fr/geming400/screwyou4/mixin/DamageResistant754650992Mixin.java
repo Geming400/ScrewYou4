@@ -8,32 +8,32 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.item.component.DamageResistant.class)
 public class DamageResistant754650992Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals_2140163251(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2140163251L))
-            info.setReturnValue(false);
+    private void equals__153975276(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-153975276L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__380808983(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-380808983L))
-            info.setReturnValue(">R-;,pEAFKknCF8*p@_FBrEO$1|2_7mcWk_xm' }\uD4DC{${Bm'=\u1E00`c\u8F85K{B\"{@Fur_B[Q)vCu\u2240vY\u67AEvKi\u597CkB#:\uC8D9#5Bp6\u1525a:Iexu|sm");
+    private void toString_1525074517(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1525074517L))
+            info.setReturnValue("]k_I{6^X\u65B8m,`%otKuAbjQt\u5730H0MYSeH\u719A\u74BAO(C1Whi$\u6059fI2s\u2725\u5489Y+");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_792913734(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(792913734L))
-            info.setReturnValue(1078172955);
+    private void hashCode_1312003083(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1312003083L))
+            info.setReturnValue(-1444866861);
     }
 
     @Inject(at = @At("HEAD"), method = "types()Lnet/minecraft/core/HolderSet;", cancellable = true)
-    private void types__1920363260(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1920363260L))
+    private void types_1270976317(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1270976317L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "isResistantTo(Lnet/minecraft/world/damagesource/DamageSource;)Z", cancellable = true)
-    private void isResistantTo_422981376(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(422981376L))
+    private void isResistantTo_613068174(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(613068174L))
             info.setReturnValue(false);
     }
 

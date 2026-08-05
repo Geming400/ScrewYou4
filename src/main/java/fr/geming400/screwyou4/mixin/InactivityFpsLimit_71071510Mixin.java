@@ -8,27 +8,27 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.InactivityFpsLimit.class)
 public class InactivityFpsLimit_71071510Mixin {
         @Inject(at = @At("HEAD"), method = "values()[Lnet/minecraft/client/InactivityFpsLimit;", cancellable = true)
-    private static void values__511623006(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-511623006L))
+    private static void values__346738108(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-346738108L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/client/InactivityFpsLimit;", cancellable = true)
-    private static void valueOf__505212219(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-505212219L))
+    private static void valueOf_881412765(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(881412765L))
             info.setReturnValue(net.minecraft.client.InactivityFpsLimit.AFK);
     }
 
     @Inject(at = @At("HEAD"), method = "caption()Lnet/minecraft/network/chat/Component;", cancellable = true)
-    private void caption__2105837656(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2105837656L))
+    private void caption_480596494(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(480596494L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
-    private void getSerializedName__1064388962(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1064388962L))
-            info.setReturnValue("\u9AA0aejYhJT,zgVJeT^^l_5C]tF1q#?-c\u569CI\u775A]1=@R91W`g&zdg'>;}[}/S,HuLu\u04A5_\uB332\u978C\u598C\uD0CFoD)O\uA613\uC14D2%AV['n}he K\u3ED431G4lL^");
+    private void getSerializedName_159280131(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(159280131L))
+            info.setReturnValue("CzODc\u8D79*V{8CD0`G$(/Kp2w7a>]TyJ\u6C8D+`uuI");
     }
 
 

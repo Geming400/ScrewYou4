@@ -8,44 +8,44 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.entity.ai.attributes.AttributeModifier.class)
 public class AttributeModifier607456821Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals_1992969080(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1992969080L))
+    private void equals__301169447(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-301169447L))
             info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__528003154(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-528003154L))
+    private void toString_1377880346(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1377880346L))
             info.setReturnValue("");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_645719563(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(645719563L))
-            info.setReturnValue(-2010474745);
+    private void hashCode_1164808912(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1164808912L))
+            info.setReturnValue(600105624);
     }
 
     @Inject(at = @At("HEAD"), method = "id()Lnet/minecraft/resources/Identifier;", cancellable = true)
-    private void id__1835609732(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1835609732L))
+    private void id__1985321065(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1985321065L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "is(Lnet/minecraft/resources/Identifier;)Z", cancellable = true)
-    private void is__886980492(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-886980492L))
+    private void is_628034186(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(628034186L))
             info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "amount()D", cancellable = true)
-    private void amount_645714262(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(645714262L))
-            info.setReturnValue(5.572893006595991E8D);
+    private void amount__656476162(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-656476162L))
+            info.setReturnValue(8.288239000948837E8D);
     }
 
     @Inject(at = @At("HEAD"), method = "operation()Lnet/minecraft/world/entity/ai/attributes/AttributeModifier$Operation;", cancellable = true)
-    private void operation__836178631(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-836178631L))
+    private void operation_2104014304(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2104014304L))
             info.setReturnValue(net.minecraft.world.entity.ai.attributes.AttributeModifier.Operation.ADD_VALUE);
     }
 

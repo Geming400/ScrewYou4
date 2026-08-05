@@ -8,20 +8,20 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.core.component.DataComponentLookup.class)
 public class DataComponentLookup1627270495Mixin {
         @Inject(at = @At("HEAD"), method = "findAll(Lnet/minecraft/core/component/DataComponentType;Ljava/lang/Object;)Ljava/util/Collection;", cancellable = true)
-    private void findAll__35124125(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-35124125L))
+    private void findAll__450755189(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-450755189L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "findAll(Lnet/minecraft/core/component/DataComponentType;)Ljava/util/Collection;", cancellable = true)
-    private void findAll_1074373759(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1074373759L))
+    private void findAll_1962612647(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1962612647L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "findMatching(Lnet/minecraft/core/component/DataComponentType;Ljava/util/function/Predicate;)Ljava/util/stream/Stream;", cancellable = true)
-    private void findMatching_1308173235(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1308173235L))
+    private void findMatching_1415523613(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1415523613L))
             info.setReturnValue(null);
     }
 

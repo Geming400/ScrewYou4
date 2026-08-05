@@ -8,14 +8,14 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.util.CsvOutput.class)
 public class CsvOutput_1393937223Mixin {
         @Inject(at = @At("HEAD"), method = "builder()Lnet/minecraft/util/CsvOutput$Builder;", cancellable = true)
-    private static void builder__567050265(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-567050265L))
-            info.setReturnValue(new net.minecraft.util.CsvOutput.Builder());
+    private static void builder__314917438(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-314917438L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "writeRow([Ljava/lang/Object;)V", cancellable = true)
-    private void writeRow__842341920(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-842341920L))
+    private void writeRow_151374427(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(151374427L))
             info.cancel();
     }
 

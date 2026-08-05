@@ -8,63 +8,63 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.level.chunk.status.ChunkStep.class)
 public class ChunkStep_580948773Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals_1966461031(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1966461031L))
-            info.setReturnValue(true);
+    private void equals__327677496(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-327677496L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__554511203(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-554511203L))
-            info.setReturnValue("`Kq9\u610C&\u2F108I\"CkP/iN}HD3wnyX\u78BC\uD3DD^YbfL\u6571KL#,uo\"?pk]RY}\u7946^J\u3777gu;_.XmMW2$");
+    private void toString_1351372297(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1351372297L))
+            info.setReturnValue(" N,X)I\u2B01m\u5E1E\uA86E,W}uA'\u3EE0\u573Bb4PwRf'|) I2+]H(QrwE6$\u99CB>\u794DIt30u_}>$|`,b4J`C8e1R,MN-?6\u7B96\uFD44[Hy\uFE76+l@Xr<");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_619211514(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(619211514L))
-            info.setReturnValue(-1703697597);
+    private void hashCode_1138300863(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1138300863L))
+            info.setReturnValue(-1298226582);
     }
 
     @Inject(at = @At("HEAD"), method = "apply(Lnet/minecraft/world/level/chunk/status/WorldGenContext;Lnet/minecraft/util/StaticCache2D;Lnet/minecraft/world/level/chunk/ChunkAccess;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
-    private void apply__907869732(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-907869732L))
-            info.setReturnValue(null);
+    private void apply_1125766062(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1125766062L))
+            info.setReturnValue(new java.util.concurrent.CompletableFuture());
     }
 
     @Inject(at = @At("HEAD"), method = "task()Lnet/minecraft/world/level/chunk/status/ChunkStatusTask;", cancellable = true)
-    private void task_381924173(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(381924173L))
+    private void task_726715218(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(726715218L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "directDependencies()Lnet/minecraft/world/level/chunk/status/ChunkDependencies;", cancellable = true)
-    private void directDependencies_206952379(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(206952379L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "blockStateWriteRadius()I", cancellable = true)
-    private void blockStateWriteRadius_619211018(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(619211018L))
-            info.setReturnValue(-1426678389);
     }
 
     @Inject(at = @At("HEAD"), method = "targetStatus()Lnet/minecraft/world/level/chunk/status/ChunkStatus;", cancellable = true)
-    private void targetStatus_598228370(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(598228370L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "accumulatedDependencies()Lnet/minecraft/world/level/chunk/status/ChunkDependencies;", cancellable = true)
-    private void accumulatedDependencies_206952379(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(206952379L))
+    private void targetStatus__980929163(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-980929163L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getAccumulatedRadiusOf(Lnet/minecraft/world/level/chunk/status/ChunkStatus;)I", cancellable = true)
-    private void getAccumulatedRadiusOf__735670023(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-735670023L))
-            info.setReturnValue(-2051099907);
+    private void getAccumulatedRadiusOf__1477576092(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1477576092L))
+            info.setReturnValue(1280466061);
+    }
+
+    @Inject(at = @At("HEAD"), method = "accumulatedDependencies()Lnet/minecraft/world/level/chunk/status/ChunkDependencies;", cancellable = true)
+    private void accumulatedDependencies_354700294(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(354700294L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "directDependencies()Lnet/minecraft/world/level/chunk/status/ChunkDependencies;", cancellable = true)
+    private void directDependencies_1580590061(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1580590061L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "blockStateWriteRadius()I", cancellable = true)
+    private void blockStateWriteRadius__785603971(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-785603971L))
+            info.setReturnValue(1923564123);
     }
 
 

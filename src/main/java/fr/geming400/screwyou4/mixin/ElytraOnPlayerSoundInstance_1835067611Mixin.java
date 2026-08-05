@@ -8,8 +8,8 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.resources.sounds.ElytraOnPlayerSoundInstance.class)
 public class ElytraOnPlayerSoundInstance_1835067611Mixin {
         @Inject(at = @At("HEAD"), method = "tick()V", cancellable = true)
-    private void tick_1873342349(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1873342349L))
+    private void tick_1705383952(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1705383952L))
             info.cancel();
     }
 

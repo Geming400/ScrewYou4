@@ -8,8 +8,8 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.level.levelgen.feature.ReplaceBlockFeature.class)
 public class ReplaceBlockFeature1139299471Mixin {
         @Inject(at = @At("HEAD"), method = "place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z", cancellable = true)
-    private void place_1854557207(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1854557207L))
+    private void place__1581795472(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1581795472L))
             info.setReturnValue(false);
     }
 

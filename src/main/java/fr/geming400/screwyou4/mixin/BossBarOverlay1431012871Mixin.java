@@ -8,27 +8,27 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.BossEvent.BossBarOverlay.class)
 public class BossBarOverlay1431012871Mixin {
         @Inject(at = @At("HEAD"), method = "getName()Ljava/lang/String;", cancellable = true)
-    private void getName_295552400(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(295552400L))
-            info.setReturnValue("\u47A4F:UJbsXEP\u0216pk9QIFn26\uFD00i\u584CuC\u08F2s\uC3AA85IW/?Ya|R3B\uBFFA\u77A4(/!}7/E\uC2A7O");
+    private void getName__457834031(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-457834031L))
+            info.setReturnValue("\uA152u&\u5329b \u1253A(luV\uB271As!EU:'?FkuEd#?|,6X^ry*[xC>u.Wm%ET$\u2B42}m'\u25E2D,* :(\u21ACz'j5nw-^@8\uB27B[");
     }
 
     @Inject(at = @At("HEAD"), method = "values()[Lnet/minecraft/world/BossEvent$BossBarOverlay;", cancellable = true)
-    private static void values_1446179348(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1446179348L))
+    private static void values__862014030(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-862014030L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/world/BossEvent$BossBarOverlay;", cancellable = true)
-    private static void valueOf__2228783(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2228783L))
+    private static void valueOf__1340543751(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1340543751L))
             info.setReturnValue(net.minecraft.world.BossEvent.BossBarOverlay.PROGRESS);
     }
 
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
-    private void getSerializedName_295552400(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(295552400L))
-            info.setReturnValue("\u47A4F:UJbsXEP\u0216pk9QIFn26\uFD00i\u584CuC\u08F2s\uC3AA85IW/?Ya|R3B\uBFFA\u77A4(/!}7/E\uC2A7O");
+    private void getSerializedName_1519221493(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1519221493L))
+            info.setReturnValue("3\"7j\u7D19v%(6gi$tdDAK]#]Sz08(^.q}S[yi+ZkdjN\u5BEC2R IjkP\uD655WN{t\u36A6<>.ve?nYw&UK#l$]s[rl\u2DA4\u9828kN;g\uCBCA9U0P\uA5F4o%<K@");
     }
 
 

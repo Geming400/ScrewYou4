@@ -8,8 +8,8 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.server.commands.SpawnArmorTrimsCommand.class)
 public class SpawnArmorTrimsCommand1998649738Mixin {
         @Inject(at = @At("HEAD"), method = "register(Lcom/mojang/brigadier/CommandDispatcher;)V", cancellable = true)
-    private static void register_1055089515(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1055089515L))
+    private static void register_1880695208(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1880695208L))
             info.cancel();
     }
 

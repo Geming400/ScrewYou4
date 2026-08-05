@@ -8,20 +8,20 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.level.material.MapColor.Brightness.class)
 public class Brightness_635924008Mixin {
         @Inject(at = @At("HEAD"), method = "values()[Lnet/minecraft/world/level/material/MapColor$Brightness;", cancellable = true)
-    private static void values_171964196(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(171964196L))
+    private static void values__801485502(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-801485502L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/world/level/material/MapColor$Brightness;", cancellable = true)
-    private static void valueOf__1699661151(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1699661151L))
-            info.setReturnValue(net.minecraft.world.level.material.MapColor.Brightness.HIGH);
+    private static void valueOf__1861658679(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1861658679L))
+            info.setReturnValue(net.minecraft.world.level.material.MapColor.Brightness.LOW);
     }
 
     @Inject(at = @At("HEAD"), method = "byId(I)Lnet/minecraft/world/level/material/MapColor$Brightness;", cancellable = true)
-    private static void byId__2026412718(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2026412718L))
+    private static void byId_1655601856(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1655601856L))
             info.setReturnValue(net.minecraft.world.level.material.MapColor.Brightness.HIGH);
     }
 

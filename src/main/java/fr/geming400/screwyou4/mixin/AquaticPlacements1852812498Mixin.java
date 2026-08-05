@@ -8,8 +8,8 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.data.worldgen.placement.AquaticPlacements.class)
 public class AquaticPlacements1852812498Mixin {
         @Inject(at = @At("HEAD"), method = "bootstrap(Lnet/minecraft/data/worldgen/BootstrapContext;)V", cancellable = true)
-    private static void bootstrap_660293995(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(660293995L))
+    private static void bootstrap_1298206781(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1298206781L))
             info.cancel();
     }
 

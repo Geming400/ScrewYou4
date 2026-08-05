@@ -8,38 +8,38 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.entity.ai.behavior.declarative.MemoryCondition.Absent.class)
 public class Absent705519547Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals_2091031806(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2091031806L))
+    private void equals__203106721(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-203106721L))
             info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__429940428(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-429940428L))
-            info.setReturnValue(",\u3F73Z!\u1772E\u22DDB&i\u53721!d?=y\u950Cs\uA01DeCC?\u1E1A\u887FVw:\uD362\uD50Bs'5^Pbf,X-\uB807&;jWN'ONQ\u71582L;L3\uD499-['0H");
+    private void toString_1475943072(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1475943072L))
+            info.setReturnValue("p@\u0611I/JN,}u^[K^t>O$k)&<\u744E@\u6C57z]drsw@i\"cRvZ\u7A34+1FG/=P?H\uA38F");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_743782289(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(743782289L))
-            info.setReturnValue(-1900702962);
+    private void hashCode_1262871638(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1262871638L))
+            info.setReturnValue(-1425209306);
     }
 
     @Inject(at = @At("HEAD"), method = "condition()Lnet/minecraft/world/entity/ai/memory/MemoryStatus;", cancellable = true)
-    private void condition_228905354(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(228905354L))
+    private void condition__1193311729(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1193311729L))
             info.setReturnValue(net.minecraft.world.entity.ai.memory.MemoryStatus.VALUE_ABSENT);
     }
 
-    @Inject(at = @At("HEAD"), method = "memory()Lnet/minecraft/world/entity/ai/memory/MemoryModuleType;", cancellable = true)
-    private void memory_1415039286(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1415039286L))
+    @Inject(at = @At("HEAD"), method = "createAccessor(Lnet/minecraft/world/entity/ai/Brain;Ljava/util/Optional;)Lnet/minecraft/world/entity/ai/behavior/declarative/MemoryAccessor;", cancellable = true)
+    private void createAccessor__2044405536(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2044405536L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "createAccessor(Lnet/minecraft/world/entity/ai/Brain;Ljava/util/Optional;)Lnet/minecraft/world/entity/ai/behavior/declarative/MemoryAccessor;", cancellable = true)
-    private void createAccessor__1821325955(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1821325955L))
+    @Inject(at = @At("HEAD"), method = "memory()Lnet/minecraft/world/entity/ai/memory/MemoryModuleType;", cancellable = true)
+    private void memory_645838741(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(645838741L))
             info.setReturnValue(null);
     }
 

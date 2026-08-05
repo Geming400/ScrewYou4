@@ -8,8 +8,8 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.renderer.debug.VillageSectionsDebugRenderer.class)
 public class VillageSectionsDebugRenderer_109334440Mixin {
         @Inject(at = @At("HEAD"), method = "emitGizmos(DDDLnet/minecraft/util/debug/DebugValueAccess;Lnet/minecraft/client/renderer/culling/Frustum;F)V", cancellable = true)
-    private void emitGizmos__991683508(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-991683508L))
+    private void emitGizmos_1408162528(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1408162528L))
             info.cancel();
     }
 

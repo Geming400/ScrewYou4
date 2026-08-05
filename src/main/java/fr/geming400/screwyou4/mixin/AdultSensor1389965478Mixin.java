@@ -8,8 +8,8 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.entity.ai.sensing.AdultSensor.class)
 public class AdultSensor1389965478Mixin {
         @Inject(at = @At("HEAD"), method = "requires()Ljava/util/Set;", cancellable = true)
-    private void requires__439070008(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-439070008L))
+    private void requires_145030234(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(145030234L))
             info.setReturnValue(null);
     }
 

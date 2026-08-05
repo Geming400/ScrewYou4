@@ -8,32 +8,32 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.entity.vehicle.minecart.MinecartSpawner.class)
 public class MinecartSpawner599839303Mixin {
         @Inject(at = @At("HEAD"), method = "tick()V", cancellable = true)
-    private void tick_638114042(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(638114042L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "handleEntityEvent(B)V", cancellable = true)
-    private void handleEntityEvent_1807291628(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1807291628L))
+    private void tick_470155645(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(470155645L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "getPickResult()Lnet/minecraft/world/item/ItemStack;", cancellable = true)
-    private void getPickResult_1123257963(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1123257963L))
+    private void getPickResult_654768639(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(654768639L))
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "handleEntityEvent(B)V", cancellable = true)
+    private void handleEntityEvent_1353587419(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1353587419L))
+            info.cancel();
+    }
+
     @Inject(at = @At("HEAD"), method = "getSpawner()Lnet/minecraft/world/level/BaseSpawner;", cancellable = true)
-    private void getSpawner_1524921136(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1524921136L))
+    private void getSpawner_114695870(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(114695870L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getDefaultDisplayBlockState()Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
-    private void getDefaultDisplayBlockState__1695919563(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1695919563L))
+    private void getDefaultDisplayBlockState__2106777712(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2106777712L))
             info.setReturnValue(null);
     }
 

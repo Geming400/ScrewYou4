@@ -8,14 +8,14 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.level.block.WitherWallSkullBlock.class)
 public class WitherWallSkullBlock_800146319Mixin {
         @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
-    private void codec__1758967254(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1758967254L))
+    private void codec_1866591572(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1866591572L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "setPlacedBy(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;)V", cancellable = true)
-    private void setPlacedBy__1767388830(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1767388830L))
+    private void setPlacedBy__1990826024(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1990826024L))
             info.cancel();
     }
 

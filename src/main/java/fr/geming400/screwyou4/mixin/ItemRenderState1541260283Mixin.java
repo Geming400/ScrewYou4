@@ -8,33 +8,33 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.entity.Display.ItemDisplay.ItemRenderState.class)
 public class ItemRenderState1541260283Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals__1368194754(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1368194754L))
+    private void equals_632634015(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(632634015L))
             info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString_405800308(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(405800308L))
-            info.setReturnValue("2;S%OC\uF95Dwr3C^>5G1\"6l_bGyBw:Xdw?*fO\u9D31\u8C06XTUW");
+    private void toString__1983283488(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1983283488L))
+            info.setReturnValue("\uA133D(u'WLU\u6AEFt1NnIhoS'\uABAC#porhdO\u12C0W,CsP(wIJW%nB}O\u8A34OTFu");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_1579523025(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1579523025L))
-            info.setReturnValue(-119801663);
+    private void hashCode_2098612374(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2098612374L))
+            info.setReturnValue(237604438);
     }
 
     @Inject(at = @At("HEAD"), method = "itemStack()Lnet/minecraft/world/item/ItemStack;", cancellable = true)
-    private void itemStack_2064678943(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2064678943L))
+    private void itemStack__1047940524(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1047940524L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "itemTransform()Lnet/minecraft/world/item/ItemDisplayContext;", cancellable = true)
-    private void itemTransform_1400920052(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1400920052L))
-            info.setReturnValue(net.minecraft.world.item.ItemDisplayContext.HEAD);
+    private void itemTransform_649096059(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(649096059L))
+            info.setReturnValue(net.minecraft.world.item.ItemDisplayContext.THIRD_PERSON_RIGHT_HAND);
     }
 
 

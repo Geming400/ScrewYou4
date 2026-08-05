@@ -7,33 +7,33 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.client.renderer.texture.Stitcher.class)
 public class Stitcher1990092682Mixin {
-        @Inject(at = @At("HEAD"), method = "gatherSprites(Lnet/minecraft/client/renderer/texture/Stitcher$SpriteLoader;)V", cancellable = true)
-    private void gatherSprites__1854901114(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1854901114L))
+        @Inject(at = @At("HEAD"), method = "getWidth()I", cancellable = true)
+    private void getWidth_52196192(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(52196192L))
+            info.setReturnValue(2131505925);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getHeight()I", cancellable = true)
+    private void getHeight_264475507(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(264475507L))
+            info.setReturnValue(-1741975611);
+    }
+
+    @Inject(at = @At("HEAD"), method = "gatherSprites(Lnet/minecraft/client/renderer/texture/Stitcher$SpriteLoader;)V", cancellable = true)
+    private void gatherSprites_481403801(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(481403801L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "registerSprite(Lnet/minecraft/client/renderer/texture/Stitcher$Entry;)V", cancellable = true)
-    private void registerSprite__233418896(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-233418896L))
+    private void registerSprite__1656108248(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1656108248L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getHeight()I", cancellable = true)
-    private void getHeight_2028354928(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2028354928L))
-            info.setReturnValue(-600236009);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getWidth()I", cancellable = true)
-    private void getWidth_2028354928(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2028354928L))
-            info.setReturnValue(-600236009);
-    }
-
     @Inject(at = @At("HEAD"), method = "stitch()V", cancellable = true)
-    private void stitch_2028367421(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(2028367421L))
+    private void stitch_361022508(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(361022508L))
             info.cancel();
     }
 

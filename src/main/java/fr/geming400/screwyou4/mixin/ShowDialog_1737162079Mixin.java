@@ -8,32 +8,32 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.network.chat.ClickEvent.ShowDialog.class)
 public class ShowDialog_1737162079Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals__1172292959(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1172292959L))
+    private void equals_828535810(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(828535810L))
             info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString_601702103(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(601702103L))
-            info.setReturnValue("Qcq#ooZ\u2E2D@Lq[kzo:");
+    private void toString__1787381693(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1787381693L))
+            info.setReturnValue("kJ7`KFSSry\uB307|V^MX>Yl+$8Gt^0\uD740");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_1775424820(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1775424820L))
-            info.setReturnValue(380809801);
+    private void hashCode__2000453127(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2000453127L))
+            info.setReturnValue(2140969478);
     }
 
     @Inject(at = @At("HEAD"), method = "action()Lnet/minecraft/network/chat/ClickEvent$Action;", cancellable = true)
-    private void action_1396765382(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1396765382L))
-            info.setReturnValue(net.minecraft.network.chat.ClickEvent.Action.OPEN_FILE);
+    private void action_1823291260(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1823291260L))
+            info.setReturnValue(net.minecraft.network.chat.ClickEvent.Action.SHOW_DIALOG);
     }
 
     @Inject(at = @At("HEAD"), method = "dialog()Lnet/minecraft/core/Holder;", cancellable = true)
-    private void dialog__1008929446(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1008929446L))
+    private void dialog_1020612370(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1020612370L))
             info.setReturnValue(null);
     }
 

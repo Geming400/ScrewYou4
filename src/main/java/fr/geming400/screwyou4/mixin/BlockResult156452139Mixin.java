@@ -8,38 +8,38 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.commands.arguments.blocks.BlockStateParser.BlockResult.class)
 public class BlockResult156452139Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals_1541964398(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1541964398L))
+    private void equals__752174129(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-752174129L))
             info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__979007836(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-979007836L))
-            info.setReturnValue("}2%'JC)iQI7)\"\u6FE0Ow#H|l<'\u5F88 W=\u9080)(\u04DBqMHA`WO_&Yg\u02B3=bdi@'HE&qCUh #,in[n3");
+    private void toString_926875664(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(926875664L))
+            info.setReturnValue("a4}5gXj0Y?X,g`\uCB1ATC\u3884Qy5<)O]\u28C6Z!z><OQ9HJb\uFCC8O[)GWZ/cN9!/t\uA84Dfs\u5435@$ }\u9A21*Q\uB6C14ltI;;\u2A33\u1E53JrDI??yd\uFF07N'\u44DCk\u77D0F_\u4DB6qn@{\"H");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_194714881(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(194714881L))
-            info.setReturnValue(885909753);
+    private void hashCode_713804230(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(713804230L))
+            info.setReturnValue(395333382);
     }
 
     @Inject(at = @At("HEAD"), method = "properties()Ljava/util/Map;", cancellable = true)
-    private void properties__1848171501(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1848171501L))
+    private void properties__1137038336(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1137038336L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "nbt()Lnet/minecraft/nbt/CompoundTag;", cancellable = true)
-    private void nbt__1413770781(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1413770781L))
-            info.setReturnValue(new net.minecraft.nbt.CompoundTag());
+    private void nbt__1340120925(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1340120925L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "blockState()Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
-    private void blockState__2139306727(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2139306727L))
+    private void blockState__424936931(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-424936931L))
             info.setReturnValue(null);
     }
 

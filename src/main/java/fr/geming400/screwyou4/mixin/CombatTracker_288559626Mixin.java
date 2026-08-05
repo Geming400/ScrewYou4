@@ -7,28 +7,28 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.world.damagesource.CombatTracker.class)
 public class CombatTracker_288559626Mixin {
-        @Inject(at = @At("HEAD"), method = "recordDamage(Lnet/minecraft/world/damagesource/DamageSource;F)V", cancellable = true)
-    private void recordDamage__1378753543(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1378753543L))
+        @Inject(at = @At("HEAD"), method = "getCombatDuration()I", cancellable = true)
+    private void getCombatDuration_2032988433(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2032988433L))
+            info.setReturnValue(-101564961);
+    }
+
+    @Inject(at = @At("HEAD"), method = "recordDamage(Lnet/minecraft/world/damagesource/DamageSource;F)V", cancellable = true)
+    private void recordDamage_1011872985(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1011872985L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "getDeathMessage()Lnet/minecraft/network/chat/Component;", cancellable = true)
-    private void getDeathMessage__1888349540(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1888349540L))
+    private void getDeathMessage__404362043(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-404362043L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "recheckStatus()V", cancellable = true)
-    private void recheckStatus_326834364(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(326834364L))
+    private void recheckStatus__448231915(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-448231915L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "getCombatDuration()I", cancellable = true)
-    private void getCombatDuration_326821871(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(326821871L))
-            info.setReturnValue(-404149855);
     }
 
 

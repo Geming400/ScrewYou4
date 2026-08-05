@@ -8,45 +8,45 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.level.block.entity.vault.VaultBlockEntity.class)
 public class VaultBlockEntity899832940Mixin {
         @Inject(at = @At("HEAD"), method = "setConfig(Lnet/minecraft/world/level/block/entity/vault/VaultConfig;)V", cancellable = true)
-    private void setConfig__1246179867(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1246179867L))
+    private void setConfig_400472865(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(400472865L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "getConfig()Lnet/minecraft/world/level/block/entity/vault/VaultConfig;", cancellable = true)
-    private void getConfig__1280254799(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1280254799L))
+    private void getConfig__1934757655(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1934757655L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getUpdateTag(Lnet/minecraft/core/HolderLookup$Provider;)Lnet/minecraft/nbt/CompoundTag;", cancellable = true)
-    private void getUpdateTag__266788608(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-266788608L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getUpdatePacket()Lnet/minecraft/network/protocol/Packet;", cancellable = true)
-    private void getUpdatePacket__114849082(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-114849082L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getClientData()Lnet/minecraft/world/level/block/entity/vault/VaultClientData;", cancellable = true)
-    private void getClientData_1657076222(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1657076222L))
+    @Inject(at = @At("HEAD"), method = "getServerData()Lnet/minecraft/world/level/block/entity/vault/VaultServerData;", cancellable = true)
+    private void getServerData_973106249(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(973106249L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getSharedData()Lnet/minecraft/world/level/block/entity/vault/VaultSharedData;", cancellable = true)
-    private void getSharedData_944324644(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(944324644L))
-            info.setReturnValue(new net.minecraft.world.level.block.entity.vault.VaultSharedData());
+    private void getSharedData_1063637129(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1063637129L))
+            info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getServerData()Lnet/minecraft/world/level/block/entity/vault/VaultServerData;", cancellable = true)
-    private void getServerData__2082838650(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2082838650L))
-            info.setReturnValue(new net.minecraft.world.level.block.entity.vault.VaultServerData());
+    @Inject(at = @At("HEAD"), method = "getClientData()Lnet/minecraft/world/level/block/entity/vault/VaultClientData;", cancellable = true)
+    private void getClientData__1771045559(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1771045559L))
+            info.setReturnValue(new net.minecraft.world.level.block.entity.vault.VaultClientData());
+    }
+
+    @Inject(at = @At("HEAD"), method = "getUpdatePacket()Lnet/minecraft/network/protocol/Packet;", cancellable = true)
+    private void getUpdatePacket__1223069889(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1223069889L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getUpdateTag(Lnet/minecraft/core/HolderLookup$Provider;)Lnet/minecraft/nbt/CompoundTag;", cancellable = true)
+    private void getUpdateTag_321693061(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(321693061L))
+            info.setReturnValue(new net.minecraft.nbt.CompoundTag());
     }
 
 

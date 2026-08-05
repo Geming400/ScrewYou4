@@ -8,38 +8,38 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.renderer.feature.GizmoFeatureRenderer.Submit.class)
 public class Submit_710540377Mixin {
         @Inject(at = @At("HEAD"), method = "group()Lnet/minecraft/client/renderer/gizmos/DrawableGizmoPrimitives$Group;", cancellable = true)
-    private void group_451436157(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(451436157L))
+    private void group_1873473020(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1873473020L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals_2096052635(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2096052635L))
+    private void equals__198085892(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-198085892L))
             info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__424919599(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-424919599L))
-            info.setReturnValue("Pk-\"m\u7FF3:,a(ygD%QPtlt!9t'15%\uAF73Tmn;TO4f{?9wTFl[wD@\u5E3EC\u9D261yh^m9-\uCEDD<LC[#|MB.?$p]NU<nK\u0E19");
+    private void toString_1480963901(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1480963901L))
+            info.setReturnValue("%4i\u818Bk3OL]2;\u99F6\"\u2E5Ac;)_%\u722E'5r.\u9637\u7245.ap\"Jn1SB.\uD699j}i\uC57Dd\uB191l.HSb{k_^S>#^8jvGR");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_748803118(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(748803118L))
-            info.setReturnValue(-886625426);
-    }
-
-    @Inject(at = @At("HEAD"), method = "featureType()Lnet/minecraft/client/renderer/feature/FeatureRendererType;", cancellable = true)
-    private void featureType_1741623902(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1741623902L))
-            info.setReturnValue(null);
+    private void hashCode_1267892467(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1267892467L))
+            info.setReturnValue(2064669943);
     }
 
     @Inject(at = @At("HEAD"), method = "camera()Lnet/minecraft/client/renderer/state/level/CameraRenderState;", cancellable = true)
-    private void camera_1830869227(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1830869227L))
+    private void camera_1666589286(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1666589286L))
+            info.setReturnValue(new net.minecraft.client.renderer.state.level.CameraRenderState());
+    }
+
+    @Inject(at = @At("HEAD"), method = "featureType()Lnet/minecraft/client/renderer/feature/FeatureRendererType;", cancellable = true)
+    private void featureType_518116622(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(518116622L))
             info.setReturnValue(null);
     }
 

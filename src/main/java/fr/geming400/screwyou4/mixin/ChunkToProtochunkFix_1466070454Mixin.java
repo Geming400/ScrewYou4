@@ -8,8 +8,8 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.util.datafix.fixes.ChunkToProtochunkFix.class)
 public class ChunkToProtochunkFix_1466070454Mixin {
         @Inject(at = @At("HEAD"), method = "makeRule()Lcom/mojang/datafixers/TypeRewriteRule;", cancellable = true)
-    private void makeRule__1343701008(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1343701008L))
+    private void makeRule_649933734(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(649933734L))
             info.setReturnValue(null);
     }
 

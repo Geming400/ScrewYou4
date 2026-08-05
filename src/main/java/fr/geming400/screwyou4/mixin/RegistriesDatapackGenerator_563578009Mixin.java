@@ -8,14 +8,14 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.data.registries.RegistriesDatapackGenerator.class)
 public class RegistriesDatapackGenerator_563578009Mixin {
         @Inject(at = @At("HEAD"), method = "getName()Ljava/lang/String;", cancellable = true)
-    private void getName__571882463(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-571882463L))
-            info.setReturnValue("tAE&\u9988hfUu`\u5917e\u6666w\u54098'Qr\u77C8_6pb{;c\uB20EHU-&SS^|JoGUlXyJDQzQ( 0.kN\u9C76&\"$-OR\u6F69s3BNX_.\u20AD3mRY=\" e;v7qk\u50E6vDAk^ml");
+    private void getName__1325268894(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1325268894L))
+            info.setReturnValue(">SqPk95`q\uBC3A(8u>$FA(_x\"+S,+p-Lg\u32FBySt;sCB \u19BE {6k]\u3407sV\"Fx#\u7C2Dy)\uB2708;)\u2667+8}(N\u0525;N3");
     }
 
     @Inject(at = @At("HEAD"), method = "run(Lnet/minecraft/data/CachedOutput;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
-    private void run_1290100466(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1290100466L))
+    private void run_663303751(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(663303751L))
             info.setReturnValue(new java.util.concurrent.CompletableFuture());
     }
 

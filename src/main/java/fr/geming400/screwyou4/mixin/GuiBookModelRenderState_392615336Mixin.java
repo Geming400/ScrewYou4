@@ -8,86 +8,86 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.renderer.state.gui.pip.GuiBookModelRenderState.class)
 public class GuiBookModelRenderState_392615336Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals_1778127594(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1778127594L))
-            info.setReturnValue(false);
+    private void equals__516010933(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-516010933L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__742844640(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-742844640L))
-            info.setReturnValue("eU\u8FA1qj7A\u3692\uC4E4`R\u60B6jW|=7e3\u7765rVRm<4\u2B61GA7\u402Bdm 4(<O)!-LekPG)Y_p}D`/kf;}q\u28D9E* BU0\uFB14F\u3474J");
+    private void toString_1163038860(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1163038860L))
+            info.setReturnValue("+zqZtdD\u0925%\u3AA0/\uD602!y-5<zh\u7BD1e34PYr4F.\uB385+};\"Vsk.e!=?\u1B1BW");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_430878077(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(430878077L))
-            info.setReturnValue(-519033042);
+    private void hashCode_949967426(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(949967426L))
+            info.setReturnValue(-29093575);
     }
 
     @Inject(at = @At("HEAD"), method = "scale()F", cancellable = true)
-    private void scale_430874698(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(430874698L))
-            info.setReturnValue(1.352473E8F);
+    private void scale__2031102656(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2031102656L))
+            info.setReturnValue(8.372699E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "bounds()Lnet/minecraft/client/gui/navigation/ScreenRectangle;", cancellable = true)
-    private void bounds_1567640639(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1567640639L))
+    private void bounds__2074317014(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2074317014L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "open()F", cancellable = true)
-    private void open_430874698(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(430874698L))
-            info.setReturnValue(1.352473E8F);
+    private void open_1885919296(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1885919296L))
+            info.setReturnValue(8.372699E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "x1()I", cancellable = true)
-    private void x1_430877581(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(430877581L))
-            info.setReturnValue(-242013834);
+    private void x1_959965300(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(959965300L))
+            info.setReturnValue(2103569799);
     }
 
     @Inject(at = @At("HEAD"), method = "flip()F", cancellable = true)
-    private void flip_430874698(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(430874698L))
-            info.setReturnValue(1.352473E8F);
+    private void flip_1904139261(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1904139261L))
+            info.setReturnValue(8.372699E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "y1()I", cancellable = true)
-    private void y1_430877581(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(430877581L))
-            info.setReturnValue(-242013834);
+    private void y1_1847468981(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1847468981L))
+            info.setReturnValue(-706354742);
     }
 
     @Inject(at = @At("HEAD"), method = "x0()I", cancellable = true)
-    private void x0_430877581(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(430877581L))
-            info.setReturnValue(-242013834);
+    private void x0_931336149(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(931336149L))
+            info.setReturnValue(1419227085);
     }
 
     @Inject(at = @At("HEAD"), method = "y0()I", cancellable = true)
-    private void y0_430877581(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(430877581L))
-            info.setReturnValue(-242013834);
+    private void y0_1818839830(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1818839830L))
+            info.setReturnValue(902589879);
+    }
+
+    @Inject(at = @At("HEAD"), method = "scissorArea()Lnet/minecraft/client/gui/navigation/ScreenRectangle;", cancellable = true)
+    private void scissorArea__2132284970(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2132284970L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "texture()Lnet/minecraft/resources/Identifier;", cancellable = true)
-    private void texture__2050451218(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2050451218L))
+    private void texture_1223816969(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1223816969L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "bookModel()Lnet/minecraft/client/model/object/book/BookModel;", cancellable = true)
-    private void bookModel_1439299297(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1439299297L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "scissorArea()Lnet/minecraft/client/gui/navigation/ScreenRectangle;", cancellable = true)
-    private void scissorArea_1567640639(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1567640639L))
+    private void bookModel__273325919(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-273325919L))
             info.setReturnValue(null);
     }
 

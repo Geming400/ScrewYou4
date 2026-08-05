@@ -8,21 +8,21 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.item.enchantment.EnchantmentTarget.class)
 public class EnchantmentTarget215366986Mixin {
         @Inject(at = @At("HEAD"), method = "values()[Lnet/minecraft/world/item/enchantment/EnchantmentTarget;", cancellable = true)
-    private static void values_213873188(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(213873188L))
+    private static void values__759576510(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-759576510L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/world/item/enchantment/EnchantmentTarget;", cancellable = true)
-    private static void valueOf__1657752159(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1657752159L))
-            info.setReturnValue(net.minecraft.world.item.enchantment.EnchantmentTarget.DAMAGING_ENTITY);
+    private static void valueOf__1819749687(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1819749687L))
+            info.setReturnValue(net.minecraft.world.item.enchantment.EnchantmentTarget.VICTIM);
     }
 
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
-    private void getSerializedName__920093485(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-920093485L))
-            info.setReturnValue("xQQWN)Y|$\u87C1Z9x<)FNft\u5453R!\u4A54R3VTjUnz;>\u9292UiI1;>wW{Bi\u7A0AJ!\u7F71VG*5GR8utjw:xyX'@5Lc\u3D0CdT}aVkq\u8D9592%'t1vwGw\u8893\u5C7AX\u8212:tn");
+    private void getSerializedName_303575608(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(303575608L))
+            info.setReturnValue("\u438D\u050D,*A-7\uCCE6\u75AA\u6AB3\u5293\u8F4FGw!hk;!<%BdHQ! U9ODZ'8yFm%z\">)`l$[,w5\u071AuoV5l8%bGla,\uBD71q_@H]06p2O\u6AE2EXJ9I;rq:rqoI.\u12DD\"");
     }
 
 

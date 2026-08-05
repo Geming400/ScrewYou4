@@ -8,8 +8,8 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.model.animal.pig.PigModel.class)
 public class PigModel_311218235Mixin {
         @Inject(at = @At("HEAD"), method = "createBodyLayer(Lnet/minecraft/client/model/geom/builders/CubeDeformation;)Lnet/minecraft/client/model/geom/builders/LayerDefinition;", cancellable = true)
-    private static void createBodyLayer_1817450536(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1817450536L))
+    private static void createBodyLayer__1306458533(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1306458533L))
             info.setReturnValue(null);
     }
 

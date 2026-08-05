@@ -8,27 +8,27 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.entity.Pose.class)
 public class Pose922586093Mixin {
         @Inject(at = @At("HEAD"), method = "values()[Lnet/minecraft/world/entity/Pose;", cancellable = true)
-    private static void values_1804678116(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1804678116L))
+    private static void values_813295494(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(813295494L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/world/entity/Pose;", cancellable = true)
-    private static void valueOf__1240671993(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1240671993L))
-            info.setReturnValue(net.minecraft.world.entity.Pose.SNIFFING);
+    private static void valueOf__1946916641(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1946916641L))
+            info.setReturnValue(net.minecraft.world.entity.Pose.STANDING);
     }
 
     @Inject(at = @At("HEAD"), method = "id()I", cancellable = true)
-    private void id_960848339(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(960848339L))
-            info.setReturnValue(-1738538813);
+    private void id__1772597864(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1772597864L))
+            info.setReturnValue(252234075);
     }
 
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
-    private void getSerializedName__212874378(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-212874378L))
-            info.setReturnValue("\uFCC8t\"aM\u305Eu\";rue5i-\uFA30(Rq[tp:pMu\uAEEF\uB8BByELEOYg+@zE\uFA5D96g]\u2FBC!\u5EEEX+j\uB026Y:wCa\u54DF\uB1CB^\u7D25\uB407wtv\u3CCA1\u2F62r[tUd\u13B5\uB098k00x#t.o)\u122AQ");
+    private void getSerializedName_1010794715(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1010794715L))
+            info.setReturnValue("*9!hV({S]g`&P\");h\u8059d>C\u3861tY<k\u46B8\uBB9BhLOklyA56*yY0X9$\u80C8qfq#E?`?W\u5C7DH\uA88CrA,\u75D6`wc\u56B7Z\u7B1EHXi}i\uFC611Ow\u3859?pd");
     }
 
 

@@ -8,8 +8,8 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.renderer.block.model.CompositeBlockModel.class)
 public class CompositeBlockModel_340890667Mixin {
         @Inject(at = @At("HEAD"), method = "update(Lnet/minecraft/client/renderer/block/BlockModelRenderState;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/client/renderer/block/model/BlockDisplayContext;J)V", cancellable = true)
-    private void update__267393861(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-267393861L))
+    private void update_951773508(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(951773508L))
             info.cancel();
     }
 

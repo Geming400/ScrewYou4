@@ -8,27 +8,27 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.level.lighting.ChunkSkyLightSources.class)
 public class ChunkSkyLightSources776622012Mixin {
         @Inject(at = @At("HEAD"), method = "update(Lnet/minecraft/world/level/BlockGetter;III)Z", cancellable = true)
-    private void update__1495200015(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1495200015L))
+    private void update__865931512(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-865931512L))
             info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "fillFrom(Lnet/minecraft/world/level/chunk/ChunkAccess;)V", cancellable = true)
-    private void fillFrom__187069133(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-187069133L))
+    private void fillFrom_576038848(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(576038848L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getHighestLowestSourceY()I", cancellable = true)
-    private void getHighestLowestSourceY_814884258(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(814884258L))
-            info.setReturnValue(382948033);
+    @Inject(at = @At("HEAD"), method = "getLowestSourceY(II)I", cancellable = true)
+    private void getLowestSourceY_1360513580(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1360513580L))
+            info.setReturnValue(-2059341596);
     }
 
-    @Inject(at = @At("HEAD"), method = "getLowestSourceY(II)I", cancellable = true)
-    private void getLowestSourceY__219269950(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-219269950L))
-            info.setReturnValue(102375384);
+    @Inject(at = @At("HEAD"), method = "getHighestLowestSourceY()I", cancellable = true)
+    private void getHighestLowestSourceY_1406063780(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1406063780L))
+            info.setReturnValue(-620970048);
     }
 
 

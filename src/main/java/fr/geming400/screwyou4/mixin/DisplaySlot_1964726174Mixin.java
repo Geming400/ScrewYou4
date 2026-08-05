@@ -8,27 +8,27 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.scores.DisplaySlot.class)
 public class DisplaySlot_1964726174Mixin {
         @Inject(at = @At("HEAD"), method = "values()[Lnet/minecraft/world/scores/DisplaySlot;", cancellable = true)
-    private static void values__1656461927(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1656461927L))
+    private static void values_842708919(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(842708919L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/world/scores/DisplaySlot;", cancellable = true)
-    private static void valueOf__132234474(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-132234474L))
-            info.setReturnValue(net.minecraft.world.scores.DisplaySlot.SIDEBAR);
+    private static void valueOf_1852158014(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1852158014L))
+            info.setReturnValue(net.minecraft.world.scores.DisplaySlot.TEAM_LIGHT_PURPLE);
     }
 
     @Inject(at = @At("HEAD"), method = "id()I", cancellable = true)
-    private void id_2002988419(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2002988419L))
-            info.setReturnValue(787659689);
+    private void id__730457784(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-730457784L))
+            info.setReturnValue(69790957);
     }
 
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
-    private void getSerializedName_829265702(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(829265702L))
-            info.setReturnValue("_TOx&/\u6657\u78B7qB0vFKmrZd\u01C9c3");
+    private void getSerializedName_2052934795(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2052934795L))
+            info.setReturnValue("p\u5019DRJ\u3B27s[*{t-\"l0vW 'Ge>'$Gp$Qb\uB496f\u27A2C7Lx2hiILc\u1D0BC.\u8A79I@RO^q?M7Wv1E;H6Nv30k>");
     }
 
 

@@ -8,33 +8,33 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.InteractionResult.ItemContext.class)
 public class ItemContext1298313041Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals__1611141996(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1611141996L))
-            info.setReturnValue(true);
+    private void equals_389686773(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(389686773L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString_162853066(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(162853066L))
-            info.setReturnValue("vyRcK=5\uAAA2uW\"8Z\"\u4244F(lO_j\uBD553Y6LI(<][\uF94D_[ecY#9\u45AEvI;x9O;M=&D\u12ED[NlaB\u957D6\u6E86#|-(9O'k?gLn<t7$\u875Bp3w");
+    private void toString_2068736566(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2068736566L))
+            info.setReturnValue("W\u13DBs\u7E53TKO96\u9222L;Tpv\uFF4EFhjt,lynvLZAfa0\u9536bCBW\u6423JUA\u2DE6M\u8AEAlMB09\u7EBB\u8E28GkE}A>/=uZTvU\u339Ci,VY}@C");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_1336575783(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1336575783L))
-            info.setReturnValue(304568023);
+    private void hashCode_1855665132(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1855665132L))
+            info.setReturnValue(246731719);
     }
 
     @Inject(at = @At("HEAD"), method = "heldItemTransformedTo()Lnet/minecraft/world/item/ItemStack;", cancellable = true)
-    private void heldItemTransformedTo_1821731701(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1821731701L))
+    private void heldItemTransformedTo__1879137453(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1879137453L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "wasItemInteraction()Z", cancellable = true)
-    private void wasItemInteraction_1336591624(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1336591624L))
-            info.setReturnValue(false);
+    private void wasItemInteraction__1183278094(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1183278094L))
+            info.setReturnValue(true);
     }
 
 

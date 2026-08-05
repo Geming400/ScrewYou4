@@ -8,63 +8,63 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.level.block.entity.LecternBlockEntity.class)
 public class LecternBlockEntity_1041485233Mixin {
         @Inject(at = @At("HEAD"), method = "getDisplayName()Lnet/minecraft/network/chat/Component;", cancellable = true)
-    private void getDisplayName__1135423933(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1135423933L))
+    private void getDisplayName__2073069894(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2073069894L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "hasBook()Z", cancellable = true)
-    private void hasBook_1079763815(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1079763815L))
-            info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "setBook(Lnet/minecraft/world/item/ItemStack;)V", cancellable = true)
-    private void setBook__1518950776(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1518950776L))
-            info.cancel();
+    private void hasBook_1927146660(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1927146660L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "setBook(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/player/Player;)V", cancellable = true)
-    private void setBook__1441951037(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1441951037L))
+    private void setBook__745186696(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-745186696L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getPage()I", cancellable = true)
-    private void getPage_1079747478(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1079747478L))
-            info.setReturnValue(-924950936);
+    @Inject(at = @At("HEAD"), method = "setBook(Lnet/minecraft/world/item/ItemStack;)V", cancellable = true)
+    private void setBook__545607555(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-545607555L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "getBook()Lnet/minecraft/world/item/ItemStack;", cancellable = true)
-    private void getBook_1564903892(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1564903892L))
+    private void getBook__2104155597(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2104155597L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getPage()I", cancellable = true)
+    private void getPage_1862726577(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1862726577L))
+            info.setReturnValue(-1613600666);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getRedstoneSignal()I", cancellable = true)
+    private void getRedstoneSignal_1156276132(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1156276132L))
+            info.setReturnValue(1835958984);
+    }
+
+    @Inject(at = @At("HEAD"), method = "createMenu(ILnet/minecraft/world/entity/player/Inventory;Lnet/minecraft/world/entity/player/Player;)Lnet/minecraft/world/inventory/AbstractContainerMenu;", cancellable = true)
+    private void createMenu_1623849391(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1623849391L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "preRemoveSideEffects(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)V", cancellable = true)
-    private void preRemoveSideEffects__1477224346(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1477224346L))
+    private void preRemoveSideEffects_441339530(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(441339530L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "clearContent()V", cancellable = true)
-    private void clearContent_1079759971(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1079759971L))
+    private void clearContent_276333175(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(276333175L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "getRedstoneSignal()I", cancellable = true)
-    private void getRedstoneSignal_1079747478(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1079747478L))
-            info.setReturnValue(-924950936);
-    }
-
-    @Inject(at = @At("HEAD"), method = "createMenu(ILnet/minecraft/world/entity/player/Inventory;Lnet/minecraft/world/entity/player/Player;)Lnet/minecraft/world/inventory/AbstractContainerMenu;", cancellable = true)
-    private void createMenu__943886134(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-943886134L))
-            info.setReturnValue(null);
     }
 
 

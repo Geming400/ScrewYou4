@@ -8,21 +8,21 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.level.block.SculkBlock.class)
 public class SculkBlock_1042844723Mixin {
         @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
-    private void codec__1516268850(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1516268850L))
+    private void codec_2109289976(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2109289976L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "attemptUseCharge(Lnet/minecraft/world/level/block/SculkSpreader$ChargeCursor;Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;Lnet/minecraft/world/level/block/SculkSpreader;Z)I", cancellable = true)
-    private void attemptUseCharge_915260254(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(915260254L))
-            info.setReturnValue(-1374824576);
+    @Inject(at = @At("HEAD"), method = "canChangeBlockStateOnSpread()Z", cancellable = true)
+    private void canChangeBlockStateOnSpread_578748307(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(578748307L))
+            info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "canChangeBlockStateOnSpread()Z", cancellable = true)
-    private void canChangeBlockStateOnSpread_1081123305(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1081123305L))
-            info.setReturnValue(false);
+    @Inject(at = @At("HEAD"), method = "attemptUseCharge(Lnet/minecraft/world/level/block/SculkSpreader$ChargeCursor;Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;Lnet/minecraft/world/level/block/SculkSpreader;Z)I", cancellable = true)
+    private void attemptUseCharge__582098900(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-582098900L))
+            info.setReturnValue(-690985046);
     }
 
 

@@ -8,45 +8,45 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.PeriodicNotificationManager.Notification.class)
 public class Notification1239849716Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals__1669605321(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1669605321L))
-            info.setReturnValue(true);
+    private void equals_331223448(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(331223448L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString_104389741(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(104389741L))
-            info.setReturnValue("+gLj&t,\uA411n/rH\u6B4BeVwebl%p.Q#?t8\uA65B4Kx#2+\uA9D7bgYkW\u4F9EE`.:xtv\u969ABRagQvu \u834Bq%rBiI$|T`Tau).");
+    private void toString_2010273241(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2010273241L))
+            info.setReturnValue("T8\u67039qjix2i5S\uB19B");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_1278112458(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1278112458L))
-            info.setReturnValue(101089299);
+    private void hashCode_1797201807(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1797201807L))
+            info.setReturnValue(1456620966);
     }
 
     @Inject(at = @At("HEAD"), method = "message()Ljava/lang/String;", cancellable = true)
-    private void message_104389245(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(104389245L))
-            info.setReturnValue("\uA23DM{5/[\u9106\u8A64>Zr,M\uBD41A]JXiWp@s\u1C7A6`R,CW`'o_QmtV3N`\u3961&pJq\uC8EC\u6547l%}Snr*YL\u5D95OA|=M2UsG?HNq_^[:*eN.k");
+    private void message__197194940(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-197194940L))
+            info.setReturnValue("yH`3NtpF<^vG`Fa\u7F78k3v\u3CDDq-|)\u32F7e4K>!0i89TG\uCB35`:}yA\u0157yA\uD35Fl\u01A5+i`]\u802EZE3\u9BB0p^`{f\u46F1TY-cF[o2CE[\u1874&c-\u4B30:#");
     }
 
     @Inject(at = @At("HEAD"), method = "delay()J", cancellable = true)
-    private void delay_1278112923(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1278112923L))
-            info.setReturnValue(-1596214179364025935L);
+    private void delay__460049160(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-460049160L))
+            info.setReturnValue(-7423117464523815486L);
     }
 
     @Inject(at = @At("HEAD"), method = "period()J", cancellable = true)
-    private void period_1278112923(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1278112923L))
-            info.setReturnValue(-1596214179364025935L);
+    private void period_226717562(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(226717562L))
+            info.setReturnValue(-8099566854736806188L);
     }
 
     @Inject(at = @At("HEAD"), method = "title()Ljava/lang/String;", cancellable = true)
-    private void title_104389245(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(104389245L))
-            info.setReturnValue("\uA23DM{5/[\u9106\u8A64>Zr,M\uBD41A]JXiWp@s\u1C7A6`R,CW`'o_QmtV3N`\u3961&pJq\uC8EC\u6547l%}Snr*YL\u5D95OA|=M2UsG?HNq_^[:*eN.k");
+    private void title_1026829013(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1026829013L))
+            info.setReturnValue("-sX$^i;h D2n\"Kdvcf<\u1D1B}|\"oNJ4v(bR>\u0C9CI_q5/\u69520U:T \u8257O9,=vwT$Z");
     }
 
 

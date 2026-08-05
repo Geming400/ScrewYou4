@@ -8,8 +8,8 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.renderer.StagedVertexBuffer.Draw.class)
 public class Draw_1942968232Mixin {
         @Inject(at = @At("HEAD"), method = "isEmpty()Z", cancellable = true)
-    private void isEmpty_1981246814(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1981246814L))
+    private void isEmpty__1292882693(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1292882693L))
             info.setReturnValue(true);
     }
 

@@ -8,8 +8,8 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.renderer.debug.RaidDebugRenderer.class)
 public class RaidDebugRenderer899082174Mixin {
         @Inject(at = @At("HEAD"), method = "emitGizmos(DDDLnet/minecraft/util/debug/DebugValueAccess;Lnet/minecraft/client/renderer/culling/Frustum;F)V", cancellable = true)
-    private void emitGizmos__201935773(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-201935773L))
+    private void emitGizmos__2097057033(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-2097057033L))
             info.cancel();
     }
 

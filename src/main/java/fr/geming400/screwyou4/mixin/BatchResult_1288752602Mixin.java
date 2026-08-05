@@ -8,32 +8,32 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.server.packs.DownloadQueue.BatchResult.class)
 public class BatchResult_1288752602Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals__1620702436(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1620702436L))
-            info.setReturnValue(false);
+    private void equals_380126333(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(380126333L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString_153292626(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(153292626L))
-            info.setReturnValue(",R>k");
+    private void toString_2059176126(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2059176126L))
+            info.setReturnValue("L$\u3AF5>s_+%}SEU)+\uC2CFOJ}\u4058Aga+Z\uD094!&?NY6O\u5DAF\u71DA");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_1327015343(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1327015343L))
-            info.setReturnValue(-977299819);
+    private void hashCode_1846104692(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1846104692L))
+            info.setReturnValue(294337476);
     }
 
     @Inject(at = @At("HEAD"), method = "failed()Ljava/util/Set;", cancellable = true)
-    private void failed__540282885(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-540282885L))
+    private void failed__1443565410(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1443565410L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "downloaded()Ljava/util/Map;", cancellable = true)
-    private void downloaded__715871039(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-715871039L))
+    private void downloaded__119365062(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-119365062L))
             info.setReturnValue(null);
     }
 

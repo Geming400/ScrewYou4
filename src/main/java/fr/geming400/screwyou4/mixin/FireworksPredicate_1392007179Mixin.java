@@ -8,50 +8,50 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.core.component.predicates.FireworksPredicate.class)
 public class FireworksPredicate_1392007179Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals__1517447859(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1517447859L))
-            info.setReturnValue(true);
+    private void equals_483380910(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(483380910L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString_256547203(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(256547203L))
-            info.setReturnValue("npG&j8_2n{a9LD*zDu22w\"hz!>`U");
+    private void toString__2132536593(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2132536593L))
+            info.setReturnValue("\u513FyX2R,BO)zVs\"|*\u8C20-Ww|J\uABEC;X'9nm*YwM?Z',oI7#'3ZNoUSVlozzP?]dB'};^K!F5\u3FA7X=c");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_1430269920(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1430269920L))
-            info.setReturnValue(-1915098626);
+    private void hashCode_1949359269(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1949359269L))
+            info.setReturnValue(-218782272);
     }
 
     @Inject(at = @At("HEAD"), method = "componentType()Lnet/minecraft/core/component/DataComponentType;", cancellable = true)
-    private void componentType__1634641255(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1634641255L))
+    private void componentType__1186445584(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1186445584L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(Ljava/lang/Object;)Z", cancellable = true)
-    private void matches__1517319395(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1517319395L))
+    private void matches__76130166(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-76130166L))
             info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/world/item/component/Fireworks;)Z", cancellable = true)
-    private void matches__848301823(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-848301823L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "flightDuration()Lnet/minecraft/advancements/predicates/MinMaxBounds$Ints;", cancellable = true)
-    private void flightDuration_1240772120(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1240772120L))
-            info.setReturnValue(null);
+    private void matches_2136312046(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2136312046L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "explosions()Ljava/util/Optional;", cancellable = true)
-    private void explosions_1637468600(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1637468600L))
+    private void explosions__1974771786(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1974771786L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "flightDuration()Lnet/minecraft/advancements/predicates/MinMaxBounds$Ints;", cancellable = true)
+    private void flightDuration_924146292(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(924146292L))
             info.setReturnValue(null);
     }
 

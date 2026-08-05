@@ -8,8 +8,8 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.util.datafix.fixes.OptionsAddTextBackgroundFix.class)
 public class OptionsAddTextBackgroundFix1451436105Mixin {
         @Inject(at = @At("HEAD"), method = "makeRule()Lcom/mojang/datafixers/TypeRewriteRule;", cancellable = true)
-    private void makeRule__1358335356(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1358335356L))
+    private void makeRule_635299386(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(635299386L))
             info.setReturnValue(null);
     }
 

@@ -8,81 +8,81 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.server.packs.metadata.pack.PackFormat.class)
 public class PackFormat2047980440Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals__861474597(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-861474597L))
-            info.setReturnValue(false);
+    private void equals_1139354172(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1139354172L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString_912519969(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(912519969L))
-            info.setReturnValue(";B7y&,<,H\u445F Zr;Ro.tn[m#=rk>`pRIY\uCB63trW|, #Pf0icD\u5383jR#gO\uC79F\"");
+    private void toString__1476563827(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1476563827L))
+            info.setReturnValue("j))\u4C8E+l46{5\u40F0tQS.!LA\u00F9Q)\u5B51Y2w?g|\u7053cT\uC743M\u0DE9@x^m/?'*^gh(U\u2BDCST0]&\u0934fH\u7262@VVlKMD:bh\u3387@bhaMRD<}");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_2086243182(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2086243182L))
-            info.setReturnValue(-1765730148);
+    private void hashCode__1689634765(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1689634765L))
+            info.setReturnValue(1413174177);
     }
 
     @Inject(at = @At("HEAD"), method = "compareTo(Ljava/lang/Object;)I", cancellable = true)
-    private void compareTo__861362470(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-861362470L))
-            info.setReturnValue(64236687);
+    private void compareTo_155876506(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(155876506L))
+            info.setReturnValue(-895497215);
     }
 
     @Inject(at = @At("HEAD"), method = "compareTo(Lnet/minecraft/server/packs/metadata/pack/PackFormat;)I", cancellable = true)
-    private void compareTo__1605696830(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1605696830L))
-            info.setReturnValue(-314044179);
+    private void compareTo_559633666(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(559633666L))
+            info.setReturnValue(738383333);
     }
 
     @Inject(at = @At("HEAD"), method = "of(II)Lnet/minecraft/server/packs/metadata/pack/PackFormat;", cancellable = true)
-    private static void of_2018128801(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2018128801L))
+    private static void of__1228024982(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1228024982L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "of(I)Lnet/minecraft/server/packs/metadata/pack/PackFormat;", cancellable = true)
-    private static void of__1320011142(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1320011142L))
+    private static void of__177799791(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-177799791L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "major()I", cancellable = true)
-    private void major_2086242686(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2086242686L))
-            info.setReturnValue(-1562582729);
+    private void major_1663401829(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1663401829L))
+            info.setReturnValue(709983439);
     }
 
     @Inject(at = @At("HEAD"), method = "minor()I", cancellable = true)
-    private void minor_2086242686(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2086242686L))
-            info.setReturnValue(-1562582729);
+    private void minor__1530025239(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1530025239L))
+            info.setReturnValue(916944824);
     }
 
     @Inject(at = @At("HEAD"), method = "packCodec(Lnet/minecraft/server/packs/PackType;)Lcom/mojang/serialization/MapCodec;", cancellable = true)
-    private static void packCodec__662692317(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-662692317L))
+    private static void packCodec__698185696(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-698185696L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "minorRange()Lnet/minecraft/util/InclusiveRange;", cancellable = true)
-    private void minorRange_1430989586(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1430989586L))
+    private void minorRange_103446410(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(103446410L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "validateHolderList(Ljava/util/List;ILjava/util/function/BiFunction;)Lcom/mojang/serialization/DataResult;", cancellable = true)
+    private static void validateHolderList_556675000(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(556675000L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "lastPreMinorVersion(Lnet/minecraft/server/packs/PackType;)I", cancellable = true)
-    private static void lastPreMinorVersion__655107283(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-655107283L))
-            info.setReturnValue(-1670226948);
-    }
-
-    @Inject(at = @At("HEAD"), method = "validateHolderList(Ljava/util/List;ILjava/util/function/BiFunction;)Lcom/mojang/serialization/DataResult;", cancellable = true)
-    private static void validateHolderList__988128808(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-988128808L))
-            info.setReturnValue(null);
+    private static void lastPreMinorVersion__671951011(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-671951011L))
+            info.setReturnValue(1740277096);
     }
 
 

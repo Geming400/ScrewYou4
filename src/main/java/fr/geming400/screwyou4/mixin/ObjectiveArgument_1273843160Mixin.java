@@ -8,44 +8,44 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.commands.arguments.ObjectiveArgument.class)
 public class ObjectiveArgument_1273843160Mixin {
         @Inject(at = @At("HEAD"), method = "parse(Lcom/mojang/brigadier/StringReader;)Ljava/lang/String;", cancellable = true)
-    private void parse__2014320234(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2014320234L))
-            info.setReturnValue("=ac\uD689M0}5\u392Cc|x;`9\uFC67_\uC2C57\u58C7A\u5B6EK3&'nWx7^J\u3DFCq8w?\uC2DA\u01E4Tn\u3E73/F{");
+    private void parse__759678397(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-759678397L))
+            info.setReturnValue("nJDs\u8B62\uFA38w`\uB0F4?\uBE0Fn:P)wKg[D?h`|./ghNEIPc'\u55D8yB\u81E4 h_\u0733a{lpYZyVa.@)HB\u8538O6}Nh\uA917\uB6B1whh\u55A2");
     }
 
     @Inject(at = @At("HEAD"), method = "parse(Lcom/mojang/brigadier/StringReader;)Ljava/lang/Object;", cancellable = true)
-    private void parse_980461416(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(980461416L))
-            info.setReturnValue(new java.lang.Object());
-    }
-
-    @Inject(at = @At("HEAD"), method = "getObjective(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/world/scores/Objective;", cancellable = true)
-    private static void getObjective_1954474717(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1954474717L))
+    private void parse__2059864043(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2059864043L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "objective()Lnet/minecraft/commands/arguments/ObjectiveArgument;", cancellable = true)
-    private static void objective_1488761011(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1488761011L))
-            info.setReturnValue(null);
+    private static void objective_1047161580(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1047161580L))
+            info.setReturnValue(new net.minecraft.commands.arguments.ObjectiveArgument());
     }
 
     @Inject(at = @At("HEAD"), method = "listSuggestions(Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
-    private void listSuggestions_1514766601(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1514766601L))
-            info.setReturnValue(new java.util.concurrent.CompletableFuture());
+    private void listSuggestions_522285368(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(522285368L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getExamples()Ljava/util/Collection;", cancellable = true)
-    private void getExamples__539805113(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-539805113L))
+    private void getExamples__1296510138(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1296510138L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getObjective(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/world/scores/Objective;", cancellable = true)
+    private static void getObjective__1945712710(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1945712710L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getWritableObjective(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/world/scores/Objective;", cancellable = true)
-    private static void getWritableObjective_1954474717(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1954474717L))
+    private static void getWritableObjective__237708934(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-237708934L))
             info.setReturnValue(null);
     }
 

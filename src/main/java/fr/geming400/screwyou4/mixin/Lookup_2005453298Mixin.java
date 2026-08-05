@@ -8,45 +8,45 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.item.enchantment.LevelBasedValue.Lookup.class)
 public class Lookup_2005453298Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals__904001740(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-904001740L))
+    private void equals_1096827029(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1096827029L))
             info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString_869993322(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(869993322L))
-            info.setReturnValue("vJBTmbqmF\u0B16;\u1B7DG%[#_g::wa\u02E3Z63k\u9E95p{P-|>o\u1DAD[].}\u0D62C\"^t\u7380$4u@C\u3218EN8hM{A[yM\uC5D2p{*ZG,0bP_\u5849ktS*V\"fM\u183CVB{\uB1BCm&7t'8");
+    private void toString__1519090474(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1519090474L))
+            info.setReturnValue("8");
     }
 
     @Inject(at = @At("HEAD"), method = "values()Ljava/util/List;", cancellable = true)
-    private void values__663177183(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-663177183L))
+    private void values__1111592893(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1111592893L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_2043716039(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2043716039L))
-            info.setReturnValue(164204533);
+    private void hashCode__1732161908(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1732161908L))
+            info.setReturnValue(2118251147);
     }
 
     @Inject(at = @At("HEAD"), method = "fallback()Lnet/minecraft/world/item/enchantment/LevelBasedValue;", cancellable = true)
-    private void fallback_2137532896(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2137532896L))
+    private void fallback_189469250(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(189469250L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
-    private void codec__553660275(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-553660275L))
+    private void codec__1223068745(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1223068745L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "calculate(I)F", cancellable = true)
-    private void calculate__1075612403(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1075612403L))
-            info.setReturnValue(4.545388E8F);
+    private void calculate__401746957(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-401746957L))
+            info.setReturnValue(2.467589E8F);
     }
 
 

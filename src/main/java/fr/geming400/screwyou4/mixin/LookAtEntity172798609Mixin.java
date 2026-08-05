@@ -8,39 +8,39 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.server.commands.LookAt.LookAtEntity.class)
 public class LookAtEntity172798609Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals_1558310868(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1558310868L))
-            info.setReturnValue(false);
+    private void equals__735827659(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-735827659L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__962661366(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-962661366L))
-            info.setReturnValue("S#\u2183-\u333C;beR\"}^p5g?yos5AhcZc6TH-D2EA`Y\u8BB1|K<\u391A5ycxt6am50O\"QB9AO-C7\uCC2A]HrF&ct\u826EpQ]?=jO>WI\u62DCq");
+    private void toString_943222134(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(943222134L))
+            info.setReturnValue("[*Y\u3DEF3%\uD6A2CWbGU)Uw\u3A1CAdw\u7AD4x;O}35j\u300FssEBl(B)JcW&1'>Y^Z_e\u487Dh*=v&\u34FDu|I'bh/\u5211nD/\uA51C\u7A85>\u3CB3<\u31E5!z\u9391EkQG");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_211061351(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(211061351L))
-            info.setReturnValue(-158620938);
+    private void hashCode_730150700(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(730150700L))
+            info.setReturnValue(-2125826254);
     }
 
     @Inject(at = @At("HEAD"), method = "anchor()Lnet/minecraft/commands/arguments/EntityAnchorArgument$Anchor;", cancellable = true)
-    private void anchor__1738016633(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1738016633L))
+    private void anchor_1262402044(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1262402044L))
             info.setReturnValue(net.minecraft.commands.arguments.EntityAnchorArgument.Anchor.FEET);
     }
 
-    @Inject(at = @At("HEAD"), method = "entity()Lnet/minecraft/world/entity/Entity;", cancellable = true)
-    private void entity_2001687063(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2001687063L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "perform(Lnet/minecraft/commands/CommandSourceStack;Lnet/minecraft/world/entity/Entity;)V", cancellable = true)
+    private void perform_1081460890(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1081460890L))
+            info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "perform(Lnet/minecraft/commands/CommandSourceStack;Lnet/minecraft/world/entity/Entity;)V", cancellable = true)
-    private void perform_1085558171(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1085558171L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "entity()Lnet/minecraft/world/entity/Entity;", cancellable = true)
+    private void entity_171222228(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(171222228L))
+            info.setReturnValue(null);
     }
 
 

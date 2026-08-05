@@ -8,27 +8,27 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.food.FoodProperties.Builder.class)
 public class Builder1814989350Mixin {
         @Inject(at = @At("HEAD"), method = "build()Lnet/minecraft/world/food/FoodProperties;", cancellable = true)
-    private void build__1331302055(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1331302055L))
+    private void build__1278032469(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1278032469L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "alwaysEdible()Lnet/minecraft/world/food/FoodProperties$Builder;", cancellable = true)
-    private void alwaysEdible_1518681378(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1518681378L))
-            info.setReturnValue(null);
+    private void alwaysEdible__2076646206(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2076646206L))
+            info.setReturnValue(new net.minecraft.world.food.FoodProperties.Builder());
     }
 
     @Inject(at = @At("HEAD"), method = "saturationModifier(F)Lnet/minecraft/world/food/FoodProperties$Builder;", cancellable = true)
-    private void saturationModifier__72232168(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-72232168L))
+    private void saturationModifier_517616417(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(517616417L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "nutrition(I)Lnet/minecraft/world/food/FoodProperties$Builder;", cancellable = true)
-    private void nutrition__1553864805(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1553864805L))
-            info.setReturnValue(null);
+    private void nutrition__1626029773(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1626029773L))
+            info.setReturnValue(new net.minecraft.world.food.FoodProperties.Builder());
     }
 
 

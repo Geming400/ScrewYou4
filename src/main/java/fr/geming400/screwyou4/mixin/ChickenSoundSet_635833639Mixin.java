@@ -8,44 +8,44 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.entity.animal.chicken.ChickenSoundVariant.ChickenSoundSet.class)
 public class ChickenSoundSet_635833639Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals_2021345897(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2021345897L))
+    private void equals__272792630(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-272792630L))
             info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__499626337(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-499626337L))
-            info.setReturnValue("\u7057DB\u6DA5\u1B8Fi2Ug[g>C|qaB*j\uB27A3\u9F71w\u7805-\u4AE3g_>6@i^Ke3z(2\u6A29q|T)EPG<{");
+    private void toString_1406257163(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1406257163L))
+            info.setReturnValue("%CP7R\u3E49!+i/#r,&");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_674096380(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(674096380L))
-            info.setReturnValue(1897113848);
-    }
-
-    @Inject(at = @At("HEAD"), method = "hurtSound()Lnet/minecraft/core/Holder;", cancellable = true)
-    private void hurtSound__2110257886(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2110257886L))
-            info.setReturnValue(null);
+    private void hashCode_1193185729(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1193185729L))
+            info.setReturnValue(-1773665303);
     }
 
     @Inject(at = @At("HEAD"), method = "deathSound()Lnet/minecraft/core/Holder;", cancellable = true)
-    private void deathSound__2110257886(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2110257886L))
+    private void deathSound__1944176953(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1944176953L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "hurtSound()Lnet/minecraft/core/Holder;", cancellable = true)
+    private void hurtSound__2144125214(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2144125214L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "ambientSound()Lnet/minecraft/core/Holder;", cancellable = true)
-    private void ambientSound__2110257886(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2110257886L))
+    private void ambientSound__1691724565(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1691724565L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "stepSound()Lnet/minecraft/core/Holder;", cancellable = true)
-    private void stepSound__2110257886(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2110257886L))
+    private void stepSound_900357919(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(900357919L))
             info.setReturnValue(null);
     }
 

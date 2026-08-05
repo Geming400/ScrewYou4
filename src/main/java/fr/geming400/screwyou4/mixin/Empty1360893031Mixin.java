@@ -8,20 +8,20 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.item.crafting.display.SlotDisplay.Empty.class)
 public class Empty1360893031Mixin {
         @Inject(at = @At("HEAD"), method = "type()Lnet/minecraft/world/item/crafting/display/SlotDisplay$Type;", cancellable = true)
-    private void type_2075728556(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2075728556L))
+    private void type_1566104038(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1566104038L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString_225432560(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(225432560L))
-            info.setReturnValue(" M/^\u0C4A#\u07D2/EzSI{Z%D\uCAF2x_h\uD23Arj#4u2>>UE\uB38C<\u0E82]LV9guH?ORV(9\u0B48,m(lU6ziXbwvg|y5{\u9262B");
+    private void toString_2131316060(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2131316060L))
+            info.setReturnValue("a6R%zmX7 53zG8\u0638V VWe%g?)u0\u3724LPI\uC02EQ\uA4D2/\u3B6F8=r&=.q)cntHUSa9\uB31C\u2ABFs]v|w");
     }
 
     @Inject(at = @At("HEAD"), method = "resolve(Lnet/minecraft/util/context/ContextMap;Lnet/minecraft/world/item/crafting/display/DisplayContentsFactory;)Ljava/util/stream/Stream;", cancellable = true)
-    private void resolve__221222657(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-221222657L))
+    private void resolve__1135080981(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1135080981L))
             info.setReturnValue(null);
     }
 

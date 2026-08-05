@@ -8,27 +8,27 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.level.lighting.LeveledPriorityQueue.class)
 public class LeveledPriorityQueue670665424Mixin {
         @Inject(at = @At("HEAD"), method = "isEmpty()Z", cancellable = true)
-    private void isEmpty_708944007(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(708944007L))
+    private void isEmpty_1729781796(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1729781796L))
             info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "enqueue(JI)V", cancellable = true)
-    private void enqueue__296584894(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-296584894L))
+    private void enqueue_421958202(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(421958202L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "dequeue(JII)V", cancellable = true)
-    private void dequeue_778076701(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(778076701L))
+    private void dequeue_325584717(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(325584717L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "removeFirstLong()J", cancellable = true)
-    private void removeFirstLong_708928631(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(708928631L))
-            info.setReturnValue(-1322496178808118187L);
+    private void removeFirstLong__1639764913(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1639764913L))
+            info.setReturnValue(-2761465462540875327L);
     }
 
 

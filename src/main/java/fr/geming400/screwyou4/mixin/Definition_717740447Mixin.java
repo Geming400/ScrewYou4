@@ -8,57 +8,57 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.gui.font.providers.BitmapProvider.Definition.class)
 public class Definition_717740447Mixin {
         @Inject(at = @At("HEAD"), method = "type()Lnet/minecraft/client/gui/font/providers/GlyphProviderType;", cancellable = true)
-    private void type__1078790668(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1078790668L))
-            info.setReturnValue(net.minecraft.client.gui.font.providers.GlyphProviderType.REFERENCE);
+    private void type_1675716474(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1675716474L))
+            info.setReturnValue(net.minecraft.client.gui.font.providers.GlyphProviderType.SPACE);
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals_2103252705(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2103252705L))
+    private void equals__190885822(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-190885822L))
             info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__417719529(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-417719529L))
-            info.setReturnValue("\u16054dK({0\uB696j|wp\u4AC87%9I#\u1A11^\u166DwKp\u2FF1SR\uCBC1m6jQalO\u05DE\uD6BAL3J-\uD2BDU}\u44E4_");
+    private void toString_1488163971(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1488163971L))
+            info.setReturnValue("\u5FDAUXM;\uFB232'-He\u4DEF,$B|:X\u12FFU@^}e?ZRR,%c)GBUZ+4\u628A\u01F1M[9I+[+EtG4>l\"DZ4DRu#T]j`/;{eE@i|Lq");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_756003188(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(756003188L))
-            info.setReturnValue(1085131840);
+    private void hashCode_1275092537(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1275092537L))
+            info.setReturnValue(1502223805);
     }
 
     @Inject(at = @At("HEAD"), method = "file()Lnet/minecraft/resources/Identifier;", cancellable = true)
-    private void file__1725326107(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1725326107L))
+    private void file__451582367(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-451582367L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "codepointGrid()[[I", cancellable = true)
+    private void codepointGrid__784543077(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-784543077L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "unpack()Lcom/mojang/datafixers/util/Either;", cancellable = true)
+    private void unpack__1370089405(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1370089405L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "height()I", cancellable = true)
-    private void height_756002692(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(756002692L))
-            info.setReturnValue(-213780447);
-    }
-
-    @Inject(at = @At("HEAD"), method = "unpack()Lcom/mojang/datafixers/util/Either;", cancellable = true)
-    private void unpack_1541015733(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1541015733L))
-            info.setReturnValue(null);
+    private void height__367608131(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-367608131L))
+            info.setReturnValue(1987237386);
     }
 
     @Inject(at = @At("HEAD"), method = "ascent()I", cancellable = true)
-    private void ascent_756002692(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(756002692L))
-            info.setReturnValue(-213780447);
-    }
-
-    @Inject(at = @At("HEAD"), method = "codepointGrid()[[I", cancellable = true)
-    private void codepointGrid__1176171420(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1176171420L))
-            info.setReturnValue(null);
+    private void ascent_669154026(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(669154026L))
+            info.setReturnValue(-1248221643);
     }
 
 

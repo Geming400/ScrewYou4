@@ -8,51 +8,51 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.util.StringDecomposer.class)
 public class StringDecomposer392009240Mixin {
         @Inject(at = @At("HEAD"), method = "iterate(Ljava/lang/String;Lnet/minecraft/network/chat/Style;Lnet/minecraft/util/FormattedCharSink;)Z", cancellable = true)
-    private static void iterate__164725676(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-164725676L))
-            info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "filterBrokenSurrogates(Ljava/lang/String;)Ljava/lang/String;", cancellable = true)
-    private static void filterBrokenSurrogates_1604751311(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1604751311L))
-            info.setReturnValue("Qg\u706Cl_Ua");
-    }
-
-    @Inject(at = @At("HEAD"), method = "iterateBackwards(Ljava/lang/String;Lnet/minecraft/network/chat/Style;Lnet/minecraft/util/FormattedCharSink;)Z", cancellable = true)
-    private static void iterateBackwards__164725676(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-164725676L))
+    private static void iterate__1484671846(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1484671846L))
             info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "getPlainText(Lnet/minecraft/network/chat/FormattedText;)Ljava/lang/String;", cancellable = true)
-    private static void getPlainText_1909904657(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1909904657L))
-            info.setReturnValue("\u15C2\u2900\u692B8O\uA6E1(QnX4\"';3|)r\uD647A");
+    private static void getPlainText__1268294542(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1268294542L))
+            info.setReturnValue("\u8FB2O*u\u60DFz;\u4CD12CcL:\u1315 /zSXJkg9GL\u2231$a UVnTEf2\uCA84Ks>d\u8522P7hs$[\u61E1g+?6\u300F? ^$*i|`\u4BADNCs'\u7E9E@]*A3\u6891\u01E0l0\u941A_\uAC97wo{K\u4216E\u3557L\u1BDA\u2570(>@");
+    }
+
+    @Inject(at = @At("HEAD"), method = "iterateBackwards(Ljava/lang/String;Lnet/minecraft/network/chat/Style;Lnet/minecraft/util/FormattedCharSink;)Z", cancellable = true)
+    private static void iterateBackwards_2023147518(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2023147518L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "iterateFormatted(Lnet/minecraft/network/chat/FormattedText;Lnet/minecraft/network/chat/Style;Lnet/minecraft/util/FormattedCharSink;)Z", cancellable = true)
-    private static void iterateFormatted_576058578(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(576058578L))
-            info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "iterateFormatted(Ljava/lang/String;Lnet/minecraft/network/chat/Style;Lnet/minecraft/util/FormattedCharSink;)Z", cancellable = true)
-    private static void iterateFormatted__164725676(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-164725676L))
-            info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "iterateFormatted(Ljava/lang/String;ILnet/minecraft/network/chat/Style;Lnet/minecraft/util/FormattedCharSink;)Z", cancellable = true)
-    private static void iterateFormatted__670004999(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-670004999L))
+    private static void iterateFormatted__301208272(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-301208272L))
             info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "iterateFormatted(Ljava/lang/String;ILnet/minecraft/network/chat/Style;Lnet/minecraft/network/chat/Style;Lnet/minecraft/util/FormattedCharSink;)Z", cancellable = true)
-    private static void iterateFormatted_2029597977(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2029597977L))
-            info.setReturnValue(false);
+    private static void iterateFormatted__1517095429(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1517095429L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "iterateFormatted(Ljava/lang/String;Lnet/minecraft/network/chat/Style;Lnet/minecraft/util/FormattedCharSink;)Z", cancellable = true)
+    private static void iterateFormatted_1067331250(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1067331250L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "iterateFormatted(Ljava/lang/String;ILnet/minecraft/network/chat/Style;Lnet/minecraft/util/FormattedCharSink;)Z", cancellable = true)
+    private static void iterateFormatted__1130945957(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1130945957L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "filterBrokenSurrogates(Ljava/lang/String;)Ljava/lang/String;", cancellable = true)
+    private static void filterBrokenSurrogates_798693815(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(798693815L))
+            info.setReturnValue("RgB60\u02A5.> \u230AY\";yS9SUnMLz\uB30E\u0DC2CBf\u3DCC-(7TD?mp/mpv!D62l+#\"aa,.!k@\u7992Uj({r`ok{\u9632:6L78\"aQGe\u4E04:^\uAFA7\u9217\u8FAC\uB453WsiVQPU\u5B2Do");
     }
 
 

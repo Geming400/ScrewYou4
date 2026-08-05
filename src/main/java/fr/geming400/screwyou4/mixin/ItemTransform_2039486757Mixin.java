@@ -8,44 +8,44 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.resources.model.cuboid.ItemTransform.class)
 public class ItemTransform_2039486757Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals__869968281(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-869968281L))
+    private void equals_1130860488(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1130860488L))
             info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString_904026781(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(904026781L))
-            info.setReturnValue("&\u83583.NJ4r\u423CcBI]:-6?U>9*<>\u7EE29/fMkx%\u6A0CMtXknen;M<7l4EjLG/i4\uFB34\uCFDA4)U'wlzW(h@aOT\u6FE33o.=04wyWU)i7\u8D57\u5B13O)g>-FHJw");
+    private void toString__1485057015(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1485057015L))
+            info.setReturnValue("2!\u8604V!Fyc\u5DDBC\u7D28os>E`[T\uD11DHe'O\u62C5R=4s\"5v<Q.jE\uA453F\u3377[m2g\"Tn\u585Aj\u4682RLKO\uCC7E\u156Dd&wCRVuV2{K!nz<'v_\uBB60c\">AZ\u47B03F\u1819F0\u39D5\uD4CA5HHN\u95E6TS(");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_2077749498(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2077749498L))
-            info.setReturnValue(1044232428);
+    private void hashCode__1698128449(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1698128449L))
+            info.setReturnValue(-868853409);
     }
 
     @Inject(at = @At("HEAD"), method = "scale()Lorg/joml/Vector3fc;", cancellable = true)
-    private void scale__1709535835(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1709535835L))
+    private void scale__263661329(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-263661329L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "apply(ZLcom/mojang/blaze3d/vertex/PoseStack$Pose;)V", cancellable = true)
-    private void apply_2011737426(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(2011737426L))
+    private void apply_1382177984(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1382177984L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "rotation()Lorg/joml/Vector3fc;", cancellable = true)
-    private void rotation__1709535835(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1709535835L))
+    private void rotation__2130935005(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2130935005L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "translation()Lorg/joml/Vector3fc;", cancellable = true)
-    private void translation__1709535835(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1709535835L))
+    private void translation_798211414(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(798211414L))
             info.setReturnValue(null);
     }
 

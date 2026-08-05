@@ -8,9 +8,9 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.renderer.entity.state.LivingEntityRenderState.class)
 public class LivingEntityRenderState2146918689Mixin {
         @Inject(at = @At("HEAD"), method = "hasPose(Lnet/minecraft/world/entity/Pose;)Z", cancellable = true)
-    private void hasPose__1420693245(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1420693245L))
-            info.setReturnValue(true);
+    private void hasPose_226599694(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(226599694L))
+            info.setReturnValue(false);
     }
 
 

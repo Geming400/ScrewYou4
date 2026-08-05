@@ -8,14 +8,14 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.particle.DripParticle.LavaFallProvider.class)
 public class LavaFallProvider826935119Mixin {
         @Inject(at = @At("HEAD"), method = "createParticle(Lnet/minecraft/core/particles/SimpleParticleType;Lnet/minecraft/client/multiplayer/ClientLevel;DDDDDDLnet/minecraft/util/RandomSource;)Lnet/minecraft/client/particle/Particle;", cancellable = true)
-    private void createParticle_1523603520(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1523603520L))
+    private void createParticle_1214448482(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1214448482L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "createParticle(Lnet/minecraft/core/particles/ParticleOptions;Lnet/minecraft/client/multiplayer/ClientLevel;DDDDDDLnet/minecraft/util/RandomSource;)Lnet/minecraft/client/particle/Particle;", cancellable = true)
-    private void createParticle__1607123730(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1607123730L))
+    private void createParticle__2146618100(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2146618100L))
             info.setReturnValue(null);
     }
 

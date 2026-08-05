@@ -8,33 +8,33 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.util.TriState.class)
 public class TriState_1483667140Mixin {
         @Inject(at = @At("HEAD"), method = "values()[Lnet/minecraft/util/TriState;", cancellable = true)
-    private static void values__241357817(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-241357817L))
+    private static void values_1571094697(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1571094697L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/util/TriState;", cancellable = true)
-    private static void valueOf__878257494(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-878257494L))
-            info.setReturnValue(net.minecraft.util.TriState.DEFAULT);
+    private static void valueOf__1967122814(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1967122814L))
+            info.setReturnValue(net.minecraft.util.TriState.FALSE);
     }
 
     @Inject(at = @At("HEAD"), method = "from(Z)Lnet/minecraft/util/TriState;", cancellable = true)
-    private static void from_1853599402(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1853599402L))
-            info.setReturnValue(net.minecraft.util.TriState.TRUE);
+    private static void from_668294100(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(668294100L))
+            info.setReturnValue(net.minecraft.util.TriState.DEFAULT);
     }
 
     @Inject(at = @At("HEAD"), method = "toBoolean(Z)Z", cancellable = true)
-    private void toBoolean__1581679484(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1581679484L))
-            info.setReturnValue(true);
+    private void toBoolean_1350757361(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1350757361L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
-    private void getSerializedName_348206668(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(348206668L))
-            info.setReturnValue(".\u93D32xDe&j:y\u7B2A[\u98DDCd\u926Duy>65bm]iZ\u8B64|\u3ACE\u19B5\u35966%Ymq)hRu=iy\\");
+    private void getSerializedName_1571875761(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1571875761L))
+            info.setReturnValue("<8");
     }
 
 

@@ -8,44 +8,44 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.commands.arguments.ObjectiveCriteriaArgument.class)
 public class ObjectiveCriteriaArgument201827815Mixin {
         @Inject(at = @At("HEAD"), method = "getName(Lnet/minecraft/stats/StatType;Ljava/lang/Object;)Ljava/lang/String;", cancellable = true)
-    private void getName_1786262807(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1786262807L))
-            info.setReturnValue("Jt7Ljht\u97EC*h8ObV\uBA0B\uAB5F['qn\uC0A27k!h1/>\u6FBE\u4EC3R\uFB965jh`\u46BFIbK%{a=n+n\uA0A8{f\u9DD4UV\uBC85DS#E>wy\u477D=tDk)-bG:\u6307wVF\uA2D8");
+    private void getName__812086440(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-812086440L))
+            info.setReturnValue("#Af},O-\u85D4o5Pt]$J\u3C8F @48@}\u73CC<%ccm@o\u7C08|/\u2DD6yd3kBEs$5Kl2[-,fsXuinE\uCF33E\u559F\u8DACD\u5E93wra:v");
     }
 
     @Inject(at = @At("HEAD"), method = "parse(Lcom/mojang/brigadier/StringReader;)Ljava/lang/Object;", cancellable = true)
-    private void parse__91553928(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-91553928L))
+    private void parse_1163087909(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1163087909L))
             info.setReturnValue(new java.lang.Object());
     }
 
     @Inject(at = @At("HEAD"), method = "parse(Lcom/mojang/brigadier/StringReader;)Lnet/minecraft/world/scores/criteria/ObjectiveCriteria;", cancellable = true)
-    private void parse__301426768(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-301426768L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "listSuggestions(Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
-    private void listSuggestions_442751257(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(442751257L))
-            info.setReturnValue(new java.util.concurrent.CompletableFuture());
-    }
-
-    @Inject(at = @At("HEAD"), method = "getExamples()Ljava/util/Collection;", cancellable = true)
-    private void getExamples__1611820457(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1611820457L))
+    private void parse__704241885(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-704241885L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "criteria()Lnet/minecraft/commands/arguments/ObjectiveCriteriaArgument;", cancellable = true)
-    private static void criteria_1120241636(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1120241636L))
+    private static void criteria_313847619(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(313847619L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "listSuggestions(Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
+    private void listSuggestions__549729976(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-549729976L))
+            info.setReturnValue(new java.util.concurrent.CompletableFuture());
+    }
+
+    @Inject(at = @At("HEAD"), method = "getExamples()Ljava/util/Collection;", cancellable = true)
+    private void getExamples_1926441814(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1926441814L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getCriteria(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/world/scores/criteria/ObjectiveCriteria;", cancellable = true)
-    private static void getCriteria_830554850(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(830554850L))
+    private static void getCriteria__1559325833(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1559325833L))
             info.setReturnValue(null);
     }
 

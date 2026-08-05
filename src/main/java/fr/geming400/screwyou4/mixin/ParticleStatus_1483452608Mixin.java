@@ -8,20 +8,20 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.server.level.ParticleStatus.class)
 public class ParticleStatus_1483452608Mixin {
         @Inject(at = @At("HEAD"), method = "values()[Lnet/minecraft/server/level/ParticleStatus;", cancellable = true)
-    private static void values__1422173241(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1422173241L))
+    private static void values__1881576215(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1881576215L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/server/level/ParticleStatus;", cancellable = true)
-    private static void valueOf_443625770(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(443625770L))
-            info.setReturnValue(net.minecraft.server.level.ParticleStatus.DECREASED);
+    private static void valueOf_1550373634(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1550373634L))
+            info.setReturnValue(net.minecraft.server.level.ParticleStatus.MINIMAL);
     }
 
     @Inject(at = @At("HEAD"), method = "caption()Lnet/minecraft/network/chat/Component;", cancellable = true)
-    private void caption__693456558(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-693456558L))
+    private void caption_1892977592(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1892977592L))
             info.setReturnValue(null);
     }
 

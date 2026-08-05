@@ -8,14 +8,14 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.level.gameevent.EntityPositionSource.Type.class)
 public class Type1078482961Mixin {
         @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
-    private void codec__1480630611(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1480630611L))
+    private void codec_2144928215(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2144928215L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "streamCodec()Lnet/minecraft/network/codec/StreamCodec;", cancellable = true)
-    private void streamCodec__1955484211(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1955484211L))
+    private void streamCodec__60263145(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-60263145L))
             info.setReturnValue(null);
     }
 

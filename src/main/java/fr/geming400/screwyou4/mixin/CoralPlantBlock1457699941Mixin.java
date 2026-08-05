@@ -8,8 +8,8 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.level.block.CoralPlantBlock.class)
 public class CoralPlantBlock1457699941Mixin {
         @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
-    private void codec__1101413631(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1101413631L))
+    private void codec__1770822101(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1770822101L))
             info.setReturnValue(null);
     }
 

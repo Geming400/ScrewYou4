@@ -8,50 +8,50 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.server.WorldStem.class)
 public class WorldStem_753983171Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals_2139495429(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2139495429L))
-            info.setReturnValue(true);
+    private void equals__154643098(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-154643098L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__381476805(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-381476805L))
-            info.setReturnValue("\u6FD5XY-zQ9`cCx\uD069w/p7\uAD61+8/&YRN\"E\u8194E\uAFF2m?\uD7D6+,\u0384bl)d>\u8D7D{\u43F6[;Am\uA40C;sF>T%\"");
+    private void toString_1524406695(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1524406695L))
+            info.setReturnValue("yt`2\uC2767\u89D5Ql}\u27ED3\u6D30KA-.y4.)N3+?uYn\u26E5i)vpc;z0\u38A6x[Eq)`v\uFEB5<\uA78C/");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_792245912(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(792245912L))
-            info.setReturnValue(871739434);
+    private void hashCode_1311335261(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1311335261L))
+            info.setReturnValue(1569893294);
     }
 
     @Inject(at = @At("HEAD"), method = "close()V", cancellable = true)
-    private void close_792257909(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(792257909L))
+    private void close__1360592259(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1360592259L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "registries()Lnet/minecraft/core/LayeredRegistryAccess;", cancellable = true)
-    private void registries__1108037061(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1108037061L))
+    @Inject(at = @At("HEAD"), method = "dataPackResources()Lnet/minecraft/server/ReloadableServerResources;", cancellable = true)
+    private void dataPackResources_524216763(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(524216763L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "worldDataAndGenSettings()Lnet/minecraft/world/level/storage/LevelDataAndDimensions$WorldDataAndGenSettings;", cancellable = true)
-    private void worldDataAndGenSettings_1004037526(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1004037526L))
+    private void worldDataAndGenSettings_820903502(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(820903502L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "resourceManager()Lnet/minecraft/server/packs/resources/CloseableResourceManager;", cancellable = true)
-    private void resourceManager__1454615774(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1454615774L))
+    private void resourceManager__1089575165(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1089575165L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "dataPackResources()Lnet/minecraft/server/ReloadableServerResources;", cancellable = true)
-    private void dataPackResources_1250261561(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1250261561L))
+    @Inject(at = @At("HEAD"), method = "registries()Lnet/minecraft/core/LayeredRegistryAccess;", cancellable = true)
+    private void registries_934412438(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(934412438L))
             info.setReturnValue(null);
     }
 

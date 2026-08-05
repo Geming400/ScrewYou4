@@ -8,9 +8,9 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.util.datafix.fixes.ChunkHeightAndBiomeFix.class)
 public class ChunkHeightAndBiomeFix_2029840230Mixin {
         @Inject(at = @At("HEAD"), method = "ceillog2(I)I", cancellable = true)
-    private static void ceillog2__1051222340(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1051222340L))
-            info.setReturnValue(-337999558);
+    private static void ceillog2__1520508817(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1520508817L))
+            info.setReturnValue(-1594005694);
     }
 
 

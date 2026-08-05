@@ -8,14 +8,14 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.level.chunk.status.ChunkType.class)
 public class ChunkType_547368503Mixin {
         @Inject(at = @At("HEAD"), method = "values()[Lnet/minecraft/world/level/chunk/status/ChunkType;", cancellable = true)
-    private static void values__1546244339(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1546244339L))
+    private static void values__1319439445(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1319439445L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/world/level/chunk/status/ChunkType;", cancellable = true)
-    private static void valueOf_627774538(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(627774538L))
+    private static void valueOf_1388982130(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1388982130L))
             info.setReturnValue(net.minecraft.world.level.chunk.status.ChunkType.LEVELCHUNK);
     }
 

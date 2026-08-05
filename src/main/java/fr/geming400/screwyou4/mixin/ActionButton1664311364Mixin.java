@@ -8,32 +8,32 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.server.dialog.ActionButton.class)
 public class ActionButton1664311364Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals__1245143673(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1245143673L))
+    private void equals_755685096(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(755685096L))
             info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString_528851389(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(528851389L))
-            info.setReturnValue("xyH}/\u55F7:8hi(4ftH%VX.\u478CJ&`%Y+m5?\u2A81zVID\u4BC20jf<HPZ8h?%P8S:\u6A8E\u1D59et@Rkq2\u84CB}_H$p[^1`Hx#6xb0G0{G\uBB1B");
+    private void toString__1860232407(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1860232407L))
+            info.setReturnValue("p\uAD00r-wj^i1%3LbTbC2>l%B9Ii,Fc`)\u28F7\u16B1?{EYv[j6K\u7808\u52FAVu?O6Z\u0584Zo\u12DDKs0? B\u4201R");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_1702574106(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1702574106L))
-            info.setReturnValue(1231868292);
+    private void hashCode__2073303841(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2073303841L))
+            info.setReturnValue(-1565534204);
     }
 
     @Inject(at = @At("HEAD"), method = "action()Ljava/util/Optional;", cancellable = true)
-    private void action_1909772786(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1909772786L))
+    private void action__400912856(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-400912856L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "button()Lnet/minecraft/server/dialog/CommonButtonData;", cancellable = true)
-    private void button__1271684772(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1271684772L))
+    private void button__934684658(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-934684658L))
             info.setReturnValue(null);
     }
 

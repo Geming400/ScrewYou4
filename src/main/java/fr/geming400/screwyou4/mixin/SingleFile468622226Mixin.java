@@ -8,44 +8,44 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.renderer.texture.atlas.sources.SingleFile.class)
 public class SingleFile468622226Mixin {
         @Inject(at = @At("HEAD"), method = "run(Lnet/minecraft/server/packs/resources/ResourceManager;Lnet/minecraft/client/renderer/texture/atlas/SpriteSource$Output;)V", cancellable = true)
-    private void run__1418524316(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1418524316L))
+    private void run_11145583(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(11145583L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals_1854134485(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1854134485L))
+    private void equals__440004042(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-440004042L))
             info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__666837749(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-666837749L))
-            info.setReturnValue("12iF2 ^h)\u1DF4g2nr\u8957v&\u908F/bT=}U\u49F2tLI6,U\uBFEB&Wfa#nu9\u48D20}<1VKVTrf]\uA8E7k%C?<!e\u5072\"ALtI\u94F0\u16F7_JdMk\uD39E\u86D59N!\u5BD1$;=B}D9");
+    private void toString_1239045751(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1239045751L))
+            info.setReturnValue(":CH+{q\"R5WH^Z>vd]\u93C11KHCON,Yr> \u0FCC[F7e%\uBA72");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_506884968(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(506884968L))
-            info.setReturnValue(1866657995);
-    }
-
-    @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
-    private void codec__2090491346(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2090491346L))
-            info.setReturnValue(null);
+    private void hashCode_1025974317(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1025974317L))
+            info.setReturnValue(232644012);
     }
 
     @Inject(at = @At("HEAD"), method = "resourceId()Lnet/minecraft/resources/Identifier;", cancellable = true)
-    private void resourceId__1974444327(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1974444327L))
+    private void resourceId_1560814498(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1560814498L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
+    private void codec_1535067480(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1535067480L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "spriteId()Ljava/util/Optional;", cancellable = true)
-    private void spriteId_714083648(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(714083648L))
+    private void spriteId__1572389888(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1572389888L))
             info.setReturnValue(null);
     }
 

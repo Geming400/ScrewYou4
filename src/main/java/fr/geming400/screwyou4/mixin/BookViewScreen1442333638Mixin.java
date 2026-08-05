@@ -7,51 +7,51 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.client.gui.screens.inventory.BookViewScreen.class)
 public class BookViewScreen1442333638Mixin {
-        @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIF)V", cancellable = true)
-    private void extractRenderState_482646266(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(482646266L))
+        @Inject(at = @At("HEAD"), method = "setBookAccess(Lnet/minecraft/client/gui/screens/inventory/BookViewScreen$BookAccess;)V", cancellable = true)
+    private void setBookAccess__1093468479(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1093468479L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "extractBackground(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIF)V", cancellable = true)
-    private void extractBackground_482646266(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(482646266L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "mouseClicked(Lnet/minecraft/client/input/MouseButtonEvent;Z)Z", cancellable = true)
+    private void mouseClicked_901827462(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(901827462L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "getNarrationMessage()Lnet/minecraft/network/chat/Component;", cancellable = true)
-    private void getNarrationMessage__734575527(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-734575527L))
+    private void getNarrationMessage__229509100(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-229509100L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "setBookAccess(Lnet/minecraft/client/gui/screens/inventory/BookViewScreen$BookAccess;)V", cancellable = true)
-    private void setBookAccess_512928208(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(512928208L))
+    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIF)V", cancellable = true)
+    private void extractRenderState__1865754016(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1865754016L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "setPage(I)Z", cancellable = true)
-    private void setPage__1638712842(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1638712842L))
+    private void setPage_1932933959(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1932933959L))
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "extractBackground(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIF)V", cancellable = true)
+    private void extractBackground__1451179125(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1451179125L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "keyPressed(Lnet/minecraft/client/input/KeyEvent;)Z", cancellable = true)
+    private void keyPressed_1411280007(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1411280007L))
             info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "isInGameUi()Z", cancellable = true)
-    private void isInGameUi_1480612221(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1480612221L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "mouseClicked(Lnet/minecraft/client/input/MouseButtonEvent;Z)Z", cancellable = true)
-    private void mouseClicked__172325240(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-172325240L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "keyPressed(Lnet/minecraft/client/input/KeyEvent;)Z", cancellable = true)
-    private void keyPressed_525697924(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(525697924L))
+    private void isInGameUi_929847208(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(929847208L))
             info.setReturnValue(true);
     }
 

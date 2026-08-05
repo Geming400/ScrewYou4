@@ -8,8 +8,8 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.data.worldgen.placement.NetherPlacements.class)
 public class NetherPlacements_1993392122Mixin {
         @Inject(at = @At("HEAD"), method = "bootstrap(Lnet/minecraft/data/worldgen/BootstrapContext;)V", cancellable = true)
-    private static void bootstrap_800873618(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(800873618L))
+    private static void bootstrap_1438786404(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1438786404L))
             info.cancel();
     }
 

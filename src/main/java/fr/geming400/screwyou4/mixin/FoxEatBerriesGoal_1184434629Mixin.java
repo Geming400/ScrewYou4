@@ -8,33 +8,33 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.entity.animal.fox.Fox.FoxEatBerriesGoal.class)
 public class FoxEatBerriesGoal_1184434629Mixin {
         @Inject(at = @At("HEAD"), method = "start()V", cancellable = true)
-    private void start_1222709367(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1222709367L))
+    private void start__441730731(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-441730731L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "canUse()Z", cancellable = true)
-    private void canUse_1222713211(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1222713211L))
-            info.setReturnValue(false);
+    private void canUse_269994564(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(269994564L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "tick()V", cancellable = true)
-    private void tick_1222709367(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1222709367L))
+    private void tick_1054750970(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1054750970L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "acceptedDistance()D", cancellable = true)
-    private void acceptedDistance_1222692069(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1222692069L))
-            info.setReturnValue(8.556292007341455E8D);
+    private void acceptedDistance__264574551(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-264574551L))
+            info.setReturnValue(9.594238008806269E8D);
     }
 
     @Inject(at = @At("HEAD"), method = "shouldRecalculatePath()Z", cancellable = true)
-    private void shouldRecalculatePath_1222713211(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1222713211L))
-            info.setReturnValue(false);
+    private void shouldRecalculatePath_1995150198(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1995150198L))
+            info.setReturnValue(true);
     }
 
 

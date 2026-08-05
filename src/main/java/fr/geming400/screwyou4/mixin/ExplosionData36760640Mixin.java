@@ -8,39 +8,39 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.entity.SulfurCubeArchetype.ExplosionData.class)
 public class ExplosionData36760640Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals_1422272899(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1422272899L))
+    private void equals__871865628(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-871865628L))
             info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__1098699335(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1098699335L))
-            info.setReturnValue("S1XIH{a9cJmM13n)+Y{o1hW59HBx\u638DnNB&K\u796C@{\u3E69!*<%MS\uFE55\"nOQ{Eh_('TeX;\uD2FAZ\u367Dx2dTw0\uCAA4`oPT\u7C24M%\u0BF0XU1b|y |J3V\uFEBF");
+    private void toString_807184165(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(807184165L))
+            info.setReturnValue("c=\u7AE4BbV\u881BW;xC$iVfk&Hj8\u7826\uB793U>j\"5EEuXj\u85AECMJ\u41F4\u2C54V\uC99AqL)*<nMGI46^Tc\u047C0(\u9345\u63C0CM'Lt?a\u9F94J");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_75023382(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(75023382L))
-            info.setReturnValue(346107461);
+    private void hashCode_594112731(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(594112731L))
+            info.setReturnValue(401819916);
     }
 
     @Inject(at = @At("HEAD"), method = "power()I", cancellable = true)
-    private void power_75022886(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(75022886L))
-            info.setReturnValue(524630950);
+    private void power_424678465(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(424678465L))
+            info.setReturnValue(489735058);
     }
 
     @Inject(at = @At("HEAD"), method = "causesFire()Z", cancellable = true)
-    private void causesFire_75039223(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(75039223L))
+    private void causesFire__1405766793(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1405766793L))
             info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "fuse()I", cancellable = true)
-    private void fuse_75022886(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(75022886L))
-            info.setReturnValue(524630950);
+    private void fuse_23892837(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(23892837L))
+            info.setReturnValue(882373683);
     }
 
 

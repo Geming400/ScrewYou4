@@ -8,8 +8,8 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.util.datafix.fixes.DebugProfileLookingAtSplitFix.class)
 public class DebugProfileLookingAtSplitFix_2014860211Mixin {
         @Inject(at = @At("HEAD"), method = "makeRule()Lcom/mojang/datafixers/TypeRewriteRule;", cancellable = true)
-    private void makeRule__794911251(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-794911251L))
+    private void makeRule_1198723491(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1198723491L))
             info.setReturnValue(null);
     }
 

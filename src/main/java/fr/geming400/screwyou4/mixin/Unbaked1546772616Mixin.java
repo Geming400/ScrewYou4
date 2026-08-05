@@ -8,51 +8,51 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.renderer.special.BannerSpecialRenderer.Unbaked.class)
 public class Unbaked1546772616Mixin {
         @Inject(at = @At("HEAD"), method = "type()Lcom/mojang/serialization/MapCodec;", cancellable = true)
-    private void type__1012340956(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1012340956L))
+    private void type_151521962(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(151521962L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals__1362682421(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1362682421L))
+    private void equals_638146348(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(638146348L))
             info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString_411312641(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(411312641L))
-            info.setReturnValue("WZ/sLcV+[<K%[lO{/x)\u975B\uBC73F/t6wVoj%f|");
+    private void toString__1977771155(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1977771155L))
+            info.setReturnValue("5A(!m_s&&%l4N\u93E5Ft\uA21DZY|&E<>[d\u7034 P>?P*\u261Cd\uA03CA`%8lmD3w*9UO%k\"x'NIy+iH``Us\uCCC1\u77D7$E3e\u4569kUs^BV;\u1BFFMdElh");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_1585035358(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1585035358L))
-            info.setReturnValue(-470571142);
+    private void hashCode_2104124707(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2104124707L))
+            info.setReturnValue(233735685);
     }
 
     @Inject(at = @At("HEAD"), method = "attachment()Lnet/minecraft/world/level/block/BannerBlock$AttachmentType;", cancellable = true)
-    private void attachment__419346984(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-419346984L))
-            info.setReturnValue(net.minecraft.world.level.block.BannerBlock.AttachmentType.WALL);
-    }
-
-    @Inject(at = @At("HEAD"), method = "baseColor()Lnet/minecraft/world/item/DyeColor;", cancellable = true)
-    private void baseColor__1312886450(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1312886450L))
-            info.setReturnValue(net.minecraft.world.item.DyeColor.YELLOW);
+    private void attachment_1809712891(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1809712891L))
+            info.setReturnValue(net.minecraft.world.level.block.BannerBlock.AttachmentType.GROUND);
     }
 
     @Inject(at = @At("HEAD"), method = "bake(Lnet/minecraft/client/renderer/special/SpecialModelRenderer$BakingContext;)Lnet/minecraft/client/renderer/special/SpecialModelRenderer;", cancellable = true)
-    private void bake__141250244(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-141250244L))
+    private void bake__1575392299(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1575392299L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "bake(Lnet/minecraft/client/renderer/special/SpecialModelRenderer$BakingContext;)Lnet/minecraft/client/renderer/special/BannerSpecialRenderer;", cancellable = true)
-    private void bake_1196799939(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1196799939L))
+    private void bake__311930806(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-311930806L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "baseColor()Lnet/minecraft/world/item/DyeColor;", cancellable = true)
+    private void baseColor__176968196(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-176968196L))
+            info.setReturnValue(net.minecraft.world.item.DyeColor.CYAN);
     }
 
 

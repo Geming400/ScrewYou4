@@ -7,22 +7,22 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.client.model.object.crystal.EndCrystalModel.class)
 public class EndCrystalModel_438513984Mixin {
-        @Inject(at = @At("HEAD"), method = "setupAnim(Ljava/lang/Object;)V", cancellable = true)
-    private void setupAnim_1824150862(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1824150862L))
+        @Inject(at = @At("HEAD"), method = "createBodyLayer()Lnet/minecraft/client/model/geom/builders/LayerDefinition;", cancellable = true)
+    private static void createBodyLayer__1465140626(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1465140626L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "setupAnim(Ljava/lang/Object;)V", cancellable = true)
+    private void setupAnim_1122162528(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1122162528L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "setupAnim(Lnet/minecraft/client/renderer/entity/state/EndCrystalRenderState;)V", cancellable = true)
-    private void setupAnim__1622438065(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1622438065L))
+    private void setupAnim_1565844833(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1565844833L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "createBodyLayer()Lnet/minecraft/client/model/geom/builders/LayerDefinition;", cancellable = true)
-    private static void createBodyLayer__275618181(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-275618181L))
-            info.setReturnValue(null);
     }
 
 

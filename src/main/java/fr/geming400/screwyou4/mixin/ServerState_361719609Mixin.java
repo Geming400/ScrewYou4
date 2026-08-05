@@ -8,38 +8,38 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.server.jsonrpc.methods.ServerStateService.ServerState.class)
 public class ServerState_361719609Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals_1747231867(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1747231867L))
-            info.setReturnValue(true);
+    private void equals__546906660(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-546906660L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__773740367(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-773740367L))
-            info.setReturnValue("w2\u3F8C\uCB2CWeQa\u9C6A:0leOd\u121AKk");
+    private void toString_1132143133(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1132143133L))
+            info.setReturnValue("f7uY61\"\u3356\u9FD2\u773E-{pyg1yZ!Z]p0\u3429.\u00F5pPTm-\uB087JR2*3 !^C(z(BqW\"KUp6qS2=:g9evt=3");
     }
 
     @Inject(at = @At("HEAD"), method = "version()Lnet/minecraft/network/protocol/status/ServerStatus$Version;", cancellable = true)
-    private void version_1705367234(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1705367234L))
+    private void version__582470758(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-582470758L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_399982350(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(399982350L))
-            info.setReturnValue(-151351010);
+    private void hashCode_919071699(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(919071699L))
+            info.setReturnValue(770791889);
     }
 
     @Inject(at = @At("HEAD"), method = "started()Z", cancellable = true)
-    private void started_399998191(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(399998191L))
+    private void started_907371790(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(907371790L))
             info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "players()Ljava/util/List;", cancellable = true)
-    private void players_1988056424(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1988056424L))
+    private void players_1518619162(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1518619162L))
             info.setReturnValue(null);
     }
 

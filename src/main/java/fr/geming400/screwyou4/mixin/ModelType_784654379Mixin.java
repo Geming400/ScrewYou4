@@ -8,21 +8,21 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.entity.animal.chicken.ChickenVariant.ModelType.class)
 public class ModelType_784654379Mixin {
         @Inject(at = @At("HEAD"), method = "values()[Lnet/minecraft/world/entity/animal/chicken/ChickenVariant$ModelType;", cancellable = true)
-    private static void values__1767872856(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1767872856L))
+    private static void values_757366726(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(757366726L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/world/entity/animal/chicken/ChickenVariant$ModelType;", cancellable = true)
-    private static void valueOf__968927579(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-968927579L))
+    private static void valueOf_348977101(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(348977101L))
             info.setReturnValue(net.minecraft.world.entity.animal.chicken.ChickenVariant.ModelType.COLD);
     }
 
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
-    private void getSerializedName__350806093(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-350806093L))
-            info.setReturnValue("'qJ\u2966P\u1066w^!h8A??+^rb8\u69C9(sn8uQ2");
+    private void getSerializedName_872863000(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(872863000L))
+            info.setReturnValue("'34<4 g\u17E1 \u0691-7\uB0A3N\u3AC99P\u0548\"=nvSZ@YPAhx\uA886eg$zE|E");
     }
 
 

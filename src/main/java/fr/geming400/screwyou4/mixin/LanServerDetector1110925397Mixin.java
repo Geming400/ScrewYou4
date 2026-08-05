@@ -8,8 +8,8 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.server.LanServerDetection.LanServerDetector.class)
 public class LanServerDetector1110925397Mixin {
         @Inject(at = @At("HEAD"), method = "run()V", cancellable = true)
-    private void run_1149200136(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1149200136L))
+    private void run_1874037597(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1874037597L))
             info.cancel();
     }
 

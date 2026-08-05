@@ -8,50 +8,50 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.gui.render.GuiItemAtlas.SlotView.class)
 public class SlotView1591034772Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals__1318420265(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1318420265L))
-            info.setReturnValue(false);
+    private void equals_682408504(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(682408504L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString_455574797(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(455574797L))
-            info.setReturnValue("\u9BE4+O^9U6w\uB518\u3D9Fa``qT$YNyp@C1y\uAC0F9^c9N.W9'Ro}VXIyZXTu\uA733A[pA6lt%/,\uBAC9\"NxpHTL");
+    private void toString__1933508999(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1933508999L))
+            info.setReturnValue("GB\u7B54KfJNXu\uFFA9^=\uBF8C\uAB3B&o8kyJ3OMIHh\uB0ED^\"c^\u73DA&s\u8C74c\u5B1D");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_1629297514(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1629297514L))
-            info.setReturnValue(8638789);
+    private void hashCode__2146580433(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2146580433L))
+            info.setReturnValue(-1697384169);
     }
 
     @Inject(at = @At("HEAD"), method = "v1()F", cancellable = true)
-    private void v1_1629294135(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1629294135L))
-            info.setReturnValue(3.686629E8F);
+    private void v1_383374492(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(383374492L))
+            info.setReturnValue(1.172692E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "u1()F", cancellable = true)
-    private void u1_1629294135(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1629294135L))
-            info.setReturnValue(3.686629E8F);
+    private void u1__504129189(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-504129189L))
+            info.setReturnValue(1.172692E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "v0()F", cancellable = true)
-    private void v0_1629294135(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1629294135L))
-            info.setReturnValue(3.686629E8F);
+    private void v0_354745341(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(354745341L))
+            info.setReturnValue(1.172692E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "u0()F", cancellable = true)
-    private void u0_1629294135(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1629294135L))
-            info.setReturnValue(3.686629E8F);
+    private void u0__532758340(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-532758340L))
+            info.setReturnValue(1.172692E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "textureView()Lcom/mojang/blaze3d/textures/GpuTextureView;", cancellable = true)
-    private void textureView__809579838(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-809579838L))
+    private void textureView__1655371486(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1655371486L))
             info.setReturnValue(null);
     }
 

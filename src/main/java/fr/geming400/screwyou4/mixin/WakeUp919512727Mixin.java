@@ -8,8 +8,8 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.entity.ai.behavior.WakeUp.class)
 public class WakeUp919512727Mixin {
         @Inject(at = @At("HEAD"), method = "create()Lnet/minecraft/world/entity/ai/behavior/BehaviorControl;", cancellable = true)
-    private static void create_2024895011(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2024895011L))
+    private static void create_179376415(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(179376415L))
             info.setReturnValue(null);
     }
 

@@ -8,92 +8,92 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.OptionInstance.class)
 public class OptionInstance_809324306Mixin {
         @Inject(at = @At("HEAD"), method = "get()Ljava/lang/Object;", cancellable = true)
-    private void get__1626450772(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1626450772L))
+    private void get__644604030(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-644604030L))
             info.setReturnValue(new java.lang.Object());
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__326136166(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-326136166L))
-            info.setReturnValue("/NOjw\u7D2F?X\uD1477\uB8DAo8k6EWs<\u5A61e0&\u78D7\u6BEA\u84A5\u0D41*\u8B03PqIr@X)M\u2952Uz3|uq#\u4888ozRE%tnClk(\u6FC1#0\u3D49S[|G\uBD1FpB5");
+    private void toString_1579747334(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1579747334L))
+            info.setReturnValue("E> CFT\u6D6E\uB506NpL/Q2P>SsNC+3Wax!p}n\uA9D1kkC\uCBE2\uC136\u1BE7f>qG\uB392G1]irP\uBFA5<V+");
     }
 
     @Inject(at = @At("HEAD"), method = "values()Lnet/minecraft/client/OptionInstance$ValueSet;", cancellable = true)
-    private void values__1297905308(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1297905308L))
+    private void values__402531834(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-402531834L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "set(Ljava/lang/Object;)V", cancellable = true)
-    private void set__2100135072(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-2100135072L))
+    private void set__1355419458(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1355419458L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "createBoolean(Ljava/lang/String;Lnet/minecraft/client/OptionInstance$TooltipSupplier;Lnet/minecraft/client/OptionInstance$CaptionBasedToString;ZLnet/minecraft/client/OptionInstance$ValueUpdateListener;)Lnet/minecraft/client/OptionInstance;", cancellable = true)
-    private static void createBoolean__2007116816(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2007116816L))
+    private static void createBoolean__128619140(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-128619140L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "createBoolean(Ljava/lang/String;Z)Lnet/minecraft/client/OptionInstance;", cancellable = true)
-    private static void createBoolean_925422707(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(925422707L))
+    private static void createBoolean__1897485825(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1897485825L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "createBoolean(Ljava/lang/String;ZLnet/minecraft/client/OptionInstance$ValueUpdateListener;)Lnet/minecraft/client/OptionInstance;", cancellable = true)
-    private static void createBoolean_668130374(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(668130374L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "createBoolean(Ljava/lang/String;Lnet/minecraft/client/OptionInstance$TooltipSupplier;ZLnet/minecraft/client/OptionInstance$ValueUpdateListener;)Lnet/minecraft/client/OptionInstance;", cancellable = true)
-    private static void createBoolean_829863652(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(829863652L))
+    private static void createBoolean_412830778(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(412830778L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "createBoolean(Ljava/lang/String;Lnet/minecraft/client/OptionInstance$TooltipSupplier;Z)Lnet/minecraft/client/OptionInstance;", cancellable = true)
-    private static void createBoolean_853769237(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(853769237L))
+    private static void createBoolean__559282679(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-559282679L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/Codec;", cancellable = true)
-    private void codec_417358679(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(417358679L))
+    @Inject(at = @At("HEAD"), method = "createBoolean(Ljava/lang/String;Lnet/minecraft/client/OptionInstance$TooltipSupplier;ZLnet/minecraft/client/OptionInstance$ValueUpdateListener;)Lnet/minecraft/client/OptionInstance;", cancellable = true)
+    private static void createBoolean__70625424(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-70625424L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "cachedConstantTooltip(Lnet/minecraft/network/chat/Component;)Lnet/minecraft/client/OptionInstance$TooltipSupplier;", cancellable = true)
-    private static void cachedConstantTooltip__798250436(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-798250436L))
+    private static void cachedConstantTooltip_1117214815(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1117214815L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "createButton(Lnet/minecraft/client/Options;IIILnet/minecraft/client/OptionInstance$ValueUpdateListener;)Lnet/minecraft/client/gui/components/AbstractWidget;", cancellable = true)
-    private void createButton_708539913(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(708539913L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "createButton(Lnet/minecraft/client/Options;)Lnet/minecraft/client/gui/components/AbstractWidget;", cancellable = true)
-    private void createButton_675906915(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(675906915L))
+    private void createButton__2023905833(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2023905833L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "createButton(Lnet/minecraft/client/Options;III)Lnet/minecraft/client/gui/components/AbstractWidget;", cancellable = true)
-    private void createButton__1973842548(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1973842548L))
+    private void createButton__318559746(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-318559746L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "createButton(Lnet/minecraft/client/Options;)Lnet/minecraft/client/gui/components/AbstractWidget;", cancellable = true)
+    private void createButton_1916833329(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1916833329L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "noTooltip()Lnet/minecraft/client/OptionInstance$TooltipSupplier;", cancellable = true)
-    private static void noTooltip__976092376(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-976092376L))
+    private static void noTooltip_1544061542(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1544061542L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/Codec;", cancellable = true)
+    private void codec__995385235(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-995385235L))
             info.setReturnValue(null);
     }
 

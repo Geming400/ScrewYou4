@@ -8,21 +8,21 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.resources.sounds.SoundEventRegistration.class)
 public class SoundEventRegistration970764054Mixin {
         @Inject(at = @At("HEAD"), method = "getSubtitle()Ljava/lang/String;", cancellable = true)
-    private void getSubtitle__164696417(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-164696417L))
-            info.setReturnValue("mJbN3OS&;\u7B40\u40AD;DZ/l<$></D\u1C8A.w$sFlH0,\u04B9|1d<rA\u9036TSHc|\uA0D6qIc\u5D92o\u1DCA>ogJ#?Lsr4'\u97C2\\");
+    private void getSubtitle_1291762093(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1291762093L))
+            info.setReturnValue("+XGh\u79A8zX\uC1B1M\u113F*AO\"/y\u78A9}\uCAF1Pa'h\uAC4B?SoC2%#\"s%\u276B;VKi\u4413zi]A\uAF7E1\u8C45SrYG");
     }
 
     @Inject(at = @At("HEAD"), method = "getSounds()Ljava/util/List;", cancellable = true)
-    private void getSounds__1697866426(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1697866426L))
+    private void getSounds_1652930688(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1652930688L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "isReplace()Z", cancellable = true)
-    private void isReplace_1009042637(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1009042637L))
-            info.setReturnValue(true);
+    private void isReplace_617518307(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(617518307L))
+            info.setReturnValue(false);
     }
 
 

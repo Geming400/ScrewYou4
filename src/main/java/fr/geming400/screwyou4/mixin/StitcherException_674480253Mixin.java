@@ -8,8 +8,8 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.renderer.texture.StitcherException.class)
 public class StitcherException_674480253Mixin {
         @Inject(at = @At("HEAD"), method = "getAllSprites()Ljava/util/Collection;", cancellable = true)
-    private void getAllSprites__1139168020(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1139168020L))
+    private void getAllSprites_212151439(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(212151439L))
             info.setReturnValue(null);
     }
 

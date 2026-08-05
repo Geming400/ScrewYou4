@@ -8,38 +8,38 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.server.dialog.action.StaticAction.class)
 public class StaticAction929522428Mixin {
         @Inject(at = @At("HEAD"), method = "value()Lnet/minecraft/network/chat/ClickEvent;", cancellable = true)
-    private void value_774566892(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(774566892L))
+    private void value_638076379(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(638076379L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals__1979932609(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1979932609L))
-            info.setReturnValue(true);
+    private void equals_20896160(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(20896160L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__205937547(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-205937547L))
-            info.setReturnValue("X%Z\u72FFg0:|\u79F7kZr\uBBE5j3hC.5I\u2DF9p\u7688SP%");
+    private void toString_1699945953(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1699945953L))
+            info.setReturnValue("U,W<]D\u3649<F{zv%vA\u0C019dPQ^\u9E1CO8m:|\uFAB3f/q@79\uFEC8g]1DDH\u00D2&HpHk+\u1F51\uAEE5h@ 7v\u4347\u5D9BZJu8)^\u7BE5Dig\u39DB}D!}p\u1FBAwoz\")/#o=B");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_967785170(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(967785170L))
-            info.setReturnValue(-1329509920);
-    }
-
-    @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
-    private void codec__1629591144(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1629591144L))
-            info.setReturnValue(null);
+    private void hashCode_1486874519(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1486874519L))
+            info.setReturnValue(-1097519826);
     }
 
     @Inject(at = @At("HEAD"), method = "createAction(Ljava/util/Map;)Ljava/util/Optional;", cancellable = true)
-    private void createAction__1977744497(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1977744497L))
+    private void createAction_1539509501(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1539509501L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
+    private void codec_1995967682(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1995967682L))
             info.setReturnValue(null);
     }
 

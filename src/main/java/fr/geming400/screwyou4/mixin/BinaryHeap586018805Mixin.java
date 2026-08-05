@@ -8,57 +8,57 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.level.pathfinder.BinaryHeap.class)
 public class BinaryHeap586018805Mixin {
         @Inject(at = @At("HEAD"), method = "remove(Lnet/minecraft/world/level/pathfinder/Node;)V", cancellable = true)
-    private void remove__563463147(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-563463147L))
+    private void remove_987274393(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(987274393L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "size()I", cancellable = true)
-    private void size_624281051(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(624281051L))
-            info.setReturnValue(-1382145539);
+    private void size_1029750394(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1029750394L))
+            info.setReturnValue(-2000050278);
     }
 
     @Inject(at = @At("HEAD"), method = "insert(Lnet/minecraft/world/level/pathfinder/Node;)Lnet/minecraft/world/level/pathfinder/Node;", cancellable = true)
-    private void insert_30895164(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(30895164L))
+    private void insert__1079606859(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1079606859L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "clear()V", cancellable = true)
-    private void clear_624293544(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(624293544L))
+    private void clear__199808901(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-199808901L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "isEmpty()Z", cancellable = true)
-    private void isEmpty_624297388(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(624297388L))
-            info.setReturnValue(true);
+    private void isEmpty_1645135177(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1645135177L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "peek()Lnet/minecraft/world/level/pathfinder/Node;", cancellable = true)
-    private void peek__907198705(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-907198705L))
+    private void peek__1481361324(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1481361324L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "pop()Lnet/minecraft/world/level/pathfinder/Node;", cancellable = true)
-    private void pop__907198705(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-907198705L))
+    private void pop__1720286050(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1720286050L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getHeap()[Lnet/minecraft/world/level/pathfinder/Node;", cancellable = true)
+    private void getHeap_1427342232(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1427342232L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "changeCost(Lnet/minecraft/world/level/pathfinder/Node;F)V", cancellable = true)
-    private void changeCost__663553839(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-663553839L))
+    private void changeCost__286401836(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-286401836L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "getHeap()[Lnet/minecraft/world/level/pathfinder/Node;", cancellable = true)
-    private void getHeap__2140513994(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2140513994L))
-            info.setReturnValue(null);
     }
 
 

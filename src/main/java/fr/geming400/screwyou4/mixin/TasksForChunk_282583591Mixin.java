@@ -8,33 +8,33 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.server.level.ChunkTaskPriorityQueue.TasksForChunk.class)
 public class TasksForChunk_282583591Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals_1668095849(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1668095849L))
+    private void equals__626042678(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-626042678L))
             info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__852876385(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-852876385L))
-            info.setReturnValue("(,Wp\u8D5A=Od#nu|'Oxku73c(PybSs_237\uC4A9<]\u9F7AgHkX\u01F3=&G\uC317$4B\u3BD3\uCCE7I&%[\u2B15Z\u1DFF&\u4214W\uA068\uB6F8qC\u533Bn8aE\u5BDAI\u9D61{7\u5F06iK_");
+    private void toString_1053007115(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1053007115L))
+            info.setReturnValue("!!L0CeA<\u0793]\uA9D1bCJ3i'\u1EEEh\u0DA1s`B76K\u6A25LNy!@|l\u0DEAHyc!X\uFB1EeCi@C%pXMipw:}Z94jFS7L\u52A5ma|3L\u3990U/@;:Y!a<BjcK");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_320846332(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(320846332L))
-            info.setReturnValue(514757583);
+    private void hashCode_839935681(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(839935681L))
+            info.setReturnValue(2002560453);
     }
 
     @Inject(at = @At("HEAD"), method = "tasks()Ljava/util/List;", cancellable = true)
-    private void tasks_1908920406(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1908920406L))
+    private void tasks_186972388(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(186972388L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "chunkPos()J", cancellable = true)
-    private void chunkPos_320846797(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(320846797L))
-            info.setReturnValue(-780136226351903153L);
+    private void chunkPos__1760286842(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1760286842L))
+            info.setReturnValue(-8135036087945743616L);
     }
 
 

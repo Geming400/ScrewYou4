@@ -8,63 +8,63 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.clock.ClockTimeMarker.class)
 public class ClockTimeMarker1863015607Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals__1046439430(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1046439430L))
-            info.setReturnValue(false);
+    private void equals_954389339(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(954389339L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString_727555632(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(727555632L))
-            info.setReturnValue("d2VD-qI%J]H?1|NB\u6C61b\"cdF3omx5bK'\u6D6EjL)>t%q");
+    private void toString__1661528164(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1661528164L))
+            info.setReturnValue("mAQ93z0_l\u1F54w'aGEcH,ye+A]nT:cXg\uD5B2\u5273h!W4)N7A\u493AT.Hf48");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_1901278349(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1901278349L))
-            info.setReturnValue(-1196028638);
+    private void hashCode__1874599598(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1874599598L))
+            info.setReturnValue(1500424916);
     }
 
     @Inject(at = @At("HEAD"), method = "clock()Lnet/minecraft/core/Holder;", cancellable = true)
-    private void clock__883075917(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-883075917L))
+    private void clock_983529189(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(983529189L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "occursAt(J)Z", cancellable = true)
-    private void occursAt__1217107352(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1217107352L))
+    private void occursAt__1519092862(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1519092862L))
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "ticks()I", cancellable = true)
-    private void ticks_1901277853(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1901277853L))
-            info.setReturnValue(-992881219);
+    @Inject(at = @At("HEAD"), method = "resolveTimeToMoveTo(J)J", cancellable = true)
+    private void resolveTimeToMoveTo_2099627224(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2099627224L))
+            info.setReturnValue(3070160466945146528L);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getRepetitionCount(J)J", cancellable = true)
+    private void getRepetitionCount__1298995904(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1298995904L))
+            info.setReturnValue(6189735881522048660L);
     }
 
     @Inject(at = @At("HEAD"), method = "periodTicks()Ljava/util/Optional;", cancellable = true)
-    private void periodTicks_2108477029(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2108477029L))
+    private void periodTicks_2048634010(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2048634010L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "showInCommands()Z", cancellable = true)
-    private void showInCommands_1901294190(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1901294190L))
-            info.setReturnValue(false);
+    private void showInCommands__1689843964(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1689843964L))
+            info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "getRepetitionCount(J)J", cancellable = true)
-    private void getRepetitionCount__1217122728(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1217122728L))
-            info.setReturnValue(-5188779231909941750L);
-    }
-
-    @Inject(at = @At("HEAD"), method = "resolveTimeToMoveTo(J)J", cancellable = true)
-    private void resolveTimeToMoveTo__1217122728(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1217122728L))
-            info.setReturnValue(-5188779231909941750L);
+    @Inject(at = @At("HEAD"), method = "ticks()I", cancellable = true)
+    private void ticks__13080089(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-13080089L))
+            info.setReturnValue(223410535);
     }
 
 

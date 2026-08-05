@@ -8,21 +8,21 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.item.component.MapPostProcessing.class)
 public class MapPostProcessing_76474383Mixin {
         @Inject(at = @At("HEAD"), method = "values()[Lnet/minecraft/world/item/component/MapPostProcessing;", cancellable = true)
-    private static void values_1659955995(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1659955995L))
+    private static void values__517590855(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-517590855L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/world/item/component/MapPostProcessing;", cancellable = true)
-    private static void valueOf__1729697320(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1729697320L))
-            info.setReturnValue(net.minecraft.world.item.component.MapPostProcessing.LOCK);
+    private static void valueOf_2104766720(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2104766720L))
+            info.setReturnValue(net.minecraft.world.item.component.MapPostProcessing.SCALE);
     }
 
     @Inject(at = @At("HEAD"), method = "id()I", cancellable = true)
-    private void id_114736628(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(114736628L))
-            info.setReturnValue(-22483288);
+    private void id_1676257721(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1676257721L))
+            info.setReturnValue(-1307518389);
     }
 
 

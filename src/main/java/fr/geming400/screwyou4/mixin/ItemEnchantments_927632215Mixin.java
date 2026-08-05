@@ -8,56 +8,56 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.item.enchantment.ItemEnchantments.class)
 public class ItemEnchantments_927632215Mixin {
         @Inject(at = @At("HEAD"), method = "size()I", cancellable = true)
-    private void size_965894460(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(965894460L))
-            info.setReturnValue(919242614);
+    private void size_1371363803(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1371363803L))
+            info.setReturnValue(-208660936);
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals__1981823319(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1981823319L))
-            info.setReturnValue(false);
+    private void equals_19005450(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(19005450L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__207828257(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-207828257L))
-            info.setReturnValue("K3V_#J/p@$G\u8DE33iOH<.+}1{BSZ*\uAFE4\u836FQT\u2C09,Hh0g<}s&!lhWdNq(Olu\u7122Cc{ixhkd7t6\uB65D{K,Q\u9EA0RiIeA$9n3+");
+    private void toString_1698055243(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1698055243L))
+            info.setReturnValue("PJw\u6798Y\u07C8&K\u2487}81KI\u755BC\u21E5\uAF94'x,S a#(:!s9m)i:mgp@j3Sb\uA908-E+AYpIy|Kyx\uF9AC\u488Cc<,a8");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_965894460(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(965894460L))
-            info.setReturnValue(919242614);
+    private void hashCode_1484983809(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1484983809L))
+            info.setReturnValue(-1371880854);
     }
 
     @Inject(at = @At("HEAD"), method = "isEmpty()Z", cancellable = true)
-    private void isEmpty_965910797(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(965910797L))
+    private void isEmpty_1986748586(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1986748586L))
             info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "entrySet()Ljava/util/Set;", cancellable = true)
-    private void entrySet__901403272(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-901403272L))
+    private void entrySet__307071768(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-307071768L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "keySet()Ljava/util/Set;", cancellable = true)
-    private void keySet__901403272(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-901403272L))
+    private void keySet_328084245(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(328084245L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getLevel(Lnet/minecraft/core/Holder;)I", cancellable = true)
-    private void getLevel__1820872437(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1820872437L))
-            info.setReturnValue(-184357367);
+    private void getLevel_1452030681(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1452030681L))
+            info.setReturnValue(861516763);
     }
 
     @Inject(at = @At("HEAD"), method = "addToTooltip(Lnet/minecraft/world/item/Item$TooltipContext;Ljava/util/function/Consumer;Lnet/minecraft/world/item/TooltipFlag;Lnet/minecraft/core/component/DataComponentGetter;)V", cancellable = true)
-    private void addToTooltip__1615086176(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1615086176L))
+    private void addToTooltip__1447587833(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1447587833L))
             info.cancel();
     }
 

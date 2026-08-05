@@ -8,8 +8,8 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.gizmos.Gizmos.TemporaryCollection.class)
 public class TemporaryCollection_320970972Mixin {
         @Inject(at = @At("HEAD"), method = "close()V", cancellable = true)
-    private void close_359245710(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(359245710L))
+    private void close__1793604458(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1793604458L))
             info.cancel();
     }
 

@@ -8,27 +8,27 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.gui.font.glyphs.SpecialGlyphs.class)
 public class SpecialGlyphs_664575614Mixin {
         @Inject(at = @At("HEAD"), method = "values()[Lnet/minecraft/client/gui/font/glyphs/SpecialGlyphs;", cancellable = true)
-    private static void values_336746536(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(336746536L))
+    private static void values__747082426(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-747082426L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/client/gui/font/glyphs/SpecialGlyphs;", cancellable = true)
-    private static void valueOf__2080185819(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2080185819L))
-            info.setReturnValue(net.minecraft.client.gui.font.glyphs.SpecialGlyphs.WHITE);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getAdvance()F", cancellable = true)
-    private void getAdvance_702834976(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(702834976L))
-            info.setReturnValue(7.949703E8F);
+    private static void valueOf__704130227(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-704130227L))
+            info.setReturnValue(net.minecraft.client.gui.font.glyphs.SpecialGlyphs.MISSING);
     }
 
     @Inject(at = @At("HEAD"), method = "bake(Lnet/minecraft/client/gui/font/GlyphStitcher;)Lnet/minecraft/client/gui/font/glyphs/BakedSheetGlyph;", cancellable = true)
-    private void bake_971674230(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(971674230L))
+    private void bake_269378173(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(269378173L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getAdvance()F", cancellable = true)
+    private void getAdvance_711480404(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(711480404L))
+            info.setReturnValue(9.293314E8F);
     }
 
 

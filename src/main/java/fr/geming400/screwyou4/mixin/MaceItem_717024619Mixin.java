@@ -7,45 +7,45 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.world.item.MaceItem.class)
 public class MaceItem_717024619Mixin {
-        @Inject(at = @At("HEAD"), method = "hurtEnemy(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/entity/LivingEntity;)V", cancellable = true)
-    private void hurtEnemy_1039238402(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1039238402L))
-            info.cancel();
+        @Inject(at = @At("HEAD"), method = "canSmashAttack(Lnet/minecraft/world/entity/LivingEntity;)Z", cancellable = true)
+    private static void canSmashAttack__253772515(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-253772515L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "getAttackDamageBonus(Lnet/minecraft/world/entity/Entity;FLnet/minecraft/world/damagesource/DamageSource;)F", cancellable = true)
-    private void getAttackDamageBonus__1918741751(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1918741751L))
-            info.setReturnValue(1.686788E8F);
+    private void getAttackDamageBonus__386899237(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-386899237L))
+            info.setReturnValue(8.69384E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "postHurtEnemy(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/entity/LivingEntity;)V", cancellable = true)
-    private void postHurtEnemy_1039238402(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1039238402L))
+    private void postHurtEnemy__1116078743(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1116078743L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "createAttributes()Lnet/minecraft/world/item/component/ItemAttributeModifiers;", cancellable = true)
-    private static void createAttributes_227762614(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(227762614L))
+    private static void createAttributes__571235357(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-571235357L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "canSmashAttack(Lnet/minecraft/world/entity/LivingEntity;)Z", cancellable = true)
-    private static void canSmashAttack_1038692041(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1038692041L))
-            info.setReturnValue(true);
+    @Inject(at = @At("HEAD"), method = "hurtEnemy(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/entity/LivingEntity;)V", cancellable = true)
+    private void hurtEnemy_152912041(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(152912041L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "getItemDamageSource(Lnet/minecraft/world/entity/LivingEntity;)Lnet/minecraft/world/damagesource/DamageSource;", cancellable = true)
-    private void getItemDamageSource_2029446944(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2029446944L))
+    private void getItemDamageSource__676886733(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-676886733L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "createToolProperties()Lnet/minecraft/world/item/component/Tool;", cancellable = true)
-    private static void createToolProperties_1845667633(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1845667633L))
+    private static void createToolProperties__1937871478(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1937871478L))
             info.setReturnValue(null);
     }
 

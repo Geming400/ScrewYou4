@@ -8,26 +8,26 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.util.datafix.PackedBitStorage.class)
 public class PackedBitStorage2080978130Mixin {
         @Inject(at = @At("HEAD"), method = "get(I)I", cancellable = true)
-    private void get__1000084687(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1000084687L))
-            info.setReturnValue(-1680917159);
+    private void get_1612063239(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1612063239L))
+            info.setReturnValue(-1495206924);
     }
 
     @Inject(at = @At("HEAD"), method = "set(II)V", cancellable = true)
-    private void set_1085098661(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1085098661L))
+    private void set__1900856317(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1900856317L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "getBits()I", cancellable = true)
-    private void getBits_2119240376(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2119240376L))
-            info.setReturnValue(-1314689631);
+    private void getBits__1747154244(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1747154244L))
+            info.setReturnValue(-1850764530);
     }
 
     @Inject(at = @At("HEAD"), method = "getRaw()[J", cancellable = true)
-    private void getRaw__1028146848(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1028146848L))
+    private void getRaw__1141496622(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1141496622L))
             info.setReturnValue(null);
     }
 

@@ -7,28 +7,28 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.client.gui.screens.inventory.tooltip.ClientBundleTooltip.class)
 public class ClientBundleTooltip542840488Mixin {
-        @Inject(at = @At("HEAD"), method = "extractImage(Lnet/minecraft/client/gui/Font;IIIILnet/minecraft/client/gui/GuiGraphicsExtractor;)V", cancellable = true)
-    private void extractImage_221159020(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(221159020L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "showTooltipWithItemInHand()Z", cancellable = true)
-    private void showTooltipWithItemInHand_581119071(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(581119071L))
+        @Inject(at = @At("HEAD"), method = "showTooltipWithItemInHand()Z", cancellable = true)
+    private void showTooltipWithItemInHand_725457612(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(725457612L))
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "getHeight(Lnet/minecraft/client/gui/Font;)I", cancellable = true)
-    private void getHeight__427945230(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-427945230L))
-            info.setReturnValue(924179225);
+    @Inject(at = @At("HEAD"), method = "getWidth(Lnet/minecraft/client/gui/Font;)I", cancellable = true)
+    private void getWidth_1073553154(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1073553154L))
+            info.setReturnValue(2016885596);
     }
 
-    @Inject(at = @At("HEAD"), method = "getWidth(Lnet/minecraft/client/gui/Font;)I", cancellable = true)
-    private void getWidth__427945230(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-427945230L))
-            info.setReturnValue(924179225);
+    @Inject(at = @At("HEAD"), method = "getHeight(Lnet/minecraft/client/gui/Font;)I", cancellable = true)
+    private void getHeight__2113487729(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2113487729L))
+            info.setReturnValue(-774967793);
+    }
+
+    @Inject(at = @At("HEAD"), method = "extractImage(Lnet/minecraft/client/gui/Font;IIIILnet/minecraft/client/gui/GuiGraphicsExtractor;)V", cancellable = true)
+    private void extractImage__1280867374(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1280867374L))
+            info.cancel();
     }
 
 

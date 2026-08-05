@@ -8,9 +8,9 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.level.levelgen.feature.DesertWellFeature.class)
 public class DesertWellFeature_1356324091Mixin {
         @Inject(at = @At("HEAD"), method = "place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z", cancellable = true)
-    private void place_2071581826(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2071581826L))
-            info.setReturnValue(false);
+    private void place__1364770853(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1364770853L))
+            info.setReturnValue(true);
     }
 
 

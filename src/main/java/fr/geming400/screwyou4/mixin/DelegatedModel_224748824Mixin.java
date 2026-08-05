@@ -8,15 +8,15 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.data.models.model.DelegatedModel.class)
 public class DelegatedModel_224748824Mixin {
         @Inject(at = @At("HEAD"), method = "get()Lcom/google/gson/JsonElement;", cancellable = true)
-    private void get_802625315(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(802625315L))
+    private void get_992955021(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(992955021L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "get()Ljava/lang/Object;", cancellable = true)
-    private void get_2084070002(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2084070002L))
-            info.setReturnValue(null);
+    private void get__1229050552(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1229050552L))
+            info.setReturnValue(new java.lang.Object());
     }
 
 

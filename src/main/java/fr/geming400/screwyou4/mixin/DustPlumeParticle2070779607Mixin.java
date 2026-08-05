@@ -8,8 +8,8 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.particle.DustPlumeParticle.class)
 public class DustPlumeParticle2070779607Mixin {
         @Inject(at = @At("HEAD"), method = "tick()V", cancellable = true)
-    private void tick_2109054346(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(2109054346L))
+    private void tick_1941095949(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1941095949L))
             info.cancel();
     }
 

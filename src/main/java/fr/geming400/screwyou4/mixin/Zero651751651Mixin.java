@@ -8,20 +8,20 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.advancements.predicates.CollectionCountsPredicate.Zero.class)
 public class Zero651751651Mixin {
         @Inject(at = @At("HEAD"), method = "test(Ljava/lang/Object;)Z", cancellable = true)
-    private void test_2037392374(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2037392374L))
+    private void test__1085220060(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1085220060L))
             info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "test(Ljava/lang/Iterable;)Z", cancellable = true)
-    private void test__1468286749(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1468286749L))
+    private void test__116695919(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-116695919L))
             info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "unpack()Ljava/util/List;", cancellable = true)
-    private void unpack__2016878829(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2016878829L))
+    private void unpack__738439611(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-738439611L))
             info.setReturnValue(null);
     }
 

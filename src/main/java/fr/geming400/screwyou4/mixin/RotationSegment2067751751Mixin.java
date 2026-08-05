@@ -8,33 +8,33 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.level.block.state.properties.RotationSegment.class)
 public class RotationSegment2067751751Mixin {
         @Inject(at = @At("HEAD"), method = "getMaxSegmentIndex()I", cancellable = true)
-    private static void getMaxSegmentIndex_2106014245(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2106014245L))
-            info.setReturnValue(-1234828051);
+    private static void getMaxSegmentIndex__753703016(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-753703016L))
+            info.setReturnValue(-502998224);
     }
 
     @Inject(at = @At("HEAD"), method = "convertToSegment(F)I", cancellable = true)
-    private static void convertToSegment__1016081381(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1016081381L))
-            info.setReturnValue(-799781198);
+    private static void convertToSegment_284155936(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(284155936L))
+            info.setReturnValue(457381558);
     }
 
     @Inject(at = @At("HEAD"), method = "convertToSegment(Lnet/minecraft/core/Direction;)I", cancellable = true)
-    private static void convertToSegment_947813425(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(947813425L))
-            info.setReturnValue(700972450);
+    private static void convertToSegment__160871860(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-160871860L))
+            info.setReturnValue(-1727940413);
     }
 
     @Inject(at = @At("HEAD"), method = "convertToDirection(I)Ljava/util/Optional;", cancellable = true)
-    private static void convertToDirection__1382004524(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1382004524L))
+    private static void convertToDirection__1914831261(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1914831261L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "convertToDegrees(I)F", cancellable = true)
-    private static void convertToDegrees__1013313701(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1013313701L))
-            info.setReturnValue(6.259358E8F);
+    private static void convertToDegrees_17506388(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(17506388L))
+            info.setReturnValue(9.386114E8F);
     }
 
 

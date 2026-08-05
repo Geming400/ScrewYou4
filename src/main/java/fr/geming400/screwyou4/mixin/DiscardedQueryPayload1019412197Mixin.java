@@ -8,32 +8,32 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.network.protocol.login.custom.DiscardedQueryPayload.class)
 public class DiscardedQueryPayload1019412197Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals__1890042840(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1890042840L))
-            info.setReturnValue(false);
+    private void equals_110785929(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(110785929L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__116047778(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-116047778L))
-            info.setReturnValue("^mYPLg>kK\u216Ev/r[\u16E8T+\u581B#a8jg\u19DAa60(\u99E9iuX,UH[f(`\u1C19%,8MFP`{p!S'|Z-\u41AB2\u5C06vq8)uh&i\u427C'M*qD\u8D0EC<-|wpZK_U|*5\uB9C5");
+    private void toString_1789835722(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1789835722L))
+            info.setReturnValue(" &Sq-DftLRk`\uA994\u0419i\u427Dt\u74D6meyKKfQ\u6E1F.Rl.A\u1645va1uu?q'J1=pIuTMbp\u0CC0lKC6u!u5{=&DZs\u4ED8`\u2087iEH_c\u4400VUE5D}`4\u9CFAm3&h\u771CPOnwEv");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_1057674939(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1057674939L))
-            info.setReturnValue(766671935);
+    private void hashCode_1576764288(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1576764288L))
+            info.setReturnValue(1156312873);
     }
 
     @Inject(at = @At("HEAD"), method = "id()Lnet/minecraft/resources/Identifier;", cancellable = true)
-    private void id__1423654356(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1423654356L))
+    private void id__1573365689(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1573365689L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "write(Lnet/minecraft/network/FriendlyByteBuf;)V", cancellable = true)
-    private void write_665919076(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(665919076L))
+    private void write__409574461(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-409574461L))
             info.cancel();
     }
 

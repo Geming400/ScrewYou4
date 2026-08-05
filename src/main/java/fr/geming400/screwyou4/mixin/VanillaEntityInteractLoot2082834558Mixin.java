@@ -8,32 +8,32 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.data.loot.packs.VanillaEntityInteractLoot.class)
 public class VanillaEntityInteractLoot2082834558Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals__826620479(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-826620479L))
+    private void equals_1174208290(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1174208290L))
             info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString_947374583(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(947374583L))
-            info.setReturnValue("A4yB6AOB2h:6Yc\"\uD5E2lI'\u7285@p]\u8076fX,4");
+    private void toString__1441709213(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1441709213L))
+            info.setReturnValue("{*|7?igIF'}^");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_2121097300(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2121097300L))
-            info.setReturnValue(-93096179);
+    private void hashCode__1654780647(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1654780647L))
+            info.setReturnValue(263896052);
     }
 
     @Inject(at = @At("HEAD"), method = "generate(Ljava/util/function/BiConsumer;)V", cancellable = true)
-    private void generate_344683668(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(344683668L))
+    private void generate_1820373897(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1820373897L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "registries()Lnet/minecraft/core/HolderLookup$Provider;", cancellable = true)
-    private void registries_1769627225(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1769627225L))
+    private void registries__482890572(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-482890572L))
             info.setReturnValue(null);
     }
 

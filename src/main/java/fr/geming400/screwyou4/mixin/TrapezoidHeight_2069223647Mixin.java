@@ -8,33 +8,33 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.level.levelgen.heightproviders.TrapezoidHeight.class)
 public class TrapezoidHeight_2069223647Mixin {
         @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString_933763175(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(933763175L))
-            info.setReturnValue("Hc[+5:_hUN} ?H\u3BFAp}T^k58)$\uA361?#?_^y8+0S`z\u14DAp]\uC280\u00D6L;7E};jIo\uD498Y\u5C0D=s%8y}");
+    private void toString__1455320621(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1455320621L))
+            info.setReturnValue("(['RN\u67C1;\u647ESf-%&M\u11C1b");
     }
 
     @Inject(at = @At("HEAD"), method = "of(Lnet/minecraft/world/level/levelgen/VerticalAnchor;Lnet/minecraft/world/level/levelgen/VerticalAnchor;)Lnet/minecraft/world/level/levelgen/heightproviders/TrapezoidHeight;", cancellable = true)
-    private static void of_1796543792(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1796543792L))
+    private static void of_2053903047(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2053903047L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "of(Lnet/minecraft/world/level/levelgen/VerticalAnchor;Lnet/minecraft/world/level/levelgen/VerticalAnchor;I)Lnet/minecraft/world/level/levelgen/heightproviders/TrapezoidHeight;", cancellable = true)
-    private static void of_1673626071(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1673626071L))
+    private static void of_1061828384(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1061828384L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getType()Lnet/minecraft/world/level/levelgen/heightproviders/HeightProviderType;", cancellable = true)
-    private void getType__111368395(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-111368395L))
+    private void getType_2104328581(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2104328581L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "sample(Lnet/minecraft/util/RandomSource;Lnet/minecraft/world/level/levelgen/WorldGenerationContext;)I", cancellable = true)
-    private void sample_2034369711(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2034369711L))
-            info.setReturnValue(-732917308);
+    private void sample__544359355(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-544359355L))
+            info.setReturnValue(858436467);
     }
 
 

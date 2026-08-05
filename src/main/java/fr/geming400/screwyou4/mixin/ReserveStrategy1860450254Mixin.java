@@ -8,14 +8,14 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.gui.components.ScrollableLayout.ReserveStrategy.class)
 public class ReserveStrategy1860450254Mixin {
         @Inject(at = @At("HEAD"), method = "values()[Lnet/minecraft/client/gui/components/ScrollableLayout$ReserveStrategy;", cancellable = true)
-    private static void values_1590693852(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1590693852L))
+    private static void values_1689409914(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1689409914L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/client/gui/components/ScrollableLayout$ReserveStrategy;", cancellable = true)
-    private static void valueOf_577959065(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(577959065L))
+    private static void valueOf_69004225(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(69004225L))
             info.setReturnValue(net.minecraft.client.gui.components.ScrollableLayout.ReserveStrategy.BOTH);
     }
 

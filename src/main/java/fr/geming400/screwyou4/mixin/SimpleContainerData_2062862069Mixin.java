@@ -8,21 +8,21 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.inventory.SimpleContainerData.class)
 public class SimpleContainerData_2062862069Mixin {
         @Inject(at = @At("HEAD"), method = "get(I)I", cancellable = true)
-    private void get__1018200749(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1018200749L))
-            info.setReturnValue(150189202);
+    private void get_1593947177(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1593947177L))
+            info.setReturnValue(780512193);
     }
 
     @Inject(at = @At("HEAD"), method = "set(II)V", cancellable = true)
-    private void set_1066982599(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1066982599L))
+    private void set__1918972379(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1918972379L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "getCount()I", cancellable = true)
-    private void getCount_2101124314(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2101124314L))
-            info.setReturnValue(1626216448);
+    private void getCount_676943137(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(676943137L))
+            info.setReturnValue(-374747233);
     }
 
 

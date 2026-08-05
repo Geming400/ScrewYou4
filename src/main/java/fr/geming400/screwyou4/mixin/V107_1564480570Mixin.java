@@ -8,8 +8,8 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.util.datafix.schemas.V107.class)
 public class V107_1564480570Mixin {
         @Inject(at = @At("HEAD"), method = "registerEntities(Lcom/mojang/datafixers/schemas/Schema;)Ljava/util/Map;", cancellable = true)
-    private void registerEntities__497754515(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-497754515L))
+    private void registerEntities_901194601(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(901194601L))
             info.setReturnValue(null);
     }
 

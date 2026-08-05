@@ -8,45 +8,45 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.util.parsing.packrat.Term.Repeated.class)
 public class Repeated434484540Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals_1819996799(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1819996799L))
+    private void equals__474141728(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-474141728L))
             info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__700975435(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-700975435L))
-            info.setReturnValue("\u0565\u3E77O?8(S\uA7ADbh0Ng\u4364g/$$mI)\u3757Lgy\u54109e kw\u300CTW\uFBBFI.2*P\u11A4M");
+    private void toString_1204908065(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1204908065L))
+            info.setReturnValue("E5pt9<W\u32D4Q]d\u8EADmgqFo&3KEV&&v4QqP\u6077\u3E71+r*:h1uBD83\u69DEwl\u1667zcxB\uC390\uBB43U\u0EAD&^6\u12BEd,6+yD0m]A+kMP");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_472747282(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(472747282L))
-            info.setReturnValue(-1185253398);
+    private void hashCode_991836631(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(991836631L))
+            info.setReturnValue(1397475046);
     }
 
     @Inject(at = @At("HEAD"), method = "parse(Lnet/minecraft/util/parsing/packrat/ParseState;Lnet/minecraft/util/parsing/packrat/Scope;Lnet/minecraft/util/parsing/packrat/Control;)Z", cancellable = true)
-    private void parse_813270388(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(813270388L))
-            info.setReturnValue(true);
+    private void parse_230681703(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(230681703L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "element()Lnet/minecraft/util/parsing/packrat/NamedRule;", cancellable = true)
-    private void element_1734544368(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1734544368L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "listName()Lnet/minecraft/util/parsing/packrat/Atom;", cancellable = true)
-    private void listName_1750467476(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1750467476L))
+    private void element_804516844(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(804516844L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "minRepetitions()I", cancellable = true)
-    private void minRepetitions_472746786(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(472746786L))
-            info.setReturnValue(-1006729908);
+    private void minRepetitions_788681906(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(788681906L))
+            info.setReturnValue(-351347474);
+    }
+
+    @Inject(at = @At("HEAD"), method = "listName()Lnet/minecraft/util/parsing/packrat/Atom;", cancellable = true)
+    private void listName__1775286805(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1775286805L))
+            info.setReturnValue(null);
     }
 
 

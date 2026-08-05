@@ -8,8 +8,8 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.item.EmptyMapItem.class)
 public class EmptyMapItem_960433874Mixin {
         @Inject(at = @At("HEAD"), method = "use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResult;", cancellable = true)
-    private void use_1370809908(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1370809908L))
+    private void use__1849666483(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1849666483L))
             info.setReturnValue(null);
     }
 

@@ -8,38 +8,38 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.entity.variant.PriorityProvider.Selector.class)
 public class Selector_84413192Mixin {
         @Inject(at = @At("HEAD"), method = "priority()I", cancellable = true)
-    private void priority_122675437(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(122675437L))
-            info.setReturnValue(-2064183868);
+    private void priority_872795593(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(872795593L))
+            info.setReturnValue(555543992);
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals_1469925450(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1469925450L))
-            info.setReturnValue(true);
+    private void equals__824213077(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-824213077L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__1051046784(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1051046784L))
-            info.setReturnValue("Zw\u5DA6r(W!rr,M|6<]kA\uFC13W4k>-W{d+Wv*(AqLU$N-R};t\u3F11M $\u5F11WrmmT\u1071XNX]yg$\uC069");
+    private void toString_854836716(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(854836716L))
+            info.setReturnValue("?'M3o,(u\uD1E9'*W\uFDBF}k!_*uF-\u8A02e(Fiu\uD1BAY$]zfH8\u89FE}muDKt_iba9}9ezl].U2dIr{yYk-T\u9269Av@L.\u7870x32q\uFCAB_wl?=\u90CCxgB0}p");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_122675933(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(122675933L))
-            info.setReturnValue(2052259939);
+    private void hashCode_641765282(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(641765282L))
+            info.setReturnValue(1681771865);
     }
 
     @Inject(at = @At("HEAD"), method = "condition()Ljava/util/Optional;", cancellable = true)
-    private void condition_329874613(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(329874613L))
+    private void condition_926157008(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(926157008L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "codec(Lcom/mojang/serialization/Codec;)Lcom/mojang/serialization/Codec;", cancellable = true)
-    private static void codec_568091166(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(568091166L))
+    private static void codec_436062004(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(436062004L))
             info.setReturnValue(null);
     }
 

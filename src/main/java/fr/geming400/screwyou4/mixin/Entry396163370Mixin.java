@@ -8,38 +8,38 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.item.component.SuspiciousStewEffects.Entry.class)
 public class Entry396163370Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals_1781675629(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1781675629L))
+    private void equals__512462898(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-512462898L))
             info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__739296605(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-739296605L))
-            info.setReturnValue("M\uFDBBd|ne+N(fSu9tJyv?-DNdt\u03BA+\u7337e-\u68D2\u910019|XW\u2F55m\u0460XNm[`,l7$c\u110FtOGc\u4377a]K9\u088C.X5\uAF0E\uBA28\u119C\u9E15+h*Yx][");
+    private void toString_1166586895(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1166586895L))
+            info.setReturnValue("\uFA5CpDsxg5e5}+<\u5B24Iv,)_QO;\u7104Sjv-!).^C:r");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_434426112(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(434426112L))
-            info.setReturnValue(-72013913);
+    private void hashCode_953515461(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(953515461L))
+            info.setReturnValue(-1128476416);
     }
 
     @Inject(at = @At("HEAD"), method = "duration()I", cancellable = true)
-    private void duration_434425616(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(434425616L))
-            info.setReturnValue(-1444797989);
+    private void duration_483778044(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(483778044L))
+            info.setReturnValue(943038286);
     }
 
     @Inject(at = @At("HEAD"), method = "effect()Lnet/minecraft/core/Holder;", cancellable = true)
-    private void effect_1945039142(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1945039142L))
+    private void effect__24820363(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-24820363L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "createEffectInstance()Lnet/minecraft/world/effect/MobEffectInstance;", cancellable = true)
-    private void createEffectInstance__1353689665(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1353689665L))
+    private void createEffectInstance_465899169(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(465899169L))
             info.setReturnValue(null);
     }
 

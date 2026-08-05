@@ -8,14 +8,14 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.renderer.entity.layers.RopesLayer.class)
 public class RopesLayer1705707032Mixin {
         @Inject(at = @At("HEAD"), method = "submit(Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/SubmitNodeCollector;ILnet/minecraft/client/renderer/entity/state/HappyGhastRenderState;FF)V", cancellable = true)
-    private void submit_795391303(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(795391303L))
+    private void submit__741511329(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-741511329L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "submit(Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/SubmitNodeCollector;ILnet/minecraft/client/renderer/entity/state/EntityRenderState;FF)V", cancellable = true)
-    private void submit_1247943401(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1247943401L))
+    private void submit__1213751039(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1213751039L))
             info.cancel();
     }
 

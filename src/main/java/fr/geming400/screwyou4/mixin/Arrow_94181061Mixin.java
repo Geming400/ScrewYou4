@@ -8,26 +8,26 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.entity.projectile.arrow.Arrow.class)
 public class Arrow_94181061Mixin {
         @Inject(at = @At("HEAD"), method = "tick()V", cancellable = true)
-    private void tick_132455799(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(132455799L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "getColor()I", cancellable = true)
-    private void getColor_132443306(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(132443306L))
-            info.setReturnValue(-1727850297);
-    }
-
-    @Inject(at = @At("HEAD"), method = "addEffect(Lnet/minecraft/world/effect/MobEffectInstance;)V", cancellable = true)
-    private void addEffect_250049293(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(250049293L))
+    private void tick__35502598(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-35502598L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "handleEntityEvent(B)V", cancellable = true)
-    private void handleEntityEvent_1301633385(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1301633385L))
+    private void handleEntityEvent_847929176(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(847929176L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getColor()I", cancellable = true)
+    private void getColor_1033083677(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1033083677L))
+            info.setReturnValue(1015876231);
+    }
+
+    @Inject(at = @At("HEAD"), method = "addEffect(Lnet/minecraft/world/effect/MobEffectInstance;)V", cancellable = true)
+    private void addEffect__1362133957(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1362133957L))
             info.cancel();
     }
 

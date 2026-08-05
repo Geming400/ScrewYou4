@@ -8,44 +8,44 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.util.eventlog.EventLogDirectory.CompressedFile.class)
 public class CompressedFile_1304428036Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals__1605027002(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1605027002L))
-            info.setReturnValue(false);
+    private void equals_395801767(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(395801767L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString_168968060(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(168968060L))
-            info.setReturnValue("\u47F0\u15A3V[WU&\u7765pT/MU\u3320j%xO_T+M;T0o-+emD\uCE5C}o*\u96AB6w<\u5BF53A5Mg];kn0l;LUG\u740D/Egp?\u017Chp[{U{^UId\u362Efm!nQb{");
+    private void toString_2074851560(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2074851560L))
+            info.setReturnValue("dy|0\uD3C4,!TxyY.T!P\u7ECA\u81E86@h\uFD82ScTT^VMW:\u6919V+");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_1342690777(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1342690777L))
-            info.setReturnValue(-561265156);
+    private void hashCode_1861780126(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1861780126L))
+            info.setReturnValue(496562893);
     }
 
     @Inject(at = @At("HEAD"), method = "compress()Lnet/minecraft/util/eventlog/EventLogDirectory$CompressedFile;", cancellable = true)
-    private void compress__50033529(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-50033529L))
+    private void compress__399042711(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-399042711L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "id()Lnet/minecraft/util/eventlog/EventLogDirectory$FileId;", cancellable = true)
-    private void id_339451693(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(339451693L))
+    private void id_315491464(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(315491464L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "path()Ljava/nio/file/Path;", cancellable = true)
-    private void path_170064353(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(170064353L))
+    private void path__1486455034(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1486455034L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "openReader()Ljava/io/Reader;", cancellable = true)
-    private void openReader_962702674(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(962702674L))
+    private void openReader_537075839(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(537075839L))
             info.setReturnValue(null);
     }
 

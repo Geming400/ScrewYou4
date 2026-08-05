@@ -8,81 +8,81 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.network.protocol.game.ServerboundContainerClickPacket.class)
 public class ServerboundContainerClickPacket_591688116Mixin {
         @Inject(at = @At("HEAD"), method = "type()Lnet/minecraft/network/protocol/PacketType;", cancellable = true)
-    private void type__1087336973(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1087336973L))
+    private void type_747555705(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(747555705L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals_1977200374(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1977200374L))
-            info.setReturnValue(true);
+    private void equals__316938153(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-316938153L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__543771860(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-543771860L))
-            info.setReturnValue("6n\uA6558RbY=e^F+}jJ^R\u6FFCBlpu^zQ\uD1ED\u8DE9HE(\uFFC2\uC31DjY mk1\u5838|H5I\u853CD\u70DDu5\" p");
+    private void toString_1362111640(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1362111640L))
+            info.setReturnValue("Q|?\uAEC6]R[QtBvnA@h+tz21$[#z$oi\u5590M8uj \u3349}V|E%Z\u6BEDCPo8e<Xf\uC823CS\uC2B4mFqvG1{;\uCCD09+20,Ok9\":xz?A#R0o");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_629950857(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(629950857L))
-            info.setReturnValue(1888779401);
+    private void hashCode_1149040206(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1149040206L))
+            info.setReturnValue(-306606414);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/protocol/game/ServerGamePacketListener;)V", cancellable = true)
-    private void handle__1276933879(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1276933879L))
+    private void handle_1229048289(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1229048289L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/PacketListener;)V", cancellable = true)
-    private void handle_1269757028(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1269757028L))
+    private void handle_295976252(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(295976252L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "containerId()I", cancellable = true)
-    private void containerId_629950361(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(629950361L))
-            info.setReturnValue(515995326);
+    @Inject(at = @At("HEAD"), method = "changedSlots()Lit/unimi/dsi/fastutil/ints/Int2ObjectMap;", cancellable = true)
+    private void changedSlots__1949357634(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1949357634L))
+            info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "buttonNum()B", cancellable = true)
-    private void buttonNum_629943634(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(629943634L))
-            info.setReturnValue(-2);
+    @Inject(at = @At("HEAD"), method = "containerId()I", cancellable = true)
+    private void containerId__318727267(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-318727267L))
+            info.setReturnValue(1477829807);
     }
 
     @Inject(at = @At("HEAD"), method = "stateId()I", cancellable = true)
-    private void stateId_629950361(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(629950361L))
-            info.setReturnValue(516343626);
+    private void stateId__1930235507(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1930235507L))
+            info.setReturnValue(1311463771);
+    }
+
+    @Inject(at = @At("HEAD"), method = "buttonNum()B", cancellable = true)
+    private void buttonNum__1047920930(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1047920930L))
+            info.setReturnValue(64);
     }
 
     @Inject(at = @At("HEAD"), method = "containerInput()Lnet/minecraft/world/inventory/ContainerInput;", cancellable = true)
-    private void containerInput_1676037140(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1676037140L))
+    private void containerInput_1976675229(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1976675229L))
             info.setReturnValue(net.minecraft.world.inventory.ContainerInput.THROW);
     }
 
     @Inject(at = @At("HEAD"), method = "carriedItem()Lnet/minecraft/network/HashedStack;", cancellable = true)
-    private void carriedItem__5756335(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-5756335L))
+    private void carriedItem__666105196(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-666105196L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "slotNum()S", cancellable = true)
-    private void slotNum_629959971(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(629959971L))
-            info.setReturnValue((short) 31566);
-    }
-
-    @Inject(at = @At("HEAD"), method = "changedSlots()Lit/unimi/dsi/fastutil/ints/Int2ObjectMap;", cancellable = true)
-    private void changedSlots__766625891(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-766625891L))
-            info.setReturnValue(null);
+    private void slotNum_327447931(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(327447931L))
+            info.setReturnValue((short) 12129);
     }
 
 

@@ -8,44 +8,44 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.item.component.SuspiciousStewEffects.class)
 public class SuspiciousStewEffects1338698996Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals__1570756041(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1570756041L))
+    private void equals_430072728(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(430072728L))
             info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString_203239021(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(203239021L))
-            info.setReturnValue("4v\uACA79r:\uACEA\uC70D>I9W\uB2B4rCI\"V$fa|eQx+V9k\u86EDt B\u9D67;v");
+    private void toString_2109122521(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2109122521L))
+            info.setReturnValue("J:k6Azj)d5}\u6FB9DKgB\u643Eb\u4E59vg[njK]=^<v^");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_1376961738(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1376961738L))
-            info.setReturnValue(550775134);
+    private void hashCode_1896051087(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1896051087L))
+            info.setReturnValue(1020433608);
     }
 
     @Inject(at = @At("HEAD"), method = "effects()Ljava/util/List;", cancellable = true)
-    private void effects__1329931484(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1329931484L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "withEffectAdded(Lnet/minecraft/world/item/component/SuspiciousStewEffects$Entry;)Lnet/minecraft/world/item/component/SuspiciousStewEffects;", cancellable = true)
-    private void withEffectAdded__473540575(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-473540575L))
+    private void effects_1889976102(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1889976102L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "addToTooltip(Lnet/minecraft/world/item/Item$TooltipContext;Ljava/util/function/Consumer;Lnet/minecraft/world/item/TooltipFlag;Lnet/minecraft/core/component/DataComponentGetter;)V", cancellable = true)
-    private void addToTooltip__1204019394(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1204019394L))
+    private void addToTooltip__1036521051(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1036521051L))
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "withEffectAdded(Lnet/minecraft/world/item/component/SuspiciousStewEffects$Entry;)Lnet/minecraft/world/item/component/SuspiciousStewEffects;", cancellable = true)
+    private void withEffectAdded__1221529686(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1221529686L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "onConsume(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/component/Consumable;)V", cancellable = true)
-    private void onConsume__849544040(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-849544040L))
+    private void onConsume_1246601845(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1246601845L))
             info.cancel();
     }
 

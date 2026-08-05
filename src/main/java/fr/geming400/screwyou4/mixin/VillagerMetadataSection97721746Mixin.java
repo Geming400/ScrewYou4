@@ -8,26 +8,26 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.resources.metadata.animation.VillagerMetadataSection.class)
 public class VillagerMetadataSection97721746Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals_1483234005(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1483234005L))
+    private void equals__810904522(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-810904522L))
             info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__1037738229(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1037738229L))
-            info.setReturnValue("VB\uAC63a^'glvf\uB0F9QB2.k}{n+F(3\uC090JuDe5\u6310clc\uB3BC3&{}o#4V");
+    private void toString_868145271(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(868145271L))
+            info.setReturnValue("X)L\uCC56r\u0F1C=9i%]#H7\uD233Ys\u170Chyy(\u987C$Xfqb\"luNyR");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_135984488(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(135984488L))
-            info.setReturnValue(1504626524);
+    private void hashCode_655073837(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(655073837L))
+            info.setReturnValue(-1000731159);
     }
 
     @Inject(at = @At("HEAD"), method = "hat()Lnet/minecraft/client/resources/metadata/animation/VillagerMetadataSection$Hat;", cancellable = true)
-    private void hat_1633315136(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1633315136L))
+    private void hat__81151291(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-81151291L))
             info.setReturnValue(net.minecraft.client.resources.metadata.animation.VillagerMetadataSection.Hat.PARTIAL);
     }
 

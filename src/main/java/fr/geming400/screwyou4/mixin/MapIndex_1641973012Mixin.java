@@ -8,8 +8,8 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.level.saveddata.maps.MapIndex.class)
 public class MapIndex_1641973012Mixin {
         @Inject(at = @At("HEAD"), method = "getNextMapId()Lnet/minecraft/world/level/saveddata/maps/MapId;", cancellable = true)
-    private void getNextMapId__803947992(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-803947992L))
+    private void getNextMapId_1103723734(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1103723734L))
             info.setReturnValue(null);
     }
 

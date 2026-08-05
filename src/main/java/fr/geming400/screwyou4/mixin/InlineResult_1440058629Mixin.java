@@ -8,32 +8,32 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.commands.arguments.ResourceOrIdArgument.InlineResult.class)
 public class InlineResult_1440058629Mixin {
         @Inject(at = @At("HEAD"), method = "value()Ljava/lang/Object;", cancellable = true)
-    private void value__995716449(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-995716449L))
-            info.setReturnValue(new java.lang.Object());
+    private void value_436537680(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(436537680L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals__1469396409(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1469396409L))
-            info.setReturnValue(false);
+    private void equals_531432360(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(531432360L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString_304598653(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(304598653L))
-            info.setReturnValue("X\u351Ep)1+RG};2TQ6KLfw6|]\uCDBE2\uC49D\u3C01A[Imu|EJl");
+    private void toString__2084485143(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2084485143L))
+            info.setReturnValue("_/\uB293](\u83B6B\u97D6v'15g\u6A4F/&");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_1478321370(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1478321370L))
-            info.setReturnValue(2124314385);
+    private void hashCode_1997410719(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1997410719L))
+            info.setReturnValue(1856021658);
     }
 
     @Inject(at = @At("HEAD"), method = "parse(Lcom/mojang/brigadier/ImmutableStringReader;Lnet/minecraft/core/HolderLookup$Provider;Lcom/mojang/serialization/DynamicOps;Lcom/mojang/serialization/Codec;Lnet/minecraft/core/HolderLookup$RegistryLookup;)Lnet/minecraft/core/Holder;", cancellable = true)
-    private void parse__2077015195(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2077015195L))
+    private void parse__484964776(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-484964776L))
             info.setReturnValue(null);
     }
 

@@ -8,45 +8,45 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.animation.AnimationDefinition.class)
 public class AnimationDefinition_1297542855Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals__1611912183(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1611912183L))
+    private void equals_388916586(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(388916586L))
             info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString_162082879(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(162082879L))
-            info.setReturnValue("v p%0\"BVqi3.d<b@w)#@l`\";\u1F7B5I;\u2A33@\"Di>\u3EFAXg2Tb:W_VQ");
+    private void toString_2067966379(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2067966379L))
+            info.setReturnValue("8H\u3592S.:{[JH\uCF55\u48E0M0AEJ");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_1335805596(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1335805596L))
-            info.setReturnValue(-955852432);
-    }
-
-    @Inject(at = @At("HEAD"), method = "lengthInSeconds()F", cancellable = true)
-    private void lengthInSeconds_1335802217(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1335802217L))
-            info.setReturnValue(2.935373E8F);
+    private void hashCode_1854894945(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1854894945L))
+            info.setReturnValue(47790203);
     }
 
     @Inject(at = @At("HEAD"), method = "boneAnimations()Ljava/util/Map;", cancellable = true)
-    private void boneAnimations__707080786(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-707080786L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "bake(Lnet/minecraft/client/model/geom/ModelPart;)Lnet/minecraft/client/animation/KeyframeAnimation;", cancellable = true)
-    private void bake__1557339711(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1557339711L))
+    private void boneAnimations_321333115(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(321333115L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "looping()Z", cancellable = true)
-    private void looping_1335821437(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1335821437L))
+    private void looping__309400449(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-309400449L))
             info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "bake(Lnet/minecraft/client/model/geom/ModelPart;)Lnet/minecraft/client/animation/KeyframeAnimation;", cancellable = true)
+    private void bake_340984584(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(340984584L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "lengthInSeconds()F", cancellable = true)
+    private void lengthInSeconds__1027607403(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1027607403L))
+            info.setReturnValue(6.14623E7F);
     }
 
 

@@ -8,75 +8,75 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.OptionInstance.ClampingLazyMaxIntRange.class)
 public class ClampingLazyMaxIntRange173372969Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals_1558885228(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1558885228L))
-            info.setReturnValue(true);
+    private void equals__735253299(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-735253299L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__962087006(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-962087006L))
-            info.setReturnValue(";Zoq\uCA44\u036E{(\"&2>;w\uD759\u4C31uw");
+    private void toString_943796494(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(943796494L))
+            info.setReturnValue("z\u2993d$T");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_211635711(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(211635711L))
-            info.setReturnValue(1668469195);
+    private void hashCode_730725060(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(730725060L))
+            info.setReturnValue(1980572453);
     }
 
     @Inject(at = @At("HEAD"), method = "validateValue(Ljava/lang/Object;)Ljava/util/Optional;", cancellable = true)
-    private void validateValue__836354949(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-836354949L))
+    private void validateValue_788158646(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(788158646L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "validateValue(Ljava/lang/Integer;)Ljava/util/Optional;", cancellable = true)
-    private void validateValue__1127612278(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1127612278L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/Codec;", cancellable = true)
-    private void codec__218592657(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-218592657L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "minInclusive()I", cancellable = true)
-    private void minInclusive_211635215(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(211635215L))
-            info.setReturnValue(1551505529);
-    }
-
-    @Inject(at = @At("HEAD"), method = "maxInclusive()I", cancellable = true)
-    private void maxInclusive_211635215(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(211635215L))
-            info.setReturnValue(1551505529);
-    }
-
-    @Inject(at = @At("HEAD"), method = "valueListSupplier()Lnet/minecraft/client/gui/components/CycleButton$ValueListSupplier;", cancellable = true)
-    private void valueListSupplier__1842862893(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1842862893L))
+    private void validateValue_1987668911(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1987668911L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "maxSupplier()Ljava/util/function/IntSupplier;", cancellable = true)
-    private void maxSupplier__1148484013(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1148484013L))
+    private void maxSupplier__1770488413(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1770488413L))
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "encodableMaxInclusive()I", cancellable = true)
+    private void encodableMaxInclusive__153068258(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-153068258L))
+            info.setReturnValue(2053666073);
+    }
+
     @Inject(at = @At("HEAD"), method = "createCycleButton()Z", cancellable = true)
-    private void createCycleButton_211651552(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(211651552L))
+    private void createCycleButton_1545086020(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1545086020L))
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "encodableMaxInclusive()I", cancellable = true)
-    private void encodableMaxInclusive_211635215(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(211635215L))
-            info.setReturnValue(1551505529);
+    @Inject(at = @At("HEAD"), method = "valueListSupplier()Lnet/minecraft/client/gui/components/CycleButton$ValueListSupplier;", cancellable = true)
+    private void valueListSupplier_530273240(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(530273240L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/Codec;", cancellable = true)
+    private void codec__1631336571(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1631336571L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "maxInclusive()I", cancellable = true)
+    private void maxInclusive__1796466649(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1796466649L))
+            info.setReturnValue(105868890);
+    }
+
+    @Inject(at = @At("HEAD"), method = "minInclusive()I", cancellable = true)
+    private void minInclusive_518578325(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(518578325L))
+            info.setReturnValue(-286241831);
     }
 
 

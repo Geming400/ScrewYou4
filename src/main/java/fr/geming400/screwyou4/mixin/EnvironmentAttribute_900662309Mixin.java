@@ -8,57 +8,57 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.attribute.EnvironmentAttribute.class)
 public class EnvironmentAttribute_900662309Mixin {
         @Inject(at = @At("HEAD"), method = "type()Lnet/minecraft/world/attribute/AttributeType;", cancellable = true)
-    private void type__852314570(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-852314570L))
+    private void type_1542957628(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1542957628L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__234798163(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-234798163L))
-            info.setReturnValue("S\u6D4ArCv*:HWy*(\u48CCi\u1419C#Bdq%w8\uA7CC\uCF61x=EcHOz+|OMSDT@B\"Y80\uA9CB:R.\u0384}\uCBDBc2,<-G*k&@CDs#\u1F1DWW=P\uA7C5@c\u5F93cj?K>[`\u6AA0wRT+Fv5Xqq,");
+    private void toString_1671085337(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1671085337L))
+            info.setReturnValue("09nI1\u247AHG$GlAKo-LSe+44Y5\u699CVc`VQ{KV=: *w)3CW\u5844BI\uC8C8/\u981BV\u7C00Uf<G");
     }
 
     @Inject(at = @At("HEAD"), method = "builder(Lnet/minecraft/world/attribute/AttributeType;)Lnet/minecraft/world/attribute/EnvironmentAttribute$Builder;", cancellable = true)
-    private static void builder_770132097(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(770132097L))
+    private static void builder__1397108538(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1397108538L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "defaultValue()Ljava/lang/Object;", cancellable = true)
-    private void defaultValue__1535112769(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1535112769L))
+    private void defaultValue_1627763055(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1627763055L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "valueCodec()Lcom/mojang/serialization/Codec;", cancellable = true)
-    private void valueCodec_508696682(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(508696682L))
+    private void valueCodec_934213391(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(934213391L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isSyncable()Z", cancellable = true)
-    private void isSyncable_938940891(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(938940891L))
-            info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isPositional()Z", cancellable = true)
-    private void isPositional_938940891(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(938940891L))
-            info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isSpatiallyInterpolated()Z", cancellable = true)
-    private void isSpatiallyInterpolated_938940891(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(938940891L))
-            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "sanitizeValue(Ljava/lang/Object;)Ljava/lang/Object;", cancellable = true)
-    private void sanitizeValue_912740259(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(912740259L))
+    private void sanitizeValue_866974251(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(866974251L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isSpatiallyInterpolated()Z", cancellable = true)
+    private void isSpatiallyInterpolated_1533095793(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1533095793L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isPositional()Z", cancellable = true)
+    private void isPositional_1280563389(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1280563389L))
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isSyncable()Z", cancellable = true)
+    private void isSyncable__481245316(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-481245316L))
+            info.setReturnValue(true);
     }
 
 

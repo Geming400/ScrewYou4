@@ -8,20 +8,20 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.item.PotionItem.class)
 public class PotionItem840431154Mixin {
         @Inject(at = @At("HEAD"), method = "getName(Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/network/chat/Component;", cancellable = true)
-    private void getName_686294976(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(686294976L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getDefaultInstance()Lnet/minecraft/world/item/ItemStack;", cancellable = true)
-    private void getDefaultInstance_1363849814(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1363849814L))
+    private void getName_280136961(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(280136961L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "useOn(Lnet/minecraft/world/item/context/UseOnContext;)Lnet/minecraft/world/InteractionResult;", cancellable = true)
-    private void useOn__1068412101(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1068412101L))
+    private void useOn__74686079(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-74686079L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getDefaultInstance()Lnet/minecraft/world/item/ItemStack;", cancellable = true)
+    private void getDefaultInstance__121585130(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-121585130L))
             info.setReturnValue(null);
     }
 

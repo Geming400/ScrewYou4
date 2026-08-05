@@ -8,62 +8,62 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.level.storage.loot.providers.number.BinomialDistributionGenerator.class)
 public class BinomialDistributionGenerator_1650518718Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals__1258936320(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1258936320L))
+    private void equals_741892449(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(741892449L))
             info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString_515058742(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(515058742L))
-            info.setReturnValue(">");
+    private void toString__1874025054(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1874025054L))
+            info.setReturnValue("M%\u75B767\u43025[GP]pMUj;F\u1E10=X^Cp\u9B60Y=z\u115CA");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_1688781459(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1688781459L))
-            info.setReturnValue(-1051683473);
+    private void hashCode__2087096488(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2087096488L))
+            info.setReturnValue(-1294458955);
     }
 
     @Inject(at = @At("HEAD"), method = "getInt(Lnet/minecraft/world/level/storage/loot/LootContext;)I", cancellable = true)
-    private void getInt__726446718(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-726446718L))
-            info.setReturnValue(-1754673008);
+    private void getInt__1912489239(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1912489239L))
+            info.setReturnValue(600883302);
     }
 
     @Inject(at = @At("HEAD"), method = "getFloat(Lnet/minecraft/world/level/storage/loot/LootContext;)F", cancellable = true)
-    private void getFloat__726449601(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-726449601L))
-            info.setReturnValue(2.963986E8F);
+    private void getFloat_1421047897(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1421047897L))
+            info.setReturnValue(3.19346E7F);
     }
 
     @Inject(at = @At("HEAD"), method = "n()Lnet/minecraft/world/level/storage/loot/providers/number/NumberProvider;", cancellable = true)
-    private void n__13138929(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-13138929L))
+    private void n_1475469181(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1475469181L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "validate(Lnet/minecraft/world/level/storage/loot/ValidationContext;)V", cancellable = true)
-    private void validate__1067817888(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1067817888L))
+    private void validate_631799946(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(631799946L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "p()Lnet/minecraft/world/level/storage/loot/providers/number/NumberProvider;", cancellable = true)
-    private void p__13138929(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-13138929L))
+    private void p_1502534783(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1502534783L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
-    private void codec__908594855(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-908594855L))
+    private void codec__1578003325(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1578003325L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "binomial(IF)Lnet/minecraft/world/level/storage/loot/providers/number/BinomialDistributionGenerator;", cancellable = true)
-    private static void binomial_1770971992(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1770971992L))
+    private static void binomial_286451369(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(286451369L))
             info.setReturnValue(null);
     }
 

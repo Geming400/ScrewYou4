@@ -8,51 +8,51 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.renderer.entity.TntRenderer.class)
 public class TntRenderer_32772977Mixin {
         @Inject(at = @At("HEAD"), method = "submit(Lnet/minecraft/client/renderer/entity/state/EntityRenderState;Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/SubmitNodeCollector;Lnet/minecraft/client/renderer/state/level/CameraRenderState;)V", cancellable = true)
-    private void submit__1434607868(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1434607868L))
+    private void submit__1044719844(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1044719844L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "submit(Lnet/minecraft/client/renderer/entity/state/TntRenderState;Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/SubmitNodeCollector;Lnet/minecraft/client/renderer/state/level/CameraRenderState;)V", cancellable = true)
-    private void submit_949227169(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(949227169L))
+    private void submit_237473161(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(237473161L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getSwellAmount(F)F", cancellable = true)
-    private static void getSwellAmount_1243904257(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1243904257L))
-            info.setReturnValue(4.090576E8F);
-    }
-
     @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/entity/item/PrimedTnt;Lnet/minecraft/client/renderer/entity/state/TntRenderState;F)V", cancellable = true)
-    private void extractRenderState_435792692(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(435792692L))
+    private void extractRenderState_2144238990(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(2144238990L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/client/renderer/entity/state/EntityRenderState;F)V", cancellable = true)
-    private void extractRenderState_259891995(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(259891995L))
+    private void extractRenderState__529448831(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-529448831L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/EntityRenderState;", cancellable = true)
-    private void createRenderState__555863468(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-555863468L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "isLit(F)Z", cancellable = true)
+    private static void isLit__1326507166(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1326507166L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getSwellAmount(F)F", cancellable = true)
+    private static void getSwellAmount__1265854204(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1265854204L))
+            info.setReturnValue(7.459442E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/TntRenderState;", cancellable = true)
-    private void createRenderState__1668733755(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1668733755L))
-            info.setReturnValue(null);
+    private void createRenderState_1646194406(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1646194406L))
+            info.setReturnValue(new net.minecraft.client.renderer.entity.state.TntRenderState());
     }
 
-    @Inject(at = @At("HEAD"), method = "isLit(F)Z", cancellable = true)
-    private static void isLit_1243923477(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1243923477L))
-            info.setReturnValue(false);
+    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/EntityRenderState;", cancellable = true)
+    private void createRenderState_285943955(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(285943955L))
+            info.setReturnValue(new net.minecraft.client.renderer.entity.state.EntityRenderState());
     }
 
 

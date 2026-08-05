@@ -8,44 +8,44 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.Stopwatches.class)
 public class Stopwatches_485212275Mixin {
         @Inject(at = @At("HEAD"), method = "remove(Lnet/minecraft/resources/Identifier;)Z", cancellable = true)
-    private void remove__1009225039(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1009225039L))
-            info.setReturnValue(false);
+    private void remove_846454445(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(846454445L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "get(Lnet/minecraft/resources/Identifier;)Lnet/minecraft/world/Stopwatch;", cancellable = true)
-    private void get__1400461950(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1400461950L))
+    private void get__511248020(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-511248020L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "update(Lnet/minecraft/resources/Identifier;Ljava/util/function/UnaryOperator;)Z", cancellable = true)
-    private void update_907403012(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(907403012L))
+    private void update__1640675685(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1640675685L))
             info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "add(Lnet/minecraft/resources/Identifier;Lnet/minecraft/world/Stopwatch;)Z", cancellable = true)
-    private void add__891170948(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-891170948L))
-            info.setReturnValue(false);
+    private void add_1957138205(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1957138205L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "currentTime()J", cancellable = true)
-    private static void currentTime_523475729(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(523475729L))
-            info.setReturnValue(3091594930141704511L);
+    private static void currentTime_1607695083(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1607695083L))
+            info.setReturnValue(6013904458426556782L);
     }
 
     @Inject(at = @At("HEAD"), method = "isDirty()Z", cancellable = true)
-    private void isDirty_523490857(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(523490857L))
-            info.setReturnValue(false);
+    private void isDirty__428621215(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-428621215L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "ids()Ljava/util/List;", cancellable = true)
-    private void ids_2111549090(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2111549090L))
+    private void ids_556185946(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(556185946L))
             info.setReturnValue(null);
     }
 

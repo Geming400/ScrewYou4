@@ -8,170 +8,170 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.level.block.entity.trialspawner.TrialSpawner.class)
 public class TrialSpawner294433704Mixin {
         @Inject(at = @At("HEAD"), method = "load(Lnet/minecraft/world/level/storage/ValueInput;)V", cancellable = true)
-    private void load_525670337(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(525670337L))
+    private void load_1286505755(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1286505755L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "store(Lnet/minecraft/world/level/storage/ValueOutput;)V", cancellable = true)
-    private void store__924697648(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-924697648L))
+    private void store_2063021617(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(2063021617L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "getState()Lnet/minecraft/world/level/block/entity/trialspawner/TrialSpawnerState;", cancellable = true)
-    private void getState_915715868(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(915715868L))
+    private void getState__620110495(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-620110495L))
             info.setReturnValue(net.minecraft.world.level.block.entity.trialspawner.TrialSpawnerState.COOLDOWN);
     }
 
     @Inject(at = @At("HEAD"), method = "setState(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/level/block/entity/trialspawner/TrialSpawnerState;)V", cancellable = true)
-    private void setState_1077132627(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1077132627L))
+    private void setState_74777700(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(74777700L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "normalConfig()Lnet/minecraft/world/level/block/entity/trialspawner/TrialSpawnerConfig;", cancellable = true)
-    private void normalConfig__639300365(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-639300365L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "applyOminous(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;)V", cancellable = true)
-    private void applyOminous__1092813826(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1092813826L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "getPlayerDetector()Lnet/minecraft/world/level/block/entity/trialspawner/PlayerDetector;", cancellable = true)
-    private void getPlayerDetector_213488800(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(213488800L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "setPlayerDetector(Lnet/minecraft/world/level/block/entity/trialspawner/PlayerDetector;)V", cancellable = true)
-    private void setPlayerDetector_179400788(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(179400788L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "getEntitySelector()Lnet/minecraft/world/level/block/entity/trialspawner/PlayerDetector$EntitySelector;", cancellable = true)
-    private void getEntitySelector_1714739420(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1714739420L))
-            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "tickServer(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;Z)V", cancellable = true)
-    private void tickServer_282533154(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(282533154L))
+    private void tickServer_129733090(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(129733090L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "tickClient(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Z)V", cancellable = true)
-    private void tickClient_223492288(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(223492288L))
+    private void tickClient__1640588152(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1640588152L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "overridePeacefulAndMobSpawnRule()V", cancellable = true)
-    private void overridePeacefulAndMobSpawnRule_332708443(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(332708443L))
+    @Inject(at = @At("HEAD"), method = "overrideEntityToSpawn(Lnet/minecraft/world/entity/EntityType;Lnet/minecraft/world/level/Level;)V", cancellable = true)
+    private void overrideEntityToSpawn_533102106(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(533102106L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "ominousConfig()Lnet/minecraft/world/level/block/entity/trialspawner/TrialSpawnerConfig;", cancellable = true)
-    private void ominousConfig__639300365(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-639300365L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getStateData()Lnet/minecraft/world/level/block/entity/trialspawner/TrialSpawnerStateData;", cancellable = true)
-    private void getStateData__1042935406(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1042935406L))
-            info.setReturnValue(new net.minecraft.world.level.block.entity.trialspawner.TrialSpawnerStateData());
     }
 
     @Inject(at = @At("HEAD"), method = "canSpawnInLevel(Lnet/minecraft/server/level/ServerLevel;)Z", cancellable = true)
-    private void canSpawnInLevel__683971792(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-683971792L))
+    private void canSpawnInLevel_577144412(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(577144412L))
             info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "getTargetCooldownLength()I", cancellable = true)
-    private void getTargetCooldownLength_332695950(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(332695950L))
-            info.setReturnValue(-1358317479);
+    private void getTargetCooldownLength__2026418698(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2026418698L))
+            info.setReturnValue(-1148461963);
     }
 
-    @Inject(at = @At("HEAD"), method = "getRequiredPlayerRange()I", cancellable = true)
-    private void getRequiredPlayerRange_332695950(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(332695950L))
-            info.setReturnValue(-1358317479);
+    @Inject(at = @At("HEAD"), method = "getStateData()Lnet/minecraft/world/level/block/entity/trialspawner/TrialSpawnerStateData;", cancellable = true)
+    private void getStateData_1049280973(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1049280973L))
+            info.setReturnValue(new net.minecraft.world.level.block.entity.trialspawner.TrialSpawnerStateData());
     }
 
     @Inject(at = @At("HEAD"), method = "activeConfig()Lnet/minecraft/world/level/block/entity/trialspawner/TrialSpawnerConfig;", cancellable = true)
-    private void activeConfig__639300365(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-639300365L))
+    private void activeConfig_2009875163(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2009875163L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "removeOminous(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;)V", cancellable = true)
-    private void removeOminous__1092813826(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1092813826L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "ominousConfig()Lnet/minecraft/world/level/block/entity/trialspawner/TrialSpawnerConfig;", cancellable = true)
+    private void ominousConfig_1143190463(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1143190463L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "ejectReward(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;Lnet/minecraft/resources/ResourceKey;)V", cancellable = true)
-    private void ejectReward_672294684(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(672294684L))
+    private void ejectReward_1943446460(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1943446460L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "markUpdated()V", cancellable = true)
-    private void markUpdated_332708443(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(332708443L))
+    private void markUpdated_1489348077(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1489348077L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "spawnMob(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;)Ljava/util/Optional;", cancellable = true)
-    private void spawnMob__610286893(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-610286893L))
+    @Inject(at = @At("HEAD"), method = "removeOminous(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;)V", cancellable = true)
+    private void removeOminous__807186364(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-807186364L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getRequiredPlayerRange()I", cancellable = true)
+    private void getRequiredPlayerRange__1619426457(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1619426457L))
+            info.setReturnValue(-219031213);
+    }
+
+    @Inject(at = @At("HEAD"), method = "normalConfig()Lnet/minecraft/world/level/block/entity/trialspawner/TrialSpawnerConfig;", cancellable = true)
+    private void normalConfig__1516199300(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1516199300L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "isOminous()Z", cancellable = true)
-    private void isOminous_332712287(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(332712287L))
-            info.setReturnValue(false);
+    private void isOminous__2055570177(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2055570177L))
+            info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "overrideEntityToSpawn(Lnet/minecraft/world/entity/EntityType;Lnet/minecraft/world/level/Level;)V", cancellable = true)
-    private void overrideEntityToSpawn_1442369131(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1442369131L))
+    @Inject(at = @At("HEAD"), method = "spawnMob(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;)Ljava/util/Optional;", cancellable = true)
+    private void spawnMob__627216530(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-627216530L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "overridePeacefulAndMobSpawnRule()V", cancellable = true)
+    private void overridePeacefulAndMobSpawnRule_1566665352(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1566665352L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "addBecomeOminousParticles(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)V", cancellable = true)
-    private static void addBecomeOminousParticles_977312590(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(977312590L))
+    @Inject(at = @At("HEAD"), method = "setPlayerDetector(Lnet/minecraft/world/level/block/entity/trialspawner/PlayerDetector;)V", cancellable = true)
+    private void setPlayerDetector__316903509(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-316903509L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "addDetectPlayerParticles(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;ILnet/minecraft/core/particles/ParticleOptions;)V", cancellable = true)
-    private static void addDetectPlayerParticles__2114341690(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-2114341690L))
+    @Inject(at = @At("HEAD"), method = "getPlayerDetector()Lnet/minecraft/world/level/block/entity/trialspawner/PlayerDetector;", cancellable = true)
+    private void getPlayerDetector_1635291741(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1635291741L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getEntitySelector()Lnet/minecraft/world/level/block/entity/trialspawner/PlayerDetector$EntitySelector;", cancellable = true)
+    private void getEntitySelector_2134052868(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2134052868L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "applyOminous(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;)V", cancellable = true)
+    private void applyOminous_201524890(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(201524890L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "addEjectItemParticles(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)V", cancellable = true)
-    private static void addEjectItemParticles_977312590(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(977312590L))
+    private static void addEjectItemParticles_747395160(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(747395160L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "addDetectPlayerParticles(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;ILnet/minecraft/core/particles/ParticleOptions;)V", cancellable = true)
+    private static void addDetectPlayerParticles__2082302402(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-2082302402L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "addBecomeOminousParticles(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)V", cancellable = true)
+    private static void addBecomeOminousParticles_1184915609(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1184915609L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "addSpawnParticles(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;Lnet/minecraft/core/particles/SimpleParticleType;)V", cancellable = true)
-    private static void addSpawnParticles_1130104031(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1130104031L))
+    private static void addSpawnParticles_762161740(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(762161740L))
             info.cancel();
     }
 

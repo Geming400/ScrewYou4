@@ -8,9 +8,9 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.server.Eula.class)
 public class Eula1575682665Mixin {
         @Inject(at = @At("HEAD"), method = "hasAgreedToEULA()Z", cancellable = true)
-    private void hasAgreedToEULA_1613961248(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1613961248L))
-            info.setReturnValue(false);
+    private void hasAgreedToEULA__1954245842(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1954245842L))
+            info.setReturnValue(true);
     }
 
 

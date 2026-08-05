@@ -8,8 +8,8 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.util.EncoderCache.class)
 public class EncoderCache928234060Mixin {
         @Inject(at = @At("HEAD"), method = "wrap(Lcom/mojang/serialization/Codec;)Lcom/mojang/serialization/Codec;", cancellable = true)
-    private void wrap_1411911787(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1411911787L))
+    private void wrap_789273525(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(789273525L))
             info.setReturnValue(null);
     }
 

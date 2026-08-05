@@ -8,38 +8,38 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.util.parsing.packrat.Term.Marker.class)
 public class Marker511748476Mixin {
         @Inject(at = @At("HEAD"), method = "name()Lnet/minecraft/util/parsing/packrat/Atom;", cancellable = true)
-    private void name_1827731412(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1827731412L))
+    private void name_1359323945(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1359323945L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "value()Ljava/lang/Object;", cancellable = true)
-    private void value__1924026601(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1924026601L))
+    private void value__491772472(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-491772472L))
             info.setReturnValue(new java.lang.Object());
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals_1897260735(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1897260735L))
-            info.setReturnValue(false);
+    private void equals__396877792(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-396877792L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__623711499(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-623711499L))
-            info.setReturnValue("2Qe\uFE09\u5731\u0D7F<vP#|_VV&74:frRl9\u7E78La\u6381V\uA857G>RKt4NF+1G\uB930J\"-jz73B{8,bh\u13BC20.\uA659\u5202?\uFCD2WBH\u3957Npc(\uCFC5#C0\u1BBFdewJX");
+    private void toString_1282172001(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1282172001L))
+            info.setReturnValue("Q\u2972 -}s");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_550011218(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(550011218L))
-            info.setReturnValue(1182352762);
+    private void hashCode_1069100567(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1069100567L))
+            info.setReturnValue(1504069579);
     }
 
     @Inject(at = @At("HEAD"), method = "parse(Lnet/minecraft/util/parsing/packrat/ParseState;Lnet/minecraft/util/parsing/packrat/Scope;Lnet/minecraft/util/parsing/packrat/Control;)Z", cancellable = true)
-    private void parse_890534324(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(890534324L))
+    private void parse_307945639(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(307945639L))
             info.setReturnValue(true);
     }
 

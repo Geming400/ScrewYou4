@@ -8,63 +8,63 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.renderer.entity.SalmonRenderer.class)
 public class SalmonRenderer_1343816379Mixin {
         @Inject(at = @At("HEAD"), method = "submit(Lnet/minecraft/client/renderer/entity/state/SalmonRenderState;Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/SubmitNodeCollector;Lnet/minecraft/client/renderer/state/level/CameraRenderState;)V", cancellable = true)
-    private void submit_282820323(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(282820323L))
+    private void submit_672708347(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(672708347L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "submit(Lnet/minecraft/client/renderer/entity/state/LivingEntityRenderState;Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/SubmitNodeCollector;Lnet/minecraft/client/renderer/state/level/CameraRenderState;)V", cancellable = true)
-    private void submit_596800357(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(596800357L))
+    private void submit_1805334909(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1805334909L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "submit(Lnet/minecraft/client/renderer/entity/state/EntityRenderState;Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/SubmitNodeCollector;Lnet/minecraft/client/renderer/state/level/CameraRenderState;)V", cancellable = true)
-    private void submit__123564466(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-123564466L))
+    private void submit_266323558(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(266323558L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getTextureLocation(Lnet/minecraft/client/renderer/entity/state/LivingEntityRenderState;)Lnet/minecraft/resources/Identifier;", cancellable = true)
+    private void getTextureLocation__978636083(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-978636083L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getTextureLocation(Lnet/minecraft/client/renderer/entity/state/SalmonRenderState;)Lnet/minecraft/resources/Identifier;", cancellable = true)
+    private void getTextureLocation_157166923(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(157166923L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/client/renderer/entity/state/LivingEntityRenderState;F)V", cancellable = true)
+    private void extractRenderState__326657109(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-326657109L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/client/renderer/entity/state/EntityRenderState;F)V", cancellable = true)
-    private void extractRenderState_1570935397(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1570935397L))
+    private void extractRenderState_781594571(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(781594571L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/entity/animal/fish/Salmon;Lnet/minecraft/client/renderer/entity/state/SalmonRenderState;F)V", cancellable = true)
-    private void extractRenderState_1954789385(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1954789385L))
+    private void extractRenderState__735548305(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-735548305L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/client/renderer/entity/state/LivingEntityRenderState;F)V", cancellable = true)
-    private void extractRenderState__1931286715(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1931286715L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/EntityRenderState;", cancellable = true)
-    private void createRenderState_755179934(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(755179934L))
-            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/SalmonRenderState;", cancellable = true)
-    private void createRenderState_1074097449(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1074097449L))
-            info.setReturnValue(new net.minecraft.client.renderer.entity.state.SalmonRenderState());
-    }
-
-    @Inject(at = @At("HEAD"), method = "getTextureLocation(Lnet/minecraft/client/renderer/entity/state/SalmonRenderState;)Lnet/minecraft/resources/Identifier;", cancellable = true)
-    private void getTextureLocation__1223935727(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1223935727L))
+    private void createRenderState_1915904872(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1915904872L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getTextureLocation(Lnet/minecraft/client/renderer/entity/state/LivingEntityRenderState;)Lnet/minecraft/resources/Identifier;", cancellable = true)
-    private void getTextureLocation__948514285(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-948514285L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/EntityRenderState;", cancellable = true)
+    private void createRenderState_1596987357(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1596987357L))
+            info.setReturnValue(new net.minecraft.client.renderer.entity.state.EntityRenderState());
     }
 
 

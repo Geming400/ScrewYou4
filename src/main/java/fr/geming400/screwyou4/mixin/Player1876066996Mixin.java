@@ -8,38 +8,38 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.network.chat.OutgoingChatMessage.Player.class)
 public class Player1876066996Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals__1033388041(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1033388041L))
-            info.setReturnValue(true);
+    private void equals_967440728(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(967440728L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString_740607021(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(740607021L))
-            info.setReturnValue("1DeMy%g.0,y.XlrR\uC041Ox[P.QGH9S\u2512d*\"\uACB9\uD441/}29P|?%I/$%Id S\u9678t\u3571HX");
+    private void toString__1648476775(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1648476775L))
+            info.setReturnValue("c9f0f[#p--/dG");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_1914329738(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1914329738L))
-            info.setReturnValue(1692704029);
+    private void hashCode__1861548209(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1861548209L))
+            info.setReturnValue(739098967);
     }
 
     @Inject(at = @At("HEAD"), method = "message()Lnet/minecraft/network/chat/PlayerChatMessage;", cancellable = true)
-    private void message_129568694(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(129568694L))
+    private void message_1756487677(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1756487677L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "content()Lnet/minecraft/network/chat/Component;", cancellable = true)
-    private void content__300842169(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-300842169L))
+    private void content__126545792(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-126545792L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "sendToPlayer(Lnet/minecraft/server/level/ServerPlayer;ZLnet/minecraft/network/chat/ChatType$Bound;)V", cancellable = true)
-    private void sendToPlayer__61877770(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-61877770L))
+    private void sendToPlayer__832088614(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-832088614L))
             info.cancel();
     }
 

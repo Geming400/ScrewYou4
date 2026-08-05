@@ -8,38 +8,38 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.renderer.item.SelectItemModel.SwitchCase.class)
 public class SwitchCase1645421882Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals__1264033155(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1264033155L))
-            info.setReturnValue(true);
+    private void equals_736795614(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(736795614L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString_509961907(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(509961907L))
-            info.setReturnValue("2\u50C8r\u3B7DR\u514BtO\u3F62{$`D?\u3EBC-WS_rkq.s\u975B\u82CC7.6:z}\uA527aZ4;|vN9G3aQ+gio3\u03CCP\u90D2x]-,I^hu3\uBCE1-");
+    private void toString__1879121889(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1879121889L))
+            info.setReturnValue("\u3E4Ci,+\u706Ay\uCFC2@V\u59FBc\"m>Y(\uAC3D\u3937?f\"rU=OM\uB698qdv\uF9EC,\uFD40mJ}AYzw9&'3\uCCE8S? k\uAA7Fh\u6A7C%eAdG}G");
     }
 
     @Inject(at = @At("HEAD"), method = "values()Ljava/util/List;", cancellable = true)
-    private void values__1023208598(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1023208598L))
+    private void values__1471624308(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1471624308L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_1683684624(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1683684624L))
-            info.setReturnValue(-866796532);
+    private void hashCode__2092193323(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2092193323L))
+            info.setReturnValue(371945400);
     }
 
     @Inject(at = @At("HEAD"), method = "model()Lnet/minecraft/client/renderer/item/ItemModel$Unbaked;", cancellable = true)
-    private void model_1772540900(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1772540900L))
+    private void model__1493640755(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1493640755L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "codec(Lcom/mojang/serialization/Codec;)Lcom/mojang/serialization/Codec;", cancellable = true)
-    private static void codec_2129099857(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2129099857L))
+    private static void codec_1997070695(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1997070695L))
             info.setReturnValue(null);
     }
 

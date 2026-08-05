@@ -8,14 +8,14 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.level.FoliageColor.class)
 public class FoliageColor_964200020Mixin {
         @Inject(at = @At("HEAD"), method = "get(DD)I", cancellable = true)
-    private static void get__179455055(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-179455055L))
-            info.setReturnValue(-444804108);
+    private static void get__807247973(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-807247973L))
+            info.setReturnValue(-534133740);
     }
 
     @Inject(at = @At("HEAD"), method = "init([I)V", cancellable = true)
-    private static void init_483645516(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(483645516L))
+    private static void init_139043132(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(139043132L))
             info.cancel();
     }
 

@@ -8,62 +8,62 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.gametest.framework.TestEnvironmentDefinition.ClockTime.class)
 public class ClockTime1782380533Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals__1127074504(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1127074504L))
+    private void equals_873754265(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(873754265L))
             info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString_646920558(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(646920558L))
-            info.setReturnValue("Uydr\u5724!\u6548[Tak0U8|eJH\uB6D25AWGy@-@df}s3\u04BC0\u3518M'B!=tm^\u247E#6sA,aJk&Dn.");
+    private void toString__1742163238(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1742163238L))
+            info.setReturnValue("V\uBA5ELkg[mjfk rjNE<_.s/6h5f");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_1820643275(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1820643275L))
-            info.setReturnValue(-541076636);
+    private void hashCode__1955234672(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1955234672L))
+            info.setReturnValue(625242986);
     }
 
     @Inject(at = @At("HEAD"), method = "setup(Lnet/minecraft/server/level/ServerLevel;)Ljava/lang/Object;", cancellable = true)
-    private void setup__927395937(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-927395937L))
-            info.setReturnValue(new java.lang.Object());
+    private void setup__246981284(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-246981284L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "setup(Lnet/minecraft/server/level/ServerLevel;)Ljava/lang/Long;", cancellable = true)
-    private void setup__1955073150(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1955073150L))
+    private void setup_97029247(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(97029247L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "clock()Lnet/minecraft/core/Holder;", cancellable = true)
-    private void clock__963710991(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-963710991L))
+    private void clock_902894115(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(902894115L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "time()I", cancellable = true)
-    private void time_1820642779(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1820642779L))
-            info.setReturnValue(-337929216);
+    private void time_1766011694(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1766011694L))
+            info.setReturnValue(983669699);
     }
 
     @Inject(at = @At("HEAD"), method = "teardown(Lnet/minecraft/server/level/ServerLevel;Ljava/lang/Long;)V", cancellable = true)
-    private void teardown_210893048(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(210893048L))
+    private void teardown__1077145228(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1077145228L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "teardown(Lnet/minecraft/server/level/ServerLevel;Ljava/lang/Object;)V", cancellable = true)
-    private void teardown__1035056235(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1035056235L))
+    private void teardown__1889258223(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1889258223L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
-    private void codec__776733039(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-776733039L))
+    private void codec__1446141509(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1446141509L))
             info.setReturnValue(null);
     }
 

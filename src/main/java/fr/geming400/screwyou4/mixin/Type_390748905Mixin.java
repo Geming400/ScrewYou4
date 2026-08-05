@@ -8,21 +8,21 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.item.component.ItemAttributeModifiers.Display.Type.class)
 public class Type_390748905Mixin {
         @Inject(at = @At("HEAD"), method = "values()[Lnet/minecraft/world/item/component/ItemAttributeModifiers$Display$Type;", cancellable = true)
-    private static void values__1882088617(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1882088617L))
+    private static void values__1505233547(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1505233547L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/world/item/component/ItemAttributeModifiers$Display$Type;", cancellable = true)
-    private static void valueOf__162642732(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-162642732L))
+    private static void valueOf_358027772(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(358027772L))
             info.setReturnValue(net.minecraft.world.item.component.ItemAttributeModifiers.Display.Type.HIDDEN);
     }
 
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
-    private void getSerializedName__744711567(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-744711567L))
-            info.setReturnValue("\u3D9B\u3793%N\u4E52K?jjGW%\uAC014@{K_\uD373IZbn4Vv<tE0]%_\u956D$LI=9\u13F1{\uA43CuKB\u214A3\u3CDCm0lE[>IR\u58AAD8B;m,\u51CE\u5595DtOqP8>4/H-#\u882EN*4b6\uD4D4*");
+    private void getSerializedName_478957526(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(478957526L))
+            info.setReturnValue("\u3D29\u01E2P/n\u3226T%7OWQG*[}X3zu1\u307A\u5AEDP^mI3PB#d\u1D64Gfqz{\u57E2svb/%/h-g%T*EHC`S*{.C9xif4UsB$]\u63ABv");
     }
 
 

@@ -8,44 +8,44 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.entity.animal.cow.CowVariant.class)
 public class CowVariant_190234996Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals_1575747254(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1575747254L))
-            info.setReturnValue(false);
+    private void equals__718391273(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-718391273L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__945224980(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-945224980L))
-            info.setReturnValue("buCVmA N\u9D31[b}@ys\u86BEw\u8FA8L'fzd3H1DHrU2z|!Gb5]\u636AFsOC1T\u97B1,r64b!-\u5C09A+xvkzmB9kOtCi\uC4F1y\u274Fp\u09FBEv_\u82A3E}'6Xa");
+    private void toString_960658520(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(960658520L))
+            info.setReturnValue("\u41EEJoBl3h\u5403-f\uA0F2\u3A8A8\u95F3>IJx");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_228497737(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(228497737L))
-            info.setReturnValue(50137806);
+    private void hashCode_747587086(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(747587086L))
+            info.setReturnValue(1994903364);
+    }
+
+    @Inject(at = @At("HEAD"), method = "selectors()Ljava/util/List;", cancellable = true)
+    private void selectors__239438313(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-239438313L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "spawnConditions()Lnet/minecraft/world/entity/variant/SpawnPrioritySelectors;", cancellable = true)
-    private void spawnConditions__716426851(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-716426851L))
+    private void spawnConditions_2056209066(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2056209066L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "babyTexture()Lnet/minecraft/core/ClientAsset$ResourceTexture;", cancellable = true)
-    private void babyTexture__1061946225(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1061946225L))
+    private void babyTexture__582750348(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-582750348L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "modelAndTexture()Lnet/minecraft/world/entity/variant/ModelAndTexture;", cancellable = true)
-    private void modelAndTexture_1018963065(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1018963065L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "selectors()Ljava/util/List;", cancellable = true)
-    private void selectors_1816571811(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1816571811L))
+    private void modelAndTexture__848948026(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-848948026L))
             info.setReturnValue(null);
     }
 

@@ -8,44 +8,44 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.network.protocol.game.ServerboundRecipeBookSeenRecipePacket.class)
 public class ServerboundRecipeBookSeenRecipePacket_284402075Mixin {
         @Inject(at = @At("HEAD"), method = "type()Lnet/minecraft/network/protocol/PacketType;", cancellable = true)
-    private void type__1394623014(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1394623014L))
+    private void type_440269664(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(440269664L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals_1669914333(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1669914333L))
-            info.setReturnValue(true);
+    private void equals__624224194(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-624224194L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__851057901(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-851057901L))
-            info.setReturnValue("u'?eF\uCB9A%[*|\u9D6E\u62D4Le-#Y!7Sf\uC74F\uB8D1_u>)hyP9gmk+GB-#F\uB7FF%mg\u2BCBqI(v\uADC7K\uD006=I;\u2387\" be&J1\u74AAj u[%zUS66(d?+6");
+    private void toString_1054825599(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1054825599L))
+            info.setReturnValue(")GkE<5o@Gt\uFFC71kldLQao}K%gC:b{'_Y{*?+]yg!mB?3\uA2B7%D\uCBDD6e/zs{N}ICD\u5CCAr;B'1IV/+We-,v%RCaX;f9U\u9091)+E]zyEsq\u3452\u1C0F-T");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_322664816(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(322664816L))
-            info.setReturnValue(867790962);
+    private void hashCode_841754165(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(841754165L))
+            info.setReturnValue(-1770859496);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/PacketListener;)V", cancellable = true)
-    private void handle_962470987(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(962470987L))
+    private void handle__11309789(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-11309789L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/protocol/game/ServerGamePacketListener;)V", cancellable = true)
-    private void handle__1584219920(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1584219920L))
+    private void handle_921762248(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(921762248L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "recipe()Lnet/minecraft/world/item/crafting/display/RecipeDisplayId;", cancellable = true)
-    private void recipe_1442828094(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1442828094L))
+    private void recipe__317521936(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-317521936L))
             info.setReturnValue(null);
     }
 

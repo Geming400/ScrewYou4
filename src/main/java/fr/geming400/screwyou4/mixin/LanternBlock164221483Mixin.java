@@ -8,14 +8,14 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.level.block.LanternBlock.class)
 public class LanternBlock164221483Mixin {
         @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
-    private void codec_1900075207(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1900075207L))
+    private void codec_1230666737(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1230666737L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
-    private void getStateForPlacement__1094378284(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1094378284L))
+    private void getStateForPlacement_1990000299(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1990000299L))
             info.setReturnValue(null);
     }
 

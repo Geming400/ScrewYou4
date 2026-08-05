@@ -8,14 +8,14 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.gui.screens.dialog.input.InputControlHandlers.class)
 public class InputControlHandlers_2110030836Mixin {
         @Inject(at = @At("HEAD"), method = "bootstrap()V", cancellable = true)
-    private static void bootstrap__2146661474(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-2146661474L))
+    private static void bootstrap_671912432(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(671912432L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "createHandler(Lnet/minecraft/server/dialog/input/InputControl;Lnet/minecraft/client/gui/screens/Screen;Lnet/minecraft/client/gui/screens/dialog/input/InputControlHandler$Output;)V", cancellable = true)
-    private static void createHandler_940772950(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(940772950L))
+    private static void createHandler_1931993860(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1931993860L))
             info.cancel();
     }
 

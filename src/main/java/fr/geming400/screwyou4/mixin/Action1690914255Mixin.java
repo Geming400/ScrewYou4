@@ -8,15 +8,15 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.network.protocol.game.ClientboundSetPlayerTeamPacket.Action.class)
 public class Action1690914255Mixin {
         @Inject(at = @At("HEAD"), method = "values()[Lnet/minecraft/network/protocol/game/ClientboundSetPlayerTeamPacket$Action;", cancellable = true)
-    private static void values__694401528(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-694401528L))
+    private static void values__849522902(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-849522902L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/network/protocol/game/ClientboundSetPlayerTeamPacket$Action;", cancellable = true)
-    private static void valueOf_1537986411(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1537986411L))
-            info.setReturnValue(net.minecraft.network.protocol.game.ClientboundSetPlayerTeamPacket.Action.ADD);
+    private static void valueOf__588902077(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-588902077L))
+            info.setReturnValue(net.minecraft.network.protocol.game.ClientboundSetPlayerTeamPacket.Action.REMOVE);
     }
 
 

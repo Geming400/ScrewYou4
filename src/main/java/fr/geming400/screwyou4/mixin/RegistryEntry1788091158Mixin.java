@@ -8,32 +8,32 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.core.RegistryAccess.RegistryEntry.class)
 public class RegistryEntry1788091158Mixin {
         @Inject(at = @At("HEAD"), method = "value()Lnet/minecraft/core/Registry;", cancellable = true)
-    private void value_1274235681(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1274235681L))
+    private void value__1008571440(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1008571440L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals__1121363879(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1121363879L))
+    private void equals_879464890(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(879464890L))
             info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString_652631183(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(652631183L))
-            info.setReturnValue("*o\u2334X0.?=p,Z\u94AC\u7797cR\u57DA");
+    private void toString__1736452613(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1736452613L))
+            info.setReturnValue("\"3\u74C3\u843Ci&%J:UDQG':o\uFCC5S}EU^|f\u63D6Pg(ZQ@&@$i}<7\uB1E0b+v.\"}Z?loP\u86FF^00\u6D0B!X\uBB5D!s$k?aN");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_1826353900(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1826353900L))
-            info.setReturnValue(-1654531417);
+    private void hashCode__1949524047(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1949524047L))
+            info.setReturnValue(-152543837);
     }
 
     @Inject(at = @At("HEAD"), method = "key()Lnet/minecraft/resources/ResourceKey;", cancellable = true)
-    private void key__1698384825(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1698384825L))
+    private void key_87788744(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(87788744L))
             info.setReturnValue(null);
     }
 

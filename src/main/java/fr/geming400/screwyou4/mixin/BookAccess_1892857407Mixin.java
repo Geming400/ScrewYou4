@@ -8,45 +8,45 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.gui.screens.inventory.BookViewScreen.BookAccess.class)
 public class BookAccess_1892857407Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals__1016597631(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1016597631L))
-            info.setReturnValue(true);
+    private void equals_984231138(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(984231138L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString_757397431(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(757397431L))
-            info.setReturnValue("\"YmJ)\u96AD\u8F50\u56D2p,{f8 za4V ]+\u49E0Nr+N'<\u7E4F3d1\u52DD:9(iDH+FLg)?pK5{\uD46Bs\uA743\u3A92X|\u42414GmI0_+\uBC79S3w\u04A6!#\u0E23PHmjiK7a!q?wkY\u203FFSQL");
+    private void toString__1631686365(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1631686365L))
+            info.setReturnValue("oywC</@\u5830B\uA1ACa}_Zn6ZRtk)}kA*w5-");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_1931120148(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1931120148L))
-            info.setReturnValue(1556600759);
+    private void hashCode__1844757799(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1844757799L))
+            info.setReturnValue(757800122);
     }
 
-    @Inject(at = @At("HEAD"), method = "fromItem(Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/client/gui/screens/inventory/BookViewScreen$BookAccess;", cancellable = true)
-    private static void fromItem_1100825543(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1100825543L))
+    @Inject(at = @At("HEAD"), method = "pages()Ljava/util/List;", cancellable = true)
+    private void pages__1192687054(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1192687054L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getPage(I)Lnet/minecraft/network/chat/Component;", cancellable = true)
-    private void getPage__1252598280(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1252598280L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "pages()Ljava/util/List;", cancellable = true)
-    private void pages__775773074(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-775773074L))
+    private void getPage_203440595(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(203440595L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getPageCount()I", cancellable = true)
-    private void getPageCount_1931119652(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1931119652L))
-            info.setReturnValue(1735124248);
+    private void getPageCount__1665011366(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1665011366L))
+            info.setReturnValue(1822509194);
+    }
+
+    @Inject(at = @At("HEAD"), method = "fromItem(Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/client/gui/screens/inventory/BookViewScreen$BookAccess;", cancellable = true)
+    private static void fromItem_763511524(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(763511524L))
+            info.setReturnValue(null);
     }
 
 

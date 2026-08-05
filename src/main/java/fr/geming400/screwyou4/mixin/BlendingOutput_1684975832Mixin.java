@@ -8,33 +8,33 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.level.levelgen.blending.Blender.BlendingOutput.class)
 public class BlendingOutput_1684975832Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals__1224479206(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1224479206L))
+    private void equals_776349563(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(776349563L))
             info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString_549515856(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(549515856L))
-            info.setReturnValue("p,3\u28CA\u735B4hA\u72982\u70FE\uCACEo\u11C0S\uC78BC$WMC\u2F14:<weT^\u4402T9o\u1BEC\u0E42<OUls\u852DX_\uBD6Fj7W@J#jQNYQufD\u84C8`aUr)2OitBeHA7");
+    private void toString__1839567940(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1839567940L))
+            info.setReturnValue("C7\uCE49F%vzC+y'WF\u78AF^LD\u8077\"*v9,I*U os\u9A2024HP^-,&\u1239\"/JX8\u3CE0cQRb8g!9\u3BABz\u5C47\uC91C%{!}D|:;ZqUs\u16A0c!\uB8A7 Sp_HOnJ\uC892?R\u73F91Q!T?");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_1723238573(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1723238573L))
-            info.setReturnValue(-752292071);
+    private void hashCode__2052639374(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2052639374L))
+            info.setReturnValue(799017310);
     }
 
     @Inject(at = @At("HEAD"), method = "alpha()D", cancellable = true)
-    private void alpha_1723233272(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1723233272L))
-            info.setReturnValue(6.029046005749967E8D);
+    private void alpha_419097946(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(419097946L))
+            info.setReturnValue(9.63282900142764E8D);
     }
 
     @Inject(at = @At("HEAD"), method = "blendingOffset()D", cancellable = true)
-    private void blendingOffset_1723233272(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1723233272L))
-            info.setReturnValue(6.029046005749967E8D);
+    private void blendingOffset__878059372(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-878059372L))
+            info.setReturnValue(9.632829002778691E8D);
     }
 
 

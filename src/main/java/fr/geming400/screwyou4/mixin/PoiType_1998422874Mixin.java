@@ -8,45 +8,45 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.entity.ai.village.poi.PoiType.class)
 public class PoiType_1998422874Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals__911032164(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-911032164L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString_862962898(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(862962898L))
-            info.setReturnValue("wcCV>7[_D=Sch\"SSdC=</Zd./KIb$\u5BD5VPup\u4901JLSY\u5BA1\u1DE1^1,uj:?\u796FHm");
-    }
-
-    @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_2036685615(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2036685615L))
-            info.setReturnValue(-1247338150);
-    }
-
-    @Inject(at = @At("HEAD"), method = "is(Lnet/minecraft/world/level/block/state/BlockState;)Z", cancellable = true)
-    private void is_1853133887(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1853133887L))
+    private void equals_1089796605(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1089796605L))
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "validRange()I", cancellable = true)
-    private void validRange_2036685119(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2036685119L))
-            info.setReturnValue(-1044190730);
+    @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
+    private void toString__1526120898(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1526120898L))
+            info.setReturnValue("<KTsUCjg4.KU-=H(-?/E&GY:0\uA08Ey?xk&NGPcVz4 \uFED4/Q7\uCC15UWW1;2Nu\u4C45");
     }
 
-    @Inject(at = @At("HEAD"), method = "maxTickets()I", cancellable = true)
-    private void maxTickets_2036685119(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2036685119L))
-            info.setReturnValue(-1044190730);
+    @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
+    private void hashCode__1739192332(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1739192332L))
+            info.setReturnValue(-1519580807);
+    }
+
+    @Inject(at = @At("HEAD"), method = "is(Lnet/minecraft/world/level/block/state/BlockState;)Z", cancellable = true)
+    private void is_1670610901(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1670610901L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "matchingStates()Ljava/util/Set;", cancellable = true)
-    private void matchingStates_169387387(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(169387387L))
+    private void matchingStates_113311420(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(113311420L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "maxTickets()I", cancellable = true)
+    private void maxTickets__540697028(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-540697028L))
+            info.setReturnValue(487409561);
+    }
+
+    @Inject(at = @At("HEAD"), method = "validRange()I", cancellable = true)
+    private void validRange_1866202942(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1866202942L))
+            info.setReturnValue(964536838);
     }
 
 

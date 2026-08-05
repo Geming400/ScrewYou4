@@ -8,51 +8,51 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.renderer.MultiblockChestResources.class)
 public class MultiblockChestResources1413607182Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals__1495847855(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1495847855L))
+    private void equals_504980914(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(504980914L))
             info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString_278147207(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(278147207L))
-            info.setReturnValue("@\u3556{oCXdSvFR4$!'\u4BA2$56T;\u516E-v|?*C^b\u9BEF\uB8B8uYwO\"PyzQ]`9r2X{qj\uC3AA^_y\uD68D");
+    private void toString__2110936589(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2110936589L))
+            info.setReturnValue("*<?Q\u445D.Y");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_1451869924(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1451869924L))
-            info.setReturnValue(687759881);
+    private void hashCode_1970959273(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1970959273L))
+            info.setReturnValue(-850066953);
     }
 
     @Inject(at = @At("HEAD"), method = "map(Ljava/util/function/Function;)Lnet/minecraft/client/renderer/MultiblockChestResources;", cancellable = true)
-    private void map__1089614656(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1089614656L))
+    private void map__235501852(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-235501852L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "single()Ljava/lang/Object;", cancellable = true)
-    private void single__1022167895(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1022167895L))
-            info.setReturnValue(null);
+    private void single_71537393(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(71537393L))
+            info.setReturnValue(new java.lang.Object());
     }
 
     @Inject(at = @At("HEAD"), method = "left()Ljava/lang/Object;", cancellable = true)
-    private void left__1022167895(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1022167895L))
+    private void left__1192704656(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1192704656L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "right()Ljava/lang/Object;", cancellable = true)
-    private void right__1022167895(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1022167895L))
+    private void right_970586565(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(970586565L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "select(Lnet/minecraft/world/level/block/state/properties/ChestType;)Ljava/lang/Object;", cancellable = true)
-    private void select_1606808277(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1606808277L))
-            info.setReturnValue(null);
+    private void select__701857583(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-701857583L))
+            info.setReturnValue(new java.lang.Object());
     }
 
 

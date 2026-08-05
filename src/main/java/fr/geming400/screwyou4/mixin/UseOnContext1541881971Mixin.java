@@ -8,69 +8,69 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.item.context.UseOnContext.class)
 public class UseOnContext1541881971Mixin {
         @Inject(at = @At("HEAD"), method = "getLevel()Lnet/minecraft/world/level/Level;", cancellable = true)
-    private void getLevel__1034386097(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1034386097L))
+    private void getLevel__214438847(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-214438847L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isSecondaryUseActive()Z", cancellable = true)
+    private void isSecondaryUseActive_704282855(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(704282855L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getItemInHand()Lnet/minecraft/world/item/ItemStack;", cancellable = true)
+    private void getItemInHand__1520089164(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1520089164L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getRotation()F", cancellable = true)
-    private void getRotation_1580141334(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1580141334L))
-            info.setReturnValue(4.489613E8F);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getItemInHand()Lnet/minecraft/world/item/ItemStack;", cancellable = true)
-    private void getItemInHand_2065300631(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2065300631L))
-            info.setReturnValue(null);
+    private void getRotation_625587874(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(625587874L))
+            info.setReturnValue(7.556508E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "getClickedPos()Lnet/minecraft/core/BlockPos;", cancellable = true)
-    private void getClickedPos__351504908(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-351504908L))
+    private void getClickedPos__749028943(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-749028943L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getPlayer()Lnet/minecraft/world/entity/player/Player;", cancellable = true)
-    private void getPlayer_494795693(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(494795693L))
+    private void getPlayer_1390876996(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1390876996L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "isInside()Z", cancellable = true)
-    private void isInside_1580160554(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1580160554L))
+    private void isInside__1612595164(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1612595164L))
             info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isSecondaryUseActive()Z", cancellable = true)
-    private void isSecondaryUseActive_1580160554(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1580160554L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getClickLocation()Lnet/minecraft/world/phys/Vec3;", cancellable = true)
-    private void getClickLocation__1655355796(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1655355796L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getClickedFace()Lnet/minecraft/core/Direction;", cancellable = true)
-    private void getClickedFace_779026686(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(779026686L))
-            info.setReturnValue(net.minecraft.core.Direction.WEST);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getHand()Lnet/minecraft/world/InteractionHand;", cancellable = true)
-    private void getHand__1899096601(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1899096601L))
-            info.setReturnValue(net.minecraft.world.InteractionHand.OFF_HAND);
     }
 
     @Inject(at = @At("HEAD"), method = "getHorizontalDirection()Lnet/minecraft/core/Direction;", cancellable = true)
-    private void getHorizontalDirection_779026686(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(779026686L))
-            info.setReturnValue(net.minecraft.core.Direction.WEST);
+    private void getHorizontalDirection_821067843(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(821067843L))
+            info.setReturnValue(net.minecraft.core.Direction.DOWN);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getHand()Lnet/minecraft/world/InteractionHand;", cancellable = true)
+    private void getHand__249335134(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-249335134L))
+            info.setReturnValue(net.minecraft.world.InteractionHand.OFF_HAND);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getClickedFace()Lnet/minecraft/core/Direction;", cancellable = true)
+    private void getClickedFace__1419527316(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1419527316L))
+            info.setReturnValue(net.minecraft.core.Direction.NORTH);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getClickLocation()Lnet/minecraft/world/phys/Vec3;", cancellable = true)
+    private void getClickLocation_335834981(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(335834981L))
+            info.setReturnValue(null);
     }
 
 

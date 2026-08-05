@@ -8,50 +8,50 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.server.rcon.NetworkDataOutputStream.class)
 public class NetworkDataOutputStream490258539Mixin {
         @Inject(at = @At("HEAD"), method = "reset()V", cancellable = true)
-    private void reset_528533278(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(528533278L))
+    private void reset__1239178449(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1239178449L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "write(I)V", cancellable = true)
-    private void write_1704175511(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1704175511L))
+    private void write_629562422(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(629562422L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "writeInt(I)V", cancellable = true)
-    private void writeInt_1704175511(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1704175511L))
+    private void writeInt_2098496295(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(2098496295L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "writeShort(S)V", cancellable = true)
-    private void writeShort_1713410721(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1713410721L))
+    private void writeShort_223463614(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(223463614L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "toByteArray()[B", cancellable = true)
-    private void toByteArray_1676093169(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1676093169L))
+    private void toByteArray__1034090393(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1034090393L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "writeBytes([B)V", cancellable = true)
-    private void writeBytes_3239141(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(3239141L))
+    private void writeBytes_1973371801(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1973371801L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "writeFloat(F)V", cancellable = true)
-    private void writeFloat_1701404948(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1701404948L))
+    private void writeFloat_1747930385(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1747930385L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "writeString(Ljava/lang/String;)V", cancellable = true)
-    private void writeString_1642619688(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1642619688L))
+    private void writeString_1818196056(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1818196056L))
             info.cancel();
     }
 

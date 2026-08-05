@@ -8,26 +8,26 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.level.block.entity.DecoratedPotPattern.class)
 public class DecoratedPotPattern_1450488652Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals__1458966386(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1458966386L))
+    private void equals_541862383(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(541862383L))
             info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString_315028676(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(315028676L))
-            info.setReturnValue("P/kb\uBD32?U6W[#3\u4384\u5F06+\u78D8_*;_=7.n}b/\uA475_)#\uA35FG\uB478M,w\u5ECF._7JPyP)&0osh4$x'.FCm|+a");
+    private void toString__2074055120(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2074055120L))
+            info.setReturnValue("iR\u3E34>I\u59C3\uBF15df9[NywcS[sj\uB7A9S?mtrQva>[4_]U!p4C89)hzK@<#T8{1_KS@*=\u435C");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_1488751393(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1488751393L))
-            info.setReturnValue(-684272352);
+    private void hashCode_2007840742(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2007840742L))
+            info.setReturnValue(1373156301);
     }
 
     @Inject(at = @At("HEAD"), method = "assetId()Lnet/minecraft/resources/Identifier;", cancellable = true)
-    private void assetId__992577902(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-992577902L))
+    private void assetId__496785475(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-496785475L))
             info.setReturnValue(null);
     }
 

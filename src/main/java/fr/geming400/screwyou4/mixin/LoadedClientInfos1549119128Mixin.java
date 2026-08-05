@@ -8,26 +8,26 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.resources.model.ClientItemInfoLoader.LoadedClientInfos.class)
 public class LoadedClientInfos1549119128Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals__1360335909(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1360335909L))
+    private void equals_640492860(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(640492860L))
             info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString_413659153(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(413659153L))
-            info.setReturnValue("FE\u78B0Zp^|\u93F3YGzh{8`\uB238IQ:+fT2AS3\u8538#y?b^0ZMoJ\"Ein<\u48AFN?64g\u297BX\uD00D\u3183%3hBoB\uD273;%0M\"l\u0D0A`qG,\uB9EET\u3FF2}2N");
+    private void toString__1975424643(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1975424643L))
+            info.setReturnValue("D'Q6v6_DLiwQh^&Bn2P");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_1587381870(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1587381870L))
-            info.setReturnValue(-1323792508);
+    private void hashCode_2106471219(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2106471219L))
+            info.setReturnValue(-1810843769);
     }
 
     @Inject(at = @At("HEAD"), method = "contents()Ljava/util/Map;", cancellable = true)
-    private void contents__455504512(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-455504512L))
+    private void contents__1343350746(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1343350746L))
             info.setReturnValue(null);
     }
 

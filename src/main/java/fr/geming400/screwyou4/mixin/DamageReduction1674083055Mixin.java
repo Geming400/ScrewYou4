@@ -8,51 +8,51 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.item.component.BlocksAttacks.DamageReduction.class)
 public class DamageReduction1674083055Mixin {
         @Inject(at = @At("HEAD"), method = "base()F", cancellable = true)
-    private void base_1712342418(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1712342418L))
-            info.setReturnValue(5.513793E8F);
+    private void base__195372703(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-195372703L))
+            info.setReturnValue(3.790276E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "type()Ljava/util/Optional;", cancellable = true)
-    private void type_1919544477(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1919544477L))
+    private void type__1634406953(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1634406953L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals__1235371982(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1235371982L))
+    private void equals_765456787(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(765456787L))
             info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString_538623080(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(538623080L))
-            info.setReturnValue("Z5'%q2{8M1\u4F68`\u3F3BwKN#F@3Lp@h;Wi)WtRbB}D^>N-cs6i>30D^O,3'a\uD13C\u48AAM1!<w{0\u52A2>4m{<;cvym?sgW^Sje%v\u16D4\u1F88!'m`");
+    private void toString__1850460716(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1850460716L))
+            info.setReturnValue("g=bCJ-ysy2iOQ5Kd/-Q/]LnFJ=pxp9\uB6DBO7i\u8878\uC3A9& e)\u8F05OZ?*]#a\uCD0C\u4251w");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_1712345797(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1712345797L))
-            info.setReturnValue(2087217707);
+    private void hashCode__2063532150(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2063532150L))
+            info.setReturnValue(6813264);
     }
 
     @Inject(at = @At("HEAD"), method = "resolve(Lnet/minecraft/world/damagesource/DamageSource;FD)F", cancellable = true)
-    private void resolve_1549749481(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1549749481L))
-            info.setReturnValue(5.513793E8F);
+    private void resolve_410756565(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(410756565L))
+            info.setReturnValue(3.790276E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "factor()F", cancellable = true)
-    private void factor_1712342418(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1712342418L))
-            info.setReturnValue(5.513793E8F);
+    private void factor_1675543971(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1675543971L))
+            info.setReturnValue(3.790276E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "horizontalBlockingAngle()F", cancellable = true)
-    private void horizontalBlockingAngle_1712342418(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1712342418L))
-            info.setReturnValue(5.513793E8F);
+    private void horizontalBlockingAngle__1455773192(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1455773192L))
+            info.setReturnValue(3.790276E8F);
     }
 
 

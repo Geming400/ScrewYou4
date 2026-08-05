@@ -8,51 +8,51 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.entity.Display.TextDisplay.TextRenderState.class)
 public class TextRenderState1813814087Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals__1095640950(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1095640950L))
+    private void equals_905187819(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(905187819L))
             info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString_678354112(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(678354112L))
-            info.setReturnValue(",,0qP|\u6B612^t\u9E00J%\u35F4q]{r\u8975\u4C89|\uBEE1\u8788r!fJeFf;o4osZw:1\u9399YDDk\u8B8E\u3363@s");
+    private void toString__1710729684(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1710729684L))
+            info.setReturnValue("\u2448RyO'%bI\u2906Ud\u4876\u0824&<lu{<.\uB559940##");
     }
 
     @Inject(at = @At("HEAD"), method = "flags()B", cancellable = true)
-    private void flags_1852069606(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1852069606L))
-            info.setReturnValue(-12);
+    private void flags__1179163457(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1179163457L))
+            info.setReturnValue(23);
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_1852076829(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1852076829L))
-            info.setReturnValue(1514792290);
+    private void hashCode__1923801118(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1923801118L))
+            info.setReturnValue(1008710433);
     }
 
     @Inject(at = @At("HEAD"), method = "text()Lnet/minecraft/network/chat/Component;", cancellable = true)
-    private void text__363095078(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-363095078L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "backgroundColor()Lnet/minecraft/world/entity/Display$IntInterpolator;", cancellable = true)
-    private void backgroundColor__130211812(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-130211812L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "textOpacity()Lnet/minecraft/world/entity/Display$IntInterpolator;", cancellable = true)
-    private void textOpacity__130211812(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-130211812L))
+    private void text_913053895(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(913053895L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "lineWidth()I", cancellable = true)
-    private void lineWidth_1852076333(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1852076333L))
-            info.setReturnValue(1693315779);
+    private void lineWidth__1425401285(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1425401285L))
+            info.setReturnValue(-223555010);
+    }
+
+    @Inject(at = @At("HEAD"), method = "backgroundColor()Lnet/minecraft/world/entity/Display$IntInterpolator;", cancellable = true)
+    private void backgroundColor_952538097(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(952538097L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "textOpacity()Lnet/minecraft/world/entity/Display$IntInterpolator;", cancellable = true)
+    private void textOpacity__1644446662(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1644446662L))
+            info.setReturnValue(null);
     }
 
 

@@ -8,8 +8,8 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.server.commands.TickCommand.class)
 public class TickCommand_1885151072Mixin {
         @Inject(at = @At("HEAD"), method = "register(Lcom/mojang/brigadier/CommandDispatcher;)V", cancellable = true)
-    private static void register_941590848(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(941590848L))
+    private static void register_1767196541(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1767196541L))
             info.cancel();
     }
 

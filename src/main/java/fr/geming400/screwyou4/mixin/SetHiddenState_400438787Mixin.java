@@ -8,8 +8,8 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.entity.ai.behavior.SetHiddenState.class)
 public class SetHiddenState_400438787Mixin {
         @Inject(at = @At("HEAD"), method = "create(II)Lnet/minecraft/world/entity/ai/behavior/BehaviorControl;", cancellable = true)
-    private static void create_1972006510(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1972006510L))
+    private static void create__2044838294(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2044838294L))
             info.setReturnValue(null);
     }
 

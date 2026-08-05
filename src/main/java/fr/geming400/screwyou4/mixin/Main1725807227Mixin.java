@@ -8,8 +8,8 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.gametest.Main.class)
 public class Main1725807227Mixin {
         @Inject(at = @At("HEAD"), method = "main([Ljava/lang/String;)V", cancellable = true)
-    private static void main__743622405(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-743622405L))
+    private static void main__1555504204(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1555504204L))
             info.cancel();
     }
 

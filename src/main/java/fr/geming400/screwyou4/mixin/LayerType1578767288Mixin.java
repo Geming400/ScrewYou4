@@ -8,27 +8,27 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.resources.model.EquipmentClientInfo.LayerType.class)
 public class LayerType1578767288Mixin {
         @Inject(at = @At("HEAD"), method = "values()[Lnet/minecraft/client/resources/model/EquipmentClientInfo$LayerType;", cancellable = true)
-    private static void values_2091950345(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2091950345L))
+    private static void values_322222631(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(322222631L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/client/resources/model/EquipmentClientInfo$LayerType;", cancellable = true)
-    private static void valueOf__1404071674(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1404071674L))
-            info.setReturnValue(net.minecraft.client.resources.model.EquipmentClientInfo.LayerType.CAMEL_SADDLE);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
-    private void getSerializedName_443306817(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(443306817L))
-            info.setReturnValue("n,AU)+&a\uC252&Dc-ZTXHuH,P`:kqJ<,yZZ\u3B86v+^+Otz#\u5588!\u708F!_*1");
+    private static void valueOf__86166994(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-86166994L))
+            info.setReturnValue(net.minecraft.client.resources.model.EquipmentClientInfo.LayerType.HUMANOID_BABY);
     }
 
     @Inject(at = @At("HEAD"), method = "trimAssetPrefix()Ljava/lang/String;", cancellable = true)
-    private void trimAssetPrefix_443306817(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(443306817L))
-            info.setReturnValue("n,AU)+&a\uC252&Dc-ZTXHuH,P`:kqJ<,yZZ\u3B86v+^+Otz#\u5588!\u708F!_*1");
+    private void trimAssetPrefix__810501279(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-810501279L))
+            info.setReturnValue("\"f*(\uFC2C\uABEBrW\uB1A5%v8H4!eey-h\u4969aam\u4AB6\uC7B85?I\u6A9E\u518AbB\u7D64");
+    }
+
+    @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
+    private void getSerializedName_1666975910(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1666975910L))
+            info.setReturnValue("\u5AD2>,\"oN\u2AEEz;yC`KOGq");
     }
 
 

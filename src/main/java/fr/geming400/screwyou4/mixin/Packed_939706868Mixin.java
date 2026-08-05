@@ -8,38 +8,38 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.stats.ServerRecipeBook.Packed.class)
 public class Packed_939706868Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals__1969748170(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1969748170L))
+    private void equals_31080599(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(31080599L))
             info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__195753108(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-195753108L))
-            info.setReturnValue("\uA80A\">hhB(TlH\u1B85Gb?#=\u35C4{'-?7x\uD523Qx");
+    private void toString_1710130392(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1710130392L))
+            info.setReturnValue("=+tyD5yC.mN/W_{@:.\u43C31\uC98B?wEMsha'Z_ne@5\u449ATm)}Hc\uA48B>d)");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_977969609(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(977969609L))
-            info.setReturnValue(-938841483);
+    private void hashCode_1497058958(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1497058958L))
+            info.setReturnValue(-1331600646);
     }
 
     @Inject(at = @At("HEAD"), method = "known()Ljava/util/List;", cancellable = true)
-    private void known__1728923613(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1728923613L))
+    private void known_1060305894(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1060305894L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "highlight()Ljava/util/List;", cancellable = true)
-    private void highlight__1728923613(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1728923613L))
+    private void highlight_1302782679(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1302782679L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "settings()Lnet/minecraft/stats/RecipeBookSettings;", cancellable = true)
-    private void settings__127378973(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-127378973L))
+    private void settings__977556090(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-977556090L))
             info.setReturnValue(null);
     }
 

@@ -8,8 +8,8 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.gui.components.PlayerFaceWidget.class)
 public class PlayerFaceWidget959786428Mixin {
         @Inject(at = @At("HEAD"), method = "playDownSound(Lnet/minecraft/client/sounds/SoundManager;)V", cancellable = true)
-    private void playDownSound_706596549(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(706596549L))
+    private void playDownSound_178426092(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(178426092L))
             info.cancel();
     }
 

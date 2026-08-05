@@ -8,8 +8,8 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.entity.ai.behavior.SetClosestHomeAsWalkTarget.class)
 public class SetClosestHomeAsWalkTarget_701454918Mixin {
         @Inject(at = @At("HEAD"), method = "create(F)Lnet/minecraft/world/entity/ai/behavior/BehaviorControl;", cancellable = true)
-    private static void create_1116016411(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1116016411L))
+    private static void create__260485217(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-260485217L))
             info.setReturnValue(null);
     }
 

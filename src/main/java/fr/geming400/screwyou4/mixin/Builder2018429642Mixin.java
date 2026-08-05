@@ -8,26 +8,26 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.advancements.predicates.FoodPredicate.Builder.class)
 public class Builder2018429642Mixin {
         @Inject(at = @At("HEAD"), method = "build()Lnet/minecraft/advancements/predicates/FoodPredicate;", cancellable = true)
-    private void build_921924576(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(921924576L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "withSaturation(Lnet/minecraft/advancements/predicates/MinMaxBounds$Doubles;)Lnet/minecraft/advancements/predicates/FoodPredicate$Builder;", cancellable = true)
-    private void withSaturation_986998536(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(986998536L))
+    private void build__1082499790(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1082499790L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "withLevel(Lnet/minecraft/advancements/predicates/MinMaxBounds$Ints;)Lnet/minecraft/advancements/predicates/FoodPredicate$Builder;", cancellable = true)
-    private void withLevel_372282570(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(372282570L))
-            info.setReturnValue(new net.minecraft.advancements.predicates.FoodPredicate.Builder());
+    private void withLevel__958604888(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-958604888L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "food()Lnet/minecraft/advancements/predicates/FoodPredicate$Builder;", cancellable = true)
-    private static void food_1018178977(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1018178977L))
+    private static void food__95052541(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-95052541L))
+            info.setReturnValue(new net.minecraft.advancements.predicates.FoodPredicate.Builder());
+    }
+
+    @Inject(at = @At("HEAD"), method = "withSaturation(Lnet/minecraft/advancements/predicates/MinMaxBounds$Doubles;)Lnet/minecraft/advancements/predicates/FoodPredicate$Builder;", cancellable = true)
+    private void withSaturation_1176266960(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1176266960L))
             info.setReturnValue(new net.minecraft.advancements.predicates.FoodPredicate.Builder());
     }
 

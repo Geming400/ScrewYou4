@@ -8,21 +8,21 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.util.filefix.access.CompressedNbt.MissingSeverity.class)
 public class MissingSeverity_433631480Mixin {
         @Inject(at = @At("HEAD"), method = "values()[Lnet/minecraft/util/filefix/access/CompressedNbt$MissingSeverity;", cancellable = true)
-    private static void values_2137691960(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2137691960L))
+    private static void values_525091546(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(525091546L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "log(Ljava/lang/String;Ljava/nio/file/Path;)V", cancellable = true)
-    private void log_908141587(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(908141587L))
+    private void log__312238513(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-312238513L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/util/filefix/access/CompressedNbt$MissingSeverity;", cancellable = true)
-    private static void valueOf_1586557019(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1586557019L))
-            info.setReturnValue(net.minecraft.util.filefix.access.CompressedNbt.MissingSeverity.NEUTRAL);
+    private static void valueOf__2004672461(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2004672461L))
+            info.setReturnValue(net.minecraft.util.filefix.access.CompressedNbt.MissingSeverity.IMPORTANT);
     }
 
 

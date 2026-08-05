@@ -8,32 +8,32 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.model.geom.ModelPart.Polygon.class)
 public class Polygon_553445028Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals_1938957286(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1938957286L))
+    private void equals__355181241(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-355181241L))
             info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__582014948(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-582014948L))
-            info.setReturnValue("G3?Z\u44E3D\uC0DAz\u50C5RHx\u6110&&I+-\u9AB9?i{Q122x1'^`(n,ZSyg)#8\u2BEE");
+    private void toString_1323868552(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1323868552L))
+            info.setReturnValue("y-EtxS8\u8B93nh3Jqq\u6FC5m.<|oQbz\u34BBwTpXk53D)-1wMzY>9\u83C5\u2A86p(/d;Lv\"AvfJ:>`\uFCF8]G|XRi?nr^Hr[\"`r5_6/9Ul\u5B2Em-`O/");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_591707769(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(591707769L))
-            info.setReturnValue(224520763);
+    private void hashCode_1110797118(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1110797118L))
+            info.setReturnValue(683011529);
     }
 
     @Inject(at = @At("HEAD"), method = "normal()Lorg/joml/Vector3fc;", cancellable = true)
-    private void normal_1099389732(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1099389732L))
+    private void normal__1850764533(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1850764533L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "vertices()[Lnet/minecraft/client/model/geom/ModelPart$Vertex;", cancellable = true)
-    private void vertices__407291071(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-407291071L))
+    private void vertices_598445864(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(598445864L))
             info.setReturnValue(null);
     }
 

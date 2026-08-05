@@ -8,8 +8,8 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.server.commands.DataPackCommand.class)
 public class DataPackCommand_285225318Mixin {
         @Inject(at = @At("HEAD"), method = "register(Lcom/mojang/brigadier/CommandDispatcher;Lnet/minecraft/commands/CommandBuildContext;)V", cancellable = true)
-    private static void register__1802132260(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1802132260L))
+    private static void register__1292584039(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1292584039L))
             info.cancel();
     }
 

@@ -8,33 +8,33 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.entity.EntityFluidInteraction.class)
 public class EntityFluidInteraction1817428855Mixin {
         @Inject(at = @At("HEAD"), method = "update(Lnet/minecraft/world/entity/Entity;Z)V", cancellable = true)
-    private void update_741966203(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(741966203L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "isInFluid(Lnet/minecraft/tags/TagKey;)Z", cancellable = true)
-    private void isInFluid__802793634(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-802793634L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isEyeInFluid(Lnet/minecraft/tags/TagKey;)Z", cancellable = true)
-    private void isEyeInFluid__802793634(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-802793634L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "applyCurrentTo(Lnet/minecraft/tags/TagKey;Lnet/minecraft/world/entity/Entity;D)V", cancellable = true)
-    private void applyCurrentTo_1495179925(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1495179925L))
+    private void update_273612498(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(273612498L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "getFluidHeight(Lnet/minecraft/tags/TagKey;)D", cancellable = true)
-    private void getFluidHeight__802814776(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-802814776L))
-            info.setReturnValue(1.3690170065453494E8D);
+    private void getFluidHeight_561895203(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(561895203L))
+            info.setReturnValue(7.577927008722436E8D);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isEyeInFluid(Lnet/minecraft/tags/TagKey;)Z", cancellable = true)
+    private void isEyeInFluid_1560276060(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1560276060L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "applyCurrentTo(Lnet/minecraft/tags/TagKey;Lnet/minecraft/world/entity/Entity;D)V", cancellable = true)
+    private void applyCurrentTo_618653083(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(618653083L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "isInFluid(Lnet/minecraft/tags/TagKey;)Z", cancellable = true)
+    private void isInFluid_1761418873(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1761418873L))
+            info.setReturnValue(false);
     }
 
 

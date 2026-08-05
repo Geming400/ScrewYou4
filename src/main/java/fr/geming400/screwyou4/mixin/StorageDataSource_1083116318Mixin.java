@@ -8,38 +8,38 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.network.chat.contents.data.StorageDataSource.class)
 public class StorageDataSource_1083116318Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals__1826338720(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1826338720L))
+    private void equals_174490049(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(174490049L))
             info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__52344154(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-52344154L))
-            info.setReturnValue("i_Wr6ro\u8A0CyhlUo\u2B67\uBE33=jAm^L\u804F88?;\u3106..EaDr#\u29CA\u8AC4\u9BEC\u283AfGQa_e\uFE98TP;/\u7DCB7 1DjNH)[\u9D9AU\uA319\u2BE5Q`9Yn[d_");
+    private void toString_1853539346(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1853539346L))
+            info.setReturnValue("-/L4!)Glyj&6^=QHC` |;O}1<NpT:L\u670Dq_y+lpB\u2656q6sW\u899F%g+\uA3E1?u'vJx\u6807_o\uAE1ARsX_?\u899B<bLC]NZ_f");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_1121379059(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1121379059L))
-            info.setReturnValue(-1623454075);
+    private void hashCode_1640468408(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1640468408L))
+            info.setReturnValue(1098519305);
     }
 
     @Inject(at = @At("HEAD"), method = "id()Lnet/minecraft/resources/Identifier;", cancellable = true)
-    private void id__1359950236(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1359950236L))
+    private void id__1509661569(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1509661569L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getData(Lnet/minecraft/commands/CommandSourceStack;)Ljava/util/stream/Stream;", cancellable = true)
-    private void getData_1172499924(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1172499924L))
+    private void getData__330947084(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-330947084L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
-    private void codec__1475997255(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1475997255L))
+    private void codec__2145405725(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2145405725L))
             info.setReturnValue(null);
     }
 

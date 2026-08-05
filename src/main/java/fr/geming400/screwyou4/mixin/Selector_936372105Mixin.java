@@ -8,38 +8,38 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.renderer.block.dispatch.multipart.Selector.class)
 public class Selector_936372105Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals__1973082933(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1973082933L))
+    private void equals_27745836(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(27745836L))
             info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__199087871(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-199087871L))
-            info.setReturnValue("`&uxc;\u9E33aNLe_Csj'xiYEn?hL4Y*pFY\u8FD1$r*gf&\u62F4");
+    private void toString_1706795629(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1706795629L))
+            info.setReturnValue("*Pa!sxA9f\uCB61-e0:#7{q]X\u07F2\u6B7CQC@wNs\u871D=F7Xcr\uA5D85/9\u75C2fg41\";*YL\u817F<S3p]\u30BDkr7dx");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_974634846(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(974634846L))
-            info.setReturnValue(463644264);
+    private void hashCode_1493724195(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1493724195L))
+            info.setReturnValue(1317523936);
     }
 
     @Inject(at = @At("HEAD"), method = "condition()Ljava/util/Optional;", cancellable = true)
-    private void condition_1181833526(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1181833526L))
+    private void condition_1778115921(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1778115921L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "variant()Lnet/minecraft/client/renderer/block/dispatch/BlockStateModel$Unbaked;", cancellable = true)
-    private void variant__1555584038(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1555584038L))
+    private void variant__984813025(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-984813025L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "instantiate(Lnet/minecraft/world/level/block/state/StateDefinition;)Ljava/util/function/Predicate;", cancellable = true)
-    private void instantiate__732293497(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-732293497L))
+    private void instantiate_335617757(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(335617757L))
             info.setReturnValue(null);
     }
 

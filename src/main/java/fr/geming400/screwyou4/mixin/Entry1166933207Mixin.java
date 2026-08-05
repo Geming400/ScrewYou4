@@ -8,32 +8,32 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.renderer.item.RangeSelectItemModel.Entry.class)
 public class Entry1166933207Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals__1742521830(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1742521830L))
+    private void equals_258306939(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(258306939L))
             info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString_31473232(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(31473232L))
-            info.setReturnValue("'CGzl");
+    private void toString_1937356732(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1937356732L))
+            info.setReturnValue("1Y-t");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_1205195949(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1205195949L))
-            info.setReturnValue(5308507);
+    private void hashCode_1724285298(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1724285298L))
+            info.setReturnValue(-509683817);
     }
 
     @Inject(at = @At("HEAD"), method = "threshold()F", cancellable = true)
-    private void threshold_1205192570(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1205192570L))
-            info.setReturnValue(4.996522E8F);
+    private void threshold__1340543505(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1340543505L))
+            info.setReturnValue(7.31538E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "model()Lnet/minecraft/client/renderer/item/ItemModel$Unbaked;", cancellable = true)
-    private void model_1294052225(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1294052225L))
+    private void model__1972129430(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1972129430L))
             info.setReturnValue(null);
     }
 

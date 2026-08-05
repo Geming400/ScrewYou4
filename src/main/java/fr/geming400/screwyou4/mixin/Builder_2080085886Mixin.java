@@ -8,14 +8,14 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.level.storage.loot.functions.SetAttributesFunction.Builder.class)
 public class Builder_2080085886Mixin {
         @Inject(at = @At("HEAD"), method = "build()Lnet/minecraft/world/level/storage/loot/functions/LootItemFunction;", cancellable = true)
-    private void build_1366525731(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1366525731L))
+    private void build__210323211(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-210323211L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "withModifier(Lnet/minecraft/world/level/storage/loot/functions/SetAttributesFunction$ModifierBuilder;)Lnet/minecraft/world/level/storage/loot/functions/SetAttributesFunction$Builder;", cancellable = true)
-    private void withModifier_672546213(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(672546213L))
+    private void withModifier__2132838430(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2132838430L))
             info.setReturnValue(new net.minecraft.world.level.storage.loot.functions.SetAttributesFunction.Builder());
     }
 

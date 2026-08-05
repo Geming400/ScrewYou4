@@ -8,39 +8,39 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.server.jsonrpc.security.SecurityConfig.class)
 public class SecurityConfig1658634572Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals__1250820465(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1250820465L))
+    private void equals_750008304(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(750008304L))
             info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString_523174597(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(523174597L))
-            info.setReturnValue("\uAEC50zAo)<+23DG.R*D\u4139!8)@\u6AF11SC\u63F1-{&l");
+    private void toString__1865909199(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1865909199L))
+            info.setReturnValue("zA\uABB5qne.4gk8\uAB21J<");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_1696897314(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1696897314L))
-            info.setReturnValue(-972816537);
+    private void hashCode__2078980633(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2078980633L))
+            info.setReturnValue(-1816978264);
     }
 
     @Inject(at = @At("HEAD"), method = "isValid(Ljava/lang/String;)Z", cancellable = true)
-    private static void isValid__1483967483(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1483967483L))
-            info.setReturnValue(true);
+    private static void isValid__1957902637(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1957902637L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "secretKey()Ljava/lang/String;", cancellable = true)
-    private void secretKey_523174101(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(523174101L))
-            info.setReturnValue("\u0EBBtKi\uBA50TlA/UYxUI<9}\u2612k\"%\uC843O)-+2!Tdv\u79E0b;\u6F03<'DUi");
+    private void secretKey__1434061532(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1434061532L))
+            info.setReturnValue("Q\u241C!\u1344\"'");
     }
 
     @Inject(at = @At("HEAD"), method = "generateSecretKey()Ljava/lang/String;", cancellable = true)
-    private static void generateSecretKey_523174349(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(523174349L))
-            info.setReturnValue("-Q\u9D14Hs/5-\u0F9FtRZ!");
+    private static void generateSecretKey_1473210855(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1473210855L))
+            info.setReturnValue("6qRCp:RfQd@&Z)BGj<\u2617&1\u087EF|-_5<\"\u35F0C\u4701u):ZAf'*{i[O,\u4B20ptBxCzRi\u67A5\u14FCg\u2B7E%DZr0@f3(T;u]-;!\u3331Xaf)b4Ox");
     }
 
 

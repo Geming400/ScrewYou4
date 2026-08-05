@@ -8,8 +8,8 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.entity.ai.control.SmoothSwimmingMoveControl.class)
 public class SmoothSwimmingMoveControl_563502029Mixin {
         @Inject(at = @At("HEAD"), method = "tick()V", cancellable = true)
-    private void tick_601776767(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(601776767L))
+    private void tick_433818370(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(433818370L))
             info.cancel();
     }
 

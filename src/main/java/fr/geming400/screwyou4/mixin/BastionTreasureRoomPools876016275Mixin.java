@@ -8,8 +8,8 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.data.worldgen.BastionTreasureRoomPools.class)
 public class BastionTreasureRoomPools876016275Mixin {
         @Inject(at = @At("HEAD"), method = "bootstrap(Lnet/minecraft/data/worldgen/BootstrapContext;)V", cancellable = true)
-    private static void bootstrap__316502228(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-316502228L))
+    private static void bootstrap_321410558(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(321410558L))
             info.cancel();
     }
 

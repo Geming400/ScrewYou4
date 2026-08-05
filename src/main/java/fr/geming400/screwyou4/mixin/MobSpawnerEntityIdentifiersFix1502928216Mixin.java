@@ -8,8 +8,8 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.util.datafix.fixes.MobSpawnerEntityIdentifiersFix.class)
 public class MobSpawnerEntityIdentifiersFix1502928216Mixin {
         @Inject(at = @At("HEAD"), method = "makeRule()Lcom/mojang/datafixers/TypeRewriteRule;", cancellable = true)
-    private void makeRule__1306843245(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1306843245L))
+    private void makeRule_686791497(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(686791497L))
             info.setReturnValue(null);
     }
 

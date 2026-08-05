@@ -8,50 +8,50 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.multiplayer.resolver.ServerAddress.class)
 public class ServerAddress1498902707Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals__1410552826(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1410552826L))
+    private void equals_590275943(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(590275943L))
             info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString_363442236(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(363442236L))
-            info.setReturnValue("t4)v\u105F@W");
+    private void toString__2025641560(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2025641560L))
+            info.setReturnValue("\uCE7F'P'6=>\uD5BBKf$&Z<h8\uB0D3F&Xe_z`A\uA214W:tVYmE\u6CFC<c");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_1537164953(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1537164953L))
-            info.setReturnValue(-1675827538);
+    private void hashCode_2056254302(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2056254302L))
+            info.setReturnValue(173242975);
     }
 
     @Inject(at = @At("HEAD"), method = "getHost()Ljava/lang/String;", cancellable = true)
-    private void getHost_363442236(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(363442236L))
-            info.setReturnValue("t4)v\u105F@W");
+    private void getHost_1497334746(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1497334746L))
+            info.setReturnValue("C\u2A72!&cu]\uBE2AegT\u26A07L1tG{(_!=V{Q!x<R.x$\u9CDDaf,2Gd\u0AED/W");
     }
 
     @Inject(at = @At("HEAD"), method = "getPort()I", cancellable = true)
-    private void getPort_1537164953(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1537164953L))
-            info.setReturnValue(-1675827538);
+    private void getPort__1743239166(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1743239166L))
+            info.setReturnValue(-288174759);
     }
 
     @Inject(at = @At("HEAD"), method = "parsePort(Ljava/lang/String;)I", cancellable = true)
-    private static void parsePort__1643715685(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1643715685L))
-            info.setReturnValue(-310120273);
+    private static void parsePort__1034027193(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1034027193L))
+            info.setReturnValue(1286579419);
     }
 
     @Inject(at = @At("HEAD"), method = "parseString(Ljava/lang/String;)Lnet/minecraft/client/multiplayer/resolver/ServerAddress;", cancellable = true)
-    private static void parseString_1032311212(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1032311212L))
+    private static void parseString__1391443832(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1391443832L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "isValidAddress(Ljava/lang/String;)Z", cancellable = true)
-    private static void isValidAddress__1643699348(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1643699348L))
+    private static void isValidAddress__238458230(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-238458230L))
             info.setReturnValue(true);
     }
 

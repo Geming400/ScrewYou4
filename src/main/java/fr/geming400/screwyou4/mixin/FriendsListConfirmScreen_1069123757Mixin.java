@@ -8,8 +8,8 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.gui.screens.friends.FriendsListConfirmScreen.class)
 public class FriendsListConfirmScreen_1069123757Mixin {
         @Inject(at = @At("HEAD"), method = "extractBackground(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIF)V", cancellable = true)
-    private void extractBackground_109436384(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(109436384L))
+    private void extractBackground__1824389007(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1824389007L))
             info.cancel();
     }
 

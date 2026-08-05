@@ -8,26 +8,26 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.core.RegistryCodecs.class)
 public class RegistryCodecs_1618359610Mixin {
         @Inject(at = @At("HEAD"), method = "homogeneousList(Lnet/minecraft/resources/ResourceKey;Z)Lcom/mojang/serialization/Codec;", cancellable = true)
-    private static void homogeneousList_1484774833(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1484774833L))
+    private static void homogeneousList__1924259394(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1924259394L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "homogeneousList(Lnet/minecraft/resources/ResourceKey;)Lcom/mojang/serialization/Codec;", cancellable = true)
-    private static void homogeneousList_18883955(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(18883955L))
+    private static void homogeneousList_1017293766(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1017293766L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "homogeneousList(Lnet/minecraft/resources/ResourceKey;Lcom/mojang/serialization/Codec;Z)Lcom/mojang/serialization/Codec;", cancellable = true)
-    private static void homogeneousList_2057553656(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2057553656L))
+    private static void homogeneousList__1453943035(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1453943035L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "homogeneousList(Lnet/minecraft/resources/ResourceKey;Lcom/mojang/serialization/Codec;)Lcom/mojang/serialization/Codec;", cancellable = true)
-    private static void homogeneousList_868644684(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(868644684L))
+    private static void homogeneousList__1599934049(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1599934049L))
             info.setReturnValue(null);
     }
 

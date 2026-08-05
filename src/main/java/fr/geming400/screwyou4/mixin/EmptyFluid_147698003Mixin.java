@@ -8,57 +8,57 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.level.material.EmptyFluid.class)
 public class EmptyFluid_147698003Mixin {
         @Inject(at = @At("HEAD"), method = "getShape(Lnet/minecraft/world/level/material/FluidState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/phys/shapes/VoxelShape;", cancellable = true)
-    private void getShape_1069527831(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1069527831L))
+    private void getShape__1069478580(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1069478580L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getHeight(Lnet/minecraft/world/level/material/FluidState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)F", cancellable = true)
-    private void getHeight__150233870(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-150233870L))
-            info.setReturnValue(1.901094E8F);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getOwnHeight(Lnet/minecraft/world/level/material/FluidState;)F", cancellable = true)
-    private void getOwnHeight_507803961(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(507803961L))
-            info.setReturnValue(1.901094E8F);
-    }
-
-    @Inject(at = @At("HEAD"), method = "canBeReplacedWith(Lnet/minecraft/world/level/material/FluidState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/material/Fluid;Lnet/minecraft/core/Direction;)Z", cancellable = true)
-    private void canBeReplacedWith_1195405859(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1195405859L))
-            info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getFlow(Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/material/FluidState;)Lnet/minecraft/world/phys/Vec3;", cancellable = true)
-    private void getFlow_1687665782(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1687665782L))
-            info.setReturnValue(null);
+    private void getHeight_517795343(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(517795343L))
+            info.setReturnValue(8.676304E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "getAmount(Lnet/minecraft/world/level/material/FluidState;)I", cancellable = true)
-    private void getAmount_507806844(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(507806844L))
-            info.setReturnValue(-1015460783);
+    private void getAmount_2117373130(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2117373130L))
+            info.setReturnValue(1306594603);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getFlow(Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/material/FluidState;)Lnet/minecraft/world/phys/Vec3;", cancellable = true)
+    private void getFlow__1989520614(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1989520614L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getTickDelay(Lnet/minecraft/world/level/LevelReader;)I", cancellable = true)
-    private void getTickDelay_1184835876(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1184835876L))
-            info.setReturnValue(429928878);
+    private void getTickDelay__984382380(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-984382380L))
+            info.setReturnValue(1557904008);
     }
 
     @Inject(at = @At("HEAD"), method = "isSource(Lnet/minecraft/world/level/material/FluidState;)Z", cancellable = true)
-    private void isSource_507823181(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(507823181L))
+    private void isSource__642226766(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-642226766L))
             info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "getBucket()Lnet/minecraft/world/item/Item;", cancellable = true)
-    private void getBucket__371237416(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-371237416L))
+    private void getBucket_208127224(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(208127224L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "canBeReplacedWith(Lnet/minecraft/world/level/material/FluidState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/material/Fluid;Lnet/minecraft/core/Direction;)Z", cancellable = true)
+    private void canBeReplacedWith_1527430924(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1527430924L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getOwnHeight(Lnet/minecraft/world/level/material/FluidState;)F", cancellable = true)
+    private void getOwnHeight__277541552(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-277541552L))
+            info.setReturnValue(8.676304E8F);
     }
 
 

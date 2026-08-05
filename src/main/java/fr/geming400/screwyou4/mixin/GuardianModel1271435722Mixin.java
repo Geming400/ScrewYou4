@@ -7,28 +7,28 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.client.model.monster.guardian.GuardianModel.class)
 public class GuardianModel1271435722Mixin {
-        @Inject(at = @At("HEAD"), method = "createElderGuardianLayer()Lnet/minecraft/client/model/geom/builders/LayerDefinition;", cancellable = true)
-    private static void createElderGuardianLayer_557303558(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(557303558L))
+        @Inject(at = @At("HEAD"), method = "createBodyLayer()Lnet/minecraft/client/model/geom/builders/LayerDefinition;", cancellable = true)
+    private static void createBodyLayer__632218887(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-632218887L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "createElderGuardianLayer()Lnet/minecraft/client/model/geom/builders/LayerDefinition;", cancellable = true)
+    private static void createElderGuardianLayer_118664696(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(118664696L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "setupAnim(Ljava/lang/Object;)V", cancellable = true)
-    private void setupAnim__1637894695(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1637894695L))
+    private void setupAnim_1955084267(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1955084267L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "setupAnim(Lnet/minecraft/client/renderer/entity/state/GuardianRenderState;)V", cancellable = true)
-    private void setupAnim_1216487952(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1216487952L))
+    private void setupAnim__491924318(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-491924318L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "createBodyLayer()Lnet/minecraft/client/model/geom/builders/LayerDefinition;", cancellable = true)
-    private static void createBodyLayer_557303558(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(557303558L))
-            info.setReturnValue(null);
     }
 
 

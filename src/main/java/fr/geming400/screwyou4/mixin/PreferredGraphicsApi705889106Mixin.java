@@ -8,33 +8,33 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.PreferredGraphicsApi.class)
 public class PreferredGraphicsApi705889106Mixin {
         @Inject(at = @At("HEAD"), method = "values()[Lnet/minecraft/client/PreferredGraphicsApi;", cancellable = true)
-    private static void values_1564110519(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1564110519L))
+    private static void values_1104707545(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1104707545L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/client/PreferredGraphicsApi;", cancellable = true)
-    private static void valueOf__865057766(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-865057766L))
-            info.setReturnValue(net.minecraft.client.PreferredGraphicsApi.VULKAN);
+    private static void valueOf_241690098(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(241690098L))
+            info.setReturnValue(net.minecraft.client.PreferredGraphicsApi.DEFAULT);
     }
 
     @Inject(at = @At("HEAD"), method = "caption()Lnet/minecraft/network/chat/Component;", cancellable = true)
-    private void caption__1471020059(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1471020059L))
+    private void caption_1115414091(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1115414091L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getBackendsToTry()[Lcom/mojang/blaze3d/systems/GpuBackend;", cancellable = true)
-    private void getBackendsToTry__891965601(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-891965601L))
+    private void getBackendsToTry_846676810(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(846676810L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
-    private void getSerializedName__429571365(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-429571365L))
-            info.setReturnValue("''jo9!lz6j.xv\u3D26\uD7F5Q$&XEPzV\uD570H) \u4175[:IOAeGi=A\u55E2'bw\u0C02Umt]xW<");
+    private void getSerializedName_794097728(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(794097728L))
+            info.setReturnValue("\u83FD#\uAFD8-}EN!VS,Ct+'\uB3BAxiH]u(d(\u4FDB*F3\uB4817*rmgvDMh\u18AAj\u5187\u46FA$\u6D94R");
     }
 
 

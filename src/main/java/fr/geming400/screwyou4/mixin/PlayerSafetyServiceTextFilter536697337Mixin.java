@@ -8,8 +8,8 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.server.network.PlayerSafetyServiceTextFilter.class)
 public class PlayerSafetyServiceTextFilter536697337Mixin {
         @Inject(at = @At("HEAD"), method = "createTextFilterFromConfig(Ljava/lang/String;)Lnet/minecraft/server/network/ServerTextFilter;", cancellable = true)
-    private static void createTextFilterFromConfig__380251714(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-380251714L))
+    private static void createTextFilterFromConfig__459929007(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-459929007L))
             info.setReturnValue(null);
     }
 

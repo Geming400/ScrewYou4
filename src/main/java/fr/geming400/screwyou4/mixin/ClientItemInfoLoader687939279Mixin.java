@@ -8,8 +8,8 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.resources.model.ClientItemInfoLoader.class)
 public class ClientItemInfoLoader687939279Mixin {
         @Inject(at = @At("HEAD"), method = "scheduleLoad(Lnet/minecraft/server/packs/resources/ResourceManager;Ljava/util/concurrent/Executor;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
-    private static void scheduleLoad__1222574817(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1222574817L))
+    private static void scheduleLoad_1410934946(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1410934946L))
             info.setReturnValue(null);
     }
 

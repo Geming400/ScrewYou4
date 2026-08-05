@@ -8,15 +8,15 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.level.block.RenderShape.class)
 public class RenderShape2048387501Mixin {
         @Inject(at = @At("HEAD"), method = "values()[Lnet/minecraft/world/level/block/RenderShape;", cancellable = true)
-    private static void values_1697967523(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1697967523L))
+    private static void values__1701626299(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1701626299L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/world/level/block/RenderShape;", cancellable = true)
-    private static void valueOf__565512634(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-565512634L))
-            info.setReturnValue(net.minecraft.world.level.block.RenderShape.MODEL);
+    private static void valueOf__2132704738(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2132704738L))
+            info.setReturnValue(net.minecraft.world.level.block.RenderShape.INVISIBLE);
     }
 
 

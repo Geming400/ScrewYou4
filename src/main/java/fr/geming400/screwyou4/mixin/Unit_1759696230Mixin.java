@@ -8,14 +8,14 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.util.Unit.class)
 public class Unit_1759696230Mixin {
         @Inject(at = @At("HEAD"), method = "values()[Lnet/minecraft/util/Unit;", cancellable = true)
-    private static void values_391210635(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(391210635L))
+    private static void values_288414765(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(288414765L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/util/Unit;", cancellable = true)
-    private static void valueOf__1603674450(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1603674450L))
+    private static void valueOf__1670723962(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1670723962L))
             info.setReturnValue(net.minecraft.util.Unit.INSTANCE);
     }
 

@@ -8,8 +8,8 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.level.block.CraftingTableBlock.class)
 public class CraftingTableBlock_1072923899Mixin {
         @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
-    private void codec__1486189674(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1486189674L))
+    private void codec_2139369152(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2139369152L))
             info.setReturnValue(null);
     }
 

@@ -8,8 +8,8 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.level.levelgen.feature.BambooFeature.class)
 public class BambooFeature6080692Mixin {
         @Inject(at = @At("HEAD"), method = "place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z", cancellable = true)
-    private void place_721338428(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(721338428L))
+    private void place_1579953045(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1579953045L))
             info.setReturnValue(true);
     }
 

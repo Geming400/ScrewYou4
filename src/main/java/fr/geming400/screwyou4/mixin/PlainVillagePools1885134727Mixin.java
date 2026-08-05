@@ -8,8 +8,8 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.data.worldgen.PlainVillagePools.class)
 public class PlainVillagePools1885134727Mixin {
         @Inject(at = @At("HEAD"), method = "bootstrap(Lnet/minecraft/data/worldgen/BootstrapContext;)V", cancellable = true)
-    private static void bootstrap_692616224(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(692616224L))
+    private static void bootstrap_1330529010(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1330529010L))
             info.cancel();
     }
 

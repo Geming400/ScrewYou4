@@ -8,44 +8,44 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.level.levelgen.Heightmap.Types.class)
 public class Types_1609129804Mixin {
         @Inject(at = @At("HEAD"), method = "values()[Lnet/minecraft/world/level/levelgen/Heightmap$Types;", cancellable = true)
-    private static void values__244177017(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-244177017L))
+    private static void values__1328005979(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1328005979L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/world/level/levelgen/Heightmap$Types;", cancellable = true)
-    private static void valueOf_1633857924(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1633857924L))
-            info.setReturnValue(net.minecraft.world.level.levelgen.Heightmap.Types.WORLD_SURFACE);
+    private static void valueOf__1285053780(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1285053780L))
+            info.setReturnValue(net.minecraft.world.level.levelgen.Heightmap.Types.WORLD_SURFACE_WG);
     }
 
     @Inject(at = @At("HEAD"), method = "isOpaque()Ljava/util/function/Predicate;", cancellable = true)
-    private void isOpaque_959244825(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(959244825L))
+    private void isOpaque__2112445116(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2112445116L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
-    private void getSerializedName_473669332(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(473669332L))
-            info.setReturnValue("+\u4DCE\u55F0$\u1933`%fj\uC1B2Uw3VT\uFF7E4C\u2B7FdZcAZi5,/7QsQ\u2689kY8X`R^o7F.V\u3C38\u0273?d>@v\u3EDF=04\u89FA_]k T\u29C3hk%\u464C4\u574F_I%x\uA3DE8\uCBE76Ap\u5C61:");
+    private void getSerializedName_1697338425(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1697338425L))
+            info.setReturnValue("5rw");
     }
 
     @Inject(at = @At("HEAD"), method = "getSerializationKey()Ljava/lang/String;", cancellable = true)
-    private void getSerializationKey_473669332(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(473669332L))
-            info.setReturnValue("+\u4DCE\u55F0$\u1933`%fj\uC1B2Uw3VT\uFF7E4C\u2B7FdZcAZi5,/7QsQ\u2689kY8X`R^o7F.V\u3C38\u0273?d>@v\u3EDF=04\u89FA_]k T\u29C3hk%\u464C4\u574F_I%x\uA3DE8\uCBE76Ap\u5C61:");
+    private void getSerializationKey_366618841(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(366618841L))
+            info.setReturnValue("6q?\u595D|'OF;`\u767693q%%\u4CEDSjKEN\u1725f\u0443VA`aNWR+\u350DrbSu.{FPf&Xjo|\u7C92E|%N)0\u3327!A00a/Eo]KNy\u56A3):1H`h>@d<DB#");
     }
 
     @Inject(at = @At("HEAD"), method = "sendToClient()Z", cancellable = true)
-    private void sendToClient_1647408386(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1647408386L))
+    private void sendToClient_1620726772(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1620726772L))
             info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "keepAfterWorldgen()Z", cancellable = true)
-    private void keepAfterWorldgen_1647408386(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1647408386L))
+    private void keepAfterWorldgen_1329193261(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1329193261L))
             info.setReturnValue(false);
     }
 

@@ -8,8 +8,8 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.level.block.PiglinWallSkullBlock.class)
 public class PiglinWallSkullBlock1706579649Mixin {
         @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
-    private void codec__852533923(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-852533923L))
+    private void codec__1521942393(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1521942393L))
             info.setReturnValue(null);
     }
 

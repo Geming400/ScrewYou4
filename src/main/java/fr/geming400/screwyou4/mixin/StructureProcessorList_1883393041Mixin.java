@@ -8,14 +8,14 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.level.levelgen.structure.templatesystem.StructureProcessorList.class)
 public class StructureProcessorList_1883393041Mixin {
         @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString_747932569(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(747932569L))
-            info.setReturnValue("5?c1D\uAFE9p&gJ;L-[Q9FZ\uC2AB6V%0xq$X/\uFC34NSOc^6SOq85Xv[\u3675S',lB\u534676A>v\u14695gD )\u9F2DwTkp_uPB+.w\u7E9F\"};");
+    private void toString__1641151227(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1641151227L))
+            info.setReturnValue("0U,B=`g93k@*^\uA170+K'\u8319\uA170u\u4066-np)y\u2894`ZKL@WL\uC265\uB59Fd\"W!x`J\u2914<d[F&;/J5|D\u94A6:LS\u41315Ib!NK\u6F4ET9b*\uC24B-S");
     }
 
     @Inject(at = @At("HEAD"), method = "list()Ljava/util/List;", cancellable = true)
-    private void list__785237440(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-785237440L))
+    private void list__1282117666(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1282117666L))
             info.setReturnValue(null);
     }
 

@@ -8,14 +8,14 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.server.commands.ReloadCommand.class)
 public class ReloadCommand_888591516Mixin {
         @Inject(at = @At("HEAD"), method = "register(Lcom/mojang/brigadier/CommandDispatcher;)V", cancellable = true)
-    private static void register__54968708(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-54968708L))
+    private static void register_770636985(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(770636985L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "reloadPacks(Ljava/util/Collection;Lnet/minecraft/commands/CommandSourceStack;)V", cancellable = true)
-    private static void reloadPacks__799268809(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-799268809L))
+    private static void reloadPacks__96841000(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-96841000L))
             info.cancel();
     }
 

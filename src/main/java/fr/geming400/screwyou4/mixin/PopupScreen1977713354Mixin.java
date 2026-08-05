@@ -8,27 +8,27 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.gui.components.PopupScreen.class)
 public class PopupScreen1977713354Mixin {
         @Inject(at = @At("HEAD"), method = "added()V", cancellable = true)
-    private void added_2015988093(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(2015988093L))
+    private void added_271075453(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(271075453L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "onClose()V", cancellable = true)
-    private void onClose_2015988093(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(2015988093L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "extractBackground(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIF)V", cancellable = true)
-    private void extractBackground_1018025982(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1018025982L))
+    private void onClose__1091238460(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1091238460L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "getNarrationMessage()Lnet/minecraft/network/chat/Component;", cancellable = true)
-    private void getNarrationMessage__199195811(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-199195811L))
+    private void getNarrationMessage_305870616(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(305870616L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "extractBackground(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIF)V", cancellable = true)
+    private void extractBackground__915799409(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-915799409L))
+            info.cancel();
     }
 
 

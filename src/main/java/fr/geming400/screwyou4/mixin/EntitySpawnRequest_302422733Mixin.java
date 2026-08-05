@@ -8,32 +8,32 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.entity.EntitySpawnRequest.class)
 public class EntitySpawnRequest_302422733Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals_1687934991(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1687934991L))
-            info.setReturnValue(true);
+    private void equals__606203536(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-606203536L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__833037243(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-833037243L))
-            info.setReturnValue("M|D0b2ZsH1ghwgER\u147D&7@LmjKO\u0E8F@Se<v=X\"vywELT!hg@NK&Sjf\u5BA8&A_\uAD19]<\u94B5\u92EC\uA6A1,W5)2YH1n]=\u856EQ1\u1875,8/02-A:@MfG+$\u241F");
+    private void toString_1072846257(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1072846257L))
+            info.setReturnValue("C5a\u7453,Bef$Gkjd!rm1n?bqL+s3\uC497P>De[U5Vb;cO#\u3FE3\uA224NXy\u1F4BndXu) |\u3636/zc({\uCC99[1(2Dj>5\u3723\u4360Li\uD74F#Yc");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_340685474(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(340685474L))
-            info.setReturnValue(275918427);
+    private void hashCode_859774823(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(859774823L))
+            info.setReturnValue(1709857176);
     }
 
     @Inject(at = @At("HEAD"), method = "reason()Lnet/minecraft/world/entity/EntitySpawnReason;", cancellable = true)
-    private void reason__772841671(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-772841671L))
-            info.setReturnValue(net.minecraft.world.entity.EntitySpawnReason.DISPENSER);
+    private void reason__421504899(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-421504899L))
+            info.setReturnValue(net.minecraft.world.entity.EntitySpawnReason.STRUCTURE);
     }
 
     @Inject(at = @At("HEAD"), method = "ignoreChecks()Z", cancellable = true)
-    private void ignoreChecks_340701315(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(340701315L))
+    private void ignoreChecks_2009674182(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2009674182L))
             info.setReturnValue(false);
     }
 

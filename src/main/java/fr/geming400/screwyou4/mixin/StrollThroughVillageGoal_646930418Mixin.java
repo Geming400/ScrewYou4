@@ -8,21 +8,21 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.entity.ai.goal.StrollThroughVillageGoal.class)
 public class StrollThroughVillageGoal_646930418Mixin {
         @Inject(at = @At("HEAD"), method = "canUse()Z", cancellable = true)
-    private void canUse_685209000(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(685209000L))
+    private void canUse__267509647(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-267509647L))
             info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "tick()V", cancellable = true)
-    private void tick_685205156(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(685205156L))
+    private void tick_517246759(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(517246759L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "canContinueToUse()Z", cancellable = true)
-    private void canContinueToUse_685209000(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(685209000L))
-            info.setReturnValue(true);
+    private void canContinueToUse__42704877(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-42704877L))
+            info.setReturnValue(false);
     }
 
 

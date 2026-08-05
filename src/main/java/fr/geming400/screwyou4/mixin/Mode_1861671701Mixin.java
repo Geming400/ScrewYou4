@@ -8,15 +8,15 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.server.commands.SetBlockCommand.Mode.class)
 public class Mode_1861671701Mixin {
         @Inject(at = @At("HEAD"), method = "values()[Lnet/minecraft/server/commands/SetBlockCommand$Mode;", cancellable = true)
-    private static void values__1532766275(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1532766275L))
+    private static void values_1678372059(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1678372059L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/server/commands/SetBlockCommand$Mode;", cancellable = true)
-    private static void valueOf_345268666(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(345268666L))
-            info.setReturnValue(net.minecraft.server.commands.SetBlockCommand.Mode.REPLACE);
+    private static void valueOf_1721324258(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1721324258L))
+            info.setReturnValue(net.minecraft.server.commands.SetBlockCommand.Mode.DESTROY);
     }
 
 

@@ -8,27 +8,27 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.level.block.state.properties.StairsShape.class)
 public class StairsShape1338233337Mixin {
         @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString_202772866(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(202772866L))
-            info.setReturnValue(",r38B<#XpLO!6>G|ONq]}J O+B\u9510t<CoIb\uB288Nl@$\u2334\uD309#L#HL\uCC896a");
+    private void toString_2108656366(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2108656366L))
+            info.setReturnValue("^\u3529-\u19B7SS?r(/f<thzj\uCB06&!");
     }
 
     @Inject(at = @At("HEAD"), method = "values()[Lnet/minecraft/world/level/block/state/properties/StairsShape;", cancellable = true)
-    private static void values__1981261791(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1981261791L))
+    private static void values__146464833(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-146464833L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/world/level/block/state/properties/StairsShape;", cancellable = true)
-    private static void valueOf_1468418526(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1468418526L))
-            info.setReturnValue(net.minecraft.world.level.block.state.properties.StairsShape.OUTER_LEFT);
+    private static void valueOf__2071074554(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2071074554L))
+            info.setReturnValue(net.minecraft.world.level.block.state.properties.StairsShape.STRAIGHT);
     }
 
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
-    private void getSerializedName_202772866(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(202772866L))
-            info.setReturnValue(",r38B<#XpLO!6>G|ONq]}J O+B\u9510t<CoIb\uB288Nl@$\u2334\uD309#L#HL\uCC896a");
+    private void getSerializedName_1426441959(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1426441959L))
+            info.setReturnValue("$cmo Lei\u05E9l8oE%=\u3D53@\u29E8\u6925>J#Sbm*Af^");
     }
 
 

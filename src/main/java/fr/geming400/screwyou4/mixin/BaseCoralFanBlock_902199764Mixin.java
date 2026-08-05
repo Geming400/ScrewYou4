@@ -8,8 +8,8 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.level.block.BaseCoralFanBlock.class)
 public class BaseCoralFanBlock_902199764Mixin {
         @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
-    private void codec__1656913809(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1656913809L))
+    private void codec_1968645017(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1968645017L))
             info.setReturnValue(null);
     }
 

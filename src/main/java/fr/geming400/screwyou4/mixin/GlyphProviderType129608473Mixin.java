@@ -8,27 +8,27 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.gui.font.providers.GlyphProviderType.class)
 public class GlyphProviderType129608473Mixin {
         @Inject(at = @At("HEAD"), method = "values()[Lnet/minecraft/client/gui/font/providers/GlyphProviderType;", cancellable = true)
-    private static void values_1133425806(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1133425806L))
+    private static void values_712655280(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(712655280L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/client/gui/font/providers/GlyphProviderType;", cancellable = true)
-    private static void valueOf_808150001(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(808150001L))
-            info.setReturnValue(net.minecraft.client.gui.font.providers.GlyphProviderType.UNIHEX);
+    private static void valueOf__2011933239(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2011933239L))
+            info.setReturnValue(net.minecraft.client.gui.font.providers.GlyphProviderType.SPACE);
     }
 
     @Inject(at = @At("HEAD"), method = "mapCodec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
-    private void mapCodec_1865462197(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1865462197L))
+    private void mapCodec__614386597(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-614386597L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
-    private void getSerializedName__1005851998(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1005851998L))
-            info.setReturnValue("Ynk");
+    private void getSerializedName_217817095(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(217817095L))
+            info.setReturnValue("xyJO'\u6D05MFx$!ER|yFlJb3B?n<o4\uCC4C8TPbM\uB500\uFD9AN\uBC47CyE,-Er>:72AU\u3BD2V.n7c\u760E{j^R");
     }
 
 

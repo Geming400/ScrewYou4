@@ -8,20 +8,20 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.commands.arguments.ResourceKeyArgument.Info.Template.class)
 public class Template1144663292Mixin {
         @Inject(at = @At("HEAD"), method = "type()Lnet/minecraft/commands/synchronization/ArgumentTypeInfo;", cancellable = true)
-    private void type_106413849(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(106413849L))
+    private void type_140565023(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(140565023L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "instantiate(Lnet/minecraft/commands/CommandBuildContext;)Lnet/minecraft/commands/arguments/ResourceKeyArgument;", cancellable = true)
-    private void instantiate_22952082(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(22952082L))
+    private void instantiate_2011556860(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2011556860L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "instantiate(Lnet/minecraft/commands/CommandBuildContext;)Lcom/mojang/brigadier/arguments/ArgumentType;", cancellable = true)
-    private void instantiate__661659699(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-661659699L))
+    private void instantiate_1647234339(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1647234339L))
             info.setReturnValue(null);
     }
 

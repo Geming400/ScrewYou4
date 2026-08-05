@@ -8,50 +8,50 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.renderer.chunk.ChunkSectionsToRender.class)
 public class ChunkSectionsToRender744761230Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals_2130273489(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2130273489L))
+    private void equals__163865038(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-163865038L))
             info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__390698745(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-390698745L))
-            info.setReturnValue("#QPFstmTZP0k_Jv\uB728'0\uD659m\u4E16\u79E9el/!\u40B0iKjb3@6C|\u04F7[\u2F33<GTE)l;u7\u6761bs\u22E2 >$h!GpO9\u850D[)a<-\u150D25\uFB25=omL`].\u24E1cs^");
+    private void toString_1515184755(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1515184755L))
+            info.setReturnValue("-*Z0\uB7D6y\u3410m\u3DF4#1\u300BQzH\uB39F!Ns[I5X}=ag@MKMoZQsL\u62FB&");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_783023972(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(783023972L))
-            info.setReturnValue(751577503);
-    }
-
-    @Inject(at = @At("HEAD"), method = "textureView()Lcom/mojang/blaze3d/textures/GpuTextureView;", cancellable = true)
-    private void textureView__1655853380(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1655853380L))
-            info.setReturnValue(null);
+    private void hashCode_1302113321(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1302113321L))
+            info.setReturnValue(-617319668);
     }
 
     @Inject(at = @At("HEAD"), method = "maxIndicesRequired()I", cancellable = true)
-    private void maxIndicesRequired_783023476(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(783023476L))
-            info.setReturnValue(954724922);
+    private void maxIndicesRequired__2144581550(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2144581550L))
+            info.setReturnValue(-573566082);
     }
 
     @Inject(at = @At("HEAD"), method = "drawGroupsPerLayer()Ljava/util/EnumMap;", cancellable = true)
-    private void drawGroupsPerLayer_1635001687(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1635001687L))
+    private void drawGroupsPerLayer_621808971(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(621808971L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "textureView()Lcom/mojang/blaze3d/textures/GpuTextureView;", cancellable = true)
+    private void textureView_1793322268(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1793322268L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "chunkSectionInfos()[Lcom/mojang/blaze3d/buffers/GpuBufferSlice;", cancellable = true)
-    private void chunkSectionInfos_1862472332(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1862472332L))
+    private void chunkSectionInfos__200562375(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-200562375L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "renderGroup(Lnet/minecraft/client/renderer/chunk/ChunkSectionLayerGroup;Lcom/mojang/blaze3d/textures/GpuSampler;)V", cancellable = true)
-    private void renderGroup__1159441453(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1159441453L))
+    private void renderGroup__1203800214(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1203800214L))
             info.cancel();
     }
 

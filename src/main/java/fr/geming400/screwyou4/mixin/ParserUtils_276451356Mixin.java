@@ -8,9 +8,9 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.commands.ParserUtils.class)
 public class ParserUtils_276451356Mixin {
         @Inject(at = @At("HEAD"), method = "readWhile(Lcom/mojang/brigadier/StringReader;Lnet/minecraft/CharPredicate;)Ljava/lang/String;", cancellable = true)
-    private static void readWhile__1462775524(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1462775524L))
-            info.setReturnValue("zkI6j9e\uD3F7sOstpk-wP\uBB80,N;Oz)+nrV[y'M  %K\u0635P|*}Ogj!`OM9[Lfr=E\uCBD1A^G&%");
+    private static void readWhile_2071063(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2071063L))
+            info.setReturnValue("s\uD18E-Gglz[1u[y,9hcg>H;yb\u3075:mJ(]1DQ'e0)\u22F6m2/(\u24006<uj{sD\u59A2Y\u3862WF48OU<?,|yFN@$&U\u263AI29\u0321<\"]\uFF6B'\u7915*{3r\uFC53");
     }
 
 

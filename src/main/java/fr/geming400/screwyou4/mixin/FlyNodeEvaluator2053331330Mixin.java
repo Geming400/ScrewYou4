@@ -8,39 +8,39 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.level.pathfinder.FlyNodeEvaluator.class)
 public class FlyNodeEvaluator2053331330Mixin {
         @Inject(at = @At("HEAD"), method = "done()V", cancellable = true)
-    private void done_2091606069(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(2091606069L))
+    private void done__649060877(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-649060877L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "prepare(Lnet/minecraft/world/level/PathNavigationRegion;Lnet/minecraft/world/entity/Mob;)V", cancellable = true)
-    private void prepare__1845073147(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1845073147L))
+    private void prepare_1821069406(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1821069406L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "getTarget(DDD)Lnet/minecraft/world/level/pathfinder/Target;", cancellable = true)
-    private void getTarget_1372584033(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1372584033L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getStart()Lnet/minecraft/world/level/pathfinder/Node;", cancellable = true)
-    private void getStart_560113820(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(560113820L))
+    private void getTarget_980887400(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(980887400L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getNeighbors([Lnet/minecraft/world/level/pathfinder/Node;Lnet/minecraft/world/level/pathfinder/Node;)I", cancellable = true)
-    private void getNeighbors_1404736147(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1404736147L))
-            info.setReturnValue(-1232738728);
+    private void getNeighbors__2014109410(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2014109410L))
+            info.setReturnValue(-1502745711);
     }
 
     @Inject(at = @At("HEAD"), method = "getPathType(Lnet/minecraft/world/level/pathfinder/PathfindingContext;III)Lnet/minecraft/world/level/pathfinder/PathType;", cancellable = true)
-    private void getPathType_1114804820(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1114804820L))
-            info.setReturnValue(net.minecraft.world.level.pathfinder.PathType.RAIL);
+    private void getPathType__1065981121(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1065981121L))
+            info.setReturnValue(net.minecraft.world.level.pathfinder.PathType.BLOCKED);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getStart()Lnet/minecraft/world/level/pathfinder/Node;", cancellable = true)
+    private void getStart_308658288(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(308658288L))
+            info.setReturnValue(null);
     }
 
 

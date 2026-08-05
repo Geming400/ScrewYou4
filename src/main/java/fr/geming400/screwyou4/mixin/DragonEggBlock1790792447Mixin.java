@@ -8,15 +8,15 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.level.block.DragonEggBlock.class)
 public class DragonEggBlock1790792447Mixin {
         @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
-    private void codec__768321125(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-768321125L))
+    private void codec__1437729595(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1437729595L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getDustColor(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I", cancellable = true)
-    private void getDustColor__603225523(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-603225523L))
-            info.setReturnValue(484244750);
+    private void getDustColor__61810606(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-61810606L))
+            info.setReturnValue(1505415259);
     }
 
 

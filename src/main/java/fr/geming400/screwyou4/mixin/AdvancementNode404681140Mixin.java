@@ -8,62 +8,62 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.advancements.AdvancementNode.class)
 public class AdvancementNode404681140Mixin {
         @Inject(at = @At("HEAD"), method = "parent()Lnet/minecraft/advancements/AdvancementNode;", cancellable = true)
-    private void parent__1127206488(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1127206488L))
+    private void parent_1571520082(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1571520082L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals_1790192903(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1790192903L))
+    private void equals__503945624(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-503945624L))
             info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__730779331(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-730779331L))
-            info.setReturnValue("$<anO\u4CC4ON\u1F0DPWBr=(),8I");
+    private void toString_1175104169(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1175104169L))
+            info.setReturnValue("Hf_Rt1=x,}0");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_442943386(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(442943386L))
-            info.setReturnValue(-97477000);
+    private void hashCode_962032735(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(962032735L))
+            info.setReturnValue(2101006370);
     }
 
     @Inject(at = @At("HEAD"), method = "holder()Lnet/minecraft/advancements/AdvancementHolder;", cancellable = true)
-    private void holder__2110644610(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2110644610L))
+    private void holder_1153673514(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1153673514L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "root()Lnet/minecraft/advancements/AdvancementNode;", cancellable = true)
-    private void root__1127206488(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1127206488L))
+    private void root_58697354(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(58697354L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getRoot(Lnet/minecraft/advancements/AdvancementNode;)Lnet/minecraft/advancements/AdvancementNode;", cancellable = true)
-    private static void getRoot_1458716811(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1458716811L))
+    private static void getRoot_1854895587(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1854895587L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "children()Ljava/lang/Iterable;", cancellable = true)
-    private void children__1605068548(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1605068548L))
+    private void children__1655395845(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1655395845L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "addChild(Lnet/minecraft/advancements/AdvancementNode;)V", cancellable = true)
-    private void addChild__1848409252(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1848409252L))
+    private void addChild_1424726977(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1424726977L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "advancement()Lnet/minecraft/advancements/Advancement;", cancellable = true)
-    private void advancement_1398232458(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1398232458L))
+    private void advancement__1450954134(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1450954134L))
             info.setReturnValue(null);
     }
 

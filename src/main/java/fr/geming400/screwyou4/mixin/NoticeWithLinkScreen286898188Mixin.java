@@ -8,26 +8,26 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.gui.screens.NoticeWithLinkScreen.class)
 public class NoticeWithLinkScreen286898188Mixin {
         @Inject(at = @At("HEAD"), method = "onClose()V", cancellable = true)
-    private void onClose_325172927(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(325172927L))
+    private void onClose_1512913670(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1512913670L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "getNarrationMessage()Lnet/minecraft/network/chat/Component;", cancellable = true)
-    private void getNarrationMessage__1890010977(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1890010977L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "createWorldSymlinkWarningScreen(Ljava/lang/Runnable;)Lnet/minecraft/client/gui/screens/Screen;", cancellable = true)
-    private static void createWorldSymlinkWarningScreen_1378402638(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1378402638L))
+    private void getNarrationMessage__1384944550(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1384944550L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "createPackSymlinkWarningScreen(Ljava/lang/Runnable;)Lnet/minecraft/client/gui/screens/Screen;", cancellable = true)
-    private static void createPackSymlinkWarningScreen_1378402638(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1378402638L))
+    private static void createPackSymlinkWarningScreen__30965102(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-30965102L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "createWorldSymlinkWarningScreen(Ljava/lang/Runnable;)Lnet/minecraft/client/gui/screens/Screen;", cancellable = true)
+    private static void createWorldSymlinkWarningScreen_143412849(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(143412849L))
             info.setReturnValue(null);
     }
 

@@ -7,28 +7,28 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.world.entity.AgeableMob.AgeableMobGroupData.class)
 public class AgeableMobGroupData_1834809767Mixin {
-        @Inject(at = @At("HEAD"), method = "isShouldSpawnBaby()Z", cancellable = true)
-    private void isShouldSpawnBaby_1873088349(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1873088349L))
-            info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getBabySpawnChance()F", cancellable = true)
-    private void getBabySpawnChance_1873069129(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1873069129L))
-            info.setReturnValue(6.956664E8F);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getGroupSize()I", cancellable = true)
-    private void getGroupSize_1873072012(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1873072012L))
-            info.setReturnValue(493293989);
+        @Inject(at = @At("HEAD"), method = "getBabySpawnChance()F", cancellable = true)
+    private void getBabySpawnChance_1936225414(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1936225414L))
+            info.setReturnValue(5.907883E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "increaseGroupSizeByOne()V", cancellable = true)
-    private void increaseGroupSizeByOne_1873084505(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1873084505L))
+    private void increaseGroupSizeByOne_1334821064(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1334821064L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "isShouldSpawnBaby()Z", cancellable = true)
+    private void isShouldSpawnBaby__1727792151(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1727792151L))
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getGroupSize()I", cancellable = true)
+    private void getGroupSize_1193057634(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1193057634L))
+            info.setReturnValue(161137811);
     }
 
 

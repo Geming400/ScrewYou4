@@ -8,39 +8,39 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.item.component.UseEffects.class)
 public class UseEffects465884889Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals_1851397148(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1851397148L))
-            info.setReturnValue(false);
+    private void equals__442741379(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-442741379L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__669575086(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-669575086L))
-            info.setReturnValue("%(m\uA3BCX6D70;'J#/x\uD728|<\uA157ZI'<40ESWlN@.>\u7A58VM3wn0/7$?G,l?Bky<n\uC76C_g3\u38C13M`'-\uCB96_Qg\u3B9BL\u3B94Y'TT'*nImOE$*Z7J");
+    private void toString_1236308414(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1236308414L))
+            info.setReturnValue("a");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_504147631(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(504147631L))
-            info.setReturnValue(-406885943);
-    }
-
-    @Inject(at = @At("HEAD"), method = "canSprint()Z", cancellable = true)
-    private void canSprint_504163472(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(504163472L))
-            info.setReturnValue(false);
+    private void hashCode_1023236980(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1023236980L))
+            info.setReturnValue(-127460155);
     }
 
     @Inject(at = @At("HEAD"), method = "speedMultiplier()F", cancellable = true)
-    private void speedMultiplier_504144252(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(504144252L))
-            info.setReturnValue(6126101.0F);
+    private void speedMultiplier__1132407532(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1132407532L))
+            info.setReturnValue(8.214882E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "interactVibrations()Z", cancellable = true)
-    private void interactVibrations_504163472(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(504163472L))
+    private void interactVibrations__273504263(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-273504263L))
             info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "canSprint()Z", cancellable = true)
+    private void canSprint_1841844422(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1841844422L))
+            info.setReturnValue(true);
     }
 
 

@@ -8,44 +8,44 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.item.component.UseCooldown.class)
 public class UseCooldown382511732Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals_1768023991(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1768023991L))
-            info.setReturnValue(true);
+    private void equals__526114536(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-526114536L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__752948243(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-752948243L))
-            info.setReturnValue("Yu&Lr$\uC8F9n#gI{5\u9C01\u61D1\uC789QZmBKXjB9V+\uB69F\u2ACFTOA\u63EAnsvj@iEU\u4952\uAC52A|!\"+8{z4\u1939\u04F7n\uCBA6|A!\"bsRN$\uA32E$u<ue!\u46B6JTP\u13A3P=E:y2^|{uZ");
+    private void toString_1152935257(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1152935257L))
+            info.setReturnValue("=j&,6-@bM=U_|Lk[JQ|_:S,S,S\u9049m{\u6FAEOE4\u8AB8bU*\"u<\u2469XFb'wz7RjZ\uCDBF|\u7DFBOk$");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_420774474(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(420774474L))
-            info.setReturnValue(-97503887);
+    private void hashCode_939863823(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(939863823L))
+            info.setReturnValue(163090136);
     }
 
     @Inject(at = @At("HEAD"), method = "apply(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/LivingEntity;)V", cancellable = true)
-    private void apply__514656430(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-514656430L))
+    private void apply_969100096(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(969100096L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "seconds()F", cancellable = true)
-    private void seconds_420771095(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(420771095L))
-            info.setReturnValue(2.930608E8F);
+    private void seconds_521986552(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(521986552L))
+            info.setReturnValue(7.83061E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "ticks()I", cancellable = true)
-    private void ticks_420773978(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(420773978L))
-            info.setReturnValue(106651432);
+    private void ticks__1493583964(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1493583964L))
+            info.setReturnValue(-38433822);
     }
 
     @Inject(at = @At("HEAD"), method = "cooldownGroup()Ljava/util/Optional;", cancellable = true)
-    private void cooldownGroup_627973154(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(627973154L))
+    private void cooldownGroup__107951626(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-107951626L))
             info.setReturnValue(null);
     }
 

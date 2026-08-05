@@ -8,32 +8,32 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.level.levelgen.feature.configurations.WeightedRandomFeatureConfiguration.class)
 public class WeightedRandomFeatureConfiguration1692576250Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals__1216878787(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1216878787L))
-            info.setReturnValue(true);
+    private void equals_783949982(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(783949982L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString_557116275(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(557116275L))
-            info.setReturnValue("]0Dv;\u4551F \u4E4FvaX(4");
+    private void toString__1831967521(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1831967521L))
+            info.setReturnValue("\u8376\u39D6`uj ZQA{6o+5KNaUZ)\u7A2Fi1\u3369\u7649`jq10\uD63FS\u350F=vEbY&ie\u9101\u6D4E_\"9\u1D17T\u827C\u82B3)k6#qcR\u021A:s!\u7BBCqFUm;f\u9E3A`\uD56Bx )\u1460Nc&se\u885CS2\uD2A9M\u215A");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_1730838992(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1730838992L))
-            info.setReturnValue(-1555756011);
-    }
-
-    @Inject(at = @At("HEAD"), method = "features()Lnet/minecraft/util/random/WeightedList;", cancellable = true)
-    private void features_1186092384(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1186092384L))
-            info.setReturnValue(null);
+    private void hashCode__2045038955(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2045038955L))
+            info.setReturnValue(-692153509);
     }
 
     @Inject(at = @At("HEAD"), method = "getSubFeatures()Ljava/util/stream/Stream;", cancellable = true)
-    private void getSubFeatures_1481869935(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1481869935L))
+    private void getSubFeatures_885434984(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(885434984L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "features()Lnet/minecraft/util/random/WeightedList;", cancellable = true)
+    private void features__387476963(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-387476963L))
             info.setReturnValue(null);
     }
 

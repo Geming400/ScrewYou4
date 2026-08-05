@@ -8,8 +8,8 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.renderer.entity.state.BlockDisplayEntityRenderState.class)
 public class BlockDisplayEntityRenderState1032111957Mixin {
         @Inject(at = @At("HEAD"), method = "hasSubState()Z", cancellable = true)
-    private void hasSubState_1070390540(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1070390540L))
+    private void hasSubState__1579401983(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1579401983L))
             info.setReturnValue(true);
     }
 

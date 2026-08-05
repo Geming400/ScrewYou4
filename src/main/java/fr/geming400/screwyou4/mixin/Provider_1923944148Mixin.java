@@ -8,14 +8,14 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.particle.BubbleColumnUpParticle.Provider.class)
 public class Provider_1923944148Mixin {
         @Inject(at = @At("HEAD"), method = "createParticle(Lnet/minecraft/core/particles/SimpleParticleType;Lnet/minecraft/client/multiplayer/ClientLevel;DDDDDDLnet/minecraft/util/RandomSource;)Lnet/minecraft/client/particle/Particle;", cancellable = true)
-    private void createParticle__1674354748(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1674354748L))
+    private void createParticle__1983509786(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1983509786L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "createParticle(Lnet/minecraft/core/particles/ParticleOptions;Lnet/minecraft/client/multiplayer/ClientLevel;DDDDDDLnet/minecraft/util/RandomSource;)Lnet/minecraft/client/particle/Particle;", cancellable = true)
-    private void createParticle__510114702(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-510114702L))
+    private void createParticle__1049609072(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1049609072L))
             info.setReturnValue(null);
     }
 

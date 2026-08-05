@@ -8,14 +8,14 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.advancements.triggers.UsedTotemTrigger.class)
 public class UsedTotemTrigger_1638600326Mixin {
         @Inject(at = @At("HEAD"), method = "trigger(Lnet/minecraft/server/level/ServerPlayer;Lnet/minecraft/world/item/ItemStack;)V", cancellable = true)
-    private void trigger_326591405(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(326591405L))
+    private void trigger__841221275(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-841221275L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/Codec;", cancellable = true)
-    private void codec_1246634699(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1246634699L))
+    private void codec__166109215(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-166109215L))
             info.setReturnValue(null);
     }
 

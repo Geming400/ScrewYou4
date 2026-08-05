@@ -8,32 +8,32 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.entity.ai.behavior.declarative.MemoryAccessor.class)
 public class MemoryAccessor_979779144Mixin {
         @Inject(at = @At("HEAD"), method = "value()Lcom/mojang/datafixers/kinds/App;", cancellable = true)
-    private void value_1841261887(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1841261887L))
+    private void value_583048814(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(583048814L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "set(Ljava/lang/Object;)V", cancellable = true)
-    private void set__1929680234(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1929680234L))
+    private void set__1184964620(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1184964620L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "erase()V", cancellable = true)
-    private void erase_1018053882(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1018053882L))
+    private void erase_1882810900(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1882810900L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "setWithExpiry(Ljava/lang/Object;J)V", cancellable = true)
-    private void setWithExpiry_1009175256(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1009175256L))
+    private void setWithExpiry__692789901(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-692789901L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "setOrErase(Ljava/util/Optional;)V", cancellable = true)
-    private void setOrErase_1454096425(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1454096425L))
+    private void setOrErase_1364883336(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1364883336L))
             info.cancel();
     }
 

@@ -8,39 +8,39 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.renderer.item.ClientItem.Properties.class)
 public class Properties1977586947Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals__931868090(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-931868090L))
-            info.setReturnValue(true);
+    private void equals_1068960679(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1068960679L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString_842126972(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(842126972L))
-            info.setReturnValue("*[\u25F4Y6to}\u05BEo7\u1FFEw]wX<_mUvxsf.Il<!RP25h^-Dmp1\u1934,k>z-GWL\u5A33n,*!yEtO;9A]_\u0FA3");
+    private void toString__1546956824(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1546956824L))
+            info.setReturnValue("\u3817\"\u3024BaScJ\u628D;p!oY");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_2015849689(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2015849689L))
-            info.setReturnValue(850574187);
-    }
-
-    @Inject(at = @At("HEAD"), method = "oversizedInGui()Z", cancellable = true)
-    private void oversizedInGui_2015865530(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2015865530L))
-            info.setReturnValue(true);
+    private void hashCode__1760028258(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1760028258L))
+            info.setReturnValue(-2031603111);
     }
 
     @Inject(at = @At("HEAD"), method = "handAnimationOnSwap()Z", cancellable = true)
-    private void handAnimationOnSwap_2015865530(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2015865530L))
+    private void handAnimationOnSwap_1936208595(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1936208595L))
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "oversizedInGui()Z", cancellable = true)
+    private void oversizedInGui_1926731827(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1926731827L))
             info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "swapAnimationScale()F", cancellable = true)
-    private void swapAnimationScale_2015846310(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2015846310L))
-            info.setReturnValue(5.536405E8F);
+    private void swapAnimationScale__1378605395(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1378605395L))
+            info.setReturnValue(1.230052E8F);
     }
 
 

@@ -8,26 +8,26 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.util.thread.StrictQueue.QueueStrictQueue.class)
 public class QueueStrictQueue1918933169Mixin {
         @Inject(at = @At("HEAD"), method = "size()I", cancellable = true)
-    private void size_1957195415(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1957195415L))
-            info.setReturnValue(1279755162);
+    private void size__1932302538(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1932302538L))
+            info.setReturnValue(1608930665);
     }
 
     @Inject(at = @At("HEAD"), method = "isEmpty()Z", cancellable = true)
-    private void isEmpty_1957211752(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1957211752L))
-            info.setReturnValue(true);
+    private void isEmpty__1316917755(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1316917755L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "push(Ljava/lang/Runnable;)Z", cancellable = true)
-    private void push__919288602(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-919288602L))
-            info.setReturnValue(true);
+    private void push_1801807628(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1801807628L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "pop()Ljava/lang/Runnable;", cancellable = true)
-    private void pop__1043518098(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1043518098L))
+    private void pop_2007055551(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2007055551L))
             info.setReturnValue(null);
     }
 

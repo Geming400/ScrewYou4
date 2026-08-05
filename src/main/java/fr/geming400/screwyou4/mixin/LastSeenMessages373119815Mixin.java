@@ -8,45 +8,45 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.network.chat.LastSeenMessages.class)
 public class LastSeenMessages373119815Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals_1758632074(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1758632074L))
-            info.setReturnValue(true);
+    private void equals__535506453(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-535506453L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__762340160(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-762340160L))
-            info.setReturnValue("ia;\u5380EY\u1DD36DL&<v\u4977TA4\u3094\u313CTN\uC832iMLr8?#Mk:3[#Sv<lZNtp6!W8]FMx$b.A1GPV(Vh;QO\"Gu^");
+    private void toString_1143543340(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1143543340L))
+            info.setReturnValue("|pd&?SoG3v=FOcLAg\uFDFA\uC33D-");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_411382557(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(411382557L))
-            info.setReturnValue(833782022);
+    private void hashCode_930471906(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(930471906L))
+            info.setReturnValue(-1178637977);
     }
 
     @Inject(at = @At("HEAD"), method = "entries()Ljava/util/List;", cancellable = true)
-    private void entries_1999456631(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1999456631L))
+    private void entries_670033415(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(670033415L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "updateSignature(Lnet/minecraft/util/SignatureUpdater$Output;)V", cancellable = true)
-    private void updateSignature__1140240146(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1140240146L))
+    private void updateSignature__1977403681(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1977403681L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "pack(Lnet/minecraft/network/chat/MessageSignatureCache;)Lnet/minecraft/network/chat/LastSeenMessages$Packed;", cancellable = true)
-    private void pack_1862342872(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1862342872L))
+    private void pack__21265487(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-21265487L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "computeChecksum()B", cancellable = true)
-    private void computeChecksum_411375334(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(411375334L))
-            info.setReturnValue(92);
+    private void computeChecksum_236119436(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(236119436L))
+            info.setReturnValue(-27);
     }
 
 

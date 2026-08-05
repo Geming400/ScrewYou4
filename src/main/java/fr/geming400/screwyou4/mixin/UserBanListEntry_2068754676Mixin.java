@@ -8,8 +8,8 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.server.players.UserBanListEntry.class)
 public class UserBanListEntry_2068754676Mixin {
         @Inject(at = @At("HEAD"), method = "getDisplayName()Lnet/minecraft/network/chat/Component;", cancellable = true)
-    private void getDisplayName__108154490(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-108154490L))
+    private void getDisplayName__1045800451(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1045800451L))
             info.setReturnValue(null);
     }
 

@@ -8,8 +8,8 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.renderer.debug.WaterDebugRenderer.class)
 public class WaterDebugRenderer527732443Mixin {
         @Inject(at = @At("HEAD"), method = "emitGizmos(DDDLnet/minecraft/util/debug/DebugValueAccess;Lnet/minecraft/client/renderer/culling/Frustum;F)V", cancellable = true)
-    private void emitGizmos__573285504(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-573285504L))
+    private void emitGizmos_1826560532(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1826560532L))
             info.cancel();
     }
 

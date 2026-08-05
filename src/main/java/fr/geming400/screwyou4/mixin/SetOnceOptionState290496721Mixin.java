@@ -8,14 +8,14 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.commands.arguments.selector.options.SetOnceOptionState.class)
 public class SetOnceOptionState290496721Mixin {
         @Inject(at = @At("HEAD"), method = "canParse()Z", cancellable = true)
-    private void canParse_328775304(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(328775304L))
+    private void canParse_1808149413(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1808149413L))
             info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "markParsed()V", cancellable = true)
-    private void markParsed_328771460(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(328771460L))
+    private void markParsed__1441948410(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1441948410L))
             info.cancel();
     }
 

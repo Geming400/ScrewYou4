@@ -8,27 +8,27 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.phys.shapes.SubShape.class)
 public class SubShape1417745407Mixin {
         @Inject(at = @At("HEAD"), method = "fill(III)V", cancellable = true)
-    private void fill_637653003(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(637653003L))
+    private void fill__462318962(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-462318962L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "isFull(III)Z", cancellable = true)
-    private void isFull_637656847(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(637656847L))
-            info.setReturnValue(true);
+    private void isFull__1312230168(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1312230168L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "lastFull(Lnet/minecraft/core/Direction$Axis;)I", cancellable = true)
-    private void lastFull__1710610982(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1710610982L))
-            info.setReturnValue(-2068771741);
+    private void lastFull_1714203423(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1714203423L))
+            info.setReturnValue(-146927167);
     }
 
     @Inject(at = @At("HEAD"), method = "firstFull(Lnet/minecraft/core/Direction$Axis;)I", cancellable = true)
-    private void firstFull__1710610982(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1710610982L))
-            info.setReturnValue(-2068771741);
+    private void firstFull_1455205433(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1455205433L))
+            info.setReturnValue(-233313381);
     }
 
 

@@ -8,26 +8,26 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.level.chunk.storage.RegionBitmap.class)
 public class RegionBitmap49127661Mixin {
         @Inject(at = @At("HEAD"), method = "allocate(I)I", cancellable = true)
-    private void allocate_1263032140(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1263032140L))
-            info.setReturnValue(2028702259);
+    private void allocate__454671159(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-454671159L))
+            info.setReturnValue(-1225958826);
     }
 
     @Inject(at = @At("HEAD"), method = "force(II)V", cancellable = true)
-    private void force__946751808(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-946751808L))
+    private void force__2105205387(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-2105205387L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "free(II)V", cancellable = true)
-    private void free__946751808(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-946751808L))
+    private void free_1580977876(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1580977876L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "getUsed()Lit/unimi/dsi/fastutil/ints/IntSet;", cancellable = true)
-    private void getUsed__555428472(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-555428472L))
+    private void getUsed__962658827(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-962658827L))
             info.setReturnValue(null);
     }
 

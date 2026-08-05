@@ -8,74 +8,74 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.CrashReportCategory.class)
 public class CrashReportCategory2020815595Mixin {
         @Inject(at = @At("HEAD"), method = "fillInStackTrace(I)I", cancellable = true)
-    private void fillInStackTrace__1060247222(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1060247222L))
-            info.setReturnValue(-1552000012);
+    private void fillInStackTrace_1993634127(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1993634127L))
+            info.setReturnValue(1540847664);
     }
 
     @Inject(at = @At("HEAD"), method = "getStacktrace()[Ljava/lang/StackTraceElement;", cancellable = true)
-    private void getStacktrace_1547102315(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1547102315L))
+    private void getStacktrace__264210594(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-264210594L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "validateStackTrace(Ljava/lang/StackTraceElement;Ljava/lang/StackTraceElement;)Z", cancellable = true)
-    private void validateStackTrace__419049438(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-419049438L))
-            info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "setDetail(Ljava/lang/String;Ljava/lang/Object;)Lnet/minecraft/CrashReportCategory;", cancellable = true)
-    private void setDetail__387737360(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-387737360L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "setDetail(Ljava/lang/String;Lnet/minecraft/CrashReportDetail;)Lnet/minecraft/CrashReportCategory;", cancellable = true)
-    private void setDetail_1001800063(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1001800063L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "formatLocation(Lnet/minecraft/world/level/LevelHeightAccessor;Lnet/minecraft/core/BlockPos;)Ljava/lang/String;", cancellable = true)
-    private static void formatLocation_1948705625(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1948705625L))
-            info.setReturnValue("\u3CFD[U-J/e0r\u6ECE+tP2\uBF63\u2648}Jj(y.RW$99+s*\u73DE*\uB216vH=2q\u9B3AY6$$hI.v:qD%NN\u9E6B\u8CF43C,,\u39E7(E*%ht-sw+)/VMiN#?\u7292y!\u965A");
+    private void validateStackTrace__811873169(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-811873169L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "formatLocation(Lnet/minecraft/world/level/LevelHeightAccessor;DDD)Ljava/lang/String;", cancellable = true)
-    private static void formatLocation_982011897(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(982011897L))
-            info.setReturnValue("\u5524\u4E40gSGO=sQ\"J\uD07D^\u8696!GS$a'ex>vPy}kv\u1F5F:!R2#xzikD>LKtL{K9,\"}_;\u4EEEcz7[dR[/*h&E\u9994\u919A-78fH\u0BB7+_!\u5F84&|h[c8");
+    private static void formatLocation__1682278203(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1682278203L))
+            info.setReturnValue(",sjn'w%|M\"8U7\u3E3B1dQ?:\u6E3CRMg|Y\uAF02\u4E8FRt1Y");
+    }
+
+    @Inject(at = @At("HEAD"), method = "formatLocation(Lnet/minecraft/world/level/LevelHeightAccessor;Lnet/minecraft/core/BlockPos;)Ljava/lang/String;", cancellable = true)
+    private static void formatLocation_839935269(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(839935269L))
+            info.setReturnValue("#Q]$!Yp|\u34A3 6^\u7F3C MG J(R)'@w,&/l\uCBF4I5m(\u717D\u1987bg2\u48C3YH{I+q/\"IlQI[!@B\"");
     }
 
     @Inject(at = @At("HEAD"), method = "formatLocation(Lnet/minecraft/world/level/LevelHeightAccessor;III)Ljava/lang/String;", cancellable = true)
-    private static void formatLocation_975486388(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(975486388L))
-            info.setReturnValue("\uA207c\uAE13&ox&\u2522[Zymi4\u885BGM\uC391&\"\u326Akhqr>A]DY0%{[|?E4\"%0MCSgcyw;\u1D60gWW\u6975)\uBEB2\u0D88<!g=\uBA38Y\uCE72hwY\u236Cy$+jL+\u2554");
+    private static void formatLocation__1688803712(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1688803712L))
+            info.setReturnValue("\uD1E0Fh[\u06EBAD\u9F56fT%?xG]Zc`?EyKt8R0\uCE92GF3zJ:");
     }
 
     @Inject(at = @At("HEAD"), method = "populateBlockDetails(Lnet/minecraft/CrashReportCategory;Lnet/minecraft/world/level/LevelHeightAccessor;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)V", cancellable = true)
-    private static void populateBlockDetails_1562045034(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1562045034L))
+    private static void populateBlockDetails_945705(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(945705L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "setDetailError(Ljava/lang/String;Ljava/lang/Throwable;)V", cancellable = true)
-    private void setDetailError_1071706431(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1071706431L))
+    private void setDetailError_1847059508(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1847059508L))
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "setDetail(Ljava/lang/String;Ljava/lang/Object;)Lnet/minecraft/CrashReportCategory;", cancellable = true)
+    private void setDetail__1667399747(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1667399747L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "setDetail(Ljava/lang/String;Lnet/minecraft/CrashReportDetail;)Lnet/minecraft/CrashReportCategory;", cancellable = true)
+    private void setDetail_771901202(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(771901202L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "populateBlockLocationDetails(Lnet/minecraft/CrashReportCategory;Lnet/minecraft/world/level/LevelHeightAccessor;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/CrashReportCategory;", cancellable = true)
-    private static void populateBlockLocationDetails__1350635801(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1350635801L))
+    private static void populateBlockLocationDetails_178215921(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(178215921L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getDetails(Ljava/lang/StringBuilder;)V", cancellable = true)
-    private void getDetails__1206369217(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1206369217L))
+    private void getDetails_2065913163(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(2065913163L))
             info.cancel();
     }
 

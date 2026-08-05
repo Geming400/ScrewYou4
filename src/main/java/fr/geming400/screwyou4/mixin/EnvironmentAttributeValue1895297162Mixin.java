@@ -8,50 +8,50 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.level.storage.loot.providers.number.EnvironmentAttributeValue.class)
 public class EnvironmentAttributeValue1895297162Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals__1014157875(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1014157875L))
+    private void equals_986670894(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(986670894L))
             info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString_759837187(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(759837187L))
-            info.setReturnValue("mY:>I%*\u6857WT>\u50B2$vs%HF8gPe.\u5F18[I=\u303AG\u5BE62b1\u6A71Wbj8 ^`l Y6ze/2rR|[D1'\u446B\uA8E9/ZO4\uD28FY:");
+    private void toString__1629246609(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1629246609L))
+            info.setReturnValue("TFIsy0M\u65BAs\u23CEJNZY\u8C03Kv#OOy[4@\uC80C]\u6A14;");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_1933559904(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1933559904L))
-            info.setReturnValue(1806883986);
+    private void hashCode__1842318043(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1842318043L))
+            info.setReturnValue(-421836355);
     }
 
     @Inject(at = @At("HEAD"), method = "getFloat(Lnet/minecraft/world/level/storage/loot/LootContext;)F", cancellable = true)
-    private void getFloat__481671156(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-481671156L))
-            info.setReturnValue(1.382411E8F);
+    private void getFloat_1665826342(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1665826342L))
+            info.setReturnValue(7.98344E7F);
     }
 
     @Inject(at = @At("HEAD"), method = "attribute()Lnet/minecraft/world/attribute/EnvironmentAttribute;", cancellable = true)
-    private void attribute_522731883(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(522731883L))
+    private void attribute_1394567175(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1394567175L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
-    private void codec__663816410(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-663816410L))
+    private void codec__1333224880(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1333224880L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getReferencedContextParams()Ljava/util/Set;", cancellable = true)
-    private void getReferencedContextParams_66261676(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(66261676L))
+    private void getReferencedContextParams__1620166906(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1620166906L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "forEnvironmentAttribute(Lnet/minecraft/world/attribute/EnvironmentAttribute;)Lnet/minecraft/world/level/storage/loot/providers/number/EnvironmentAttributeValue;", cancellable = true)
-    private static void forEnvironmentAttribute_937775778(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(937775778L))
+    private static void forEnvironmentAttribute_2063793968(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2063793968L))
             info.setReturnValue(null);
     }
 

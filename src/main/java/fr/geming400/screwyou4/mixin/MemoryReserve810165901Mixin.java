@@ -8,14 +8,14 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.util.MemoryReserve.class)
 public class MemoryReserve810165901Mixin {
         @Inject(at = @At("HEAD"), method = "release()V", cancellable = true)
-    private static void release_848440888(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(848440888L))
+    private static void release__1208225135(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1208225135L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "allocate()V", cancellable = true)
-    private static void allocate_848440888(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(848440888L))
+    private static void allocate__453894885(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-453894885L))
             info.cancel();
     }
 

@@ -8,8 +8,8 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.level.levelgen.feature.EndIslandFeature.class)
 public class EndIslandFeature566240476Mixin {
         @Inject(at = @At("HEAD"), method = "place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z", cancellable = true)
-    private void place_1281498212(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1281498212L))
+    private void place_2140112829(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2140112829L))
             info.setReturnValue(true);
     }
 

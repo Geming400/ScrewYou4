@@ -8,14 +8,14 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.resources.model.sprite.TextureSlots.class)
 public class TextureSlots_698006656Mixin {
         @Inject(at = @At("HEAD"), method = "parseTextureMap(Lcom/google/gson/JsonObject;)Lnet/minecraft/client/resources/model/sprite/TextureSlots$Data;", cancellable = true)
-    private static void parseTextureMap_1316563101(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1316563101L))
+    private static void parseTextureMap__1323651895(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1323651895L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getMaterial(Ljava/lang/String;)Lnet/minecraft/client/resources/model/sprite/Material;", cancellable = true)
-    private void getMaterial_1665016498(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1665016498L))
+    private void getMaterial_404511183(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(404511183L))
             info.setReturnValue(null);
     }
 

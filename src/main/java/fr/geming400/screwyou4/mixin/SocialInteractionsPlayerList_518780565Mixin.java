@@ -8,38 +8,38 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.gui.screens.social.SocialInteractionsPlayerList.class)
 public class SocialInteractionsPlayerList_518780565Mixin {
         @Inject(at = @At("HEAD"), method = "isEmpty()Z", cancellable = true)
-    private void isEmpty_557059147(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(557059147L))
-            info.setReturnValue(true);
+    private void isEmpty_1577896936(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1577896936L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "setFilter(Ljava/lang/String;)V", cancellable = true)
-    private void setFilter_1671141713(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1671141713L))
+    private void setFilter__1788981865(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1788981865L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "addPlayer(Lnet/minecraft/client/multiplayer/PlayerInfo;Lnet/minecraft/client/gui/screens/social/SocialInteractionsScreen$Page;)V", cancellable = true)
-    private void addPlayer_1565596792(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1565596792L))
+    private void addPlayer__92957738(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-92957738L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "removePlayer(Ljava/util/UUID;)V", cancellable = true)
-    private void removePlayer_161224475(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(161224475L))
+    private void removePlayer_522878902(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(522878902L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "refreshHasDraftReport()V", cancellable = true)
-    private void refreshHasDraftReport_557055303(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(557055303L))
+    private void refreshHasDraftReport_1240405009(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1240405009L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "updatePlayerList(Ljava/util/Collection;DZ)V", cancellable = true)
-    private void updatePlayerList_123181134(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(123181134L))
+    private void updatePlayerList_1719228550(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1719228550L))
             info.cancel();
     }
 

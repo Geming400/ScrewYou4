@@ -7,63 +7,63 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.client.renderer.entity.TropicalFishRenderer.class)
 public class TropicalFishRenderer_906939085Mixin {
-        @Inject(at = @At("HEAD"), method = "submit(Lnet/minecraft/client/renderer/entity/state/EntityRenderState;Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/SubmitNodeCollector;Lnet/minecraft/client/renderer/state/level/CameraRenderState;)V", cancellable = true)
-    private void submit__560441760(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-560441760L))
+        @Inject(at = @At("HEAD"), method = "submit(Lnet/minecraft/client/renderer/entity/state/TropicalFishRenderState;Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/SubmitNodeCollector;Lnet/minecraft/client/renderer/state/level/CameraRenderState;)V", cancellable = true)
+    private void submit_940017439(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(940017439L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "submit(Lnet/minecraft/client/renderer/entity/state/TropicalFishRenderState;Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/SubmitNodeCollector;Lnet/minecraft/client/renderer/state/level/CameraRenderState;)V", cancellable = true)
-    private void submit__268517113(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-268517113L))
+    @Inject(at = @At("HEAD"), method = "submit(Lnet/minecraft/client/renderer/entity/state/EntityRenderState;Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/SubmitNodeCollector;Lnet/minecraft/client/renderer/state/level/CameraRenderState;)V", cancellable = true)
+    private void submit__170553736(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-170553736L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "submit(Lnet/minecraft/client/renderer/entity/state/LivingEntityRenderState;Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/SubmitNodeCollector;Lnet/minecraft/client/renderer/state/level/CameraRenderState;)V", cancellable = true)
-    private void submit_159923063(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(159923063L))
+    private void submit_1368457615(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1368457615L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/client/renderer/entity/state/LivingEntityRenderState;F)V", cancellable = true)
-    private void extractRenderState_1926803287(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1926803287L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/client/renderer/entity/state/EntityRenderState;F)V", cancellable = true)
-    private void extractRenderState_1134058103(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1134058103L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/entity/animal/fish/TropicalFish;Lnet/minecraft/client/renderer/entity/state/TropicalFishRenderState;F)V", cancellable = true)
-    private void extractRenderState_1253545755(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1253545755L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/TropicalFishRenderState;", cancellable = true)
-    private void createRenderState__1602142039(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1602142039L))
-            info.setReturnValue(new net.minecraft.client.renderer.entity.state.TropicalFishRenderState());
-    }
-
-    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/EntityRenderState;", cancellable = true)
-    private void createRenderState_318302640(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(318302640L))
+    @Inject(at = @At("HEAD"), method = "getTextureLocation(Lnet/minecraft/client/renderer/entity/state/TropicalFishRenderState;)Lnet/minecraft/resources/Identifier;", cancellable = true)
+    private void getTextureLocation_468644975(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(468644975L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getTextureLocation(Lnet/minecraft/client/renderer/entity/state/LivingEntityRenderState;)Lnet/minecraft/resources/Identifier;", cancellable = true)
-    private void getTextureLocation__1385391579(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1385391579L))
+    private void getTextureLocation__1415513377(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1415513377L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getTextureLocation(Lnet/minecraft/client/renderer/entity/state/TropicalFishRenderState;)Lnet/minecraft/resources/Identifier;", cancellable = true)
-    private void getTextureLocation_498766773(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(498766773L))
+    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/entity/animal/fish/TropicalFish;Lnet/minecraft/client/renderer/entity/state/TropicalFishRenderState;F)V", cancellable = true)
+    private void extractRenderState_2099438209(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(2099438209L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/client/renderer/entity/state/EntityRenderState;F)V", cancellable = true)
+    private void extractRenderState_344717277(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(344717277L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/client/renderer/entity/state/LivingEntityRenderState;F)V", cancellable = true)
+    private void extractRenderState__763534403(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-763534403L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/TropicalFishRenderState;", cancellable = true)
+    private void createRenderState__1018803288(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1018803288L))
+            info.setReturnValue(new net.minecraft.client.renderer.entity.state.TropicalFishRenderState());
+    }
+
+    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/EntityRenderState;", cancellable = true)
+    private void createRenderState_1160110063(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1160110063L))
             info.setReturnValue(null);
     }
 

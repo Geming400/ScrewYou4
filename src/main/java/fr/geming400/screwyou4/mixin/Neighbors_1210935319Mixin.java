@@ -8,74 +8,74 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.level.block.SideChainPartBlock.Neighbors.class)
 public class Neighbors_1210935319Mixin {
         @Inject(at = @At("HEAD"), method = "cache()Ljava/util/Map;", cancellable = true)
-    private void cache__793688322(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-793688322L))
+    private void cache__389344196(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-389344196L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals__1698519719(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1698519719L))
-            info.setReturnValue(false);
+    private void equals_302309050(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(302309050L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString_75475343(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(75475343L))
-            info.setReturnValue("\uC827\u8EF3\u1747\u89EEnQ>z3b&vt\u35AChp\u915A\u26B6N)\u27DC? PztN2p94Ok\u58E5UEu\u4469%d\"k\u8E76g\u4B3D<M\u1D681IioZ#*7t6+$2}2mfXawY(dCZ<E#?]Q&)g0EKRSZ5/54:");
+    private void toString_1981358843(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1981358843L))
+            info.setReturnValue("p)h\u3B57\u57DAGt{\uB473");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_1249198060(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1249198060L))
-            info.setReturnValue(-678861913);
+    private void hashCode_1768287409(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1768287409L))
+            info.setReturnValue(-2062107413);
     }
 
     @Inject(at = @At("HEAD"), method = "block()Lnet/minecraft/world/level/block/SideChainPartBlock;", cancellable = true)
-    private void block__792200202(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-792200202L))
+    private void block_785167747(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(785167747L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "left(I)Lnet/minecraft/world/level/block/SideChainPartBlock$Neighbor;", cancellable = true)
-    private void left__1490003445(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1490003445L))
+    private void left__1031447470(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1031447470L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "left()Lnet/minecraft/world/level/block/SideChainPartBlock$Neighbor;", cancellable = true)
-    private void left_169123090(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(169123090L))
+    private void left_1015199211(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1015199211L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "right(I)Lnet/minecraft/world/level/block/SideChainPartBlock$Neighbor;", cancellable = true)
-    private void right__1490003445(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1490003445L))
+    private void right_1557734695(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1557734695L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "right()Lnet/minecraft/world/level/block/SideChainPartBlock$Neighbor;", cancellable = true)
-    private void right_169123090(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(169123090L))
+    private void right__1395130762(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1395130762L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "level()Lnet/minecraft/world/level/LevelAccessor;", cancellable = true)
-    private void level_536530475(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(536530475L))
+    private void level_534649127(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(534649127L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "center()Lnet/minecraft/core/BlockPos;", cancellable = true)
-    private void center__682451561(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-682451561L))
+    private void center__491425822(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-491425822L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "facing()Lnet/minecraft/core/Direction;", cancellable = true)
-    private void facing_448080033(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(448080033L))
+    private void facing_19431931(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(19431931L))
             info.setReturnValue(net.minecraft.core.Direction.DOWN);
     }
 

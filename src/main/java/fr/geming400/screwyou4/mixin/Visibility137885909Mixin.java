@@ -8,20 +8,20 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.gui.components.toasts.Toast.Visibility.class)
 public class Visibility137885909Mixin {
         @Inject(at = @At("HEAD"), method = "values()[Lnet/minecraft/client/gui/components/toasts/Toast$Visibility;", cancellable = true)
-    private static void values__2009232389(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2009232389L))
+    private static void values_1652185245(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1652185245L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/client/gui/components/toasts/Toast$Visibility;", cancellable = true)
-    private static void valueOf__1066668386(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1066668386L))
-            info.setReturnValue(net.minecraft.client.gui.components.toasts.Toast.Visibility.SHOW);
+    private static void valueOf__1042298250(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1042298250L))
+            info.setReturnValue(net.minecraft.client.gui.components.toasts.Toast.Visibility.HIDE);
     }
 
     @Inject(at = @At("HEAD"), method = "playSound(Lnet/minecraft/client/sounds/SoundManager;)V", cancellable = true)
-    private void playSound__115303970(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-115303970L))
+    private void playSound__1895957949(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1895957949L))
             info.cancel();
     }
 

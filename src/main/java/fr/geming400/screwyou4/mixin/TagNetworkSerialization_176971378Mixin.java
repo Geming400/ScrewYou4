@@ -8,8 +8,8 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.tags.TagNetworkSerialization.class)
 public class TagNetworkSerialization_176971378Mixin {
         @Inject(at = @At("HEAD"), method = "serializeTagsToNetwork(Lnet/minecraft/core/LayeredRegistryAccess;)Ljava/util/Map;", cancellable = true)
-    private static void serializeTagsToNetwork_760082379(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(760082379L))
+    private static void serializeTagsToNetwork_50603505(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(50603505L))
             info.setReturnValue(null);
     }
 

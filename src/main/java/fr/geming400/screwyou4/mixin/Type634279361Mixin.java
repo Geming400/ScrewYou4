@@ -8,27 +8,27 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.resources.metadata.gui.GuiSpriteScaling.Type.class)
 public class Type634279361Mixin {
         @Inject(at = @At("HEAD"), method = "values()[Lnet/minecraft/client/resources/metadata/gui/GuiSpriteScaling$Type;", cancellable = true)
-    private static void values_194636167(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(194636167L))
+    private static void values_968832169(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(968832169L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/client/resources/metadata/gui/GuiSpriteScaling$Type;", cancellable = true)
-    private static void valueOf__1165064726(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1165064726L))
-            info.setReturnValue(net.minecraft.client.resources.metadata.gui.GuiSpriteScaling.Type.STRETCH);
+    private static void valueOf_817110978(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(817110978L))
+            info.setReturnValue(net.minecraft.client.resources.metadata.gui.GuiSpriteScaling.Type.TILE);
     }
 
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
-    private void codec__1924834211(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1924834211L))
+    private void codec_1700724615(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1700724615L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
-    private void getSerializedName__501181110(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-501181110L))
-            info.setReturnValue("Yz,\u2415>#R\u3090v]!rpkZ2\uA77E}GdKI\u72E1\uD459Y%\uAFFD6\u8F3CU\u416F%\u38CF");
+    private void getSerializedName_722487983(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(722487983L))
+            info.setReturnValue("tlc\u91C6X\uC171.h\u0A66m,p+Xtfsf}ST-(\u6C6CAQ\u4C24veH6V!2_/:{INqu(1$9EA:");
     }
 
 

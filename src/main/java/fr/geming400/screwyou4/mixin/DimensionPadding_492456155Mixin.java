@@ -8,39 +8,39 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.level.levelgen.structure.pools.DimensionPadding.class)
 public class DimensionPadding_492456155Mixin {
         @Inject(at = @At("HEAD"), method = "bottom()I", cancellable = true)
-    private void bottom_530718400(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(530718400L))
-            info.setReturnValue(-663689057);
+    private void bottom__169531531(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-169531531L))
+            info.setReturnValue(-1140316594);
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals_1877968413(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1877968413L))
-            info.setReturnValue(false);
+    private void equals__416170114(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-416170114L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__643003821(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-643003821L))
-            info.setReturnValue("'g?SeaH\u47DAvK");
+    private void toString_1262879679(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1262879679L))
+            info.setReturnValue("3d`dNz(Gy#0l4-TB\uD33APk_ \uC4B5|\u24B3!$PnG\u7BCA}V.\uC37Fxl\u4624;%zCA|+\u5930j>YO\"\uAEF8'5{O");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_530718896(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(530718896L))
-            info.setReturnValue(-1275039735);
+    private void hashCode_1049808245(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1049808245L))
+            info.setReturnValue(-1823950821);
     }
 
     @Inject(at = @At("HEAD"), method = "top()I", cancellable = true)
-    private void top_530718400(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(530718400L))
-            info.setReturnValue(-663689057);
+    private void top__526587253(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-526587253L))
+            info.setReturnValue(-527509792);
     }
 
     @Inject(at = @At("HEAD"), method = "hasEqualTopAndBottom()Z", cancellable = true)
-    private void hasEqualTopAndBottom_530734737(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(530734737L))
-            info.setReturnValue(false);
+    private void hasEqualTopAndBottom__731216886(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-731216886L))
+            info.setReturnValue(true);
     }
 
 

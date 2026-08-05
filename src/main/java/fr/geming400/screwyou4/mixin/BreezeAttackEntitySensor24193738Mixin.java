@@ -8,8 +8,8 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.entity.ai.sensing.BreezeAttackEntitySensor.class)
 public class BreezeAttackEntitySensor24193738Mixin {
         @Inject(at = @At("HEAD"), method = "requires()Ljava/util/Set;", cancellable = true)
-    private void requires__1804841748(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1804841748L))
+    private void requires__1220741506(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1220741506L))
             info.setReturnValue(null);
     }
 

@@ -7,22 +7,22 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.client.model.animal.fish.SalmonModel.class)
 public class SalmonModel1559638253Mixin {
-        @Inject(at = @At("HEAD"), method = "setupAnim(Ljava/lang/Object;)V", cancellable = true)
-    private void setupAnim__1349692164(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1349692164L))
+        @Inject(at = @At("HEAD"), method = "createBodyLayer()Lnet/minecraft/client/model/geom/builders/LayerDefinition;", cancellable = true)
+    private static void createBodyLayer__344016356(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-344016356L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "setupAnim(Ljava/lang/Object;)V", cancellable = true)
+    private void setupAnim__2051680498(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-2051680498L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "setupAnim(Lnet/minecraft/client/renderer/entity/state/SalmonRenderState;)V", cancellable = true)
-    private void setupAnim__1260396912(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1260396912L))
+    private void setupAnim_1897598370(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1897598370L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "createBodyLayer()Lnet/minecraft/client/model/geom/builders/LayerDefinition;", cancellable = true)
-    private static void createBodyLayer_845506089(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(845506089L))
-            info.setReturnValue(null);
     }
 
 

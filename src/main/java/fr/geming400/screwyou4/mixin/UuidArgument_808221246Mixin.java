@@ -8,32 +8,32 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.commands.arguments.UuidArgument.class)
 public class UuidArgument_808221246Mixin {
         @Inject(at = @At("HEAD"), method = "parse(Lcom/mojang/brigadier/StringReader;)Ljava/util/UUID;", cancellable = true)
-    private void parse__1978411514(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1978411514L))
+    private void parse__1641910797(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1641910797L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "parse(Lcom/mojang/brigadier/StringReader;)Ljava/lang/Object;", cancellable = true)
-    private void parse_514839502(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(514839502L))
-            info.setReturnValue(new java.lang.Object());
-    }
-
-    @Inject(at = @At("HEAD"), method = "uuid()Lnet/minecraft/commands/arguments/UuidArgument;", cancellable = true)
-    private static void uuid__1551195339(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1551195339L))
-            info.setReturnValue(new net.minecraft.commands.arguments.UuidArgument());
-    }
-
-    @Inject(at = @At("HEAD"), method = "getExamples()Ljava/util/Collection;", cancellable = true)
-    private void getExamples__1005427027(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1005427027L))
+    private void parse_1769481339(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1769481339L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getUuid(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Ljava/util/UUID;", cancellable = true)
-    private static void getUuid_702968324(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(702968324L))
+    private static void getUuid_1114351155(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1114351155L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "uuid()Lnet/minecraft/commands/arguments/UuidArgument;", cancellable = true)
+    private static void uuid_1263899546(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1263899546L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getExamples()Ljava/util/Collection;", cancellable = true)
+    private void getExamples__1762132052(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1762132052L))
             info.setReturnValue(null);
     }
 

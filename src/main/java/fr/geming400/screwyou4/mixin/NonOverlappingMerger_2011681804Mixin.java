@@ -8,27 +8,27 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.phys.shapes.NonOverlappingMerger.class)
 public class NonOverlappingMerger_2011681804Mixin {
         @Inject(at = @At("HEAD"), method = "size()I", cancellable = true)
-    private void size_2049944049(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2049944049L))
-            info.setReturnValue(105655171);
+    private void size__1839553904(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1839553904L))
+            info.setReturnValue(100078794);
     }
 
     @Inject(at = @At("HEAD"), method = "getDouble(I)D", cancellable = true)
-    private void getDouble__1069385819(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1069385819L))
-            info.setReturnValue(5.491177002239034E8D);
+    private void getDouble__883251924(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-883251924L))
+            info.setReturnValue(1.1197900006094915E8D);
     }
 
     @Inject(at = @At("HEAD"), method = "getList()Lit/unimi/dsi/fastutil/doubles/DoubleList;", cancellable = true)
-    private void getList_1158221672(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1158221672L))
+    private void getList__2007865988(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2007865988L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "forMergedIndexes(Lnet/minecraft/world/phys/shapes/IndexMerger$IndexConsumer;)Z", cancellable = true)
-    private void forMergedIndexes__1510063174(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1510063174L))
-            info.setReturnValue(true);
+    private void forMergedIndexes__1090244187(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1090244187L))
+            info.setReturnValue(false);
     }
 
 

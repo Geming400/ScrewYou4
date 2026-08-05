@@ -8,44 +8,44 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.item.crafting.display.SlotDisplay.DyedSlotDemo.class)
 public class DyedSlotDemo399720629Mixin {
         @Inject(at = @At("HEAD"), method = "type()Lnet/minecraft/world/item/crafting/display/SlotDisplay$Type;", cancellable = true)
-    private void type_1114556154(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1114556154L))
+    private void type_604931636(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(604931636L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals_1785232888(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1785232888L))
+    private void equals__508905639(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-508905639L))
             info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "target()Lnet/minecraft/world/item/crafting/display/SlotDisplay;", cancellable = true)
-    private void target_1136674276(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1136674276L))
+    private void target__965909069(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-965909069L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__735739346(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-735739346L))
-            info.setReturnValue("\u6582]W.H=w\uC191<-o;\" 6;dE\u08F1G42_w}rd");
+    private void toString_1170144154(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1170144154L))
+            info.setReturnValue("V\u6329cCGL|%\u4B5B!9q\u8E1D_ 2xh$qM%");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_437983371(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(437983371L))
-            info.setReturnValue(-294580826);
+    private void hashCode_957072720(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(957072720L))
+            info.setReturnValue(1598661334);
     }
 
     @Inject(at = @At("HEAD"), method = "resolve(Lnet/minecraft/util/context/ContextMap;Lnet/minecraft/world/item/crafting/display/DisplayContentsFactory;)Ljava/util/stream/Stream;", cancellable = true)
-    private void resolve__1182395059(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1182395059L))
+    private void resolve__2096253383(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2096253383L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "dye()Lnet/minecraft/world/item/crafting/display/SlotDisplay;", cancellable = true)
-    private void dye_1136674276(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1136674276L))
+    private void dye__1388578444(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1388578444L))
             info.setReturnValue(null);
     }
 

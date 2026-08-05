@@ -8,33 +8,33 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.item.enchantment.Repairable.class)
 public class Repairable492991313Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals_1878503572(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1878503572L))
-            info.setReturnValue(true);
+    private void equals__415634955(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-415634955L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__642468662(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-642468662L))
-            info.setReturnValue("\u19E4<{]\u4030W\uA3347A\uC14A0QP\u00CD\u29BC ht4TYu\uA4E2WxeL3mn@@Z\u21BC930:]/)#-\u7E9Egg3\uD4000uccF48`|\u6866fEZ'nk9{_6S");
+    private void toString_1263414838(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1263414838L))
+            info.setReturnValue("DjO(b *\u132DVD+))VHT\u2382#+\"'@-o_\u2948tH\uD5BD_o|Lp3L(vu`5]rZTa\u3A97\uA241*\u1226. G%x\u1F5B9:h_\u6682#\u9E02s");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_531254055(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(531254055L))
-            info.setReturnValue(217937788);
+    private void hashCode_1050343404(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1050343404L))
+            info.setReturnValue(335589207);
     }
 
     @Inject(at = @At("HEAD"), method = "items()Lnet/minecraft/core/HolderSet;", cancellable = true)
-    private void items_2112944357(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2112944357L))
+    private void items_2084892837(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2084892837L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "isValidRepairItem(Lnet/minecraft/world/item/ItemStack;)Z", cancellable = true)
-    private void isValidRepairItem__2067440851(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2067440851L))
-            info.setReturnValue(true);
+    private void isValidRepairItem__1800430437(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1800430437L))
+            info.setReturnValue(false);
     }
 
 

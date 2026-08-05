@@ -8,15 +8,15 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.level.validation.ContentValidationException.class)
 public class ContentValidationException_1246311511Mixin {
         @Inject(at = @At("HEAD"), method = "getMessage(Ljava/nio/file/Path;Ljava/util/List;)Ljava/lang/String;", cancellable = true)
-    private static void getMessage_1884795079(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1884795079L))
-            info.setReturnValue("l5fUJSG3W\uAFEEB.\u105Fa7dUeelafnD3^|o\u66ADRAr)(\"hL=|\uCAE5H2z3x\u86E1");
+    private static void getMessage_464278872(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(464278872L))
+            info.setReturnValue("ABNBt#rjdc+!rn=x0dLf)I)*g FABwxb%CD}yN+'");
     }
 
     @Inject(at = @At("HEAD"), method = "getMessage()Ljava/lang/String;", cancellable = true)
-    private void getMessage_110851039(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(110851039L))
-            info.setReturnValue("y]@B(sJ9\u936D\u130F,))X\u2596hQ5h\u848BX\uB6FAUHR(>qTkkfWhx2w\"Vo*hFxzf%Sc&\uAD40XTl\u222ASK\u3769j\u91B1!4M\uB8F1v\u2398T0\uA452'(et1$M:aAMe5L");
+    private void getMessage_606309616(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(606309616L))
+            info.setReturnValue("}T\u01FEu{EtRa9s7avI2J<\u00B1\uD6CBGTG5\"(A9UGNkQ[3r;56pPMb\u754B)OSEQ[;\u9976\uAA46s(GcXr\u2F20G_NRu\u4187.Bivr0pUx* )4Y*u");
     }
 
 

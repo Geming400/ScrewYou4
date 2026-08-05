@@ -8,27 +8,27 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.level.block.state.properties.Half.class)
 public class Half_1264611169Mixin {
         @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString_129150697(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(129150697L))
-            info.setReturnValue("$fIq`;O\uA9C4[R2Rj|b.`6oWA)Rt");
+    private void toString_2035034197(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2035034197L))
+            info.setReturnValue("{n.");
     }
 
     @Inject(at = @At("HEAD"), method = "values()[Lnet/minecraft/world/level/block/state/properties/Half;", cancellable = true)
-    private static void values_1867690736(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1867690736L))
+    private static void values__1211752174(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1211752174L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/world/level/block/state/properties/Half;", cancellable = true)
-    private static void valueOf__132346925(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-132346925L))
-            info.setReturnValue(net.minecraft.world.level.block.state.properties.Half.TOP);
+    private static void valueOf__1523045973(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1523045973L))
+            info.setReturnValue(net.minecraft.world.level.block.state.properties.Half.BOTTOM);
     }
 
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
-    private void getSerializedName_129150697(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(129150697L))
-            info.setReturnValue("$fIq`;O\uA9C4[R2Rj|b.`6oWA)Rt");
+    private void getSerializedName_1352819790(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1352819790L))
+            info.setReturnValue("29\u2E2D{FlIH=o&s,Dlx/o@?9%C:W&ynj}W\u49CE;2|tUB3Osepfqy\u9026A\u4A8D\u1A90Ebx?=@Rl%\u9134g7ufCERhQ'8[");
     }
 
 

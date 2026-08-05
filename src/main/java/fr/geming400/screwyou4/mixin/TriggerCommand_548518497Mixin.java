@@ -8,14 +8,14 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.server.commands.TriggerCommand.class)
 public class TriggerCommand_548518497Mixin {
         @Inject(at = @At("HEAD"), method = "register(Lcom/mojang/brigadier/CommandDispatcher;)V", cancellable = true)
-    private static void register__395041727(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-395041727L))
+    private static void register_430563966(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(430563966L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "suggestObjectives(Lnet/minecraft/commands/CommandSourceStack;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
-    private static void suggestObjectives_1939632770(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1939632770L))
+    private static void suggestObjectives__1444232508(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1444232508L))
             info.setReturnValue(new java.util.concurrent.CompletableFuture());
     }
 

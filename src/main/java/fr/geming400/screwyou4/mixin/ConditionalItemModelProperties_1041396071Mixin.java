@@ -8,8 +8,8 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.renderer.item.properties.conditional.ConditionalItemModelProperties.class)
 public class ConditionalItemModelProperties_1041396071Mixin {
         @Inject(at = @At("HEAD"), method = "bootstrap()V", cancellable = true)
-    private static void bootstrap_1079671057(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1079671057L))
+    private static void bootstrap__396722333(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-396722333L))
             info.cancel();
     }
 

@@ -8,26 +8,26 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.level.levelgen.Column.Line.class)
 public class Line346837132Mixin {
         @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__788623339(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-788623339L))
-            info.setReturnValue(";VRwR+! P\"6hjpT;JcV7?Rf5\u10DFVclA':P;xGHJ<=\u1FA7N,of\u3002+Eo!dPm#Q,\uBA59\u0606L 7Wx");
+    private void toString_1117260161(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1117260161L))
+            info.setReturnValue("HEIHj{`Q\u17A8`>n7\uC75Dia\u24AFa7L=z=|L\uFCDCCp6`]V\u79D2Y9!h\u934DZy:o\u9EBB\u1B0AR%]}hQ2IF\uFEC7<K/}6 \u565Cy_");
     }
 
     @Inject(at = @At("HEAD"), method = "getHeight()Ljava/util/OptionalInt;", cancellable = true)
-    private void getHeight__1823734655(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1823734655L))
+    private void getHeight_2121901636(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2121901636L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getFloor()Ljava/util/OptionalInt;", cancellable = true)
-    private void getFloor__1823734655(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1823734655L))
+    private void getFloor__1731693461(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1731693461L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getCeiling()Ljava/util/OptionalInt;", cancellable = true)
-    private void getCeiling__1823734655(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1823734655L))
+    private void getCeiling_833025946(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(833025946L))
             info.setReturnValue(null);
     }
 

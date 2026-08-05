@@ -8,27 +8,27 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.item.enchantment.effects.SpawnParticlesEffect.PositionSourceType.class)
 public class PositionSourceType_1346934999Mixin {
         @Inject(at = @At("HEAD"), method = "values()[Lnet/minecraft/world/item/enchantment/effects/SpawnParticlesEffect$PositionSourceType;", cancellable = true)
-    private static void values_630578854(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(630578854L))
+    private static void values_1620913220(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1620913220L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/world/item/enchantment/effects/SpawnParticlesEffect$PositionSourceType;", cancellable = true)
-    private static void valueOf_1012509027(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1012509027L))
-            info.setReturnValue(net.minecraft.world.item.enchantment.effects.SpawnParticlesEffect.PositionSourceType.ENTITY_POSITION);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
-    private void getSerializedName_211474527(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(211474527L))
-            info.setReturnValue("9ZS*)j\u919D1GlcnVj.2wsd^.UAs\u717D\u50FDKjQ9hJ( ]?r8c$]o]k/Gx&@'g@&<pq_y'z3p*e!$1&D\uA0C8\uA89AG\u9AA95>\u765E2<\uCD2F6BiM\u1567O}]&[");
+    private static void valueOf_734023819(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(734023819L))
+            info.setReturnValue(net.minecraft.world.item.enchantment.effects.SpawnParticlesEffect.PositionSourceType.BOUNDING_BOX);
     }
 
     @Inject(at = @At("HEAD"), method = "getCoordinate(DDFLnet/minecraft/util/RandomSource;)D", cancellable = true)
-    private void getCoordinate__747367199(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-747367199L))
-            info.setReturnValue(1.448103005537141E8D);
+    private void getCoordinate__525640909(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-525640909L))
+            info.setReturnValue(9.834769001433268E8D);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
+    private void getSerializedName_1435143620(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1435143620L))
+            info.setReturnValue(")x,@sPK\uA660\u3993P868\u50C15B>\u6132P*hz\uB411)\uCE2Bu=T{");
     }
 
 

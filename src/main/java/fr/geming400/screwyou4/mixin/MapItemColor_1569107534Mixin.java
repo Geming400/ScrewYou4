@@ -8,27 +8,27 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.item.component.MapItemColor.class)
 public class MapItemColor_1569107534Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals__1340347504(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1340347504L))
-            info.setReturnValue(true);
+    private void equals_660481265(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(660481265L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString_433647558(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(433647558L))
-            info.setReturnValue("e--2)}#XPHE94RX#\u7820_u+8yWxo?-*xVpos:.i\u01E78aD\u72ECIGL84!\u5E2B.rNE.WxsrBTP|SEdJ[\u22CA\uD3745|O");
+    private void toString__1955436238(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1955436238L))
+            info.setReturnValue("hM\uC0B1^+C:|J.pl3mjM\u0844VO9J\u5BE2I:v^^_s5E4V(tX[TEK9D<`cW,\u01E5>hvCt(\uD375\uD183eOD:4Zv@=S\u3255\u9394&");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_1607370275(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1607370275L))
-            info.setReturnValue(-688912875);
+    private void hashCode_2126459624(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2126459624L))
+            info.setReturnValue(-908228680);
     }
 
     @Inject(at = @At("HEAD"), method = "rgb()I", cancellable = true)
-    private void rgb_1607369779(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1607369779L))
-            info.setReturnValue(-485765456);
+    private void rgb__1846459514(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1846459514L))
+            info.setReturnValue(-692665392);
     }
 
 

@@ -8,8 +8,8 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.data.advancements.packs.VanillaTheEndAdvancements.class)
 public class VanillaTheEndAdvancements824539690Mixin {
         @Inject(at = @At("HEAD"), method = "generate(Lnet/minecraft/core/HolderLookup$Provider;Ljava/util/function/Consumer;)V", cancellable = true)
-    private void generate__1806560469(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1806560469L))
+    private void generate_1929017632(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1929017632L))
             info.cancel();
     }
 

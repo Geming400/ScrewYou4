@@ -8,8 +8,8 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.renderer.state.level.SkyRenderState.class)
 public class SkyRenderState_1018221106Mixin {
         @Inject(at = @At("HEAD"), method = "reset()V", cancellable = true)
-    private void reset_1056495844(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1056495844L))
+    private void reset__711215883(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-711215883L))
             info.cancel();
     }
 

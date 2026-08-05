@@ -8,87 +8,87 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.gui.components.debug.DebugScreenEntryList.class)
 public class DebugScreenEntryList1276273089Mixin {
         @Inject(at = @At("HEAD"), method = "load()V", cancellable = true)
-    private void load_1314547828(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1314547828L))
+    private void load__1682128050(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1682128050L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "save()V", cancellable = true)
-    private void save_1314547828(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1314547828L))
+    private void save_1407388951(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1407388951L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "getStatus(Lnet/minecraft/resources/Identifier;)Lnet/minecraft/client/gui/components/debug/DebugScreenEntryStatus;", cancellable = true)
-    private void getStatus_34474705(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(34474705L))
+    private void getStatus__1443521607(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1443521607L))
             info.setReturnValue(net.minecraft.client.gui.components.debug.DebugScreenEntryStatus.IN_OVERLAY);
     }
 
-    @Inject(at = @At("HEAD"), method = "toggleStatus(Lnet/minecraft/resources/Identifier;)Z", cancellable = true)
-    private void toggleStatus__218164224(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-218164224L))
-            info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "toggleDebugOverlay()V", cancellable = true)
-    private void toggleDebugOverlay_1314547828(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1314547828L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "isOverlayVisible()Z", cancellable = true)
-    private void isOverlayVisible_1314551672(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1314551672L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "setOverlayVisible(Z)V", cancellable = true)
-    private void setOverlayVisible__1789077378(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1789077378L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "getCurrentlyEnabled()Ljava/util/Collection;", cancellable = true)
-    private void getCurrentlyEnabled__537375183(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-537375183L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "setStatus(Lnet/minecraft/resources/Identifier;Lnet/minecraft/client/gui/components/debug/DebugScreenEntryStatus;)V", cancellable = true)
-    private void setStatus_437420629(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(437420629L))
+    @Inject(at = @At("HEAD"), method = "rebuildCurrentList()V", cancellable = true)
+    private void rebuildCurrentList__1463864488(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1463864488L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "isCurrentlyEnabled(Lnet/minecraft/resources/Identifier;)Z", cancellable = true)
-    private void isCurrentlyEnabled__218164224(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-218164224L))
+    private void isCurrentlyEnabled_1633080507(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1633080507L))
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "rebuildCurrentList()V", cancellable = true)
-    private void rebuildCurrentList_1314547828(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1314547828L))
+    @Inject(at = @At("HEAD"), method = "getCurrentlyEnabled()Ljava/util/Collection;", cancellable = true)
+    private void getCurrentlyEnabled__1613063678(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1613063678L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isOverlayVisible()Z", cancellable = true)
+    private void isOverlayVisible_257320236(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(257320236L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "setOverlayVisible(Z)V", cancellable = true)
+    private void setOverlayVisible_984122498(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(984122498L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "isUsingProfile(Lnet/minecraft/client/gui/components/debug/DebugScreenProfile;)Z", cancellable = true)
-    private void isUsingProfile_277473356(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(277473356L))
+    private void isUsingProfile__1161322723(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1161322723L))
             info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "loadProfile(Lnet/minecraft/client/gui/components/debug/DebugScreenProfile;)V", cancellable = true)
-    private void loadProfile_277469512(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(277469512L))
+    private void loadProfile__206613371(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-206613371L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "getCurrentlyEnabledVersion()J", cancellable = true)
-    private void getCurrentlyEnabledVersion_1314536296(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1314536296L))
-            info.setReturnValue(5744903220341427192L);
+    private void getCurrentlyEnabledVersion__1439000767(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1439000767L))
+            info.setReturnValue(-1995968150424734370L);
+    }
+
+    @Inject(at = @At("HEAD"), method = "toggleStatus(Lnet/minecraft/resources/Identifier;)Z", cancellable = true)
+    private void toggleStatus__102066598(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-102066598L))
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "toggleDebugOverlay()V", cancellable = true)
+    private void toggleDebugOverlay__301239517(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-301239517L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "setStatus(Lnet/minecraft/resources/Identifier;Lnet/minecraft/client/gui/components/debug/DebugScreenEntryStatus;)V", cancellable = true)
+    private void setStatus__131683615(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-131683615L))
+            info.cancel();
     }
 
 

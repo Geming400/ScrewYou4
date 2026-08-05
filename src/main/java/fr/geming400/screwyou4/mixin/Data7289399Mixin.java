@@ -8,32 +8,32 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.item.crafting.ShapedRecipePattern.Data.class)
 public class Data7289399Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals_1392801658(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1392801658L))
+    private void equals__901336869(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-901336869L))
             info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__1128170576(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1128170576L))
-            info.setReturnValue("gm!\uD344Vz\u833DbU6?*y\u9685VaLSX1U{v5e\u7490>3xGin<rY4>6(}PV\uAC45n'l|&V[t\"E)Dd7-%N}N}h");
+    private void toString_777712924(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(777712924L))
+            info.setReturnValue("]df#DcS sr9>aMpH\u2917!sD%Ov3<ncyPw7:\uB9EExsA\u1D5FdAEOq|)\uAF9DK8\u662BtGo6)\u79D0^^AT{]+JT%03K\uB496z`Up |9v\u3AE6V;zS`");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_45552141(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(45552141L))
-            info.setReturnValue(543188249);
+    private void hashCode_564641490(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(564641490L))
+            info.setReturnValue(-468590612);
     }
 
     @Inject(at = @At("HEAD"), method = "pattern()Ljava/util/List;", cancellable = true)
-    private void pattern_1633626215(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1633626215L))
+    private void pattern__711021577(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-711021577L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "key()Ljava/util/Map;", cancellable = true)
-    private void key__1997334241(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1997334241L))
+    private void key_917456992(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(917456992L))
             info.setReturnValue(null);
     }
 

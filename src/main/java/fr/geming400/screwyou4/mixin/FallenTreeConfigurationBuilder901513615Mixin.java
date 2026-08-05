@@ -8,20 +8,20 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.level.levelgen.feature.configurations.FallenTreeConfiguration.FallenTreeConfigurationBuilder.class)
 public class FallenTreeConfigurationBuilder901513615Mixin {
         @Inject(at = @At("HEAD"), method = "build()Lnet/minecraft/world/level/levelgen/feature/configurations/FallenTreeConfiguration;", cancellable = true)
-    private void build_1625816177(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1625816177L))
+    private void build_1270958659(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1270958659L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "logDecorators(Ljava/util/List;)Lnet/minecraft/world/level/levelgen/feature/configurations/FallenTreeConfiguration$FallenTreeConfigurationBuilder;", cancellable = true)
-    private void logDecorators__1749966397(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1749966397L))
+    private void logDecorators_263093951(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(263093951L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "stumpDecorators(Ljava/util/List;)Lnet/minecraft/world/level/levelgen/feature/configurations/FallenTreeConfiguration$FallenTreeConfigurationBuilder;", cancellable = true)
-    private void stumpDecorators__1749966397(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1749966397L))
+    private void stumpDecorators__119524270(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-119524270L))
             info.setReturnValue(null);
     }
 

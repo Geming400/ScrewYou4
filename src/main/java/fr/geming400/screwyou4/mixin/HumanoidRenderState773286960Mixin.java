@@ -8,9 +8,9 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.renderer.entity.state.HumanoidRenderState.class)
 public class HumanoidRenderState773286960Mixin {
         @Inject(at = @At("HEAD"), method = "ticksUsingItem(Lnet/minecraft/world/entity/HumanoidArm;)F", cancellable = true)
-    private void ticksUsingItem__327053442(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-327053442L))
-            info.setReturnValue(6.680111E8F);
+    private void ticksUsingItem_1903992125(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1903992125L))
+            info.setReturnValue(5.652255E8F);
     }
 
 

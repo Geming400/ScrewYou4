@@ -8,50 +8,50 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.timeline.AttributeTrack.class)
 public class AttributeTrack1721732463Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals__1187722574(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1187722574L))
-            info.setReturnValue(false);
+    private void equals_813106195(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(813106195L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString_586272488(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(586272488L))
-            info.setReturnValue("'n");
+    private void toString__1802811308(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1802811308L))
+            info.setReturnValue("\u0E17zrfQ\u70D7D\uD792EPX]\u333Dz t`KU2(|dfe.XpUh$P%<^|#}h$}=qGB/\u5DB9q{o\u559788U<C4\uD4E5sx\uA7B8O");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_1759995205(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1759995205L))
-            info.setReturnValue(-1662097740);
+    private void hashCode__2015882742(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2015882742L))
+            info.setReturnValue(-565576316);
     }
 
     @Inject(at = @At("HEAD"), method = "modifier()Lnet/minecraft/world/attribute/modifier/AttributeModifier;", cancellable = true)
-    private void modifier__901797378(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-901797378L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "createCodec(Lnet/minecraft/world/attribute/EnvironmentAttribute;)Lcom/mojang/serialization/Codec;", cancellable = true)
-    private static void createCodec_1565814987(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1565814987L))
+    private void modifier_1713389205(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1713389205L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "bakeSampler(Lnet/minecraft/world/attribute/EnvironmentAttribute;Lnet/minecraft/core/Holder;Ljava/util/Optional;Lnet/minecraft/world/clock/ClockManager;)Lnet/minecraft/world/timeline/AttributeTrackSampler;", cancellable = true)
-    private void bakeSampler__1257653209(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1257653209L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "validatePeriod(Lnet/minecraft/world/timeline/AttributeTrack;I)Lcom/mojang/serialization/DataResult;", cancellable = true)
-    private static void validatePeriod__1309190428(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1309190428L))
+    private void bakeSampler__1895485992(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1895485992L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "argumentTrack()Lnet/minecraft/util/KeyframeTrack;", cancellable = true)
-    private void argumentTrack_588338873(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(588338873L))
+    private void argumentTrack_149081287(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(149081287L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "validatePeriod(Lnet/minecraft/world/timeline/AttributeTrack;I)Lcom/mojang/serialization/DataResult;", cancellable = true)
+    private static void validatePeriod_1431234189(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1431234189L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "createCodec(Lnet/minecraft/world/attribute/EnvironmentAttribute;)Lcom/mojang/serialization/Codec;", cancellable = true)
+    private static void createCodec_1673269061(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1673269061L))
             info.setReturnValue(null);
     }
 

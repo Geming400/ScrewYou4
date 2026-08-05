@@ -8,74 +8,74 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.core.component.DataComponentExactPredicate.class)
 public class DataComponentExactPredicate1934824685Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals__974630848(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-974630848L))
-            info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString_799364214(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(799364214L))
-            info.setReturnValue("W\u8570(K/Z:#g8/&14f]X\u1037w7]\u7726Zj9^Ku7@%4\uD120BOP[]\"zZ:BL\uC3466qsgJ nM\uA532Lu!o=>F7nwwodj5uq6+J$\uD14E");
-    }
-
-    @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_1973086931(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1973086931L))
-            info.setReturnValue(-715953278);
-    }
-
-    @Inject(at = @At("HEAD"), method = "test(Ljava/lang/Object;)Z", cancellable = true)
-    private void test__974501888(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-974501888L))
+    private void equals_1026197921(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1026197921L))
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "test(Lnet/minecraft/core/component/DataComponentGetter;)Z", cancellable = true)
-    private void test__526491389(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-526491389L))
+    @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
+    private void toString__1589719582(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1589719582L))
+            info.setReturnValue("%C&g-,\uC5E7`\u5AAAf+\u5BA1'Xk\u631FTY?\u7420x_\u8CC4a9rTUxVpli\u3E76I\u08D3u\u5DD1\u50F0C8(\"XJF[ -uVE:\uC371 j^7:U ");
+    }
+
+    @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
+    private void hashCode__1802791016(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1802791016L))
+            info.setReturnValue(-2021041787);
+    }
+
+    @Inject(at = @At("HEAD"), method = "test(Ljava/lang/Object;)Z", cancellable = true)
+    private void test_197852974(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(197852974L))
             info.setReturnValue(false);
     }
 
+    @Inject(at = @At("HEAD"), method = "test(Lnet/minecraft/core/component/DataComponentGetter;)Z", cancellable = true)
+    private void test_2057756721(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2057756721L))
+            info.setReturnValue(true);
+    }
+
     @Inject(at = @At("HEAD"), method = "isEmpty()Z", cancellable = true)
-    private void isEmpty_1973103268(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1973103268L))
+    private void isEmpty__1301026239(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1301026239L))
             info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "builder()Lnet/minecraft/core/component/DataComponentExactPredicate$Builder;", cancellable = true)
-    private static void builder_713450303(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(713450303L))
+    private static void builder_1507367578(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1507367578L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "allOf(Lnet/minecraft/core/component/DataComponentMap;)Lnet/minecraft/core/component/DataComponentExactPredicate;", cancellable = true)
-    private static void allOf__1016857258(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1016857258L))
+    private static void allOf_221785342(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(221785342L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "expect(Lnet/minecraft/core/component/DataComponentType;Ljava/lang/Object;)Lnet/minecraft/core/component/DataComponentExactPredicate;", cancellable = true)
-    private static void expect_458722826(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(458722826L))
+    private static void expect__2128483741(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2128483741L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "someOf(Lnet/minecraft/core/component/DataComponentMap;[Lnet/minecraft/core/component/DataComponentType;)Lnet/minecraft/core/component/DataComponentExactPredicate;", cancellable = true)
-    private static void someOf_428405915(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(428405915L))
+    @Inject(at = @At("HEAD"), method = "asPatch()Lnet/minecraft/core/component/DataComponentPatch;", cancellable = true)
+    private void asPatch_1076798488(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1076798488L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "alwaysMatches()Z", cancellable = true)
-    private void alwaysMatches_1973103268(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1973103268L))
+    private void alwaysMatches_1603186944(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1603186944L))
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "asPatch()Lnet/minecraft/core/component/DataComponentPatch;", cancellable = true)
-    private void asPatch_209650062(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(209650062L))
+    @Inject(at = @At("HEAD"), method = "someOf(Lnet/minecraft/core/component/DataComponentMap;[Lnet/minecraft/core/component/DataComponentType;)Lnet/minecraft/core/component/DataComponentExactPredicate;", cancellable = true)
+    private static void someOf__461641402(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-461641402L))
             info.setReturnValue(null);
     }
 

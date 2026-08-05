@@ -8,20 +8,20 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.util.valueproviders.IntProviders.class)
 public class IntProviders_1433849845Mixin {
         @Inject(at = @At("HEAD"), method = "bootstrap(Lnet/minecraft/core/Registry;)Lcom/mojang/serialization/MapCodec;", cancellable = true)
-    private static void bootstrap_2028439014(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2028439014L))
+    private static void bootstrap__1844314796(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1844314796L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "codec(II)Lcom/mojang/serialization/Codec;", cancellable = true)
-    private static void codec_168030738(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(168030738L))
+    private static void codec__269205080(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-269205080L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "validateCodec(IILcom/mojang/serialization/Codec;)Lcom/mojang/serialization/Codec;", cancellable = true)
-    private static void validateCodec_1338618859(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1338618859L))
+    private static void validateCodec__1511784309(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1511784309L))
             info.setReturnValue(null);
     }
 

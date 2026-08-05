@@ -8,27 +8,27 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.level.levelgen.synth.ImprovedNoise.class)
 public class ImprovedNoise_2019749968Mixin {
         @Inject(at = @At("HEAD"), method = "noise(DDD)D", cancellable = true)
-    private void noise_949325796(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(949325796L))
-            info.setReturnValue(7.406460012773602E7D);
+    private void noise_1488190718(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1488190718L))
+            info.setReturnValue(8.493109008385412E8D);
     }
 
     @Inject(at = @At("HEAD"), method = "noise(DDDDD)D", cancellable = true)
-    private void noise_584950116(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(584950116L))
-            info.setReturnValue(7.406460099738987E7D);
-    }
-
-    @Inject(at = @At("HEAD"), method = "noiseWithDerivative(DDD[D)D", cancellable = true)
-    private void noiseWithDerivative_1243420589(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1243420589L))
-            info.setReturnValue(7.406460086574025E7D);
+    private void noise__1256902658(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1256902658L))
+            info.setReturnValue(8.493109000686752E8D);
     }
 
     @Inject(at = @At("HEAD"), method = "parityConfigString(Ljava/lang/StringBuilder;)V", cancellable = true)
-    private void parityConfigString__1207434845(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1207434845L))
+    private void parityConfigString__2038118237(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-2038118237L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "noiseWithDerivative(DDD[D)D", cancellable = true)
+    private void noiseWithDerivative__567322732(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-567322732L))
+            info.setReturnValue(8.49310900487261E8D);
     }
 
 

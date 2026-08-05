@@ -8,20 +8,20 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.level.storage.loot.functions.SetCustomModelDataFunction.class)
 public class SetCustomModelDataFunction1144166Mixin {
         @Inject(at = @At("HEAD"), method = "run(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/storage/loot/LootContext;)Lnet/minecraft/world/item/ItemStack;", cancellable = true)
-    private void run__160203642(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-160203642L))
+    private void run_1233225489(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1233225489L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "validate(Lnet/minecraft/world/level/storage/loot/ValidationContext;)V", cancellable = true)
-    private void validate_1577774857(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1577774857L))
+    private void validate__1017574605(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1017574605L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
-    private void codec_1736997890(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1736997890L))
+    private void codec_1067589420(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1067589420L))
             info.setReturnValue(null);
     }
 

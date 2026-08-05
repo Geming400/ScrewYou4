@@ -8,8 +8,8 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.renderer.entity.state.VillagerRenderState.class)
 public class VillagerRenderState1962756871Mixin {
         @Inject(at = @At("HEAD"), method = "getVillagerData()Lnet/minecraft/world/entity/npc/villager/VillagerData;", cancellable = true)
-    private void getVillagerData__1626715387(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1626715387L))
+    private void getVillagerData__1041019893(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1041019893L))
             info.setReturnValue(null);
     }
 

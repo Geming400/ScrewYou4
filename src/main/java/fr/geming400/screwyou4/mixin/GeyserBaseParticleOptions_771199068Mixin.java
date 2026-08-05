@@ -8,57 +8,57 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.core.particles.GeyserBaseParticleOptions.class)
 public class GeyserBaseParticleOptions_771199068Mixin {
         @Inject(at = @At("HEAD"), method = "type()Lnet/minecraft/core/particles/ParticleType;", cancellable = true)
-    private void type_1046403393(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1046403393L))
+    private void type__1413671225(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1413671225L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals__2138255970(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2138255970L))
+    private void equals__137427201(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-137427201L))
             info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__364260908(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-364260908L))
-            info.setReturnValue("CGQd)<YP\u1073#iL2:qa!\uC7C8}_0m//k`o(44jP.}?i_pi\u1D28XU' Mwvi(qKHIk");
+    private void toString_1541622592(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1541622592L))
+            info.setReturnValue("$+0p\u733Ab\uD13Eoz)t\"\u931B:\u82DF&/\uBA22b5FoM\uB003j]=\uB5FFt\u8381OuD{\"?t!^8P|Z/\uFE2D\u9EF0\u2758K5h1EL\u1707cFC&D");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_809461809(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(809461809L))
-            info.setReturnValue(-1052605630);
+    private void hashCode_1328551158(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1328551158L))
+            info.setReturnValue(-725870958);
     }
 
     @Inject(at = @At("HEAD"), method = "getType()Lnet/minecraft/core/particles/ParticleType;", cancellable = true)
-    private void getType_1046403393(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1046403393L))
+    private void getType_968313745(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(968313745L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "codec(Lnet/minecraft/core/particles/ParticleType;)Lcom/mojang/serialization/MapCodec;", cancellable = true)
-    private static void codec_536298984(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(536298984L))
+    private static void codec_337579134(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(337579134L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "streamCodec(Lnet/minecraft/core/particles/ParticleType;)Lnet/minecraft/network/codec/StreamCodec;", cancellable = true)
-    private static void streamCodec_128153160(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(128153160L))
+    private static void streamCodec__148060994(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-148060994L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "waterBlocks()I", cancellable = true)
-    private void waterBlocks_809461313(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(809461313L))
-            info.setReturnValue(1844953661);
+    @Inject(at = @At("HEAD"), method = "burstImpulseBase()F", cancellable = true)
+    private void burstImpulseBase_1081612952(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1081612952L))
+            info.setReturnValue(3.71857E7F);
     }
 
-    @Inject(at = @At("HEAD"), method = "burstImpulseBase()F", cancellable = true)
-    private void burstImpulseBase_809458430(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(809458430L))
-            info.setReturnValue(3.16366E7F);
+    @Inject(at = @At("HEAD"), method = "waterBlocks()I", cancellable = true)
+    private void waterBlocks__1096303900(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1096303900L))
+            info.setReturnValue(-524600791);
     }
 
 

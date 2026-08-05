@@ -8,8 +8,8 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.sounds.SoundPreviewHandler.class)
 public class SoundPreviewHandler141676243Mixin {
         @Inject(at = @At("HEAD"), method = "preview(Lnet/minecraft/client/sounds/SoundManager;Lnet/minecraft/sounds/SoundSource;F)V", cancellable = true)
-    private static void preview__35974526(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-35974526L))
+    private static void preview_599479370(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(599479370L))
             info.cancel();
     }
 

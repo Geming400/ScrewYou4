@@ -8,26 +8,26 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.server.ChainedJsonException.class)
 public class ChainedJsonException1404167883Mixin {
         @Inject(at = @At("HEAD"), method = "getMessage()Ljava/lang/String;", cancellable = true)
-    private void getMessage_268707412(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(268707412L))
-            info.setReturnValue("Uw@@W=vIrDBwu_Hk.'\u8ABA2z>nP,>8, LRdftb=TLm\u1569sr\u8C73mNCTYG/\u4D08K8V2zO!Y/\uCAE2\u12FD#%b<\u3DCE76 3f`2u\"o}Ne6Hd%1Nse<6\u0DA0m\uD4E0Q=");
+    private void getMessage_764165989(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(764165989L))
+            info.setReturnValue("NscZ");
     }
 
     @Inject(at = @At("HEAD"), method = "prependJsonKey(Ljava/lang/String;)V", cancellable = true)
-    private void prependJsonKey__1738438264(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1738438264L))
+    private void prependJsonKey_937452159(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(937452159L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "forException(Ljava/lang/Exception;)Lnet/minecraft/server/ChainedJsonException;", cancellable = true)
-    private static void forException__85851932(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-85851932L))
+    private static void forException__353348758(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-353348758L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "setFilenameAndFlush(Ljava/lang/String;)V", cancellable = true)
-    private void setFilenameAndFlush__1738438264(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1738438264L))
+    private void setFilenameAndFlush__250391118(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-250391118L))
             info.cancel();
     }
 

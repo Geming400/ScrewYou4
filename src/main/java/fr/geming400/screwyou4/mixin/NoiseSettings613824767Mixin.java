@@ -8,69 +8,69 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.level.levelgen.NoiseSettings.class)
 public class NoiseSettings613824767Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals_1999337026(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1999337026L))
+    private void equals__294801501(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-294801501L))
             info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__521635208(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-521635208L))
-            info.setReturnValue("%?pHK\u4595\uBCDCB7hQO\u85F4{f\u9A45y*LSnCEnu\u7A78hFBbB}njW8ZU\uC81Bi>U?^1t))_\u04DC%*Zxb\"G}`\u0E12}_^wugi!]^[Sl{#,#feb\uA422G\u16F5?i:");
+    private void toString_1384248292(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1384248292L))
+            info.setReturnValue("t;T496iOKV\u1653=]pf-D2\u8FF3L5l\u12EDwn");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_652087509(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(652087509L))
-            info.setReturnValue(1385233012);
+    private void hashCode_1171176858(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1171176858L))
+            info.setReturnValue(-1284039947);
     }
 
     @Inject(at = @At("HEAD"), method = "create(IIII)Lnet/minecraft/world/level/levelgen/NoiseSettings;", cancellable = true)
-    private static void create__77133873(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-77133873L))
+    private static void create__981846581(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-981846581L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "minY()I", cancellable = true)
-    private void minY_652087013(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(652087013L))
-            info.setReturnValue(-12174993);
+    private void minY_908689150(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(908689150L))
+            info.setReturnValue(1232075194);
     }
 
     @Inject(at = @At("HEAD"), method = "height()I", cancellable = true)
-    private void height_652087013(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(652087013L))
-            info.setReturnValue(-12174993);
+    private void height__471523810(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-471523810L))
+            info.setReturnValue(-1581651078);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getCellHeight()I", cancellable = true)
+    private void getCellHeight__431768282(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-431768282L))
+            info.setReturnValue(-197847341);
     }
 
     @Inject(at = @At("HEAD"), method = "clampToHeightAccessor(Lnet/minecraft/world/level/LevelHeightAccessor;)Lnet/minecraft/world/level/levelgen/NoiseSettings;", cancellable = true)
-    private void clampToHeightAccessor__2088661450(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2088661450L))
+    private void clampToHeightAccessor__2084371982(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2084371982L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getCellWidth()I", cancellable = true)
-    private void getCellWidth_652087013(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(652087013L))
-            info.setReturnValue(-12174993);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getCellHeight()I", cancellable = true)
-    private void getCellHeight_652087013(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(652087013L))
-            info.setReturnValue(-12174993);
+    private void getCellWidth__1440682793(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1440682793L))
+            info.setReturnValue(-502304517);
     }
 
     @Inject(at = @At("HEAD"), method = "noiseSizeHorizontal()I", cancellable = true)
-    private void noiseSizeHorizontal_652087013(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(652087013L))
-            info.setReturnValue(-12174993);
+    private void noiseSizeHorizontal__1880410746(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1880410746L))
+            info.setReturnValue(-1888951202);
     }
 
     @Inject(at = @At("HEAD"), method = "noiseSizeVertical()I", cancellable = true)
-    private void noiseSizeVertical_652087013(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(652087013L))
-            info.setReturnValue(-12174993);
+    private void noiseSizeVertical__536941900(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-536941900L))
+            info.setReturnValue(-1964972218);
     }
 
 

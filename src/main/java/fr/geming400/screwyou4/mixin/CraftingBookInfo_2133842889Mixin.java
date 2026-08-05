@@ -8,38 +8,38 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.item.crafting.CraftingRecipe.CraftingBookInfo.class)
 public class CraftingBookInfo_2133842889Mixin {
         @Inject(at = @At("HEAD"), method = "group()Ljava/lang/String;", cancellable = true)
-    private void group_998382417(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(998382417L))
-            info.setReturnValue("**A\u0973J/:sjfAtFCks]_\u361Dp-\u92E1\u2183G7G_M)17`&n\u2F6CB+Yi{[j\uB3527>-|y(1,zi&S3|k\u03C423 TT\u5DEEn]g6TogUa84?5R.q>G+Fx\u7AA9\uADBERDDm\u668AM!er");
+    private void group_289511568(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(289511568L))
+            info.setReturnValue("^#0!\"aP[c;x\u6B73g|s{*%AV6G\u287DL\u28DBc]vpOK\u37A7Qir\u22BF!?F7o\u8E6D87Q\uD459\u29EEO\uFD20,Q<p@X\u6C3B\u2C1CaHxg(");
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals__775612149(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-775612149L))
+    private void equals_1225216620(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1225216620L))
             info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString_998382913(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(998382913L))
-            info.setReturnValue("o]p\u6521Ab$&ta[|ta$cD<4S\u41FF\u5AD8{CH.YS_^#1KF");
+    private void toString__1390700883(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1390700883L))
+            info.setReturnValue("J%M\u6453%SCNc\u3DEC]Sg\u8249Da`\u14E2");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode__2122861666(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2122861666L))
-            info.setReturnValue(1991524335);
+    private void hashCode__1603772317(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1603772317L))
+            info.setReturnValue(981196289);
     }
 
     @Inject(at = @At("HEAD"), method = "category()Ljava/lang/Object;", cancellable = true)
-    private void category__301803229(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-301803229L))
+    private void category__314137695(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-314137695L))
             info.setReturnValue(new java.lang.Object());
     }
 
     @Inject(at = @At("HEAD"), method = "category()Lnet/minecraft/world/item/crafting/CraftingBookCategory;", cancellable = true)
-    private void category__589432021(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-589432021L))
+    private void category_57931561(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(57931561L))
             info.setReturnValue(net.minecraft.world.item.crafting.CraftingBookCategory.MISC);
     }
 

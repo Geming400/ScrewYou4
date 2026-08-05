@@ -7,22 +7,22 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.client.multiplayer.ChunkBatchSizeCalculator.class)
 public class ChunkBatchSizeCalculator1574751788Mixin {
-        @Inject(at = @At("HEAD"), method = "getDesiredChunksPerTick()F", cancellable = true)
-    private void getDesiredChunksPerTick_1613011151(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1613011151L))
-            info.setReturnValue(5.564024E8F);
-    }
-
-    @Inject(at = @At("HEAD"), method = "onBatchFinished(I)V", cancellable = true)
-    private void onBatchFinished__1506298536(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1506298536L))
+        @Inject(at = @At("HEAD"), method = "onBatchFinished(I)V", cancellable = true)
+    private void onBatchFinished_65185221(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(65185221L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "onBatchStart()V", cancellable = true)
-    private void onBatchStart_1613026527(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1613026527L))
+    private void onBatchStart__1549057864(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1549057864L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getDesiredChunksPerTick()F", cancellable = true)
+    private void getDesiredChunksPerTick__346055425(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-346055425L))
+            info.setReturnValue(6.603835E8F);
     }
 
 

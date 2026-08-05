@@ -8,116 +8,116 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.core.component.PatchedDataComponentMap.class)
 public class PatchedDataComponentMap_724082478Mixin {
         @Inject(at = @At("HEAD"), method = "remove(Lnet/minecraft/core/component/DataComponentType;)Ljava/lang/Object;", cancellable = true)
-    private void remove_560990072(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(560990072L))
+    private void remove_845769980(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(845769980L))
             info.setReturnValue(new java.lang.Object());
     }
 
     @Inject(at = @At("HEAD"), method = "size()I", cancellable = true)
-    private void size_762344723(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(762344723L))
-            info.setReturnValue(-1091107882);
+    private void size_1167814066(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1167814066L))
+            info.setReturnValue(-980225392);
     }
 
     @Inject(at = @At("HEAD"), method = "get(Lnet/minecraft/core/component/DataComponentType;)Ljava/lang/Object;", cancellable = true)
-    private void get_560990072(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(560990072L))
-            info.setReturnValue(new java.lang.Object());
+    private void get__1904177586(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1904177586L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals_2109594240(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2109594240L))
-            info.setReturnValue(false);
+    private void equals__184544287(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-184544287L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__411377994(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-411377994L))
-            info.setReturnValue("k+Hf\u4197lSx\u8584/@K=xYwvxYxZMtB!s3\u7514oxP3S\uD534Pc\uB3E0lV5s^[.!f\uA008g\u6E6E\u57D7");
+    private void toString_1494505506(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1494505506L))
+            info.setReturnValue("#z4@7N@ZE#sj<?s,\uBED1xgP\u5BA2C\u9E63\u674D`.e'");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_762344723(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(762344723L))
-            info.setReturnValue(-1089101482);
+    private void hashCode_1281434072(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1281434072L))
+            info.setReturnValue(-115483118);
     }
 
     @Inject(at = @At("HEAD"), method = "copy()Lnet/minecraft/core/component/PatchedDataComponentMap;", cancellable = true)
-    private void copy_1474433529(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1474433529L))
+    private void copy_211719470(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(211719470L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "iterator()Ljava/util/Iterator;", cancellable = true)
-    private void iterator__1427533555(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1427533555L))
+    private void iterator__1936806021(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1936806021L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "set(Lnet/minecraft/core/component/TypedDataComponent;)Ljava/lang/Object;", cancellable = true)
-    private void set_1183900264(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1183900264L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "set(Lnet/minecraft/core/component/DataComponentType;Ljava/lang/Object;)Ljava/lang/Object;", cancellable = true)
-    private void set__1603927716(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1603927716L))
+    private void set__1193483322(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1193483322L))
             info.setReturnValue(new java.lang.Object());
     }
 
+    @Inject(at = @At("HEAD"), method = "set(Lnet/minecraft/core/component/DataComponentType;Ljava/lang/Object;)Ljava/lang/Object;", cancellable = true)
+    private void set_1326262206(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1326262206L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "keySet()Ljava/util/Set;", cancellable = true)
-    private void keySet__1104953009(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1104953009L))
+    private void keySet_124534508(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(124534508L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "setAll(Lnet/minecraft/core/component/DataComponentMap;)V", cancellable = true)
-    private void setAll_1149854208(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1149854208L))
+    private void setAll_165007967(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(165007967L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "toImmutableMap()Lnet/minecraft/core/component/DataComponentMap;", cancellable = true)
-    private void toImmutableMap_1927887418(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1927887418L))
+    private void toImmutableMap__932690555(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-932690555L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "fromPatch(Lnet/minecraft/core/component/DataComponentMap;Lnet/minecraft/core/component/DataComponentPatch;)Lnet/minecraft/core/component/PatchedDataComponentMap;", cancellable = true)
-    private static void fromPatch_36854045(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(36854045L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "hasNonDefault(Lnet/minecraft/core/component/DataComponentType;)Z", cancellable = true)
-    private void hasNonDefault_1365498932(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1365498932L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "restorePatch(Lnet/minecraft/core/component/DataComponentPatch;)V", cancellable = true)
-    private void restorePatch__1742592940(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1742592940L))
-            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "applyPatch(Lnet/minecraft/core/component/DataComponentPatch;)V", cancellable = true)
-    private void applyPatch__1742592940(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1742592940L))
+    private void applyPatch_1315481166(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1315481166L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "asPatch()Lnet/minecraft/core/component/DataComponentPatch;", cancellable = true)
-    private void asPatch__1001092146(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1001092146L))
+    private void asPatch__133943720(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-133943720L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "fromPatch(Lnet/minecraft/core/component/DataComponentMap;Lnet/minecraft/core/component/DataComponentPatch;)Lnet/minecraft/core/component/PatchedDataComponentMap;", cancellable = true)
+    private static void fromPatch__1592018341(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1592018341L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "clearPatch()V", cancellable = true)
-    private void clearPatch_762357216(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(762357216L))
+    private void clearPatch_1176455365(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1176455365L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "hasNonDefault(Lnet/minecraft/core/component/DataComponentType;)Z", cancellable = true)
+    private void hasNonDefault__1319916538(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1319916538L))
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "restorePatch(Lnet/minecraft/core/component/DataComponentPatch;)V", cancellable = true)
+    private void restorePatch_1197826862(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1197826862L))
             info.cancel();
     }
 

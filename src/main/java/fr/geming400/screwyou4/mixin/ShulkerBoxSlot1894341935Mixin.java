@@ -8,9 +8,9 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.inventory.ShulkerBoxSlot.class)
 public class ShulkerBoxSlot1894341935Mixin {
         @Inject(at = @At("HEAD"), method = "mayPlace(Lnet/minecraft/world/item/ItemStack;)Z", cancellable = true)
-    private void mayPlace__666090229(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-666090229L))
-            info.setReturnValue(false);
+    private void mayPlace__1302050647(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1302050647L))
+            info.setReturnValue(true);
     }
 
 

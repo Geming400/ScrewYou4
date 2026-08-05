@@ -8,8 +8,8 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.server.commands.ChaseCommand.class)
 public class ChaseCommand_217041047Mixin {
         @Inject(at = @At("HEAD"), method = "register(Lcom/mojang/brigadier/CommandDispatcher;)V", cancellable = true)
-    private static void register__726519177(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-726519177L))
+    private static void register_99086516(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(99086516L))
             info.cancel();
     }
 

@@ -8,38 +8,38 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.level.entity.TransientEntitySectionManager.class)
 public class TransientEntitySectionManager_148278809Mixin {
         @Inject(at = @At("HEAD"), method = "count()I", cancellable = true)
-    private void count_186541054(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(186541054L))
-            info.setReturnValue(-2094533844);
+    private void count__939891633(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-939891633L))
+            info.setReturnValue(-523361493);
     }
 
-    @Inject(at = @At("HEAD"), method = "addEntity(Lnet/minecraft/world/level/entity/EntityAccess;)V", cancellable = true)
-    private void addEntity_1397669259(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1397669259L))
+    @Inject(at = @At("HEAD"), method = "startTicking(Lnet/minecraft/world/level/ChunkPos;)V", cancellable = true)
+    private void startTicking__1995270220(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1995270220L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "stopTicking(Lnet/minecraft/world/level/ChunkPos;)V", cancellable = true)
+    private void stopTicking_437001044(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(437001044L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "gatherStats()Ljava/lang/String;", cancellable = true)
-    private void gatherStats__987181663(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-987181663L))
-            info.setReturnValue("<\u949A5+8M+L}\uFF82]@KBI2Lz$f#9U#yk\u2293%`l[\uACC9\u4146BaH;]");
+    private void gatherStats_1367631365(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1367631365L))
+            info.setReturnValue("^4\u99EEZh\u0AFB");
     }
 
     @Inject(at = @At("HEAD"), method = "getEntityGetter()Lnet/minecraft/world/level/entity/LevelEntityGetter;", cancellable = true)
-    private void getEntityGetter__852967164(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-852967164L))
+    private void getEntityGetter_1193720392(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1193720392L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "stopTicking(Lnet/minecraft/world/level/ChunkPos;)V", cancellable = true)
-    private void stopTicking_1663161015(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1663161015L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "startTicking(Lnet/minecraft/world/level/ChunkPos;)V", cancellable = true)
-    private void startTicking_1663161015(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1663161015L))
+    @Inject(at = @At("HEAD"), method = "addEntity(Lnet/minecraft/world/level/entity/EntityAccess;)V", cancellable = true)
+    private void addEntity_290119535(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(290119535L))
             info.cancel();
     }
 

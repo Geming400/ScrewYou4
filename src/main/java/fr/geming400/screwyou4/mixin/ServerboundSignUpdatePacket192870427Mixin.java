@@ -8,39 +8,39 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.network.protocol.game.ServerboundSignUpdatePacket.class)
 public class ServerboundSignUpdatePacket192870427Mixin {
         @Inject(at = @At("HEAD"), method = "type()Lnet/minecraft/network/protocol/PacketType;", cancellable = true)
-    private void type__1486154661(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1486154661L))
+    private void type_348738017(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(348738017L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/protocol/game/ServerGamePacketListener;)V", cancellable = true)
-    private void handle__1675751567(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1675751567L))
+    private void handle_830230601(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(830230601L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/PacketListener;)V", cancellable = true)
-    private void handle_870939340(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(870939340L))
+    private void handle__102841436(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-102841436L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "getLines()[Ljava/lang/String;", cancellable = true)
-    private void getLines_1542903709(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1542903709L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getPos()Lnet/minecraft/core/BlockPos;", cancellable = true)
-    private void getPos__1700516452(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1700516452L))
+    private void getLines__379322316(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-379322316L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "isFrontText()Z", cancellable = true)
-    private void isFrontText_231149010(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(231149010L))
+    private void isFrontText_518366310(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(518366310L))
             info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getPos()Lnet/minecraft/core/BlockPos;", cancellable = true)
+    private void getPos_682436158(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(682436158L))
+            info.setReturnValue(null);
     }
 
 

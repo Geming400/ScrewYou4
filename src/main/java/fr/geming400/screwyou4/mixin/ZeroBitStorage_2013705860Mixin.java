@@ -8,56 +8,56 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.util.ZeroBitStorage.class)
 public class ZeroBitStorage_2013705860Mixin {
         @Inject(at = @At("HEAD"), method = "get(I)I", cancellable = true)
-    private void get__1067356958(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1067356958L))
-            info.setReturnValue(1703478620);
+    private void get_1544790968(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1544790968L))
+            info.setReturnValue(-1645851262);
     }
 
     @Inject(at = @At("HEAD"), method = "copy()Lnet/minecraft/util/BitStorage;", cancellable = true)
-    private void copy__1753208864(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1753208864L))
+    private void copy_285203531(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(285203531L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "set(II)V", cancellable = true)
-    private void set_1017826390(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1017826390L))
+    private void set__1968128588(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1968128588L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "getSize()I", cancellable = true)
-    private void getSize_2051968105(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2051968105L))
-            info.setReturnValue(-684305698);
+    private void getSize__1847134638(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1847134638L))
+            info.setReturnValue(-234920531);
     }
 
     @Inject(at = @At("HEAD"), method = "getAndSet(II)I", cancellable = true)
-    private void getAndSet_1017813897(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1017813897L))
-            info.setReturnValue(-1903129066);
+    private void getAndSet__1775075736(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1775075736L))
+            info.setReturnValue(821728687);
     }
 
     @Inject(at = @At("HEAD"), method = "getAll(Ljava/util/function/IntConsumer;)V", cancellable = true)
-    private void getAll__596810377(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-596810377L))
+    private void getAll__1222708756(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1222708756L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "getBits()I", cancellable = true)
-    private void getBits_2051968105(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2051968105L))
-            info.setReturnValue(-684305698);
+    private void getBits__1814426515(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1814426515L))
+            info.setReturnValue(1733166677);
     }
 
     @Inject(at = @At("HEAD"), method = "unpack([I)V", cancellable = true)
-    private void unpack_1533151108(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1533151108L))
+    private void unpack_554684178(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(554684178L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "getRaw()[J", cancellable = true)
-    private void getRaw__1095419119(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1095419119L))
+    private void getRaw__1208768893(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1208768893L))
             info.setReturnValue(null);
     }
 

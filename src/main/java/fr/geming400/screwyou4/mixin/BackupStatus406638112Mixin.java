@@ -8,32 +8,32 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.level.storage.LevelSummary.BackupStatus.class)
 public class BackupStatus406638112Mixin {
         @Inject(at = @At("HEAD"), method = "values()[Lnet/minecraft/world/level/storage/LevelSummary$BackupStatus;", cancellable = true)
-    private static void values__1968789283(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1968789283L))
+    private static void values_1692628351(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1692628351L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/world/level/storage/LevelSummary$BackupStatus;", cancellable = true)
-    private static void valueOf__1026225280(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1026225280L))
-            info.setReturnValue(net.minecraft.world.level.storage.LevelSummary.BackupStatus.UPGRADE_TO_SNAPSHOT);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getTranslationKey()Ljava/lang/String;", cancellable = true)
-    private void getTranslationKey__728822359(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-728822359L))
-            info.setReturnValue("+\u1A00Le:\uA0E2Y'\u4C13@[,.P\u4705\u22C1\u00AC\u7FE7\uAC3D\u8B0D.f/RZ(T\u7D32cH\uC0A0h\u964A%+n<]c\u8013#Y[w\u4483g p\u89F1y\u2B63\u6F89WH\"FN7pMy-&");
-    }
-
-    @Inject(at = @At("HEAD"), method = "isSevere()Z", cancellable = true)
-    private void isSevere_444916695(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(444916695L))
-            info.setReturnValue(true);
+    private static void valueOf__1001855144(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1001855144L))
+            info.setReturnValue(net.minecraft.world.level.storage.LevelSummary.BackupStatus.DOWNGRADE);
     }
 
     @Inject(at = @At("HEAD"), method = "shouldBackup()Z", cancellable = true)
-    private void shouldBackup_444916695(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(444916695L))
+    private void shouldBackup_1811401634(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1811401634L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getTranslationKey()Ljava/lang/String;", cancellable = true)
+    private void getTranslationKey__879672947(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-879672947L))
+            info.setReturnValue("v\u0881[83fFZMuk04pD.xn\u23088\u0A71x(\uAC10+ip\uB25C^EKQM1#E!x \u9F18+>\uC913q:q,_z\u4336heKbfWa[\u8A449p5\uCB710N=-Ag8W4^J\u33A9e\uA9EB\u1B03d4xR\u3D8Dq0Pz>C\uF9D8;x!Co");
+    }
+
+    @Inject(at = @At("HEAD"), method = "isSevere()Z", cancellable = true)
+    private void isSevere__1737415079(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1737415079L))
             info.setReturnValue(true);
     }
 

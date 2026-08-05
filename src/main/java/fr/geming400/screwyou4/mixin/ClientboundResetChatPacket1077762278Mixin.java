@@ -8,20 +8,20 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.network.protocol.configuration.ClientboundResetChatPacket.class)
 public class ClientboundResetChatPacket1077762278Mixin {
         @Inject(at = @At("HEAD"), method = "type()Lnet/minecraft/network/protocol/PacketType;", cancellable = true)
-    private void type__601262810(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-601262810L))
+    private void type_1233629868(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1233629868L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/PacketListener;)V", cancellable = true)
-    private void handle_1755831191(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1755831191L))
+    private void handle_782050415(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(782050415L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/protocol/configuration/ClientConfigurationPacketListener;)V", cancellable = true)
-    private void handle_64636092(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(64636092L))
+    private void handle_1575681940(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1575681940L))
             info.cancel();
     }
 

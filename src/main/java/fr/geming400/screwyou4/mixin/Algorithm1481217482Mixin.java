@@ -8,20 +8,20 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.level.levelgen.WorldgenRandom.Algorithm.class)
 public class Algorithm1481217482Mixin {
         @Inject(at = @At("HEAD"), method = "values()[Lnet/minecraft/world/level/levelgen/WorldgenRandom$Algorithm;", cancellable = true)
-    private static void values__1312062150(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1312062150L))
+    private static void values__1945611812(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1945611812L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/world/level/levelgen/WorldgenRandom$Algorithm;", cancellable = true)
-    private static void valueOf__369498147(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-369498147L))
+    private static void valueOf__345128011(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-345128011L))
             info.setReturnValue(net.minecraft.world.level.levelgen.WorldgenRandom.Algorithm.XOROSHIRO);
     }
 
     @Inject(at = @At("HEAD"), method = "newInstance(J)Lnet/minecraft/util/RandomSource;", cancellable = true)
-    private void newInstance__1353622895(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1353622895L))
+    private void newInstance__481233626(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-481233626L))
             info.setReturnValue(null);
     }
 

@@ -8,39 +8,39 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.entity.SulfurCubeArchetype.ContactDamage.class)
 public class ContactDamage_679848048Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals_2065360306(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2065360306L))
+    private void equals__228778221(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-228778221L))
             info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__455611928(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-455611928L))
-            info.setReturnValue("$ 31qq=\u69EC9");
+    private void toString_1450271572(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1450271572L))
+            info.setReturnValue("}Xz");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_718110789(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(718110789L))
-            info.setReturnValue(-2004269336);
+    private void hashCode_1237200138(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1237200138L))
+            info.setReturnValue(1713987471);
     }
 
     @Inject(at = @At("HEAD"), method = "amount()Lnet/minecraft/util/valueproviders/FloatProvider;", cancellable = true)
-    private void amount_1613067627(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1613067627L))
+    private void amount_632335379(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(632335379L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "damageType()Lnet/minecraft/core/Holder;", cancellable = true)
+    private void damageType_494712834(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(494712834L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "attributeToSource()Z", cancellable = true)
-    private void attributeToSource_718126630(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(718126630L))
-            info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "damageType()Lnet/minecraft/core/Holder;", cancellable = true)
-    private void damageType__2066243477(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2066243477L))
-            info.setReturnValue(null);
+    private void attributeToSource__1033691084(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1033691084L))
+            info.setReturnValue(true);
     }
 
 

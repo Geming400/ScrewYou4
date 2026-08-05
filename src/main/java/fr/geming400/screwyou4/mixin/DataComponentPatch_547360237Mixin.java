@@ -8,62 +8,62 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.core.component.DataComponentPatch.class)
 public class DataComponentPatch_547360237Mixin {
         @Inject(at = @At("HEAD"), method = "size()I", cancellable = true)
-    private void size_585622482(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(585622482L))
-            info.setReturnValue(2055948667);
+    private void size_991091825(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(991091825L))
+            info.setReturnValue(-264709649);
     }
 
     @Inject(at = @At("HEAD"), method = "get(Lnet/minecraft/core/component/DataComponentGetter;Lnet/minecraft/core/component/DataComponentType;)Ljava/lang/Object;", cancellable = true)
-    private void get_312378296(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(312378296L))
-            info.setReturnValue(new java.lang.Object());
+    private void get_1670146318(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1670146318L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals_1932871999(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1932871999L))
-            info.setReturnValue(true);
+    private void equals__361266528(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-361266528L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__588100235(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-588100235L))
-            info.setReturnValue("[h{Al=\uBBFE<_Uau`*n]_ !5Odh]\u5F81*B,Dh\uA85E84`\"-gPC<b<0s^L\u74D1N5Hx}A\uA78Fm\uCD1Al<w=LL");
+    private void toString_1317783265(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1317783265L))
+            info.setReturnValue("!xy$xgs\"R\u40BF..O%+zd\u8390\u86444;R}\u3AA7N\u81F4VK%\u4017:\u09AAGWk$f\u2995KR;Ipy31k3w|g;1d\uFD1Ar");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_585622482(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(585622482L))
-            info.setReturnValue(2055948667);
+    private void hashCode_1104711831(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1104711831L))
+            info.setReturnValue(-1482682017);
     }
 
     @Inject(at = @At("HEAD"), method = "isEmpty()Z", cancellable = true)
-    private void isEmpty_585638819(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(585638819L))
-            info.setReturnValue(true);
+    private void isEmpty_1606476608(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1606476608L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "split()Lnet/minecraft/core/component/DataComponentPatch$SplitResult;", cancellable = true)
-    private void split__422951782(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-422951782L))
+    private void split_1167088832(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1167088832L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "builder()Lnet/minecraft/core/component/DataComponentPatch$Builder;", cancellable = true)
-    private static void builder__1296172722(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1296172722L))
+    private static void builder__673316973(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-673316973L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "entrySet()Ljava/util/Set;", cancellable = true)
-    private void entrySet__1281675250(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1281675250L))
+    private void entrySet__687343746(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-687343746L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "forget(Ljava/util/function/Predicate;)Lnet/minecraft/core/component/DataComponentPatch;", cancellable = true)
-    private void forget_868780060(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(868780060L))
+    private void forget_509961487(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(509961487L))
             info.setReturnValue(null);
     }
 

@@ -8,8 +8,8 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.util.filefix.fixes.ReenableSpectatorsGenerateChunksInHardcoreWorldsFileFix.class)
 public class ReenableSpectatorsGenerateChunksInHardcoreWorldsFileFix1036469382Mixin {
         @Inject(at = @At("HEAD"), method = "makeFixer()V", cancellable = true)
-    private void makeFixer_1074744121(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1074744121L))
+    private void makeFixer__1347447419(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1347447419L))
             info.cancel();
     }
 

@@ -8,44 +8,44 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.resources.model.cuboid.CuboidRotation.class)
 public class CuboidRotation573599876Mixin {
         @Inject(at = @At("HEAD"), method = "value()Lnet/minecraft/client/resources/model/cuboid/CuboidRotation$RotationValue;", cancellable = true)
-    private void value_1001086198(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1001086198L))
+    private void value_378145959(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(378145959L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals_1959112135(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1959112135L))
-            info.setReturnValue(false);
+    private void equals__335026392(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-335026392L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__561860099(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-561860099L))
-            info.setReturnValue("h+H?['\u867AGy,..za&d>8\u4A92YpN\uB1C5x\u589AJdoXBJ\"XU\u4D04gvRj&N\u12A1Ot8K_M,rxUR\u14F9[UD^#[a\u4110d\"!||#iiyk");
+    private void toString_1344023401(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1344023401L))
+            info.setReturnValue("W<[aev(x.q)rudLnn\u28A4xxS\u3CD7Bv\u4BCE\u6599n\u63B231#\u8C04.Lr?1jaIS2");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_611862618(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(611862618L))
-            info.setReturnValue(-1022875933);
+    private void hashCode_1130951967(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1130951967L))
+            info.setReturnValue(1348049508);
     }
 
     @Inject(at = @At("HEAD"), method = "transform()Lorg/joml/Matrix4fc;", cancellable = true)
-    private void transform__1978393182(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1978393182L))
+    private void transform__480115442(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-480115442L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "origin()Lorg/joml/Vector3fc;", cancellable = true)
-    private void origin_1119544581(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1119544581L))
+    private void origin_1466630699(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1466630699L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "rescale()Z", cancellable = true)
-    private void rescale_611878459(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(611878459L))
+    private void rescale__1123031644(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1123031644L))
             info.setReturnValue(true);
     }
 

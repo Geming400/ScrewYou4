@@ -8,57 +8,57 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.network.protocol.game.ServerboundContainerSlotStateChangedPacket.class)
 public class ServerboundContainerSlotStateChangedPacket_1457689919Mixin {
         @Inject(at = @At("HEAD"), method = "type()Lnet/minecraft/network/protocol/PacketType;", cancellable = true)
-    private void type__221335170(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-221335170L))
+    private void type_1613557508(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1613557508L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals__1451765119(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1451765119L))
+    private void equals_549063650(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(549063650L))
             info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString_322229943(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(322229943L))
-            info.setReturnValue("KMz9'rj__v\u2BD3xDHl\u4C92v)GD_v@\uB627g-t-$<vk\u94F7b\u23C8W\u5EC8wP4");
+    private void toString__2066853853(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2066853853L))
+            info.setReturnValue("pyg68wO+D;ZZ\u8C1B}k8\u9CC8#xzb =2bk`v\u18A4ih\u6C263#Ndp_\u567FsJ(\uAAB1GDK#W:4|]5/peJr);d/wi8m(GZyD");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_1495952660(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1495952660L))
-            info.setReturnValue(255854644);
+    private void hashCode_2015042009(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2015042009L))
+            info.setReturnValue(925910435);
     }
 
     @Inject(at = @At("HEAD"), method = "newState()Z", cancellable = true)
-    private void newState_1495968501(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1495968501L))
-            info.setReturnValue(true);
+    private void newState_2024609476(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2024609476L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/PacketListener;)V", cancellable = true)
-    private void handle_2135758831(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(2135758831L))
+    private void handle_1161978055(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1161978055L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/protocol/game/ServerGamePacketListener;)V", cancellable = true)
-    private void handle__410932076(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-410932076L))
+    private void handle_2095050092(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(2095050092L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "containerId()I", cancellable = true)
-    private void containerId_1495952164(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1495952164L))
-            info.setReturnValue(434378133);
+    private void containerId_547274536(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(547274536L))
+            info.setReturnValue(70828256);
     }
 
     @Inject(at = @At("HEAD"), method = "slotId()I", cancellable = true)
-    private void slotId_1495952164(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1495952164L))
-            info.setReturnValue(434378133);
+    private void slotId_1726114571(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1726114571L))
+            info.setReturnValue(1521929123);
     }
 
 

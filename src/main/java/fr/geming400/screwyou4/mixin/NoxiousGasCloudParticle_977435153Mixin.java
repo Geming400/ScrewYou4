@@ -8,8 +8,8 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.particle.NoxiousGasCloudParticle.class)
 public class NoxiousGasCloudParticle_977435153Mixin {
         @Inject(at = @At("HEAD"), method = "tick()V", cancellable = true)
-    private void tick_1015709891(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1015709891L))
+    private void tick_847751494(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(847751494L))
             info.cancel();
     }
 

@@ -7,82 +7,82 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.world.entity.monster.Ravager.class)
 public class Ravager112268460Mixin {
-        @Inject(at = @At("HEAD"), method = "applyRaidBuffs(Lnet/minecraft/server/level/ServerLevel;IZ)V", cancellable = true)
-    private void applyRaidBuffs_1351232417(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1351232417L))
-            info.cancel();
+        @Inject(at = @At("HEAD"), method = "getAttackTick()I", cancellable = true)
+    private void getAttackTick_1816045431(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1816045431L))
+            info.setReturnValue(-1396304145);
     }
 
-    @Inject(at = @At("HEAD"), method = "getCelebrateSound()Lnet/minecraft/sounds/SoundEvent;", cancellable = true)
-    private void getCelebrateSound_1202481358(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1202481358L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "getStunnedTick()I", cancellable = true)
+    private void getStunnedTick_1511858488(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1511858488L))
+            info.setReturnValue(773376344);
     }
 
-    @Inject(at = @At("HEAD"), method = "canBeLeader()Z", cancellable = true)
-    private void canBeLeader_150547043(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(150547043L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "aiStep()V", cancellable = true)
-    private void aiStep_150543199(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(150543199L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "handleEntityEvent(B)V", cancellable = true)
-    private void handleEntityEvent_1319720785(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1319720785L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "getRoarTick()I", cancellable = true)
+    private void getRoarTick__209476655(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-209476655L))
+            info.setReturnValue(-1745477813);
     }
 
     @Inject(at = @At("HEAD"), method = "createAttributes()Lnet/minecraft/world/entity/ai/attributes/AttributeSupplier$Builder;", cancellable = true)
-    private static void createAttributes__587949985(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-587949985L))
-            info.setReturnValue(null);
+    private static void createAttributes_1487370450(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1487370450L))
+            info.setReturnValue(new net.minecraft.world.entity.ai.attributes.AttributeSupplier.Builder());
     }
 
     @Inject(at = @At("HEAD"), method = "hasLineOfSight(Lnet/minecraft/world/entity/Entity;)Z", cancellable = true)
-    private void hasLineOfSight__339452356(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-339452356L))
+    private void hasLineOfSight__1696756044(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1696756044L))
             info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "doHurtTarget(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/Entity;)Z", cancellable = true)
-    private void doHurtTarget_1756308171(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1756308171L))
-            info.setReturnValue(true);
+    private void doHurtTarget_1027927606(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1027927606L))
+            info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "getMaxHeadYRot()I", cancellable = true)
-    private void getMaxHeadYRot_150530706(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(150530706L))
-            info.setReturnValue(1846470570);
+    @Inject(at = @At("HEAD"), method = "handleEntityEvent(B)V", cancellable = true)
+    private void handleEntityEvent_866016576(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(866016576L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "checkSpawnObstruction(Lnet/minecraft/world/level/LevelReader;)Z", cancellable = true)
-    private void checkSpawnObstruction_1149422671(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1149422671L))
+    private void checkSpawnObstruction_943750940(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(943750940L))
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "getStunnedTick()I", cancellable = true)
-    private void getStunnedTick_150530706(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(150530706L))
-            info.setReturnValue(1846470570);
+    @Inject(at = @At("HEAD"), method = "aiStep()V", cancellable = true)
+    private void aiStep_1743566027(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1743566027L))
+            info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getRoarTick()I", cancellable = true)
-    private void getRoarTick_150530706(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(150530706L))
-            info.setReturnValue(1846470570);
+    @Inject(at = @At("HEAD"), method = "getMaxHeadYRot()I", cancellable = true)
+    private void getMaxHeadYRot_620715302(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(620715302L))
+            info.setReturnValue(-936287036);
     }
 
-    @Inject(at = @At("HEAD"), method = "getAttackTick()I", cancellable = true)
-    private void getAttackTick_150530706(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(150530706L))
-            info.setReturnValue(1846470570);
+    @Inject(at = @At("HEAD"), method = "getCelebrateSound()Lnet/minecraft/sounds/SoundEvent;", cancellable = true)
+    private void getCelebrateSound_1725675792(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1725675792L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "applyRaidBuffs(Lnet/minecraft/server/level/ServerLevel;IZ)V", cancellable = true)
+    private void applyRaidBuffs__860203687(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-860203687L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "canBeLeader()Z", cancellable = true)
+    private void canBeLeader__590354233(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-590354233L))
+            info.setReturnValue(false);
     }
 
 

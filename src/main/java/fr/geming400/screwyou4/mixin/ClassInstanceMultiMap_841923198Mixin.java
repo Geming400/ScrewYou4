@@ -8,44 +8,44 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.util.ClassInstanceMultiMap.class)
 public class ClassInstanceMultiMap_841923198Mixin {
         @Inject(at = @At("HEAD"), method = "remove(Ljava/lang/Object;)Z", cancellable = true)
-    private void remove__2067532336(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2067532336L))
+    private void remove_2087692492(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2087692492L))
             info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "size()I", cancellable = true)
-    private void size_880185443(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(880185443L))
-            info.setReturnValue(-555676352);
+    private void size_1285654786(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1285654786L))
+            info.setReturnValue(1382417938);
     }
 
     @Inject(at = @At("HEAD"), method = "add(Ljava/lang/Object;)Z", cancellable = true)
-    private void add__2067532336(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2067532336L))
-            info.setReturnValue(false);
+    private void add_1268144143(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1268144143L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "iterator()Ljava/util/Iterator;", cancellable = true)
-    private void iterator__1309692835(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1309692835L))
+    private void iterator__1818965301(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1818965301L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "contains(Ljava/lang/Object;)Z", cancellable = true)
-    private void contains__2067532336(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2067532336L))
+    private void contains_1073876177(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1073876177L))
             info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "find(Ljava/lang/Class;)Ljava/util/Collection;", cancellable = true)
-    private void find__1943376742(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1943376742L))
+    private void find_38501697(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(38501697L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getAllInstances()Ljava/util/List;", cancellable = true)
-    private void getAllInstances__1826707283(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1826707283L))
+    private void getAllInstances_1778892160(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1778892160L))
             info.setReturnValue(null);
     }
 

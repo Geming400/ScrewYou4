@@ -8,20 +8,20 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.model.object.equipment.ShieldModel.class)
 public class ShieldModel_270405134Mixin {
         @Inject(at = @At("HEAD"), method = "handle()Lnet/minecraft/client/model/geom/ModelPart;", cancellable = true)
-    private void handle_1795628018(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1795628018L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "plate()Lnet/minecraft/client/model/geom/ModelPart;", cancellable = true)
-    private void plate_1795628018(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1795628018L))
+    private void handle_821835978(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(821835978L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "createLayer()Lnet/minecraft/client/model/geom/builders/LayerDefinition;", cancellable = true)
-    private static void createLayer__443727031(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-443727031L))
+    private static void createLayer__1389722050(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1389722050L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "plate()Lnet/minecraft/client/model/geom/ModelPart;", cancellable = true)
+    private void plate_554617372(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(554617372L))
             info.setReturnValue(null);
     }
 

@@ -8,8 +8,8 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.resources.sounds.UnderwaterAmbientSoundHandler.class)
 public class UnderwaterAmbientSoundHandler2125385542Mixin {
         @Inject(at = @At("HEAD"), method = "tick()V", cancellable = true)
-    private void tick__2131307015(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-2131307015L))
+    private void tick_1995701884(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1995701884L))
             info.cancel();
     }
 

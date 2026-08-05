@@ -8,38 +8,38 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.renderer.texture.OverlayTexture.class)
 public class OverlayTexture_1556757481Mixin {
         @Inject(at = @At("HEAD"), method = "close()V", cancellable = true)
-    private void close_1595032219(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1595032219L))
+    private void close__557817949(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-557817949L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "v(Z)I", cancellable = true)
-    private static void v__1508605232(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1508605232L))
-            info.setReturnValue(-159420368);
+    private static void v_137614022(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(137614022L))
+            info.setReturnValue(125449723);
     }
 
     @Inject(at = @At("HEAD"), method = "u(F)I", cancellable = true)
-    private static void u__1527075652(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1527075652L))
-            info.setReturnValue(1794783505);
+    private static void u__768360079(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-768360079L))
+            info.setReturnValue(-480270862);
     }
 
     @Inject(at = @At("HEAD"), method = "pack(II)I", cancellable = true)
-    private static void pack_560865766(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(560865766L))
-            info.setReturnValue(1301268425);
+    private static void pack__1763384915(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1763384915L))
+            info.setReturnValue(2018565981);
     }
 
     @Inject(at = @At("HEAD"), method = "pack(FZ)I", cancellable = true)
-    private static void pack_490678170(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(490678170L))
-            info.setReturnValue(801350353);
+    private static void pack__1833572511(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1833572511L))
+            info.setReturnValue(-1920651294);
     }
 
     @Inject(at = @At("HEAD"), method = "getTextureView()Lcom/mojang/blaze3d/textures/GpuTextureView;", cancellable = true)
-    private void getTextureView__843857130(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-843857130L))
+    private void getTextureView_1942998080(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1942998080L))
             info.setReturnValue(null);
     }
 

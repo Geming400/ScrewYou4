@@ -8,33 +8,33 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.inventory.ResultSlot.class)
 public class ResultSlot2032071629Mixin {
         @Inject(at = @At("HEAD"), method = "remove(I)Lnet/minecraft/world/item/ItemStack;", cancellable = true)
-    private void remove__868977448(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-868977448L))
+    private void remove_986702036(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(986702036L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "safeClone(Lnet/minecraft/world/entity/player/Player;)Lnet/minecraft/world/item/ItemStack;", cancellable = true)
-    private void safeClone_1430330262(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1430330262L))
+    private void safeClone_1143252326(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1143252326L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "mayPlace(Lnet/minecraft/world/item/ItemStack;)Z", cancellable = true)
-    private void mayPlace__528360535(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-528360535L))
+    private void mayPlace__1164320953(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1164320953L))
             info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "onTake(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/item/ItemStack;)V", cancellable = true)
-    private void onTake__1048586848(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1048586848L))
+    private void onTake__50332454(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-50332454L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "isFake()Z", cancellable = true)
-    private void isFake_2070350212(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2070350212L))
-            info.setReturnValue(true);
+    private void isFake__103890619(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-103890619L))
+            info.setReturnValue(false);
     }
 
 

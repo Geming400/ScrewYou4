@@ -8,8 +8,8 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.util.datafix.fixes.EntityBrushableBlockFieldsRenameFix.class)
 public class EntityBrushableBlockFieldsRenameFix_539653612Mixin {
         @Inject(at = @At("HEAD"), method = "fixTag(Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;", cancellable = true)
-    private void fixTag__1848196054(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1848196054L))
+    private void fixTag__408236433(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-408236433L))
             info.setReturnValue(null);
     }
 

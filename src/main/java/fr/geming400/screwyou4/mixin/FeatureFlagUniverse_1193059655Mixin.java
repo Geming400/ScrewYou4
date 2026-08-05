@@ -8,9 +8,9 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.flag.FeatureFlagUniverse.class)
 public class FeatureFlagUniverse_1193059655Mixin {
         @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString_57599183(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(57599183L))
-            info.setReturnValue("'\u49FBGS\uCEA6a+]AbtX#7nrh<\u942B\uBB04-<?=08X&#2\uFF2D},EV\uBB5D0AG\u832DmQ=}&,[@@3 9hWhO$[t1Hd\u3D3F'd\u6401");
+    private void toString_1963482683(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1963482683L))
+            info.setReturnValue(")i(WTw30MgB:\u516Cu]crrtf\u9288M'z9\uA131%}l-\u6903`q");
     }
 
 

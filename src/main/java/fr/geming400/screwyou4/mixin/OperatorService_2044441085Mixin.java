@@ -8,32 +8,32 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.server.jsonrpc.methods.OperatorService.class)
 public class OperatorService_2044441085Mixin {
         @Inject(at = @At("HEAD"), method = "remove(Lnet/minecraft/server/jsonrpc/internalapi/MinecraftApi;Ljava/util/List;Lnet/minecraft/server/jsonrpc/methods/ClientInfo;)Ljava/util/List;", cancellable = true)
-    private static void remove__522094868(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-522094868L))
+    private static void remove__1420064400(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1420064400L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "get(Lnet/minecraft/server/jsonrpc/internalapi/MinecraftApi;)Ljava/util/List;", cancellable = true)
-    private static void get_1078695862(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1078695862L))
+    private static void get__1815353696(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1815353696L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "clear(Lnet/minecraft/server/jsonrpc/internalapi/MinecraftApi;Lnet/minecraft/server/jsonrpc/methods/ClientInfo;)Ljava/util/List;", cancellable = true)
-    private static void clear__2080206789(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2080206789L))
+    private static void clear_1712825608(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1712825608L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "add(Lnet/minecraft/server/jsonrpc/internalapi/MinecraftApi;Ljava/util/List;Lnet/minecraft/server/jsonrpc/methods/ClientInfo;)Ljava/util/List;", cancellable = true)
-    private static void add__522094868(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-522094868L))
+    private static void add_377681421(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(377681421L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "set(Lnet/minecraft/server/jsonrpc/internalapi/MinecraftApi;Ljava/util/List;Lnet/minecraft/server/jsonrpc/methods/ClientInfo;)Ljava/util/List;", cancellable = true)
-    private static void set__522094868(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-522094868L))
+    private static void set_551129166(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(551129166L))
             info.setReturnValue(null);
     }
 

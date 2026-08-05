@@ -8,8 +8,8 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.item.ShieldItem.class)
 public class ShieldItem504402824Mixin {
         @Inject(at = @At("HEAD"), method = "getName(Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/network/chat/Component;", cancellable = true)
-    private void getName_350266646(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(350266646L))
+    private void getName__55891369(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-55891369L))
             info.setReturnValue(null);
     }
 

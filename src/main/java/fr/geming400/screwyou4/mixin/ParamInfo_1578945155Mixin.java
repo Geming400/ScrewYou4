@@ -8,45 +8,45 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.server.jsonrpc.api.ParamInfo.class)
 public class ParamInfo_1578945155Mixin {
         @Inject(at = @At("HEAD"), method = "name()Ljava/lang/String;", cancellable = true)
-    private void name_443484683(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(443484683L))
-            info.setReturnValue("-WTNq}'aK\u8581n]yPCJ8TXN@*;\uAA146x&\u4D37\uB8CDV(m_:mc{;Ss\u85A2jn$\u3604^\u0625*'EEyG1*tqF)Q\u8D7BRcr!H\uB479m#fFPOI\u8730$^#+o+_3o35");
+    private void name__1906754986(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1906754986L))
+            info.setReturnValue("wJi,#oc,:\u6EBE]B\uD0C0^Ax\u6482IEU'<\uC794%]ds#v2jzpwTjCJ?.{\uC2B4D [\u75EAbe>fs;Q%].raAa\uA869wKd2");
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals__1330509883(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1330509883L))
-            info.setReturnValue(false);
+    private void equals_670318886(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(670318886L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString_443485179(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(443485179L))
-            info.setReturnValue("a9[ulpoHM}`nzH\u3B7F&;rE8cRa");
+    private void toString__1945598617(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1945598617L))
+            info.setReturnValue(",d\uC8AFiJR\"#aMATG\u24BE\u458AN^+Gi ^,V.\u11E1d>\uD69Dr)\u92104-|\uBB102 e7O:U]TzBSofV}\u9689#$\uC299[%X$");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_1617207896(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1617207896L))
-            info.setReturnValue(-2141533700);
+    private void hashCode_2136297245(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2136297245L))
+            info.setReturnValue(-1938500509);
     }
 
     @Inject(at = @At("HEAD"), method = "typedCodec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
-    private static void typedCodec__980168170(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-980168170L))
+    private static void typedCodec_1403529930(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1403529930L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "schema()Lnet/minecraft/server/jsonrpc/api/Schema;", cancellable = true)
+    private void schema__1695162235(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1695162235L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "required()Z", cancellable = true)
-    private void required_1617223737(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1617223737L))
+    private void required__1708580870(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1708580870L))
             info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "schema()Lnet/minecraft/server/jsonrpc/api/Schema;", cancellable = true)
-    private void schema__424352634(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-424352634L))
-            info.setReturnValue(null);
     }
 
 

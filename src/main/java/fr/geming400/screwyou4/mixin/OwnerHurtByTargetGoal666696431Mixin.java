@@ -8,15 +8,15 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.entity.ai.goal.target.OwnerHurtByTargetGoal.class)
 public class OwnerHurtByTargetGoal666696431Mixin {
         @Inject(at = @At("HEAD"), method = "start()V", cancellable = true)
-    private void start_704971170(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(704971170L))
+    private void start__959468928(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-959468928L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "canUse()Z", cancellable = true)
-    private void canUse_704975014(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(704975014L))
-            info.setReturnValue(true);
+    private void canUse__247743633(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-247743633L))
+            info.setReturnValue(false);
     }
 
 

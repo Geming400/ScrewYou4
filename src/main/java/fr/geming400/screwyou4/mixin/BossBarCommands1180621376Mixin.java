@@ -8,14 +8,14 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.server.commands.BossBarCommands.class)
 public class BossBarCommands1180621376Mixin {
         @Inject(at = @At("HEAD"), method = "register(Lcom/mojang/brigadier/CommandDispatcher;Lnet/minecraft/commands/CommandBuildContext;)V", cancellable = true)
-    private static void register__906736201(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-906736201L))
+    private static void register__397187980(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-397187980L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "getBossBar(Lcom/mojang/brigadier/context/CommandContext;)Lnet/minecraft/server/bossevents/CustomBossEvent;", cancellable = true)
-    private static void getBossBar__1280199957(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1280199957L))
+    private static void getBossBar__1471440869(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1471440869L))
             info.setReturnValue(null);
     }
 

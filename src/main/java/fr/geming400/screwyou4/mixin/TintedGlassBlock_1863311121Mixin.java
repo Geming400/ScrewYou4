@@ -8,8 +8,8 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.level.block.TintedGlassBlock.class)
 public class TintedGlassBlock_1863311121Mixin {
         @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
-    private void codec__695802452(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-695802452L))
+    private void codec__1365210922(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1365210922L))
             info.setReturnValue(null);
     }
 

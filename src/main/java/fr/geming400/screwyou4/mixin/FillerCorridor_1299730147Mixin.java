@@ -8,14 +8,14 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.level.levelgen.structure.structures.StrongholdPieces.FillerCorridor.class)
 public class FillerCorridor_1299730147Mixin {
         @Inject(at = @At("HEAD"), method = "postProcess(Lnet/minecraft/world/level/WorldGenLevel;Lnet/minecraft/world/level/StructureManager;Lnet/minecraft/world/level/chunk/ChunkGenerator;Lnet/minecraft/util/RandomSource;Lnet/minecraft/world/level/levelgen/structure/BoundingBox;Lnet/minecraft/world/level/ChunkPos;Lnet/minecraft/core/BlockPos;)V", cancellable = true)
-    private void postProcess__920692797(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-920692797L))
+    private void postProcess_623371826(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(623371826L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "findPieceBox(Lnet/minecraft/world/level/levelgen/structure/StructurePieceAccessor;Lnet/minecraft/util/RandomSource;IIILnet/minecraft/core/Direction;)Lnet/minecraft/world/level/levelgen/structure/BoundingBox;", cancellable = true)
-    private static void findPieceBox_595383757(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(595383757L))
+    private static void findPieceBox_642481847(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(642481847L))
             info.setReturnValue(null);
     }
 

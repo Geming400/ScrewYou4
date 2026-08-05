@@ -8,9 +8,9 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.renderer.RunningTrimmedMean.class)
 public class RunningTrimmedMean1560284758Mixin {
         @Inject(at = @At("HEAD"), method = "registerValueAndGetMean(J)J", cancellable = true)
-    private void registerValueAndGetMean__1519853577(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1519853577L))
-            info.setReturnValue(-5730257663278656811L);
+    private void registerValueAndGetMean__530958327(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-530958327L))
+            info.setReturnValue(-8122035384091009781L);
     }
 
 

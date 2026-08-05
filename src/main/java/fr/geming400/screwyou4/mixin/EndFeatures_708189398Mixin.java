@@ -8,8 +8,8 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.data.worldgen.features.EndFeatures.class)
 public class EndFeatures_708189398Mixin {
         @Inject(at = @At("HEAD"), method = "bootstrap(Lnet/minecraft/data/worldgen/BootstrapContext;)V", cancellable = true)
-    private static void bootstrap__484329106(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-484329106L))
+    private static void bootstrap_153583680(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(153583680L))
             info.cancel();
     }
 

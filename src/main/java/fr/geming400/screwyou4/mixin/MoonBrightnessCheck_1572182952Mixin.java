@@ -8,44 +8,44 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.entity.variant.MoonBrightnessCheck.class)
 public class MoonBrightnessCheck_1572182952Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals__1337272086(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1337272086L))
-            info.setReturnValue(false);
+    private void equals_663556683(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(663556683L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString_436722976(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(436722976L))
-            info.setReturnValue("<\u1D84uikE-i\u4FB2?7W/,lx3|\"b\u0F1E8Wz\uFD75j\u6976v\u6F77wn}WfD\uB962,n})',S");
+    private void toString__1952360820(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1952360820L))
+            info.setReturnValue("\u943BtVV6+Xb=FpsOm?S\u0306.:[yMId,\u090D\u8D45\"oZ2wuE.;wB@H5w,4[KL\u93AF0L/g?\u6485/6>H\uA3D3v=Tg6Jn<c");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_1610445693(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1610445693L))
-            info.setReturnValue(421556884);
+    private void hashCode_2129535042(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2129535042L))
+            info.setReturnValue(167411576);
     }
 
     @Inject(at = @At("HEAD"), method = "test(Lnet/minecraft/world/entity/variant/SpawnContext;)Z", cancellable = true)
-    private void test__1746468036(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1746468036L))
+    private void test__1940199858(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1940199858L))
             info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "test(Ljava/lang/Object;)Z", cancellable = true)
-    private void test__1337143622(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1337143622L))
+    private void test__164788760(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-164788760L))
             info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "range()Lnet/minecraft/advancements/predicates/MinMaxBounds$Doubles;", cancellable = true)
-    private void range_875715589(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(875715589L))
+    private void range__1023529662(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1023529662L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
-    private void codec__986930621(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-986930621L))
+    private void codec__1656339091(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1656339091L))
             info.setReturnValue(null);
     }
 

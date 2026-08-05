@@ -8,26 +8,26 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.network.protocol.game.ServerboundSwingPacket.class)
 public class ServerboundSwingPacket_1252553331Mixin {
         @Inject(at = @At("HEAD"), method = "type()Lnet/minecraft/network/protocol/PacketType;", cancellable = true)
-    private void type__426471758(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-426471758L))
+    private void type_1408420920(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1408420920L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/PacketListener;)V", cancellable = true)
-    private void handle_1930622243(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1930622243L))
+    private void handle_956841467(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(956841467L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/protocol/game/ServerGamePacketListener;)V", cancellable = true)
-    private void handle__616068664(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-616068664L))
+    private void handle_1889913504(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1889913504L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "getHand()Lnet/minecraft/world/InteractionHand;", cancellable = true)
-    private void getHand_2106542054(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2106542054L))
+    private void getHand__538663775(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-538663775L))
             info.setReturnValue(net.minecraft.world.InteractionHand.MAIN_HAND);
     }
 

@@ -8,8 +8,8 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.entity.ai.behavior.InsideBrownianWalk.class)
 public class InsideBrownianWalk812811933Mixin {
         @Inject(at = @At("HEAD"), method = "create(F)Lnet/minecraft/world/entity/ai/behavior/BehaviorControl;", cancellable = true)
-    private static void create_1227373427(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1227373427L))
+    private static void create__149128201(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-149128201L))
             info.setReturnValue(null);
     }
 

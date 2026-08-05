@@ -8,39 +8,39 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.input.MouseButtonInfo.class)
 public class MouseButtonInfo1591410951Mixin {
         @Inject(at = @At("HEAD"), method = "modifiers()I", cancellable = true)
-    private void modifiers_1629673197(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1629673197L))
-            info.setReturnValue(-256256107);
+    private void modifiers_2122476529(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2122476529L))
+            info.setReturnValue(-1423037476);
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals__1318044086(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1318044086L))
+    private void equals_682784683(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(682784683L))
             info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString_455950976(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(455950976L))
-            info.setReturnValue("#Q!:TRx&v=\u62CBB-Kl];n\uBDFEdS64\uC37BA\u7443Cx\u6820\uA20E\uB307\u71B1\u84C6'.`[\uD6666nxiBO9P#D{h=55${;k\uA9523C&");
+    private void toString__1933132820(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1933132820L))
+            info.setReturnValue("{\u6F3Fl");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_1629673693(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1629673693L))
-            info.setReturnValue(1141151898);
+    private void hashCode__2146204254(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2146204254L))
+            info.setReturnValue(-1219779);
     }
 
     @Inject(at = @At("HEAD"), method = "input()I", cancellable = true)
-    private void input_1629673197(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1629673197L))
-            info.setReturnValue(-255256507);
+    private void input__1369911965(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1369911965L))
+            info.setReturnValue(193505356);
     }
 
     @Inject(at = @At("HEAD"), method = "button()I", cancellable = true)
-    private void button_1629673197(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1629673197L))
-            info.setReturnValue(-255256507);
+    private void button__221028613(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-221028613L))
+            info.setReturnValue(2062896448);
     }
 
 

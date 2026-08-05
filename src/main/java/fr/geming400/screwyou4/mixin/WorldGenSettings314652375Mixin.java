@@ -8,32 +8,32 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.level.levelgen.WorldGenSettings.class)
 public class WorldGenSettings314652375Mixin {
         @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__820808096(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-820808096L))
-            info.setReturnValue("q<:d/\u6541K2?w\uC334(t#xC1Tl be2jP@I;#\u6D03cB_\uB492kUir1Wpq2\u99351\u2A08'>fi!p4%pmGVvK`xv{B]\u2C29(a9?lq\u6203<_-");
+    private void toString_1085075404(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1085075404L))
+            info.setReturnValue("oZ|\u3C94\u3D8Arvu%\u7423 Nw8M");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_352914621(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(352914621L))
-            info.setReturnValue(1245806043);
+    private void hashCode_872003970(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(872003970L))
+            info.setReturnValue(1544685230);
     }
 
     @Inject(at = @At("HEAD"), method = "of(Lnet/minecraft/world/level/levelgen/WorldOptions;Lnet/minecraft/core/RegistryAccess;)Lnet/minecraft/world/level/levelgen/WorldGenSettings;", cancellable = true)
-    private static void of_1517034241(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1517034241L))
+    private static void of__223612278(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-223612278L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "dimensions()Lnet/minecraft/world/level/levelgen/WorldDimensions;", cancellable = true)
-    private void dimensions_1229374733(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1229374733L))
+    private void dimensions_700135898(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(700135898L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "options()Lnet/minecraft/world/level/levelgen/WorldOptions;", cancellable = true)
-    private void options__1780856184(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1780856184L))
+    private void options__917263702(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-917263702L))
             info.setReturnValue(null);
     }
 

@@ -8,8 +8,8 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.server.packs.resources.ResourceMetadata.MapBased.class)
 public class MapBased_873926120Mixin {
         @Inject(at = @At("HEAD"), method = "getSection(Lnet/minecraft/server/packs/metadata/MetadataSectionType;)Ljava/util/Optional;", cancellable = true)
-    private void getSection__743025413(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-743025413L))
+    private void getSection_844916268(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(844916268L))
             info.setReturnValue(null);
     }
 

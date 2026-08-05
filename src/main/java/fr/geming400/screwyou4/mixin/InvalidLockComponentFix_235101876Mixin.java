@@ -8,8 +8,8 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.util.datafix.fixes.InvalidLockComponentFix.class)
 public class InvalidLockComponentFix_235101876Mixin {
         @Inject(at = @At("HEAD"), method = "fixLock(Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;", cancellable = true)
-    private static void fixLock_2142219754(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2142219754L))
+    private static void fixLock_1868529866(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1868529866L))
             info.setReturnValue(null);
     }
 

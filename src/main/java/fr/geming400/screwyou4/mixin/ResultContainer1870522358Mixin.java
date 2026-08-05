@@ -8,68 +8,68 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.inventory.ResultContainer.class)
 public class ResultContainer1870522358Mixin {
         @Inject(at = @At("HEAD"), method = "isEmpty()Z", cancellable = true)
-    private void isEmpty_1908800941(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1908800941L))
+    private void isEmpty__1365328566(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1365328566L))
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "getItem(I)Lnet/minecraft/world/item/ItemStack;", cancellable = true)
-    private void getItem__1030526719(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1030526719L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "removeItem(II)Lnet/minecraft/world/item/ItemStack;", cancellable = true)
-    private void removeItem_185155834(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(185155834L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "setItem(ILnet/minecraft/world/item/ItemStack;)V", cancellable = true)
-    private void setItem_525768903(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(525768903L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "getContainerSize()I", cancellable = true)
+    private void getContainerSize__185242384(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-185242384L))
+            info.setReturnValue(-1578127923);
     }
 
     @Inject(at = @At("HEAD"), method = "removeItemNoUpdate(I)Lnet/minecraft/world/item/ItemStack;", cancellable = true)
-    private void removeItemNoUpdate__1030526719(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1030526719L))
+    private void removeItemNoUpdate_1677432160(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1677432160L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getContainerSize()I", cancellable = true)
-    private void getContainerSize_1908784604(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1908784604L))
-            info.setReturnValue(1874380585);
+    @Inject(at = @At("HEAD"), method = "getRecipeUsed()Lnet/minecraft/world/item/crafting/RecipeHolder;", cancellable = true)
+    private void getRecipeUsed__919787095(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-919787095L))
+            info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "clearContent()V", cancellable = true)
-    private void clearContent_1908797097(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1908797097L))
+    @Inject(at = @At("HEAD"), method = "setRecipeUsed(Lnet/minecraft/world/item/crafting/RecipeHolder;)V", cancellable = true)
+    private void setRecipeUsed_770932271(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(770932271L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "setItem(ILnet/minecraft/world/item/ItemStack;)V", cancellable = true)
+    private void setItem_1786984732(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1786984732L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "setChanged()V", cancellable = true)
-    private void setChanged_1908797097(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1908797097L))
+    private void setChanged_434874871(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(434874871L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "stillValid(Lnet/minecraft/world/entity/player/Player;)Z", cancellable = true)
-    private void stillValid__1483839448(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1483839448L))
+    private void stillValid__163388812(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-163388812L))
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "setRecipeUsed(Lnet/minecraft/world/item/crafting/RecipeHolder;)V", cancellable = true)
-    private void setRecipeUsed_114186364(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(114186364L))
+    @Inject(at = @At("HEAD"), method = "clearContent()V", cancellable = true)
+    private void clearContent_1105370301(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1105370301L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getRecipeUsed()Lnet/minecraft/world/item/crafting/RecipeHolder;", cancellable = true)
-    private void getRecipeUsed_579924424(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(579924424L))
+    @Inject(at = @At("HEAD"), method = "getItem(I)Lnet/minecraft/world/item/ItemStack;", cancellable = true)
+    private void getItem_1784107928(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1784107928L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "removeItem(II)Lnet/minecraft/world/item/ItemStack;", cancellable = true)
+    private void removeItem_1106194929(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1106194929L))
             info.setReturnValue(null);
     }
 

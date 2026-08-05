@@ -8,32 +8,32 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.core.RegistrationInfo.class)
 public class RegistrationInfo_1562345565Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals__1347109473(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1347109473L))
-            info.setReturnValue(true);
+    private void equals_653719296(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(653719296L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString_426885589(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(426885589L))
-            info.setReturnValue("@%q\u778FYW\u594Eny\u888CzK9d\uB4E2wdf^\"RnbE2)65d uc{a+Ey^qI!");
+    private void toString__1962198207(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1962198207L))
+            info.setReturnValue("5nUa\uCB7CXK6\u55FDxq'\uABB9<VZt\u9122bHA:se*%eWrr");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_1600608306(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1600608306L))
-            info.setReturnValue(1709402545);
+    private void hashCode_2119697655(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2119697655L))
+            info.setReturnValue(-1833194266);
     }
 
     @Inject(at = @At("HEAD"), method = "lifecycle()Lcom/mojang/serialization/Lifecycle;", cancellable = true)
-    private void lifecycle_530957134(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(530957134L))
+    private void lifecycle__859866952(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-859866952L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "knownPackInfo()Ljava/util/Optional;", cancellable = true)
-    private void knownPackInfo_1807806986(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1807806986L))
+    private void knownPackInfo_116272852(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(116272852L))
             info.setReturnValue(null);
     }
 

@@ -8,45 +8,45 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.level.block.state.properties.BooleanProperty.class)
 public class BooleanProperty_916055649Mixin {
         @Inject(at = @At("HEAD"), method = "getName(Ljava/lang/Boolean;)Ljava/lang/String;", cancellable = true)
-    private void getName__1697362234(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1697362234L))
-            info.setReturnValue("[Vwiq\u40DFS8\u4484\u9D629wXA.\uFEA1T5f!pc&\u273CC\u964D0A(58A+W`Ebtgwn\u7D853fz\u712CD\u9631\u9382|)9\uA068\u1405\uAB3AZE");
+    private void getName__1089339163(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1089339163L))
+            info.setReturnValue("\u217E1Icy?gB\u2FA21n");
     }
 
     @Inject(at = @At("HEAD"), method = "getName(Ljava/lang/Comparable;)Ljava/lang/String;", cancellable = true)
-    private void getName__254605592(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-254605592L))
-            info.setReturnValue("M)Y^k\u0F84m=Yx+0,\uBCAA1;kF_{\u0FAE+[\u8CD5@\u3FB8]H\u6A59YkGKq]sD)Vz4");
+    private void getName_1483615337(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1483615337L))
+            info.setReturnValue("WA\uFF91D+\uCFF4_\u7693-n&)\"GA*ru V\uCE14FO^os\"UJ\u7666-gXIC");
     }
 
     @Inject(at = @At("HEAD"), method = "getValue(Ljava/lang/String;)Ljava/util/Optional;", cancellable = true)
-    private void getValue__1368876092(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1368876092L))
+    private void getValue_1825175999(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1825175999L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "create(Ljava/lang/String;)Lnet/minecraft/world/level/block/state/properties/BooleanProperty;", cancellable = true)
-    private static void create__1590278049(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1590278049L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getPossibleValues()Ljava/util/List;", cancellable = true)
-    private void getPossibleValues__1752574832(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1752574832L))
+    private static void create_1214371163(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1214371163L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getInternalIndex(Ljava/lang/Comparable;)I", cancellable = true)
-    private void getInternalIndex__334952217(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-334952217L))
-            info.setReturnValue(-1035627534);
+    private void getInternalIndex_1451845928(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1451845928L))
+            info.setReturnValue(-1694983187);
     }
 
     @Inject(at = @At("HEAD"), method = "getInternalIndex(Ljava/lang/Boolean;)I", cancellable = true)
-    private void getInternalIndex_1881139657(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1881139657L))
-            info.setReturnValue(2095989055);
+    private void getInternalIndex_1145067816(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1145067816L))
+            info.setReturnValue(816617821);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getPossibleValues()Ljava/util/List;", cancellable = true)
+    private void getPossibleValues_714894585(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(714894585L))
+            info.setReturnValue(null);
     }
 
 

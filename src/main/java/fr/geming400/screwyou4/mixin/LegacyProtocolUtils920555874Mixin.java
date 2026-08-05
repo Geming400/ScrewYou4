@@ -8,14 +8,14 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.server.network.LegacyProtocolUtils.class)
 public class LegacyProtocolUtils920555874Mixin {
         @Inject(at = @At("HEAD"), method = "readLegacyString(Lio/netty/buffer/ByteBuf;)Ljava/lang/String;", cancellable = true)
-    private static void readLegacyString_1539536638(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1539536638L))
-            info.setReturnValue("EA\u99289MHSo.fyxz_[b\uBFD0ZJ\uA46A|[9&U/[KDA8;");
+    private static void readLegacyString__1795385586(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1795385586L))
+            info.setReturnValue("D\u0515\u942B\u165B{t!Je/\u0A41\u40DFN`z3{-*NR^ovFb1e,2L$_&V\u507D!7C-I!,d`F\"0<P\u96B1a8lV->@}XVp.sf\u667ESUN(?");
     }
 
     @Inject(at = @At("HEAD"), method = "writeLegacyString(Lio/netty/buffer/ByteBuf;Ljava/lang/String;)V", cancellable = true)
-    private static void writeLegacyString_626013020(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(626013020L))
+    private static void writeLegacyString__1064183787(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1064183787L))
             info.cancel();
     }
 

@@ -8,51 +8,51 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.renderer.special.ShulkerBoxSpecialRenderer.Unbaked.class)
 public class Unbaked_1809494123Mixin {
         @Inject(at = @At("HEAD"), method = "type()Lcom/mojang/serialization/MapCodec;", cancellable = true)
-    private void type__749619450(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-749619450L))
+    private void type_414243468(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(414243468L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals__1099960915(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1099960915L))
-            info.setReturnValue(true);
+    private void equals_900867854(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(900867854L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString_674034147(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(674034147L))
-            info.setReturnValue("IY2R6\u3A050;&1\u25FC_W,-@\u5C13FCT*e>\u0146\u4C4B?6z\u5B38a=:D\"O|\u45C5,[I/]=^GtmR\u6D10i\u89CFFB*D8z+\u6481f;^,&\u8B38<A\u604C5L#");
+    private void toString__1715049649(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1715049649L))
+            info.setReturnValue("\u8502FT\uD5C4)RMO-Hz[Fxjr \u2E94\u168EZjs{\u5F1B");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_1847756864(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1847756864L))
-            info.setReturnValue(1408288525);
-    }
-
-    @Inject(at = @At("HEAD"), method = "texture()Lnet/minecraft/resources/Identifier;", cancellable = true)
-    private void texture__633572431(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-633572431L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "openness()F", cancellable = true)
-    private void openness_1847753485(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1847753485L))
-            info.setReturnValue(2.003724E8F);
+    private void hashCode__1928121083(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1928121083L))
+            info.setReturnValue(1974974056);
     }
 
     @Inject(at = @At("HEAD"), method = "bake(Lnet/minecraft/client/renderer/special/SpecialModelRenderer$BakingContext;)Lnet/minecraft/client/renderer/special/SpecialModelRenderer;", cancellable = true)
-    private void bake_121471262(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(121471262L))
+    private void bake__1312670793(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1312670793L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "bake(Lnet/minecraft/client/renderer/special/SpecialModelRenderer$BakingContext;)Lnet/minecraft/client/renderer/special/ShulkerBoxSpecialRenderer;", cancellable = true)
-    private void bake__102296648(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-102296648L))
+    private void bake__1403252545(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1403252545L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "texture()Lnet/minecraft/resources/Identifier;", cancellable = true)
+    private void texture__1654271540(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1654271540L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "openness()F", cancellable = true)
+    private void openness_626793484(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(626793484L))
+            info.setReturnValue(6.453347E8F);
     }
 
 

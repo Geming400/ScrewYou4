@@ -8,21 +8,21 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.util.ClassTreeIdRegistry.class)
 public class ClassTreeIdRegistry1810737440Mixin {
         @Inject(at = @At("HEAD"), method = "getCount(Ljava/lang/Class;)I", cancellable = true)
-    private void getCount_1710548793(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1710548793L))
-            info.setReturnValue(-1513184150);
+    private void getCount_894756306(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(894756306L))
+            info.setReturnValue(1916412051);
     }
 
     @Inject(at = @At("HEAD"), method = "define(Ljava/lang/Class;)I", cancellable = true)
-    private void define_1710548793(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1710548793L))
-            info.setReturnValue(-1513184150);
+    private void define__1757744460(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1757744460L))
+            info.setReturnValue(635668149);
     }
 
     @Inject(at = @At("HEAD"), method = "getLastIdFor(Ljava/lang/Class;)I", cancellable = true)
-    private void getLastIdFor_1710548793(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1710548793L))
-            info.setReturnValue(-1513184150);
+    private void getLastIdFor_47506363(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(47506363L))
+            info.setReturnValue(646670376);
     }
 
 

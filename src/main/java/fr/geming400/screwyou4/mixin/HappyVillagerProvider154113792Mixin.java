@@ -8,14 +8,14 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.particle.SuspendedTownParticle.HappyVillagerProvider.class)
 public class HappyVillagerProvider154113792Mixin {
         @Inject(at = @At("HEAD"), method = "createParticle(Lnet/minecraft/core/particles/SimpleParticleType;Lnet/minecraft/client/multiplayer/ClientLevel;DDDDDDLnet/minecraft/util/RandomSource;)Lnet/minecraft/client/particle/Particle;", cancellable = true)
-    private void createParticle_850782193(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(850782193L))
+    private void createParticle_541627155(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(541627155L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "createParticle(Lnet/minecraft/core/particles/ParticleOptions;Lnet/minecraft/client/multiplayer/ClientLevel;DDDDDDLnet/minecraft/util/RandomSource;)Lnet/minecraft/client/particle/Particle;", cancellable = true)
-    private void createParticle_2015022239(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2015022239L))
+    private void createParticle_1475527869(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1475527869L))
             info.setReturnValue(null);
     }
 

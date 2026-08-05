@@ -8,32 +8,32 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.server.jsonrpc.methods.PlayerService.KickDto.class)
 public class KickDto601580723Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals_1987092982(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1987092982L))
+    private void equals__307045545(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-307045545L))
             info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__533879252(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-533879252L))
-            info.setReturnValue("8udI;iQY6-:Tf`A>:xc'}yh\uD0D54;Ki\u8A39'ILw\u4536h\uCD47");
+    private void toString_1372004248(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1372004248L))
+            info.setReturnValue("iB\uA2ECce;bs8'!JizP:)\u2140o\u4078muk&)B\u5218 &bomE6YK");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_639843465(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(639843465L))
-            info.setReturnValue(2068636701);
+    private void hashCode_1158932814(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1158932814L))
+            info.setReturnValue(1876092522);
     }
 
     @Inject(at = @At("HEAD"), method = "message()Ljava/util/Optional;", cancellable = true)
-    private void message_847042145(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(847042145L))
+    private void message__1212550808(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1212550808L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "player()Lnet/minecraft/server/jsonrpc/api/PlayerDto;", cancellable = true)
-    private void player__241104414(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-241104414L))
+    private void player_1634991811(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1634991811L))
             info.setReturnValue(null);
     }
 

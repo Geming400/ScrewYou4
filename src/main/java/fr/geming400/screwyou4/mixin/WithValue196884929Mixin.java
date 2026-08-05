@@ -8,38 +8,38 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.server.packs.metadata.MetadataSectionType.WithValue.class)
 public class WithValue196884929Mixin {
         @Inject(at = @At("HEAD"), method = "type()Lnet/minecraft/server/packs/metadata/MetadataSectionType;", cancellable = true)
-    private void type_25623240(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(25623240L))
+    private void type_59774414(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(59774414L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "value()Ljava/lang/Object;", cancellable = true)
-    private void value_2056077148(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2056077148L))
-            info.setReturnValue(new java.lang.Object());
+    private void value__806636019(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-806636019L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals_1582397188(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1582397188L))
-            info.setReturnValue(true);
+    private void equals__711741339(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-711741339L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__938575046(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-938575046L))
-            info.setReturnValue("\u722A4|\u2B06h\u536D*,&1_\u5674A`GEk.oq6eXMT.CiJ>W]37:>[/@IjuJy1/)UnTGsWJ/>0qo\uB1B6^vlkrywY*xm2AkyG\uB3AEq\uD112\u07F7[;");
+    private void toString_967308454(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(967308454L))
+            info.setReturnValue("(\uCC99 P>\u673Cv67uMl{-HE#/lc(\u1E0A1p$@pEB!lwdD\uAA317'b}\u1974e,V._\u9F72xZ@\u652E;u\uC4C2)+eP7\u3854\u3C29\uC106W8&\u5803Cz\u8F8404^7\u889F");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_235147671(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(235147671L))
-            info.setReturnValue(-1238044720);
+    private void hashCode_754237020(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(754237020L))
+            info.setReturnValue(2061775049);
     }
 
     @Inject(at = @At("HEAD"), method = "unwrapToType(Lnet/minecraft/server/packs/metadata/MetadataSectionType;)Ljava/util/Optional;", cancellable = true)
-    private void unwrapToType__1420066603(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1420066603L))
+    private void unwrapToType_683960125(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(683960125L))
             info.setReturnValue(null);
     }
 

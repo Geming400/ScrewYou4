@@ -8,8 +8,8 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.entity.animal.goat.GoatAi.class)
 public class GoatAi_1587377103Mixin {
         @Inject(at = @At("HEAD"), method = "updateActivity(Lnet/minecraft/world/entity/animal/goat/Goat;)V", cancellable = true)
-    private static void updateActivity__916161959(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-916161959L))
+    private static void updateActivity_1949926225(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1949926225L))
             info.cancel();
     }
 

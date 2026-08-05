@@ -8,38 +8,38 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.advancements.predicates.entity.CubeMobPredicate.class)
 public class CubeMobPredicate1644926674Mixin {
         @Inject(at = @At("HEAD"), method = "size()Lnet/minecraft/advancements/predicates/MinMaxBounds$Ints;", cancellable = true)
-    private void size_1493691616(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1493691616L))
+    private void size__1428390785(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1428390785L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals__1264528363(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1264528363L))
-            info.setReturnValue(false);
+    private void equals_736300406(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(736300406L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString_509466699(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(509466699L))
-            info.setReturnValue("`U)9FOK8!JTr@72TY%");
+    private void toString__1879617097(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1879617097L))
+            info.setReturnValue("\u8526(*0ntzxCu\u9AC9{(scP2|#p&\u531Do\u90EEx6_X9k^xI,Od\u842Ar; yC#7uQU!<m|)|v^{zQ.VYNDV$ttD\u0DA0PN\u52D0");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_1683189416(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1683189416L))
-            info.setReturnValue(1010107270);
+    private void hashCode__2092688531(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2092688531L))
+            info.setReturnValue(-927234235);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/phys/Vec3;)Z", cancellable = true)
-    private void matches__309265237(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-309265237L))
+    private void matches__1299731688(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1299731688L))
             info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "sized(Lnet/minecraft/advancements/predicates/MinMaxBounds$Ints;)Lnet/minecraft/advancements/predicates/entity/CubeMobPredicate;", cancellable = true)
-    private static void sized_352776066(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(352776066L))
+    private static void sized__889415291(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-889415291L))
             info.setReturnValue(null);
     }
 

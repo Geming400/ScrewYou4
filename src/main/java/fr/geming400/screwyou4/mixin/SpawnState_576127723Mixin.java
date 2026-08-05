@@ -7,16 +7,16 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.world.level.NaturalSpawner.SpawnState.class)
 public class SpawnState_576127723Mixin {
-        @Inject(at = @At("HEAD"), method = "getMobCategoryCounts()Lit/unimi/dsi/fastutil/objects/Object2IntMap;", cancellable = true)
-    private void getMobCategoryCounts__492594562(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-492594562L))
-            info.setReturnValue(null);
+        @Inject(at = @At("HEAD"), method = "getSpawnableChunkCount()I", cancellable = true)
+    private void getSpawnableChunkCount__1811827505(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1811827505L))
+            info.setReturnValue(-1801841995);
     }
 
-    @Inject(at = @At("HEAD"), method = "getSpawnableChunkCount()I", cancellable = true)
-    private void getSpawnableChunkCount_614389968(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(614389968L))
-            info.setReturnValue(-942943630);
+    @Inject(at = @At("HEAD"), method = "getMobCategoryCounts()Lit/unimi/dsi/fastutil/objects/Object2IntMap;", cancellable = true)
+    private void getMobCategoryCounts__1028936270(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1028936270L))
+            info.setReturnValue(null);
     }
 
 

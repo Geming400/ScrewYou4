@@ -8,8 +8,8 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.model.monster.zombie.BabyDrownedModel.class)
 public class BabyDrownedModel_41558634Mixin {
         @Inject(at = @At("HEAD"), method = "createBodyLayer(Lnet/minecraft/client/model/geom/builders/CubeDeformation;)Lnet/minecraft/client/model/geom/builders/LayerDefinition;", cancellable = true)
-    private static void createBodyLayer_1547790935(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1547790935L))
+    private static void createBodyLayer__1576118134(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1576118134L))
             info.setReturnValue(null);
     }
 

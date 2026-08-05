@@ -8,21 +8,21 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.util.debug.DebugEntityBlockIntersection.class)
 public class DebugEntityBlockIntersection2046256780Mixin {
         @Inject(at = @At("HEAD"), method = "values()[Lnet/minecraft/util/debug/DebugEntityBlockIntersection;", cancellable = true)
-    private static void values__1202511878(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1202511878L))
+    private static void values_13012508(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(13012508L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/util/debug/DebugEntityBlockIntersection;", cancellable = true)
-    private static void valueOf_1092417757(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1092417757L))
-            info.setReturnValue(net.minecraft.util.debug.DebugEntityBlockIntersection.IN_BLOCK);
+    private static void valueOf__298281291(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-298281291L))
+            info.setReturnValue(net.minecraft.util.debug.DebugEntityBlockIntersection.IN_FLUID);
     }
 
     @Inject(at = @At("HEAD"), method = "color()I", cancellable = true)
-    private void color_2084519026(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2084519026L))
-            info.setReturnValue(988422051);
+    private void color__1012059409(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1012059409L))
+            info.setReturnValue(-308911684);
     }
 
 

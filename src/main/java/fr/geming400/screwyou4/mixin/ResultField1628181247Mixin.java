@@ -8,21 +8,21 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.util.profiling.ResultField.class)
 public class ResultField1628181247Mixin {
         @Inject(at = @At("HEAD"), method = "compareTo(Ljava/lang/Object;)I", cancellable = true)
-    private void compareTo__1281161663(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1281161663L))
-            info.setReturnValue(1982337793);
+    private void compareTo__263922687(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-263922687L))
+            info.setReturnValue(119894741);
     }
 
     @Inject(at = @At("HEAD"), method = "compareTo(Lnet/minecraft/util/profiling/ResultField;)I", cancellable = true)
-    private void compareTo_603077337(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(603077337L))
-            info.setReturnValue(-557907355);
+    private void compareTo_568250521(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(568250521L))
+            info.setReturnValue(-2140933160);
     }
 
     @Inject(at = @At("HEAD"), method = "getColor()I", cancellable = true)
-    private void getColor_1666443493(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1666443493L))
-            info.setReturnValue(498842319);
+    private void getColor__1727883432(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1727883432L))
+            info.setReturnValue(1611602495);
     }
 
 

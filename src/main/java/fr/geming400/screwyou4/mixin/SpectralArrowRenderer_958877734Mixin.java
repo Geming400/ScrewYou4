@@ -8,15 +8,15 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.renderer.entity.SpectralArrowRenderer.class)
 public class SpectralArrowRenderer_958877734Mixin {
         @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/EntityRenderState;", cancellable = true)
-    private void createRenderState_370241289(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(370241289L))
+    private void createRenderState_1212048712(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1212048712L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/ArrowRenderState;", cancellable = true)
-    private void createRenderState_991425225(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(991425225L))
-            info.setReturnValue(new net.minecraft.client.renderer.entity.state.ArrowRenderState());
+    private void createRenderState__228345686(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-228345686L))
+            info.setReturnValue(null);
     }
 
 

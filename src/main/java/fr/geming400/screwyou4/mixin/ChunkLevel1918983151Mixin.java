@@ -8,57 +8,57 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.server.level.ChunkLevel.class)
 public class ChunkLevel1918983151Mixin {
         @Inject(at = @At("HEAD"), method = "isLoaded(I)Z", cancellable = true)
-    private static void isLoaded__1162063081(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1162063081L))
+    private static void isLoaded_2076941734(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2076941734L))
             info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "fullStatus(I)Lnet/minecraft/server/level/FullChunkStatus;", cancellable = true)
-    private static void fullStatus_2086419983(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2086419983L))
-            info.setReturnValue(net.minecraft.server.level.FullChunkStatus.BLOCK_TICKING);
-    }
-
-    @Inject(at = @At("HEAD"), method = "byStatus(Lnet/minecraft/server/level/FullChunkStatus;)I", cancellable = true)
-    private static void byStatus_1893781967(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1893781967L))
-            info.setReturnValue(1834407247);
     }
 
     @Inject(at = @At("HEAD"), method = "byStatus(Lnet/minecraft/world/level/chunk/status/ChunkStatus;)I", cancellable = true)
-    private static void byStatus_602364604(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(602364604L))
-            info.setReturnValue(-1217752297);
+    private static void byStatus_415400883(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(415400883L))
+            info.setReturnValue(826204438);
+    }
+
+    @Inject(at = @At("HEAD"), method = "byStatus(Lnet/minecraft/server/level/FullChunkStatus;)I", cancellable = true)
+    private static void byStatus_1479795142(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1479795142L))
+            info.setReturnValue(-261583707);
     }
 
     @Inject(at = @At("HEAD"), method = "isEntityTicking(I)Z", cancellable = true)
-    private static void isEntityTicking__1162063081(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1162063081L))
-            info.setReturnValue(true);
+    private static void isEntityTicking_961012687(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(961012687L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "generationStatus(I)Lnet/minecraft/world/level/chunk/status/ChunkStatus;", cancellable = true)
-    private static void generationStatus_2055937596(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2055937596L))
+    private static void generationStatus_1538135634(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1538135634L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "isBlockTicking(I)Z", cancellable = true)
-    private static void isBlockTicking__1162063081(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1162063081L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getStatusAroundFullChunk(I)Lnet/minecraft/world/level/chunk/status/ChunkStatus;", cancellable = true)
-    private static void getStatusAroundFullChunk_2055937596(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2055937596L))
-            info.setReturnValue(null);
+    private static void isBlockTicking__1607683143(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1607683143L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "getStatusAroundFullChunk(ILnet/minecraft/world/level/chunk/status/ChunkStatus;)Lnet/minecraft/world/level/chunk/status/ChunkStatus;", cancellable = true)
-    private static void getStatusAroundFullChunk_696311917(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(696311917L))
+    private static void getStatusAroundFullChunk__1137245884(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1137245884L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getStatusAroundFullChunk(I)Lnet/minecraft/world/level/chunk/status/ChunkStatus;", cancellable = true)
+    private static void getStatusAroundFullChunk_1316613267(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1316613267L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "fullStatus(I)Lnet/minecraft/server/level/FullChunkStatus;", cancellable = true)
+    private static void fullStatus__595552050(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-595552050L))
+            info.setReturnValue(net.minecraft.server.level.FullChunkStatus.FULL);
     }
 
 

@@ -8,8 +8,8 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.model.animal.camel.AdultCamelModel.class)
 public class AdultCamelModel88380607Mixin {
         @Inject(at = @At("HEAD"), method = "createBodyLayer()Lnet/minecraft/client/model/geom/builders/LayerDefinition;", cancellable = true)
-    private static void createBodyLayer__625751557(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-625751557L))
+    private static void createBodyLayer__1815274002(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1815274002L))
             info.setReturnValue(null);
     }
 

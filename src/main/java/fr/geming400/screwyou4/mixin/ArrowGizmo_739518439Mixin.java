@@ -8,50 +8,50 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.gizmos.ArrowGizmo.class)
 public class ArrowGizmo_739518439Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals_2125030697(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2125030697L))
-            info.setReturnValue(true);
+    private void equals__169107830(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-169107830L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__395941537(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-395941537L))
-            info.setReturnValue("m^%\u01C26>qzz.\u9A56t`!':qpn5 \u5B25iGk7<1h!XC\u5C3C(:yUb3\uC654\uC929b}{QbOr/2{0t[q_KwQB/\u4F08]\u2F5DTUCW;*a;*h\uCF72aeWlb fEo'\uA39C");
+    private void toString_1509941963(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1509941963L))
+            info.setReturnValue("#\u1547\uB755I78kv6azN\u5D7Ag8\uAEB8RZvMl'0TSRWe,ecgF\uD578GY:WOj)utI\uAFDBEnFssY+=_bzc`\u78DFQ.@R:\u735A\uB4A2C\u9791^k=?;4Z-p2n:cf7eUv\u1AA51*\u9CF2");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_777781180(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(777781180L))
-            info.setReturnValue(-1078990881);
+    private void hashCode_1296870529(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1296870529L))
+            info.setReturnValue(-1143473909);
     }
 
     @Inject(at = @At("HEAD"), method = "end()Lnet/minecraft/world/phys/Vec3;", cancellable = true)
-    private void end_1837247967(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1837247967L))
+    private void end__1377247452(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1377247452L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "start()Lnet/minecraft/world/phys/Vec3;", cancellable = true)
-    private void start_1837247967(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1837247967L))
+    private void start__233537987(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-233537987L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "color()I", cancellable = true)
-    private void color_777780684(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(777780684L))
-            info.setReturnValue(-900467391);
+    private void color_1976169545(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1976169545L))
+            info.setReturnValue(-2008711375);
     }
 
     @Inject(at = @At("HEAD"), method = "width()F", cancellable = true)
-    private void width_777777801(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(777777801L))
-            info.setReturnValue(8.828923E8F);
+    private void width__900632445(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-900632445L))
+            info.setReturnValue(6.624627E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "emit(Lnet/minecraft/gizmos/GizmoPrimitives;F)V", cancellable = true)
-    private void emit_1336958948(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1336958948L))
+    private void emit_1149615927(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1149615927L))
             info.cancel();
     }
 

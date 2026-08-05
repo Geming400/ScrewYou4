@@ -8,21 +8,21 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.level.block.NoteBlock.class)
 public class NoteBlock_1406835859Mixin {
         @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
-    private void codec__1152277714(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1152277714L))
+    private void codec__1821686184(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1821686184L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
-    private void getStateForPlacement_148236091(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(148236091L))
+    private void getStateForPlacement__1062352622(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1062352622L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getPitchFromNote(I)F", cancellable = true)
-    private static void getPitchFromNote__1674229594(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1674229594L))
-            info.setReturnValue(9.798851E8F);
+    private static void getPitchFromNote_899243660(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(899243660L))
+            info.setReturnValue(2522400.0F);
     }
 
 

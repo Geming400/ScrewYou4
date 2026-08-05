@@ -8,20 +8,20 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.util.context.ContextKey.class)
 public class ContextKey_32106764Mixin {
         @Inject(at = @At("HEAD"), method = "name()Lnet/minecraft/resources/Identifier;", cancellable = true)
-    private void name_1884007506(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1884007506L))
+    private void name__1326153763(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1326153763L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__1103353708(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1103353708L))
-            info.setReturnValue("*dy\"g)u_=j0\uD743\u215CjI()?gD15[8U$&\uC7E6`b'0Q111y-6");
+    private void toString_802529792(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(802529792L))
+            info.setReturnValue("2p\u7B17B\u325DHT'\u575Ew[6h_(aZ2\uBF1A\u152E<,BH\u6486^m6%\u60FA/u\uAC21b_W$e\"!>jn5Fp>\uD207m`IG=oPBm3a8em'nw\u2F0F[poP,Ewt^IE)6w\u5D02iHDY%vli");
     }
 
     @Inject(at = @At("HEAD"), method = "vanilla(Ljava/lang/String;)Lnet/minecraft/util/context/ContextKey;", cancellable = true)
-    private static void vanilla__2063480632(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2063480632L))
+    private static void vanilla__1524994259(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1524994259L))
             info.setReturnValue(null);
     }
 

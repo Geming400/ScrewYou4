@@ -8,38 +8,38 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.item.component.SeededContainerLoot.class)
 public class SeededContainerLoot1820743291Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals__1088711746(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1088711746L))
+    private void equals_912117023(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(912117023L))
             info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString_685283316(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(685283316L))
-            info.setReturnValue("<7b#\"rpmQs$8{e7;^mH\u6935y*i`:Uv^8rK5}\uC134ub?2du\uA4FF &");
+    private void toString__1703800480(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1703800480L))
+            info.setReturnValue("i,}\uD2A9M,,+z\u86A1QU+,Cj#!</\u434D\u3B628E\uC303{<B\u8D030Y\"\u643F:uq&4I{%l5");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_1859006033(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1859006033L))
-            info.setReturnValue(-1242069135);
+    private void hashCode__1916871914(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1916871914L))
+            info.setReturnValue(1510581304);
     }
 
     @Inject(at = @At("HEAD"), method = "seed()J", cancellable = true)
-    private void seed_1859006498(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1859006498L))
-            info.setReturnValue(-2005124154868448798L);
+    private void seed__1898135471(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1898135471L))
+            info.setReturnValue(5644890680222142335L);
     }
 
     @Inject(at = @At("HEAD"), method = "lootTable()Lnet/minecraft/resources/ResourceKey;", cancellable = true)
-    private void lootTable__1665732692(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1665732692L))
+    private void lootTable_1515552870(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1515552870L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "addToTooltip(Lnet/minecraft/world/item/Item$TooltipContext;Ljava/util/function/Consumer;Lnet/minecraft/world/item/TooltipFlag;Lnet/minecraft/core/component/DataComponentGetter;)V", cancellable = true)
-    private void addToTooltip__721975099(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-721975099L))
+    private void addToTooltip__554476756(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-554476756L))
             info.cancel();
     }
 

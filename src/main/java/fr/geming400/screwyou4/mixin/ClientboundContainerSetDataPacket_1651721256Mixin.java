@@ -8,39 +8,39 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.network.protocol.game.ClientboundContainerSetDataPacket.class)
 public class ClientboundContainerSetDataPacket_1651721256Mixin {
         @Inject(at = @At("HEAD"), method = "type()Lnet/minecraft/network/protocol/PacketType;", cancellable = true)
-    private void type__27303833(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-27303833L))
+    private void type_1807588845(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1807588845L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getValue()I", cancellable = true)
-    private void getValue_1689983501(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1689983501L))
-            info.setReturnValue(772916068);
+    private void getValue__950698190(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-950698190L))
+            info.setReturnValue(2110060213);
     }
 
     @Inject(at = @At("HEAD"), method = "getId()I", cancellable = true)
-    private void getId_1689983501(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1689983501L))
-            info.setReturnValue(772916068);
+    private void getId__6602340(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-6602340L))
+            info.setReturnValue(-1049686447);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/PacketListener;)V", cancellable = true)
-    private void handle__1965177128(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1965177128L))
+    private void handle_1356009392(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1356009392L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/protocol/game/ClientGamePacketListener;)V", cancellable = true)
-    private void handle_1849228789(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1849228789L))
+    private void handle_60243661(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(60243661L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "getContainerId()I", cancellable = true)
-    private void getContainerId_1689983501(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1689983501L))
-            info.setReturnValue(772916068);
+    private void getContainerId__737684089(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-737684089L))
+            info.setReturnValue(-756597807);
     }
 
 

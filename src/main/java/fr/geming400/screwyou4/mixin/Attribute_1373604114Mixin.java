@@ -8,45 +8,45 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.entity.ai.attributes.Attribute.class)
 public class Attribute_1373604114Mixin {
         @Inject(at = @At("HEAD"), method = "getDefaultValue()D", cancellable = true)
-    private void getDefaultValue_1411861554(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1411861554L))
-            info.setReturnValue(1.6679970088442263E8D);
+    private void getDefaultValue_777590220(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(777590220L))
+            info.setReturnValue(1.0138480079666406E8D);
     }
 
     @Inject(at = @At("HEAD"), method = "getStyle(Z)Lnet/minecraft/ChatFormatting;", cancellable = true)
-    private void getStyle__290068732(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-290068732L))
-            info.setReturnValue(net.minecraft.ChatFormatting.BLACK);
+    private void getStyle_1249544489(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1249544489L))
+            info.setReturnValue(net.minecraft.ChatFormatting.YELLOW);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getDescriptionId()Ljava/lang/String;", cancellable = true)
+    private void getDescriptionId_36486235(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(36486235L))
+            info.setReturnValue("\uA4A3>cFq$gr*JtJcaw Rj>Pb$:(&l#@5JuRM\u9A09%1$b\u5B15:1$;Jk;FuG&D\"%2{mm\u2A40s\u3920");
     }
 
     @Inject(at = @At("HEAD"), method = "setSyncable(Z)Lnet/minecraft/world/entity/ai/attributes/Attribute;", cancellable = true)
-    private void setSyncable_536015141(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(536015141L))
+    private void setSyncable__1120159730(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1120159730L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "setSentiment(Lnet/minecraft/world/entity/ai/attributes/Attribute$Sentiment;)Lnet/minecraft/world/entity/ai/attributes/Attribute;", cancellable = true)
-    private void setSentiment__998120421(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-998120421L))
+    private void setSentiment_863429320(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(863429320L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "sanitizeValue(D)D", cancellable = true)
-    private void sanitizeValue__1712081114(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1712081114L))
-            info.setReturnValue(1.6679970016130677E8D);
+    private void sanitizeValue_801538990(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(801538990L))
+            info.setReturnValue(1.0138480042711927E8D);
     }
 
     @Inject(at = @At("HEAD"), method = "isClientSyncable()Z", cancellable = true)
-    private void isClientSyncable_1411882696(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1411882696L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getDescriptionId()Ljava/lang/String;", cancellable = true)
-    private void getDescriptionId_238143642(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(238143642L))
-            info.setReturnValue("G*8zZ &L%\uC964\u00FFJ\u1364M[s\u8E8D(\u8702>\u2943L2h\u67B7&\u787Cq=X?S'eyKFrY:@tY\u7B6A@H8}\u1D03<KPv\u6B8Bq-@_-:PW2Dw]7\u797A:fKIH8c)i\uC15C");
+    private void isClientSyncable__1334593058(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1334593058L))
+            info.setReturnValue(false);
     }
 
 

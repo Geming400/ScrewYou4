@@ -8,56 +8,56 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.gametest.framework.TestEnvironmentDefinition.Timelines.class)
 public class Timelines1892222604Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals__1017232433(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1017232433L))
+    private void equals_983596336(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(983596336L))
             info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString_756762629(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(756762629L))
-            info.setReturnValue("<\uA486UE7b\uBDC0\u6E36nl");
+    private void toString__1632321167(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1632321167L))
+            info.setReturnValue("Qw\u3FEA19[Al]wP,6\u6DAFIx}&\uCF0F[lX-\u2E09cZ\u4FD6\u3C94F0JN\uB405Tdd;N");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_1930485346(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1930485346L))
-            info.setReturnValue(1642975329);
+    private void hashCode__1845392601(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1845392601L))
+            info.setReturnValue(178092328);
     }
 
     @Inject(at = @At("HEAD"), method = "setup(Lnet/minecraft/server/level/ServerLevel;)Ljava/lang/Object;", cancellable = true)
-    private void setup__817553866(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-817553866L))
-            info.setReturnValue(null);
+    private void setup__137139213(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-137139213L))
+            info.setReturnValue(new java.lang.Object());
     }
 
     @Inject(at = @At("HEAD"), method = "setup(Lnet/minecraft/server/level/ServerLevel;)Lnet/minecraft/world/attribute/EnvironmentAttributeSystem;", cancellable = true)
-    private void setup_1528476685(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1528476685L))
+    private void setup_1557643466(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1557643466L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "teardown(Lnet/minecraft/server/level/ServerLevel;Ljava/lang/Object;)V", cancellable = true)
-    private void teardown__925214164(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-925214164L))
+    private void teardown__1779416152(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1779416152L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "teardown(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/attribute/EnvironmentAttributeSystem;)V", cancellable = true)
-    private void teardown_977930563(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(977930563L))
+    private void teardown_1930938047(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1930938047L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
-    private void codec__666890968(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-666890968L))
+    private void codec__1336299438(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1336299438L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "timelines()Ljava/util/List;", cancellable = true)
-    private void timelines__776407876(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-776407876L))
+    private void timelines_800541710(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(800541710L))
             info.setReturnValue(null);
     }
 

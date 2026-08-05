@@ -8,32 +8,32 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.server.level.progress.LevelLoadProgressTracker.class)
 public class LevelLoadProgressTracker_1423190993Mixin {
         @Inject(at = @At("HEAD"), method = "get()F", cancellable = true)
-    private void get_1461450355(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1461450355L))
-            info.setReturnValue(3.153295E8F);
+    private void get__948138787(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-948138787L))
+            info.setReturnValue(4.59494E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "update(Lnet/minecraft/server/level/progress/LevelLoadListener$Stage;II)V", cancellable = true)
-    private void update_1414526273(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1414526273L))
+    private void update_1925044618(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1925044618L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "start(Lnet/minecraft/server/level/progress/LevelLoadListener$Stage;I)V", cancellable = true)
-    private void start__656182370(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-656182370L))
+    private void start_896322556(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(896322556L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "finish(Lnet/minecraft/server/level/progress/LevelLoadListener$Stage;)V", cancellable = true)
-    private void finish__722979423(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-722979423L))
+    private void finish__495398540(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-495398540L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "updateFocus(Lnet/minecraft/resources/ResourceKey;Lnet/minecraft/world/level/ChunkPos;)V", cancellable = true)
-    private void updateFocus__1185541389(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1185541389L))
+    private void updateFocus_281933378(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(281933378L))
             info.cancel();
     }
 

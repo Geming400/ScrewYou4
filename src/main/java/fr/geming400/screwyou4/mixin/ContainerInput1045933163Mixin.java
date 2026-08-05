@@ -8,21 +8,21 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.inventory.ContainerInput.class)
 public class ContainerInput1045933163Mixin {
         @Inject(at = @At("HEAD"), method = "values()[Lnet/minecraft/world/inventory/ContainerInput;", cancellable = true)
-    private static void values__415242179(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-415242179L))
+    private static void values_1571531739(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1571531739L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/world/inventory/ContainerInput;", cancellable = true)
-    private static void valueOf__1863650310(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1863650310L))
-            info.setReturnValue(net.minecraft.world.inventory.ContainerInput.PICKUP);
+    private static void valueOf_1093002018(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1093002018L))
+            info.setReturnValue(net.minecraft.world.inventory.ContainerInput.PICKUP_ALL);
     }
 
     @Inject(at = @At("HEAD"), method = "id()I", cancellable = true)
-    private void id_1084195409(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1084195409L))
-            info.setReturnValue(1649167243);
+    private void id__1649250794(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1649250794L))
+            info.setReturnValue(-1097023238);
     }
 
 

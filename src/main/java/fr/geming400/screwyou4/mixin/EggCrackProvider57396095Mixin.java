@@ -8,14 +8,14 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.particle.SuspendedTownParticle.EggCrackProvider.class)
 public class EggCrackProvider57396095Mixin {
         @Inject(at = @At("HEAD"), method = "createParticle(Lnet/minecraft/core/particles/SimpleParticleType;Lnet/minecraft/client/multiplayer/ClientLevel;DDDDDDLnet/minecraft/util/RandomSource;)Lnet/minecraft/client/particle/Particle;", cancellable = true)
-    private void createParticle_754064496(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(754064496L))
+    private void createParticle_444909458(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(444909458L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "createParticle(Lnet/minecraft/core/particles/ParticleOptions;Lnet/minecraft/client/multiplayer/ClientLevel;DDDDDDLnet/minecraft/util/RandomSource;)Lnet/minecraft/client/particle/Particle;", cancellable = true)
-    private void createParticle_1918304542(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1918304542L))
+    private void createParticle_1378810172(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1378810172L))
             info.setReturnValue(null);
     }
 

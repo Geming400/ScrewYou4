@@ -8,14 +8,14 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.util.DependencySorter.class)
 public class DependencySorter717726588Mixin {
         @Inject(at = @At("HEAD"), method = "addEntry(Ljava/lang/Object;Lnet/minecraft/util/DependencySorter$Entry;)Lnet/minecraft/util/DependencySorter;", cancellable = true)
-    private void addEntry__998628049(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-998628049L))
-            info.setReturnValue(new net.minecraft.util.DependencySorter());
+    private void addEntry_1487156416(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1487156416L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "orderByDependencies(Ljava/util/function/BiConsumer;)V", cancellable = true)
-    private void orderByDependencies__1020424302(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1020424302L))
+    private void orderByDependencies__1783486816(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1783486816L))
             info.cancel();
     }
 

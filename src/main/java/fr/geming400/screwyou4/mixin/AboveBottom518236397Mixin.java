@@ -8,33 +8,33 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.level.levelgen.VerticalAnchor.AboveBottom.class)
 public class AboveBottom518236397Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals_1903748656(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1903748656L))
+    private void equals__390389871(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-390389871L))
             info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__617224074(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-617224074L))
-            info.setReturnValue("K*t/$\u5838]a-UOG1");
+    private void toString_1288659426(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1288659426L))
+            info.setReturnValue("Hk;:\u46D16[bjCoJ;sb/JA?_o:");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_556499139(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(556499139L))
-            info.setReturnValue(1283460835);
+    private void hashCode_1075588488(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1075588488L))
+            info.setReturnValue(1828227374);
     }
 
     @Inject(at = @At("HEAD"), method = "offset()I", cancellable = true)
-    private void offset_556498643(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(556498643L))
-            info.setReturnValue(1919435442);
+    private void offset_1741356576(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1741356576L))
+            info.setReturnValue(1677472869);
     }
 
     @Inject(at = @At("HEAD"), method = "resolveY(Lnet/minecraft/world/level/levelgen/WorldGenerationContext;)I", cancellable = true)
-    private void resolveY__1922312610(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1922312610L))
-            info.setReturnValue(1072571189);
+    private void resolveY__1744983477(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1744983477L))
+            info.setReturnValue(-1083062741);
     }
 
 

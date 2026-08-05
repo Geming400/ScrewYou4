@@ -7,16 +7,16 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.world.effect.InstantaneousMobEffect.class)
 public class InstantaneousMobEffect1269805931Mixin {
-        @Inject(at = @At("HEAD"), method = "isInstantaneous()Z", cancellable = true)
-    private void isInstantaneous_1308084514(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1308084514L))
+        @Inject(at = @At("HEAD"), method = "shouldApplyEffectTickThisTick(II)Z", cancellable = true)
+    private void shouldApplyEffectTickThisTick__938957666(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-938957666L))
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "shouldApplyEffectTickThisTick(II)Z", cancellable = true)
-    private void shouldApplyEffectTickThisTick_273930306(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(273930306L))
-            info.setReturnValue(true);
+    @Inject(at = @At("HEAD"), method = "isInstantaneous()Z", cancellable = true)
+    private void isInstantaneous__527406570(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-527406570L))
+            info.setReturnValue(false);
     }
 
 

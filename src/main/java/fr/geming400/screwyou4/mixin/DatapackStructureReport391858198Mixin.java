@@ -8,15 +8,15 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.data.info.DatapackStructureReport.class)
 public class DatapackStructureReport391858198Mixin {
         @Inject(at = @At("HEAD"), method = "getName()Ljava/lang/String;", cancellable = true)
-    private void getName__743602273(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-743602273L))
-            info.setReturnValue("VpV;&8+)\uA172%(hToZnAeWkkZ\u8074\uCCF9*}n\u4B10V&g2+Ax!i9K|z2.)4y O$L}.\uBC3Cbg)Bl+*'!Sg1':");
+    private void getName__1496988704(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1496988704L))
+            info.setReturnValue("s\u1A77Z\u44CCM^\u0C2AaUs82@{^n)\u0E88");
     }
 
     @Inject(at = @At("HEAD"), method = "run(Lnet/minecraft/data/CachedOutput;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
-    private void run_1118380656(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1118380656L))
-            info.setReturnValue(new java.util.concurrent.CompletableFuture());
+    private void run_491583941(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(491583941L))
+            info.setReturnValue(null);
     }
 
 

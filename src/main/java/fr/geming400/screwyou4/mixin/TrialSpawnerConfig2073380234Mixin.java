@@ -8,104 +8,104 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.level.block.entity.trialspawner.TrialSpawnerConfig.class)
 public class TrialSpawnerConfig2073380234Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals__836074803(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-836074803L))
+    private void equals_1164753966(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1164753966L))
             info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString_937920259(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(937920259L))
-            info.setReturnValue("gm]#\uAA226T#f3tv\uA0C8vd&H$g|\uCBF3Q7k=ZKD!G\uCE77?;p^{K\"4\uD184F\uBF4Cpk\u9807+");
+    private void toString__1451163537(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1451163537L))
+            info.setReturnValue("");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_2111642976(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2111642976L))
-            info.setReturnValue(-484143411);
+    private void hashCode__1664234971(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1664234971L))
+            info.setReturnValue(-2109213368);
     }
 
     @Inject(at = @At("HEAD"), method = "builder()Lnet/minecraft/world/level/block/entity/trialspawner/TrialSpawnerConfig$Builder;", cancellable = true)
-    private static void builder__1524280426(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1524280426L))
+    private static void builder__1312157775(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1312157775L))
             info.setReturnValue(new net.minecraft.world.level.block.entity.trialspawner.TrialSpawnerConfig.Builder());
     }
 
     @Inject(at = @At("HEAD"), method = "spawnRange()I", cancellable = true)
-    private void spawnRange_2111642480(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2111642480L))
-            info.setReturnValue(-280233892);
+    private void spawnRange__1624960466(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1624960466L))
+            info.setReturnValue(1994684725);
     }
 
-    @Inject(at = @At("HEAD"), method = "totalMobsAddedPerPlayer()F", cancellable = true)
-    private void totalMobsAddedPerPlayer_2111639597(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2111639597L))
-            info.setReturnValue(5.22262E8F);
+    @Inject(at = @At("HEAD"), method = "ticksBetweenItemSpawners()J", cancellable = true)
+    private void ticksBetweenItemSpawners__576437471(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-576437471L))
+            info.setReturnValue(-2507673210492752658L);
+    }
+
+    @Inject(at = @At("HEAD"), method = "lootTablesToEject()Lnet/minecraft/util/random/WeightedList;", cancellable = true)
+    private void lootTablesToEject__1864158567(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1864158567L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "spawnPotentialsDefinition()Lnet/minecraft/util/random/WeightedList;", cancellable = true)
+    private void spawnPotentialsDefinition__617266221(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-617266221L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "ticksBetweenSpawn()I", cancellable = true)
+    private void ticksBetweenSpawn__767700185(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-767700185L))
+            info.setReturnValue(23950380);
+    }
+
+    @Inject(at = @At("HEAD"), method = "totalMobs()F", cancellable = true)
+    private void totalMobs__555321418(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-555321418L))
+            info.setReturnValue(3.510592E8F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "simultaneousMobsAddedPerPlayer()F", cancellable = true)
+    private void simultaneousMobsAddedPerPlayer__1661008831(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1661008831L))
+            info.setReturnValue(3.510592E8F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "calculateTargetSimultaneousMobs(I)I", cancellable = true)
+    private void calculateTargetSimultaneousMobs__392549010(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-392549010L))
+            info.setReturnValue(268658877);
     }
 
     @Inject(at = @At("HEAD"), method = "itemsToDropWhenOminous()Lnet/minecraft/resources/ResourceKey;", cancellable = true)
-    private void itemsToDropWhenOminous__1413095749(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1413095749L))
+    private void itemsToDropWhenOminous__471469195(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-471469195L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "simultaneousMobs()F", cancellable = true)
-    private void simultaneousMobs_2111639597(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2111639597L))
-            info.setReturnValue(5.22262E8F);
+    private void simultaneousMobs__936250785(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-936250785L))
+            info.setReturnValue(3.510592E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "calculateTargetTotalMobs(I)I", cancellable = true)
-    private void calculateTargetTotalMobs__1007682583(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1007682583L))
-            info.setReturnValue(-658773384);
+    private void calculateTargetTotalMobs_1542643689(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1542643689L))
+            info.setReturnValue(439423035);
+    }
+
+    @Inject(at = @At("HEAD"), method = "totalMobsAddedPerPlayer()F", cancellable = true)
+    private void totalMobsAddedPerPlayer_1886905688(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1886905688L))
+            info.setReturnValue(3.510592E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "withSpawning(Lnet/minecraft/world/entity/EntityType;)Lnet/minecraft/world/level/block/entity/trialspawner/TrialSpawnerConfig;", cancellable = true)
-    private void withSpawning__1495937994(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1495937994L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "totalMobs()F", cancellable = true)
-    private void totalMobs_2111639597(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2111639597L))
-            info.setReturnValue(5.22262E8F);
-    }
-
-    @Inject(at = @At("HEAD"), method = "simultaneousMobsAddedPerPlayer()F", cancellable = true)
-    private void simultaneousMobsAddedPerPlayer_2111639597(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2111639597L))
-            info.setReturnValue(5.22262E8F);
-    }
-
-    @Inject(at = @At("HEAD"), method = "calculateTargetSimultaneousMobs(I)I", cancellable = true)
-    private void calculateTargetSimultaneousMobs__1007682583(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1007682583L))
-            info.setReturnValue(-658773384);
-    }
-
-    @Inject(at = @At("HEAD"), method = "spawnPotentialsDefinition()Lnet/minecraft/util/random/WeightedList;", cancellable = true)
-    private void spawnPotentialsDefinition_1566896368(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1566896368L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "ticksBetweenItemSpawners()J", cancellable = true)
-    private void ticksBetweenItemSpawners_2111643441(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2111643441L))
-            info.setReturnValue(-5034730680389222438L);
-    }
-
-    @Inject(at = @At("HEAD"), method = "ticksBetweenSpawn()I", cancellable = true)
-    private void ticksBetweenSpawn_2111642480(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2111642480L))
-            info.setReturnValue(-280233892);
-    }
-
-    @Inject(at = @At("HEAD"), method = "lootTablesToEject()Lnet/minecraft/util/random/WeightedList;", cancellable = true)
-    private void lootTablesToEject_1566896368(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1566896368L))
+    private void withSpawning__897601111(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-897601111L))
             info.setReturnValue(null);
     }
 

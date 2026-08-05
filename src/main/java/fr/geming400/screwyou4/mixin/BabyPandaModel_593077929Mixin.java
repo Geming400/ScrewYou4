@@ -8,8 +8,8 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.model.animal.panda.BabyPandaModel.class)
 public class BabyPandaModel_593077929Mixin {
         @Inject(at = @At("HEAD"), method = "createBodyLayer()Lnet/minecraft/client/model/geom/builders/LayerDefinition;", cancellable = true)
-    private static void createBodyLayer__121054236(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-121054236L))
+    private static void createBodyLayer__1310576681(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1310576681L))
             info.setReturnValue(null);
     }
 

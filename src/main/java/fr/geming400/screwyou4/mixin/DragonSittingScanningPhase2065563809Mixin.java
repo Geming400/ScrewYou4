@@ -8,20 +8,20 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.entity.boss.enderdragon.phases.DragonSittingScanningPhase.class)
 public class DragonSittingScanningPhase2065563809Mixin {
         @Inject(at = @At("HEAD"), method = "begin()V", cancellable = true)
-    private void begin_2103838548(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(2103838548L))
+    private void begin__1170239413(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1170239413L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "getPhase()Lnet/minecraft/world/entity/boss/enderdragon/phases/EnderDragonPhase;", cancellable = true)
-    private void getPhase_697206281(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(697206281L))
+    private void getPhase_517106660(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(517106660L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "doServerTick(Lnet/minecraft/server/level/ServerLevel;)V", cancellable = true)
-    private void doServerTick_1087154469(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1087154469L))
+    private void doServerTick__230717286(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-230717286L))
             info.cancel();
     }
 

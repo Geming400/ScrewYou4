@@ -8,39 +8,39 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.server.packs.resources.Resource.class)
 public class Resource_349433716Mixin {
         @Inject(at = @At("HEAD"), method = "source()Lnet/minecraft/server/packs/PackResources;", cancellable = true)
-    private void source__340832606(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-340832606L))
+    private void source__1112817795(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1112817795L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "open()Ljava/io/InputStream;", cancellable = true)
-    private void open_696537065(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(696537065L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "metadata()Lnet/minecraft/server/packs/resources/ResourceMetadata;", cancellable = true)
-    private void metadata__750908797(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-750908797L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "knownPackInfo()Ljava/util/Optional;", cancellable = true)
-    private void knownPackInfo_594895137(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(594895137L))
+    private void open__688328481(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-688328481L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "openAsReader()Ljava/io/BufferedReader;", cancellable = true)
-    private void openAsReader__6574173(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-6574173L))
+    private void openAsReader__296267998(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-296267998L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "sourcePackId()Ljava/lang/String;", cancellable = true)
-    private void sourcePackId__786026756(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-786026756L))
-            info.setReturnValue("UFm5\uB9E6[=7S'%Qb\u1FBEO\uD141G16Y2\uFF83\u8744D\u968A%Uk{gix\u97E96,\\");
+    private void sourcePackId__1139915061(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1139915061L))
+            info.setReturnValue("N/V-U1n\u1EC5RV,c<rVb\uCECE0T'])IX#jry{\u2FC77}pV\u8CCEf}qSL@CJ\"'3mHDM%;l6`Fbn");
+    }
+
+    @Inject(at = @At("HEAD"), method = "metadata()Lnet/minecraft/server/packs/resources/ResourceMetadata;", cancellable = true)
+    private void metadata_2069497332(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2069497332L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "knownPackInfo()Ljava/util/Optional;", cancellable = true)
+    private void knownPackInfo__1096638997(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1096638997L))
+            info.setReturnValue(null);
     }
 
 

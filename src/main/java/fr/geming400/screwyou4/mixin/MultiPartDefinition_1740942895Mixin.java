@@ -8,32 +8,32 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.renderer.block.dispatch.BlockStateModelDispatcher.MultiPartDefinition.class)
 public class MultiPartDefinition_1740942895Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals__1168512143(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1168512143L))
-            info.setReturnValue(false);
+    private void equals_832316626(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(832316626L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString_605482919(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(605482919L))
-            info.setReturnValue("\u8E1AsW0\u23B3\u1AC8u(21&");
+    private void toString__1783600877(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1783600877L))
+            info.setReturnValue("kYh2u77=0^3-pu\u6825QQ\u31DE3SH\u2EDA3!J|?pZ4\u6945|P3l\uCBE7OSI&1v-6(\uD1B74(MJ[Goj\"}G\uC9A7l\u286CY\u4C5AW3Lv<PEd^GI_\u16D0");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_1779205636(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1779205636L))
-            info.setReturnValue(1719768583);
+    private void hashCode__1996672311(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1996672311L))
+            info.setReturnValue(37607566);
     }
 
     @Inject(at = @At("HEAD"), method = "instantiate(Lnet/minecraft/world/level/block/state/StateDefinition;)Lnet/minecraft/client/renderer/block/dispatch/multipart/MultiPartModel$Unbaked;", cancellable = true)
-    private void instantiate_375468476(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(375468476L))
+    private void instantiate__1849100250(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1849100250L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "selectors()Ljava/util/List;", cancellable = true)
-    private void selectors__927687586(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-927687586L))
+    private void selectors_1311269586(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1311269586L))
             info.setReturnValue(null);
     }
 

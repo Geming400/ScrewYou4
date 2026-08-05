@@ -8,32 +8,32 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.data.loot.LootTableProvider.SubProviderEntry.class)
 public class SubProviderEntry1366840384Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals__1542614653(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1542614653L))
-            info.setReturnValue(false);
+    private void equals_458214116(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(458214116L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString_231380409(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(231380409L))
-            info.setReturnValue("RpB\uC7DCtbRmNQ:%;\u5D9F+#&<fH\u6340u#_\"s^. ?XG}y\uC24B\"gIy\u2463\uBC4Bf/M'4psAr7mIc6");
+    private void toString_2137263909(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2137263909L))
+            info.setReturnValue("M\u341Du\u4C7EZ\u6994eU|m#\u90D9$10\u54B55");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_1405103126(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1405103126L))
-            info.setReturnValue(469244156);
+    private void hashCode_1924192475(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1924192475L))
+            info.setReturnValue(1647330566);
     }
 
     @Inject(at = @At("HEAD"), method = "provider()Ljava/util/function/Function;", cancellable = true)
-    private void provider__559332363(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-559332363L))
+    private void provider_2009169956(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2009169956L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "paramSet()Lnet/minecraft/util/context/ContextKeySet;", cancellable = true)
-    private void paramSet_1849596725(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1849596725L))
+    private void paramSet_651305738(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(651305738L))
             info.setReturnValue(null);
     }
 

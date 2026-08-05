@@ -8,21 +8,21 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.gui.components.debug.DebugScreenEntryStatus.class)
 public class DebugScreenEntryStatus_827343963Mixin {
         @Inject(at = @At("HEAD"), method = "values()[Lnet/minecraft/client/gui/components/debug/DebugScreenEntryStatus;", cancellable = true)
-    private static void values_1356800995(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1356800995L))
+    private static void values__1389171583(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1389171583L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/client/gui/components/debug/DebugScreenEntryStatus;", cancellable = true)
-    private static void valueOf_1451487008(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1451487008L))
-            info.setReturnValue(net.minecraft.client.gui.components.debug.DebugScreenEntryStatus.ALWAYS_ON);
+    private static void valueOf_1792522824(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1792522824L))
+            info.setReturnValue(net.minecraft.client.gui.components.debug.DebugScreenEntryStatus.IN_OVERLAY);
     }
 
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
-    private void getSerializedName__308116509(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-308116509L))
-            info.setReturnValue("Fm7v`BZ9_F`l\u6BB2<\u861B#@pFEgC&@!\u28113\u5549\u5070Fc+Zd{\u9A4BFH\u03F0V#\u279CleQs!\uD553 {:zk\u8970Qp:XT@y\uAC9CFf_>\uB2D6\uCD53e`Iba3P\uD4BD\u5D85xxQ*m_\u795Fsab");
+    private void getSerializedName_915552584(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(915552584L))
+            info.setReturnValue("tf\uAD84:6d%\u1F60\uA88E\u756B\u54E8\uCD13h\uC27Efrh2ibR]_TS5V(`\u80E40\u40C7\uCECFu\uCEDD\uB706u_X\uCE85{(94cvTC\u25F1A\u38797F[\u3B2Cx6%J\"\u25A111_z\uFB6DuZ|*,X/c");
     }
 
 

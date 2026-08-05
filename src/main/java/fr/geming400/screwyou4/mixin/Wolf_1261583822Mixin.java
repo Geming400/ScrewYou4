@@ -8,201 +8,201 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.entity.animal.wolf.Wolf.class)
 public class Wolf_1261583822Mixin {
         @Inject(at = @At("HEAD"), method = "get(Lnet/minecraft/core/component/DataComponentType;)Ljava/lang/Object;", cancellable = true)
-    private void get_1098491416(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1098491416L))
+    private void get__1366676242(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1366676242L))
             info.setReturnValue(new java.lang.Object());
     }
 
     @Inject(at = @At("HEAD"), method = "tick()V", cancellable = true)
-    private void tick_1299858560(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1299858560L))
+    private void tick_1131900163(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1131900163L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "getWetShade(F)F", cancellable = true)
-    private void getWetShade__1822252442(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1822252442L))
-            info.setReturnValue(1.960522E8F);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getShakeAnim(F)F", cancellable = true)
-    private void getShakeAnim__1822252442(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1822252442L))
-            info.setReturnValue(1.960522E8F);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getTailAngle()F", cancellable = true)
-    private void getTailAngle_1299843184(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1299843184L))
-            info.setReturnValue(1.960522E8F);
-    }
-
-    @Inject(at = @At("HEAD"), method = "checkWolfSpawnRules(Lnet/minecraft/world/entity/EntityType;Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)Z", cancellable = true)
-    private static void checkWolfSpawnRules_419320127(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(419320127L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getCollarColor()Lnet/minecraft/world/item/DyeColor;", cancellable = true)
-    private void getCollarColor__1598075245(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1598075245L))
-            info.setReturnValue(net.minecraft.world.item.DyeColor.LIME);
-    }
-
-    @Inject(at = @At("HEAD"), method = "setIsInterested(Z)V", cancellable = true)
-    private void setIsInterested__1803766646(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1803766646L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "isInterested()Z", cancellable = true)
-    private void isInterested_1299862404(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1299862404L))
-            info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getHeadRollAngle(F)F", cancellable = true)
-    private void getHeadRollAngle__1822252442(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1822252442L))
-            info.setReturnValue(1.960522E8F);
-    }
-
-    @Inject(at = @At("HEAD"), method = "wantsToAttack(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/entity/LivingEntity;)Z", cancellable = true)
-    private void wantsToAttack_1313216900(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1313216900L))
-            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "getTexture()Lnet/minecraft/resources/Identifier;", cancellable = true)
-    private void getTexture__1181482732(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1181482732L))
+    private void getTexture_164989177(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(164989177L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "canMate(Lnet/minecraft/world/entity/animal/Animal;)Z", cancellable = true)
-    private void canMate_1823647327(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1823647327L))
-            info.setReturnValue(true);
+    @Inject(at = @At("HEAD"), method = "getShakeAnim(F)F", cancellable = true)
+    private void getShakeAnim__906018521(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-906018521L))
+            info.setReturnValue(6.678028E8F);
     }
 
-    @Inject(at = @At("HEAD"), method = "isFood(Lnet/minecraft/world/item/ItemStack;)Z", cancellable = true)
-    private void isFood__1298848343(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1298848343L))
+    @Inject(at = @At("HEAD"), method = "checkWolfSpawnRules(Lnet/minecraft/world/entity/EntityType;Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)Z", cancellable = true)
+    private static void checkWolfSpawnRules_388729513(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(388729513L))
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "hurtServer(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/damagesource/DamageSource;F)Z", cancellable = true)
-    private void hurtServer_812153490(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(812153490L))
-            info.setReturnValue(false);
+    @Inject(at = @At("HEAD"), method = "getTailAngle()F", cancellable = true)
+    private void getTailAngle_1907348707(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1907348707L))
+            info.setReturnValue(6.678028E8F);
     }
 
-    @Inject(at = @At("HEAD"), method = "die(Lnet/minecraft/world/damagesource/DamageSource;)V", cancellable = true)
-    private void die_929910361(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(929910361L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "aiStep()V", cancellable = true)
-    private void aiStep_1299858560(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1299858560L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "canBeLeashed()Z", cancellable = true)
-    private void canBeLeashed_1299862404(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1299862404L))
-            info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "handleEntityEvent(B)V", cancellable = true)
-    private void handleEntityEvent__1825931150(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1825931150L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "getWetShade(F)F", cancellable = true)
+    private void getWetShade_989366403(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(989366403L))
+            info.setReturnValue(6.678028E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "createAttributes()Lnet/minecraft/world/entity/ai/attributes/AttributeSupplier$Builder;", cancellable = true)
-    private static void createAttributes_561365376(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(561365376L))
+    private static void createAttributes__1658281485(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1658281485L))
             info.setReturnValue(new net.minecraft.world.entity.ai.attributes.AttributeSupplier.Builder());
     }
 
     @Inject(at = @At("HEAD"), method = "getDefaultDimensions(Lnet/minecraft/world/entity/Pose;)Lnet/minecraft/world/entity/EntityDimensions;", cancellable = true)
-    private void getDefaultDimensions_18937777(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(18937777L))
+    private void getDefaultDimensions__2038172183(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2038172183L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "finalizeSpawn(Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData;", cancellable = true)
-    private void finalizeSpawn__1184651537(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1184651537L))
+    @Inject(at = @At("HEAD"), method = "canBeLeashed()Z", cancellable = true)
+    private void canBeLeashed__686488293(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-686488293L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "handleEntityEvent(B)V", cancellable = true)
+    private void handleEntityEvent_2015331937(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(2015331937L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "hurtServer(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/damagesource/DamageSource;F)Z", cancellable = true)
+    private void hurtServer_446295968(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(446295968L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getMaxSpawnClusterSize()I", cancellable = true)
+    private void getMaxSpawnClusterSize_1013897093(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1013897093L))
+            info.setReturnValue(615833149);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getLeashOffset()Lnet/minecraft/world/phys/Vec3;", cancellable = true)
+    private void getLeashOffset__1493200532(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1493200532L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getBreedOffspring(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/AgeableMob;)Lnet/minecraft/world/entity/AgeableMob;", cancellable = true)
-    private void getBreedOffspring__1435594893(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1435594893L))
+    @Inject(at = @At("HEAD"), method = "die(Lnet/minecraft/world/damagesource/DamageSource;)V", cancellable = true)
+    private void die__909274407(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-909274407L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "aiStep()V", cancellable = true)
+    private void aiStep__1402085908(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1402085908L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getMaxHeadXRot()I", cancellable = true)
+    private void getMaxHeadXRot__717482170(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-717482170L))
+            info.setReturnValue(-1752522657);
+    }
+
+    @Inject(at = @At("HEAD"), method = "mobInteract(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResult;", cancellable = true)
+    private void mobInteract__1024227947(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1024227947L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getBreedOffspring(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/AgeableMob;)Lnet/minecraft/world/entity/animal/wolf/Wolf;", cancellable = true)
-    private void getBreedOffspring__752874914(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-752874914L))
+    private void getBreedOffspring__953696132(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-953696132L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "mobInteract(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResult;", cancellable = true)
-    private void mobInteract__1416557633(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1416557633L))
+    @Inject(at = @At("HEAD"), method = "getBreedOffspring(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/AgeableMob;)Lnet/minecraft/world/entity/AgeableMob;", cancellable = true)
+    private void getBreedOffspring_1401467921(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1401467921L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getMaxHeadXRot()I", cancellable = true)
-    private void getMaxHeadXRot_1299846067(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1299846067L))
-            info.setReturnValue(-698340932);
+    @Inject(at = @At("HEAD"), method = "isFood(Lnet/minecraft/world/item/ItemStack;)Z", cancellable = true)
+    private void isFood_1237457409(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1237457409L))
+            info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "getMaxSpawnClusterSize()I", cancellable = true)
-    private void getMaxSpawnClusterSize_1299846067(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1299846067L))
-            info.setReturnValue(-698340932);
+    @Inject(at = @At("HEAD"), method = "canMate(Lnet/minecraft/world/entity/animal/Animal;)Z", cancellable = true)
+    private void canMate_890224330(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(890224330L))
+            info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "getLeashOffset()Lnet/minecraft/world/phys/Vec3;", cancellable = true)
-    private void getLeashOffset__1935653946(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1935653946L))
+    @Inject(at = @At("HEAD"), method = "getPersistentAngerTarget()Lnet/minecraft/world/entity/EntityReference;", cancellable = true)
+    private void getPersistentAngerTarget__157874311(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-157874311L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "startPersistentAngerTimer()V", cancellable = true)
-    private void startPersistentAngerTimer_1299858560(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1299858560L))
+    private void startPersistentAngerTimer__113414679(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-113414679L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "getPersistentAngerTarget()Lnet/minecraft/world/entity/EntityReference;", cancellable = true)
-    private void getPersistentAngerTarget_2124545486(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2124545486L))
-            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getPersistentAngerEndTime()J", cancellable = true)
-    private void getPersistentAngerEndTime_1299847028(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1299847028L))
-            info.setReturnValue(-5859072145497422647L);
-    }
-
-    @Inject(at = @At("HEAD"), method = "setPersistentAngerTarget(Lnet/minecraft/world/entity/EntityReference;)V", cancellable = true)
-    private void setPersistentAngerTarget__1643806654(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1643806654L))
-            info.cancel();
+    private void getPersistentAngerEndTime__363652922(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-363652922L))
+            info.setReturnValue(-2154123386366937832L);
     }
 
     @Inject(at = @At("HEAD"), method = "setPersistentAngerEndTime(J)V", cancellable = true)
-    private void setPersistentAngerEndTime__1818542982(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1818542982L))
+    private void setPersistentAngerEndTime__1932801932(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1932801932L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "setPersistentAngerTarget(Lnet/minecraft/world/entity/EntityReference;)V", cancellable = true)
+    private void setPersistentAngerTarget_2034270211(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(2034270211L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "setIsInterested(Z)V", cancellable = true)
+    private void setIsInterested_961940575(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(961940575L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "isInterested()Z", cancellable = true)
+    private void isInterested_1712429393(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1712429393L))
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getHeadRollAngle(F)F", cancellable = true)
+    private void getHeadRollAngle_1750606598(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1750606598L))
+            info.setReturnValue(6.688118E8F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "wantsToAttack(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/entity/LivingEntity;)Z", cancellable = true)
+    private void wantsToAttack_1021402270(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1021402270L))
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "finalizeSpawn(Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData;", cancellable = true)
+    private void finalizeSpawn_2011682130(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2011682130L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getCollarColor()Lnet/minecraft/world/item/DyeColor;", cancellable = true)
+    private void getCollarColor__1836319613(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1836319613L))
+            info.setReturnValue(net.minecraft.world.item.DyeColor.LIGHT_BLUE);
     }
 
 

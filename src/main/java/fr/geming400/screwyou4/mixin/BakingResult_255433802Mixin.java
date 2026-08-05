@@ -8,50 +8,50 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.resources.model.ModelBakery.BakingResult.class)
 public class BakingResult_255433802Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals_1640946060(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1640946060L))
-            info.setReturnValue(false);
+    private void equals__653192467(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-653192467L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__880026174(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-880026174L))
-            info.setReturnValue("9cYt\u1CA9d/C\u7F143\u8248\u50BAr\u9FCAX/e]\u82A5;9\"\"N\u65B4p5FV\uBD89:;`dy\uCFF2u!6wXoa]enB\u8014H\uA719{[}");
+    private void toString_1025857326(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1025857326L))
+            info.setReturnValue("bLyVMP=|\uFB35\u79D1av<1!<9SCD8y9L:uw|k>Y/%P>l\u4FC2j}");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_293696543(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(293696543L))
-            info.setReturnValue(1799918113);
+    private void hashCode_812785892(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(812785892L))
+            info.setReturnValue(446733461);
     }
 
-    @Inject(at = @At("HEAD"), method = "itemStackModels()Ljava/util/Map;", cancellable = true)
-    private void itemStackModels__1749189839(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1749189839L))
+    @Inject(at = @At("HEAD"), method = "getBlockStateModel(Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/client/renderer/block/dispatch/BlockStateModel;", cancellable = true)
+    private void getBlockStateModel_1462050121(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1462050121L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "missingModels()Lnet/minecraft/client/resources/model/ModelBakery$MissingModels;", cancellable = true)
-    private void missingModels__394313566(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-394313566L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "blockStateModels()Ljava/util/Map;", cancellable = true)
-    private void blockStateModels__1749189839(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1749189839L))
+    private void missingModels__1417004014(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1417004014L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "itemProperties()Ljava/util/Map;", cancellable = true)
-    private void itemProperties__1749189839(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1749189839L))
+    private void itemProperties_1960383691(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1960383691L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getBlockStateModel(Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/client/renderer/block/dispatch/BlockStateModel;", cancellable = true)
-    private void getBlockStateModel_498298746(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(498298746L))
+    @Inject(at = @At("HEAD"), method = "itemStackModels()Ljava/util/Map;", cancellable = true)
+    private void itemStackModels__456114478(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-456114478L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "blockStateModels()Ljava/util/Map;", cancellable = true)
+    private void blockStateModels_252338403(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(252338403L))
             info.setReturnValue(null);
     }
 

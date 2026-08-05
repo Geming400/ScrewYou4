@@ -8,45 +8,45 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.item.BowItem.class)
 public class BowItem264058735Mixin {
         @Inject(at = @At("HEAD"), method = "use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResult;", cancellable = true)
-    private void use_674434770(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(674434770L))
+    private void use_1748925675(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1748925675L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getAllSupportedProjectiles()Ljava/util/function/Predicate;", cancellable = true)
-    private void getAllSupportedProjectiles__385826243(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-385826243L))
+    private void getAllSupportedProjectiles__1884495452(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1884495452L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getUseDuration(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/LivingEntity;)I", cancellable = true)
-    private void getUseDuration__633121920(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-633121920L))
-            info.setReturnValue(48811335);
-    }
-
     @Inject(at = @At("HEAD"), method = "releaseUsing(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/LivingEntity;I)Z", cancellable = true)
-    private void releaseUsing__1569570599(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1569570599L))
-            info.setReturnValue(true);
+    private void releaseUsing_1996248342(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1996248342L))
+            info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "getDefaultProjectileRange()I", cancellable = true)
-    private void getDefaultProjectileRange_302320981(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(302320981L))
-            info.setReturnValue(-1205304043);
+    @Inject(at = @At("HEAD"), method = "getUseDuration(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/LivingEntity;)I", cancellable = true)
+    private void getUseDuration_2055936837(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2055936837L))
+            info.setReturnValue(-485404504);
     }
 
     @Inject(at = @At("HEAD"), method = "getPowerForTime(I)F", cancellable = true)
-    private static void getPowerForTime_1477960579(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1477960579L))
-            info.setReturnValue(6.353522E8F);
+    private static void getPowerForTime_899908394(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(899908394L))
+            info.setReturnValue(5.331236E8F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getDefaultProjectileRange()I", cancellable = true)
+    private void getDefaultProjectileRange__1002046548(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1002046548L))
+            info.setReturnValue(-1582176071);
     }
 
     @Inject(at = @At("HEAD"), method = "getUseAnimation(Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/world/item/ItemUseAnimation;", cancellable = true)
-    private void getUseAnimation_823890269(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(823890269L))
-            info.setReturnValue(net.minecraft.world.item.ItemUseAnimation.TRIDENT);
+    private void getUseAnimation__473756086(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-473756086L))
+            info.setReturnValue(net.minecraft.world.item.ItemUseAnimation.CROSSBOW);
     }
 
 

@@ -8,32 +8,32 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.item.component.MapDecorations.class)
 public class MapDecorations_491839963Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals_1877352221(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1877352221L))
-            info.setReturnValue(true);
+    private void equals__416786306(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-416786306L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__643620013(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-643620013L))
-            info.setReturnValue("t+UV:n5h5\u7E61q|(3/{6bV5\uB84B@N\"/\",8t0D$\uB917M-Kcc");
+    private void toString_1262263487(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1262263487L))
+            info.setReturnValue("n0-ZFFq]\u56A2ytc[V5CtiC3.2t(\uD18A._X'W\u6FB4\uD48AL<0`X");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_530102704(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(530102704L))
-            info.setReturnValue(-2065637803);
-    }
-
-    @Inject(at = @At("HEAD"), method = "withDecoration(Ljava/lang/String;Lnet/minecraft/world/item/component/MapDecorations$Entry;)Lnet/minecraft/world/item/component/MapDecorations;", cancellable = true)
-    private void withDecoration_599435701(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(599435701L))
-            info.setReturnValue(null);
+    private void hashCode_1049192053(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1049192053L))
+            info.setReturnValue(-1251075459);
     }
 
     @Inject(at = @At("HEAD"), method = "decorations()Ljava/util/Map;", cancellable = true)
-    private void decorations__1512783678(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1512783678L))
+    private void decorations__2074964449(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2074964449L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "withDecoration(Ljava/lang/String;Lnet/minecraft/world/item/component/MapDecorations$Entry;)Lnet/minecraft/world/item/component/MapDecorations;", cancellable = true)
+    private void withDecoration__1869634997(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1869634997L))
             info.setReturnValue(null);
     }
 

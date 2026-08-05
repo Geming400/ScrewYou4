@@ -8,8 +8,8 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.level.levelgen.blockpredicates.ReplaceablePredicate.class)
 public class ReplaceablePredicate332542841Mixin {
         @Inject(at = @At("HEAD"), method = "type()Lnet/minecraft/world/level/levelgen/blockpredicates/BlockPredicateType;", cancellable = true)
-    private void type__1309937108(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1309937108L))
+    private void type_797854386(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(797854386L))
             info.setReturnValue(null);
     }
 

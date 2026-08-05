@@ -8,8 +8,8 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.entity.ai.behavior.AssignProfessionFromJobSite.class)
 public class AssignProfessionFromJobSite217551489Mixin {
         @Inject(at = @At("HEAD"), method = "create()Lnet/minecraft/world/entity/ai/behavior/BehaviorControl;", cancellable = true)
-    private static void create_1322933773(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1322933773L))
+    private static void create__522584823(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-522584823L))
             info.setReturnValue(null);
     }
 

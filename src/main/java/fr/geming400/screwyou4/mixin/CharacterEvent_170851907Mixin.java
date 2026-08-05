@@ -8,39 +8,39 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.input.CharacterEvent.class)
 public class CharacterEvent_170851907Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals_1556364165(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1556364165L))
+    private void equals__737774362(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-737774362L))
             info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__964608069(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-964608069L))
-            info.setReturnValue("$J1Bgtu)eXh:N\uBE29%{\u891F9Fi2\"5;uKU$pb1\u913F38jDr");
+    private void toString_941275431(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(941275431L))
+            info.setReturnValue(">ebk7+:\uD460-8)hqnwAm&%&\u466AE<o>[D-o>v|\u7D92%`em\uD14F!<QOv\"67SpJ)5#z`+aB");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_209114648(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(209114648L))
-            info.setReturnValue(903129359);
+    private void hashCode_728203997(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(728203997L))
+            info.setReturnValue(-1674020069);
     }
 
     @Inject(at = @At("HEAD"), method = "codepoint()I", cancellable = true)
-    private void codepoint_209114152(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(209114152L))
-            info.setReturnValue(1081652849);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isAllowedChatCharacter()Z", cancellable = true)
-    private void isAllowedChatCharacter_209130489(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(209130489L))
-            info.setReturnValue(false);
+    private void codepoint__709664187(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-709664187L))
+            info.setReturnValue(-1829671597);
     }
 
     @Inject(at = @At("HEAD"), method = "codepointAsString()Ljava/lang/String;", cancellable = true)
-    private void codepointAsString__964608565(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-964608565L))
-            info.setReturnValue("\u5A318\u9D91^5+KxX[H<AQ5\u9042>z\u4BE1+\uA44AbnX1\uB904Io6<$K)\u6B8CtO#i'\u9831\u6767\uCA00\uBEF5Jnyb\u57A5.!\u29A4\"|ci{\"r\u6B21\u6CB4C4qc` JWg\u898Enf\uC61A\u2C84_)\uFC1F/rJ");
+    private void codepointAsString_1324463377(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1324463377L))
+            info.setReturnValue("\uD23EcS*`l0yihT\u0DDC\u4C18&l*I_]app[K\u30ADn66[u;m\u5AB6\uFA2C]_w}TY\u37A0\u05C1%\u9BCC\uB9AAZUs:ObFVBSXS\uB41A#xSFrEy>'o\u6FE5+hRt,\uC922d?&qB\u2F310s6s");
+    }
+
+    @Inject(at = @At("HEAD"), method = "isAllowedChatCharacter()Z", cancellable = true)
+    private void isAllowedChatCharacter__1263679066(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1263679066L))
+            info.setReturnValue(false);
     }
 
 

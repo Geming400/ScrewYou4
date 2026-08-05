@@ -8,32 +8,32 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.network.syncher.EntityDataAccessor.class)
 public class EntityDataAccessor_1980688574Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals__928766960(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-928766960L))
-            info.setReturnValue(false);
+    private void equals_1072061809(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1072061809L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString_845228102(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(845228102L))
-            info.setReturnValue("8'zAr?f`3_\u4605\uB738_`\u2738\u2C82!IM:g[tzF 6\uAF23KB0@88jTd.Cyt\u2987");
+    private void toString__1543855694(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1543855694L))
+            info.setReturnValue("Y_l,A8wb{W#2!");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_2018950819(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2018950819L))
-            info.setReturnValue(1270776144);
+    private void hashCode__1756927128(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1756927128L))
+            info.setReturnValue(1518265981);
     }
 
     @Inject(at = @At("HEAD"), method = "id()I", cancellable = true)
-    private void id_2018950819(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2018950819L))
-            info.setReturnValue(1270776144);
+    private void id__714495384(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-714495384L))
+            info.setReturnValue(1709974989);
     }
 
     @Inject(at = @At("HEAD"), method = "serializer()Lnet/minecraft/network/syncher/EntityDataSerializer;", cancellable = true)
-    private void serializer_534270306(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(534270306L))
+    private void serializer_1170073844(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1170073844L))
             info.setReturnValue(null);
     }
 

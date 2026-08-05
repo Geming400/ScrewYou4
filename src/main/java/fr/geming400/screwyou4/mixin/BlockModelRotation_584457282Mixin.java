@@ -8,26 +8,26 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.renderer.block.dispatch.BlockModelRotation.class)
 public class BlockModelRotation_584457282Mixin {
         @Inject(at = @At("HEAD"), method = "get(Lcom/mojang/math/OctahedralGroup;)Lnet/minecraft/client/renderer/block/dispatch/BlockModelRotation;", cancellable = true)
-    private static void get__145465517(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-145465517L))
+    private static void get_1126436393(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1126436393L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__551003190(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-551003190L))
-            info.setReturnValue("/I|\uA6D9: \u7D57F\u890B3<c[\u92846HE\uB0D8teVs\u04FBU\u75502\u5C62oyk5jWnV[rpU`X\u8773VC\u1DA4Z\u93CDE\u733FJ77");
+    private void toString_1354880310(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1354880310L))
+            info.setReturnValue(")|.Z$}\u55B6Aw>\u22AD[\u1238V\uCDCA^qFHO\u1DA3Yx\"UXUC.xfX<6j\u84C1Ly\u142Ejz{GX T*Z.`m+//k?jD*yKf.`c?gBZ9-A{>w`ac.\u8A59tLZyxCe(\u0218!-\u9456l;m^p");
     }
 
     @Inject(at = @At("HEAD"), method = "transformation()Lcom/mojang/math/Transformation;", cancellable = true)
-    private void transformation_1362441710(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1362441710L))
+    private void transformation__2068629385(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2068629385L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "withUvLock()Lnet/minecraft/client/renderer/block/dispatch/ModelState;", cancellable = true)
-    private void withUvLock_1308690726(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1308690726L))
+    private void withUvLock_295991956(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(295991956L))
             info.setReturnValue(null);
     }
 

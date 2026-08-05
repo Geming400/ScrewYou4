@@ -8,56 +8,56 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.level.saveddata.maps.MapItemSavedData.MapPatch.class)
 public class MapPatch1023846712Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals__1885608325(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1885608325L))
-            info.setReturnValue(false);
+    private void equals_115220444(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(115220444L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__111613263(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-111613263L))
-            info.setReturnValue("{dVR6N.\uB251#PxH)Ui)I\u4E29C!Y9_G)5a{ZIuFNU'woPz4KU/T?q&`Q/M");
+    private void toString_1794270237(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1794270237L))
+            info.setReturnValue("Cl)\u1A0CE\u536BRB\u619F\uFEC5h:5tlMs\u3852K)?-l\uB72BlDDG4=KlXU\u0900f?0Du\u58CB4T\uC824zYb>\\");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_1062109454(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1062109454L))
-            info.setReturnValue(1428918476);
+    private void hashCode_1581198803(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1581198803L))
+            info.setReturnValue(1740286782);
     }
 
     @Inject(at = @At("HEAD"), method = "width()I", cancellable = true)
-    private void width_1062108958(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1062108958L))
-            info.setReturnValue(2064893084);
+    private void width__616301288(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-616301288L))
+            info.setReturnValue(1242920177);
     }
 
     @Inject(at = @At("HEAD"), method = "startX()I", cancellable = true)
-    private void startX_1062108958(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1062108958L))
-            info.setReturnValue(2064893084);
+    private void startX__771528536(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-771528536L))
+            info.setReturnValue(613818556);
     }
 
     @Inject(at = @At("HEAD"), method = "startY()I", cancellable = true)
-    private void startY_1062108958(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1062108958L))
-            info.setReturnValue(2064893084);
+    private void startY__742899385(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-742899385L))
+            info.setReturnValue(-1488702770);
     }
 
     @Inject(at = @At("HEAD"), method = "height()I", cancellable = true)
-    private void height_1062108958(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1062108958L))
-            info.setReturnValue(2064893084);
+    private void height__61501865(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-61501865L))
+            info.setReturnValue(-1742491927);
     }
 
     @Inject(at = @At("HEAD"), method = "applyToMap(Lnet/minecraft/world/level/saveddata/maps/MapItemSavedData;)V", cancellable = true)
-    private void applyToMap_967740290(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(967740290L))
+    private void applyToMap_1749761429(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1749761429L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "mapColors()[B", cancellable = true)
-    private void mapColors__2085285954(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2085285954L))
+    private void mapColors__1518352214(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1518352214L))
             info.setReturnValue(null);
     }
 

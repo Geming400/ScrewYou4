@@ -8,39 +8,39 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.color.item.Firework.class)
 public class Firework_212374937Mixin {
         @Inject(at = @At("HEAD"), method = "type()Lcom/mojang/serialization/MapCodec;", cancellable = true)
-    private void type_1948228660(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1948228660L))
+    private void type__1182875718(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1182875718L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals_1597887195(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1597887195L))
+    private void equals__696251332(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-696251332L))
             info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__923085039(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-923085039L))
-            info.setReturnValue(")w`cK\u115A[9");
+    private void toString_982798461(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(982798461L))
+            info.setReturnValue("s\u794E51M%\u6418T1W\u7672*\u9B1Cq1]\uFA650\u577Bo8rt\u65B3K_ySm}\u95AF<^L");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_250637678(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(250637678L))
-            info.setReturnValue(-1761751157);
-    }
-
-    @Inject(at = @At("HEAD"), method = "defaultColor()I", cancellable = true)
-    private void defaultColor_250637182(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(250637182L))
-            info.setReturnValue(-1558603737);
+    private void hashCode_769727027(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(769727027L))
+            info.setReturnValue(-1649900392);
     }
 
     @Inject(at = @At("HEAD"), method = "calculate(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/client/multiplayer/ClientLevel;Lnet/minecraft/world/entity/LivingEntity;)I", cancellable = true)
-    private void calculate__443938290(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-443938290L))
-            info.setReturnValue(2052544051);
+    private void calculate__1008030348(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1008030348L))
+            info.setReturnValue(-2060896142);
+    }
+
+    @Inject(at = @At("HEAD"), method = "defaultColor()I", cancellable = true)
+    private void defaultColor_1761736476(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1761736476L))
+            info.setReturnValue(-1011045369);
     }
 
 

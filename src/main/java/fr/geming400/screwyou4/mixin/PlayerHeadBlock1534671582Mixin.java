@@ -8,8 +8,8 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.level.block.PlayerHeadBlock.class)
 public class PlayerHeadBlock1534671582Mixin {
         @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
-    private void codec__1024441990(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1024441990L))
+    private void codec__1693850460(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1693850460L))
             info.setReturnValue(null);
     }
 

@@ -8,50 +8,50 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.advancements.predicates.entity.EntityTypePredicate.class)
 public class EntityTypePredicate383482716Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals_1768994975(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1768994975L))
-            info.setReturnValue(true);
+    private void equals__525143552(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-525143552L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__751977259(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-751977259L))
-            info.setReturnValue("F0 Qcr(#ut%hB\u4C7D4M&C?Vc)v=\uA4DEP,`]IjKdtkl!e\uC951Gh2\u50AD? X\"XS-!gF\uAEF1$\u4A5BDa[)\u3691Vj;}Xz9z?ee_\uB762N");
+    private void toString_1153906241(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1153906241L))
+            info.setReturnValue("%yGPb%[\uC2D45p8M\u294Cb`JSll\u1D9BQn_1Y\"\u9347c`w%j\u8FBF:B\uA361\u01C6/P*5\u488Eh#<S\uCDC3^-oL9$l5-\u5501NkQue6[rPD-&!()\u36AD>e7^M2_#WFY7RySevIk+");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_421745458(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(421745458L))
-            info.setReturnValue(1287698591);
+    private void hashCode_940834807(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(940834807L))
+            info.setReturnValue(-44082094);
     }
 
     @Inject(at = @At("HEAD"), method = "of(Lnet/minecraft/core/HolderGetter;Lnet/minecraft/tags/TagKey;)Lnet/minecraft/advancements/predicates/entity/EntityTypePredicate;", cancellable = true)
-    private static void of_2060199133(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2060199133L))
+    private static void of__1108891404(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1108891404L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "of(Lnet/minecraft/core/HolderGetter;Lnet/minecraft/world/entity/EntityType;)Lnet/minecraft/advancements/predicates/entity/EntityTypePredicate;", cancellable = true)
-    private static void of__1627668178(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1627668178L))
+    private static void of_246864581(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(246864581L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/core/Holder;)Z", cancellable = true)
-    private void matches_1929961698(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1929961698L))
-            info.setReturnValue(false);
+    private void matches_851303957(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(851303957L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/phys/Vec3;)Z", cancellable = true)
-    private void matches__1570709195(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1570709195L))
-            info.setReturnValue(false);
+    private void matches_1733791650(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1733791650L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "types()Lnet/minecraft/core/HolderSet;", cancellable = true)
-    private void types_2003435760(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2003435760L))
+    private void types_899808041(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(899808041L))
             info.setReturnValue(null);
     }
 

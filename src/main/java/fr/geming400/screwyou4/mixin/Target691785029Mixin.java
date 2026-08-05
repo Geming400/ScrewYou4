@@ -8,15 +8,15 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.data.PackOutput.Target.class)
 public class Target691785029Mixin {
         @Inject(at = @At("HEAD"), method = "values()[Lnet/minecraft/data/PackOutput$Target;", cancellable = true)
-    private static void values_228698362(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(228698362L))
+    private static void values__1583224168(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1583224168L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/data/PackOutput$Target;", cancellable = true)
-    private static void valueOf__480329289(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-480329289L))
-            info.setReturnValue(net.minecraft.data.PackOutput.Target.DATA_PACK);
+    private static void valueOf_460282079(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(460282079L))
+            info.setReturnValue(net.minecraft.data.PackOutput.Target.RESOURCE_PACK);
     }
 
 

@@ -8,8 +8,8 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.commands.arguments.item.ComponentPredicateParser.class)
 public class ComponentPredicateParser_922941335Mixin {
         @Inject(at = @At("HEAD"), method = "createGrammar(Lnet/minecraft/commands/arguments/item/ComponentPredicateParser$Context;)Lnet/minecraft/util/parsing/packrat/commands/Grammar;", cancellable = true)
-    private static void createGrammar__256710382(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-256710382L))
+    private static void createGrammar_411987815(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(411987815L))
             info.setReturnValue(null);
     }
 

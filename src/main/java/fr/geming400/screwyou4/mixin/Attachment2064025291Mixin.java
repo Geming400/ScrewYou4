@@ -8,21 +8,21 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.level.block.PlainSignBlock.Attachment.class)
 public class Attachment2064025291Mixin {
         @Inject(at = @At("HEAD"), method = "values()[Lnet/minecraft/world/level/block/PlainSignBlock$Attachment;", cancellable = true)
-    private static void values__345207765(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-345207765L))
+    private static void values__765978291(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-765978291L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/world/level/block/PlainSignBlock$Attachment;", cancellable = true)
-    private static void valueOf__670483570(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-670483570L))
-            info.setReturnValue(net.minecraft.world.level.block.PlainSignBlock.Attachment.GROUND);
+    private static void valueOf_804400486(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(804400486L))
+            info.setReturnValue(net.minecraft.world.level.block.PlainSignBlock.Attachment.WALL);
     }
 
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
-    private void getSerializedName_928564820(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(928564820L))
-            info.setReturnValue("3\u1E42m\uA744PBmMlo}{<:5iy\uCEEDc)FXX\u1178\"D3}7\u401E$\u2817AP5]<+J\u1EE2Xl\u3705agS]l\u85784bY^: /\u6D4Fof\uA3C5vW\u31A7");
+    private void getSerializedName__2142733383(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2142733383L))
+            info.setReturnValue("B@fFLO*+V\uA575=3'\u81DA\u71E7w8\u89B23\u2BA7;c.`]_U<Q{ `\u0724|G8(AaYbgv=TV|<8W7\uD5E4a=<Za..>I/x\u835BYkr:YVQYMil");
     }
 
 

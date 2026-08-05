@@ -7,82 +7,82 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.world.level.levelgen.FlatLevelSource.class)
 public class FlatLevelSource_1519405224Mixin {
-        @Inject(at = @At("HEAD"), method = "getMinY()I", cancellable = true)
-    private void getMinY_1557667469(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1557667469L))
-            info.setReturnValue(-598726829);
+        @Inject(at = @At("HEAD"), method = "getSeaLevel()I", cancellable = true)
+    private void getSeaLevel_814388098(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(814388098L))
+            info.setReturnValue(1885905380);
     }
 
-    @Inject(at = @At("HEAD"), method = "getSeaLevel()I", cancellable = true)
-    private void getSeaLevel_1557667469(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1557667469L))
-            info.setReturnValue(-598726829);
+    @Inject(at = @At("HEAD"), method = "getMinY()I", cancellable = true)
+    private void getMinY_1804664816(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1804664816L))
+            info.setReturnValue(-1149788271);
     }
 
-    @Inject(at = @At("HEAD"), method = "getBaseHeight(IILnet/minecraft/world/level/levelgen/Heightmap$Types;Lnet/minecraft/world/level/LevelHeightAccessor;Lnet/minecraft/world/level/levelgen/RandomState;)I", cancellable = true)
-    private void getBaseHeight__1043839702(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1043839702L))
-            info.setReturnValue(1932506475);
-    }
-
-    @Inject(at = @At("HEAD"), method = "applyCarvers(Lnet/minecraft/server/level/WorldGenRegion;JLnet/minecraft/world/level/levelgen/RandomState;Lnet/minecraft/world/level/biome/BiomeManager;Lnet/minecraft/world/level/StructureManager;Lnet/minecraft/world/level/chunk/ChunkAccess;)V", cancellable = true)
-    private void applyCarvers_426190(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(426190L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "fillFromNoise(Lnet/minecraft/world/level/levelgen/blending/Blender;Lnet/minecraft/world/level/levelgen/RandomState;Lnet/minecraft/world/level/StructureManager;Lnet/minecraft/world/level/chunk/ChunkAccess;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
-    private void fillFromNoise__1336973679(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1336973679L))
+    @Inject(at = @At("HEAD"), method = "getBaseColumn(IILnet/minecraft/world/level/LevelHeightAccessor;Lnet/minecraft/world/level/levelgen/RandomState;)Lnet/minecraft/world/level/NoiseColumn;", cancellable = true)
+    private void getBaseColumn_947010653(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(947010653L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "addDebugScreenInfo(Ljava/util/List;Lnet/minecraft/world/level/levelgen/RandomState;Lnet/minecraft/core/BlockPos;)V", cancellable = true)
-    private void addDebugScreenInfo_650373909(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(650373909L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "buildSurface(Lnet/minecraft/server/level/WorldGenRegion;Lnet/minecraft/world/level/StructureManager;Lnet/minecraft/world/level/levelgen/RandomState;Lnet/minecraft/world/level/chunk/ChunkAccess;)V", cancellable = true)
-    private void buildSurface_1770093147(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1770093147L))
+    private void buildSurface__1433831204(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1433831204L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "createState(Lnet/minecraft/core/HolderLookup;Lnet/minecraft/world/level/levelgen/RandomState;J)Lnet/minecraft/world/level/chunk/ChunkGeneratorStructureState;", cancellable = true)
-    private void createState_2095320726(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2095320726L))
+    private void createState__2128731381(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2128731381L))
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "addDebugScreenInfo(Ljava/util/List;Lnet/minecraft/world/level/levelgen/RandomState;Lnet/minecraft/core/BlockPos;)V", cancellable = true)
+    private void addDebugScreenInfo__2100823263(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-2100823263L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "fillFromNoise(Lnet/minecraft/world/level/levelgen/blending/Blender;Lnet/minecraft/world/level/levelgen/RandomState;Lnet/minecraft/world/level/StructureManager;Lnet/minecraft/world/level/chunk/ChunkAccess;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
+    private void fillFromNoise_488654238(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(488654238L))
+            info.setReturnValue(new java.util.concurrent.CompletableFuture());
+    }
+
+    @Inject(at = @At("HEAD"), method = "applyCarvers(Lnet/minecraft/server/level/WorldGenRegion;JLnet/minecraft/world/level/levelgen/RandomState;Lnet/minecraft/world/level/biome/BiomeManager;Lnet/minecraft/world/level/StructureManager;Lnet/minecraft/world/level/chunk/ChunkAccess;)V", cancellable = true)
+    private void applyCarvers_225550980(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(225550980L))
+            info.cancel();
+    }
+
     @Inject(at = @At("HEAD"), method = "spawnOriginalMobs(Lnet/minecraft/server/level/WorldGenRegion;)V", cancellable = true)
-    private void spawnOriginalMobs_2022913340(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(2022913340L))
+    private void spawnOriginalMobs_1423272251(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1423272251L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "getSpawnHeight(Lnet/minecraft/world/level/LevelHeightAccessor;)I", cancellable = true)
-    private void getSpawnHeight_1843882894(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1843882894L))
-            info.setReturnValue(208544597);
+    private void getSpawnHeight__1159492390(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1159492390L))
+            info.setReturnValue(-785193456);
     }
 
     @Inject(at = @At("HEAD"), method = "settings()Lnet/minecraft/world/level/levelgen/flat/FlatLevelGeneratorSettings;", cancellable = true)
-    private void settings__207179717(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-207179717L))
+    private void settings__1955724962(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1955724962L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getGenDepth()I", cancellable = true)
-    private void getGenDepth_1557667469(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1557667469L))
-            info.setReturnValue(-597715629);
+    private void getGenDepth__1826956956(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1826956956L))
+            info.setReturnValue(-1345079374);
     }
 
-    @Inject(at = @At("HEAD"), method = "getBaseColumn(IILnet/minecraft/world/level/LevelHeightAccessor;Lnet/minecraft/world/level/levelgen/RandomState;)Lnet/minecraft/world/level/NoiseColumn;", cancellable = true)
-    private void getBaseColumn_1863058016(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1863058016L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "getBaseHeight(IILnet/minecraft/world/level/levelgen/Heightmap$Types;Lnet/minecraft/world/level/LevelHeightAccessor;Lnet/minecraft/world/level/levelgen/RandomState;)I", cancellable = true)
+    private void getBaseHeight__218440968(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-218440968L))
+            info.setReturnValue(141504045);
     }
 
 

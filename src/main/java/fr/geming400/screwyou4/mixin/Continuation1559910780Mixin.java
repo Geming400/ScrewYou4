@@ -8,20 +8,20 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.util.AbortableIterationConsumer.Continuation.class)
 public class Continuation1559910780Mixin {
         @Inject(at = @At("HEAD"), method = "values()[Lnet/minecraft/util/AbortableIterationConsumer$Continuation;", cancellable = true)
-    private static void values__1351518782(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1351518782L))
+    private static void values__1510503200(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1510503200L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/util/AbortableIterationConsumer$Continuation;", cancellable = true)
-    private static void valueOf_1449833151(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1449833151L))
+    private static void valueOf__73401369(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-73401369L))
             info.setReturnValue(net.minecraft.util.AbortableIterationConsumer.Continuation.ABORT);
     }
 
     @Inject(at = @At("HEAD"), method = "shouldAbort()Z", cancellable = true)
-    private void shouldAbort_1598189363(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1598189363L))
+    private void shouldAbort__1238140906(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1238140906L))
             info.setReturnValue(true);
     }
 

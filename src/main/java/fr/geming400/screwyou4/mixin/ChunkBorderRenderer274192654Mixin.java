@@ -8,8 +8,8 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.renderer.debug.ChunkBorderRenderer.class)
 public class ChunkBorderRenderer274192654Mixin {
         @Inject(at = @At("HEAD"), method = "emitGizmos(DDDLnet/minecraft/util/debug/DebugValueAccess;Lnet/minecraft/client/renderer/culling/Frustum;F)V", cancellable = true)
-    private void emitGizmos__826825293(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-826825293L))
+    private void emitGizmos_1573020743(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1573020743L))
             info.cancel();
     }
 

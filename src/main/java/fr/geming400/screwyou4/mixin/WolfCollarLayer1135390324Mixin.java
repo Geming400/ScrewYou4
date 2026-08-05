@@ -8,14 +8,14 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.renderer.entity.layers.WolfCollarLayer.class)
 public class WolfCollarLayer1135390324Mixin {
         @Inject(at = @At("HEAD"), method = "submit(Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/SubmitNodeCollector;ILnet/minecraft/client/renderer/entity/state/WolfRenderState;FF)V", cancellable = true)
-    private void submit_1871058164(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1871058164L))
+    private void submit__2077867764(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-2077867764L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "submit(Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/SubmitNodeCollector;ILnet/minecraft/client/renderer/entity/state/EntityRenderState;FF)V", cancellable = true)
-    private void submit_677626693(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(677626693L))
+    private void submit__1784067747(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1784067747L))
             info.cancel();
     }
 

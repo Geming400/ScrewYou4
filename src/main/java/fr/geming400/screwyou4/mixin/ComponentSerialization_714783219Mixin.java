@@ -8,14 +8,14 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.network.chat.ComponentSerialization.class)
 public class ComponentSerialization_714783219Mixin {
         @Inject(at = @At("HEAD"), method = "flatRestrictedCodec(I)Lcom/mojang/serialization/Codec;", cancellable = true)
-    private static void flatRestrictedCodec_563945367(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(563945367L))
+    private static void flatRestrictedCodec__1444847339(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1444847339L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "createLegacyComponentMatcher(Lnet/minecraft/util/ExtraCodecs$LateBoundIdMapper;Ljava/util/function/Function;Ljava/lang/String;)Lcom/mojang/serialization/MapCodec;", cancellable = true)
-    private static void createLegacyComponentMatcher_748688525(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(748688525L))
+    private static void createLegacyComponentMatcher__1338251769(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1338251769L))
             info.setReturnValue(null);
     }
 

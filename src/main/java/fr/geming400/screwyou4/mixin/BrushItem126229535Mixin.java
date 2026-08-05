@@ -7,28 +7,28 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.world.item.BrushItem.class)
 public class BrushItem126229535Mixin {
-        @Inject(at = @At("HEAD"), method = "onUseTick(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;I)V", cancellable = true)
-    private void onUseTick__562956091(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-562956091L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "getUseDuration(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/LivingEntity;)I", cancellable = true)
-    private void getUseDuration__770951120(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-770951120L))
-            info.setReturnValue(359880546);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getUseAnimation(Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/world/item/ItemUseAnimation;", cancellable = true)
-    private void getUseAnimation_686061069(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(686061069L))
-            info.setReturnValue(net.minecraft.world.item.ItemUseAnimation.TRIDENT);
+        @Inject(at = @At("HEAD"), method = "getUseDuration(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/LivingEntity;)I", cancellable = true)
+    private void getUseDuration_1918107637(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1918107637L))
+            info.setReturnValue(-1693666676);
     }
 
     @Inject(at = @At("HEAD"), method = "useOn(Lnet/minecraft/world/item/context/UseOnContext;)Lnet/minecraft/world/InteractionResult;", cancellable = true)
-    private void useOn__1782613720(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1782613720L))
+    private void useOn__788887698(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-788887698L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "onUseTick(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;I)V", cancellable = true)
+    private void onUseTick_599296298(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(599296298L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getUseAnimation(Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/world/item/ItemUseAnimation;", cancellable = true)
+    private void getUseAnimation__611585286(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-611585286L))
+            info.setReturnValue(net.minecraft.world.item.ItemUseAnimation.SPEAR);
     }
 
 

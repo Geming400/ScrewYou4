@@ -8,44 +8,44 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.stats.RecipeBookSettings.TypeSettings.class)
 public class TypeSettings783796657Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals__2125658380(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2125658380L))
+    private void equals__124829611(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-124829611L))
             info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__351663814(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-351663814L))
-            info.setReturnValue("!( Y$Pl]}L67\u92ACAg\uACA1BW%[^3\u8E870u4M6|a!]Z}*v\u31ADB)k\uD728|\u13A8#aJ@RWroBU3<Qtf*");
+    private void toString_1554219686(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1554219686L))
+            info.setReturnValue("o/X[\uF992Dn4Yv$\u5DC7^GunBZ5<5e\u73F79G\uC9D8=m\u4BC0utAt/9-\u1B2B\u065D0ATJ_(q1l(;i\u9001'*exe<EiheCf \u6B7A/pVAX\u4F58^dTYP.W!\uAFAFre\u84E7D!-67W");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_822059399(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(822059399L))
-            info.setReturnValue(2702425);
+    private void hashCode_1341148748(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1341148748L))
+            info.setReturnValue(640897233);
     }
 
     @Inject(at = @At("HEAD"), method = "open()Z", cancellable = true)
-    private void open_822075240(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(822075240L))
-            info.setReturnValue(true);
+    private void open__2017847458(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2017847458L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "filtering()Z", cancellable = true)
-    private void filtering_822075240(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(822075240L))
-            info.setReturnValue(true);
+    private void filtering_657307710(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(657307710L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "setFiltering(Z)Lnet/minecraft/stats/RecipeBookSettings$TypeSettings;", cancellable = true)
-    private void setFiltering_130002620(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(130002620L))
+    private void setFiltering_1160026084(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1160026084L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "setOpen(Z)Lnet/minecraft/stats/RecipeBookSettings$TypeSettings;", cancellable = true)
-    private void setOpen_130002620(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(130002620L))
+    private void setOpen_241757576(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(241757576L))
             info.setReturnValue(null);
     }
 

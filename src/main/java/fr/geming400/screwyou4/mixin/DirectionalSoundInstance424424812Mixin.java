@@ -8,8 +8,8 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.resources.sounds.DirectionalSoundInstance.class)
 public class DirectionalSoundInstance424424812Mixin {
         @Inject(at = @At("HEAD"), method = "tick()V", cancellable = true)
-    private void tick_462699551(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(462699551L))
+    private void tick_294741154(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(294741154L))
             info.cancel();
     }
 

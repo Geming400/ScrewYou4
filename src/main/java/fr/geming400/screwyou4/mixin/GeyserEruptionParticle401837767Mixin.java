@@ -8,8 +8,8 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.particle.GeyserEruptionParticle.class)
 public class GeyserEruptionParticle401837767Mixin {
         @Inject(at = @At("HEAD"), method = "tick()V", cancellable = true)
-    private void tick_440112506(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(440112506L))
+    private void tick_272154109(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(272154109L))
             info.cancel();
     }
 

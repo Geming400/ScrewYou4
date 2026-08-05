@@ -8,8 +8,8 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.util.filefix.fixes.PlayerStorageFileFix.class)
 public class PlayerStorageFileFix_1982156411Mixin {
         @Inject(at = @At("HEAD"), method = "makeFixer()V", cancellable = true)
-    private void makeFixer_2020431149(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(2020431149L))
+    private void makeFixer__401760391(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-401760391L))
             info.cancel();
     }
 

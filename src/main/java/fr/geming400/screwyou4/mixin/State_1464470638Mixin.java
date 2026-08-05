@@ -8,21 +8,21 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.entity.animal.sniffer.Sniffer.State.class)
 public class State_1464470638Mixin {
         @Inject(at = @At("HEAD"), method = "values()[Lnet/minecraft/world/entity/animal/sniffer/Sniffer$State;", cancellable = true)
-    private static void values__433052972(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-433052972L))
+    private static void values__545222538(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-545222538L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/world/entity/animal/sniffer/Sniffer$State;", cancellable = true)
-    private static void valueOf_1676103415(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1676103415L))
+    private static void valueOf_949147343(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(949147343L))
             info.setReturnValue(net.minecraft.world.entity.animal.sniffer.Sniffer.State.RISING);
     }
 
     @Inject(at = @At("HEAD"), method = "id()I", cancellable = true)
-    private void id_1502732883(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1502732883L))
-            info.setReturnValue(-1757743594);
+    private void id__1230713320(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1230713320L))
+            info.setReturnValue(-1517247742);
     }
 
 

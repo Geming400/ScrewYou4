@@ -8,8 +8,8 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.entity.ai.control.FlyingMoveControl.class)
 public class FlyingMoveControl_533829425Mixin {
         @Inject(at = @At("HEAD"), method = "tick()V", cancellable = true)
-    private void tick_572104163(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(572104163L))
+    private void tick_404145766(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(404145766L))
             info.cancel();
     }
 

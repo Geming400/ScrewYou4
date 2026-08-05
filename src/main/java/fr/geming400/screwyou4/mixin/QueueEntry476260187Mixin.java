@@ -7,64 +7,64 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.world.level.lighting.LightEngine.QueueEntry.class)
 public class QueueEntry476260187Mixin {
-        @Inject(at = @At("HEAD"), method = "isIncreaseFromEmission(J)Z", cancellable = true)
-    private static void isIncreaseFromEmission_1691104772(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1691104772L))
-            info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "increaseSkipOneDirection(IZLnet/minecraft/core/Direction;)J", cancellable = true)
-    private static void increaseSkipOneDirection_674748151(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(674748151L))
-            info.setReturnValue(-609284513393149114L);
-    }
-
-    @Inject(at = @At("HEAD"), method = "increaseLightFromEmission(IZ)J", cancellable = true)
-    private static void increaseLightFromEmission__503930709(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-503930709L))
-            info.setReturnValue(3005427410596353156L);
-    }
-
-    @Inject(at = @At("HEAD"), method = "decreaseAllDirections(I)J", cancellable = true)
-    private static void decreaseAllDirections_1690165875(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1690165875L))
-            info.setReturnValue(4660361233151550045L);
+        @Inject(at = @At("HEAD"), method = "increaseSkySourceInDirections(ZZZZZ)J", cancellable = true)
+    private static void increaseSkySourceInDirections__271748809(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-271748809L))
+            info.setReturnValue(2784539863412990270L);
     }
 
     @Inject(at = @At("HEAD"), method = "getFromLevel(J)I", cancellable = true)
-    private static void getFromLevel_1691088435(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1691088435L))
-            info.setReturnValue(164760458);
+    private static void getFromLevel__1775062409(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1775062409L))
+            info.setReturnValue(-1358551343);
     }
 
-    @Inject(at = @At("HEAD"), method = "increaseOnlyOneDirection(IZLnet/minecraft/core/Direction;)J", cancellable = true)
-    private static void increaseOnlyOneDirection_674748151(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(674748151L))
-            info.setReturnValue(-609284513393149114L);
-    }
-
-    @Inject(at = @At("HEAD"), method = "decreaseSkipOneDirection(ILnet/minecraft/core/Direction;)J", cancellable = true)
-    private static void decreaseSkipOneDirection_1165216447(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1165216447L))
-            info.setReturnValue(7775942638710959235L);
+    @Inject(at = @At("HEAD"), method = "isIncreaseFromEmission(J)Z", cancellable = true)
+    private static void isIncreaseFromEmission_1325282113(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1325282113L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "isFromEmptyShape(J)Z", cancellable = true)
-    private static void isFromEmptyShape_1691104772(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1691104772L))
-            info.setReturnValue(false);
+    private static void isFromEmptyShape_1399789932(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1399789932L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "increaseSkipOneDirection(IZLnet/minecraft/core/Direction;)J", cancellable = true)
+    private static void increaseSkipOneDirection_989214205(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(989214205L))
+            info.setReturnValue(-327599216832802286L);
     }
 
     @Inject(at = @At("HEAD"), method = "shouldPropagateInDirection(JLnet/minecraft/core/Direction;)Z", cancellable = true)
-    private static void shouldPropagateInDirection__1404254576(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1404254576L))
+    private static void shouldPropagateInDirection_675121108(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(675121108L))
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "increaseSkySourceInDirections(ZZZZZ)J", cancellable = true)
-    private static void increaseSkySourceInDirections_614666116(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(614666116L))
-            info.setReturnValue(108105051903557379L);
+    @Inject(at = @At("HEAD"), method = "decreaseSkipOneDirection(ILnet/minecraft/core/Direction;)J", cancellable = true)
+    private static void decreaseSkipOneDirection__2129442987(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2129442987L))
+            info.setReturnValue(4857618520613130739L);
+    }
+
+    @Inject(at = @At("HEAD"), method = "decreaseAllDirections(I)J", cancellable = true)
+    private static void decreaseAllDirections_424330890(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(424330890L))
+            info.setReturnValue(-718629534327241766L);
+    }
+
+    @Inject(at = @At("HEAD"), method = "increaseLightFromEmission(IZ)J", cancellable = true)
+    private static void increaseLightFromEmission_30074790(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(30074790L))
+            info.setReturnValue(-105032019211498602L);
+    }
+
+    @Inject(at = @At("HEAD"), method = "increaseOnlyOneDirection(IZLnet/minecraft/core/Direction;)J", cancellable = true)
+    private static void increaseOnlyOneDirection__651333776(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-651333776L))
+            info.setReturnValue(5282646854281882986L);
     }
 
 

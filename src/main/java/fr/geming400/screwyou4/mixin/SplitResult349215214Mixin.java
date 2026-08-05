@@ -8,32 +8,32 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.core.component.DataComponentPatch.SplitResult.class)
 public class SplitResult349215214Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals_1734727473(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1734727473L))
+    private void equals__559411054(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-559411054L))
             info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__786244761(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-786244761L))
-            info.setReturnValue("91\u254E\u8180}/(J42s</d`\uD044CEG(`%`ey/m,\u6803Oj\uF963G\uC948hj)<y#6%CgSP$h*V4!tFqjb\uD077qR%]Cz8e$WIS\u7CA3U\u1B99R,BW`F\"nx");
+    private void toString_1119638739(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1119638739L))
+            info.setReturnValue("uQcppX$x1-c)onRA7_R\u57AEm8^b\u374EH.Jiv:m\u7667XGEu,7u8(C'TU{");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_387477956(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(387477956L))
-            info.setReturnValue(2004434278);
+    private void hashCode_906567305(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(906567305L))
+            info.setReturnValue(2131214527);
     }
 
     @Inject(at = @At("HEAD"), method = "added()Lnet/minecraft/core/component/DataComponentMap;", cancellable = true)
-    private void added_1553020155(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1553020155L))
+    private void added__895896581(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-895896581L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "removed()Ljava/util/Set;", cancellable = true)
-    private void removed__1479820272(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1479820272L))
+    private void removed__1895757904(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1895757904L))
             info.setReturnValue(null);
     }
 

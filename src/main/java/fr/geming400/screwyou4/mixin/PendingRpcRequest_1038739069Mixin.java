@@ -8,51 +8,51 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.server.jsonrpc.PendingRpcRequest.class)
 public class PendingRpcRequest_1038739069Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals__1870715969(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1870715969L))
-            info.setReturnValue(false);
+    private void equals_130112800(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(130112800L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__96720907(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-96720907L))
-            info.setReturnValue("%dRaYDUPA{#vi9$C>)5l\"ms9'\u3609\u9C26(E^mu&");
+    private void toString_1809162593(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1809162593L))
+            info.setReturnValue("]9XA-`\u1CD7g/k_Z`3#cPJs\u9F01=6AQb{a\u5460\uA301`'o83J+fgM\u24D7?dE \u8B0E=H(%7\u4AE2r? \u82CFH&\uC2E1^74D?Zs\u550DAR@p\u522C>g\u838A|)I|\u3B990zgi@[\u317C");
     }
 
     @Inject(at = @At("HEAD"), method = "method()Lnet/minecraft/core/Holder$Reference;", cancellable = true)
-    private void method__149606959(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-149606959L))
+    private void method__1274212848(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1274212848L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_1077001810(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1077001810L))
-            info.setReturnValue(1347182759);
+    private void hashCode_1596091159(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1596091159L))
+            info.setReturnValue(-1714491327);
     }
 
     @Inject(at = @At("HEAD"), method = "accept(Lcom/google/gson/JsonElement;)V", cancellable = true)
-    private void accept_974690510(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(974690510L))
+    private void accept__774304810(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-774304810L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "timedOut(J)Z", cancellable = true)
-    private void timedOut__2041383891(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2041383891L))
-            info.setReturnValue(true);
+    private void timedOut_1467529092(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1467529092L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "resultFuture()Ljava/util/concurrent/CompletableFuture;", cancellable = true)
-    private void resultFuture__1542852967(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1542852967L))
-            info.setReturnValue(null);
+    private void resultFuture_212698841(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(212698841L))
+            info.setReturnValue(new java.util.concurrent.CompletableFuture());
     }
 
     @Inject(at = @At("HEAD"), method = "timeoutTime()J", cancellable = true)
-    private void timeoutTime_1077002275(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1077002275L))
-            info.setReturnValue(701515335915698349L);
+    private void timeoutTime_510489877(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(510489877L))
+            info.setReturnValue(-2011591395067550254L);
     }
 
 

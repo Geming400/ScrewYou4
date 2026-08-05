@@ -8,38 +8,38 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.renderer.chunk.SectionMesh.SectionDraw.class)
 public class SectionDraw_682401471Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals_2067913729(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2067913729L))
+    private void equals__226224798(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-226224798L))
             info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__453058505(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-453058505L))
-            info.setReturnValue("HFGBtq.G2Lzu Kr#}/V\uA82B< )8bd<d(K\uB081Q5 G<O\u77A1|x\u2CAF9");
+    private void toString_1452824995(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1452824995L))
+            info.setReturnValue("\uC1A6]q[Wze?4R1Kw-&x\u0C617tj;rK<,./\uFE16 \u997BH,\u0C37lP/,\uD19Fo4\u2B77jr1n3`?Q\u3595n");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_720664212(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(720664212L))
-            info.setReturnValue(-1271050403);
+    private void hashCode_1239753561(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1239753561L))
+            info.setReturnValue(-1166835787);
     }
 
     @Inject(at = @At("HEAD"), method = "indexType()Lcom/mojang/blaze3d/IndexType;", cancellable = true)
-    private void indexType_2011286955(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2011286955L))
+    private void indexType__609978921(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-609978921L))
             info.setReturnValue(com.mojang.blaze3d.IndexType.SHORT);
     }
 
     @Inject(at = @At("HEAD"), method = "indexCount()I", cancellable = true)
-    private void indexCount_720663716(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(720663716L))
-            info.setReturnValue(-1092526913);
+    private void indexCount_1181096807(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1181096807L))
+            info.setReturnValue(1149716780);
     }
 
     @Inject(at = @At("HEAD"), method = "hasCustomIndexBuffer()Z", cancellable = true)
-    private void hasCustomIndexBuffer_720680053(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(720680053L))
+    private void hasCustomIndexBuffer_2016521422(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2016521422L))
             info.setReturnValue(false);
     }
 

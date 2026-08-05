@@ -8,33 +8,33 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.multiplayer.chat.report.ReportEnvironment.Server.Realm.class)
 public class Realm736686767Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals_2122199026(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2122199026L))
-            info.setReturnValue(false);
+    private void equals__171939501(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-171939501L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__398773208(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-398773208L))
-            info.setReturnValue("(oFzv#tn4 (\u3208\uD521\u04FAgUlGNAVP\u99DC#i.3sW");
+    private void toString_1507110292(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1507110292L))
+            info.setReturnValue("\u48C4u(zqR^:}:p\uCCE58aq'I]5VYsr{0?Il[k_\u6EAFG\u6037|b\uC7B2,5\u7728`f\uCE33T@Z\u26BE0Ue[P[(ctvGg>#y1q^_B\uAE99=4@,C)/A%8T<Q\u0208");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_774949509(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(774949509L))
-            info.setReturnValue(1228197791);
+    private void hashCode_1294038858(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1294038858L))
+            info.setReturnValue(1749217591);
     }
 
     @Inject(at = @At("HEAD"), method = "slotId()I", cancellable = true)
-    private void slotId_774949013(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(774949013L))
-            info.setReturnValue(1431345210);
+    private void slotId_1005111420(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1005111420L))
+            info.setReturnValue(-61199830);
     }
 
     @Inject(at = @At("HEAD"), method = "realmId()J", cancellable = true)
-    private void realmId_774949974(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(774949974L))
-            info.setReturnValue(2569994157297706473L);
+    private void realmId_1902462604(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1902462604L))
+            info.setReturnValue(7992149427252833437L);
     }
 
 

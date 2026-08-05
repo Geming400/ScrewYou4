@@ -8,39 +8,39 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.entity.boss.enderdragon.phases.DragonDeathPhase.class)
 public class DragonDeathPhase_1081737622Mixin {
         @Inject(at = @At("HEAD"), method = "begin()V", cancellable = true)
-    private void begin_1120012360(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1120012360L))
+    private void begin_2140901695(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(2140901695L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "getPhase()Lnet/minecraft/world/entity/boss/enderdragon/phases/EnderDragonPhase;", cancellable = true)
-    private void getPhase__286619907(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-286619907L))
+    private void getPhase__466719528(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-466719528L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getFlyTargetLocation()Lnet/minecraft/world/phys/Vec3;", cancellable = true)
+    private void getFlyTargetLocation__751541845(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-751541845L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "doServerTick(Lnet/minecraft/server/level/ServerLevel;)V", cancellable = true)
-    private void doServerTick_103328281(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(103328281L))
+    private void doServerTick__1214543474(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1214543474L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "getFlyTargetLocation()Lnet/minecraft/world/phys/Vec3;", cancellable = true)
-    private void getFlyTargetLocation__2115500146(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2115500146L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getFlySpeed()F", cancellable = true)
-    private void getFlySpeed_1119996984(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1119996984L))
-            info.setReturnValue(8.54885E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "doClientTick()V", cancellable = true)
-    private void doClientTick_1120012360(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1120012360L))
+    private void doClientTick_1462310197(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1462310197L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getFlySpeed()F", cancellable = true)
+    private void getFlySpeed_1047613806(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1047613806L))
+            info.setReturnValue(3.76982E8F);
     }
 
 

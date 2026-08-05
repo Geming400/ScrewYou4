@@ -8,56 +8,56 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.network.protocol.game.ClientboundPlayerAbilitiesPacket.class)
 public class ClientboundPlayerAbilitiesPacket1987021630Mixin {
         @Inject(at = @At("HEAD"), method = "type()Lnet/minecraft/network/protocol/PacketType;", cancellable = true)
-    private void type_307996542(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(307996542L))
+    private void type_2142889220(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2142889220L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/PacketListener;)V", cancellable = true)
-    private void handle__1629876753(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1629876753L))
+    private void handle_1691309767(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1691309767L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/protocol/game/ClientGamePacketListener;)V", cancellable = true)
-    private void handle__2110438132(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-2110438132L))
+    private void handle_395544036(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(395544036L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "isInvulnerable()Z", cancellable = true)
-    private void isInvulnerable_2025300213(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2025300213L))
-            info.setReturnValue(true);
+    @Inject(at = @At("HEAD"), method = "canInstabuild()Z", cancellable = true)
+    private void canInstabuild__1852695950(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1852695950L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "getWalkingSpeed()F", cancellable = true)
-    private void getWalkingSpeed_2025280993(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2025280993L))
-            info.setReturnValue(5.661787E8F);
+    private void getWalkingSpeed__1265447011(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1265447011L))
+            info.setReturnValue(2.110831E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "getFlyingSpeed()F", cancellable = true)
-    private void getFlyingSpeed_2025280993(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2025280993L))
-            info.setReturnValue(5.661787E8F);
+    private void getFlyingSpeed_1278925151(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1278925151L))
+            info.setReturnValue(2.110831E8F);
     }
 
-    @Inject(at = @At("HEAD"), method = "canFly()Z", cancellable = true)
-    private void canFly_2025300213(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2025300213L))
+    @Inject(at = @At("HEAD"), method = "isInvulnerable()Z", cancellable = true)
+    private void isInvulnerable_400979678(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(400979678L))
             info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "isFlying()Z", cancellable = true)
-    private void isFlying_2025300213(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2025300213L))
-            info.setReturnValue(true);
+    private void isFlying__1590973380(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1590973380L))
+            info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "canInstabuild()Z", cancellable = true)
-    private void canInstabuild_2025300213(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2025300213L))
+    @Inject(at = @At("HEAD"), method = "canFly()Z", cancellable = true)
+    private void canFly__644745134(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-644745134L))
             info.setReturnValue(true);
     }
 

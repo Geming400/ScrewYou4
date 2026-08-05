@@ -8,8 +8,8 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.player.KeyboardInput.class)
 public class KeyboardInput_2177035Mixin {
         @Inject(at = @At("HEAD"), method = "tick()V", cancellable = true)
-    private void tick_40451773(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(40451773L))
+    private void tick__127506624(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-127506624L))
             info.cancel();
     }
 

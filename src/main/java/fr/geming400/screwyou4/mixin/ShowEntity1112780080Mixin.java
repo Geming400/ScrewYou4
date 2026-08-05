@@ -8,32 +8,32 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.network.chat.HoverEvent.ShowEntity.class)
 public class ShowEntity1112780080Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals__1796674957(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1796674957L))
+    private void equals_204153812(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(204153812L))
             info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__22679895(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-22679895L))
-            info.setReturnValue("{?Z\u3513R]\uB7B9D-@fMN\u65A528k\uCD19\u6DB1/DsR@*\u93B0E\u521A!E%:fx_OticX\uB4CF2Q+>ZwDk?S<e%Dgf/e\u2033G)?x6?5c\uFF3E{teKC\u9DD5<4DG\uB01C(|J\u71B5");
+    private void toString_1883203605(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1883203605L))
+            info.setReturnValue("$h6:0=h\uA8ADpR4 \u3AE5wEy.[6a\uFF4Cl@|3A{");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_1151042822(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1151042822L))
-            info.setReturnValue(-232841769);
+    private void hashCode_1670132171(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1670132171L))
+            info.setReturnValue(501027862);
     }
 
     @Inject(at = @At("HEAD"), method = "action()Lnet/minecraft/network/chat/HoverEvent$Action;", cancellable = true)
-    private void action__454344604(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-454344604L))
-            info.setReturnValue(net.minecraft.network.chat.HoverEvent.Action.SHOW_ITEM);
+    private void action__27818726(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-27818726L))
+            info.setReturnValue(net.minecraft.network.chat.HoverEvent.Action.SHOW_ENTITY);
     }
 
     @Inject(at = @At("HEAD"), method = "entity()Lnet/minecraft/network/chat/HoverEvent$EntityTooltipInfo;", cancellable = true)
-    private void entity_1496186154(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1496186154L))
+    private void entity_738718759(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(738718759L))
             info.setReturnValue(null);
     }
 

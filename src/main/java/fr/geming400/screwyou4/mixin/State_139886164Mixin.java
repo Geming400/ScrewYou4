@@ -8,50 +8,50 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.server.packs.resources.ProfiledReloadInstance.State.class)
 public class State_139886164Mixin {
         @Inject(at = @At("HEAD"), method = "name()Ljava/lang/String;", cancellable = true)
-    private void name__995574308(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-995574308L))
-            info.setReturnValue("");
+    private void name_949153319(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(949153319L))
+            info.setReturnValue("/)V\uA8EDV\uB0C5 GEr[@[k{\u930A)Q+\uC448e;\u890A/kkonJReNB.\u8C965wE5:vt*4#`(\u269Exg{BFb;d_'lPKSFgUyw\uCF96z$7O/");
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals_1525398422(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1525398422L))
-            info.setReturnValue(true);
+    private void equals__768740105(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-768740105L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__995573812(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-995573812L))
-            info.setReturnValue("K\u819Ei\uFCF5Ooud;t>,Vm)t\u6013!Zlu5we!^'&;zVA}Nd\uD66Epy(y\"yZra%\u05285!NPB?{Ow,8xX\"L2mf\u57E5uUkzm{LPBw\uFC52\u9119dG[>1`V\u5F50e");
+    private void toString_910309688(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(910309688L))
+            info.setReturnValue(",`)z\u8212\"V:nf\u3AF7m!#f/43`F5ZG`bF\uC524Tb`\u441DuW@sx08Cz,[+rq`T8<6,j|SpTG:[W}4)MD0\u1C3B");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_178148905(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(178148905L))
-            info.setReturnValue(93147742);
+    private void hashCode_697238254(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(697238254L))
+            info.setReturnValue(-1519543091);
     }
 
     @Inject(at = @At("HEAD"), method = "reloadCount()Ljava/util/concurrent/atomic/AtomicLong;", cancellable = true)
-    private void reloadCount__1176330578(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1176330578L))
-            info.setReturnValue(new java.util.concurrent.atomic.AtomicLong());
-    }
-
-    @Inject(at = @At("HEAD"), method = "reloadNanos()Ljava/util/concurrent/atomic/AtomicLong;", cancellable = true)
-    private void reloadNanos__1176330578(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1176330578L))
+    private void reloadCount_1155300516(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1155300516L))
             info.setReturnValue(new java.util.concurrent.atomic.AtomicLong());
     }
 
     @Inject(at = @At("HEAD"), method = "preparationNanos()Ljava/util/concurrent/atomic/AtomicLong;", cancellable = true)
-    private void preparationNanos__1176330578(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1176330578L))
+    private void preparationNanos__1572688234(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1572688234L))
             info.setReturnValue(new java.util.concurrent.atomic.AtomicLong());
     }
 
     @Inject(at = @At("HEAD"), method = "preparationCount()Ljava/util/concurrent/atomic/AtomicLong;", cancellable = true)
-    private void preparationCount__1176330578(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1176330578L))
+    private void preparationCount__403821722(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-403821722L))
+            info.setReturnValue(new java.util.concurrent.atomic.AtomicLong());
+    }
+
+    @Inject(at = @At("HEAD"), method = "reloadNanos()Ljava/util/concurrent/atomic/AtomicLong;", cancellable = true)
+    private void reloadNanos__13565996(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-13565996L))
             info.setReturnValue(new java.util.concurrent.atomic.AtomicLong());
     }
 

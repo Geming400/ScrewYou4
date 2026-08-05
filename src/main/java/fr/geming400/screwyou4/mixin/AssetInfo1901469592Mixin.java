@@ -8,27 +8,27 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.item.equipment.trim.MaterialAssetGroup.AssetInfo.class)
 public class AssetInfo1901469592Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals__1007985445(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1007985445L))
-            info.setReturnValue(true);
+    private void equals_992843324(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(992843324L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString_766009617(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(766009617L))
-            info.setReturnValue(".A+#ttF74@{eJ");
+    private void toString__1623074179(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1623074179L))
+            info.setReturnValue("Cfhuy1gIA0{CPQy0w!N7P\uD345\u91728H`Eew\u24A2!\u9EDE&X#R4+!O");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_1939732334(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1939732334L))
-            info.setReturnValue(-1756616304);
+    private void hashCode__1836145613(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1836145613L))
+            info.setReturnValue(-763516018);
     }
 
     @Inject(at = @At("HEAD"), method = "suffix()Ljava/lang/String;", cancellable = true)
-    private void suffix_766009121(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(766009121L))
-            info.setReturnValue("9/!\u9D1ELo\u1E96doezC/,}\"\u5BD0}O\u868CA({IDxUlW\u3A66))\u147Cn]2\u4AE27B,H@;!@\"SO||,X");
+    private void suffix_424973234(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(424973234L))
+            info.setReturnValue("cqByuIl2C$XVRa\u2D47\u8F79\u1B6F>Ofj1U!\u4162H2(Nb|M&R|PQF3RCcq..j,m98uq\u44BC<)\uB998ugM8^xVE\uFCA3");
     }
 
 

@@ -8,32 +8,32 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.renderer.chunk.ChunkSectionLayerGroup.class)
 public class ChunkSectionLayerGroup837774366Mixin {
         @Inject(at = @At("HEAD"), method = "values()[Lnet/minecraft/client/renderer/chunk/ChunkSectionLayerGroup;", cancellable = true)
-    private static void values_33575385(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(33575385L))
+    private static void values__125409033(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-125409033L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/client/renderer/chunk/ChunkSectionLayerGroup;", cancellable = true)
-    private static void valueOf__1460039978(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1460039978L))
-            info.setReturnValue(net.minecraft.client.renderer.chunk.ChunkSectionLayerGroup.OPAQUE);
+    private static void valueOf_1311692798(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1311692798L))
+            info.setReturnValue(net.minecraft.client.renderer.chunk.ChunkSectionLayerGroup.TRANSLUCENT);
     }
 
     @Inject(at = @At("HEAD"), method = "layers()[Lnet/minecraft/client/renderer/chunk/ChunkSectionLayer;", cancellable = true)
-    private void layers__355138834(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-355138834L))
+    private void layers__963790544(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-963790544L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "label()Ljava/lang/String;", cancellable = true)
-    private void label__297686105(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-297686105L))
-            info.setReturnValue("r,_^Cnf_2Vc-od\uBAF9k?\u0F24e:kSkboL' #5t#iJ\u2F1DW6#vFq\uA146x>en!g:S\uFDFDq(0qle");
+    private void label_601144219(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(601144219L))
+            info.setReturnValue("HUlW2\u33DB/vFNj\u588EVc>-AMo\u8ABET=U2&1L\uBC2D ,Dz,my\u2299\uA2FF>\u9E21j\u93CD/A?G+g(O\u6C73iK9RU^`N*/\uCFA8)5n\u2385\u032FQ\u5997S\u15C3;u+C\"r\u1495dT')");
     }
 
     @Inject(at = @At("HEAD"), method = "outputTarget()Lcom/mojang/blaze3d/pipeline/RenderTarget;", cancellable = true)
-    private void outputTarget_804328419(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(804328419L))
+    private void outputTarget_521104981(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(521104981L))
             info.setReturnValue(null);
     }
 

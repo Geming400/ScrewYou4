@@ -8,8 +8,8 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.FramerateLimiter.class)
 public class FramerateLimiter_2136399537Mixin {
         @Inject(at = @At("HEAD"), method = "limitDisplayFPS(I)V", cancellable = true)
-    private static void limitDisplayFPS__944650540(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-944650540L))
+    private static void limitDisplayFPS__1246775242(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1246775242L))
             info.cancel();
     }
 

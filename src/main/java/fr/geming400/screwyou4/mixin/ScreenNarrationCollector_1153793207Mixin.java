@@ -8,15 +8,15 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.gui.narration.ScreenNarrationCollector.class)
 public class ScreenNarrationCollector_1153793207Mixin {
         @Inject(at = @At("HEAD"), method = "update(Ljava/util/function/Consumer;)V", cancellable = true)
-    private void update_1834809619(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1834809619L))
+    private void update__444743780(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-444743780L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "collectNarrationText(Z)Ljava/lang/String;", cancellable = true)
-    private void collectNarrationText__554294923(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-554294923L))
-            info.setReturnValue("%\u6D08G;Cs2sw^7m%>d-Nko\u2449*Jx=\u7723[n\u6552\uD714f0");
+    private void collectNarrationText__1123070736(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1123070736L))
+            info.setReturnValue("r=`>']{^:-LI<Lp^if+F]?+MCg|F]w\u5BD2P+[z<E**>@ZZHd4)Q!I%#\uD4CE/a]x$UYgxL2l^`n-ng\uC39BO\u18DD^Z +T+)=0fz");
     }
 
 

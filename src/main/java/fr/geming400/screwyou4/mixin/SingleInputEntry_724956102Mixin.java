@@ -8,38 +8,38 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.item.crafting.SelectableRecipe.SingleInputEntry.class)
 public class SingleInputEntry_724956102Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals_2110468360(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2110468360L))
-            info.setReturnValue(false);
+    private void equals__183670167(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-183670167L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__410503874(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-410503874L))
-            info.setReturnValue("^\u344FP GE\u38BFqv ezif\u9C889.\"\uC06E> p@\u27FC\u2AD5Mjw\u8DBE1{Wx\u792A/qy\u5E58=N1iHo`\u015698Z\u2BF46]{vx\"%LMc6h\"jw/fVu-'$z\u5544j$Rc%jHcz\u9F48Nia\u5900L\u8CBCwnamnB");
+    private void toString_1495379626(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1495379626L))
+            info.setReturnValue("\uCFB3m>1}-\u65E3-1KKI%\uCE56-1R.][@,im(`w^C$\u509Bat\u2229B)4r<0\uB98F'J\uB910\u7C6AVs/a-2\u4F71\u881Fl2UAuP|^&Z\u33615j\uA775\uC65Cw.m\u1F28SD\u4DB9 j.O?^zaHI*7\u76CDr)$z:");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_763218843(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(763218843L))
-            info.setReturnValue(-766532349);
+    private void hashCode_1282308192(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1282308192L))
+            info.setReturnValue(2029770060);
     }
 
     @Inject(at = @At("HEAD"), method = "input()Lnet/minecraft/world/item/crafting/Ingredient;", cancellable = true)
-    private void input_227516928(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(227516928L))
+    private void input__1850952886(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1850952886L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "recipe()Lnet/minecraft/world/item/crafting/SelectableRecipe;", cancellable = true)
-    private void recipe__1747473619(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1747473619L))
+    private void recipe__717750597(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-717750597L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "noRecipeCodec()Lnet/minecraft/network/codec/StreamCodec;", cancellable = true)
-    private static void noRecipeCodec_1985956473(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1985956473L))
+    private static void noRecipeCodec_1830466354(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1830466354L))
             info.setReturnValue(null);
     }
 

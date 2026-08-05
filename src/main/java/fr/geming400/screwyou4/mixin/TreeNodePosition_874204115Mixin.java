@@ -8,8 +8,8 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.advancements.TreeNodePosition.class)
 public class TreeNodePosition_874204115Mixin {
         @Inject(at = @At("HEAD"), method = "run(Lnet/minecraft/advancements/AdvancementNode;)V", cancellable = true)
-    private static void run__1378886030(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1378886030L))
+    private static void run__843147449(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-843147449L))
             info.cancel();
     }
 

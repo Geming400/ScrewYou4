@@ -8,56 +8,56 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.entity.monster.Witch.class)
 public class Witch_974358279Mixin {
         @Inject(at = @At("HEAD"), method = "setUsingItem(Z)V", cancellable = true)
-    private void setUsingItem__2090992189(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-2090992189L))
+    private void setUsingItem__1972916872(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1972916872L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "isDrinkingPotion()Z", cancellable = true)
-    private void isDrinkingPotion_1012636861(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1012636861L))
-            info.setReturnValue(true);
+    private void isDrinkingPotion_1376221910(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1376221910L))
+            info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "applyRaidBuffs(Lnet/minecraft/server/level/ServerLevel;IZ)V", cancellable = true)
-    private void applyRaidBuffs__2081645061(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-2081645061L))
+    @Inject(at = @At("HEAD"), method = "createAttributes()Lnet/minecraft/world/entity/ai/attributes/AttributeSupplier$Builder;", cancellable = true)
+    private static void createAttributes__1945507028(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1945507028L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "handleEntityEvent(B)V", cancellable = true)
+    private void handleEntityEvent_1728106394(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1728106394L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "aiStep()V", cancellable = true)
+    private void aiStep__1689311451(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1689311451L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "getCelebrateSound()Lnet/minecraft/sounds/SoundEvent;", cancellable = true)
-    private void getCelebrateSound_2064571176(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2064571176L))
+    private void getCelebrateSound__1707201686(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1707201686L))
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "applyRaidBuffs(Lnet/minecraft/server/level/ServerLevel;IZ)V", cancellable = true)
+    private void applyRaidBuffs_1886131(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1886131L))
+            info.cancel();
+    }
+
     @Inject(at = @At("HEAD"), method = "canBeLeader()Z", cancellable = true)
-    private void canBeLeader_1012636861(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1012636861L))
+    private void canBeLeader_271735585(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(271735585L))
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "aiStep()V", cancellable = true)
-    private void aiStep_1012633017(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1012633017L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "handleEntityEvent(B)V", cancellable = true)
-    private void handleEntityEvent__2113156693(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-2113156693L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "createAttributes()Lnet/minecraft/world/entity/ai/attributes/AttributeSupplier$Builder;", cancellable = true)
-    private static void createAttributes_274139833(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(274139833L))
-            info.setReturnValue(new net.minecraft.world.entity.ai.attributes.AttributeSupplier.Builder());
-    }
-
     @Inject(at = @At("HEAD"), method = "performRangedAttack(Lnet/minecraft/world/entity/LivingEntity;F)V", cancellable = true)
-    private void performRangedAttack__1914350849(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1914350849L))
+    private void performRangedAttack__1937675505(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1937675505L))
             info.cancel();
     }
 

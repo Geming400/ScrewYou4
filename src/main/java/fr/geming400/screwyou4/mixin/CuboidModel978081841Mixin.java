@@ -8,63 +8,63 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.resources.model.cuboid.CuboidModel.class)
 public class CuboidModel978081841Mixin {
         @Inject(at = @At("HEAD"), method = "parent()Lnet/minecraft/resources/Identifier;", cancellable = true)
-    private void parent__1464984712(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1464984712L))
+    private void parent__1978813918(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1978813918L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals__1931373196(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1931373196L))
+    private void equals_69455573(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(69455573L))
             info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__157378134(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-157378134L))
-            info.setReturnValue("bnS=9on;?\u7AF0\u2870G_/$>\u4120k<\u5F3Elujh\u229D=_|.iM\uAA0CobHVKVM5q\u488D3\u1D99(k\u6B6FO");
+    private void toString_1748505366(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1748505366L))
+            info.setReturnValue(" cx\u37FCD_pONMnpfb\u7DF4\u9731Og:$`vjr[\u085A%M\u3F61V}Ulk.Fgs\uB753x*Z`7 \u5E1Ar:\u99B4f{^\u1DDCGm`9 p'L;O?U77)pkqk\uCBD8,");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_1016344583(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1016344583L))
-            info.setReturnValue(816582638);
+    private void hashCode_1535433932(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1535433932L))
+            info.setReturnValue(-1762058531);
     }
 
     @Inject(at = @At("HEAD"), method = "fromStream(Ljava/io/Reader;)Lnet/minecraft/client/resources/model/cuboid/CuboidModel;", cancellable = true)
-    private static void fromStream_702001987(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(702001987L))
+    private static void fromStream__178286663(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-178286663L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "transforms()Lnet/minecraft/client/resources/model/cuboid/ItemTransforms;", cancellable = true)
-    private void transforms_1512314320(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1512314320L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "textureSlots()Lnet/minecraft/client/resources/model/sprite/TextureSlots$Data;", cancellable = true)
-    private void textureSlots__1384317653(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1384317653L))
+    private void transforms_2048614487(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2048614487L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "ambientOcclusion()Ljava/lang/Boolean;", cancellable = true)
-    private void ambientOcclusion_1098170849(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1098170849L))
+    private void ambientOcclusion__466746260(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-466746260L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "textureSlots()Lnet/minecraft/client/resources/model/sprite/TextureSlots$Data;", cancellable = true)
+    private void textureSlots_1706999057(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1706999057L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "geometry()Lnet/minecraft/client/resources/model/geometry/UnbakedGeometry;", cancellable = true)
+    private void geometry_230306876(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(230306876L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "guiLight()Lnet/minecraft/client/resources/model/UnbakedModel$GuiLight;", cancellable = true)
-    private void guiLight__2039446697(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2039446697L))
-            info.setReturnValue(net.minecraft.client.resources.model.UnbakedModel.GuiLight.FRONT);
-    }
-
-    @Inject(at = @At("HEAD"), method = "geometry()Lnet/minecraft/client/resources/model/geometry/UnbakedGeometry;", cancellable = true)
-    private void geometry_1071962606(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1071962606L))
-            info.setReturnValue(null);
+    private void guiLight__1346540558(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1346540558L))
+            info.setReturnValue(net.minecraft.client.resources.model.UnbakedModel.GuiLight.SIDE);
     }
 
 

@@ -8,56 +8,56 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.renderer.feature.ShapeOutlineFeatureRenderer.Submit.class)
 public class Submit1620731762Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals__1288723275(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1288723275L))
-            info.setReturnValue(true);
+    private void equals_712105494(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(712105494L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString_485271787(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(485271787L))
-            info.setReturnValue("\u9A25ol4T\u5B4AhQ+w%zeW&CY\u0418#d9f{TRAE635()e25<g\u74CCY^[$<>=ZwUt1h%e5^^\u69E8G\u254B}:q?:ji%D?ZY:BJ@dS0B#79Z`(\u08F3TvV/e]\uB5F3");
+    private void toString__1903812009(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1903812009L))
+            info.setReturnValue("\uA75F\u6225bB]T:\u8C19teO]zF`k[\u5D60\u7809w\u24FB2SCB,|W90\u463A\uCAF20\u18C9C(qF{\"1\u8994fs|\u186FVBaf");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_1658994504(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1658994504L))
-            info.setReturnValue(-701880591);
+    private void hashCode__2116883443(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2116883443L))
+            info.setReturnValue(-856030104);
     }
 
     @Inject(at = @At("HEAD"), method = "color()I", cancellable = true)
-    private void color_1658994008(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1658994008L))
-            info.setReturnValue(-498733172);
+    private void color__1437584427(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1437584427L))
+            info.setReturnValue(-1639654602);
     }
 
     @Inject(at = @At("HEAD"), method = "width()F", cancellable = true)
-    private void width_1658991125(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1658991125L))
-            info.setReturnValue(8.229011E8F);
+    private void width__19419121(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-19419121L))
+            info.setReturnValue(2.640387E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "shape()Lnet/minecraft/world/phys/shapes/VoxelShape;", cancellable = true)
-    private void shape__260938156(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-260938156L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "featureType()Lnet/minecraft/client/renderer/feature/FeatureRendererType;", cancellable = true)
-    private void featureType__1643152008(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1643152008L))
+    private void shape_621252597(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(621252597L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "pose()Lcom/mojang/blaze3d/vertex/PoseStack$Pose;", cancellable = true)
-    private void pose__468588638(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-468588638L))
-            info.setReturnValue(new com.mojang.blaze3d.vertex.PoseStack.Pose());
+    private void pose__1171510669(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1171510669L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "featureType()Lnet/minecraft/client/renderer/feature/FeatureRendererType;", cancellable = true)
+    private void featureType_1428308008(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1428308008L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "renderType()Lnet/minecraft/client/renderer/rendertype/RenderType;", cancellable = true)
-    private void renderType__1589655837(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1589655837L))
+    private void renderType_859376371(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(859376371L))
             info.setReturnValue(null);
     }
 

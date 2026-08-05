@@ -8,8 +8,8 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.server.commands.WaypointCommand.class)
 public class WaypointCommand79087932Mixin {
         @Inject(at = @At("HEAD"), method = "register(Lcom/mojang/brigadier/CommandDispatcher;Lnet/minecraft/commands/CommandBuildContext;)V", cancellable = true)
-    private static void register__2008269645(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-2008269645L))
+    private static void register__1498721424(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1498721424L))
             info.cancel();
     }
 

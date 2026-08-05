@@ -8,9 +8,9 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.level.levelgen.feature.NoOpFeature.class)
 public class NoOpFeature_98600090Mixin {
         @Inject(at = @At("HEAD"), method = "place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z", cancellable = true)
-    private void place_813857825(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(813857825L))
-            info.setReturnValue(false);
+    private void place_1672472442(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1672472442L))
+            info.setReturnValue(true);
     }
 
 

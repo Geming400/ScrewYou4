@@ -8,8 +8,8 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.entity.monster.piglin.StartHuntingHoglin.class)
 public class StartHuntingHoglin_67482268Mixin {
         @Inject(at = @At("HEAD"), method = "create()Lnet/minecraft/world/entity/ai/behavior/OneShot;", cancellable = true)
-    private static void create__828798926(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-828798926L))
+    private static void create__1170873554(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1170873554L))
             info.setReturnValue(null);
     }
 

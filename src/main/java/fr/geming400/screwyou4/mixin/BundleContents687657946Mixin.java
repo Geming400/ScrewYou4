@@ -8,75 +8,75 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.item.component.BundleContents.class)
 public class BundleContents687657946Mixin {
         @Inject(at = @At("HEAD"), method = "size()I", cancellable = true)
-    private void size_725920192(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(725920192L))
-            info.setReturnValue(-1927508029);
+    private void size_1131389535(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1131389535L))
+            info.setReturnValue(-1833630852);
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals_2073169709(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2073169709L))
+    private void equals__220968818(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-220968818L))
             info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__447802525(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-447802525L))
-            info.setReturnValue("jx\u47D2X^OOLym-!N^se\u0955{z`1-0*sA_L\u94E2<\u56B3\u0734s\u466Bz\uD319=:QA?AdmLezv\u25C9m#<U]K- 4-");
+    private void toString_1458080975(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1458080975L))
+            info.setReturnValue("z6q,aC\u4AD3A\u6C96bQzC\u37F8FQ4\u1EE1*0\u5BCD_");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_725920192(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(725920192L))
-            info.setReturnValue(-1923499929);
+    private void hashCode_1245009541(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1245009541L))
+            info.setReturnValue(-1603730244);
     }
 
     @Inject(at = @At("HEAD"), method = "isEmpty()Z", cancellable = true)
-    private void isEmpty_725936529(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(725936529L))
+    private void isEmpty_1746774318(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1746774318L))
             info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "items()Ljava/util/List;", cancellable = true)
-    private void items__1980972534(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1980972534L))
+    private void items_665405898(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(665405898L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "itemCopyStream()Ljava/util/stream/Stream;", cancellable = true)
-    private void itemCopyStream_476951631(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(476951631L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "canItemBeInBundle(Lnet/minecraft/world/item/ItemStack;)Z", cancellable = true)
-    private static void canItemBeInBundle__1872773970(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1872773970L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getSelectedItemIndex()I", cancellable = true)
-    private void getSelectedItemIndex_725920192(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(725920192L))
-            info.setReturnValue(-1923499929);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getNumberOfItemsToShow()I", cancellable = true)
-    private void getNumberOfItemsToShow_725920192(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(725920192L))
-            info.setReturnValue(-1923499929);
     }
 
     @Inject(at = @At("HEAD"), method = "weight()Lcom/mojang/serialization/DataResult;", cancellable = true)
-    private void weight__1056847927(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1056847927L))
+    private void weight__562844591(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-562844591L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getSelectedItem()Lnet/minecraft/world/item/ItemStackTemplate;", cancellable = true)
-    private void getSelectedItem__1853422044(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1853422044L))
+    private void getSelectedItem__639132440(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-639132440L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "canItemBeInBundle(Lnet/minecraft/world/item/ItemStack;)Z", cancellable = true)
+    private static void canItemBeInBundle_1737741441(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1737741441L))
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "itemCopyStream()Ljava/util/stream/Stream;", cancellable = true)
+    private void itemCopyStream_1878027911(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1878027911L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getSelectedItemIndex()I", cancellable = true)
+    private void getSelectedItemIndex_161487378(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(161487378L))
+            info.setReturnValue(-1811773711);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getNumberOfItemsToShow()I", cancellable = true)
+    private void getNumberOfItemsToShow_1545586014(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1545586014L))
+            info.setReturnValue(1549117797);
     }
 
 

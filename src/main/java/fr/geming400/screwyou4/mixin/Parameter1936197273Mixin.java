@@ -8,27 +8,27 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.network.chat.ChatTypeDecoration.Parameter.class)
 public class Parameter1936197273Mixin {
         @Inject(at = @At("HEAD"), method = "values()[Lnet/minecraft/network/chat/ChatTypeDecoration$Parameter;", cancellable = true)
-    private static void values_847069587(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(847069587L))
+    private static void values_734900021(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(734900021L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/network/chat/ChatTypeDecoration$Parameter;", cancellable = true)
-    private static void valueOf__1338741322(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1338741322L))
-            info.setReturnValue(net.minecraft.network.chat.ChatTypeDecoration.Parameter.SENDER);
+    private static void valueOf__2065697394(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2065697394L))
+            info.setReturnValue(net.minecraft.network.chat.ChatTypeDecoration.Parameter.CONTENT);
     }
 
     @Inject(at = @At("HEAD"), method = "select(Lnet/minecraft/network/chat/Component;Lnet/minecraft/network/chat/ChatType$Bound;)Lnet/minecraft/network/chat/Component;", cancellable = true)
-    private void select__375444649(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-375444649L))
+    private void select__107116325(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-107116325L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
-    private void getSerializedName_800736802(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(800736802L))
-            info.setReturnValue("NQ1'G:aD\uADF9zBvZT+?J6Sl'/H\u225D.C\u6C04R+z9o_,sY^_$_ Ook57MLvSZY`\u4405v\u604CCR/6\u1353\u8C06Rl'\u363E\u1C33\uFDB6'\uA67DyGr-g\"Oi*QL@SOX6\u7F2AGY2!TUL1v");
+    private void getSerializedName_2024405895(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2024405895L))
+            info.setReturnValue("Y',f\uB718\uA142.i1+s1`xj2t0\uD1E9\u293Ci2pHOa_uQj\"O=3'C\u6CB0T\u7C8Dpb-0\uD6D4Uv\u6A7C|C*_?Dhf?\u5AFBL@\uC95F\u24149#NHP\u4792[c'Ru{gT+-z{=o6IH");
     }
 
 

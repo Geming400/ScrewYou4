@@ -8,33 +8,33 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.ChatFormatting.class)
 public class ChatFormatting_905681885Mixin {
         @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__229778587(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-229778587L))
-            info.setReturnValue("zkJeOH{BBg`4\u77E3\u812Ev!\uD72A3M4\u3AE1`\u9C1C\u0273}9B@i\u86134z\uCBF8KDctPi\u1464VcE3c");
+    private void toString_1676104913(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1676104913L))
+            info.setReturnValue("1{+SWx]'[?zBwxii\u01191u\uAD700hm\u59E1vGF:h/-,EIN\u5DF7*qVj.r.2i=Z>$7L4u,/");
     }
 
     @Inject(at = @At("HEAD"), method = "values()[Lnet/minecraft/ChatFormatting;", cancellable = true)
-    private static void values__1277155062(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1277155062L))
+    private static void values__925701976(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-925701976L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/ChatFormatting;", cancellable = true)
-    private static void valueOf_453791431(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(453791431L))
-            info.setReturnValue(net.minecraft.ChatFormatting.DARK_GREEN);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getByCode(C)Lnet/minecraft/ChatFormatting;", cancellable = true)
-    private static void getByCode_1425497086(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1425497086L))
-            info.setReturnValue(net.minecraft.ChatFormatting.ITALIC);
+    private static void valueOf_1058704879(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1058704879L))
+            info.setReturnValue(net.minecraft.ChatFormatting.BOLD);
     }
 
     @Inject(at = @At("HEAD"), method = "stripFormatting(Ljava/lang/String;)Ljava/lang/String;", cancellable = true)
-    private static void stripFormatting_2118423955(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2118423955L))
-            info.setReturnValue("\u20AA8Q\u5438Z:?D}4k\u9066,77\u9097\uD1C3 u:\u3373]rM 7\u042F4)\"bLP,");
+    private static void stripFormatting_952651056(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(952651056L))
+            info.setReturnValue("(ns\u5A0E8Uf/3)IITG\u4F4Emu\"%:Cv]T\u9280p=k\u54D61)\u7938G\u19538\u3AE7 kb\u0C25X\u03B9K$VE%=\uCF8DKJ\u1974\u1B9EaGg\u5E94&Xu2\u527EzY}D&UKDKJ>ou");
+    }
+
+    @Inject(at = @At("HEAD"), method = "getByCode(C)Lnet/minecraft/ChatFormatting;", cancellable = true)
+    private static void getByCode_1439100900(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1439100900L))
+            info.setReturnValue(net.minecraft.ChatFormatting.WHITE);
     }
 
 

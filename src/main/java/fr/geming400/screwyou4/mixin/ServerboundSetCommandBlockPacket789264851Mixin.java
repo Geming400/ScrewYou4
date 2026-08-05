@@ -8,57 +8,57 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.network.protocol.game.ServerboundSetCommandBlockPacket.class)
 public class ServerboundSetCommandBlockPacket789264851Mixin {
         @Inject(at = @At("HEAD"), method = "type()Lnet/minecraft/network/protocol/PacketType;", cancellable = true)
-    private void type__889760237(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-889760237L))
+    private void type_945132441(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(945132441L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "isAutomatic()Z", cancellable = true)
-    private void isAutomatic_827543434(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(827543434L))
+    private void isAutomatic_422332425(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(422332425L))
             info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/protocol/game/ServerGamePacketListener;)V", cancellable = true)
-    private void handle__1079357143(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1079357143L))
+    private void handle_1426625025(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1426625025L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/PacketListener;)V", cancellable = true)
-    private void handle_1467333764(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1467333764L))
+    private void handle_493552988(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(493552988L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "getMode()Lnet/minecraft/world/level/block/entity/CommandBlockEntity$Mode;", cancellable = true)
-    private void getMode__1549408467(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1549408467L))
-            info.setReturnValue(net.minecraft.world.level.block.entity.CommandBlockEntity.Mode.AUTO);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isTrackOutput()Z", cancellable = true)
-    private void isTrackOutput_827543434(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(827543434L))
-            info.setReturnValue(true);
+    private void getMode_737053894(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(737053894L))
+            info.setReturnValue(net.minecraft.world.level.block.entity.CommandBlockEntity.Mode.REDSTONE);
     }
 
     @Inject(at = @At("HEAD"), method = "getPos()Lnet/minecraft/core/BlockPos;", cancellable = true)
-    private void getPos__1104122028(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1104122028L))
+    private void getPos_1278830582(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1278830582L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "isConditional()Z", cancellable = true)
-    private void isConditional_827543434(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(827543434L))
+    @Inject(at = @At("HEAD"), method = "isTrackOutput()Z", cancellable = true)
+    private void isTrackOutput_1255405096(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1255405096L))
             info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "getCommand()Ljava/lang/String;", cancellable = true)
-    private void getCommand__346195620(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-346195620L))
-            info.setReturnValue("/8Nu(XTKx\u5AC1't3\u8571]Bx");
+    private void getCommand_181135025(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(181135025L))
+            info.setReturnValue("E2B|7:\uC419c+i( =N_+mV\uB2A6'uE.9U<U+O\u1DA65uPl\uB767l$\uD0B0QF*e\u2EC7g4tzX\u44A7DG'c=9V%K$T,(\u5DA1dr;l,]L0Pfa2n6\u3220b`PJ5s");
+    }
+
+    @Inject(at = @At("HEAD"), method = "isConditional()Z", cancellable = true)
+    private void isConditional__959081970(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-959081970L))
+            info.setReturnValue(false);
     }
 
 

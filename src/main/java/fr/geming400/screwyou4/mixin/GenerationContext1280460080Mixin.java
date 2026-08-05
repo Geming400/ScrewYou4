@@ -8,80 +8,80 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.level.levelgen.structure.Structure.GenerationContext.class)
 public class GenerationContext1280460080Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals__1628994957(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1628994957L))
-            info.setReturnValue(true);
+    private void equals_371833812(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(371833812L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString_145000105(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(145000105L))
-            info.setReturnValue("V\u8107@RCHnD3mymi KX\",gU\u1ECF0\u953B^\u8D50OW'0>\u8BD1IBX\u5CF4\u14C8\u25D0,\u692EqKpm&z'\uC52Ad`a%EqJ\u7AFE:sn\uD2FE E-\u9943o=\u361B\u955A+");
+    private void toString_2050883605(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2050883605L))
+            info.setReturnValue("Qc#6Z");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_1318722822(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1318722822L))
-            info.setReturnValue(1935900567);
+    private void hashCode_1837812171(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1837812171L))
+            info.setReturnValue(765760157);
     }
 
     @Inject(at = @At("HEAD"), method = "seed()J", cancellable = true)
-    private void seed_1318723287(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1318723287L))
-            info.setReturnValue(3974986971907493593L);
+    private void seed_1856548614(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1856548614L))
+            info.setReturnValue(4935628174917160818L);
     }
 
     @Inject(at = @At("HEAD"), method = "random()Lnet/minecraft/world/level/levelgen/WorldgenRandom;", cancellable = true)
-    private void random__304376436(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-304376436L))
+    private void random_1203327337(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1203327337L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "chunkPos()Lnet/minecraft/world/level/ChunkPos;", cancellable = true)
-    private void chunkPos_391361243(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(391361243L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "biomeSource()Lnet/minecraft/world/level/biome/BiomeSource;", cancellable = true)
-    private void biomeSource__1270380508(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1270380508L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "heightAccessor()Lnet/minecraft/world/level/LevelHeightAccessor;", cancellable = true)
-    private void heightAccessor_1317680478(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1317680478L))
+    private void chunkPos__585161598(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-585161598L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "validBiome()Ljava/util/function/Predicate;", cancellable = true)
-    private void validBiome_630575102(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(630575102L))
+    private void validBiome_96785666(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(96785666L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "registryAccess()Lnet/minecraft/core/RegistryAccess;", cancellable = true)
-    private void registryAccess_1289936823(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1289936823L))
+    private void registryAccess_225566870(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(225566870L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "randomState()Lnet/minecraft/world/level/levelgen/RandomState;", cancellable = true)
-    private void randomState_1840904823(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1840904823L))
+    private void randomState__1203347195(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1203347195L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "biomeSource()Lnet/minecraft/world/level/biome/BiomeSource;", cancellable = true)
+    private void biomeSource__1764335447(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1764335447L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "chunkGenerator()Lnet/minecraft/world/level/chunk/ChunkGenerator;", cancellable = true)
-    private void chunkGenerator__516532326(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-516532326L))
+    private void chunkGenerator__418851968(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-418851968L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "structureTemplateManager()Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplateManager;", cancellable = true)
-    private void structureTemplateManager__890697253(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-890697253L))
+    private void structureTemplateManager__1599322693(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1599322693L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "heightAccessor()Lnet/minecraft/world/level/LevelHeightAccessor;", cancellable = true)
+    private void heightAccessor_2009202192(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2009202192L))
             info.setReturnValue(null);
     }
 

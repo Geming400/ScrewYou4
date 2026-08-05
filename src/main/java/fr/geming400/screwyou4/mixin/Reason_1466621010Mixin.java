@@ -8,15 +8,15 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.gui.screens.LevelLoadingScreen.Reason.class)
 public class Reason_1466621010Mixin {
         @Inject(at = @At("HEAD"), method = "values()[Lnet/minecraft/client/gui/screens/LevelLoadingScreen$Reason;", cancellable = true)
-    private static void values_1099790840(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1099790840L))
+    private static void values_940806422(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(940806422L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/client/gui/screens/LevelLoadingScreen$Reason;", cancellable = true)
-    private static void valueOf__393824523(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-393824523L))
-            info.setReturnValue(net.minecraft.client.gui.screens.LevelLoadingScreen.Reason.NETHER_PORTAL);
+    private static void valueOf__1917059043(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1917059043L))
+            info.setReturnValue(net.minecraft.client.gui.screens.LevelLoadingScreen.Reason.OTHER);
     }
 
 

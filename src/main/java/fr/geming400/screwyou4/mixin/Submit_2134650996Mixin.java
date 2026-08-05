@@ -8,51 +8,51 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.renderer.feature.MovingBlockFeatureRenderer.Submit.class)
 public class Submit_2134650996Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals__774804042(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-774804042L))
+    private void equals_1226024727(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1226024727L))
             info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString_999191020(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(999191020L))
-            info.setReturnValue("6\uA1F0lU\u8985DM?5\u237E5(&\uB9DE\">Hn0aryP$hI#B\u317D'JgO?evAO\u37CDd.f\u4AE0K#SIFAy\uC717[]]4V&rma<Ya\u7132e\uA2CA[Y\u51D8Sqga3\u7844|\u33F7(o% \u4035\u0E17G?$[\u349EJm=`oX\uAB91x!");
+    private void toString__1389892776(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1389892776L))
+            info.setReturnValue("T\u2057kn C29)u\uAB55\"I");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode__2122053559(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2122053559L))
-            info.setReturnValue(-1200711915);
+    private void hashCode__1602964210(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1602964210L))
+            info.setReturnValue(-1852892686);
     }
 
-    @Inject(at = @At("HEAD"), method = "featureType()Lnet/minecraft/client/renderer/feature/FeatureRendererType;", cancellable = true)
-    private void featureType__1129232775(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1129232775L))
+    @Inject(at = @At("HEAD"), method = "distanceToCameraSq()F", cancellable = true)
+    private void distanceToCameraSq__1364849373(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1364849373L))
+            info.setReturnValue(4.109514E8F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "pose()Lorg/joml/Matrix4fc;", cancellable = true)
+    private void pose_409473826(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(409473826L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "outlineColor()I", cancellable = true)
-    private void outlineColor__2122054055(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2122054055L))
-            info.setReturnValue(1721471306);
+    private void outlineColor_845149880(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(845149880L))
+            info.setReturnValue(1065517729);
     }
 
-    @Inject(at = @At("HEAD"), method = "pose()Lorg/joml/Matrix4fc;", cancellable = true)
-    private void pose__417342063(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-417342063L))
+    @Inject(at = @At("HEAD"), method = "featureType()Lnet/minecraft/client/renderer/feature/FeatureRendererType;", cancellable = true)
+    private void featureType_1942227241(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1942227241L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "distanceToCameraSq()F", cancellable = true)
-    private void distanceToCameraSq__2122056938(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2122056938L))
-            info.setReturnValue(7.912121E8F);
-    }
-
     @Inject(at = @At("HEAD"), method = "movingBlockRenderState()Lnet/minecraft/client/renderer/block/MovingBlockRenderState;", cancellable = true)
-    private void movingBlockRenderState_649497127(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(649497127L))
-            info.setReturnValue(new net.minecraft.client.renderer.block.MovingBlockRenderState());
+    private void movingBlockRenderState_1577833571(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1577833571L))
+            info.setReturnValue(null);
     }
 
 

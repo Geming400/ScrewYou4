@@ -8,9 +8,9 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.item.BannerItem.class)
 public class BannerItem_1840655093Mixin {
         @Inject(at = @At("HEAD"), method = "getColor()Lnet/minecraft/world/item/DyeColor;", cancellable = true)
-    private void getColor__1019003974(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1019003974L))
-            info.setReturnValue(net.minecraft.world.item.DyeColor.RED);
+    private void getColor__1826321043(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1826321043L))
+            info.setReturnValue(net.minecraft.world.item.DyeColor.GRAY);
     }
 
 

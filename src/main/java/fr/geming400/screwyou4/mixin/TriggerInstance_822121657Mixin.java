@@ -8,50 +8,50 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.advancements.triggers.ShotCrossbowTrigger.TriggerInstance.class)
 public class TriggerInstance_822121657Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals__2087333381(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2087333381L))
-            info.setReturnValue(false);
+    private void equals__86504612(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-86504612L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__313338319(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-313338319L))
-            info.setReturnValue("HME1Y>SPx\"Ku7=,\u9F5CpH\uC63A,3goU-QWl +zG1:|W\u408DRI:<x\u9425J\u6F6Ftl+LEW3^v|d'o`Lf Gk:xg\u6B73\u2B0C%i*(E)c&KzFc/l^C\u6331oV");
+    private void toString_1592545181(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1592545181L))
+            info.setReturnValue("9D'D\u4BE4?\u28F4.i2U*OC7J1(\uB2C4<<f\"',\uD331");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_860384398(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(860384398L))
-            info.setReturnValue(-778121569);
+    private void hashCode_1379473747(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1379473747L))
+            info.setReturnValue(-1906640565);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/world/item/ItemStack;)Z", cancellable = true)
-    private void matches__1738310508(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1738310508L))
+    private void matches__2103662399(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2103662399L))
             info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "item()Ljava/util/Optional;", cancellable = true)
-    private void item_1067583078(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1067583078L))
+    private void item_23607417(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(23607417L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "player()Ljava/util/Optional;", cancellable = true)
-    private void player_1067583078(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1067583078L))
+    private void player__408531385(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-408531385L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "shotCrossbow(Lnet/minecraft/core/HolderGetter;Lnet/minecraft/world/level/ItemLike;)Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
-    private static void shotCrossbow__183142644(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-183142644L))
+    private static void shotCrossbow__1777353296(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1777353296L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "shotCrossbow(Ljava/util/Optional;)Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
-    private static void shotCrossbow__436749042(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-436749042L))
+    private static void shotCrossbow_1127201258(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1127201258L))
             info.setReturnValue(null);
     }
 

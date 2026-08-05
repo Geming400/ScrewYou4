@@ -8,33 +8,33 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.entity.boss.enderdragon.DragonFlightHistory.Sample.class)
 public class Sample_475678411Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals_1861190669(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1861190669L))
-            info.setReturnValue(false);
+    private void equals__432947858(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-432947858L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__659781565(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-659781565L))
-            info.setReturnValue("Q;R)cb");
+    private void toString_1246101935(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1246101935L))
+            info.setReturnValue("^\u3305s:2|')nRGd ,,f\uC958\u1DA0@I9\u4DD3tM4-h\u5D7EiJKs\u36A0id5ycN'MoooS<h\u4D5D,Ij");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_513941152(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(513941152L))
-            info.setReturnValue(-45058856);
+    private void hashCode_1033030501(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1033030501L))
+            info.setReturnValue(1516757122);
     }
 
     @Inject(at = @At("HEAD"), method = "y()D", cancellable = true)
-    private void y_513935851(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(513935851L))
-            info.setReturnValue(7.973429005911074E8D);
+    private void y__316904174(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-316904174L))
+            info.setReturnValue(1.507461009859308E8D);
     }
 
     @Inject(at = @At("HEAD"), method = "yRot()F", cancellable = true)
-    private void yRot_513937773(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(513937773L))
-            info.setReturnValue(7.973429E8F);
+    private void yRot_786481551(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(786481551L))
+            info.setReturnValue(1.507461E8F);
     }
 
 

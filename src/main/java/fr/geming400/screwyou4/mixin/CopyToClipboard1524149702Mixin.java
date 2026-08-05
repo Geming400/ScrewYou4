@@ -8,32 +8,32 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.network.chat.ClickEvent.CopyToClipboard.class)
 public class CopyToClipboard1524149702Mixin {
         @Inject(at = @At("HEAD"), method = "value()Ljava/lang/String;", cancellable = true)
-    private void value_388689231(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(388689231L))
-            info.setReturnValue("}t\uC7E3n/5?8tAnxa3 \u9B09&>=\u0646P`iu}aI%)f8><sgp1kDzM!i`z\uA098r\u8CB24J}NMIZ-\uCFAB1Sm");
+    private void value_1820943360(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1820943360L))
+            info.setReturnValue("r");
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals__1385305335(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1385305335L))
-            info.setReturnValue(true);
+    private void equals_615523434(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(615523434L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString_388689727(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(388689727L))
-            info.setReturnValue("x:\uAE1B%B5\u3C7FgD-alk\uD11B#\uB74E");
+    private void toString__2000394069(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2000394069L))
+            info.setReturnValue("m,\uA4EE&'af OT\u1E5A\uC739zP`%b_\"\uD753u\u4CE6Bqhc;=eq(!n?\"\u6248\u665F\u26E6DI?aY4\uB3BA=\uB336*GZUT1qE5'QY<\uC8CBN(V)>=Oq{UHvOi:Q\u4BE7{");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_1562412444(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1562412444L))
-            info.setReturnValue(-1443064039);
+    private void hashCode_2081501793(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2081501793L))
+            info.setReturnValue(-1280808086);
     }
 
     @Inject(at = @At("HEAD"), method = "action()Lnet/minecraft/network/chat/ClickEvent$Action;", cancellable = true)
-    private void action_1183753006(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1183753006L))
+    private void action_1610278884(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1610278884L))
             info.setReturnValue(net.minecraft.network.chat.ClickEvent.Action.OPEN_URL);
     }
 

@@ -8,26 +8,26 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.entity.Display.BlockDisplay.BlockRenderState.class)
 public class BlockRenderState_1418969723Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals__1490485315(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1490485315L))
+    private void equals_510343454(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(510343454L))
             info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString_283509747(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(283509747L))
-            info.setReturnValue("s[hdp)SAqrd\u9C38,0t");
+    private void toString__2105574049(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2105574049L))
+            info.setReturnValue("@d,bz{`q|@arl8S^\uBD00E\u8103-(\u2710ZYa{['G\u6460BP\u7DE9YX'\u9DE2");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_1457232464(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1457232464L))
-            info.setReturnValue(1146103606);
+    private void hashCode_1976321813(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1976321813L))
+            info.setReturnValue(1805895274);
     }
 
     @Inject(at = @At("HEAD"), method = "blockState()Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
-    private void blockState__876789144(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-876789144L))
+    private void blockState_837580652(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(837580652L))
             info.setReturnValue(null);
     }
 

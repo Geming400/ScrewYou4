@@ -8,63 +8,63 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.InteractionResult.Success.class)
 public class Success992268536Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals__1917186501(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1917186501L))
+    private void equals_83642268(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(83642268L))
             info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__143191439(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-143191439L))
-            info.setReturnValue("\u0D38]`[=ZIMuIi,\u2F33[}U3\u4C7E$]n8H)Auw\u8B31Ufw\u3525!V^3f'k@fx}>u#j7K8:\uD5A4g%8DK .\u518A:)\u66D4");
+    private void toString_1762692061(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1762692061L))
+            info.setReturnValue("\u3233]P`.\u048F\u06ABX-Rf3g Sj8{\u9DCBb\uAEB3;>i\u0ECEyx}vYoiN\u2C34@sJ\uA5D0L2t|2m \u3FEATG#sJx*](\u1D86Fm");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_1030531278(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1030531278L))
-            info.setReturnValue(-546993905);
-    }
-
-    @Inject(at = @At("HEAD"), method = "consumesAction()Z", cancellable = true)
-    private void consumesAction_1030547119(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1030547119L))
-            info.setReturnValue(false);
+    private void hashCode_1549620627(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1549620627L))
+            info.setReturnValue(383479819);
     }
 
     @Inject(at = @At("HEAD"), method = "withoutItem()Lnet/minecraft/world/InteractionResult$Success;", cancellable = true)
-    private void withoutItem_706227423(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(706227423L))
+    private void withoutItem__1075421948(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1075421948L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "swingSource()Lnet/minecraft/world/InteractionResult$SwingSource;", cancellable = true)
-    private void swingSource_334232553(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(334232553L))
-            info.setReturnValue(net.minecraft.world.InteractionResult.SwingSource.SERVER);
+    @Inject(at = @At("HEAD"), method = "consumesAction()Z", cancellable = true)
+    private void consumesAction__2035700286(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2035700286L))
+            info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "itemContext()Lnet/minecraft/world/InteractionResult$ItemContext;", cancellable = true)
-    private void itemContext__311536986(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-311536986L))
+    @Inject(at = @At("HEAD"), method = "heldItemTransformedTo(Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/world/InteractionResult$Success;", cancellable = true)
+    private void heldItemTransformedTo_1739673254(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1739673254L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "heldItemTransformedTo()Lnet/minecraft/world/item/ItemStack;", cancellable = true)
-    private void heldItemTransformedTo_1515687196(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1515687196L))
+    private void heldItemTransformedTo_2109785338(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2109785338L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "heldItemTransformedTo(Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/world/InteractionResult$Success;", cancellable = true)
-    private void heldItemTransformedTo__541391292(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-541391292L))
+    @Inject(at = @At("HEAD"), method = "itemContext()Lnet/minecraft/world/InteractionResult$ItemContext;", cancellable = true)
+    private void itemContext__688440310(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-688440310L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "wasItemInteraction()Z", cancellable = true)
-    private void wasItemInteraction_1030547119(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1030547119L))
+    private void wasItemInteraction__1489322599(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1489322599L))
             info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "swingSource()Lnet/minecraft/world/InteractionResult$SwingSource;", cancellable = true)
+    private void swingSource__2063826160(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2063826160L))
+            info.setReturnValue(net.minecraft.world.InteractionResult.SwingSource.SERVER);
     }
 
 

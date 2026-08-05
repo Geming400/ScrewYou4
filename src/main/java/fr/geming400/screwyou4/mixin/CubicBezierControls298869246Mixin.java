@@ -8,45 +8,45 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.util.EasingType.CubicBezierControls.class)
 public class CubicBezierControls298869246Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals_1684381505(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1684381505L))
+    private void equals__609757022(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-609757022L))
             info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__836590729(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-836590729L))
-            info.setReturnValue("6&sGL\"\u3792tC g\uAC39$(9xE=2$4R\u4C14t:\u6518a\uBD39\"z%V).pxN[zASf\u99BADa\u95CF\u3B7CW88Z](+ \"Iy)PrJ\u0159YK\u9883;7\"uVTo@-t\u8F7F\u5DA2F");
+    private void toString_1069292771(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1069292771L))
+            info.setReturnValue("4z*@Qch\u2976]t%;dA0!8:,k\"UYV-&=B=\u431F\u7C539eV_x<=\uC369BG8oBZ[sj{\u1022:V>/5g^sByBZN\u6EA4gG\u9BA60OyA\u1B10dW)C31X'`?x$(D");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_337131988(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(337131988L))
-            info.setReturnValue(374602159);
+    private void hashCode_856221337(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(856221337L))
+            info.setReturnValue(-2126378201);
     }
 
     @Inject(at = @At("HEAD"), method = "x1()F", cancellable = true)
-    private void x1_337128609(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(337128609L))
-            info.setReturnValue(2.20652E8F);
+    private void x1_866216328(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(866216328L))
+            info.setReturnValue(5.237922E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "x2()F", cancellable = true)
-    private void x2_337128609(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(337128609L))
-            info.setReturnValue(2.20652E8F);
+    private void x2_894845479(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(894845479L))
+            info.setReturnValue(5.237922E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "y1()F", cancellable = true)
-    private void y1_337128609(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(337128609L))
-            info.setReturnValue(2.20652E8F);
+    private void y1_1753720009(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1753720009L))
+            info.setReturnValue(5.237922E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "y2()F", cancellable = true)
-    private void y2_337128609(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(337128609L))
-            info.setReturnValue(2.20652E8F);
+    private void y2_1782349160(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1782349160L))
+            info.setReturnValue(5.237922E8F);
     }
 
 

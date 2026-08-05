@@ -8,8 +8,8 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.data.loot.packs.TradeRebalanceLootTableProvider.class)
 public class TradeRebalanceLootTableProvider_11930396Mixin {
         @Inject(at = @At("HEAD"), method = "create(Lnet/minecraft/data/PackOutput;Ljava/util/concurrent/CompletableFuture;)Lnet/minecraft/data/loot/LootTableProvider;", cancellable = true)
-    private static void create_291009280(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(291009280L))
+    private static void create__34857220(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-34857220L))
             info.setReturnValue(null);
     }
 

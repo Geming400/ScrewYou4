@@ -8,57 +8,57 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.gametest.framework.RetryOptions.class)
 public class RetryOptions1076360264Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals__1833094773(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1833094773L))
+    private void equals_167733996(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(167733996L))
             info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__59099711(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-59099711L))
-            info.setReturnValue("\u24E6\uBF9Ex{|N?eP)\u11E0B\u45D7y!J!20r56! \u7860\"_^kzs\u58B9!glt nTZ[fx\uD032k/\u3524c\u0988tX");
+    private void toString_1846783789(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1846783789L))
+            info.setReturnValue("Y6,0\u514BoMwk8sQi1)\"?T\u5040\u4D70h\u810D;b5CgMuaie\uFC14EV\u23EBE{\uAA9Ai!jZ\uD60A{0pr;OgyB_S.'I\u5727XogG,Mmx");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_1114623006(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1114623006L))
-            info.setReturnValue(353397580);
-    }
-
-    @Inject(at = @At("HEAD"), method = "numberOfTries()I", cancellable = true)
-    private void numberOfTries_1114622510(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1114622510L))
-            info.setReturnValue(531921070);
-    }
-
-    @Inject(at = @At("HEAD"), method = "hasRetries()Z", cancellable = true)
-    private void hasRetries_1114638847(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1114638847L))
-            info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "unlimitedTries()Z", cancellable = true)
-    private void unlimitedTries_1114638847(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1114638847L))
-            info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "haltOnFailure()Z", cancellable = true)
-    private void haltOnFailure_1114638847(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1114638847L))
-            info.setReturnValue(false);
+    private void hashCode_1633712355(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1633712355L))
+            info.setReturnValue(-512198057);
     }
 
     @Inject(at = @At("HEAD"), method = "hasTriesLeft(II)Z", cancellable = true)
-    private void hasTriesLeft_80484639(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(80484639L))
+    private void hasTriesLeft_1036854425(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1036854425L))
             info.setReturnValue(true);
     }
 
+    @Inject(at = @At("HEAD"), method = "unlimitedTries()Z", cancellable = true)
+    private void unlimitedTries__575987257(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-575987257L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "haltOnFailure()Z", cancellable = true)
+    private void haltOnFailure__1211674411(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1211674411L))
+            info.setReturnValue(false);
+    }
+
     @Inject(at = @At("HEAD"), method = "noRetries()Lnet/minecraft/gametest/framework/RetryOptions;", cancellable = true)
-    private static void noRetries_215215078(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(215215078L))
+    private static void noRetries__762716287(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-762716287L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "numberOfTries()I", cancellable = true)
+    private void numberOfTries_2057758037(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2057758037L))
+            info.setReturnValue(-601538525);
+    }
+
+    @Inject(at = @At("HEAD"), method = "hasRetries()Z", cancellable = true)
+    private void hasRetries__1463235533(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1463235533L))
+            info.setReturnValue(false);
     }
 
 

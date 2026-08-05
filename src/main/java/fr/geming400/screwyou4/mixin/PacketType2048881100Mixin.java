@@ -8,32 +8,32 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.network.protocol.PacketType.class)
 public class PacketType2048881100Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals__860573937(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-860573937L))
+    private void equals_1140254832(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1140254832L))
             info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString_913420629(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(913420629L))
-            info.setReturnValue("\u5DCD<=Xh'\u51C2M\u21E1");
+    private void toString__1475663167(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1475663167L))
+            info.setReturnValue("jlBq[\"DCx`IB\u211F\u93CFq\u65F8@pO\uD09F>]>\u9696[Wm3!KN:G+HpA3DUNFFH\u716Bb5Xacx;\uD7942");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_2087143842(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2087143842L))
-            info.setReturnValue(-1812716951);
+    private void hashCode__1688734105(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1688734105L))
+            info.setReturnValue(-1339185094);
     }
 
     @Inject(at = @At("HEAD"), method = "id()Lnet/minecraft/resources/Identifier;", cancellable = true)
-    private void id__394185453(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-394185453L))
+    private void id__543896786(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-543896786L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "flow()Lnet/minecraft/network/protocol/PacketFlow;", cancellable = true)
-    private void flow_457140120(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(457140120L))
+    private void flow__1575330646(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1575330646L))
             info.setReturnValue(net.minecraft.network.protocol.PacketFlow.CLIENTBOUND);
     }
 

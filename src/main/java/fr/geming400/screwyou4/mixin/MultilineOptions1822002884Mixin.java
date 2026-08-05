@@ -8,32 +8,32 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.server.dialog.input.TextInput.MultilineOptions.class)
 public class MultilineOptions1822002884Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals__1087452153(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1087452153L))
+    private void equals_913376616(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(913376616L))
             info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString_686542909(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(686542909L))
-            info.setReturnValue("d^\u1F68nl\uFF3DI%\u9BA316; AL*Q\u0781%9c\u4A45B**Yr*d\uD5B2\u86AD\u6EEBk\u9139UIUcSh&!O\u67D7F:");
+    private void toString__1702540887(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1702540887L))
+            info.setReturnValue("\u3CE0G\u284E]c(W6}F@T+&MS7zn$Nf$\u17D2");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_1860265626(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1860265626L))
-            info.setReturnValue(-1369158675);
+    private void hashCode__1915612321(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1915612321L))
+            info.setReturnValue(166075333);
     }
 
     @Inject(at = @At("HEAD"), method = "maxLines()Ljava/util/Optional;", cancellable = true)
-    private void maxLines_2067464306(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2067464306L))
+    private void maxLines_2074343277(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2074343277L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "height()Ljava/util/Optional;", cancellable = true)
-    private void height_2067464306(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2067464306L))
+    private void height__1989391207(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1989391207L))
             info.setReturnValue(null);
     }
 

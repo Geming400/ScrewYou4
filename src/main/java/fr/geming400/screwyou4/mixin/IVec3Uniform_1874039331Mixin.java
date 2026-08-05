@@ -8,44 +8,44 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.renderer.UniformValue.IVec3Uniform.class)
 public class IVec3Uniform_1874039331Mixin {
         @Inject(at = @At("HEAD"), method = "type()Lnet/minecraft/client/renderer/UniformValue$Type;", cancellable = true)
-    private void type__773467103(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-773467103L))
-            info.setReturnValue(net.minecraft.client.renderer.UniformValue.Type.VEC2);
+    private void type__848997081(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-848997081L))
+            info.setReturnValue(net.minecraft.client.renderer.UniformValue.Type.FLOAT);
     }
 
     @Inject(at = @At("HEAD"), method = "value()Lorg/joml/Vector3ic;", cancellable = true)
-    private void value__1872212698(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1872212698L))
+    private void value_134470551(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(134470551L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals__1035415707(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1035415707L))
+    private void equals_965413062(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(965413062L))
             info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString_738579355(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(738579355L))
-            info.setReturnValue("^0\u287EwN$PM U'>Mx\u4772{JhB5C<PJaS/q\u6197QuJ^oJ:\u09E3I&E0mpRH");
+    private void toString__1650504441(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1650504441L))
+            info.setReturnValue("%W\uA644N7Mc\u1FE68l6|");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_1912302072(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1912302072L))
-            info.setReturnValue(-396792848);
+    private void hashCode__1863575875(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1863575875L))
+            info.setReturnValue(1623617037);
     }
 
     @Inject(at = @At("HEAD"), method = "writeTo(Lcom/mojang/blaze3d/buffers/Std140Builder;)V", cancellable = true)
-    private void writeTo__353576678(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-353576678L))
+    private void writeTo__1700147424(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1700147424L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "addSize(Lcom/mojang/blaze3d/buffers/Std140SizeCalculator;)V", cancellable = true)
-    private void addSize__416717224(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-416717224L))
+    private void addSize_1794766106(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1794766106L))
             info.cancel();
     }
 

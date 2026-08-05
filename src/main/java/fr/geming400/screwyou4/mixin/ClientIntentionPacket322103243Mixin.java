@@ -8,69 +8,69 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.network.protocol.handshake.ClientIntentionPacket.class)
 public class ClientIntentionPacket322103243Mixin {
         @Inject(at = @At("HEAD"), method = "type()Lnet/minecraft/network/protocol/PacketType;", cancellable = true)
-    private void type__1356921845(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1356921845L))
+    private void type_477970833(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(477970833L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals_1707615502(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1707615502L))
-            info.setReturnValue(false);
+    private void equals__586523025(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-586523025L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__813356732(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-813356732L))
-            info.setReturnValue("wG\uCE93NF<\u43E2Si:");
+    private void toString_1092526768(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1092526768L))
+            info.setReturnValue("<wW\uC6D1E\u21A5 ]Y.Zp");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_360365985(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(360365985L))
-            info.setReturnValue(800850865);
+    private void hashCode_879455334(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(879455334L))
+            info.setReturnValue(-971023497);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/protocol/handshake/ServerHandshakePacketListener;)V", cancellable = true)
-    private void handle_1200032727(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1200032727L))
+    private void handle_218898095(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(218898095L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/PacketListener;)V", cancellable = true)
-    private void handle_1000172156(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1000172156L))
+    private void handle_26391380(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(26391380L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "port()I", cancellable = true)
-    private void port_360365489(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(360365489L))
-            info.setReturnValue(1003998284);
+    private void port_1384533456(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1384533456L))
+            info.setReturnValue(1316930954);
     }
 
     @Inject(at = @At("HEAD"), method = "protocolVersion()I", cancellable = true)
-    private void protocolVersion_360365489(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(360365489L))
-            info.setReturnValue(1003998284);
+    private void protocolVersion__450189679(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-450189679L))
+            info.setReturnValue(491712436);
     }
 
     @Inject(at = @At("HEAD"), method = "isTerminal()Z", cancellable = true)
-    private void isTerminal_360381826(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(360381826L))
-            info.setReturnValue(true);
+    private void isTerminal_984018812(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(984018812L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "hostName()Ljava/lang/String;", cancellable = true)
-    private void hostName__813357228(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-813357228L))
-            info.setReturnValue("`c*><EZG\u2A91m$RjG0`p\uCF45\u1C76`\uA6D7\uCD97{8VvqB`&ap|]\u8E91}427_<+\uCE08<\u1051FzF!?K17dH5@^g( tfWhHcW&uk|");
+    private void hostName_1588635495(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1588635495L))
+            info.setReturnValue("OrP");
     }
 
     @Inject(at = @At("HEAD"), method = "intention()Lnet/minecraft/network/protocol/handshake/ClientIntent;", cancellable = true)
-    private void intention__158592018(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-158592018L))
-            info.setReturnValue(net.minecraft.network.protocol.handshake.ClientIntent.TRANSFER);
+    private void intention_1037378690(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1037378690L))
+            info.setReturnValue(net.minecraft.network.protocol.handshake.ClientIntent.LOGIN);
     }
 
 

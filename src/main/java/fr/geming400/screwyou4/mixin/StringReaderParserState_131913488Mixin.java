@@ -8,26 +8,26 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.util.parsing.packrat.commands.StringReaderParserState.class)
 public class StringReaderParserState_131913488Mixin {
         @Inject(at = @At("HEAD"), method = "input()Ljava/lang/Object;", cancellable = true)
-    private void input_1991234666(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1991234666L))
+    private void input_1688393908(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1688393908L))
             info.setReturnValue(new java.lang.Object());
     }
 
     @Inject(at = @At("HEAD"), method = "input()Lcom/mojang/brigadier/StringReader;", cancellable = true)
-    private void input__1733987322(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1733987322L))
+    private void input_147213564(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(147213564L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "mark()I", cancellable = true)
-    private void mark_170175733(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(170175733L))
-            info.setReturnValue(-940157056);
+    private void mark__860430776(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-860430776L))
+            info.setReturnValue(157001191);
     }
 
     @Inject(at = @At("HEAD"), method = "restore(I)V", cancellable = true)
-    private void restore_1345830459(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1345830459L))
+    private void restore__1905136055(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1905136055L))
             info.cancel();
     }
 

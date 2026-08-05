@@ -8,32 +8,32 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.commands.CommandSigningContext.SignedArguments.class)
 public class SignedArguments_101730603Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals_1487242861(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1487242861L))
-            info.setReturnValue(false);
+    private void equals__806895666(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-806895666L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__1033729373(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1033729373L))
-            info.setReturnValue("QX\u5F3C}\u5673\u2198a4@E\uA0F1p,R\u9346sQW+t7G@-9WX\uC6BE(>l2`M\uAA72W\u7402(,lkE\u01751$ME\u4E84F\u9AE3f\u937E;RU\u4309_I#)P1UX(/SK8!;a@|");
+    private void toString_872154127(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(872154127L))
+            info.setReturnValue("\u41AB\uCF31ON n-L_Bu+G*\uA740`#gKmV=\uAE07'x\u10AC.Y071K]A1kXR\u8393yTw UB0\u2B2BgNuDp+XpY>CPRzDR}&=U@CwZ{ ");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_139993344(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(139993344L))
-            info.setReturnValue(-199587928);
+    private void hashCode_659082693(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(659082693L))
+            info.setReturnValue(-1127644949);
     }
 
     @Inject(at = @At("HEAD"), method = "arguments()Ljava/util/Map;", cancellable = true)
-    private void arguments__1902893038(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1902893038L))
+    private void arguments__1625746692(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1625746692L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getArgument(Ljava/lang/String;)Lnet/minecraft/network/chat/PlayerChatMessage;", cancellable = true)
-    private void getArgument__1343733150(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1343733150L))
+    private void getArgument_389248277(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(389248277L))
             info.setReturnValue(null);
     }
 

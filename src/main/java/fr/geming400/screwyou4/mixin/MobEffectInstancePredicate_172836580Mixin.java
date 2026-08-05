@@ -8,50 +8,50 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.advancements.predicates.MobEffectsPredicate.MobEffectInstancePredicate.class)
 public class MobEffectInstancePredicate_172836580Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals_1558348838(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1558348838L))
+    private void equals__735789689(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-735789689L))
             info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__962623396(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-962623396L))
-            info.setReturnValue("5K/7gskz<U@\u0493a5CT5\u0654RUe 7\u5B64\uAD67iO\u03C7zw)jjLr[4&WK%,yy\u1D93NOSuPR%Xcf!\u730AE\u2358HdB0VMdV\u178D|V\u967Fo$%fr,[..\u31AC");
+    private void toString_943260104(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(943260104L))
+            info.setReturnValue("{TbvtM@C=.js\u6D49gd\u6566E[:(OSq5eOL\u9CC3;!\u9C37qBd(jFPI\u2E46#n DUrv\u72C6C72v\u4C77\"C\u7297dQ;A?X*@dI\u8291\uABD0m'YUUW");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_211099321(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(211099321L))
-            info.setReturnValue(97652773);
+    private void hashCode_730188670(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(730188670L))
+            info.setReturnValue(-732371541);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/world/effect/MobEffectInstance;)Z", cancellable = true)
-    private void matches_328708656(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(328708656L))
-            info.setReturnValue(false);
+    private void matches__981644771(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-981644771L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "duration()Lnet/minecraft/advancements/predicates/MinMaxBounds$Ints;", cancellable = true)
-    private void duration_21601521(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(21601521L))
+    private void duration_976287709(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(976287709L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "visible()Ljava/util/Optional;", cancellable = true)
-    private void visible_418298001(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(418298001L))
+    private void visible_930280195(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(930280195L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "amplifier()Lnet/minecraft/advancements/predicates/MinMaxBounds$Ints;", cancellable = true)
-    private void amplifier_21601521(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(21601521L))
+    private void amplifier__322498528(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-322498528L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "ambient()Ljava/util/Optional;", cancellable = true)
-    private void ambient_418298001(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(418298001L))
+    private void ambient_859398953(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(859398953L))
             info.setReturnValue(null);
     }
 

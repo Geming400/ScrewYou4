@@ -8,15 +8,15 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.renderer.entity.MinecartRenderer.class)
 public class MinecartRenderer_1022369206Mixin {
         @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/MinecartRenderState;", cancellable = true)
-    private void createRenderState_1438258729(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1438258729L))
+    private void createRenderState__1333626712(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1333626712L))
             info.setReturnValue(new net.minecraft.client.renderer.entity.state.MinecartRenderState());
     }
 
     @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/EntityRenderState;", cancellable = true)
-    private void createRenderState_433732761(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(433732761L))
-            info.setReturnValue(new net.minecraft.client.renderer.entity.state.EntityRenderState());
+    private void createRenderState_1275540184(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1275540184L))
+            info.setReturnValue(null);
     }
 
 

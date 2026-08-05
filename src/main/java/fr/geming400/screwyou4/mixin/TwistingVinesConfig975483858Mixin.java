@@ -8,39 +8,39 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.level.levelgen.feature.configurations.TwistingVinesConfig.class)
 public class TwistingVinesConfig975483858Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals__1933971179(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1933971179L))
-            info.setReturnValue(false);
+    private void equals_66857590(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(66857590L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__159976117(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-159976117L))
-            info.setReturnValue("ap_u1JC\u5C454\uACB8\u2AED^bY^k'\u35E9{%-&+");
+    private void toString_1745907383(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1745907383L))
+            info.setReturnValue("}e\uFED3+\uBFA8");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_1013746600(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1013746600L))
-            info.setReturnValue(-726556631);
+    private void hashCode_1532835949(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1532835949L))
+            info.setReturnValue(-536207313);
     }
 
     @Inject(at = @At("HEAD"), method = "maxHeight()I", cancellable = true)
-    private void maxHeight_1013746104(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1013746104L))
-            info.setReturnValue(-523409212);
+    private void maxHeight__2093542163(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2093542163L))
+            info.setReturnValue(11064685);
     }
 
     @Inject(at = @At("HEAD"), method = "spreadWidth()I", cancellable = true)
-    private void spreadWidth_1013746104(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1013746104L))
-            info.setReturnValue(-523409212);
+    private void spreadWidth__1244405371(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1244405371L))
+            info.setReturnValue(-1146783304);
     }
 
     @Inject(at = @At("HEAD"), method = "spreadHeight()I", cancellable = true)
-    private void spreadHeight_1013746104(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1013746104L))
-            info.setReturnValue(-523409212);
+    private void spreadHeight__901973634(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-901973634L))
+            info.setReturnValue(92843252);
     }
 
 

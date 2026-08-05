@@ -8,464 +8,464 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.gui.GuiGraphicsExtractor.class)
 public class GuiGraphicsExtractor_1981563336Mixin {
         @Inject(at = @At("HEAD"), method = "map(Lnet/minecraft/client/renderer/state/MapRenderState;)V", cancellable = true)
-    private void map__1455373904(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1455373904L))
+    private void map_897256404(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(897256404L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "fill(IIIII)V", cancellable = true)
-    private void fill_513874611(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(513874611L))
+    private void fill_2771062(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(2771062L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "fill(Lcom/mojang/blaze3d/pipeline/RenderPipeline;Lnet/minecraft/client/gui/render/TextureSetup;IIII)V", cancellable = true)
-    private void fill__702136633(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-702136633L))
+    private void fill_1270389348(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1270389348L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "fill(Lcom/mojang/blaze3d/pipeline/RenderPipeline;IIIII)V", cancellable = true)
-    private void fill_1980548862(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1980548862L))
+    private void fill__121988031(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-121988031L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "text(Lnet/minecraft/client/gui/Font;Lnet/minecraft/util/FormattedCharSequence;III)V", cancellable = true)
-    private void text_1512135194(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1512135194L))
+    private void text__1015718771(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1015718771L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "text(Lnet/minecraft/client/gui/Font;Lnet/minecraft/network/chat/Component;IIIZ)V", cancellable = true)
-    private void text__862767421(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-862767421L))
+    private void text__848002768(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-848002768L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "text(Lnet/minecraft/client/gui/Font;Lnet/minecraft/network/chat/Component;III)V", cancellable = true)
-    private void text__1298168229(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1298168229L))
+    private void text__1436239282(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1436239282L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "text(Lnet/minecraft/client/gui/Font;Ljava/lang/String;III)V", cancellable = true)
-    private void text_129625509(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(129625509L))
+    private void text__1792255720(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1792255720L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "text(Lnet/minecraft/client/gui/Font;Ljava/lang/String;IIIZ)V", cancellable = true)
-    private void text_449165497(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(449165497L))
+    private void text_1000389542(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1000389542L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "text(Lnet/minecraft/client/gui/Font;Lnet/minecraft/util/FormattedCharSequence;IIIZ)V", cancellable = true)
-    private void text_357292772(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(357292772L))
+    private void text__696768815(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-696768815L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "item(Lnet/minecraft/world/item/ItemStack;II)V", cancellable = true)
-    private void item__999345025(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-999345025L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "item(Lnet/minecraft/world/item/ItemStack;III)V", cancellable = true)
-    private void item__204882546(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-204882546L))
+    private void item__37049460(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-37049460L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "item(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;III)V", cancellable = true)
-    private void item_947907806(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(947907806L))
+    private void item__1628879957(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1628879957L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "entity(Lnet/minecraft/client/renderer/entity/state/EntityRenderState;FLorg/joml/Vector3fc;Lorg/joml/Quaternionfc;Lorg/joml/Quaternionfc;IIII)V", cancellable = true)
-    private void entity__761467027(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-761467027L))
+    @Inject(at = @At("HEAD"), method = "item(Lnet/minecraft/world/item/ItemStack;III)V", cancellable = true)
+    private void item__438491103(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-438491103L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "setComponentTooltipForNextFrame(Lnet/minecraft/client/gui/Font;Ljava/util/List;IILnet/minecraft/resources/Identifier;)V", cancellable = true)
-    private void setComponentTooltipForNextFrame_1964070263(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1964070263L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "setComponentTooltipForNextFrame(Lnet/minecraft/client/gui/Font;Ljava/util/List;II)V", cancellable = true)
-    private void setComponentTooltipForNextFrame__1797632145(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1797632145L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "nextStratum()V", cancellable = true)
-    private void nextStratum_2019838074(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(2019838074L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "blurBeforeThisStratum()V", cancellable = true)
-    private void blurBeforeThisStratum_2019838074(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(2019838074L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "disableScissor()V", cancellable = true)
-    private void disableScissor_2019838074(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(2019838074L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "horizontalLine(IIII)V", cancellable = true)
-    private void horizontalLine__699064646(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-699064646L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "verticalLine(IIII)V", cancellable = true)
-    private void verticalLine__699064646(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-699064646L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "fillGradient(IIIIII)V", cancellable = true)
-    private void fillGradient__539714086(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-539714086L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "enableScissor(IIII)V", cancellable = true)
-    private void enableScissor__699064646(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-699064646L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "applyCursor(Lcom/mojang/blaze3d/platform/Window;)V", cancellable = true)
-    private void applyCursor_1112300808(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1112300808L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "extractDeferredElements(IIF)V", cancellable = true)
-    private void extractDeferredElements_1198700368(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1198700368L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "centeredText(Lnet/minecraft/client/gui/Font;Lnet/minecraft/network/chat/Component;III)V", cancellable = true)
-    private void centeredText__1298168229(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1298168229L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "centeredText(Lnet/minecraft/client/gui/Font;Lnet/minecraft/util/FormattedCharSequence;III)V", cancellable = true)
-    private void centeredText_1512135194(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1512135194L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "centeredText(Lnet/minecraft/client/gui/Font;Ljava/lang/String;III)V", cancellable = true)
-    private void centeredText_129625509(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(129625509L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "bannerPattern(Lnet/minecraft/client/model/object/banner/BannerFlagModel;Lnet/minecraft/world/item/DyeColor;Lnet/minecraft/world/level/block/entity/BannerPatternLayers;IIII)V", cancellable = true)
-    private void bannerPattern_1009422723(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1009422723L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "setPreeditOverlay(Lnet/minecraft/client/gui/components/Renderable;)V", cancellable = true)
-    private void setPreeditOverlay_493227300(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(493227300L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "profilerChart(Ljava/util/List;IIII)V", cancellable = true)
-    private void profilerChart_692349163(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(692349163L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "itemDecorations(Lnet/minecraft/client/gui/Font;Lnet/minecraft/world/item/ItemStack;IILjava/lang/String;)V", cancellable = true)
-    private void itemDecorations_214721453(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(214721453L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "itemDecorations(Lnet/minecraft/client/gui/Font;Lnet/minecraft/world/item/ItemStack;II)V", cancellable = true)
-    private void itemDecorations_1964928995(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1964928995L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "textHighlight(IIIIZ)V", cancellable = true)
-    private void textHighlight_529574468(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(529574468L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "textWithWordWrap(Lnet/minecraft/client/gui/Font;Lnet/minecraft/network/chat/FormattedText;IIII)V", cancellable = true)
-    private void textWithWordWrap__749103962(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-749103962L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "textWithWordWrap(Lnet/minecraft/client/gui/Font;Lnet/minecraft/network/chat/FormattedText;IIIIZ)V", cancellable = true)
-    private void textWithWordWrap__1021644328(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1021644328L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "setTooltipForNextFrame(Lnet/minecraft/client/gui/Font;Ljava/util/List;II)V", cancellable = true)
-    private void setTooltipForNextFrame__1797632145(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1797632145L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "setTooltipForNextFrame(Ljava/util/List;II)V", cancellable = true)
-    private void setTooltipForNextFrame_1353611787(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1353611787L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "setTooltipForNextFrame(Lnet/minecraft/client/gui/Font;Ljava/util/List;IILnet/minecraft/resources/Identifier;)V", cancellable = true)
-    private void setTooltipForNextFrame_1964070263(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1964070263L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "setTooltipForNextFrame(Lnet/minecraft/client/gui/Font;Ljava/util/List;Lnet/minecraft/client/gui/screens/inventory/tooltip/ClientTooltipPositioner;IIZ)V", cancellable = true)
-    private void setTooltipForNextFrame_1636375075(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1636375075L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "setTooltipForNextFrame(Lnet/minecraft/client/gui/Font;Ljava/util/List;Ljava/util/Optional;IILnet/minecraft/resources/Identifier;)V", cancellable = true)
-    private void setTooltipForNextFrame__1846609690(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1846609690L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "setTooltipForNextFrame(Lnet/minecraft/client/gui/Font;Ljava/util/List;Ljava/util/Optional;Lnet/minecraft/client/gui/screens/inventory/tooltip/ClientTooltipPositioner;IIZLnet/minecraft/resources/Identifier;)V", cancellable = true)
-    private void setTooltipForNextFrame__898533604(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-898533604L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "setTooltipForNextFrame(Lnet/minecraft/client/gui/Font;Lnet/minecraft/network/chat/Component;II)V", cancellable = true)
-    private void setTooltipForNextFrame__2004443630(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-2004443630L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "setTooltipForNextFrame(Lnet/minecraft/client/gui/Font;Lnet/minecraft/network/chat/Component;IILnet/minecraft/resources/Identifier;)V", cancellable = true)
-    private void setTooltipForNextFrame__1458942310(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1458942310L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "setTooltipForNextFrame(Lnet/minecraft/client/gui/Font;Ljava/util/List;Ljava/util/Optional;II)V", cancellable = true)
-    private void setTooltipForNextFrame_789085790(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(789085790L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "setTooltipForNextFrame(Lnet/minecraft/client/gui/Font;Lnet/minecraft/world/item/ItemStack;II)V", cancellable = true)
-    private void setTooltipForNextFrame_1964928995(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1964928995L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "setTooltipForNextFrame(Lnet/minecraft/network/chat/Component;II)V", cancellable = true)
-    private void setTooltipForNextFrame_1186507694(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1186507694L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "textWithBackdrop(Lnet/minecraft/client/gui/Font;Lnet/minecraft/network/chat/Component;IIII)V", cancellable = true)
-    private void textWithBackdrop__878467278(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-878467278L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "textRenderer()Lnet/minecraft/client/gui/ActiveTextCollector;", cancellable = true)
-    private void textRenderer_71663903(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(71663903L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "textRenderer(Lnet/minecraft/client/gui/GuiGraphicsExtractor$HoveredTextEffects;)Lnet/minecraft/client/gui/ActiveTextCollector;", cancellable = true)
-    private void textRenderer_443766796(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(443766796L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "textRenderer(Lnet/minecraft/client/gui/GuiGraphicsExtractor$HoveredTextEffects;Ljava/util/function/Consumer;)Lnet/minecraft/client/gui/ActiveTextCollector;", cancellable = true)
-    private void textRenderer__340196376(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-340196376L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "pose()Lorg/joml/Matrix3x2fStack;", cancellable = true)
-    private void pose_2079126375(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2079126375L))
-            info.setReturnValue(new org.joml.Matrix3x2fStack());
-    }
-
-    @Inject(at = @At("HEAD"), method = "book(Lnet/minecraft/client/model/object/book/BookModel;Lnet/minecraft/resources/Identifier;FFFIIII)V", cancellable = true)
-    private void book__1838348019(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1838348019L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "skin(Lnet/minecraft/client/model/Model$Simple;Lnet/minecraft/resources/Identifier;FFFFIIII)V", cancellable = true)
-    private void skin_751994358(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(751994358L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "guiWidth()I", cancellable = true)
-    private void guiWidth_2019825581(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2019825581L))
-            info.setReturnValue(791890669);
-    }
-
-    @Inject(at = @At("HEAD"), method = "outline(IIIII)V", cancellable = true)
-    private void outline_513874611(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(513874611L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "guiHeight()I", cancellable = true)
-    private void guiHeight_2019825581(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2019825581L))
-            info.setReturnValue(791890669);
-    }
-
-    @Inject(at = @At("HEAD"), method = "fakeItem(Lnet/minecraft/world/item/ItemStack;II)V", cancellable = true)
-    private void fakeItem__999345025(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-999345025L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "fakeItem(Lnet/minecraft/world/item/ItemStack;III)V", cancellable = true)
-    private void fakeItem__204882546(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-204882546L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "blit(Lcom/mojang/blaze3d/pipeline/RenderPipeline;Lnet/minecraft/resources/Identifier;IIFFIIIIIII)V", cancellable = true)
-    private void blit__795673930(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-795673930L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "blit(Lnet/minecraft/resources/Identifier;IIIIFFFF)V", cancellable = true)
-    private void blit__462069566(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-462069566L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "blit(Lcom/mojang/blaze3d/textures/GpuTextureView;Lcom/mojang/blaze3d/textures/GpuSampler;IIIIFFFF)V", cancellable = true)
-    private void blit_1837176816(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1837176816L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "blit(Lcom/mojang/blaze3d/pipeline/RenderPipeline;Lnet/minecraft/resources/Identifier;IIFFIIIII)V", cancellable = true)
-    private void blit__243465578(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-243465578L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "blit(Lcom/mojang/blaze3d/pipeline/RenderPipeline;Lnet/minecraft/resources/Identifier;IIFFIIII)V", cancellable = true)
-    private void blit_1077620343(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1077620343L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "blit(Lcom/mojang/blaze3d/pipeline/RenderPipeline;Lnet/minecraft/resources/Identifier;IIFFIIIIII)V", cancellable = true)
-    private void blit_1752543831(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1752543831L))
+    @Inject(at = @At("HEAD"), method = "requestCursor(Lcom/mojang/blaze3d/platform/cursor/CursorType;)V", cancellable = true)
+    private void requestCursor_85499358(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(85499358L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "textRendererForWidget(Lnet/minecraft/client/gui/components/AbstractWidget;Lnet/minecraft/client/gui/GuiGraphicsExtractor$HoveredTextEffects;)Lnet/minecraft/client/gui/ActiveTextCollector;", cancellable = true)
-    private void textRendererForWidget_1546237880(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1546237880L))
+    private void textRendererForWidget__1462049803(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1462049803L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "requestCursor(Lcom/mojang/blaze3d/platform/cursor/CursorType;)V", cancellable = true)
-    private void requestCursor_274168729(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(274168729L))
-            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "containsPointInScissor(II)Z", cancellable = true)
-    private void containsPointInScissor_985687710(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(985687710L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "tooltip(Lnet/minecraft/client/gui/Font;Ljava/util/List;IILnet/minecraft/client/gui/screens/inventory/tooltip/ClientTooltipPositioner;Lnet/minecraft/resources/Identifier;)V", cancellable = true)
-    private void tooltip_545327619(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(545327619L))
-            info.cancel();
+    private void containsPointInScissor_1349102744(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1349102744L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "getSprite(Lnet/minecraft/client/resources/model/sprite/SpriteId;)Lnet/minecraft/client/renderer/texture/TextureAtlasSprite;", cancellable = true)
-    private void getSprite__1651959573(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1651959573L))
+    private void getSprite__1435168986(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1435168986L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "blitSprite(Lcom/mojang/blaze3d/pipeline/RenderPipeline;Lnet/minecraft/resources/Identifier;IIIIIIIII)V", cancellable = true)
-    private void blitSprite__1928892874(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1928892874L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "blitSprite(Lcom/mojang/blaze3d/pipeline/RenderPipeline;Lnet/minecraft/client/renderer/texture/TextureAtlasSprite;IIIII)V", cancellable = true)
-    private void blitSprite__792803724(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-792803724L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "blitSprite(Lcom/mojang/blaze3d/pipeline/RenderPipeline;Lnet/minecraft/client/renderer/texture/TextureAtlasSprite;IIII)V", cancellable = true)
-    private void blitSprite_367163097(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(367163097L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "blitSprite(Lcom/mojang/blaze3d/pipeline/RenderPipeline;Lnet/minecraft/resources/Identifier;IIII)V", cancellable = true)
-    private void blitSprite__2015195369(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-2015195369L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "blitSprite(Lcom/mojang/blaze3d/pipeline/RenderPipeline;Lnet/minecraft/resources/Identifier;IIIIF)V", cancellable = true)
-    private void blitSprite__1634242701(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1634242701L))
+    private void blitSprite_2019763469(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(2019763469L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "blitSprite(Lcom/mojang/blaze3d/pipeline/RenderPipeline;Lnet/minecraft/resources/Identifier;IIIII)V", cancellable = true)
-    private void blitSprite__1631472138(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1631472138L))
+    private void blitSprite_2022534032(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(2022534032L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "blitSprite(Lcom/mojang/blaze3d/pipeline/RenderPipeline;Lnet/minecraft/resources/Identifier;IIII)V", cancellable = true)
+    private void blitSprite_1566359101(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1566359101L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "blitSprite(Lcom/mojang/blaze3d/pipeline/RenderPipeline;Lnet/minecraft/resources/Identifier;IIIIIIII)V", cancellable = true)
-    private void blitSprite__639316265(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-639316265L))
+    private void blitSprite__87622915(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-87622915L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "blitSprite(Lcom/mojang/blaze3d/pipeline/RenderPipeline;Lnet/minecraft/client/renderer/texture/TextureAtlasSprite;IIIII)V", cancellable = true)
+    private void blitSprite_595258510(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(595258510L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "blitSprite(Lcom/mojang/blaze3d/pipeline/RenderPipeline;Lnet/minecraft/client/renderer/texture/TextureAtlasSprite;IIII)V", cancellable = true)
+    private void blitSprite_1381770623(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1381770623L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "blitSprite(Lcom/mojang/blaze3d/pipeline/RenderPipeline;Lnet/minecraft/resources/Identifier;IIIIIIIII)V", cancellable = true)
+    private void blitSprite__2006268208(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-2006268208L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "skin(Lnet/minecraft/client/model/Model$Simple;Lnet/minecraft/resources/Identifier;FFFFIIII)V", cancellable = true)
+    private void skin_1273033011(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1273033011L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "textRenderer(Lnet/minecraft/client/gui/GuiGraphicsExtractor$HoveredTextEffects;Ljava/util/function/Consumer;)Lnet/minecraft/client/gui/ActiveTextCollector;", cancellable = true)
+    private void textRenderer_1910200536(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1910200536L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "textRenderer(Lnet/minecraft/client/gui/GuiGraphicsExtractor$HoveredTextEffects;)Lnet/minecraft/client/gui/ActiveTextCollector;", cancellable = true)
+    private void textRenderer_1166400796(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1166400796L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "textRenderer()Lnet/minecraft/client/gui/ActiveTextCollector;", cancellable = true)
+    private void textRenderer_572951087(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(572951087L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "book(Lnet/minecraft/client/model/object/book/BookModel;Lnet/minecraft/resources/Identifier;FFFIIII)V", cancellable = true)
+    private void book__1086750282(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1086750282L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "tooltip(Lnet/minecraft/client/gui/Font;Ljava/util/List;IILnet/minecraft/client/gui/screens/inventory/tooltip/ClientTooltipPositioner;Lnet/minecraft/resources/Identifier;)V", cancellable = true)
+    private void tooltip__95121466(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-95121466L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "pose()Lorg/joml/Matrix3x2fStack;", cancellable = true)
+    private void pose_937490488(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(937490488L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "setComponentTooltipForNextFrame(Lnet/minecraft/client/gui/Font;Ljava/util/List;II)V", cancellable = true)
+    private void setComponentTooltipForNextFrame_1389326088(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1389326088L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "setComponentTooltipForNextFrame(Lnet/minecraft/client/gui/Font;Ljava/util/List;IILnet/minecraft/resources/Identifier;)V", cancellable = true)
+    private void setComponentTooltipForNextFrame_779115664(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(779115664L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "applyCursor(Lcom/mojang/blaze3d/platform/Window;)V", cancellable = true)
+    private void applyCursor__1474403036(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1474403036L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "nextStratum()V", cancellable = true)
+    private void nextStratum__1307201327(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1307201327L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "disableScissor()V", cancellable = true)
+    private void disableScissor_688365862(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(688365862L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "verticalLine(IIII)V", cancellable = true)
+    private void verticalLine__1468778128(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1468778128L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "fillGradient(IIIIII)V", cancellable = true)
+    private void fillGradient__702960089(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-702960089L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "enableScissor(IIII)V", cancellable = true)
+    private void enableScissor_177253889(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(177253889L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "textWithBackdrop(Lnet/minecraft/client/gui/Font;Lnet/minecraft/network/chat/Component;IIII)V", cancellable = true)
+    private void textWithBackdrop_240087163(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(240087163L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "bannerPattern(Lnet/minecraft/client/model/object/banner/BannerFlagModel;Lnet/minecraft/world/item/DyeColor;Lnet/minecraft/world/level/block/entity/BannerPatternLayers;IIII)V", cancellable = true)
+    private void bannerPattern_1193900871(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1193900871L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "profilerChart(Ljava/util/List;IIII)V", cancellable = true)
+    private void profilerChart__1525366506(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1525366506L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "setTooltipForNextFrame(Lnet/minecraft/client/gui/Font;Ljava/util/List;Ljava/util/Optional;Lnet/minecraft/client/gui/screens/inventory/tooltip/ClientTooltipPositioner;IIZLnet/minecraft/resources/Identifier;)V", cancellable = true)
+    private void setTooltipForNextFrame_1645909130(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1645909130L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "setTooltipForNextFrame(Lnet/minecraft/client/gui/Font;Ljava/util/List;Ljava/util/Optional;II)V", cancellable = true)
+    private void setTooltipForNextFrame__470927568(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-470927568L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "setTooltipForNextFrame(Lnet/minecraft/client/gui/Font;Lnet/minecraft/world/item/ItemStack;II)V", cancellable = true)
+    private void setTooltipForNextFrame_704915637(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(704915637L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "setTooltipForNextFrame(Ljava/util/List;II)V", cancellable = true)
+    private void setTooltipForNextFrame__950167943(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-950167943L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "setTooltipForNextFrame(Lnet/minecraft/network/chat/Component;II)V", cancellable = true)
+    private void setTooltipForNextFrame_1312465308(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1312465308L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "setTooltipForNextFrame(Lnet/minecraft/client/gui/Font;Ljava/util/List;Ljava/util/Optional;IILnet/minecraft/resources/Identifier;)V", cancellable = true)
+    private void setTooltipForNextFrame_939798712(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(939798712L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "setTooltipForNextFrame(Lnet/minecraft/client/gui/Font;Ljava/util/List;II)V", cancellable = true)
+    private void setTooltipForNextFrame__737991359(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-737991359L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "setTooltipForNextFrame(Lnet/minecraft/client/gui/Font;Ljava/util/List;IILnet/minecraft/resources/Identifier;)V", cancellable = true)
+    private void setTooltipForNextFrame_48179785(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(48179785L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "setTooltipForNextFrame(Lnet/minecraft/client/gui/Font;Ljava/util/List;Lnet/minecraft/client/gui/screens/inventory/tooltip/ClientTooltipPositioner;IIZ)V", cancellable = true)
+    private void setTooltipForNextFrame__547399279(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-547399279L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "setTooltipForNextFrame(Lnet/minecraft/client/gui/Font;Lnet/minecraft/network/chat/Component;II)V", cancellable = true)
+    private void setTooltipForNextFrame__1696503196(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1696503196L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "setTooltipForNextFrame(Lnet/minecraft/client/gui/Font;Lnet/minecraft/network/chat/Component;IILnet/minecraft/resources/Identifier;)V", cancellable = true)
+    private void setTooltipForNextFrame_514906604(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(514906604L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "centeredText(Lnet/minecraft/client/gui/Font;Ljava/lang/String;III)V", cancellable = true)
+    private void centeredText__824898108(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-824898108L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "centeredText(Lnet/minecraft/client/gui/Font;Lnet/minecraft/network/chat/Component;III)V", cancellable = true)
+    private void centeredText__2089787142(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-2089787142L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "centeredText(Lnet/minecraft/client/gui/Font;Lnet/minecraft/util/FormattedCharSequence;III)V", cancellable = true)
+    private void centeredText_1270205753(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1270205753L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "textWithWordWrap(Lnet/minecraft/client/gui/Font;Lnet/minecraft/network/chat/FormattedText;IIIIZ)V", cancellable = true)
+    private void textWithWordWrap__1983066287(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1983066287L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "textWithWordWrap(Lnet/minecraft/client/gui/Font;Lnet/minecraft/network/chat/FormattedText;IIII)V", cancellable = true)
+    private void textWithWordWrap_1990829069(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1990829069L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "itemDecorations(Lnet/minecraft/client/gui/Font;Lnet/minecraft/world/item/ItemStack;II)V", cancellable = true)
+    private void itemDecorations__1477065581(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1477065581L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "itemDecorations(Lnet/minecraft/client/gui/Font;Lnet/minecraft/world/item/ItemStack;IILjava/lang/String;)V", cancellable = true)
+    private void itemDecorations_622455901(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(622455901L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "blurBeforeThisStratum()V", cancellable = true)
+    private void blurBeforeThisStratum__690063646(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-690063646L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "horizontalLine(IIII)V", cancellable = true)
+    private void horizontalLine__1321951358(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1321951358L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "textHighlight(IIIIZ)V", cancellable = true)
+    private void textHighlight_1480390539(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1480390539L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "extractDeferredElements(IIF)V", cancellable = true)
+    private void extractDeferredElements_1680542951(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1680542951L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "setPreeditOverlay(Lnet/minecraft/client/gui/components/Renderable;)V", cancellable = true)
+    private void setPreeditOverlay_367797471(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(367797471L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "guiWidth()I", cancellable = true)
+    private void guiWidth_400618818(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(400618818L))
+            info.setReturnValue(2086257776);
+    }
+
+    @Inject(at = @At("HEAD"), method = "guiHeight()I", cancellable = true)
+    private void guiHeight__1563444565(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1563444565L))
+            info.setReturnValue(195869356);
+    }
+
+    @Inject(at = @At("HEAD"), method = "outline(IIIII)V", cancellable = true)
+    private void outline_289224821(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(289224821L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "blit(Lcom/mojang/blaze3d/pipeline/RenderPipeline;Lnet/minecraft/resources/Identifier;IIFFIIIII)V", cancellable = true)
+    private void blit__1477300533(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1477300533L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "blit(Lnet/minecraft/resources/Identifier;IIIIFFFF)V", cancellable = true)
+    private void blit__2126713235(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-2126713235L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "blit(Lcom/mojang/blaze3d/pipeline/RenderPipeline;Lnet/minecraft/resources/Identifier;IIFFIIIIII)V", cancellable = true)
+    private void blit__2136601406(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-2136601406L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "blit(Lcom/mojang/blaze3d/pipeline/RenderPipeline;Lnet/minecraft/resources/Identifier;IIFFIIII)V", cancellable = true)
+    private void blit__486201438(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-486201438L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "blit(Lcom/mojang/blaze3d/textures/GpuTextureView;Lcom/mojang/blaze3d/textures/GpuSampler;IIIIFFFF)V", cancellable = true)
+    private void blit_990151579(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(990151579L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "blit(Lcom/mojang/blaze3d/pipeline/RenderPipeline;Lnet/minecraft/resources/Identifier;IIFFIIIIIII)V", cancellable = true)
+    private void blit__1100091989(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1100091989L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "fakeItem(Lnet/minecraft/world/item/ItemStack;III)V", cancellable = true)
+    private void fakeItem_1539237270(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1539237270L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "fakeItem(Lnet/minecraft/world/item/ItemStack;II)V", cancellable = true)
+    private void fakeItem_1689316215(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1689316215L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "entity(Lnet/minecraft/client/renderer/entity/state/EntityRenderState;FLorg/joml/Vector3fc;Lorg/joml/Quaternionfc;Lorg/joml/Quaternionfc;IIII)V", cancellable = true)
+    private void entity_1797284752(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1797284752L))
             info.cancel();
     }
 

@@ -8,45 +8,45 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.util.profiling.jfr.stats.CpuLoadStat.class)
 public class CpuLoadStat_105966492Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals_1491478750(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1491478750L))
-            info.setReturnValue(true);
+    private void equals__802659777(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-802659777L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__1029493484(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1029493484L))
-            info.setReturnValue("CpQN6IV\u014AiW]Nf-do<j9hg=\u9E01Ki+\u67BDr\uD052bk\u69471!(\uCE8BB?L$\u9CCFx.4N@h(T/MgR");
+    private void toString_876390016(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(876390016L))
+            info.setReturnValue("\u87BA/*C{ Y0]V<wc?\u29A98g");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_144229233(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(144229233L))
-            info.setReturnValue(2081889118);
+    private void hashCode_663318582(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(663318582L))
+            info.setReturnValue(-1986107182);
     }
 
     @Inject(at = @At("HEAD"), method = "from(Ljdk/jfr/consumer/RecordedEvent;)Lnet/minecraft/util/profiling/jfr/stats/CpuLoadStat;", cancellable = true)
-    private static void from_1306161251(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1306161251L))
+    private static void from__1343858163(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1343858163L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "system()D", cancellable = true)
-    private void system_144223932(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(144223932L))
-            info.setReturnValue(3.7132410021713495E8D);
-    }
-
-    @Inject(at = @At("HEAD"), method = "jvm()D", cancellable = true)
-    private void jvm_144223932(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(144223932L))
-            info.setReturnValue(3.7132410021713495E8D);
+    private void system__1482210835(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1482210835L))
+            info.setReturnValue(9.259862007231297E8D);
     }
 
     @Inject(at = @At("HEAD"), method = "userJvm()D", cancellable = true)
-    private void userJvm_144223932(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(144223932L))
-            info.setReturnValue(3.7132410021713495E8D);
+    private void userJvm__97573978(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-97573978L))
+            info.setReturnValue(9.259862002558734E8D);
+    }
+
+    @Inject(at = @At("HEAD"), method = "jvm()D", cancellable = true)
+    private void jvm_670355131(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(670355131L))
+            info.setReturnValue(9.259862007586058E8D);
     }
 
 

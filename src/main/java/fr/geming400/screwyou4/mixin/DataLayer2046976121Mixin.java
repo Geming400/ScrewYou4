@@ -8,63 +8,63 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.level.chunk.DataLayer.class)
 public class DataLayer2046976121Mixin {
         @Inject(at = @At("HEAD"), method = "get(III)I", cancellable = true)
-    private void get_1266871224(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1266871224L))
-            info.setReturnValue(-1650915159);
+    private void get__1014840050(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1014840050L))
+            info.setReturnValue(1103623644);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString_911515650(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(911515650L))
-            info.setReturnValue("\u71E3O\uFC80[/w,1Z_?(\uB5D2L$m'*\u123E(0E t*#$X;\uA182Cdquxs7-u1\u0D74[4");
+    private void toString__1477568146(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1477568146L))
+            info.setReturnValue("Vjxb|7i'n?*!p31tDH.\u0A1F\uF94A\u2785)6(r\u2AA0(];r\uD18CQ}*\u5672<\u7C25#2 >*@Ii\u8A4C_|d");
     }
 
     @Inject(at = @At("HEAD"), method = "copy()Lnet/minecraft/world/level/chunk/DataLayer;", cancellable = true)
-    private void copy__280620588(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-280620588L))
+    private void copy__207913537(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-207913537L))
             info.setReturnValue(new net.minecraft.world.level.chunk.DataLayer());
     }
 
     @Inject(at = @At("HEAD"), method = "isEmpty()Z", cancellable = true)
-    private void isEmpty_2085254704(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2085254704L))
+    private void isEmpty__1188874803(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1188874803L))
             info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "fill(I)V", cancellable = true)
-    private void fill__1034074203(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1034074203L))
+    private void fill_198299368(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(198299368L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "set(IIII)V", cancellable = true)
-    private void set__633651860(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-633651860L))
+    private void set__1098231990(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1098231990L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "getData()[B", cancellable = true)
-    private void getData__1062156545(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1062156545L))
+    private void getData_1725204255(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1725204255L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "isDefinitelyFilledWith(I)Z", cancellable = true)
-    private void isDefinitelyFilledWith__1034070359(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1034070359L))
-            info.setReturnValue(true);
-    }
-
     @Inject(at = @At("HEAD"), method = "layerToString(I)Ljava/lang/String;", cancellable = true)
-    private void layerToString_626106537(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(626106537L))
-            info.setReturnValue("9\u4A4C!]gX\"v*DL\u4A18+Q]9;8kZ\uBD30)$ef9#r^7! u)xlui0w\u8E8DD@u4vR@\uCCBD]Sz-\u5B90\uB719J3wSc|Cz<A\uC355.E5d!1Ht");
+    private void layerToString_2084048172(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2084048172L))
+            info.setReturnValue("\uA78E`Y<2(MOqa\u8A1C\uC294JRv:&Y;`'RL\uC8E1E8duH]dMR\u861F\uA75D>Zo\u32C2}STHhAJ(<nBe\u2001{ssunuiJ y\"P}Gq\u2DDBkKtY!aN&:c\u0F56Ul");
     }
 
     @Inject(at = @At("HEAD"), method = "isDefinitelyHomogenous()Z", cancellable = true)
-    private void isDefinitelyHomogenous_2085254704(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2085254704L))
+    private void isDefinitelyHomogenous__69178365(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-69178365L))
             info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isDefinitelyFilledWith(I)Z", cancellable = true)
+    private void isDefinitelyFilledWith__342521128(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-342521128L))
+            info.setReturnValue(true);
     }
 
 

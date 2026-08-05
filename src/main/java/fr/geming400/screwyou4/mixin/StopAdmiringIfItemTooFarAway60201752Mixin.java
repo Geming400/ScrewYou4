@@ -8,8 +8,8 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.entity.monster.piglin.StopAdmiringIfItemTooFarAway.class)
 public class StopAdmiringIfItemTooFarAway60201752Mixin {
         @Inject(at = @At("HEAD"), method = "create(I)Lnet/minecraft/world/entity/ai/behavior/BehaviorControl;", cancellable = true)
-    private static void create_777499147(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(777499147L))
+    private static void create__599002481(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-599002481L))
             info.setReturnValue(null);
     }
 

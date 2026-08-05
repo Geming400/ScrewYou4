@@ -8,20 +8,20 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.data.structures.SnbtToNbt.class)
 public class SnbtToNbt_532904598Mixin {
         @Inject(at = @At("HEAD"), method = "getName()Ljava/lang/String;", cancellable = true)
-    private void getName__602555874(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-602555874L))
-            info.setReturnValue("etp@A*;\u2E07tPM:\u48B2>V\u1A4DSv\u2E51-Ko9OJ\u20199c\u945Ds#;\u268E`_\u080BS\u5213Rb[");
+    private void getName__1355942305(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1355942305L))
+            info.setReturnValue("B2Uc\uC697IgX\uC1CDE`:}/`oCud\u2233I^b2i\uCFBB-Ex\u3A24Q\"]E\u6E78$%c\u52BCig]\u184E]\u466F,#\u7A37\u6A57uM");
     }
 
     @Inject(at = @At("HEAD"), method = "run(Lnet/minecraft/data/CachedOutput;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
-    private void run_1259427055(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1259427055L))
+    private void run_632630340(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(632630340L))
             info.setReturnValue(new java.util.concurrent.CompletableFuture());
     }
 
     @Inject(at = @At("HEAD"), method = "addFilter(Lnet/minecraft/data/structures/SnbtToNbt$Filter;)Lnet/minecraft/data/structures/SnbtToNbt;", cancellable = true)
-    private void addFilter__118251604(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-118251604L))
+    private void addFilter_549221075(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(549221075L))
             info.setReturnValue(null);
     }
 

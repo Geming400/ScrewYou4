@@ -8,39 +8,39 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.item.enchantment.Enchantment.Cost.class)
 public class Cost_283955092Mixin {
         @Inject(at = @At("HEAD"), method = "base()I", cancellable = true)
-    private void base_322217337(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(322217337L))
-            info.setReturnValue(257131760);
+    private void base__1585497784(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1585497784L))
+            info.setReturnValue(1230656733);
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals_1669467350(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1669467350L))
+    private void equals__624671177(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-624671177L))
             info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__851504884(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-851504884L))
-            info.setReturnValue("d\u8D2E1$\u38D7AGH.");
+    private void toString_1054378616(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1054378616L))
+            info.setReturnValue("r!=E]Uk<|6| *Fa]h.Vv\u6AE97v)Fi{(onGyhha_$qB/\u8D27!g+F^{W;if\u6F9A\u42A6:7(\uA09A\u1970z\u38E7?dL49ij");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_322217833(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(322217833L))
-            info.setReturnValue(53984341);
-    }
-
-    @Inject(at = @At("HEAD"), method = "calculate(I)I", cancellable = true)
-    private void calculate_1497859570(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1497859570L))
-            info.setReturnValue(-675619530);
+    private void hashCode_841307182(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(841307182L))
+            info.setReturnValue(211735581);
     }
 
     @Inject(at = @At("HEAD"), method = "perLevelAboveFirst()I", cancellable = true)
-    private void perLevelAboveFirst_322217337(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(322217337L))
-            info.setReturnValue(257131760);
+    private void perLevelAboveFirst_472725727(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(472725727L))
+            info.setReturnValue(1011228423);
+    }
+
+    @Inject(at = @At("HEAD"), method = "calculate(I)I", cancellable = true)
+    private void calculate__2123242280(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2123242280L))
+            info.setReturnValue(1403557748);
     }
 
 

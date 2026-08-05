@@ -8,15 +8,15 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.util.valueproviders.MultipliedFloats.class)
 public class MultipliedFloats_216831870Mixin {
         @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__918628602(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-918628602L))
-            info.setReturnValue("-\"m%,\"\u4536Snv\u3309?X?}g6'Z)I)7-[]M");
+    private void toString_987254898(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(987254898L))
+            info.setReturnValue(" w|@!j$1}u{$>vWu\"csg\u8964;qy)Aa^ZC:Ik.?*r%@CV\u905C6_ufV`v\u49D4h\u11EF)#I\u142AC\u6548 \u719ApC339z*k1");
     }
 
     @Inject(at = @At("HEAD"), method = "sample(Lnet/minecraft/util/RandomSource;)F", cancellable = true)
-    private void sample__1490198592(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1490198592L))
-            info.setReturnValue(1.93984E8F);
+    private void sample__816232982(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-816232982L))
+            info.setReturnValue(9.054917E8F);
     }
 
 

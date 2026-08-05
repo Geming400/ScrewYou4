@@ -8,39 +8,39 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.item.component.Fireworks.class)
 public class Fireworks_372942482Mixin {
         @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
-    private void equals_1758454740(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1758454740L))
+    private void equals__535683787(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-535683787L))
             info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString__762517494(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-762517494L))
-            info.setReturnValue("\u71E9LCJiZ?u[<.C\uFF19:P>vEi\u5815,?.fvl<V-\u0184Q28f&\u10A2\uBE10z\u99700+o_qkGtQL");
+    private void toString_1143366006(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1143366006L))
+            info.setReturnValue("Gm4&4}\u798C1\u9105pf](FWkau\"oeganXB\">{!r\uA9F6;\uBD87=IdV\u7B38wh\u18E4IsS:+2 7<5E\uB012X%\uB7FESFwD6U5aM8^\u8705");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
-    private void hashCode_411205223(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(411205223L))
-            info.setReturnValue(38658907);
-    }
-
-    @Inject(at = @At("HEAD"), method = "flightDuration()I", cancellable = true)
-    private void flightDuration_411204727(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(411204727L))
-            info.setReturnValue(241806326);
+    private void hashCode_930294572(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(930294572L))
+            info.setReturnValue(1241048690);
     }
 
     @Inject(at = @At("HEAD"), method = "explosions()Ljava/util/List;", cancellable = true)
-    private void explosions_1999279297(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1999279297L))
+    private void explosions__811411009(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-811411009L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "addToTooltip(Lnet/minecraft/world/item/Item$TooltipContext;Ljava/util/function/Consumer;Lnet/minecraft/world/item/TooltipFlag;Lnet/minecraft/core/component/DataComponentGetter;)V", cancellable = true)
-    private void addToTooltip_2125191387(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(2125191387L))
+    private void addToTooltip__2002277566(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-2002277566L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "flightDuration()I", cancellable = true)
+    private void flightDuration__612373293(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-612373293L))
+            info.setReturnValue(2097507198);
     }
 
 

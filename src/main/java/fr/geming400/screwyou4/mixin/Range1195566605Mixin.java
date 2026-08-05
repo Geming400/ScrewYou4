@@ -8,44 +8,44 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.level.levelgen.Column.Range.class)
 public class Range1195566605Mixin {
         @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
-    private void toString_60106134(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(60106134L))
-            info.setReturnValue("*\u182F&bBo:W1xm\uA858\u1273ckA'4l^ef?0 1%r\u6355e[\u821CMeG\"j'c[%vBvI0@");
+    private void toString_1965989634(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1965989634L))
+            info.setReturnValue("x1V.F+=0.,\u72195Er1fw2\u96A22F");
     }
 
     @Inject(at = @At("HEAD"), method = "floor()I", cancellable = true)
-    private void floor_1233828851(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1233828851L))
-            info.setReturnValue(1266634033);
+    private void floor__391430297(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-391430297L))
+            info.setReturnValue(1794222874);
     }
 
     @Inject(at = @At("HEAD"), method = "ceiling()I", cancellable = true)
-    private void ceiling_1233828851(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1233828851L))
-            info.setReturnValue(1266634033);
+    private void ceiling__964528810(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-964528810L))
+            info.setReturnValue(70444043);
     }
 
     @Inject(at = @At("HEAD"), method = "getHeight()Ljava/util/OptionalInt;", cancellable = true)
-    private void getHeight__975005182(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-975005182L))
+    private void getHeight__1324336187(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1324336187L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "height()I", cancellable = true)
-    private void height_1233828851(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1233828851L))
-            info.setReturnValue(1266634033);
+    private void height_110218028(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(110218028L))
+            info.setReturnValue(1357249068);
     }
 
     @Inject(at = @At("HEAD"), method = "getFloor()Ljava/util/OptionalInt;", cancellable = true)
-    private void getFloor__975005182(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-975005182L))
+    private void getFloor__882963988(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-882963988L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getCeiling()Ljava/util/OptionalInt;", cancellable = true)
-    private void getCeiling__975005182(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-975005182L))
+    private void getCeiling_1681755419(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1681755419L))
             info.setReturnValue(null);
     }
 

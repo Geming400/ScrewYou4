@@ -8,105 +8,105 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.level.GameType.class)
 public class GameType1945159646Mixin {
         @Inject(at = @At("HEAD"), method = "getName()Ljava/lang/String;", cancellable = true)
-    private void getName_809699175(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(809699175L))
-            info.setReturnValue("X}u1bFl$yvhui\uFE03XXb2Vb[J\u2A99zuY\uAC90z-4?.gfve?yOao9]T\u1D39L\u9044W\u3EE03\u1D1EM{\uC90Dzk.`{\u5D758\u0432\u9351[\u97298y");
+    private void getName_56312744(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(56312744L))
+            info.setReturnValue("y*\u061A=a");
     }
 
     @Inject(at = @At("HEAD"), method = "values()[Lnet/minecraft/world/level/GameType;", cancellable = true)
-    private static void values__1290212747(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1290212747L))
+    private static void values_920189843(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(920189843L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/world/level/GameType;", cancellable = true)
-    private static void valueOf_1573850738(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1573850738L))
-            info.setReturnValue(net.minecraft.world.level.GameType.ADVENTURE);
+    private static void valueOf__1410642022(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1410642022L))
+            info.setReturnValue(net.minecraft.world.level.GameType.SPECTATOR);
     }
 
     @Inject(at = @At("HEAD"), method = "getId()I", cancellable = true)
-    private void getId_1983421892(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1983421892L))
-            info.setReturnValue(2115393962);
-    }
-
-    @Inject(at = @At("HEAD"), method = "byName(Ljava/lang/String;)Lnet/minecraft/world/level/GameType;", cancellable = true)
-    private static void byName_1573850738(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1573850738L))
-            info.setReturnValue(net.minecraft.world.level.GameType.ADVENTURE);
+    private void getId_286836051(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(286836051L))
+            info.setReturnValue(-1921771816);
     }
 
     @Inject(at = @At("HEAD"), method = "byName(Ljava/lang/String;Lnet/minecraft/world/level/GameType;)Lnet/minecraft/world/level/GameType;", cancellable = true)
-    private static void byName__1916543317(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1916543317L))
-            info.setReturnValue(net.minecraft.world.level.GameType.ADVENTURE);
+    private static void byName__109627731(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-109627731L))
+            info.setReturnValue(net.minecraft.world.level.GameType.CREATIVE);
+    }
+
+    @Inject(at = @At("HEAD"), method = "byName(Ljava/lang/String;)Lnet/minecraft/world/level/GameType;", cancellable = true)
+    private static void byName__692633740(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-692633740L))
+            info.setReturnValue(net.minecraft.world.level.GameType.SURVIVAL);
     }
 
     @Inject(at = @At("HEAD"), method = "isValidId(I)Z", cancellable = true)
-    private static void isValidId__1135886586(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1135886586L))
-            info.setReturnValue(true);
+    private static void isValidId_1320868595(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1320868595L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "isSurvival()Z", cancellable = true)
-    private void isSurvival_1983438229(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1983438229L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "byId(I)Lnet/minecraft/world/level/GameType;", cancellable = true)
-    private static void byId_1420213155(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1420213155L))
-            info.setReturnValue(net.minecraft.world.level.GameType.SPECTATOR);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isCreative()Z", cancellable = true)
-    private void isCreative_1983438229(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1983438229L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isBlockPlacingRestricted()Z", cancellable = true)
-    private void isBlockPlacingRestricted_1983438229(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1983438229L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
-    private void getSerializedName_809699175(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(809699175L))
-            info.setReturnValue("X}u1bFl$yvhui\uFE03XXb2Vb[J\u2A99zuY\uAC90z-4?.gfve?yOao9]T\u1D39L\u9044W\u3EE03\u1D1EM{\uC90Dzk.`{\u5D758\u0432\u9351[\u97298y");
-    }
-
-    @Inject(at = @At("HEAD"), method = "byNullableId(I)Lnet/minecraft/world/level/GameType;", cancellable = true)
-    private static void byNullableId_1420213155(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1420213155L))
-            info.setReturnValue(net.minecraft.world.level.GameType.SPECTATOR);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getLongDisplayName()Lnet/minecraft/network/chat/Component;", cancellable = true)
-    private void getLongDisplayName__231749519(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-231749519L))
-            info.setReturnValue(null);
+    private void isSurvival__40206323(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-40206323L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "getNullableId(Lnet/minecraft/world/level/GameType;)I", cancellable = true)
-    private static void getNullableId__2103543261(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2103543261L))
-            info.setReturnValue(-1410002066);
+    private static void getNullableId__1580772847(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1580772847L))
+            info.setReturnValue(-344832217);
     }
 
     @Inject(at = @At("HEAD"), method = "updatePlayerAbilities(Lnet/minecraft/world/entity/player/Abilities;)V", cancellable = true)
-    private void updatePlayerAbilities__534956013(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-534956013L))
+    private void updatePlayerAbilities_227978737(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(227978737L))
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "byNullableId(I)Lnet/minecraft/world/level/GameType;", cancellable = true)
+    private static void byNullableId_810193136(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(810193136L))
+            info.setReturnValue(net.minecraft.world.level.GameType.SURVIVAL);
+    }
+
     @Inject(at = @At("HEAD"), method = "getShortDisplayName()Lnet/minecraft/network/chat/Component;", cancellable = true)
-    private void getShortDisplayName__231749519(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-231749519L))
+    private void getShortDisplayName__914547848(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-914547848L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getLongDisplayName()Lnet/minecraft/network/chat/Component;", cancellable = true)
+    private void getLongDisplayName__349021492(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-349021492L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "byId(I)Lnet/minecraft/world/level/GameType;", cancellable = true)
+    private static void byId__350202863(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-350202863L))
+            info.setReturnValue(net.minecraft.world.level.GameType.CREATIVE);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isBlockPlacingRestricted()Z", cancellable = true)
+    private void isBlockPlacingRestricted__1763770663(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1763770663L))
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
+    private void getSerializedName_2033368268(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2033368268L))
+            info.setReturnValue("$1\uCAEF/1'>_vr?\u9E8Ftn5XqYL{D99E%)l]8G\u3B03U}\u8D18EQlpM/S+uCiurQ0:");
+    }
+
+    @Inject(at = @At("HEAD"), method = "isCreative()Z", cancellable = true)
+    private void isCreative__937149892(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-937149892L))
+            info.setReturnValue(false);
     }
 
 

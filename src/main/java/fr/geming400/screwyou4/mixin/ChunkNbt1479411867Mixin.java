@@ -8,14 +8,14 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.util.filefix.access.ChunkNbt.class)
 public class ChunkNbt1479411867Mixin {
         @Inject(at = @At("HEAD"), method = "close()V", cancellable = true)
-    private void close_1517686606(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1517686606L))
+    private void close__635163562(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-635163562L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "updateChunk(Lnet/minecraft/world/level/ChunkPos;Lnet/minecraft/nbt/CompoundTag;Ljava/util/function/UnaryOperator;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
-    private void updateChunk__1983221690(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1983221690L))
+    private void updateChunk__1940238942(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1940238942L))
             info.setReturnValue(new java.util.concurrent.CompletableFuture());
     }
 

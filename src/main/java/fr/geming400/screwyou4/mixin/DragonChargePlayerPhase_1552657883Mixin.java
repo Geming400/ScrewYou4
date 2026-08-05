@@ -8,39 +8,39 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.world.entity.boss.enderdragon.phases.DragonChargePlayerPhase.class)
 public class DragonChargePlayerPhase_1552657883Mixin {
         @Inject(at = @At("HEAD"), method = "begin()V", cancellable = true)
-    private void begin_1590932621(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1590932621L))
+    private void begin__1683145340(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1683145340L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "setTarget(Lnet/minecraft/world/phys/Vec3;)V", cancellable = true)
-    private void setTarget_1920393881(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1920393881L))
+    private void setTarget_1608261036(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1608261036L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "getPhase()Lnet/minecraft/world/entity/boss/enderdragon/phases/EnderDragonPhase;", cancellable = true)
-    private void getPhase_184300354(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(184300354L))
+    private void getPhase_4200733(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(4200733L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getFlyTargetLocation()Lnet/minecraft/world/phys/Vec3;", cancellable = true)
+    private void getFlyTargetLocation__280621584(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-280621584L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "doServerTick(Lnet/minecraft/server/level/ServerLevel;)V", cancellable = true)
-    private void doServerTick_574248542(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(574248542L))
+    private void doServerTick__743623213(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-743623213L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getFlyTargetLocation()Lnet/minecraft/world/phys/Vec3;", cancellable = true)
-    private void getFlyTargetLocation__1644579885(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1644579885L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getFlySpeed()F", cancellable = true)
-    private void getFlySpeed_1590917245(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1590917245L))
-            info.setReturnValue(4.359121E8F);
+    private void getFlySpeed_1518534067(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1518534067L))
+            info.setReturnValue(2.23686E8F);
     }
 
 

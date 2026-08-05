@@ -8,8 +8,8 @@ import fr.geming400.screwyou4.ScrewYou4;
 @Mixin(net.minecraft.client.gui.screens.inventory.GrindstoneScreen.class)
 public class GrindstoneScreen_1652695511Mixin {
         @Inject(at = @At("HEAD"), method = "extractBackground(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIF)V", cancellable = true)
-    private void extractBackground_693008138(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(693008138L))
+    private void extractBackground__1240817253(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1240817253L))
             info.cancel();
     }
 
