@@ -36,8 +36,7 @@ public class Generator {
 
     private static final String MOD_PACKAGE = "fr.geming400.screwyou4";
     private static final String[] PACKAGES_TO_MIXIN = {
-            "net.minecraft",
-            "com.mojang"
+            "net.minecraft"
     };
 
     private final Path mixinFolder;
@@ -192,8 +191,7 @@ public class Generator {
 
     public static Set<Class<?>> getAllMinecraftClasses(boolean checkForMixinability) {
         ClassGraph classGraph = new ClassGraph();
-        for (String packageToMixin : PACKAGES_TO_MIXIN)
-            classGraph.acceptPackages(packageToMixin);
+        classGraph.acceptPackages(PACKAGES_TO_MIXIN);
 
         Set<Class<?>> res = new HashSet<>();
 
