@@ -22,7 +22,7 @@ public class SimpleBlockConfiguration667303355Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_705566097(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(705566097L))
-            info.setReturnValue(-637619746);
+            info.setReturnValue(-852610246);
     }
 
     @Inject(at = @At("HEAD"), method = "scheduleTick()Z", cancellable = true)

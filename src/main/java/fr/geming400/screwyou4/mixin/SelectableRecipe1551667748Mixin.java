@@ -22,7 +22,7 @@ public class SelectableRecipe1551667748Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1589930490(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1589930490L))
-            info.setReturnValue(492974542);
+            info.setReturnValue(429371342);
     }
 
     @Inject(at = @At("HEAD"), method = "recipe()Ljava/util/Optional;", cancellable = true)
@@ -31,15 +31,15 @@ public class SelectableRecipe1551667748Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "noRecipeCodec()Lnet/minecraft/network/codec/StreamCodec;", cancellable = true)
-    private static void noRecipeCodec__1482299176(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1482299176L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "optionDisplay()Lnet/minecraft/world/item/crafting/display/SlotDisplay;", cancellable = true)
     private void optionDisplay__2006345901(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2006345901L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "noRecipeCodec()Lnet/minecraft/network/codec/StreamCodec;", cancellable = true)
+    private static void noRecipeCodec__1482299176(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1482299176L))
             info.setReturnValue(null);
     }
 

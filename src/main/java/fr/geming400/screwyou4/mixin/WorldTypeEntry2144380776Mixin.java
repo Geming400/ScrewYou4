@@ -22,7 +22,7 @@ public class WorldTypeEntry2144380776Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__2112323778(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2112323778L))
-            info.setReturnValue(-759906115);
+            info.setReturnValue(-981425315);
     }
 
     @Inject(at = @At("HEAD"), method = "preset()Lnet/minecraft/core/Holder;", cancellable = true)
@@ -31,16 +31,16 @@ public class WorldTypeEntry2144380776Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "isAmplified()Z", cancellable = true)
-    private void isAmplified__2112307937(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2112307937L))
-            info.setReturnValue(false);
-    }
-
     @Inject(at = @At("HEAD"), method = "describePreset()Lnet/minecraft/network/chat/Component;", cancellable = true)
     private void describePreset__32528389(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-32528389L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isAmplified()Z", cancellable = true)
+    private void isAmplified__2112307937(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2112307937L))
+            info.setReturnValue(false);
     }
 
 

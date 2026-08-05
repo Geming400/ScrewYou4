@@ -22,7 +22,7 @@ public class TypeSettings783796657Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_822059399(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(822059399L))
-            info.setReturnValue(496384525);
+            info.setReturnValue(640824425);
     }
 
     @Inject(at = @At("HEAD"), method = "open()Z", cancellable = true)

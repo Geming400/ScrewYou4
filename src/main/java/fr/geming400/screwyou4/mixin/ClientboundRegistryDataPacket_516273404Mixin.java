@@ -28,7 +28,7 @@ public class ClientboundRegistryDataPacket_516273404Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_554536145(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(554536145L))
-            info.setReturnValue(61911547);
+            info.setReturnValue(163277547);
     }
 
     @Inject(at = @At("HEAD"), method = "entries()Ljava/util/List;", cancellable = true)

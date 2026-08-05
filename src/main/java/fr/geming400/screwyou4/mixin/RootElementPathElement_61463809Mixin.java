@@ -28,7 +28,7 @@ public class RootElementPathElement_61463809Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_99726550(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(99726550L))
-            info.setReturnValue(1554288324);
+            info.setReturnValue(1879933324);
     }
 
     @Inject(at = @At("HEAD"), method = "id()Lnet/minecraft/resources/ResourceKey;", cancellable = true)

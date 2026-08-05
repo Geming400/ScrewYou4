@@ -22,19 +22,13 @@ public class FluidModel_89832425Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_128095166(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(128095166L))
-            info.setReturnValue(-272038597);
+            info.setReturnValue(-117419797);
     }
 
     @Inject(at = @At("HEAD"), method = "layer()Lnet/minecraft/client/renderer/chunk/ChunkSectionLayer;", cancellable = true)
     private void layer_916732689(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(916732689L))
             info.setReturnValue(net.minecraft.client.renderer.chunk.ChunkSectionLayer.CUTOUT);
-    }
-
-    @Inject(at = @At("HEAD"), method = "tintSource()Lnet/minecraft/client/color/block/BlockTintSource;", cancellable = true)
-    private void tintSource_311580625(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(311580625L))
-            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "overlayMaterial()Lnet/minecraft/client/resources/model/sprite/Material$Baked;", cancellable = true)
@@ -52,6 +46,12 @@ public class FluidModel_89832425Mixin {
     @Inject(at = @At("HEAD"), method = "flowingMaterial()Lnet/minecraft/client/resources/model/sprite/Material$Baked;", cancellable = true)
     private void flowingMaterial__2110218338(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2110218338L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "tintSource()Lnet/minecraft/client/color/block/BlockTintSource;", cancellable = true)
+    private void tintSource_311580625(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(311580625L))
             info.setReturnValue(null);
     }
 

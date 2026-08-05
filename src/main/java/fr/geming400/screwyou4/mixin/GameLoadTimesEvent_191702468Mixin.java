@@ -13,6 +13,12 @@ public class GameLoadTimesEvent_191702468Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "setBootstrapTime(J)V", cancellable = true)
+    private void setBootstrapTime_1406543952(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1406543952L))
+            info.cancel();
+    }
+
     @Inject(at = @At("HEAD"), method = "endStep(Lnet/minecraft/client/telemetry/TelemetryProperty;)V", cancellable = true)
     private void endStep__1998691587(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1998691587L))
@@ -28,12 +34,6 @@ public class GameLoadTimesEvent_191702468Mixin {
     @Inject(at = @At("HEAD"), method = "beginStep(Lnet/minecraft/client/telemetry/TelemetryProperty;)V", cancellable = true)
     private void beginStep__1998691587(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1998691587L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "setBootstrapTime(J)V", cancellable = true)
-    private void setBootstrapTime_1406543952(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1406543952L))
             info.cancel();
     }
 

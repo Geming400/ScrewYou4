@@ -28,7 +28,7 @@ public class ForbiddenSymlinkInfo_2008420750Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2046683491(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2046683491L))
-            info.setReturnValue(1705122625);
+            info.setReturnValue(1614352925);
     }
 
     @Inject(at = @At("HEAD"), method = "link()Ljava/nio/file/Path;", cancellable = true)

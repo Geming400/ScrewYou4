@@ -22,7 +22,7 @@ public class DiscoverResponse_1705781389Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1744044130(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1744044130L))
-            info.setReturnValue(-275542913);
+            info.setReturnValue(347365987);
     }
 
     @Inject(at = @At("HEAD"), method = "methods()Ljava/util/List;", cancellable = true)

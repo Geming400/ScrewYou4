@@ -25,16 +25,16 @@ public class BonemealableFeaturePlacerBlock460102705Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "isBonemealSuccess(Lnet/minecraft/world/level/Level;Lnet/minecraft/util/RandomSource;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Z", cancellable = true)
-    private void isBonemealSuccess__1512810438(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1512810438L))
-            info.setReturnValue(true);
-    }
-
     @Inject(at = @At("HEAD"), method = "performBonemeal(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/util/RandomSource;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)V", cancellable = true)
     private void performBonemeal__1682863848(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1682863848L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "isBonemealSuccess(Lnet/minecraft/world/level/Level;Lnet/minecraft/util/RandomSource;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Z", cancellable = true)
+    private void isBonemealSuccess__1512810438(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1512810438L))
+            info.setReturnValue(true);
     }
 
 

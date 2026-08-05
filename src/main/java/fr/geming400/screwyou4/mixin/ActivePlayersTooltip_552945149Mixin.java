@@ -22,7 +22,7 @@ public class ActivePlayersTooltip_552945149Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_591207890(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(591207890L))
-            info.setReturnValue(1808521001);
+            info.setReturnValue(1812012101);
     }
 
     @Inject(at = @At("HEAD"), method = "profiles()Ljava/util/List;", cancellable = true)

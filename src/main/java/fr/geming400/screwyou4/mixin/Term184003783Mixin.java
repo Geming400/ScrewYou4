@@ -28,7 +28,7 @@ public class Term184003783Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_222266525(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(222266525L))
-            info.setReturnValue(-560955728);
+            info.setReturnValue(-27394228);
     }
 
     @Inject(at = @At("HEAD"), method = "parse(Ljava/lang/String;)Lnet/minecraft/client/renderer/block/dispatch/multipart/KeyValueCondition$Term;", cancellable = true)

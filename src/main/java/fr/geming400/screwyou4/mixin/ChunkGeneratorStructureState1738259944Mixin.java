@@ -7,7 +7,19 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.world.level.chunk.ChunkGeneratorStructureState.class)
 public class ChunkGeneratorStructureState1738259944Mixin {
-        @Inject(at = @At("HEAD"), method = "getPlacementsForStructure(Lnet/minecraft/core/Holder;)Ljava/util/List;", cancellable = true)
+        @Inject(at = @At("HEAD"), method = "randomState()Lnet/minecraft/world/level/levelgen/RandomState;", cancellable = true)
+    private void randomState__1996262609(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1996262609L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "ensureStructuresGenerated()V", cancellable = true)
+    private void ensureStructuresGenerated_1776534683(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1776534683L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getPlacementsForStructure(Lnet/minecraft/core/Holder;)Ljava/util/List;", cancellable = true)
     private void getPlacementsForStructure_812704873(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(812704873L))
             info.setReturnValue(null);
@@ -31,28 +43,16 @@ public class ChunkGeneratorStructureState1738259944Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "ensureStructuresGenerated()V", cancellable = true)
-    private void ensureStructuresGenerated_1776534683(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1776534683L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "randomState()Lnet/minecraft/world/level/levelgen/RandomState;", cancellable = true)
-    private void randomState__1996262609(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1996262609L))
+    @Inject(at = @At("HEAD"), method = "getRingPositionsFor(Lnet/minecraft/world/level/levelgen/structure/placement/ConcentricRingsStructurePlacement;)Ljava/util/List;", cancellable = true)
+    private void getRingPositionsFor_1114186703(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1114186703L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getLevelSeed()J", cancellable = true)
     private void getLevelSeed_1776523151(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1776523151L))
-            info.setReturnValue(-8840625183363649706L);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getRingPositionsFor(Lnet/minecraft/world/level/levelgen/structure/placement/ConcentricRingsStructurePlacement;)Ljava/util/List;", cancellable = true)
-    private void getRingPositionsFor_1114186703(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1114186703L))
-            info.setReturnValue(null);
+            info.setReturnValue(-8840625183221296506L);
     }
 
     @Inject(at = @At("HEAD"), method = "hasStructureChunkInRange(Lnet/minecraft/core/Holder;III)Z", cancellable = true)

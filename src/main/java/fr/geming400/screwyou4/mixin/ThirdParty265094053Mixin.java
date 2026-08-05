@@ -22,7 +22,7 @@ public class ThirdParty265094053Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_303356795(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(303356795L))
-            info.setReturnValue(-568329021);
+            info.setReturnValue(-987486721);
     }
 
     @Inject(at = @At("HEAD"), method = "ip()Ljava/lang/String;", cancellable = true)

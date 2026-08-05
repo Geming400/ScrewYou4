@@ -22,7 +22,7 @@ public class Player1876066996Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1914329738(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1914329738L))
-            info.setReturnValue(1350408329);
+            info.setReturnValue(1299421029);
     }
 
     @Inject(at = @At("HEAD"), method = "message()Lnet/minecraft/network/chat/PlayerChatMessage;", cancellable = true)

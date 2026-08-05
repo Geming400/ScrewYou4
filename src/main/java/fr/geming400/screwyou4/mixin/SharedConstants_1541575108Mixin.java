@@ -10,7 +10,7 @@ public class SharedConstants_1541575108Mixin {
         @Inject(at = @At("HEAD"), method = "getProtocolVersion()I", cancellable = true)
     private static void getProtocolVersion_1579837601(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1579837601L))
-            info.setReturnValue(-766443186);
+            info.setReturnValue(-1081260586);
     }
 
     @Inject(at = @At("HEAD"), method = "setVersion(Lnet/minecraft/WorldVersion;)V", cancellable = true)
@@ -25,16 +25,16 @@ public class SharedConstants_1541575108Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "debugVoidTerrain(Lnet/minecraft/world/level/ChunkPos;)Z", cancellable = true)
-    private static void debugVoidTerrain__1238505890(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1238505890L))
-            info.setReturnValue(true);
-    }
-
     @Inject(at = @At("HEAD"), method = "getCurrentVersion()Lnet/minecraft/WorldVersion;", cancellable = true)
     private static void getCurrentVersion_2106263567(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2106263567L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "debugVoidTerrain(Lnet/minecraft/world/level/ChunkPos;)Z", cancellable = true)
+    private static void debugVoidTerrain__1238505890(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1238505890L))
+            info.setReturnValue(true);
     }
 
 

@@ -22,18 +22,12 @@ public class CowVariant_190234996Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_228497737(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(228497737L))
-            info.setReturnValue(467570106);
+            info.setReturnValue(104204306);
     }
 
     @Inject(at = @At("HEAD"), method = "spawnConditions()Lnet/minecraft/world/entity/variant/SpawnPrioritySelectors;", cancellable = true)
     private void spawnConditions__716426851(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-716426851L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "selectors()Ljava/util/List;", cancellable = true)
-    private void selectors_1816571811(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1816571811L))
             info.setReturnValue(null);
     }
 
@@ -46,6 +40,12 @@ public class CowVariant_190234996Mixin {
     @Inject(at = @At("HEAD"), method = "babyTexture()Lnet/minecraft/core/ClientAsset$ResourceTexture;", cancellable = true)
     private void babyTexture__1061946225(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1061946225L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "selectors()Ljava/util/List;", cancellable = true)
+    private void selectors_1816571811(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1816571811L))
             info.setReturnValue(null);
     }
 

@@ -25,6 +25,36 @@ public class TropicalFish1470353136Mixin {
             info.setReturnValue(net.minecraft.world.entity.animal.fish.TropicalFish.Pattern.FLOPPER);
     }
 
+    @Inject(at = @At("HEAD"), method = "checkTropicalFishSpawnRules(Lnet/minecraft/world/entity/EntityType;Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)Z", cancellable = true)
+    private static void checkTropicalFishSpawnRules_628089442(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(628089442L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isMaxGroupSizeReached(I)Z", cancellable = true)
+    private void isMaxGroupSizeReached__1610693344(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1610693344L))
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getPatternColor(I)Lnet/minecraft/world/item/DyeColor;", cancellable = true)
+    private static void getPatternColor_855532263(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(855532263L))
+            info.setReturnValue(net.minecraft.world.item.DyeColor.CYAN);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getPatternColor()Lnet/minecraft/world/item/DyeColor;", cancellable = true)
+    private void getPatternColor__1389305930(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1389305930L))
+            info.setReturnValue(net.minecraft.world.item.DyeColor.RED);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getPredefinedName(I)Ljava/lang/String;", cancellable = true)
+    private static void getPredefinedName_49483800(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(49483800L))
+            info.setReturnValue("mE84˅jCj5Wꐪaawh-PNW:(P_ZX#;饚ꅌF2y7?岛gl?뜮q湜z7/ t㱬n18=T@p]k;cfhLgLSbf,諗2,q萙efﶦි(}(G*{\"o3G");
+    }
+
     @Inject(at = @At("HEAD"), method = "saveToBucketTag(Lnet/minecraft/world/item/ItemStack;)V", cancellable = true)
     private void saveToBucketTag__1090082872(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1090082872L))
@@ -37,18 +67,6 @@ public class TropicalFish1470353136Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "isMaxGroupSizeReached(I)Z", cancellable = true)
-    private void isMaxGroupSizeReached__1610693344(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1610693344L))
-            info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "checkTropicalFishSpawnRules(Lnet/minecraft/world/entity/EntityType;Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)Z", cancellable = true)
-    private static void checkTropicalFishSpawnRules_628089442(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(628089442L))
-            info.setReturnValue(true);
-    }
-
     @Inject(at = @At("HEAD"), method = "getBaseColor(I)Lnet/minecraft/world/item/DyeColor;", cancellable = true)
     private static void getBaseColor_855532263(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(855532263L))
@@ -59,24 +77,6 @@ public class TropicalFish1470353136Mixin {
     private void getBaseColor__1389305930(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1389305930L))
             info.setReturnValue(net.minecraft.world.item.DyeColor.RED);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getPredefinedName(I)Ljava/lang/String;", cancellable = true)
-    private static void getPredefinedName_49483800(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(49483800L))
-            info.setReturnValue("mE84˅jCj5Wꐪaawh-PNW:(P_ZX#;饚ꅌF2y7?岛gl?뜮q湜z7/ t㱬n18=T@p]k;cfhLgLSbf,諗2,q萙efﶦි(}(G*{\"o3G");
-    }
-
-    @Inject(at = @At("HEAD"), method = "getPatternColor()Lnet/minecraft/world/item/DyeColor;", cancellable = true)
-    private void getPatternColor__1389305930(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1389305930L))
-            info.setReturnValue(net.minecraft.world.item.DyeColor.RED);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getPatternColor(I)Lnet/minecraft/world/item/DyeColor;", cancellable = true)
-    private static void getPatternColor_855532263(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(855532263L))
-            info.setReturnValue(net.minecraft.world.item.DyeColor.CYAN);
     }
 
     @Inject(at = @At("HEAD"), method = "finalizeSpawn(Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData;", cancellable = true)

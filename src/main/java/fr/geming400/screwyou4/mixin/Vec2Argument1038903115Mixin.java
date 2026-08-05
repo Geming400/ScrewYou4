@@ -19,15 +19,9 @@ public class Vec2Argument1038903115Mixin {
             info.setReturnValue(new java.lang.Object());
     }
 
-    @Inject(at = @At("HEAD"), method = "vec2(Z)Lnet/minecraft/commands/arguments/coordinates/Vec2Argument;", cancellable = true)
-    private static void vec2__389753354(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-389753354L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "vec2()Lnet/minecraft/commands/arguments/coordinates/Vec2Argument;", cancellable = true)
-    private static void vec2__1751882132(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1751882132L))
+    @Inject(at = @At("HEAD"), method = "getExamples()Ljava/util/Collection;", cancellable = true)
+    private void getExamples__774745157(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-774745157L))
             info.setReturnValue(null);
     }
 
@@ -37,9 +31,15 @@ public class Vec2Argument1038903115Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getExamples()Ljava/util/Collection;", cancellable = true)
-    private void getExamples__774745157(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-774745157L))
+    @Inject(at = @At("HEAD"), method = "vec2()Lnet/minecraft/commands/arguments/coordinates/Vec2Argument;", cancellable = true)
+    private static void vec2__1751882132(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1751882132L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "vec2(Z)Lnet/minecraft/commands/arguments/coordinates/Vec2Argument;", cancellable = true)
+    private static void vec2__389753354(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-389753354L))
             info.setReturnValue(null);
     }
 

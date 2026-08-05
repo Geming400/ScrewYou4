@@ -7,13 +7,7 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.world.level.levelgen.structure.structures.NetherFortressPieces.CastleStalkRoom.class)
 public class CastleStalkRoom1599595429Mixin {
-        @Inject(at = @At("HEAD"), method = "postProcess(Lnet/minecraft/world/level/WorldGenLevel;Lnet/minecraft/world/level/StructureManager;Lnet/minecraft/world/level/chunk/ChunkGenerator;Lnet/minecraft/util/RandomSource;Lnet/minecraft/world/level/levelgen/structure/BoundingBox;Lnet/minecraft/world/level/ChunkPos;Lnet/minecraft/core/BlockPos;)V", cancellable = true)
-    private void postProcess__620827514(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-620827514L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "addChildren(Lnet/minecraft/world/level/levelgen/structure/StructurePiece;Lnet/minecraft/world/level/levelgen/structure/StructurePieceAccessor;Lnet/minecraft/util/RandomSource;)V", cancellable = true)
+        @Inject(at = @At("HEAD"), method = "addChildren(Lnet/minecraft/world/level/levelgen/structure/StructurePiece;Lnet/minecraft/world/level/levelgen/structure/StructurePieceAccessor;Lnet/minecraft/util/RandomSource;)V", cancellable = true)
     private void addChildren_1844459391(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1844459391L))
             info.cancel();
@@ -23,6 +17,12 @@ public class CastleStalkRoom1599595429Mixin {
     private static void createPiece_2081125536(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2081125536L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "postProcess(Lnet/minecraft/world/level/WorldGenLevel;Lnet/minecraft/world/level/StructureManager;Lnet/minecraft/world/level/chunk/ChunkGenerator;Lnet/minecraft/util/RandomSource;Lnet/minecraft/world/level/levelgen/structure/BoundingBox;Lnet/minecraft/world/level/ChunkPos;Lnet/minecraft/core/BlockPos;)V", cancellable = true)
+    private void postProcess__620827514(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-620827514L))
+            info.cancel();
     }
 
 

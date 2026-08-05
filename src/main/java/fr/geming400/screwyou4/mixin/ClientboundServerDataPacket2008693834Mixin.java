@@ -28,7 +28,7 @@ public class ClientboundServerDataPacket2008693834Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2046956576(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2046956576L))
-            info.setReturnValue(1251210166);
+            info.setReturnValue(388717666);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/PacketListener;)V", cancellable = true)
@@ -43,15 +43,15 @@ public class ClientboundServerDataPacket2008693834Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "iconBytes()Ljava/util/Optional;", cancellable = true)
-    private void iconBytes__2040812040(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2040812040L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "motd()Lnet/minecraft/network/chat/Component;", cancellable = true)
     private void motd__168215331(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-168215331L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "iconBytes()Ljava/util/Optional;", cancellable = true)
+    private void iconBytes__2040812040(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2040812040L))
             info.setReturnValue(null);
     }
 

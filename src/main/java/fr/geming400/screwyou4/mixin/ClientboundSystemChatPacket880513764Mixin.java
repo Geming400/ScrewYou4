@@ -28,7 +28,7 @@ public class ClientboundSystemChatPacket880513764Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_918776506(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(918776506L))
-            info.setReturnValue(1649683324);
+            info.setReturnValue(1890266024);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/protocol/game/ClientGamePacketListener;)V", cancellable = true)
@@ -49,14 +49,14 @@ public class ClientboundSystemChatPacket880513764Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "overlay()Z", cancellable = true)
-    private void overlay_918792347(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "isSkippable()Z", cancellable = true)
+    private void isSkippable_918792347(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(918792347L))
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "isSkippable()Z", cancellable = true)
-    private void isSkippable_918792347(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "overlay()Z", cancellable = true)
+    private void overlay_918792347(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(918792347L))
             info.setReturnValue(true);
     }

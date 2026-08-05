@@ -55,9 +55,9 @@ public class TelemetryEventType1253208409Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "isOptIn()Z", cancellable = true)
-    private void isOptIn_1291486992(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1291486992L))
+    @Inject(at = @At("HEAD"), method = "selfTest()Z", cancellable = true)
+    private static void selfTest_1291487240(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1291487240L))
             info.setReturnValue(false);
     }
 
@@ -73,9 +73,9 @@ public class TelemetryEventType1253208409Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "selfTest()Z", cancellable = true)
-    private static void selfTest_1291487240(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1291487240L))
+    @Inject(at = @At("HEAD"), method = "isOptIn()Z", cancellable = true)
+    private void isOptIn_1291486992(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1291486992L))
             info.setReturnValue(false);
     }
 

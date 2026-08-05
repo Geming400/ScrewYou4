@@ -10,7 +10,7 @@ public class DataComponentPatch_547360237Mixin {
         @Inject(at = @At("HEAD"), method = "size()I", cancellable = true)
     private void size_585622482(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(585622482L))
-            info.setReturnValue(-1690376629);
+            info.setReturnValue(-1599475529);
     }
 
     @Inject(at = @At("HEAD"), method = "get(Lnet/minecraft/core/component/DataComponentGetter;Lnet/minecraft/core/component/DataComponentType;)Ljava/lang/Object;", cancellable = true)
@@ -34,7 +34,7 @@ public class DataComponentPatch_547360237Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_585622482(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(585622482L))
-            info.setReturnValue(-1690376629);
+            info.setReturnValue(-1599475529);
     }
 
     @Inject(at = @At("HEAD"), method = "isEmpty()Z", cancellable = true)

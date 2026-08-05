@@ -22,13 +22,13 @@ public class MultiplyValue_1245604721Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1283867462(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1283867462L))
-            info.setReturnValue(-353246912);
+            info.setReturnValue(-1204033712);
     }
 
     @Inject(at = @At("HEAD"), method = "process(ILnet/minecraft/util/RandomSource;F)F", cancellable = true)
     private void process_2137196706(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2137196706L))
-            info.setReturnValue(9.33506E8F);
+            info.setReturnValue(8.27192E7F);
     }
 
     @Inject(at = @At("HEAD"), method = "factor()Lnet/minecraft/world/item/enchantment/LevelBasedValue;", cancellable = true)

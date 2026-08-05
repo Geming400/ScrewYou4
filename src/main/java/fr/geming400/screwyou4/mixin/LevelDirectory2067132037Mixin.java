@@ -22,7 +22,7 @@ public class LevelDirectory2067132037Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2105394779(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2105394779L))
-            info.setReturnValue(1493378023);
+            info.setReturnValue(1844844123);
     }
 
     @Inject(at = @At("HEAD"), method = "path()Ljava/nio/file/Path;", cancellable = true)
@@ -37,8 +37,14 @@ public class LevelDirectory2067132037Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "iconFile()Ljava/nio/file/Path;", cancellable = true)
-    private void iconFile_932768355(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "dataFile()Ljava/nio/file/Path;", cancellable = true)
+    private void dataFile_932768355(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(932768355L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "lockFile()Ljava/nio/file/Path;", cancellable = true)
+    private void lockFile_932768355(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(932768355L))
             info.setReturnValue(null);
     }
@@ -67,14 +73,8 @@ public class LevelDirectory2067132037Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "lockFile()Ljava/nio/file/Path;", cancellable = true)
-    private void lockFile_932768355(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(932768355L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "dataFile()Ljava/nio/file/Path;", cancellable = true)
-    private void dataFile_932768355(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "iconFile()Ljava/nio/file/Path;", cancellable = true)
+    private void iconFile_932768355(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(932768355L))
             info.setReturnValue(null);
     }

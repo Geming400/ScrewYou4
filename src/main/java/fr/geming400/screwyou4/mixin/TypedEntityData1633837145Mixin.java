@@ -28,7 +28,7 @@ public class TypedEntityData1633837145Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1672099391(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1672099391L))
-            info.setReturnValue(712498172);
+            info.setReturnValue(747068272);
     }
 
     @Inject(at = @At("HEAD"), method = "of(Ljava/lang/Object;Lnet/minecraft/nbt/CompoundTag;)Lnet/minecraft/world/item/component/TypedEntityData;", cancellable = true)
@@ -61,16 +61,16 @@ public class TypedEntityData1633837145Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "addToTooltip(Lnet/minecraft/world/item/Item$TooltipContext;Ljava/util/function/Consumer;Lnet/minecraft/world/item/TooltipFlag;Lnet/minecraft/core/component/DataComponentGetter;)V", cancellable = true)
-    private void addToTooltip__908881245(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-908881245L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "copyTagWithoutId()Lnet/minecraft/nbt/CompoundTag;", cancellable = true)
     private void copyTagWithoutId_63614225(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(63614225L))
             info.setReturnValue(new net.minecraft.nbt.CompoundTag());
+    }
+
+    @Inject(at = @At("HEAD"), method = "loadInto(Lnet/minecraft/world/entity/Entity;)V", cancellable = true)
+    private void loadInto_1182112485(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1182112485L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "loadInto(Lnet/minecraft/world/level/block/entity/BlockEntity;Lnet/minecraft/core/HolderLookup$Provider;)Z", cancellable = true)
@@ -79,9 +79,9 @@ public class TypedEntityData1633837145Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "loadInto(Lnet/minecraft/world/entity/Entity;)V", cancellable = true)
-    private void loadInto_1182112485(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1182112485L))
+    @Inject(at = @At("HEAD"), method = "addToTooltip(Lnet/minecraft/world/item/Item$TooltipContext;Ljava/util/function/Consumer;Lnet/minecraft/world/item/TooltipFlag;Lnet/minecraft/core/component/DataComponentGetter;)V", cancellable = true)
+    private void addToTooltip__908881245(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-908881245L))
             info.cancel();
     }
 

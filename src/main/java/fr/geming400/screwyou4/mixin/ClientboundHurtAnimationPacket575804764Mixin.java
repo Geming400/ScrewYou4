@@ -28,13 +28,13 @@ public class ClientboundHurtAnimationPacket575804764Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_614067506(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(614067506L))
-            info.setReturnValue(788665649);
+            info.setReturnValue(896605549);
     }
 
     @Inject(at = @At("HEAD"), method = "id()I", cancellable = true)
     private void id_614067010(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(614067010L))
-            info.setReturnValue(967189138);
+            info.setReturnValue(1075129038);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/protocol/game/ClientGamePacketListener;)V", cancellable = true)
@@ -52,7 +52,7 @@ public class ClientboundHurtAnimationPacket575804764Mixin {
     @Inject(at = @At("HEAD"), method = "yaw()F", cancellable = true)
     private void yaw_614064127(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(614064127L))
-            info.setReturnValue(8.19162E8F);
+            info.setReturnValue(9.271019E8F);
     }
 
 

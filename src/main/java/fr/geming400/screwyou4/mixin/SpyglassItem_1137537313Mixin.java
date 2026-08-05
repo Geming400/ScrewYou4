@@ -13,10 +13,10 @@ public class SpyglassItem_1137537313Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getUseAnimation(Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/world/item/ItemUseAnimation;", cancellable = true)
-    private void getUseAnimation_1697368846(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1697368846L))
-            info.setReturnValue(net.minecraft.world.item.ItemUseAnimation.NONE);
+    @Inject(at = @At("HEAD"), method = "getUseDuration(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/LivingEntity;)I", cancellable = true)
+    private void getUseDuration_240356657(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(240356657L))
+            info.setReturnValue(-79474399);
     }
 
     @Inject(at = @At("HEAD"), method = "releaseUsing(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/LivingEntity;I)Z", cancellable = true)
@@ -25,16 +25,16 @@ public class SpyglassItem_1137537313Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "getUseDuration(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/LivingEntity;)I", cancellable = true)
-    private void getUseDuration_240356657(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(240356657L))
-            info.setReturnValue(-21542099);
-    }
-
     @Inject(at = @At("HEAD"), method = "finishUsingItem(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/LivingEntity;)Lnet/minecraft/world/item/ItemStack;", cancellable = true)
     private void finishUsingItem__97455618(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-97455618L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getUseAnimation(Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/world/item/ItemUseAnimation;", cancellable = true)
+    private void getUseAnimation_1697368846(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1697368846L))
+            info.setReturnValue(net.minecraft.world.item.ItemUseAnimation.NONE);
     }
 
 

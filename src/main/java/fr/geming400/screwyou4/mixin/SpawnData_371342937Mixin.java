@@ -22,7 +22,19 @@ public class SpawnData_371342937Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_409605678(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(409605678L))
-            info.setReturnValue(658845596);
+            info.setReturnValue(603920096);
+    }
+
+    @Inject(at = @At("HEAD"), method = "entityToSpawn()Lnet/minecraft/nbt/CompoundTag;", cancellable = true)
+    private void entityToSpawn__1198879984(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1198879984L))
+            info.setReturnValue(new net.minecraft.nbt.CompoundTag());
+    }
+
+    @Inject(at = @At("HEAD"), method = "customSpawnRules()Ljava/util/Optional;", cancellable = true)
+    private void customSpawnRules_616804358(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(616804358L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "equipment()Ljava/util/Optional;", cancellable = true)
@@ -47,18 +59,6 @@ public class SpawnData_371342937Mixin {
     private void getCustomSpawnRules_616804358(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(616804358L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "customSpawnRules()Ljava/util/Optional;", cancellable = true)
-    private void customSpawnRules_616804358(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(616804358L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "entityToSpawn()Lnet/minecraft/nbt/CompoundTag;", cancellable = true)
-    private void entityToSpawn__1198879984(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1198879984L))
-            info.setReturnValue(new net.minecraft.nbt.CompoundTag());
     }
 
 

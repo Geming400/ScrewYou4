@@ -31,20 +31,8 @@ public class GuiRenderState658491334Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getItemModelIdentities()Ljava/util/Set;", cancellable = true)
-    private void getItemModelIdentities__1170544152(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1170544152L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "forEachItem(Ljava/util/function/Consumer;)V", cancellable = true)
     private void forEachItem_1339507747(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1339507747L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "forEachPictureInPicture(Ljava/util/function/Consumer;)V", cancellable = true)
-    private void forEachPictureInPicture_1339507747(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1339507747L))
             info.cancel();
     }
@@ -67,14 +55,14 @@ public class GuiRenderState658491334Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "nextStratum()V", cancellable = true)
-    private void nextStratum_696766073(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(696766073L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "getItemModelIdentities()Ljava/util/Set;", cancellable = true)
+    private void getItemModelIdentities__1170544152(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1170544152L))
+            info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "forEachText(Ljava/util/function/Consumer;)V", cancellable = true)
-    private void forEachText_1339507747(CallbackInfo info) {
+    @Inject(at = @At("HEAD"), method = "forEachPictureInPicture(Ljava/util/function/Consumer;)V", cancellable = true)
+    private void forEachPictureInPicture_1339507747(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1339507747L))
             info.cancel();
     }
@@ -85,15 +73,27 @@ public class GuiRenderState658491334Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "addPicturesInPictureState(Lnet/minecraft/client/renderer/state/gui/pip/PictureInPictureRenderState;)V", cancellable = true)
-    private void addPicturesInPictureState__851327402(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-851327402L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "blurBeforeThisStratum()V", cancellable = true)
     private void blurBeforeThisStratum_696766073(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(696766073L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "forEachText(Ljava/util/function/Consumer;)V", cancellable = true)
+    private void forEachText_1339507747(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1339507747L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "nextStratum()V", cancellable = true)
+    private void nextStratum_696766073(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(696766073L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "addPicturesInPictureState(Lnet/minecraft/client/renderer/state/gui/pip/PictureInPictureRenderState;)V", cancellable = true)
+    private void addPicturesInPictureState__851327402(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-851327402L))
             info.cancel();
     }
 

@@ -34,7 +34,7 @@ public class FixedFormat_164504851Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_202767592(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(202767592L))
-            info.setReturnValue(1472466879);
+            info.setReturnValue(1851562779);
     }
 
     @Inject(at = @At("HEAD"), method = "format(I)Lnet/minecraft/network/chat/MutableComponent;", cancellable = true)

@@ -22,7 +22,7 @@ public class OffsetFromOwner1920884220Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1959146962(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1959146962L))
-            info.setReturnValue(1461590613);
+            info.setReturnValue(1604313113);
     }
 
     @Inject(at = @At("HEAD"), method = "position()Lnet/minecraft/world/phys/Vec3;", cancellable = true)
@@ -52,7 +52,7 @@ public class OffsetFromOwner1920884220Mixin {
     @Inject(at = @At("HEAD"), method = "getVisualRotationYInDegrees()F", cancellable = true)
     private void getVisualRotationYInDegrees_1959143583(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1959143583L))
-            info.setReturnValue(4.02413E8F);
+            info.setReturnValue(5.451355E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "asLivingEntity()Lnet/minecraft/world/entity/LivingEntity;", cancellable = true)

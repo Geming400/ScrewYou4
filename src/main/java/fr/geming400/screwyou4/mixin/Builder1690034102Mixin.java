@@ -13,15 +13,15 @@ public class Builder1690034102Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "terrainAdapation(Lnet/minecraft/world/level/levelgen/structure/TerrainAdjustment;)Lnet/minecraft/world/level/levelgen/structure/Structure$StructureSettings$Builder;", cancellable = true)
-    private void terrainAdapation_546713019(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(546713019L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "generationStep(Lnet/minecraft/world/level/levelgen/GenerationStep$Decoration;)Lnet/minecraft/world/level/levelgen/structure/Structure$StructureSettings$Builder;", cancellable = true)
     private void generationStep_1671561733(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1671561733L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "terrainAdapation(Lnet/minecraft/world/level/levelgen/structure/TerrainAdjustment;)Lnet/minecraft/world/level/levelgen/structure/Structure$StructureSettings$Builder;", cancellable = true)
+    private void terrainAdapation_546713019(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(546713019L))
             info.setReturnValue(null);
     }
 

@@ -28,13 +28,13 @@ public class DataValue_1440894554Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1479157295(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1479157295L))
-            info.setReturnValue(1771351971);
+            info.setReturnValue(1431893771);
     }
 
     @Inject(at = @At("HEAD"), method = "id()I", cancellable = true)
     private void id_1479156799(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1479156799L))
-            info.setReturnValue(1974499390);
+            info.setReturnValue(1635041190);
     }
 
     @Inject(at = @At("HEAD"), method = "write(Lnet/minecraft/network/RegistryFriendlyByteBuf;)V", cancellable = true)

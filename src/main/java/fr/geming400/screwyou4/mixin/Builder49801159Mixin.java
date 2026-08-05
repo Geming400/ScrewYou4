@@ -19,12 +19,6 @@ public class Builder49801159Mixin {
             info.setReturnValue(new net.minecraft.advancements.predicates.entity.PlayerPredicate$Builder());
     }
 
-    @Inject(at = @At("HEAD"), method = "addRecipe(Lnet/minecraft/resources/ResourceKey;Z)Lnet/minecraft/advancements/predicates/entity/PlayerPredicate$Builder;", cancellable = true)
-    private void addRecipe_550880675(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(550880675L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "player()Lnet/minecraft/advancements/predicates/entity/PlayerPredicate$Builder;", cancellable = true)
     private static void player__1245876511(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1245876511L))
@@ -37,22 +31,10 @@ public class Builder49801159Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "setLookingAt(Lnet/minecraft/advancements/predicates/entity/EntityPredicate$Builder;)Lnet/minecraft/advancements/predicates/entity/PlayerPredicate$Builder;", cancellable = true)
-    private void setLookingAt__2071247196(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2071247196L))
+    @Inject(at = @At("HEAD"), method = "addRecipe(Lnet/minecraft/resources/ResourceKey;Z)Lnet/minecraft/advancements/predicates/entity/PlayerPredicate$Builder;", cancellable = true)
+    private void addRecipe_550880675(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(550880675L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "checkAdvancementDone(Lnet/minecraft/resources/Identifier;Z)Lnet/minecraft/advancements/predicates/entity/PlayerPredicate$Builder;", cancellable = true)
-    private void checkAdvancementDone__1122264409(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1122264409L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "checkAdvancementCriterions(Lnet/minecraft/resources/Identifier;Ljava/util/Map;)Lnet/minecraft/advancements/predicates/entity/PlayerPredicate$Builder;", cancellable = true)
-    private void checkAdvancementCriterions_1750434326(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1750434326L))
-            info.setReturnValue(new net.minecraft.advancements.predicates.entity.PlayerPredicate$Builder());
     }
 
     @Inject(at = @At("HEAD"), method = "setFood(Lnet/minecraft/advancements/predicates/FoodPredicate;)Lnet/minecraft/advancements/predicates/entity/PlayerPredicate$Builder;", cancellable = true)
@@ -70,6 +52,24 @@ public class Builder49801159Mixin {
     @Inject(at = @At("HEAD"), method = "hasInput(Lnet/minecraft/advancements/predicates/InputPredicate;)Lnet/minecraft/advancements/predicates/entity/PlayerPredicate$Builder;", cancellable = true)
     private void hasInput_603735730(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(603735730L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "setLookingAt(Lnet/minecraft/advancements/predicates/entity/EntityPredicate$Builder;)Lnet/minecraft/advancements/predicates/entity/PlayerPredicate$Builder;", cancellable = true)
+    private void setLookingAt__2071247196(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2071247196L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "checkAdvancementCriterions(Lnet/minecraft/resources/Identifier;Ljava/util/Map;)Lnet/minecraft/advancements/predicates/entity/PlayerPredicate$Builder;", cancellable = true)
+    private void checkAdvancementCriterions_1750434326(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1750434326L))
+            info.setReturnValue(new net.minecraft.advancements.predicates.entity.PlayerPredicate$Builder());
+    }
+
+    @Inject(at = @At("HEAD"), method = "checkAdvancementDone(Lnet/minecraft/resources/Identifier;Z)Lnet/minecraft/advancements/predicates/entity/PlayerPredicate$Builder;", cancellable = true)
+    private void checkAdvancementDone__1122264409(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1122264409L))
             info.setReturnValue(null);
     }
 

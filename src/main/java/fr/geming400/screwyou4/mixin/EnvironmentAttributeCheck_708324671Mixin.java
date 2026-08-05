@@ -28,7 +28,7 @@ public class EnvironmentAttributeCheck_708324671Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_746587412(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(746587412L))
-            info.setReturnValue(-839386753);
+            info.setReturnValue(-310547253);
     }
 
     @Inject(at = @At("HEAD"), method = "test(Ljava/lang/Object;)Z", cancellable = true)
@@ -49,12 +49,6 @@ public class EnvironmentAttributeCheck_708324671Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "environmentAttribute(Lnet/minecraft/world/attribute/EnvironmentAttribute;Ljava/lang/Object;)Lnet/minecraft/world/level/storage/loot/predicates/LootItemCondition$Builder;", cancellable = true)
-    private static void environmentAttribute__1552324899(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1552324899L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
     private void codec__1850788902(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1850788902L))
@@ -64,6 +58,12 @@ public class EnvironmentAttributeCheck_708324671Mixin {
     @Inject(at = @At("HEAD"), method = "getReferencedContextParams()Ljava/util/Set;", cancellable = true)
     private void getReferencedContextParams__1120710816(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1120710816L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "environmentAttribute(Lnet/minecraft/world/attribute/EnvironmentAttribute;Ljava/lang/Object;)Lnet/minecraft/world/level/storage/loot/predicates/LootItemCondition$Builder;", cancellable = true)
+    private static void environmentAttribute__1552324899(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1552324899L))
             info.setReturnValue(null);
     }
 

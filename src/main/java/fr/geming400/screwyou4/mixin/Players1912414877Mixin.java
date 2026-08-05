@@ -22,25 +22,25 @@ public class Players1912414877Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1950677619(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1950677619L))
-            info.setReturnValue(-214559546);
+            info.setReturnValue(-489755646);
     }
 
     @Inject(at = @At("HEAD"), method = "max()I", cancellable = true)
     private void max_1950677123(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1950677123L))
-            info.setReturnValue(62459662);
-    }
-
-    @Inject(at = @At("HEAD"), method = "online()I", cancellable = true)
-    private void online_1950677123(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1950677123L))
-            info.setReturnValue(62459662);
+            info.setReturnValue(-212736438);
     }
 
     @Inject(at = @At("HEAD"), method = "sample()Ljava/util/List;", cancellable = true)
     private void sample__756215603(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-756215603L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "online()I", cancellable = true)
+    private void online_1950677123(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1950677123L))
+            info.setReturnValue(-212736438);
     }
 
 

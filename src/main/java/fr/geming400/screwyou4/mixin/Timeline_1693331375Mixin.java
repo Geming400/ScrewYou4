@@ -28,19 +28,7 @@ public class Timeline_1693331375Mixin {
     @Inject(at = @At("HEAD"), method = "getTotalTicks(Lnet/minecraft/world/clock/ClockManager;)J", cancellable = true)
     private void getTotalTicks__611369677(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-611369677L))
-            info.setReturnValue(8605184002610933284L);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getPeriodCount(Lnet/minecraft/world/clock/ClockManager;)I", cancellable = true)
-    private void getPeriodCount__611370638(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-611370638L))
-            info.setReturnValue(-1870513473);
-    }
-
-    @Inject(at = @At("HEAD"), method = "validateRegistry(Lnet/minecraft/core/Registry;Ljava/util/Map;)V", cancellable = true)
-    private static void validateRegistry_576713462(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(576713462L))
-            info.cancel();
+            info.setReturnValue(8605184002643201684L);
     }
 
     @Inject(at = @At("HEAD"), method = "periodTicks()Ljava/util/Optional;", cancellable = true)
@@ -49,10 +37,16 @@ public class Timeline_1693331375Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "validateRegistry(Lnet/minecraft/core/Registry;Ljava/util/Map;)V", cancellable = true)
+    private static void validateRegistry_576713462(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(576713462L))
+            info.cancel();
+    }
+
     @Inject(at = @At("HEAD"), method = "getCurrentTicks(Lnet/minecraft/world/clock/ClockManager;)J", cancellable = true)
     private void getCurrentTicks__611369677(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-611369677L))
-            info.setReturnValue(8605184002610933284L);
+            info.setReturnValue(8605184002643201684L);
     }
 
     @Inject(at = @At("HEAD"), method = "registerTimeMarkers(Ljava/util/function/BiConsumer;)V", cancellable = true)
@@ -65,6 +59,12 @@ public class Timeline_1693331375Mixin {
     private void createTrackSampler__161506144(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-161506144L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getPeriodCount(Lnet/minecraft/world/clock/ClockManager;)I", cancellable = true)
+    private void getPeriodCount__611370638(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-611370638L))
+            info.setReturnValue(-1838245073);
     }
 
 

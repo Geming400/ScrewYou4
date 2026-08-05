@@ -13,15 +13,15 @@ public class ClipContext_717232239Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getFluidShape(Lnet/minecraft/world/level/material/FluidState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/phys/shapes/VoxelShape;", cancellable = true)
-    private void getFluidShape_1639062067(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1639062067L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getBlockShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/phys/shapes/VoxelShape;", cancellable = true)
     private void getBlockShape__998314776(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-998314776L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getFluidShape(Lnet/minecraft/world/level/material/FluidState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/phys/shapes/VoxelShape;", cancellable = true)
+    private void getFluidShape_1639062067(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1639062067L))
             info.setReturnValue(null);
     }
 

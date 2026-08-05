@@ -25,15 +25,21 @@ public class VillagerTrades_577353861Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "enchantedBook(Lnet/minecraft/core/HolderGetter;Lnet/minecraft/core/HolderSet;)Ljava/util/List;", cancellable = true)
-    private static void enchantedBook__158842829(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-158842829L))
+    @Inject(at = @At("HEAD"), method = "enchantedItem(Lnet/minecraft/core/HolderGetter;Lnet/minecraft/core/Holder;ILnet/minecraft/world/item/Item;)Ljava/util/List;", cancellable = true)
+    private static void enchantedItem__1527735871(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1527735871L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "enchantedBook(Lnet/minecraft/core/HolderGetter;Lnet/minecraft/core/Holder;I)Ljava/util/List;", cancellable = true)
-    private static void enchantedBook__482956066(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-482956066L))
+    @Inject(at = @At("HEAD"), method = "enchantedItem(Lnet/minecraft/core/HolderGetter;Lnet/minecraft/core/HolderSet;Lnet/minecraft/world/item/Item;)Ljava/util/List;", cancellable = true)
+    private static void enchantedItem_1412553676(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1412553676L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "villagerTypeRestriction(Lnet/minecraft/core/HolderSet;)Ljava/util/Optional;", cancellable = true)
+    private static void villagerTypeRestriction__694640587(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-694640587L))
             info.setReturnValue(null);
     }
 
@@ -49,21 +55,15 @@ public class VillagerTrades_577353861Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "villagerTypeRestriction(Lnet/minecraft/core/HolderSet;)Ljava/util/Optional;", cancellable = true)
-    private static void villagerTypeRestriction__694640587(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-694640587L))
+    @Inject(at = @At("HEAD"), method = "enchantedBook(Lnet/minecraft/core/HolderGetter;Lnet/minecraft/core/Holder;I)Ljava/util/List;", cancellable = true)
+    private static void enchantedBook__482956066(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-482956066L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "enchantedItem(Lnet/minecraft/core/HolderGetter;Lnet/minecraft/core/HolderSet;Lnet/minecraft/world/item/Item;)Ljava/util/List;", cancellable = true)
-    private static void enchantedItem_1412553676(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1412553676L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "enchantedItem(Lnet/minecraft/core/HolderGetter;Lnet/minecraft/core/Holder;ILnet/minecraft/world/item/Item;)Ljava/util/List;", cancellable = true)
-    private static void enchantedItem__1527735871(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1527735871L))
+    @Inject(at = @At("HEAD"), method = "enchantedBook(Lnet/minecraft/core/HolderGetter;Lnet/minecraft/core/HolderSet;)Ljava/util/List;", cancellable = true)
+    private static void enchantedBook__158842829(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-158842829L))
             info.setReturnValue(null);
     }
 

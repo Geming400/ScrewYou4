@@ -19,10 +19,10 @@ public class DecoratedPotSpecialRenderer1893229520Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "extractArgument(Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/world/level/block/entity/PotDecorations;", cancellable = true)
-    private void extractArgument__533451587(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-533451587L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "getExtents(Ljava/util/function/Consumer;)V", cancellable = true)
+    private void getExtents__1720721363(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1720721363L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "extractArgument(Lnet/minecraft/world/item/ItemStack;)Ljava/lang/Object;", cancellable = true)
@@ -31,10 +31,10 @@ public class DecoratedPotSpecialRenderer1893229520Mixin {
             info.setReturnValue(new java.lang.Object());
     }
 
-    @Inject(at = @At("HEAD"), method = "getExtents(Ljava/util/function/Consumer;)V", cancellable = true)
-    private void getExtents__1720721363(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1720721363L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "extractArgument(Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/world/level/block/entity/PotDecorations;", cancellable = true)
+    private void extractArgument__533451587(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-533451587L))
+            info.setReturnValue(null);
     }
 
 

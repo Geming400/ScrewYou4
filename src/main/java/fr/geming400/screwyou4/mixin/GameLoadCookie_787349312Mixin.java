@@ -22,7 +22,7 @@ public class GameLoadCookie_787349312Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_825612053(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(825612053L))
-            info.setReturnValue(-128075977);
+            info.setReturnValue(-229003477);
     }
 
     @Inject(at = @At("HEAD"), method = "quickPlayData()Lnet/minecraft/client/main/GameConfig$QuickPlayData;", cancellable = true)

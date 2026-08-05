@@ -22,7 +22,7 @@ public class SavedPosition1745565376Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1783828118(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1783828118L))
-            info.setReturnValue(-879413293);
+            info.setReturnValue(-956763393);
     }
 
     @Inject(at = @At("HEAD"), method = "position()Ljava/util/Optional;", cancellable = true)
@@ -31,14 +31,14 @@ public class SavedPosition1745565376Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "rotation()Ljava/util/Optional;", cancellable = true)
-    private void rotation_1991026798(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "dimension()Ljava/util/Optional;", cancellable = true)
+    private void dimension_1991026798(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1991026798L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "dimension()Ljava/util/Optional;", cancellable = true)
-    private void dimension_1991026798(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "rotation()Ljava/util/Optional;", cancellable = true)
+    private void rotation_1991026798(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1991026798L))
             info.setReturnValue(null);
     }

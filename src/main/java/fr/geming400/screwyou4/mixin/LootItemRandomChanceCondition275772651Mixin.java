@@ -22,7 +22,7 @@ public class LootItemRandomChanceCondition275772651Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_314035393(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(314035393L))
-            info.setReturnValue(-1548027593);
+            info.setReturnValue(-1628622193);
     }
 
     @Inject(at = @At("HEAD"), method = "test(Ljava/lang/Object;)Z", cancellable = true)

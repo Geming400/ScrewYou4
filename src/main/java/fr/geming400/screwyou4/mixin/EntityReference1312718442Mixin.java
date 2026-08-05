@@ -22,7 +22,7 @@ public class EntityReference1312718442Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1350980688(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1350980688L))
-            info.setReturnValue(1379550352);
+            info.setReturnValue(1873372252);
     }
 
     @Inject(at = @At("HEAD"), method = "store(Lnet/minecraft/world/entity/EntityReference;Lnet/minecraft/world/level/storage/ValueOutput;Ljava/lang/String;)V", cancellable = true)
@@ -85,18 +85,6 @@ public class EntityReference1312718442Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "streamCodec()Lnet/minecraft/network/codec/StreamCodec;", cancellable = true)
-    private static void streamCodec__1721248482(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1721248482L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getLivingEntity(Lnet/minecraft/world/entity/EntityReference;Lnet/minecraft/world/level/Level;)Lnet/minecraft/world/entity/LivingEntity;", cancellable = true)
-    private static void getLivingEntity_2070267820(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2070267820L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getUUID()Ljava/util/UUID;", cancellable = true)
     private void getUUID_1723852925(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1723852925L))
@@ -106,6 +94,18 @@ public class EntityReference1312718442Mixin {
     @Inject(at = @At("HEAD"), method = "getPlayer(Lnet/minecraft/world/entity/EntityReference;Lnet/minecraft/world/level/Level;)Lnet/minecraft/world/entity/player/Player;", cancellable = true)
     private static void getPlayer__795603249(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-795603249L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getLivingEntity(Lnet/minecraft/world/entity/EntityReference;Lnet/minecraft/world/level/Level;)Lnet/minecraft/world/entity/LivingEntity;", cancellable = true)
+    private static void getLivingEntity_2070267820(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2070267820L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "streamCodec()Lnet/minecraft/network/codec/StreamCodec;", cancellable = true)
+    private static void streamCodec__1721248482(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1721248482L))
             info.setReturnValue(null);
     }
 

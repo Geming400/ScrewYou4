@@ -34,7 +34,7 @@ public class Argument2004104063Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2042366805(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2042366805L))
-            info.setReturnValue(1082517741);
+            info.setReturnValue(890188041);
     }
 
     @Inject(at = @At("HEAD"), method = "node()Lcom/mojang/brigadier/tree/ArgumentCommandNode;", cancellable = true)

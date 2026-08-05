@@ -22,7 +22,7 @@ public class ResetMobGrowthProvider1733369225Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1771631967(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1771631967L))
-            info.setReturnValue(1352346287);
+            info.setReturnValue(1587938787);
     }
 
     @Inject(at = @At("HEAD"), method = "sprite()Lnet/minecraft/client/particle/SpriteSet;", cancellable = true)

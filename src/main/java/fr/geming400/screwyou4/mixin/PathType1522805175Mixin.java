@@ -22,7 +22,7 @@ public class PathType1522805175Mixin {
     @Inject(at = @At("HEAD"), method = "getMalus()F", cancellable = true)
     private void getMalus_1561064538(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1561064538L))
-            info.setReturnValue(9.891275E8F);
+            info.setReturnValue(7.620763E8F);
     }
 
 

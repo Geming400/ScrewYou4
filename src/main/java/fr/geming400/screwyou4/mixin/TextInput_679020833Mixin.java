@@ -22,13 +22,13 @@ public class TextInput_679020833Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_717283574(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(717283574L))
-            info.setReturnValue(-416406046);
+            info.setReturnValue(-205992546);
     }
 
     @Inject(at = @At("HEAD"), method = "width()I", cancellable = true)
     private void width_717283078(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(717283078L))
-            info.setReturnValue(293440350);
+            info.setReturnValue(503853850);
     }
 
     @Inject(at = @At("HEAD"), method = "label()Lnet/minecraft/network/chat/Component;", cancellable = true)
@@ -40,7 +40,7 @@ public class TextInput_679020833Mixin {
     @Inject(at = @At("HEAD"), method = "maxLength()I", cancellable = true)
     private void maxLength_717283078(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(717283078L))
-            info.setReturnValue(293440350);
+            info.setReturnValue(503853850);
     }
 
     @Inject(at = @At("HEAD"), method = "multiline()Ljava/util/Optional;", cancellable = true)

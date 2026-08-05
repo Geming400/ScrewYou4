@@ -22,7 +22,7 @@ public class TickPriority1240614095Mixin {
     @Inject(at = @At("HEAD"), method = "getValue()I", cancellable = true)
     private void getValue_1278876341(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1278876341L))
-            info.setReturnValue(-904117969);
+            info.setReturnValue(-874061769);
     }
 
     @Inject(at = @At("HEAD"), method = "byValue(I)Lnet/minecraft/world/ticks/TickPriority;", cancellable = true)

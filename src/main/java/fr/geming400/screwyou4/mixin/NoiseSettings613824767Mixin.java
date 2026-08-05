@@ -22,7 +22,7 @@ public class NoiseSettings613824767Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_652087509(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(652087509L))
-            info.setReturnValue(1265177812);
+            info.setReturnValue(1709354612);
     }
 
     @Inject(at = @At("HEAD"), method = "create(IIII)Lnet/minecraft/world/level/levelgen/NoiseSettings;", cancellable = true)
@@ -31,16 +31,28 @@ public class NoiseSettings613824767Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getCellWidth()I", cancellable = true)
-    private void getCellWidth_652087013(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "height()I", cancellable = true)
+    private void height_652087013(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(652087013L))
-            info.setReturnValue(-132230193);
+            info.setReturnValue(311946607);
+    }
+
+    @Inject(at = @At("HEAD"), method = "minY()I", cancellable = true)
+    private void minY_652087013(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(652087013L))
+            info.setReturnValue(311946607);
     }
 
     @Inject(at = @At("HEAD"), method = "getCellHeight()I", cancellable = true)
     private void getCellHeight_652087013(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(652087013L))
-            info.setReturnValue(-132230193);
+            info.setReturnValue(311946607);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getCellWidth()I", cancellable = true)
+    private void getCellWidth_652087013(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(652087013L))
+            info.setReturnValue(311946607);
     }
 
     @Inject(at = @At("HEAD"), method = "clampToHeightAccessor(Lnet/minecraft/world/level/LevelHeightAccessor;)Lnet/minecraft/world/level/levelgen/NoiseSettings;", cancellable = true)
@@ -49,28 +61,16 @@ public class NoiseSettings613824767Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "noiseSizeVertical()I", cancellable = true)
-    private void noiseSizeVertical_652087013(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(652087013L))
-            info.setReturnValue(-132230193);
-    }
-
     @Inject(at = @At("HEAD"), method = "noiseSizeHorizontal()I", cancellable = true)
     private void noiseSizeHorizontal_652087013(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(652087013L))
-            info.setReturnValue(-132230193);
+            info.setReturnValue(311946607);
     }
 
-    @Inject(at = @At("HEAD"), method = "minY()I", cancellable = true)
-    private void minY_652087013(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "noiseSizeVertical()I", cancellable = true)
+    private void noiseSizeVertical_652087013(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(652087013L))
-            info.setReturnValue(-132230193);
-    }
-
-    @Inject(at = @At("HEAD"), method = "height()I", cancellable = true)
-    private void height_652087013(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(652087013L))
-            info.setReturnValue(-132230193);
+            info.setReturnValue(311946607);
     }
 
 

@@ -31,27 +31,27 @@ public class SinglePoolElement1816141418Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "getTemplateLocation()Lnet/minecraft/resources/Identifier;", cancellable = true)
-    private void getTemplateLocation__626925135(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-626925135L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getDataMarkers(Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplateManager;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/Rotation;Z)Ljava/util/List;", cancellable = true)
     private void getDataMarkers_2133501675(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2133501675L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getBoundingBox(Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplateManager;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/Rotation;)Lnet/minecraft/world/level/levelgen/structure/BoundingBox;", cancellable = true)
-    private void getBoundingBox_1776945401(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1776945401L))
+    @Inject(at = @At("HEAD"), method = "getTemplateLocation()Lnet/minecraft/resources/Identifier;", cancellable = true)
+    private void getTemplateLocation__626925135(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-626925135L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getShuffledJigsawBlocks(Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplateManager;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/Rotation;Lnet/minecraft/util/RandomSource;)Ljava/util/List;", cancellable = true)
     private void getShuffledJigsawBlocks_1183010453(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1183010453L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getBoundingBox(Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplateManager;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/Rotation;)Lnet/minecraft/world/level/levelgen/structure/BoundingBox;", cancellable = true)
+    private void getBoundingBox_1776945401(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1776945401L))
             info.setReturnValue(null);
     }
 

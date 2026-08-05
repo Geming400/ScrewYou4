@@ -22,7 +22,7 @@ public class TriggerInstance2035513846Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2073776588(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2073776588L))
-            info.setReturnValue(376627327);
+            info.setReturnValue(730226827);
     }
 
     @Inject(at = @At("HEAD"), method = "validate(Lnet/minecraft/world/level/storage/loot/ValidationContextSource;)V", cancellable = true)

@@ -25,12 +25,6 @@ public class CeilingHangingSignBlock547333711Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getAttachmentPoint(Z)Lnet/minecraft/world/level/block/HangingSignBlock$Attachment;", cancellable = true)
-    private static void getAttachmentPoint_1990138668(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1990138668L))
-            info.setReturnValue(net.minecraft.world.level.block.HangingSignBlock.Attachment.WALL);
-    }
-
     @Inject(at = @At("HEAD"), method = "attachmentPoint(Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/HangingSignBlock$Attachment;", cancellable = true)
     private void attachmentPoint_2077317081(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2077317081L))
@@ -40,7 +34,13 @@ public class CeilingHangingSignBlock547333711Mixin {
     @Inject(at = @At("HEAD"), method = "getYRotationDegrees(Lnet/minecraft/world/level/block/state/BlockState;)F", cancellable = true)
     private void getYRotationDegrees_402025505(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(402025505L))
-            info.setReturnValue(9.62508E8F);
+            info.setReturnValue(6.920511E8F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getAttachmentPoint(Z)Lnet/minecraft/world/level/block/HangingSignBlock$Attachment;", cancellable = true)
+    private static void getAttachmentPoint_1990138668(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1990138668L))
+            info.setReturnValue(net.minecraft.world.level.block.HangingSignBlock.Attachment.WALL);
     }
 
     @Inject(at = @At("HEAD"), method = "newBlockEntity(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/entity/BlockEntity;", cancellable = true)

@@ -34,7 +34,7 @@ public class ComponentMatches_699925092Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_738187833(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(738187833L))
-            info.setReturnValue(1339939232);
+            info.setReturnValue(1093209032);
     }
 
     @Inject(at = @At("HEAD"), method = "predicate()Lnet/minecraft/core/component/predicates/DataComponentPredicate$Single;", cancellable = true)

@@ -28,25 +28,19 @@ public class SpriteContents_1976435349Mixin {
     @Inject(at = @At("HEAD"), method = "width()I", cancellable = true)
     private void width_2014697594(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2014697594L))
-            info.setReturnValue(2072965064);
+            info.setReturnValue(1600925064);
+    }
+
+    @Inject(at = @At("HEAD"), method = "transparency()Lcom/mojang/blaze3d/platform/Transparency;", cancellable = true)
+    private void transparency__1961534471(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1961534471L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "height()I", cancellable = true)
     private void height_2014697594(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2014697594L))
-            info.setReturnValue(2072965064);
-    }
-
-    @Inject(at = @At("HEAD"), method = "increaseMipLevel(I)V", cancellable = true)
-    private void increaseMipLevel__1104614976(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1104614976L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "computeTransparency(FFFF)Lcom/mojang/blaze3d/platform/Transparency;", cancellable = true)
-    private void computeTransparency__704070023(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-704070023L))
-            info.setReturnValue(null);
+            info.setReturnValue(1601924964);
     }
 
     @Inject(at = @At("HEAD"), method = "isTransparent(III)Z", cancellable = true)
@@ -55,15 +49,27 @@ public class SpriteContents_1976435349Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "createAnimationState(Lcom/mojang/blaze3d/buffers/GpuBufferSlice;I)Lnet/minecraft/client/renderer/texture/SpriteContents$AnimationState;", cancellable = true)
-    private void createAnimationState__1021821979(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1021821979L))
+    @Inject(at = @At("HEAD"), method = "computeTransparency(FFFF)Lcom/mojang/blaze3d/platform/Transparency;", cancellable = true)
+    private void computeTransparency__704070023(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-704070023L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "uploadFirstFrame(Lcom/mojang/blaze3d/textures/GpuTexture;I)V", cancellable = true)
     private void uploadFirstFrame__358534036(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-358534036L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "createAnimationState(Lcom/mojang/blaze3d/buffers/GpuBufferSlice;I)Lnet/minecraft/client/renderer/texture/SpriteContents$AnimationState;", cancellable = true)
+    private void createAnimationState__1021821979(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1021821979L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "increaseMipLevel(I)V", cancellable = true)
+    private void increaseMipLevel__1104614976(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1104614976L))
             info.cancel();
     }
 
@@ -77,12 +83,6 @@ public class SpriteContents_1976435349Mixin {
     private void isAnimated_2014713931(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2014713931L))
             info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "transparency()Lcom/mojang/blaze3d/platform/Transparency;", cancellable = true)
-    private void transparency__1961534471(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1961534471L))
-            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getAdditionalMetadata(Lnet/minecraft/server/packs/metadata/MetadataSectionType;)Ljava/util/Optional;", cancellable = true)

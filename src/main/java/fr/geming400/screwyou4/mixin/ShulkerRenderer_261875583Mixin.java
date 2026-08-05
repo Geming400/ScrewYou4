@@ -7,7 +7,37 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.client.renderer.entity.ShulkerRenderer.class)
 public class ShulkerRenderer_261875583Mixin {
-        @Inject(at = @At("HEAD"), method = "shouldRender(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/client/renderer/culling/Frustum;DDD)Z", cancellable = true)
+        @Inject(at = @At("HEAD"), method = "getRenderOffset(Lnet/minecraft/client/renderer/entity/state/EntityRenderState;)Lnet/minecraft/world/phys/Vec3;", cancellable = true)
+    private void getRenderOffset_194408668(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(194408668L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getRenderOffset(Lnet/minecraft/client/renderer/entity/state/ShulkerRenderState;)Lnet/minecraft/world/phys/Vec3;", cancellable = true)
+    private void getRenderOffset_2114644433(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2114644433L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getTextureLocation(Lnet/minecraft/client/renderer/entity/state/LivingEntityRenderState;)Lnet/minecraft/resources/Identifier;", cancellable = true)
+    private void getTextureLocation__2030455081(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2030455081L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getTextureLocation(Lnet/minecraft/client/renderer/entity/state/ShulkerRenderState;)Lnet/minecraft/resources/Identifier;", cancellable = true)
+    private void getTextureLocation_265180843(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(265180843L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getTextureLocation(Lnet/minecraft/world/item/DyeColor;)Lnet/minecraft/resources/Identifier;", cancellable = true)
+    private static void getTextureLocation__2103199740(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2103199740L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "shouldRender(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/client/renderer/culling/Frustum;DDD)Z", cancellable = true)
     private void shouldRender__500716174(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-500716174L))
             info.setReturnValue(true);
@@ -37,46 +67,16 @@ public class ShulkerRenderer_261875583Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/EntityRenderState;", cancellable = true)
-    private void createRenderState__326760862(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-326760862L))
-            info.setReturnValue(new net.minecraft.client.renderer.entity.state.EntityRenderState());
-    }
-
     @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/ShulkerRenderState;", cancellable = true)
     private void createRenderState_2076226757(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2076226757L))
             info.setReturnValue(new net.minecraft.client.renderer.entity.state.ShulkerRenderState());
     }
 
-    @Inject(at = @At("HEAD"), method = "getRenderOffset(Lnet/minecraft/client/renderer/entity/state/EntityRenderState;)Lnet/minecraft/world/phys/Vec3;", cancellable = true)
-    private void getRenderOffset_194408668(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(194408668L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getRenderOffset(Lnet/minecraft/client/renderer/entity/state/ShulkerRenderState;)Lnet/minecraft/world/phys/Vec3;", cancellable = true)
-    private void getRenderOffset_2114644433(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2114644433L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getTextureLocation(Lnet/minecraft/client/renderer/entity/state/LivingEntityRenderState;)Lnet/minecraft/resources/Identifier;", cancellable = true)
-    private void getTextureLocation__2030455081(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2030455081L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getTextureLocation(Lnet/minecraft/client/renderer/entity/state/ShulkerRenderState;)Lnet/minecraft/resources/Identifier;", cancellable = true)
-    private void getTextureLocation_265180843(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(265180843L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getTextureLocation(Lnet/minecraft/world/item/DyeColor;)Lnet/minecraft/resources/Identifier;", cancellable = true)
-    private static void getTextureLocation__2103199740(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2103199740L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/EntityRenderState;", cancellable = true)
+    private void createRenderState__326760862(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-326760862L))
+            info.setReturnValue(new net.minecraft.client.renderer.entity.state.EntityRenderState());
     }
 
 

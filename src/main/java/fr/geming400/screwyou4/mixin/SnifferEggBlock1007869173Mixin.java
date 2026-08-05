@@ -37,16 +37,16 @@ public class SnifferEggBlock1007869173Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getHatchLevel(Lnet/minecraft/world/level/block/state/BlockState;)I", cancellable = true)
-    private void getHatchLevel_862563850(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(862563850L))
-            info.setReturnValue(1725371288);
-    }
-
     @Inject(at = @At("HEAD"), method = "hatchBoost(Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)Z", cancellable = true)
     private static void hatchBoost_430340445(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(430340445L))
             info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getHatchLevel(Lnet/minecraft/world/level/block/state/BlockState;)I", cancellable = true)
+    private void getHatchLevel_862563850(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(862563850L))
+            info.setReturnValue(1659355588);
     }
 
 

@@ -37,21 +37,15 @@ public class Builder_588112082Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "setRecreateRegionFiles(Z)Lnet/minecraft/util/worldupdate/RegionStorageUpgrader$Builder;", cancellable = true)
-    private void setRecreateRegionFiles__2104577938(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2104577938L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "setDefaultVersion(I)Lnet/minecraft/util/worldupdate/RegionStorageUpgrader$Builder;", cancellable = true)
     private void setDefaultVersion_1969661535(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1969661535L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "addTagModifier(ILnet/minecraft/util/worldupdate/RegionStorageUpgrader$TagModifier;)Lnet/minecraft/util/worldupdate/RegionStorageUpgrader$Builder;", cancellable = true)
-    private void addTagModifier__1122142419(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1122142419L))
+    @Inject(at = @At("HEAD"), method = "setRecreateRegionFiles(Z)Lnet/minecraft/util/worldupdate/RegionStorageUpgrader$Builder;", cancellable = true)
+    private void setRecreateRegionFiles__2104577938(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2104577938L))
             info.setReturnValue(null);
     }
 
@@ -61,15 +55,21 @@ public class Builder_588112082Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "setDataFixContextTag(Lnet/minecraft/nbt/CompoundTag;)Lnet/minecraft/util/worldupdate/RegionStorageUpgrader$Builder;", cancellable = true)
+    private void setDataFixContextTag__1300599027(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1300599027L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "setTypeAndFolderName(Ljava/lang/String;)Lnet/minecraft/util/worldupdate/RegionStorageUpgrader$Builder;", cancellable = true)
     private void setTypeAndFolderName_746128494(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(746128494L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "setDataFixContextTag(Lnet/minecraft/nbt/CompoundTag;)Lnet/minecraft/util/worldupdate/RegionStorageUpgrader$Builder;", cancellable = true)
-    private void setDataFixContextTag__1300599027(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1300599027L))
+    @Inject(at = @At("HEAD"), method = "addTagModifier(ILnet/minecraft/util/worldupdate/RegionStorageUpgrader$TagModifier;)Lnet/minecraft/util/worldupdate/RegionStorageUpgrader$Builder;", cancellable = true)
+    private void addTagModifier__1122142419(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1122142419L))
             info.setReturnValue(null);
     }
 

@@ -13,12 +13,6 @@ public class ArgumentTypeInfos1832148352Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "isClassRecognized(Ljava/lang/Class;)Z", cancellable = true)
-    private static void isClassRecognized_1731976290(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1731976290L))
-            info.setReturnValue(false);
-    }
-
     @Inject(at = @At("HEAD"), method = "byClass(Lcom/mojang/brigadier/arguments/ArgumentType;)Lnet/minecraft/commands/synchronization/ArgumentTypeInfo;", cancellable = true)
     private static void byClass__668223517(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-668223517L))
@@ -29,6 +23,12 @@ public class ArgumentTypeInfos1832148352Mixin {
     private static void unpack__1549141055(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1549141055L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isClassRecognized(Ljava/lang/Class;)Z", cancellable = true)
+    private static void isClassRecognized_1731976290(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1731976290L))
+            info.setReturnValue(false);
     }
 
 

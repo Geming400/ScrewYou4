@@ -22,7 +22,7 @@ public class Dyeable_1978821481Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2017084222(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2017084222L))
-            info.setReturnValue(1314322788);
+            info.setReturnValue(1633966688);
     }
 
     @Inject(at = @At("HEAD"), method = "colorWhenUndyed()Ljava/util/Optional;", cancellable = true)

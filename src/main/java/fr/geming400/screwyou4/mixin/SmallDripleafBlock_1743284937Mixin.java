@@ -31,16 +31,16 @@ public class SmallDripleafBlock_1743284937Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "isBonemealSuccess(Lnet/minecraft/world/level/Level;Lnet/minecraft/util/RandomSource;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Z", cancellable = true)
-    private void isBonemealSuccess__229628207(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-229628207L))
-            info.setReturnValue(false);
-    }
-
     @Inject(at = @At("HEAD"), method = "performBonemeal(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/util/RandomSource;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)V", cancellable = true)
     private void performBonemeal__399681617(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-399681617L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "isBonemealSuccess(Lnet/minecraft/world/level/Level;Lnet/minecraft/util/RandomSource;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Z", cancellable = true)
+    private void isBonemealSuccess__229628207(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-229628207L))
+            info.setReturnValue(false);
     }
 
 

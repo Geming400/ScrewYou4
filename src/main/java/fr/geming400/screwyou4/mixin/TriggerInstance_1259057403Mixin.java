@@ -22,7 +22,7 @@ public class TriggerInstance_1259057403Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1297320144(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1297320144L))
-            info.setReturnValue(-1778183585);
+            info.setReturnValue(-2040243685);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(D)Z", cancellable = true)

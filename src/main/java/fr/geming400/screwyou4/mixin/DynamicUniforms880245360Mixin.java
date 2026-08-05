@@ -19,15 +19,15 @@ public class DynamicUniforms880245360Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "writeTransforms([Lnet/minecraft/client/renderer/DynamicUniforms$Transform;)[Lcom/mojang/blaze3d/buffers/GpuBufferSlice;", cancellable = true)
-    private void writeTransforms_1104903852(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1104903852L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "writeChunkSections([Lnet/minecraft/client/renderer/DynamicUniforms$ChunkSectionInfo;)[Lcom/mojang/blaze3d/buffers/GpuBufferSlice;", cancellable = true)
     private void writeChunkSections__411515236(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-411515236L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "writeTransforms([Lnet/minecraft/client/renderer/DynamicUniforms$Transform;)[Lcom/mojang/blaze3d/buffers/GpuBufferSlice;", cancellable = true)
+    private void writeTransforms_1104903852(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1104903852L))
             info.setReturnValue(null);
     }
 

@@ -16,7 +16,7 @@ public class DifficultyCommand299731458Mixin {
     @Inject(at = @At("HEAD"), method = "setDifficulty(Lnet/minecraft/commands/CommandSourceStack;Lnet/minecraft/world/Difficulty;)I", cancellable = true)
     private static void setDifficulty_989992261(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(989992261L))
-            info.setReturnValue(1507480415);
+            info.setReturnValue(1053870215);
     }
 
 

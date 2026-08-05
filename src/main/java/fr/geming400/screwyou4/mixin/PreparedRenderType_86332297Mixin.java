@@ -22,7 +22,13 @@ public class PreparedRenderType_86332297Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_124595038(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(124595038L))
-            info.setReturnValue(2063451572);
+            info.setReturnValue(-2136642724);
+    }
+
+    @Inject(at = @At("HEAD"), method = "outputTarget()Lnet/minecraft/client/renderer/rendertype/OutputTarget;", cancellable = true)
+    private void outputTarget__1654031945(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1654031945L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "textures()Ljava/util/List;", cancellable = true)
@@ -37,18 +43,6 @@ public class PreparedRenderType_86332297Mixin {
             info.setReturnValue(new com.mojang.blaze3d.systems.ScissorState());
     }
 
-    @Inject(at = @At("HEAD"), method = "dynamicTransforms()Lcom/mojang/blaze3d/buffers/GpuBufferSlice;", cancellable = true)
-    private void dynamicTransforms__1857608609(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1857608609L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "outputTarget()Lnet/minecraft/client/renderer/rendertype/OutputTarget;", cancellable = true)
-    private void outputTarget__1654031945(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1654031945L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "drawFromBuffer(Lnet/minecraft/client/renderer/StagedVertexBuffer$ExecuteInfo;)V", cancellable = true)
     private void drawFromBuffer_467192453(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(467192453L))
@@ -59,6 +53,12 @@ public class PreparedRenderType_86332297Mixin {
     private void drawFromBuffer_1564018706(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1564018706L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "dynamicTransforms()Lcom/mojang/blaze3d/buffers/GpuBufferSlice;", cancellable = true)
+    private void dynamicTransforms__1857608609(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1857608609L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "pipeline()Lcom/mojang/blaze3d/pipeline/RenderPipeline;", cancellable = true)

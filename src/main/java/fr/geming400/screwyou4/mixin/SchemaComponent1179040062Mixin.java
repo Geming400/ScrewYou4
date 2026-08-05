@@ -28,7 +28,7 @@ public class SchemaComponent1179040062Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1217302804(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1217302804L))
-            info.setReturnValue(-1685432917);
+            info.setReturnValue(-1761032317);
     }
 
     @Inject(at = @At("HEAD"), method = "ref()Ljava/net/URI;", cancellable = true)

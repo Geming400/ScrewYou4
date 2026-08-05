@@ -22,7 +22,7 @@ public class LocationBasedEffects1957746586Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1996009328(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1996009328L))
-            info.setReturnValue(375745019);
+            info.setReturnValue(919716219);
     }
 
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)

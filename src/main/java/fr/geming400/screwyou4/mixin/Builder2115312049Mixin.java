@@ -67,16 +67,16 @@ public class Builder2115312049Mixin {
             info.setReturnValue(new net.minecraft.advancements.Advancement$Builder());
     }
 
-    @Inject(at = @At("HEAD"), method = "sendsTelemetryEvent()Lnet/minecraft/advancements/Advancement$Builder;", cancellable = true)
-    private void sendsTelemetryEvent_1745057360(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1745057360L))
-            info.setReturnValue(new net.minecraft.advancements.Advancement$Builder());
-    }
-
     @Inject(at = @At("HEAD"), method = "addCriterion(Ljava/lang/String;Lnet/minecraft/advancements/triggers/Criterion;)Lnet/minecraft/advancements/Advancement$Builder;", cancellable = true)
     private void addCriterion_1040073112(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1040073112L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "sendsTelemetryEvent()Lnet/minecraft/advancements/Advancement$Builder;", cancellable = true)
+    private void sendsTelemetryEvent_1745057360(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1745057360L))
+            info.setReturnValue(new net.minecraft.advancements.Advancement$Builder());
     }
 
     @Inject(at = @At("HEAD"), method = "recipeAdvancement()Lnet/minecraft/advancements/Advancement$Builder;", cancellable = true)

@@ -22,7 +22,7 @@ public class LifetimeAlpha1200731439Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1238994181(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1238994181L))
-            info.setReturnValue(-261042430);
+            info.setReturnValue(-584641030);
     }
 
     @Inject(at = @At("HEAD"), method = "isOpaque()Z", cancellable = true)
@@ -34,31 +34,31 @@ public class LifetimeAlpha1200731439Mixin {
     @Inject(at = @At("HEAD"), method = "currentAlphaForAge(IIF)F", cancellable = true)
     private void currentAlphaForAge_417853096(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(417853096L))
-            info.setReturnValue(3.823521E8F);
+            info.setReturnValue(5.87535E7F);
     }
 
     @Inject(at = @At("HEAD"), method = "endAtNormalizedAge()F", cancellable = true)
     private void endAtNormalizedAge_1238990802(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1238990802L))
-            info.setReturnValue(3.823521E8F);
+            info.setReturnValue(5.87535E7F);
     }
 
     @Inject(at = @At("HEAD"), method = "startAtNormalizedAge()F", cancellable = true)
     private void startAtNormalizedAge_1238990802(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1238990802L))
-            info.setReturnValue(3.833236E8F);
+            info.setReturnValue(5.87535E7F);
     }
 
     @Inject(at = @At("HEAD"), method = "startAlpha()F", cancellable = true)
     private void startAlpha_1238990802(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1238990802L))
-            info.setReturnValue(3.833236E8F);
+            info.setReturnValue(5.87535E7F);
     }
 
     @Inject(at = @At("HEAD"), method = "endAlpha()F", cancellable = true)
     private void endAlpha_1238990802(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1238990802L))
-            info.setReturnValue(3.833236E8F);
+            info.setReturnValue(5.87535E7F);
     }
 
 

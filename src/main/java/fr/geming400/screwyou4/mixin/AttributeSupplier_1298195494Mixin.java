@@ -10,7 +10,7 @@ public class AttributeSupplier_1298195494Mixin {
         @Inject(at = @At("HEAD"), method = "getValue(Lnet/minecraft/core/Holder;)D", cancellable = true)
     private void getValue__1450313963(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1450313963L))
-            info.setReturnValue(9.292048005893586E8D);
+            info.setReturnValue(3.5628400589358605E7D);
     }
 
     @Inject(at = @At("HEAD"), method = "builder()Lnet/minecraft/world/entity/ai/attributes/AttributeSupplier$Builder;", cancellable = true)
@@ -34,7 +34,7 @@ public class AttributeSupplier_1298195494Mixin {
     @Inject(at = @At("HEAD"), method = "getBaseValue(Lnet/minecraft/core/Holder;)D", cancellable = true)
     private void getBaseValue__1450313963(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1450313963L))
-            info.setReturnValue(9.292048005893586E8D);
+            info.setReturnValue(3.6638000589358605E7D);
     }
 
     @Inject(at = @At("HEAD"), method = "hasModifier(Lnet/minecraft/core/Holder;Lnet/minecraft/resources/Identifier;)Z", cancellable = true)
@@ -46,7 +46,7 @@ public class AttributeSupplier_1298195494Mixin {
     @Inject(at = @At("HEAD"), method = "getModifierValue(Lnet/minecraft/core/Holder;Lnet/minecraft/resources/Identifier;)D", cancellable = true)
     private void getModifierValue__1364518883(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1364518883L))
-            info.setReturnValue(9.292048009051235E8D);
+            info.setReturnValue(3.663800090512349E7D);
     }
 
 

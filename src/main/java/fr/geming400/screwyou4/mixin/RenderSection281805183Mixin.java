@@ -13,40 +13,16 @@ public class RenderSection281805183Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getSectionNode()J", cancellable = true)
-    private void getSectionNode_320068390(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(320068390L))
-            info.setReturnValue(-6163578638059049838L);
-    }
-
-    @Inject(at = @At("HEAD"), method = "setSectionNode(J)V", cancellable = true)
-    private void setSectionNode_1496645676(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1496645676L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "getBoundingBox()Lnet/minecraft/world/phys/AABB;", cancellable = true)
-    private void getBoundingBox__1138852169(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1138852169L))
+    @Inject(at = @At("HEAD"), method = "getRenderOrigin()Lnet/minecraft/core/BlockPos;", cancellable = true)
+    private void getRenderOrigin__1611581696(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1611581696L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "transparencyResortingScheduled()Z", cancellable = true)
-    private void transparencyResortingScheduled_320083766(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(320083766L))
-            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "getVisibility(J)F", cancellable = true)
     private void getVisibility_1496630300(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1496630300L))
-            info.setReturnValue(3.932268E8F);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getRenderOrigin()Lnet/minecraft/core/BlockPos;", cancellable = true)
-    private void getRenderOrigin__1611581696(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1611581696L))
-            info.setReturnValue(null);
+            info.setReturnValue(6.965515E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "getSectionMesh()Lnet/minecraft/client/renderer/chunk/SectionMesh;", cancellable = true)
@@ -55,22 +31,16 @@ public class RenderSection281805183Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "resortTransparency()V", cancellable = true)
-    private void resortTransparency_320079922(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(320079922L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "compileSync(Lnet/minecraft/client/renderer/chunk/RenderSectionRegion;)V", cancellable = true)
     private void compileSync_653664868(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(653664868L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "setWasPreviouslyEmpty(Z)V", cancellable = true)
-    private void setWasPreviouslyEmpty_1511422012(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1511422012L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "wasPreviouslyEmpty()Z", cancellable = true)
+    private void wasPreviouslyEmpty_320083766(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(320083766L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "setFadeDuration(J)V", cancellable = true)
@@ -85,22 +55,52 @@ public class RenderSection281805183Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "wasPreviouslyEmpty()Z", cancellable = true)
-    private void wasPreviouslyEmpty_320083766(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(320083766L))
-            info.setReturnValue(true);
-    }
-
     @Inject(at = @At("HEAD"), method = "compileAsync(Lnet/minecraft/client/renderer/chunk/RenderSectionRegion;)V", cancellable = true)
     private void compileAsync_653664868(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(653664868L))
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "setWasPreviouslyEmpty(Z)V", cancellable = true)
+    private void setWasPreviouslyEmpty_1511422012(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1511422012L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "resortTransparency()V", cancellable = true)
+    private void resortTransparency_320079922(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(320079922L))
+            info.cancel();
+    }
+
     @Inject(at = @At("HEAD"), method = "getNeighborSectionNode(Lnet/minecraft/core/Direction;)J", cancellable = true)
     private void getNeighborSectionNode__838132430(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-838132430L))
-            info.setReturnValue(6006882922157034741L);
+            info.setReturnValue(6006882922460359441L);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getBoundingBox()Lnet/minecraft/world/phys/AABB;", cancellable = true)
+    private void getBoundingBox__1138852169(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1138852169L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "transparencyResortingScheduled()Z", cancellable = true)
+    private void transparencyResortingScheduled_320083766(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(320083766L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getSectionNode()J", cancellable = true)
+    private void getSectionNode_320068390(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(320068390L))
+            info.setReturnValue(-6163578637755725138L);
+    }
+
+    @Inject(at = @At("HEAD"), method = "setSectionNode(J)V", cancellable = true)
+    private void setSectionNode_1496645676(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1496645676L))
+            info.cancel();
     }
 
 

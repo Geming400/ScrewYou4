@@ -22,7 +22,7 @@ public class UseCooldown382511732Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_420774474(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(420774474L))
-            info.setReturnValue(-154886387);
+            info.setReturnValue(-110224787);
     }
 
     @Inject(at = @At("HEAD"), method = "apply(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/LivingEntity;)V", cancellable = true)
@@ -34,13 +34,13 @@ public class UseCooldown382511732Mixin {
     @Inject(at = @At("HEAD"), method = "seconds()F", cancellable = true)
     private void seconds_420771095(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(420771095L))
-            info.setReturnValue(2.356783E8F);
+            info.setReturnValue(2.803399E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "ticks()I", cancellable = true)
     private void ticks_420773978(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(420773978L))
-            info.setReturnValue(48261032);
+            info.setReturnValue(92922632);
     }
 
     @Inject(at = @At("HEAD"), method = "cooldownGroup()Ljava/util/Optional;", cancellable = true)

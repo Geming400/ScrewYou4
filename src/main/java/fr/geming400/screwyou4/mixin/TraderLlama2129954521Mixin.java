@@ -7,15 +7,15 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.world.entity.animal.equine.TraderLlama.class)
 public class TraderLlama2129954521Mixin {
-        @Inject(at = @At("HEAD"), method = "aiStep()V", cancellable = true)
-    private void aiStep__2126738036(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-2126738036L))
+        @Inject(at = @At("HEAD"), method = "setDespawnDelay(I)V", cancellable = true)
+    private void setDespawnDelay__951095803(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-951095803L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "setDespawnDelay(I)V", cancellable = true)
-    private void setDespawnDelay__951095803(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-951095803L))
+    @Inject(at = @At("HEAD"), method = "aiStep()V", cancellable = true)
+    private void aiStep__2126738036(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-2126738036L))
             info.cancel();
     }
 

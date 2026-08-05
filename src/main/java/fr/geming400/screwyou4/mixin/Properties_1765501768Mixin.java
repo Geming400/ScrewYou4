@@ -22,19 +22,13 @@ public class Properties_1765501768Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1803764509(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1803764509L))
-            info.setReturnValue(-1756274604);
-    }
-
-    @Inject(at = @At("HEAD"), method = "replaceWithBlackstone()Z", cancellable = true)
-    private void replaceWithBlackstone_1803780350(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1803780350L))
-            info.setReturnValue(false);
+            info.setReturnValue(1962101992);
     }
 
     @Inject(at = @At("HEAD"), method = "mossiness()F", cancellable = true)
     private void mossiness_1803761130(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1803761130L))
-            info.setReturnValue(6.090378E8F);
+            info.setReturnValue(3.24471E7F);
     }
 
     @Inject(at = @At("HEAD"), method = "airPocket()Z", cancellable = true)
@@ -49,14 +43,20 @@ public class Properties_1765501768Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "cold()Z", cancellable = true)
-    private void cold_1803780350(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "replaceWithBlackstone()Z", cancellable = true)
+    private void replaceWithBlackstone_1803780350(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1803780350L))
             info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "vines()Z", cancellable = true)
     private void vines_1803780350(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1803780350L))
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "cold()Z", cancellable = true)
+    private void cold_1803780350(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1803780350L))
             info.setReturnValue(false);
     }

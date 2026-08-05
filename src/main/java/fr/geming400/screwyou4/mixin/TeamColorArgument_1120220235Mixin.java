@@ -19,9 +19,9 @@ public class TeamColorArgument_1120220235Mixin {
             info.setReturnValue(net.minecraft.world.scores.TeamColor.WHITE);
     }
 
-    @Inject(at = @At("HEAD"), method = "teamColor()Lnet/minecraft/commands/arguments/TeamColorArgument;", cancellable = true)
-    private static void teamColor_1802481465(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1802481465L))
+    @Inject(at = @At("HEAD"), method = "getExamples()Ljava/util/Collection;", cancellable = true)
+    private void getExamples__693428038(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-693428038L))
             info.setReturnValue(null);
     }
 
@@ -31,16 +31,16 @@ public class TeamColorArgument_1120220235Mixin {
             info.setReturnValue(new java.util.concurrent.CompletableFuture());
     }
 
-    @Inject(at = @At("HEAD"), method = "getExamples()Ljava/util/Collection;", cancellable = true)
-    private void getExamples__693428038(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-693428038L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getTeamColor(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/world/scores/TeamColor;", cancellable = true)
     private static void getTeamColor_1546169443(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1546169443L))
             info.setReturnValue(net.minecraft.world.scores.TeamColor.DARK_GREEN);
+    }
+
+    @Inject(at = @At("HEAD"), method = "teamColor()Lnet/minecraft/commands/arguments/TeamColorArgument;", cancellable = true)
+    private static void teamColor_1802481465(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1802481465L))
+            info.setReturnValue(null);
     }
 
 

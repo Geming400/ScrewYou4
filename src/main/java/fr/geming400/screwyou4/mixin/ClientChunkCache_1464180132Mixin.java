@@ -25,16 +25,22 @@ public class ClientChunkCache_1464180132Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getLightEngine()Lnet/minecraft/world/level/lighting/LevelLightEngine;", cancellable = true)
-    private void getLightEngine__1924451860(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1924451860L))
+    @Inject(at = @At("HEAD"), method = "onSectionEmptinessChanged(IIIZ)V", cancellable = true)
+    private void onSectionEmptinessChanged__1200747993(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1200747993L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "replaceWithPacketData(IILnet/minecraft/network/FriendlyByteBuf;Ljava/util/Map;Ljava/util/function/Consumer;)Lnet/minecraft/world/level/chunk/LevelChunk;", cancellable = true)
+    private void replaceWithPacketData__147283601(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-147283601L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "gatherStats()Ljava/lang/String;", cancellable = true)
-    private void gatherStats_328719660(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(328719660L))
-            info.setReturnValue("o?>^踀৯{58!Yt)#$B9녍U+ ブeXR;쏆w`.-xB((6Xꏇ6@v*⊬cﯢ03fmA.㵣=Dc/Wu:n箪& Dye:oHE");
+    @Inject(at = @At("HEAD"), method = "replaceBiomes(IILnet/minecraft/network/FriendlyByteBuf;)V", cancellable = true)
+    private void replaceBiomes_1966270978(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1966270978L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "getChunk(IILnet/minecraft/world/level/chunk/status/ChunkStatus;Z)Lnet/minecraft/world/level/chunk/ChunkAccess;", cancellable = true)
@@ -49,22 +55,16 @@ public class ClientChunkCache_1464180132Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "replaceBiomes(IILnet/minecraft/network/FriendlyByteBuf;)V", cancellable = true)
-    private void replaceBiomes_1966270978(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1966270978L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "replaceWithPacketData(IILnet/minecraft/network/FriendlyByteBuf;Ljava/util/Map;Ljava/util/function/Consumer;)Lnet/minecraft/world/level/chunk/LevelChunk;", cancellable = true)
-    private void replaceWithPacketData__147283601(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-147283601L))
+    @Inject(at = @At("HEAD"), method = "getLightEngine()Lnet/minecraft/world/level/lighting/LevelLightEngine;", cancellable = true)
+    private void getLightEngine__1924451860(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1924451860L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "onSectionEmptinessChanged(IIIZ)V", cancellable = true)
-    private void onSectionEmptinessChanged__1200747993(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1200747993L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "gatherStats()Ljava/lang/String;", cancellable = true)
+    private void gatherStats_328719660(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(328719660L))
+            info.setReturnValue("o?>^踀৯{58!Yt)#$B9녍U+ ブeXR;쏆w`.-xB((6Xꏇ6@v*⊬cﯢ03fmA.㵣=Dc/Wu:n箪& Dye:oHE");
     }
 
     @Inject(at = @At("HEAD"), method = "onLightUpdate(Lnet/minecraft/world/level/LightLayer;Lnet/minecraft/core/SectionPos;)V", cancellable = true)
@@ -73,20 +73,14 @@ public class ClientChunkCache_1464180132Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "getLoadedChunksCount()I", cancellable = true)
+    private void getLoadedChunksCount_1502442377(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1502442377L))
+            info.setReturnValue(2058780171);
+    }
+
     @Inject(at = @At("HEAD"), method = "addedEmptySections()Lit/unimi/dsi/fastutil/longs/LongOpenHashSet;", cancellable = true)
     private void addedEmptySections__338834074(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-338834074L))
-            info.setReturnValue(new it.unimi.dsi.fastutil.longs.LongOpenHashSet());
-    }
-
-    @Inject(at = @At("HEAD"), method = "removedEmptySections()Lit/unimi/dsi/fastutil/longs/LongOpenHashSet;", cancellable = true)
-    private void removedEmptySections__338834074(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-338834074L))
-            info.setReturnValue(new it.unimi.dsi.fastutil.longs.LongOpenHashSet());
-    }
-
-    @Inject(at = @At("HEAD"), method = "addedLoadedChunks()Lit/unimi/dsi/fastutil/longs/LongOpenHashSet;", cancellable = true)
-    private void addedLoadedChunks__338834074(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-338834074L))
             info.setReturnValue(new it.unimi.dsi.fastutil.longs.LongOpenHashSet());
     }
@@ -97,20 +91,8 @@ public class ClientChunkCache_1464180132Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "updateViewCenter(II)V", cancellable = true)
-    private void updateViewCenter_468300662(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(468300662L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "getLoadedChunksCount()I", cancellable = true)
-    private void getLoadedChunksCount_1502442377(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1502442377L))
-            info.setReturnValue(-1987498625);
-    }
-
-    @Inject(at = @At("HEAD"), method = "removedLoadedChunks()Lit/unimi/dsi/fastutil/longs/LongOpenHashSet;", cancellable = true)
-    private void removedLoadedChunks__338834074(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "addedLoadedChunks()Lit/unimi/dsi/fastutil/longs/LongOpenHashSet;", cancellable = true)
+    private void addedLoadedChunks__338834074(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-338834074L))
             info.setReturnValue(new it.unimi.dsi.fastutil.longs.LongOpenHashSet());
     }
@@ -119,6 +101,24 @@ public class ClientChunkCache_1464180132Mixin {
     private void flipUpdateTrackingSets_1502454870(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1502454870L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "removedEmptySections()Lit/unimi/dsi/fastutil/longs/LongOpenHashSet;", cancellable = true)
+    private void removedEmptySections__338834074(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-338834074L))
+            info.setReturnValue(new it.unimi.dsi.fastutil.longs.LongOpenHashSet());
+    }
+
+    @Inject(at = @At("HEAD"), method = "updateViewCenter(II)V", cancellable = true)
+    private void updateViewCenter_468300662(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(468300662L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "removedLoadedChunks()Lit/unimi/dsi/fastutil/longs/LongOpenHashSet;", cancellable = true)
+    private void removedLoadedChunks__338834074(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-338834074L))
+            info.setReturnValue(new it.unimi.dsi.fastutil.longs.LongOpenHashSet());
     }
 
 

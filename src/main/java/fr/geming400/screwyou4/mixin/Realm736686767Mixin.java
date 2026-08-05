@@ -22,19 +22,19 @@ public class Realm736686767Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_774949509(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(774949509L))
-            info.setReturnValue(1687083491);
-    }
-
-    @Inject(at = @At("HEAD"), method = "realmId()J", cancellable = true)
-    private void realmId_774949974(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(774949974L))
-            info.setReturnValue(2569994157756592173L);
+            info.setReturnValue(1824213191);
     }
 
     @Inject(at = @At("HEAD"), method = "slotId()I", cancellable = true)
     private void slotId_774949013(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(774949013L))
-            info.setReturnValue(1890230910);
+            info.setReturnValue(2027360610);
+    }
+
+    @Inject(at = @At("HEAD"), method = "realmId()J", cancellable = true)
+    private void realmId_774949974(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(774949974L))
+            info.setReturnValue(2569994157893721873L);
     }
 
 

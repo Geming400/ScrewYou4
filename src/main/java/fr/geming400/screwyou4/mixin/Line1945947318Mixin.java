@@ -28,7 +28,7 @@ public class Line1945947318Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1984210060(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1984210060L))
-            info.setReturnValue(-77275334);
+            info.setReturnValue(-102486934);
     }
 
     @Inject(at = @At("HEAD"), method = "tag()Lnet/minecraft/client/multiplayer/chat/GuiMessageTag;", cancellable = true)
@@ -46,13 +46,13 @@ public class Line1945947318Mixin {
     @Inject(at = @At("HEAD"), method = "getTagIconLeft(Lnet/minecraft/client/gui/Font;)I", cancellable = true)
     private void getTagIconLeft_975161600(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(975161600L))
-            info.setReturnValue(1587106999);
+            info.setReturnValue(1561895399);
     }
 
     @Inject(at = @At("HEAD"), method = "addedTime()I", cancellable = true)
     private void addedTime_1984209564(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1984209564L))
-            info.setReturnValue(125872085);
+            info.setReturnValue(100660485);
     }
 
     @Inject(at = @At("HEAD"), method = "endOfEntry()Z", cancellable = true)

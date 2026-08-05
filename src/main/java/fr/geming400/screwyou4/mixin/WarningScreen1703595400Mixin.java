@@ -13,16 +13,16 @@ public class WarningScreen1703595400Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "updateReturnScreen(Lnet/minecraft/client/gui/screens/Screen;)V", cancellable = true)
-    private void updateReturnScreen_763713562(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(763713562L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "returnScreen()Lnet/minecraft/client/gui/screens/Screen;", cancellable = true)
     private void returnScreen__746154668(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-746154668L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "updateReturnScreen(Lnet/minecraft/client/gui/screens/Screen;)V", cancellable = true)
+    private void updateReturnScreen_763713562(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(763713562L))
+            info.cancel();
     }
 
 

@@ -22,13 +22,7 @@ public class Submit_413690114Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_451952855(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(451952855L))
-            info.setReturnValue(916518826);
-    }
-
-    @Inject(at = @At("HEAD"), method = "particles()Lnet/minecraft/client/renderer/state/level/QuadParticleRenderState;", cancellable = true)
-    private void particles__547334820(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-547334820L))
-            info.setReturnValue(new net.minecraft.client.renderer.state.level.QuadParticleRenderState());
+            info.setReturnValue(707778826);
     }
 
     @Inject(at = @At("HEAD"), method = "translucent()Z", cancellable = true)
@@ -41,6 +35,12 @@ public class Submit_413690114Mixin {
     private void featureType_1444773639(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1444773639L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "particles()Lnet/minecraft/client/renderer/state/level/QuadParticleRenderState;", cancellable = true)
+    private void particles__547334820(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-547334820L))
+            info.setReturnValue(new net.minecraft.client.renderer.state.level.QuadParticleRenderState());
     }
 
 

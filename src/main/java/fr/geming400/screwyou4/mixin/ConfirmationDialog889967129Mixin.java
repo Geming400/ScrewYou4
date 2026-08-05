@@ -22,7 +22,7 @@ public class ConfirmationDialog889967129Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_928229871(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(928229871L))
-            info.setReturnValue(1509040531);
+            info.setReturnValue(1472863831);
     }
 
     @Inject(at = @At("HEAD"), method = "common()Lnet/minecraft/server/dialog/CommonDialogData;", cancellable = true)
@@ -31,14 +31,14 @@ public class ConfirmationDialog889967129Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "noButton()Lnet/minecraft/server/dialog/ActionButton;", cancellable = true)
-    private void noButton__86388784(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "yesButton()Lnet/minecraft/server/dialog/ActionButton;", cancellable = true)
+    private void yesButton__86388784(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-86388784L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "yesButton()Lnet/minecraft/server/dialog/ActionButton;", cancellable = true)
-    private void yesButton__86388784(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "noButton()Lnet/minecraft/server/dialog/ActionButton;", cancellable = true)
+    private void noButton__86388784(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-86388784L))
             info.setReturnValue(null);
     }

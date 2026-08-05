@@ -19,18 +19,6 @@ public class Builder1671712623Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "hasContent()Z", cancellable = true)
-    private void hasContent_1709991206(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1709991206L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isReported(I)Z", cancellable = true)
-    private void isReported__1409333857(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1409333857L))
-            info.setReturnValue(false);
-    }
-
     @Inject(at = @At("HEAD"), method = "checkBuildable()Lnet/minecraft/client/multiplayer/chat/report/Report$CannotBuildReason;", cancellable = true)
     private void checkBuildable__2063593941(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2063593941L))
@@ -47,6 +35,18 @@ public class Builder1671712623Mixin {
     private void toggleReported__1409337701(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1409337701L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "hasContent()Z", cancellable = true)
+    private void hasContent_1709991206(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1709991206L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isReported(I)Z", cancellable = true)
+    private void isReported__1409333857(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1409333857L))
+            info.setReturnValue(false);
     }
 
 

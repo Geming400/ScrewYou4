@@ -22,7 +22,7 @@ public class LocationCheck1209529557Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1247792299(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1247792299L))
-            info.setReturnValue(1583985171);
+            info.setReturnValue(1779389971);
     }
 
     @Inject(at = @At("HEAD"), method = "test(Ljava/lang/Object;)Z", cancellable = true)
@@ -49,18 +49,6 @@ public class LocationCheck1209529557Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "checkLocation(Lnet/minecraft/advancements/predicates/LocationPredicate$Builder;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/storage/loot/predicates/LootItemCondition$Builder;", cancellable = true)
-    private static void checkLocation_1176492897(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1176492897L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "checkLocation(Lnet/minecraft/advancements/predicates/LocationPredicate$Builder;)Lnet/minecraft/world/level/storage/loot/predicates/LootItemCondition$Builder;", cancellable = true)
-    private static void checkLocation__913766785(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-913766785L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
     private void codec__1349584015(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1349584015L))
@@ -70,6 +58,18 @@ public class LocationCheck1209529557Mixin {
     @Inject(at = @At("HEAD"), method = "getReferencedContextParams()Ljava/util/Set;", cancellable = true)
     private void getReferencedContextParams__619505929(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-619505929L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "checkLocation(Lnet/minecraft/advancements/predicates/LocationPredicate$Builder;)Lnet/minecraft/world/level/storage/loot/predicates/LootItemCondition$Builder;", cancellable = true)
+    private static void checkLocation__913766785(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-913766785L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "checkLocation(Lnet/minecraft/advancements/predicates/LocationPredicate$Builder;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/storage/loot/predicates/LootItemCondition$Builder;", cancellable = true)
+    private static void checkLocation_1176492897(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1176492897L))
             info.setReturnValue(null);
     }
 

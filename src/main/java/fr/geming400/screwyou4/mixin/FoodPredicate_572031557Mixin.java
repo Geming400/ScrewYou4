@@ -22,7 +22,7 @@ public class FoodPredicate_572031557Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_610294298(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(610294298L))
-            info.setReturnValue(1086128331);
+            info.setReturnValue(837755231);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/world/food/FoodData;)Z", cancellable = true)

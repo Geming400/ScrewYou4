@@ -31,16 +31,16 @@ public class ServerRecipeBook_1831503154Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "addRecipes(Ljava/util/Collection;Lnet/minecraft/server/level/ServerPlayer;)I", cancellable = true)
-    private void addRecipes__354223402(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-354223402L))
-            info.setReturnValue(-1672849102);
+    @Inject(at = @At("HEAD"), method = "removeHighlight(Lnet/minecraft/resources/ResourceKey;)V", cancellable = true)
+    private void removeHighlight_2019172456(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(2019172456L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "removeRecipes(Ljava/util/Collection;Lnet/minecraft/server/level/ServerPlayer;)I", cancellable = true)
     private void removeRecipes__354223402(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-354223402L))
-            info.setReturnValue(-1672849102);
+            info.setReturnValue(-1665077502);
     }
 
     @Inject(at = @At("HEAD"), method = "copyOverData(Lnet/minecraft/stats/ServerRecipeBook;)V", cancellable = true)
@@ -55,16 +55,16 @@ public class ServerRecipeBook_1831503154Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "removeHighlight(Lnet/minecraft/resources/ResourceKey;)V", cancellable = true)
-    private void removeHighlight_2019172456(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(2019172456L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "sendInitialRecipeBook(Lnet/minecraft/server/level/ServerPlayer;)V", cancellable = true)
     private void sendInitialRecipeBook_1061941300(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1061941300L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "addRecipes(Ljava/util/Collection;Lnet/minecraft/server/level/ServerPlayer;)I", cancellable = true)
+    private void addRecipes__354223402(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-354223402L))
+            info.setReturnValue(-1665077502);
     }
 
 

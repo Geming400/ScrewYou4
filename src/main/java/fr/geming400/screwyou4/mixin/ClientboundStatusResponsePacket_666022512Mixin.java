@@ -28,7 +28,7 @@ public class ClientboundStatusResponsePacket_666022512Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_704285253(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(704285253L))
-            info.setReturnValue(-1033488681);
+            info.setReturnValue(-1096719781);
     }
 
     @Inject(at = @At("HEAD"), method = "status()Lnet/minecraft/network/protocol/status/ServerStatus;", cancellable = true)

@@ -25,14 +25,14 @@ public class CarverDebugSettings_1050888711Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "isDebugMode()Z", cancellable = true)
-    private void isDebugMode_1089167293(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1089167293L))
-            info.setReturnValue(false);
-    }
-
     @Inject(at = @At("HEAD"), method = "getAirState()Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
     private void getAirState__1244870156(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1244870156L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getBarrierState()Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
+    private void getBarrierState__1244870156(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1244870156L))
             info.setReturnValue(null);
     }
@@ -49,10 +49,10 @@ public class CarverDebugSettings_1050888711Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getBarrierState()Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
-    private void getBarrierState__1244870156(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1244870156L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "isDebugMode()Z", cancellable = true)
+    private void isDebugMode_1089167293(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1089167293L))
+            info.setReturnValue(false);
     }
 
 

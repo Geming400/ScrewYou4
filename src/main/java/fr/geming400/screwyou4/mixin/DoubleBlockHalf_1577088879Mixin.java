@@ -25,12 +25,6 @@ public class DoubleBlockHalf_1577088879Mixin {
             info.setReturnValue(net.minecraft.world.level.block.state.properties.DoubleBlockHalf.UPPER);
     }
 
-    @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
-    private void getSerializedName_441628407(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(441628407L))
-            info.setReturnValue("ig|>%xuQd6yVd");
-    }
-
     @Inject(at = @At("HEAD"), method = "getDirectionToOther()Lnet/minecraft/core/Direction;", cancellable = true)
     private void getDirectionToOther_814233593(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(814233593L))
@@ -41,6 +35,12 @@ public class DoubleBlockHalf_1577088879Mixin {
     private void getOtherHalf_602034829(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(602034829L))
             info.setReturnValue(net.minecraft.world.level.block.state.properties.DoubleBlockHalf.LOWER);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
+    private void getSerializedName_441628407(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(441628407L))
+            info.setReturnValue("ig|>%xuQd6yVd");
     }
 
 

@@ -22,7 +22,7 @@ public class MissingTableProblem_1534726028Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1572988769(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1572988769L))
-            info.setReturnValue(362367110);
+            info.setReturnValue(662544410);
     }
 
     @Inject(at = @At("HEAD"), method = "id()Lnet/minecraft/resources/ResourceKey;", cancellable = true)

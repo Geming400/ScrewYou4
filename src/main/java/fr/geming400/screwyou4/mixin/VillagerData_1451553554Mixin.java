@@ -28,13 +28,25 @@ public class VillagerData_1451553554Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1489816295(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1489816295L))
-            info.setReturnValue(-1745496966);
+            info.setReturnValue(-1639622066);
     }
 
     @Inject(at = @At("HEAD"), method = "level()I", cancellable = true)
     private void level_1489815799(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1489815799L))
-            info.setReturnValue(-1542349546);
+            info.setReturnValue(-1436474646);
+    }
+
+    @Inject(at = @At("HEAD"), method = "withLevel(I)Lnet/minecraft/world/entity/npc/villager/VillagerData;", cancellable = true)
+    private void withLevel_1200221238(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1200221238L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getMinXpPerLevel(I)I", cancellable = true)
+    private static void getMinXpPerLevel__1629509016(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1629509016L))
+            info.setReturnValue(888828447);
     }
 
     @Inject(at = @At("HEAD"), method = "canLevelUp(I)Z", cancellable = true)
@@ -55,16 +67,10 @@ public class VillagerData_1451553554Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "withLevel(I)Lnet/minecraft/world/entity/npc/villager/VillagerData;", cancellable = true)
-    private void withLevel_1200221238(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1200221238L))
+    @Inject(at = @At("HEAD"), method = "profession()Lnet/minecraft/core/Holder;", cancellable = true)
+    private void profession__1294537971(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1294537971L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getMaxXpPerLevel(I)I", cancellable = true)
-    private static void getMaxXpPerLevel__1629509016(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1629509016L))
-            info.setReturnValue(784956147);
     }
 
     @Inject(at = @At("HEAD"), method = "withProfession(Lnet/minecraft/core/HolderGetter$Provider;Lnet/minecraft/resources/ResourceKey;)Lnet/minecraft/world/entity/npc/villager/VillagerData;", cancellable = true)
@@ -79,16 +85,10 @@ public class VillagerData_1451553554Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getMinXpPerLevel(I)I", cancellable = true)
-    private static void getMinXpPerLevel__1629509016(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "getMaxXpPerLevel(I)I", cancellable = true)
+    private static void getMaxXpPerLevel__1629509016(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1629509016L))
-            info.setReturnValue(784956147);
-    }
-
-    @Inject(at = @At("HEAD"), method = "profession()Lnet/minecraft/core/Holder;", cancellable = true)
-    private void profession__1294537971(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1294537971L))
-            info.setReturnValue(null);
+            info.setReturnValue(888828447);
     }
 
 

@@ -10,7 +10,7 @@ public class SectionUpdateTracker_1153533122Mixin {
         @Inject(at = @At("HEAD"), method = "size()I", cancellable = true)
     private void size_1191795367(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1191795367L))
-            info.setReturnValue(-197840686);
+            info.setReturnValue(189714114);
     }
 
     @Inject(at = @At("HEAD"), method = "setDirty(IIIZ)V", cancellable = true)

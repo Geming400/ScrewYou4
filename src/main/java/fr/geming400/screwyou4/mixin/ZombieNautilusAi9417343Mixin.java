@@ -7,16 +7,16 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.world.entity.animal.nautilus.ZombieNautilusAi.class)
 public class ZombieNautilusAi9417343Mixin {
-        @Inject(at = @At("HEAD"), method = "getActivities()Ljava/util/List;", cancellable = true)
-    private static void getActivities_1635754407(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1635754407L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "updateActivity(Lnet/minecraft/world/entity/animal/nautilus/ZombieNautilus;)V", cancellable = true)
+        @Inject(at = @At("HEAD"), method = "updateActivity(Lnet/minecraft/world/entity/animal/nautilus/ZombieNautilus;)V", cancellable = true)
     private static void updateActivity__401389692(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-401389692L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getActivities()Ljava/util/List;", cancellable = true)
+    private static void getActivities_1635754407(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1635754407L))
+            info.setReturnValue(null);
     }
 
 

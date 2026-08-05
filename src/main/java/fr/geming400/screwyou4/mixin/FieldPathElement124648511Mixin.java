@@ -10,13 +10,13 @@ public class FieldPathElement124648511Mixin {
         @Inject(at = @At("HEAD"), method = "name()Ljava/lang/String;", cancellable = true)
     private void name__1010811960(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1010811960L))
-            info.setReturnValue("5uPh:eG/Us吨tYd6;탳↺g\");
+            info.setReturnValue("5uPh:eG/Us吨tYd6;탳↺g\"");
     }
 
     @Inject(at = @At("HEAD"), method = "get()Ljava/lang/String;", cancellable = true)
     private void get__1010811960(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1010811960L))
-            info.setReturnValue("5uPh:eG/Us吨tYd6;탳↺g\");
+            info.setReturnValue("5uPh:eG/Us吨tYd6;탳↺g\"");
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
@@ -34,7 +34,7 @@ public class FieldPathElement124648511Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_162911253(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(162911253L))
-            info.setReturnValue(699880530);
+            info.setReturnValue(658192130);
     }
 
 

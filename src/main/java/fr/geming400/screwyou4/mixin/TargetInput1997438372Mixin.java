@@ -22,13 +22,7 @@ public class TargetInput1997438372Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2035701114(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2035701114L))
-            info.setReturnValue(766407744);
-    }
-
-    @Inject(at = @At("HEAD"), method = "texture(Ljava/util/Map;)Lcom/mojang/blaze3d/textures/GpuTextureView;", cancellable = true)
-    private void texture_1779963063(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1779963063L))
-            info.setReturnValue(null);
+            info.setReturnValue(1450504744);
     }
 
     @Inject(at = @At("HEAD"), method = "samplerName()Ljava/lang/String;", cancellable = true)
@@ -59,6 +53,12 @@ public class TargetInput1997438372Mixin {
     private void addToPass__970553546(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-970553546L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "texture(Ljava/util/Map;)Lcom/mojang/blaze3d/textures/GpuTextureView;", cancellable = true)
+    private void texture_1779963063(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1779963063L))
+            info.setReturnValue(null);
     }
 
 

@@ -31,6 +31,12 @@ public class BehaviorBuilder149393307Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "triggerIf(Ljava/util/function/BiPredicate;)Lnet/minecraft/world/entity/ai/behavior/OneShot;", cancellable = true)
+    private static void triggerIf__637262980(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-637262980L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "triggerIf(Ljava/util/function/Predicate;Lnet/minecraft/world/entity/ai/behavior/OneShot;)Lnet/minecraft/world/entity/ai/behavior/OneShot;", cancellable = true)
     private static void triggerIf_1210450531(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1210450531L))
@@ -40,12 +46,6 @@ public class BehaviorBuilder149393307Mixin {
     @Inject(at = @At("HEAD"), method = "triggerIf(Ljava/util/function/Predicate;)Lnet/minecraft/world/entity/ai/behavior/OneShot;", cancellable = true)
     private static void triggerIf_704604611(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(704604611L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "triggerIf(Ljava/util/function/BiPredicate;)Lnet/minecraft/world/entity/ai/behavior/OneShot;", cancellable = true)
-    private static void triggerIf__637262980(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-637262980L))
             info.setReturnValue(null);
     }
 

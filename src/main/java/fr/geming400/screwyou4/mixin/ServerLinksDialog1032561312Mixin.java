@@ -22,7 +22,7 @@ public class ServerLinksDialog1032561312Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1070824054(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1070824054L))
-            info.setReturnValue(1576716229);
+            info.setReturnValue(1520779129);
     }
 
     @Inject(at = @At("HEAD"), method = "common()Lnet/minecraft/server/dialog/CommonDialogData;", cancellable = true)
@@ -46,13 +46,13 @@ public class ServerLinksDialog1032561312Mixin {
     @Inject(at = @At("HEAD"), method = "columns()I", cancellable = true)
     private void columns_1070823558(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1070823558L))
-            info.setReturnValue(1853735437);
+            info.setReturnValue(1797798337);
     }
 
     @Inject(at = @At("HEAD"), method = "buttonWidth()I", cancellable = true)
     private void buttonWidth_1070823558(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1070823558L))
-            info.setReturnValue(1853735437);
+            info.setReturnValue(1797798337);
     }
 
 

@@ -19,6 +19,18 @@ public class Pig_1146631360Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "thunderHit(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/LightningBolt;)V", cancellable = true)
+    private void thunderHit_216611342(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(216611342L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "canUseSlot(Lnet/minecraft/world/entity/EquipmentSlot;)Z", cancellable = true)
+    private void canUseSlot_2141999220(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2141999220L))
+            info.setReturnValue(false);
+    }
+
     @Inject(at = @At("HEAD"), method = "getControllingPassenger()Lnet/minecraft/world/entity/LivingEntity;", cancellable = true)
     private void getControllingPassenger_414393244(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(414393244L))
@@ -43,39 +55,9 @@ public class Pig_1146631360Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "thunderHit(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/LightningBolt;)V", cancellable = true)
-    private void thunderHit_216611342(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(216611342L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "mobInteract(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResult;", cancellable = true)
-    private void mobInteract__1531510095(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1531510095L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getBreedOffspring(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/AgeableMob;)Lnet/minecraft/world/entity/AgeableMob;", cancellable = true)
-    private void getBreedOffspring__1550547355(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1550547355L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getBreedOffspring(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/AgeableMob;)Lnet/minecraft/world/entity/animal/pig/Pig;", cancellable = true)
-    private void getBreedOffspring__291321614(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-291321614L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "canUseSlot(Lnet/minecraft/world/entity/EquipmentSlot;)Z", cancellable = true)
-    private void canUseSlot_2141999220(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2141999220L))
-            info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "boost()Z", cancellable = true)
-    private void boost_1184909942(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1184909942L))
+    @Inject(at = @At("HEAD"), method = "isFood(Lnet/minecraft/world/item/ItemStack;)Z", cancellable = true)
+    private void isFood__1413800805(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1413800805L))
             info.setReturnValue(false);
     }
 
@@ -85,9 +67,27 @@ public class Pig_1146631360Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "isFood(Lnet/minecraft/world/item/ItemStack;)Z", cancellable = true)
-    private void isFood__1413800805(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1413800805L))
+    @Inject(at = @At("HEAD"), method = "getBreedOffspring(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/AgeableMob;)Lnet/minecraft/world/entity/animal/pig/Pig;", cancellable = true)
+    private void getBreedOffspring__291321614(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-291321614L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getBreedOffspring(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/AgeableMob;)Lnet/minecraft/world/entity/AgeableMob;", cancellable = true)
+    private void getBreedOffspring__1550547355(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1550547355L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "mobInteract(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResult;", cancellable = true)
+    private void mobInteract__1531510095(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1531510095L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "boost()Z", cancellable = true)
+    private void boost_1184909942(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1184909942L))
             info.setReturnValue(false);
     }
 

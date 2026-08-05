@@ -34,13 +34,13 @@ public class ItemCombinerMenuSlotDefinition_2053804952Mixin {
     @Inject(at = @At("HEAD"), method = "getNumOfInputSlots()I", cancellable = true)
     private void getNumOfInputSlots_2092067197(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2092067197L))
-            info.setReturnValue(-1335319905);
+            info.setReturnValue(-1130917705);
     }
 
     @Inject(at = @At("HEAD"), method = "getResultSlotIndex()I", cancellable = true)
     private void getResultSlotIndex_2092067197(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2092067197L))
-            info.setReturnValue(-1335319905);
+            info.setReturnValue(-1130917705);
     }
 
 

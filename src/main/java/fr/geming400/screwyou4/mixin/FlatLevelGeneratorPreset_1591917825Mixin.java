@@ -22,18 +22,18 @@ public class FlatLevelGeneratorPreset_1591917825Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1630180566(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1630180566L))
-            info.setReturnValue(2113463474);
-    }
-
-    @Inject(at = @At("HEAD"), method = "settings()Lnet/minecraft/world/level/levelgen/flat/FlatLevelGeneratorSettings;", cancellable = true)
-    private void settings__134667116(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-134667116L))
-            info.setReturnValue(null);
+            info.setReturnValue(1990358474);
     }
 
     @Inject(at = @At("HEAD"), method = "displayItem()Lnet/minecraft/core/Holder;", cancellable = true)
     private void displayItem__1154173700(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1154173700L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "settings()Lnet/minecraft/world/level/levelgen/flat/FlatLevelGeneratorSettings;", cancellable = true)
+    private void settings__134667116(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-134667116L))
             info.setReturnValue(null);
     }
 

@@ -25,6 +25,12 @@ public class ZombieNautilus108302327Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "getBrain()Lnet/minecraft/world/entity/ai/Brain;", cancellable = true)
+    private void getBrain_1701279185(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1701279185L))
+            info.setReturnValue(new net.minecraft.world.entity.ai.Brain());
+    }
+
     @Inject(at = @At("HEAD"), method = "canBeLeashed()Z", cancellable = true)
     private void canBeLeashed_146580910(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(146580910L))
@@ -47,12 +53,6 @@ public class ZombieNautilus108302327Mixin {
     private void getBreedOffspring_1706090909(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1706090909L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getBrain()Lnet/minecraft/world/entity/ai/Brain;", cancellable = true)
-    private void getBrain_1701279185(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1701279185L))
-            info.setReturnValue(new net.minecraft.world.entity.ai.Brain());
     }
 
     @Inject(at = @At("HEAD"), method = "finalizeSpawn(Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData;", cancellable = true)

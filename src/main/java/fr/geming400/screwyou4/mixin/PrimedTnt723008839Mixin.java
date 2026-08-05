@@ -25,22 +25,10 @@ public class PrimedTnt723008839Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getBlockState()Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
-    private void getBlockState__1572750027(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1572750027L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "hurtServer(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/damagesource/DamageSource;F)Z", cancellable = true)
-    private void hurtServer_273579004(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(273579004L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "teleport(Lnet/minecraft/world/level/portal/TeleportTransition;)Lnet/minecraft/world/entity/Entity;", cancellable = true)
-    private void teleport_289128445(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(289128445L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "isPickable()Z", cancellable = true)
+    private void isPickable_761287422(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(761287422L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "setBlockState(Lnet/minecraft/world/level/block/state/BlockState;)V", cancellable = true)
@@ -55,28 +43,40 @@ public class PrimedTnt723008839Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "isPickable()Z", cancellable = true)
-    private void isPickable_761287422(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(761287422L))
-            info.setReturnValue(false);
+    @Inject(at = @At("HEAD"), method = "teleport(Lnet/minecraft/world/level/portal/TeleportTransition;)Lnet/minecraft/world/entity/Entity;", cancellable = true)
+    private void teleport_289128445(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(289128445L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "hurtServer(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/damagesource/DamageSource;F)Z", cancellable = true)
+    private void hurtServer_273579004(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(273579004L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getBlockState()Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
+    private void getBlockState__1572750027(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1572750027L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getRandomShortFuse(ILnet/minecraft/util/RandomSource;)I", cancellable = true)
+    private static void getRandomShortFuse__1188699028(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1188699028L))
+            info.setReturnValue(831907838);
     }
 
     @Inject(at = @At("HEAD"), method = "getFuse()I", cancellable = true)
     private void getFuse_761271085(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(761271085L))
-            info.setReturnValue(-38899249);
+            info.setReturnValue(467818251);
     }
 
     @Inject(at = @At("HEAD"), method = "setFuse(I)V", cancellable = true)
     private void setFuse_1936925811(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1936925811L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "getRandomShortFuse(ILnet/minecraft/util/RandomSource;)I", cancellable = true)
-    private static void getRandomShortFuse__1188699028(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1188699028L))
-            info.setReturnValue(325190338);
     }
 
 

@@ -28,7 +28,7 @@ public class AnyValue_1680492209Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1718754950(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1718754950L))
-            info.setReturnValue(675322339);
+            info.setReturnValue(1105221939);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/core/component/DataComponentGetter;)Z", cancellable = true)

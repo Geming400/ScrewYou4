@@ -22,7 +22,7 @@ public class ChickenSoundSet_635833639Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_674096380(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(674096380L))
-            info.setReturnValue(2032246548);
+            info.setReturnValue(1781053148);
     }
 
     @Inject(at = @At("HEAD"), method = "hurtSound()Lnet/minecraft/core/Holder;", cancellable = true)
@@ -37,14 +37,14 @@ public class ChickenSoundSet_635833639Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "ambientSound()Lnet/minecraft/core/Holder;", cancellable = true)
-    private void ambientSound__2110257886(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "stepSound()Lnet/minecraft/core/Holder;", cancellable = true)
+    private void stepSound__2110257886(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2110257886L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "stepSound()Lnet/minecraft/core/Holder;", cancellable = true)
-    private void stepSound__2110257886(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "ambientSound()Lnet/minecraft/core/Holder;", cancellable = true)
+    private void ambientSound__2110257886(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2110257886L))
             info.setReturnValue(null);
     }

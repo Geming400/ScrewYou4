@@ -28,7 +28,7 @@ public class StringTag_37974101Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_76236842(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(76236842L))
-            info.setReturnValue(85177488);
+            info.setReturnValue(-192089312);
     }
 
     @Inject(at = @At("HEAD"), method = "valueOf(Ljava/lang/String;)Lnet/minecraft/nbt/StringTag;", cancellable = true)
@@ -82,7 +82,7 @@ public class StringTag_37974101Mixin {
     @Inject(at = @At("HEAD"), method = "sizeInBytes()I", cancellable = true)
     private void sizeInBytes_76236346(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(76236346L))
-            info.setReturnValue(-1287606587);
+            info.setReturnValue(-1564873387);
     }
 
     @Inject(at = @At("HEAD"), method = "asString()Ljava/util/Optional;", cancellable = true)

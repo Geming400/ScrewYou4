@@ -22,13 +22,19 @@ public class TextColor613286488Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_651548734(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(651548734L))
-            info.setReturnValue(395962650);
+            info.setReturnValue(277898850);
     }
 
     @Inject(at = @At("HEAD"), method = "getValue()I", cancellable = true)
     private void getValue_651548734(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(651548734L))
-            info.setReturnValue(395962650);
+            info.setReturnValue(277898850);
+    }
+
+    @Inject(at = @At("HEAD"), method = "fromLegacyFormat(Lnet/minecraft/ChatFormatting;)Lnet/minecraft/network/chat/TextColor;", cancellable = true)
+    private static void fromLegacyFormat_597238796(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(597238796L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "serialize()Ljava/lang/String;", cancellable = true)
@@ -43,22 +49,16 @@ public class TextColor613286488Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "parseColor(Ljava/lang/String;)Lcom/mojang/serialization/DataResult;", cancellable = true)
-    private static void parseColor_552261193(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(552261193L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "fromLegacyFormat(Lnet/minecraft/ChatFormatting;)Lnet/minecraft/network/chat/TextColor;", cancellable = true)
-    private static void fromLegacyFormat_597238796(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(597238796L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "formatValue()Ljava/lang/String;", cancellable = true)
     private void formatValue__522173487(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-522173487L))
             info.setReturnValue("r}K2d濫Qz=LuI6bṹ|0eyKZ&j欫森ᏸ餩!Tm%dF*1sࠏ*\"⇀_dbwb6Pe(%ꋕku]s18͔Oa Y-0墦]磽");
+    }
+
+    @Inject(at = @At("HEAD"), method = "parseColor(Ljava/lang/String;)Lcom/mojang/serialization/DataResult;", cancellable = true)
+    private static void parseColor_552261193(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(552261193L))
+            info.setReturnValue(null);
     }
 
 

@@ -40,7 +40,13 @@ public class SculkSensorBlock1037428467Mixin {
     @Inject(at = @At("HEAD"), method = "getDirectSignal(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/Direction;)I", cancellable = true)
     private void getDirectSignal_1204482637(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1204482637L))
-            info.setReturnValue(-1116599441);
+            info.setReturnValue(-844024041);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getTicker(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/entity/BlockEntityType;)Lnet/minecraft/world/level/block/entity/BlockEntityTicker;", cancellable = true)
+    private void getTicker__916038876(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-916038876L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "activate(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;II)V", cancellable = true)
@@ -55,16 +61,10 @@ public class SculkSensorBlock1037428467Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getTicker(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/entity/BlockEntityType;)Lnet/minecraft/world/level/block/entity/BlockEntityTicker;", cancellable = true)
-    private void getTicker__916038876(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-916038876L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getActiveTicks()I", cancellable = true)
     private void getActiveTicks_1075690713(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1075690713L))
-            info.setReturnValue(-1037660971);
+            info.setReturnValue(-765085571);
     }
 
     @Inject(at = @At("HEAD"), method = "tryResonateVibration(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;I)V", cancellable = true)

@@ -34,7 +34,7 @@ public class DisplayContext1891192797Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1929455539(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1929455539L))
-            info.setReturnValue(-1875370916);
+            info.setReturnValue(-1855841616);
     }
 
 

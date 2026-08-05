@@ -19,16 +19,22 @@ public class Salmon_1783177982Mixin {
             info.setReturnValue(net.minecraft.world.entity.animal.fish.Salmon.Variant.LARGE);
     }
 
+    @Inject(at = @At("HEAD"), method = "onSyncedDataUpdated(Lnet/minecraft/network/syncher/EntityDataAccessor;)V", cancellable = true)
+    private void onSyncedDataUpdated__866039871(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-866039871L))
+            info.cancel();
+    }
+
     @Inject(at = @At("HEAD"), method = "getMaxSchoolSize()I", cancellable = true)
     private void getMaxSchoolSize_1821440227(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1821440227L))
-            info.setReturnValue(108669596);
+            info.setReturnValue(8689996);
     }
 
     @Inject(at = @At("HEAD"), method = "getSalmonScale()F", cancellable = true)
     private void getSalmonScale_1821437344(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1821437344L))
-            info.setReturnValue(5.368938E8F);
+            info.setReturnValue(4.369142E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "saveToBucketTag(Lnet/minecraft/world/item/ItemStack;)V", cancellable = true)
@@ -41,12 +47,6 @@ public class Salmon_1783177982Mixin {
     private void getBucketItemStack__1988370655(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1988370655L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "onSyncedDataUpdated(Lnet/minecraft/network/syncher/EntityDataAccessor;)V", cancellable = true)
-    private void onSyncedDataUpdated__866039871(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-866039871L))
-            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "finalizeSpawn(Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData;", cancellable = true)

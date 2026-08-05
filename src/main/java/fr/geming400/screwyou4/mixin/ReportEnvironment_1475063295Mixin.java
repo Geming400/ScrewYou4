@@ -22,7 +22,7 @@ public class ReportEnvironment_1475063295Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1513326036(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1513326036L))
-            info.setReturnValue(1177734353);
+            info.setReturnValue(1139333153);
     }
 
     @Inject(at = @At("HEAD"), method = "create(Lnet/minecraft/client/multiplayer/chat/report/ReportEnvironment$Server;)Lnet/minecraft/client/multiplayer/chat/report/ReportEnvironment;", cancellable = true)
@@ -55,9 +55,9 @@ public class ReportEnvironment_1475063295Mixin {
             info.setReturnValue("QgIlErfFGxOb1ꐢ╖@ya!%@0d Niꌖ6h竚R`+煉zx7&S{Fr귎)g璘!-kb)lRT뿘");
     }
 
-    @Inject(at = @At("HEAD"), method = "thirdParty(Ljava/lang/String;)Lnet/minecraft/client/multiplayer/chat/report/ReportEnvironment;", cancellable = true)
-    private static void thirdParty_1111998052(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1111998052L))
+    @Inject(at = @At("HEAD"), method = "thirdPartyServerInfo()Lcom/mojang/authlib/yggdrasil/request/AbuseReportRequest$ThirdPartyServerInfo;", cancellable = true)
+    private void thirdPartyServerInfo__1941604959(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1941604959L))
             info.setReturnValue(null);
     }
 
@@ -67,9 +67,9 @@ public class ReportEnvironment_1475063295Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "thirdPartyServerInfo()Lcom/mojang/authlib/yggdrasil/request/AbuseReportRequest$ThirdPartyServerInfo;", cancellable = true)
-    private void thirdPartyServerInfo__1941604959(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1941604959L))
+    @Inject(at = @At("HEAD"), method = "thirdParty(Ljava/lang/String;)Lnet/minecraft/client/multiplayer/chat/report/ReportEnvironment;", cancellable = true)
+    private static void thirdParty_1111998052(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1111998052L))
             info.setReturnValue(null);
     }
 

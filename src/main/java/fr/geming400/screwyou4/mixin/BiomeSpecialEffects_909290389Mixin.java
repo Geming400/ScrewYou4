@@ -22,25 +22,13 @@ public class BiomeSpecialEffects_909290389Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_947553130(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(947553130L))
-            info.setReturnValue(1657309173);
-    }
-
-    @Inject(at = @At("HEAD"), method = "waterColor()I", cancellable = true)
-    private void waterColor_947552634(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(947552634L))
-            info.setReturnValue(1860456592);
+            info.setReturnValue(1392904473);
     }
 
     @Inject(at = @At("HEAD"), method = "foliageColorOverride()Ljava/util/Optional;", cancellable = true)
     private void foliageColorOverride_1154751810(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1154751810L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "grassColorModifier()Lnet/minecraft/world/level/biome/BiomeSpecialEffects$GrassColorModifier;", cancellable = true)
-    private void grassColorModifier_1463079064(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1463079064L))
-            info.setReturnValue(net.minecraft.world.level.biome.BiomeSpecialEffects.GrassColorModifier.NONE);
     }
 
     @Inject(at = @At("HEAD"), method = "grassColorOverride()Ljava/util/Optional;", cancellable = true)
@@ -53,6 +41,18 @@ public class BiomeSpecialEffects_909290389Mixin {
     private void dryFoliageColorOverride_1154751810(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1154751810L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "grassColorModifier()Lnet/minecraft/world/level/biome/BiomeSpecialEffects$GrassColorModifier;", cancellable = true)
+    private void grassColorModifier_1463079064(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1463079064L))
+            info.setReturnValue(net.minecraft.world.level.biome.BiomeSpecialEffects.GrassColorModifier.NONE);
+    }
+
+    @Inject(at = @At("HEAD"), method = "waterColor()I", cancellable = true)
+    private void waterColor_947552634(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(947552634L))
+            info.setReturnValue(1596051892);
     }
 
 

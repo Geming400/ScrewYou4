@@ -22,7 +22,7 @@ public class ConditionalEffect550147993Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_588410735(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(588410735L))
-            info.setReturnValue(723769772);
+            info.setReturnValue(642620172);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/world/level/storage/loot/LootContext;)Z", cancellable = true)

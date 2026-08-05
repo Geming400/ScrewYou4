@@ -19,8 +19,8 @@ public class BlockPlaceContext2086440743Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getNearestLookingDirection()Lnet/minecraft/core/Direction;", cancellable = true)
-    private void getNearestLookingDirection_1323585458(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "getNearestLookingVerticalDirection()Lnet/minecraft/core/Direction;", cancellable = true)
+    private void getNearestLookingVerticalDirection_1323585458(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1323585458L))
             info.setReturnValue(net.minecraft.core.Direction.SOUTH);
     }
@@ -31,8 +31,8 @@ public class BlockPlaceContext2086440743Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getNearestLookingVerticalDirection()Lnet/minecraft/core/Direction;", cancellable = true)
-    private void getNearestLookingVerticalDirection_1323585458(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "getNearestLookingDirection()Lnet/minecraft/core/Direction;", cancellable = true)
+    private void getNearestLookingDirection_1323585458(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1323585458L))
             info.setReturnValue(net.minecraft.core.Direction.SOUTH);
     }

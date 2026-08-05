@@ -16,7 +16,7 @@ public class GameRuleMap_1312609616Mixin {
     @Inject(at = @At("HEAD"), method = "size()I", cancellable = true)
     private void size_1350871861(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1350871861L))
-            info.setReturnValue(1306741521);
+            info.setReturnValue(1262526021);
     }
 
     @Inject(at = @At("HEAD"), method = "reset(Lnet/minecraft/world/level/gamerules/GameRule;)V", cancellable = true)
@@ -46,7 +46,7 @@ public class GameRuleMap_1312609616Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1350871861(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1350871861L))
-            info.setReturnValue(1306741521);
+            info.setReturnValue(1262526021);
     }
 
     @Inject(at = @At("HEAD"), method = "copyOf(Lnet/minecraft/world/level/gamerules/GameRuleMap;)Lnet/minecraft/world/level/gamerules/GameRuleMap;", cancellable = true)

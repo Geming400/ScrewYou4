@@ -43,16 +43,16 @@ public class ServerboundSetJigsawBlockPacket_221660897Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "getPos()Lnet/minecraft/core/BlockPos;", cancellable = true)
+    private void getPos__1671725983(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1671725983L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "getPlacementPriority()I", cancellable = true)
     private void getPlacementPriority_259923142(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(259923142L))
-            info.setReturnValue(-517712646);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getSelectionPriority()I", cancellable = true)
-    private void getSelectionPriority_259923142(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(259923142L))
-            info.setReturnValue(-517712646);
+            info.setReturnValue(-127437846);
     }
 
     @Inject(at = @At("HEAD"), method = "getFinalState()Ljava/lang/String;", cancellable = true)
@@ -61,10 +61,10 @@ public class ServerboundSetJigsawBlockPacket_221660897Mixin {
             info.setReturnValue("f/$}풇.BO@<)pa*IB/kK至");
     }
 
-    @Inject(at = @At("HEAD"), method = "getPos()Lnet/minecraft/core/BlockPos;", cancellable = true)
-    private void getPos__1671725983(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1671725983L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "getSelectionPriority()I", cancellable = true)
+    private void getSelectionPriority_259923142(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(259923142L))
+            info.setReturnValue(-127437846);
     }
 
     @Inject(at = @At("HEAD"), method = "getJoint()Lnet/minecraft/world/level/block/entity/JigsawBlockEntity$JointType;", cancellable = true)

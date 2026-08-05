@@ -10,13 +10,13 @@ public class WorldgenRandom192555399Mixin {
         @Inject(at = @At("HEAD"), method = "next(I)I", cancellable = true)
     private void next_1406459878(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1406459878L))
-            info.setReturnValue(580709739);
+            info.setReturnValue(478712439);
     }
 
     @Inject(at = @At("HEAD"), method = "getCount()I", cancellable = true)
     private void getCount_230817645(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(230817645L))
-            info.setReturnValue(-1771885235);
+            info.setReturnValue(-1873882535);
     }
 
     @Inject(at = @At("HEAD"), method = "fork()Lnet/minecraft/util/RandomSource;", cancellable = true)
@@ -31,10 +31,16 @@ public class WorldgenRandom192555399Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "forkPositional()Lnet/minecraft/world/level/levelgen/PositionalRandomFactory;", cancellable = true)
+    private void forkPositional__1033562071(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1033562071L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "setDecorationSeed(JII)J", cancellable = true)
     private void setDecorationSeed_299955144(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(299955144L))
-            info.setReturnValue(45051057348660607L);
+            info.setReturnValue(45051057246663307L);
     }
 
     @Inject(at = @At("HEAD"), method = "setFeatureSeed(JII)V", cancellable = true)
@@ -43,16 +49,10 @@ public class WorldgenRandom192555399Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "forkPositional()Lnet/minecraft/world/level/levelgen/PositionalRandomFactory;", cancellable = true)
-    private void forkPositional__1033562071(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1033562071L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "seedSlimeChunk(IIJJ)Lnet/minecraft/util/RandomSource;", cancellable = true)
-    private static void seedSlimeChunk_1901176236(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1901176236L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "setLargeFeatureWithSalt(JIII)V", cancellable = true)
+    private void setLargeFeatureWithSalt__745262247(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-745262247L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "setLargeFeatureSeed(JII)V", cancellable = true)
@@ -61,10 +61,10 @@ public class WorldgenRandom192555399Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "setLargeFeatureWithSalt(JIII)V", cancellable = true)
-    private void setLargeFeatureWithSalt__745262247(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-745262247L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "seedSlimeChunk(IIJJ)Lnet/minecraft/util/RandomSource;", cancellable = true)
+    private static void seedSlimeChunk_1901176236(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1901176236L))
+            info.setReturnValue(null);
     }
 
 

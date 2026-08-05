@@ -22,7 +22,7 @@ public class Input_164454548Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_202717289(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(202717289L))
-            info.setReturnValue(-897311397);
+            info.setReturnValue(-780515897);
     }
 
     @Inject(at = @At("HEAD"), method = "shift()Z", cancellable = true)
@@ -55,14 +55,14 @@ public class Input_164454548Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "backward()Z", cancellable = true)
-    private void backward_202733130(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "sprint()Z", cancellable = true)
+    private void sprint_202733130(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(202733130L))
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "sprint()Z", cancellable = true)
-    private void sprint_202733130(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "backward()Z", cancellable = true)
+    private void backward_202733130(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(202733130L))
             info.setReturnValue(true);
     }

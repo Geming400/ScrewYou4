@@ -31,22 +31,22 @@ public class BitSetDiscreteVoxelShape_500637945Mixin {
             info.setReturnValue(false);
     }
 
+    @Inject(at = @At("HEAD"), method = "lastFull(Lnet/minecraft/core/Direction$Axis;)I", cancellable = true)
+    private void lastFull_1667248851(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1667248851L))
+            info.setReturnValue(1678327661);
+    }
+
     @Inject(at = @At("HEAD"), method = "isInterior(III)Z", cancellable = true)
     private void isInterior__279450616(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-279450616L))
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "lastFull(Lnet/minecraft/core/Direction$Axis;)I", cancellable = true)
-    private void lastFull_1667248851(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1667248851L))
-            info.setReturnValue(1516086461);
-    }
-
     @Inject(at = @At("HEAD"), method = "firstFull(Lnet/minecraft/core/Direction$Axis;)I", cancellable = true)
     private void firstFull_1667248851(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1667248851L))
-            info.setReturnValue(1516086461);
+            info.setReturnValue(1678327661);
     }
 
     @Inject(at = @At("HEAD"), method = "withFilledBounds(IIIIIIIII)Lnet/minecraft/world/phys/shapes/BitSetDiscreteVoxelShape;", cancellable = true)

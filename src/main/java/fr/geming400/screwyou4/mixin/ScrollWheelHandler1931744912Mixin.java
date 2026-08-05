@@ -10,7 +10,7 @@ public class ScrollWheelHandler1931744912Mixin {
         @Inject(at = @At("HEAD"), method = "getNextScrollWheelSelection(DII)I", cancellable = true)
     private static void getNextScrollWheelSelection_1009089154(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1009089154L))
-            info.setReturnValue(1785248346);
+            info.setReturnValue(1894564746);
     }
 
     @Inject(at = @At("HEAD"), method = "onMouseScroll(DD)Lorg/joml/Vector2i;", cancellable = true)

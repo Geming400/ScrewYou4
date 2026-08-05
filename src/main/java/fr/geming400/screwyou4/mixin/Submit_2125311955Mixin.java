@@ -22,49 +22,19 @@ public class Submit_2125311955Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__2131392600(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2131392600L))
-            info.setReturnValue(-978804115);
-    }
-
-    @Inject(at = @At("HEAD"), method = "modelParts()Ljava/util/List;", cancellable = true)
-    private void modelParts__543318526(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-543318526L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "tintColor()I", cancellable = true)
-    private void tintColor__2131393096(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2131393096L))
-            info.setReturnValue(-775656696);
-    }
-
-    @Inject(at = @At("HEAD"), method = "renderType()Lnet/minecraft/client/renderer/rendertype/RenderType;", cancellable = true)
-    private void renderType__1085075645(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1085075645L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "pose()Lcom/mojang/blaze3d/vertex/PoseStack$Pose;", cancellable = true)
-    private void pose_35991554(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(35991554L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1236657715);
     }
 
     @Inject(at = @At("HEAD"), method = "overlayCoords()I", cancellable = true)
     private void overlayCoords__2131393096(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2131393096L))
-            info.setReturnValue(-775656696);
-    }
-
-    @Inject(at = @At("HEAD"), method = "lightCoords()I", cancellable = true)
-    private void lightCoords__2131393096(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2131393096L))
-            info.setReturnValue(-775656696);
+            info.setReturnValue(-1033510296);
     }
 
     @Inject(at = @At("HEAD"), method = "distanceToCameraSq()F", cancellable = true)
     private void distanceToCameraSq__2131395979(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2131395979L))
-            info.setReturnValue(7.463107E8F);
+            info.setReturnValue(4.884571E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "sheetedDecalPose()Lcom/mojang/blaze3d/vertex/PoseStack$Pose;", cancellable = true)
@@ -79,10 +49,40 @@ public class Submit_2125311955Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "pose()Lcom/mojang/blaze3d/vertex/PoseStack$Pose;", cancellable = true)
+    private void pose_35991554(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(35991554L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "tintLayers()[I", cancellable = true)
     private void tintLayers__983813985(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-983813985L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "renderType()Lnet/minecraft/client/renderer/rendertype/RenderType;", cancellable = true)
+    private void renderType__1085075645(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1085075645L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "modelParts()Ljava/util/List;", cancellable = true)
+    private void modelParts__543318526(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-543318526L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "lightCoords()I", cancellable = true)
+    private void lightCoords__2131393096(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2131393096L))
+            info.setReturnValue(-1033510296);
+    }
+
+    @Inject(at = @At("HEAD"), method = "tintColor()I", cancellable = true)
+    private void tintColor__2131393096(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2131393096L))
+            info.setReturnValue(-1033510296);
     }
 
 

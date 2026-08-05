@@ -19,15 +19,15 @@ public class MerchantScreen1934329440Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "mouseDragged(Lnet/minecraft/client/input/MouseButtonEvent;DD)Z", cancellable = true)
-    private void mouseDragged__1482629706(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1482629706L))
-            info.setReturnValue(false);
-    }
-
     @Inject(at = @At("HEAD"), method = "mouseClicked(Lnet/minecraft/client/input/MouseButtonEvent;Z)Z", cancellable = true)
     private void mouseClicked_319670562(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(319670562L))
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "mouseDragged(Lnet/minecraft/client/input/MouseButtonEvent;DD)Z", cancellable = true)
+    private void mouseDragged__1482629706(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1482629706L))
             info.setReturnValue(false);
     }
 

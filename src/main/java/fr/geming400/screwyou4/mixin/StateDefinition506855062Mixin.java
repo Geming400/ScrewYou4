@@ -37,12 +37,6 @@ public class StateDefinition506855062Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getPossibleStates()Lcom/google/common/collect/ImmutableList;", cancellable = true)
-    private void getPossibleStates_1474633595(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1474633595L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "propertiesCodec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
     private void propertiesCodec__2052258510(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2052258510L))
@@ -53,6 +47,12 @@ public class StateDefinition506855062Mixin {
     private void isSingletonState_545133645(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(545133645L))
             info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getPossibleStates()Lcom/google/common/collect/ImmutableList;", cancellable = true)
+    private void getPossibleStates_1474633595(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1474633595L))
+            info.setReturnValue(null);
     }
 
 

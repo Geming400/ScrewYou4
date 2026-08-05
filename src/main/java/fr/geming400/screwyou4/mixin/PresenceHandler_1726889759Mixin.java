@@ -13,16 +13,16 @@ public class PresenceHandler_1726889759Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "tryUpdatePresence()V", cancellable = true)
-    private void tryUpdatePresence_1765164497(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1765164497L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "getLatestPresence()Lcom/mojang/authlib/yggdrasil/response/PresenceResponse;", cancellable = true)
     private void getLatestPresence_1933487606(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1933487606L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "tryUpdatePresence()V", cancellable = true)
+    private void tryUpdatePresence_1765164497(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1765164497L))
+            info.cancel();
     }
 
 

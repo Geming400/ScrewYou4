@@ -22,7 +22,7 @@ public class Tool_805679562Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_843942303(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(843942303L))
-            info.setReturnValue(-830208220);
+            info.setReturnValue(-910637720);
     }
 
     @Inject(at = @At("HEAD"), method = "rules()Ljava/util/List;", cancellable = true)
@@ -34,13 +34,13 @@ public class Tool_805679562Mixin {
     @Inject(at = @At("HEAD"), method = "damagePerBlock()I", cancellable = true)
     private void damagePerBlock_843941807(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(843941807L))
-            info.setReturnValue(2067351070);
+            info.setReturnValue(1986921570);
     }
 
     @Inject(at = @At("HEAD"), method = "getMiningSpeed(Lnet/minecraft/world/level/block/state/BlockState;)F", cancellable = true)
     private void getMiningSpeed_660371355(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(660371355L))
-            info.setReturnValue(6.336135E8F);
+            info.setReturnValue(5.53184E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "isCorrectForDrops(Lnet/minecraft/world/level/block/state/BlockState;)Z", cancellable = true)
@@ -58,7 +58,7 @@ public class Tool_805679562Mixin {
     @Inject(at = @At("HEAD"), method = "defaultMiningSpeed()F", cancellable = true)
     private void defaultMiningSpeed_843938924(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(843938924L))
-            info.setReturnValue(6.336135E8F);
+            info.setReturnValue(5.53184E8F);
     }
 
 

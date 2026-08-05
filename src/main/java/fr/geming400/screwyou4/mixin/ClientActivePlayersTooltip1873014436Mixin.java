@@ -7,16 +7,16 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.client.gui.screens.inventory.tooltip.ClientActivePlayersTooltip.class)
 public class ClientActivePlayersTooltip1873014436Mixin {
-        @Inject(at = @At("HEAD"), method = "getHeight(Lnet/minecraft/client/gui/Font;)I", cancellable = true)
-    private void getHeight_902228718(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(902228718L))
-            info.setReturnValue(-277408063);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getWidth(Lnet/minecraft/client/gui/Font;)I", cancellable = true)
+        @Inject(at = @At("HEAD"), method = "getWidth(Lnet/minecraft/client/gui/Font;)I", cancellable = true)
     private void getWidth_902228718(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(902228718L))
-            info.setReturnValue(-277408063);
+            info.setReturnValue(-462454663);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getHeight(Lnet/minecraft/client/gui/Font;)I", cancellable = true)
+    private void getHeight_902228718(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(902228718L))
+            info.setReturnValue(-462454663);
     }
 
     @Inject(at = @At("HEAD"), method = "extractImage(Lnet/minecraft/client/gui/Font;IIIILnet/minecraft/client/gui/GuiGraphicsExtractor;)V", cancellable = true)

@@ -13,6 +13,18 @@ public class WorldLoadEvent_1644353262Mixin {
             info.setReturnValue(false);
     }
 
+    @Inject(at = @At("HEAD"), method = "wasSent()Z", cancellable = true)
+    private void wasSent_1682631844(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1682631844L))
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "setGameMode(Lnet/minecraft/world/level/GameType;Z)V", cancellable = true)
+    private void setGameMode_732094243(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(732094243L))
+            info.cancel();
+    }
+
     @Inject(at = @At("HEAD"), method = "setServerBrand(Ljava/lang/String;)V", cancellable = true)
     private void setServerBrand__1498252886(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1498252886L))
@@ -23,18 +35,6 @@ public class WorldLoadEvent_1644353262Mixin {
     private void addProperties__1123704980(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1123704980L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "setGameMode(Lnet/minecraft/world/level/GameType;Z)V", cancellable = true)
-    private void setGameMode_732094243(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(732094243L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "wasSent()Z", cancellable = true)
-    private void wasSent_1682631844(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1682631844L))
-            info.setReturnValue(false);
     }
 
 

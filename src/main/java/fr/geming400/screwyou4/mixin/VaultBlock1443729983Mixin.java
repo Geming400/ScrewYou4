@@ -25,9 +25,9 @@ public class VaultBlock1443729983Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "useItemOn(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;Lnet/minecraft/world/phys/BlockHitResult;)Lnet/minecraft/world/InteractionResult;", cancellable = true)
-    private void useItemOn__414762342(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-414762342L))
+    @Inject(at = @At("HEAD"), method = "getTicker(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/entity/BlockEntityType;)Lnet/minecraft/world/level/block/entity/BlockEntityTicker;", cancellable = true)
+    private void getTicker__509737360(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-509737360L))
             info.setReturnValue(null);
     }
 
@@ -37,9 +37,9 @@ public class VaultBlock1443729983Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getTicker(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/entity/BlockEntityType;)Lnet/minecraft/world/level/block/entity/BlockEntityTicker;", cancellable = true)
-    private void getTicker__509737360(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-509737360L))
+    @Inject(at = @At("HEAD"), method = "useItemOn(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;Lnet/minecraft/world/phys/BlockHitResult;)Lnet/minecraft/world/InteractionResult;", cancellable = true)
+    private void useItemOn__414762342(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-414762342L))
             info.setReturnValue(null);
     }
 

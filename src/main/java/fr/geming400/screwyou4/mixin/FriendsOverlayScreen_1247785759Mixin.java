@@ -37,6 +37,24 @@ public class FriendsOverlayScreen_1247785759Mixin {
             info.setReturnValue(false);
     }
 
+    @Inject(at = @At("HEAD"), method = "getOverlayWidth()I", cancellable = true)
+    private void getOverlayWidth_1286048004(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1286048004L))
+            info.setReturnValue(2127446962);
+    }
+
+    @Inject(at = @At("HEAD"), method = "refreshLists()V", cancellable = true)
+    private void refreshLists_1286060497(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1286060497L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "applyPresenceUpdate()V", cancellable = true)
+    private void applyPresenceUpdate_1286060497(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1286060497L))
+            info.cancel();
+    }
+
     @Inject(at = @At("HEAD"), method = "mouseClicked(Lnet/minecraft/client/input/MouseButtonEvent;Z)Z", cancellable = true)
     private void mouseClicked__366873120(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-366873120L))
@@ -47,24 +65,6 @@ public class FriendsOverlayScreen_1247785759Mixin {
     private void extractBackground_288098386(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(288098386L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "applyPresenceUpdate()V", cancellable = true)
-    private void applyPresenceUpdate_1286060497(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1286060497L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "refreshLists()V", cancellable = true)
-    private void refreshLists_1286060497(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1286060497L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "getOverlayWidth()I", cancellable = true)
-    private void getOverlayWidth_1286048004(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1286048004L))
-            info.setReturnValue(-1712458634);
     }
 
 

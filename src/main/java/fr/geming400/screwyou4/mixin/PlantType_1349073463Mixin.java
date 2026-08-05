@@ -19,10 +19,16 @@ public class PlantType_1349073463Mixin {
             info.setReturnValue(net.minecraft.client.data.models.BlockModelGenerators.PlantType.NOT_TINTED);
     }
 
-    @Inject(at = @At("HEAD"), method = "getCross()Lnet/minecraft/client/data/models/model/ModelTemplate;", cancellable = true)
-    private void getCross_2035407383(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "getCrossPot()Lnet/minecraft/client/data/models/model/ModelTemplate;", cancellable = true)
+    private void getCrossPot_2035407383(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2035407383L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getPlantTextureMapping(Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/client/data/models/model/TextureMapping;", cancellable = true)
+    private void getPlantTextureMapping__1040187079(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1040187079L))
+            info.setReturnValue(new net.minecraft.client.data.models.model.TextureMapping());
     }
 
     @Inject(at = @At("HEAD"), method = "createItemModel(Lnet/minecraft/client/data/models/BlockModelGenerators;Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/resources/Identifier;", cancellable = true)
@@ -37,14 +43,8 @@ public class PlantType_1349073463Mixin {
             info.setReturnValue(new net.minecraft.client.data.models.model.TextureMapping());
     }
 
-    @Inject(at = @At("HEAD"), method = "getPlantTextureMapping(Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/client/data/models/model/TextureMapping;", cancellable = true)
-    private void getPlantTextureMapping__1040187079(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1040187079L))
-            info.setReturnValue(new net.minecraft.client.data.models.model.TextureMapping());
-    }
-
-    @Inject(at = @At("HEAD"), method = "getCrossPot()Lnet/minecraft/client/data/models/model/ModelTemplate;", cancellable = true)
-    private void getCrossPot_2035407383(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "getCross()Lnet/minecraft/client/data/models/model/ModelTemplate;", cancellable = true)
+    private void getCross_2035407383(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2035407383L))
             info.setReturnValue(null);
     }

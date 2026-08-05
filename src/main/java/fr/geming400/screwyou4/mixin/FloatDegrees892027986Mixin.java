@@ -22,7 +22,7 @@ public class FloatDegrees892027986Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_930290728(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(930290728L))
-            info.setReturnValue(2143445319);
+            info.setReturnValue(-1955706377);
     }
 
     @Inject(at = @At("HEAD"), method = "bounds()Lnet/minecraft/advancements/predicates/MinMaxBounds$Bounds;", cancellable = true)

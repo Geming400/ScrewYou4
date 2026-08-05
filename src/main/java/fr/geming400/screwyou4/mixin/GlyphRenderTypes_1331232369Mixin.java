@@ -22,7 +22,7 @@ public class GlyphRenderTypes_1331232369Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1369495110(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1369495110L))
-            info.setReturnValue(854540415);
+            info.setReturnValue(542499315);
     }
 
     @Inject(at = @At("HEAD"), method = "normal()Lnet/minecraft/client/renderer/rendertype/RenderType;", cancellable = true)
@@ -37,15 +37,21 @@ public class GlyphRenderTypes_1331232369Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "createForColorTexture(Lnet/minecraft/resources/Identifier;)Lnet/minecraft/client/gui/font/GlyphRenderTypes;", cancellable = true)
+    private static void createForColorTexture_888362139(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(888362139L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "seeThrough()Lnet/minecraft/client/renderer/rendertype/RenderType;", cancellable = true)
     private void seeThrough__1879155231(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1879155231L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "createForColorTexture(Lnet/minecraft/resources/Identifier;)Lnet/minecraft/client/gui/font/GlyphRenderTypes;", cancellable = true)
-    private static void createForColorTexture_888362139(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(888362139L))
+    @Inject(at = @At("HEAD"), method = "guiPipeline()Lcom/mojang/blaze3d/pipeline/RenderPipeline;", cancellable = true)
+    private void guiPipeline__1966326716(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1966326716L))
             info.setReturnValue(null);
     }
 
@@ -58,12 +64,6 @@ public class GlyphRenderTypes_1331232369Mixin {
     @Inject(at = @At("HEAD"), method = "createForGrayscaleTexture(Lnet/minecraft/resources/Identifier;)Lnet/minecraft/client/gui/font/GlyphRenderTypes;", cancellable = true)
     private static void createForGrayscaleTexture_888362139(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(888362139L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "guiPipeline()Lcom/mojang/blaze3d/pipeline/RenderPipeline;", cancellable = true)
-    private void guiPipeline__1966326716(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1966326716L))
             info.setReturnValue(null);
     }
 

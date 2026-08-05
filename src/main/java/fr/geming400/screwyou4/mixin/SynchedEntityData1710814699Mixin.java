@@ -31,15 +31,15 @@ public class SynchedEntityData1710814699Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "packDirty()Ljava/util/List;", cancellable = true)
-    private void packDirty__957815781(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-957815781L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "defineId(Ljava/lang/Class;Lnet/minecraft/network/syncher/EntityDataSerializer;)Lnet/minecraft/network/syncher/EntityDataAccessor;", cancellable = true)
     private static void defineId_1734560314(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1734560314L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "packDirty()Ljava/util/List;", cancellable = true)
+    private void packDirty__957815781(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-957815781L))
             info.setReturnValue(null);
     }
 

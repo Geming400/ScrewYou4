@@ -22,7 +22,7 @@ public class ColoredRectangleRenderState1594923760Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1633186502(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1633186502L))
-            info.setReturnValue(-1809568304);
+            info.setReturnValue(-2069424204);
     }
 
     @Inject(at = @At("HEAD"), method = "bounds()Lnet/minecraft/client/gui/navigation/ScreenRectangle;", cancellable = true)
@@ -34,25 +34,25 @@ public class ColoredRectangleRenderState1594923760Mixin {
     @Inject(at = @At("HEAD"), method = "x1()I", cancellable = true)
     private void x1_1633186006(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1633186006L))
-            info.setReturnValue(-1606420884);
+            info.setReturnValue(-1866276784);
     }
 
     @Inject(at = @At("HEAD"), method = "y1()I", cancellable = true)
     private void y1_1633186006(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1633186006L))
-            info.setReturnValue(-1606420884);
+            info.setReturnValue(-1866276784);
     }
 
     @Inject(at = @At("HEAD"), method = "x0()I", cancellable = true)
     private void x0_1633186006(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1633186006L))
-            info.setReturnValue(-1606420884);
+            info.setReturnValue(-1866276784);
     }
 
     @Inject(at = @At("HEAD"), method = "y0()I", cancellable = true)
     private void y0_1633186006(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1633186006L))
-            info.setReturnValue(-1606420884);
+            info.setReturnValue(-1866276784);
     }
 
     @Inject(at = @At("HEAD"), method = "pose()Lorg/joml/Matrix3x2fc;", cancellable = true)
@@ -61,16 +61,16 @@ public class ColoredRectangleRenderState1594923760Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "col1()I", cancellable = true)
-    private void col1_1633186006(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1633186006L))
-            info.setReturnValue(-1603425584);
-    }
-
     @Inject(at = @At("HEAD"), method = "col2()I", cancellable = true)
     private void col2_1633186006(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1633186006L))
-            info.setReturnValue(-1603425584);
+            info.setReturnValue(-1866276784);
+    }
+
+    @Inject(at = @At("HEAD"), method = "col1()I", cancellable = true)
+    private void col1_1633186006(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1633186006L))
+            info.setReturnValue(-1866276784);
     }
 
     @Inject(at = @At("HEAD"), method = "scissorArea()Lnet/minecraft/client/gui/navigation/ScreenRectangle;", cancellable = true)

@@ -22,17 +22,17 @@ public class AssetInfo1061657367Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1099920109(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1099920109L))
-            info.setReturnValue(1832723773);
-    }
-
-    @Inject(at = @At("HEAD"), method = "wild()Lnet/minecraft/core/ClientAsset$ResourceTexture;", cancellable = true)
-    private void wild__190523853(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-190523853L))
-            info.setReturnValue(null);
+            info.setReturnValue(1592515373);
     }
 
     @Inject(at = @At("HEAD"), method = "tame()Lnet/minecraft/core/ClientAsset$ResourceTexture;", cancellable = true)
     private void tame__190523853(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-190523853L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "wild()Lnet/minecraft/core/ClientAsset$ResourceTexture;", cancellable = true)
+    private void wild__190523853(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-190523853L))
             info.setReturnValue(null);
     }

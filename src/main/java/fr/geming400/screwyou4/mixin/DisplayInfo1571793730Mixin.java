@@ -22,7 +22,7 @@ public class DisplayInfo1571793730Mixin {
     @Inject(at = @At("HEAD"), method = "getY()F", cancellable = true)
     private void getY_1610053093(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1610053093L))
-            info.setReturnValue(8.446018E8F);
+            info.setReturnValue(5.895981E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "getDescription()Lnet/minecraft/network/chat/Component;", cancellable = true)
@@ -34,19 +34,7 @@ public class DisplayInfo1571793730Mixin {
     @Inject(at = @At("HEAD"), method = "getX()F", cancellable = true)
     private void getX_1610053093(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1610053093L))
-            info.setReturnValue(8.446018E8F);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getIcon()Lnet/minecraft/world/item/ItemStackTemplate;", cancellable = true)
-    private void getIcon__969286260(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-969286260L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getTitle()Lnet/minecraft/network/chat/Component;", cancellable = true)
-    private void getTitle__605115435(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-605115435L))
-            info.setReturnValue(null);
+            info.setReturnValue(5.895981E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "setLocation(FF)V", cancellable = true)
@@ -55,9 +43,15 @@ public class DisplayInfo1571793730Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getBackground()Ljava/util/Optional;", cancellable = true)
-    private void getBackground_1817255152(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1817255152L))
+    @Inject(at = @At("HEAD"), method = "getTitle()Lnet/minecraft/network/chat/Component;", cancellable = true)
+    private void getTitle__605115435(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-605115435L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getIcon()Lnet/minecraft/world/item/ItemStackTemplate;", cancellable = true)
+    private void getIcon__969286260(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-969286260L))
             info.setReturnValue(null);
     }
 
@@ -71,6 +65,12 @@ public class DisplayInfo1571793730Mixin {
     private void shouldAnnounceChat_1610072313(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1610072313L))
             info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getBackground()Ljava/util/Optional;", cancellable = true)
+    private void getBackground_1817255152(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1817255152L))
+            info.setReturnValue(null);
     }
 
 

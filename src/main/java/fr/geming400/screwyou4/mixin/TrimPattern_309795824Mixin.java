@@ -22,7 +22,7 @@ public class TrimPattern_309795824Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_348058565(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(348058565L))
-            info.setReturnValue(1611063228);
+            info.setReturnValue(1568324028);
     }
 
     @Inject(at = @At("HEAD"), method = "description()Lnet/minecraft/network/chat/Component;", cancellable = true)
@@ -37,16 +37,16 @@ public class TrimPattern_309795824Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "decal()Z", cancellable = true)
-    private void decal_348074406(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(348074406L))
-            info.setReturnValue(true);
-    }
-
     @Inject(at = @At("HEAD"), method = "copyWithStyle(Lnet/minecraft/core/Holder;)Lnet/minecraft/network/chat/Component;", cancellable = true)
     private void copyWithStyle_571658771(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(571658771L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "decal()Z", cancellable = true)
+    private void decal_348074406(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(348074406L))
+            info.setReturnValue(true);
     }
 
 

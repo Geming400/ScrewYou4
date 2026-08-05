@@ -31,14 +31,14 @@ public class ItemDisplayContext_1240302596Mixin {
             info.setReturnValue("Iega6I7_Q$0b鶣OU瑞Sa+WkK煗A捌oY/?aX0 :#D!xm+gMuZ4K#咞i Bg^e<)/rᅮ");
     }
 
-    @Inject(at = @At("HEAD"), method = "leftHand()Z", cancellable = true)
-    private void leftHand_1278581178(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "firstPerson()Z", cancellable = true)
+    private void firstPerson_1278581178(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1278581178L))
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "firstPerson()Z", cancellable = true)
-    private void firstPerson_1278581178(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "leftHand()Z", cancellable = true)
+    private void leftHand_1278581178(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1278581178L))
             info.setReturnValue(true);
     }

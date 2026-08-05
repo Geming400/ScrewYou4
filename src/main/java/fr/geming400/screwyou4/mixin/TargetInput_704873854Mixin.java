@@ -22,13 +22,7 @@ public class TargetInput_704873854Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_743136595(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(743136595L))
-            info.setReturnValue(927391408);
-    }
-
-    @Inject(at = @At("HEAD"), method = "referencedTargets()Ljava/util/Set;", cancellable = true)
-    private void referencedTargets__1124161633(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1124161633L))
-            info.setReturnValue(null);
+            info.setReturnValue(1544008408);
     }
 
     @Inject(at = @At("HEAD"), method = "samplerName()Ljava/lang/String;", cancellable = true)
@@ -41,6 +35,12 @@ public class TargetInput_704873854Mixin {
     private void useDepthBuffer_743152436(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(743152436L))
             info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "referencedTargets()Ljava/util/Set;", cancellable = true)
+    private void referencedTargets__1124161633(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1124161633L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "targetId()Lnet/minecraft/resources/Identifier;", cancellable = true)

@@ -25,6 +25,12 @@ public class PlacementContext_245086846Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "getMinY()I", cancellable = true)
+    private void getMinY_283349091(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(283349091L))
+            info.setReturnValue(-361155763);
+    }
+
     @Inject(at = @At("HEAD"), method = "getBlockState(Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
     private void getBlockState_643712791(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(643712791L))
@@ -34,13 +40,7 @@ public class PlacementContext_245086846Mixin {
     @Inject(at = @At("HEAD"), method = "getHeight(Lnet/minecraft/world/level/levelgen/Heightmap$Types;II)I", cancellable = true)
     private void getHeight_1040673871(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1040673871L))
-            info.setReturnValue(-1259479460);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getMinY()I", cancellable = true)
-    private void getMinY_283349091(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(283349091L))
-            info.setReturnValue(54805037);
+            info.setReturnValue(-1675440260);
     }
 
     @Inject(at = @At("HEAD"), method = "topFeature()Ljava/util/Optional;", cancellable = true)

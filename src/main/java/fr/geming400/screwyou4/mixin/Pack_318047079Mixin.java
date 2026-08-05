@@ -16,7 +16,7 @@ public class Pack_318047079Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_356309324(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(356309324L))
-            info.setReturnValue(289670770);
+            info.setReturnValue(297658370);
     }
 
     @Inject(at = @At("HEAD"), method = "location()Lnet/minecraft/server/packs/PackLocationInfo;", cancellable = true)
@@ -43,33 +43,15 @@ public class Pack_318047079Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getRequestedFeatures()Lnet/minecraft/world/flag/FeatureFlagSet;", cancellable = true)
-    private void getRequestedFeatures_982867576(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(982867576L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isFixedPosition()Z", cancellable = true)
-    private void isFixedPosition_356325661(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(356325661L))
-            info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getCompatibility()Lnet/minecraft/server/packs/repository/PackCompatibility;", cancellable = true)
-    private void getCompatibility_77575947(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(77575947L))
-            info.setReturnValue(net.minecraft.server.packs.repository.PackCompatibility.TOO_OLD);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isRequired()Z", cancellable = true)
-    private void isRequired_356325661(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(356325661L))
-            info.setReturnValue(false);
-    }
-
     @Inject(at = @At("HEAD"), method = "getTitle()Lnet/minecraft/network/chat/Component;", cancellable = true)
     private void getTitle__1858862087(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1858862087L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getRequestedFeatures()Lnet/minecraft/world/flag/FeatureFlagSet;", cancellable = true)
+    private void getRequestedFeatures_982867576(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(982867576L))
             info.setReturnValue(null);
     }
 
@@ -82,12 +64,6 @@ public class Pack_318047079Mixin {
     @Inject(at = @At("HEAD"), method = "readPackMetadata(Lnet/minecraft/server/packs/PackLocationInfo;Lnet/minecraft/server/packs/repository/Pack$ResourcesSupplier;Lnet/minecraft/server/packs/metadata/pack/PackFormat;Lnet/minecraft/server/packs/PackType;)Lnet/minecraft/server/packs/repository/Pack$Metadata;", cancellable = true)
     private static void readPackMetadata_598965906(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(598965906L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getChatLink(Z)Lnet/minecraft/network/chat/Component;", cancellable = true)
-    private void getChatLink__718163409(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-718163409L))
             info.setReturnValue(null);
     }
 
@@ -106,6 +82,30 @@ public class Pack_318047079Mixin {
     @Inject(at = @At("HEAD"), method = "selectionConfig()Lnet/minecraft/server/packs/PackSelectionConfig;", cancellable = true)
     private void selectionConfig_1266356204(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1266356204L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isRequired()Z", cancellable = true)
+    private void isRequired_356325661(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(356325661L))
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isFixedPosition()Z", cancellable = true)
+    private void isFixedPosition_356325661(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(356325661L))
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getCompatibility()Lnet/minecraft/server/packs/repository/PackCompatibility;", cancellable = true)
+    private void getCompatibility_77575947(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(77575947L))
+            info.setReturnValue(net.minecraft.server.packs.repository.PackCompatibility.TOO_OLD);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getChatLink(Z)Lnet/minecraft/network/chat/Component;", cancellable = true)
+    private void getChatLink__718163409(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-718163409L))
             info.setReturnValue(null);
     }
 

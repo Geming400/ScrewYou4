@@ -16,7 +16,7 @@ public class ClientboundLevelEventPacket35357475Mixin {
     @Inject(at = @At("HEAD"), method = "getType()I", cancellable = true)
     private void getType_73619721(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(73619721L))
-            info.setReturnValue(1417069440);
+            info.setReturnValue(779051340);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/protocol/game/ClientGamePacketListener;)V", cancellable = true)
@@ -34,7 +34,7 @@ public class ClientboundLevelEventPacket35357475Mixin {
     @Inject(at = @At("HEAD"), method = "getData()I", cancellable = true)
     private void getData_73619721(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(73619721L))
-            info.setReturnValue(1417069440);
+            info.setReturnValue(779051340);
     }
 
     @Inject(at = @At("HEAD"), method = "getPos()Lnet/minecraft/core/BlockPos;", cancellable = true)

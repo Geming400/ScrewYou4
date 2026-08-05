@@ -22,13 +22,13 @@ public class ItemBody146236917Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_184499659(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(184499659L))
-            info.setReturnValue(2088764383);
+            info.setReturnValue(1255366183);
     }
 
     @Inject(at = @At("HEAD"), method = "width()I", cancellable = true)
     private void width_184499163(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(184499163L))
-            info.setReturnValue(-2003055494);
+            info.setReturnValue(1458513602);
     }
 
     @Inject(at = @At("HEAD"), method = "item()Lnet/minecraft/world/item/ItemStackTemplate;", cancellable = true)
@@ -52,7 +52,7 @@ public class ItemBody146236917Mixin {
     @Inject(at = @At("HEAD"), method = "height()I", cancellable = true)
     private void height_184499163(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(184499163L))
-            info.setReturnValue(-2003055494);
+            info.setReturnValue(1458513602);
     }
 
     @Inject(at = @At("HEAD"), method = "showDecorations()Z", cancellable = true)

@@ -34,7 +34,7 @@ public class MapEntryPathElement_259889209Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_298151950(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(298151950L))
-            info.setReturnValue(1058373501);
+            info.setReturnValue(1175180901);
     }
 
     @Inject(at = @At("HEAD"), method = "key()Ljava/lang/String;", cancellable = true)

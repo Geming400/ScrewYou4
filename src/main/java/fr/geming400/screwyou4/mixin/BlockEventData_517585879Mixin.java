@@ -22,7 +22,7 @@ public class BlockEventData_517585879Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_555848620(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(555848620L))
-            info.setReturnValue(-1317269014);
+            info.setReturnValue(-352207614);
     }
 
     @Inject(at = @At("HEAD"), method = "pos()Lnet/minecraft/core/BlockPos;", cancellable = true)
@@ -40,13 +40,13 @@ public class BlockEventData_517585879Mixin {
     @Inject(at = @At("HEAD"), method = "paramB()I", cancellable = true)
     private void paramB_555848124(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(555848124L))
-            info.setReturnValue(-1114121595);
+            info.setReturnValue(-149060195);
     }
 
     @Inject(at = @At("HEAD"), method = "paramA()I", cancellable = true)
     private void paramA_555848124(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(555848124L))
-            info.setReturnValue(-1114121595);
+            info.setReturnValue(-149060195);
     }
 
 

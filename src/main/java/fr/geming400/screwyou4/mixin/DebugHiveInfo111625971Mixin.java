@@ -28,7 +28,7 @@ public class DebugHiveInfo111625971Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_149888713(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(149888713L))
-            info.setReturnValue(285033004);
+            info.setReturnValue(-573022596);
     }
 
     @Inject(at = @At("HEAD"), method = "pack(Lnet/minecraft/world/level/block/entity/BeehiveBlockEntity;)Lnet/minecraft/util/debug/DebugHiveInfo;", cancellable = true)
@@ -43,16 +43,16 @@ public class DebugHiveInfo111625971Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "occupantCount()I", cancellable = true)
-    private void occupantCount_149888217(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(149888217L))
-            info.setReturnValue(488180423);
-    }
-
     @Inject(at = @At("HEAD"), method = "honeyLevel()I", cancellable = true)
     private void honeyLevel_149888217(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(149888217L))
-            info.setReturnValue(488180423);
+            info.setReturnValue(-369875177);
+    }
+
+    @Inject(at = @At("HEAD"), method = "occupantCount()I", cancellable = true)
+    private void occupantCount_149888217(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(149888217L))
+            info.setReturnValue(-369875177);
     }
 
 

@@ -22,7 +22,7 @@ public class Fallsounds_573457055Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_611719796(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(611719796L))
-            info.setReturnValue(-927407413);
+            info.setReturnValue(-918090013);
     }
 
     @Inject(at = @At("HEAD"), method = "big()Lnet/minecraft/sounds/SoundEvent;", cancellable = true)

@@ -22,7 +22,7 @@ public class TriggerInstanceKey1066911724Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1105174466(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1105174466L))
-            info.setReturnValue(-586817770);
+            info.setReturnValue(-621060270);
     }
 
     @Inject(at = @At("HEAD"), method = "advancement()Lnet/minecraft/advancements/AdvancementHolder;", cancellable = true)

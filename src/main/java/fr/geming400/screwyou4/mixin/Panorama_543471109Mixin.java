@@ -13,15 +13,15 @@ public class Panorama_543471109Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "startSpin()V", cancellable = true)
-    private void startSpin_581745847(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(581745847L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/client/gui/GuiGraphicsExtractor;II)V", cancellable = true)
     private void extractRenderState_1758644940(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1758644940L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "startSpin()V", cancellable = true)
+    private void startSpin_581745847(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(581745847L))
             info.cancel();
     }
 

@@ -10,7 +10,7 @@ public class Constant205311339Mixin {
         @Inject(at = @At("HEAD"), method = "value()F", cancellable = true)
     private void value_243570702(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(243570702L))
-            info.setReturnValue(5.32164E8F);
+            info.setReturnValue(3.06679E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
@@ -28,13 +28,19 @@ public class Constant205311339Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_243574081(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(243574081L))
-            info.setReturnValue(900311790);
+            info.setReturnValue(680236190);
     }
 
     @Inject(at = @At("HEAD"), method = "maxValue()F", cancellable = true)
     private void maxValue_243570702(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(243570702L))
-            info.setReturnValue(5.32164E8F);
+            info.setReturnValue(3.120884E8F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "minValue()F", cancellable = true)
+    private void minValue_243570702(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(243570702L))
+            info.setReturnValue(3.120884E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "mapCoordinates(Ljava/util/function/UnaryOperator;)Lnet/minecraft/util/CubicSpline;", cancellable = true)
@@ -47,12 +53,6 @@ public class Constant205311339Mixin {
     private void parityString__930149132(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-930149132L))
             info.setReturnValue("qy|qjs ;ὬjRnlR?^xYZA\":w,=`99=XJhuTx垅");
-    }
-
-    @Inject(at = @At("HEAD"), method = "minValue()F", cancellable = true)
-    private void minValue_243570702(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(243570702L))
-            info.setReturnValue(5.32164E8F);
     }
 
 

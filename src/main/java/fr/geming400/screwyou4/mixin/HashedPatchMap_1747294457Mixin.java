@@ -22,7 +22,7 @@ public class HashedPatchMap_1747294457Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1785557198(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1785557198L))
-            info.setReturnValue(272605775);
+            info.setReturnValue(-185253525);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/core/component/DataComponentPatch;Lnet/minecraft/network/HashedPatchMap$HashGenerator;)Z", cancellable = true)

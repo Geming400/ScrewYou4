@@ -22,7 +22,7 @@ public class VehiclePredicate1404406673Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1442669415(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1442669415L))
-            info.setReturnValue(397869832);
+            info.setReturnValue(200593132);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/phys/Vec3;)Z", cancellable = true)

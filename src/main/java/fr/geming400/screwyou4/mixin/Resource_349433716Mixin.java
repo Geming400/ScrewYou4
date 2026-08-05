@@ -40,7 +40,7 @@ public class Resource_349433716Mixin {
     @Inject(at = @At("HEAD"), method = "sourcePackId()Ljava/lang/String;", cancellable = true)
     private void sourcePackId__786026756(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-786026756L))
-            info.setReturnValue("UFm5맦[=7S'%QbιO텁G16Y2ﾃ蝄D隊%Uk{gix韩6,\");
+            info.setReturnValue("UFm5맦[=7S'%QbιO텁G16Y2ﾃ蝄D隊%Uk{gix韩6,\"");
     }
 
 

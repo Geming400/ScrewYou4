@@ -16,7 +16,7 @@ public class ClientboundSoundEntityPacket770209577Mixin {
     @Inject(at = @At("HEAD"), method = "getId()I", cancellable = true)
     private void getId_808471823(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(808471823L))
-            info.setReturnValue(1350263463);
+            info.setReturnValue(1700798363);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/PacketListener;)V", cancellable = true)
@@ -34,7 +34,7 @@ public class ClientboundSoundEntityPacket770209577Mixin {
     @Inject(at = @At("HEAD"), method = "getSeed()J", cancellable = true)
     private void getSeed_808472784(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(808472784L))
-            info.setReturnValue(-9024549123154966248L);
+            info.setReturnValue(-9024549122804431348L);
     }
 
     @Inject(at = @At("HEAD"), method = "getSource()Lnet/minecraft/sounds/SoundSource;", cancellable = true)
@@ -46,13 +46,13 @@ public class ClientboundSoundEntityPacket770209577Mixin {
     @Inject(at = @At("HEAD"), method = "getVolume()F", cancellable = true)
     private void getVolume_808468940(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(808468940L))
-            info.setReturnValue(2.749528E8F);
+            info.setReturnValue(6.254877E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "getPitch()F", cancellable = true)
     private void getPitch_808468940(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(808468940L))
-            info.setReturnValue(2.749528E8F);
+            info.setReturnValue(6.254877E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "getSound()Lnet/minecraft/core/Holder;", cancellable = true)

@@ -22,7 +22,7 @@ public class RunCommand1752862588Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1791125330(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1791125330L))
-            info.setReturnValue(592509535);
+            info.setReturnValue(746774535);
     }
 
     @Inject(at = @At("HEAD"), method = "command()Ljava/lang/String;", cancellable = true)

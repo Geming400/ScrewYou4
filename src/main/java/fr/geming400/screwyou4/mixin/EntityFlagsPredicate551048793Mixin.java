@@ -22,7 +22,7 @@ public class EntityFlagsPredicate551048793Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_589311535(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(589311535L))
-            info.setReturnValue(249471044);
+            info.setReturnValue(141589444);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/world/entity/Entity;)Z", cancellable = true)
@@ -35,6 +35,30 @@ public class EntityFlagsPredicate551048793Mixin {
     private void matches__1403143118(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1403143118L))
             info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isInWater()Ljava/util/Optional;", cancellable = true)
+    private void isInWater_796510215(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(796510215L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isOnFire()Ljava/util/Optional;", cancellable = true)
+    private void isOnFire_796510215(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(796510215L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isSwimming()Ljava/util/Optional;", cancellable = true)
+    private void isSwimming_796510215(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(796510215L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isBaby()Ljava/util/Optional;", cancellable = true)
+    private void isBaby_796510215(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(796510215L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "isCrouching()Ljava/util/Optional;", cancellable = true)
@@ -55,38 +79,14 @@ public class EntityFlagsPredicate551048793Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "isInWater()Ljava/util/Optional;", cancellable = true)
-    private void isInWater_796510215(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(796510215L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isSwimming()Ljava/util/Optional;", cancellable = true)
-    private void isSwimming_796510215(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(796510215L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isOnFire()Ljava/util/Optional;", cancellable = true)
-    private void isOnFire_796510215(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(796510215L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isBaby()Ljava/util/Optional;", cancellable = true)
-    private void isBaby_796510215(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "isOnGround()Ljava/util/Optional;", cancellable = true)
+    private void isOnGround_796510215(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(796510215L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "isFlying()Ljava/util/Optional;", cancellable = true)
     private void isFlying_796510215(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(796510215L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isOnGround()Ljava/util/Optional;", cancellable = true)
-    private void isOnGround_796510215(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(796510215L))
             info.setReturnValue(null);
     }

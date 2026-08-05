@@ -19,22 +19,16 @@ public class EyeOfEnder_1340650078Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "signalTo(Lnet/minecraft/world/phys/Vec3;)V", cancellable = true)
-    private void signalTo_1708386076(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1708386076L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "hurtServer(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/damagesource/DamageSource;F)Z", cancellable = true)
-    private void hurtServer_891219746(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(891219746L))
-            info.setReturnValue(true);
-    }
-
     @Inject(at = @At("HEAD"), method = "getLightLevelDependentMagicValue()F", cancellable = true)
     private void getLightLevelDependentMagicValue_1378909440(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1378909440L))
-            info.setReturnValue(1.02596E8F);
+            info.setReturnValue(1.510572E8F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "setItem(Lnet/minecraft/world/item/ItemStack;)V", cancellable = true)
+    private void setItem__1219785931(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1219785931L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "shouldRenderAtSqrDistance(D)Z", cancellable = true)
@@ -49,9 +43,15 @@ public class EyeOfEnder_1340650078Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "setItem(Lnet/minecraft/world/item/ItemStack;)V", cancellable = true)
-    private void setItem__1219785931(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1219785931L))
+    @Inject(at = @At("HEAD"), method = "hurtServer(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/damagesource/DamageSource;F)Z", cancellable = true)
+    private void hurtServer_891219746(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(891219746L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "signalTo(Lnet/minecraft/world/phys/Vec3;)V", cancellable = true)
+    private void signalTo_1708386076(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1708386076L))
             info.cancel();
     }
 

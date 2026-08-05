@@ -28,19 +28,19 @@ public class ServerboundJigsawGeneratePacket_1811813845Mixin {
     @Inject(at = @At("HEAD"), method = "levels()I", cancellable = true)
     private void levels_1850076090(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1850076090L))
-            info.setReturnValue(-586939654);
-    }
-
-    @Inject(at = @At("HEAD"), method = "keepJigsaws()Z", cancellable = true)
-    private void keepJigsaws_1850092427(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1850092427L))
-            info.setReturnValue(false);
+            info.setReturnValue(-361442054);
     }
 
     @Inject(at = @At("HEAD"), method = "getPos()Lnet/minecraft/core/BlockPos;", cancellable = true)
     private void getPos__81573035(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-81573035L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "keepJigsaws()Z", cancellable = true)
+    private void keepJigsaws_1850092427(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1850092427L))
+            info.setReturnValue(false);
     }
 
 

@@ -115,38 +115,8 @@ public class CopyOnWriteFileSystem_386611224Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "collectMoveOperations(Ljava/nio/file/Path;)Lnet/minecraft/util/filefix/virtualfilesystem/CopyOnWriteFileSystem$Moves;", cancellable = true)
-    private void collectMoveOperations_1188118202(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1188118202L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "hardLinkFiles(Ljava/util/List;)V", cancellable = true)
-    private static void hardLinkFiles__392607117(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-392607117L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "tryRevertMoves(Ljava/util/List;[Ljava/nio/file/CopyOption;)Ljava/util/List;", cancellable = true)
-    private static void tryRevertMoves__1366291925(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1366291925L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "moveFilesWithRetry(Ljava/util/List;[Ljava/nio/file/CopyOption;)V", cancellable = true)
-    private static void moveFilesWithRetry_618107222(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(618107222L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "moveFiles(Ljava/util/List;)V", cancellable = true)
-    private static void moveFiles__392607117(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-392607117L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "baseDirectory()Ljava/nio/file/Path;", cancellable = true)
-    private void baseDirectory__747752459(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "tmpDirectory()Ljava/nio/file/Path;", cancellable = true)
+    private void tmpDirectory__747752459(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-747752459L))
             info.setReturnValue(null);
     }
@@ -157,8 +127,38 @@ public class CopyOnWriteFileSystem_386611224Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "tmpDirectory()Ljava/nio/file/Path;", cancellable = true)
-    private void tmpDirectory__747752459(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "moveFiles(Ljava/util/List;)V", cancellable = true)
+    private static void moveFiles__392607117(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-392607117L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "collectMoveOperations(Ljava/nio/file/Path;)Lnet/minecraft/util/filefix/virtualfilesystem/CopyOnWriteFileSystem$Moves;", cancellable = true)
+    private void collectMoveOperations_1188118202(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1188118202L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "tryRevertMoves(Ljava/util/List;[Ljava/nio/file/CopyOption;)Ljava/util/List;", cancellable = true)
+    private static void tryRevertMoves__1366291925(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1366291925L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "hardLinkFiles(Ljava/util/List;)V", cancellable = true)
+    private static void hardLinkFiles__392607117(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-392607117L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "moveFilesWithRetry(Ljava/util/List;[Ljava/nio/file/CopyOption;)V", cancellable = true)
+    private static void moveFilesWithRetry_618107222(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(618107222L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "baseDirectory()Ljava/nio/file/Path;", cancellable = true)
+    private void baseDirectory__747752459(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-747752459L))
             info.setReturnValue(null);
     }

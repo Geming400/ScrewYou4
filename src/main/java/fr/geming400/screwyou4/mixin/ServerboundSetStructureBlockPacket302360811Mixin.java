@@ -52,7 +52,7 @@ public class ServerboundSetStructureBlockPacket302360811Mixin {
     @Inject(at = @At("HEAD"), method = "getSeed()J", cancellable = true)
     private void getSeed_340624018(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(340624018L))
-            info.setReturnValue(-1018512218192127422L);
+            info.setReturnValue(-1018512218233530722L);
     }
 
     @Inject(at = @At("HEAD"), method = "getData()Ljava/lang/String;", cancellable = true)
@@ -73,6 +73,36 @@ public class ServerboundSetStructureBlockPacket302360811Mixin {
             info.setReturnValue(net.minecraft.world.level.block.state.properties.StructureMode.CORNER);
     }
 
+    @Inject(at = @At("HEAD"), method = "getRotation()Lnet/minecraft/world/level/block/Rotation;", cancellable = true)
+    private void getRotation__1195960547(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1195960547L))
+            info.setReturnValue(net.minecraft.world.level.block.Rotation.COUNTERCLOCKWISE_90);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getPos()Lnet/minecraft/core/BlockPos;", cancellable = true)
+    private void getPos__1591026068(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1591026068L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isShowAir()Z", cancellable = true)
+    private void isShowAir_340639394(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(340639394L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isIgnoreEntities()Z", cancellable = true)
+    private void isIgnoreEntities_340639394(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(340639394L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getIntegrity()F", cancellable = true)
+    private void getIntegrity_340620174(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(340620174L))
+            info.setReturnValue(2.657763E8F);
+    }
+
     @Inject(at = @At("HEAD"), method = "getUpdateType()Lnet/minecraft/world/level/block/entity/StructureBlockEntity$UpdateType;", cancellable = true)
     private void getUpdateType__1415026851(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1415026851L))
@@ -83,36 +113,6 @@ public class ServerboundSetStructureBlockPacket302360811Mixin {
     private void isShowBoundingBox_340639394(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(340639394L))
             info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isShowAir()Z", cancellable = true)
-    private void isShowAir_340639394(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(340639394L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getRotation()Lnet/minecraft/world/level/block/Rotation;", cancellable = true)
-    private void getRotation__1195960547(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1195960547L))
-            info.setReturnValue(net.minecraft.world.level.block.Rotation.COUNTERCLOCKWISE_90);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getIntegrity()F", cancellable = true)
-    private void getIntegrity_340620174(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(340620174L))
-            info.setReturnValue(3.081787E8F);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isIgnoreEntities()Z", cancellable = true)
-    private void isIgnoreEntities_340639394(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(340639394L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getPos()Lnet/minecraft/core/BlockPos;", cancellable = true)
-    private void getPos__1591026068(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1591026068L))
-            info.setReturnValue(null);
     }
 
 

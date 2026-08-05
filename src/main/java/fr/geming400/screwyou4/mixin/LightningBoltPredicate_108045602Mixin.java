@@ -22,19 +22,13 @@ public class LightningBoltPredicate_108045602Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_146308343(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(146308343L))
-            info.setReturnValue(1639340552);
+            info.setReturnValue(1397466352);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/phys/Vec3;)Z", cancellable = true)
     private void matches__1846146310(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1846146310L))
             info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "blocksSetOnFire()Lnet/minecraft/advancements/predicates/MinMaxBounds$Ints;", cancellable = true)
-    private void blocksSetOnFire__43189457(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-43189457L))
-            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "entityStruck()Ljava/util/Optional;", cancellable = true)
@@ -46,6 +40,12 @@ public class LightningBoltPredicate_108045602Mixin {
     @Inject(at = @At("HEAD"), method = "blockSetOnFire(Lnet/minecraft/advancements/predicates/MinMaxBounds$Ints;)Lnet/minecraft/advancements/predicates/entity/LightningBoltPredicate;", cancellable = true)
     private static void blockSetOnFire__1701982843(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1701982843L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "blocksSetOnFire()Lnet/minecraft/advancements/predicates/MinMaxBounds$Ints;", cancellable = true)
+    private void blocksSetOnFire__43189457(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-43189457L))
             info.setReturnValue(null);
     }
 

@@ -22,7 +22,7 @@ public class EnchantmentAttributeEffect572449560Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_610712302(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(610712302L))
-            info.setReturnValue(1183517059);
+            info.setReturnValue(1427843459);
     }
 
     @Inject(at = @At("HEAD"), method = "id()Lnet/minecraft/resources/Identifier;", cancellable = true)

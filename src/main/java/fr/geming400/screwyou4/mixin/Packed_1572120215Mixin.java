@@ -22,7 +22,7 @@ public class Packed_1572120215Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1610382956(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1610382956L))
-            info.setReturnValue(1607089765);
+            info.setReturnValue(1542020165);
     }
 
     @Inject(at = @At("HEAD"), method = "write(Lnet/minecraft/network/FriendlyByteBuf;)V", cancellable = true)

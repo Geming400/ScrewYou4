@@ -22,7 +22,7 @@ public class Data1643888744Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1682151486(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1682151486L))
-            info.setReturnValue(357072163);
+            info.setReturnValue(-293972137);
     }
 
     @Inject(at = @At("HEAD"), method = "validate(Lcom/mojang/authlib/GameProfile;Lnet/minecraft/util/SignatureValidator;)Lnet/minecraft/network/chat/RemoteChatSession;", cancellable = true)

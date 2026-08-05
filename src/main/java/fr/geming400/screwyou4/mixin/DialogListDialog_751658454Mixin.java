@@ -22,7 +22,7 @@ public class DialogListDialog_751658454Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_789921195(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(789921195L))
-            info.setReturnValue(-1818140690);
+            info.setReturnValue(1841598806);
     }
 
     @Inject(at = @At("HEAD"), method = "common()Lnet/minecraft/server/dialog/CommonDialogData;", cancellable = true)
@@ -52,13 +52,13 @@ public class DialogListDialog_751658454Mixin {
     @Inject(at = @At("HEAD"), method = "columns()I", cancellable = true)
     private void columns_789920699(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(789920699L))
-            info.setReturnValue(-1614993271);
+            info.setReturnValue(2044746225);
     }
 
     @Inject(at = @At("HEAD"), method = "buttonWidth()I", cancellable = true)
     private void buttonWidth_789920699(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(789920699L))
-            info.setReturnValue(-1614993271);
+            info.setReturnValue(2044746225);
     }
 
 

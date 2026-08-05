@@ -22,7 +22,7 @@ public class VertexInfo906161109Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_944423851(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(944423851L))
-            info.setReturnValue(-135092623);
+            info.setReturnValue(-395586523);
     }
 
     @Inject(at = @At("HEAD"), method = "select(Lorg/joml/Vector3fc;Lorg/joml/Vector3fc;)Lorg/joml/Vector3f;", cancellable = true)

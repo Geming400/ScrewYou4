@@ -19,14 +19,14 @@ public class RemovalReason697238547Mixin {
             info.setReturnValue(net.minecraft.world.entity.Entity.RemovalReason.KILLED);
     }
 
-    @Inject(at = @At("HEAD"), method = "shouldDestroy()Z", cancellable = true)
-    private void shouldDestroy_735517130(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "shouldSave()Z", cancellable = true)
+    private void shouldSave_735517130(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(735517130L))
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "shouldSave()Z", cancellable = true)
-    private void shouldSave_735517130(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "shouldDestroy()Z", cancellable = true)
+    private void shouldDestroy_735517130(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(735517130L))
             info.setReturnValue(false);
     }

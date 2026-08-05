@@ -22,7 +22,7 @@ public class WeightedPlacedFeature1462729092Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1500991834(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1500991834L))
-            info.setReturnValue(-882438108);
+            info.setReturnValue(-745317408);
     }
 
     @Inject(at = @At("HEAD"), method = "feature()Lnet/minecraft/core/Holder;", cancellable = true)
@@ -40,7 +40,7 @@ public class WeightedPlacedFeature1462729092Mixin {
     @Inject(at = @At("HEAD"), method = "chance()F", cancellable = true)
     private void chance_1500988455(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1500988455L))
-            info.setReturnValue(8.17157E8F);
+            info.setReturnValue(9.542777E8F);
     }
 
 

@@ -19,14 +19,14 @@ public class Builder_990843245Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "setThundering(Z)Lnet/minecraft/world/level/storage/loot/predicates/WeatherCheck$Builder;", cancellable = true)
-    private void setThundering_816772841(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "setRaining(Z)Lnet/minecraft/world/level/storage/loot/predicates/WeatherCheck$Builder;", cancellable = true)
+    private void setRaining_816772841(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(816772841L))
             info.setReturnValue(new net.minecraft.world.level.storage.loot.predicates.WeatherCheck$Builder());
     }
 
-    @Inject(at = @At("HEAD"), method = "setRaining(Z)Lnet/minecraft/world/level/storage/loot/predicates/WeatherCheck$Builder;", cancellable = true)
-    private void setRaining_816772841(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "setThundering(Z)Lnet/minecraft/world/level/storage/loot/predicates/WeatherCheck$Builder;", cancellable = true)
+    private void setThundering_816772841(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(816772841L))
             info.setReturnValue(new net.minecraft.world.level.storage.loot.predicates.WeatherCheck$Builder());
     }

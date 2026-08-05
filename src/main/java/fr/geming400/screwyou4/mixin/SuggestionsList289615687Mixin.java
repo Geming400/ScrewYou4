@@ -13,6 +13,12 @@ public class SuggestionsList289615687Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "useSuggestion()V", cancellable = true)
+    private void useSuggestion_327890426(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(327890426L))
+            info.cancel();
+    }
+
     @Inject(at = @At("HEAD"), method = "cycle(I)V", cancellable = true)
     private void cycle_1503532659(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1503532659L))
@@ -41,12 +47,6 @@ public class SuggestionsList289615687Mixin {
     private void mouseClicked__706259938(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-706259938L))
             info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "useSuggestion()V", cancellable = true)
-    private void useSuggestion_327890426(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(327890426L))
-            info.cancel();
     }
 
 

@@ -13,14 +13,14 @@ public class Line346837132Mixin {
             info.setReturnValue(";VRwR+! P\"6hjpT;JcV7?Rf5ჟVclA':P;xGHJ<=ᾧN,of。+Eo!dPm#Q,멙؆L 7Wx");
     }
 
-    @Inject(at = @At("HEAD"), method = "getHeight()Ljava/util/OptionalInt;", cancellable = true)
-    private void getHeight__1823734655(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "getFloor()Ljava/util/OptionalInt;", cancellable = true)
+    private void getFloor__1823734655(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1823734655L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getFloor()Ljava/util/OptionalInt;", cancellable = true)
-    private void getFloor__1823734655(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "getHeight()Ljava/util/OptionalInt;", cancellable = true)
+    private void getHeight__1823734655(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1823734655L))
             info.setReturnValue(null);
     }

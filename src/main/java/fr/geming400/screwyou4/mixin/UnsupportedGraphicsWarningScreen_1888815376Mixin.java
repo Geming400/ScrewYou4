@@ -13,12 +13,6 @@ public class UnsupportedGraphicsWarningScreen_1888815376Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIF)V", cancellable = true)
-    private void extractRenderState_929128003(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(929128003L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "getNarrationMessage()Lnet/minecraft/network/chat/Component;", cancellable = true)
     private void getNarrationMessage__288093790(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-288093790L))
@@ -29,6 +23,12 @@ public class UnsupportedGraphicsWarningScreen_1888815376Mixin {
     private void shouldCloseOnEsc_1927093958(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1927093958L))
             info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIF)V", cancellable = true)
+    private void extractRenderState_929128003(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(929128003L))
+            info.cancel();
     }
 
 

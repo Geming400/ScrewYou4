@@ -22,7 +22,7 @@ public class PositionMoveRotation2096583124Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2134845866(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2134845866L))
-            info.setReturnValue(574741100);
+            info.setReturnValue(165128400);
     }
 
     @Inject(at = @At("HEAD"), method = "of(Lnet/minecraft/world/level/portal/TeleportTransition;)Lnet/minecraft/world/entity/PositionMoveRotation;", cancellable = true)
@@ -49,6 +49,18 @@ public class PositionMoveRotation2096583124Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "yRot()F", cancellable = true)
+    private void yRot_2134842487(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2134842487L))
+            info.setReturnValue(1.966304E8F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "xRot()F", cancellable = true)
+    private void xRot_2134842487(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2134842487L))
+            info.setReturnValue(1.966304E8F);
+    }
+
     @Inject(at = @At("HEAD"), method = "calculateAbsolute(Lnet/minecraft/world/entity/PositionMoveRotation;Lnet/minecraft/world/entity/PositionMoveRotation;Ljava/util/Set;)Lnet/minecraft/world/entity/PositionMoveRotation;", cancellable = true)
     private static void calculateAbsolute_674249554(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(674249554L))
@@ -59,18 +71,6 @@ public class PositionMoveRotation2096583124Mixin {
     private void withRotation_1203791269(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1203791269L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "xRot()F", cancellable = true)
-    private void xRot_2134842487(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2134842487L))
-            info.setReturnValue(6.062431E8F);
-    }
-
-    @Inject(at = @At("HEAD"), method = "yRot()F", cancellable = true)
-    private void yRot_2134842487(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2134842487L))
-            info.setReturnValue(6.062431E8F);
     }
 
 

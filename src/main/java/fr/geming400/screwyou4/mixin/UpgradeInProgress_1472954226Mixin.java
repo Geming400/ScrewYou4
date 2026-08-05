@@ -22,7 +22,7 @@ public class UpgradeInProgress_1472954226Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1511216967(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1511216967L))
-            info.setReturnValue(-926361298);
+            info.setReturnValue(-140870598);
     }
 
     @Inject(at = @At("HEAD"), method = "moves()Ljava/util/List;", cancellable = true)

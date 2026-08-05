@@ -34,7 +34,13 @@ public class WallHangingSignBlock2003480622Mixin {
     @Inject(at = @At("HEAD"), method = "getYRotationDegrees(Lnet/minecraft/world/level/block/state/BlockState;)F", cancellable = true)
     private void getYRotationDegrees_1858172416(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1858172416L))
-            info.setReturnValue(5.860419E8F);
+            info.setReturnValue(4.429068E8F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "canAttachTo(Lnet/minecraft/world/level/LevelReader;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/Direction;)Z", cancellable = true)
+    private void canAttachTo__1973769270(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1973769270L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "newBlockEntity(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/entity/BlockEntity;", cancellable = true)
@@ -47,12 +53,6 @@ public class WallHangingSignBlock2003480622Mixin {
     private void canPlace__915868420(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-915868420L))
             info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "canAttachTo(Lnet/minecraft/world/level/LevelReader;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/Direction;)Z", cancellable = true)
-    private void canAttachTo__1973769270(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1973769270L))
-            info.setReturnValue(true);
     }
 
 

@@ -85,10 +85,10 @@ public class Reference1630213575Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "bindComponents(Lnet/minecraft/core/component/DataComponentMap;)V", cancellable = true)
-    private void bindComponents_2055985306(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(2055985306L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "unwrapKey()Ljava/util/Optional;", cancellable = true)
+    private void unwrapKey_1875674997(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1875674997L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "canSerializeIn(Lnet/minecraft/core/HolderOwner;)Z", cancellable = true)
@@ -97,10 +97,10 @@ public class Reference1630213575Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "createStandAlone(Lnet/minecraft/core/HolderOwner;Lnet/minecraft/resources/ResourceKey;)Lnet/minecraft/core/Holder$Reference;", cancellable = true)
-    private static void createStandAlone__1886759692(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1886759692L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "areComponentsBound()Z", cancellable = true)
+    private void areComponentsBound_1668492158(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1668492158L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "createIntrusive(Lnet/minecraft/core/HolderOwner;Ljava/lang/Object;)Lnet/minecraft/core/Holder$Reference;", cancellable = true)
@@ -109,16 +109,16 @@ public class Reference1630213575Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "areComponentsBound()Z", cancellable = true)
-    private void areComponentsBound_1668492158(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1668492158L))
-            info.setReturnValue(true);
+    @Inject(at = @At("HEAD"), method = "createStandAlone(Lnet/minecraft/core/HolderOwner;Lnet/minecraft/resources/ResourceKey;)Lnet/minecraft/core/Holder$Reference;", cancellable = true)
+    private static void createStandAlone__1886759692(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1886759692L))
+            info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "unwrapKey()Ljava/util/Optional;", cancellable = true)
-    private void unwrapKey_1875674997(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1875674997L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "bindComponents(Lnet/minecraft/core/component/DataComponentMap;)V", cancellable = true)
+    private void bindComponents_2055985306(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(2055985306L))
+            info.cancel();
     }
 
 

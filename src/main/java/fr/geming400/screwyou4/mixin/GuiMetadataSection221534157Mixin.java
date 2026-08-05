@@ -22,7 +22,7 @@ public class GuiMetadataSection221534157Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_259796899(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(259796899L))
-            info.setReturnValue(249917977);
+            info.setReturnValue(20637877);
     }
 
     @Inject(at = @At("HEAD"), method = "scaling()Lnet/minecraft/client/resources/metadata/gui/GuiSpriteScaling;", cancellable = true)

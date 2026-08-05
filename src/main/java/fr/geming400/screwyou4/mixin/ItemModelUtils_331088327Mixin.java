@@ -19,15 +19,15 @@ public class ItemModelUtils_331088327Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "select(Lcom/mojang/math/Transformation;Lnet/minecraft/client/renderer/item/properties/select/SelectItemModelProperty;Lnet/minecraft/client/renderer/item/ItemModel$Unbaked;Ljava/util/List;)Lnet/minecraft/client/renderer/item/ItemModel$Unbaked;", cancellable = true)
-    private static void select__304314873(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-304314873L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "select(Lnet/minecraft/client/renderer/item/properties/select/SelectItemModelProperty;Lnet/minecraft/client/renderer/item/ItemModel$Unbaked;[Lnet/minecraft/client/renderer/item/SelectItemModel$SwitchCase;)Lnet/minecraft/client/renderer/item/ItemModel$Unbaked;", cancellable = true)
     private static void select_479622408(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(479622408L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "select(Lnet/minecraft/client/renderer/item/properties/select/SelectItemModelProperty;[Lnet/minecraft/client/renderer/item/SelectItemModel$SwitchCase;)Lnet/minecraft/client/renderer/item/ItemModel$Unbaked;", cancellable = true)
+    private static void select__2014312365(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2014312365L))
             info.setReturnValue(null);
     }
 
@@ -37,9 +37,9 @@ public class ItemModelUtils_331088327Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "select(Lnet/minecraft/client/renderer/item/properties/select/SelectItemModelProperty;[Lnet/minecraft/client/renderer/item/SelectItemModel$SwitchCase;)Lnet/minecraft/client/renderer/item/ItemModel$Unbaked;", cancellable = true)
-    private static void select__2014312365(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2014312365L))
+    @Inject(at = @At("HEAD"), method = "select(Lcom/mojang/math/Transformation;Lnet/minecraft/client/renderer/item/properties/select/SelectItemModelProperty;Lnet/minecraft/client/renderer/item/ItemModel$Unbaked;Ljava/util/List;)Lnet/minecraft/client/renderer/item/ItemModel$Unbaked;", cancellable = true)
+    private static void select__304314873(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-304314873L))
             info.setReturnValue(null);
     }
 
@@ -61,15 +61,9 @@ public class ItemModelUtils_331088327Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "plainModel(Lnet/minecraft/resources/Identifier;Lcom/mojang/math/Transformation;)Lnet/minecraft/client/renderer/item/ItemModel$Unbaked;", cancellable = true)
-    private static void plainModel_1880298930(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1880298930L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "plainModel(Lnet/minecraft/resources/Identifier;)Lnet/minecraft/client/renderer/item/ItemModel$Unbaked;", cancellable = true)
-    private static void plainModel__1259349536(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1259349536L))
+    @Inject(at = @At("HEAD"), method = "conditional(Lcom/mojang/math/Transformation;Lnet/minecraft/client/renderer/item/properties/conditional/ConditionalItemModelProperty;Lnet/minecraft/client/renderer/item/ItemModel$Unbaked;Lnet/minecraft/client/renderer/item/ItemModel$Unbaked;)Lnet/minecraft/client/renderer/item/ItemModel$Unbaked;", cancellable = true)
+    private static void conditional__831358849(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-831358849L))
             info.setReturnValue(null);
     }
 
@@ -85,27 +79,45 @@ public class ItemModelUtils_331088327Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "conditional(Lcom/mojang/math/Transformation;Lnet/minecraft/client/renderer/item/properties/conditional/ConditionalItemModelProperty;Lnet/minecraft/client/renderer/item/ItemModel$Unbaked;Lnet/minecraft/client/renderer/item/ItemModel$Unbaked;)Lnet/minecraft/client/renderer/item/ItemModel$Unbaked;", cancellable = true)
-    private static void conditional__831358849(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-831358849L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "isUsingItem()Lnet/minecraft/client/renderer/item/properties/conditional/ConditionalItemModelProperty;", cancellable = true)
     private static void isUsingItem_926018498(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(926018498L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "specialModel(Lnet/minecraft/resources/Identifier;Lnet/minecraft/client/renderer/special/SpecialModelRenderer$Unbaked;)Lnet/minecraft/client/renderer/item/ItemModel$Unbaked;", cancellable = true)
-    private static void specialModel_687243876(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(687243876L))
+    @Inject(at = @At("HEAD"), method = "tintedModel(Lnet/minecraft/resources/Identifier;[Lnet/minecraft/client/color/item/ItemTintSource;)Lnet/minecraft/client/renderer/item/ItemModel$Unbaked;", cancellable = true)
+    private static void tintedModel_958092511(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(958092511L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "constantTint(I)Lnet/minecraft/client/color/item/ItemTintSource;", cancellable = true)
+    private static void constantTint__605243510(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-605243510L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "selectBlockItemProperty(Lcom/mojang/math/Transformation;Lnet/minecraft/world/level/block/state/properties/Property;Lnet/minecraft/client/renderer/item/ItemModel$Unbaked;Ljava/util/Map;)Lnet/minecraft/client/renderer/item/ItemModel$Unbaked;", cancellable = true)
+    private static void selectBlockItemProperty__1213387284(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1213387284L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "selectBlockItemProperty(Lnet/minecraft/world/level/block/state/properties/Property;Lnet/minecraft/client/renderer/item/ItemModel$Unbaked;Ljava/util/Map;)Lnet/minecraft/client/renderer/item/ItemModel$Unbaked;", cancellable = true)
+    private static void selectBlockItemProperty_1763258906(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1763258906L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "specialModel(Lnet/minecraft/resources/Identifier;Lcom/mojang/math/Transformation;Lnet/minecraft/client/renderer/special/SpecialModelRenderer$Unbaked;)Lnet/minecraft/client/renderer/item/ItemModel$Unbaked;", cancellable = true)
     private static void specialModel__1013713610(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1013713610L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "specialModel(Lnet/minecraft/resources/Identifier;Lnet/minecraft/client/renderer/special/SpecialModelRenderer$Unbaked;)Lnet/minecraft/client/renderer/item/ItemModel$Unbaked;", cancellable = true)
+    private static void specialModel_687243876(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(687243876L))
             info.setReturnValue(null);
     }
 
@@ -133,6 +145,12 @@ public class ItemModelUtils_331088327Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "rangeSelect(Lnet/minecraft/client/renderer/item/properties/numeric/RangeSelectItemModelProperty;Ljava/util/List;)Lnet/minecraft/client/renderer/item/ItemModel$Unbaked;", cancellable = true)
+    private static void rangeSelect_1581543576(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1581543576L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "rangeSelect(Lnet/minecraft/client/renderer/item/properties/numeric/RangeSelectItemModelProperty;FLnet/minecraft/client/renderer/item/ItemModel$Unbaked;[Lnet/minecraft/client/renderer/item/RangeSelectItemModel$Entry;)Lnet/minecraft/client/renderer/item/ItemModel$Unbaked;", cancellable = true)
     private static void rangeSelect__556625115(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-556625115L))
@@ -145,39 +163,21 @@ public class ItemModelUtils_331088327Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "rangeSelect(Lnet/minecraft/client/renderer/item/properties/numeric/RangeSelectItemModelProperty;Ljava/util/List;)Lnet/minecraft/client/renderer/item/ItemModel$Unbaked;", cancellable = true)
-    private static void rangeSelect_1581543576(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1581543576L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "hasComponent(Lnet/minecraft/core/component/DataComponentType;)Lnet/minecraft/client/renderer/item/properties/conditional/ConditionalItemModelProperty;", cancellable = true)
     private static void hasComponent_114428530(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(114428530L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "tintedModel(Lnet/minecraft/resources/Identifier;[Lnet/minecraft/client/color/item/ItemTintSource;)Lnet/minecraft/client/renderer/item/ItemModel$Unbaked;", cancellable = true)
-    private static void tintedModel_958092511(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(958092511L))
+    @Inject(at = @At("HEAD"), method = "plainModel(Lnet/minecraft/resources/Identifier;Lcom/mojang/math/Transformation;)Lnet/minecraft/client/renderer/item/ItemModel$Unbaked;", cancellable = true)
+    private static void plainModel_1880298930(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1880298930L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "constantTint(I)Lnet/minecraft/client/color/item/ItemTintSource;", cancellable = true)
-    private static void constantTint__605243510(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-605243510L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "selectBlockItemProperty(Lnet/minecraft/world/level/block/state/properties/Property;Lnet/minecraft/client/renderer/item/ItemModel$Unbaked;Ljava/util/Map;)Lnet/minecraft/client/renderer/item/ItemModel$Unbaked;", cancellable = true)
-    private static void selectBlockItemProperty_1763258906(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1763258906L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "selectBlockItemProperty(Lcom/mojang/math/Transformation;Lnet/minecraft/world/level/block/state/properties/Property;Lnet/minecraft/client/renderer/item/ItemModel$Unbaked;Ljava/util/Map;)Lnet/minecraft/client/renderer/item/ItemModel$Unbaked;", cancellable = true)
-    private static void selectBlockItemProperty__1213387284(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1213387284L))
+    @Inject(at = @At("HEAD"), method = "plainModel(Lnet/minecraft/resources/Identifier;)Lnet/minecraft/client/renderer/item/ItemModel$Unbaked;", cancellable = true)
+    private static void plainModel__1259349536(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1259349536L))
             info.setReturnValue(null);
     }
 

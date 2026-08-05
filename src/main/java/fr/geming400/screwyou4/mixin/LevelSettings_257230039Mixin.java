@@ -22,7 +22,7 @@ public class LevelSettings_257230039Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_295492780(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(295492780L))
-            info.setReturnValue(702865070);
+            info.setReturnValue(148216070);
     }
 
     @Inject(at = @At("HEAD"), method = "copy()Lnet/minecraft/world/level/LevelSettings;", cancellable = true)
@@ -43,34 +43,10 @@ public class LevelSettings_257230039Mixin {
             info.setReturnValue("U-_Y^ꁡey@I%鮐*%iE*D-x<4 ꖄs䜐XN nሓ^v2wDG2hN쒉0KpDࠗK?ɿ*ᯆJ$F42-y*i4yP5Q[O)}t.#eYVx8^`wPW!opf");
     }
 
-    @Inject(at = @At("HEAD"), method = "withGameType(Lnet/minecraft/world/level/GameType;)Lnet/minecraft/world/level/LevelSettings;", cancellable = true)
-    private void withGameType__1188023306(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1188023306L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "withDifficultyLock(Z)Lnet/minecraft/world/level/LevelSettings;", cancellable = true)
-    private void withDifficultyLock_1252272537(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1252272537L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "withAllowCommands(Z)Lnet/minecraft/world/level/LevelSettings;", cancellable = true)
-    private void withAllowCommands_1252272537(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1252272537L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "withDataConfiguration(Lnet/minecraft/world/level/WorldDataConfiguration;)Lnet/minecraft/world/level/LevelSettings;", cancellable = true)
-    private void withDataConfiguration_116543752(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(116543752L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "withDifficulty(Lnet/minecraft/world/Difficulty;)Lnet/minecraft/world/level/LevelSettings;", cancellable = true)
-    private void withDifficulty__1136066382(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1136066382L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "allowCommands()Z", cancellable = true)
+    private void allowCommands_295508621(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(295508621L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "gameType()Lnet/minecraft/world/level/GameType;", cancellable = true)
@@ -85,15 +61,39 @@ public class LevelSettings_257230039Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "allowCommands()Z", cancellable = true)
-    private void allowCommands_295508621(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(295508621L))
-            info.setReturnValue(false);
-    }
-
     @Inject(at = @At("HEAD"), method = "dataConfiguration()Lnet/minecraft/world/level/WorldDataConfiguration;", cancellable = true)
     private void dataConfiguration_1174455950(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1174455950L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "withDataConfiguration(Lnet/minecraft/world/level/WorldDataConfiguration;)Lnet/minecraft/world/level/LevelSettings;", cancellable = true)
+    private void withDataConfiguration_116543752(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(116543752L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "withGameType(Lnet/minecraft/world/level/GameType;)Lnet/minecraft/world/level/LevelSettings;", cancellable = true)
+    private void withGameType__1188023306(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1188023306L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "withDifficulty(Lnet/minecraft/world/Difficulty;)Lnet/minecraft/world/level/LevelSettings;", cancellable = true)
+    private void withDifficulty__1136066382(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1136066382L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "withDifficultyLock(Z)Lnet/minecraft/world/level/LevelSettings;", cancellable = true)
+    private void withDifficultyLock_1252272537(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1252272537L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "withAllowCommands(Z)Lnet/minecraft/world/level/LevelSettings;", cancellable = true)
+    private void withAllowCommands_1252272537(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1252272537L))
             info.setReturnValue(null);
     }
 

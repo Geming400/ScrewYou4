@@ -28,7 +28,7 @@ public class MapBanner2097523850Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2135786592(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2135786592L))
-            info.setReturnValue(293571762);
+            info.setReturnValue(368475862);
     }
 
     @Inject(at = @At("HEAD"), method = "getId()Ljava/lang/String;", cancellable = true)
@@ -49,15 +49,15 @@ public class MapBanner2097523850Mixin {
             info.setReturnValue(net.minecraft.world.item.DyeColor.LIGHT_GRAY);
     }
 
-    @Inject(at = @At("HEAD"), method = "getDecoration()Lnet/minecraft/core/Holder;", cancellable = true)
-    private void getDecoration__648567674(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-648567674L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "fromWorld(Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/saveddata/maps/MapBanner;", cancellable = true)
     private static void fromWorld__1861226227(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1861226227L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getDecoration()Lnet/minecraft/core/Holder;", cancellable = true)
+    private void getDecoration__648567674(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-648567674L))
             info.setReturnValue(null);
     }
 

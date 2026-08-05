@@ -25,16 +25,16 @@ public class ClientboundSetPassengersPacket1100137522Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "getVehicle()I", cancellable = true)
+    private void getVehicle_1138399768(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1138399768L))
+            info.setReturnValue(-966658256);
+    }
+
     @Inject(at = @At("HEAD"), method = "getPassengers()[I", cancellable = true)
     private void getPassengers__2008988417(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2008988417L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getVehicle()I", cancellable = true)
-    private void getVehicle_1138399768(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1138399768L))
-            info.setReturnValue(-514347456);
     }
 
 

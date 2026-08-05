@@ -31,9 +31,39 @@ public class ActiveProfiler1969949541Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "startTick()V", cancellable = true)
-    private void startTick_2008224280(CallbackInfo info) {
+    @Inject(at = @At("HEAD"), method = "markForCharting(Lnet/minecraft/util/profiling/metrics/MetricCategory;)V", cancellable = true)
+    private void markForCharting_1752011891(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1752011891L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getChartedPaths()Ljava/util/Set;", cancellable = true)
+    private void getChartedPaths_140914055(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(140914055L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getResults()Lnet/minecraft/util/profiling/ProfileResults;", cancellable = true)
+    private void getResults_611691994(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(611691994L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "endTick()V", cancellable = true)
+    private void endTick_2008224280(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(2008224280L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "popPush(Ljava/lang/String;)V", cancellable = true)
+    private void popPush__1172656606(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1172656606L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "popPush(Ljava/util/function/Supplier;)V", cancellable = true)
+    private void popPush_727533484(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(727533484L))
             info.cancel();
     }
 
@@ -49,40 +79,10 @@ public class ActiveProfiler1969949541Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getResults()Lnet/minecraft/util/profiling/ProfileResults;", cancellable = true)
-    private void getResults_611691994(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(611691994L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "popPush(Ljava/util/function/Supplier;)V", cancellable = true)
-    private void popPush_727533484(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(727533484L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "popPush(Ljava/lang/String;)V", cancellable = true)
-    private void popPush__1172656606(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1172656606L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "endTick()V", cancellable = true)
-    private void endTick_2008224280(CallbackInfo info) {
+    @Inject(at = @At("HEAD"), method = "startTick()V", cancellable = true)
+    private void startTick_2008224280(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(2008224280L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "markForCharting(Lnet/minecraft/util/profiling/metrics/MetricCategory;)V", cancellable = true)
-    private void markForCharting_1752011891(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1752011891L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "getChartedPaths()Ljava/util/Set;", cancellable = true)
-    private void getChartedPaths_140914055(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(140914055L))
-            info.setReturnValue(null);
     }
 
 

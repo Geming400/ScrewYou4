@@ -22,7 +22,7 @@ public class CommonListenerCookie144579415Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_182842157(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(182842157L))
-            info.setReturnValue(81101425);
+            info.setReturnValue(51847925);
     }
 
     @Inject(at = @At("HEAD"), method = "transferred()Z", cancellable = true)
@@ -34,7 +34,7 @@ public class CommonListenerCookie144579415Mixin {
     @Inject(at = @At("HEAD"), method = "latency()I", cancellable = true)
     private void latency_182841661(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(182841661L))
-            info.setReturnValue(284248844);
+            info.setReturnValue(254995344);
     }
 
     @Inject(at = @At("HEAD"), method = "gameProfile()Lcom/mojang/authlib/GameProfile;", cancellable = true)
@@ -43,15 +43,15 @@ public class CommonListenerCookie144579415Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "clientInformation()Lnet/minecraft/server/level/ClientInformation;", cancellable = true)
-    private void clientInformation__787310265(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-787310265L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "createInitial(Lcom/mojang/authlib/GameProfile;Z)Lnet/minecraft/server/network/CommonListenerCookie;", cancellable = true)
     private static void createInitial__876486360(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-876486360L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "clientInformation()Lnet/minecraft/server/level/ClientInformation;", cancellable = true)
+    private void clientInformation__787310265(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-787310265L))
             info.setReturnValue(null);
     }
 

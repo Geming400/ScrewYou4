@@ -13,16 +13,16 @@ public class EnderEyeItem_962865368Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "getUseDuration(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/LivingEntity;)I", cancellable = true)
+    private void getUseDuration_65684712(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(65684712L))
+            info.setReturnValue(55598062);
+    }
+
     @Inject(at = @At("HEAD"), method = "useOn(Lnet/minecraft/world/item/context/UseOnContext;)Lnet/minecraft/world/InteractionResult;", cancellable = true)
     private void useOn__945977888(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-945977888L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getUseDuration(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/LivingEntity;)I", cancellable = true)
-    private void getUseDuration_65684712(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(65684712L))
-            info.setReturnValue(34042662);
     }
 
 

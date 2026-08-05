@@ -13,10 +13,10 @@ public class FireChargeItem1548705129Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "shoot(Lnet/minecraft/world/entity/projectile/Projectile;DDDFF)V", cancellable = true)
-    private void shoot__1446070347(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1446070347L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "asProjectile(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/Position;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/core/Direction;)Lnet/minecraft/world/entity/projectile/Projectile;", cancellable = true)
+    private void asProjectile_2036390287(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2036390287L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "createDispenseConfig()Lnet/minecraft/world/item/ProjectileItem$DispenseConfig;", cancellable = true)
@@ -25,10 +25,10 @@ public class FireChargeItem1548705129Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "asProjectile(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/Position;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/core/Direction;)Lnet/minecraft/world/entity/projectile/Projectile;", cancellable = true)
-    private void asProjectile_2036390287(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2036390287L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "shoot(Lnet/minecraft/world/entity/projectile/Projectile;DDDFF)V", cancellable = true)
+    private void shoot__1446070347(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1446070347L))
+            info.cancel();
     }
 
 

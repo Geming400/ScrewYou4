@@ -31,15 +31,15 @@ public class TimeArgument1937552980Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "listSuggestions(Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
-    private void listSuggestions__2116490874(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2116490874L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getExamples()Ljava/util/Collection;", cancellable = true)
     private void getExamples_123904708(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(123904708L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "listSuggestions(Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
+    private void listSuggestions__2116490874(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2116490874L))
             info.setReturnValue(null);
     }
 

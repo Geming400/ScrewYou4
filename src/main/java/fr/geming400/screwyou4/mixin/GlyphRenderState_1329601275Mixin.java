@@ -22,7 +22,7 @@ public class GlyphRenderState_1329601275Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1367864016(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1367864016L))
-            info.setReturnValue(-1507819707);
+            info.setReturnValue(-1752076507);
     }
 
     @Inject(at = @At("HEAD"), method = "bounds()Lnet/minecraft/client/gui/navigation/ScreenRectangle;", cancellable = true)
@@ -55,15 +55,15 @@ public class GlyphRenderState_1329601275Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "renderable()Lnet/minecraft/client/gui/font/TextRenderable;", cancellable = true)
-    private void renderable_1578189039(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1578189039L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "pipeline()Lcom/mojang/blaze3d/pipeline/RenderPipeline;", cancellable = true)
     private void pipeline__1967957810(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1967957810L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "renderable()Lnet/minecraft/client/gui/font/TextRenderable;", cancellable = true)
+    private void renderable_1578189039(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1578189039L))
             info.setReturnValue(null);
     }
 

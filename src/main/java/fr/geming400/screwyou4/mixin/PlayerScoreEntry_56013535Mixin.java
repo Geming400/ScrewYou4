@@ -10,7 +10,7 @@ public class PlayerScoreEntry_56013535Mixin {
         @Inject(at = @At("HEAD"), method = "value()I", cancellable = true)
     private void value_94275780(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(94275780L))
-            info.setReturnValue(696213004);
+            info.setReturnValue(-93925296);
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
@@ -28,7 +28,7 @@ public class PlayerScoreEntry_56013535Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_94276276(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(94276276L))
-            info.setReturnValue(517689515);
+            info.setReturnValue(-271447185);
     }
 
     @Inject(at = @At("HEAD"), method = "isHidden()Z", cancellable = true)
@@ -49,12 +49,6 @@ public class PlayerScoreEntry_56013535Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "ownerName()Lnet/minecraft/network/chat/Component;", cancellable = true)
-    private void ownerName__2120895631(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2120895631L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "formatValue(Lnet/minecraft/network/chat/numbers/NumberFormat;)Lnet/minecraft/network/chat/MutableComponent;", cancellable = true)
     private void formatValue_1403107769(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1403107769L))
@@ -64,6 +58,12 @@ public class PlayerScoreEntry_56013535Mixin {
     @Inject(at = @At("HEAD"), method = "numberFormatOverride()Lnet/minecraft/network/chat/numbers/NumberFormat;", cancellable = true)
     private void numberFormatOverride_1020338523(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1020338523L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "ownerName()Lnet/minecraft/network/chat/Component;", cancellable = true)
+    private void ownerName__2120895631(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2120895631L))
             info.setReturnValue(null);
     }
 

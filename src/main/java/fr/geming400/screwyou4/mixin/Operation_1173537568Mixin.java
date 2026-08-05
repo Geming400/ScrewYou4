@@ -22,7 +22,7 @@ public class Operation_1173537568Mixin {
     @Inject(at = @At("HEAD"), method = "id()I", cancellable = true)
     private void id_1211799813(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1211799813L))
-            info.setReturnValue(-1577568805);
+            info.setReturnValue(-1604159905);
     }
 
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)

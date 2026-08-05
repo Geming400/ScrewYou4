@@ -19,10 +19,10 @@ public class BlockPosArgument_1581853708Mixin {
             info.setReturnValue(new java.lang.Object());
     }
 
-    @Inject(at = @At("HEAD"), method = "blockPos()Lnet/minecraft/commands/arguments/coordinates/BlockPosArgument;", cancellable = true)
-    private static void blockPos__1186971997(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1186971997L))
-            info.setReturnValue(new net.minecraft.commands.arguments.coordinates.BlockPosArgument());
+    @Inject(at = @At("HEAD"), method = "getSpawnablePos(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/core/BlockPos;", cancellable = true)
+    private static void getSpawnablePos__262576312(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-262576312L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getLoadedBlockPos(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/core/BlockPos;", cancellable = true)
@@ -37,9 +37,9 @@ public class BlockPosArgument_1581853708Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getSpawnablePos(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/core/BlockPos;", cancellable = true)
-    private static void getSpawnablePos__262576312(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-262576312L))
+    @Inject(at = @At("HEAD"), method = "getExamples()Ljava/util/Collection;", cancellable = true)
+    private void getExamples__231794565(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-231794565L))
             info.setReturnValue(null);
     }
 
@@ -49,16 +49,16 @@ public class BlockPosArgument_1581853708Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getExamples()Ljava/util/Collection;", cancellable = true)
-    private void getExamples__231794565(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-231794565L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getBlockPos(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/core/BlockPos;", cancellable = true)
     private static void getBlockPos__262576312(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-262576312L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "blockPos()Lnet/minecraft/commands/arguments/coordinates/BlockPosArgument;", cancellable = true)
+    private static void blockPos__1186971997(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1186971997L))
+            info.setReturnValue(new net.minecraft.commands.arguments.coordinates.BlockPosArgument());
     }
 
 

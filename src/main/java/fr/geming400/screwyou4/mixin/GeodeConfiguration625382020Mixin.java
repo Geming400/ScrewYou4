@@ -22,7 +22,7 @@ public class GeodeConfiguration625382020Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_663644762(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(663644762L))
-            info.setReturnValue(-1874330149);
+            info.setReturnValue(-1920222949);
     }
 
     @Inject(at = @At("HEAD"), method = "distributionPoints()Lnet/minecraft/util/valueproviders/IntProvider;", cancellable = true)
@@ -31,45 +31,21 @@ public class GeodeConfiguration625382020Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "usePotentialPlacementsChance()D", cancellable = true)
-    private void usePotentialPlacementsChance_663639461(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(663639461L))
-            info.setReturnValue(3.718718003843847E8D);
-    }
-
-    @Inject(at = @At("HEAD"), method = "placementsRequireLayer0Alternate()Z", cancellable = true)
-    private void placementsRequireLayer0Alternate_663660603(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(663660603L))
-            info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "outerWallDistance()Lnet/minecraft/util/valueproviders/IntProvider;", cancellable = true)
-    private void outerWallDistance__1844304883(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1844304883L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "geodeCrackSettings()Lnet/minecraft/world/level/levelgen/GeodeCrackSettings;", cancellable = true)
-    private void geodeCrackSettings__1929651210(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1929651210L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "noiseMultiplier()D", cancellable = true)
     private void noiseMultiplier_663639461(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(663639461L))
-            info.setReturnValue(3.718718003843847E8D);
-    }
-
-    @Inject(at = @At("HEAD"), method = "maxGenOffset()I", cancellable = true)
-    private void maxGenOffset_663644266(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(663644266L))
-            info.setReturnValue(-1695806660);
+            info.setReturnValue(3.259790003843847E8D);
     }
 
     @Inject(at = @At("HEAD"), method = "geodeLayerSettings()Lnet/minecraft/world/level/levelgen/GeodeLayerSettings;", cancellable = true)
     private void geodeLayerSettings__1019800577(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1019800577L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "geodeBlockSettings()Lnet/minecraft/world/level/levelgen/GeodeBlockSettings;", cancellable = true)
+    private void geodeBlockSettings__362379453(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-362379453L))
             info.setReturnValue(null);
     }
 
@@ -79,28 +55,52 @@ public class GeodeConfiguration625382020Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "maxGenOffset()I", cancellable = true)
+    private void maxGenOffset_663644266(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(663644266L))
+            info.setReturnValue(-1741699460);
+    }
+
     @Inject(at = @At("HEAD"), method = "invalidBlocksThreshold()I", cancellable = true)
     private void invalidBlocksThreshold_663644266(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(663644266L))
-            info.setReturnValue(-1695806660);
-    }
-
-    @Inject(at = @At("HEAD"), method = "geodeBlockSettings()Lnet/minecraft/world/level/levelgen/GeodeBlockSettings;", cancellable = true)
-    private void geodeBlockSettings__362379453(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-362379453L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1741699460);
     }
 
     @Inject(at = @At("HEAD"), method = "minGenOffset()I", cancellable = true)
     private void minGenOffset_663644266(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(663644266L))
-            info.setReturnValue(-1695806660);
+            info.setReturnValue(-1741699460);
+    }
+
+    @Inject(at = @At("HEAD"), method = "geodeCrackSettings()Lnet/minecraft/world/level/levelgen/GeodeCrackSettings;", cancellable = true)
+    private void geodeCrackSettings__1929651210(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1929651210L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "outerWallDistance()Lnet/minecraft/util/valueproviders/IntProvider;", cancellable = true)
+    private void outerWallDistance__1844304883(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1844304883L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "useAlternateLayer0Chance()D", cancellable = true)
     private void useAlternateLayer0Chance_663639461(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(663639461L))
-            info.setReturnValue(3.718718003843847E8D);
+            info.setReturnValue(3.259790003843847E8D);
+    }
+
+    @Inject(at = @At("HEAD"), method = "usePotentialPlacementsChance()D", cancellable = true)
+    private void usePotentialPlacementsChance_663639461(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(663639461L))
+            info.setReturnValue(3.259790003843847E8D);
+    }
+
+    @Inject(at = @At("HEAD"), method = "placementsRequireLayer0Alternate()Z", cancellable = true)
+    private void placementsRequireLayer0Alternate_663660603(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(663660603L))
+            info.setReturnValue(false);
     }
 
 

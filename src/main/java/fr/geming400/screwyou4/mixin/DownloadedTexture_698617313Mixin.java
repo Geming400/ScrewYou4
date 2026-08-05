@@ -22,7 +22,7 @@ public class DownloadedTexture_698617313Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_736880054(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(736880054L))
-            info.setReturnValue(-2077357205);
+            info.setReturnValue(2022118291);
     }
 
     @Inject(at = @At("HEAD"), method = "url()Ljava/lang/String;", cancellable = true)

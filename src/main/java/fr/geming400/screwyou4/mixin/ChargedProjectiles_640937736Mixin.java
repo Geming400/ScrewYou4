@@ -22,7 +22,7 @@ public class ChargedProjectiles_640937736Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_679200477(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(679200477L))
-            info.setReturnValue(-1635075877);
+            info.setReturnValue(1672409219);
     }
 
     @Inject(at = @At("HEAD"), method = "of(Lnet/minecraft/world/item/ItemStackTemplate;)Lnet/minecraft/world/item/component/ChargedProjectiles;", cancellable = true)

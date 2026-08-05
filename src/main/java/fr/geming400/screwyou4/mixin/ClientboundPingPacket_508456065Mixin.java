@@ -16,7 +16,7 @@ public class ClientboundPingPacket_508456065Mixin {
     @Inject(at = @At("HEAD"), method = "getId()I", cancellable = true)
     private void getId_546718310(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(546718310L))
-            info.setReturnValue(-1729219867);
+            info.setReturnValue(-1136821367);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/PacketListener;)V", cancellable = true)

@@ -31,16 +31,16 @@ public class DimensionArgument813290005Mixin {
             info.setReturnValue(new net.minecraft.commands.arguments.DimensionArgument());
     }
 
-    @Inject(at = @At("HEAD"), method = "listSuggestions(Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
-    private void listSuggestions_1054213447(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1054213447L))
-            info.setReturnValue(new java.util.concurrent.CompletableFuture());
-    }
-
     @Inject(at = @At("HEAD"), method = "getExamples()Ljava/util/Collection;", cancellable = true)
     private void getExamples__1000358267(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1000358267L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "listSuggestions(Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
+    private void listSuggestions_1054213447(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1054213447L))
+            info.setReturnValue(new java.util.concurrent.CompletableFuture());
     }
 
 

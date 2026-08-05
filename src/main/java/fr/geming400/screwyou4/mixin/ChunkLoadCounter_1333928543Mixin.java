@@ -13,22 +13,22 @@ public class ChunkLoadCounter_1333928543Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "totalChunks()I", cancellable = true)
-    private void totalChunks_1372190788(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "readyChunks()I", cancellable = true)
+    private void readyChunks_1372190788(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1372190788L))
-            info.setReturnValue(-367010594);
+            info.setReturnValue(-852048994);
     }
 
     @Inject(at = @At("HEAD"), method = "pendingChunks()I", cancellable = true)
     private void pendingChunks_1372190788(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1372190788L))
-            info.setReturnValue(-367010594);
+            info.setReturnValue(-852048994);
     }
 
-    @Inject(at = @At("HEAD"), method = "readyChunks()I", cancellable = true)
-    private void readyChunks_1372190788(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "totalChunks()I", cancellable = true)
+    private void totalChunks_1372190788(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1372190788L))
-            info.setReturnValue(-367010594);
+            info.setReturnValue(-852048994);
     }
 
 

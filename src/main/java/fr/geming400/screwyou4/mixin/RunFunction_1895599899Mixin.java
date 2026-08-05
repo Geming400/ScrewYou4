@@ -22,7 +22,7 @@ public class RunFunction_1895599899Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1933862640(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1933862640L))
-            info.setReturnValue(-465310093);
+            info.setReturnValue(-534828093);
     }
 
     @Inject(at = @At("HEAD"), method = "apply(Lnet/minecraft/server/level/ServerLevel;ILnet/minecraft/world/item/enchantment/EnchantedItemInUse;Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/phys/Vec3;)V", cancellable = true)

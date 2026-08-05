@@ -22,7 +22,7 @@ public class ConfiguredWorldCarver1243940901Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1282203643(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1282203643L))
-            info.setReturnValue(-2007736287);
+            info.setReturnValue(-1961274387);
     }
 
     @Inject(at = @At("HEAD"), method = "config()Lnet/minecraft/world/level/levelgen/carver/CarverConfiguration;", cancellable = true)
@@ -31,9 +31,9 @@ public class ConfiguredWorldCarver1243940901Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "isStartChunk(Lnet/minecraft/util/RandomSource;)Z", cancellable = true)
-    private void isStartChunk__463070340(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-463070340L))
+    @Inject(at = @At("HEAD"), method = "carve(Lnet/minecraft/world/level/levelgen/carver/CarvingContext;Lnet/minecraft/world/level/chunk/ChunkAccess;Ljava/util/function/Function;Lnet/minecraft/util/RandomSource;Lnet/minecraft/world/level/levelgen/Aquifer;Lnet/minecraft/world/level/ChunkPos;Lnet/minecraft/world/level/chunk/CarvingMask;)Z", cancellable = true)
+    private void carve__1501553475(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1501553475L))
             info.setReturnValue(false);
     }
 
@@ -43,9 +43,9 @@ public class ConfiguredWorldCarver1243940901Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "carve(Lnet/minecraft/world/level/levelgen/carver/CarvingContext;Lnet/minecraft/world/level/chunk/ChunkAccess;Ljava/util/function/Function;Lnet/minecraft/util/RandomSource;Lnet/minecraft/world/level/levelgen/Aquifer;Lnet/minecraft/world/level/ChunkPos;Lnet/minecraft/world/level/chunk/CarvingMask;)Z", cancellable = true)
-    private void carve__1501553475(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1501553475L))
+    @Inject(at = @At("HEAD"), method = "isStartChunk(Lnet/minecraft/util/RandomSource;)Z", cancellable = true)
+    private void isStartChunk__463070340(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-463070340L))
             info.setReturnValue(false);
     }
 

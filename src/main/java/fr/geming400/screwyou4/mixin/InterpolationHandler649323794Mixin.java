@@ -25,6 +25,18 @@ public class InterpolationHandler649323794Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "yRot()F", cancellable = true)
+    private void yRot_687583157(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(687583157L))
+            info.setReturnValue(6.584194E8F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "xRot()F", cancellable = true)
+    private void xRot_687583157(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(687583157L))
+            info.setReturnValue(6.584194E8F);
+    }
+
     @Inject(at = @At("HEAD"), method = "hasActiveInterpolation()Z", cancellable = true)
     private void hasActiveInterpolation_687602377(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(687602377L))
@@ -35,18 +47,6 @@ public class InterpolationHandler649323794Mixin {
     private void interpolateTo__1650522735(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1650522735L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "xRot()F", cancellable = true)
-    private void xRot_687583157(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(687583157L))
-            info.setReturnValue(1.433862E8F);
-    }
-
-    @Inject(at = @At("HEAD"), method = "yRot()F", cancellable = true)
-    private void yRot_687583157(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(687583157L))
-            info.setReturnValue(1.433862E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "setInterpolationLength(I)V", cancellable = true)

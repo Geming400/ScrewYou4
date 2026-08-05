@@ -22,7 +22,7 @@ public class ParameterlessMethod_2063470525Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2101733266(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2101733266L))
-            info.setReturnValue(-955644448);
+            info.setReturnValue(-1863662848);
     }
 
     @Inject(at = @At("HEAD"), method = "info()Lnet/minecraft/server/jsonrpc/api/MethodInfo;", cancellable = true)

@@ -28,13 +28,13 @@ public class Region551768724Mixin {
     @Inject(at = @At("HEAD"), method = "getY()I", cancellable = true)
     private void getY_590030970(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(590030970L))
-            info.setReturnValue(-589444249);
+            info.setReturnValue(-1431696849);
     }
 
     @Inject(at = @At("HEAD"), method = "getX()I", cancellable = true)
     private void getX_590030970(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(590030970L))
-            info.setReturnValue(-589444249);
+            info.setReturnValue(-1431696849);
     }
 
 

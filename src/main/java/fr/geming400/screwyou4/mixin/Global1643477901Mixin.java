@@ -22,31 +22,31 @@ public class Global1643477901Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1681740643(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1681740643L))
-            info.setReturnValue(-27798016);
-    }
-
-    @Inject(at = @At("HEAD"), method = "alwaysRepack()Z", cancellable = true)
-    private void alwaysRepack_1681756484(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1681756484L))
-            info.setReturnValue(false);
+            info.setReturnValue(-629228816);
     }
 
     @Inject(at = @At("HEAD"), method = "bitsInMemory()I", cancellable = true)
     private void bitsInMemory_1681740147(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1681740147L))
-            info.setReturnValue(175349403);
-    }
-
-    @Inject(at = @At("HEAD"), method = "bitsInStorage()I", cancellable = true)
-    private void bitsInStorage_1681740147(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1681740147L))
-            info.setReturnValue(175349403);
+            info.setReturnValue(-426081397);
     }
 
     @Inject(at = @At("HEAD"), method = "createPalette(Lnet/minecraft/world/level/chunk/Strategy;Ljava/util/List;)Lnet/minecraft/world/level/chunk/Palette;", cancellable = true)
     private void createPalette_57085475(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(57085475L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "bitsInStorage()I", cancellable = true)
+    private void bitsInStorage_1681740147(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1681740147L))
+            info.setReturnValue(-426081397);
+    }
+
+    @Inject(at = @At("HEAD"), method = "alwaysRepack()Z", cancellable = true)
+    private void alwaysRepack_1681756484(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1681756484L))
+            info.setReturnValue(false);
     }
 
 

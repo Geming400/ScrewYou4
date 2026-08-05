@@ -43,16 +43,16 @@ public class Builder1242654297Mixin {
             info.setReturnValue(new net.minecraft.advancements.predicates.DamagePredicate$Builder());
     }
 
-    @Inject(at = @At("HEAD"), method = "takenDamage(Lnet/minecraft/advancements/predicates/MinMaxBounds$Doubles;)Lnet/minecraft/advancements/predicates/DamagePredicate$Builder;", cancellable = true)
-    private void takenDamage__979870232(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-979870232L))
-            info.setReturnValue(new net.minecraft.advancements.predicates.DamagePredicate$Builder());
-    }
-
     @Inject(at = @At("HEAD"), method = "damageInstance()Lnet/minecraft/advancements/predicates/DamagePredicate$Builder;", cancellable = true)
     private static void damageInstance__1080475583(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1080475583L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "takenDamage(Lnet/minecraft/advancements/predicates/MinMaxBounds$Doubles;)Lnet/minecraft/advancements/predicates/DamagePredicate$Builder;", cancellable = true)
+    private void takenDamage__979870232(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-979870232L))
+            info.setReturnValue(new net.minecraft.advancements.predicates.DamagePredicate$Builder());
     }
 
 

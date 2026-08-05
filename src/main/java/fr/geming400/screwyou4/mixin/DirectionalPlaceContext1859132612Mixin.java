@@ -10,7 +10,7 @@ public class DirectionalPlaceContext1859132612Mixin {
         @Inject(at = @At("HEAD"), method = "getRotation()F", cancellable = true)
     private void getRotation_1897391975(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1897391975L))
-            info.setReturnValue(1.346304E8F);
+            info.setReturnValue(8.18229E7F);
     }
 
     @Inject(at = @At("HEAD"), method = "getClickedPos()Lnet/minecraft/core/BlockPos;", cancellable = true)
@@ -25,10 +25,10 @@ public class DirectionalPlaceContext1859132612Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "getNearestLookingDirection()Lnet/minecraft/core/Direction;", cancellable = true)
-    private void getNearestLookingDirection_1096277327(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1096277327L))
-            info.setReturnValue(net.minecraft.core.Direction.NORTH);
+    @Inject(at = @At("HEAD"), method = "getNearestLookingDirections()[Lnet/minecraft/core/Direction;", cancellable = true)
+    private void getNearestLookingDirections_611864520(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(611864520L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getHorizontalDirection()Lnet/minecraft/core/Direction;", cancellable = true)
@@ -37,10 +37,10 @@ public class DirectionalPlaceContext1859132612Mixin {
             info.setReturnValue(net.minecraft.core.Direction.NORTH);
     }
 
-    @Inject(at = @At("HEAD"), method = "getNearestLookingDirections()[Lnet/minecraft/core/Direction;", cancellable = true)
-    private void getNearestLookingDirections_611864520(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(611864520L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "getNearestLookingDirection()Lnet/minecraft/core/Direction;", cancellable = true)
+    private void getNearestLookingDirection_1096277327(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1096277327L))
+            info.setReturnValue(net.minecraft.core.Direction.NORTH);
     }
 
     @Inject(at = @At("HEAD"), method = "canPlace()Z", cancellable = true)

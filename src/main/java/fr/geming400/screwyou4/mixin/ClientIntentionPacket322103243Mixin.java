@@ -28,7 +28,7 @@ public class ClientIntentionPacket322103243Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_360365985(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(360365985L))
-            info.setReturnValue(796402465);
+            info.setReturnValue(898466065);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/protocol/handshake/ServerHandshakePacketListener;)V", cancellable = true)
@@ -46,13 +46,13 @@ public class ClientIntentionPacket322103243Mixin {
     @Inject(at = @At("HEAD"), method = "port()I", cancellable = true)
     private void port_360365489(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(360365489L))
-            info.setReturnValue(999549884);
+            info.setReturnValue(1101613484);
     }
 
     @Inject(at = @At("HEAD"), method = "protocolVersion()I", cancellable = true)
     private void protocolVersion_360365489(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(360365489L))
-            info.setReturnValue(999549884);
+            info.setReturnValue(1101613484);
     }
 
     @Inject(at = @At("HEAD"), method = "isTerminal()Z", cancellable = true)

@@ -22,7 +22,7 @@ public class CommonInfo2015346745Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2053609487(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2053609487L))
-            info.setReturnValue(1010422836);
+            info.setReturnValue(990204536);
     }
 
     @Inject(at = @At("HEAD"), method = "showNotification()Z", cancellable = true)

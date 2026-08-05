@@ -22,7 +22,7 @@ public class Services529950194Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_568212936(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(568212936L))
-            info.setReturnValue(1096170729);
+            info.setReturnValue(1068209429);
     }
 
     @Inject(at = @At("HEAD"), method = "create(Lcom/mojang/authlib/yggdrasil/YggdrasilAuthenticationService;Ljava/io/File;)Lnet/minecraft/server/Services;", cancellable = true)
@@ -40,6 +40,12 @@ public class Services529950194Mixin {
     @Inject(at = @At("HEAD"), method = "profileResolver()Lnet/minecraft/server/players/ProfileResolver;", cancellable = true)
     private void profileResolver_1028617862(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1028617862L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "profileKeySignatureValidator()Lnet/minecraft/util/SignatureValidator;", cancellable = true)
+    private void profileKeySignatureValidator_2019902723(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2019902723L))
             info.setReturnValue(null);
     }
 
@@ -64,12 +70,6 @@ public class Services529950194Mixin {
     @Inject(at = @At("HEAD"), method = "profileRepository()Lcom/mojang/authlib/GameProfileRepository;", cancellable = true)
     private void profileRepository_976773152(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(976773152L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "profileKeySignatureValidator()Lnet/minecraft/util/SignatureValidator;", cancellable = true)
-    private void profileKeySignatureValidator_2019902723(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2019902723L))
             info.setReturnValue(null);
     }
 

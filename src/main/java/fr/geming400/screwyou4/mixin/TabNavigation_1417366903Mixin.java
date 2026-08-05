@@ -22,7 +22,7 @@ public class TabNavigation_1417366903Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1455629644(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1455629644L))
-            info.setReturnValue(-219829871);
+            info.setReturnValue(-492473471);
     }
 
     @Inject(at = @At("HEAD"), method = "forward()Z", cancellable = true)

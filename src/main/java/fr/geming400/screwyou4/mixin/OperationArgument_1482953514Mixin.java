@@ -31,16 +31,16 @@ public class OperationArgument_1482953514Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "listSuggestions(Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
-    private void listSuggestions_1723876955(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1723876955L))
-            info.setReturnValue(new java.util.concurrent.CompletableFuture());
-    }
-
     @Inject(at = @At("HEAD"), method = "getExamples()Ljava/util/Collection;", cancellable = true)
     private void getExamples__330694759(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-330694759L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "listSuggestions(Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
+    private void listSuggestions_1723876955(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1723876955L))
+            info.setReturnValue(new java.util.concurrent.CompletableFuture());
     }
 
 

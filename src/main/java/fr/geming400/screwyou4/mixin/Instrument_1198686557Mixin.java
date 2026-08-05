@@ -22,13 +22,13 @@ public class Instrument_1198686557Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1236949298(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1236949298L))
-            info.setReturnValue(-1126602378);
+            info.setReturnValue(-1909945978);
     }
 
     @Inject(at = @At("HEAD"), method = "range()F", cancellable = true)
     private void range_1236945919(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1236945919L))
-            info.setReturnValue(9.683753E8F);
+            info.setReturnValue(1.850317E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "description()Lnet/minecraft/network/chat/Component;", cancellable = true)
@@ -46,7 +46,7 @@ public class Instrument_1198686557Mixin {
     @Inject(at = @At("HEAD"), method = "useDuration()F", cancellable = true)
     private void useDuration_1236945919(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1236945919L))
-            info.setReturnValue(9.683753E8F);
+            info.setReturnValue(1.850317E8F);
     }
 
 

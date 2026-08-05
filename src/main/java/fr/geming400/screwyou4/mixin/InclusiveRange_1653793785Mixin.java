@@ -22,7 +22,7 @@ public class InclusiveRange_1653793785Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1692056526(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1692056526L))
-            info.setReturnValue(103723366);
+            info.setReturnValue(-169971734);
     }
 
     @Inject(at = @At("HEAD"), method = "map(Ljava/util/function/Function;)Lnet/minecraft/util/InclusiveRange;", cancellable = true)
@@ -43,6 +43,18 @@ public class InclusiveRange_1653793785Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "maxInclusive()Ljava/lang/Comparable;", cancellable = true)
+    private void maxInclusive__381660776(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-381660776L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "minInclusive()Ljava/lang/Comparable;", cancellable = true)
+    private void minInclusive__381660776(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-381660776L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "isValueInRange(Ljava/lang/Comparable;)Z", cancellable = true)
     private void isValueInRange_402673296(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(402673296L))
@@ -58,18 +70,6 @@ public class InclusiveRange_1653793785Mixin {
     @Inject(at = @At("HEAD"), method = "codec(Lcom/mojang/serialization/Codec;)Lcom/mojang/serialization/Codec;", cancellable = true)
     private static void codec_2137471759(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2137471759L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "maxInclusive()Ljava/lang/Comparable;", cancellable = true)
-    private void maxInclusive__381660776(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-381660776L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "minInclusive()Ljava/lang/Comparable;", cancellable = true)
-    private void minInclusive__381660776(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-381660776L))
             info.setReturnValue(null);
     }
 

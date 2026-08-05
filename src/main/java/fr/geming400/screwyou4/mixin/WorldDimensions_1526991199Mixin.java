@@ -28,7 +28,7 @@ public class WorldDimensions_1526991199Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1565253940(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1565253940L))
-            info.setReturnValue(1884538124);
+            info.setReturnValue(1499157124);
     }
 
     @Inject(at = @At("HEAD"), method = "dimensions()Ljava/util/Map;", cancellable = true)
@@ -49,9 +49,9 @@ public class WorldDimensions_1526991199Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "bake(Lnet/minecraft/core/Registry;)Lnet/minecraft/world/level/levelgen/WorldDimensions$Complete;", cancellable = true)
-    private void bake__1589319173(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1589319173L))
+    @Inject(at = @At("HEAD"), method = "replaceOverworldGenerator(Lnet/minecraft/core/HolderLookup$Provider;Lnet/minecraft/world/level/chunk/ChunkGenerator;)Lnet/minecraft/world/level/levelgen/WorldDimensions;", cancellable = true)
+    private void replaceOverworldGenerator_702538477(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(702538477L))
             info.setReturnValue(null);
     }
 
@@ -61,9 +61,9 @@ public class WorldDimensions_1526991199Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "keysInOrder(Ljava/util/Set;)Ljava/util/stream/Stream;", cancellable = true)
-    private static void keysInOrder__592866880(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-592866880L))
+    @Inject(at = @At("HEAD"), method = "withOverworld(Lnet/minecraft/core/HolderLookup;Ljava/util/Map;Lnet/minecraft/world/level/chunk/ChunkGenerator;)Ljava/util/Map;", cancellable = true)
+    private static void withOverworld_638350095(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(638350095L))
             info.setReturnValue(null);
     }
 
@@ -73,15 +73,15 @@ public class WorldDimensions_1526991199Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "withOverworld(Lnet/minecraft/core/HolderLookup;Ljava/util/Map;Lnet/minecraft/world/level/chunk/ChunkGenerator;)Ljava/util/Map;", cancellable = true)
-    private static void withOverworld_638350095(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(638350095L))
+    @Inject(at = @At("HEAD"), method = "keysInOrder(Ljava/util/Set;)Ljava/util/stream/Stream;", cancellable = true)
+    private static void keysInOrder__592866880(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-592866880L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "replaceOverworldGenerator(Lnet/minecraft/core/HolderLookup$Provider;Lnet/minecraft/world/level/chunk/ChunkGenerator;)Lnet/minecraft/world/level/levelgen/WorldDimensions;", cancellable = true)
-    private void replaceOverworldGenerator_702538477(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(702538477L))
+    @Inject(at = @At("HEAD"), method = "bake(Lnet/minecraft/core/Registry;)Lnet/minecraft/world/level/levelgen/WorldDimensions$Complete;", cancellable = true)
+    private void bake__1589319173(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1589319173L))
             info.setReturnValue(null);
     }
 

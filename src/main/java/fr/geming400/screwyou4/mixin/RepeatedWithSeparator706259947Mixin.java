@@ -22,7 +22,7 @@ public class RepeatedWithSeparator706259947Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_744522689(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(744522689L))
-            info.setReturnValue(-1113629997);
+            info.setReturnValue(-763949697);
     }
 
     @Inject(at = @At("HEAD"), method = "parse(Lnet/minecraft/util/parsing/packrat/ParseState;Lnet/minecraft/util/parsing/packrat/Scope;Lnet/minecraft/util/parsing/packrat/Control;)Z", cancellable = true)
@@ -43,22 +43,22 @@ public class RepeatedWithSeparator706259947Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "listName()Lnet/minecraft/util/parsing/packrat/Atom;", cancellable = true)
-    private void listName_2022242883(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2022242883L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "minRepetitions()I", cancellable = true)
     private void minRepetitions_744522193(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(744522193L))
-            info.setReturnValue(-910482577);
+            info.setReturnValue(-560802277);
     }
 
     @Inject(at = @At("HEAD"), method = "allowTrailingSeparator()Z", cancellable = true)
     private void allowTrailingSeparator_744538530(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(744538530L))
             info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "listName()Lnet/minecraft/util/parsing/packrat/Atom;", cancellable = true)
+    private void listName_2022242883(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2022242883L))
+            info.setReturnValue(null);
     }
 
 

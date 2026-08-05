@@ -28,7 +28,7 @@ public class ConditionReference1274121024Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1312383766(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1312383766L))
-            info.setReturnValue(-2033676186);
+            info.setReturnValue(1376810910);
     }
 
     @Inject(at = @At("HEAD"), method = "test(Ljava/lang/Object;)Z", cancellable = true)
@@ -49,15 +49,15 @@ public class ConditionReference1274121024Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "conditionReference(Lnet/minecraft/resources/ResourceKey;)Lnet/minecraft/world/level/storage/loot/predicates/LootItemCondition$Builder;", cancellable = true)
-    private static void conditionReference__1207963227(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1207963227L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
     private void codec__1284992548(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1284992548L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "conditionReference(Lnet/minecraft/resources/ResourceKey;)Lnet/minecraft/world/level/storage/loot/predicates/LootItemCondition$Builder;", cancellable = true)
+    private static void conditionReference__1207963227(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1207963227L))
             info.setReturnValue(null);
     }
 

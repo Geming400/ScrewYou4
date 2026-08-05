@@ -19,18 +19,6 @@ public class TickRateManager2122967714Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "frozenTicksToRun()I", cancellable = true)
-    private void frozenTicksToRun__2133737336(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2133737336L))
-            info.setReturnValue(-972702485);
-    }
-
-    @Inject(at = @At("HEAD"), method = "setFrozen(Z)V", cancellable = true)
-    private void setFrozen__942382753(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-942382753L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "runsNormally()Z", cancellable = true)
     private void runsNormally__2133720999(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2133720999L))
@@ -43,27 +31,15 @@ public class TickRateManager2122967714Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "tickrate()F", cancellable = true)
-    private void tickrate__2133740219(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2133740219L))
-            info.setReturnValue(7.579389E8F);
+    @Inject(at = @At("HEAD"), method = "isSteppingForward()Z", cancellable = true)
+    private void isSteppingForward__2133720999(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2133720999L))
+            info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "millisecondsPerTick()F", cancellable = true)
-    private void millisecondsPerTick__2133740219(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2133740219L))
-            info.setReturnValue(7.579389E8F);
-    }
-
-    @Inject(at = @At("HEAD"), method = "nanosecondsPerTick()J", cancellable = true)
-    private void nanosecondsPerTick__2133736375(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2133736375L))
-            info.setReturnValue(9002622962091357930L);
-    }
-
-    @Inject(at = @At("HEAD"), method = "setFrozenTicksToRun(I)V", cancellable = true)
-    private void setFrozenTicksToRun__958082610(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-958082610L))
+    @Inject(at = @At("HEAD"), method = "setFrozen(Z)V", cancellable = true)
+    private void setFrozen__942382753(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-942382753L))
             info.cancel();
     }
 
@@ -73,10 +49,34 @@ public class TickRateManager2122967714Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "isSteppingForward()Z", cancellable = true)
-    private void isSteppingForward__2133720999(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2133720999L))
-            info.setReturnValue(true);
+    @Inject(at = @At("HEAD"), method = "setFrozenTicksToRun(I)V", cancellable = true)
+    private void setFrozenTicksToRun__958082610(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-958082610L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "nanosecondsPerTick()J", cancellable = true)
+    private void nanosecondsPerTick__2133736375(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2133736375L))
+            info.setReturnValue(9002622961769992930L);
+    }
+
+    @Inject(at = @At("HEAD"), method = "tickrate()F", cancellable = true)
+    private void tickrate__2133740219(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2133740219L))
+            info.setReturnValue(4.365739E8F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "millisecondsPerTick()F", cancellable = true)
+    private void millisecondsPerTick__2133740219(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2133740219L))
+            info.setReturnValue(4.365739E8F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "frozenTicksToRun()I", cancellable = true)
+    private void frozenTicksToRun__2133737336(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2133737336L))
+            info.setReturnValue(-1294067485);
     }
 
 

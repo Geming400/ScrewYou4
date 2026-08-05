@@ -43,10 +43,16 @@ public class UnitDouble_1408976615Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "fromSliderValue(D)Ljava/lang/Object;", cancellable = true)
-    private void fromSliderValue_288268237(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(288268237L))
-            info.setReturnValue(new java.lang.Object());
+    @Inject(at = @At("HEAD"), method = "toSliderValue(Ljava/lang/Double;)D", cancellable = true)
+    private void toSliderValue__1841044911(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1841044911L))
+            info.setReturnValue(2.5138230041662332E8D);
+    }
+
+    @Inject(at = @At("HEAD"), method = "toSliderValue(Ljava/lang/Object;)D", cancellable = true)
+    private void toSliderValue__1500371101(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1500371101L))
+            info.setReturnValue(2.5138230079469755E8D);
     }
 
     @Inject(at = @At("HEAD"), method = "fromSliderValue(D)Ljava/lang/Double;", cancellable = true)
@@ -55,16 +61,10 @@ public class UnitDouble_1408976615Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "toSliderValue(Ljava/lang/Object;)D", cancellable = true)
-    private void toSliderValue__1500371101(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1500371101L))
-            info.setReturnValue(6.430980007946975E8D);
-    }
-
-    @Inject(at = @At("HEAD"), method = "toSliderValue(Ljava/lang/Double;)D", cancellable = true)
-    private void toSliderValue__1841044911(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1841044911L))
-            info.setReturnValue(6.430980004166234E8D);
+    @Inject(at = @At("HEAD"), method = "fromSliderValue(D)Ljava/lang/Object;", cancellable = true)
+    private void fromSliderValue_288268237(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(288268237L))
+            info.setReturnValue(new java.lang.Object());
     }
 
 

@@ -7,15 +7,21 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.server.players.OldUsersConverter.class)
 public class OldUsersConverter_2025957199Mixin {
-        @Inject(at = @At("HEAD"), method = "convertUserBanlist(Lnet/minecraft/server/MinecraftServer;)Z", cancellable = true)
-    private static void convertUserBanlist__526770764(CallbackInfoReturnable<Object> info) {
+        @Inject(at = @At("HEAD"), method = "areOldUserlistsRemoved()Z", cancellable = true)
+    private static void areOldUserlistsRemoved_2064236029(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2064236029L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "convertWhiteList(Lnet/minecraft/server/MinecraftServer;)Z", cancellable = true)
+    private static void convertWhiteList__526770764(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-526770764L))
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "areOldUserlistsRemoved()Z", cancellable = true)
-    private static void areOldUserlistsRemoved_2064236029(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2064236029L))
+    @Inject(at = @At("HEAD"), method = "convertUserBanlist(Lnet/minecraft/server/MinecraftServer;)Z", cancellable = true)
+    private static void convertUserBanlist__526770764(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-526770764L))
             info.setReturnValue(true);
     }
 
@@ -25,20 +31,14 @@ public class OldUsersConverter_2025957199Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "convertWhiteList(Lnet/minecraft/server/MinecraftServer;)Z", cancellable = true)
-    private static void convertWhiteList__526770764(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "convertOpsList(Lnet/minecraft/server/MinecraftServer;)Z", cancellable = true)
+    private static void convertOpsList__526770764(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-526770764L))
             info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "convertIpBanlist(Lnet/minecraft/server/MinecraftServer;)Z", cancellable = true)
     private static void convertIpBanlist__526770764(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-526770764L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "convertOpsList(Lnet/minecraft/server/MinecraftServer;)Z", cancellable = true)
-    private static void convertOpsList__526770764(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-526770764L))
             info.setReturnValue(true);
     }

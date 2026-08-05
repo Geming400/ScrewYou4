@@ -25,9 +25,9 @@ public class RuleBasedStateProvider_1154079085Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getOptionalState(Lnet/minecraft/world/level/WorldGenLevel;Lnet/minecraft/util/RandomSource;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
-    private void getOptionalState_1518383385(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1518383385L))
+    @Inject(at = @At("HEAD"), method = "ifTrueThenProvide(Lnet/minecraft/world/level/levelgen/blockpredicates/BlockPredicate;Lnet/minecraft/world/level/levelgen/feature/stateproviders/BlockStateProvider;)Lnet/minecraft/world/level/levelgen/feature/stateproviders/RuleBasedStateProvider;", cancellable = true)
+    private static void ifTrueThenProvide__1082137715(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1082137715L))
             info.setReturnValue(null);
     }
 
@@ -37,9 +37,9 @@ public class RuleBasedStateProvider_1154079085Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "ifTrueThenProvide(Lnet/minecraft/world/level/levelgen/blockpredicates/BlockPredicate;Lnet/minecraft/world/level/levelgen/feature/stateproviders/BlockStateProvider;)Lnet/minecraft/world/level/levelgen/feature/stateproviders/RuleBasedStateProvider;", cancellable = true)
-    private static void ifTrueThenProvide__1082137715(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1082137715L))
+    @Inject(at = @At("HEAD"), method = "getOptionalState(Lnet/minecraft/world/level/WorldGenLevel;Lnet/minecraft/util/RandomSource;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
+    private void getOptionalState_1518383385(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1518383385L))
             info.setReturnValue(null);
     }
 

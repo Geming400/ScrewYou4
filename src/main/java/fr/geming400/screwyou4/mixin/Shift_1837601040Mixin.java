@@ -22,19 +22,19 @@ public class Shift_1837601040Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1875863781(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1875863781L))
-            info.setReturnValue(823521409);
+            info.setReturnValue(791496409);
     }
 
     @Inject(at = @At("HEAD"), method = "x()F", cancellable = true)
     private void x_1875860402(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1875860402L))
-            info.setReturnValue(6.455452E8F);
+            info.setReturnValue(6.135202E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "y()F", cancellable = true)
     private void y_1875860402(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1875860402L))
-            info.setReturnValue(6.455452E8F);
+            info.setReturnValue(6.135202E8F);
     }
 
 

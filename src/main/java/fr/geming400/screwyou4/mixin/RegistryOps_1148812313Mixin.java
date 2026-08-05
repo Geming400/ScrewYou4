@@ -16,7 +16,7 @@ public class RegistryOps_1148812313Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1187074558(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1187074558L))
-            info.setReturnValue(-1104621079);
+            info.setReturnValue(-942170579);
     }
 
     @Inject(at = @At("HEAD"), method = "owner(Lnet/minecraft/resources/ResourceKey;)Ljava/util/Optional;", cancellable = true)

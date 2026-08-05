@@ -7,10 +7,22 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.world.entity.animal.nautilus.Nautilus.class)
 public class Nautilus_696792655Mixin {
-        @Inject(at = @At("HEAD"), method = "getMaxAirSupply()I", cancellable = true)
+        @Inject(at = @At("HEAD"), method = "baseTick()V", cancellable = true)
+    private void baseTick_735067393(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(735067393L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getBrain()Lnet/minecraft/world/entity/ai/Brain;", cancellable = true)
+    private void getBrain__2005197784(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2005197784L))
+            info.setReturnValue(new net.minecraft.world.entity.ai.Brain());
+    }
+
+    @Inject(at = @At("HEAD"), method = "getMaxAirSupply()I", cancellable = true)
     private void getMaxAirSupply_735054900(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(735054900L))
-            info.setReturnValue(-625147241);
+            info.setReturnValue(-592897841);
     }
 
     @Inject(at = @At("HEAD"), method = "canBeLeashed()Z", cancellable = true)
@@ -25,12 +37,6 @@ public class Nautilus_696792655Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "baseTick()V", cancellable = true)
-    private void baseTick_735067393(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(735067393L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "getBreedOffspring(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/AgeableMob;)Lnet/minecraft/world/entity/animal/nautilus/Nautilus;", cancellable = true)
     private void getBreedOffspring_1900057919(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1900057919L))
@@ -41,12 +47,6 @@ public class Nautilus_696792655Mixin {
     private void getBreedOffspring__2000386060(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2000386060L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getBrain()Lnet/minecraft/world/entity/ai/Brain;", cancellable = true)
-    private void getBrain__2005197784(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2005197784L))
-            info.setReturnValue(new net.minecraft.world.entity.ai.Brain());
     }
 
 

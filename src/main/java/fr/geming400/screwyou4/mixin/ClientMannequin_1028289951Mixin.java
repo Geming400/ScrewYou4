@@ -13,6 +13,12 @@ public class ClientMannequin_1028289951Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "registerOverrides(Lnet/minecraft/client/renderer/PlayerSkinRenderCache;)V", cancellable = true)
+    private static void registerOverrides__1794593650(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1794593650L))
+            info.cancel();
+    }
+
     @Inject(at = @At("HEAD"), method = "belowNameDisplay()Lnet/minecraft/network/chat/Component;", cancellable = true)
     private void belowNameDisplay__1148619215(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1148619215L))
@@ -29,12 +35,6 @@ public class ClientMannequin_1028289951Mixin {
     private void avatarState_1773460817(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1773460817L))
             info.setReturnValue(new net.minecraft.client.entity.ClientAvatarState());
-    }
-
-    @Inject(at = @At("HEAD"), method = "registerOverrides(Lnet/minecraft/client/renderer/PlayerSkinRenderCache;)V", cancellable = true)
-    private static void registerOverrides__1794593650(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1794593650L))
-            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "showExtraEars()Z", cancellable = true)

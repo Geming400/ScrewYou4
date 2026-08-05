@@ -19,15 +19,21 @@ public class DownloadedPackSource_268981937Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "pushPack(Ljava/util/UUID;Ljava/net/URL;Ljava/lang/String;)V", cancellable = true)
-    private void pushPack_762723968(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(762723968L))
+    @Inject(at = @At("HEAD"), method = "configureForLocalWorld()V", cancellable = true)
+    private void configureForLocalWorld_307256675(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(307256675L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "popPack(Ljava/util/UUID;)V", cancellable = true)
-    private void popPack__88574153(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-88574153L))
+    @Inject(at = @At("HEAD"), method = "waitForPackFeedback(Ljava/util/UUID;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
+    private void waitForPackFeedback_2047975033(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2047975033L))
+            info.setReturnValue(new java.util.concurrent.CompletableFuture());
+    }
+
+    @Inject(at = @At("HEAD"), method = "pushLocalPack(Ljava/util/UUID;Ljava/nio/file/Path;)V", cancellable = true)
+    private void pushLocalPack_1927446166(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1927446166L))
             info.cancel();
     }
 
@@ -43,9 +49,15 @@ public class DownloadedPackSource_268981937Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "cleanupAfterDisconnect()V", cancellable = true)
-    private void cleanupAfterDisconnect_307256675(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(307256675L))
+    @Inject(at = @At("HEAD"), method = "pushPack(Ljava/util/UUID;Ljava/net/URL;Ljava/lang/String;)V", cancellable = true)
+    private void pushPack_762723968(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(762723968L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "popPack(Ljava/util/UUID;)V", cancellable = true)
+    private void popPack__88574153(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-88574153L))
             info.cancel();
     }
 
@@ -67,20 +79,8 @@ public class DownloadedPackSource_268981937Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "waitForPackFeedback(Ljava/util/UUID;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
-    private void waitForPackFeedback_2047975033(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2047975033L))
-            info.setReturnValue(new java.util.concurrent.CompletableFuture());
-    }
-
-    @Inject(at = @At("HEAD"), method = "pushLocalPack(Ljava/util/UUID;Ljava/nio/file/Path;)V", cancellable = true)
-    private void pushLocalPack_1927446166(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1927446166L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "configureForLocalWorld()V", cancellable = true)
-    private void configureForLocalWorld_307256675(CallbackInfo info) {
+    @Inject(at = @At("HEAD"), method = "cleanupAfterDisconnect()V", cancellable = true)
+    private void cleanupAfterDisconnect_307256675(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(307256675L))
             info.cancel();
     }

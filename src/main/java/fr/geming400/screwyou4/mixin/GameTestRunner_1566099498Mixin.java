@@ -19,12 +19,6 @@ public class GameTestRunner_1566099498Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getTestInfos()Ljava/util/List;", cancellable = true)
-    private void getTestInfos__1102530983(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1102530983L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "rerunTest(Lnet/minecraft/gametest/framework/GameTestInfo;)V", cancellable = true)
     private void rerunTest__739028423(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-739028423L))
@@ -35,6 +29,12 @@ public class GameTestRunner_1566099498Mixin {
     private void addListener__272080279(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-272080279L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getTestInfos()Ljava/util/List;", cancellable = true)
+    private void getTestInfos__1102530983(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1102530983L))
+            info.setReturnValue(null);
     }
 
 

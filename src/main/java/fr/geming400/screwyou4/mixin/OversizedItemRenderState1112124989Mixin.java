@@ -22,13 +22,13 @@ public class OversizedItemRenderState1112124989Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1150387731(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1150387731L))
-            info.setReturnValue(967710947);
+            info.setReturnValue(932692347);
     }
 
     @Inject(at = @At("HEAD"), method = "scale()F", cancellable = true)
     private void scale_1150384352(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1150384352L))
-            info.setReturnValue(6.505402E8F);
+            info.setReturnValue(6.155216E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "bounds()Lnet/minecraft/client/gui/navigation/ScreenRectangle;", cancellable = true)
@@ -40,25 +40,25 @@ public class OversizedItemRenderState1112124989Mixin {
     @Inject(at = @At("HEAD"), method = "x1()I", cancellable = true)
     private void x1_1150387235(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1150387235L))
-            info.setReturnValue(1149237636);
+            info.setReturnValue(1112213036);
     }
 
     @Inject(at = @At("HEAD"), method = "y1()I", cancellable = true)
     private void y1_1150387235(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1150387235L))
-            info.setReturnValue(1149237636);
+            info.setReturnValue(1112213036);
     }
 
     @Inject(at = @At("HEAD"), method = "x0()I", cancellable = true)
     private void x0_1150387235(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1150387235L))
-            info.setReturnValue(1149237636);
+            info.setReturnValue(1112213036);
     }
 
     @Inject(at = @At("HEAD"), method = "y0()I", cancellable = true)
     private void y0_1150387235(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1150387235L))
-            info.setReturnValue(1149237636);
+            info.setReturnValue(1112213036);
     }
 
     @Inject(at = @At("HEAD"), method = "pose()Lorg/joml/Matrix3x2fc;", cancellable = true)

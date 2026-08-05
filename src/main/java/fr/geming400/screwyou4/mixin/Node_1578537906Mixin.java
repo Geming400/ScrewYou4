@@ -16,7 +16,7 @@ public class Node_1578537906Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1616800151(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1616800151L))
-            info.setReturnValue(-1038133879);
+            info.setReturnValue(-1013659879);
     }
 
     @Inject(at = @At("HEAD"), method = "hasSourceDirection(I)Z", cancellable = true)

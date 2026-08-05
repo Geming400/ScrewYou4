@@ -28,7 +28,7 @@ public class ClientboundMoveMinecartPacket1615801825Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1654064567(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1654064567L))
-            info.setReturnValue(-219446043);
+            info.setReturnValue(-75699743);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/protocol/game/ClientGamePacketListener;)V", cancellable = true)
@@ -49,16 +49,16 @@ public class ClientboundMoveMinecartPacket1615801825Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "entityId()I", cancellable = true)
+    private void entityId_1654064071(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1654064071L))
+            info.setReturnValue(103823747);
+    }
+
     @Inject(at = @At("HEAD"), method = "lerpSteps()Ljava/util/List;", cancellable = true)
     private void lerpSteps__1052828655(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1052828655L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "entityId()I", cancellable = true)
-    private void entityId_1654064071(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1654064071L))
-            info.setReturnValue(-40922553);
     }
 
 

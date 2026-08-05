@@ -22,19 +22,19 @@ public class ServerResourcePackInfo_97724856Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_135987597(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(135987597L))
-            info.setReturnValue(469080800);
+            info.setReturnValue(530552900);
     }
 
     @Inject(at = @At("HEAD"), method = "hash()Ljava/lang/String;", cancellable = true)
     private void hash__1037735616(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1037735616L))
-            info.setReturnValue("ZyP}!^^gc0x*A(Vj1B{KGr\"(W:䝴TkqIu8l4iPxG&peW)tU]fwxرX\");
+            info.setReturnValue("ZyP}!^^gc0x*A(Vj1B{KGr\"(W:䝴TkqIu8l4iPxG&peW)tU]fwxرX\"");
     }
 
     @Inject(at = @At("HEAD"), method = "url()Ljava/lang/String;", cancellable = true)
     private void url__1037735616(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1037735616L))
-            info.setReturnValue("ZyP}!^^gc0x*A(Vj1B{KGr\"(W:䝴TkqIu8l4iPxG&peW)tU]fwxرX\");
+            info.setReturnValue("ZyP}!^^gc0x*A(Vj1B{KGr\"(W:䝴TkqIu8l4iPxG&peW)tU]fwxرX\"");
     }
 
     @Inject(at = @At("HEAD"), method = "id()Ljava/util/UUID;", cancellable = true)

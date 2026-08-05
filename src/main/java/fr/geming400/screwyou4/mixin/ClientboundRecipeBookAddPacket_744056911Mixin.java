@@ -28,7 +28,7 @@ public class ClientboundRecipeBookAddPacket_744056911Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_782319652(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(782319652L))
-            info.setReturnValue(-1856689311);
+            info.setReturnValue(2020055585);
     }
 
     @Inject(at = @At("HEAD"), method = "replace()Z", cancellable = true)

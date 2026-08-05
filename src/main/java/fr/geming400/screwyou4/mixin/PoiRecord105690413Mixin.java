@@ -16,30 +16,12 @@ public class PoiRecord105690413Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_143952659(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(143952659L))
-            info.setReturnValue(-1538750991);
+            info.setReturnValue(-1045271991);
     }
 
     @Inject(at = @At("HEAD"), method = "pack()Lnet/minecraft/world/entity/ai/village/poi/PoiRecord$Packed;", cancellable = true)
     private void pack_980097350(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(980097350L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "hasSpace()Z", cancellable = true)
-    private void hasSpace_143968996(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(143968996L))
-            info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isOccupied()Z", cancellable = true)
-    private void isOccupied_143968996(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(143968996L))
-            info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getPoiType()Lnet/minecraft/core/Holder;", cancellable = true)
-    private void getPoiType_1654566185(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1654566185L))
             info.setReturnValue(null);
     }
 
@@ -49,10 +31,28 @@ public class PoiRecord105690413Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "getPoiType()Lnet/minecraft/core/Holder;", cancellable = true)
+    private void getPoiType_1654566185(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1654566185L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "hasSpace()Z", cancellable = true)
+    private void hasSpace_143968996(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(143968996L))
+            info.setReturnValue(false);
+    }
+
     @Inject(at = @At("HEAD"), method = "getFreeTickets()I", cancellable = true)
     private void getFreeTickets_143952659(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(143952659L))
-            info.setReturnValue(-1537751691);
+            info.setReturnValue(-1045271991);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isOccupied()Z", cancellable = true)
+    private void isOccupied_143968996(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(143968996L))
+            info.setReturnValue(false);
     }
 
 

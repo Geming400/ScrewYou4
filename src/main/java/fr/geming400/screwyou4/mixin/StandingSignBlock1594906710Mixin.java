@@ -28,7 +28,7 @@ public class StandingSignBlock1594906710Mixin {
     @Inject(at = @At("HEAD"), method = "getYRotationDegrees(Lnet/minecraft/world/level/block/state/BlockState;)F", cancellable = true)
     private void getYRotationDegrees_1449598504(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1449598504L))
-            info.setReturnValue(8.3807E8F);
+            info.setReturnValue(9.229505E8F);
     }
 
 

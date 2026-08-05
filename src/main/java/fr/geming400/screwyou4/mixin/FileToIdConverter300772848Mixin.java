@@ -22,7 +22,7 @@ public class FileToIdConverter300772848Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_339035590(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(339035590L))
-            info.setReturnValue(856222170);
+            info.setReturnValue(794702870);
     }
 
     @Inject(at = @At("HEAD"), method = "prefix()Ljava/lang/String;", cancellable = true)
@@ -35,12 +35,6 @@ public class FileToIdConverter300772848Mixin {
     private void extension__834687623(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-834687623L))
             info.setReturnValue("V鄭`,Kc!Y3:)`㳴AL;Uk△}>K86hOTYR'-x5Wᇺ+.9=+eG2KO*8KP,H9{KX+ynes&OKP]h<FEd4u+\"utTPV螼擧g");
-    }
-
-    @Inject(at = @At("HEAD"), method = "fileToId(Lnet/minecraft/resources/Identifier;)Lnet/minecraft/resources/Identifier;", cancellable = true)
-    private void fileToId__1055193169(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1055193169L))
-            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "registry(Lnet/minecraft/resources/ResourceKey;)Lnet/minecraft/resources/FileToIdConverter;", cancellable = true)
@@ -61,9 +55,9 @@ public class FileToIdConverter300772848Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "listMatchingResourceStacks(Lnet/minecraft/server/packs/resources/ResourceManager;)Ljava/util/Map;", cancellable = true)
-    private void listMatchingResourceStacks_1973584415(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1973584415L))
+    @Inject(at = @At("HEAD"), method = "idToFile(Lnet/minecraft/resources/Identifier;)Lnet/minecraft/resources/Identifier;", cancellable = true)
+    private void idToFile__1055193169(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1055193169L))
             info.setReturnValue(null);
     }
 
@@ -73,9 +67,15 @@ public class FileToIdConverter300772848Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "idToFile(Lnet/minecraft/resources/Identifier;)Lnet/minecraft/resources/Identifier;", cancellable = true)
-    private void idToFile__1055193169(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "fileToId(Lnet/minecraft/resources/Identifier;)Lnet/minecraft/resources/Identifier;", cancellable = true)
+    private void fileToId__1055193169(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1055193169L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "listMatchingResourceStacks(Lnet/minecraft/server/packs/resources/ResourceManager;)Ljava/util/Map;", cancellable = true)
+    private void listMatchingResourceStacks_1973584415(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1973584415L))
             info.setReturnValue(null);
     }
 

@@ -34,7 +34,7 @@ public class AngleArgument_1568779454Mixin {
     @Inject(at = @At("HEAD"), method = "getAngle(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)F", cancellable = true)
     private static void getAngle_804817692(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(804817692L))
-            info.setReturnValue(9.16204E7F);
+            info.setReturnValue(4.204561E8F);
     }
 
 

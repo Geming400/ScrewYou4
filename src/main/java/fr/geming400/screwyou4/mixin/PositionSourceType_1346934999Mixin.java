@@ -22,7 +22,7 @@ public class PositionSourceType_1346934999Mixin {
     @Inject(at = @At("HEAD"), method = "getCoordinate(DDFLnet/minecraft/util/RandomSource;)D", cancellable = true)
     private void getCoordinate__747367199(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-747367199L))
-            info.setReturnValue(6.709585005537142E8D);
+            info.setReturnValue(6.393559005537142E8D);
     }
 
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)

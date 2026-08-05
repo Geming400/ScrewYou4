@@ -28,7 +28,7 @@ public class ClientboundMoveVehiclePacket1870133890Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1908396632(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1908396632L))
-            info.setReturnValue(-233159800);
+            info.setReturnValue(153231200);
     }
 
     @Inject(at = @At("HEAD"), method = "position()Lnet/minecraft/world/phys/Vec3;", cancellable = true)
@@ -49,22 +49,22 @@ public class ClientboundMoveVehiclePacket1870133890Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "fromEntity(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/network/protocol/game/ClientboundMoveVehiclePacket;", cancellable = true)
-    private static void fromEntity__1096278364(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1096278364L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "yRot()F", cancellable = true)
+    private void yRot_1908393253(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1908393253L))
+            info.setReturnValue(5.063724E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "xRot()F", cancellable = true)
     private void xRot_1908393253(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1908393253L))
-            info.setReturnValue(1.199814E8F);
+            info.setReturnValue(5.063724E8F);
     }
 
-    @Inject(at = @At("HEAD"), method = "yRot()F", cancellable = true)
-    private void yRot_1908393253(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1908393253L))
-            info.setReturnValue(1.199814E8F);
+    @Inject(at = @At("HEAD"), method = "fromEntity(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/network/protocol/game/ClientboundMoveVehiclePacket;", cancellable = true)
+    private static void fromEntity__1096278364(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1096278364L))
+            info.setReturnValue(null);
     }
 
 

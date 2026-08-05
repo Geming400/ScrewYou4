@@ -13,14 +13,8 @@ public class ClientboundLightUpdatePacketData2064203040Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getSkyYMask()Ljava/util/BitSet;", cancellable = true)
-    private void getSkyYMask__1838091463(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1838091463L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getEmptySkyYMask()Ljava/util/BitSet;", cancellable = true)
-    private void getEmptySkyYMask__1838091463(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "getEmptyBlockYMask()Ljava/util/BitSet;", cancellable = true)
+    private void getEmptyBlockYMask__1838091463(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1838091463L))
             info.setReturnValue(null);
     }
@@ -37,8 +31,14 @@ public class ClientboundLightUpdatePacketData2064203040Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getEmptyBlockYMask()Ljava/util/BitSet;", cancellable = true)
-    private void getEmptyBlockYMask__1838091463(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "getSkyYMask()Ljava/util/BitSet;", cancellable = true)
+    private void getSkyYMask__1838091463(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1838091463L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getEmptySkyYMask()Ljava/util/BitSet;", cancellable = true)
+    private void getEmptySkyYMask__1838091463(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1838091463L))
             info.setReturnValue(null);
     }

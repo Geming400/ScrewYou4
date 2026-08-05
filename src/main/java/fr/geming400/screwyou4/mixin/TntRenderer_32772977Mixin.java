@@ -19,6 +19,12 @@ public class TntRenderer_32772977Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "getSwellAmount(F)F", cancellable = true)
+    private static void getSwellAmount_1243904257(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1243904257L))
+            info.setReturnValue(1.328957E8F);
+    }
+
     @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/entity/item/PrimedTnt;Lnet/minecraft/client/renderer/entity/state/TntRenderState;F)V", cancellable = true)
     private void extractRenderState_435792692(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(435792692L))
@@ -29,12 +35,6 @@ public class TntRenderer_32772977Mixin {
     private void extractRenderState_259891995(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(259891995L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "isLit(F)Z", cancellable = true)
-    private static void isLit_1243923477(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1243923477L))
-            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/EntityRenderState;", cancellable = true)
@@ -49,10 +49,10 @@ public class TntRenderer_32772977Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getSwellAmount(F)F", cancellable = true)
-    private static void getSwellAmount_1243904257(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1243904257L))
-            info.setReturnValue(6.836015E8F);
+    @Inject(at = @At("HEAD"), method = "isLit(F)Z", cancellable = true)
+    private static void isLit_1243923477(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1243923477L))
+            info.setReturnValue(false);
     }
 
 

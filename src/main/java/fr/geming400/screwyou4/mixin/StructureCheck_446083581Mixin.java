@@ -22,7 +22,7 @@ public class StructureCheck_446083581Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_484346322(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(484346322L))
-            info.setReturnValue(1504270415);
+            info.setReturnValue(639138815);
     }
 
     @Inject(at = @At("HEAD"), method = "test(Ljava/lang/Object;)Z", cancellable = true)

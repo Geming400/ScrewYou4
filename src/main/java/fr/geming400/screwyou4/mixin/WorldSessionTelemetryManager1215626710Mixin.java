@@ -19,8 +19,20 @@ public class WorldSessionTelemetryManager1215626710Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "worldSessionStart()V", cancellable = true)
-    private void worldSessionStart_1253901449(CallbackInfo info) {
+    @Inject(at = @At("HEAD"), method = "onAdvancementDone(Lnet/minecraft/world/level/Level;Lnet/minecraft/advancements/AdvancementHolder;)V", cancellable = true)
+    private void onAdvancementDone__522834749(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-522834749L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "onServerBrandReceived(Ljava/lang/String;)V", cancellable = true)
+    private void onServerBrandReceived__1926979437(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1926979437L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "onDisconnect()V", cancellable = true)
+    private void onDisconnect_1253901449(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1253901449L))
             info.cancel();
     }
@@ -31,21 +43,9 @@ public class WorldSessionTelemetryManager1215626710Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "onAdvancementDone(Lnet/minecraft/world/level/Level;Lnet/minecraft/advancements/AdvancementHolder;)V", cancellable = true)
-    private void onAdvancementDone__522834749(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-522834749L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "onDisconnect()V", cancellable = true)
-    private void onDisconnect_1253901449(CallbackInfo info) {
+    @Inject(at = @At("HEAD"), method = "worldSessionStart()V", cancellable = true)
+    private void worldSessionStart_1253901449(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1253901449L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "onServerBrandReceived(Ljava/lang/String;)V", cancellable = true)
-    private void onServerBrandReceived__1926979437(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1926979437L))
             info.cancel();
     }
 

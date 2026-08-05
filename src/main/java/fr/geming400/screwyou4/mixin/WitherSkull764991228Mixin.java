@@ -16,7 +16,7 @@ public class WitherSkull764991228Mixin {
     @Inject(at = @At("HEAD"), method = "getBlockExplosionResistance(Lnet/minecraft/world/level/Explosion;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/material/FluidState;F)F", cancellable = true)
     private void getBlockExplosionResistance__2067351049(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2067351049L))
-            info.setReturnValue(8.206107E8F);
+            info.setReturnValue(9.098745E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "isOnFire()Z", cancellable = true)

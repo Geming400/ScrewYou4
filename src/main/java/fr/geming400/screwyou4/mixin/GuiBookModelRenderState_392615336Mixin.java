@@ -22,13 +22,13 @@ public class GuiBookModelRenderState_392615336Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_430878077(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(430878077L))
-            info.setReturnValue(-111710042);
+            info.setReturnValue(-532750642);
     }
 
     @Inject(at = @At("HEAD"), method = "scale()F", cancellable = true)
     private void scale_430874698(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(430874698L))
-            info.setReturnValue(5.425703E8F);
+            info.setReturnValue(1.215297E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "bounds()Lnet/minecraft/client/gui/navigation/ScreenRectangle;", cancellable = true)
@@ -40,37 +40,37 @@ public class GuiBookModelRenderState_392615336Mixin {
     @Inject(at = @At("HEAD"), method = "open()F", cancellable = true)
     private void open_430874698(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(430874698L))
-            info.setReturnValue(5.425703E8F);
+            info.setReturnValue(1.215297E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "x1()I", cancellable = true)
     private void x1_430877581(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(430877581L))
-            info.setReturnValue(165309166);
+            info.setReturnValue(-255731434);
     }
 
     @Inject(at = @At("HEAD"), method = "flip()F", cancellable = true)
     private void flip_430874698(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(430874698L))
-            info.setReturnValue(5.425703E8F);
+            info.setReturnValue(1.215297E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "y1()I", cancellable = true)
     private void y1_430877581(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(430877581L))
-            info.setReturnValue(165309166);
+            info.setReturnValue(-255731434);
     }
 
     @Inject(at = @At("HEAD"), method = "x0()I", cancellable = true)
     private void x0_430877581(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(430877581L))
-            info.setReturnValue(165309166);
+            info.setReturnValue(-255731434);
     }
 
     @Inject(at = @At("HEAD"), method = "y0()I", cancellable = true)
     private void y0_430877581(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(430877581L))
-            info.setReturnValue(165309166);
+            info.setReturnValue(-255731434);
     }
 
     @Inject(at = @At("HEAD"), method = "texture()Lnet/minecraft/resources/Identifier;", cancellable = true)

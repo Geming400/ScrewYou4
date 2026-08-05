@@ -34,7 +34,7 @@ public class ClientboundTestInstanceBlockStatus231917591Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_270180333(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(270180333L))
-            info.setReturnValue(1303572818);
+            info.setReturnValue(790958518);
     }
 
     @Inject(at = @At("HEAD"), method = "status()Lnet/minecraft/network/chat/Component;", cancellable = true)

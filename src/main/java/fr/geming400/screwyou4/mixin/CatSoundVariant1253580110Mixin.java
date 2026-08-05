@@ -22,17 +22,17 @@ public class CatSoundVariant1253580110Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1291842852(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1291842852L))
-            info.setReturnValue(-1639288370);
-    }
-
-    @Inject(at = @At("HEAD"), method = "adultSounds()Lnet/minecraft/world/entity/animal/feline/CatSoundVariant$CatSoundSet;", cancellable = true)
-    private void adultSounds_2028996719(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2028996719L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1336137170);
     }
 
     @Inject(at = @At("HEAD"), method = "babySounds()Lnet/minecraft/world/entity/animal/feline/CatSoundVariant$CatSoundSet;", cancellable = true)
     private void babySounds_2028996719(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2028996719L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "adultSounds()Lnet/minecraft/world/entity/animal/feline/CatSoundVariant$CatSoundSet;", cancellable = true)
+    private void adultSounds_2028996719(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2028996719L))
             info.setReturnValue(null);
     }

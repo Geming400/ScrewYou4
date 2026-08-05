@@ -28,7 +28,7 @@ public class KeybindContents470550248Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_508812494(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(508812494L))
-            info.setReturnValue(127959346);
+            info.setReturnValue(293098146);
     }
 
     @Inject(at = @At("HEAD"), method = "visit(Lnet/minecraft/network/chat/FormattedText$StyledContentConsumer;Lnet/minecraft/network/chat/Style;)Ljava/util/Optional;", cancellable = true)

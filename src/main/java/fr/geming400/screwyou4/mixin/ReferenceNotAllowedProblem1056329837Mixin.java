@@ -22,7 +22,7 @@ public class ReferenceNotAllowedProblem1056329837Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1094592579(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1094592579L))
-            info.setReturnValue(1604289931);
+            info.setReturnValue(1550025531);
     }
 
     @Inject(at = @At("HEAD"), method = "description()Ljava/lang/String;", cancellable = true)

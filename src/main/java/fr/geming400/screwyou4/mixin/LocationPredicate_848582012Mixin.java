@@ -22,7 +22,7 @@ public class LocationPredicate_848582012Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_886844753(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(886844753L))
-            info.setReturnValue(-1190996518);
+            info.setReturnValue(-1789891618);
     }
 
     @Inject(at = @At("HEAD"), method = "position()Ljava/util/Optional;", cancellable = true)
@@ -43,8 +43,8 @@ public class LocationPredicate_848582012Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "structures()Ljava/util/Optional;", cancellable = true)
-    private void structures_1094043433(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "dimension()Ljava/util/Optional;", cancellable = true)
+    private void dimension_1094043433(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1094043433L))
             info.setReturnValue(null);
     }
@@ -55,20 +55,20 @@ public class LocationPredicate_848582012Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "dimension()Ljava/util/Optional;", cancellable = true)
-    private void dimension_1094043433(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "canSeeSky()Ljava/util/Optional;", cancellable = true)
+    private void canSeeSky_1094043433(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1094043433L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "structures()Ljava/util/Optional;", cancellable = true)
+    private void structures_1094043433(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1094043433L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "light()Ljava/util/Optional;", cancellable = true)
     private void light_1094043433(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1094043433L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "canSeeSky()Ljava/util/Optional;", cancellable = true)
-    private void canSeeSky_1094043433(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1094043433L))
             info.setReturnValue(null);
     }

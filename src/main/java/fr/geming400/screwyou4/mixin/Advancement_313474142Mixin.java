@@ -40,7 +40,7 @@ public class Advancement_313474142Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_351736883(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(351736883L))
-            info.setReturnValue(-1891947122);
+            info.setReturnValue(-1526763422);
     }
 
     @Inject(at = @At("HEAD"), method = "validate(Lnet/minecraft/util/ProblemReporter;Lnet/minecraft/core/HolderGetter$Provider;)V", cancellable = true)

@@ -22,7 +22,7 @@ public class WorldStem_753983171Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_792245912(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(792245912L))
-            info.setReturnValue(739034734);
+            info.setReturnValue(841421234);
     }
 
     @Inject(at = @At("HEAD"), method = "close()V", cancellable = true)
@@ -31,15 +31,15 @@ public class WorldStem_753983171Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "resourceManager()Lnet/minecraft/server/packs/resources/CloseableResourceManager;", cancellable = true)
-    private void resourceManager__1454615774(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1454615774L))
+    @Inject(at = @At("HEAD"), method = "dataPackResources()Lnet/minecraft/server/ReloadableServerResources;", cancellable = true)
+    private void dataPackResources_1250261561(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1250261561L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "worldDataAndGenSettings()Lnet/minecraft/world/level/storage/LevelDataAndDimensions$WorldDataAndGenSettings;", cancellable = true)
-    private void worldDataAndGenSettings_1004037526(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1004037526L))
+    @Inject(at = @At("HEAD"), method = "resourceManager()Lnet/minecraft/server/packs/resources/CloseableResourceManager;", cancellable = true)
+    private void resourceManager__1454615774(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1454615774L))
             info.setReturnValue(null);
     }
 
@@ -49,9 +49,9 @@ public class WorldStem_753983171Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "dataPackResources()Lnet/minecraft/server/ReloadableServerResources;", cancellable = true)
-    private void dataPackResources_1250261561(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1250261561L))
+    @Inject(at = @At("HEAD"), method = "worldDataAndGenSettings()Lnet/minecraft/world/level/storage/LevelDataAndDimensions$WorldDataAndGenSettings;", cancellable = true)
+    private void worldDataAndGenSettings_1004037526(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1004037526L))
             info.setReturnValue(null);
     }
 

@@ -22,7 +22,7 @@ public class VillagerMetadataSection97721746Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_135984488(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(135984488L))
-            info.setReturnValue(1001810624);
+            info.setReturnValue(1534875224);
     }
 
     @Inject(at = @At("HEAD"), method = "hat()Lnet/minecraft/client/resources/metadata/animation/VillagerMetadataSection$Hat;", cancellable = true)

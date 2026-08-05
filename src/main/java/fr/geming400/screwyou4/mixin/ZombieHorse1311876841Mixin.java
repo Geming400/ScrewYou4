@@ -7,7 +7,19 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.world.entity.animal.equine.ZombieHorse.class)
 public class ZombieHorse1311876841Mixin {
-        @Inject(at = @At("HEAD"), method = "canBeLeashed()Z", cancellable = true)
+        @Inject(at = @At("HEAD"), method = "interact(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;Lnet/minecraft/world/phys/Vec3;)Lnet/minecraft/world/InteractionResult;", cancellable = true)
+    private void interact__991024753(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-991024753L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "canUseSlot(Lnet/minecraft/world/entity/EquipmentSlot;)Z", cancellable = true)
+    private void canUseSlot__1987722594(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1987722594L))
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "canBeLeashed()Z", cancellable = true)
     private void canBeLeashed_1350155424(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1350155424L))
             info.setReturnValue(true);
@@ -25,22 +37,46 @@ public class ZombieHorse1311876841Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "removeWhenFarAway(D)Z", cancellable = true)
-    private void removeWhenFarAway__1773787244(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1773787244L))
+    @Inject(at = @At("HEAD"), method = "isFood(Lnet/minecraft/world/item/ItemStack;)Z", cancellable = true)
+    private void isFood__1248555323(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1248555323L))
             info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "chargeSpeedModifier()F", cancellable = true)
     private void chargeSpeedModifier_1350136204(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1350136204L))
-            info.setReturnValue(1.69413E8F);
+            info.setReturnValue(6.890059E8F);
     }
 
-    @Inject(at = @At("HEAD"), method = "interact(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;Lnet/minecraft/world/phys/Vec3;)Lnet/minecraft/world/InteractionResult;", cancellable = true)
-    private void interact__991024753(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-991024753L))
+    @Inject(at = @At("HEAD"), method = "getQuadLeashOffsets()[Lnet/minecraft/world/phys/Vec3;", cancellable = true)
+    private void getQuadLeashOffsets_277711241(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(277711241L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getBreedOffspring(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/AgeableMob;)Lnet/minecraft/world/entity/AgeableMob;", cancellable = true)
+    private void getBreedOffspring__1385430833(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1385430833L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "mobInteract(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResult;", cancellable = true)
+    private void mobInteract__1366264613(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1366264613L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "removeWhenFarAway(D)Z", cancellable = true)
+    private void removeWhenFarAway__1773787244(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1773787244L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isMobControlled()Z", cancellable = true)
+    private void isMobControlled_1350155424(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1350155424L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "canFallInLove()Z", cancellable = true)
@@ -51,42 +87,6 @@ public class ZombieHorse1311876841Mixin {
 
     @Inject(at = @At("HEAD"), method = "canAgeUp()Z", cancellable = true)
     private void canAgeUp_1350155424(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1350155424L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "mobInteract(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResult;", cancellable = true)
-    private void mobInteract__1366264613(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1366264613L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getBreedOffspring(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/AgeableMob;)Lnet/minecraft/world/entity/AgeableMob;", cancellable = true)
-    private void getBreedOffspring__1385430833(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1385430833L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "canUseSlot(Lnet/minecraft/world/entity/EquipmentSlot;)Z", cancellable = true)
-    private void canUseSlot__1987722594(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1987722594L))
-            info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getQuadLeashOffsets()[Lnet/minecraft/world/phys/Vec3;", cancellable = true)
-    private void getQuadLeashOffsets_277711241(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(277711241L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isFood(Lnet/minecraft/world/item/ItemStack;)Z", cancellable = true)
-    private void isFood__1248555323(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1248555323L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isMobControlled()Z", cancellable = true)
-    private void isMobControlled_1350155424(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1350155424L))
             info.setReturnValue(true);
     }

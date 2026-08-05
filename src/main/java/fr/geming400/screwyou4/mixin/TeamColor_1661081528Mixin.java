@@ -28,19 +28,19 @@ public class TeamColor_1661081528Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1699344269(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1699344269L))
-            info.setReturnValue(-1890876148);
+            info.setReturnValue(-1816138048);
     }
 
     @Inject(at = @At("HEAD"), method = "calculate(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/client/multiplayer/ClientLevel;Lnet/minecraft/world/entity/LivingEntity;)I", cancellable = true)
     private void calculate_1004768301(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1004768301L))
-            info.setReturnValue(68604525);
+            info.setReturnValue(143342625);
     }
 
     @Inject(at = @At("HEAD"), method = "defaultColor()I", cancellable = true)
     private void defaultColor_1699343773(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1699343773L))
-            info.setReturnValue(-1687728729);
+            info.setReturnValue(-1612990629);
     }
 
 

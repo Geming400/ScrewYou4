@@ -28,7 +28,7 @@ public class ClientboundTabListPacket1891381434Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1929644176(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1929644176L))
-            info.setReturnValue(1291788029);
+            info.setReturnValue(549387929);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/PacketListener;)V", cancellable = true)

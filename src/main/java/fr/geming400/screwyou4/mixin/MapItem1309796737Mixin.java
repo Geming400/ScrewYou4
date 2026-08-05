@@ -19,21 +19,9 @@ public class MapItem1309796737Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "useOn(Lnet/minecraft/world/item/context/UseOnContext;)Lnet/minecraft/world/InteractionResult;", cancellable = true)
-    private void useOn__599046518(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-599046518L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "inventoryTick(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/entity/EquipmentSlot;)V", cancellable = true)
-    private void inventoryTick__677163115(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-677163115L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "onCraftedPostProcess(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;)V", cancellable = true)
-    private void onCraftedPostProcess_482999454(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(482999454L))
+    @Inject(at = @At("HEAD"), method = "renderBiomePreviewMap(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/item/ItemStack;)V", cancellable = true)
+    private static void renderBiomePreviewMap__706572126(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-706572126L))
             info.cancel();
     }
 
@@ -49,9 +37,21 @@ public class MapItem1309796737Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "renderBiomePreviewMap(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/item/ItemStack;)V", cancellable = true)
-    private static void renderBiomePreviewMap__706572126(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-706572126L))
+    @Inject(at = @At("HEAD"), method = "useOn(Lnet/minecraft/world/item/context/UseOnContext;)Lnet/minecraft/world/InteractionResult;", cancellable = true)
+    private void useOn__599046518(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-599046518L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "onCraftedPostProcess(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;)V", cancellable = true)
+    private void onCraftedPostProcess_482999454(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(482999454L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "inventoryTick(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/entity/EquipmentSlot;)V", cancellable = true)
+    private void inventoryTick__677163115(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-677163115L))
             info.cancel();
     }
 

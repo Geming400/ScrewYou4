@@ -19,16 +19,16 @@ public class BushBlock243581111Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "isBonemealSuccess(Lnet/minecraft/world/level/Level;Lnet/minecraft/util/RandomSource;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Z", cancellable = true)
-    private void isBonemealSuccess__1729332032(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1729332032L))
-            info.setReturnValue(true);
-    }
-
     @Inject(at = @At("HEAD"), method = "performBonemeal(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/util/RandomSource;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)V", cancellable = true)
     private void performBonemeal__1899385442(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1899385442L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "isBonemealSuccess(Lnet/minecraft/world/level/Level;Lnet/minecraft/util/RandomSource;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Z", cancellable = true)
+    private void isBonemealSuccess__1729332032(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1729332032L))
+            info.setReturnValue(true);
     }
 
 

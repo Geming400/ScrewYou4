@@ -22,7 +22,7 @@ public class TransferState1012365160Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1050627902(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1050627902L))
-            info.setReturnValue(-162482449);
+            info.setReturnValue(33303351);
     }
 
     @Inject(at = @At("HEAD"), method = "cookies()Ljava/util/Map;", cancellable = true)

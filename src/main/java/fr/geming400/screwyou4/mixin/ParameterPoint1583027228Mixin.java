@@ -22,23 +22,17 @@ public class ParameterPoint1583027228Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1621289970(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1621289970L))
-            info.setReturnValue(-1764072384);
+            info.setReturnValue(-1631663984);
     }
 
     @Inject(at = @At("HEAD"), method = "offset()J", cancellable = true)
     private void offset_1621290435(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1621290435L))
-            info.setReturnValue(-8942514843660664927L);
+            info.setReturnValue(-8942514843530258327L);
     }
 
     @Inject(at = @At("HEAD"), method = "depth()Lnet/minecraft/world/level/biome/Climate$Parameter;", cancellable = true)
     private void depth_1059231553(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1059231553L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "humidity()Lnet/minecraft/world/level/biome/Climate$Parameter;", cancellable = true)
-    private void humidity_1059231553(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1059231553L))
             info.setReturnValue(null);
     }
@@ -49,20 +43,26 @@ public class ParameterPoint1583027228Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "humidity()Lnet/minecraft/world/level/biome/Climate$Parameter;", cancellable = true)
+    private void humidity_1059231553(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1059231553L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "weirdness()Lnet/minecraft/world/level/biome/Climate$Parameter;", cancellable = true)
     private void weirdness_1059231553(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1059231553L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "continentalness()Lnet/minecraft/world/level/biome/Climate$Parameter;", cancellable = true)
-    private void continentalness_1059231553(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "temperature()Lnet/minecraft/world/level/biome/Climate$Parameter;", cancellable = true)
+    private void temperature_1059231553(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1059231553L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "temperature()Lnet/minecraft/world/level/biome/Climate$Parameter;", cancellable = true)
-    private void temperature_1059231553(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "continentalness()Lnet/minecraft/world/level/biome/Climate$Parameter;", cancellable = true)
+    private void continentalness_1059231553(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1059231553L))
             info.setReturnValue(null);
     }

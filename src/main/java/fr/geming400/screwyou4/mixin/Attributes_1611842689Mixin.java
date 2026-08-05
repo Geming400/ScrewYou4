@@ -22,17 +22,17 @@ public class Attributes_1611842689Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1650105430(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1650105430L))
-            info.setReturnValue(-222761673);
-    }
-
-    @Inject(at = @At("HEAD"), method = "discoverable()Z", cancellable = true)
-    private void discoverable_1650121271(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1650121271L))
-            info.setReturnValue(false);
+            info.setReturnValue(-171243273);
     }
 
     @Inject(at = @At("HEAD"), method = "allowPreServerInit()Z", cancellable = true)
     private void allowPreServerInit_1650121271(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1650121271L))
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "discoverable()Z", cancellable = true)
+    private void discoverable_1650121271(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1650121271L))
             info.setReturnValue(false);
     }

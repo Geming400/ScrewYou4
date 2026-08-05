@@ -13,12 +13,6 @@ public class V991947106376Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "registerTypes(Lcom/mojang/datafixers/schemas/Schema;Ljava/util/Map;Ljava/util/Map;)V", cancellable = true)
-    private void registerTypes__6792985(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-6792985L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "registerEntities(Lcom/mojang/datafixers/schemas/Schema;)Ljava/util/Map;", cancellable = true)
     private void registerEntities__115128708(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-115128708L))
@@ -29,6 +23,12 @@ public class V991947106376Mixin {
     private void registerBlockEntities__115128708(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-115128708L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "registerTypes(Lcom/mojang/datafixers/schemas/Schema;Ljava/util/Map;Ljava/util/Map;)V", cancellable = true)
+    private void registerTypes__6792985(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-6792985L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "itemStackTag(Lcom/mojang/datafixers/schemas/Schema;)Lcom/mojang/datafixers/types/templates/TypeTemplate;", cancellable = true)

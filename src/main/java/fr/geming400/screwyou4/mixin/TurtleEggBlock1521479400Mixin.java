@@ -37,14 +37,14 @@ public class TurtleEggBlock1521479400Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "onSand(Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)Z", cancellable = true)
-    private static void onSand_943950672(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "isSand(Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)Z", cancellable = true)
+    private static void isSand_943950672(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(943950672L))
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "isSand(Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)Z", cancellable = true)
-    private static void isSand_943950672(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "onSand(Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)Z", cancellable = true)
+    private static void onSand_943950672(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(943950672L))
             info.setReturnValue(false);
     }

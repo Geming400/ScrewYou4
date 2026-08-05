@@ -22,13 +22,13 @@ public class ExclusionZone1929924622Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1968187364(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1968187364L))
-            info.setReturnValue(-435181885);
+            info.setReturnValue(-79192385);
     }
 
     @Inject(at = @At("HEAD"), method = "chunkCount()I", cancellable = true)
     private void chunkCount_1968186868(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1968186868L))
-            info.setReturnValue(-232034466);
+            info.setReturnValue(123955034);
     }
 
     @Inject(at = @At("HEAD"), method = "otherSet()Lnet/minecraft/core/Holder;", cancellable = true)

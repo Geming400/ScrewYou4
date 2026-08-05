@@ -34,7 +34,7 @@ public class AxisDirection_689903389Mixin {
     @Inject(at = @At("HEAD"), method = "getStep()I", cancellable = true)
     private void getStep_728165634(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(728165634L))
-            info.setReturnValue(-1327390736);
+            info.setReturnValue(-1054821136);
     }
 
     @Inject(at = @At("HEAD"), method = "opposite()Lnet/minecraft/core/Direction$AxisDirection;", cancellable = true)

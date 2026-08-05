@@ -22,7 +22,7 @@ public class Doubles61232897Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_99495639(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(99495639L))
-            info.setReturnValue(-1780596130);
+            info.setReturnValue(-1837805030);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(D)Z", cancellable = true)
@@ -61,10 +61,10 @@ public class Doubles61232897Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "fromReader(Lcom/mojang/brigadier/StringReader;)Lnet/minecraft/advancements/predicates/MinMaxBounds$Doubles;", cancellable = true)
-    private static void fromReader__1653747443(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1653747443L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "matchesSqr(D)Z", cancellable = true)
+    private void matchesSqr_1270536108(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1270536108L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "exactly(D)Lnet/minecraft/advancements/predicates/MinMaxBounds$Doubles;", cancellable = true)
@@ -73,10 +73,10 @@ public class Doubles61232897Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "matchesSqr(D)Z", cancellable = true)
-    private void matchesSqr_1270536108(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1270536108L))
-            info.setReturnValue(false);
+    @Inject(at = @At("HEAD"), method = "fromReader(Lcom/mojang/brigadier/StringReader;)Lnet/minecraft/advancements/predicates/MinMaxBounds$Doubles;", cancellable = true)
+    private static void fromReader__1653747443(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1653747443L))
+            info.setReturnValue(null);
     }
 
 

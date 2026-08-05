@@ -22,19 +22,13 @@ public class ChunkSectionLayer_172302725Mixin {
     @Inject(at = @At("HEAD"), method = "label()Ljava/lang/String;", cancellable = true)
     private void label__963157747(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-963157747L))
-            info.setReturnValue("!@K7'Z[ꭧ 鼿\"u(O殺QX곣/n?LBMr\");
+            info.setReturnValue("!@K7'Z[ꭧ 鼿\"u(O殺QX곣/n?LBMr\"");
     }
 
     @Inject(at = @At("HEAD"), method = "bufferSize()I", cancellable = true)
     private void bufferSize_210564970(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(210564970L))
-            info.setReturnValue(-761745241);
-    }
-
-    @Inject(at = @At("HEAD"), method = "translucent()Z", cancellable = true)
-    private void translucent_210581307(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(210581307L))
-            info.setReturnValue(false);
+            info.setReturnValue(-748069641);
     }
 
     @Inject(at = @At("HEAD"), method = "vertexFormat()Lcom/mojang/blaze3d/vertex/VertexFormat;", cancellable = true)
@@ -47,6 +41,12 @@ public class ChunkSectionLayer_172302725Mixin {
     private static void byTransparency_1128571659(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1128571659L))
             info.setReturnValue(net.minecraft.client.renderer.chunk.ChunkSectionLayer.CUTOUT);
+    }
+
+    @Inject(at = @At("HEAD"), method = "translucent()Z", cancellable = true)
+    private void translucent_210581307(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(210581307L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "pipeline()Lcom/mojang/blaze3d/pipeline/RenderPipeline;", cancellable = true)

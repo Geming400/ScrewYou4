@@ -22,7 +22,7 @@ public class Ints1259475787Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1297738529(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1297738529L))
-            info.setReturnValue(-1779722712);
+            info.setReturnValue(-1378370112);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(I)Z", cancellable = true)
@@ -61,10 +61,10 @@ public class Ints1259475787Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "fromReader(Lcom/mojang/brigadier/StringReader;)Lnet/minecraft/advancements/predicates/MinMaxBounds$Ints;", cancellable = true)
-    private static void fromReader__1623237285(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1623237285L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "matchesSqr(J)Z", cancellable = true)
+    private void matchesSqr__1820647172(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1820647172L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "exactly(I)Lnet/minecraft/advancements/predicates/MinMaxBounds$Ints;", cancellable = true)
@@ -73,10 +73,10 @@ public class Ints1259475787Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "matchesSqr(J)Z", cancellable = true)
-    private void matchesSqr__1820647172(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1820647172L))
-            info.setReturnValue(true);
+    @Inject(at = @At("HEAD"), method = "fromReader(Lcom/mojang/brigadier/StringReader;)Lnet/minecraft/advancements/predicates/MinMaxBounds$Ints;", cancellable = true)
+    private static void fromReader__1623237285(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1623237285L))
+            info.setReturnValue(null);
     }
 
 

@@ -22,13 +22,7 @@ public class DamageType_650220713Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_688483454(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(688483454L))
-            info.setReturnValue(-1144931772);
-    }
-
-    @Inject(at = @At("HEAD"), method = "msgId()Ljava/lang/String;", cancellable = true)
-    private void msgId__485239759(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-485239759L))
-            info.setReturnValue("諃p亟F<ml 툹顴[Rg$xzHQ'<9S꾜t螅`DYBT+);ne-\"|PX");
+            info.setReturnValue(-1262768772);
     }
 
     @Inject(at = @At("HEAD"), method = "scaling()Lnet/minecraft/world/damagesource/DamageScaling;", cancellable = true)
@@ -37,10 +31,10 @@ public class DamageType_650220713Mixin {
             info.setReturnValue(net.minecraft.world.damagesource.DamageScaling.NEVER);
     }
 
-    @Inject(at = @At("HEAD"), method = "effects()Lnet/minecraft/world/damagesource/DamageEffects;", cancellable = true)
-    private void effects_870204503(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(870204503L))
-            info.setReturnValue(net.minecraft.world.damagesource.DamageEffects.FREEZING);
+    @Inject(at = @At("HEAD"), method = "msgId()Ljava/lang/String;", cancellable = true)
+    private void msgId__485239759(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-485239759L))
+            info.setReturnValue("諃p亟F<ml 툹顴[Rg$xzHQ'<9S꾜t螅`DYBT+);ne-\"|PX");
     }
 
     @Inject(at = @At("HEAD"), method = "deathMessageType()Lnet/minecraft/world/damagesource/DeathMessageType;", cancellable = true)
@@ -49,10 +43,16 @@ public class DamageType_650220713Mixin {
             info.setReturnValue(net.minecraft.world.damagesource.DeathMessageType.FALL_VARIANTS);
     }
 
+    @Inject(at = @At("HEAD"), method = "effects()Lnet/minecraft/world/damagesource/DamageEffects;", cancellable = true)
+    private void effects_870204503(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(870204503L))
+            info.setReturnValue(net.minecraft.world.damagesource.DamageEffects.FREEZING);
+    }
+
     @Inject(at = @At("HEAD"), method = "exhaustion()F", cancellable = true)
     private void exhaustion_688480075(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(688480075L))
-            info.setReturnValue(3.496627E8F);
+            info.setReturnValue(2.308268E8F);
     }
 
 

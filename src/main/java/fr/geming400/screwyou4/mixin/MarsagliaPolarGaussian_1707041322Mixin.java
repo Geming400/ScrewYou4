@@ -16,7 +16,7 @@ public class MarsagliaPolarGaussian_1707041322Mixin {
     @Inject(at = @At("HEAD"), method = "nextGaussian()D", cancellable = true)
     private void nextGaussian_1745298762(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1745298762L))
-            info.setReturnValue(5.770971000356053E8D);
+            info.setReturnValue(1.6858720003560528E8D);
     }
 
 

@@ -13,16 +13,16 @@ public class ScaffoldingBlock_9921467Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getDistance(Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I", cancellable = true)
-    private static void getDistance__567623599(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-567623599L))
-            info.setReturnValue(177387608);
-    }
-
     @Inject(at = @At("HEAD"), method = "getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
     private void getStateForPlacement__1248678301(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1248678301L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getDistance(Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I", cancellable = true)
+    private static void getDistance__567623599(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-567623599L))
+            info.setReturnValue(-367530892);
     }
 
 

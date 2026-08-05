@@ -22,7 +22,7 @@ public class Rotation1925326290Mixin {
     @Inject(at = @At("HEAD"), method = "rotate(II)I", cancellable = true)
     private void rotate_929434328(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(929434328L))
-            info.setReturnValue(-666583511);
+            info.setReturnValue(-271807111);
     }
 
     @Inject(at = @At("HEAD"), method = "rotate(Lnet/minecraft/core/Direction;)Lnet/minecraft/core/Direction;", cancellable = true)
@@ -49,16 +49,16 @@ public class Rotation1925326290Mixin {
             info.setReturnValue("k3RKrFrE6D&J﹛$2ndW䂸䏥\\"IH,a4樜x7n'KwRqO9gzi@ꋫ[颙cw+ CJ`8iDC1#qEJ\"ᘘ<ik9U$j>_;ᎹKve(O:3[DDf奨X5E{J3y");
     }
 
-    @Inject(at = @At("HEAD"), method = "getRotated(Lnet/minecraft/world/level/block/Rotation;)Lnet/minecraft/world/level/block/Rotation;", cancellable = true)
-    private void getRotated_1597706737(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1597706737L))
-            info.setReturnValue(net.minecraft.world.level.block.Rotation.COUNTERCLOCKWISE_90);
-    }
-
     @Inject(at = @At("HEAD"), method = "getShuffled(Lnet/minecraft/util/RandomSource;)Ljava/util/List;", cancellable = true)
     private static void getShuffled_1881809754(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1881809754L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getRotated(Lnet/minecraft/world/level/block/Rotation;)Lnet/minecraft/world/level/block/Rotation;", cancellable = true)
+    private void getRotated_1597706737(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1597706737L))
+            info.setReturnValue(net.minecraft.world.level.block.Rotation.COUNTERCLOCKWISE_90);
     }
 
 

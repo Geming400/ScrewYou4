@@ -25,10 +25,10 @@ public class ColumnPosArgument1925412589Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "columnPos()Lnet/minecraft/commands/arguments/coordinates/ColumnPosArgument;", cancellable = true)
-    private static void columnPos__1754510120(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1754510120L))
-            info.setReturnValue(new net.minecraft.commands.arguments.coordinates.ColumnPosArgument());
+    @Inject(at = @At("HEAD"), method = "getExamples()Ljava/util/Collection;", cancellable = true)
+    private void getExamples_111764317(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(111764317L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "listSuggestions(Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
@@ -37,10 +37,10 @@ public class ColumnPosArgument1925412589Mixin {
             info.setReturnValue(new java.util.concurrent.CompletableFuture());
     }
 
-    @Inject(at = @At("HEAD"), method = "getExamples()Ljava/util/Collection;", cancellable = true)
-    private void getExamples_111764317(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(111764317L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "columnPos()Lnet/minecraft/commands/arguments/coordinates/ColumnPosArgument;", cancellable = true)
+    private static void columnPos__1754510120(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1754510120L))
+            info.setReturnValue(new net.minecraft.commands.arguments.coordinates.ColumnPosArgument());
     }
 
 

@@ -22,7 +22,7 @@ public class CustomData812580889Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_850843135(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(850843135L))
-            info.setReturnValue(-1392694299);
+            info.setReturnValue(2077609697);
     }
 
     @Inject(at = @At("HEAD"), method = "update(Ljava/util/function/Consumer;)Lnet/minecraft/world/item/component/CustomData;", cancellable = true)

@@ -16,7 +16,7 @@ public class EntitySectionStorage_388592239Mixin {
     @Inject(at = @At("HEAD"), method = "count()I", cancellable = true)
     private void count_426854484(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(426854484L))
-            info.setReturnValue(-2130617918);
+            info.setReturnValue(-1872830918);
     }
 
     @Inject(at = @At("HEAD"), method = "getEntities(Lnet/minecraft/world/level/entity/EntityTypeTest;Lnet/minecraft/world/phys/AABB;Lnet/minecraft/util/AbortableIterationConsumer;)V", cancellable = true)
@@ -29,6 +29,18 @@ public class EntitySectionStorage_388592239Mixin {
     private void getEntities__2040164949(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-2040164949L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getOrCreateSection(J)Lnet/minecraft/world/level/entity/EntitySection;", cancellable = true)
+    private void getOrCreateSection__615067248(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-615067248L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getExistingSectionsInChunk(J)Ljava/util/stream/Stream;", cancellable = true)
+    private void getExistingSectionsInChunk__1573815075(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1573815075L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getSection(J)Lnet/minecraft/world/level/entity/EntitySection;", cancellable = true)
@@ -52,18 +64,6 @@ public class EntitySectionStorage_388592239Mixin {
     @Inject(at = @At("HEAD"), method = "getExistingSectionPositionsInChunk(J)Ljava/util/stream/LongStream;", cancellable = true)
     private void getExistingSectionPositionsInChunk__1151764799(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1151764799L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getOrCreateSection(J)Lnet/minecraft/world/level/entity/EntitySection;", cancellable = true)
-    private void getOrCreateSection__615067248(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-615067248L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getExistingSectionsInChunk(J)Ljava/util/stream/Stream;", cancellable = true)
-    private void getExistingSectionsInChunk__1573815075(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1573815075L))
             info.setReturnValue(null);
     }
 

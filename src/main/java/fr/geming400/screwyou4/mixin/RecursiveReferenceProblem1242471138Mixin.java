@@ -22,7 +22,7 @@ public class RecursiveReferenceProblem1242471138Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1280733880(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1280733880L))
-            info.setReturnValue(711868824);
+            info.setReturnValue(801461024);
     }
 
     @Inject(at = @At("HEAD"), method = "description()Ljava/lang/String;", cancellable = true)

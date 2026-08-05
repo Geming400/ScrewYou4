@@ -43,22 +43,22 @@ public class IntegerProperty1133365Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "generateHashCode()I", cancellable = true)
-    private void generateHashCode_39395611(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(39395611L))
-            info.setReturnValue(1765617733);
+    @Inject(at = @At("HEAD"), method = "getInternalIndex(Ljava/lang/Integer;)I", cancellable = true)
+    private void getInternalIndex_1011677000(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1011677000L))
+            info.setReturnValue(2051770634);
     }
 
     @Inject(at = @At("HEAD"), method = "getInternalIndex(Ljava/lang/Comparable;)I", cancellable = true)
     private void getInternalIndex__1249874500(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1249874500L))
-            info.setReturnValue(18945637);
+            info.setReturnValue(-57688863);
     }
 
-    @Inject(at = @At("HEAD"), method = "getInternalIndex(Ljava/lang/Integer;)I", cancellable = true)
-    private void getInternalIndex_1011677000(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1011677000L))
-            info.setReturnValue(2128405134);
+    @Inject(at = @At("HEAD"), method = "generateHashCode()I", cancellable = true)
+    private void generateHashCode_39395611(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(39395611L))
+            info.setReturnValue(1688983233);
     }
 
 

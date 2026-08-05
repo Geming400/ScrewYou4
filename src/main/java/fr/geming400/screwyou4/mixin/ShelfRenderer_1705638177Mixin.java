@@ -31,16 +31,16 @@ public class ShelfRenderer_1705638177Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/blockentity/state/BlockEntityRenderState;", cancellable = true)
-    private void createRenderState__1455356694(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1455356694L))
-            info.setReturnValue(new net.minecraft.client.renderer.blockentity.state.BlockEntityRenderState());
-    }
-
     @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/blockentity/state/ShelfRenderState;", cancellable = true)
     private void createRenderState_1516811268(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1516811268L))
             info.setReturnValue(new net.minecraft.client.renderer.blockentity.state.ShelfRenderState());
+    }
+
+    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/blockentity/state/BlockEntityRenderState;", cancellable = true)
+    private void createRenderState__1455356694(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1455356694L))
+            info.setReturnValue(new net.minecraft.client.renderer.blockentity.state.BlockEntityRenderState());
     }
 
 

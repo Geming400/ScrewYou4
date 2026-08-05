@@ -10,7 +10,7 @@ public class IdMapper_6812280Mixin {
         @Inject(at = @At("HEAD"), method = "size()I", cancellable = true)
     private void size_45074525(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(45074525L))
-            info.setReturnValue(-1952721935);
+            info.setReturnValue(-1861416835);
     }
 
     @Inject(at = @At("HEAD"), method = "add(Ljava/lang/Object;)V", cancellable = true)
@@ -34,7 +34,7 @@ public class IdMapper_6812280Mixin {
     @Inject(at = @At("HEAD"), method = "getId(Ljava/lang/Object;)I", cancellable = true)
     private void getId_1392307705(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1392307705L))
-            info.setReturnValue(1329106243);
+            info.setReturnValue(1420411343);
     }
 
     @Inject(at = @At("HEAD"), method = "byId(I)Ljava/lang/Object;", cancellable = true)

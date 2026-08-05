@@ -28,7 +28,7 @@ public class ConversionParams1894912856Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1933175598(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1933175598L))
-            info.setReturnValue(2118465096);
+            info.setReturnValue(-2122586200);
     }
 
     @Inject(at = @At("HEAD"), method = "single(Lnet/minecraft/world/entity/Mob;ZZ)Lnet/minecraft/world/entity/ConversionParams;", cancellable = true)

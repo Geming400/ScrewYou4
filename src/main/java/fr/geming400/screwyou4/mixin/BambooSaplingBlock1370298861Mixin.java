@@ -19,16 +19,16 @@ public class BambooSaplingBlock1370298861Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "isBonemealSuccess(Lnet/minecraft/world/level/Level;Lnet/minecraft/util/RandomSource;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Z", cancellable = true)
-    private void isBonemealSuccess__602614282(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-602614282L))
-            info.setReturnValue(true);
-    }
-
     @Inject(at = @At("HEAD"), method = "performBonemeal(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/util/RandomSource;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)V", cancellable = true)
     private void performBonemeal__772667692(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-772667692L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "isBonemealSuccess(Lnet/minecraft/world/level/Level;Lnet/minecraft/util/RandomSource;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Z", cancellable = true)
+    private void isBonemealSuccess__602614282(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-602614282L))
+            info.setReturnValue(true);
     }
 
 

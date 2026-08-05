@@ -37,16 +37,16 @@ public class Context_109700206Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "setBlock(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)V", cancellable = true)
-    private void setBlock_1885957923(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1885957923L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "leaves()Lit/unimi/dsi/fastutil/objects/ObjectArrayList;", cancellable = true)
     private void leaves_2073989577(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2073989577L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "setBlock(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)V", cancellable = true)
+    private void setBlock_1885957923(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1885957923L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "isAir(Lnet/minecraft/core/BlockPos;)Z", cancellable = true)

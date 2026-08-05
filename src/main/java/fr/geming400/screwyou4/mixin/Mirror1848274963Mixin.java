@@ -52,7 +52,7 @@ public class Mirror1848274963Mixin {
     @Inject(at = @At("HEAD"), method = "mirror(II)I", cancellable = true)
     private void mirror_852383001(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(852383001L))
-            info.setReturnValue(-1330511664);
+            info.setReturnValue(-1395681164);
     }
 
 

@@ -22,7 +22,7 @@ public class EntityHasScoreCondition_1623264702Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1661527443(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1661527443L))
-            info.setReturnValue(363610583);
+            info.setReturnValue(542805383);
     }
 
     @Inject(at = @At("HEAD"), method = "test(Lnet/minecraft/world/level/storage/loot/LootContext;)Z", cancellable = true)

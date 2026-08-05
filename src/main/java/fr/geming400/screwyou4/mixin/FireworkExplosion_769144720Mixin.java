@@ -22,7 +22,7 @@ public class FireworkExplosion_769144720Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_807407461(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(807407461L))
-            info.setReturnValue(-221915336);
+            info.setReturnValue(-489660136);
     }
 
     @Inject(at = @At("HEAD"), method = "shape()Lnet/minecraft/world/item/component/FireworkExplosion$Shape;", cancellable = true)
@@ -49,6 +49,12 @@ public class FireworkExplosion_769144720Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "hasTwinkle()Z", cancellable = true)
+    private void hasTwinkle_807423302(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(807423302L))
+            info.setReturnValue(false);
+    }
+
     @Inject(at = @At("HEAD"), method = "fadeColors()Lit/unimi/dsi/fastutil/ints/IntList;", cancellable = true)
     private void fadeColors_1699635814(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1699635814L))
@@ -57,12 +63,6 @@ public class FireworkExplosion_769144720Mixin {
 
     @Inject(at = @At("HEAD"), method = "hasTrail()Z", cancellable = true)
     private void hasTrail_807423302(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(807423302L))
-            info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "hasTwinkle()Z", cancellable = true)
-    private void hasTwinkle_807423302(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(807423302L))
             info.setReturnValue(false);
     }

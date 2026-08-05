@@ -13,14 +13,14 @@ public class Ray_480670534Mixin {
             info.setReturnValue("坮WU8J;뙙裸I|e?떵v3g(lKnty<HUWiN琚<nY");
     }
 
-    @Inject(at = @At("HEAD"), method = "getHeight()Ljava/util/OptionalInt;", cancellable = true)
-    private void getHeight__1689901254(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "getFloor()Ljava/util/OptionalInt;", cancellable = true)
+    private void getFloor__1689901254(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1689901254L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getFloor()Ljava/util/OptionalInt;", cancellable = true)
-    private void getFloor__1689901254(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "getHeight()Ljava/util/OptionalInt;", cancellable = true)
+    private void getHeight__1689901254(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1689901254L))
             info.setReturnValue(null);
     }

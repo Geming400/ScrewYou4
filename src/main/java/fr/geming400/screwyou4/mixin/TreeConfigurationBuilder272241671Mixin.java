@@ -19,15 +19,15 @@ public class TreeConfigurationBuilder272241671Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "ignoreVines()Lnet/minecraft/world/level/levelgen/feature/configurations/TreeConfiguration$TreeConfigurationBuilder;", cancellable = true)
-    private void ignoreVines__1543486892(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1543486892L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "belowTrunkProvider(Lnet/minecraft/world/level/levelgen/feature/stateproviders/BlockStateProvider;)Lnet/minecraft/world/level/levelgen/feature/configurations/TreeConfiguration$TreeConfigurationBuilder;", cancellable = true)
     private void belowTrunkProvider_346611480(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(346611480L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "ignoreVines()Lnet/minecraft/world/level/levelgen/feature/configurations/TreeConfiguration$TreeConfigurationBuilder;", cancellable = true)
+    private void ignoreVines__1543486892(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1543486892L))
             info.setReturnValue(null);
     }
 

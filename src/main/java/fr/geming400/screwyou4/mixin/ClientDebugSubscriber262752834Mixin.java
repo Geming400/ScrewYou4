@@ -19,15 +19,15 @@ public class ClientDebugSubscriber262752834Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "dropEntity(Lnet/minecraft/world/entity/Entity;)V", cancellable = true)
-    private void dropEntity__188971826(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-188971826L))
+    @Inject(at = @At("HEAD"), method = "dropChunk(Lnet/minecraft/world/level/ChunkPos;)V", cancellable = true)
+    private void dropChunk_1777635041(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1777635041L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "dropLevel()V", cancellable = true)
-    private void dropLevel_301027573(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(301027573L))
+    @Inject(at = @At("HEAD"), method = "dropEntity(Lnet/minecraft/world/entity/Entity;)V", cancellable = true)
+    private void dropEntity__188971826(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-188971826L))
             info.cancel();
     }
 
@@ -37,21 +37,9 @@ public class ClientDebugSubscriber262752834Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "updateChunk(JLnet/minecraft/world/level/ChunkPos;Lnet/minecraft/util/debug/DebugSubscription$Update;)V", cancellable = true)
-    private void updateChunk__462650988(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-462650988L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "updateEntity(JLnet/minecraft/world/entity/Entity;Lnet/minecraft/util/debug/DebugSubscription$Update;)V", cancellable = true)
-    private void updateEntity_1095788603(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1095788603L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "dropChunk(Lnet/minecraft/world/level/ChunkPos;)V", cancellable = true)
-    private void dropChunk_1777635041(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1777635041L))
+    @Inject(at = @At("HEAD"), method = "dropLevel()V", cancellable = true)
+    private void dropLevel_301027573(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(301027573L))
             info.cancel();
     }
 
@@ -65,6 +53,18 @@ public class ClientDebugSubscriber262752834Mixin {
     private void createDebugValueAccess__993891234(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-993891234L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "updateEntity(JLnet/minecraft/world/entity/Entity;Lnet/minecraft/util/debug/DebugSubscription$Update;)V", cancellable = true)
+    private void updateEntity_1095788603(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1095788603L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "updateChunk(JLnet/minecraft/world/level/ChunkPos;Lnet/minecraft/util/debug/DebugSubscription$Update;)V", cancellable = true)
+    private void updateChunk__462650988(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-462650988L))
+            info.cancel();
     }
 
 

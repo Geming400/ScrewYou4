@@ -19,9 +19,9 @@ public class EmptyBlockGetter_808322499Mixin {
             info.setReturnValue(net.minecraft.world.level.EmptyBlockGetter.INSTANCE);
     }
 
-    @Inject(at = @At("HEAD"), method = "getBlockState(Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
-    private void getBlockState_1206948444(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1206948444L))
+    @Inject(at = @At("HEAD"), method = "getFluidState(Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/material/FluidState;", cancellable = true)
+    private void getFluidState__2040468025(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2040468025L))
             info.setReturnValue(null);
     }
 
@@ -31,22 +31,22 @@ public class EmptyBlockGetter_808322499Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getFluidState(Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/material/FluidState;", cancellable = true)
-    private void getFluidState__2040468025(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2040468025L))
+    @Inject(at = @At("HEAD"), method = "getMinY()I", cancellable = true)
+    private void getMinY_846584744(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(846584744L))
+            info.setReturnValue(-1479650970);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getBlockState(Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
+    private void getBlockState_1206948444(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1206948444L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getHeight()I", cancellable = true)
     private void getHeight_846584744(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(846584744L))
-            info.setReturnValue(-1402125270);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getMinY()I", cancellable = true)
-    private void getMinY_846584744(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(846584744L))
-            info.setReturnValue(-1402125270);
+            info.setReturnValue(-1479650970);
     }
 
 

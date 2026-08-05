@@ -16,7 +16,7 @@ public class UseOnContext1541881971Mixin {
     @Inject(at = @At("HEAD"), method = "getRotation()F", cancellable = true)
     private void getRotation_1580141334(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1580141334L))
-            info.setReturnValue(5.034991E8F);
+            info.setReturnValue(7.617006E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "getClickedPos()Lnet/minecraft/core/BlockPos;", cancellable = true)
@@ -31,12 +31,6 @@ public class UseOnContext1541881971Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "isSecondaryUseActive()Z", cancellable = true)
-    private void isSecondaryUseActive_1580160554(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1580160554L))
-            info.setReturnValue(true);
-    }
-
     @Inject(at = @At("HEAD"), method = "getPlayer()Lnet/minecraft/world/entity/player/Player;", cancellable = true)
     private void getPlayer_494795693(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(494795693L))
@@ -49,16 +43,10 @@ public class UseOnContext1541881971Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "getHand()Lnet/minecraft/world/InteractionHand;", cancellable = true)
-    private void getHand__1899096601(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1899096601L))
-            info.setReturnValue(net.minecraft.world.InteractionHand.OFF_HAND);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getHorizontalDirection()Lnet/minecraft/core/Direction;", cancellable = true)
-    private void getHorizontalDirection_779026686(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(779026686L))
-            info.setReturnValue(net.minecraft.core.Direction.WEST);
+    @Inject(at = @At("HEAD"), method = "isSecondaryUseActive()Z", cancellable = true)
+    private void isSecondaryUseActive_1580160554(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1580160554L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "getClickedFace()Lnet/minecraft/core/Direction;", cancellable = true)
@@ -71,6 +59,18 @@ public class UseOnContext1541881971Mixin {
     private void getClickLocation__1655355796(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1655355796L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getHorizontalDirection()Lnet/minecraft/core/Direction;", cancellable = true)
+    private void getHorizontalDirection_779026686(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(779026686L))
+            info.setReturnValue(net.minecraft.core.Direction.WEST);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getHand()Lnet/minecraft/world/InteractionHand;", cancellable = true)
+    private void getHand__1899096601(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1899096601L))
+            info.setReturnValue(net.minecraft.world.InteractionHand.OFF_HAND);
     }
 
 

@@ -22,7 +22,7 @@ public class Message1321535249Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1359797991(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1359797991L))
-            info.setReturnValue(993372300);
+            info.setReturnValue(1017458900);
     }
 
     @Inject(at = @At("HEAD"), method = "parts()[Lnet/minecraft/commands/arguments/MessageArgument$Part;", cancellable = true)

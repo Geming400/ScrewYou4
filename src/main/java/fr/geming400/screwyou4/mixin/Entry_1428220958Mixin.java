@@ -13,12 +13,6 @@ public class Entry_1428220958Mixin {
             info.setReturnValue(net.minecraft.client.multiplayer.chat.report.ReportReason.HATE_SPEECH);
     }
 
-    @Inject(at = @At("HEAD"), method = "mouseClicked(Lnet/minecraft/client/input/MouseButtonEvent;Z)Z", cancellable = true)
-    private void mouseClicked__186437921(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-186437921L))
-            info.setReturnValue(false);
-    }
-
     @Inject(at = @At("HEAD"), method = "extractContent(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIZF)V", cancellable = true)
     private void extractContent__1955071279(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1955071279L))
@@ -29,6 +23,12 @@ public class Entry_1428220958Mixin {
     private void getNarration__748688208(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-748688208L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "mouseClicked(Lnet/minecraft/client/input/MouseButtonEvent;Z)Z", cancellable = true)
+    private void mouseClicked__186437921(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-186437921L))
+            info.setReturnValue(false);
     }
 
 

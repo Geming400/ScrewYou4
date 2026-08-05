@@ -22,35 +22,23 @@ public class TicketType1475987342Mixin {
     @Inject(at = @At("HEAD"), method = "flags()I", cancellable = true)
     private void flags_1514249588(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1514249588L))
-            info.setReturnValue(1122946249);
+            info.setReturnValue(822871849);
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1514250084(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1514250084L))
-            info.setReturnValue(919798830);
+            info.setReturnValue(619724430);
     }
 
     @Inject(at = @At("HEAD"), method = "timeout()J", cancellable = true)
     private void timeout_1514250549(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1514250549L))
-            info.setReturnValue(-1161575759973798319L);
+            info.setReturnValue(-1161575760273872719L);
     }
 
-    @Inject(at = @At("HEAD"), method = "doesSimulate()Z", cancellable = true)
-    private void doesSimulate_1514265925(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1514265925L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "shouldKeepDimensionActive()Z", cancellable = true)
-    private void shouldKeepDimensionActive_1514265925(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1514265925L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "canExpireIfUnloaded()Z", cancellable = true)
-    private void canExpireIfUnloaded_1514265925(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "hasTimeout()Z", cancellable = true)
+    private void hasTimeout_1514265925(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1514265925L))
             info.setReturnValue(true);
     }
@@ -67,8 +55,20 @@ public class TicketType1475987342Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "hasTimeout()Z", cancellable = true)
-    private void hasTimeout_1514265925(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "canExpireIfUnloaded()Z", cancellable = true)
+    private void canExpireIfUnloaded_1514265925(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1514265925L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "shouldKeepDimensionActive()Z", cancellable = true)
+    private void shouldKeepDimensionActive_1514265925(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1514265925L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "doesSimulate()Z", cancellable = true)
+    private void doesSimulate_1514265925(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1514265925L))
             info.setReturnValue(true);
     }

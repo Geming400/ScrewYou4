@@ -22,7 +22,7 @@ public class ActualItem1783819096Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1822081838(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1822081838L))
-            info.setReturnValue(-373155284);
+            info.setReturnValue(-47528884);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/network/HashedPatchMap$HashGenerator;)Z", cancellable = true)
@@ -34,7 +34,7 @@ public class ActualItem1783819096Mixin {
     @Inject(at = @At("HEAD"), method = "count()I", cancellable = true)
     private void count_1822081342(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1822081342L))
-            info.setReturnValue(-170007865);
+            info.setReturnValue(155618535);
     }
 
     @Inject(at = @At("HEAD"), method = "item()Lnet/minecraft/core/Holder;", cancellable = true)

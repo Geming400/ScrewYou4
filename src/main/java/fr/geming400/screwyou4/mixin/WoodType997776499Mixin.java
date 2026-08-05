@@ -34,7 +34,7 @@ public class WoodType997776499Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1036039241(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1036039241L))
-            info.setReturnValue(-759421141);
+            info.setReturnValue(-412346941);
     }
 
     @Inject(at = @At("HEAD"), method = "setType()Lnet/minecraft/world/level/block/state/properties/BlockSetType;", cancellable = true)
@@ -55,14 +55,14 @@ public class WoodType997776499Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "fenceGateClose()Lnet/minecraft/sounds/SoundEvent;", cancellable = true)
-    private void fenceGateClose_2087989397(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "fenceGateOpen()Lnet/minecraft/sounds/SoundEvent;", cancellable = true)
+    private void fenceGateOpen_2087989397(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2087989397L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "fenceGateOpen()Lnet/minecraft/sounds/SoundEvent;", cancellable = true)
-    private void fenceGateOpen_2087989397(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "fenceGateClose()Lnet/minecraft/sounds/SoundEvent;", cancellable = true)
+    private void fenceGateClose_2087989397(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2087989397L))
             info.setReturnValue(null);
     }

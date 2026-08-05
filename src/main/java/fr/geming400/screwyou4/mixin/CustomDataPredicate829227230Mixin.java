@@ -28,7 +28,7 @@ public class CustomDataPredicate829227230Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_867489972(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(867489972L))
-            info.setReturnValue(137861157);
+            info.setReturnValue(86440757);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/core/component/DataComponentGetter;)Z", cancellable = true)

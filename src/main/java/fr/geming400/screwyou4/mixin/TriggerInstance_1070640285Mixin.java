@@ -22,7 +22,7 @@ public class TriggerInstance_1070640285Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1108903026(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1108903026L))
-            info.setReturnValue(-1119518715);
+            info.setReturnValue(-1245310615);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/world/level/storage/loot/LootContext;Ljava/util/List;)Z", cancellable = true)
@@ -49,14 +49,14 @@ public class TriggerInstance_1070640285Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "bystander()Ljava/util/Optional;", cancellable = true)
-    private void bystander_1316101706(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "lightning()Ljava/util/Optional;", cancellable = true)
+    private void lightning_1316101706(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1316101706L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "lightning()Ljava/util/Optional;", cancellable = true)
-    private void lightning_1316101706(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "bystander()Ljava/util/Optional;", cancellable = true)
+    private void bystander_1316101706(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1316101706L))
             info.setReturnValue(null);
     }

@@ -22,7 +22,7 @@ public class QuadCollection_308236015Mixin {
     @Inject(at = @At("HEAD"), method = "materialFlags()I", cancellable = true)
     private void materialFlags_346498260(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(346498260L))
-            info.setReturnValue(1062497580);
+            info.setReturnValue(981678680);
     }
 
     @Inject(at = @At("HEAD"), method = "getQuads(Lnet/minecraft/core/Direction;)Ljava/util/List;", cancellable = true)

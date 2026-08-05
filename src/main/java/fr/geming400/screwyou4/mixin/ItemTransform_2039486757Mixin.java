@@ -22,7 +22,7 @@ public class ItemTransform_2039486757Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2077749498(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2077749498L))
-            info.setReturnValue(1248365528);
+            info.setReturnValue(1152876228);
     }
 
     @Inject(at = @At("HEAD"), method = "scale()Lorg/joml/Vector3fc;", cancellable = true)
@@ -37,14 +37,14 @@ public class ItemTransform_2039486757Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "rotation()Lorg/joml/Vector3fc;", cancellable = true)
-    private void rotation__1709535835(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "translation()Lorg/joml/Vector3fc;", cancellable = true)
+    private void translation__1709535835(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1709535835L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "translation()Lorg/joml/Vector3fc;", cancellable = true)
-    private void translation__1709535835(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "rotation()Lorg/joml/Vector3fc;", cancellable = true)
+    private void rotation__1709535835(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1709535835L))
             info.setReturnValue(null);
     }

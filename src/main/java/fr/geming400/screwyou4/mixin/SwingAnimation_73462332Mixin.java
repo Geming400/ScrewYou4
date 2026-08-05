@@ -28,13 +28,13 @@ public class SwingAnimation_73462332Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_111725073(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(111725073L))
-            info.setReturnValue(-1412897070);
+            info.setReturnValue(-1404360870);
     }
 
     @Inject(at = @At("HEAD"), method = "duration()I", cancellable = true)
     private void duration_111724577(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(111724577L))
-            info.setReturnValue(-1234373581);
+            info.setReturnValue(-1225837381);
     }
 
 

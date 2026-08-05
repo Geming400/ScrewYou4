@@ -13,10 +13,10 @@ public class StorageDataAccessor1153058718Mixin {
             info.setReturnValue(new net.minecraft.nbt.CompoundTag());
     }
 
-    @Inject(at = @At("HEAD"), method = "getModifiedSuccess()Lnet/minecraft/network/chat/Component;", cancellable = true)
-    private void getModifiedSuccess__1023850447(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1023850447L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "setData(Lnet/minecraft/nbt/CompoundTag;)V", cancellable = true)
+    private void setData_1713966940(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1713966940L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "getPrintSuccess(Lnet/minecraft/commands/arguments/NbtPathArgument$NbtPath;DI)Lnet/minecraft/network/chat/Component;", cancellable = true)
@@ -31,10 +31,10 @@ public class StorageDataAccessor1153058718Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "setData(Lnet/minecraft/nbt/CompoundTag;)V", cancellable = true)
-    private void setData_1713966940(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1713966940L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "getModifiedSuccess()Lnet/minecraft/network/chat/Component;", cancellable = true)
+    private void getModifiedSuccess__1023850447(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1023850447L))
+            info.setReturnValue(null);
     }
 
 

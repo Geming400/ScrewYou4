@@ -37,10 +37,10 @@ public class Tooltip_1240521259Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "updateNarration(Lnet/minecraft/client/gui/narration/NarrationElementOutput;)V", cancellable = true)
-    private void updateNarration__1792786552(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1792786552L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "toCharSequence(Lnet/minecraft/client/Minecraft;)Ljava/util/List;", cancellable = true)
+    private void toCharSequence__584168152(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-584168152L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "splitTooltip(Lnet/minecraft/client/Minecraft;Lnet/minecraft/network/chat/Component;)Ljava/util/List;", cancellable = true)
@@ -49,10 +49,10 @@ public class Tooltip_1240521259Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "toCharSequence(Lnet/minecraft/client/Minecraft;)Ljava/util/List;", cancellable = true)
-    private void toCharSequence__584168152(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-584168152L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "updateNarration(Lnet/minecraft/client/gui/narration/NarrationElementOutput;)V", cancellable = true)
+    private void updateNarration__1792786552(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1792786552L))
+            info.cancel();
     }
 
 

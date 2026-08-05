@@ -22,7 +22,7 @@ public class AttributeModifier607456821Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_645719563(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(645719563L))
-            info.setReturnValue(-1687798745);
+            info.setReturnValue(-1935962845);
     }
 
     @Inject(at = @At("HEAD"), method = "id()Lnet/minecraft/resources/Identifier;", cancellable = true)
@@ -40,7 +40,7 @@ public class AttributeModifier607456821Mixin {
     @Inject(at = @At("HEAD"), method = "amount()D", cancellable = true)
     private void amount_645714262(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(645714262L))
-            info.setReturnValue(8.799653006595991E8D);
+            info.setReturnValue(6.318012006595991E8D);
     }
 
     @Inject(at = @At("HEAD"), method = "operation()Lnet/minecraft/world/entity/ai/attributes/AttributeModifier$Operation;", cancellable = true)

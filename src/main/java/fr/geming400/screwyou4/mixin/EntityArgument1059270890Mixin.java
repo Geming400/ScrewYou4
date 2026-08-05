@@ -61,22 +61,16 @@ public class EntityArgument1059270890Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getOptionalEntities(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Ljava/util/Collection;", cancellable = true)
-    private static void getOptionalEntities__1413730802(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1413730802L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getOptionalPlayers(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Ljava/util/Collection;", cancellable = true)
     private static void getOptionalPlayers__1413730802(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1413730802L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "listSuggestions(Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
-    private void listSuggestions_1300194332(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1300194332L))
-            info.setReturnValue(new java.util.concurrent.CompletableFuture());
+    @Inject(at = @At("HEAD"), method = "getOptionalEntities(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Ljava/util/Collection;", cancellable = true)
+    private static void getOptionalEntities__1413730802(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1413730802L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getExamples()Ljava/util/Collection;", cancellable = true)
@@ -85,10 +79,10 @@ public class EntityArgument1059270890Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "players()Lnet/minecraft/commands/arguments/EntityArgument;", cancellable = true)
-    private static void players__567372550(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-567372550L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "listSuggestions(Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
+    private void listSuggestions_1300194332(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1300194332L))
+            info.setReturnValue(new java.util.concurrent.CompletableFuture());
     }
 
     @Inject(at = @At("HEAD"), method = "getPlayer(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/server/level/ServerPlayer;", cancellable = true)
@@ -100,6 +94,12 @@ public class EntityArgument1059270890Mixin {
     @Inject(at = @At("HEAD"), method = "getPlayers(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Ljava/util/Collection;", cancellable = true)
     private static void getPlayers__1413730802(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1413730802L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "players()Lnet/minecraft/commands/arguments/EntityArgument;", cancellable = true)
+    private static void players__567372550(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-567372550L))
             info.setReturnValue(null);
     }
 

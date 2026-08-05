@@ -22,7 +22,7 @@ public class ItemTransforms_1310740794Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1349003535(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1349003535L))
-            info.setReturnValue(-1014765646);
+            info.setReturnValue(-1012204046);
     }
 
     @Inject(at = @At("HEAD"), method = "fixed()Lnet/minecraft/client/resources/model/cuboid/ItemTransform;", cancellable = true)
@@ -49,14 +49,20 @@ public class ItemTransforms_1310740794Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "gui()Lnet/minecraft/client/resources/model/cuboid/ItemTransform;", cancellable = true)
-    private void gui_496663321(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "thirdPersonLeftHand()Lnet/minecraft/client/resources/model/cuboid/ItemTransform;", cancellable = true)
+    private void thirdPersonLeftHand_496663321(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(496663321L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "thirdPersonLeftHand()Lnet/minecraft/client/resources/model/cuboid/ItemTransform;", cancellable = true)
-    private void thirdPersonLeftHand_496663321(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "thirdPersonRightHand()Lnet/minecraft/client/resources/model/cuboid/ItemTransform;", cancellable = true)
+    private void thirdPersonRightHand_496663321(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(496663321L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "firstPersonLeftHand()Lnet/minecraft/client/resources/model/cuboid/ItemTransform;", cancellable = true)
+    private void firstPersonLeftHand_496663321(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(496663321L))
             info.setReturnValue(null);
     }
@@ -73,14 +79,8 @@ public class ItemTransforms_1310740794Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "thirdPersonRightHand()Lnet/minecraft/client/resources/model/cuboid/ItemTransform;", cancellable = true)
-    private void thirdPersonRightHand_496663321(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(496663321L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "firstPersonLeftHand()Lnet/minecraft/client/resources/model/cuboid/ItemTransform;", cancellable = true)
-    private void firstPersonLeftHand_496663321(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "gui()Lnet/minecraft/client/resources/model/cuboid/ItemTransform;", cancellable = true)
+    private void gui_496663321(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(496663321L))
             info.setReturnValue(null);
     }

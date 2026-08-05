@@ -22,7 +22,7 @@ public class Grammar_1579078775Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1617341516(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1617341516L))
-            info.setReturnValue(1620849711);
+            info.setReturnValue(1812110311);
     }
 
     @Inject(at = @At("HEAD"), method = "parse(Lnet/minecraft/util/parsing/packrat/ParseState;)Ljava/util/Optional;", cancellable = true)
@@ -43,16 +43,16 @@ public class Grammar_1579078775Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "parseForSuggestions(Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
-    private void parseForSuggestions_1769520418(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1769520418L))
-            info.setReturnValue(new java.util.concurrent.CompletableFuture());
-    }
-
     @Inject(at = @At("HEAD"), method = "parseForCommands(Lcom/mojang/brigadier/StringReader;)Ljava/lang/Object;", cancellable = true)
     private void parseForCommands_1285568071(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1285568071L))
             info.setReturnValue(new java.lang.Object());
+    }
+
+    @Inject(at = @At("HEAD"), method = "parseForSuggestions(Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
+    private void parseForSuggestions_1769520418(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1769520418L))
+            info.setReturnValue(new java.util.concurrent.CompletableFuture());
     }
 
 

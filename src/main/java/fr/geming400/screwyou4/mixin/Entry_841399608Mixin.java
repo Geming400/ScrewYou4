@@ -34,7 +34,7 @@ public class Entry_841399608Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_879662349(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(879662349L))
-            info.setReturnValue(227936231);
+            info.setReturnValue(300915031);
     }
 
     @Inject(at = @At("HEAD"), method = "write(Lnet/minecraft/network/FriendlyByteBuf;)V", cancellable = true)

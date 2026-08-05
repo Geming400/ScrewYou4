@@ -7,21 +7,15 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.util.datafix.ExtraDataFixUtils.class)
 public class ExtraDataFixUtils378117896Mixin {
-        @Inject(at = @At("HEAD"), method = "cast(Lcom/mojang/datafixers/types/Type;Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;", cancellable = true)
-    private static void cast__2146161033(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2146161033L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "cast(Lcom/mojang/datafixers/types/Type;Ljava/lang/Object;Lcom/mojang/serialization/DynamicOps;)Lcom/mojang/datafixers/Typed;", cancellable = true)
+        @Inject(at = @At("HEAD"), method = "cast(Lcom/mojang/datafixers/types/Type;Ljava/lang/Object;Lcom/mojang/serialization/DynamicOps;)Lcom/mojang/datafixers/Typed;", cancellable = true)
     private static void cast_904043615(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(904043615L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "fixBlockPos(Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;", cancellable = true)
-    private static void fixBlockPos__2009731521(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2009731521L))
+    @Inject(at = @At("HEAD"), method = "cast(Lcom/mojang/datafixers/types/Type;Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;", cancellable = true)
+    private static void cast__2146161033(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2146161033L))
             info.setReturnValue(null);
     }
 
@@ -34,18 +28,6 @@ public class ExtraDataFixUtils378117896Mixin {
     @Inject(at = @At("HEAD"), method = "blockState(Ljava/lang/String;Ljava/util/Map;)Lcom/mojang/serialization/Dynamic;", cancellable = true)
     private static void blockState_1178952940(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1178952940L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "patchSubType(Lcom/mojang/datafixers/types/Type;Lcom/mojang/datafixers/types/Type;Lcom/mojang/datafixers/types/Type;)Lcom/mojang/datafixers/types/Type;", cancellable = true)
-    private static void patchSubType__2626549(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2626549L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "chainAllFilters([Ljava/util/function/Function;)Ljava/util/function/Function;", cancellable = true)
-    private static void chainAllFilters__1650373358(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1650373358L))
             info.setReturnValue(null);
     }
 
@@ -73,9 +55,27 @@ public class ExtraDataFixUtils378117896Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "fixBlockPos(Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;", cancellable = true)
+    private static void fixBlockPos__2009731521(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2009731521L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "chainAllFilters([Ljava/util/function/Function;)Ljava/util/function/Function;", cancellable = true)
+    private static void chainAllFilters__1650373358(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1650373358L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "readAndSet(Lcom/mojang/datafixers/Typed;Lcom/mojang/datafixers/OpticFinder;Lcom/mojang/serialization/Dynamic;)Lcom/mojang/datafixers/Typed;", cancellable = true)
     private static void readAndSet_611564756(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(611564756L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "patchSubType(Lcom/mojang/datafixers/types/Type;Lcom/mojang/datafixers/types/Type;Lcom/mojang/datafixers/types/Type;)Lcom/mojang/datafixers/types/Type;", cancellable = true)
+    private static void patchSubType__2626549(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2626549L))
             info.setReturnValue(null);
     }
 

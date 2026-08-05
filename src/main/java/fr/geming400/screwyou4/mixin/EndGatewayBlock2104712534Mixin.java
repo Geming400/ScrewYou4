@@ -19,15 +19,15 @@ public class EndGatewayBlock2104712534Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getPortalDestination(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/Entity;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/portal/TeleportTransition;", cancellable = true)
-    private void getPortalDestination__1353931105(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1353931105L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getTicker(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/entity/BlockEntityType;)Lnet/minecraft/world/level/block/entity/BlockEntityTicker;", cancellable = true)
     private void getTicker_151245191(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(151245191L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getPortalDestination(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/Entity;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/portal/TeleportTransition;", cancellable = true)
+    private void getPortalDestination__1353931105(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1353931105L))
             info.setReturnValue(null);
     }
 

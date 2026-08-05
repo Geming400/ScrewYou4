@@ -22,13 +22,13 @@ public class GuiBannerResultRenderState_248608293Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_286871034(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(286871034L))
-            info.setReturnValue(1486732591);
+            info.setReturnValue(1514583591);
     }
 
     @Inject(at = @At("HEAD"), method = "scale()F", cancellable = true)
     private void scale_286867655(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(286867655L))
-            info.setReturnValue(3.48222E7F);
+            info.setReturnValue(6.26732E7F);
     }
 
     @Inject(at = @At("HEAD"), method = "bounds()Lnet/minecraft/client/gui/navigation/ScreenRectangle;", cancellable = true)
@@ -46,25 +46,25 @@ public class GuiBannerResultRenderState_248608293Mixin {
     @Inject(at = @At("HEAD"), method = "x1()I", cancellable = true)
     private void x1_286870538(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(286870538L))
-            info.setReturnValue(1369768926);
+            info.setReturnValue(1397619926);
     }
 
     @Inject(at = @At("HEAD"), method = "y1()I", cancellable = true)
     private void y1_286870538(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(286870538L))
-            info.setReturnValue(1369768926);
+            info.setReturnValue(1397619926);
     }
 
     @Inject(at = @At("HEAD"), method = "x0()I", cancellable = true)
     private void x0_286870538(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(286870538L))
-            info.setReturnValue(1369768926);
+            info.setReturnValue(1397619926);
     }
 
     @Inject(at = @At("HEAD"), method = "y0()I", cancellable = true)
     private void y0_286870538(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(286870538L))
-            info.setReturnValue(1369768926);
+            info.setReturnValue(1397619926);
     }
 
     @Inject(at = @At("HEAD"), method = "baseColor()Lnet/minecraft/world/item/DyeColor;", cancellable = true)

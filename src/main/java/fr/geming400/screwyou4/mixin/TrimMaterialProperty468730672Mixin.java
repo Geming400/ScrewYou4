@@ -40,7 +40,7 @@ public class TrimMaterialProperty468730672Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_506993414(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(506993414L))
-            info.setReturnValue(-1667371030);
+            info.setReturnValue(-875414930);
     }
 
     @Inject(at = @At("HEAD"), method = "valueCodec()Lcom/mojang/serialization/Codec;", cancellable = true)

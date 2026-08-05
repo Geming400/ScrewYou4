@@ -22,7 +22,7 @@ public class AtlasConfig_462235383Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_500498124(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(500498124L))
-            info.setReturnValue(1958695243);
+            info.setReturnValue(1762219543);
     }
 
     @Inject(at = @At("HEAD"), method = "textureId()Lnet/minecraft/resources/Identifier;", cancellable = true)

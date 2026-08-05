@@ -34,7 +34,7 @@ public class Broken_1996106053Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2034368794(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2034368794L))
-            info.setReturnValue(-479613583);
+            info.setReturnValue(-5241083);
     }
 
 

@@ -37,16 +37,16 @@ public class CreakingHeartBlock_475810515Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "newBlockEntity(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/entity/BlockEntity;", cancellable = true)
-    private void newBlockEntity__1109667141(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1109667141L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "hasRequiredLogs(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/LevelReader;Lnet/minecraft/core/BlockPos;)Z", cancellable = true)
     private static void hasRequiredLogs_1851429016(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1851429016L))
             info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "newBlockEntity(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/entity/BlockEntity;", cancellable = true)
+    private void newBlockEntity__1109667141(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1109667141L))
+            info.setReturnValue(null);
     }
 
 

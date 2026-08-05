@@ -19,12 +19,6 @@ public class FogRenderer1946761139Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "toggleFog()Z", cancellable = true)
-    private static void toggleFog_1985039970(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1985039970L))
-            info.setReturnValue(false);
-    }
-
     @Inject(at = @At("HEAD"), method = "endFrame()V", cancellable = true)
     private void endFrame_1985035878(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1985035878L))
@@ -41,6 +35,12 @@ public class FogRenderer1946761139Mixin {
     private void setupFog_1041545117(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1041545117L))
             info.setReturnValue(new net.minecraft.client.renderer.fog.FogData());
+    }
+
+    @Inject(at = @At("HEAD"), method = "toggleFog()Z", cancellable = true)
+    private static void toggleFog_1985039970(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1985039970L))
+            info.setReturnValue(false);
     }
 
 

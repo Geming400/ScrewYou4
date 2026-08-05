@@ -19,14 +19,14 @@ public class RandomStandGoal_1598716072Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "canContinueToUse()Z", cancellable = true)
-    private void canContinueToUse_1636994654(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "requiresUpdateEveryTick()Z", cancellable = true)
+    private void requiresUpdateEveryTick_1636994654(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1636994654L))
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "requiresUpdateEveryTick()Z", cancellable = true)
-    private void requiresUpdateEveryTick_1636994654(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "canContinueToUse()Z", cancellable = true)
+    private void canContinueToUse_1636994654(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1636994654L))
             info.setReturnValue(false);
     }

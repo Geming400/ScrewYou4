@@ -22,7 +22,7 @@ public class ArmorStandPose_1930902561Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1969165302(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1969165302L))
-            info.setReturnValue(1072427992);
+            info.setReturnValue(1838970792);
     }
 
     @Inject(at = @At("HEAD"), method = "head()Lnet/minecraft/core/Rotations;", cancellable = true)
@@ -37,12 +37,6 @@ public class ArmorStandPose_1930902561Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "rightLeg()Lnet/minecraft/core/Rotations;", cancellable = true)
-    private void rightLeg_1886654389(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1886654389L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "leftArm()Lnet/minecraft/core/Rotations;", cancellable = true)
     private void leftArm_1886654389(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1886654389L))
@@ -51,6 +45,12 @@ public class ArmorStandPose_1930902561Mixin {
 
     @Inject(at = @At("HEAD"), method = "rightArm()Lnet/minecraft/core/Rotations;", cancellable = true)
     private void rightArm_1886654389(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1886654389L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "rightLeg()Lnet/minecraft/core/Rotations;", cancellable = true)
+    private void rightLeg_1886654389(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1886654389L))
             info.setReturnValue(null);
     }

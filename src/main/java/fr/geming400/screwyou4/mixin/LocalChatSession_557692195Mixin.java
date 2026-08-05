@@ -22,7 +22,7 @@ public class LocalChatSession_557692195Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_595954936(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(595954936L))
-            info.setReturnValue(-2089275644);
+            info.setReturnValue(-1933535744);
     }
 
     @Inject(at = @At("HEAD"), method = "create(Lnet/minecraft/world/entity/player/ProfileKeyPair;)Lnet/minecraft/network/chat/LocalChatSession;", cancellable = true)
@@ -43,15 +43,15 @@ public class LocalChatSession_557692195Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "asRemote()Lnet/minecraft/network/chat/RemoteChatSession;", cancellable = true)
-    private void asRemote_1747913178(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1747913178L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "createMessageEncoder(Ljava/util/UUID;)Lnet/minecraft/network/chat/SignedMessageChain$Encoder;", cancellable = true)
     private void createMessageEncoder__212729654(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-212729654L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "asRemote()Lnet/minecraft/network/chat/RemoteChatSession;", cancellable = true)
+    private void asRemote_1747913178(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1747913178L))
             info.setReturnValue(null);
     }
 

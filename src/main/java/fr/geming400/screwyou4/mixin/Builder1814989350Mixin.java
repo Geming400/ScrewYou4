@@ -13,15 +13,15 @@ public class Builder1814989350Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "alwaysEdible()Lnet/minecraft/world/food/FoodProperties$Builder;", cancellable = true)
-    private void alwaysEdible_1518681378(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1518681378L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "saturationModifier(F)Lnet/minecraft/world/food/FoodProperties$Builder;", cancellable = true)
     private void saturationModifier__72232168(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-72232168L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "alwaysEdible()Lnet/minecraft/world/food/FoodProperties$Builder;", cancellable = true)
+    private void alwaysEdible_1518681378(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1518681378L))
             info.setReturnValue(null);
     }
 

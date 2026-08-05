@@ -22,13 +22,13 @@ public class Keyframe_247562236Mixin {
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
     private void toString__887897740(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-887897740L))
-            info.setReturnValue("=LͿS봙8鸦㍒/||wfH枸hT퐶.n8[<>Vm\");
+            info.setReturnValue("=LͿS봙8鸦㍒/||wfH枸hT퐶.n8[<>Vm\"");
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_285824977(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(285824977L))
-            info.setReturnValue(-1726542333);
+            info.setReturnValue(-1149865033);
     }
 
     @Inject(at = @At("HEAD"), method = "codec(Lcom/mojang/serialization/Codec;)Lcom/mojang/serialization/Codec;", cancellable = true)
@@ -40,7 +40,7 @@ public class Keyframe_247562236Mixin {
     @Inject(at = @At("HEAD"), method = "ticks()I", cancellable = true)
     private void ticks_285824481(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(285824481L))
-            info.setReturnValue(-1548018843);
+            info.setReturnValue(-971341543);
     }
 
 

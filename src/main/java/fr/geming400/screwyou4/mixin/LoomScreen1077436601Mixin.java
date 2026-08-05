@@ -19,15 +19,15 @@ public class LoomScreen1077436601Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "mouseDragged(Lnet/minecraft/client/input/MouseButtonEvent;DD)Z", cancellable = true)
-    private void mouseDragged_1955444751(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1955444751L))
-            info.setReturnValue(false);
-    }
-
     @Inject(at = @At("HEAD"), method = "mouseClicked(Lnet/minecraft/client/input/MouseButtonEvent;Z)Z", cancellable = true)
     private void mouseClicked__537222277(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-537222277L))
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "mouseDragged(Lnet/minecraft/client/input/MouseButtonEvent;DD)Z", cancellable = true)
+    private void mouseDragged_1955444751(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1955444751L))
             info.setReturnValue(false);
     }
 

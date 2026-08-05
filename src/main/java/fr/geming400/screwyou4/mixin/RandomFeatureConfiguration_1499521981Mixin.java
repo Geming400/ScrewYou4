@@ -22,7 +22,7 @@ public class RandomFeatureConfiguration_1499521981Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1537784722(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1537784722L))
-            info.setReturnValue(89508355);
+            info.setReturnValue(412711455);
     }
 
     @Inject(at = @At("HEAD"), method = "features()Ljava/util/List;", cancellable = true)
@@ -31,15 +31,15 @@ public class RandomFeatureConfiguration_1499521981Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getSubFeatures()Ljava/util/stream/Stream;", cancellable = true)
-    private void getSubFeatures_1288815665(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1288815665L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "defaultFeature()Lnet/minecraft/core/Holder;", cancellable = true)
     private void defaultFeature__1246569544(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1246569544L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getSubFeatures()Ljava/util/stream/Stream;", cancellable = true)
+    private void getSubFeatures_1288815665(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1288815665L))
             info.setReturnValue(null);
     }
 

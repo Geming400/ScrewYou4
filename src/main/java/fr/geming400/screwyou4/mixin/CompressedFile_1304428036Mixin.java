@@ -22,7 +22,7 @@ public class CompressedFile_1304428036Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1342690777(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1342690777L))
-            info.setReturnValue(-308815756);
+            info.setReturnValue(-339325756);
     }
 
     @Inject(at = @At("HEAD"), method = "compress()Lnet/minecraft/util/eventlog/EventLogDirectory$CompressedFile;", cancellable = true)

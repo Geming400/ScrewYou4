@@ -22,7 +22,7 @@ public class Parameters41054467Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_79317209(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(79317209L))
-            info.setReturnValue(1049497830);
+            info.setReturnValue(1237237330);
     }
 
     @Inject(at = @At("HEAD"), method = "options()B", cancellable = true)
@@ -43,8 +43,8 @@ public class Parameters41054467Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "playerSuffix()Lnet/minecraft/network/chat/Component;", cancellable = true)
-    private void playerSuffix__2135854698(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "playerPrefix()Lnet/minecraft/network/chat/Component;", cancellable = true)
+    private void playerPrefix__2135854698(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2135854698L))
             info.setReturnValue(null);
     }
@@ -55,8 +55,8 @@ public class Parameters41054467Mixin {
             info.setReturnValue(net.minecraft.world.scores.Team.Visibility.HIDE_FOR_OWN_TEAM);
     }
 
-    @Inject(at = @At("HEAD"), method = "playerPrefix()Lnet/minecraft/network/chat/Component;", cancellable = true)
-    private void playerPrefix__2135854698(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "playerSuffix()Lnet/minecraft/network/chat/Component;", cancellable = true)
+    private void playerSuffix__2135854698(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2135854698L))
             info.setReturnValue(null);
     }

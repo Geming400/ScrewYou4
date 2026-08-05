@@ -22,7 +22,7 @@ public class TrimMaterial_1678550967Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1716813708(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1716813708L))
-            info.setReturnValue(-1646971355);
+            info.setReturnValue(-1945115255);
     }
 
     @Inject(at = @At("HEAD"), method = "description()Lnet/minecraft/network/chat/Component;", cancellable = true)

@@ -19,16 +19,16 @@ public class TallFlowerBlock476197879Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "isBonemealSuccess(Lnet/minecraft/world/level/Level;Lnet/minecraft/util/RandomSource;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Z", cancellable = true)
-    private void isBonemealSuccess__1496715264(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1496715264L))
-            info.setReturnValue(false);
-    }
-
     @Inject(at = @At("HEAD"), method = "performBonemeal(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/util/RandomSource;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)V", cancellable = true)
     private void performBonemeal__1666768674(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1666768674L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "isBonemealSuccess(Lnet/minecraft/world/level/Level;Lnet/minecraft/util/RandomSource;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Z", cancellable = true)
+    private void isBonemealSuccess__1496715264(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1496715264L))
+            info.setReturnValue(false);
     }
 
 

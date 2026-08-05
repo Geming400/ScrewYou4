@@ -10,7 +10,13 @@ public class TransientEntitySectionManager_148278809Mixin {
         @Inject(at = @At("HEAD"), method = "count()I", cancellable = true)
     private void count_186541054(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(186541054L))
-            info.setReturnValue(-2067055144);
+            info.setReturnValue(2057253352);
+    }
+
+    @Inject(at = @At("HEAD"), method = "addEntity(Lnet/minecraft/world/level/entity/EntityAccess;)V", cancellable = true)
+    private void addEntity_1397669259(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1397669259L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "gatherStats()Ljava/lang/String;", cancellable = true)
@@ -23,12 +29,6 @@ public class TransientEntitySectionManager_148278809Mixin {
     private void getEntityGetter__852967164(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-852967164L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "addEntity(Lnet/minecraft/world/level/entity/EntityAccess;)V", cancellable = true)
-    private void addEntity_1397669259(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1397669259L))
-            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "startTicking(Lnet/minecraft/world/level/ChunkPos;)V", cancellable = true)

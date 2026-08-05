@@ -22,37 +22,37 @@ public class AdvancementTabType_811172303Mixin {
     @Inject(at = @At("HEAD"), method = "getY(I)I", cancellable = true)
     private void getY_2025076781(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2025076781L))
-            info.setReturnValue(-196934284);
+            info.setReturnValue(-4192884);
     }
 
     @Inject(at = @At("HEAD"), method = "getX(I)I", cancellable = true)
     private void getX_2025076781(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2025076781L))
-            info.setReturnValue(-196934284);
+            info.setReturnValue(-4192884);
     }
 
     @Inject(at = @At("HEAD"), method = "getMax()I", cancellable = true)
     private void getMax_849434548(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(849434548L))
-            info.setReturnValue(577340377);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isMouseOver(IIIDD)Z", cancellable = true)
-    private void isMouseOver__804275938(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-804275938L))
-            info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getHeight()I", cancellable = true)
-    private void getHeight_849434548(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(849434548L))
-            info.setReturnValue(577340377);
+            info.setReturnValue(770081777);
     }
 
     @Inject(at = @At("HEAD"), method = "getWidth()I", cancellable = true)
     private void getWidth_849434548(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(849434548L))
-            info.setReturnValue(577340377);
+            info.setReturnValue(770081777);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getHeight()I", cancellable = true)
+    private void getHeight_849434548(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(849434548L))
+            info.setReturnValue(770081777);
+    }
+
+    @Inject(at = @At("HEAD"), method = "extractIcon(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIILnet/minecraft/world/item/ItemStack;)V", cancellable = true)
+    private void extractIcon_438549930(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(438549930L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIZI)V", cancellable = true)
@@ -61,10 +61,10 @@ public class AdvancementTabType_811172303Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "extractIcon(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIILnet/minecraft/world/item/ItemStack;)V", cancellable = true)
-    private void extractIcon_438549930(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(438549930L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "isMouseOver(IIIDD)Z", cancellable = true)
+    private void isMouseOver__804275938(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-804275938L))
+            info.setReturnValue(false);
     }
 
 

@@ -34,7 +34,7 @@ public class ClientboundRotateHeadPacket1794756232Mixin {
     @Inject(at = @At("HEAD"), method = "getYHeadRot()F", cancellable = true)
     private void getYHeadRot_1833015595(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1833015595L))
-            info.setReturnValue(2.615603E8F);
+            info.setReturnValue(1.779519E8F);
     }
 
 

@@ -10,7 +10,7 @@ public class IdenticalMerger295850593Mixin {
         @Inject(at = @At("HEAD"), method = "size()I", cancellable = true)
     private void size_334112839(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(334112839L))
-            info.setReturnValue(1052864107);
+            info.setReturnValue(1458289107);
     }
 
     @Inject(at = @At("HEAD"), method = "getList()Lit/unimi/dsi/fastutil/doubles/DoubleList;", cancellable = true)

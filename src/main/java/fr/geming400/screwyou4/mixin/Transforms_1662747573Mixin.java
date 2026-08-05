@@ -22,25 +22,25 @@ public class Transforms_1662747573Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1701010314(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1701010314L))
-            info.setReturnValue(-1720146863);
-    }
-
-    @Inject(at = @At("HEAD"), method = "horizontalScale()F", cancellable = true)
-    private void horizontalScale_1701006935(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1701006935L))
-            info.setReturnValue(7.350683E8F);
-    }
-
-    @Inject(at = @At("HEAD"), method = "yOffset()F", cancellable = true)
-    private void yOffset_1701006935(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1701006935L))
-            info.setReturnValue(7.350683E8F);
+            info.setReturnValue(-1576393163);
     }
 
     @Inject(at = @At("HEAD"), method = "skullYOffset()F", cancellable = true)
     private void skullYOffset_1701006935(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1701006935L))
-            info.setReturnValue(7.350683E8F);
+            info.setReturnValue(8.78822E8F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "yOffset()F", cancellable = true)
+    private void yOffset_1701006935(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1701006935L))
+            info.setReturnValue(8.78822E8F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "horizontalScale()F", cancellable = true)
+    private void horizontalScale_1701006935(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1701006935L))
+            info.setReturnValue(8.78822E8F);
     }
 
 

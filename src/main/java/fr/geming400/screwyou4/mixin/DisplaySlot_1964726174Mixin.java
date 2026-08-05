@@ -22,7 +22,7 @@ public class DisplaySlot_1964726174Mixin {
     @Inject(at = @At("HEAD"), method = "id()I", cancellable = true)
     private void id_2002988419(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2002988419L))
-            info.setReturnValue(830219289);
+            info.setReturnValue(559815789);
     }
 
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)

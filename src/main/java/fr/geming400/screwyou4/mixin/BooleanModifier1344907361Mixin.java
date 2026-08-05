@@ -31,15 +31,15 @@ public class BooleanModifier1344907361Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "argumentKeyframeLerp(Lnet/minecraft/world/attribute/EnvironmentAttribute;)Lnet/minecraft/world/attribute/LerpFunction;", cancellable = true)
-    private void argumentKeyframeLerp__1114862342(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1114862342L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "argumentCodec(Lnet/minecraft/world/attribute/EnvironmentAttribute;)Lcom/mojang/serialization/Codec;", cancellable = true)
     private void argumentCodec_1188989637(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1188989637L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "argumentKeyframeLerp(Lnet/minecraft/world/attribute/EnvironmentAttribute;)Lnet/minecraft/world/attribute/LerpFunction;", cancellable = true)
+    private void argumentKeyframeLerp__1114862342(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1114862342L))
             info.setReturnValue(null);
     }
 

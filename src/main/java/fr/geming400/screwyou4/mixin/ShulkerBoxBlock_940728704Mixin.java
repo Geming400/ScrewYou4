@@ -13,12 +13,6 @@ public class ShulkerBoxBlock_940728704Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getColor()Lnet/minecraft/world/item/DyeColor;", cancellable = true)
-    private void getColor__1918930363(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1918930363L))
-            info.setReturnValue(net.minecraft.world.item.DyeColor.BLACK);
-    }
-
     @Inject(at = @At("HEAD"), method = "getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
     private void getStateForPlacement__317871064(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-317871064L))
@@ -29,6 +23,12 @@ public class ShulkerBoxBlock_940728704Mixin {
     private void playerWillDestroy_218672542(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(218672542L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getColor()Lnet/minecraft/world/item/DyeColor;", cancellable = true)
+    private void getColor__1918930363(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1918930363L))
+            info.setReturnValue(net.minecraft.world.item.DyeColor.BLACK);
     }
 
     @Inject(at = @At("HEAD"), method = "getTicker(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/entity/BlockEntityType;)Lnet/minecraft/world/level/block/entity/BlockEntityTicker;", cancellable = true)

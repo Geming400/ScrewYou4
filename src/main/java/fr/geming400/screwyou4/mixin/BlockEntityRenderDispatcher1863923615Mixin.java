@@ -19,16 +19,16 @@ public class BlockEntityRenderDispatcher1863923615Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "onResourceManagerReload(Lnet/minecraft/server/packs/resources/ResourceManager;)V", cancellable = true)
-    private void onResourceManagerReload_1962945497(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1962945497L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "tryExtractRenderState(Lnet/minecraft/world/level/block/entity/BlockEntity;FLnet/minecraft/client/renderer/feature/ModelFeatureRenderer$CrumblingOverlay;Z)Lnet/minecraft/client/renderer/blockentity/state/BlockEntityRenderState;", cancellable = true)
     private void tryExtractRenderState__138581873(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-138581873L))
             info.setReturnValue(new net.minecraft.client.renderer.blockentity.state.BlockEntityRenderState());
+    }
+
+    @Inject(at = @At("HEAD"), method = "onResourceManagerReload(Lnet/minecraft/server/packs/resources/ResourceManager;)V", cancellable = true)
+    private void onResourceManagerReload_1962945497(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1962945497L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "getRenderer(Lnet/minecraft/world/level/block/entity/BlockEntity;)Lnet/minecraft/client/renderer/blockentity/BlockEntityRenderer;", cancellable = true)

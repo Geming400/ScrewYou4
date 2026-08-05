@@ -22,13 +22,13 @@ public class GuiProfilerChartRenderState429780931Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_468043673(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(468043673L))
-            info.setReturnValue(-1707139904);
+            info.setReturnValue(-1984300104);
     }
 
     @Inject(at = @At("HEAD"), method = "scale()F", cancellable = true)
     private void scale_468040294(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(468040294L))
-            info.setReturnValue(7.908307E8F);
+            info.setReturnValue(5.136705E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "bounds()Lnet/minecraft/client/gui/navigation/ScreenRectangle;", cancellable = true)
@@ -40,25 +40,25 @@ public class GuiProfilerChartRenderState429780931Mixin {
     @Inject(at = @At("HEAD"), method = "x1()I", cancellable = true)
     private void x1_468043177(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(468043177L))
-            info.setReturnValue(-1528616414);
+            info.setReturnValue(-1805776614);
     }
 
     @Inject(at = @At("HEAD"), method = "y1()I", cancellable = true)
     private void y1_468043177(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(468043177L))
-            info.setReturnValue(-1528616414);
+            info.setReturnValue(-1805776614);
     }
 
     @Inject(at = @At("HEAD"), method = "x0()I", cancellable = true)
     private void x0_468043177(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(468043177L))
-            info.setReturnValue(-1528616414);
+            info.setReturnValue(-1805776614);
     }
 
     @Inject(at = @At("HEAD"), method = "y0()I", cancellable = true)
     private void y0_468043177(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(468043177L))
-            info.setReturnValue(-1528616414);
+            info.setReturnValue(-1805776614);
     }
 
     @Inject(at = @At("HEAD"), method = "scissorArea()Lnet/minecraft/client/gui/navigation/ScreenRectangle;", cancellable = true)

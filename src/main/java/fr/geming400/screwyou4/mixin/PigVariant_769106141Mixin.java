@@ -22,18 +22,12 @@ public class PigVariant_769106141Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_807368882(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(807368882L))
-            info.setReturnValue(220064966);
+            info.setReturnValue(304395466);
     }
 
     @Inject(at = @At("HEAD"), method = "spawnConditions()Lnet/minecraft/world/entity/variant/SpawnPrioritySelectors;", cancellable = true)
     private void spawnConditions__137555706(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-137555706L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "selectors()Ljava/util/List;", cancellable = true)
-    private void selectors__1899524340(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1899524340L))
             info.setReturnValue(null);
     }
 
@@ -46,6 +40,12 @@ public class PigVariant_769106141Mixin {
     @Inject(at = @At("HEAD"), method = "babyTexture()Lnet/minecraft/core/ClientAsset$ResourceTexture;", cancellable = true)
     private void babyTexture__483075080(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-483075080L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "selectors()Ljava/util/List;", cancellable = true)
+    private void selectors__1899524340(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1899524340L))
             info.setReturnValue(null);
     }
 

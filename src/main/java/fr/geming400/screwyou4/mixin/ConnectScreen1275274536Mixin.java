@@ -13,6 +13,12 @@ public class ConnectScreen1275274536Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "shouldCloseOnEsc()Z", cancellable = true)
+    private void shouldCloseOnEsc_1313553119(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1313553119L))
+            info.setReturnValue(false);
+    }
+
     @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIF)V", cancellable = true)
     private void extractRenderState_315587164(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(315587164L))
@@ -23,12 +29,6 @@ public class ConnectScreen1275274536Mixin {
     private static void startConnecting_1572784895(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1572784895L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "shouldCloseOnEsc()Z", cancellable = true)
-    private void shouldCloseOnEsc_1313553119(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1313553119L))
-            info.setReturnValue(false);
     }
 
 

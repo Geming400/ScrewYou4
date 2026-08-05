@@ -22,12 +22,18 @@ public class ChunkSectionsToRender744761230Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_783023972(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(783023972L))
-            info.setReturnValue(653621603);
+            info.setReturnValue(660199503);
     }
 
-    @Inject(at = @At("HEAD"), method = "textureView()Lcom/mojang/blaze3d/textures/GpuTextureView;", cancellable = true)
-    private void textureView__1655853380(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1655853380L))
+    @Inject(at = @At("HEAD"), method = "maxIndicesRequired()I", cancellable = true)
+    private void maxIndicesRequired_783023476(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(783023476L))
+            info.setReturnValue(863346922);
+    }
+
+    @Inject(at = @At("HEAD"), method = "drawGroupsPerLayer()Ljava/util/EnumMap;", cancellable = true)
+    private void drawGroupsPerLayer_1635001687(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1635001687L))
             info.setReturnValue(null);
     }
 
@@ -43,15 +49,9 @@ public class ChunkSectionsToRender744761230Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "maxIndicesRequired()I", cancellable = true)
-    private void maxIndicesRequired_783023476(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(783023476L))
-            info.setReturnValue(856769022);
-    }
-
-    @Inject(at = @At("HEAD"), method = "drawGroupsPerLayer()Ljava/util/EnumMap;", cancellable = true)
-    private void drawGroupsPerLayer_1635001687(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1635001687L))
+    @Inject(at = @At("HEAD"), method = "textureView()Lcom/mojang/blaze3d/textures/GpuTextureView;", cancellable = true)
+    private void textureView__1655853380(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1655853380L))
             info.setReturnValue(null);
     }
 

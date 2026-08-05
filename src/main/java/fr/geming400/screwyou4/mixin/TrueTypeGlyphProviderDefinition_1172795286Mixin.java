@@ -10,7 +10,7 @@ public class TrueTypeGlyphProviderDefinition_1172795286Mixin {
         @Inject(at = @At("HEAD"), method = "size()F", cancellable = true)
     private void size_1211054648(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1211054648L))
-            info.setReturnValue(4.546833E8F);
+            info.setReturnValue(3.1926E7F);
     }
 
     @Inject(at = @At("HEAD"), method = "type()Lnet/minecraft/client/gui/font/providers/GlyphProviderType;", cancellable = true)
@@ -34,7 +34,7 @@ public class TrueTypeGlyphProviderDefinition_1172795286Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1211058027(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1211058027L))
-            info.setReturnValue(-368540638);
+            info.setReturnValue(-791297938);
     }
 
     @Inject(at = @At("HEAD"), method = "location()Lnet/minecraft/resources/Identifier;", cancellable = true)
@@ -55,16 +55,16 @@ public class TrueTypeGlyphProviderDefinition_1172795286Mixin {
             info.setReturnValue(".TXC'=FE@Q^=_R^EJ鶾+藇Tdk");
     }
 
-    @Inject(at = @At("HEAD"), method = "oversample()F", cancellable = true)
-    private void oversample_1211054648(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1211054648L))
-            info.setReturnValue(4.546833E8F);
-    }
-
     @Inject(at = @At("HEAD"), method = "unpack()Lcom/mojang/datafixers/util/Either;", cancellable = true)
     private void unpack_1996070572(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1996070572L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "oversample()F", cancellable = true)
+    private void oversample_1211054648(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1211054648L))
+            info.setReturnValue(3.1926E7F);
     }
 
 

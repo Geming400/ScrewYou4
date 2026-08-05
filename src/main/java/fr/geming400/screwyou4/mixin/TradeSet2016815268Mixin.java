@@ -28,7 +28,7 @@ public class TradeSet2016815268Mixin {
     @Inject(at = @At("HEAD"), method = "calculateNumberOfTrades(Lnet/minecraft/world/level/storage/loot/LootContext;)I", cancellable = true)
     private void calculateNumberOfTrades__360150167(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-360150167L))
-            info.setReturnValue(1431160728);
+            info.setReturnValue(1654656528);
     }
 
 

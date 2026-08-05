@@ -28,7 +28,7 @@ public class ClientboundLoginFinishedPacket312330756Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_350593498(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(350593498L))
-            info.setReturnValue(-340181667);
+            info.setReturnValue(-310392667);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/protocol/login/ClientLoginPacketListener;)V", cancellable = true)

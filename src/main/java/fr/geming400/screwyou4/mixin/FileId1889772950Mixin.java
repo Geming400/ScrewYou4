@@ -10,7 +10,7 @@ public class FileId1889772950Mixin {
         @Inject(at = @At("HEAD"), method = "index()I", cancellable = true)
     private void index_1928035196(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1928035196L))
-            info.setReturnValue(1840605015);
+            info.setReturnValue(1749129815);
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
@@ -28,7 +28,7 @@ public class FileId1889772950Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1928035692(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1928035692L))
-            info.setReturnValue(1637457595);
+            info.setReturnValue(1545982395);
     }
 
     @Inject(at = @At("HEAD"), method = "parse(Ljava/lang/String;)Lnet/minecraft/util/eventlog/EventLogDirectory$FileId;", cancellable = true)

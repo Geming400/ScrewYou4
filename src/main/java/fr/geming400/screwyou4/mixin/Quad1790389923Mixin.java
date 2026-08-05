@@ -22,7 +22,7 @@ public class Quad1790389923Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1828652665(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1828652665L))
-            info.setReturnValue(426039472);
+            info.setReturnValue(151568572);
     }
 
     @Inject(at = @At("HEAD"), method = "b()Lnet/minecraft/world/phys/Vec3;", cancellable = true)
@@ -52,7 +52,7 @@ public class Quad1790389923Mixin {
     @Inject(at = @At("HEAD"), method = "color()I", cancellable = true)
     private void color_1828652169(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1828652169L))
-            info.setReturnValue(703058680);
+            info.setReturnValue(428587780);
     }
 
 

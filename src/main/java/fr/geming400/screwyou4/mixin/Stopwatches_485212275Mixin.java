@@ -34,7 +34,7 @@ public class Stopwatches_485212275Mixin {
     @Inject(at = @At("HEAD"), method = "currentTime()J", cancellable = true)
     private static void currentTime_523475729(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(523475729L))
-            info.setReturnValue(3091594930083087511L);
+            info.setReturnValue(3091594930042473611L);
     }
 
     @Inject(at = @At("HEAD"), method = "isDirty()Z", cancellable = true)

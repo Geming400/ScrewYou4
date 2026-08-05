@@ -67,15 +67,15 @@ public class ShapelessRecipeBuilder1159667291Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "shapeless(Lnet/minecraft/core/HolderGetter;Lnet/minecraft/data/recipes/RecipeCategory;Lnet/minecraft/world/item/ItemStackTemplate;)Lnet/minecraft/data/recipes/ShapelessRecipeBuilder;", cancellable = true)
-    private static void shapeless__1753819040(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1753819040L))
+    @Inject(at = @At("HEAD"), method = "defaultId()Lnet/minecraft/resources/ResourceKey;", cancellable = true)
+    private void defaultId_1968158604(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1968158604L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "shapeless(Lnet/minecraft/core/HolderGetter;Lnet/minecraft/data/recipes/RecipeCategory;Lnet/minecraft/world/level/ItemLike;)Lnet/minecraft/data/recipes/ShapelessRecipeBuilder;", cancellable = true)
-    private static void shapeless_2000757822(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2000757822L))
+    @Inject(at = @At("HEAD"), method = "shapeless(Lnet/minecraft/core/HolderGetter;Lnet/minecraft/data/recipes/RecipeCategory;Lnet/minecraft/world/item/ItemStackTemplate;)Lnet/minecraft/data/recipes/ShapelessRecipeBuilder;", cancellable = true)
+    private static void shapeless__1753819040(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1753819040L))
             info.setReturnValue(null);
     }
 
@@ -85,9 +85,9 @@ public class ShapelessRecipeBuilder1159667291Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "defaultId()Lnet/minecraft/resources/ResourceKey;", cancellable = true)
-    private void defaultId_1968158604(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1968158604L))
+    @Inject(at = @At("HEAD"), method = "shapeless(Lnet/minecraft/core/HolderGetter;Lnet/minecraft/data/recipes/RecipeCategory;Lnet/minecraft/world/level/ItemLike;)Lnet/minecraft/data/recipes/ShapelessRecipeBuilder;", cancellable = true)
+    private static void shapeless_2000757822(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2000757822L))
             info.setReturnValue(null);
     }
 

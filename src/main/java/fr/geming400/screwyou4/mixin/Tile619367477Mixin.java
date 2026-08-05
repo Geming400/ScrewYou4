@@ -28,19 +28,19 @@ public class Tile619367477Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_657630219(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(657630219L))
-            info.setReturnValue(-141327403);
+            info.setReturnValue(-887883803);
     }
 
     @Inject(at = @At("HEAD"), method = "width()I", cancellable = true)
     private void width_657629723(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(657629723L))
-            info.setReturnValue(61820017);
+            info.setReturnValue(-684736383);
     }
 
     @Inject(at = @At("HEAD"), method = "height()I", cancellable = true)
     private void height_657629723(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(657629723L))
-            info.setReturnValue(61820017);
+            info.setReturnValue(-684736383);
     }
 
 

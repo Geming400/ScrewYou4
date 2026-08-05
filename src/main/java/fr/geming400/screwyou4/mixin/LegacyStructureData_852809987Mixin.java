@@ -22,7 +22,7 @@ public class LegacyStructureData_852809987Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_891072728(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(891072728L))
-            info.setReturnValue(375923567);
+            info.setReturnValue(463845367);
     }
 
     @Inject(at = @At("HEAD"), method = "indexes()Ljava/util/Map;", cancellable = true)

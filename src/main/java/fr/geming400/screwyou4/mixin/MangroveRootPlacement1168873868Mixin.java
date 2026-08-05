@@ -22,12 +22,18 @@ public class MangroveRootPlacement1168873868Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1207136610(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1207136610L))
-            info.setReturnValue(-1331350330);
+            info.setReturnValue(-1395229230);
     }
 
-    @Inject(at = @At("HEAD"), method = "muddyRootsProvider()Lnet/minecraft/world/level/levelgen/feature/stateproviders/BlockStateProvider;", cancellable = true)
-    private void muddyRootsProvider__763832633(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-763832633L))
+    @Inject(at = @At("HEAD"), method = "maxRootLength()I", cancellable = true)
+    private void maxRootLength_1207136114(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1207136114L))
+            info.setReturnValue(1526953991);
+    }
+
+    @Inject(at = @At("HEAD"), method = "canGrowThrough()Lnet/minecraft/core/HolderSet;", cancellable = true)
+    private void canGrowThrough__1506140384(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1506140384L))
             info.setReturnValue(null);
     }
 
@@ -40,24 +46,18 @@ public class MangroveRootPlacement1168873868Mixin {
     @Inject(at = @At("HEAD"), method = "randomSkewChance()F", cancellable = true)
     private void randomSkewChance_1207133231(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1207133231L))
-            info.setReturnValue(6.254338E8F);
+            info.setReturnValue(5.615549E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "maxRootWidth()I", cancellable = true)
     private void maxRootWidth_1207136114(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1207136114L))
-            info.setReturnValue(1590832891);
+            info.setReturnValue(1526953991);
     }
 
-    @Inject(at = @At("HEAD"), method = "maxRootLength()I", cancellable = true)
-    private void maxRootLength_1207136114(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1207136114L))
-            info.setReturnValue(1590832891);
-    }
-
-    @Inject(at = @At("HEAD"), method = "canGrowThrough()Lnet/minecraft/core/HolderSet;", cancellable = true)
-    private void canGrowThrough__1506140384(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1506140384L))
+    @Inject(at = @At("HEAD"), method = "muddyRootsProvider()Lnet/minecraft/world/level/levelgen/feature/stateproviders/BlockStateProvider;", cancellable = true)
+    private void muddyRootsProvider__763832633(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-763832633L))
             info.setReturnValue(null);
     }
 

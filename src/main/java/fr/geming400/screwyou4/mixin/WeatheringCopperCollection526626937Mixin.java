@@ -22,7 +22,7 @@ public class WeatheringCopperCollection526626937Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_564889679(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(564889679L))
-            info.setReturnValue(-680678144);
+            info.setReturnValue(-651576644);
     }
 
     @Inject(at = @At("HEAD"), method = "apply(Ljava/util/function/Function;)Lnet/minecraft/world/level/block/WeatheringCopperCollection;", cancellable = true)
@@ -79,12 +79,6 @@ public class WeatheringCopperCollection526626937Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "registerBlocks(Lnet/minecraft/world/level/block/WeatheringCopperCollection;Lorg/apache/commons/lang3/function/TriFunction;Ljava/util/function/BiFunction;Ljava/util/function/BiFunction;Ljava/util/function/Function;)Lnet/minecraft/world/level/block/WeatheringCopperCollection;", cancellable = true)
-    private static void registerBlocks_2063966476(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2063966476L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "zipMap(Lnet/minecraft/world/level/block/WeatheringCopperCollection$ByState;Lnet/minecraft/world/level/block/WeatheringCopperCollection$ByState;Ljava/util/function/BiFunction;)Lnet/minecraft/world/level/block/WeatheringCopperCollection$ByState;", cancellable = true)
     private static void zipMap__879897743(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-879897743L))
@@ -97,16 +91,22 @@ public class WeatheringCopperCollection526626937Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "zipApply(Lnet/minecraft/world/level/block/WeatheringCopperCollection;Lnet/minecraft/world/level/block/WeatheringCopperCollection;Ljava/util/function/BiConsumer;)V", cancellable = true)
+    private static void zipApply__1708327633(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1708327633L))
+            info.cancel();
+    }
+
     @Inject(at = @At("HEAD"), method = "zipApply(Lnet/minecraft/world/level/block/WeatheringCopperCollection$ByState;Lnet/minecraft/world/level/block/WeatheringCopperCollection$ByState;Ljava/util/function/BiConsumer;)V", cancellable = true)
     private static void zipApply__184461925(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-184461925L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "zipApply(Lnet/minecraft/world/level/block/WeatheringCopperCollection;Lnet/minecraft/world/level/block/WeatheringCopperCollection;Ljava/util/function/BiConsumer;)V", cancellable = true)
-    private static void zipApply__1708327633(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1708327633L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "registerBlocks(Lnet/minecraft/world/level/block/WeatheringCopperCollection;Lorg/apache/commons/lang3/function/TriFunction;Ljava/util/function/BiFunction;Ljava/util/function/BiFunction;Ljava/util/function/Function;)Lnet/minecraft/world/level/block/WeatheringCopperCollection;", cancellable = true)
+    private static void registerBlocks_2063966476(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2063966476L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "prefixWithState(Lnet/minecraft/world/level/block/WeatheringCopperCollection;)Lnet/minecraft/world/level/block/WeatheringCopperCollection;", cancellable = true)

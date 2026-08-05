@@ -22,13 +22,13 @@ public class Properties1977586947Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2015849689(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2015849689L))
-            info.setReturnValue(842863687);
+            info.setReturnValue(745383487);
     }
 
     @Inject(at = @At("HEAD"), method = "swapAnimationScale()F", cancellable = true)
     private void swapAnimationScale_2015846310(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2015846310L))
-            info.setReturnValue(5.4593E8F);
+            info.setReturnValue(4.484498E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "handAnimationOnSwap()Z", cancellable = true)

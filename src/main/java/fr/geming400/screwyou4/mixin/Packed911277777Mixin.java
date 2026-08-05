@@ -28,13 +28,13 @@ public class Packed911277777Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_949540519(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(949540519L))
-            info.setReturnValue(-1658044546);
+            info.setReturnValue(-1639067946);
     }
 
     @Inject(at = @At("HEAD"), method = "baseValue()D", cancellable = true)
     private void baseValue_949535218(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(949535218L))
-            info.setReturnValue(6.080814002621291E8D);
+            info.setReturnValue(6.270580002621291E8D);
     }
 
     @Inject(at = @At("HEAD"), method = "attribute()Lnet/minecraft/core/Holder;", cancellable = true)

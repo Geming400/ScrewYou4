@@ -28,7 +28,7 @@ public class ServerState_361719609Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_399982350(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(399982350L))
-            info.setReturnValue(-282098210);
+            info.setReturnValue(99191090);
     }
 
     @Inject(at = @At("HEAD"), method = "started()Z", cancellable = true)

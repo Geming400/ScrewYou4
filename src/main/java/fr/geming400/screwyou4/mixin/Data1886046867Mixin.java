@@ -28,7 +28,7 @@ public class Data1886046867Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1924309609(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1924309609L))
-            info.setReturnValue(981131054);
+            info.setReturnValue(1200012654);
     }
 
     @Inject(at = @At("HEAD"), method = "test()Ljava/util/Optional;", cancellable = true)
@@ -49,16 +49,16 @@ public class Data1886046867Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "errorMessage()Ljava/util/Optional;", cancellable = true)
-    private void errorMessage_2131508289(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2131508289L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "rotation()Lnet/minecraft/world/level/block/Rotation;", cancellable = true)
     private void rotation_387725509(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(387725509L))
             info.setReturnValue(net.minecraft.world.level.block.Rotation.CLOCKWISE_180);
+    }
+
+    @Inject(at = @At("HEAD"), method = "errorMessage()Ljava/util/Optional;", cancellable = true)
+    private void errorMessage_2131508289(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2131508289L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "ignoreEntities()Z", cancellable = true)

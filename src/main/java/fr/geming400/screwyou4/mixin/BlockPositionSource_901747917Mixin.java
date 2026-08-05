@@ -22,7 +22,7 @@ public class BlockPositionSource_901747917Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_940010658(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(940010658L))
-            info.setReturnValue(804387080);
+            info.setReturnValue(1617200780);
     }
 
     @Inject(at = @At("HEAD"), method = "getType()Lnet/minecraft/world/level/gameevent/PositionSourceType;", cancellable = true)

@@ -22,13 +22,13 @@ public class LevelsSquared_333710464Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_371973205(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(371973205L))
-            info.setReturnValue(1311962546);
+            info.setReturnValue(1352057946);
     }
 
     @Inject(at = @At("HEAD"), method = "added()F", cancellable = true)
     private void added_371969826(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(371969826L))
-            info.setReturnValue(4.379932E8F);
+            info.setReturnValue(4.780886E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
@@ -40,7 +40,7 @@ public class LevelsSquared_333710464Mixin {
     @Inject(at = @At("HEAD"), method = "calculate(I)F", cancellable = true)
     private void calculate_1547612059(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1547612059L))
-            info.setReturnValue(4.379932E8F);
+            info.setReturnValue(4.780886E8F);
     }
 
 

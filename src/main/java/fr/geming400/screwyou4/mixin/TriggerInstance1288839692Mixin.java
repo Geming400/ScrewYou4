@@ -22,7 +22,7 @@ public class TriggerInstance1288839692Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1327102434(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1327102434L))
-            info.setReturnValue(-302561040);
+            info.setReturnValue(-417473440);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/item/ItemStack;I)Z", cancellable = true)
@@ -49,15 +49,15 @@ public class TriggerInstance1288839692Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "destroyedBeeNest(Lnet/minecraft/world/level/block/Block;Lnet/minecraft/advancements/predicates/ItemPredicate$Builder;Lnet/minecraft/advancements/predicates/MinMaxBounds$Ints;)Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
-    private static void destroyedBeeNest_97336085(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(97336085L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "beesInside()Lnet/minecraft/advancements/predicates/MinMaxBounds$Ints;", cancellable = true)
     private void beesInside_1137604634(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1137604634L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "destroyedBeeNest(Lnet/minecraft/world/level/block/Block;Lnet/minecraft/advancements/predicates/ItemPredicate$Builder;Lnet/minecraft/advancements/predicates/MinMaxBounds$Ints;)Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
+    private static void destroyedBeeNest_97336085(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(97336085L))
             info.setReturnValue(null);
     }
 

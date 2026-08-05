@@ -37,12 +37,6 @@ public class EnvironmentAttribute_900662309Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "sanitizeValue(Ljava/lang/Object;)Ljava/lang/Object;", cancellable = true)
-    private void sanitizeValue_912740259(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(912740259L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "isPositional()Z", cancellable = true)
     private void isPositional_938940891(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(938940891L))
@@ -53,6 +47,12 @@ public class EnvironmentAttribute_900662309Mixin {
     private void isSpatiallyInterpolated_938940891(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(938940891L))
             info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "sanitizeValue(Ljava/lang/Object;)Ljava/lang/Object;", cancellable = true)
+    private void sanitizeValue_912740259(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(912740259L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "isSyncable()Z", cancellable = true)

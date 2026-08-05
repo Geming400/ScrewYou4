@@ -22,7 +22,7 @@ public class AmbientParticle844810720Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_883073462(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(883073462L))
-            info.setReturnValue(-1609931973);
+            info.setReturnValue(-1254300473);
     }
 
     @Inject(at = @At("HEAD"), method = "of(Lnet/minecraft/core/particles/ParticleOptions;F)Ljava/util/List;", cancellable = true)
@@ -46,7 +46,7 @@ public class AmbientParticle844810720Mixin {
     @Inject(at = @At("HEAD"), method = "probability()F", cancellable = true)
     private void probability_883070083(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(883070083L))
-            info.setReturnValue(5.46661E7F);
+            info.setReturnValue(4.102976E8F);
     }
 
 

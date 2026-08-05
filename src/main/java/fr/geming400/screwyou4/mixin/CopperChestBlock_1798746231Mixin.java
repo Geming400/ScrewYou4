@@ -19,12 +19,6 @@ public class CopperChestBlock_1798746231Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getFromCopperBlock(Lnet/minecraft/world/level/block/Block;Lnet/minecraft/core/Direction;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
-    private static void getFromCopperBlock__205587997(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-205587997L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "shouldChangedStateKeepBlockEntity(Lnet/minecraft/world/level/block/state/BlockState;)Z", cancellable = true)
     private void shouldChangedStateKeepBlockEntity_1653457244(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1653457244L))
@@ -34,6 +28,12 @@ public class CopperChestBlock_1798746231Mixin {
     @Inject(at = @At("HEAD"), method = "getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
     private void getStateForPlacement_540146463(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(540146463L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getFromCopperBlock(Lnet/minecraft/world/level/block/Block;Lnet/minecraft/core/Direction;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
+    private static void getFromCopperBlock__205587997(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-205587997L))
             info.setReturnValue(null);
     }
 

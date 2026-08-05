@@ -28,13 +28,13 @@ public class ClientboundTeleportEntityPacket_69195989Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_107458730(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(107458730L))
-            info.setReturnValue(1974322846);
+            info.setReturnValue(-1943041450);
     }
 
     @Inject(at = @At("HEAD"), method = "id()I", cancellable = true)
     private void id_107458234(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(107458234L))
-            info.setReturnValue(601538771);
+            info.setReturnValue(979141771);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/protocol/game/ClientGamePacketListener;)V", cancellable = true)
@@ -55,10 +55,10 @@ public class ClientboundTeleportEntityPacket_69195989Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "teleport(ILnet/minecraft/world/entity/PositionMoveRotation;Ljava/util/Set;Z)Lnet/minecraft/network/protocol/game/ClientboundTeleportEntityPacket;", cancellable = true)
-    private static void teleport__2005165374(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2005165374L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "onGround()Z", cancellable = true)
+    private void onGround_107474571(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(107474571L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "relatives()Ljava/util/Set;", cancellable = true)
@@ -67,10 +67,10 @@ public class ClientboundTeleportEntityPacket_69195989Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "onGround()Z", cancellable = true)
-    private void onGround_107474571(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(107474571L))
-            info.setReturnValue(true);
+    @Inject(at = @At("HEAD"), method = "teleport(ILnet/minecraft/world/entity/PositionMoveRotation;Ljava/util/Set;Z)Lnet/minecraft/network/protocol/game/ClientboundTeleportEntityPacket;", cancellable = true)
+    private static void teleport__2005165374(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2005165374L))
+            info.setReturnValue(null);
     }
 
 

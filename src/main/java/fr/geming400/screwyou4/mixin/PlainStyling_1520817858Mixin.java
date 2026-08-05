@@ -13,8 +13,8 @@ public class PlainStyling_1520817858Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "numberStyle()Lnet/minecraft/network/chat/Style;", cancellable = true)
-    private void numberStyle_1211211168(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "keyStyle()Lnet/minecraft/network/chat/Style;", cancellable = true)
+    private void keyStyle_1211211168(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1211211168L))
             info.setReturnValue(null);
     }
@@ -25,8 +25,8 @@ public class PlainStyling_1520817858Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "keyStyle()Lnet/minecraft/network/chat/Style;", cancellable = true)
-    private void keyStyle_1211211168(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "numberStyle()Lnet/minecraft/network/chat/Style;", cancellable = true)
+    private void numberStyle_1211211168(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1211211168L))
             info.setReturnValue(null);
     }

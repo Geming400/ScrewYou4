@@ -22,13 +22,13 @@ public class LavaParticle_2078619066Mixin {
     @Inject(at = @At("HEAD"), method = "getQuadSize(F)F", cancellable = true)
     private void getQuadSize__1005217198(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1005217198L))
-            info.setReturnValue(9.223961E8F);
+            info.setReturnValue(5.4009E7F);
     }
 
     @Inject(at = @At("HEAD"), method = "getLightCoords(F)I", cancellable = true)
     private void getLightCoords__1005214315(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1005214315L))
-            info.setReturnValue(1128779158);
+            info.setReturnValue(260392058);
     }
 
 

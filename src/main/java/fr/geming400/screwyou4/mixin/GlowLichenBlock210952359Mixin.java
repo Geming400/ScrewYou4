@@ -19,16 +19,16 @@ public class GlowLichenBlock210952359Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "getSpreader()Lnet/minecraft/world/level/block/MultifaceSpreader;", cancellable = true)
+    private void getSpreader_288895411(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(288895411L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "isValidBonemealTarget(Lnet/minecraft/world/level/LevelReader;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Z", cancellable = true)
     private void isValidBonemealTarget_255632117(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(255632117L))
             info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isBonemealSuccess(Lnet/minecraft/world/level/Level;Lnet/minecraft/util/RandomSource;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Z", cancellable = true)
-    private void isBonemealSuccess__1761960784(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1761960784L))
-            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "performBonemeal(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/util/RandomSource;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)V", cancellable = true)
@@ -37,10 +37,10 @@ public class GlowLichenBlock210952359Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getSpreader()Lnet/minecraft/world/level/block/MultifaceSpreader;", cancellable = true)
-    private void getSpreader_288895411(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(288895411L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "isBonemealSuccess(Lnet/minecraft/world/level/Level;Lnet/minecraft/util/RandomSource;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Z", cancellable = true)
+    private void isBonemealSuccess__1761960784(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1761960784L))
+            info.setReturnValue(false);
     }
 
 

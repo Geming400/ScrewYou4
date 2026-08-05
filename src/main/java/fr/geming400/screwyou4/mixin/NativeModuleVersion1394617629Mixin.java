@@ -28,7 +28,7 @@ public class NativeModuleVersion1394617629Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1432880371(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1432880371L))
-            info.setReturnValue(1695794946);
+            info.setReturnValue(1451057546);
     }
 
     @Inject(at = @At("HEAD"), method = "description()Ljava/lang/String;", cancellable = true)

@@ -25,14 +25,14 @@ public class RangedCrossbowAttackGoal1794159618Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "canContinueToUse()Z", cancellable = true)
-    private void canContinueToUse_1832438201(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "requiresUpdateEveryTick()Z", cancellable = true)
+    private void requiresUpdateEveryTick_1832438201(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1832438201L))
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "requiresUpdateEveryTick()Z", cancellable = true)
-    private void requiresUpdateEveryTick_1832438201(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "canContinueToUse()Z", cancellable = true)
+    private void canContinueToUse_1832438201(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1832438201L))
             info.setReturnValue(true);
     }

@@ -31,16 +31,16 @@ public class ResourceOrTagArgument1913813560Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "listSuggestions(Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
-    private void listSuggestions__2140230294(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2140230294L))
-            info.setReturnValue(new java.util.concurrent.CompletableFuture());
-    }
-
     @Inject(at = @At("HEAD"), method = "getExamples()Ljava/util/Collection;", cancellable = true)
     private void getExamples_100165288(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(100165288L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "listSuggestions(Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
+    private void listSuggestions__2140230294(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2140230294L))
+            info.setReturnValue(new java.util.concurrent.CompletableFuture());
     }
 
 

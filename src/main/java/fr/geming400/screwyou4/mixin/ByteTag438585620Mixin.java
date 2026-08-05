@@ -28,7 +28,7 @@ public class ByteTag438585620Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_476848362(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(476848362L))
-            info.setReturnValue(637673945);
+            info.setReturnValue(726606645);
     }
 
     @Inject(at = @At("HEAD"), method = "byteValue()B", cancellable = true)
@@ -46,25 +46,25 @@ public class ByteTag438585620Mixin {
     @Inject(at = @At("HEAD"), method = "intValue()I", cancellable = true)
     private void intValue_476847866(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(476847866L))
-            info.setReturnValue(1273648553);
+            info.setReturnValue(1362581253);
     }
 
     @Inject(at = @At("HEAD"), method = "longValue()J", cancellable = true)
     private void longValue_476848827(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(476848827L))
-            info.setReturnValue(56447774827361058L);
+            info.setReturnValue(56447774916293758L);
     }
 
     @Inject(at = @At("HEAD"), method = "floatValue()F", cancellable = true)
     private void floatValue_476844983(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(476844983L))
-            info.setReturnValue(4.579349E8F);
+            info.setReturnValue(5.468676E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "doubleValue()D", cancellable = true)
     private void doubleValue_476843061(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(476843061L))
-            info.setReturnValue(4.5793490086322004E8D);
+            info.setReturnValue(5.4686760086322E8D);
     }
 
     @Inject(at = @At("HEAD"), method = "valueOf(Z)Lnet/minecraft/nbt/ByteTag;", cancellable = true)
@@ -130,7 +130,7 @@ public class ByteTag438585620Mixin {
     @Inject(at = @At("HEAD"), method = "sizeInBytes()I", cancellable = true)
     private void sizeInBytes_476847866(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(476847866L))
-            info.setReturnValue(1273648553);
+            info.setReturnValue(1362581253);
     }
 
 

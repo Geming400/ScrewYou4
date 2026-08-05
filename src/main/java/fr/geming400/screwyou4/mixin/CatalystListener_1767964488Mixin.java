@@ -13,12 +13,6 @@ public class CatalystListener_1767964488Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getListenerRadius()I", cancellable = true)
-    private void getListenerRadius_1806226733(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1806226733L))
-            info.setReturnValue(-2124114803);
-    }
-
     @Inject(at = @At("HEAD"), method = "getDeliveryMode()Lnet/minecraft/world/level/gameevent/GameEventListener$DeliveryMode;", cancellable = true)
     private void getDeliveryMode__1827011757(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1827011757L))
@@ -29,6 +23,12 @@ public class CatalystListener_1767964488Mixin {
     private void handleGameEvent_733348577(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(733348577L))
             info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getListenerRadius()I", cancellable = true)
+    private void getListenerRadius_1806226733(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1806226733L))
+            info.setReturnValue(-2064950803);
     }
 
     @Inject(at = @At("HEAD"), method = "getSculkSpreader()Lnet/minecraft/world/level/block/SculkSpreader;", cancellable = true)

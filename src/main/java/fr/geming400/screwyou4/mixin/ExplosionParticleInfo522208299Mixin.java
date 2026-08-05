@@ -22,19 +22,19 @@ public class ExplosionParticleInfo522208299Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_560471041(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(560471041L))
-            info.setReturnValue(830313335);
-    }
-
-    @Inject(at = @At("HEAD"), method = "speed()F", cancellable = true)
-    private void speed_560467662(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(560467662L))
-            info.setReturnValue(1.259467E8F);
+            info.setReturnValue(1381486535);
     }
 
     @Inject(at = @At("HEAD"), method = "scaling()F", cancellable = true)
     private void scaling_560467662(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(560467662L))
-            info.setReturnValue(1.259467E8F);
+            info.setReturnValue(6.771199E8F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "speed()F", cancellable = true)
+    private void speed_560467662(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(560467662L))
+            info.setReturnValue(6.771199E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "particle()Lnet/minecraft/core/particles/ParticleOptions;", cancellable = true)

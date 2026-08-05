@@ -31,16 +31,16 @@ public class ServerboundSignUpdatePacket192870427Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "isFrontText()Z", cancellable = true)
-    private void isFrontText_231149010(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(231149010L))
-            info.setReturnValue(true);
-    }
-
     @Inject(at = @At("HEAD"), method = "getPos()Lnet/minecraft/core/BlockPos;", cancellable = true)
     private void getPos__1700516452(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1700516452L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isFrontText()Z", cancellable = true)
+    private void isFrontText_231149010(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(231149010L))
+            info.setReturnValue(true);
     }
 
 

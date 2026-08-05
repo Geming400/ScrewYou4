@@ -22,7 +22,7 @@ public class LiteralContents1494560032Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1532822774(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1532822774L))
-            info.setReturnValue(104453840);
+            info.setReturnValue(152897940);
     }
 
     @Inject(at = @At("HEAD"), method = "text()Ljava/lang/String;", cancellable = true)

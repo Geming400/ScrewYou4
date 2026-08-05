@@ -10,19 +10,7 @@ public class CrashReportCategory2020815595Mixin {
         @Inject(at = @At("HEAD"), method = "fillInStackTrace(I)I", cancellable = true)
     private void fillInStackTrace__1060247222(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1060247222L))
-            info.setReturnValue(-1680176612);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getStacktrace()[Ljava/lang/StackTraceElement;", cancellable = true)
-    private void getStacktrace_1547102315(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1547102315L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "validateStackTrace(Ljava/lang/StackTraceElement;Ljava/lang/StackTraceElement;)Z", cancellable = true)
-    private void validateStackTrace__419049438(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-419049438L))
-            info.setReturnValue(false);
+            info.setReturnValue(-1895642112);
     }
 
     @Inject(at = @At("HEAD"), method = "getDetails(Ljava/lang/StringBuilder;)V", cancellable = true)
@@ -71,6 +59,18 @@ public class CrashReportCategory2020815595Mixin {
     private static void populateBlockDetails_1562045034(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1562045034L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getStacktrace()[Ljava/lang/StackTraceElement;", cancellable = true)
+    private void getStacktrace_1547102315(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1547102315L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "validateStackTrace(Ljava/lang/StackTraceElement;Ljava/lang/StackTraceElement;)Z", cancellable = true)
+    private void validateStackTrace__419049438(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-419049438L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "populateBlockLocationDetails(Lnet/minecraft/CrashReportCategory;Lnet/minecraft/world/level/LevelHeightAccessor;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/CrashReportCategory;", cancellable = true)

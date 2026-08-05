@@ -25,16 +25,16 @@ public class BigDripleafBlock884590174Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "isBonemealSuccess(Lnet/minecraft/world/level/Level;Lnet/minecraft/util/RandomSource;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Z", cancellable = true)
-    private void isBonemealSuccess__1088322969(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1088322969L))
-            info.setReturnValue(false);
-    }
-
     @Inject(at = @At("HEAD"), method = "performBonemeal(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/util/RandomSource;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)V", cancellable = true)
     private void performBonemeal__1258376379(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1258376379L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "isBonemealSuccess(Lnet/minecraft/world/level/Level;Lnet/minecraft/util/RandomSource;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Z", cancellable = true)
+    private void isBonemealSuccess__1088322969(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1088322969L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "placeWithRandomHeight(Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/util/RandomSource;Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/Direction;)V", cancellable = true)

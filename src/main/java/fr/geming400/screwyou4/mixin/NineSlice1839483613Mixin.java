@@ -28,19 +28,19 @@ public class NineSlice1839483613Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1877746355(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1877746355L))
-            info.setReturnValue(90021799);
+            info.setReturnValue(46213999);
     }
 
     @Inject(at = @At("HEAD"), method = "width()I", cancellable = true)
     private void width_1877745859(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1877745859L))
-            info.setReturnValue(268545288);
+            info.setReturnValue(224737488);
     }
 
     @Inject(at = @At("HEAD"), method = "height()I", cancellable = true)
     private void height_1877745859(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1877745859L))
-            info.setReturnValue(268545288);
+            info.setReturnValue(224737488);
     }
 
     @Inject(at = @At("HEAD"), method = "stretchInner()Z", cancellable = true)

@@ -28,7 +28,7 @@ public class ServerboundPlaceRecipePacket355802964Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_394065706(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(394065706L))
-            info.setReturnValue(1896254557);
+            info.setReturnValue(1959764057);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/PacketListener;)V", cancellable = true)
@@ -49,16 +49,16 @@ public class ServerboundPlaceRecipePacket355802964Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "containerId()I", cancellable = true)
+    private void containerId_394065210(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(394065210L))
+            info.setReturnValue(-2132055820);
+    }
+
     @Inject(at = @At("HEAD"), method = "useMaxItems()Z", cancellable = true)
     private void useMaxItems_394081547(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(394081547L))
             info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "containerId()I", cancellable = true)
-    private void containerId_394065210(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(394065210L))
-            info.setReturnValue(2099401976);
     }
 
 

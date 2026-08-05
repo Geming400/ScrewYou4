@@ -13,48 +13,6 @@ public class LevelStorageSource1763560954Mixin {
             info.setReturnValue("mv_:=%W蟯+T8Wm");
     }
 
-    @Inject(at = @At("HEAD"), method = "writeWorldGenSettings(Lnet/minecraft/core/RegistryAccess;Ljava/nio/file/Path;Lnet/minecraft/world/level/levelgen/WorldGenSettings;)V", cancellable = true)
-    private static void writeWorldGenSettings_401571451(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(401571451L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "writeGameRules(Lnet/minecraft/world/level/storage/WorldData;Ljava/nio/file/Path;Lnet/minecraft/world/level/gamerules/GameRules;)V", cancellable = true)
-    private static void writeGameRules__646194349(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-646194349L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "isNewLevelIdAcceptable(Ljava/lang/String;)Z", cancellable = true)
-    private void isNewLevelIdAcceptable__1379041349(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1379041349L))
-            info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "createDefault(Ljava/nio/file/Path;)Lnet/minecraft/world/level/storage/LevelStorageSource;", cancellable = true)
-    private static void createDefault_532165439(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(532165439L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getLevelPath(Ljava/lang/String;)Ljava/nio/file/Path;", cancellable = true)
-    private void getLevelPath__1901195890(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1901195890L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getBaseDir()Ljava/nio/file/Path;", cancellable = true)
-    private void getBaseDir_629197272(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(629197272L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "parseValidator(Ljava/nio/file/Path;)Lnet/minecraft/world/level/validation/DirectoryValidator;", cancellable = true)
-    private static void parseValidator_911372886(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(911372886L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getBackupPath()Ljava/nio/file/Path;", cancellable = true)
     private void getBackupPath_629197272(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(629197272L))
@@ -79,9 +37,9 @@ public class LevelStorageSource1763560954Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getLevelDataAndDimensions(Lnet/minecraft/world/level/storage/LevelStorageSource$LevelStorageAccess;Lcom/mojang/serialization/Dynamic;Lnet/minecraft/world/level/WorldDataConfiguration;Lnet/minecraft/core/Registry;Lnet/minecraft/core/HolderLookup$Provider;)Lnet/minecraft/world/level/storage/LevelDataAndDimensions;", cancellable = true)
-    private static void getLevelDataAndDimensions_1633197905(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1633197905L))
+    @Inject(at = @At("HEAD"), method = "findLevelCandidates()Lnet/minecraft/world/level/storage/LevelStorageSource$LevelCandidates;", cancellable = true)
+    private void findLevelCandidates__102821610(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-102821610L))
             info.setReturnValue(null);
     }
 
@@ -91,9 +49,9 @@ public class LevelStorageSource1763560954Mixin {
             info.setReturnValue(new java.util.concurrent.CompletableFuture());
     }
 
-    @Inject(at = @At("HEAD"), method = "findLevelCandidates()Lnet/minecraft/world/level/storage/LevelStorageSource$LevelCandidates;", cancellable = true)
-    private void findLevelCandidates__102821610(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-102821610L))
+    @Inject(at = @At("HEAD"), method = "getLevelDataAndDimensions(Lnet/minecraft/world/level/storage/LevelStorageSource$LevelStorageAccess;Lcom/mojang/serialization/Dynamic;Lnet/minecraft/world/level/WorldDataConfiguration;Lnet/minecraft/core/Registry;Lnet/minecraft/core/HolderLookup$Provider;)Lnet/minecraft/world/level/storage/LevelDataAndDimensions;", cancellable = true)
+    private static void getLevelDataAndDimensions_1633197905(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1633197905L))
             info.setReturnValue(null);
     }
 
@@ -103,9 +61,51 @@ public class LevelStorageSource1763560954Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "createAccess(Ljava/lang/String;)Lnet/minecraft/world/level/storage/LevelStorageSource$LevelStorageAccess;", cancellable = true)
-    private void createAccess_1661981323(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1661981323L))
+    @Inject(at = @At("HEAD"), method = "getWorldDirValidator()Lnet/minecraft/world/level/validation/DirectoryValidator;", cancellable = true)
+    private void getWorldDirValidator_1138548991(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1138548991L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getLevelPath(Ljava/lang/String;)Ljava/nio/file/Path;", cancellable = true)
+    private void getLevelPath__1901195890(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1901195890L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "parseValidator(Ljava/nio/file/Path;)Lnet/minecraft/world/level/validation/DirectoryValidator;", cancellable = true)
+    private static void parseValidator_911372886(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(911372886L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "createDefault(Ljava/nio/file/Path;)Lnet/minecraft/world/level/storage/LevelStorageSource;", cancellable = true)
+    private static void createDefault_532165439(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(532165439L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "writeGameRules(Lnet/minecraft/world/level/storage/WorldData;Ljava/nio/file/Path;Lnet/minecraft/world/level/gamerules/GameRules;)V", cancellable = true)
+    private static void writeGameRules__646194349(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-646194349L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "writeWorldGenSettings(Lnet/minecraft/core/RegistryAccess;Ljava/nio/file/Path;Lnet/minecraft/world/level/levelgen/WorldGenSettings;)V", cancellable = true)
+    private static void writeWorldGenSettings_401571451(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(401571451L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "isNewLevelIdAcceptable(Ljava/lang/String;)Z", cancellable = true)
+    private void isNewLevelIdAcceptable__1379041349(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1379041349L))
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getBaseDir()Ljava/nio/file/Path;", cancellable = true)
+    private void getBaseDir_629197272(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(629197272L))
             info.setReturnValue(null);
     }
 
@@ -115,9 +115,9 @@ public class LevelStorageSource1763560954Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getWorldDirValidator()Lnet/minecraft/world/level/validation/DirectoryValidator;", cancellable = true)
-    private void getWorldDirValidator_1138548991(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1138548991L))
+    @Inject(at = @At("HEAD"), method = "createAccess(Ljava/lang/String;)Lnet/minecraft/world/level/storage/LevelStorageSource$LevelStorageAccess;", cancellable = true)
+    private void createAccess_1661981323(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1661981323L))
             info.setReturnValue(null);
     }
 

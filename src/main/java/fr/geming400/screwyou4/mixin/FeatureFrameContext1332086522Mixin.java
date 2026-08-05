@@ -22,7 +22,7 @@ public class FeatureFrameContext1332086522Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1370349264(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1370349264L))
-            info.setReturnValue(-328697742);
+            info.setReturnValue(-594600842);
     }
 
     @Inject(at = @At("HEAD"), method = "options()Lnet/minecraft/client/renderer/state/OptionsRenderState;", cancellable = true)
@@ -31,15 +31,15 @@ public class FeatureFrameContext1332086522Mixin {
             info.setReturnValue(new net.minecraft.client.renderer.state.OptionsRenderState());
     }
 
-    @Inject(at = @At("HEAD"), method = "lightmap()Lcom/mojang/blaze3d/textures/GpuTextureView;", cancellable = true)
-    private void lightmap__1068528088(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1068528088L))
+    @Inject(at = @At("HEAD"), method = "stagedVertexBuffer()Lnet/minecraft/client/renderer/StagedVertexBuffer;", cancellable = true)
+    private void stagedVertexBuffer_962159394(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(962159394L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "font()Lnet/minecraft/client/gui/Font;", cancellable = true)
-    private void font__1696711861(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1696711861L))
+    @Inject(at = @At("HEAD"), method = "blockStateModelSet()Lnet/minecraft/client/renderer/block/BlockStateModelSet;", cancellable = true)
+    private void blockStateModelSet__1141331411(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1141331411L))
             info.setReturnValue(null);
     }
 
@@ -61,15 +61,15 @@ public class FeatureFrameContext1332086522Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "stagedVertexBuffer()Lnet/minecraft/client/renderer/StagedVertexBuffer;", cancellable = true)
-    private void stagedVertexBuffer_962159394(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(962159394L))
+    @Inject(at = @At("HEAD"), method = "font()Lnet/minecraft/client/gui/Font;", cancellable = true)
+    private void font__1696711861(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1696711861L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "blockStateModelSet()Lnet/minecraft/client/renderer/block/BlockStateModelSet;", cancellable = true)
-    private void blockStateModelSet__1141331411(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1141331411L))
+    @Inject(at = @At("HEAD"), method = "lightmap()Lcom/mojang/blaze3d/textures/GpuTextureView;", cancellable = true)
+    private void lightmap__1068528088(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1068528088L))
             info.setReturnValue(null);
     }
 

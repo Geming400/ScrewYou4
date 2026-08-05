@@ -31,16 +31,16 @@ public class JigsawBlockEditScreen_172681132Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "isInGameUi()Z", cancellable = true)
-    private void isInGameUi_210959714(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(210959714L))
-            info.setReturnValue(false);
-    }
-
     @Inject(at = @At("HEAD"), method = "isValidIdentifier(Ljava/lang/String;)Z", cancellable = true)
     private static void isValidIdentifier_1325046372(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1325046372L))
             info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isInGameUi()Z", cancellable = true)
+    private void isInGameUi_210959714(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(210959714L))
+            info.setReturnValue(false);
     }
 
 

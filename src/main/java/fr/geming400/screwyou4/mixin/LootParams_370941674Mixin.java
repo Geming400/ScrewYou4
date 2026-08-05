@@ -28,7 +28,7 @@ public class LootParams_370941674Mixin {
     @Inject(at = @At("HEAD"), method = "getLuck()F", cancellable = true)
     private void getLuck_409201036(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(409201036L))
-            info.setReturnValue(7.592174E8F);
+            info.setReturnValue(7.31595E7F);
     }
 
 

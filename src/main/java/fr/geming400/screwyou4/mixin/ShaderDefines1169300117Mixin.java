@@ -34,7 +34,7 @@ public class ShaderDefines1169300117Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1207562859(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1207562859L))
-            info.setReturnValue(-447280802);
+            info.setReturnValue(-59682902);
     }
 
     @Inject(at = @At("HEAD"), method = "isEmpty()Z", cancellable = true)
@@ -49,16 +49,16 @@ public class ShaderDefines1169300117Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "withOverrides(Lnet/minecraft/client/renderer/ShaderDefines;)Lnet/minecraft/client/renderer/ShaderDefines;", cancellable = true)
-    private void withOverrides__441554814(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-441554814L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "asSourceDirectives()Ljava/lang/String;", cancellable = true)
     private void asSourceDirectives_33839646(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(33839646L))
             info.setReturnValue("\"᧱YPF짶AR[댁rO9''ꨨ1ᰢ&T㔁}N|䖆2_V3e8@U鄹5zẸ]CCZNVOUL칂2㾲3MC0sEm鯍E盒WჄl@Hak*晗e7");
+    }
+
+    @Inject(at = @At("HEAD"), method = "withOverrides(Lnet/minecraft/client/renderer/ShaderDefines;)Lnet/minecraft/client/renderer/ShaderDefines;", cancellable = true)
+    private void withOverrides__441554814(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-441554814L))
+            info.setReturnValue(null);
     }
 
 

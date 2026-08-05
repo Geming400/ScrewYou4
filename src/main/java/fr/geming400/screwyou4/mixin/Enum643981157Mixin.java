@@ -28,7 +28,7 @@ public class Enum643981157Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_682243899(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(682243899L))
-            info.setReturnValue(-118960682);
+            info.setReturnValue(250609518);
     }
 
     @Inject(at = @At("HEAD"), method = "validateValue(Ljava/lang/Object;)Ljava/util/Optional;", cancellable = true)

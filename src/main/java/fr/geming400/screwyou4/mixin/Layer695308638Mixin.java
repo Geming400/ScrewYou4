@@ -22,13 +22,7 @@ public class Layer695308638Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_733571380(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(733571380L))
-            info.setReturnValue(-1510577613);
-    }
-
-    @Inject(at = @At("HEAD"), method = "textureId()Lnet/minecraft/resources/Identifier;", cancellable = true)
-    private void textureId__1747757915(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1747757915L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1805122513);
     }
 
     @Inject(at = @At("HEAD"), method = "dyeable()Ljava/util/Optional;", cancellable = true)
@@ -37,9 +31,9 @@ public class Layer695308638Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "leatherDyeable(Lnet/minecraft/resources/Identifier;Z)Lnet/minecraft/client/resources/model/EquipmentClientInfo$Layer;", cancellable = true)
-    private static void leatherDyeable_1925620814(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1925620814L))
+    @Inject(at = @At("HEAD"), method = "textureId()Lnet/minecraft/resources/Identifier;", cancellable = true)
+    private void textureId__1747757915(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1747757915L))
             info.setReturnValue(null);
     }
 
@@ -53,6 +47,12 @@ public class Layer695308638Mixin {
     private void usePlayerTexture_733587221(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(733587221L))
             info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "leatherDyeable(Lnet/minecraft/resources/Identifier;Z)Lnet/minecraft/client/resources/model/EquipmentClientInfo$Layer;", cancellable = true)
+    private static void leatherDyeable_1925620814(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1925620814L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "onlyIfDyed(Lnet/minecraft/resources/Identifier;Z)Lnet/minecraft/client/resources/model/EquipmentClientInfo$Layer;", cancellable = true)

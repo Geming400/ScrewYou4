@@ -13,9 +13,15 @@ public class DispenserBlock1822419932Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
-    private void getStateForPlacement_563820165(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(563820165L))
+    @Inject(at = @At("HEAD"), method = "getDispensePosition(Lnet/minecraft/core/dispenser/BlockSource;DLnet/minecraft/world/phys/Vec3;)Lnet/minecraft/core/Position;", cancellable = true)
+    private static void getDispensePosition__384605240(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-384605240L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getDispensePosition(Lnet/minecraft/core/dispenser/BlockSource;)Lnet/minecraft/core/Position;", cancellable = true)
+    private static void getDispensePosition__386037968(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-386037968L))
             info.setReturnValue(null);
     }
 
@@ -31,15 +37,9 @@ public class DispenserBlock1822419932Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getDispensePosition(Lnet/minecraft/core/dispenser/BlockSource;DLnet/minecraft/world/phys/Vec3;)Lnet/minecraft/core/Position;", cancellable = true)
-    private static void getDispensePosition__384605240(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-384605240L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getDispensePosition(Lnet/minecraft/core/dispenser/BlockSource;)Lnet/minecraft/core/Position;", cancellable = true)
-    private static void getDispensePosition__386037968(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-386037968L))
+    @Inject(at = @At("HEAD"), method = "getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
+    private void getStateForPlacement_563820165(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(563820165L))
             info.setReturnValue(null);
     }
 

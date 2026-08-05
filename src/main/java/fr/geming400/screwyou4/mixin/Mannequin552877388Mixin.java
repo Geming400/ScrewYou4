@@ -19,12 +19,6 @@ public class Mannequin552877388Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "isEffectiveAi()Z", cancellable = true)
-    private void isEffectiveAi_591155971(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(591155971L))
-            info.setReturnValue(true);
-    }
-
     @Inject(at = @At("HEAD"), method = "aiStep()V", cancellable = true)
     private void aiStep_591152127(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(591152127L))
@@ -35,6 +29,12 @@ public class Mannequin552877388Mixin {
     private void getProfile_1349082913(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1349082913L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isEffectiveAi()Z", cancellable = true)
+    private void isEffectiveAi_591155971(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(591155971L))
+            info.setReturnValue(true);
     }
 
 

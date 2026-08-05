@@ -22,7 +22,7 @@ public class StepFeatureData_1208914149Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1247176890(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1247176890L))
-            info.setReturnValue(-874055261);
+            info.setReturnValue(-346250061);
     }
 
     @Inject(at = @At("HEAD"), method = "features()Ljava/util/List;", cancellable = true)

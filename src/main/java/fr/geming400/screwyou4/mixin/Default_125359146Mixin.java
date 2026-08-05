@@ -22,19 +22,7 @@ public class Default_125359146Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_163621887(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(163621887L))
-            info.setReturnValue(-1703458918);
-    }
-
-    @Inject(at = @At("HEAD"), method = "asCreative()Lnet/minecraft/world/item/TooltipFlag$Default;", cancellable = true)
-    private void asCreative__337666154(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-337666154L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isAdvanced()Z", cancellable = true)
-    private void isAdvanced_163637728(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(163637728L))
-            info.setReturnValue(false);
+            info.setReturnValue(-1759535418);
     }
 
     @Inject(at = @At("HEAD"), method = "advanced()Z", cancellable = true)
@@ -47,6 +35,18 @@ public class Default_125359146Mixin {
     private void isCreative_163637728(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(163637728L))
             info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isAdvanced()Z", cancellable = true)
+    private void isAdvanced_163637728(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(163637728L))
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "asCreative()Lnet/minecraft/world/item/TooltipFlag$Default;", cancellable = true)
+    private void asCreative__337666154(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-337666154L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "creative()Z", cancellable = true)

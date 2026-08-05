@@ -28,7 +28,7 @@ public class LanguageInfo503125120Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_541387862(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(541387862L))
-            info.setReturnValue(1015639489);
+            info.setReturnValue(753704789);
     }
 
     @Inject(at = @At("HEAD"), method = "region()Ljava/lang/String;", cancellable = true)

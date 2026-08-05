@@ -19,15 +19,15 @@ public class Builder1018803041Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "addLine(Lnet/minecraft/network/chat/Component;)Lnet/minecraft/world/level/storage/loot/functions/SetLoreFunction$Builder;", cancellable = true)
-    private void addLine_1438486207(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1438486207L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "setResolutionContext(Lnet/minecraft/world/level/storage/loot/LootContext$EntityTarget;)Lnet/minecraft/world/level/storage/loot/functions/SetLoreFunction$Builder;", cancellable = true)
     private void setResolutionContext__1242751740(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1242751740L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "addLine(Lnet/minecraft/network/chat/Component;)Lnet/minecraft/world/level/storage/loot/functions/SetLoreFunction$Builder;", cancellable = true)
+    private void addLine_1438486207(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1438486207L))
             info.setReturnValue(null);
     }
 

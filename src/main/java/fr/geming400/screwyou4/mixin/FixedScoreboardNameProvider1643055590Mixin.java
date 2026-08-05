@@ -34,18 +34,18 @@ public class FixedScoreboardNameProvider1643055590Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1681318332(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1681318332L))
-            info.setReturnValue(-897265237);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getScoreHolder(Lnet/minecraft/world/level/storage/loot/LootContext;)Lnet/minecraft/world/scores/ScoreHolder;", cancellable = true)
-    private void getScoreHolder__1484494796(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1484494796L))
-            info.setReturnValue(null);
+            info.setReturnValue(-789648137);
     }
 
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
     private void codec__916057982(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-916057982L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getScoreHolder(Lnet/minecraft/world/level/storage/loot/LootContext;)Lnet/minecraft/world/scores/ScoreHolder;", cancellable = true)
+    private void getScoreHolder__1484494796(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1484494796L))
             info.setReturnValue(null);
     }
 

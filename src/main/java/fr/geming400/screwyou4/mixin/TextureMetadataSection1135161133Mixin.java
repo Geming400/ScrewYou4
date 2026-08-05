@@ -22,11 +22,17 @@ public class TextureMetadataSection1135161133Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1173423875(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1173423875L))
-            info.setReturnValue(2132436529);
+            info.setReturnValue(1546864629);
     }
 
     @Inject(at = @At("HEAD"), method = "clamp()Z", cancellable = true)
     private void clamp_1173439716(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1173439716L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "blur()Z", cancellable = true)
+    private void blur_1173439716(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1173439716L))
             info.setReturnValue(true);
     }
@@ -40,13 +46,7 @@ public class TextureMetadataSection1135161133Mixin {
     @Inject(at = @At("HEAD"), method = "alphaCutoffBias()F", cancellable = true)
     private void alphaCutoffBias_1173420496(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1173420496L))
-            info.setReturnValue(5.900402E8F);
-    }
-
-    @Inject(at = @At("HEAD"), method = "blur()Z", cancellable = true)
-    private void blur_1173439716(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1173439716L))
-            info.setReturnValue(true);
+            info.setReturnValue(4468300.0F);
     }
 
 

@@ -22,7 +22,7 @@ public class TheEndGatewayRenderer1428564207Mixin {
     @Inject(at = @At("HEAD"), method = "getViewDistance()I", cancellable = true)
     private void getViewDistance_1466826453(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1466826453L))
-            info.setReturnValue(1309633828);
+            info.setReturnValue(1346133728);
     }
 
     @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/level/block/entity/TheEndPortalBlockEntity;Lnet/minecraft/client/renderer/blockentity/state/EndPortalRenderState;FLnet/minecraft/world/phys/Vec3;Lnet/minecraft/client/renderer/feature/ModelFeatureRenderer$CrumblingOverlay;)V", cancellable = true)

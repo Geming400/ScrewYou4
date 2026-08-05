@@ -16,7 +16,7 @@ public class NonNullList_533141660Mixin {
     @Inject(at = @At("HEAD"), method = "size()I", cancellable = true)
     private void size_571403905(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(571403905L))
-            info.setReturnValue(-1204872171);
+            info.setReturnValue(-420394171);
     }
 
     @Inject(at = @At("HEAD"), method = "get(I)Ljava/lang/Object;", cancellable = true)

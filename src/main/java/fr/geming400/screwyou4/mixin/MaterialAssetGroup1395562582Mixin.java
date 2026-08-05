@@ -28,7 +28,7 @@ public class MaterialAssetGroup1395562582Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1433825324(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1433825324L))
-            info.setReturnValue(-594409216);
+            info.setReturnValue(-873975616);
     }
 
     @Inject(at = @At("HEAD"), method = "create(Ljava/lang/String;)Lnet/minecraft/world/item/equipment/trim/MaterialAssetGroup;", cancellable = true)
@@ -43,15 +43,15 @@ public class MaterialAssetGroup1395562582Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "overrides()Ljava/util/Map;", cancellable = true)
-    private void overrides__609061058(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-609061058L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "assetId(Lnet/minecraft/resources/ResourceKey;)Lnet/minecraft/world/item/equipment/trim/MaterialAssetGroup$AssetInfo;", cancellable = true)
     private void assetId__167924977(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-167924977L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "overrides()Ljava/util/Map;", cancellable = true)
+    private void overrides__609061058(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-609061058L))
             info.setReturnValue(null);
     }
 

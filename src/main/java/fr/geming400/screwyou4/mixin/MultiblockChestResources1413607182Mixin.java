@@ -22,7 +22,7 @@ public class MultiblockChestResources1413607182Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1451869924(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1451869924L))
-            info.setReturnValue(708716681);
+            info.setReturnValue(541091881);
     }
 
     @Inject(at = @At("HEAD"), method = "map(Ljava/util/function/Function;)Lnet/minecraft/client/renderer/MultiblockChestResources;", cancellable = true)

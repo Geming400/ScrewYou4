@@ -28,7 +28,7 @@ public class AltEnum_14325252Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_52587993(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(52587993L))
-            info.setReturnValue(-986719667);
+            info.setReturnValue(-1120939867);
     }
 
     @Inject(at = @At("HEAD"), method = "validateValue(Ljava/lang/Object;)Ljava/util/Optional;", cancellable = true)
@@ -55,15 +55,15 @@ public class AltEnum_14325252Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "altCondition()Ljava/util/function/BooleanSupplier;", cancellable = true)
-    private void altCondition_451071572(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(451071572L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "valueListSupplier()Lnet/minecraft/client/gui/components/CycleButton$ValueListSupplier;", cancellable = true)
     private void valueListSupplier__2001910611(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2001910611L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "altCondition()Ljava/util/function/BooleanSupplier;", cancellable = true)
+    private void altCondition_451071572(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(451071572L))
             info.setReturnValue(null);
     }
 

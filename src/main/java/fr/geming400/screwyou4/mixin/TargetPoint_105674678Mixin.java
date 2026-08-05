@@ -22,43 +22,43 @@ public class TargetPoint_105674678Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_143937419(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(143937419L))
-            info.setReturnValue(601795704);
+            info.setReturnValue(-283154996);
     }
 
     @Inject(at = @At("HEAD"), method = "depth()J", cancellable = true)
     private void depth_143937884(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(143937884L))
-            info.setReturnValue(4271423627240097700L);
-    }
-
-    @Inject(at = @At("HEAD"), method = "humidity()J", cancellable = true)
-    private void humidity_143937884(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(143937884L))
-            info.setReturnValue(4271423627240605200L);
+            info.setReturnValue(4271423626355147000L);
     }
 
     @Inject(at = @At("HEAD"), method = "erosion()J", cancellable = true)
     private void erosion_143937884(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(143937884L))
-            info.setReturnValue(4271423627240605200L);
+            info.setReturnValue(4271423626355147000L);
+    }
+
+    @Inject(at = @At("HEAD"), method = "humidity()J", cancellable = true)
+    private void humidity_143937884(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(143937884L))
+            info.setReturnValue(4271423626355147000L);
     }
 
     @Inject(at = @At("HEAD"), method = "weirdness()J", cancellable = true)
     private void weirdness_143937884(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(143937884L))
-            info.setReturnValue(4271423627240605200L);
-    }
-
-    @Inject(at = @At("HEAD"), method = "continentalness()J", cancellable = true)
-    private void continentalness_143937884(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(143937884L))
-            info.setReturnValue(4271423627240605200L);
+            info.setReturnValue(4271423626355147000L);
     }
 
     @Inject(at = @At("HEAD"), method = "temperature()J", cancellable = true)
     private void temperature_143937884(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(143937884L))
-            info.setReturnValue(4271423627240605200L);
+            info.setReturnValue(4271423626355147000L);
+    }
+
+    @Inject(at = @At("HEAD"), method = "continentalness()J", cancellable = true)
+    private void continentalness_143937884(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(143937884L))
+            info.setReturnValue(4271423626355147000L);
     }
 
 

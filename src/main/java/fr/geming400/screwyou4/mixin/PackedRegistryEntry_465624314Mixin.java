@@ -22,7 +22,7 @@ public class PackedRegistryEntry_465624314Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_503887055(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(503887055L))
-            info.setReturnValue(-1215810460);
+            info.setReturnValue(-679729060);
     }
 
     @Inject(at = @At("HEAD"), method = "data()Ljava/util/Optional;", cancellable = true)

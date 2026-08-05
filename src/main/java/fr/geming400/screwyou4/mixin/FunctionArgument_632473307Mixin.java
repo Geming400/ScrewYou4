@@ -25,6 +25,12 @@ public class FunctionArgument_632473307Mixin {
             info.setReturnValue(new net.minecraft.commands.arguments.item.FunctionArgument());
     }
 
+    @Inject(at = @At("HEAD"), method = "getFunctionOrTag(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lcom/mojang/datafixers/util/Pair;", cancellable = true)
+    private static void getFunctionOrTag_825126968(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(825126968L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "getFunctionCollection(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lcom/mojang/datafixers/util/Pair;", cancellable = true)
     private static void getFunctionCollection_825126968(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(825126968L))
@@ -34,12 +40,6 @@ public class FunctionArgument_632473307Mixin {
     @Inject(at = @At("HEAD"), method = "getFunctions(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Ljava/util/Collection;", cancellable = true)
     private static void getFunctions__1840528386(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1840528386L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getFunctionOrTag(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lcom/mojang/datafixers/util/Pair;", cancellable = true)
-    private static void getFunctionOrTag_825126968(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(825126968L))
             info.setReturnValue(null);
     }
 

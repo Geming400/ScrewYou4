@@ -25,15 +25,15 @@ public class RotationArgument_468366293Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "rotation()Lnet/minecraft/commands/arguments/coordinates/RotationArgument;", cancellable = true)
-    private static void rotation__2142087915(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2142087915L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getExamples()Ljava/util/Collection;", cancellable = true)
     private void getExamples__1345281980(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1345281980L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "rotation()Lnet/minecraft/commands/arguments/coordinates/RotationArgument;", cancellable = true)
+    private static void rotation__2142087915(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2142087915L))
             info.setReturnValue(null);
     }
 

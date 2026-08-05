@@ -19,14 +19,20 @@ public class InactiveMetricsRecorder_2094971160Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "startTick()V", cancellable = true)
-    private void startTick_2133245898(CallbackInfo info) {
+    @Inject(at = @At("HEAD"), method = "endTick()V", cancellable = true)
+    private void endTick_2133245898(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(2133245898L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "endTick()V", cancellable = true)
-    private void endTick_2133245898(CallbackInfo info) {
+    @Inject(at = @At("HEAD"), method = "sampleDuringExtract()V", cancellable = true)
+    private void sampleDuringExtract_2133245898(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(2133245898L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "startTick()V", cancellable = true)
+    private void startTick_2133245898(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(2133245898L))
             info.cancel();
     }
@@ -41,12 +47,6 @@ public class InactiveMetricsRecorder_2094971160Mixin {
     private void getProfiler__719953056(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-719953056L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "sampleDuringExtract()V", cancellable = true)
-    private void sampleDuringExtract_2133245898(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(2133245898L))
-            info.cancel();
     }
 
 

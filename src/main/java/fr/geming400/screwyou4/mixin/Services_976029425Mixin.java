@@ -22,7 +22,7 @@ public class Services_976029425Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1014292166(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1014292166L))
-            info.setReturnValue(1729052685);
+            info.setReturnValue(1933509785);
     }
 
     @Inject(at = @At("HEAD"), method = "isEnabled()Z", cancellable = true)
@@ -43,15 +43,15 @@ public class Services_976029425Mixin {
             info.setReturnValue(new java.util.concurrent.CompletableFuture());
     }
 
-    @Inject(at = @At("HEAD"), method = "userApiService()Lcom/mojang/authlib/minecraft/UserApiService;", cancellable = true)
-    private void userApiService_2049629771(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2049629771L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "reportLimits()Lcom/mojang/authlib/minecraft/report/AbuseReportLimits;", cancellable = true)
     private void reportLimits__901006054(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-901006054L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "userApiService()Lcom/mojang/authlib/minecraft/UserApiService;", cancellable = true)
+    private void userApiService_2049629771(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2049629771L))
             info.setReturnValue(null);
     }
 

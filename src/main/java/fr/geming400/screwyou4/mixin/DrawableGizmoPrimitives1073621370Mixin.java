@@ -19,6 +19,12 @@ public class DrawableGizmoPrimitives1073621370Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "addTriangleFan([Lnet/minecraft/world/phys/Vec3;I)V", cancellable = true)
+    private void addTriangleFan_141770661(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(141770661L))
+            info.cancel();
+    }
+
     @Inject(at = @At("HEAD"), method = "addLine(Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/world/phys/Vec3;IF)V", cancellable = true)
     private void addLine_2071959370(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(2071959370L))
@@ -28,12 +34,6 @@ public class DrawableGizmoPrimitives1073621370Mixin {
     @Inject(at = @At("HEAD"), method = "addQuad(Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/world/phys/Vec3;I)V", cancellable = true)
     private void addQuad__115829850(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-115829850L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "addTriangleFan([Lnet/minecraft/world/phys/Vec3;I)V", cancellable = true)
-    private void addTriangleFan_141770661(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(141770661L))
             info.cancel();
     }
 

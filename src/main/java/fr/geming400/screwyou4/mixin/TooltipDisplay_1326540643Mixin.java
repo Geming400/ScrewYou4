@@ -22,7 +22,7 @@ public class TooltipDisplay_1326540643Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1364803384(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1364803384L))
-            info.setReturnValue(2067768147);
+            info.setReturnValue(2009271847);
     }
 
     @Inject(at = @At("HEAD"), method = "shows(Lnet/minecraft/core/component/DataComponentType;)Z", cancellable = true)

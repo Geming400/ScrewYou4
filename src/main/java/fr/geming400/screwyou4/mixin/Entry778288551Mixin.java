@@ -28,7 +28,7 @@ public class Entry778288551Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_816551293(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(816551293L))
-            info.setReturnValue(1324045984);
+            info.setReturnValue(1124626184);
     }
 
     @Inject(at = @At("HEAD"), method = "contents()Lnet/minecraft/world/item/crafting/display/RecipeDisplayEntry;", cancellable = true)

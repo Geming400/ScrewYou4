@@ -25,16 +25,16 @@ public class Potion_93595815Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getEffects()Ljava/util/List;", cancellable = true)
-    private void getEffects_1719932630(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1719932630L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "hasInstantEffects()Z", cancellable = true)
     private void hasInstantEffects_131874397(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(131874397L))
             info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getEffects()Ljava/util/List;", cancellable = true)
+    private void getEffects_1719932630(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1719932630L))
+            info.setReturnValue(null);
     }
 
 

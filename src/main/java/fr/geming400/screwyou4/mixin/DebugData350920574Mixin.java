@@ -22,7 +22,7 @@ public class DebugData350920574Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_389183316(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(389183316L))
-            info.setReturnValue(1483729101);
+            info.setReturnValue(1449467101);
     }
 
     @Inject(at = @At("HEAD"), method = "write(Lnet/minecraft/network/FriendlyByteBuf;)V", cancellable = true)

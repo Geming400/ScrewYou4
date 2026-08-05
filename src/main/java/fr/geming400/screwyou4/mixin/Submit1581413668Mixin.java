@@ -22,31 +22,13 @@ public class Submit1581413668Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1619676410(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1619676410L))
-            info.setReturnValue(561261802);
-    }
-
-    @Inject(at = @At("HEAD"), method = "pose()Lcom/mojang/blaze3d/vertex/PoseStack$Pose;", cancellable = true)
-    private void pose__507906732(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-507906732L))
-            info.setReturnValue(new com.mojang.blaze3d.vertex.PoseStack$Pose());
+            info.setReturnValue(522137302);
     }
 
     @Inject(at = @At("HEAD"), method = "overlayCoords()I", cancellable = true)
     private void overlayCoords_1619675914(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1619675914L))
-            info.setReturnValue(838281010);
-    }
-
-    @Inject(at = @At("HEAD"), method = "outlineColor()I", cancellable = true)
-    private void outlineColor_1619675914(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1619675914L))
-            info.setReturnValue(838281010);
-    }
-
-    @Inject(at = @At("HEAD"), method = "lightCoords()I", cancellable = true)
-    private void lightCoords_1619675914(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1619675914L))
-            info.setReturnValue(838281010);
+            info.setReturnValue(799156510);
     }
 
     @Inject(at = @At("HEAD"), method = "displayContext()Lnet/minecraft/world/item/ItemDisplayContext;", cancellable = true)
@@ -64,12 +46,24 @@ public class Submit1581413668Mixin {
     @Inject(at = @At("HEAD"), method = "distanceToCameraSq()F", cancellable = true)
     private void distanceToCameraSq_1619673031(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1619673031L))
-            info.setReturnValue(3.089799E8F);
+            info.setReturnValue(2.698554E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "featureType()Lnet/minecraft/client/renderer/feature/FeatureRendererType;", cancellable = true)
     private void featureType__1682470102(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1682470102L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "pose()Lcom/mojang/blaze3d/vertex/PoseStack$Pose;", cancellable = true)
+    private void pose__507906732(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-507906732L))
+            info.setReturnValue(new com.mojang.blaze3d.vertex.PoseStack$Pose());
+    }
+
+    @Inject(at = @At("HEAD"), method = "tintLayers()[I", cancellable = true)
+    private void tintLayers__1527712271(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1527712271L))
             info.setReturnValue(null);
     }
 
@@ -79,16 +73,22 @@ public class Submit1581413668Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "tintLayers()[I", cancellable = true)
-    private void tintLayers__1527712271(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1527712271L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "foilType()Lnet/minecraft/client/renderer/item/ItemStackRenderState$FoilType;", cancellable = true)
     private void foilType__322194898(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-322194898L))
             info.setReturnValue(net.minecraft.client.renderer.item.ItemStackRenderState.FoilType.NONE);
+    }
+
+    @Inject(at = @At("HEAD"), method = "outlineColor()I", cancellable = true)
+    private void outlineColor_1619675914(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1619675914L))
+            info.setReturnValue(799156510);
+    }
+
+    @Inject(at = @At("HEAD"), method = "lightCoords()I", cancellable = true)
+    private void lightCoords_1619675914(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1619675914L))
+            info.setReturnValue(799156510);
     }
 
 

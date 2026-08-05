@@ -22,19 +22,19 @@ public class Layer1388627066Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1426889808(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1426889808L))
-            info.setReturnValue(474617702);
-    }
-
-    @Inject(at = @At("HEAD"), method = "textureAtlasLocation()Lnet/minecraft/resources/Identifier;", cancellable = true)
-    private void textureAtlasLocation__1054439487(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1054439487L))
-            info.setReturnValue(null);
+            info.setReturnValue(392674102);
     }
 
     @Inject(at = @At("HEAD"), method = "translucent()Z", cancellable = true)
     private void translucent_1426905649(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1426905649L))
             info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "textureAtlasLocation()Lnet/minecraft/resources/Identifier;", cancellable = true)
+    private void textureAtlasLocation__1054439487(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1054439487L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "bySprite(Lnet/minecraft/client/renderer/texture/TextureAtlasSprite;)Lnet/minecraft/client/particle/SingleQuadParticle$Layer;", cancellable = true)

@@ -22,7 +22,7 @@ public class Condition_366950826Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_405213567(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(405213567L))
-            info.setReturnValue(925235222);
+            info.setReturnValue(860499022);
     }
 
     @Inject(at = @At("HEAD"), method = "test(IDDD)Z", cancellable = true)
@@ -31,10 +31,10 @@ public class Condition_366950826Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "ofRelativeSpeed(IF)Ljava/util/Optional;", cancellable = true)
-    private static void ofRelativeSpeed__1469424494(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1469424494L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "minRelativeSpeed()F", cancellable = true)
+    private void minRelativeSpeed_405210188(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(405210188L))
+            info.setReturnValue(1.440417E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "ofAttackerSpeed(IF)Ljava/util/Optional;", cancellable = true)
@@ -43,22 +43,22 @@ public class Condition_366950826Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "ofRelativeSpeed(IF)Ljava/util/Optional;", cancellable = true)
+    private static void ofRelativeSpeed__1469424494(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1469424494L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "maxDurationTicks()I", cancellable = true)
     private void maxDurationTicks_405213071(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(405213071L))
-            info.setReturnValue(-373677065);
-    }
-
-    @Inject(at = @At("HEAD"), method = "minRelativeSpeed()F", cancellable = true)
-    private void minRelativeSpeed_405210188(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(405210188L))
-            info.setReturnValue(2.087779E8F);
+            info.setReturnValue(-438413265);
     }
 
     @Inject(at = @At("HEAD"), method = "minSpeed()F", cancellable = true)
     private void minSpeed_405210188(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(405210188L))
-            info.setReturnValue(2.087779E8F);
+            info.setReturnValue(1.440417E8F);
     }
 
 

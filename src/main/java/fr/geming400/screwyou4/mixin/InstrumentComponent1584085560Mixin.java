@@ -22,19 +22,19 @@ public class InstrumentComponent1584085560Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1622348302(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1622348302L))
-            info.setReturnValue(-1377117352);
-    }
-
-    @Inject(at = @At("HEAD"), method = "addToTooltip(Lnet/minecraft/world/item/Item$TooltipContext;Ljava/util/function/Consumer;Lnet/minecraft/world/item/TooltipFlag;Lnet/minecraft/core/component/DataComponentGetter;)V", cancellable = true)
-    private void addToTooltip__958632830(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-958632830L))
-            info.cancel();
+            info.setReturnValue(-1067695952);
     }
 
     @Inject(at = @At("HEAD"), method = "instrument()Lnet/minecraft/core/Holder;", cancellable = true)
     private void instrument__1162005964(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1162005964L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "addToTooltip(Lnet/minecraft/world/item/Item$TooltipContext;Ljava/util/function/Consumer;Lnet/minecraft/world/item/TooltipFlag;Lnet/minecraft/core/component/DataComponentGetter;)V", cancellable = true)
+    private void addToTooltip__958632830(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-958632830L))
+            info.cancel();
     }
 
 

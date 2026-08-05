@@ -22,7 +22,7 @@ public class Packed284368898Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_322631640(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(322631640L))
-            info.setReturnValue(446168126);
+            info.setReturnValue(24523326);
     }
 
     @Inject(at = @At("HEAD"), method = "memories()Lnet/minecraft/world/entity/ai/memory/MemoryMap;", cancellable = true)

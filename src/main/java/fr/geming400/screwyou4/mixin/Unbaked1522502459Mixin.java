@@ -28,19 +28,7 @@ public class Unbaked1522502459Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1560765201(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1560765201L))
-            info.setReturnValue(-1488855675);
-    }
-
-    @Inject(at = @At("HEAD"), method = "bake(Lnet/minecraft/client/renderer/special/SpecialModelRenderer$BakingContext;)Lnet/minecraft/client/renderer/special/SpecialModelRenderer;", cancellable = true)
-    private void bake__165520401(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-165520401L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "bake(Lnet/minecraft/client/renderer/special/SpecialModelRenderer$BakingContext;)Lnet/minecraft/client/renderer/special/CopperGolemStatueSpecialRenderer;", cancellable = true)
-    private void bake_906528125(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(906528125L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1478170475);
     }
 
     @Inject(at = @At("HEAD"), method = "pose()Lnet/minecraft/world/level/block/CopperGolemStatueBlock$Pose;", cancellable = true)
@@ -52,6 +40,18 @@ public class Unbaked1522502459Mixin {
     @Inject(at = @At("HEAD"), method = "texture()Lnet/minecraft/resources/Identifier;", cancellable = true)
     private void texture__920564094(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-920564094L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "bake(Lnet/minecraft/client/renderer/special/SpecialModelRenderer$BakingContext;)Lnet/minecraft/client/renderer/special/SpecialModelRenderer;", cancellable = true)
+    private void bake__165520401(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-165520401L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "bake(Lnet/minecraft/client/renderer/special/SpecialModelRenderer$BakingContext;)Lnet/minecraft/client/renderer/special/CopperGolemStatueSpecialRenderer;", cancellable = true)
+    private void bake_906528125(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(906528125L))
             info.setReturnValue(null);
     }
 

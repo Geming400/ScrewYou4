@@ -28,19 +28,19 @@ public class Clamped_1630796126Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1669058867(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1669058867L))
-            info.setReturnValue(704258405);
+            info.setReturnValue(1154998605);
     }
 
     @Inject(at = @At("HEAD"), method = "min()F", cancellable = true)
     private void min_1669055488(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1669055488L))
-            info.setReturnValue(1.5859101E7F);
+            info.setReturnValue(4.665993E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "max()F", cancellable = true)
     private void max_1669055488(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1669055488L))
-            info.setReturnValue(1.5859101E7F);
+            info.setReturnValue(4.665993E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
@@ -52,7 +52,7 @@ public class Clamped_1630796126Mixin {
     @Inject(at = @At("HEAD"), method = "calculate(I)F", cancellable = true)
     private void calculate__1450269575(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1450269575L))
-            info.setReturnValue(1.5859101E7F);
+            info.setReturnValue(4.665993E8F);
     }
 
 

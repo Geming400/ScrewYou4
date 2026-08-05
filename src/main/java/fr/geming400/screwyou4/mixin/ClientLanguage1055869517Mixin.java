@@ -19,6 +19,12 @@ public class ClientLanguage1055869517Mixin {
             info.setReturnValue(true);
     }
 
+    @Inject(at = @At("HEAD"), method = "loadFrom(Lnet/minecraft/server/packs/resources/ResourceManager;Ljava/util/List;Z)Lnet/minecraft/client/resources/language/ClientLanguage;", cancellable = true)
+    private static void loadFrom__114237823(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-114237823L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "getVisualOrder(Lnet/minecraft/network/chat/FormattedText;)Lnet/minecraft/util/FormattedCharSequence;", cancellable = true)
     private void getVisualOrder_1833512889(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1833512889L))
@@ -29,12 +35,6 @@ public class ClientLanguage1055869517Mixin {
     private void isDefaultRightToLeft_1094148100(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1094148100L))
             info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "loadFrom(Lnet/minecraft/server/packs/resources/ResourceManager;Ljava/util/List;Z)Lnet/minecraft/client/resources/language/ClientLanguage;", cancellable = true)
-    private static void loadFrom__114237823(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-114237823L))
-            info.setReturnValue(null);
     }
 
 

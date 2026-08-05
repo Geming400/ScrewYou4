@@ -22,7 +22,7 @@ public class DistancePredicate_674785724Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_713048465(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(713048465L))
-            info.setReturnValue(1246839667);
+            info.setReturnValue(1308189667);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(DDDDDD)Z", cancellable = true)
@@ -49,21 +49,21 @@ public class DistancePredicate_674785724Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "absolute(Lnet/minecraft/advancements/predicates/MinMaxBounds$Doubles;)Lnet/minecraft/advancements/predicates/DistancePredicate;", cancellable = true)
-    private static void absolute_1779818431(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1779818431L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "absolute()Lnet/minecraft/advancements/predicates/MinMaxBounds$Doubles;", cancellable = true)
     private void absolute__21681639(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-21681639L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "vertical(Lnet/minecraft/advancements/predicates/MinMaxBounds$Doubles;)Lnet/minecraft/advancements/predicates/DistancePredicate;", cancellable = true)
-    private static void vertical_1779818431(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "absolute(Lnet/minecraft/advancements/predicates/MinMaxBounds$Doubles;)Lnet/minecraft/advancements/predicates/DistancePredicate;", cancellable = true)
+    private static void absolute_1779818431(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1779818431L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "horizontal()Lnet/minecraft/advancements/predicates/MinMaxBounds$Doubles;", cancellable = true)
+    private void horizontal__21681639(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-21681639L))
             info.setReturnValue(null);
     }
 
@@ -73,9 +73,9 @@ public class DistancePredicate_674785724Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "horizontal()Lnet/minecraft/advancements/predicates/MinMaxBounds$Doubles;", cancellable = true)
-    private void horizontal__21681639(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-21681639L))
+    @Inject(at = @At("HEAD"), method = "vertical(Lnet/minecraft/advancements/predicates/MinMaxBounds$Doubles;)Lnet/minecraft/advancements/predicates/DistancePredicate;", cancellable = true)
+    private static void vertical_1779818431(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1779818431L))
             info.setReturnValue(null);
     }
 

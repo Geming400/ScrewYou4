@@ -22,17 +22,17 @@ public class SignTransformations_1692086415Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1730349156(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1730349156L))
-            info.setReturnValue(-1776585548);
-    }
-
-    @Inject(at = @At("HEAD"), method = "frontText()Lcom/mojang/math/Transformation;", cancellable = true)
-    private void frontText__1824896453(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1824896453L))
-            info.setReturnValue(null);
+            info.setReturnValue(-2021818348);
     }
 
     @Inject(at = @At("HEAD"), method = "backText()Lcom/mojang/math/Transformation;", cancellable = true)
     private void backText__1824896453(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1824896453L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "frontText()Lcom/mojang/math/Transformation;", cancellable = true)
+    private void frontText__1824896453(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1824896453L))
             info.setReturnValue(null);
     }

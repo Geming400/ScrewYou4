@@ -22,13 +22,13 @@ public class TiledBlitRenderState444381190Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_482643932(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(482643932L))
-            info.setReturnValue(1600508614);
+            info.setReturnValue(1902827514);
     }
 
     @Inject(at = @At("HEAD"), method = "v1()F", cancellable = true)
     private void v1_482640553(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(482640553L))
-            info.setReturnValue(3.8823E8F);
+            info.setReturnValue(6.905489E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "bounds()Lnet/minecraft/client/gui/navigation/ScreenRectangle;", cancellable = true)
@@ -40,49 +40,49 @@ public class TiledBlitRenderState444381190Mixin {
     @Inject(at = @At("HEAD"), method = "x1()I", cancellable = true)
     private void x1_482643436(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(482643436L))
-            info.setReturnValue(1779032103);
+            info.setReturnValue(2081351003);
     }
 
     @Inject(at = @At("HEAD"), method = "color()I", cancellable = true)
     private void color_482643436(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(482643436L))
-            info.setReturnValue(1779032103);
+            info.setReturnValue(2081351003);
     }
 
     @Inject(at = @At("HEAD"), method = "y1()I", cancellable = true)
     private void y1_482643436(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(482643436L))
-            info.setReturnValue(1779032103);
+            info.setReturnValue(2081351003);
     }
 
     @Inject(at = @At("HEAD"), method = "u1()F", cancellable = true)
     private void u1_482640553(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(482640553L))
-            info.setReturnValue(3.8823E8F);
+            info.setReturnValue(6.905489E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "v0()F", cancellable = true)
     private void v0_482640553(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(482640553L))
-            info.setReturnValue(3.8823E8F);
+            info.setReturnValue(6.905489E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "u0()F", cancellable = true)
     private void u0_482640553(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(482640553L))
-            info.setReturnValue(3.8823E8F);
+            info.setReturnValue(6.905489E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "x0()I", cancellable = true)
     private void x0_482643436(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(482643436L))
-            info.setReturnValue(1779032103);
+            info.setReturnValue(2081351003);
     }
 
     @Inject(at = @At("HEAD"), method = "y0()I", cancellable = true)
     private void y0_482643436(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(482643436L))
-            info.setReturnValue(1779032103);
+            info.setReturnValue(2081351003);
     }
 
     @Inject(at = @At("HEAD"), method = "pose()Lorg/joml/Matrix3x2f;", cancellable = true)
@@ -109,22 +109,22 @@ public class TiledBlitRenderState444381190Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "pipeline()Lcom/mojang/blaze3d/pipeline/RenderPipeline;", cancellable = true)
+    private void pipeline_1441789402(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1441789402L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "tileHeight()I", cancellable = true)
     private void tileHeight_482643436(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(482643436L))
-            info.setReturnValue(1779032103);
+            info.setReturnValue(2081351003);
     }
 
     @Inject(at = @At("HEAD"), method = "tileWidth()I", cancellable = true)
     private void tileWidth_482643436(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(482643436L))
-            info.setReturnValue(1779032103);
-    }
-
-    @Inject(at = @At("HEAD"), method = "pipeline()Lcom/mojang/blaze3d/pipeline/RenderPipeline;", cancellable = true)
-    private void pipeline_1441789402(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1441789402L))
-            info.setReturnValue(null);
+            info.setReturnValue(2081351003);
     }
 
 

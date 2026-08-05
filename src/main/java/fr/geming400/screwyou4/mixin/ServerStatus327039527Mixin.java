@@ -28,18 +28,12 @@ public class ServerStatus327039527Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_365302269(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(365302269L))
-            info.setReturnValue(-1120767214);
+            info.setReturnValue(-1116369414);
     }
 
     @Inject(at = @At("HEAD"), method = "description()Lnet/minecraft/network/chat/Component;", cancellable = true)
     private void description__1849869638(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1849869638L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "favicon()Ljava/util/Optional;", cancellable = true)
-    private void favicon_572500949(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(572500949L))
             info.setReturnValue(null);
     }
 
@@ -53,6 +47,12 @@ public class ServerStatus327039527Mixin {
     private void enforcesSecureChat_365318110(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(365318110L))
             info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "favicon()Ljava/util/Optional;", cancellable = true)
+    private void favicon_572500949(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(572500949L))
+            info.setReturnValue(null);
     }
 
 

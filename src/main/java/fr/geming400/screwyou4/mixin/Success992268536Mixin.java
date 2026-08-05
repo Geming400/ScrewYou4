@@ -22,7 +22,7 @@ public class Success992268536Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1030531278(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1030531278L))
-            info.setReturnValue(-693007905);
+            info.setReturnValue(-120398705);
     }
 
     @Inject(at = @At("HEAD"), method = "consumesAction()Z", cancellable = true)
@@ -49,10 +49,10 @@ public class Success992268536Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "itemContext()Lnet/minecraft/world/InteractionResult$ItemContext;", cancellable = true)
-    private void itemContext__311536986(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-311536986L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "swingSource()Lnet/minecraft/world/InteractionResult$SwingSource;", cancellable = true)
+    private void swingSource_334232553(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(334232553L))
+            info.setReturnValue(net.minecraft.world.InteractionResult.SwingSource.SERVER);
     }
 
     @Inject(at = @At("HEAD"), method = "wasItemInteraction()Z", cancellable = true)
@@ -61,10 +61,10 @@ public class Success992268536Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "swingSource()Lnet/minecraft/world/InteractionResult$SwingSource;", cancellable = true)
-    private void swingSource_334232553(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(334232553L))
-            info.setReturnValue(net.minecraft.world.InteractionResult.SwingSource.SERVER);
+    @Inject(at = @At("HEAD"), method = "itemContext()Lnet/minecraft/world/InteractionResult$ItemContext;", cancellable = true)
+    private void itemContext__311536986(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-311536986L))
+            info.setReturnValue(null);
     }
 
 

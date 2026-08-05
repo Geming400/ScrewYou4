@@ -22,19 +22,19 @@ public class Move_2100631335Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2138894076(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2138894076L))
-            info.setReturnValue(1053133761);
+            info.setReturnValue(1145093061);
     }
 
     @Inject(at = @At("HEAD"), method = "from()Ljava/lang/String;", cancellable = true)
     private void from_965170863(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(965170863L))
-            info.setReturnValue("9|z俆ix}᫄o:O1yYﭏr鑦93㰤6Ჷh6m魚cqz-FVF確elAY`Qa20YⒹb[4$╂g|]$^<bj6@+\");
+            info.setReturnValue("9|z俆ix}᫄o:O1yYﭏr鑦93㰤6Ჷh6m魚cqz-FVF確elAY`Qa20YⒹb[4$╂g|]$^<bj6@+\"");
     }
 
     @Inject(at = @At("HEAD"), method = "to()Ljava/lang/String;", cancellable = true)
     private void to_965170863(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(965170863L))
-            info.setReturnValue("9|z俆ix}᫄o:O1yYﭏr鑦93㰤6Ჷh6m魚cqz-FVF確elAY`Qa20YⒹb[4$╂g|]$^<bj6@+\");
+            info.setReturnValue("9|z俆ix}᫄o:O1yYﭏr鑦93㰤6Ჷh6m魚cqz-FVF確elAY`Qa20YⒹb[4$╂g|]$^<bj6@+\"");
     }
 
     @Inject(at = @At("HEAD"), method = "fix(Ljava/nio/file/Path;Lnet/minecraft/util/worldupdate/UpgradeProgress;)V", cancellable = true)

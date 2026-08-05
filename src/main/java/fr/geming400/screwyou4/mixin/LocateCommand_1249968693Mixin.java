@@ -13,16 +13,16 @@ public class LocateCommand_1249968693Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "showLocateResult(Lnet/minecraft/commands/CommandSourceStack;Lnet/minecraft/commands/arguments/ResourceOrTagArgument$Result;Lnet/minecraft/core/BlockPos;Lcom/mojang/datafixers/util/Pair;Ljava/lang/String;ZLjava/time/Duration;)I", cancellable = true)
-    private static void showLocateResult_266149705(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(266149705L))
-            info.setReturnValue(2092296805);
-    }
-
     @Inject(at = @At("HEAD"), method = "showLocateResult(Lnet/minecraft/commands/CommandSourceStack;Lnet/minecraft/commands/arguments/ResourceOrTagKeyArgument$Result;Lnet/minecraft/core/BlockPos;Lcom/mojang/datafixers/util/Pair;Ljava/lang/String;ZLjava/time/Duration;)I", cancellable = true)
     private static void showLocateResult__1195074360(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1195074360L))
-            info.setReturnValue(-725544800);
+            info.setReturnValue(-754698600);
+    }
+
+    @Inject(at = @At("HEAD"), method = "showLocateResult(Lnet/minecraft/commands/CommandSourceStack;Lnet/minecraft/commands/arguments/ResourceOrTagArgument$Result;Lnet/minecraft/core/BlockPos;Lcom/mojang/datafixers/util/Pair;Ljava/lang/String;ZLjava/time/Duration;)I", cancellable = true)
+    private static void showLocateResult_266149705(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(266149705L))
+            info.setReturnValue(2063143005);
     }
 
 

@@ -31,9 +31,33 @@ public class BeaconBlockEntity_1785098306Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "playSound(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/sounds/SoundEvent;)V", cancellable = true)
-    private static void playSound_490075644(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(490075644L))
+    @Inject(at = @At("HEAD"), method = "removeComponentsFromTag(Lnet/minecraft/world/level/storage/ValueOutput;)V", cancellable = true)
+    private void removeComponentsFromTag_565966953(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(565966953L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getUpdatePacket()Lnet/minecraft/network/protocol/game/ClientboundBlockEntityDataPacket;", cancellable = true)
+    private void getUpdatePacket_788246533(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(788246533L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getUpdatePacket()Lnet/minecraft/network/protocol/Packet;", cancellable = true)
+    private void getUpdatePacket_770545243(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(770545243L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getUpdateTag(Lnet/minecraft/core/HolderLookup$Provider;)Lnet/minecraft/nbt/CompoundTag;", cancellable = true)
+    private void getUpdateTag_618476757(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(618476757L))
+            info.setReturnValue(new net.minecraft.nbt.CompoundTag());
+    }
+
+    @Inject(at = @At("HEAD"), method = "setRemoved()V", cancellable = true)
+    private void setRemoved_1823373044(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1823373044L))
             info.cancel();
     }
 
@@ -49,33 +73,9 @@ public class BeaconBlockEntity_1785098306Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "setRemoved()V", cancellable = true)
-    private void setRemoved_1823373044(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1823373044L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "getUpdateTag(Lnet/minecraft/core/HolderLookup$Provider;)Lnet/minecraft/nbt/CompoundTag;", cancellable = true)
-    private void getUpdateTag_618476757(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(618476757L))
-            info.setReturnValue(new net.minecraft.nbt.CompoundTag());
-    }
-
-    @Inject(at = @At("HEAD"), method = "getUpdatePacket()Lnet/minecraft/network/protocol/game/ClientboundBlockEntityDataPacket;", cancellable = true)
-    private void getUpdatePacket_788246533(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(788246533L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getUpdatePacket()Lnet/minecraft/network/protocol/Packet;", cancellable = true)
-    private void getUpdatePacket_770545243(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(770545243L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "removeComponentsFromTag(Lnet/minecraft/world/level/storage/ValueOutput;)V", cancellable = true)
-    private void removeComponentsFromTag_565966953(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(565966953L))
+    @Inject(at = @At("HEAD"), method = "playSound(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/sounds/SoundEvent;)V", cancellable = true)
+    private static void playSound_490075644(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(490075644L))
             info.cancel();
     }
 

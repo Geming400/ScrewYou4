@@ -10,7 +10,7 @@ public class AdvancementRequirements_815940142Mixin {
         @Inject(at = @At("HEAD"), method = "size()I", cancellable = true)
     private void size_854202387(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(854202387L))
-            info.setReturnValue(26189179);
+            info.setReturnValue(-36871621);
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
@@ -28,7 +28,7 @@ public class AdvancementRequirements_815940142Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_854202883(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(854202883L))
-            info.setReturnValue(-176958240);
+            info.setReturnValue(-240019040);
     }
 
     @Inject(at = @At("HEAD"), method = "test(Ljava/util/function/Predicate;)Z", cancellable = true)
@@ -46,7 +46,7 @@ public class AdvancementRequirements_815940142Mixin {
     @Inject(at = @At("HEAD"), method = "count(Ljava/util/function/Predicate;)I", cancellable = true)
     private void count_886284194(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(886284194L))
-            info.setReturnValue(-1081309442);
+            info.setReturnValue(-1144370242);
     }
 
     @Inject(at = @At("HEAD"), method = "validate(Ljava/util/Set;)Lcom/mojang/serialization/DataResult;", cancellable = true)

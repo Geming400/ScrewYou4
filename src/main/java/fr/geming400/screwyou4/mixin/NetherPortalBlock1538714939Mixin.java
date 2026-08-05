@@ -13,18 +13,6 @@ public class NetherPortalBlock1538714939Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getLocalTransition()Lnet/minecraft/world/level/block/Portal$Transition;", cancellable = true)
-    private void getLocalTransition__307950384(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-307950384L))
-            info.setReturnValue(net.minecraft.world.level.block.Portal.Transition.NONE);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getPortalTransitionTime(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/Entity;)I", cancellable = true)
-    private void getPortalTransitionTime__1112228983(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1112228983L))
-            info.setReturnValue(72598894);
-    }
-
     @Inject(at = @At("HEAD"), method = "animateTick(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)V", cancellable = true)
     private void animateTick_1416112858(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1416112858L))
@@ -35,6 +23,18 @@ public class NetherPortalBlock1538714939Mixin {
     private void getPortalDestination__1919928700(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1919928700L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getLocalTransition()Lnet/minecraft/world/level/block/Portal$Transition;", cancellable = true)
+    private void getLocalTransition__307950384(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-307950384L))
+            info.setReturnValue(net.minecraft.world.level.block.Portal.Transition.NONE);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getPortalTransitionTime(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/Entity;)I", cancellable = true)
+    private void getPortalTransitionTime__1112228983(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1112228983L))
+            info.setReturnValue(548970894);
     }
 
 

@@ -40,7 +40,7 @@ public class Relative_359033624Mixin {
     @Inject(at = @At("HEAD"), method = "pack(Ljava/util/Set;)I", cancellable = true)
     private static void pack__185059350(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-185059350L))
-            info.setReturnValue(-856968888);
+            info.setReturnValue(-591558388);
     }
 
     @Inject(at = @At("HEAD"), method = "rotation(ZZ)Ljava/util/Set;", cancellable = true)

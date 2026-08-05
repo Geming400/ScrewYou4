@@ -28,7 +28,7 @@ public class Filterable_750403418Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_788666159(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(788666159L))
-            info.setReturnValue(1579607614);
+            info.setReturnValue(1930627114);
     }
 
     @Inject(at = @At("HEAD"), method = "map(Ljava/util/function/Function;)Lnet/minecraft/server/network/Filterable;", cancellable = true)

@@ -22,7 +22,7 @@ public class FrogVariant503710275Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_541973017(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(541973017L))
-            info.setReturnValue(1090712518);
+            info.setReturnValue(1018773018);
     }
 
     @Inject(at = @At("HEAD"), method = "spawnConditions()Lnet/minecraft/world/entity/variant/SpawnPrioritySelectors;", cancellable = true)
@@ -31,15 +31,15 @@ public class FrogVariant503710275Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "selectors()Ljava/util/List;", cancellable = true)
-    private void selectors_2130047091(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2130047091L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "assetInfo()Lnet/minecraft/core/ClientAsset$ResourceTexture;", cancellable = true)
     private void assetInfo__748470945(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-748470945L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "selectors()Ljava/util/List;", cancellable = true)
+    private void selectors_2130047091(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2130047091L))
             info.setReturnValue(null);
     }
 

@@ -34,7 +34,7 @@ public class ItemStackSlotDisplay1990195343Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2028458085(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2028458085L))
-            info.setReturnValue(325988749);
+            info.setReturnValue(378976749);
     }
 
     @Inject(at = @At("HEAD"), method = "resolve(Lnet/minecraft/util/context/ContextMap;Lnet/minecraft/world/item/crafting/display/DisplayContentsFactory;)Ljava/util/stream/Stream;", cancellable = true)

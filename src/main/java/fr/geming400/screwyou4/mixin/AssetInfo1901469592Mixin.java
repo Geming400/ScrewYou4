@@ -22,7 +22,7 @@ public class AssetInfo1901469592Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1939732334(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1939732334L))
-            info.setReturnValue(-1661276904);
+            info.setReturnValue(1871155992);
     }
 
     @Inject(at = @At("HEAD"), method = "suffix()Ljava/lang/String;", cancellable = true)

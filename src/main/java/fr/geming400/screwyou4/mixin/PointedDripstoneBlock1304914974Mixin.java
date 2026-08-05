@@ -37,16 +37,16 @@ public class PointedDripstoneBlock1304914974Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getCauldronFillFluidType(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/material/Fluid;", cancellable = true)
-    private static void getCauldronFillFluidType__1484288541(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1484288541L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "maybeTransferFluid(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;F)V", cancellable = true)
     private static void maybeTransferFluid__598956949(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-598956949L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getCauldronFillFluidType(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/material/Fluid;", cancellable = true)
+    private static void getCauldronFillFluidType__1484288541(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1484288541L))
+            info.setReturnValue(null);
     }
 
 

@@ -7,15 +7,9 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.world.entity.monster.zombie.Drowned.class)
 public class Drowned32736009Mixin {
-        @Inject(at = @At("HEAD"), method = "okTarget(Lnet/minecraft/world/entity/LivingEntity;)Z", cancellable = true)
-    private void okTarget_354403184(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(354403184L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "performRangedAttack(Lnet/minecraft/world/entity/LivingEntity;F)V", cancellable = true)
-    private void performRangedAttack_1438994178(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1438994178L))
+        @Inject(at = @At("HEAD"), method = "rideTick()V", cancellable = true)
+    private void rideTick_71010748(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(71010748L))
             info.cancel();
     }
 
@@ -49,9 +43,9 @@ public class Drowned32736009Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "wantsToPickUp(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/item/ItemStack;)Z", cancellable = true)
-    private void wantsToPickUp__1983629258(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1983629258L))
+    @Inject(at = @At("HEAD"), method = "checkSpawnObstruction(Lnet/minecraft/world/level/LevelReader;)Z", cancellable = true)
+    private void checkSpawnObstruction_1069890220(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1069890220L))
             info.setReturnValue(false);
     }
 
@@ -61,20 +55,38 @@ public class Drowned32736009Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "checkSpawnObstruction(Lnet/minecraft/world/level/LevelReader;)Z", cancellable = true)
-    private void checkSpawnObstruction_1069890220(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1069890220L))
+    @Inject(at = @At("HEAD"), method = "wantsToPickUp(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/item/ItemStack;)Z", cancellable = true)
+    private void wantsToPickUp__1983629258(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1983629258L))
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "rideTick()V", cancellable = true)
-    private void rideTick_71010748(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(71010748L))
+    @Inject(at = @At("HEAD"), method = "performRangedAttack(Lnet/minecraft/world/entity/LivingEntity;F)V", cancellable = true)
+    private void performRangedAttack_1438994178(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1438994178L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "okTarget(Lnet/minecraft/world/entity/LivingEntity;)Z", cancellable = true)
+    private void okTarget_354403184(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(354403184L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "finalizeSpawn(Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData;", cancellable = true)
+    private void finalizeSpawn_1881467947(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1881467947L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "wantsToSwim()Z", cancellable = true)
     private void wantsToSwim_71014592(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(71014592L))
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isSearchingForLand()Z", cancellable = true)
+    private void isSearchingForLand_71014592(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(71014592L))
             info.setReturnValue(false);
     }
@@ -85,22 +97,10 @@ public class Drowned32736009Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "isSearchingForLand()Z", cancellable = true)
-    private void isSearchingForLand_71014592(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(71014592L))
-            info.setReturnValue(false);
-    }
-
     @Inject(at = @At("HEAD"), method = "setSearchingForLand(Z)V", cancellable = true)
     private void setSearchingForLand_1262352838(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1262352838L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "finalizeSpawn(Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData;", cancellable = true)
-    private void finalizeSpawn_1881467947(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1881467947L))
-            info.setReturnValue(null);
     }
 
 

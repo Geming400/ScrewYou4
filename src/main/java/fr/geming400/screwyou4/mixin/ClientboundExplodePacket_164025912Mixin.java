@@ -28,7 +28,13 @@ public class ClientboundExplodePacket_164025912Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_202288653(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(202288653L))
-            info.setReturnValue(1624859291);
+            info.setReturnValue(1646168691);
+    }
+
+    @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/PacketListener;)V", cancellable = true)
+    private void handle_842094824(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(842094824L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/protocol/game/ClientGamePacketListener;)V", cancellable = true)
@@ -37,10 +43,16 @@ public class ClientboundExplodePacket_164025912Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/PacketListener;)V", cancellable = true)
-    private void handle_842094824(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(842094824L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "center()Lnet/minecraft/world/phys/Vec3;", cancellable = true)
+    private void center_1261755440(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1261755440L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "blockCount()I", cancellable = true)
+    private void blockCount_202288157(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(202288157L))
+            info.setReturnValue(1849822610);
     }
 
     @Inject(at = @At("HEAD"), method = "explosionSound()Lnet/minecraft/core/Holder;", cancellable = true)
@@ -70,19 +82,7 @@ public class ClientboundExplodePacket_164025912Mixin {
     @Inject(at = @At("HEAD"), method = "radius()F", cancellable = true)
     private void radius_202285274(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(202285274L))
-            info.setReturnValue(3.634183E8F);
-    }
-
-    @Inject(at = @At("HEAD"), method = "center()Lnet/minecraft/world/phys/Vec3;", cancellable = true)
-    private void center_1261755440(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1261755440L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "blockCount()I", cancellable = true)
-    private void blockCount_202288157(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(202288157L))
-            info.setReturnValue(1828006710);
+            info.setReturnValue(3.852342E8F);
     }
 
 

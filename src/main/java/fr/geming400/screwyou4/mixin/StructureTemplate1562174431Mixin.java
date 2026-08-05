@@ -13,15 +13,15 @@ public class StructureTemplate1562174431Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "transform(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/Mirror;Lnet/minecraft/world/level/block/Rotation;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/core/BlockPos;", cancellable = true)
-    private static void transform__1745782989(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1745782989L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "transform(Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/world/level/block/Mirror;Lnet/minecraft/world/level/block/Rotation;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/phys/Vec3;", cancellable = true)
     private static void transform__1772679245(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1772679245L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "transform(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/Mirror;Lnet/minecraft/world/level/block/Rotation;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/core/BlockPos;", cancellable = true)
+    private static void transform__1745782989(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1745782989L))
             info.setReturnValue(null);
     }
 
@@ -43,21 +43,9 @@ public class StructureTemplate1562174431Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getZeroPositionWithTransform(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/Mirror;Lnet/minecraft/world/level/block/Rotation;)Lnet/minecraft/core/BlockPos;", cancellable = true)
-    private void getZeroPositionWithTransform_1074024185(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1074024185L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getZeroPositionWithTransform(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/Mirror;Lnet/minecraft/world/level/block/Rotation;II)Lnet/minecraft/core/BlockPos;", cancellable = true)
-    private static void getZeroPositionWithTransform_285830353(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(285830353L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "processBlockInfos(Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructurePlaceSettings;Ljava/util/List;)Ljava/util/List;", cancellable = true)
-    private static void processBlockInfos__1572812714(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1572812714L))
+    @Inject(at = @At("HEAD"), method = "getJigsaws(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/Rotation;)Ljava/util/List;", cancellable = true)
+    private void getJigsaws_1605566184(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1605566184L))
             info.setReturnValue(null);
     }
 
@@ -67,9 +55,39 @@ public class StructureTemplate1562174431Mixin {
             info.setReturnValue(net.minecraft.world.level.block.entity.JigsawBlockEntity.JointType.ROLLABLE);
     }
 
-    @Inject(at = @At("HEAD"), method = "calculateConnectedPosition(Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructurePlaceSettings;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructurePlaceSettings;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/core/BlockPos;", cancellable = true)
-    private void calculateConnectedPosition__987949248(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-987949248L))
+    @Inject(at = @At("HEAD"), method = "processBlockInfos(Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructurePlaceSettings;Ljava/util/List;)Ljava/util/List;", cancellable = true)
+    private static void processBlockInfos__1572812714(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1572812714L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "filterBlocks(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructurePlaceSettings;Lnet/minecraft/world/level/block/Block;Z)Lit/unimi/dsi/fastutil/objects/ObjectArrayList;", cancellable = true)
+    private void filterBlocks_2081349286(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2081349286L))
+            info.setReturnValue(new it.unimi.dsi.fastutil.objects.ObjectArrayList());
+    }
+
+    @Inject(at = @At("HEAD"), method = "filterBlocks(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructurePlaceSettings;Lnet/minecraft/world/level/block/Block;)Ljava/util/List;", cancellable = true)
+    private void filterBlocks_525464816(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(525464816L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "calculateRelativePosition(Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructurePlaceSettings;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/core/BlockPos;", cancellable = true)
+    private static void calculateRelativePosition__1676631625(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1676631625L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getBoundingBox(Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructurePlaceSettings;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/levelgen/structure/BoundingBox;", cancellable = true)
+    private void getBoundingBox__2134397782(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2134397782L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getBoundingBox(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/Rotation;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/Mirror;)Lnet/minecraft/world/level/levelgen/structure/BoundingBox;", cancellable = true)
+    private void getBoundingBox_1824001866(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1824001866L))
             info.setReturnValue(null);
     }
 
@@ -91,33 +109,21 @@ public class StructureTemplate1562174431Mixin {
             info.setReturnValue(net.minecraft.world.level.block.entity.JigsawBlockEntity.JointType.ROLLABLE);
     }
 
-    @Inject(at = @At("HEAD"), method = "getBoundingBox(Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructurePlaceSettings;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/levelgen/structure/BoundingBox;", cancellable = true)
-    private void getBoundingBox__2134397782(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2134397782L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "getAuthor()Ljava/lang/String;", cancellable = true)
+    private void getAuthor_426713960(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(426713960L))
+            info.setReturnValue("G㟹e");
     }
 
-    @Inject(at = @At("HEAD"), method = "getBoundingBox(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/Rotation;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/Mirror;)Lnet/minecraft/world/level/levelgen/structure/BoundingBox;", cancellable = true)
-    private void getBoundingBox_1824001866(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1824001866L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "setAuthor(Ljava/lang/String;)V", cancellable = true)
+    private void setAuthor__1580431716(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1580431716L))
+            info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "filterBlocks(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructurePlaceSettings;Lnet/minecraft/world/level/block/Block;)Ljava/util/List;", cancellable = true)
-    private void filterBlocks_525464816(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(525464816L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "filterBlocks(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructurePlaceSettings;Lnet/minecraft/world/level/block/Block;Z)Lit/unimi/dsi/fastutil/objects/ObjectArrayList;", cancellable = true)
-    private void filterBlocks_2081349286(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2081349286L))
-            info.setReturnValue(new it.unimi.dsi.fastutil.objects.ObjectArrayList());
-    }
-
-    @Inject(at = @At("HEAD"), method = "calculateRelativePosition(Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructurePlaceSettings;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/core/BlockPos;", cancellable = true)
-    private static void calculateRelativePosition__1676631625(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1676631625L))
+    @Inject(at = @At("HEAD"), method = "calculateConnectedPosition(Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructurePlaceSettings;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructurePlaceSettings;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/core/BlockPos;", cancellable = true)
+    private void calculateConnectedPosition__987949248(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-987949248L))
             info.setReturnValue(null);
     }
 
@@ -133,21 +139,15 @@ public class StructureTemplate1562174431Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "setAuthor(Ljava/lang/String;)V", cancellable = true)
-    private void setAuthor__1580431716(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1580431716L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "getZeroPositionWithTransform(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/Mirror;Lnet/minecraft/world/level/block/Rotation;)Lnet/minecraft/core/BlockPos;", cancellable = true)
+    private void getZeroPositionWithTransform_1074024185(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1074024185L))
+            info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getAuthor()Ljava/lang/String;", cancellable = true)
-    private void getAuthor_426713960(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(426713960L))
-            info.setReturnValue("G㟹e");
-    }
-
-    @Inject(at = @At("HEAD"), method = "getJigsaws(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/Rotation;)Ljava/util/List;", cancellable = true)
-    private void getJigsaws_1605566184(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1605566184L))
+    @Inject(at = @At("HEAD"), method = "getZeroPositionWithTransform(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/Mirror;Lnet/minecraft/world/level/block/Rotation;II)Lnet/minecraft/core/BlockPos;", cancellable = true)
+    private static void getZeroPositionWithTransform_285830353(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(285830353L))
             info.setReturnValue(null);
     }
 

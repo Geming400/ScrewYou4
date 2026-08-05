@@ -28,7 +28,7 @@ public class ClientboundSetChunkCacheRadiusPacket_611994656Mixin {
     @Inject(at = @At("HEAD"), method = "getRadius()I", cancellable = true)
     private void getRadius_650256901(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(650256901L))
-            info.setReturnValue(-1491029385);
+            info.setReturnValue(-1371648485);
     }
 
 

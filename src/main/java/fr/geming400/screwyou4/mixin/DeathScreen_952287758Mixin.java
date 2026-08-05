@@ -13,6 +13,18 @@ public class DeathScreen_952287758Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "shouldCloseOnEsc()Z", cancellable = true)
+    private void shouldCloseOnEsc_990566340(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(990566340L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isAllowedInPortal()Z", cancellable = true)
+    private void isAllowedInPortal_990566340(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(990566340L))
+            info.setReturnValue(true);
+    }
+
     @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIF)V", cancellable = true)
     private void extractRenderState__7399615(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-7399615L))
@@ -35,18 +47,6 @@ public class DeathScreen_952287758Mixin {
     private void extractBackground__7399615(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-7399615L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "shouldCloseOnEsc()Z", cancellable = true)
-    private void shouldCloseOnEsc_990566340(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(990566340L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isAllowedInPortal()Z", cancellable = true)
-    private void isAllowedInPortal_990566340(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(990566340L))
-            info.setReturnValue(true);
     }
 
 

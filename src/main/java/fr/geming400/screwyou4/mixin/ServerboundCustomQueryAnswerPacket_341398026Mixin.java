@@ -34,7 +34,7 @@ public class ServerboundCustomQueryAnswerPacket_341398026Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_379660767(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(379660767L))
-            info.setReturnValue(1822122831);
+            info.setReturnValue(1830131031);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/protocol/login/ServerLoginPacketListener;)V", cancellable = true)
@@ -52,7 +52,7 @@ public class ServerboundCustomQueryAnswerPacket_341398026Mixin {
     @Inject(at = @At("HEAD"), method = "transactionId()I", cancellable = true)
     private void transactionId_379660271(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(379660271L))
-            info.setReturnValue(424714826);
+            info.setReturnValue(432723026);
     }
 
 

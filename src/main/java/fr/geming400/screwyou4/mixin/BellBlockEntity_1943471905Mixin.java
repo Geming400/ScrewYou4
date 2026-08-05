@@ -13,12 +13,6 @@ public class BellBlockEntity_1943471905Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "serverTick(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/entity/BellBlockEntity;)V", cancellable = true)
-    private static void serverTick__297527825(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-297527825L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "onHit(Lnet/minecraft/core/Direction;)V", cancellable = true)
     private void onHit_823545823(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(823545823L))
@@ -27,6 +21,12 @@ public class BellBlockEntity_1943471905Mixin {
 
     @Inject(at = @At("HEAD"), method = "clientTick(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/entity/BellBlockEntity;)V", cancellable = true)
     private static void clientTick__297527825(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-297527825L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "serverTick(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/entity/BellBlockEntity;)V", cancellable = true)
+    private static void serverTick__297527825(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-297527825L))
             info.cancel();
     }

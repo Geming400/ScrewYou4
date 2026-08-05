@@ -28,7 +28,7 @@ public class ClientboundTickingStatePacket1731716969Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1769979711(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1769979711L))
-            info.setReturnValue(294494604);
+            info.setReturnValue(506748604);
     }
 
     @Inject(at = @At("HEAD"), method = "from(Lnet/minecraft/world/TickRateManager;)Lnet/minecraft/network/protocol/game/ClientboundTickingStatePacket;", cancellable = true)
@@ -58,7 +58,7 @@ public class ClientboundTickingStatePacket1731716969Mixin {
     @Inject(at = @At("HEAD"), method = "tickRate()F", cancellable = true)
     private void tickRate_1769976332(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1769976332L))
-            info.setReturnValue(7.095342E8F);
+            info.setReturnValue(9.217882E8F);
     }
 
 

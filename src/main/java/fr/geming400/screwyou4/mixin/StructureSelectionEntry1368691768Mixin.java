@@ -22,13 +22,13 @@ public class StructureSelectionEntry1368691768Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1406954510(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1406954510L))
-            info.setReturnValue(349480459);
+            info.setReturnValue(287061259);
     }
 
     @Inject(at = @At("HEAD"), method = "weight()I", cancellable = true)
     private void weight_1406954014(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1406954014L))
-            info.setReturnValue(552627879);
+            info.setReturnValue(490208679);
     }
 
     @Inject(at = @At("HEAD"), method = "structure()Lnet/minecraft/core/Holder;", cancellable = true)

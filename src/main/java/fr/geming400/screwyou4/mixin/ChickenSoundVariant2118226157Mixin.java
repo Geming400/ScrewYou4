@@ -22,17 +22,17 @@ public class ChickenSoundVariant2118226157Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__2138478397(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2138478397L))
-            info.setReturnValue(-165069630);
-    }
-
-    @Inject(at = @At("HEAD"), method = "adultSounds()Lnet/minecraft/world/entity/animal/chicken/ChickenSoundVariant$ChickenSoundSet;", cancellable = true)
-    private void adultSounds__265518732(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-265518732L))
-            info.setReturnValue(null);
+            info.setReturnValue(-409990630);
     }
 
     @Inject(at = @At("HEAD"), method = "babySounds()Lnet/minecraft/world/entity/animal/chicken/ChickenSoundVariant$ChickenSoundSet;", cancellable = true)
     private void babySounds__265518732(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-265518732L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "adultSounds()Lnet/minecraft/world/entity/animal/chicken/ChickenSoundVariant$ChickenSoundSet;", cancellable = true)
+    private void adultSounds__265518732(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-265518732L))
             info.setReturnValue(null);
     }

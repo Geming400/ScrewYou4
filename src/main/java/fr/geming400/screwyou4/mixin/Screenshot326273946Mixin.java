@@ -25,15 +25,15 @@ public class Screenshot326273946Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "takeScreenshot(Lcom/mojang/blaze3d/pipeline/RenderTarget;Ljava/util/function/Consumer;)V", cancellable = true)
-    private static void takeScreenshot_817010281(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(817010281L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "takeScreenshot(Lcom/mojang/blaze3d/pipeline/RenderTarget;ILjava/util/function/Consumer;)V", cancellable = true)
     private static void takeScreenshot__815175460(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-815175460L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "takeScreenshot(Lcom/mojang/blaze3d/pipeline/RenderTarget;Ljava/util/function/Consumer;)V", cancellable = true)
+    private static void takeScreenshot_817010281(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(817010281L))
             info.cancel();
     }
 

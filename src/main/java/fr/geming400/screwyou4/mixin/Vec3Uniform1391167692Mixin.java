@@ -34,7 +34,7 @@ public class Vec3Uniform1391167692Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1429430434(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1429430434L))
-            info.setReturnValue(1956598122);
+            info.setReturnValue(-1961754274);
     }
 
     @Inject(at = @At("HEAD"), method = "writeTo(Lcom/mojang/blaze3d/buffers/Std140Builder;)V", cancellable = true)

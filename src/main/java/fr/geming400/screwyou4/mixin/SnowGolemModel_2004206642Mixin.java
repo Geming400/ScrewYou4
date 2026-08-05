@@ -13,6 +13,12 @@ public class SnowGolemModel_2004206642Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "createBodyLayer()Lnet/minecraft/client/model/geom/builders/LayerDefinition;", cancellable = true)
+    private static void createBodyLayer_1290074477(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1290074477L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "setupAnim(Ljava/lang/Object;)V", cancellable = true)
     private void setupAnim__905123776(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-905123776L))
@@ -23,12 +29,6 @@ public class SnowGolemModel_2004206642Mixin {
     private void setupAnim_1079615442(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1079615442L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "createBodyLayer()Lnet/minecraft/client/model/geom/builders/LayerDefinition;", cancellable = true)
-    private static void createBodyLayer_1290074477(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1290074477L))
-            info.setReturnValue(null);
     }
 
 

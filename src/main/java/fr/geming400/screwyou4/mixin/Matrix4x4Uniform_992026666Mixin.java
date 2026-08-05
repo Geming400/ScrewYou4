@@ -34,7 +34,7 @@ public class Matrix4x4Uniform_992026666Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1030289407(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1030289407L))
-            info.setReturnValue(-42934404);
+            info.setReturnValue(609976496);
     }
 
     @Inject(at = @At("HEAD"), method = "writeTo(Lcom/mojang/blaze3d/buffers/Std140Builder;)V", cancellable = true)

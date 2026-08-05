@@ -19,12 +19,6 @@ public class TagLoader1370509631Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "loadTagsForExistingRegistries(Lnet/minecraft/server/packs/resources/ResourceManager;Lnet/minecraft/core/RegistryAccess;)Ljava/util/List;", cancellable = true)
-    private static void loadTagsForExistingRegistries__223517612(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-223517612L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "buildUpdatedLookups(Lnet/minecraft/core/RegistryAccess$Frozen;Ljava/util/List;)Ljava/util/List;", cancellable = true)
     private static void buildUpdatedLookups_491009358(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(491009358L))
@@ -37,16 +31,22 @@ public class TagLoader1370509631Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "loadTagsForRegistry(Lnet/minecraft/server/packs/resources/ResourceManager;Lnet/minecraft/core/WritableRegistry;)V", cancellable = true)
+    private static void loadTagsForRegistry__2040028703(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-2040028703L))
+            info.cancel();
+    }
+
     @Inject(at = @At("HEAD"), method = "loadTagsForRegistry(Lnet/minecraft/server/packs/resources/ResourceManager;Lnet/minecraft/resources/ResourceKey;Lnet/minecraft/tags/TagLoader$ElementLookup;)Ljava/util/Map;", cancellable = true)
     private static void loadTagsForRegistry_984313006(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(984313006L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "loadTagsForRegistry(Lnet/minecraft/server/packs/resources/ResourceManager;Lnet/minecraft/core/WritableRegistry;)V", cancellable = true)
-    private static void loadTagsForRegistry__2040028703(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-2040028703L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "loadTagsForExistingRegistries(Lnet/minecraft/server/packs/resources/ResourceManager;Lnet/minecraft/core/RegistryAccess;)Ljava/util/List;", cancellable = true)
+    private static void loadTagsForExistingRegistries__223517612(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-223517612L))
+            info.setReturnValue(null);
     }
 
 

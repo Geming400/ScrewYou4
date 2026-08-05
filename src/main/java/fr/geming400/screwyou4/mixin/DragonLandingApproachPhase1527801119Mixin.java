@@ -19,16 +19,16 @@ public class DragonLandingApproachPhase1527801119Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getFlyTargetLocation()Lnet/minecraft/world/phys/Vec3;", cancellable = true)
-    private void getFlyTargetLocation__1669436648(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1669436648L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "doServerTick(Lnet/minecraft/server/level/ServerLevel;)V", cancellable = true)
     private void doServerTick_549391779(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(549391779L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getFlyTargetLocation()Lnet/minecraft/world/phys/Vec3;", cancellable = true)
+    private void getFlyTargetLocation__1669436648(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1669436648L))
+            info.setReturnValue(null);
     }
 
 

@@ -22,49 +22,49 @@ public class CardinalLighting_258201634Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_296464375(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(296464375L))
-            info.setReturnValue(-1383569418);
+            info.setReturnValue(-1803327918);
     }
 
     @Inject(at = @At("HEAD"), method = "up()F", cancellable = true)
     private void up_296460996(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(296460996L))
-            info.setReturnValue(4.576841E8F);
+            info.setReturnValue(3.79256E7F);
     }
 
     @Inject(at = @At("HEAD"), method = "down()F", cancellable = true)
     private void down_296460996(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(296460996L))
-            info.setReturnValue(4.576841E8F);
-    }
-
-    @Inject(at = @At("HEAD"), method = "east()F", cancellable = true)
-    private void east_296460996(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(296460996L))
-            info.setReturnValue(4.576841E8F);
-    }
-
-    @Inject(at = @At("HEAD"), method = "west()F", cancellable = true)
-    private void west_296460996(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(296460996L))
-            info.setReturnValue(4.576841E8F);
-    }
-
-    @Inject(at = @At("HEAD"), method = "north()F", cancellable = true)
-    private void north_296460996(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(296460996L))
-            info.setReturnValue(4.576841E8F);
-    }
-
-    @Inject(at = @At("HEAD"), method = "south()F", cancellable = true)
-    private void south_296460996(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(296460996L))
-            info.setReturnValue(4.576841E8F);
+            info.setReturnValue(3.79256E7F);
     }
 
     @Inject(at = @At("HEAD"), method = "byFace(Lnet/minecraft/core/Direction;)F", cancellable = true)
     private void byFace__861739824(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-861739824L))
-            info.setReturnValue(4.576841E8F);
+            info.setReturnValue(3.79256E7F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "west()F", cancellable = true)
+    private void west_296460996(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(296460996L))
+            info.setReturnValue(3.79256E7F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "east()F", cancellable = true)
+    private void east_296460996(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(296460996L))
+            info.setReturnValue(3.79256E7F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "north()F", cancellable = true)
+    private void north_296460996(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(296460996L))
+            info.setReturnValue(3.79256E7F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "south()F", cancellable = true)
+    private void south_296460996(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(296460996L))
+            info.setReturnValue(3.79256E7F);
     }
 
 

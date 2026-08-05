@@ -22,13 +22,13 @@ public class MapItemColor_1569107534Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1607370275(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1607370275L))
-            info.setReturnValue(-1306421075);
+            info.setReturnValue(-1110470775);
     }
 
     @Inject(at = @At("HEAD"), method = "rgb()I", cancellable = true)
     private void rgb_1607369779(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1607369779L))
-            info.setReturnValue(-1103273656);
+            info.setReturnValue(-907323356);
     }
 
 

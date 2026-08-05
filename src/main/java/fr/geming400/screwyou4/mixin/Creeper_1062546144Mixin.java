@@ -19,21 +19,21 @@ public class Creeper_1062546144Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "isIgnited()Z", cancellable = true)
-    private void isIgnited_1100824726(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1100824726L))
+    @Inject(at = @At("HEAD"), method = "causeFallDamage(DFLnet/minecraft/world/damagesource/DamageSource;)Z", cancellable = true)
+    private void causeFallDamage_584405165(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(584405165L))
             info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "thunderHit(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/LightningBolt;)V", cancellable = true)
+    private void thunderHit_132526126(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(132526126L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "doHurtTarget(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/Entity;)Z", cancellable = true)
     private void doHurtTarget__1588381442(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1588381442L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "causeFallDamage(DFLnet/minecraft/world/damagesource/DamageSource;)Z", cancellable = true)
-    private void causeFallDamage_584405165(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(584405165L))
             info.setReturnValue(true);
     }
 
@@ -46,7 +46,7 @@ public class Creeper_1062546144Mixin {
     @Inject(at = @At("HEAD"), method = "getMaxFallDistance()I", cancellable = true)
     private void getMaxFallDistance_1100808389(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1100808389L))
-            info.setReturnValue(-1887622082);
+            info.setReturnValue(2138711814);
     }
 
     @Inject(at = @At("HEAD"), method = "createAttributes()Lnet/minecraft/world/entity/ai/attributes/AttributeSupplier$Builder;", cancellable = true)
@@ -61,22 +61,22 @@ public class Creeper_1062546144Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "thunderHit(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/LightningBolt;)V", cancellable = true)
-    private void thunderHit_132526126(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(132526126L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "isIgnited()Z", cancellable = true)
+    private void isIgnited_1100824726(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1100824726L))
+            info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "getSwelling(F)F", cancellable = true)
-    private void getSwelling__2021290120(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2021290120L))
-            info.setReturnValue(9.988753E8F);
+    @Inject(at = @At("HEAD"), method = "isPowered()Z", cancellable = true)
+    private void isPowered_1100824726(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1100824726L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "getSwellDir()I", cancellable = true)
     private void getSwellDir_1100808389(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1100808389L))
-            info.setReturnValue(-1887622082);
+            info.setReturnValue(2138711814);
     }
 
     @Inject(at = @At("HEAD"), method = "setSwellDir(I)V", cancellable = true)
@@ -85,10 +85,10 @@ public class Creeper_1062546144Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "isPowered()Z", cancellable = true)
-    private void isPowered_1100824726(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1100824726L))
-            info.setReturnValue(true);
+    @Inject(at = @At("HEAD"), method = "getSwelling(F)F", cancellable = true)
+    private void getSwelling__2021290120(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2021290120L))
+            info.setReturnValue(7.302419E8F);
     }
 
 

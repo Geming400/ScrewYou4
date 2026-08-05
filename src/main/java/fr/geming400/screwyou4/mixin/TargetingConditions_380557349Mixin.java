@@ -37,8 +37,8 @@ public class TargetingConditions_380557349Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "ignoreLineOfSight()Lnet/minecraft/world/entity/ai/targeting/TargetingConditions;", cancellable = true)
-    private void ignoreLineOfSight_1290524649(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "ignoreInvisibilityTesting()Lnet/minecraft/world/entity/ai/targeting/TargetingConditions;", cancellable = true)
+    private void ignoreInvisibilityTesting_1290524649(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1290524649L))
             info.setReturnValue(null);
     }
@@ -49,8 +49,8 @@ public class TargetingConditions_380557349Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "ignoreInvisibilityTesting()Lnet/minecraft/world/entity/ai/targeting/TargetingConditions;", cancellable = true)
-    private void ignoreInvisibilityTesting_1290524649(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "ignoreLineOfSight()Lnet/minecraft/world/entity/ai/targeting/TargetingConditions;", cancellable = true)
+    private void ignoreLineOfSight_1290524649(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1290524649L))
             info.setReturnValue(null);
     }

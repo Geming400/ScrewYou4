@@ -22,7 +22,7 @@ public class RegexMove928123130Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_966385872(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(966385872L))
-            info.setReturnValue(1353467141);
+            info.setReturnValue(1408937141);
     }
 
     @Inject(at = @At("HEAD"), method = "fix(Ljava/nio/file/Path;Lnet/minecraft/util/worldupdate/UpgradeProgress;)V", cancellable = true)

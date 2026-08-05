@@ -22,31 +22,13 @@ public class Setup_1288847005Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1327109746(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1327109746L))
-            info.setReturnValue(1872759092);
-    }
-
-    @Inject(at = @At("HEAD"), method = "weight()F", cancellable = true)
-    private void weight_1327106367(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1327106367L))
-            info.setReturnValue(1.280432E8F);
-    }
-
-    @Inject(at = @At("HEAD"), method = "airPocketProbability()F", cancellable = true)
-    private void airPocketProbability_1327106367(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1327106367L))
-            info.setReturnValue(1.280432E8F);
-    }
-
-    @Inject(at = @At("HEAD"), method = "replaceWithBlackstone()Z", cancellable = true)
-    private void replaceWithBlackstone_1327125587(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1327125587L))
-            info.setReturnValue(true);
+            info.setReturnValue(1852017392);
     }
 
     @Inject(at = @At("HEAD"), method = "mossiness()F", cancellable = true)
     private void mossiness_1327106367(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1327106367L))
-            info.setReturnValue(1.280432E8F);
+            info.setReturnValue(1.073015E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "overgrown()Z", cancellable = true)
@@ -59,6 +41,24 @@ public class Setup_1288847005Mixin {
     private void canBeCold_1327125587(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1327125587L))
             info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "weight()F", cancellable = true)
+    private void weight_1327106367(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1327106367L))
+            info.setReturnValue(1.073015E8F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "replaceWithBlackstone()Z", cancellable = true)
+    private void replaceWithBlackstone_1327125587(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1327125587L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "airPocketProbability()F", cancellable = true)
+    private void airPocketProbability_1327106367(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1327106367L))
+            info.setReturnValue(1.073015E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "vines()Z", cancellable = true)

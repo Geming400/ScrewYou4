@@ -28,7 +28,7 @@ public class ServerboundPlayerInputPacket2037867336Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2076130078(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2076130078L))
-            info.setReturnValue(-1741913574);
+            info.setReturnValue(-1770015574);
     }
 
     @Inject(at = @At("HEAD"), method = "input()Lnet/minecraft/world/entity/player/Input;", cancellable = true)

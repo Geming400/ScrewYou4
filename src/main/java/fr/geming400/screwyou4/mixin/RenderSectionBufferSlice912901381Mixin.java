@@ -22,7 +22,19 @@ public class RenderSectionBufferSlice912901381Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_951164123(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(951164123L))
-            info.setReturnValue(1137207312);
+            info.setReturnValue(884892912);
+    }
+
+    @Inject(at = @At("HEAD"), method = "indexBufferOffset()J", cancellable = true)
+    private void indexBufferOffset_951164588(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(951164588L))
+            info.setReturnValue(1739163742096003767L);
+    }
+
+    @Inject(at = @At("HEAD"), method = "vertexBufferOffset()J", cancellable = true)
+    private void vertexBufferOffset_951164588(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(951164588L))
+            info.setReturnValue(1739163742096003767L);
     }
 
     @Inject(at = @At("HEAD"), method = "vertexBuffer()Lcom/mojang/blaze3d/buffers/GpuBuffer;", cancellable = true)
@@ -35,18 +47,6 @@ public class RenderSectionBufferSlice912901381Mixin {
     private void indexBuffer_685065070(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(685065070L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "indexBufferOffset()J", cancellable = true)
-    private void indexBufferOffset_951164588(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(951164588L))
-            info.setReturnValue(1739163742348318167L);
-    }
-
-    @Inject(at = @At("HEAD"), method = "vertexBufferOffset()J", cancellable = true)
-    private void vertexBufferOffset_951164588(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(951164588L))
-            info.setReturnValue(1739163742348318167L);
     }
 
 

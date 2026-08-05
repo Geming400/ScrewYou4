@@ -10,7 +10,7 @@ public class MappedRegistry_422383844Mixin {
         @Inject(at = @At("HEAD"), method = "size()I", cancellable = true)
     private void size_460646089(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(460646089L))
-            info.setReturnValue(1137428159);
+            info.setReturnValue(1088012059);
     }
 
     @Inject(at = @At("HEAD"), method = "get(I)Ljava/util/Optional;", cancellable = true)
@@ -94,7 +94,7 @@ public class MappedRegistry_422383844Mixin {
     @Inject(at = @At("HEAD"), method = "getId(Ljava/lang/Object;)I", cancellable = true)
     private void getId_1807879269(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1807879269L))
-            info.setReturnValue(-2122432544);
+            info.setReturnValue(2123118652);
     }
 
     @Inject(at = @At("HEAD"), method = "keySet()Ljava/util/Set;", cancellable = true)
@@ -133,21 +133,15 @@ public class MappedRegistry_422383844Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "byId(I)Ljava/lang/Object;", cancellable = true)
-    private void byId_1996166949(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1996166949L))
-            info.setReturnValue(new java.lang.Object());
+    @Inject(at = @At("HEAD"), method = "componentLookup()Lnet/minecraft/core/component/DataComponentLookup;", cancellable = true)
+    private void componentLookup_145198386(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(145198386L))
+            info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "bindAllTagsToEmpty()V", cancellable = true)
-    private void bindAllTagsToEmpty_460658582(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(460658582L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "registrationInfo(Lnet/minecraft/resources/ResourceKey;)Ljava/util/Optional;", cancellable = true)
-    private void registrationInfo__1897334899(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1897334899L))
+    @Inject(at = @At("HEAD"), method = "registryLifecycle()Lcom/mojang/serialization/Lifecycle;", cancellable = true)
+    private void registryLifecycle__609004587(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-609004587L))
             info.setReturnValue(null);
     }
 
@@ -157,9 +151,9 @@ public class MappedRegistry_422383844Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "prepareTagReload(Lnet/minecraft/tags/TagLoader$LoadResult;)Lnet/minecraft/core/Registry$PendingTags;", cancellable = true)
-    private void prepareTagReload__205229411(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-205229411L))
+    @Inject(at = @At("HEAD"), method = "createIntrusiveHolder(Ljava/lang/Object;)Lnet/minecraft/core/Holder$Reference;", cancellable = true)
+    private void createIntrusiveHolder__67379244(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-67379244L))
             info.setReturnValue(null);
     }
 
@@ -175,33 +169,21 @@ public class MappedRegistry_422383844Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "componentLookup()Lnet/minecraft/core/component/DataComponentLookup;", cancellable = true)
-    private void componentLookup_145198386(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(145198386L))
+    @Inject(at = @At("HEAD"), method = "bindAllTagsToEmpty()V", cancellable = true)
+    private void bindAllTagsToEmpty_460658582(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(460658582L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "registrationInfo(Lnet/minecraft/resources/ResourceKey;)Ljava/util/Optional;", cancellable = true)
+    private void registrationInfo__1897334899(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1897334899L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "createIntrusiveHolder(Ljava/lang/Object;)Lnet/minecraft/core/Holder$Reference;", cancellable = true)
-    private void createIntrusiveHolder__67379244(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-67379244L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "listElements()Ljava/util/stream/Stream;", cancellable = true)
-    private void listElements_211677528(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(211677528L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "registryLifecycle()Lcom/mojang/serialization/Lifecycle;", cancellable = true)
-    private void registryLifecycle__609004587(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-609004587L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getTags()Ljava/util/stream/Stream;", cancellable = true)
-    private void getTags_211677528(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(211677528L))
+    @Inject(at = @At("HEAD"), method = "prepareTagReload(Lnet/minecraft/tags/TagLoader$LoadResult;)Lnet/minecraft/core/Registry$PendingTags;", cancellable = true)
+    private void prepareTagReload__205229411(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-205229411L))
             info.setReturnValue(null);
     }
 
@@ -220,6 +202,24 @@ public class MappedRegistry_422383844Mixin {
     @Inject(at = @At("HEAD"), method = "getAny()Ljava/util/Optional;", cancellable = true)
     private void getAny_667845265(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(667845265L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getTags()Ljava/util/stream/Stream;", cancellable = true)
+    private void getTags_211677528(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(211677528L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "byId(I)Ljava/lang/Object;", cancellable = true)
+    private void byId_1996166949(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1996166949L))
+            info.setReturnValue(new java.lang.Object());
+    }
+
+    @Inject(at = @At("HEAD"), method = "listElements()Ljava/util/stream/Stream;", cancellable = true)
+    private void listElements_211677528(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(211677528L))
             info.setReturnValue(null);
     }
 

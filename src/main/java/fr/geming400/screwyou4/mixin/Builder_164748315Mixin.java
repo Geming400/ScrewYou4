@@ -13,15 +13,9 @@ public class Builder_164748315Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "setAsset(Lnet/minecraft/resources/ResourceKey;)Lnet/minecraft/world/item/equipment/Equippable$Builder;", cancellable = true)
-    private void setAsset__183387579(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-183387579L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "setEquipOnInteract(Z)Lnet/minecraft/world/item/equipment/Equippable$Builder;", cancellable = true)
-    private void setEquipOnInteract_582939979(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(582939979L))
+    @Inject(at = @At("HEAD"), method = "setAllowedEntities([Lnet/minecraft/world/entity/EntityType;)Lnet/minecraft/world/item/equipment/Equippable$Builder;", cancellable = true)
+    private void setAllowedEntities__1535041259(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1535041259L))
             info.setReturnValue(null);
     }
 
@@ -31,38 +25,20 @@ public class Builder_164748315Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "setAllowedEntities([Lnet/minecraft/world/entity/EntityType;)Lnet/minecraft/world/item/equipment/Equippable$Builder;", cancellable = true)
-    private void setAllowedEntities__1535041259(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1535041259L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "setCanBeSheared(Z)Lnet/minecraft/world/item/equipment/Equippable$Builder;", cancellable = true)
-    private void setCanBeSheared_582939979(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(582939979L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "setShearingSound(Lnet/minecraft/core/Holder;)Lnet/minecraft/world/item/equipment/Equippable$Builder;", cancellable = true)
     private void setShearingSound_1011494736(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1011494736L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "setEquipSound(Lnet/minecraft/core/Holder;)Lnet/minecraft/world/item/equipment/Equippable$Builder;", cancellable = true)
-    private void setEquipSound_1011494736(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1011494736L))
+    @Inject(at = @At("HEAD"), method = "setEquipOnInteract(Z)Lnet/minecraft/world/item/equipment/Equippable$Builder;", cancellable = true)
+    private void setEquipOnInteract_582939979(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(582939979L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "setCameraOverlay(Lnet/minecraft/resources/Identifier;)Lnet/minecraft/world/item/equipment/Equippable$Builder;", cancellable = true)
-    private void setCameraOverlay__1995827383(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1995827383L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "setDamageOnHurt(Z)Lnet/minecraft/world/item/equipment/Equippable$Builder;", cancellable = true)
-    private void setDamageOnHurt_582939979(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "setCanBeSheared(Z)Lnet/minecraft/world/item/equipment/Equippable$Builder;", cancellable = true)
+    private void setCanBeSheared_582939979(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(582939979L))
             info.setReturnValue(null);
     }
@@ -73,9 +49,33 @@ public class Builder_164748315Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "setCameraOverlay(Lnet/minecraft/resources/Identifier;)Lnet/minecraft/world/item/equipment/Equippable$Builder;", cancellable = true)
+    private void setCameraOverlay__1995827383(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1995827383L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "setEquipSound(Lnet/minecraft/core/Holder;)Lnet/minecraft/world/item/equipment/Equippable$Builder;", cancellable = true)
+    private void setEquipSound_1011494736(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1011494736L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "setDamageOnHurt(Z)Lnet/minecraft/world/item/equipment/Equippable$Builder;", cancellable = true)
+    private void setDamageOnHurt_582939979(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(582939979L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "setDispensable(Z)Lnet/minecraft/world/item/equipment/Equippable$Builder;", cancellable = true)
     private void setDispensable_582939979(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(582939979L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "setAsset(Lnet/minecraft/resources/ResourceKey;)Lnet/minecraft/world/item/equipment/Equippable$Builder;", cancellable = true)
+    private void setAsset__183387579(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-183387579L))
             info.setReturnValue(null);
     }
 

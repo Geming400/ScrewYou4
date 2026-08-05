@@ -10,7 +10,7 @@ public class ZeroBitStorage_2013705860Mixin {
         @Inject(at = @At("HEAD"), method = "get(I)I", cancellable = true)
     private void get__1067356958(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1067356958L))
-            info.setReturnValue(2003123220);
+            info.setReturnValue(1443637120);
     }
 
     @Inject(at = @At("HEAD"), method = "copy()Lnet/minecraft/util/BitStorage;", cancellable = true)
@@ -28,13 +28,13 @@ public class ZeroBitStorage_2013705860Mixin {
     @Inject(at = @At("HEAD"), method = "getSize()I", cancellable = true)
     private void getSize_2051968105(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2051968105L))
-            info.setReturnValue(-384661098);
+            info.setReturnValue(-944147198);
     }
 
     @Inject(at = @At("HEAD"), method = "getAndSet(II)I", cancellable = true)
     private void getAndSet_1017813897(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1017813897L))
-            info.setReturnValue(-1603484466);
+            info.setReturnValue(2131996730);
     }
 
     @Inject(at = @At("HEAD"), method = "getAll(Ljava/util/function/IntConsumer;)V", cancellable = true)
@@ -46,7 +46,7 @@ public class ZeroBitStorage_2013705860Mixin {
     @Inject(at = @At("HEAD"), method = "getBits()I", cancellable = true)
     private void getBits_2051968105(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2051968105L))
-            info.setReturnValue(-384661098);
+            info.setReturnValue(-944147198);
     }
 
     @Inject(at = @At("HEAD"), method = "unpack([I)V", cancellable = true)

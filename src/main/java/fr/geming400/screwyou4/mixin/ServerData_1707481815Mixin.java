@@ -61,16 +61,10 @@ public class ServerData_1707481815Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "setResourcePackStatus(Lnet/minecraft/client/multiplayer/ServerData$ServerPackStatus;)V", cancellable = true)
-    private void setResourcePackStatus__795918632(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-795918632L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "getResourcePackStatus()Lnet/minecraft/client/multiplayer/ServerData$ServerPackStatus;", cancellable = true)
-    private void getResourcePackStatus_946472804(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(946472804L))
-            info.setReturnValue(net.minecraft.client.multiplayer.ServerData.ServerPackStatus.DISABLED);
+    @Inject(at = @At("HEAD"), method = "hasAcceptedCodeOfConduct(Ljava/lang/String;)Z", cancellable = true)
+    private void hasAcceptedCodeOfConduct__1435120489(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1435120489L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "clearCodeOfConduct()V", cancellable = true)
@@ -103,10 +97,16 @@ public class ServerData_1707481815Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "hasAcceptedCodeOfConduct(Ljava/lang/String;)Z", cancellable = true)
-    private void hasAcceptedCodeOfConduct__1435120489(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1435120489L))
-            info.setReturnValue(false);
+    @Inject(at = @At("HEAD"), method = "setResourcePackStatus(Lnet/minecraft/client/multiplayer/ServerData$ServerPackStatus;)V", cancellable = true)
+    private void setResourcePackStatus__795918632(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-795918632L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getResourcePackStatus()Lnet/minecraft/client/multiplayer/ServerData$ServerPackStatus;", cancellable = true)
+    private void getResourcePackStatus_946472804(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(946472804L))
+            info.setReturnValue(net.minecraft.client.multiplayer.ServerData.ServerPackStatus.DISABLED);
     }
 
 

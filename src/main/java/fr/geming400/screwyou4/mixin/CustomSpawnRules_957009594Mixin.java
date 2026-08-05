@@ -22,11 +22,11 @@ public class CustomSpawnRules_957009594Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_995272335(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(995272335L))
-            info.setReturnValue(1921429252);
+            info.setReturnValue(-1943740544);
     }
 
-    @Inject(at = @At("HEAD"), method = "skyLightLimit()Lnet/minecraft/util/InclusiveRange;", cancellable = true)
-    private void skyLightLimit_340018739(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "blockLightLimit()Lnet/minecraft/util/InclusiveRange;", cancellable = true)
+    private void blockLightLimit_340018739(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(340018739L))
             info.setReturnValue(null);
     }
@@ -37,8 +37,8 @@ public class CustomSpawnRules_957009594Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "blockLightLimit()Lnet/minecraft/util/InclusiveRange;", cancellable = true)
-    private void blockLightLimit_340018739(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "skyLightLimit()Lnet/minecraft/util/InclusiveRange;", cancellable = true)
+    private void skyLightLimit_340018739(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(340018739L))
             info.setReturnValue(null);
     }

@@ -31,15 +31,15 @@ public class Builder_2063582231Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "addButton(Lnet/minecraft/network/chat/Component;Ljava/util/function/Consumer;)Lnet/minecraft/client/gui/components/PopupScreen$Builder;", cancellable = true)
-    private void addButton_876373334(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(876373334L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "setImage(Lnet/minecraft/resources/Identifier;)Lnet/minecraft/client/gui/components/PopupScreen$Builder;", cancellable = true)
     private void setImage_1398066888(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1398066888L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "addButton(Lnet/minecraft/network/chat/Component;Ljava/util/function/Consumer;)Lnet/minecraft/client/gui/components/PopupScreen$Builder;", cancellable = true)
+    private void addButton_876373334(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(876373334L))
             info.setReturnValue(null);
     }
 

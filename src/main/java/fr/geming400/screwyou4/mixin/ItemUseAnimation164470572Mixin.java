@@ -22,7 +22,7 @@ public class ItemUseAnimation164470572Mixin {
     @Inject(at = @At("HEAD"), method = "getId()I", cancellable = true)
     private void getId_202732818(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(202732818L))
-            info.setReturnValue(505532327);
+            info.setReturnValue(540353727);
     }
 
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)

@@ -22,13 +22,13 @@ public class Extent_840537075Mixin {
     @Inject(at = @At("HEAD"), method = "select(FFFFFF)F", cancellable = true)
     private void select_646515413(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(646515413L))
-            info.setReturnValue(6.611258E8F);
+            info.setReturnValue(8.143625E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "select(Lorg/joml/Vector3fc;Lorg/joml/Vector3fc;)F", cancellable = true)
     private void select__388606951(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-388606951L))
-            info.setReturnValue(6.621277E8F);
+            info.setReturnValue(8.143625E8F);
     }
 
 

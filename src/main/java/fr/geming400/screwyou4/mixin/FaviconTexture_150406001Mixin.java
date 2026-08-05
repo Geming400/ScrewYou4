@@ -25,6 +25,12 @@ public class FaviconTexture_150406001Mixin {
             info.setReturnValue(false);
     }
 
+    @Inject(at = @At("HEAD"), method = "upload(Lcom/mojang/blaze3d/platform/NativeImage;)V", cancellable = true)
+    private void upload_890927783(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(890927783L))
+            info.cancel();
+    }
+
     @Inject(at = @At("HEAD"), method = "forWorld(Lnet/minecraft/client/renderer/texture/TextureManager;Ljava/lang/String;)Lnet/minecraft/client/gui/screens/FaviconTexture;", cancellable = true)
     private static void forWorld__832937904(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-832937904L))
@@ -35,12 +41,6 @@ public class FaviconTexture_150406001Mixin {
     private static void forServer__832937904(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-832937904L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "upload(Lcom/mojang/blaze3d/platform/NativeImage;)V", cancellable = true)
-    private void upload_890927783(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(890927783L))
-            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "textureLocation()Lnet/minecraft/resources/Identifier;", cancellable = true)

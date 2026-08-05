@@ -19,6 +19,12 @@ public class DecoratedPotRecipe143142364Mixin {
             info.setReturnValue(false);
     }
 
+    @Inject(at = @At("HEAD"), method = "getSerializer()Lnet/minecraft/world/item/crafting/RecipeSerializer;", cancellable = true)
+    private void getSerializer__413289592(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-413289592L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "assemble(Lnet/minecraft/world/item/crafting/CraftingInput;)Lnet/minecraft/world/item/ItemStack;", cancellable = true)
     private void assemble_1177726095(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1177726095L))
@@ -28,12 +34,6 @@ public class DecoratedPotRecipe143142364Mixin {
     @Inject(at = @At("HEAD"), method = "assemble(Lnet/minecraft/world/item/crafting/RecipeInput;)Lnet/minecraft/world/item/ItemStack;", cancellable = true)
     private void assemble_246905475(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(246905475L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getSerializer()Lnet/minecraft/world/item/crafting/RecipeSerializer;", cancellable = true)
-    private void getSerializer__413289592(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-413289592L))
             info.setReturnValue(null);
     }
 

@@ -22,7 +22,7 @@ public class Variant1709714825Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1747977567(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1747977567L))
-            info.setReturnValue(-470922213);
+            info.setReturnValue(-488176013);
     }
 
     @Inject(at = @At("HEAD"), method = "pattern()Lnet/minecraft/world/entity/animal/fish/TropicalFish$Pattern;", cancellable = true)
@@ -46,7 +46,7 @@ public class Variant1709714825Mixin {
     @Inject(at = @At("HEAD"), method = "getPackedId()I", cancellable = true)
     private void getPackedId_1747977071(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1747977071L))
-            info.setReturnValue(-292398723);
+            info.setReturnValue(-309652523);
     }
 
 

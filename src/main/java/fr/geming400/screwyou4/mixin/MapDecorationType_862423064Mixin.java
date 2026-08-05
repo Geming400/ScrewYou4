@@ -22,13 +22,7 @@ public class MapDecorationType_862423064Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_900685805(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(900685805L))
-            info.setReturnValue(-1036471794);
-    }
-
-    @Inject(at = @At("HEAD"), method = "assetId()Lnet/minecraft/resources/Identifier;", cancellable = true)
-    private void assetId__1580643490(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1580643490L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1504962094);
     }
 
     @Inject(at = @At("HEAD"), method = "explorationMapElement()Z", cancellable = true)
@@ -43,16 +37,22 @@ public class MapDecorationType_862423064Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "trackCount()Z", cancellable = true)
-    private void trackCount_900701646(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(900701646L))
-            info.setReturnValue(false);
+    @Inject(at = @At("HEAD"), method = "assetId()Lnet/minecraft/resources/Identifier;", cancellable = true)
+    private void assetId__1580643490(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1580643490L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "mapColor()I", cancellable = true)
     private void mapColor_900685309(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(900685309L))
-            info.setReturnValue(-833324374);
+            info.setReturnValue(-1301814674);
+    }
+
+    @Inject(at = @At("HEAD"), method = "trackCount()Z", cancellable = true)
+    private void trackCount_900701646(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(900701646L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "hasMapColor()Z", cancellable = true)

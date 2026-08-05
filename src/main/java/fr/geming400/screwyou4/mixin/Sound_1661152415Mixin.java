@@ -46,7 +46,13 @@ public class Sound_1661152415Mixin {
     @Inject(at = @At("HEAD"), method = "getWeight()I", cancellable = true)
     private void getWeight_1699414660(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1699414660L))
-            info.setReturnValue(1756224925);
+            info.setReturnValue(1952107425);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getAttenuationDistance()I", cancellable = true)
+    private void getAttenuationDistance_1699414660(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1699414660L))
+            info.setReturnValue(1952107425);
     }
 
     @Inject(at = @At("HEAD"), method = "shouldPreload()Z", cancellable = true)
@@ -59,12 +65,6 @@ public class Sound_1661152415Mixin {
     private void shouldStream_1699430997(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1699430997L))
             info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getAttenuationDistance()I", cancellable = true)
-    private void getAttenuationDistance_1699414660(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1699414660L))
-            info.setReturnValue(1756224925);
     }
 
     @Inject(at = @At("HEAD"), method = "preloadIfRequired(Lnet/minecraft/client/sounds/SoundEngine;)V", cancellable = true)

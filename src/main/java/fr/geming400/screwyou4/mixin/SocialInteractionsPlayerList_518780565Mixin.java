@@ -19,18 +19,6 @@ public class SocialInteractionsPlayerList_518780565Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "removePlayer(Ljava/util/UUID;)V", cancellable = true)
-    private void removePlayer_161224475(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(161224475L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "addPlayer(Lnet/minecraft/client/multiplayer/PlayerInfo;Lnet/minecraft/client/gui/screens/social/SocialInteractionsScreen$Page;)V", cancellable = true)
-    private void addPlayer_1565596792(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1565596792L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "refreshHasDraftReport()V", cancellable = true)
     private void refreshHasDraftReport_557055303(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(557055303L))
@@ -40,6 +28,18 @@ public class SocialInteractionsPlayerList_518780565Mixin {
     @Inject(at = @At("HEAD"), method = "updatePlayerList(Ljava/util/Collection;DZ)V", cancellable = true)
     private void updatePlayerList_123181134(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(123181134L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "addPlayer(Lnet/minecraft/client/multiplayer/PlayerInfo;Lnet/minecraft/client/gui/screens/social/SocialInteractionsScreen$Page;)V", cancellable = true)
+    private void addPlayer_1565596792(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1565596792L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "removePlayer(Ljava/util/UUID;)V", cancellable = true)
+    private void removePlayer_161224475(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(161224475L))
             info.cancel();
     }
 

@@ -52,7 +52,7 @@ public class Pattern1763291604Mixin {
     @Inject(at = @At("HEAD"), method = "getPackedId()I", cancellable = true)
     private void getPackedId_1801553850(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1801553850L))
-            info.setReturnValue(612841785);
+            info.setReturnValue(346408585);
     }
 
 

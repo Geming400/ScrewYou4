@@ -31,6 +31,12 @@ public class NoteBlockInstrument_1917667644Mixin {
             info.setReturnValue(false);
     }
 
+    @Inject(at = @At("HEAD"), method = "worksAboveNoteBlock()Z", cancellable = true)
+    private void worksAboveNoteBlock_1955946226(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1955946226L))
+            info.setReturnValue(false);
+    }
+
     @Inject(at = @At("HEAD"), method = "hasCustomSound()Z", cancellable = true)
     private void hasCustomSound_1955946226(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1955946226L))
@@ -41,12 +47,6 @@ public class NoteBlockInstrument_1917667644Mixin {
     private void getSoundEvent__828423881(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-828423881L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "worksAboveNoteBlock()Z", cancellable = true)
-    private void worksAboveNoteBlock_1955946226(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1955946226L))
-            info.setReturnValue(false);
     }
 
 

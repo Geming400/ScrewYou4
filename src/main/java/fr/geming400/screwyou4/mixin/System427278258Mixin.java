@@ -28,7 +28,7 @@ public class System427278258Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_465541000(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(465541000L))
-            info.setReturnValue(-735591461);
+            info.setReturnValue(-697817361);
     }
 
     @Inject(at = @At("HEAD"), method = "message()Lnet/minecraft/network/chat/Component;", cancellable = true)
@@ -37,10 +37,10 @@ public class System427278258Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "canReport(Ljava/util/UUID;)Z", cancellable = true)
-    private void canReport_69726013(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(69726013L))
-            info.setReturnValue(false);
+    @Inject(at = @At("HEAD"), method = "toContentComponent()Lnet/minecraft/network/chat/Component;", cancellable = true)
+    private void toContentComponent__1749630907(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1749630907L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "timeStamp()Ljava/time/Instant;", cancellable = true)
@@ -49,10 +49,10 @@ public class System427278258Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "toContentComponent()Lnet/minecraft/network/chat/Component;", cancellable = true)
-    private void toContentComponent__1749630907(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1749630907L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "canReport(Ljava/util/UUID;)Z", cancellable = true)
+    private void canReport_69726013(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(69726013L))
+            info.setReturnValue(false);
     }
 
 

@@ -22,7 +22,7 @@ public class JukeboxPlayable_873626826Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_911889567(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(911889567L))
-            info.setReturnValue(-642710385);
+            info.setReturnValue(-275414385);
     }
 
     @Inject(at = @At("HEAD"), method = "addToTooltip(Lnet/minecraft/world/item/Item$TooltipContext;Ljava/util/function/Consumer;Lnet/minecraft/world/item/TooltipFlag;Lnet/minecraft/core/component/DataComponentGetter;)V", cancellable = true)

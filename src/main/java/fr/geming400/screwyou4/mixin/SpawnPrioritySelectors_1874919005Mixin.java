@@ -22,7 +22,7 @@ public class SpawnPrioritySelectors_1874919005Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1913181746(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1913181746L))
-            info.setReturnValue(2005950557);
+            info.setReturnValue(1978586357);
     }
 
     @Inject(at = @At("HEAD"), method = "single(Lnet/minecraft/world/entity/variant/SpawnCondition;I)Lnet/minecraft/world/entity/variant/SpawnPrioritySelectors;", cancellable = true)

@@ -22,7 +22,7 @@ public class EntitySpawnRequest_302422733Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_340685474(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(340685474L))
-            info.setReturnValue(53226327);
+            info.setReturnValue(33532027);
     }
 
     @Inject(at = @At("HEAD"), method = "reason()Lnet/minecraft/world/entity/EntitySpawnReason;", cancellable = true)

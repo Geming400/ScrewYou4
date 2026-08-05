@@ -22,7 +22,7 @@ public class Transform_1580220624Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1618483365(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1618483365L))
-            info.setReturnValue(904955716);
+            info.setReturnValue(732875516);
     }
 
     @Inject(at = @At("HEAD"), method = "write(Ljava/nio/ByteBuffer;)V", cancellable = true)
@@ -31,15 +31,15 @@ public class Transform_1580220624Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "textureMatrix()Lorg/joml/Matrix4fc;", cancellable = true)
-    private void textureMatrix__971772435(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-971772435L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "colorModulator()Lorg/joml/Vector4fc;", cancellable = true)
     private void colorModulator__2140172817(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2140172817L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "textureMatrix()Lorg/joml/Matrix4fc;", cancellable = true)
+    private void textureMatrix__971772435(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-971772435L))
             info.setReturnValue(null);
     }
 

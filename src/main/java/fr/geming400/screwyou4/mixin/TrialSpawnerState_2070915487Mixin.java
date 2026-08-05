@@ -28,13 +28,7 @@ public class TrialSpawnerState_2070915487Mixin {
     @Inject(at = @At("HEAD"), method = "lightLevel()I", cancellable = true)
     private void lightLevel_2109177732(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2109177732L))
-            info.setReturnValue(1453081231);
-    }
-
-    @Inject(at = @At("HEAD"), method = "spinningMobSpeed()D", cancellable = true)
-    private void spinningMobSpeed_2109172927(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2109172927L))
-            info.setReturnValue(9.72715900765791E8D);
+            info.setReturnValue(1396051931);
     }
 
     @Inject(at = @At("HEAD"), method = "isCapableOfSpawning()Z", cancellable = true)
@@ -53,6 +47,12 @@ public class TrialSpawnerState_2070915487Mixin {
     private void emitParticles_1999974070(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1999974070L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "spinningMobSpeed()D", cancellable = true)
+    private void spinningMobSpeed_2109172927(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2109172927L))
+            info.setReturnValue(9.15686600765791E8D);
     }
 
 

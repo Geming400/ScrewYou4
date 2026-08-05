@@ -28,7 +28,7 @@ public class BonusLevelTableCondition_21615614Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_59878355(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(59878355L))
-            info.setReturnValue(-606582706);
+            info.setReturnValue(-1237300306);
     }
 
     @Inject(at = @At("HEAD"), method = "test(Ljava/lang/Object;)Z", cancellable = true)

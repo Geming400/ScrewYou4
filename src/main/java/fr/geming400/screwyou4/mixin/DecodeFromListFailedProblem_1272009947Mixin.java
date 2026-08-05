@@ -10,7 +10,7 @@ public class DecodeFromListFailedProblem_1272009947Mixin {
         @Inject(at = @At("HEAD"), method = "index()I", cancellable = true)
     private void index_1310272192(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1310272192L))
-            info.setReturnValue(-498513333);
+            info.setReturnValue(-266854033);
     }
 
     @Inject(at = @At("HEAD"), method = "name()Ljava/lang/String;", cancellable = true)
@@ -34,7 +34,7 @@ public class DecodeFromListFailedProblem_1272009947Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1310272688(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1310272688L))
-            info.setReturnValue(-677036823);
+            info.setReturnValue(-445377523);
     }
 
     @Inject(at = @At("HEAD"), method = "error()Lcom/mojang/serialization/DataResult$Error;", cancellable = true)

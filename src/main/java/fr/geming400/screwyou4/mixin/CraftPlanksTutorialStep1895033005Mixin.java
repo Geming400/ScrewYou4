@@ -19,16 +19,16 @@ public class CraftPlanksTutorialStep1895033005Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "hasCraftedPlanksPreviously(Lnet/minecraft/client/player/LocalPlayer;Lnet/minecraft/tags/TagKey;)Z", cancellable = true)
-    private static void hasCraftedPlanksPreviously__744214333(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-744214333L))
-            info.setReturnValue(false);
-    }
-
     @Inject(at = @At("HEAD"), method = "onGetItem(Lnet/minecraft/world/item/ItemStack;)V", cancellable = true)
     private void onGetItem__665403003(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-665403003L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "hasCraftedPlanksPreviously(Lnet/minecraft/client/player/LocalPlayer;Lnet/minecraft/tags/TagKey;)Z", cancellable = true)
+    private static void hasCraftedPlanksPreviously__744214333(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-744214333L))
+            info.setReturnValue(false);
     }
 
 

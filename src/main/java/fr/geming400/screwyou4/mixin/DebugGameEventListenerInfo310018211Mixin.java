@@ -22,13 +22,13 @@ public class DebugGameEventListenerInfo310018211Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_348280953(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(348280953L))
-            info.setReturnValue(-432982736);
+            info.setReturnValue(142624364);
     }
 
     @Inject(at = @At("HEAD"), method = "listenerRadius()I", cancellable = true)
     private void listenerRadius_348280457(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(348280457L))
-            info.setReturnValue(-1731895022);
+            info.setReturnValue(-1156287922);
     }
 
 

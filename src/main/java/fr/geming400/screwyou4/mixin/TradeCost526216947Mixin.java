@@ -22,7 +22,7 @@ public class TradeCost526216947Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_564479689(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(564479689L))
-            info.setReturnValue(-710684680);
+            info.setReturnValue(-893215380);
     }
 
     @Inject(at = @At("HEAD"), method = "count()Lnet/minecraft/world/level/storage/loot/providers/number/NumberProvider;", cancellable = true)

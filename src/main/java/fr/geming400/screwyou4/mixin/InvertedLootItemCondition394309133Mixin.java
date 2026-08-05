@@ -22,7 +22,7 @@ public class InvertedLootItemCondition394309133Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_432571875(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(432571875L))
-            info.setReturnValue(1941304647);
+            info.setReturnValue(1571970847);
     }
 
     @Inject(at = @At("HEAD"), method = "test(Lnet/minecraft/world/level/storage/loot/LootContext;)Z", cancellable = true)

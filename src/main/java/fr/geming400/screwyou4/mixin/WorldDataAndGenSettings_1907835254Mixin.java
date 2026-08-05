@@ -22,7 +22,7 @@ public class WorldDataAndGenSettings_1907835254Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1946097995(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1946097995L))
-            info.setReturnValue(732219507);
+            info.setReturnValue(862516707);
     }
 
     @Inject(at = @At("HEAD"), method = "data()Lnet/minecraft/world/level/storage/WorldData;", cancellable = true)

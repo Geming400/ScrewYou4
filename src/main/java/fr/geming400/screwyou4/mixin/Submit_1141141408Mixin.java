@@ -22,7 +22,13 @@ public class Submit_1141141408Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1179404149(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1179404149L))
-            info.setReturnValue(1441241852);
+            info.setReturnValue(1653646152);
+    }
+
+    @Inject(at = @At("HEAD"), method = "featureType()Lnet/minecraft/client/renderer/feature/FeatureRendererType;", cancellable = true)
+    private void featureType__2122742363(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2122742363L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "rotation()Lorg/joml/Quaternionf;", cancellable = true)
@@ -40,12 +46,6 @@ public class Submit_1141141408Mixin {
     @Inject(at = @At("HEAD"), method = "entityRenderState()Lnet/minecraft/client/renderer/entity/state/EntityRenderState;", cancellable = true)
     private void entityRenderState_552376003(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(552376003L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "featureType()Lnet/minecraft/client/renderer/feature/FeatureRendererType;", cancellable = true)
-    private void featureType__2122742363(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2122742363L))
             info.setReturnValue(null);
     }
 

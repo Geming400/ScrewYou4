@@ -37,14 +37,20 @@ public class Builder1544105576Mixin {
             info.setReturnValue(new net.minecraft.advancements.predicates.entity.EntityFlagsPredicate$Builder());
     }
 
-    @Inject(at = @At("HEAD"), method = "setIsFlying(Ljava/lang/Boolean;)Lnet/minecraft/advancements/predicates/entity/EntityFlagsPredicate$Builder;", cancellable = true)
-    private void setIsFlying_679217700(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "setOnFire(Ljava/lang/Boolean;)Lnet/minecraft/advancements/predicates/entity/EntityFlagsPredicate$Builder;", cancellable = true)
+    private void setOnFire_679217700(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(679217700L))
             info.setReturnValue(new net.minecraft.advancements.predicates.entity.EntityFlagsPredicate$Builder());
     }
 
-    @Inject(at = @At("HEAD"), method = "setIsInWater(Ljava/lang/Boolean;)Lnet/minecraft/advancements/predicates/entity/EntityFlagsPredicate$Builder;", cancellable = true)
-    private void setIsInWater_679217700(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "setIsBaby(Ljava/lang/Boolean;)Lnet/minecraft/advancements/predicates/entity/EntityFlagsPredicate$Builder;", cancellable = true)
+    private void setIsBaby_679217700(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(679217700L))
+            info.setReturnValue(new net.minecraft.advancements.predicates.entity.EntityFlagsPredicate$Builder());
+    }
+
+    @Inject(at = @At("HEAD"), method = "setIsFlying(Ljava/lang/Boolean;)Lnet/minecraft/advancements/predicates/entity/EntityFlagsPredicate$Builder;", cancellable = true)
+    private void setIsFlying_679217700(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(679217700L))
             info.setReturnValue(new net.minecraft.advancements.predicates.entity.EntityFlagsPredicate$Builder());
     }
@@ -61,14 +67,8 @@ public class Builder1544105576Mixin {
             info.setReturnValue(new net.minecraft.advancements.predicates.entity.EntityFlagsPredicate$Builder());
     }
 
-    @Inject(at = @At("HEAD"), method = "setOnFire(Ljava/lang/Boolean;)Lnet/minecraft/advancements/predicates/entity/EntityFlagsPredicate$Builder;", cancellable = true)
-    private void setOnFire_679217700(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(679217700L))
-            info.setReturnValue(new net.minecraft.advancements.predicates.entity.EntityFlagsPredicate$Builder());
-    }
-
-    @Inject(at = @At("HEAD"), method = "setIsBaby(Ljava/lang/Boolean;)Lnet/minecraft/advancements/predicates/entity/EntityFlagsPredicate$Builder;", cancellable = true)
-    private void setIsBaby_679217700(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "setIsInWater(Ljava/lang/Boolean;)Lnet/minecraft/advancements/predicates/entity/EntityFlagsPredicate$Builder;", cancellable = true)
+    private void setIsInWater_679217700(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(679217700L))
             info.setReturnValue(new net.minecraft.advancements.predicates.entity.EntityFlagsPredicate$Builder());
     }

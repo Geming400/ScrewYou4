@@ -22,7 +22,7 @@ public class AllOf1348312082Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1386574824(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1386574824L))
-            info.setReturnValue(823465574);
+            info.setReturnValue(241267774);
     }
 
     @Inject(at = @At("HEAD"), method = "setup(Lnet/minecraft/server/level/ServerLevel;)Ljava/lang/Object;", cancellable = true)

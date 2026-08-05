@@ -22,7 +22,7 @@ public class ArrowGizmo_739518439Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_777781180(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(777781180L))
-            info.setReturnValue(-1508494681);
+            info.setReturnValue(-1704841081);
     }
 
     @Inject(at = @At("HEAD"), method = "end()Lnet/minecraft/world/phys/Vec3;", cancellable = true)
@@ -40,13 +40,13 @@ public class ArrowGizmo_739518439Mixin {
     @Inject(at = @At("HEAD"), method = "color()I", cancellable = true)
     private void color_777780684(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(777780684L))
-            info.setReturnValue(-1329971191);
+            info.setReturnValue(-1526317591);
     }
 
     @Inject(at = @At("HEAD"), method = "width()F", cancellable = true)
     private void width_777777801(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(777777801L))
-            info.setReturnValue(4.533885E8F);
+            info.setReturnValue(2.570421E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "emit(Lnet/minecraft/gizmos/GizmoPrimitives;F)V", cancellable = true)

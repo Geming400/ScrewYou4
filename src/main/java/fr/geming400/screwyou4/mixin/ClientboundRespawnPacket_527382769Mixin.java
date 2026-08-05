@@ -28,13 +28,7 @@ public class ClientboundRespawnPacket_527382769Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_565645510(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(565645510L))
-            info.setReturnValue(-1703389415);
-    }
-
-    @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/protocol/game/ClientGamePacketListener;)V", cancellable = true)
-    private void handle_724890302(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(724890302L))
-            info.cancel();
+            info.setReturnValue(1742425081);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/PacketListener;)V", cancellable = true)
@@ -43,16 +37,22 @@ public class ClientboundRespawnPacket_527382769Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "shouldKeep(B)Z", cancellable = true)
-    private void shouldKeep_1734838937(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1734838937L))
-            info.setReturnValue(false);
+    @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/protocol/game/ClientGamePacketListener;)V", cancellable = true)
+    private void handle_724890302(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(724890302L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "dataToKeep()B", cancellable = true)
     private void dataToKeep_565638287(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(565638287L))
             info.setReturnValue(71);
+    }
+
+    @Inject(at = @At("HEAD"), method = "shouldKeep(B)Z", cancellable = true)
+    private void shouldKeep_1734838937(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1734838937L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "commonPlayerSpawnInfo()Lnet/minecraft/network/protocol/game/CommonPlayerSpawnInfo;", cancellable = true)

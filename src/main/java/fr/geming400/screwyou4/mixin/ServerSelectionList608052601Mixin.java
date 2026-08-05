@@ -28,18 +28,18 @@ public class ServerSelectionList608052601Mixin {
     @Inject(at = @At("HEAD"), method = "getRowWidth()I", cancellable = true)
     private void getRowWidth_646314847(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(646314847L))
-            info.setReturnValue(543997068);
-    }
-
-    @Inject(at = @At("HEAD"), method = "updateNetworkServers(Ljava/util/List;)V", cancellable = true)
-    private void updateNetworkServers__171165987(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-171165987L))
-            info.cancel();
+            info.setReturnValue(874889868);
     }
 
     @Inject(at = @At("HEAD"), method = "updateOnlineServers(Lnet/minecraft/client/multiplayer/ServerList;)V", cancellable = true)
     private void updateOnlineServers__212164163(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-212164163L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "updateNetworkServers(Ljava/util/List;)V", cancellable = true)
+    private void updateNetworkServers__171165987(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-171165987L))
             info.cancel();
     }
 

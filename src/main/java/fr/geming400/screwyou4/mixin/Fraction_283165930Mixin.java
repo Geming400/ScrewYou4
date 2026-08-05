@@ -22,7 +22,7 @@ public class Fraction_283165930Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_321428671(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(321428671L))
-            info.setReturnValue(-1210532540);
+            info.setReturnValue(-740194640);
     }
 
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
@@ -34,17 +34,17 @@ public class Fraction_283165930Mixin {
     @Inject(at = @At("HEAD"), method = "calculate(I)F", cancellable = true)
     private void calculate_1497067525(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1497067525L))
-            info.setReturnValue(7.99715E7F);
-    }
-
-    @Inject(at = @At("HEAD"), method = "numerator()Lnet/minecraft/world/item/enchantment/LevelBasedValue;", cancellable = true)
-    private void numerator_415245528(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(415245528L))
-            info.setReturnValue(null);
+            info.setReturnValue(5.503094E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "denominator()Lnet/minecraft/world/item/enchantment/LevelBasedValue;", cancellable = true)
     private void denominator_415245528(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(415245528L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "numerator()Lnet/minecraft/world/item/enchantment/LevelBasedValue;", cancellable = true)
+    private void numerator_415245528(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(415245528L))
             info.setReturnValue(null);
     }

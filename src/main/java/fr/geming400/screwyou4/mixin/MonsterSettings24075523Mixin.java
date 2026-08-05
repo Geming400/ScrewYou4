@@ -22,7 +22,7 @@ public class MonsterSettings24075523Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_62338265(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(62338265L))
-            info.setReturnValue(1257693490);
+            info.setReturnValue(1211938590);
     }
 
     @Inject(at = @At("HEAD"), method = "monsterSpawnLightTest()Lnet/minecraft/util/valueproviders/IntProvider;", cancellable = true)
@@ -34,7 +34,7 @@ public class MonsterSettings24075523Mixin {
     @Inject(at = @At("HEAD"), method = "monsterSpawnBlockLightLimit()I", cancellable = true)
     private void monsterSpawnBlockLightLimit_62337769(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(62337769L))
-            info.setReturnValue(1436216980);
+            info.setReturnValue(1390462080);
     }
 
 

@@ -28,7 +28,7 @@ public class RegistryEntry1788091158Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1826353900(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1826353900L))
-            info.setReturnValue(-1010747017);
+            info.setReturnValue(-831911117);
     }
 
     @Inject(at = @At("HEAD"), method = "key()Lnet/minecraft/resources/ResourceKey;", cancellable = true)

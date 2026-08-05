@@ -22,7 +22,7 @@ public class Functions729721749Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_767984491(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(767984491L))
-            info.setReturnValue(1303656980);
+            info.setReturnValue(1637624080);
     }
 
     @Inject(at = @At("HEAD"), method = "setup(Lnet/minecraft/server/level/ServerLevel;)Lnet/minecraft/util/Unit;", cancellable = true)
@@ -37,15 +37,15 @@ public class Functions729721749Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "teardown(Lnet/minecraft/server/level/ServerLevel;Ljava/lang/Object;)V", cancellable = true)
-    private void teardown__2087715019(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-2087715019L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "teardown(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/util/Unit;)V", cancellable = true)
     private void teardown_515773233(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(515773233L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "teardown(Lnet/minecraft/server/level/ServerLevel;Ljava/lang/Object;)V", cancellable = true)
+    private void teardown__2087715019(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-2087715019L))
             info.cancel();
     }
 
@@ -55,14 +55,14 @@ public class Functions729721749Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "teardownFunction()Ljava/util/Optional;", cancellable = true)
-    private void teardownFunction_975183171(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "setupFunction()Ljava/util/Optional;", cancellable = true)
+    private void setupFunction_975183171(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(975183171L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "setupFunction()Ljava/util/Optional;", cancellable = true)
-    private void setupFunction_975183171(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "teardownFunction()Ljava/util/Optional;", cancellable = true)
+    private void teardownFunction_975183171(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(975183171L))
             info.setReturnValue(null);
     }

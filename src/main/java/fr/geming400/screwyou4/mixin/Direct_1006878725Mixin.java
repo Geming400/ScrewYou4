@@ -22,7 +22,7 @@ public class Direct_1006878725Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1045140970(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1045140970L))
-            info.setReturnValue(-20047001);
+            info.setReturnValue(380301999);
     }
 
     @Inject(at = @At("HEAD"), method = "contains(Lnet/minecraft/core/Holder;)Z", cancellable = true)

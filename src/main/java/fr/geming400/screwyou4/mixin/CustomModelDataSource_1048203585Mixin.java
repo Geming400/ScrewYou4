@@ -10,7 +10,7 @@ public class CustomModelDataSource_1048203585Mixin {
         @Inject(at = @At("HEAD"), method = "index()I", cancellable = true)
     private void index_1086465830(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1086465830L))
-            info.setReturnValue(1713309605);
+            info.setReturnValue(1433594105);
     }
 
     @Inject(at = @At("HEAD"), method = "type()Lcom/mojang/serialization/MapCodec;", cancellable = true)
@@ -34,19 +34,19 @@ public class CustomModelDataSource_1048203585Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1086466326(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1086466326L))
-            info.setReturnValue(-1184249686);
+            info.setReturnValue(-1461958386);
     }
 
     @Inject(at = @At("HEAD"), method = "calculate(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/client/multiplayer/ClientLevel;Lnet/minecraft/world/entity/LivingEntity;)I", cancellable = true)
     private void calculate_391890358(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(391890358L))
-            info.setReturnValue(-514730491);
+            info.setReturnValue(-792439191);
     }
 
     @Inject(at = @At("HEAD"), method = "defaultColor()I", cancellable = true)
     private void defaultColor_1086465830(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1086465830L))
-            info.setReturnValue(1713309605);
+            info.setReturnValue(1435600905);
     }
 
 

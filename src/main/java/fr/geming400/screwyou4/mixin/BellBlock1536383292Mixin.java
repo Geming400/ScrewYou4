@@ -19,21 +19,15 @@ public class BellBlock1536383292Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "attemptToRing(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/Direction;)Z", cancellable = true)
-    private void attemptToRing__654999331(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-654999331L))
-            info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "attemptToRing(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/Direction;)Z", cancellable = true)
-    private void attemptToRing__889494396(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-889494396L))
-            info.setReturnValue(false);
-    }
-
     @Inject(at = @At("HEAD"), method = "getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
     private void getStateForPlacement_277783525(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(277783525L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getTicker(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/entity/BlockEntityType;)Lnet/minecraft/world/level/block/entity/BlockEntityTicker;", cancellable = true)
+    private void getTicker__417084051(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-417084051L))
             info.setReturnValue(null);
     }
 
@@ -49,10 +43,16 @@ public class BellBlock1536383292Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getTicker(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/entity/BlockEntityType;)Lnet/minecraft/world/level/block/entity/BlockEntityTicker;", cancellable = true)
-    private void getTicker__417084051(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-417084051L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "attemptToRing(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/Direction;)Z", cancellable = true)
+    private void attemptToRing__654999331(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-654999331L))
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "attemptToRing(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/Direction;)Z", cancellable = true)
+    private void attemptToRing__889494396(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-889494396L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "newBlockEntity(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/entity/BlockEntity;", cancellable = true)

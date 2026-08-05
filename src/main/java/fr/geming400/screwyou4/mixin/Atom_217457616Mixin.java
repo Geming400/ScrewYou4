@@ -22,7 +22,7 @@ public class Atom_217457616Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_255720357(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(255720357L))
-            info.setReturnValue(-819287069);
+            info.setReturnValue(-881834669);
     }
 
     @Inject(at = @At("HEAD"), method = "id()Lnet/minecraft/resources/Identifier;", cancellable = true)

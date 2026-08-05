@@ -13,14 +13,14 @@ public class Builder207161116Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "onFail(Ljava/util/Optional;)Lnet/minecraft/world/level/storage/loot/functions/FilteredFunction$Builder;", cancellable = true)
-    private void onFail__1026999746(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "onPass(Ljava/util/Optional;)Lnet/minecraft/world/level/storage/loot/functions/FilteredFunction$Builder;", cancellable = true)
+    private void onPass__1026999746(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1026999746L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "onPass(Ljava/util/Optional;)Lnet/minecraft/world/level/storage/loot/functions/FilteredFunction$Builder;", cancellable = true)
-    private void onPass__1026999746(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "onFail(Ljava/util/Optional;)Lnet/minecraft/world/level/storage/loot/functions/FilteredFunction$Builder;", cancellable = true)
+    private void onFail__1026999746(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1026999746L))
             info.setReturnValue(null);
     }

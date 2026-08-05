@@ -25,6 +25,12 @@ public class Chicken_1472230329Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "aiStep()V", cancellable = true)
+    private void aiStep_1510505067(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1510505067L))
+            info.cancel();
+    }
+
     @Inject(at = @At("HEAD"), method = "createAttributes()Lnet/minecraft/world/entity/ai/attributes/AttributeSupplier$Builder;", cancellable = true)
     private static void createAttributes_772011883(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(772011883L))
@@ -37,9 +43,9 @@ public class Chicken_1472230329Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "removeWhenFarAway(D)Z", cancellable = true)
-    private void removeWhenFarAway__1613433757(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1613433757L))
+    @Inject(at = @At("HEAD"), method = "isFood(Lnet/minecraft/world/item/ItemStack;)Z", cancellable = true)
+    private void isFood__1088201836(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1088201836L))
             info.setReturnValue(true);
     }
 
@@ -55,10 +61,10 @@ public class Chicken_1472230329Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "aiStep()V", cancellable = true)
-    private void aiStep_1510505067(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1510505067L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "removeWhenFarAway(D)Z", cancellable = true)
+    private void removeWhenFarAway__1613433757(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1613433757L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "setChickenJockey(Z)V", cancellable = true)
@@ -70,12 +76,6 @@ public class Chicken_1472230329Mixin {
     @Inject(at = @At("HEAD"), method = "isChickenJockey()Z", cancellable = true)
     private void isChickenJockey_1510508911(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1510508911L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isFood(Lnet/minecraft/world/item/ItemStack;)Z", cancellable = true)
-    private void isFood__1088201836(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1088201836L))
             info.setReturnValue(true);
     }
 

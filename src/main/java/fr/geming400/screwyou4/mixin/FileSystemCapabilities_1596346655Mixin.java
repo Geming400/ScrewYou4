@@ -22,7 +22,7 @@ public class FileSystemCapabilities_1596346655Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1634609396(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1634609396L))
-            info.setReturnValue(940072863);
+            info.setReturnValue(1443250663);
     }
 
     @Inject(at = @At("HEAD"), method = "atomicMove()Z", cancellable = true)

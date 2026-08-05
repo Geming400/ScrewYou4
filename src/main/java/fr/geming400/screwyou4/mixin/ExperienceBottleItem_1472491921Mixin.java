@@ -13,15 +13,15 @@ public class ExperienceBottleItem_1472491921Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "createDispenseConfig()Lnet/minecraft/world/item/ProjectileItem$DispenseConfig;", cancellable = true)
-    private void createDispenseConfig__563761278(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-563761278L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "asProjectile(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/Position;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/core/Direction;)Lnet/minecraft/world/entity/projectile/Projectile;", cancellable = true)
     private void asProjectile_1960177078(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1960177078L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "createDispenseConfig()Lnet/minecraft/world/item/ProjectileItem$DispenseConfig;", cancellable = true)
+    private void createDispenseConfig__563761278(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-563761278L))
             info.setReturnValue(null);
     }
 

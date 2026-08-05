@@ -25,16 +25,16 @@ public class HumanoidArm607141665Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
-    private void getSerializedName__528318806(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-528318806L))
-            info.setReturnValue("E)UEFP]Mci^U졔8['ACwjZl};%yhKϙᾷ2*g퀋Le##!YiDTA쐻'ISo剔");
-    }
-
     @Inject(at = @At("HEAD"), method = "getOpposite()Lnet/minecraft/world/entity/HumanoidArm;", cancellable = true)
     private void getOpposite__1979074869(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1979074869L))
             info.setReturnValue(net.minecraft.world.entity.HumanoidArm.RIGHT);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
+    private void getSerializedName__528318806(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-528318806L))
+            info.setReturnValue("E)UEFP]Mci^U졔8['ACwjZl};%yhKϙᾷ2*g퀋Le##!YiDTA쐻'ISo剔");
     }
 
 

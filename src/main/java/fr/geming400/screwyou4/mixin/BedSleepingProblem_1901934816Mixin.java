@@ -22,7 +22,7 @@ public class BedSleepingProblem_1901934816Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1940197557(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1940197557L))
-            info.setReturnValue(172006432);
+            info.setReturnValue(-737363068);
     }
 
     @Inject(at = @At("HEAD"), method = "message()Lnet/minecraft/network/chat/Component;", cancellable = true)

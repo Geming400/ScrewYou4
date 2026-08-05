@@ -22,7 +22,7 @@ public class ClockTime1782380533Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1820643275(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1820643275L))
-            info.setReturnValue(-857697836);
+            info.setReturnValue(-578659136);
     }
 
     @Inject(at = @At("HEAD"), method = "setup(Lnet/minecraft/server/level/ServerLevel;)Ljava/lang/Object;", cancellable = true)
@@ -46,7 +46,7 @@ public class ClockTime1782380533Mixin {
     @Inject(at = @At("HEAD"), method = "time()I", cancellable = true)
     private void time_1820642779(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1820642779L))
-            info.setReturnValue(-654550416);
+            info.setReturnValue(-375511716);
     }
 
     @Inject(at = @At("HEAD"), method = "teardown(Lnet/minecraft/server/level/ServerLevel;Ljava/lang/Long;)V", cancellable = true)

@@ -22,7 +22,7 @@ public class Configs_1513291169Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1551553910(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1551553910L))
-            info.setReturnValue(-1711714342);
+            info.setReturnValue(-986245742);
     }
 
     @Inject(at = @At("HEAD"), method = "shaderSources()Ljava/util/Map;", cancellable = true)

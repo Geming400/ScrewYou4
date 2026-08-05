@@ -22,7 +22,7 @@ public class ItemContext1298313041Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1336575783(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1336575783L))
-            info.setReturnValue(180558423);
+            info.setReturnValue(-35902077);
     }
 
     @Inject(at = @At("HEAD"), method = "heldItemTransformedTo()Lnet/minecraft/world/item/ItemStack;", cancellable = true)

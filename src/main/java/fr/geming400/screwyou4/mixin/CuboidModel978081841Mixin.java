@@ -28,7 +28,7 @@ public class CuboidModel978081841Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1016344583(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1016344583L))
-            info.setReturnValue(494248338);
+            info.setReturnValue(773281938);
     }
 
     @Inject(at = @At("HEAD"), method = "fromStream(Ljava/io/Reader;)Lnet/minecraft/client/resources/model/cuboid/CuboidModel;", cancellable = true)

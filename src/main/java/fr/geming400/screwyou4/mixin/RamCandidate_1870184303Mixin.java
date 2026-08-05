@@ -13,14 +13,14 @@ public class RamCandidate_1870184303Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getTargetPosition()Lnet/minecraft/core/BlockPos;", cancellable = true)
-    private void getTargetPosition__23202577(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "getStartPosition()Lnet/minecraft/core/BlockPos;", cancellable = true)
+    private void getStartPosition__23202577(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-23202577L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getStartPosition()Lnet/minecraft/core/BlockPos;", cancellable = true)
-    private void getStartPosition__23202577(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "getTargetPosition()Lnet/minecraft/core/BlockPos;", cancellable = true)
+    private void getTargetPosition__23202577(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-23202577L))
             info.setReturnValue(null);
     }

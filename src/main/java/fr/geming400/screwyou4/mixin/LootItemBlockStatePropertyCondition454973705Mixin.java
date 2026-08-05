@@ -22,7 +22,7 @@ public class LootItemBlockStatePropertyCondition454973705Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_493236447(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(493236447L))
-            info.setReturnValue(948193113);
+            info.setReturnValue(838294213);
     }
 
     @Inject(at = @At("HEAD"), method = "test(Lnet/minecraft/world/level/storage/loot/LootContext;)Z", cancellable = true)

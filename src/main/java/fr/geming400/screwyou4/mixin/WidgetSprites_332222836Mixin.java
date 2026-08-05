@@ -28,7 +28,7 @@ public class WidgetSprites_332222836Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_370485577(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(370485577L))
-            info.setReturnValue(1050999951);
+            info.setReturnValue(1462305051);
     }
 
     @Inject(at = @At("HEAD"), method = "enabled()Lnet/minecraft/resources/Identifier;", cancellable = true)
@@ -43,14 +43,14 @@ public class WidgetSprites_332222836Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "enabledFocused()Lnet/minecraft/resources/Identifier;", cancellable = true)
-    private void enabledFocused__2110843718(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "disabledFocused()Lnet/minecraft/resources/Identifier;", cancellable = true)
+    private void disabledFocused__2110843718(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2110843718L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "disabledFocused()Lnet/minecraft/resources/Identifier;", cancellable = true)
-    private void disabledFocused__2110843718(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "enabledFocused()Lnet/minecraft/resources/Identifier;", cancellable = true)
+    private void enabledFocused__2110843718(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2110843718L))
             info.setReturnValue(null);
     }

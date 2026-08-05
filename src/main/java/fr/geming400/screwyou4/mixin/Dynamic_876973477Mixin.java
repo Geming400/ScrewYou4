@@ -22,7 +22,7 @@ public class Dynamic_876973477Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_915235722(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(915235722L))
-            info.setReturnValue(-597962797);
+            info.setReturnValue(-790661097);
     }
 
     @Inject(at = @At("HEAD"), method = "resolveProfile(Lnet/minecraft/server/players/ProfileResolver;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)

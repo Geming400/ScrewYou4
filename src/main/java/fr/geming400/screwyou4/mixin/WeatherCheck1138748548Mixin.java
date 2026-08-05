@@ -22,7 +22,7 @@ public class WeatherCheck1138748548Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1177011290(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1177011290L))
-            info.setReturnValue(-612523142);
+            info.setReturnValue(-1208506742);
     }
 
     @Inject(at = @At("HEAD"), method = "test(Ljava/lang/Object;)Z", cancellable = true)

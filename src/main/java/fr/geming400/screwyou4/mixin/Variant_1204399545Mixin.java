@@ -22,7 +22,7 @@ public class Variant_1204399545Mixin {
     @Inject(at = @At("HEAD"), method = "getId()I", cancellable = true)
     private void getId_1242661790(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1242661790L))
-            info.setReturnValue(674087860);
+            info.setReturnValue(1251080060);
     }
 
     @Inject(at = @At("HEAD"), method = "byId(I)Lnet/minecraft/world/entity/animal/parrot/Parrot$Variant;", cancellable = true)

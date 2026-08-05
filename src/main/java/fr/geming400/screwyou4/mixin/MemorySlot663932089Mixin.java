@@ -61,20 +61,20 @@ public class MemorySlot663932089Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "canExpire()Z", cancellable = true)
-    private void canExpire_702210672(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(702210672L))
-            info.setReturnValue(false);
-    }
-
     @Inject(at = @At("HEAD"), method = "timeToLive()J", cancellable = true)
     private void timeToLive_702195296(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(702195296L))
-            info.setReturnValue(-8037709688899165582L);
+            info.setReturnValue(-8037709688884188682L);
     }
 
     @Inject(at = @At("HEAD"), method = "hasExpired()Z", cancellable = true)
     private void hasExpired_702210672(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(702210672L))
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "canExpire()Z", cancellable = true)
+    private void canExpire_702210672(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(702210672L))
             info.setReturnValue(false);
     }

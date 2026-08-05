@@ -37,15 +37,9 @@ public class StructureTemplateManager_109787790Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "testTemplates()Lnet/minecraft/world/level/levelgen/structure/templatesystem/loader/TemplatePathFactory;", cancellable = true)
-    private void testTemplates_455268393(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "worldTemplates()Lnet/minecraft/world/level/levelgen/structure/templatesystem/loader/TemplatePathFactory;", cancellable = true)
+    private void worldTemplates_455268393(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(455268393L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "listTemplates()Ljava/util/stream/Stream;", cancellable = true)
-    private void listTemplates__100918526(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-100918526L))
             info.setReturnValue(null);
     }
 
@@ -55,8 +49,14 @@ public class StructureTemplateManager_109787790Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "worldTemplates()Lnet/minecraft/world/level/levelgen/structure/templatesystem/loader/TemplatePathFactory;", cancellable = true)
-    private void worldTemplates_455268393(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "listTemplates()Ljava/util/stream/Stream;", cancellable = true)
+    private void listTemplates__100918526(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-100918526L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "testTemplates()Lnet/minecraft/world/level/levelgen/structure/templatesystem/loader/TemplatePathFactory;", cancellable = true)
+    private void testTemplates_455268393(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(455268393L))
             info.setReturnValue(null);
     }

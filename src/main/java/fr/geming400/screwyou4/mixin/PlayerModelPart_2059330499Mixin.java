@@ -34,19 +34,19 @@ public class PlayerModelPart_2059330499Mixin {
     @Inject(at = @At("HEAD"), method = "getMask()I", cancellable = true)
     private void getMask_2097592744(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2097592744L))
-            info.setReturnValue(2015512085);
+            info.setReturnValue(1647158285);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getBit()I", cancellable = true)
+    private void getBit_2097592744(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2097592744L))
+            info.setReturnValue(1647158285);
     }
 
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName_923870027(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(923870027L))
             info.setReturnValue("e끵A;Rm$敳j\",F瀭I6Cꁽ[డJ(%hWE0s.G_刿L?7*:馛븝,=E=8#et嘔깊y;|\"DMk4䦇1&");
-    }
-
-    @Inject(at = @At("HEAD"), method = "getBit()I", cancellable = true)
-    private void getBit_2097592744(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2097592744L))
-            info.setReturnValue(2015512085);
     }
 
 

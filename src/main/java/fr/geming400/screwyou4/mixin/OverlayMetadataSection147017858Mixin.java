@@ -22,7 +22,7 @@ public class OverlayMetadataSection147017858Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_185280600(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(185280600L))
-            info.setReturnValue(-1985846434);
+            info.setReturnValue(-1411507034);
     }
 
     @Inject(at = @At("HEAD"), method = "overlays()Ljava/util/List;", cancellable = true)

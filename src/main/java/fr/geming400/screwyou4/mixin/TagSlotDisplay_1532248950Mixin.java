@@ -28,7 +28,7 @@ public class TagSlotDisplay_1532248950Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1570511691(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1570511691L))
-            info.setReturnValue(766030459);
+            info.setReturnValue(304538459);
     }
 
     @Inject(at = @At("HEAD"), method = "resolve(Lnet/minecraft/util/context/ContextMap;Lnet/minecraft/world/item/crafting/display/DisplayContentsFactory;)Ljava/util/stream/Stream;", cancellable = true)

@@ -28,7 +28,7 @@ public class ChargingSounds621053766Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_659316508(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(659316508L))
-            info.setReturnValue(-1902529070);
+            info.setReturnValue(-1705153970);
     }
 
     @Inject(at = @At("HEAD"), method = "end()Ljava/util/Optional;", cancellable = true)

@@ -28,13 +28,13 @@ public class ClientboundSetChunkCacheCenterPacket863740067Mixin {
     @Inject(at = @At("HEAD"), method = "getX()I", cancellable = true)
     private void getX_902002313(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(902002313L))
-            info.setReturnValue(1851563625);
+            info.setReturnValue(1217836425);
     }
 
     @Inject(at = @At("HEAD"), method = "getZ()I", cancellable = true)
     private void getZ_902002313(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(902002313L))
-            info.setReturnValue(1851563625);
+            info.setReturnValue(1217836425);
     }
 
 

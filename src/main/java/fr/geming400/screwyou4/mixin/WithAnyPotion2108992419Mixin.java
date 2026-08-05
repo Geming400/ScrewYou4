@@ -28,7 +28,7 @@ public class WithAnyPotion2108992419Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2147255161(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2147255161L))
-            info.setReturnValue(-867397409);
+            info.setReturnValue(-911450409);
     }
 
     @Inject(at = @At("HEAD"), method = "resolve(Lnet/minecraft/util/context/ContextMap;Lnet/minecraft/world/item/crafting/display/DisplayContentsFactory;)Ljava/util/stream/Stream;", cancellable = true)

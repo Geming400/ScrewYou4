@@ -22,11 +22,11 @@ public class Attributes1134975161Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1173237903(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1173237903L))
-            info.setReturnValue(-1261090592);
+            info.setReturnValue(-1278281792);
     }
 
-    @Inject(at = @At("HEAD"), method = "runOnMainThread()Z", cancellable = true)
-    private void runOnMainThread_1173253744(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "allowPreServerInit()Z", cancellable = true)
+    private void allowPreServerInit_1173253744(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1173253744L))
             info.setReturnValue(true);
     }
@@ -37,8 +37,8 @@ public class Attributes1134975161Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "allowPreServerInit()Z", cancellable = true)
-    private void allowPreServerInit_1173253744(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "runOnMainThread()Z", cancellable = true)
+    private void runOnMainThread_1173253744(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1173253744L))
             info.setReturnValue(true);
     }

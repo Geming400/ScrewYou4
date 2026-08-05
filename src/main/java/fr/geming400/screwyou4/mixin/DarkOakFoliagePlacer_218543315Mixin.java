@@ -10,7 +10,7 @@ public class DarkOakFoliagePlacer_218543315Mixin {
         @Inject(at = @At("HEAD"), method = "foliageHeight(Lnet/minecraft/util/RandomSource;ILnet/minecraft/world/level/levelgen/feature/configurations/TreeConfiguration;)I", cancellable = true)
     private void foliageHeight_860775600(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(860775600L))
-            info.setReturnValue(86226708);
+            info.setReturnValue(7229208);
     }
 
 

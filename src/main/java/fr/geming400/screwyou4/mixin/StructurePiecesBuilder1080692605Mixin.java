@@ -25,22 +25,10 @@ public class StructurePiecesBuilder1080692605Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "moveBelowSeaLevel(IILnet/minecraft/util/RandomSource;I)I", cancellable = true)
-    private void moveBelowSeaLevel__1449409700(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1449409700L))
-            info.setReturnValue(1052141732);
-    }
-
-    @Inject(at = @At("HEAD"), method = "offsetPiecesVertically(I)V", cancellable = true)
-    private void offsetPiecesVertically__2000357719(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-2000357719L))
+    @Inject(at = @At("HEAD"), method = "addPiece(Lnet/minecraft/world/level/levelgen/structure/StructurePiece;)V", cancellable = true)
+    private void addPiece_1883520105(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1883520105L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "getBoundingBox()Lnet/minecraft/world/level/levelgen/structure/BoundingBox;", cancellable = true)
-    private void getBoundingBox_1250840391(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1250840391L))
-            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "findCollisionPiece(Lnet/minecraft/world/level/levelgen/structure/BoundingBox;)Lnet/minecraft/world/level/levelgen/structure/StructurePiece;", cancellable = true)
@@ -55,10 +43,22 @@ public class StructurePiecesBuilder1080692605Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "addPiece(Lnet/minecraft/world/level/levelgen/structure/StructurePiece;)V", cancellable = true)
-    private void addPiece_1883520105(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1883520105L))
+    @Inject(at = @At("HEAD"), method = "moveBelowSeaLevel(IILnet/minecraft/util/RandomSource;I)I", cancellable = true)
+    private void moveBelowSeaLevel__1449409700(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1449409700L))
+            info.setReturnValue(1198539432);
+    }
+
+    @Inject(at = @At("HEAD"), method = "offsetPiecesVertically(I)V", cancellable = true)
+    private void offsetPiecesVertically__2000357719(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-2000357719L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getBoundingBox()Lnet/minecraft/world/level/levelgen/structure/BoundingBox;", cancellable = true)
+    private void getBoundingBox_1250840391(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1250840391L))
+            info.setReturnValue(null);
     }
 
 

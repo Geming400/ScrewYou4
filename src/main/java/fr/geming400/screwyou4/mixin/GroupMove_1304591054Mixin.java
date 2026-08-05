@@ -22,7 +22,7 @@ public class GroupMove_1304591054Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1342853795(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1342853795L))
-            info.setReturnValue(-1941838796);
+            info.setReturnValue(-1972679196);
     }
 
     @Inject(at = @At("HEAD"), method = "fix(Ljava/nio/file/Path;Lnet/minecraft/util/worldupdate/UpgradeProgress;)V", cancellable = true)

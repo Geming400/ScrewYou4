@@ -13,18 +13,6 @@ public class Builder1826934334Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "addContainerRecipe(Lnet/minecraft/world/item/Item;Lnet/minecraft/world/item/Item;Lnet/minecraft/world/item/Item;)V", cancellable = true)
-    private void addContainerRecipe__1324349078(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1324349078L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "addStartMix(Lnet/minecraft/world/item/Item;Lnet/minecraft/core/Holder;)V", cancellable = true)
-    private void addStartMix__1102106681(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1102106681L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "addMix(Lnet/minecraft/core/Holder;Lnet/minecraft/world/item/Item;Lnet/minecraft/core/Holder;)V", cancellable = true)
     private void addMix__1658564906(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1658564906L))
@@ -34,6 +22,18 @@ public class Builder1826934334Mixin {
     @Inject(at = @At("HEAD"), method = "addContainer(Lnet/minecraft/world/item/Item;)V", cancellable = true)
     private void addContainer__937149878(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-937149878L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "addContainerRecipe(Lnet/minecraft/world/item/Item;Lnet/minecraft/world/item/Item;Lnet/minecraft/world/item/Item;)V", cancellable = true)
+    private void addContainerRecipe__1324349078(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1324349078L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "addStartMix(Lnet/minecraft/world/item/Item;Lnet/minecraft/core/Holder;)V", cancellable = true)
+    private void addStartMix__1102106681(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1102106681L))
             info.cancel();
     }
 

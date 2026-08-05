@@ -34,18 +34,18 @@ public class AnimationState_1752168583Mixin {
     @Inject(at = @At("HEAD"), method = "getTimeInMillis(F)J", cancellable = true)
     private void getTimeInMillis__1331663837(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1331663837L))
-            info.setReturnValue(-4702076043587258539L);
-    }
-
-    @Inject(at = @At("HEAD"), method = "ifStarted(Ljava/util/function/Consumer;)V", cancellable = true)
-    private void ifStarted__1861782301(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1861782301L))
-            info.cancel();
+            info.setReturnValue(-4702076043641531039L);
     }
 
     @Inject(at = @At("HEAD"), method = "startIfStopped(I)V", cancellable = true)
     private void startIfStopped__1328881742(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1328881742L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "fastForward(IF)V", cancellable = true)
+    private void fastForward_753518550(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(753518550L))
             info.cancel();
     }
 
@@ -55,9 +55,9 @@ public class AnimationState_1752168583Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "fastForward(IF)V", cancellable = true)
-    private void fastForward_753518550(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(753518550L))
+    @Inject(at = @At("HEAD"), method = "ifStarted(Ljava/util/function/Consumer;)V", cancellable = true)
+    private void ifStarted__1861782301(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1861782301L))
             info.cancel();
     }
 

@@ -28,7 +28,7 @@ public class ServerboundContainerButtonClickPacket1667507898Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1705770640(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1705770640L))
-            info.setReturnValue(571864240);
+            info.setReturnValue(254614140);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/PacketListener;)V", cancellable = true)
@@ -43,16 +43,16 @@ public class ServerboundContainerButtonClickPacket1667507898Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "buttonId()I", cancellable = true)
-    private void buttonId_1705770144(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1705770144L))
-            info.setReturnValue(750387730);
-    }
-
     @Inject(at = @At("HEAD"), method = "containerId()I", cancellable = true)
     private void containerId_1705770144(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1705770144L))
-            info.setReturnValue(750387730);
+            info.setReturnValue(433137630);
+    }
+
+    @Inject(at = @At("HEAD"), method = "buttonId()I", cancellable = true)
+    private void buttonId_1705770144(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1705770144L))
+            info.setReturnValue(433137630);
     }
 
 

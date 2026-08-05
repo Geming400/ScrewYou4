@@ -13,14 +13,14 @@ public class LoopSoundInstance1423337796Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "fadeIn()V", cancellable = true)
-    private void fadeIn_1461612535(CallbackInfo info) {
+    @Inject(at = @At("HEAD"), method = "fadeOut()V", cancellable = true)
+    private void fadeOut_1461612535(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1461612535L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "fadeOut()V", cancellable = true)
-    private void fadeOut_1461612535(CallbackInfo info) {
+    @Inject(at = @At("HEAD"), method = "fadeIn()V", cancellable = true)
+    private void fadeIn_1461612535(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1461612535L))
             info.cancel();
     }

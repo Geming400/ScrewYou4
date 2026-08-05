@@ -31,22 +31,22 @@ public class ServerConnectionListener_1909366375Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getConnections()Ljava/util/List;", cancellable = true)
-    private void getConnections__759264106(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-759264106L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getServer()Lnet/minecraft/server/MinecraftServer;", cancellable = true)
     private void getServer_822280796(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(822280796L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "startMemoryChannel()Ljava/net/SocketAddress;", cancellable = true)
-    private void startMemoryChannel_2007500498(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2007500498L))
+    @Inject(at = @At("HEAD"), method = "getConnections()Ljava/util/List;", cancellable = true)
+    private void getConnections__759264106(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-759264106L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "startTcpServerListener(Ljava/net/InetAddress;I)V", cancellable = true)
+    private void startTcpServerListener__1901178364(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1901178364L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "stopTcpServerListener()V", cancellable = true)
@@ -55,10 +55,10 @@ public class ServerConnectionListener_1909366375Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "startTcpServerListener(Ljava/net/InetAddress;I)V", cancellable = true)
-    private void startTcpServerListener__1901178364(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1901178364L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "startMemoryChannel()Ljava/net/SocketAddress;", cancellable = true)
+    private void startMemoryChannel_2007500498(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2007500498L))
+            info.setReturnValue(null);
     }
 
 

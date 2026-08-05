@@ -37,12 +37,6 @@ public class ClientboundUpdateAdvancementsPacket_790057047Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getProgress()Ljava/util/Map;", cancellable = true)
-    private void getProgress__1214566594(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1214566594L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "shouldShowAdvancements()Z", cancellable = true)
     private void shouldShowAdvancements_828335629(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(828335629L))
@@ -53,6 +47,12 @@ public class ClientboundUpdateAdvancementsPacket_790057047Mixin {
     private void shouldReset_828335629(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(828335629L))
             info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getProgress()Ljava/util/Map;", cancellable = true)
+    private void getProgress__1214566594(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1214566594L))
+            info.setReturnValue(null);
     }
 
 

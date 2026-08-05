@@ -22,25 +22,7 @@ public class PiercingWeapon1646310751Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1684573493(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1684573493L))
-            info.setReturnValue(437606014);
-    }
-
-    @Inject(at = @At("HEAD"), method = "canHitEntity(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/entity/Entity;)Z", cancellable = true)
-    private static void canHitEntity__94718610(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-94718610L))
-            info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "dealsKnockback()Z", cancellable = true)
-    private void dealsKnockback_1684589334(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1684589334L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "attack(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/entity/EquipmentSlot;)V", cancellable = true)
-    private void attack__1434414912(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1434414912L))
-            info.cancel();
+            info.setReturnValue(391186114);
     }
 
     @Inject(at = @At("HEAD"), method = "sound()Ljava/util/Optional;", cancellable = true)
@@ -61,9 +43,15 @@ public class PiercingWeapon1646310751Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "makeHitSound(Lnet/minecraft/world/entity/Entity;)V", cancellable = true)
-    private void makeHitSound_1194586091(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1194586091L))
+    @Inject(at = @At("HEAD"), method = "dealsKnockback()Z", cancellable = true)
+    private void dealsKnockback_1684589334(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1684589334L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "attack(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/entity/EquipmentSlot;)V", cancellable = true)
+    private void attack__1434414912(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1434414912L))
             info.cancel();
     }
 
@@ -71,6 +59,18 @@ public class PiercingWeapon1646310751Mixin {
     private void hitSound_1891772173(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1891772173L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "canHitEntity(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/entity/Entity;)Z", cancellable = true)
+    private static void canHitEntity__94718610(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-94718610L))
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "makeHitSound(Lnet/minecraft/world/entity/Entity;)V", cancellable = true)
+    private void makeHitSound_1194586091(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1194586091L))
+            info.cancel();
     }
 
 

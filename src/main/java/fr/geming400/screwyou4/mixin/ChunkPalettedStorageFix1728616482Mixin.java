@@ -19,22 +19,22 @@ public class ChunkPalettedStorageFix1728616482Mixin {
             info.setReturnValue("菱l吖qH?ᕫa[");
     }
 
-    @Inject(at = @At("HEAD"), method = "idFor(Lnet/minecraft/util/CrudeIncrementalIntIdentityHashBiMap;Lcom/mojang/serialization/Dynamic;)I", cancellable = true)
-    private static void idFor__297475377(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-297475377L))
-            info.setReturnValue(-1870925989);
+    @Inject(at = @At("HEAD"), method = "makeRule()Lcom/mojang/datafixers/TypeRewriteRule;", cancellable = true)
+    private void makeRule__1081154979(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1081154979L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getSideMask(ZZZZ)I", cancellable = true)
     private static void getSideMask_1316036992(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1316036992L))
-            info.setReturnValue(871148441);
+            info.setReturnValue(957143541);
     }
 
-    @Inject(at = @At("HEAD"), method = "makeRule()Lcom/mojang/datafixers/TypeRewriteRule;", cancellable = true)
-    private void makeRule__1081154979(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1081154979L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "idFor(Lnet/minecraft/util/CrudeIncrementalIntIdentityHashBiMap;Lcom/mojang/serialization/Dynamic;)I", cancellable = true)
+    private static void idFor__297475377(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-297475377L))
+            info.setReturnValue(-1784930889);
     }
 
 

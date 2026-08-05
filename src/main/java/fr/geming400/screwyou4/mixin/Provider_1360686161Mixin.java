@@ -22,7 +22,7 @@ public class Provider_1360686161Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1398948902(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1398948902L))
-            info.setReturnValue(1564493534);
+            info.setReturnValue(1564037434);
     }
 
     @Inject(at = @At("HEAD"), method = "sprite()Lnet/minecraft/client/particle/SpriteSet;", cancellable = true)

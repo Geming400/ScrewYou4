@@ -28,7 +28,7 @@ public class Packed1118595147Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1156857889(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1156857889L))
-            info.setReturnValue(-964915589);
+            info.setReturnValue(-786186389);
     }
 
     @Inject(at = @At("HEAD"), method = "displayName()Lnet/minecraft/network/chat/Component;", cancellable = true)
@@ -43,6 +43,12 @@ public class Packed1118595147Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "criteria()Lnet/minecraft/world/scores/criteria/ObjectiveCriteria;", cancellable = true)
+    private void criteria_1588014218(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1588014218L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "displayAutoUpdate()Z", cancellable = true)
     private void displayAutoUpdate_1156873730(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1156873730L))
@@ -53,12 +59,6 @@ public class Packed1118595147Mixin {
     private void renderType__500974966(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-500974966L))
             info.setReturnValue(net.minecraft.world.scores.criteria.ObjectiveCriteria.RenderType.HEARTS);
-    }
-
-    @Inject(at = @At("HEAD"), method = "criteria()Lnet/minecraft/world/scores/criteria/ObjectiveCriteria;", cancellable = true)
-    private void criteria_1588014218(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1588014218L))
-            info.setReturnValue(null);
     }
 
 

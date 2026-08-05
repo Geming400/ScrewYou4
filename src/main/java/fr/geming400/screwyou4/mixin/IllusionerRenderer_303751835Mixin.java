@@ -25,15 +25,27 @@ public class IllusionerRenderer_303751835Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/client/renderer/entity/state/EntityRenderState;F)V", cancellable = true)
-    private void extractRenderState_530870853(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(530870853L))
+    @Inject(at = @At("HEAD"), method = "getTextureLocation(Lnet/minecraft/client/renderer/entity/state/LivingEntityRenderState;)Lnet/minecraft/resources/Identifier;", cancellable = true)
+    private void getTextureLocation__1988578829(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1988578829L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getTextureLocation(Lnet/minecraft/client/renderer/entity/state/IllusionerRenderState;)Lnet/minecraft/resources/Identifier;", cancellable = true)
+    private void getTextureLocation__893439663(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-893439663L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/entity/monster/illager/Illusioner;Lnet/minecraft/client/renderer/entity/state/IllusionerRenderState;F)V", cancellable = true)
+    private void extractRenderState__507575123(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-507575123L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/entity/monster/illager/AbstractIllager;Lnet/minecraft/client/renderer/entity/state/IllagerRenderState;F)V", cancellable = true)
-    private void extractRenderState_1537539729(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1537539729L))
+    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/client/renderer/entity/state/EntityRenderState;F)V", cancellable = true)
+    private void extractRenderState_530870853(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(530870853L))
             info.cancel();
     }
 
@@ -43,9 +55,9 @@ public class IllusionerRenderer_303751835Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/entity/monster/illager/Illusioner;Lnet/minecraft/client/renderer/entity/state/IllusionerRenderState;F)V", cancellable = true)
-    private void extractRenderState__507575123(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-507575123L))
+    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/entity/monster/illager/AbstractIllager;Lnet/minecraft/client/renderer/entity/state/IllagerRenderState;F)V", cancellable = true)
+    private void extractRenderState_1537539729(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1537539729L))
             info.cancel();
     }
 
@@ -58,18 +70,6 @@ public class IllusionerRenderer_303751835Mixin {
     @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/EntityRenderState;", cancellable = true)
     private void createRenderState__284884610(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-284884610L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getTextureLocation(Lnet/minecraft/client/renderer/entity/state/IllusionerRenderState;)Lnet/minecraft/resources/Identifier;", cancellable = true)
-    private void getTextureLocation__893439663(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-893439663L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getTextureLocation(Lnet/minecraft/client/renderer/entity/state/LivingEntityRenderState;)Lnet/minecraft/resources/Identifier;", cancellable = true)
-    private void getTextureLocation__1988578829(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1988578829L))
             info.setReturnValue(null);
     }
 

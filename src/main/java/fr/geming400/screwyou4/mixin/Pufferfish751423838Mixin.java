@@ -13,10 +13,10 @@ public class Pufferfish751423838Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getBucketItemStack()Lnet/minecraft/world/item/ItemStack;", cancellable = true)
-    private void getBucketItemStack_1274842498(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1274842498L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "aiStep()V", cancellable = true)
+    private void aiStep_789698577(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(789698577L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "playerTouch(Lnet/minecraft/world/entity/player/Player;)V", cancellable = true)
@@ -37,22 +37,22 @@ public class Pufferfish751423838Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "aiStep()V", cancellable = true)
-    private void aiStep_789698577(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(789698577L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "getPuffState()I", cancellable = true)
-    private void getPuffState_789686084(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(789686084L))
-            info.setReturnValue(2114887439);
+    @Inject(at = @At("HEAD"), method = "getBucketItemStack()Lnet/minecraft/world/item/ItemStack;", cancellable = true)
+    private void getBucketItemStack_1274842498(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1274842498L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "setPuffState(I)V", cancellable = true)
     private void setPuffState_1965340810(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1965340810L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getPuffState()I", cancellable = true)
+    private void getPuffState_789686084(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(789686084L))
+            info.setReturnValue(1870113739);
     }
 
 

@@ -22,19 +22,19 @@ public class TrapezoidFloat1361642236Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1399904978(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1399904978L))
-            info.setReturnValue(1539435385);
+            info.setReturnValue(1485181285);
     }
 
     @Inject(at = @At("HEAD"), method = "min()F", cancellable = true)
     private void min_1399901599(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1399901599L))
-            info.setReturnValue(5.993675E8F);
+            info.setReturnValue(5.451134E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "max()F", cancellable = true)
     private void max_1399901599(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1399901599L))
-            info.setReturnValue(5.993675E8F);
+            info.setReturnValue(5.451134E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "of(FFF)Lnet/minecraft/util/valueproviders/TrapezoidFloat;", cancellable = true)
@@ -52,13 +52,13 @@ public class TrapezoidFloat1361642236Mixin {
     @Inject(at = @At("HEAD"), method = "sample(Lnet/minecraft/util/RandomSource;)F", cancellable = true)
     private void sample__345388225(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-345388225L))
-            info.setReturnValue(5.993675E8F);
+            info.setReturnValue(5.451134E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "plateau()F", cancellable = true)
     private void plateau_1399901599(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1399901599L))
-            info.setReturnValue(5.993675E8F);
+            info.setReturnValue(5.451134E8F);
     }
 
 

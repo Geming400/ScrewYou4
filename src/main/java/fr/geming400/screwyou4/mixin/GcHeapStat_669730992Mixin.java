@@ -22,7 +22,7 @@ public class GcHeapStat_669730992Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_707993733(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(707993733L))
-            info.setReturnValue(257728320);
+            info.setReturnValue(318733020);
     }
 
     @Inject(at = @At("HEAD"), method = "from(Ljdk/jfr/consumer/RecordedEvent;)Lnet/minecraft/util/profiling/jfr/stats/GcHeapStat;", cancellable = true)
@@ -37,22 +37,22 @@ public class GcHeapStat_669730992Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "timing()Lnet/minecraft/util/profiling/jfr/stats/GcHeapStat$Timing;", cancellable = true)
-    private void timing__1297729002(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1297729002L))
-            info.setReturnValue(net.minecraft.util.profiling.jfr.stats.GcHeapStat.Timing.BEFORE_GC);
+    @Inject(at = @At("HEAD"), method = "summary(Ljava/time/Duration;Ljava/util/List;Ljava/time/Duration;I)Lnet/minecraft/util/profiling/jfr/stats/GcHeapStat$Summary;", cancellable = true)
+    private static void summary_1908499230(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1908499230L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "heapUsed()J", cancellable = true)
     private void heapUsed_707994198(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(707994198L))
-            info.setReturnValue(-277712486373288669L);
+            info.setReturnValue(-277712486312283969L);
     }
 
-    @Inject(at = @At("HEAD"), method = "summary(Ljava/time/Duration;Ljava/util/List;Ljava/time/Duration;I)Lnet/minecraft/util/profiling/jfr/stats/GcHeapStat$Summary;", cancellable = true)
-    private static void summary_1908499230(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1908499230L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "timing()Lnet/minecraft/util/profiling/jfr/stats/GcHeapStat$Timing;", cancellable = true)
+    private void timing__1297729002(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1297729002L))
+            info.setReturnValue(net.minecraft.util.profiling.jfr.stats.GcHeapStat.Timing.BEFORE_GC);
     }
 
 

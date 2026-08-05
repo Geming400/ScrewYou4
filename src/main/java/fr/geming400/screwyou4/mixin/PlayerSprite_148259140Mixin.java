@@ -22,24 +22,24 @@ public class PlayerSprite_148259140Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_186521881(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(186521881L))
-            info.setReturnValue(1843191196);
-    }
-
-    @Inject(at = @At("HEAD"), method = "defaultFallback()Ljava/lang/String;", cancellable = true)
-    private void defaultFallback__987201332(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-987201332L))
-            info.setReturnValue("xO씔P>!墬RK4yl斜q%轕EnfLP|種#Mr>|*5@i(| ^}>-돃L]:P=2jd[_r4&嶺&rldy=*]6YP-c2]﨑a-讝1[E:j阱뢙<䒢i");
-    }
-
-    @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
-    private void codec_1884112863(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1884112863L))
-            info.setReturnValue(null);
+            info.setReturnValue(1818413696);
     }
 
     @Inject(at = @At("HEAD"), method = "player()Lnet/minecraft/world/item/component/ResolvableProfile;", cancellable = true)
     private void player_944464664(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(944464664L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "fontDescription()Lnet/minecraft/network/chat/FontDescription;", cancellable = true)
+    private void fontDescription__911801498(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-911801498L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
+    private void codec_1884112863(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1884112863L))
             info.setReturnValue(null);
     }
 
@@ -49,10 +49,10 @@ public class PlayerSprite_148259140Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "fontDescription()Lnet/minecraft/network/chat/FontDescription;", cancellable = true)
-    private void fontDescription__911801498(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-911801498L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "defaultFallback()Ljava/lang/String;", cancellable = true)
+    private void defaultFallback__987201332(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-987201332L))
+            info.setReturnValue("xO씔P>!墬RK4yl斜q%轕EnfLP|種#Mr>|*5@i(| ^}>-돃L]:P=2jd[_r4&嶺&rldy=*]6YP-c2]﨑a-讝1[E:j阱뢙<䒢i");
     }
 
 

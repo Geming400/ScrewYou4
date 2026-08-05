@@ -7,19 +7,7 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.world.entity.monster.piglin.PiglinAi.class)
 public class PiglinAi_439579887Mixin {
-        @Inject(at = @At("HEAD"), method = "getSoundForCurrentActivity(Lnet/minecraft/world/entity/monster/piglin/Piglin;)Ljava/util/Optional;", cancellable = true)
-    private static void getSoundForCurrentActivity_1516758916(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1516758916L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getAvoidTarget(Lnet/minecraft/world/entity/monster/piglin/Piglin;)Ljava/util/Optional;", cancellable = true)
-    private static void getAvoidTarget_1516758916(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1516758916L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isWearingSafeArmor(Lnet/minecraft/world/entity/LivingEntity;)Z", cancellable = true)
+        @Inject(at = @At("HEAD"), method = "isWearingSafeArmor(Lnet/minecraft/world/entity/LivingEntity;)Z", cancellable = true)
     private static void isWearingSafeArmor_761247309(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(761247309L))
             info.setReturnValue(false);
@@ -43,9 +31,9 @@ public class PiglinAi_439579887Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "getActivities(Lnet/minecraft/world/entity/monster/piglin/Piglin;)Ljava/util/List;", cancellable = true)
-    private static void getActivities_1251204102(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1251204102L))
+    @Inject(at = @At("HEAD"), method = "getAvoidTarget(Lnet/minecraft/world/entity/monster/piglin/Piglin;)Ljava/util/Optional;", cancellable = true)
+    private static void getAvoidTarget_1516758916(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1516758916L))
             info.setReturnValue(null);
     }
 
@@ -58,6 +46,18 @@ public class PiglinAi_439579887Mixin {
     @Inject(at = @At("HEAD"), method = "mobInteract(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/monster/piglin/Piglin;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResult;", cancellable = true)
     private static void mobInteract_40484055(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(40484055L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getActivities(Lnet/minecraft/world/entity/monster/piglin/Piglin;)Ljava/util/List;", cancellable = true)
+    private static void getActivities_1251204102(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1251204102L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getSoundForCurrentActivity(Lnet/minecraft/world/entity/monster/piglin/Piglin;)Ljava/util/Optional;", cancellable = true)
+    private static void getSoundForCurrentActivity_1516758916(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1516758916L))
             info.setReturnValue(null);
     }
 

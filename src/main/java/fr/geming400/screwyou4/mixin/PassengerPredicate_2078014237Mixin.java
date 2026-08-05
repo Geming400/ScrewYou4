@@ -22,7 +22,7 @@ public class PassengerPredicate_2078014237Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2116276978(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2116276978L))
-            info.setReturnValue(732268048);
+            info.setReturnValue(948884948);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/phys/Vec3;)Z", cancellable = true)

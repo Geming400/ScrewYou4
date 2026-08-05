@@ -16,7 +16,7 @@ public class NarrationThunk1137210606Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1175472852(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1175472852L))
-            info.setReturnValue(-1492771745);
+            info.setReturnValue(-1815692645);
     }
 
     @Inject(at = @At("HEAD"), method = "from(Ljava/util/List;)Lnet/minecraft/client/gui/narration/NarrationThunk;", cancellable = true)

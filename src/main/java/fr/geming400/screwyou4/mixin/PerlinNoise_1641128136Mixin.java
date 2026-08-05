@@ -10,19 +10,19 @@ public class PerlinNoise_1641128136Mixin {
         @Inject(at = @At("HEAD"), method = "wrap(D)D", cancellable = true)
     private static void wrap__1444556844(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1444556844L))
-            info.setReturnValue(6.568460051496594E7D);
+            info.setReturnValue(4.6334280051496595E8D);
     }
 
     @Inject(at = @At("HEAD"), method = "getValue(DDDDD)D", cancellable = true)
     private void getValue_206328284(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(206328284L))
-            info.setReturnValue(6.568460037354902E7D);
+            info.setReturnValue(4.6334280037354904E8D);
     }
 
     @Inject(at = @At("HEAD"), method = "getValue(DDD)D", cancellable = true)
     private void getValue_570703964(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(570703964L))
-            info.setReturnValue(6.568460053641364E7D);
+            info.setReturnValue(4.6334280053641367E8D);
     }
 
     @Inject(at = @At("HEAD"), method = "create(Lnet/minecraft/util/RandomSource;ILit/unimi/dsi/fastutil/doubles/DoubleList;)Lnet/minecraft/world/level/levelgen/synth/PerlinNoise;", cancellable = true)
@@ -49,6 +49,12 @@ public class PerlinNoise_1641128136Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "parityConfigString(Ljava/lang/StringBuilder;)V", cancellable = true)
+    private void parityConfigString__1586056677(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1586056677L))
+            info.cancel();
+    }
+
     @Inject(at = @At("HEAD"), method = "createLegacyForLegacyNetherBiome(Lnet/minecraft/util/RandomSource;ILit/unimi/dsi/fastutil/doubles/DoubleList;)Lnet/minecraft/world/level/levelgen/synth/PerlinNoise;", cancellable = true)
     private static void createLegacyForLegacyNetherBiome__1076074614(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1076074614L))
@@ -61,16 +67,10 @@ public class PerlinNoise_1641128136Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "parityConfigString(Ljava/lang/StringBuilder;)V", cancellable = true)
-    private void parityConfigString__1586056677(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1586056677L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "maxBrokenValue(D)D", cancellable = true)
     private void maxBrokenValue__1444557092(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1444557092L))
-            info.setReturnValue(6.668280049131647E7D);
+            info.setReturnValue(4.633428004913165E8D);
     }
 
     @Inject(at = @At("HEAD"), method = "getOctaveNoise(I)Lnet/minecraft/world/level/levelgen/synth/ImprovedNoise;", cancellable = true)

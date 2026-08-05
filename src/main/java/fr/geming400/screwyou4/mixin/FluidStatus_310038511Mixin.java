@@ -22,7 +22,7 @@ public class FluidStatus_310038511Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_348301252(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(348301252L))
-            info.setReturnValue(906659835);
+            info.setReturnValue(446773335);
     }
 
     @Inject(at = @At("HEAD"), method = "at(I)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
@@ -34,7 +34,7 @@ public class FluidStatus_310038511Mixin {
     @Inject(at = @At("HEAD"), method = "fluidLevel()I", cancellable = true)
     private void fluidLevel_348300756(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(348300756L))
-            info.setReturnValue(1109807255);
+            info.setReturnValue(649920755);
     }
 
     @Inject(at = @At("HEAD"), method = "fluidType()Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)

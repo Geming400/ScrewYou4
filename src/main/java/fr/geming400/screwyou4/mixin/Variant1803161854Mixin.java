@@ -19,16 +19,16 @@ public class Variant1803161854Mixin {
             info.setReturnValue(net.minecraft.world.entity.animal.cow.MushroomCow.Variant.BROWN);
     }
 
-    @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
-    private void getSerializedName_667701383(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(667701383L))
-            info.setReturnValue("ID");
-    }
-
     @Inject(at = @At("HEAD"), method = "getBlockState()Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
     private void getBlockState__492597012(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-492597012L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
+    private void getSerializedName_667701383(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(667701383L))
+            info.setReturnValue("ID");
     }
 
 

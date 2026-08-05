@@ -73,21 +73,15 @@ public class Instance1437872808Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "ap2(Lcom/mojang/datafixers/kinds/App;Lcom/mojang/datafixers/kinds/App;Lcom/mojang/datafixers/kinds/App;)Lcom/mojang/datafixers/kinds/App;", cancellable = true)
-    private void ap2_67085579(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(67085579L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "ap2(Lcom/mojang/datafixers/kinds/App;Lcom/mojang/datafixers/kinds/App;Lcom/mojang/datafixers/kinds/App;)Lnet/minecraft/world/entity/ai/behavior/declarative/BehaviorBuilder;", cancellable = true)
     private void ap2_1090730392(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1090730392L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "lift1(Lcom/mojang/datafixers/kinds/App;)Ljava/util/function/Function;", cancellable = true)
-    private void lift1_1519095016(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1519095016L))
+    @Inject(at = @At("HEAD"), method = "ap2(Lcom/mojang/datafixers/kinds/App;Lcom/mojang/datafixers/kinds/App;Lcom/mojang/datafixers/kinds/App;)Lcom/mojang/datafixers/kinds/App;", cancellable = true)
+    private void ap2_67085579(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(67085579L))
             info.setReturnValue(null);
     }
 
@@ -112,6 +106,12 @@ public class Instance1437872808Mixin {
     @Inject(at = @At("HEAD"), method = "ap4(Lcom/mojang/datafixers/kinds/App;Lcom/mojang/datafixers/kinds/App;Lcom/mojang/datafixers/kinds/App;Lcom/mojang/datafixers/kinds/App;Lcom/mojang/datafixers/kinds/App;)Lnet/minecraft/world/entity/ai/behavior/declarative/BehaviorBuilder;", cancellable = true)
     private void ap4_1279049464(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1279049464L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "lift1(Lcom/mojang/datafixers/kinds/App;)Ljava/util/function/Function;", cancellable = true)
+    private void lift1_1519095016(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1519095016L))
             info.setReturnValue(null);
     }
 

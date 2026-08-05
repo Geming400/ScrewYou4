@@ -10,7 +10,7 @@ public class MoonPhase_142672484Mixin {
         @Inject(at = @At("HEAD"), method = "index()I", cancellable = true)
     private void index_180934729(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(180934729L))
-            info.setReturnValue(-1493558290);
+            info.setReturnValue(-1637305290);
     }
 
     @Inject(at = @At("HEAD"), method = "values()[Lnet/minecraft/world/level/MoonPhase;", cancellable = true)
@@ -34,7 +34,7 @@ public class MoonPhase_142672484Mixin {
     @Inject(at = @At("HEAD"), method = "startTick()I", cancellable = true)
     private void startTick_180934729(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(180934729L))
-            info.setReturnValue(-1493558290);
+            info.setReturnValue(-1636306690);
     }
 
 

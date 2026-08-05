@@ -22,13 +22,7 @@ public class ExecuteInfo1734473319Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1772736061(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1772736061L))
-            info.setReturnValue(208985942);
-    }
-
-    @Inject(at = @At("HEAD"), method = "baseVertex()I", cancellable = true)
-    private void baseVertex_1772735565(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1772735565L))
-            info.setReturnValue(387509431);
+            info.setReturnValue(155510742);
     }
 
     @Inject(at = @At("HEAD"), method = "indexType()Lcom/mojang/blaze3d/IndexType;", cancellable = true)
@@ -40,13 +34,19 @@ public class ExecuteInfo1734473319Mixin {
     @Inject(at = @At("HEAD"), method = "indexCount()I", cancellable = true)
     private void indexCount_1772735565(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1772735565L))
-            info.setReturnValue(387509431);
+            info.setReturnValue(334034231);
+    }
+
+    @Inject(at = @At("HEAD"), method = "baseVertex()I", cancellable = true)
+    private void baseVertex_1772735565(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1772735565L))
+            info.setReturnValue(334034231);
     }
 
     @Inject(at = @At("HEAD"), method = "firstIndex()I", cancellable = true)
     private void firstIndex_1772735565(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1772735565L))
-            info.setReturnValue(387509431);
+            info.setReturnValue(334034231);
     }
 
     @Inject(at = @At("HEAD"), method = "vertexBuffer()Lcom/mojang/blaze3d/buffers/GpuBuffer;", cancellable = true)

@@ -28,7 +28,7 @@ public class WithRemainder1965092265Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2003355007(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2003355007L))
-            info.setReturnValue(-759131523);
+            info.setReturnValue(-1396645823);
     }
 
     @Inject(at = @At("HEAD"), method = "resolve(Lnet/minecraft/util/context/ContextMap;Lnet/minecraft/world/item/crafting/display/DisplayContentsFactory;)Ljava/util/stream/Stream;", cancellable = true)

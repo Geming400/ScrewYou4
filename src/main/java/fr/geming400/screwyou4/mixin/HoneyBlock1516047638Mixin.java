@@ -13,14 +13,14 @@ public class HoneyBlock1516047638Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "showJumpParticles(Lnet/minecraft/world/entity/Entity;)V", cancellable = true)
-    private static void showJumpParticles_1064323226(CallbackInfo info) {
+    @Inject(at = @At("HEAD"), method = "showSlideParticles(Lnet/minecraft/world/entity/Entity;)V", cancellable = true)
+    private static void showSlideParticles_1064323226(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1064323226L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "showSlideParticles(Lnet/minecraft/world/entity/Entity;)V", cancellable = true)
-    private static void showSlideParticles_1064323226(CallbackInfo info) {
+    @Inject(at = @At("HEAD"), method = "showJumpParticles(Lnet/minecraft/world/entity/Entity;)V", cancellable = true)
+    private static void showJumpParticles_1064323226(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1064323226L))
             info.cancel();
     }

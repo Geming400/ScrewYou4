@@ -13,12 +13,6 @@ public class Marker_269926906Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "hurtServer(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/damagesource/DamageSource;F)Z", cancellable = true)
-    private void hurtServer__179502930(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-179502930L))
-            info.setReturnValue(true);
-    }
-
     @Inject(at = @At("HEAD"), method = "getPistonPushReaction()Lnet/minecraft/world/level/material/PushReaction;", cancellable = true)
     private void getPistonPushReaction__2134161554(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2134161554L))
@@ -35,6 +29,12 @@ public class Marker_269926906Mixin {
     private void getAddEntityPacket_649953889(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(649953889L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "hurtServer(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/damagesource/DamageSource;F)Z", cancellable = true)
+    private void hurtServer__179502930(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-179502930L))
+            info.setReturnValue(true);
     }
 
 

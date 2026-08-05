@@ -10,7 +10,7 @@ public class OminousBottleAmplifier1373693919Mixin {
         @Inject(at = @At("HEAD"), method = "value()I", cancellable = true)
     private void value_1411956165(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1411956165L))
-            info.setReturnValue(418495163);
+            info.setReturnValue(684415363);
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
@@ -28,18 +28,18 @@ public class OminousBottleAmplifier1373693919Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1411956661(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1411956661L))
-            info.setReturnValue(239971674);
-    }
-
-    @Inject(at = @At("HEAD"), method = "addToTooltip(Lnet/minecraft/world/item/Item$TooltipContext;Ljava/util/function/Consumer;Lnet/minecraft/world/item/TooltipFlag;Lnet/minecraft/core/component/DataComponentGetter;)V", cancellable = true)
-    private void addToTooltip__1169024471(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1169024471L))
-            info.cancel();
+            info.setReturnValue(505891874);
     }
 
     @Inject(at = @At("HEAD"), method = "onConsume(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/component/Consumable;)V", cancellable = true)
     private void onConsume__814549117(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-814549117L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "addToTooltip(Lnet/minecraft/world/item/Item$TooltipContext;Ljava/util/function/Consumer;Lnet/minecraft/world/item/TooltipFlag;Lnet/minecraft/core/component/DataComponentGetter;)V", cancellable = true)
+    private void addToTooltip__1169024471(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1169024471L))
             info.cancel();
     }
 

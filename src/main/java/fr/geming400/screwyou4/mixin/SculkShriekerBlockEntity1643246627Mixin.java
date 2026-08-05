@@ -19,6 +19,12 @@ public class SculkShriekerBlockEntity1643246627Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "preRemoveSideEffects(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)V", cancellable = true)
+    private void preRemoveSideEffects__875462951(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-875462951L))
+            info.cancel();
+    }
+
     @Inject(at = @At("HEAD"), method = "tryRespond(Lnet/minecraft/server/level/ServerLevel;)V", cancellable = true)
     private void tryRespond_664837287(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(664837287L))
@@ -31,22 +37,16 @@ public class SculkShriekerBlockEntity1643246627Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "preRemoveSideEffects(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)V", cancellable = true)
-    private void preRemoveSideEffects__875462951(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-875462951L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "getVibrationUser()Lnet/minecraft/world/level/gameevent/vibrations/VibrationSystem$User;", cancellable = true)
+    private void getVibrationUser_660767438(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(660767438L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getVibrationData()Lnet/minecraft/world/level/gameevent/vibrations/VibrationSystem$Data;", cancellable = true)
     private void getVibrationData__2043871601(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2043871601L))
             info.setReturnValue(new net.minecraft.world.level.gameevent.vibrations.VibrationSystem$Data());
-    }
-
-    @Inject(at = @At("HEAD"), method = "getVibrationUser()Lnet/minecraft/world/level/gameevent/vibrations/VibrationSystem$User;", cancellable = true)
-    private void getVibrationUser_660767438(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(660767438L))
-            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "tryGetPlayer(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/server/level/ServerPlayer;", cancellable = true)

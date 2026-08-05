@@ -16,7 +16,7 @@ public class BinaryAnimator_220411506Mixin {
     @Inject(at = @At("HEAD"), method = "getFactor(F)F", cancellable = true)
     private void getFactor_1431542538(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1431542538L))
-            info.setReturnValue(6.812434E8F);
+            info.setReturnValue(3.09582E8F);
     }
 
 

@@ -22,18 +22,12 @@ public class CommonListenerCookie_519422225Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_557684966(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(557684966L))
-            info.setReturnValue(-1964974125);
+            info.setReturnValue(1966397671);
     }
 
-    @Inject(at = @At("HEAD"), method = "chatState()Lnet/minecraft/client/gui/components/ChatComponent$State;", cancellable = true)
-    private void chatState__1297383465(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1297383465L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "enabledFeatures()Lnet/minecraft/world/flag/FeatureFlagSet;", cancellable = true)
-    private void enabledFeatures_1184242722(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1184242722L))
+    @Inject(at = @At("HEAD"), method = "seenPlayers()Ljava/util/Map;", cancellable = true)
+    private void seenPlayers__1485201416(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1485201416L))
             info.setReturnValue(null);
     }
 
@@ -43,21 +37,27 @@ public class CommonListenerCookie_519422225Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "serverData()Lnet/minecraft/client/multiplayer/ServerData;", cancellable = true)
-    private void serverData__1118504702(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1118504702L))
+    @Inject(at = @At("HEAD"), method = "enabledFeatures()Lnet/minecraft/world/flag/FeatureFlagSet;", cancellable = true)
+    private void enabledFeatures_1184242722(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1184242722L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "seenPlayers()Ljava/util/Map;", cancellable = true)
-    private void seenPlayers__1485201416(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "serverBrand()Ljava/lang/String;", cancellable = true)
+    private void serverBrand__616038247(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-616038247L))
+            info.setReturnValue("헳M鉗XYHⷉWY>0ZSuz㗁EYb^^d[h$JdQ9'>攉h@dO]ᑼBQca[x_yCr鯵");
+    }
+
+    @Inject(at = @At("HEAD"), method = "chatState()Lnet/minecraft/client/gui/components/ChatComponent$State;", cancellable = true)
+    private void chatState__1297383465(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1297383465L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "customReportDetails()Ljava/util/Map;", cancellable = true)
+    private void customReportDetails__1485201416(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1485201416L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "serverLinks()Lnet/minecraft/server/ServerLinks;", cancellable = true)
-    private void serverLinks_657669856(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(657669856L))
             info.setReturnValue(null);
     }
 
@@ -79,18 +79,6 @@ public class CommonListenerCookie_519422225Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "customReportDetails()Ljava/util/Map;", cancellable = true)
-    private void customReportDetails__1485201416(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1485201416L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "receivedRegistries()Lnet/minecraft/core/RegistryAccess$Frozen;", cancellable = true)
-    private void receivedRegistries_270671959(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(270671959L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "localGameProfile()Lcom/mojang/authlib/GameProfile;", cancellable = true)
     private void localGameProfile_1036590504(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1036590504L))
@@ -103,10 +91,22 @@ public class CommonListenerCookie_519422225Mixin {
             info.setReturnValue(new net.minecraft.client.multiplayer.LevelLoadTracker());
     }
 
-    @Inject(at = @At("HEAD"), method = "serverBrand()Ljava/lang/String;", cancellable = true)
-    private void serverBrand__616038247(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-616038247L))
-            info.setReturnValue("헳M鉗XYHⷉWY>0ZSuz㗁EYb^^d[h$JdQ9'>攉h@dO]ᑼBQca[x_yCr鯵");
+    @Inject(at = @At("HEAD"), method = "receivedRegistries()Lnet/minecraft/core/RegistryAccess$Frozen;", cancellable = true)
+    private void receivedRegistries_270671959(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(270671959L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "serverData()Lnet/minecraft/client/multiplayer/ServerData;", cancellable = true)
+    private void serverData__1118504702(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1118504702L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "serverLinks()Lnet/minecraft/server/ServerLinks;", cancellable = true)
+    private void serverLinks_657669856(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(657669856L))
+            info.setReturnValue(null);
     }
 
 

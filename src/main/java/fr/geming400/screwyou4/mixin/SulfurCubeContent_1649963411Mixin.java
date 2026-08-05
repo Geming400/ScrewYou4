@@ -22,7 +22,7 @@ public class SulfurCubeContent_1649963411Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1688226152(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1688226152L))
-            info.setReturnValue(-186501751);
+            info.setReturnValue(-98575651);
     }
 
     @Inject(at = @At("HEAD"), method = "absorbedBlockItemStack()Lnet/minecraft/world/item/ItemStackTemplate;", cancellable = true)

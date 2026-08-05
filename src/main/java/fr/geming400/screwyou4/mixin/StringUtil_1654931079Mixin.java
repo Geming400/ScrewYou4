@@ -19,10 +19,22 @@ public class StringUtil_1654931079Mixin {
             info.setReturnValue(false);
     }
 
+    @Inject(at = @At("HEAD"), method = "endsWithNewLine(Ljava/lang/String;)Z", cancellable = true)
+    private static void endsWithNewLine__1487670977(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1487670977L))
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "truncateStringIfNecessary(Ljava/lang/String;IZ)Ljava/lang/String;", cancellable = true)
+    private static void truncateStringIfNecessary_1453669420(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1453669420L))
+            info.setReturnValue("ExI>ᡖ<Dhs0AZ|?cAqvef'}PwMꍞL/%훒");
+    }
+
     @Inject(at = @At("HEAD"), method = "lineCount(Ljava/lang/String;)I", cancellable = true)
     private static void lineCount__1487687314(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1487687314L))
-            info.setReturnValue(111531952);
+            info.setReturnValue(51685452);
     }
 
     @Inject(at = @At("HEAD"), method = "isAllowedChatCharacter(I)Z", cancellable = true)
@@ -71,18 +83,6 @@ public class StringUtil_1654931079Mixin {
     private static void stripColor__1427294147(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1427294147L))
             info.setReturnValue("$MRe9$Dyvo1/vt(`30>᳓&wE2戀akN<V,1FPC<뱀n]z>ﱲ`8 %`IӒ{");
-    }
-
-    @Inject(at = @At("HEAD"), method = "truncateStringIfNecessary(Ljava/lang/String;IZ)Ljava/lang/String;", cancellable = true)
-    private static void truncateStringIfNecessary_1453669420(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1453669420L))
-            info.setReturnValue("ExI>ᡖ<Dhs0AZ|?cAqvef'}PwMꍞL/%훒");
-    }
-
-    @Inject(at = @At("HEAD"), method = "endsWithNewLine(Ljava/lang/String;)Z", cancellable = true)
-    private static void endsWithNewLine__1487670977(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1487670977L))
-            info.setReturnValue(false);
     }
 
 

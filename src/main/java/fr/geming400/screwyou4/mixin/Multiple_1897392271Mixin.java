@@ -22,7 +22,7 @@ public class Multiple_1897392271Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1935655012(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1935655012L))
-            info.setReturnValue(1744023547);
+            info.setReturnValue(-1934997649);
     }
 
     @Inject(at = @At("HEAD"), method = "test(Ljava/lang/Iterable;)Z", cancellable = true)
@@ -37,14 +37,14 @@ public class Multiple_1897392271Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "tests()Ljava/util/List;", cancellable = true)
-    private void tests__771238210(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "unpack()Ljava/util/List;", cancellable = true)
+    private void unpack__771238210(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-771238210L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "unpack()Ljava/util/List;", cancellable = true)
-    private void unpack__771238210(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "tests()Ljava/util/List;", cancellable = true)
+    private void tests__771238210(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-771238210L))
             info.setReturnValue(null);
     }

@@ -10,7 +10,7 @@ public class AcaciaFoliagePlacer_1945660262Mixin {
         @Inject(at = @At("HEAD"), method = "foliageHeight(Lnet/minecraft/util/RandomSource;ILnet/minecraft/world/level/levelgen/feature/configurations/TreeConfiguration;)I", cancellable = true)
     private void foliageHeight__1707074749(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1707074749L))
-            info.setReturnValue(778961583);
+            info.setReturnValue(1163826883);
     }
 
 

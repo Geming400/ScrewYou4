@@ -22,13 +22,7 @@ public class PackSelectionConfig_1289557609Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1327820350(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1327820350L))
-            info.setReturnValue(749542878);
-    }
-
-    @Inject(at = @At("HEAD"), method = "required()Z", cancellable = true)
-    private void required_1327836191(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1327836191L))
-            info.setReturnValue(false);
+            info.setReturnValue(500425678);
     }
 
     @Inject(at = @At("HEAD"), method = "defaultPosition()Lnet/minecraft/server/packs/repository/Pack$Position;", cancellable = true)
@@ -39,6 +33,12 @@ public class PackSelectionConfig_1289557609Mixin {
 
     @Inject(at = @At("HEAD"), method = "fixedPosition()Z", cancellable = true)
     private void fixedPosition_1327836191(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1327836191L))
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "required()Z", cancellable = true)
+    private void required_1327836191(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1327836191L))
             info.setReturnValue(false);
     }

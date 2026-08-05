@@ -40,7 +40,7 @@ public class DisplayContext1551816607Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1590079349(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1590079349L))
-            info.setReturnValue(1213790216);
+            info.setReturnValue(1091953916);
     }
 
     @Inject(at = @At("HEAD"), method = "valueCodec()Lcom/mojang/serialization/Codec;", cancellable = true)

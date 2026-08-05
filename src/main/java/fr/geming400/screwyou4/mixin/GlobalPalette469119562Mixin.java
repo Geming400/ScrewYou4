@@ -22,25 +22,13 @@ public class GlobalPalette469119562Mixin {
     @Inject(at = @At("HEAD"), method = "getSize()I", cancellable = true)
     private void getSize_507381808(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(507381808L))
-            info.setReturnValue(-1889790273);
+            info.setReturnValue(-1317816373);
     }
 
     @Inject(at = @At("HEAD"), method = "read(Lnet/minecraft/network/FriendlyByteBuf;Lnet/minecraft/core/IdMap;)V", cancellable = true)
     private void read_1791828819(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1791828819L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "getSerializedSize(Lnet/minecraft/core/IdMap;)I", cancellable = true)
-    private void getSerializedSize_1601929402(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1601929402L))
-            info.setReturnValue(-965965029);
-    }
-
-    @Inject(at = @At("HEAD"), method = "idFor(Ljava/lang/Object;Lnet/minecraft/world/level/chunk/PaletteResize;)I", cancellable = true)
-    private void idFor_113669946(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(113669946L))
-            info.setReturnValue(1465896436);
     }
 
     @Inject(at = @At("HEAD"), method = "valueFor(I)Ljava/lang/Object;", cancellable = true)
@@ -53,6 +41,18 @@ public class GlobalPalette469119562Mixin {
     private void maybeHas_539479952(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(539479952L))
             info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getSerializedSize(Lnet/minecraft/core/IdMap;)I", cancellable = true)
+    private void getSerializedSize_1601929402(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1601929402L))
+            info.setReturnValue(-393991129);
+    }
+
+    @Inject(at = @At("HEAD"), method = "idFor(Ljava/lang/Object;Lnet/minecraft/world/level/chunk/PaletteResize;)I", cancellable = true)
+    private void idFor_113669946(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(113669946L))
+            info.setReturnValue(2037870336);
     }
 
 

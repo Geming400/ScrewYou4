@@ -22,31 +22,31 @@ public class Stopwatch_2068018641Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2106281382(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2106281382L))
-            info.setReturnValue(765945284);
+            info.setReturnValue(858307584);
     }
 
     @Inject(at = @At("HEAD"), method = "creationTime()J", cancellable = true)
     private void creationTime_2106281847(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2106281847L))
-            info.setReturnValue(-1662913447275881167L);
-    }
-
-    @Inject(at = @At("HEAD"), method = "elapsedMilliseconds(J)J", cancellable = true)
-    private void elapsedMilliseconds__1012119695(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1012119695L))
-            info.setReturnValue(-2549790473071003233L);
+            info.setReturnValue(-1662913447183518867L);
     }
 
     @Inject(at = @At("HEAD"), method = "accumulatedElapsedTime()J", cancellable = true)
     private void accumulatedElapsedTime_2106281847(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2106281847L))
-            info.setReturnValue(-1662913447275881167L);
+            info.setReturnValue(-1662913447183518867L);
+    }
+
+    @Inject(at = @At("HEAD"), method = "elapsedMilliseconds(J)J", cancellable = true)
+    private void elapsedMilliseconds__1012119695(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1012119695L))
+            info.setReturnValue(-2549790472978640933L);
     }
 
     @Inject(at = @At("HEAD"), method = "elapsedSeconds(J)D", cancellable = true)
     private void elapsedSeconds__1012125461(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1012125461L))
-            info.setReturnValue(8.880305000867107E8D);
+            info.setReturnValue(9.803928000867107E8D);
     }
 
 

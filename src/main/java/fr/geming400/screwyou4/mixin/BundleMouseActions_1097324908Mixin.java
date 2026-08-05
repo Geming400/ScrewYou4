@@ -19,15 +19,15 @@ public class BundleMouseActions_1097324908Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "unselectedBundleItem(Lnet/minecraft/world/item/ItemStack;I)V", cancellable = true)
-    private void unselectedBundleItem__939379950(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-939379950L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "onStopHovering(Lnet/minecraft/world/inventory/Slot;)V", cancellable = true)
     private void onStopHovering__1456211605(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1456211605L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "unselectedBundleItem(Lnet/minecraft/world/item/ItemStack;I)V", cancellable = true)
+    private void unselectedBundleItem__939379950(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-939379950L))
             info.cancel();
     }
 

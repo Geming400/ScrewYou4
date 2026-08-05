@@ -31,32 +31,32 @@ public class CommandBlockEntity1586642171Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "isPowered()Z", cancellable = true)
-    private void isPowered_1624920754(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1624920754L))
-            info.setReturnValue(false);
-    }
-
     @Inject(at = @At("HEAD"), method = "setPowered(Z)V", cancellable = true)
     private void setPowered__1478708296(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1478708296L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "markConditionMet()Z", cancellable = true)
-    private void markConditionMet_1624920754(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "isPowered()Z", cancellable = true)
+    private void isPowered_1624920754(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1624920754L))
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "wasConditionMet()Z", cancellable = true)
-    private void wasConditionMet_1624920754(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1624920754L))
-            info.setReturnValue(false);
+    @Inject(at = @At("HEAD"), method = "setAutomatic(Z)V", cancellable = true)
+    private void setAutomatic__1478708296(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1478708296L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "isConditional()Z", cancellable = true)
     private void isConditional_1624920754(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1624920754L))
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "markConditionMet()Z", cancellable = true)
+    private void markConditionMet_1624920754(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1624920754L))
             info.setReturnValue(false);
     }
@@ -67,10 +67,10 @@ public class CommandBlockEntity1586642171Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "setAutomatic(Z)V", cancellable = true)
-    private void setAutomatic__1478708296(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1478708296L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "wasConditionMet()Z", cancellable = true)
+    private void wasConditionMet_1624920754(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1624920754L))
+            info.setReturnValue(false);
     }
 
 

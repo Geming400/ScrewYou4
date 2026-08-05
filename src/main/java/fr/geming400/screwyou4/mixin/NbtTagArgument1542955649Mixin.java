@@ -7,15 +7,15 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.commands.arguments.NbtTagArgument.class)
 public class NbtTagArgument1542955649Mixin {
-        @Inject(at = @At("HEAD"), method = "nbtTag()Lnet/minecraft/commands/arguments/NbtTagArgument;", cancellable = true)
-    private static void nbtTag_2025637850(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2025637850L))
+        @Inject(at = @At("HEAD"), method = "getExamples()Ljava/util/Collection;", cancellable = true)
+    private void getExamples__270692623(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-270692623L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getExamples()Ljava/util/Collection;", cancellable = true)
-    private void getExamples__270692623(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-270692623L))
+    @Inject(at = @At("HEAD"), method = "nbtTag()Lnet/minecraft/commands/arguments/NbtTagArgument;", cancellable = true)
+    private static void nbtTag_2025637850(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2025637850L))
             info.setReturnValue(null);
     }
 

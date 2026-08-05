@@ -13,16 +13,16 @@ public class AuthenticationHandler_1713066812Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "isValidApiKey(Ljava/lang/String;)Z", cancellable = true)
-    private void isValidApiKey__1429535492(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1429535492L))
-            info.setReturnValue(false);
-    }
-
     @Inject(at = @At("HEAD"), method = "channelRead(Lio/netty/channel/ChannelHandlerContext;Ljava/lang/Object;)V", cancellable = true)
     private void channelRead_385522707(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(385522707L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "isValidApiKey(Ljava/lang/String;)Z", cancellable = true)
+    private void isValidApiKey__1429535492(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1429535492L))
+            info.setReturnValue(false);
     }
 
 

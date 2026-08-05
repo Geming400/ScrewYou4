@@ -25,18 +25,6 @@ public class ObjectiveCriteria1320146890Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getDefaultRenderType()Lnet/minecraft/world/scores/criteria/ObjectiveCriteria$RenderType;", cancellable = true)
-    private void getDefaultRenderType__299423223(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-299423223L))
-            info.setReturnValue(net.minecraft.world.scores.criteria.ObjectiveCriteria.RenderType.INTEGER);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getCustomCriteriaNames()Ljava/util/Set;", cancellable = true)
-    private static void getCustomCriteriaNames__508888348(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-508888348L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "registerCustom(Ljava/lang/String;)Lnet/minecraft/world/scores/criteria/ObjectiveCriteria;", cancellable = true)
     private static void registerCustom_2064682379(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2064682379L))
@@ -47,6 +35,18 @@ public class ObjectiveCriteria1320146890Mixin {
     private static void registerCustom_496832897(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(496832897L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getCustomCriteriaNames()Ljava/util/Set;", cancellable = true)
+    private static void getCustomCriteriaNames__508888348(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-508888348L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getDefaultRenderType()Lnet/minecraft/world/scores/criteria/ObjectiveCriteria$RenderType;", cancellable = true)
+    private void getDefaultRenderType__299423223(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-299423223L))
+            info.setReturnValue(net.minecraft.world.scores.criteria.ObjectiveCriteria.RenderType.INTEGER);
     }
 
 

@@ -28,7 +28,7 @@ public class StorageNbtProvider1412208034Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1450470776(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1450470776L))
-            info.setReturnValue(-378312944);
+            info.setReturnValue(105999156);
     }
 
     @Inject(at = @At("HEAD"), method = "id()Lnet/minecraft/resources/Identifier;", cancellable = true)

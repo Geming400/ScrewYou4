@@ -22,7 +22,7 @@ public class SoundEventRegistration970764054Mixin {
     @Inject(at = @At("HEAD"), method = "getSubtitle()Ljava/lang/String;", cancellable = true)
     private void getSubtitle__164696417(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-164696417L))
-            info.setReturnValue("mJbN3OS&;筀䂭;DZ/l<$></Dᲊ.w$sFlH0,ҹ|1d<rA逶TSHc|ꃖqIc嶒o᷊>ogJ#?Lsr4'韂\");
+            info.setReturnValue("mJbN3OS&;筀䂭;DZ/l<$></Dᲊ.w$sFlH0,ҹ|1d<rA逶TSHc|ꃖqIc嶒o᷊>ogJ#?Lsr4'韂\"");
     }
 
 

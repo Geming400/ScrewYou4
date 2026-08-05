@@ -28,7 +28,7 @@ public class SingleFile468622226Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_506884968(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(506884968L))
-            info.setReturnValue(-2130762101);
+            info.setReturnValue(-1487095201);
     }
 
     @Inject(at = @At("HEAD"), method = "spriteId()Ljava/util/Optional;", cancellable = true)

@@ -31,22 +31,22 @@ public class ChiseledBookShelfBlock1386751429Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getRows()I", cancellable = true)
-    private void getRows_1425013675(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1425013675L))
-            info.setReturnValue(-1288566129);
+    @Inject(at = @At("HEAD"), method = "newBlockEntity(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/entity/BlockEntity;", cancellable = true)
+    private void newBlockEntity__198726226(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-198726226L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getColumns()I", cancellable = true)
     private void getColumns_1425013675(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1425013675L))
-            info.setReturnValue(-1288566129);
+            info.setReturnValue(-1386951529);
     }
 
-    @Inject(at = @At("HEAD"), method = "newBlockEntity(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/entity/BlockEntity;", cancellable = true)
-    private void newBlockEntity__198726226(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-198726226L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "getRows()I", cancellable = true)
+    private void getRows_1425013675(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1425013675L))
+            info.setReturnValue(-1386951529);
     }
 
 

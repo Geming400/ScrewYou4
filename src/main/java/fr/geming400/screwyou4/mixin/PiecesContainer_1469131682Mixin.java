@@ -22,7 +22,7 @@ public class PiecesContainer_1469131682Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1507394423(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1507394423L))
-            info.setReturnValue(-136663905);
+            info.setReturnValue(-310326105);
     }
 
     @Inject(at = @At("HEAD"), method = "load(Lnet/minecraft/nbt/ListTag;Lnet/minecraft/world/level/levelgen/structure/pieces/StructurePieceSerializationContext;)Lnet/minecraft/world/level/levelgen/structure/pieces/PiecesContainer;", cancellable = true)
@@ -43,12 +43,6 @@ public class PiecesContainer_1469131682Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "calculateBoundingBox()Lnet/minecraft/world/level/levelgen/structure/BoundingBox;", cancellable = true)
-    private void calculateBoundingBox_1639279467(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1639279467L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "isInsidePiece(Lnet/minecraft/core/BlockPos;)Z", cancellable = true)
     private void isInsidePiece_1637902124(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1637902124L))
@@ -58,6 +52,12 @@ public class PiecesContainer_1469131682Mixin {
     @Inject(at = @At("HEAD"), method = "pieces()Ljava/util/List;", cancellable = true)
     private void pieces__1199498799(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1199498799L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "calculateBoundingBox()Lnet/minecraft/world/level/levelgen/structure/BoundingBox;", cancellable = true)
+    private void calculateBoundingBox_1639279467(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1639279467L))
             info.setReturnValue(null);
     }
 

@@ -31,16 +31,10 @@ public class TagBuilder1419110649Mixin {
             info.setReturnValue(new net.minecraft.tags.TagBuilder());
     }
 
-    @Inject(at = @At("HEAD"), method = "addOptionalTag(Lnet/minecraft/resources/Identifier;)Lnet/minecraft/tags/TagBuilder;", cancellable = true)
-    private void addOptionalTag__203416094(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "addOptionalElement(Lnet/minecraft/resources/Identifier;)Lnet/minecraft/tags/TagBuilder;", cancellable = true)
+    private void addOptionalElement__203416094(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-203416094L))
             info.setReturnValue(new net.minecraft.tags.TagBuilder());
-    }
-
-    @Inject(at = @At("HEAD"), method = "shouldReplace()Z", cancellable = true)
-    private void shouldReplace_1457389232(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1457389232L))
-            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "setReplace(Z)Lnet/minecraft/tags/TagBuilder;", cancellable = true)
@@ -55,8 +49,14 @@ public class TagBuilder1419110649Mixin {
             info.setReturnValue(new net.minecraft.tags.TagBuilder());
     }
 
-    @Inject(at = @At("HEAD"), method = "addOptionalElement(Lnet/minecraft/resources/Identifier;)Lnet/minecraft/tags/TagBuilder;", cancellable = true)
-    private void addOptionalElement__203416094(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "shouldReplace()Z", cancellable = true)
+    private void shouldReplace_1457389232(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1457389232L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "addOptionalTag(Lnet/minecraft/resources/Identifier;)Lnet/minecraft/tags/TagBuilder;", cancellable = true)
+    private void addOptionalTag__203416094(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-203416094L))
             info.setReturnValue(new net.minecraft.tags.TagBuilder());
     }

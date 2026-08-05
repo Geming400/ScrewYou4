@@ -10,7 +10,7 @@ public class LevelTicks337673456Mixin {
         @Inject(at = @At("HEAD"), method = "count()I", cancellable = true)
     private void count_375935702(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(375935702L))
-            info.setReturnValue(-1260652200);
+            info.setReturnValue(-685678800);
     }
 
     @Inject(at = @At("HEAD"), method = "schedule(Lnet/minecraft/world/ticks/ScheduledTick;)V", cancellable = true)
@@ -31,10 +31,10 @@ public class LevelTicks337673456Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "willTickThisTick(Lnet/minecraft/core/BlockPos;Ljava/lang/Object;)Z", cancellable = true)
-    private void willTickThisTick__1678339817(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1678339817L))
-            info.setReturnValue(true);
+    @Inject(at = @At("HEAD"), method = "copyArea(Lnet/minecraft/world/level/levelgen/structure/BoundingBox;Lnet/minecraft/core/Vec3i;)V", cancellable = true)
+    private void copyArea__1372436433(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1372436433L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "removeContainer(Lnet/minecraft/world/level/ChunkPos;)V", cancellable = true)
@@ -49,8 +49,8 @@ public class LevelTicks337673456Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "hasScheduledTick(Lnet/minecraft/core/BlockPos;Ljava/lang/Object;)Z", cancellable = true)
-    private void hasScheduledTick__1678339817(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "willTickThisTick(Lnet/minecraft/core/BlockPos;Ljava/lang/Object;)Z", cancellable = true)
+    private void willTickThisTick__1678339817(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1678339817L))
             info.setReturnValue(true);
     }
@@ -61,10 +61,10 @@ public class LevelTicks337673456Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "copyArea(Lnet/minecraft/world/level/levelgen/structure/BoundingBox;Lnet/minecraft/core/Vec3i;)V", cancellable = true)
-    private void copyArea__1372436433(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1372436433L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "hasScheduledTick(Lnet/minecraft/core/BlockPos;Ljava/lang/Object;)Z", cancellable = true)
+    private void hasScheduledTick__1678339817(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1678339817L))
+            info.setReturnValue(true);
     }
 
 

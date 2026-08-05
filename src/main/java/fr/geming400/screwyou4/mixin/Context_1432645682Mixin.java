@@ -22,13 +22,13 @@ public class Context_1432645682Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1470908423(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1470908423L))
-            info.setReturnValue(283261761);
+            info.setReturnValue(216828261);
     }
 
     @Inject(at = @At("HEAD"), method = "seed()J", cancellable = true)
     private void seed_1470908888(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1470908888L))
-            info.setReturnValue(735634041655756479L);
+            info.setReturnValue(735634041589322979L);
     }
 
     @Inject(at = @At("HEAD"), method = "config()Lnet/minecraft/world/level/levelgen/feature/configurations/FeatureConfiguration;", cancellable = true)
@@ -43,15 +43,33 @@ public class Context_1432645682Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "registryAccess()Lnet/minecraft/core/RegistryAccess;", cancellable = true)
-    private void registryAccess_1442122424(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1442122424L))
+    @Inject(at = @At("HEAD"), method = "validBiome()Ljava/util/function/Predicate;", cancellable = true)
+    private void validBiome_782760703(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(782760703L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "heightAccessor()Lnet/minecraft/world/level/LevelHeightAccessor;", cancellable = true)
+    private void heightAccessor_1469866079(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1469866079L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "randomState()Lnet/minecraft/world/level/levelgen/RandomState;", cancellable = true)
     private void randomState_1993090424(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1993090424L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "registryAccess()Lnet/minecraft/core/RegistryAccess;", cancellable = true)
+    private void registryAccess_1442122424(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1442122424L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "biomeSource()Lnet/minecraft/world/level/biome/BiomeSource;", cancellable = true)
+    private void biomeSource__1118194907(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1118194907L))
             info.setReturnValue(null);
     }
 
@@ -70,24 +88,6 @@ public class Context_1432645682Mixin {
     @Inject(at = @At("HEAD"), method = "structureTemplateManager()Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplateManager;", cancellable = true)
     private void structureTemplateManager__738511652(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-738511652L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "validBiome()Ljava/util/function/Predicate;", cancellable = true)
-    private void validBiome_782760703(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(782760703L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "biomeSource()Lnet/minecraft/world/level/biome/BiomeSource;", cancellable = true)
-    private void biomeSource__1118194907(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1118194907L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "heightAccessor()Lnet/minecraft/world/level/LevelHeightAccessor;", cancellable = true)
-    private void heightAccessor_1469866079(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1469866079L))
             info.setReturnValue(null);
     }
 

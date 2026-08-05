@@ -25,16 +25,16 @@ public class Direction8_1261866891Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getStepX()I", cancellable = true)
-    private void getStepX_1300129136(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1300129136L))
-            info.setReturnValue(-398970443);
-    }
-
     @Inject(at = @At("HEAD"), method = "getStepZ()I", cancellable = true)
     private void getStepZ_1300129136(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1300129136L))
-            info.setReturnValue(-398970443);
+            info.setReturnValue(-1222110843);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getStepX()I", cancellable = true)
+    private void getStepX_1300129136(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1300129136L))
+            info.setReturnValue(-1222110843);
     }
 
 

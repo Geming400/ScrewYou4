@@ -22,30 +22,12 @@ public class FriendToast175750843Mixin {
     @Inject(at = @At("HEAD"), method = "height()I", cancellable = true)
     private void height_214013089(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(214013089L))
-            info.setReturnValue(-1287715675);
+            info.setReturnValue(-1352454175);
     }
 
     @Inject(at = @At("HEAD"), method = "hide()V", cancellable = true)
     private void hide_214025582(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(214025582L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/client/gui/GuiGraphicsExtractor;Lnet/minecraft/client/gui/Font;J)V", cancellable = true)
-    private void extractRenderState__2115139655(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-2115139655L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "getWantedVisibility()Lnet/minecraft/client/gui/components/toasts/Toast$Visibility;", cancellable = true)
-    private void getWantedVisibility__161492350(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-161492350L))
-            info.setReturnValue(net.minecraft.client.gui.components.toasts.Toast.Visibility.HIDE);
-    }
-
-    @Inject(at = @At("HEAD"), method = "showFriendRequestAccepted(Lnet/minecraft/client/Minecraft;Ljava/lang/String;Ljava/util/UUID;)V", cancellable = true)
-    private static void showFriendRequestAccepted_315794614(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(315794614L))
             info.cancel();
     }
 
@@ -61,9 +43,27 @@ public class FriendToast175750843Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "showFriendRequestAccepted(Lnet/minecraft/client/Minecraft;Ljava/lang/String;Ljava/util/UUID;)V", cancellable = true)
+    private static void showFriendRequestAccepted_315794614(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(315794614L))
+            info.cancel();
+    }
+
     @Inject(at = @At("HEAD"), method = "showFriendAdded(Lnet/minecraft/client/Minecraft;Ljava/lang/String;Ljava/util/UUID;)V", cancellable = true)
     private static void showFriendAdded_315794614(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(315794614L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getWantedVisibility()Lnet/minecraft/client/gui/components/toasts/Toast$Visibility;", cancellable = true)
+    private void getWantedVisibility__161492350(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-161492350L))
+            info.setReturnValue(net.minecraft.client.gui.components.toasts.Toast.Visibility.HIDE);
+    }
+
+    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/client/gui/GuiGraphicsExtractor;Lnet/minecraft/client/gui/Font;J)V", cancellable = true)
+    private void extractRenderState__2115139655(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-2115139655L))
             info.cancel();
     }
 

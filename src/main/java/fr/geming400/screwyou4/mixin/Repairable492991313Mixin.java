@@ -22,7 +22,7 @@ public class Repairable492991313Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_531254055(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(531254055L))
-            info.setReturnValue(840197688);
+            info.setReturnValue(814387788);
     }
 
     @Inject(at = @At("HEAD"), method = "items()Lnet/minecraft/core/HolderSet;", cancellable = true)

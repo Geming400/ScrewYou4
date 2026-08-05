@@ -16,7 +16,7 @@ public class SpawnState_576127723Mixin {
     @Inject(at = @At("HEAD"), method = "getSpawnableChunkCount()I", cancellable = true)
     private void getSpawnableChunkCount_614389968(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(614389968L))
-            info.setReturnValue(-1206248430);
+            info.setReturnValue(-1135471030);
     }
 
 

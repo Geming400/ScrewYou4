@@ -58,7 +58,7 @@ public class EndTag1969239905Mixin {
     @Inject(at = @At("HEAD"), method = "sizeInBytes()I", cancellable = true)
     private void sizeInBytes_2007502151(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2007502151L))
-            info.setReturnValue(-1278222937);
+            info.setReturnValue(-1259439537);
     }
 
 

@@ -22,13 +22,13 @@ public class TextureData9342051Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_47604793(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(47604793L))
-            info.setReturnValue(-1788066784);
+            info.setReturnValue(-1336336784);
     }
 
     @Inject(at = @At("HEAD"), method = "width()I", cancellable = true)
     private void width_47604297(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(47604297L))
-            info.setReturnValue(-1609543294);
+            info.setReturnValue(-1156806894);
     }
 
     @Inject(at = @At("HEAD"), method = "cells()[J", cancellable = true)
@@ -40,7 +40,7 @@ public class TextureData9342051Mixin {
     @Inject(at = @At("HEAD"), method = "height()I", cancellable = true)
     private void height_47604297(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(47604297L))
-            info.setReturnValue(-1609543294);
+            info.setReturnValue(-1156806894);
     }
 
 

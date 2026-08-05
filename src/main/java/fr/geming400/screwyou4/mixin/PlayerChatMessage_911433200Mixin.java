@@ -28,18 +28,18 @@ public class PlayerChatMessage_911433200Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_949695941(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(949695941L))
-            info.setReturnValue(-271640070);
-    }
-
-    @Inject(at = @At("HEAD"), method = "filter(Lnet/minecraft/network/chat/FilterMask;)Lnet/minecraft/network/chat/PlayerChatMessage;", cancellable = true)
-    private void filter_1173568928(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1173568928L))
-            info.setReturnValue(null);
+            info.setReturnValue(-413656570);
     }
 
     @Inject(at = @At("HEAD"), method = "filter(Z)Lnet/minecraft/network/chat/PlayerChatMessage;", cancellable = true)
     private void filter__1894186201(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1894186201L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "filter(Lnet/minecraft/network/chat/FilterMask;)Lnet/minecraft/network/chat/PlayerChatMessage;", cancellable = true)
+    private void filter_1173568928(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1173568928L))
             info.setReturnValue(null);
     }
 
@@ -76,7 +76,7 @@ public class PlayerChatMessage_911433200Mixin {
     @Inject(at = @At("HEAD"), method = "salt()J", cancellable = true)
     private void salt_949696406(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(949696406L))
-            info.setReturnValue(-4033249380905417326L);
+            info.setReturnValue(-4033249381047433826L);
     }
 
     @Inject(at = @At("HEAD"), method = "updateSignature(Lnet/minecraft/util/SignatureUpdater$Output;Lnet/minecraft/network/chat/SignedMessageLink;Lnet/minecraft/network/chat/SignedMessageBody;)V", cancellable = true)
@@ -85,21 +85,51 @@ public class PlayerChatMessage_911433200Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "removeSignature()Lnet/minecraft/network/chat/PlayerChatMessage;", cancellable = true)
-    private void removeSignature__835065103(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "removeUnsignedContent()Lnet/minecraft/network/chat/PlayerChatMessage;", cancellable = true)
+    private void removeUnsignedContent__835065103(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-835065103L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "describeSigned(Lnet/minecraft/network/chat/PlayerChatMessage;)Ljava/lang/String;", cancellable = true)
-    private static void describeSigned__629572083(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-629572083L))
-            info.setReturnValue("Tꏗ|X8츌kg喛g>%*uy+Ew.3;Nc");
+    @Inject(at = @At("HEAD"), method = "isFullyFiltered()Z", cancellable = true)
+    private void isFullyFiltered_949711782(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(949711782L))
+            info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "timeStamp()Ljava/time/Instant;", cancellable = true)
-    private void timeStamp_2008667399(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2008667399L))
+    @Inject(at = @At("HEAD"), method = "hasExpiredClient(Ljava/time/Instant;)Z", cancellable = true)
+    private void hasExpiredClient_315225233(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(315225233L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "signedContent()Ljava/lang/String;", cancellable = true)
+    private void signedContent__224027272(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-224027272L))
+            info.setReturnValue("|쎁*8g뻢ab,,@mjEO?WKg8I3@U5V|(5y83<p36&Ꝛ捻 gnBm+%trut}y,Mc<|");
+    }
+
+    @Inject(at = @At("HEAD"), method = "hasSignatureFrom(Ljava/util/UUID;)Z", cancellable = true)
+    private void hasSignatureFrom_553880954(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(553880954L))
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "decoratedContent()Lnet/minecraft/network/chat/Component;", cancellable = true)
+    private void decoratedContent__1265475966(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1265475966L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "withUnsignedContent(Lnet/minecraft/network/chat/Component;)Lnet/minecraft/network/chat/PlayerChatMessage;", cancellable = true)
+    private void withUnsignedContent__1001565603(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1001565603L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "sender()Ljava/util/UUID;", cancellable = true)
+    private void sender_1322567682(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1322567682L))
             info.setReturnValue(null);
     }
 
@@ -121,33 +151,9 @@ public class PlayerChatMessage_911433200Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "withUnsignedContent(Lnet/minecraft/network/chat/Component;)Lnet/minecraft/network/chat/PlayerChatMessage;", cancellable = true)
-    private void withUnsignedContent__1001565603(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1001565603L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "decoratedContent()Lnet/minecraft/network/chat/Component;", cancellable = true)
-    private void decoratedContent__1265475966(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "unsignedContent()Lnet/minecraft/network/chat/Component;", cancellable = true)
+    private void unsignedContent__1265475966(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1265475966L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "signedContent()Ljava/lang/String;", cancellable = true)
-    private void signedContent__224027272(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-224027272L))
-            info.setReturnValue("|쎁*8g뻢ab,,@mjEO?WKg8I3@U5V|(5y83<p36&Ꝛ捻 gnBm+%trut}y,Mc<|");
-    }
-
-    @Inject(at = @At("HEAD"), method = "hasSignatureFrom(Ljava/util/UUID;)Z", cancellable = true)
-    private void hasSignatureFrom_553880954(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(553880954L))
-            info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "sender()Ljava/util/UUID;", cancellable = true)
-    private void sender_1322567682(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1322567682L))
             info.setReturnValue(null);
     }
 
@@ -157,27 +163,21 @@ public class PlayerChatMessage_911433200Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "isFullyFiltered()Z", cancellable = true)
-    private void isFullyFiltered_949711782(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(949711782L))
-            info.setReturnValue(false);
+    @Inject(at = @At("HEAD"), method = "describeSigned(Lnet/minecraft/network/chat/PlayerChatMessage;)Ljava/lang/String;", cancellable = true)
+    private static void describeSigned__629572083(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-629572083L))
+            info.setReturnValue("Tꏗ|X8츌kg喛g>%*uy+Ew.3;Nc");
     }
 
-    @Inject(at = @At("HEAD"), method = "removeUnsignedContent()Lnet/minecraft/network/chat/PlayerChatMessage;", cancellable = true)
-    private void removeUnsignedContent__835065103(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "removeSignature()Lnet/minecraft/network/chat/PlayerChatMessage;", cancellable = true)
+    private void removeSignature__835065103(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-835065103L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "hasExpiredClient(Ljava/time/Instant;)Z", cancellable = true)
-    private void hasExpiredClient_315225233(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(315225233L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "unsignedContent()Lnet/minecraft/network/chat/Component;", cancellable = true)
-    private void unsignedContent__1265475966(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1265475966L))
+    @Inject(at = @At("HEAD"), method = "timeStamp()Ljava/time/Instant;", cancellable = true)
+    private void timeStamp_2008667399(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2008667399L))
             info.setReturnValue(null);
     }
 

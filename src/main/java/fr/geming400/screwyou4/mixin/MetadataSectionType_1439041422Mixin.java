@@ -28,7 +28,7 @@ public class MetadataSectionType_1439041422Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1477304163(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1477304163L))
-            info.setReturnValue(-987907177);
+            info.setReturnValue(-687789377);
     }
 
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/Codec;", cancellable = true)

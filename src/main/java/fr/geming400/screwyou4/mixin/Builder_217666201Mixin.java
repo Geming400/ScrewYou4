@@ -43,9 +43,9 @@ public class Builder_217666201Mixin {
             info.setReturnValue(new net.minecraft.advancements.AdvancementRewards$Builder());
     }
 
-    @Inject(at = @At("HEAD"), method = "addLootTable(Lnet/minecraft/resources/ResourceKey;)Lnet/minecraft/advancements/AdvancementRewards$Builder;", cancellable = true)
-    private void addLootTable__1096043811(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1096043811L))
+    @Inject(at = @At("HEAD"), method = "loot(Lnet/minecraft/resources/ResourceKey;)Lnet/minecraft/advancements/AdvancementRewards$Builder;", cancellable = true)
+    private static void loot__1096043563(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1096043563L))
             info.setReturnValue(null);
     }
 
@@ -55,9 +55,9 @@ public class Builder_217666201Mixin {
             info.setReturnValue(new net.minecraft.advancements.AdvancementRewards$Builder());
     }
 
-    @Inject(at = @At("HEAD"), method = "loot(Lnet/minecraft/resources/ResourceKey;)Lnet/minecraft/advancements/AdvancementRewards$Builder;", cancellable = true)
-    private static void loot__1096043563(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1096043563L))
+    @Inject(at = @At("HEAD"), method = "addLootTable(Lnet/minecraft/resources/ResourceKey;)Lnet/minecraft/advancements/AdvancementRewards$Builder;", cancellable = true)
+    private void addLootTable__1096043811(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1096043811L))
             info.setReturnValue(null);
     }
 

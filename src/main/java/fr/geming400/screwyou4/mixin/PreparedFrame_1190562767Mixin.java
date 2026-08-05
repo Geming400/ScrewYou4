@@ -13,12 +13,6 @@ public class PreparedFrame_1190562767Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "executeTranslucentAfterTerrain()V", cancellable = true)
-    private void executeTranslucentAfterTerrain_1228837505(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1228837505L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "hasAnyOutline()Z", cancellable = true)
     private void hasAnyOutline_1228841349(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1228841349L))
@@ -51,6 +45,12 @@ public class PreparedFrame_1190562767Mixin {
 
     @Inject(at = @At("HEAD"), method = "executeTranslucent()V", cancellable = true)
     private void executeTranslucent_1228837505(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1228837505L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "executeTranslucentAfterTerrain()V", cancellable = true)
+    private void executeTranslucentAfterTerrain_1228837505(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1228837505L))
             info.cancel();
     }

@@ -31,6 +31,12 @@ public class JsonRPCUtils_763334Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "getError(Lcom/google/gson/JsonObject;)Lcom/google/gson/JsonObject;", cancellable = true)
+    private static void getError_1539748860(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1539748860L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "getRequestId(Lcom/google/gson/JsonObject;)Lcom/google/gson/JsonElement;", cancellable = true)
     private static void getRequestId__26318347(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-26318347L))
@@ -43,22 +49,16 @@ public class JsonRPCUtils_763334Mixin {
             info.setReturnValue(new com.google.gson.JsonObject());
     }
 
-    @Inject(at = @At("HEAD"), method = "createRequest(Ljava/lang/Integer;Ljava/lang/String;Ljava/util/List;)Lcom/google/gson/JsonObject;", cancellable = true)
-    private static void createRequest_421458944(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(421458944L))
-            info.setReturnValue(new com.google.gson.JsonObject());
-    }
-
     @Inject(at = @At("HEAD"), method = "createRequest(Ljava/lang/Integer;Lnet/minecraft/resources/Identifier;Ljava/util/List;)Lcom/google/gson/JsonObject;", cancellable = true)
     private static void createRequest__1132029438(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1132029438L))
             info.setReturnValue(new com.google.gson.JsonObject());
     }
 
-    @Inject(at = @At("HEAD"), method = "getError(Lcom/google/gson/JsonObject;)Lcom/google/gson/JsonObject;", cancellable = true)
-    private static void getError_1539748860(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1539748860L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "createRequest(Ljava/lang/Integer;Ljava/lang/String;Ljava/util/List;)Lcom/google/gson/JsonObject;", cancellable = true)
+    private static void createRequest_421458944(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(421458944L))
+            info.setReturnValue(new com.google.gson.JsonObject());
     }
 
 

@@ -22,7 +22,7 @@ public class DifficultySettings_1051797771Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1090060512(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1090060512L))
-            info.setReturnValue(1644221305);
+            info.setReturnValue(1799188405);
     }
 
     @Inject(at = @At("HEAD"), method = "locked()Z", cancellable = true)

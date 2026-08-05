@@ -22,7 +22,7 @@ public class BlockBox509741018Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_548003760(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(548003760L))
-            info.setReturnValue(665034074);
+            info.setReturnValue(614598774);
     }
 
     @Inject(at = @At("HEAD"), method = "min()Lnet/minecraft/core/BlockPos;", cancellable = true)
@@ -37,15 +37,15 @@ public class BlockBox509741018Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "of(Lnet/minecraft/core/BlockPos;)Lnet/minecraft/core/BlockBox;", cancellable = true)
-    private static void of_2132577104(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2132577104L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "of(Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/core/BlockBox;", cancellable = true)
     private static void of_1239690236(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1239690236L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "of(Lnet/minecraft/core/BlockPos;)Lnet/minecraft/core/BlockBox;", cancellable = true)
+    private static void of_2132577104(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2132577104L))
             info.setReturnValue(null);
     }
 
@@ -79,6 +79,12 @@ public class BlockBox509741018Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "isBlock()Z", cancellable = true)
+    private void isBlock_548019601(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(548019601L))
+            info.setReturnValue(false);
+    }
+
     @Inject(at = @At("HEAD"), method = "aabb()Lnet/minecraft/world/phys/AABB;", cancellable = true)
     private void aabb__910916334(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-910916334L))
@@ -88,31 +94,25 @@ public class BlockBox509741018Mixin {
     @Inject(at = @At("HEAD"), method = "sizeY()I", cancellable = true)
     private void sizeY_548003264(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(548003264L))
-            info.setReturnValue(843557563);
-    }
-
-    @Inject(at = @At("HEAD"), method = "sizeX()I", cancellable = true)
-    private void sizeX_548003264(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(548003264L))
-            info.setReturnValue(843557563);
+            info.setReturnValue(793122263);
     }
 
     @Inject(at = @At("HEAD"), method = "sizeZ()I", cancellable = true)
     private void sizeZ_548003264(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(548003264L))
-            info.setReturnValue(843557563);
+            info.setReturnValue(793122263);
+    }
+
+    @Inject(at = @At("HEAD"), method = "sizeX()I", cancellable = true)
+    private void sizeX_548003264(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(548003264L))
+            info.setReturnValue(793122263);
     }
 
     @Inject(at = @At("HEAD"), method = "extend(Lnet/minecraft/core/Direction;I)Lnet/minecraft/core/BlockBox;", cancellable = true)
     private void extend_69965041(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(69965041L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isBlock()Z", cancellable = true)
-    private void isBlock_548019601(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(548019601L))
-            info.setReturnValue(false);
     }
 
 

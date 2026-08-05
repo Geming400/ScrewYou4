@@ -22,7 +22,7 @@ public class ToolMaterial2127786075Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__2128918479(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2128918479L))
-            info.setReturnValue(-1720103273);
+            info.setReturnValue(-1615388773);
     }
 
     @Inject(at = @At("HEAD"), method = "incorrectBlocksForDrops()Lnet/minecraft/tags/TagKey;", cancellable = true)
@@ -31,10 +31,34 @@ public class ToolMaterial2127786075Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "durability()I", cancellable = true)
+    private void durability__2128918975(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2128918975L))
+            info.setReturnValue(1282170518);
+    }
+
     @Inject(at = @At("HEAD"), method = "speed()F", cancellable = true)
     private void speed__2128921858(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2128921858L))
-            info.setReturnValue(5334700.5F);
+            info.setReturnValue(1.100492E8F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "applyToolProperties(Lnet/minecraft/world/item/Item$Properties;Lnet/minecraft/tags/TagKey;FFF)Lnet/minecraft/world/item/Item$Properties;", cancellable = true)
+    private void applyToolProperties_459401940(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(459401940L))
+            info.setReturnValue(new net.minecraft.world.item.Item$Properties());
+    }
+
+    @Inject(at = @At("HEAD"), method = "enchantmentValue()I", cancellable = true)
+    private void enchantmentValue__2128918975(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2128918975L))
+            info.setReturnValue(1282170518);
+    }
+
+    @Inject(at = @At("HEAD"), method = "attackDamageBonus()F", cancellable = true)
+    private void attackDamageBonus__2128921858(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2128921858L))
+            info.setReturnValue(1.100492E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "repairItems()Lnet/minecraft/tags/TagKey;", cancellable = true)
@@ -47,30 +71,6 @@ public class ToolMaterial2127786075Mixin {
     private void applySwordProperties_1444077402(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1444077402L))
             info.setReturnValue(new net.minecraft.world.item.Item$Properties());
-    }
-
-    @Inject(at = @At("HEAD"), method = "attackDamageBonus()F", cancellable = true)
-    private void attackDamageBonus__2128921858(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2128921858L))
-            info.setReturnValue(5334700.5F);
-    }
-
-    @Inject(at = @At("HEAD"), method = "enchantmentValue()I", cancellable = true)
-    private void enchantmentValue__2128918975(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2128918975L))
-            info.setReturnValue(1177456018);
-    }
-
-    @Inject(at = @At("HEAD"), method = "applyToolProperties(Lnet/minecraft/world/item/Item$Properties;Lnet/minecraft/tags/TagKey;FFF)Lnet/minecraft/world/item/Item$Properties;", cancellable = true)
-    private void applyToolProperties_459401940(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(459401940L))
-            info.setReturnValue(new net.minecraft.world.item.Item$Properties());
-    }
-
-    @Inject(at = @At("HEAD"), method = "durability()I", cancellable = true)
-    private void durability__2128918975(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2128918975L))
-            info.setReturnValue(1177456018);
     }
 
 

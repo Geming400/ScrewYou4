@@ -22,18 +22,18 @@ public class OptionInstanceWidget_446247288Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_484510029(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(484510029L))
-            info.setReturnValue(-542029387);
-    }
-
-    @Inject(at = @At("HEAD"), method = "widget()Lnet/minecraft/client/gui/components/AbstractWidget;", cancellable = true)
-    private void widget__1739745526(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1739745526L))
-            info.setReturnValue(null);
+            info.setReturnValue(-588420487);
     }
 
     @Inject(at = @At("HEAD"), method = "optionInstance()Lnet/minecraft/client/OptionInstance;", cancellable = true)
     private void optionInstance_1539834017(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1539834017L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "widget()Lnet/minecraft/client/gui/components/AbstractWidget;", cancellable = true)
+    private void widget__1739745526(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1739745526L))
             info.setReturnValue(null);
     }
 

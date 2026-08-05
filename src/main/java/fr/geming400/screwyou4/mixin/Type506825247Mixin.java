@@ -43,12 +43,6 @@ public class Type506825247Mixin {
             info.setReturnValue(net.minecraft.world.level.block.EyeblossomBlock.Type.CLOSED);
     }
 
-    @Inject(at = @At("HEAD"), method = "emitSounds()Z", cancellable = true)
-    private void emitSounds_545103830(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(545103830L))
-            info.setReturnValue(true);
-    }
-
     @Inject(at = @At("HEAD"), method = "longSwitchSound()Lnet/minecraft/sounds/SoundEvent;", cancellable = true)
     private void longSwitchSound_1597038145(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1597038145L))
@@ -59,6 +53,12 @@ public class Type506825247Mixin {
     private void spawnTransformParticle__1972089553(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1972089553L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "emitSounds()Z", cancellable = true)
+    private void emitSounds_545103830(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(545103830L))
+            info.setReturnValue(true);
     }
 
 

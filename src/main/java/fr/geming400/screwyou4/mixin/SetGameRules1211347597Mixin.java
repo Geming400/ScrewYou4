@@ -22,7 +22,7 @@ public class SetGameRules1211347597Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1249610339(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1249610339L))
-            info.setReturnValue(-1505380135);
+            info.setReturnValue(1946342361);
     }
 
     @Inject(at = @At("HEAD"), method = "setup(Lnet/minecraft/server/level/ServerLevel;)Lnet/minecraft/world/level/gamerules/GameRuleMap;", cancellable = true)

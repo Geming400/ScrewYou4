@@ -22,7 +22,7 @@ public class FluidPredicate_843560767Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_881823508(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(881823508L))
-            info.setReturnValue(-455614886);
+            info.setReturnValue(-695466186);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;)Z", cancellable = true)

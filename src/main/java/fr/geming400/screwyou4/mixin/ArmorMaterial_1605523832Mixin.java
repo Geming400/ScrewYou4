@@ -22,7 +22,43 @@ public class ArmorMaterial_1605523832Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1643786573(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1643786573L))
-            info.setReturnValue(-1870068956);
+            info.setReturnValue(1500040940);
+    }
+
+    @Inject(at = @At("HEAD"), method = "durability()I", cancellable = true)
+    private void durability_1643786077(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1643786077L))
+            info.setReturnValue(127256864);
+    }
+
+    @Inject(at = @At("HEAD"), method = "equipSound()Lnet/minecraft/core/Holder;", cancellable = true)
+    private void equipSound__1140567693(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1140567693L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "createAttributes(Lnet/minecraft/world/item/equipment/ArmorType;)Lnet/minecraft/world/item/component/ItemAttributeModifiers;", cancellable = true)
+    private void createAttributes__2075758867(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2075758867L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "assetId()Lnet/minecraft/resources/ResourceKey;", cancellable = true)
+    private void assetId__1880952152(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1880952152L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "enchantmentValue()I", cancellable = true)
+    private void enchantmentValue_1643786077(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1643786077L))
+            info.setReturnValue(127256864);
+    }
+
+    @Inject(at = @At("HEAD"), method = "repairIngredient()Lnet/minecraft/tags/TagKey;", cancellable = true)
+    private void repairIngredient__1842109420(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1842109420L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "defense()Ljava/util/Map;", cancellable = true)
@@ -34,49 +70,13 @@ public class ArmorMaterial_1605523832Mixin {
     @Inject(at = @At("HEAD"), method = "toughness()F", cancellable = true)
     private void toughness_1643783194(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1643783194L))
-            info.setReturnValue(9.591889E8F);
-    }
-
-    @Inject(at = @At("HEAD"), method = "repairIngredient()Lnet/minecraft/tags/TagKey;", cancellable = true)
-    private void repairIngredient__1842109420(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1842109420L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "enchantmentValue()I", cancellable = true)
-    private void enchantmentValue_1643786077(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1643786077L))
-            info.setReturnValue(1052114264);
-    }
-
-    @Inject(at = @At("HEAD"), method = "assetId()Lnet/minecraft/resources/ResourceKey;", cancellable = true)
-    private void assetId__1880952152(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1880952152L))
-            info.setReturnValue(null);
+            info.setReturnValue(3.43315E7F);
     }
 
     @Inject(at = @At("HEAD"), method = "knockbackResistance()F", cancellable = true)
     private void knockbackResistance_1643783194(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1643783194L))
-            info.setReturnValue(9.591889E8F);
-    }
-
-    @Inject(at = @At("HEAD"), method = "createAttributes(Lnet/minecraft/world/item/equipment/ArmorType;)Lnet/minecraft/world/item/component/ItemAttributeModifiers;", cancellable = true)
-    private void createAttributes__2075758867(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2075758867L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "equipSound()Lnet/minecraft/core/Holder;", cancellable = true)
-    private void equipSound__1140567693(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1140567693L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "durability()I", cancellable = true)
-    private void durability_1643786077(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1643786077L))
-            info.setReturnValue(1052114264);
+            info.setReturnValue(3.43315E7F);
     }
 
 

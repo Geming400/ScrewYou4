@@ -19,18 +19,6 @@ public class SubmitNodeStorage1967202419Mixin {
             info.setReturnValue(new net.minecraft.client.renderer.SubmitNodeCollection());
     }
 
-    @Inject(at = @At("HEAD"), method = "submitModel(Lnet/minecraft/client/model/Model;Ljava/lang/Object;Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/rendertype/RenderType;IIILnet/minecraft/client/renderer/texture/TextureAtlasSprite;ILnet/minecraft/client/renderer/feature/ModelFeatureRenderer$CrumblingOverlay;)V", cancellable = true)
-    private void submitModel__641961555(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-641961555L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "submitCustomGeometry(Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/rendertype/RenderType;Lnet/minecraft/client/renderer/SubmitNodeCollector$CustomGeometryRenderer;)V", cancellable = true)
-    private void submitCustomGeometry_724736070(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(724736070L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "getSubmitsPerOrder()Lit/unimi/dsi/fastutil/ints/Int2ObjectAVLTreeMap;", cancellable = true)
     private void getSubmitsPerOrder_1587276696(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1587276696L))
@@ -49,9 +37,33 @@ public class SubmitNodeStorage1967202419Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "submitMovingBlock(Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/block/MovingBlockRenderState;I)V", cancellable = true)
+    private void submitMovingBlock__1172470294(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1172470294L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "submitGizmoPrimitives(Lnet/minecraft/client/renderer/gizmos/DrawableGizmoPrimitives$Group;Lnet/minecraft/client/renderer/state/level/CameraRenderState;Z)V", cancellable = true)
+    private void submitGizmoPrimitives__325441296(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-325441296L))
+            info.cancel();
+    }
+
     @Inject(at = @At("HEAD"), method = "submitShadow(Lcom/mojang/blaze3d/vertex/PoseStack;FLjava/util/List;)V", cancellable = true)
     private void submitShadow_2106777133(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(2106777133L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "submitFlame(Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/entity/state/EntityRenderState;Lorg/joml/Quaternionf;)V", cancellable = true)
+    private void submitFlame__2111834222(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-2111834222L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "submitNameTag(Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/world/phys/Vec3;ILnet/minecraft/network/chat/Component;ZILnet/minecraft/client/renderer/state/level/CameraRenderState;)V", cancellable = true)
+    private void submitNameTag_1963611964(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1963611964L))
             info.cancel();
     }
 
@@ -73,30 +85,6 @@ public class SubmitNodeStorage1967202419Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "submitGizmoPrimitives(Lnet/minecraft/client/renderer/gizmos/DrawableGizmoPrimitives$Group;Lnet/minecraft/client/renderer/state/level/CameraRenderState;Z)V", cancellable = true)
-    private void submitGizmoPrimitives__325441296(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-325441296L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "submitNameTag(Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/world/phys/Vec3;ILnet/minecraft/network/chat/Component;ZILnet/minecraft/client/renderer/state/level/CameraRenderState;)V", cancellable = true)
-    private void submitNameTag_1963611964(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1963611964L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "submitFlame(Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/entity/state/EntityRenderState;Lorg/joml/Quaternionf;)V", cancellable = true)
-    private void submitFlame__2111834222(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-2111834222L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "submitMovingBlock(Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/block/MovingBlockRenderState;I)V", cancellable = true)
-    private void submitMovingBlock__1172470294(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1172470294L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "drainPhases(Ljava/util/function/Consumer;)V", cancellable = true)
     private void drainPhases__1646748464(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1646748464L))
@@ -112,6 +100,18 @@ public class SubmitNodeStorage1967202419Mixin {
     @Inject(at = @At("HEAD"), method = "submitItem(Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/world/item/ItemDisplayContext;III[ILjava/util/List;Lnet/minecraft/client/renderer/item/ItemStackRenderState$FoilType;)V", cancellable = true)
     private void submitItem_1382046301(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1382046301L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "submitModel(Lnet/minecraft/client/model/Model;Ljava/lang/Object;Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/rendertype/RenderType;IIILnet/minecraft/client/renderer/texture/TextureAtlasSprite;ILnet/minecraft/client/renderer/feature/ModelFeatureRenderer$CrumblingOverlay;)V", cancellable = true)
+    private void submitModel__641961555(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-641961555L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "submitCustomGeometry(Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/rendertype/RenderType;Lnet/minecraft/client/renderer/SubmitNodeCollector$CustomGeometryRenderer;)V", cancellable = true)
+    private void submitCustomGeometry_724736070(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(724736070L))
             info.cancel();
     }
 

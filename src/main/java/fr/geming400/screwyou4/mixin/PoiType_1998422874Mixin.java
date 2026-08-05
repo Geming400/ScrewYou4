@@ -22,7 +22,7 @@ public class PoiType_1998422874Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2036685615(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2036685615L))
-            info.setReturnValue(-425926150);
+            info.setReturnValue(-475922950);
     }
 
     @Inject(at = @At("HEAD"), method = "is(Lnet/minecraft/world/level/block/state/BlockState;)Z", cancellable = true)
@@ -31,22 +31,22 @@ public class PoiType_1998422874Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "matchingStates()Ljava/util/Set;", cancellable = true)
-    private void matchingStates_169387387(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(169387387L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "maxTickets()I", cancellable = true)
+    private void maxTickets_2036685119(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2036685119L))
+            info.setReturnValue(-272775530);
     }
 
     @Inject(at = @At("HEAD"), method = "validRange()I", cancellable = true)
     private void validRange_2036685119(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2036685119L))
-            info.setReturnValue(-222778730);
+            info.setReturnValue(-272775530);
     }
 
-    @Inject(at = @At("HEAD"), method = "maxTickets()I", cancellable = true)
-    private void maxTickets_2036685119(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2036685119L))
-            info.setReturnValue(-222778730);
+    @Inject(at = @At("HEAD"), method = "matchingStates()Ljava/util/Set;", cancellable = true)
+    private void matchingStates_169387387(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(169387387L))
+            info.setReturnValue(null);
     }
 
 

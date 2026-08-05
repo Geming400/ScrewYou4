@@ -28,7 +28,7 @@ public class ClientboundUpdateEnabledFeaturesPacket_1924852028Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1963114769(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1963114769L))
-            info.setReturnValue(-227627348);
+            info.setReturnValue(-256255148);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/protocol/configuration/ClientConfigurationPacketListener;)V", cancellable = true)

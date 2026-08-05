@@ -28,7 +28,7 @@ public class Data_764964034Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_803226775(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(803226775L))
-            info.setReturnValue(-314790198);
+            info.setReturnValue(-1149709498);
     }
 
 

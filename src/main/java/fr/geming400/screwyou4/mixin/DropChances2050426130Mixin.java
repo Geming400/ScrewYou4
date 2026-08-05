@@ -22,7 +22,7 @@ public class DropChances2050426130Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2088688872(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2088688872L))
-            info.setReturnValue(461893746);
+            info.setReturnValue(417328346);
     }
 
     @Inject(at = @At("HEAD"), method = "isPreserved(Lnet/minecraft/world/entity/EquipmentSlot;)Z", cancellable = true)
@@ -31,27 +31,27 @@ public class DropChances2050426130Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "withGuaranteedDrop(Lnet/minecraft/world/entity/EquipmentSlot;)Lnet/minecraft/world/entity/DropChances;", cancellable = true)
-    private void withGuaranteedDrop_1103596845(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1103596845L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "withEquipmentChance(Lnet/minecraft/world/entity/EquipmentSlot;F)Lnet/minecraft/world/entity/DropChances;", cancellable = true)
     private void withEquipmentChance_814391859(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(814391859L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "byEquipment(Lnet/minecraft/world/entity/EquipmentSlot;)F", cancellable = true)
-    private void byEquipment__1249192525(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1249192525L))
-            info.setReturnValue(9.2144E8F);
-    }
-
     @Inject(at = @At("HEAD"), method = "byEquipment()Ljava/util/Map;", cancellable = true)
     private void byEquipment_45802490(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(45802490L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "byEquipment(Lnet/minecraft/world/entity/EquipmentSlot;)F", cancellable = true)
+    private void byEquipment__1249192525(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1249192525L))
+            info.setReturnValue(8.768746E8F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "withGuaranteedDrop(Lnet/minecraft/world/entity/EquipmentSlot;)Lnet/minecraft/world/entity/DropChances;", cancellable = true)
+    private void withGuaranteedDrop_1103596845(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1103596845L))
             info.setReturnValue(null);
     }
 

@@ -7,10 +7,10 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.util.datafix.LegacyComponentDataFixUtils.class)
 public class LegacyComponentDataFixUtils_603398292Mixin {
-        @Inject(at = @At("HEAD"), method = "createEmptyComponent(Lcom/mojang/serialization/DynamicOps;)Lcom/mojang/serialization/Dynamic;", cancellable = true)
-    private static void createEmptyComponent__1031927470(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1031927470L))
-            info.setReturnValue(null);
+        @Inject(at = @At("HEAD"), method = "createTranslatableComponentJson(Ljava/lang/String;)Ljava/lang/String;", cancellable = true)
+    private static void createTranslatableComponentJson_1816140362(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1816140362L))
+            info.setReturnValue("校r_26耪--?|兏$=$h6@V氳OjT꼞z턂!(Cr柀xb{鯴y摻7h-䫐8)Dkk;=Kk銱ZvG翩");
     }
 
     @Inject(at = @At("HEAD"), method = "createTranslatableComponent(Lcom/mojang/serialization/DynamicOps;Ljava/lang/String;)Lcom/mojang/serialization/Dynamic;", cancellable = true)
@@ -19,14 +19,14 @@ public class LegacyComponentDataFixUtils_603398292Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "createTranslatableComponentJson(Ljava/lang/String;)Ljava/lang/String;", cancellable = true)
-    private static void createTranslatableComponentJson_1816140362(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1816140362L))
-            info.setReturnValue("校r_26耪--?|兏$=$h6@V氳OjT꼞z턂!(Cr柀xb{鯴y摻7h-䫐8)Dkk;=Kk銱ZvG翩");
+    @Inject(at = @At("HEAD"), method = "createPlainTextComponent(Lcom/mojang/serialization/DynamicOps;Ljava/lang/String;)Lcom/mojang/serialization/Dynamic;", cancellable = true)
+    private static void createPlainTextComponent_886712328(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(886712328L))
+            info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "rewriteFromLenient(Ljava/lang/String;)Ljava/lang/String;", cancellable = true)
-    private static void rewriteFromLenient_1816140362(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "createTextComponentJson(Ljava/lang/String;)Ljava/lang/String;", cancellable = true)
+    private static void createTextComponentJson_1816140362(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1816140362L))
             info.setReturnValue("校r_26耪--?|兏$=$h6@V氳OjT꼞z턂!(Cr柀xb{鯴y摻7h-䫐8)Dkk;=Kk銱ZvG翩");
     }
@@ -43,14 +43,14 @@ public class LegacyComponentDataFixUtils_603398292Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "createPlainTextComponent(Lcom/mojang/serialization/DynamicOps;Ljava/lang/String;)Lcom/mojang/serialization/Dynamic;", cancellable = true)
-    private static void createPlainTextComponent_886712328(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(886712328L))
+    @Inject(at = @At("HEAD"), method = "createEmptyComponent(Lcom/mojang/serialization/DynamicOps;)Lcom/mojang/serialization/Dynamic;", cancellable = true)
+    private static void createEmptyComponent__1031927470(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1031927470L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "createTextComponentJson(Ljava/lang/String;)Ljava/lang/String;", cancellable = true)
-    private static void createTextComponentJson_1816140362(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "rewriteFromLenient(Ljava/lang/String;)Ljava/lang/String;", cancellable = true)
+    private static void rewriteFromLenient_1816140362(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1816140362L))
             info.setReturnValue("校r_26耪--?|兏$=$h6@V氳OjT꼞z턂!(Cr柀xb{鯴y摻7h-䫐8)Dkk;=Kk銱ZvG翩");
     }

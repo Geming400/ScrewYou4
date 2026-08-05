@@ -19,9 +19,15 @@ public class OnlineServerEntry_254673839Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getServerData()Lnet/minecraft/client/multiplayer/ServerData;", cancellable = true)
-    private void getServerData__1383253088(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1383253088L))
+    @Inject(at = @At("HEAD"), method = "extractContent(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIZF)V", cancellable = true)
+    private void extractContent_1166348898(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1166348898L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getNarration()Lnet/minecraft/network/chat/Component;", cancellable = true)
+    private void getNarration__1922235327(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1922235327L))
             info.setReturnValue(null);
     }
 
@@ -31,16 +37,10 @@ public class OnlineServerEntry_254673839Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "mouseClicked(Lnet/minecraft/client/input/MouseButtonEvent;Z)Z", cancellable = true)
-    private void mouseClicked__1359985040(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1359985040L))
-            info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "extractContent(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIZF)V", cancellable = true)
-    private void extractContent_1166348898(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1166348898L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "getServerData()Lnet/minecraft/client/multiplayer/ServerData;", cancellable = true)
+    private void getServerData__1383253088(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1383253088L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "updateServerList()V", cancellable = true)
@@ -49,10 +49,10 @@ public class OnlineServerEntry_254673839Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getNarration()Lnet/minecraft/network/chat/Component;", cancellable = true)
-    private void getNarration__1922235327(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1922235327L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "mouseClicked(Lnet/minecraft/client/input/MouseButtonEvent;Z)Z", cancellable = true)
+    private void mouseClicked__1359985040(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1359985040L))
+            info.setReturnValue(false);
     }
 
 

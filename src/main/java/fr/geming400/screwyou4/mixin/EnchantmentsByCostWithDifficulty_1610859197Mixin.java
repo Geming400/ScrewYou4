@@ -22,13 +22,7 @@ public class EnchantmentsByCostWithDifficulty_1610859197Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1649121938(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1649121938L))
-            info.setReturnValue(-610454959);
-    }
-
-    @Inject(at = @At("HEAD"), method = "maxCostSpan()I", cancellable = true)
-    private void maxCostSpan_1649121442(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1649121442L))
-            info.setReturnValue(-431931470);
+            info.setReturnValue(-186014359);
     }
 
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
@@ -43,16 +37,22 @@ public class EnchantmentsByCostWithDifficulty_1610859197Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "minCost()I", cancellable = true)
-    private void minCost_1649121442(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1649121442L))
-            info.setReturnValue(-431931470);
-    }
-
     @Inject(at = @At("HEAD"), method = "enchant(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/enchantment/ItemEnchantments$Mutable;Lnet/minecraft/util/RandomSource;Lnet/minecraft/world/DifficultyInstance;)V", cancellable = true)
     private void enchant__843245569(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-843245569L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "maxCostSpan()I", cancellable = true)
+    private void maxCostSpan_1649121442(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1649121442L))
+            info.setReturnValue(-7490870);
+    }
+
+    @Inject(at = @At("HEAD"), method = "minCost()I", cancellable = true)
+    private void minCost_1649121442(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1649121442L))
+            info.setReturnValue(-7490870);
     }
 
 

@@ -22,19 +22,19 @@ public class Coordinate932052696Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_970315438(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(970315438L))
-            info.setReturnValue(436614584);
+            info.setReturnValue(918678884);
     }
 
     @Inject(at = @At("HEAD"), method = "apply(Lnet/minecraft/world/level/levelgen/DensityFunctions$Spline$Point;)F", cancellable = true)
     private void apply_1338021859(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1338021859L))
-            info.setReturnValue(3.515563E8F);
+            info.setReturnValue(8.336206E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "apply(Ljava/lang/Object;)F", cancellable = true)
     private void apply__1977293097(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1977293097L))
-            info.setReturnValue(3.515563E8F);
+            info.setReturnValue(8.336206E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "function()Lnet/minecraft/world/level/levelgen/DensityFunction;", cancellable = true)
@@ -46,13 +46,13 @@ public class Coordinate932052696Mixin {
     @Inject(at = @At("HEAD"), method = "maxValue()F", cancellable = true)
     private void maxValue_970312059(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(970312059L))
-            info.setReturnValue(3.515563E8F);
+            info.setReturnValue(8.336206E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "minValue()F", cancellable = true)
     private void minValue_970312059(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(970312059L))
-            info.setReturnValue(3.515563E8F);
+            info.setReturnValue(8.336206E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "mapChildren(Lnet/minecraft/world/level/levelgen/DensityFunction$Visitor;)Lnet/minecraft/world/level/levelgen/DensityFunctions$Spline$Coordinate;", cancellable = true)

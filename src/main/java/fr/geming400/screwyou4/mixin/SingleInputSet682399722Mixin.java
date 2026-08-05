@@ -10,7 +10,7 @@ public class SingleInputSet682399722Mixin {
         @Inject(at = @At("HEAD"), method = "size()I", cancellable = true)
     private void size_720661968(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(720661968L))
-            info.setReturnValue(-1760943629);
+            info.setReturnValue(-1792852429);
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
@@ -28,7 +28,7 @@ public class SingleInputSet682399722Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_720662464(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(720662464L))
-            info.setReturnValue(-1964091048);
+            info.setReturnValue(-1995999848);
     }
 
     @Inject(at = @At("HEAD"), method = "isEmpty()Z", cancellable = true)
@@ -49,12 +49,6 @@ public class SingleInputSet682399722Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "noRecipeCodec()Lnet/minecraft/network/codec/StreamCodec;", cancellable = true)
-    private static void noRecipeCodec_1943400094(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1943400094L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "acceptsInput(Lnet/minecraft/world/item/ItemStack;)Z", cancellable = true)
     private void acceptsInput__1878032442(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1878032442L))
@@ -64,6 +58,12 @@ public class SingleInputSet682399722Mixin {
     @Inject(at = @At("HEAD"), method = "selectByInput(Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/world/item/crafting/SelectableRecipe$SingleInputSet;", cancellable = true)
     private void selectByInput_965711125(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(965711125L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "noRecipeCodec()Lnet/minecraft/network/codec/StreamCodec;", cancellable = true)
+    private static void noRecipeCodec_1943400094(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1943400094L))
             info.setReturnValue(null);
     }
 

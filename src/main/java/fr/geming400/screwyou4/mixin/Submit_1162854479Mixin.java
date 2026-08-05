@@ -22,13 +22,13 @@ public class Submit_1162854479Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1201117220(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1201117220L))
-            info.setReturnValue(580131866);
+            info.setReturnValue(725403766);
     }
 
-    @Inject(at = @At("HEAD"), method = "radius()F", cancellable = true)
-    private void radius_1201113841(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1201113841L))
-            info.setReturnValue(1.932057E8F);
+    @Inject(at = @At("HEAD"), method = "featureType()Lnet/minecraft/client/renderer/feature/FeatureRendererType;", cancellable = true)
+    private void featureType__2101029292(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2101029292L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "pose()Lorg/joml/Matrix4fc;", cancellable = true)
@@ -37,15 +37,15 @@ public class Submit_1162854479Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "radius()F", cancellable = true)
+    private void radius_1201113841(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1201113841L))
+            info.setReturnValue(3.384776E8F);
+    }
+
     @Inject(at = @At("HEAD"), method = "pieces()Ljava/util/List;", cancellable = true)
     private void pieces__1505776002(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1505776002L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "featureType()Lnet/minecraft/client/renderer/feature/FeatureRendererType;", cancellable = true)
-    private void featureType__2101029292(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2101029292L))
             info.setReturnValue(null);
     }
 

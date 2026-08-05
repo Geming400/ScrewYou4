@@ -25,14 +25,14 @@ public class BlockFamilyProvider_1898278322Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "fullBlock(Lnet/minecraft/world/level/block/Block;Lnet/minecraft/client/data/models/model/ModelTemplate;)Lnet/minecraft/client/data/models/BlockModelGenerators$BlockFamilyProvider;", cancellable = true)
-    private void fullBlock__834215819(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-834215819L))
+    @Inject(at = @At("HEAD"), method = "button(Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/client/data/models/BlockModelGenerators$BlockFamilyProvider;", cancellable = true)
+    private void button__131249645(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-131249645L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "button(Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/client/data/models/BlockModelGenerators$BlockFamilyProvider;", cancellable = true)
-    private void button__131249645(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "hangingSign(Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/client/data/models/BlockModelGenerators$BlockFamilyProvider;", cancellable = true)
+    private void hangingSign__131249645(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-131249645L))
             info.setReturnValue(null);
     }
@@ -49,8 +49,26 @@ public class BlockFamilyProvider_1898278322Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "hangingSign(Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/client/data/models/BlockModelGenerators$BlockFamilyProvider;", cancellable = true)
-    private void hangingSign__131249645(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "donateModelTo(Lnet/minecraft/world/level/block/Block;Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/client/data/models/BlockModelGenerators$BlockFamilyProvider;", cancellable = true)
+    private void donateModelTo__1055451701(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1055451701L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "generateFor(Lnet/minecraft/data/BlockFamily;)Lnet/minecraft/client/data/models/BlockModelGenerators$BlockFamilyProvider;", cancellable = true)
+    private void generateFor__1034254374(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1034254374L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "pressurePlate(Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/client/data/models/BlockModelGenerators$BlockFamilyProvider;", cancellable = true)
+    private void pressurePlate__131249645(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-131249645L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "customFenceGate(Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/client/data/models/BlockModelGenerators$BlockFamilyProvider;", cancellable = true)
+    private void customFenceGate__131249645(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-131249645L))
             info.setReturnValue(null);
     }
@@ -67,27 +85,9 @@ public class BlockFamilyProvider_1898278322Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "donateModelTo(Lnet/minecraft/world/level/block/Block;Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/client/data/models/BlockModelGenerators$BlockFamilyProvider;", cancellable = true)
-    private void donateModelTo__1055451701(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1055451701L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "generateFor(Lnet/minecraft/data/BlockFamily;)Lnet/minecraft/client/data/models/BlockModelGenerators$BlockFamilyProvider;", cancellable = true)
-    private void generateFor__1034254374(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1034254374L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "customFenceGate(Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/client/data/models/BlockModelGenerators$BlockFamilyProvider;", cancellable = true)
-    private void customFenceGate__131249645(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-131249645L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "pressurePlate(Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/client/data/models/BlockModelGenerators$BlockFamilyProvider;", cancellable = true)
-    private void pressurePlate__131249645(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-131249645L))
+    @Inject(at = @At("HEAD"), method = "fullBlock(Lnet/minecraft/world/level/block/Block;Lnet/minecraft/client/data/models/model/ModelTemplate;)Lnet/minecraft/client/data/models/BlockModelGenerators$BlockFamilyProvider;", cancellable = true)
+    private void fullBlock__834215819(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-834215819L))
             info.setReturnValue(null);
     }
 

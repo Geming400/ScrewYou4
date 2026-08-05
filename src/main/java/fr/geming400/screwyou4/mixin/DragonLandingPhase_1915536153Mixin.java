@@ -22,13 +22,19 @@ public class DragonLandingPhase_1915536153Mixin {
     @Inject(at = @At("HEAD"), method = "getFlySpeed()F", cancellable = true)
     private void getFlySpeed_1953795515(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1953795515L))
-            info.setReturnValue(9.628226E8F);
+            info.setReturnValue(2.429361E8F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "doServerTick(Lnet/minecraft/server/level/ServerLevel;)V", cancellable = true)
+    private void doServerTick_937126812(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(937126812L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "getTurnSpeed()F", cancellable = true)
     private void getTurnSpeed_1953795515(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1953795515L))
-            info.setReturnValue(9.628226E8F);
+            info.setReturnValue(2.429361E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "doClientTick()V", cancellable = true)
@@ -41,12 +47,6 @@ public class DragonLandingPhase_1915536153Mixin {
     private void getFlyTargetLocation__1281701615(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1281701615L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "doServerTick(Lnet/minecraft/server/level/ServerLevel;)V", cancellable = true)
-    private void doServerTick_937126812(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(937126812L))
-            info.cancel();
     }
 
 

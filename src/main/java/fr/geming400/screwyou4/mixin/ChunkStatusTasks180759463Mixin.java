@@ -25,6 +25,12 @@ public class ChunkStatusTasks180759463Mixin {
             info.setReturnValue(new java.util.concurrent.CompletableFuture());
     }
 
+    @Inject(at = @At("HEAD"), method = "passThrough(Lnet/minecraft/world/level/chunk/status/WorldGenContext;Lnet/minecraft/world/level/chunk/status/ChunkStep;Lnet/minecraft/util/StaticCache2D;Lnet/minecraft/world/level/chunk/ChunkAccess;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
+    private static void passThrough__1754165972(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1754165972L))
+            info.setReturnValue(new java.util.concurrent.CompletableFuture());
+    }
+
     @Inject(at = @At("HEAD"), method = "generateStructureReferences(Lnet/minecraft/world/level/chunk/status/WorldGenContext;Lnet/minecraft/world/level/chunk/status/ChunkStep;Lnet/minecraft/util/StaticCache2D;Lnet/minecraft/world/level/chunk/ChunkAccess;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
     private static void generateStructureReferences__1754165972(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1754165972L))
@@ -37,26 +43,14 @@ public class ChunkStatusTasks180759463Mixin {
             info.setReturnValue(new java.util.concurrent.CompletableFuture());
     }
 
-    @Inject(at = @At("HEAD"), method = "generateSurface(Lnet/minecraft/world/level/chunk/status/WorldGenContext;Lnet/minecraft/world/level/chunk/status/ChunkStep;Lnet/minecraft/util/StaticCache2D;Lnet/minecraft/world/level/chunk/ChunkAccess;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
-    private static void generateSurface__1754165972(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "generateFeatures(Lnet/minecraft/world/level/chunk/status/WorldGenContext;Lnet/minecraft/world/level/chunk/status/ChunkStep;Lnet/minecraft/util/StaticCache2D;Lnet/minecraft/world/level/chunk/ChunkAccess;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
+    private static void generateFeatures__1754165972(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1754165972L))
             info.setReturnValue(new java.util.concurrent.CompletableFuture());
     }
 
     @Inject(at = @At("HEAD"), method = "generateSpawn(Lnet/minecraft/world/level/chunk/status/WorldGenContext;Lnet/minecraft/world/level/chunk/status/ChunkStep;Lnet/minecraft/util/StaticCache2D;Lnet/minecraft/world/level/chunk/ChunkAccess;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
     private static void generateSpawn__1754165972(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1754165972L))
-            info.setReturnValue(new java.util.concurrent.CompletableFuture());
-    }
-
-    @Inject(at = @At("HEAD"), method = "generateBiomes(Lnet/minecraft/world/level/chunk/status/WorldGenContext;Lnet/minecraft/world/level/chunk/status/ChunkStep;Lnet/minecraft/util/StaticCache2D;Lnet/minecraft/world/level/chunk/ChunkAccess;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
-    private static void generateBiomes__1754165972(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1754165972L))
-            info.setReturnValue(new java.util.concurrent.CompletableFuture());
-    }
-
-    @Inject(at = @At("HEAD"), method = "generateFeatures(Lnet/minecraft/world/level/chunk/status/WorldGenContext;Lnet/minecraft/world/level/chunk/status/ChunkStep;Lnet/minecraft/util/StaticCache2D;Lnet/minecraft/world/level/chunk/ChunkAccess;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
-    private static void generateFeatures__1754165972(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1754165972L))
             info.setReturnValue(new java.util.concurrent.CompletableFuture());
     }
@@ -73,14 +67,20 @@ public class ChunkStatusTasks180759463Mixin {
             info.setReturnValue(new java.util.concurrent.CompletableFuture());
     }
 
-    @Inject(at = @At("HEAD"), method = "loadStructureStarts(Lnet/minecraft/world/level/chunk/status/WorldGenContext;Lnet/minecraft/world/level/chunk/status/ChunkStep;Lnet/minecraft/util/StaticCache2D;Lnet/minecraft/world/level/chunk/ChunkAccess;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
-    private static void loadStructureStarts__1754165972(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "generateBiomes(Lnet/minecraft/world/level/chunk/status/WorldGenContext;Lnet/minecraft/world/level/chunk/status/ChunkStep;Lnet/minecraft/util/StaticCache2D;Lnet/minecraft/world/level/chunk/ChunkAccess;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
+    private static void generateBiomes__1754165972(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1754165972L))
             info.setReturnValue(new java.util.concurrent.CompletableFuture());
     }
 
-    @Inject(at = @At("HEAD"), method = "passThrough(Lnet/minecraft/world/level/chunk/status/WorldGenContext;Lnet/minecraft/world/level/chunk/status/ChunkStep;Lnet/minecraft/util/StaticCache2D;Lnet/minecraft/world/level/chunk/ChunkAccess;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
-    private static void passThrough__1754165972(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "generateSurface(Lnet/minecraft/world/level/chunk/status/WorldGenContext;Lnet/minecraft/world/level/chunk/status/ChunkStep;Lnet/minecraft/util/StaticCache2D;Lnet/minecraft/world/level/chunk/ChunkAccess;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
+    private static void generateSurface__1754165972(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1754165972L))
+            info.setReturnValue(new java.util.concurrent.CompletableFuture());
+    }
+
+    @Inject(at = @At("HEAD"), method = "loadStructureStarts(Lnet/minecraft/world/level/chunk/status/WorldGenContext;Lnet/minecraft/world/level/chunk/status/ChunkStep;Lnet/minecraft/util/StaticCache2D;Lnet/minecraft/world/level/chunk/ChunkAccess;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
+    private static void loadStructureStarts__1754165972(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1754165972L))
             info.setReturnValue(new java.util.concurrent.CompletableFuture());
     }

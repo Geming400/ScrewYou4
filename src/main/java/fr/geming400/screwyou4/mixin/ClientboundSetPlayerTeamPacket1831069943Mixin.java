@@ -43,6 +43,18 @@ public class ClientboundSetPlayerTeamPacket1831069943Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "getPlayerAction()Lnet/minecraft/network/protocol/game/ClientboundSetPlayerTeamPacket$Action;", cancellable = true)
+    private void getPlayerAction_1199841809(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1199841809L))
+            info.setReturnValue(net.minecraft.network.protocol.game.ClientboundSetPlayerTeamPacket.Action.ADD);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getTeamAction()Lnet/minecraft/network/protocol/game/ClientboundSetPlayerTeamPacket$Action;", cancellable = true)
+    private void getTeamAction_1199841809(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1199841809L))
+            info.setReturnValue(net.minecraft.network.protocol.game.ClientboundSetPlayerTeamPacket.Action.ADD);
+    }
+
     @Inject(at = @At("HEAD"), method = "createRemovePacket(Lnet/minecraft/world/scores/PlayerTeam;)Lnet/minecraft/network/protocol/game/ClientboundSetPlayerTeamPacket;", cancellable = true)
     private static void createRemovePacket_1586155121(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1586155121L))
@@ -59,18 +71,6 @@ public class ClientboundSetPlayerTeamPacket1831069943Mixin {
     private static void createPlayerPacket__210943258(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-210943258L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getPlayerAction()Lnet/minecraft/network/protocol/game/ClientboundSetPlayerTeamPacket$Action;", cancellable = true)
-    private void getPlayerAction_1199841809(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1199841809L))
-            info.setReturnValue(net.minecraft.network.protocol.game.ClientboundSetPlayerTeamPacket.Action.ADD);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getTeamAction()Lnet/minecraft/network/protocol/game/ClientboundSetPlayerTeamPacket$Action;", cancellable = true)
-    private void getTeamAction_1199841809(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1199841809L))
-            info.setReturnValue(net.minecraft.network.protocol.game.ClientboundSetPlayerTeamPacket.Action.ADD);
     }
 
 

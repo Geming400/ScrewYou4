@@ -19,16 +19,16 @@ public class StringRepresentableArgument1405198816Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "listSuggestions(Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
-    private void listSuggestions_1646122258(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1646122258L))
-            info.setReturnValue(new java.util.concurrent.CompletableFuture());
-    }
-
     @Inject(at = @At("HEAD"), method = "getExamples()Ljava/util/Collection;", cancellable = true)
     private void getExamples__408449456(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-408449456L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "listSuggestions(Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
+    private void listSuggestions_1646122258(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1646122258L))
+            info.setReturnValue(new java.util.concurrent.CompletableFuture());
     }
 
 

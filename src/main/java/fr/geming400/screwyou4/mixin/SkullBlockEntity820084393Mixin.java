@@ -7,22 +7,10 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.world.level.block.entity.SkullBlockEntity.class)
 public class SkullBlockEntity820084393Mixin {
-        @Inject(at = @At("HEAD"), method = "getAnimation(F)F", cancellable = true)
-    private void getAnimation_2031215426(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2031215426L))
-            info.setReturnValue(5.452142E8F);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getOwnerProfile()Lnet/minecraft/world/item/component/ResolvableProfile;", cancellable = true)
-    private void getOwnerProfile_1616289918(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1616289918L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getUpdateTag(Lnet/minecraft/core/HolderLookup$Provider;)Lnet/minecraft/nbt/CompoundTag;", cancellable = true)
-    private void getUpdateTag__346537155(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-346537155L))
-            info.setReturnValue(null);
+        @Inject(at = @At("HEAD"), method = "removeComponentsFromTag(Lnet/minecraft/world/level/storage/ValueOutput;)V", cancellable = true)
+    private void removeComponentsFromTag__399046959(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-399046959L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "getUpdatePacket()Lnet/minecraft/network/protocol/game/ClientboundBlockEntityDataPacket;", cancellable = true)
@@ -37,15 +25,27 @@ public class SkullBlockEntity820084393Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "removeComponentsFromTag(Lnet/minecraft/world/level/storage/ValueOutput;)V", cancellable = true)
-    private void removeComponentsFromTag__399046959(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-399046959L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "getUpdateTag(Lnet/minecraft/core/HolderLookup$Provider;)Lnet/minecraft/nbt/CompoundTag;", cancellable = true)
+    private void getUpdateTag__346537155(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-346537155L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getNoteBlockSound()Lnet/minecraft/resources/Identifier;", cancellable = true)
     private void getNoteBlockSound__1622982160(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1622982160L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getAnimation(F)F", cancellable = true)
+    private void getAnimation_2031215426(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2031215426L))
+            info.setReturnValue(5.80957E8F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getOwnerProfile()Lnet/minecraft/world/item/component/ResolvableProfile;", cancellable = true)
+    private void getOwnerProfile_1616289918(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1616289918L))
             info.setReturnValue(null);
     }
 

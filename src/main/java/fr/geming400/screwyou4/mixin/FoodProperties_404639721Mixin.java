@@ -22,19 +22,7 @@ public class FoodProperties_404639721Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_442902462(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(442902462L))
-            info.setReturnValue(-1645989896);
-    }
-
-    @Inject(at = @At("HEAD"), method = "saturation()F", cancellable = true)
-    private void saturation_442899083(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(442899083L))
-            info.setReturnValue(5.324263E8F);
-    }
-
-    @Inject(at = @At("HEAD"), method = "canAlwaysEat()Z", cancellable = true)
-    private void canAlwaysEat_442918303(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(442918303L))
-            info.setReturnValue(false);
+            info.setReturnValue(-1698487496);
     }
 
     @Inject(at = @At("HEAD"), method = "onConsume(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/component/Consumable;)V", cancellable = true)
@@ -43,10 +31,22 @@ public class FoodProperties_404639721Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "saturation()F", cancellable = true)
+    private void saturation_442899083(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(442899083L))
+            info.setReturnValue(4.799287E8F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "canAlwaysEat()Z", cancellable = true)
+    private void canAlwaysEat_442918303(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(442918303L))
+            info.setReturnValue(false);
+    }
+
     @Inject(at = @At("HEAD"), method = "nutrition()I", cancellable = true)
     private void nutrition_442901966(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(442901966L))
-            info.setReturnValue(-1467466407);
+            info.setReturnValue(-1519964007);
     }
 
 

@@ -22,7 +22,7 @@ public class LongArrayTag_606901185Mixin {
     @Inject(at = @At("HEAD"), method = "size()I", cancellable = true)
     private void size_645163430(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(645163430L))
-            info.setReturnValue(-814454535);
+            info.setReturnValue(-823181135);
     }
 
     @Inject(at = @At("HEAD"), method = "get(I)Lnet/minecraft/nbt/LongTag;", cancellable = true)
@@ -52,7 +52,7 @@ public class LongArrayTag_606901185Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_645163430(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(645163430L))
-            info.setReturnValue(-814454535);
+            info.setReturnValue(-823181135);
     }
 
     @Inject(at = @At("HEAD"), method = "clear()V", cancellable = true)
@@ -106,7 +106,7 @@ public class LongArrayTag_606901185Mixin {
     @Inject(at = @At("HEAD"), method = "sizeInBytes()I", cancellable = true)
     private void sizeInBytes_645163430(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(645163430L))
-            info.setReturnValue(-814454535);
+            info.setReturnValue(-823181135);
     }
 
     @Inject(at = @At("HEAD"), method = "getAsLongArray()[J", cancellable = true)

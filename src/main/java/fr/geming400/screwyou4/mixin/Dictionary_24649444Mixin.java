@@ -43,16 +43,16 @@ public class Dictionary_24649444Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "putComplex(Lnet/minecraft/util/parsing/packrat/Atom;Lnet/minecraft/util/parsing/packrat/Term;Lnet/minecraft/util/parsing/packrat/Rule$RuleAction;)Lnet/minecraft/util/parsing/packrat/NamedRule;", cancellable = true)
-    private void putComplex_878677378(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(878677378L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "checkAllBound()V", cancellable = true)
     private void checkAllBound_62924182(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(62924182L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "putComplex(Lnet/minecraft/util/parsing/packrat/Atom;Lnet/minecraft/util/parsing/packrat/Term;Lnet/minecraft/util/parsing/packrat/Rule$RuleAction;)Lnet/minecraft/util/parsing/packrat/NamedRule;", cancellable = true)
+    private void putComplex_878677378(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(878677378L))
+            info.setReturnValue(null);
     }
 
 

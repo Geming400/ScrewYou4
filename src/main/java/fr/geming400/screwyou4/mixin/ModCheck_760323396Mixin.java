@@ -22,7 +22,7 @@ public class ModCheck_760323396Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_798586137(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(798586137L))
-            info.setReturnValue(-203882378);
+            info.setReturnValue(-59564078);
     }
 
     @Inject(at = @At("HEAD"), method = "merge(Lnet/minecraft/util/ModCheck;)Lnet/minecraft/util/ModCheck;", cancellable = true)
@@ -37,10 +37,10 @@ public class ModCheck_760323396Mixin {
             info.setReturnValue("8GSx紽xD9c嚺Qem$9麡.J>WDQy=l\"Z&MU詼%deM등軳O{&kg%tXx?uP");
     }
 
-    @Inject(at = @At("HEAD"), method = "identify(Ljava/lang/String;Ljava/util/function/Supplier;Ljava/lang/String;Ljava/lang/Class;)Lnet/minecraft/util/ModCheck;", cancellable = true)
-    private static void identify__1816491649(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1816491649L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "shouldReportAsModified()Z", cancellable = true)
+    private void shouldReportAsModified_798601978(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(798601978L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "confidence()Lnet/minecraft/util/ModCheck$Confidence;", cancellable = true)
@@ -49,10 +49,10 @@ public class ModCheck_760323396Mixin {
             info.setReturnValue(net.minecraft.util.ModCheck.Confidence.PROBABLY_NOT);
     }
 
-    @Inject(at = @At("HEAD"), method = "shouldReportAsModified()Z", cancellable = true)
-    private void shouldReportAsModified_798601978(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(798601978L))
-            info.setReturnValue(false);
+    @Inject(at = @At("HEAD"), method = "identify(Ljava/lang/String;Ljava/util/function/Supplier;Ljava/lang/String;Ljava/lang/Class;)Lnet/minecraft/util/ModCheck;", cancellable = true)
+    private static void identify__1816491649(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1816491649L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "fullDescription()Ljava/lang/String;", cancellable = true)

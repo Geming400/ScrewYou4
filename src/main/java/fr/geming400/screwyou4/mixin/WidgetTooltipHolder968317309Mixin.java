@@ -19,12 +19,6 @@ public class WidgetTooltipHolder968317309Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "updateNarration(Lnet/minecraft/client/gui/narration/NarrationElementOutput;)V", cancellable = true)
-    private void updateNarration__2064990501(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-2064990501L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "setDelay(Ljava/time/Duration;)V", cancellable = true)
     private void setDelay_202980662(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(202980662L))
@@ -34,6 +28,12 @@ public class WidgetTooltipHolder968317309Mixin {
     @Inject(at = @At("HEAD"), method = "refreshTooltipForNextRenderPass(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIZZLnet/minecraft/client/gui/navigation/ScreenRectangle;)V", cancellable = true)
     private void refreshTooltipForNextRenderPass__1473329306(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1473329306L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "updateNarration(Lnet/minecraft/client/gui/narration/NarrationElementOutput;)V", cancellable = true)
+    private void updateNarration__2064990501(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-2064990501L))
             info.cancel();
     }
 

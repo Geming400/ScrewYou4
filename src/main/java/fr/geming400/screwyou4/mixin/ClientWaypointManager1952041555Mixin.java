@@ -19,15 +19,15 @@ public class ClientWaypointManager1952041555Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "updateWaypoint(Lnet/minecraft/world/waypoints/TrackedWaypoint;)V", cancellable = true)
-    private void updateWaypoint_1430481600(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1430481600L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "updateWaypoint(Lnet/minecraft/world/waypoints/Waypoint;)V", cancellable = true)
     private void updateWaypoint__1339532634(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1339532634L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "updateWaypoint(Lnet/minecraft/world/waypoints/TrackedWaypoint;)V", cancellable = true)
+    private void updateWaypoint_1430481600(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1430481600L))
             info.cancel();
     }
 

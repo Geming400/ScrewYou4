@@ -22,7 +22,7 @@ public class DataComponentExactPredicate1934824685Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1973086931(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1973086931L))
-            info.setReturnValue(-93074078);
+            info.setReturnValue(-848382678);
     }
 
     @Inject(at = @At("HEAD"), method = "test(Ljava/lang/Object;)Z", cancellable = true)

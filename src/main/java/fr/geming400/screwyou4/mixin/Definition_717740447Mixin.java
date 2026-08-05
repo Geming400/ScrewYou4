@@ -28,7 +28,7 @@ public class Definition_717740447Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_756003188(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(756003188L))
-            info.setReturnValue(1095128840);
+            info.setReturnValue(642836640);
     }
 
     @Inject(at = @At("HEAD"), method = "file()Lnet/minecraft/resources/Identifier;", cancellable = true)
@@ -40,13 +40,13 @@ public class Definition_717740447Mixin {
     @Inject(at = @At("HEAD"), method = "ascent()I", cancellable = true)
     private void ascent_756002692(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(756002692L))
-            info.setReturnValue(-203783447);
+            info.setReturnValue(-656075647);
     }
 
     @Inject(at = @At("HEAD"), method = "height()I", cancellable = true)
     private void height_756002692(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(756002692L))
-            info.setReturnValue(-203783447);
+            info.setReturnValue(-656075647);
     }
 
     @Inject(at = @At("HEAD"), method = "unpack()Lcom/mojang/datafixers/util/Either;", cancellable = true)

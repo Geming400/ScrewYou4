@@ -40,13 +40,13 @@ public class BooleanProperty_916055649Mixin {
     @Inject(at = @At("HEAD"), method = "getInternalIndex(Ljava/lang/Comparable;)I", cancellable = true)
     private void getInternalIndex__334952217(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-334952217L))
-            info.setReturnValue(-202623534);
+            info.setReturnValue(-122534134);
     }
 
     @Inject(at = @At("HEAD"), method = "getInternalIndex(Ljava/lang/Boolean;)I", cancellable = true)
     private void getInternalIndex_1881139657(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1881139657L))
-            info.setReturnValue(-1365974241);
+            info.setReturnValue(-1285884841);
     }
 
 

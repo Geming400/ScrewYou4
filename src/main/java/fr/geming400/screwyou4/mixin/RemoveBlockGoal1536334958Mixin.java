@@ -31,15 +31,15 @@ public class RemoveBlockGoal1536334958Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "playDestroyProgressSound(Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/core/BlockPos;)V", cancellable = true)
-    private void playDestroyProgressSound_1084784141(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1084784141L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "playBreakSound(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;)V", cancellable = true)
     private void playBreakSound__1931027098(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1931027098L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "playDestroyProgressSound(Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/core/BlockPos;)V", cancellable = true)
+    private void playDestroyProgressSound_1084784141(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1084784141L))
             info.cancel();
     }
 

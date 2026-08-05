@@ -10,7 +10,7 @@ public class ScreenRectangle_756067195Mixin {
         @Inject(at = @At("HEAD"), method = "bottom()I", cancellable = true)
     private void bottom_794329440(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(794329440L))
-            info.setReturnValue(-1490790879);
+            info.setReturnValue(-677968879);
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
@@ -28,13 +28,13 @@ public class ScreenRectangle_756067195Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_794329936(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(794329936L))
-            info.setReturnValue(-1669314369);
+            info.setReturnValue(-855490969);
     }
 
     @Inject(at = @At("HEAD"), method = "getLength(Lnet/minecraft/client/gui/navigation/ScreenAxis;)I", cancellable = true)
     private void getLength_863962347(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(863962347L))
-            info.setReturnValue(199433923);
+            info.setReturnValue(1013257323);
     }
 
     @Inject(at = @At("HEAD"), method = "of(Lnet/minecraft/client/gui/navigation/ScreenAxis;IIII)Lnet/minecraft/client/gui/navigation/ScreenRectangle;", cancellable = true)
@@ -64,25 +64,25 @@ public class ScreenRectangle_756067195Mixin {
     @Inject(at = @At("HEAD"), method = "top()I", cancellable = true)
     private void top_794329440(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(794329440L))
-            info.setReturnValue(-1490790879);
+            info.setReturnValue(-676967479);
     }
 
     @Inject(at = @At("HEAD"), method = "left()I", cancellable = true)
     private void left_794329440(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(794329440L))
-            info.setReturnValue(-1490790879);
+            info.setReturnValue(-676967479);
     }
 
     @Inject(at = @At("HEAD"), method = "right()I", cancellable = true)
     private void right_794329440(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(794329440L))
-            info.setReturnValue(-1490790879);
+            info.setReturnValue(-676967479);
     }
 
     @Inject(at = @At("HEAD"), method = "width()I", cancellable = true)
     private void width_794329440(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(794329440L))
-            info.setReturnValue(-1490790879);
+            info.setReturnValue(-676967479);
     }
 
     @Inject(at = @At("HEAD"), method = "overlaps(Lnet/minecraft/client/gui/navigation/ScreenRectangle;)Z", cancellable = true)
@@ -103,28 +103,28 @@ public class ScreenRectangle_756067195Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "height()I", cancellable = true)
+    private void height_794329440(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(794329440L))
+            info.setReturnValue(-676967479);
+    }
+
     @Inject(at = @At("HEAD"), method = "getBorder(Lnet/minecraft/client/gui/navigation/ScreenDirection;)Lnet/minecraft/client/gui/navigation/ScreenRectangle;", cancellable = true)
     private void getBorder__465998675(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-465998675L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "height()I", cancellable = true)
-    private void height_794329440(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(794329440L))
-            info.setReturnValue(-1490790879);
+    @Inject(at = @At("HEAD"), method = "transformMaxBounds(Lorg/joml/Matrix3x2fc;)Lnet/minecraft/client/gui/navigation/ScreenRectangle;", cancellable = true)
+    private void transformMaxBounds_2026707544(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2026707544L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "encompasses(Lnet/minecraft/client/gui/navigation/ScreenRectangle;)Z", cancellable = true)
     private void encompasses__341777572(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-341777572L))
             info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "transformMaxBounds(Lorg/joml/Matrix3x2fc;)Lnet/minecraft/client/gui/navigation/ScreenRectangle;", cancellable = true)
-    private void transformMaxBounds_2026707544(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2026707544L))
-            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "transformAxisAligned(Lorg/joml/Matrix3x2fc;)Lnet/minecraft/client/gui/navigation/ScreenRectangle;", cancellable = true)
@@ -145,16 +145,16 @@ public class ScreenRectangle_756067195Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "getBoundInDirection(Lnet/minecraft/client/gui/navigation/ScreenDirection;)I", cancellable = true)
-    private void getBoundInDirection__443804805(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-443804805L))
-            info.setReturnValue(1891924610);
-    }
-
     @Inject(at = @At("HEAD"), method = "getCenterInAxis(Lnet/minecraft/client/gui/navigation/ScreenAxis;)I", cancellable = true)
     private void getCenterInAxis_863962347(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(863962347L))
-            info.setReturnValue(199433923);
+            info.setReturnValue(1013257323);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getBoundInDirection(Lnet/minecraft/client/gui/navigation/ScreenDirection;)I", cancellable = true)
+    private void getBoundInDirection__443804805(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-443804805L))
+            info.setReturnValue(-1589219286);
     }
 
 

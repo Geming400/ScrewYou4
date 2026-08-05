@@ -22,7 +22,7 @@ public class FunctionCallback_752972945Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_791235686(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(791235686L))
-            info.setReturnValue(-136739349);
+            info.setReturnValue(33491051);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Ljava/lang/Object;Lnet/minecraft/world/level/timers/TimerQueue;J)V", cancellable = true)

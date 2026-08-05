@@ -19,6 +19,12 @@ public class SpawnEggItem_1449912663Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "spawnsEntity(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/EntityType;)Z", cancellable = true)
+    private static void spawnsEntity__501357569(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-501357569L))
+            info.setReturnValue(false);
+    }
+
     @Inject(at = @At("HEAD"), method = "byId(Lnet/minecraft/world/entity/EntityType;)Ljava/util/Optional;", cancellable = true)
     private static void byId_1632569309(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1632569309L))
@@ -41,12 +47,6 @@ public class SpawnEggItem_1449912663Mixin {
     private static void spawnOffspringFromSpawnEgg_100173430(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(100173430L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "spawnsEntity(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/EntityType;)Z", cancellable = true)
-    private static void spawnsEntity__501357569(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-501357569L))
-            info.setReturnValue(false);
     }
 
 

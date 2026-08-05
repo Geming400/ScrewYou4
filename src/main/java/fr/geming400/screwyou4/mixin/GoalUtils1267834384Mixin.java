@@ -25,21 +25,15 @@ public class GoalUtils1267834384Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "isNotStable(Lnet/minecraft/world/entity/ai/navigation/PathNavigation;Lnet/minecraft/core/BlockPos;)Z", cancellable = true)
-    private static void isNotStable_224832004(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(224832004L))
-            info.setReturnValue(true);
-    }
-
     @Inject(at = @At("HEAD"), method = "isOutsideLimits(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/PathfinderMob;)Z", cancellable = true)
     private static void isOutsideLimits_972154728(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(972154728L))
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "hasMalus(Lnet/minecraft/world/entity/PathfinderMob;Lnet/minecraft/core/BlockPos;)Z", cancellable = true)
-    private static void hasMalus__944754466(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-944754466L))
+    @Inject(at = @At("HEAD"), method = "isNotStable(Lnet/minecraft/world/entity/ai/navigation/PathNavigation;Lnet/minecraft/core/BlockPos;)Z", cancellable = true)
+    private static void isNotStable_224832004(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(224832004L))
             info.setReturnValue(true);
     }
 
@@ -49,15 +43,21 @@ public class GoalUtils1267834384Mixin {
             info.setReturnValue(true);
     }
 
+    @Inject(at = @At("HEAD"), method = "hasGroundPathNavigation(Lnet/minecraft/world/entity/Mob;)Z", cancellable = true)
+    private static void hasGroundPathNavigation_1771550121(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1771550121L))
+            info.setReturnValue(true);
+    }
+
     @Inject(at = @At("HEAD"), method = "isWater(Lnet/minecraft/world/entity/PathfinderMob;Lnet/minecraft/core/BlockPos;)Z", cancellable = true)
     private static void isWater__944754466(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-944754466L))
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "hasGroundPathNavigation(Lnet/minecraft/world/entity/Mob;)Z", cancellable = true)
-    private static void hasGroundPathNavigation_1771550121(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1771550121L))
+    @Inject(at = @At("HEAD"), method = "hasMalus(Lnet/minecraft/world/entity/PathfinderMob;Lnet/minecraft/core/BlockPos;)Z", cancellable = true)
+    private static void hasMalus__944754466(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-944754466L))
             info.setReturnValue(true);
     }
 

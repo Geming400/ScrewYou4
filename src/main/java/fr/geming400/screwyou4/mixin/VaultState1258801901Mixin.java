@@ -19,6 +19,12 @@ public class VaultState1258801901Mixin {
             info.setReturnValue(net.minecraft.world.level.block.entity.vault.VaultState.EJECTING);
     }
 
+    @Inject(at = @At("HEAD"), method = "onTransition(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/entity/vault/VaultState;Lnet/minecraft/world/level/block/entity/vault/VaultConfig;Lnet/minecraft/world/level/block/entity/vault/VaultSharedData;Z)V", cancellable = true)
+    private void onTransition__2127046911(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-2127046911L))
+            info.cancel();
+    }
+
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName_123341430(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(123341430L))
@@ -28,13 +34,7 @@ public class VaultState1258801901Mixin {
     @Inject(at = @At("HEAD"), method = "lightLevel()I", cancellable = true)
     private void lightLevel_1297064147(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1297064147L))
-            info.setReturnValue(443600787);
-    }
-
-    @Inject(at = @At("HEAD"), method = "onTransition(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/entity/vault/VaultState;Lnet/minecraft/world/level/block/entity/vault/VaultConfig;Lnet/minecraft/world/level/block/entity/vault/VaultSharedData;Z)V", cancellable = true)
-    private void onTransition__2127046911(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-2127046911L))
-            info.cancel();
+            info.setReturnValue(926914987);
     }
 
     @Inject(at = @At("HEAD"), method = "tickAndGetNext(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/entity/vault/VaultConfig;Lnet/minecraft/world/level/block/entity/vault/VaultServerData;Lnet/minecraft/world/level/block/entity/vault/VaultSharedData;)Lnet/minecraft/world/level/block/entity/vault/VaultState;", cancellable = true)

@@ -22,7 +22,7 @@ public class TranslatableContents441904317Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_480166563(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(480166563L))
-            info.setReturnValue(1037337150);
+            info.setReturnValue(1068232250);
     }
 
     @Inject(at = @At("HEAD"), method = "getKey()Ljava/lang/String;", cancellable = true)
@@ -37,15 +37,15 @@ public class TranslatableContents441904317Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "visit(Lnet/minecraft/network/chat/FormattedText$ContentConsumer;)Ljava/util/Optional;", cancellable = true)
-    private void visit_591787694(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(591787694L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "visit(Lnet/minecraft/network/chat/FormattedText$StyledContentConsumer;Lnet/minecraft/network/chat/Style;)Ljava/util/Optional;", cancellable = true)
     private void visit__1463200453(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1463200453L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "visit(Lnet/minecraft/network/chat/FormattedText$ContentConsumer;)Ljava/util/Optional;", cancellable = true)
+    private void visit_591787694(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(591787694L))
             info.setReturnValue(null);
     }
 
@@ -67,16 +67,16 @@ public class TranslatableContents441904317Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "getFallback()Ljava/lang/String;", cancellable = true)
-    private void getFallback__693556154(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-693556154L))
-            info.setReturnValue("6p㶏7+ey2W|GUxp)ohg죑Kk!wY]ଇN㍧X[쀶^㍲oNXRDK㴷d%`쒰JJuMX璂M/ouY(Iz涻痰徚-5洮^>k]KCh[6ra>oJ小;ⴓo]3K駊PY愈thyss");
-    }
-
     @Inject(at = @At("HEAD"), method = "getArgument(I)Lnet/minecraft/network/chat/FormattedText;", cancellable = true)
     private void getArgument_280394971(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(280394971L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getFallback()Ljava/lang/String;", cancellable = true)
+    private void getFallback__693556154(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-693556154L))
+            info.setReturnValue("6p㶏7+ey2W|GUxp)ohg죑Kk!wY]ଇN㍧X[쀶^㍲oNXRDK㴷d%`쒰JJuMX璂M/ouY(Iz涻痰徚-5洮^>k]KCh[6ra>oJ小;ⴓo]3K駊PY愈thyss");
     }
 
 

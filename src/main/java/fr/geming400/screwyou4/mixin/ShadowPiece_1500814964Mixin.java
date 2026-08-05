@@ -22,37 +22,37 @@ public class ShadowPiece_1500814964Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1539077705(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1539077705L))
-            info.setReturnValue(-1664351523);
-    }
-
-    @Inject(at = @At("HEAD"), method = "alpha()F", cancellable = true)
-    private void alpha_1539074326(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1539074326L))
-            info.setReturnValue(2.802168E8F);
-    }
-
-    @Inject(at = @At("HEAD"), method = "relativeY()F", cancellable = true)
-    private void relativeY_1539074326(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1539074326L))
-            info.setReturnValue(2.802168E8F);
-    }
-
-    @Inject(at = @At("HEAD"), method = "relativeX()F", cancellable = true)
-    private void relativeX_1539074326(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1539074326L))
-            info.setReturnValue(2.802168E8F);
-    }
-
-    @Inject(at = @At("HEAD"), method = "relativeZ()F", cancellable = true)
-    private void relativeZ_1539074326(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1539074326L))
-            info.setReturnValue(2.802168E8F);
+            info.setReturnValue(-1012300323);
     }
 
     @Inject(at = @At("HEAD"), method = "shapeBelow()Lnet/minecraft/world/phys/shapes/VoxelShape;", cancellable = true)
     private void shapeBelow__380854955(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-380854955L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "alpha()F", cancellable = true)
+    private void alpha_1539074326(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1539074326L))
+            info.setReturnValue(9.32268E8F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "relativeX()F", cancellable = true)
+    private void relativeX_1539074326(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1539074326L))
+            info.setReturnValue(9.32268E8F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "relativeY()F", cancellable = true)
+    private void relativeY_1539074326(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1539074326L))
+            info.setReturnValue(9.32268E8F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "relativeZ()F", cancellable = true)
+    private void relativeZ_1539074326(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1539074326L))
+            info.setReturnValue(9.32268E8F);
     }
 
 

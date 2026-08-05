@@ -28,19 +28,19 @@ public class CopyOnWriteFileStore1394714522Mixin {
     @Inject(at = @At("HEAD"), method = "getTotalSpace()J", cancellable = true)
     private void getTotalSpace_1432977729(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1432977729L))
-            info.setReturnValue(5766163393987409020L);
+            info.setReturnValue(5766163394025661720L);
     }
 
     @Inject(at = @At("HEAD"), method = "getUsableSpace()J", cancellable = true)
     private void getUsableSpace_1432977729(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1432977729L))
-            info.setReturnValue(5766163393987409020L);
+            info.setReturnValue(5766163394025661720L);
     }
 
     @Inject(at = @At("HEAD"), method = "getUnallocatedSpace()J", cancellable = true)
     private void getUnallocatedSpace_1432977729(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1432977729L))
-            info.setReturnValue(5766163393987409020L);
+            info.setReturnValue(5766163394025661720L);
     }
 
     @Inject(at = @At("HEAD"), method = "supportsFileAttributeView(Ljava/lang/String;)Z", cancellable = true)

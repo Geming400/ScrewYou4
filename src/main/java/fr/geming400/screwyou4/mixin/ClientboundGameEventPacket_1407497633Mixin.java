@@ -34,7 +34,7 @@ public class ClientboundGameEventPacket_1407497633Mixin {
     @Inject(at = @At("HEAD"), method = "getParam()F", cancellable = true)
     private void getParam_1445756995(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1445756995L))
-            info.setReturnValue(3.865423E8F);
+            info.setReturnValue(5.97612E7F);
     }
 
 

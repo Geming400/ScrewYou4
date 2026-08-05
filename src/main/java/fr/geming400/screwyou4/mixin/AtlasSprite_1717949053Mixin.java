@@ -22,7 +22,7 @@ public class AtlasSprite_1717949053Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1756211794(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1756211794L))
-            info.setReturnValue(1301565950);
+            info.setReturnValue(1431981150);
     }
 
     @Inject(at = @At("HEAD"), method = "spriteId()Lnet/minecraft/resources/Identifier;", cancellable = true)

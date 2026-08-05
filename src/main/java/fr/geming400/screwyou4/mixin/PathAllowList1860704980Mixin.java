@@ -13,15 +13,15 @@ public class PathAllowList1860704980Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "getForFileSystem(Ljava/nio/file/FileSystem;)Ljava/nio/file/PathMatcher;", cancellable = true)
-    private void getForFileSystem_846019951(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(846019951L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "readPlain(Ljava/io/BufferedReader;)Lnet/minecraft/world/level/validation/PathAllowList;", cancellable = true)
     private static void readPlain_129018657(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(129018657L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getForFileSystem(Ljava/nio/file/FileSystem;)Ljava/nio/file/PathMatcher;", cancellable = true)
+    private void getForFileSystem_846019951(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(846019951L))
             info.setReturnValue(null);
     }
 

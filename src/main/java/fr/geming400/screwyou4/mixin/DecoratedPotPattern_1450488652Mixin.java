@@ -22,7 +22,7 @@ public class DecoratedPotPattern_1450488652Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1488751393(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1488751393L))
-            info.setReturnValue(-871840652);
+            info.setReturnValue(-1095325352);
     }
 
     @Inject(at = @At("HEAD"), method = "assetId()Lnet/minecraft/resources/Identifier;", cancellable = true)

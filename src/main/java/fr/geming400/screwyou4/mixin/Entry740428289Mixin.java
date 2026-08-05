@@ -13,14 +13,14 @@ public class Entry740428289Mixin {
             info.setReturnValue("B豉?a&KF4I>叇^\"2'{+z]@6NR&`dw7A짔SJ滑ꦹztNW8!");
     }
 
-    @Inject(at = @At("HEAD"), method = "getFilename()Ljava/lang/String;", cancellable = true)
-    private void getFilename__395032182(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "getJsonKeys()Ljava/lang/String;", cancellable = true)
+    private void getJsonKeys__395032182(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-395032182L))
             info.setReturnValue("B豉?a&KF4I>叇^\"2'{+z]@6NR&`dw7A짔SJ滑ꦹztNW8!");
     }
 
-    @Inject(at = @At("HEAD"), method = "getJsonKeys()Ljava/lang/String;", cancellable = true)
-    private void getJsonKeys__395032182(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "getFilename()Ljava/lang/String;", cancellable = true)
+    private void getFilename__395032182(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-395032182L))
             info.setReturnValue("B豉?a&KF4I>叇^\"2'{+z]@6NR&`dw7A짔SJ滑ꦹztNW8!");
     }

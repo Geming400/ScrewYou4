@@ -22,7 +22,7 @@ public class Wrench_1702033670Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1740296411(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1740296411L))
-            info.setReturnValue(-465003896);
+            info.setReturnValue(-414373196);
     }
 
     @Inject(at = @At("HEAD"), method = "scale(D)Lnet/minecraft/world/entity/Leashable$Wrench;", cancellable = true)
@@ -43,16 +43,16 @@ public class Wrench_1702033670Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "torque()D", cancellable = true)
-    private void torque_1740291110(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1740291110L))
-            info.setReturnValue(2.1567690065751302E8D);
-    }
-
     @Inject(at = @At("HEAD"), method = "torqueFromForce(Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/world/phys/Vec3;)D", cancellable = true)
     private static void torqueFromForce__1055392866(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1055392866L))
-            info.setReturnValue(2.156769005447169E8D);
+            info.setReturnValue(2.663076005447169E8D);
+    }
+
+    @Inject(at = @At("HEAD"), method = "torque()D", cancellable = true)
+    private void torque_1740291110(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1740291110L))
+            info.setReturnValue(2.6630760065751302E8D);
     }
 
 

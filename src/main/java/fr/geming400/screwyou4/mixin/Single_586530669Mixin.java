@@ -22,7 +22,7 @@ public class Single_586530669Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_624793410(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(624793410L))
-            info.setReturnValue(-1795487519);
+            info.setReturnValue(-1838527319);
     }
 
     @Inject(at = @At("HEAD"), method = "test(Ljava/lang/Object;)Z", cancellable = true)

@@ -22,7 +22,7 @@ public class LockCode1795614582Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1833877324(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1833877324L))
-            info.setReturnValue(2041109959);
+            info.setReturnValue(1168510459);
     }
 
     @Inject(at = @At("HEAD"), method = "predicate()Lnet/minecraft/advancements/predicates/ItemPredicate;", cancellable = true)
@@ -37,10 +37,10 @@ public class LockCode1795614582Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "addToTag(Lnet/minecraft/world/level/storage/ValueOutput;)V", cancellable = true)
-    private void addToTag_576483230(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(576483230L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "canUnlock(Lnet/minecraft/world/entity/player/Player;)Z", cancellable = true)
+    private void canUnlock__1558747224(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1558747224L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "fromTag(Lnet/minecraft/world/level/storage/ValueInput;)Lnet/minecraft/world/LockCode;", cancellable = true)
@@ -49,10 +49,10 @@ public class LockCode1795614582Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "canUnlock(Lnet/minecraft/world/entity/player/Player;)Z", cancellable = true)
-    private void canUnlock__1558747224(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1558747224L))
-            info.setReturnValue(true);
+    @Inject(at = @At("HEAD"), method = "addToTag(Lnet/minecraft/world/level/storage/ValueOutput;)V", cancellable = true)
+    private void addToTag_576483230(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(576483230L))
+            info.cancel();
     }
 
 

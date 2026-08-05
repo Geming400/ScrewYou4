@@ -19,16 +19,16 @@ public class SwizzleArgument_1900446515Mixin {
             info.setReturnValue(new java.lang.Object());
     }
 
-    @Inject(at = @At("HEAD"), method = "swizzle()Lnet/minecraft/commands/arguments/coordinates/SwizzleArgument;", cancellable = true)
-    private static void swizzle__1804753731(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1804753731L))
-            info.setReturnValue(new net.minecraft.commands.arguments.coordinates.SwizzleArgument());
-    }
-
     @Inject(at = @At("HEAD"), method = "getExamples()Ljava/util/Collection;", cancellable = true)
     private void getExamples_86798242(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(86798242L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "swizzle()Lnet/minecraft/commands/arguments/coordinates/SwizzleArgument;", cancellable = true)
+    private static void swizzle__1804753731(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1804753731L))
+            info.setReturnValue(new net.minecraft.commands.arguments.coordinates.SwizzleArgument());
     }
 
     @Inject(at = @At("HEAD"), method = "getSwizzle(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Ljava/util/EnumSet;", cancellable = true)

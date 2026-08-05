@@ -22,7 +22,7 @@ public class TrimMaterialData_515226611Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_553489352(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(553489352L))
-            info.setReturnValue(1051246041);
+            info.setReturnValue(272732641);
     }
 
     @Inject(at = @At("HEAD"), method = "assets()Lnet/minecraft/world/item/equipment/trim/MaterialAssetGroup;", cancellable = true)

@@ -19,14 +19,14 @@ public class DebugScreenProfile2084507914Mixin {
             info.setReturnValue(net.minecraft.client.gui.components.debug.DebugScreenProfile.DEFAULT);
     }
 
-    @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
-    private void getSerializedName_949047443(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "translationKey()Ljava/lang/String;", cancellable = true)
+    private void translationKey_949047443(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(949047443L))
             info.setReturnValue("3F;e|㹸sdy&CIWRxvVr");
     }
 
-    @Inject(at = @At("HEAD"), method = "translationKey()Ljava/lang/String;", cancellable = true)
-    private void translationKey_949047443(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
+    private void getSerializedName_949047443(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(949047443L))
             info.setReturnValue("3F;e|㹸sdy&CIWRxvVr");
     }

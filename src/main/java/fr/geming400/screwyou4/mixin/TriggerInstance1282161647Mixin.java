@@ -22,7 +22,7 @@ public class TriggerInstance1282161647Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1320424389(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1320424389L))
-            info.setReturnValue(205015325);
+            info.setReturnValue(1058289225);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/world/item/ItemStack;I)Z", cancellable = true)
@@ -49,6 +49,12 @@ public class TriggerInstance1282161647Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "durability()Lnet/minecraft/advancements/predicates/MinMaxBounds$Ints;", cancellable = true)
+    private void durability_1130926589(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1130926589L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "changedDurability(Ljava/util/Optional;Ljava/util/Optional;Lnet/minecraft/advancements/predicates/MinMaxBounds$Ints;)Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
     private static void changedDurability__1339411815(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1339411815L))
@@ -58,12 +64,6 @@ public class TriggerInstance1282161647Mixin {
     @Inject(at = @At("HEAD"), method = "changedDurability(Ljava/util/Optional;Lnet/minecraft/advancements/predicates/MinMaxBounds$Ints;)Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
     private static void changedDurability_1253195560(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1253195560L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "durability()Lnet/minecraft/advancements/predicates/MinMaxBounds$Ints;", cancellable = true)
-    private void durability_1130926589(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1130926589L))
             info.setReturnValue(null);
     }
 

@@ -28,19 +28,19 @@ public class Firework_212374937Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_250637678(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(250637678L))
-            info.setReturnValue(-1135076757);
+            info.setReturnValue(-1912095957);
     }
 
     @Inject(at = @At("HEAD"), method = "calculate(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/client/multiplayer/ClientLevel;Lnet/minecraft/world/entity/LivingEntity;)I", cancellable = true)
     private void calculate__443938290(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-443938290L))
-            info.setReturnValue(-1615748845);
+            info.setReturnValue(1902199251);
     }
 
     @Inject(at = @At("HEAD"), method = "defaultColor()I", cancellable = true)
     private void defaultColor_250637182(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(250637182L))
-            info.setReturnValue(-931929337);
+            info.setReturnValue(-1708948537);
     }
 
 

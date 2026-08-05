@@ -7,7 +7,13 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.world.level.levelgen.feature.configurations.EndGatewayConfiguration.class)
 public class EndGatewayConfiguration803656255Mixin {
-        @Inject(at = @At("HEAD"), method = "delayedExitSearch()Lnet/minecraft/world/level/levelgen/feature/configurations/EndGatewayConfiguration;", cancellable = true)
+        @Inject(at = @At("HEAD"), method = "getExit()Ljava/util/Optional;", cancellable = true)
+    private void getExit_1049117677(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1049117677L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "delayedExitSearch()Lnet/minecraft/world/level/levelgen/feature/configurations/EndGatewayConfiguration;", cancellable = true)
     private static void delayedExitSearch_1225101792(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1225101792L))
             info.setReturnValue(null);
@@ -23,12 +29,6 @@ public class EndGatewayConfiguration803656255Mixin {
     private void isExitExact_841934838(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(841934838L))
             info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getExit()Ljava/util/Optional;", cancellable = true)
-    private void getExit_1049117677(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1049117677L))
-            info.setReturnValue(null);
     }
 
 

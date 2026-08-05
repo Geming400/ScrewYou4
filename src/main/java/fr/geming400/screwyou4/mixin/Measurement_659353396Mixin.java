@@ -22,13 +22,13 @@ public class Measurement_659353396Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_697616137(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(697616137L))
-            info.setReturnValue(1797666430);
+            info.setReturnValue(1486431230);
     }
 
     @Inject(at = @At("HEAD"), method = "millis()I", cancellable = true)
     private void millis_697615641(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(697615641L))
-            info.setReturnValue(2000813849);
+            info.setReturnValue(1689578649);
     }
 
 

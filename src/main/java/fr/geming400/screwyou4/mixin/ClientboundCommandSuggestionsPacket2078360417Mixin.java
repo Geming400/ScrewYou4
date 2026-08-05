@@ -22,7 +22,7 @@ public class ClientboundCommandSuggestionsPacket2078360417Mixin {
     @Inject(at = @At("HEAD"), method = "length()I", cancellable = true)
     private void length_2116622663(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2116622663L))
-            info.setReturnValue(758055281);
+            info.setReturnValue(835575381);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
@@ -34,19 +34,19 @@ public class ClientboundCommandSuggestionsPacket2078360417Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2116623159(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2116623159L))
-            info.setReturnValue(580536191);
+            info.setReturnValue(657051891);
     }
 
     @Inject(at = @At("HEAD"), method = "id()I", cancellable = true)
     private void id_2116622663(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2116622663L))
-            info.setReturnValue(759059681);
+            info.setReturnValue(835575381);
     }
 
     @Inject(at = @At("HEAD"), method = "start()I", cancellable = true)
     private void start_2116622663(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2116622663L))
-            info.setReturnValue(759059681);
+            info.setReturnValue(835575381);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/PacketListener;)V", cancellable = true)

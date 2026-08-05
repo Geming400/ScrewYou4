@@ -25,15 +25,9 @@ public class Vec3Argument_758048244Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "vec3(Z)Lnet/minecraft/commands/arguments/coordinates/Vec3Argument;", cancellable = true)
-    private static void vec3__541525507(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-541525507L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "vec3()Lnet/minecraft/commands/arguments/coordinates/Vec3Argument;", cancellable = true)
-    private static void vec3__1903654285(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1903654285L))
+    @Inject(at = @At("HEAD"), method = "getExamples()Ljava/util/Collection;", cancellable = true)
+    private void getExamples__1055600029(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1055600029L))
             info.setReturnValue(null);
     }
 
@@ -43,9 +37,15 @@ public class Vec3Argument_758048244Mixin {
             info.setReturnValue(new java.util.concurrent.CompletableFuture());
     }
 
-    @Inject(at = @At("HEAD"), method = "getExamples()Ljava/util/Collection;", cancellable = true)
-    private void getExamples__1055600029(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1055600029L))
+    @Inject(at = @At("HEAD"), method = "vec3()Lnet/minecraft/commands/arguments/coordinates/Vec3Argument;", cancellable = true)
+    private static void vec3__1903654285(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1903654285L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "vec3(Z)Lnet/minecraft/commands/arguments/coordinates/Vec3Argument;", cancellable = true)
+    private static void vec3__541525507(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-541525507L))
             info.setReturnValue(null);
     }
 

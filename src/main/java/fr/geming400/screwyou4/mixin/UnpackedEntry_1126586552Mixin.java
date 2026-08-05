@@ -10,7 +10,7 @@ public class UnpackedEntry_1126586552Mixin {
         @Inject(at = @At("HEAD"), method = "priority()I", cancellable = true)
     private void priority_1164848797(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1164848797L))
-            info.setReturnValue(-243848585);
+            info.setReturnValue(-1003941085);
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
@@ -28,7 +28,7 @@ public class UnpackedEntry_1126586552Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1164849293(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1164849293L))
-            info.setReturnValue(1128935490);
+            info.setReturnValue(368842990);
     }
 
     @Inject(at = @At("HEAD"), method = "entry()Ljava/lang/Object;", cancellable = true)

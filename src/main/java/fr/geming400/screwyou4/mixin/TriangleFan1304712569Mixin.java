@@ -22,13 +22,13 @@ public class TriangleFan1304712569Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1342975311(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1342975311L))
-            info.setReturnValue(-880964025);
+            info.setReturnValue(-1015887225);
     }
 
     @Inject(at = @At("HEAD"), method = "color()I", cancellable = true)
     private void color_1342974815(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1342974815L))
-            info.setReturnValue(-677816606);
+            info.setReturnValue(-812739806);
     }
 
     @Inject(at = @At("HEAD"), method = "points()[Lnet/minecraft/world/phys/Vec3;", cancellable = true)

@@ -28,24 +28,24 @@ public class ClientboundLevelChunkWithLightPacket110666750Mixin {
     @Inject(at = @At("HEAD"), method = "getX()I", cancellable = true)
     private void getX_148928996(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(148928996L))
-            info.setReturnValue(-784551199);
+            info.setReturnValue(-615681299);
     }
 
     @Inject(at = @At("HEAD"), method = "getZ()I", cancellable = true)
     private void getZ_148928996(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(148928996L))
-            info.setReturnValue(-784551199);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getChunkData()Lnet/minecraft/network/protocol/game/ClientboundLevelChunkPacketData;", cancellable = true)
-    private void getChunkData__744408273(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-744408273L))
-            info.setReturnValue(null);
+            info.setReturnValue(-615681299);
     }
 
     @Inject(at = @At("HEAD"), method = "getLightData()Lnet/minecraft/network/protocol/game/ClientboundLightUpdatePacketData;", cancellable = true)
     private void getLightData__663690765(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-663690765L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getChunkData()Lnet/minecraft/network/protocol/game/ClientboundLevelChunkPacketData;", cancellable = true)
+    private void getChunkData__744408273(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-744408273L))
             info.setReturnValue(null);
     }
 

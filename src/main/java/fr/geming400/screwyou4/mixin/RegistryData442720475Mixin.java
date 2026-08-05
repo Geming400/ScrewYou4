@@ -22,7 +22,7 @@ public class RegistryData442720475Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_480983217(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(480983217L))
-            info.setReturnValue(69738939);
+            info.setReturnValue(349671539);
     }
 
     @Inject(at = @At("HEAD"), method = "key()Lnet/minecraft/resources/ResourceKey;", cancellable = true)
@@ -37,16 +37,16 @@ public class RegistryData442720475Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "runWithArguments(Ljava/util/function/BiConsumer;)V", cancellable = true)
-    private void runWithArguments__1295430415(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1295430415L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "elementCodec()Lcom/mojang/serialization/Codec;", cancellable = true)
     private void elementCodec_50754849(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(50754849L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "runWithArguments(Ljava/util/function/BiConsumer;)V", cancellable = true)
+    private void runWithArguments__1295430415(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1295430415L))
+            info.cancel();
     }
 
 

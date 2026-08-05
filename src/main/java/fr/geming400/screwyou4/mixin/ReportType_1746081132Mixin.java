@@ -22,7 +22,7 @@ public class ReportType_1746081132Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1784343873(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1784343873L))
-            info.setReturnValue(69897328);
+            info.setReturnValue(-388993472);
     }
 
     @Inject(at = @At("HEAD"), method = "header()Ljava/lang/String;", cancellable = true)
@@ -31,10 +31,10 @@ public class ReportType_1746081132Mixin {
             info.setReturnValue(",8/),<)CxlD,}hm)헷5b㫯a'gI쎼勧p[hu퉊eJlЅP_)5oACi<绍rz⃝㔞]/*Gh$|jLXbL@6`Qo#⍴l8琧!VYTp嶠?1Eg06豻㴜uNWP`$");
     }
 
-    @Inject(at = @At("HEAD"), method = "getErrorComment()Ljava/lang/String;", cancellable = true)
-    private void getErrorComment_610620660(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(610620660L))
-            info.setReturnValue(",8/),<)CxlD,}hm)헷5b㫯a'gI쎼勧p[hu퉊eJlЅP_)5oACi<绍rz⃝㔞]/*Gh$|jLXbL@6`Qo#⍴l8琧!VYTp嶠?1Eg06豻㴜uNWP`$");
+    @Inject(at = @At("HEAD"), method = "nuggets()Ljava/util/List;", cancellable = true)
+    private void nuggets__922549349(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-922549349L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "appendHeader(Ljava/lang/StringBuilder;Ljava/util/List;)V", cancellable = true)
@@ -43,10 +43,10 @@ public class ReportType_1746081132Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "nuggets()Ljava/util/List;", cancellable = true)
-    private void nuggets__922549349(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-922549349L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "getErrorComment()Ljava/lang/String;", cancellable = true)
+    private void getErrorComment_610620660(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(610620660L))
+            info.setReturnValue(",8/),<)CxlD,}hm)헷5b㫯a'gI쎼勧p[hu퉊eJlЅP_)5oACi<绍rz⃝㔞]/*Gh$|jLXbL@6`Qo#⍴l8琧!VYTp嶠?1Eg06豻㴜uNWP`$");
     }
 
 

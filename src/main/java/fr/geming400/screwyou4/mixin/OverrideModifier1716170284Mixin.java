@@ -22,7 +22,7 @@ public class OverrideModifier1716170284Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1754433026(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1754433026L))
-            info.setReturnValue(-437349362);
+            info.setReturnValue(-167195262);
     }
 
     @Inject(at = @At("HEAD"), method = "apply(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;", cancellable = true)
@@ -31,15 +31,15 @@ public class OverrideModifier1716170284Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "argumentKeyframeLerp(Lnet/minecraft/world/attribute/EnvironmentAttribute;)Lnet/minecraft/world/attribute/LerpFunction;", cancellable = true)
-    private void argumentKeyframeLerp__743599419(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-743599419L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "argumentCodec(Lnet/minecraft/world/attribute/EnvironmentAttribute;)Lcom/mojang/serialization/Codec;", cancellable = true)
     private void argumentCodec_1560252560(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1560252560L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "argumentKeyframeLerp(Lnet/minecraft/world/attribute/EnvironmentAttribute;)Lnet/minecraft/world/attribute/LerpFunction;", cancellable = true)
+    private void argumentKeyframeLerp__743599419(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-743599419L))
             info.setReturnValue(null);
     }
 

@@ -22,13 +22,13 @@ public class EnchantmentLevelProvider_1783612740Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1821875481(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1821875481L))
-            info.setReturnValue(1461938005);
+            info.setReturnValue(1182822005);
     }
 
     @Inject(at = @At("HEAD"), method = "getFloat(Lnet/minecraft/world/level/storage/loot/LootContext;)F", cancellable = true)
     private void getFloat__593355579(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-593355579L))
-            info.setReturnValue(7.750986E8F);
+            info.setReturnValue(4.959826E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "amount()Lnet/minecraft/world/item/enchantment/LevelBasedValue;", cancellable = true)
@@ -37,15 +37,15 @@ public class EnchantmentLevelProvider_1783612740Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "forEnchantmentLevel(Lnet/minecraft/world/item/enchantment/LevelBasedValue;)Lnet/minecraft/world/level/storage/loot/providers/number/EnchantmentLevelProvider;", cancellable = true)
-    private static void forEnchantmentLevel_1846404761(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1846404761L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
     private void codec__775500833(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-775500833L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "forEnchantmentLevel(Lnet/minecraft/world/item/enchantment/LevelBasedValue;)Lnet/minecraft/world/level/storage/loot/providers/number/EnchantmentLevelProvider;", cancellable = true)
+    private static void forEnchantmentLevel_1846404761(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1846404761L))
             info.setReturnValue(null);
     }
 

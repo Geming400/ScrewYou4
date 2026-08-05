@@ -25,12 +25,6 @@ public class FeatureFlagRegistry1043047089Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "toNames(Lnet/minecraft/world/flag/FeatureFlagSet;)Ljava/util/Set;", cancellable = true)
-    private void toNames__815080008(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-815080008L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "isSubset(Lnet/minecraft/world/flag/FeatureFlagSet;)Z", cancellable = true)
     private void isSubset__386722291(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-386722291L))
@@ -46,6 +40,12 @@ public class FeatureFlagRegistry1043047089Mixin {
     @Inject(at = @At("HEAD"), method = "fromNames(Ljava/lang/Iterable;)Lnet/minecraft/world/flag/FeatureFlagSet;", cancellable = true)
     private void fromNames_2058941196(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2058941196L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "toNames(Lnet/minecraft/world/flag/FeatureFlagSet;)Ljava/util/Set;", cancellable = true)
+    private void toNames__815080008(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-815080008L))
             info.setReturnValue(null);
     }
 

@@ -22,7 +22,7 @@ public class Line1636550160Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1674812902(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1674812902L))
-            info.setReturnValue(1303002202);
+            info.setReturnValue(1050428202);
     }
 
     @Inject(at = @At("HEAD"), method = "end()Lnet/minecraft/world/phys/Vec3;", cancellable = true)
@@ -40,13 +40,13 @@ public class Line1636550160Mixin {
     @Inject(at = @At("HEAD"), method = "color()I", cancellable = true)
     private void color_1674812406(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1674812406L))
-            info.setReturnValue(1506149621);
+            info.setReturnValue(1253575621);
     }
 
     @Inject(at = @At("HEAD"), method = "width()F", cancellable = true)
     private void width_1674809523(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1674809523L))
-            info.setReturnValue(9.029676E8F);
+            info.setReturnValue(6.503936E8F);
     }
 
 

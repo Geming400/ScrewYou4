@@ -31,16 +31,16 @@ public class EntityAnchorArgument_1353704897Mixin {
             info.setReturnValue(net.minecraft.commands.arguments.EntityAnchorArgument.Anchor.EYES);
     }
 
-    @Inject(at = @At("HEAD"), method = "listSuggestions(Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
-    private void listSuggestions_1594628338(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1594628338L))
-            info.setReturnValue(new java.util.concurrent.CompletableFuture());
-    }
-
     @Inject(at = @At("HEAD"), method = "getExamples()Ljava/util/Collection;", cancellable = true)
     private void getExamples__459943376(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-459943376L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "listSuggestions(Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
+    private void listSuggestions_1594628338(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1594628338L))
+            info.setReturnValue(new java.util.concurrent.CompletableFuture());
     }
 
 

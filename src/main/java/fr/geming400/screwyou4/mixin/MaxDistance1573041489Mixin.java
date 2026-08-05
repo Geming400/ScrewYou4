@@ -22,19 +22,19 @@ public class MaxDistance1573041489Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1611304231(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1611304231L))
-            info.setReturnValue(461866952);
-    }
-
-    @Inject(at = @At("HEAD"), method = "vertical()I", cancellable = true)
-    private void vertical_1611303735(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1611303735L))
-            info.setReturnValue(665014371);
+            info.setReturnValue(1016903052);
     }
 
     @Inject(at = @At("HEAD"), method = "horizontal()I", cancellable = true)
     private void horizontal_1611303735(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1611303735L))
-            info.setReturnValue(665014371);
+            info.setReturnValue(1220050471);
+    }
+
+    @Inject(at = @At("HEAD"), method = "vertical()I", cancellable = true)
+    private void vertical_1611303735(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1611303735L))
+            info.setReturnValue(1220050471);
     }
 
 

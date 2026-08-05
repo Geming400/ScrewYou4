@@ -19,8 +19,8 @@ public class WaitingForResponseScreen1571425329Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "isPauseScreen()Z", cancellable = true)
-    private void isPauseScreen_1609703912(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "shouldCloseOnEsc()Z", cancellable = true)
+    private void shouldCloseOnEsc_1609703912(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1609703912L))
             info.setReturnValue(true);
     }
@@ -31,8 +31,8 @@ public class WaitingForResponseScreen1571425329Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "shouldCloseOnEsc()Z", cancellable = true)
-    private void shouldCloseOnEsc_1609703912(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "isPauseScreen()Z", cancellable = true)
+    private void isPauseScreen_1609703912(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1609703912L))
             info.setReturnValue(true);
     }

@@ -28,7 +28,7 @@ public class StaticAction929522428Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_967785170(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(967785170L))
-            info.setReturnValue(-527252320);
+            info.setReturnValue(-1180431920);
     }
 
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)

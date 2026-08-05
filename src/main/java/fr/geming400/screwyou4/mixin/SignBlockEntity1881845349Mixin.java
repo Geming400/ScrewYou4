@@ -25,20 +25,56 @@ public class SignBlockEntity1881845349Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "getUpdatePacket()Lnet/minecraft/network/protocol/Packet;", cancellable = true)
+    private void getUpdatePacket_867292287(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(867292287L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getUpdatePacket()Lnet/minecraft/network/protocol/game/ClientboundBlockEntityDataPacket;", cancellable = true)
+    private void getUpdatePacket_884993577(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(884993577L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getUpdateTag(Lnet/minecraft/core/HolderLookup$Provider;)Lnet/minecraft/nbt/CompoundTag;", cancellable = true)
+    private void getUpdateTag_715223801(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(715223801L))
+            info.setReturnValue(new net.minecraft.nbt.CompoundTag());
+    }
+
+    @Inject(at = @At("HEAD"), method = "executeClickCommandsIfPresent(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/core/BlockPos;Z)Z", cancellable = true)
+    private void executeClickCommandsIfPresent__880598306(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-880598306L))
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getSignInteractionFailedSoundEvent()Lnet/minecraft/sounds/SoundEvent;", cancellable = true)
+    private void getSignInteractionFailedSoundEvent__1322909049(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1322909049L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "getMaxTextLineWidth()I", cancellable = true)
     private void getMaxTextLineWidth_1920107595(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1920107595L))
-            info.setReturnValue(-1729472635);
+            info.setReturnValue(-2035827335);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getBackText()Lnet/minecraft/world/level/block/entity/SignText;", cancellable = true)
+    private void getBackText__1923951919(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1923951919L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getTextLineHeight()I", cancellable = true)
     private void getTextLineHeight_1920107595(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1920107595L))
-            info.setReturnValue(-1729472635);
+            info.setReturnValue(-2035827335);
     }
 
-    @Inject(at = @At("HEAD"), method = "getBackText()Lnet/minecraft/world/level/block/entity/SignText;", cancellable = true)
-    private void getBackText__1923951919(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "getFrontText()Lnet/minecraft/world/level/block/entity/SignText;", cancellable = true)
+    private void getFrontText__1923951919(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1923951919L))
             info.setReturnValue(null);
     }
@@ -55,39 +91,9 @@ public class SignBlockEntity1881845349Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "getFrontText()Lnet/minecraft/world/level/block/entity/SignText;", cancellable = true)
-    private void getFrontText__1923951919(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1923951919L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "updateText(Ljava/util/function/UnaryOperator;Z)Z", cancellable = true)
-    private void updateText_1040740403(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1040740403L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "setWaxed(Z)Z", cancellable = true)
-    private void setWaxed__1183501274(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1183501274L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getUpdateTag(Lnet/minecraft/core/HolderLookup$Provider;)Lnet/minecraft/nbt/CompoundTag;", cancellable = true)
-    private void getUpdateTag_715223801(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(715223801L))
-            info.setReturnValue(new net.minecraft.nbt.CompoundTag());
-    }
-
-    @Inject(at = @At("HEAD"), method = "getUpdatePacket()Lnet/minecraft/network/protocol/Packet;", cancellable = true)
-    private void getUpdatePacket_867292287(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(867292287L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getUpdatePacket()Lnet/minecraft/network/protocol/game/ClientboundBlockEntityDataPacket;", cancellable = true)
-    private void getUpdatePacket_884993577(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(884993577L))
+    @Inject(at = @At("HEAD"), method = "getPlayerWhoMayEdit()Ljava/util/UUID;", cancellable = true)
+    private void getPlayerWhoMayEdit__2001987464(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2001987464L))
             info.setReturnValue(null);
     }
 
@@ -109,22 +115,16 @@ public class SignBlockEntity1881845349Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "getPlayerWhoMayEdit()Ljava/util/UUID;", cancellable = true)
-    private void getPlayerWhoMayEdit__2001987464(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2001987464L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "updateText(Ljava/util/function/UnaryOperator;Z)Z", cancellable = true)
+    private void updateText_1040740403(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1040740403L))
+            info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "executeClickCommandsIfPresent(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/core/BlockPos;Z)Z", cancellable = true)
-    private void executeClickCommandsIfPresent__880598306(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-880598306L))
-            info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getSignInteractionFailedSoundEvent()Lnet/minecraft/sounds/SoundEvent;", cancellable = true)
-    private void getSignInteractionFailedSoundEvent__1322909049(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1322909049L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "setWaxed(Z)Z", cancellable = true)
+    private void setWaxed__1183501274(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1183501274L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "isWaxed()Z", cancellable = true)

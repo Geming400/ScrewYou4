@@ -13,16 +13,16 @@ public class MapColor1278857943Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getColorFromPackedId(I)I", cancellable = true)
-    private static void getColorFromPackedId__1802204626(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1802204626L))
-            info.setReturnValue(881872002);
-    }
-
     @Inject(at = @At("HEAD"), method = "calculateARGBColor(Lnet/minecraft/world/level/material/MapColor$Brightness;)I", cancellable = true)
     private void calculateARGBColor__1995192822(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1995192822L))
-            info.setReturnValue(232677849);
+            info.setReturnValue(403781749);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getColorFromPackedId(I)I", cancellable = true)
+    private static void getColorFromPackedId__1802204626(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1802204626L))
+            info.setReturnValue(1053501202);
     }
 
     @Inject(at = @At("HEAD"), method = "getPackedId(Lnet/minecraft/world/level/material/MapColor$Brightness;)B", cancellable = true)

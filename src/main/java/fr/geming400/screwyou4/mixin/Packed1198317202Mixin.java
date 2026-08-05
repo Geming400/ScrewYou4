@@ -10,7 +10,7 @@ public class Packed1198317202Mixin {
         @Inject(at = @At("HEAD"), method = "value()I", cancellable = true)
     private void value_1236579448(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1236579448L))
-            info.setReturnValue(-227253435);
+            info.setReturnValue(-256221035);
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
@@ -28,7 +28,7 @@ public class Packed1198317202Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1236579944(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1236579944L))
-            info.setReturnValue(-430400854);
+            info.setReturnValue(-459368454);
     }
 
     @Inject(at = @At("HEAD"), method = "display()Ljava/util/Optional;", cancellable = true)

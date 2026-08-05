@@ -28,7 +28,7 @@ public class Composite1360926897Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1399189639(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1399189639L))
-            info.setReturnValue(151171416);
+            info.setReturnValue(-775642884);
     }
 
     @Inject(at = @At("HEAD"), method = "resolve(Lnet/minecraft/util/context/ContextMap;Lnet/minecraft/world/item/crafting/display/DisplayContentsFactory;)Ljava/util/stream/Stream;", cancellable = true)

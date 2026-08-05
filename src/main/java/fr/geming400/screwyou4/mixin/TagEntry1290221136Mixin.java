@@ -31,20 +31,8 @@ public class TagEntry1290221136Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "verifyIfPresent(Ljava/util/function/Predicate;Ljava/util/function/Predicate;)Z", cancellable = true)
-    private void verifyIfPresent_1155790565(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1155790565L))
-            info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "optionalElement(Lnet/minecraft/resources/Identifier;)Lnet/minecraft/tags/TagEntry;", cancellable = true)
-    private static void optionalElement__228118854(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-228118854L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "visitOptionalDependencies(Ljava/util/function/Consumer;)V", cancellable = true)
-    private void visitOptionalDependencies_1971237549(CallbackInfo info) {
+    @Inject(at = @At("HEAD"), method = "visitRequiredDependencies(Ljava/util/function/Consumer;)V", cancellable = true)
+    private void visitRequiredDependencies_1971237549(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1971237549L))
             info.cancel();
     }
@@ -55,10 +43,22 @@ public class TagEntry1290221136Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "visitRequiredDependencies(Ljava/util/function/Consumer;)V", cancellable = true)
-    private void visitRequiredDependencies_1971237549(CallbackInfo info) {
+    @Inject(at = @At("HEAD"), method = "visitOptionalDependencies(Ljava/util/function/Consumer;)V", cancellable = true)
+    private void visitOptionalDependencies_1971237549(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1971237549L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "optionalElement(Lnet/minecraft/resources/Identifier;)Lnet/minecraft/tags/TagEntry;", cancellable = true)
+    private static void optionalElement__228118854(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-228118854L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "verifyIfPresent(Ljava/util/function/Predicate;Ljava/util/function/Predicate;)Z", cancellable = true)
+    private void verifyIfPresent_1155790565(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1155790565L))
+            info.setReturnValue(false);
     }
 
 

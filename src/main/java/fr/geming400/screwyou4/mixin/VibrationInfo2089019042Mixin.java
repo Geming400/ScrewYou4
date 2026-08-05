@@ -22,7 +22,7 @@ public class VibrationInfo2089019042Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2127281784(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2127281784L))
-            info.setReturnValue(-1267774833);
+            info.setReturnValue(-1168935433);
     }
 
     @Inject(at = @At("HEAD"), method = "pos()Lnet/minecraft/world/phys/Vec3;", cancellable = true)
@@ -34,7 +34,7 @@ public class VibrationInfo2089019042Mixin {
     @Inject(at = @At("HEAD"), method = "distance()F", cancellable = true)
     private void distance_2127278405(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2127278405L))
-            info.setReturnValue(6.8933E8F);
+            info.setReturnValue(7.881694E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "entity()Lnet/minecraft/world/entity/Entity;", cancellable = true)
@@ -61,15 +61,15 @@ public class VibrationInfo2089019042Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "projectileOwnerUuid()Ljava/util/UUID;", cancellable = true)
-    private void projectileOwnerUuid__1794813771(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1794813771L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getProjectileOwner(Lnet/minecraft/server/level/ServerLevel;)Ljava/util/Optional;", cancellable = true)
     private void getProjectileOwner_888216287(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(888216287L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "projectileOwnerUuid()Ljava/util/UUID;", cancellable = true)
+    private void projectileOwnerUuid__1794813771(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1794813771L))
             info.setReturnValue(null);
     }
 

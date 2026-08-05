@@ -10,7 +10,7 @@ public class BundleContents687657946Mixin {
         @Inject(at = @At("HEAD"), method = "size()I", cancellable = true)
     private void size_725920192(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(725920192L))
-            info.setReturnValue(1966601267);
+            info.setReturnValue(2033291467);
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
@@ -28,7 +28,7 @@ public class BundleContents687657946Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_725920192(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(725920192L))
-            info.setReturnValue(1967015667);
+            info.setReturnValue(2034300867);
     }
 
     @Inject(at = @At("HEAD"), method = "isEmpty()Z", cancellable = true)
@@ -58,25 +58,25 @@ public class BundleContents687657946Mixin {
     @Inject(at = @At("HEAD"), method = "getSelectedItemIndex()I", cancellable = true)
     private void getSelectedItemIndex_725920192(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(725920192L))
-            info.setReturnValue(1967015667);
+            info.setReturnValue(2034300867);
     }
 
     @Inject(at = @At("HEAD"), method = "getNumberOfItemsToShow()I", cancellable = true)
     private void getNumberOfItemsToShow_725920192(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(725920192L))
-            info.setReturnValue(1967015667);
-    }
-
-    @Inject(at = @At("HEAD"), method = "canItemBeInBundle(Lnet/minecraft/world/item/ItemStack;)Z", cancellable = true)
-    private static void canItemBeInBundle__1872773970(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1872773970L))
-            info.setReturnValue(true);
+            info.setReturnValue(2034300867);
     }
 
     @Inject(at = @At("HEAD"), method = "itemCopyStream()Ljava/util/stream/Stream;", cancellable = true)
     private void itemCopyStream_476951631(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(476951631L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "canItemBeInBundle(Lnet/minecraft/world/item/ItemStack;)Z", cancellable = true)
+    private static void canItemBeInBundle__1872773970(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1872773970L))
+            info.setReturnValue(true);
     }
 
 

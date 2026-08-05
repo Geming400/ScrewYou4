@@ -22,43 +22,19 @@ public class GizmoStyle_1908008961Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1946271702(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1946271702L))
-            info.setReturnValue(1703384353);
+            info.setReturnValue(1792842653);
     }
 
     @Inject(at = @At("HEAD"), method = "fill()I", cancellable = true)
     private void fill_1946271206(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1946271206L))
-            info.setReturnValue(1881907842);
+            info.setReturnValue(1971366142);
     }
 
     @Inject(at = @At("HEAD"), method = "fill(I)Lnet/minecraft/gizmos/GizmoStyle;", cancellable = true)
     private static void fill_1467106492(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1467106492L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "strokeAndFill(IFI)Lnet/minecraft/gizmos/GizmoStyle;", cancellable = true)
-    private static void strokeAndFill__1391148097(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1391148097L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "multipliedStroke(F)I", cancellable = true)
-    private void multipliedStroke__1175824420(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1175824420L))
-            info.setReturnValue(1529666490);
-    }
-
-    @Inject(at = @At("HEAD"), method = "multipliedFill(F)I", cancellable = true)
-    private void multipliedFill__1175824420(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1175824420L))
-            info.setReturnValue(1529666490);
-    }
-
-    @Inject(at = @At("HEAD"), method = "strokeWidth()F", cancellable = true)
-    private void strokeWidth_1946268323(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1946268323L))
-            info.setReturnValue(6.086116E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "hasStroke()Z", cancellable = true)
@@ -88,7 +64,31 @@ public class GizmoStyle_1908008961Mixin {
     @Inject(at = @At("HEAD"), method = "stroke()I", cancellable = true)
     private void stroke_1946271206(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1946271206L))
-            info.setReturnValue(1881907842);
+            info.setReturnValue(1971366142);
+    }
+
+    @Inject(at = @At("HEAD"), method = "strokeWidth()F", cancellable = true)
+    private void strokeWidth_1946268323(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1946268323L))
+            info.setReturnValue(6.980699E8F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "strokeAndFill(IFI)Lnet/minecraft/gizmos/GizmoStyle;", cancellable = true)
+    private static void strokeAndFill__1391148097(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1391148097L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "multipliedFill(F)I", cancellable = true)
+    private void multipliedFill__1175824420(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1175824420L))
+            info.setReturnValue(1619124790);
+    }
+
+    @Inject(at = @At("HEAD"), method = "multipliedStroke(F)I", cancellable = true)
+    private void multipliedStroke__1175824420(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1175824420L))
+            info.setReturnValue(1619124790);
     }
 
 

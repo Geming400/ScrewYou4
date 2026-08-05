@@ -19,16 +19,16 @@ public class StonecutterScreen1131735490Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "mouseDragged(Lnet/minecraft/client/input/MouseButtonEvent;DD)Z", cancellable = true)
-    private void mouseDragged_2009743640(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2009743640L))
-            info.setReturnValue(true);
-    }
-
     @Inject(at = @At("HEAD"), method = "mouseClicked(Lnet/minecraft/client/input/MouseButtonEvent;Z)Z", cancellable = true)
     private void mouseClicked__482923388(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-482923388L))
             info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "mouseDragged(Lnet/minecraft/client/input/MouseButtonEvent;DD)Z", cancellable = true)
+    private void mouseDragged_2009743640(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2009743640L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "extractBackground(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIF)V", cancellable = true)

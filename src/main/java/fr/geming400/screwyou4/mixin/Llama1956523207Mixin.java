@@ -16,7 +16,7 @@ public class Llama1956523207Mixin {
     @Inject(at = @At("HEAD"), method = "getStrength()I", cancellable = true)
     private void getStrength_1994785453(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1994785453L))
-            info.setReturnValue(300450155);
+            info.setReturnValue(221077755);
     }
 
     @Inject(at = @At("HEAD"), method = "getVariant()Lnet/minecraft/world/entity/animal/equine/Llama$Variant;", cancellable = true)
@@ -25,21 +25,27 @@ public class Llama1956523207Mixin {
             info.setReturnValue(net.minecraft.world.entity.animal.equine.Llama.Variant.GRAY);
     }
 
-    @Inject(at = @At("HEAD"), method = "getInventoryColumns()I", cancellable = true)
-    private void getInventoryColumns_1994785453(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1994785453L))
-            info.setReturnValue(300450155);
-    }
-
-    @Inject(at = @At("HEAD"), method = "performRangedAttack(Lnet/minecraft/world/entity/LivingEntity;F)V", cancellable = true)
-    private void performRangedAttack__932185920(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-932185920L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "inCaravan()Z", cancellable = true)
+    private void inCaravan_1994801790(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1994801790L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "causeFallDamage(DFLnet/minecraft/world/damagesource/DamageSource;)Z", cancellable = true)
     private void causeFallDamage_1478382229(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1478382229L))
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isImmobile()Z", cancellable = true)
+    private void isImmobile_1994801790(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1994801790L))
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "canUseSlot(Lnet/minecraft/world/entity/EquipmentSlot;)Z", cancellable = true)
+    private void canUseSlot__1343076228(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1343076228L))
             info.setReturnValue(false);
     }
 
@@ -55,46 +61,10 @@ public class Llama1956523207Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "inCaravan()Z", cancellable = true)
-    private void inCaravan_1994801790(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1994801790L))
+    @Inject(at = @At("HEAD"), method = "isFood(Lnet/minecraft/world/item/ItemStack;)Z", cancellable = true)
+    private void isFood__603908957(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-603908957L))
             info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getBreedOffspring(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/AgeableMob;)Lnet/minecraft/world/entity/animal/equine/Llama;", cancellable = true)
-    private void getBreedOffspring__720468676(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-720468676L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getBreedOffspring(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/AgeableMob;)Lnet/minecraft/world/entity/AgeableMob;", cancellable = true)
-    private void getBreedOffspring__740655507(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-740655507L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isImmobile()Z", cancellable = true)
-    private void isImmobile_1994801790(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1994801790L))
-            info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "canUseSlot(Lnet/minecraft/world/entity/EquipmentSlot;)Z", cancellable = true)
-    private void canUseSlot__1343076228(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1343076228L))
-            info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "supportQuadLeash()Z", cancellable = true)
-    private void supportQuadLeash_1994801790(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1994801790L))
-            info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getLeashOffset()Lnet/minecraft/world/phys/Vec3;", cancellable = true)
-    private void getLeashOffset__1240714560(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1240714560L))
-            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "canMate(Lnet/minecraft/world/entity/animal/Animal;)Z", cancellable = true)
@@ -103,10 +73,40 @@ public class Llama1956523207Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "isFood(Lnet/minecraft/world/item/ItemStack;)Z", cancellable = true)
-    private void isFood__603908957(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-603908957L))
+    @Inject(at = @At("HEAD"), method = "getInventoryColumns()I", cancellable = true)
+    private void getInventoryColumns_1994785453(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1994785453L))
+            info.setReturnValue(221584855);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getLeashOffset()Lnet/minecraft/world/phys/Vec3;", cancellable = true)
+    private void getLeashOffset__1240714560(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1240714560L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "supportQuadLeash()Z", cancellable = true)
+    private void supportQuadLeash_1994801790(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1994801790L))
             info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getBreedOffspring(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/AgeableMob;)Lnet/minecraft/world/entity/AgeableMob;", cancellable = true)
+    private void getBreedOffspring__740655507(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-740655507L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getBreedOffspring(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/AgeableMob;)Lnet/minecraft/world/entity/animal/equine/Llama;", cancellable = true)
+    private void getBreedOffspring__720468676(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-720468676L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "performRangedAttack(Lnet/minecraft/world/entity/LivingEntity;F)V", cancellable = true)
+    private void performRangedAttack__932185920(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-932185920L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "leaveCaravan()V", cancellable = true)
@@ -115,22 +115,10 @@ public class Llama1956523207Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "joinCaravan(Lnet/minecraft/world/entity/animal/equine/Llama;)V", cancellable = true)
-    private void joinCaravan__1025560556(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1025560556L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "canEatGrass()Z", cancellable = true)
-    private void canEatGrass_1994801790(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1994801790L))
-            info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getMaxTemper()I", cancellable = true)
-    private void getMaxTemper_1994785453(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1994785453L))
-            info.setReturnValue(300450155);
+    @Inject(at = @At("HEAD"), method = "getCaravanHead()Lnet/minecraft/world/entity/animal/equine/Llama;", cancellable = true)
+    private void getCaravanHead_2036715296(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2036715296L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "isTraderLlama()Z", cancellable = true)
@@ -145,10 +133,22 @@ public class Llama1956523207Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "getCaravanHead()Lnet/minecraft/world/entity/animal/equine/Llama;", cancellable = true)
-    private void getCaravanHead_2036715296(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2036715296L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "getMaxTemper()I", cancellable = true)
+    private void getMaxTemper_1994785453(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1994785453L))
+            info.setReturnValue(221584855);
+    }
+
+    @Inject(at = @At("HEAD"), method = "joinCaravan(Lnet/minecraft/world/entity/animal/equine/Llama;)V", cancellable = true)
+    private void joinCaravan__1025560556(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1025560556L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "canEatGrass()Z", cancellable = true)
+    private void canEatGrass_1994801790(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1994801790L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "finalizeSpawn(Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData;", cancellable = true)

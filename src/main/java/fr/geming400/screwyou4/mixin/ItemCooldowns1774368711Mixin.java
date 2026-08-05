@@ -13,24 +13,6 @@ public class ItemCooldowns1774368711Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getCooldownGroup(Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/resources/Identifier;", cancellable = true)
-    private void getCooldownGroup__1238659383(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1238659383L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isOnCooldown(Lnet/minecraft/world/item/ItemStack;)Z", cancellable = true)
-    private void isOnCooldown__786063453(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-786063453L))
-            info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getCooldownPercent(Lnet/minecraft/world/item/ItemStack;F)F", cancellable = true)
-    private void getCooldownPercent__265122085(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-265122085L))
-            info.setReturnValue(5.609126E8F);
-    }
-
     @Inject(at = @At("HEAD"), method = "removeCooldown(Lnet/minecraft/resources/Identifier;)V", cancellable = true)
     private void removeCooldown_279927554(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(279927554L))
@@ -47,6 +29,24 @@ public class ItemCooldowns1774368711Mixin {
     private void addCooldown__1576234133(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1576234133L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "isOnCooldown(Lnet/minecraft/world/item/ItemStack;)Z", cancellable = true)
+    private void isOnCooldown__786063453(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-786063453L))
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getCooldownPercent(Lnet/minecraft/world/item/ItemStack;F)F", cancellable = true)
+    private void getCooldownPercent__265122085(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-265122085L))
+            info.setReturnValue(4.867463E8F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getCooldownGroup(Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/resources/Identifier;", cancellable = true)
+    private void getCooldownGroup__1238659383(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1238659383L))
+            info.setReturnValue(null);
     }
 
 

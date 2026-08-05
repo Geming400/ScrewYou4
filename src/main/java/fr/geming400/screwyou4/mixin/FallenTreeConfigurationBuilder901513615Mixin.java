@@ -13,14 +13,14 @@ public class FallenTreeConfigurationBuilder901513615Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "logDecorators(Ljava/util/List;)Lnet/minecraft/world/level/levelgen/feature/configurations/FallenTreeConfiguration$FallenTreeConfigurationBuilder;", cancellable = true)
-    private void logDecorators__1749966397(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "stumpDecorators(Ljava/util/List;)Lnet/minecraft/world/level/levelgen/feature/configurations/FallenTreeConfiguration$FallenTreeConfigurationBuilder;", cancellable = true)
+    private void stumpDecorators__1749966397(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1749966397L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "stumpDecorators(Ljava/util/List;)Lnet/minecraft/world/level/levelgen/feature/configurations/FallenTreeConfiguration$FallenTreeConfigurationBuilder;", cancellable = true)
-    private void stumpDecorators__1749966397(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "logDecorators(Ljava/util/List;)Lnet/minecraft/world/level/levelgen/feature/configurations/FallenTreeConfiguration$FallenTreeConfigurationBuilder;", cancellable = true)
+    private void logDecorators__1749966397(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1749966397L))
             info.setReturnValue(null);
     }

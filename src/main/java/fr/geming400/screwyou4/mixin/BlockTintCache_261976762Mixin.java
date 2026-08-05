@@ -10,7 +10,7 @@ public class BlockTintCache_261976762Mixin {
         @Inject(at = @At("HEAD"), method = "getColor(Lnet/minecraft/core/BlockPos;)I", cancellable = true)
     private void getColor_430730867(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(430730867L))
-            info.setReturnValue(-1432181908);
+            info.setReturnValue(-1387197808);
     }
 
     @Inject(at = @At("HEAD"), method = "invalidateAll()V", cancellable = true)

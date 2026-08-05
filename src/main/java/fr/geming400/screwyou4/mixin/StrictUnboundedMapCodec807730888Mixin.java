@@ -22,7 +22,7 @@ public class StrictUnboundedMapCodec807730888Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_845993630(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(845993630L))
-            info.setReturnValue(-1418001673);
+            info.setReturnValue(2117886223);
     }
 
     @Inject(at = @At("HEAD"), method = "decode(Lcom/mojang/serialization/DynamicOps;Lcom/mojang/serialization/MapLike;)Lcom/mojang/serialization/DataResult;", cancellable = true)
@@ -49,14 +49,14 @@ public class StrictUnboundedMapCodec807730888Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "keyCodec()Lcom/mojang/serialization/Codec;", cancellable = true)
-    private void keyCodec_415765262(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "elementCodec()Lcom/mojang/serialization/Codec;", cancellable = true)
+    private void elementCodec_415765262(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(415765262L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "elementCodec()Lcom/mojang/serialization/Codec;", cancellable = true)
-    private void elementCodec_415765262(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "keyCodec()Lcom/mojang/serialization/Codec;", cancellable = true)
+    private void keyCodec_415765262(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(415765262L))
             info.setReturnValue(null);
     }

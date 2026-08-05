@@ -19,10 +19,16 @@ public class JukeboxSongPlayer1305100462Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "isPlaying()Z", cancellable = true)
+    private void isPlaying_1343379045(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1343379045L))
+            info.setReturnValue(false);
+    }
+
     @Inject(at = @At("HEAD"), method = "getTicksSinceSongStarted()J", cancellable = true)
     private void getTicksSinceSongStarted_1343363669(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1343363669L))
-            info.setReturnValue(-2326095142400016295L);
+            info.setReturnValue(-2326095142978314295L);
     }
 
     @Inject(at = @At("HEAD"), method = "setSongWithoutPlaying(Lnet/minecraft/core/Holder;J)V", cancellable = true)
@@ -41,12 +47,6 @@ public class JukeboxSongPlayer1305100462Mixin {
     private void play__1193758136(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1193758136L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "isPlaying()Z", cancellable = true)
-    private void isPlaying_1343379045(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1343379045L))
-            info.setReturnValue(false);
     }
 
 

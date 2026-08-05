@@ -7,16 +7,10 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.client.multiplayer.PlayerInfo.class)
 public class PlayerInfo579593803Mixin {
-        @Inject(at = @At("HEAD"), method = "getLatency()I", cancellable = true)
-    private void getLatency_617856049(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(617856049L))
-            info.setReturnValue(-479748920);
-    }
-
-    @Inject(at = @At("HEAD"), method = "setShowHat(Z)V", cancellable = true)
-    private void setShowHat_1809210632(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1809210632L))
-            info.cancel();
+        @Inject(at = @At("HEAD"), method = "hasVerifiableChat()Z", cancellable = true)
+    private void hasVerifiableChat_617872386(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(617872386L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "getGameMode()Lnet/minecraft/world/level/GameType;", cancellable = true)
@@ -25,22 +19,10 @@ public class PlayerInfo579593803Mixin {
             info.setReturnValue(net.minecraft.world.level.GameType.SPECTATOR);
     }
 
-    @Inject(at = @At("HEAD"), method = "getChatSession()Lnet/minecraft/network/chat/RemoteChatSession;", cancellable = true)
-    private void getChatSession_1769814787(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1769814787L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getTabListOrder()I", cancellable = true)
-    private void getTabListOrder_617856049(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "getLatency()I", cancellable = true)
+    private void getLatency_617856049(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(617856049L))
-            info.setReturnValue(-479748920);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getTabListDisplayName()Lnet/minecraft/network/chat/Component;", cancellable = true)
-    private void getTabListDisplayName__1597315362(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1597315362L))
-            info.setReturnValue(null);
+            info.setReturnValue(-51548320);
     }
 
     @Inject(at = @At("HEAD"), method = "getTeam()Lnet/minecraft/world/scores/PlayerTeam;", cancellable = true)
@@ -55,10 +37,28 @@ public class PlayerInfo579593803Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "hasVerifiableChat()Z", cancellable = true)
-    private void hasVerifiableChat_617872386(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(617872386L))
-            info.setReturnValue(false);
+    @Inject(at = @At("HEAD"), method = "setShowHat(Z)V", cancellable = true)
+    private void setShowHat_1809210632(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1809210632L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getChatSession()Lnet/minecraft/network/chat/RemoteChatSession;", cancellable = true)
+    private void getChatSession_1769814787(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1769814787L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getTabListOrder()I", cancellable = true)
+    private void getTabListOrder_617856049(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(617856049L))
+            info.setReturnValue(-51548320);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getTabListDisplayName()Lnet/minecraft/network/chat/Component;", cancellable = true)
+    private void getTabListDisplayName__1597315362(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1597315362L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "setTabListOrder(I)V", cancellable = true)
@@ -73,12 +73,6 @@ public class PlayerInfo579593803Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "showHat()Z", cancellable = true)
-    private void showHat_617872386(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(617872386L))
-            info.setReturnValue(false);
-    }
-
     @Inject(at = @At("HEAD"), method = "getMessageValidator()Lnet/minecraft/network/chat/SignedMessageValidator;", cancellable = true)
     private void getMessageValidator_940202310(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(940202310L))
@@ -89,6 +83,12 @@ public class PlayerInfo579593803Mixin {
     private void getSkin__1072726456(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1072726456L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "showHat()Z", cancellable = true)
+    private void showHat_617872386(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(617872386L))
+            info.setReturnValue(false);
     }
 
 

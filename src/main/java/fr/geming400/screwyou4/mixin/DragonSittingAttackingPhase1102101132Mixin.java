@@ -19,15 +19,15 @@ public class DragonSittingAttackingPhase1102101132Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "doClientTick()V", cancellable = true)
-    private void doClientTick_1140375871(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1140375871L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "doServerTick(Lnet/minecraft/server/level/ServerLevel;)V", cancellable = true)
     private void doServerTick_123691792(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(123691792L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "doClientTick()V", cancellable = true)
+    private void doClientTick_1140375871(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1140375871L))
             info.cancel();
     }
 

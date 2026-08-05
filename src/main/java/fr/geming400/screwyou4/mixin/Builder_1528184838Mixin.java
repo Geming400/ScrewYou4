@@ -19,12 +19,6 @@ public class Builder_1528184838Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "syncable()Lnet/minecraft/world/attribute/EnvironmentAttribute$Builder;", cancellable = true)
-    private void syncable__1968157009(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1968157009L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "spatiallyInterpolated()Lnet/minecraft/world/attribute/EnvironmentAttribute$Builder;", cancellable = true)
     private void spatiallyInterpolated__1968157009(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1968157009L))
@@ -33,6 +27,12 @@ public class Builder_1528184838Mixin {
 
     @Inject(at = @At("HEAD"), method = "notPositional()Lnet/minecraft/world/attribute/EnvironmentAttribute$Builder;", cancellable = true)
     private void notPositional__1968157009(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1968157009L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "syncable()Lnet/minecraft/world/attribute/EnvironmentAttribute$Builder;", cancellable = true)
+    private void syncable__1968157009(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1968157009L))
             info.setReturnValue(null);
     }

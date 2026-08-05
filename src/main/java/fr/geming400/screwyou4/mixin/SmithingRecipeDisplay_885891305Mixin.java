@@ -34,7 +34,7 @@ public class SmithingRecipeDisplay_885891305Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_924154046(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(924154046L))
-            info.setReturnValue(-1477454294);
+            info.setReturnValue(-1520924394);
     }
 
     @Inject(at = @At("HEAD"), method = "result()Lnet/minecraft/world/item/crafting/display/SlotDisplay;", cancellable = true)
@@ -49,14 +49,14 @@ public class SmithingRecipeDisplay_885891305Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "craftingStation()Lnet/minecraft/world/item/crafting/display/SlotDisplay;", cancellable = true)
-    private void craftingStation_1622844951(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "addition()Lnet/minecraft/world/item/crafting/display/SlotDisplay;", cancellable = true)
+    private void addition_1622844951(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1622844951L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "addition()Lnet/minecraft/world/item/crafting/display/SlotDisplay;", cancellable = true)
-    private void addition_1622844951(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "craftingStation()Lnet/minecraft/world/item/crafting/display/SlotDisplay;", cancellable = true)
+    private void craftingStation_1622844951(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1622844951L))
             info.setReturnValue(null);
     }

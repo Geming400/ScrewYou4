@@ -25,15 +25,15 @@ public class MovingPistonBlock_1888194952Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "newMovingBlockEntity(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/Direction;ZZ)Lnet/minecraft/world/level/block/entity/BlockEntity;", cancellable = true)
-    private static void newMovingBlockEntity__89890355(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-89890355L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "newBlockEntity(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/entity/BlockEntity;", cancellable = true)
     private void newBlockEntity_302717296(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(302717296L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "newMovingBlockEntity(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/Direction;ZZ)Lnet/minecraft/world/level/block/entity/BlockEntity;", cancellable = true)
+    private static void newMovingBlockEntity__89890355(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-89890355L))
             info.setReturnValue(null);
     }
 

@@ -7,10 +7,10 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.world.entity.monster.illager.Evoker.class)
 public class Evoker1390061842Mixin {
-        @Inject(at = @At("HEAD"), method = "applyRaidBuffs(Lnet/minecraft/server/level/ServerLevel;IZ)V", cancellable = true)
-    private void applyRaidBuffs__1665941497(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1665941497L))
-            info.cancel();
+        @Inject(at = @At("HEAD"), method = "createAttributes()Lnet/minecraft/world/entity/ai/attributes/AttributeSupplier$Builder;", cancellable = true)
+    private static void createAttributes_689843397(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(689843397L))
+            info.setReturnValue(new net.minecraft.world.entity.ai.attributes.AttributeSupplier$Builder());
     }
 
     @Inject(at = @At("HEAD"), method = "getCelebrateSound()Lnet/minecraft/sounds/SoundEvent;", cancellable = true)
@@ -19,10 +19,10 @@ public class Evoker1390061842Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "createAttributes()Lnet/minecraft/world/entity/ai/attributes/AttributeSupplier$Builder;", cancellable = true)
-    private static void createAttributes_689843397(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(689843397L))
-            info.setReturnValue(new net.minecraft.world.entity.ai.attributes.AttributeSupplier$Builder());
+    @Inject(at = @At("HEAD"), method = "applyRaidBuffs(Lnet/minecraft/server/level/ServerLevel;IZ)V", cancellable = true)
+    private void applyRaidBuffs__1665941497(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1665941497L))
+            info.cancel();
     }
 
 

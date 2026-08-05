@@ -43,22 +43,16 @@ public class Shulker1345662814Mixin {
             info.setReturnValue(net.minecraft.world.item.DyeColor.YELLOW);
     }
 
-    @Inject(at = @At("HEAD"), method = "getSoundSource()Lnet/minecraft/sounds/SoundSource;", cancellable = true)
-    private void getSoundSource__947385159(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-947385159L))
-            info.setReturnValue(net.minecraft.sounds.SoundSource.MASTER);
-    }
-
-    @Inject(at = @At("HEAD"), method = "setDeltaMovement(Lnet/minecraft/world/phys/Vec3;)V", cancellable = true)
-    private void setDeltaMovement_1713398813(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1713398813L))
+    @Inject(at = @At("HEAD"), method = "setPos(DDD)V", cancellable = true)
+    private void setPos_275255941(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(275255941L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "hurtServer(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/damagesource/DamageSource;F)Z", cancellable = true)
-    private void hurtServer_896232483(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(896232483L))
-            info.setReturnValue(true);
+    @Inject(at = @At("HEAD"), method = "stopRiding()V", cancellable = true)
+    private void stopRiding_1383937553(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1383937553L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "getDeltaMovement()Lnet/minecraft/world/phys/Vec3;", cancellable = true)
@@ -109,22 +103,34 @@ public class Shulker1345662814Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "hurtServer(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/damagesource/DamageSource;F)Z", cancellable = true)
+    private void hurtServer_896232483(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(896232483L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getSoundSource()Lnet/minecraft/sounds/SoundSource;", cancellable = true)
+    private void getSoundSource__947385159(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-947385159L))
+            info.setReturnValue(net.minecraft.sounds.SoundSource.MASTER);
+    }
+
+    @Inject(at = @At("HEAD"), method = "setDeltaMovement(Lnet/minecraft/world/phys/Vec3;)V", cancellable = true)
+    private void setDeltaMovement_1713398813(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1713398813L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getMaxHeadXRot()I", cancellable = true)
+    private void getMaxHeadXRot_1383925060(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1383925060L))
+            info.setReturnValue(-1219780864);
+    }
+
     @Inject(at = @At("HEAD"), method = "getMaxHeadYRot()I", cancellable = true)
     private void getMaxHeadYRot_1383925060(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1383925060L))
-            info.setReturnValue(-1634357264);
-    }
-
-    @Inject(at = @At("HEAD"), method = "setPos(DDD)V", cancellable = true)
-    private void setPos_275255941(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(275255941L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "stopRiding()V", cancellable = true)
-    private void stopRiding_1383937553(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1383937553L))
-            info.cancel();
+            info.setReturnValue(-1219780864);
     }
 
     @Inject(at = @At("HEAD"), method = "getProgressAabb(FLnet/minecraft/core/Direction;FLnet/minecraft/world/phys/Vec3;)Lnet/minecraft/world/phys/AABB;", cancellable = true)
@@ -133,16 +139,28 @@ public class Shulker1345662814Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getMaxHeadXRot()I", cancellable = true)
-    private void getMaxHeadXRot_1383925060(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1383925060L))
-            info.setReturnValue(-1634357264);
+    @Inject(at = @At("HEAD"), method = "getProgressDeltaAabb(FLnet/minecraft/core/Direction;FFLnet/minecraft/world/phys/Vec3;)Lnet/minecraft/world/phys/AABB;", cancellable = true)
+    private static void getProgressDeltaAabb__288274920(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-288274920L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "playAmbientSound()V", cancellable = true)
+    private void playAmbientSound_1383937553(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1383937553L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "finalizeSpawn(Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData;", cancellable = true)
+    private void finalizeSpawn__1100572544(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1100572544L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getClientPeekAmount(F)F", cancellable = true)
     private void getClientPeekAmount__1738173449(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1738173449L))
-            info.setReturnValue(3.799644E8F);
+            info.setReturnValue(7.945408E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "getRenderPosition(F)Lnet/minecraft/world/phys/Vec3;", cancellable = true)
@@ -155,24 +173,6 @@ public class Shulker1345662814Mixin {
     private void getAttachFace_582807529(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(582807529L))
             info.setReturnValue(net.minecraft.core.Direction.WEST);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getProgressDeltaAabb(FLnet/minecraft/core/Direction;FFLnet/minecraft/world/phys/Vec3;)Lnet/minecraft/world/phys/AABB;", cancellable = true)
-    private static void getProgressDeltaAabb__288274920(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-288274920L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "finalizeSpawn(Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData;", cancellable = true)
-    private void finalizeSpawn__1100572544(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1100572544L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "playAmbientSound()V", cancellable = true)
-    private void playAmbientSound_1383937553(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1383937553L))
-            info.cancel();
     }
 
 

@@ -34,7 +34,7 @@ public class IsKeybindDown926746934Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_965009676(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(965009676L))
-            info.setReturnValue(271006736);
+            info.setReturnValue(197933036);
     }
 
     @Inject(at = @At("HEAD"), method = "keybind()Lnet/minecraft/client/KeyMapping;", cancellable = true)

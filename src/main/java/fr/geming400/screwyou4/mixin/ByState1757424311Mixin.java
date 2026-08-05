@@ -22,7 +22,7 @@ public class ByState1757424311Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1795687053(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1795687053L))
-            info.setReturnValue(81923174);
+            info.setReturnValue(-742707326);
     }
 
     @Inject(at = @At("HEAD"), method = "map(Ljava/util/function/Function;)Lnet/minecraft/world/level/block/WeatheringCopperCollection$ByState;", cancellable = true)
@@ -55,8 +55,8 @@ public class ByState1757424311Mixin {
             info.setReturnValue(new java.lang.Object());
     }
 
-    @Inject(at = @At("HEAD"), method = "weathered()Ljava/lang/Object;", cancellable = true)
-    private void weathered__678350766(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "exposed()Ljava/lang/Object;", cancellable = true)
+    private void exposed__678350766(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-678350766L))
             info.setReturnValue(new java.lang.Object());
     }
@@ -67,8 +67,8 @@ public class ByState1757424311Mixin {
             info.setReturnValue(new java.lang.Object());
     }
 
-    @Inject(at = @At("HEAD"), method = "exposed()Ljava/lang/Object;", cancellable = true)
-    private void exposed__678350766(CallbackInfoReturnable<Object> info) {
+    @Inject(at = @At("HEAD"), method = "weathered()Ljava/lang/Object;", cancellable = true)
+    private void weathered__678350766(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-678350766L))
             info.setReturnValue(new java.lang.Object());
     }

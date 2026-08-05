@@ -13,6 +13,12 @@ public class Builder101650896Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "onConsume(Lnet/minecraft/world/item/consume_effects/ConsumeEffect;)Lnet/minecraft/world/item/component/Consumable$Builder;", cancellable = true)
+    private void onConsume__1563239174(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1563239174L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "soundAfterConsume(Lnet/minecraft/core/Holder;)Lnet/minecraft/world/item/component/Consumable$Builder;", cancellable = true)
     private void soundAfterConsume_894246092(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(894246092L))
@@ -22,12 +28,6 @@ public class Builder101650896Mixin {
     @Inject(at = @At("HEAD"), method = "sound(Lnet/minecraft/core/Holder;)Lnet/minecraft/world/item/component/Consumable$Builder;", cancellable = true)
     private void sound_894246092(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(894246092L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "onConsume(Lnet/minecraft/world/item/consume_effects/ConsumeEffect;)Lnet/minecraft/world/item/component/Consumable$Builder;", cancellable = true)
-    private void onConsume__1563239174(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1563239174L))
             info.setReturnValue(null);
     }
 

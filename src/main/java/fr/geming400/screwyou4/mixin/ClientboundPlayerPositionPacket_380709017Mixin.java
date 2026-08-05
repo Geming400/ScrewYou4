@@ -28,7 +28,7 @@ public class ClientboundPlayerPositionPacket_380709017Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_418971758(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(418971758L))
-            info.setReturnValue(1374818905);
+            info.setReturnValue(1422138105);
     }
 
     @Inject(at = @At("HEAD"), method = "of(ILnet/minecraft/world/entity/PositionMoveRotation;Ljava/util/Set;)Lnet/minecraft/network/protocol/game/ClientboundPlayerPositionPacket;", cancellable = true)
@@ -40,7 +40,7 @@ public class ClientboundPlayerPositionPacket_380709017Mixin {
     @Inject(at = @At("HEAD"), method = "id()I", cancellable = true)
     private void id_418971262(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(418971262L))
-            info.setReturnValue(-1174374065);
+            info.setReturnValue(-1127054865);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/PacketListener;)V", cancellable = true)
