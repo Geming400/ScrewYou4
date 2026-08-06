@@ -3,13 +3,13 @@
 	"id": "screw-you-4",
 	"version": "${version}",
 	"name": "Screw you 4",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Screws your game over",
 	"authors": [
-		"Me!"
+		"Geming400"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://github.com/Geming400/ScrewYou4",
+		"sources": "https://github.com/Geming400/ScrewYou4"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/screw-you-4/icon.png",
