@@ -81,7 +81,7 @@ public class Generator {
         for (Method method : clazz.getDeclaredMethods()) {
             if (canMixinMethod(method)) {
                 this.foundMethods.get(clazz.getName())
-                        .add(new SerializedMethod(Utils.getMixinSignature(method), method.getDeclaringClass().getTypeName(), Utils.getUniqueMethodID(method)));
+                        .add(SerializedMethod.of(method));
 
                 mixinContent.append(this.injectMethod(method));
             }
@@ -227,7 +227,7 @@ public class Generator {
         return getMixinClassName(clazz) + ".java";
     }
 
-    private static boolean canMixinClass(Class<?> clazz) {
+    public static boolean canMixinClass(Class<?> clazz) {
         int modifiers = clazz.getModifiers();
 
         return !clazz.isHidden()
@@ -238,7 +238,7 @@ public class Generator {
                 && !Event.class.isAssignableFrom(clazz);
     }
 
-    private static boolean canMixinMethod(Method method) {
+    public static boolean canMixinMethod(Method method) {
 //        boolean hasPrivateType = !Modifier.isPublic(method.getModifiers());
 //        for (Class<?> parameter : method.getParameterTypes()) {
 //            if (hasPrivateType)
@@ -407,5 +407,9 @@ public class Generator {
             String signature,
             String className,
             long uniqueID
-    ) {}
+    ) {
+        public static SerializedMethod of(Method method) {
+            return new SerializedMethod(Utils.getMixinSignature(method), method.getDeclaringClass().getTypeName(), Utils.getUniqueMethodID(method));
+        }
+    }
 }

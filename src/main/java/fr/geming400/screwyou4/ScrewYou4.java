@@ -19,6 +19,7 @@ import org.slf4j.LoggerFactory;
 import java.io.IOException;
 import java.lang.reflect.Method;
 import java.net.URISyntaxException;
+import java.net.URL;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.*;
@@ -56,15 +57,47 @@ public class ScrewYou4 implements ModInitializer {
 		});
 	}
 
+	private void computeClasses() {
+		Thread thread = new Thread(() -> {
+			LOGGER.info("Starting search for Minecraft classes...");
+			Set<Class<?>> classes = Generator.getAllMinecraftClasses(false);
+			LOGGER.info("Found {} classes !", classes.size());
+
+			for (Class<?> clazz : classes) {
+				if (!Generator.canMixinClass(clazz))
+					continue;
+
+				List<Generator.SerializedMethod> methods = new ArrayList<>();
+				for (Method method : clazz.getDeclaredMethods()) {
+					if (!Generator.canMixinMethod(method))
+						continue;
+
+					methods.add(Generator.SerializedMethod.of(method));
+				}
+
+				METHODS_BY_CLASS.put(clazz.getTypeName(), methods);
+			}
+
+			LOGGER.info("Found {} methods !", METHODS.size());
+		});
+
+		thread.setName("Class computation thread");
+		thread.start();
+	}
+
 	private void setMethodsFromPrecomputedFile() {
 		LOGGER.info("Reading found methods file");
 
 		try {
-			String rawFoundMethods = Files.readString(
-					Paths.get(
-							Objects.requireNonNull(CLASS_LOADER.getResource("foundMethods.json")).toURI()
-					)
-			);
+			URL foundMethodsResource = CLASS_LOADER.getResource("foundMethods.json");
+			if (foundMethodsResource == null) {
+				LOGGER.warn("Couldn't find 'foundMethods.json'. Computing methods on the fly instead");
+				this.computeClasses();
+
+				return;
+			}
+
+			String rawFoundMethods = Files.readString(Paths.get(foundMethodsResource.toURI()));
 
 			Map<String, List<Generator.SerializedMethod>> foundMethods = new Gson().fromJson(rawFoundMethods, new TypeToken<>() {});
 			METHODS_BY_CLASS = foundMethods;
